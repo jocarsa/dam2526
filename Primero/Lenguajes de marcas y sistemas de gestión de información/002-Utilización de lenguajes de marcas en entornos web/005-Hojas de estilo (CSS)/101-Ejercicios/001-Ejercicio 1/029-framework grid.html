@@ -71,7 +71,48 @@
         text-decoration:none;   /* No me subrayes el texto */
         
       }
-      
+      .contenedor{    /* Estiliza todos los elementos que sean de clase contenedor */
+        display:flex;
+        gap:20px;
+      }
+      #contacto .contenedor form{
+        flex:1;
+        display:flex;
+        flex-direction:column;
+        gap:10px;
+      }
+      #contacto .contenedor iframe{
+        flex:1;
+        
+      }
+      footer{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        gap:2px;
+      }
+      footer a{
+        text-decoration:none;
+        color:white;
+        background:DarkSlateBlue;
+        padding:5px;
+        font-size:10px;
+        text-transform:uppercase;
+      }
+      footer a:first-child{
+        border-radius:10px 0px 0px 10px;
+      }
+      footer a:last-child{
+        border-radius:0px 10px 10px 0px;
+      }
+      #portafolio #contenedor{
+        display:grid;
+        grid-template-columns:auto auto auto;
+      }
+      #portafolio #contenedor article{
+        border:1px solid ghostwhite;
+        box-shadow:0px 2px 4px grey;
+      }
     </style>
   </head>
   <body>
@@ -152,18 +193,21 @@
       </section>
       <section id="contacto">
         <h3>Contacto</h3>
-        <form>
-          <p>Para ponerte en contacto conmigo, envía el siguiente formulario</p>
-          <label>Introduce tu nombre</label>
-          <input type="text" name="nombre">
-          <label>Introduce tu correo electrónico</label>
-          <input type="email" name="correoelectronico">
-          <label>Introduce tu mensaje</label>
-          <textarea name="mensaje">
-          </textarea>
-          <input type="submit">
-        </form>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d659.4964169650499!2d-0.4204511102781017!3d39.47433040541895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f9ab80223c9%3A0x27dd1527e8b94444!2sAnytime%20Fitness%20Mislata!5e1!3m2!1ses!2ses!4v1758199441538!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="contenedor">
+          <form>
+            <p>Para ponerte en contacto conmigo, envía el siguiente formulario</p>
+            <label>Introduce tu nombre</label>
+            <input type="text" name="nombre">
+            <label>Introduce tu correo electrónico</label>
+            <input type="email" name="correoelectronico">
+            <label>Introduce tu mensaje</label>
+            <textarea name="mensaje">
+            </textarea>
+            <input type="submit">
+          </form>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d659.4964169650499!2d-0.4204511102781017!3d39.47433040541895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f9ab80223c9%3A0x27dd1527e8b94444!2sAnytime%20Fitness%20Mislata!5e1!3m2!1ses!2ses!4v1758199441538!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
       </section>
     </main>
     <footer>
