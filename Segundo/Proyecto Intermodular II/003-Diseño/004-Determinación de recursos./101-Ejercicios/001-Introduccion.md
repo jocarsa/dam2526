@@ -53,6 +53,24 @@ En el supuesto de competir en precio con Holded o similares - asumiendo mismo pr
 Podríamos vender 112 licencias de software en un año?
 
 
+Opción 2:
+Si la estimación económica es muy alta, es muy fuerte, rebajemos recursos necesarios al mínimo para poder arrancar el negocio:
+
+1 desarrollador desarrolla, implanta, arranca,
+ese mismo desarrollador hace el soporte
+Equipo propio, servidor propio
+
+1000 equipo de desarrollo
+1000 servidor
+1300euros * 12 meses = 
+Total de 18.000 euros de presupuesto
+
+Supuesto de que licencias cuestan 720 euros
+Tendrías que vender 25 licencias para empezar a alcanzar rentabilidad
+
+
+
+
 
 
 
