@@ -176,6 +176,9 @@ sudo systemctl restart odoo
    👉 `http://localhost:8069`
 2. Crea o entra en una base de datos.
 3. Ve a **Configuración → Activar Modo Desarrollador**.
+
+-Entrar en modo desarrollo: http://localhost:8069?debug=1
+
 4. Entra en **Aplicaciones**, pulsa “Actualizar lista de aplicaciones”.
 5. Busca **“Módulo de Ejemplo”** y haz clic en **Instalar**.
 
