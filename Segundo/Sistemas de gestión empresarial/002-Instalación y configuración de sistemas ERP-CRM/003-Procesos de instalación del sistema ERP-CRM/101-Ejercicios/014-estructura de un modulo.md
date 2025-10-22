@@ -185,8 +185,5 @@ sudo systemctl restart odoo
 
 Tras instalarlo, en el menú superior aparecerá una nueva entrada **“Notas de Ejemplo”**, donde podrás crear, editar y listar tus registros.
 
----
 
-¿Quieres que te prepare el mismo módulo pero con **campos adicionales**, relaciones (por ejemplo, “Categoría de nota”) y **registro inicial (`data/demo.xml`)** para verlo lleno de ejemplos?
-Así tendrías una base para crear módulos reales con datos de prueba.
 
