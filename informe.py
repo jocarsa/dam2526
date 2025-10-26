@@ -6,6 +6,7 @@ from datetime import datetime
 from zoneinfo import ZoneInfo
 import subprocess
 import shutil
+import re
 
 # ===================== Configuración =====================
 BASE_PATH = Path("/var/www/html/dam2526")
@@ -14,18 +15,20 @@ EXCLUDE_DIRS = {".git", ".vscode"}
 TARGET_SUBFOLDER = "101-Ejercicios"
 TZ = ZoneInfo("Europe/Madrid")
 
-OLLAMA_MODEL = "llama3.1:8b-instruct-q4_0"  # Cambia si prefieres otro
+OLLAMA_MODEL = "llama3.1:8b-instruct-q4_0"  # o 'qwen2.5-coder:7b'
 
 # Límites de seguridad
 MAX_SUBUNIT_PROMPT_CHARS = 20000   # total por subunidad
 PER_FILE_SNIPPET_CHARS   = 2500    # máximo por archivo
-MAX_FILES_PER_SUBUNIT    = 40      # por si hay demasiados archivos
+MAX_FILES_PER_SUBUNIT    = 40      # tope de archivos por subunidad
 MAX_FILE_SIZE_BYTES      = 2 * 1024 * 1024  # ignora >2MB
+
+# Longitud objetivo del párrafo final
+MAX_SUMMARY_WORDS = 180
 # =========================================================
 
 
 def human_date(ts: float) -> str:
-    """Devuelve la fecha YYYY-MM-DD local."""
     return datetime.fromtimestamp(ts, TZ).strftime("%Y-%m-%d")
 
 
@@ -44,19 +47,17 @@ def list_dir_clean(p: Path):
 
 
 def is_text_file(path: Path) -> bool:
-    """Detecta si un archivo es de texto mediante heurística."""
+    """Heurística robusta para detectar archivos de texto (independiente de extensión)."""
     try:
         if not path.is_file():
             return False
-        if path.stat().st_size == 0:
+        size = path.stat().st_size
+        if size == 0 or size > MAX_FILE_SIZE_BYTES:
             return False
-        if path.stat().st_size > MAX_FILE_SIZE_BYTES:
-            return False  # saltar archivos demasiado grandes
         with path.open("rb") as fh:
             head = fh.read(4096)
         if b"\x00" in head:
-            return False  # archivo binario
-        # si se decodifica parcialmente como UTF-8, lo consideramos texto
+            return False  # binario
         head.decode("utf-8", errors="ignore")
         return True
     except Exception:
@@ -71,7 +72,7 @@ def safe_read_text(path: Path, limit: int = PER_FILE_SNIPPET_CHARS) -> str:
         return ""
     if len(data) <= limit:
         return data
-    chunk = limit // 3
+    chunk = max(1, limit // 3)
     start = data[:chunk]
     mid_start = max((len(data) - chunk) // 2, 0)
     middle = data[mid_start: mid_start + chunk]
@@ -90,18 +91,24 @@ def summarize_dates(folder: Path):
 
 
 def build_ollama_prompt(subunit_name: str, file_snippets: list[str]) -> str:
-    header = (
-        "Eres un experto que resume materiales de aprendizaje.\n"
-        f"Redacta **un único párrafo en español** que describa brevemente los contenidos "
-        f"de los archivos de la subunidad '{subunit_name}'.\n"
-        "Enfócate en los temas, conceptos o ejercicios principales. No hagas listas ni numeraciones.\n\n"
+    """Prompt reforzado: una sola salida de párrafo, sin listas ni intro."""
+    guardrails = (
+        "TAREA: Redacta exactamente UN PÁRRAFO en español que resuma los temas, objetivos y ejercicios "
+        f"presentes en los archivos de la subunidad «{subunit_name}».\n"
+        "REQUISITOS OBLIGATORIOS:\n"
+        "1) Un solo párrafo; sin saltos de línea dobles.\n"
+        "2) Prohibido usar encabezados, listas, viñetas o enumeraciones.\n"
+        "3) Prohibido introducirte (nada de 'Aquí te presento...', 'En esta sección...', 'A continuación...').\n"
+        "4) Integra ideas de forma concisa y cohesionada; tono técnico y claro; máximo ~160 palabras.\n"
+        "5) No describas el código paso a paso ni listados de funciones; resume el propósito y los conceptos.\n\n"
+        "Fragmentos de archivos (pueden contener ruido o plantillas repetidas):\n\n"
     )
     body = "\n\n".join(file_snippets)
-    return (header + body)[:MAX_SUBUNIT_PROMPT_CHARS]
+    return (guardrails + body)[:MAX_SUBUNIT_PROMPT_CHARS]
 
 
 def run_ollama(model: str, prompt: str) -> str | None:
-    """Ejecuta 'ollama run <model>' y devuelve el texto."""
+    """Ejecuta 'ollama run <model>' y devuelve la salida como texto."""
     if shutil.which("ollama") is None:
         return None
     try:
@@ -114,12 +121,67 @@ def run_ollama(model: str, prompt: str) -> str | None:
             timeout=120
         )
         out = (proc.stdout or "").strip()
-        if not out:
-            return None
-        return out
+        return out if out else None
     except Exception:
         return None
 
+
+# --------------------- Sanitizador de salida ---------------------
+
+INTRO_PATTERNS = [
+    r"^\s*aqu[ií] te presento.*?$",
+    r"^\s*en (esta|la) (secci[oó]n|subunidad).*?$",
+    r"^\s*a continuaci[oó]n.*?$",
+    r"^\s*este (documento|c[oó]digo|m[oó]dulo).*?$",
+    r"^\s*el c[oó]digo proporcionado.*?$",
+    r"^\s*en general,.*?$",
+    r"^\s*resumen:?\s*",
+]
+INTRO_REGEXES = [re.compile(pat, re.IGNORECASE | re.MULTILINE) for pat in INTRO_PATTERNS]
+
+def clean_to_single_paragraph(text: str, max_words: int = MAX_SUMMARY_WORDS) -> str:
+    if not text:
+        return ""
+
+    # Elimina fences y encabezados/bullets obvios
+    text = re.sub(r"```.*?```", " ", text, flags=re.DOTALL)   # bloques de código
+    text = re.sub(r"`[^`]*`", " ", text)                      # inline code
+    text = re.sub(r"^\s*#{1,6}\s+.*$", " ", text, flags=re.MULTILINE)  # # encabezados
+    text = re.sub(r"^\s*[-*•]\s+", " ", text, flags=re.MULTILINE)      # viñetas
+    text = re.sub(r"^\s*\d+[\.)]\s+", " ", text, flags=re.MULTILINE)   # enumeraciones
+
+    # Quita párrafos introductorios metadiscursivos al inicio
+    # Tomamos primeras 3 líneas y si matchean, las eliminamos
+    lines = text.splitlines()
+    cleaned_lines = []
+    for i, ln in enumerate(lines):
+        if i < 3:
+            skip = any(rx.match(ln.strip()) for rx in INTRO_REGEXES)
+            if skip:
+                continue
+        cleaned_lines.append(ln)
+    text = "\n".join(cleaned_lines)
+
+    # Colapsa saltos de línea a espacios (un solo párrafo)
+    text = re.sub(r"\s*\n\s*", " ", text)
+    # Quita múltiples espacios
+    text = re.sub(r"\s{2,}", " ", text).strip(" \t\r\n-—:;")
+
+    # Si todavía empieza con intro típica, corta esa frase inicial
+    for rx in INTRO_REGEXES:
+        text = rx.sub("", text).strip()
+
+    # Forzar límite de palabras
+    words = text.split()
+    if len(words) > max_words:
+        text = " ".join(words[:max_words]).rstrip(",.;:") + "."
+
+    # Asegura que no se cuele más de un punto y aparte
+    text = re.sub(r"\s*\n\s*", " ", text).strip()
+    return text
+
+
+# --------------------- Generación del informe ---------------------
 
 def build_report(base: Path) -> str:
     lines = []
@@ -156,7 +218,7 @@ def build_report(base: Path) -> str:
                     if not resumen_fechas:
                         continue
 
-                    # Recolectar archivos de texto
+                    # Archivos de texto
                     text_files = [
                         f for f in sorted(ejercicios_dir.iterdir(), key=lambda x: x.name.lower())
                         if is_text_file(f)
@@ -164,8 +226,8 @@ def build_report(base: Path) -> str:
                     if not text_files:
                         continue
 
-                    snippets = []
-                    total_chars = 0
+                    # Snippets limitados
+                    snippets, total_chars = [], 0
                     for f in text_files[:MAX_FILES_PER_SUBUNIT]:
                         snippet = f"### {f.name}\n{safe_read_text(f)}"
                         if not snippet.strip():
@@ -174,7 +236,6 @@ def build_report(base: Path) -> str:
                             break
                         snippets.append(snippet)
                         total_chars += len(snippet)
-
                     if not snippets:
                         continue
 
@@ -182,8 +243,10 @@ def build_report(base: Path) -> str:
                     d1, d2 = human_date(earliest), human_date(latest)
                     date_str = d1 if d1 == d2 else f"{d1} → {d2}"
 
+                    # LLM -> resumen
                     prompt = build_ollama_prompt(subunidad.name, snippets)
-                    summary = run_ollama(OLLAMA_MODEL, prompt)
+                    raw_summary = run_ollama(OLLAMA_MODEL, prompt)
+                    summary = clean_to_single_paragraph(raw_summary or "")
 
                     unit_lines.append(f"- `{subunidad.name}` — {date_str}")
                     if summary:
