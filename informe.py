@@ -10,7 +10,7 @@ import re
 
 # ===================== Configuración =====================
 BASE_PATH = Path("/var/www/html/dam2526")
-OUTPUT_FILE = BASE_PATH / "informe.md"
+OUTPUT_FILE = BASE_PATH / "README.md"
 EXCLUDE_DIRS = {".git", ".vscode"}
 TARGET_SUBFOLDER = "101-Ejercicios"
 TZ = ZoneInfo("Europe/Madrid")
@@ -24,7 +24,8 @@ MAX_FILES_PER_SUBUNIT    = 40      # tope de archivos por subunidad
 MAX_FILE_SIZE_BYTES      = 2 * 1024 * 1024  # ignora >2MB
 
 # Longitud objetivo del párrafo final
-MAX_SUMMARY_WORDS = 180
+MAX_SUMMARY_WORDS = 160
+MAX_SENTENCES = 6
 # =========================================================
 
 
@@ -90,18 +91,32 @@ def summarize_dates(folder: Path):
     return min(times), max(times)
 
 
+# --------------------- Prompt ultrarreforzado ---------------------
+
 def build_ollama_prompt(subunit_name: str, file_snippets: list[str]) -> str:
-    """Prompt reforzado: una sola salida de párrafo, sin listas ni intro."""
+    """
+    Prompt con reglas estrictas:
+    - Un ÚNICO párrafo en español (3–6 frases, ~90–140 palabras).
+    - Sin encabezados, listas, viñetas, enumeraciones ni bloques de código.
+    - Sin intros metadiscursivas (“Resumen:”, “Aquí te presento…”, “En esta sección…”).
+    - Sin consejos, correcciones, advertencias, ni propuestas de mejora.
+    - No analizar código ni describir funciones/pasos; sintetizar los CONCEPTOS impartidos en clase.
+    - Si el material está fragmentado, generalizar a objetivos, nociones clave y prácticas realizadas.
+    - Devuelve EXCLUSIVAMENTE el párrafo, sin comillas ni títulos.
+    """
     guardrails = (
-        "TAREA: Redacta exactamente UN PÁRRAFO en español que resuma los temas, objetivos y ejercicios "
-        f"presentes en los archivos de la subunidad «{subunit_name}».\n"
-        "REQUISITOS OBLIGATORIOS:\n"
-        "1) Un solo párrafo; sin saltos de línea dobles.\n"
-        "2) Prohibido usar encabezados, listas, viñetas o enumeraciones.\n"
-        "3) Prohibido introducirte (nada de 'Aquí te presento...', 'En esta sección...', 'A continuación...').\n"
-        "4) Integra ideas de forma concisa y cohesionada; tono técnico y claro; máximo ~160 palabras.\n"
-        "5) No describas el código paso a paso ni listados de funciones; resume el propósito y los conceptos.\n\n"
-        "Fragmentos de archivos (pueden contener ruido o plantillas repetidas):\n\n"
+        f"Instrucciones (OBLIGATORIAS):\n"
+        f"- Redacta exactamente UN párrafo en español, 3–6 frases, ~90–140 palabras, "
+        f"que resuma lo ENSEÑADO en la clase correspondiente a la subunidad «{subunit_name}».\n"
+        f"- Prohibido encabezados, listas, viñetas, enumeraciones o bloques de código.\n"
+        f"- Prohibido prefacios, disculpas o frases metadiscursivas (nada de 'Resumen:', "
+        f"'Aquí te presento', 'En esta sección', 'A continuación').\n"
+        f"- Prohibido consejos, sugerencias, evaluaciones o correcciones de código; "
+        f"NO des recomendaciones ni mejores prácticas.\n"
+        f"- No describas funciones ni pasos concretos; sintetiza conceptos, objetivos y prácticas de la clase.\n"
+        f"- Si hay ruido o plantillas repetidas, ignóralas.\n"
+        f"- Devuelve ÚNICAMENTE el párrafo final, sin comillas ni título.\n\n"
+        f"Fragmentos de archivos de la subunidad (pueden contener ruido):\n\n"
     )
     body = "\n\n".join(file_snippets)
     return (guardrails + body)[:MAX_SUBUNIT_PROMPT_CHARS]
@@ -118,7 +133,7 @@ def run_ollama(model: str, prompt: str) -> str | None:
             text=True,
             capture_output=True,
             check=False,
-            timeout=120
+            timeout=3600
         )
         out = (proc.stdout or "").strip()
         return out if out else None
@@ -137,47 +152,60 @@ INTRO_PATTERNS = [
     r"^\s*en general,.*?$",
     r"^\s*resumen:?\s*",
 ]
+ADVICE_PATTERNS = [
+    r"\b(te\s+recomiendo|recomendamos|recomendar[ií]a|deber[ií]as|debes|conviene|"
+    r"sugerimos|sugerenc[ií]a|considera|puedes|recuerda|es importante|"
+    r"te proporcionar[eé]|te dar[eé]|te indicar[eé])\b"
+]
 INTRO_REGEXES = [re.compile(pat, re.IGNORECASE | re.MULTILINE) for pat in INTRO_PATTERNS]
+ADVICE_REGEXES = [re.compile(pat, re.IGNORECASE) for pat in ADVICE_PATTERNS]
 
-def clean_to_single_paragraph(text: str, max_words: int = MAX_SUMMARY_WORDS) -> str:
+SENTENCE_SPLIT = re.compile(r"(?<=[\.\?\!])\s+")
+
+def clean_to_single_paragraph(text: str, max_words: int = MAX_SUMMARY_WORDS, max_sentences: int = MAX_SENTENCES) -> str:
     if not text:
         return ""
 
-    # Elimina fences y encabezados/bullets obvios
-    text = re.sub(r"```.*?```", " ", text, flags=re.DOTALL)   # bloques de código
+    # Elimina bloques de código y formatos
+    text = re.sub(r"```.*?```", " ", text, flags=re.DOTALL)   # code fences
     text = re.sub(r"`[^`]*`", " ", text)                      # inline code
-    text = re.sub(r"^\s*#{1,6}\s+.*$", " ", text, flags=re.MULTILINE)  # # encabezados
-    text = re.sub(r"^\s*[-*•]\s+", " ", text, flags=re.MULTILINE)      # viñetas
-    text = re.sub(r"^\s*\d+[\.)]\s+", " ", text, flags=re.MULTILINE)   # enumeraciones
+    text = re.sub(r"^\s*#{1,6}\s+.*$", " ", text, flags=re.MULTILINE)  # headings
+    text = re.sub(r"^\s*[-*•]\s+", " ", text, flags=re.MULTILINE)      # bullets
+    text = re.sub(r"^\s*\d+[\.)]\s+", " ", text, flags=re.MULTILINE)   # enumerations
 
-    # Quita párrafos introductorios metadiscursivos al inicio
-    # Tomamos primeras 3 líneas y si matchean, las eliminamos
+    # Quita líneas iniciales metadiscursivas/introductorias
     lines = text.splitlines()
     cleaned_lines = []
     for i, ln in enumerate(lines):
-        if i < 3:
-            skip = any(rx.match(ln.strip()) for rx in INTRO_REGEXES)
-            if skip:
-                continue
+        if i < 4 and any(rx.match(ln.strip()) for rx in INTRO_REGEXES):
+            continue
         cleaned_lines.append(ln)
     text = "\n".join(cleaned_lines)
 
-    # Colapsa saltos de línea a espacios (un solo párrafo)
+    # Colapsa saltos de línea a espacios
     text = re.sub(r"\s*\n\s*", " ", text)
-    # Quita múltiples espacios
     text = re.sub(r"\s{2,}", " ", text).strip(" \t\r\n-—:;")
 
-    # Si todavía empieza con intro típica, corta esa frase inicial
-    for rx in INTRO_REGEXES:
-        text = rx.sub("", text).strip()
+    # Elimina frases de consejo/directrices
+    for rx in ADVICE_REGEXES + INTRO_REGEXES:
+        text = rx.sub("", text)
+    text = re.sub(r"\s{2,}", " ", text).strip(" \t\r\n-—:;")
 
-    # Forzar límite de palabras
+    # Limita a N frases
+    sentences = SENTENCE_SPLIT.split(text)
+    if len(sentences) > max_sentences:
+        sentences = sentences[:max_sentences]
+    text = " ".join(s.strip() for s in sentences if s.strip())
+
+    # Límite de palabras
     words = text.split()
     if len(words) > max_words:
         text = " ".join(words[:max_words]).rstrip(",.;:") + "."
 
-    # Asegura que no se cuele más de un punto y aparte
+    # Garantiza un único párrafo
     text = re.sub(r"\s*\n\s*", " ", text).strip()
+    if not text.endswith(('.', '!', '?')):
+        text += "."
     return text
 
 
