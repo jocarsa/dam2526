@@ -9,13 +9,13 @@ import shutil
 import re
 
 # ===================== Configuración =====================
-BASE_PATH = Path("/var/www/html/dam2526")
+BASE_PATH = Path(".").resolve()                 # raíz de la ASIGNATURA
 OUTPUT_FILE = BASE_PATH / "README.md"
 EXCLUDE_DIRS = {".git", ".vscode"}
 TARGET_SUBFOLDER = "101-Ejercicios"
 TZ = ZoneInfo("Europe/Madrid")
 
-OLLAMA_MODEL = "llama3.1:8b-instruct-q4_0"  # o 'qwen2.5-coder:7b'
+OLLAMA_MODEL = "llama3.1:8b-instruct-q4_0"     # o 'qwen2.5-coder:7b'
 
 # Límites de seguridad
 MAX_SUBUNIT_PROMPT_CHARS = 20000   # total por subunidad
@@ -95,12 +95,11 @@ def summarize_dates(folder: Path):
 
 def build_ollama_prompt(subunit_name: str, file_snippets: list[str]) -> str:
     """
-    Prompt con reglas estrictas:
     - Un ÚNICO párrafo en español (3–6 frases, ~90–140 palabras).
     - Sin encabezados, listas, viñetas, enumeraciones ni bloques de código.
-    - Sin intros metadiscursivas (“Resumen:”, “Aquí te presento…”, “En esta sección…”).
+    - Sin intros metadiscursivas (“Resumen:…”, “Aquí te presento…”, “En esta sección…”).
     - Sin consejos, correcciones, advertencias, ni propuestas de mejora.
-    - No analizar código ni describir funciones/pasos; sintetizar los CONCEPTOS impartidos en clase.
+    - No analizar código ni describir funciones/pasos; sintetizar CONCEPTOS impartidos en clase.
     - Si el material está fragmentado, generalizar a objetivos, nociones clave y prácticas realizadas.
     - Devuelve EXCLUSIVAMENTE el párrafo, sin comillas ni títulos.
     """
@@ -159,7 +158,6 @@ ADVICE_PATTERNS = [
 ]
 INTRO_REGEXES = [re.compile(pat, re.IGNORECASE | re.MULTILINE) for pat in INTRO_PATTERNS]
 ADVICE_REGEXES = [re.compile(pat, re.IGNORECASE) for pat in ADVICE_PATTERNS]
-
 SENTENCE_SPLIT = re.compile(r"(?<=[\.\?\!])\s+")
 
 def clean_to_single_paragraph(text: str, max_words: int = MAX_SUMMARY_WORDS, max_sentences: int = MAX_SENTENCES) -> str:
@@ -171,7 +169,7 @@ def clean_to_single_paragraph(text: str, max_words: int = MAX_SUMMARY_WORDS, max
     text = re.sub(r"`[^`]*`", " ", text)                      # inline code
     text = re.sub(r"^\s*#{1,6}\s+.*$", " ", text, flags=re.MULTILINE)  # headings
     text = re.sub(r"^\s*[-*•]\s+", " ", text, flags=re.MULTILINE)      # bullets
-    text = re.sub(r"^\s*\d+[\.)]\s+", " ", text, flags=re.MULTILINE)   # enumerations
+    text = re.sub(r"^\s*\d+[\.)]\s+", " ", text, flags=re.MULTILINE)   # enumeraciones
 
     # Quita líneas iniciales metadiscursivas/introductorias
     lines = text.splitlines()
@@ -186,7 +184,7 @@ def clean_to_single_paragraph(text: str, max_words: int = MAX_SUMMARY_WORDS, max
     text = re.sub(r"\s*\n\s*", " ", text)
     text = re.sub(r"\s{2,}", " ", text).strip(" \t\r\n-—:;")
 
-    # Elimina frases de consejo/directrices
+    # Elimina frases de consejo/directrices e intros residuales
     for rx in ADVICE_REGEXES + INTRO_REGEXES:
         text = rx.sub("", text)
     text = re.sub(r"\s{2,}", " ", text).strip(" \t\r\n-—:;")
@@ -220,83 +218,66 @@ def build_report(base: Path) -> str:
     lines.append(f"_Modelo Ollama:_ `{OLLAMA_MODEL}`")
     lines.append("")
 
-    any_course = False
+    any_unit = False
 
-    for curso in list_dir_clean(base):
-        if not curso.is_dir():
+    # Estructura: unidad / subunidad (desde la raíz de la ASIGNATURA)
+    for unidad in list_dir_clean(base):
+        if not unidad.is_dir():
             continue
-        course_lines, course_has = [f"## Curso: `{curso.name}`"], False
+        unit_lines, unit_has = [f"#### Unidad: `{unidad.name}`"], False
 
-        for asignatura in list_dir_clean(curso):
-            if not asignatura.is_dir():
+        for subunidad in list_dir_clean(unidad):
+            if not subunidad.is_dir():
                 continue
-            subject_lines, subject_has = [f"### Asignatura: `{asignatura.name}`"], False
 
-            for unidad in list_dir_clean(asignatura):
-                if not unidad.is_dir():
+            ejercicios_dir = subunidad / TARGET_SUBFOLDER
+            resumen_fechas = summarize_dates(ejercicios_dir)
+            if not resumen_fechas:
+                continue
+
+            # Archivos de texto
+            text_files = [
+                f for f in sorted(ejercicios_dir.iterdir(), key=lambda x: x.name.lower())
+                if is_text_file(f)
+            ]
+            if not text_files:
+                continue
+
+            # Snippets limitados
+            snippets, total_chars = [], 0
+            for f in text_files[:MAX_FILES_PER_SUBUNIT]:
+                snippet = f"### {f.name}\n{safe_read_text(f)}"
+                if not snippet.strip():
                     continue
-                unit_lines, unit_has = [f"#### Unidad: `{unidad.name}`"], False
+                if total_chars + len(snippet) > MAX_SUBUNIT_PROMPT_CHARS:
+                    break
+                snippets.append(snippet)
+                total_chars += len(snippet)
+            if not snippets:
+                continue
 
-                for subunidad in list_dir_clean(unidad):
-                    if not subunidad.is_dir():
-                        continue
+            earliest, latest = resumen_fechas
+            d1, d2 = human_date(earliest), human_date(latest)
+            date_str = d1 if d1 == d2 else f"{d1} → {d2}"
 
-                    ejercicios_dir = subunidad / TARGET_SUBFOLDER
-                    resumen_fechas = summarize_dates(ejercicios_dir)
-                    if not resumen_fechas:
-                        continue
+            # LLM -> resumen
+            prompt = build_ollama_prompt(subunidad.name, snippets)
+            raw_summary = run_ollama(OLLAMA_MODEL, prompt)
+            summary = clean_to_single_paragraph(raw_summary or "")
 
-                    # Archivos de texto
-                    text_files = [
-                        f for f in sorted(ejercicios_dir.iterdir(), key=lambda x: x.name.lower())
-                        if is_text_file(f)
-                    ]
-                    if not text_files:
-                        continue
+            unit_lines.append(f"- `{subunidad.name}` — {date_str}")
+            if summary:
+                unit_lines.append(f"  - **Resumen:** {summary}")
+            else:
+                unit_lines.append("  - **Resumen:** _No disponible (error o sin Ollama)._")
 
-                    # Snippets limitados
-                    snippets, total_chars = [], 0
-                    for f in text_files[:MAX_FILES_PER_SUBUNIT]:
-                        snippet = f"### {f.name}\n{safe_read_text(f)}"
-                        if not snippet.strip():
-                            continue
-                        if total_chars + len(snippet) > MAX_SUBUNIT_PROMPT_CHARS:
-                            break
-                        snippets.append(snippet)
-                        total_chars += len(snippet)
-                    if not snippets:
-                        continue
+            unit_has = True
 
-                    earliest, latest = resumen_fechas
-                    d1, d2 = human_date(earliest), human_date(latest)
-                    date_str = d1 if d1 == d2 else f"{d1} → {d2}"
+        if unit_has:
+            lines.extend(unit_lines + [""])
+            any_unit = True
 
-                    # LLM -> resumen
-                    prompt = build_ollama_prompt(subunidad.name, snippets)
-                    raw_summary = run_ollama(OLLAMA_MODEL, prompt)
-                    summary = clean_to_single_paragraph(raw_summary or "")
-
-                    unit_lines.append(f"- `{subunidad.name}` — {date_str}")
-                    if summary:
-                        unit_lines.append(f"  - **Resumen:** {summary}")
-                    else:
-                        unit_lines.append("  - **Resumen:** _No disponible (error o sin Ollama)._")
-
-                    unit_has = True
-
-                if unit_has:
-                    subject_lines.extend(unit_lines + [""])
-                    subject_has = True
-
-            if subject_has:
-                course_lines.extend(subject_lines + [""])
-                course_has = True
-
-        if course_has:
-            lines.extend(course_lines + [""])
-            any_course = True
-
-    if not any_course:
+    if not any_unit:
         lines.append("_No se encontraron subunidades con archivos de texto en `101-Ejercicios`._")
         lines.append("")
 
