@@ -10,7 +10,8 @@ import re
 
 # ===================== Configuración =====================
 BASE_PATH = Path("/var/www/html/dam2526")
-OUTPUT_FILE = BASE_PATH / "README.md"
+OUTPUT_FILE = BASE_PATH / "README.md"        # Informe con resúmenes (mantener igual)
+OUTPUT_FILE_DIARIO = BASE_PATH / "diario.md" # Informe sin resúmenes (solo jerarquía y fechas)
 EXCLUDE_DIRS = {".git", ".vscode"}
 TARGET_SUBFOLDER = "101-Ejercicios"
 TZ = ZoneInfo("Europe/Madrid")
@@ -209,7 +210,7 @@ def clean_to_single_paragraph(text: str, max_words: int = MAX_SUMMARY_WORDS, max
     return text
 
 
-# --------------------- Generación del informe ---------------------
+# --------------------- Generación del informe CON resúmenes (README.md) ---------------------
 
 def build_report(base: Path) -> str:
     lines = []
@@ -303,8 +304,89 @@ def build_report(base: Path) -> str:
     return "\n".join(lines)
 
 
+# --------------------- Generación del DIARIO SIN resúmenes (diario.md) ---------------------
+
+def build_diario(base: Path) -> str:
+    """
+    Mismo recorrido y filtrado que el informe, pero sin invocar Ollama
+    ni incluir líneas de **Resumen**. Solo jerarquía y rango/s de fechas.
+    """
+    lines = []
+    lines.append("# Diario de 101-Ejercicios")
+    lines.append("")
+    lines.append(f"_Base:_ `{base}`")
+    lines.append(f"_Generado:_ {human_date(datetime.now(TZ).timestamp())}")
+    lines.append("")
+
+    any_course = False
+
+    for curso in list_dir_clean(base):
+        if not curso.is_dir():
+            continue
+        course_lines, course_has = [f"## Curso: `{curso.name}`"], False
+
+        for asignatura in list_dir_clean(curso):
+            if not asignatura.is_dir():
+                continue
+            subject_lines, subject_has = [f"### Asignatura: `{asignatura.name}`"], False
+
+            for unidad in list_dir_clean(asignatura):
+                if not unidad.is_dir():
+                    continue
+                unit_lines, unit_has = [f"#### Unidad: `{unidad.name}`"], False
+
+                for subunidad in list_dir_clean(unidad):
+                    if not subunidad.is_dir():
+                        continue
+
+                    ejercicios_dir = subunidad / TARGET_SUBFOLDER
+                    resumen_fechas = summarize_dates(ejercicios_dir)
+                    if not resumen_fechas:
+                        continue
+
+                    # Verifica que existan archivos de texto, igual que el informe
+                    text_files = [
+                        f for f in sorted(ejercicios_dir.iterdir(), key=lambda x: x.name.lower())
+                        if is_text_file(f)
+                    ]
+                    if not text_files:
+                        continue
+
+                    earliest, latest = resumen_fechas
+                    d1, d2 = human_date(earliest), human_date(latest)
+                    date_str = d1 if d1 == d2 else f"{d1} → {d2}"
+
+                    # Solo jerarquía + fechas
+                    unit_lines.append(f"- `{subunidad.name}` — {date_str}")
+                    unit_has = True
+
+                if unit_has:
+                    subject_lines.extend(unit_lines + [""])
+                    subject_has = True
+
+            if subject_has:
+                course_lines.extend(subject_lines + [""])
+                course_has = True
+
+        if course_has:
+            lines.extend(course_lines + [""])
+            any_course = True
+
+    if not any_course:
+        lines.append("_No se encontraron subunidades con archivos de texto en `101-Ejercicios`._")
+        lines.append("")
+
+    return "\n".join(lines)
+
+
+# --------------------- Main ---------------------
+
 if __name__ == "__main__":
-    report = build_report(BASE_PATH)
+    report = build_report(BASE_PATH)   # Informe con resúmenes (README.md)
     OUTPUT_FILE.write_text(report, encoding="utf-8")
     print(f"✅ Informe generado: {OUTPUT_FILE}")
+
+    diario = build_diario(BASE_PATH)   # Diario sin resúmenes (diario.md)
+    OUTPUT_FILE_DIARIO.write_text(diario, encoding="utf-8")
+    print(f"✅ Diario generado: {OUTPUT_FILE_DIARIO}")
 
