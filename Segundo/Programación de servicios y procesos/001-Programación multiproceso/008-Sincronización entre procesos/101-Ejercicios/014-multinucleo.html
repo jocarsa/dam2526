@@ -477,7 +477,7 @@
 
             totalSamples += sampleData.length;
 
-            e.target.idle = true;
+            // IMMEDIATELY assign new work to keep worker busy
             if (isTracing) assignWork(e.target);
         }
 
