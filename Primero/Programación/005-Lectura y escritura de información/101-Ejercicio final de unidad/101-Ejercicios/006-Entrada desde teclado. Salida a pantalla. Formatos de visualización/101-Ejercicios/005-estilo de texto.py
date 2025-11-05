@@ -1,8 +1,0 @@
-print("\033[0m")
-print("Reinicio el texto")
-print("\033[1m")
-print("Esto es texto negrita")
-print("\033[2m")
-print("Esto es un texto cursiva")
-print("\033[4m")
-print("Esto es un texto subrayado")

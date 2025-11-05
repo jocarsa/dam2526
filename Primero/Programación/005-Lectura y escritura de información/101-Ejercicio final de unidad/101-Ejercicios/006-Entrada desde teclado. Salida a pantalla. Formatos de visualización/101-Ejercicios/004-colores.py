@@ -1,8 +1,0 @@
-print("\033[31m")
-print("Esto es un color rojo")
-print("\033[32m")
-print("Esto es un color verde")
-print("\033[33m")
-print("Esto es un color amarillo")
-print("\033[34m")
-print("Esto es un color azul")
