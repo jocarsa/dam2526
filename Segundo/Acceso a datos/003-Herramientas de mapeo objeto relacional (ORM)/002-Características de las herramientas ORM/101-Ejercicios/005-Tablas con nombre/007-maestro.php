@@ -9,5 +9,4 @@
     <?php include "componentes/cabecera.php"; ?>
     <?php include "componentes/layout.php"; ?>
   </body>
-  
 </html>
