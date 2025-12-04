@@ -12368,6 +12368,1398 @@ La práctica es clave para dominar los lenguajes de consulta y manipulación. Es
 
 En conclusión, los lenguajes de consulta y manipulación en documentos son herramientas poderosas que permiten interactuar con la información de manera eficiente y precisa. A través del conocimiento de sus comandos y sintaxis, se pueden optimizar procesos, mejorar la eficiencia general del sistema y facilitar el intercambio de información entre diferentes aplicaciones y sistemas informáticos.
 
+### formulario
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Formulario</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Formulario de recogida de datos</legend>
+        <label for="nombre">Introduce tu nombre</label>
+        <input type="text" name="nombre" id="nombre">
+        <label for="nombre">Introduce tus apellidos</label>
+        <input type="text" name="apellidos">
+        <input type="submit">
+      </fieldset>
+    </form>
+  </body>
+</html>
+```
+
+### un poco de estilo
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Formulario</title>
+    <meta charset="utf-8">
+    <style>
+      body,html{background:lightgray;display:flex;
+        width:100%;justify-content:center;font-family:sans-serif;}
+      form{background:white;padding:20px;width:600px;}
+      form fieldset{display:flex;flex-direction:column;gap:20px;border:none;}
+      form fieldset input{padding:10px;border:1px solid lightgray;}
+      .control_formulario{display:flex;}
+      .control_formulario label,.control_formulario input{flex:1;}
+    </style>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Formulario de recogida de datos</legend>
+        <div class="control_formulario">
+          <label for="nombre">Introduce tu nombre</label>
+          <input type="text" name="nombre" id="nombre">
+        </div>
+        <div class="control_formulario">
+          <label for="nombre">Introduce tus apellidos</label>
+          <input type="text" name="apellidos">
+        </div>
+        <input type="submit">
+      </fieldset>
+    </form>
+  </body>
+</html>
+```
+
+### vamos a crear muchos elementos
+
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Formulario</title>
+    <meta charset="utf-8">
+    <style>
+      body,html{background:lightgray;display:flex;
+        width:100%;justify-content:center;font-family:sans-serif;}
+      form{background:white;padding:20px;width:600px;}
+      form fieldset{display:flex;flex-direction:column;gap:20px;border:none;}
+      form fieldset input{padding:10px;border:1px solid lightgray;}
+      .control_formulario{display:flex;}
+      .control_formulario label,.control_formulario input{flex:1;}
+    </style>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Formulario de recogida de datos</legend>
+        <?php for($i = 0;$i<20;$i++){ ?>
+          <div class="control_formulario">
+            <label for="nombre">Introduce tu nombre</label>
+            <input type="text" name="nombre" id="nombre">
+          </div>
+        <?php } ?>
+        <input type="submit">
+      </fieldset>
+    </form>
+  </body>
+</html>
+```
+
+### panel de administracion
+
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Formulario</title>
+    <meta charset="utf-8">
+    <style>
+      body,html{width:100%;height:100%;padding:0px;margin:0px;}
+      body{display:flex;}
+      nav{flex:1;background:crimson;padding:10px;display:flex;flex-direction:column;gap:10px;}
+      main{flex:5;padding:10px;}
+      table{border:1px solid crimson;padding:10px;width:100%;border-collapse:collapse;}
+      nav button{background:white;border:none;padding:10px;border-radius:20px;}
+      table tr:nth-child(odd){background:rgb(255,220,220);}
+      table td{padding:10px;}
+    </style>
+  </head>
+  <body>
+    <nav>
+      <button>Enlace 1</button>
+      <button>Enlace 2</button>
+      <button>Enlace 3</button>
+    </nav>
+    <main>
+      <table>
+        <?php for($i = 0;$i<30;$i++){ ?>
+          <tr>
+            <td>Nombre</td><td>Apellidos</td><td>Email</td><td>Direccion</td><td>Codigo</td>
+          </tr>
+        <?php } ?>
+      </table>
+    </main>
+  </body>
+</html>
+```
+
+### acordar un modelo de datos
+
+```sql
+-- 1. CREATE DATABASE
+CREATE DATABASE IF NOT EXISTS training_center
+    DEFAULT CHARACTER SET utf8mb4
+    DEFAULT COLLATE utf8mb4_unicode_ci;
+
+USE training_center;
+
+-- 2. CREATE TABLE WITH MANY FIELD TYPES
+CREATE TABLE inscripciones (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    apellidos VARCHAR(150) NOT NULL,
+    email VARCHAR(150) UNIQUE NOT NULL,
+    telefono VARCHAR(20),
+
+    curso VARCHAR(200) NOT NULL,                 -- Example of VARCHAR
+    fecha_inscripcion DATE NOT NULL,             -- DATE type
+    edad INT,                                    -- INT type
+    precio DECIMAL(10,2),                        -- DECIMAL type
+    pagado BOOLEAN DEFAULT 0,                    -- BOOLEAN
+    modalidad ENUM('presencial','online','mixto'),   -- ENUM type
+
+    notas TEXT,                                  -- TEXT type
+    documento BLOB,                              -- BLOB (left empty in inserts)
+
+    creado_en TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- 3. INSERT SAMPLE DATA (BLOB field left empty)
+INSERT INTO inscripciones (
+    nombre, apellidos, email, telefono, curso,
+    fecha_inscripcion, edad, precio, pagado, modalidad, notas, documento
+) VALUES
+(
+    'Laura', 'Martínez López', 'laura.martinez@example.com', '600123123',
+    'Curso de Python Básico',
+    '2025-02-01', 28, 199.99, 1, 'online',
+    'Interesada en horario de tarde.',
+    NULL
+),
+(
+    'Carlos', 'Gómez Ruiz', 'carlos.gomez@example.com', '611456789',
+    'Introducción a Linux',
+    '2025-02-12', 34, 149.00, 0, 'presencial',
+    'Solicita factura para empresa.',
+    NULL
+),
+(
+    'Ana', 'Serrano Torres', 'ana.serrano@example.com', '699222333',
+    'Desarrollo Web Full Stack',
+    '2025-02-15', 22, 499.50, 1, 'mixto',
+    'Tiene conocimientos previos de HTML.',
+    NULL
+);
+```
+
+### crear_usuario
+
+```sql
+CREATE USER 
+'training_center'@'localhost' 
+IDENTIFIED  BY 'training_center';
+
+GRANT USAGE ON *.* TO 'training_center'@'localhost';
+
+ALTER USER 'training_center'@'localhost' 
+REQUIRE NONE 
+WITH MAX_QUERIES_PER_HOUR 0 
+MAX_CONNECTIONS_PER_HOUR 0 
+MAX_UPDATES_PER_HOUR 0 
+MAX_USER_CONNECTIONS 0;
+
+GRANT ALL PRIVILEGES ON `training_center`.* 
+TO 'training_center'@'localhost';
+
+FLUSH PRIVILEGES;
+```
+
+### saco el modelo de datos de la base de datos
+
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Formulario</title>
+    <meta charset="utf-8">
+    <style>
+      body,html{background:lightgray;display:flex;
+        width:100%;justify-content:center;font-family:sans-serif;}
+      form{background:white;padding:20px;width:600px;}
+      form fieldset{display:flex;flex-direction:column;gap:20px;border:none;}
+      form fieldset input{padding:10px;border:1px solid lightgray;}
+      .control_formulario{display:flex;}
+      .control_formulario label,.control_formulario input{flex:1;}
+    </style>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Formulario de recogida de datos</legend>
+        <?php
+          $c = new mysqli("localhost","training_center","training_center","training_center");
+          $r = $c->query("SHOW COLUMNS FROM inscripciones;");
+          while($f = $r->fetch_assoc()){
+              echo '
+                <div class="control_formulario">
+                  <label for="nombre">Introduce '.$f['Field'].'</label>
+                  <input type="text" name="'.$f['Field'].'" id="'.$f['Field'].'">
+                </div>
+              ';
+          }
+          ?>
+        <input type="submit">
+      </fieldset>
+    </form>
+  </body>
+</html>
+```
+
+### quitar el id
+
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Formulario</title>
+    <meta charset="utf-8">
+    <style>
+      body,html{background:lightgray;display:flex;
+        width:100%;justify-content:center;font-family:sans-serif;}
+      form{background:white;padding:20px;width:600px;}
+      form fieldset{display:flex;flex-direction:column;gap:20px;border:none;}
+      form fieldset input{padding:10px;border:1px solid lightgray;}
+      .control_formulario{display:flex;}
+      .control_formulario label,.control_formulario input{flex:1;}
+    </style>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Formulario de recogida de datos</legend>
+        <?php
+          $c = new mysqli("localhost","training_center","training_center","training_center");
+          $r = $c->query("SHOW COLUMNS FROM inscripciones;");
+          while($f = $r->fetch_assoc()){
+            if($f['Key'] != "PRI" || $f['Extra'] == "DEFAULT_GENERATED"){
+              echo '<div class="control_formulario"><label for="nombre">Introduce '.$f['Field'].'</label>'; 
+              if (str_contains($f['Type'], "varchar")) {
+                 echo '<input type="text" name="'.$f['Field'].'" id="'.$f['Field'].'">';
+              }else if($f['Type'] == "date"){
+                  echo '<input type="date" name="'.$f['Field'].'" id="'.$f['Field'].'">';
+              }
+              echo'</div>';
+             }
+          }
+          ?>
+        <input type="submit">
+      </fieldset>
+    </form>
+  </body>
+</html>
+```
+
+### personalizar campos
+
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Formulario</title>
+    <meta charset="utf-8">
+    <style>
+      body,html{background:lightgray;display:flex;
+        width:100%;justify-content:center;font-family:sans-serif;}
+      form{background:white;padding:20px;width:600px;}
+      form fieldset{display:flex;flex-direction:column;gap:20px;border:none;}
+      form fieldset input{padding:10px;border:1px solid lightgray;}
+      .control_formulario{display:flex;}
+      .control_formulario label,.control_formulario input{flex:1;}
+    </style>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Formulario de recogida de datos</legend>
+        <?php
+          $c = new mysqli("localhost","training_center","training_center","training_center");
+          $r = $c->query("SHOW COLUMNS FROM inscripciones;");
+          while($f = $r->fetch_assoc()){
+            if($f['Key'] != "PRI" || $f['Extra'] == "DEFAULT_GENERATED"){
+              echo '<div class="control_formulario"><label for="nombre">Introduce '.$f['Field'].'</label>'; 
+              if (str_contains($f['Type'], "varchar")) {
+                 echo '<input type="text" name="'.$f['Field'].'" id="'.$f['Field'].'">';
+              }else if($f['Type'] == "date"){
+                  echo '<input type="date" name="'.$f['Field'].'" id="'.$f['Field'].'">';
+              }else if($f['Type'] == "int"){
+                  echo '<input type="number" name="'.$f['Field'].'" id="'.$f['Field'].'">';
+              }else if (str_contains($f['Type'], "decimal")) {
+                 echo '<input type="number" name="'.$f['Field'].'" id="'.$f['Field'].'" step="0.01">';
+              }else if (str_contains($f['Type'], "tinyint")) {
+                 echo '<input type="checkbox" name="'.$f['Field'].'" id="'.$f['Field'].'" step="0.01">';
+              }
+              echo'</div>';
+             }
+          }
+          ?>
+        <input type="submit">
+      </fieldset>
+    </form>
+  </body>
+</html>
+```
+
+### mas tipos de campo
+
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Formulario</title>
+    <meta charset="utf-8">
+    <style>
+      body,html{background:lightgray;display:flex;
+        width:100%;justify-content:center;font-family:sans-serif;}
+      form{background:white;padding:20px;width:600px;}
+      form fieldset{display:flex;flex-direction:column;gap:20px;border:none;}
+      form fieldset input,form fieldset select{padding:10px;border:1px solid lightgray;}
+      .control_formulario{display:flex;}
+      .control_formulario label,.control_formulario input{flex:1;}
+    </style>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Formulario de recogida de datos</legend>
+        <?php
+          $c = new mysqli("localhost","training_center","training_center","training_center");
+          $r = $c->query("SHOW COLUMNS FROM inscripciones;");
+          while($f = $r->fetch_assoc()){
+            if($f['Key'] != "PRI" || $f['Extra'] == "DEFAULT_GENERATED"){
+              echo '<div class="control_formulario"><label for="nombre">Introduce '.$f['Field'].'</label>'; 
+              if (str_contains($f['Type'], "varchar")) {
+                 echo '<input type="text" name="'.$f['Field'].'" id="'.$f['Field'].'">';
+              }else if($f['Type'] == "date"){
+                  echo '<input type="date" name="'.$f['Field'].'" id="'.$f['Field'].'">';
+              }else if($f['Type'] == "int"){
+                  echo '<input type="number" name="'.$f['Field'].'" id="'.$f['Field'].'">';
+              }else if (str_contains($f['Type'], "decimal")) {
+                 echo '<input type="number" name="'.$f['Field'].'" id="'.$f['Field'].'" step="0.01">';
+              }else if (str_contains($f['Type'], "tinyint")) {
+                 echo '<input type="checkbox" name="'.$f['Field'].'" id="'.$f['Field'].'" step="0.01">';
+              }else if (str_contains($f['Type'], "enum")) {
+                 echo '<select name="'.$f['Field'].'" id="'.$f['Field'].'" >';
+                 preg_match_all("/'([^']+)'/", $f['Type'], $matches);
+                 $enumValues = $matches[1];
+                 var_dump($enumValues);
+                 foreach($enumValues as $clave=>$valor){
+                  echo '<option value="'.$valor.'">'.$valor.'</option>';
+                 }
+                 echo '</select>';
+              }
+              echo'</div>';
+             }
+          }
+          ?>
+        <input type="submit">
+      </fieldset>
+    </form>
+  </body>
+</html>
+```
+
+### textarea
+
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Formulario</title>
+    <meta charset="utf-8">
+    <style>
+      body,html{background:lightgray;display:flex;
+        width:100%;justify-content:center;font-family:sans-serif;}
+      form{background:white;padding:20px;width:600px;}
+      form fieldset{display:flex;flex-direction:column;gap:20px;border:none;}
+      form fieldset input,
+      form fieldset select,
+      form fieldset textarea{padding:10px;border:1px solid lightgray;width:50%;}
+      .control_formulario{display:flex;}
+      .control_formulario label,.control_formulario input{flex:1;}
+    </style>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Formulario de recogida de datos</legend>
+        <?php
+          $c = new mysqli("localhost","training_center","training_center","training_center");
+          $r = $c->query("SHOW COLUMNS FROM inscripciones;");
+          while($f = $r->fetch_assoc()){
+            if($f['Key'] != "PRI" || $f['Extra'] == "DEFAULT_GENERATED"){
+              echo '<div class="control_formulario"><label for="nombre">Introduce '.$f['Field'].'</label>'; 
+              if (str_contains($f['Type'], "varchar")) {
+                 echo '<input type="text" name="'.$f['Field'].'" id="'.$f['Field'].'">';
+              }else if($f['Type'] == "date"){
+                  echo '<input type="date" name="'.$f['Field'].'" id="'.$f['Field'].'">';
+              }else if($f['Type'] == "int"){
+                  echo '<input type="number" name="'.$f['Field'].'" id="'.$f['Field'].'">';
+              }else if (str_contains($f['Type'], "decimal")) {
+                 echo '<input type="number" name="'.$f['Field'].'" id="'.$f['Field'].'" step="0.01">';
+              }else if (str_contains($f['Type'], "tinyint")) {
+                 echo '<input type="checkbox" name="'.$f['Field'].'" id="'.$f['Field'].'" step="0.01">';
+              }else if (str_contains($f['Type'], "enum")) {
+                 echo '<select name="'.$f['Field'].'" id="'.$f['Field'].'" >';
+                 preg_match_all("/'([^']+)'/", $f['Type'], $matches);
+                 $enumValues = $matches[1];
+                 var_dump($enumValues);
+                 foreach($enumValues as $clave=>$valor){
+                  echo '<option value="'.$valor.'">'.$valor.'</option>';
+                 }
+                 echo '</select>';
+              }else if($f['Type'] == "text"){
+                  echo '<textarea name="'.$f['Field'].'" id="'.$f['Field'].'"></textarea>';
+              }
+              echo'</div>';
+             }
+          }
+          ?>
+        <input type="submit">
+      </fieldset>
+    </form>
+  </body>
+</html>
+```
+
+### campos de tipo documento
+
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Formulario</title>
+    <meta charset="utf-8">
+    <style>
+      body,html{background:lightgray;display:flex;
+        width:100%;justify-content:center;font-family:sans-serif;}
+      form{background:white;padding:20px;width:600px;}
+      form fieldset{display:flex;flex-direction:column;gap:20px;border:none;}
+      form fieldset input,
+      form fieldset select,
+      form fieldset textarea{padding:10px;border:1px solid lightgray;width:50%;}
+      .control_formulario{display:flex;}
+      .control_formulario label,.control_formulario input{flex:1;}
+    </style>
+  </head>
+  <body>
+    <form action="" method="POST" encoding="multipart/form-data">
+      <fieldset>
+        <legend>Formulario de recogida de datos</legend>
+        <?php
+          $c = new mysqli("localhost","training_center","training_center","training_center");
+          $r = $c->query("SHOW COLUMNS FROM inscripciones;");
+          while($f = $r->fetch_assoc()){
+            if($f['Key'] != "PRI" && $f['Default'] != "CURRENT_TIMESTAMP"){
+              echo '<div class="control_formulario"><label for="nombre">Introduce '.$f['Field'].'</label>'; 
+              if (str_contains($f['Type'], "varchar")) {
+                 echo '<input type="text" name="'.$f['Field'].'" id="'.$f['Field'].'">';
+              }else if($f['Type'] == "date"){
+                  echo '<input type="date" name="'.$f['Field'].'" id="'.$f['Field'].'">';
+              }else if($f['Type'] == "int"){
+                  echo '<input type="number" name="'.$f['Field'].'" id="'.$f['Field'].'">';
+              }else if (str_contains($f['Type'], "decimal")) {
+                 echo '<input type="number" name="'.$f['Field'].'" id="'.$f['Field'].'" step="0.01">';
+              }else if (str_contains($f['Type'], "tinyint")) {
+                 echo '<input type="checkbox" name="'.$f['Field'].'" id="'.$f['Field'].'" step="0.01">';
+              }else if (str_contains($f['Type'], "enum")) {
+                 echo '<select name="'.$f['Field'].'" id="'.$f['Field'].'" >';
+                 preg_match_all("/'([^']+)'/", $f['Type'], $matches);
+                 $enumValues = $matches[1];
+                 var_dump($enumValues);
+                 foreach($enumValues as $clave=>$valor){
+                  echo '<option value="'.$valor.'">'.$valor.'</option>';
+                 }
+                 echo '</select>';
+              }else if($f['Type'] == "text"){
+                  echo '<textarea name="'.$f['Field'].'" id="'.$f['Field'].'"></textarea>';
+              }else if (str_contains($f['Type'], "blob")) {
+                 echo '<input type="file" name="'.$f['Field'].'" id="'.$f['Field'].'" step="0.01">';
+              }
+              echo'</div>';
+             }
+          }
+          ?>
+        <input type="submit">
+      </fieldset>
+    </form>
+  </body>
+</html>
+```
+
+### estilo
+
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Formulario</title>
+    <meta charset="utf-8">
+    <style>
+  :root{
+    --primary: crimson;
+    --primary-light: #ff8fa0;
+    --bg: #f2f2f2;
+    --text: #333;
+    --border: #ddd;
+  }
+
+  body, html{
+    background: var(--bg);
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    font-family: "Segoe UI", sans-serif;
+    color: var(--text);
+  }
+
+  form{
+    background: white;
+    padding: 30px 40px;
+    width: 650px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border-top: 8px solid var(--primary);
+  }
+
+  legend{
+    font-size: 1.4em;
+    font-weight: bold;
+    color: var(--primary);
+    margin-bottom: 10px;
+  }
+
+  form fieldset{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: none;
+    padding: 0;
+  }
+
+  .control_formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .control_formulario label{
+    font-size: 0.95em;
+    font-weight: 600;
+    color: var(--primary);
+  }
+
+  /* Campos de texto, selects, textarea (excluimos checkbox) */
+  form fieldset input:not([type="checkbox"]),
+  form fieldset select,
+  form fieldset textarea{
+    padding: 12px 14px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    width: 100%;
+    font-size: 1em;
+    transition: border 0.3s, box-shadow 0.3s;
+    box-sizing:border-box;
+  }
+
+  form fieldset input:not([type="checkbox"]):focus,
+  form fieldset select:focus,
+  form fieldset textarea:focus{
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px var(--primary-light);
+    outline: none;
+  }
+
+  /* ---------- INTERRUPTOR ANIMADO PARA CHECKBOX ---------- */
+
+  /* Contenedor del checkbox: alineamos horizontalmente label + switch */
+  .control_formulario_checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .control_formulario_checkbox label{
+    margin: 0;
+  }
+
+  /* Estilo base del checkbox como switch */
+  .control_formulario_checkbox input[type="checkbox"]{
+    appearance: none;
+    -webkit-appearance: none;
+    width: 52px;
+    height: 28px;
+    border-radius: 999px;
+    background: #ccc;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #bbb;
+    transition: background 0.25s ease-in-out, border-color 0.25s ease-in-out;
+    flex-shrink: 0;
+  }
+
+  /* “Botón” circular del switch */
+  .control_formulario_checkbox input[type="checkbox"]::before{
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: white;
+    top: 50%;
+    left: 3px;
+    transform: translateY(-50%);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+    transition: transform 0.25s ease-in-out;
+  }
+
+  /* Estado activado: color crimson y botón a la derecha */
+  .control_formulario_checkbox input[type="checkbox"]:checked{
+    background: var(--primary);
+    border-color: var(--primary);
+  }
+
+  .control_formulario_checkbox input[type="checkbox"]:checked::before{
+    transform: translate(22px, -50%);
+  }
+
+  /* Pequeño efecto al hacer focus vía teclado */
+  .control_formulario_checkbox input[type="checkbox"]:focus-visible{
+    box-shadow: 0 0 0 3px var(--primary-light);
+  }
+
+  /* ------------------------------------------------------ */
+
+  input[type="submit"]{
+    background: var(--primary);
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s;
+  }
+
+  input[type="submit"]:hover{
+    background: #b30021;
+  }
+</style>
+
+  </head>
+  <body>
+    <form action="" method="POST" encoding="multipart/form-data">
+      <fieldset>
+        <legend>Formulario de recogida de datos</legend>
+        <?php
+          $c = new mysqli("localhost","training_center","training_center","training_center");
+          $r = $c->query("SHOW COLUMNS FROM inscripciones;");
+          while($f = $r->fetch_assoc()){
+            if($f['Key'] != "PRI" && $f['Default'] != "CURRENT_TIMESTAMP"){
+              echo '<div class="control_formulario"><label for="nombre">Introduce '.$f['Field'].'</label>'; 
+              if (str_contains($f['Type'], "varchar")) {
+                 echo '<input type="text" name="'.$f['Field'].'" id="'.$f['Field'].'">';
+              }else if($f['Type'] == "date"){
+                  echo '<input type="date" name="'.$f['Field'].'" id="'.$f['Field'].'">';
+              }else if($f['Type'] == "int"){
+                  echo '<input type="number" name="'.$f['Field'].'" id="'.$f['Field'].'">';
+              }else if (str_contains($f['Type'], "decimal")) {
+                 echo '<input type="number" name="'.$f['Field'].'" id="'.$f['Field'].'" step="0.01">';
+              } else if (str_contains($f['Type'], "tinyint")) {
+                    echo '<div class="control_formulario control_formulario_checkbox">';
+                    echo '<label for="'.$f['Field'].'">Introduce '.$f['Field'].'</label>'; 
+                    echo '<input type="checkbox" name="'.$f['Field'].'" id="'.$f['Field'].'">';
+                    echo '</div>';
+
+              }else if (str_contains($f['Type'], "enum")) {
+                 echo '<select name="'.$f['Field'].'" id="'.$f['Field'].'" >';
+                 preg_match_all("/'([^']+)'/", $f['Type'], $matches);
+                 $enumValues = $matches[1];
+                 var_dump($enumValues);
+                 foreach($enumValues as $clave=>$valor){
+                  echo '<option value="'.$valor.'">'.$valor.'</option>';
+                 }
+                 echo '</select>';
+              }else if($f['Type'] == "text"){
+                  echo '<textarea name="'.$f['Field'].'" id="'.$f['Field'].'"></textarea>';
+              }else if (str_contains($f['Type'], "blob")) {
+                 echo '<input type="file" name="'.$f['Field'].'" id="'.$f['Field'].'" step="0.01">';
+              }
+              echo'</div>';
+             }
+          }
+          ?>
+        <input type="submit">
+      </fieldset>
+    </form>
+  </body>
+</html>
+```
+
+### comentarios
+
+```sql
+ALTER TABLE inscripciones
+    MODIFY id INT AUTO_INCREMENT PRIMARY KEY
+        COMMENT 'Identificador único y autoincrementado de cada inscripción registrada en el sistema';
+
+ALTER TABLE inscripciones
+    MODIFY nombre VARCHAR(100) NOT NULL
+        COMMENT 'Nombre propio del alumno tal como debe aparecer en los documentos oficiales del centro';
+
+ALTER TABLE inscripciones
+    MODIFY apellidos VARCHAR(150) NOT NULL
+        COMMENT 'Apellidos del alumno, utilizados para certificados, facturación y listados administrativos';
+
+ALTER TABLE inscripciones
+    MODIFY email VARCHAR(150) UNIQUE NOT NULL
+        COMMENT 'Correo electrónico del alumno; se utiliza como identificador de contacto y debe ser único';
+
+ALTER TABLE inscripciones
+    MODIFY telefono VARCHAR(20)
+        COMMENT 'Número de teléfono del alumno para comunicación directa sobre el curso';
+
+ALTER TABLE inscripciones
+    MODIFY curso VARCHAR(200) NOT NULL
+        COMMENT 'Nombre del curso al que el alumno se inscribe (título comercial o académico)';
+
+ALTER TABLE inscripciones
+    MODIFY fecha_inscripcion DATE NOT NULL
+        COMMENT 'Fecha exacta en la que se registró la inscripción en el sistema';
+
+ALTER TABLE inscripciones
+    MODIFY edad INT
+        COMMENT 'Edad del alumno en el momento de realizar la inscripción';
+
+ALTER TABLE inscripciones
+    MODIFY precio DECIMAL(10,2)
+        COMMENT 'Coste total del curso en euros, incluyendo descuentos si los hubiera';
+
+ALTER TABLE inscripciones
+    MODIFY pagado BOOLEAN DEFAULT 0
+        COMMENT 'Indica si el alumno ha completado el pago del curso (0 = no pagado, 1 = pagado)';
+
+ALTER TABLE inscripciones
+    MODIFY modalidad ENUM('presencial','online','mixto')
+        COMMENT 'Tipo de impartición: presencial en aula, online en plataforma, o modalidad mixta';
+
+ALTER TABLE inscripciones
+    MODIFY notas TEXT
+        COMMENT 'Campo de texto libre para observaciones internas: peticiones, incidencias, nivel previo, etc.';
+
+ALTER TABLE inscripciones
+    MODIFY documento BLOB
+        COMMENT 'Archivo adjunto opcional (DNI escaneado, justificante de pago, documentos administrativos, etc.)';
+
+ALTER TABLE inscripciones
+    MODIFY creado_en TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        COMMENT 'Marca de tiempo que registra automáticamente cuándo se creó la inscripción';
+
+ALTER TABLE inscripciones
+    COMMENT = 'Registra todas las inscripciones de alumnos con sus datos personales, curso, modalidad y estado de pago.';
+```
+
+### usar comentarios
+
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Formulario</title>
+    <meta charset="utf-8">
+
+    <style>
+      /* Tus estilos originales tal cual */
+      :root{
+        --primary: crimson;
+        --primary-light: #ff8fa0;
+        --bg: #f2f2f2;
+        --text: #333;
+        --border: #ddd;
+      }
+      body, html{
+        background: var(--bg);
+        display: flex;
+        justify-content: center;
+        padding: 40px;
+        font-family: "Segoe UI", sans-serif;
+        color: var(--text);
+      }
+      form{
+        background: white;
+        padding: 30px 40px;
+        width: 650px;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        border-top: 8px solid var(--primary);
+      }
+      legend{
+        font-size: 1.4em;
+        font-weight: bold;
+        color: var(--primary);
+        margin-bottom: 10px;
+      }
+      form fieldset{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        border: none;
+        padding: 0;
+      }
+      .control_formulario{
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+      }
+      .control_formulario label{
+        font-size: 0.95em;
+        font-weight: 600;
+        color: var(--primary);
+      }
+      form fieldset input:not([type="checkbox"]),
+      form fieldset select,
+      form fieldset textarea{
+        padding: 12px 14px;
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        width: 100%;
+        font-size: 1em;
+        transition: border 0.3s, box-shadow 0.3s;
+        box-sizing:border-box;
+      }
+      .control_formulario_checkbox{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+      }
+      .control_formulario_checkbox input[type="checkbox"]{
+        appearance: none;
+        width: 52px;
+        height: 28px;
+        border-radius: 999px;
+        background: #ccc;
+        cursor: pointer;
+        border: 1px solid #bbb;
+        transition: background .25s;
+        position: relative;
+      }
+      .control_formulario_checkbox input[type="checkbox"]::before{
+        content: "";
+        position: absolute;
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+        background: white;
+        top: 50%;
+        left: 3px;
+        transform: translateY(-50%);
+        transition: transform 0.25s;
+      }
+      .control_formulario_checkbox input[type="checkbox"]:checked{
+        background: var(--primary);
+        border-color: var(--primary);
+      }
+      .control_formulario_checkbox input[type="checkbox"]:checked::before{
+        transform: translate(22px, -50%);
+      }
+
+      input[type="submit"]{
+        background: var(--primary);
+        color: white;
+        padding: 14px;
+        border: none;
+        border-radius: 6px;
+        font-size: 1.1em;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+    </style>
+
+  </head>
+  <body>
+    <form action="" method="POST" enctype="multipart/form-data">
+      <fieldset>
+        <legend>Formulario de recogida de datos</legend>
+
+        <?php
+          $c = new mysqli("localhost","training_center","training_center","training_center");
+
+          /* COMENTARIO DE LA TABLA */
+          $tableComment = $c->query("
+            SELECT TABLE_COMMENT
+            FROM information_schema.tables
+            WHERE table_schema='training_center'
+              AND table_name='inscripciones'
+          ")->fetch_assoc()['TABLE_COMMENT'];
+
+          if ($tableComment != "") {
+              echo "<p style='color:#555; margin-top:-5px; margin-bottom:20px;'>$tableComment</p>";
+          }
+
+          /* COLUMNAS CON SUS COMENTARIOS */
+          $r = $c->query("
+            SELECT COLUMN_NAME, COLUMN_TYPE, COLUMN_KEY, COLUMN_DEFAULT, COLUMN_COMMENT
+            FROM information_schema.columns
+            WHERE table_schema='training_center'
+              AND table_name='inscripciones'
+          ");
+
+          while($f = $r->fetch_assoc()) {
+
+            $campo = $f['COLUMN_NAME'];
+            $tipo  = $f['COLUMN_TYPE'];
+            $comentario = $f['COLUMN_COMMENT'];
+
+            /* NO tocar esta lógica: respetar exclusiones */
+            if($f['COLUMN_KEY'] == "PRI" || $f['COLUMN_DEFAULT'] == "CURRENT_TIMESTAMP") continue;
+
+            echo '<div class="control_formulario">';
+
+            // LABEL = nombre técnico de la columna (como pediste)
+            echo '<label for="'.$campo.'">Introduce '.$campo.'</label>';
+
+            // PÁRRAFO = comentario explicativo
+            if ($comentario != "") {
+              echo '<p style="margin:0; font-size:0.85em; color:#666;">'.$comentario.'</p>';
+            }
+
+            /* ---------- Mantener tus tipos de campo exactamente ---------- */
+
+            if (str_contains($tipo, "varchar")) {
+               echo '<input type="text" name="'.$campo.'" id="'.$campo.'">';
+            }
+            else if ($tipo == "date") {
+               echo '<input type="date" name="'.$campo.'" id="'.$campo.'">';
+            }
+            else if ($tipo == "int") {
+               echo '<input type="number" name="'.$campo.'" id="'.$campo.'">';
+            }
+            else if (str_contains($tipo, "decimal")) {
+               echo '<input type="number" name="'.$campo.'" id="'.$campo.'" step="0.01">';
+            }
+            else if (str_contains($tipo, "tinyint")) {
+               echo '<div class="control_formulario_checkbox">';
+               echo '<label for="'.$campo.'">Introduce '.$campo.'</label>';
+               echo '<input type="checkbox" name="'.$campo.'" id="'.$campo.'">';
+               echo '</div>';
+            }
+            else if (str_contains($tipo, "enum")) {
+               echo '<select name="'.$campo.'" id="'.$campo.'">';
+               preg_match_all("/'([^']+)'/", $tipo, $matches);
+               foreach($matches[1] as $valor){
+                 echo '<option value="'.$valor.'">'.$valor.'</option>';
+               }
+               echo '</select>';
+            }
+            else if ($tipo == "text") {
+               echo '<textarea name="'.$campo.'" id="'.$campo.'"></textarea>';
+            }
+            else if (str_contains($tipo, "blob")) {
+               echo '<input type="file" name="'.$campo.'" id="'.$campo.'">';
+            }
+
+            echo '</div>';
+          }
+        ?>
+
+        <input type="submit">
+      </fieldset>
+    </form>
+  </body>
+</html>
+```
+
+### diagrama
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Diagrama exportado</title>
+<style>
+body {
+  margin: 0;
+  padding: 20px;
+  background: #f3f3f7;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+.page {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  width: 397.66253303079037px;
+  height: 302.9499996409696px;
+  overflow: visible;
+}
+
+/* formas básicas */
+.shape {
+  position: absolute;
+  min-width: 120px;
+  min-height: 40px;
+  padding: 6px 10px;
+  background: #ffffff;
+  border-radius: 4px;
+  border: 1px solid #9ca3af;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+}
+
+.shape.rectangle {
+  border-radius: 4px;
+}
+
+.shape.pill {
+  border-radius: 999px;
+}
+
+.shape.circle {
+  border-radius: 999px;
+  width: 80px;
+  height: 80px;
+  padding: 0;
+  justify-content: center;
+}
+
+/* base de datos */
+.shape.db {
+  min-width: 120px;
+  min-height: 60px;
+  padding-top: 20px;
+  border-radius: 60px / 16px;
+  background: linear-gradient(180deg, #e5e7eb 0%, #ffffff 40%, #e5e7eb 100%);
+  position: absolute;
+  overflow: hidden;
+  text-align: center;
+}
+.shape.db::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 8px;
+  right: 8px;
+  height: 18px;
+  border-radius: 999px;
+  border: 1px solid #9ca3af;
+  background: radial-gradient(circle at 50% 30%, #ffffff 0%, #e5e7eb 70%);
+}
+.shape.db::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 8px;
+  right: 8px;
+  height: 18px;
+  border-radius: 999px;
+  border: 1px solid rgba(156, 163, 175, 0.6);
+  border-top: none;
+  background: radial-gradient(circle at 50% 70%, #e5e7eb 0%, #d1d5db 70%);
+}
+
+/* entidades ER */
+.shape.entity {
+  width: 220px;
+  min-height: 80px;
+  background: #ffffff;
+  border: 2px solid #111827;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.15);
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  overflow: hidden;
+  padding: 0;
+}
+.entity-header {
+  background: #f3f4f6;
+  padding: 4px 8px;
+  font-weight: 600;
+  text-align: center;
+  border-bottom: 1px solid #e5e7eb;
+}
+.entity-properties {
+  flex: 1;
+  padding: 4px 4px 0 4px;
+}
+.entity-property {
+  display: grid;
+  grid-template-columns: 14px 1fr 14px;
+  align-items: center;
+  column-gap: 4px;
+  padding: 2px 0;
+}
+.entity-property .property-name {
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+/* puertos */
+.port {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: 1px solid #111827;
+  background: #ffffff;
+}
+.port-left { justify-self: start; }
+.port-right { justify-self: end; }
+
+/* flechas rectas */
+.arrow {
+  position: absolute;
+  height: 2px;
+  background: #111827;
+  transform-origin: 0 50%;
+}
+.arrow::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid #111827;
+}
+.arrow-double::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%) rotate(180deg);
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid #111827;
+}
+
+/* flechas ortogonales */
+.ortho-arrow {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.ortho-arrow .ortho-seg {
+  position: absolute;
+  background: #111827;
+}
+.ortho-seg.seg-horizontal { height: 2px; }
+.ortho-seg.seg-vertical { width: 2px; }
+.ortho-arrowhead {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+.ortho-arrowhead.dir-right {
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid #111827;
+}
+.ortho-arrowhead.dir-left {
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 8px solid #111827;
+}
+.ortho-arrowhead.dir-down {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 8px solid #111827;
+}
+.ortho-arrowhead.dir-up {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 8px solid #111827;
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+<div class="shape rectangle" style="left:40.02498851102939px;top:79.42498599781706px;width:119.99999999999996px;height:45.60001148897057px;">Formulario HTML</div>
+<div class="shape rectangle" style="left:40px;top:40px;width:119.99999999999996px;height:39.99998653636258px;">CSS</div>
+<div class="shape rectangle" style="left:40.01247630399814px;top:125.29999676872697px;width:119.99999999999996px;height:39.999999999999986px;">PHP</div>
+<div class="shape rectangle" style="left:147.66253303079043px;top:222.9499996409696px;width:119.99999999999996px;height:39.999999999999986px;">MySQL</div>
+<div class="shape rectangle" style="left:237.07501579733452px;top:122.94999964096965px;width:119.99999999999996px;height:39.999999999999986px;">PHP</div>
+<div class="shape rectangle" style="left:237.66253303079037px;top:81.77500107709096px;width:119.99999999999996px;height:39.999999999999986px;">HTML</div>
+<div class="shape rectangle" style="left:237.07501579733452px;top:41.77500107709099px;width:119.99999999999996px;height:39.999999999999986px;">CSS</div>
+<div class="arrow" style="left:122.06061835426163px;top:165.29999676872697px;width:85.80562246263705px;transform:rotate(0.7367271772908089rad);"></div>
+<div class="arrow arrow-double" style="left:225.5450295840992px;top:222.9499996409696px;width:80.48635379250275px;transform:rotate(-0.8412366754385971rad);"></div>
+</div>
+</body>
+</html>
+```
+
+### diagrama
+
+```json
+{
+  "formas": [
+    {
+      "id": "forma-1",
+      "tipo": "rectangle",
+      "left": "301.128px",
+      "top": "244.632px",
+      "width": "",
+      "height": "",
+      "texto": "Formulario HTML"
+    },
+    {
+      "id": "forma-2",
+      "tipo": "rectangle",
+      "left": "301.111px",
+      "top": "205.211px",
+      "width": "",
+      "height": "",
+      "texto": "CSS"
+    },
+    {
+      "id": "forma-3",
+      "tipo": "rectangle",
+      "left": "301.124px",
+      "top": "290.505px",
+      "width": "",
+      "height": "",
+      "texto": "PHP"
+    },
+    {
+      "id": "forma-4",
+      "tipo": "rectangle",
+      "left": "408.771px",
+      "top": "388.153px",
+      "width": "",
+      "height": "",
+      "texto": "MySQL"
+    },
+    {
+      "id": "forma-5",
+      "tipo": "rectangle",
+      "left": "498.184px",
+      "top": "288.161px",
+      "width": "",
+      "height": "",
+      "texto": "PHP"
+    },
+    {
+      "id": "forma-6",
+      "tipo": "rectangle",
+      "left": "498.774px",
+      "top": "246.976px",
+      "width": "",
+      "height": "",
+      "texto": "HTML"
+    },
+    {
+      "id": "forma-7",
+      "tipo": "rectangle",
+      "left": "498.185px",
+      "top": "206.979px",
+      "width": "",
+      "height": "",
+      "texto": "CSS"
+    }
+  ],
+  "flechas": [
+    {
+      "desde": {
+        "shapeId": "forma-3",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-4",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-4",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-5",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "doble",
+      "estilo": "straight"
+    }
+  ]
+}
+```
+
+### diagrama
+
+```
+<svg xmlns="http://www.w3.org/2000/svg" width="397.66253303079037" height="302.9499996409696" viewBox="0 0 397.66253303079037 302.9499996409696">
+
+  <defs>
+    <style>
+      text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 12px; fill: #111827; }
+      .shape-rect { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-entity { fill: #ffffff; stroke: #111827; stroke-width: 2; }
+      .shape-circle { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-pill { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-db { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .conn { stroke: #111827; stroke-width: 2; fill: none; }
+    </style>
+    <marker id="arrow-end" markerWidth="10" markerHeight="7" refX="10" refY="3.5"
+            orient="auto" markerUnits="strokeWidth">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#111827"/>
+    </marker>
+    <marker id="arrow-start" markerWidth="10" markerHeight="7" refX="0" refY="3.5"
+            orient="auto" markerUnits="strokeWidth">
+      <polygon points="10 0, 0 3.5, 10 7" fill="#111827"/>
+    </marker>
+  </defs>
+        
+<rect class="shape-rect" x="40.02498851102939" y="79.42498599781706" width="119.99999999999996" height="45.60001148897057" rx="4" ry="4" />
+<text x="100.02498851102936" y="106.22499174230235" text-anchor="middle">Formulario HTML</text>
+<rect class="shape-rect" x="40" y="40" width="119.99999999999996" height="39.99998653636258" rx="4" ry="4" />
+<text x="99.99999999999997" y="63.999993268181285" text-anchor="middle">CSS</text>
+<rect class="shape-rect" x="40.01247630399814" y="125.29999676872697" width="119.99999999999996" height="39.999999999999986" rx="4" ry="4" />
+<text x="100.01247630399811" y="149.29999676872697" text-anchor="middle">PHP</text>
+<rect class="shape-rect" x="147.66253303079043" y="222.9499996409696" width="119.99999999999996" height="39.999999999999986" rx="4" ry="4" />
+<text x="207.6625330307904" y="246.9499996409696" text-anchor="middle">MySQL</text>
+<rect class="shape-rect" x="237.07501579733452" y="122.94999964096965" width="119.99999999999996" height="39.999999999999986" rx="4" ry="4" />
+<text x="297.0750157973345" y="146.94999964096965" text-anchor="middle">PHP</text>
+<rect class="shape-rect" x="237.66253303079037" y="81.77500107709096" width="119.99999999999996" height="39.999999999999986" rx="4" ry="4" />
+<text x="297.66253303079037" y="105.77500107709096" text-anchor="middle">HTML</text>
+<rect class="shape-rect" x="237.07501579733452" y="41.77500107709099" width="119.99999999999996" height="39.999999999999986" rx="4" ry="4" />
+<text x="297.0750157973345" y="65.77500107709099" text-anchor="middle">CSS</text>
+<path class="conn" d="M 122.06061835426163 165.29999676872697 L 185.61439098052688 222.9499996409696" marker-end="url(#arrow-end)" />
+<path class="conn" d="M 225.5450295840992 222.9499996409696 L 279.19251924402573 162.9499996409696" marker-start="url(#arrow-start)" marker-end="url(#arrow-end)" />
+</svg>
+```
+
 <a id="consulta-y-manipulacion-de-informacion"></a>
 ## Consulta y manipulación de información
 

@@ -46,6 +46,7 @@
   - [entrenar chatbot a partir de whatsapp](#entrenar-chatbot-a-partir-de-whatsapp)
   - [entrenar chatbot a partir de pdf](#entrenar-chatbot-a-partir-de-pdf)
   - [scrapeador web y entrenamiento](#scrapeador-web-y-entrenamiento)
+  - [interfaz natural IA](#interfaz-natural-ia)
 - [Actividad libre de final de evaluación - La milla extra](#actividad-libre-de-final-de-evaluacion-la-milla-extra)
   - [La Milla Extra - Primera evaluación](#la-milla-extra-primera-evaluacion)
 
@@ -7079,9 +7080,18 @@ if __name__ == "__main__":
 # -*- coding: utf-8 -*-
 
 """
-Generador de pares Q/A en formato JSONL a partir de transcripciones en texto plano o Markdown.
+Generador de pares Q/A en formato JSONL a partir de HTML, PDF, texto plano o Markdown.
 
-- Recorre todos los .txt y .md de INPUT_DIR.
+- Recorre recursivamente todos los ficheros de INPUT_DIR con extensión:
+    .html, .htm, .pdf, .txt, .md
+- Para HTML:
+    * Lee el archivo.
+    * Limpia el markup (quita <script>, <style>, etc.).
+    * Extrae el texto relevante.
+- Para PDF:
+    * Extrae el texto con PyPDF2.
+- Para .txt / .md:
+    * Igual que antes: limpia Markdown si procede.
 - Trocea cada texto en bloques con solape.
 - Para cada bloque lanza 2 prompts a Ollama:
     * Preguntas fáciles / introductorias.
@@ -7107,12 +7117,17 @@ import shutil
 import requests
 from typing import List, Dict, Optional
 
+from bs4 import BeautifulSoup
+from PyPDF2 import PdfReader
+
 # =========================
 # CONFIGURACIÓN GENERAL
 # =========================
 
-# Carpetas de entrada y salida
-INPUT_DIR = "inputs"
+# Carpeta de entrada: aquí pondrás tu 'paginas_html'
+INPUT_DIR = "paginas_html"
+
+# Carpeta de salida (JSONL)
 OUTPUT_DIR = "outputs"
 LOG_FILE = os.path.join(OUTPUT_DIR, "log.json")
 
@@ -7133,6 +7148,9 @@ BLOCK_OVERLAP = 500         # solape entre bloques para no perder contexto
 TEMPERATURE = 0.3           # baja = más estable
 MAX_TOKENS = 512            # límite aproximado de tokens generados
 
+# Extensiones aceptadas
+VALID_EXTS = (".html", ".htm", ".pdf", ".txt", ".md")
+
 
 # =========================
 # UTILIDADES BÁSICAS
@@ -7144,7 +7162,7 @@ def ensure_dirs():
 
 
 def read_text_file(path: str) -> str:
-    with open(path, "r", encoding="utf-8") as f:
+    with open(path, "r", encoding="utf-8", errors="ignore") as f:
         return f.read()
 
 
@@ -7156,14 +7174,7 @@ def normalize_whitespace(text: str) -> str:
 def strip_markdown(text: str) -> str:
     """
     Elimina en lo posible el "ruido" de Markdown para dejar solo texto útil.
-
-    - Quita bloques de código triple ``` ... ```
-    - Quita código en línea `...`
-    - Convierte enlaces [texto](url) en solo "texto"
-    - Quita imágenes ![alt](url)
-    - Quita cabeceras de Markdown (#, ##, ###)
-    - Quita marcadores de lista iniciales (-, *, +) al inicio de línea
-    - Quita negritas/cursivas (**texto**, *texto*, __texto__, _texto_)
+    (Igual que en tu script original)
     """
 
     # Bloques de código triple
@@ -7233,6 +7244,61 @@ def split_into_blocks(text: str,
 
 
 # =========================
+# EXTRACCIÓN DESDE HTML Y PDF
+# =========================
+
+def extract_text_from_html(path: str) -> str:
+    """
+    Extrae texto "importante" de un HTML:
+    - Elimina <script>, <style>, <noscript>.
+    - Se queda con encabezados, párrafos, listas, etc.
+    - Devuelve el texto plano concatenado.
+    """
+    try:
+        with open(path, "r", encoding="utf-8", errors="ignore") as f:
+            html = f.read()
+    except Exception as e:
+        print(f"[WARN] No se pudo leer HTML {path}: {e}")
+        return ""
+
+    soup = BeautifulSoup(html, "html.parser")
+
+    # Eliminar ruido
+    for tag in soup(["script", "style", "noscript"]):
+        tag.decompose()
+
+    # También puedes eliminar nav/footer si quieres:
+    for tag in soup(["nav", "footer"]):
+        tag.decompose()
+
+    text = soup.get_text(separator=" ", strip=True)
+    return text
+
+
+def extract_text_from_pdf(path: str) -> str:
+    """
+    Extrae texto de un PDF usando PyPDF2.
+    """
+    try:
+        reader = PdfReader(path)
+    except Exception as e:
+        print(f"[WARN] No se pudo abrir PDF {path}: {e}")
+        return ""
+
+    pages_text = []
+    for i, page in enumerate(reader.pages):
+        try:
+            t = page.extract_text()
+        except Exception as e:
+            print(f"[WARN] Error extrayendo texto de la página {i} en {path}: {e}")
+            t = None
+        if t:
+            pages_text.append(t)
+
+    return "\n".join(pages_text)
+
+
+# =========================
 # GESTIÓN DEL LOG
 # =========================
 
@@ -7243,8 +7309,8 @@ def load_log() -> Dict:
     Estructura:
     {
         "processed_files": [
-            "inputs/tema1.txt",
-            "inputs/tema2.md",
+            "paginas_html/index.html",
+            "paginas_html/wp-content/...",
             ...
         ]
     }
@@ -7325,7 +7391,6 @@ class ProgressTracker:
             f"| ETA {self._format_seconds(remaining)}"
         )
 
-        # Recortar al ancho de la terminal para evitar artefactos
         msg = msg[:term_width - 1]
         print("\r" + msg, end="", flush=True)
 
@@ -7342,8 +7407,6 @@ def detect_ollama_mode() -> bool:
     """
     Detecta si Ollama expone /api/chat o /api/generate y configura
     las variables globales OLLAMA_MODE y OLLAMA_URL.
-
-    Devuelve True si alguno de los dos endpoints funciona, False si ninguno.
     """
     global OLLAMA_MODE, OLLAMA_URL
 
@@ -7425,10 +7488,6 @@ def detect_ollama_mode() -> bool:
 def call_ollama(system_prompt: str, user_prompt: str) -> str:
     """
     Llama a Ollama usando el endpoint detectado (chat o generate).
-
-    - En modo "chat": usa /api/chat con messages.
-    - En modo "generate": concatena system_prompt + user_prompt en un solo prompt
-      y llama a /api/generate.
     """
     if OLLAMA_MODE is None or OLLAMA_URL is None:
         raise RuntimeError("OLLAMA_MODE no está configurado. Llama antes a detect_ollama_mode().")
@@ -7483,7 +7542,8 @@ Eres un generador de preguntas y respuestas de alta calidad en español
 para entrenar un modelo de lenguaje educativo.
 
 Tu tarea:
-- Leer con mucha atención un bloque de transcripción técnica en español.
+- Leer con mucha atención un bloque de texto técnico o formativo en español
+  (puede venir originalmente de HTML o PDF).
 - Identificar TODOS los conceptos importantes posibles (términos, pasos, advertencias,
   decisiones de diseño, buenas prácticas, errores habituales, matices, etc.).
 - A partir de esos conceptos, generar muchas preguntas y respuestas útiles para entrenamiento.
@@ -7500,9 +7560,6 @@ Reglas generales:
 
 
 def build_user_prompt_easy(block: str) -> str:
-    """
-    Prompt para preguntas fáciles / introductorias.
-    """
     return f"""
 Genera PREGUNTAS FÁCILES (nivel introductorio) con sus respuestas a partir del siguiente texto.
 
@@ -7525,9 +7582,6 @@ Texto:
 
 
 def build_user_prompt_advanced(block: str) -> str:
-    """
-    Prompt para preguntas intermedias / avanzadas.
-    """
     return f"""
 Genera PREGUNTAS INTERMEDIAS y AVANZADAS con sus respuestas a partir del siguiente texto.
 
@@ -7562,13 +7616,11 @@ def parse_jsonl_from_llm(text: str) -> List[Dict[str, str]]:
         line = raw_line.strip()
         if not line:
             continue
-        # A veces el modelo añade viñetas, etc. Limpiamos.
         if line.startswith("- "):
             line = line[2:].strip()
         if line.startswith("* "):
             line = line[2:].strip()
 
-        # Asegurarse de que empieza por { y acaba en }
         if not (line.startswith("{") and line.endswith("}")):
             if "{" in line and "}" in line:
                 line = line[line.find("{"):line.rfind("}") + 1]
@@ -7594,21 +7646,33 @@ def parse_jsonl_from_llm(text: str) -> List[Dict[str, str]]:
 
 def prepare_blocks_for_file(path: str) -> List[str]:
     """
-    Lee el fichero, limpia Markdown y espacios, y lo trocea en bloques.
-    Si queda vacío, devuelve [].
+    Lee el fichero según su extensión, extrae texto útil y lo trocea en bloques.
     """
     print(f"\n[INFO] Preparando archivo: {path}")
-    raw_text = read_text_file(path)
+    ext = os.path.splitext(path)[1].lower()
 
-    if not raw_text.strip():
-        print("[WARN] Archivo vacío, se ignorará (0 bloques).")
+    raw_text = ""
+
+    if ext in (".txt", ".md"):
+        raw_text = read_text_file(path)
+        if ext == ".md":
+            raw_text = strip_markdown(raw_text)
+    elif ext in (".html", ".htm"):
+        raw_text = extract_text_from_html(path)
+    elif ext == ".pdf":
+        raw_text = extract_text_from_pdf(path)
+    else:
+        print(f"[WARN] Extensión no soportada (debería haberse filtrado antes): {ext}")
         return []
 
-    cleaned = strip_markdown(raw_text)
-    text = normalize_whitespace(cleaned)
+    if not raw_text or not raw_text.strip():
+        print("[WARN] Archivo vacío o sin texto útil, se ignorará (0 bloques).")
+        return []
+
+    text = normalize_whitespace(raw_text)
 
     if not text.strip():
-        print("[WARN] Tras limpiar Markdown el archivo quedó vacío, se ignorará (0 bloques).")
+        print("[WARN] Tras normalizar espacios el archivo quedó vacío, se ignorará (0 bloques).")
         return []
 
     blocks = split_into_blocks(text)
@@ -7621,9 +7685,6 @@ def prepare_blocks_for_file(path: str) -> List[str]:
 # =========================
 
 def generate_qa_for_block(block: str) -> List[Dict[str, str]]:
-    """
-    Genera Q/A fáciles y avanzadas para un bloque.
-    """
     all_pairs: List[Dict[str, str]] = []
 
     # Preguntas fáciles
@@ -7661,22 +7722,14 @@ def process_single_file(path: str,
                         tracker: Optional[ProgressTracker],
                         file_index: int,
                         total_files: int) -> int:
-    """
-    Procesa un único fichero de entrada y va escribiendo las Q/A
-    en JSONL sobre la marcha en output_path.
-
-    Devuelve el número total de pares generados.
-    """
     print(f"\n[INFO] Procesando archivo {file_index}/{total_files}: {path}")
 
     if not blocks:
-        # Generar un JSONL vacío para dejar constancia de que se procesó
         with open(output_path, "w", encoding="utf-8"):
             pass
         print("[INFO] Archivo sin bloques, JSONL vacío generado.")
         return 0
 
-    # Truncar el fichero de salida al inicio, por si existe de ejecuciones anteriores
     with open(output_path, "w", encoding="utf-8"):
         pass
 
@@ -7685,7 +7738,6 @@ def process_single_file(path: str,
     for block in blocks:
         block_pairs = generate_qa_for_block(block)
 
-        # Guardar inmediatamente en el JSONL
         if block_pairs:
             with open(output_path, "a", encoding="utf-8") as f:
                 for p in block_pairs:
@@ -7693,7 +7745,6 @@ def process_single_file(path: str,
 
         total_pairs_for_file += len(block_pairs)
 
-        # Actualizar progreso global (un "unit" por bloque)
         if tracker is not None:
             tracker.update(
                 step=1,
@@ -7717,21 +7768,22 @@ def main():
         print("[FATAL] No se ha podido detectar un endpoint válido de Ollama. Abortando.")
         return
 
-    input_files = [
-        os.path.join(INPUT_DIR, fn)
-        for fn in os.listdir(INPUT_DIR)
-        if fn.lower().endswith((".txt", ".md"))
-    ]
+    # Recorre INPUT_DIR de forma recursiva
+    input_files = []
+    for root, _, files in os.walk(INPUT_DIR):
+        for fn in files:
+            if fn.lower().endswith(VALID_EXTS):
+                full_path = os.path.join(root, fn)
+                input_files.append(full_path)
 
     if not input_files:
-        print(f"[INFO] No se han encontrado .txt ni .md en {INPUT_DIR}.")
-        print("      Crea la carpeta y coloca tus transcripciones allí.")
+        print(f"[INFO] No se han encontrado ficheros válidos en {INPUT_DIR}.")
+        print("      Extensiones admitidas:", ", ".join(VALID_EXTS))
         return
 
     log = load_log()
     processed_files = set(log.get("processed_files", []))
 
-    # Filtrar solo los archivos pendientes de procesar
     pending_files = [p for p in sorted(input_files) if p not in processed_files]
 
     if not pending_files:
@@ -7752,7 +7804,6 @@ def main():
     if total_blocks == 0:
         print("[WARN] No se han encontrado bloques de texto útiles en los ficheros pendientes.")
         print("       Se actualizará el log, pero no se generarán Q/A.")
-        # Aun así generamos JSONL vacíos para dejar constancia
         newly_processed_count = 0
         for path in pending_files:
             base_name = os.path.splitext(os.path.basename(path))[0]
@@ -7800,7 +7851,6 @@ def main():
         save_log(log)
         newly_processed_count += 1
 
-    # Cerrar visualmente la barra de progreso
     tracker.finish(prefix="[PROGRESO]")
 
     print("\n[RESUMEN]")
@@ -7815,6 +7865,9 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+
+<a id="interfaz-natural-ia"></a>
+## interfaz natural IA
 
 
 <a id="actividad-libre-de-final-de-evaluacion-la-milla-extra"></a>
