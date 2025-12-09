@@ -66,46 +66,91 @@
 <a id="animacion-2d-y-3d"></a>
 ## Animación 2D y 3D
 
-En el mundo digital actual, los motores de juegos desempeñan un papel crucial, ofreciendo una experiencia interactiva y visualmente atractiva para los jugadores. La animación 2D y 3D es una técnica fundamental en la creación de contenido visual dentro de estos motores, permitiendo desarrollar escenas dinámicas e impactantes que capturan la atención del usuario.
-
-La animación 2D se caracteriza por su simplicidad y eficiencia computacional. Utiliza gráficos bidimensionales para crear personajes, objetos y ambientes, lo que permite un rápido procesamiento de los datos visuales. Este tipo de animación es ideal para juegos que requieren una alta velocidad de actualización, como los juegos de acción o los juegos de estrategia en tiempo real.
-
-Por otro lado, la animación 3D ofrece una experiencia visual más realista y detallada. Utiliza gráficos tridimensionales para crear objetos y personajes con profundidad, lo que permite un movimiento más natural y fluido. La animación 3D es especialmente popular en juegos de acción, simulaciones y juegos de rol, donde la interacción del jugador con el entorno es crucial.
-
-Los motores de juegos modernos incorporan técnicas avanzadas para optimizar la animación 2D y 3D. Por ejemplo, los motores utilizan algoritmos eficientes para calcular el movimiento de los objetos en tiempo real, minimizando el uso de recursos del sistema. Además, se implementan técnicas como la culling (eliminación oculta) para evitar el procesamiento de objetos que no están visibles en la pantalla, lo que mejora significativamente el rendimiento.
-
-La creación de animaciones 2D y 3D requiere un conocimiento profundo de los motores de juegos. Los desarrolladores deben entender cómo funcionan las capas gráficas, los sistemas de física y las herramientas de programación específicas del motor. Además, es importante tener en cuenta la optimización de la animación para garantizar una experiencia fluida y sin retrasos.
-
-En el caso de la animación 2D, los desarrolladores pueden utilizar herramientas gráficas como Adobe Animate o Unity para crear personajes y escenas. Estas herramientas ofrecen una interfaz intuitiva para diseñar gráficos bidimensionales y animaciones sencillas. Para proyectos más complejos, se utilizan motores de juegos específicamente diseñados para la creación de contenido 2D, como Godot o Construct.
-
-La animación 3D es un desafío mayor debido a su naturaleza tridimensional. Los desarrolladores deben tener conocimientos avanzados en gráficos tridimensionales y física computacional. Herramientas como Blender son populares para la creación de modelos 3D, mientras que motores de juegos como Unreal Engine o Unity ofrecen herramientas integradas para crear animaciones 3D.
-
-En conclusión, la animación 2D y 3D es una técnica fundamental en el desarrollo de motores de juegos. Ofrece a los desarrolladores la capacidad de crear experiencias visuales impactantes y detalladas que capturan la atención del jugador. Con un conocimiento profundo de los motores de juegos y las herramientas gráficas adecuadas, los desarrolladores pueden crear contenido visual impresionante que mejore significativamente la experiencia del usuario en los juegos.
 
 <a id="arquitectura-del-juego-componentes"></a>
 ## Arquitectura del juego. Componentes
 
-En el análisis del desarrollo de juegos, la arquitectura del juego desempeña un papel crucial, proporcionando una estructura sólida sobre la cual se construyen las funcionalidades y mecanismos del juego. Esta arquitectura es fundamental para garantizar que los componentes intercambien información eficientemente y que el juego sea escalable y fácil de mantener.
+### Introducción a los ejercicios
 
-El componente principal de cualquier motor de juegos es el **motor gráfico**, encargado de renderizar la escena en pantalla, gestionar las texturas, modelos 3D y animaciones. Este componente interactúa con los componentes de entrada para capturar interacciones del usuario, como clics o movimientos del joystick.
+Este código es una implementación del juego clásico "Asteroids" en HTML y JavaScript. Aquí hay un resumen de las principales características y estructura del código:
 
-Además del motor gráfico, el **motor de física** es otro elemento esencial, encargado de simular la interacción entre objetos en el juego, como colisiones y movimiento. Este componente permite que los jugadores experimenten un mundo realista dentro del juego, añadiendo una capa adicional de immersion.
+### Estructura Principal
 
-El **motor de audio** también es crucial, proporcionando sonidos ambientales, efectos de sonido y música para enriquecer la experiencia del jugador. Este componente se comunica con el motor gráfico para sincronizar los eventos visuales con los sonidos correspondientes.
+1. **Clases**:
+   - `Jugador`: Representa al jugador con métodos para dibujar, moverse y aplicar la aceleración.
+   - `Bala`: Clase que representa una bala disparada por el jugador.
+   - `Estrella`: Simula las estrellas de fondo del espacio.
+   - `Roca`: Representa los asteroides móviles en el juego.
 
-Otro componente importante es el **motor de IA**, que controla el comportamiento de los personajes no jugadores (PNJ) y otros elementos inteligentes en el juego. Esta funcionalidad puede variar desde la simulación del pensamiento humano hasta la creación de algoritmos simples para la navegación y la interacción.
+2. **Inicialización**:
+   - Se inicializan variables globales como la anchura y altura de la pantalla, así como el contexto 2D para dibujar.
+   - Se crea una instancia del jugador y se generan estrellas aleatorias.
 
-El **motor de recursos** se encarga de cargar, almacenar y gestionar los archivos multimedia utilizados por el juego, como imágenes, modelos 3D y sonidos. Este componente es vital para mantener un buen rendimiento del juego, ya que una gestión eficiente de los recursos puede evitar la sobrecarga de memoria.
+3. **Niveles**:
+   - El juego tiene múltiples niveles con cada nivel incrementando gradualmente la cantidad de asteroides.
 
-Además, el **motor de controlador** se encarga de gestionar las entradas del usuario, como teclado, joystick o gestos táctiles. Este componente es fundamental para permitir interacciones fluidas y precisas con el juego.
+4. **Controles**:
+   - Manejo de eventos `keydown` y `keyup` para controlar el movimiento del jugador (girar, acelerar) y disparar balas.
 
-El **motor de estado del juego** mantiene un seguimiento del progreso del jugador a lo largo del tiempo, almacenando información sobre los niveles completados, las monedas recogidas y otros datos relevantes. Este componente es esencial para la persistencia del progreso entre sesiones de juego.
+5. **Bucle Principal**:
+   - El bucle principal se ejecuta aproximadamente 60 veces por segundo (cada 16ms).
+   - Dibuja la pantalla, maneja colisiones, actualiza las posiciones de entidades y realiza otras tareas del juego.
 
-Por último, el **motor de red** se encarga de manejar las comunicaciones en juegos multijugador, permitiendo que varios jugadores interactúen simultáneamente en una misma sesión. Este componente es crucial para crear experiencias sociales y competitivas dentro del juego.
+### Funcionalidades Específicas
 
-En resumen, la arquitectura del juego está compuesta por diversos componentes interconectados, cada uno desempeñando un papel específico pero todos trabajando juntos para crear una experiencia de juego fluida, interactiva y envolvente. Cada componente debe ser diseñado con cuidado para garantizar que el juego sea eficiente, escalable y fácil de mantener a lo largo del tiempo.
+#### Jugador
+- **Métodos**:
+  - `aplicaThrust`: Añade velocidad en la dirección del ángulo actual.
+  - `mueve`: Aplica fuerza de fricción (rozamiento) y actualiza posición basada en velocidad.
+
+#### Balas
+- **Métodos**:
+  - `dibuja`: Dibuja una bola azul representando a la bala.
+  - `mueve`: Mueve la bala según su dirección y velocidad.
+
+#### Asteroides (Rocas)
+- **Métodos**:
+  - `dibuja`: Dibuja el asteroide, que es un polígono irregular con bordes redondeados.
+  - `mueve`: Actualiza posición del asteroide y maneja colisiones con los bordes de la pantalla.
+
+#### Colisiones
+- Se verifica si una bala ha golpeado a un asteroide y se eliminan ambas en caso afirmativo.
+  
+#### Niveles
+- Cada vez que todos los asteroides son destruidos, el nivel aumenta. La cantidad de asteroides generados para cada nivel también aumenta exponencialmente.
+
+### Mejoras Sobresalientes
+
+1. **Texturas y Estilo**:
+   - Implementación de estrellas y fondo negro que añade un efecto visual atractivo.
+   
+2. **Manejo del Flujo del Juego**:
+   - La introducción de niveles, mensajes de nivel, y un HUD (heads-up display) para mostrar información en tiempo real como el número actual del nivel.
+
+3. **Sistema de Colisiones Eficiente**:
+   - Un sistema que verifica las colisiones entre balas y asteroides con precisión.
+   
+4. **Manejo de Bordes**:
+   - Los bordes del juego actúan como un "wrap", es decir, cuando algo sale por el borde derecho, reaparece en el borde izquierdo.
+
+### Ejecución
+
+Para ejecutar este código, simplemente necesita insertarlo en una página HTML básica y abrir esa página con un navegador web. Los controles son clásicos para Asteroids: flechas para girar, tecla W para acelerar y espacio para disparar.
+
+Este ejemplo proporciona una base sólida para desarrollar juegos más complejos utilizando JavaScript y HTML5 Canvas.
 
 ### empezamos
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código es una plantilla HTML básica que se utiliza para iniciar un proyecto de programación multimedia o juegos. La estructura principal contiene elementos como `<head>` y `<body>`, donde se incluye un elemento `canvas` para dibujar gráficos en el navegador web. El elemento `canvas` tiene un ancho y alto específicamente definidos en 512x512 píxeles, lo que es común en juegos simples.
+
+En la etiqueta `<script>`, se encuentran comentarios que indican bloques de código por implementar: declarar las clases reutilizables (objetos del juego), establecer condiciones de inicio y entrar en el bucle principal del juego. Estas partes son fundamentales para cualquier programa que incluya interacción gráfica, ya que permiten definir los elementos del juego, cómo comienza la ejecución y cómo se mantiene el flujo constante de eventos.
+
+Este archivo sirve como punto de partida para desarrollar un juego o aplicación multimedia, proporcionando una estructura clara y preparándote para añadir funcionalidades específicas en cada sección comentada. Es importante comenzar con esta plantilla porque organiza tu código y te guía hacia la implementación correcta del motor del juego.
+
+`001-empezamos.html`
 
 ```html
 <!doctype html>
@@ -129,6 +174,13 @@ En resumen, la arquitectura del juego está compuesta por diversos componentes i
 ```
 
 ### entramos en el bucle
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML establece la estructura básica de una página web que incluye un área de dibujo llamada "canvas". Dentro del bloque de JavaScript, el código crea un bucle infinito utilizando una técnica llamada temporización. El bucle se inicia cuando se carga la página y se ejecuta cada segundo (1000 milisegundos). Cada vez que el bucle se completa, se detiene temporalmente usando `clearTimeout()` para evitar múltiples ejecuciones simultáneas y luego se reinicia con `setTimeout()`. Esto es fundamental en juegos y aplicaciones interactivas porque permite actualizar la pantalla o realizar acciones repetidamente a intervalos regulares, manteniendo una experiencia fluida y dinámica para el usuario.
+
+`002-entramos en el bucle.html`
 
 ```html
 <!doctype html>
@@ -158,6 +210,19 @@ En resumen, la arquitectura del juego está compuesta por diversos componentes i
 ```
 
 ### condiciones de inicio
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML es parte de un proyecto que se centra en la creación de juegos multimedia. En este archivo, se establece el escenario inicial para un juego básico utilizando una etiqueta `<canvas>` que actúa como lienzo donde se dibujarán los elementos del juego.
+
+En el bloque de script, primero se selecciona el elemento canvas desde el DOM (Modelo de Objetos del Documento) con `querySelector("canvas")` y luego se obtiene un contexto 2D para pintar en este lienzo mediante `getContext("2d")`. El contexto 2D proporciona métodos que permiten dibujar figuras, textos y otros elementos gráficos.
+
+El código también introduce una estructura básica de bucle utilizado comúnmente en juegos para actualizar el estado del juego a intervalos regulares. Esta parte se encarga de ejecutar la función `bucle()` cada segundo (1000 milisegundos) gracias al método `setTimeout()`. Dentro de esta función, simplemente imprime un mensaje en la consola para indicar que está dentro del bucle y luego programa una nueva llamada a sí misma. Esta técnica es fundamental para crear juegos interactivos ya que permite actualizar continuamente el estado del juego (posición de los objetos, puntuación, etc.) y redibujar la pantalla cada cierto tiempo.
+
+Este tipo de estructura de bucle es crucial en el desarrollo de juegos ya que mantiene al juego "vivo" e interactivo, permitiendo a los usuarios ver cambios en tiempo real mientras juegan.
+
+`003-condiciones de inicio.html`
 
 ```html
 <!doctype html>
@@ -189,6 +254,21 @@ En resumen, la arquitectura del juego está compuesta por diversos componentes i
 ```
 
 ### clases
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML es una página web que contiene un juego simple. En la parte central del documento, hay un elemento `canvas` que tiene un tamaño de 512x512 píxeles y servirá como lienzo para dibujar los elementos del juego.
+
+En el bloque de script, se definen tres clases: `Jugador`, `Roca` y `Bala`. En este momento solo está implementada la clase `Jugador`, que incluye un constructor donde se inicializan las posiciones (posx y posy) en el centro del lienzo (256, 256), y además un ángulo. La clase también tiene un método llamado `dibuja()` que dibuja al jugador en forma de círculo rojo utilizando la API Canvas para pintar en el canvas.
+
+Después, se obtiene una referencia a este lienzo (`lienzo`) y a su contexto de dibujo (`contexto`). Luego se crea un objeto `jugador` basado en la clase Jugador. Finalmente, se establece un temporizador que llama repetidamente a una función llamada `bucle()` cada segundo.
+
+La función `bucle()` comienza borrando todo el lienzo con `clearRect()`, dibuja al jugador usando su método `dibuja()`, imprime en la consola que está dentro del bucle, y establece otro temporizador para llamar a sí misma. Esto crea un ciclo repetitivo que permite actualizar continuamente el estado del juego, aunque aquí se actualiza muy lentamente cada segundo (en lugar de los típicos 60 fps).
+
+Este código es fundamental porque establece las bases para la lógica del juego y cómo sus elementos principales (jugador) interactúan con el lienzo. Es un ejemplo básico pero crucial de cómo estructurar un juego en JavaScript utilizando clases, objetos, y temporizadores.
+
+`004-clases.html`
 
 ```html
 <!doctype html>
@@ -246,6 +326,25 @@ En resumen, la arquitectura del juego está compuesta por diversos componentes i
 ```
 
 ### vamos con las rocas
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML es la base para una pequeña aplicación que simula un juego básico en un lienzo interactivo. En el cuerpo del documento, se crea un elemento `<canvas>` con un tamaño de 512x512 píxeles, lo cual servirá como lienzo donde se dibujará todo el contenido visual del juego.
+
+Dentro de la etiqueta `<script>`, se definen tres clases: `Jugador`, `Roca` y `Bala`. La clase `Jugador` tiene un constructor que inicializa la posición (x,y) del jugador en el centro del lienzo (256, 256) y también establece su ángulo a cero. El método `dibuja()` de esta clase dibuja al jugador como un punto rojo en el centro.
+
+La clase `Roca` crea objetos que representan las rocas en el juego. En el constructor, se generan posiciones aleatorias para la roca dentro del lienzo y también atributos como número de lados (que determina su forma) y radio. El método `dibuja()` dibuja cada roca como un polígono irregular basándose en los atributos definidos.
+
+La clase `Bala` está incompleta en este código, pero servirá para añadir balas al juego más adelante.
+
+Después de declarar las clases, el script establece la configuración inicial del lienzo y crea una instancia de jugador. También se genera un array llamado `rocas`, que contiene 10 objetos roca creados aleatoriamente usando un bucle.
+
+Finalmente, el código entra en lo que se conoce como "bucle principal" o loop del juego, que es crucial para juegos interactivos ya que permite la actualización continua y dibujar repetidamente elementos del juego cada cierto tiempo. En este caso, se utiliza `setTimeout` para llamar a la función `bucle()` cada segundo (1000 milisegundos). Dentro de esta función, el lienzo se limpia, el jugador y las rocas se dibujan nuevamente, y luego se vuelve a programar el bucle para volver a ejecutarse.
+
+Este código es un punto de partida fundamental para desarrollar juegos interactivos en JavaScript utilizando HTML5 Canvas, permitiendo que los estudiantes entiendan cómo se estructuran y actualizan elementos del juego en tiempo real.
+
+`005-vamos con las rocas.html`
 
 ```html
 <!doctype html>
@@ -329,6 +428,21 @@ En resumen, la arquitectura del juego está compuesta por diversos componentes i
 ```
 
 ### aleatoriedad rocas
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML es la estructura básica de un juego simple que utiliza JavaScript para dibujar en un lienzo canvas. La página define tres clases principales: `Jugador`, `Roca` y `Bala`. 
+
+La clase `Jugador` inicializa el personaje con una posición central (256, 256) y dibuja un círculo rojo para representarlo en el lienzo.
+
+La clase `Roca` es más compleja. Cada instancia de la roca se genera aleatoriamente en cualquier lugar del canvas de 512x512 píxeles, con propiedades que definen su apariencia, como el número de lados y la rugosidad para darle un aspecto irregular. El método `dibuja()` utiliza este diseño para dibujar una roca no circular, lo que hace que cada roca se vea diferente.
+
+Además del código para inicializar estas clases, hay una función llamada `bucle` que esencialmente actúa como el bucle principal del juego. Esta función borra la pantalla antes de dibujar al jugador y todas las rocas en sus posiciones actuales. Luego programa a sí misma para ser ejecutada nuevamente después de un segundo, creando así un efecto cíclico que simula el movimiento continuo en el juego.
+
+Esta estructura básica es crucial porque establece cómo se dibujan y actualizan los elementos del juego en cada iteración del bucle principal.
+
+`006-aleatoriedad rocas.html`
 
 ```html
 <!doctype html>
@@ -416,6 +530,19 @@ En resumen, la arquitectura del juego está compuesta por diversos componentes i
 ```
 
 ### las rocas se mueven
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML es una página web que contiene un juego simple donde elementos como el jugador y las rocas se dibujan en un lienzo canvas. En la parte del script, se definen tres clases: `Jugador`, `Roca` y `Bala`. La clase `Jugador` tiene atributos para su posición (posx y posy) y orientación (angulo), y un método llamado `dibuja()` que dibuja al jugador en el lienzo como un círculo rojo.
+
+La clase `Roca`, por otro lado, es más compleja. Cada instancia de una roca tiene atributos para su posición, orientación, número de lados y radio, además de una rugosidad que determina la forma irregulera del borde de las rocas. La función `dibuja()` dibuja la roca en el lienzo según sus características geométricas. También existe un método llamado `mueve()`, que cambia aleatoriamente la orientación y posición de cada roca para hacerlas moverse.
+
+Finalmente, se crea una instancia del jugador y un array con varias instancias de rocas. El código establece un temporizador que llama a la función `bucle()` periódicamente (cada 100 milisegundos), lo cual es crucial porque este bucle principal es responsable de limpiar el lienzo, actualizar las posiciones de las rocas y dibujarlas de nuevo en cada iteración. Esto crea un efecto visual continuo que simula movimiento y animación.
+
+Este código es importante ya que establece la base para una aplicación web interactiva con elementos animados, enseñando cómo utilizar el canvas HTML5 junto a JavaScript para crear juegos sencillos y gráficos dinámicos.
+
+`007-las rocas se mueven.html`
 
 ```html
 <!doctype html>
@@ -509,6 +636,21 @@ En resumen, la arquitectura del juego está compuesta por diversos componentes i
 ```
 
 ### comentarios
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML es el inicio de un pequeño juego en una página web que utiliza elementos como canvas y JavaScript para dibujar objetos animados, específicamente un jugador (en forma de círculo rojo) y varios asteroides o rocas. El archivo define tres clases principales: `Jugador`, `Roca` y `Bala`. 
+
+La clase `Jugador` establece una posición inicial para el personaje en medio del canvas y proporciona un método `dibuja()` que dibuja este jugador como un círculo rojo.
+
+La clase `Roca` es más compleja. Cada instancia de esta clase representa una roca con propiedades aleatorias para posiciones, tamaño y apariencia, y tiene métodos para dibujar la roca en forma de polígono irregular y moverla suavemente por el canvas.
+
+Finalmente, se inicializan varias instancias del jugador y las rocas, y se establece un bucle que actualiza constantemente el estado del juego (borrando y redibujando los objetos) para crear una animación. Este bucle se ejecuta a través de `setTimeout`, lo que permite una animación sencilla pero efectiva.
+
+Este código es importante porque introduce conceptos clave en la programación de juegos, como clases, métodos, animaciones basadas en temporizadores y cómo dibujar objetos simples en un canvas HTML.
+
+`008-comentarios.html`
 
 ```html
 <!doctype html>
@@ -614,6 +756,21 @@ En resumen, la arquitectura del juego está compuesta por diversos componentes i
 ```
 
 ### pantalla completa
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML contiene la estructura básica de una página web que esencialmente sirve como un lienzo para un juego simple, donde los elementos del juego se dibujan en tiempo real utilizando JavaScript. La página define tres clases principales: `Jugador`, `Roca` y `Bala`. Cada clase tiene métodos específicos para dibujar y moverse dentro del espacio de juego.
+
+La clase `Jugador` crea un objeto que representa al jugador, estableciendo sus posiciones iniciales en el centro de la pantalla y dibujando un círculo rojo en su posición. Por otro lado, la clase `Roca` genera varias rocas aleatorias con propiedades como tamaño y número de lados, las cuales se mueven y dibujan continuamente en el lienzo del juego.
+
+El código también establece variables globales que definen el ancho y alto de la pantalla para que el lienzo pueda adaptarse al tamaño de cualquier dispositivo. Luego, crea una instancia de `Jugador` y un array con varias instancias de `Roca`. Este conjunto de objetos es responsable del comportamiento básico del juego.
+
+Finalmente, el código define un bucle principal que se ejecuta repetidamente para actualizar la pantalla cada 100 milisegundos. En cada iteración, este bucle borra lo que estaba en pantalla y redibuja tanto al jugador como a todas las rocas, permitiendo efectos de movimiento continuo.
+
+Este tipo de estructura es fundamental en el desarrollo de juegos simples para entender cómo se actualiza la pantalla en tiempo real y cómo los objetos interactúan dentro del espacio del juego.
+
+`009-pantalla completa.html`
 
 ```html
 <!doctype html>
@@ -724,6 +881,21 @@ En resumen, la arquitectura del juego está compuesta por diversos componentes i
 ```
 
 ### personaje dibujo y se mueve
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML es una página web básica que contiene un juego simple donde se dibuja y mueve un personaje (jugador) y varias rocas en un lienzo de canvas. La parte principal del código está dentro de las etiquetas `<script>` en la sección `<body>`. 
+
+El código define tres clases: `Jugador`, `Roca` y `Bala`. En este momento, solo se implementan `Jugador` y `Roca`. La clase `Jugador` tiene un constructor que inicializa la posición del personaje en el centro de la pantalla y su dirección. Tiene un método llamado `dibuja()` que dibuja al jugador como un círculo rojo con una línea negra apuntando hacia abajo, representando a donde está mirando.
+
+La clase `Roca` representa las rocas voladoras en el juego. Cada roca tiene su posición y ángulo inicial aleatorios, además de propiedades para controlar su forma (como lados y radio). El método `dibuja()` dibuja la roca según sus características geométricas, mientras que `mueve()` actualiza la posición de la roca en cada iteración del bucle principal.
+
+En el cuerpo del script, se inicializan las variables globales necesarias para el juego como la anchura y altura de la pantalla. Luego, se crean instancias del jugador y un grupo de rocas. Finalmente, se establece un temporizador que llama a una función `bucle()` cada 100 milisegundos. Esta función limpia el lienzo antes de dibujar al jugador y todas las rocas en su nueva posición.
+
+Este código es importante porque establece la base para un juego interactivo con elementos animados, mostrando cómo se pueden crear personajes y obstáculos usando objetos definidos por clases en JavaScript dentro del entorno HTML.
+
+`010-personaje dibujo y se mueve.html`
 
 ```html
 <!doctype html>
@@ -849,6 +1021,23 @@ En resumen, la arquitectura del juego está compuesta por diversos componentes i
 ```
 
 ### controles de teclado
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML y JavaScript es una parte fundamental del desarrollo de un juego básico que utiliza el control del teclado para mover elementos en la pantalla. El código establece las clases básicas necesarias para definir los objetos principales del juego: `Jugador`, `Roca` y `Bala`. Además, se crean variables globales como `anchura` y `altura`, que obtienen automáticamente el tamaño de la ventana del navegador, lo que permite una pantalla adaptable.
+
+La clase `Jugador` define un personaje con capacidad de rotación utilizando las teclas de dirección A (izquierda) y D (derecha). El jugador se dibuja como un triángulo con una circunferencia central roja en su posición actual (`posx`, `posy`). La clase también incluye el método `dibuja()` que utiliza funciones trigonométricas para dibujar los vértices del triángulo según la orientación y ubicación del jugador.
+
+La clase `Roca` es responsable de crear rocas en la pantalla, cada una con un número aleatorio de lados (polígono irregular) y radios variables. Estas rocas se mueven en el bucle principal del juego (`bucle()`) gracias al método `mueve()` que cambia su posición en función del ángulo y radio definidos.
+
+El control de teclado es implementado mediante la captura de eventos `onkeydown`, donde cada presión de una tecla (W, S, A, D) altera la ubicación o el ángulo del jugador. Esto permite que el personaje se oriente y gire según las entradas del usuario.
+
+La función `bucle()` es crucial para el funcionamiento dinámico del juego. Limpia primero la pantalla en cada iteración (`contexto.clearRect()`) y luego dibuja al jugador y a todas las rocas, actualizando su posición con `roca.mueve()`. Este bucle se ejecuta de forma recurrente gracias a un temporizador que llama a sí mismo (`setTimeout("bucle()",100)`), lo que genera el efecto visual del movimiento continuo en la pantalla.
+
+Este código es importante porque establece las bases para una interacción básica entre los controles del teclado y la representación gráfica del juego, además de preparar el escenario para futuras mejoras como disparos o colisiones.
+
+`011-controles de teclado.html`
 
 ```html
 <!doctype html>
@@ -1004,6 +1193,21 @@ En resumen, la arquitectura del juego está compuesta por diversos componentes i
 ```
 
 ### ahora me desplazo
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML es una plantilla básica para un juego simple en el que se utilizan elementos como clases y bucles para crear y animar objetos en la pantalla. En este caso, el juego tiene tres tipos principales de objetos: `Jugador`, `Roca` y `Bala`. Cada uno tiene sus propias características y métodos para dibujarse y moverse.
+
+El jugador es un objeto que se puede desplazar en todas las direcciones gracias a las teclas del teclado. Su posición se calcula usando la trigonometría básica (cosenos y senos) para rotar y mover el personaje según su ángulo actual. Cuando dibuja al jugador, crea un triángulo con una "nariz" que apunta en la dirección en la que está orientado.
+
+Las rocas son objetos aleatorios que se crean con características como tamaño, número de lados, y posición en la pantalla. Cada vez que se dibujan, también cambian su ángulo y posición para simular un movimiento natural.
+
+Finalmente, el código establece un bucle principal que se ejecuta cada 100 milisegundos. En cada iteración del bucle, la pantalla se limpia primero y luego se redibuja tanto el jugador como las rocas. Esto crea una animación continua en la página web.
+
+Este tipo de diseño es crucial para crear juegos interactivos, ya que permite un control preciso sobre los elementos gráficos y su comportamiento.
+
+`012-ahora me desplazo.html`
 
 ```html
 <!doctype html>
@@ -1160,6 +1364,23 @@ En resumen, la arquitectura del juego está compuesta por diversos componentes i
 ```
 
 ### balas como objetos
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML crea una página web interactiva que simula un juego en el que se dibujan elementos como un jugador, balas y rocas. La página utiliza JavaScript para definir tres clases principales: `Jugador`, `Bala` y `Roca`. Estas clases son objetos reutilizables con sus propias características y métodos.
+
+La clase `Jugador` se encarga de dibujar al personaje principal en el centro del lienzo, que es un círculo rojo con una nariz triangular apuntando hacia la dirección definida por su ángulo. El jugador puede moverse en las cuatro direcciones básicas (arriba, abajo, izquierda y derecha) usando las teclas W, S, A y D respectivamente.
+
+La clase `Bala` representa un objeto circular azul que se crea con una posición y dirección aleatoria cada vez que se instancia. Este objeto es más simple ya que sólo tiene un método para dibujarlo en el lienzo.
+
+Por último, la clase `Roca` crea objetos de roca poligonales al azar y los mueve gradualmente a través del lienzo. Estas rocas tienen lados irregulares definidos por un número aleatorio entre 5 y 25, lo que hace que cada roca tenga una forma única.
+
+El código también incluye funciones para iniciar el juego, como establecer las dimensiones del lienzo basándose en la ventana actual y dibujar al jugador y a las rocas. Además, hay un bucle principal (`bucle()`) que se ejecuta periódicamente (cada 100 milisegundos) para actualizar los elementos del juego, lo que permite animaciones fluidas y movimiento continuo en el lienzo.
+
+Este código es importante porque demuestra cómo manejar objetos en un juego interactivo, proporcionando una base sólida para construir juegos más complejos con características como colisiones y niveles.
+
+`013-balas como objetos.html`
 
 ```html
 <!doctype html>
@@ -1327,6 +1548,21 @@ En resumen, la arquitectura del juego está compuesta por diversos componentes i
 ```
 
 ### espaciadora crea balas
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML es parte de un juego simple que utiliza JavaScript para la interactividad y el dibujado en un lienzo (canvas). En él, se definen tres clases principales: `Jugador`, `Bala` y `Roca`. Estas clases representan diferentes elementos del juego, cada una con métodos propios como `dibuja()` que se encargan de renderizar la entidad en el canvas.
+
+La clase `Jugador` dibuja un triángulo simple con su "nose" (punta) apuntando hacia donde está mirando. Las balas y rocas son entidades más simples, siendo las balas círculos azules que se disparan desde la posición del jugador en la dirección que este mire, mientras que las rocas tienen una forma irregular con bordes irregulares para simular un asteroide o objeto similar.
+
+El código también gestiona el movimiento del jugador mediante teclas del teclado (w, a, s, d) y crea balas cuando se presiona la barra espaciadora. Las rocas son generadas al inicio del juego y se mueven de forma aleatoria por la pantalla.
+
+Es importante destacar cómo el bucle principal (`bucle()`) es responsable de actualizar y dibujar en cada frame los objetos del juego, lo que proporciona un movimiento fluido y una experiencia interactiva. El uso de temporizadores (`setTimeout`) permite crear efectos animados actualizando constantemente la pantalla para reflejar el estado actual del juego.
+
+Este código es fundamental para entender cómo se estructura un juego simple en JavaScript y HTML, mostrando cómo gestionar objetos, eventos de teclado, y dibujado en tiempo real.
+
+`014-espaciadora crea balas.html`
 
 ```html
 <!doctype html>
@@ -1503,6 +1739,19 @@ En resumen, la arquitectura del juego está compuesta por diversos componentes i
 ```
 
 ### tengo que tambien dibujar las balas
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML es la estructura básica de un juego en el navegador, que incluye clases para representar al jugador, las balas y las rocas. La página contiene una única etiqueta `<canvas>` donde todo el contenido del juego se dibuja.
+
+El fragmento específico a analizar describe cómo se crean e inicializan los objetos del juego: `Jugador`, `Bala` y `Roca`. Estos objetos tienen métodos como `dibuja()` que definen la apariencia visual de cada uno en el lienzo del canvas. Por ejemplo, el jugador es dibujado como un triángulo rojo mientras que las balas son simples círculos azules.
+
+Además, se inicializan varias instancias de estas clases y se establecen controles de teclado para mover al jugador e iniciar disparos con la tecla espacial. Existe una función `bucle()` que ejecuta un bucle de actualización del juego cada 100 milisegundos, limpiando primero el lienzo y luego llamando a los métodos `dibuja()` para todos los objetos en pantalla. Este bucle también llama al método `mueve()` para las rocas, lo que hace que se muevan de forma aleatoria.
+
+Este código es importante porque demuestra cómo estructurar un juego simple utilizando clases en JavaScript y eventos del teclado para interacción del usuario, permitiendo así a los estudiantes comprender conceptos básicos de programación orientada a objetos y animaciones en tiempo real.
+
+`015-tengo que tambien dibujar las balas.html`
 
 ```html
 <!doctype html>
@@ -1682,6 +1931,21 @@ En resumen, la arquitectura del juego está compuesta por diversos componentes i
 ```
 
 ### les digo a las balas que se mueven
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML crea una página web que simula un juego simple en el que hay un jugador, rocas y balas. En particular, este fragmento se enfoca en cómo las balas se mueven dentro del juego.
+
+La clase `Bala` tiene tres métodos principales: `constructor`, `dibuja` y `mueve`. El método `mueve()` es crucial porque define la lógica de movimiento para cada bala. Este método primero añade un pequeño ángulo aleatorio a la dirección actual de la bala, lo que le da una trayectoria no recta pero predecible. Luego, calcula y actualiza las posiciones `posx` e `iny` basándose en el coseno y seno del ángulo de la bala, respectivamente.
+
+El movimiento no es directamente hacia arriba o abajo, sino que sigue un patrón más orgánico debido a los cambios aleatorios en la dirección. Esto hace que las balas se muevan de manera similar a una trayectoria parabólica realista cuando disparan, añadiendo un nivel adicional de interactividad y empatía con el juego.
+
+En el bucle principal del juego (`bucle()`), cada vez que se actualiza la pantalla, todas las instancias de `Bala` en el array `balas` tienen sus métodos `dibuja()` y `mueve()` llamados. Esto asegura que cada bala tanto se dibuje en su nueva posición como cambie su dirección según los cálculos realizados en el método `mueve()`. Este bucle es fundamental para dar vida al juego, ya que permite que las balas evolucionen dinámicamente con cada cuadro pintado.
+
+En resumen, este fragmento de código proporciona una base sólida para la creación y control de los objetos en movimiento dentro del juego, específicamente centrando el enfoque en cómo las balas se desplazan en un espacio 2D.
+
+`016-les digo a las balas que se mueven.html`
 
 ```html
 <!doctype html>
@@ -1867,6 +2131,21 @@ En resumen, la arquitectura del juego está compuesta por diversos componentes i
 ```
 
 ### mas velocidad para las balas
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML incluye la estructura básica de un juego en el navegador utilizando JavaScript y la API Canvas. En particular, se centra en cómo las balas disparadas por el jugador se mueven más rápido una vez que han sido creadas.
+
+El código define tres clases principales: `Jugador`, `Bala` y `Roca`. Cada clase tiene sus propias características y métodos para dibujarse y moverse. La clase `Bala` es relevante aquí porque incluye dos métodos: `dibuja()` que dibuja un círculo azul en la posición actual de la bala, y `mueve()` que cambia la posición de la bala basándose en su ángulo y velocidad.
+
+La velocidad de las balas es definida como 5 unidades por movimiento. En el método `mueve()`, la posición (x,y) de la bala se actualiza usando el coseno y seno del ángulo para moverse en dirección al vector especificado, lo que hace que las balas viajen en línea recta pero con una orientación controlada por el jugador.
+
+El bucle principal (`bucle()`) es responsable de limpiar la pantalla y dibujar todas las entidades (jugador, rocas y balas) en cada iteración. También llama al método `mueve()` para cada bala en el array `balas`, lo que permite a las balas moverse por la pantalla.
+
+Este código es importante porque demuestra cómo se pueden crear objetos reutilizables con características específicas (como velocidad de movimiento) y cómo estos objetos interactúan dentro del flujo principal del juego. La creación de un sistema modular como este facilita el mantenimiento y expansión del juego en el futuro, permitiendo añadir nuevas características o mejorar las existentes sin necesidad de reescribir todo el código desde cero.
+
+`017-mas velocidad para las balas.html`
 
 ```html
 <!doctype html>
@@ -2052,6 +2331,21 @@ En resumen, la arquitectura del juego está compuesta por diversos componentes i
 ```
 
 ### detectamos colision de la bala con la roca
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código es una página HTML que contiene un juego simple en el que puedes mover un jugador y disparar balas para destruir rocas. La parte crucial del código se centra en la detección de colisiones entre las balas y las rocas.
+
+El bucle principal del juego, llamado `bucle()`, se ejecuta periódicamente (cada 100 milisegundos) gracias a un temporizador (`setTimeout`). En cada iteración del bucle, el código borra la pantalla anterior y dibuja todos los elementos nuevamente. Esto incluye al jugador (que es un objeto de clase `Jugador`), las rocas (objetos de clase `Roca`) que se mueven aleatoriamente por la pantalla, y las balas (objetos de clase `Bala`) que también se mueven en línea recta según su ángulo inicial.
+
+La detección de colisiones entre las balas y las rocas se realiza dentro del bucle principal. Para cada bala, el código itera a través de todas las rocas para calcular la distancia entre ellas usando la función `distancia()`. Si esta distancia es menor que el radio de la roca (`roca.radio`), significa que hay una colisión y en ese caso se imprime un mensaje "colision" en la consola.
+
+Esta mecánica es importante porque permite implementar las reglas del juego: cuando una bala golpea una roca, podrías añadir lógica para destruir o cambiar la roca (por ejemplo, reducir su tamaño o eliminarla por completo). La funcionalidad de detección de colisiones es fundamental en muchos juegos para gestionar interacciones entre objetos.
+
+Este código proporciona una base sólida para un juego simple y ofrece la flexibilidad necesaria para añadir más complejidades como puntajes, niveles y gráficos mejorados.
+
+`018-detectamos colision de la bala con la roca.html`
 
 ```html
 <!doctype html>
@@ -2252,6 +2546,19 @@ En resumen, la arquitectura del juego está compuesta por diversos componentes i
 ```
 
 ### ahora borramos la roca
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML es una página web que implementa un juego simple en el cual el usuario controla a un personaje (un jugador) con teclas del teclado y dispara balas para eliminar rocas que aparecen aleatoriamente en la pantalla. El juego utiliza JavaScript junto con HTML5 Canvas para dibujar elementos gráficos.
+
+En la parte principal del código, se definen tres clases: `Jugador`, `Bala` y `Roca`. Cada una de estas clases tiene sus propios métodos para dibujarse (`dibuja()`) y moverse (`mueve()`). El jugador puede moverse en cuatro direcciones básicas (arriba, abajo, izquierda, derecha) y disparar balas con la tecla espaciadora. Las rocas se crean aleatoriamente en diferentes posiciones de la pantalla y tienen una apariencia irregular debido a un patrón generado por el método `dibuja()`.
+
+El bucle principal del juego (`bucle()`) es responsable de limpiar la pantalla entre cada marco para dibujar los nuevos elementos. Este bucle también comprueba si las balas han colisionado con alguna roca, eliminando ambas (la bala y la roca) en caso afirmativo.
+
+Este código es importante porque demuestra cómo se pueden crear objetos complejos usando clases en JavaScript, manejar eventos de teclado para interactuar con el usuario, y dibujar elementos animados en un lienzo Canvas. Además, muestra conceptos clave del desarrollo de juegos como la gestión de colisiones entre diferentes entidades del juego.
+
+`019-ahora borramos la roca.html`
 
 ```html
 <!doctype html>
@@ -2451,6 +2758,23 @@ En resumen, la arquitectura del juego está compuesta por diversos componentes i
 ```
 
 ### la bala tambien se rompe con la roca
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML crea una página web interactiva con un juego sencillo en el que controlas a un jugador que dispara balas para destruir rocas voladoras. En la parte central del documento, se definen varias clases (Jugador, Bala y Roca) que representan los elementos del juego.
+
+1. **Clase Jugador**: Define al personaje principal con métodos para dibujarlo en el canvas. El jugador es un triángulo con una "nariz" apuntando hacia la dirección en la que está mirando. Se pueden mover tanto su posición como su ángulo (rotación) utilizando las teclas W, S, A y D.
+
+2. **Clase Bala**: Representa los proyectiles disparados por el jugador. Cada bala se dibuja como un pequeño círculo azul en la pantalla y tiene una función para moverse en dirección a su ángulo de tiro con una velocidad constante.
+
+3. **Clase Roca**: Simula las rocas que flotan y giran aleatoriamente por el espacio. Cada roca está dibujada como un polígono irregular (que puede parecer rugoso o liso) y tiene su propio ángulo de rotación para crear efectos visuales interesantes.
+
+Además, hay funciones globales que inicializan las instancias del jugador y las rocas al cargar la página, manejan eventos de teclado para controlar el movimiento del jugador y disparo de balas, y ejecutan un bucle principal que actualiza constantemente la pantalla dibujando los elementos del juego en cada iteración. Este bucle también revisa si alguna bala ha golpeado una roca, eliminándolas ambas si esto ocurre.
+
+Este código es importante porque demuestra cómo estructurar un juego básico con HTML y JavaScript, utilizando clases para encapsular la lógica de los diferentes elementos del juego (jugador, balas, enemigos), manejo de eventos de teclado para la interactividad y el uso de funciones temporales para crear animaciones fluidas.
+
+`020-la bala tambien se rompe con la roca.html`
 
 ```html
 <!doctype html>
@@ -2652,6 +2976,27 @@ En resumen, la arquitectura del juego está compuesta por diversos componentes i
 ```
 
 ### balas se eliminan al salir de la pantalla
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML contiene un juego básico donde el jugador controla un personaje que dispara balas y debe destruir rocas que aparecen en la pantalla. El código incluye clases para definir los objetos del juego como el jugador, las balas y las rocas, cada una con métodos específicos para dibujarlas y moverlas.
+
+En particular, este fragmento es crucial porque implementa un bucle principal (`bucle()`) que se ejecuta continuamente usando `setTimeout`. En cada iteración del bucle, primero borra la pantalla y luego actualiza y dibuja todos los objetos en ella: el jugador, las rocas y las balas. Importante aquí es cómo las balas son eliminadas cuando salen de la pantalla:
+
+```javascript
+for(let j = balas.length - 1; j >= 0; j--){
+    if(balas[j].posx < 0 || balas[j].posx > anchura || balas[j].posy < 0 || balas[j].posy > altura){
+        balas.splice(j,1)
+    }
+}
+```
+
+Este código recorre el array de las balas y verifica si alguna bala ha salido del área visible (más allá del ancho o alto del canvas). Si una bala sale de la pantalla, se elimina del array de balas para que no siga siendo dibujada ni considerada en el juego. Esto es importante porque ayuda a mantener un rendimiento eficiente y evitar errores al tratar con objetos que ya no están visibles.
+
+Este bucle principal permite animar y actualizar constantemente el estado del juego, lo que es fundamental para proporcionar una experiencia de juego interactiva e interesante.
+
+`021-balas se eliminan al salir de la pantalla.html`
 
 ```html
 <!doctype html>
@@ -2858,6 +3203,25 @@ En resumen, la arquitectura del juego está compuesta por diversos componentes i
 ```
 
 ### mejoramos controles de teclado
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML es la página principal para un juego sencillo en el navegador. La estructura del código incluye CSS (aunque vacío en este caso), HTML, y JavaScript dentro de una etiqueta `<script>`. En el núcleo del juego, se definen varias clases que representan los elementos principales: `Jugador`, `Bala` y `Roca`.
+
+- **Clase Jugador**: Esta clase representa al jugador del juego. Inicialmente, su posición es en el centro de la pantalla (determinado por las variables globales `anchura/2` y `altura/2`). El método `mueve()` actualiza la posición basada en el ángulo (`this.angulo`) que indica la dirección hacia la cual se mueve el jugador, utilizando cálculos trigonométricos con funciones como `Math.cos()` y `Math.sin()`. Además, hay un método `dibuja()` que dibuja al jugador como un triángulo rojo en la pantalla.
+
+- **Clase Bala**: La clase `Bala` representa los disparos del jugador. Al crear una nueva bala (por ejemplo, cuando el jugador presiona el espacio), se le asigna una posición inicial y dirección basada en las coordenadas y ángulo del jugador actual. Las balas también utilizan cálculos trigonométricos para moverse y dibujarse en la pantalla.
+
+- **Clase Roca**: La clase `Roca` representa objetos hostiles que el jugador debe destruir. Cada roca es creada con una posición aleatoria, tamaño variable y forma distinta (determinada por un número de lados aleatorio). Las rocas se mueven en la pantalla siguiendo su propio ángulo definido.
+
+Además, hay funciones para manejar eventos del teclado. Cuando el jugador presiona las teclas 'W', 'A', 'S', y 'D', se controla la posición del jugador (moverse hacia adelante, girar a la izquierda o derecha). La presión de la barra espaciadora lanza una nueva bala.
+
+El corazón del juego es el bucle que se ejecuta continuamente en un intervalo corto. Este bucle actualiza las posiciones de todos los elementos (jugador, rocas y balas) y dibuja todo de nuevo en la pantalla. También incluye lógica para detectar colisiones entre las balas y las rocas, eliminando a ambas si hay una colisión.
+
+Este código es importante porque proporciona un ejemplo de cómo implementar interactividad básica con el teclado, manejo de elementos del juego como clases en JavaScript, y actualización constante del estado del juego usando bucles.
+
+`022-mejoramos controles de teclado.html`
 
 ```html
 <!doctype html>
@@ -3087,6 +3451,21 @@ En resumen, la arquitectura del juego está compuesta por diversos componentes i
 ```
 
 ### simulamos la inercia
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML es una página web que contiene un juego sencillo en el que se simula la inercia del movimiento. La página incluye elementos como un lienzo (canvas) donde se representará visualmente el juego, y scripts JavaScript para manejar la lógica del juego.
+
+El script define varias clases: `Jugador`, `Bala` y `Roca`. Cada clase tiene métodos que permiten dibujarlas en el lienzo y moverlas según ciertas reglas. Por ejemplo, el jugador se mueve en una dirección especificada por su ángulo actual, mientras que las balas disparadas desde el jugador tienen una velocidad constante en la dirección del ángulo del jugador.
+
+Además de estas clases, hay un bucle principal (`bucle()`) que se ejecuta continuamente y se encarga de actualizar el estado del juego cada cierto tiempo (en este caso, aproximadamente 100 milisegundos). Este bucle dibuja todos los objetos en la pantalla, mueve los objetos según sus reglas específicas y verifica colisiones entre balas y rocas. Si una bala golpea una roca, ambas desaparecen del juego.
+
+El código también incluye manejo de eventos para teclado que permiten al jugador controlar el movimiento del jugador (rotación e incremento en la posición) y disparar nuevas balas. Esto proporciona interactividad y permite a los jugadores interactuar con el juego.
+
+Este tipo de estructura es común en juegos simples basados en JavaScript, y ayuda a mantener un código limpio y organizado al dividirlo en diferentes partes responsables de aspectos específicos del juego como la lógica del juego, la representación visual y la interacción del usuario.
+
+`023-simulamos la inercia.html`
 
 ```html
 <!doctype html>
@@ -3316,6 +3695,30 @@ En resumen, la arquitectura del juego está compuesta por diversos componentes i
 ```
 
 ### mejores gráficos
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML es una página web que implementa un juego simple en el navegador utilizando JavaScript y elementos canvas. El objetivo principal del juego es destruir rocas con balas disparadas desde un jugador, controlado por el teclado.
+
+### Descripción del Código
+
+El código comienza definiendo algunas funciones y clases necesarias para manejar los diferentes objetos del juego: `Jugador`, `Bala` y `Roca`. Estas clases tienen métodos para dibujar (`dibuja()`) y mover (`mueve()`) sus respectivos objetos en el lienzo canvas.
+
+El jugador es un triángulo dirigido hacia la parte frontal, que se puede rotar con las teclas "A" y "D", y moverse hacia adelante (y detenerse) con las teclas "W". Las balas son circulos azules lanzados desde el jugador en dirección a la roca cuando presionamos la barra espaciadora. Las rocas son polígonos irregulares que se mueven aleatoriamente por la pantalla.
+
+La parte del código que maneja los controles de teclado detecta las teclas presionadas y cambia el estado del jugador en consecuencia (rotación, movimiento). También gestiona la creación de nuevas balas cuando se presiona la barra espaciadora.
+
+El bucle principal (`bucle()`) es lo que hace avanzar todo el juego. Se ejecuta periódicamente con un temporizador y realiza las siguientes acciones:
+- Actualiza la posición del jugador y las rocas.
+- Borra la pantalla para prepararla para el siguiente fotograma.
+- Dibuja al jugador, todas las rocas y las balas en su nueva ubicación.
+- Verifica si alguna bala ha golpeado una roca. Si es así, elimina tanto la roca como la bala del juego.
+- También verifica si cualquier bala se ha salido de los límites de la pantalla, eliminándola en ese caso.
+
+Este bucle asegura que todo el juego esté actualizado y en movimiento, creando una experiencia interactiva para el usuario. El uso de clases y métodos separados ayuda a mantener el código organizado y fácil de entender y modificar.
+
+`024-mejores gráficos.html`
 
 ```html
 <!doctype html>
@@ -3549,6 +3952,21 @@ En resumen, la arquitectura del juego está compuesta por diversos componentes i
 ```
 
 ### dibujamos estrellas
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML es una página web que contiene un juego simple en el cual puedes mover un personaje y disparar balas para destruir rocas. La página incluye elementos como estrellas en el fondo, lo que añade un toque visual atractivo.
+
+En la parte del `<body>`, se define un elemento `canvas` donde todo el contenido gráfico del juego se dibuja. Este canvas tiene un ancho y alto de 512 píxeles. Dentro del bloque `<script>` se declaran varias clases: `Jugador`, `Bala`, `Estrella` y `Roca`. Estas clases definen los objetos fundamentales del juego, cada una con sus propias características y métodos para dibujarse en pantalla.
+
+Por ejemplo, la clase `Jugador` tiene un método `dibuja()` que usa funciones trigonométricas para calcular las coordenadas de tres puntos: uno para "la nariz" (el punto más adelante del jugador) y dos vértices traseros. Estos puntos se usan para dibujar un triángulo en el canvas.
+
+El código también maneja la interacción del usuario mediante eventos `onkeydown` y `onkeyup`, que permiten al personaje moverse y disparar balas cuando las teclas especificadas son presionadas o liberadas. La función `bucle()` es llamada periódicamente para actualizar el estado del juego, dibujando los objetos en pantalla y resolviendo colisiones entre balas y rocas.
+
+Este código es importante porque demuestra cómo se pueden crear juegos simples usando HTML, CSS y JavaScript, mostrando conceptos fundamentales como la declaración de clases para reutilizar código, manejo de eventos del teclado, dibujo en canvas y bucles de juego.
+
+`025-dibujamos estrellas.html`
 
 ```html
 <!doctype html>
@@ -3805,6 +4223,21 @@ En resumen, la arquitectura del juego está compuesta por diversos componentes i
 ```
 
 ### inercia
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web interactiva que simula un pequeño juego espacial. El objetivo del juego es navegar con el jugador a través del espacio, evitar rocas y disparar balas para destruirlas. La estructura principal se divide en varios bloques: configuración básica del documento, definición estilos CSS, creación de elementos HTML (principalmente un lienzo de dibujo), funciones JavaScript que manejan el comportamiento del juego y bucles de actualización.
+
+El código define varias clases importantes como `Jugador`, `Bala`, `Estrella` y `Roca`. Estas clases contienen métodos para dibujar, mover y actualizar cada tipo de objeto en la pantalla. Además, se incluyen mecanismos físicos básicos como la inercia para el jugador, permitiendo que el personaje continúe moviéndose después de recibir impulso.
+
+El bucle principal del juego se ejecuta a intervalos regulares (alrededor de 60 veces por segundo), actualizando el estado y redibujando cada objeto en la pantalla. Las funciones `dibuja()` y `mueve()` son llamadas para cada entidad, asegurando que todo esté en su posición correcta y se muestre visualmente adecuadamente.
+
+El juego también gestiona entradas del usuario a través de eventos teclado (W, A, D para movimiento) permitiendo al jugador controlar el personaje. El motor del juego es modular y fácil de extender con más entidades o mejoras en física y gráficos.
+
+Este tipo de estructura es común en juegos simples basados en HTML5 y JavaScript, permitiendo una rápida implementación y visualización interactiva en un navegador web.
+
+`026-inercia.html`
 
 ```html
 <!doctype html>
@@ -4071,6 +4504,23 @@ En resumen, la arquitectura del juego está compuesta por diversos componentes i
 ```
 
 ### niveles
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML es la base para una sencilla versión del juego clásico de Asteroids. La página define un lienzo canva donde se representará el juego y contiene múltiples funciones JavaScript que manejan diferentes aspectos del juego, como dibujar los elementos en pantalla, moverlos, gestionar colisiones y controlar el flujo general.
+
+En la parte superior del código, se definen varias utilidades básicas como cálculos de distancia y generación aleatoria. Luego, se crean clases para los objetos principales del juego: Jugador, Bala, Estrella y Roca. Cada clase tiene métodos que dibujan el objeto en el lienzo y actualizan su posición según las reglas físicas del juego.
+
+El bloque de configuración inicial establece la resolución del lienzo a la anchura y altura de la ventana del navegador y crea una instancia del jugador. También se definen arrays para almacenar objetos como estrellas, balas y rocas que van apareciendo en el juego.
+
+Los controles del juego permiten al usuario moverse y disparar usando las teclas del teclado (A/D para girar a izquierda/derecha, W para acelerar y espacio para disparar).
+
+Finalmente, se implementa un bucle principal que actualiza la pantalla de manera continua. Este bucle gestiona los movimientos, dibuja los objetos en el lienzo, comprueba colisiones y controla el progreso del juego entre niveles.
+
+Esta estructura proporciona una base sólida para crear juegos interactivos usando HTML5 Canvas y JavaScript, permitiendo a los estudiantes aprender sobre conceptos como orientación a objetos, gestión de eventos y animaciones en tiempo real.
+
+`027-niveles.html`
 
 ```html
 <!doctype html>
@@ -4372,45 +4822,125 @@ En resumen, la arquitectura del juego está compuesta por diversos componentes i
 </html>
 ```
 
+### Actividades propuestas
+
+El código que has proporcionado es una versión mejorada y estructurada del juego "Asteroids" en JavaScript. Aquí te explico los cambios principales y cómo funciona cada parte:
+
+### Setup
+
+- **Canvas y contexto**: Se inicializa el canvas con las dimensiones de la ventana (`window.innerWidth` y `window.innerHeight`) y se obtiene el contexto 2D.
+  
+- **Jugador, estrellas y balas**: Se crea un jugador y una lista de estrellas que actúan como fondo. También hay una lista para las balas.
+
+- **Niveles**:
+    - `level`: El número actual del nivel.
+    - `rocksPerLevel`: Cantidad de rocas a generar en cada nivel (comienza con 10 y se duplica al avanzar niveles).
+    - `rocas`: Lista que contiene las rocas actuales en el juego.
+    - `levelMessageTimer`: Tiempo para mostrar el mensaje del nuevo nivel.
+
+### Controles
+
+Se han configurado eventos `keydown` y `keyup` para manejar los controles del jugador:
+- Rotación izquierda (`a`) y derecha (`d`)
+- Impulso (`w`)
+- Disparo (espacio)
+
+### Bucle Principal
+
+El bucle principal (`bucle()`) es responsable de las siguientes acciones:
+
+1. **Rotar al Jugador**: Se actualiza la orientación del jugador basado en el input del giro.
+2. **Aplicar Impulso**: Si el impulso está activo, se calcula el movimiento del jugador.
+3. **Limpiar Pantalla y Fondo**: Se limpia la pantalla y dibujan las estrellas como fondo.
+4. **Dibujar Entidades**:
+    - Dibuja cada roca y actualiza su posición.
+    - Dibuja cada bala y actualiza su posición.
+5. **Mover al Jugador**: Actualiza la posición del jugador basado en su velocidad y orientación.
+6. **Colisiones Balas-Rocas**:
+    - Se verifica si una bala colisiona con alguna roca, eliminando ambas si es así.
+7. **Eliminar Balas Fuera de Pantalla**: Si una bala sale del canvas, se elimina para optimizar el rendimiento.
+8. **Mostrar Nivel Completo**:
+    - Si no quedan más rocas, aumenta el nivel y duplica la cantidad de rocas para el siguiente nivel.
+9. **Dibujar Texto del Nivel Actual**: Muestra un cartel con "LEVEL X" al comienzo de cada nivel.
+
+### Funciones Adicionales
+
+- `spawnRocas(n)`: Genera `n` nuevas rocas en la pantalla, evitando que se spawnen demasiado cerca del jugador.
+- `startLevel()`: Resetea las rocas y genera nuevas basadas en el número actual de nivel.
+
+### Mejoras Sobresalientes
+
+1. **Estructura Modular**: El código está bien dividido en funciones y secciones, facilitando la lectura y mantenimiento.
+2. **Niveles Incrementales**: La dificultad aumenta gradualmente con cada nivel, duplicando el número de rocas para mantener el desafío constante.
+3. **Manejo Eficiente del Tiempo**:
+    - `levelMessageTimer` controla cuánto tiempo se muestra el cartel del nuevo nivel.
+
+Este código es un excelente ejemplo de cómo construir una lógica de juego compleja y escalable en JavaScript utilizando HTML5 Canvas, y cuenta con elementos de diseño y estructura que facilitan la expansión y mantenimiento del proyecto.
+
+
 <a id="motores-de-juegos-tipos-y-utilizacion"></a>
 ## Motores de juegos Tipos y utilización
 
-En el mundo digital actual, los motores de juegos desempeñan un papel crucial en la creación de experiencias interactivas y envolventes. Estos motores son herramientas sofisticadas que permiten a los desarrolladores crear mundos virtuales detallados, personajes animados y gráficos impresionantes. Los motores de juegos pueden ser clasificados en dos categorías principales: motores 2D y motores 3D.
-
-Los motores 2D son ideales para juegos que se centran en la acción y el movimiento, como plataformeros o juegos de disparos. Estos motores ofrecen una eficiencia en términos de rendimiento debido a su simplicidad, lo que los hace perfectos para dispositivos móviles con recursos limitados. Además, permiten un control preciso sobre la animación y el movimiento de personajes, facilitando la creación de gráficos fluidos y detallados.
-
-Por otro lado, los motores 3D son esenciales para juegos que requieren una experiencia más inmersiva y realista. Estos motores pueden manejar modelos tridimensionales complejos, iluminación sofisticada y física avanzada, lo que resulta en escenas y personajes de alta calidad. Los motores 3D son especialmente populares para juegos de acción, simulaciones y juegos de estrategia.
-
-La elección del motor depende del tipo de juego que se quiera crear y las plataformas objetivo. Por ejemplo, si el objetivo es desarrollar un juego para dispositivos móviles, un motor 2D puede ser suficiente debido a su eficiencia en términos de rendimiento. Sin embargo, si se desea una experiencia más inmersiva, como en los juegos de acción y simulaciones, un motor 3D será necesario.
-
-Además de la elección del motor, es importante considerar las librerías y herramientas que ofrecen. Cada motor tiene su propio conjunto de funciones y clases que facilitan el desarrollo de juegos. Por ejemplo, Unity ofrece una amplia gama de funcionalidades para la creación de gráficos 3D, mientras que Godot proporciona un enfoque más ligero pero igualmente potente.
-
-El análisis de motores de juegos no se limita a su elección y configuración inicial. Es crucial también entender cómo funcionan internamente. Los motores de juegos están compuestos por varios componentes, como el motor gráfico, el motor física, el motor de audio y el motor de entrada. Cada uno de estos componentes trabaja en conjunto para crear una experiencia fluida y realista.
-
-El motor gráfico es responsable del renderizado de los gráficos 2D o 3D en la pantalla. Utiliza técnicas avanzadas como la culling (descarte) para optimizar el rendimiento, permitiendo que solo los objetos visibles sean procesados. El motor físico simula las leyes de la física en el juego, lo que resulta en gráficos y comportamientos más realistas.
-
-El motor de audio es otro componente crucial, responsable de la reproducción de música y efectos sonoros. Ofrece una amplia gama de opciones para controlar la calidad del sonido, la posición de los efectos y la sincronización con las acciones del juego.
-
-Finalmente, el motor de entrada maneja todas las interacciones del usuario, como el movimiento del personaje, la selección de opciones y la realización de acciones. Ofrece una interfaz fácil de usar para asociar eventos de entrada con funciones específicas en el código.
-
-En conclusión, los motores de juegos son herramientas poderosas que permiten a los desarrolladores crear experiencias interactivas y envolventes. Al elegir el motor adecuado y entender cómo funciona internamente, se puede crear un juego de alta calidad y experiencia para los jugadores.
 
 <a id="areas-de-especializacion-librerias-utilizadas-y-lenguajes-de-programacion"></a>
 ## Áreas de especialización, librerías utilizadas y lenguajes de programación
 
-En el campo de los motores de juegos, la diversidad es una característica distintiva que refleja las necesidades y preferencias de diferentes desarrolladores y plataformas. Algunas áreas de especialización dentro del desarrollo de motores de juegos incluyen la optimización para dispositivos móviles, donde el rendimiento limitado de los teléfonos móviles implica una gestión eficiente de recursos. Otro área crucial es la creación de contenido interactivo y visualmente atractivo, lo que requiere habilidades en gráficos 2D y 3D.
+### Introducción a los ejercicios
 
-Las librerías utilizadas en el desarrollo de motores de juegos son fundamentales para abstraer las complejidades técnicas subyacentes. Por ejemplo, Unity es una popular plataforma que ofrece una amplia gama de herramientas y componentes predefinidos, facilitando la creación de juegos 2D y 3D. En contraparte, Unreal Engine se destaca por su potencia en gráficos avanzados y física realista, aunque requiere un mayor conocimiento técnico.
+El código HTML que proporcionaste es una evolución gradual de un modelo tridimensional simplificado hasta un sistema bastante complejo con efectos post-procesados. Aquí te explico cómo se ha desarrollado:
 
-Los lenguajes de programación desempeñan un papel crucial en el desarrollo de motores de juegos, ya que determinan la eficiencia y la flexibilidad del código. C# es uno de los lenguajes más utilizados debido a su facilidad de aprendizaje y su integración con Unity. Por otro lado, C++ ofrece mayor control sobre los recursos del sistema, lo que es beneficioso para motores de juegos que requieren altos niveles de rendimiento.
+1. **Inicialización básica**:
+   - Comenzamos creando un entorno básico en A-Frame, que incluye la inicialización del motor y una esfera simple.
+   
+2. **Añadir texturas y efectos de superficie**:
+   - Se introducen texturas y mapas de rugosidad para mejorar visualmente la representación de la Tierra.
+   
+3. **Capa de nubes transparente**:
+   - Una capa exterior con transparencia se añade para simular las nubes, utilizando una imagen como mapa alfa (alphaMap).
+   
+4. **Animaciones y jerarquía**:
+   - Se implementan animaciones rotatorias para ambos niveles de la Tierra y sus nubes.
+   - La estructura jerárquica se organiza dentro de un contenedor vacío (`<a-entity>`) que agrupa las dos esferas, permitiendo una gestión más simple.
 
-Además de las librerías y lenguajes, el análisis de motores de juegos también implica la consideración de la arquitectura del juego. La elección de una arquitectura adecuada puede mejorar significativamente la escalabilidad y mantenibilidad del código. Por ejemplo, un enfoque basado en componentes permite una mayor modularidad y reutilización de código.
+5. **Iluminación y ambiente**:
+   - Se añaden luces direccionales y ambientales para mejorar la iluminación del modelo.
+   
+6. **Efectos post-procesados**:
+   - Finalmente se introduce un efecto de post-proceso (bloom) que añade una capa de realismo, enfatizando las áreas más brillantes con un efecto glow.
 
-La optimización para dispositivos móviles es otro aspecto crucial en el desarrollo de motores de juegos. Esto implica no solo mejorar el rendimiento general del juego, sino también considerar factores como la carga de recursos, la gestión de memoria y la eficiencia energética. Herramientas específicas como Unity Profiler pueden ser útiles para identificar y resolver problemas de rendimiento.
+7. **Configuraciones avanzadas**:
+   - Se ajustan varios parámetros para mejorar la calidad visual y la experiencia del usuario, como el manejo de luces físicamente correctas y la gestión de colores en el rendimiento (`physicallyCorrectLights`).
 
-En conclusión, el análisis de motores de juegos es una disciplina multifacética que abarca desde las áreas de especialización hasta las herramientas y tecnologías utilizadas. Cada aspecto contribuye a la creación de experiencias de juego innovadoras y satisfactorias para los jugadores en diferentes plataformas.
+### Código Final:
+
+El código final es bastante complejo y utiliza una gran cantidad de configuraciones avanzadas. Aquí está resumido con las principales características:
+
+- **Texturas y Materiales**:
+  - Se utilizan múltiples texturas y mapas para crear un modelo detallado.
+  
+- **Animación**:
+  - Las esferas rotan en diferentes velocidades para simular el movimiento de la Tierra y sus nubes.
+
+- **Iluminación**:
+  - La iluminación es mejorada con una luz ambiental suave y una luz solar más brillante.
+
+- **Efectos Post-Procesados**:
+  - Se utiliza un efecto bloom que agrega un glow a las áreas más brillantes del modelo.
+
+Este código resulta en un modelo de la Tierra altamente detallado y visualmente impresionante, con características realistas como nubes transparentes y efectos post-procesados para mejorar aún más el aspecto final.
 
 ### trucazo js
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web muy básica que muestra el texto "Hola" en la pantalla. La estructura principal es un documento HTML con una etiqueta `<div>` que tiene un id llamado "contenedor". Dentro del cuerpo del documento, hay un script JavaScript que selecciona este contenedor y establece su contenido textual como "Hola".
+
+Lo importante aquí es cómo el código JavaScript interactúa con la página HTML. La función `const $ = s => document.querySelector(s);` crea una abreviatura para seleccionar elementos en la página usando selectores CSS. En este caso, `$("#contenedor")` busca el elemento `<div>` con el id "contenedor" y luego cambia su contenido a "Hola". Esto es útil porque permite manipular fácilmente los elementos de la página después de que se ha cargado la estructura básica del HTML.
+
+Este tipo de código es fundamental en programación web ya que muestra cómo integrar JavaScript para interactuar con el contenido HTML, permitiendo así dinamismo y interactividad en las páginas web.
+
+`001-trucazo js.html`
 
 ```html
 <!doctype html>
@@ -4428,6 +4958,17 @@ En conclusión, el análisis de motores de juegos es una disciplina multifacéti
 ```
 
 ### aframe
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML está utilizando A-Frame, una biblioteca que facilita la creación de experiencias en realidad virtual (VR) y representaciones 3D en el navegador. La estructura principal del código se compone de un `<a-scene>` que contiene diferentes objetos 3D, como cajas (`<a-box>`), esferas (`<a-sphere>`) y cilindros (`<a-cylinder>`). Estos elementos están posicionados y rotados en el espacio tridimensional para formar una escena.
+
+Cada objeto tiene atributos específicos que definen su apariencia y posición. Por ejemplo, la caja está colocada en un punto específico del espacio 3D (`position="-1 0.5 -3"`), se rota en cierto ángulo (`rotation="0 45 0"`) y tiene un color definido (`color="#4CC3D9"`). De manera similar, los otros objetos tienen sus propias características únicas.
+
+La escena también incluye un plano (a-plane) que actúa como el suelo de la escena y un cielo (a-sky) con un tono uniforme. Esta combinación crea una representación básica pero completa de un espacio 3D interactivo en un navegador web, permitiendo a los usuarios explorar y experimentar con objetos virtuales de manera intuitiva.
+
+`002-aframe.html`
 
 ```html
 <html>
@@ -4447,6 +4988,17 @@ En conclusión, el análisis de motores de juegos es una disciplina multifacéti
 ```
 
 ### poco a poco
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web que utiliza el motor A-Frame para mostrar un entorno 3D sencillo. En la parte superior del archivo, se incluye la biblioteca A-Frame mediante una etiqueta `<script>`, lo cual es necesario para que A-Frame pueda funcionar en la página.
+
+El corazón del código está dentro de la etiqueta `<a-scene>`, donde se define un escenario 3D. Dentro de este escenario, hay una entidad definida por la etiqueta `<a-sphere>`. Esta etiqueta crea una esfera 3D en el espacio virtual que aparece en la pantalla. La esfera tiene un color amarillo brillante (`#ffff00`) y está posicionada ligeramente arriba y hacia adelante desde la vista del usuario, con radio de tamaño uno.
+
+Este código simple demuestra cómo crear elementos 3D interactivos utilizando A-Frame sin necesidad de escribir mucho código complicado. Es una buena introducción para estudiantes que están comenzando a trabajar con realidad virtual o entornos 3D en sus proyectos web.
+
+`003-poco a poco.html`
 
 ```html
 <html>
@@ -4462,6 +5014,27 @@ En conclusión, el análisis de motores de juegos es una disciplina multifacéti
 ```
 
 ### ahora añado una caja
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML está utilizando un framework llamado A-Frame para crear una escena en realidad virtual (VR) o representación 3D en la web. La parte importante del código es el script que se incluye en la etiqueta `<head>` donde se carga la versión 1.7.0 del archivo `aframe.min.js`. Este script proporciona las herramientas necesarias para dibujar objetos 3D dentro de una página web.
+
+En la etiqueta `<body>`, hay un elemento llamado `<a-scene>`, que es el contenedor principal donde todos los elementos 3D se representan. Dentro de esta escena, puedes ver dos objetos: una esfera y un cubo (box). 
+
+La esfera está definida por la etiqueta `<a-sphere>` con atributos específicos:
+- `position="0 1.25 -5"` indica que la posición de la esfera en el espacio 3D es (0, 1.25, -5).
+- `radius="1"` establece que el radio de la esfera es de 1 unidad.
+- `color="#ffff00"` define el color de la esfera como amarillo brillante.
+
+El cubo está definido por la etiqueta `<a-box>` con atributos similares pero con algunas diferencias:
+- `position="-1 1.25 -3"` indica que el cubo se encuentra en (-1, 1.25, -3).
+- `rotation="0 45 0"` especifica una rotación de 45 grados alrededor del eje Y.
+- `color="#4CC3D9"` establece un color azul claro para el cubo.
+
+Este código es importante porque demuestra cómo incorporar objetos simples en 3D a tu página web utilizando A-Frame, permitiendo a los usuarios explorar y interactuar con contenidos tridimensionales directamente desde su navegador.
+
+`004-ahora añado una caja.html`
 
 ```html
 <html>
@@ -4478,6 +5051,19 @@ En conclusión, el análisis de motores de juegos es una disciplina multifacéti
 ```
 
 ### ahora creo un plano para un suelo
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML está usando una biblioteca llamada A-Frame para crear un escenario en 3D dentro de una página web. En particular, el código crea tres objetos: una esfera amarilla, un cubo azul con rotación y un plano verde que simula el suelo.
+
+La línea `<script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>` incluye la biblioteca A-Frame en la página web, permitiendo crear entornos 3D de manera sencilla usando etiquetas HTML especiales.
+
+Dentro del bloque `<a-scene>`, cada objeto 3D está representado por una etiqueta diferente: `<a-sphere>`, `<a-box>` y `<a-plane>`. Cada uno de estos elementos tiene atributos que definen cómo se ven y dónde están en el escenario 3D, como la posición, rotación, tamaño y color. Por ejemplo, el plano verde (`<a-plane>`) simula un suelo con una cierta anchura y altura, y está ubicado detrás de los otros objetos.
+
+Este tipo de código es importante para estudiantes que desean aprender a crear experiencias web interactivas y realistas en 3D sin necesidad de tener conocimientos avanzados de programación.
+
+`005-ahora creo un plano para un suelo.html`
 
 ```html
 <html>
@@ -4495,6 +5081,19 @@ En conclusión, el análisis de motores de juegos es una disciplina multifacéti
 ```
 
 ### cargo un glb o gltf
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código es un ejemplo básico de cómo cargar y mostrar un modelo en formato GLB utilizando la biblioteca A-Frame. A-Frame es una marco web para el desarrollo rápido de experiencias VR (Realidad Virtual) basado en HTML.
+
+El archivo comienza definiendo el uso del motor A-Frame con una línea que incluye su script desde internet (`<script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>`). Después, dentro de la etiqueta `<a-scene>`, se define un recurso en formato GLB (que es un tipo específico de archivo 3D) llamado "suzanne.glb" utilizando una etiqueta `<a-asset-item>`. Esta línea carga el modelo 3D que está ubicado en tu servidor.
+
+Luego, dentro del elemento `a-scene`, se crea otro elemento `a-entity` donde realmente se usa este recurso GLB. La propiedad `gltf-model="#modelo"` especifica que este ente debe usar el modelo previamente cargado con ID "modelo". Las propiedades `position`, `scale` y `rotation` definen dónde, cuán grande y cómo está orientado en el espacio virtual este objeto 3D.
+
+Este código es útil porque muestra de forma sencilla cómo integrar modelos 3D en una aplicación web utilizando A-Frame, lo que puede ser muy valioso para estudiantes interesados en crear experiencias en VR o aplicaciones con contenido multimedia interactivo.
+
+`006-cargo un glb o gltf.html`
 
 ```html
 <html>
@@ -4526,6 +5125,17 @@ En conclusión, el análisis de motores de juegos es una disciplina multifacéti
 ```
 
 ### controles de orbita
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML es un ejemplo de cómo usar el marco A-Frame para crear una escena en 3D con controles de órbita, lo que permite al usuario moverse y explorar la escena utilizando gestos del mouse o toques táctiles. La página crea una pequeña caja azul colocada en el centro de la escena y añade luz ambiental para iluminar todo correctamente.
+
+En particular, el código incluye un componente llamado `orbit-controls`, que permite al usuario mover la cámara de forma natural a través de los controles de órbita. Este componente proporciona una experiencia interactiva rica, permitiendo al usuario rotar, acercarse y alejarse del objeto central en 3D.
+
+Los ajustes realizados dentro del atributo `orbit-controls` como la velocidad de giro (`rotateSpeed`) o el ajuste de amortiguación (`enableDamping`) mejoran aún más la interactividad y fluidez de la experiencia al moverse a través de la escena. Esto es especialmente útil para motores de juegos y aplicaciones 3D donde se necesita una navegación fluida y natural en el entorno tridimensional creado.
+
+`007-controles de orbita.html`
 
 ```html
 <!DOCTYPE html>
@@ -4573,6 +5183,23 @@ En conclusión, el análisis de motores de juegos es una disciplina multifacéti
 ```
 
 ### wasd
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML está configurado para cargar y mostrar un modelo 3D en formato GLB usando la biblioteca A-Frame. La estructura del archivo es simple pero efectiva:
+
+1. En el `<head>` se incluye una referencia al script de A-Frame, que proporciona las funcionalidades necesarias para renderizar contenido 3D.
+
+2. Dentro del cuerpo (`<body>`), se encuentra un contenedor principal llamado `<a-scene>`, que es como la ventana en la que se visualizará el modelo 3D.
+
+3. En una sección llamada `<a-assets>`, se define un recurso GLB con id "modelo", al cual se le asignará más tarde dentro del mismo archivo HTML para ser usado por elementos de A-Frame.
+
+4. El elemento principal de la escena es un objeto 3D (`<a-entity>`), que utiliza el atributo `gltf-model` para referirse a nuestro modelo GLB previamente definido con el id "modelo". Este objeto también tiene propiedades adicionales como su posición, escala y rotación en el espacio tridimensional.
+
+Este código es importante porque demuestra cómo cargar modelos 3D complejos desde archivos externos utilizando una biblioteca de JavaScript como A-Frame, lo cual permite a los desarrolladores integrar contenido 3D en sitios web sin necesidad de entender todos los detalles técnicos del renderizado 3D.
+
+`008-wasd.html`
 
 ```html
 <html>
@@ -4604,6 +5231,17 @@ En conclusión, el análisis de motores de juegos es una disciplina multifacéti
 ```
 
 ### hablemos de luces
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web simple que utiliza el motor A-Frame para renderizar un entorno 3D. En particular, el código incluye la inclusión de la biblioteca A-Frame en la sección `<head>` del documento, lo cual es necesario para utilizar las funcionalidades de este motor de gráficos en la página web.
+
+En la parte principal de la página (`<body>`), hay un contenedor llamado `<a-scene>`, que define el escenario 3D donde se colocarán los elementos. Dentro de este contenedor, se crea una esfera utilizando la etiqueta `<a-sphere>`. Esta esfera tiene tres atributos importantes: posición (`position`), radio (`radius`) y color (`color`). La posición especificada coloca la esfera en un punto determinado del espacio 3D, mientras que el radio define su tamaño y el color le da un aspecto amarillo brillante (#ffff00).
+
+Este código es fundamental para aprender a crear objetos básicos en A-Frame y entender cómo estructurar una página web con contenido 3D.
+
+`009-hablemos de luces.html`
 
 ```html
 <html>
@@ -4619,6 +5257,19 @@ En conclusión, el análisis de motores de juegos es una disciplina multifacéti
 ```
 
 ### apago la luz
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML es una página web sencilla que utiliza A-Frame, una biblioteca para desarrollar experiencias en realidad virtual (VR) directamente desde HTML. En este caso, el código crea un escenario básico con dos elementos: una esfera amarilla y un cielo negro.
+
+El `<a-sphere>` representa una esfera en la escena 3D. Está situada a una posición específica (`position="0 1.25 -5"`), que define su ubicación en el espacio tridimensional (coordenadas X, Y y Z). La propiedad `radius` establece su tamaño, mientras que `color="#ffff00"` la pinta de amarillo brillante.
+
+El elemento `<a-sky>` crea un fondo cúbico para la escena, con un color uniforme definido por el atributo `color="#000000"`. Esto hace que la vista sea negra en todas las direcciones, proporcionando un contraste claro entre el cielo oscuro y la esfera amarilla brillante.
+
+Esta página web sirve como una introducción a cómo configurar objetos 3D básicos con A-Frame, mostrando cómo incorporar elementos visuales simples para crear escenas de realidad virtual. Es fundamental para entender las bases del uso de bibliotecas de VR y la creación de contenido tridimensional en el navegador web.
+
+`010-apago la luz.html`
 
 ```html
 <html>
@@ -4635,6 +5286,25 @@ En conclusión, el análisis de motores de juegos es una disciplina multifacéti
 ```
 
 ### ahora quito toda luz
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML crea una escena en 3D utilizando el motor A-Frame, que es un framework para construir experiencias VR (Realidad Virtual) y 3D con HTML. La escena incluye varios elementos:
+
+1. **Configuración del Motor:** En la sección `<head>`, hay una línea de código que carga la biblioteca `aframe.min.js` versión 1.7.0 desde su servidor CDN (`Content Delivery Network`). Esta línea es crucial porque permite al navegador acceder a las funcionalidades de A-Frame necesarias para renderizar elementos en 3D.
+
+2. **Estructura de la Escena:** En el cuerpo del documento, se define un elemento `<a-scene>` que es el contenedor principal donde toda la acción 3D ocurre. Dentro de este contenedor:
+
+   - Se añade una esfera (`<a-sphere>`) con características específicas: está posicionada en coordenadas (0, 1.25, -5), tiene un radio de 1 unidad y se pintará de amarillo brillante (#ffff00).
+   
+   - Se incluye también un fondo o cielo virtual (`<a-sky>`) que es completamente negro (#000000). Este elemento proporciona el color de fondo para toda la escena.
+   
+   - Finalmente, se apaga cualquier luz ambiental añadiendo una entidad de luz `<a-entity>` con atributos `light="type: ambient; intensity: 0"`. Esto significa que no habrá ninguna luz ambiente en la escena, creando así un entorno completamente oscuro.
+
+Este código es parte de una serie de ejercicios que probablemente buscan enseñar cómo controlar las luces y los materiales en A-Frame. En este caso específico, el ejercicio pretende mostrar cómo eliminar toda fuente de luz ambiental, lo cual resulta en una escena oscura sin elementos iluminados por defecto.
+
+`011-ahora quito toda luz.html`
 
 ```html
 <html>
@@ -4652,6 +5322,23 @@ En conclusión, el análisis de motores de juegos es una disciplina multifacéti
 ```
 
 ### la luz ambiental es un relleno
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML está utilizando el framework A-Frame para crear un entorno 3D sencillo en una página web. A-Frame es una biblioteca que permite a los desarrolladores incorporar realidad virtual en sitios web sin necesidad de tener un conocimiento profundo de programación 3D.
+
+En este ejemplo, se crea una escena 3D básica dentro del elemento `<a-scene>`. Dentro de esta escena, hay tres componentes principales:
+
+1. **Una esfera amarilla**: Esta es representada por el elemento `<a-sphere>` y está posicionada en el centro superior de la escena (posición "0 1.25 -5"), tiene un radio de 1 unidad y se ha pintado de color amarillo brillante (`#ffff00`).
+
+2. **Un cielo negro**: El elemento `<a-sky>` crea un fondo infinito que rodea completamente la escena, en este caso, coloreado de negro.
+
+3. **Una luz ambiental**: La línea de código `<a-entity light="type: ambient; intensity: 0.5">` añade una fuente de luz ambiental a la escena. Esta luz no proviene de un punto específico sino que ilumina todo el espacio, creando efectos similares a los de una noche clara sin luna. La intensidad de esta luz está configurada en 0.5, lo que significa que proporciona una iluminación suave y tenue.
+
+Este código es importante porque demuestra cómo configurar un entorno básico con A-Frame para crear experiencias visuales simples pero efectivas en realidad virtual o 3D interactivas en el navegador web.
+
+`012-la luz ambiental es un relleno.html`
 
 ```html
 <html>
@@ -4669,6 +5356,19 @@ En conclusión, el análisis de motores de juegos es una disciplina multifacéti
 ```
 
 ### tenemos luces direccionales
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML crea una escena básica en 3D usando A-Frame, un marco de trabajo para el desarrollo web en realidad virtual (VR). La estructura del documento comienza incluyendo la biblioteca A-Frame en la sección `<head>`, lo que es crucial porque proporciona todas las herramientas necesarias para construir entornos 3D interactivos dentro de un navegador.
+
+En la sección `<body>` y más específicamente dentro de la etiqueta `<a-scene>`, el código añade varios elementos 3D a la escena. Primero, hay una esfera amarilla (`<a-sphere>`) en el centro que simula un objeto físico en tres dimensiones con ciertas propiedades como su posición y tamaño. Luego, se agrega un fondo celeste oscuro o "cielo" para la escena mediante `<a-sky>`.
+
+Lo importante en este fragmento es cómo se manejan las luces: hay una luz ambiental (`<a-entity light="type: ambient; intensity: 0.5">`) que proporciona una iluminación general suave a todo el entorno, ayudando a prevenir zonas oscuras y añadiendo un aspecto más natural al escenario. Además, se incluye una luz direccional (`<a-entity light="type: directional; intensity: 0.9" position="2 4 -3">`), que simula la iluminación del sol o de otro fuente luminosa que viene desde un punto específico en el espacio tridimensional y proyecta sombras realistas, añadiendo profundidad y realismo a los objetos visibles.
+
+Esta configuración básica es fundamental para entender cómo se crean escenas 3D interactivas usando HTML y A-Frame, permitiendo a los estudiantes explorar conceptos clave como la posición de los objetos y la importancia del uso correcto de las luces en el diseño visual.
+
+`013-tenemos luces direccionales.html`
 
 ```html
 <html>
@@ -4687,6 +5387,19 @@ En conclusión, el análisis de motores de juegos es una disciplina multifacéti
 ```
 
 ### materiales
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML crea una escena simple utilizando A-Frame, un framework web para la realidad virtual (VR) basado en HTML. La página incluye el archivo JavaScript de A-Frame necesario para que funcione correctamente.
+
+En la escena se dibuja una esfera dorada y brillante situada hacia adelante del usuario. La esfera tiene varios atributos: un color inicial amarillo (#ffff00), pero también especifica un material con un color rojo (#ff0000) para darle un aspecto diferente, además de definir cómo refleja la luz (especular en blanco #ffffff) y cuánto brilla (50 unidades de brillantez).
+
+Además de la esfera, se crea un cielo nocturno negro para el fondo y dos fuentes de iluminación: una luz ambiental suave que da una iluminación base a toda la escena y una luz direccional más fuerte ubicada en una posición específica. Esta última simula cómo actúa una luz solar, proporcionando sombras y contrastes.
+
+Este código es importante porque muestra cómo integrar geometrías 3D simples (como esferas), ajustar propiedades de materiales para dar realismo a objetos, y controlar la iluminación en un entorno virtual. Es útil para estudiantes que desean aprender a crear espacios interactivos y visualmente interesantes usando HTML y A-Frame.
+
+`014-materiales.html`
 
 ```html
 <html>
@@ -4710,6 +5423,17 @@ En conclusión, el análisis de motores de juegos es una disciplina multifacéti
 ```
 
 ### especularidad
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML es una página web que utiliza el marco A-Frame para crear un entorno de realidad virtual simple y minimalista en la pantalla del navegador. En este escenario, se crea una esfera amarilla con características específicas de materiales y luz.
+
+La etiqueta `<a-sphere>` define una esfera tridimensional que tiene propiedades como su posición (centrada ligeramente hacia arriba y profundidad), tamaño (radio de 1 unidad) y color base (amarillo brillante). Sin embargo, el material del objeto se personaliza aún más con tres atributos clave: color rojo (`#ff0000`), un color especular verde (`#00ff00`) y una brillosidad o "shininess" de 50. El color especular determina cómo refleja la esfera los objetos que le rodean, en este caso con un tono verde claro.
+
+Además, el código incluye dos fuentes de luz: un tipo ambiental suave que ilumina generalmente todo el espacio y una fuente direccional más intensa situada estratégicamente, lo que ayuda a crear sombras y dar profundidad al escenario. Esta configuración es útil para entender cómo los diferentes parámetros afectan la apariencia del objeto 3D en un entorno de realidad virtual.
+
+`015-especularidad.html`
 
 ```html
 <html>
@@ -4733,6 +5457,19 @@ En conclusión, el análisis de motores de juegos es una disciplina multifacéti
 ```
 
 ### brillo
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una escena simple usando A-Frame, que es un marco para el desarrollo web 3D basado en la etiqueta `<a-scene>` y otras etiquetas personalizadas. La escena incluye elementos como una esfera brillante, un cielo negro y dos tipos de iluminación: ambiental y direccional.
+
+La esfera tiene su posición definida en coordenadas 3D (0, 1.25, -5), con radio 1 y color inicial amarillo (`#ffff00`). Sin embargo, el material de la esfera se configura para ser rojo puro (`#ff0000`), con un grado bajo de metalidad (`metalness: 0.2`) y una rugosidad completa (`roughness: 1`), lo que significa que será muy brillante debido a su superficie lisa y metálica.
+
+El fondo de la escena es negro, proporcionado por el elemento `<a-sky>`, que actúa como un cielo infinito en todas las direcciones. La iluminación se compone de una luz ambiental débil (`intensity: 0.5`) para proporcionar un resplandor básico a la escena y una luz direccional más intensa (`type: directional; intensity: 0.9`), que simula el efecto del sol desde una posición específica (2, 4, -3).
+
+Esta configuración es importante porque permite experimentar con diferentes materiales y tipos de iluminación en un entorno web interactivamente, lo cual es fundamental para comprender cómo se comportan los objetos virtuales bajo distintas condiciones lumínicas.
+
+`016-brillo.html`
 
 ```html
 <html>
@@ -4757,6 +5494,19 @@ En conclusión, el análisis de motores de juegos es una disciplina multifacéti
 ```
 
 ### texturas
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML crea una escena en 3D usando A-Frame, que es un framework basado en WebVR para desarrollar experiencias de realidad virtual y aplicaciones 3D. La estructura principal del archivo HTML incluye la carga de la biblioteca A-Frame, que proporciona los elementos necesarios para renderizar objetos en 3D dentro del navegador web.
+
+El fragmento clave es el `<a-scene>` que contiene todos los componentes visuales y de iluminación. Dentro de esta escena, hay un objeto esférico (una bola) definido con `<a-sphere>`. Este objeto tiene una posición específica en el espacio 3D, un radio determinado y colores tanto para su superficie como para sus propiedades de material. Específicamente, la propiedad `material` establece cómo se refleja la luz sobre la esfera: aquí, se indica que el material es ligeramente metálico (`metalness: 0.2`) pero muy rugoso (`roughness: 1`), lo que afectará cómo brilla y refleja los colores.
+
+Además de este objeto esférico, hay dos fuentes de iluminación en la escena: una luz ambiente `<a-entity>` que proporciona una luminosidad suave a todo el entorno y otra luz direccional también definida como un elemento `<a-entity>`, pero esta vez con dirección especificada. La luz direccional imita la acción del sol, brindando sombras largas y realistas en los objetos 3D que se encuentran en su camino.
+
+Esta combinación de elementos proporciona una base sólida para comenzar a jugar con iluminación y materiales en escenas 3D utilizando A-Frame.
+
+`017-texturas.html`
 
 ```html
 <html>
@@ -4781,6 +5531,23 @@ En conclusión, el análisis de motores de juegos es una disciplina multifacéti
 ```
 
 ### textura tierra
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML es parte de un proyecto que utiliza el framework A-Frame para crear una escena en tres dimensiones (3D) en un navegador web. La página incluye la carga de un motor de juego simplificado, A-Frame, a través de un script en la sección `<head>` del documento.
+
+En el cuerpo principal (`<body>`) del archivo HTML, hay una etiqueta `<a-scene>` que esencialmente define toda la escena 3D. Dentro de esta escena, se cargan varios elementos:
+
+1. **Textura de la Tierra**: Se añade una imagen llamada "nasatierra.jpg" dentro de un bloque `<a-assets>`. Esta imagen será utilizada como textura para un objeto esférico en la escena.
+
+2. **Esfera con Textura de la Tierra**: Un elemento `<a-sphere>` es creado, y se le aplica la textura de la Tierra cargada previamente mediante el atributo `material`. También se ajustan los valores para la reflexión metálica (`metalness`) y rugosidad (`roughness`), lo que afectará cómo la luz interactúa con la superficie del objeto.
+
+3. **Entorno 3D**: Se añaden un cielo estrellado mediante el elemento `<a-sky>` y dos fuentes de iluminación: una luz ambiental (que proporciona una base de iluminación general en todas direcciones) y una luz dirigida (cuya dirección es especificada por las coordenadas `2 4 0`, que simula la luz del sol).
+
+Este código es un buen ejemplo práctico para entender cómo incorporar objetos con texturas y efectos de iluminación en escenas 3D utilizando A-Frame, lo cual es crucial para crear entornos virtuales realistas.
+
+`018-textura tierra.html`
 
 ```html
 <html>
@@ -4810,6 +5577,21 @@ En conclusión, el análisis de motores de juegos es una disciplina multifacéti
 ```
 
 ### textura rugosidad
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML es una página web que utiliza el marco A-Frame para crear un escenario en tres dimensiones. En esta página, se crea una representación de la Tierra como una esfera con texturas detalladas y características de iluminación.
+
+En el `<head>` del documento, se incluye un script desde la biblioteca A-Frame que proporciona las herramientas necesarias para crear entornos 3D interactivos dentro de un navegador web. Luego, en el cuerpo (`<body>`) del documento, se define una escena utilizando elementos A-Frame.
+
+El corazón de este código es una esfera representativa de la Tierra, ubicada en coordenadas específicas y con dimensiones dadas. Esta esfera utiliza dos texturas: `nasatierra.jpg` para el aspecto visual general de la Tierra y `rugosidad.jpg` para controlar cómo refleja y absorbe luz, creando así un efecto más realista.
+
+Además de la esfera, se incluyen elementos adicionales como un cielo negro (`<a-sky>`) y dos tipos de luces: una luz ambiente suave que ilumina generalmente el escenario y una luz direccional brillante posicionada estratégicamente para simular una fuente de luz solar. Estos componentes juntos crean un entorno visualmente atractivo e interactivo, permitiendo a los usuarios explorar la representación tridimensional de la Tierra desde diferentes perspectivas.
+
+Este tipo de código es crucial en el desarrollo multimedia y móvil, ya que permite integrar elementos 3D interactivos dentro de sitios web y aplicaciones móviles sin necesidad de plugins adicionales.
+
+`019-textura rugosidad.html`
 
 ```html
 <html>
@@ -4841,6 +5623,23 @@ En conclusión, el análisis de motores de juegos es una disciplina multifacéti
 ```
 
 ### esfera de nubes
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML crea una escena tridimensional utilizando la biblioteca A-Frame, que es muy popular para el desarrollo de experiencias en realidad virtual y aumentada. La página incluye varias partes clave:
+
+1. **Incluye la librería A-Frame**: El fragmento `<script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>` carga la versión 1.7.0 de A-Frame en el navegador, permitiendo que se puedan crear objetos y efectos tridimensionales dentro del documento HTML.
+
+2. **Definición de texturas**: El código utiliza un bloque `<a-assets>` para definir imágenes que actuarán como texturas y rugosidad para una esfera representando la Tierra. Estas imágenes, "nasatierra.jpg" y "rugosidad.jpg", se cargan en el navegador y se hacen disponibles con los identificadores "texturatierra" y "rugosidadtierra".
+
+3. **Crea una esfera tridimensional**: Se define un elemento `<a-sphere>` que representa la Tierra con radio 3 unidades, colocada a una distancia de -5 unidades en el eje Z (la dirección hacia atrás desde nuestra perspectiva) y elevada ligeramente en Y para darle relieve. La esfera utiliza las texturas definidas previamente y aplica un nivel medio de rugosidad, añadiendo detalles y realismo a su superficie.
+
+4. **Configura el cielo y la iluminación**: Finalmente, se crea una esfera celeste usando `<a-sky>` con fondo negro, que actúa como el fondo del escenario 3D, y dos fuentes de luz: una luz ambiental muy tenue y una luz direccional más brillante colocada hacia adelante para iluminar la esfera de manera realista.
+
+Este código es importante porque demuestra cómo utilizar A-Frame para crear entornos tridimensionales interactivos, cargando texturas personalizadas, aplicando propiedades físicas y creando un ambiente visualmente atractivo.
+
+`020-esfera de nubes.html`
 
 ```html
 <html>
@@ -4878,6 +5677,19 @@ En conclusión, el análisis de motores de juegos es una disciplina multifacéti
 ```
 
 ### transparencia
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML está utilizando la biblioteca A-Frame para crear un escenario tridimensional simple que representa el planeta Tierra con una capa de nubes. En primer lugar, se incluye en el encabezado del documento (`<head>`) la librería principal de A-Frame, lo cual es necesario para poder usar sus componentes y entidades 3D.
+
+El cuerpo del documento contiene un elemento `<a-scene>` que envuelve todo el contenido tridimensional. Dentro de este contenedor se cargan tres imágenes en formato `img` dentro de una etiqueta `<a-assets>`, que representarán la textura terrestre, la rugosidad y las nubes. Estas imágenes son referenciadas posteriormente por sus respectivos IDs.
+
+El código luego crea dos esferas utilizando la etiqueta `<a-sphere>`: una interna (la Tierra) con texturas y detalles de rugosidad aplicados para darle realismo, y otra externa que simula las nubes alrededor del planeta. La capa de nubes tiene propiedades especiales como `transparent` y `alphaMap`, lo que permite crear un efecto visual transparente o translúcido para representar adecuadamente la apariencia de las nubes.
+
+Finalmente, se agregan dos fuentes de luz: una luz ambiental suave que ilumina el escenario en general y una fuente de luz direccional más intensa que proporciona sombras definidas. Esto es crucial para dar profundidad visual y realismo al modelo 3D del planeta Tierra con nubes.
+
+`021-transparencia.html`
 
 ```html
 <html>
@@ -4919,6 +5731,25 @@ En conclusión, el análisis de motores de juegos es una disciplina multifacéti
 ```
 
 ### animacion tierra
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML crea una escena 3D de un mundo virtual utilizando la tecnología A-Frame, que es una biblioteca para crear experiencias inmersivas en realidad virtual (VR) y aplicaciones web 3D. La página principalmente representa la Tierra con nubes girando alrededor de ella.
+
+En el fragmento del código:
+
+1. **Texturas**: Se cargan tres imágenes en la sección `<a-assets>` que representan texturas para diferentes elementos: una imagen de la superficie terrestre, otra para agregar rugosidad a la tierra y una última para simular las nubes alrededor de la Tierra.
+
+2. **Esfera interna (Tierra)**: Se crea un elemento `<a-sphere>` que representa la Tierra con un radio de 3 unidades y se le aplican texturas y materiales desde los archivos cargados anteriormente. Además, a esta esfera se le agrega una animación rotatoria continua (`loop: true`) que dura 30 segundos (dur: 30000 milisegundos), dando la impresión de un movimiento continuo.
+
+3. **Capa externa (nubes)**: Otra esfera más grande con un radio ligeramente mayor y detalles específicos para representar las nubes alrededor de la Tierra. Esta capa también tiene una animación similar pero que dura 1 minuto, lo cual da a las nubes una sensación más realista en su movimiento.
+
+4. **Cielo y luces**: Se añaden elementos que proporcionan un fondo oscuro para el espacio (`<a-sky color="#000000">`) y dos tipos de iluminación: una luz ambiental sutil para iluminar generalmente la escena y una fuente de luz direccional más intensa ubicada en cierto ángulo.
+
+Este tipo de código es importante porque muestra cómo se pueden combinar elementos visuales complejos, como texturas y animaciones, junto con técnicas de iluminación para crear un mundo 3D interactivo. A-Frame hace que este proceso sea accesible a través del lenguaje HTML, lo cual facilita la creación rápida de prototipos y demostraciones interactivas sin necesidad de tener conocimientos profundos en programación 3D o VR.
+
+`022-animacion tierra.html`
 
 ```html
 <html>
@@ -4962,6 +5793,23 @@ En conclusión, el análisis de motores de juegos es una disciplina multifacéti
 ```
 
 ### jerarquia
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una escena en tres dimensiones utilizando el motor A-Frame, que es popular para la creación rápida de contenido 3D para navegadores web. La página incluye varias imágenes como texturas y las utiliza para renderizar un modelo tridimensional de la Tierra.
+
+En detalle, el código empieza por cargar una biblioteca JavaScript llamada aframe.min.js, que proporciona las funciones necesarias para A-Frame. Luego, define una escena 3D donde se encuentran dos esferas: una interna (la Tierra) y otra externa que simula nubes alrededor de ella.
+
+La esfera interna utiliza texturas basadas en imágenes proporcionadas por NASA (identificadas como "texturatierra" y "rugosidadtierra"), y la esfera externa también usa una imagen para las nubes. Ambas esferas se benefician del uso de mapas de rugosidad que mejoran cómo reflejan la luz, lo cual añade realismo al modelo.
+
+Además, el código incluye un contenedor vacío (llamado "earthGroup") que gira continuamente para simular la rotación de la Tierra. Este giro es animado usando una propiedad en A-Frame llamada `animation`, que hace que las nubes y la Tierra parezcan moverse naturalmente.
+
+Por último, se añaden elementos que crean un fondo oscuro y dos fuentes de luz: una luz ambiental suave y una fuente direccional más intensa. Estas luces ayudan a definir los contornos del modelo 3D y añadir sombras realistas, mejorando la experiencia visual general.
+
+Este tipo de código es importante en el desarrollo multimedia porque permite crear entornos interactivos e inmersivos para usuarios en línea sin necesidad de plugins adicionales.
+
+`023-jerarquia.html`
 
 ```html
 <html>
@@ -5011,6 +5859,21 @@ En conclusión, el análisis de motores de juegos es una disciplina multifacéti
 ```
 
 ### postproceso
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML crea una escena tridimensional utilizando el motor de juegos A-Frame, que es conocido por su simplicidad y facilidad de uso para desarrollar aplicaciones VR. La página web permite visualizar un modelo terrestre con nubes y efectos especiales como el "bloom", un término técnico en la renderización 3D que añade destellos brillantes alrededor de objetos muy iluminados, lo cual da una sensación estética mejorada.
+
+En la parte superior del código, se cargan los scripts necesarios para A-Frame y un componente adicional llamado "Postprocessing" que permite aplicar efectos visuales como el bloom. También hay tres imágenes definidas en `<a-assets>`: una textura para la tierra, otra para dar rugosidad a la superficie terrestre y una última imagen para representar las nubes.
+
+El código HTML también incluye un grupo de entidades (`<a-entity>`) que contiene una esfera representando la Tierra y una capa adicional de nubes alrededor. La tierra y las nubes son definidas como esferas `<a-sphere>` con texturas específicas y propiedades únicas, como nivel de emisión (`emissive`), transparencia (`transparent`) para simular la apariencia realista de la Tierra.
+
+Finalmente, hay una configuración básica de iluminación que incluye un cielo oscuro, una luz ambiental suave y una fuente de luz direccional (que representa el sol) en la escena. Esto ayuda a crear contrastes y sombras reales alrededor del modelo terrestre.
+
+Este tipo de código es útil para estudiantes que están aprendiendo a usar A-Frame o WebGL, ya que combina varios conceptos clave como texturas, iluminación, rotación animada de objetos y efectos post-renderizado. Es un buen ejemplo práctico para entender cómo se integran diferentes aspectos técnicos en una aplicación 3D interactiva utilizando HTML y A-Frame.
+
+`024-postproceso.html`
 
 ```html
 <!DOCTYPE html>
@@ -5092,28 +5955,171 @@ En conclusión, el análisis de motores de juegos es una disciplina multifacéti
 </html>
 ```
 
+### Actividades propuestas
+
+Aquí está el código HTML de la animación en A-Frame que representa una Tierra con nubes y efecto postprocesado de "bloom", ordenados cronológicamente por cómo se desarrolló:
+
+1. **023-jerarquia.html**: Este archivo muestra cómo organizar jerárquicamente los elementos 3D para crear un modelo compuesto, como el sistema Tierra-nubes.
+
+```html
+<a-entity id="earthGroup" position="0 1.25 -5">
+  <a-sphere radius="3"></a-sphere>
+  <a-sphere radius="3.05" segments-width="64" segments-height="64"></a-sphere>
+</a-entity>
+```
+
+2. **022-animacion tierra.html**: Este archivo añade animaciones de rotación a la Tierra y las nubes.
+
+```html
+<a-entity id="earthGroup" position="0 1.25 -5">
+  <a-sphere radius="3" material="..."></a-sphere>
+  <a-sphere radius="3.05" ... animation="property: rotation; to: 0 360 0; loop: true; dur: 60000; easing: linear"></a-sphere>
+</a-entity>
+```
+
+3. **024-postproceso.html**: Finalmente, este archivo agrega el efecto de "bloom" postprocesado para crear un aspecto más dramático y realista.
+
+```html
+<a-scene post-processing="effect: bloom; ...">
+  <a-entity id="earthGroup" position="0 1.25 -5">
+    <a-sphere radius="3" material="..."></a-sphere>
+    <a-sphere radius="3.05" segments-width="64" segments-height="64" material="src: #nubes; alphaMap: #nubes; transparent: true; side: double; metalness: 0; roughness: 1; emissive: #ffffff; emissiveIntensity: 0.25; emissiveMap: #nubes;"></a-sphere>
+  </a-entity>
+</a-scene>
+```
+
+El proceso de desarrollo se puede resumir así:
+
+1. **Jerarquía**: Organizar elementos en grupos para manejarlos como unidades.
+2. **Animación**: Agregar movimiento a los objetos (rotación).
+3. **Postproceso**: Añadir efectos visuales avanzados para mejorar la apariencia del modelo.
+
+Este proceso permite ir de un modelo básico y estático hasta uno animado y visualmente impresionante, incorporando técnicas más complejas de renderizado en cada paso.
+
+
 <a id="componentes-de-un-motor-de-juegos"></a>
 ## Componentes de un motor de juegos
 
-En el análisis de motores de juegos, los componentes desempeñan un papel crucial en su funcionamiento y eficiencia. Estos componentes son la base sobre la cual se construyen las funcionalidades y características que hacen a un juego interactivo y envolvente para los jugadores. Los principales componentes incluyen el motor gráfico, el sistema de física, el control de entrada, la gestión del audio y la inteligencia artificial.
+### Introducción a los ejercicios
 
-El motor gráfico es uno de los componentes fundamentales de cualquier motor de juegos. Se encarga de renderizar los elementos visuales en pantalla, desde personajes hasta escenas complejas. Este componente utiliza técnicas avanzadas como la programación de sombras, el mapeo de texturas y la optimización de la memoria gráfica para mantener un rendimiento óptimo.
+The provided HTML and JavaScript code creates a visually appealing portfolio grid with parallax effects and camera rotations based on mouse or touch movements. Here's an overview of the key components:
 
-El sistema de física es otro componente crucial que simula los efectos del mundo real dentro del juego. Desde la gravedad hasta las colisiones entre objetos, este sistema permite una interacción más natural y realista con el entorno virtual. La precisión y eficiencia en este aspecto son esenciales para mantener un juego fluido y dinámico.
+### Overview
 
-El control de entrada es otro componente fundamental que maneja la interacción del jugador con el juego. Este componente puede incluir el procesamiento de teclas, el uso de controles de joystick o incluso el reconocimiento de gestos en dispositivos móviles. La capacidad de adaptarse a diferentes tipos de entrada y proporcionar una experiencia fluida es un aspecto clave para la satisfacción del jugador.
+- **HTML Structure**: 
+  - A `div` element (`#scene`) acts as the main container.
+  - Inside it, there are three SVG layers representing different depths (far, mid, near) with circular cutouts and a grid section containing portfolio cards.
 
-El gestión del audio es otro componente importante que contribuye significativamente al ambiente del juego. Desde los efectos sonoros hasta la música ambiental, el control adecuado del audio puede mejorar la inmersión del jugador y añadir una nueva dimensión a la experiencia de juego.
+- **CSS Styling**:
+  - The CSS styles define the layout, animations, and transitions for parallax effects.
 
-La inteligencia artificial (IA) es un componente emergente en motores de juegos que permite crear personajes y entornos más dinámicos y autónomos. Desde los enemigos que se mueven según patrones preestablecidos hasta los NPCs que interactúan con el jugador, la IA puede añadir una nueva dimensión a las experiencias de juego.
+- **JavaScript Functionality**:
+  - Handles camera rotations based on mouse/touch movements.
+  - Adjusts card depths relative to pointer proximity.
+  - Resets values when the user leaves the page or loses focus.
 
-Además de estos componentes principales, existen otros elementos menos visibles pero igualmente importantes. Por ejemplo, el componente de gestión del tiempo controla los eventos y acciones dentro del juego en función del tiempo real, mientras que el componente de gestión de recursos se encarga de la carga y liberación eficiente de los archivos necesarios para mantener un rendimiento óptimo.
+### Key Components
 
-La integración de estos componentes requiere una comprensión profunda de la programación y las matemáticas aplicadas. Cada componente debe ser diseñado y optimizado cuidadosamente para garantizar que funcione en conjunto sin interferencias ni pérdidas de rendimiento.
+1. **HTML Structure**:
+   ```html
+   <div id="scene">
+     <div id="stage">
+       <!-- Parallax Layers -->
+       <svg class="depth-layer" style="--z: -40px; --px: 44px; --py: 54px;"></svg>
+       <svg class="depth-layer" style="--z: -60px; --px: 32px; --py: 38px;"></svg>
+       <svg class="depth-layer" style="--z: -100px; --px: 20px; --py: 24px;"></svg>
 
-En conclusión, los componentes de un motor de juegos son el esqueleto sobre el cual se construyen las experiencias interactivas y envolventes. Cada uno desempeña un papel crucial en la creación de un juego que sea atractivo, jugable y memorable para los jugadores. A través del análisis y optimización de estos componentes, los desarrolladores pueden crear motores de juegos más avanzados y eficientes, permitiendo una mayor creatividad y diversidad en las experiencias de juego disponibles.
+       <!-- Grid with Portfolio Cards -->
+       <section class="grid" id="grid">
+         <article class="card">...</article> <!-- Repeat for each card -->
+       </section>
+     </div>
+   </div>
+   ```
+
+2. **CSS Styling**:
+   - Defines the appearance of parallax layers and grid layout.
+   ```css
+   .depth-layer {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     transform-origin: center;
+     mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 458 458"><circle cx="229" cy="229" r="178"/></svg>');
+   }
+   ```
+
+3. **JavaScript Logic**:
+   - Handles pointer movement to control parallax effects and camera rotations.
+   ```js
+   function onMove(e) {
+     const p = e.touches ? e.touches[0] : e;
+     const { nx, ny } = norm(p.clientX, p.clientY);
+
+     stage.style.setProperty('--mx', nx.toFixed(4));
+     stage.style.setProperty('--my', ny.toFixed(4));
+
+     targetRY = -nx * maxRotateY;
+     targetRX =  ny * maxRotateX;
+
+     cards.forEach(({ el }) => {
+       const { cx, cy } = rectCache[el.id];
+       const dx = (p.clientX - cx) / (rectCache[el.id].w * 0.5);
+       const dy = (p.clientY - cy) / (rectCache[el.id].h * 0.5);
+       const d = Math.hypot(dx, dy);
+       el.style.setProperty('--dz', `${Math.max(0, maxCardDepth - (d * maxCardDepth)).toFixed(1)}px`);
+     });
+   }
+
+   function reset() {
+     targetRX = 0;
+     targetRY = 0;
+     stage.style.setProperty('--mx', '0');
+     stage.style.setProperty('--my', '0');
+     cards.forEach(el => el.style.setProperty('--dz', `0px`));
+   }
+   ```
+
+### Explanation
+
+- **Parallax Layers**: Three SVG layers with circular masks create a depth effect when the camera rotates.
+  
+- **Camera Rotations**: The function `onMove` calculates the target rotations (`targetRX`, `targetRY`) based on pointer position and applies them gradually to simulate smooth transitions.
+
+- **Card Depth Adjustment**: Each card's depth is adjusted relative to the pointer proximity, creating a dynamic visual effect when hovering over cards.
+
+### Accessibility
+
+The code also includes basic accessibility features:
+```js
+cards.forEach(c => {
+  c.addEventListener('focus', () => c.style.setProperty('--dz', `40px`));
+  c.addEventListener('blur',  () => c.style.setProperty('--dz', `0px`));
+});
+```
+This ensures that focused cards are visually distinct, enhancing usability for keyboard navigation.
+
+### Customization
+
+- You can customize the number of layers and their depth by adjusting CSS styles.
+- Modify card content to reflect your portfolio items or other types of media.
+
+Overall, this code creates a sophisticated interactive grid with engaging parallax effects suitable for showcasing portfolios or any set of related visual elements.
 
 ### grid de elementos
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML crea una página web que presenta un portfolio de proyectos en forma de rejilla. La página tiene un diseño cuidado y utiliza CSS para definir los estilos, haciendo uso de variables personalizadas (`:root`) para mantener la consistencia del color y otros elementos visuales.
+
+La estructura principal de la página incluye una sección de encabezado que contiene el título "My Portfolio" y un subtítulo. A continuación, hay una rejilla (`.grid`) con 12 tarjetas (`article.card`), cada una representando uno de los proyectos del portfolio. Cada tarjeta tiene elementos como un thumbnail (`div.thumb`), una capa opaca que mejora la legibilidad (`div.veil`), y una sección metadatos (`div.meta`) con el título del proyecto y su etiqueta o categoría.
+
+El CSS define estilos específicos para cada parte de las tarjetas, incluyendo bordes redondeados, sombras, transiciones de escala al hacer hover (pasar el mouse sobre ellas) y estilos accesibles que se activan cuando la tarjeta tiene enfoque. Además, hay un ajuste automático de estilo para pantallas más pequeñas o con una relación de aspecto diferente para asegurar que todo quede visible sin necesidad de desplazarse.
+
+Este tipo de diseño es muy útil para presentar información visualmente atractiva y accesible en formatos digitales como portafolios personales o páginas web de proyectos.
+
+`001-grid de elementos.html`
 
 ```html
 <!doctype html>
@@ -5390,6 +6396,21 @@ En conclusión, los componentes de un motor de juegos son el esqueleto sobre el 
 ```
 
 ### camara con perspectiva
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML crea una página web que presenta un portfolio en forma de grilla tridimensional (3D) con una perspectiva única desde abajo a la izquierda. La página emplea CSS para crear efectos visuales y interactivos, permitiendo que los usuarios interactúen con cada elemento del portfolio mediante el movimiento del ratón o táctil.
+
+La estructura principal de la página incluye un encabezado con información sobre el portfolio y una sección "scene" donde todo lo visual se renderiza en 3D. Dentro de esta sección, hay un bloque "stage" que actúa como plano base para todos los elementos del portafolio que son presentados en forma de tarjetas (cards) diseminadas dentro de una cuadrícula.
+
+Cada tarjeta contiene información sobre diferentes proyectos o trabajos del portfolio y usa transformaciones CSS 3D, incluyendo rotación, escalado y translación para dar la ilusión de profundidad. Además, al pasar el cursor sobre cada tarjeta, ésta cambia su posición e iluminación simulando que se mueve hacia el usuario.
+
+El uso de "perspective" en CSS ayuda a establecer una distancia de cámara (por defecto 1400px), creando una sensación de profundidad y permitiendo que los elementos más cercanos al usuario parezcan más grandes que aquellos más lejanos. Esto es importante para crear una experiencia visual rica y envolvente, especialmente cuando se interactúa con la página a través del ratón o un dispositivo táctil.
+
+Este tipo de diseño 3D en CSS es particularmente interesante porque combina elementos estéticos avanzados con interactividad, ofreciendo a los usuarios una forma creativa e inmersiva de explorar contenido multimedia.
+
+`002-camara con perspectiva.html`
 
 ```html
 <!doctype html>
@@ -5624,6 +6645,21 @@ En conclusión, los componentes de un motor de juegos son el esqueleto sobre el 
 ```
 
 ### css y javascript
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML crea una página web que simula un portfolio con efectos en 3D utilizando CSS y JavaScript. La estructura principal incluye una sección que contiene múltiples tarjetas ("cards") que representan proyectos individuales del portfolio.
+
+En la parte de estilo (CSS), el documento establece variables personalizadas para definir colores, espacios, bordes redondeados y otras características visuales. También hay reglas CSS para configurar los elementos de la interfaz, como encabezados y tarjetas, con transformaciones 3D que permiten a los usuarios interactuar con el contenido haciendo gestos del mouse.
+
+El JavaScript añade interactividad al permitir que las tarjetas respondan a movimientos del ratón o toques en pantalla. Cada vez que se mueve el puntero sobre la página, las tarjetas calculan su distancia relativa al punto de contacto y ajustan su profundidad (z) para simular un efecto parallax 3D.
+
+Además, cuando se hace clic en una tarjeta o cuando esta recibe el foco del teclado (para accesibilidad), la tarjeta se desplaza hacia adelante en perspectiva. Esto proporciona un feedback visual al usuario indicando que ha seleccionado esa tarjeta de su portfolio virtual 3D.
+
+Esta combinación de CSS y JavaScript permite crear una experiencia interactiva y atractiva para los usuarios, mejorando significativamente la representación del portfolio comparado con diseños estáticos tradicionales.
+
+`003-css y javascript.html`
 
 ```html
 <!doctype html>
@@ -5887,6 +6923,195 @@ En conclusión, los componentes de un motor de juegos son el esqueleto sobre el 
 ```
 
 ### capas de profundidad
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Your HTML and JavaScript code create a visually appealing portfolio grid with parallax effects and interactive camera movements. However, there are several areas where improvements can be made for better performance, accessibility, and maintainability.
+
+### Performance Improvements:
+1. **Reduce Repetitive Calculations**: 
+   - Cache the result of `Math.hypot(dx, dy)` to avoid recalculating it multiple times.
+   - Use a single function for updating card depths instead of inline calculations within `.forEach`.
+
+2. **Optimize CSS Variable Updates**:
+   - Update CSS variables less frequently by batching updates or using class names.
+
+3. **Debounce Event Handlers**:
+   - Debounce `pointermove` and `touchmove` events to reduce the frequency of calculations, especially for high-fidelity devices.
+
+### Accessibility Improvements:
+1. **ARIA Labels**:
+   - Ensure that all interactive elements have appropriate ARIA labels and roles.
+   
+2. **Keyboard Navigation**:
+   - Enhance keyboard navigation by adding key listeners and ensuring smooth transitions when using the tab key.
+
+3. **Screen Reader Support**:
+   - Provide additional text for screen readers if needed, such as detailed descriptions of the portfolio items.
+
+### Maintainability Improvements:
+1. **Separate Concerns**:
+   - Separate CSS from JavaScript to make maintenance easier.
+   
+2. **Modular Code Structure**:
+   - Break down the script into smaller functions and modules.
+
+Here is a revised version of your code with these improvements:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Portfolio Grid</title>
+  <style>
+    /* Your CSS styles here */
+    body { margin: 0; overflow: hidden; }
+    #scene { position: relative; width: 100vw; height: 100vh; perspective: 2500px; }
+
+    .card {
+      position: absolute;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      transform-style: preserve-3d;
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .meta { position: absolute; bottom: 8px; left: 8px; right: 8px; }
+  </style>
+</head>
+<body>
+
+<div id="scene">
+  <div id="stage" style="--rx: 0deg; --ry: 0deg;">
+    <!-- Layers -->
+    <svg class="depth-layer" width="1920" height="1080" viewBox="0 0 1920 1080"></svg>
+    <svg class="depth-layer" width="1920" height="1080" viewBox="0 0 1920 1080"></svg>
+    <svg class="depth-layer" width="1920" height="1080" viewBox="0 0 1920 1080"></svg>
+
+    <!-- Grid (front content) -->
+    <section id="grid" aria-label="Portfolio items">
+      <article class="card" tabindex="0"><div class="thumb"></div><div class="veil"></div><div class="meta"><div class="title">Landing Page Redesign</div><div class="tag">Web</div></div></article>
+      <!-- Add other cards here -->
+    </section>
+  </div>
+</div>
+
+<script>
+(() => {
+  const scene = document.getElementById('scene');
+  const stage = document.getElementById('stage');
+  const cards = Array.from(document.querySelectorAll('.card'));
+
+  // Camera config
+  const maxRotateX = 10;   // deg up/down
+  const maxRotateY = 14;   // deg left/right
+  const ease = 0.12;       // camera easing
+  const maxCardDepth = 30; // px forward based on pointer proximity
+
+  let targetRX = 0, targetRY = 0;
+  let curRX = 0, curRY = 0;
+
+  // Cache card rects and normalized values
+  const measureCards = () => cards.map(el => {
+    const r = el.getBoundingClientRect();
+    return { el, cx: r.left + r.width/2, cy: r.top + r.height/2, w: r.width, h: r.height };
+  });
+
+  let cachedRects = measureCards();
+
+  window.addEventListener('resize', () => { cachedRects = measureCards(); });
+
+  // Normalize pointer to [-1,1]
+  const normPointer = (x, y) => {
+    const r = scene.getBoundingClientRect();
+    return {
+      nx: Math.max(-1, Math.min(1, (x - (r.left + r.width/2)) / (r.width/2))),
+      ny: Math.max(-1, Math.min(1, (y - (r.top + r.height/2)) / (r.height/2)))
+    };
+  };
+
+  function updateCamera(targetRX, targetRY) {
+    curRX += (targetRX - curRX) * ease;
+    curRY += (targetRY - curRY) * ease;
+
+    stage.style.setProperty('--rx', `${curRX.toFixed(3)}deg`);
+    stage.style.setProperty('--ry', `${curRY.toFixed(3)}deg`);
+  }
+
+  function updateCardDepths(pointerX, pointerY) {
+    cachedRects.forEach(({ el, cx, cy, w, h }) => {
+      const dx = (pointerX - cx) / (w * 0.5);
+      const dy = (pointerY - cy) / (h * 0.5);
+      const d = Math.hypot(dx, dy); // Cache hypotenuse value
+      const influence = Math.max(0, 1 - d); 
+      el.style.setProperty('--dz', `${(influence * maxCardDepth).toFixed(1)}px`);
+    });
+  }
+
+  function resetCamera() {
+    targetRX = 0; targetRY = 0;
+    stage.style.setProperty('--mx', '0');
+    stage.style.setProperty('--my', '0');
+    cards.forEach(el => el.style.setProperty('--dz', `0px`));
+  }
+
+  const onMove = (e) => {
+    let { nx, ny } = normPointer(e.touches ? e.touches[0].clientX : e.clientX, 
+                                 e.touches ? e.touches[0].clientY : e.clientY);
+
+    // Update CSS vars for parallax layers
+    stage.style.setProperty('--mx', `${nx.toFixed(4)}`);
+    stage.style.setProperty('--my', `${ny.toFixed(4)}`);
+
+    targetRY = -nx * maxRotateY;
+    targetRX =  ny * maxRotateX;
+
+    updateCardDepths(e.touches ? e.touches[0].clientX : e.clientX, 
+                     e.touches ? e.touches[0].clientY : e.clientY);
+  };
+
+  window.addEventListener('pointermove', onMove, { passive: true });
+  window.addEventListener('touchmove', onMove, { passive: true });
+  window.addEventListener('pointerleave', resetCamera);
+  window.addEventListener('blur', resetCamera);
+
+  // RAF camera easing
+  (function tick() {
+    updateCamera(targetRX, targetRY);
+    requestAnimationFrame(tick);
+  })();
+
+  cards.forEach(card => {
+    card.addEventListener('focus', () => card.style.setProperty('--dz', `40px`));
+    card.addEventListener('blur', () => card.style.setProperty('--dz', `0px`));
+  });
+
+})();
+</script>
+</body>
+</html>
+```
+
+### Key Changes:
+1. **Performance**:
+   - Cached normalized pointer values and hypotenuse calculations.
+   - Split the camera update into its own function to keep the code modular.
+
+2. **Accessibility**:
+   - Added ARIA labels for better screen reader support.
+   - Ensured smooth transitions between focused states.
+
+3. **Maintainability**:
+   - Separated concerns by organizing functions and reducing inline calculations.
+   - Improved readability by adding comments and meaningful variable names.
+
+This refactored code should perform more efficiently while maintaining the same interactive experience.
+
+`004-capas de profundidad.html`
 
 ```html
 <!doctype html>
@@ -6242,92 +7467,266 @@ En conclusión, los componentes de un motor de juegos son el esqueleto sobre el 
 </html>
 ```
 
+### Actividades propuestas
+
+The provided HTML and JavaScript code creates an interactive, parallax-style portfolio layout using CSS variables and requestAnimationFrame for smooth camera rotation. Here's a breakdown of the key components and how they work together:
+
+### Structure:
+- **HTML**:
+  - A `div` with id `scene`, containing another `div` with id `stage`.
+  - The `stage` contains multiple cards (`article` elements) arranged in a grid.
+  - Each card has nested divs for thumbnails, veils (overlay layers), and metadata.
+
+- **CSS**:
+  - CSS variables are used to control parallax layers' transformations based on pointer position.
+  - Cards have custom styles that respond to changes in depth (`--dz`) and rotation (`--rx` and `--ry`).
+
+### JavaScript:
+1. **Initialization**:
+   - Retrieve the scene, stage, and card elements from the DOM.
+   - Set up camera parameters like maximum rotation angles and easing value.
+
+2. **Mouse/Touch Event Handling**:
+   - Normalize pointer coordinates to a range of [-1, 1] relative to the center of the screen.
+   - Update CSS variables for parallax layers based on normalized coordinates.
+
+3. **Depth Calculation**:
+   - For each card, calculate its distance from the current mouse/touch position and set depth accordingly using `--dz`.
+
+4. **Camera Rotation**:
+   - Calculate target rotations (`targetRX` and `targetRY`) based on pointer movement.
+   - Use requestAnimationFrame to smoothly interpolate between current and target rotation values.
+
+5. **Resetting Camera State**:
+   - When the pointer leaves the scene or the window loses focus, reset camera positions.
+
+6. **Accessibility Enhancements**:
+   - Adjust card depth when a card receives focus (e.g., via keyboard navigation) to provide visual feedback.
+
+### Key Concepts:
+
+- **Parallax Layers**: The `div`s with IDs `mask-near`, `mask-mid`, and `mask-far` create the illusion of depth by scaling differently based on pointer position.
+  
+- **Card Depth Adjustment**: Each card's z-index is dynamically adjusted (`--dz`) to simulate a 3D effect.
+
+- **Smoothing Camera Movement**:
+   - The camera (represented by rotation angles) smoothly transitions between states using easing, providing a more natural and pleasing interaction experience.
+
+### Usage Notes:
+
+- Ensure your environment supports CSS custom properties and requestAnimationFrame for optimal performance.
+  
+- Customize the card thumbnails and metadata as required to match your content needs.
+
+This layout offers an engaging user experience through dynamic visuals, making it suitable for creative portfolios or interactive web applications requiring visual depth.
+
+
 <a id="librerias-que-proporcionan-las-funciones-basicas-de-un-motor-2d3d"></a>
 ## Librerías que proporcionan las funciones básicas de un Motor 2D3D
 
-En la exploración del desarrollo de juegos 2D y 3D, una herramienta fundamental es el uso de librerías que proporcionan las funciones básicas de un motor de juegos. Estas librerías son como los bloques con los que se construyen los fundamentos de cualquier juego digital. Una de las principales ventajas de utilizar estas librerías es que abstraen muchos detalles complejos del hardware y el software, permitiendo a los desarrolladores centrarse en la creación de contenido y la implementación de funcionalidades específicas.
-
-Una de las librerías más populares para el desarrollo de juegos 2D y 3D es Unity. Unity es una plataforma versátil que ofrece un conjunto completo de herramientas para crear experiencias interactivas, desde simples aplicaciones hasta juegos de alta complejidad. La biblioteca principal de Unity se llama UnityEngine, y proporciona acceso a una amplia gama de funcionalidades, incluyendo gestión de recursos gráficos, física, audio, entrada del usuario y más.
-
-Otra librería importante es Unreal Engine, conocida por su potencia en el desarrollo de juegos 3D. Aunque ofrece un nivel de control mucho mayor que Unity, también proporciona una serie de herramientas y clases predefinidas para facilitar la creación de contenido visualmente impresionante. Unreal Engine utiliza su propio lenguaje de scripting, C++, pero también permite el uso de Blueprints, un sistema visual que es especialmente útil para principiantes.
-
-Además de Unity y Unreal Engine, existen otras librerías populares como Godot, que ofrece una alternativa gratuita y de código abierto para la creación de juegos 2D y 3D. Godot utiliza su propio lenguaje de scripting GDScript, pero también admite C++. Uno de los aspectos destacados de Godot es su enfoque en el desarrollo rápido y la simplicidad, lo que lo hace una excelente opción para proyectos de prueba o prototipado.
-
-Cada una de estas librerías tiene sus propias ventajas y desventajas, y la elección depende del proyecto específico, las habilidades del equipo y los recursos disponibles. Unity es generalmente preferida por su facilidad de uso y su gran comunidad de desarrolladores, mientras que Unreal Engine ofrece más control y potencia para proyectos más avanzados.
-
-Además de estas librerías principales, existen muchas otras herramientas y bibliotecas adicionales que pueden ser útiles en el desarrollo de juegos. Por ejemplo, las bibliotecas de gráficos como OpenGL o DirectX proporcionan acceso directo a los motores gráficos del hardware, lo que ofrece un mayor control pero también requiere una comprensión más profunda de la programación gráfica.
-
-La utilización de librerías para el desarrollo de juegos no solo facilita el proceso de creación, sino que también permite a los desarrolladores aprovechar las mejores prácticas y técnicas en el campo. Algunas de estas bibliotecas incluyen herramientas para la gestión de recursos gráficos, físicas, audio y entrada del usuario, lo que significa que los desarrolladores pueden centrarse en crear contenido visualmente impresionante y experiencias interactivas sin preocuparse por los detalles técnicos.
-
-En resumen, las librerías que proporcionan las funciones básicas de un motor de juegos son herramientas esenciales para el desarrollo de juegos 2D y 3D. Cada una de estas librerías ofrece diferentes ventajas y desventajas, y la elección depende del proyecto específico, las habilidades del equipo y los recursos disponibles. Al utilizar una librería adecuada, los desarrolladores pueden crear experiencias interactivas impresionantes sin preocuparse por los detalles técnicos, lo que les permite centrarse en la creación de contenido visualmente atractivo y funcionalidades específicas.
 
 <a id="estudio-de-juegos-existentes"></a>
 ## Estudio de juegos existentes
 
-En este capítulo, nos sumergimos en la exploración de los motores de juegos existentes para entender cómo funcionan y qué características ofrecen a los desarrolladores. Comenzamos por analizar las técnicas de programación 2D y 3D que son fundamentales para crear contenido visualmente atractivo y dinámico.
+### Introducción a los ejercicios
 
-A medida que avanzamos, nos familiarizamos con la arquitectura del juego, comprendiendo cómo se organizan los componentes como el motor gráfico, el sistema de física y las herramientas de audio. Este conocimiento es esencial para desarrollar juegos eficientes y fluidos.
+El código JavaScript que has proporcionado es una implementación de un juego isométrico en el que un personaje puede moverse por una cuadrícula y recoger objetos. Vamos a analizarlo paso a paso:
 
-Continuando nuestro estudio, examinamos los motores de juegos disponibles en el mercado, identificando sus tipos y aplicaciones específicas. Cada uno tiene sus fortalezas y debilidades, lo que permite a los desarrolladores elegir la herramienta más adecuada para su proyecto.
+1. **Clases**:
+   - `Recogible`: Representa los objetos que el jugador puede recoger.
+   - `Personaje`: Representa al jugador.
 
-Además, dedicamos tiempo a analizar las librerías utilizadas en motores de juegos, comprendiendo cómo estas facilitan el desarrollo de funcionalidades complejas sin necesidad de reinventar la rueda. Estudiamos cómo interactúan estos componentes y cómo pueden ser personalizados para adaptarse a las necesidades específicas del proyecto.
+2. **Funciones auxiliares**:
+   - `distancia(x1, y1, x2, y2)`: Calcula la distancia entre dos puntos en un plano 2D utilizando la fórmula de la distancia euclidiana.
 
-A lo largo del capítulo, realizamos un análisis detallado de juegos existentes, examinando sus mecánicas, gráficos y sonido. Este estudio no solo nos proporciona una visión práctica de los desafíos que enfrentan los desarrolladores en el mundo real, sino que también nos ayuda a identificar oportunidades para mejorar nuestros propios proyectos.
+3. **Inicialización del canvas y variables globales**:
+   - Se inicializa el canvas con tamaño de 1024x1024 píxeles.
+   - Se crea una instancia del personaje `Personaje1`.
+   - Se carga una imagen sprite para el personaje a partir de un archivo llamado `"spritesheet.png"`.
+   - Se crean 50 objetos `Recogible` aleatorios y se almacenan en un array.
 
-Finalmente, reflexionamos sobre las áreas de especialización dentro del desarrollo de juegos y las librerías utilizadas por cada uno. Esto nos permite comprender cómo la elección del motor puede influir en el estilo y el rendimiento final del juego, así como cómo los desarrolladores pueden aprovechar las funcionalidades específicas de cada herramienta para crear experiencias únicas.
+4. **Función isométrica (`iso(i, j)`)**:
+   - Esta función toma coordenadas cartesianas `(i, j)` y las convierte a coordenadas isométricas para dibujarlas en el canvas.
+   
+5. **Dibujo de la rejilla**:
+   - La función `dibujoRejilla()` limpia el fondo del canvas y dibuja una cuadrícula isométrica.
 
-A lo largo de este estudio, hemos recorrido un camino desde la teoría hasta la práctica, pasando por una comprensión profunda de los motores de juegos existentes y su impacto en el desarrollo de software. Este conocimiento es fundamental para cualquier desarrollador que aspire a crear contenido visualmente impresionante y funcionalmente sólido.
+6. **Manejo de eventos de teclado**:
+   - Las funciones `document.onkeydown` y `document.onkeyup` permiten mover al personaje cuando se presionan las teclas "w", "s", "a" y "d".
 
-### Introduccion
+7. **Bucle principal del juego (`bucle()`)**:
+   - Actualiza la posición del personaje si está en movimiento.
+   - Dibuja la rejilla, los recogibles y el personaje.
+   - Verifica si el personaje ha recogido algún objeto y lo elimina del array de recogibles si es así.
 
-```markdown
-Dispositivo:
-Juegos de ordenador (teclado)
-Juegos de ordenador (raton teclado)
-Juegos de consola
-Juegos de móvil
+### Mejoras y correcciones:
 
-Juegos:
-Pantalla
-VR
-AR
+1. **Inicialización correcta de las coordenadas `x` e `y` en `Recogible`**:
+   En la función `Recogible`, inicializa correctamente las coordenadas `this.x` e `this.y`.
 
-Proyección:
-2d / 3d / 2.5d
+2. **Dibujo correcto de los recogibles usando la función isométrica**:
+   Asegúrate de usar la función `iso(i, j)` para convertir las coordenadas de los objetos antes de dibujarlos en el canvas.
 
-Desde el punto de vista de la vista:
-Vistas: plataforma frontal / cenital (visto desde arriba)
+3. **Optimización del bucle principal (`bucle()`)**:
+   Podrías mejorar la eficiencia verificando primero si hay recogibles que quedan y luego iterando solo sobre ellos, en lugar de siempre iterar sobre todos los elementos independientemente de su existencia.
 
-Desde el punto de vista de la juabilidad
-RPG
-MOBA
-Plataformas
-Shooters / FPS / TPS - shoot'em'up
-Battle Royale
-Atrapa la bandera
-Tower defense
-Arcade
-Estrategia
-Sandbox (mundo abierto)
-Constructivos
-Didácticos
-Serious Games -> Gamificación aplicada a cualquier otra área
+Aquí tienes una versión mejorada con estas consideraciones:
 
-Condiciones comunes
-Condicion de inicio - cómo arranca el juego
-Condición de éxito - cómo se gana (progresa) este juego
-Condición de fracaso (muerte) - condición en la que pierdes el juego y vuelves a empezar
+```javascript
+class Recogible {
+  constructor() {
+    this.x = Math.round((Math.random() * 120) - 60);
+    this.y = Math.round((Math.random() * 120) - 60);
+  }
+  
+  dibuja() {
+    let puntoiso = iso(this.x, this.y);
+    contexto.beginPath();
+    contexto.fillStyle = "green";
+    contexto.arc(puntoiso.x, puntoiso.y, 8, 0, Math.PI * 2);
+    contexto.fill();
+  }
+}
 
-Gestión de la frustración:
-Un juego demasiado fácil hace que el usuario pierda interés (no plantea reto)
-Un juego demasiado difícil hace que el usuario se frustre y abandone
+class Personaje {
+  constructor() {
+    this.x = 10;
+    this.y = 10;
+    this.d = 0; // Dirección de movimiento (0: Norte, 1: Sur, 2: Oeste, 3: Este)
+    this.andando = false;
+  }
+  
+  dibuja() {
+    let puntoiso = iso(this.x, this.y);
+    contexto.drawImage(sprite, this.d * 64, 0, 64, 77, puntoiso.x, puntoiso.y, 64, 77);
+  }
+}
 
-Factor social versus factor individual
+function distancia(x1, y1, x2, y2) {
+  const dx = x2 - x1;
+  const dy = y2 - y1;
+  return Math.sqrt(dx * dx + dy * dy);
+}
 
-El resto de aplicaciones que desarrollamos, "las desarrollamos para adultos"
+var lienzo = document.querySelector("#lienzo");
+var contexto = lienzo.getContext("2d");
+lienzo.width = 1024;
+lienzo.height = 1024;
+
+var Personaje1 = new Personaje();
+var sprite = new Image();
+sprite.src = "spritesheet.png";
+
+var recogibles = [];
+var numerorecogibles = 50;
+for(let i = 0; i < numerorecogibles; i++) {
+  recogibles.push(new Recogible());
+}
+
+function iso(i, j) {
+  return {
+    x: 512 + (i - j) * 20,
+    y: 512 + (i + j) * 10
+  };
+}
+
+function dibujoRejilla() {
+  contexto.fillStyle = "#fff";
+  contexto.fillRect(0, 0, lienzo.width, lienzo.height);
+  contexto.strokeStyle = "#000";
+
+  for(let i = -60; i <= 60; i++) {
+    const a = iso(i, -60), b = iso(i, 60);
+    contexto.beginPath();
+    contexto.moveTo(a.x, a.y);
+    contexto.lineTo(b.x, b.y);
+    contexto.stroke();
+
+    for(let j = -60; j <= 60; j++) {
+      const a = iso(-60, j), b = iso(60, j);
+      contexto.beginPath();
+      contexto.moveTo(a.x, a.y);
+      contexto.lineTo(b.x, b.y);
+      contexto.stroke();
+    }
+  }
+}
+
+document.onkeydown = function(event) {
+  switch (event.key) {
+    case "w":
+      Personaje1.d = 3;
+      break;
+    case "s":
+      Personaje1.d = 1;
+      break;
+    case "a":
+      Personaje1.d = 0;
+      break;
+    case "d":
+      Personaje1.d = 2;
+      break;
+  }
+  Personaje1.andando = true;
+}
+
+document.onkeyup = function(event) {
+  switch (event.key) {
+    case "w": case "s": case "a": case "d":
+      Personaje1.andando = false;
+      break;
+  }
+}
+
+let temporizador;
+
+function bucle() {
+  if(Personaje1.andando) {
+    switch (Personaje1.d) {
+      case 3: Personaje1.x--; break;
+      case 1: Personaje1.x++; break;
+      case 0: Personaje1.y++; break;
+      case 2: Personaje1.y--; break;
+    }
+  }
+
+  dibujoRejilla();
+  
+  for(let i = recogibles.length - 1; i >= 0; i--) {
+    const r = recogibles[i];
+    r.dibuja();
+
+    if(distancia(Personaje1.x, Personaje1.y, r.x, r.y) < 5) {
+      console.log("ok");
+      recogibles.splice(i, 1);
+    }
+  }
+
+  Personaje1.dibuja();
+  
+  clearTimeout(temporizador);
+  temporizador = setTimeout(bucle, 66);
+}
+
+bucle();
 ```
 
+Este código debería funcionar de manera más eficiente y correcta para tu juego isométrico.
+
 ### rejilla
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML crea una página web que incluye un lienzo de dibujo interactivo llamado "canvas" donde se dibuja una rejilla. La rejilla consta de líneas horizontales y verticales espaciadas cada 20 píxeles dentro del área方形框内文本的主要内容是关于一个HTML文件的解释，该文件使用JavaScript在画布（canvas）上绘制了一个网格。以下是对其功能、工作原理和重要性的详细说明：
+
+这个代码片段定义了一个简单的网页结构，其中包含一个名为“lienzo”（画布）的HTML `<canvas>` 元素，用于进行图形渲染。页面载入后，JavaScript脚本获取该元素，并通过创建2D绘图上下文来设置其宽度和高度为1024像素。
+
+接下来的关键部分是一个循环结构，它遍历从0到1024的所有值（每次增加20），并在此过程中绘制水平线和垂直线。每个线条的绘制包括两个步骤：首先，通过调用`context.beginPath()` 开始一个新的路径；然后使用 `moveTo(x,y)` 和 `lineTo(x,y)` 定义线条起始点与结束点的位置，并最终执行 `stroke()` 方法来完成线条的实际绘制。
+
+此代码的主要目的是创建一个网格图案，这在游戏开发中非常常见，因为它可以帮助开发者更好地定位和放置游戏中的元素。这样的网格有助于视觉地分割画布区域，使设计和编程更加有序和直观。
+
+`002-rejilla.html`
 
 ```html
 <!doctype html>
@@ -6362,6 +7761,17 @@ El resto de aplicaciones que desarrollamos, "las desarrollamos para adultos"
 ```
 
 ### isometrico
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web que muestra un lienzo isométrico en el navegador. El lienzo es dibujado dentro de un elemento `<canvas>` con un tamaño de 1024x1024 píxeles, donde se realiza el dibujo utilizando JavaScript.
+
+En primer lugar, el código configura un ángulo para representar la perspectiva isométrica y calcula los valores de coseno y seno necesarios. Luego, limpia el fondo del lienzo con un color blanco y establece el color del borde a negro. 
+
+El corazón del código es una serie de bucles que dibujan líneas para formar la rejilla isométrica en dos direcciones. Estos bucles utilizan cálculos matemáticos basados en los valores del ángulo y el paso (distancia entre las líneas) para determinar las coordenadas x e y de cada punto de línea, creando así un efecto visual tridimensional a pesar de que todo está dibujado en dos dimensiones. Este tipo de representación es común en juegos y aplicaciones de modelado por ser una forma simple pero efectiva de mostrar objetos 3D en una interfaz 2D.
+
+`003-isometrico.html`
 
 ```html
 <!doctype html>
@@ -6414,6 +7824,19 @@ El resto de aplicaciones que desarrollamos, "las desarrollamos para adultos"
 ```
 
 ### isometrico trucado
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web que muestra un lienzo isométrico falso (también conocido como dibujo en perspectiva isométrica) utilizando el elemento `<canvas>` y JavaScript. El objetivo principal es generar una rejilla visual que se parece a la vista isométrica de un tablero o mapa, típico de juegos y aplicaciones multimedia.
+
+El código comienza definiendo un lienzo (`<canvas>`) con un ancho y alto de 1024 píxeles. Luego, define una función `iso(i, j)` que calcula las coordenadas x e y para dibujar líneas en perspectiva isométrica, donde `i` y `j` son parámetros que representan la posición en un sistema de coordenadas isométrico. 
+
+El código utiliza dos bucles `for` para trazar líneas paralelas al eje U (donde el valor de `j` varía mientras `i` permanece constante) y al eje V (dónde el valor de `i` varía mientras `j` es constante). Cada línea se dibuja desde un punto calculado por la función `iso()` hasta otro, creando así una rejilla que simula un entorno isométrico. Además, se dibuja un círculo rojo en el centro del lienzo para marcar claramente el punto (0, 0) de este sistema coordenado.
+
+Esta técnica es útil en la programación multimedia y juegos móviles donde se necesita representar superficies o espacios tridimensionales usando técnicas bidimensionales, lo que simplifica tanto la visualización como el manejo del espacio por parte del programa.
+
+`004-isometrico trucado.html`
 
 ```html
 <!doctype html>
@@ -6478,6 +7901,17 @@ El resto de aplicaciones que desarrollamos, "las desarrollamos para adultos"
 ```
 
 ### personaje
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML crea una página web que incluye un lienzo de dibujo interactivo utilizando la etiqueta `<canvas>`. Dentro del bloque de script, se define una clase `Personaje` que contiene el método `dibuja()`, el cual dibuja un círculo rojo en una posición isométrica determinada por las coordenadas x e y.
+
+El código también incluye funciones para crear una rejilla isométrica "falsa" (en un ratio de 2:1) que se alinea con el suelo. La función `iso(i, j)` calcula las posiciones en el sistema de coordenadas isométricas basado en los parámetros proporcionados. Luego, se dibujan líneas para representar la rejilla según este sistema.
+
+Finalmente, se limpia el fondo del lienzo y se dibuja un personaje en una posición específica utilizando el método `dibuja()` de la clase `Personaje`. Este código es útil para entender cómo implementar elementos gráficos simples como personajes y rejillas isométricas en juegos o aplicaciones multimedia, lo que ayuda a visualizar los movimientos del personaje y su interacción con el entorno.
+
+`005-personaje.html`
 
 ```html
 <!doctype html>
@@ -6556,6 +7990,19 @@ El resto de aplicaciones que desarrollamos, "las desarrollamos para adultos"
 ```
 
 ### capturo y encierro
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML crea una página web que utiliza un lienzo de dibujo en 2D para mostrar el movimiento de un personaje en un espacio isométrico. En la parte principal del código, se define una clase llamada `Personaje` que contiene las coordenadas x e y del personaje y un método `dibuja()` que dibuja al personaje en el lienzo usando un círculo rojo.
+
+Además, hay funciones para dibujar una rejilla isométrica falsa ("fake") que ayuda a visualizar cómo se proyectan las coordenadas 2D en este tipo de vista. La función `iso()` es crucial porque convierte las coordenadas (x, y) del personaje en coordenadas isométricas para su representación correcta en el lienzo.
+
+El código también incluye un controlador de eventos que responde a los clics de teclas 'w', 's', 'a' y 'd'. Estos cambios de tecla mueven al personaje en diferentes direcciones, actualizan la rejilla isométrica y dibujan nuevamente el personaje en su nueva posición. Esto permite que el personaje se desplace dinámicamente sobre la rejilla.
+
+Este tipo de diseño es útil para desarrollar juegos o aplicaciones multimedia que requieren representación 3D con una perspectiva isométrica, ofreciendo una vista cómoda y realista del espacio en dos dimensiones.
+
+`006-capturo y encierro.html`
 
 ```html
 <!doctype html>
@@ -6652,6 +8099,19 @@ El resto de aplicaciones que desarrollamos, "las desarrollamos para adultos"
 ```
 
 ### cargo spritesheet
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML crea una página web interactiva que utiliza un lienzo de dibujo en 2D (canvas) para mostrar y manipular un personaje isométrico. La página carga una imagen llamada "spritesheet.png" que contiene todos los frames del personaje, y luego se define una clase `Personaje` que inicializa las coordenadas x e y del personaje.
+
+El código también incluye una función `iso(i, j)` que convierte coordenadas cartesianas en coordenadas isométricas. Esto es crucial para dibujar correctamente el personaje en un plano isométrico. La función `dibujoRejilla()` dibuja una rejilla isométrica en el lienzo, lo cual ayuda a visualizar cómo se proyectan las líneas del tablero de juego.
+
+Además, hay eventos de teclado que permiten mover al personaje (representado por la clase `Personaje`) en cuatro direcciones: arriba (`w`), abajo (`s`), izquierda (`a`), y derecha (`d`). Cada vez que se presiona una tecla, se limpia el lienzo, se dibuja de nuevo la rejilla isométrica, y luego se actualiza la posición del personaje según la tecla pulsada.
+
+Este código es importante porque muestra cómo cargar imágenes en un canvas HTML5, cómo proyectar coordenadas 2D a un espacio isométrico, y cómo hacer que el contenido interactúe con los eventos de entrada del usuario (como las teclas). Es una introducción básica al desarrollo de juegos en HTML5 para dispositivos móviles o sitios web multimedia.
+
+`007-cargo spritesheet.html`
 
 ```html
 <!doctype html>
@@ -6747,6 +8207,21 @@ El resto de aplicaciones que desarrollamos, "las desarrollamos para adultos"
 ```
 
 ### uso cropping
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML crea una página web interactiva que simula un personaje en un escenario isométrico. En el centro del código, hay un elemento `<canvas>` con el identificador "lienzo", donde se dibuja todo el contenido visual.
+
+El programa define una clase `Personaje` que tiene propiedades para la posición (`x`, `y`) y la dirección (`d`). La función `dibuja()` dentro de esta clase toma como entrada las coordenadas isométricas del personaje, calcula su posición en el lienzo basado en estas coordenadas e inserta un trozo específico de una imagen sprite (determinada por `this.d` que indica cuál parte de la spritesheet se debe dibujar).
+
+Además, hay una función llamada `iso(i, j)` que convierte las coordenadas cartesianas `(i, j)` a coordenadas isométricas en el lienzo. Esta transformación es crucial para representar correctamente un mundo 3D en una proyección isométrica.
+
+La función `dibujoRejilla()` dibuja líneas horizontales y verticales en la rejilla isométrica, creando así una cuadrícula visual que ayuda a comprender el espacio del escenario. Finalmente, al presionar las teclas "w", "s", "a" o "d", se actualiza la posición y dirección del personaje y se vuelve a dibujar tanto la rejilla como el personaje en su nueva ubicación.
+
+Este tipo de código es importante para estudiantes de programación multimedia y dispositivos móviles porque enseña cómo combinar HTML, CSS y JavaScript para crear interfaces interactivas con gráficos personalizados.
+
+`008-uso cropping.html`
 
 ```html
 <!doctype html>
@@ -6847,6 +8322,21 @@ El resto de aplicaciones que desarrollamos, "las desarrollamos para adultos"
 ```
 
 ### uso de un bucle
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML es parte de un juego simple que utiliza un motor isométrico para dibujar y mover personajes en una rejilla bidimensional. El archivo HTML incluye un elemento `<canvas>` donde se renderiza el personaje y la rejilla isométrica.
+
+En el script, hay una clase `Personaje` que contiene los atributos de posición (`x`, `y`) y dirección (`d`). La función `dibuja()` del personaje toma en cuenta las coordenadas isométricas calculadas por la función `iso()`, dibujando al personaje en el lienzo utilizando una imagen sprite.
+
+El código también incluye eventos de teclado que permiten mover al personaje. Al presionar las teclas 'w', 'a', 's' y 'd', se cambia la dirección del personaje y se marca como "en movimiento". Cuando se suelta la tecla, el personaje deja de moverse.
+
+El bucle principal llamado `bucle()` es ejecutado en intervalos utilizando `setTimeout()`. En cada iteración, si el personaje está marcado como "en movimiento", se actualiza su posición según su dirección. Luego dibuja la rejilla y al personaje en el lienzo. Este bucle asegura que haya una animación continua del personaje sobre el fondo isométrico.
+
+Este tipo de estructura es importante para comprender cómo manejar interactividad y animaciones en juegos 2D utilizando JavaScript y HTML5 Canvas, especialmente cuando se requiere representar un mundo tridimensional usando proyección isométrica.
+
+`009-uso de un bucle.html`
 
 ```html
 <!doctype html>
@@ -6988,6 +8478,23 @@ El resto de aplicaciones que desarrollamos, "las desarrollamos para adultos"
 ```
 
 ### recogibles
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML es un ejemplo básico de una página web que utiliza JavaScript para crear un entorno interactivivo en el cual puedes controlar a un personaje y recolectar objetos. El escenario es representado mediante una rejilla isométrica, lo que añade profundidad visual al lienzo de dibujo.
+
+El código define dos clases principales: `Recogible` y `Personaje`. La clase `Recogible` genera objetos que se encuentran aleatoriamente en el lienzo. Estos objetos son representados como círculos verdes, cuyas posiciones x e y son generadas al azar dentro de un rango limitado (0 a 1000). La función `dibuja` dibuja estos recogibles sobre el canvas utilizando la proyección isométrica calculada por la función `iso`.
+
+Por otro lado, la clase `Personaje` representa a nuestro personaje principal. El constructor inicializa las coordenadas x e y del personaje en 10, así como una dirección d (que se utiliza para determinar qué sprite dibujar) y un estado de movimiento andando. La función `dibuja` dibuja al personaje basándose en su posición isométrica y el sprite correspondiente.
+
+El código también incluye eventos de teclado que permiten mover al personaje en cuatro direcciones básicas (arriba, abajo, izquierda y derecha) a través del uso de las teclas W, S, A y D. Estos eventos activan o desactivan el estado `andando` del personaje.
+
+Finalmente, hay un bucle principal que actualiza la pantalla cada 66 milisegundos (aproximadamente 15 veces por segundo). Este bucle dibuja al personaje y los objetos recogibles en su ubicación actual usando las funciones correspondientes de cada clase. Además, este bucle realiza las animaciones del movimiento del personaje basándose en la dirección dada mientras está en estado `andando`.
+
+Este tipo de código es útil para entender cómo manejar entornos interactivos y graficos 2D avanzados en juegos simples usando HTML5 Canvas y JavaScript.
+
+`010-recogibles.html`
 
 ```html
 <!doctype html>
@@ -7149,6 +8656,19 @@ El resto de aplicaciones que desarrollamos, "las desarrollamos para adultos"
 ```
 
 ### recoger
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML es una página web interactiva que simula un juego simple donde el usuario controla a un personaje en un entorno isométrico. El objetivo del juego es recolectar objetos que aparecen aleatoriamente en la pantalla.
+
+En el código, se definen dos clases: `Recogible` y `Personaje`. La clase `Recogible` representa los objetos que el personaje debe recoger; estos objetos aparecen en posiciones aleatorias dentro de un área definida. La clase `Personaje`, por otro lado, controla la posición del personaje en el juego.
+
+El código también incluye funciones para dibujar una rejilla isométrica que ayuda a visualizar el entorno 3D en un espacio 2D. Además, hay eventos de teclado que permiten al jugador mover al personaje usando las teclas "w", "a", "s" y "d". El bucle principal del juego (`bucle()`) se ejecuta cada 66 milisegundos para actualizar la posición del personaje y dibujar tanto el personaje como los objetos en la pantalla. Si el personaje está cerca de un objeto, este último es eliminado (recogido) del tablero.
+
+Este tipo de código es útil para aprender sobre programación orientada a objetos, manejo de eventos en JavaScript y cómo crear juegos interactivos con HTML5 Canvas.
+
+`011-recoger.html`
 
 ```html
 <!doctype html>
@@ -7317,24 +8837,376 @@ El resto de aplicaciones que desarrollamos, "las desarrollamos para adultos"
 </html>
 ```
 
+### Actividades propuestas
+
+El código que has proporcionado implementa un juego sencillo en formato isométrico usando HTML5 Canvas y JavaScript. Aquí está un resumen de cómo funciona:
+
+1. **Inicialización**:
+   - Se crea una instancia del personaje `Personaje1`.
+   - Se carga la imagen de sprite para el personaje.
+   - Se genera un conjunto aleatorio de elementos recogibles.
+
+2. **Funciones y Clases**:
+   - La clase `Recogible` representa los objetos que pueden ser coleccionados por el jugador.
+   - La clase `Personaje` representa al personaje controlado por el jugador, con atributos para su posición (`x`, `y`) y dirección de animación (`d`).
+
+3. **Funciones Auxiliares**:
+   - `distancia(x1, y1, x2, y2)`: Calcula la distancia entre dos puntos en el espacio 2D.
+
+4. **Gestión del Evento de Teclado**:
+   - Se manejan eventos de teclado para mover al personaje (`w`, `s`, `a`, `d`).
+
+5. **Bucle Principal**:
+   - El bucle principal se ejecuta cada 66 milisegundos y realiza las siguientes acciones:
+     - Mueve al personaje si está en movimiento.
+     - Dibuja la rejilla isométrica del mapa.
+     - Dibuja los recogibles en el mapa.
+     - Comprueba si el personaje ha recolectado un objeto (si está cerca de uno).
+     - Actualiza la pantalla y programa el siguiente marco del bucle.
+
+6. **Dibujo**:
+   - La función `iso(i, j)` convierte coordenadas 2D en coordenadas isométricas para dibujar correctamente sobre el canvas.
+   - Se usa `contexto.drawImage()` para dibujar al personaje y `contexto.beginPath(); contexto.fillStyle = "green"; contexto.arc(puntoiso.x,puntoiso.y,8,0,Math.PI*2); contexto.fill();` para dibujar los recogibles.
+
+7. **Lógica del Juego**:
+   - Si el jugador se acerca lo suficiente a un objeto (`recogible`) y está en la misma celda (o cerca), este objeto es eliminado de la lista de `recogibles`.
+   
+8. **Otros Elementos**:
+   - Se utiliza una rejilla isométrica para proporcionar contexto visual del entorno.
+   
+### Mejoras Potenciales:
+
+- **Optimización**: Puedes mejorar el rendimiento al actualizar solo los elementos que han cambiado en lugar de dibujar todos los recogibles cada vez. Esto se puede hacer utilizando una estructura de datos como un árbol R o quadtree para almacenar y buscar eficientemente los objetos.
+  
+- **Interfaz del Usuario**: Agregar algún tipo de indicador visual (por ejemplo, una barra de progreso) que muestre cuántos recogibles han sido recolectados.
+
+- **Colisiones Complejas**: Implementar detección de colisiones más complejas para el personaje y otros objetos en el escenario.
+
+Este código proporciona una base sólida para un juego isométrico básico. Si deseas agregar más funcionalidades o mejorar la experiencia del usuario, puedes considerar estas mejoras.
+
+
 <a id="aplicacion-de-modificaciones-sobre-juegos-existentes"></a>
 ## Aplicación de modificaciones sobre juegos existentes
 
-Continuando con nuestra exploración del mundo de los motores de juegos, nos encontramos en una sección dedicada a la aplicación de modificaciones sobre juegos existentes. Esta es una práctica común entre los jugadores que desean personalizar su experiencia o mejorar el rendimiento de sus juegos favoritos.
+### Introducción a los ejercicios
 
-La primera modificación que podemos considerar es la creación de mods para cambiar aspectos visuales del juego, como la apariencia de personajes, escenarios o objetos. Estos cambios pueden ser tan simples como reemplazar texturas o tan complejos como añadir nuevas características a los personajes. Para realizar estas modificaciones, los jugadores generalmente utilizan herramientas específicas para editar archivos binarios del juego, lo que requiere un conocimiento básico de la estructura interna de los juegos.
+Your HTML and JavaScript code for a voxel-based game is quite extensive and well-structured. However, there are several areas where you can improve readability, performance, and maintainability. Here are some suggestions:
 
-Otra forma común de modificar juegos es mediante el uso de mods que añaden contenido adicional. Estos pueden ser nuevos niveles, personajes o habilidades especiales que no están disponibles en la versión original del juego. La creación y distribución de estos mods ha convertido en una comunidad activa dentro de la industria del gaming, donde los jugadores comparten sus trabajos con otros para ampliar su experiencia.
+### General Improvements
 
-Además de las modificaciones visuales y de contenido, también es posible modificar el comportamiento interno del juego. Esto puede implicar cambiar la dificultad, añadir nuevas mecánicas o incluso alterar la historia del juego. La modificación interna requiere un conocimiento más profundo de los lenguajes de programación utilizados en el desarrollo del juego y a menudo implica trabajar con archivos de código fuente.
+1. **Code Organization**:
+   - Separate your code into smaller modules or files (e.g., `config.js`, `world.js`, `player.js`, etc.) to keep the main file less cluttered.
+   - Use ES6+ features like classes and modules for better structure.
 
-La aplicación de modificaciones sobre juegos existentes no solo es una forma divertida de personalizar la experiencia del jugador, sino que también puede ser una herramienta valiosa para aprender sobre los sistemas detrás de los juegos. Al examinar y modificar el código o los archivos binarios de un juego, los jugadores pueden adquirir conocimientos prácticos sobre programación, diseño de interfaces y gestión de bases de datos.
+2. **Performance Optimization**:
+   - Cache frequently accessed properties in variables.
+   - Optimize rendering by reducing unnecessary computations.
 
-Es importante tener en cuenta que la modificación de juegos puede ser legalmente complicada dependiendo del país y las leyes locales. En muchos lugares, el uso no autorizado de mods puede estar prohibido, especialmente si se utiliza para fines comerciales o si infringe derechos de autor. Por lo tanto, es crucial investigar los términos de servicio del juego y la legislación local antes de comenzar cualquier modificación.
+3. **Code Quality**:
+   - Add JSDoc comments for functions and classes to improve readability.
+   - Implement error handling and logging for debugging purposes.
 
-En conclusión, la aplicación de modificaciones sobre juegos existentes es una práctica fascinante que combina creatividad, habilidad técnica y conocimiento de programación. Aunque puede ser un proceso desafiante, ofrece a los jugadores la oportunidad de experimentar con nuevos aspectos del juego o incluso mejorar su rendimiento. Sin embargo, como cualquier actividad que implique el uso de software, es importante estar consciente de las implicaciones legales y éticas para evitar problemas en el futuro.
+4. **User Experience**:
+   - Enhance the user interface with smooth transitions and animations.
+   - Provide better feedback to users (e.g., loading indicators).
+
+### Specific Improvements
+
+#### Configuration
+- Use a separate file or object for configuration constants.
+  
+```javascript
+// config.js
+export const CONFIG = {
+  SAVE_KEY: "voxel-game-save",
+  WORLD_SIZE_CHUNKS: 10,
+  CHUNK_SIZE: 16,
+  PLAYER_RADIUS: 0.5,
+  PLAYER_HEIGHT: 2,
+  PLAYER_SPEED: 4,
+  PLAYER_GRAVITY: -9.8,
+  PLAYER_JUMP: 7
+};
+```
+
+#### World Management
+- Refactor world generation and loading logic into separate methods or classes.
+
+```javascript
+// world.js
+import { CONFIG } from './config';
+
+class World {
+  constructor(scene) {
+    this.scene = scene;
+    this.chunks = [];
+  }
+
+  generateDefaultWorld() {
+    const sizeChunks = CONFIG.WORLD_SIZE_CHUNKS;
+    const CS = CONFIG.CHUNK_SIZE;
+
+    function noise2(x, z) {
+      return Math.sin(x * 0.07) * 0.7 + Math.cos(z * 0.09) * 0.5 + Math.sin((x + z) * 0.03) * 0.6;
+    }
+
+    for (let x = 0; x < sizeChunks * CS; x++) {
+      for (let z = 0; z < sizeChunks * CS; z++) {
+        const h = Math.floor(2 + Math.max(0, noise2(x, z) * 2));
+        for (let y = 0; y < h; y++) {
+          let type = (y === h - 1) ? 'grass' : (y >= h - 3 ? 'dirt' : 'stone');
+          this.addBlock(x, y - 1, z, type);
+        }
+      }
+    }
+
+    for (let i = 0; i < 80; i++) {
+      const x = Math.floor(Math.random() * sizeChunks * CS);
+      const z = Math.floor(Math.random() * sizeChunks * CS);
+      const h = 1 + Math.floor(Math.random() * 4);
+      for (let y = 0; y < h; y++) {
+        this.addBlock(x, y + 2, z, 'stone');
+      }
+    }
+  }
+
+  addChunk(chunk) {
+    this.chunks.push(chunk);
+  }
+
+  removeChunk(chunk) {
+    const index = this.chunks.indexOf(chunk);
+    if (index > -1) {
+      this.chunks.splice(index, 1);
+    }
+  }
+
+  serialize() {
+    return this.chunks.map(chunk => chunk.serialize());
+  }
+
+  deserialize(data) {
+    data.forEach(chunkData => {
+      const chunk = new Chunk(this.scene);
+      chunk.deserialize(chunkData);
+      this.addChunk(chunk);
+    });
+  }
+}
+
+export default World;
+```
+
+#### Player Interaction
+- Refactor player movement and interaction logic into a `Player` class.
+
+```javascript
+// player.js
+import { CONFIG } from './config';
+
+class Player {
+  constructor(camera) {
+    this.camera = camera;
+    this.velocity = new THREE.Vector3();
+    this.onGround = false;
+  }
+
+  move(dt, controls) {
+    if (!controls.isLocked) return;
+
+    const dir = new THREE.Vector3().setFromMatrixColumn(this.camera.matrixWorld, 2);
+    dir.y = 0; dir.normalize();
+
+    const right = new THREE.Vector3(1, 0, 0).crossVectors(dir, this.camera.up);
+    right.normalize();
+
+    let dx = 0, dz = 0;
+    if (controls.isKeyDown('KeyW')) { dx += dir.x; dz += dir.z; }
+    if (controls.isKeyDown('KeyS')) { dx -= dir.x; dz -= dir.z; }
+    if (controls.isKeyDown('KeyA')) { dx += right.x; dz += right.z; }
+    if (controls.isKeyDown('KeyD')) { dx -= right.x; dz -= right.z; }
+
+    const horiz = new THREE.Vector3(dx, 0, dz);
+    if (horiz.lengthSq() > 0) {
+      horiz.normalize().multiplyScalar(CONFIG.PLAYER.SPEED * dt);
+      this.camera.position.add(horiz);
+    }
+
+    if (controls.isKeyDown('Space') && this.onGround) {
+      this.velocity.y = CONFIG.PLAYER.JUMP;
+      this.onGround = false;
+      controls.isKeyDown('Space', false); // Prevent multiple jumps
+    }
+    this.velocity.y += CONFIG.PLAYER.GRAVITY * dt;
+
+    const posV = new THREE.Vector3().copy(this.camera.position).add(new THREE.Vector3(0, this.velocity.y * dt, 0));
+    if (!this.collidesAt(posV)) {
+      this.camera.position.copy(posV);
+    } else {
+      if (this.velocity.y < 0) this.onGround = true;
+      this.velocity.y = 0;
+    }
+
+    if (this.camera.position.y < -20) {
+      this.respawn();
+    }
+  }
+
+  collidesAt(position) {
+    const aabb = new THREE.Box3(
+      new THREE.Vector3(position.x - CONFIG.PLAYER.RADIUS, position.y - CONFIG.PLAYER.HEIGHT, position.z - CONFIG.PLAYER.RADIUS),
+      new THREE.Vector3(position.x + CONFIG.PLAYER.RADIUS, position.y, position.z + CONFIG.PLAYER.RADIUS)
+    );
+    return this.world.chunks.some(chunk => chunk.collidesWithAABB(aabb));
+  }
+
+  respawn() {
+    this.camera.position.set(0, 8, 0);
+    this.velocity.set(0, 0, 0);
+    this.onGround = true;
+  }
+}
+
+export default Player;
+```
+
+#### Main Game Logic
+- Simplify the main game loop and use these classes.
+
+```javascript
+// index.js
+import { CONFIG } from './config';
+import World from './world';
+import Player from './player';
+
+class Game {
+  constructor() {
+    this.scene = new THREE.Scene();
+    this.camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+    this.renderer = new THREE.WebGLRenderer({ canvas: document.getElementById('webgl'), antialias: true });
+    this.controls = new THREE.OrbitControls(this.camera, this.renderer.domElement);
+
+    this.world = new World(this.scene);
+    this.player = new Player(this.camera, this.world);
+
+    this.raycaster = new THREE.Raycaster();
+    this.clock = new THREE.Clock();
+
+    document.addEventListener('contextmenu', (event) => event.preventDefault());
+
+    window.addEventListener('resize', () => {
+      this.camera.aspect = window.innerWidth / window.innerHeight;
+      this.camera.updateProjectionMatrix();
+      this.renderer.setSize(window.innerWidth, window.innerHeight);
+    });
+
+    this.loadOrCreateWorld();
+  }
+
+  loadOrCreateWorld() {
+    const raw = localStorage.getItem(CONFIG.SAVE_KEY);
+    if (raw) {
+      try {
+        const parsed = JSON.parse(raw);
+        this.world.deserialize(parsed.chunks || []);
+        this.camera.position.set(parsed.player.x, parsed.player.y, parsed.player.z);
+      } catch (e) {
+        console.warn('Error loading save, creating new world', e);
+        this.world.generateDefaultWorld();
+      }
+    } else {
+      this.world.generateDefaultWorld();
+    }
+
+    this.controls.update();
+  }
+
+  animate() {
+    requestAnimationFrame(() => this.animate());
+
+    const dt = Math.min(this.clock.getDelta(), 0.05);
+
+    this.player.move(dt, this.controls);
+    this.world.setChunksVisibilityAndShadows(this.camera.position);
+
+    // Autosave every ~10s
+    if (this.lastAutoSave >= 10) {
+      this.lastAutoSave = 0;
+      this.saveWorld();
+    }
+
+    const renderer = CONFIG.USE_SSAO ? this.composer : this.renderer;
+    renderer.render(this.scene, this.camera);
+  }
+
+  placeBlockAtPointer() {
+    this.raycaster.setFromCamera(new THREE.Vector2(0, 0), this.camera);
+    const hit = this.world.raycast(this.raycaster);
+    if (hit) {
+      const nx = Math.round(hit.x + hit.face.normal.x);
+      const ny = Math.round(hit.y + hit.face.normal.y);
+      const nz = Math.round(hit.z + hit.face.normal.z);
+
+      const playerPos = this.camera.position;
+      const dist = new THREE.Vector3(nx + 0.5, ny + 0.5, nz + 0.5).distanceTo(playerPos);
+      if (dist < 1.5) return;
+
+      if (!this.world.hasBlock(nx, ny, nz)) {
+        this.world.addBlock(nx, ny, nz, this.selectedType);
+      }
+    }
+  }
+
+  removeChunk(chunk) {
+    const index = this.chunks.indexOf(chunk);
+    if (index > -1) {
+      this.chunks.splice(index, 1);
+    }
+  }
+
+  saveWorld() {
+    localStorage.setItem(CONFIG.SAVE_KEY, JSON.stringify({
+      chunks: this.world.serialize(),
+      player: { x: this.camera.position.x, y: this.camera.position.y, z: this.camera.position.z }
+    }));
+  }
+}
+
+new Game().animate();
+```
+
+### Conclusion
+
+By breaking down your code into smaller, modular components and leveraging ES6+ features, you can make it more maintainable and easier to extend. This approach also makes debugging and optimizing specific parts of the game much simpler.
+
+Would you like me to elaborate on any particular aspect or help with further refactoring? Let me know! 😊
+
+---
+
+Feel free to ask for more detailed explanations or additional improvements based on your specific needs. Happy coding! 🚀
 
 ### threejs basico
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código es un ejemplo básico de cómo usar Three.js para crear una escena 3D en la web. En él se inicializan varios elementos esenciales:
+
+1. **Escenario (Scene):** Se crea el objeto `scene` donde todos los objetos 3D van a ser agregados. Además, se le asigna un color de fondo azul.
+
+2. **Cámara (Camera):** Se establece una cámara perspectiva que permite crear efectos de profundidad en la escena. La posición inicial de la cámara está configurada para mirar hacia atrás desde una distancia z de 5 unidades.
+
+3. **Renderizador (Renderer):** El objeto `renderer` es responsable de dibujar la escena en el canvas del HTML. Se ajusta automáticamente al tamaño de la ventana para que se vea bien en cualquier dispositivo.
+
+4. **Caja geométrica:** Se añade un cubo verde a la escena, que gira constantemente debido a una función de animación que actualiza su rotación en cada frame.
+
+5. **Iluminación (Lighting):** La iluminación es crucial para dar realismo al objeto 3D. En este código se utilizan dos tipos de luces: una luz direccional fuerte y una luz ambiental más tenue, que ayuda a evitar áreas demasiado oscuras en la escena.
+
+6. **Bucle de animación:** El script define un bucle `animate()` que utiliza el método `requestAnimationFrame` para hacer que el cubo gire continuamente en dos ejes (x e y). Este ciclo permite una actualización continua del objeto 3D, proporcionando movimiento y creando la ilusión de vida.
+
+Este código es fundamental para aprender los conceptos básicos de Three.js, permitiendo a los estudiantes entender cómo configurar y manipular un escenario 3D básico en la web. Es importante porque forma la base para proyectos más complejos que incluyan modelos 3D, iluminación avanzada y interactividad del usuario.
+
+`001-threejs basico.html`
 
 ```html
 <!DOCTYPE html>
@@ -7404,6 +9276,21 @@ En conclusión, la aplicación de modificaciones sobre juegos existentes es una 
 ```
 
 ### suelo y movimiento
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML crea una página web que implementa un juego en 3D similar a Minecraft usando la biblioteca Three.js. La página carga varios archivos JavaScript externos para manejar las funcionalidades de dibujar y moverse en el entorno 3D.
+
+El fragmento incluye dos clases principales: `Block` y `MinecraftGame`. La clase `Block` se encarga de crear bloques individuales con diferentes tipos (por ejemplo, césped, tierra o piedra) y agregarlos a la escena del juego. Cada bloque tiene un material que determina su color según el tipo.
+
+La clase `MinecraftGame`, por otro lado, gestiona todo lo relacionado con la interacción del usuario, como moverse dentro del mundo 3D y saltar. Esta clase inicializa una cámara, luces ambientales y direccional para iluminar la escena correctamente. También crea un suelo compuesto por bloques y añade controles de apuntado (PointerLockControls) que permiten al usuario moverse usando el teclado y mirar en cualquier dirección con el mouse.
+
+El código también maneja eventos del teclado para mover al jugador en diferentes direcciones y ajusta la cámara según los movimientos realizados. Además, se implementa una gravedad básica que hace que el personaje caiga si no está sobre el suelo.
+
+Este tipo de código es crucial para entender cómo crear juegos 3D interactivos desde cero utilizando HTML y JavaScript, lo cual es muy relevante en campos como la programación multimedia y los dispositivos móviles.
+
+`002-suelo y movimiento.html`
 
 ```html
 <!DOCTYPE html>
@@ -7653,6 +9540,21 @@ En conclusión, la aplicación de modificaciones sobre juegos existentes es una 
 ```
 
 ### gravedad
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML crea una página web que sirve como un clon básico de Minecraft utilizando la biblioteca Three.js. El archivo principal se centra en dos clases principales: `Block` y `MinecraftGame`.
+
+1. **Clase Block:** Esta clase representa cada bloque individual en el juego, como hierba, tierra o roca. Cada instancia de esta clase crea un objeto 3D que es añadido a la escena principal del juego. El constructor acepta parámetros para especificar las coordenadas x, y, z del bloque y su tipo (por defecto 'grass'). La función `createMesh()` se encarga de crear el modelo geométrico del bloque con diferentes colores dependiendo del tipo.
+
+2. **Clase MinecraftGame:** Esta clase es responsable de toda la lógica del juego. Inicializa la escena, la cámara, el renderizador y los controles de puntero (PointerLockControls), que permiten al usuario moverse en 3D con el teclado y el mouse. También se encargan de la iluminación y creación del suelo inicial. La clase `MinecraftGame` tiene métodos para gestionar eventos de entrada, como movimiento y salto del jugador, así como detección de colisiones con los bloques.
+
+El código también incluye lógica de física básica para simular la gravedad, permitiendo que el personaje caiga al suelo si no está saltando. El método `checkCollision()` verifica si hay un choque entre el jugador y algún bloque, mientras que `updateMovement()` actualiza la posición del jugador en función de los controles del usuario y las reglas de colisión.
+
+En resumen, este código proporciona una base sólida para desarrollar juegos 3D simples utilizando HTML5, JavaScript y Three.js, permitiendo a estudiantes aprender sobre renderizado 3D, física básica y gestión de eventos.
+
+`003-gravedad.html`
 
 ```html
 <!DOCTYPE html>
@@ -7993,6 +9895,25 @@ En conclusión, la aplicación de modificaciones sobre juegos existentes es una 
 ```
 
 ### raycast
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML es el archivo principal de una pequeña aplicación web que simula un juego estilo "Minecraft" utilizando la biblioteca Three.js. El objetivo del código es crear un entorno 3D interactivo en el que puedes moverte, saltar y eliminar bloques a través de los controles del teclado y del mouse.
+
+En la parte HTML del documento, se define una cuadrícula para mostrar una "cruz" (crosshair) en el centro de la pantalla, lo cual es útil para indicar el punto desde donde se dispara un rayo en las operaciones de intersección. También se cargan los archivos JavaScript necesarios para Three.js y sus controles.
+
+En el bloque `<script>`, hay dos clases definidas: `Block` y `MinecraftGame`. La clase `Block` representa cada cubo individual del juego, con métodos que permiten crear un objeto 3D (mesh), agregarlo o quitarlo de la escena. 
+
+La clase `MinecraftGame` es el núcleo del juego. Crea una escena Three.js completa, incluyendo luz ambiente y direccional para iluminar el mundo en 3D. También genera un suelo con bloques aleatorios y establece controles de movimiento basados en los eventos de teclado y mouse (como WASD para moverse y espacio para saltar). 
+
+El código también incluye la funcionalidad del raycasting, que esencialmente permite al jugador "disparar" un rayo desde la posición actual de la cámara hacia el frente para determinar si hay bloques en su camino. Esto se utiliza tanto para detectar colisiones como para eliminar bloques cuando el jugador hace clic con el mouse.
+
+El movimiento del personaje se gestiona mediante cálculos de física simples que incluyen gravedad y salto, permitiendo al usuario moverse a través de un entorno 3D interactivo. El juego también tiene lógica para manejar la interacción entre los bloques del suelo y el jugador, asegurando que no se pueda atravesar los bloques y caer fuera del mapa.
+
+Este tipo de código es fundamental para comprender cómo crear juegos en 3D usando JavaScript y Three.js, incluyendo temas como físicas básicas, manejo de eventos y lógica de colisión.
+
+`004-raycast.html`
 
 ```html
 <!DOCTYPE html>
@@ -8434,6 +10355,37 @@ En conclusión, la aplicación de modificaciones sobre juegos existentes es una 
 ```
 
 ### crear y eliminar
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML es la estructura base para un juego en 3D basado en el estilo de Minecraft. El objetivo principal del código es crear una página web interactiva que permite al usuario moverse, saltar y colocar/borrar bloques en un entorno tridimensional.
+
+### Explicación:
+
+1. **Estructura HTML**: La página incluye estilos CSS para establecer la apariencia básica (eliminar los márgenes del cuerpo y centrar el canvas) y también tiene algunos elementos de JavaScript inyectados directamente en el `<body>` que inicializan y controlan todo el juego.
+
+2. **Clases definidas**: 
+   - **Block Class**: Representa un bloque dentro del entorno 3D. Cada instancia crea una geometría (caja) con propiedades como color y sombras, y permite añadir o quitar estos bloques de la escena.
+   - **MinecraftGame Class**: Gestiona todo el juego, incluyendo inicialización de la cámara, iluminación del entorno, creación de un piso base, detección de colisiones y control de movimiento. Este es el núcleo que hace que el juego sea interactivo.
+
+3. **Funcionalidades Interactivas**:
+   - **Movimiento**: Permite al usuario moverse en tres dimensiones usando las teclas del teclado (WASD para mover, Espacio para saltar).
+   - **Interacción con Bloques**: Los clics del mouse izquierdo y derecho permiten remover o colocar bloques respectivamente.
+   
+4. **Gestión de Colisiones**:
+   - El juego detecta colisiones entre el personaje y los bloques existentes, asegurando que no pueda atravesarlos.
+
+5. **Animación e Interacción Continua**: Utiliza un bucle de animación para mantener actualizada la pantalla en tiempo real, lo que permite una interactividad fluida.
+
+### Funcionamiento General:
+Cuando se carga la página web, el código JavaScript crea una instancia del juego `MinecraftGame`, configurando todo el entorno 3D y permitiendo al usuario interactuar con él. El uso de WebGL y Three.js (bibliotecas de JavaScript) permite manejar gráficos en tiempo real dentro del navegador.
+
+Este tipo de estructura es común para juegos web simples que requieren interacción tridimensional pero no necesitan la complejidad o los recursos adicionales de un motor de juego completo. Es una buena introducción a cómo crear y controlar entornos 3D interactivos usando JavaScript en el navegador. 
+
+Este código sería útil para proyectos educativos, sitios web con juegos simples, demostraciones técnicas o cualquier otra aplicación que requiera representación gráfica tridimensional sencilla e interactiva.
+
+`005-crear y eliminar.html`
 
 ```html
 <!DOCTYPE html>
@@ -8927,6 +10879,76 @@ En conclusión, la aplicación de modificaciones sobre juegos existentes es una 
 ```
 
 ### mejoras
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+The provided HTML document contains a fully functional JavaScript-based 3D Minecraft-like game engine built using Three.js. Here’s a breakdown of its key components and functionalities:
+
+### Key Components
+
+1. **HTML Structure**:
+   - The `<canvas>` element is used by Three.js to render the 3D scene.
+   - A simple UI with three buttons representing different block types (grass, dirt, stone).
+
+2. **JavaScript Engine (`MinecraftGame` Class)**:
+   - **Constructor**: Initializes the game environment, including setting up the renderer, camera, and light sources.
+   - **Rendering Loop**: Uses `requestAnimationFrame` to continually update and render the scene.
+   - **Player Movement**: Handles player movement via keyboard inputs (W, A, S, D for navigation; Space for jumping).
+   - **Block Placement & Removal**:
+     - Detects mouse click events to place or remove blocks based on camera direction.
+     - Uses raycasting to determine where to place new blocks and which blocks to delete.
+   - **Collision Detection**: Checks if the player is colliding with existing blocks, limiting movement accordingly.
+   - **Auto-Save & Load**:
+     - Automatically saves the game state (block positions and player location) every 10 seconds or on window close.
+     - Loads saved data when starting a new session.
+
+### Core Functionalities
+
+- **Block Creation**: Dynamically creates and removes blocks based on user interaction.
+- **Player Interaction**: Allows players to navigate through the world, jump, place blocks, and remove them.
+- **Persistent Storage**: Stores game state in local storage for easy resumption of play sessions.
+
+### Enhancements & Improvements
+Here are some suggestions for further development:
+
+1. **Enhanced User Interface**:
+   - Add more intuitive controls (e.g., WASD keys highlighted on the screen).
+   - Implement a HUD to display player information and stats.
+   
+2. **Block Variations**: 
+   - Expand block types beyond grass, dirt, and stone (e.g., water, lava, sand).
+
+3. **World Generation**:
+   - Implement procedural terrain generation for an infinite play area.
+
+4. **Advanced Physics & Interactions**:
+   - Add gravity effects on blocks (e.g., falling sand).
+   - Allow stacking of blocks with different properties.
+   
+5. **Multiplayer Support**: 
+   - Enable multiple players to interact within the same world using WebSockets or similar technology.
+
+6. **Better Performance Optimization**: 
+   - Implement techniques like level-of-detail rendering and frustum culling for larger worlds.
+
+7. **Enhanced Collision Handling**:
+   - Smooth transitions when walking up slopes, falling from heights, etc.
+   
+### Example Usage
+
+```javascript
+// Start the game engine upon loading the webpage
+document.addEventListener('DOMContentLoaded', () => {
+    new MinecraftGame();
+});
+```
+
+This code ensures that the game starts immediately when the DOM is fully loaded.
+
+By following this structure and expanding on it with additional features, you can create a rich and engaging 3D world-building experience.
+
+`006-mejoras.html`
 
 ```html
 <!DOCTYPE html>
@@ -9608,6 +11630,470 @@ En conclusión, la aplicación de modificaciones sobre juegos existentes es una 
 ```
 
 ### no antialias
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Your HTML and JavaScript code for a basic 3D Minecraft-like game is quite comprehensive. Here are some key points to ensure everything works smoothly:
+
+1. **Collision Detection**: The collision detection logic seems mostly correct, but you may want to refine it further for more realistic physics.
+2. **Player Movement**: Player movement is smooth with the current implementation, but adding a friction effect could make the game feel more natural.
+3. **Block Placement and Removal**: Block placement and removal are working well, ensuring that blocks can only be placed where there's no existing block and within reach of the player.
+4. **Saving/Loading State**: The auto-save feature is useful for saving progress, but ensure you handle edge cases like network issues during save operations.
+
+Here are a few enhancements to consider:
+
+### 1. Improve Collision Detection
+Ensure collision detection handles small movements and slight overlaps correctly:
+```javascript
+function checkCollision(newPosition) {
+    const playerBox = new THREE.Box3(
+        new THREE.Vector3(newPosition.x - this.playerRadius, newPosition.y - this.playerHeight, newPosition.z - this.playerRadius),
+        new THREE.Vector3(newPosition.x + this.playerRadius, newPosition.y, newPosition.z + this.playerRadius)
+    );
+
+    for (const block of this.blocks) {
+        const blockBox = block.getBoundingBox();
+        if (playerBox.intersectsBox(blockBox)) {
+            return true;
+        }
+    }
+
+    // Check boundaries
+    const gridSize = 10;
+    if (Math.abs(newPosition.x) > gridSize / 2 || Math.abs(newPosition.z) > gridSize / 2) {
+        return true; // Prevent player from moving outside the grid
+    }
+
+    return false;
+}
+```
+
+### 2. Add Friction for Player Movement
+Add a simple friction effect to slow down player movement over time:
+```javascript
+function updateMovement(delta) {
+    if (!this.controls.isLocked) return;
+
+    const speed = 5.0;
+    const cameraDirection = new THREE.Vector3();
+    this.camera.getWorldDirection(cameraDirection);
+    cameraDirection.y = 0;
+    cameraDirection.normalize();
+
+    const cameraRight = new THREE.Vector3().crossVectors(this.camera.up, cameraDirection).normalize();
+
+    this.velocity.x *= 0.95; // Apply friction
+    this.velocity.z *= 0.95;
+
+    if (this.moveState.forward) {
+        this.velocity.add(cameraDirection.clone().multiplyScalar(speed * delta));
+    }
+    if (this.moveState.backward) {
+        this.velocity.sub(cameraDirection.clone().multiplyScalar(speed * delta));
+    }
+    if (this.moveState.left) {
+        this.velocity.add(cameraRight.clone().multiplyScalar(speed * delta));
+    }
+    if (this.moveState.right) {
+        this.velocity.sub(cameraRight.clone().multiplyScalar(speed * delta));
+    }
+
+    const oldPosition = this.camera.position.clone();
+    const newHorizontalPos = oldPosition.clone().add(this.velocity);
+
+    if (!checkCollision(newHorizontalPos)) {
+        this.camera.position.x = newHorizontalPos.x;
+        this.camera.position.z = newHorizontalPos.z;
+
+        // Check for vertical collision
+        const newVerticalPos = this.camera.position.clone();
+        newVerticalPos.y += this.velocity.y * delta;
+
+        if (this.moveState.jump && this.onGround) {
+            this.velocity.y = this.jumpForce;
+            this.onGround = false;
+        } else {
+            this.velocity.y += this.gravity * delta;
+        }
+
+        if (!checkCollision(newVerticalPos)) {
+            this.camera.position.y = newVerticalPos.y;
+
+            // Auto-save every 10 seconds
+            if (Math.floor(this.clock.getElapsedTime()) % 10 === 0) {
+                this.saveWorld();
+            }
+        } else {
+            if (this.velocity.y < 0) {
+                this.onGround = true;
+                this.velocity.y = 0;
+            } else {
+                this.velocity.y = 0;
+            }
+        }
+
+    } else {
+        this.velocity.set(0, 0, 0);
+    }
+
+    // Prevent player from falling infinitely
+    if (this.camera.position.y < -10) {
+        this.camera.position.set(0, 5, 0);
+        this.velocity.set(0, 0, 0);
+    }
+}
+```
+
+### 3. Improve User Experience with Mouse Controls
+Ensure mouse controls feel natural and responsive:
+```javascript
+document.addEventListener('mousemove', (event) => {
+    if (!this.controls.isLocked) return;
+
+    const movementX = event.movementX || event.mozMovementX || event.webkitMovementX || 0;
+    const movementY = event.movementY || event.mozMovementY || event.webkitMovementY || 0;
+
+    this.camera.rotation.y += movementX * 0.1; // Adjust sensitivity
+    this.camera.rotation.x -= movementY * 0.1; // Adjust sensitivity
+
+    // Clamp pitch to prevent camera flipping
+    this.camera.rotation.x = Math.max(-Math.PI / 2, Math.min(Math.PI / 2, this.camera.rotation.x));
+});
+```
+
+### 4. Add Basic Lighting and Textures
+Enhance the visual appearance of your game by adding basic lighting and textures:
+```javascript
+const ambientLight = new THREE.AmbientLight(0x404040); // Soft white light
+this.scene.add(ambientLight);
+
+const directionalLight = new THREE.DirectionalLight(0xffffff, 0.5);
+directionalLight.position.set(-1, 2, 4).normalize();
+this.scene.add(directionalLight);
+
+// Apply textures to blocks if using models or geometry (requires additional setup)
+```
+
+### Full Example with Improvements
+Below is the full updated script incorporating these enhancements:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Minecraft Clone</title>
+    <style>
+        body { margin: 0; overflow: hidden; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+<div style="position:absolute;top:10px;left:10px;">
+    <button onclick="game.selectBlockType('grass')">Grass</button>
+    <button onclick="game.selectBlockType('dirt')">Dirt</button>
+    <button onclick="game.selectBlockType('stone')">Stone</button>
+</div>
+
+<script>
+class MinecraftGame {
+    constructor() {
+        this.scene = new THREE.Scene();
+        this.camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+        this.renderer = new THREE.WebGLRenderer({antialias: true});
+        
+        document.body.appendChild(this.renderer.domElement);
+
+        // Add controls
+        const controls = new THREE.OrbitControls(this.camera, this.renderer.domElement);
+        controls.enableDamping = true;
+        controls.dampingFactor = 0.25;
+
+        this.camera.position.set(0, 5, 10);
+        
+        this.init();
+    }
+
+    init() {
+        // Add lighting
+        const ambientLight = new THREE.AmbientLight(0x404040); 
+        this.scene.add(ambientLight);
+
+        const directionalLight = new THREE.DirectionalLight(0xffffff, 0.5);
+        directionalLight.position.set(-1, 2, 4).normalize();
+        this.scene.add(directionalLight);
+
+        // Create a Minecraft-like world
+        this.blocks = [];
+        this.playerRadius = 0.3;
+        this.playerHeight = 1.8;
+        
+        window.addEventListener('resize', () => {
+            this.camera.aspect = window.innerWidth / window.innerHeight;
+            this.camera.updateProjectionMatrix();
+            this.renderer.setSize(window.innerWidth, window.innerHeight);
+        });
+
+        this.clock = new THREE.Clock();
+
+        // Load world or create default
+        this.loadWorld();
+    }
+
+    saveWorld() {
+        const worldData = {
+            blocks: this.blocks.map(block => block.serialize()),
+            playerPosition: {
+                x: this.camera.position.x,
+                y: this.camera.position.y,
+                z: this.camera.position.z
+            }
+        };
+        localStorage.setItem('minecraftWorld', JSON.stringify(worldData));
+    }
+
+    loadWorld() {
+        const saved = localStorage.getItem('minecraftWorld');
+        if (saved) {
+            try {
+                const worldData = JSON.parse(saved);
+
+                // Clear existing blocks
+                this.blocks.forEach(block => block.removeFromScene(this.scene));
+                this.blocks = [];
+
+                // Load blocks
+                worldData.blocks.forEach(blockData => {
+                    const block = new Block(blockData.x, blockData.y, blockData.z, blockData.type);
+                    block.addToScene(this.scene);
+                    this.blocks.push(block);
+                });
+
+                // Load player position
+                if (worldData.playerPosition) {
+                    this.camera.position.set(
+                        worldData.playerPosition.x,
+                        worldData.playerPosition.y,
+                        worldData.playerPosition.z
+                    );
+                }
+
+                console.log('World loaded!');
+            } catch (e) {
+                console.error('Error loading world:', e);
+                this.createDefaultWorld();
+            }
+        } else {
+            this.createDefaultWorld();
+        }
+    }
+
+    createDefaultWorld() {
+        // Clear the scene
+        while (this.scene.children.length > 0) {
+            this.scene.remove(this.scene.children[0]);
+        }
+
+        const planeGeometry = new THREE.PlaneBufferGeometry(100, 100);
+        const planeMaterial = new THREE.MeshBasicMaterial({color: 0x228B22});
+        const groundPlane = new THREE.Mesh(planeGeometry, planeMaterial);
+        groundPlane.rotation.x = -Math.PI / 2;
+        this.scene.add(groundPlane);
+
+        // Initialize blocks array
+        this.blocks = [];
+
+        this.animate();
+    }
+
+    animate() {
+        requestAnimationFrame(() => this.animate());
+        this.updateMovement(this.clock.getDelta());
+        this.renderer.render(this.scene, this.camera);
+    }
+
+    updateMovement(delta) {
+        if (!this.controls.isLocked) return;
+
+        const speed = 5.0;
+        const cameraDirection = new THREE.Vector3();
+        this.camera.getWorldDirection(cameraDirection);
+        cameraDirection.y = 0;
+        cameraDirection.normalize();
+
+        const cameraRight = new THREE.Vector3().crossVectors(this.camera.up, cameraDirection).normalize();
+
+        this.velocity.x *= 0.95; // Apply friction
+        this.velocity.z *= 0.95;
+
+        if (this.moveState.forward) {
+            this.velocity.add(cameraDirection.clone().multiplyScalar(speed * delta));
+        }
+        if (this.moveState.backward) {
+            this.velocity.sub(cameraDirection.clone().multiplyScalar(speed * delta));
+        }
+        if (this.moveState.left) {
+            this.velocity.add(cameraRight.clone().multiplyScalar(speed * delta));
+        }
+        if (this.moveState.right) {
+            this.velocity.sub(cameraRight.clone().multiplyScalar(speed * delta));
+        }
+
+        const oldPosition = this.camera.position.clone();
+        const newHorizontalPos = oldPosition.clone().add(this.velocity);
+
+        if (!checkCollision(newHorizontalPos)) {
+            this.camera.position.x = newHorizontalPos.x;
+            this.camera.position.z = newHorizontalPos.z;
+
+            // Check for vertical collision
+            const newVerticalPos = this.camera.position.clone();
+            newVerticalPos.y += this.velocity.y * delta;
+
+            if (this.moveState.jump && this.onGround) {
+                this.velocity.y = this.jumpForce;
+                this.onGround = false;
+            } else {
+                this.velocity.y += this.gravity * delta;
+            }
+
+            if (!checkCollision(newVerticalPos)) {
+                this.camera.position.y = newVerticalPos.y;
+
+                // Auto-save every 10 seconds
+                if (Math.floor(this.clock.getElapsedTime()) % 10 === 0) {
+                    this.saveWorld();
+                }
+            } else {
+                if (this.velocity.y < 0) {
+                    this.onGround = true;
+                    this.velocity.y = 0;
+                } else {
+                    this.velocity.y = 0;
+                }
+            }
+
+        } else {
+            this.velocity.set(0, 0, 0);
+        }
+
+        // Prevent player from falling infinitely
+        if (this.camera.position.y < -10) {
+            this.camera.position.set(0, 5, 0);
+            this.velocity.set(0, 0, 0);
+        }
+    }
+
+    checkCollision(newPosition) {
+        const playerBox = new THREE.Box3(
+            new THREE.Vector3(newPosition.x - this.playerRadius, newPosition.y - this.playerHeight, newPosition.z - this.playerRadius),
+            new THREE.Vector3(newPosition.x + this.playerRadius, newPosition.y, newPosition.z + this.playerRadius)
+        );
+
+        for (const block of this.blocks) {
+            const blockBox = block.getBoundingBox();
+            if (playerBox.intersectsBox(blockBox)) {
+                return true;
+            }
+        }
+
+        // Check boundaries
+        const gridSize = 10;
+        if (Math.abs(newPosition.x) > gridSize / 2 || Math.abs(newPosition.z) > gridSize / 2) {
+            return true; // Prevent player from moving outside the grid
+        }
+
+        return false;
+    }
+
+    handleMouseMovement(event) {
+        if (!this.controls.isLocked) return;
+
+        const movementX = event.movementX || event.mozMovementX || event.webkitMovementX || 0;
+        const movementY = event.movementY || event.mozMovementY || event.webkitMovementY || 0;
+
+        this.camera.rotation.y += movementX * 0.1; // Adjust sensitivity
+        this.camera.rotation.x -= movementY * 0.1; // Adjust sensitivity
+
+        // Clamp pitch to prevent camera flipping
+        this.camera.rotation.x = Math.max(-Math.PI / 2, Math.min(Math.PI / 2, this.camera.rotation.x));
+    }
+
+    handleKeyPress(event) {
+        switch (event.key) {
+            case 'ArrowUp':
+                this.moveState.forward = true;
+                break;
+            case 'ArrowDown':
+                this.moveState.backward = true;
+                break;
+            case 'ArrowLeft':
+                this.moveState.left = true;
+                break;
+            case 'ArrowRight':
+                this.moveState.right = true;
+                break;
+        }
+    }
+
+    handleKeyRelease(event) {
+        switch (event.key) {
+            case 'ArrowUp':
+                this.moveState.forward = false;
+                break;
+            case 'ArrowDown':
+                this.moveState.backward = false;
+                break;
+            case 'ArrowLeft':
+                this.moveState.left = false;
+                break;
+            case 'ArrowRight':
+                this.moveState.right = false;
+                break;
+        }
+    }
+
+    handleJump(event) {
+        if (event.key === 'Space' && !this.onGround) return;
+
+        if (event.type === 'keydown') {
+            if (!this.jumpCooldown) {
+                this.velocity.y = 10; // Jump force
+                this.onGround = false;
+                this.jumpCooldown = true;
+                setTimeout(() => this.jumpCooldown = false, 500); // Prevent double jump for a second
+            }
+        }
+    }
+
+    selectBlockType(type) {
+        this.currentBlockType = type;
+    }
+}
+
+let game;
+
+document.addEventListener('DOMContentLoaded', () => {
+    game = new MinecraftGame();
+});
+
+document.addEventListener("mousemove", (event) => game.handleMouseMovement(event));
+document.addEventListener("keydown", (event) => {
+    game.handleKeyPress(event);
+    game.handleJump(event);
+});
+document.addEventListener("keyup", (event) => {
+    game.handleKeyRelease(event);
+});
+</script>
+</body>
+</html>
+```
+
+This updated script includes improved collision detection, player movement with friction, better mouse controls, and basic lighting. You can further enhance the user experience by adding more textures, sound effects, and additional features as needed. Happy coding! 🚀
+
+`007-no antialias.html`
 
 ```html
 <!DOCTYPE html>
@@ -10293,6 +12779,79 @@ En conclusión, la aplicación de modificaciones sobre juegos existentes es una 
 ```
 
 ### ssao
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+The provided HTML and JavaScript code creates a basic 3D sandbox-style game using Three.js. Here's an overview of what each section does:
+
+1. **HTML Structure**:
+   - Contains a `canvas` element where the 3D scene will be rendered.
+   - Provides some block options for selecting different types of blocks to place in the world.
+
+2. **CSS Styling**:
+   - Basic styling for the body and canvas, ensuring it takes up most of the viewport.
+   - Adds styles for the block selection buttons.
+
+3. **JavaScript (Three.js)**:
+   - Initializes a Three.js scene, camera, renderer, and other necessary components.
+   - Defines classes `Block` and `MinecraftGame` to manage game logic and player interactions.
+   - Handles keyboard inputs for movement, placing/removing blocks, and changing block types.
+   - Implements collision detection and auto-saving of the world state.
+
+### Key Features:
+
+- **Player Movement**: The player can move using WASD keys. Spacebar is used to jump if standing on a block.
+  
+- **Block Placement/Removal**:
+  - Left-clicking places the currently selected type of block (grass, dirt, stone) at the mouse pointer's location.
+  - Right-clicking removes the block at the mouse pointer's location.
+
+- **Auto-Saving**: The game auto-saves every 10 seconds and when the window is closed. It uses local storage to persist the world data between sessions.
+
+### How it Works:
+
+1. **Initialization**:
+   - A `THREE.Scene` object represents the entire virtual space.
+   - A `THREE.PerspectiveCamera` allows for 3D perspective viewing.
+   - The `THREE.WebGLRenderer` renders everything onto the canvas element.
+
+2. **Block Management**:
+   - Each block is an instance of the `Block` class, containing position and type information.
+   - Blocks are placed in a grid-like structure within a defined world size (e.g., 10 units).
+
+3. **Collision Detection**:
+   - Uses bounding box collision detection to prevent blocks from overlapping and ensure smooth movement.
+
+4. **Rendering Loop**:
+   - The `animate` function continuously updates the game state and renders frames at a consistent rate using `requestAnimationFrame`.
+
+### Customization:
+
+- **Block Types**: You can add more block types by extending the `Block` class.
+  
+- **World Size/Shape**: Modify the grid size or world boundaries to change how far players can move.
+
+- **Graphics Quality**: Adjust settings like shadow quality, texture resolution, and lighting for better performance vs. visual fidelity trade-offs.
+
+### Potential Improvements:
+
+1. **User Interface**:
+   - Add a HUD (Heads-Up Display) showing player position, block selection status, etc.
+   
+2. **Block Variations**:
+   - Implement different textures or models for each block type to make them visually distinct.
+
+3. **Advanced Features**:
+   - Allow players to break and place blocks in creative mode.
+   - Introduce gravity-sensitive elements (e.g., sand that falls).
+
+4. **Multiplayer Support**:
+   - Extend the game to allow multiple players to interact with the same world using WebSockets or similar technologies.
+
+This basic structure provides a solid foundation for building more complex 3D sandbox games or adding features like resource gathering, crafting systems, etc.
+
+`008-ssao.html`
 
 ```html
 <!DOCTYPE html>
@@ -11018,6 +13577,46 @@ En conclusión, la aplicación de modificaciones sobre juegos existentes es una 
 ```
 
 ### escena amplia
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+This HTML file provides a comprehensive and interactive 3D sandbox environment using Three.js, which includes player movement, block placing/removing functionality, and auto-saving/loading of world data. Here's an overview of the key components and features:
+
+1. **HTML Structure**:
+   - The page uses Bootstrap for responsive design and styling.
+   - A canvas element (`#scene`) is used to render the 3D scene.
+
+2. **CSS Styling**:
+   - Basic styles are applied using a `<style>` tag within the HTML file, including body padding and setting up Bootstrap's grid system.
+
+3. **JavaScript Integration (Three.js)**:
+   - Three.js library is included via CDN for rendering 3D graphics.
+   - A `Block` class is defined to represent blocks in the game world with methods for adding/removing from the scene and checking collisions.
+   - The main game logic is handled by the `MinecraftGame` constructor function. It initializes necessary components such as camera, renderer, light sources, and grid helpers.
+
+4. **User Interaction**:
+   - Key bindings allow movement (`WASD` + Space for jumping).
+   - Mouse interactions enable placing/removing blocks with left/right clicks.
+   
+5. **World Persistence**:
+   - The game saves world data to `localStorage` every 10 seconds and upon leaving the page, ensuring that player progress is saved.
+   - On loading a new session or when starting the game for the first time, it checks for previously stored world data.
+
+6. **Collision Detection & Physics**:
+   - Realistic collision detection ensures the player can interact with blocks in a logical manner.
+   - Basic gravity and jumping mechanics are implemented to make movement feel natural.
+
+7. **Visual Enhancements**:
+   - Ambient light sources and directional lights enhance visibility within the game environment.
+   - Grid helpers provide visual aids for placing/removing blocks accurately.
+
+8. **Post-Processing Effects**:
+   - Utilizes a Three.js composer for applying post-processing effects, improving overall visual quality.
+
+This code serves as an excellent foundation for building more complex Minecraft-like games with additional features such as advanced block types, player inventories, or networked multiplayer functionality.
+
+`009-escena amplia.html`
 
 ```html
 <!DOCTYPE html>
@@ -11743,6 +14342,87 @@ En conclusión, la aplicación de modificaciones sobre juegos existentes es una 
 ```
 
 ### bloques
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+The provided HTML file is a complete web-based voxel game created using Three.js. It includes everything necessary to set up and run the game in a modern browser, including the game logic, world generation, player movement, collision detection, and rendering.
+
+Here's an overview of what each part does:
+
+1. **HTML Structure**:
+   - Basic HTML structure with a `<meta>` tag for viewport settings.
+   - A `<script>` tag at the end to include Three.js from a CDN.
+   
+2. **CSS Styling**:
+   - The `html, body` elements are set to have a height of 100%, and margin and padding are removed.
+   - Additional CSS rules are provided for the game interface.
+
+3. **JavaScript Code (Three.js Game)**:
+   - A `<script>` tag at the end that contains all the necessary JavaScript logic for the voxel game.
+   - The script initializes a Three.js scene, sets up camera, lights, and renderer.
+   - Defines constants like chunk size, world size, player properties, etc.
+   - Contains classes for `World`, `Chunk`, and `Game`.
+   - Manages world generation, block placement/removal, collision detection, and rendering logic.
+   - Handles keyboard/mouse inputs for player movement and interaction.
+
+### Key Components of the Game:
+
+1. **Three.js Initialization**:
+   ```javascript
+   const renderer = new THREE.WebGLRenderer();
+   const scene = new THREE.Scene();
+   const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+   ```
+
+2. **Chunk and World Management**:
+   - `Chunk` class manages individual voxel chunks.
+   - `World` class handles world generation and block management.
+
+3. **Player Movement and Interaction**:
+   - The player can move around using keyboard inputs.
+   - Can place blocks or remove them by clicking on the screen.
+
+4. **Collision Detection**:
+   - Uses raycasting to detect when the player is near a voxel.
+
+5. **Rendering**:
+   - Uses Three.js's `EffectComposer` for post-processing effects like SSAO (Screen Space Ambient Occlusion).
+
+6. **World Saving and Loading**:
+   - Allows saving the game state in local storage.
+   - Can load saved games from local storage when restarting the page.
+
+### Usage:
+
+- To start playing, simply open this HTML file in a modern browser.
+- You can move around using WASD keys or arrow keys.
+- Left-click to remove blocks and right-click to place blocks (or use mouse buttons if you prefer).
+- The game will auto-save periodically and allow you to load previous saves.
+
+### Improvements:
+
+1. **User Interface**:
+   - Add a more intuitive user interface for placing/removing blocks.
+   
+2. **World Generation Algorithms**:
+   - Implement more sophisticated world generation techniques (e.g., Perlin noise, terrain generation).
+   
+3. **Physics and Mechanics**:
+   - Improve collision detection and response for better gameplay experience.
+   
+4. **Save System**:
+   - Add a save dialog to prompt users before saving their progress.
+
+5. **Performance Optimization**:
+   - Optimize rendering by reducing unnecessary render calls or using more efficient mesh management techniques.
+
+6. **Expand Game Features**:
+   - Introduce items, tools, and other game mechanics to enrich the gameplay experience.
+
+By following these guidelines, you can further enhance this voxel game to create a richer and more immersive gaming experience for users.
+
+`010-bloques.html`
 
 ```html
 <!DOCTYPE html>
@@ -12482,19 +15162,133 @@ En conclusión, la aplicación de modificaciones sobre juegos existentes es una 
 </html>
 ```
 
+### Actividades propuestas
+
+The provided HTML file is a complete web page that utilizes Three.js to create a basic voxel-based game or simulation environment. Here's an overview of the key components and how they work together:
+
+### Structure Overview
+
+1. **HTML Elements**:
+   - The document contains a single `<canvas>` element, which will be used as the main drawing surface for the 3D scene.
+
+2. **CSS Styling**:
+   - Basic styling to center the canvas on the page.
+
+3. **JavaScript (Three.js Integration)**:
+   - The script section initializes and runs the game using Three.js and custom logic.
+
+### Key Components
+
+#### Global Configuration (`CONFIG` Object)
+- Contains settings like world size, player attributes, chunk dimensions, and others.
+  
+#### World Generation
+- `createDefaultWorld()`: Creates a default world with hills and caves.
+- `loadOrCreateWorld()`: Tries to load a previously saved game or creates a new one if none exists.
+
+#### Player Movement & Interaction
+- Handles movement keys (WASD for forward/backward/left/right, Space for jumping).
+- Collision detection using bounding boxes (`playerAABBAt` method).
+
+#### Rendering and Visibility Management
+- `setChunksVisibilityAndShadows()`: Updates which chunks are visible based on the player's position.
+- Uses post-processing effects like SSAO (Screen-Space Ambient Occlusion) for better visual quality.
+
+### Three.js Integration
+- The script initializes a Three.js scene, camera, renderer, and effect composer for advanced rendering techniques.
+  
+#### Initialization (`new Game()`)
+- Sets up the game world, applies necessary settings, and starts the main animation loop.
+
+#### Key Methods in `Game` Class
+- **Constructor**: Initializes components, sets up event listeners, and triggers default world creation or loading saved state.
+- **animate()**: Main animation method that handles frame updates for physics, rendering, etc.
+  
+### User Interaction
+- The mouse click events are used to place/remove blocks at the player's current line of sight.
+
+### Optimization Considerations
+- Proper management of visibility (only render chunks within a certain radius).
+- Utilization of post-processing effects like SSAO to enhance visual quality without significant performance hit.
+
+### Example Use Case
+This code would be run in a web browser, and upon loading it will either load the previously saved game state or generate a new world. The player can move around using keyboard controls and interact with the environment (placing/removing blocks) via mouse clicks.
+
+To improve this script further, you could:
+- Add more sophisticated terrain generation algorithms.
+- Implement more advanced physics for better jumping mechanics.
+- Introduce additional gameplay elements like enemies, items, or structures.
+  
+Overall, this is a solid starting point for anyone looking to create a voxel-based game using Three.js and JavaScript.
+
+
 <a id="ejercicio-de-final-de-unidad"></a>
 ## Ejercicio de final de unidad
 
-### ejercicio
+### Introducción a los ejercicios
 
-```markdown
+La carpeta que contiene el archivo "ejercicio.md" está diseñada para proporcionar un desafío práctico a los estudiantes en el ámbito del análisis de motores de juegos y la programación multimedia y móvil. El objetivo principal es aplicar conocimientos adquiridos durante todo el curso, enfocándose en cómo estructurar y optimizar código para mejorar la performance de los juegos en diferentes plataformas. Este ejercicio busca reforzar competencias como el uso eficiente de recursos, la integración de múltiples tecnologías y la capacidad de resolver problemas complejos bajo presión.
 
-```
+Estos ejercicios son ideales para estudiantes de Formación Profesional que buscan aplicar sus habilidades en un contexto real, preparándose así para futuros proyectos o situaciones laborales donde tendrán que enfrentarse a desafíos similares.
+
+### Actividades propuestas
+
+Basándome en las instrucciones y sin tener acceso directo al contenido específico del archivo `ejercicio.md`, voy a diseñar una serie de actividades que podrían ser adecuadas para estudiantes de Formación Profesional, especialmente para ciclos relacionados con la programación multimedia y dispositivos móviles. Asumiré que el contexto es la implementación o análisis de motores de juegos.
+
+1. **Análisis del Código Base**
+   - **Descripción:** Los alumnos deben leer detenidamente el ejercicio proporcionado y realizar un análisis estructurado del mismo, identificando las partes más críticas y cómo funcionan. Se pretende que aprendan a descomponer problemas complejos en tareas manejables.
+
+2. **Documentación de Funciones**
+   - **Descripción:** Los estudiantes deben escribir comentarios o documentar funciones clave del código base, explicando claramente para qué sirven y cómo funcionan. Esto ayudará a mejorar sus habilidades de comunicación técnica y entendimiento profundo del código.
+
+3. **Optimización del Código**
+   - **Descripción:** Proporciona al estudiante un conjunto de pruebas o casos de uso para los cuales deben optimizar el rendimiento del motor de juegos, buscando formas eficientes de implementar las funciones ya existentes. Se espera que aprendan sobre la importancia de la eficiencia en el desarrollo de software.
+
+4. **Implementación de Nuevas Características**
+   - **Descripción:** Sugerir una o dos nuevas características para añadir al motor del juego, como soporte adicional para dispositivos móviles o mejoras en la interactividad con el usuario. Se pretende que apliquen los conocimientos teóricos aprendidos a proyectos prácticos.
+
+5. **Testing y Pruebas**
+   - **Descripción:** Los estudiantes deben diseñar pruebas unitarias y de integración para verificar el funcionamiento correcto del motor de juegos, incluyendo manejo de errores y excepciones. Esto ayudará a reforzar sus conocimientos sobre pruebas automatizadas.
+
+6. **Refactorización**
+   - **Descripción:** Proporcionar al estudiante la tarea de refactorizar partes del código base para mejorar su legibilidad y mantenimiento, manteniendo las mismas funcionalidades. Se pretende que comprendan cómo mejorar el diseño original sin cambiar sus propiedades fundamentales.
+
+7. **Comparación de Algoritmos**
+   - **Descripción:** Los alumnos deben investigar algoritmos alternativos para partes del código proporcionado y evaluar cuál es más eficiente en términos de rendimiento o recursos utilizados. Se espera que aprendan sobre selección y evaluación de algoritmos.
+
+8. **Documentación Completa**
+   - **Descripción:** El estudiante debe completar la documentación existente del motor de juegos, añadiendo guías de uso para nuevos desarrolladores y usuarios. Esto ayudará a mejorar sus habilidades en comunicación técnica y gestión de proyectos.
+
+9. **Análisis de Compatibilidad**
+   - **Descripción:** Los estudiantes deben examinar el código base para identificar posibles problemas de compatibilidad con diferentes plataformas o dispositivos, proponiendo soluciones y mejoras necesarias. Se pretende que comprendan las implicaciones de la portabilidad en desarrollo de software.
+
+10. **Proyecto Final**
+    - **Descripción:** Los alumnos deben integrar todo lo aprendido durante el curso para desarrollar un pequeño motor de juegos personalizado, aplicando buenas prácticas de programación y diseño de software. Se espera que demuestren la comprensión completa del contenido teórico con una aplicación práctica significativa.
+
+Estas actividades están diseñadas para proporcionar a los estudiantes de Formación Profesional experiencias prácticas ricas en el ámbito de la programación multimedia y dispositivos móviles, centrando su aprendizaje en áreas clave como análisis, optimización, diseño y documentación.
+
 
 <a id="examen-final"></a>
 ## Examen final
 
+### Introducción a los ejercicios
+
+Este conjunto de ejercicios está diseñado para ayudarte a entender y aplicar conceptos básicos de manejo de bases de datos relacionales utilizando SQL. Los problemas abordan desde la creación de estructuras de base de datos, como tablas con relaciones entre ellas, hasta operaciones CRUD (Crear, Leer, Actualizar y Borrar) y el uso de vistas para mejorar la consulta de información. A través de estos ejercicios, practicarás competencias clave en diseño de bases de datos, gestión de usuarios y control de acceso, lo que te preparará para trabajar con sistemas más complejos en entornos profesionales.
+
 ### crear tablas
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código SQL está diseñado para crear una base de datos y dos tablas dentro de ella, que serán utilizadas probablemente en el contexto del portafolio de proyectos o ejercicios relacionados con la programación multimedia y dispositivos móviles. 
+
+Primero, se crea una base de datos llamada `portafolioceac` utilizando la sentencia `CREATE DATABASE`. Luego, se selecciona esta base de datos específica para trabajar en ella con la instrucción `USE portafolioceac`.
+
+A continuación, se crean dos tablas: `Piezas` y `Categorias`. La tabla `Piezas` tiene varias columnas que almacenan información sobre diferentes piezas o componentes. Cada pieza tiene un identificador único (`Identificador`, con la propiedad `auto_increment` para generar automáticamente números de ID únicos), un título, una descripción, una URL a su imagen y el identificador de la categoría a la que pertenece. La tabla `Categorias` contiene información sobre las categorías existentes, como su nombre (`titulo`) y una breve descripción.
+
+Este código es importante porque establece la estructura básica para almacenar y organizar datos relacionados con piezas y sus categorías en un sistema de gestión de base de datos relacional.
+
+`001-crear tablas.sql`
 
 ```sql
 CREATE DATABASE portafolioceac;
@@ -12519,6 +15313,17 @@ CREATE TABLE Categorias(
 ```
 
 ### insertar
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código SQL está insertando dos registros en dos diferentes tablas llamadas `Categorias` y `Piezas`. En el caso de la tabla `Categorias`, se está añadiendo una nueva categoría con el nombre 'General' y una descripción adicional. La primera columna, que suele ser la clave primaria (a menudo un ID autoincremental), se deja en NULL, permitiendo a la base de datos asignar automáticamente un valor único.
+
+En la tabla `Piezas`, también se está insertando un nuevo registro para lo que parece ser una pieza específica. Este registro incluye el nombre 'Primera pieza', su descripción, una imagen asociada (`josevicente.jpg`), un enlace web y finalmente, un ID de categoría (1). Al igual que con `Categorias`, la clave primaria se deja en NULL para permitir a la base de datos generar automáticamente el valor.
+
+Este tipo de operaciones son esenciales cuando se está configurando una nueva base de datos o añadiendo nuevos elementos al sistema. Ayudan a establecer los primeros datos necesarios y proporcionar ejemplos concretos que luego pueden ser utilizados y modificados según sea necesario.
+
+`002-insertar.sql`
 
 ```sql
 INSERT INTO Categorias VALUES(
@@ -12538,6 +15343,17 @@ INSERT INTO Piezas VALUES(
 ```
 
 ### fk
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código SQL añade una restricción llamada `fk_piezas_categorias` a la tabla `Piezas`. Esta restricción es un tipo especial conocido como "llave foránea" (foreign key), que establece una relación entre las tablas `Piezas` y `Categorias`.
+
+En específico, esta llave foránea conecta el campo `id_categoria` de la tabla `Piezas` con el campo `identificador` en la tabla `Categorias`. Esto significa que cada pieza debe pertenecer a alguna categoría existente. Si se elimina una categoría (por ejemplo, porque ya no hay piezas asociadas a ella), todas las piezas que dependían de esa categoría también serán eliminadas automáticamente debido a la opción `ON DELETE CASCADE`. Igualmente, si el identificador de una categoría cambia (`ON UPDATE CASCADE`), entonces el campo `id_categoria` en la tabla `Piezas` se actualizará automáticamente para reflejar este cambio.
+
+Esta restricción es importante porque asegura que los datos en las tablas estén relacionados correctamente y mantienen la integridad referencial del sistema de base de datos, lo cual ayuda a prevenir inconsistencias o errores.
+
+`003-fk.sql`
 
 ```sql
 ALTER TABLE Piezas
@@ -12548,6 +15364,17 @@ ON UPDATE CASCADE;
 ```
 
 ### selecciones
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código SQL consta de dos consultas simples que buscan recuperar toda la información de dos tablas diferentes en una base de datos. La primera consulta, `SELECT * FROM Categorias;`, selecciona todos los campos y registros de la tabla llamada "Categorias". Esto significa que obtendrás todas las filas y columnas de esta tabla específica.
+
+La segunda consulta, `SELECT * FROM Piezas;`, hace lo mismo pero para la tabla "Piezas", devolviendo toda la información almacenada en ella. Estos comandos son útiles cuando se necesita revisar rápidamente los datos existentes en estas tablas sin especificar columnas o condiciones particulares.
+
+Estas consultas son importantes porque permiten a un desarrollador o administrador de base de datos tener una visión completa del contenido actual de las tablas, lo cual es fundamental para la gestión y el análisis de datos.
+
+`004-selecciones.sql`
 
 ```sql
 SELECT * FROM Categorias;
@@ -12556,6 +15383,17 @@ SELECT * FROM Piezas;
 ```
 
 ### left join
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código SQL realiza una operación llamada "left join" entre dos tablas: `Piezas` y `Categorias`. El objetivo es unir estos dos conjuntos de datos basándose en el campo `id_categoria` de la tabla `Piezas`, que corresponde al campo `Identificador` de la tabla `Categorias`.
+
+En resumen, esta consulta te permite obtener toda la información de las piezas junto con sus respectivas categorías. Si una pieza no tiene ninguna categoría asignada (es decir, el valor de `id_categoria` es nulo o no existe en la tabla `Categorias`), la consulta aún mostrará esa pieza pero los campos correspondientes a la categoría serán nulos.
+
+Esta operación es útil cuando necesitas combinar datos relacionados de diferentes tablas para tener una vista completa del sistema, como por ejemplo, entender qué categorías tienen asociadas qué piezas en un inventario o base de datos de productos.
+
+`005-left join.sql`
 
 ```sql
 SELECT 
@@ -12566,6 +15404,15 @@ ON Piezas.id_categoria = Categorias.Identificador;
 ```
 
 ### ahora creo la vista
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código SQL está compuesto por dos partes. La primera parte crea una vista llamada `piezas_y_categorias` que combina información de dos tablas: `Piezas` y `Categorias`. Esta vista utiliza un `LEFT JOIN`, lo que significa que obtiene todas las filas de la tabla `Piezas` y los datos correspondientes de la tabla `Categorias` donde se cumple la condición especificada en el JOIN (`Piezas.id_categoria = Categorias.Identificador`). Si no hay una coincidencia en la tabla `Categorias`, las columnas correspondientes a esta tabla tendrán valores NULL en la vista.
+
+La segunda parte del código es simplemente un `SELECT * FROM piezas_y_categorias;` que se encarga de recuperar todos los datos almacenados en la vista recién creada. Esto es útil para visualizar y validar cómo quedaron combinadas las dos tablas originales a través de esta nueva vista, proporcionando una perspectiva unificada sobre las piezas y sus categorías asociadas.
+
+`006-ahora creo la vista.sql`
 
 ```sql
 CREATE VIEW piezas_y_categorias AS 
@@ -12584,6 +15431,17 @@ SELECT * FROM piezas_y_categorias;
 ```
 
 ### usuario
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código SQL se utiliza para crear un nuevo usuario en tu base de datos y asignarle permisos específicos. En primer lugar, el comando `CREATE USER` crea un usuario llamado 'portafolioceac' con una contraseña que debe especificarse (en este caso, la misma cadena "portafolioceac"). A continuación, se utiliza el comando `GRANT USAGE ON *.* TO`, lo cual permite al usuario conectarse a cualquier base de datos del servidor.
+
+Luego, mediante el comando `ALTER USER`, se eliminan todos los límites impuestos al usuario 'portafolioceac', permitiendo así que pueda realizar una cantidad ilimitada de consultas y conexiones en un período determinado. Finalmente, con el comando `GRANT ALL PRIVILEGES ON portafolioceac.* TO`, se otorga a este usuario acceso completo a la base de datos 'portafolioceac', incluyendo todas las operaciones CRUD (Crear, Leer, Actualizar y Eliminar).
+
+El último paso es recargar los privilegios con `FLUSH PRIVILEGES` para que todos estos cambios surtan efecto inmediatamente. Este conjunto de comandos es fundamental en la administración de bases de datos ya que permite configurar quién tiene acceso a qué recursos, garantizando así tanto seguridad como flexibilidad en el manejo de los datos.
+
+`007-usuario.sql`
 
 ```sql
 -- crea usuario nuevo con contraseña
@@ -12613,6 +15471,37 @@ TO 'portafolioceac'@'localhost';
 FLUSH PRIVILEGES;
 ```
 
+### Actividades propuestas
+
+### Actividades Propuestas
+
+1. **Creación de Base de Datos y Tablas**
+   - Descripción: Los estudiantes deben crear una base de datos similar a `portafolioceac` con las mismas tablas `Piezas` y `Categorias`. Esto les permitirá entender cómo estructurar una base de datos en SQL.
+
+2. **Inserción de Datos Básicos**
+   - Descripción: Los estudiantes deben insertar al menos un registro en cada tabla creada. Se espera que comprendan la importancia de los valores `NULL` y las referencias a claves foráneas.
+
+3. **Relaciones entre Tablas**
+   - Descripción: Añadir una restricción FOREIGN KEY (fk_piezas_categorias) para establecer una relación entre las tablas `Piezas` y `Categorias`. Los estudiantes deben aprender cómo mantener la integridad referencial en las bases de datos.
+
+4. **Consultas Básicas**
+   - Descripción: Escribir consultas SQL que seleccionen todos los registros de ambas tablas (`Categorias`, `Piezas`). Esto les ayudará a familiarizarse con SELECT * FROM y la consulta de todas las filas en una tabla.
+
+5. **Join Izquierdo**
+   - Descripción: Los estudiantes deben realizar un LEFT JOIN entre las tablas `Piezas` y `Categorias`. El objetivo es que aprendan cómo combinar datos de dos tablas basándose en claves foráneas.
+
+6. **Creación de Vistas**
+   - Descripción: Crear una vista (`piezas_y_categorias`) que combine los datos de las tablas `Piezas` y `Categorias`. Esto permitirá a los estudiantes entender cómo simplificar consultas complejas mediante la creación de vistas.
+
+7. **Administración de Usuarios**
+   - Descripción: Los alumnos deben crear un nuevo usuario en MySQL con privilegios limitados para una base de datos específica, siguiendo las instrucciones proporcionadas. Esto ayudará a entender los conceptos básicos del control de acceso y la seguridad en bases de datos.
+
+8. **Optimización de Consultas**
+   - Descripción: Los estudiantes deben mejorar o optimizar consultas existentes (como `005-left join.sql` y `006-ahora creo la vista.sql`) para obtener los mismos resultados con mayor eficiencia. Esto les permitirá aprender sobre el rendimiento de las consultas SQL.
+
+Estas actividades están diseñadas para que los estudiantes aprendan conceptos fundamentales de manejo de bases de datos en SQL, desde la creación y gestión hasta la optimización de consultas y control de usuarios.
+
+
 
 <a id="desarrollo-de-juegos-2d-y-3d"></a>
 # Desarrollo de juegos 2D y 3D
@@ -12620,25 +15509,78 @@ FLUSH PRIVILEGES;
 <a id="tecnicas-de-programacion-2d3d"></a>
 ## Técnicas de programación 2D3D
 
-En la subunidad "Técnicas de programación 2D3D", nos sumergimos en los fundamentos necesarios para desarrollar juegos en dos y tres dimensiones. Comenzamos por explorar las técnicas básicas de programación que son esenciales para crear contenido visualmente atractivo e interactivo.
+### Introducción a los ejercicios
 
-La animación 2D y 3D es un aspecto crucial del desarrollo de juegos, ya que permite la creación de personajes, escenas y objetos dinámicos. En esta sección, aprenderemos cómo implementar animaciones fluidas utilizando técnicas como el uso de frames o sprites para representar movimientos suaves en dos dimensiones, y cómo aplicar transformaciones matemáticas para crear efectos 3D.
+The HTML code you provided is for an advanced interactive web application that uses WebRTC and MediaPipe Tasks Vision to track the user's face in real-time, then translates this information into dynamic camera movement within a 3D scene rendered using A-Frame (a web framework for building VR/AR experiences). The app allows the user to adjust their view by moving their head left or right and even leaning forward or backward. Here is an explanation of how each part works:
 
-Además, es importante entender la arquitectura del juego. Un motor de juegos típicamente consta de componentes como renderizado, física, entrada del usuario y gestión de recursos. Cada uno de estos componentes juega un papel crucial en el funcionamiento global del juego, desde la representación visual hasta la interacción con el usuario.
+### Key Components
 
-El estudio de motores de juegos es otro tema central. Existen diversos motores disponibles tanto para desarrollo 2D como 3D, cada uno con sus propias ventajas y limitaciones. Algunos son específicos para plataformas móviles, mientras que otros ofrecen una mayor flexibilidad y control sobre los detalles del juego.
+1. **WebRTC Media Capture:**
+   - `<video>` element captures video input from the webcam.
+   - `navigator.mediaDevices.getUserMedia` requests access to the user's camera, setting up a stream for video capture.
 
-Además de la programación básica, es necesario aprender a manejar fuentes de audio y música en juegos 2D y 3D. La adición de efectos de sonido y música puede mejorar significativamente la experiencia del jugador, creando un ambiente más inmersivo y emocionante.
+2. **Face Landmark Detection (MediaPipe Tasks Vision):**
+   - `@mediapipe/tasks-vision@0.10.0/vision_bundle.js`: A library that uses machine learning models to detect face landmarks in real-time.
+   - The `FaceLandmarker` class processes the video feed and returns landmark coordinates for each frame.
 
-La iluminación y las cámaras son otros elementos fundamentales para crear escenas atractivas en juegos. Aprender cómo controlar la luz y cómo mover las cámaras permite crear perspectivas interesantes y realistas, añadiendo profundidad y dinamismo a los juegos.
+3. **User Interaction (Parallax Effect):**
+   - An input slider (`<input type="range">`) allows users to adjust the parallax effect strength, changing how much the view changes with head movements.
+   
+4. **Dynamic Camera Movement:**
+   - The `FaceLandmarker` outputs face landmarks, which are then translated into 3D camera movement using JavaScript logic.
 
-El desarrollo de escenas es una habilidad crucial que involucra la creación de entornos visuales complejos. Desde el diseño de niveles hasta la creación de interfaces de usuario interactivas, cada elemento debe ser cuidadosamente planificado para ofrecer una experiencia fluida y atractiva al jugador.
+5. **A-Frame for 3D Scene Rendering:**
+   - A-Frame is a web framework that simplifies the process of creating VR/AR experiences with HTML.
+   - `<a-scene>` element sets up an interactive scene.
+   - 3D objects, such as spheres, cones, tori, and polygons, are added to create the virtual environment.
 
-Finalmente, es importante realizar un análisis exhaustivo del rendimiento del juego. Esto implica medir y optimizar aspectos como la velocidad de renderizado, el uso de memoria y la eficiencia energética para asegurar que el juego funcione bien en una amplia gama de dispositivos.
+### How It Works
 
-En conclusión, la subunidad "Técnicas de programación 2D3D" proporciona una sólida base para desarrollar habilidades esenciales en el campo del desarrollo de juegos. A través de un enfoque práctico y teórico, los estudiantes aprenderán a crear contenido visualmente impresionante e interactivo, preparándose para enfrentarse a desafíos más complejos en proyectos futuros.
+1. **Webcam Access:**
+   The script requests webcam access using `getUserMedia` and displays live video feed in a `<video>` element.
+
+2. **Face Landmark Detection:**
+   - MediaPipe Tasks Vision's `FaceLandmarker` class runs on each frame of the captured video.
+   - It detects facial landmarks, including nose tip, eye corners, etc., providing precise coordinates relative to the face.
+
+3. **Head Movement Tracking:**
+   - The detected face center and scale (using eye distance) are used to compute camera movements.
+   - If the user turns their head left or right, the X position of the camera changes accordingly.
+   - If the user moves closer to the webcam, the Z position changes, simulating a depth effect.
+
+4. **Smoothing Camera Movement:**
+   A smoothing function (`smooth()`) ensures that camera movements are not jerky but smooth out over time, providing a more natural feel.
+
+5. **Parallax Effect Adjustment:**
+   - The user can adjust how sensitive the view is to head movements via an input slider.
+   - Higher values make changes in camera position more dramatic relative to face movement.
+
+6. **3D Scene Rendering:**
+   - A-Frame's `<a-scene>` creates a 3D environment where objects are placed and animated based on detected facial landmarks.
+   - This results in immersive VR experiences that respond dynamically to the user’s movements, creating an engaging interactive experience.
+
+### Conclusion
+
+This code integrates several cutting-edge technologies (WebRTC, ML-based face detection, A-Frame) to create a sophisticated real-time interactive 3D environment. The combination of these elements allows for intuitive control and rich spatial interaction directly through facial tracking.
 
 ### entorno 3d
+<small>Creado: 2025-11-25 19:59</small>
+
+#### Explicación
+
+Este código HTML crea una página web interactiva que permite a los usuarios experimentar con la tecnología de realidad virtual (VR) y realismo aumentado (AR). La página incluye un escenario 3D simple que se puede manipular utilizando una cámara del dispositivo para rastrear movimientos del usuario, específicamente el movimiento de la cabeza. Aquí están las partes clave:
+
+1. **Carga de bibliotecas**: El código carga la librería A-Frame, que es una plataforma web basada en HTML para crear experiencias de realidad virtual y aumentada fácilmente. También se integra con Mediapipe Tasks Vision, un conjunto de herramientas de aprendizaje profundo para rastrear las facciones del rostro.
+
+2. **Configuración CSS**: Define estilos básicos para que la página ocupe todo el espacio disponible y establece visibilidad limitada para una ventana de video que muestra cómo se ve desde la cámara del dispositivo. 
+
+3. **Escenario 3D básico**: En el cuerpo del documento HTML, hay un escenario A-Frame con cajas y esferas simples que representan paredes y objetos dentro de un espacio cerrado.
+
+4. **JavaScript para integración**: El script en el bloque `<script type="module">` inicializa la cámara web, carga una herramienta de detección facial llamada `FaceLandmarker`, y establece una función recursiva (`processVideoFrame`) que se ejecuta continuamente para rastrear los movimientos del rostro en tiempo real. Cuando detecta cambios en las facciones (como movimientos de la cabeza), ajusta el escenario 3D para dar la sensación de paralaje, es decir, objetos más cercanos parecen moverse con mayor rapidez que aquellos lejanos.
+
+Este código es importante porque combina varios conceptos avanzados en desarrollo web y tecnología VR/AR, proporcionando una base para proyectos más elaborados que requieren interacción directa del usuario a través de sus movimientos físicos. Es particularmente útil para estudiantes interesados en la creación de experiencias inmersivas con programación multimedia y dispositivos móviles.
+
+`001-entorno 3d.html`
 
 ```html
 <!DOCTYPE html>
@@ -12829,6 +15771,23 @@ En conclusión, la subunidad "Técnicas de programación 2D3D" proporciona una s
 ```
 
 ### segunda version
+<small>Creado: 2025-11-25 20:12</small>
+
+#### Explicación
+
+Este código HTML crea una página web interactiva que utiliza tecnología de realidad aumentada para desarrollar un juego o demostración en tres dimensiones. La página incluye varias secciones importantes:
+
+1. **Elementos visuales:** El código define varios objetos 3D como cajas, esferas y otros elementos geométricos dentro de una escena 3D. Estos objetos están dispuestos en filas que simulan la profundidad para crear un efecto parallax (diferencia aparente entre dos objetos debido a la posición del observador).
+
+2. **Configuración de cámara:** Se incluye un entorno de cámara virtual y una estructura llamada "rig" que permite moverse dentro del escenario 3D basándose en los movimientos de la cabeza del usuario, detectados mediante el uso de la cámara web.
+
+3. **Integración con JavaScript:** El archivo HTML también contiene un bloque de script que utiliza librerías externas como A-Frame y MediaPipe para manejar tanto la captura del video (para detección facial) como la lógica de movimiento de los objetos en 3D basada en el seguimiento de cara. Esto permite a la página interactuar con las entradas del usuario, moviendo la cámara virtual dentro del escenario 3D cuando se mueve la cabeza frente a la webcam.
+
+4. **Efecto parallax:** El código implementa un efecto visual que simula la profundidad y el movimiento basado en la orientación de la cara detectada por el sistema de detección facial, permitiendo al usuario interactuar con los objetos 3D simplemente girando la cabeza.
+
+Este fragmento es útil para estudiantes interesados en aprender cómo combinar HTML5, JavaScript moderno (ES modules), y bibliotecas como A-Frame o MediaPipe para crear experiencias de realidad aumentada interactivas. Es un ejemplo práctico del desarrollo de juegos 2D/3D que integra elementos de programación web con tecnologías de procesamiento de video en tiempo real.
+
+`002-segunda version.html`
 
 ```html
 <!DOCTYPE html>
@@ -13101,6 +16060,19 @@ En conclusión, la subunidad "Técnicas de programación 2D3D" proporciona una s
 ```
 
 ### caja abierta
+<small>Creado: 2025-11-25 20:15</small>
+
+#### Explicación
+
+Este fragmento de código HTML es una página web que utiliza A-Frame, un marco de trabajo basado en HTML para desarrollar experiencias y juegos 3D. El objetivo principal del código es crear una caja abierta en el espacio 3D con diversos elementos dentro, como esferas, cilindros y otros objetos geométricos, que crean un efecto paralaje al moverse según la dirección de la cámara.
+
+En la parte superior del documento HTML se carga A-Frame desde un CDN (Content Delivery Network) y se establecen algunos estilos básicos para el cuerpo y una previsualización del video de la webcam en la esquina inferior derecha. La función principal es `processVideoFrame`, que detecta los puntos clave del rostro a través de la cámara, calcula su centro y ajusta la posición de la cámara 3D basada en las coordenadas del centro del rostro. Esto crea un efecto paralaje: mientras el usuario mueve su cabeza hacia izquierda o derecha, los objetos más cercanos al espectador parecerán moverse más rápidamente que aquellos situados más lejos.
+
+Este tipo de técnica es común en juegos y experiencias 3D para dar una sensación de profundidad y realidad aumentada. El uso de A-Frame simplifica la creación de escenas interactivas con un rendimiento aceptable en navegadores web, permitiendo a los estudiantes y desarrolladores aprender y explorar conceptos de programación 3D sin necesidad de conocimientos avanzados de programación o frameworks complejos.
+
+El código incluye además elementos como luces (punto y ambiental) que iluminan la escena, mejorando el aspecto visual y la percepción espacial. Todo este conjunto de técnicas y recursos combinados ofrece una experiencia interactiva rica para el usuario, capaz de capturar detalles faciales en tiempo real y ajustar la cámara 3D según los movimientos del rostro del espectador, generando un efecto paralaje convincente que parece empujar objetos más alejados a medida que se mueve la cabeza.
+
+`003-caja abierta.html`
 
 ```html
 <!DOCTYPE html>
@@ -13392,6 +16364,23 @@ En conclusión, la subunidad "Técnicas de programación 2D3D" proporciona una s
 ```
 
 ### exageracion de movimiento
+<small>Creado: 2025-11-25 20:20</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web interactiva que simula un juego o experiencia de realidad virtual enriquecida. La página utiliza la biblioteca A-Frame, que es una herramienta popular para crear experiencias VR sin necesidad de conocimientos profundos de programación 3D.
+
+El archivo comienza con la declaración `<!DOCTYPE html>` y establece el idioma del documento como inglés (`<html lang="en">`). Luego se incluyen metadatos básicos y un enlace a una biblioteca JavaScript llamada A-Frame, que es fundamental para renderizar los objetos 3D en la página.
+
+El estilo CSS define cómo debe verse la interfaz de usuario (UI) y el video en vivo. Incluye elementos como un control deslizante (`#parallaxRange`) para ajustar el efecto paralaje, lo cual altera cómo se mueven los objetos en relación con el movimiento de cabeza del usuario.
+
+En el cuerpo del documento HTML, hay una sección donde A-Frame renderiza la escena 3D. Esta escena incluye varios elementos geométricos como cajas (`<a-box>`), esferas (`<a-sphere>`), cilindros (`<a-cylinder>`) y otros objetos 3D que forman un entorno virtual con una caja abierta hacia la cámara, permitiendo al usuario ver a través de ella.
+
+El script JavaScript en el final del cuerpo del documento inicia la cámara web para mostrar una vista previa en vivo, inicializa el modelo de detección facial y establece funciones que se encargan de seguir los movimientos de cabeza del usuario para mover la cámara virtual dentro del entorno 3D. Esto permite a los usuarios interactuar con la escena simplemente girando su cabeza.
+
+Este código es una excelente introducción al desarrollo de experiencias VR usando tecnologías web, combinando HTML, CSS y JavaScript junto con bibliotecas especializadas como A-Frame para crear un entorno inmersivo. La funcionalidad que incluye seguimiento facial mediante la cámara web hace que la experiencia sea interactiva e inmersiva para el usuario.
+
+`004-exageracion de movimiento.html`
 
 ```html
 <!DOCTYPE html>
@@ -13729,6 +16718,25 @@ En conclusión, la subunidad "Técnicas de programación 2D3D" proporciona una s
 ```
 
 ### sombras
+<small>Creado: 2025-11-25 20:43</small>
+
+#### Explicación
+
+Este fragmento de código HTML es un archivo que crea una escena tridimensional interactiva utilizando la biblioteca A-Frame, que permite el desarrollo rápido y sencillo de aplicaciones basadas en web con funcionalidades de realidad virtual (VR) y realidades aumentadas (AR). La página incluye varios elementos clave:
+
+1. **Configuración inicial**: Incluye importaciones de scripts necesarios para la función A-Frame y otros componentes, como el entorno 3D y las luces.
+
+2. **Estilo CSS**: Define cómo se ve la interfaz de usuario (UI) y establece los estilos para elementos específicos del escenario y un elemento de video.
+
+3. **Interfaz de Usuario**: Incluye una barra deslizante que permite al usuario ajustar el grado de parallax, es decir, el efecto visual en 3D cuando se mueve la cabeza para cambiar las perspectivas del objeto más cercano y el fondo lejano.
+
+4. **Escenario 3D**: Este fragmento define una escena tridimensional con un suelo plano que recibe sombras, varias formas geométricas (esferas, cajas, cilindros, etc.) dispersas en el suelo que también proyectan y reciben sombras, y luces direccional y ambiental para iluminar la escena.
+
+5. **JavaScript**: Se encarga de inicializar una cámara web, detectar rostros utilizando MediaPipe Tasks Vision, y mover la posición de la cámara virtual en función del movimiento del rostro detectado. Esto crea un efecto interactivo donde los movimientos del usuario afectan la perspectiva y el desplazamiento en 3D.
+
+Este código es particularmente útil para demostrar conceptos relacionados con sombras, iluminación y interactividad en entornos 3D a través de webGL, mostrando cómo se pueden crear experiencias visuales ricas basadas en la entrada del usuario.
+
+`005-sombras.html`
 
 ```html
 <!DOCTYPE html>
@@ -14084,24 +17092,277 @@ En conclusión, la subunidad "Técnicas de programación 2D3D" proporciona una s
 </html>
 ```
 
+### Actividades propuestas
+
+The provided HTML files showcase a JavaScript-based interactive web application that uses the MediaPipe Tasks Vision library to track facial landmarks in real-time video streams. The primary goal is to create an immersive augmented reality experience where the user's head movements control the camera position within a 3D scene rendered using A-Frame (for the first file) and a custom three.js implementation (for the second file). Here are detailed breakdowns of each part:
+
+### File 1: `index.html` with A-Frame
+
+This file integrates MediaPipe Tasks Vision for facial landmark tracking and uses A-Frame to render a basic 3D scene. It provides an interactive AR experience where head movements control camera movement.
+
+#### Key Components:
+- **MediaPipe Tasks**: For real-time face detection.
+- **A-Frame**: To quickly build the 3D scene with simple elements like cubes, spheres, and a light source.
+- **FaceLandmarker**: Tracks facial landmarks to determine head position and orientation.
+- **Camera Movement**: Adjusts the camera's position based on detected head movements.
+
+#### HTML Structure:
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Import A-Frame for simple 3D scene creation -->
+  <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+</head>
+<body>
+  <!-- Basic A-Frame setup with a cube and light source -->
+  <a-scene>
+    <a-box color="#4CC3D9" rotation="-90 0 0" position="0 1 -6" scale="2 2 2">
+      <a-animation attribute="position" to="0 0.5 -6" dur="1000" repeat="indefinite"></a-animation>
+    </a-box>
+
+    <!-- Additional A-Frame elements -->
+    <a-sphere position="-1 1.5 -7" radius="1" color="#FF6F91">
+      <a-animation attribute="position" to="-2 0.8 -6" dur="3000"></a-animation>
+    </a-sphere>
+
+    <!-- Light source -->
+    <a-light position="0 0 5"></a-light>
+  </a-scene>
+
+  <!-- MediaPipe Tasks for facial landmark detection -->
+  <script type="module">
+    // Code to initialize face tracking and control A-Frame camera
+  </script>
+</body>
+</html>
+```
+
+### File 2: `three_ar.html` with three.js
+
+This file uses a more sophisticated setup involving the three.js library to render a detailed 3D scene. It also integrates MediaPipe Tasks Vision for facial landmark tracking, but it manually controls the camera movement rather than relying on A-Frame.
+
+#### Key Components:
+- **MediaPipe Tasks**: For real-time face detection.
+- **three.js**: Custom rendering engine for detailed 3D scenes.
+- **FaceLandmarker**: Tracks facial landmarks to determine head position and orientation.
+- **Camera Movement**: Adjusts the camera's position based on detected head movements, including depth adjustments based on facial size.
+
+#### HTML Structure:
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Import three.js for advanced 3D scene creation -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+  <!-- Initialize the Three.js canvas and scene -->
+  <a-scene>
+    <!-- MediaPipe Tasks for facial landmark detection -->
+    <script type="module">
+      // Code to initialize face tracking and control three.js camera
+    </script>
+  </a-scene>
+
+  <!-- Detailed setup of the Three.js scene, including elements like spheres, cones, toruses -->
+</body>
+</html>
+```
+
+### Common JavaScript Logic:
+Both files include a common section where MediaPipe Tasks Vision is used to detect facial landmarks from a webcam feed. This logic computes head metrics (position and scale) and maps these metrics to camera movements in the 3D scene.
+
+#### Key Functions:
+- **`getHeadMetrics(landmarks)`**: Computes the center of the face and an approximate scale based on eye distance.
+- **`mapHeadToCamera(center, scale)`**: Translates head position and size into camera movement parameters (X, Y, Z).
+- **`smooth(prev, next, factor)`**: Smooths transitions between positions to prevent jerky movements.
+
+### Conclusion:
+These files demonstrate how advanced face tracking can be used in conjunction with modern web technologies like A-Frame and three.js to create engaging AR experiences. The core functionality involves real-time facial landmark detection to control the viewpoint within a 3D scene, providing an interactive and immersive user experience.
+
+
 <a id="fases-de-desarrollo"></a>
 ## Fases de desarrollo
 
-El desarrollo de juegos 2D y 3D es un proceso complejo que requiere una planificación cuidadosa y una implementación meticulosa. Comienza con la definición del concepto y el diseño detallado del juego, donde se establecen las reglas, los personajes y los objetivos. A continuación, entra en la fase de codificación, donde se escriben las funciones necesarias para controlar el comportamiento de los personajes y los objetos.
+### Introducción a los ejercicios
 
-Es importante destacar que cada fase del desarrollo es interconectada y depende de la anterior. Por ejemplo, mientras se está programando, también se realiza un análisis constante del rendimiento del juego para identificar áreas que requieren optimización. Esta fase incluye la creación de escenas, donde los elementos visuales son posicionados y configurados según el diseño.
+El código proporcionado es una simulación interactiva que visualiza la relación entre personas basada en sus nombres y hobbies. Aquí está un resumen del funcionamiento y las partes clave del código:
 
-La codificación es una parte crucial del desarrollo, pero no es el único aspecto a considerar. La gestión del tiempo y la planificación son fundamentales para asegurar que el juego se complete dentro del plazo establecido. Esto implica la creación de un cronograma detallado y la asignación de tareas a los miembros del equipo.
+### HTML Structure
 
-Además, es esencial contar con herramientas adecuadas para facilitar el desarrollo. Estas pueden ser motores de juegos específicos o bibliotecas que proporcionan funciones básicas necesarias para crear contenido multimedia. El uso de estas herramientas puede acelerar significativamente el proceso de codificación y permitir una mayor creatividad.
+- **`<canvas>` Element**: Se utiliza para dibujar gráficos 2D.
+- **CSS Styling**: Define el tamaño de la ventana (ancho: 1080px, alto: 760px).
 
-Una vez que se han completado las fases de codificación y gestión del tiempo, entra en la fase de pruebas. Durante esta etapa, se realizan diversas pruebas para asegurar que el juego funcione correctamente y cumpla con los requisitos establecidos. Esto incluye pruebas de rendimiento, pruebas de seguridad y pruebas de usabilidad.
+### JavaScript Code
 
-La fase final del desarrollo implica la publicación del juego en plataformas adecuadas. Esto puede implicar la creación de instaladores para sistemas operativos específicos o la configuración de servidores web para alojar el juego en línea. Además, es importante documentar todo el proceso y las decisiones tomadas durante el desarrollo para facilitar futuras modificaciones o actualizaciones.
+#### Particula Class
+```javascript
+class Particula {
+    constructor(x, y, dir, persona) {
+        this.x = x;
+        this.y = y;
+        this.dir = dir; // Dirección inicial aleatoria
+        this.vel = 2.5 + Math.random() * 0.5; // Velocidad variable
 
-En resumen, el desarrollo de juegos 2D y 3D es un proceso que requiere una combinación de diseño creativo, programación meticulosa y gestión eficiente del tiempo. Cada fase es interdependiente y contribuye al éxito final del proyecto.
+        this.radio = 10;
+
+        this.color = "rgba(255, 255, 255, 0.6)";
+        
+        this.n = persona.nombre;
+        this.hobbie = persona.hobbie;
+
+        this.n += (persona.nombre === this.n) ? "" : " (" + persona.id + ")";
+    }
+
+    // Otros métodos se definen después
+}
+```
+- **Constructor**: Inicializa las propiedades de la partícula, incluyendo posición (`x`, `y`), dirección (`dir`), velocidad (`vel`), radio y color.
+  
+#### Interacción entre Partículas
+
+```javascript
+interacciones(particulas) {
+    for (let i = 0; i < particulas.length; i++) {
+        if (this != particulas[i]) {
+            let dx = this.x - particulas[i].x;
+            let dy = this.y - particulas[i].y;
+            let d = Math.sqrt(dx * dx + dy * dy);
+
+            // Interacciones basadas en nombre y hobby
+            let f = 0.25;
+
+            if (this.n === particulas[i].n) { // Si los nombres son iguales
+                this.atraccion(particulas[i], d, f);
+            } else {
+                this.repulsion(particulas[i], d, f);
+            }
+
+            if (this.hobbie === particulas[i].hobbie) { // Si los hobbies son iguales
+                this.atraccion(particulas[i], d, 0.5);
+            }
+        }
+    }
+}
+```
+- **Atracción y Repulsión**: Las partículas se atraen si tienen el mismo nombre y repelen si no tienen el mismo hobby.
+
+#### Atracción y Repulsión
+
+```javascript
+atraccion(p2, d, f) {
+    let a = (f / d);
+    this.fuerza.push([p2, -a]);
+}
+repulsion(p2, d, f) {
+    let a = (-1 * f / d);
+    this.fuerza.push([p2, -a]);
+}
+```
+- **Fuerzas de Atracción y Repulsión**: Se calculan basadas en las distancias entre partículas.
+
+#### Dibujo
+
+```javascript
+dibuja() {
+    ctx.beginPath();
+    ctx.arc(this.x, this.y, this.radio * 0.5, 0, Math.PI*2);
+    ctx.fillStyle = "rgba(136,198,247, 0.5)";
+    ctx.fill();
+
+    ctx.lineWidth = 2;
+    ctx.strokeStyle = this.color;
+    ctx.beginPath();
+    ctx.arc(this.x, this.y, this.radio, 0, Math.PI*2);
+    ctx.stroke();
+
+    // Texto del nombre
+    ctx.fillStyle = "white";
+    ctx.font = (this.radio * 0.6) + "px Arial";
+    ctx.textAlign = "center";
+    ctx.fillText(this.n, this.x, this.y - (this.radio * 1.2));
+}
+```
+- **Dibuja el texto del nombre y un círculo**.
+
+#### Lineas de Conexión
+
+```javascript
+lineas() {
+    for (let i = 0; i < this.fuerza.length; i++) {
+        let p2 = this.fuerza[i][0];
+        ctx.beginPath();
+        ctx.strokeStyle = "rgba(136,198,247, 0.5)";
+        ctx.lineWidth = 1;
+        
+        // Interpolación lineal para las líneas
+        ctx.moveTo(this.x + (p2.x - this.x) * 0.5, this.y + (p2.y - this.y) * 0.5);
+        ctx.lineTo(p2.x + (this.x - p2.x) * 0.5, p2.y + (this.y - p2.y) * 0.5);
+        
+        ctx.stroke();
+    }
+}
+```
+- **Dibuja líneas entre partículas que están conectadas**.
+
+### Fetch JSON
+
+```javascript
+fetch("personas.json")
+  .then(respuesta => respuesta.json())
+  .then(personas => {
+    particulas = [];
+    numeroparticulas = personas.length;
+
+    for (let i = 0; i < personas.length; i++) {
+      let persona = personas[i];
+      particulas.push(
+        new Particula(
+          Math.random() * anchura,
+          Math.random() * altura,
+          Math.random() * Math.PI * 2,
+          persona
+        )
+      );
+    }
+
+    requestAnimationFrame(bucle);
+  })
+```
+- **Carga los datos JSON y crea las partículas**.
+
+### Animación
+
+```javascript
+requestAnimationFrame(bucle);
+```
+- **Llama recursivamente a la función `bucle` para animar continuamente el sistema de partículas**.
+
+### Personas.json
+
+El archivo JSON contiene una lista de personas con sus nombres y hobbies. Cada persona se representa por un objeto con dos propiedades: `"nombre"` y `"hobbie"`. 
+
+La simulación utiliza estos datos para crear partículas que interactúan según los criterios establecidos (atracción si comparten nombre, repulsión si no comparten hobby).
+
+### Ejecución
+
+Al abrir el HTML en un navegador, se carga el JSON, se crean las partículas y se inicia una simulación animada donde las partículas representan personas y sus interacciones basadas en nombres y hobbies.
+
+Este tipo de visualización puede ser útil para explorar relaciones sociales o patrones de agrupamiento en datos similares.
 
 ### red de elementos
+<small>Creado: 2025-12-01 18:08</small>
+
+#### Explicación
+
+Este código HTML crea una página web con un lienzo interactivo utilizando la etiqueta `<canvas>`. En el interior del bloque de script, se inicializa un lienzo con dimensiones específicas (anchura y altura de 512 píxeles). Luego, define una clase llamada `Particula` que representa cada partícula en el espacio. Esta clase tiene tres propiedades: posición horizontal (`x`) e vertical (`y`), y un ángulo (`a`). La función `dibuja()` dibuja un círculo pequeño en la posición especificada del lienzo.
+
+El código también crea un array vacío llamado `particulas`, que almacena objetos de tipo `Particula`. A continuación, se ejecuta un bucle for que añade 50 partículas al array. Cada nueva partícula tiene posiciones (`x` e `y`) y ángulo (`a`) generados aleatoriamente dentro del lienzo.
+
+Finalmente, otro bucle for recorre el array de partículas y llama a la función `dibuja()` para cada una de ellas, es decir, dibuja cada partícula en el lienzo. Este código es fundamental para entender cómo se crean y representan elementos gráficos simples como partículas en un contexto de desarrollo 2D o juegos multimedia.
+
+`001-red de elementos.html`
 
 ```html
 <!doctype html>
@@ -14152,6 +17413,23 @@ En resumen, el desarrollo de juegos 2D y 3D es un proceso que requiere una combi
 ```
 
 ### lineas entre las particulas
+<small>Creado: 2025-12-01 18:13</small>
+
+#### Explicación
+
+Este código HTML crea una página web que contiene un lienzo interactivo en el que se dibujan y conectan partículas aleatorias. La estructura básica del documento incluye elementos HTML estándar, pero la funcionalidad real reside en el script incorporado.
+
+En el script, primero se define una función `distance2D` que calcula la distancia entre dos puntos en un plano 2D utilizando las coordenadas x e y de ambos puntos. Esta función es crucial para determinar si hay suficiente proximidad entre partículas para dibujar una línea entre ellas.
+
+Luego, se establece el tamaño del lienzo (`anchura` y `altura`) que es de 512x512 píxeles, y se obtiene la referencia al elemento `<canvas>` desde el DOM. Se inicializa también un contexto 2D para dibujar en este lienzo.
+
+A continuación, se define una clase llamada `Particula` con métodos que permiten dibujar círculos (representando las partículas) y líneas entre ellas si la distancia es menor de 100 píxeles. La creación de estas partículas se realiza mediante un bucle donde cada partícula recibe una posición aleatoria dentro del lienzo.
+
+Finalmente, en el último bloque de código, las partículas son dibujadas y se verifican sus conexiones con otras partículas cercanas para dibujar líneas entre ellas. Esto crea un efecto visual interesante donde las partículas parecen estar conectadas por una red invisible.
+
+Este tipo de código es común en proyectos de programación multimedia, especialmente cuando se trabaja en el desarrollo de juegos 2D y efectos visuales interactivos, proporcionando a los estudiantes una introducción práctica sobre cómo manipular gráficos en tiempo real utilizando HTML5 Canvas.
+
+`002-lineas entre las particulas.html`
 
 ```html
 <!doctype html>
@@ -14221,6 +17499,17 @@ En resumen, el desarrollo de juegos 2D y 3D es un proceso que requiere una combi
 ```
 
 ### bucle animado
+<small>Creado: 2025-12-01 18:14</small>
+
+#### Explicación
+
+Este código HTML crea una página web que muestra una animación en un canvas, donde se dibujan círculos llamados "partículas". Estas partículas se mueven y crean líneas entre ellas si están lo suficientemente cerca. La clave del código está en la definición de una clase `Particula` que contiene métodos para dibujar el círculo de la partícula y trazar líneas con otras partículas cercanas.
+
+El código también incluye un bucle principal que se ejecuta continuamente gracias a un temporizador. Este bucle borra lo anteriormente pintado en el lienzo, actualiza las posiciones y dibuja de nuevo todas las partículas, así como las líneas entre ellas si son necesarias. El uso de la función `distance2D` ayuda a determinar qué partículas están lo suficientemente cerca para ser conectadas con una línea.
+
+Esta técnica es común en el desarrollo de juegos 2D y animaciones web para crear efectos visuales dinámicos e interactivos, permitiendo que los estudiantes experimenten con la física de simulación y la programación orientada a objetos.
+
+`003-bucle animado.html`
 
 ```html
 <!doctype html>
@@ -14296,6 +17585,35 @@ En resumen, el desarrollo de juegos 2D y 3D es un proceso que requiere una combi
 ```
 
 ### hacemos que las particulas se muevan
+<small>Creado: 2025-12-01 18:15</small>
+
+#### Explicación
+
+Este fragmento de código HTML es parte de un ejercicio para desarrollar juegos 2D. El objetivo principal es mover y dibujar partículas en una pantalla方形，似乎之前的回答被截断了。我将继续解释这段代码的剩余部分：
+
+---
+
+此HTML片段是用于开发2D游戏练习的一部分，主要目的是在画布上移动并绘制粒子。具体来说，它定义了一个名为`Particula`（颗粒）的类，该类负责每个单独颗粒的行为和外观。在主循环中，这些颗粒会被随机初始化，并且会不断更新它们的位置，然后重新绘制到屏幕上。
+
+1. **HTML结构**：文件以标准HTML文档形式开始，包含一个空的头部标签和一个body标签，在body内有一个canvas元素，用于渲染2D图形。
+   
+2. **JavaScript代码解析**：
+   - 首先定义了一个`distance2D()`函数，用于计算两点之间的距离。这是为了后续判断颗粒之间是否接近而设计的。
+   - 定义了画布的宽度和高度，并设置了画布元素及其上下文对象以准备绘图。
+   
+3. **Particle类**：
+   - `Particula` 类包含三个属性：x, y（表示粒子的位置）和a（用于控制粒子移动方向的角度）。
+   - `dibuja()` 方法负责在指定位置绘制一个圆形来代表颗粒。
+   - `lineas()` 方法检查所有其他颗粒是否接近当前颗粒，并如果距离小于100像素，则画一条线连接它们。这有助于创建一种视觉上的连通性或网络效果。
+   - `mueve()` 方法通过添加一个小的随机角度增量和基于该方向的角度值来更新粒子的位置，这样可以创造出一个流畅且动态的效果。
+
+4. **初始化与主循环**：
+   - 使用一个for循环在画布上生成一定数量（这里是50个）的颗粒。
+   - `bucle()`函数负责每一帧清除之前的画图并重新绘制所有颗粒。它首先调用每个颗粒的`mueve()`方法更新位置，然后调用`dibuja()`和`lineas()`来显示新的状态。
+
+这个代码片段展示了如何通过简单的JavaScript类和基本的2D绘图技术创建动画效果，并且是游戏开发入门者理解和实现复杂粒子系统的基础。
+
+`004-hacemos que las particulas se muevan.html`
 
 ```html
 <!doctype html>
@@ -14377,6 +17695,19 @@ En resumen, el desarrollo de juegos 2D y 3D es un proceso que requiere una combi
 ```
 
 ### rebote en las paredes
+<small>Creado: 2025-12-01 18:16</small>
+
+#### Explicación
+
+Este código HTML crea una página web que contiene un juego o simulación visual de partículas en movimiento dentro de un lienzo (canvas) de tamaño 512x512 píxeles. Dentro del `<script>` se define una clase `Particula` que representa cada partícula individual y tiene métodos para dibujar, mover y conectar las partículas entre sí con líneas si están cerca.
+
+La función principal es `bucle()`, la cual borra el lienzo antes de cada actualización (para evitar trazos antiguos), después hace que cada una de las 50 partículas se muevan, dibujen y conecten. El movimiento de las partículas está controlado por su dirección angular `a` que cambia ligeramente en cada iteración para darles un comportamiento aleatorio.
+
+Aunque el código incluye un método `rebote()` para manejar la colisión con los bordes del lienzo, actualmente no tiene ninguna implementación dentro de este método. Sería importante completar esta función para que las partículas rebotesen adecuadamente cuando se acerquen a los límites del canvas.
+
+Este tipo de código es útil en el desarrollo de juegos 2D o aplicaciones visuales interactivas, y sirve como base para agregar más características y mejorar la física del movimiento.
+
+`005-rebote en las paredes.html`
 
 ```html
 <!doctype html>
@@ -14463,6 +17794,19 @@ En resumen, el desarrollo de juegos 2D y 3D es un proceso que requiere una combi
 ```
 
 ### reflejo realista
+<small>Creado: 2025-12-01 18:22</small>
+
+#### Explicación
+
+Este código HTML crea una página web que muestra un efecto visual de partículas en movimiento dentro de un lienzo (`canvas`). El script incluye varias funciones y clases para manejar la física y el dibujado de estas partículas. 
+
+La clase `Particula` representa cada una de las partículas del sistema, almacenando su posición (`x`, `y`) y dirección (`a`). Las partículas pueden moverse, dibujarse en el lienzo, trazar líneas entre ellas si están cerca (dentro de 100 unidades), y rebotear cuando chocan con los bordes del canvas. El movimiento se calcula agregando un valor aleatorio a la dirección para crear una trayectoria impredecible y natural.
+
+El bucle principal (`bucle()`) actualiza el estado del sistema cada cierto tiempo, limpiando primero el lienzo y luego haciendo que cada partícula se mueva, dibuje su posición actual, trace líneas con otras cercanas y rebote si toca los bordes. Este enfoque crea un efecto visual dinámico de partículas interactivas que parecen reflejarse realistasmente.
+
+Este tipo de código es fundamental para comprender cómo se crean animaciones simples pero efectivas en el desarrollo de juegos 2D o aplicaciones multimedia, enseñando a los estudiantes conceptos como la física básica y las estructuras de datos orientadas a objetos.
+
+`006-reflejo realista.html`
 
 ```html
 <!doctype html>
@@ -14574,6 +17918,17 @@ En resumen, el desarrollo de juegos 2D y 3D es un proceso que requiere una combi
 ```
 
 ### añadimos velocidad
+<small>Creado: 2025-12-01 18:23</small>
+
+#### Explicación
+
+Este código HTML crea una página web interactiva que simula la animación de partículas en movimiento dentro del área visible de la pantalla. En el archivo, se define una clase llamada `Particula` (partícula) que encapsula las propiedades y métodos necesarios para cada partícula individual: posición (`x`, `y`), dirección (`a`) y velocidad (`v`). La función `bucle()` es la encargada de actualizar el estado de todas las partículas en cada frame, haciendo que se muevan, dibujen líneas entre ellas si están cerca (hasta 100 unidades), se dibujen y rebotesen contra los bordes del canvas.
+
+El código utiliza una función `distance2D` para calcular la distancia entre dos puntos en un plano 2D y otra función llamada `bounceAngle`, que calcula el ángulo de reflexión cuando una partícula impacta con un borde. Las partículas se mueven según su dirección (`a`) y velocidad, ajustando estos valores aleatoriamente para darles movimiento natural.
+
+Este tipo de código es importante en la programación multimedia y dispositivos móviles porque permite crear efectos visuales atractivos utilizando HTML5 canvas y JavaScript, lo que puede ser útil tanto para juegos como para aplicaciones web interactivas.
+
+`007-añadimos velocidad.html`
 
 ```html
 <!doctype html>
@@ -14689,6 +18044,19 @@ En resumen, el desarrollo de juegos 2D y 3D es un proceso que requiere una combi
 ```
 
 ### un poco de color
+<small>Creado: 2025-12-01 18:24</small>
+
+#### Explicación
+
+Este código HTML crea una página web interactiva que simula partículas en movimiento dentro de un lienzo, o canvas. En el script incorporado, se define una clase `Particula` (partícula) que contiene métodos para dibujar las partículas, calcular líneas entre ellas, moverlas y hacerlas rebotar contra los bordes del canvas.
+
+El código comienza creando un lienzo de tamaño igual a la ventana del navegador y luego genera 50 partículas en posiciones aleatorias dentro del lienzo. Cada partícula tiene una dirección (ángulo) inicial también definida al azar. Las partículas se mueven en línea recta hasta que chocan con los bordes del canvas, momento en el cual cambian su dirección para seguir rebotando.
+
+El método `bucle()` es llamado repetidamente mediante un temporizador (`setTimeout`) cada 10 milisegundos para actualizar la posición de las partículas y dibujarlas nuevamente en sus nuevas posiciones. Además, este bucle también dibuja líneas entre las partículas que están cerca una de la otra.
+
+Esta animación simple es un ejemplo del uso de canvas y JavaScript para crear efectos visuales interactivos, lo cual es común en desarrollo web y juegos 2D.
+
+`008-un poco de color.html`
 
 ```html
 <!doctype html>
@@ -14807,6 +18175,21 @@ En resumen, el desarrollo de juegos 2D y 3D es un proceso que requiere una combi
 ```
 
 ### array con nombres
+<small>Creado: 2025-12-01 18:34</small>
+
+#### Explicación
+
+Este código HTML crea una página web que utiliza JavaScript para dibujar y animar partículas en un lienzo (canvas). El propósito principal es mostrar cómo las partículas se mueven, rebotean contra los bordes de la pantalla y están conectadas entre sí por líneas grises. Cada partícula tiene coordenadas X e Y que determinan su posición, además de una dirección angular A para definir hacia dónde se dirige.
+
+El código define una clase `Particula` (partícula) con métodos como `dibuja()`, `lineas()`, `mueve()` y `rebote()`. En el método `dibuja()`, cada partícula dibuja un pequeño rectángulo con un nombre aleatorio elegido de una lista. El método `lineas()` dibuja líneas entre las partículas si están lo suficientemente cerca, y `mueve()` actualiza la posición de la partícula basándose en su dirección angular.
+
+El método `rebote()`, por otro lado, hace que la partícula rebote cuando llega a los bordes del canvas. Esto se logra usando el ángulo de incidencia calculado por las funciones `distance2D` y `bounceAngle`.
+
+Finalmente, una función llamada `bucle()` es ejecutada periódicamente (cada 10 milisegundos), lo que hace que todas las partículas se muevan, dibujen sus líneas y reboten. Este bucle constante permite la animación de la página web.
+
+Este tipo de código es común en proyectos de programación multimedia y dispositivos móviles, especialmente cuando se trabaja con juegos 2D o animaciones interactivas simples.
+
+`009-array con nombres.html`
 
 ```html
 <!doctype html>
@@ -14940,6 +18323,19 @@ En resumen, el desarrollo de juegos 2D y 3D es un proceso que requiere una combi
 ```
 
 ### agrupar particulas con animacion
+<small>Creado: 2025-12-01 18:41</small>
+
+#### Explicación
+
+Este fragmento de código HTML y JavaScript se utiliza para crear un juego o demostración visual que simula la interacción entre partículas en una pantalla. El programa crea un lienzo (canvas) donde dibuja y anima estas partículas, cada una con sus propias características como posición, dirección y velocidad.
+
+Las partículas interactúan de varias maneras: se mueven por el canvas según su dirección y velocidad; colisionan con los bordes del lienzo e invierten su dirección para simular un rebote; y también pueden atraerse o repelerse entre sí basándose en ciertas reglas. Por ejemplo, si dos partículas tienen el mismo texto asociado (que se obtiene aleatoriamente de una lista), intentarán mantenerse a una distancia mínima pero se atraerán si están más lejos; si las partículas son diferentes, se repelen.
+
+El código utiliza funciones y métodos para dibujar estas interacciones en cada iteración del bucle principal (función `bucle`), que ejecuta todo este proceso de forma continua para crear una animación. Esto incluye limpiar la pantalla antes de cada paso, mover las partículas según sus reglas físicas, y luego dibujarlas nuevamente en su nueva posición.
+
+Este tipo de simulaciones son útiles para aprender sobre conceptos de física como atracción, repulsión y colisión, así como para entender cómo se maneja la animación en tiempo real con JavaScript.
+
+`010-agrupar particulas con animacion.html`
 
 ```html
 <!doctype html>
@@ -15125,6 +18521,17 @@ En resumen, el desarrollo de juegos 2D y 3D es un proceso que requiere una combi
 ```
 
 ### movimiento aleatorio fuera
+<small>Creado: 2025-12-01 18:41</small>
+
+#### Explicación
+
+Este código HTML crea una página web que muestra un sistema de partículas en movimiento. Cada partícula se representa como un pequeño objeto geométrico con texto y tiene la capacidad de moverse, interactuar con otras partículas y rebotar contra los bordes de la pantalla.
+
+El código define una clase `Particula` (partícula) que maneja las propiedades y comportamientos individuales de cada elemento. Cada partícula tiene coordenadas X e Y para su posición, un ángulo A para la dirección, velocidad V, y texto asociado a ella. La función `dibuja()` dibuja el objeto en el lienzo del canvas, mientras que las funciones `mueve()`, `rebote()`, y `interacciones(particulas)` manejan el movimiento, los rebotes contra las paredes, y la interacción con otras partículas respectivamente.
+
+El script principal crea un conjunto de estas partículas en el lienzo, cada una inicializada con posiciones aleatorias. Luego, mediante un bucle que se ejecuta continuamente (actualizado cada 10 milisegundos), actualiza la posición y visualización de las partículas, permitiendo que interactúen entre sí y reboten contra los bordes del lienzo. Esta animación es útil para comprender cómo trabajar con física simple en un contexto gráfico interactiva utilizando HTML5 Canvas y JavaScript.
+
+`011-movimiento aleatorio fuera.html`
 
 ```html
 <!doctype html>
@@ -15310,6 +18717,19 @@ En resumen, el desarrollo de juegos 2D y 3D es un proceso que requiere una combi
 ```
 
 ### busca de estabilidad
+<small>Creado: 2025-12-01 18:52</small>
+
+#### Explicación
+
+Este código HTML crea una página web interactiva que muestra un sistema de partículas en movimiento. Cada partícula tiene su propia posición y velocidad, y se dibuja en el lienzo del navegador. Las partículas interactúan entre sí mediante fuerzas atractivas y repulsivas basadas en la distancia entre ellas, lo que da como resultado un comportamiento colectivo complejo y dinámico.
+
+El código define una clase llamada `Particula` (partícula) que tiene métodos para dibujar la partícula, calcular las interacciones con otras partículas, moverse según esas interacciones y rebote en los bordes del lienzo. Cada partícula también puede contener un texto aleatorio desde una lista de nombres proporcionada.
+
+La función `bucle()` se encarga de actualizar la posición y el movimiento de las partículas a cada marco (frame) de animación, lo que permite que todo funcione en tiempo real. Esta función utiliza el método `requestAnimationFrame` para asegurar un rendimiento óptimo y una tasa de refresco adecuada.
+
+Este tipo de código es importante porque demuestra cómo se pueden crear sistemas complejos a partir de reglas simples, y muestra la importancia del cálculo físico en la simulación de fenómenos naturales como el movimiento de partículas.
+
+`012-busca de estabilidad.html`
 
 ```html
 <!doctype html>
@@ -15569,6 +18989,19 @@ En resumen, el desarrollo de juegos 2D y 3D es un proceso que requiere una combi
 ```
 
 ### libertad para las partículas
+<small>Creado: 2025-12-01 18:55</small>
+
+#### Explicación
+
+Este código HTML crea una página web interactiva que muestra partículas animadas con características y comportamientos complejos. La página utiliza un lienzo de dibujo (canvas) para renderizar las partículas, sus conexiones y su movimiento en tiempo real.
+
+El corazón del código es la clase `Particula`, que define cómo se comportan y se mueven estas partículas. Cada partícula tiene una posición, velocidad y aceleración, y puede interactuar con otras partículas a través de fuerzas de atracción y repulsión basadas en su cercanía y similitud (es decir, si tienen el mismo texto o no). El código también maneja los rebotes cuando las partículas chocan contra los bordes del lienzo.
+
+El bucle principal del juego, `bucle()`, se encarga de actualizar la posición de cada partícula, calcular sus fuerzas de interacción con otras y dibujarlas en el canvas. Este proceso ocurre continuamente para crear un efecto animado, lo que permite ver cómo las partículas interactúan entre sí y con los bordes del lienzo.
+
+Este tipo de código es típico en la creación de juegos 2D o aplicaciones interactivas que requieren dibujos dinámicos en el navegador. Es importante porque demuestra cómo se pueden simular sistemas complejos usando programación orientada a objetos y cálculos físicos básicos, como fuerzas de atracción y repulsión, para crear animaciones realistas y atractivas visualmente.
+
+`013-libertad para las partículas.html`
 
 ```html
 <!doctype html>
@@ -15833,6 +19266,23 @@ En resumen, el desarrollo de juegos 2D y 3D es un proceso que requiere una combi
 ```
 
 ### asociacion por varios criterios
+<small>Creado: 2025-12-01 18:58</small>
+
+#### Explicación
+
+Este código HTML crea una página web interactiva que simula la dinámica de partículas en un lienzo, donde cada partícula representa a una persona y sus características individuales. La estructura principal del código incluye estilos CSS básicos para configurar el fondo blanco del documento y JavaScript avanzado para manejar las partículas.
+
+El script comienza definiendo una función `distance2D` que calcula la distancia entre dos puntos en un plano 2D, lo cual es crucial para determinar cómo se relacionan las partículas unas con otras. A continuación, el código inicializa el lienzo (canvas) del tamaño de toda la pantalla y crea un array vacío llamado `particulas` donde almacenará cada partícula creada.
+
+La clase `Particula` es central en este código: contiene propiedades como posición (`x`, `y`), velocidad (`vx`, `vy`) e información sobre el nombre y el hobby de la persona representada. Esta clase también tiene métodos que permiten dibujar, mover, interactuar y rebotear las partículas según reglas específicas.
+
+El método `bucle()` es lo que realmente hace que todo funcione en conjunto. Este bucle animado primero limpia el lienzo antes de cada iteración, luego permite a todas las partículas interaccionar entre sí (atracción o repulsión dependiendo del nombre y hobby), después mueve y rebota cada partícula según la física definida en los métodos `mueve()` y `rebote()`, respectivamente. Finalmente, dibuja líneas de conexión y las partículas mismas en el lienzo.
+
+El código también carga un archivo JSON llamado "personas.json" que contiene información sobre cada persona (nombre y hobby) para crear las partículas correspondientes. Una vez cargados los datos, se crean las partículas inicialmente distribuidas aleatoriamente en la pantalla y se arranca el bucle animado.
+
+Esta simulación es especialmente interesante porque modela cómo entidades individuales pueden interactuar en un espacio compartido basándose en criterios de similitud o diferencia, lo que puede ser útil para estudiar fenómenos sociales complejos a través de la programación.
+
+`014-asociacion por varios criterios.html`
 
 ```html
 <!doctype html>
@@ -16115,6 +19565,28 @@ En resumen, el desarrollo de juegos 2D y 3D es un proceso que requiere una combi
 ```
 
 ### colores
+<small>Creado: 2025-12-01 19:02</small>
+
+#### Explicación
+
+Este código HTML es una página web que contiene un juego o simulación visual de partículas. La página utiliza JavaScript y la API Canvas para dibujar y animar estas partículas en el navegador, creando así un efecto visual atractivo.
+
+En el script, primero se define una función `distance2D` que calcula la distancia entre dos puntos en un plano 2D. También hay una función de hash simple llamada `hashString`, que genera un valor numérico único basado en una cadena dada. Estas funciones son utilizadas para calcular y representar las relaciones entre las partículas.
+
+La página crea objetos de tipo `Particula` que tienen propiedades como posición (`x`, `y`), velocidad (`vx`, `vy`) y aceleración (`ax`, `ay`). Además, cada partícula tiene atributos adicionales como nombre y hobby que vienen del archivo JSON `personas.json`. Cada partícula dibuja una pequeña pastilla en el canvas con su nombre y hobby.
+
+El código define varios métodos para las partículas:
+- `dibuja`: Dibuja la partícula en el lienzo.
+- `lineas`: Dibuja líneas entre partículas basadas en la similitud de sus atributos (nombre o hobby).
+- `interacciones`: Calcula las fuerzas que actúan sobre cada partícula debido a otras partículas, incluyendo atracción y repulsión.
+- `mueve`: Actualiza la posición de la partícula basada en su velocidad y aceleración.
+- `rebote`: Asegura que las partículas rebotesen suavemente cuando llegan al borde del lienzo.
+
+Finalmente, el código ejecuta un bucle continuo (`bucle`) que actualiza la posición de todas las partículas, dibuja líneas y textos entre ellas, y realiza los cálculos necesarios para mantener una animación fluida. Este bucle se repite constantemente gracias a `requestAnimationFrame`, lo que proporciona una simulación visual dinámica.
+
+La carga del archivo JSON ocurre al inicio de la página, creando un conjunto específico de partículas basadas en los datos proporcionados por este archivo antes de iniciar el bucle principal. Esto permite personalizar la animación y las interacciones entre las partículas según los datos de personas específicas.
+
+`015-colores.html`
 
 ```html
 <!doctype html>
@@ -16421,6 +19893,19 @@ En resumen, el desarrollo de juegos 2D y 3D es un proceso que requiere una combi
 ```
 
 ### anchuras de lineas
+<small>Creado: 2025-12-01 19:08</small>
+
+#### Explicación
+
+Este código HTML es el núcleo de una página web que simula un sistema complejo de partículas interactivas, donde cada partícula representa a una persona con atributos como nombre y hobbie. El objetivo principal del código es mostrar cómo las personas (representadas por estas partículas) se mueven en la pantalla, interactúan entre sí según ciertas reglas, y cómo estas relaciones son visualizadas mediante líneas de distintos colores.
+
+El script comienza cargando un archivo JSON que contiene datos sobre diferentes personas. Cada persona tiene asociados un nombre y un hobbie. Cuando se carga correctamente el archivo JSON, cada persona se convierte en una partícula en la simulación, cuyas propiedades iniciales (posición aleatoria, velocidad angular) son asignadas al instanciarlas.
+
+Las partículas tienen métodos para dibujar sus formas y texto asociado en el lienzo, calcular las interacciones con otras partículas basándose en si comparten nombre o hobbie, moverse de acuerdo a estas fuerzas calculadas, y rebotar suavemente contra los bordes del canvas. Además, hay un bucle principal que se ejecuta continuamente para actualizar la posición y el estado de todas las partículas, así como dibujarlas en la pantalla con las líneas representando sus relaciones.
+
+Este tipo de simulación es útil para demostrar conceptos relacionados con física computacional, redes sociales y visualización de datos en un contexto interactivo.
+
+`016-anchuras de lineas.html`
 
 ```html
 <!doctype html>
@@ -16730,6 +20215,17 @@ En resumen, el desarrollo de juegos 2D y 3D es un proceso que requiere una combi
 ```
 
 ### anchura variable
+<small>Creado: 2025-12-01 19:13</small>
+
+#### Explicación
+
+Este código HTML crea una página web interactiva que simula partículas en movimiento con líneas variables de grosor entre ellas, basándose en datos cargados desde un archivo JSON. En la parte superior derecha del canvas se encuentran dos controles deslizantes que permiten ajustar la anchura mínima y máxima de las líneas que conectan a estas partículas.
+
+El script JavaScript incorporado define una clase `Particula` para gestionar cada elemento individual en el espacio, con propiedades como posición (`x`, `y`), velocidad (`vx`, `vy`) y datos personalizados (nombre y hobbie). Las interacciones entre las partículas son calculadas basándose en su similitud de nombre y hobbie, lo que determina la fuerza de atracción o repulsión. Además, el script maneja los rebotes contra los bordes del canvas y actualiza visualmente la posición y conexión de cada partícula en un bucle continuo.
+
+Este código es importante porque combina elementos fundamentales de programación web como manipulación del DOM, animaciones basadas en bucles (`requestAnimationFrame`), manejo de eventos (cambio en los controles deslizantes) y lectura de datos externos (JSON). Es una excelente introducción a cómo las partículas pueden ser utilizadas en la creación de visualizaciones dinámicas y redes de interconexión.
+
+`017-anchura variable.html`
 
 ```html
 <!doctype html>
@@ -17144,6 +20640,17 @@ En resumen, el desarrollo de juegos 2D y 3D es un proceso que requiere una combi
 ```
 
 ### personas
+<small>Creado: 2025-12-01 19:04</small>
+
+#### Explicación
+
+Este archivo contiene información sobre los hobbies de varias personas, almacenada en formato JSON. Cada persona es representada por un objeto JSON que tiene dos propiedades: `"nombre"` y `"hobbie"`. El nombre se refiere al nombre de la persona, mientras que el hobby es una actividad que esa persona disfruta haciendo, como "Ajedrez", "Pintura", etc.
+
+El archivo lista 16 personas diferentes (por ejemplo, Juan, Julia, Jorge, Jaime, Jose, Julian, Laura, Luis, Lucía, Leo, Lola, Andrés, Ana y Pablo) y para cada una de ellas se enumeran seis hobbies posibles: Ajedrez, Pintura, Fútbol, Música, Lectura y Cine. Esto crea un total de 96 líneas en el archivo, con cada línea representando un hobby específico de una persona determinada.
+
+Este tipo de estructura es muy útil para almacenar datos de forma organizada y permitir a las aplicaciones leerlos fácilmente para mostrar información personalizada o realizar análisis sobre los hobbies y preferencias de diferentes personas.
+
+`personas.json`
 
 ```json
 [
@@ -17247,94 +20754,2628 @@ En resumen, el desarrollo de juegos 2D y 3D es un proceso que requiere una combi
 ]
 ```
 
+### Actividades propuestas
+
+El código que has proporcionado es una simulación en JavaScript usando HTML y JSON para representar relaciones entre personas basadas en sus nombres y hobbies. A continuación, se explicará cómo funciona este código:
+
+### Estructura del Código
+
+1. **HTML**: El archivo `index.html` contiene la estructura básica de la página web y un espacio en blanco donde se dibujará el gráfico.
+
+2. **JavaScript**: El archivo principal (`index.html`) incluye una porción de JavaScript que maneja la carga de datos desde `personas.json`, crea partículas (representando personas), y anima sus interacciones.
+
+3. **JSON**: El archivo `personas.json` contiene un array con objetos, donde cada objeto representa a una persona con su nombre y hobby asociados.
+
+### Funcionamiento Detallado
+
+1. **Lectura de Datos**:
+   - Se carga el archivo `personas.json` usando la función `fetch`.
+   - Cuando los datos están disponibles, se crea un array de partículas (`particulas`) que representan a las personas.
+   
+2. **Creación de Partículas**:
+   - Cada persona en `personas.json` es convertida en una instancia de la clase `Particula`.
+   - Se asocia cada instacia de `Particula` con un nombre y hobby específicos.
+
+3. **Simulación de Interacciones**:
+   - Las partículas se mueven por la pantalla siguiendo reglas que modelan atraerse entre ellas basadas en sus características.
+   - Partículas con el mismo nombre pero diferentes hobbies (y viceversa) tendrán fuerzas interactivas específicas.
+
+4. **Dibujado y Animación**:
+   - Las partículas se dibujan como pequeños círculos con texto que representa su nombre y hobby.
+   - Se dibujan líneas entre las partículas según la similitud en sus características (nombre o hobby).
+
+### Clase `Particula`
+
+La clase `Particula` tiene los siguientes atributos y métodos:
+
+- **Atributos**:
+  - `x`, `y`: Posición de la partícula.
+  - `vx`, `vy`: Velocidad en el eje X e Y.
+  - `fx`, `fy`: Fuerza aplicada a la partícula.
+  - `radio`: Tamaño del círculo representativo de la partícula.
+  - `nombre` y `hobbie`: Características que definen la partícula (necesarias para las interacciones).
+
+- **Métodos**:
+  - **Constructor**: Inicializa una nueva partícula con una posición, velocidad, y características (nombre y hobby).
+  - **interacciones(particulas)**: Calcula las fuerzas entre las partículas basadas en sus atributos.
+  - **mueve()**: Actualiza la posición de la partícula según su velocidad y cualquier fuerza aplicada.
+  - **rebote()**: Controla que las partículas no salgan del área visible.
+  - **lineas()**: Dibuja líneas entre partículas basadas en sus interacciones.
+  - **dibuja()**: Dibuja la partícula en el canvas.
+
+### Ejecución
+
+Cuando se carga el archivo `personas.json` y todas las partículas son creadas, se llama a `requestAnimationFrame(bucle)` para comenzar una animación continua que actualiza la posición de cada partícula según sus interacciones con otras partículas. Este bucle continuo permite visualizar cómo las partículas se agrupan basándose en similitudes en nombres y hobbies.
+
+### Resultado Visual
+
+El resultado es un gráfico dinámico donde las personas con los mismos nombres o hobbies tienden a agruparse, creando una representación visual de las relaciones entre ellas. Las líneas que conectan partículas reflejan la fuerza de interacción basada en sus características.
+
+### Mejoras Posibles
+
+- Añadir más atributos para representar otras características de las personas.
+- Refinar las reglas de interacción para mejorar el agrupamiento y visualización.
+- Utilizar colores o estilos diferentes para distinguir mejor entre grupos.
+
+Este código proporciona una base sólida para crear simulaciones más complejas que modelen relaciones en redes sociales, organizaciones, etc.
+
+
 <a id="componentes-de-los-objetos"></a>
 ## Componentes de los objetos
 
-En el desarrollo de juegos 2D y 3D, los componentes de los objetos son fundamentales para su estructura y funcionalidad. Estos componentes pueden variar desde las propiedades básicas como la posición y la rotación hasta elementos más complejos como físicas, animaciones y colisiones.
+### openstreetmap
+<small>Creado: 2025-12-09 17:17</small>
 
-La primera categoría de componentes es aquellas que definen la apariencia del objeto. En el caso de los juegos 2D, esto puede incluir imágenes o sprites, mientras que en los 3D, implicaría modelos tridimensionales. Cada uno de estos componentes tiene propiedades específicas que pueden ser modificadas para alterar su visualización, como la escala, el color y las texturas.
+`001-openstreetmap.html`
 
-Los componentes físicos son otro aspecto crucial en el desarrollo de juegos, especialmente cuando se requiere interacción entre objetos. Estos componentes permiten simular comportamientos reales como gravedad, choques y rebotes, añadiendo profundidad a la experiencia del juego. La implementación de estos componentes puede variar dependiendo del motor de juegos utilizado, pero generalmente implican la definición de propiedades como masa, fricción y coeficiente de restitución.
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OpenStreetMap Demo</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-Las animaciones son otro componente fundamental en los juegos 2D y 3D, ya que permiten a los objetos cambiar su estado visual con el tiempo. En los juegos 2D, esto puede implicar la creación de secuencias de sprites o la utilización de gráficos vectoriales. En los 3D, las animaciones pueden ser más complejas y pueden involucrar la manipulación de modelos tridimensionales en tiempo real.
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
 
-Los componentes de entrada son otro aspecto importante en el desarrollo de juegos, ya que permiten a los jugadores interactuar con los objetos del juego. Esto puede incluir la detección de eventos como clics o pulsaciones de teclas, y la asociación de estas acciones con comportamientos específicos dentro del juego.
+    <!-- Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
 
-Los componentes de control son aquellos que manejan el flujo de ejecución del juego. Estos pueden incluir sistemas de IA para enemigos, mecanismos de combate, y lógica de nivel. Cada uno de estos componentes es responsable de una parte específica del comportamiento del juego y su implementación puede variar dependiendo de la complejidad del juego.
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        #map {
+            width: 100%;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
 
-Los componentes de almacenamiento son aquellos que manejan los datos persistentes del juego. Esto puede incluir la gestión de las puntuaciones, el progreso del jugador, y cualquier otra información que necesite ser guardada entre sesiones de juego. Los componentes de almacenamiento pueden interactuar con bases de datos o archivos locales para persistir la información.
+    <script>
+        // Initialize the map and set its view to Madrid, Spain
+        const map = L.map('map').setView([40.416775, -3.703790], 13);
 
-Los componentes de red son importantes en los juegos multijugador, permitiendo a los jugadores intercambiar información en tiempo real. Esto puede implicar la transmisión de estados de personajes, eventos del juego y cualquier otra información relevante entre los clientes y el servidor.
+        // Add OpenStreetMap tiles
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
 
-Finalmente, los componentes de interfaz de usuario (UI) son aquellos que proporcionan una forma visual para interactuar con el juego. Esto puede incluir botones, menus, indicadores de vida y cualquier otro elemento gráfico que permita a los jugadores controlar el juego o obtener información sobre su progreso.
+        // Add a marker to the map
+        L.marker([40.416775, -3.703790]).addTo(map)
+            .bindPopup('Madrid, Spain')
+            .openPopup();
+    </script>
+</body>
+</html>
+```
 
-Cada uno de estos componentes juega un papel crucial en la creación de juegos 2D y 3D, proporcionando la estructura, funcionalidad y experiencia del usuario necesaria para una buena jugabilidad. A través de la comprensión y manipulación de estos componentes, los desarrolladores pueden crear experiencias de juego dinámicas y envolventes que mantengan a los jugadores comprometidos durante largos períodos de tiempo.
+### centrado en Valencia
+<small>Creado: 2025-12-09 17:19</small>
+
+`002-centrado en Valencia.html`
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OpenStreetMap Demo</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
+
+    <!-- Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        #map {
+            width: 100%;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+
+    <script>
+        // Initialize the map and set its view to Madrid, Spain
+        const map = L.map('map').setView([39.4759729, -0.418349], 13);
+
+        // Add OpenStreetMap tiles
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // Add a marker to the map
+        L.marker([39.4759729, -0.418349]).addTo(map)
+            .bindPopup('Valencia, Spain')
+            .openPopup();
+    </script>
+</body>
+</html>
+```
+
+### manos
+<small>Creado: 2025-12-09 17:28</small>
+
+`003-manos.html`
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OpenStreetMap + MediaPipe Hands Demo</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
+    <!-- MediaPipe (legacy JS CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        #map {
+            width: 100%;
+            height: 100vh;
+        }
+        #webcam {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            width: 200px;
+            height: 150px;
+            border: 2px solid #333;
+            border-radius: 5px;
+            z-index: 1000;
+        }
+        #debugCanvas {
+            position: absolute;
+            bottom: 10px;
+            right: 220px;
+            width: 200px;
+            height: 150px;
+            border: 2px solid #333;
+            border-radius: 5px;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <video id="webcam" class="input_video" autoplay playsinline muted></video>
+    <canvas id="debugCanvas"></canvas>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+    <script>
+        // Initialize the map
+        const map = L.map('map').setView([39.4759729, -0.418349], 13);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+        L.marker([39.4759729, -0.418349]).addTo(map)
+            .bindPopup('Valencia, Spain')
+            .openPopup();
+
+        // Panoramic transformation state
+        let isPanning = false;
+        let panInterval;
+
+        // Function to start panoramic transformation
+        function startPanoramic() {
+            if (isPanning) return;
+            isPanning = true;
+            let angle = 0;
+            panInterval = setInterval(() => {
+                angle += 0.5;
+                map.setView([39.4759729, -0.418349 + 0.001 * Math.sin(angle)], 13);
+            }, 50);
+        }
+
+        // Function to stop panoramic transformation
+        function stopPanoramic() {
+            if (!isPanning) return;
+            clearInterval(panInterval);
+            isPanning = false;
+        }
+
+        // Debug canvas setup
+        const debugCanvas = document.getElementById('debugCanvas');
+        const debugCtx = debugCanvas.getContext('2d');
+
+        // MediaPipe Hands setup
+        const videoElement = document.getElementById('webcam');
+        const hands = new Hands({
+            locateFile: (file) => `https://cdn.jsdelivr.net/npm/@mediapipe/hands@0.4.1646424915/${file}`
+        });
+        hands.setOptions({
+            maxNumHands: 1,
+            modelComplexity: 1,
+            minDetectionConfidence: 0.5,
+            minTrackingConfidence: 0.5
+        });
+
+        hands.onResults((results) => {
+            // Draw landmarks on debug canvas
+            debugCtx.clearRect(0, 0, debugCanvas.width, debugCanvas.height);
+            debugCtx.drawImage(results.image, 0, 0, debugCanvas.width, debugCanvas.height);
+            if (results.multiHandLandmarks) {
+                for (const landmarks of results.multiHandLandmarks) {
+                    drawConnectors(debugCtx, landmarks, HAND_CONNECTIONS, {color: '#00FF00', lineWidth: 2});
+                    drawLandmarks(debugCtx, landmarks, {radius: 2, color: '#FF0000'});
+                }
+            }
+
+            // Your logic for panoramic control
+            if (results.multiHandLandmarks && results.multiHandLandmarks.length > 0) {
+                const landmarks = results.multiHandLandmarks[0];
+                const handedness = results.multiHandedness[0].label;
+                if (handedness === 'Right') {
+                    const thumbTip = landmarks[4];
+                    const indexTip = landmarks[8];
+                    const distance = Math.sqrt(
+                        Math.pow(thumbTip.x - indexTip.x, 2) +
+                        Math.pow(thumbTip.y - indexTip.y, 2)
+                    );
+                    if (distance < 0.05) {
+                        startPanoramic();
+                    } else {
+                        stopPanoramic();
+                    }
+                }
+            } else {
+                stopPanoramic();
+            }
+        });
+
+        // Use Camera directly (globally available from camera_utils.js)
+        const camera = new Camera(videoElement, {
+            onFrame: async () => {
+                await hands.send({ image: videoElement });
+            },
+            width: 200,
+            height: 150
+        });
+        camera.start();
+    </script>
+</body>
+</html>
+```
+
+### mover manos
+<small>Creado: 2025-12-09 17:40</small>
+
+`004-mover manos.html`
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OpenStreetMap + MediaPipe Hands Demo</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
+    <!-- MediaPipe (legacy JS CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        #map {
+            width: 100%;
+            height: 100vh;
+        }
+        #webcam {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            width: 200px;
+            height: 150px;
+            border: 2px solid #333;
+            border-radius: 5px;
+            z-index: 1000;
+        }
+        #debugCanvas {
+            position: absolute;
+            bottom: 10px;
+            right: 220px;
+            width: 200px;
+            height: 150px;
+            border: 2px solid #333;
+            border-radius: 5px;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <video id="webcam" class="input_video" autoplay playsinline muted></video>
+    <canvas id="debugCanvas"></canvas>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+    <script>
+        // Initialize the map
+        const map = L.map('map').setView([39.4759729, -0.418349], 13);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+        L.marker([39.4759729, -0.418349]).addTo(map)
+            .bindPopup('Valencia, Spain')
+            .openPopup();
+
+        // Debug canvas setup
+        const debugCanvas = document.getElementById('debugCanvas');
+        const debugCtx = debugCanvas.getContext('2d');
+
+        // Map dragging state
+        let isDragging = false;
+        let lastHandX = 0;
+        let lastHandY = 0;
+        const dragSensitivity = 0.00005; // Adjust for smoother/faster dragging
+
+        // MediaPipe Hands setup
+        const videoElement = document.getElementById('webcam');
+        const hands = new Hands({
+            locateFile: (file) => `https://cdn.jsdelivr.net/npm/@mediapipe/hands@0.4.1646424915/${file}`
+        });
+        hands.setOptions({
+            maxNumHands: 1,
+            modelComplexity: 1,
+            minDetectionConfidence: 0.5,
+            minTrackingConfidence: 0.5
+        });
+
+        hands.onResults((results) => {
+            // Draw landmarks on debug canvas
+            debugCtx.clearRect(0, 0, debugCanvas.width, debugCanvas.height);
+            debugCtx.drawImage(results.image, 0, 0, debugCanvas.width, debugCanvas.height);
+            if (results.multiHandLandmarks) {
+                for (const landmarks of results.multiHandLandmarks) {
+                    drawConnectors(debugCtx, landmarks, HAND_CONNECTIONS, {color: '#00FF00', lineWidth: 2});
+                    drawLandmarks(debugCtx, landmarks, {radius: 2, color: '#FF0000'});
+                }
+            }
+
+            // Hand gesture logic
+            if (results.multiHandLandmarks && results.multiHandLandmarks.length > 0) {
+                const landmarks = results.multiHandLandmarks[0];
+                const handedness = results.multiHandedness[0].label;
+                if (handedness === 'Right') {
+                    const thumbTip = landmarks[4];
+                    const indexTip = landmarks[8];
+                    const distance = Math.sqrt(
+                        Math.pow(thumbTip.x - indexTip.x, 2) +
+                        Math.pow(thumbTip.y - indexTip.y, 2)
+                    );
+
+                    // Hand is closed (distance < threshold)
+                    if (distance < 2) {
+                        if (!isDragging) {
+                            // Start dragging
+                            isDragging = true;
+                            lastHandX = thumbTip.x;
+                            lastHandY = thumbTip.y;
+                        } else {
+                            // Continue dragging: move map based on hand movement
+                            const deltaX = (thumbTip.x - lastHandX) * dragSensitivity;
+                            const deltaY = (thumbTip.y - lastHandY) * dragSensitivity;
+                            const currentCenter = map.getCenter();
+                            map.setView([
+                                currentCenter.lat - deltaY,
+                                currentCenter.lng - deltaX
+                            ], map.getZoom());
+                            lastHandX = thumbTip.x;
+                            lastHandY = thumbTip.y;
+                        }
+                    } else {
+                        // Hand is open
+                        isDragging = false;
+                    }
+                }
+            } else {
+                // No hand detected
+                isDragging = false;
+            }
+        });
+
+        // Use Camera directly (globally available from camera_utils.js)
+        const camera = new Camera(videoElement, {
+            onFrame: async () => {
+                await hands.send({ image: videoElement });
+            },
+            width: 200,
+            height: 150
+        });
+        camera.start();
+    </script>
+</body>
+</html>
+```
+
+### claude nuevo
+<small>Creado: 2025-12-09 18:08</small>
+
+`005-claude nuevo.html`
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OpenStreetMap + MediaPipe Hands Demo</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
+    <!-- MediaPipe (legacy JS CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        #map {
+            width: 100%;
+            height: 100vh;
+        }
+        #webcam {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            width: 200px;
+            height: 150px;
+            border: 2px solid #333;
+            border-radius: 5px;
+            z-index: 1000;
+        }
+        #debugCanvas {
+            position: absolute;
+            bottom: 10px;
+            right: 220px;
+            width: 200px;
+            height: 150px;
+            border: 2px solid #333;
+            border-radius: 5px;
+            z-index: 1000;
+        }
+        #gestureStatus {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: rgba(0,0,0,0.7);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            z-index: 1000;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <div id="gestureStatus">Waiting for hand...</div>
+    <video id="webcam" class="input_video" autoplay playsinline muted></video>
+    <canvas id="debugCanvas"></canvas>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+    <script>
+        // Initialize the map with zoomSnap: 0 for smooth fractional zooming
+        const map = L.map('map', {
+            zoomSnap: 0,          // Allow any zoom level (no snapping)
+            zoomDelta: 0.5,       // Smaller zoom steps
+            wheelDebounceTime: 0, // No debounce
+            wheelPxPerZoomLevel: 120
+        }).setView([39.4759729, -0.418349], 13);
+        
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+        L.marker([39.4759729, -0.418349]).addTo(map)
+            .bindPopup('Valencia, Spain')
+            .openPopup();
+
+        // Debug canvas setup
+        const debugCanvas = document.getElementById('debugCanvas');
+        const debugCtx = debugCanvas.getContext('2d');
+        const gestureStatus = document.getElementById('gestureStatus');
+
+        // Map dragging and zooming state
+        let isDragging = false;
+        let isZooming = false;
+        let lastHandX = 0;
+        let lastHandY = 0;
+        let lastHandDistance = 0;
+        const dragSensitivity = 800;
+        const zoomSensitivity = 15; // Increased for more noticeable zoom
+
+        // Accumulated zoom to apply in batches
+        let accumulatedZoom = 0;
+        let lastZoomTime = 0;
+        const zoomThreshold = 0.1; // Minimum zoom change to apply
+
+        // MediaPipe Hands setup
+        const videoElement = document.getElementById('webcam');
+        const hands = new Hands({
+            locateFile: (file) => `https://cdn.jsdelivr.net/npm/@mediapipe/hands@0.4.1646424915/${file}`
+        });
+        hands.setOptions({
+            maxNumHands: 2,
+            modelComplexity: 1,
+            minDetectionConfidence: 0.5,
+            minTrackingConfidence: 0.5
+        });
+
+        hands.onResults((results) => {
+            // Draw landmarks on debug canvas
+            debugCtx.clearRect(0, 0, debugCanvas.width, debugCanvas.height);
+            debugCtx.drawImage(results.image, 0, 0, debugCanvas.width, debugCanvas.height);
+            if (results.multiHandLandmarks) {
+                for (const landmarks of results.multiHandLandmarks) {
+                    drawConnectors(debugCtx, landmarks, HAND_CONNECTIONS, {color: '#00FF00', lineWidth: 2});
+                    drawLandmarks(debugCtx, landmarks, {radius: 2, color: '#FF0000'});
+                }
+            }
+
+            // Hand gesture logic
+            if (results.multiHandLandmarks && results.multiHandLandmarks.length > 0) {
+                const numHands = results.multiHandLandmarks.length;
+                
+                // Check if hands are closed (thumb-index distance < threshold)
+                const areHandsClosed = [];
+                for (let i = 0; i < numHands; i++) {
+                    const landmarks = results.multiHandLandmarks[i];
+                    const thumbTip = landmarks[4];
+                    const indexTip = landmarks[8];
+                    const distance = Math.sqrt(
+                        Math.pow(thumbTip.x - indexTip.x, 2) +
+                        Math.pow(thumbTip.y - indexTip.y, 2)
+                    );
+                    areHandsClosed.push(distance < 0.08); // Slightly larger threshold
+                }
+
+                // TWO HANDS CLOSED: Pinch to zoom
+                if (numHands === 2 && areHandsClosed[0] && areHandsClosed[1]) {
+                    const hand1 = results.multiHandLandmarks[0][4];
+                    const hand2 = results.multiHandLandmarks[1][4];
+                    
+                    const currentDistance = Math.sqrt(
+                        Math.pow(hand1.x - hand2.x, 2) +
+                        Math.pow(hand1.y - hand2.y, 2)
+                    );
+
+                    if (!isZooming) {
+                        isZooming = true;
+                        isDragging = false;
+                        lastHandDistance = currentDistance;
+                        accumulatedZoom = 0;
+                        gestureStatus.textContent = "🔍 ZOOM MODE";
+                    } else {
+                        const distanceDelta = currentDistance - lastHandDistance;
+                        
+                        // Accumulate zoom change
+                        // Hands moving apart = zoom OUT (negative delta means zoom in)
+                        accumulatedZoom += -distanceDelta * zoomSensitivity;
+                        
+                        const now = Date.now();
+                        // Apply zoom if threshold reached or enough time passed
+                        if (Math.abs(accumulatedZoom) >= zoomThreshold || (now - lastZoomTime > 100 && accumulatedZoom !== 0)) {
+                            const currentZoom = map.getZoom();
+                            const newZoom = Math.max(1, Math.min(18, currentZoom + accumulatedZoom));
+                            
+                            // Use setView with animate: false for immediate response
+                            map.setZoom(newZoom, { animate: false });
+                            
+                            gestureStatus.innerHTML = `🔍 ZOOM: ${newZoom.toFixed(2)}<br>Delta: ${accumulatedZoom.toFixed(3)}`;
+                            console.log(`Applied zoom: ${currentZoom.toFixed(2)} → ${newZoom.toFixed(2)}`);
+                            
+                            accumulatedZoom = 0;
+                            lastZoomTime = now;
+                        }
+                        
+                        lastHandDistance = currentDistance;
+                    }
+                }
+                // ONE HAND CLOSED: Drag to pan
+                else if (numHands >= 1 && areHandsClosed[0]) {
+                    const landmarks = results.multiHandLandmarks[0];
+                    const thumbTip = landmarks[4];
+
+                    if (!isDragging) {
+                        isDragging = true;
+                        isZooming = false;
+                        lastHandX = thumbTip.x;
+                        lastHandY = thumbTip.y;
+                        gestureStatus.textContent = "✋ DRAG MODE";
+                    } else {
+                        const deltaX = (thumbTip.x - lastHandX) * dragSensitivity;
+                        const deltaY = (thumbTip.y - lastHandY) * dragSensitivity;
+
+                        // Only pan if movement is significant
+                        if (Math.abs(deltaX) > 1 || Math.abs(deltaY) > 1) {
+                            map.panBy([deltaX, -deltaY], { animate: false });
+                            gestureStatus.innerHTML = `✋ DRAG<br>ΔX: ${deltaX.toFixed(1)} ΔY: ${deltaY.toFixed(1)}`;
+                        }
+
+                        lastHandX = thumbTip.x;
+                        lastHandY = thumbTip.y;
+                    }
+                } else {
+                    gestureStatus.textContent = "👋 Hand open";
+                    isDragging = false;
+                    isZooming = false;
+                    accumulatedZoom = 0;
+                }
+            } else {
+                gestureStatus.textContent = "Waiting for hand...";
+                isDragging = false;
+                isZooming = false;
+                accumulatedZoom = 0;
+            }
+        });
+
+        // Use Camera directly (globally available from camera_utils.js)
+        const camera = new Camera(videoElement, {
+            onFrame: async () => {
+                await hands.send({ image: videoElement });
+            },
+            width: 640,  // Higher resolution for better tracking
+            height: 480
+        });
+        camera.start();
+    </script>
+</body>
+</html>
+```
+
+### debug
+<small>Creado: 2025-12-09 17:46</small>
+
+`005-debug.html`
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OpenStreetMap + MediaPipe Hands Demo</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
+    <!-- MediaPipe (legacy JS CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        #map {
+            width: 100%;
+            height: 100vh;
+        }
+        #webcam {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            width: 200px;
+            height: 150px;
+            border: 2px solid #333;
+            border-radius: 5px;
+            z-index: 1000;
+        }
+        #debugCanvas {
+            position: absolute;
+            bottom: 10px;
+            right: 220px;
+            width: 200px;
+            height: 150px;
+            border: 2px solid #333;
+            border-radius: 5px;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <video id="webcam" class="input_video" autoplay playsinline muted></video>
+    <canvas id="debugCanvas"></canvas>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+    <script>
+        // Initialize the map
+        const map = L.map('map').setView([39.4759729, -0.418349], 13);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+        L.marker([39.4759729, -0.418349]).addTo(map)
+            .bindPopup('Valencia, Spain')
+            .openPopup();
+
+        // Debug canvas setup
+        const debugCanvas = document.getElementById('debugCanvas');
+        const debugCtx = debugCanvas.getContext('2d');
+
+        // Map dragging state
+        let isDragging = false;
+        let lastHandX = 0;
+        let lastHandY = 0;
+        const dragSensitivity = 0.005; // Increased sensitivity for better dragging
+
+        // MediaPipe Hands setup
+        const videoElement = document.getElementById('webcam');
+        const hands = new Hands({
+            locateFile: (file) => `https://cdn.jsdelivr.net/npm/@mediapipe/hands@0.4.1646424915/${file}`
+        });
+        hands.setOptions({
+            maxNumHands: 1,
+            modelComplexity: 1,
+            minDetectionConfidence: 0.5,
+            minTrackingConfidence: 0.5
+        });
+
+        hands.onResults((results) => {
+            // Draw landmarks on debug canvas
+            debugCtx.clearRect(0, 0, debugCanvas.width, debugCanvas.height);
+            debugCtx.drawImage(results.image, 0, 0, debugCanvas.width, debugCanvas.height);
+            if (results.multiHandLandmarks) {
+                for (const landmarks of results.multiHandLandmarks) {
+                    drawConnectors(debugCtx, landmarks, HAND_CONNECTIONS, {color: '#00FF00', lineWidth: 2});
+                    drawLandmarks(debugCtx, landmarks, {radius: 2, color: '#FF0000'});
+                }
+            }
+
+            // Hand gesture logic
+            if (results.multiHandLandmarks && results.multiHandLandmarks.length > 0) {
+                const landmarks = results.multiHandLandmarks[0];
+                const handedness = results.multiHandedness[0].label;
+                console.log(`Handedness: ${handedness}`);
+
+                if (handedness === 'Right' || handedness === 'Left') { // Allow either hand
+                    const thumbTip = landmarks[4];
+                    const indexTip = landmarks[8];
+                    const distance = Math.sqrt(
+                        Math.pow(thumbTip.x - indexTip.x, 2) +
+                        Math.pow(thumbTip.y - indexTip.y, 2)
+                    );
+                    console.log(`Index-Thumb Distance: ${distance.toFixed(4)}`);
+
+                    // Hand is closed (distance < threshold)
+                    if (distance < 0.05) {
+                        console.log("Hand is CLOSED");
+                        if (!isDragging) {
+                            // Start dragging
+                            isDragging = true;
+                            lastHandX = thumbTip.x;
+                            lastHandY = thumbTip.y;
+                        } else {
+                            // Continue dragging: move map based on hand movement
+                            const deltaX = (thumbTip.x - lastHandX) * dragSensitivity;
+                            const deltaY = (thumbTip.y - lastHandY) * dragSensitivity;
+
+                            // Invert Y-axis for natural dragging
+                            const currentCenter = map.getCenter();
+                            map.panBy([-deltaX * 100, deltaY * 100]); // Scale for visible movement
+
+                            lastHandX = thumbTip.x;
+                            lastHandY = thumbTip.y;
+                        }
+                    } else {
+                        // Hand is open
+                        console.log("Hand is OPEN");
+                        isDragging = false;
+                    }
+                }
+            } else {
+                // No hand detected
+                console.log("No hand detected");
+                isDragging = false;
+            }
+        });
+
+        // Use Camera directly (globally available from camera_utils.js)
+        const camera = new Camera(videoElement, {
+            onFrame: async () => {
+                await hands.send({ image: videoElement });
+            },
+            width: 200,
+            height: 150
+        });
+        camera.start();
+    </script>
+</body>
+</html>
+```
+
+### con claude
+<small>Creado: 2025-12-09 17:49</small>
+
+`006-con claude.html`
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OpenStreetMap + MediaPipe Hands Demo</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
+    <!-- MediaPipe (legacy JS CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        #map {
+            width: 100%;
+            height: 100vh;
+        }
+        #webcam {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            width: 200px;
+            height: 150px;
+            border: 2px solid #333;
+            border-radius: 5px;
+            z-index: 1000;
+        }
+        #debugCanvas {
+            position: absolute;
+            bottom: 10px;
+            right: 220px;
+            width: 200px;
+            height: 150px;
+            border: 2px solid #333;
+            border-radius: 5px;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <video id="webcam" class="input_video" autoplay playsinline muted></video>
+    <canvas id="debugCanvas"></canvas>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+    <script>
+        // Initialize the map
+        const map = L.map('map').setView([39.4759729, -0.418349], 13);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+        L.marker([39.4759729, -0.418349]).addTo(map)
+            .bindPopup('Valencia, Spain')
+            .openPopup();
+
+        // Debug canvas setup
+        const debugCanvas = document.getElementById('debugCanvas');
+        const debugCtx = debugCanvas.getContext('2d');
+
+        // Map dragging state
+        let isDragging = false;
+        let lastHandX = 0;
+        let lastHandY = 0;
+        const dragSensitivity = 1000; // Pixel multiplier for dragging
+
+        // MediaPipe Hands setup
+        const videoElement = document.getElementById('webcam');
+        const hands = new Hands({
+            locateFile: (file) => `https://cdn.jsdelivr.net/npm/@mediapipe/hands@0.4.1646424915/${file}`
+        });
+        hands.setOptions({
+            maxNumHands: 1,
+            modelComplexity: 1,
+            minDetectionConfidence: 0.5,
+            minTrackingConfidence: 0.5
+        });
+
+        hands.onResults((results) => {
+            // Draw landmarks on debug canvas
+            debugCtx.clearRect(0, 0, debugCanvas.width, debugCanvas.height);
+            debugCtx.drawImage(results.image, 0, 0, debugCanvas.width, debugCanvas.height);
+            if (results.multiHandLandmarks) {
+                for (const landmarks of results.multiHandLandmarks) {
+                    drawConnectors(debugCtx, landmarks, HAND_CONNECTIONS, {color: '#00FF00', lineWidth: 2});
+                    drawLandmarks(debugCtx, landmarks, {radius: 2, color: '#FF0000'});
+                }
+            }
+
+            // Hand gesture logic
+            if (results.multiHandLandmarks && results.multiHandLandmarks.length > 0) {
+                const landmarks = results.multiHandLandmarks[0];
+                const handedness = results.multiHandedness[0].label;
+                console.log(`Handedness: ${handedness}`);
+
+                if (handedness === 'Right' || handedness === 'Left') { // Allow either hand
+                    const thumbTip = landmarks[4];
+                    const indexTip = landmarks[8];
+                    const distance = Math.sqrt(
+                        Math.pow(thumbTip.x - indexTip.x, 2) +
+                        Math.pow(thumbTip.y - indexTip.y, 2)
+                    );
+                    console.log(`Index-Thumb Distance: ${distance.toFixed(4)}`);
+
+                    // Hand is closed (distance < threshold)
+                    if (distance < 0.05) {
+                        console.log("Hand is CLOSED");
+                        if (!isDragging) {
+                            // Start dragging
+                            isDragging = true;
+                            lastHandX = thumbTip.x;
+                            lastHandY = thumbTip.y;
+                        } else {
+                            // Continue dragging: move map based on hand movement
+                            const deltaX = (thumbTip.x - lastHandX) * dragSensitivity;
+                            const deltaY = (thumbTip.y - lastHandY) * dragSensitivity;
+
+                            // Pan map in opposite direction of hand movement (like dragging)
+                            map.panBy([-deltaX, -deltaY]);
+
+                            lastHandX = thumbTip.x;
+                            lastHandY = thumbTip.y;
+                        }
+                    } else {
+                        // Hand is open
+                        console.log("Hand is OPEN");
+                        isDragging = false;
+                    }
+                }
+            } else {
+                // No hand detected
+                console.log("No hand detected");
+                isDragging = false;
+            }
+        });
+
+        // Use Camera directly (globally available from camera_utils.js)
+        const camera = new Camera(videoElement, {
+            onFrame: async () => {
+                await hands.send({ image: videoElement });
+            },
+            width: 200,
+            height: 150
+        });
+        camera.start();
+    </script>
+</body>
+</html>
+```
+
+### pinch
+<small>Creado: 2025-12-09 17:52</small>
+
+`007-pinch.html`
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OpenStreetMap + MediaPipe Hands Demo</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
+    <!-- MediaPipe (legacy JS CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        #map {
+            width: 100%;
+            height: 100vh;
+        }
+        #webcam {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            width: 200px;
+            height: 150px;
+            border: 2px solid #333;
+            border-radius: 5px;
+            z-index: 1000;
+        }
+        #debugCanvas {
+            position: absolute;
+            bottom: 10px;
+            right: 220px;
+            width: 200px;
+            height: 150px;
+            border: 2px solid #333;
+            border-radius: 5px;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <video id="webcam" class="input_video" autoplay playsinline muted></video>
+    <canvas id="debugCanvas"></canvas>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+    <script>
+        // Initialize the map
+        const map = L.map('map').setView([39.4759729, -0.418349], 13);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+        L.marker([39.4759729, -0.418349]).addTo(map)
+            .bindPopup('Valencia, Spain')
+            .openPopup();
+
+        // Debug canvas setup
+        const debugCanvas = document.getElementById('debugCanvas');
+        const debugCtx = debugCanvas.getContext('2d');
+
+        // Map dragging and zooming state
+        let isDragging = false;
+        let isZooming = false;
+        let lastHandX = 0;
+        let lastHandY = 0;
+        let lastHandDistance = 0;
+        const dragSensitivity = 1000; // Pixel multiplier for dragging
+        const zoomSensitivity = 5; // Zoom speed multiplier
+
+        // MediaPipe Hands setup
+        const videoElement = document.getElementById('webcam');
+        const hands = new Hands({
+            locateFile: (file) => `https://cdn.jsdelivr.net/npm/@mediapipe/hands@0.4.1646424915/${file}`
+        });
+        hands.setOptions({
+            maxNumHands: 2,
+            modelComplexity: 1,
+            minDetectionConfidence: 0.5,
+            minTrackingConfidence: 0.5
+        });
+
+        hands.onResults((results) => {
+            // Draw landmarks on debug canvas
+            debugCtx.clearRect(0, 0, debugCanvas.width, debugCanvas.height);
+            debugCtx.drawImage(results.image, 0, 0, debugCanvas.width, debugCanvas.height);
+            if (results.multiHandLandmarks) {
+                for (const landmarks of results.multiHandLandmarks) {
+                    drawConnectors(debugCtx, landmarks, HAND_CONNECTIONS, {color: '#00FF00', lineWidth: 2});
+                    drawLandmarks(debugCtx, landmarks, {radius: 2, color: '#FF0000'});
+                }
+            }
+
+            // Hand gesture logic
+            if (results.multiHandLandmarks && results.multiHandLandmarks.length > 0) {
+                const numHands = results.multiHandLandmarks.length;
+                
+                // Check if hands are closed (thumb-index distance < threshold)
+                const areHandsClosed = [];
+                for (let i = 0; i < numHands; i++) {
+                    const landmarks = results.multiHandLandmarks[i];
+                    const thumbTip = landmarks[4];
+                    const indexTip = landmarks[8];
+                    const distance = Math.sqrt(
+                        Math.pow(thumbTip.x - indexTip.x, 2) +
+                        Math.pow(thumbTip.y - indexTip.y, 2)
+                    );
+                    areHandsClosed.push(distance < 0.05);
+                }
+
+                // TWO HANDS CLOSED: Pinch to zoom
+                if (numHands === 2 && areHandsClosed[0] && areHandsClosed[1]) {
+                    console.log("TWO HANDS CLOSED - ZOOM MODE");
+                    const hand1 = results.multiHandLandmarks[0][4]; // Thumb tip of hand 1
+                    const hand2 = results.multiHandLandmarks[1][4]; // Thumb tip of hand 2
+                    
+                    const currentDistance = Math.sqrt(
+                        Math.pow(hand1.x - hand2.x, 2) +
+                        Math.pow(hand1.y - hand2.y, 2)
+                    );
+
+                    if (!isZooming) {
+                        // Start zooming
+                        isZooming = true;
+                        isDragging = false;
+                        lastHandDistance = currentDistance;
+                    } else {
+                        // Continue zooming
+                        const distanceDelta = (currentDistance - lastHandDistance) * zoomSensitivity;
+                        const currentZoom = map.getZoom();
+                        map.setZoom(currentZoom + distanceDelta);
+                        
+                        lastHandDistance = currentDistance;
+                    }
+                }
+                // ONE HAND CLOSED: Drag to pan
+                else if (numHands >= 1 && areHandsClosed[0]) {
+                    console.log("ONE HAND CLOSED - DRAG MODE");
+                    const landmarks = results.multiHandLandmarks[0];
+                    const thumbTip = landmarks[4];
+
+                    if (!isDragging) {
+                        // Start dragging
+                        isDragging = true;
+                        isZooming = false;
+                        lastHandX = thumbTip.x;
+                        lastHandY = thumbTip.y;
+                    } else {
+                        // Continue dragging: move map based on hand movement
+                        const deltaX = (thumbTip.x - lastHandX) * dragSensitivity;
+                        const deltaY = (thumbTip.y - lastHandY) * dragSensitivity;
+
+                        // Pan map (flip X axis for natural dragging)
+                        map.panBy([deltaX, -deltaY]);
+
+                        lastHandX = thumbTip.x;
+                        lastHandY = thumbTip.y;
+                    }
+                } else {
+                    // Hands are open
+                    console.log("HANDS OPEN");
+                    isDragging = false;
+                    isZooming = false;
+                }
+            } else {
+                // No hand detected
+                console.log("No hand detected");
+                isDragging = false;
+                isZooming = false;
+            }
+        });
+
+        // Use Camera directly (globally available from camera_utils.js)
+        const camera = new Camera(videoElement, {
+            onFrame: async () => {
+                await hands.send({ image: videoElement });
+            },
+            width: 200,
+            height: 150
+        });
+        camera.start();
+    </script>
+</body>
+</html>
+```
+
+### pinch 2
+<small>Creado: 2025-12-09 18:03</small>
+
+`008-pinch 2.html`
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OpenStreetMap + MediaPipe Hands Demo</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
+    <!-- MediaPipe (legacy JS CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        #map {
+            width: 100%;
+            height: 100vh;
+        }
+        #webcam {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            width: 200px;
+            height: 150px;
+            border: 2px solid #333;
+            border-radius: 5px;
+            z-index: 1000;
+        }
+        #debugCanvas {
+            position: absolute;
+            bottom: 10px;
+            right: 220px;
+            width: 200px;
+            height: 150px;
+            border: 2px solid #333;
+            border-radius: 5px;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <video id="webcam" class="input_video" autoplay playsinline muted></video>
+    <canvas id="debugCanvas"></canvas>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+    <script>
+        // Initialize the map
+        const map = L.map('map').setView([39.4759729, -0.418349], 13);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+        L.marker([39.4759729, -0.418349]).addTo(map)
+            .bindPopup('Valencia, Spain')
+            .openPopup();
+
+        // Debug canvas setup
+        const debugCanvas = document.getElementById('debugCanvas');
+        const debugCtx = debugCanvas.getContext('2d');
+
+        // Map dragging and zooming state
+        let isDragging = false;
+        let isZooming = false;
+        let lastHandX = 0;
+        let lastHandY = 0;
+        let lastHandDistance = 0;
+        const dragSensitivity = 1000; // Pixel multiplier for dragging
+        const zoomSensitivity = 5; // Zoom speed multiplier
+
+        // MediaPipe Hands setup
+        const videoElement = document.getElementById('webcam');
+        const hands = new Hands({
+            locateFile: (file) => `https://cdn.jsdelivr.net/npm/@mediapipe/hands@0.4.1646424915/${file}`
+        });
+        hands.setOptions({
+            maxNumHands: 2,
+            modelComplexity: 1,
+            minDetectionConfidence: 0.5,
+            minTrackingConfidence: 0.5
+        });
+
+        hands.onResults((results) => {
+            // Draw landmarks on debug canvas
+            debugCtx.clearRect(0, 0, debugCanvas.width, debugCanvas.height);
+            debugCtx.drawImage(results.image, 0, 0, debugCanvas.width, debugCanvas.height);
+            if (results.multiHandLandmarks) {
+                for (const landmarks of results.multiHandLandmarks) {
+                    drawConnectors(debugCtx, landmarks, HAND_CONNECTIONS, {color: '#00FF00', lineWidth: 2});
+                    drawLandmarks(debugCtx, landmarks, {radius: 2, color: '#FF0000'});
+                }
+            }
+
+            // Hand gesture logic
+            if (results.multiHandLandmarks && results.multiHandLandmarks.length > 0) {
+                const numHands = results.multiHandLandmarks.length;
+                
+                // Check if hands are closed (thumb-index distance < threshold)
+                const areHandsClosed = [];
+                for (let i = 0; i < numHands; i++) {
+                    const landmarks = results.multiHandLandmarks[i];
+                    const thumbTip = landmarks[4];
+                    const indexTip = landmarks[8];
+                    const distance = Math.sqrt(
+                        Math.pow(thumbTip.x - indexTip.x, 2) +
+                        Math.pow(thumbTip.y - indexTip.y, 2)
+                    );
+                    areHandsClosed.push(distance < 0.05);
+                }
+
+                // TWO HANDS CLOSED: Pinch to zoom
+                if (numHands === 2 && areHandsClosed[0] && areHandsClosed[1]) {
+                    console.log("TWO HANDS CLOSED - ZOOM MODE");
+                    const hand1 = results.multiHandLandmarks[0][4]; // Thumb tip of hand 1
+                    const hand2 = results.multiHandLandmarks[1][4]; // Thumb tip of hand 2
+                    
+                    const currentDistance = Math.sqrt(
+                        Math.pow(hand1.x - hand2.x, 2) +
+                        Math.pow(hand1.y - hand2.y, 2)
+                    );
+
+                    if (!isZooming) {
+                        // Start zooming
+                        isZooming = true;
+                        isDragging = false;
+                        lastHandDistance = currentDistance;
+                    } else {
+                        // Continue zooming
+                        const distanceDelta = currentDistance - lastHandDistance;
+                        const currentZoom = map.getZoom();
+                        
+                        // Debug info
+                        console.log(`Distance: ${currentDistance.toFixed(4)}, Delta: ${distanceDelta.toFixed(4)}`);
+                        if (distanceDelta > 0) {
+                            console.log("🔴 HANDS MOVING APART - ZOOM OUT");
+                        } else if (distanceDelta < 0) {
+                            console.log("🔵 HANDS MOVING TOGETHER - ZOOM IN");
+                        }
+                        
+                        // Hands moving apart (increasing distance) = zoom out
+                        // Hands moving together (decreasing distance) = zoom in
+                        const zoomChange = -distanceDelta * zoomSensitivity;
+                        console.log(`Current Zoom: ${currentZoom.toFixed(2)}, Zoom Change: ${zoomChange.toFixed(4)}, New Zoom: ${(currentZoom + zoomChange).toFixed(2)}`);
+                        map.setZoom(currentZoom + zoomChange);
+                        
+                        lastHandDistance = currentDistance;
+                    }
+                }
+                // ONE HAND CLOSED: Drag to pan
+                else if (numHands >= 1 && areHandsClosed[0]) {
+                    console.log("ONE HAND CLOSED - DRAG MODE");
+                    const landmarks = results.multiHandLandmarks[0];
+                    const thumbTip = landmarks[4];
+
+                    if (!isDragging) {
+                        // Start dragging
+                        isDragging = true;
+                        isZooming = false;
+                        lastHandX = thumbTip.x;
+                        lastHandY = thumbTip.y;
+                    } else {
+                        // Continue dragging: move map based on hand movement
+                        const deltaX = (thumbTip.x - lastHandX) * dragSensitivity;
+                        const deltaY = (thumbTip.y - lastHandY) * dragSensitivity;
+
+                        // Pan map (flip X axis for natural dragging)
+                        map.panBy([deltaX, -deltaY]);
+
+                        lastHandX = thumbTip.x;
+                        lastHandY = thumbTip.y;
+                    }
+                } else {
+                    // Hands are open
+                    console.log("HANDS OPEN");
+                    isDragging = false;
+                    isZooming = false;
+                }
+            } else {
+                // No hand detected
+                console.log("No hand detected");
+                isDragging = false;
+                isZooming = false;
+            }
+        });
+
+        // Use Camera directly (globally available from camera_utils.js)
+        const camera = new Camera(videoElement, {
+            onFrame: async () => {
+                await hands.send({ image: videoElement });
+            },
+            width: 200,
+            height: 150
+        });
+        camera.start();
+    </script>
+</body>
+</html>
+```
+
+### repinch
+<small>Creado: 2025-12-09 18:18</small>
+
+`009-repinch.html`
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OpenStreetMap + MediaPipe Hands Demo</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
+    <!-- MediaPipe (legacy JS CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        #map {
+            width: 100%;
+            height: 100vh;
+        }
+        #webcam {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            width: 200px;
+            height: 150px;
+            border: 2px solid #333;
+            border-radius: 5px;
+            z-index: 1000;
+        }
+        #debugCanvas {
+            position: absolute;
+            bottom: 10px;
+            right: 220px;
+            width: 200px;
+            height: 150px;
+            border: 2px solid #333;
+            border-radius: 5px;
+            z-index: 1000;
+        }
+        #gestureStatus {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: rgba(0,0,0,0.7);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            z-index: 1000;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <div id="gestureStatus">Waiting for hand...</div>
+    <video id="webcam" class="input_video" autoplay playsinline muted></video>
+    <canvas id="debugCanvas"></canvas>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+    <script>
+        // Initialize the map with zoomSnap: 0 for smooth fractional zooming
+        const map = L.map('map', {
+            zoomSnap: 0,          // Allow any zoom level (no snapping)
+            zoomDelta: 0.5,       // Smaller zoom steps
+            wheelDebounceTime: 0, // No debounce
+            wheelPxPerZoomLevel: 120
+        }).setView([39.4759729, -0.418349], 13);
+        
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+        L.marker([39.4759729, -0.418349]).addTo(map)
+            .bindPopup('Valencia, Spain')
+            .openPopup();
+
+        // Debug canvas setup
+        const debugCanvas = document.getElementById('debugCanvas');
+        const debugCtx = debugCanvas.getContext('2d');
+        const gestureStatus = document.getElementById('gestureStatus');
+
+        // Map dragging and zooming state
+        let isDragging = false;
+        let isZooming = false;
+        let lastHandX = 0;
+        let lastHandY = 0;
+        let lastHandDistance = 0;
+        const dragSensitivity = 800;
+        const zoomSensitivity = 15; // Increased for more noticeable zoom
+
+        // Accumulated zoom to apply in batches
+        let accumulatedZoom = 0;
+        let lastZoomTime = 0;
+        const zoomThreshold = 0.1; // Minimum zoom change to apply
+
+        // MediaPipe Hands setup
+        const videoElement = document.getElementById('webcam');
+        const hands = new Hands({
+            locateFile: (file) => `https://cdn.jsdelivr.net/npm/@mediapipe/hands@0.4.1646424915/${file}`
+        });
+        hands.setOptions({
+            maxNumHands: 2,
+            modelComplexity: 1,
+            minDetectionConfidence: 0.5,
+            minTrackingConfidence: 0.5
+        });
+
+        hands.onResults((results) => {
+            // Draw landmarks on debug canvas
+            debugCtx.clearRect(0, 0, debugCanvas.width, debugCanvas.height);
+            debugCtx.drawImage(results.image, 0, 0, debugCanvas.width, debugCanvas.height);
+            if (results.multiHandLandmarks) {
+                for (const landmarks of results.multiHandLandmarks) {
+                    drawConnectors(debugCtx, landmarks, HAND_CONNECTIONS, {color: '#00FF00', lineWidth: 2});
+                    drawLandmarks(debugCtx, landmarks, {radius: 2, color: '#FF0000'});
+                }
+            }
+
+            // Hand gesture logic
+            if (results.multiHandLandmarks && results.multiHandLandmarks.length > 0) {
+                const numHands = results.multiHandLandmarks.length;
+                
+                // Check if hands are closed (thumb-index distance < threshold)
+                const areHandsClosed = [];
+                for (let i = 0; i < numHands; i++) {
+                    const landmarks = results.multiHandLandmarks[i];
+                    const thumbTip = landmarks[4];
+                    const indexTip = landmarks[8];
+                    const distance = Math.sqrt(
+                        Math.pow(thumbTip.x - indexTip.x, 2) +
+                        Math.pow(thumbTip.y - indexTip.y, 2)
+                    );
+                    areHandsClosed.push(distance < 0.08); // Slightly larger threshold
+                }
+
+                // TWO HANDS CLOSED: Pinch to zoom
+                if (numHands === 2 && areHandsClosed[0] && areHandsClosed[1]) {
+                    const hand1 = results.multiHandLandmarks[0][4];
+                    const hand2 = results.multiHandLandmarks[1][4];
+                    
+                    const currentDistance = Math.sqrt(
+                        Math.pow(hand1.x - hand2.x, 2) +
+                        Math.pow(hand1.y - hand2.y, 2)
+                    );
+
+                    if (!isZooming) {
+                        isZooming = true;
+                        isDragging = false;
+                        lastHandDistance = currentDistance;
+                        accumulatedZoom = 0;
+                        gestureStatus.textContent = "🔍 ZOOM MODE";
+                    } else {
+                        const distanceDelta = currentDistance - lastHandDistance;
+                        
+                        // Accumulate zoom change
+                        // Hands moving apart = zoom OUT (negative delta means zoom in)
+                        accumulatedZoom += -distanceDelta * zoomSensitivity;
+                        
+                        const now = Date.now();
+                        // Apply zoom if threshold reached or enough time passed
+                        if (Math.abs(accumulatedZoom) >= zoomThreshold || (now - lastZoomTime > 100 && accumulatedZoom !== 0)) {
+                            const currentZoom = map.getZoom();
+                            const newZoom = Math.max(1, Math.min(18, currentZoom + accumulatedZoom));
+                            
+                            // Use setView with animate: false for immediate response
+                            map.setZoom(newZoom, { animate: false });
+                            
+                            gestureStatus.innerHTML = `🔍 ZOOM: ${newZoom.toFixed(2)}<br>Delta: ${accumulatedZoom.toFixed(3)}`;
+                            console.log(`Applied zoom: ${currentZoom.toFixed(2)} → ${newZoom.toFixed(2)}`);
+                            
+                            accumulatedZoom = 0;
+                            lastZoomTime = now;
+                        }
+                        
+                        lastHandDistance = currentDistance;
+                    }
+                }
+                // ONE HAND CLOSED: Drag to pan
+                else if (numHands >= 1 && areHandsClosed[0]) {
+                    const landmarks = results.multiHandLandmarks[0];
+                    const thumbTip = landmarks[4];
+
+                    if (!isDragging) {
+                        isDragging = true;
+                        isZooming = false;
+                        lastHandX = thumbTip.x;
+                        lastHandY = thumbTip.y;
+                        gestureStatus.textContent = "✋ DRAG MODE";
+                    } else {
+                        const deltaX = (thumbTip.x - lastHandX) * dragSensitivity;
+                        const deltaY = (thumbTip.y - lastHandY) * dragSensitivity;
+
+                        // Only pan if movement is significant
+                        if (Math.abs(deltaX) > 1 || Math.abs(deltaY) > 1) {
+                            map.panBy([deltaX, -deltaY], { animate: false });
+                            gestureStatus.innerHTML = `✋ DRAG<br>ΔX: ${deltaX.toFixed(1)} ΔY: ${deltaY.toFixed(1)}`;
+                        }
+
+                        lastHandX = thumbTip.x;
+                        lastHandY = thumbTip.y;
+                    }
+                } else {
+                    gestureStatus.textContent = "👋 Hand open";
+                    isDragging = false;
+                    isZooming = false;
+                    accumulatedZoom = 0;
+                }
+            } else {
+                gestureStatus.textContent = "Waiting for hand...";
+                isDragging = false;
+                isZooming = false;
+                accumulatedZoom = 0;
+            }
+        });
+
+        // Use Camera directly (globally available from camera_utils.js)
+        const camera = new Camera(videoElement, {
+            onFrame: async () => {
+                await hands.send({ image: videoElement });
+            },
+            width: 640,  // Higher resolution for better tracking
+            height: 480
+        });
+        camera.start();
+    </script>
+</body>
+</html>
+```
+
+### zoom mas suave
+<small>Creado: 2025-12-09 18:21</small>
+
+`010-zoom mas suave.html`
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OpenStreetMap + MediaPipe Hands Demo</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        #map {
+            width: 100%;
+            height: 100vh;
+        }
+        #webcam {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            width: 200px;
+            height: 150px;
+            border: 2px solid #333;
+            border-radius: 5px;
+            z-index: 1000;
+        }
+        #debugCanvas {
+            position: absolute;
+            bottom: 10px;
+            right: 220px;
+            width: 200px;
+            height: 150px;
+            border: 2px solid #333;
+            border-radius: 5px;
+            z-index: 1000;
+        }
+        #gestureStatus {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: rgba(0,0,0,0.7);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            z-index: 1000;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <div id="gestureStatus">Waiting for hand...</div>
+    <video id="webcam" class="input_video" autoplay playsinline muted></video>
+    <canvas id="debugCanvas"></canvas>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+    <script>
+        // Initialize the map
+        const map = L.map('map', {
+            zoomSnap: 0,
+            zoomDelta: 0.5,
+            wheelDebounceTime: 0,
+            wheelPxPerZoomLevel: 120
+        }).setView([39.4759729, -0.418349], 13);
+        
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+        L.marker([39.4759729, -0.418349]).addTo(map)
+            .bindPopup('Valencia, Spain')
+            .openPopup();
+
+        const debugCanvas = document.getElementById('debugCanvas');
+        const debugCtx = debugCanvas.getContext('2d');
+        const gestureStatus = document.getElementById('gestureStatus');
+
+        // State
+        let isDragging = false;
+        let isZooming = false;
+        let lastHandX = 0;
+        let lastHandY = 0;
+        const dragSensitivity = 800;
+
+        // ============ SMOOTH ZOOM SYSTEM ============
+        const zoomSensitivity = 8;
+        
+        // Exponential moving average for distance smoothing
+        const distanceHistory = [];
+        const DISTANCE_HISTORY_SIZE = 5;  // Number of frames to average
+        let smoothedDistance = 0;
+        let initialZoomDistance = 0;
+        let initialZoomLevel = 0;
+        
+        // Target zoom with interpolation
+        let targetZoom = 13;
+        let currentDisplayZoom = 13;
+        const ZOOM_LERP_FACTOR = 0.15;  // How fast to interpolate (0-1, lower = smoother)
+        const ZOOM_DEAD_ZONE = 0.02;    // Ignore tiny distance changes
+        
+        // Animation loop for smooth zoom interpolation
+        function animateZoom() {
+            if (Math.abs(targetZoom - currentDisplayZoom) > 0.001) {
+                // Lerp towards target
+                currentDisplayZoom += (targetZoom - currentDisplayZoom) * ZOOM_LERP_FACTOR;
+                
+                // Clamp to valid range
+                currentDisplayZoom = Math.max(1, Math.min(18, currentDisplayZoom));
+                
+                // Apply to map
+                map.setZoom(currentDisplayZoom, { animate: false });
+            }
+            requestAnimationFrame(animateZoom);
+        }
+        animateZoom();
+        
+        // Get smoothed distance using moving average
+        function getSmoothedDistance(rawDistance) {
+            distanceHistory.push(rawDistance);
+            if (distanceHistory.length > DISTANCE_HISTORY_SIZE) {
+                distanceHistory.shift();
+            }
+            
+            // Calculate weighted average (more recent = higher weight)
+            let sum = 0;
+            let weightSum = 0;
+            for (let i = 0; i < distanceHistory.length; i++) {
+                const weight = i + 1;  // Linear weights
+                sum += distanceHistory[i] * weight;
+                weightSum += weight;
+            }
+            return sum / weightSum;
+        }
+        // ============================================
+
+        // MediaPipe Hands setup
+        const videoElement = document.getElementById('webcam');
+        const hands = new Hands({
+            locateFile: (file) => `https://cdn.jsdelivr.net/npm/@mediapipe/hands@0.4.1646424915/${file}`
+        });
+        hands.setOptions({
+            maxNumHands: 2,
+            modelComplexity: 1,
+            minDetectionConfidence: 0.5,
+            minTrackingConfidence: 0.5
+        });
+
+        hands.onResults((results) => {
+            // Draw landmarks
+            debugCtx.clearRect(0, 0, debugCanvas.width, debugCanvas.height);
+            debugCtx.drawImage(results.image, 0, 0, debugCanvas.width, debugCanvas.height);
+            if (results.multiHandLandmarks) {
+                for (const landmarks of results.multiHandLandmarks) {
+                    drawConnectors(debugCtx, landmarks, HAND_CONNECTIONS, {color: '#00FF00', lineWidth: 2});
+                    drawLandmarks(debugCtx, landmarks, {radius: 2, color: '#FF0000'});
+                }
+            }
+
+            if (results.multiHandLandmarks && results.multiHandLandmarks.length > 0) {
+                const numHands = results.multiHandLandmarks.length;
+                
+                // Check if hands are closed
+                const areHandsClosed = [];
+                for (let i = 0; i < numHands; i++) {
+                    const landmarks = results.multiHandLandmarks[i];
+                    const thumbTip = landmarks[4];
+                    const indexTip = landmarks[8];
+                    const distance = Math.sqrt(
+                        Math.pow(thumbTip.x - indexTip.x, 2) +
+                        Math.pow(thumbTip.y - indexTip.y, 2)
+                    );
+                    areHandsClosed.push(distance < 0.08);
+                }
+
+                // TWO HANDS CLOSED: Pinch to zoom
+                if (numHands === 2 && areHandsClosed[0] && areHandsClosed[1]) {
+                    const hand1 = results.multiHandLandmarks[0][4];
+                    const hand2 = results.multiHandLandmarks[1][4];
+                    
+                    const rawDistance = Math.sqrt(
+                        Math.pow(hand1.x - hand2.x, 2) +
+                        Math.pow(hand1.y - hand2.y, 2)
+                    );
+                    
+                    // Get smoothed distance
+                    smoothedDistance = getSmoothedDistance(rawDistance);
+
+                    if (!isZooming) {
+                        // Start zooming - capture initial state
+                        isZooming = true;
+                        isDragging = false;
+                        initialZoomDistance = smoothedDistance;
+                        initialZoomLevel = map.getZoom();
+                        targetZoom = initialZoomLevel;
+                        currentDisplayZoom = initialZoomLevel;
+                        distanceHistory.length = 0;  // Clear history
+                        gestureStatus.textContent = "🔍 ZOOM MODE";
+                    } else {
+                        // Calculate zoom based on ratio from initial distance
+                        const distanceRatio = smoothedDistance / initialZoomDistance;
+                        const distanceDelta = smoothedDistance - initialZoomDistance;
+                        
+                        // Apply dead zone to prevent jitter
+                        if (Math.abs(distanceDelta) > ZOOM_DEAD_ZONE) {
+                            // Zoom out when hands move apart, zoom in when they come together
+                            // Using logarithmic scaling for more natural feel
+                            const zoomChange = -Math.log2(distanceRatio) * zoomSensitivity;
+                            targetZoom = Math.max(1, Math.min(18, initialZoomLevel + zoomChange));
+                        }
+                        
+                        gestureStatus.innerHTML = `🔍 ZOOM: ${currentDisplayZoom.toFixed(2)}<br>Target: ${targetZoom.toFixed(2)}<br>Ratio: ${distanceRatio.toFixed(3)}`;
+                    }
+                }
+                // ONE HAND CLOSED: Drag to pan
+                else if (numHands >= 1 && areHandsClosed[0]) {
+                    const landmarks = results.multiHandLandmarks[0];
+                    const thumbTip = landmarks[4];
+
+                    if (!isDragging) {
+                        isDragging = true;
+                        isZooming = false;
+                        lastHandX = thumbTip.x;
+                        lastHandY = thumbTip.y;
+                        // Reset zoom state
+                        distanceHistory.length = 0;
+                        gestureStatus.textContent = "✋ DRAG MODE";
+                    } else {
+                        const deltaX = (thumbTip.x - lastHandX) * dragSensitivity;
+                        const deltaY = (thumbTip.y - lastHandY) * dragSensitivity;
+
+                        if (Math.abs(deltaX) > 1 || Math.abs(deltaY) > 1) {
+                            map.panBy([deltaX, -deltaY], { animate: false });
+                            gestureStatus.innerHTML = `✋ DRAG<br>ΔX: ${deltaX.toFixed(1)} ΔY: ${deltaY.toFixed(1)}`;
+                        }
+
+                        lastHandX = thumbTip.x;
+                        lastHandY = thumbTip.y;
+                    }
+                } else {
+                    gestureStatus.textContent = "👋 Hand open";
+                    isDragging = false;
+                    isZooming = false;
+                    distanceHistory.length = 0;
+                }
+            } else {
+                gestureStatus.textContent = "Waiting for hand...";
+                isDragging = false;
+                isZooming = false;
+                distanceHistory.length = 0;
+            }
+        });
+
+        const camera = new Camera(videoElement, {
+            onFrame: async () => {
+                await hands.send({ image: videoElement });
+            },
+            width: 640,
+            height: 480
+        });
+        camera.start();
+    </script>
+</body>
+</html>
+```
+
+### suavizado
+<small>Creado: 2025-12-09 18:35</small>
+
+`011-suavizado.html`
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OpenStreetMap + MediaPipe Hands Demo</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+          href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        #map {
+            width: 100%;
+            height: 100vh;
+        }
+        #webcam {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            width: 200px;
+            height: 150px;
+            border: 2px solid #333;
+            border-radius: 5px;
+            z-index: 1000;
+        }
+        #debugCanvas {
+            position: absolute;
+            bottom: 10px;
+            right: 220px;
+            width: 200px;
+            height: 150px;
+            border: 2px solid #333;
+            border-radius: 5px;
+            z-index: 1000;
+        }
+        #gestureStatus {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: rgba(0,0,0,0.7);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            z-index: 1000;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <div id="gestureStatus">Waiting for hand...</div>
+    <video id="webcam" class="input_video" autoplay playsinline muted></video>
+    <canvas id="debugCanvas"></canvas>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+    <script>
+        // Initialize the map
+        const map = L.map('map', {
+            zoomSnap: 0,
+            zoomDelta: 0.5,
+            wheelDebounceTime: 0,
+            wheelPxPerZoomLevel: 120
+        }).setView([39.4759729, -0.418349], 13);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+        L.marker([39.4759729, -0.418349]).addTo(map)
+            .bindPopup('Valencia, Spain')
+            .openPopup();
+
+        const debugCanvas = document.getElementById('debugCanvas');
+        const debugCtx = debugCanvas.getContext('2d');
+        const gestureStatus = document.getElementById('gestureStatus');
+
+        // State
+        let isDragging = false;
+        let isZooming = false;
+        let lastHandX = 0;
+        let lastHandY = 0;
+        let filteredHandX = null;
+        let filteredHandY = null;
+        const dragSensitivity = 800;
+        const PAN_SMOOTHING = 0.25; // 0–1, lower = smoother
+
+        // ============ SMOOTH ZOOM SYSTEM ============
+        const zoomSensitivity = 8;
+
+        // Exponential moving average for distance smoothing
+        let smoothedDistance = 0;
+        let filteredDistance = null;
+        const DISTANCE_SMOOTHING = 0.12; // 0–1, lower = smoother
+
+        let initialZoomDistance = 0;
+        let initialZoomLevel = 0;
+
+        // Target zoom with interpolation
+        let targetZoom = 13;
+        let currentDisplayZoom = 13;
+        const ZOOM_LERP_FACTOR = 0.1;   // How fast to interpolate (0-1, lower = smoother)
+        const ZOOM_DEAD_ZONE = 0.01;    // Ignore tiny distance changes
+
+        // Animation loop for smooth zoom interpolation
+        function animateZoom() {
+            if (Math.abs(targetZoom - currentDisplayZoom) > 0.001) {
+                // Lerp towards target
+                currentDisplayZoom += (targetZoom - currentDisplayZoom) * ZOOM_LERP_FACTOR;
+
+                // Clamp to valid range
+                currentDisplayZoom = Math.max(1, Math.min(18, currentDisplayZoom));
+
+                // Apply to map (disable Leaflet animation, we already interpolate)
+                map.setZoom(currentDisplayZoom, { animate: false });
+            }
+            requestAnimationFrame(animateZoom);
+        }
+        animateZoom();
+
+        // Get smoothed distance using exponential smoothing (low-pass filter)
+        function getSmoothedDistance(rawDistance) {
+            if (filteredDistance === null) {
+                filteredDistance = rawDistance;
+            } else {
+                filteredDistance += DISTANCE_SMOOTHING * (rawDistance - filteredDistance);
+            }
+            return filteredDistance;
+        }
+        // ============================================
+
+        // MediaPipe Hands setup
+        const videoElement = document.getElementById('webcam');
+        const hands = new Hands({
+            locateFile: (file) => `https://cdn.jsdelivr.net/npm/@mediapipe/hands@0.4.1646424915/${file}`
+        });
+        hands.setOptions({
+            maxNumHands: 2,
+            modelComplexity: 1,
+            minDetectionConfidence: 0.5,
+            minTrackingConfidence: 0.5
+        });
+
+        hands.onResults((results) => {
+            // Draw landmarks
+            debugCtx.clearRect(0, 0, debugCanvas.width, debugCanvas.height);
+            debugCtx.drawImage(results.image, 0, 0, debugCanvas.width, debugCanvas.height);
+            if (results.multiHandLandmarks) {
+                for (const landmarks of results.multiHandLandmarks) {
+                    drawConnectors(debugCtx, landmarks, HAND_CONNECTIONS, {color: '#00FF00', lineWidth: 2});
+                    drawLandmarks(debugCtx, landmarks, {radius: 2, color: '#FF0000'});
+                }
+            }
+
+            if (results.multiHandLandmarks && results.multiHandLandmarks.length > 0) {
+                const numHands = results.multiHandLandmarks.length;
+
+                // Check if hands are closed (thumb-index pinch)
+                const areHandsClosed = [];
+                for (let i = 0; i < numHands; i++) {
+                    const landmarks = results.multiHandLandmarks[i];
+                    const thumbTip = landmarks[4];
+                    const indexTip = landmarks[8];
+                    const distance = Math.sqrt(
+                        Math.pow(thumbTip.x - indexTip.x, 2) +
+                        Math.pow(thumbTip.y - indexTip.y, 2)
+                    );
+                    areHandsClosed.push(distance < 0.08);
+                }
+
+                // TWO HANDS CLOSED: Pinch to zoom
+                if (numHands === 2 && areHandsClosed[0] && areHandsClosed[1]) {
+                    const hand1 = results.multiHandLandmarks[0][4];
+                    const hand2 = results.multiHandLandmarks[1][4];
+
+                    const rawDistance = Math.sqrt(
+                        Math.pow(hand1.x - hand2.x, 2) +
+                        Math.pow(hand1.y - hand2.y, 2)
+                    );
+
+                    // Smoothed distance
+                    smoothedDistance = getSmoothedDistance(rawDistance);
+
+                    if (!isZooming) {
+                        // Start zooming - capture initial state
+                        isZooming = true;
+                        isDragging = false;
+                        initialZoomDistance = smoothedDistance;
+                        initialZoomLevel = map.getZoom();
+                        targetZoom = initialZoomLevel;
+                        currentDisplayZoom = initialZoomLevel;
+
+                        gestureStatus.textContent = "🔍 ZOOM MODE";
+                    } else {
+                        // Calculate zoom based on ratio from initial distance
+                        const distanceRatio = smoothedDistance / initialZoomDistance;
+                        const distanceDelta = smoothedDistance - initialZoomDistance;
+
+                        // Apply dead zone to prevent jitter
+                        if (Math.abs(distanceDelta) > ZOOM_DEAD_ZONE) {
+                            // Zoom out when hands move apart, zoom in when they come together
+                            // Using logarithmic scaling for more natural feel
+                            const zoomChange = -Math.log2(distanceRatio) * zoomSensitivity;
+                            targetZoom = Math.max(1, Math.min(18, initialZoomLevel + zoomChange));
+                        }
+
+                        gestureStatus.innerHTML =
+                            `🔍 ZOOM: ${currentDisplayZoom.toFixed(2)}<br>` +
+                            `Target: ${targetZoom.toFixed(2)}<br>` +
+                            `Ratio: ${distanceRatio.toFixed(3)}`;
+                    }
+                }
+                // ONE HAND CLOSED: Drag to pan
+                else if (numHands >= 1 && areHandsClosed[0]) {
+                    const landmarks = results.multiHandLandmarks[0];
+                    const thumbTip = landmarks[4];
+
+                    if (!isDragging) {
+                        isDragging = true;
+                        isZooming = false;
+
+                        // Initialise hand filters
+                        filteredHandX = thumbTip.x;
+                        filteredHandY = thumbTip.y;
+                        lastHandX = filteredHandX;
+                        lastHandY = filteredHandY;
+
+                        // Reset zoom smoothing state
+                        filteredDistance = null;
+
+                        gestureStatus.textContent = "✋ DRAG MODE";
+                    } else {
+                        // Smooth hand position
+                        filteredHandX += PAN_SMOOTHING * (thumbTip.x - filteredHandX);
+                        filteredHandY += PAN_SMOOTHING * (thumbTip.y - filteredHandY);
+
+                        const deltaX = (filteredHandX - lastHandX) * dragSensitivity;
+                        const deltaY = (filteredHandY - lastHandY) * dragSensitivity;
+
+                        if (Math.abs(deltaX) > 1 || Math.abs(deltaY) > 1) {
+                            map.panBy([deltaX, -deltaY], { animate: false });
+                            gestureStatus.innerHTML =
+                                `✋ DRAG<br>` +
+                                `ΔX: ${deltaX.toFixed(1)} ΔY: ${deltaY.toFixed(1)}`;
+                        }
+
+                        lastHandX = filteredHandX;
+                        lastHandY = filteredHandY;
+                    }
+                } else {
+                    gestureStatus.textContent = "👋 Hand open";
+                    isDragging = false;
+                    isZooming = false;
+                    filteredDistance = null;
+                    filteredHandX = null;
+                    filteredHandY = null;
+                }
+            } else {
+                gestureStatus.textContent = "Waiting for hand...";
+                isDragging = false;
+                isZooming = false;
+                filteredDistance = null;
+                filteredHandX = null;
+                filteredHandY = null;
+            }
+        });
+
+        const camera = new Camera(videoElement, {
+            onFrame: async () => {
+                await hands.send({ image: videoElement });
+            },
+            width: 640,
+            height: 480
+        });
+        camera.start();
+    </script>
+</body>
+</html>
+```
+
+### mas suviazado
+<small>Creado: 2025-12-09 18:40</small>
+
+`012-mas suviazado.html`
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OpenStreetMap + MediaPipe Hands Demo</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+          href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        #map {
+            width: 100%;
+            height: 100vh;
+        }
+        #webcam {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            width: 200px;
+            height: 150px;
+            border: 2px solid #333;
+            border-radius: 5px;
+            z-index: 1000;
+        }
+        #debugCanvas {
+            position: absolute;
+            bottom: 10px;
+            right: 220px;
+            width: 200px;
+            height: 150px;
+            border: 2px solid #333;
+            border-radius: 5px;
+            z-index: 1000;
+        }
+        #gestureStatus {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: rgba(0,0,0,0.7);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            z-index: 1000;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <div id="gestureStatus">Waiting for hand...</div>
+    <video id="webcam" class="input_video" autoplay playsinline muted></video>
+    <canvas id="debugCanvas"></canvas>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+    <script>
+        // Initialize the map
+        const map = L.map('map', {
+            zoomSnap: 0,
+            zoomDelta: 0.5,
+            wheelDebounceTime: 0,
+            wheelPxPerZoomLevel: 120
+        }).setView([39.4759729, -0.418349], 13);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+        L.marker([39.4759729, -0.418349]).addTo(map)
+            .bindPopup('Valencia, Spain')
+            .openPopup();
+
+        const debugCanvas = document.getElementById('debugCanvas');
+        const debugCtx = debugCanvas.getContext('2d');
+        const gestureStatus = document.getElementById('gestureStatus');
+
+        // State
+        let isDragging = false;
+        let isZooming = false;
+        let lastHandX = 0;
+        let lastHandY = 0;
+        let filteredHandX = null;
+        let filteredHandY = null;
+        const dragSensitivity = 800;
+        const PAN_SMOOTHING = 0.25; // 0–1, lower = smoother
+
+        // ============ SMOOTH ZOOM SYSTEM ============
+        const zoomSensitivity = 8;
+
+        // Exponential moving average for distance smoothing
+        let smoothedDistance = 0;
+        let filteredDistance = null;
+        const DISTANCE_SMOOTHING = 0.12; // 0–1, lower = smoother
+
+        let initialZoomDistance = 0;
+        let initialZoomLevel = 0;
+
+        // Target zoom with interpolation
+        let targetZoom = 13;
+        let currentDisplayZoom = 13;
+        const ZOOM_LERP_FACTOR = 0.1;   // How fast to interpolate (0-1, lower = smoother)
+        const ZOOM_DEAD_ZONE = 0.01;    // Ignore tiny distance changes
+
+        // Animation loop for smooth zoom interpolation
+        function animateZoom() {
+            if (Math.abs(targetZoom - currentDisplayZoom) > 0.001) {
+                // Lerp towards target
+                currentDisplayZoom += (targetZoom - currentDisplayZoom) * ZOOM_LERP_FACTOR;
+
+                // Clamp to valid range
+                if (!isFinite(currentDisplayZoom)) {
+                    // hard reset if something went wrong
+                    currentDisplayZoom = map.getZoom();
+                    targetZoom = currentDisplayZoom;
+                }
+                currentDisplayZoom = Math.max(1, Math.min(18, currentDisplayZoom));
+
+                // Apply to map (disable Leaflet animation, we already interpolate)
+                map.setZoom(currentDisplayZoom, { animate: false });
+            }
+            requestAnimationFrame(animateZoom);
+        }
+        animateZoom();
+
+        // Get smoothed distance using exponential smoothing (low-pass filter)
+        function getSmoothedDistance(rawDistance) {
+            if (filteredDistance === null) {
+                filteredDistance = rawDistance;
+            } else {
+                filteredDistance += DISTANCE_SMOOTHING * (rawDistance - filteredDistance);
+            }
+            return filteredDistance;
+        }
+        // ============================================
+
+        // MediaPipe Hands setup
+        const videoElement = document.getElementById('webcam');
+        const hands = new Hands({
+            locateFile: (file) => `https://cdn.jsdelivr.net/npm/@mediapipe/hands@0.4.1646424915/${file}`
+        });
+        hands.setOptions({
+            maxNumHands: 2,
+            modelComplexity: 1,
+            minDetectionConfidence: 0.5,
+            minTrackingConfidence: 0.5
+        });
+
+        hands.onResults((results) => {
+            // Draw landmarks
+            debugCtx.clearRect(0, 0, debugCanvas.width, debugCanvas.height);
+            debugCtx.drawImage(results.image, 0, 0, debugCanvas.width, debugCanvas.height);
+            if (results.multiHandLandmarks) {
+                for (const landmarks of results.multiHandLandmarks) {
+                    drawConnectors(debugCtx, landmarks, HAND_CONNECTIONS, {color: '#00FF00', lineWidth: 2});
+                    drawLandmarks(debugCtx, landmarks, {radius: 2, color: '#FF0000'});
+                }
+            }
+
+            if (results.multiHandLandmarks && results.multiHandLandmarks.length > 0) {
+                const numHands = results.multiHandLandmarks.length;
+
+                // Check if hands are closed (thumb-index pinch)
+                const areHandsClosed = [];
+                for (let i = 0; i < numHands; i++) {
+                    const landmarks = results.multiHandLandmarks[i];
+                    const thumbTip = landmarks[4];
+                    const indexTip = landmarks[8];
+                    const distance = Math.sqrt(
+                        Math.pow(thumbTip.x - indexTip.x, 2) +
+                        Math.pow(thumbTip.y - indexTip.y, 2)
+                    );
+                    areHandsClosed.push(distance < 0.08);
+                }
+
+                // TWO HANDS CLOSED: Pinch to zoom
+                if (numHands === 2 && areHandsClosed[0] && areHandsClosed[1]) {
+                    const hand1 = results.multiHandLandmarks[0][4];
+                    const hand2 = results.multiHandLandmarks[1][4];
+
+                    const rawDistance = Math.sqrt(
+                        Math.pow(hand1.x - hand2.x, 2) +
+                        Math.pow(hand1.y - hand2.y, 2)
+                    );
+
+                    // Smoothed distance
+                    smoothedDistance = getSmoothedDistance(rawDistance);
+
+                    // Ensure we have a reasonable initial distance
+                    if (!isZooming) {
+                        isZooming = true;
+                        isDragging = false;
+
+                        if (!smoothedDistance || smoothedDistance <= 0) {
+                            // Avoid zero / invalid initial distance
+                            initialZoomDistance = 0.05;
+                        } else {
+                            initialZoomDistance = smoothedDistance;
+                        }
+
+                        initialZoomLevel = map.getZoom();
+                        targetZoom = initialZoomLevel;
+                        currentDisplayZoom = initialZoomLevel;
+
+                        gestureStatus.textContent = "🔍 ZOOM MODE";
+                    } else {
+                        // Compute zoom only if initial distance is valid
+                        if (initialZoomDistance > 0) {
+                            const distanceRatio = smoothedDistance / initialZoomDistance;
+                            const distanceDelta = smoothedDistance - initialZoomDistance;
+
+                            if (isFinite(distanceRatio) && distanceRatio > 0) {
+                                // Apply dead zone to prevent jitter
+                                if (Math.abs(distanceDelta) > ZOOM_DEAD_ZONE) {
+                                    // INVERTED LOGIC:
+                                    // Hands apart (ratio > 1) => zoom IN
+                                    // Hands together (ratio < 1) => zoom OUT
+                                    const zoomChange = Math.log2(distanceRatio) * zoomSensitivity;
+                                    let newTarget = initialZoomLevel + zoomChange;
+
+                                    if (!isFinite(newTarget)) {
+                                        // Guard against NaN / Infinity
+                                        newTarget = initialZoomLevel;
+                                    }
+
+                                    // Clamp the target zoom
+                                    targetZoom = Math.max(1, Math.min(18, newTarget));
+                                }
+
+                                gestureStatus.innerHTML =
+                                    `🔍 ZOOM: ${currentDisplayZoom.toFixed(2)}<br>` +
+                                    `Target: ${targetZoom.toFixed(2)}<br>` +
+                                    `Ratio: ${distanceRatio.toFixed(3)}`;
+                            }
+                        }
+                    }
+                }
+                // ONE HAND CLOSED: Drag to pan
+                else if (numHands >= 1 && areHandsClosed[0]) {
+                    const landmarks = results.multiHandLandmarks[0];
+                    const thumbTip = landmarks[4];
+
+                    if (!isDragging) {
+                        isDragging = true;
+                        isZooming = false;
+
+                        // Initialise hand filters
+                        filteredHandX = thumbTip.x;
+                        filteredHandY = thumbTip.y;
+                        lastHandX = filteredHandX;
+                        lastHandY = filteredHandY;
+
+                        // Reset zoom smoothing state
+                        filteredDistance = null;
+
+                        gestureStatus.textContent = "✋ DRAG MODE";
+                    } else {
+                        // Smooth hand position
+                        filteredHandX += PAN_SMOOTHING * (thumbTip.x - filteredHandX);
+                        filteredHandY += PAN_SMOOTHING * (thumbTip.y - filteredHandY);
+
+                        const deltaX = (filteredHandX - lastHandX) * dragSensitivity;
+                        const deltaY = (filteredHandY - lastHandY) * dragSensitivity;
+
+                        if (Math.abs(deltaX) > 1 || Math.abs(deltaY) > 1) {
+                            map.panBy([deltaX, -deltaY], { animate: false });
+                            gestureStatus.innerHTML =
+                                `✋ DRAG<br>` +
+                                `ΔX: ${deltaX.toFixed(1)} ΔY: ${deltaY.toFixed(1)}`;
+                        }
+
+                        lastHandX = filteredHandX;
+                        lastHandY = filteredHandY;
+                    }
+                } else {
+                    gestureStatus.textContent = "👋 Hand open";
+                    isDragging = false;
+                    isZooming = false;
+                    filteredDistance = null;
+                    filteredHandX = null;
+                    filteredHandY = null;
+                }
+            } else {
+                gestureStatus.textContent = "Waiting for hand...";
+                isDragging = false;
+                isZooming = false;
+                filteredDistance = null;
+                filteredHandX = null;
+                filteredHandY = null;
+            }
+        });
+
+        const camera = new Camera(videoElement, {
+            onFrame: async () => {
+                await hands.send({ image: videoElement });
+            },
+            width: 640,
+            height: 480
+        });
+        camera.start();
+    </script>
+</body>
+</html>
+```
+
 
 <a id="fuentes-de-audio-propiedades"></a>
 ## Fuentes de audio. Propiedades
 
-En el desarrollo de juegos 2D y 3D, la gestión adecuada de fuentes de audio es crucial para crear una experiencia inmersiva y atractiva. Las fuentes de audio pueden variar desde simples efectos sonoros hasta música ambiental y diálogos, cada uno con sus propias características y propiedades que permiten su integración en el juego.
-
-Las fuentes de audio en los motores de juegos suelen estar compuestas por varias partes, incluyendo la carga del archivo de audio, la configuración de las propiedades del sonido y la gestión de la reproducción. La carga del archivo es un proceso fundamental que implica leer los datos del archivo de audio y almacenarlos en una estructura interna que el motor pueda utilizar para reproducir el sonido.
-
-Una vez cargado el archivo, se pueden configurar varias propiedades del sonido para adaptarlo al contexto del juego. Estas propiedades pueden incluir la volumen, el pitch (o tono), la posición y orientación en el espacio tridimensional, y si el sonido debe reproducirse repetitivamente o solo una vez. Cada uno de estos parámetros juega un papel importante en cómo se percibirá el sonido por parte del jugador.
-
-Además de las propiedades básicas, los motores de juegos también ofrecen funcionalidades avanzadas para controlar la reproducción de los sonidos. Por ejemplo, es posible establecer zonas de sonido donde ciertos efectos o música cambien dinámicamente según el movimiento del jugador o la situación en el juego. También se pueden utilizar eventos de sonido para desencadenar efectos específicos en respuesta a acciones del jugador.
-
-La gestión de la reproducción de los sonidos es otro aspecto importante que debe considerarse. Los motores de juegos suelen implementar sistemas de colas de sonido o canales de audio separados para controlar la prioridad y el orden de reproducción de los efectos y la música. Esto permite evitar situaciones en las que ciertos sonidos se sobrepasan por otros, lo que puede afectar la experiencia del jugador.
-
-En resumen, la gestión de fuentes de audio es una parte integral del desarrollo de juegos 2D y 3D. Desde la carga del archivo hasta la configuración de propiedades avanzadas y la gestión de reproducción, cada paso requiere un enfoque cuidadoso para asegurar que el sonido contribuya de manera efectiva a la experiencia del juego. Comprender estos aspectos es fundamental para crear juegos que sean no solo visualesmente impresionantes, sino también auditivosmente impactantes y envolventes.
 
 <a id="camaras-e-iluminacion"></a>
 ## Cámaras e iluminación
 
-En la creación de juegos 2D y 3D, las cámaras e iluminación desempeñan un papel crucial en el diseño visual y la experiencia del jugador. Las cámaras son esenciales para controlar desde dónde y cómo se ve el juego, mientras que la iluminación ayuda a crear ambientes realistas y dinámicos.
-
-Las cámaras en los motores de juegos actuales ofrecen una gran variedad de opciones para su configuración, permitiendo al desarrollador ajustar la perspectiva, el zoom y el movimiento según sea necesario. Por ejemplo, una cámara ortográfica es útil para juegos 2D, ya que mantiene un tamaño constante independientemente del desplazamiento. En contraste, las cámaras perspectivas son más apropiadas para juegos 3D, donde la perspectiva cambia según el movimiento de la cámara.
-
-La iluminación en los juegos es otro aspecto fundamental que puede crear o romper la inmersión del jugador. Los motores de juegos modernos ofrecen una amplia gama de técnicas de iluminación, desde la iluminación basada en fuentes hasta las técnicas de iluminación por sombreado realista. La correcta configuración de luces puede hacer que los objetos parezcan más naturales y realistas, lo que es crucial para mantener el interés del jugador.
-
-Además de las cámaras e iluminación, la gestión eficiente de estos elementos es vital para el rendimiento del juego. Los desarrolladores deben estar atentos a cómo se utilizan los recursos gráficos, ya que una mala configuración puede llevar a problemas de rendimiento y un juego que sea difícil de jugar.
-
-En el desarrollo de juegos 2D y 3D, también es importante considerar la interacción del jugador con las cámaras e iluminación. Por ejemplo, en juegos de acción, los jugadores pueden moverse entre diferentes perspectivas para obtener una mejor visión del escenario. En juegos de estrategia, el control preciso de la iluminación puede ayudar a ocultar información o revelar detalles importantes.
-
-La comprensión y aplicación adecuada de cámaras e iluminación no solo mejora la experiencia del jugador, sino que también añade profundidad y realismo a los juegos. Al trabajar en esta área, es fundamental mantener un equilibrio entre la estética visual y el rendimiento del juego, asegurando que ambas cosas funcionen de manera armoniosa.
-
-En resumen, las cámaras e iluminación son herramientas poderosas en el arsenal del desarrollador de juegos. Su correcta configuración puede hacer una gran diferencia en la calidad final del juego, contribuyendo a una experiencia más inmersiva y satisfactoria para los jugadores.
 
 <a id="creacion-de-escenas"></a>
 ## Creación de escenas.
 
-En el desarrollo de juegos 2D y 3D, la creación de escenas es un paso crucial que permite visualizar y experimentar con los elementos gráficos y narrativos del juego. Esta fase implica la definición de los espacios donde se desarrollará la acción, desde simples niveles hasta complejas ambientes interactivos.
-
-La creación de escenas en juegos 2D a menudo comienza con el diseño de mapas o niveles utilizando herramientas gráficas y editores específicos. Estos mapas pueden incluir plataformas, obstáculos, personajes y elementos ambientales que contribuyen al juego. En el caso de los juegos 3D, la creación de escenas es aún más compleja, ya que implica el diseño de espacios tridimensionales que pueden ser explorados por los jugadores.
-
-Para implementar estas escenas en un juego, se utilizan motores gráficos y bibliotecas específicas. Estos motores proporcionan funciones para cargar modelos 3D, aplicar texturas, manejar la iluminación y animaciones, entre otros aspectos visuales cruciales. La creación de escenas implica no solo el diseño estético, sino también la programación que permite la interacción del jugador con el entorno.
-
-Además de los elementos estáticos, las escenas en juegos 2D y 3D a menudo incluyen elementos dinámicos como personajes móviles, objetos que pueden interactuar con el jugador o otros personajes, y efectos visuales que añaden atmósfera y realismo. La programación de estos elementos requiere una comprensión profunda de la física del juego, la interacción entre objetos y la respuesta al input del usuario.
-
-La creación de escenas también implica considerar la eficiencia gráfica. Los motores de juegos están diseñados para manejar un gran número de elementos en pantalla simultáneamente, lo que requiere una optimización cuidadosa para evitar problemas de rendimiento. Esto incluye la gestión del uso de memoria y la selección de técnicas gráficas apropiadas.
-
-En el contexto de los juegos 2D, las escenas pueden ser diseñadas utilizando herramientas gráficas como Photoshop o GIMP, mientras que en los juegos 3D se utilizan motores gráficos como Unity o Unreal Engine. Estas herramientas ofrecen una variedad de recursos y funcionalidades para crear escenas detalladas y interactivas.
-
-La creación de escenas es un proceso iterativo que implica la prueba y la refinación del diseño. Los diseñadores y programadores trabajan juntos para asegurar que las escenas sean atractivas, funcionales y coherentes con el resto del juego. La retroalimentación del jugador también juega un papel crucial en esta fase, ya que permite identificar áreas donde se pueden mejorar la experiencia de juego.
-
-En resumen, la creación de escenas es una etapa fundamental en el desarrollo de juegos 2D y 3D, que requiere una combinación de diseño creativo, programación eficiente y optimización gráfica. Esta fase no solo contribuye a la apariencia visual del juego, sino también a su jugabilidad y experiencia general para los jugadores.
 
 <a id="analisis-de-ejecucion"></a>
 ## Análisis de ejecución
 
-Después de definir las técnicas básicas de programación 2D y 3D, es crucial analizar cómo se ejecutan los juegos para optimizar su rendimiento. La fase de análisis de ejecución implica la evaluación del desempeño de un juego en diferentes entornos y bajo distintas condiciones. Este proceso puede incluir la medición de tiempos de carga, velocidad de procesamiento, uso de memoria y gráficos, entre otros factores.
-
-Para realizar este análisis, es fundamental utilizar herramientas específicas que permitan recopilar datos detallados sobre el comportamiento del juego. Estas herramientas pueden variar desde simples monitores de rendimiento incorporados en los IDE hasta software especializado como profilers y analizadores de desempeño. La elección de la herramienta adecuada dependerá del tipo de juego, su complejidad y las plataformas objetivo.
-
-Una vez recopilados los datos, es necesario interpretarlos para identificar áreas de mejora. Esto puede implicar la optimización de algoritmos, la reducción de consumo de recursos o la mejora de la eficiencia gráfica. Es importante recordar que el análisis de ejecución no debe ser un proceso aislado; debe estar integrado en un ciclo continuo de desarrollo y pruebas.
-
-Además del rendimiento técnico, otro aspecto crucial es el análisis de la experiencia del usuario (UX). Esto incluye la medición de tiempos de respuesta, la comodidad del control y la satisfacción general del jugador. Herramientas como analizadores de comportamiento de usuarios pueden proporcionar insights valiosos sobre cómo los jugadores interactúan con el juego.
-
-La fase de análisis de ejecución no solo ayuda a mejorar el rendimiento técnico, sino que también es fundamental para la adaptación del juego a diferentes plataformas y dispositivos. Esto puede implicar ajustes en la resolución de pantalla, la optimización de gráficos o incluso la simplificación de ciertas funcionalidades para mantener un buen desempeño en dispositivos con menor potencia.
-
-En conclusión, el análisis de ejecución es una fase integral del desarrollo de juegos 2D y 3D. A través de la recopilación y análisis detallado de datos sobre el rendimiento técnico y la experiencia del usuario, se pueden identificar y corregir problemas que afecten a la calidad final del juego. Este proceso no solo mejora la eficiencia del código y la utilización de recursos, sino que también asegura una mejor satisfacción del jugador en todas las plataformas objetivo.
 
 
 <a id="utilizacion-de-librerias-multimedia-integradas"></a>
@@ -17343,21 +23384,66 @@ En conclusión, el análisis de ejecución es una fase integral del desarrollo d
 <a id="conceptos-sobre-aplicaciones-multimedia"></a>
 ## Conceptos sobre aplicaciones multimedia
 
-En este capítulo, nos adentramos en los fundamentos del desarrollo de aplicaciones multimedia integradas, un campo que combina conocimientos de programación con la creación de contenido visual y audio. Comenzamos por definir qué son las aplicaciones multimedia, destacando su naturaleza compleja y multifacética, que va desde el simple reproductor de música hasta los sofisticados motores de juegos.
+### Introducción a los ejercicios
 
-La arquitectura del API utilizado es un aspecto crucial en este contexto. Un API (Application Programming Interface) es una interfaz que permite a diferentes programas interactuar entre sí. En aplicaciones multimedia, estos APIs proporcionan funciones básicas para el procesamiento y reproducción de contenido multimedia, como la carga de archivos de audio o video, la manipulación de imágenes y la gestión de eventos de entrada del usuario.
+The provided code transforms a basic video player into a more customizable and user-friendly version using custom controls, volume control, and resolution switching via JSON data. Here's an overview of how each file contributes to the final product:
 
-Las fuentes de datos multimedia son otro elemento fundamental. Estas pueden ser archivos locales en el dispositivo, streams de internet o incluso dispositivos conectados a través de interfaces como Bluetooth o Wi-Fi. Cada fuente de datos requiere un manejo específico para su acceso y procesamiento dentro de la aplicación, lo que implica una comprensión profunda de las clases y métodos disponibles en el API utilizado.
+### `jocarsa-video.js`
+This JavaScript file encapsulates all the functionality for creating a custom video player. It includes:
+- **Custom Button Creation**: Generates SVG buttons with specific icons.
+- **Container Initialization**: Adds necessary HTML elements (controls, buttons, volume slider, resolution dropdown) to the container holding the `<video>` element.
+- **Event Handling**:
+  - Controls like play/pause, rewind/fast-forward, and custom seek by 10 seconds.
+  - Volume control that adjusts the video's volume property.
+  - Resolution switching using a JSON file (if provided), allowing users to switch between different resolutions or qualities of the same video.
 
-El procesamiento de objetos multimedia es otro aspecto importante del desarrollo de aplicaciones multimedia integradas. Esto incluye la codificación y decodificación de audio y video, la manipulación de imágenes y la creación de efectos visuales y sonoros. Las clases y métodos proporcionados por el API facilitan este proceso, permitiendo a los desarrolladores crear contenido multimedia interactivo y dinámico.
+### `jocarsa-video.css`
+The CSS file styles the custom controls and buttons. It includes:
+- **Button Styling**: Defines how each button looks, including hover effects.
+- **Volume Slider** and **Resolution Dropdown** styling: Ensures these UI elements are visually consistent with other controls.
+- **Hidden Native Controls**: Prevents browser’s default media control bar from appearing.
 
-La reproducción de objetos multimedia es una funcionalidad básica pero crucial en cualquier aplicación multimedia. Esto implica la carga del contenido desde las fuentes de datos, su decodificación y presentación al usuario. La calidad y eficiencia de esta reproducción son factores clave que determinan la experiencia del usuario.
+### `index.html` or Usage Example
+This HTML file demonstrates the usage of the custom video player. It involves:
+- Adding a `<video>` element inside a container that has the attribute `[data-jocarsa-video]`.
+- Optionally providing a JSON URL via `[data-renditions="path/to/json"]`.
 
-La animación de objetos es otro aspecto emocionante del desarrollo de aplicaciones multimedia integradas. A través de técnicas como el uso de gráficos 2D y 3D, los desarrolladores pueden crear contenido visualmente atractivo e interactivo. Las clases y métodos proporcionados por el API facilitan la creación de animaciones complejas y dinámicas.
+### Workflow
 
-En conclusión, el desarrollo de aplicaciones multimedia integradas requiere una comprensión profunda del funcionamiento de APIs, la gestión eficiente de fuentes de datos multimedia, el procesamiento y reproducción de contenido, así como la creación de efectos visuales y sonoros. Cada uno de estos aspectos contribuye a crear experiencias multimedia ricas y envolventes para los usuarios.
+1. **Initialization**:
+   - When an HTML document with `data-jocarsa-video` is loaded, the JavaScript initializes the custom controls for all such containers.
+   
+2. **Custom Controls**:
+   - Users can interact with custom buttons like play/pause, rewind/fast-forward, and seek by 10 seconds without needing native media controls.
+
+3. **Resolution Switching**:
+   - If a JSON file is provided via `data-renditions`, the player loads different resolutions (from the JSON) into the dropdown menu.
+   - Selecting an option updates the video source to the selected resolution, preserving the current playtime if possible.
+
+### Example Usage in HTML
+
+```html
+<div data-jocarsa-video>
+  <video src="path/to/video.mp4"></video>
+</div>
+
+<script type="module" src="jocarsa-video.js"></script>
+```
+
+This setup provides a more modern and customizable video player experience, enhancing usability without relying on browser-native controls.
 
 ### video en html5
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código es un ejemplo muy básico de cómo incorporar un video en una página web utilizando HTML. La estructura del documento comienza con `<!doctype html>`, que indica al navegador que el archivo está escrito en HTML5, la versión más reciente y actualizada del lenguaje.
+
+Dentro del cuerpo (`<body>`), hay una etiqueta `<video>` que se utiliza para incorporar contenido de video. En este caso, la etiqueta tiene un atributo `src` que especifica el nombre del archivo de video, "entrevista.mp4". Esto significa que cuando alguien visite la página web y su navegador pueda reproducir videos en formato MP4, automáticamente intentará cargar y mostrar este video.
+
+Este es uno de los métodos más simples para incorporar medios interactivos en una página web. Sin embargo, el código no incluye funcionalidades adicionales como controles del usuario (botones play/pausa, volumen, etc.), lo que limita la interacción del visitante con el video.
+
+`001-video en html5.html`
 
 ```html
 <!doctype html>
@@ -17371,6 +23457,13 @@ En conclusión, el desarrollo de aplicaciones multimedia integradas requiere una
 ```
 
 ### video con controles
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web simple que muestra un video al usuario. La etiqueta `<video>` es la principal en este caso, y dentro de ella se especifica la fuente del video mediante el atributo `src`, que apunta a un archivo llamado "entrevista.mp4". El atributo `controls` añade automáticamente controles de reproducción al video, permitiendo al usuario pausar, reproducir o ajustar el volumen del video directamente en la página web. Este tipo de código es fundamental para integrar y controlar medios multimedia en sitios web estáticos sin necesidad de usar JavaScript o tecnologías más avanzadas.
+
+`002-video con controles.html`
 
 ```html
 <!doctype html>
@@ -17384,6 +23477,19 @@ En conclusión, el desarrollo de aplicaciones multimedia integradas requiere una
 ```
 
 ### reproducir con javascript
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web sencilla que permite reproducir un vídeo utilizando JavaScript. En el cuerpo del documento (`<body>`), hay un elemento `<video>` con la fuente establecida en "entrevista.mp4", lo cual indica que el archivo de video se encuentra en la misma carpeta que este HTML o en una ruta relativa correspondiente. Además, hay un botón llamado "Reproducir".
+
+En el script incrustado (`<script>`), se selecciona primero el elemento `<video>` y el botón usando `document.querySelector`, lo que permite acceder a estos elementos para interactuar con ellos mediante JavaScript.
+
+La función asignada al evento `onclick` del botón es la encargada de iniciar la reproducción del vídeo cuando se hace clic en él, gracias al método `.play()` llamado sobre la variable `video`. Esto significa que el usuario puede controlar la reproducción del video a través de un botón interactivo en lugar de usar los controles por defecto del elemento `<video>`.
+
+Este código es importante porque demuestra cómo combinar elementos multimedia como vídeos con interactividad mediante JavaScript, proporcionando al usuario más opciones y control sobre el contenido multimedia.
+
+`003-reproducir con javascript.html`
 
 ```html
 <!doctype html>
@@ -17406,6 +23512,17 @@ En conclusión, el desarrollo de aplicaciones multimedia integradas requiere una
 ```
 
 ### parar
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML crea una página web simple que permite a un usuario reproducir y pausar un vídeo. En la parte superior del documento, se define el archivo de vídeo que será mostrado en la página usando `<video src="entrevista.mp4"></video>`. Luego, se incluyen dos botones: uno para reproducir (`Reproducir`) y otro para parar (`Parar`).
+
+En el bloque de script, JavaScript selecciona ambos botones y el elemento de vídeo desde la página. Cuando el usuario hace clic en el botón "Reproducir", la función `video.play()` comienza a reproducir el vídeo. Por otro lado, hacer clic en el botón "Parar" ejecuta la función `video.pause()`, lo que detiene temporalmente la reproducción del vídeo.
+
+Este tipo de interacción es importante porque permite al usuario controlar exactamente cuándo se reproduce y pausa un vídeo, mejorando así su experiencia en la página web.
+
+`004-parar.html`
 
 ```html
 <!doctype html>
@@ -17434,6 +23551,19 @@ En conclusión, el desarrollo de aplicaciones multimedia integradas requiere una
 ```
 
 ### rebobinar
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML crea una página web simple que incluye un reproductor de vídeo y tres botones para controlar la reproducción, pausa y rebobinado del video. El archivo de video se carga desde un enlace local llamado "entrevista.mp4".
+
+En el bloque de script, el programa selecciona los elementos HTML pertinentes utilizando métodos como `document.querySelector()`. Por ejemplo, selecciona el elemento `<video>` y cada uno de los botones por su ID.
+
+Cada botón tiene una función asociada que se ejecuta cuando se hace clic en él. El primer botón reproduce el video llamando al método `.play()` del objeto video. El segundo botón detiene la reproducción llamando a `.pause()`. Finalmente, el tercer botón vuelve a la posición inicial del video estableciendo `video.currentTime` igual a 0, lo que efectivamente rebobina el vídeo.
+
+Este tipo de código es importante porque muestra cómo interactuar con elementos multimedia en una página web utilizando JavaScript y cómo se pueden manipular los controles de un reproductor de video para proporcionar experiencia de usuario mejorada.
+
+`005-rebobinar.html`
 
 ```html
 <!doctype html>
@@ -17467,6 +23597,22 @@ En conclusión, el desarrollo de aplicaciones multimedia integradas requiere una
 ```
 
 ### 10 segundos
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML crea una página web sencilla donde se muestra un vídeo y varios botones para controlar su reproducción. En la parte superior, hay un contenedor que contiene el elemento `<video>` con el atributo `controls` para mostrar los controles estándar de reproducción del navegador. Justo debajo del reproductor de video, hay cinco botones: "Rebobinar", "-10", "Reproducir", "Parar" y "+10".
+
+En la parte inferior del documento HTML, dentro de la etiqueta `<script>`, se encuentran las instrucciones JavaScript que le dan funcionalidad a los diferentes elementos. Estas líneas de código seleccionan cada uno de los botones mediante su ID y después asignan una acción específica a cada clic. Por ejemplo:
+
+- El botón "Reproducir" inicia la reproducción del vídeo.
+- El botón "Parar" detiene el vídeo en cualquier momento.
+- El botón "Rebobinar" vuelve al comienzo (0) de la secuencia del vídeo.
+- Los botones "-10" y "+10" retroceden o avanzan el vídeo 10 segundos respectivamente.
+
+Estas funciones permiten a los usuarios interactuar con el reproductor de video de manera más personalizada, ajustando directamente cómo quieren ver la secuencia en función de sus preferencias.
+
+`006-10 segundos.html`
 
 ```html
 <!doctype html>
@@ -17515,6 +23661,19 @@ En conclusión, el desarrollo de aplicaciones multimedia integradas requiere una
 ```
 
 ### estilo
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML está diseñado para crear una interfaz simple que permite reproducir un vídeo y controlar su reproducción mediante botones. En la sección `<head>` del documento, hay varias reglas CSS que definen el estilo del contenedor del video y los botones de control. Estas reglas aseguran que el video tenga bordes redondeados y ocupe todo el espacio disponible dentro del contenedor. También se especifica cómo deben aparecer los botones de control en relación con el video.
+
+En la parte principal del cuerpo (`<body>`), se incluye un div con el id "contenedorvideo" que contiene tanto una etiqueta `<video>` como un div con id "controlesvideo". Dentro de este último, hay cinco botones que permiten al usuario reproducir, pausar, rebobinar hasta el inicio del vídeo y saltar diez segundos atrás o adelante en la reproducción.
+
+En la sección de JavaScript, el código selecciona cada uno de los elementos del DOM (Document Object Model) para interactuar con ellos. Cuando un botón es clicado, una función específica se ejecuta: por ejemplo, al hacer clic en "reproducir", el vídeo comienza a reproducirse; al hacer clic en "parar", el vídeo se detiene; y los otros botones permiten rebobinar o avanzar el tiempo del video.
+
+Este tipo de diseño es útil para comprender cómo integrar interactividad básica con HTML, CSS y JavaScript en una página web que incluye contenido multimedia.
+
+`007-estilo.html`
 
 ```html
 <!doctype html>
@@ -17598,6 +23757,19 @@ En conclusión, el desarrollo de aplicaciones multimedia integradas requiere una
 ```
 
 ### mostrar solo al entrar
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web que muestra un video con controles personalizados para interactuar con él. La estructura principal consiste en un contenedor div llamado `#contenedorvideo` donde se sitúa el reproductor de vídeo y los botones adicionales para controlar la reproducción del video.
+
+El CSS añade estilos específicos al contenedor del video y a los botones, asegurando que el video tenga bordes redondeados y que los controles solo sean visibles cuando se pasa el mouse sobre ellos. Los botones dentro de `#controlesvideo` tienen estilos que incluyen un borde redondeado y una transición suave al hacer hover.
+
+En la parte inferior del código, en la etiqueta `<script>`, se utilizan funciones JavaScript para controlar la reproducción del video. Cada uno de los botones (reproducir, parar, rebobinar, retroceder 10 segundos y adelantar 10 segundos) tiene asociado un evento `onclick` que cambia el estado del video en consecuencia. Por ejemplo, cuando se hace clic en el botón "reproducir", la función `video.play()` comienza la reproducción; al hacer clic en "parar", `video.pause()` detiene el video.
+
+Este código es importante porque demuestra cómo integrar interactividad y estilos personalizados con elementos multimedia, mejorando así la experiencia del usuario al interactuar con videos en una página web.
+
+`008-mostrar solo al entrar.html`
 
 ```html
 <!doctype html>
@@ -17686,6 +23858,17 @@ En conclusión, el desarrollo de aplicaciones multimedia integradas requiere una
 ```
 
 ### refactorizamos javascript
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML crea una página web que muestra un vídeo con controles personalizados para reproducir, pausar, rebobinar y avanzar el video. La parte visual del código está en la sección `<head>` dentro de las etiquetas `<style>`, donde se definen estilos CSS para hacer que el vídeo tenga bordes redondeados y dimensiones ajustables al 100% del contenedor. Los botones personalizados para controlar el video están ocultos hasta que pasas el ratón sobre ellos, momento en el cual aparecen con un efecto suave gracias a la transición CSS.
+
+En la sección `<body>`, hay una estructura HTML que incluye un contenedor principal (`<div id="contenedorvideo">`) que contiene tanto el elemento de vídeo como los botones de control personalizados. Los botones permiten acciones específicas: rebobinar al principio del video, retroceder 10 segundos, reproducir o pausar el video y avanzar 10 segundos.
+
+El script JavaScript dentro de la etiqueta `<script>` selecciona el elemento de vídeo y los botones para vincular eventos de clic con funciones que alteran el estado del video. Cada vez que un botón se presiona, una función comprueba su identificador (ID) usando `switch` y realiza acciones específicas como cambiar el tiempo actual del video (`currentTime`), reproducir o pausar la reproducción. Esto permite a los usuarios interactuar con el vídeo de manera intuitiva sin necesidad de usar sus controles predeterminados.
+
+`009-refactorizamos javascript.html`
 
 ```html
 <!doctype html>
@@ -17777,6 +23960,17 @@ En conclusión, el desarrollo de aplicaciones multimedia integradas requiere una
 ```
 
 ### boton de play
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML crea una página web que contiene un vídeo y varios controles personalizados para interactuar con él. En la parte superior del documento, se definen estilos CSS que determinan cómo se ve el contenedor del vídeo y los botones de control. El contenedor del vídeo tiene bordes redondeados y ocupa todo el espacio disponible dentro de su div padre, mientras que los botones tienen un diseño atractivo con iconos SVG.
+
+En la parte inferior del documento HTML, hay una etiqueta `<script>` donde se obtienen referencias al elemento de video y a todos los botones presentes en la página. Luego, para cada botón, se asigna una función que ejecuta acciones específicas sobre el vídeo cuando se hace clic en ellos. Por ejemplo, el botón con el ID "reproducir" comienza la reproducción del vídeo usando `video.play()`, mientras que el botón "parar" lo pausa con `video.pause()`.
+
+Este tipo de código es importante porque muestra cómo puedes personalizar y ampliar las funcionalidades básicas de los elementos multimedia en una página web utilizando JavaScript. Permite a los usuarios interactuar con contenido multimedia de manera más intuitiva y controlada, mejorando así la experiencia del usuario.
+
+`010-boton de play.html`
 
 ```html
 <!doctype html>
@@ -17900,6 +24094,19 @@ En conclusión, el desarrollo de aplicaciones multimedia integradas requiere una
 ```
 
 ### control de volumen
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML crea una página web que permite controlar un video desde un navegador, añadiendo varios controles personalizados alrededor del reproductor de video estándar. La página contiene un div central con id "contenedorvideo" en el cual se muestra el video y unos botones para interactuar con él.
+
+Los estilos CSS definidos en la parte superior del código le dan a los elementos una apariencia atractiva, redondeando las esquinas de la pantalla de video y añadiendo un conjunto de controles ocultos que solo aparecen cuando el usuario pasa el ratón sobre ellos. Cada botón contiene un icono SVG para indicar sus funciones (rebobinar, saltar atrás 10 segundos, reproducir/pausa, parar, saltar adelante 10 segundos).
+
+En la parte inferior del documento, se utiliza JavaScript para programar las acciones que ocurren cuando los usuarios interactúan con estos elementos. Por ejemplo, hacer clic en el botón "rebobinar" vuelve al principio del video (currentTime = 0). Hacer clic en el botón de volumen ajusta la propiedad volume del elemento video según el valor seleccionado por el usuario.
+
+Este tipo de código es importante porque demuestra cómo se pueden combinar HTML, CSS y JavaScript para crear interfaces interactivas más complejas que las proporcionadas por los elementos HTML estándar. Es un ejemplo práctico de lo que puedes hacer con multimedia en la web.
+
+`011-control de volumen.html`
 
 ```html
 <!doctype html>
@@ -18028,6 +24235,19 @@ En conclusión, el desarrollo de aplicaciones multimedia integradas requiere una
 ```
 
 ### cargar resoluciones
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web sencilla pero funcional que permite reproducir un video y controlarlo a través de varios botones personalizados. La estructura del documento se compone principalmente de un contenedor llamado `#contenedorvideo` que contiene tanto el elemento `<video>` como un conjunto de botones para interactuar con la reproducción, pausa, rebobinado y avance rápido del video.
+
+El CSS utilizado estiliza este contenedor y los elementos dentro de él. Por ejemplo, se redondean las esquinas del video y se ajusta su tamaño al 100% del ancho y alto del contenedor para que siempre ocupe todo el espacio disponible. Los botones en la parte superior del video también están estilizados con bordes redondeados y un efecto de desenfoque alrededor de ellos cuando se pasa el mouse sobre ellos, proporcionando una apariencia pulida.
+
+Además, el script JavaScript añade funcionalidad interactiva a estos botones y permite ajustar el volumen del video utilizando una barra de desplazamiento. Cada uno de los botones tiene un evento `onclick` asociado que cambia el estado del video según su identificador (ID), como reproducir, pausar o rebobinar al inicio del video. También se utiliza la función `fetch()` para obtener datos JSON desde un archivo remoto llamado "entrevista_renditions.json", lo cual es probablemente una lista de resoluciones disponibles para el video que podría usarse en futuras funcionalidades.
+
+Este tipo de página web es típica en aplicaciones multimedia donde se necesita controlar interactivamente la reproducción del contenido audiovisual y ofrece un buen ejemplo de cómo combinar HTML, CSS y JavaScript para crear una experiencia de usuario rica.
+
+`012-cargar resoluciones.html`
 
 ```html
 <!doctype html>
@@ -18160,6 +24380,19 @@ En conclusión, el desarrollo de aplicaciones multimedia integradas requiere una
 ```
 
 ### select de resoluciones
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML crea una página web que permite reproducir un vídeo llamado "entrevista.mp4" con varios controles personalizados para interactuar con el vídeo. La página incluye botones para rebobinar, pausar y reanudar la reproducción del vídeo, así como controlar el volumen mediante una barra deslizante.
+
+En el bloque de estilo (CSS), se define cómo debe aparecer la interfaz del usuario: el vídeo tiene bordes redondeados y ocupa todo el espacio disponible dentro de un contenedor centrado. Los botones que controlan las funciones del video, como rebobinar o pausar, tienen estilos específicos para hacerlos atractivos visualmente.
+
+En el bloque de JavaScript, se seleccionan los elementos del vídeo y los botones mediante métodos como `querySelector` y `querySelectorAll`. Luego, cada botón tiene un evento `onclick` que ejecuta diferentes acciones en función del ID del botón (por ejemplo, rebobinar al inicio, pausar la reproducción, etc.). Además, se añade funcionalidad para ajustar el volumen del vídeo según la posición de la barra deslizante.
+
+Este código es importante porque muestra cómo integrar interactividad en una página web mediante la manipulación de elementos multimedia como los vídeos. Los estudiantes pueden aprender a mejorar la experiencia del usuario proporcionando opciones adicionales y estilos personalizados para manejar contenido multimedia enriquecido.
+
+`013-select de resoluciones.html`
 
 ```html
 <!doctype html>
@@ -18293,6 +24526,19 @@ En conclusión, el desarrollo de aplicaciones multimedia integradas requiere una
 ```
 
 ### relleno el select
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web que permite reproducir un video con varias funcionalidades adicionales. La página incluye controles personalizados para el video, como retroceder al principio del vídeo, rebobinar diez segundos atrás, reanudar la reproducción, pausar y avanzar diez segundos. Estos controles están representados por iconos SVG que son más atractivos visualmente.
+
+Además de estos botones, hay un control deslizante para ajustar el volumen del video y un menú desplegable (select) donde se cargan diferentes resoluciones del video desde un archivo JSON. Este último aspecto muestra cómo interactuar con datos externos para enriquecer la experiencia del usuario con opciones de visualización personalizadas.
+
+El script JavaScript utilizado es crucial porque vincula interactivamente estos controles HTML con las acciones específicas sobre el elemento `<video>`. Por ejemplo, cuando un botón se presiona (evento `onclick`), el video responde según lo programado: avanza o retrocede en tiempo, reproduce o pausa. Al mover el control deslizante de volumen, el nivel del sonido cambia en consecuencia.
+
+Esta página web es una excelente introducción a la interacción entre HTML, CSS y JavaScript para crear experiencias multimedia dinámicas e intuitivas, lo cual es fundamental en desarrollo web moderno, especialmente cuando se trata de aplicaciones que manejan contenido audiovisual.
+
+`014-relleno el select.html`
 
 ```html
 <!doctype html>
@@ -18432,6 +24678,19 @@ En conclusión, el desarrollo de aplicaciones multimedia integradas requiere una
 ```
 
 ### selecciono video
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML crea una página web que permite reproducir un video y controlarlo a través de varios botones personalizados. El vídeo se muestra en un contenedor redondeado con bordes suaves, y tiene asociados unos controles de video simples pero estilizados como botones SVG (Scalable Vector Graphics), permitiendo al usuario rebobinar el vídeo, reproducirlo desde cero, pausarlo o avanzar 10 segundos. Además del control del tiempo, también hay un deslizador para ajustar el volumen y una lista desplegable que permite cambiar entre diferentes resoluciones de video disponibles.
+
+El CSS (hoja de estilos) utiliza propiedades flexibles y transiciones suaves para mejorar la apariencia del diseño. Las transiciones se aplican, por ejemplo, a los controles del vídeo cuando el usuario pasa el cursor sobre ellos, haciéndolos más visibles al darles una mayor opacidad.
+
+En JavaScript, el código selecciona elementos del DOM (Document Object Model) y le añade eventos para manipular el video. Por ejemplo, cada botón tiene un evento de clic asociado que modifica la propiedad correspondiente del objeto `video` en función del ID del botón. También se utiliza una solicitud HTTP (`fetch`) para cargar información sobre las diferentes resoluciones del vídeo desde un archivo JSON remoto y añadir opciones a un menú desplegable. Cuando el usuario selecciona una opción, la fuente del video se actualiza para cambiar entre estas resoluciones.
+
+Este tipo de código es importante porque demuestra cómo integrar múltiples tecnologías web (HTML, CSS, JavaScript) para crear interfaces multimedia interactivas y atractivas visualmente.
+
+`015-selecciono video.html`
 
 ```html
 <!doctype html>
@@ -18576,6 +24835,19 @@ En conclusión, el desarrollo de aplicaciones multimedia integradas requiere una
 ```
 
 ### cambio dinamico de resolucion
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web que permite reproducir y controlar un vídeo con diferentes opciones como retroceso, pausa, reproducción y cambio en el volumen. La interfaz incluye un contenedor principal (`#contenedorvideo`) donde se muestra el video con bordes redondeados y controla su tamaño para que ocupe todo el espacio disponible dentro del div.
+
+Además de los controles básicos como reproducir, pausar, retroceder 10 segundos e ir al principio del vídeo, también hay un elemento `<input>` tipo rango para ajustar el volumen en tiempo real. Lo más destacable es que el código incorpora un menú desplegable (`<select id="resoluciones">`) que permite cambiar la resolución del video dinámicamente.
+
+El script JavaScript utiliza una petición `fetch` para obtener datos desde un archivo JSON (`entrevista_renditions.json`). Este archivo contiene información sobre diferentes versiones del mismo vídeo con distintas resoluciones. Cada opción en el menú desplegable es creada dinámicamente basándose en estos datos, y al seleccionar una nueva resolución, el video se cambia a la ruta correspondiente mostrando la versión de la resolución elegida por el usuario.
+
+Esta página web proporciona una experiencia interactiva y versátil para el usuario que desea experimentar con diferentes aspectos del vídeo sin tener que recargar la página.
+
+`016-cambio dinamico de resolucion.html`
 
 ```html
 <!doctype html>
@@ -18724,6 +24996,21 @@ En conclusión, el desarrollo de aplicaciones multimedia integradas requiere una
 ```
 
 ### un poco de estilo para el select
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web sencilla que permite reproducir un vídeo y controlar varias funciones del reproductor, como rebobinar, pausar y ajustar el volumen. En la sección `<head>`, hay varios estilos CSS definidos para mejorar la apariencia del reproductor de video en el navegador.
+
+En la parte central del documento, dentro del cuerpo (`<body>`), se encuentra un contenedor llamado `contenedorvideo` que contiene una etiqueta `<video>` con fuente a un archivo MP4. También hay varios botones personalizados (utilizando SVG) para controles como rebobinar, avanzar diez segundos y reproducir o pausar el video.
+
+Además de los botones, también se incluyen elementos adicionales como una barra deslizante (`<input type="range">`) para controlar el volumen del video y un menú desplegable (`<select>`) que permite seleccionar diferentes resoluciones o versiones del vídeo.
+
+En la parte final del documento, justo antes de cerrarse el cuerpo, se incluye un bloque de JavaScript que interactúa con estos elementos. Este código maneja eventos como clics en los botones y cambios en la barra deslizante para controlar funciones del video como cambiar el tiempo actual o ajustar el volumen. También carga un archivo JSON externo que contiene información sobre diferentes versiones (resoluciones) del video, creando opciones dinámicas en el menú desplegable para seleccionar entre ellas.
+
+Este código es importante porque demuestra cómo integrar y manipular varios elementos HTML con JavaScript para crear una interfaz de usuario interactiva y personalizada para un reproductor multimedia.
+
+`017-un poco de estilo para el select.html`
 
 ```html
 <!doctype html>
@@ -18880,6 +25167,21 @@ En conclusión, el desarrollo de aplicaciones multimedia integradas requiere una
 ```
 
 ### por donde va el tiempo
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML crea una página web que permite reproducir un video con varias funcionalidades de control. En la parte superior del archivo, se definen los estilos CSS para mejorar la apariencia y la interactividad del reproductor de vídeo. Estos estilos incluyen bordes redondeados, botones personalizados y controles como el volumen y la selección de resoluciones.
+
+En el cuerpo del documento (`<body>`), hay un `div` con id `"contenedorvideo"` que contiene el elemento `<video>`, donde se cargará el video desde un archivo llamado "entrevista.mp4". Dentro de este contenedor, también existe otro `div` con id `"controlesvideo"`, que incluye botones y otros elementos para controlar la reproducción del video. Estos botones permiten funciones como rebobinar, pausar, reproducir, avanzar en el tiempo y ajustar el volumen.
+
+Además de los controles básicos, hay un elemento `<input>` tipo `range` que permite ajustar el volumen del vídeo y un `<select>` que se usa para cambiar entre diferentes resoluciones del video. El script JavaScript añade funcionalidad a estos elementos: por ejemplo, al hacer clic en uno de los botones, se ejecutan comandos específicos como cambiar la posición actual del tiempo o pausar/reproducir el video.
+
+El código también incluye una función que carga y muestra las resoluciones disponibles desde un archivo JSON externo. Esto permite a los usuarios seleccionar diferentes versiones del vídeo basándose en su preferencia de calidad.
+
+Finalmente, se implementa una funcionalidad para mostrar la posición actual del tiempo en el formato `mm:ss` dentro de la página mientras se reproduce el video, lo que ayuda al usuario a seguir fácilmente cuánto tiempo ha pasado desde que comenzó la reproducción.
+
+`018-por donde va el tiempo.html`
 
 ```html
 <!doctype html>
@@ -19089,6 +25391,17 @@ En conclusión, el desarrollo de aplicaciones multimedia integradas requiere una
 ```
 
 ### convertido en libreria
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML crea una página web que utiliza una librería llamada `jocarsa-video` para reproducir un video de forma avanzada. En la parte central del documento, hay un `<div>` con dos atributos especiales: `data-jocarsa-video`, que indica al navegador que debe usar esta librería en este contenedor, y `data-renditions`, que es opcional y contiene una ruta a un archivo JSON que lista diferentes versiones o resoluciones del video disponibles. Dentro de este `<div>` se encuentra el elemento `<video>`, que especifica la fuente del archivo de video que queremos reproducir.
+
+Además, en la parte inferior del cuerpo del HTML, hay dos líneas importantes: una carga el script `jocarsa-video.js` que contiene todas las funciones necesarias para manejar los elementos multimedia con esta librería. La segunda línea es un bloque de JavaScript opcional que permite inicializar manualmente cualquier contenedor con la clase o atributo específico del video, en caso de que se desee controlar específicamente el proceso de carga y configuración.
+
+Esta estructura es importante porque permite a los desarrolladores trabajar con videos de manera más flexible y dinámica, proporcionando opciones para personalizar y mejorar significativamente la experiencia del usuario al reproducir contenido multimedia.
+
+`019-convertido en libreria.html`
 
 ```html
 <!doctype html>
@@ -19117,6 +25430,21 @@ En conclusión, el desarrollo de aplicaciones multimedia integradas requiere una
 ```
 
 ### jocarsa-video
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código CSS está diseñado para mejorar la apariencia y el estilo de un reproductor de video personalizado. Comenzamos con una clase principal llamada `.jocarsa-video` que establece las propiedades básicas del contenedor donde se mostrará el video, como su tamaño máximo (800px) y relación de aspecto (16:10). El estilo utiliza Flexbox para centrar tanto horizontal como verticalmente los elementos dentro del contenedor.
+
+Para el propio vídeo, la clase `.jocarsa-video__video` asegura que se adapte al espacio disponible dentro del contenedor padre utilizando `object-fit: cover`, lo cual significa que el video se ajustará para mantener su relación de aspecto mientras cubre todo el área del contenedor. Además, añade bordes redondeados y coloca el vídeo en posición absoluta.
+
+Los controles del reproductor (botones de reproducción/pausa, barra de progreso, volumen) se agrupan bajo la clase `.jocarsa-video__controls`. Estos controles están colocados en la parte inferior central del video y tienen un fondo semitransparente con efecto difuminado (`backdrop-filter: blur(5px)`), lo que los hace más estéticamente atractivos. Los botones individuales dentro de este grupo se definen por la clase `.jocarsa-video__button`, donde cada uno tiene bordes redondeados, un tamaño específico y apariencia al pasar el ratón sobre ellos.
+
+El código también incluye estilos específicos para los elementos de tiempo (`time`) y volumen, así como para una lista desplegable que permite cambiar entre diferentes resoluciones del video. Además, existen reglas para ocultar los controles de video nativos proporcionados por el navegador web.
+
+Este estilo CSS es crucial porque mejora la experiencia del usuario, haciendo que la interfaz sea más atractiva y fácil de usar.
+
+`jocarsa-video.css`
 
 ```css
 /* jocarsa-video.css */
@@ -19220,6 +25548,23 @@ En conclusión, el desarrollo de aplicaciones multimedia integradas requiere una
 ```
 
 ### jocarsa-video
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código es una librería JavaScript llamada `jocarsa-video.js` que se encarga de crear y personalizar un reproductor de video en un documento HTML. La función principal es añadir controles personalizados al reproductor, como botones para rebobinar, reproducir, pausar, saltos adelante y atrás de 10 segundos, control del volumen y selección de resolución del vídeo.
+
+La librería comienza creando una serie de funciones auxiliares que se utilizan en el código principal. La función `pad` asegura que los números estén siempre formateados con dos dígitos para representar correctamente el tiempo en formato MM:SS. La función `formatTime`, por su parte, toma un número de segundos y devuelve una cadena de texto formateada con minutos y segundos.
+
+La función principal es `createButton`, que genera botones SVG personalizados según el tipo especificado (rebobinar, pausar, etc.). Estos botones se usan para controlar la reproducción del video de manera visualmente distintiva.
+
+El código también implementa una inicialización automática (`initAll`) que busca elementos HTML con un atributo `data-jocarsa-video` y les añade los controles personalizados. Durante esta inicialización, el reproductor recibe varios eventos (como clics en botones o cambios de volumen) que se gestionan para controlar la reproducción del video.
+
+Además, la librería permite cargar resoluciones adicionales de vídeo desde un archivo JSON si está especificado mediante el atributo `data-renditions`. Esto proporciona flexibilidad para permitir a los usuarios cambiar entre diferentes versiones del mismo video que pueden tener distintas tamaños o calidades.
+
+En conjunto, este código facilita la creación de reproductores de video personalizados y funcionales en una página web sin necesidad de escribir todo el HTML y JavaScript necesario desde cero.
+
+`jocarsa-video.js`
 
 ```javascript
 // jocarsa-video.js
@@ -19458,28 +25803,400 @@ En conclusión, el desarrollo de aplicaciones multimedia integradas requiere una
 })();
 ```
 
+### Actividades propuestas
+
+El código que proporcionaste es un ejemplo de cómo crear una biblioteca personalizada en JavaScript para controlar y personalizar reproductores de video HTML5. La biblioteca, denominada `jocarsa-video`, permite agregar controles personalizados a cualquier elemento `<video>` en la página, así como manejar resoluciones diferentes del video basándose en datos proporcionados desde un archivo JSON.
+
+### Resumen de las funcionalidades
+
+1. **Personalización de los Controles:**
+   - Agrega botones personalizados para reproducir, pausar, rebobinar y avanzar el video.
+   - Añade un control deslizante (slider) para ajustar el volumen.
+
+2. **Manejo del Tiempo:**
+   - Muestra el tiempo actual y total del video en formato HH:MM:SS.
+
+3. **Cambio de Resolución:**
+   - Permite cambiar la resolución del video basándose en un archivo JSON que lista diferentes opciones de resolución con sus URLs correspondientes.
+
+4. **Ocultar Controles Nativos:**
+   - Oculta los controles nativos del reproductor de video incorporados en el navegador para una mejor experiencia de usuario personalizada.
+
+### Archivo `jocarsa-video.js`
+
+El archivo principal (`jocarsa-video.js`) define la lógica y estructura de la biblioteca. Aquí se detalla cómo funciona:
+
+1. **Creación de Botones Personalizados:**
+   - La función `createButton` genera botones SVG personalizados para diferentes acciones (reproducir, pausar, etc.).
+
+2. **Inicialización del Contenedor (`initContainer`):**
+   - Esta función agrega los controles personalizados al reproductor de video.
+   - Agrega eventos que permiten interactuar con el reproductor de video, como reproducir/pausar y cambiar la resolución.
+
+3. **Manejo de Resoluciones:**
+   - La biblioteca permite cargar diferentes resoluciones del video desde un archivo JSON especificado en el atributo `data-renditions` del contenedor.
+   - Al seleccionar una nueva resolución, se cambia la fuente (src) del reproductor de video y se mantiene el tiempo actual.
+
+4. **Iniciar Todas las Instancias (`initAll`):**
+   - Busca todos los elementos que tienen `data-jocarsa-video` y les aplica la inicialización personalizada.
+
+### Archivo `jocarsa-video.css`
+
+El archivo de estilo (`jocarsa-video.css`) define cómo se deben ver los controles personalizados:
+
+- Establece estilos para botones, etiquetas de tiempo, deslizadores de volumen y selectores de resolución.
+- Oculta controles nativos del reproductor de video.
+
+### Ejemplo en Uso (`index.html`)
+
+En tu archivo HTML principal, puedes usar la biblioteca simplemente agregando un atributo `data-jocarsa-video` al elemento `<video>`:
+
+```html
+<div data-jocarsa-video>
+  <video src="path/to/video.mp4" controls></video>
+</div>
+```
+
+Y para manejar diferentes resoluciones, puedes especificar el URL del archivo JSON que contiene la lista de opciones:
+
+```html
+<div data-jocarsa-video data-renditions="path/to/renditions.json">
+  <video src="path/to/video.mp4" controls></video>
+</div>
+```
+
+### Archivo JSON de Resoluciones (`renditions.json`)
+
+Este archivo podría tener un formato similar al siguiente:
+
+```json
+{
+  "renditions": [
+    {
+      "filename": "video_360p.mp4",
+      "label": "360p"
+    },
+    {
+      "filename": "video_720p.mp4",
+      "label": "720p"
+    }
+  ]
+}
+```
+
+Este código proporciona una manera flexible y personalizable de manejar reproductores de video en tus aplicaciones web, permitiéndote mantener un control completo sobre la experiencia del usuario sin depender de los controles nativos del navegador.
+
+
 <a id="arquitectura-del-api-utilizado"></a>
 ## Arquitectura del API utilizado
 
-En este capítulo, exploramos en profundidad la arquitectura del API utilizado para el desarrollo de aplicaciones multimedia integradas. Comenzamos por entender los conceptos básicos sobre aplicaciones multimedia, identificando las diferentes fuentes de datos que pueden ser utilizadas y cómo se procesan estos datos dentro de un entorno de programación.
+### Introducción a los ejercicios
 
-El primer paso es familiarizarse con la arquitectura del API utilizado, que proporciona una interfaz estándar para interactuar con los recursos multimedia. Este API incluye clases y métodos que facilitan el acceso a fuentes de audio, video y imágenes, así como funciones para su procesamiento y reproducción.
+It looks like you have two HTML files, each with a slightly different implementation of an audio player complete with waveform visualization. Let's compare and combine the best features from both to create a more robust and visually appealing solution.
 
-A continuación, profundizamos en la estructura del API, examinando las diferentes clases y objetos que componen su arquitectura. Cada clase tiene un propósito específico, desde la gestión de los recursos multimedia hasta el control de eventos de entrada del usuario. Es importante entender cómo interactúan estas clases entre sí para crear aplicaciones funcionales.
+### Key Differences:
+1. **Waveform Visualization**:
+   - In the first file, the waveform mask (`waveform-progress-mask`) moves from left to right as the song progresses.
+   - In the second file, the waveform mask (`waveform-progress-mask`) shrinks from the right side as the song progresses.
 
-Una vez familiarizados con la estructura básica del API, nos centramos en las fuentes de datos multimedia que se pueden utilizar. Estas fuentes pueden ser archivos locales, streams de red o incluso dispositivos como cámaras web y micrófonos. El API proporciona métodos para cargar y procesar estos recursos, permitiendo a los desarrolladores crear aplicaciones que interactúen con el contenido multimedia en tiempo real.
+2. **Track Information Display**:
+   - The first file displays an image and track information below it.
+   - The second file only shows text-based track information.
 
-Además del acceso a fuentes de datos, el API también ofrece herramientas para el procesamiento de objetos multimedia. Esto incluye la edición de imágenes y videos, la generación de efectos visuales y sonoros, y la manipulación de los formatos de archivo. Estas funcionalidades permiten a los desarrolladores crear aplicaciones que ofrezcan una experiencia multimedia rica y dinámica.
+3. **Progress Bar Customization**:
+   - Both files have a custom progress bar but with different styles and implementations.
 
-El API también proporciona métodos para reproducir objetos multimedia en diferentes formatos y dispositivos. Esto incluye la reproducción de audio y video en aplicaciones móviles, así como la generación de contenido multimedia para presentaciones y publicaciones en línea. La capacidad de adaptar el contenido a diferentes plataformas es crucial para crear aplicaciones multimedia versátiles.
+### Combined Implementation:
 
-Además del procesamiento y reproducción de objetos multimedia, el API también ofrece herramientas para gestionar las preferencias del usuario dentro de la aplicación. Esto incluye la configuración de opciones como volumen, calidad de imagen y formato de archivo predeterminado. La gestión adecuada de estas preferencias mejora la experiencia del usuario y aumenta la adhesión a la aplicación.
+#### HTML Structure
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Audio Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="audio-player">
+        <div class="player-container">
+            <button id="playBtn">▶</button>
+            <img src="0802.png" alt="Album Artwork">
+            <div class="track-info">
+                <div class="track-title">0802</div>
+                <div class="track-artist">José Vicente Carratalá Sanchis</div>
+            </div>
 
-Finalmente, el API proporciona métodos para manejar tareas en segundo plano y servicios dentro de las aplicaciones multimedia. Esto incluye la ejecución de procesos que no interfieren con la interacción principal del usuario, como la actualización de contenido o la sincronización de datos. La gestión eficiente de estas tareas es crucial para mantener una buena experiencia de usuario incluso en aplicaciones intensivas.
+            <!-- Waveform visualization -->
+            <div class="waveform-container">
+                <div class="waveform-background"></div>
+                <img src="0802.png" alt="Waveform" class="waveform-image">
+                <div class="waveform-progress-mask" id="waveformProgress"></div>
+                <div class="waveform-overlay"></div>
+            </div>
 
-En resumen, el API utilizado para el desarrollo de aplicaciones multimedia integradas ofrece una estructura sólida y funcional para interactuar con fuentes de datos multimedia, procesar objetos multimedia y gestionar la preferencia del usuario. Comprender esta arquitectura es fundamental para crear aplicaciones multimedia ricas y eficientes que ofrezcan una experiencia óptima al usuario.
+            <!-- Audio Element -->
+            <audio id="myAudio" src="0802.mp3"></audio>
+        </div>
+
+        <div id="controls">
+            <progress value="0" max="1"></progress>
+            <input type="range" min="0" max="1" step="0.001" value="0">
+
+            <!-- Time Display -->
+            <div class="time-display">
+                <span id="currentTime">0:00</span> / 
+                <span id="duration">0:00</span>
+            </div>
+
+            <!-- Additional Controls -->
+            <div class="additional-controls">
+                <div class="volume-control">
+                    <span>🔊</span>
+                    <input type="range" min="0" max="1" step="0.01" value="1" id="volumeControl">
+                </div>
+                <div class="playback-rate">
+                    <span>Velocidad:</span>
+                    <select id="playbackRate">
+                        <option value="0.5">0.5x</option>
+                        <option value="0.75">0.75x</option>
+                        <option value="1" selected>Normal</option>
+                        <option value="1.25">1.25x</option>
+                        <option value="1.5">1.5x</option>
+                        <option value="2">2x</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+```
+
+#### CSS (styles.css)
+```css
+#audio-player {
+    font-family: Arial, sans-serif;
+}
+
+.player-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+button#playBtn {
+    background-color: #6e8efb;
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+img[src="0802.png"] {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.track-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.track-title, .track-artist {
+    font-weight: bold;
+    text-align: left;
+}
+
+.waveform-container {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+}
+
+.waveform-background, .waveform-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.waveform-progress-mask {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 3;
+    transition: width 0.1s linear;
+}
+
+#controls {
+    margin-top: 20px;
+}
+
+progress, input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 6px;
+    background-color: #e0e0e0;
+    border-radius: 3px;
+}
+
+progress::-webkit-progress-bar {
+    background: #e0e0e0;
+    border-radius: 3px;
+}
+
+progress::-webkit-progress-value {
+    background: linear-gradient(to right, #6e8efb, #a777e3);
+    border-radius: 3px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 12px;
+    height: 12px;
+    background-color: #6e8efb;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.time-display span {
+    font-size: 14px;
+    color: #777;
+}
+
+.additional-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.volume-control, .playback-rate select {
+    padding: 5px;
+}
+```
+
+#### JavaScript (scripts.js)
+```javascript
+document.addEventListener('DOMContentLoaded', function () {
+    const audio = document.getElementById("myAudio");
+    const playBtn = document.getElementById("playBtn");
+    const progressBar = document.querySelector("progress");
+    const seekBar = document.querySelector("#controls input[type='range']");
+    const currentTimeEl = document.getElementById("currentTime");
+    const durationEl = document.getElementById("duration");
+    const volumeControl = document.getElementById("volumeControl");
+    const playbackRate = document.getElementById("playbackRate");
+    const waveformProgress = document.getElementById("waveformProgress");
+
+    // Format time from seconds to MM:SS
+    function formatTime(seconds) {
+        const mins = Math.floor(seconds / 60);
+        const secs = Math.floor(seconds % 60);
+        return `${mins}:${secs < 10 ? '0' : ''}${secs}`;
+    }
+
+    // Update time display
+    function updateTimeDisplay() {
+        currentTimeEl.textContent = formatTime(audio.currentTime);
+        durationEl.textContent = formatTime(audio.duration || 0);
+    }
+
+    // Update progress bar and waveform mask
+    function updateProgress() {
+        if (audio.duration) {
+            const progress = audio.currentTime / audio.duration;
+            progressBar.value = progress;
+            seekBar.value = progress;
+            waveformProgress.style.width = `${100 - (progress * 100)}%`;
+        }
+        updateTimeDisplay();
+    }
+
+    // Play/Pause functionality
+    let isPlaying = false;
+
+    playBtn.addEventListener("click", function () {
+        if (isPlaying) {
+            audio.pause();
+            playBtn.textContent = "▶";
+        } else {
+            audio.play();
+            playBtn.textContent = "❚❚";
+        }
+        isPlaying = !isPlaying;
+    });
+
+    // Seek functionality
+    seekBar.addEventListener("input", function () {
+        const progress = this.value;
+        audio.currentTime = progress * audio.duration;
+        waveformProgress.style.width = `${100 - (progress * 100)}%`;
+    });
+
+    // Volume control
+    volumeControl.addEventListener("input", function () {
+        audio.volume = this.value;
+    });
+
+    // Playback rate control
+    playbackRate.addEventListener("change", function () {
+        audio.playbackRate = parseFloat(this.value);
+    });
+
+    // Update progress and time display periodically
+    audio.addEventListener("loadedmetadata", updateTimeDisplay);
+    audio.addEventListener("timeupdate", updateProgress);
+    audio.addEventListener("ended", function () {
+        isPlaying = false;
+        playBtn.textContent = "▶";
+    });
+});
+```
+
+### Explanation:
+
+- **HTML**: Combines the best of both files by adding an album art image and track information alongside the waveform visualization.
+- **CSS**: Ensures a clean, consistent look for all elements and provides custom styling for the progress bar and waveform mask.
+- **JavaScript**: Manages interaction between the audio player controls and the waveform visualization to ensure smooth playback control.
+
+This combined approach ensures that your audio player is both visually appealing and functionally robust.
 
 ### reproductor personalizado
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML crea una página web sencilla que incluye un reproductor de audio básico para el archivo "0802.mp3". La estructura principal se define con etiquetas HTML como `<head>` y `<body>`, donde en la parte del cuerpo se encuentra un contenedor div con id "contieneaudio", que contiene elementos visuales y funcionales.
+
+El estilo CSS incorporado dentro de las etiquetas `<style>` ayuda a dar formato visual al reproductor, estableciendo el tamaño, color de fondo y disposición (flex-direction) vertical de los elementos internos. Además, se aplican estilos específicos para la imagen que se muestra junto al reproductor.
+
+Dentro del contenedor "contieneaudio", hay una etiqueta `<audio>` que permite reproducir archivos de audio en el navegador web; esta etiqueta incluye un atributo `src` que indica la ubicación del archivo de audio. También se incluye una imagen (con id "0802.png") y una barra deslizante (`<input type="range">`) para controlar, probablemente, el volumen o la posición en el tiempo del audio.
+
+Este fragmento es importante porque demuestra cómo integrar elementos multimedia en una página web utilizando HTML y CSS de manera básica y efectiva.
+
+`001-reproductor personalizado.html`
 
 ```html
 <!DOCTYPE html>
@@ -19513,6 +26230,17 @@ En resumen, el API utilizado para el desarrollo de aplicaciones multimedia integ
 ```
 
 ### script de control
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una interfaz sencilla para controlar un archivo de audio. En la parte superior, se define el estilo (CSS) que le da a la caja que contiene los controles del reproductor un fondo gris claro y bordes redondeados. Dentro de esta caja, hay una etiqueta `<audio>` con el atributo `src` que indica la ubicación del archivo de audio (`0802.mp3`). Junto al reproductor, se muestra una imagen (`0802.png`) y un control deslizante (input tipo range) para ajustar el volumen o el tiempo de reproducción, aunque en este caso se usa para avanzar o retroceder en la canción.
+
+En el script incrustado al final del documento HTML, se seleccionan los elementos `<audio>`, `<button>` y `<input type="range">` utilizando `document.querySelector`. Se añade un controlador de eventos que permite a la función ejecutar el audio cuando se hace clic en el botón "Play". Además, cuando se cambia la posición del deslizador (cambio en el valor), la función calcula la nueva posición en el tiempo del audio multiplicando el valor del deslizador por la duración total del archivo y ajusta `audio.currentTime` para que el reproductor avance o retroceda al nuevo punto indicado.
+
+Esta estructura es importante porque permite a los usuarios interactuar de manera sencilla con contenido multimedia, mejorando así su experiencia en línea.
+
+`002-script de control.html`
 
 ```html
 <!DOCTYPE html>
@@ -19563,6 +26291,17 @@ En resumen, el API utilizado para el desarrollo de aplicaciones multimedia integ
 ```
 
 ### progreso
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una interfaz simple para controlar la reproducción de un archivo de audio y mostrar su progreso. En el cuerpo del documento, hay un div con un identificador `contieneaudio` que contiene elementos como `<audio>`, una imagen (`<img>`), una barra deslizante (`<input type="range">`) y una etiqueta de progreso (`<progress>`). El script JavaScript selecciona estos elementos mediante la función `document.querySelector()` para manipularlos.
+
+Cuando se hace clic en el botón "Play", se ejecuta la función que comienza a reproducir el archivo de audio. La barra deslizante permite al usuario ajustar manualmente el tiempo de reproducción del audio, y cada vez que cambia su valor, se actualiza la posición del reproductor (`audio.currentTime`) basándose en el valor seleccionado por el usuario multiplicado por la duración total del archivo.
+
+Esta página es útil para aprender a integrar elementos multimedia básicos como archivos de audio en una aplicación web y controlar su reproducción interactivamente.
+
+`003-progreso.html`
 
 ```html
 <!DOCTYPE html>
@@ -19617,6 +26356,17 @@ En resumen, el API utilizado para el desarrollo de aplicaciones multimedia integ
 ```
 
 ### bucle
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web interactiva que permite reproducir un archivo de audio y controlarlo con barras deslizantes y botones. La estructura principal incluye un contenedor (`#contieneaudio`) donde se ubica el reproductor de audio, junto con dos elementos de control: un botón para iniciar la reproducción del audio y dos componentes que permiten ajustar el volumen y seguir el progreso de la música.
+
+El código JavaScript es crucial porque hace posible interactuar con estos controles. Cuando el usuario presiona el botón, se inicia la reproducción del archivo de audio (`audio.play()`). Además, hay una función llamada `bucle` que actualiza en tiempo real tanto la barra deslizante como la visualización de progreso (`progress`) para reflejar dónde está en el audio. Esta función se llama periódicamente cada 100 milisegundos mediante la programación de un temporizador, asegurando que los controles estén siempre alineados con la posición actual del sonido.
+
+Este tipo de implementación es importante porque proporciona una experiencia más rica y controlada para el usuario, permitiéndole interactuar de manera intuitiva con el contenido multimedia.
+
+`004-bucle.html`
 
 ```html
 <!DOCTYPE html>
@@ -19710,6 +26460,17 @@ En resumen, el API utilizado para el desarrollo de aplicaciones multimedia integ
 ```
 
 ### mejoras estéticas
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este archivo HTML es un ejemplo de cómo crear una interfaz para controlar un reproductor de audio en la web. La página incluye estilos CSS que mejoran la apariencia del reproductor, haciéndolo visualmente atractivo y fácil de usar. En el cuerpo del documento (`<body>`), hay varios elementos HTML que permiten al usuario interactuar con la música, como un botón para reproducir/pausar, una imagen que representa la portada del álbum, información sobre la canción (título y artista) y barras de progreso tanto para el tiempo transcurrido como para el volumen.
+
+En el `<script>` al final del archivo, se inicializan varios elementos del DOM, incluyendo un elemento `audio` que define la fuente del audio a reproducir. Se añaden eventos que permiten controlar diferentes aspectos de la reproducción: cambiar entre play y pause, buscar en el tiempo (vía una barra deslizante), ajustar el volumen y cambiar la velocidad de reproducción.
+
+El script también incluye funciones para actualizar visualmente los controles según avanza la canción, como mostrar el progreso actual y total del tiempo. Estas funcionalidades juntas crean un entorno interactivo que permite a los usuarios controlar completamente una canción desde una página web simple.
+
+`005-mejoras estéticas.html`
 
 ```html
 <!DOCTYPE html>
@@ -20020,6 +26781,21 @@ En resumen, el API utilizado para el desarrollo de aplicaciones multimedia integ
 ```
 
 ### mejoras
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web que contiene un reproductor de audio con varias funciones adicionales como la visualización de ondas, control del volumen y velocidad de reproducción. La estructura principal incluye un contenedor central que alberga todas las partes del reproductor.
+
+El reproductor de audio muestra información sobre la canción actual (título y artista), botones de control (reproducir/pausa, anterior/siguiente), una barra de progreso para desplazarse en el tiempo del audio y un indicador de volumen. También hay opciones para cambiar la velocidad de reproducción del audio.
+
+El código CSS proporciona estilos elegantes para hacer que el reproductor sea visualmente atractivo, con colores gradientes y sombras sutiles que añaden profundidad y realismo. Los controles interactivos como botones, rangos (sliders) y selecciones se personalizan para mejorar la experiencia del usuario.
+
+En cuanto al funcionamiento de JavaScript, este maneja eventos clave como la reproducción/pausa del audio, el control de volumen y la velocidad de reproducción. Además, actualiza en tiempo real los indicadores de progreso del reproductor y la visualización de ondas, lo que proporciona una experiencia de usuario fluida.
+
+Esta página web es un ejemplo práctico de cómo combinar HTML, CSS y JavaScript para crear interfaces interactivas y atractivas con características multimedia.
+
+`006-mejoras.html`
 
 ```html
 <!DOCTYPE html>
@@ -20396,6 +27172,23 @@ En resumen, el API utilizado para el desarrollo de aplicaciones multimedia integ
 ```
 
 ### desvelar onda
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML crea una interfaz de usuario para reproducir un archivo de audio MP3 y visualizar su onda en tiempo real. La página incluye varios elementos interactivos como botones, barras de desplazamiento y selecciones que permiten controlar la reproducción del sonido.
+
+En el encabezado (`<head>`), se define una serie de estilos CSS que hacen que la interfaz sea atractiva y fácil de usar. Estos estilos incluyen colores cálidos, sombras suaves y transiciones animadas para los botones interactivos, lo cual proporciona un diseño visualmente agradable.
+
+En el cuerpo (`<body>`), se utiliza una estructura HTML para organizar los controles y elementos de visualización. Hay un botón para reproducir/pausar la música, un indicador de progreso con una barra deslizante para cambiar el tiempo en la canción, así como controles adicionales para ajustar el volumen y la velocidad de reproducción.
+
+Además, hay un área dedicada a mostrar la visualización de ondas del audio. Esta sección incluye una imagen que representa gráficamente los cambios de amplitud durante la música (la onda), junto con una máscara que avanza hacia izquierda a medida que el sonido se reproduce para indicar cuánto ha avanzado.
+
+En la parte inferior, hay un script JavaScript que maneja las interacciones del usuario. Este script actualiza en tiempo real los controles y visualizaciones basándose en el estado del audio, como su duración total, posición actual, volumen y velocidad de reproducción. El resultado es una experiencia de usuario completa para controlar la música con elementos visuales que reflejan la reproducción en curso.
+
+Esta página HTML es un ejemplo práctico de cómo combinar CSS y JavaScript para crear interfaces multimedia interactivas y atractivas.
+
+`007-desvelar onda.html`
 
 ```html
 <!DOCTYPE html>
@@ -20774,75 +27567,1102 @@ En resumen, el API utilizado para el desarrollo de aplicaciones multimedia integ
 </html>
 ```
 
+### Actividades propuestas
+
+It appears that you have two HTML files for a music player with waveform visualization, but there are some differences in their implementation. Let's compare and integrate the best parts of both to create a cohesive and functional music player.
+
+### Key Differences:
+1. **Waveform Visualization:**
+   - The first file (`0802.html`) uses an image as part of the waveform container.
+   - The second file (`0802_waveform.html`) does not use an image for the waveform, but it updates the mask to show progress.
+
+2. **Progress Bar Update Direction:**
+   - In `0802_waveform.html`, the waveform mask shrinks from right to left as audio progresses.
+   - In `0802.html`, the waveform mask does not explicitly shrink and might be expected to grow from left to right.
+
+3. **Visibility of Progress Control Elements:**
+   - The progress control elements in `0802_waveform.html` are positioned differently with a negative translateY transformation, making them less visible by default.
+
+### Merging the Best Parts:
+
+We will merge these two files into one cohesive player, focusing on waveform visualization and proper progress bar updates. Here is an integrated version:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Music Player with Waveform</title>
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        
+        #contieneaudio {
+            max-width: 600px;
+            margin: auto;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+        }
+
+        .track-info {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        #controladores {
+            position: relative;
+            margin-top: 15px;
+        }
+
+        progress, input[type="range"] {
+            width: 100%;
+        }
+
+        .time-display span {
+            flex-basis: 48%;
+        }
+
+        /* Waveform visualization styles */
+        .waveform-container {
+            position: relative;
+            width: 100%;
+            height: 80px;
+            margin-top: 20px;
+            border-radius: 10px;
+            overflow: hidden;
+            background-color: #f5f5f5;
+        }
+
+        .waveform-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, #e0e0e0 0%, #f0f0f0 100%);
+            z-index: 1;
+        }
+
+        .waveform-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 2;
+        }
+        
+        .waveform-progress-mask {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            z-index: 3;
+            transition: width 0.1s linear;
+        }
+
+        .waveform-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.7);
+            z-index: 4;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+
+<div id="contieneaudio">
+    <div id="graficos">
+        <button id="playBtn">▶</button>
+        <div class="track-info">
+            <img src="0802.png" alt="Album Cover" width="64" height="64"/>
+            <div>
+                <div class="track-title">0802</div>
+                <div class="track-artist">José Vicente Carratalá Sanchis</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Waveform visualization -->
+    <div class="waveform-container">
+        <div class="waveform-background"></div>
+        <img src="0802.png" alt="Waveform" class="waveform-image"/>
+        <div class="waveform-progress-mask" id="waveformProgress"></div>
+        <div class="waveform-overlay"></div>
+    </div>
+
+    <!-- Player controls -->
+    <audio src="0802.mp3"></audio>
+    
+    <div id="controladores">
+        <progress value="0" max="1"></progress>
+        <input type="range" min="0" max="1" step="0.001" value="0">
+        <div class="time-display">
+            <span id="currentTime">0:00</span>
+            <span id="duration">0:00</span>
+        </div>
+    </div>
+
+    <!-- Additional controls -->
+    <div class="additional-controls">
+        <div class="volume-control">
+            <span>🔊</span>
+            <input type="range" min="0" max="1" step="0.01" value="1" id="volumeControl">
+        </div>
+        <div class="playback-rate">
+            <span>Velocidad:</span>
+            <select id="playbackRate">
+                <option value="0.5">0.5x</option>
+                <option value="0.75">0.75x</option>
+                <option value="1" selected>Normal</option>
+                <option value="1.25">1.25x</option>
+                <option value="1.5">1.5x</option>
+                <option value="2">2x</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+<script>
+    const audio = document.querySelector("audio");
+    const playBtn = document.getElementById("playBtn");
+    const progressBar = document.querySelector("progress");
+    const seekBar = document.querySelector("#controladores input[type='range']");
+    const currentTimeEl = document.getElementById("currentTime");
+    const durationEl = document.getElementById("duration");
+    const volumeControl = document.getElementById("volumeControl");
+    const playbackRate = document.getElementById("playbackRate");
+    const waveformProgress = document.getElementById("waveformProgress");
+
+    function formatTime(seconds) {
+        const mins = Math.floor(seconds / 60);
+        const secs = Math.floor(seconds % 60);
+        return `${mins}:${secs < 10 ? '0' : ''}${secs}`;
+    }
+
+    // Update time display
+    function updateTimeDisplay() {
+        currentTimeEl.textContent = formatTime(audio.currentTime);
+        durationEl.textContent = formatTime(audio.duration || 0);
+    }
+    
+    // Update progress bar and waveform mask
+    function updateProgress() {
+        if (audio.duration) {
+            const progress = audio.currentTime / audio.duration;
+            progressBar.value = progress;
+            seekBar.value = progress;
+
+            // The mask shrinks from right to left as audio progresses
+            waveformProgress.style.width = `${100 - (progress * 100)}%`;
+        }
+    }
+
+    let isPlaying = false;
+
+    playBtn.addEventListener("click", function() {
+        if (isPlaying) {
+            audio.pause();
+            playBtn.textContent = "▶";
+        } else {
+            audio.play();
+            playBtn.textContent = "❚❚";
+        }
+        isPlaying = !isPlaying;
+    });
+
+    // Seek functionality
+    seekBar.addEventListener("input", function() {
+        const progress = this.value;
+        audio.currentTime = progress * audio.duration;
+        waveformProgress.style.width = `${100 - (progress * 100)}%`;
+    });
+    
+    volumeControl.addEventListener("input", function() {
+        audio.volume = this.value;
+    });
+
+    playbackRate.addEventListener("change", function() {
+        audio.playbackRate = parseFloat(this.value);
+    });
+
+    // Update progress and time display periodically
+    audio.addEventListener("loadedmetadata", updateTimeDisplay);
+    audio.addEventListener("timeupdate", updateProgress);
+    audio.addEventListener("ended", function() {
+        isPlaying = false;
+        playBtn.textContent = "▶";
+    });
+    
+    // Initialize
+    updateTimeDisplay();
+</script>
+
+</body>
+</html>
+```
+
+### Explanation:
+1. **Waveform Visualization:**
+   - The waveform image (`0802.png`) is used for both the album cover and as part of the waveform container.
+   - The waveform mask shrinks from right to left, which gives a visual indication of progress.
+
+2. **Progress Bar Control:**
+   - The progress bar and seek slider are integrated properly.
+   - Progress updates are synchronized with waveform visualization.
+
+3. **UI Enhancements:**
+   - Added an album cover image for better presentation.
+   - Positioned control elements more neatly, ensuring they're visible without unnecessary transformations.
+
+This merged version should provide a clean, functional music player with accurate waveform visualization and intuitive controls.
+
+
 <a id="fuentes-de-datos-multimedia-clases"></a>
 ## Fuentes de datos multimedia. Clases
 
-En este capítulo, nos adentramos en la utilización de librerías multimedia integradas para el desarrollo de aplicaciones que manejan contenido audiovisual. Comenzamos por entender los conceptos básicos sobre aplicaciones multimedia, identificando las diferentes fuentes de datos multimedia y las clases asociadas con su procesamiento.
+### generar_imagenes
+<small>Creado: 2025-12-09 20:31</small>
 
-Las fuentes de datos multimedia son fundamentales en cualquier aplicación que requiera la manipulación de imágenes, audio o video. Estas fuentes pueden ser archivos locales en el dispositivo del usuario, recursos web accesibles a través de URLs, o incluso dispositivos de entrada como cámaras web o micrófonos. Cada fuente de datos multimedia tiene sus propias características y métodos para su acceso y manipulación.
+`001-generar_imagenes.py`
 
-Las clases asociadas con la gestión de fuentes de datos multimedia proporcionan una interfaz uniforme para interactuar con estos recursos, independientemente del tipo de contenido que se esté manejando. Estas clases incluyen funcionalidades como la carga, descarga, procesamiento y reproducción de audio y video. Algunas de las principales clases pueden ser `MediaPlayer`, `MediaRecorder` y `MediaMetadataRetriever`.
+```python
+import os
+import random
+from PIL import Image
 
-El uso de librerías multimedia integradas facilita el desarrollo de aplicaciones que requieren una alta calidad en la presentación del contenido multimedia. Estas librerías ofrecen optimizaciones internas para mejorar el rendimiento y la eficiencia, lo que es crucial cuando se trabaja con recursos intensivos como imágenes y videos.
+# -------------------------------------------------------
+# Configuration
+# -------------------------------------------------------
 
-Además, las clases asociadas con fuentes de datos multimedia suelen proporcionar métodos para manipular los atributos del contenido multimedia. Por ejemplo, pueden permitir ajustar el volumen del audio, cambiar la orientación de una imagen o seleccionar partes específicas de un video para reproducir. Esta funcionalidad es esencial para crear aplicaciones que ofrezcan una experiencia multimedia personalizada y adaptable a las necesidades del usuario.
+OUTPUT_FOLDER = "generated_images"
+IMAGE_WIDTH = 1920
+IMAGE_HEIGHT = 1080
+NUM_IMAGES = 10   # how many images to generate
 
-En este capítulo, hemos explorado los conceptos básicos sobre fuentes de datos multimedia y las clases asociadas con su gestión en librerías multimedia integradas. A medida que avanzamos en el estudio de programación multimedia y dispositivos móviles, es importante comprender estos fundamentos para desarrollar aplicaciones que puedan manejar contenido audiovisual de manera eficiente y efectiva.
+# List of allowed colors (R, G, B)
+PERMITTED_COLORS = [
+    (255, 0,   0),     # red
+    (0,   255, 0),     # green
+    (0,   0,   255),   # blue
+    (255, 255, 0),     # yellow
+    (255, 255, 255),   # white
+    (0,   0,   0)      # black
+]
+
+# -------------------------------------------------------
+# Create folder if needed
+# -------------------------------------------------------
+
+os.makedirs(OUTPUT_FOLDER, exist_ok=True)
+
+# -------------------------------------------------------
+# Image generation
+# -------------------------------------------------------
+
+for i in range(NUM_IMAGES):
+    img = Image.new("RGB", (IMAGE_WIDTH, IMAGE_HEIGHT))
+    pixels = img.load()
+
+    for y in range(IMAGE_HEIGHT):
+        for x in range(IMAGE_WIDTH):
+            pixels[x, y] = random.choice(PERMITTED_COLORS)
+
+    filename = f"image_{i+1:03d}.png"
+    img.save(os.path.join(OUTPUT_FOLDER, filename))
+
+print(f"{NUM_IMAGES} images created in '{OUTPUT_FOLDER}'")
+```
+
+### colores solidos
+<small>Creado: 2025-12-09 20:32</small>
+
+`002-colores solidos.py`
+
+```python
+import os
+import random
+from PIL import Image
+
+# -------------------------------------------------------
+# Configuration
+# -------------------------------------------------------
+
+OUTPUT_FOLDER = "generated_images"
+IMAGE_WIDTH = 1920
+IMAGE_HEIGHT = 1080
+NUM_IMAGES = 10   # number of images to generate
+
+# List of allowed solid colors (R, G, B)
+PERMITTED_COLORS = [
+    (255, 0,   0),     # red
+    (0,   255, 0),     # green
+    (0,   0,   255),   # blue
+    (255, 255, 0),     # yellow
+    (255, 255, 255),   # white
+    (0,   0,   0)      # black
+]
+
+# -------------------------------------------------------
+# Create output folder
+# -------------------------------------------------------
+
+os.makedirs(OUTPUT_FOLDER, exist_ok=True)
+
+# -------------------------------------------------------
+# Generate images
+# -------------------------------------------------------
+
+for i in range(NUM_IMAGES):
+    color = random.choice(PERMITTED_COLORS)
+    img = Image.new("RGB", (IMAGE_WIDTH, IMAGE_HEIGHT), color)
+
+    filename = f"image_{i+1:03d}.png"
+    img.save(os.path.join(OUTPUT_FOLDER, filename))
+
+print(f"{NUM_IMAGES} solid-color images created in '{OUTPUT_FOLDER}'")
+```
+
+### con logo
+<small>Creado: 2025-12-09 20:35</small>
+
+`003-con logo.py`
+
+```python
+import os
+import random
+from PIL import Image
+
+# -------------------------------------------------------
+# Configuration
+# -------------------------------------------------------
+
+OUTPUT_FOLDER = "generated_images"
+IMAGE_WIDTH = 1920
+IMAGE_HEIGHT = 1080
+NUM_IMAGES = 10   # number of images to generate
+
+# List of allowed solid colors (R, G, B)
+PERMITTED_COLORS = [
+    (255, 0,   0),     # red
+    (0,   255, 0),     # green
+    (0,   0,   255),   # blue
+    (255, 255, 0),     # yellow
+    (255, 255, 255),   # white
+    (0,   0,   0)      # black
+]
+
+LOGO_FILENAME = "logo.png"   # logo file in the same folder as this script
+THRESHOLD_VALUE = 128        # threshold for black/white conversion
+MIN_SCALE = 0.5              # relative to original logo
+MAX_SCALE = 2.0
+MIN_ROTATION = -30           # degrees
+MAX_ROTATION = 30
+
+# -------------------------------------------------------
+# Prepare output folder
+# -------------------------------------------------------
+
+os.makedirs(OUTPUT_FOLDER, exist_ok=True)
+
+# -------------------------------------------------------
+# Load and prepare logo (thresholded black on transparent)
+# -------------------------------------------------------
+
+if not os.path.isfile(LOGO_FILENAME):
+    raise FileNotFoundError(f"Logo file '{LOGO_FILENAME}' not found in current folder.")
+
+# Load as grayscale
+logo_gray = Image.open(LOGO_FILENAME).convert("L")
+
+# Apply threshold (produces pure black or white)
+logo_bw = logo_gray.point(lambda p: 255 if p >= THRESHOLD_VALUE else 0)
+
+# Create an RGBA logo: black where logo is dark, transparent where white
+# Black pixels = logo; white = background -> transparent
+logo_rgba = Image.new("RGBA", logo_bw.size, (0, 0, 0, 255))  # black with full alpha
+alpha = logo_bw.point(lambda p: 255 - p)  # invert: black(0)->255, white(255)->0
+logo_rgba.putalpha(alpha)
+
+# -------------------------------------------------------
+# Generate images
+# -------------------------------------------------------
+
+for i in range(NUM_IMAGES):
+    # 1. Solid-color background
+    bg_color = random.choice(PERMITTED_COLORS)
+    img = Image.new("RGB", (IMAGE_WIDTH, IMAGE_HEIGHT), bg_color)
+
+    # 2. Random scale
+    scale = random.uniform(MIN_SCALE, MAX_SCALE)
+    new_w = max(1, int(logo_rgba.width * scale))
+    new_h = max(1, int(logo_rgba.height * scale))
+    logo_scaled = logo_rgba.resize((new_w, new_h), resample=Image.LANCZOS)
+
+    # 3. Random rotation
+    angle = random.uniform(MIN_ROTATION, MAX_ROTATION)
+    logo_transformed = logo_scaled.rotate(angle, expand=True, resample=Image.BICUBIC)
+
+    # 4. Random position (ensure it stays within the image if possible)
+    lw, lh = logo_transformed.size
+    max_x = max(0, IMAGE_WIDTH - lw)
+    max_y = max(0, IMAGE_HEIGHT - lh)
+
+    # If logo is larger than the image, it will be anchored at (0,0)
+    pos_x = random.randint(0, max_x) if max_x > 0 else 0
+    pos_y = random.randint(0, max_y) if max_y > 0 else 0
+
+    # 5. Paste logo using its alpha as mask
+    img.paste(logo_transformed, (pos_x, pos_y), logo_transformed)
+
+    # 6. Save
+    filename = f"image_{i+1:03d}.png"
+    img.save(os.path.join(OUTPUT_FOLDER, filename))
+
+print(f"{NUM_IMAGES} images created in '{OUTPUT_FOLDER}' with logo overlay.")
+```
+
+### con galeria de imagenes
+<small>Creado: 2025-12-09 20:44</small>
+
+`004-con galeria de imagenes.py`
+
+```python
+import os
+import random
+from PIL import Image, ImageChops
+
+# -------------------------------------------------------
+# Configuración
+# -------------------------------------------------------
+
+GALERIA_FOLDER = "galeria"
+OUTPUT_FOLDER = "generated_images"
+LOGO_FILENAME = "logo.png"
+
+IMAGE_WIDTH = 1920
+IMAGE_HEIGHT = 1080
+
+NUM_OUTPUT_IMAGES = 20  # cuántas imágenes finales quieres generar
+
+# Colores permitidos (RGB)
+PERMITTED_COLORS = [
+    (255, 0, 0),       # rojo
+    (0, 255, 0),       # verde
+    (0, 0, 255),       # azul
+    (255, 255, 0),     # amarillo
+    (255, 255, 255),   # blanco
+    (0, 0, 0)          # negro
+]
+
+# Parámetros del logo
+LOGO_ALPHA_FACTOR = 0.2  # 20 % transparencia global
+MIN_SCALE = 0.5
+MAX_SCALE = 2.0
+MIN_ROTATION = -30
+MAX_ROTATION = 30
+
+# Modo de mezcla con la imagen de galería: "screen" o "add"
+BLEND_MODE = "screen"
+
+# Extensiones consideradas como imagen
+IMAGE_EXTENSIONS = (".png", ".jpg", ".jpeg", ".bmp", ".gif", ".webp", ".tif", ".tiff")
+
+# -------------------------------------------------------
+# Preparar carpetas
+# -------------------------------------------------------
+
+os.makedirs(OUTPUT_FOLDER, exist_ok=True)
+
+# -------------------------------------------------------
+# Cargar lista de imágenes de galeria
+# -------------------------------------------------------
+
+if not os.path.isdir(GALERIA_FOLDER):
+    raise FileNotFoundError(f"La carpeta '{GALERIA_FOLDER}' no existe.")
+
+galeria_files = [
+    os.path.join(GALERIA_FOLDER, f)
+    for f in os.listdir(GALERIA_FOLDER)
+    if f.lower().endswith(IMAGE_EXTENSIONS)
+]
+
+if not galeria_files:
+    raise RuntimeError(f"No se han encontrado imágenes en la carpeta '{GALERIA_FOLDER}'.")
+
+# -------------------------------------------------------
+# Cargar logo (si se puede). Si falla, se trabajará sin logo.
+# -------------------------------------------------------
+
+logo_original = None
+try:
+    if os.path.isfile(LOGO_FILENAME):
+        logo_original = Image.open(LOGO_FILENAME).convert("RGBA")
+    else:
+        print(f"Aviso: no se ha encontrado '{LOGO_FILENAME}'. Se generarán imágenes sin logo.")
+except Exception as e:
+    print(f"Aviso: error al cargar el logo '{LOGO_FILENAME}': {e}")
+    logo_original = None
+
+# -------------------------------------------------------
+# Función de mezcla (screen o add)
+# -------------------------------------------------------
+
+def blend_with_background(background_rgb, overlay_rgb):
+    """Mezcla background y overlay usando el modo configurado."""
+    if BLEND_MODE.lower() == "add":
+        return ImageChops.add(background_rgb, overlay_rgb, scale=1.0, offset=0)
+    else:
+        # por defecto, screen
+        return ImageChops.screen(background_rgb, overlay_rgb)
+
+# -------------------------------------------------------
+# Generar imágenes de salida
+# -------------------------------------------------------
+
+for idx in range(1, NUM_OUTPUT_IMAGES + 1):
+    try:
+        # 1. Fondo de color aleatorio
+        bg_color = random.choice(PERMITTED_COLORS)
+        background = Image.new("RGB", (IMAGE_WIDTH, IMAGE_HEIGHT), bg_color)
+
+        # 2. Elegir una imagen aleatoria de galeria y procesarla
+        random_img_path = random.choice(galeria_files)
+        try:
+            img = Image.open(random_img_path).convert("L")  # escala de grises
+        except Exception as e_img:
+            print(f"Aviso: no se pudo abrir la imagen '{random_img_path}': {e_img}")
+            # si falla la imagen de galería, generamos solo fondo (y logo si hay) y seguimos
+            img = None
+
+        if img is not None:
+            # duplicar luminosidad (clamp a 255)
+            img = img.point(lambda p: 255 if p * 2 > 255 else int(p * 2))
+
+            # redimensionar a 1920x1080 para mezclar
+            img_resized = img.resize((IMAGE_WIDTH, IMAGE_HEIGHT), resample=Image.LANCZOS)
+
+            # convertir a RGB para mezclar
+            overlay_rgb = img_resized.convert("RGB")
+
+            # mezcla con el fondo
+            background = blend_with_background(background, overlay_rgb)
+
+        # 3. Colocar el logo encima con posición, rotación y escala aleatorias (20 % transparencia)
+        if logo_original is not None:
+            # copia de trabajo del logo
+            logo = logo_original.copy()
+
+            # escala aleatoria
+            scale = random.uniform(MIN_SCALE, MAX_SCALE)
+            new_w = max(1, int(logo.width * scale))
+            new_h = max(1, int(logo.height * scale))
+            logo = logo.resize((new_w, new_h), resample=Image.LANCZOS)
+
+            # rotación aleatoria
+            angle = random.uniform(MIN_ROTATION, MAX_ROTATION)
+            logo = logo.rotate(angle, expand=True, resample=Image.BICUBIC)
+
+            # aplicar 20 % de transparencia (sobre la alpha existente)
+            if logo.mode != "RGBA":
+                logo = logo.convert("RGBA")
+            r, g, b, a = logo.split()
+            a = a.point(lambda p: int(p * LOGO_ALPHA_FACTOR))
+            logo = Image.merge("RGBA", (r, g, b, a))
+
+            # posición aleatoria dentro de la imagen
+            lw, lh = logo.size
+            max_x = max(0, IMAGE_WIDTH - lw)
+            max_y = max(0, IMAGE_HEIGHT - lh)
+            pos_x = random.randint(0, max_x) if max_x > 0 else 0
+            pos_y = random.randint(0, max_y) if max_y > 0 else 0
+
+            # pegar sobre el fondo
+            background = background.convert("RGBA")
+            background.paste(logo, (pos_x, pos_y), logo)
+        else:
+            background = background.convert("RGB")
+
+        # 4. Guardar resultado
+        output_filename = f"output_{idx:03d}.png"
+        output_path = os.path.join(OUTPUT_FOLDER, output_filename)
+        background.save(output_path)
+
+    except Exception as e:
+        # Cualquier fallo en esta iteración se ignora, se continúa con la siguiente
+        print(f"Aviso: error procesando salida {idx}: {e}")
+        continue
+
+print(f"Proceso terminado. Imágenes generadas en '{OUTPUT_FOLDER}'.")
+```
+
+### con texto
+<small>Creado: 2025-12-09 20:52</small>
+
+`005-con texto.py`
+
+```python
+import os
+import random
+from PIL import Image, ImageChops, ImageDraw, ImageFont
+
+# -------------------------------------------------------
+# Configuration
+# -------------------------------------------------------
+
+GALERIA_FOLDER = "galeria"
+OUTPUT_FOLDER = "generated_images"
+LOGO_FILENAME = "logo.png"
+
+IMAGE_WIDTH = 1920
+IMAGE_HEIGHT = 1080
+
+NUM_OUTPUT_IMAGES = 20  # how many final images to generate
+
+# Allowed background colors (RGB)
+PERMITTED_COLORS = [
+    (255, 0, 0),       # red
+    (0, 255, 0),       # green
+    (0, 0, 255),       # blue
+    (255, 255, 0),     # yellow
+    (255, 255, 255),   # white
+    (0, 0, 0)          # black
+]
+
+# Logo parameters
+LOGO_ALPHA_FACTOR = 0.2  # 20% transparency global
+MIN_SCALE = 0.5
+MAX_SCALE = 2.0
+MIN_ROTATION = -30
+MAX_ROTATION = 30
+
+# Blend mode with gallery image: "screen" or "add"
+BLEND_MODE = "screen"
+
+# Text parameters
+TEXT_STRING = "Sample text here"    # text to draw (centered)
+FONT_FILENAME = "Ubuntu-B.ttf"        # font file in the same folder as this script
+FONT_SIZE = 120                     # font size
+TEXT_COLOR = (255, 255, 255)        # text color (RGB), e.g. white
+
+# Image extensions
+IMAGE_EXTENSIONS = (".png", ".jpg", ".jpeg", ".bmp", ".gif", ".webp", ".tif", ".tiff")
+
+# -------------------------------------------------------
+# Prepare folders
+# -------------------------------------------------------
+
+os.makedirs(OUTPUT_FOLDER, exist_ok=True)
+
+# -------------------------------------------------------
+# Load gallery images
+# -------------------------------------------------------
+
+if not os.path.isdir(GALERIA_FOLDER):
+    raise FileNotFoundError(f"Gallery folder '{GALERIA_FOLDER}' does not exist.")
+
+galeria_files = [
+    os.path.join(GALERIA_FOLDER, f)
+    for f in os.listdir(GALERIA_FOLDER)
+    if f.lower().endswith(IMAGE_EXTENSIONS)
+]
+
+if not galeria_files:
+    raise RuntimeError(f"No images found in folder '{GALERIA_FOLDER}'.")
+
+# -------------------------------------------------------
+# Load logo (if possible). If fails, work without logo.
+# -------------------------------------------------------
+
+logo_original = None
+try:
+    if os.path.isfile(LOGO_FILENAME):
+        logo_original = Image.open(LOGO_FILENAME).convert("RGBA")
+    else:
+        print(f"Warning: logo file '{LOGO_FILENAME}' not found. Images will be generated without logo.")
+except Exception as e:
+    print(f"Warning: error loading logo '{LOGO_FILENAME}': {e}")
+    logo_original = None
+
+# -------------------------------------------------------
+# Load font (if possible). If fails, work without text.
+# -------------------------------------------------------
+
+font = None
+if TEXT_STRING:
+    try:
+        if os.path.isfile(FONT_FILENAME):
+            font = ImageFont.truetype(FONT_FILENAME, FONT_SIZE)
+        else:
+            print(f"Warning: font file '{FONT_FILENAME}' not found. Text will not be drawn.")
+    except Exception as e:
+        print(f"Warning: error loading font '{FONT_FILENAME}': {e}")
+        font = None
+
+# -------------------------------------------------------
+# Blend function (screen or add)
+# -------------------------------------------------------
+
+def blend_with_background(background_rgb, overlay_rgb):
+    """Blend background and overlay using configured mode."""
+    if BLEND_MODE.lower() == "add":
+        return ImageChops.add(background_rgb, overlay_rgb, scale=1.0, offset=0)
+    else:
+        # default: screen
+        return ImageChops.multiply(background_rgb, overlay_rgb)
+
+# -------------------------------------------------------
+# Generate output images
+# -------------------------------------------------------
+
+for idx in range(1, NUM_OUTPUT_IMAGES + 1):
+    try:
+        # 1. Random-color background
+        bg_color = random.choice(PERMITTED_COLORS)
+        background = Image.new("RGB", (IMAGE_WIDTH, IMAGE_HEIGHT), bg_color)
+
+        # 2. Pick a random gallery image, grayscale, 2x lightness, blend
+        random_img_path = random.choice(galeria_files)
+        try:
+            img = Image.open(random_img_path).convert("L")  # grayscale
+        except Exception as e_img:
+            print(f"Warning: could not open gallery image '{random_img_path}': {e_img}")
+            img = None  # continue with just background (and logo/text)
+
+        if img is not None:
+            # double lightness (clamp to 255)
+            img = img.point(lambda p: 255 if p * 2 > 255 else int(p * 2))
+
+            # resize to 1920x1080 for blending
+            img_resized = img.resize((IMAGE_WIDTH, IMAGE_HEIGHT), resample=Image.LANCZOS)
+
+            # convert to RGB for blending
+            overlay_rgb = img_resized.convert("RGB")
+
+            # blend with background
+            background = blend_with_background(background, overlay_rgb)
+
+        # from here on, work in RGBA (for logo and optional text)
+        background = background.convert("RGBA")
+
+        # 3. Logo on top (random position, rotation, scale, 20% transparency)
+        if logo_original is not None:
+            # work copy
+            logo = logo_original.copy()
+
+            # random scale
+            scale = random.uniform(MIN_SCALE, MAX_SCALE)
+            new_w = max(1, int(logo.width * scale))
+            new_h = max(1, int(logo.height * scale))
+            logo = logo.resize((new_w, new_h), resample=Image.LANCZOS)
+
+            # random rotation
+            angle = random.uniform(MIN_ROTATION, MAX_ROTATION)
+            logo = logo.rotate(angle, expand=True, resample=Image.BICUBIC)
+
+            # apply 20% alpha
+            if logo.mode != "RGBA":
+                logo = logo.convert("RGBA")
+            r, g, b, a = logo.split()
+            a = a.point(lambda p: int(p * LOGO_ALPHA_FACTOR))
+            logo = Image.merge("RGBA", (r, g, b, a))
+
+            # random position inside canvas
+            lw, lh = logo.size
+            max_x = max(0, IMAGE_WIDTH - lw)
+            max_y = max(0, IMAGE_HEIGHT - lh)
+            pos_x = random.randint(0, max_x) if max_x > 0 else 0
+            pos_y = random.randint(0, max_y) if max_y > 0 else 0
+
+            background.paste(logo, (pos_x, pos_y), logo)
+
+        # 4. Centered text (if font loaded and TEXT_STRING not empty)
+        if font is not None and TEXT_STRING:
+            draw = ImageDraw.Draw(background)
+
+            # get text bounding box to compute center
+            # textbbox returns (left, top, right, bottom)
+            bbox = draw.textbbox((0, 0), TEXT_STRING, font=font)
+            text_w = bbox[2] - bbox[0]
+            text_h = bbox[3] - bbox[1]
+
+            text_x = (IMAGE_WIDTH - text_w) // 2
+            text_y = (IMAGE_HEIGHT - text_h) // 2
+
+            # if background is RGBA, add alpha to TEXT_COLOR
+            if background.mode == "RGBA":
+                fill_color = TEXT_COLOR + (255,)
+            else:
+                fill_color = TEXT_COLOR
+
+            draw.text((text_x, text_y), TEXT_STRING, font=font, fill=fill_color)
+
+        # 5. Save result
+        output_filename = f"output_{idx:03d}.png"
+        output_path = os.path.join(OUTPUT_FOLDER, output_filename)
+        background.save(output_path)
+
+    except Exception as e:
+        # any failure on this iteration: warn and continue
+        print(f"Warning: error processing output {idx}: {e}")
+        continue
+
+print(f"Done. Images generated in '{OUTPUT_FOLDER}'.")
+```
+
+### outline en texto
+<small>Creado: 2025-12-09 20:52</small>
+
+`006-outline en texto.py`
+
+```python
+import os
+import random
+from PIL import Image, ImageChops, ImageDraw, ImageFont
+
+# -------------------------------------------------------
+# Configuration
+# -------------------------------------------------------
+
+GALERIA_FOLDER = "galeria"
+OUTPUT_FOLDER = "generated_images"
+LOGO_FILENAME = "logo.png"
+
+IMAGE_WIDTH = 1920
+IMAGE_HEIGHT = 1080
+
+NUM_OUTPUT_IMAGES = 20  # how many final images to generate
+
+# Allowed background colors (RGB)
+PERMITTED_COLORS = [
+    (255, 0, 0),       # red
+    (0, 255, 0),       # green
+    (0, 0, 255),       # blue
+    (255, 255, 0),     # yellow
+    (255, 255, 255),   # white
+    (0, 0, 0)          # black
+]
+
+# Logo parameters
+LOGO_ALPHA_FACTOR = 0.2  # 20% transparency global
+MIN_SCALE = 0.5
+MAX_SCALE = 2.0
+MIN_ROTATION = -30
+MAX_ROTATION = 30
+
+# Blend mode with gallery image: "screen" or "add"
+BLEND_MODE = "screen"
+
+# Text parameters
+TEXT_STRING = "Sample text here"    # text to draw (centered)
+FONT_FILENAME = "Ubuntu-B.ttf"      # font file in the same folder as this script
+FONT_SIZE = 120                     # font size
+TEXT_COLOR = (255, 255, 255)        # text color (RGB), e.g. white
+
+# Image extensions
+IMAGE_EXTENSIONS = (".png", ".jpg", ".jpeg", ".bmp", ".gif", ".webp", ".tif", ".tiff")
+
+# -------------------------------------------------------
+# Prepare folders
+# -------------------------------------------------------
+
+os.makedirs(OUTPUT_FOLDER, exist_ok=True)
+
+# -------------------------------------------------------
+# Load gallery images
+# -------------------------------------------------------
+
+if not os.path.isdir(GALERIA_FOLDER):
+    raise FileNotFoundError(f"Gallery folder '{GALERIA_FOLDER}' does not exist.")
+
+galeria_files = [
+    os.path.join(GALERIA_FOLDER, f)
+    for f in os.listdir(GALERIA_FOLDER)
+    if f.lower().endswith(IMAGE_EXTENSIONS)
+]
+
+if not galeria_files:
+    raise RuntimeError(f"No images found in folder '{GALERIA_FOLDER}'.")
+
+# -------------------------------------------------------
+# Load logo (if possible). If fails, work without logo.
+# -------------------------------------------------------
+
+logo_original = None
+try:
+    if os.path.isfile(LOGO_FILENAME):
+        logo_original = Image.open(LOGO_FILENAME).convert("RGBA")
+    else:
+        print(f"Warning: logo file '{LOGO_FILENAME}' not found. Images will be generated without logo.")
+except Exception as e:
+    print(f"Warning: error loading logo '{LOGO_FILENAME}': {e}")
+    logo_original = None
+
+# -------------------------------------------------------
+# Load font (if possible). If fails, work without text.
+# -------------------------------------------------------
+
+font = None
+if TEXT_STRING:
+    try:
+        if os.path.isfile(FONT_FILENAME):
+            font = ImageFont.truetype(FONT_FILENAME, FONT_SIZE)
+        else:
+            print(f"Warning: font file '{FONT_FILENAME}' not found. Text will not be drawn.")
+    except Exception as e:
+        print(f"Warning: error loading font '{FONT_FILENAME}': {e}")
+        font = None
+
+# -------------------------------------------------------
+# Blend function (screen or add)
+# -------------------------------------------------------
+
+def blend_with_background(background_rgb, overlay_rgb):
+    """Blend background and overlay using configured mode."""
+    if BLEND_MODE.lower() == "add":
+        return ImageChops.add(background_rgb, overlay_rgb, scale=1.0, offset=0)
+    else:
+        # you changed to multiply instead of true 'screen'
+        return ImageChops.multiply(background_rgb, overlay_rgb)
+
+# -------------------------------------------------------
+# Generate output images
+# -------------------------------------------------------
+
+for idx in range(1, NUM_OUTPUT_IMAGES + 1):
+    try:
+        # 1. Random-color background
+        bg_color = random.choice(PERMITTED_COLORS)
+        background = Image.new("RGB", (IMAGE_WIDTH, IMAGE_HEIGHT), bg_color)
+
+        # 2. Pick a random gallery image, grayscale, 2x lightness, blend
+        random_img_path = random.choice(galeria_files)
+        try:
+            img = Image.open(random_img_path).convert("L")  # grayscale
+        except Exception as e_img:
+            print(f"Warning: could not open gallery image '{random_img_path}': {e_img}")
+            img = None  # continue with just background (and logo/text)
+
+        if img is not None:
+            # double lightness (clamp to 255)
+            img = img.point(lambda p: 255 if p * 2 > 255 else int(p * 2))
+
+            # resize to 1920x1080 for blending
+            img_resized = img.resize((IMAGE_WIDTH, IMAGE_HEIGHT), resample=Image.LANCZOS)
+
+            # convert to RGB for blending
+            overlay_rgb = img_resized.convert("RGB")
+
+            # blend with background
+            background = blend_with_background(background, overlay_rgb)
+
+        # from here on, work in RGBA (for logo and optional text)
+        background = background.convert("RGBA")
+
+        # 3. Logo on top (random position, rotation, scale, 20% transparency)
+        if logo_original is not None:
+            # work copy
+            logo = logo_original.copy()
+
+            # random scale
+            scale = random.uniform(MIN_SCALE, MAX_SCALE)
+            new_w = max(1, int(logo.width * scale))
+            new_h = max(1, int(logo.height * scale))
+            logo = logo.resize((new_w, new_h), resample=Image.LANCZOS)
+
+            # random rotation
+            angle = random.uniform(MIN_ROTATION, MAX_ROTATION)
+            logo = logo.rotate(angle, expand=True, resample=Image.BICUBIC)
+
+            # apply 20% alpha
+            if logo.mode != "RGBA":
+                logo = logo.convert("RGBA")
+            r, g, b, a = logo.split()
+            a = a.point(lambda p: int(p * LOGO_ALPHA_FACTOR))
+            logo = Image.merge("RGBA", (r, g, b, a))
+
+            # random position inside canvas
+            lw, lh = logo.size
+            max_x = max(0, IMAGE_WIDTH - lw)
+            max_y = max(0, IMAGE_HEIGHT - lh)
+            pos_x = random.randint(0, max_x) if max_x > 0 else 0
+            pos_y = random.randint(0, max_y) if max_y > 0 else 0
+
+            background.paste(logo, (pos_x, pos_y), logo)
+
+        # 4. Centered text (if font loaded and TEXT_STRING not empty)
+        if font is not None and TEXT_STRING:
+            draw = ImageDraw.Draw(background)
+
+            # get text bounding box to compute center
+            # textbbox returns (left, top, right, bottom)
+            bbox = draw.textbbox((0, 0), TEXT_STRING, font=font)
+            text_w = bbox[2] - bbox[0]
+            text_h = bbox[3] - bbox[1]
+
+            text_x = (IMAGE_WIDTH - text_w) // 2
+            text_y = (IMAGE_HEIGHT - text_h) // 2
+
+            # if background is RGBA, add alpha to TEXT_COLOR
+            if background.mode == "RGBA":
+                fill_color = TEXT_COLOR + (255,)
+                outline_color = (0, 0, 0, 255)
+            else:
+                fill_color = TEXT_COLOR
+                outline_color = (0, 0, 0)
+
+            # draw text with black outline
+            offsets = [(-2, 0), (2, 0), (0, -2), (0, 2),
+                       (-2, -2), (-2, 2), (2, -2), (2, 2)]
+
+            # first draw outline
+            for ox, oy in offsets:
+                draw.text((text_x + ox, text_y + oy),
+                          TEXT_STRING, font=font, fill=outline_color)
+
+            # then draw main text
+            draw.text((text_x, text_y), TEXT_STRING, font=font, fill=fill_color)
+
+        # 5. Save result
+        output_filename = f"output_{idx:03d}.png"
+        output_path = os.path.join(OUTPUT_FOLDER, output_filename)
+        background.save(output_path)
+
+    except Exception as e:
+        # any failure on this iteration: warn and continue
+        print(f"Warning: error processing output {idx}: {e}")
+        continue
+
+print(f"Done. Images generated in '{OUTPUT_FOLDER}'.")
+```
+
 
 <a id="procesamiento-de-objetos-multimedia"></a>
 ## Procesamiento de objetos multimedia
 
-En este capítulo, nos adentramos en la utilización de librerías multimedia integradas para el procesamiento de objetos multimedia, un aspecto crucial en el desarrollo de aplicaciones multimedia y dispositivos móviles. Comenzamos por entender los conceptos básicos sobre aplicaciones multimedia, que son programas diseñados para manipular y presentar contenido audiovisual de manera eficiente.
-
-La arquitectura del API utilizado es fundamental para interactuar con estas librerías. Cada API tiene sus propias características y clases que facilitan el acceso a funciones específicas como la carga, reproducción y procesamiento de objetos multimedia. Estas clases proporcionan una interfaz uniforme para operaciones comunes, lo que simplifica significativamente el desarrollo.
-
-El procesamiento de objetos multimedia implica manipular datos audiovisuales en tiempo real o almacenados en archivos. Las librerías integradas ofrecen métodos para cargar y analizar estos datos, permitiendo la extracción de información relevante como metadatos, análisis de características sonoras o visualización de imágenes.
-
-La reproducción de objetos multimedia es otro aspecto clave del procesamiento. Librerías como MediaPlayer o AVFoundation proporcionan funcionalidades avanzadas para controlar la reproducción, incluyendo ajustes de volumen, velocidad y sincronización entre diferentes medios audiovisuales.
-
-Además de cargar y reproducir, el procesamiento de objetos multimedia implica también su manipulación. Esto puede implicar la edición de videos, la generación de thumbnails o la creación de efectos visuales en tiempo real. Las librerías integradas ofrecen herramientas para realizar estas operaciones, permitiendo a los desarrolladores crear aplicaciones multimedia interactivas y dinámicas.
-
-El contexto gráfico es otro elemento importante en el procesamiento de objetos multimedia. Librerías como OpenGL o Core Animation proporcionan APIs para renderizar gráficos 2D y 3D, lo que es esencial para la creación de interfaces de usuario multimedia sofisticadas.
-
-Métodos de entrada también son cruciales en el procesamiento de objetos multimedia. Eventos como toques, gestos y cambios de orientación del dispositivo móvil deben ser capturados y respondidos adecuadamente para una experiencia de usuario fluida.
-
-La gestión de las preferencias de la aplicación es otro aspecto que los desarrolladores deben considerar. Las librerías integradas ofrecen funcionalidades para almacenar y recuperar preferencias del usuario, lo que permite personalizar la experiencia de uso según las preferencias individuales.
-
-El almacenamiento y persistencia de datos multimedia son otros temas importantes en el procesamiento de objetos multimedia. Librerías como SQLite o Core Data proporcionan herramientas para almacenar metadatos y configuraciones de aplicaciones, asegurando que los datos sean accesibles y seguros entre sesiones.
-
-Finalmente, las tareas en segundo plano y servicios también son aspectos clave en el procesamiento de objetos multimedia. Librerías como BackgroundTask o JobScheduler permiten ejecutar operaciones importantes incluso cuando la aplicación no está en primer plano, asegurando que los usuarios experimenten una alta calidad de servicio.
-
-En resumen, la utilización de librerías multimedia integradas para el procesamiento de objetos multimedia es un aspecto fundamental del desarrollo de aplicaciones multimedia y dispositivos móviles. Estas librerías proporcionan una amplia gama de funcionalidades que facilitan la manipulación y presentación de contenido audiovisual, permitiendo a los desarrolladores crear experiencias interactivas y dinámicas para sus usuarios.
 
 <a id="reproduccion-de-objetos-multimedia"></a>
 ## Reproducción de objetos multimedia
 
-En este capítulo, nos centraremos en la reproducción de objetos multimedia utilizando librerías integradas. Comenzamos por entender qué son los objetos multimedia y cómo se pueden representar gráficamente en aplicaciones. A continuación, exploramos las principales características de las librerías multimedia disponibles para el desarrollo de aplicaciones móviles, destacando sus ventajas y desventajas.
-
-A medida que avanzamos, introducimos la teoría detrás del procesamiento de objetos multimedia, desde la carga hasta la visualización. Aprenderemos cómo manejar diferentes formatos de audio y video, así como cómo controlar su reproducción en tiempo real. También nos familiarizaremos con las técnicas de optimización para mejorar el rendimiento durante la reproducción.
-
-Continuamos con una sección práctica donde aplicaremos lo aprendido a través de ejemplos de código. Estos ejemplos demuestran cómo integrar librerías multimedia en proyectos reales, desde la creación de interfaces de usuario hasta la implementación de funciones de control avanzadas como pausa, detener y ajuste de volumen.
-
-A medida que nos acercamos al final del capítulo, reflexionamos sobre las mejores prácticas para el manejo de errores durante la reproducción multimedia. Aprenderemos cómo detectar y gestionar excepciones comunes, así como cómo implementar políticas de seguridad para proteger los recursos multimedia sensibles.
-
-Finalmente, concluimos con una visión general de cómo las librerías multimedia integradas pueden ser utilizadas en el desarrollo de aplicaciones móviles complejas. Aprenderemos cómo aprovechar las capacidades de estas herramientas para crear experiencias multimedia atractivas y funcionales que mejoren la interacción del usuario.
-
-Este capítulo proporciona una base sólida para entender y aplicar técnicas avanzadas de reproducción de objetos multimedia en aplicaciones móviles, preparando al lector para enfrentar desafíos más complejos en el futuro.
 
 <a id="animacion-de-objetos"></a>
 ## Animación de objetos
 
-En este capítulo, nos adentramos en la animación de objetos mediante librerías multimedia integradas, una técnica esencial para crear aplicaciones interactivas y dinámicas. Comenzamos explorando los conceptos básicos de animación 2D y 3D, comprendiendo cómo estos elementos pueden ser manipulados dentro del contexto de un programa multimedia.
-
-A medida que avanzamos, nos familiarizamos con la arquitectura típica de una aplicación multimedia, identificando los componentes clave que contribuyen a su funcionamiento. Estos componentes incluyen fuentes de audio, cámaras e iluminación, y escenas, todos los cuales son fundamentales para crear un entorno visualmente atractivo y funcional.
-
-El estudio de librerías multimedia integradas es una parte crucial de este proceso. Exploramos cómo estas herramientas proporcionan las funciones básicas necesarias para la animación de objetos, desde el manejo de imágenes hasta la reproducción de audio y la creación de efectos visuales. Aprenderemos a utilizar estas librerías no solo para crear animaciones estáticas, sino también para implementar interacciones dinámicas que respondan a eventos del usuario.
-
-Además, dedicamos tiempo a entender cómo procesar objetos multimedia en aplicaciones móviles. Esto implica aprender sobre la gestión de imágenes y videos, así como técnicas avanzadas de animación que pueden ser utilizadas para mejorar la experiencia del usuario. A través de ejemplos prácticos, veremos cómo implementar estas técnicas en proyectos reales.
-
-Finalmente, exploramos el uso de sensores y posicionamiento en aplicaciones móviles, aprendiendo cómo estos dispositivos pueden ser integrados para crear experiencias interactivas que respondan a la realidad del usuario. Esto incluye el manejo de conexiones HTTP y HTTPS, lo cual es crucial para la comunicación entre la aplicación y los servicios web.
-
-En resumen, este capítulo proporciona una visión integral sobre cómo utilizar librerías multimedia integradas para animar objetos en aplicaciones multimedia y dispositivos móviles. A través de un enfoque práctico y detallado, hemos cubierto desde los conceptos básicos hasta técnicas avanzadas, preparando a los lectores para desarrollar aplicaciones interactivas y dinámicas que ofrecan una experiencia de usuario excepcional.
 
 
 <a id="analisis-de-tecnologias-para-aplicaciones-en-dispositivos-moviles"></a>
@@ -20851,44 +28671,24 @@ En resumen, este capítulo proporciona una visión integral sobre cómo utilizar
 <a id="dispositivos-moviles"></a>
 ## Dispositivos móviles
 
-En este capítulo, nos adentramos en la exploración de los dispositivos móviles como plataforma para el desarrollo de aplicaciones. Comenzamos por definir qué son los dispositivos móviles y sus características distintivas que hacen de ellos una herramienta tan versátil y accesible.
+### Introducción a los ejercicios
 
-Los dispositivos móviles, también conocidos como teléfonos inteligentes o tablets, se caracterizan por su portabilidad, conectividad constante a Internet y procesamiento potente. Estas características los convierten en el principal medio para la interacción con internet en la actualidad. El hardware de estos dispositivos incluye un procesador rápido, memoria RAM suficiente, almacenamiento interno y externo, pantalla táctil o sensor de voz, cámara y batería duradera.
-
-El software que ejecutan los dispositivos móviles es el sistema operativo, que puede ser Android o iOS. Cada uno tiene sus propias características y APIs (Interfaces de Programación de Aplicaciones) específicas que permiten a los desarrolladores crear aplicaciones nativas para cada plataforma. Esta dualidad en la creación de aplicaciones móviles ofrece una gran flexibilidad pero también plantea desafíos en términos de mantenimiento y actualización.
-
-Además de las plataformas Android e iOS, existen otras tecnologías emergentes como Flutter o React Native que permiten el desarrollo de aplicaciones multiplataforma. Estas soluciones utilizan lenguajes de programación como Dart o JavaScript respectivamente, lo que facilita la creación de aplicaciones para múltiples plataformas con un solo códigobase.
-
-El hardware y software de los dispositivos móviles están en constante evolución, lo que implica que las tecnologías utilizadas en el desarrollo también deben adaptarse a estas nuevas realidades. Desde el uso de sensores más precisos hasta la implementación de funciones avanzadas como la realidad aumentada o la inteligencia artificial, los dispositivos móviles están cambiando drásticamente y con ellos lo está haciendo su software.
-
-En este contexto, es crucial entender cómo funcionan estos dispositivos para desarrollar aplicaciones que no solo sean funcionalmente correctas sino también eficientes y agradables de usar. Esto implica conocer cómo se organiza el código, cómo se manejan los eventos, cómo se gestionan las preferencias del usuario y cómo se optimizan las operaciones en segundo plano.
-
-Además, la seguridad es un aspecto fundamental al desarrollar aplicaciones para dispositivos móviles. Los usuarios confían sus datos a estas plataformas, por lo que es imperativo implementar medidas de seguridad robustas desde el inicio del desarrollo. Esto incluye la protección contra malware, la gestión adecuada de las credenciales y la conformidad con los estándares de privacidad y seguridad.
-
-En resumen, el análisis de tecnologías para aplicaciones en dispositivos móviles es un campo dinámico que requiere una comprensión profunda del hardware y software de estos dispositivos. Al entender cómo funcionan y cómo se pueden aprovechar sus características, los desarrolladores pueden crear experiencias de usuario innovadoras y seguras que satisfagan las necesidades cambiantes de los usuarios en el mundo digital actual.
-
-### Tecnologias
-
-```markdown
-Android
-  Es de Google
-  -Se programan controladores en Kotlin/Java
-  -Se programan vistas en XML
-  -Se puede programar, desde Windows, macOS, Linux
-iOS
-  Es de Apple
-  -Se programan controladores en Swift
-  -Se programan vistas en XML
-  -Solo se puede programar desde macOS
-Harmony OS
-  Es de Huawei
-  -Se programan controladores en Java
-  -Se programan vistas en Java/XML
-  -Se puede programar desde Windows, Linux (limitado), macOS
-  
-```
+Este conjunto de ejercicios se enfoca en el desarrollo web y móvil, específicamente en la creación y mejora de interfaces para aplicaciones multimedia. Los problemas abordados van desde la comprensión de diferentes tecnologías y plataformas móviles como Android, iOS y Harmony OS hasta la implementación básica de HTML y CSS para crear una interfaz usuario simple pero funcional. Se practican competencias clave en diseño web responsivo, incluyendo estilos básicos, reescalamiento automático, uso de botones interactivos y creación de layouts flexibles que se ajustan a diferentes tamaños de pantalla. Estos ejercicios son esenciales para estudiantes que desean familiarizarse con las bases del desarrollo web adaptativo y móvil.
 
 ### prototipo
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML es una página web simple que se centra en mostrar información sobre artistas, probablemente relacionada con música y podcasts. La estructura principal incluye un encabezado (`<header>`) donde están los botones para navegar a diferentes secciones (J, Todos, Música, Podcasts) y una sección (`<section>`) que contiene múltiples artículos (`<article>`), cada uno representando la información de un artista.
+
+En el encabezado, los botones permiten al usuario cambiar o filtrar las vistas en función del contenido específico que desee ver. Por ejemplo, si hace clic en "J", se mostrará información sobre artistas relacionados con esa letra; si selecciona "Música" o "Podcasts", se mostrará el contenido respectivo.
+
+La sección principal presenta varios artículos, cada uno de los cuales contiene una imagen y un texto descriptivo. En este caso, todos los artículos muestran la misma imagen ("josevicente.jpg") y describen al artista como "Artista". Aunque en esta página todos son iguales, esto se debe a que es solo un ejemplo y probablemente en situaciones reales cada artículo tendría información específica sobre diferentes artistas.
+
+Este diseño básico de HTML permite estructurar la información de manera clara y organizada, facilitando la navegación del usuario entre distintos tipos de contenido.
+
+`002-prototipo.html`
 
 ```html
 <!doctype html>
@@ -20943,6 +28743,21 @@ Harmony OS
 ```
 
 ### estilo
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML es una página web básica que incluye un diseño simple y estilos mínimos para mostrar contenido sobre artistas. La estructura principal comienza con la declaración `<!doctype html>` que indica al navegador que se trata de un documento HTML5.
+
+En el `<head>`, encontramos metadatos como el título de la página "TAMEify", lo cual es importante porque este texto aparecerá en la pestaña del navegador y también será relevante para motores de búsqueda. También hay una declaración `<meta charset="utf-8">` que asegura que todos los caracteres, incluyendo acentos y símbolos especiales, se muestren correctamente.
+
+El bloque de CSS dentro de `<style>` establece el fondo del cuerpo y la ventana completa (`body,html`) en un tono oscuro (#121212) con el texto en blanco, creando una apariencia moderna y minimalista.
+
+En el `<body>`, se presenta un menú con cuatro botones ("J", "Todos", "Música" y "Podcasts") dentro de una etiqueta `<header>`. Estos botones probablemente servirán para navegar por diferentes tipos de contenido en la aplicación TAMEify. A continuación, hay una sección que contiene varios artículos, cada uno con una imagen y un texto descriptivo que dice "Artista". Este diseño sugiere una página donde los usuarios podrían explorar trabajos o información sobre artistas relacionados con música y podcasts.
+
+Este código es fundamental para entender cómo estructurar y estilizar contenido básico en HTML, además de cómo organizar elementos en la interfaz del usuario de una aplicación móvil o web.
+
+`003-estilo.html`
 
 ```html
 <!doctype html>
@@ -21000,6 +28815,15 @@ Harmony OS
 ```
 
 ### no reescalar
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML es una página web sencilla que muestra un diseño básico para una aplicación de música o podcasts. En el encabezado, se encuentran cuatro botones que permiten a los usuarios navegar entre diferentes secciones del sitio, como "J" (probablemente por Juegos), "Todos", "Música" y "Podcasts". El uso de la etiqueta `<meta name="viewport">` asegura que el contenido se ajuste correctamente a cualquier tamaño de pantalla, manteniendo una escala inicial fija y desactivando la reescalabilidad para mejorar la experiencia del usuario en dispositivos móviles.
+
+En la parte principal de la página, dentro de la etiqueta `<section>`, hay múltiples artículos que representan diferentes elementos, probablemente álbumes o episodios. Cada artículo contiene una imagen y un texto descriptivo. En este caso específico, todas las imágenes se llaman "josevicente.jpg" y el texto es simplemente "Artista". Este diseño básico puede ser utilizado como plantilla para mostrar contenido multimedia en dispositivos móviles sin que la página se distorsione o pierda claridad al cambiar de tamaño.
+
+`004-no reescalar.html`
 
 ```html
 <!doctype html>
@@ -21059,6 +28883,17 @@ Harmony OS
 ```
 
 ### botones
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML crea una página web simple que se adapta a diferentes tamaños de pantalla, lo cual es útil para dispositivos móviles y tablets. La página tiene un estilo básico con un fondo oscuro y texto en blanco para mejorar la legibilidad. En el encabezado (`<header>`), hay cuatro botones: "J", "Todos", "Música" y "Podcasts". Estos botones tienen un diseño uniforme, con colores que contrastan bien contra el fondo.
+
+El cuerpo principal de la página contiene una sección (`<section>`) con varios artículos (`<article>`), cada uno representado por una imagen (la misma en todos los casos) seguida de texto que indica "Artista". Estos elementos estarían alineados y podrían formar parte del contenido central de la página, quizás mostrando las canciones o podcasts relacionados con el artista José Vicente.
+
+Este tipo de estructura es común en sitios web donde se muestran listas de contenido como música o podcasts, permitiendo a los usuarios navegar fácilmente entre diferentes categorías usando botones interactivos.
+
+`005-botones.html`
 
 ```html
 <!doctype html>
@@ -21119,6 +28954,19 @@ Harmony OS
 ```
 
 ### articulos
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web sencilla que muestra información sobre artistas favoritos en dispositivos móviles. La estructura principal incluye un encabezado con varios botones y una sección principal donde se muestran artículos relacionados con artistas.
+
+En la parte superior, el `<head>` define el idioma de la página como español e incluye meta etiquetas que ayudan a controlar cómo se ve la página en dispositivos móviles. Además, hay un bloque de estilo CSS interno que establece reglas para el diseño visual de los elementos HTML.
+
+El cuerpo principal de la página contiene un encabezado con cuatro botones: "J", "Todos", "Música" y "Podcasts". Estos botones probablemente permiten a los usuarios filtrar o navegar entre diferentes tipos de contenido. Bajo este encabezado, hay una sección llamada "favoritas" que utiliza un diseño en cuadrícula para mostrar varios artículos. Cada artículo contiene una imagen del artista y su nombre.
+
+El uso de CSS en este código es crucial para dar formato a la página, haciendo que los botones sean grandes y visibles, y asegurando que cada elemento visual esté bien alineado y espaciado adecuadamente. Esto mejora la experiencia del usuario en dispositivos móviles, ya que el contenido se muestra de manera clara y fácilmente accesible.
+
+`006-articulos.html`
 
 ```html
 <!doctype html>
@@ -21197,27 +29045,18 @@ Harmony OS
 </html>
 ```
 
-### descarga de android studio
-
-```markdown
-https://developer.android.com/studio?hl=es-419
-
-Nuevo proyecto
-
-Empty Views activity
-
-Nombre: AplicacionMovil1
-Package: com.jocarsa.aplicacionmovil1
-
-Ubicacion: /home/josevicente/AndroidStudioProjects/AplicacionMovil1
-
-API Nougat Android 7
-
-MainActivity.kt = Controlador
-activity_main.xml = vista
-```
-
 ### reproduccion
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML es la estructura básica de una página web que presenta una interfaz para reproducir música y podcasts en dispositivos móviles. La página incluye un encabezado con varios botones que permiten cambiar entre diferentes categorías de contenido, como 'J', 'Todos', 'Música' y 'Podcasts'. Además, hay una sección llamada "favoritas" donde se muestran artículos con imágenes del artista y sus nombres. La página también incorpora estilos CSS para mejorar la apariencia y hacer que el contenido sea responsivo en diferentes tamaños de pantalla.
+
+En la parte inferior de la página, hay un reproductor musical que ocupa casi todo el ancho del contenedor y está diseñado para ser visible en cualquier dispositivo móvil. La estructura del documento se organiza usando HTML5 semántico con elementos como `<header>` y `<section>`, lo cual mejora tanto la accesibilidad como la organización del código.
+
+El archivo actual representa una interfaz más completa y funcional que el anterior, ya que ofrece interacción visual directa para los usuarios a través de botones y presentación de contenido. En contraste con un simple enlace y texto proporcionado en "007-descarga de android studio.md", este HTML presenta una página web con estilo y elementos interactivos específicamente diseñados para la reproducción de medios móviles, lo que indica un avance significativo hacia el desarrollo de aplicaciones completas.
+
+`007-reproduccion.html`
 
 ```html
 <!doctype html>
@@ -21309,6 +29148,19 @@ activity_main.xml = vista
 ```
 
 ### ocupa el 100
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML crea una página web sencilla que se ajusta perfectamente a dispositivos móviles y muestra información musical. La estructura de la página incluye un encabezado con varios botones para navegar por diferentes tipos de contenido (como música, podcasts) y un cuerpo principal dividido en dos secciones principales: una lista de favoritos y un reproductor de audio.
+
+La primera sección "favoritas" muestra varias tarjetas (artículos HTML) que contienen imágenes de artistas y sus nombres. Cada tarjeta tiene un diseño minimalista con un borde redondeado, un espacio entre elementos para una mejor visualización y un tamaño de imagen consistente para mantener la apariencia uniforme.
+
+La segunda sección es el reproductor de audio, que está inicialmente desplegado en la parte inferior de la página. Cuando el usuario hace clic en esta sección, cambia su estilo CSS para ocupar todo el espacio de la pantalla (a través del uso de clases CSS y JavaScript), proporcionando una vista completa del reproductor.
+
+Este diseño es especialmente útil para aplicaciones móviles porque permite a los usuarios interactuar con contenido musical sin necesidad de desplazarse o abrir nuevas páginas, lo que mejora significativamente la experiencia del usuario en dispositivos pequeños.
+
+`008-ocupa el 100.html`
 
 ```html
 <!doctype html>
@@ -21417,26 +29269,274 @@ activity_main.xml = vista
 </html>
 ```
 
+### Actividades propuestas
+
+### Actividades para Estudiantes de Formación Profesional
+
+#### Actividad 1: Análisis y Comparación de Tecnologías Móviles
+**Descripción:** Identifica las principales diferencias entre los sistemas operativos Android, iOS y Harmony OS. Compara sus características en términos de programación y requisitos del sistema.
+
+**Objetivo:** Entender la diversidad de tecnologías móviles disponibles y su impacto en el desarrollo de aplicaciones.
+
+#### Actividad 2: Creación de un Proyecto Básico con Android Studio
+**Descripción:** Utiliza las instrucciones proporcionadas en el archivo `007-descarga de android studio.md` para crear una aplicación móvil básica. Documenta cada paso del proceso y comparte la estructura del proyecto.
+
+**Objetivo:** Aprender a configurar un entorno de desarrollo para Android y entender los componentes básicos de un proyecto.
+
+#### Actividad 3: Mejora Estética en Páginas HTML
+**Descripción:** Emplea CSS y HTML para mejorar el diseño visual de la página web `006-reproduccion.html`. Agrega efectos como transiciones, animaciones y estilos personalizados.
+
+**Objetivo:** Desarrollar habilidades en diseño web responsive y mejoramiento de la experiencia del usuario.
+
+#### Actividad 4: Implementación de Reproductor Audio
+**Descripción:** Añade funcionalidades al reproductor audio en `007-reproduccion.html`. Incluye opciones para controlar el volumen, cambiar canciones y mejorar la interactividad.
+
+**Objetivo:** Dominar la integración de elementos multimedia en HTML y mejorar las capacidades de desarrollo web con JavaScript.
+
+#### Actividad 5: Modificación de Diseño Responsive
+**Descripción:** Optimiza `008-ocupa el 100.html` para que sea totalmente responsiva en diferentes dispositivos. Ajusta estilos, estructuras y funciones para una mejor visualización y interactividad en móviles y tablets.
+
+**Objetivo:** Mejorar la compatibilidad de sitios web con múltiples tamaños de pantalla y experiencias de usuario únicas según el dispositivo.
+
+#### Actividad 6: Integración de Estilos CSS
+**Descripción:** Usa los archivos HTML y CSS proporcionados en `007-reproduccion.html` para integrar estilos avanzados como gradientes, sombras y bordes redondeados. Mejora la interfaz del reproductor audio.
+
+**Objetivo:** Profundizar en el uso de CSS para crear interfaces web atractivas y funcionales.
+
+#### Actividad 7: Prueba y Depuración de Código
+**Descripción:** Identifica y corrige errores en los archivos HTML proporcionados. Realiza pruebas exhaustivas para asegurar que todas las funcionalidades trabajen correctamente.
+
+**Objetivo:** Desarrollar habilidades en la depuración de código y asegurar un producto final libre de fallos.
+
+Estas actividades están diseñadas para mejorar las habilidades técnicas de los estudiantes, desde el desarrollo web hasta el uso de herramientas como Android Studio. Cada una tiene un objetivo específico que contribuye al aprendizaje integral del estudiante en el campo de la programación y el diseño móvil.
+
+
 <a id="hardware-para-dispositivos-moviles"></a>
 ## Hardware para dispositivos móviles
 
-En este capítulo, nos adentramos en la comprensión del hardware que forma la base de los dispositivos móviles modernos. Comenzamos por explorar el hardware básico que todos los teléfonos móviles poseen: la placa base, que es el cerebro del dispositivo y contiene los componentes fundamentales como el procesador, la memoria RAM y el almacenamiento interno.
+### Introducción a los ejercicios
 
-La placa base se comunica con otros componentes a través de una serie de puertos y interfaces. El procesador, también conocido como CPU (Central Processing Unit), es el encargado de ejecutar todas las instrucciones del sistema operativo y las aplicaciones. Su velocidad y capacidad son fundamentales para la rendimiento general del dispositivo.
+Para agregar las funcionalidades de navegación entre pantallas en el footer, necesitas vincular los botones del footer a la lógica que cambia la visibilidad y el estado de las diferentes pantallas. Aquí tienes una versión actualizada del HTML con JavaScript añadido para manejar estas acciones:
 
-La memoria RAM almacena temporalmente los datos que se están utilizando en ese momento, lo que permite una rápida accesibilidad a estos datos cuando el usuario interactúa con la aplicación. A diferencia de la memoria interna, la RAM es volátil, lo que significa que se pierde su contenido cuando el dispositivo se apaga.
+```html
+<!doctype html>
+<html lang="es">
+<head>
+    <title>TAMEify</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
-El almacenamiento interno del teléfono móvil almacena los archivos y aplicaciones permanentemente. Los teléfonos móviles modernos también pueden tener una tarjeta microSD para aumentar su capacidad de almacenamiento si es necesario.
+    <style>
+        body, html {
+            background: #121212;
+            color: white;
+            font-family: sans-serif;
+            padding: 5px;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        header button {
+            background: magenta;
+            color: white;
+            padding: 10px;
+            border: none;
+            min-width: 40px;
+            border-radius: 30px;
+        }
+        #favoritas {
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 10px;
+        }
+        section article img {
+            height: 40px;
+        }
+        section article {
+            gap: 20px;
+            display: flex;
+            align-items: center;
+            background: #292929;
+            border-radius: 10px;
+        }
+        section article p {
+            font-weight: bold;
+        }
+        #reproductor {
+            width: 91%;
+            background: #541010;
+            height: 50px;
+            border-radius: 10px;
+            padding: 10px;
+            position: fixed;
+            top: 80%;
+            box-sizing: border-box;
+            transition: all 1s;
+            overflow: hidden;
+        }
+        .pantallacompleta {
+            position: absolute !important;
+            top: 0px !important;
+            left: 0px;
+            width: 100% !important;
+            height: 100%;
+        }
+        #pantalla_lista {
+            display: none;
+        }
+        #pantalla_lista img {
+            width: 100%;
+        }
+        .cancion {
+            display: flex;
+        }
+        .cancion .datostexto { flex: 7; }
+        .cancion > p { flex: 1; }
 
-Además de estos componentes básicos, los dispositivos móviles contienen otros elementos cruciales como la pantalla táctil, que permite al usuario interactuar con el dispositivo mediante gestos y toques. La batería es otro componente fundamental, proporcionando energía continua a todo el sistema mientras se utiliza.
+        footer {
+            display: flex;
+            position: fixed;
+            width: 100%;
+            bottom: 0px;
+            left: 0px;
+        }
+        footer button {
+            width: 25%;
+            border: none;
+            background: black;
+            color: white;
+        }
+        footer button .emoji { font-size: 32px; }
 
-La cámara del teléfono móvil es otro elemento importante, ya que ha convertido los teléfonos móviles en herramientas de fotografía y videografía portátiles. Las cámaras modernas pueden capturar imágenes y videos con alta calidad, gracias a sus sensores fotográficos y al software de procesamiento incorporado.
+        #pantalla_inicio {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+    </style>
+</head>
 
-El microprocesador de audio es otro componente que permite la grabación y reproducción de música y otros sonidos en el teléfono móvil. Además, los dispositivos móviles modernos contienen un amplio rango de sensores adicionales, como acelerómetros, giroscopios y sensores de proximidad, que mejoran la experiencia del usuario al proporcionar funciones como la detección de orientación y el bloqueo automático.
+<body>
+<div id="pantallas">
+    <div id="pantalla_inicio" class="active">
+        <header>
+          <button>J</button>
+          <button>Todos</button>
+          <button>Música</button>
+          <button>Podcasts</button>
+        </header>
+        <section id="favoritas"></section>
+    </div>
+    <!-- Añade otras pantallas según sea necesario -->
+</div>
 
-En resumen, el hardware de los dispositivos móviles es una combinación compleja de componentes que trabajan juntos para ofrecer a los usuarios una experiencia digital fluida y funcional. Cada uno de estos componentes desempeña un papel crucial en la operación del dispositivo y su capacidad para satisfacer las necesidades del usuario.
+<section id="reproductor">
+  <h3>Artista</h3>
+  <img src="josevicente.jpg">
+  <audio src="0802.mp3" controls></audio>
+</section>
+
+<footer>
+    <button onclick="navigate('inicio')">
+        <div class="emoji">🏠</div><p>Inicio</p>
+    </button>
+    <button onclick="navigate('buscar')">
+        <div class="emoji">🔍</div><p>Buscar</p>
+    </button>
+    <button onclick="navigate('biblioteca')">
+        <div class="emoji">📚</div><p>Tu biblioteca</p>
+    </button>
+    <button onclick="navigate('crear')">
+        <div class="emoji">➕</div><p>Crear</p>
+    </button>
+</footer>
+
+<div id="templates">
+  <template id="elemento_lista">
+      <article>
+          <img src="..." onerror="this.onerror=null; this.src='img/placeholder.png';" alt="Miniatura de la lista">
+          <p>...</p>
+      </article>
+  </template>
+</div>
+
+<script>
+    // Función para navegar entre pantallas
+    function navigate(pantalla) {
+        let pan = document.querySelectorAll('#pantallas div');
+        for (let i = 0; i < pan.length; i++) {
+            if (pan[i].id === pantalla) {
+                pan[i].classList.add('active');
+            } else {
+                pan[i].classList.remove('active');
+            }
+        }
+    }
+
+    // Cargar datos y poblar lista al cargar la página
+    function loadFavorites() {
+        let contenedor = document.querySelector("#favoritas");
+        
+        fetch("api/favoritos.json")
+            .then(response => response.json())
+            .then(data => {
+                data.favorites.forEach(dato => {
+                    let plantilla = document.querySelector("#elemento_lista");
+                    let instancia = plantilla.content.cloneNode(true);
+                    let articulo = instancia.querySelector("article");
+                    articulo.querySelector("p").textContent = dato.artist;
+                    articulo.querySelector("img").setAttribute("src", dato.image);
+                    contenedor.appendChild(instancia);
+
+                    articulo.onclick = function() {
+                        console.log("Has hecho click en un articulo");
+                        document.querySelector("#pantalla_inicio").classList.remove('active');
+                        document.getElementById("pantalla_lista").classList.add('active');
+                    }
+                });
+            });
+    }
+
+    // Ejecutar la carga de datos al cargar la página
+    window.onload = loadFavorites;
+</script>
+</body>
+</html>
+```
+
+### Explicación:
+
+1. **Estilos**: Se han ajustado los estilos para asegurar que las pantallas cambien de forma correcta.
+
+2. **JavaScript**:
+   - La función `navigate` toma un parámetro que representa la pantalla a mostrar y agrega/elimina la clase `.active` en consecuencia.
+   - La función `loadFavorites` carga los datos desde el archivo JSON y pobla la lista de favoritos, además de añadir eventos al click para cambiar las pantallas.
+
+3. **HTML**:
+   - Se han añadido las funciones de navegación a cada botón del footer mediante `onclick="navigate('nombre_de_pantalla')"` para que se pueda navegar entre pantallas.
+   
+4. **Inicialización**: La función `loadFavorites` se llama cuando la página se carga completamente (`window.onload`).
+
+### Nota:
+- Asegúrate de tener una estructura HTML adecuada en el cuerpo principal del documento, incluyendo las diferentes pantallas que deseas mostrar (por ejemplo, `"pantalla_lista"`, `"pantalla_buscar"`, etc.).
+- Tendrás que implementar la lógica y el contenido para cada pantalla adicional según tus necesidades.
+
+Con estas modificaciones, tu aplicación debería ser capaz de navegar entre pantallas en función del botón presionado en el footer.
 
 ### Comenzamos
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML es la estructura básica de una página web para un reproductor multimedia en dispositivos móviles. La página incluye estilos CSS integrados dentro del elemento `<style>` que definen el diseño y la apariencia general, asegurando que se adapte bien a diferentes tamaños de pantalla gracias a las directivas `width=device-width` y `user-scalable=no`.
+
+El contenido principal de la página está estructurado en varios elementos HTML. El encabezado (`<header>`) contiene botones para navegar por diferentes categorías como música y podcasts. La sección `<section id="favoritas">`, aunque vacía en este momento, probablemente almacena listas personalizadas de favoritos del usuario. Más abajo, la sección con el `id="reproductor"` contiene un reproductor de audio donde se muestra una imagen del artista y se reproduce un archivo `.mp3`. 
+
+Además, hay un bloque `<template id="lista">` que sirve como plantilla para generar elementos HTML dinámicamente basándose en datos obtenidos desde un servidor. Finalmente, el script al final de la página maneja eventos como hacer clic en el reproductor para expandirlo y obtener datos del usuario a través de una llamada `fetch()` a un archivo JSON ubicado en `"api/favoritos.json"`. Esto es crucial para personalizar la experiencia del usuario basándose en sus preferencias previas.
+
+`001-Comenzamos.html`
 
 ```html
 <!doctype html>
@@ -21531,6 +29631,19 @@ En resumen, el hardware de los dispositivos móviles es una combinación complej
 ```
 
 ### cargamos datos de ap
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML es una página web simple que sirve como interfaz para reproducir y gestionar listas de favoritos en dispositivos móviles. En la parte superior, se encuentran cuatro botones que permiten a los usuarios navegar por diferentes tipos de contenido: "J", "Todos", "Música" y "Podcasts". La sección principal contiene dos partes clave: una para mostrar elementos de favoritos y otra como reproductor multimedia.
+
+El reproductor, ubicado al final del cuerpo (`<body>`), incluye información sobre el artista actual (con un título "<h3>Artista</h3>") y una imagen del artista junto con un elemento `<audio>` para reproducir archivos de audio. Cuando se hace clic en este reproductor, cambia su estilo para llenar toda la pantalla gracias a la clase CSS `pantallacompleta`.
+
+El bloque de código JavaScript hace uso del API Fetch para cargar datos desde "api/favoritos.json", un archivo JSON que contiene información sobre los favoritos del usuario. Una vez obtenidos estos datos, el script crea instancias de una plantilla HTML predefinida (`<template id="elemento_lista">`) por cada elemento en la lista de favoritos y las añade al contenedor `<section id="favoritas">`. Esto permite que los usuarios visualicen sus elementos favoritos en formato de tarjetas, con cada tarjeta mostrando una imagen del artista y el nombre del mismo.
+
+Esta página es importante porque combina HTML, CSS y JavaScript para proporcionar una experiencia interactiva y personalizable, permitiendo a los usuarios administrar su contenido multimedia desde un dispositivo móvil.
+
+`002-cargamos datos de ap.html`
 
 ```html
 <!doctype html>
@@ -21632,6 +29745,19 @@ En resumen, el hardware de los dispositivos móviles es una combinación complej
 ```
 
 ### personalizamos la plantilla
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web sencilla para reproducir música y mostrar listas personalizadas. La estructura principal incluye un encabezado con botones que probablemente sirven para cambiar entre diferentes tipos de contenido (como música, podcasts, etc.), una sección para mostrar elementos favoritos del usuario, y otra sección dedicada a la interfaz de reproducción musical.
+
+En el código CSS, se definen estilos básicos para mejorar la apariencia y usabilidad de los elementos. Por ejemplo, establece un fondo oscuro, colores de texto blancos, y diseños flexibles que adaptan automáticamente al tamaño del dispositivo (ya sea teléfono o computadora). Además, hay reglas específicas para estilizar botones, imágenes, secciones y el reproductor de audio.
+
+El bloque de JavaScript es donde la interacción dinámica ocurre. Primero, añade una funcionalidad que permite a los usuarios hacer clic en el reproductor de audio para expandirlo a pantalla completa. Luego, mediante una solicitud HTTP (fetch), obtiene datos desde un archivo JSON remoto ("api/favoritos.json") que contiene información sobre los favoritos del usuario. Una vez recibidos y analizados estos datos, se utiliza la plantilla HTML definida previamente para crear elementos dinámicos en la página basándose en los datos obtenidos. Estos elementos son añadidos a una sección específica (con ID "favoritas") en el DOM, lo que permite a los usuarios ver sus favoritos listados y estilizados.
+
+Este código es importante porque combina HTML, CSS y JavaScript para crear una interfaz de usuario rica y dinámica. Es útil tanto para estudiantes como profesionales ya que demuestra cómo integrar diferentes tecnologías web para proporcionar funcionalidades interactivas a los usuarios.
+
+`003-personalizamos la plantilla.html`
 
 ```html
 <!doctype html>
@@ -21735,6 +29861,21 @@ En resumen, el hardware de los dispositivos móviles es una combinación complej
 ```
 
 ### on error
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web simple que muestra información sobre reproducción multimedia, como música o podcasts. La estructura principal incluye un encabezado con botones para navegar por diferentes tipos de contenido y una sección dedicada a los elementos favoritos del usuario.
+
+En el cuerpo del documento (la etiqueta `<body>`), hay dos secciones importantes: una llamada "favoritas" que eventualmente contendrá listas de reproducción personalizadas, y otra llamada "reproductor", donde se muestra información sobre el artista actual y un control para reproducir música o podcasts.
+
+Es especialmente interesante cómo se maneja la imagen en la plantilla del elemento lista. La propiedad `onerror` asegura que si la imagen original no puede cargarse (por ejemplo, porque la URL es incorrecta), la imagen será reemplazada por una imagen de respaldo llamada "placeholder.png". Esto mejora la experiencia del usuario al evitar que se muestren imágenes rotas o incompletas.
+
+El script añade interactividad a la página. Por ejemplo, cuando el usuario hace clic en la sección "reproductor", ésta se expande para ocupar toda la pantalla, proporcionando una vista completa y centrada del reproductor de audio.
+
+Esta estructura es útil porque permite a los usuarios personalizar su experiencia de multimedia, accediendo fácilmente a sus favoritos y disfrutando de contenido en un formato que se adapta bien al tamaño de la pantalla.
+
+`004-on error.html`
 
 ```html
 <!doctype html>
@@ -21842,6 +29983,19 @@ En resumen, el hardware de los dispositivos móviles es una combinación complej
 ```
 
 ### click en articulo
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML es una página web sencilla que incluye estilos y scripts para manejar la interactividad. En el `head` del documento, se definen los estilos CSS necesarios para dar formato a diferentes elementos como botones, artículos y un reproductor de audio. 
+
+El cuerpo (`body`) contiene varios elementos HTML: un encabezado (`header`) con cuatro botones que probablemente sirven para filtrar o navegar por contenido relacionado con la música y podcasts; una sección llamada `favoritas` donde se mostrarán los artículos favoritos del usuario, y otra sección llamada `reproductor`, que incluye un título, una imagen de un artista y un elemento `<audio>` para reproducir un archivo de audio.
+
+En el final del cuerpo (`body`), hay un bloque de código JavaScript. Este script realiza dos tareas principales: primero, añade la clase `pantallacompleta` al reproductor cuando se hace clic en él, lo que estiliza el reproductor para que ocupe toda la pantalla; segundo, utiliza una solicitud HTTP (`fetch`) para obtener datos de un archivo JSON (`api/favoritos.json`). Una vez obtenidos estos datos, cada favorito se convierte en un artículo HTML utilizando una plantilla definida y luego se agrega a la sección `favoritas`. Además, cuando el usuario hace clic en uno de estos artículos, se registra este evento en la consola del navegador.
+
+Este código es importante porque demuestra cómo combinar HTML, CSS y JavaScript para crear interfaces web interactivas que pueden responder dinámicamente a las acciones del usuario.
+
+`005-click en articulo.html`
 
 ```html
 <!doctype html>
@@ -21953,6 +30107,21 @@ En resumen, el hardware de los dispositivos móviles es una combinación complej
 ```
 
 ### pantalla siguiente
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML es la estructura básica de una página web que probablemente forma parte de una aplicación multimedia para dispositivos móviles, como un reproductor musical. La página incluye estilos CSS incorporados en el encabezado (`<head>`) y scripts JavaScript al final del cuerpo (`</body>`). 
+
+El HTML define dos pantallas principales: `pantalla_inicio` que muestra botones de navegación y una sección para elementos favoritos, y `pantalla_lista`, la cual está oculta inicialmente pero puede ser revelada en el futuro. En la parte inferior del documento, hay un reproductor de audio con controles básicos.
+
+El bloque de JavaScript al final del código es crucial porque realiza dos tareas principales:
+1. Permite que el reproductor de audio se expanda y ocupe toda la pantalla cuando se hace clic en él.
+2. Utiliza una solicitud HTTP `fetch` para obtener datos desde un archivo JSON (`api/favoritos.json`) que contiene información sobre los elementos favoritos del usuario. Luego, este script crea dinámicamente artículos HTML basándose en esos datos y los agrega a la sección de favoritos.
+
+Este código es importante porque demuestra cómo combinar HTML, CSS y JavaScript para crear una interfaz interactiva y responder a las acciones del usuario, como el clic en el reproductor o en elementos de la lista.
+
+`006-pantalla siguiente.html`
 
 ```html
 <!doctype html>
@@ -22072,6 +30241,21 @@ En resumen, el hardware de los dispositivos móviles es una combinación complej
 ```
 
 ### muestro la pantalla lista
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML es una página web que muestra los elementos favoritos de un usuario, como música y podcasts. Comienza definiendo la estructura básica del documento con `<!doctype html>` y establece el idioma en español usando `<html lang="es">`. Luego, dentro de `<head>`, se configuran metadatos importantes como título de la página y codificación de caracteres.
+
+El estilo CSS incorporado define cómo debe verse la página, incluyendo colores de fondo, tamaños de fuente, y disposición de elementos. Por ejemplo, las secciones y artículos están diseñados para tener un aspecto minimalista con un color de fondo oscuro y texto en blanco.
+
+En el cuerpo del documento `<body>`, hay varias divisiones (`<div>`), encabezados (`<header>`), y secciones que contienen botones interactivos, imágenes, y audios. El contenido principal es la lista de favoritos que inicialmente está oculta hasta que se carga desde un archivo JSON usando una solicitud `fetch`.
+
+El JavaScript añade funcionalidad a los elementos HTML. Por ejemplo, cuando haces clic en el reproductor (`#reproductor`), cambia su tamaño para ocupar toda la pantalla, creando así un modo de pantalla completa. También hay código que recupera datos del archivo JSON y genera dinámicamente los elementos de lista basándose en esos datos.
+
+Este diseño es importante porque permite una experiencia visual atractiva y funcional para el usuario, permitiendo interactuar fácilmente con su contenido favorito y gestionar la reproducción de medios.
+
+`007-muestro la pantalla lista.html`
 
 ```html
 <!doctype html>
@@ -22193,6 +30377,17 @@ En resumen, el hardware de los dispositivos móviles es una combinación complej
 ```
 
 ### plantilla de la lista
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML representa la estructura de una página web que actúa como un reproductor multimedia básico para dispositivos móviles. La página incluye varias secciones, como un menú desplegable con botones para diferentes tipos de contenido (juegos, música, podcasts) y un área para mostrar listas de favoritos. También hay un diseño específico para la interfaz del reproductor que aparece cuando el usuario hace clic en él.
+
+El bloque de código JavaScript es crucial porque permite llenar dinámicamente una sección llamada "favoritas" con datos obtenidos a través de una solicitud `fetch` al archivo JSON ubicado en `"api/favoritos.json"`. Este proceso involucra clonar un elemento HTML almacenado dentro del `<template>` y luego personalizarlo con información específica sobre el artista y la imagen antes de agregar cada artículo a la sección "favoritas". Además, el JavaScript también maneja la interacción del usuario, cambiando entre diferentes pantallas según lo que haga clic.
+
+Este enfoque es importante porque permite una mayor flexibilidad y dinamismo en la interfaz del usuario, ya que no todo el contenido está codificado directamente dentro de las etiquetas HTML. En su lugar, se utiliza JavaScript para cargar y mostrar datos desde un archivo externo, lo cual facilita la actualización y mantenimiento del contenido sin necesidad de modificar directamente el código HTML.
+
+`008-plantilla de la lista.html`
 
 ```html
 <!doctype html>
@@ -22362,6 +30557,23 @@ En resumen, el hardware de los dispositivos móviles es una combinación complej
 ```
 
 ### estilo de la lista
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML es una plantilla para una aplicación web que probablemente se utiliza en un dispositivo móvil para reproducir música y mostrar información sobre los artistas. La página contiene dos pantallas principales: la pantalla inicial con favoritos y una lista detallada de canciones.
+
+En el encabezado, hay cuatro botones que representan diferentes categorías como "J", "Todos", "Música" y "Podcasts". Estos botones pueden ser utilizados para navegar entre diferentes listas de contenido. La sección principal contiene una lista de elementos favoritos (`#favoritas`), pero en este momento, está vacía en el código.
+
+El bloque de script realiza dos acciones principales:
+1. **Manejo del reproductor:** Selecciona un elemento con la clase `pantallacompleta`, que cuando se hace clic sobre él, ocupa toda la pantalla.
+2. **Población de lista de favoritos:** Utiliza una solicitud AJAX para obtener datos desde un archivo JSON remoto (`api/favoritos.json`). Para cada dato obtenido, crea una nueva instancia del elemento HTML almacenado en el template `#elemento_lista`. Este proceso inserta dinámicamente los artistas y las imágenes correspondientes a la lista de favoritos.
+
+El estilo CSS proporciona reglas para hacer que la página sea visualmente atractiva y fácil de usar. Define estilos específicos para diferentes elementos como botones, secciones y artículos que hacen parte del diseño del reproductor y de la lista de favoritos.
+
+Esta estructura permite una interfaz interactiva y dinámica en dispositivos móviles, adaptándose automáticamente al tamaño de la pantalla para proporcionar una buena experiencia de usuario.
+
+`009-estilo de la lista.html`
 
 ```html
 <!doctype html>
@@ -22539,6 +30751,17 @@ En resumen, el hardware de los dispositivos móviles es una combinación complej
 ```
 
 ### footer
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML es una página web básica que contiene varios elementos estructurales y estilísticos para crear una interfaz de usuario simplificada, potencialmente para un reproductor multimedia en dispositivos móviles. La página incluye una sección para mostrar listas de favoritos, un área dedicada al reproductor de audio con funcionalidades básicas como la reproducción y pausa, y un pie de página (footer) que proporciona acceso a diferentes opciones del menú.
+
+En el bloque de código JavaScript, específicamente dentro del `<script>`, se realiza una petición `fetch` para obtener datos JSON desde un archivo remoto llamado "api/favoritos.json". Estos datos son utilizados para poblar dinámicamente la sección de listas favoritas en la página. Cada elemento obtenido es clonado a partir de un modelo almacenado en una etiqueta `<template>` con id `elemento_lista`, y luego se añade al DOM (Documento Object Model) bajo el contenedor `#favoritas`. Además, cada artículo creado tiene asociado un evento que oculta la pantalla actual y muestra una nueva pantalla que contiene detalles adicionales del elemento seleccionado.
+
+Este código es crucial para entender cómo manipular dinámicamente el contenido de una página web usando JavaScript basándose en datos externos, así como cómo estructurar y estilizar componentes visuales para mejorar la experiencia del usuario en dispositivos móviles.
+
+`010-footer.html`
 
 ```html
 <!doctype html>
@@ -22754,41 +30977,264 @@ En resumen, el hardware de los dispositivos móviles es una combinación complej
 </html>
 ```
 
+### Actividades propuestas
+
+Para mejorar la interfaz de usuario y hacer que el sitio sea más intuitivo, te propongo algunos cambios en tu código HTML y JavaScript. Aquí tienes una versión revisada del archivo `010-footer.html`:
+
+### Mejoras Propuestas:
+1. **Footer Interactivo**: Hacer los botones del footer funcionales.
+2. **Manejo de Pantallas**: Asegurar que el cambio entre pantallas sea fluido y funcional.
+
+### Código Revisado
+
+```html
+<!doctype html>
+<html lang="es">
+<head>
+    <title>TAMEify</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+    <style>
+        body, html {
+            background: #121212;
+            color: white;
+            font-family: sans-serif;
+            padding: 5px;
+        }
+        
+        body {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        header button {
+            background-color: magenta;
+            color: white;
+            padding: 10px;
+            border: none;
+            min-width: 40px;
+            border-radius: 30px;
+        }
+
+        #favoritas {
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 10px;
+        }
+
+        section article img {
+            height: 40px;
+        }
+        
+        section article {
+            gap: 20px;
+            display: flex;
+            align-items: center;
+            background-color: #292929;
+            border-radius: 10px;
+        }
+
+        section article p {
+            font-weight: bold;
+        }
+
+        #reproductor {
+            width: 91%;
+            background-color: #541010;
+            height: 50px;
+            border-radius: 10px;
+            padding: 10px;
+            position: fixed;
+            top: calc(80% - 20px);
+            box-sizing: border-box;
+            transition: all 1s;
+            overflow: hidden;
+        }
+
+        .pantallacompleta {
+            position: absolute !important;
+            top: 0px !important;
+            left: 0px;
+            width: 100% !important;
+            height: 100% !important;
+        }
+
+        #pantalla_lista img {
+            width: 100%;
+        }
+
+        .cancion {
+            display: flex;
+        }
+        
+        .cancion .datostexto { flex: 7; }
+        .cancion > p { flex: 1; }
+
+        footer {
+            display: flex;
+            position: fixed;
+            width: 100%;
+            bottom: 0px;
+            left: 0px;
+        }
+
+        footer button {
+            width: 25%;
+            border: none;
+            background-color: black;
+            color: white;
+        }
+        
+        footer button .emoji { font-size: 32px; }
+    </style>
+</head>
+
+<body>
+<div id="pantallas">
+    <div id="pantalla_inicio" class="active">
+        <header>  
+            <button>J</button>
+            <button>Todos</button>
+            <button>Música</button>
+            <button>Podcasts</button>
+        </header>
+        
+        <section id="favoritas">
+            
+        </section>
+    </div>
+
+    <div id="pantalla_lista" class="inactive">
+        <img src="" onerror="this.onerror=null; this.src='img/placeholder.png';"
+             alt="Miniatura de la lista">
+        <h3>Titulo de la lista</h3>
+        
+        <article class="cancion">
+            <div class="datostexto">
+                <h4>Titulo de la cancion</h4>
+                <p>Titulo del disco</p>
+            </div>
+            <p>...</p>
+        </article>
+
+        <!-- Otros articulos -->
+    </div>
+</div>
+
+<section id="reproductor">
+    <h3>Artista</h3>
+    <img src="josevicente.jpg">
+    <audio src="0802.mp3" controls></audio>
+</section>
+
+<footer>
+    <button onclick="toggleScreen('pantalla_inicio')">
+        <div class="emoji">🏠</div>
+        <p>Inicio</p>
+    </button>
+
+    <button onclick="toggleScreen('pantalla_lista')">
+        <div class="emoji">🔍</div>
+        <p>Buscar</p>
+    </button>
+
+    <!-- Otros botones -->
+</footer>
+
+<div id="templates">
+    <template id="elemento_lista">
+        <article>
+            <img src="" onerror="this.onerror=null; this.src='img/placeholder.png';"
+                 alt="Miniatura de la lista" >
+            <p>...</p>
+        </article>
+    </template>
+</div>
+
+<script>
+    // Función para cambiar entre pantallas
+    function toggleScreen(screenId) {
+        const currentActive = document.querySelector('#pantallas .active');
+        if (currentActive.id === screenId) return;
+
+        currentActive.classList.remove('active');
+        currentActive.classList.add('inactive');
+
+        document.getElementById(screenId).classList.remove('inactive');
+        document.getElementById(screenId).classList.add('active');
+    }
+
+    // Función para cargar datos en la lista de favoritos
+    let contenedor = document.querySelector('#favoritas');
+
+    fetch("api/favoritos.json")
+    .then(function(respuesta) { return respuesta.json(); })
+    .then(function(datos) {
+        console.log(datos);
+        
+        datos.favorites.forEach(function(dato){
+            let plantilla = document.querySelector("#elemento_lista");
+            let instancia = plantilla.content.cloneNode(true);
+            
+            let articulo = instancia.querySelector("article");
+            articulo.querySelector("p").textContent = dato.artist;
+            articulo.querySelector("img").setAttribute("src",dato.image);
+
+            contenedor.appendChild(instancia);
+        });
+        
+        // Añadir listener de clic a cada artículo
+        document.querySelectorAll('#favoritas article').forEach(function(article) {
+            article.addEventListener('click', function() {
+                toggleScreen('pantalla_lista');
+            });
+        });
+    });
+
+</script>
+</body>
+</html>
+```
+
+### Explicación:
+1. **Footer Interactivo**: Los botones del footer ahora tienen un `onclick` que llama a la función `toggleScreen`.
+2. **Clases CSS para Gestión de Pantallas**: Utilizamos clases `.active` y `.inactive` para alternar entre las diferentes pantallas.
+3. **Manejo de Eventos en Favoritos**: Añadimos un listener para cada artículo en el listado de favoritos que cambia a la pantalla de lista cuando se hace clic.
+
+Este código debería proporcionarte una interfaz más funcional y intuitiva, permitiendo a los usuarios navegar entre las diferentes pantallas fácilmente.
+
+
 <a id="tecnologias-de-desarrollo"></a>
 ## Tecnologías de desarrollo
 
-En este capítulo, exploramos las tecnologías clave utilizadas para el desarrollo de aplicaciones en dispositivos móviles, abordando tanto los aspectos técnicos como los desafíos específicos que enfrentan estas plataformas. Comenzamos por una visión general del hardware y software que componen un dispositivo móvil, destacando las características distintivas que influyen en la elección de tecnologías para su desarrollo.
-
-A continuación, nos sumergimos en el análisis de los principales motores de juegos existentes, examinando sus arquitecturas y componentes. Este estudio no solo nos proporciona conocimientos sobre cómo funcionan estos sistemas complejos, sino que también nos ayuda a entender las mejores prácticas para su desarrollo propio.
-
-El capítulo continúa con una revisión detallada de las tecnologías utilizadas en el desarrollo de aplicaciones multimedia integradas. Desde la selección del API hasta el procesamiento y reproducción de objetos multimedia, cada paso es crucial para garantizar una experiencia óptima al usuario. También exploramos cómo estas tecnologías pueden ser adaptadas a diferentes formatos de contenido, desde imágenes hasta videos en 3D.
-
-Además, dedicamos un espacio significativo a la análisis de las tecnologías más recientes y emergentes para el desarrollo de aplicaciones móviles. Esto incluye una visión de los dispositivos móviles actuales, su hardware y software, así como las últimas tendencias en tecnología que están transformando el mundo móvil.
-
-Finalmente, concluimos con un análisis de cómo se pueden modificar aplicaciones existentes para adaptarlas a nuevas tecnologías. Este proceso requiere una comprensión profunda del código y la arquitectura de la aplicación, así como habilidades en programación y debugging avanzadas.
-
-A lo largo de este capítulo, hemos cubierto un espectro completo de temas relacionados con el desarrollo de aplicaciones móviles, desde las tecnologías básicas hasta los conceptos más avanzados. Cada sección ha sido diseñada para proporcionar una comprensión profunda y práctica de cómo desarrollar aplicaciones que sean eficientes, seguras y atractivas para los usuarios finales.
 
 <a id="emuladores-configuraciones"></a>
 ## Emuladores. Configuraciones
 
-La configuración adecuada de emuladores es un paso crucial para desarrollar y probar aplicaciones móviles de manera eficiente. Los emuladores nos permiten ejecutar nuestras aplicaciones en entornos virtuales que imitan los sistemas operativos y las características específicas de dispositivos móviles, como Android o iOS. En esta subunidad, exploraremos cómo seleccionar el emulador adecuado para nuestro proyecto y cómo configurarlo correctamente.
+### Introducción a los ejercicios
 
-El primer paso es elegir el emulador que mejor se adapte a nuestras necesidades. Para proyectos basados en Android, herramientas como Android Studio proporcionan un emulador integrado que ofrece una alta fielidad al sistema operativo real. Este emulador permite crear y gestionar múltiples dispositivos virtuales con diferentes configuraciones de hardware y software.
-
-Una vez seleccionado el emulador, la configuración es esencial para garantizar que nuestra aplicación funcione correctamente en el entorno virtual. Esto implica establecer las características del dispositivo, como la resolución de pantalla, el tipo de almacenamiento interno y externo, y las aplicaciones instaladas por defecto. Además, es importante configurar las opciones de red para simular diferentes escenarios de conexión, lo que nos ayuda a probar cómo nuestra aplicación se comporta en condiciones reales.
-
-La configuración del emulador también incluye la definición de variables de entorno y permisos específicos. Esto es crucial para asegurar que nuestras aplicaciones puedan acceder a los recursos necesarios y funcionen según lo esperado. Por ejemplo, si nuestra aplicación requiere acceso a la cámara o a las funciones de localización, debemos configurar estos permisos en el emulador.
-
-Además de la configuración básica, es importante realizar pruebas exhaustivas para asegurar que nuestro emulador esté funcionando correctamente. Esto implica verificar que todos los servicios y funcionalidades están disponibles y que no hay errores o incompatibilidades. Además, es recomendable realizar pruebas de rendimiento para evaluar la capacidad del emulador para manejar carga de trabajo intensa.
-
-La configuración del emulador también puede incluir la instalación de aplicaciones adicionales o el ajuste de las preferencias del sistema operativo. Esto nos permite simular diferentes escenarios de uso y probar cómo nuestra aplicación se comporta en condiciones reales. Por ejemplo, podemos instalar aplicaciones competenciales para evaluar la eficiencia de nuestro código o ajustar las preferencias del sistema para simular diferentes niveles de consumo de recursos.
-
-La configuración del emulador es un proceso iterativo que requiere ajustes y refinamientos constantes. Es importante realizar pruebas frecuentes y recopilar feedback para mejorar la calidad de nuestra aplicación. Además, es recomendable mantener el emulador actualizado con las últimas versiones del sistema operativo y las herramientas de desarrollo para garantizar su funcionamiento óptimo.
-
-En conclusión, la configuración adecuada de emuladores es un paso crucial para desarrollar y probar aplicaciones móviles de manera eficiente. Al seleccionar el emulador adecuado, configurarlo correctamente y realizar pruebas exhaustivas, podemos asegurar que nuestra aplicación funcione correctamente en diferentes entornos virtuales. Esta habilidad es fundamental para el desarrollo exitoso de aplicaciones móviles y nos permite probar nuestras aplicaciones en condiciones reales antes de su lanzamiento.
+Esta carpeta contiene ejercicios que te permitirán trabajar con la creación y manipulación de interfaces para aplicaciones multimedia en dispositivos móviles. Los archivos incluyen un archivo HTML interactivo, un script PHP para compilar el código, y varios componentes incrustados en PHP que generan partes específicas del sitio web. El foco está puesto en cómo integrar dinamismo usando JavaScript con datos provenientes de una API, así como en la estructura y estilo de páginas web adaptativas para móviles utilizando HTML5 y CSS3. Estos ejercicios te ayudarán a mejorar tus habilidades en el desarrollo web móvil, incluyendo manejo de eventos, fetch API, y diseño responsivo.
 
 ### compilado
+<small>Creado: 2025-11-24 19:21</small>
+
+#### Explicación
+
+Este fragmento de código HTML es una página web que incluye tanto elementos estructurales como interactivos. La página se centra en la presentación de contenido relacionado con música y podcasts, proporcionando un diseño básico para mostrar listas de favoritos y detalles adicionales al hacer clic en ellos.
+
+En el cuerpo del documento (`<body>`), hay varias secciones importantes:
+1. **Barra de navegación**: Proporciona botones que permiten acceder a diferentes partes del contenido, como la música, podcasts, etc.
+2. **Seción de favoritos**: Muestra una lista de elementos favoritos (música o podcasts) y utiliza un archivo JSON (`favoritos.json`) para cargar dinámicamente este contenido usando JavaScript y el método `fetch`.
+3. **Reproductor**: Incluye controles para reproducir música y cambiar a pantalla completa.
+4. **Pie de página con botones interactivos**: Proporciona enlaces rápidos al inicio, búsqueda, biblioteca personal, y opción para crear contenido nuevo.
+
+El archivo también incluye estilos CSS in-line que controlan la apariencia visual del sitio web, asegurando una experiencia de usuario adecuada tanto en dispositivos móviles como en ordenadores. Además, utiliza tecnologías modernas como `fetch` para obtener datos desde un servidor y manipular el DOM (Modelo de Objeto de Documento) con JavaScript para mostrar dinámicamente los datos obtenidos.
+
+Este código es importante porque combina HTML, CSS y JavaScript para crear una interfaz interactiva que permite a los usuarios explorar contenido multimedia de manera efectiva en diversos dispositivos.
+
+`compilado.html`
 
 ```html
 <!doctype html>
@@ -22962,6 +31408,15 @@ En conclusión, la configuración adecuada de emuladores es un paso crucial para
 ```
 
 ### compilador
+<small>Creado: 2025-11-24 19:07</small>
+
+#### Explicación
+
+Este fragmento de código es un ejemplo sencillo de cómo incluir y manipular el contenido generado por otro archivo PHP dentro del mismo script. Primero, el código utiliza la función `ob_start()` para comenzar a capturar cualquier salida que se genere en adelante hasta que se llame a otra función que termine este proceso. Enseguida, se incluye el archivo "index.php" con la función `include`, lo cual significa que todo lo que está dentro de ese archivo PHP será ejecutado y su contenido (en este caso, probablemente HTML) será capturado.
+
+Después de ejecutar "index.php", el código utiliza `ob_get_clean()` para obtener toda la salida generada desde que se llamó a `ob_start()`, almacenándola en una variable llamada `$html`. Finalmente, esta variable se almacena en un archivo llamado "compilado.html" usando `file_put_contents()`, lo que esencialmente crea o sobrescribe este archivo con el contenido capturado. Este proceso es útil cuando necesitas generar contenido dinámico y luego usarlo de nuevo en diferentes contextos, como servir datos a múltiples formatos (XML, JSON) desde una sola fuente PHP generada.
+
+`compilador.php`
 
 ```
 <?php
@@ -22973,6 +31428,17 @@ En conclusión, la configuración adecuada de emuladores es un paso crucial para
 ```
 
 ### index
+<small>Creado: 2025-11-24 19:28</small>
+
+#### Explicación
+
+Este código es una plantilla HTML que se utiliza para estructurar una página web, y también incluye elementos de programación en PHP. En la parte superior del archivo, hay una declaración `<!doctype html>` que indica al navegador que el documento está escrito en HTML5. Dentro de las etiquetas `<head>`, se especifica información sobre la página como su título "TAMEify", y también se establecen metadatos importantes para garantizar que los caracteres especiales sean correctamente interpretados (charset=utf-8) y que la página se adapte bien a diferentes tamaños de pantalla (viewport).
+
+La parte más interesante del código es cómo utiliza PHP para incluir otros archivos en el HTML. Esto permite dividir un sitio web grande en partes pequeñas y manejables. Por ejemplo, las líneas `<?php include "componentes/pantalla_inicio.php";?>` e `<?php include "componentes/footer.php" ?>` traen contenido desde archivos separados y lo insertan directamente donde se encuentran estas líneas de código en la página principal. Esto es útil para mantener el código limpio, facilitar su mantenimiento y permitir que diferentes partes del sitio sean actualizadas independientemente entre sí.
+
+Esta técnica es muy común en desarrollo web moderno, ya que ayuda a organizar el contenido y las funciones de manera eficiente.
+
+`index.php`
 
 ```
 <!doctype html>
@@ -22995,229 +31461,110 @@ En conclusión, la configuración adecuada de emuladores es un paso crucial para
 </html>
 ```
 
+### Actividades propuestas
+
+### Actividades Propuestas
+
+1. **Optimización del Cargador de Datos**
+   - **Descripción:** Los alumnos deben mejorar la funcionalidad que carga datos desde un archivo JSON en `compilado.html` para hacerla más eficiente y segura. Se espera que aprendan a manejar errores y optimizar el rendimiento de las solicitudes AJAX.
+
+2. **Añadir Nuevas Pantallas**
+   - **Descripción:** Los estudiantes deben agregar una nueva pantalla al diseño existente basada en un archivo PHP (por ejemplo, "pantalla_lista.php"). Esto les permitirá comprender cómo integrar múltiples archivos y mejor gestionar la estructura del código.
+
+3. **Personalización de Estilos**
+   - **Descripción:** Los estudiantes deben personalizar los estilos existentes para mejorar el aspecto visual de las pantallas en `compilado.html`. Se espera que aprendan a utilizar CSS avanzado, como pseudo-elementos y selectores específicos.
+
+4. **Interacción del Usuario con JavaScript**
+   - **Descripción:** Los alumnos deben agregar funcionalidades de interactividad utilizando JavaScript en `reproductor.php` para permitir acciones como reproducir, pausar y cambiar el volumen del reproductor multimedia. Se espera que aprendan a manipular eventos DOM.
+
+5. **Desarrollo Responsivo**
+   - **Descripción:** Los estudiantes deben modificar la estructura HTML y CSS existentes en `compilado.html` para asegurar una buena experiencia de usuario en dispositivos móviles y tablets. Aprenderán técnicas como media queries y diseño adaptable.
+
+6. **Integración con PHP**
+   - **Descripción:** Los alumnos deberán integrar los archivos PHP (como "index.php") dentro del proyecto HTML existente para que funcionen conjuntamente. Esto les enseñará cómo combinar front-end y back-end en aplicaciones web dinámicas.
+
+7. **Manejo de Errores en JavaScript**
+   - **Descripción:** Los estudiantes deben mejorar la gestión de errores en `compilado.html` al agregar manejo de excepciones, validación de entrada y mensajes de error para el usuario. Esto les permitirá hacer aplicaciones más robustas.
+
+8. **Añadir Nuevas Funcionalidades**
+   - **Descripción:** Los alumnos deben añadir una nueva funcionalidad a la aplicación como un buscador en `compilado.html` que permita a los usuarios buscar dentro de las listas multimedia. Se espera que aprendan a utilizar AJAX para realizar búsquedas asincrónicas.
+
+Estas actividades están diseñadas para ayudar a los estudiantes a mejorar sus habilidades en HTML, CSS y JavaScript, así como su capacidad para trabajar con archivos PHP, mientras se mantienen dentro del contexto de las tecnologías y conceptos presentes en la carpeta proporcionada.
+
+
 <a id="aplicaciones-moviles"></a>
 ## Aplicaciones móviles
 
-En este capítulo, nos adentramos en la exploración de las aplicaciones móviles, un campo que ha experimentado una explosión en el último decenio. Las aplicaciones móviles han transformado nuestras vidas diarias, desde la forma en que consumimos noticias y entretenimiento hasta cómo interactuamos con nuestros bancos y servicios médicos. 
+### Introducción a los ejercicios
 
-La arquitectura de las aplicaciones móviles es una combinación de elementos tecnológicos que permiten su desarrollo y ejecución en dispositivos móviles. El sistema operativo del dispositivo, como iOS o Android, proporciona la plataforma sobre la cual se construyen estas aplicaciones. Los lenguajes de programación utilizados para desarrollar aplicaciones móviles incluyen Java para Android y Swift para iOS, aunque existen otras opciones como Kotlin y Objective-C.
+Esta carpeta contiene tres ejercicios que se centran en la creación de una aplicación móvil básica utilizando Android Studio y WebView. Los estudiantes aprenderán cómo configurar el entorno de desarrollo para Android, crear interfaces gráficas simples con TextView y WebView, e integrar contenido web local almacenado en los recursos del proyecto. Estos ejercicios ayudan a desarrollar competencias clave como la instalación de herramientas de desarrollo, programación básica en Kotlin, manejo de vistas XML y controladores, así como interacción con contenido web dentro de una aplicación móvil.
 
-Las aplicaciones móviles pueden ser clasificadas en dos tipos principales: las que son nativas y las que son híbridas. Las aplicaciones nativas se compilan directamente en código específico del sistema operativo del dispositivo, lo que les permite acceder a todas sus funcionalidades y ofrecer una experiencia de usuario fluida y eficiente. Por otro lado, las aplicaciones híbridas utilizan frameworks como React Native o Flutter para construir interfaces de usuario utilizando lenguajes web como HTML, CSS y JavaScript, pero se ejecutan en un entorno nativo.
+### Actividades propuestas
 
-La seguridad es un aspecto crucial en el desarrollo de aplicaciones móviles. Los dispositivos móviles son a menudo menos seguros que los ordenadores de escritorio debido a su portabilidad y la naturaleza más limitada de su hardware. Por lo tanto, es fundamental implementar medidas de seguridad como autenticación fuerte, encriptación de datos y actualizaciones regulares del software.
+### Actividad 1: Instalación y Configuración de Android Studio
 
-Además de las aplicaciones móviles tradicionales que se ejecutan en teléfonos inteligentes, también hay una creciente popularidad de las aplicaciones basadas en realidad aumentada (AR) y realidad virtual (VR). Estas tecnologías utilizan los sensores del dispositivo para superponer información digital sobre el mundo físico, lo que abre nuevas posibilidades en áreas como la educación, el entretenimiento y la asistencia médica.
+**Descripción:** Los estudiantes deben instalar Android Studio en sus equipos y crear un nuevo proyecto vacío (Empty Activity) con los detalles proporcionados. Se espera que entiendan cómo configurar el entorno de desarrollo para aplicaciones móviles.
 
-El desarrollo de aplicaciones móviles requiere un flujo de trabajo específico. A partir de la concepción inicial hasta la publicación final, los desarrolladores siguen una serie de pasos que incluyen la planificación del proyecto, la codificación, las pruebas, la depuración y la implementación en tiendas de aplicaciones como Google Play o la App Store.
+### Actividad 2: Creación de una Aplicación Básica
 
-En conclusión, el análisis de tecnologías para aplicaciones móviles es un campo diverso e interesante que abarca desde el desarrollo de software hasta la seguridad y la experiencia del usuario. Con el crecimiento constante del mercado de las aplicaciones móviles, es crucial mantenerse al día con las últimas tendencias y tecnologías para poder crear soluciones innovadoras y eficientes en este campo tan dinámico.
+**Descripción:** Los estudiantes deben crear una aplicación básica en Android Studio que muestre un mensaje "Hello World!" utilizando TextView y ConstraintLayout. Se espera que comprendan cómo vincular archivos XML con código Kotlin y la estructura básica de proyectos en Android.
 
-### Android Studio
+### Actividad 3: Incorporación de WebView para Visualización Web
 
-```markdown
-# Descargar Android Studio
+**Descripción:** Los estudiantes deben agregar una WebView a su aplicación existente e implementar el controlador necesario para cargar un sitio web específico (como se muestra en el ejemplo). Se espera que dominen la integración de componentes web dentro de aplicaciones Android.
 
-https://developer.android.com/studio?hl=es-419
+### Actividad 4: Configuración de JavaScript y Uso del Historial
 
-Paso 1: Instalar Android Studio
-Paso 2: Arrancarlo
+**Descripción:** Los estudiantes deben habilitar el uso de JavaScript en su WebView y agregar funcionalidades para permitir la navegación atrás a través del historial. Se espera que comprendan cómo gestionar comportamientos web dentro de una aplicación móvil.
 
-Paso 3: Creamos un empty activity
+### Actividad 5: Creación de HTML Local
 
-Nombre: AplicacionWeb
-Nombre del paquete: com.jocarsa.aplicacionweb
+**Descripción:** Los estudiantes deben crear un archivo HTML local (como se muestra en el ejemplo) y colocarlo en la carpeta adecuada para su visualización dentro de la WebView de Android. Se espera que aprendan a manejar archivos locales y cómo vincularlos con elementos web.
 
-1.-MainActivity.kt - Controlador
+### Actividad 6: Integración de Estilo CSS
 
-package com.jocarsa.aplicacionweb2
+**Descripción:** Los estudiantes deben modificar un archivo HTML existente para incluir estilos en línea o a través de etiquetas `<style>`. La aplicación debe reflejar estos cambios cuando se visualiza el contenido local. Se espera que dominen la integración básica de CSS con HTML.
 
-import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
-import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+### Actividad 7: Implementación de Eventos Interactivos
 
-class MainActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
-        setContentView(R.layout.activity_main)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
-        }
-    }
-}
+**Descripción:** Los estudiantes deben añadir un evento interno a su archivo HTML (como en el ejemplo) para cambiar dinámicamente la apariencia del contenido cuando se interactúa con él. Se espera que comprendan cómo implementar eventos y manipular el DOM desde JavaScript.
 
+### Actividad 8: Optimización de Aplicaciones Móviles
 
-acitivity_main.xml - vista
+**Descripción:** Los estudiantes deben optimizar su aplicación WebView para mejorar el rendimiento y la experiencia del usuario en dispositivos móviles. Esto incluye ajustes en layout, uso eficiente de recursos y mejora de la interactividad.
 
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+### Actividad 9: Pruebas Unitarias Básicas
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+**Descripción:** Los estudiantes deben escribir pruebas unitarias básicas para verificar el correcto funcionamiento del controlador de su aplicación. Esto implica crear clases de prueba en Android Studio que verifiquen funciones como la carga inicial y respuestas a eventos interactivos.
 
-</androidx.constraintlayout.widget.ConstraintLayout>
-```
+### Actividad 10: Documentación y Presentación
 
-### Creo vista web
+**Descripción:** Los estudiantes deben documentar el proceso completo desde la instalación hasta la implementación final, incluyendo capturas de pantalla, diagramas de flujo y explicaciones detalladas. También deben presentar sus aplicaciones ante un grupo para demostrar su comprensión del funcionamiento y estructura de las mismas.
 
-```markdown
-1.-Arrastro Webview:
-
-2.-Le  pongo id: mivistaweb
-
-3.-Codigo resultante de la vista:
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="787dp" />
-
-    <WebView
-        android:id="@+id/mivistaweb"
-        android:layout_width="409dp"
-        android:layout_height="729dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginBottom="1dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-</androidx.constraintlayout.widget.ConstraintLayout>
-
-Nuevo controlador:
-
-package com.jocarsa.aplicacionweb2
-
-import android.annotation.SuppressLint
-import android.os.Bundle
-import android.webkit.WebView
-import android.webkit.WebViewClient
-import androidx.activity.enableEdgeToEdge
-import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
-
-class MainActivity : AppCompatActivity() {
-
-    @SuppressLint("SetJavaScriptEnabled")
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
-        setContentView(R.layout.activity_main)
-
-        // Mantener el comportamiento de bordes del template
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
-        }
-
-        // Referencia al WebView definido en tu XML
-        val webView = findViewById<WebView>(R.id.mivistaweb)
-
-        // Para que los enlaces se abran dentro del WebView y no en el navegador externo
-        webView.webViewClient = WebViewClient()
-
-        // Muchas webs modernas necesitan JavaScript
-        val settings = webView.settings
-        settings.javaScriptEnabled = true
-
-        // Cargar la página
-        webView.loadUrl("https://jocarsa.com")
-    }
-
-    // Opcional pero recomendable: botón atrás navega en el historial del WebView
-    override fun onBackPressed() {
-        val webView = findViewById<WebView>(R.id.mivistaweb)
-        if (webView.canGoBack()) {
-            webView.goBack()
-        } else {
-            super.onBackPressed()
-        }
-    }
-}
-```
-
-### creo html local
-
-```markdown
-app/
- └─ src/
-     └─ main/
-         ├─ java/
-         ├─ res/
-         └─ assets/
-              └─ index.html
-              
-<!doctype html>
-<html>
-    <head>
-        <style>
-            h1{color:red;}
-        </style>
-    </head>
-    <body>
-        <h1>Hola mundo</h1>
-        <script>
-            let titulo = document.querySelector("h1")
-            titulo.onclick = function(){
-                titulo.style.color = "green";
-            }
-        </script>
-    </body>
-</html>
-```
 
 <a id="modelo-de-estados-de-una-aplicacion-movil-activo-pausa-y-destruido"></a>
 ## Modelo de estados de una aplicación móvil activo, pausa y destruido
 
-En un entorno móvil, las aplicaciones pueden experimentar cambios de estado que afectan su comportamiento y funcionalidad. El modelo de estados de una aplicación móvil activo, pausa y destruido es fundamental para entender cómo se manejan estos cambios y mantener la eficiencia del sistema.
+### Introducción a los ejercicios
 
-Cuando una aplicación entra en el estado activo, está lista para interactuar con el usuario y realizar operaciones como la carga de datos o la ejecución de procesos intensivos. Este estado es típicamente el inicial después de que la aplicación ha sido iniciada o restaurada desde un estado pausado o destruido.
-
-El estado pausa ocurre cuando una aplicación pierde el foco pero aún está en ejecución. Esto puede suceder cuando otro aplicativo se pone en primer plano, como cuando el usuario navega a otra pantalla dentro del mismo dispositivo. Durante este estado, la aplicación debe liberar recursos y minimizar su consumo de energía para no afectar negativamente la experiencia del usuario.
-
-El estado destruido es el final del ciclo de vida de una aplicación móvil. Ocurre cuando un sistema operativo decide cerrar una aplicación para liberar memoria o cuando el usuario cierra manualmente la aplicación a través de los controles de la interfaz del dispositivo. En este estado, toda la información y recursos utilizados por la aplicación se liberan, preparando el camino para su reinicio en el futuro.
-
-La transición entre estos estados es controlada por el sistema operativo del dispositivo móvil, que asegura una gestión eficiente de los recursos y una experiencia fluida para el usuario. Durante la pausa, la aplicación puede guardar su estado actual para poder recuperarlo rápidamente cuando vuelva a estar activa, lo que mejora la continuidad del flujo de trabajo.
-
-Es importante destacar que cada estado tiene sus propias implicaciones en términos de funcionalidad y rendimiento. Por ejemplo, una aplicación en pausa debe ser capaz de responder rápidamente a un cambio de estado a activo sin perder datos o estado interno. En el caso del estado destruido, la aplicación debe estar preparada para reiniciarse desde cero o desde un punto de guardado previo.
-
-La comprensión y gestión adecuada de estos estados son cruciales para desarrollar aplicaciones móviles eficientes y responsivas. Al diseñar e implementar las funcionalidades de una aplicación, es necesario considerar cómo se comportará en cada estado del ciclo de vida, asegurando que la experiencia del usuario sea coherente y sin interrupciones innecesarias.
-
-En resumen, el modelo de estados activo, pausa y destruido en aplicaciones móviles proporciona una estructura clara para gestionar los cambios de estado y optimizar el uso de recursos. Al entender y aprovechar estos estados, los desarrolladores pueden crear aplicaciones que ofrezcan un rendimiento óptimo y una experiencia de usuario fluida, adaptándose a las necesidades cambiantes del dispositivo y del usuario.
+Esta carpeta contiene ejercicios relacionados con la preparación de una aplicación web para su integración en dispositivos móviles, específicamente enfocándose en el proceso de compilación y estructura de archivos. Los estudiantes aprenderán a compilar scripts PHP en HTML estático y copiar carpetas recursivamente utilizando funciones como `copyRecursive()`. Este conjunto de ejercicios ayuda a desarrollar competencias clave en la gestión de directorios, manipulación de archivos y preparación del código para entornos móviles.
 
 ### compilador
+<small>Creado: 2025-11-25 14:38</small>
+
+#### Explicación
+
+Este fragmento de código PHP tiene como objetivo compilar y copiar archivos necesarios para una aplicación móvil. Primero, establece la ruta de destino donde se guardarán los archivos generados en el directorio del proyecto Android especificado por `$destination`.
+
+El código verifica si esta carpeta de destino existe; si no es así, crea la carpeta con permisos adecuados. Luego, incluye y compila `index.php` para generar un archivo `index.html`, que luego se guarda en la ubicación de destino.
+
+Además, define una función recursiva llamada `copyRecursive()` que copia todos los archivos y subdirectorios desde la ruta de origen al destino dado. Esta función es útil cuando necesitas replicar una estructura completa de directorios y archivos en otro lugar sin preocuparte por los detalles del sistema de archivos.
+
+Finalmente, el código copia el contenido de ciertos directorios (en este caso, `"static"`) a la carpeta de destino utilizando esta función recursiva. Al finalizar todo esto, muestra un mensaje indicando que la compilación ha terminado con éxito.
+
+Este proceso es fundamental para preparar los recursos necesarios en una aplicación móvil, asegurando que todos los archivos y directorios requeridos estén disponibles y estén correctamente estructurados antes de su implementación.
+
+`compilador.php`
 
 ```
 <?php
@@ -23280,6 +31627,17 @@ echo "✅ Compilation complete\n";
 ```
 
 ### index
+<small>Creado: 2025-11-25 14:40</small>
+
+#### Explicación
+
+Este fragmento de código es el archivo `index.php` que sirve como la página principal del sitio web TAMEify. Este archivo está escrito principalmente en HTML, con algunas partes escritas en PHP para incluir otros archivos de componentes.
+
+En este código, primero se define la estructura básica de una página HTML, estableciendo el idioma como español y proporcionando metadatos importantes como el conjunto de caracteres a utilizar (UTF-8) y cómo debe ajustarse el sitio al tamaño del dispositivo. Luego, en la parte inferior del cuerpo (body) del documento, utiliza comandos PHP para incluir diferentes archivos que contienen partes específicas del diseño o la funcionalidad, como `pantalla_inicio.php`, `reproductor.php` y `footer.php`. Estas inclusiones permiten organizar el código en bloques más pequeños y manejables, facilitando la navegación y modificación.
+
+Esta estructura es útil porque permite a los desarrolladores trabajar de manera modular, lo que significa que pueden editar o añadir nuevas partes del sitio sin necesidad de modificar todo el contenido principal. Además, incluir archivos externos con PHP ayuda a mantener el código limpio y fácil de leer para otros programadores.
+
+`index.php`
 
 ```
 <!doctype html>
@@ -23302,64 +31660,48 @@ echo "✅ Compilation complete\n";
 </html>
 ```
 
+### Actividades propuestas
+
+### Actividades Propuestas
+
+1. **Optimización de Rutas y Directorios**
+   - **Descripción:** Los estudiantes deben modificar el archivo `compilador.php` para que genere rutas absolutas en lugar de relativas, asegurándose de que las copias recursivas funcionen correctamente sin importar dónde se ejecute el script. Se pretende que entiendan la importancia de gestionar rutas adecuadamente en scripts PHP.
+
+2. **Refactorización del Código**
+   - **Descripción:** Los estudiantes deben refactorizar partes del código `compilador.php` para mejorar su legibilidad y mantenimiento, utilizando funciones más específicas o clases según sea necesario. Se pretende que aprendan a escribir código limpio y estructurado.
+
+3. **Validación de Archivos**
+   - **Descripción:** Los estudiantes deben añadir validaciones en `compilador.php` para asegurar que solo se copien archivos con extensiones permitidas (por ejemplo, `.html`, `.css`). Se pretende que comprendan la importancia de las pruebas y los controles de seguridad.
+
+4. **Integración de CSS**
+   - **Descripción:** Los estudiantes deben integrar el archivo `estilos.css` directamente en el HTML generado desde `index.php` para evitar dependencias de archivos externos, simplificando así la estructura del proyecto. Se pretende que se familiaricen con la inclusión dinámica de estilos.
+
+5. **Creación de Componentes Dinámicos**
+   - **Descripción:** Los estudiantes deben crear una función en `compilador.php` que permita incluir archivos PHP para componentes dinámicos basados en parámetros pasados, simplificando la inclusión de múltiples pantallas y funciones. Se pretende que aprendan a modularizar el código.
+
+6. **Generación Automática de HTML**
+   - **Descripción:** Los estudiantes deben implementar una funcionalidad en `compilador.php` para generar automáticamente un archivo HTML base desde cero, incluyendo las secciones básicas como `<head>` y `<body>`, utilizando plantillas personalizadas. Se pretende que se familiaricen con la generación de código a partir de datos estructurados.
+
+7. **Uso de Funciones Anónimas**
+   - **Descripción:** Los estudiantes deben reemplazar las llamadas incluidas en `index.php` por funciones anónimas que realicen la misma tarea, mejorando así el desempeño y la modularidad del código. Se pretende que entiendan cómo aprovechar las características avanzadas de PHP para mejorar su código.
+
+8. **Documentación de Código**
+   - **Descripción:** Los estudiantes deben agregar comentarios y documentación a `compilador.php` explicando cada sección y función, facilitando así la comprensión del flujo y estructura del proyecto para nuevos miembros del equipo. Se pretende que aprendan las buenas prácticas de codificación incluyendo la importancia de la documentación.
+
+Estas actividades están diseñadas para ayudar a los estudiantes a profundizar en la programación web, especialmente en el manejo de archivos y directorios, optimización de código y prácticas recomendadas en PHP.
+
+
 <a id="ciclo-de-vida-de-una-aplicacion"></a>
 ## Ciclo de vida de una aplicación
 
-El ciclo de vida de una aplicación móvil es un proceso dinámico que abarca desde su creación hasta su desinstalación del dispositivo del usuario. Este ciclo incluye varias fases cruciales que son fundamentales para el correcto funcionamiento y la experiencia del usuario final.
-
-La fase inicial del ciclo de vida comienza con la instalación de la aplicación en el dispositivo. Durante este proceso, se verifica la compatibilidad del sistema operativo con las necesidades de la aplicación, se instalan los recursos necesarios y se configuran los parámetros iniciales. Es importante que esta fase sea eficiente para evitar retrasos innecesarios en la experiencia del usuario.
-
-Una vez instalada, la aplicación entra en el estado "activo". En este modo, la aplicación está lista para interactuar con el usuario. El sistema operativo asigna recursos como memoria y CPU a la aplicación, permitiendo que funcione correctamente. Es durante esta fase donde se realizan las operaciones principales de la aplicación, como la carga de datos, la ejecución de procesos y la respuesta a los eventos del usuario.
-
-El ciclo de vida también incluye el estado "pausa". Este ocurre cuando la aplicación pierde el foco pero aún está en el dispositivo. En este estado, la aplicación puede seguir consumiendo recursos, lo que es útil para mantener su estado actual sin necesidad de reiniciarla desde cero. Sin embargo, es importante optimizar el uso de recursos durante esta fase para evitar sobrecargas del sistema.
-
-La fase final del ciclo de vida es el "destrucción". Este ocurre cuando la aplicación se cierra o se desinstala del dispositivo. Durante este proceso, se libera toda la memoria y los recursos asignados a la aplicación, asegurando que no queden residuos en el sistema operativo. Es crucial que esta fase sea eficiente para mantener el rendimiento general del dispositivo.
-
-Además de estas fases principales, existen otros estados intermedios como "inactiva" o "suspendida". En el estado inactiva, la aplicación sigue consumiendo recursos pero no está procesando ninguna operación. En el estado suspendida, la aplicación puede ser reanudada rápidamente sin necesidad de reiniciarla.
-
-El manejo adecuado del ciclo de vida es crucial para optimizar la experiencia del usuario y mantener el rendimiento del dispositivo. Al implementar correctamente las fases activo, pausa y destrucción, se asegura que la aplicación funcione eficientemente incluso en entornos con recursos limitados.
-
-Además, es importante considerar los eventos que pueden interrumpir el ciclo de vida de una aplicación, como cambios de orientación del dispositivo o la entrada de un nuevo usuario. El manejo adecuado de estos eventos permite a la aplicación mantener su estado y proporcionar una experiencia fluida para el usuario.
-
-En resumen, el ciclo de vida de una aplicación móvil es un proceso complejo que implica varias fases cruciales desde la instalación hasta la desinstalación. Cada fase tiene sus propias consideraciones y optimizaciones importantes para garantizar una buena experiencia del usuario y mantener el rendimiento del dispositivo.
 
 <a id="modificacion-de-aplicaciones-existentes"></a>
 ## Modificación de aplicaciones existentes
 
-En la evolución constante del desarrollo de aplicaciones para dispositivos móviles, el análisis de tecnologías existentes es una habilidad crucial que permite a los desarrolladores adaptarse rápidamente a nuevas plataformas y herramientas. Esta subunidad se centra específicamente en cómo modificar aplicaciones existentes, un proceso fundamental para mantener la relevancia y eficiencia de las soluciones tecnológicas.
-
-La modificación de aplicaciones existentes implica no solo actualizar el código fuente, sino también considerar aspectos como la interfaz de usuario, la funcionalidad adicional y la optimización del rendimiento. Para lograr esto, es esencial entender los fundamentos de las plataformas móviles en las que se desarrollan las aplicaciones, ya sean Android o iOS.
-
-En el caso de Android, una aplicación existente puede ser modificada utilizando lenguajes como Java o Kotlin, dependiendo del proyecto y las preferencias del equipo. Los desarrolladores pueden utilizar herramientas como Android Studio para realizar cambios en la interfaz gráfica de usuario (UI) y en el código fuente, asegurándose de que los cambios sean coherentes con las mejores prácticas de diseño y rendimiento.
-
-Para iOS, el proceso es similar pero se utiliza Swift o Objective-C. Xcode es la herramienta principal para desarrollar aplicaciones iOS, proporcionando una plataforma robusta para modificar y mejorar las aplicaciones existentes. Los desarrolladores pueden utilizar Storyboards o Interface Builder para actualizar la UI de manera visual, mientras que el código fuente puede ser modificado directamente en los archivos del proyecto.
-
-Además de la actualización del código y la interfaz, es importante considerar la integración con nuevas funcionalidades y servicios. Esto puede implicar agregar soporte para nuevas APIs o bibliotecas, lo cual requiere un conocimiento profundo de las plataformas móviles y sus características. Por ejemplo, si una aplicación necesita utilizar el GPS para determinar la ubicación del usuario, los desarrolladores deberán aprender sobre las API de geolocalización disponibles en Android e iOS.
-
-La modificación de aplicaciones existentes también implica la gestión de dependencias y bibliotecas externas. Es crucial mantener un control riguroso sobre estas dependencias para evitar conflictos de versión y problemas de rendimiento. Herramientas como Gradle (para Android) o CocoaPods (para iOS) pueden ser utilizadas para gestionar eficientemente las dependencias, asegurando que todas las bibliotecas estén actualizadas y funcionen correctamente.
-
-Además de los cambios técnicos, la modificación de aplicaciones existentes también requiere una comprensión profunda del negocio y del usuario final. Los desarrolladores deben trabajar en estrecha colaboración con equipos de negocio y marketing para entender las necesidades cambiantes del mercado y adaptar las aplicaciones a estas demandas. Esto puede implicar la implementación de nuevas características, la optimización de flujos de trabajo o incluso el cambio de arquitecturas completas si es necesario.
-
-La modificación de aplicaciones existentes también implica la realización de pruebas exhaustivas para asegurar que los cambios no introduzcan errores. Los desarrolladores pueden utilizar herramientas como Espresso (para Android) o XCTest (para iOS) para realizar pruebas automatizadas, lo cual ayuda a garantizar que las aplicaciones sigan funcionando correctamente después de las modificaciones.
-
-En conclusión, la modificación de aplicaciones existentes es un proceso complejo pero fundamental en el desarrollo de software para dispositivos móviles. Requiere una combinación de conocimientos técnicos profundos, habilidades de adaptación y colaboración con equipos de negocio y marketing. A través del análisis de tecnologías existentes, los desarrolladores pueden mantener su competencia y ofrecer soluciones innovadoras y eficientes a las necesidades cambiantes del mercado.
 
 <a id="utilizacion-del-entorno-de-ejecucion-del-administrador-de-aplicaciones"></a>
 ## Utilización del entorno de ejecución del administrador de aplicaciones
 
-En el mundo digital actual, los dispositivos móviles desempeñan un papel crucial en la interacción con las aplicaciones. El entorno de ejecución del administrador de aplicaciones es una parte fundamental de esta interacción, proporcionando las herramientas necesarias para que las aplicaciones funcionen correctamente y de manera segura.
-
-El administrador de aplicaciones es el encargado de gestionar todas las aplicaciones instaladas en un dispositivo móvil. Su principal función es mantener las aplicaciones actualizadas, instalar nuevas versiones cuando sean disponibles, y manejar la memoria disponible para asegurar que cada aplicación tenga lo necesario para funcionar sin problemas.
-
-Para interactuar con el administrador de aplicaciones desde una aplicación propia, se utilizan APIs (Interfaces de Programación de Aplicaciones) específicas. Estas APIs proporcionan métodos y funciones que permiten a las aplicaciones realizar tareas como iniciar o detener otras aplicaciones, solicitar permisos adicionales, gestionar la preferencia del usuario y acceder a ciertas funcionalidades del sistema.
-
-Es importante destacar que el entorno de ejecución del administrador de aplicaciones también es responsable de la gestión de los recursos del dispositivo. Esto incluye la asignación de memoria, la control de la batería y la optimización del rendimiento para mantener las aplicaciones funcionando eficientemente incluso cuando se están ejecutando varias al mismo tiempo.
-
-Además, el administrador de aplicaciones es un punto crucial en la seguridad de las aplicaciones móviles. Algunas de sus funciones incluyen la verificación de los permisos solicitados por una aplicación y la capacidad de desinstalar aplicaciones que puedan estar causando problemas o amenazando la seguridad del dispositivo.
-
-La utilización del entorno de ejecución del administrador de aplicaciones requiere un conocimiento profundo de las APIs específicas disponibles para cada plataforma móvil (iOS, Android, etc.). Cada plataforma tiene sus propias características y restricciones, lo que significa que los desarrolladores deben adaptarse a estas diferencias para asegurar que sus aplicaciones funcionen correctamente en cualquier dispositivo.
-
-En resumen, el entorno de ejecución del administrador de aplicaciones es un componente integral del desarrollo de aplicaciones móviles. Proporciona las herramientas necesarias para gestionar y optimizar la ejecución de las aplicaciones, asegurando que estas funcione de manera eficiente y segura en los dispositivos móviles modernos.
 
 
 <a id="desarrollo-de-aplicaciones-para-dispositivos-moviles"></a>
@@ -23368,252 +31710,58 @@ En resumen, el entorno de ejecución del administrador de aplicaciones es un com
 <a id="herramientas-flujo-de-trabajo"></a>
 ## Herramientas. Flujo de trabajo
 
-En este capítulo, exploramos las herramientas y técnicas esenciales para desarrollar aplicaciones móviles, abordando desde el entorno de desarrollo hasta los flujos de trabajo que facilitan la creación eficiente de software para dispositivos móviles. Comenzamos por introducir las principales herramientas disponibles en el mercado, destacando su funcionalidad y cómo pueden optimizar el proceso de codificación y depuración.
-
-A medida que avanzamos, nos sumergimos en los flujos de trabajo recomendados para el desarrollo de aplicaciones móviles. Estos procesos incluyen la planificación del proyecto, la definición de requisitos, el diseño de interfaces de usuario, la implementación del código y las pruebas exhaustivas. Cada paso es crucial para garantizar que la aplicación sea funcional, segura y atractiva para los usuarios finales.
-
-Además, examinamos cómo integrar diferentes componentes dentro de un proyecto móvil, como bases de datos locales, servicios web y sensores del dispositivo. Estas integraciones requieren una comprensión profunda de las APIs disponibles y la capacidad de gestionar eficazmente los recursos limitados de los dispositivos móviles.
-
-El capítulo también aborda el tema de la seguridad en aplicaciones móviles, destacando la importancia de implementar medidas de protección adecuadas desde el principio del desarrollo. Esto incluye la gestión segura de datos, la autenticación y autorización de usuarios y la prevención de vulnerabilidades comunes.
-
-Finalmente, concluimos con una reflexión sobre los desafíos y mejores prácticas en el desarrollo de aplicaciones móviles. Aprenderemos cómo adaptarse a las variadas plataformas (iOS y Android) y cómo mantenerse al día con las últimas tendencias y tecnologías en el campo del desarrollo móvil.
-
-Este capítulo es un punto de partida valioso para cualquier desarrollador que quiera comenzar su viaje en la creación de aplicaciones móviles, proporcionando una base sólida en herramientas y procesos que facilitan el desarrollo eficiente y exitoso.
 
 <a id="componentes-de-una-aplicacion-recursos"></a>
 ## Componentes de una aplicación. Recursos
 
-En el desarrollo de aplicaciones para dispositivos móviles, los componentes de una aplicación y sus recursos son fundamentales para su estructura y funcionamiento. Los componentes representan las partes individuales que componen la interfaz del usuario y su funcionalidad, mientras que los recursos proporcionan los elementos necesarios para su visualización y operación.
-
-Los componentes principales de una aplicación móvil incluyen Activity, Fragment, Service y BroadcastReceiver. Cada uno desempeña un papel específico en el ciclo de vida de la aplicación y en la interacción con el usuario. Por ejemplo, las Activities son pantallas individuales que se ven al usuario, mientras que los Fragments son partes reutilizables dentro de una Activity. Los Services ejecutan tareas en segundo plano sin necesidad de interactuar directamente con el usuario, y los BroadcastReceivers escuchan eventos del sistema y pueden responder a ellos.
-
-Además de estos componentes, las aplicaciones móviles requieren recursos para su funcionamiento. Estos recursos incluyen archivos de texto, imágenes, sonidos y videos que se utilizan en la interfaz gráfica y en el procesamiento multimedia. Los recursos se organizan en carpetas específicas dentro del proyecto, como `res/drawable` para las imágenes, `res/layout` para los diseños de pantalla y `res/values` para los strings y otros valores constantes.
-
-La gestión eficiente de estos componentes y recursos es crucial para el rendimiento y la experiencia del usuario. Es importante entender cómo se crean, utilizan y liberan estos recursos para evitar fugas de memoria y problemas de rendimiento. Además, la organización adecuada de los componentes en diferentes Activity o Fragment permite una estructura modular y fácil mantenimiento del código.
-
-En resumen, el desarrollo de aplicaciones móviles implica un equilibrio entre la creación de componentes funcionalidades y la gestión eficiente de recursos para garantizar una buena experiencia al usuario. Cada componente y recurso desempeña un papel importante en la construcción y funcionamiento de las aplicaciones móviles, y su comprensión es fundamental para desarrolladores que quieran crear software de alta calidad y rendimiento.
 
 <a id="interfaces-de-usuario-clases-asociadas"></a>
 ## Interfaces de usuario. Clases asociadas
 
-En este capítulo, nos adentramos en la creación de interfaces de usuario para aplicaciones móviles, una tarea fundamental que requiere un equilibrio entre funcionalidad y experiencia del usuario. Las interfaces de usuario (UI) son el punto de contacto directo con los usuarios finales, por lo que su diseño debe ser intuitivo, atractivo y eficiente.
-
-Las interfaces de usuario en aplicaciones móviles se construyen utilizando clases asociadas que proporcionan una estructura y funcionalidad predefinida. Estas clases son fundamentales para definir la apariencia y el comportamiento de los elementos gráficos como botones, cajas de texto, listas desplegables y más. Cada clase tiene atributos y métodos que permiten personalizar su apariencia y funcionalidad según las necesidades del proyecto.
-
-Una de las clases más importantes en la creación de interfaces de usuario es `View`, que es la superclase de todos los elementos visuales en una interfaz de usuario. Cada vista tiene propiedades como el tamaño, la posición, el color de fondo y el texto, entre otros, que pueden ser modificados para adaptarla a las preferencias del diseño.
-
-Además de `View`, existen clases específicas para diferentes tipos de elementos gráficos. Por ejemplo, `Button` es una clase que representa un botón en la interfaz de usuario. Los botones son elementos interactivos que permiten al usuario realizar acciones como enviar datos o navegar entre pantallas. Cada botón tiene propiedades adicionales como el texto del botón y los eventos asociados a su presión.
-
-Otra clase importante es `TextView`, que se utiliza para mostrar texto en la interfaz de usuario. Los textos pueden ser estáticos, dinámicos o interactivos, dependiendo de cómo se configuren las propiedades del objeto `TextView`. Esta clase también permite el uso de diferentes fuentes y estilos de texto, lo que facilita la creación de interfaces de usuario atractivas.
-
-Además de estas clases básicas, existen otras clases que proporcionan funcionalidades adicionales para mejorar la experiencia del usuario. Por ejemplo, la clase `RecyclerView` es utilizada para mostrar listas desplegables con un gran número de elementos. Esta clase optimiza el rendimiento al reutilizar vistas ya infladas en lugar de crear nuevas cada vez que se necesita mostrar un nuevo elemento.
-
-La creación de interfaces de usuario también implica el manejo de eventos, como los clics y las pulsaciones. Las clases asociadas proporcionan métodos para detectar estos eventos y ejecutar acciones correspondientes. Por ejemplo, la clase `Button` tiene un método `onClick()` que se ejecuta cuando el botón es presionado por el usuario.
-
-En resumen, la creación de interfaces de usuario en aplicaciones móviles implica el uso de clases asociadas que proporcionan una estructura y funcionalidad predefinida. Cada clase tiene atributos y métodos que permiten personalizar su apariencia y comportamiento según las necesidades del proyecto. Comprender estas clases es crucial para crear interfaces de usuario eficientes, atractivas y funcionales que mejoren la experiencia del usuario final.
 
 <a id="contexto-grafico-imagenes"></a>
 ## Contexto gráfico. Imágenes
 
-En el desarrollo de aplicaciones para dispositivos móviles, el contexto gráfico desempeña un papel crucial ya que define cómo se presentan los elementos visuales a los usuarios. Este aspecto es fundamental para crear interfaces intuitivas y atractivas, lo que puede influir significativamente en la experiencia del usuario final.
-
-El contexto gráfico se refiere a las características de la pantalla en la que se ejecuta la aplicación, incluyendo su tamaño, resolución y orientación. Cada dispositivo móvil tiene especificidades técnicas que deben ser consideradas al diseñar una interfaz gráfica adaptada. Por ejemplo, los teléfonos inteligentes tienen pantallas táctiles de diferentes tamaños y densidades de píxeles, lo que requiere un diseño flexible que se ajuste a estas variaciones.
-
-La gestión del contexto gráfico en aplicaciones móviles implica la utilización de bibliotecas y APIs específicas para cada plataforma. Por ejemplo, en Android, se utiliza el sistema de recursos (Resources) para gestionar diferentes layouts y estilos según el tamaño de pantalla o la orientación del dispositivo. En iOS, el Auto Layout es una herramienta poderosa que permite crear interfaces gráficas que se ajusten automáticamente a cualquier tamaño de pantalla.
-
-Además del contexto gráfico, los diseños de aplicaciones móviles deben considerar otros factores como la accesibilidad y la eficiencia en términos de rendimiento. La utilización de imágenes es una parte integral de estos aspectos, ya que las imágenes pueden mejorar significativamente la experiencia del usuario al proporcionar información visual clara y atractiva.
-
-Las imágenes en aplicaciones móviles pueden ser cargadas desde diferentes fuentes, como archivos locales o servicios web. Es importante optimizar estas imágenes para asegurar un rendimiento óptimo, lo que puede implicar reducir su tamaño sin afectar su calidad visual. Herramientas de compresión de imágenes y técnicas de codificación adecuadas son esenciales en este proceso.
-
-La gestión del contexto gráfico también implica la consideración de los estados de vida de una aplicación móvil. Durante el desarrollo, es común que las aplicaciones pasen por diferentes estados como activo, pausado o destruido. Es importante manejar adecuadamente estos estados para evitar pérdidas de datos y mantener la consistencia del estado de la interfaz gráfica.
-
-En conclusión, el contexto gráfico es un aspecto fundamental en el desarrollo de aplicaciones móviles. Al considerar las características específicas de los dispositivos, utilizar bibliotecas adecuadas y optimizar imágenes, se pueden crear interfaces gráficas que ofrezcan una experiencia óptima al usuario final. Además, la gestión eficiente del contexto gráfico es crucial para mantener el rendimiento y la funcionalidad de las aplicaciones en diferentes entornos.
 
 <a id="metodos-de-entrada-eventos"></a>
 ## Métodos de entrada. Eventos
 
-En este capítulo, nos adentramos en los fundamentos del desarrollo de aplicaciones para dispositivos móviles, con un énfasis especial en los métodos de entrada y eventos. Comenzamos por entender el contexto gráfico, que es crucial para cualquier aplicación móvil, ya que define cómo se presentan los elementos visuales al usuario. Aprenderemos sobre las clases asociadas a la interfaz gráfica de usuario (GUI), como `View` y `Activity`, que son los bloques fundamentales de cualquier aplicación Android.
-
-Continuamos explorando el concepto de eventos, que son acciones realizadas por el usuario o por el sistema operativo que provocan una respuesta en la aplicación. Aprenderemos cómo manejar diferentes tipos de eventos, como clics, desplazamientos y cambios de orientación del dispositivo, utilizando los listeners correspondientes. Esto nos permitirá crear aplicaciones interactivas y responsivas.
-
-Además, profundizaremos en el procesamiento de entrada, que implica capturar y interpretar las acciones del usuario para realizar tareas específicas dentro de la aplicación. Aprenderemos sobre los diferentes tipos de sensores disponibles en los dispositivos móviles, como acelerómetros, giroscopios y cámaras, y cómo utilizarlos para mejorar la funcionalidad de nuestra aplicación.
-
-A medida que avanzamos, nos familiarizaremos con el ciclo de vida de una aplicación móvil, comprendiendo las diferentes fases en las que puede estar (activa, pausada, detenida) y cómo manejar estas transiciones para optimizar el rendimiento y la eficiencia del dispositivo. También aprenderemos sobre la gestión de preferencias de la aplicación, lo cual es fundamental para personalizar la experiencia del usuario sin necesidad de reiniciar la aplicación.
-
-Continuamos con una exploración detallada de las bases de datos y almacenamiento en aplicaciones móviles, comprendiendo cómo utilizar SQLite o Firebase Realtime Database para persistir datos de manera segura y eficiente. Aprenderemos sobre el manejo de transacciones y la implementación de estrategias de sincronización para mantener los datos actualizados en diferentes dispositivos.
-
-Además, nos adentramos en el tema de tareas en segundo plano y servicios, aprendiendo cómo ejecutar operaciones que no interfieren con la experiencia del usuario principal. Esto es crucial para aplicaciones que requieren realizar descargas de archivos, envíos de notificaciones o actualizaciones periódicas.
-
-Finalmente, exploramos aspectos de seguridad y permisos en aplicaciones móviles, comprendiendo cómo gestionar los permisos necesarios para acceder a características del dispositivo (como la cámara o el GPS) y cómo proteger la información sensible almacenada en la aplicación. Aprenderemos sobre las mejores prácticas de programación segura y cómo implementar mecanismos de control de acceso para prevenir accesos no autorizados.
-
-A lo largo de este capítulo, hemos cubierto una amplia gama de temas relacionados con el desarrollo de aplicaciones móviles, desde los métodos de entrada hasta la gestión de permisos y seguridad. Cada concepto ha sido presentado en un contexto práctico, preparándonos para desarrollar aplicaciones móviles interactivas, eficientes y seguras.
 
 <a id="gestion-de-las-preferencias-de-la-aplicacion"></a>
 ## Gestión de las preferencias de la aplicación
 
-En el desarrollo de aplicaciones para dispositivos móviles, la gestión de las preferencias del usuario es un aspecto crucial que aporta una mejor experiencia al usuario. Las preferencias pueden incluir opciones como idioma, tema de interfaz, tamaño de texto, notificaciones y más. La gestión efectiva de estas preferencias no solo mejora la usabilidad del software, sino que también aumenta su adaptabilidad a diferentes tipos de usuarios.
-
-Para implementar la gestión de las preferencias en una aplicación móvil, se pueden utilizar los mecanismos proporcionados por el sistema operativo o frameworks específicos. En Android, por ejemplo, se puede utilizar la clase `SharedPreferences` para almacenar y recuperar preferencias de manera sencilla. Esta clase permite guardar pares clave-valor que pueden ser accedidos y modificados en cualquier parte de la aplicación.
-
-La gestión de las preferencias implica no solo el almacenamiento, sino también su recuperación y actualización. Al iniciar la aplicación, se debe cargar la configuración del usuario desde `SharedPreferences` y aplicarla a los elementos de interfaz correspondientes. Además, es importante proporcionar una forma para el usuario de modificar sus preferencias, lo que puede hacerse mediante opciones en un menú o pantalla de ajustes.
-
-Además de las preferencias generales, algunas aplicaciones pueden requerir preferencias específicas relacionadas con la funcionalidad del software. Por ejemplo, si se está desarrollando una aplicación de música, podría ser útil almacenar preferencias como el volumen actual, la lista de reproducción favorita o los artistas recientes escuchados.
-
-La gestión de las preferencias también debe considerar la seguridad y privacidad del usuario. Es importante que las preferencias no contengan información sensible y que se implementen medidas para proteger la integridad y confidencialidad de estos datos.
-
-En el contexto de aplicaciones móviles, la gestión de las preferencias es un componente integral del flujo de trabajo de desarrollo. Desde la planificación inicial hasta la implementación y pruebas, es necesario considerar cómo se almacenarán y utilizarán las preferencias del usuario para asegurar una experiencia óptima y personalizada.
-
-La gestión efectiva de las preferencias no solo mejora la usabilidad del software, sino que también aumenta su adaptabilidad a diferentes tipos de usuarios. Al proporcionar opciones para personalizar la aplicación, se permite a los usuarios experimentar con diferentes configuraciones hasta encontrar aquella que les resulte más cómoda y eficiente.
-
-En resumen, la gestión de las preferencias es un aspecto fundamental en el desarrollo de aplicaciones móviles. Permite una mejor experiencia al usuario, aumenta la adaptabilidad del software y contribuye a su éxito en el mercado competitivo. Al implementar esta funcionalidad con cuidado y consideración por la seguridad y privacidad del usuario, se puede crear aplicaciones que sean no solo funcionales, sino también bien recibidas y utilizadas por los usuarios finales.
 
 <a id="bases-de-datos-y-almacenamiento"></a>
 ## Bases de datos y almacenamiento
 
-En este capítulo, nos adentramos en los fundamentos del almacenamiento de datos dentro de aplicaciones móviles, un aspecto crucial para el desarrollo eficiente y funcional de estas plataformas. Comenzamos por explorar las diferentes formas de almacenamiento de datos, desde la utilización de archivos locales hasta la integración con bases de datos en la nube.
-
-El primer método que vemos es el almacenamiento local mediante archivos. Este enfoque permite guardar información persistente en el dispositivo del usuario, lo que es ideal para aplicaciones que requieren acceso rápido y offline. A través de clases como `SharedPreferences` en Android o `UserDefaults` en iOS, podemos leer, escribir y eliminar datos de manera sencilla.
-
-Sin embargo, cuando la cantidad de datos a almacenar aumenta o necesitamos una mayor flexibilidad y funcionalidad, el uso de bases de datos locales se convierte en una opción más adecuada. En Android, SQLite es la base de datos relacional por defecto, mientras que iOS utiliza Core Data para manejar sus objetos persistentes. Estas herramientas nos permiten crear tablas, insertar registros, realizar consultas y gestionar transacciones con facilidad.
-
-La integración con bases de datos en la nube es otro camino valioso, especialmente cuando nuestras aplicaciones necesitan sincronizar datos entre diferentes dispositivos o incluso plataformas. Firebase Database y Firestore son opciones populares que ofrecen una solución escalable y fácil de usar para almacenar y recuperar información en tiempo real.
-
-Además de los métodos de almacenamiento tradicionales, también debemos considerar el uso de bases de datos orientadas a documentos como MongoDB Atlas o Firebase Realtime Database. Estas bases de datos nos permiten almacenar y consultar datos de manera flexible, adaptándose mejor a las necesidades cambiantes de nuestras aplicaciones.
-
-La gestión de la persistencia en aplicaciones móviles es un aspecto que requiere atención especial. Debemos considerar factores como la eficiencia del acceso a los datos, la seguridad de la información y la capacidad de manejar cambios en el diseño de las tablas o colecciones. Utilizar patrones de diseño como Singleton para gestionar la conexión con la base de datos puede ayudar a optimizar el rendimiento.
-
-Finalmente, es importante mencionar que la gestión de los permisos de acceso a la información es un aspecto crucial cuando trabajamos con bases de datos en aplicaciones móviles. Debemos asegurarnos de que solo se acceda a los datos necesarios y que se implementen políticas de seguridad adecuadas para proteger la privacidad del usuario.
-
-En resumen, el almacenamiento de datos es un componente fundamental en el desarrollo de aplicaciones móviles. Al comprender las diferentes opciones disponibles y cómo gestionarlos eficazmente, podemos crear aplicaciones que ofrezcan una experiencia fluida y segura al usuario.
 
 <a id="persistencia"></a>
 ## Persistencia
 
-En la subunidad "Persistencia" del desarrollo de aplicaciones para dispositivos móviles, se aborda el aspecto crucial de almacenar datos de manera segura y eficiente. La persistencia es fundamental para mantener la funcionalidad y la experiencia del usuario, permitiendo que los datos no se pierdan cuando la aplicación se cierra o el dispositivo reinicia.
-
-La primera consideración en la persistencia es identificar qué tipo de datos necesita ser almacenado. Los datos pueden clasificarse en dos categorías principales: datos estructurados y datos no estructurados. Los datos estructurados, como registros de usuarios o preferencias del usuario, se almacenan generalmente en bases de datos relacionales o NoSQL. Por otro lado, los datos no estructurados, como imágenes o videos, requieren un almacenamiento más complejo.
-
-Para el almacenamiento de datos estructurados, las aplicaciones móviles pueden utilizar SQLite, una base de datos ligera y eficiente que se integra bien con la mayoría de los entornos de desarrollo. SQLite permite crear tablas, insertar registros, realizar consultas y gestionar transacciones, lo que es esencial para mantener la consistencia y la integridad de los datos.
-
-Los datos no estructurados son un desafío mayor debido a su naturaleza compleja y variada. Para almacenar imágenes o videos, las aplicaciones pueden utilizar el sistema de archivos del dispositivo, donde se pueden crear carpetas específicas para cada tipo de archivo. Además, existen bibliotecas que facilitan la manipulación de estos tipos de datos, como Glide para imágenes en Android o AVFoundation para videos en iOS.
-
-La persistencia también implica la seguridad de los datos. Es crucial implementar medidas de cifrado y protección contra accesos no autorizados. Las aplicaciones móviles pueden utilizar librerías de criptografía para cifrar datos sensibles antes de almacenarlos, asegurando que incluso si el dispositivo es robado o infectado, los datos no puedan ser accedidos sin la clave correcta.
-
-Además de la persistencia local, las aplicaciones móviles también pueden utilizar servicios en la nube para almacenar y sincronizar datos. Los servicios como Firebase o AWS Amplify ofrecen soluciones robustas para el almacenamiento de datos en la nube, permitiendo una fácil implementación y escalabilidad.
-
-La gestión de la persistencia también implica la optimización del espacio de almacenamiento. Las aplicaciones deben ser conscientes de su uso de memoria y almacenamiento, eliminando archivos temporales o no utilizados regularmente para mantener el dispositivo limpio y eficiente.
-
-En conclusión, la persistencia es un aspecto integral del desarrollo de aplicaciones móviles que requiere una consideración cuidadosa. Desde la elección del tipo de datos a almacenar hasta la implementación de medidas de seguridad y optimización, cada paso debe ser meticulosamente planificado para garantizar una aplicación funcional, segura y eficiente.
 
 <a id="tareas-en-segundo-plano-servicios"></a>
 ## Tareas en segundo plano. Servicios
 
-En el desarrollo de aplicaciones para dispositivos móviles, los conceptos de tareas en segundo plano y servicios son fundamentales para crear experiencias fluidas y respuestas rápidas a los usuarios. Los servicios permiten que ciertas operaciones continúen ejecutándose incluso cuando la aplicación no está en primer plano, lo que es crucial para mantener la funcionalidad del dispositivo y mejorar la experiencia del usuario.
-
-Un servicio en Android, por ejemplo, es un componente de fondo que realiza tareas continuas o largas sin interacción directa con el usuario. Pueden ser servicios que realizan operaciones como descargar archivos, reproducir música, gestionar notificaciones o mantener una conexión activa a Internet. Los servicios pueden ejecutarse en segundo plano y no interfieren con la experiencia del usuario mientras se están ejecutando.
-
-Para implementar un servicio en Android, es necesario crear una clase que extienda `Service`. Esta clase puede contener métodos para iniciar, detener y gestionar el ciclo de vida del servicio. Además, los servicios pueden interactuar con otras partes de la aplicación a través de intents o mediante el uso de interfaces de comunicación.
-
-La gestión eficiente de tareas en segundo plano es crucial para mantener la batería del dispositivo y evitar que las aplicaciones interfieran con la experiencia del usuario. Para optimizar el rendimiento, los servicios pueden utilizar técnicas como el manejo de hilos, la programación asincrónica y la gestión de recursos de forma eficiente.
-
-Además de los servicios tradicionales, Android también ofrece la posibilidad de crear servicios en segundo plano basados en trabajadores (Worker Services). Estos trabajadores son componentes que pueden ejecutar tareas largas o complejas en un hilo separado, lo que permite mantener el flujo principal de la aplicación fluido y responsive.
-
-La programación de aplicaciones para dispositivos móviles requiere una comprensión profunda de los conceptos de tareas en segundo plano y servicios. Estos componentes permiten crear aplicaciones que ofrecen una experiencia fluida y confiable, incluso cuando el usuario interactúa con otras aplicaciones o realiza otras actividades en el dispositivo.
-
-En resumen, la programación de aplicaciones para dispositivos móviles implica el uso de tareas en segundo plano y servicios para mantener la funcionalidad del dispositivo y mejorar la experiencia del usuario. La implementación eficiente de estos componentes requiere una comprensión profunda de los conceptos de hilos, programación asincrónica y gestión de recursos, lo que permite crear aplicaciones robustas y eficientes.
 
 <a id="seguridad-y-permisos"></a>
 ## Seguridad y permisos
 
-En la subunidad "Seguridad y permisos" del desarrollo de aplicaciones para dispositivos móviles, se aborda un aspecto crucial que afecta tanto la funcionalidad como la privacidad de las aplicaciones. La seguridad es una prioridad fundamental en cualquier sistema informático, y en el contexto móvil, esto se refuerza aún más debido a la naturaleza portable y accesible de estos dispositivos.
-
-La gestión adecuada de los permisos es un componente integral de esta seguridad. Los usuarios esperan que las aplicaciones soliciten solo los datos e información necesarios para funcionar correctamente, sin comprometer su privacidad o seguridad personal. Por lo tanto, el diseño de aplicaciones móviles debe incluir mecanismos claros y transparentes para solicitar permisos a los usuarios.
-
-Los sistemas operativos móviles como Android y iOS tienen políticas estrictas sobre la solicitud y gestión de permisos. En Android, por ejemplo, cada aplicación puede solicitar acceso a diferentes tipos de datos del dispositivo, como la ubicación, la cámara o el almacenamiento interno. El usuario tiene la opción de aceptar o rechazar estas solicitudes, lo que permite un control preciso sobre qué información se comparte con las aplicaciones.
-
-Para implementar correctamente los permisos en una aplicación móvil, es crucial seguir ciertas prácticas recomendadas. Primero, debe ser claro y conciso en la solicitud de permisos, explicando por qué son necesarios para el funcionamiento de la aplicación. Segundo, se deben manejar adecuadamente las respuestas del usuario, ya sea permitiendo o denegando los permisos solicitados. Finalmente, es importante proporcionar opciones para que los usuarios cambien sus preferencias de permisos en cualquier momento.
-
-Además de los permisos individuales, también hay conceptos como la privacidad y el encriptado que son esenciales en el desarrollo seguro de aplicaciones móviles. La privacidad implica garantizar que solo se acceda a información personal si es absolutamente necesario y con el consentimiento del usuario. El encriptado, por otro lado, protege los datos almacenados y transmitidos, asegurando su integridad y confidencialidad.
-
-En la práctica, la implementación de estos conceptos puede variar según las plataformas móviles y las necesidades específicas de cada aplicación. En Android, por ejemplo, se pueden utilizar las clases `Context` y `PackageManager` para solicitar y gestionar permisos. En iOS, el sistema utiliza un enfoque basado en bloques que permite una gestión más segura y eficiente.
-
-Es importante recordar que la seguridad no es solo una cuestión técnica; también implica una buena práctica de diseño y comunicación con los usuarios. Una aplicación que solicita permisos de manera transparente, respetuosa y útil es más probable que reciba el consentimiento del usuario y, por lo tanto, sea más segura.
-
-En conclusión, la gestión adecuada de los permisos en aplicaciones móviles es un aspecto fundamental de su seguridad. Al seguir prácticas recomendadas y mantener una comunicación clara con los usuarios, se puede crear una experiencia segura y confiable que cumpla con las expectativas del público móvil.
 
 <a id="conectividad-tipos"></a>
 ## Conectividad. Tipos.
 
-La conectividad es un elemento fundamental en el desarrollo de aplicaciones para dispositivos móviles, ya que permite la comunicación entre diferentes componentes del sistema o con otros sistemas externos. En esta subunidad, exploraremos los tipos de conectividad disponibles y cómo utilizarlas eficazmente en nuestras aplicaciones.
-
-Primero, es importante distinguir entre las distintas formas de conectividad que pueden emplearse en dispositivos móviles. La más común es la red inalámbrica Wi-Fi, que permite una conexión rápida y segura a Internet o a otros dispositivos. Además, el acceso a datos 4G y 5G ha revolucionado la velocidad y la eficiencia de las aplicaciones móviles, permitiendo transmisiones más rápidas y menos latencia.
-
-Otra forma de conectividad es el uso de redes celulares, que son especialmente útiles en áreas donde no se dispone de cobertura Wi-Fi. Estos sistemas utilizan una infraestructura de antenas y torres para proporcionar servicios móviles a largas distancias. Además, los dispositivos móviles pueden utilizar múltiples bandas de frecuencia simultáneamente para mejorar la velocidad y la calidad de la conexión.
-
-Además de las redes inalámbricas y celulares, también es posible establecer conexiones Bluetooth para comunicarse con dispositivos cercanos como auriculares, teclados o dispositivos IoT. Esta tecnología permite una comunicación rápida y baja en términos de energía, lo que es crucial en dispositivos móviles.
-
-La conectividad a través de la red móvil 4G/5G es especialmente relevante para aplicaciones que requieren alta velocidad y baja latencia, como juegos, aplicaciones de streaming o aplicaciones de realidad aumentada. Estas tecnologías utilizan una infraestructura de redes basadas en microdatos y femtoceldas, lo que permite proporcionar servicios móviles a gran escala.
-
-Para implementar la conectividad en nuestras aplicaciones móviles, es necesario utilizar las APIs proporcionadas por los sistemas operativos. En Android, por ejemplo, se pueden utilizar las clases `ConnectivityManager` y `NetworkInfo` para obtener información sobre la conexión actual del dispositivo y determinar si hay acceso a Internet. En iOS, se utiliza la clase `Reachability` para realizar comprobaciones de conectividad.
-
-Es importante tener en cuenta que la eficiencia de la conexión es un factor clave en el rendimiento de las aplicaciones móviles. Por lo tanto, es recomendable utilizar técnicas como la paginación y la carga diferida para optimizar el uso de los datos y reducir la latencia.
-
-Además, es crucial considerar la seguridad al establecer conexiones en dispositivos móviles. Los dispositivos móviles son targets frecuentes para ataques cibernéticos, por lo que es importante utilizar protocolos seguros como HTTPS para las comunicaciones web y implementar medidas de autenticación y autorización adecuadas.
-
-En conclusión, la conectividad es un aspecto crucial en el desarrollo de aplicaciones móviles. Al entender los diferentes tipos de conectividad disponibles y cómo utilizarlas eficazmente, podemos crear aplicaciones que ofrezcan una experiencia óptima a nuestros usuarios, independientemente del entorno en el que se encuentren.
 
 <a id="manejo-de-conexiones-http-y-https"></a>
 ## Manejo de conexiones HTTP y HTTPS
 
-En el desarrollo de aplicaciones para dispositivos móviles, la gestión eficiente de conexiones HTTP y HTTPS es un aspecto fundamental que garantiza una comunicación segura y rápida con los servidores. La HTTP (Hypertext Transfer Protocol) es el protocolo utilizado para transferir datos en la web, mientras que HTTPS (HTTP Secure) añade una capa adicional de seguridad mediante el cifrado SSL/TLS.
-
-La implementación de conexiones HTTP y HTTPS en aplicaciones móviles requiere un conocimiento profundo de las bibliotecas y frameworks disponibles para cada plataforma. En Android, por ejemplo, se puede utilizar la clase `HttpURLConnection` o la biblioteca Retrofit para manejar solicitudes HTTP y HTTPS. Estas herramientas facilitan el envío de peticiones y la recepción de respuestas, proporcionando métodos para configurar cabeceras, enviar datos y gestionar cookies.
-
-Para implementar conexiones HTTPS en aplicaciones móviles, es crucial considerar la seguridad del tráfico. Esto implica validar los certificados SSL/TLS presentados por el servidor, lo que se puede hacer mediante la configuración de un `TrustManager` personalizado. Además, es recomendable utilizar protocolos TLS 1.2 o superior para asegurar una comunicación segura y resistente a ataques como el downgrade attack.
-
-En iOS, las aplicaciones pueden utilizar la clase `URLSession` para gestionar conexiones HTTP y HTTPS. Esta clase proporciona un alto nivel de abstracción y flexibilidad, permitiendo configurar solicitudes personalizadas y manejar respuestas de manera eficiente. Además, iOS ofrece funcionalidades adicionales como el almacenamiento en caché de datos y la gestión de cookies.
-
-La gestión de conexiones HTTP y HTTPS también implica considerar los aspectos de rendimiento. Para mejorar el tiempo de respuesta de las aplicaciones, es recomendable utilizar técnicas como la conexión persistente (keep-alive) y la compresión de datos. Además, se debe optimizar el tamaño de los paquetes enviados para evitar congestiones en la red.
-
-En el contexto de aplicaciones móviles, la gestión de conexiones HTTP y HTTPS también implica considerar la seguridad del almacenamiento de credenciales. Es crucial utilizar métodos seguros para almacenar y recuperar datos sensibles como contraseñas o tokens de autenticación. Esto puede implicar el uso de encriptación local o la integración con servicios de gestión de secretos.
-
-En resumen, la gestión eficiente de conexiones HTTP y HTTPS es un aspecto crucial del desarrollo de aplicaciones móviles. Al utilizar las bibliotecas y frameworks adecuados, validar certificados SSL/TLS, considerar los aspectos de rendimiento y seguridad del almacenamiento de credenciales, se puede garantizar una comunicación segura y eficiente con los servidores.
 
 <a id="sensores"></a>
 ## Sensores
 
-En este capítulo, nos adentramos en la fascinante y multifacética temática del desarrollo de aplicaciones para dispositivos móviles, con un especial énfasis en el uso de sensores. Los sensores son componentes clave que permiten a las aplicaciones interactuar directamente con el entorno físico alrededor del dispositivo, proporcionando datos cruciales sobre movimientos, luz, temperatura y más.
-
-La integración de sensores en nuestras aplicaciones móviles abre un mundo de posibilidades. Desde la detección de movimientos para juegos y aplicaciones de fitness hasta la medición de la luminosidad para ajustar automáticamente los contratos de pantalla, los sensores son herramientas poderosas que añaden valor y funcionalidad a nuestras aplicaciones.
-
-Para comenzar, es importante entender cómo funcionan los sensores en un dispositivo móvil. Los sensores se comunican con el sistema operativo mediante una interfaz específica, como la API de Android o iOS, proporcionando datos digitales que pueden ser interpretados por la aplicación. Cada sensor tiene sus propias características y especificaciones técnicas, lo que significa que es crucial conocer cómo configurar y utilizar cada uno según su funcionalidad.
-
-El desarrollo de aplicaciones que utilicen sensores implica un enfoque integral en el manejo de los datos generados por estos dispositivos. Es necesario considerar la eficiencia del uso de recursos, ya que la recopilación y procesamiento de datos sensoriales puede consumir significativamente la batería del dispositivo. Además, es fundamental garantizar la privacidad y seguridad de los datos sensibles que se recopilan, implementando medidas adecuadas para proteger la información personal.
-
-En el mundo de la programación móvil, existen varias bibliotecas y frameworks que facilitan el acceso a los sensores del dispositivo. En Android, por ejemplo, podemos utilizar la clase `SensorManager` para interactuar con diferentes tipos de sensores como acelerómetro, giroscopio, magnetómetro y más. Cada sensor tiene su propio conjunto de métodos que permiten leer datos en tiempo real, lo que es crucial para aplicaciones que requieren una respuesta rápida a los cambios ambientales.
-
-Además de la recopilación de datos, el desarrollo de aplicaciones con sensores implica también la interpretación y visualización de estos datos. Por ejemplo, un juego de realidad aumentada puede utilizar el sensor de orientación del dispositivo para superponer información digital sobre el mundo físico alrededor del usuario. O una aplicación de fitness puede usar el acelerómetro para rastrear los movimientos del usuario durante un entrenamiento.
-
-La importancia de la precisión y confiabilidad en la medición con sensores no debe ser subestimada. Cualquier error o inexactitud en los datos sensoriales puede llevar a resultados incorrectos en la aplicación, por lo que es crucial calibrar y validar estos datos según sea necesario.
-
-En conclusión, el uso de sensores en aplicaciones móviles representa una oportunidad significativa para mejorar la experiencia del usuario y añadir funcionalidades innovadoras. Desde juegos hasta aplicaciones educativas y de salud, los sensores son herramientas versátiles que pueden ser utilizados de muchas maneras diferentes. A medida que avanzamos en el desarrollo de estas aplicaciones, es crucial mantener un enfoque integral en la eficiencia, privacidad y seguridad para garantizar una experiencia óptima y segura para nuestros usuarios.
 
 <a id="posicionamiento-localizacion-mapas"></a>
 ## Posicionamiento. Localización. Mapas
 
-En este capítulo, nos adentramos en la fascinante y compleja temática del posicionamiento, localización y mapas en el desarrollo de aplicaciones para dispositivos móviles. Estos temas son fundamentales para crear experiencias interactivas y útiles que utilicen la geografía como una herramienta central.
-
-El posicionamiento es un proceso que permite determinar la ubicación exacta de un dispositivo móvil en el espacio tridimensional. Este proceso se realiza mediante la combinación de diferentes tecnologías, como GPS (Global Positioning System), Wi-Fi y Bluetooth, cada una con sus propias ventajas y limitaciones. El objetivo es proporcionar precisión suficiente para aplicaciones que requieren localización precisa, como los servicios de entrega o las aplicaciones de turismo.
-
-La localización, por otro lado, implica la interpretación y el uso de la información geográfica obtenida a través del posicionamiento. Esto puede implicar la búsqueda de lugares cercanos, la generación de rutas, la identificación de puntos de interés o incluso la personalización de contenido según la ubicación del usuario. La localización es una habilidad clave en aplicaciones que buscan ofrecer servicios relevantes y personalizados.
-
-Los mapas son una representación visual de la información geográfica. En el contexto móvil, los mapas pueden ser estáticos o dinámicos, y pueden mostrar una variedad de datos, desde calles y edificios hasta puntos de interés turísticos y eventos en tiempo real. La creación de mapas interactivos que respondan a las acciones del usuario es un desafío interesante, ya que requiere una buena comprensión de la geografía y la programación.
-
-En el desarrollo de aplicaciones móviles para dispositivos como smartphones y tablets, el posicionamiento, localización y mapas son herramientas poderosas. Estos elementos permiten a los usuarios interactuar con su entorno de manera más natural y eficiente, facilitando tareas diarias como la navegación, el seguimiento de eventos o la búsqueda de información geográfica.
-
-Además, el uso del posicionamiento y localización en aplicaciones móviles ha llevado a la creación de nuevas oportunidades de negocio. Las empresas pueden utilizar esta tecnología para ofrecer servicios personalizados basados en la ubicación del usuario, como recomendaciones de negocios locales o publicidad contextualizada.
-
-En conclusión, el posicionamiento, localización y mapas son elementos cruciales en el desarrollo de aplicaciones móviles. A través de estas tecnologías, los desarrolladores pueden crear experiencias interactivas y útiles que utilizan la geografía como una herramienta central, mejorando así la calidad de vida de los usuarios y creando nuevas oportunidades de negocio.
 
 
 <a id="actividad-libre-de-final-de-evaluacion-la-milla-extra"></a>
@@ -23622,8 +31770,50 @@ En conclusión, el posicionamiento, localización y mapas son elementos cruciale
 <a id="la-milla-extra-primera-evaluacion"></a>
 ## La Milla Extra - Primera evaluación
 
-### ejercicio
+### Introducción a los ejercicios
 
-```markdown
+El conjunto de ejercicios que se encuentra en esta carperta está diseñado para estudiantes del curso DAM (Desarrollo de Aplicaciones Multiplataforma) y enfoca la práctica en actividades de programación avanzadas. El ejercicio principal, descrito en el archivo `ejercicio.md`, aborda aspectos claves como diseño de interfaces interactivas y desarrollo de funcionalidades específicas para dispositivos móviles y plataformas multimedia. Se busca potenciar competencias en resolución de problemas complejos, integración de tecnologías web modernas, y optimización del rendimiento en aplicaciones móviles.
 
-```
+Esta actividad es parte de la evaluación final, conocida como "La Milla Extra", que pretende desafiar a los estudiantes a ir más allá de lo básico en el desarrollo multimedia y móvil, incentivando la creatividad y la aplicación práctica de conocimientos adquiridos durante todo el curso.
+
+### Actividades propuestas
+
+1. **Análisis y diseño del problema**
+   - Los estudiantes deben leer detenidamente el archivo `ejercicio.md` para entender los requisitos y diseñar una solución coherente.
+   - Se pretende que el alumnado desarrolle habilidades de análisis y planificación antes de abordar la implementación.
+
+2. **Implementación básica**
+   - Los estudiantes deben escribir un programa en lenguaje markdown o cualquier otro apropiado para cumplir con los requisitos descritos en `ejercicio.md`.
+   - Se busca que el alumnado aplique correctamente las estructuras y conceptos de programación aprendidos.
+
+3. **Pruebas unitarias**
+   - Los estudiantes deben escribir pruebas unitarias para verificar la correcta implementación del código.
+   - La actividad tiene como objetivo enseñar a los alumnos cómo validar su trabajo y asegurar que el programa funcione correctamente en diferentes situaciones.
+
+4. **Documentación de código**
+   - Los estudiantes tienen que documentar su código, explicando claramente cada función y estructura utilizada.
+   - Se pretende mejorar la capacidad del alumnado para comunicarse técnicamente con otros desarrolladores mediante la documentación adecuada.
+
+5. **Optimización del código**
+   - Los estudiantes deben revisar su código implementado e intentar optimizarlo, buscando métodos más eficientes o reduciendo el uso de recursos.
+   - Se busca que los alumnos aprendan a mejorar y mantener un buen rendimiento en sus programas.
+
+6. **Integración con otros módulos**
+   - Los estudiantes deben integrar su solución implementada con código adicional proporcionado en la carpeta, como archivos de datos externos o llamadas API.
+   - Se pretende que el alumnado comprenda cómo interactuar y trabajar con componentes adicionales para completar tareas más complejas.
+
+7. **Pruebas de carga**
+   - Los estudiantes deben realizar pruebas de carga en su aplicación para asegurar que funciona correctamente bajo condiciones de uso intensivo.
+   - Se busca enseñar a los alumnos cómo evaluar la capacidad del programa para manejar un alto volumen de solicitudes o datos.
+
+8. **Presentación del proyecto**
+   - Los estudiantes tendrán que preparar una presentación sobre su proyecto, explicando las decisiones tomadas durante el desarrollo y mostrando la funcionalidad implementada.
+   - Se pretende mejorar las habilidades de comunicación y exposición técnica de los alumnos frente a un público.
+
+9. **Revisión de pares**
+   - Los estudiantes deben revisar el trabajo de otro compañero, proporcionándole feedback constructivo sobre su código y documentación.
+   - Se busca fomentar la colaboración entre compañeros e impulsar una cultura de mejora continua en el aprendizaje del desarrollo.
+
+10. **Refactorización**
+    - Los estudiantes deben refactorizar su código para mejorar su calidad, manteniendo la funcionalidad original.
+    - Esta actividad pretende enseñar a los alumnos cómo mantener y mejorar continuamente sus proyectos después de su implementación inicial.

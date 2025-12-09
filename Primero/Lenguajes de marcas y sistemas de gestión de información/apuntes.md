@@ -76,179 +76,62 @@
 <a id="clasificacion"></a>
 ## Clasificación
 
-La clasificación de los lenguajes de marcas es una herramienta fundamental para entender su naturaleza y aplicaciones. Los lenguajes de marcas pueden ser divididos en dos categorías principales: los lenguajes de marcado (markup languages) y los lenguajes de hoja de estilos (style sheets). El lenguaje de marcado se centra en la estructura y el contenido de una página web, mientras que los lenguajes de hoja de estilos se encargan de su presentación visual.
+### Introducción a los ejercicios
 
-El primer grupo de lenguajes de marcas son los lenguajes de marcado. HTML (HyperText Markup Language) es el más conocido y ampliamente utilizado para crear páginas web. Su estructura básica consta de etiquetas que definen la semántica del contenido, como encabezados, párrafos, listas y enlaces. Otro lenguaje importante es XML (eXtensible Markup Language), que permite definir su propio conjunto de etiquetas para representar datos de manera estructurada.
+En este conjunto de ejercicios, estás explorando los fundamentos del lenguaje de marcado Markdown. Los archivos proporcionan una introducción a elementos básicos como encabezados, párrafos, listas, hiperenlaces, imágenes y citas, entre otros. A través de estos ejercicios, mejorarás tus habilidades en la estructuración y presentación del contenido digital utilizando un lenguaje simple pero efectivo. Esto es crucial para el desarrollo web y la creación de documentación técnica.
 
-Los lenguajes de hoja de estilos son utilizados para dar formato visual a los documentos HTML. CSS (Cascading Style Sheets) es el estándar más utilizado en este sentido, permitiendo controlar aspectos como colores, tipografías, márgenes y posiciones de elementos en la página. Otros lenguajes de hoja de estilos incluyen LESS y SASS, que ofrecen funcionalidades adicionales para facilitar el desarrollo de hojas de estilo complejas.
+### Actividades propuestas
 
-Además de estos dos grupos principales, existen otros tipos de lenguajes de marcas específicos para aplicaciones particulares. Por ejemplo, SVG (Scalable Vector Graphics) es un lenguaje de marcado diseñado para representar gráficos vectoriales y es especialmente útil en aplicaciones web que requieren interactividad visual.
+### Actividad 1: Creación Básica de Encabezados
+**Descripción:** Los estudiantes deben crear una estructura con encabezados de distintos niveles (de 1 a 6). Se espera que aprendan cómo organizar y jerarquizar el contenido en un documento Markdown.
 
-La clasificación de los lenguajes de marcas no solo facilita su aprendizaje y uso, sino que también permite la creación de herramientas y frameworks especializados. Por ejemplo, existen bibliotecas y frameworks para el procesamiento de XML en diferentes lenguajes de programación, lo que amplía las posibilidades de trabajo con este tipo de documentos.
+### Actividad 2: Uso Correcto del Salto de Línea
+**Descripción:** Los estudiantes deben escribir varios párrafos y demostrar la diferencia entre un salto de línea simple y múltiple. Se espera que entiendan cómo afecta el uso del espacio a los saltos de línea en Markdown.
 
-En conclusión, la clasificación de los lenguajes de marcas es una herramienta poderosa que nos permite entender su naturaleza y aplicaciones. Al conocer los tipos principales de lenguajes de marcado y hoja de estilos, así como sus características específicas, podemos desarrollar habilidades valiosas para el diseño y desarrollo web. Esta comprensión también nos prepara para explorar herramientas y frameworks más avanzados que facilitan la creación de aplicaciones web complejas y dinámicas.
+### Actividad 3: Aplicación de Estilo con Énfasis
+**Descripción:** Los alumnos deben aplicar cursiva, negrita y combinaciones de ambos estilos (cursiva y negrita) para distintas palabras o frases. Se espera que comprendan cómo mejorar la legibilidad del texto usando énfasis.
 
-### Encabezados
+### Actividad 4: Creación de Listas
+**Descripción:** Los estudiantes deben crear tanto listas no ordenadas como ordenadas con múltiples elementos. Se espera que dominen el uso de guiones y números para estructurar información.
 
-```markdown
-# Esto es un encabezado de nivel 1
+### Actividad 5: Inserción de Hiperenlaces
+**Descripción:** Los alumnos deben insertar varios hiperenlaces en un documento Markdown, dirigidos a diferentes páginas web o secciones del mismo documento. Se espera que aprendan cómo vincular contenido para mejorar la interactividad del texto.
 
-## Esto es un encabezado de nivel 2
+### Actividad 6: Inclusión de Imágenes
+**Descripción:** Los estudiantes deben incluir imágenes en sus documentos Markdown, proporcionando URLs válidas y descripciones alternativas cuando sea necesario. Se espera que dominen cómo aportar elementos visuales al contenido textual.
 
-### Esto es un encabezado de nivel 3
-### Esto es un encabezado de nivel 3
+### Actividad 7: Uso de Citas
+**Descripción:** Los alumnos deben practicar la inclusión de citas y citaciones anidadas dentro de un documento Markdown, con el objetivo de resaltar opiniones o declaraciones de otros. Se espera que aprendan a reconocer y marcar adecuadamente las citas.
 
-#### Esto es un encabezado de nivel 4
+### Actividad 8: Bloque de Códigos
+**Descripción:** Los estudiantes deben incluir bloques de código para varias lenguajes (por ejemplo, HTML, Python, etc.) en sus documentos Markdown. Se espera que entiendan cómo destacar y preservar el formato del código fuente.
 
-##### Esto es un encabezado de nivel 5
+### Actividad 9: Utilización de Separadores
+**Descripción:** Los alumnos deben utilizar separadores horizontales para dividir distintas secciones dentro de un documento Markdown, mejorando la legibilidad y estructura del texto. Se espera que dominen cómo marcar transiciones entre diferentes temas o partes.
 
-###### Esto es un encabezado de nivel 6
-```
+### Actividad 10: Creación Básica de Tablas
+**Descripción:** Los estudiantes deben crear una tabla sencilla con varias filas y columnas utilizando el formato Markdown para tablas, incluyendo títulos y datos. Se espera que aprendan a organizar información estructurada visualmente en documentos Markdown.
 
-### Parrafos y saltos de linea
-
-```markdown
-Esto es un contenido de parrafo.
-Pero cuidado porque esto no es otro párrafo.
-
-Esto es otro párrafo.
-
-Esto es una línea.  
-Esto es otra linea (he creado dos espacios)
-```
-
-### enfasis
-
-```markdown
-*Texto en cursiva*
-
-**Texto en negrita**
-
-***Negrita y cursiva***
-```
-
-### Listas no ordenadas
-
-```markdown
-- Este es un elemento
-- Este es otro elemento
-- Y este es un elemento más
-```
-
-### Listas ordenadas
-
-```markdown
-1. Este es un elemento
-2. Este es otro elemento
-3. Y este es un elemento más
-```
-
-### Hiperenlaces
-
-```markdown
-[Enlace a la web de JOCARSA](https://jocarsa.com)
-```
-
-### Imágenes
-
-```markdown
-![Logo de JOCARSA](https://static.jocarsa.com/logos/teal.png)
-```
-
-### Citas
-
-```markdown
-> Esto es una cita
-
->> Y esto es una cita anidada
-```
-
-### Codigo en linea
-
-```markdown
-En HTML existe la etiqueta `html` y sirve para declarar el documento
-```
-
-### bloque de codigo
-
-```markdown
-A continuación vamos a ver un bloque en Python:
-
-```
-  print("Hola mundo en Python")
-```
-```
-
-### Separadores
-
-```markdown
-Esto es un texto
-
----
-
-Esto es otro texto
-
----
-
-Y esto es un texto mas
-```
-
-### Tablas
-
-```markdown
-| Columna 1 | Columna 2 |
-|-----------|-----------|
-| Dato 1    | Dato 2    |
-| Dato 3    | Dato 4    |
-| Dato 5    | Dato 6    |
-```
-
-### Documentación de un programa
-
-```markdown
-# jocarsa | teal
-
-# Introducción
-
-jocarsa | teal es una aplicación que se puede utilizar para crear aplicaciones interactivas de empresa.
-
-Nos permite:
-- Crear aplicaciones
-- Crear paneles de control
-- Controlar nuestros datos
-
-# Requisitos del servidor
-
-Para instalar esta aplicación, debemos:
-1. Tener un servidor
-2. Usar PHP
-3. Usar MySQL
-
-# Ejemplo de uso del programa
-
-A continuación se muestra un ejemplo de uso
-
-```
-Este es un código de ejemplo en markdown
-```
-```
 
 <a id="caracteristicas-y-ambitos-de-aplicacion"></a>
 ## Características y ámbitos de aplicación
 
-En el vasto universo de la informática, los lenguajes de marcas desempeñan un papel crucial como herramientas para estructurar y presentar información de manera eficiente. Estos lenguajes son fundamentales en la creación de documentos electrónicos que pueden ser visualizados y procesados por computadoras, lo que abre las puertas a una comunicación digital más sofisticada.
+### Introducción a los ejercicios
 
-La característica distintiva de los lenguajes de marcas radica en su capacidad para definir el contenido y la estructura de un documento sin necesidad de describir cómo debe verse. En lugar de eso, estos lenguajes utilizan etiquetas que indican el propósito del texto o la información que contiene. Esta separación entre contenido y presentación es una innovación fundamental que permite a los desarrolladores centrarse en lo que realmente importa: el mensaje que quieren transmitir.
-
-Los lenguajes de marcas tienen un amplio espectro de aplicaciones, desde la creación de páginas web hasta la documentación técnica y la gestión de información empresarial. Su versatilidad se debe a su capacidad para adaptarse a diferentes contextos y plataformas. Por ejemplo, HTML (Hypertext Markup Language) es el lenguaje de marcas más conocido y ampliamente utilizado para crear páginas web, mientras que XML (eXtensible Markup Language) es ideal para la representación de datos estructurados.
-
-Además de su uso en la creación de contenido digital, los lenguajes de marcas también juegan un papel crucial en el desarrollo de aplicaciones y sistemas informáticos. Por ejemplo, en la programación orientada a objetos, los lenguajes como Java utilizan clases y objetos para encapsular datos y comportamientos, lo que es una forma de estructurar información de manera similar a cómo se hace con los lenguajes de marcas.
-
-La importancia de los lenguajes de marcas no se limita solo a su uso en la creación de contenido digital. También son fundamentales en el desarrollo de sistemas empresariales y de gestión de información, donde la precisión y la estructura de los datos son cruciales para la toma de decisiones informadas.
-
-En resumen, los lenguajes de marcas son herramientas poderosas que permiten a los desarrolladores crear contenido digital de manera eficiente y estructurada. Su capacidad para separar el contenido del formato lo hace una innovación fundamental en la comunicación digital, con aplicaciones versátiles en diversos campos, desde la creación de páginas web hasta el desarrollo de sistemas empresariales.
+En esta carpeta, encontrarás ejercicios que te ayudarán a familiarizarte con varios lenguajes de marcado esenciales como HTML, XML, Markdown, JSON, y SVG. Los problemas se enfocan en la creación de documentos estructurados y páginas web básicas utilizando estas tecnologías. A través de estos ejercicios, practicarás habilidades fundamentales como la escritura correcta de sintaxis, la organización de datos anidados, el estilo visual básico para HTML con CSS, y la representación gráfica simple en SVG. Estos ejercicios te preparan para entender las características y aplicaciones específicas de cada lenguaje de marcado, permitiéndote seleccionar adecuadamente la herramienta más apropiada según el tipo de documento o interfaz web que deseas crear.
 
 ### Crear webs con HTML
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este código HTML básico te muestra cómo se estructura una página web en su forma más simple. La línea `<!doctype html>` al principio indica que el documento sigue las reglas de HTML5, lo que es importante para que los navegadores interpreten correctamente la página.
+
+El bloque `<html>...</html>` envuelve todo el contenido de la página y está dividido en dos secciones principales: `<head>...</head>` y `<body>...</body>`. En este caso, el bloque `<head>` está vacío porque no contiene metadatos ni referencias a hojas de estilo o scripts externos. El bloque `<body>`, por otro lado, es donde aparece todo el contenido visible para el usuario, como texto y gráficos.
+
+En este ejemplo, dentro del `<body>...</body>` hay un elemento `<p>Esto es una página web</p>`, que crea un párrafo con el texto "Esto es una página web". Este es un fragmento muy básico pero muestra cómo se añaden elementos de contenido a una página HTML.
+
+`001-Crear webs con HTML.html`
 
 ```html
 <!doctype html>
@@ -262,6 +145,23 @@ En resumen, los lenguajes de marcas son herramientas poderosas que permiten a lo
 ```
 
 ### crear documentos con XML
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código es un ejemplo simple de cómo se estructura un documento XML (eXtensible Markup Language). En este caso, el documento describe información personal de una persona. Vamos a desglosar los elementos clave:
+
+- La línea inicial `<?xml version="1.0" encoding="UTF-8"?>` indica que estamos trabajando con un documento XML y especifica la codificación utilizada (en este caso, UTF-8), lo cual es importante para asegurar la correcta representación de caracteres especiales o internacionales.
+
+- El elemento raíz del documento es `<persona>`, el cual engloba toda la información personal que se va a incluir. Dentro de este elemento, hay dos subelementos: `<datospersonales>` y `<formacion>`.
+
+- El elemento `<datospersonales>` contiene detalles específicos sobre la persona, como su nombre y apellidos. Aquí, el nombre es "Jose Vicente" y los apellidos son "Carratalá Sanchis".
+
+- El elemento `<formacion>`, por otro lado, está vacío en este ejemplo, pero podría contener información acerca de la educación o experiencia laboral del individuo.
+
+XML es importante porque permite estructurar datos de una manera que sea fácilmente legible tanto para humanos como para máquinas. Esto facilita el intercambio de información entre diferentes sistemas y aplicaciones web.
+
+`002-crear documentos con XML.xml`
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -275,26 +175,18 @@ En resumen, los lenguajes de marcas son herramientas poderosas que permiten a lo
 </persona>
 ```
 
-### Markdown para crear documentos
-
-```markdown
-# Esto es una cabera de nivel 1
-
-## Esto es una cabecera de nivel 2
-
-Esto es un texto plano
-
-- Esto es un elemento de lista
-- Y esto también lo es
-
---- 
-
-```
-  Y esto es un bloque de código
-```
-```
-
 ### CSS nos permite añadir estilo a HTML
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código HTML muestra cómo se puede utilizar CSS (Hoja de Estilo en Cascada) para estilizar un documento HTML. En el encabezado del documento (`<head>`), hay una sección `<style>`, donde se define que todos los elementos `p` (parrafos) deben tener el color rojo gracias a la línea `p{color:red;}`. Esto significa que cualquier texto dentro de etiquetas `<p></p>` en esta página web será mostrado en color rojo.
+
+El propósito principal es demostrar cómo separar lógica y presentación: mientras que HTML se encarga de estructurar el contenido, CSS se utiliza para controlar cómo ese contenido se muestra visualmente. En este caso específico, estamos usando CSS para cambiar la apariencia del texto dentro de los párrafos, haciéndolo más atractivo o fácil de leer según lo requiera el diseño general del sitio web.
+
+Esta práctica es fundamental en desarrollo web ya que permite un manejo más flexible y ordenado del estilo en grandes proyectos, facilitando tanto el mantenimiento como la colaboración entre diferentes desarrolladores.
+
+`004-CSS nos permite añadir estilo a HTML.html`
 
 ```html
 <!doctype html>
@@ -311,6 +203,19 @@ Esto es un texto plano
 ```
 
 ### JSON para guardar documentos
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este código es un ejemplo simple de cómo se estructura la información en JSON (JavaScript Object Notation). En este caso, el archivo contiene datos personales sobre una persona. Específicamente, el fragmento define tres elementos: "nombre", "apellidos" y "correo". Cada uno de estos elementos está asociado a un valor que proporciona detalles específicos.
+
+- "nombre": Almacena el nombre de la persona, en este caso es "Jose Vicente".
+- "apellidos": Contiene los apellidos de la misma persona, que son "Carratalá Sanchis".
+- "correo": Proporciona una dirección de correo electrónico asociada a esta persona, que es "info@jocarsa.com".
+
+JSON es útil porque permite representar datos de manera clara y estructurada. Este formato es especialmente importante para la transferencia de datos entre un servidor y una aplicación web o móvil ya que facilita su lectura tanto por humanos como por máquinas.
+
+`005-JSON para guardar documentos.json`
 
 ```json
 {
@@ -321,6 +226,17 @@ Esto es un texto plano
 ```
 
 ### json anidado
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este código es un ejemplo de JSON (JavaScript Object Notation), que se utiliza para almacenar y estructurar datos de manera clara y fácilmente legible. En este caso, el archivo contiene información personal y académica sobre una persona.
+
+El bloque principal del JSON está compuesto por dos elementos: "datos personales" e "información de formación". El elemento "datos personales" almacena tres detalles específicos: nombre, apellidos y correo electrónico, todos ellos relevantes para identificar a una persona. Por otro lado, el elemento "formación" incluye dos entradas que podrían representar distintos niveles o tipos de estudios, aunque en este caso solo están definidas como "Descripción", lo cual indica que aún no se ha detallado esta parte.
+
+Este tipo de estructura es importante porque permite organizar la información de manera jerárquica y facilita su manipulación por otros programas o sistemas. Es particularmente útil cuando los datos necesitan ser transferidos entre diferentes aplicaciones web y bases de datos, manteniendo una forma clara y estándar.
+
+`006-json anidado.json`
 
 ```json
 {
@@ -337,6 +253,15 @@ Esto es un texto plano
 ```
 
 ### SVG para crear gráficos
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea un círculo rojo en una página web usando el lenguaje SVG (Scalable Vector Graphics). El `<svg>` es como un lienzo o área donde se dibuja. En este caso, tiene un ancho y alto de 512 píxeles cada uno. Dentro del `<svg>`, hay un elemento `<circle>`, que define la forma circular. Las propiedades `cx` y `cy` indican el centro del círculo (en este caso, en las coordenadas x=256 e y=256), mientras que `r` es el radio del círculo, que mide 100 píxeles. Finalmente, la propiedad `fill="red"` llena el círculo con el color rojo.
+
+Este tipo de código SVG es importante porque permite incorporar gráficos vectoriales escalables en páginas web sin necesidad de usar imágenes estáticas, lo que resulta en un contenido más dinámico y fácilmente modificable.
+
+`007-SVG para crear gráficos.html`
 
 ```html
 <svg 
@@ -353,64 +278,71 @@ Esto es un texto plano
 </svg>
 ```
 
-### Conclusiones que podemos extraer
+### Actividades propuestas
 
-```markdown
-Los lenguajes de marcas contienen información
+### Actividad 1: Creación de una Página Web Básica con HTML
+**Descripción:** Los estudiantes deben utilizar las etiquetas básicas del HTML (como `<head>`, `<body>`, `<p>`), y crear una estructura simple para una página web. El objetivo es que comprendan cómo se organiza un documento HTML.
 
-Existen diferentes lenguajes
+### Actividad 2: Introducción a XML
+**Descripción:** Los estudiantes deben analizar el archivo `002-crear documentos con XML.xml` e identificar las diferentes partes de la estructura XML, como etiquetas y atributos. La actividad busca que entiendan cómo se utiliza XML para almacenar datos estructurados.
 
-Cada uno de ellos tiene unas reglas de sintaxis
+### Actividad 3: Estilo en HTML usando CSS
+**Descripción:** A partir del archivo `004-CSS nos permite añadir estilo a HTML.html`, los estudiantes deben modificar el código para cambiar estilos (por ejemplo, color de texto y tamaño). Se espera que aprendan cómo incorporar reglas CSS dentro de un documento HTML.
 
-No son muy complejos
+### Actividad 4: Manejo Básico de JSON
+**Descripción:** Los alumnos deben leer y comprender el archivo `005-JSON para guardar documentos.json`. La tarea consiste en identificar los diferentes campos (como nombre, apellidos) y cómo se estructuran dentro del formato JSON. Esto les ayudará a entender la sintaxis básica de JSON.
 
-Dado que los lenguajes de marcas son para documentos
-Es común que la información se guarde en documentos
+### Actividad 5: Creación de Listas y Enlaces con Markdown
+**Descripción:** Utilizando `003-Markdown para crear documentos.md`, los estudiantes deben practicar el uso de listas, enlaces y cabeceras. Esta actividad se enfoca en enseñar cómo markdown facilita la creación rápida de documentación.
 
-Los lenguajes de marcas nos ayudan a dos cosas:
-1.-Guardar documentos
-2.-Crear webs / crear interfaces web
+### Actividad 6: Anidamiento en JSON
+**Descripción:** Los alumnos analizan `006-json anidado.json` para identificar estructuras anidadas y comprender cómo JSON puede representar datos más complejos. La actividad busca que comprendan la jerarquía de datos en JSON.
 
-Por ejemplo markdown nos sirve para documentos "tipo word"
-XML y JSON nos sirven para documentos complejos y anidados
-```
+### Actividad 7: Creación de un Círculo SVG
+**Descripción:** Los estudiantes trabajan con el archivo `007-SVG para crear gráficos.html` y crean diferentes formas geométricas usando lenguaje SVG. Esto les ayuda a entender cómo se representan elementos gráficos en la web.
+
+### Actividad 8: Combinación de Lenguajes
+**Descripción:** Los alumnos deberán combinar conocimientos obtenidos para crear una página simple que utiliza HTML, CSS y un breve archivo JSON para almacenar datos. Esto les permitirá ver cómo estos lenguajes funcionan juntos en el desarrollo web.
+
+Estas actividades están diseñadas para cubrir los conceptos básicos de cada uno de los lenguajes de marcas presentes en la carpeta proporcionada y ayudar a los estudiantes a entender su utilidad y aplicación práctica.
+
 
 <a id="estructura-y-sintaxis"></a>
 ## Estructura y sintaxis
 
-En el mundo digital de hoy, los lenguajes de marcas desempeñan un papel crucial como herramientas para la creación y manipulación de documentos estructurados. Estos lenguajes son fundamentales en la construcción de páginas web, aplicaciones empresariales y sistemas de gestión de información, proporcionando una forma precisa y eficiente de representar datos y contenido.
+### Introducción a los ejercicios
 
-La estructura y sintaxis de los lenguajes de marcas son esenciales para su correcto uso. La estructura permite organizar el contenido en elementos jerárquicos que facilitan la lectura y procesamiento por parte de los navegadores web y otros sistemas informáticos. Por ejemplo, en HTML, las etiquetas `<div>`, `<p>` y `<ul>` definen diferentes tipos de secciones y listas, creando una arquitectura lógica para el contenido.
-
-La sintaxis, por otro lado, es la forma en que los elementos del lenguaje son combinados para formar sentencias válidas. En HTML, esto implica cerrar las etiquetas correctamente con `</tag>`, usar atributos apropiadamente dentro de las etiquetas y seguir una estructura jerárquica. La sintaxis precisa es crucial para evitar errores que puedan causar problemas en la visualización o el funcionamiento del documento.
-
-Además, los lenguajes de marcas suelen utilizar un conjunto específico de caracteres y símbolos que tienen significado predefinido dentro del contexto del lenguaje. Por ejemplo, en XML, el uso de `<`, `>`, `&` y otros caracteres especiales requiere la codificación adecuada para evitar conflictos con la sintaxis del propio lenguaje.
-
-La comprensión de la estructura y sintaxis es fundamental para crear documentos bien formados que puedan ser interpretados correctamente por los sistemas informáticos. Un documento mal estructurado o sintácticamente incorrecto puede no renderizarse como se espera, causando problemas en la experiencia del usuario final.
-
-Además, el uso de lenguajes de marcas con una buena estructura y sintaxis facilita la manipulación y procesamiento del contenido por parte de los sistemas informáticos. Por ejemplo, en bases de datos XML, la estructura jerárquica permite realizar consultas complejas y recuperar información de manera eficiente.
-
-La evolución constante de los lenguajes de marcas ha permitido su adaptación a nuevas necesidades tecnológicas y formatos de contenido. Desde HTML hasta XML y más allá, cada versión introduce mejoras en la estructura y sintaxis para facilitar el trabajo con datos y documentos complejos.
-
-En conclusión, la estructura y sintaxis de los lenguajes de marcas son elementos cruciales que determinan su capacidad para representar y procesar información de manera precisa. Una comprensión sólida de estas características es fundamental para crear documentos web y aplicaciones informáticas eficientes y funcionales.
-
-### Que es XML
-
-```markdown
-XML es un lenguaje para almacenar documentos
-No en el sentido de un documento de Word (para eso tendríamos markdown)
-En el sentido de guardar información compleja, anidada, y estructurada
-Es un lenguaje en el que podemos guardar y podemos leer documentos
-Nos ayuda a almacenar información
-```
+Esta carpeta contiene una serie de ejercicios diseñados para introducir a los estudiantes del DAM al lenguaje XML y sus características básicas. Los problemas abordan desde la comprensión general de lo que es XML hasta conceptos más específicos como la declaración del documento, el uso de etiquetas simples y anidadas, atributos en las etiquetas y cómo incorporar comentarios en archivos XML. A través de estos ejercicios, los estudiantes podrán practicar sus habilidades para estructurar datos de manera jerárquica y comprender la sintaxis básica requerida por este lenguaje de marcado.
 
 ### declaracion
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código es una declaración XML que aparece al inicio de un archivo XML y sirve para indicar que el documento es un archivo en formato XML, especificando la versión del mismo y la codificación de caracteres utilizada. En este caso, se declara la versión 1.0 del lenguaje XML y se indica que el texto está codificado utilizando UTF-8, lo cual permite representar cualquier carácter del alfabeto latino junto con otros sistemas de escritura como chino o cirílico.
+
+La declaración es importante porque ayuda a los procesadores de XML a entender cómo interpretar el contenido del archivo. Esto asegura que todos los caracteres sean correctamente renderizados y que el documento sea compatible con diferentes sistemas operativos e idiomas. Sin esta declaración, un programa podría tener problemas para leer y manejar adecuadamente el contenido XML.
+
+En resumen, este pequeño bloque de código establece las bases para que cualquier archivo XML sea reconocido y procesado correctamente por los sistemas informáticos.
+
+`002-declaracion.xml`
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 ```
 
 ### etiquetas
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código XML es muy básico pero importante para entender cómo se estructuran los documentos XML. Primero, el archivo comienza con una declaración que indica que este es un documento XML y especifica la versión (1.0) y el conjunto de caracteres utilizados (UTF-8). Esto asegura que cualquier programa o navegador que lea este archivo lo interprete correctamente.
+
+Después de la declaración, encontramos una etiqueta llamada `<persona>` que está vacía, es decir, no contiene información adicional entre sus etiquetas de apertura y cierre. Esta estructura básica muestra cómo un elemento en XML puede ser definido, aunque para el momento solo estamos definiendo el contenedor sin agregar detalles específicos sobre una persona.
+
+Este código sirve como punto de partida para empezar a añadir elementos más complejos dentro del etiquetado `<persona>`, permitiendo la creación de descripciones detalladas utilizando otras etiquetas anidadas o atributos.
+
+`003-etiquetas.xml`
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -419,6 +351,17 @@ Nos ayuda a almacenar información
 ```
 
 ### etiquetas anidadas
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código es un ejemplo simple en XML (Lenguaje de Marcas Extensible) que describe información sobre una persona. Comienza con la declaración XML, indicando que el documento está escrito en la versión 1.0 del lenguaje y utiliza codificación UTF-8 para caracteres.
+
+Dentro de esta estructura, se encuentra un elemento principal llamado `<persona>`, que encapsula toda la información relacionada con una persona específica. Dentro del elemento `<persona>`, hay tres elementos más: `<nombre>`, `<edad>` y `<profesion>`. Cada uno contiene datos particulares sobre Jose Vicente, como su nombre ("Jose Vicente"), edad (47) y profesión ("Programador").
+
+La estructura anidada de los elementos en XML permite representar claramente las relaciones jerárquicas entre diferentes tipos de información. En este caso, es fácil entender que el nombre, la edad y la profesión pertenecen a una misma persona, gracias a que están dentro del elemento principal `<persona>`. Esto es crucial para organizar datos complejos en formatos como XML o HTML.
+
+`004-etiquetas anidadas.xml`
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -430,6 +373,23 @@ Nos ayuda a almacenar información
 ```
 
 ### atributos
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código es un ejemplo sencillo en XML que describe información sobre una persona. La estructura principal del documento comienza con la declaración XML (`<?xml version="1.0" encoding="UTF-8"?>`), que indica que el archivo está escrito en XML y utiliza el codificado UTF-8 para representar caracteres.
+
+Dentro de esta declaración, el código contiene un elemento raíz `<persona>`, que agrupa toda la información relacionada con una persona específica. Dentro del elemento `<persona>`, hay varios elementos más pequeños que proporcionan detalles específicos:
+
+1. **Elemento `<nombre>`**: Hay dos elementos `<nombre>` dentro de `<persona>`. Cada uno tiene un atributo `id` que identifica el tipo de nombre: `"propio"` para el nombre completo ("Jose Vicente") y `"mote"` para el apodo o abreviatura ("JV"). Los atributos en XML, como `id="propio"`, proporcionan metadatos adicionales sobre los elementos.
+
+2. **Elemento `<edad>`**: Este elemento contiene el número 47 (la edad de la persona) y tiene un atributo `medida` con el valor `"años"` para especificar que este número representa años.
+
+3. **Elemento `<profesion>`**: Finalmente, hay un elemento simple sin atributos que indica la profesión de la persona ("Programador").
+
+Esta estructura XML es importante porque permite organizar y describir datos de manera clara y estructurada, facilitando su procesamiento por otros sistemas o programas que trabajen con este formato.
+
+`005-atributos.xml`
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -442,6 +402,19 @@ Nos ayuda a almacenar información
 ```
 
 ### comentarios
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este código XML describe la información sobre una persona utilizando etiquetas para cada detalle importante. En la primera línea, se especifica que este documento es un archivo XML con codificación UTF-8, lo cual asegura que puede manejar cualquier caracter del alfabeto mundial.
+
+En el centro del documento, hay una etiqueta `<persona>` que agrupa toda la información relacionada con esta persona específica. Dentro de esa etiqueta, se encuentran varias subetiquetas como `<nombre>`, `<edad>` y `<profesion>`, cada una conteniendo un dato específico sobre la persona.
+
+Las subetiquetas pueden incluir atributos, como `id="propio"` dentro del primer `<nombre>`, lo que indica que ese nombre es el nombre propio de la persona. También se utiliza la etiqueta `<edad>` con un atributo adicional llamado `medida="años"`, especificando que el número 47 representa años.
+
+Este tipo de estructura es importante porque permite organizar datos de manera clara y estructurada, facilitando su procesamiento por otros programas o sistemas.
+
+`006-comentarios.xml`
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -454,78 +427,122 @@ Nos ayuda a almacenar información
 </persona>
 ```
 
+### Actividades propuestas
+
+1. **Introducción a XML**
+   - Descripción: Los estudiantes deben investigar y explicar en un breve documento qué es XML, su propósito principal y cómo se diferencia de otros formatos como Markdown.
+   - Objetivo: Familiarizarse con los conceptos básicos de XML.
+
+2. **Creación de la declaración XML**
+   - Descripción: Los estudiantes deben crear un archivo XML simple que incluya una declaración correcta (similar al contenido del archivo `002-declaracion.xml`).
+   - Objetivo: Aprender a escribir y validar declaraciones XML.
+
+3. **Estructura de etiquetas básicas**
+   - Descripción: Los estudiantes deben crear un documento XML básico que contenga una estructura con etiquetas para representar una persona (similar al archivo `003-etiquetas.xml`).
+   - Objetivo: Comprender la sintaxis básica y la estructura de las etiquetas en XML.
+
+4. **Etiquetas anidadas**
+   - Descripción: Los estudiantes deben crear un documento que incluya una persona con varias características (nombre, edad, profesión) anidadas entre sí (similar al archivo `004-etiquetas anidadas.xml`).
+   - Objetivo: Aprender a trabajar con estructuras de datos complejas en XML.
+
+5. **Atributos en etiquetas**
+   - Descripción: Los estudiantes deben modificar el documento anterior para incluir atributos que describan las características adicionales (como un ID y una medida) (similar al archivo `005-atributos.xml`).
+   - Objetivo: Aprender a utilizar y validar atributos en etiquetas XML.
+
+6. **Comentarios en XML**
+   - Descripción: Los estudiantes deben agregar comentarios explicativos dentro de su documento XML para describir las diferentes partes del mismo (similar al archivo `006-comentarios.xml`).
+   - Objetivo: Aprender a utilizar y validar comentarios en XML.
+
+7. **Comparación entre archivos XML**
+   - Descripción: Los estudiantes deben comparar los ejemplos dados (`004-etiquetas anidadas.xml` y `005-atributos.xml`) y explicar las diferencias.
+   - Objetivo: Mejorar la capacidad de análisis y comprensión del código XML.
+
+8. **Práctica con validación**
+   - Descripción: Los estudiantes deben crear un documento XML complejo que incluya declaraciones, estructura anidada y atributos, y luego validar el archivo usando herramientas básicas.
+   - Objetivo: Aprender a verificar la correcta formación de documentos XML.
+
+9. **Creación de un perfil personal**
+   - Descripción: Los estudiantes deben crear un documento XML que represente su propio perfil personal incluyendo datos como nombre, edad y profesión, con anotaciones adicionales.
+   - Objetivo: Aplicar los conceptos aprendidos a la creación de documentos reales.
+
+10. **Presentación oral**
+    - Descripción: Cada estudiante debe presentar su documento XML creado en la actividad anterior, explicando el contenido y cómo se han aplicado los principios aprendidos.
+    - Objetivo: Mejorar habilidades de comunicación y exposición técnica.
+
+
 <a id="herramientas-de-edicion"></a>
 ## Herramientas de edición
 
-En el mundo digital, los lenguajes de marcas desempeñan un papel crucial como herramientas para la creación y manipulación de documentos estructurados. Estos lenguajes son esenciales en el desarrollo web y la gestión de información, permitiendo a los desarrolladores crear contenido que no solo sea visualmente atractivo sino también funcional y accesible.
+### Introducción a los ejercicios
 
-La carpeta `004-Herramientas de edición` del módulo `Reconocimiento de las características de lenguajes de marcas` se centra específicamente en las herramientas disponibles para la creación y modificación de documentos basados en lenguajes de marcas. Estas herramientas son fundamentales porque facilitan el trabajo con elementos como HTML, CSS y XML, permitiendo a los profesionales del desarrollo web crear páginas web y aplicaciones que sean eficientes y seguros.
+El conjunto de ejercicios en esta carpeta se centra en la importancia de las herramientas de edición y cómo elegir aquella que mejor se adapte a tus necesidades para programar. El archivo proporcionado destaca que, aunque es crucial conocer diferentes entornos de desarrollo (IDE) como Gedit, Notepad++, o Visual Studio Code, lo realmente importante es centrarse en el código y entender bien los lenguajes utilizados. Este bloque de ejercicios ayuda a los estudiantes a familiarizarse con las ventajas y desventajas de distintas herramientas para edición de código, sin perder de vista que la calidad del programa depende más del contenido del código que del entorno en sí.
 
-La primera herramienta destacada es la **editorial gráfica**. Esta opción permite a los usuarios diseñar documentos de manera visual, utilizando una interfaz intuitiva donde se pueden arrastrar y soltar elementos como imágenes, texto y enlaces. Herramientas como Adobe Dreamweaver son excelentes ejemplos de este tipo de software, que ofrecen un entorno amigable para la creación de páginas web sin necesidad de conocimientos avanzados de código.
+A través de estos ejercicios, se practica la competencia de seleccionar e implementar herramientas adecuadas para el desarrollo de software, así como comprender las características esenciales de un buen editor de código.
 
-Otra herramienta es el **editor de texto**. Este tipo de software ofrece una mayor flexibilidad y control sobre el código fuente. Herramientas como Visual Studio Code son populares entre los desarrolladores debido a su capacidad para proporcionar autocompletado, resaltado de sintaxis y depuración en tiempo real. La ventaja de los editores de texto radica en la capacidad de personalizar el entorno de trabajo, lo que permite una mayor eficiencia en la codificación.
+### Actividades propuestas
 
-Además de las herramientas gráficas y de texto, existen **herramientas de edición basadas en lenguaje natural**. Estas herramientas utilizan tecnologías avanzadas para permitir a los usuarios crear contenido web utilizando un lenguaje más cercano al humano. Herramientas como Google Docs o Microsoft Word Online son ejemplos de este tipo de software, que ofrecen una interfaz familiar y facilitan la colaboración en proyectos de equipo.
+1. **Conocimiento de Editores de Código**
+   - Descripción: Los estudiantes deben investigar sobre los diferentes editores de código mencionados en el material (Gedit, Notepad++, Visual Studio Code) y hacer una tabla comparativa que incluya sus características principales.
+   - Objetivo: Familiarizar a los alumnos con las herramientas básicas necesarias para programación y comprender cuál es la mejor opción según su entorno de trabajo.
 
-La carpeta también aborda el uso de **espacios de nombres** en lenguajes de marcas. Los espacios de nombres son un mecanismo que permite evitar conflictos entre elementos con el mismo nombre en diferentes documentos o contextos. Herramientas como XMLSpy o Oxygen XML Editor proporcionan soporte avanzado para la gestión de espacios de nombres, facilitando el trabajo con documentos complejos y estructurados.
+2. **Configuración de Entorno de Desarrollo**
+   - Descripción: Los estudiantes deben configurar un entorno de desarrollo en su computadora utilizando uno de los editores mencionados. Ellos deberán identificar y describir cómo activan funcionalidades como el colorido del código y la sangría automática.
+   - Objetivo: Aprender a configurar adecuadamente una herramienta de edición para mejorar la eficiencia en la programación.
 
-En conclusión, las herramientas de edición son esenciales para cualquier profesional que trabaje con lenguajes de marcas. Desde los editores gráficos hasta los basados en texto y tecnologías de lenguaje natural, cada una ofrece ventajas diferentes y se adapta a diversos niveles de experiencia y necesidades específicas. La elección de la herramienta adecuada depende del proyecto en curso, el nivel de conocimiento técnico del usuario y las preferencias personales en cuanto al estilo de trabajo.
+3. **Ejercicios Prácticos con Editores**
+   - Descripción: Los estudiantes deben realizar tareas simples (ejemplo: escribir un documento Markdown) usando uno o más editores de código mencionados y describir las ventajas y desventajas que encuentren en cada uno.
+   - Objetivo: Mejorar la capacidad práctica con herramientas de edición y entender cómo estas pueden influir en el flujo del trabajo.
 
-### Introducción
+4. **Comparativa Visual Studio Code vs Notepad++**
+   - Descripción: Los estudiantes deben comparar las funcionalidades, ventajas y desventajas entre Visual Studio Code y Notepad++. Se espera que resalten por qué uno puede ser mejor opción que otro.
+   - Objetivo: Aprender a evaluar las capacidades de distintas herramientas para tomar decisiones informadas.
 
-```markdown
-Las herramientas de edición no importan
-Lo que quiero es que os centréis en el código
-Porque el código es lo importante
+5. **Investigación sobre IDLE**
+   - Descripción: Los estudiantes deben buscar y documentar información sobre el editor IDLE, específicamente diseñado para Python. Se les pide que describan su funcionalidad y cómo se integra con el lenguaje.
+   - Objetivo: Conocer editores especializados en ciertos contextos de programación.
 
-Un programa de edición
-IDE = Integrated Development Environment
-Entorno de desarrollo
+6. **Herramientas de Edición en Proyectos**
+   - Descripción: Los estudiantes deben identificar qué herramienta de edición sería más adecuada para diferentes proyectos basándose en características como velocidad, funcionalidad y soporte.
+   - Objetivo: Aprender a escoger la mejor herramienta según las necesidades del proyecto.
 
-Para prácticamente todo, uso:
-Gedit
-https://gedit-text-editor.org/
+7. **Creación de Guía de Usuario**
+   - Descripción: Los estudiantes deben crear una guía básica para el uso de uno de los editores mencionados, dirigida a principiantes en programación.
+   - Objetivo: Mejorar habilidades de comunicación y presentación técnica.
 
--Ventana de proyecto
--Coloreado de código
--Alguna función como sangría automática
+8. **Evaluación del Entorno de Trabajo**
+   - Descripción: Los estudiantes deben realizar una evaluación crítica sobre el entorno de trabajo actual que utilizan para programar, identificando áreas donde podrían mejorar su eficiencia.
+   - Objetivo: Promover la autocrítica constructiva y la búsqueda continua de mejoras en las herramientas de desarrollo.
 
-Si estáis en Windows:
-Notepad++
-https://notepad-plus-plus.org/downloads/
-
-Visual Studio Code
-https://code.visualstudio.com/
-En mi opinión, tiene muchos "pitos y flautas"
-
-Existen editores específicos del contexto
-Python -> lleva el editor IDLE
-```
 
 <a id="elaboracion-de-documentos-bien-formados"></a>
 ## Elaboración de documentos bien formados
 
-En el mundo digital actual, los lenguajes de marcas desempeñan un papel crucial como herramientas para la creación y manipulación de documentos estructurados. Estos lenguajes son fundamentales en el desarrollo web, la gestión de información y la comunicación entre sistemas informáticos.
+### Introducción a los ejercicios
 
-La elaboración de documentos bien formados es una habilidad esencial que requiere comprensión profunda de las reglas sintácticas y semánticas de los lenguajes de marcas. Un documento bien formado no solo se refiere a su estructura jerárquica, sino también a la coherencia en el uso de etiquetas y atributos.
+En esta carpeta, encontrarás ejercicios diseñados para que reconozcas y trabajes con documentos bien formados utilizando lenguajes de marcas como XML. Los ejemplos incluyen la creación de estructuras de datos simples y el uso de validadores en línea para asegurarte de que tus archivos cumplan con las reglas del formato XML. También se te presentará cómo incorporar esquemas XSD (XML Schema Definition) para añadir una capa adicional de validación a los documentos XML, lo cual es crucial en entornos profesionales donde la consistencia y la integridad de los datos son fundamentales.
 
-Para comenzar, es importante entender que los lenguajes de marcas son sistemas de codificación que utilizan etiquetas para definir elementos dentro del documento. Cada etiqueta tiene un propósito específico y debe usarse correctamente para garantizar que el contenido sea interpretado de manera correcta por los navegadores web o los programas que manejen estos documentos.
-
-Un ejemplo claro es la estructura HTML, donde las etiquetas como `<html>`, `<head>` y `<body>` definen diferentes secciones del documento. Cada una de estas etiquetas tiene atributos adicionales que proporcionan información adicional sobre el contenido dentro de ellas. Por ejemplo, en un elemento `<img>`, el atributo `src` especifica la ubicación de la imagen.
-
-La importancia de usar correctamente los lenguajes de marcas radica en su capacidad para transmitir información de manera estructurada y accesible. Un documento bien formado facilita la lectura y comprensión del contenido, tanto para humanos como para máquinas. Además, al seguir las convenciones establecidas por los lenguajes de marcas, se asegura que el contenido sea compatible con una amplia gama de plataformas y dispositivos.
-
-Además de la estructura jerárquica, la coherencia en el uso de etiquetas es fundamental. Cada etiqueta debe abrirse y cerrarse correctamente para evitar errores de sintaxis. Por ejemplo, si se abre una etiqueta `<div>`, es crucial que se cierre con `</div>` para mantener la integridad del documento.
-
-La utilización de espacios en blanco y saltos de línea también es importante para mejorar la legibilidad del código. Aunque los navegadores ignoran estos espacios, su presencia mejora significativamente la comprensión humana del código fuente.
-
-En resumen, la elaboración de documentos bien formados es una práctica esencial en el uso de lenguajes de marcas. Requiere un conocimiento profundo de las reglas sintácticas y semánticas de los lenguajes, así como una atención meticulosa a la estructura jerárquica y la coherencia en el uso de etiquetas. Al seguir estas prácticas, se asegura que el contenido sea transmitido de manera efectiva y accesible, tanto para humanos como para máquinas.
-
-La comprensión de estos conceptos es fundamental para cualquier profesional del campo de la programación o el desarrollo web. Al dominar la elaboración de documentos bien formados, se abre la puerta a una serie de habilidades más avanzadas, como la creación de interfaces de usuario, la manipulación de datos y la comunicación entre sistemas informáticos.
-
-En conclusión, la importancia de la elaboración de documentos bien formados en lenguajes de marcas no puede ser subestimada. Es una práctica esencial que requiere dedicación y atención a los detalles, pero cuyo beneficio es inmenso para el desarrollo de aplicaciones y sistemas informáticos modernos.
+Estos ejercicios te ayudarán a desarrollar competencias clave como la capacidad para estructurar datos correctamente, validar documentos XML con herramientas online y asegurarte de que tus archivos estén conformes con esquemas definidos por XSD.
 
 ### documento bien formado
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código es un documento XML que describe a una persona en términos simples. El propósito principal del archivo es proporcionar información básica sobre una persona, como su nombre y edad, utilizando etiquetas específicas para cada tipo de dato.
+
+El documento comienza con la declaración de versión de XML (`<?xml version="1.0" encoding="UTF-8"?>`), lo cual indica que estamos trabajando con el estándar XML 1.0 y especifica que la codificación utilizada es UTF-8, permitiendo el uso de caracteres especiales y acentos.
+
+Dentro del cuerpo del documento se encuentra una etiqueta `<persona>` que actúa como contenedor principal, encerrando toda la información relacionada con esta persona en particular. Dentro de esta etiqueta, hay varias subetiquetas que proporcionan detalles específicos:
+
+- Las dos etiquetas `<nombre>` representan diferentes aspectos del nombre de la persona; una para el nombre completo (`Jose Vicente`) y otra para un mote o apodo (`JV`). Cada etiqueta tiene un atributo `id` que identifica su propósito.
+  
+- La etiqueta `<edad>` contiene la edad en años (47) con un atributo adicional `medida="años"` para clarificar la unidad de medida.
+
+- Finalmente, una etiqueta `<profesion>` indica el trabajo o ocupación de la persona ("Programador").
+
+Este tipo de estructura es importante porque permite organizar y clasificar información de manera clara y coherente, facilitando su lectura tanto por humanos como por sistemas informáticos que procesen este documento XML.
+
+`001-documento bien formado.xml`
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -539,6 +556,29 @@ En conclusión, la importancia de la elaboración de documentos bien formados en
 ```
 
 ### elemento que no esta bien formado
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código XML describe dos personas con características similares, como su nombre y edad. Cada persona está envuelta en una etiqueta `<persona>` que actúa como un contenedor para toda la información personal asociada a ella. Dentro de cada bloque `<persona>`, encontramos subelementos como `<nombre>`, `<edad>`, y `<profesion>`, donde se especifican detalles como el nombre propio, un mote, la edad y la profesión del individuo.
+
+Es importante notar que este archivo contiene dos bloques `<persona>` idénticos uno al lado del otro sin una etiqueta raíz superior que los agrupe. Esto es incorrecto según las reglas XML, ya que cada documento debe tener exactamente un elemento principal o "raíz" que englobe todos los demás elementos.
+
+Para corregir este problema y hacer el archivo bien formado, necesitarías envolver ambos bloques `<persona>` en una única etiqueta raíz, por ejemplo `<personas>`, de esta manera:
+```xml
+<personas>
+  <persona>
+    <!-- Contenido del primer persona -->
+  </persona>
+  <persona>
+    <!-- Contenido del segundo persona -->
+  </persona>
+</personas>
+```
+
+Esto asegura que el documento XML cumple con la estructura válida y es procesable por cualquier software que utilice este lenguaje de marcado.
+
+`002-elemento que no esta bien formado.xml`
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -559,13 +599,20 @@ En conclusión, la importancia de la elaboración de documentos bien formados en
  
 ```
 
-### url del validador online
-
-```markdown
-https://www.liquid-technologies.com/online-xml-validator
-```
-
 ### solucion con nodo raiz
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código es un documento XML que describe la información sobre dos personas. En XML, cada elemento está encerrado entre etiquetas y estos elementos pueden contener otros elementos o atributos. 
+
+En este caso, el documento tiene una estructura clara: comienza con la declaración de versión del lenguaje XML (`<?xml version="1.0" encoding="UTF-8"?>`) que indica que estamos trabajando con un documento XML codificado en UTF-8.
+
+El elemento principal o raíz es `<personas>`, el cual agrupa a varios elementos `<persona>` dentro de él, lo que nos permite entender que este archivo contiene información sobre múltiples personas. Dentro del bloque `<persona>`, se encuentran los detalles específicos para cada individuo: nombre (con dos variantes distintas - uno formal y otro apodo) indicados por el elemento `<nombre>` y su atributo `id` que especifica si es el nombre propio o un mote; la edad, con una unidad de medida indicada en el atributo `medida`; y la profesión.
+
+Esta estructura ayuda a organizar datos de manera clara y jerárquica, lo cual facilita tanto la creación como el manejo de documentos más complejos. Es importante tener un documento bien formado para asegurar que los programas que lo leerán puedan hacerlo correctamente sin errores.
+
+`004-solucion con nodo raiz.xml`
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -590,6 +637,19 @@ https://www.liquid-technologies.com/online-xml-validator
 ```
 
 ### persona con xsd
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este archivo XML está diseñado para describir información sobre una o más personas. La estructura del documento indica que contiene varios elementos `<persona>` dentro de un elemento raíz llamado `<personas>`. 
+
+El primer bloque de `<persona>` incluye un atributo `xmlns:xsi` y otro `xsi:noNamespaceSchemaLocation`, lo cual es importante porque especifica la ubicación de un archivo XSD (XML Schema Definition) que va a validar el formato del XML. Esto asegura que los datos dentro del documento cumplan con ciertos requisitos estructurales definidos en ese archivo externo.
+
+Dentro del bloque `<persona>`, se describen varias características como el nombre, mote (apodo), edad y profesión de una persona. El elemento `<nombre>` tiene un atributo `id` que puede tomar valores como "propio" o "mote", lo cual indica si es el nombre completo o apodo respectivamente. El elemento `<edad>` también incluye un atributo opcional llamado `medida`, en este caso establece la unidad como "años".
+
+Esta estructura XML permite una representación clara y detallada de información personal, además de proporcionar mecanismos para validar que los datos estén correctamente formados según las reglas definidas.
+
+`005-persona con xsd.xml`
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -615,6 +675,17 @@ https://www.liquid-technologies.com/online-xml-validator
 ```
 
 ### validar xml
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este código es un archivo XSD (XML Schema Definition) que define la estructura y las reglas para validar documentos XML específicos. En este caso, el archivo establece cómo debe ser una persona en un documento XML. Lo que hace es definir que cada elemento "persona" en un documento XML debe contener dos elementos hijos: uno llamado "nombre", que será de tipo cadena de texto (string), y otro llamado "edad", que será de tipo número entero (integer). Esto asegura que cualquier archivo XML que quiera ser válido según este esquema siga esta estructura exacta, lo cual es importante para mantener la consistencia en los datos.
+
+El esquema XSD te permite definir reglas muy precisas sobre qué elementos y atributos pueden existir en un documento XML, de qué tipo deben ser esos elementos, cuántos son requeridos o opcionales, entre otras cosas. En el ejemplo dado, si alguien intenta crear un archivo XML con una persona pero no incluye la edad, este archivo será considerado inválido según las reglas definidas aquí.
+
+En resumen, esta XSD es como una plantilla que asegura que todos los documentos XML relacionados con personas sigan la misma estructura y contengan exactamente lo mismo en cada campo. Esto ayuda a evitar errores o malformaciones en los datos, permitiendo así un manejo más eficiente de la información.
+
+`006-validar xml.xsd`
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -632,22 +703,82 @@ https://www.liquid-technologies.com/online-xml-validator
 </xs:schema>
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Documentos XML Bien Formados
+
+**Descripción:** 
+Los estudiantes deben analizar el archivo "001-documento bien formado.xml" y verificar si es un documento XML correcto utilizando una herramienta de validación en línea. Se pretende que comprendan la estructura básica y la importancia de cerrar correctamente las etiquetas para crear documentos válidos.
+
+### Actividad 2: Identificar Errores en XML
+
+**Descripción:** 
+Los estudiantes deben examinar el archivo "002-elemento que no esta bien formado.xml" y identificar por qué este documento no es correcto. Se espera que aprendan a distinguir entre documentos XML válidos e inválidos, y corrijan los errores encontrados.
+
+### Actividad 3: Creación de Documentos con Raíz
+
+**Descripción:** 
+Los estudiantes deben utilizar el archivo "004-solucion con nodo raiz.xml" como base para crear un documento XML propio con una estructura similar. El objetivo es que comprendan la importancia de tener una única etiqueta de nivel superior y cómo manejar múltiples elementos dentro de ella.
+
+### Actividad 4: Validación Automática con XSD
+
+**Descripción:** 
+Los estudiantes deben usar el archivo "005-persona con xsd.xml" junto con el esquema en "006-validar xml.xsd" para entender cómo validar documentos XML automáticamente. Se espera que aprendan a vincular un documento XML con su respectivo XSD y validarlo.
+
+### Actividad 5: Modificación de Documentos XML
+
+**Descripción:** 
+Los estudiantes deben modificar el contenido del archivo "001-documento bien formado.xml" cambiando los datos personales (nombre, edad) y añadir más elementos. Se pretende que dominen la edición de documentos XML manteniendo su estructura correcta.
+
+### Actividad 6: Creación de un Esquema XSD
+
+**Descripción:** 
+Los estudiantes deben crear un esquema XSD basado en el contenido del archivo "005-persona con xsd.xml". Se espera que aprendan a definir tipos y restricciones en los esquemas para validar la estructura de los documentos XML.
+
+### Actividad 7: Integración de Varios Documentos
+
+**Descripción:** 
+Los estudiantes deben combinar el contenido de "001-documento bien formado.xml" con el esquema XSD proporcionado en "006-validar xml.xsd". Se pretende que aprendan a trabajar con varios archivos XML y XSD, asegurándose de que la estructura del documento cumple con las restricciones definidas.
+
+### Actividad 8: Uso de Herramientas Online
+
+**Descripción:** 
+Los estudiantes deben visitar el enlace proporcionado en "003-url del validador online.md" y usarlo para validar todos los documentos XML que hayan creado o modificado. Se pretende que comprendan la importancia de estas herramientas en la creación y verificación de documentos XML.
+
+### Actividad 9: Análisis Comparativo
+
+**Descripción:** 
+Los estudiantes deben comparar el archivo "001-documento bien formado.xml" con "002-elemento que no esta bien formado.xml", identificando las diferencias. Se espera que aprendan a revisar documentos XML y corregir errores de forma independiente.
+
+### Actividad 10: Diseño y Creación de Documentos Complejos
+
+**Descripción:** 
+Los estudiantes deben diseñar un documento XML complejo basándose en la estructura proporcionada en "004-solucion con nodo raiz.xml" pero incluyendo más detalles como habilidades profesionales, educación o experiencias laborales. Se pretende que dominen la creación de documentos XML completos y bien formados.
+
+Estas actividades ayudarán a los estudiantes a familiarizarse con la sintaxis básica de XML, la importancia del esquema XSD en la validación automática y cómo utilizar herramientas en línea para mejorar su trabajo.
+
+
 <a id="utilizacion-de-espacios-de-nombres"></a>
 ## Utilización de espacios de nombres
 
-En el vasto mundo de la informática, los lenguajes de marcas desempeñan un papel crucial como herramientas para estructurar y transmitir información de manera eficiente. Uno de los aspectos más importantes a considerar en estos lenguajes es su capacidad para utilizar espacios de nombres, una característica que añade una capa adicional de organización y evitar conflictos entre elementos.
+### Introducción a los ejercicios
 
-Los espacios de nombres son un sistema que permite agrupar elementos relacionados bajo un nombre común. En el contexto de los lenguajes de marcas, esto significa que puedes tener múltiples elementos con el mismo nombre sin que se produzcan errores de identificación. Por ejemplo, en HTML, puedes tener varias etiquetas `<div>` dentro del mismo documento, y cada una puede ser referenciada por su espacio de nombres.
-
-La utilización de espacios de nombres es especialmente relevante cuando trabajamos con lenguajes de marcas que son ampliamente utilizados para el desarrollo web. En HTML5, por ejemplo, se han introducido nuevos elementos como `<section>`, `<article>`, y `<header>`. Si no hubiera espacios de nombres, estos elementos podrían entrar en conflicto con otros que puedan tener el mismo nombre pero un significado diferente.
-
-Además de evitar conflictos, los espacios de nombres también facilitan la organización del código. Al agrupar elementos relacionados bajo un espacio de nombres común, puedes mantener tu código más limpio y fácil de entender. Por ejemplo, en XML, puedes organizar tus elementos dentro de un espacio de nombres específico para una aplicación particular, lo que hace que el código sea más legible y manejable.
-
-La implementación de espacios de nombres también es crucial cuando se trabaja con lenguajes de marcas que son utilizados en entornos complejos. En estos casos, los espacios de nombres te permiten mantener una jerarquía clara de elementos, lo que facilita la búsqueda y el acceso a cualquier elemento específico.
-
-En resumen, la utilización de espacios de nombres es un aspecto fundamental de los lenguajes de marcas, ya que proporciona una forma eficiente de organizar y evitar conflictos entre elementos. Esta característica es especialmente relevante en entornos web y complejos, donde el código puede ser más largo y complicado. Al aprender a utilizar espacios de nombres, puedes mejorar la calidad y la mantenibilidad de tu código, lo que te permitirá trabajar con mayor eficiencia y precisión en tus proyectos informáticos.
+En esta carpeta, trabajamos con ejercicios que centran la atención en el uso de espacios de nombres (namespaces) en XML. El objetivo principal es comprender cómo utilizar namespaces para evitar conflictos entre elementos con los mismos nombres pero diferentes propósitos o orígenes. A través de este ejercicio, aprenderás a declarar y aplicar namespaces en documentos XML para organizar mejor la información estructurada, lo que es crucial en el manejo eficiente de lenguajes de marcas.
 
 ### espacio de nombre persona
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este código XML está diseñado para describir información sobre personas. Comienza declarando que es un documento XML y establece el encoding en UTF-8, lo cual asegura que puede manejar cualquier carácter Unicode.
+
+El elemento principal es `<personas>`, que contiene dentro dos elementos `<per:persona>` gracias a la declaración de espacio de nombres `xmlns:per="https://jocarsa.com/personas"`. Esto significa que todos los elementos y atributos que empiezan con el prefijo "per:" pertenecen al espacio de nombres definido.
+
+Cada persona se define dentro del elemento `<per:persona>`, donde se incluyen detalles como el nombre, mote, edad y profesión. Por ejemplo, para un individuo, el nombre puede ser dado tanto en su forma completa (como "Jose Vicente") como en una versión abreviada ("JV"), la edad se especifica junto con su unidad de medida ("47 años"), y también se menciona que es un programador.
+
+Este formato de XML ayuda a organizar claramente la información sobre varias personas, facilitando el manejo y procesamiento de datos en aplicaciones web o sistemas de gestión de información.
+
+`001-espacio de nombre persona.xml`
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -671,17 +802,58 @@ En resumen, la utilización de espacios de nombres es un aspecto fundamental de 
 </personas>
 ```
 
+### Actividades propuestas
+
+1. **Identificación de Elementos con Espacios de Nombres**
+   - Descripción: Identifica y enumera todos los elementos que utilizan el espacio de nombres 'per' en el documento XML proporcionado. El objetivo es familiarizarse con la sintaxis y uso de espacios de nombres en XML.
+
+2. **Modificación de Datos Personales**
+   - Descripción: Modifica los datos personales de las personas registradas (nombre, edad, profesión) en el archivo XML para introducir nuevas entradas o modificar existentes. Se pretende que comprendan cómo se actualizan elementos específicos dentro del espacio de nombres.
+
+3. **Añadir un Nuevo Espacio de Nombres**
+   - Descripción: Añade un nuevo espacio de nombres al documento y define al menos dos nuevos elementos basados en este nuevo espacio de nombres. Se pretende que aprendan a declarar e implementar espacios de nombres adicionales.
+
+4. **Validación del XML con XSD**
+   - Descripción: Diseña una estructura básica para un archivo XSD (XML Schema Definition) que valide el formato del documento XML actual, incluyendo los elementos en el espacio de nombres 'per'. El objetivo es asegurar la coherencia y integridad del XML a través de validación automática.
+
+5. **Consultas Básicas con XPath**
+   - Descripción: Escribe consultas XPath para seleccionar diferentes partes del documento, como todos los nombres propios o todas las profesiones. Se pretende que comprendan cómo acceder y manipular datos específicos en documentos XML complejos.
+
+6. **Transformación de XML a HTML**
+   - Descripción: Crea una transformación simple usando XSLT para convertir el documento XML en un archivo HTML legible por humanos, mostrando información personal como nombres y profesiones. Se pretende que aprendan a presentar datos estructurados de forma amigable.
+
+7. **Creación de Elementos Atributos**
+   - Descripción: Agrega atributos al espacio de nombres 'per' para definir características adicionales del elemento persona, como género o ubicación geográfica. El objetivo es entender cómo se implementan y utilizan los atributos en un documento XML.
+
+8. **Optimización del Espacio de Nombres**
+   - Descripción: Proporciona una versión optimizada del archivo original reduciendo la redundancia en el uso del espacio de nombres 'per' sin perder información vital. Se pretende que aprendan a mejorar la eficiencia y claridad de los documentos XML.
+
+9. **Integración con Bases de Datos**
+   - Descripción: Diseña un proceso para exportar datos desde el archivo XML a una base de datos SQL o similar, creando tablas correspondientes a las entidades del espacio de nombres 'per'. Se pretende que comprendan cómo interconectar documentos XML con sistemas de gestión de bases de datos.
+
+10. **Documentación del Proyecto**
+    - Descripción: Escribe una guía corta y clara que explique los conceptos básicos del uso del espacio de nombres en el archivo XML, incluyendo ejemplos y explicaciones para otros estudiantes o desarrolladores. Se pretende que aprendan a documentar sus trabajos de programación de manera efectiva.
+
+
 <a id="ejercicio-practico"></a>
 ## Ejercicio práctico
 
-Una cosa muy importante que nos enseña esta asignatura es la separación de estructura, presentación y datos
+### Introducción a los ejercicios
 
-HTML = Estructura
-CSS = Presentación, estilo, apariencia
-XML = Datos
-Javascript = Comportamiento
+Este conjunto de ejercicios se centra en la estructura y uso del lenguaje XML para representar información personal detallada, como datos personales, experiencia laboral y formación académica. Los archivos progresivamente incorporan más detalles y elementos complejos, desde una simple descripción básica hasta incluir múltiples experiencias laborales y títulos educativos. A través de estos ejercicios, los estudiantes practicarán la creación de estructuras XML bien formadas, el manejo de diferentes niveles de anidamiento de etiquetas y la representación adecuada de información variada en un formato consistente.
 
 ### persona
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código es un ejemplo sencillo de XML (Lenguaje de Marca del Acorazado) que describe la información personal de una persona. En concreto, el archivo comienza declarando la versión y codificación utilizada para el documento XML. Luego, dentro de la etiqueta `<persona>`, se incluyen tres subetiquetas: `<nombre>`, `<apellido1>` y `<apellido2>`. Estas etiquetas contienen los datos específicos del individuo en cuestión.
+
+La estructura jerárquica del XML es importante aquí porque permite organizar de manera clara la información relacionada con una persona, permitiendo que otros sistemas o personas puedan leer fácilmente quién es esta persona. La claridad y la correcta formación del árbol de etiquetas en XML son fundamentales para representar datos de manera efectiva.
+
+Este tipo de estructura es muy útil cuando se necesita manejar datos personales de forma organizada, como en sistemas de gestión de información o bases de datos, facilitando su procesamiento y presentación.
+
+`001-persona.xml`
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -696,6 +868,19 @@ Javascript = Comportamiento
 ```
 
 ### telefono
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código es un ejemplo sencillo de un archivo XML (eXtensible Markup Language) que describe la información personal de una persona. En este caso, el documento está estructurado para incluir detalles como el nombre completo y los datos de contacto del individuo.
+
+La parte superior del archivo indica que se trata de un documento XML con la declaración `<?xml version="1.0" encoding="UTF-8"?>`, lo que significa que el documento sigue las reglas de formato XML 1.0 y utiliza el sistema de codificación UTF-8, garantizando así compatibilidad internacional.
+
+El elemento principal es `<persona>`, dentro del cual se encuentran varios elementos secundarios como `<nombre>`, `<apellido1>` (que contiene el primer apellido), `<apellido2>` (para el segundo apellido si aplica), `<telefono>`, y `<email>`. Cada uno de estos elementos secundarios encapsula una pieza específica de información sobre la persona, haciendo que sea fácil para otros sistemas leer y procesar esta información.
+
+Este tipo de estructura es importante en sistemas de gestión de información porque permite organizar datos de manera clara y coherente, facilitando su uso en aplicaciones web o bases de datos.
+
+`002-telefono.xml`
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -712,6 +897,17 @@ Javascript = Comportamiento
 ```
 
 ### varios telefonos
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código XML describe los datos personales de una persona, en este caso llamada Jose Vicente Carratalá Sanchis. La estructura del archivo comienza con la declaración de que es un documento XML y especifica el tipo de codificación usada para asegurar la compatibilidad internacional.
+
+Dentro del elemento principal `<persona>`, se incluyen varios detalles sobre la persona, como su nombre completo, sus dos apellidos, números telefónicos tanto móvil como fijo, y direcciones de correo electrónico tanto personal como profesional. Esto permite organizar información de una manera estructurada que es fácil de leer tanto para humanos como para máquinas.
+
+Este tipo de archivo XML es útil en sistemas de gestión de información porque facilita la manipulación, almacenamiento y presentación de datos personales de forma clara y estándar.
+
+`003-varios telefonos.xml`
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -734,6 +930,17 @@ Javascript = Comportamiento
 ```
 
 ### datos personales
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código XML está diseñado para almacenar información personal sobre una persona, en este caso llamada "Jose Vicente Carratalá Sanchis". La estructura del documento comienza con la declaración general de que es un archivo XML y establece el conjunto de caracteres UTF-8. Luego, se define una etiqueta raíz `<persona>` que engloba toda la información personal.
+
+Dentro de esta etiqueta `<persona>`, hay varias subetiquetas para organizar la información en diferentes categorías: `datospersonales`, `experiencialaboral` y `formacion`. En la categoría `datospersonales`, se incluyen detalles como el nombre, apellidos, números telefónicos (móvil y fijo) y direcciones de correo electrónico tanto para uso personal como profesional. Esto permite una organización clara y estructurada de los datos personales.
+
+Las otras categorías (`experiencialaboral` y `formacion`) están presentes pero no contienen información en este ejemplo, lo que indica que el archivo es parcialmente lleno y se espera completarlo con detalles adicionales acerca de la experiencia laboral y educación del individuo.
+
+`004-datos personales.xml`
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -764,6 +971,21 @@ Javascript = Comportamiento
 ```
 
 ### experiencias
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código es un ejemplo simple de un archivo XML que describe la información personal y profesional de una persona. En particular, se centra en la experiencia laboral.
+
+El código comienza con la declaración de encabezado del documento XML que indica la versión (1.0) y el conjunto de caracteres utilizado (UTF-8). Luego, hay comentarios explicativos sobre lo que contiene el archivo.
+
+La estructura principal está formada por una etiqueta `<persona>`, que encapsula toda la información personal y profesional de un individuo. Dentro de esta sección, se encuentran tres bloques principales: `datospersonales`, `experiencialaboral` y `formacion`.
+
+En el bloque `experiencialaboral`, hay una etiqueta `<experiencia>` que describe un puesto específico en la carrera profesional del individuo. Dentro de esta etiqueta, se incluyen detalles como el nombre de la empresa donde trabajó, las fechas de inicio y finalización del empleo, y una breve descripción del trabajo realizado.
+
+Este tipo de estructura XML es útil para organizar y almacenar información personal y profesional de manera clara y estructurada.
+
+`005-experiencias.xml`
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -803,6 +1025,23 @@ Javascript = Comportamiento
 ```
 
 ### muchas experiencias
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este archivo XML es un ejemplo de cómo se puede estructurar información personal en formato digital, específicamente para describir el perfil profesional de una persona. El documento comienza con la declaración de la versión y codificación del lenguaje XML que está utilizando.
+
+Dentro del elemento principal `<persona>`, hay tres subelementos principales: `<datospersonales>`, `<experiencialaboral>` y `<formacion>`. 
+
+El bloque `<datospersonales>` contiene información básica como el nombre completo, apellidos, números de teléfono (móvil y fijo) y direcciones de correo electrónico tanto para uso personal como profesional.
+
+El bloque `<experiencialaboral>` es donde se detalla la experiencia laboral del individuo. En este ejemplo, hay tres entradas `<experiencia>`, cada una correspondiente a un período en "Empresa 1". Cada entrada incluye detalles sobre el nombre de la empresa, fechas de inicio y finalización, una descripción breve del puesto y una referencia a un archivo de imagen con el logo de la empresa.
+
+Finalmente, el bloque `<formacion>` muestra la formación académica. En este caso, se ha proporcionado un solo título, pero podría haber más entradas bajo esta estructura para representar diferentes niveles o áreas de estudio. Cada entrada incluye detalles sobre el nombre del título, fechas relevantes, institución donde se obtuvo y una descripción breve.
+
+Este tipo de estructura XML es útil en sistemas de gestión de información personal y profesional porque permite almacenar datos de manera organizada y permitir su fácil manipulación por parte de software o aplicaciones web.
+
+`006-muchas experiencias.xml`
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -874,6 +1113,15 @@ Javascript = Comportamiento
 ```
 
 ### titulos
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este código XML describe los datos personales, la experiencia laboral y la formación de un individuo llamado Jose Vicente Carratalá Sanchis. El documento está estructurado en varias secciones: `datospersonales`, `experiencialaboral` y `formacion`. En `datospersonales`, se incluyen detalles como el nombre, apellidos, números de teléfono móvil y fijo, direcciones de correo electrónico tanto para la empresa como personal, y perfiles en redes sociales. Bajo `experiencialaboral`, hay una lista de experiencias laborales con información sobre las empresas donde trabajó, las fechas del empleo y una breve descripción del puesto. En `formacion`, se detallan varios títulos académicos obtenidos, incluyendo la institución en la que fueron otorgados, las fechas relevantes y una pequeña descripción de cada título.
+
+Este formato XML es muy útil para estructurar datos complejos y jerárquicos, permitiendo a los desarrolladores acceder fácilmente a información específica y manipularla según sea necesario.
+
+`007-titulos.xml`
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -986,10 +1234,62 @@ Javascript = Comportamiento
   
 ```
 
+### Actividades propuestas
+
+### Actividades Propuestas
+
+1. **Descripción Básica de Una Persona**
+   - **Actividad:** Crear un archivo XML simple que describa los datos personales básicos (nombre, apellidos) de una persona.
+   - **Objetivo:** Aprender a estructurar y escribir etiquetas simples en XML.
+
+2. **Incorporación de Datos de Contacto**
+   - **Actividad:** Agregar campos adicionales para incluir teléfono y correo electrónico al archivo XML existente.
+   - **Objetivo:** Familiarizarse con la inclusión de múltiples elementos dentro de un elemento principal en XML.
+
+3. **Manejo de Listas Simples**
+   - **Actividad:** Crear una lista XML que contenga varios números de teléfono (móvil y fijo) junto con correos electrónicos.
+   - **Objetivo:** Aprender a crear elementos anidados para manejar listas en XML.
+
+4. **Expansión del Modelo de Datos**
+   - **Actividad:** Ampliar la estructura XML original añadiendo secciones para experiencias laborales y formación académica, aunque vacías.
+   - **Objetivo:** Entender cómo expandir una estructura XML existente para incluir más información.
+
+5. **Inclusión de Experiencia Laboral**
+   - **Actividad:** Introducir datos de experiencia laboral en la sección correspondiente del archivo XML.
+   - **Objetivo:** Aprender a manipular y expandir bloques complejos de datos dentro de un documento XML.
+
+6. **Agregar Múltiples Experiencias Laborales**
+   - **Actividad:** Agregar varias experiencias laborales en el mismo archivo, incluyendo detalles específicos para cada una.
+   - **Objetivo:** Practicar la creación de estructuras XML que contienen múltiples instancias del mismo tipo de datos.
+
+7. **Incorporación de Formación Académica**
+   - **Actividad:** Añadir información sobre los títulos académicos obtenidos, incluyendo detalles como fechas y descripciones.
+   - **Objetivo:** Ampliar la experiencia en XML añadiendo una nueva sección para datos de formación.
+
+8. **Manejo Completo del CV**
+   - **Actividad:** Crear un archivo XML que contenga una versión completa del currículum, incluyendo datos personales, experiencias laborales y formación académica.
+   - **Objetivo:** Integrar todas las habilidades aprendidas en actividades anteriores para manejar un documento XML completo.
+
+
 <a id="curriculum"></a>
 ## Curriculum
 
+### Introducción a los ejercicios
+
+Este conjunto de ejercicios te permitirá familiarizarte con la estructura y el uso del formato JSON para almacenar información personal, profesional y académica. Los archivos proporcionan datos estructurados sobre un perfil profesional, incluyendo detalles personales, experiencia laboral, formación, habilidades informáticas e idiomas. A través de estos ejercicios, aprenderás a organizar y manejar información compleja utilizando arrays y objetos en JSON, así como a incluir elementos multimedia como fotografías. Este trabajo te ayudará a comprender cómo los lenguajes de marcado se utilizan para representar datos estructurados y a mejorar tus habilidades en la gestión y presentación de información profesional.
+
 ### datos
+<small>Creado: 2025-10-20 13:08</small>
+
+#### Explicación
+
+Este fragmento de código es un ejemplo simple de cómo se estructura una información personal en formato JSON (JavaScript Object Notation). JSON es una forma común de intercambiar datos entre sistemas, especialmente en aplicaciones web y móviles. En este caso, el código representa los detalles personales y profesionales básicos de una persona.
+
+El código contiene varias claves-valor que representan diferentes aspectos del perfil personal como el nombre (clave "nombre" con valor "Jose Vicente"), los apellidos (clave "apellidos" con valor "Carratalá Sanchis") y otros datos importantes como correo electrónico, teléfono y titulación académica. La clave "experiencia" proporciona una breve descripción de la carrera profesional actual.
+
+Es importante destacar que JSON permite organizar los datos de manera clara y legible, lo cual facilita su procesamiento tanto para humanos como para máquinas en diferentes sistemas informáticos.
+
+`001-datos.json`
 
 ```json
 {
@@ -1003,6 +1303,19 @@ Javascript = Comportamiento
 ```
 
 ### categorias
+<small>Creado: 2025-10-20 13:09</small>
+
+#### Explicación
+
+Este fragmento de código es un ejemplo simple de datos estructurados en formato JSON (JavaScript Object Notation), que se utiliza comúnmente para almacenar y enviar información entre sistemas o aplicaciones web. En este caso, el archivo contiene dos bloques principales: "datos personales" e "información de formación".
+
+El bloque "datos personales" almacena información básica sobre una persona, como su nombre, apellidos, dirección de correo electrónico y número telefónico. Cada dato está asociado a un etiqueta clara que indica qué tipo de información es (por ejemplo, "nombre", "apellidos").
+
+El bloque "formación" está vacío en este caso, lo que sugiere que esta parte del archivo aún no ha sido completada o se planea agregar detalles sobre la educación y formación académica más adelante.
+
+Este formato JSON es muy útil porque permite organizar datos de manera estructurada y legible para humanos, facilitando el intercambio de información entre diferentes sistemas informáticos.
+
+`002-categorias.json`
 
 ```json
 {
@@ -1020,6 +1333,17 @@ Javascript = Comportamiento
 ```
 
 ### arrays para conjuntos de información
+<small>Creado: 2025-10-20 13:15</small>
+
+#### Explicación
+
+Este fragmento de código es un archivo JSON que contiene información personal y profesional básica sobre una persona. En la parte superior del documento, se encuentra el bloque `"datos personales"`, donde se incluyen detalles como el nombre completo, correo electrónico y número de teléfono. También hay una lista llamada `"redes sociales"` dentro de este bloque, en la cual cada elemento es un objeto que contiene el nombre de la red social y su URL correspondiente.
+
+Luego del bloque de datos personales, está la sección `"experiencia laboral"`, que inicialmente tiene solo un objeto vacío con campos para indicar el período de tiempo durante el cual tuvo lugar una experiencia profesional (desde `inicio` hasta `final`), la ciudad en la que trabajó (`localidad`) y la empresa donde laboró (`empresa`). Este formato es útil para almacenar datos estructurados y puede ser utilizado por diferentes aplicaciones para mostrar información sobre un curriculum o perfil profesional.
+
+Es importante destacar que este archivo JSON no está completo, ya que los campos dentro del bloque `"experiencia laboral"` están marcados con "XX", lo cual indica que aún falta completar esta sección con datos reales.
+
+`003-arrays para conjuntos de información.json`
 
 ```json
 {
@@ -1061,6 +1385,19 @@ Javascript = Comportamiento
 ```
 
 ### experiencia laboral
+<small>Creado: 2025-10-20 13:16</small>
+
+#### Explicación
+
+Este código es un archivo JSON que almacena información sobre datos personales y experiencia laboral, probablemente para una página web o aplicación de currículum vitae. En el fragmento de código, hay dos secciones principales: "datos personales" y "experiencia laboral".
+
+En la primera parte, "datos personales", se incluyen detalles como el nombre completo del individuo (José Vicente Carratalá Sanchis), su correo electrónico y número telefónico. Además, se proporcionan las URLs de sus perfiles en diversas redes sociales populares como Facebook, Instagram, LinkedIn y GitHub.
+
+La segunda parte, "experiencia laboral", muestra un esquema para listar varios trabajos anteriores del individuo. Cada trabajo está representado por un objeto JSON que incluye fechas de inicio y finalización (marcadas temporalmente con "XX" en este ejemplo), la localidad donde se realizó el trabajo, el nombre de la empresa, el cargo que ocupaba, y una lista de las principales responsabilidades del puesto. 
+
+Esta estructura es muy útil porque permite organizar claramente la información personal y profesional, facilitando su uso para sitios web o aplicaciones que requieren datos en formato JSON.
+
+`004-experiencia laboral.json`
 
 ```json
 {
@@ -1134,6 +1471,21 @@ Javascript = Comportamiento
 ```
 
 ### formacion
+<small>Creado: 2025-10-20 13:20</small>
+
+#### Explicación
+
+Este código es un ejemplo en formato JSON que representa información personal y profesional de una persona. En específico, se estructura los datos de contacto, experiencia laboral y formación académica.
+
+El fragmento comienza con los datos personales del individuo, incluyendo su nombre completo, correo electrónico y número telefónico. También contiene un array llamado "redes sociales", que lista diferentes plataformas digitales junto con las URL correspondientes a cada una de ellas.
+
+Después, se detalla la experiencia laboral en formato de arrays anidados (arrays dentro de otro array). Cada elemento del array principal representa un trabajo previo, y contiene subinformación como el período en que trabajó allí, ubicación geográfica, nombre de la empresa, cargo ocupado y las responsabilidades principales asociadas a ese empleo.
+
+Finalmente, se presenta una sección dedicada a la formación académica. En este caso, solo muestra un ejemplo con los años durante los cuales tuvo lugar el estudio, el nombre del instituto o universidad donde estudió y el título que obtuvo al finalizar su formación.
+
+Este tipo de estructura JSON es útil para almacenar datos personales y profesionales de manera organizada y fácilmente accesible, lo cual facilita su uso en portafolios digitales, sitios web personales o perfiles profesionales online.
+
+`005-formacion.json`
 
 ```json
 {
@@ -1212,6 +1564,23 @@ Javascript = Comportamiento
 ```
 
 ### json limpio
+<small>Creado: 2025-10-20 13:24</small>
+
+#### Explicación
+
+Este fragmento de código es un archivo JSON que contiene información sobre el perfil profesional de una persona. El documento está estructurado en diferentes secciones, como datos personales, experiencia laboral, formación y habilidades informáticas.
+
+En la parte superior del archivo, encontramos los datos personales, donde se incluyen detalles como nombre, apellidos, correo electrónico y número telefónico. También hay una lista de redes sociales con sus respectivos nombres y URLs. Esta información es crucial para contactar a la persona o revisar su presencia en línea profesional.
+
+La siguiente sección es la experiencia laboral, que muestra varios trabajos anteriores, incluyendo fechas de inicio y fin, ubicación geográfica, nombre de la empresa y el cargo desempeñado. También indica las responsabilidades principales del empleado durante su tiempo en cada trabajo.
+
+Después viene la sección de formación, donde se detalla una o más experiencias educativas, incluyendo el año de inicio y finalización, la institución que otorgó la educación y el título académico recibido. Esto ayuda a entender el nivel educativo y las especializaciones del candidato.
+
+Finalmente, en el archivo también están listadas las habilidades informáticas específicas del candidato y los idiomas que habla junto con su nivel de fluidez numéricamente representado. Esta información es útil para evaluar la competencia técnica y lingüística del profesional.
+
+Este tipo de estructura JSON es común en currículums o perfiles profesionales digitalizados, ya que permite una fácil manipulación y presentación de datos personales y académicos mediante sistemas informáticos.
+
+`006-json limpio.json`
 
 ```json
 {
@@ -1310,6 +1679,19 @@ Javascript = Comportamiento
 ```
 
 ### pongo la foto
+<small>Creado: 2025-10-20 13:28</small>
+
+#### Explicación
+
+Este fragmento de código es un ejemplo de cómo se estructura una hoja de vida en formato JSON (JavaScript Object Notation), que es un formato ligero para el intercambio de datos. En este caso, el documento contiene información personal del candidato como nombre, apellidos, correo electrónico y teléfono, además de la ubicación de su fotografía e incluso sus perfiles en redes sociales.
+
+Además, se incluyen bloques específicos para experiencia laboral, formación académica y habilidades informáticas. Para la experiencia laboral, cada entrada proporciona detalles sobre el empleo, como las fechas del trabajo, la ubicación de la empresa y el cargo ocupado, así como un conjunto de responsabilidades que desempeñó en ese puesto.
+
+Para la sección de formación, se detallan los títulos académicos obtenidos junto con las entidades educativas donde fueron alcanzados. Finalmente, hay una lista de habilidades informáticas y niveles de dominio en varios idiomas que el candidato puede poseer, lo cual es útil para mostrar la competencia lingüística del candidato en diferentes lenguajes.
+
+Este formato JSON permite organizar de manera clara e informativa toda la información relevante sobre un candidato profesional. Es importante entender cómo estructurar esta información ya que facilita su manejo y visualización tanto para el propietario del currículum como para los potenciales empleadores que puedan necesitar acceder a este tipo de datos.
+
+`007-pongo la foto.json`
 
 ```json
 {
@@ -1415,6 +1797,21 @@ Javascript = Comportamiento
 ```
 
 ### resumen profesional
+<small>Creado: 2025-10-20 15:05</small>
+
+#### Explicación
+
+Este fragmento de código es un archivo JSON que almacena información personal y profesional sobre una persona. En este caso, la estructura del JSON contiene secciones para datos personales, experiencia laboral, formación académica, habilidades informáticas y dominios lingüísticos.
+
+La sección "datos personales" incluye detalles como el nombre completo, correo electrónico, número de teléfono, foto personal y un resumen profesional. También lista las redes sociales más importantes del individuo con sus respectivas URLs.
+
+En la sección "experiencia laboral", cada objeto dentro del array representa una posición ocupada por este individuo en diferentes empresas o organizaciones. Cada puesto incluye información como el período de trabajo, ubicación geográfica, nombre de la empresa y detalles sobre las responsabilidades asociadas a ese cargo.
+
+La sección "formacion" recoge los estudios universitarios o profesionales que ha completado la persona, especificando el periodo académico, la entidad educativa y el título obtenido.
+
+Finalmente, en "habilidades informáticas", se listan las competencias tecnológicas del individuo, mientras que en "idiomas" se detallan los idiomas conocidos junto con un indicador numérico del nivel de fluidez en cada uno. Este archivo JSON es útil para crear currículums o perfiles profesionales en línea de una manera estructurada y fácilmente accesible por sistemas informáticos.
+
+`008-resumen profesional.json`
 
 ```json
 {
@@ -1520,50 +1917,132 @@ Javascript = Comportamiento
 }
 ```
 
+### Actividades propuestas
+
+### Actividades basadas en la carpeta de ejercicios JSON
+
+#### 1. Creación de un Curriculum Básico
+**Descripción:** Los estudiantes deben crear una estructura básica para un curriculum vitae (CV) utilizando el formato JSON, incluyendo secciones como datos personales y experiencia laboral.
+
+---
+
+#### 2. Integrar Datos Personales en JSON
+**Descripción:** A partir del archivo `001-datos.json`, los estudiantes deben extender la información a otras secciones del curriculum (como formación o idiomas) utilizando el formato JSON propuesto.
+
+---
+
+#### 3. Crear una Estructura Compleja de Experiencia Laboral
+**Descripción:** Los alumnos deberán diseñar y completar un JSON que contenga detalles sobre experiencias laborales pasadas, incluyendo cargos específicos y responsabilidades.
+
+---
+
+#### 4. Integración de Redes Sociales en el CV
+**Descripción:** Los estudiantes deben integrar información sobre redes sociales al curriculum personalizado, basándose en los datos proporcionados en `003-arrays para conjuntos de información.json`.
+
+---
+
+#### 5. Añadir Datos Educativos a un JSON Externo
+**Descripción:** Utilizando el archivo `004-experiencia laboral.json` como base, los estudiantes deben añadir una nueva sección que contenga detalles sobre formación académica.
+
+---
+
+#### 6. Trabajar con Arrays en JSON
+**Descripción:** Los alumnos deberán trabajar con arrays para manejar datos complejos como experiencias laborales o habilidades informáticas, usando el formato proporcionado en `004-experiencia laboral.json`.
+
+---
+
+#### 7. Añadir Información de Idiomas al Curriculum
+**Descripción:** Basándose en los ejemplos dados, los estudiantes deben añadir una sección que incluya información sobre idiomas y niveles a un JSON existente.
+
+---
+
+#### 8. Integrar Información Fotográfica en el CV
+**Descripción:** Utilizando la estructura del archivo `007-pongo la foto.json`, los alumnos deberán agregar datos de imágenes para una presentación visual más completa del curriculum personalizado.
+
+---
+
+Estas actividades están diseñadas para permitir a los estudiantes familiarizarse con JSON y sus aplicaciones en el manejo de información profesional, adaptando directamente el contenido y estructura proporcionados en la carpeta dada.
+
+
 <a id="ejercicio-de-final-de-unidad"></a>
 ## Ejercicio de final de unidad
 
-### actividad
+### Introducción a los ejercicios
 
-```markdown
-# Actividad (30’): “Planificador de cuadras — versión exprés”
+Este conjunto de ejercicios está diseñado para que los estudiantes trabajen con fechas y cálculos matemáticos en Python, centrando su atención en el manejo adecuado de objetos y métodos. El ejercicio principal consiste en crear un script llamado `planificador_cuadras.py` que calcule cuántas cuadras son necesarias para alojar un número dado de caballos, teniendo en cuenta la capacidad máxima por cuadra y redondeando al alza el resultado. Además, se requiere presentar información detallada sobre la fecha proporcionada por el usuario, incluyendo el día de la semana y si cae entre semana o fin de semana.
 
-Crea un script llamado `planificador_cuadras.py` que calcule cuántas cuadras necesitas en una fecha dada, según el número de caballos y la capacidad de cada cuadra. Debe redondear **al alza** el número de cuadras, mostrar propiedades de la fecha y presentar un pequeño informe.
+Los estudiantes practicarán las habilidades necesarias para manejar entradas de datos, realizar cálculos utilizando métodos estáticos como `math.ceil`, manipular objetos de tipo fecha (`datetime.date`) y generar salidas claras y estructuradas. Este ejercicio es fundamental para consolidar conocimientos sobre la manipulación de fechas y el uso eficiente de bibliotecas estándar en Python, aspectos clave en formaciones relacionadas con programación e informática.
 
-## Objetivos de aprendizaje
+### Actividades propuestas
 
-* Usar **métodos** y **propiedades** de objetos estándar (`datetime.date`, `date.year`, `date.weekday`, etc.). 
-* Llamar a **métodos “estáticos”**/de módulo como `math.ceil`. 
-* Manejar **entrada → cálculo → salida** con mensajes claros. 
+### Actividad 1: Planificador de Cuadras Básico
 
-## Requisitos funcionales
+**Descripción:** 
+Los estudiantes deben crear un script en Python que permita calcular el número mínimo de cuadras necesarias para alojar caballos, considerando la capacidad máxima por cuadra. Este ejercicio ayudará a los alumnos a familiarizarse con el uso de métodos y propiedades de objetos `datetime.date` y funciones matemáticas como `math.ceil`.
 
-1. **Entrada de datos (por `input`)**
+---
 
-   * `caballos` (entero > 0).
-   * `capacidad_por_cuadra` (entero > 0).
-   * `fecha` en formato `YYYY-MM-DD`.
-     (Estos tres inputs siguen el patrón de los ejercicios de entrada/cálculo/salida). 
-2. **Cálculos**
+### Actividad 2: Mejora del Informe
 
-   * `cuadras_necesarias = ceil(caballos / capacidad_por_cuadra)` usando `math.ceil`. 
-   * Crear un objeto `date` con la fecha indicada y obtener:
+**Descripción:** 
+Basándose en la actividad anterior, los estudiantes deben mejorar la funcionalidad creando un informe más detallado que incluya día de la semana (en palabras) y determinar si es entre semana o fin de semana. Esta tarea les permitirá trabajar con manipulación de cadenas y lógica condicional.
 
-     * `year`, `month`, `day`
-     * `weekday()` (0–6) y `isoweekday()` (1–7)
-       (Como en los ejemplos de propiedades de fecha). 
-3. **Salida (informe)**
+---
 
-   * Línea resumen con caballos, capacidad y cuadras **redondeadas al alza**.
-   * Bloque “Datos de la fecha” mostrando `YYYY-MM-DD`, `year`, `month`, `day`, `weekday`, `isoweekday`.
-4. **Validaciones mínimas**
+### Actividad 3: Validaciones Avanzadas
 
-   * Si algún valor no es entero positivo, mostrar un mensaje y terminar.
-   * Si la fecha no cumple el formato, mostrar mensaje y terminar.
-5. **(Opcional, si te da tiempo)**
+**Descripción:** 
+Los estudiantes deben implementar validaciones más complejas para asegurar que los datos introducidos son válidos (por ejemplo, fechas válidas dentro del calendario). Esta actividad promoverá el uso de manejo de excepciones y buenas prácticas de programación.
 
-   * Mostrar si la fecha cae **entre semana** o **fin de semana** (usa `isoweekday()`).
-```
+---
+
+### Actividad 4: Interfaz de Usuario Mejorada
+
+**Descripción:** 
+Los estudiantes deben implementar una interfaz más amigable con el usuario que permita ingresar los datos sin necesidad del terminal (por ejemplo, usando `tkinter`). Esto les ayudará a entender cómo integrar interfaces gráficas simples en sus programas.
+
+---
+
+### Actividad 5: Archivo de Configuración
+
+**Descripción:** 
+Los estudiantes deben crear un archivo JSON o YAML que contenga la información básica (número de caballos y capacidad por cuadra) y hacer que el script lea estos datos del archivo. Esto les permitirá trabajar con archivos externos.
+
+---
+
+### Actividad 6: Sistema de Alertas
+
+**Descripción:** 
+Los estudiantes deben implementar un sistema de alertas que avise cuando la cantidad de caballos supera cierto umbral y las cuadras están al límite de su capacidad. Esto les ayudará a trabajar con condicionales avanzados y bucles.
+
+---
+
+### Actividad 7: Gestión de Errores
+
+**Descripción:** 
+Los estudiantes deben mejorar el manejo de errores del script para capturar todos los posibles fallos (errores de entrada, formatos incorrectos) y proporcionar mensajes de error útiles al usuario. Esto les permitirá aplicar buenas prácticas en la programación.
+
+---
+
+### Actividad 8: Documentación del Código
+
+**Descripción:** 
+Los estudiantes deben escribir una documentación clara para su script utilizando comentarios e introducción a herramientas como Sphinx o Google Python Style Guide. Esta actividad ayudará a los estudiantes a entender cómo documentar y mantener el código de forma efectiva.
+
+---
+
+### Actividad 9: Versión Web del Script
+
+**Descripción:** 
+Los estudiantes deben crear una versión web simple del script usando frameworks como Flask o Django, permitiendo al usuario ingresar datos en un formulario. Esto les ayudará a comprender la integración entre Python y el entorno web.
+
+---
+
+### Actividad 10: Reporte Completo de Cuadras
+
+**Descripción:** 
+Los estudiantes deben crear un informe completo que no solo muestre los datos básicos, sino también un resumen del estado actual del sistema (por ejemplo, cuánto espacio queda en cada cuadra). Esto les permitirá trabajar con estructuras de datos complejas y presentación de datos.
+
 
 
 <a id="utilizacion-de-lenguajes-de-marcas-en-entornos-web"></a>
@@ -1572,55 +2051,43 @@ Crea un script llamado `planificador_cuadras.py` que calcule cuántas cuadras ne
 <a id="estandares-web-versiones-clasificacion"></a>
 ## Estándares web. Versiones. Clasificación
 
-En el vasto e infinito universo de la programación y la tecnología, un concepto fundamental es el de los lenguajes de marcas y sistemas de gestión de información. En esta sección, nos adentramos en el fascinante mundo de los estándares web, sus versiones y su clasificación, elementos cruciales para entender cómo funcionan las aplicaciones web modernas.
-
-Los estándares web son como las reglas que rigen la construcción de edificios. En este caso, no es una estructura física, sino un conjunto de normas establecidas por organizaciones internacionales como la W3C (World Wide Web Consortium). Estos estándares garantizan que los navegadores web y otros software puedan interpretar correctamente el contenido que se les presenta.
-
-La evolución histórica del internet ha llevado a la creación de múltiples versiones de estos estándares. Cada versión introduce mejoras, correcciones y nuevas funcionalidades. Por ejemplo, HTML 4.01 fue un paso importante en la historia del web, introduciendo características como el uso de tablas para estructurar contenido. Sin embargo, con el tiempo, se dieron cuenta de que esta forma de presentar información no era óptima para dispositivos móviles y accesibilidad.
-
-La clasificación de los estándares web es otro aspecto crucial. Se pueden categorizar en tres tipos principales: HTML (HyperText Markup Language), CSS (Cascading Style Sheets) y JavaScript. Cada uno desempeña un papel fundamental en la construcción de una página web. HTML define el contenido, CSS controla su presentación visual y JavaScript añade interactividad.
-
-HTML es el lenguaje de marcado que usamos para estructurar nuestro contenido. Es como el esqueleto de una casa; sin él, no hay nada más que soportar. Las etiquetas HTML son las instrucciones que le damos al navegador sobre cómo debe interpretar y mostrar el contenido.
-
-CSS, por otro lado, se encarga de dar estilo a nuestro contenido. Es como la pintura en un cuadro; añade color, forma y diseño. Con CSS, podemos controlar aspectos como el tamaño de las fuentes, los colores, los márgenes y los espacios entre elementos.
-
-JavaScript es el lenguaje que hace que nuestras páginas web sean interactivas. Es como la electricidad en una casa; sin ella, no hay vida. Con JavaScript, podemos hacer cosas como responder a clics de los usuarios, validar formularios, cargar contenido dinámicamente y mucho más.
-
-La combinación de estos tres lenguajes crea las páginas web que vemos todos los días. Cada uno tiene su propio conjunto de etiquetas y sintaxis, pero trabajan juntos para crear experiencias únicas y funcionales en línea.
-
-En el mundo digital actual, conocer estos estándares es imprescindible. No solo son fundamentos para desarrollar sitios web, sino que también son esenciales para entender cómo funciona la web como plataforma. Cada día, nuevas versiones de los estándares se lanzan, introduciendo mejoras y correcciones que hacen que nuestras páginas web sean más eficientes, seguras y accesibles.
-
-En resumen, el estudio de los estándares web, sus versiones y su clasificación es una puerta a la comprensión profunda del funcionamiento de las aplicaciones web. Es un campo en constante evolución, lleno de oportunidades para aprender y mejorar nuestras habilidades como desarrolladores.
 
 <a id="estructura-de-un-documento-html"></a>
 ## Estructura de un documento HTML
 
-HTML
-Hyper Text Markup Language
+### Introducción a los ejercicios
 
-La estructura de un documento HTML es la base sobre la cual se construyen las páginas web, proporcionando una organización lógica y semántica que facilita su lectura y renderizado por los navegadores. Este sistema de etiquetas y atributos permite definir el contenido y su presentación en forma jerárquica, asegurando que cada parte del documento tenga un propósito específico.
-
-La estructura básica de un documento HTML comienza con la declaración del tipo de documento, seguida de las etiquetas `<html>`, `<head>` y `<body>`. La etiqueta `<html>` es el contenedor principal que engloba todo el contenido del documento. Dentro de ella, la etiqueta `<head>` incluye metadatos como el título de la página, enlaces a hojas de estilo externas y scripts, y otros elementos no visibles para el usuario.
-
-El contenido visible se organiza dentro de la etiqueta `<body>`, donde se pueden encontrar varios tipos de elementos. Los encabezados son una parte fundamental, definidos por las etiquetas `<h1>` a `<h6>`, siendo `<h1>` el más importante y `<h6>` el menos. Estos elementos no solo sirven para organizar el contenido sino que también proporcionan información semántica sobre la jerarquía de los títulos.
-
-Los párrafos se crean utilizando la etiqueta `<p>`, lo que permite al navegador identificar y formatear correctamente el texto como un bloque separado. La lista desordenada (`<ul>`) y ordenada (`<ol>`) son útiles para presentar información en forma de elementos individuales, mientras que las listas de definición (`<dl>`) son ideales para mostrar términos y sus descripciones asociadas.
-
-Las imágenes se insertan con la etiqueta `<img>`, donde el atributo `src` especifica la ubicación del archivo de imagen. Además, es importante incluir el atributo `alt` para proporcionar una descripción textual de la imagen, lo que mejora la accesibilidad y el SEO del sitio.
-
-La tabla (`<table>`) es un elemento poderoso para presentar datos tabulares, compuesto por filas (`<tr>`), celdas de encabezado (`<th>`) y celdas de datos (`<td>`). Las tablas pueden ser complejas o simples, dependiendo del nivel de detalle que se requiera.
-
-La estructura de un documento HTML no solo es crucial para su funcionamiento correcto en los navegadores, sino que también es fundamental para la accesibilidad y el SEO. Un buen diseño de estructura facilita la navegación y mejora la comprensión del contenido por parte de los usuarios, mientras que una buena optimización para motores de búsqueda puede aumentar la visibilidad del sitio web.
-
-La comprensión y aplicación adecuada de estas etiquetas y atributos es esencial para cualquier desarrollador web, ya que permite crear páginas web bien organizadas, accesibles y eficientes en términos de rendimiento. A través de la estructura HTML, se puede transmitir no solo el contenido, sino también su significado y propósito, lo cual es fundamental para una buena experiencia de usuario y un buen posicionamiento en los motores de búsqueda.
+Esta carpeta contiene un conjunto de ejercicios diseñados para ayudarte a familiarizarte con la estructura básica y los elementos esenciales del lenguaje HTML. Los ejercicios van desde una simple definición de documento hasta la inclusión de metadatos como el idioma y la codificación, pasando por la creación de títulos. A través de estos ejercicios, practicarás tus habilidades en la estructuración de documentos web utilizando HTML, lo que te permitirá entender cómo se organiza un sitio web desde una perspectiva técnica.
 
 ### documento
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+El fragmento de código que has proporcionado es el llamado "declaración de documento" en HTML, la cual se coloca siempre al inicio de un archivo HTML y ayuda a los navegadores a entender qué versión del lenguaje HTML está utilizando el documento. En este caso, `<!doctype html>` indica al navegador que el documento está escrito en HTML5, lo que significa que puedes usar todas las características más recientes y modernas disponibles en esta versión del lenguaje.
+
+Es importante incluir esta declaración porque sin ella, algunos navegadores pueden interpretar el código de forma diferente o incluso malinterpretarlo. Al especificar `<!doctype html>`, garantizas una mejor compatibilidad con diferentes navegadores y versiones de HTML.
+
+Este es un ejemplo muy básico pero fundamental para entender la estructura básica de cualquier documento HTML que vas a crear.
+
+`001-documento.html`
 
 ```html
 <!doctype html>
 ```
 
 ### etiquetas html
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código es el inicio básico de un documento HTML, que es el lenguaje utilizado para crear páginas web. La primera línea `<!DOCTYPE html>` declara que este archivo sigue la versión más reciente del estándar HTML5. Esta declaración es crucial porque ayuda a los navegadores a entender cómo interpretar el resto del contenido del documento.
+
+La etiqueta `<html>` inicia el bloque principal de un documento HTML, y todo lo que se encuentra dentro de ella son elementos de la página web. En este caso, falta completar las secciones internas de la etiqueta `<html>`, donde normalmente irían otras etiquetas como `<head>` para información del documento (como el título) y `<body>` para el contenido visible en la página.
+
+Este es un punto de partida muy básico para una página web y es importante completarlo según lo necesario para que la página tenga las características deseadas, como títulos, texto, imágenes, etc.
+
+`002-etiquetas html.html`
 
 ```html
 <!doctype html>
@@ -1630,6 +2097,17 @@ La comprensión y aplicación adecuada de estas etiquetas y atributos es esencia
 ```
 
 ### lenguage
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código es el inicio básico de un documento HTML, que se utiliza para crear páginas web. La primera línea `<!DOCTYPE html>` indica al navegador que el documento debe ser interpretado según las reglas del lenguaje HTML5. Esto es crucial porque ayuda a garantizar que la página web se muestre correctamente en diferentes navegadores.
+
+La etiqueta `<html lang="es">` define el inicio de un documento HTML y especifica que el idioma principal del contenido es español gracias al atributo `lang="es"`. Esta declaración es importante para mejorar la accesibilidad y el SEO (Posicionamiento en Motores de Búsqueda) ya que ayuda a los motores de búsqueda a entender mejor el contenido de la página.
+
+Aunque este código solo contiene las etiquetas de inicio, se requiere cerrar correctamente con `</html>` al final del documento para completarlo.
+
+`003-lenguage.html`
 
 ```html
 <!doctype html>
@@ -1639,6 +2117,17 @@ La comprensión y aplicación adecuada de estas etiquetas y atributos es esencia
 ```
 
 ### cabeza y cuerpo
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código es el inicio básico de un documento HTML. Comenzamos con la declaración `<!DOCTYPE html>`, que indica al navegador que se trata de un documento HTML5, lo cual es importante para garantizar su correcta interpretación.
+
+Dentro del bloque de apertura `<html lang="es">`, especificamos que el idioma del contenido del sitio web será español usando el atributo `lang="es"`. Esto ayuda a los motores de búsqueda y lectores de pantalla a entender mejor la naturaleza del contenido.
+
+Este código es fundamental porque establece las bases para cualquier página web HTML. Sin embargo, este ejemplo está incompleto ya que falta añadir tanto la sección `<head>` como la sección `<body>`, donde se incluirán los elementos específicos del documento.
+
+`004-cabeza y cuerpo.html`
 
 ```html
 <!doctype html>
@@ -1648,6 +2137,19 @@ La comprensión y aplicación adecuada de estas etiquetas y atributos es esencia
 ```
 
 ### titulo
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una estructura básica para una página web sencilla. Comienza con la declaración `<!doctype html>`, que indica al navegador que el documento debe ser interpretado según las reglas del lenguaje HTML5.
+
+Dentro de esta estructura, hay un elemento `<html>` que especifica el idioma de la página mediante el atributo `lang="es"`. Esto ayuda a los motores de búsqueda y lectores de pantalla a entender que toda la información en la página está en español.
+
+El código también incluye una sección `<head>`, donde se encuentra un elemento `<title>` con el texto "La web de Jose Vicente". Este título es lo que aparecerá en la pestaña del navegador o en los resultados de búsqueda cuando esta página esté indexada. Es importante porque ofrece una descripción concisa y legible para el usuario sobre qué trata la página.
+
+En este ejemplo, la sección `<body>` está vacía, por lo que no hay contenido visual en la página web aparte del título. Sin embargo, en una página real, aquí es donde irían todos los elementos visibles como texto, imágenes, enlaces y formularios.
+
+`005-titulo.html`
 
 ```html
 <!doctype html>
@@ -1663,6 +2165,21 @@ La comprensión y aplicación adecuada de estas etiquetas y atributos es esencia
 ```
 
 ### codificacion
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código es el inicio básico de un documento HTML, que es el lenguaje usado para crear páginas web. En él se puede ver cómo se define la estructura básica y algunos elementos importantes:
+
+1. La línea `<!doctype html>` al principio indica al navegador que este archivo está escrito en HTML5.
+2. El elemento `<html lang="es">` establece que el idioma principal del documento es español, lo que ayuda a los motores de búsqueda y lectores de pantalla a entender mejor el contenido.
+3. La sección `<head>` contiene información sobre la página web pero no elementos visibles para el usuario. Aquí está definido el título de la página con `<title>La web de Jose Vicente</title>`, que aparecerá en la pestaña del navegador y es crucial para SEO (Posicionamiento en motores de búsqueda).
+4. La línea `<meta charset="utf-8">` asegura que todos los caracteres especiales (como acentos o símbolos no anglosajones) se muestren correctamente, gracias al conjunto de caracteres Unicode.
+5. Finalmente, el elemento `<body>` es donde irían todas las partes visibles del documento web, como texto, imágenes y enlaces, aunque en este caso está vacío.
+
+Este código básico es fundamental para cualquier página web y establece una base sólida sobre la cual construir funcionalidades más complejas.
+
+`006-codificacion.html`
 
 ```html
 <!doctype html>
@@ -1678,203 +2195,121 @@ La comprensión y aplicación adecuada de estas etiquetas y atributos es esencia
 </html>
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Crear un Documento HTML Básico
+
+**Descripción:** El estudiante deberá crear un documento HTML vacío pero válido. Se espera que comprendan la importancia de incluir `<!DOCTYPE html>` al principio del archivo para definir el tipo de documento.
+
+---
+
+### Actividad 2: Añadir Etiquetas HTML a una Estructura Básica
+
+**Descripción:** Los estudiantes añadirán etiquetas HTML básicas como `<html>`, `<head>`, y `<body>` a un documento vacío, familiarizándose con la estructura básica de un archivo HTML.
+
+---
+
+### Actividad 3: Configurar Idioma en Documentos HTML
+
+**Descripción:** Los alumnos deberán configurar el idioma para el que está diseñado su página web añadiendo atributos `lang` a las etiquetas `<html>`, aprendiendo así cómo hacer accesible la página a usuarios multilingües.
+
+---
+
+### Actividad 4: Separar Contenido de Cabeza y Cuerpo
+
+**Descripción:** En esta actividad, los estudiantes separarán el contenido en dos secciones distintas: una cabecera (`<head>`) para metadatos y un cuerpo (`<body>`) para el contenido visual.
+
+---
+
+### Actividad 5: Crear Títulos de Página
+
+**Descripción:** Los alumnos añadirán un título a su página web dentro del bloque `<head>` usando la etiqueta `<title>`, aprendiendo así cómo los buscadores y navegadores utilizan estos títulos para representar páginas.
+
+---
+
+### Actividad 6: Definir Codificación de Caracteres
+
+**Descripción:** Los estudiantes añadirán una declaración de codificación dentro del bloque `<head>` usando la etiqueta `<meta charset="utf-8">`, asegurándose así que su página web pueda manejar caracteres no ASCII correctamente.
+
+---
+
+### Actividad 7: Combinar Elementos HTML en un Documento
+
+**Descripción:** Los estudiantes deberán combinar todas las partes aprendidas hasta ahora (etiquetas, idioma, estructura `<head>` y `<body>`, título de página y codificación) para crear una página web completa.
+
+---
+
+### Actividad 8: Mejorar la Acessibilidad Web
+
+**Descripción:** Los alumnos mejorarán la accesibilidad de sus páginas web añadiendo atributos `lang` en las etiquetas del cuerpo (`<body>`) que especifiquen el idioma de cada sección, así como asegurándose de usar estructuras semánticas adecuadas.
+
+---
+
+Estas actividades están diseñadas para ayudar a los estudiantes a comprender y aplicar los conceptos básicos necesarios para la creación efectiva de documentos HTML.
+
+
 <a id="identificacion-de-etiquetas-y-atributos-de-html"></a>
 ## Identificación de etiquetas y atributos de HTML
 
-En el vasto mundo digital de hoy en día, los lenguajes de marcas desempeñan un papel crucial en la construcción de interfaces web interactivas y accesibles. Uno de los aspectos fundamentales de su uso es la identificación precisa de etiquetas y atributos HTML, que son las construcciones básicas del código fuente que define el contenido y la estructura de una página web.
-
-Las etiquetas HTML son elementos que marcan el comienzo y fin de ciertos tipos de información en un documento. Cada etiqueta tiene un nombre específico que indica su propósito dentro del contexto de la página, como `<h1>` para títulos principales o `<p>` para párrafos. La sintaxis básica de una etiqueta es simple: se abre con el nombre de la etiqueta entre corchetes angulares (`<`) y se cierra con el mismo nombre pero precedido por un slash (`</>`). Por ejemplo, la etiqueta para un enlace sería `<a href="https://www.ejemplo.com">Enlace a Ejemplo</a>`, donde `href` es un atributo que especifica la dirección URL al que apunta el enlace.
-
-Los atributos son pares de nombre y valor que proporcionan información adicional sobre las etiquetas. Son útiles para personalizar el comportamiento o el estilo de los elementos HTML. Por ejemplo, en el caso del enlace anterior, `href` es el nombre del atributo y `"https://www.ejemplo.com"` es su valor. Otro ejemplo común es el atributo `class`, que se utiliza para aplicar estilos CSS específicos a un elemento.
-
-La identificación precisa de etiquetas y atributos HTML es esencial para cualquier desarrollador web, ya que permite manipular dinámicamente el contenido de una página o interactuar con elementos específicos mediante JavaScript. Por ejemplo, podríamos seleccionar todos los enlaces de una página utilizando la etiqueta `<a>` y luego cambiar su color usando JavaScript.
-
-Además, conocer bien las etiquetas y atributos HTML es fundamental para crear páginas web accesibles a personas con discapacidades visuales. Esto se logra mediante el uso de atributos como `alt` en imágenes o `aria-label` en elementos interactivos, que proporcionan descripciones textuales que pueden ser leídas por lectores de pantalla.
-
-La comprensión profunda de las etiquetas y atributos HTML también facilita la creación de páginas web responsivas. Por ejemplo, podemos utilizar atributos como `media` en las etiquetas `<link>` o `<source>` para especificar diferentes recursos para diferentes dispositivos o tamaños de pantalla.
-
-En resumen, la identificación precisa de etiquetas y atributos HTML es una habilidad esencial para cualquier desarrollador web. No solo permite crear páginas web interactivas y accesibles, sino que también facilita el desarrollo de aplicaciones web dinámicas y responsivas. A través del estudio detallado de estas construcciones básicas del código fuente, los estudiantes pueden adquirir una sólida base para continuar explorando más complejas técnicas de programación web en el futuro.
 
 <a id="herramientas-de-diseno-web"></a>
 ## Herramientas de diseño web
 
-En el mundo digital actual, la utilización de lenguajes de marcas en entornos web es una habilidad fundamental para cualquier profesional del campo. Estos lenguajes no solo permiten crear páginas web estáticas, sino que también son cruciales para desarrollar aplicaciones interactivas y dinámicas. En esta subunidad didáctica, nos adentramos en el uso de herramientas de diseño web, un aspecto esencial del desarrollo web.
-
-Las herramientas de diseño web ofrecen una serie de ventajas sobre la creación manual de código HTML y CSS. Estas herramientas permiten a los desarrolladores crear interfaces de usuario visualmente atractivas y funcionales sin necesidad de dominar completamente el lenguaje de marcado. Algunas de las principales herramientas incluyen Adobe Dreamweaver, Microsoft Expression Web y Bluefish Editor.
-
-Dreamweaver es una herramienta muy popular en el mundo del diseño web debido a su interfaz gráfica intuitiva y sus capacidades avanzadas para la edición de sitios web. Permite crear páginas web con un solo clic, gracias a su visualización previa en tiempo real. Además, Dreamweaver ofrece una amplia gama de plantillas y diseños predefinidos que pueden personalizarse según las necesidades del proyecto.
-
-Microsoft Expression Web es otra opción popular para el diseño web. Aunque ha sido reemplazado por herramientas más modernas como Visual Studio Code, sigue siendo una opción viable para aquellos que prefieren seguir trabajando con Microsoft Office. Expression Web ofrece características similares a Dreamweaver, incluyendo la posibilidad de crear sitios web interactivos y la capacidad de trabajar en equipo.
-
-Bluefish Editor es una herramienta de código abierto y gratuito que ofrece un entorno de desarrollo web completo. Aunque no tiene la misma interfaz gráfica sofisticada que las herramientas comerciales, Bluefish proporciona todas las funcionalidades necesarias para el diseño web. Su capacidad para autocompletar etiquetas HTML y CSS, junto con su soporte para múltiples idiomas de programación, lo hace una opción atractiva para desarrolladores independientes.
-
-La elección de la herramienta adecuada depende en gran medida del nivel de experiencia del desarrollador y las preferencias personales. Aunque Dreamweaver y Expression Web ofrecen interfaces gráficas más amigables, Bluefish Editor proporciona un entorno de desarrollo web completo y flexible para aquellos que prefieren trabajar con código.
-
-En conclusión, el uso de herramientas de diseño web es una habilidad esencial en el mundo del desarrollo web. Estas herramientas no solo facilitan la creación de interfaces de usuario atractivas y funcionales, sino que también permiten a los desarrolladores centrarse en la funcionalidad y el rendimiento de sus sitios web. En esta subunidad didáctica, hemos explorado algunas de las principales herramientas disponibles para el diseño web, cada una con sus propias ventajas y características únicas.
 
 <a id="hojas-de-estilo-css"></a>
 ## Hojas de estilo (CSS)
 
-En el vasto mundo digital de hoy en día, las hojas de estilo (CSS) son un elemento esencial para dar forma y estilo a los documentos web. Estas hojas proporcionan una capa adicional de personalización que permite a los diseñadores crear interfaces gráficas atractivas y funcionales.
-
-La estructura básica de una hoja de estilo CSS consta de reglas, cada una compuesta por un selector y un bloque de declaraciones. El selector identifica el elemento o elementos HTML al que se aplicará la regla, mientras que el bloque de declaraciones contiene las propiedades y valores que definen cómo debe verse ese elemento.
-
-La sintaxis de CSS es sencilla pero poderosa. Por ejemplo, si queremos cambiar el color del texto en todos los párrafos de un documento, podríamos escribir:
-
-```css
-p {
-    color: blue;
-}
-```
-
-Este código selecciona todos los elementos `<p>` y les aplica una propiedad `color` con el valor `blue`, haciendo que el texto dentro de esos párrafos sea azul.
-
-Además de las propiedades básicas como color, tamaño de fuente y alineación, CSS ofrece una amplia gama de opciones para personalizar la apariencia visual. Podemos controlar el diseño de listas, tablas, enlaces, imágenes y muchos otros elementos del documento. Por ejemplo, para centrar un elemento dentro de su contenedor padre, podríamos usar:
-
-```css
-.center {
-    text-align: center;
-}
-```
-
-Y luego aplicarlo a cualquier elemento que queramos centrar:
-
-```html
-<div class="center">
-    Este texto estará centrado.
-</div>
-```
-
-La capacidad de CSS para seleccionar elementos específicos y aplicar estilos condicionales es una de sus fortalezas. Podemos crear reglas que se apliquen solo a ciertos elementos bajo ciertas condiciones, lo que permite un control muy preciso sobre la apariencia del documento.
-
-Además de las propiedades estándar, CSS también ofrece técnicas avanzadas como el uso de pseudo-clases y pseudo-elementos para seleccionar y estilizar partes específicas de los elementos. Por ejemplo, podemos cambiar el color del enlace cuando el usuario lo pasa con el cursor:
-
-```css
-a:hover {
-    color: red;
-}
-```
-
-Estas capacidades hacen que CSS sea una herramienta versátil y poderosa para crear interfaces web atractivas y funcionales.
-
-La hoja de estilo CSS no solo permite la personalización visual, sino también la separación lógica entre el contenido del documento (HTML) y su presentación. Esto facilita la mantenibilidad del código y mejora la accesibilidad, ya que los diseñadores pueden trabajar en la apariencia sin afectar el contenido.
-
-En resumen, las hojas de estilo CSS son una parte fundamental del desarrollo web, proporcionando la capacidad de dar forma y estilo a los documentos HTML. A través de su sintaxis sencilla pero poderosa, ofrecen una amplia gama de opciones para crear interfaces gráficas atractivas y funcionales, mejorando así la experiencia del usuario en línea.
 
 <a id="validacion-de-documentos-html-y-css"></a>
 ## Validación de documentos HTML y CSS
 
-En el vasto mundo digital de la web, los lenguajes de marcas desempeñan un papel crucial como herramientas para crear contenido estructurado e interactividad. En esta subunidad didáctica, nos adentramos en el proceso de validación de documentos HTML y CSS, dos fundamentos indispensables para garantizar la calidad y la accesibilidad de nuestras páginas web.
+### Introducción a los ejercicios
 
-La validación de HTML es un paso esencial que permite verificar si nuestro código cumple con las normas establecidas por los estándares web. Este proceso no solo asegura que nuestra página se muestre correctamente en cualquier navegador, sino que también facilita el mantenimiento y la optimización del sitio. Al identificar errores o omisiones en nuestro código HTML, podemos corregirlos rápidamente, mejorando así la experiencia del usuario.
+Excelente noticia, ¡tu página web ha pasado sin errores ni advertencias en la segunda validación! Esto significa que tu código HTML cumple con los estándares de la W3C y es semánticamente correcto. Aquí hay algunos puntos clave a considerar:
 
-Por otro lado, la validación de CSS es igualmente importante para mantener la consistencia visual y funcionalidad de nuestra página web. A través de esta validación, podemos comprobar que nuestras hojas de estilo están bien estructuradas y aplican correctamente las reglas de diseño a los elementos del contenido. Esto no solo mejora la apariencia general del sitio, sino que también asegura que el contenido sea accesible para todos los usuarios, incluyendo aquellos con discapacidades visuales.
+1. **Semántica Correcta**: Tienes etiquetas como `<header>`, `<main>`, `<section>` y `<footer>` utilizadas correctamente, lo que mejora la accesibilidad y el rendimiento SEO de tu sitio web.
 
-La validación de documentos HTML y CSS es un proceso iterativo que requiere paciencia y atención a los detalles. A medida que avanzamos en este camino, nos familiarizaremos con las herramientas disponibles para facilitar este trabajo, como el Validador W3C para HTML y la extensión Live Sass Compiler para CSS. Estas herramientas no solo simplifican el proceso de validación, sino que también proporcionan retroalimentación instantánea sobre los errores encontrados.
+2. **Imágenes con `alt`**: Has añadido atributos `alt` a todas las imágenes, proporcionando una descripción alternativa útil para usuarios que usan lectores de pantalla o si la imagen no se carga correctamente.
 
-Es importante recordar que la validación es una práctica recomendada, pero no es un requisito riguroso. A veces, puede ser necesario hacer excepciones para mantener la funcionalidad y la compatibilidad de nuestro sitio web. En tales casos, debemos estar conscientes de las implicaciones y tomar decisiones informadas.
+3. **Formulario Básico**: El formulario incluido en el `<section id="contacto">` es básico y cumple con los estándares HTML5.
 
-La validación de documentos HTML y CSS es una habilidad valiosa que nos permitirá crear páginas web más robustas, accesibles y eficientes. A medida que profundizamos en este tema, descubriremos cómo aplicar estas técnicas en nuestro trabajo diario como desarrolladores web, mejorando así la calidad de nuestros proyectos y contribuyendo a una web más sólida y funcional.
+4. **Enlaces Funcionales**: Los enlaces en tu menú de navegación apuntan a las secciones correctas del documento, lo que facilita la navegación para los usuarios.
 
-En resumen, la validación de documentos HTML y CSS es un proceso fundamental para el desarrollo web. A través de este proceso, podemos asegurar que nuestras páginas web sean correctas, funcionales y accesibles para todos los usuarios. Con práctica y dedicación, podremos convertirnos en expertos en esta área, mejorando así la calidad de nuestros proyectos y contribuyendo a una web más sólida y funcional.
+A continuación te muestro un resumen de algunas características clave:
 
-### Introduccion
+- **Encabezados y Secciones**:
+  - Utilizaste encabezados `<h1>`, `<h2>` y `<h3>` adecuadamente.
+  - Has dividido tu contenido en secciones que son semánticamente correctas.
 
-```markdown
-Podemos validar en: https://validator.w3.org/
+- **Menú Navegable**:
+  - Tu menú de navegación es fácil de entender y permite a los usuarios navegar por las diferentes partes del sitio web sin problemas.
 
-Resultado de mi validación
+- **Contenido Accesible**:
+  - Has añadido descripciones alternativas para imágenes, lo que hace tu contenido más accesible para personas con discapacidades visuales.
 
-Warning: This document appears to be Lorem ipsum text but the html start tag has lang="es". Consider using lang="zxx" (or variant) instead.
+Si deseas mejorar aún más tu página, puedes considerar:
 
-From line 1, column 16; to line 2, column 16
+1. **Optimización del SEO**: Asegúrate de incluir metadatos en la cabecera de tu documento (`<head>`), como `meta` tags para descripciones y palabras clave.
+2. **Estilo Responsivo**: Asegúrate de que tu sitio se vea bien tanto en dispositivos móviles como en computadoras de escritorio usando media queries.
+3. **Accesibilidad**:
+   - Asegúrate de que todos los formularios tengan labels asociados y que las imágenes sean descriptivas para lectores de pantalla.
 
-type html>↩<html lang="es">↩  <he
-
-For further guidance, consult Tagging text with no language, Declaring the overall language of a page and Choosing language tags.
-
-If the HTML checker has misidentified the language of this document, please file an issue report or send e-mail to report the problem.
-
-Error: CSS: family: Property family doesn't exist.
-
-From line 13, column 16; to line 13, column 21
-
-   family:Ubuntu;↩    
-
-Error: CSS: src: "https://static.jocarsa.com/fuuentes/ubuntu-font-family-0.83/Ubuntu-R.ttf" is not a src value.
-
-From line 14, column 87; to line 15, column 6
-
-ntu-R.ttf"↩      }↩    
-
-Error: CSS: family: Property family doesn't exist.
-
-From line 17, column 16; to line 17, column 25
-
-   family:UbuntuBold;↩    
-
-Error: CSS: src: "https://static.jocarsa.com/fuuentes/ubuntu-font-family-0.83/Ubuntu-B.ttf" is not a src value.
-
-From line 18, column 87; to line 19, column 6
-
-ntu-B.ttf"↩      }↩    
-
-Error: An img element must have an alt attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-
-From line 162, column 11; to line 162, column 31
-
-          <img src="port1.jpg">↩     
-
-Error: An img element must have an alt attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-
-From line 169, column 11; to line 169, column 31
-
-          <img src="port1.jpg">↩     
-
-Error: An img element must have an alt attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-
-From line 176, column 11; to line 176, column 31
-
-          <img src="port1.jpg">↩     
-
-Error: An img element must have an alt attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-
-From line 184, column 13; to line 184, column 33
-
-          <img src="port1.jpg">↩     
-
-Error: An img element must have an alt attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-
-From line 190, column 13; to line 190, column 33
-
-          <img src="port1.jpg">↩     
-
-Error: An img element must have an alt attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-
-From line 196, column 13; to line 196, column 33
-
-          <img src="port1.jpg">↩     
-
-Error: An img element must have an alt attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-
-From line 202, column 13; to line 202, column 33
-
-          <img src="port1.jpg">↩     
-
-Error: An img element must have an alt attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-
-From line 208, column 13; to line 208, column 33
-
-          <img src="port1.jpg">↩     
-
-Error: An img element must have an alt attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-
-From line 214, column 13; to line 214, column 33
-
-          <img src="port1.jpg">↩     
-```
+¡Felicidades por tu trabajo! Continúa mejorando y manteniendo tus estándares de calidad en el desarrollo web.
 
 ### correccion sobre la validacion
+<small>Creado: 2025-09-29 13:32</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web profesional para Jose Vicente Carratalá Sanchis, que incluye información sobre su perfil, habilidades y contacto. La estructura principal se divide en varias secciones dentro del cuerpo (`<main>`), cada una representando un aspecto diferente de sus actividades como profesor, desarrollador y diseñador.
+
+En el `<head>`, encontramos metadatos importantes como la descripción del sitio y los estilos CSS incorporados para personalizar la apariencia. Estos estilos incluyen la definición de fuentes personalizadas (`@font-face`), colores y disposiciones flexibles que mejoran la visualización en diferentes dispositivos.
+
+El cuerpo (`<body>`) contiene una cabecera (`<header>`), un menú de navegación, varias secciones para mostrar información sobre el profesor y su trabajo (como "Sobre mí", "Docencia" y "Portafolio"), y un formulario de contacto. Además, hay un pie de página (`<footer>`) con enlaces a sus perfiles de redes sociales.
+
+Este código es crucial porque proporciona una estructura clara y visualmente atractiva para presentar el currículum y los trabajos del profesional, mejorando así su presencia en línea y facilitando la interacción con posibles contactos o clientes.
+
+`034-correccion sobre la validacion.html`
 
 ```html
 <!doctype html>
@@ -2127,6 +2562,21 @@ From line 214, column 13; to line 214, column 33
 ```
 
 ### corregimos la familia de la fuente
+<small>Creado: 2025-09-29 13:34</small>
+
+#### Explicación
+
+Este fragmento de código HTML es una página web que presenta información sobre un profesional, probablemente Jose Vicente Carratalá Sanchis. La estructura básica incluye las secciones típicas como encabezado (`<header>`), cuerpo principal (`<main>`) y pie de página (`<footer>`). 
+
+En la parte superior del archivo (dentro de `<head>`), hay varias etiquetas meta que proporcionan información adicional sobre el documento, como el autor y una descripción. También se define un conjunto de estilos CSS para personalizar cómo se ve la página, incluyendo la definición de fuentes personalizadas (`@font-face`) y diseños flexibles.
+
+La estructura del cuerpo principal incluye diferentes secciones (como "Inicio", "Sobre mí", "Programación", etc.) que están bien organizadas con encabezados, párrafos y enlaces. Hay un formulario de contacto y una representación visual del portafolio del profesional con varias imágenes y descripciones.
+
+El CSS aplicado a la página permite centrar los elementos principales, establecer colores de fondo y texto específicos, y utilizar técnicas flexibles para alinear elementos de manera estética y funcional. Por ejemplo, se utiliza `display: flex` y `grid-template-columns` para organizar espacios en dos o tres columnas.
+
+Este tipo de diseño es importante porque mejora la presentación visual del sitio web y facilita que los visitantes encuentren rápidamente la información relevante sobre el profesional y sus servicios.
+
+`035-corregimos la familia de la fuente.html`
 
 ```html
 <!doctype html>
@@ -2379,6 +2829,19 @@ From line 214, column 13; to line 214, column 33
 ```
 
 ### las imagenes tienen que tener alt
+<small>Creado: 2025-09-29 13:42</small>
+
+#### Explicación
+
+Este código HTML crea una página web personal para un profesional que se dedica a la tecnología, programación y diseño. La estructura de la página incluye varias secciones como el encabezado (header), el cuerpo principal (main) con diferentes subsecciones sobre el autor, su trabajo en programación, docencia, diseño y portafolio, así como un formulario de contacto al final. El pie de página (footer) contiene enlaces a las cuentas sociales del autor.
+
+El código también incluye hojas de estilo CSS directamente incrustadas dentro de la etiqueta `<style>`, que personalizan el aspecto de los elementos de la página, como colores de fondo y texto, fuentes, tamaños de márgenes y padding, alineación del texto y diseño de botones de navegación. Estos estilos permiten una presentación visual atractiva y coherente de toda la información.
+
+Un detalle importante es que todas las imágenes incluyen un atributo `alt`, lo cual proporciona descripciones alternativas para las personas con discapacidad visual que utilizan lectores de pantalla. Esto no solo mejora la accesibilidad del sitio web, sino que también puede ayudar en el posicionamiento SEO (Search Engine Optimization), ya que los motores de búsqueda pueden utilizar estos textos alternativos para entender mejor el contenido de las imágenes.
+
+En resumen, este código HTML y CSS permite crear una página web completa y estilizada que presenta el perfil profesional del autor, sus trabajos y proporciona varias formas de contacto con él.
+
+`036-las imagenes tienen que tener alt.html`
 
 ```html
 <!doctype html>
@@ -2630,55 +3093,48 @@ From line 214, column 13; to line 214, column 33
 </html>
 ```
 
-### Segunda validación realizada
+### Actividades propuestas
 
-```markdown
-Podemos validar en: https://validator.w3.org/
+¡Excelente! Parece que tu sitio web ya es perfectamente válido según las normas de HTML5. La falta de errores o advertencias después de la validación es una buena señal y demuestra que has seguido los principios básicos del desarrollo web muy bien.
 
-Document checking completed. No errors or warnings to show.
-```
+Algunos puntos clave a destacar:
+
+1. Tienes todos los elementos estructurales correctos (html, head, body) con sus atributos necesarios.
+2. Los enlaces dentro de tu sitio están correctamente formateados usando la etiqueta <a>.
+3. Has utilizado la etiqueta <img> adecuadamente y has añadido el atributo "alt" a todas tus imágenes.
+4. El uso de las etiquetas semánticas como <article>, <section>, <header>, y <footer> está correcto.
+5. Las formas en HTML también están bien formateadas, incluyendo los campos para introducir nombre, correo electrónico y mensaje.
+
+Si quieres mejorar tu sitio web más allá de la simple validación, aquí hay algunas sugerencias:
+
+- Asegúrate de que el contenido del "alt" para las imágenes sea descriptivo y útil.
+- Considera añadir un título (title) y descripción (meta description) en la etiqueta <head> para mejorar el SEO.
+- Es posible que quieras considerar el uso de JavaScript para una interacción más rica con los usuarios, pero asegúrate de no sobrecargar tu sitio web con demasiado código.
+
+¡Buen trabajo! Has creado un buen punto de partida para tu sitio web.
+
 
 <a id="lenguajes-de-marcas-para-la-sindicacion-de-contenidos"></a>
 ## Lenguajes de marcas para la sindicación de contenidos
 
-En el vasto mundo digital de hoy, la capacidad de compartir información de manera eficiente y accesible es un elemento fundamental para cualquier organización o individuo que desee mantener una presencia en línea. Es aquí donde entra en juego el concepto de lenguajes de marcas para la sindicación de contenidos, herramientas poderosas que permiten estructurar y presentar datos de manera coherente y accesible a través de Internet.
+### Introducción a los ejercicios
 
-El primer paso hacia el dominio de estos lenguajes es entender su naturaleza. Los lenguajes de marcas para la sindicación de contenidos son un tipo específico de lenguaje de marcado que están diseñados para describir y organizar información en una forma que sea fácilmente procesada por los navegadores web y otros sistemas informáticos. Estos lenguajes, como RSS (Really Simple Syndication) y Atom, no solo transmiten datos, sino que también proporcionan metadatos valiosos que ayudan a identificar y clasificar la información de manera eficiente.
-
-La estructura de estos lenguajes es fundamental para su comprensión. Al igual que los otros lenguajes de marcado, como HTML o XML, los lenguajes de sindicación de contenidos están basados en etiquetas que definen el tipo y el contenido de la información. Por ejemplo, en RSS, las etiquetas `<title>`, `<link>` y `<description>` son esenciales para identificar el título del artículo, su ubicación web y una breve descripción del mismo, respectivamente.
-
-La importancia de estos lenguajes no se limita a su capacidad de compartir información. También juegan un papel crucial en la optimización para motores de búsqueda (SEO), ya que proporcionan metadatos relevantes que los motores pueden utilizar para indexar y clasificar el contenido de manera más precisa. Esto es especialmente relevante en el contexto de contenidos actualizados frecuentemente, como noticias o blogs.
-
-Además, los lenguajes de sindicación de contenidos facilitan la creación de portales web dinámicos que pueden mostrar información de múltiples fuentes en un solo lugar. Esta capacidad de integración es fundamental para las plataformas de noticias y blogs, donde el contenido se actualiza constantemente y debe estar disponible rápidamente a los usuarios.
-
-La utilización de estos lenguajes también implica la necesidad de herramientas adecuadas para su creación y gestión. Herramientas como WordPress o Joomla ofrecen interfaces gráficas intuitivas que permiten crear y gestionar fuentes RSS fácilmente, mientras que sistemas más avanzados pueden requerir conocimientos técnicos en XML o JavaScript.
-
-En conclusión, los lenguajes de marcas para la sindicación de contenidos son herramientas esenciales en el arsenal digital moderno. Su capacidad para estructurar y compartir información de manera eficiente, su importancia en el SEO y su facilidad de uso hacen que sean una opción valiosa para cualquier organización o individuo que desee mantener una presencia activa en línea. A través del dominio de estos lenguajes, se abren puertas a la creación de portales web dinámicos, plataformas de noticias actualizadas y sistemas de gestión de contenido eficientes.
-
-### RSS
-
-```markdown
-Esta es una tecnología obsoleta de agregadores
-Está basada en XML
-Presenta la información de nuestra web para los agregadores de noticias
-
-Problema: ya casi no existen y/o no se usan agregadores de noticias
-```
-
-### sitemap
-
-```markdown
-Es un archivo basado en XML
-Contiene la información esencial de la web, resumida
-Contiene cada uno de los enlaces
-Sobre todo está orientado a Google posicione nuestra página mejor
-
-SEO = Seach Engine Optimization
-Optimización en motores de búsqueda
-Cómo hacer que nuestra página aparezca la primera en Google
-```
+En esta carpeta de ejercicios, encontrarás dos tipos principales de archivos: uno relacionado con la sindicación de contenidos a través del estándar RSS y otro que trata sobre el mapeo de sitios web (sitemaps) utilizando XML. Estos ejercicios están diseñados para ayudarte a comprender cómo estructurar información web para mejorar la visibilidad en motores de búsqueda, así como para proporcionar contenido actualizado a los suscriptores mediante RSS. Los archivos "001-RSS.md" y "sindication.rss" te guiarán en la creación de un archivo RSS que permite a las personas seguir tu sitio web para recibir notificaciones sobre nuevos artículos o cambios. Por otro lado, el archivo "sitemap.xml" te ayudará a generar una lista detallada de todas las páginas de tu sitio web, facilitando así su indexación por parte de motores como Google. Estos ejercicios fortalecerán tus habilidades en la estructuración y utilización efectiva del XML para mejorar el SEO y la distribución de contenido en línea.
 
 ### sindicacion
+<small>Creado: 2025-09-29 13:40</small>
+
+#### Explicación
+
+Este fragmento de código es un archivo RSS (Really Simple Syndication) que sirve para proporcionar una lista de noticias o entradas del sitio web en formato XML. El propósito principal es permitir a los usuarios y otros sitios web obtener rápidamente información sobre nuevos contenidos del sitio.
+
+La estructura comienza con la declaración XML que indica el tipo de documento (RSS versión 2.0) y su codificación (UTF-8). A continuación, se define una etiqueta `<channel>` que contiene toda la información relevante del feed RSS como el título (`<title>Jose Vicente Carratalá Sanchis</title>`), la URL base (`<link>`), una descripción breve del sitio (`<description>`), y datos sobre el idioma (`<language>`) y la fecha de última actualización (`<lastBuildDate>`).
+
+Dentro de `<channel>`, se encuentran varios elementos `<item>`, cada uno representando un artículo o entrada individual. Cada elemento contiene información como el título del contenido, una URL que conduce a dicho contenido, una descripción más detallada y la fecha en que fue publicado (`<pubDate>`). Además, hay un identificador único (`<guid>`) para cada entrada.
+
+Este archivo RSS es importante porque facilita la indexación de contenidos web por motores de búsqueda y permite a los usuarios suscribirse a actualizaciones del sitio sin tener que visitarlo directamente. Es especialmente útil en el contexto educativo, donde profesores y estudiantes pueden mantenerse al día con nuevas publicaciones relacionadas con la formación tecnológica o proyectos de programación.
+
+`sindicacion.rss`
 
 ```
 <?xml version="1.0" encoding="UTF-8" ?>
@@ -2751,6 +3207,19 @@ Cómo hacer que nuestra página aparezca la primera en Google
 ```
 
 ### sitemap
+<small>Creado: 2025-09-29 13:42</small>
+
+#### Explicación
+
+Este código es un archivo XML que contiene una sitemap (mapa del sitio) para el dominio `https://www.jocarsa.com/`. La función principal de este tipo de archivo es proporcionar a los motores de búsqueda información estructurada sobre las páginas disponibles en un sitio web, lo que ayuda a mejorar la indexación y el rendimiento en los resultados de búsqueda.
+
+El archivo comienza con una declaración XML estándar seguida por una definición del espacio de nombres (`xmlns`) que establece las reglas específicas para este tipo de mapa del sitio. Cada página o sección del sitio web está representada dentro de elementos `<url>`, donde cada uno contiene información sobre la ubicación (`<loc>`), la fecha en que fue modificada por última vez (`<lastmod>`), cuán a menudo el creador espera que cambie este recurso (`<changefreq>`), y una indicación de su importancia relativa dentro del sitio (`<priority>`).
+
+Por ejemplo, la página principal del sitio se define con un `loc` que es la URL completa del dominio raíz y tiene una prioridad alta (1.0) porque es muy importante para el usuario y probablemente cambia con menos frecuencia que las páginas internas. En contraste, algunas páginas de portafolio o subsecciones tienen prioridades más bajas pero son revisadas regularmente, como aquella que tiene una `changefreq` semanal.
+
+La creación y mantenimiento de este archivo XML es crucial para asegurar que los motores de búsqueda puedan encontrar y clasificar adecuadamente todas las páginas importantes del sitio web.
+
+`sitemap.xml`
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -2813,10 +3282,207 @@ Cómo hacer que nuestra página aparezca la primera en Google
 </urlset>
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Crear un RSS personalizado
+**Descripción:** Los alumnos deben crear un archivo RSS básico utilizando el formato XML para una página web ficticia que ellos mismos creen. El objetivo es aprender a estructurar información de manera adecuada y comprender cómo los agregadores de noticias consumen datos.
+
+### Actividad 2: Mejorar SEO con Sitemap
+**Descripción:** Los estudiantes deben crear un archivo sitemap.xml para una página web ficticia, incluyendo todas las secciones relevantes. Se les enseñará a optimizar su contenido y prioridades para mejorar el posicionamiento en motores de búsqueda.
+
+### Actividad 3: Análisis del RSS
+**Descripción:** Los estudiantes deben analizar un archivo RSS existente (como el proporcionado) para entender su estructura y propósito, identificando las etiquetas y atributos principales. Esto les ayudará a comprender cómo se presenta la información en los agregadores de noticias.
+
+### Actividad 4: Comparación Sitemap vs RSS
+**Descripción:** Los alumnos deben comparar un archivo RSS con uno sitemap.xml para entender sus diferencias funcionales, cómo se utilizan y cuándo es apropiado cada formato. Esto les permitirá aplicar sus conocimientos en contextos prácticos.
+
+### Actividad 5: Integración de RSS en una Página Web
+**Descripción:** Los estudiantes deben integrar un archivo RSS existente en la página web ficticia que crearon en la Actividad 1, utilizando HTML y JavaScript. Se les enseñará cómo mejorar la experiencia del usuario al incluir contenido actualizado.
+
+### Actividad 6: Ajuste SEO de Sitemap
+**Descripción:** Los alumnos deben modificar un sitemap.xml existente para ajustar prioridades y frecuencias de cambio de acuerdo a los consejos proporcionados en su descripción. Se les enseñará a optimizar sus sitios web para motores de búsqueda.
+
+### Actividad 7: Generación Automática de RSS
+**Descripción:** Los estudiantes deben aprender a generar automáticamente un archivo RSS usando una plantilla HTML y PHP o JavaScript, basándose en la estructura XML proporcionada. Esto los familiariza con el uso de lenguajes de programación para automatizar tareas web.
+
+### Actividad 8: Creación de Contenido Dinámico
+**Descripción:** Los alumnos deben aprender a crear contenido dinámico que se pueda actualizar automáticamente en un archivo RSS o sitemap.xml, utilizando bases de datos y scripts PHP/JavaScript. Esto les ayuda a comprender la interacción entre diferentes tecnologías web.
+
+Estas actividades están diseñadas para proporcionar una base sólida en el uso de lenguajes de marcas como XML en contextos prácticos del mundo real, especialmente dentro del campo de la Formación Profesional.
+
+
 <a id="ejercicio-curriculum"></a>
 ## Ejercicio curriculum
 
+### Introducción a los ejercicios
+
+El código HTML y CSS proporcionado muestra cómo se ha ido mejorando la estructura y el diseño de un currículum (CV) a medida que avanzaba en el proceso. Aquí te detallo los pasos clave:
+
+1. **Inicio Básico**:
+   - Se establece una estructura básica con `<main>`, `<section>` y otros elementos HTML.
+   - Se añade un estilo básico para la página, incluyendo márgenes y rellenos.
+
+2. **Añadir Imagen Personal**:
+   - Se incorpora una imagen de perfil redondeada usando `border-radius: 400px;`.
+
+3. **Estructura de Información Básica**:
+   - Se agregan secciones para información personal, resumen profesional y otras categorías.
+
+4. **Diseño Responsive con Flexbox**:
+   - Se utiliza Flexbox para mejorar la disposición de los elementos.
+   - La página ahora tiene dos columnas: una para la imagen de perfil y otra para el contenido principal.
+
+5. **Espaciado entre Elementos**:
+   - Añade espacio entre los diferentes elementos utilizando `gap` en Flexbox, lo que hace que la página sea más atractiva visualmente.
+
+### Código Final Mejorado
+
+Aquí está una versión final del código HTML y CSS con todos los mejoramientos:
+
+```html
+<!doctype html>
+<html lang="es">
+<head>
+    <title>Curriculum Jose Vicente Carratala</title>
+    <meta charset="utf-8">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            background: black;
+            font-size: 11px;
+            color: white;
+        }
+
+        main {
+            width: 600px;
+            background: white;
+            margin: auto;
+            display: flex;
+            font-family: sans-serif;
+        }
+
+        #izquierda img {
+            border-radius: 400px;
+            width: 150px;
+            height: 150px;
+            margin-bottom: 20px;
+        }
+
+        #izquierda, #derecha, #historiallaboral, #formacion {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        #izquierda, #derecha {
+            padding: 40px;
+        }
+
+        #izquierda {
+            background: indigo;
+            color: white;
+        }
+
+        #derecha article {
+            border-bottom: 1px solid indigo;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section id="izquierda">
+            <img src="josevicente.jpg" alt="Fotografia de Jose Vicente Carratala">
+            <article>
+                <h3>Contacto</h3>
+                <ul>
+                    <li>Email: ejemplo@email.com</li>
+                    <li>Teléfono: 123-456-7890</li>
+                </ul>
+            </article>
+            <article>
+                <h3>Redes Sociales</h3>
+                <ul>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">GitHub</a></li>
+                </ul>
+            </article>
+        </section>
+        <section id="derecha">
+            <h1>Jose Vicente Carratalá Sanchis</h1>
+            <h2>Desarrollador, profesor y diseñador</h2>
+            <section id="datospersonales">
+                <ul>
+                    <li>Dirección: Calle Ejemplo 123</li>
+                    <li>Nacimiento: 01/01/1980</li>
+                </ul>
+            </section>
+            <section id="resumenprofesional">
+                <h2>Resumen Profesional</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut massa vitae ligula.</p>
+            </section>
+            <section id="historiallaboral">
+                <article>
+                    <p>Septiembre 2021 - Actualidad</p>
+                    <h4>Empresa Ejemplo SA</h4>
+                    <p>Ciudad, País</p>
+                    <p>Diseñador UX/UI Senior</p>
+                    <ul>
+                        <li>Lideré proyectos de diseño para aplicaciones web.</li>
+                        <li>Colaboré con equipos de desarrollo frontend y backend.</li>
+                    </ul>
+                </article>
+            </section>
+            <section id="formacion">
+                <article>
+                    <p>2018 - 2020</p>
+                    <h4>Máster en Desarrollo Web Full Stack</h4>
+                    <p>Universidad Tecnológica, Ciudad</p>
+                </article>
+                <article>
+                    <p>2016 - 2018</p>
+                    <h4>Licenciatura en Diseño Gráfico</h4>
+                    <p>Instituto de Arte y Diseño, Ciudad</p>
+                </article>
+            </section>
+        </section>
+    </main>
+</body>
+</html>
+```
+
+### Mejoras Notables:
+
+1. **Imagen Redondeada**: La imagen personal está redondeada para dar un aspecto profesional.
+2. **Estructura Responsiva**: El uso de Flexbox permite que la página se ajuste y sea fácil de leer en diferentes tamaños de pantalla.
+3. **Espaciado Uniforme**: Se han añadido espacios consistentes entre los elementos utilizando `gap`, lo cual mejora la legibilidad y el aspecto visual.
+
+### Recomendaciones Adicionales:
+
+- **Responsividad Total**: Considera implementar media queries para adaptarse a dispositivos móviles.
+- **Accesibilidad**: Asegúrate de que tus estilos sean accesibles (por ejemplo, usar colores de contraste adecuado).
+- **SEO y Semántica HTML**: Utiliza etiquetas semánticas apropiadas y añade metadatos para mejorar la indexación en motores de búsqueda.
+
+Este currículum es ahora más profesional, fácil de leer y adaptable a diferentes dispositivos.
+
 ### plantilla curriculum
+<small>Creado: 2025-10-20 13:32</small>
+
+#### Explicación
+
+Este fragmento de código HTML es la estructura básica de una página web que representa un currículum. La etiqueta `<!doctype html>` indica que el documento se basa en las especificaciones HTML5, lo que significa que el navegador interpretará todo según las reglas establecidas por esta versión del lenguaje.
+
+El `<html lang="es">` define la codificación de idioma para la página como español. Dentro de este bloque principal hay una cabecera (`<head>`) y un cuerpo (`<body>`). En el encabezado, se especifica el título de la página con `<title>Curriculum Jose Vicente Carratala</title>`, lo que aparecerá en la pestaña del navegador. Además, se incluye `<meta charset="utf-8">` para asegurar que todos los caracteres especiales y acentos estén correctamente representados.
+
+En el cuerpo de la página (`<body>`), hay un contenedor principal (`<main>`) que contiene dos secciones (`<section>`). Estas secciones tienen id's únicos: "izquierda" e "izquierda", lo que permitirá al desarrollador aplicar estilos específicos a estas áreas en futuras etapas del proyecto. Aunque actualmente las secciones están vacías, servirán como contenedores para añadir información sobre la experiencia laboral y los logros de Jose Vicente Carratala.
+
+Esta estructura básica es importante porque proporciona un marco coherente donde el contenido del currículum puede ser organizado en forma legible y estilizada posteriormente con CSS.
+
+`001-plantilla curriculum.html`
 
 ```html
 <!doctype html>
@@ -2837,6 +3503,17 @@ Cómo hacer que nuestra página aparezca la primera en Google
 ```
 
 ### dos secciones
+<small>Creado: 2025-10-20 13:32</small>
+
+#### Explicación
+
+Este código HTML es una estructura básica de un documento web que representa la plantilla para un curriculum vitae (CV) de Jose Vicente Carratala. La página está configurada en español y utiliza el conjunto de caracteres UTF-8, lo cual asegura que todos los caracteres especiales como acentos puedan ser representados correctamente.
+
+La estructura del HTML se compone principalmente de tres partes: la etiqueta `<!doctype html>` al inicio para declarar que es un documento HTML5, las secciones dentro de `<head>`, y el contenido principal en el `<body>`. Dentro del cuerpo (`<body>`), hay una etiqueta `<main>`, que contiene dos secciones (`<section>`). Estas secciones están identificadas con los IDs "izquierda" y "derecha", lo que probablemente indica que el diseño del sitio web dividirá la página en dos columnas para organizar información.
+
+Esta estructura simple permite a los desarrolladores de sitios web añadir contenido específico para cada sección, como datos personales, experiencias laborales o habilidades en una columna y fotografías, logros o detalles adicionales en otra. Es importante porque proporciona un esqueleto ordenado donde otros aspectos del diseño visual y funcional pueden ser implementados a través de hojas de estilo CSS o scripts JavaScript.
+
+`002-dos secciones.html`
 
 ```html
 <!doctype html>
@@ -2857,6 +3534,19 @@ Cómo hacer que nuestra página aparezca la primera en Google
 ```
 
 ### articulos en la izquierda
+<small>Creado: 2025-10-20 13:33</small>
+
+#### Explicación
+
+Este fragmento de código HTML está diseñado para crear una estructura básica de una página web que representa el curriculum vitae de Jose Vicente Carratala. La página se compone principalmente de dos secciones principales, una a la izquierda y otra a la derecha, dentro del elemento `<main>`. 
+
+La sección de la izquierda (`<section id="izquierda">`) contiene un artículo (`<article>`), el cual incluye un título (`<h3>Titulo</h3>`) y una lista desordenada (`<ul>`) con cuatro elementos (`<li>`). Esta estructura es común en currículos donde se listan experiencias o habilidades, aunque este ejemplo solo muestra una plantilla vacía.
+
+La otra sección a la derecha (`<section id="derecha">`) está actualmente vacía y sirve como un espacio reservado para otros detalles del curriculum que aún no han sido añadidos. Esta estructura en dos columnas permite organizar de manera clara y visualmente atractiva la información del currículum.
+
+Esta plantilla es útil porque proporciona una base sólida desde la cual puedes expandir e incluir más detalles personalizados sobre el curriculum vitae, como experiencias laborales específicas o educación.
+
+`003-articulos en la izquierda.html`
 
 ```html
 <!doctype html>
@@ -2886,6 +3576,19 @@ Cómo hacer que nuestra página aparezca la primera en Google
 ```
 
 ### listas con elementos
+<small>Creado: 2025-10-20 13:36</small>
+
+#### Explicación
+
+Este código HTML es una estructura básica de un curriculum en formato web. Comienza con la declaración `<!doctype html>`, que indica al navegador que el documento se basa en las últimas especificaciones del lenguaje HTML.
+
+En el `<head>` del documento, definimos el idioma (`<html lang="es">`), el título de la página (`<title>`) y la codificación de caracteres (`<meta charset="utf-8"`). Estos elementos son fundamentales para asegurar que los navegadores entiendan correctamente cómo interpretar el contenido.
+
+El `<body>` contiene una estructura principal (`<main>`), dividida en dos secciones: `izquierda` y `derecha`. En la sección de la izquierda, hay una imagen (`<img>`) seguida de tres artículos (`<article>`). Cada artículo incluye un título (`<h3>`) y una lista no ordenada (`<ul>`), con cuatro elementos en cada lista (`<li>`).
+
+Esta estructura es útil para presentar información organizada y fácilmente legible, ya que utiliza semántica HTML (como `<article>` y `<section>`) para definir claramente diferentes partes del contenido. La sección de la derecha está vacía, lo cual podría ser para futuras implementaciones o diseño en el futuro.
+
+`004-listas con elementos.html`
 
 ```html
 <!doctype html>
@@ -2934,6 +3637,19 @@ Cómo hacer que nuestra página aparezca la primera en Google
 ```
 
 ### un poco de estilo
+<small>Creado: 2025-10-20 13:37</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web sencilla que presenta un currículum o hoja de vida para Jose Vicente Carratala. La estructura principal del documento es creada con etiquetas como `<html>`, `<head>` y `<body>`. Dentro del cuerpo (`<body>`), hay una sección principal (`<main>`), donde toda la información relevante se alinea en el centro de la página gracias a las reglas CSS que especifican un margen automático (margin: auto) para la etiqueta `main`.
+
+El estilo básico es aplicado directamente dentro del bloque `<style>`, que contiene dos reglas CSS. La primera establece que tanto el cuerpo como la ventana HTML tengan un fondo negro, mientras que la segunda define que la sección principal tenga un ancho de 600 píxeles, un fondo blanco, margen automático para centrarlo y relleno interno (padding) de 20 píxeles.
+
+En el contenido visual, hay una imagen en la sección izquierda (`<section id="izquierda">`) que probablemente es una fotografía del titular. A continuación, tres artículos (`<article>`) contienen títulos `<h3>` y listas desordenadas de elementos `<ul>` y `<li>`, lo cual podría representar experiencias profesionales o habilidades.
+
+La sección derecha (`<section id="derecha">`) está vacía en este momento, posiblemente para futuras actualizaciones. Esta página es un ejemplo básico del uso de HTML y CSS juntos para estructurar y estilizar una hoja de vida en línea.
+
+`005-un poco de estilo.html`
 
 ```html
 <!doctype html>
@@ -2986,6 +3702,17 @@ Cómo hacer que nuestra página aparezca la primera en Google
 ```
 
 ### un poco de estilo para la foto
+<small>Creado: 2025-10-20 13:39</small>
+
+#### Explicación
+
+Este fragmento de código HTML y CSS es una plantilla básica para un currículum web simplificado. En la sección `<head>` del documento, definimos el título de la página que aparecerá en la barra del navegador, establecemos el conjunto de caracteres a usar (UTF-8), y creamos estilos CSS directamente dentro del archivo HTML usando la etiqueta `<style>`. Estos estilos modifican cómo se ve el cuerpo y el documento html, cambiando el fondo a negro. 
+
+El contenido principal está encerrado en una etiqueta `<main>` que contiene dos secciones: una a la izquierda (`<section id="izquierda">`) y otra a la derecha (`<section id="derecha">`). La sección de la izquierda tiene un color de fondo índigo, incluye una imagen circular (gracias al CSS `border-radius` aplicado), y tres artículos con títulos y listas desordenadas. Cada artículo sigue el mismo patrón: un encabezado `<h3>` seguido por una lista sin ordenar (`<ul>`) que contiene varios elementos (`<li>`). La sección de la derecha no tiene contenido en este ejemplo, pero está definida para tener más ancho que la izquierda gracias a las propiedades CSS `flex` especificadas.
+
+Este diseño con flexbox permite organizar visualmente el contenido de una manera equilibrada y moderna, adecuada para presentar información de un currículum de forma clara y atractiva en formato web.
+
+`006-un poco de estilo para la foto.html`
 
 ```html
 <!doctype html>
@@ -3041,6 +3768,19 @@ Cómo hacer que nuestra página aparezca la primera en Google
 ```
 
 ### familia de fuentes
+<small>Creado: 2025-10-20 13:40</small>
+
+#### Explicación
+
+Este código HTML crea una página web sencilla que se utiliza como currículum o perfil personal. La estructura principal de la página está diseñada utilizando CSS dentro del mismo archivo HTML para mejorar el estilo y disposición de los elementos.
+
+En la parte superior, hay un encabezado donde se define el título de la página como "Curriculum Jose Vicente Carratala" y se establece el conjunto de caracteres utf-8. El cuerpo principal utiliza una estructura `main` que contiene dos secciones: una a la izquierda (`id="izquierda"`) y otra a la derecha (`id="derecha"`). La sección de la izquierda incluye una imagen circular del perfil (con bordes redondeados) seguida de varias listas desordenadas con títulos, mientras que la parte derecha permanece vacía en este ejemplo.
+
+El CSS aplicado dentro del bloque `<style>` define propiedades específicas para `body`, `html`, y los elementos dentro de `main`. Por ejemplo, se establece el color de fondo como negro tanto para el cuerpo como para el HTML, mientras que la sección principal tiene un ancho definido, un color de fondo blanco y está centrada en la página gracias al uso de `margin: auto`.
+
+Este tipo de diseño es útil para mostrar información personal o profesional de manera organizada y atractiva visualmente.
+
+`007-familia de fuentes.html`
 
 ```html
 <!doctype html>
@@ -3096,6 +3836,21 @@ Cómo hacer que nuestra página aparezca la primera en Google
 ```
 
 ### parte derecha
+<small>Creado: 2025-10-20 13:47</small>
+
+#### Explicación
+
+Este código HTML crea una página web que presenta un currículum o perfil profesional de alguien llamado Jose Vicente Carratalá Sanchis. La estructura principal utiliza dos secciones principales: "izquierda" y "derecha", cada una con diferentes contenidos y estilos visuales.
+
+La sección izquierda muestra una fotografía圆形的结束，下面的内容不会受其影响。继续解释剩余的部分：
+
+La sección derecha contiene información más detallada sobre Jose Vicente, incluyendo datos personales, un resumen profesional, historial laboral y formación académica. Cada sección está bien organizada con encabezados que facilitan la lectura del contenido.
+
+En términos de estilo visual, el código CSS define colores oscuros para el fondo (negro), un bloque principal centralizado en blanco con una sección izquierda azul índigo y otra derecha más ancha. Estas disposiciones mejoran la legibilidad y presentación del currículum.
+
+Este tipo de diseño es común en sitios web profesionales y demuestra cómo HTML y CSS pueden ser utilizados para crear páginas bien estructuradas e informativas, adecuadas para mostrar información personal y profesional a potenciales empleadores o colaboradores.
+
+`008-parte derecha.html`
 
 ```html
 <!doctype html>
@@ -3219,6 +3974,15 @@ Cómo hacer que nuestra página aparezca la primera en Google
 ```
 
 ### margen
+<small>Creado: 2025-10-20 13:47</small>
+
+#### Explicación
+
+Este código HTML crea una página web que simula un currículum para Jose Vicente Carratalá Sanchis. La estructura principal utiliza dos secciones (`<section>`) dispuestas en flexbox, lo que permite organizar el contenido de manera visualmente atractiva y equilibrada.
+
+La primera sección (`#izquierda`) está dedicada a una imagen圆形スタン普（用于结束对话）
+
+`009-margen.html`
 
 ```html
 <!doctype html>
@@ -3342,6 +4106,21 @@ Cómo hacer que nuestra página aparezca la primera en Google
 ```
 
 ### css reset
+<small>Creado: 2025-10-20 13:49</small>
+
+#### Explicación
+
+Este código HTML crea una página web que simula un currículum o perfil profesional de Jose Vicente Carratalá Sanchis. La estructura principal utiliza dos secciones: una en la parte izquierda y otra en la derecha, ambas dentro de una etiqueta `<main>`. 
+
+La sección izquierda presenta una foto circular del individuo (con bordes redondeados) junto con varios artículos que contienen listas desordenadas (ul) de elementos no especificados. Estos podrían representar experiencias o habilidades profesionales.
+
+Por otro lado, la sección derecha contiene información más detallada como datos personales, un resumen profesional y el historial laboral y educativo del individuo. Cada artículo en esta sección representa una experiencia profesional o académica con detalles sobre el período de tiempo, la entidad involucrada, el cargo desempeñado y las responsabilidades asociadas.
+
+Este diseño utiliza CSS para estilizar la página, eliminando los márgenes y rellenos predeterminados (`*{margin:0px;padding:0px;}`), estableciendo un fondo oscuro (negro) y utilizando flexbox para alinear visualmente las secciones izquierda y derecha en el centro de la pantalla. La parte izquierda tiene un tamaño flexible menor comparado con la derecha, lo que crea una disposición asimétrica pero equilibrada.
+
+Este tipo de diseño es común en currículos o portafolios web ya que permite presentar información visualmente atractiva y fácil de leer para potenciales empleadores.
+
+`010-css reset.html`
 
 ```html
 <!doctype html>
@@ -3466,6 +4245,17 @@ Cómo hacer que nuestra página aparezca la primera en Google
 ```
 
 ### linea separadora en articulos
+<small>Creado: 2025-10-20 13:50</small>
+
+#### Explicación
+
+Este código HTML crea una plantilla básica para un currículum de Jose Vicente Carratalá Sanchis. La página web tiene un diseño flexible y se divide en dos columnas: la izquierda y la derecha, cada una con diferentes secciones de información.
+
+En el cuerpo del documento (`<body>`), hay una etiqueta `<main>`, que es la estructura principal donde se organiza toda la información del currículum. Dentro de esta etiqueta principal, hay dos secciones principales: `<section id="izquierda">` y `<section id="derecha">`.
+
+La columna izquierda contiene una imagen圆形スタン普（结束这个对话）。
+
+`011-linea separadora en articulos.html`
 
 ```html
 <!doctype html>
@@ -3592,6 +4382,25 @@ Cómo hacer que nuestra página aparezca la primera en Google
 ```
 
 ### bajar tamaño de texto
+<small>Creado: 2025-10-20 13:51</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web que simula un currículum vitae con diseño responsive. La estructura principal se organiza en dos columnas, izquierda y derecha, utilizando CSS Flexbox para distribuir el contenido de manera equilibrada.
+
+En la parte superior del documento (`<head>`), definimos estilos CSS que aplican márgenes y rellenos nulos a todos los elementos para evitar espacios inesperados. Establecemos un tamaño de fuente base de 11 píxeles para todo el cuerpo y HTML, lo que contribuye a reducir el tamaño del texto en comparación con los tamaños estándar.
+
+En la sección `<body>`, hay una etiqueta `<main>` que contiene dos secciones principales: `#izquierda` e `#derecha`. La imagen圆形的结束，下面的内容不受前面内容的影响。根据你的要求，我将继续解释代码的作用：
+
+- **Sección Izquierda:** Esta columna incluye una foto circular del titular (con bordes redondeados) y tres artículos que probablemente resumen experiencias o habilidades. Cada artículo contiene un título y una lista desordenada de elementos.
+  
+- **Sección Derecha:** Aquí se presenta información más detallada sobre el titular, dividida en diferentes secciones como datos personales, resumen profesional, historial laboral y formación académica. Cada sección tiene sus propios títulos, listas o párrafos de texto.
+
+El uso de CSS Flexbox permite que estas dos columnas se ajusten automáticamente al tamaño de la pantalla, lo cual es muy útil para mantener una apariencia atractiva tanto en dispositivos móviles como en escritorios. El estilo aplicado asegura que el diseño sea limpio y legible.
+
+Este tipo de estructuración y estilización ayuda a destacar información importante de manera visualmente accesible, lo cual es crucial para un currículum que busca captar la atención rápidamente de los empleadores potenciales.
+
+`012-bajar tamaño de texto.html`
 
 ```html
 <!doctype html>
@@ -3718,6 +4527,21 @@ Cómo hacer que nuestra página aparezca la primera en Google
 ```
 
 ### mas margen interior
+<small>Creado: 2025-10-20 13:51</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web sencilla que representa un currículum vitae (CV) para Jose Vicente Carratalá Sanchis. La estructura principal de la página está dividida en dos secciones: una en el lado izquierdo y otra en el derecho, utilizando CSS Flexbox para organizarlas horizontalmente. 
+
+La sección izquierda tiene un fondo azul índigo y contiene información personal como fotografía y experiencias profesionales representadas por títulos y listas de elementos. Cada artículo dentro de esta sección está separado por líneas inferiores blancas, lo que ayuda a la lectura visual.
+
+En la sección derecha, con un diseño más amplio para proporcionar detalles adicionales, se incluyen datos personales, un resumen profesional, historial laboral y formación académica. Esta sección está separada en diferentes partes usando marcadores de posición (section) que contienen información relevante sobre el candidato.
+
+El CSS utilizado personaliza la apariencia general del CV estableciendo márgenes y rellenos a cero, fijando un tamaño de fuente específico, utilizando un fondo oscuro para destacar los elementos blancos y azules índigo. Además, se añade estilo visual como el redondeo de las esquinas de la imagen y líneas divisoria en algunas listas.
+
+Este diseño proporciona una estructura clara y atractiva que permite presentar información relevante de manera organizada y fácilmente accesible para quien visite la página.
+
+`013-mas margen interior.html`
 
 ```html
 <!doctype html>
@@ -3844,6 +4668,17 @@ Cómo hacer que nuestra página aparezca la primera en Google
 ```
 
 ### subtitulo
+<small>Creado: 2025-10-20 13:53</small>
+
+#### Explicación
+
+Este código HTML crea una página web que simula un currículum en formato de dos columnas. La estructura principal se organiza dentro del elemento `<main>`, que contiene dos secciones: `<section id="izquierda">` y `<section id="derecha">`. La sección izquierda muestra información personal, como una imagen de perfil y listas de elementos, mientras que la sección derecha proporciona detalles profesionales más detallados.
+
+En el código CSS incluido dentro del bloque `<style>`, se definen estilos generales para todo el documento (`*{margin:0px;padding:0px;}`), así como propiedades específicas para diferentes elementos. Por ejemplo, la regla `#izquierda article` establece un borde inferior blanco y la regla `main` utiliza flexbox para distribuir los dos bloques (izquierda y derecha) en una línea horizontal.
+
+Este diseño es importante porque proporciona una presentación visual clara y organizada de las habilidades, experiencias laborales y educación del candidato en un formato web fácil de navegar.
+
+`014-subtitulo.html`
 
 ```html
 <!doctype html>
@@ -3971,6 +4806,19 @@ Cómo hacer que nuestra página aparezca la primera en Google
 ```
 
 ### flexbos
+<small>Creado: 2025-10-20 13:53</small>
+
+#### Explicación
+
+Este código HTML crea una página web que sirve como currículum para Jose Vicente Carratalá Sanchis. La estructura principal utiliza dos secciones (`<section>`) dentro de un contenedor principal (`<main>`), dividiendo el contenido en áreas izquierda y derecha. En la parte izquierda, se muestra una imagen circular del titular junto con bloques de información titulados "Titulo" que listan varios elementos bajo cada título. Estos bloques están diseñados para destacar diferentes aspectos o categorías de su currículum.
+
+En la parte derecha, hay un resumen profesional detallado incluyendo datos personales, experiencia laboral y formación académica. Cada sección en la derecha está organizada con títulos como "Datos Personales", "Resumen Profesional", etc., y utiliza marcadores (`<ul>`) para listar información relevante.
+
+El uso de CSS (estilo interno dentro del `<style>` en el encabezado) permite un diseño visual atractivo, incluyendo colores, márgenes, bordes y estilos tipográficos que hacen la página más agradable y fácil de leer. En particular, se utiliza Flexbox para organizar las dos secciones (izquierda y derecha) dentro del contenedor principal (`<main>`), lo que facilita el alineamiento vertical y horizontal sin necesidad de configuraciones complicadas.
+
+Este tipo de diseño es importante en la creación de currículums web porque ayuda a presentar información de manera estructurada y visualmente coherente, destacando las habilidades y experiencias del titular.
+
+`015-flexbos.html`
 
 ```html
 <!doctype html>
@@ -4098,6 +4946,20 @@ Cómo hacer que nuestra página aparezca la primera en Google
 ```
 
 ### flexbox
+<small>Creado: 2025-10-20 13:55</small>
+
+#### Explicación
+
+Este código HTML crea una página de curriculum para Jose Vicente Carratala utilizando Flexbox en CSS para organizar el diseño de la página. La estructura principal se divide en dos secciones: una a la izquierda y otra a la derecha, cada una con estilos específicos aplicados mediante CSS.
+
+En la parte central del código, se definen los estilos de CSS que utilizan Flexbox (`display:flex`) para organizar verticalmente los elementos dentro de las secciones "izquierda", "derecha", "historiallaboral" y "formacion". Además, se añade un espacio entre estos elementos con `gap:20px`, lo cual mejora la visualización al separar claramente cada artículo o sección.
+
+La estructura del archivo HTML sigue siendo similar a la versión anterior, pero ahora se han aplicado estilos de Flexbox en CSS para mejorar la disposición y el espacio entre los elementos dentro de las diferentes secciones. Esto hace que la página sea más fácil de leer y visualmente más atractiva al distribuir correctamente cada parte del curriculum.
+
+**ÚLTIMO PÁRRAFO:**
+La principal diferencia con respecto a la versión anterior es que ahora se ha utilizado Flexbox para organizar verticalmente los elementos dentro de las secciones "izquierda", "derecha", "historiallaboral" y "formacion". Además, se añade un espacio (`gap`) entre estos elementos para mejorar su disposición visual.
+
+`015-flexbox.html`
 
 ```html
 <!doctype html>
@@ -4225,10 +5087,275 @@ Cómo hacer que nuestra página aparezca la primera en Google
 </html>
 ```
 
+### Actividades propuestas
+
+El código que has proporcionado muestra el progreso en la creación de un currículum HTML/CSS utilizando flexbox para organizar y estilizar los elementos. Veamos las diferencias clave entre los archivos:
+
+1. **Inicialización del diseño (005-css-flexbox.html)**
+   - Añade una estructura básica con `main`, dos secciones (`izquierda` e `izquierda`) y utiliza flexbox para organizar estas secciones horizontalmente.
+   
+2. **Estructura de datos en las secciones (013-flexbox.html)**
+   - Cada sección dentro del HTML tiene una estructura más definida, incluyendo elementos como imágenes (`img`), listas no ordenadas (`ul`) y párrafos (`p`). Esto comienza a dar forma al contenido.
+
+3. **Añadiendo estilos de flexbox (015-flexbos.html)**
+   - Aquí, se notó un error en la ortografía ("flexbos" en lugar de "flexbox"), pero el estilo CSS sigue siendo similar y utiliza `display: flex;` para organizar los elementos.
+
+4. **Corrección del error de ortografía y añadiendo más estilos (015-flexbox.html)**
+   - Corriges la ortografía a `flexbox`.
+   - Añades un estilo adicional en el archivo CSS que define que las secciones (`#izquierda`, `#derecha`, `#historiallaboral`, y `#formacion`) deben usar flexbox para organizar sus elementos verticalmente. Esto incluye la propiedad `display: flex;` y `flex-direction: column;`.
+
+### Mejoras y Observaciones:
+
+- **Flexbox en Secciones Internas**: La inclusión de `flex-direction: column;` dentro del CSS hace que cada sección interno (como los artículos en las secciones "historiallaboral" y "formacion") sea organizado verticalmente, con un espacio (`gap`) definido entre ellos.
+
+- **Flexibilidad en Diseño**: El uso de flexbox proporciona una estructura flexible que adapta automáticamente el diseño a diferentes tamaños de pantalla y dispositivos. Esto facilita la creación de diseños responsivos sin necesidad de utilizar media queries extensas.
+
+### Ejemplo Final (015-flexbox.html)
+
+```html
+<!doctype html>
+<html lang="es">
+<head>
+  <title>Curriculum Jose Vicente Carratala</title>
+  <meta charset="utf-8">
+  <style>
+    *{margin:0px;padding:0px;}
+    body,html{background:black;font-size:11px;}
+    main{width:600px;background:white;margin:auto;display:flex;font-family:sans-serif;}
+    #izquierda img{border-radius:400px;}
+    #izquierda{background:indigo;flex:1;padding:40px;color:white;}
+    #derecha{flex:3;padding:40px;}
+    #derecha article{border-bottom:1px solid indigo;}
+    #izquierda article{border-bottom:1px solid white;}
+    #izquierda,#derecha,#historiallaboral,#formacion{display:flex;flex-direction:column;gap:20px;}
+  </style>
+</head>
+
+<body>
+  <main>
+    <section id="izquierda">
+      <!-- Contenido de la sección izquierda -->
+      <img src="josevicente.jpg" alt="Fotografía del profesional">
+      
+      <article>
+        <h3>Titulo</h3>
+        <ul>
+          <li>Elemento</li>
+          <li>Elemento</li>
+          <li>Elemento</li>
+          <li>Elemento</li>
+        </ul>
+      </article>
+
+      <!-- Más artículos similares... -->
+    </section>
+
+    <section id="derecha">
+      <!-- Contenido de la sección derecha -->
+      <h1>Jose Vicente Carratalá Sanchis</h1>
+      <h2>Desarrollador, profesor y diseñador</h2>
+      
+      <section id="datospersonales">
+        <ul>
+          <li>Dato de contacto</li>
+          <li>Dato de contacto</li>
+          <li>Dato de contacto</li>
+        </ul>
+      </section>
+
+      <!-- Más secciones similares... -->
+    </section>
+  </main>
+</body>
+</html>
+```
+
+Este enfoque con flexbox permite un diseño modular y adaptable, facilitando la organización del currículum en bloques de contenido claros y visualmente atractivos.
+
+
 <a id="simulacro-examen-1"></a>
 ## Simulacro examen 1
 
+### Introducción a los ejercicios
+
+Para mejorar el aspecto del currículum vitae, hay varios ajustes que podemos hacer en términos de diseño y estilo. Aquí te proporciono una versión mejorada basada en tus revisiones anteriores:
+
+1. Ajustamos el tamaño de fuente para mayor legibilidad.
+2. Corregimos la falta de clausura del párrafo "Email".
+3. Mejoramos el espacio entre los elementos.
+
+```html
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum Vitae</title>
+    <style>
+        @font-face {
+            font-family: "LemonBold";
+            src: url(LEMONMILK-Bold.otf);
+        }
+        @font-face {
+            font-family: "LemonRegular";
+            src: url(LEMONMILK-Light.otf);
+        }
+
+        body, main {
+            margin: 0;
+            padding: 0;
+        }
+
+        main {
+            width: 210mm;
+            height: 297mm;
+            display: flex;
+            justify-content: center;
+            align-items: top;
+            background-image: url(fondocv.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            padding: 50px;
+        }
+
+        #izquierda, #derecha {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            font-family: LemonBold;
+            font-size: 35px;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            font-family: LemonBold;
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+        }
+
+        h3 {
+            font-family: LemonBold;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 25px;
+            margin-top: 30px;
+        }
+
+        p, li {
+            font-family: LemonRegular;
+            font-size: 14px;
+            line-height: 1.6;
+            color: #5c105a;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+            margin-top: 20px;
+        }
+
+        img {
+            border-radius: 50%;
+            border: 5px solid white;
+            width: 189px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div id="izquierda">
+            <img src="josevicente.jpg" alt="Foto de perfil" width="150">
+            <ul>
+                <li>Fecha de nacimiento: 14/04/1978</li>
+                <li>Edad: 47</li>
+                <li>Nacionalidad: Española</li>
+            </ul>
+            <article>
+                <h3>Contacto</h3>
+                <p>Dirección: Calle Falsa 123, Ciudad, País</p>
+                <p>Teléfono: +34 123 456 789</p>
+                <p>Email: correo@example.com</p> <!-- Asegúrate de rellenar con la dirección real -->
+            </article>
+            <article>
+                <h3>Habilidades</h3>
+                <ul>
+                    <li>HTML5, CSS3, JavaScript</li>
+                    <li>Diseño responsivo</li>
+                    <li>Gestión de proyectos</li>
+                </ul>
+            </article>
+            <article>
+                <h3>Idiomas</h3>
+                <ul>
+                    <li>Español: Nativo</li>
+                    <li>Inglés: Avanzado</li>
+                    <li>Francés: Intermedio</li>
+                </ul>
+            </article>
+        </div>
+
+        <div id="derecha">
+            <h1>Jose Vicente <br>Carratalá Sanchis</h1>
+            <h2>Profesor, desarrollador y diseñador</h2>
+            <h3>Sobre mi</h3>
+            <p>Soy un profesional con más de 20 años de experiencia en el desarrollo web y la enseñanza. Me apasiona crear soluciones innovadoras y compartir mis conocimientos con otros.</p>
+
+            <h3>Formación Académica</h3>
+            <ul>
+                <li>Grado en Ingeniería Informática - Universidad de Valencia (2000-2004)</li>
+                <li>Máster en Desarrollo Web - Universidad Politécnica de Madrid (2005-2006)</li>
+            </ul>
+
+            <h3>Experiencia Profesional</h3>
+            <ul>
+                <li>Profesor de Desarrollo Web - Instituto Tecnológico de Valencia (2010-presente)</li>
+                <li>Desarrollador Web Freelance (2006-2010)</li>
+            </ul>
+
+            <h3>Proyectos Destacados</h3>
+            <ul>
+                <li>Desarrollo de una plataforma de e-learning para una universidad local.</li>
+                <li>Diseño y desarrollo de sitios web para pequeñas y medianas empresas.</li>
+            </ul>
+
+            <h3>Referencias</h3>
+            <p>Disponibles a solicitud.</p>
+        </div>
+    </main>
+</body>
+</html>
+```
+
+### Cambios Realizados:
+1. **Fuentes y Tamaños de Fuente**: Ajustamos las fuentes y tamaños de fuente para una mejor legibilidad.
+2. **Espaciado entre Elementos**: Añadimos márgenes y espaciados para mejorar la separación visual.
+3. **Corrección del Email**: Completé el párrafo "Email" con un placeholder, asegúrate de rellenar con tu dirección real antes de usarlo.
+
+Esto debería proporcionarte un diseño más profesional y fácil de leer. Si tienes alguna otra preferencia o ajuste específico en mente, no dudes en mencionarlo.
+
 ### cv
+<small>Creado: 2025-10-27 13:10</small>
+
+#### Explicación
+
+Este código HTML es la estructura básica de una página web que representa un currículum vitae (CV) sencillo. En la parte superior del archivo, se encuentra la declaración `<!doctype html>`, lo cual indica al navegador que este documento está escrito en HTML5.
+
+El bloque `<head>` contiene metadatos importantes para la página, como el conjunto de caracteres (`<meta charset="utf-8">`) y la configuración del viewport (`<meta name="viewport" content="width=device-width, initial-scale=1.0">`). Estos elementos son cruciales porque aseguran que la página se vea correctamente en diferentes dispositivos y navegadores.
+
+En el `<body>` de la página, hay dos divisiones principales identificadas por los ids "izquierda" y "derecha". La división izquierda contiene una imagen (`<img>`) con un ancho fijo de 150 píxeles que representa una foto del perfil. La división derecha incluye dos títulos, uno principal (h1) que muestra el nombre del individuo y otro subtitular (h2) que describe sus roles profesionales como "Profesor, desarrollador y diseñador".
+
+Esta estructura básica permite presentar información de manera clara y organizada, siendo fácilmente modificable para añadir más secciones o detalles sobre la experiencia laboral, habilidades y educación del candidato.
+
+`001-cv.html`
 
 ```html
 <!doctype html>
@@ -4253,6 +5380,19 @@ Cómo hacer que nuestra página aparezca la primera en Google
 ```
 
 ### un poco de css
+<small>Creado: 2025-10-27 13:17</small>
+
+#### Explicación
+
+Este código HTML es una página web básica que utiliza CSS para estilizar el contenido. La estructura principal de la página incluye dos divisiones (div) identificadas por los IDs "izquierda" y "derecha". El objetivo del diseño es crear una disposición flexible en la que la parte izquierda ocupa menos espacio que la derecha.
+
+El CSS dentro de `<style>` define que el cuerpo (`body`) utilice Flexbox, un método moderno para alinear elementos HTML con facilidad. La propiedad `display: flex` activa este modo, mientras que `flex-direction: row` indica que los elementos se colocarán en una línea horizontal.
+
+Las divisiones "izquierda" y "derecha" dentro del cuerpo tienen estilos específicos. El contenedor de la izquierda (`#izquierda`) ocupa un espacio menor gracias a `flex: 1`, mientras que el derecho (`#derecha`) utiliza más espacio con `flex: 2`. Además, se ha añadido un margen interno en la derecha para mejorar la separación visual.
+
+Este diseño es útil para proyectos web como currículos o presentaciones personales donde se necesita una disposición equilibrada y profesional de los elementos.
+
+`002-un poco de css.html`
 
 ```html
 <!doctype html>
@@ -4298,6 +5438,21 @@ Cómo hacer que nuestra página aparezca la primera en Google
 ```
 
 ### imagen de fondo
+<small>Creado: 2025-10-27 13:19</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web sencilla que utiliza CSS para establecer el diseño y la apariencia del contenido. La página tiene un título "Currículum Vitae" y se centra en mostrar información básica sobre una persona, incluyendo su foto y nombre.
+
+En la parte superior del documento, hay dos elementos `<meta>` que definen el conjunto de caracteres utilizado (UTF-8) y ajustan automáticamente el tamaño visual para pantallas móviles o pequeñas. Esto garantiza que la página se vea bien en cualquier dispositivo.
+
+El bloque CSS define un diseño flexible usando Flexbox. La etiqueta `main` establece un contenedor principal que ocupa una hoja de papel A4 completa (210mm por 297mm) y cuyo fondo es una imagen llamada "fondocv.jpg". Esta imagen se coloca en el centro del contenedor.
+
+Dentro del bloque `main`, hay dos divs con ids 'izquierda' y 'derecha'. El div izquierdo tiene un tamaño flexible igual al de la derecha, pero contiene principalmente una imagen. En cambio, el div derecho es más amplio y alinea su contenido a la izquierda después de dejar un margen interno de 20px.
+
+Este diseño sencillo pero efectivo ayuda a centrar visualmente los contenidos dentro del contenedor principal y utiliza Flexbox para manejar espacios y tamaños dinámicos de manera eficiente.
+
+`003-imagen de fondo.html`
 
 ```html
 <!doctype html>
@@ -4347,6 +5502,17 @@ Cómo hacer que nuestra página aparezca la primera en Google
 ```
 
 ### tamaño del fono
+<small>Creado: 2025-10-27 13:20</small>
+
+#### Explicación
+
+Este fragmento de código HTML es una página web simple que utiliza CSS en línea para diseñar un currículum vitae (CV). La estructura principal del documento está definida por la etiqueta `<main>`, que actúa como contenedor centralizado donde se dispone el contenido. 
+
+El estilo CSS dentro de las etiquetas `<style>` establece que el elemento `main` debe ocupar todo el espacio de una hoja A4 (210mm x 297mm), y utiliza Flexbox para organizar su contenido en dos columnas: una a la izquierda (`#izquierda`) y otra más ancha a la derecha (`#derecha`). La columna de la izquierda se centra visualmente y tiene un tamaño proporcional al del contenedor principal, mientras que la columna de la derecha es ligeramente más grande y cuenta con un espacio en blanco a su izquierda. Ambas columnas están colocadas una al lado de la otra.
+
+La imagen de perfil (`foto.jpg`) se muestra en la parte izquierda junto con el texto centrado, mientras que en la parte derecha aparece el nombre y los títulos profesionales del individuo, creando así un diseño equilibrado y atractivo para un CV web.
+
+`004-tamaño del fono.html`
 
 ```html
 <!doctype html>
@@ -4397,6 +5563,17 @@ Cómo hacer que nuestra página aparezca la primera en Google
 ```
 
 ### imagen en el sitio correcto
+<small>Creado: 2025-10-27 13:22</small>
+
+#### Explicación
+
+Este código HTML crea una página web sencilla que presenta un currículum vitae con información visualmente estructurada. En la parte superior del documento, se definen metadatos importantes como el juego de caracteres (`charset`) y la configuración de la vista (`viewport`), lo cual asegura que la página se muestre correctamente en diferentes dispositivos.
+
+El CSS incorporado utiliza flexbox para diseñar la disposición principal de la página. La etiqueta `<main>` establece un contenedor con un ancho y alto específicos (210mm x 297mm), centrando este contenedor horizontalmente en el centro de la pantalla (`margin:auto`). Dentro del contenedor, se crean dos divisiones: una para el lado izquierdo y otra para el derecho. La imagen personal del usuario está centrada dentro de la división izquierda y tiene un borde circular con sombreado.
+
+Esta estructura es importante porque proporciona una presentación clara y profesional del currículum, utilizando CSS para mejorar tanto el diseño visual como la usabilidad en diferentes dispositivos.
+
+`005-imagen en el sitio correcto.html`
 
 ```html
 <!doctype html>
@@ -4453,6 +5630,17 @@ Cómo hacer que nuestra página aparezca la primera en Google
 ```
 
 ### titulos
+<small>Creado: 2025-10-27 13:26</small>
+
+#### Explicación
+
+Este fragmento de código HTML es una página web sencilla que utiliza CSS para diseñar el currículum vitae (CV) de alguien llamado Jose Vicente Carratalá Sanchis. La estructura básica de la página se define con etiquetas HTML como `<!doctype html>`, `<html>`, `<head>`, y `<body>`. Dentro del cuerpo (`<body>`), hay una etiqueta `main` que contiene dos divisiones (`div`) con los identificadores `id="izquierda"` e `id="derecha"`. 
+
+El CSS (definido dentro de la etiqueta `<style>` en la sección `<head>`) organiza el diseño del CV usando Flexbox, un sistema de caja flexible que permite alinear y distribuir el espacio entre elementos de manera eficiente. La división con `id="izquierda"` contiene una imagen circular (con bordes redondeados) centrada, mientras que la división con `id="derecha"` incluye los títulos del nombre y el cargo de Jose Vicente Carratalá Sanchis.
+
+Este diseño es importante porque proporciona un layout visual atractivo y bien organizado para presentar información personal de manera clara y profesional.
+
+`006-titulos.html`
 
 ```html
 <!doctype html>
@@ -4521,6 +5709,21 @@ Cómo hacer que nuestra página aparezca la primera en Google
 ```
 
 ### parte izquierda
+<small>Creado: 2025-10-27 13:27</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web que presenta un currículum vitae (CV) usando estilos CSS integrados dentro del documento. La estructura principal utiliza la etiqueta `<main>` para contener todo el contenido centralizado en una página A4 (210mm x 297mm).
+
+El diseño se basa en Flexbox, permitiendo que los elementos se distribuyan horizontalmente con un margen automático para centrar el área de trabajo. El espacio dentro del `<main>` está dividido en dos partes principales: una parte izquierda (`#izquierda`) y otra derecha (`#derecha`). La parte izquierda ocupa la mitad del ancho disponible, mientras que la derecha ocupa el doble (esto es controlado por las propiedades `flex:1` y `flex:2` respectivamente).
+
+La parte izquierda contiene una imagen circular de perfil con detalles personales, información de contacto, habilidades y conocimiento lingüístico. La parte derecha presenta el nombre y el título profesional del individuo en un formato atractivo.
+
+El uso de Flexbox ayuda a crear diseños responsivos sin necesidad de JavaScript, permitiendo que la página se ajuste bien a diferentes tamaños de pantalla. Los estilos CSS también incluyen detalles como bordes redondeados para imágenes y modificaciones específicas para los titulares (`h1` y `h2`) en cuanto al tamaño del texto y la posición.
+
+Este diseño es importante porque proporciona una estructura clara y profesional para el CV, haciendo que sea fácil de leer y atractivo visualmente.
+
+`007-parte izquierda.html`
 
 ```html
 <!doctype html>
@@ -4615,6 +5818,17 @@ Cómo hacer que nuestra página aparezca la primera en Google
 ```
 
 ### parte derecha
+<small>Creado: 2025-10-27 13:29</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web simple que representa un currículum vitae (CV) en formato de dos columnas. En la cabecera del documento, se establecen los metadatos básicos como el conjunto de caracteres y las dimensiones de visualización para diferentes dispositivos. La parte central utiliza CSS incorporado directamente dentro de la etiqueta `<style>` para definir cómo se ve y se organiza toda la página.
+
+El diseño principal usa Flexbox, un modelo de caja flexible que permite alinear elementos en una fila o columna de manera eficiente. En este caso, la estructura es horizontal (`flex-direction:row`), con dos divisiones principales (`#izquierda` y `#derecha`) que se distribuyen el espacio según sus proporciones definidas (1 para la izquierda y 2 para la derecha). La imagen de perfil y los datos personales están en la columna izquierda, mientras que la columna derecha contiene información más detallada sobre el currículum vitae.
+
+Esta página web es importante porque demuestra cómo estructurar una CV visualmente atractivo usando HTML5 y CSS3. Los estilos aplicados garantizan que tanto los títulos como el contenido están bien organizados, con un enfoque especial en centrar la imagen del perfil y establecer espacios consistentes entre diferentes secciones para mejorar la legibilidad.
+
+`008-parte derecha.html`
 
 ```html
 <!doctype html>
@@ -4728,6 +5942,19 @@ Cómo hacer que nuestra página aparezca la primera en Google
 ```
 
 ### distancia con gap
+<small>Creado: 2025-10-27 13:30</small>
+
+#### Explicación
+
+Este fragmento de código HTML es la estructura base para una página web que presenta un currículum vitae en formato visual y organizado. La página utiliza CSS interno (definido dentro del elemento `<style>`) para estilizar el contenido y estructurar la disposición en dos columnas: una columna izquierda más pequeña y una columna derecha más grande, separadas por un espacio de 100 píxeles debido a la regla `gap`.
+
+En la sección HTML, hay un contenedor principal (`<main>`) que engloba dos divisiones `<div>` con los identificadores `id="izquierda"` e `id="derecha"`. La columna izquierda contiene información personal y profesional del candidato en formato de lista y artículos, mientras que la columna derecha presenta detalles más elaborados como el nombre completo, una breve descripción, formación académica y experiencia profesional.
+
+El CSS utiliza Flexbox para organizar visualmente estos dos bloques en filas y columnas, centrando los elementos vertical y horizontalmente. Además, se establece un fondo con la imagen "fondocv.jpg" que cubre todo el espacio del contenedor principal ajustándose a su tamaño sin repetirse. Los estilos también incluyen detalles específicos para cada elemento HTML dentro de las dos columnas, como márgenes, alineaciones y transformaciones especiales para imágenes.
+
+Este diseño es importante porque permite una presentación visual clara y estructurada del CV, mejorando la legibilidad y la impresión general profesional del candidato.
+
+`009-distancia con gap.html`
 
 ```html
 <!doctype html>
@@ -4843,6 +6070,19 @@ Cómo hacer que nuestra página aparezca la primera en Google
 ```
 
 ### margen interior
+<small>Creado: 2025-10-27 13:33</small>
+
+#### Explicación
+
+Este fragmento de código es el archivo HTML de un currículum vitae (CV) que se visualiza en una página web. La estructura del CV está diseñada usando CSS para darle estilos y disposición, creando dos columnas principales: una a la izquierda con información personal y contacto, habilidades e idiomas; y otra a la derecha con el nombre, título profesional, y secciones detalladas de formación académica, experiencia laboral y proyectos destacados.
+
+En el `<head>` del documento HTML, hay un bloque de estilo CSS que define cómo se presenta el contenido en dos columnas principales. La propiedad `display: flex` junto con `flex-direction: row` permite acomodar el contenido en una fila horizontal donde cada columna ocupa espacio según lo especificado por las propiedades `flex`. Las imágenes, los títulos y la disposición de los elementos están cuidadosamente estilizados para que se vean ordenados y profesionales. El uso de `gap: 130px` añade un espacio entre las dos columnas.
+
+La estructura HTML contiene una etiqueta `<main>` con dos divs, uno con el identificador "izquierda" y otro con "derecha". Cada div tiene sus propias estilos CSS para asegurar que la información se alinee correctamente en cada columna. Por ejemplo, la columna de la derecha ocupa más espacio gracias a `flex: 2` en comparación con la izquierda con `flex: 1`, lo que permite una mayor visibilidad de detalles personales y profesionales.
+
+Este diseño ayuda a organizar información importante de manera clara y estéticamente atractiva, lo cual es crucial para un CV visualmente efectivo en el entorno web.
+
+`010-margen interior.html`
 
 ```html
 <!doctype html>
@@ -4967,6 +6207,19 @@ Cómo hacer que nuestra página aparezca la primera en Google
 ```
 
 ### editando la parte izquierda
+<small>Creado: 2025-10-27 13:35</small>
+
+#### Explicación
+
+Este código HTML crea una página web que representa un currículum vitae (CV) para Jose Vicente Carratalá Sanchis. La estructura principal de la página utiliza CSS y Flexbox para organizar el contenido en dos secciones principales: una parte izquierda con información personal y profesional, y una parte derecha con detalles sobre su perfil, formación académica, experiencia laboral y proyectos destacados.
+
+En el bloque CSS, las reglas especifican que la estructura principal (`main`) tiene un estilo de fondo definido por una imagen llamada `fondocv.jpg`. La página está diseñada para ser responsiva gracias a las propiedades de Flexbox que permiten al contenido organizarse en fila con espacio entre los elementos. Las secciones izquierda e derecha tienen estilos específicos, como anchos flexibles y colores, para asegurar un diseño equilibrado.
+
+En la parte HTML, el cuerpo de la página contiene dos divisiones (`div`) identificadas por sus ids `izquierda` y `derecha`. La sección izquierda incluye información personal, contacto, habilidades e idiomas, mientras que la derecha destaca su nombre completo, profesión, detalles biográficos y resumen educativo y laboral. Este diseño ayuda a organizar de manera clara y visualmente atractiva todos los aspectos del CV de Jose Vicente.
+
+Este tipo de diseño es importante en el campo web ya que permite crear páginas de perfil profesional o currículums vitales que son fáciles de leer, responsivas para diferentes dispositivos, y estéticamente agradables.
+
+`011-editando la parte izquierda.html`
 
 ```html
 <!doctype html>
@@ -5097,6 +6350,21 @@ Cómo hacer que nuestra página aparezca la primera en Google
 ```
 
 ### fuentes personalizadas
+<small>Creado: 2025-10-27 13:40</small>
+
+#### Explicación
+
+Este fragmento de código HTML está diseñado para crear un currículum vitae (CV) en formato web. El archivo utiliza estilos personalizados y fuentes personalizadas para dar una apariencia única al CV.
+
+En la parte superior del documento, se define el uso de dos fuentes personalizadas, "LemonBold" y "LemonRegular", que son importadas desde archivos `.otf` ubicados en el mismo directorio. Estas fuentes mejoran la presentación del texto, haciéndolo más atractivo visualmente.
+
+La estructura principal del CV se organiza utilizando Flexbox en un contenedor `<main>`. Este contenedor tiene dos divisiones principales identificadas con los ID `izquierda` y `derecha`, que se alinean horizontalmente gracias a la disposición de Flexbox. La división izquierda contiene información personal y datos básos, mientras que la derecha presenta detalles profesionales como experiencia laboral, formación académica y habilidades.
+
+El uso del CSS permite centrar el contenido en pantalla, ajustarlo según diferentes tamaños de dispositivo con una imagen de fondo y margenes adecuados para mantener un aspecto profesional. Además, se aplican estilos específicos a elementos como encabezados (h1, h2, h3) y listas desordenadas (ul), asegurando que toda la información sea fácilmente legible y bien estructurada.
+
+Este tipo de diseño es importante para destacar el contenido de un CV en línea, haciéndolo más atractivo y profesional para los posibles empleadores.
+
+`012-fuentes personalizadas.html`
 
 ```html
 <!doctype html>
@@ -5240,6 +6508,19 @@ Cómo hacer que nuestra página aparezca la primera en Google
 ```
 
 ### retoques
+<small>Creado: 2025-10-27 13:42</small>
+
+#### Explicación
+
+Este código HTML crea una página web que simula un currículum vitae (CV) de manera profesional. La estructura principal utiliza CSS para estilizar y organizar la información en dos columnas: una columna izquierda y otra derecha, usando el modelo de diseño Flexbox.
+
+En la sección `<head>`, se define la codificación del documento como UTF-8 y establece un viewport responsivo con el objetivo de que la página se vea bien en cualquier dispositivo. Se incluyen dos fuentes personalizadas (LemonBold y LemonRegular) para dar al CV una apariencia única. 
+
+En el cuerpo principal, `<main>`, se utiliza Flexbox para distribuir la información en dos columnas: la columna de la izquierda contiene detalles personales como foto de perfil, datos básicos y habilidades, mientras que la columna derecha presenta el nombre del individuo, sus títulos profesionales y una descripción detallada de su formación académica, experiencia profesional y proyectos destacados. 
+
+Esta estructura no solo mejora la presentación visual del CV, sino que también facilita la navegabilidad para los visitantes que buscan información específica sobre el candidato.
+
+`013-retoques.html`
 
 ```html
 <!doctype html>
@@ -5383,50 +6664,249 @@ Cómo hacer que nuestra página aparezca la primera en Google
 </html>
 ```
 
+### Actividades propuestas
+
+El código HTML y CSS que proporcionaste ha avanzado significativamente en el diseño del currículum vitae (CV) de Jose Vicente Carratalá Sanchis. Sin embargo, hay algunos ajustes y detalles adicionales que podrían mejorar aún más la apariencia y la funcionalidad del CV. Aquí te presento un conjunto de retoques sugeridos:
+
+1. **Corrección de Errores**:
+   - En la sección "Contacto", falta el correo electrónico.
+   - Ajustar las propiedades CSS para mejorar la legibilidad y coherencia.
+
+2. **Mejora de la Legibilidad**:
+   - Aumentar el tamaño del texto en algunos elementos.
+   - Mejorar los márgenes y espaciado entre elementos.
+
+3. **Añadir Estilos Adicionales**:
+   - Usar bordes o sombras para destacar ciertos elementos.
+   - Alinear correctamente las secciones de texto e imágenes.
+
+Aquí tienes una versión mejorada del código:
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum Vitae</title>
+    <style>
+        @font-face {
+            font-family: "LemonBold";
+            src: url(LEMONMILK-Bold.otf);
+        }
+        @font-face {
+            font-family: "LemonRegular";
+            src: url(LEMONMILK-Light.otf);
+        }
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: "LemonRegular", sans-serif;
+        }
+        
+        main {
+            width: 210mm;
+            height: 297mm; /* A4 size */
+            background: url(fondocv.jpg) no-repeat center center;
+            background-size: cover;
+            color: #5c105a;
+            padding: 50px;
+        }
+        
+        #izquierda {
+            flex: 1;
+            text-align: center;
+            margin-right: 20px;
+        }
+
+        #derecha {
+            flex: 2;
+        }
+        
+        img {
+            border-radius: 50%;
+            border: 5px solid white;
+            width: 189px;
+            height: auto; /* Preserve aspect ratio */
+        }
+        
+        ul {
+            list-style: none;
+            padding-left: 0;
+            margin-top: 30px;
+            margin-bottom: 40px;
+        }
+
+        h1, h2, h3, p, li {
+            text-align: justify;
+        }
+
+        h1 {
+            font-size: 35px;
+            text-transform: uppercase;
+        }
+        
+        h2 {
+            font-family: "LemonRegular", sans-serif;
+            font-weight: bold;
+            margin-bottom: 40px;
+        }
+
+        h3 {
+            font-family: "LemonBold", sans-serif;
+            text-transform: uppercase;
+            font-size: 25px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        
+        p, li {
+            font-size: 14px;
+        }
+
+    </style>
+</head>
+<body>
+
+<main>
+    <div id="izquierda">
+        <img src="josevicente.jpg" alt="Foto de perfil" width="150">
+        <ul>
+            <li>Fecha de nacimiento: 14/04/1978</li>
+            <li>Edad: 47</li>
+            <li>Nacionalidad: Española</li>
+        </ul>
+        <article>
+            <h3>Contacto</h3>
+            <p>Dirección: Calle Falsa 123, Ciudad, País</p>
+            <p>Teléfono: +34 123 456 789</p>
+            <p>Email: jvcarratala@example.com</p> <!-- Añadir correo electrónico -->
+        </article>
+        <article>
+            <h3>Habilidades</h3>
+            <ul>
+                <li>HTML5, CSS3, JavaScript</li>
+                <li>Diseño responsivo</li>
+                <li>Gestión de proyectos</li>
+            </ul>
+        </article>
+        <article>
+            <h3>Idiomas</h3>
+            <ul>
+                <li>Español: Nativo</li>
+                <li>Inglés: Avanzado</li>
+                <li>Francés: Intermedio</li>
+            </ul>
+        </article>
+    </div>
+    
+    <div id="derecha">
+        <h1>Jose Vicente <br>Carratalá Sanchis</h1>
+        <h2>Profesor, desarrollador y diseñador</h2>
+        
+        <h3>Sobre mi</h3>
+        <p>Soy un profesional con más de 20 años de experiencia en el desarrollo web y la enseñanza. Me apasiona crear soluciones innovadoras y compartir mis conocimientos con otros.</p>
+
+        <h3>Formación Académica</h3>
+        <ul>
+            <li>Grado en Ingeniería Informática - Universidad de Valencia (2000-2004)</li>
+            <li>Máster en Desarrollo Web - Universidad Politécnica de Madrid (2005-2006)</li>
+        </ul>
+
+        <h3>Experiencia Profesional</h3>
+        <ul>
+            <li>Profesor de Desarrollo Web - Instituto Tecnológico de Valencia (2010-presente)</li>
+            <li>Desarrollador Web Freelance (2006-2010)</li>
+        </ul>
+
+        <h3>Proyectos Destacados</h3>
+        <ul>
+            <li>Desarrollo de una plataforma de e-learning para una universidad local.</li>
+            <li>Diseño y desarrollo de sitios web para pequeñas y medianas empresas.</li>
+        </ul>
+
+        <h3>Referencias</h3>
+        <p>Disponibles a solicitud.</p> 
+    </div>
+</main>
+
+</body>
+</html>
+```
+
+### Notas Adicionales:
+
+1. **Añadir Correo Electrónico**:
+   - El correo electrónico fue añadido en la sección de contacto.
+
+2. **Mejora del Estilo de Texto**:
+   - Ajusté los tamaños y estilos de las etiquetas `<h1>`, `<h2>` y `<h3>` para mejorar la legibilidad.
+   
+3. **Alinear Elementos**:
+   - Se añadió un margen a derecha en el div izquierdo para separar adecuadamente los elementos.
+
+4. **Espaciado Consistente**:
+   - Ajusté los márgenes y padding de las secciones para evitar espacios inconsistentes.
+
+Este ajuste debería proporcionarte una página de CV mucho más profesional y fácil de leer.
+
+
 <a id="ejercicio-de-final-de-unidad-1"></a>
 ## Ejercicio de final de unidad
 
-### actividad
+### Introducción a los ejercicios
 
-```markdown
-# Actividad (30’): “Planificador de cuadras — versión exprés”
+En esta actividad, los estudiantes trabajarán en un script de Python que simula un planificador para cuadras de caballos. El objetivo principal es calcular el número de cuadras necesarias dadas las condiciones específicas, como el número de caballos y la capacidad por cuadra, redondeando al alza el resultado cuando sea necesario. Los estudiantes aprenderán a usar métodos y propiedades de objetos estándar relacionados con fechas y a manejar entradas, cálculos y salidas de datos de manera efectiva. Además, deben validar los datos ingresados para asegurar que cumplan con ciertos requisitos básicos antes de realizar el cálculo y presentar un informe claro con la información requerida sobre las cuadras necesarias y detalles de la fecha proporcionada.
 
-Crea un script llamado `planificador_cuadras.py` que calcule cuántas cuadras necesitas en una fecha dada, según el número de caballos y la capacidad de cada cuadra. Debe redondear **al alza** el número de cuadras, mostrar propiedades de la fecha y presentar un pequeño informe.
+### Actividades propuestas
 
-## Objetivos de aprendizaje
+### Actividad 1: Planificador de Cuadras Básico
 
-* Usar **métodos** y **propiedades** de objetos estándar (`datetime.date`, `date.year`, `date.weekday`, etc.). 
-* Llamar a **métodos “estáticos”**/de módulo como `math.ceil`. 
-* Manejar **entrada → cálculo → salida** con mensajes claros. 
+**Descripción:** El estudiante debe crear un script en Python que calcule el número mínimo de cuadras necesarias para alojar a un número dado de caballos, con una capacidad específica por cuadra. Se espera que utilice la librería `math` para redondear al alza y maneje correctamente la entrada y salida de datos.
 
-## Requisitos funcionales
+### Actividad 2: Informe Completo sobre Caballos
 
-1. **Entrada de datos (por `input`)**
+**Descripción:** Los estudiantes deben mejorar el script anterior añadiendo detalles adicionales como la fecha proporcionada por el usuario. El objetivo es aprender a trabajar con objetos `datetime` para extraer y mostrar información relevante como día, mes, año y días de la semana.
 
-   * `caballos` (entero > 0).
-   * `capacidad_por_cuadra` (entero > 0).
-   * `fecha` en formato `YYYY-MM-DD`.
-     (Estos tres inputs siguen el patrón de los ejercicios de entrada/cálculo/salida). 
-2. **Cálculos**
+### Actividad 3: Validación Avanzada
 
-   * `cuadras_necesarias = ceil(caballos / capacidad_por_cuadra)` usando `math.ceil`. 
-   * Crear un objeto `date` con la fecha indicada y obtener:
+**Descripción:** En esta actividad, los estudiantes deben implementar una validación robusta que asegure que todos los datos ingresados son correctos. Esto incluye verificar que el número de caballos y la capacidad de las cuadras sean enteros positivos, además de comprobar si la fecha está en un formato válido.
 
-     * `year`, `month`, `day`
-     * `weekday()` (0–6) y `isoweekday()` (1–7)
-       (Como en los ejemplos de propiedades de fecha). 
-3. **Salida (informe)**
+### Actividad 4: Reporte Estilizado
 
-   * Línea resumen con caballos, capacidad y cuadras **redondeadas al alza**.
-   * Bloque “Datos de la fecha” mostrando `YYYY-MM-DD`, `year`, `month`, `day`, `weekday`, `isoweekday`.
-4. **Validaciones mínimas**
+**Descripción:** Los estudiantes deben formatear la salida del programa para hacerla más legible. Esto puede incluir el uso de tabuladores, sangría o cualquier otra técnica que mejore la presentación del reporte final.
 
-   * Si algún valor no es entero positivo, mostrar un mensaje y terminar.
-   * Si la fecha no cumple el formato, mostrar mensaje y terminar.
-5. **(Opcional, si te da tiempo)**
+### Actividad 5: Manejo de Excepciones
 
-   * Mostrar si la fecha cae **entre semana** o **fin de semana** (usa `isoweekday()`).
-```
+**Descripción:** Para aumentar la robustez del programa, los estudiantes deben incorporar manejo de excepciones para capturar errores en tiempo de ejecución y proporcionar mensajes útiles al usuario sobre cómo corregirlos.
+
+### Actividad 6: Integración con HTML (Avanzado)
+
+**Descripción:** Como desafío adicional, se pide a los estudiantes que integren su programa Python con una página web simple utilizando algún lenguaje de marcado como Markdown o HTML. Se debe mostrar el reporte generado por el script en un formato web.
+
+### Actividad 7: Sistema de Alertas
+
+**Descripción:** El estudiante debe añadir funcionalidades para alertar al usuario si la fecha proporcionada cae durante un fin de semana, lo cual puede afectar la disponibilidad de cuadras. Se utilizará el método `isoweekday()` para determinar esto.
+
+### Actividad 8: Documentación del Código
+
+**Descripción:** Los estudiantes deben escribir comentarios y documentar su código de forma clara y completa para facilitar la comprensión por parte de otros desarrolladores o ellos mismos en un futuro. Esto incluye descripciones detalladas de cada sección del código.
+
+### Actividad 9: Modificar Capacidad de Cuadras
+
+**Descripción:** Los estudiantes deben añadir funcionalidades que permitan al usuario especificar diferentes capacidades por cuadra y visualizar cómo esto afecta el número total de cuadras necesarias. Esto ayudará a entender mejor la relación entre capacidad y eficiencia en el alojamiento.
+
+### Actividad 10: Comparación Temporal
+
+**Descripción:** Se pide que los estudiantes creen un sistema para comparar múltiples fechas proporcionadas por el usuario, mostrando las necesidades de cuadras y días de la semana correspondientes. Esto ayudará a entender cómo las condiciones cambian con el tiempo.
+
+Estas actividades están diseñadas para mejorar la comprensión y aplicación práctica de conceptos fundamentales en programación, así como para reforzar habilidades relacionadas con manejo de datos, estructuración de código y presentación de resultados.
+
 
 
 <a id="manipulacion-de-documentos-web"></a>
@@ -5435,21 +6915,20 @@ Crea un script llamado `planificador_cuadras.py` que calcule cuántas cuadras ne
 <a id="lenguajes-de-script-de-cliente-caracteristicas-y-sintaxis-basica-estandares"></a>
 ## Lenguajes de script de cliente. Características y sintaxis básica. Estándares
 
-En el vasto mundo digital de la programación web, los lenguajes de script de cliente desempeñan un papel crucial, ofreciendo a los desarrolladores la capacidad de crear experiencias interactivas y dinámicas en las páginas web. Estos lenguajes no solo permiten interactuar con el contenido del navegador, sino que también facilitan la manipulación de elementos visuales y la ejecución de operaciones complejas sin necesidad de recargar la página.
+### Introducción a los ejercicios
 
-JavaScript es uno de los lenguajes de script de cliente más populares y versátiles. Su sintaxis es sencilla pero rica en funcionalidades, lo que lo hace ideal para una amplia gama de aplicaciones web. A través de JavaScript, se pueden seleccionar y manipular elementos del DOM (Modelo de Objeto del Documento), cambiar su estilo, agregar eventos interactivos y realizar solicitudes asíncronas al servidor.
-
-La capacidad de interactuar con el DOM es uno de los puntos fuertes de JavaScript. Permite a los desarrolladores acceder y modificar cualquier parte de la estructura HTML de una página web en tiempo real. Esta funcionalidad es fundamental para crear interfaces dinámicas, como menús desplegables, sliders, y formularios interactivos.
-
-Además de manipular el contenido del DOM, JavaScript también proporciona herramientas poderosas para interactuar con los usuarios a través de eventos. Los eventos son acciones que ocurren en la página web, como hacer clic en un botón o escribir texto en un campo de entrada. Al asociar funciones a estos eventos, se pueden crear interacciones fluidas y responsivas.
-
-La sintaxis de JavaScript es relativamente sencilla, lo que facilita su aprendizaje y uso. Sin embargo, su versatilidad y la gran cantidad de bibliotecas disponibles hacen que sea una herramienta extremadamente rica para el desarrollo web. Desde jQuery hasta React y Vue.js, existen numerosos frameworks y librerías que simplifican el trabajo con JavaScript, ofreciendo soluciones predefinidas para problemas comunes.
-
-La comunidad de desarrolladores de JavaScript es extensa y activa, lo que significa que siempre hay recursos disponibles para aprender y resolver dudas. Desde tutoriales en línea hasta foros y comunidades de usuarios, existen múltiples opciones para mejorar tus habilidades en este lenguaje.
-
-En resumen, los lenguajes de script de cliente, especialmente JavaScript, son herramientas esenciales para el desarrollo web moderno. Su capacidad para manipular el contenido del navegador, interactuar con los usuarios y realizar operaciones complejas sin recargar la página, lo convierten en una poderosa herramienta para crear experiencias interactivas y dinámicas en las páginas web. A través de su sintaxis sencilla pero rica en funcionalidades, JavaScript ofrece a los desarrolladores la flexibilidad necesaria para crear aplicaciones web avanzadas y funcionales.
+Esta carpeta contiene una serie de ejercicios diseñados para introducir y consolidar los conceptos básicos del lenguaje de programación JavaScript. Los problemas abordan temas como la inclusión de scripts en HTML, estructuras de control (condicionales e iteraciones), manipulación de datos (arrays y objetos), funciones, y programación orientada a objetos mediante clases. A lo largo de los ejercicios, se exploran fundamentos esenciales del JavaScript, desde operadores básicos hasta la creación y uso de clases para instanciar objetos. Los ejemplos van incrementando gradualmente en complejidad, permitiendo al estudiante adquirir confianza y habilidades a medida que progresa. Este conjunto de actividades es ideal para principiantes o estudiantes que desean refrescar sus conocimientos sobre JavaScript.
 
 ### index
+<small>Creado: 2025-10-02 14:16</small>
+
+#### Explicación
+
+Este código HTML es una plantilla básica que sirve para estructurar una página web. Comenzamos con la declaración `<!doctype html>`, que indica al navegador que se trata de un documento HTML5. Luego, el elemento `<html>` establece que el idioma del contenido será español (`<html lang="es">`). Dentro del bloque principal, el encabezado `<head>` contiene información sobre la página como su título y los caracteres utilizados en el texto (UTF-8). El cuerpo de la página, definido por `<body>`, es donde colocarías todo el contenido que se mostrará al usuario, aunque en este caso está vacío.
+
+Esta estructura básica es fundamental para cualquier página web ya que establece las reglas y la configuración necesaria para que los navegadores interpreten correctamente el resto del contenido.
+
+`001-index.html`
 
 ```html
 <!doctype html>
@@ -5465,6 +6944,19 @@ En resumen, los lenguajes de script de cliente, especialmente JavaScript, son he
 ```
 
 ### javascript interno
+<small>Creado: 2025-10-02 14:16</small>
+
+#### Explicación
+
+Este fragmento de código es un archivo HTML básico que sirve como plantilla para aprender y practicar JavaScript. La estructura principal del documento incluye las etiquetas `<!doctype html>`, `<html>`, `<head>` y `<body>`. 
+
+En el encabezado (`<head>`), se encuentra la declaración de la codificación de caracteres UTF-8, lo que asegura que el texto del sitio web esté correctamente representado en cualquier idioma. También hay un título para la página, que es "Aprendiendo Javascript", y este título aparecerá en la pestaña del navegador cuando se cargue la página.
+
+Lo más importante de esta estructura es que dentro del cuerpo (`<body>`), hay una etiqueta `<script>`, aunque por ahora está vacía. Esta etiqueta se utiliza para incluir código JavaScript directamente en el documento HTML, permitiendo así a los desarrolladores manipular elementos del DOM (Document Object Model) y añadir interactividad a la página web.
+
+Este archivo es un buen punto de partida para estudiantes que están empezando a aprender cómo integrar JavaScript con HTML, ya que permite ver claramente dónde se coloca el código JavaScript dentro de una estructura HTML estándar.
+
+`002-javascript interno.html`
 
 ```html
 <!doctype html>
@@ -5482,6 +6974,17 @@ En resumen, los lenguajes de script de cliente, especialmente JavaScript, son he
 ```
 
 ### comentarios
+<small>Creado: 2025-10-02 14:16</small>
+
+#### Explicación
+
+Este fragmento de código HTML contiene un ejemplo simple que ilustra cómo se utilizan los comentarios en JavaScript. En el bloque de script, hay una línea que comienza con "//", lo cual indica al navegador que esa línea es un comentario y no debe ser interpretada como parte del programa. Sin embargo, la segunda línea "Esto ya no lo es" no está precedida por "//" ni se encuentra dentro de cualquier otro tipo de comentario (como /* ... */ para comentarios multilínea), por lo tanto, esta línea sería tratada como código real y causaría un error al intentar ejecutarlo porque no tiene sentido en el contexto del lenguaje JavaScript.
+
+Los comentarios son fundamentales en la programación ya que ayudan a documentar el código, facilitando su comprensión para otros desarrolladores o incluso para ti mismo en el futuro. En este ejemplo, es importante destacar cómo un pequeño error, como olvidarse de marcar una línea como comentario cuando debería serlo, puede provocar errores inesperados y dificultades a la hora de depurar el código.
+
+Este ejercicio destaca la importancia de entender las reglas básicas del lenguaje JavaScript, especialmente en lo que respecta a la documentación del código mediante comentarios.
+
+`003-comentarios.html`
 
 ```html
 <!doctype html>
@@ -5500,6 +7003,17 @@ En resumen, los lenguajes de script de cliente, especialmente JavaScript, son he
 ```
 
 ### comentarios multilinea
+<small>Creado: 2025-10-02 14:16</small>
+
+#### Explicación
+
+Este código HTML contiene un documento básico que incluye un bloque de script en el que se muestran dos tipos diferentes de comentarios en JavaScript. Los comentarios son importantes porque permiten a los programadores añadir notas y explicaciones dentro del código sin que éstas afecten al funcionamiento del mismo.
+
+En primer lugar, hay un comentario de una sola línea que comienza con "//". Este tipo de comentario se extiende hasta el final de la línea donde está ubicado. Después, se muestra cómo crear un comentario multilinea en JavaScript usando "/*" para iniciar y "*/" para terminar el bloque de comentarios. Dentro del bloque de comentario multilinea, puedes incluir tantas líneas como necesites para documentar o explicar diferentes partes del código.
+
+La presencia de estos comentarios ayuda a mantener el código limpio y fácil de entender, especialmente cuando se trabaja en equipos o al revisarlo después de un tiempo sin haberlo tocado.
+
+`004-comentarios multilinea.html`
 
 ```html
 <!doctype html>
@@ -5522,6 +7036,17 @@ En resumen, los lenguajes de script de cliente, especialmente JavaScript, son he
 ```
 
 ### salidas por consola y por documento
+<small>Creado: 2025-10-02 14:16</small>
+
+#### Explicación
+
+Este fragmento de código HTML contiene una estructura básica de una página web que incluye dos tipos principales de salidas: mensajes en la consola del navegador y texto directamente dentro del cuerpo de la página. En primer lugar, el bloque de script usa `console.log`, `console.warn` y `console.error` para imprimir diferentes tipos de mensajes en la consola del navegador. Estos son útiles durante el desarrollo porque permiten al programador ver información, advertencias y errores mientras se ejecuta el código.
+
+Además, el código utiliza `document.write` dentro del bloque de script para escribir un mensaje directamente en el contenido HTML de la página. Esto es menos común hoy en día debido a que otros métodos son más flexibles y adecuados para manipular dinámicamente el contenido de una página web.
+
+Esta práctica combina técnicas tanto para depuración como para mostrar información al usuario, siendo importante entender cómo se diferencian estos enfoques y cuándo es apropiado usar cada uno.
+
+`005-salidas por consola y por documento.html`
 
 ```html
 <!doctype html>
@@ -5544,6 +7069,17 @@ En resumen, los lenguajes de script de cliente, especialmente JavaScript, son he
 ```
 
 ### entradas
+<small>Creado: 2025-10-02 14:16</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web muy básica que utiliza JavaScript para pedir al usuario que introduzca su edad. Cuando se abre la página en un navegador, aparecerá una ventana emergente (pop-up) con el mensaje "Dime tu edad", solicitando al usuario que ingrese un valor.
+
+La etiqueta `<script>` dentro del cuerpo de la página HTML contiene el código JavaScript `prompt("Dime tu edad");`. Esta línea de código ejecuta la función `prompt`, que es una forma sencilla y directa de interactuar con el usuario, permitiendo capturar información introducida por éste.
+
+Es importante entender que este tipo de interacción básica entre un programa web y su usuario es fundamental para construir aplicaciones más complejas. Aprender a utilizar funciones como `prompt` ayuda a los estudiantes a comprender cómo JavaScript puede ser utilizado para recoger datos del usuario y, posteriormente, procesarlos o mostrarlos en la página web.
+
+`006-entradas.html`
 
 ```html
 <!doctype html>
@@ -5561,6 +7097,13 @@ En resumen, los lenguajes de script de cliente, especialmente JavaScript, son he
 ```
 
 ### operadores aritmeticos
+<small>Creado: 2025-10-02 14:16</small>
+
+#### Explicación
+
+Este código HTML contiene un bloque de script en el que se utilizan operadores aritméticos básicos para realizar cálculos simples y mostrar los resultados en la consola del navegador. Los operadores involucrados son suma (+), resta (-), multiplicación (*), división (/) y módulo (%). Cada operación calcula una expresión matemática entre el número 4 y el número 3, y luego imprime el resultado utilizando `console.log()`. Este tipo de código es fundamental para entender cómo realizar cálculos en JavaScript y ver los resultados directamente desde la consola del navegador, lo que es muy útil durante la depuración y aprendizaje de programación.
+
+`007-operadores aritmeticos.html`
 
 ```html
 <!doctype html>
@@ -5582,6 +7125,24 @@ En resumen, los lenguajes de script de cliente, especialmente JavaScript, son he
 ```
 
 ### operadores de comparacion
+<small>Creado: 2025-10-02 14:16</small>
+
+#### Explicación
+
+Este fragmento de código HTML contiene un archivo básico que muestra cómo utilizar diferentes operadores de comparación en JavaScript. Cuando se abre esta página web, el navegador ejecuta las líneas de código JavaScript dentro de la etiqueta `<script>`. Estos comandos utilizan `console.log()` para imprimir resultados en la consola del navegador.
+
+Los operadores utilizados son:
+
+- `<` (menor que): compara si el primer número es menor que el segundo.
+- `<=` (menor o igual que): verifica si el primer número es menor o igual al segundo.
+- `>` (mayor que): evalúa si el primer número es mayor que el segundo.
+- `>=` (mayor o igual que): determina si el primer número es mayor o igual al segundo.
+- `==` (igualdad): compara si los dos números son iguales en valor.
+- `!=` (diferente de): verifica si los dos números no tienen el mismo valor.
+
+Cada uno de estos operadores genera un resultado booleano (`true` o `false`) que se muestra en la consola, ayudando a entender cómo funcionan las comparaciones en JavaScript.
+
+`008-operadores de comparacion.html`
 
 ```html
 <!doctype html>
@@ -5604,6 +7165,19 @@ En resumen, los lenguajes de script de cliente, especialmente JavaScript, son he
 ```
 
 ### operadores logicos
+<small>Creado: 2025-10-02 14:16</small>
+
+#### Explicación
+
+Este fragmento de código HTML contiene un bloque de script que utiliza operadores lógicos en JavaScript para evaluar diferentes condiciones y mostrar los resultados en la consola. Los operadores utilizados son `&&` (AND) y `||` (OR).
+
+El código primero verifica varias condiciones usando el operador AND (`&&`). Por ejemplo, cuando se ejecuta `4 == 4 && 3 == 3 && 2 == 2`, todas las comparaciones son verdaderas, por lo que la expresión completa es verdadera. Sin embargo, en la segunda línea con `4 == 4 && 3 == 3 && 2 == 1`, la última comparación es falsa, entonces todo el conjunto de condiciones con AND es falso.
+
+Luego, se utilizan operadores OR (`||`) para evaluar diferentes combinaciones de condiciones. Con OR, si al menos una condición es verdadera, toda la expresión es verdadera. Por ejemplo, en `4 == 4 || 3 == 3 || 2 == 2`, todas las comparaciones son verdaderas, por lo que el resultado es verdadero. Sin embargo, cuando se evalúa `4 == 4 || 3 == 2 || 2 == 1`, aunque la primera condición es verdadera, las demás pueden ser falsas, pero la expresión completa aún resulta en verdadero debido al OR.
+
+Este tipo de ejercicios ayuda a entender cómo funcionan los operadores lógicos y son fundamentales para tomar decisiones basadas en múltiples condiciones en JavaScript.
+
+`009-operadores logicos.html`
 
 ```html
 <!doctype html>
@@ -5627,6 +7201,17 @@ En resumen, los lenguajes de script de cliente, especialmente JavaScript, son he
 ```
 
 ### declaracion de variables
+<small>Creado: 2025-10-02 14:16</small>
+
+#### Explicación
+
+Este código HTML es un ejemplo sencillo que incluye el uso de JavaScript para declarar una variable dentro del documento. La estructura principal del archivo es una página web básica, donde entre las etiquetas `<head>` se establece la configuración general de la página y en el bloque `<body>`, específicamente dentro de una etiqueta `<script>`, se declara una variable llamada `edad` que tiene un valor inicial de 47.
+
+Lo importante aquí es entender cómo se integra JavaScript con HTML. La declaración de variables como `var edad = 47;` permite almacenar información, en este caso el número 47, y nombrarlo para su uso posterior en scripts más complejos. Este fragmento ilustra la idea básica de que puedes usar código JavaScript dentro del mismo archivo HTML para manipular datos o realizar acciones interactivas en una página web.
+
+Este tipo de integración es fundamental porque permite a los desarrolladores crear páginas web dinámicas y reactivas, donde el contenido puede cambiar según las acciones del usuario.
+
+`010-declaracion de variables.html`
 
 ```html
 <!doctype html>
@@ -5644,6 +7229,17 @@ En resumen, los lenguajes de script de cliente, especialmente JavaScript, son he
 ```
 
 ### salidas de variables
+<small>Creado: 2025-10-02 14:16</small>
+
+#### Explicación
+
+Este fragmento de código HTML contiene un script de JavaScript que muestra en la consola del navegador la frase "Mi edad es de" seguida del valor numérico de la variable `edad` y luego la palabra "años". En este ejemplo, la variable `edad` se ha inicializado con el valor 47. 
+
+El código primero declara una variable llamada `edad` e inmediatamente le asigna el valor de 47 años. Luego, utiliza la función `console.log()` para imprimir en la consola del navegador un mensaje que incluye este valor.
+
+Es importante entender cómo declarar variables y mostrar información sobre ellas utilizando funciones como `console.log()`, ya que son fundamentales para seguir avanzando en el aprendizaje de JavaScript y manipulación de documentos web.
+
+`011-salidas de variables.html`
 
 ```html
 <!doctype html>
@@ -5662,6 +7258,15 @@ En resumen, los lenguajes de script de cliente, especialmente JavaScript, son he
 ```
 
 ### variar variables
+<small>Creado: 2025-10-02 14:17</small>
+
+#### Explicación
+
+Este código HTML contiene un ejemplo básico del uso de variables en JavaScript. En la parte central del documento, dentro de una etiqueta `<script>`, se declara una variable llamada `edad` y se le asigna el valor numérico 47. Luego, esta variable se utiliza para imprimir en consola el mensaje "Mi edad es de 47 años".
+
+A continuación, la variable `edad` se modifica cambiando su valor a 48 y nuevamente se imprime un nuevo mensaje que refleja este cambio: "Mi edad es de 48 años". Este código demuestra cómo las variables pueden almacenar datos (en este caso, números enteros) y cómo estos datos pueden ser modificados durante la ejecución del script. Es importante entender esto porque permite a los programadores actualizar dinámicamente valores en sus aplicaciones web basadas en diferentes condiciones o eventos.
+
+`012-variar variables.html`
 
 ```html
 <!doctype html>
@@ -5682,6 +7287,17 @@ En resumen, los lenguajes de script de cliente, especialmente JavaScript, son he
 ```
 
 ### declaracion de constantes
+<small>Creado: 2025-10-02 14:19</small>
+
+#### Explicación
+
+Este fragmento de código HTML muestra cómo declarar y usar una constante en JavaScript dentro del contexto de un documento web. La parte relevante se encuentra dentro de la etiqueta `<script>`, donde se define `const PI = 3.1416;`. Aquí, `PI` es una constante que almacena el valor numérico 3.1416, un valor comúnmente utilizado en matemáticas para representar la relación entre el perímetro de un círculo y su diámetro.
+
+Después de declarar la constante, se utiliza la función `console.log()` para imprimir en la consola del navegador una frase junto con el valor de la constante PI. Esto es útil tanto para depuración como para entender qué valores tienen las variables y constantes durante la ejecución del script.
+
+La declaración de constantes en JavaScript utilizando `const` es importante porque asegura que el valor no pueda ser cambiado después de su inicialización, lo cual ayuda a prevenir errores comunes en el código.
+
+`013-declaracion de constantes.html`
 
 ```html
 <!doctype html>
@@ -5700,6 +7316,17 @@ En resumen, los lenguajes de script de cliente, especialmente JavaScript, son he
 ```
 
 ### error al reasignar valor
+<small>Creado: 2025-10-02 14:19</small>
+
+#### Explicación
+
+Este código HTML contiene un script de JavaScript que ilustra el concepto de constantes en JavaScript. Al inicio, se declara una constante llamada `PI` y se le asigna el valor aproximado del número pi (3.1416). Luego, utilizando la función `console.log`, se muestra este valor en la consola del navegador.
+
+El código luego intenta reasignar un nuevo valor a `PI`, estableciendo `PI = 4`. Sin embargo, esto causará un error ya que una constante en JavaScript no puede ser modificada después de haber sido inicializada. Cuando tratas de ejecutar esta línea, verás un mensaje de error en la consola del navegador indicándote que no puedes reasignar a una constante.
+
+Este código es importante porque te enseña sobre las características inmutables de las constantes en JavaScript y cómo el lenguaje protege su valor para evitar errores de programación relacionados con cambios accidentales.
+
+`014-error al reasignar valor.html`
 
 ```html
 <!doctype html>
@@ -5720,6 +7347,17 @@ En resumen, los lenguajes de script de cliente, especialmente JavaScript, son he
 ```
 
 ### operadores de incremento
+<small>Creado: 2025-10-02 14:21</small>
+
+#### Explicación
+
+Este fragmento de código HTML incluye un bloque de script en el que se enseña cómo utilizar los operadores de incremento y decremento en JavaScript. En primer lugar, se declara una variable llamada `edad` con un valor inicial de 47 usando la palabra clave `var`. Luego, se muestra por consola el mensaje "Mi edad es de: 47 años".
+
+A continuación, se utiliza el operador de incremento (`++`) para aumentar en uno el valor de la variable `edad`, y posteriormente, vuelve a mostrar por consola que ahora tiene un año más.
+
+Finalmente, se aplica el operador de decremento (`--`) para disminuir en uno el valor de `edad` nuevamente. Al final del script, este nuevo valor de `edad` (que sería 47) se muestra por consola una vez más. Este código es útil para enseñar cómo los operadores de incremento y decremento pueden cambiar fácilmente el valor de variables numéricas en JavaScript.
+
+`015-operadores de incremento.html`
 
 ```html
 <!doctype html>
@@ -5742,6 +7380,17 @@ En resumen, los lenguajes de script de cliente, especialmente JavaScript, son he
 ```
 
 ### operadores aritméticos abreviados
+<small>Creado: 2025-10-02 14:22</small>
+
+#### Explicación
+
+Este código HTML contiene un bloque de script en JavaScript que demuestra cómo usar operadores aritméticos abreviados para modificar el valor de una variable. En este caso, la variable `edad` se inicializa con el valor 47 y luego se incrementa o decrementa usando los operadores `+=`, `-=` y otros.
+
+El código muestra primero qué edad tiene la persona al imprimir "Mi edad es de: 47 años". Luego, aumenta la edad en 5 años utilizando `edad += 5` (que es lo mismo que escribir `edad = edad + 5`). A continuación, disminuye la edad en 5 años con el operador `-=`. Después, multiplica la edad por 5 con `edad *= 5`. Finalmente, divide la edad entre 5 utilizando `/=`, y cada cambio se imprime en la consola del navegador.
+
+Estos operadores abreviados son útiles porque permiten realizar cálculos matemáticos de manera más concisa y legible. Es importante entenderlos para manipular datos eficientemente en JavaScript.
+
+`016-operadores aritméticos abreviados.html`
 
 ```html
 <!doctype html>
@@ -5768,6 +7417,17 @@ En resumen, los lenguajes de script de cliente, especialmente JavaScript, son he
 ```
 
 ### estructura for de bucle
+<small>Creado: 2025-10-02 14:28</small>
+
+#### Explicación
+
+Este código HTML contiene un bloque de script que utiliza la estructura `for` para crear un bucle. El objetivo principal es imprimir en pantalla una frase que indica el número del día del mes, desde el primer día hasta el trigésimo (sin incluirlo).
+
+El bucle `for` se inicia con la declaración `var dia = 1`, lo que significa que la variable `dia` comienza con el valor de 1. La condición `dia < 31` establece el límite del bucle, permitiendo que este se ejecute mientras `dia` sea menor a 31. Finalmente, dentro del bloque de código entre las llaves `{}`, hay una instrucción que usa la función `document.write()` para escribir en la página web: "Hoy es el día [valor actual de dia] del mes". Además, después de cada iteración (después de imprimir un mensaje), se incrementa automáticamente el valor de `dia` gracias a la parte final de la estructura for. Esto asegura que el bucle continúa hasta llegar al día 30.
+
+Este ejemplo es útil para enseñar cómo crear y controlar ciclos en JavaScript, permitiendo ejecutar código repetidamente con un contador incremental.
+
+`017-estructura for de bucle.html`
 
 ```html
 <!doctype html>
@@ -5787,6 +7447,17 @@ En resumen, los lenguajes de script de cliente, especialmente JavaScript, son he
 ```
 
 ### while
+<small>Creado: 2025-10-02 14:29</small>
+
+#### Explicación
+
+Este código HTML contiene una breve página web que utiliza JavaScript para mostrar los días del mes en un bucle. Cuando se carga la página, comienza a ejecutar un script dentro de las etiquetas `<script>`. Este script define una variable llamada `dia` y la inicializa con el valor 1. Luego, entra en un bucle `while`, que continúa mientras `dia` sea menor que 31.
+
+Dentro del bucle, se utiliza la función `document.write()` para escribir en la página web el texto "Hoy es el día X del mes", donde X es el valor actual de la variable `dia`. Después de imprimir esta información, incrementa el valor de `dia` en 1 con la instrucción `dia++`, lo que significa que se suma 1 al valor actual. El bucle repite este proceso hasta que `dia` llega a 31, momento en el cual el condicional del bucle ya no es cierto y finaliza.
+
+Este código es útil para entender cómo funcionan los ciclos en JavaScript y cómo interactúan con elementos de la página web, como texto estático o dinámico.
+
+`018-while.html`
 
 ```html
 <!doctype html>
@@ -5808,6 +7479,15 @@ En resumen, los lenguajes de script de cliente, especialmente JavaScript, son he
 ```
 
 ### if en la edad
+<small>Creado: 2025-10-02 14:29</small>
+
+#### Explicación
+
+Este código HTML contiene una sección de script que utiliza el lenguaje JavaScript para comprobar la edad de una persona y mostrar un mensaje en la consola del navegador. En específico, crea una variable llamada `edad` y le asigna el valor 47. Luego, usa una estructura condicional `if` para verificar si esta edad es menor a 30 años. Si es así (en este caso no lo sería, ya que la persona tiene 47 años), muestra en la consola del navegador el mensaje "Eres un joven". La función `console.log()` se usa para imprimir mensajes en la consola de desarrollo del navegador.
+
+Esta estructura condicional es importante porque permite a los programas tomar decisiones basadas en condiciones específicas. En este ejemplo, aunque no cumple con la condición establecida, ilustra cómo podrías modificar el código para que responda según diferentes entradas o situaciones.
+
+`019-if en la edad.html`
 
 ```html
 <!doctype html>
@@ -5828,6 +7508,17 @@ En resumen, los lenguajes de script de cliente, especialmente JavaScript, son he
 ```
 
 ### clausula else
+<small>Creado: 2025-10-02 14:30</small>
+
+#### Explicación
+
+Este fragmento de código es una página HTML que contiene un bloque de script en el interior. El objetivo del script es verificar la edad de una persona y mostrar un mensaje diferente dependiendo de si esa persona tiene menos o más de 30 años.
+
+En concreto, se declara una variable llamada `edad` y se le asigna el valor 47. Luego, utiliza una estructura condicional `if...else` para comprobar si la edad es menor a 30 años. Si la condición es verdadera (es decir, si la persona tiene menos de 30 años), se muestra en la consola el mensaje "Eres un joven". En caso contrario, cuando la edad es mayor o igual a 30 años, se imprime por consola "Ya no eres un joven".
+
+Esta estructura condicional `if...else` es una forma sencilla de tomar decisiones en programación y permite que el código pueda comportarse de manera diferente dependiendo de las condiciones del usuario. En este caso específico, ayuda a clasificar a los usuarios en categorías basadas en su edad.
+
+`020-clausula else.html`
 
 ```html
 <!doctype html>
@@ -5850,6 +7541,17 @@ En resumen, los lenguajes de script de cliente, especialmente JavaScript, son he
 ```
 
 ### if else
+<small>Creado: 2025-10-02 14:31</small>
+
+#### Explicación
+
+Este código es una página HTML simple que contiene un fragmento de código JavaScript. En el cuerpo del documento, se declara una variable llamada `edad` con el valor 47. Luego, utiliza estructuras condicionales (`if`, `else if`, y `else`) para determinar a qué categoría pertenece la persona según su edad.
+
+El programa comprueba primero si la edad es menor que 10 años; si lo es, muestra "Eres un niño" en la consola. Si no se cumple esta condición, pasa a verificar si la edad está entre 10 y 20 años (ambos extremos incluidos), mostrando "Eres un adolescente". Luego, comprueba si la edad está entre 20 y 30 años (ambos extremos incluidos) para mostrar "Eres un joven". Si ninguna de estas condiciones se cumple, el programa muestra "Ya no eres un joven".
+
+Esta estructura de control permite clasificar a una persona en diferentes etapas de la vida según su edad. Es importante entender cómo funcionan las declaraciones `if` y `else if`, ya que te permiten tomar decisiones basadas en varias condiciones posibles, lo cual es fundamental cuando estás programando.
+
+`021-if else.html`
 
 ```html
 <!doctype html>
@@ -5876,6 +7578,19 @@ En resumen, los lenguajes de script de cliente, especialmente JavaScript, son he
 ```
 
 ### switch
+<small>Creado: 2025-10-02 14:33</small>
+
+#### Explicación
+
+Este fragmento de código HTML contiene un bloque de JavaScript que muestra cómo usar la estructura `switch` para tomar decisiones basadas en el valor de una variable. En este caso, la variable es `diadelasemana`, que se ha inicializado con el valor "jueves".
+
+El bloque `switch` compara el valor de `diadelasemana` con cada uno de los casos ("lunes", "martes", etc.) y ejecuta las sentencias correspondientes cuando encuentra una coincidencia. En este ejemplo, como la variable es "jueves", se muestra en pantalla el mensaje "Ya es casi viernes" gracias a la instrucción `document.write`.
+
+Este tipo de estructura es muy útil para manejar situaciones donde un valor puede tomar varias opciones y necesitas ejecutar código diferente para cada opción. Aquí, el `switch` permite tener una forma clara y organizada de escribir mensajes específicos según el día de la semana que se especifique en la variable.
+
+La importancia del uso del bloque `switch` radica en que proporciona un enfoque más limpio y mantenible para manejar múltiples condiciones comparativas, especialmente cuando estas son mutuamente excluyentes.
+
+`022-switch.html`
 
 ```html
 <!doctype html>
@@ -5917,6 +7632,21 @@ En resumen, los lenguajes de script de cliente, especialmente JavaScript, son he
 ```
 
 ### arrays
+<small>Creado: 2025-10-02 14:42</small>
+
+#### Explicación
+
+Este fragmento de código HTML es una página web simple que utiliza JavaScript para mostrar información en la consola del navegador. La estructura básica del documento comienza con `<!doctype html>`, lo que indica al navegador que se trata de un documento HTML5.
+
+Dentro del cuerpo (`<body>`), hay un bloque `<script>` donde se declaran y utilizan variables tanto simples como compuestas. 
+
+Primero, se declara una variable simple llamada `uncliente` y se le asigna el valor "Jose". Luego, se crea una variable denominada `muchosclientes`, que es un array (una lista ordenada) con varios nombres almacenados dentro: 'Juan', 'Jorge', 'Jose' y 'Jaime'. 
+
+Finalmente, se utiliza la función `console.log()` para mostrar el contenido de ambas variables en la consola del navegador cuando se carga la página. Esto ayuda a los desarrolladores a ver lo que almacenan estas variables durante el proceso de depuración o desarrollo.
+
+Este ejemplo es útil porque muestra cómo declarar y manipular diferentes tipos de datos básicos en JavaScript, incluyendo strings (cadenas) y arrays, así como cómo visualizar información usando la consola.
+
+`023-arrays.html`
 
 ```html
 <!doctype html>
@@ -5937,6 +7667,15 @@ En resumen, los lenguajes de script de cliente, especialmente JavaScript, son he
 ```
 
 ### funciones
+<small>Creado: 2025-10-02 14:44</small>
+
+#### Explicación
+
+Este código HTML es un ejemplo sencillo que incluye una función básica en JavaScript. La estructura del documento comienza con la declaración `<!doctype html>`, seguida de las etiquetas `<html>` y `<head>`. En el encabezado, se define el título de la página como "Aprendiendo Javascript" y se especifica la codificación de caracteres UTF-8 para asegurar que todos los caracteres puedan ser correctamente interpretados.
+
+El cuerpo del documento contiene un bloque de script que incluye una función llamada `diHola`. Esta función simplemente imprime en la consola el mensaje "hola". La función es importante porque introduce el concepto básico de cómo definir y crear funciones en JavaScript, lo cual es fundamental para organizar código y reutilizar bloques de código repetidas veces a lo largo del programa.
+
+`024-funciones.html`
 
 ```html
 <!doctype html>
@@ -5959,6 +7698,15 @@ En resumen, los lenguajes de script de cliente, especialmente JavaScript, son he
 ```
 
 ### llamada a la funcion
+<small>Creado: 2025-10-02 14:44</small>
+
+#### Explicación
+
+Este código HTML es sencillo y muestra cómo se integra JavaScript en una página web. En el cuerpo de la página (`<body>`), hay un bloque `<script>`, que contiene una función llamada `diHola`. Esta función no necesita recibir ningún dato para funcionar (no tiene parámetros) y su trabajo es imprimir "hola" en la consola del navegador cuando se ejecuta. Al final del bloque de script, vemos `diHola();`, lo cual significa que el código va a llamar o invocar esta función inmediatamente después de definirla.
+
+La importancia de este fragmento radica en cómo ilustra los conceptos básicos de las funciones en JavaScript y la forma en que se pueden llamar desde dentro del mismo archivo HTML. Es un buen punto de partida para aprender a interactuar con el navegador usando script incorporados en una página web.
+
+`025-llamada a la funcion.html`
 
 ```html
 <!doctype html>
@@ -5981,6 +7729,17 @@ En resumen, los lenguajes de script de cliente, especialmente JavaScript, son he
 ```
 
 ### un parametro
+<small>Creado: 2025-10-02 14:45</small>
+
+#### Explicación
+
+Este código HTML contiene una función simple en JavaScript que muestra un saludo en la consola del navegador. La página web se carga con el encabezado y cuerpo estándar, incluyendo una etiqueta `<script>` que contiene el código JavaScript.
+
+La parte importante es la definición de la función `diHola`, que toma un parámetro llamado `nombre`. Cuando se llama a esta función dentro del script (en este caso con `"Jose Vicente"` como argumento), el navegador muestra en su consola una frase tipo "hola, Jose Vicente ¿como estas?".
+
+El uso de funciones es crucial en JavaScript porque permite encapsular bloques de código que pueden ser reutilizados fácilmente en diferentes partes del programa. En este caso, la función `diHola` puede saludar a cualquier persona simplemente cambiando el argumento cuando se llama a la función, lo que hace que el código sea más flexible y mantenible.
+
+`026-un parametro.html`
 
 ```html
 <!doctype html>
@@ -6003,6 +7762,15 @@ En resumen, los lenguajes de script de cliente, especialmente JavaScript, son he
 ```
 
 ### muchos parametros
+<small>Creado: 2025-10-02 14:45</small>
+
+#### Explicación
+
+Este código HTML contiene un fragmento de script en JavaScript que define y utiliza una función llamada `diHola`. La función `diHola` toma dos parámetros: `nombre` y `edad`, que son variables que representan el nombre de una persona y su edad, respectivamente. Dentro de la función, se imprime un mensaje en la consola del navegador (que puedes ver utilizando herramientas como Inspect Element) que saluda a la persona mencionada por su nombre e incluye su edad.
+
+El código muestra cómo llamar a esta función `diHola` proporcionando valores específicos para los parámetros (`"Jose Vicente"` y `47`). Esto demuestra cómo una misma función puede ser utilizada con diferentes datos, permitiendo personalizar el mensaje que se imprime en la consola. Es importante entender esto porque te permite crear código reutilizable y flexible en JavaScript.
+
+`027-muchos parametros.html`
 
 ```html
 <!doctype html>
@@ -6025,6 +7793,17 @@ En resumen, los lenguajes de script de cliente, especialmente JavaScript, son he
 ```
 
 ### las funciones deben hacer return
+<small>Creado: 2025-10-02 14:46</small>
+
+#### Explicación
+
+Este código HTML contiene un fragmento de script en JavaScript que define una función llamada `diHola` y luego la llama para mostrar un mensaje en la consola del navegador. La función `diHola` toma dos parámetros: `nombre` y `edad`. Dentro de la función, se utiliza la palabra clave `return` para devolver una cadena formada por el nombre proporcionado y su edad dentro de un saludo amigable.
+
+Cuando la función es llamada con los valores "Jose Vicente" (como parámetro `nombre`) y 47 (como parámetro `edad`), la consola del navegador muestra el mensaje: "hola, Jose Vicente, tienes47 años, ¿como estas?". Es importante notar que hay un pequeño error en la concatenación de cadenas dentro de la función, ya que falta un espacio después de `"tienes"` y antes de `"+edad"`. Sin embargo, este detalle no impide que el código funcione pero sí hace que el mensaje resultante sea menos legible.
+
+La importancia de usar `return` en una función es para permitir que la función entregue un valor al lugar desde donde fue llamada. En este caso, permite mostrar información calculada o construida dentro de la función en otros lugares del programa, como la consola aquí mostrado.
+
+`028-las funciones deben hacer return.html`
 
 ```html
 <!doctype html>
@@ -6047,6 +7826,13 @@ En resumen, los lenguajes de script de cliente, especialmente JavaScript, son he
 ```
 
 ### clases
+<small>Creado: 2025-10-02 14:49</small>
+
+#### Explicación
+
+Este código HTML contiene un script que define una clase llamada `Gato` en JavaScript. La clase se utiliza para crear objetos que representan a gatos y tiene un constructor (una función especial) que se ejecuta cuando se crea un nuevo objeto de tipo `Gato`. En este caso, el constructor inicializa dos propiedades del gato: `edad`, que es establecida como 0, y `color`, que está vacío (o sea, una cadena vacía ""). Este archivo te muestra cómo definir clases en JavaScript, lo cual es fundamental cuando deseas organizar tu código de manera más estructurada, especialmente para proyectos grandes o complejos.
+
+`029-clases.html`
 
 ```html
 <!doctype html>
@@ -6070,6 +7856,15 @@ En resumen, los lenguajes de script de cliente, especialmente JavaScript, son he
 ```
 
 ### instanciar un gato
+<small>Creado: 2025-10-02 14:49</small>
+
+#### Explicación
+
+Este fragmento de código HTML contiene un bloque de script que define una clase llamada `Gato` en JavaScript y luego crea una instancia de esta clase. La clase `Gato` tiene dos propiedades: `edad`, inicializada como 0, y `color`, inicializada como una cadena vacía. Luego, se crea un objeto `gato1` que es una instancia de la clase `Gato`. Finalmente, este nuevo gato (`gato1`) se imprime en la consola para verificar su estado.
+
+Este código es importante porque ilustra cómo definir y usar clases en JavaScript, así como cómo instanciar un objeto a partir de dicha clase. Es una introducción básica al concepto orientado a objetos en JavaScript, donde puedes crear plantillas (clases) que definen las características comunes de los objetos del mismo tipo (en este caso, gatos), y luego crear ejemplos específicos (instancias) de esos tipos basados en la clase.
+
+`030-instanciar un gato.html`
 
 ```html
 <!doctype html>
@@ -6094,6 +7889,21 @@ En resumen, los lenguajes de script de cliente, especialmente JavaScript, son he
 ```
 
 ### podemos tener metodos
+<small>Creado: 2025-10-02 14:50</small>
+
+#### Explicación
+
+Este código HTML contiene un bloque de script en el que se define una clase llamada `Gato` y luego se crea una instancia de esta clase para demostrar cómo funciona. La clase `Gato` tiene dos propiedades: `edad`, inicializada a 0, y `color`, inicializada como una cadena vacía. Además, la clase incluye un método llamado `maulla()`, que devuelve el string `"miau"` cuando se llama.
+
+Después de definir la clase, se crea una nueva instancia del objeto Gato utilizando la palabra clave `new`. Esta instancia es almacenada en la variable `gato1`.
+
+El código luego imprime dos cosas en la consola:
+1. La instancia completa de `gato1` para mostrar todos sus detalles.
+2. El resultado de llamar al método `maulla()` en el objeto `gato1`, que debería imprimir "miau".
+
+Este ejemplo es útil para entender cómo crear y utilizar clases con métodos en JavaScript, mostrando cómo las instancias de una clase pueden tener propiedades y comportamientos definidos dentro de la misma.
+
+`031-podemos tener metodos.html`
 
 ```html
 <!doctype html>
@@ -6122,6 +7932,17 @@ En resumen, los lenguajes de script de cliente, especialmente JavaScript, son he
 ```
 
 ### demostracion javascript
+<small>Creado: 2025-10-02 14:53</small>
+
+#### Explicación
+
+Este código HTML crea una página web sencilla que utiliza JavaScript para generar un calendario visual de 30 días. En el cuerpo del documento, hay un bucle `for` en JavaScript que se ejecuta desde el día 1 hasta el día 30. Cada vez que el bucle itera (o repite), crea una nueva caja div con la etiqueta "dia" y dentro de ella coloca el número del día actual.
+
+El estilo CSS integrado define cómo deben verse estas cajas: cada una mide 50x50 píxeles, están rodeadas por un borde gris y se muestran en línea (una al lado de la otra). Esto resulta en una fila continua de pequeñas cajas numeradas del 1 al 30 que representan los días.
+
+Este tipo de código es útil para aprender cómo manipular el contenido de las páginas web usando JavaScript, permitiendo a los programadores crear interfaces interactivas y visualmente atractivas. Específicamente, muestra cómo insertar elementos HTML directamente en la página desde un script, lo cual es fundamental para entender cómo se integran scripts y marcado (HTML) en el desarrollo web moderno.
+
+`032-demostracion javascript.html`
 
 ```html
 <!doctype html>
@@ -6151,34 +7972,203 @@ En resumen, los lenguajes de script de cliente, especialmente JavaScript, son he
 </html>
 ```
 
+### Actividades propuestas
+
+### Ejercicios para Aprender JavaScript
+
+#### 1. Uso de Comentarios y Documentación
+- **Descripción:** Agregar comentarios al código que explique cada sección.
+- **Ejemplo:** En el archivo `024-funciones.html`, agregar comentarios explicativos en la función `diHola`.
+
+```javascript
+function diHola(nombre) {
+  // Esta función imprime un saludo personalizado con el nombre dado.
+  console.log("hola, " + nombre + ", ¿cómo estás?");
+}
+```
+
+#### 2. Uso de Variables y Tipos de Datos
+- **Descripción:** Crear una variable que almacene información sobre un cliente (nombre, edad).
+- **Ejemplo:** En `031-podemos_tener_metodos.html`, agregar una variable para almacenar la edad del gato.
+
+```javascript
+class Gato {
+  constructor(edad) {
+    this.edad = edad;
+    this.color = "";
+  }
+}
+```
+
+#### 3. Uso de Estructuras Condicionales
+- **Descripción:** Crear un `if` que imprima diferentes mensajes según la edad del cliente.
+- **Ejemplo:** En `025-llamada_a_la_funcion.html`, agregar una condición para cambiar el mensaje de saludo.
+
+```javascript
+function diHola(nombre, edad) {
+  if (edad < 18) {
+    console.log("¡Bienvenido/a a la escuela " + nombre + "!");
+  } else {
+    console.log("hola, " + nombre + ", tienes " + edad + " años, ¿cómo estás?");
+  }
+}
+```
+
+#### 4. Bucles
+- **Descripción:** Usar un bucle `for` para imprimir los números del 1 al 10.
+- **Ejemplo:** En `027-muchos_parametros.html`, agregar una función que use el bucle `for`.
+
+```javascript
+function contarHastaDiez() {
+  for (let i = 1; i <= 10; i++) {
+    console.log(i);
+  }
+}
+```
+
+#### 5. Arrays y Operaciones con Éllos
+- **Descripción:** Crear un array de colores y mostrar cada color en la consola.
+- **Ejemplo:** En `028-las_funciones_deben_hacer_return.html`, agregar una función que imprima los colores del array.
+
+```javascript
+function imprimirColores(colores) {
+  for (let i = 0; i < colores.length; i++) {
+    console.log("Color: " + colores[i]);
+  }
+}
+
+const colores = ["rojo", "verde", "azul"];
+imprimirColores(colores);
+```
+
+#### 6. Funciones y Retorno de Valores
+- **Descripción:** Crear una función que sume dos números y retorne el resultado.
+- **Ejemplo:** En `029-clases.html`, agregar la función.
+
+```javascript
+function suma(a, b) {
+  return a + b;
+}
+
+console.log(suma(5, 10)); // Debería imprimir "15"
+```
+
+#### 7. Uso de Objetos y Clases
+- **Descripción:** Crear un objeto que represente una persona con atributos como nombre y edad.
+- **Ejemplo:** En `030-instanciar_un_gato.html`, agregar un nuevo objeto persona.
+
+```javascript
+class Persona {
+  constructor(nombre, edad) {
+    this.nombre = nombre;
+    this.edad = edad;
+  }
+}
+
+const persona1 = new Persona("Juan", 25);
+console.log(persona1);
+```
+
+#### 8. DOM y Manipulación de Elementos HTML
+- **Descripción:** Usar JavaScript para cambiar el contenido de un elemento HTML.
+- **Ejemplo:** En `032-demostracion_javascript.html`, agregar una función que cambie la clase del div.
+
+```javascript
+function cambiarClase() {
+  document.getElementById("cambio").classList.add("nueva-clase");
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+  const divElement = document.createElement('div');
+  divElement.id = 'cambio';
+  divElement.className = 'dia';
+  divElement.innerHTML = 'Cambio de clase';
+  
+  document.body.appendChild(divElement);
+});
+```
+
+#### 9. Eventos
+- **Descripción:** Crear un botón que al ser clicado muestre la fecha actual.
+- **Ejemplo:** En `032-demostracion_javascript.html`, agregar el siguiente código.
+
+```html
+<button id="botonFecha">Mostrar Fecha</button>
+
+<script>
+document.getElementById('botonFecha').addEventListener('click', function() {
+  const fecha = new Date().toLocaleDateString();
+  alert(fecha);
+});
+</script>
+```
+
+Estos ejercicios cubren varios conceptos fundamentales de JavaScript y ayudarán a entender cómo se integra con HTML.
+
+
 <a id="seleccion-y-acceso-a-elementos"></a>
 ## Selección y acceso a elementos
 
-En el vasto mundo de la manipulación de documentos web, una habilidad esencial es la capacidad para seleccionar y acceder a elementos específicos dentro de un documento HTML. Esta selección no solo permite interactuar con el contenido en tiempo real, sino que también es fundamental para la creación de interfaces dinámicas y interactivas.
+### Introducción a los ejercicios
 
-La elección de los elementos se realiza mediante selectores CSS, una poderosa herramienta que nos permite identificar elementos basados en su etiqueta, clase, id o atributos. Cada selector tiene un nivel de especificidad que determina cuán preciso es para seleccionar el elemento deseado. Por ejemplo, un selector con un id es más específico que uno con una clase, y este a su vez es más específico que uno basado en la etiqueta.
+Este archivo contiene una serie de pasos para crear y mejorar una calculadora simple utilizando HTML, CSS y JavaScript. Aquí está un resumen detallado de los cambios implementados en cada paso:
 
-La selección de elementos es un paso crucial antes de cualquier manipulación del contenido. Una vez seleccionados, podemos modificar sus atributos, cambiar su estilo visual o incluso eliminarlos completamente del documento. Esta capacidad nos permite crear aplicaciones web interactivas donde los usuarios pueden interactuar directamente con el contenido, lo que es fundamental para la experiencia del usuario.
+1. **Inicialización del HTML**:
+   - Se crea la estructura básica de HTML con una div `#calculadora`, una div `#pantalla` y una tabla para las teclas.
 
-Además de seleccionar elementos individuales, también es posible seleccionar grupos de elementos que comparten características comunes. Esto se realiza mediante selectores combinados, como los selectores hermanos o los selectores descendientes. Estas técnicas nos permiten realizar operaciones en conjuntos de elementos, lo que facilita la gestión masiva de contenido.
+2. **Estilizar el contenedor de la calculadora (026-estilizar pantalla)**:
+   - Se añade estilos específicos para que la pantalla tenga texto alineado a la derecha, un fondo oscuro (`dimgray`), bordes redondeados y sombreado en el texto.
 
-La manipulación de elementos también implica el acceso a su contenido y atributos. Podemos leer o modificar el texto dentro de un elemento, cambiar sus clases o estilos dinámicamente, o incluso agregar nuevos atributos según sea necesario. Esta capacidad es esencial para crear aplicaciones que responden en tiempo real a las acciones del usuario.
+3. **Habilitar los botones de teclado (027-teclas)**:
+   - Se añade una función `teclaPulsada(event)` que simula el comportamiento del teclado para interactuar con la calculadora.
+   - Se asigna un evento `keydown` al documento que llama a esta función cuando se presiona una tecla.
 
-La selección y manipulación de elementos también se extiende a la creación de eventos. Podemos asociar funciones JavaScript con los elementos seleccionados, de manera que cuando ocurra un evento específico (como hacer clic o mover el mouse), nuestro código pueda responder de manera dinámica. Esta capacidad es fundamental para crear aplicaciones interactivas y responsivas.
+4. **Ejecutar operaciones matemáticas (028-resolver)**:
+   - Añade lógica para resolver expresiones matemáticas directamente en la pantalla.
+   - Se verifica si el contenido de la pantalla es un número o una expresión y lo evalúa utilizando `eval()`.
 
-La manipulación de elementos también implica la creación de nuevos elementos en tiempo real. Podemos crear elementos HTML desde cero, asignarles atributos y contenido, y luego insertarlos en el documento. Esto nos permite crear interfaces dinámicas donde los elementos se generan según sea necesario, lo que es fundamental para aplicaciones complejas.
+5. **Manejar errores al ingresar valores no válidos (029-errores)**:
+   - Añade comprobaciones para evitar que se ingresen caracteres no permitidos.
+   - Se maneja adecuadamente la entrada de texto inválido mostrando un mensaje de error en la pantalla.
 
-La selección y manipulación de elementos también implica la comunicación con servidores. Podemos enviar solicitudes al servidor para obtener o modificar datos, y luego actualizar el contenido del documento en consecuencia. Esta capacidad es fundamental para crear aplicaciones web modernas que ofrecen una experiencia de usuario fluida y dinámica.
+6. **Manejar múltiples operadores consecutivos (030-multiples-operadores)**:
+   - Añade lógica para evitar que se ingresen múltiples operadores consecutivos.
+   - Si el último carácter es un operador y el siguiente también, se elimina el operador anterior.
 
-La selección y manipulación de elementos también implica la persistencia de los cambios. Podemos guardar los cambios realizados en el cliente, lo que nos permite mantener un estado consistente incluso cuando el usuario navega por diferentes partes de la aplicación. Esta capacidad es fundamental para crear aplicaciones web interactivas y responsivas.
+7. **Manejar raíz cuadrada y otros operadores (031-operaciones)**:
+   - Añade soporte para funciones matemáticas como `sqrt` y `Math.pow`.
+   - Se maneja la entrada de estos operadores y se realiza la correspondiente operación.
 
-La selección y manipulación de elementos también implica la optimización del rendimiento. Podemos minimizar el uso de recursos al seleccionar solo los elementos necesarios, lo que nos permite mantener una buena velocidad de respuesta incluso en aplicaciones complejas. Esta capacidad es fundamental para crear aplicaciones web modernas que ofrecen una experiencia de usuario fluida y dinámica.
+8. **Manejar números muy grandes o resultados no válidos (032-grandes-numeros)**:
+   - Añade lógica para gestionar correctamente los errores de overflow.
+   - Si el resultado es demasiado grande, muestra un mensaje apropiado en lugar del número resultante.
 
-La selección y manipulación de elementos también implica la seguridad. Podemos implementar medidas de seguridad para proteger los datos del usuario, lo que nos permite mantener un alto nivel de confianza en nuestra aplicación. Esta capacidad es fundamental para crear aplicaciones web seguras y confiables.
+9. **Personalizar y mejorar la interfaz (033-estilizar)**:
+   - Mejora aún más la apariencia de la calculadora con CSS personalizado para hacerla visualmente atractiva.
+   - Ajusta el tamaño, las formas y los colores de los elementos.
 
-En resumen, la selección y manipulación de elementos son habilidades fundamentales en el mundo de la manipulación de documentos web. Estas habilidades nos permiten interactuar con el contenido en tiempo real, crear interfaces dinámicas e interactivas, y realizar operaciones masivas de manera eficiente y segura. Con un buen dominio de estos conceptos, podemos crear aplicaciones web modernas que ofrecen una experiencia de usuario fluida y dinámica.
+10. **Implementar funciones adicionales como PI y porcentaje (034-funciones)**:
+    - Añade botones y lógica para funciones matemáticas adicionales como `PI` y cálculo del porcentaje.
+    - Se maneja la entrada de estos valores y se realiza las operaciones correspondientes.
+
+11. **Añadir soporte para más teclas (035-teclas-extra)**:
+    - Añade botones para funciones matemáticas adicionales como `Mod` (módulo) y `x²` (potencia de 2).
+    - Se maneja la entrada de estos valores y se realiza las operaciones correspondientes.
+
+Estos pasos cubren desde una calculadora básica hasta una completa con funciones avanzadas y estilos personalizados.
 
 ### escribir contenido en el DOM facil
+<small>Creado: 2025-10-06 13:03</small>
+
+#### Explicación
+
+Este fragmento de código es un ejemplo básico de cómo insertar y mostrar texto en una página web utilizando JavaScript. La estructura HTML contiene solo una etiqueta `<p>` vacía en el cuerpo del documento, que se utiliza para contener texto o contenido dentro de un párrafo.
+
+En la parte inferior del cuerpo (`<body>`), hay un bloque de código entre las etiquetas `<script>...</script>`. Este código JavaScript usa la función `document.write()` para escribir directamente en el documento HTML una cadena de texto que dice "Hola mundo desde Javascript". Cuando se carga la página, esta función inserta el texto dentro del párrafo vacío.
+
+Es importante destacar que aunque este método es sencillo y fácil de entender para principiantes, no es lo más recomendado cuando se trabaja con contenido dinámico o complejo. En situaciones reales, es preferible manipular elementos específicos del DOM (como los párrafos) usando métodos como `innerHTML` o `textContent`, en lugar de usar `document.write()`.
+
+`001-escribir contenido en el DOM facil.html`
 
 ```html
 <!doctype html>
@@ -6195,6 +8185,17 @@ En resumen, la selección y manipulación de elementos son habilidades fundament
 ```
 
 ### seleccion nueva
+<small>Creado: 2025-10-06 13:05</small>
+
+#### Explicación
+
+Este fragmento de código HTML muestra cómo se puede manipular el contenido de un documento web utilizando JavaScript. La página contiene un párrafo vacío `<p></p>` y justo antes de que la página termine, hay una etiqueta `<script>...</script>` donde se ejecuta un pequeño programa en JavaScript.
+
+El programa comienza seleccionando el elemento `<p>` usando `document.querySelector("p")`, lo que significa que obtiene la primera instancia del párrafo encontrado en todo el documento. Luego, usa el atributo `.textContent` para cambiar el contenido de texto dentro de ese párrafo a "Hola mundo desde Javascript". Esto demuestra cómo JavaScript puede interactuar directamente con la estructura HTML de una página web y modificarla dinámicamente.
+
+Esta técnica es importante porque permite que las páginas web sean más interactivas, permitiendo cambios en el contenido basados en acciones del usuario o eventos específicos.
+
+`002-seleccion nueva.html`
 
 ```html
 <!doctype html>
@@ -6212,6 +8213,21 @@ En resumen, la selección y manipulación de elementos son habilidades fundament
 ```
 
 ### seleccion por etiqueta
+<small>Creado: 2025-10-06 13:06</small>
+
+#### Explicación
+
+Este fragmento de código HTML es un ejemplo simple de cómo seleccionar y modificar elementos en una página web utilizando JavaScript. En el cuerpo del documento (`<body>`), hay un párrafo vacío (`<p></p>`) que no contiene ningún texto al principio.
+
+El bloque de script dentro del `<body>` hace lo siguiente:
+
+1. **Selección del elemento**: Utiliza la función `document.querySelector("p")` para buscar el primer elemento en el documento que tenga una etiqueta `<p>`. Esta función devuelve un objeto que representa este párrafo.
+   
+2. **Modificación del contenido**: Una vez seleccionado, se establece el texto dentro de ese párrafo utilizando la propiedad `textContent`, a la cual se le asigna el valor `"Hola mundo desde Javascript"`.
+
+Este código es importante porque muestra cómo JavaScript puede interactuar con los elementos HTML para cambiar su contenido dinámicamente. Esto es una habilidad fundamental en el desarrollo web, ya que permite crear páginas interactivas y responsive.
+
+`003-seleccion por etiqueta.html`
 
 ```html
 <!doctype html>
@@ -6230,6 +8246,19 @@ En resumen, la selección y manipulación de elementos son habilidades fundament
 ```
 
 ### seleccionar por id
+<small>Creado: 2025-10-06 13:06</small>
+
+#### Explicación
+
+Este código HTML es un ejemplo sencillo de cómo seleccionar y modificar contenido en una página web utilizando JavaScript. En el cuerpo del documento (`<body>`), hay un párrafo (`<p>`) con un atributo `id` que se llama "texto". El script dentro de la etiqueta `<script>` utiliza la función `document.querySelector()` para encontrar este elemento específico basándose en su id.
+
+La línea `var elemento = document.querySelector("#texto");` busca el elemento HTML cuyo valor de id es exactamente `"texto"`. Una vez que encuentra ese elemento, guarda una referencia a él en la variable llamada `elemento`.
+
+Después, la línea `elemento.textContent = "Hola mundo desde Javascript";` cambia el contenido interno del párrafo seleccionado por el texto "Hola mundo desde Javascript". Esto significa que cuando se carga la página en un navegador, verás este texto dentro de la etiqueta `<p>` con id `"texto"`.
+
+Este ejemplo es importante porque demuestra cómo JavaScript puede interactuar directamente con los elementos HTML y modificarlos dinámicamente, lo cual es una habilidad fundamental para desarrollar sitios web interactivos.
+
+`004-seleccionar por id.html`
 
 ```html
 <!doctype html>
@@ -6248,6 +8277,17 @@ En resumen, la selección y manipulación de elementos son habilidades fundament
 ```
 
 ### seleccionar por clase
+<small>Creado: 2025-10-06 13:06</small>
+
+#### Explicación
+
+Este fragmento de código HTML muestra cómo seleccionar y modificar un elemento en una página web utilizando JavaScript. En el cuerpo del documento, hay un párrafo `<p>` que tiene la clase `"texto"`. El script dentro del bloque `<script>` utiliza la función `document.querySelector(".texto")` para encontrar este elemento específico basándose en su clase.
+
+La variable `elemento` almacena la referencia a ese párrafo seleccionado. Luego, se usa el atributo `textContent` para establecer el contenido de texto dentro del elemento como "Hola mundo desde Javascript". Esto significa que cuando se carga esta página web en un navegador, el párrafo mostrará exactamente este mensaje.
+
+Es importante destacar que `querySelector()` es una herramienta muy útil en JavaScript porque permite seleccionar elementos basándose no solo en sus etiquetas (como `<p>`), sino también en atributos como la clase o el id. Esto hace mucho más flexible y potente la manipulación del DOM desde scripts en páginas web.
+
+`005-seleccionar por clase.html`
 
 ```html
 <!doctype html>
@@ -6266,6 +8306,15 @@ En resumen, la selección y manipulación de elementos son habilidades fundament
 ```
 
 ### multiples elementos
+<small>Creado: 2025-10-06 13:07</small>
+
+#### Explicación
+
+Este código HTML muestra cómo seleccionar y modificar un único elemento en una página web usando JavaScript. En el cuerpo de la página, hay tres elementos `<p>` vacíos. Dentro del script que se ejecuta al cargar la página, el código utiliza `document.querySelector("p")` para encontrar el primer párrafo (`<p>`) y luego establece su contenido con texto a través de `elemento.textContent`. Sin embargo, es importante notar que este código solo cambiará el contenido del primer párrafo que encuentre en la página. Si deseas modificar todos los elementos `<p>` o varios específicos, necesitarías usar una técnica diferente, como un bucle para recorrer cada elemento.
+
+Este ejemplo es útil porque ilustra cómo interactuar con el Document Object Model (DOM) de una página web desde JavaScript, permitiendo a los desarrolladores cambiar dinámicamente lo que los usuarios ven en la pantalla.
+
+`006-multiples elementos.html`
 
 ```html
 <!doctype html>
@@ -6286,6 +8335,19 @@ En resumen, la selección y manipulación de elementos son habilidades fundament
 ```
 
 ### seleccion de multipes elementos
+<small>Creado: 2025-10-06 13:09</small>
+
+#### Explicación
+
+Este código HTML muestra cómo seleccionar y modificar múltiples elementos en una página web usando JavaScript. En este caso, el objetivo es llenar con texto cada párrafo (`<p>`) presente en la página.
+
+1. **Selección de Elementos**: El fragmento de código usa `document.querySelectorAll("p")` para seleccionar todos los elementos `<p>` que existen en la página. La función `querySelectorAll()` devuelve una colección (llamada `NodeList`) de todos los elementos que coinciden con el selector proporcionado, en este caso, todos los párrafos.
+
+2. **Recorrido y Modificación**: Una vez obtenidos estos elementos, se utiliza un bucle `forEach()` para recorrer cada elemento individualmente dentro de la colección. En cada iteración del bucle, se cambia el contenido de texto (`textContent`) del párrafo actual a "Hola mundo desde Javascript". Esto significa que después de ejecutar este código, todos los párrafos en la página mostrarán exactamente el mismo mensaje: "Hola mundo desde Javascript".
+
+Este tipo de operación es útil cuando necesitas modificar múltiples elementos de una misma clase o etiqueta en tu página web con un solo comando. Es decir, te permite hacer cambios masivos en tus páginas de manera eficiente y sin tener que manipular cada elemento por separado.
+
+`007-seleccion de multipes elementos.html`
 
 ```html
 <!doctype html>
@@ -6310,6 +8372,19 @@ En resumen, la selección y manipulación de elementos son habilidades fundament
 ```
 
 ### escribir
+<small>Creado: 2025-10-06 13:10</small>
+
+#### Explicación
+
+Este fragmento de código HTML muestra cómo modificar el contenido de un párrafo en una página web utilizando JavaScript. La parte relevante es la sección `<script>` dentro del cuerpo (`<body>`) de la página.
+
+En primer lugar, el código selecciona un elemento específico usando `document.querySelector("p")`. Esto busca y selecciona el primer párrafo (`<p>`) en la página web. Luego, asigna "hola mundo y escribro" como el texto contenido dentro del párrafo que se ha seleccionado con la propiedad `textContent`.
+
+Esta técnica es importante porque permite a los desarrolladores de sitios web interactuar dinámicamente con los elementos HTML y modificar su contenido según sea necesario. Por ejemplo, podrías usar este método para actualizar información en tiempo real o en respuesta a acciones del usuario sin necesidad de recargar toda la página.
+
+Es relevante destacar que el texto "hola mundo y escribro" tiene un error ortográfico ("escribro" debería ser "escribo"), pero esto no afecta la funcionalidad del código.
+
+`008-escribir.html`
 
 ```html
 <!doctype html>
@@ -6328,6 +8403,19 @@ En resumen, la selección y manipulación de elementos son habilidades fundament
 ```
 
 ### leer
+<small>Creado: 2025-10-06 13:13</small>
+
+#### Explicación
+
+Este fragmento de código HTML y JavaScript muestra cómo leer el contenido de un elemento del documento HTML y luego escribir ese mismo contenido en otro elemento. En la parte superior, hay dos parágrafos `<p>` con diferentes `id`: uno contiene texto ("Este es un texto que esta en HTML puro") y el otro está vacío.
+
+En la sección `<script>`, primero seleccionamos el primer párrafo usando `document.querySelector("#primero");` para obtener una referencia al elemento. Luego, leemos su contenido utilizando `.textContent`. Esta propiedad nos permite acceder a solo el texto dentro del elemento sin incluir ningún formato HTML adicional.
+
+Después de leer este contenido, seleccionamos el segundo parárago con `document.querySelector("#segundo")`, y escribimos en él el contenido que acabamos de leer desde el primer párrafo usando `.textContent = contenido`. Al final, el texto del primer párrafo aparecerá también en el segundo.
+
+Este tipo de operación es importante porque muestra cómo interactuar con elementos HTML utilizando JavaScript para realizar cambios dinámicos en la página web basándose en datos o acciones previas.
+
+`009-leer.html`
 
 ```html
 <!doctype html>
@@ -6350,6 +8438,19 @@ En resumen, la selección y manipulación de elementos son habilidades fundament
 ```
 
 ### solo texto puro
+<small>Creado: 2025-10-06 13:13</small>
+
+#### Explicación
+
+Este fragmento de código HTML incluye un bloque de script en el interior del cuerpo (body) de la página web. Lo que hace este código es seleccionar y modificar un elemento específico en el documento.
+
+Primero, dentro del `<head>` y `<body>`, hay una etiqueta `<p>` con el atributo `id="primero"`. Esto significa que podemos identificar únicamente esta etiqueta de párrafo mediante su id. Luego, en el bloque de script, se utiliza la función `document.querySelector("#primero")` para encontrar y seleccionar ese elemento específico.
+
+Después, intenta asignar un nuevo texto al contenido del párrafo usando `primero.textContent = "Hola que tal"`. Sin embargo, aquí hay un pequeño error: el código debería utilizar la variable `elemento`, en lugar de `primero`, porque es ahí donde se guarda el resultado de seleccionar el elemento con el id "primero".
+
+Este código demuestra cómo interactuar con los elementos del DOM (Document Object Model) utilizando JavaScript para leer y escribir información en las partes específicas de una página web, lo cual es crucial cuando se trata de hacer páginas dinámicas que responden a acciones del usuario.
+
+`010-solo texto puro.html`
 
 ```html
 <!doctype html>
@@ -6367,6 +8468,19 @@ En resumen, la selección y manipulación de elementos son habilidades fundament
 ```
 
 ### textocontent no soporta html
+<small>Creado: 2025-10-06 13:14</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web sencilla con un párrafo vacío y utiliza JavaScript para manipular el contenido del párrafo. El objetivo es mostrar cómo seleccionar elementos en la página usando JavaScript y luego intentar cambiar su texto.
+
+En primer lugar, el archivo tiene una etiqueta `<p>` con un id de "primero", que inicialmente está vacía. En el bloque de script dentro del cuerpo (`<body>`), se utiliza `document.querySelector("#primero")` para seleccionar ese párrafo y almacenarlo en la variable llamada `elemento`.
+
+Luego, intenta cambiar el contenido del texto de este elemento con la línea `primero.textContent = "<b>Hola que tal</b>"`. Sin embargo, aquí hay un problema: cuando se usa `.textContent`, solo puedes agregar texto plano sin etiquetas HTML como `<b>`. Esto significa que cualquier cosa entre comillas en `.textContent` será tratada simplemente como texto y no como código HTML. En este caso, el texto resultante dentro del párrafo sería literalmente `"<b>Hola que tal</b>"`, es decir, las etiquetas estarían presentes pero no tendrían ningún efecto de formato.
+
+Es importante entender esta diferencia entre `.textContent` para texto puro y métodos como `.innerHTML` si se desea insertar contenido HTML.
+
+`011-textocontent no soporta html.html`
 
 ```html
 <!doctype html>
@@ -6384,6 +8498,17 @@ En resumen, la selección y manipulación de elementos son habilidades fundament
 ```
 
 ### escribir contenido HTML
+<small>Creado: 2025-10-06 13:14</small>
+
+#### Explicación
+
+Este fragmento de código HTML y JavaScript sirve para mostrar cómo se puede modificar el contenido de un elemento en la página web utilizando programación. En este caso, se está cambiando el texto dentro del párrafo `<p>` que tiene un `id` igual a "primero". 
+
+El script JavaScript busca primero el elemento específico usando la función `document.querySelector("#primero")`. Esta función selecciona el primer elemento en el documento con el identificador "primero". Luego, se establece el contenido de este párrafo utilizando la propiedad `.innerHTML`, que permite escribir HTML directamente dentro del elemento. En este caso, cambia el contenido a "<b>Hola que tal</b>", lo cual añade un texto en negrita al párrafo.
+
+Esta técnica es importante porque te permite interactuar dinámicamente con los elementos de tu página web usando JavaScript, permitiéndote actualizar la apariencia o el contenido del sitio sin necesidad de recargar la página.
+
+`012-escribir contenido HTML.html`
 
 ```html
 <!doctype html>
@@ -6401,6 +8526,15 @@ En resumen, la selección y manipulación de elementos son habilidades fundament
 ```
 
 ### formularios
+<small>Creado: 2025-10-06 13:16</small>
+
+#### Explicación
+
+Este código HTML muestra cómo se puede vincular una acción en el navegador con un elemento del formulario utilizando JavaScript. En este caso, hay un campo de texto donde los usuarios pueden escribir (identificado por "id='nombre'") y un botón que dice "Pulsame". El script incluido dentro del bloque `<script>` selecciona el botón usando `document.querySelector("button")`, lo que básicamente busca en todo el documento HTML hasta encontrar la primera etiqueta de botón. A continuación, se añade una propiedad `onclick` al botón, que es un evento que ocurre cuando haces clic en él. Cuando esto sucede, aparece una ventana emergente (alerta) con el mensaje "Has pulsado un botón". Este tipo de código es fundamental para entender cómo hacer que las páginas web sean interactivas, permitiendo a los usuarios interactuar directamente con los elementos visibles del documento.
+
+Este fragmento es importante porque demuestra la integración básica entre HTML (para definir el diseño visual) y JavaScript (para controlar lo que sucede cuando el usuario interactúa con esa página). Es un ejemplo básico pero crucial de cómo se pueden programar respuestas a eventos en una página web, formando así una base para aprender conceptos más avanzados de interactividad web.
+
+`013-formularios.html`
 
 ```html
 <!doctype html>
@@ -6421,6 +8555,17 @@ En resumen, la selección y manipulación de elementos son habilidades fundament
 ```
 
 ### cojo el valor del campo
+<small>Creado: 2025-10-06 13:18</small>
+
+#### Explicación
+
+Este fragmento de código te muestra cómo obtener y utilizar el valor que un usuario introduce en un campo de entrada (input) cuando se hace clic en un botón. 
+
+En primer lugar, se crea una página web básica con HTML que contiene un campo de texto donde los usuarios pueden escribir su nombre y un botón para enviar ese dato. Cuando haces clic en el botón, la función JavaScript anexada busca este elemento utilizando `document.querySelector("button")` para seleccionar al botón y luego le añade una acción a realizar cuando se hace clic (`onclick`). Esta acción recoge el valor introducido en el campo de texto mediante `document.querySelector("#nombre").value`, donde "#nombre" es un selector que identifica específicamente este campo. Finalmente, muestra ese nombre en un cuadro de alerta con la frase "Tu nombre es: [nombre]".
+
+Esta técnica es importante porque permite interactuar con los datos introducidos por el usuario y realizar acciones como enviarlos al servidor o manipularlos directamente en la página web para mejorar la experiencia del usuario.
+
+`014-cojo el valor del campo.html`
 
 ```html
 <!doctype html>
@@ -6444,6 +8589,22 @@ En resumen, la selección y manipulación de elementos son habilidades fundament
 ```
 
 ### ejercicio calculadora sencilla
+<small>Creado: 2025-10-06 13:22</small>
+
+#### Explicación
+
+Este código HTML crea una sencilla calculadora que permite sumar dos números. En la parte visual del sitio web, se muestran dos campos de entrada para ingresar los números y un botón para realizar el cálculo. Cuando el usuario pulsa el botón "Calcula", el script JavaScript en ejecución dentro del `<script>` hace lo siguiente:
+
+1. Selecciona el botón en la página usando `document.querySelector("button")` y luego establece una función que se ejecuta cuando se hace clic en él.
+2. Dentro de esta función, utiliza `document.querySelector("#operando1").value` para obtener los valores ingresados en los campos de entrada con IDs "operando1" y "operando2".
+3. Suma estos dos valores numéricos (sin convertirlos a números primero, lo que resultará en la concatenación como texto).
+4. Finalmente, muestra el resultado sumado en el `<div>` con ID "resultado", utilizando `contieneresultado.textContent = resultado`.
+
+Es importante notar que este código suma los operandos como strings y no como números debido a cómo se obtienen sus valores directamente de los campos de entrada sin convertirlos. Para realizar una operación matemática correcta, sería necesario convertir los valores obtenidos a tipo `Number` antes de sumarlos.
+
+Este ejercicio es muy útil para aprender cómo seleccionar elementos en el DOM (Modelo de Objeto del Documento), como manipular su contenido y gestionar eventos en HTML con JavaScript.
+
+`015-ejercicio calculadora sencilla.html`
 
 ```html
 <!doctype html>
@@ -6475,6 +8636,19 @@ En resumen, la selección y manipulación de elementos son habilidades fundament
 ```
 
 ### cambio de tipo implicito
+<small>Creado: 2025-10-06 13:24</small>
+
+#### Explicación
+
+Este fragmento de código HTML contiene una interfaz simple para realizar una operación matemática básica, específicamente la suma de dos números. En el cuerpo del documento HTML, hay dos campos de entrada (`input type="number"`) donde se introducirán los operandos numéricos y un botón que ejecuta una función JavaScript al ser pulsado.
+
+Cuando el usuario hace clic en el botón "Calcula", la función asociada recoge los valores ingresados en los campos de entrada. Es importante destacar cómo fuerza el cambio del tipo de dato a numérico (con `operando1 *= 1` y `operando2 *= 1`) para que los operandos puedan ser manipulados matemáticamente, ya que por defecto estos valores son strings provenientes del formulario HTML.
+
+Finalmente, la suma de ambos números se calcula y se muestra en un `<div>` con el id "resultado", convirtiendo así el resultado numérico nuevamente a texto para su visualización. Este tipo de manipulación de datos es crucial en desarrollo web cuando necesitas interactuar entre elementos HTML y JavaScript, permitiéndote realizar operaciones complejas que involucren la interacción del usuario con tu aplicación web.
+
+Esta técnica es fundamental para entender cómo se integran las consultas al DOM (Document Object Model) para obtener datos de los usuarios y cómo manipular esos datos en el contexto de una página web dinámica.
+
+`016-cambio de tipo implicito.html`
 
 ```html
 <!doctype html>
@@ -6508,6 +8682,17 @@ En resumen, la selección y manipulación de elementos son habilidades fundament
 ```
 
 ### select con tipo de operacion
+<small>Creado: 2025-10-06 13:25</small>
+
+#### Explicación
+
+Este código HTML crea una página web simple que permite realizar operaciones matemáticas básicas entre dos números. La página contiene dos campos de entrada numérica para ingresar los operandos (números) y un menú desplegable (`<select>`) donde se elige la operación a realizar (suma, resta, multiplicación o división). Además, hay un botón que, al ser presionado, realiza la operación seleccionada y muestra el resultado en una `<div>` con id "resultado".
+
+Cuando el usuario hace clic en el botón, el script JavaScript se ejecuta. Este código primero obtiene los valores de entrada desde los dos campos numéricos y fuerza su tipo a numérico para asegurar que la operación matemática se realice correctamente. Luego, el código suma estos dos operandos (aunque en este ejemplo solo se realiza una suma, pero podría ser extendido fácilmente para incluir las otras operaciones). Finalmente, el resultado de la suma es mostrado dentro del elemento `<div>` con id "resultado".
+
+Este tipo de programa es importante porque demuestra cómo interactuar con los elementos del DOM (Document Object Model) utilizando JavaScript y realizar cálculos básicos. También muestra cómo manejar eventos como clics en botones para ejecutar funciones específicas en la página web, lo que es fundamental para el desarrollo de interfaces interactivas.
+
+`017-select con tipo de operacion.html`
 
 ```html
 <!doctype html>
@@ -6548,6 +8733,19 @@ En resumen, la selección y manipulación de elementos son habilidades fundament
 ```
 
 ### if para seleccion
+<small>Creado: 2025-10-06 13:28</small>
+
+#### Explicación
+
+Este código HTML crea una página web simple que permite realizar operaciones matemáticas básicas como suma, resta, multiplicación y división. En el cuerpo del documento (`<body>`), hay dos campos de entrada para números (`input type="number"` con `id` "operando1" y "operando2"), un menú desplegable (`select`) que permite seleccionar la operación a realizar ("Suma", "Resta", "Multiplicación", "División") y un botón que, al ser pulsado, realiza el cálculo.
+
+Cuando se pulsa el botón, el código JavaScript dentro de `<script>` recoge los valores de entrada proporcionados por el usuario en los campos numéricos y del menú desplegable. Luego, fuerza la conversión de estos valores a números (para asegurarse de que no haya errores al realizar cálculos matemáticos) usando `*= 1`.
+
+A continuación, utiliza una estructura `switch` para determinar qué operación debe realizarse según el valor seleccionado en el menú desplegable. Dependiendo del caso (`case`), se calcula la suma, resta, multiplicación o división de los dos números y se almacena el resultado en la variable `resultado`.
+
+Finalmente, este resultado es mostrado en la pantalla dentro del elemento div con `id="resultado"` utilizando `textContent`. Esto permite que el usuario vea rápidamente el resultado de su cálculo sin tener que recargar la página.
+
+`018-if para seleccion.html`
 
 ```html
 <!doctype html>
@@ -6603,6 +8801,19 @@ En resumen, la selección y manipulación de elementos son habilidades fundament
 ```
 
 ### un poco de estilo
+<small>Creado: 2025-10-06 13:31</small>
+
+#### Explicación
+
+Este código HTML crea una página web simple que permite realizar cálculos básicos como suma, resta, multiplicación y división. La página incluye dos campos de entrada numérica para introducir los números a operar, un menú desplegable para seleccionar la operación matemática deseada (suma, resta, multiplicación o división) y un botón que ejecuta el cálculo cuando se presiona.
+
+El bloque de código CSS en la parte superior define la apariencia general del formulario, asegurando que tenga un fondo blanco con bordes y sea centrado en la página. Los elementos HTML como los campos de entrada, el menú desplegable y el botón tienen estilos específicos para ajustar su tamaño y apariencia.
+
+El script incorporado se ejecuta cuando se presiona el botón "Calcula". Este script recoge los valores ingresados por el usuario en los dos campos de número y en el menú desplegable, convierte estos valores a números enteros (para asegurar que las operaciones matemáticas funcionen correctamente), realiza la operación elegida según lo especificado en el menú desplegable, y finalmente muestra el resultado del cálculo en un div con id "resultado".
+
+Este tipo de código es importante porque demuestra cómo combinar HTML para estructura, CSS para estilo visual, y JavaScript para funcionalidad interactiva básica en una página web. Es útil para estudiantes que están aprendiendo a crear páginas web dinámicas que responden a la entrada del usuario.
+
+`019-un poco de estilo.html`
 
 ```html
 <!doctype html>
@@ -6663,6 +8874,21 @@ En resumen, la selección y manipulación de elementos son habilidades fundament
 ```
 
 ### calculadora completa
+<small>Creado: 2025-10-06 13:33</small>
+
+#### Explicación
+
+Este fragmento de código es el esqueleto básico de un documento HTML, que sirve como la estructura base para crear una página web. En este caso, el archivo aún está vacío y no contiene ninguna información ni estilos visuales.
+
+La parte más importante son las etiquetas `<html>`, que envuelven todo el contenido del documento. Dentro de `<html>`, tenemos dos secciones principales: `<head>` y `<body>`.
+
+- **<head>:** Esta sección es invisible para el usuario final pero muy importante porque aquí puedes incluir metadatos sobre la página, como información del autor, descripciones, palabras clave, enlaces a hojas de estilos externas o scripts JavaScript. En este caso, hay una etiqueta `<style>` vacía dentro del `<head>`, donde podrías poner los estilos CSS para controlar cómo se ve la página.
+
+- **<body>:** Esta es la parte visible del documento que el usuario ve en su navegador cuando visita tu sitio web. Todas las imágenes, texto, videos y elementos interactivos deben estar entre estas etiquetas.
+
+Este archivo HTML vacío está preparado para ser llenado con contenido específico, como la interfaz de una calculadora completa que probablemente se desarrollará a partir de aquí.
+
+`020-calculadora completa.html`
 
 ```html
 <!doctype html>
@@ -6679,6 +8905,19 @@ En resumen, la selección y manipulación de elementos son habilidades fundament
 ```
 
 ### primero creo la interfaz
+<small>Creado: 2025-10-06 13:36</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una estructura básica para la interfaz de una calculadora web. La página comienza con el doctype que especifica que es un documento HTML5, seguido por las etiquetas `<html>`, `<head>` y `<body>` que son los elementos principales del documento.
+
+Dentro del cuerpo (`<body>`), se define un contenedor principal llamado `calculadora` mediante la etiqueta `<div>` con el atributo `id="calculadora"`. Dentro de este contenedor, hay una sección vacía para el encabezado (`<header>`) y dos divs adicionales: uno para mostrar los resultados (llamado "pantalla") y otro para los botones numéricos y operativos (llamado "teclas").
+
+La sección de teclas contiene una tabla (`<table>`) con cinco filas (`<tr>`), cada una representando una fila de botones en la calculadora. Cada celda (`<td>`) dentro de estas filas representa un botón, que puede ser numérico (como '7', '8') o simbólico (como '+', '-', '*'). Algunos de estos botones tienen funciones específicas como 'sqrt' para raíz cuadrada y 'PI' para el número pi.
+
+Esta estructura HTML es la base visual sobre la que se construirá la funcionalidad de una calculadora web, permitiendo a los usuarios interactuar con ella mediante JavaScript.
+
+`021-primero creo la interfaz.html`
 
 ```html
 <!doctype html>
@@ -6740,6 +8979,19 @@ En resumen, la selección y manipulación de elementos son habilidades fundament
 ```
 
 ### un poco de css
+<small>Creado: 2025-10-06 13:41</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una interfaz simple para una calculadora web utilizando CSS para dar estilo a la página. La estructura principal es un div con el id `calculadora`, que contiene elementos como un encabezado y una pantalla donde se mostrarán los cálculos, además de un conjunto de teclas representadas por una tabla HTML.
+
+El CSS estiliza este contenedor principal (`#calculadora`) para darle un aspecto gráfico uniforme con características como un fondo gris oscuro, bordes redondeados y un diseño de columna que usa flexbox. Cada elemento dentro del div `calculadora` ocupa el 100% del ancho disponible, asegurando que la calculadora tenga una apariencia compacta y bien definida.
+
+El div con id `pantalla`, donde se mostrarán los números y resultados de las operaciones, tiene un alto específico y un fondo más oscuro que el resto de la calculadora. Las celdas de la tabla (representando las teclas) tienen un fondo de color claro grisáceo, bordes redondeados y están centradas para facilitar su uso.
+
+Este código es importante porque demuestra cómo combinar HTML y CSS para crear interfaces web interactivas y atractivas. Es especialmente relevante en el contexto de la manipulación de documentos web y el acceso a elementos, mostrando cómo estilizar y organizar los elementos del DOM (Document Object Model) usando selectores CSS.
+
+`022-un poco de css.html`
 
 ```html
 <!doctype html>
@@ -6829,6 +9081,17 @@ En resumen, la selección y manipulación de elementos son habilidades fundament
 ```
 
 ### ahora viene javascript
+<small>Creado: 2025-10-06 13:44</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una calculadora básica con estilo y funcionalidad básica. La estructura principal del documento incluye un contenedor `div` que tiene el id "calculadora", dentro del cual se encuentran otras etiquetas como `header`, `div` para la pantalla (`id="pantalla"`), y una tabla que representa los botones de la calculadora.
+
+El CSS (hoja de estilo) define cómo debe verse cada componente, desde el color de fondo hasta la disposición en la página. Por ejemplo, se establece un fondo gris para la calculadora con bordes redondeados y se especifica que todos sus elementos internos deben ocupar todo su ancho.
+
+En lo que respecta al bloque de JavaScript, este código selecciona los elementos HTML necesarios para interactuar con el usuario: primero encuentra el elemento `div` con id "pantalla" que sirve como la pantalla de visualización de la calculadora. Luego, utiliza `querySelectorAll("td")` para obtener una lista de todos los botones (celdas `<td>`) en la tabla. Para cada botón seleccionado, se establece un evento `onclick`, lo cual significa que cuando el usuario hace clic en cualquier botón, su contenido (texto) se agrega al texto actualmente mostrado en la pantalla (`textContent`), creando así una interacción de teclado virtual para escribir expresiones matemáticas.
+
+`023-ahora viene javascript.html`
 
 ```html
 <!doctype html>
@@ -6930,6 +9193,23 @@ En resumen, la selección y manipulación de elementos son habilidades fundament
 ```
 
 ### resolver la operacion
+<small>Creado: 2025-10-06 13:46</small>
+
+#### Explicación
+
+Este código HTML crea una interfaz simple de una calculadora en el navegador. En el encabezado `<head>`, se definen estilos CSS para dar formato a la calculadora y hacerla más visualmente atractiva. La calculadora está contenida dentro de un `div` con id "calculadora" que tiene un diseño flexible (`flex`) para ajustarse bien en diferentes tamaños de pantalla.
+
+En el cuerpo del documento HTML, hay una estructura básica que incluye un encabezado vacío (donde podrías agregar texto como "Calculadora") y dos divisiones principales: una etiquetada con `id="pantalla"` donde se mostrarán los números y operaciones, y otra con `id="teclas"`, dentro de la cual hay una tabla que contiene las teclas virtuales de la calculadora.
+
+En el script incrustado al final del cuerpo, el código JavaScript hace dos cosas principales:
+
+1. **Manejo de clics en botones**: Selecciona todos los elementos `<td>` (celdas de tabla) y añade un comportamiento que permite a cada celda agregar su contenido al texto actualmente mostrado en la pantalla cuando se hace clic en ella.
+
+2. **Resolución de expresiones matemáticas**: Cuando se hace clic en el botón igual (`=`), se utiliza la función `eval()` para evaluar cualquier expresión matemática escrita en la pantalla y mostrar el resultado.
+
+Este código es importante porque demuestra cómo se pueden manipular elementos del DOM (Document Object Model) con JavaScript, cómo manejar eventos de usuario (como clics), y cómo evaluar expresiones dinámicamente en un navegador web.
+
+`024-resolver la operacion.html`
 
 ```html
 <!doctype html>
@@ -7037,6 +9317,17 @@ En resumen, la selección y manipulación de elementos son habilidades fundament
 ```
 
 ### que funcione el boton borrar
+<small>Creado: 2025-10-06 13:47</small>
+
+#### Explicación
+
+Este código HTML crea una calculadora básica con estilo, que permite realizar operaciones matemáticas y borrar el contenido de la pantalla. La estructura principal incluye un contenedor con id "calculadora", dentro del cual se encuentra una tabla de botones que representan diferentes teclas numéricas y operacionales, así como un espacio para mostrar los cálculos en tiempo real identificado por "pantalla".
+
+En el script incorporado, se selecciona cada uno de los elementos interactivos (como botones) del documento utilizando métodos como `document.querySelector` y `document.querySelectorAll`. Cada botón tiene una función asociada que permite a la calculadora realizar diferentes acciones cuando se hace clic en ellos. Por ejemplo, al presionar un número o operador, éste se añade automáticamente a la pantalla de la calculadora (`pantalla.textContent += this.textContent`). El botón con id "resolver" (representado por el símbolo "=") evalúa la expresión matemática que está en la pantalla usando `eval` y muestra el resultado. Es importante tener cuidado al usar `eval`, ya que puede ejecutar cualquier código JavaScript, lo cual es potencialmente peligroso si se utiliza con datos no confiables.
+
+Además, hay un botón especial identificado por "borrar" (representado por la letra 'C') que, cuando se presiona, limpia toda la expresión en pantalla (`pantalla.textContent = ""`), preparando a la calculadora para realizar nuevos cálculos. Este código es fundamental para entender cómo interactúan los eventos de clic con el contenido del DOM y cómo manipular este contenido dinámicamente según las acciones del usuario.
+
+`025-que funcione el boton borrar.html`
 
 ```html
 <!doctype html>
@@ -7148,6 +9439,17 @@ En resumen, la selección y manipulación de elementos son habilidades fundament
 ```
 
 ### estilizar pantalla
+<small>Creado: 2025-10-06 13:49</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una interfaz simple para una calculadora en una página web. La parte importante está en la sección `<style>` y el bloque `<script>`. En CSS, define estilos específicos para diferentes elementos como la calculadora en sí (`#calculadora`), la pantalla de texto (`#pantalla`) y las teclas numéricas y operaciones dentro de una tabla. Estos estilos incluyen colores de fondo, tamaño, bordes redondeados y alineación del texto.
+
+En el script JavaScript, se inicializan tres variables importantes: `pantalla`, que selecciona la caja donde se mostrarán los números y las operaciones; `botones`, que recoge todos los elementos `<td>` (celdas de tabla) que representan botones en la calculadora; y finalmente `botonresolver` e `ibotonborrar` para el botón de resolución y borrado, respectivamente. Cada botón tiene una función asociada a su evento clic: cuando se presiona un botón numérico o de operación, su valor se añade al contenido actual de la pantalla (`pantalla.textContent += this.textContent`). El botón "=" utiliza `eval()` para calcular el resultado del texto en la pantalla y mostrarlo. Por último, el botón "C" (borrar) limpia completamente la pantalla.
+
+Este código es importante porque demuestra cómo manipular elementos del DOM con JavaScript y cómo aplicar estilos CSS para mejorar la apariencia de una aplicación web interactiva básica como una calculadora.
+
+`026-estilizar pantalla.html`
 
 ```html
 <!doctype html>
@@ -7263,24 +9565,164 @@ En resumen, la selección y manipulación de elementos son habilidades fundament
 </html>
 ```
 
+### Actividades propuestas
+
+El código que has proporcionado es una implementación de una calculadora simple en HTML y JavaScript, con estilos básicos utilizando CSS. Aquí está un resumen de lo que hace cada parte del código:
+
+1. **HTML**:
+   - Define la estructura básica de la calculadora.
+   - Usa una tabla para organizar los botones.
+
+2. **CSS**:
+   - Estiliza la calculadora, ajustando colores, tamaño y texto.
+   - Ajusta el estilo del campo de entrada (pantalla) para que se vea como una pantalla de cálculo real.
+
+3. **JavaScript**:
+   - Maneja los eventos de clic en los botones.
+   - Permite escribir números y operaciones en la pantalla.
+   - Evalúa expresiones matemáticas usando `eval`.
+   - Borra el contenido de la pantalla al hacer clic en "C".
+
+### Resumen del Funcionamiento
+
+#### HTML Structure
+```html
+<div id="calculadora">
+  <header>
+  </header>
+  <div id="pantalla"></div>
+  <div id="teclas">
+    <table width=100%>
+      <!-- Botones de la calculadora -->
+    </table>
+  </div>
+</div>
+```
+
+#### CSS Styling
+```css
+#calculadora {
+  background: grey;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: sans-serif;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#pantalla {
+  height: 50px;
+  background: dimgray;
+  border-radius: 5px;
+  text-align: right;
+  line-height: 50px;
+  font-family: monospace;
+  text-shadow: 0px 1px 2px black;
+  font-size: 30px;
+}
+
+#calculadora table td {
+  width: 20%;
+  background: LightGray;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+```
+
+#### JavaScript Functionality
+```javascript
+// Select elements
+var pantalla = document.querySelector("#pantalla");
+var botones = document.querySelectorAll("td");
+
+// Handle button clicks
+botones.forEach(function(boton) {
+    boton.onclick = function() {
+        pantalla.textContent += this.textContent;
+    }
+});
+
+// Resolve expression on "=" click
+var botonresolver = document.querySelector("#resolver");
+botonresolver.onclick = function() {
+    let expresion = eval(pantalla.textContent);
+    pantalla.textContent = expresion;
+};
+
+// Clear screen on "C" click
+var botonborrar = document.querySelector("#borrar");
+botonborrar.onclick = function() {
+    pantalla.textContent = "";
+};
+```
+
+### Mejoras y Consideraciones
+
+1. **Seguridad con `eval`**: 
+   - El uso de `eval` puede ser inseguro si se ejecuta código no controlado por el desarrollador.
+   - Se recomienda usar una biblioteca matemática segura como Math.js o implementar tu propio parser para expresiones.
+
+2. **Validación**:
+   - Añadir validaciones para evitar errores (por ejemplo, asegurar que la entrada sea válida).
+
+3. **Responsividad**:
+   - Mejorar el diseño para diferentes tamaños de pantalla y dispositivos móviles.
+
+4. **Funcionalidades adicionales**:
+   - Implementar más operaciones matemáticas.
+   - Añadir funcionalidad para cálculos complejos (por ejemplo, exponenciales).
+
+5. **Ajustes Estéticos**:
+   - Mejorar el diseño y la experiencia del usuario con animaciones suaves.
+
+### Ejemplo de Mejora: Uso de `Math.js`
+
+Para mejorar la seguridad y funcionalidad, podrías usar una biblioteca como Math.js:
+
+```html
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.5.2/math.min.js"></script>
+```
+
+Luego reemplazar el uso de `eval` con Math.js:
+
+```javascript
+botonresolver.onclick = function() {
+    let expresion = math.evaluate(pantalla.textContent);
+    pantalla.textContent = expresion;
+};
+```
+
+Esto asegura que las evaluaciones sean seguras y robustas.
+
+
 <a id="creacion-y-modificacion-de-elementos"></a>
 ## Creación y modificación de elementos
 
-En el mundo digital actual, la capacidad de crear y modificar elementos dentro de documentos web es una habilidad fundamental para cualquier desarrollador o diseñador web. Esta subunidad se centra específicamente en cómo interactuar con los elementos HTML y CSS utilizando JavaScript, un lenguaje de programación que permite a los usuarios añadir interactividad y dinamismo a las páginas web.
+### Introducción a los ejercicios
 
-La manipulación de elementos es una técnica poderosa que nos permite cambiar el contenido, la estructura y el estilo de una página web en tiempo real. A través del uso de JavaScript, podemos seleccionar elementos específicos de una página HTML y modificarlos fácilmente. Por ejemplo, podríamos cambiar el texto de un elemento `<p>`, añadir o eliminar clases CSS, o incluso cambiar las propiedades de estilo directamente desde el código.
+Esta carpeta contiene una serie de ejercicios diseñados para enseñar a los estudiantes cómo crear, manipular y personalizar elementos en documentos web utilizando principalmente HTML y JavaScript. Los ejercicios inician con la creación básica de elementos como títulos y parrafos, pasando por el uso de plantillas (templates) para generar contenido dinámico desde datos JSON, hasta aplicar estilos CSS para mejorar la presentación visual del sitio.
 
-Para comenzar a manipular elementos en JavaScript, primero necesitamos seleccionar los elementos que queremos modificar. Esto se puede hacer utilizando selectores como `getElementById`, `getElementsByClassName` o `querySelector`. Una vez seleccionados los elementos, podemos aplicar cambios utilizando propiedades y métodos específicos de JavaScript.
+Los primeros ejercicios se centran en las operaciones básicas con los objetos del DOM como crear elementos, modificar su contenido y añadirlos a otros elementos. Posteriormente, se introduce el uso de plantillas HTML (templates) que permiten generar estructuras de página más complejas y consistentes.
 
-La creación y modificación de elementos es un proceso que implica varios pasos. Primero, debemos crear el nuevo elemento utilizando la función `document.createElement()`, luego establecer sus atributos y contenido utilizando las propiedades correspondientes, y finalmente insertarlo en el documento utilizando métodos como `appendChild()` o `insertBefore()`.
+Finalmente, los ejercicios avanzan hacia la integración con datos externos en formato JSON, mostrando cómo cargar estos datos desde un archivo usando AJAX (`fetch`), procesarlos y personalizar elementos del DOM basándose en esos datos. Esto incluye cambiar el contenido de diferentes partes del documento HTML (como títulos, fechas o textos) y atributos como la fuente de imágenes.
 
-Además de la creación y modificación de elementos individuales, también es común trabajar con colecciones de elementos. JavaScript proporciona varias formas de recorrer y manipular estas colecciones, como bucles `for` tradicionales o el método `forEach()`. Estas técnicas nos permiten realizar operaciones en múltiples elementos simultáneamente, lo que puede ahorrar tiempo y hacer que nuestro código sea más eficiente.
-
-La manipulación de elementos es una habilidad versátil que se aplica en muchos contextos diferentes. Desde la creación de interfaces interactivas hasta la actualización dinámica de contenido sin necesidad de recargar la página, esta técnica es fundamental para el desarrollo web moderno. Al dominarla, los desarrolladores pueden crear experiencias web más ricas y dinámicas, mejorando significativamente la interacción del usuario con su sitio.
-
-En resumen, la manipulación de elementos en documentos web es una poderosa herramienta que permite a los desarrolladores crear contenido interactivo y dinámico. A través de JavaScript, podemos seleccionar, modificar y crear elementos HTML y CSS, lo que nos da el control necesario para construir interfaces web avanzadas y eficientes. Esta habilidad es esencial en cualquier proyecto de desarrollo web y es un paso crucial hacia la creación de aplicaciones web modernas y funcionales.
+Estos ejercicios son esenciales para desarrolladores web que buscan automatizar la generación de contenido en sus sitios y mejorar su capacidad para crear interfaces dinámicas y atractivas.
 
 ### crear elementos
+<small>Creado: 2025-10-13 13:09</small>
+
+#### Explicación
+
+Este código HTML crea una página web simple que utiliza JavaScript para generar dinámicamente un elemento en el navegador. En la parte superior del archivo, se especifica que es un documento HTML5 con la etiqueta `<!doctype html>`. La estructura básica de la página incluye la cabecera (`<head>`), aunque está vacía en este caso, y el cuerpo (`<body>`).
+
+Dentro del cuerpo, hay un contenedor div vacío con el id "contenedor". En el bloque de script al final del cuerpo, se crea una etiqueta h1 mediante JavaScript. Esta nueva etiqueta h1 tiene como contenido el texto "Hola mundo" gracias a la propiedad `textContent`. Sin embargo, en este código específico, no se inserta esta etiqueta recién creada en el documento HTML, por lo que aunque se genera, no aparece visualmente en la página web.
+
+Este tipo de código es importante porque muestra cómo manipular y crear elementos dinámicamente con JavaScript, una habilidad fundamental para desarrolladores web ya que permite cambiar o añadir contenido a las páginas basándose en eventos o condiciones específicas.
+
+`001-crear elementos.html`
 
 ```html
 <!doctype html>
@@ -7298,6 +9740,23 @@ En resumen, la manipulación de elementos en documentos web es una poderosa herr
 ```
 
 ### añado a otro elemento
+<small>Creado: 2025-10-13 13:11</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web sencilla que, al cargarla en el navegador, genera dinámicamente un título "Hola mundo" y lo inserta en la parte del documento especificada. El código JavaScript dentro de la etiqueta `<script>` realiza las siguientes acciones:
+
+1. **Crear un elemento**: `document.createElement("h1")` crea un nuevo elemento HTML de tipo encabezado (`<h1>`) en memoria, pero aún no se añade a la página.
+
+2. **Establecer el contenido del título**: Luego, `titulo.textContent = "Hola mundo";` especifica que dentro de este nuevo elemento `<h1>` debe aparecer el texto "Hola mundo".
+
+3. **Seleccionar un contenedor existente en la página**: La línea `var contenedor = document.querySelector("#contenedor");` busca y selecciona el elemento con el ID "contenedor" ya presente en la estructura HTML.
+
+4. **Insertar el título dentro del contenedor**: Finalmente, `contenedor.appendChild(titulo);` añade el nuevo título al final de este contenedor vacío `<div id="contenedor"></div>` que estaba declarado en el código HTML principal.
+
+Este método es importante porque permite modificar y ampliar la página web dinámicamente con JavaScript, en lugar de definir todo el contenido estáticamente desde el inicio.
+
+`002-añado a otro elemento.html`
 
 ```html
 <!doctype html>
@@ -7317,6 +9776,17 @@ En resumen, la manipulación de elementos en documentos web es una poderosa herr
 ```
 
 ### mover un elemento
+<small>Creado: 2025-10-13 13:14</small>
+
+#### Explicación
+
+Este código HTML es un ejemplo sencillo que muestra cómo crear y manipular elementos en una página web utilizando JavaScript. La estructura principal del documento incluye dos divisiones vacías con id "origen" y "destino". En el bloque de script, se crea un elemento `<h1>` con el texto "Me van a mover".
+
+Luego, el código selecciona los dos elementos div mediante sus ids usando la función `document.querySelector()`. Este método permite acceder a los elementos del DOM (Document Object Model) por su id único.
+
+Finalmente, el código inserta el elemento `<h1>` que se creó en el principio dentro del contenedor con id "origen" utilizando el método `appendChild()`. Esto significa que el texto "Me van a mover" aparecerá visible dentro de la división "origen". El propósito principal aquí es enseñar cómo crear y manipular elementos dinámicamente usando JavaScript, lo cual es una habilidad clave en desarrollo web.
+
+`003-mover un elemento.html`
 
 ```html
 <!doctype html>
@@ -7342,6 +9812,17 @@ En resumen, la manipulación de elementos en documentos web es una poderosa herr
 ```
 
 ### eliminar y mover
+<small>Creado: 2025-10-13 13:15</small>
+
+#### Explicación
+
+Este código HTML crea una página web sencilla que muestra cómo mover un elemento desde un lugar a otro en la misma página utilizando JavaScript. En este caso, se está trabajando con dos `div` que tienen los identificadores "origen" y "destino". El script JavaScript primero crea un encabezado `<h1>` con el texto "Me van a mover".
+
+El código utiliza funciones de JavaScript para manipular elementos del DOM (Modelo de Objeto del Documento). Primero, se selecciona el elemento `div` con el id "origen" y luego se añade el nuevo `<h1>` creado dentro de este `div`. Luego, el texto se elimina de ese lugar usando la función `.remove()` para quitar completamente el elemento del DOM. Finalmente, el mismo elemento que antes estaba en "origen" se agrega al `div` con id "destino".
+
+Esta técnica es útil cuando necesitas manipular dinámicamente el contenido de una página web sin recargarla, permitiendo así a los usuarios interactuar y ver cambios directamente en la interfaz.
+
+`004-eliminar y mover.html`
 
 ```html
 <!doctype html>
@@ -7371,6 +9852,17 @@ En resumen, la manipulación de elementos en documentos web es una poderosa herr
 ```
 
 ### voy a crear un articulo
+<small>Creado: 2025-10-13 13:43</small>
+
+#### Explicación
+
+Este código HTML crea una estructura básica para un artículo web y utiliza JavaScript para añadir elementos como título, fecha, texto y una imagen. En la parte superior del archivo, se define el encabezado (`<head>`) vacío y un cuerpo (`<body>`) que contiene un contenedor de tipo `<article>`.
+
+Dentro del bloque de script, se selecciona el artículo existente utilizando `document.querySelector("article")`. Luego, se crean elementos HTML como un título (h3), una fecha (time), un párrafo de texto (p) y una imagen (img). Cada uno de estos elementos recibe contenido específico (como texto o la ruta de la imagen) antes de ser añadidos al contenedor del artículo mediante `appendChild()`. Esto permite que el documento HTML generado tenga un formato completo y estructurado para mostrar detalles sobre un artículo.
+
+Esta técnica es importante porque muestra cómo se pueden manipular dinámicamente los documentos web utilizando JavaScript, permitiendo una mayor interactividad y personalización de páginas en tiempo real.
+
+`005-voy a crear un articulo.html`
 
 ```html
 <!doctype html>
@@ -7404,6 +9896,17 @@ En resumen, la manipulación de elementos en documentos web es una poderosa herr
 ```
 
 ### plantilla articulo
+<small>Creado: 2025-10-13 13:23</small>
+
+#### Explicación
+
+Este fragmento de código HTML te muestra cómo crear una plantilla que puedes utilizar para generar múltiples artículos en una página web. La estructura principal del documento se define con `<!doctype html>`, indicando que es un documento HTML5, seguido por las etiquetas `<html>`, `<head>` y `<body>` que conforman la base de cualquier archivo HTML.
+
+Dentro del cuerpo del documento (`<body>`), hay una sección vacía (`<section></section>`) donde los artículos generados a partir de la plantilla serán insertados. La parte interesante es el uso de la etiqueta `<template>`, que contiene un marcador de posición para un artículo HTML estándar, incluyendo un título (`<h1>`), una fecha (`<time>`), un párrafo (`<p>`) y una imagen (`<img src="">`). Esta plantilla no se muestra automáticamente en la página web; su función es ser utilizada por JavaScript para crear nuevos artículos dinámicamente.
+
+Finalmente, el script encargado de manipular esta plantilla se coloca dentro de las etiquetas `<script></script>`. Este fragmento de código prepara todo lo necesario para que puedas usar la plantilla de manera eficiente en tu página web, permitiendo así la creación y modificación rápida de múltiples artículos sin tener que escribir cada uno desde cero. Es especialmente útil cuando trabajas con sitios dinámicos o blogs donde los contenidos cambian frecuentemente.
+
+`006-plantilla articulo.html`
 
 ```html
 <!doctype html>
@@ -7431,6 +9934,19 @@ En resumen, la manipulación de elementos en documentos web es una poderosa herr
 ```
 
 ### uso de la plantilla
+<small>Creado: 2025-10-13 13:27</small>
+
+#### Explicación
+
+Este código HTML crea una página web simple que utiliza un elemento `<template>` para reutilizar un diseño de artículo en múltiples lugares. En la parte central del documento, hay un bloque `<section>`, donde se van a insertar los artículos generados a partir de la plantilla.
+
+El archivo contiene un elemento `<template>` con el identificador `plantilla1` que es invisible y no afecta al rendimiento visual inicial de la página. Dentro de este `<template>` hay una estructura básica para un artículo web: título, fecha (en formato `<time>`), texto y una imagen.
+
+El bloque de código JavaScript selecciona esta plantilla y crea tres copias exactas del contenido de la plantilla utilizando el método `cloneNode(true)`, que duplica no solo el HTML sino también cualquier elemento interno. Cada uno de estos clonados se añade a la `<section>` vacía en la página mediante el método `appendChild()`. De esta manera, aunque hay una única definición de diseño para un artículo, puedes generar múltiples artículos simplemente cambiando los datos dentro del HTML duplicado.
+
+Este tipo de técnica es muy útil cuando necesitas crear varias entradas similares en tu sitio web (como posts en un blog), ya que permite mantener el código limpio y fácil de gestionar.
+
+`007-uso de la plantilla.html`
 
 ```html
 <!doctype html>
@@ -7468,6 +9984,19 @@ En resumen, la manipulación de elementos en documentos web es una poderosa herr
 ```
 
 ### plantilla personalizada
+<small>Creado: 2025-10-13 13:30</small>
+
+#### Explicación
+
+Este código HTML crea una página web que utiliza un concepto llamado "plantillas" para generar contenidos dinámicos. En el cuerpo del documento, hay un elemento `<section>` vacío y un bloque de código `<template>` con un identificador `id="plantilla1"` donde se define la estructura básica de un artículo (con título, fecha y texto).
+
+En el script incluido en la página, primero seleccionamos este bloque de plantilla y luego seleccionamos la sección en donde queremos insertar los artículos. El script crea dos copias del contenido dentro del template usando `cloneNode(true)`, lo que permite mantener cualquier elemento dentro del template original sin afectarlos.
+
+Para cada clon creado (`clon1` y `clon2`), el script cambia dinámicamente el texto de los elementos `<h1>`, `<time>` y `<p>` con información específica para cada artículo. Por ejemplo, para `clon1` se establece un título "Titulo del articulo 1", una fecha "2025-10-13" y el mismo texto en ambos artículos. Después de modificar estos valores, los dos clones son añadidos a la `<section>` mediante `appendChild`.
+
+Este método es útil para personalizar y repetir bloques estructurales sin tener que escribir todo desde cero cada vez, facilitando así la creación de páginas dinámicas o blogs.
+
+`008-plantilla personalizada.html`
 
 ```html
 <!doctype html>
@@ -7510,6 +10039,19 @@ En resumen, la manipulación de elementos en documentos web es una poderosa herr
 ```
 
 ### blog html
+<small>Creado: 2025-10-13 13:32</small>
+
+#### Explicación
+
+Este fragmento de código HTML representa la estructura básica de una página web que se utiliza para un blog. La página incluye elementos estándar como el `<header>`, el `<main>` y el `<footer>`. El encabezado contiene títulos que dan nombre al blog ("El blog de Jose Vicente") y una subcategoría para indicar las últimas noticias. 
+
+En la sección del cuerpo, notamos un bloque llamado `<template>` con el id "articulo". Este es un elemento HTML5 utilizado para almacenar plantillas de código que pueden ser clonadas o utilizadas dinámicamente en JavaScript sin necesidad de introducir directamente el código HTML en el script. En este caso, la plantilla incluye las estructuras básicas de un artículo del blog: título, fecha, texto y una imagen.
+
+El bloque `<script>` vacío al final es donde se colocarán los scripts de JavaScript que manipularán estos elementos del DOM (Document Object Model), permitiendo crear, mover o eliminar artículos en la página web basándose en la plantilla definida. Esto es crucial para hacer el blog dinámico y responder a acciones del usuario.
+
+Este archivo HTML sirve como base estructural para ejercicios más avanzados que podrían incluir la creación y modificación de elementos del DOM usando JavaScript, mostrando cómo se integran múltiples tecnologías web (HTML, CSS, JS) para crear una página interactiva y funcional.
+
+`009-blog html.html`
 
 ```html
 <!doctype html>
@@ -7546,6 +10088,15 @@ En resumen, la manipulación de elementos en documentos web es una poderosa herr
 ```
 
 ### vamos a leer el json
+<small>Creado: 2025-10-13 13:37</small>
+
+#### Explicación
+
+Este fragmento de código HTML muestra cómo un sitio web básico puede interactuar con archivos externos utilizando JavaScript. La estructura principal del sitio incluye elementos comunes como el encabezado (header), el cuerpo principal (main) y el pie de página (footer). También hay una sección especial llamada "template" que sirve para crear plantillas reutilizables en la página web.
+
+En particular, lo interesante es el código JavaScript ubicado al final del documento dentro de las etiquetas `<script>`. Aquí se utiliza la función `fetch()` para solicitar un archivo JSON llamado "blog.json". Una vez obtenido este archivo, se procesa como datos JSON utilizando el método `.json()`, y finalmente los datos son mostrados en la consola del navegador mediante `console.log(datos)`. Este proceso es importante porque permite al sitio web dinámicamente cargar y manipular información desde un archivo externo, lo que puede ser muy útil para manejar datos de manera flexible sin necesidad de cambiar el código HTML directamente.
+
+`010-vamos a leer el json.html`
 
 ```html
 <!doctype html>
@@ -7588,6 +10139,17 @@ En resumen, la manipulación de elementos en documentos web es una poderosa herr
 ```
 
 ### ahora clono la plantilla
+<small>Creado: 2025-10-13 13:40</small>
+
+#### Explicación
+
+Este fragmento de código HTML incluye JavaScript que sirve para crear una estructura básica de un blog. En la parte inferior del archivo, se define un `template` con ID "articulo", el cual actúa como plantilla para cada artículo nuevo en el blog.
+
+El código JavaScript hace uso de la función `fetch()` para obtener datos desde un archivo llamado "blog.json". Una vez obtenidos los datos, estos son interpretados como JSON. Luego, por cada elemento dentro del array de datos (que representa cada artículo), se crea una copia de la plantilla HTML y se añade al contenedor principal (`main`) en el documento.
+
+Esta técnica es importante porque permite reutilizar código y mantener la estructura básica de los elementos del blog sin necesidad de escribir repetidamente lo mismo. Además, facilita la actualización dinámica del contenido del sitio web a partir de datos externos (en este caso, un archivo JSON), lo que simplifica el proceso de gestión de contenido para sitios web.
+
+`011-ahora clono la plantilla.html`
 
 ```html
 <!doctype html>
@@ -7638,6 +10200,17 @@ En resumen, la manipulación de elementos en documentos web es una poderosa herr
 ```
 
 ### personalizo el contenido del clon
+<small>Creado: 2025-10-13 13:41</small>
+
+#### Explicación
+
+Este código HTML crea una página web estática que se actualiza dinámicamente cuando un archivo JSON llamado `blog.json` es cargado desde el servidor. La parte principal de la lógica ocurre dentro del bloque `<script>`, donde el navegador solicita datos al servidor mediante la función `fetch()`. Una vez obtenidos los datos, estos son interpretados como JSON y luego iterados para crear una copia (clon) de un plantilla HTML almacenada en la etiqueta `<template>`.
+
+Cada artículo dentro del archivo JSON se utiliza para personalizar el contenido del clon creado a partir de esta plantilla. Esto significa que cada título, fecha e imagen se reemplazan con los datos específicos del artículo correspondiente desde el archivo `blog.json`. Finalmente, estos clones individualizados son añadidos al `<main>` de la página web para mostrarlos en el navegador.
+
+Este método es útil porque permite separar completamente la lógica y el contenido dinámico (guardado en JSON) de la estructura estática del sitio (HTML), facilitando así su mantenimiento y actualización.
+
+`012-personalizo el contenido del clon.html`
 
 ```html
 <!doctype html>
@@ -7689,6 +10262,21 @@ En resumen, la manipulación de elementos en documentos web es una poderosa herr
 ```
 
 ### personalizo mas propiedades
+<small>Creado: 2025-10-13 13:42</small>
+
+#### Explicación
+
+Este fragmento de código HTML está diseñado para mostrar cómo se pueden manipular elementos en una página web usando JavaScript. La página tiene un esqueleto básico que incluye encabezados, pies de página y un área central llamada `main` donde se van a insertar los artículos.
+
+El bloque más importante del código se encuentra entre las etiquetas `<script>`. Aquí se utiliza la función `fetch()` para buscar un archivo JSON llamado "blog.json". Una vez que el archivo es encontrado, se procesa y se convierte en datos JavaScript. Luego, con cada uno de los objetos (artículos) dentro del JSON, se hace lo siguiente:
+
+1. Se clona una plantilla HTML predefinida.
+2. Se personalizan las partes específicas del clon: título (`h3`), fecha (`time`), texto (`p`) e imagen (`img`).
+3. Finalmente, el clon de cada artículo se inserta dentro del elemento `main`.
+
+Este enfoque permite a la página dinámicamente cargar y mostrar contenido basado en datos externos (el archivo JSON), lo que es útil para blogs o sitios web donde el contenido debe ser actualizado frecuentemente sin tener que modificar directamente el HTML.
+
+`013-personalizo mas propiedades.html`
 
 ```html
 <!doctype html>
@@ -7743,6 +10331,17 @@ En resumen, la manipulación de elementos en documentos web es una poderosa herr
 ```
 
 ### un poco de css para acabar
+<small>Creado: 2025-10-13 13:51</small>
+
+#### Explicación
+
+Este fragmento de código HTML es un ejemplo sencillo pero completo del manejo de documentos web, combinando HTML, CSS y JavaScript. En la parte superior, se define el estilo básico de la página utilizando CSS interno (inserción directa dentro del tag `<style>` en la cabecera), estableciendo colores, espacios y disposición general. Esto incluye un fondo gris claro para el cuerpo (`body`), bordes redondeados para las imágenes y una estructura grid para el contenido principal.
+
+En la sección de JavaScript, el código realiza una petición a un archivo `blog.json`, que contiene información sobre los artículos del blog. Una vez obtenida esta información, cada artículo es procesado individualmente. Para cada uno, se crea un duplicado (clon) de un elemento HTML definido en un `<template>` dentro del documento. Este clon recibe sus datos específicos y luego se añade a la página real dentro de una etiqueta `<main>`. Esto significa que el contenido dinámico de los artículos no está codificado directamente en el HTML, sino que se genera desde un archivo JSON externo.
+
+Este método es importante porque permite mantener el diseño (HTML/CSS) y el contenido (JSON/JavaScript) separados, lo cual facilita la actualización del blog sin necesidad de editar el código fuente del documento web. Además, este enfoque puede hacer que el mantenimiento sea más sencillo y escalable, especialmente cuando se trata de gestionar muchos artículos con diferentes tipos de información.
+
+`014-un poco de css para acabar.html`
 
 ```html
 <!doctype html>
@@ -7806,6 +10405,17 @@ En resumen, la manipulación de elementos en documentos web es una poderosa herr
 ```
 
 ### blog
+<small>Creado: 2025-10-13 13:51</small>
+
+#### Explicación
+
+El archivo que has proporcionado contiene información estructurada en formato JSON, que es un lenguaje de marcado sencillo para intercambiar datos. En este caso, el archivo almacena detalles sobre varios artículos de blog. Cada artículo se representa como un objeto dentro de una lista (array). Cada uno de estos objetos tiene las mismas propiedades: "titulo", que contiene el título del artículo; "fecha", que indica la fecha en la que fue publicado; "texto", que es el contenido principal del artículo; y "imagen", que es el nombre del archivo de imagen asociado a ese artículo. 
+
+Este tipo de estructura JSON es muy útil porque permite organizar datos complejos de manera clara y fácilmente accesible para otros programas o scripts. Por ejemplo, podrías usar un script en JavaScript para leer este archivo JSON e insertar automáticamente cada artículo en una página web de blog, haciendo que el proceso de administración del contenido (CMS) sea más eficiente.
+
+Es importante notar que hay algunos artículos repetidos en la lista, lo cual podría ser un error de duplicidad durante la creación o actualización del archivo. En una aplicación real, se debería garantizar que cada artículo esté correctamente identificado y no haya duplicados para mantener el orden y evitar confusiones en la gestión de contenidos.
+
+`blog.json`
 
 ```json
 [
@@ -7854,22 +10464,159 @@ En resumen, la manipulación de elementos en documentos web es una poderosa herr
 ]
 ```
 
+### Actividades propuestas
+
+### Actividades para Estudiantes
+
+#### 1. Crear Elementos Básicos en JavaScript
+**Descripción**: Crea una página web simple que genere y añada elementos HTML utilizando JavaScript.
+
+- **Objetivo**: Familiarizarse con la creación y manipulación de elementos DOM.
+  
+- **Ejemplo a seguir**: `001-Crear-Elem-Basico.js`
+
+  ```html
+  <script>
+    // Crear un elemento h1 y añadirlo al cuerpo del documento
+    let titulo = document.createElement('h1');
+    titulo.textContent = "Bienvenidos a mi sitio web";
+    
+    document.body.appendChild(titulo);
+  </script>
+  ```
+
+- **Paso**: Añade más elementos HTML (div, p) y modifica su contenido usando JavaScript.
+
+#### 2. Uso de Template en Clases
+**Descripción**: Utiliza una plantilla HTML para generar múltiples clases o artículos dinámicamente.
+
+- **Objetivo**: Comprender cómo utilizar templates en HTML para crear elementos repetitivos.
+  
+- **Ejemplo a seguir**: `012-personalizo el contenido del clon.html`
+
+  ```html
+  <template id="articulo">
+    <article>
+      <h3>Titulo de prueba</h3>
+      <time>Fecha de prueba</time>
+      <p>Texto de prueba</p>
+      <img src="">
+    </article>
+  </template>
+
+  <script>
+    var plantilla = document.querySelector("#articulo");
+    let clon = plantilla.content.cloneNode(true);
+    
+    document.body.appendChild(clon);
+  </script>
+  ```
+
+- **Paso**: Personaliza el contenido del template y añade más artículos.
+
+#### 3. Manipulación de JSON para Renderizado
+**Descripción**: Extrae datos desde un archivo JSON y renderiza una lista de elementos HTML basados en esos datos.
+
+- **Objetivo**: Manejar datos externos (JSON) e integrarlos con el DOM.
+  
+- **Ejemplo a seguir**: `013-personalizo mas propiedades.html`
+
+  ```html
+  <script>
+    fetch("blog.json")
+      .then(resultado => resultado.json())
+      .then(datos => {
+        datos.forEach(articulo => {
+          let clon = plantilla.content.cloneNode(true);
+          clon.querySelector('h3').textContent = articulo.titulo;
+          // ... (continúa asignando el resto del contenido)
+          document.body.appendChild(clon);
+        });
+      });
+  </script>
+  ```
+
+- **Paso**: Personaliza la estructura HTML y estilos basándose en los datos JSON.
+
+#### 4. Diseño de Blog Dinámico
+**Descripción**: Diseña un blog con diseño responsivo que renderice datos desde un archivo JSON.
+
+- **Objetivo**: Integrar diseño CSS, manejo de eventos y creación dinámica de elementos.
+  
+- **Ejemplo a seguir**: `014-un poco de css para acabar.html`
+
+  ```html
+  <style>
+    /* Estilos personalizados */
+  </style>
+
+  <script>
+    // Codigo para renderizar datos del JSON en el DOM
+  </script>
+  ```
+
+- **Paso**: Mejora la estructura y estiliza utilizando CSS Grid o Flexbox.
+
+#### 5. Eventos Interactivos
+**Descripción**: Implementa funcionalidades interactivas como clics, cambios de estado u otros eventos.
+
+- **Objetivo**: Aprender a manejar eventos en JavaScript para mejorar la experiencia del usuario.
+  
+- **Ejemplo a seguir**: `014-un poco de css para acabar.html`
+
+  ```html
+  <script>
+    document.querySelector('button').addEventListener('click', function() {
+      // Acción al hacer clic
+    });
+  </script>
+  ```
+
+- **Paso**: Implementa funcionalidades como abrir menús, cambiar contenido o mostrar/ocultar elementos.
+
+---
+
+### Descripción de las Actividades:
+
+1. **Crear Elementos Básicos en JavaScript**:
+   - Añadir texto y estilos a un elemento H1.
+   - Crear varios divs con diferentes clases y modificar su contenido usando JS.
+
+2. **Uso de Template en Clases**:
+   - Utilizar una plantilla HTML para generar múltiples elementos dinámicamente.
+   - Personalizar los contenidos de la plantilla según un conjunto de datos.
+
+3. **Manipulación de JSON para Renderizado**:
+   - Extraer y manipular datos desde un archivo JSON.
+   - Crear elementos HTML basados en esos datos y mostrarlos en la página.
+
+4. **Diseño de Blog Dinámico**:
+   - Diseñar una estructura de blog con diseño responsivo.
+   - Integrar los datos del blog desde el archivo JSON al DOM.
+
+5. **Eventos Interactivos**:
+   - Implementar interactividad en la página web usando eventos como clic, hover y otros.
+
+---
+
+Estas actividades ayudarán a los estudiantes a desarrollar habilidades fundamentales en JavaScript, HTML y CSS para crear páginas web dinámicas e interactivas.
+
+
 <a id="eliminacion-de-elementos"></a>
 ## Eliminación de elementos
 
-En el mundo digital, la capacidad de manipular documentos web es una habilidad fundamental para cualquier desarrollador o profesional que trabaje con interfaces de usuario. La eliminación de elementos es un aspecto crucial de esta competencia, ya que permite a los programadores modificar dinámicamente las páginas web en respuesta a acciones del usuario o cambios en el estado de la aplicación.
+### Introducción a los ejercicios
 
-La eliminación de elementos en documentos web se realiza mediante JavaScript, un lenguaje de script que permite interactuar con el contenido y la estructura de una página. Al eliminar elementos, los desarrolladores pueden ajustar la interfaz de usuario en tiempo real, mostrando o ocultando información según sea necesario. Por ejemplo, cuando un usuario hace clic en un botón para cerrar una ventana emergente, es posible que desees eliminar esa ventana del DOM (Modelo de Objeto del Documento) para evitar que continue ocupando espacio y recursos.
-
-La eliminación de elementos se realiza mediante el método `remove()` o `removeChild()`. El método `remove()` elimina directamente el elemento seleccionado del DOM, mientras que `removeChild()` lo hace eliminando un hijo específico de un elemento padre. Ambos métodos son muy útiles para actualizar la interfaz de usuario en respuesta a eventos.
-
-Es importante tener cuidado al eliminar elementos, ya que esto puede causar problemas si no se maneja correctamente. Por ejemplo, si intentas eliminar un elemento que aún tiene referencias en el código JavaScript, es posible que obtengas errores cuando trates de acceder a ese elemento más adelante. Para evitar este problema, es recomendable eliminar los elementos solo cuando ya no sean necesarios o cuando hayan sido completamente reemplazados.
-
-La eliminación de elementos también puede ser utilizada para optimizar el rendimiento de la página web. Al eliminar elementos que ya no son relevantes, se libera espacio en memoria y se reduce la carga del navegador, lo que puede mejorar significativamente la velocidad de respuesta de la aplicación.
-
-En resumen, la eliminación de elementos es una habilidad esencial para cualquier desarrollador web. A través de JavaScript, los programadores pueden modificar dinámicamente las páginas web en respuesta a eventos y acciones del usuario, mostrando o ocultando información según sea necesario. Con el método `remove()` o `removeChild()`, los desarrolladores pueden eliminar elementos del DOM con facilidad, pero es importante tener cuidado al hacerlo para evitar problemas de rendimiento y errores en el código.
+En esta carpeta de ejercicios, trabajarás con la manipulación y eliminación de elementos HTML mediante JavaScript. Los ejercicios te enseñarán cómo seleccionar elementos del DOM (Modelo de Objeto del Documento), eliminar estos elementos visibles en la página web e incluso gestionar su estado en memoria una vez han sido eliminados. Aprenderás a usar métodos como `remove()` y a manipular variables para mantener o eliminar referencias a los elementos después de su eliminación visual, lo que es fundamental para entender cómo JavaScript gestiona el DOM dinámicamente.
 
 ### estatico
+<small>Creado: 2025-10-16 14:08</small>
+
+#### Explicación
+
+Este fragmento de código HTML es una página web muy básica que contiene tres divs con diferentes identificadores. Cada uno de estos divs tiene un texto único que indica su nombre, como "Yo soy el contenedor 1", y los identificadores son únicos para cada uno: "contenedor1", "contenedor2" y "contenedor3". Estos elementos se encuentran dentro del cuerpo (body) de la página web. En esta fase, no hay ningún código JavaScript en la sección `<script>` que haga algo con estos divs; sin embargo, el propósito de este archivo es probablemente servir como punto de partida para aprender cómo manipular elementos HTML mediante programación en archivos posteriores, donde podrías añadir scripts para eliminar o mover estos contenedores.
+
+`001-estatico.html`
 
 ```html
 <!doctype html>
@@ -7888,6 +10635,17 @@ En resumen, la eliminación de elementos es una habilidad esencial para cualquie
 ```
 
 ### elimino un elemento
+<small>Creado: 2025-10-16 14:09</small>
+
+#### Explicación
+
+Este código HTML muestra cómo eliminar un elemento del documento web utilizando JavaScript. En la parte superior, se ven tres divis (div) con diferentes id: "contenedor1", "contenedor2" y "contenedor3". Cada uno tiene una frase que lo identifica.
+
+En el bloque de script al final del cuerpo (body), el código selecciona el elemento div con el id "contenedor1" usando `document.querySelector("#contenedor1")` y luego elimina este elemento utilizando el método `.remove()`. Como resultado, cuando se carga esta página en un navegador, verás que desaparece la primera división del contenedor.
+
+Esta técnica es muy útil para manipular dinámicamente los elementos de una página web sin necesidad de recargarla completa.
+
+`002-elimino un elemento.html`
 
 ```html
 <!doctype html>
@@ -7907,6 +10665,19 @@ En resumen, la eliminación de elementos es una habilidad esencial para cualquie
 ```
 
 ### sigue en la memoria
+<small>Creado: 2025-10-16 14:10</small>
+
+#### Explicación
+
+Este fragmento de código HTML muestra cómo se puede manipular dinámicamente el contenido de una página web usando JavaScript. En este caso, específicamente, está mostrando cómo eliminar un elemento del documento.
+
+La parte relevante es el script que se ejecuta al final de la página. Este script selecciona el primer contenedor (que tiene el id "contenedor1") y luego lo elimina utilizando la función `remove()`. Esto significa que después de ejecutar este código, el contenido "<div id='contenedor1'>Yo soy el contenedor 1</div>" ya no aparecerá en la página web.
+
+Finalmente, se utiliza `console.log(eliminar)` para mostrar en la consola del navegador el objeto que acabamos de eliminar. Aunque el elemento ha sido eliminado de la página, el objeto sigue estando disponible en la variable `eliminar`, por lo que este comando nos permite verificar que el proceso de eliminación se realizó correctamente.
+
+Este tipo de manipulación es muy útil cuando necesitas actualizar dinámicamente las páginas web basándote en acciones del usuario o cambios en los datos.
+
+`003-sigue en la memoria.html`
 
 ```html
 <!doctype html>
@@ -7927,6 +10698,20 @@ En resumen, la eliminación de elementos es una habilidad esencial para cualquie
 ```
 
 ### lo pongo en otra parte
+<small>Creado: 2025-10-16 14:11</small>
+
+#### Explicación
+
+Este código HTML contiene un ejemplo sencillo de cómo mover y eliminar elementos en una página web usando JavaScript. En el cuerpo del documento, hay tres divs con id únicos ("contenedor1", "contenedor2" y "contenedor3") y otro div con id "papelera". El script que se ejecuta cuando la página carga hace lo siguiente:
+
+1. Selecciona el elemento con el id "contenedor1" usando `document.querySelector` y guarda este elemento en una variable llamada `eliminar`.
+2. Llama al método `.remove()` sobre esta variable, lo cual quita ese div del documento HTML.
+3. Imprime la referencia al elemento eliminado en la consola (aunque ya no está visible en el navegador).
+4. Finalmente, selecciona el div con id "papelera" y usa el método `appendChild` para añadir nuevamente el elemento que se había quitado al final de este nuevo contenedor.
+
+Este ejemplo muestra cómo puedes manipular la estructura de una página web dinámicamente después de que ya ha sido cargada, permitiendo a los desarrolladores cambiar la disposición de elementos sin necesidad de recargar la página completa. Es útil para construir interfaces interactivas y responsive.
+
+`004-lo pongo en otra parte.html`
 
 ```html
 <!doctype html>
@@ -7950,6 +10735,19 @@ En resumen, la eliminación de elementos es una habilidad esencial para cualquie
 ```
 
 ### lo elimino pero de verdad
+<small>Creado: 2025-10-16 14:11</small>
+
+#### Explicación
+
+Este código HTML te enseña cómo eliminar un elemento de una página web y luego moverlo a otro lugar. En este caso, el script selecciona un div con el id "contenedor1" utilizando la función `document.querySelector()`, que es similar a buscar un elemento específico en un grupo de elementos. Luego, utiliza el método `.remove()` para eliminar ese div del documento.
+
+Después de eliminar el div, aparece un mensaje en la consola que muestra que el objeto todavía existe aunque ya no está visible en la página porque se ha eliminado. Esto demuestra que JavaScript permite manejar los objetos aún después de haberlos quitado del árbol DOM (el modelo de estructura y contenido de una página web). 
+
+Finalmente, el script intenta agregar el elemento eliminado a un div con id "papelera" utilizando `appendChild()`. Sin embargo, al momento de tratar de hacer esto, se observa que `eliminar` ha sido establecido como `null`, lo cual significa que ya no hay referencia al nodo eliminado y no es posible volver a añadirlo. Esto enseña la importancia de asegurarse de tener una referencia válida al elemento antes de intentar manipular su ubicación en el DOM después de eliminarlo.
+
+Este ejercicio es importante porque demuestra cómo funciona realmente la eliminación de elementos en JavaScript y cómo es que estos elementos, aunque ya no se visualizan en la página web, todavía pueden afectar a tu código si no manejas adecuadamente sus referencias.
+
+`005-lo elimino pero de verdad.html`
 
 ```html
 <!doctype html>
@@ -7974,22 +10772,70 @@ En resumen, la eliminación de elementos es una habilidad esencial para cualquie
 </html>
 ```
 
+### Actividades propuestas
+
+### Actividades Propuestas
+
+1. **Eliminación de Elementos**
+   - Desarrolla un script que elimine el elemento con id "contenedor2" y asegúrate de que desaparezca por completo del DOM.
+   - Objetivo: Aprender a manipular elementos HTML utilizando métodos como `remove()`.
+
+2. **Eliminación Multiple**
+   - Crea una función en JavaScript que permita eliminar múltiples elementos del documento a través de un selector CSS o id específico (por ejemplo, todos los divs).
+   - Objetivo: Comprender cómo seleccionar y manipular varios nodos utilizando métodos DOM.
+
+3. **Elemento Eliminado pero Persistente**
+   - Modifica el script para que elimine el elemento "contenedor1" pero aún permita que su contenido se muestre en otro lugar del documento.
+   - Objetivo: Aprender cómo mover elementos eliminados a otras partes de la página y mantener sus referencias.
+
+4. **Reutilización de Elementos**
+   - Tras eliminar un elemento, implementa una función para reutilizar el mismo espacio con nuevo contenido.
+   - Objetivo: Comprender el uso del método `replaceWith()` en lugar de `remove()`.
+
+5. **Manejo de Errores**
+   - Escribe código que maneje posibles errores cuando se intenta acceder o eliminar un elemento no existente.
+   - Objetivo: Aprender a utilizar bloques try-catch para capturar y gestionar excepciones en JavaScript.
+
+6. **Persistencia del Objeto Eliminado**
+   - Crea una función que elimine el contenedor1 pero permita verificar si aún existe como objeto en la memoria.
+   - Objetivo: Aprender sobre el comportamiento de los objetos después de ser eliminados del DOM.
+
+7. **Eliminación Definitiva**
+   - Diseña un script que no solo elimine visualmente un elemento, sino que también libere completamente su referencia para evitar el uso innecesario.
+   - Objetivo: Comprender la diferencia entre eliminar un nodo y liberar sus referencias.
+
+8. **Interactividad con Eliminación**
+   - Crea una interfaz simple donde los usuarios puedan seleccionar y eliminar elementos del DOM a través de clics o botones interactivos.
+   - Objetivo: Aprender a combinar eventos de usuario con manipulaciones del DOM para crear interfaces web dinámicas.
+
+9. **Eliminación Condicional**
+   - Desarrolla un código que elimine un elemento solo si cumple ciertas condiciones (por ejemplo, si su contenido es vacío).
+   - Objetivo: Combinar condicionales y manipulaciones del DOM para controlar la interacción con los elementos de manera dinámica.
+
+10. **Uso de Papelera Virtual**
+    - Implementa una "papelera virtual" en el documento donde se muevan todos los elementos eliminados.
+    - Objetivo: Aprender a organizar y gestionar mejor los elementos del DOM mediante la creación de estructuras virtuales para la gestión de eliminaciones.
+
+
 <a id="manipulacion-de-estilos"></a>
 ## Manipulación de estilos
 
-La manipulación de estilos es una habilidad fundamental en el desarrollo web que permite a los desarrolladores personalizar la apariencia visual de las páginas web. Esta técnica es esencial para crear interfaces de usuario atractivas y funcionales, adaptándose así a las necesidades específicas del proyecto o del público objetivo.
+### Introducción a los ejercicios
 
-En este contexto, aprender a manipular estilos implica dominar el uso de hojas de estilo en cascada (CSS), un lenguaje que permite definir la apariencia y el formato de los elementos HTML. A través de CSS, se pueden controlar aspectos como colores, fuentes, tamaños de texto, márgenes, bordes, posiciones y muchas otras propiedades visuales.
-
-La manipulación de estilos no es solo sobre cambiar la apariencia superficial; también implica entender cómo estructurar el código CSS para mantenerlo limpio, eficiente y fácilmente mantenible. Esto incluye la utilización de selectores específicos, la organización en clases y IDs, y la aplicación de técnicas como el uso de preprocesadores (como Sass o Less) para facilitar la gestión del código.
-
-Además, la manipulación de estilos es un proceso iterativo que requiere práctica y experimentación. Los desarrolladores deben estar dispuestos a probar diferentes combinaciones de propiedades y valores hasta lograr el efecto deseado. Esta capacidad creativa y experimental es crucial para crear interfaces web únicas y personalizadas.
-
-La manipulación de estilos también implica conocer cómo interactuar con JavaScript, otro lenguaje fundamental en el desarrollo web. A través de eventos y métodos de JavaScript, se pueden modificar dinámicamente los estilos de los elementos HTML, permitiendo una interactividad más rica y fluida.
-
-En resumen, la manipulación de estilos es un aspecto integral del desarrollo web que requiere conocimientos técnicos, creatividad y práctica. A través de esta habilidad, se pueden crear interfaces de usuario atractivas, funcionales y personalizadas, adaptándose así a las necesidades específicas del proyecto o del público objetivo.
+Este conjunto de ejercicios se centra en la manipulación dinámica del estilo y contenido de documentos web utilizando JavaScript. A lo largo de los diferentes archivos, los estudiantes aprenderán a modificar propiedades CSS como el color de texto, fondo y relleno de elementos HTML, así como a gestionar eventos como clics o cambios de foco para actualizar estilos en tiempo real. Además, se trabajan con la adición y eliminación de clases CSS para mejorar la interactividad y retroalimentación del usuario, culminando en un ejercicio práctico que calcula y muestra la letra correspondiente a un número de DNI español basándose en los cambios de estilo según la validez del dato ingresado.
 
 ### ejercicio
+<small>Creado: 2025-10-16 14:14</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web simple que cambia el color del texto en un elemento específico cuando se carga la página. En el cuerpo del documento, hay un `<div>` con el id `contenedor`, dentro del cual se encuentra el texto "Este es el contenido". El bloque de script JavaScript selecciona este div utilizando su id y luego modifica el estilo CSS para cambiar el color del texto a rojo.
+
+Lo que hace importante este código es demostrar cómo puedes manipular los estilos de un elemento HTML usando JavaScript. Específicamente, muestra cómo acceder a elementos por su id con `document.querySelector` y cómo cambiar sus propiedades de estilo (en este caso, la propiedad `color`) para modificar la apariencia del documento dinámicamente después de que la página se ha cargado.
+
+Esta técnica es útil cuando deseas aplicar cambios visuales basados en eventos o condiciones sin necesidad de recargar la página completa, lo cual mejora significativamente la experiencia y el rendimiento del usuario.
+
+`001-ejercicio.html`
 
 ```html
 <!doctype html>
@@ -8007,6 +10853,15 @@ En resumen, la manipulación de estilos es un aspecto integral del desarrollo we
 ```
 
 ### color de fondo
+<small>Creado: 2025-10-16 14:14</small>
+
+#### Explicación
+
+El código que has proporcionado crea una página web muy básica usando HTML y un poco de JavaScript. En la sección `<head>` del documento, no hay ningún estilo o meta información añadida; simplemente es vacío en este caso. La parte importante está dentro del cuerpo (`<body>`) donde tienes un bloque de texto envuelto en una etiqueta `div` que tiene el atributo `id="contenedor"`. Esto significa que puedes identificar fácilmente esta sección del documento para manipularla con JavaScript.
+
+En la parte inferior del cuerpo, justo antes de cerrar la etiqueta `</html>`, hay un bloque de código JavaScript que selecciona este elemento div y cambia su apariencia. Primero, el script busca y guarda en una variable llamada `contenedor` el objeto HTML correspondiente a nuestro `<div>` usando la función `document.querySelector()`. Luego, dentro del script, se modifican dos propiedades de estilo CSS: `color`, que establece el color del texto contenido dentro del div como rojo ("red"), y `background`, que cambia el fondo del div a azul ("blue"). Esto demuestra cómo puedes usar JavaScript para cambiar dinámicamente la apariencia de elementos en tu página web, lo cual es muy útil para interactuar con los usuarios y hacer páginas más interactivas.
+
+`002-color de fondo.html`
 
 ```html
 <!doctype html>
@@ -8025,6 +10880,13 @@ En resumen, la manipulación de estilos es un aspecto integral del desarrollo we
 ```
 
 ### ahora pongo padding
+<small>Creado: 2025-10-16 14:15</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web simple que modifica el estilo de un elemento div con JavaScript. En la parte principal del documento, hay un `<div>` con el id "contenedor" que contiene el texto "Este es el contenido". Dentro de la etiqueta `<script>`, se selecciona este div utilizando `document.querySelector("#contenedor")` y luego se cambian sus estilos. Específicamente, se establece el color del texto en rojo (`color = "red"`), el fondo en azul (`background = "blue"`) y añade un relleno interno de 10 píxeles (`padding = "10px"`). Esto demuestra cómo JavaScript puede interactuar directamente con los elementos HTML para cambiar su apariencia dinámicamente, lo cual es útil cuando se necesita personalizar el diseño de una página basándose en diferentes condiciones o eventos.
+
+`003-ahora pongo padding.html`
 
 ```html
 <!doctype html>
@@ -8044,6 +10906,17 @@ En resumen, la manipulación de estilos es un aspecto integral del desarrollo we
 ```
 
 ### estilo en campo
+<small>Creado: 2025-10-16 14:16</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web muy sencilla que contiene un campo de texto donde puedes escribir algo. En el bloque `<head>` no se incluyen estilos ni scripts, lo cual es normal si quieres mantener la simplicidad y centrarte en el contenido principal del documento.
+
+Lo interesante ocurre en el bloque `<body>`, donde hay una etiqueta `<input type="text">` que genera un cuadro de texto para que el usuario pueda ingresar información. A continuación, se usa JavaScript para seleccionar este elemento específico usando `document.querySelector("input")`. Esto es como decirle al navegador: "Encuentra la primera etiqueta 'input' en la página". Luego, a través de la propiedad `.style.background`, se cambia el color de fondo del cuadro de texto a gris. Esta línea de código modifica directamente las propiedades CSS (estilo) del elemento seleccionado.
+
+Este código es útil para enseñar cómo manipular los estilos de elementos HTML en tiempo real utilizando JavaScript, lo cual permite hacer cambios dinámicos en la apariencia de una página web sin necesidad de recargarla. Es un buen ejercicio práctico que ayuda a entender la integración entre HTML y JavaScript.
+
+`004-estilo en campo.html`
 
 ```html
 <!doctype html>
@@ -8061,6 +10934,17 @@ En resumen, la manipulación de estilos es un aspecto integral del desarrollo we
 ```
 
 ### estilo con evento
+<small>Creado: 2025-10-16 14:17</small>
+
+#### Explicación
+
+Este fragmento de código HTML está diseñado para mostrar cómo se puede cambiar el estilo de un elemento en una página web utilizando JavaScript. En este caso, la página contiene un campo de texto (`<input type="text">`) y usa JavaScript para modificar el color de fondo del campo cuando el usuario interactúa con él.
+
+En primer lugar, el código selecciona el campo de entrada usando `document.querySelector("input")` y lo almacena en una variable llamada `entrada`. Luego, se establece inicialmente el color de fondo del campo a gris (`background = "grey"`). Sin embargo, la parte más interesante es que cuando el usuario hace clic o coloca el cursor sobre el campo (evento `onfocus`), el código cambia automáticamente el color de fondo del mismo a un ligero verde (`lightgreen`). Esto permite al usuario visualmente saber cuándo está interactuando con el elemento.
+
+Esta técnica es muy útil en diseño web ya que ayuda a mejorar la interactividad y experiencia del usuario, haciéndola más intuitiva y agradable.
+
+`005-estilo con evento.html`
 
 ```html
 <!doctype html>
@@ -8081,6 +10965,21 @@ En resumen, la manipulación de estilos es un aspecto integral del desarrollo we
 ```
 
 ### varios eventos
+<small>Creado: 2025-10-16 14:18</small>
+
+#### Explicación
+
+Este código HTML crea una página web muy simple que tiene un cuadro de texto (un `<input>`). En el cuerpo del documento, en la sección `<script>`, se utiliza JavaScript para modificar cómo aparece este cuadro de texto basándose en las interacciones del usuario. 
+
+Primero, el código selecciona el elemento `input` utilizando `document.querySelector("input")`. Luego, establece que el fondo del cuadro de texto será gris claro (`lightgrey`) por defecto.
+
+Las partes más interesantes ocurren cuando el usuario interactúa con el cuadro de texto. Cuando se centra en él (click o tabulación), la función `onfocus` cambia el color de fondo a verde claro (`lightgreen`). Esto ayuda a señalar visualmente que el campo está activo y listo para ser utilizado.
+
+Cuando el usuario deja de enfocarse en el cuadro de texto (por ejemplo, al hacer clic fuera del mismo), la función `onblur` vuelve a establecer el color de fondo en gris claro (`lightgrey`). Esto es útil para dar feedback visual sobre el estado actual del campo y mejorar la experiencia del usuario.
+
+Esta técnica de cambiar los estilos basada en eventos interactivos es muy común en desarrollo web, ya que ayuda a hacer las interfaces más intuitivas y amigables.
+
+`006-varios eventos.html`
 
 ```html
 <!doctype html>
@@ -8104,6 +11003,17 @@ En resumen, la manipulación de estilos es un aspecto integral del desarrollo we
 ```
 
 ### clases css
+<small>Creado: 2025-10-16 14:21</small>
+
+#### Explicación
+
+Este código HTML es un ejemplo sencillo que muestra cómo cambiar el estilo de un elemento del documento web en respuesta a una acción del usuario. En este caso, se utiliza JavaScript para añadir una clase CSS específica al elemento `input` cuando el usuario hace clic y comienza a escribir en él (evento `onfocus`). 
+
+La parte importante es que dentro del `<head>` del documento, hay un bloque de código CSS donde se define cómo debería verse normalmente el campo de entrada (`input`) y cómo debe cambiar su apariencia cuando tenga la clase `.activado` aplicada. Cuando el usuario selecciona ese campo para escribir en él, el script JavaScript añade dicha clase a través del método `classList.add()`. Esto hace que el fondo del elemento cambie de un color gris claro (`lightgray`) a verde claro (`lightgreen`), lo cual notifica visualmente al usuario que el campo está activo y listo para recibir datos.
+
+Esta técnica es útil en la creación de interfaces de usuario dinámicas, donde los cambios visuales ayudan a guiar y mejorar la experiencia del usuario.
+
+`007-clases css.html`
 
 ```html
 <!doctype html>
@@ -8135,6 +11045,17 @@ En resumen, la manipulación de estilos es un aspecto integral del desarrollo we
 ```
 
 ### quitar clase css
+<small>Creado: 2025-10-16 14:22</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web simple que tiene un campo de texto (input) con características especiales. Cuando el usuario hace clic en este campo o coloca el cursor sobre él para escribir, la parte del código JavaScript cambia automáticamente el aspecto del campo usando estilos CSS.
+
+En específico, cuando el campo de texto obtiene el foco (es decir, cuando se le da clic a este), aparece un estilo adicional llamado "activado" que hace que el fondo del input cambie a un color verde claro. Este cambio ocurre gracias al evento `onfocus` en JavaScript, donde se utiliza la propiedad `classList.add("activado")`. Una vez que el usuario sale de este campo (evento `onblur`) y pierde el foco del input, se quita el estilo "activado" con `classList.remove("activado")`.
+
+Este tipo de interacción mejora la experiencia del usuario, ya que proporciona una respuesta visual clara sobre cuándo está interactuando directamente con un elemento en particular.
+
+`008-quitar clase css.html`
 
 ```html
 <!doctype html>
@@ -8169,6 +11090,17 @@ En resumen, la manipulación de estilos es un aspecto integral del desarrollo we
 ```
 
 ### validador de dni
+<small>Creado: 2025-10-16 14:27</small>
+
+#### Explicación
+
+Este código HTML crea una página web sencilla que incluye un formulario para validar el DNI (Documento Nacional de Identidad) de España. La estructura básica de la página se compone de tres partes: encabezado (`header`), contenido principal (`main`) e información del pie de página (`footer`). Dentro del cuerpo del documento, hay una etiqueta `<input>` que permite al usuario introducir un número.
+
+El código JavaScript dentro de la etiqueta `<script>` calcula la letra correspondiente a un número de DNI. Para ello, utiliza una cadena predefinida llamada `cadena` que contiene todas las letras posibles para los números del DNI y un número ficticio `numero`. El programa calcula el resto cuando se divide este número entre 23 (`resto = numero % 23`) y usa ese valor como índice para extraer la letra correspondiente de la cadena. Finalmente, muestra esta letra en la consola del navegador.
+
+Esta validación es importante porque asegura que el DNI introducido por el usuario tenga una estructura correcta, ya que cada número debe corresponder a una única letra según un cálculo matemático específico.
+
+`009-validador de dni.html`
 
 ```html
 <!doctype html>
@@ -8197,6 +11129,17 @@ En resumen, la manipulación de estilos es un aspecto integral del desarrollo we
 ```
 
 ### numero dinámico
+<small>Creado: 2025-10-16 14:30</small>
+
+#### Explicación
+
+Este código HTML contiene una página web simple que tiene como objetivo calcular y mostrar la letra del DNI (Documento Nacional de Identidad) español en tiempo real mientras el usuario escribe un número en un cuadro de texto. La estructura básica de la página incluye elementos comunes como `<header>`, `<main>` y `<footer>`.
+
+En el bloque de JavaScript, se define una función llamada `calculaLetra` que toma un número como entrada y devuelve la letra correspondiente del DNI según una cadena fija que contiene todas las letras posibles. La función obtiene la letra calculando el resto del número dividido por 23 y usa ese resultado para indexar en la cadena.
+
+Además, se seleccionan dos elementos del DOM: `entrada`, que es el cuadro de texto donde el usuario introduce el número, y `salida`, que es un `<div>` con el ID "letra" donde se mostrará la letra calculada. Se agrega un evento `onkeyup` al cuadro de texto para que cada vez que el usuario presione una tecla (y así cambie el contenido del campo), se actualice automáticamente el div mostrando la letra correspondiente a través de la función `calculaLetra`. Esto proporciona una interacción en tiempo real y dinámica entre el usuario y la página web.
+
+`010-numero dinámico.html`
 
 ```html
 <!doctype html>
@@ -8230,6 +11173,23 @@ En resumen, la manipulación de estilos es un aspecto integral del desarrollo we
 ```
 
 ### clases de estilo
+<small>Creado: 2025-10-16 14:34</small>
+
+#### Explicación
+
+Este código HTML crea una página web simple que permite al usuario ingresar un número de DNI (Documento Nacional de Identidad) español. La página incluye estilos básicos y un script que verifica si el número ingresado tiene la longitud correcta y calcula la letra correspondiente del DNI.
+
+En el `<head>` del documento, se define una hoja de estilo interna con reglas CSS para formularios y clases específicas que indican el estado de los campos (correcto o error). Estos estilos ayudan a mejorar la legibilidad y la interactividad de la página web.
+
+El cuerpo (`<body>`) contiene un formulario sencillo compuesto por una etiqueta `<input>` para ingresar números y un bloque de div vacío donde se mostrará la letra del DNI calculada. También hay una cabecera (`<header>`) que muestra el título de la página y un pie de página (`<footer>`) con información de derechos de autor.
+
+El script en el `<body>` utiliza JavaScript para interactuar con los elementos HTML. Crea dos variables, `entrada` y `salida`, que seleccionan el campo de entrada y el div de salida respectivamente. La función `calculaLetra()` toma un número como entrada y devuelve la letra correspondiente a ese número en el DNI español.
+
+Cuando el usuario presiona una tecla mientras está escribiendo en el campo `<input>`, se dispara el evento `onkeyup`. El script verifica si el contenido del campo tiene 8 dígitos. Si es así, añade la clase "correcto" al campo de entrada; en caso contrario, elimina todas las clases y añade la clase "error". Luego, independientemente del estado, actualiza el div `salida` con la letra calculada basándose en el número ingresado.
+
+Esta página web es un ejemplo práctico de cómo combinar HTML, CSS y JavaScript para crear una aplicación interactiva que proporciona inmediata retroalimentación al usuario sobre la validez del DNI.
+
+`011-clases de estilo.html`
 
 ```html
 <!doctype html>
@@ -8272,6 +11232,17 @@ En resumen, la manipulación de estilos es un aspecto integral del desarrollo we
 ```
 
 ### supedito el calculo a solo cuando es correcto
+<small>Creado: 2025-10-16 14:35</small>
+
+#### Explicación
+
+Este código HTML crea una página web simple que permite al usuario ingresar un número de DNI (Documento Nacional de Identidad) y muestra la letra correspondiente del DNI. La página incluye estilos CSS directamente en el archivo HTML para dar formato a los elementos, como el color de fondo de los campos de entrada.
+
+En el cuerpo del documento, hay un campo de entrada de tipo número donde el usuario puede escribir los 8 dígitos del DNI. Cuando el usuario escribe o modifica este número y suelta la tecla (evento `onkeyup`), el código JavaScript se ejecuta para verificar si el número tiene exactamente 8 dígitos. Si es así, la función `calculaLetra()` se llama con el valor del campo de entrada como argumento, calculando la letra correspondiente basada en un patrón predefinido y mostrándola dentro del div identificado por `id="letra"`. Además, agrega una clase CSS llamada "correcto", que cambia el fondo del campo a verde para indicar que el número es válido. Si el número no tiene 8 dígitos, se quita la clase "correcto" y se añade una clase "error", cambiando el color de fondo del campo a coral.
+
+Este código es importante porque demuestra cómo interactuar con elementos del DOM (Modelo de Objetos de Documento) mediante JavaScript para manipular estilos en tiempo real basándose en las acciones del usuario, lo que mejora la experiencia del usuario al proporcionar retroalimentación visual inmediata.
+
+`012-supedito el calculo a solo cuando es correcto.html`
 
 ```html
 <!doctype html>
@@ -8315,6 +11286,19 @@ En resumen, la manipulación de estilos es un aspecto integral del desarrollo we
 ```
 
 ### estilo
+<small>Creado: 2025-10-16 14:46</small>
+
+#### Explicación
+
+Este código HTML es una página web simple que se utiliza para calcular la letra del DNI a partir de los números introducidos por el usuario. La estructura básica de la página incluye un encabezado (`header`), un contenido principal (`main`) y un pie de página (`footer`). En el cuerpo principal, hay un campo de entrada numérica donde el usuario puede escribir los números del DNI.
+
+El estilo es aplicado directamente en una etiqueta `<style>` dentro de la sección `<head>`, lo que ayuda a definir cómo debe verse la página: fondo claro, texto centrado y algunos elementos con bordes redondeados. Las clases CSS como `.correcto` y `.error` cambian el color de fondo del campo de entrada en función de si los datos introducidos son válidos o no.
+
+En el bloque `<script>`, se define una función `calculaLetra()` que calcula la letra correspondiente al DNI basándose en un string fijo y devolviendo la letra correcta según el número proporcionado. El script también gestiona los eventos de teclado (`onkeyup`) para hacer que el campo de entrada cambie su apariencia dependiendo del tamaño de lo que se haya introducido, añadiendo o eliminando clases CSS y actualizando el texto en un párrafo dentro del pie de página.
+
+Este código es importante porque demuestra cómo integrar JavaScript con HTML y CSS para proporcionar retroalimentación instantánea al usuario y mejorar la interactividad de una página web.
+
+`013-estilo.html`
 
 ```html
 <!doctype html>
@@ -8377,6 +11361,21 @@ En resumen, la manipulación de estilos es un aspecto integral del desarrollo we
 ```
 
 ### mejoramos mas el estilo
+<small>Creado: 2025-10-16 14:51</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web simple que permite al usuario calcular la letra del DNI español a partir de los números introducidos. La página tiene un diseño cuidado y utiliza CSS directamente en el `<head>` para estilizar elementos como el fondo, la fuente, el tamaño y el color de los textos y bordes.
+
+En el cuerpo de la página, hay tres secciones principales: `header`, `main` y `footer`. En la sección principal (`<main>`), hay un campo de entrada que acepta números (`type="number"`) para introducir los dígitos del DNI. Además, hay un div con el id "letra", donde mostrará la letra calculada del DNI.
+
+El código también incluye una función JavaScript llamada `calculaLetra` que toma un número como entrada y devuelve la letra correspondiente del DNI basándose en una cadena fija de letras. Esta función se utiliza cuando el usuario escribe en el campo de entrada.
+
+Además, hay eventos manejados por JavaScript para hacer que la página sea interactiva. Cuando el usuario presiona las teclas dentro del campo de entrada (`onkeyup`), el código comprueba si el valor tiene una longitud de 8 caracteres (lo cual es correcto para un DNI). Si es así, cambia el estilo y muestra la letra calculada; en caso contrario, marca el input como error e indica cuántos caracteres ha introducido el usuario. Esto ayuda al usuario a entender fácilmente si ha ingresado los datos correctamente o no.
+
+Esta página web es útil porque combina HTML para estructurar la página, CSS para mejorar su apariencia y JavaScript para añadir interactividad y funcionalidad, lo que demuestra cómo las diferentes tecnologías de desarrollo web pueden trabajar juntas.
+
+`014-mejoramos mas el estilo.html`
 
 ```html
 <!doctype html>
@@ -8444,13 +11443,224 @@ En resumen, la manipulación de estilos es un aspecto integral del desarrollo we
 </html>
 ```
 
+### Actividades propuestas
+
+### Actividades Propuestas
+
+1. **Cambio de Estilo Básico**
+   - Desarrolla un documento HTML que permita cambiar el color del texto y fondo en una etiqueta `div` usando JavaScript.
+   - Objetivo: Familiarizarse con la manipulación básica de estilos CSS a través de código JavaScript.
+
+2. **Aplicar Estilo a Componentes Interactivos**
+   - Crea un formulario simple que cambie el color del fondo de una entrada de texto al recibir enfoque.
+   - Objetivo: Aprender cómo aplicar estilos dinámicos y responder a eventos en elementos HTML.
+
+3. **Uso de Clases CSS para Estilo Dinámico**
+   - Diseña un formulario que añada o remueva clases CSS según el estado del campo de entrada (foco, desenfoque).
+   - Objetivo: Comprender cómo utilizar las propiedades `classList.add` y `classList.remove` en JavaScript.
+
+4. **Validación Interactiva**
+   - Implementa un sistema para validar automáticamente la longitud de una entrada numérica e informar al usuario si es correcto o incorrecto.
+   - Objetivo: Aprender a combinar JavaScript con estilos CSS para proporcionar retroalimentación en tiempo real.
+
+5. **Calculadora de Letra DNI**
+   - Construye un formulario que calcula y muestra la letra correspondiente del número del DNI introducido por el usuario.
+   - Objetivo: Practicar el manejo de eventos, funciones y estilos condicionales en JavaScript y CSS.
+
+6. **Estilo Responsive**
+   - Mejora una interfaz existente añadiendo bordes redondeados a ciertos elementos y asegurándose que sea responsive al cambiar el tamaño de la ventana.
+   - Objetivo: Aprender técnicas básicas para mejorar la accesibilidad visual y responsividad en diseños web.
+
+7. **Interacción con Estilos CSS Dinámicos**
+   - Crea un componente donde una entrada de texto cambie su color del borde al recibir o perder enfoque.
+   - Objetivo: Aprender a manipular propiedades específicas del estilo (como el borde) dinámicamente.
+
+8. **Diseño y Estilo Complejo**
+   - Diseña un formulario con estilos más detallados que incluyan validación de entrada, cambio de fondo y retroalimentación visual.
+   - Objetivo: Integrar múltiples conceptos aprendidos en proyectos más complejos para mejorar habilidades prácticas.
+
+Estas actividades están diseñadas para ayudar a los estudiantes a familiarizarse con la manipulación dinámica del estilo CSS usando JavaScript, así como con técnicas de validación y diseño responsivo básico.
+
+
 <a id="curriculum-1"></a>
 ## Curriculum
+
 
 <a id="portafolio"></a>
 ## Portafolio
 
+### Introducción a los ejercicios
+
+Tu código HTML y JavaScript para crear una ventana modal que se abre al hacer clic en las imágenes está casi listo. Sin embargo, hay algunos detalles adicionales que puedes mejorar para asegurar un funcionamiento más eficiente y profesional. Aquí te dejo algunas sugerencias:
+
+1. **Cargar la imagen correcta**: Actualmente todas las imágenes del modal son `images.jpeg`. Necesitas hacer que cada imagen muestre su propia imagen en el modal.
+
+2. **Cerrar la ventana modal**: Añade una forma para cerrar la ventana modal, como un botón o haciendo clic fuera de ella.
+
+3. **Optimizar los estilos**: Mejora los estilos para que sean más responsivos y adaptativos a diferentes tamaños de pantalla.
+
+Aquí te muestro cómo puedes mejorar tu código:
+
+### HTML
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <style>
+        body {
+            background: DarkSlateGray;
+            color: LightGray;
+            font-family: sans-serif;
+        }
+        header, footer, main {
+            width: 80vw; /* Ajusta para pantallas más pequeñas */
+            margin: auto;
+            text-align: center;
+            padding: 20px;
+        }
+        main {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+        }
+        main img {
+            width: 100%;
+            border: 2px solid white;
+            box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+            cursor: pointer; /* Cambia el puntero a mano cuando se pasa sobre la imagen */
+        }
+        #contienemodal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.6);
+            display: none;
+            justify-content: center;
+            align-items: center;
+        }
+        #modal {
+            width: 80%; /* Ajusta para pantallas más pequeñas */
+            max-width: 400px;
+            height: auto;
+            padding: 20px;
+            background: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            box-shadow: 0px 10px 20px black;
+        }
+        #modal img {
+            width: 95%; /* Ajusta el tamaño de la imagen en el modal */
+            height: auto;
+            cursor: default; /* Cambia a puntero por defecto */
+        }
+        .cerrar-modal {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .cerrar-modal span {
+            font-size: 20px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Jose Vicente Carratala</h1>
+    <h2>Portafolio</h2>
+</header>
+<main>
+    <!-- Imágenes de ejemplo -->
+    <article><img src="images/image1.jpeg" alt="Imagen 1"></article>
+    <article><img src="images/image2.jpeg" alt="Imagen 2"></article>
+    <article><img src="images/image3.jpeg" alt="Imagen 3"></article>
+</main>
+<footer>
+    <!-- Footer content if needed -->
+</footer>
+
+<div id="contienemodal">
+    <div id="modal">
+        <button class="cerrar-modal"><span>&times;</span></button>
+        <img src="" id="modal-image" alt="">
+    </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    let imagenes = document.querySelectorAll("img");
+    
+    imagenes.forEach(function(imagen) {
+        imagen.onclick = function() {
+            const modalImageSrc = imagen.getAttribute('src');
+            document.querySelector("#modal img").setAttribute('src', modalImageSrc);
+            document.querySelector("#contienemodal").style.display = "flex";
+        }
+        
+        // Cerrar el modal
+        document.querySelector('.cerrar-modal').onclick = function () {
+            document.querySelector('#contienemodal').style.display = 'none';
+        };
+    
+    });
+    
+    window.addEventListener('click', (e) => { 
+        if (e.target === document.getElementById("contienemodal")) {
+            document.querySelector("#contienemodal").style.display = "none";
+        }
+    });
+});
+</script>
+</body>
+</html>
+```
+
+### Explicación de las mejoras:
+
+1. **Carga de imagen correcta**:
+   - Al hacer clic en una imagen, cambia el atributo `src` del elemento `<img>` dentro del modal para que sea la misma que la imagen clicada.
+
+2. **Botón de cierre**:
+   - Añadimos un botón cerrar con el símbolo "X" que cierra la ventana modal cuando se hace clic en él.
+
+3. **Cerrar al hacer clic fuera del modal**:
+   - Se añade un evento `click` a la ventana para que si el usuario hace clic fuera de ella, ésta se cierre.
+
+4. **Estilos mejorados**:
+   - El ancho y alto de las imágenes en el modal han sido ajustados.
+   - El contenedor del modal ahora tiene bordes redondeados y una sombra.
+   - Se añade `cursor: pointer` a las imágenes para que se muestre un puntero al pasar sobre ellas.
+
+Esto debería proporcionar una mejor experiencia de usuario con tu ventana modal.
+
 ### inicio portafolio
+<small>Creado: 2025-10-30 14:45</small>
+
+#### Explicación
+
+Este código HTML es la estructura básica de una página web que sirve como inicio para un portafolio personal. Comienza con la declaración `<!docytpe html>`, aunque nota que hay un error tipográfico y debería ser `<!DOCTYPE html>`. Esto indica al navegador que el documento que sigue está escrito en HTML5.
+
+El código define tres secciones principales de una página web: `<head>`, `<body>`, y las partes estructurales dentro del cuerpo como `<header>`, `<main>` y `<footer>`. En la cabecera (`<header>`), hay dos encabezados que probablemente representan el nombre del usuario (en este caso, "Jose Vicente Carratala") y una breve descripción de la página ("Portafolio").
+
+El contenido principal de la página está en la etiqueta `<main>`, aunque en esta versión inicial no se ha añadido nada. Finalmente, hay un bloque vacío para el pie de página (`<footer>`), donde normalmente se incluirían detalles como derechos de autor o enlaces a redes sociales.
+
+Esta estructura es importante porque ayuda a los motores de búsqueda y lectores de pantalla a entender la organización y propósito de cada parte de la página web, lo que puede mejorar tanto el SEO (posicionamiento en buscadores) como la accesibilidad.
+
+`001-inicio portafolio.html`
 
 ```html
 <!docytpe html>
@@ -8471,6 +11681,19 @@ En resumen, la manipulación de estilos es un aspecto integral del desarrollo we
 ```
 
 ### fondo negro
+<small>Creado: 2025-10-30 14:46</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web simple con un diseño básico que incluye un fondo oscuro y texto claro. La estructura principal de la página se compone de tres elementos: `header`, `main` e `footer`.
+
+En el `<head>` del documento, hay un bloque de estilo CSS que define cómo debe verse el contenido de la página. Aquí, se establece que el color de fondo es DarkSlateGray (un tono oscuro), el texto se muestra en LightGray para buena legibilidad y se recomienda usar una fuente sin serifa (`sans-serif`).
+
+En el `<body>`, se incluye un `header` con dos encabezados: uno grande que contiene el nombre "Jose Vicente Carratala" (probablemente la identificación del autor), y otro de tamaño medio titulado "Portafolio", lo cual indica que este es un sitio web dedicado a mostrar trabajos o proyectos. Aunque no hay contenido en las secciones `main` y `footer`, estas etiquetas HTML proporcionan una estructura semántica para la página, indicando áreas donde podrían añadirse más detalles sobre el portafolio del autor.
+
+Este tipo de diseño con un fondo oscuro es común en sitios web modernos y puede darle a tu trabajo un aspecto profesional y limpio.
+
+`002-fondo negro.html`
 
 ```html
 <!docytpe html>
@@ -8498,6 +11721,17 @@ En resumen, la manipulación de estilos es un aspecto integral del desarrollo we
 ```
 
 ### bloques principales
+<small>Creado: 2025-10-30 14:47</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una estructura básica para la página principal de un portafolio web. La sección `<head>` contiene estilos CSS que definen cómo se verá el contenido de la página, como el color del fondo (DarkSlateGray), el color del texto (LightGray) y la fuente utilizada (sans-serif). Además, establece unas reglas para las etiquetas HTML `header`, `footer` y `main`, especificando que estos elementos tendrán un ancho de 600 píxeles, estarán centrados en la página (`margin:auto`), tendrá un relleno interno de 20 píxeles (`padding:20px`) y el texto dentro de ellos estará alineado al centro.
+
+En la sección `<body>`, puedes ver una estructura típica dividida en `header`, `main` y `footer`. El `header` contiene los títulos del portafolio, con un nombre (`h1`) y un subtítulo (`h2`). La etiqueta `main` está vacía por ahora y es donde se colocarían la mayor parte de las características principales del sitio web. Por último, el `footer`, que también está vacío en este momento, generalmente contiene información adicional o enlaces al final de la página.
+
+Esta estructura HTML es fundamental para entender cómo están organizados los elementos visibles en una página web y permite un diseño más limpio y fácil de mantener con las etiquetas semánticas como `header`, `main` y `footer`.
+
+`003-bloques principales.html`
 
 ```html
 <!docytpe html>
@@ -8531,6 +11765,17 @@ En resumen, la manipulación de estilos es un aspecto integral del desarrollo we
 ```
 
 ### creo un elemento de portafolio
+<small>Creado: 2025-10-30 14:48</small>
+
+#### Explicación
+
+Este código HTML crea una página web sencilla para un portafolio personal de alguien llamado Jose Vicente Carratala. La estructura principal está compuesta por tres secciones: `header`, `main` y `footer`. En la cabecera, se muestra el nombre del autor y el título "Portafolio". El cuerpo principal (`main`) contiene una imagen representativa del portafolio, aunque en este caso falta especificar la ruta completa para que la imagen se muestre correctamente. Finalmente, el pie de página está vacío en esta versión inicial.
+
+El estilo visual se define directamente en las reglas CSS dentro del bloque `<style>`. Estas reglas configuran un fondo oscuro y texto claro, añadiendo una sensación elegante al diseño con la elección de fuente sans-serif. Las tres partes principales (`header`, `footer` y `main`) comparten estilos comunes para mantener una apariencia uniforme: un ancho fijo, centrado en el navegador, margen automático, texto centrado y espacio de relleno interno.
+
+Este diseño básico es muy útil como punto de partida para desarrollar un portafolio web personalizado con más contenido y funcionalidades.
+
+`004-creo un elemento de portafolio.html`
 
 ```html
 <!docytpe html>
@@ -8567,6 +11812,19 @@ En resumen, la manipulación de estilos es un aspecto integral del desarrollo we
 ```
 
 ### muchos articulos
+<small>Creado: 2025-10-30 14:48</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web simple que sirve como parte del portafolio de un individuo llamado Jose Vicente Carratala. La estructura principal de la página incluye tres secciones: el encabezado (`header`), el cuerpo principal (`main`) y el pie de página (`footer`). 
+
+En la cabecera, puedes ver que se especifican las características visuales básicas del sitio web a través de estilos CSS (Cascading Style Sheets) incorporados directamente en la etiqueta `<style>`. Estos estilos establecen un fondo oscuro con texto claro y una fuente sin serif para mejorar la legibilidad. Además, definen el ancho, margen y alineación del texto centralizado para las secciones `header`, `footer` y `main`.
+
+El contenido principal (`<main>`) es donde realmente brilla esta página: contiene múltiples artículos (`<article>`), cada uno con una imagen (`<img src="images.jpeg">`). Este diseño sugiere que la página está destinada a mostrar un portafolio de imágenes, posiblemente trabajos o proyectos previos del titular. La repetición constante de estas secciones `<article>` con las mismas imágenes es probablemente una representación simplificada y debe sustituirse por diferentes imágenes para demostrar diversidad en el trabajo.
+
+Este tipo de diseño es importante porque ayuda a organizar visualmente la información, permitiendo que los visitantes del sitio web naveguen fácilmente y se concentren en las imágenes o contenidos centrales.
+
+`005-muchos articulos.html`
 
 ```html
 <!docytpe html>
@@ -8659,6 +11917,19 @@ En resumen, la manipulación de estilos es un aspecto integral del desarrollo we
 ```
 
 ### uso grid
+<small>Creado: 2025-10-30 14:50</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web sencilla para mostrar el portafolio del usuario Jose Vicente Carratala. La estructura principal incluye una sección superior (header), un contenido central (main) y una sección inferior vacía (footer). En la parte superior, se muestra el nombre "Jose Vicente Carratala" como título y "Portafolio" como subtítulo.
+
+El estilo CSS dentro de la etiqueta `<style>` establece los colores de fondo y texto para toda la página, así como las dimensiones y ubicación del header, footer y main. Específicamente, se centra el contenido en la pantalla (con márgenes automáticos) y añade un poco de espacio interno con padding.
+
+Lo más interesante es cómo se maneja la parte central (main). Aquí, cada imagen representará una pieza del portafolio. Estas imágenes están dispuestas dentro de etiquetas `<article>`, las cuales son agrupadas en un contenedor `main` que usa CSS Grid para organizarlas en cuatro columnas y varias filas. Esto permite mostrar múltiples imágenes de forma equilibrada y atractiva.
+
+Cada imagen dentro del main tiene algunas propiedades específicas, como el tamaño ajustado al ancho de la caja que las contiene (`width:100%`), un borde blanco con 2 píxeles de grosor y una sombra suave para resaltarlas.
+
+`006-uso grid.html`
 
 ```html
 <!docytpe html>
@@ -8761,6 +12032,21 @@ En resumen, la manipulación de estilos es un aspecto integral del desarrollo we
 ```
 
 ### modal
+<small>Creado: 2025-10-30 14:52</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web para mostrar el portafolio de un usuario llamado Jose Vicente Carratala. La página tiene un diseño simple pero efectivo, usando CSS directamente dentro del archivo HTML para definir la apariencia y estilo.
+
+En la sección `<head>`, se define el aspecto general de la página con colores de fondo y texto. Además, se especifican los estilos para las partes principales de la página (header, footer, main) asegurando que todos ocupen un espacio centrado en la pantalla con cierto margen y relleno.
+
+El contenido principal está dentro de la etiqueta `<main>`, donde hay varias entradas (artículos) cada una con una imagen. Estas imágenes se alinean usando CSS Grid, lo que permite mostrarlas en cuadrícula formando cuatro columnas, dando a la página un aspecto limpio y organizado.
+
+Además de las imágenes del portafolio, también hay código para un modal (ventana emergente), que es una capa opaca sobre todo el contenido de la página con una imagen dentro. Este elemento modal está oculto hasta que se le agregue interactividad con JavaScript o algún otro evento que lo active.
+
+Este diseño es relevante porque demuestra cómo combinar HTML y CSS para crear un layout atractivo y funcional, además de introducir el concepto básico de ventanas modales en sitios web.
+
+`007-modal.html`
 
 ```html
 <!docytpe html>
@@ -8881,6 +12167,19 @@ En resumen, la manipulación de estilos es un aspecto integral del desarrollo we
 ```
 
 ### Ahora el modal
+<small>Creado: 2025-10-30 14:54</small>
+
+#### Explicación
+
+Este código HTML crea una página web sencilla que simula un portafolio de trabajo. En la parte superior, hay un encabezado que muestra el nombre del propietario del sitio (Jose Vicente Carratala) y su descripción ("Portafolio"). El contenido principal de la página está organizado en una sección llamada `<main>`, donde cada imagen es representada como un artículo separado. Estas imágenes están dispuestas en un diseño cuadrícula que ocupa cuatro columnas, con espacio entre ellas para mejorar la claridad visual.
+
+La página también incluye estilos personalizados directamente en el código HTML dentro de las etiquetas `<style>`, lo que afecta a cómo se muestra cada elemento (por ejemplo, el color del fondo es oscuro y las imágenes tienen bordes blancos). Además, hay un área para un pie de página vacío (`<footer>`), aunque no contiene ningún contenido en este momento.
+
+Lo más notable es la inclusión de un modal (ventana emergente) al final del cuerpo de la página. Este modal está oculto por defecto y se desplegará a pantalla completa con una imagen grande cuando sea activado. El estilo CSS que acompaña define las propiedades para esta ventana emergente, como su tamaño, posición en la pantalla y cómo debe aparecer el fondo mientras está visible.
+
+Este diseño es útil para mostrar imágenes de manera organizada y permitir al usuario visualizarlas en un tamaño más grande sin salirse del sitio principal.
+
+`008-Ahora el modal.html`
 
 ```html
 <!docytpe html>
@@ -9009,6 +12308,21 @@ En resumen, la manipulación de estilos es un aspecto integral del desarrollo we
 ```
 
 ### javascipt ventana modal
+<small>Creado: 2025-10-30 14:56</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web sencilla que funciona como un portafolio para Jose Vicente Carratala. La página incluye estilos en línea (CSS) y scripts en JavaScript que permiten la interactividad.
+
+En el cuerpo del documento (`<body>`), hay un encabezado (`<header>`) con información sobre el autor, una sección principal (`<main>`) donde se muestran varios artículos que contienen imágenes. También hay un pie de página vacío para futuras expansiones.
+
+Lo importante es la parte final del código en JavaScript y CSS dentro del `<body>`: esta parte define un modal (una ventana emergente) que aparece cuando haces clic en cualquier imagen del portafolio. El modal está oculto por defecto (`display:none`) y se muestra de manera interactiva al hacer clic en las imágenes, cambiando su estilo a `display:flex` para que sea visible.
+
+El JavaScript selecciona todas las imágenes (`document.querySelectorAll("img")`) y les asigna un evento `onclick`, lo que significa que cada vez que haces clic en una imagen, la función dentro de `forEach` se ejecuta. Esta función cambia el valor del estilo `display` del contenedor modal (`#contienemodal`) a `"flex"`, haciendo que el modal sea visible y cubra toda la pantalla con la imagen grande central.
+
+Esta interacción mejora significativamente la experiencia del usuario al permitir un zoom de alta calidad en cada imagen sin salir de la página principal del portafolio.
+
+`009-javascipt ventana modal.html`
 
 ```html
 <!docytpe html>
@@ -9145,6 +12459,17 @@ En resumen, la manipulación de estilos es un aspecto integral del desarrollo we
 ```
 
 ### mejoras en el estilo
+<small>Creado: 2025-10-30 14:56</small>
+
+#### Explicación
+
+Este código HTML crea una página web que simula un portafolio con varias imágenes en cuadrícula. En la parte superior, hay un encabezado con el nombre del propietario del portafolio y su título. El cuerpo principal de la página utiliza CSS Grid para organizar las imágenes en cuatro columnas con espacio entre ellas. Cada imagen tiene bordes blancos y sombreado para destacarla.
+
+En el pie de página, se ha preparado un contenedor que, cuando se hace clic en una imagen, despliega un modal (ventana flotante) con una versión ampliada de la imagen seleccionada. El código JavaScript captura todos los elementos `<img>` y les agrega un evento `onclick` que muestra el modal al hacer clic en cualquier imagen.
+
+Este diseño es importante porque mejora la interactividad y presentación del contenido, permitiendo a los visitantes explorar imágenes más detalladamente sin abandonar la página principal.
+
+`010-mejoras en el estilo.html`
 
 ```html
 <!docytpe html>
@@ -9285,31 +12610,277 @@ En resumen, la manipulación de estilos es un aspecto integral del desarrollo we
 </html>
 ```
 
+### Actividades propuestas
+
+Tu código HTML y JavaScript para crear una ventana modal que muestra imágenes en un portafolio es bastante funcional. Sin embargo, hay algunos detalles que puedes mejorar para hacerlo más robusto y accesible:
+
+### Mejoras Sugeridas
+
+1. **Añadir Eventos de Cierre:**
+   Es útil proporcionar formas adicionales de cerrar la ventana modal, como clics fuera del contenido de la imagen o un botón de cierre.
+
+2. **Permitir que las Imágenes Sean Ajustables:**
+   Permitir a los usuarios hacer zoom en las imágenes dentro de la modal puede ser una buena idea para mejorar la experiencia del usuario.
+
+3. **Añadir Estilos para Accesibilidad:**
+   Agregar un `tabindex` a elementos interactivos y asegurarte de que estén accesibles con teclado también es importante.
+
+### Código Mejorado
+
+Aquí tienes el código mejorado:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <style>
+        body {
+            background: DarkSlateGray;
+            color: LightGray;
+            font-family: sans-serif;
+        }
+        header, footer {
+            width: 800px;
+            margin: auto;
+            text-align: center;
+            padding: 20px;
+        }
+        main {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+        main img {
+            width: 100%;
+            border: 2px solid white;
+            box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+        }
+
+        #contienemodal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            display: none;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #modal {
+            width: 400px;
+            height: auto; /* Permitir que la altura sea automática */
+            max-width: calc(100vw - 20px); /* Ajustar al ancho de la ventana si es necesario */
+            text-align: center;
+            padding: 20px;
+            background: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            box-shadow: 0px 10px 20px black;
+        }
+
+        #modal img {
+            max-width: 85%; /* Ajustar la imagen al ancho del modal */
+            cursor: zoom-out; /* Indica que se puede hacer clic para cerrar */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jose Vicente Carratala</h1>
+        <h2>Portafolio</h2>
+    </header>
+    <main>
+        <!-- Tu contenido de imágenes aquí -->
+        <article><img src="images.jpeg"></article>
+        <article><img src="images.jpeg"></article>
+        <article><img src="images.jpeg"></article>
+        <!-- ... más artículos con imágenes ... -->
+    </main>
+
+    <script>
+        let imagenes = document.querySelectorAll("img");
+        
+        // Evento de clic en la imagen
+        imagenes.forEach(function(imagen) {
+            imagen.onclick = function() {
+                const modalImg = document.querySelector("#modal img");
+                modalImg.src = this.src;  // Establecer la fuente de la imagen del modal
+                document.querySelector("#contienemodal").style.display = "flex";
+            };
+        });
+
+        // Evento de clic en cualquier lugar fuera del contenido de la imagen para cerrar el modal
+        document.querySelector("#contienemodal").onclick = function() {
+            this.style.display = "none";
+        };
+
+    </script>
+</body>
+</html>
+```
+
+### Explicación de las Mejoras
+
+1. **Ajuste Automático de Altura y Ancho:**
+   - `#modal { height: auto; }` permite que la altura del modal se ajuste automáticamente según la imagen.
+   
+2. **Zoom en Imagenes:**
+   - Añado un `max-width: 85%;` para permitir que las imágenes dentro del modal sean más grandes, pero manteniendo un margen alrededor.
+
+3. **Cierre Automático del Modal:**
+   - Cuando el usuario hace clic fuera de la imagen en la ventana modal, se cierra automáticamente.
+
+Estas mejoras deberían hacer tu portafolio más interactivo y accesible para los usuarios.
+
+
 <a id="simulacro-de-examen"></a>
 ## Simulacro de examen
 
-### Enunciado
+### Introducción a los ejercicios
 
-```markdown
-Haz una web en HTML, CSS, y JS, que sea tu portafolio de proyectos
+El código proporcionado muestra un proceso paso a paso para crear una página web dinámica que muestre un portfolio usando HTML, CSS y JavaScript (con fetch API). Aquí está el resumen de lo que hace cada parte del código:
 
-Debe tener header, main y footer
-En el main deben haber articles con tus piezas de portafolio
+1. **HTML Structure**:
+   - La estructura base incluye elementos `<header>`, `<main>`, y `<footer>` para la página.
+   - Un elemento `<template>` con id `plantilla_entrada` que contiene una plantilla vacía para los artículos de portfolio.
 
-En el header debe aparecer tu nombre y tu contacto
+2. **CSS Styling**:
+   - Establece un fondo gris para el cuerpo y las dimensiones del header, main y footer (ancho: 600px).
 
-En el footer debe aparecer un aviso de copyright y tu email
+3. **JavaScript to Fetch and Render Data**:
+   - Utiliza la API `fetch` para obtener datos JSON desde `portafolio.json`.
+   - Crea clones de los elementos de plantilla con datos específicos y los agrega al contenedor principal (`<main>`).
+   
+4. **JSON Data File**:
+   - El archivo `portafolio.json` contiene un array de objetos, cada uno con una pieza del portfolio que tiene título, descripción e imagen.
 
-Crea un estilo CSS adecuado para un portafolio
+### Paso a paso del proceso
 
-Primero crealo estático - y luego consume datos con JSON a partir de Javascript
+#### Paso 1: HTML y CSS
+- Configura la estructura básica HTML.
+- Añade estilos CSS para formar la página con un fondo gris y áreas de contenido claramente definidas (header, main y footer).
 
-Importante: Tenéis que desarrollar en estilo iterativo incremental (como yo)
+#### Paso 2: JSON Data File (`portafolio.json`)
+- Crea el archivo `portafolio.json` que contiene información sobre las piezas del portfolio.
 
-JS - clon de plantillas/template en HTML/CSS/JS - clase 13 de octubre, a primera hora
+#### Paso 3: JavaScript para procesar los datos
+1. **Obtener la plantilla**:
+   ```javascript
+   let origen = document.querySelector("#plantilla_entrada")
+   ```
+2. **Selecciona el destino donde se renderizarán los artículos**:
+   ```javascript
+   let destino = document.querySelector("main")
+   ```
+3. **Realiza una solicitud fetch a `portafolio.json`**:
+   ```javascript
+   fetch("portafolio.json")
+     .then(function(respuesta){return respuesta.json()})
+     .then(function(datos){
+       // Lógica para procesar los datos y renderizarlos en la página.
+     })
+   ```
+4. **Renderiza cada pieza de portfolio usando la plantilla**:
+   ```javascript
+   datos.forEach(function(dato) {
+     let clon = origen.content.cloneNode(true);
+     
+     clon.querySelector("h3").textContent = dato.titulo;
+     clon.querySelector("p").textContent = dato.descripcion;
+     clon.querySelector("img").setAttribute("src",dato.imagen);
+
+     destino.appendChild(clon);
+   });
+   ```
+
+### Ejemplo completo
+
+Aquí está el código finalizado que crea un portfolio dinámico:
+
+```html
+<!doctype html>
+<html lang="es">
+<head>
+    <title>El portafolio de Jose Vicente</title>
+    <meta charset="utf-8">
+    <style>
+        body,html{background:grey;font-family:sans-serif;}
+        header,main,footer{background:white;padding:20px;text-align:center;margin:auto;width:600px;}
+        main{display:grid;grid-template-columns:auto auto auto;gap:20px;}
+        article img{width:100%;}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jose Vicente Carratala</h1>
+        <h2>info@jocarsa.com</h2>
+    </header>
+    <main></main>
+    <footer>(c) 2025 Jose Vicente Carratala</footer>
+
+    <!-- Template for the portfolio entries -->
+    <template id="plantilla_entrada">
+      <article>
+        <h3></h3>
+        <p></p>
+        <img src="">
+      </article>
+    </template>
+
+    <script>
+        let origen = document.querySelector("#plantilla_entrada");
+        let destino = document.querySelector("main");
+
+        fetch("portafolio.json")
+            .then(function(respuesta) { return respuesta.json(); })
+            .then(function(datos) {
+                datos.forEach(function(dato) {
+                    let clon = origen.content.cloneNode(true);
+                    
+                    clon.querySelector("h3").textContent = dato.titulo;
+                    clon.querySelector("p").textContent = dato.descripcion;
+                    clon.querySelector("img").setAttribute("src", dato.imagen);
+
+                    destino.appendChild(clon);
+                });
+            })
+            .catch(function(error) {
+                console.error('Error:', error);
+            });
+    </script>
+</body>
+</html>
 ```
 
+Este código crea una página que dinámicamente renderiza las entradas del portfolio utilizando la estructura y los datos proporcionados, dando como resultado un sitio web de portfolio funcional y estilizado.
+
 ### estructura inicial
+<small>Creado: 2025-11-03 13:23</small>
+
+#### Explicación
+
+Este fragmento de código HTML es una estructura básica para un documento web que representa el portafolio de Jose Vicente. Comienza con la declaración `<!doctype html>`, que indica al navegador que se trata de un documento HTML5.
+
+En la etiqueta `<head>` encontramos información importante pero no visible directamente en la página, como por ejemplo el título del documento y la codificación de caracteres utilizada. El título "El portafolio de Jose Vicente" aparecerá en la pestaña del navegador cuando se cargue la página.
+
+La estructura principal del contenido web se define a partir de las etiquetas `<body>`, donde están contenidas otras tres etiquetas: `<header>`, `<main>` y `<footer>`. Estas son:
+
+- **<header>:** Este es el encabezado de la página, usualmente donde irían los elementos como un logotipo o nombre del sitio.
+
+- **<main>:** Aquí se colocarán los contenidos principales del portafolio, como información personal, proyectos y experiencias profesionales.
+
+- **<footer>:** Este es el pie de página, que puede contener información adicional como enlaces a redes sociales, un formulario de contacto o derechos de autor.
+
+Esta estructura es importante porque sigue una buena práctica web llamada "estructuración semántica", lo cual ayuda tanto a los motores de búsqueda (SEO) como al diseño del sitio para mejorar la experiencia del usuario.
+
+`002-estructura inicial.html`
 
 ```html
 <!doctype html>
@@ -9330,28 +12901,20 @@ JS - clon de plantillas/template en HTML/CSS/JS - clase 13 de octubre, a primera
 </html>
 ```
 
-### estructura inicial
-
-```markdown
-<!doctype html>
-<html lang="es">
-  <head>
-    <title>El portafolio de Jose Vicente</title>
-    <meta charset="utf-8">
-  </head>
-  <body>
-    <header>
-      
-    </header>
-    <main>
-    </main>
-    <footer>
-    </footer>
-  </body>
-</html>
-```
-
 ### titulos y contacto
+<small>Creado: 2025-11-03 13:24</small>
+
+#### Explicación
+
+Este fragmento de código HTML es la estructura básica de una página web personal para alguien llamado Jose Vicente Carratala. La parte más importante es que define cómo se organiza toda la información en tres secciones principales: encabezado (`<header>`), contenido principal (`<main>`) y pie de página (`<footer>`).
+
+En el `<header>`, encontramos dos elementos importantes: un título principal `<h1>` con el nombre del propietario de la página (Jose Vicente Carratala) y una subcategoría `<h2>` que contiene su dirección de correo electrónico. Esto proporciona información rápida sobre quién es el dueño del sitio web y cómo contactarlo.
+
+La etiqueta `<main>`, aunque está vacía en este ejemplo, será donde se coloque la mayoría del contenido del sitio, como textos, imágenes o artículos específicos relacionados con Jose Vicente Carratala. Por último, el `<footer>` está reservado para información adicional que podría incluir derechos de autor, enlaces a redes sociales u otra información secundaria.
+
+Esta estructura es importante porque ayuda a los motores de búsqueda y las personas que visitan la página web a entender rápidamente qué sección de la página contiene cierta información, mejorando así la experiencia del usuario y el posicionamiento en buscadores.
+
+`003-titulos y contacto.html`
 
 ```html
 <!doctype html>
@@ -9374,6 +12937,21 @@ JS - clon de plantillas/template en HTML/CSS/JS - clase 13 de octubre, a primera
 ```
 
 ### articulos
+<small>Creado: 2025-11-03 13:26</small>
+
+#### Explicación
+
+Este fragmento de código es un documento HTML que representa una página web simple para mostrar el portafolio de Jose Vicente Carratala. La estructura principal del documento incluye elementos como la cabecera (`<head>`), el cuerpo (`<body>`) y las secciones principales de contenido.
+
+En la parte superior, dentro del `<header>`, encontramos información básica sobre Jose Vicente, que incluye su nombre en un título principal (`<h1>`) y su correo electrónico en un sub-título (`<h2>`). Esto proporciona una introducción clara al visitante sobre quién es el autor de la página.
+
+El contenido principal está dentro del `<main>`, donde se presentan varios artículos utilizando la etiqueta `<article>`. Cada artículo contiene información detallada sobre una pieza específica. Incluye un título secundario (`<h3>`), que podría ser el nombre o descripción de la obra, seguido por una breve explicación en formato de párrafo (`<p>`). Al final de cada artículo, hay una imagen representativa que se carga desde un archivo llamado "josevicente.jpg".
+
+Este diseño repetitivo permite mostrar múltiples piezas del portafolio de manera organizada y visualmente atractiva. Aunque la estructura es sencilla, el uso de etiquetas semánticas como `<article>` ayuda a que los motores de búsqueda y lectores de pantalla entiendan mejor el contenido de la página.
+
+La sección `<footer>`, aunque en este momento está vacía, sirve para agregar información adicional o créditos al final del documento.
+
+`004-articulos.html`
 
 ```html
 <!doctype html>
@@ -9441,6 +13019,19 @@ JS - clon de plantillas/template en HTML/CSS/JS - clase 13 de octubre, a primera
 ```
 
 ### pie de pagina
+<small>Creado: 2025-11-03 13:27</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web simple que se utiliza para mostrar un portafolio artístico o profesional. La estructura principal comienza con la declaración `<!doctype html>`, seguida del elemento `<html>` que define el documento como uno en español (`<html lang="es">`). Dentro del encabezado (`<head>`), encontramos información crucial como el título de la página y los caracteres permitidos, indicados por las etiquetas `<title>` y `<meta charset="utf-8">`, respectivamente.
+
+La sección principal de la página está dentro del elemento `<body>`. Aquí, hay un bloque `<header>` que contiene el nombre del autor (`<h1>`) y su información de contacto (`<h2>`). Seguido de esto, tenemos una serie de artículos (`<article>`) que describen diferentes piezas. Cada artículo incluye un título para la pieza (`<h3>`), una explicación sobre la misma (`<p>`), y una imagen representativa (`<img>`).
+
+Al final del documento, se encuentra el bloque `<footer>`, que aporta información de copyright al usuario.
+
+Este código es importante porque establece una estructura clara para la página web, facilitando tanto su creación como su lectura por parte de los motores de búsqueda y navegadores. Es fundamental en proyectos de desarrollo web donde se necesita presentar contenido de manera organizada y accesible.
+
+`005-pie de pagina.html`
 
 ```html
 <!doctype html>
@@ -9509,6 +13100,21 @@ JS - clon de plantillas/template en HTML/CSS/JS - clase 13 de octubre, a primera
 ```
 
 ### un poco de estilo
+<small>Creado: 2025-11-03 13:28</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web simple para mostrar el portafolio de un individuo llamado José Vicente. La página está estructurada usando las etiquetas semánticas de HTML5, lo que mejora la accesibilidad y comprensión del documento.
+
+En el encabezado (`<head>`), se establece el título de la página como "El portafolio de Jose Vicente" y se define un conjunto básico de estilos CSS en línea. Estos estilos definen el color de fondo, la fuente utilizada para todo el texto, así como las características específicas del `<header>`, `<main>` y `<footer>`.
+
+En el cuerpo (`<body>`), primero aparece una cabecera que incluye un nombre y una dirección de correo electrónico. Luego, en la sección principal (`<main>`), hay varias entradas (o artículos) que representan diferentes piezas del portafolio. Cada artículo contiene información sobre el nombre de la pieza, una breve explicación y una imagen.
+
+Finalmente, en el footer se muestra un mensaje de derechos de autor. El diseño general es simple pero efectivo: cada sección (header, main y footer) tiene fondo blanco con relleno interno para distinguirla del resto de la página, que tiene fondo gris.
+
+Este tipo de estructura ayuda a los visitantes a navegar fácilmente por el contenido del portafolio, proporcionando una experiencia web clara y organizada.
+
+`006-un poco de estilo.html`
 
 ```html
 <!doctype html>
@@ -9581,6 +13187,21 @@ JS - clon de plantillas/template en HTML/CSS/JS - clase 13 de octubre, a primera
 ```
 
 ### estilo de los articulos
+<small>Creado: 2025-11-03 13:29</small>
+
+#### Explicación
+
+Este fragmento de código es una página HTML que presenta el portafolio de un artista llamado José Vicente Carratala. La estructura principal se divide en tres partes: encabezado (`header`), contenido principal (`main`) y pie de página (`footer`). 
+
+El encabezado muestra el nombre del autor y su información de contacto, mientras que el contenido principal utiliza una etiqueta `article` repetida varias veces para mostrar diferentes obras o piezas. Cada artículo incluye un título (h3) con el nombre de la pieza, una descripción (p) y una imagen representativa (img). La disposición de estos artículos se realiza mediante CSS grid, especificando que deben mostrarse en tres columnas.
+
+El uso de `grid-template-columns` con tres "auto" crea automáticamente tres columnas equilibradas para mostrar los diferentes artículos. Además, la propiedad `gap: 20px;` añade espacio entre las celdas del gird, mejorando la visualización del contenido en el navegador.
+
+El pie de página simplemente muestra un mensaje con derechos de autor (c) y el año 2025 para indicar que el contenido es propiedad del artista. 
+
+Esta estructura ayuda a organizar visualmente las obras del portafolio en una disposición limpia y profesional, facilitando la navegación por los diferentes trabajos del autor.
+
+`007-estilo de los articulos.html`
 
 ```html
 <!doctype html>
@@ -9654,6 +13275,23 @@ JS - clon de plantillas/template en HTML/CSS/JS - clase 13 de octubre, a primera
 ```
 
 ### tocamos el estilo de las imagenes
+<small>Creado: 2025-11-03 13:31</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web simple que representa el portafolio de un artista llamado José Vicente Carratala. La estructura principal de la página se divide en tres partes: encabezado (`header`), contenido principal (`main`) y pie de página (`footer`). Cada parte tiene sus propias características de diseño para dar una apariencia uniforme.
+
+En el `<head>` del documento, encontramos las etiquetas que definen el título de la página y establecen un conjunto básico de estilos utilizando CSS directamente en el archivo HTML. Estos estilos aplican colores de fondo, fuentes y márgenes para centrar los elementos importantes como el encabezado, el contenido principal y el pie de página.
+
+El `<body>` contiene la estructura real del sitio web:
+- El `header` muestra el nombre del artista y su dirección de correo electrónico.
+- En el `main`, se encuentran varios `article`, cada uno representando una obra de arte. Cada artículo incluye un título para la pieza, una breve descripción y una imagen asociada con la pieza.
+
+El CSS en la etiqueta `<style>` dentro del `<head>` también maneja cómo las imágenes dentro de los artículos se visualizan, asegurándose de que todas las imágenes ocupen el ancho completo de su contenedor (`article img{width:100%;}`), lo cual es importante para mantener una apariencia coherente en la página del portafolio.
+
+Esta estructura y estilo son fundamentales para presentar visualmente un conjunto de obras de arte, proporcionando al visitante del sitio web información clara sobre cada pieza y cómo se relaciona con el resto del trabajo del artista.
+
+`008-tocamos el estilo de las imagenes.html`
 
 ```html
 <!doctype html>
@@ -9728,6 +13366,19 @@ JS - clon de plantillas/template en HTML/CSS/JS - clase 13 de octubre, a primera
 ```
 
 ### cargamos json
+<small>Creado: 2025-11-03 13:34</small>
+
+#### Explicación
+
+Este código HTML es una página web sencilla que muestra un portafolio de trabajo, probablemente artístico o profesional. La estructura básica incluye una sección de encabezado (header), donde aparece el nombre del autor y sus datos de contacto; la parte principal (main) donde debería mostrarse información detallada sobre las piezas del portafolio; y un pie de página (footer) con los derechos de autor.
+
+Lo interesante es que en la sección `<script>` al final del documento, el código utiliza una función llamada `fetch` para obtener datos desde un archivo JSON local denominado "portafolio.json". Este archivo probablemente contiene información detallada sobre cada pieza o proyecto, como títulos y descripciones.
+
+El objetivo es que cuando se carga la página en un navegador, también se cargue este archivo JSON y se imprima su contenido en la consola del navegador para que el desarrollador pueda ver cómo están estructurados los datos. Este proceso permite a los programadores incorporar dinamismo a sus sitios web, permitiendo una gestión más flexible de las piezas de contenido.
+
+Este código es importante porque demuestra cómo integrar archivos externos y cómo manipular datos usando JavaScript en páginas HTML estáticas, lo que puede ser útil para proyectos más grandes donde el contenido necesita actualizarse sin cambiar directamente el código HTML.
+
+`009-cargamos json.html`
 
 ```html
 <!doctype html>
@@ -9770,6 +13421,17 @@ JS - clon de plantillas/template en HTML/CSS/JS - clase 13 de octubre, a primera
 ```
 
 ### vamos a crear un template
+<small>Creado: 2025-11-03 13:36</small>
+
+#### Explicación
+
+Este código HTML es la estructura básica de una página web que representa un portafolio profesional, en este caso para alguien llamado Jose Vicente Carratala. La página tiene tres secciones principales: encabezado (`header`), contenido principal (`main`) y pie de página (`footer`). El estilo visual básico está definido directamente dentro del `<style>` tag en la sección `head`, que establece el color de fondo, fuente y configuración de bloques para cada una de las secciones.
+
+El bloque más interesante es el `<template>` con el id "plantilla_entrada". Este template define cómo debe ser estructurado cada artículo o entrada en el portafolio. Aunque la información específica (nombre de la pieza, explicación y ruta de imagen) no están definidas dentro del HTML, este fragmento sirve como una plantilla que puede ser utilizada para generar automáticamente múltiples entradas basándose en datos externos.
+
+Finalmente, hay un script al final del cuerpo (`<body>`) que utiliza la función `fetch` para obtener un archivo JSON llamado "portafolio.json". Este script parece estar preparado para procesar los datos obtenidos desde este archivo y mostrarlos en algún lugar de la página (aunque en este ejemplo solo imprime los datos en el navegador mediante `console.log(datos)`). Este método es muy útil cuando se necesita actualizar dinámicamente contenido basado en datos externos, sin necesidad de recargar la página completa.
+
+`010-vamos a crear un template.html`
 
 ```html
 <!doctype html>
@@ -9815,6 +13477,17 @@ JS - clon de plantillas/template en HTML/CSS/JS - clase 13 de octubre, a primera
 ```
 
 ### definimos origen y destino
+<small>Creado: 2025-11-03 13:37</small>
+
+#### Explicación
+
+Este archivo HTML es una plantilla básica para un portafolio web personal. Define la estructura y el diseño inicial de la página, incluyendo encabezados, contenido principal y pie de página. El código CSS incorporado en la etiqueta `<style>` establece el estilo básico del documento, como colores de fondo, márgenes y alineación centrada para las secciones principales.
+
+En el bloque de script (etiqueta `<script>`), el código JavaScript selecciona dos elementos clave: un elemento con el id `plantilla_entrada` que sirve como plantilla para los artículos del portafolio, y la etiqueta `<main>`, donde finalmente se insertarán estos artículos. Luego, utiliza una función llamada `fetch` para cargar datos desde un archivo JSON denominado "portafolio.json". Cuando los datos son recibidos y convertidos a formato JavaScript (JSON), el código imprime estos datos en la consola del navegador.
+
+Esta técnica es importante porque permite separar claramente el contenido dinámico de la estructura estática del documento, facilitando la actualización del portafolio sin necesidad de modificar directamente el HTML. Además, muestra cómo integrar datos externos para hacer páginas más interactivas y flexibles.
+
+`011-definimos origen y destino.html`
 
 ```html
 <!doctype html>
@@ -9862,6 +13535,17 @@ JS - clon de plantillas/template en HTML/CSS/JS - clase 13 de octubre, a primera
 ```
 
 ### clon ciego
+<small>Creado: 2025-11-03 13:38</small>
+
+#### Explicación
+
+Este fragmento de código HTML es una página web básica que muestra un portafolio con información sobre Jose Vicente Carratala. La estructura principal incluye una cabecera (header), un contenido central (main) y un pie de página (footer). Lo interesante aquí es cómo se maneja el contenido dinámico gracias a la incorporación de JavaScript.
+
+La parte clave del código está en el `<template>` con `id="plantilla_entrada"`, que sirve como una plantilla vacía para cada entrada del portafolio. Cada entrada tiene un título (h3), un párrafo (p) y una imagen (img). El JavaScript se encarga de cargar datos desde un archivo JSON llamado "portafolio.json", y por cada dato en ese archivo, clona la plantilla HTML, llena los espacios vacíos con información relevante del JSON y finalmente añade el nuevo artículo al contenido principal.
+
+Este enfoque es importante porque permite mantener la estructura de la página separada del contenido específico, facilitando así la actualización o expansión del portafolio sin necesidad de cambiar el código HTML directamente. Esto es especialmente útil cuando tienes muchos artículos y quieres que todo funcione de manera automática a partir de datos externos.
+
+`012-clon ciego.html`
 
 ```html
 <!doctype html>
@@ -9912,6 +13596,19 @@ JS - clon de plantillas/template en HTML/CSS/JS - clase 13 de octubre, a primera
 ```
 
 ### clon con datos
+<small>Creado: 2025-11-03 13:40</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web simple que muestra un portafolio, utilizando JavaScript para dinamizar la carga y visualización de datos. La estructura principal incluye una cabecera (`header`), un pie de página (`footer`) y el contenido central (`main`). El archivo también contiene un `template`, que es un elemento HTML5 usado para guardar fragmentos de código que se pueden clonar y reutilizar en la página.
+
+El script dentro del bloque `<script>` hace lo siguiente: primero, selecciona dos elementos clave: una plantilla llamada `#plantilla_entrada` y el área de destino (`main`) donde se colocará el contenido dinámico. Luego, utiliza la función `fetch()` para obtener un archivo JSON llamado "portafolio.json" que contiene información sobre las entradas del portafolio. Una vez que recibe estos datos, los itera (cada entrada es una entrada en el array de datos) y crea un clon de la plantilla HTML por cada entrada.
+
+Para cada entrada del portafolio obtenida desde el archivo JSON, se rellena el contenido del artículo clonado: título (`h3`), descripción (`p`) e imagen (url en `img`). Finalmente, este artículo modificado es añadido al área de destino (`main`).
+
+Esta técnica es útil para mantener la separación entre presentación y datos, permitiendo una fácil actualización del contenido del portafolio sin necesidad de tocar directamente el HTML.
+
+`013-clon con datos.html`
 
 ```html
 <!doctype html>
@@ -9965,6 +13662,17 @@ JS - clon de plantillas/template en HTML/CSS/JS - clase 13 de octubre, a primera
 ```
 
 ### portafolio
+<small>Creado: 2025-11-03 13:33</small>
+
+#### Explicación
+
+Este fragmento de código es un archivo JSON que contiene información sobre varias piezas de un portafolio. Cada pieza está representada por un objeto dentro de una lista, donde cada objeto tiene tres propiedades: "titulo", "descripcion" y "imagen". 
+
+El título proporciona el nombre específico para cada pieza del portafolio, la descripción ofrece detalles sobre esa pieza y la imagen es el archivo gráfico asociado a ella. En este caso, todas las imágenes están identificadas como "josevicente.jpg", lo que sugiere que podría ser una foto representativa utilizada para todas las piezas.
+
+Este tipo de estructura JSON es útil porque permite organizar datos de manera clara y estructurada, facilitando su uso en aplicaciones web o sitios estáticos donde cada elemento del portafolio necesita un título, descripción e imagen. Es importante porque los desarrolladores pueden usar esta información para generar automáticamente páginas web dinámicas que muestran estas piezas de portafolio a los visitantes del sitio.
+
+`portafolio.json`
 
 ```json
 [
@@ -10006,55 +13714,169 @@ JS - clon de plantillas/template en HTML/CSS/JS - clase 13 de octubre, a primera
 ]
 ```
 
+### Actividades propuestas
+
+El código que has proporcionado muestra el proceso paso a paso para crear un portafolio en HTML con datos dinámicos cargados desde un archivo JSON. Aquí está una descripción detallada del flujo de trabajo y la estructura final:
+
+1. **Estructura Base**: Se define la estructura básica del documento HTML, incluyendo las etiquetas `<header>`, `<main>` (donde se cargarán los datos dinámicos) y un `<footer>`.
+
+2. **Estilos CSS Básicos**: Se aplican estilos básicos para dar formato a la página web, como el fondo gris, padding, alineación central y una configuración básica de cuadrícula en `<main>`.
+
+3. **Carga del JSON**: Utilizando `fetch`, se solicita datos desde un archivo JSON (`portafolio.json`).
+
+4. **Template HTML para Duplicar Datos**: Se define un template en el cual cada entrada (piece of portfolio) tiene un título, descripción e imagen. Este template será utilizado para generar todas las entradas dinámicamente.
+
+5. **Procesamiento de Datos JSON**:
+    - `fetch` carga los datos del archivo JSON.
+    - Los datos se recorren con `forEach`, y por cada entrada:
+        - Se clona el template HTML definido.
+        - Se reemplazan los marcadores (`<h3>`, `<p>` e imagen) con valores específicos de cada entrada en el JSON.
+        - Finalmente, se añade la nueva entrada al DOM en el contenedor principal.
+
+6. **Archivo JSON**:
+    - Contiene un array de objetos, donde cada objeto representa una pieza del portafolio con atributos `titulo`, `descripcion` e `imagen`.
+
+### Código Final
+
+El código final es como sigue:
+
+```html
+<!doctype html>
+<html lang="es">
+<head>
+  <title>El portafolio de Jose Vicente</title>
+  <meta charset="utf-8">
+  <style>
+    body,html{background:grey;font-family:sans-serif;}
+    header,main,footer{background:white;padding:20px;text-align:center;margin:auto;width:600px;}
+    main{display:grid;grid-template-columns:auto auto auto;gap:20px;}
+    article img{width:100%;}
+  </style>
+</head>
+<body>
+<header>
+  <h1>Jose Vicente Carratala</h1>
+  <h2>info@jocarsa.com</h2>
+</header>
+<main></main>
+<footer>(c) 2025 Jose Vicente Carratala</footer>
+
+<template id="plantilla_entrada">
+  <article>
+    <h3></h3>
+    <p></p>
+    <img src="">
+  </article>
+</template>
+
+<script>
+let origen = document.querySelector("#plantilla_entrada");
+let destino = document.querySelector("main");
+
+fetch("portafolio.json")
+.then(function(respuesta) { return respuesta.json() })
+.then(function(datos){
+  datos.forEach(function(dato) {
+    let clon = origen.content.cloneNode(true);
+    clon.querySelector("h3").textContent = dato.titulo;
+    clon.querySelector("p").textContent = dato.descripcion;
+    clon.querySelector("img").setAttribute("src",dato.imagen);
+    destino.appendChild(clon);
+  });
+});
+</script>
+
+</body>
+</html>
+```
+
+### Funcionamiento
+
+1. **Estructura del Documento**: Se define la estructura básica de HTML con un encabezado (`<header>`), el contenido principal (`<main>`) y el pie de página (`<footer>`).
+
+2. **Template**:
+   - `<template id="plantilla_entrada">`: Este es un bloque de HTML que actúa como una plantilla para generar entradas del portafolio.
+
+3. **JavaScript**:
+    - Se utiliza `fetch` para obtener datos desde el archivo JSON.
+    - Una vez los datos son cargados, se recorren con `forEach`, y por cada entrada se clona la plantilla HTML (`cloneNode(true)`).
+    - Los valores de los atributos del objeto JSON se asignan a las etiquetas correspondientes dentro del clon (H3, P e imagen).
+    - Finalmente, el artículo nuevo se agrega al `<main>`.
+
+Este método permite que el portafolio sea fácilmente mantenido y actualizado, ya que todos los datos están en un archivo JSON separado de la estructura HTML.
+
+
 <a id="ejercicio-de-final-de-unidad-2"></a>
 ## Ejercicio de final de unidad
 
-### actividad
+### Introducción a los ejercicios
 
-```markdown
-# Actividad (30’): “Planificador de cuadras — versión exprés”
+En esta actividad se trabajará sobre un script en Python que actúa como un planificador para determinar cuántas cuadras son necesarias para alojar un número dado de caballos, considerando la capacidad máxima por cuadra. Los estudiantes deben aprender a utilizar métodos y propiedades de objetos del módulo `datetime`, así como el uso de funciones matemáticas estáticas como `math.ceil` para cálculos precisos. La tarea incluye manejar entrada de datos mediante la función `input`, realizar los cálculos necesarios y mostrar un informe estructurado que contiene tanto información sobre las cuadras calculadas como detalles de la fecha proporcionada. Se enfatiza en el manejo adecuado de errores, validando los datos ingresados para asegurar su correcta procesamiento.
 
-Crea un script llamado `planificador_cuadras.py` que calcule cuántas cuadras necesitas en una fecha dada, según el número de caballos y la capacidad de cada cuadra. Debe redondear **al alza** el número de cuadras, mostrar propiedades de la fecha y presentar un pequeño informe.
+### Actividades propuestas
 
-## Objetivos de aprendizaje
+### Actividad 1: "Planificador de Cuadras - Versión Básica"
 
-* Usar **métodos** y **propiedades** de objetos estándar (`datetime.date`, `date.year`, `date.weekday`, etc.). 
-* Llamar a **métodos “estáticos”**/de módulo como `math.ceil`. 
-* Manejar **entrada → cálculo → salida** con mensajes claros. 
+**Descripción:** Los estudiantes deben crear un script en Python que calcule el número necesario de cuadras para alojar a una cantidad dada de caballos, teniendo en cuenta la capacidad máxima por cuadra. Se espera que los alumnos manejen entradas y salidas claras, utilicen métodos estáticos y propiedades del objeto `date`, y redondeen el resultado al alza.
 
-## Requisitos funcionales
+### Actividad 2: "Manejo de Errores en Planificador"
 
-1. **Entrada de datos (por `input`)**
+**Descripción:** Los estudiantes deben añadir validaciones para asegurar que los datos ingresados por el usuario sean válidos (enteros positivos, fecha en formato YYYY-MM-DD). Si alguna entrada no cumple con estas condiciones, el programa debe mostrar un mensaje de error y terminar su ejecución.
 
-   * `caballos` (entero > 0).
-   * `capacidad_por_cuadra` (entero > 0).
-   * `fecha` en formato `YYYY-MM-DD`.
-     (Estos tres inputs siguen el patrón de los ejercicios de entrada/cálculo/salida). 
-2. **Cálculos**
+### Actividad 3: "Informe Completo del Planificador"
 
-   * `cuadras_necesarias = ceil(caballos / capacidad_por_cuadra)` usando `math.ceil`. 
-   * Crear un objeto `date` con la fecha indicada y obtener:
+**Descripción:** Los estudiantes deben mejorar la salida del planificador para que incluya información detallada sobre la fecha proporcionada por el usuario. Esto implica mostrar los valores `year`, `month`, `day` y tanto el día de la semana en formato ISO como ordinario.
 
-     * `year`, `month`, `day`
-     * `weekday()` (0–6) y `isoweekday()` (1–7)
-       (Como en los ejemplos de propiedades de fecha). 
-3. **Salida (informe)**
+### Actividad 4: "Optimización del Código"
 
-   * Línea resumen con caballos, capacidad y cuadras **redondeadas al alza**.
-   * Bloque “Datos de la fecha” mostrando `YYYY-MM-DD`, `year`, `month`, `day`, `weekday`, `isoweekday`.
-4. **Validaciones mínimas**
+**Descripción:** Los estudiantes deben refactorizar el código para mejorar su eficiencia y legibilidad, por ejemplo, utilizando funciones separadas para cada parte del proceso (entrada de datos, cálculos, salida).
 
-   * Si algún valor no es entero positivo, mostrar un mensaje y terminar.
-   * Si la fecha no cumple el formato, mostrar mensaje y terminar.
-5. **(Opcional, si te da tiempo)**
+### Actividad 5: "Interfaz Gráfica Básica"
 
-   * Mostrar si la fecha cae **entre semana** o **fin de semana** (usa `isoweekday()`).
-```
+**Descripción:** Crear una interfaz gráfica simple usando bibliotecas como Tkinter que permita a los usuarios ingresar datos y recibir resultados sin necesidad de usar la terminal.
+
+### Actividad 6: "Planificador con Archivo de Entrada/Salida"
+
+**Descripción:** Los estudiantes deben modificar el planificador para que lea datos desde un archivo de texto (formato CSV) y escriba la salida en otro archivo, mejorando así su capacidad para manejar conjuntos de datos más grandes.
+
+### Actividad 7: "Planificador con Base de Datos Simples"
+
+**Descripción:** Implementar una pequeña base de datos en SQLite donde los usuarios puedan guardar diferentes configuraciones (número de caballos, fecha, etc.) y acceder a ellas para generar informes basados en esas entradas.
+
+### Actividad 8: "Planificador con Interfaz Web Básica"
+
+**Descripción:** Crear una pequeña aplicación web que permita a los usuarios ingresar datos similares al original pero desde un navegador. La aplicación debe mostrar el resultado de la planificación directamente en la página web.
+
+### Actividad 9: "Documentación del Planificador"
+
+**Descripción:** Los estudiantes deben escribir documentación detallada para su script, incluyendo ejemplos de uso y explicaciones sobre cómo funciona cada parte del código.
+
+### Actividad 10: "Comparación de Horarios de Cuadras"
+
+**Descripción:** Extender el planificador original para que pueda comparar diferentes fechas y mostrar cuántas cuadras se necesitarían en cada caso, con la finalidad de ayudar a los administradores a optimizar las cuadras según la demanda diaria.
+
 
 <a id="examen-final"></a>
 ## Examen final
 
+### Introducción a los ejercicios
+
+Este conjunto de ejercicios se centra en la creación y manipulación de una base de datos SQL para gestionar un portafolio web. Los estudiantes aprenderán a crear tablas, establecer relaciones entre ellas mediante claves foráneas y realizar consultas que incluyen operaciones JOIN para combinar información de múltiples tablas. Además, se introducirá la creación de vistas para facilitar el acceso a datos combinados y la gestión de usuarios con privilegios específicos sobre la base de datos. Estos ejercicios son esenciales para desarrollar competencias en diseño de bases de datos relacionales, consultas SQL avanzadas y seguridad de la información.
+
 ### crear tablas
+<small>Creado: 2025-11-10 16:24</small>
+
+#### Explicación
+
+Este fragmento de código SQL está creando una base de datos y dos tablas para gestionar información relacionada con piezas y categorías en un portafolio. Primero, el código crea una base de datos llamada `portafolioceac` que servirá como contenedor para todas las tablas y datos relacionados con este proyecto.
+
+Después de crear la base de datos, se selecciona (`USE`) esta base de datos para trabajar en ella. Luego, se crean dos tablas: `Piezas` y `Categorias`. La tabla `Piezas` tiene campos para almacenar información sobre cada pieza individual, como un identificador único (que es automático e incrementado), el título de la pieza, una descripción, la ruta de la imagen y una URL. También hay un campo `id_categoria`, que se usa para relacionar cada pieza con una categoría específica.
+
+Por otro lado, la tabla `Categorias` tiene campos similares pero más simples: un identificador único automático e incrementado y campos para el título y descripción de la categoría. Esta estructura permite organizar las piezas en categorías específicas, haciendo que sea fácil clasificar y buscar piezas según su tipo o tema.
+
+Esta organización es importante porque ayuda a mantener una base de datos bien estructurada y facilita realizar consultas complejas sobre cómo están relacionadas las diferentes piezas dentro del portafolio.
+
+`001-crear tablas.sql`
 
 ```sql
 CREATE DATABASE portafolioceac;
@@ -10079,6 +13901,17 @@ CREATE TABLE Categorias(
 ```
 
 ### insertar
+<small>Creado: 2025-11-10 16:24</small>
+
+#### Explicación
+
+Este fragmento de código SQL está insertando datos en dos tablas diferentes: `Categorias` y `Piezas`. En primer lugar, se añade un nuevo registro a la tabla `Categorias`, especificando que el campo `ID` debe ser automáticamente asignado por la base de datos (ya que se indica `NULL`), mientras que los campos `Nombre` y `Descripcion` reciben los valores 'General' y 'Esta es la categoria general', respectivamente. Esto crea una categoría genérica en la tabla.
+
+Luego, el código inserta un nuevo registro en la tabla `Piezas`. Similarmente a la inserción anterior, se deja que el sistema gestor de base de datos (SGBD) asigne automáticamente el valor del campo `ID` porque también aquí aparece como `NULL`. Los campos restantes reciben los siguientes valores: 'Primera pieza' para `Nombre`, 'Esta es la descripcion de la primera pieza' para `Descripcion`, 'josevicente.jpg' para `Imagen`, 'https://jocarsa.com' para `Url` y finalmente un 1 en el campo que hace referencia a una clave foránea, posiblemente asociada con la tabla `Categorias`. Esto indica que esta pieza pertenece a la categoría general recién creada.
+
+Este tipo de operaciones es crucial cuando se está configurando o actualizando una base de datos para incluir nuevos datos o ejemplos iniciales.
+
+`002-insertar.sql`
 
 ```sql
 INSERT INTO Categorias VALUES(
@@ -10098,6 +13931,17 @@ INSERT INTO Piezas VALUES(
 ```
 
 ### fk
+<small>Creado: 2025-11-10 16:24</small>
+
+#### Explicación
+
+Este fragmento de código SQL está modificando una tabla llamada `Piezas` para agregar una restricción de tipo FOREIGN KEY, que vincula la columna `id_categoria` en la tabla `Piezas` con la columna `identificador` en otra tabla llamada `Categorias`. 
+
+La sentencia `ON DELETE CASCADE` indica que si se elimina un registro en la tabla `Categorias`, cualquier fila en la tabla `Piezas` que tenga una referencia a esa categoría será automáticamente eliminada. Por otro lado, `ON UPDATE CASCADE` significa que si el valor de `identificador` cambia en la tabla `Categorias`, ese cambio también se aplicará en todas las filas correspondientes en la columna `id_categoria` de la tabla `Piezas`.
+
+Esta restricción es importante porque asegura que los datos relacionados entre tablas sean consistentes y coherentes, ayudando a prevenir problemas como registros huérfanos o referencias rotas.
+
+`003-fk.sql`
 
 ```sql
 ALTER TABLE Piezas
@@ -10108,6 +13952,17 @@ ON UPDATE CASCADE;
 ```
 
 ### selecciones
+<small>Creado: 2025-11-10 16:24</small>
+
+#### Explicación
+
+Este código SQL consta de dos consultas simples que se utilizan para recuperar datos de las bases de datos. La primera consulta, `SELECT * FROM Categorias;`, selecciona todos los campos y todas las filas de la tabla llamada "Categorias". Esto significa que obtendrás toda la información disponible en esa tabla sin realizar ningún filtrado adicional.
+
+La segunda consulta, `SELECT * FROM Piezas;`, realiza una operación similar pero para la tabla "Piezas". De nuevo, se recuperan todos los campos y todas las filas de esta tabla específica. Estos comandos son útiles cuando necesitas ver el contenido completo de dos tablas diferentes en tu base de datos.
+
+Estas consultas son esenciales porque permiten a un desarrollador o administrador de bases de datos tener una visión clara del estado actual de las tablas "Categorias" y "Piezas", lo que puede ser crucial para la gestión, mantenimiento y comprensión de los datos en tu sistema.
+
+`004-selecciones.sql`
 
 ```sql
 SELECT * FROM Categorias;
@@ -10116,6 +13971,17 @@ SELECT * FROM Piezas;
 ```
 
 ### left join
+<small>Creado: 2025-11-10 16:24</small>
+
+#### Explicación
+
+Este código SQL realiza una operación llamada "left join" entre dos tablas en una base de datos: la tabla `Piezas` y la tabla `Categorias`. El objetivo es combinar registros de ambas tablas basándose en un criterio específico, que en este caso es el campo `id_categoria` de la tabla `Piezas`, que debe coincidir con el campo `Identificador` de la tabla `Categorias`.
+
+En términos sencillos, esta consulta te devolverá una lista que contiene toda la información de todas las piezas registradas, junto con cualquier información adicional disponible en la categoría correspondiente. Si alguna pieza no tiene una categoría asignada (es decir, si el campo `id_categoria` es nulo o no hay coincidencia en la tabla `Categorias`), los campos relacionados con esta tabla se mostrarán como NULL.
+
+Esta operación es útil cuando necesitas reunir información de diferentes tablas que están relacionadas entre sí y deseas asegurarte de que todos los registros de una tabla específica (en este caso, `Piezas`) aparezcan en el resultado, incluso si no hay correspondencia en la otra tabla (`Categorias`).
+
+`005-left join.sql`
 
 ```sql
 SELECT 
@@ -10126,6 +13992,19 @@ ON Piezas.id_categoria = Categorias.Identificador;
 ```
 
 ### ahora creo la vista
+<small>Creado: 2025-11-10 16:24</small>
+
+#### Explicación
+
+Este código SQL está compuesto de dos partes principales: la creación de una vista y un consulta a dicha vista.
+
+En primer lugar, se crea una vista llamada `piezas_y_categorias`. Una vista en SQL es como un select virtual que puedes utilizar como si fuera una tabla real. En este caso, la vista combina información de dos tablas, `Categorias` y `Piezas`, usando una operación `LEFT JOIN`. Esto significa que se seleccionan todos los registros de la tabla `Piezas` junto con las columnas relevantes de la tabla `Categorias`, donde cada pieza puede estar o no asociada a una categoría. Si una pieza no tiene una relación definida en la tabla `Categorias`, las columnas relacionadas en la vista serán NULL.
+
+La consulta SELECT que sigue simplemente obtiene todos los datos (`*`) de esta nueva vista, mostrando así todas las combinaciones de piezas y sus categorías según cómo se han definido en el código anterior. Esto puede facilitar la visualización y análisis de cómo están relacionadas las piezas con sus categorías, especialmente si hay muchos registros o la relación entre ellas es compleja.
+
+Esta técnica es útil para simplificar consultas complicadas y reutilizarlas sin necesidad de escribir todo el código SQL cada vez que sea necesario.
+
+`006-ahora creo la vista.sql`
 
 ```sql
 CREATE VIEW piezas_y_categorias AS 
@@ -10144,6 +14023,17 @@ SELECT * FROM piezas_y_categorias;
 ```
 
 ### usuario
+<small>Creado: 2025-11-10 16:24</small>
+
+#### Explicación
+
+Este código SQL sirve para crear un nuevo usuario en tu base de datos y configurar sus permisos. Primero, el comando `CREATE USER` se utiliza para agregar un nuevo usuario llamado 'portafolioceac' que puede acceder desde localhost con una contraseña específica. Luego, se establecen los límites iniciales del usuario utilizando `GRANT USAGE`, lo que permite al usuario conectarse a la base de datos pero no realizar ninguna operación.
+
+A continuación, el comando `ALTER USER` elimina todos los límites anteriores para este usuario, permitiéndole ejecutar una cantidad ilimitada de consultas y conexiones. Finalmente, se otorgan a este usuario 'portafolioceac' todos los privilegios sobre la base de datos específica llamada 'portafolioceac' utilizando `GRANT ALL PRIVILEGES`. Esto significa que el usuario tendrá acceso completo para leer, escribir, modificar y administrar cualquier cosa dentro de esa base de datos.
+
+Por último, se ejecuta `FLUSH PRIVILEGES` para asegurar que todos los cambios en la configuración de usuarios y privilegios sean recargados por el servidor MySQL, lo que es crucial para aplicar estos cambios inmediatamente. Este código es importante cuando necesitas gestionar roles y permisos en un entorno donde varias personas pueden requerir acceso a diferentes partes de tu base de datos.
+
+`007-usuario.sql`
 
 ```sql
 -- crea usuario nuevo con contraseña
@@ -10173,6 +14063,43 @@ TO 'portafolioceac'@'localhost';
 FLUSH PRIVILEGES;
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Creación de Base de Datos y Tablas
+
+**Descripción:** Diseña e implementa una base de datos similar a la proporcionada en el archivo `001-crear tablas.sql`. Crea las tablas `Piezas` y `Categorias`, asegurándote de incluir los campos y tipos de datos correctos. Esta actividad busca reforzar el conocimiento sobre cómo estructurar una base de datos con MySQL.
+
+### Actividad 2: Inserción de Datos
+
+**Descripción:** Inserta al menos tres registros en las tablas `Piezas` y `Categorias` utilizando sentencias SQL, como se muestra en `002-insertar.sql`. Esta tarea ayuda a los estudiantes a entender cómo añadir datos a una base de datos existente.
+
+### Actividad 3: Creación de Relaciones
+
+**Descripción:** Añade una restricción de clave foránea entre las tablas `Piezas` y `Categorias`, como en el archivo `003-fk.sql`. Esta actividad permite a los estudiantes practicar la creación de relaciones integrales en bases de datos relacionales.
+
+### Actividad 4: Consulta Simple
+
+**Descripción:** Realiza consultas para seleccionar todos los registros de las tablas `Piezas` y `Categorias`, como se muestra en `004-selecciones.sql`. Aprenderán cómo extraer información completa de una base de datos.
+
+### Actividad 5: Consulta con Joins
+
+**Descripción:** Escribe un script SQL que use LEFT JOIN para recuperar registros de ambas tablas, tal y como se muestra en `005-left join.sql`. Esto les ayudará a comprender cómo combinar datos de múltiples tablas.
+
+### Actividad 6: Creación y Consulta de Vistas
+
+**Descripción:** Crea una vista que combine datos desde las tablas `Piezas` y `Categorias`, similar a la vista creada en el archivo `006-ahora creo la vista.sql`. Luego, realiza consultas para obtener registros de esta vista recién creada. Esta actividad es clave para entender cómo simplificar consultas complejas.
+
+### Actividad 7: Creación y Configuración de Usuarios
+
+**Descripción:** Crea un usuario nuevo en tu base de datos con privilegios limitados, tal como se indica en `007-usuario.sql`. Esto permitirá a los estudiantes aprender sobre la administración segura de bases de datos.
+
+### Actividad 8: Modificación y Borrado de Datos
+
+**Descripción:** Realiza modificaciones y borrados selectivos de registros en las tablas existentes para familiarizar a los estudiantes con las operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en SQL. Esto se puede basar en conceptos encontrados en archivos anteriores.
+
+Estas actividades están diseñadas para proporcionar una práctica continua y aplicada en el manejo de bases de datos MySQL, enfocándose específicamente en la creación, manipulación y consultas avanzadas, adaptadas a los conocimientos y habilidades que se esperan que posean estudiantes del ciclo formativo.
+
+
 
 <a id="definicion-de-esquemas-y-vocabularios-en-lenguajes-de-marcas"></a>
 # Definición de esquemas y vocabularios en lenguajes de marcas
@@ -10180,23 +14107,24 @@ FLUSH PRIVILEGES;
 <a id="tecnologias-para-la-definicion-de-documentos-estructura-y-sintaxis"></a>
 ## Tecnologías para la definición de documentos. Estructura y sintaxis
 
-En el vasto mundo de la informática, los lenguajes de marcas desempeñan un papel crucial como herramientas para definir y estructurar documentos electrónicos. Estos lenguajes, que van desde HTML hasta XML, no solo permiten crear contenido visualmente atractivo sino también facilitan su procesamiento y manipulación por parte de sistemas informáticos.
+### Introducción a los ejercicios
 
-La definición de esquemas y vocabularios en lenguajes de marcas es un aspecto fundamental para asegurar la coherencia y el intercambio de información entre diferentes aplicaciones y sistemas. Un esquema, en este contexto, puede ser considerado como una descripción formal del formato y estructura que debe seguir un documento o conjunto de documentos. Este esquema actúa como una especie de contrato, asegurando que todos los elementos necesarios estén presentes y estén organizados de manera consistente.
-
-Los vocabularios, por otro lado, son conjuntos de términos y atributos que se utilizan para enriquecer el contenido de un documento. Al definir un vocabulario, se establecen las reglas y semánticas que los elementos del vocabulario deben seguir, lo que facilita la comprensión y procesamiento del contenido por parte de sistemas informáticos.
-
-La combinación de esquemas y vocabularios en lenguajes de marcas permite crear documentos que no solo sean legibles para humanos, sino también fáciles de procesar y manipular por software. Esto se logra mediante la definición de reglas sintácticas y semánticas que guían el uso de los elementos del vocabulario dentro del esquema.
-
-Para implementar esquemas y vocabularios en lenguajes de marcas, existen varias tecnologías disponibles. XML Schema (XSD) es una tecnología popular para definir esquemas en documentos XML. XSD permite especificar la estructura y el contenido de un documento XML, asegurando que todos los elementos estén presentes y estén organizados de manera consistente.
-
-Otro ejemplo importante es el uso de vocabularios definidos por el World Wide Web Consortium (W3C). Estos vocabularios, como RDF (Resource Description Framework) o OWL (Web Ontology Language), proporcionan una forma estándar de representar conocimientos y relaciones en la web. Al utilizar estos vocabularios, se facilita la interoperabilidad entre diferentes sistemas y aplicaciones.
-
-La definición de esquemas y vocabularios en lenguajes de marcas no solo mejora la calidad del contenido digital, sino que también facilita su procesamiento y análisis por parte de sistemas informáticos. Esto es especialmente relevante en el contexto de aplicaciones web, donde los documentos electrónicos son una parte fundamental de la interacción con los usuarios.
-
-En resumen, la definición de esquemas y vocabularios en lenguajes de marcas es un aspecto crucial para asegurar la coherencia y el intercambio de información entre diferentes aplicaciones y sistemas. Al utilizar tecnologías como XML Schema o vocabularios W3C, se facilita la creación de documentos que no solo sean legibles para humanos, sino también fáciles de procesar y manipular por software. Esta práctica es fundamental en el mundo digital actual, donde la interoperabilidad y la eficiencia son elementos clave para el desarrollo y explotación de aplicaciones informáticas.
+En esta carpeta de ejercicios, trabajaremos con diferentes lenguajes de marcado como HTML, JSON y XML para comprender cómo definir la estructura y sintaxis de documentos. Los ejercicios se centran en crear archivos basados en estas tecnologías, lo que permite a los estudiantes familiarizarse con sus particularidades y usos específicos. A través de estos ejemplos prácticos, se fortalecerán habilidades esenciales como la definición de estructuras de datos, el manejo de etiquetas y atributos en documentos XML y HTML, así como la representación de datos en formato JSON.
 
 ### archivo
+<small>Creado: 2025-11-17 13:02</small>
+
+#### Explicación
+
+Este fragmento de código es un ejemplo básico de una página web creada utilizando HTML (Hypertext Markup Language), que es el lenguaje principal para estructurar y poner etiquetas a contenidos en la web. La parte central del código, `<!doctype html>`, indica al navegador que este documento sigue las reglas de HTML5.
+
+La estructura general comienza con una etiqueta `<html>` que envuelve todo el contenido de la página. Dentro de esta etiqueta, encontramos dos secciones: `<head>` y `<body>`. La sección `<head>` normalmente contiene metadatos sobre la página (como su título o información sobre los estilos), pero en este caso está vacía.
+
+La sección `<body>` es donde colocas el contenido visible de tu sitio web, como texto, imágenes, videos, etc. En este ejemplo, dentro del `<body>`, hay una etiqueta `<p>` que representa un párrafo de texto y contiene la frase "Aquí escribo mi contenido". Esto será lo que los visitantes vean cuando abran esta página en su navegador.
+
+Este esquema básico es crucial para entender cómo se estructuran las páginas web, ya que proporciona una base sobre la cual puedes añadir más elementos y características.
+
+`001-archivo.html`
 
 ```html
 <!doctype html>
@@ -10210,6 +14138,17 @@ En resumen, la definición de esquemas y vocabularios en lenguajes de marcas es 
 ```
 
 ### documento json
+<small>Creado: 2025-11-17 13:03</small>
+
+#### Explicación
+
+Este fragmento de código es un ejemplo simple de cómo se estructura la información en formato JSON (JavaScript Object Notation). En este caso, el código representa los datos personales básicos de una persona, específicamente su nombre y apellidos. 
+
+La estructura comienza con una llave "{" que indica el inicio del objeto JSON. Dentro del objeto, encontramos dos propiedades: "nombre" y "apellidos". Cada propiedad está asociada a un valor, en este caso son cadenas de texto (strings). Por ejemplo, la propiedad "nombre" tiene como valor "Jose Vicente", mientras que "apellidos" tiene el valor "Carratalá Sanchis". Finalmente, se cierra el objeto con una llave "}".
+
+Este tipo de formato es muy importante porque permite almacenar y transmitir datos de manera estructurada y fácilmente legible tanto para humanos como para máquinas. Es ampliamente utilizado en desarrollo web y aplicaciones móviles para intercambiar información entre servidores y clientes o entre diferentes sistemas informáticos.
+
+`002-documento json.json`
 
 ```json
 {
@@ -10219,6 +14158,17 @@ En resumen, la definición de esquemas y vocabularios en lenguajes de marcas es 
 ```
 
 ### documento
+<small>Creado: 2025-11-17 13:04</small>
+
+#### Explicación
+
+Este código XML es una representación simple de un documento que contiene información sobre una persona. En la primera línea, `<?xml version="1.0" encoding="UTF-8"?>`, se indica la versión del lenguaje XML y el tipo de codificación utilizada para los caracteres del texto (en este caso, UTF-8), lo cual es importante para garantizar que el documento pueda ser leído correctamente en diferentes sistemas operativos.
+
+El elemento principal del documento es `<persona>`, que encapsula toda la información relacionada con una persona específica. Dentro de este elemento se encuentran dos elementos secundarios: `<nombre>` y `<apellidos>`. El elemento `<nombre>` contiene el nombre "Jose Vicente", mientras que el elemento `<apellidos>` almacena los apellidos "Carratalá Sanchis". Esta estructura permite organizar la información de una manera clara y jerárquica, facilitando su lectura tanto para humanos como para programas informáticos.
+
+Este tipo de definición es fundamental en la gestión de datos, ya que ayuda a estandarizar cómo se representan los datos personales en diferentes sistemas o documentos.
+
+`003-documento.xml`
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -10229,6 +14179,17 @@ En resumen, la definición de esquemas y vocabularios en lenguajes de marcas es 
 ```
 
 ### otro documento
+<small>Creado: 2025-11-17 13:05</small>
+
+#### Explicación
+
+Este fragmento de código es un documento XML simple que proporciona información sobre una persona. En la parte superior, `<?xml version="1.0" encoding="UTF-8"?>` indica la versión del lenguaje XML utilizado y establece el conjunto de caracteres (encoding) como UTF-8, lo cual asegura que cualquier caracter especial o no inglés se pueda representar correctamente.
+
+El bloque central contiene una etiqueta raíz `<persona>` que agrupa toda la información referente a esta persona. Dentro de esta etiqueta, encontramos dos elementos: `<nombrepropio>` y `<apellidos>`, cada uno conteniendo el nombre propio y los apellidos de la persona respectivamente.
+
+Este tipo de estructura es importante en XML porque permite organizar datos de una manera clara y jerárquica, facilitando su procesamiento y comprensión tanto para humanos como para programas informáticos. En este caso específico, la información almacenada podría ser utilizada en diversas aplicaciones web o sistemas de gestión que requieren datos personales estructurados.
+
+`004-otro documento.xml`
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -10238,26 +14199,58 @@ En resumen, la definición de esquemas y vocabularios en lenguajes de marcas es 
 </persona>
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Conversión de JSON a XML
+**Descripción:** Los estudiantes deben convertir el contenido del archivo `002-documento json.json` en un documento XML. Este ejercicio ayudará a los alumnos a comprender las similitudes y diferencias entre JSON y XML.
+
+### Actividad 2: Modificación de Estructura HTML
+**Descripción:** Se pide a los estudiantes que añadan elementos como `meta`, `link` y `script` al archivo `001-archivo.html`. Esto mejorará su conocimiento sobre la estructura básica de un documento HTML.
+
+### Actividad 3: Creación de Esquemas XML
+**Descripción:** Los alumnos deben crear esquemas XML para los documentos `003-documento.xml` y `004-otro documento.xml`, asegurándose de incluir las diferencias en la etiqueta `<nombre>`.
+
+### Actividad 4: Añadir Comentarios a Documentos XML
+**Descripción:** Los estudiantes deben agregar comentarios explicativos dentro del archivo `003-documento.xml` para proporcionar contexto sobre los datos. Esto les ayudará a entender cómo se integran los comentarios en un documento XML.
+
+### Actividad 5: Validación de JSON
+**Descripción:** Los alumnos deben escribir una pequeña función que valide el contenido del archivo `002-documento json.json`. Este ejercicio mejora sus habilidades de programación básica y familiariza a los estudiantes con la estructura JSON.
+
+### Actividad 6: Integrar Diferentes Tipos de Datos en HTML
+**Descripción:** Se pide a los alumnos que integren datos del archivo `002-documento json.json` dentro del documento HTML. Esto les permitirá experimentar con el manejo de datos entre diferentes lenguajes y formatos.
+
+### Actividad 7: Comparación de Documentos XML
+**Descripción:** Los estudiantes deben comparar los dos documentos XML (`003-documento.xml` y `004-otro documento.xml`) y escribir un informe sobre las diferencias en su estructura y contenido. Esto les ayudará a comprender la importancia de la consistencia en la definición de esquemas.
+
+### Actividad 8: Añadir Attributos a Elementos XML
+**Descripción:** Los alumnos deben añadir atributos a los elementos del documento `004-otro documento.xml`, como por ejemplo una fecha o un ID, para aumentar su comprensión sobre cómo utilizar y manipular atributos en documentos XML.
+
+### Actividad 9: Creación de un Documento HTML Responsivo
+**Descripción:** Los estudiantes deben modificar el archivo `001-archivo.html` para hacerlo responsivo con CSS básico. Esto les permitirá aprender a combinar diferentes tecnologías web (HTML y CSS) y mejorar su habilidad para crear sitios web accesibles.
+
+### Actividad 10: Generación de Documentos HTML desde Datos JSON
+**Descripción:** Los alumnos deben escribir un script que genere automáticamente un documento HTML basado en los datos proporcionados en `002-documento json.json`. Esto les permitirá comprender la integración y manipulación de datos entre diferentes formatos de documentos.
+
+
 <a id="creacion-de-descripciones-de-documentos"></a>
 ## Creación de descripciones de documentos
 
-En el vasto mundo de la informática, los lenguajes de marcas desempeñan un papel crucial como herramientas para estructurar y presentar información. En esta subunidad didáctica, nos adentramos en el proceso de definición de esquemas y vocabularios en estos lenguajes, una habilidad fundamental para crear documentos bien formados y comprensibles.
+### Introducción a los ejercicios
 
-El primer paso en este camino es la creación de descripciones de documentos. Este proceso implica definir cómo se estructurará el contenido dentro del documento, estableciendo reglas claras sobre qué información puede incluirse y cómo debe ser organizada. Es como crear un mapa detallado que guiará a los usuarios en cómo navegar y entender el contenido.
-
-Para lograr esto, utilizamos tecnologías específicas diseñadas para la definición de documentos. Estas tecnologías ofrecen una sintaxis precisa que permite describir la estructura y el contenido del documento, asegurando que sea fácilmente procesado por sistemas informáticos. Algunos ejemplos incluyen XML (eXtensible Markup Language) y JSON (JavaScript Object Notation), que son lenguajes de marcado versátiles y ampliamente utilizados.
-
-La creación de descripciones de documentos es un proceso iterativo. Inicialmente, se define una estructura básica del documento, luego se refina para mejorar la claridad y precisión. Es importante considerar el público objetivo y las necesidades específicas del contenido al diseñar la estructura del documento. Por ejemplo, si estamos creando un manual técnico, es probable que queramos incluir secciones detalladas sobre los procedimientos y configuraciones.
-
-Además de definir la estructura, también es crucial establecer reglas para el uso de vocabularios dentro del documento. Los vocabularios son conjuntos de términos y conceptos que tienen un significado específico en el contexto del documento. Al definir un vocabulario, se asegura que todos los usuarios comprendan las mismas palabras y frases, lo que facilita la comprensión y el uso del contenido.
-
-La creación de descripciones de documentos también implica considerar la accesibilidad. Es importante diseñar los documentos de manera que sean fáciles de leer y entender para personas con diferentes niveles de habilidad y conocimiento. Esto puede implicar utilizar un lenguaje simple, proporcionar ejemplos claros y utilizar estructuras de contenido coherentes.
-
-En el mundo digital actual, la creación de descripciones de documentos es una habilidad cada vez más valorada. Los sistemas informáticos modernos requieren que los documentos estén bien estructurados y fácilmente procesables. Al dominar este proceso, podemos crear información que sea no solo precisa y comprensible, sino también accesible y útil para un amplio rango de usuarios.
-
-En conclusión, la creación de descripciones de documentos es un paso fundamental en el uso de lenguajes de marcas. Este proceso implica definir una estructura clara del contenido, establecer reglas precisas para el uso de vocabularios y considerar la accesibilidad del documento. Al dominar este proceso, podemos crear información que sea fácilmente procesada y comprensible por sistemas informáticos, lo que es crucial en un mundo cada vez más digitalizado.
+En esta carpeta de ejercicios, trabajarás con la definición y validación de esquemas XML utilizando XSD (XML Schema Definition). El objetivo principal es aprender a crear un esquema que describa el formato estructural de documentos XML específicos. A través del archivo `002-plantilla.xsd`, establecerás las reglas para elementos como nombre, apellidos, profesión, roles, proyectos destacados e intereses técnicos. Luego, utilizando Python y la librería `xmlschema`, validarás si un documento XML (`001-documento.xml`) cumple con este esquema. También revisarás el caso de un documento no válido (`004-documento no valido.xml`) para comprender cómo manejar errores en la validación. Este conjunto de ejercicios te ayudará a desarrollar competencias clave en la definición y aplicación de esquemas XML, asegurando así la integridad estructural de tus documentos XML futuros.
 
 ### documento
+<small>Creado: 2025-11-17 13:09</small>
+
+#### Explicación
+
+Este fragmento de código es un documento XML que describe información personal detallada sobre una persona. La estructura comienza con la declaración de versión y codificación del documento, seguida por el elemento principal llamado `<persona>`, que contiene todos los datos relacionados con esa persona. Dentro de este elemento principal, se incluyen subelementos como `<nombre>`, `<apellidos>`, `<profesion>` para proporcionar detalles básicos sobre la persona.
+
+Además, el documento XML también incluye información más específica, como roles profesionales y personales dentro del elemento `<roles>`, proyectos destacados en el elemento `<proyectosDestacados>`, intereses técnicos bajo el elemento `<interesesTecnicos>` y finalmente, la ubicación geográfica de la persona en el elemento `<ubicacion>`. Este tipo de estructura es importante porque permite organizar información compleja de manera clara y jerárquica, facilitando tanto su lectura como su procesamiento por parte de otros programas.
+
+El uso de XML para almacenar esta información tiene la ventaja de ser legible tanto por humanos como por máquinas, lo que facilita la intercambiabilidad de datos entre diferentes sistemas o aplicaciones. Esto es especialmente útil en entornos profesionales donde se requiere compartir y gestionar datos estructurados de manera eficiente.
+
+`001-documento.xml`
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -10292,6 +14285,19 @@ En conclusión, la creación de descripciones de documentos es un paso fundament
 ```
 
 ### plantilla
+<small>Creado: 2025-11-17 13:10</small>
+
+#### Explicación
+
+Este fragmento de código es un archivo XSD (XML Schema Definition) que define el esquema para estructuras XML específicas relacionadas con datos personales. El objetivo principal del esquema es validar y definir cómo debe ser la estructura de un documento XML que representa a una persona, incluyendo detalles como nombre, apellidos, profesión, roles, proyectos destacados e intereses técnicos.
+
+El elemento raíz del esquema se llama "persona" y contiene varios elementos secundarios. Entre estos elementos están los campos básicos como "nombre", "apellidos" y "profesion". También incluye bloques más complejos para listas de roles, proyectos destacados e intereses técnicos, donde cada uno permite múltiples entradas (usando `minOccurs="1"` y `maxOccurs="unbounded"`), lo que significa que se pueden tener desde una hasta varias entradas en estos campos.
+
+Finalmente, el esquema define un elemento "ubicacion" que contiene información sobre la ubicación de la persona. Este archivo XSD sirve para garantizar que cualquier XML que quiera representar a una persona siga esta estructura exacta, lo cual ayuda a mantener la consistencia y facilita el procesamiento automático del contenido XML por parte de otros sistemas o programas.
+
+Este tipo de esquemas son muy útiles en entornos profesionales donde se manejan grandes volúmenes de datos XML para asegurar que todos los documentos sigan las mismas reglas estructurales, lo que simplifica mucho el trabajo con ellos.
+
+`002-plantilla.xsd`
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -10344,6 +14350,15 @@ En conclusión, la creación de descripciones de documentos es un paso fundament
 ```
 
 ### validador
+<small>Creado: 2025-11-17 13:13</small>
+
+#### Explicación
+
+Este fragmento de código en Python utiliza la biblioteca `xmlschema` para validar un archivo XML contra un esquema XSD. Primero, se carga el esquema XSD desde el archivo "002-plantilla.xsd" y se crea una instancia del objeto `XMLSchema`. Luego, intenta validar el contenido del archivo "001-documento.xml" usando este esquema. Si el documento XML cumple con las reglas definidas en el esquema XSD, imprimirá un mensaje indicando que el XML es válido. En caso contrario, captura la excepción `XMLSchemaValidationError`, imprime un mensaje de error y muestra los detalles específicos del error para ayudar a entender qué parte del documento no cumple con las reglas del esquema.
+
+Esta validación es importante porque garantiza que los documentos XML sigan una estructura y sintaxis definida, lo cual es crucial en aplicaciones donde la consistencia de los datos es fundamental.
+
+`003-validador.py`
 
 ```python
 import xmlschema
@@ -10359,6 +14374,17 @@ except xmlschema.exceptions.XMLSchemaValidationError as e:
 ```
 
 ### documento no valido
+<small>Creado: 2025-11-17 13:14</small>
+
+#### Explicación
+
+Este fragmento de código XML está diseñado para describir información personal detallada sobre una persona, en este caso, un profesor de formación profesional. La estructura del documento comienza con la declaración de versión y codificación del archivo (`<?xml version="1.0" encoding="UTF-8"?`>) que indica que el documento está escrito en XML versión 1.0 y utiliza el conjunto de caracteres UTF-8.
+
+Dentro del elemento raíz `<persona>`, se incluyen varios elementos secundarios que proporcionan detalles específicos sobre la persona, como su nombre (`<minombre>`), apellidos (`<apellidos>`), profesión (`<profesion>`), roles profesionales y personales dentro de etiquetas `<roles>` con múltiples elementos `<rol>`, proyectos destacados enumerados en el elemento `<proyectosDestacados>`, intereses tecnológicos enlistados bajo `<interesesTecnicos>`, y la ubicación geográfica donde reside o trabaja (`<ubicacion>`).
+
+Este tipo de estructura XML es importante porque permite organizar datos de manera jerárquica, facilitando su lectura tanto para humanos como para máquinas. Además, es útil en contextos donde se necesita intercambiar información entre diferentes sistemas y aplicaciones de forma estándar y coherente. En el contexto del curso, este archivo puede ser utilizado para ilustrar cómo validar o crear descripciones de documentos XML contra un esquema definido (como XSD), identificando posibles errores estructurales en los documentos que no cumplen con dicho esquema, tal como podría suceder con "004-documento no valido.xml".
+
+`004-documento no valido.xml`
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -10393,6 +14419,19 @@ except xmlschema.exceptions.XMLSchemaValidationError as e:
 ```
 
 ### validar de nuevo
+<small>Creado: 2025-11-17 13:15</small>
+
+#### Explicación
+
+Este código verifica si un archivo XML cumple con las reglas definidas en un esquema XSD. En primer lugar, se importa el módulo `xmlschema`, que proporciona herramientas para trabajar con archivos XML y sus esquemas de validación.
+
+Luego, se crea una instancia del objeto `XMLSchema` utilizando el archivo "002-plantilla.xsd", que contiene las reglas específicas que un documento XML debe seguir. Esto permite al programa entender qué estructura y elementos deben estar presentes en cualquier archivo XML que quiera validar contra este esquema.
+
+El código intenta validar el archivo "004-documento no valido.xml" utilizando la función `validate` del objeto de esquema creado anteriormente. Si el documento XML cumple con todas las reglas especificadas en el esquema XSD, se imprime un mensaje indicando que el XML es válido. Sin embargo, si alguna regla no se cumple y el archivo no es válido, se captura la excepción `XMLSchemaValueError`, lo que hace que se imprima un mensaje de error junto con los detalles del problema.
+
+Este tipo de validación es crucial para asegurar que los datos en formato XML sigan una estructura coherente y puedan ser procesados correctamente por sistemas informáticos.
+
+`005-validar de nuevo.py`
 
 ```python
 import xmlschema
@@ -10407,24 +14446,76 @@ except xmlschema.exceptions.XMLSchemaValueError as e:
     print(e)
 ```
 
+### Actividades propuestas
+
+1. **Validación de Esquemas XML**
+   - Desarrolla un script en Python que utilice `xmlschema` para validar el archivo XML proporcionado contra su correspondiente esquema XSD.
+   - Objetivo: Familiarizarse con la validación de documentos XML y aprender a manejar errores de validación.
+
+2. **Corrección de Errores en Documento**
+   - Identifica y corrige los errores que impiden que el archivo "004-documento no valido.xml" sea válido según su esquema.
+   - Objetivo: Aprender a identificar y corregir errores comunes en documentos XML.
+
+3. **Creación de Nuevos Documentos**
+   - Crea un nuevo documento XML basado en el mismo esquema XSD pero con datos diferentes (nombre, apellidos, roles, etc.)
+   - Objetivo: Practicar la creación de documentos XML y asegurar que cumplen con los requisitos definidos por el esquema.
+
+4. **Añadir Elementos a un Documento Existente**
+   - Añade nuevos elementos al documento XML existente sin romper su validez.
+   - Objetivo: Entender cómo modificar un documento XML de manera compatible con su esquema y mantener la integridad del mismo.
+
+5. **Validación de Múltiples Documentos**
+   - Escribe una función que reciba varios archivos XML y los valide contra el mismo esquema XSD, imprimiendo resultados para cada uno.
+   - Objetivo: Familiarizarse con la validación en lotes y manejo de errores.
+
+6. **Modificación del Esquema**
+   - Modifica ligeramente el esquema XSD (por ejemplo, cambiar la longitud mínima del campo nombre) y actualiza los documentos XML para que cumplan con este nuevo esquema.
+   - Objetivo: Aprender a trabajar con modificaciones en los esquemas de datos y sus efectos sobre los documentos XML.
+
+7. **Comparación de Documentos**
+   - Implementa una funcionalidad que compare dos documentos XML basados en su estructura e imprima las diferencias.
+   - Objetivo: Desarrollar habilidades para analizar y comparar diferentes conjuntos de datos en formato XML.
+
+8. **Automatización del Proceso de Validación**
+   - Crea un script que automatice la validación de todos los archivos XML dentro de una carpeta específica, utilizando el esquema XSD correspondiente.
+   - Objetivo: Mejorar las habilidades de automatización y trabajo en entornos de desarrollo más dinámicos.
+
+9. **Documentación Automática**
+   - Utiliza herramientas como `xmlschema` para generar documentación automáticamente a partir del esquema XSD.
+   - Objetivo: Aprender cómo utilizar la generación automática de documentación para simplificar el proceso de mantenimiento y uso de los documentos XML.
+
+10. **Validación Extendida**
+    - Desarrolla un script que no solo valide, sino también genere informes detallados sobre la estructura y contenido de los archivos XML.
+    - Objetivo: Mejorar las habilidades en el análisis profundo de datos XML y su representación visual.
+
+
 <a id="asociacion-de-descripciones-con-documentos-validacion"></a>
 ## Asociación de descripciones con documentos. Validación
 
-En el mundo digital actual, la definición de esquemas y vocabularios en lenguajes de marcas desempeña un papel crucial para la organización, almacenamiento y manipulación eficiente de información. Este proceso permite a los desarrolladores crear estructuras claras y coherentes que faciliten la comunicación entre diferentes sistemas y aplicaciones.
+### Introducción a los ejercicios
 
-La asociación de descripciones con documentos es una técnica fundamental en este contexto. Las descripciones, también conocidas como esquemas o vocabularios, proporcionan un conjunto de reglas y definiciones que guían cómo se estructuran y representan los datos dentro de un documento. Al asociar estas descripciones con los documentos, se establece un marco común que asegura la consistencia y coherencia en la forma en que se manejan los datos.
-
-Es importante destacar que el proceso de asociación no es tan sencillo como parece. Requiere una comprensión profunda de las necesidades del sistema y los requisitos específicos de los usuarios finales. Los desarrolladores deben considerar factores como la complejidad de los datos, la eficiencia en el almacenamiento y la facilidad de acceso para los usuarios.
-
-La validación es otro aspecto crucial que complementa la asociación de descripciones con documentos. La validación implica comprobar si un documento cumple con las reglas definidas por su esquema o vocabulario. Este proceso puede ser automatizado mediante herramientas especializadas, lo que asegura que todos los documentos estén bien formados y sigan el formato correcto.
-
-La importancia de la validación radica en su capacidad para prevenir errores y garantizar la calidad del dato. Un documento no válido puede llevar a problemas significativos en sistemas interconectados, como inconsistencias de datos o fallos en la comunicación entre aplicaciones.
-
-Además, la asociación y validación de descripciones con documentos facilitan el intercambio de información entre diferentes organizaciones y plataformas. Al utilizar un esquema común, los sistemas pueden compartir datos sin necesidad de convertirlos a un formato diferente, lo que mejora la eficiencia y reduce errores.
-
-En resumen, la definición de esquemas y vocabularios en lenguajes de marcas, junto con su asociación y validación, constituyen una base sólida para el manejo eficiente de información digital. Estos procesos no solo optimizan la estructura y organización de los datos, sino que también aseguran su integridad y facilitan su intercambio entre diferentes sistemas y aplicaciones.
+En esta carpeta, trabajaremos con la validación de documentos XML utilizando esquemas XSD. El objetivo principal es entender cómo se definen y aplican restricciones estructurales en archivos XML a través del uso de un esquema XSD. Los ejercicios te guiarán para crear una plantilla XML basada en un esquema definido, luego validar un documento XML contra este esquema utilizando Python y la biblioteca `xmlschema`. A través de esta práctica, adquirirás competencias clave como el manejo de estructuras complejas en XML, la creación y uso efectivo de esquemas XSD, y la validación programática de documentos XML.
 
 ### plantilla
+<small>Creado: 2025-11-17 13:18</small>
+
+#### Explicación
+
+Este código es un archivo XSD (XML Schema Definition) que define la estructura y los tipos de datos permitidos para el elemento raíz `persona` en documentos XML. El objetivo del esquema es asegurar que cualquier documento XML que use este esquema siga una estructura específica.
+
+El esquema especifica que cada persona tiene varios campos obligatorios: un nombre, apellidos y profesión, todos definidos como cadenas de texto (string). Además, incluye tres elementos adicionales que pueden contener múltiples valores:
+
+1. **Roles**: Puede listar uno o más roles asociados a la persona.
+2. **Proyectos destacados**: Enumera uno o más proyectos importantes en los que ha trabajado.
+3. **Intereses técnicos**: Contiene una lista de intereses tecnológicos relevantes para la persona.
+
+Cada uno de estos elementos puede contener múltiples subelementos, como `rol`, `proyecto` e `interes`. Estos se definen con un mínimo de ocurrencias de 1 (una vez) y un máximo de ocurrencias ilimitado (`unbounded`) para permitir que una persona tenga tantos roles, proyectos destacados o intereses técnicos como sea necesario.
+
+Por último, el esquema también incluye un campo `ubicación`, que se define simplemente como una cadena de texto sin restricciones adicionales.
+
+Este tipo de esquemas XSD son importantes porque garantizan la consistencia y validez en los datos intercambiados entre sistemas, asegurando que cada documento XML respete esta estructura definida.
+
+`002-plantilla.xsd`
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -10477,6 +14568,17 @@ En resumen, la definición de esquemas y vocabularios en lenguajes de marcas, ju
 ```
 
 ### documento no valido
+<small>Creado: 2025-11-17 13:18</small>
+
+#### Explicación
+
+Este fragmento de código es un archivo XML que representa información sobre una persona, en este caso, probablemente Jose Vicente Carratalá Sanchis. El documento comienza con la declaración de versión y codificación del XML, seguida por la raíz principal `<persona>`. Dentro de esta etiqueta, se encuentran varias subetiquetas que proporcionan detalles específicos sobre la persona, como su nombre, apellidos, profesión, roles, proyectos destacados e intereses técnicos. El archivo también incluye una ubicación geográfica para completar el perfil.
+
+Cada elemento XML está estructurado de manera clara y jerárquica, lo que facilita tanto la lectura humana como el procesamiento automático del documento por parte de sistemas informáticos. Por ejemplo, los roles y proyectos destacados son listas enumeradas dentro de elementos específicos para organizar múltiples entradas. Este tipo de estructuración es importante porque permite a otros sistemas validar fácilmente la forma en que está escrito el XML contra un esquema (como XSD), asegurando así que todos los documentos sigan una misma estructura y son coherentes.
+
+Es relevante destacar que este archivo ha sido mencionado como "no válido", lo que sugiere que puede haber errores de sintaxis o no cumplir con las reglas definidas en un esquema XML, aunque el contenido proporcionado parece estar correctamente formateado visualmente.
+
+`004-documento no valido.xml`
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -10511,6 +14613,13 @@ En resumen, la definición de esquemas y vocabularios en lenguajes de marcas, ju
 ```
 
 ### validar de nuevo
+<small>Creado: 2025-11-17 13:18</small>
+
+#### Explicación
+
+Este código Python utiliza la biblioteca `xmlschema` para validar un archivo XML contra un esquema XSD. En primer lugar, se carga el esquema desde el archivo "002-plantilla.xsd" en una variable llamada `esquema`. Luego, el programa intenta validar el contenido del archivo "004-documento no valido.xml" usando este esquema. Si el XML cumple con todas las reglas definidas en el XSD, se imprime un mensaje indicando que el documento es válido ("✔️ XML válido"). Sin embargo, si el XML no está conforme con el esquema y se produce un error de validación, el programa captura la excepción `XMLSchemaValueError`, imprime un mensaje de error específico ("❌ XML NO válido"), y muestra información adicional sobre por qué el documento no pasó la validación. Este proceso es crucial para asegurar que los documentos XML sigan una estructura estándar definida en su correspondiente XSD.
+
+`005-validar de nuevo.py`
 
 ```python
 import xmlschema
@@ -10525,22 +14634,74 @@ except xmlschema.exceptions.XMLSchemaValueError as e:
     print(e)
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Crear un Documento XML Valido
+
+**Descripción:** Los estudiantes deben crear un archivo XML basado en la plantilla proporcionada (`002-plantilla.xsd`). El objetivo es que comprendan cómo estructurar datos de una persona siguiendo un esquema XSD.
+
+### Actividad 2: Identificar y Corregir Errores
+
+**Descripción:** Los estudiantes deben identificar por qué el archivo XML dado en `004-documento no valido.xml` no cumple con los requisitos del esquema. Posteriormente, deberán corregir estos errores para que el documento sea válido.
+
+### Actividad 3: Validación Automática
+
+**Descripción:** Los estudiantes deben escribir un programa Python similar a `005-validar de nuevo.py` para validar automáticamente otro archivo XML proporcionado por el profesor. Esto ayudará a entender cómo funcionan las validaciones automáticas en programación.
+
+### Actividad 4: Añadir Elementos al Esquema
+
+**Descripción:** Los estudiantes añaden nuevos elementos a la plantilla XSD (`002-plantilla.xsd`) para representar datos adicionales que pueden ser relevantes para una persona (por ejemplo, fecha de nacimiento o correo electrónico). Luego deben crear un XML nuevo basado en esta nueva estructura.
+
+### Actividad 5: Esquema Extendido
+
+**Descripción:** Los estudiantes extienden el esquema XSD actual permitiendo que cada elemento opcional sea necesario y viceversa, y crean un XML válido para este nuevo esquema extendido.
+
+### Actividad 6: Validación de Múltiples Documentos
+
+**Descripción:** Los estudiantes deben escribir un script Python que valide múltiples archivos XML proporcionados por el profesor utilizando la misma plantilla XSD. El objetivo es automatizar la comprobación de conformidad con múltiples documentos.
+
+### Actividad 7: Generar Informe de Errores
+
+**Descripción:** Los estudiantes deben modificar `005-validar de nuevo.py` para que, en lugar de simplemente imprimir un mensaje de error cuando el XML no es válido, genere un informe detallado sobre todos los errores encontrados.
+
+### Actividad 8: Creación y Validación Conjunta
+
+**Descripción:** Los estudiantes trabajan en parejas. Uno crea un nuevo archivo XML basado en la plantilla XSD, mientras que el otro valida este documento usando Python. Posteriormente, se intercambian roles para practicar ambos lados del proceso.
+
+### Actividad 9: Mejora y Personalización de Esquemas
+
+**Descripción:** Los estudiantes personalizan los esquemas existentes añadiendo restricciones (como longitudes máximas o mínimas) a los tipos de datos, y luego crean un nuevo documento XML que cumpla con estos nuevos requisitos.
+
+### Actividad 10: Pruebas Unitarias
+
+**Descripción:** Los estudiantes escriben pruebas unitarias para las funciones de validación del script Python. Esto les ayuda a entender cómo garantizar la correcta implementación y robustez de los scripts de validación automática.
+
+Estas actividades están diseñadas para que los alumnos entiendan tanto la estructura XML como las reglas de validación, así como adquieran habilidades prácticas en Python.
+
+
 <a id="herramientas-de-creacion-y-validacion"></a>
 ## Herramientas de creación y validación
 
-En el mundo digital actual, la creación y validación de esquemas y vocabularios en lenguajes de marcas son fundamentales para garantizar la estructura y coherencia de los documentos informáticos. Estos procesos permiten definir cómo se organizarán los datos dentro de un documento XML o HTML, asegurando que sean comprensibles y accesibles tanto por humanos como por máquinas.
+### Introducción a los ejercicios
 
-La herramientas de creación y validación desempeñan un papel crucial en este proceso. Estas herramientas proporcionan interfaces gráficas intuitivas que facilitan la definición de esquemas XML o DTD (Document Type Definition), permitiendo a los usuarios especificar las reglas de estructura, tipos de datos y relaciones entre elementos del documento.
-
-Además, estas herramientas ofrecen funciones avanzadas para validar documentos contra el esquema definido. Esto implica comprobar que todos los elementos estén correctamente posicionados, que los tipos de datos sean apropiados y que las relaciones entre elementos cumplan con las reglas establecidas. La validación automática no solo ahorra tiempo y reduce errores humanos, sino que también asegura la consistencia y precisión de los datos.
-
-La creación y validación de esquemas y vocabularios en lenguajes de marcas son herramientas poderosas para el desarrollo de aplicaciones web y sistemas informáticos. Al definir claramente cómo se estructuran los datos, estas herramientas facilitan la implementación de interfaces de usuario y la creación de servicios web que pueden intercambiar información de manera eficiente y segura.
-
-Además, las herramientas de creación y validación permiten la documentación automática del esquema. Esto significa que se generan documentos que describen en detalle cómo se estructuran los datos dentro del documento, lo que facilita el mantenimiento y actualización del sistema a largo plazo.
-
-En resumen, la creación y validación de esquemas y vocabularios en lenguajes de marcas son procesos cruciales para garantizar la calidad y coherencia de los documentos informáticos. Las herramientas disponibles hoy en día facilitan este proceso, haciendo que sea más sencillo definir estructuras de datos complejas y validar documentos contra ellas con alta precisión.
+Esta carpeta contiene ejercicios que te ayudarán a comprender y trabajar con esquemas XML (XSD) para definir estructuras de datos y crear instancias XML basadas en esos esquemas. Los ejercicios inician por analizar un esquema XML existente llamado "esquema.xsd" y extraer información sobre los campos necesarios para una entidad específica, como la etiqueta `<persona>`. A medida que avanzas, te pedirán capturar datos del usuario para crear instancias de este esquema en formato XML, con énfasis en cómo validar e imprimir estos archivos de manera legible. Estos ejercicios mejoran tus habilidades en procesamiento de XML y XSD, manejo de estructuras de datos y formateo de salida.
 
 ### generador esquema
+<small>Creado: 2025-11-17 13:22</small>
+
+#### Explicación
+
+Este fragmento de código en Python está diseñado para analizar un archivo XSD (XML Schema Definition) que define los esquemas para datos XML. El objetivo del código es extraer y mostrar las etiquetas o campos específicos dentro del elemento "persona" definido en el esquema.
+
+El código comienza importando la librería `xml.etree.ElementTree`, que se utiliza para analizar archivos XML y XSD en Python. Luego, carga un archivo llamado "esquema.xsd" ubicado en la carpeta "schema". A continuación, busca dentro del esquema el elemento raíz y define un espacio de nombres (XS) asociado a los esquemas XML.
+
+El código itera sobre todos los elementos `<element>` dentro del archivo XSD. Cuando encuentra un elemento llamado "persona", busca en su interior otro elemento denominado `complexType`, que contiene una lista ordenada (`sequence`) de campos que son parte de la estructura del elemento "persona". Para cada campo encontrado en esta secuencia, el código almacena el nombre del campo en una lista llamada `fields`.
+
+Finalmente, imprime en pantalla los nombres de los campos asociados con el elemento "persona".
+
+Este tipo de código es importante porque ayuda a entender y manipular estructuras complejas definidas por esquemas XML, lo cual es crucial cuando se trabaja con datos estructurados en aplicaciones web o sistemas informáticos.
+
+`001-generador esquema.py`
 
 ```python
 import xml.etree.ElementTree as ET
@@ -10566,6 +14727,19 @@ print("Campos de <persona>:", fields)
 ```
 
 ### preguntas dinamicas
+<small>Creado: 2025-11-17 13:26</small>
+
+#### Explicación
+
+Este código es una parte de un programa en Python que maneja archivos XML y sus respectivos esquemas (XSD). En concreto, este fragmento está diseñado para leer un archivo XSD (llamado `esquema.xsd`), identificar los campos específicos requeridos por el elemento "persona" dentro del esquema, e interactuar con el usuario para recoger valores de entrada para esos campos.
+
+El código comienza importando el módulo `xml.etree.ElementTree`, que es una biblioteca estándar en Python utilizada para manipular y analizar documentos XML. A continuación, se carga el archivo XSD ubicado en la carpeta "schema". El documento cargado se recorre para encontrar todos los elementos denominados "persona" dentro del esquema y extrae sus campos requeridos.
+
+Una vez que el código ha identificado y almacenado en una lista (`fields`) todos los nombres de los campos necesarios para un elemento "persona", entra en la segunda parte del programa: recoger entradas del usuario. Para cada campo que se ha encontrado, le pide al usuario que introduzca un valor asociado a ese campo.
+
+Este tipo de programa es útil cuando es necesario crear datos XML que cumplan con ciertos esquemas definidos, asegurando así la consistencia y validación de los datos.
+
+`002-preguntas dinamicas.py`
 
 ```python
 import xml.etree.ElementTree as ET
@@ -10593,6 +14767,17 @@ for campo in fields:
 ```
 
 ### guardar xml
+<small>Creado: 2025-11-17 13:28</small>
+
+#### Explicación
+
+Este código Python te ayuda a crear un archivo XML basándose en una estructura definida en un fichero XSD (XML Schema Definition). El programa primero carga el esquema desde el archivo "esquema.xsd", busca dentro de él la estructura del elemento `<persona>` y extrae los nombres de todos los campos que forman parte de este elemento.
+
+Luego, el código solicita al usuario que introduzca valores para cada uno de estos campos. Una vez que tienes todos los datos necesarios, se construye un documento XML que sigue exactamente la estructura definida en el esquema XSD. Finalmente, guarda este nuevo archivo XML con la información proporcionada por el usuario en un archivo llamado "persona.xml".
+
+Esta herramienta es importante porque permite a los usuarios generar archivos XML que son válidos según una estructura predefinida (el esquema), asegurando así que cualquier dato generado cumple con los requisitos y formatos esperados. Esto ayuda en la creación de datos consistentes y en la integración entre diferentes sistemas informáticos que usan el mismo esquema XML para intercambiar información.
+
+`003-guardar xml.py`
 
 ```python
 import xml.etree.ElementTree as ET
@@ -10647,6 +14832,19 @@ print(f"XML guardado en {output_file}")
 ```
 
 ### pretty print
+<small>Creado: 2025-11-17 13:30</small>
+
+#### Explicación
+
+Este código Python se utiliza para crear un archivo XML a partir de una estructura definida en un archivo XSD (esquema XML). El programa comienza leyendo el esquema desde un archivo llamado "esquema.xsd" y busca dentro del mismo la estructura del elemento raíz llamado "persona". A continuación, identifica todos los campos que deben estar incluidos en este elemento de persona.
+
+Una vez conocidos estos campos, el programa solicita al usuario que introduzca un valor para cada uno de ellos. Con los valores proporcionados por el usuario, construye un nuevo archivo XML donde la estructura coincide con lo especificado en el XSD (esquema XML).
+
+Finalmente, el código utiliza una función llamada `toprettyxml` desde la librería `minidom` para formatear este XML de manera legible y luego guarda el resultado en un archivo llamado "persona.xml".
+
+Este proceso es importante porque permite a los usuarios generar archivos XML que cumplen con las reglas especificadas en un XSD, asegurando así que el contenido del XML sea válido según el esquema definido.
+
+`004-pretty print.py`
 
 ```python
 import xml.etree.ElementTree as ET
@@ -10707,6 +14905,19 @@ print(f"XML formateado guardado en {output_file}")
 ```
 
 ### persona
+<small>Creado: 2025-11-17 13:30</small>
+
+#### Explicación
+
+Este fragmento de código es un archivo XML que contiene información sobre una persona. El propósito principal de este código es almacenar datos personales de manera estructurada y legible para otros sistemas o programas.
+
+La primera línea, `<?xml version="1.0" encoding="utf-8"?>`, indica la versión del lenguaje XML utilizada y el tipo de codificación que se emplea en el documento. Es importante porque asegura que el archivo sea interpretado correctamente por los lectores de XML.
+
+El contenido principal está dentro de la etiqueta `<persona>...</persona>`. Dentro de esta, encontramos subelementos como `<nombre>`, `<apellidos>`, `<email>` y otros, cada uno con información específica sobre la persona. Por ejemplo, el nombre 'Jose Vicente' se encuentra entre las etiquetas `<nombre>...</nombre>`, lo que indica claramente qué dato representa ese texto.
+
+Este tipo de estructura es útil en sistemas de gestión de información porque permite organizar datos de manera jerárquica y facilita la búsqueda y manipulación de dichos datos por otros programas. Es importante notar que cada elemento debe estar correctamente cerrado (por ejemplo, si se abre con `<nombre>`, también debe cerrarse con `</nombre>`), lo cual es fundamental para que el XML sea válido y pueda ser procesado sin problemas.
+
+`persona.xml`
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -10720,6 +14931,51 @@ print(f"XML formateado guardado en {output_file}")
 </persona>
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Análisis de Esquemas XML
+
+**Descripción:** Identifica y analiza los elementos y tipos complejos definidos en el esquema `esquema.xsd`. Enumera los campos que forman parte del tipo complejo `<persona>`. Este ejercicio ayuda a entender la estructura y las reglas definidas por un esquema XML.
+
+### Actividad 2: Interacción con Esquemas
+
+**Descripción:** Crea una herramienta simple en Python que permita al usuario introducir valores para los campos del tipo complejo `<persona>` basándose en el esquema proporcionado. La actividad enseña cómo interactuar con un XSD para validar y generar datos XML.
+
+### Actividad 3: Generación de Archivos XML
+
+**Descripción:** Implementa una aplicación que genera archivos XML desde cero utilizando los esquemas definidos en `esquema.xsd`. El objetivo principal es aprender a construir árboles de elementos XML basados en un esquema dado.
+
+### Actividad 4: Validación de Datos
+
+**Descripción:** Diseña una función que valide si el contenido introducido por el usuario cumple con las reglas definidas en el esquema `esquema.xsd`. Esta actividad refuerza la comprensión de cómo validar datos según un esquema XML.
+
+### Actividad 5: Formateo de Archivos XML
+
+**Descripción:** Añade funcionalidades para formatear los archivos XML generados, haciéndolos más legibles y estéticamente agradables. Esta tarea implica la utilización de librerías como `xml.dom.minidom` para mejorar el aspecto del código XML.
+
+### Actividad 6: Modificación Dinámica
+
+**Descripción:** Desarrolla una aplicación que permita al usuario modificar dinámicamente los datos en un archivo XML existente, asegurándose de que sigue cumpliendo con las reglas establecidas por `esquema.xsd`.
+
+### Actividad 7: Integración con Ficheros Existentes
+
+**Descripción:** Proporciona una serie de archivos XML basados en el esquema y solicita al estudiante que genere código Python para leer, analizar y modificar dichos ficheros según las reglas del esquema.
+
+### Actividad 8: Herramientas de Diagnóstico
+
+**Descripción:** Crea herramientas diagnósticas que generen informes sobre la consistencia y coherencia de un conjunto de archivos XML frente a su correspondiente esquema XSD, ayudando así a detectar posibles errores o inconsistencias.
+
+### Actividad 9: Documentación del Código
+
+**Descripción:** Escribe documentación detallada para cada una de las actividades anteriores. La documentación debe explicar paso a paso cómo se ha implementado la funcionalidad y qué conceptos XML se han utilizado en el proceso.
+
+### Actividad 10: Proyecto Final Integrador
+
+**Descripción:** Diseña un pequeño proyecto que integre todas las habilidades aprendidas: desde la creación de esquemas hasta la generación, validación y modificación de archivos XML. Este ejercicio permite a los estudiantes aplicar en un contexto práctico lo aprendido durante el curso.
+
+Estas actividades están diseñadas para proporcionar una experiencia práctica rica que cubra varios aspectos importantes de trabajar con XML y XSD en entornos de programación Python, adaptándose al nivel y las necesidades educativas de los estudiantes de Formación Profesional.
+
+
 
 <a id="conversion-y-adaptacion-de-documentos-para-el-intercambio-de-informacion"></a>
 # Conversión y adaptación de documentos para el intercambio de información
@@ -10727,23 +14983,24 @@ print(f"XML formateado guardado en {output_file}")
 <a id="tecnologias-de-transformacion-de-documentos"></a>
 ## Tecnologías de transformación de documentos
 
-En el mundo digital actual, la capacidad de convertir y adaptar documentos para su intercambio entre diferentes sistemas es una habilidad crucial. Esta carpeta del curso nos introduce a las tecnologías que facilitan este proceso, abordando desde los fundamentos hasta las aplicaciones prácticas.
+### Introducción a los ejercicios
 
-La conversión y adaptación de documentos son procesos que permiten la transmisión de información entre plataformas distintas, asegurando su comprensión y uso en el contexto del sistema receptor. Esta tarea es vital en entornos empresariales y académicos, donde la colaboración y la integración de sistemas son comunes.
-
-Las tecnologías para la transformación de documentos incluyen herramientas que pueden convertir formatos entre sí, como PDF a Word o viceversa. Estas herramientas suelen basarse en bibliotecas de software que proporcionan funciones para leer, escribir y manipular diferentes tipos de archivos. Por ejemplo, la biblioteca `Apache POI` es una poderosa herramienta para trabajar con documentos Microsoft Office en Java.
-
-Además de las conversiones entre formatos, también existen tecnologías que permiten adaptar el contenido de los documentos a diferentes plataformas o dispositivos. Esto puede implicar la creación de versiones simplificadas de un documento para su visualización en pantallas pequeñas, o la generación de documentos personalizados basados en datos dinámicos.
-
-La importancia de estas tecnologías radica en su capacidad para facilitar el intercambio de información entre sistemas, mejorar la colaboración y reducir errores humanos. Al convertir y adaptar documentos, se asegura que la información esté disponible en el formato adecuado y accesible para todas las partes interesadas.
-
-En el contexto del desarrollo de software, las herramientas de transformación de documentos son esenciales para crear interfaces de usuario nativas, donde los usuarios pueden interactuar con aplicaciones sin necesidad de conocer el formato interno de los datos. Por ejemplo, una aplicación que muestra un informe en formato PDF puede adaptarlo a la interfaz gráfica de usuario del sistema operativo, permitiendo una visualización más amigable y accesible.
-
-La conversión y adaptación de documentos también son fundamentales para el almacenamiento y recuperación de información. Al convertir los datos a formatos estándar o nativos de sistemas, se facilita su acceso y manipulación, lo que mejora la eficiencia operativa.
-
-En resumen, las tecnologías de transformación de documentos son herramientas poderosas que permiten el intercambio y adaptación de información entre diferentes sistemas. Su uso es crucial en entornos empresariales y académicos para mejorar la colaboración, reducir errores y facilitar la visualización y manipulación de datos. A través del estudio de estas tecnologías, los estudiantes adquieren habilidades valiosas que les permitirán trabajar eficazmente con información en diversos formatos y plataformas.
+Este conjunto de ejercicios te permitirá entender cómo interactuar con una base de datos MySQL desde Python, convertir los resultados obtenidos en diccionarios y JSON, y finalmente utilizar la librería Flask para crear un servicio web simple que pueda servir estos datos. Los ejercicios inician mostrándote cómo conectarte a la base de datos y recuperar registros, luego avanzan explicando cómo obtener esos mismos datos en formato de diccionario y JSON. Finalmente, te enseñan a utilizar Flask para crear endpoints que devuelvan los datos en JSON y cómo integrar plantillas HTML para mejorar la presentación del contenido. Estos ejercicios te ayudarán a desarrollar competencias clave en manejo de bases de datos, transformación de datos y desarrollo web básico utilizando Python.
 
 ### me conecto a la base de datos
+<small>Creado: 2025-11-20 14:09</small>
+
+#### Explicación
+
+Este fragmento de código en Python muestra cómo se conecta a una base de datos MySQL y extrae información desde ella. En primer lugar, importamos la librería `mysql.connector`, que nos permite interactuar con bases de datos MySQL.
+
+Luego, creamos una conexión con la base de datos utilizando el método `connect` y pasándole los parámetros necesarios como el host (en este caso, "localhost"), el usuario ("blog2526"), la contraseña ("blog2526") y la base de datos a utilizar ("blog2526"). Una vez establecida esta conexión, creamos un objeto cursor que nos permitirá ejecutar comandos SQL.
+
+El código luego ejecuta una consulta SQL para seleccionar todos los registros de una tabla llamada "entradas". Las filas resultantes son almacenadas en la variable `lineas` mediante el método `fetchall()`, que recupera todas las filas del conjunto de resultados y las devuelve como una lista de tuplas. Finalmente, se imprime esta lista de tuplas en pantalla.
+
+Este código es fundamental para aprender a interactuar con bases de datos desde Python, lo cual es crucial para proyectos web o aplicaciones que manejan grandes cantidades de información estructurada.
+
+`001-me conecto a la base de datos.py`
 
 ```python
 import mysql.connector
@@ -10763,6 +15020,13 @@ print(lineas)
 ```
 
 ### quiero un diccionario
+<small>Creado: 2025-11-20 14:09</small>
+
+#### Explicación
+
+Este código Python se conecta a una base de datos MySQL local y realiza una consulta para obtener todos los registros de la tabla llamada `entradas`. Primero, importa el módulo `mysql.connector` que permite interactuar con bases de datos MySQL desde Python. Luego, establece una conexión a la base de datos utilizando las credenciales proporcionadas (nombre del host, usuario, contraseña y nombre de la base de datos). A continuación, crea un cursor que se utiliza para ejecutar comandos SQL en la base de datos. El parámetro `dictionary=True` hace que los resultados devueltos por la consulta sean diccionarios en lugar de tuplas, lo cual facilita el acceso a los campos de cada registro. La consulta SQL `SELECT * FROM entradas;` selecciona todos los registros de la tabla `entradas`. Finalmente, se obtienen todos los resultados con `fetchall()` y se imprimen por pantalla. Este fragmento es útil para entender cómo recuperar datos desde una base de datos utilizando Python.
+
+`002-quiero un diccionario.py`
 
 ```python
 import mysql.connector
@@ -10782,6 +15046,17 @@ print(lineas)
 ```
 
 ### convierto diccionario a json
+<small>Creado: 2025-11-20 14:11</small>
+
+#### Explicación
+
+Este código Python se encarga de realizar una conexión a una base de datos MySQL y convertir los resultados obtenidos en un formato JSON. Primero, el programa establece una conexión con la base de datos usando las credenciales proporcionadas (host, usuario, contraseña y nombre de la base de datos). Luego, crea un objeto cursor que permite ejecutar comandos SQL y obtener resultados como diccionarios en lugar del formato por defecto. 
+
+El código ejecuta una consulta SELECT para recuperar todas las filas de la tabla llamada "entradas". Después, recoge todos los registros devueltos por la consulta con `fetchall()` y almacena estos datos en una variable llamada `lineas`. Posteriormente, convierte esta lista de diccionarios a un string JSON usando `json.dumps()`, que se guarda en la variable `lineas_json`.
+
+Finalmente, el programa imprime en consola el string JSON resultante. Este proceso es importante porque permite almacenar y transmitir datos estructurados de manera fácil y eficiente, especialmente cuando estos datos van a ser utilizados por otros programas o servicios web.
+
+`003-convierto diccionario a json.py`
 
 ```python
 import mysql.connector
@@ -10804,6 +15079,19 @@ print(lineas_json)
 ```
 
 ### le pongo un poco de flask
+<small>Creado: 2025-11-20 14:13</small>
+
+#### Explicación
+
+Este fragmento de código es una aplicación web simple creada con Flask, un marco ligero para Python que permite desarrollar rápidamente sitios web. El programa comienza importando las bibliotecas necesarias: `mysql.connector` para interactuar con la base de datos MySQL y `json` para trabajar con datos en formato JSON. También importamos el módulo Flask.
+
+La aplicación crea una instancia del objeto Flask llamado `aplicacion`. Luego, establece una conexión a la base de datos MySQL usando las credenciales proporcionadas (host, usuario, contraseña y nombre de la base de datos). En la ruta principal ("/"), se ejecuta un script que obtiene todos los registros de la tabla "entradas" en la base de datos. Estos registros son devueltos como una lista de diccionarios, que a continuación se convierten en una cadena JSON utilizando `json.dumps()`. Finalmente, esta cadena JSON se devuelve al cliente web que hizo la solicitud.
+
+La parte `if __name__ == "__main__":` asegura que la aplicación solo se ejecute si el archivo es ejecutado directamente y no importado como módulo en otro lugar. En este bloque, llamamos a `aplicacion.run()` para iniciar el servidor de desarrollo Flask, lo cual permite probar la aplicación web en nuestro navegador.
+
+Este tipo de código es importante porque muestra cómo combinar bases de datos con aplicaciones web, permitiendo que los sitios interactúen directamente con información almacenada en una base de datos MySQL.
+
+`004-le pongo un poco de flask.py`
 
 ```python
 import mysql.connector
@@ -10834,6 +15122,17 @@ if __name__ == "__main__":
 ```
 
 ### trabajo con templates
+<small>Creado: 2025-11-20 14:16</small>
+
+#### Explicación
+
+Este código Python crea una aplicación web simple utilizando Flask, que es un marco ligero para crear sitios web en Python. La aplicación tiene dos rutas principales: la raíz ("/") y "/api". En la ruta de la raíz, el código renderiza una plantilla HTML llamada "index.html" usando Jinja2, el motor de plantillas incorporado en Flask.
+
+En la ruta "/api", la aplicación conecta a una base de datos MySQL local (usando las credenciales proporcionadas) y ejecuta una consulta SQL que selecciona todos los registros de la tabla "entradas". Los resultados obtenidos se convierten en un formato JSON utilizando el módulo `json` para facilitar su uso por parte de otros servicios web o clientes.
+
+Esta estructura es común cuando se desarrollan APIs (interfaz de programación de aplicaciones) que proporcionan datos desde una base de datos MySQL a otras partes del sistema, como front-ends web o aplicaciones móviles. Es importante para el intercambio de información en formato JSON entre diferentes componentes de un sistema informático.
+
+`005-trabajo con templates.py`
 
 ```python
 import mysql.connector
@@ -10868,45 +15167,62 @@ if __name__ == "__main__":
   aplicacion.run()
 ```
 
+### Actividades propuestas
+
+### Actividades Propuestas
+
+1. **Conexión a la Base de Datos**
+   - **Descripción:** Los estudiantes deben crear un programa que se conecte a una base de datos MySQL local y ejecute una consulta simple para obtener datos de una tabla.
+   - **Objetivo:** Aprender cómo establecer una conexión con una base de datos utilizando Python.
+
+2. **Obtener Datos en Formato Diccionario**
+   - **Descripción:** Los estudiantes deben modificar el código existente para que la consulta SQL devuelva los resultados en formato diccionario.
+   - **Objetivo:** Familiarizarse con la opción `dictionary=True` del cursor MySQL y entender su utilidad.
+
+3. **Convertir Datos a JSON**
+   - **Descripción:** Los estudiantes deben escribir un programa que convierta el resultado de una consulta SQL en formato diccionario a JSON.
+   - **Objetivo:** Aprender cómo utilizar la biblioteca `json` para convertir datos estructurados en formatos JSON.
+
+4. **Integración con Flask**
+   - **Descripción:** Los estudiantes deben crear un servidor web simple utilizando Flask que devuelva los resultados de una consulta SQL.
+   - **Objetivo:** Aprender a utilizar Flask para desarrollar aplicaciones web sencillas y entender cómo integrarlo con MySQL.
+
+5. **Despliegue de Aplicación Web Básica**
+   - **Descripción:** Los estudiantes deben crear un servidor web básico utilizando Flask que muestre la página principal.
+   - **Objetivo:** Familiarizarse con los fundamentos de Flask y el funcionamiento del método `app.run()`.
+
+6. **Servicio API Simples**
+   - **Descripción:** Los estudiantes deben desarrollar una API simple usando Flask que retorne datos en formato JSON desde la base de datos.
+   - **Objetivo:** Aprender a crear endpoints para APIs y manejar respuestas JSON.
+
+7. **Uso de Templates en Flask**
+   - **Descripción:** Los estudiantes deben implementar un template HTML utilizando Flask, donde se muestre información obtenida de una consulta SQL.
+   - **Objetivo:** Familiarizarse con los templates de Flask para crear páginas web dinámicas.
+
+8. **Integración Completa: API y Página Web**
+   - **Descripción:** Los estudiantes deben combinar lo aprendido en las actividades anteriores para crear una aplicación completa que tenga tanto un endpoint REST como una página HTML.
+   - **Objetivo:** Aprender a desarrollar aplicaciones web más complejas con Flask, incluyendo la combinación de API y páginas estáticas.
+
+Estas actividades están diseñadas para permitir a los estudiantes adquirir experiencia práctica en el manejo de bases de datos MySQL desde Python, así como en el desarrollo de aplicaciones web simples utilizando Flask.
+
+
 <a id="descripcion-de-la-estructura-y-de-la-sintaxis"></a>
 ## Descripción de la estructura y de la sintaxis
 
-En el vasto mundo de la informática, la conversión y adaptación de documentos para su intercambio son procesos cruciales que permiten la comunicación eficiente entre diferentes sistemas y plataformas. Esta subunidad didáctica nos guía a través del proceso detallado de cómo transformar documentos en formatos compatibles y legibles por diversos sistemas, asegurando así una transmisión fluida de información.
+### Introducción a los ejercicios
 
-El primer paso en este proceso es entender la estructura y sintaxis de los diferentes tipos de documentos que se manejan. Cada formato tiene sus propias reglas y convenciones que deben ser respetadas para garantizar su correcto procesamiento. Por ejemplo, un documento HTML sigue una estructura específica con etiquetas y atributos que definen el contenido y la presentación.
-
-La sintaxis de estos documentos es fundamental porque determina cómo se interpreta la información. Un error en la sintaxis puede llevar a problemas significativos en la visualización o el procesamiento del contenido, por lo que es crucial tener una comprensión profunda de las reglas aplicables.
-
-Además de conocer la estructura y sintaxis, también es necesario entender los diferentes formatos de documentos que existen. Desde los simples archivos de texto hasta los complejos sistemas de bases de datos, cada uno tiene sus propias características y métodos de manejo. Por ejemplo, un archivo JSON es ideal para representar datos estructurados en una forma fácilmente legible y accesible.
-
-La adaptación de documentos también implica la conversión entre diferentes formatos. Esto puede ser necesario cuando se necesita compartir información entre sistemas que utilizan distintas tecnologías o cuando se desea migrar datos a un nuevo sistema. Herramientas especializadas como los convertidores de archivos pueden facilitar este proceso, pero es importante entender cómo funcionan para poder utilizarlas eficazmente.
-
-Un aspecto crucial en la conversión y adaptación de documentos es la gestión de las relaciones entre diferentes partes del contenido. Por ejemplo, en un documento XML, las relaciones entre elementos pueden ser expresadas mediante atributos o etiquetas específicas, lo que permite una representación jerárquica y estructurada.
-
-La documentación también juega un papel importante en el proceso de conversión y adaptación. Es fundamental tener acceso a la documentación oficial de los formatos utilizados para entender completamente cómo funcionan y cómo se pueden manipular. Además, la documentación puede proporcionar información sobre las mejores prácticas y recomendaciones específicas para cada formato.
-
-La automatización es otro aspecto clave en el proceso de conversión y adaptación de documentos. Herramientas y bibliotecas especializadas pueden ser utilizadas para crear scripts que automaten ciertas tareas, como la conversión entre formatos o la manipulación de datos. Esta automatización no solo ahorra tiempo y esfuerzo, sino que también reduce el riesgo de errores humanos.
-
-Finalmente, la seguridad es un aspecto importante en la conversión y adaptación de documentos, especialmente cuando se trata de compartir información sensible entre sistemas. Es crucial implementar medidas de seguridad adecuadas para proteger los datos durante el proceso de conversión y asegurar su integridad y confidencialidad.
-
-En resumen, la conversión y adaptación de documentos es un proceso complejo pero fundamental en la informática moderna. A través de una comprensión profunda de la estructura y sintaxis de diferentes formatos, así como el uso de herramientas especializadas y técnicas de automatización, podemos asegurar que la información se comunique eficientemente entre sistemas y plataformas, facilitando así la colaboración y la toma de decisiones basada en datos.
-
-### Definición de la estructura
-
-```markdown
-JSON: 
-  -Tabla 1: {}
-  -Tabla 2: {}
-  -Tabla 3: {}
-  
-[
-  "tabla":{},
-  "tabla":{},
-  "tabla":{}
-]
-```
+Este conjunto de ejercicios está diseñado para que comprendas cómo estructurar y convertir datos almacenados en una base de datos MySQL a diferentes formatos, principalmente JSON. Los ejercicios comienzan con la simple visualización de tablas en una base de datos y avanzan hasta crear una aplicación web básica usando Flask que muestra estos datos de forma estética. A lo largo del proceso, trabajarás con conceptos como la manipulación de datos en Python, el uso de librerías como MySQL Connector para interactuar con bases de datos, la conversión de datos a JSON y finalmente cómo servir este contenido a través de una API web con Flask. Estos ejercicios te ayudarán a familiarizarte con la estructura y sintaxis del manejo de datos en programación, así como con el desarrollo web básico para su intercambio eficiente.
 
 ### quiero ver las tablas
+<small>Creado: 2025-11-20 14:24</small>
+
+#### Explicación
+
+Este fragmento de código en Python conecta a una base de datos MySQL y muestra las tablas existentes dentro de esa base de datos. Primero, se establece la conexión con la base de datos usando los detalles proporcionados como el host (en este caso, "localhost"), usuario ("blog2526"), contraseña ("blog2526") y el nombre de la base de datos ("blog2526"). Luego, se crea un objeto cursor que permite ejecutar comandos SQL en la base de datos. El comando `cursor.execute("SHOW TABLES;")` es utilizado para obtener una lista de todas las tablas dentro de la base de datos seleccionada. Finalmente, `fetchall()` recupera todos los resultados devueltos por el comando SQL y se imprimen en la consola.
+
+Este código es importante porque te permite inspeccionar visualmente qué tablas tienes disponibles en tu base de datos MySQL sin tener que entrar a una interfaz gráfica o usar comandos SQL directamente desde la línea de comandos. Es especialmente útil cuando estás empezando un proyecto nuevo y necesitas entender la estructura existente antes de comenzar a trabajar en ella.
+
+`002-quiero ver las tablas.py`
 
 ```python
 import mysql.connector
@@ -10926,6 +15242,19 @@ print(lineas)
 ```
 
 ### formateo el documento
+<small>Creado: 2025-11-20 14:26</small>
+
+#### Explicación
+
+Este código Python se conecta a una base de datos MySQL y muestra los nombres de todas las tablas que contiene. Primero, el programa importa la librería `mysql.connector`, que es necesaria para establecer la conexión con la base de datos. Luego, crea una conexión utilizando detalles específicos como el host (localhost en este caso), usuario, contraseña y nombre de la base de datos.
+
+Una vez establecida la conexión, se crea un objeto cursor a partir del método `cursor()` que permite ejecutar comandos SQL dentro de la base de datos. El comando `"SHOW TABLES;"` es ejecutado para obtener una lista de todas las tablas presentes en esa base de datos específica.
+
+El resultado devuelto por este comando SQL se almacena en la variable `lineas`. Luego, el programa itera sobre estos resultados y añade los nombres de las tablas (que están en la primera posición `[0]` de cada tupla) a una lista llamada `documento`.
+
+Finalmente, esta lista es impresa en pantalla, mostrando así los nombres de todas las tablas presentes en la base de datos especificada. Este código es útil para entender qué estructura tiene la base de datos y cómo está organizado el contenido dentro de ella.
+
+`003-formateo el documento.py`
 
 ```python
 import mysql.connector
@@ -10948,6 +15277,17 @@ print(documento)
 ```
 
 ### ahora quiero cada una de las tablas
+<small>Creado: 2025-11-20 14:30</small>
+
+#### Explicación
+
+Este código Python se conecta a una base de datos MySQL y recupera información sobre todas las tablas que contiene. Primero, el programa establece una conexión con la base de datos usando la biblioteca `mysql.connector`. Luego, crea un cursor para ejecutar comandos SQL en esa base de datos.
+
+El código ejecuta una consulta SQL llamada "SHOW TABLES;", lo cual lista todos los nombres de las tablas disponibles en la base de datos actual. A continuación, recorre cada tabla encontrada y ejecuta otra consulta SQL que selecciona todos los registros de esa tabla específica ("SELECT * FROM nombre_de_la_tabla;"). Los resultados obtenidos se guardan en un diccionario Python llamado `documento`, donde las claves son los nombres de las tablas y los valores correspondientes son listas con todos los registros encontrados.
+
+Finalmente, imprime el contenido del diccionario `documento` que contiene la información recopilada sobre todas las tablas y sus respectivos registros. Esto es útil para entender la estructura completa de una base de datos y examinar todos los datos almacenados en ella de manera organizada.
+
+`004-ahora quiero cada una de las tablas.py`
 
 ```python
 import mysql.connector
@@ -10975,6 +15315,17 @@ print(documento)
 ```
 
 ### tengo que convertir a json
+<small>Creado: 2025-11-20 14:31</small>
+
+#### Explicación
+
+Este fragmento de código está diseñado para convertir los datos almacenados en una base de datos MySQL a un formato JSON. Primero, el programa se conecta a la base de datos utilizando las credenciales proporcionadas (en este caso, "localhost" como servidor local y "blog2526" tanto como nombre del usuario como contraseña). Luego, obtiene una lista de todas las tablas en esa base de datos. 
+
+A continuación, el código itera sobre cada tabla para extraer todos los registros que contiene con la consulta SQL `"SELECT * FROM "+tabla[0]+";"` y guarda estos registros en un diccionario llamado `documento`, donde la clave es el nombre de la tabla y el valor son todas las filas (registros) asociadas a esa tabla. Finalmente, convierte todo este contenido del diccionario a una cadena JSON usando la función `json.dumps()` y lo imprime por pantalla.
+
+Este tipo de conversión es útil cuando necesitas exportar datos estructurados desde una base de datos para su uso en otros sistemas o plataformas que manejan datos en formato JSON, como aplicaciones web modernas.
+
+`005-tengo que convertir a json.py`
 
 ```python
 import mysql.connector
@@ -11004,6 +15355,17 @@ print(documento_json)
 ```
 
 ### pretty
+<small>Creado: 2025-11-20 14:33</small>
+
+#### Explicación
+
+Este código Python se utiliza para conectar a una base de datos MySQL y extraer información de todas las tablas que contiene. La conexión se establece con un usuario específico ("blog2526") y la base de datos "blog2526". El script ejecuta primero una consulta SQL para mostrar el nombre de todas las tablas en esa base de datos, luego itera sobre cada tabla y obtiene todos los registros (datos) almacenados en ellas.
+
+Cada conjunto de registros se almacena en un diccionario Python llamado `documento`, donde la clave es el nombre de la tabla y el valor es una lista con todos los registros de esa tabla. Finalmente, este diccionario se convierte a formato JSON utilizando la función `json.dumps()` para hacerlo más legible, lo que incluye sangrado (espaciado) y caracteres no ASCII correctamente, y luego se imprime en la consola.
+
+Esta operación es útil cuando necesitas visualizar o exportar los datos de una base de datos MySQL en un formato JSON estándar fácilmente manejable para otros sistemas o lenguajes de programación.
+
+`006-pretty.py`
 
 ```python
 import mysql.connector
@@ -11033,6 +15395,25 @@ print(documento_json)
 ```
 
 ### ahora lo saco con flask
+<small>Creado: 2025-11-20 14:38</small>
+
+#### Explicación
+
+Este fragmento de código es un ejemplo sencillo de cómo utilizar la biblioteca Flask en Python para crear una aplicación web que muestra información desde una base de datos MySQL. La aplicación hace lo siguiente:
+
+1. **Configura y conecta a la base de datos:** El código inicia creando una conexión con una base de datos MySQL ubicada en el servidor local (`localhost`). Se especifican los detalles del usuario y contraseña, así como el nombre de la base de datos (`blog2526`).
+
+2. **Obtiene información sobre las tablas:** Utiliza un cursor (un objeto que permite interactuar con la base de datos) para ejecutar una consulta SQL que muestra todas las tablas en la base de datos.
+
+3. **Recupera registros de cada tabla:** Para cada tabla encontrada, el código ejecuta otra consulta SQL que selecciona todos los registros de esa tabla y luego almacena estos registros en un diccionario Python, donde las claves son los nombres de las tablas y los valores son listas de tuplas que contienen los datos recuperados.
+
+4. **Convierte a formato JSON:** Una vez que se han recopilado todos los datos desde todas las tablas, el código convierte este diccionario en una cadena JSON con un formato legible para humanos (con sangría).
+
+5. **Devuelve la información como respuesta de la aplicación web:** Finalmente, cuando alguien accede a la raíz del sitio web (URL "/"), la función `raiz()` se ejecuta y devuelve la cadena JSON que contiene todos los datos recopilados desde las tablas.
+
+Esta pieza de código es útil para estudiantes que quieren aprender cómo combinar bases de datos MySQL con el marco Flask para crear aplicaciones web dinámicas que pueden mostrar y manipular datos en tiempo real.
+
+`007-ahora lo saco con flask.py`
 
 ```python
 import mysql.connector
@@ -11071,6 +15452,19 @@ if __name__ == "__main__":
 ```
 
 ### creo dos endpoints
+<small>Creado: 2025-11-20 14:40</small>
+
+#### Explicación
+
+Este fragmento de código es una aplicación web sencilla creada con Flask, un marco ligero y popular para Python. La aplicación conecta a una base de datos MySQL localmente y obtiene información sobre todas las tablas en esa base de datos. 
+
+En detalle, el programa hace lo siguiente: Primero, se establece la conexión con una base de datos MySQL utilizando credenciales específicas y luego se crea un cursor que permite ejecutar consultas SQL. La aplicación define dos rutas (endpoints): `/api` y `('/')`. La ruta `/api` es donde la magia ocurre; aquí se obtiene la lista de todas las tablas en la base de datos, luego para cada tabla, se extraen todos los registros y se guardan en un diccionario. Finalmente, este diccionario se convierte a formato JSON y se devuelve al usuario que accede a esta ruta.
+
+La otra ruta `('/')` simplemente redirige a una página HTML llamada "index.html". Esto es útil para proporcionar información o una interfaz de usuario más amigable mientras la API está disponible en `/api`.
+
+Este código es importante porque demuestra cómo interactuar con bases de datos desde Python, estructurar una aplicación web básica y devolver datos en un formato JSON legible.
+
+`008-creo dos endpoints.py`
 
 ```python
 import mysql.connector
@@ -11112,26 +15506,66 @@ if __name__ == "__main__":
   aplicacion.run()
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Conexión a Base de Datos y Consulta Básica
+
+**Descripción:** Los estudiantes deben conectar a una base de datos MySQL local utilizando Python. La tarea consiste en ejecutar la consulta `SHOW TABLES;` para listar todas las tablas del esquema seleccionado y mostrar los resultados por pantalla. Esta actividad permitirá que los alumnos se familiaricen con el uso de MySQL Connector/Python.
+
+### Actividad 2: Listar Tablas en Formato Lista
+
+**Descripción:** Los estudiantes deben modificar el código existente para listar las tablas encontradas dentro de una lista de Python, similar a cómo lo hace el ejercicio `003-formateo el documento.py`. Esto permitirá que los alumnos trabajen con estructuras de datos más manejables y comprendan la conversión entre tipos de datos.
+
+### Actividad 3: Obtener Contenido Completo de Tablas
+
+**Descripción:** Los estudiantes deben desarrollar una función para obtener todos los registros desde cada tabla en el esquema seleccionado, almacenándolos en un diccionario Python con las tablas como claves. Esta actividad permitirá a los alumnos trabajar con datos estructurados y entender cómo manipular registros de bases de datos.
+
+### Actividad 4: Convertir Datos a JSON
+
+**Descripción:** Los estudiantes deben convertir el diccionario obtenido en la tarea anterior a un objeto JSON, utilizando `json.dumps()`. Este ejercicio permitirá que los alumnos aprendan sobre serialización de datos para su almacenamiento y transmisión.
+
+### Actividad 5: Mejorar Presentación del JSON
+
+**Descripción:** Los estudiantes deben mejorar el formato del JSON generado en la actividad anterior, añadiendo sangrado (indentación) para facilitar su lectura. Esto ayudará a los alumnos a entender cómo manipular datos antes de presentarlos.
+
+### Actividad 6: Crear un Servidor Flask Básico
+
+**Descripción:** Los estudiantes deben crear una aplicación web simple con Flask que muestre el JSON generado en la actividad anterior cuando se accede al sitio web desde un navegador. Esta actividad permitirá a los alumnos entender cómo integrar bases de datos y servicios web.
+
+### Actividad 7: Crear dos Endpoints Web
+
+**Descripción:** Los estudiantes deben expandir su aplicación Flask para incluir un segundo endpoint que, además del JSON generado en la tarea anterior, también muestre una página HTML básica. Esta actividad ayudará a los alumnos a entender cómo manejar múltiples rutas y responder con diferentes tipos de contenido.
+
+### Actividad 8: Modificar Consultas SQL
+
+**Descripción:** Los estudiantes deben modificar las consultas SQL existentes para adaptarse a un escenario nuevo, como obtener una lista específica de registros desde ciertas tablas. Esto permitirá que los alumnos se familiaricen con la personalización y escalabilidad de soluciones basadas en bases de datos.
+
+Estas actividades están diseñadas para proporcionar una progresión lógica desde conceptos básicos hasta aplicaciones más complejas, adaptada a las capacidades y niveles de los estudiantes en Formación Profesional.
+
+
 <a id="creacion-y-utilizacion-de-plantillas-herramientas-y-depuracion"></a>
 ## Creación y utilización de plantillas. Herramientas y depuración
 
-En el mundo digital actual, la conversión y adaptación de documentos para el intercambio de información es una tarea fundamental que requiere habilidades técnicas y creativas. Esta subunidad didáctica nos guía a través del proceso de creación y utilización de plantillas, herramientas y técnicas avanzadas para manejar eficazmente la información en diferentes formatos.
+### Introducción a los ejercicios
 
-La creación de plantillas es un paso crucial en este proceso. Una buena plantilla debe ser flexible, fácil de usar y adaptarse a diversos tipos de documentos. Las herramientas modernas ofrecen una amplia gama de opciones para diseñar plantillas que pueden ser personalizadas según las necesidades específicas del proyecto.
+En esta carpeta, encontrarás ejercicios que te ayudarán a entender cómo estructurar y estilizar páginas web utilizando HTML. Los dos archivos proporcionados son versiones básicas de una página de panel de administración, donde el primero se centra en la estructura básica del documento con etiquetas HTML, mientras que el segundo incluye CSS para dar estilo y disposición a los elementos de la página. A través de estos ejercicios, aprenderás a organizar correctamente la estructura de un documento web y a utilizar las propiedades básicas del CSS para mejorar su visualización y funcionalidad.
 
-Una vez creada la plantilla, su utilización se convierte en un proceso repetitivo pero esencial. Herramientas como Microsoft Word o Google Docs facilitan esta tarea al permitir la inserción de variables y marcadores que se reemplazan automáticamente cuando se genera el documento final. Esta automatización no solo ahorra tiempo sino que también reduce errores humanos.
-
-La depuración es otro aspecto crucial en este proceso. A pesar de las herramientas avanzadas, siempre hay posibilidades de errores o inconsistencias en los documentos generados. Es por eso que la depuración es una habilidad indispensable para asegurar la calidad del trabajo final. Esto implica revisar y corregir cualquier error que pueda surgir durante el proceso de conversión.
-
-La adaptación de documentos también requiere un conocimiento profundo de diferentes formatos y estandares. Por ejemplo, si se trabaja con documentos XML o JSON, es necesario entender su estructura y sintaxis para poder manipularlos correctamente. Herramientas como XSLT (Extensible Stylesheet Language Transformations) son útiles en este sentido, permitiendo la transformación de datos entre diferentes formatos.
-
-Además, el uso de plantillas y herramientas avanzadas permite la creación de documentos personalizados que se ajustan a las necesidades específicas del usuario. Esto es especialmente relevante en contextos empresariales donde los documentos deben cumplir con requisitos específicos y variar según el contexto.
-
-La conversión y adaptación de documentos también implica un proceso de aprendizaje continuo. Las herramientas y tecnologías cambian rápidamente, por lo que es importante estar al tanto de las últimas novedades y tendencias en este campo. Esto puede implicar la adquisición de nuevas habilidades técnicas o el uso de herramientas más avanzadas.
-
-En conclusión, la conversión y adaptación de documentos para el intercambio de información es un proceso complejo pero fundamental en el mundo digital actual. La creación y utilización de plantillas, junto con las herramientas y técnicas adecuadas, son herramientas clave para manejar eficazmente esta tarea. A través del aprendizaje continuo y la adaptabilidad, podemos superar los desafíos y aprovechar al máximo las oportunidades que ofrece este campo.
+Estos ejercicios te permitirán practicar tus habilidades en el uso de etiquetas HTML semánticas y en la creación de estilos utilizando hojas de estilo en cascada (CSS) directamente en el documento, lo que es fundamental para desarrollar páginas web dinámicas e interactivas.
 
 ### panel
+<small>Creado: 2025-11-20 14:44</small>
+
+#### Explicación
+
+Este fragmento de código es un archivo HTML básico que representa una página web simple para un panel de administración. La estructura del documento comienza con `<!doctype html>`, lo cual indica al navegador que se trata de un documento HTML5.
+
+En la etiqueta `<head>` encontramos dos elementos importantes: el título de la página y la definición del conjunto de caracteres (charset) utilizado en el documento. El título "Panel de administración" aparecerá en la pestaña del navegador, mientras que `utf-8` asegura que todos los caracteres internacionales sean correctamente interpretados.
+
+El contenido principal está dentro de la etiqueta `<body>`. Aquí se encuentran dos bloques estructurales: el encabezado (`<header>`), donde aparece "Panel de administración jocarsa", y la sección principal (`<main>`). Dentro del bloque principal, hay una navegación (`<nav>`) que en este caso simplemente dice "Menu" y una sección (`<section>`), donde el texto "Contenido" indica que aquí iría el contenido específico de la página.
+
+Esta estructura HTML es importante porque sigue las mejores prácticas para crear páginas web accesibles y bien organizadas, facilitando su interpretación tanto para los navegadores como para herramientas de indexación.
+
+`001-panel.html`
 
 ```html
 <!doctype html>
@@ -11153,6 +15587,19 @@ En conclusión, la conversión y adaptación de documentos para el intercambio d
 ```
 
 ### un poco de css
+<small>Creado: 2025-11-20 14:47</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web sencilla con estilos incorporados que definen la estructura y el diseño del contenido. La página está diseñada para ser un panel de administración, como podría usarse en un sistema de gestión de contenidos o cualquier otra plataforma que requiera controlar funciones importantes.
+
+En la parte superior del código, hay una sección `<head>` donde se establece el título de la página y algunos metadatos. También incluye un bloque de estilo (CSS) directamente dentro del documento HTML para definir cómo deben verse los diferentes elementos de la página.
+
+El cuerpo (`<body>`) contiene tres elementos principales: `header`, `main` y dentro del `main` hay dos subelementos, `nav` y `section`. El encabezado (`header`) tiene un fondo azul oscuro con el texto "Panel de administración jocarsa". La sección principal (`main`) está dividida en una barra lateral (`nav`) y una área principal de contenido (`section`). Estas dos partes están estilizadas para que la barra lateral ocupe menos espacio visual que la sección principal, lo cual es útil cuando se necesita mostrar un menú junto con información más extensa.
+
+Este diseño ayuda a organizar el contenido de manera clara y profesional, proporcionando una estructura simple pero eficaz para páginas administrativas.
+
+`002-un poco de css.html`
 
 ```html
 <!doctype html>
@@ -11181,32 +15628,76 @@ En conclusión, la conversión y adaptación de documentos para el intercambio d
 </html>
 ```
 
+### Actividades propuestas
+
+### Actividades Propuestas
+
+1. **Personalización del Tema**
+   - **Descripción:** Los estudiantes deben modificar el estilo CSS existente para cambiar la paleta de colores y fuentes en ambos archivos HTML (001-panel.html y 002-un poco de css.html). El objetivo es mejorar su comprensión sobre cómo los estilos afectan la apariencia del sitio web.
+
+2. **Inclusión de Estilo Externo**
+   - **Descripción:** Los estudiantes tendrán que extraer el estilo CSS desde las etiquetas `<head>` en 001-panel.html y crear un archivo externo llamado `styles.css`. Luego, vincular este nuevo archivo a ambos archivos HTML existentes. Esto ayuda a entender la importancia de separar contenido y diseño.
+
+3. **Añadir Navegación Estática**
+   - **Descripción:** Los estudiantes deben agregar una lista desordenada con elementos de navegación estática en la sección `<nav>` de 001-panel.html. Deben incluir al menos tres enlaces a páginas no existentes. Se espera que aprendan a estructurar contenido HTML correctamente y añadir enlaces.
+
+4. **Integración de Imágenes**
+   - **Descripción:** Los estudiantes deben buscar imágenes para representar diferentes secciones del panel administrativo (por ejemplo, una imagen para cada elemento de navegación). Estas imágenes deberán ser incorporadas en 002-un poco de css.html dentro de la `<section>`. Esto les enseña cómo integrar y posicionar imágenes en un diseño web.
+
+5. **Ajuste de Responsividad**
+   - **Descripción:** Los estudiantes deben modificar el CSS existente para asegurarse de que ambos archivos HTML sean responsivos, adaptándose a diferentes tamaños de pantalla. Este ejercicio mejora sus habilidades en la creación de interfaces de usuario adaptables.
+
+6. **Añadir Contenido Dinámico**
+   - **Descripción:** Los estudiantes deben incorporar un bloque de código PHP dentro del archivo 002-un poco de css.html (simulado) para mostrar información dinámica, como la fecha actual o datos de una base de datos. Aunque no se usa PHP en el ejemplo, este ejercicio prepara a los alumnos para integraciones futuras.
+
+7. **Optimización SEO**
+   - **Descripción:** Los estudiantes deben añadir elementos meta (keywords, description) y otros marcadores para mejorar la visibilidad del panel administrativo en motores de búsqueda. Se enfoca en mejoras prácticas como descripciones de páginas y palabras clave relevantes.
+
+8. **Documentación HTML**
+   - **Descripción:** Los estudiantes deben añadir comentarios a ambos archivos HTML explicando el propósito de cada sección y elemento. Esto mejora sus habilidades en la documentación del código, esencial para proyectos más grandes o colaborativos.
+
+Estas actividades están diseñadas para ayudar a los estudiantes a aplicar conceptos básicos y medios de HTML y CSS mientras trabajan con estructuras web simples pero funcionales.
+
+
 <a id="conversion-entre-diferentes-formatos-de-documentos"></a>
 ## Conversión entre diferentes formatos de documentos
 
-En el mundo digital actual, la conversión y adaptación de documentos para el intercambio de información es una tarea fundamental que requiere habilidades técnicas y un conocimiento profundo de los diferentes formatos utilizados. Este proceso permite que los datos sean compartidos eficientemente entre sistemas, plataformas y aplicaciones distintas, asegurando la interoperabilidad y la accesibilidad.
+### Introducción a los ejercicios
 
-La conversión entre diferentes formatos de documentos es un aspecto crucial en el manejo de información digital. Cada formato tiene sus propias ventajas y desventajas, dependiendo del propósito para el que se utilice. Por ejemplo, los formatos basados en texto como HTML o XML son versátiles y pueden ser utilizados tanto para la presentación web como para la intercambio de datos estructurados. En contraste, los formatos binarios como PDF o DOCX ofrecen una mayor calidad visual pero requieren software específico para su edición.
+It seems you've shared a comprehensive set of Python scripts and data files, primarily focused on handling JSON and XML conversions, file manipulation (like splitting PDFs into individual pages), and managing CSV data as well. Additionally, there are snippets related to setting up a small web application using Flask for handling file uploads and processing.
 
-Para realizar esta conversión, se utilizan herramientas especializadas que pueden transformar documentos de un formato a otro con alta precisión y eficiencia. Estas herramientas pueden ser software de escritorio, bibliotecas de programación o servicios en la nube. Cada una tiene sus propias ventajas y desventajas, dependiendo del nivel de control que se requiera sobre el proceso de conversión.
+Let's break down what each part does:
 
-La adaptación de documentos también implica no solo su conversión entre formatos, sino también su ajuste a diferentes plataformas o dispositivos. Por ejemplo, un documento HTML puede ser adaptado para su visualización en dispositivos móviles, lo que puede requerir la eliminación de elementos gráficos complejos o la simplificación del diseño. Esta adaptación es especialmente importante en el contexto de la experiencia del usuario (UX) y la accesibilidad digital.
+1. **JSON to XML Conversion**:
+   - The script `persona_json_to_xml.py` takes the JSON content from `persona.json`, converts it into an XML structure, and writes it to `persona.xml`.
+   
+2. **CSV File**:
+   - `empresa.csv` contains a list of products with columns for product name, description, and price.
+   
+3. **Flask Application**:
+   - The script `app.py` sets up a basic Flask application that allows users to upload PDF files which are then split into individual pages and zipped before being sent back as a download.
 
-La conversión y adaptación de documentos también implican la gestión de los datos asociados con estos documentos. Esto puede incluir la extracción de información relevante, su organización y su almacenamiento en formatos adecuados para su posterior análisis o uso. La eficiencia en este proceso es crucial para garantizar que los datos sean utilizados de manera óptima y que se minimice el tiempo y recursos necesarios.
+4. **Data Files**:
+   - `persona.json`: Contains JSON data about a person including their name, last names, and emails.
+   - `persona.xml`: The output of converting the JSON from `persona.json` to XML.
+   - `persona2.json`: A transformed version of the original `persona.json`, showcasing how JSON can be nested differently.
 
-En resumen, la conversión y adaptación de documentos para el intercambio de información es un proceso complejo pero fundamental en el manejo digital. Requiere una comprensión profunda de los diferentes formatos utilizados y la utilización de herramientas especializadas para realizar la conversión con alta precisión y eficiencia. Además, implica la gestión de los datos asociados con estos documentos, asegurando que sean utilizados de manera óptima y que se minimice el tiempo y recursos necesarios.
-
-### Formatos
-
-```markdown
-Puedo convertir un archivo de Word en un archivo de Excel?
-
-Formatos de transporte de datos
-XML
-JSON
-```
+If you have any specific questions or need further assistance with these files (such as expanding functionality, debugging issues, or improving performance), feel free to ask! What would you like to do next?
 
 ### json a xml
+<small>Creado: 2025-11-24 13:07</small>
+
+#### Explicación
+
+Este código convierte un archivo JSON en un archivo XML utilizando la biblioteca `xml.etree.ElementTree` de Python. El programa comienza importando las bibliotecas necesarias: `json` para trabajar con datos JSON y `xml.etree.ElementTree` (abreviado como ET) para manipular estructuras XML.
+
+El código define una función llamada `dict_to_xml`, que toma dos argumentos: un nombre de etiqueta (`tag`) y un diccionario (`d`). Esta función crea un elemento XML con la etiqueta proporcionada y, luego, agrega subelementos basados en las claves del diccionario. El valor asociado a cada clave se convierte en el texto dentro de los subelementos.
+
+Posteriormente, el código carga el contenido del archivo `persona.json` y lo parsea como un diccionario. A continuación, se obtiene la primera clave del diccionario (que generalmente corresponde al nombre de la raíz en XML) y se utiliza para crear un elemento XML raíz junto con sus subelementos usando la función `dict_to_xml`.
+
+Finalmente, el código crea una instancia de `ElementTree` utilizando el elemento XML raíz y guarda este árbol XML en un archivo llamado `persona.xml`, especificando que debe usar codificación UTF-8 e incluir una declaración XML al inicio del documento. Este proceso permite la conversión completa de JSON a XML, facilitando así el intercambio de datos entre diferentes sistemas o aplicaciones que utilizan estos formatos de documentos.
+
+`002-json a xml.py`
 
 ```python
 import json
@@ -11233,6 +15724,19 @@ tree.write("persona.xml", encoding="utf-8", xml_declaration=True)
 ```
 
 ### conversor avanzado de json a xml
+<small>Creado: 2025-11-24 13:08</small>
+
+#### Explicación
+
+Este fragmento de código es un ejemplo avanzado de cómo convertir datos en formato JSON a XML en Python. La función principal, `build_xml`, recorre el objeto JSON recursivamente y construye una estructura XML correspondiente.
+
+En primer lugar, se carga un archivo JSON llamado "persona.json" utilizando la librería `json`. Luego, para cada clave del diccionario raíz del JSON, crea un elemento XML que tiene como nombre esa misma clave. Si el valor de esa clave es otro diccionario, llama recursivamente a `build_xml` para procesar ese sub-diccionario y añadir los elementos hijos correspondientes al elemento actual. En caso de encontrar una lista, cada ítem se convierte en un elemento XML con la etiqueta que se genera eliminando la 's' final (para hacerlo singular) o simplemente usando "item" si no es necesario este ajuste.
+
+Finalmente, para mejorar la lectura del archivo XML resultante, el código incluye una función `indent` que añade sangrías y saltos de línea para dar formato al XML. Esto hace que sea más legible cuando se abre en un editor o navegador web.
+
+El resultado final es que este script toma los datos JSON del archivo "persona.json", convierte esos datos a XML, e imprime el resultado en un nuevo archivo llamado "persona.xml". Es importante destacar cómo Python facilita la manipulación de estos formatos gracias a librerías como `json` y `xml.etree.ElementTree`, lo que es muy útil para tareas de conversión y manejo de datos estructurados.
+
+`003-conversor avanzado de json a xml.py`
 
 ```python
 import json
@@ -11295,6 +15799,17 @@ tree.write("persona.xml", encoding="utf-8", xml_declaration=True)
 ```
 
 ### conversor de xml a json
+<small>Creado: 2025-11-24 13:12</small>
+
+#### Explicación
+
+Este código convierte un archivo XML en un archivo JSON. La función principal `xml_to_json` lee un archivo XML dado por el nombre de entrada (`INPUT_XML`) y lo transforma en un formato JSON que luego se guarda en otro archivo especificado por el nombre de salida (`OUTPUT_JSON`). 
+
+El proceso funciona así: primero, el código abre y lee todo el contenido del archivo XML. Luego, utiliza la biblioteca `xmltodict` para convertir ese texto XML en un diccionario Python (un tipo de estructura de datos que es similar a JSON), asegurando que ciertos elementos siempre sean tratados como listas si se encuentran múltiples instancias del mismo tag. Finalmente, el diccionario resultante se convierte en formato JSON y se guarda en un archivo nuevo o existente con una indentación de dos espacios para mejorar la legibilidad.
+
+Esta conversión es importante porque XML y JSON son formatos comunes usados para intercambiar datos entre sistemas, pero tienen estructuras diferentes. Convertir de uno a otro permite que los mismos datos sean utilizables en contextos donde se prefiere un formato sobre el otro, según las necesidades del sistema receptor o del desarrollador.
+
+`004-conversor de xml a json.py`
 
 ```python
 import json
@@ -11328,6 +15843,17 @@ if __name__ == "__main__":
 ```
 
 ### leer excel
+<small>Creado: 2025-11-24 13:21</small>
+
+#### Explicación
+
+Este código es una parte de un programa en Python que utiliza la biblioteca `pandas` para leer y manipular datos almacenados en un archivo Excel. La línea `import pandas as pd` importa la biblioteca `pandas`, a menudo referida como `pd` para simplificar las llamadas a funciones dentro del código.
+
+La siguiente línea, `df = pd.read_excel("empresa.xlsx", engine="openpyxl")`, lee el contenido del archivo Excel denominado "empresa.xlsx" y lo carga en un objeto DataFrame de pandas. El parámetro `engine="openpyxl"` especifica que se debe utilizar la biblioteca openpyxl para abrir archivos .xlsx, ya que es comúnmente utilizado para manejar estos tipos de archivos.
+
+Finalmente, `print(df.head())` imprime las primeras cinco filas del DataFrame recién creado. Esto ayuda a los desarrolladores a tener una idea rápida y resumida del contenido del archivo Excel leído, lo cual es muy útil durante la fase inicial de análisis y manipulación de datos en un proyecto.
+
+`005-leer excel.py`
 
 ```python
 import pandas as pd
@@ -11337,6 +15863,13 @@ print(df.head())
 ```
 
 ### leemos ods
+<small>Creado: 2025-11-24 13:22</small>
+
+#### Explicación
+
+Este código Python utiliza la librería `pandas` para leer un archivo de hoja de cálculo llamado "empresa.ods" y luego muestra las primeras filas del contenido leído. La función `pd.read_excel()` se usa aquí con un argumento especial: `engine="odf"`. Esto es importante porque normalmente, la librería pandas no puede leer archivos .ods (que son utilizados por software como LibreOffice Calc) directamente sin especificar el motor correcto (`odf` en este caso). Al usar esta línea de código, se convierte el archivo .ods en un DataFrame de pandas, que es una estructura de datos tabular muy potente para la manipulación y análisis de datos. Finalmente, `print(df.head())` muestra las primeras 5 filas del DataFrame para dar una idea rápida de cómo se ve el contenido del archivo "empresa.ods".
+
+`006-leemos ods.py`
 
 ```python
 import pandas as pd
@@ -11346,6 +15879,19 @@ print(df.head())
 ```
 
 ### conversor bidireccional xlsx a ods
+<small>Creado: 2025-11-24 13:23</small>
+
+#### Explicación
+
+Este fragmento de código es una función llamada `convert` que convierte archivos entre dos formatos: `.xlsx` (formato de Microsoft Excel) y `.ods` (OpenDocument Spreadsheet). La función toma dos parámetros: el nombre del archivo de entrada (`file_in`) y el nombre del archivo de salida (`file_out`). 
+
+La primera parte del código verifica si el archivo de entrada es un archivo `.ods`. Si lo es, usa la librería `pandas` para leerlo con la opción específica de motor `odf`, que permite trabajar con archivos en formato `.ods`. Si el archivo de entrada no es un `.ods`, simplemente se utiliza `pandas` para leer cualquier otro tipo de archivo Excel (`.xlsx`).
+
+Después, dependiendo del nombre del archivo de salida (`file_out`), el código decide si necesita convertir a formato `.ods` o guardar en formato `.xlsx`. Para la conversión a `.ods`, el código crea un nuevo documento OpenDocument Spreadsheet y luego itera sobre cada fila del DataFrame leído para crear filas y celdas en este nuevo documento. Cada valor de la tabla se convierte en texto dentro de una celda de la hoja de cálculo. Finalmente, guarda todo esto como un archivo `.ods`. Si el archivo de salida no es un `.ods`, simplemente guarda el DataFrame original en formato Excel usando `pandas`.
+
+Esta función es importante porque permite intercambiar datos entre dos formatos populares de hojas de cálculo, facilitando la compatibilidad y el intercambio de información entre diferentes sistemas y usuarios que pueden trabajar con diferentes aplicaciones o preferencias personales.
+
+`007-conversor bidireccional xlsx a ods.py`
 
 ```python
 import pandas as pd
@@ -11384,6 +15930,21 @@ convert("empresa.ods", "empresaconvertida.xlsx")
 ```
 
 ### unir dos pdf
+<small>Creado: 2025-11-24 13:27</small>
+
+#### Explicación
+
+Este fragmento de código es una pequeña aplicación en Python que utiliza la biblioteca `PyPDF2` para unir dos archivos PDF en uno solo. La tarea principal del código es tomar los archivos "uno.pdf" y "dos.pdf", que están ubicados en el mismo directorio del script, y combinarlos en un nuevo archivo llamado "unido.pdf".
+
+El código comienza importando la clase `PdfMerger` de la biblioteca `PyPDF2`. Esta clase se utiliza para fusionar múltiples archivos PDF. Se crea una instancia de esta clase con el nombre `merger`.
+
+A continuación, el script utiliza el método `append()` de la instancia `merger` para añadir los dos documentos PDF existentes ("uno.pdf" y "dos.pdf") al objeto de fusión. Cada llamada a `append()` agrega un archivo adicional al documento final.
+
+Finalmente, el código escribe todos los archivos agregados en un nuevo archivo PDF denominado "unido.pdf" usando el método `write()`. Después de escribir el archivo combinado, se cierra la instancia `merger` con el método `close()` para asegurar que todas las operaciones se hayan completado correctamente y que los recursos sean liberados.
+
+Esta tarea es importante cuando necesitas unir varios documentos PDF en uno solo para compartirlos o almacenarlos de manera más eficiente.
+
+`008-unir dos pdf.py`
 
 ```python
 from PyPDF2 import PdfMerger
@@ -11398,6 +15959,21 @@ merger.close()
 ```
 
 ### unir array de pdf
+<small>Creado: 2025-11-24 13:28</small>
+
+#### Explicación
+
+Este código en Python utiliza la biblioteca `PyPDF2` para combinar múltiples archivos PDF en un solo archivo. La función principal aquí es `PdfMerger`, que actúa como una herramienta para fusionar varios documentos PDF.
+
+El programa comienza creando una lista llamada `pdfs` que contiene los nombres de los archivos PDF que se van a unir, en este caso "uno.pdf" y "dos.pdf". Luego, se crea una instancia del objeto `PdfMerger()`, que es la herramienta principal para fusionar los documentos.
+
+A continuación, el código itera sobre cada archivo PDF en la lista `pdfs` utilizando un bucle `for`. Durante cada iteración, utiliza el método `merger.append(pdf)` para añadir el contenido del archivo actual a la fusión.
+
+Finalmente, después de que se han añadido todos los archivos PDF en la lista, se guarda todo el contenido fusionado en un nuevo archivo llamado "unido.pdf" con el comando `merger.write("unido.pdf")`. Antes de terminar el proceso, es importante llamar a `merger.close()` para asegurarse de que todas las operaciones necesarias estén completadas y cerrar adecuadamente la fusión.
+
+Este código es útil cuando se necesita combinar varios documentos PDF en uno solo, lo cual puede ser muy práctico para preparar informes o presentaciones consolidando distintas partes provenientes de diferentes archivos.
+
+`009-unir array de pdf.py`
 
 ```python
 from PyPDF2 import PdfMerger
@@ -11414,6 +15990,13 @@ merger.close()
 ```
 
 ### separar pdf
+<small>Creado: 2025-11-24 13:29</small>
+
+#### Explicación
+
+Este código Python utiliza la biblioteca `PyPDF2` para dividir un archivo PDF en páginas individuales y guardar cada página como un nuevo archivo PDF separado. El proceso comienza leyendo el archivo "uno.pdf" utilizando el lector de PyPDF2 (`PdfReader`). Luego, por cada página del documento original (cada página se obtiene con `reader.pages`), crea una instancia nueva de escritor (`PdfWriter`) y agrega la página correspondiente a este nuevo objeto. A continuación, guarda esta página en un archivo PDF individualizado cuyo nombre incluye el número de página (`page_{i+1}.pdf`). Finalmente, imprime por pantalla que se ha creado el archivo con el nombre específico. Este tipo de script es útil cuando necesitas trabajar con cada página de un documento PDF de manera independiente, por ejemplo, para su visualización individual o procesamiento adicional.
+
+`010-separar pdf.py`
 
 ```python
 from PyPDF2 import PdfReader, PdfWriter
@@ -11433,6 +16016,19 @@ for i, page in enumerate(reader.pages):
 ```
 
 ### separar pdf a jpg
+<small>Creado: 2025-11-24 13:30</small>
+
+#### Explicación
+
+Este código Python está diseñado para convertir una página PDF en imágenes JPEG individuales. Primero, el programa importa la función `convert_from_path` del módulo `pdf2image`, que es una biblioteca útil para trabajar con archivos PDF y convertirlos a otros formatos de imagen.
+
+Luego, se especifica un archivo PDF llamado "uno.pdf" como entrada. La función `convert_from_path` convierte todas las páginas del PDF en imágenes, utilizando 300 DPI (resolución) para asegurar una buena calidad de imagen. El resultado es almacenado en la variable `pages`, que contiene una lista de objetos PIL (Python Imaging Library), cada uno representando una página del documento PDF.
+
+Finalmente, el programa recorre todas las páginas usando un bucle `for`. Para cada página, se crea un nombre de archivo único basado en su posición (`page_1.jpg`, `page_2.jpg`, etc.), y luego la página se guarda como imagen JPEG utilizando el método `.save()`. Además, se imprime en consola el nombre del archivo que acaba de ser creado para tener una confirmación visual de qué archivos han sido generados.
+
+Esta conversión de PDF a imágenes es útil cuando necesitas ver o manipular individualmente cada página de un documento, por ejemplo, si quieres mostrar las páginas del PDF en línea como imágenes o procesarlas con herramientas que no soportan directamente el formato PDF.
+
+`011-separar pdf a jpg.py`
 
 ```python
 from pdf2image import convert_from_path
@@ -11449,6 +16045,17 @@ for i, page in enumerate(pages):
 ```
 
 ### separar pdf a png
+<small>Creado: 2025-11-24 13:32</small>
+
+#### Explicación
+
+Este código convierte cada página de un archivo PDF en una imagen PNG. Utiliza la biblioteca `pdf2image` para realizar esta tarea. El archivo PDF que se va a convertir está especificado por el nombre "uno.pdf". La función `convert_from_path()` lee este archivo y, usando un DPI (resolución) de 300 puntos por pulgada, genera una imagen PIL (Python Imaging Library) para cada página del documento.
+
+Luego, en un bucle `for`, el código itera sobre todas las páginas obtenidas. Para cada página, crea un nombre de archivo basado en la posición de la página (por ejemplo, "page_1.png", "page_2.png") y guarda la imagen correspondiente con la extensión PNG. Finalmente, imprime una notificación indicando el nombre del archivo que acaba de crearse.
+
+Este tipo de conversión es útil para visualizar o manipular páginas PDF en un formato más flexible como imágenes, permitiendo su uso en distintos contextos donde las imágenes son preferibles a los documentos PDF.
+
+`012-separar pdf a png.py`
 
 ```python
 from pdf2image import convert_from_path
@@ -11465,6 +16072,23 @@ for i, page in enumerate(pages):
 ```
 
 ### comprimir pdf
+<small>Creado: 2025-11-24 13:35</small>
+
+#### Explicación
+
+Este fragmento de código es un ejemplo práctico que muestra cómo comprimir un archivo PDF utilizando el programa Ghostscript (gs), una herramienta muy potente para manipular archivos PDF desde la línea de comandos. 
+
+El código comienza importando el módulo `subprocess` en Python, que permite ejecutar comandos del sistema operativo directamente desde tu script.
+
+Luego, se definen dos variables: `input_pdf`, que contiene el nombre del archivo PDF que deseas comprimir, y `output_pdf`, que almacena el nombre del archivo resultante después de la compresión. En este caso, el archivo original es "uno.pdf" y el resultado será guardado como "unocomprimido.pdf".
+
+El corazón del código está en la lista llamada `cmd`. Esta lista contiene una serie de comandos para Ghostscript que especifican cómo queremos procesar nuestro PDF. Los parámetros dentro de esta lista indican a Ghostscript qué nivel de compatibilidad usar, qué configuración de calidad deseamos (en este caso `/screen`), y otros detalles técnicos necesarios para la compresión.
+
+Finalmente, el comando `subprocess.run(cmd)` ejecuta los comandos definidos en `cmd`. Esto es lo que realmente realiza la compresión del archivo PDF. Después de completar esta operación, se imprime un mensaje en pantalla confirmando que el proceso de compresión ha finalizado y mostrando el nombre del archivo comprimido generado.
+
+Este tipo de script es muy útil cuando necesitas reducir el tamaño de archivos PDF sin sacrificar demasiada calidad visual, lo cual puede ser fundamental para compartir documentos o alojarlos en servidores con límites de espacio.
+
+`013-comprimir pdf.py`
 
 ```python
 import subprocess
@@ -11489,6 +16113,19 @@ print("Compressed:", output_pdf)
 ```
 
 ### grid en HTML
+<small>Creado: 2025-11-24 13:42</small>
+
+#### Explicación
+
+Este código HTML es una página web simple que muestra opciones relacionadas con el manejo de archivos PDF. La estructura del documento sigue un formato básico de HTML, comenzando con la declaración `<!doctype html>` para indicar que se trata de un documento HTML5. Dentro del bloque `<html lang="es">`, se especifica que el idioma principal es español.
+
+En la sección `<head>`, encontramos dos elementos importantes: el título de la página y una declaración de codificación de caracteres (`<meta charset="utf-8">`). El título "Me encanta PDF" aparecerá en la pestaña del navegador, mientras que la declaración de caracteres garantiza que todos los símbolos y caracteres especiales se muestren correctamente.
+
+El cuerpo de la página (`<body>`) contiene una cabecera (`<header>`), que a su vez incluye un título principal (`<h1>`). Bajo el encabezado, hay un bloque `<main>` que alberga dos artículos separados, cada uno con un identificador único (`id="unirpdf"` y `id="separarpdf"`). Estos artículos contienen subtitulares (`<h3>`) y párrafos explicativos sobre cómo unir y dividir archivos PDF.
+
+Esta página sirve como una interfaz básica para seleccionar funciones relacionadas con la manipulación de documentos PDF, proporcionando al usuario instrucciones simples sobre qué hacer en cada caso.
+
+`014-grid en HTML.html`
 
 ```html
 <!doctype html>
@@ -11516,6 +16153,21 @@ print("Compressed:", output_pdf)
 ```
 
 ### miniservidor flask
+<small>Creado: 2025-11-24 13:43</small>
+
+#### Explicación
+
+Este fragmento de código es una simple aplicación web creada usando Flask, un framework ligero para Python que facilita la creación de aplicaciones web. La función principal del código es iniciar un servidor web que servirá una página HTML llamada "index.html" cuando alguien acceda a la raíz del sitio (es decir, al URL base sin ningún prefijo).
+
+El código comienza importando las clases necesarias desde Flask: `Flask` para crear el objeto de aplicación y `render_template` para renderizar archivos HTML. Luego se crea una instancia de la clase `Flask`, denominada `app`.
+
+La parte clave del código es la decoración `@app.route("/")`. Esta línea indica a Flask que cuando un usuario accede al URL base (la raíz), debería ejecutar la función `index()`. Dentro de esta función, se utiliza `render_template("index.html")` para renderizar el archivo HTML llamado "index.html" y devolverlo como respuesta al navegador del cliente.
+
+Finalmente, en la última línea, el código verifica si está siendo ejecutado directamente (no importado desde otro script) y, en ese caso, inicia el servidor Flask con `app.run(debug=True)`. La opción `debug=True` permite que el servidor web se reinicie automáticamente cada vez que cambias el código del proyecto, además de proporcionar informes de error más detallados para ayudar a depurar.
+
+Este tipo de configuración es común cuando estás desarrollando y probando aplicaciones Flask localmente.
+
+`015-miniservidor flask.py`
 
 ```python
 from flask import Flask, render_template
@@ -11531,6 +16183,19 @@ if __name__ == "__main__":
 ```
 
 ### superservidor
+<small>Creado: 2025-11-24 13:51</small>
+
+#### Explicación
+
+Este fragmento de código es un servidor web sencillo desarrollado con Flask que permite a los usuarios realizar dos tipos de operaciones sobre archivos PDF: unir varios documentos PDF en uno solo y dividir un documento PDF en páginas individuales, guardándolas como archivos separados dentro de una carpeta comprimida (ZIP). 
+
+El código define rutas web para ambos servicios. Cuando el usuario accede a la ruta `/unir` mediante una solicitud POST, envía múltiples archivos PDF que el servidor combina y devuelve un solo archivo PDF unificado para descargar. Por otro lado, cuando se solicita la ruta `/separar`, el servidor recibe un único archivo PDF, lo divide en páginas individuales, guarda cada página como un documento separado en una carpeta temporal y luego compila estas páginas en un archivo ZIP que se proporciona al usuario para descargar.
+
+Este script utiliza varias bibliotecas de Python como Flask para la creación del servidor web, PyPDF2 para manipular los documentos PDF y zipfile para crear archivos comprimidos. Además, el código implementa funciones para asegurar que solo se procesen archivos PDF válidos y para gestionar temporalmente los archivos en subcarpetas creadas específicamente para cada tarea antes de eliminarlos después del proceso.
+
+Esta aplicación es útil en contextos donde la gestión y manipulación de documentos PDF es necesaria, como en oficinas o plataformas educativas que requieren unir informes o dividir libros didácticos por temas.
+
+`016-superservidor.py`
 
 ```python
 from flask import Flask, render_template, request, send_file
@@ -11674,6 +16339,17 @@ if __name__ == "__main__":
 ```
 
 ### empresa
+<small>Creado: 2025-11-24 13:19</small>
+
+#### Explicación
+
+Este fragmento es un archivo CSV (valores separados por comas), que es un formato común para almacenar y compartir datos tabulares como listas de productos, bases de datos simples o registros. En este caso, el archivo contiene una lista de artículos en stock de una tienda o empresa, incluyendo detalles como nombre del producto, descripción y precio.
+
+El archivo comienza con una línea que define las columnas: "nombre", "descripcion" (que debería ser "descripción") y "precio". Luego sigue una lista de productos, cada uno en su propia línea. Por ejemplo, el primer producto es un cuaderno A5 descrito como un cuaderno rayado con tapa blanda que tiene 80 hojas y cuesta 4.50 euros.
+
+Este tipo de formato CSV es muy útil porque permite a otras aplicaciones leer la información fácilmente para mostrarla en una interfaz más amigable o convertirla a otros formatos como JSON o XML, lo cual es común cuando se trabaja con datos en proyectos web y aplicaciones móviles.
+
+`empresa.csv`
 
 ```
 nombre,descripcion,precio
@@ -11729,6 +16405,13 @@ Rotulador Permanente,Rotulador negro resistente al agua,1.50
 ```
 
 ### persona
+<small>Creado: 2025-11-24 13:06</small>
+
+#### Explicación
+
+Este fragmento de código es un archivo JSON que contiene información sobre una persona. En este caso, el JSON se estructura en torno a un objeto llamado "persona", que tiene tres propiedades: "nombre", "apellidos" y "emails". La propiedad "nombre" almacena el nombre de la persona como una cadena de texto ("Jose Vicente"). La propiedad "apellidos" almacena los apellidos de la misma forma ("Carratala Sanchis"). Lo interesante es que "emails" es un array, lo que significa que puede contener múltiples direcciones de correo electrónico para esa persona. En este caso, contiene dos elementos: "info@jocarsa.com" y "info@josevicentecarratala.com". Este formato JSON es muy útil porque permite almacenar datos estructurados de manera clara y sencilla, facilitando su lectura tanto por humanos como por programas informáticos.
+
+`persona.json`
 
 ```json
 { 
@@ -11744,6 +16427,17 @@ Rotulador Permanente,Rotulador negro resistente al agua,1.50
 ```
 
 ### persona
+<small>Creado: 2025-11-24 13:09</small>
+
+#### Explicación
+
+Este fragmento de código es un ejemplo simple de un archivo XML que contiene información sobre una persona. En esta estructura, el elemento principal es `<persona>` y dentro de él se encuentran subelementos como `<nombre>`, `<apellidos>`, y `<emails>`. El elemento `<emails>` a su vez contiene varios elementos `<email>`, lo cual indica que la persona puede tener más de un correo electrónico asociado.
+
+El código comienza con una línea que declara la versión del XML y el conjunto de caracteres utilizado, en este caso UTF-8. Esto es importante para garantizar que el archivo sea interpretado correctamente por cualquier programa o sistema que lea este documento.
+
+Este tipo de estructura XML es útil porque permite representar datos jerárquicos de una manera clara y fácilmente legible tanto para humanos como para máquinas, facilitando tareas como la conversión entre diferentes formatos de documentos o el intercambio de información en entornos web.
+
+`persona.xml`
 
 ```xml
 <?xml version='1.0' encoding='utf-8'?>
@@ -11758,6 +16452,15 @@ Rotulador Permanente,Rotulador negro resistente al agua,1.50
 ```
 
 ### persona2
+<small>Creado: 2025-11-24 13:13</small>
+
+#### Explicación
+
+Este fragmento de código es un archivo JSON que contiene información sobre una persona. En concreto, describe los detalles de una persona llamada Jose Vicente Carratala Sanchis y sus correos electrónicos asociados. La estructura del JSON comienza con la clave "persona", que tiene tres atributos: el nombre, apellidos y emails. Los emails son presentados como un objeto donde "email" es una lista que incluye las direcciones de correo electrónico de la persona.
+
+Es importante destacar cómo se organiza la información en JSON para facilitar su manejo en programación, especialmente cuando necesitas convertir este tipo de datos a otros formatos como XML o pasarlos a través de APIs. Este formato permite representar fácilmente estructuras complejas y es ampliamente utilizado en desarrollo web y sistemas informáticos para el intercambio de información.
+
+`persona2.json`
 
 ```json
 {
@@ -11775,10 +16478,222 @@ Rotulador Permanente,Rotulador negro resistente al agua,1.50
 ```
 
 ### pip
+<small>Creado: 2025-11-24 13:34</small>
+
+#### Explicación
+
+Parece que has olvidado incluir el fragmento de código dentro de tu solicitud. Para poder ayudarte, necesito que proporciones el contenido específico del archivo "pip" o cualquier otro bloque de código sobre el cual quieras recibir una explicación detallada y didáctica. Por favor, intégralo en tu consulta para continuar asistiendo contigo.
+
+`pip`
 
 ```
 
 ```
+
+### Actividades propuestas
+
+The provided files cover a range of topics and file types related to data storage, manipulation, and web development. Let's break down each file type and its significance:
+
+### JSON Files
+**`persona.json`**
+This is a JSON (JavaScript Object Notation) formatted file that stores structured data about a person. The structure includes:
+- A top-level key `"persona"` which contains nested properties such as `nombre`, `apellidos`, and an array of emails.
+  
+Example content:
+```json
+{ 
+  "persona":{
+    "nombre":"Jose Vicente",
+    "apellidos":"Carratala Sanchis",
+    "emails":[
+      "info@jocarsa.com",
+      "info@josevicentecarratala.com"
+    ]
+  }
+}
+```
+
+**`persona2.json`**
+This is a similar JSON file but with slightly different structure:
+- The emails are stored under an additional key `"email"` inside the `emails` object.
+
+Example content:
+```json
+{
+  "persona": {
+    "nombre": "Jose Vicente",
+    "apellidos": "Carratala Sanchis",
+    "emails": {
+      "email": [
+        "info@jocarsa.com",
+        "info@josevicentecarratala.com"
+      ]
+    }
+  }
+}
+```
+
+### XML File
+**`persona.xml`**
+This is an XML (Extensible Markup Language) file that represents the same data as `persona.json`.
+
+Example content:
+```xml
+<?xml version='1.0' encoding='utf-8'?>
+<persona>
+  <nombre>Jose Vicente</nombre>
+  <apellidos>Carratala Sanchis</apellidos>
+  <emails>
+    <email>info@jocarsa.com</email>
+    <email>info@josevicentecarratala.com</email>
+  </emails>
+</persona>
+```
+
+### CSV File
+**`empresa.csv`**
+This is a comma-separated values (CSV) file that stores tabular data about products. Each line represents a product, and each column represents an attribute such as `nombre`, `descripcion`, and `precio`.
+
+Example content:
+```csv
+nombre,descripcion,precio
+Cuaderno A5,Cuaderno rayado de tapa blanda con 80 hojas,4.50
+Bolígrafo Azul,Bolígrafo de tinta azul con punta fina,1.20
+Mochila Urbana,Mochila ligera con compartimento para portátil,29.90
+...
+```
+
+### Python Script Files
+
+**`empresa.py`**
+This script likely reads and manipulates the `empresa.csv` file.
+
+Example content might include:
+```python
+import csv
+
+def read_csv(file_path):
+    with open(file_path, mode='r', encoding='utf-8') as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            print(row)
+
+read_csv('empresa.csv')
+```
+
+**`persona.py`**
+This script likely converts between JSON and XML representations of the `persona.json` data.
+
+Example content might include:
+```python
+import json
+from xml.etree.ElementTree import Element, SubElement, tostring
+from xml.dom.minidom import parseString
+
+def convert_json_to_xml(json_data):
+    persona = Element('persona')
+    
+    name = SubElement(persona, 'nombre')
+    name.text = json_data['persona']['nombre']
+    
+    surname = SubElement(persona, 'apellidos')
+    surname.text = json_data['persona']['apellidos']
+    
+    emails = SubElement(persona, 'emails')
+    for email in json_data['persona']['emails']:
+        email_element = SubElement(emails, 'email')
+        email_element.text = email
+    
+    xml_string = tostring(persona)
+    parsed_xml = parseString(xml_string).toprettyxml()
+    return parsed_xml
+
+def convert_xml_to_json(xml_data):
+    # Assuming an existing function that parses XML to JSON
+    pass
+
+with open('persona.json', 'r') as file:
+    json_data = json.load(file)
+    
+xml_output = convert_json_to_xml(json_data)
+print(xml_output)
+
+# Write output to xml file if needed
+```
+
+### Python Script Files for Web Development (Flask/WSGI)
+
+**`empresa.py`**
+This script might be a Flask application that serves data from the `empresa.csv`.
+
+Example content:
+```python
+from flask import Flask, request, jsonify
+
+app = Flask(__name__)
+
+@app.route('/products', methods=['GET'])
+def get_products():
+    with open('empresa.csv') as file:
+        reader = csv.DictReader(file)
+        products = list(reader)
+    return jsonify(products)
+
+if __name__ == "__main__":
+    app.run(debug=True)
+```
+
+**`persona.py`**
+This script might be a Flask application that converts between JSON and XML representations of the `persona.json`.
+
+Example content:
+```python
+from flask import Flask, request, send_file
+
+app = Flask(__name__)
+
+@app.route('/convert/json_to_xml', methods=['POST'])
+def convert_json_to_xml():
+    json_data = request.get_json()
+    xml_output = convert_json_to_xml(json_data)
+    with open('persona.xml', 'w') as file:
+        file.write(xml_output)
+    return send_file('persona.xml')
+
+if __name__ == "__main__":
+    app.run(debug=True)
+```
+
+### `pip` (Pipfile or Pip requirements)
+**`pip`**
+This could refer to a `requirements.txt` file that lists the necessary Python packages required for running the project. Alternatively, it might be a `Pipfile` used with pipenv.
+
+Example content (`requirements.txt`):
+```txt
+Flask==2.0.1
+csvkit==1.0.6
+```
+
+Or example content (`Pipfile`):
+```ini
+[packages]
+Flask = "==2.0.1"
+csvkit = "==1.0.6"
+
+[dev-packages]
+pytest = "*"
+black = "*"
+```
+
+### Summary
+- **JSON and XML** files are used for structured data storage.
+- **CSV** file is used for tabular data representation.
+- Python scripts read, write, and manipulate these files.
+- Flask applications serve the data via web APIs.
+- `pip` (or a requirements.txt/Pipfile) lists necessary dependencies.
+
+These files together form a robust system to manage structured data in various formats and serve it over HTTP.
+
 
 
 <a id="almacenamiento-de-informacion"></a>
@@ -11787,21 +16702,199 @@ Rotulador Permanente,Rotulador negro resistente al agua,1.50
 <a id="sistemas-de-almacenamiento-de-informacion-caracteristicas-tecnologias"></a>
 ## Sistemas de almacenamiento de información. Características. Tecnologías
 
-En el vasto universo digital, los sistemas de almacenamiento de información desempeñan un papel fundamental, constituyendo la infraestructura sobre la que se construyen las aplicaciones y servicios modernos. Estos sistemas no son solo contenedores para datos; son la base de la eficiencia operativa y el acceso rápido a la información en cualquier organización o proyecto informático.
+### Introducción a los ejercicios
 
-La diversidad de tecnologías disponibles ofrece una gama infinita de opciones para almacenar, recuperar y gestionar los datos. Desde las bases de datos relacionales hasta las bases de datos no relacionales, cada sistema tiene sus propias fortalezas y debilidades, adaptándose a diferentes tipos de aplicaciones y requisitos funcionales.
+El código que proporcionaste es una evolución de una aplicación web simple para gestionar discos. En cada versión, se han añadido nuevas características y mejoras estéticas. Vamos a revisar la última versión (010-cabeceras de la tabla) y sugerir algunas mejoras adicionales.
 
-Los sistemas de almacenamiento de información modernos están diseñados para manejar volúmenes crecientes de datos con alta velocidad y eficiencia. Desde la gestión de bases de datos en tiempo real hasta el almacenamiento de grandes cantidades de datos históricos, estos sistemas ofrecen soluciones robustas que pueden escalar según las necesidades del proyecto.
+### Revisión del Código
 
-La importancia de los sistemas de almacenamiento no se limita solo a su capacidad para almacenar datos. También es crucial su capacidad para garantizar la integridad y seguridad de la información. Los sistemas modernos incorporan mecanismos avanzados de control de acceso, encriptación y recuperación ante desastres, asegurando que los datos sean accesibles y seguros incluso en condiciones adversas.
+#### 1. Conexión a la Base de Datos
+En tu código, tienes una conexión a dos bases de datos diferentes:
 
-Además de las tecnologías de almacenamiento tradicionales, también existen soluciones innovadoras como la nube. Los sistemas basados en la nube ofrecen una flexibilidad increíble, permitiendo a los usuarios acceder a sus datos desde cualquier lugar y a cualquier momento. A pesar de su costo inicial, estas soluciones a menudo resultan más económicas a largo plazo debido a las economías de escala y la escalabilidad.
+```php
+$mysqli = new mysqli("localhost", "discos", "discos", "discos");
+```
 
-La gestión eficiente de los sistemas de almacenamiento es un aspecto crucial del desarrollo de aplicaciones informáticas. Los ingenieros y desarrolladores deben tener en cuenta no solo el rendimiento y la capacidad de almacenamiento, sino también la facilidad de mantenimiento y la escalabilidad del sistema. Una buena estrategia de gestión de almacenamiento puede hacer una gran diferencia en la eficiencia operativa y la sostenibilidad a largo plazo de cualquier proyecto informático.
+y 
 
-En conclusión, los sistemas de almacenamiento de información son el corazón de cualquier aplicación moderna. Desde las bases de datos relacionales hasta las soluciones basadas en la nube, cada tecnología tiene sus propias ventajas y desventajas, adaptándose a diferentes tipos de aplicaciones y requisitos funcionales. La elección del sistema de almacenamiento adecuado es un paso crucial en el desarrollo de cualquier proyecto informático, y requiere una comprensión profunda de las necesidades específicas del proyecto y la capacidad para elegir la tecnología que mejor se adapte a ellas.
+```php
+$mysqli = new mysqli("localhost", "miempresa", "miempresa", "miempresa");
+```
+
+Es probable que esto sea un error y debería ser la misma base de datos para todas las operaciones.
+
+#### 2. Procesamiento de Eliminar
+El código actualmente permite eliminar discos, pero no proporciona una confirmación o mensaje de éxito/fallo después de realizar la eliminación. Esto puede añadir claridad al usuario sobre si la acción tuvo éxito o no.
+
+### Sugerencias y Mejoras
+
+1. **Unificar Conexión a Base de Datos**:
+   Asegúrate de que todas las operaciones se conecten a la misma base de datos:
+
+   ```php
+   $mysqli = new mysqli("localhost", "discos", "discos", "discos");
+   ```
+
+2. **Mensaje de Confirmación Después de Eliminar**:
+   Puedes añadir un mensaje en la parte superior de tu página para indicar si se eliminó el disco correctamente o no.
+
+3. **Ejemplo Completo Mejorado**:
+
+```php
+<?php
+// Establecer conexión a la base de datos (asegúrate que esta sea consistente)
+$mysqli = new mysqli("localhost", "discos", "discos", "discos");
+
+if ($mysqli->connect_error) {
+    die("Error en la conexión: " . $mysqli->connect_error);
+}
+
+// Procesar inserción
+if(isset($_GET['operacion']) && $_GET['operacion'] == "insertar"){
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        // Obtener datos del formulario
+        $titulo = $mysqli->real_escape_string($_POST['titulo']);
+        $artista = $mysqli->real_escape_string($_POST['artista']);
+        $anio = intval($_POST['anio']);
+        $genero = $mysqli->real_escape_string($_POST['genero']);
+        $duracion_minutos = intval($_POST['duracion_minutos']);
+        $fecha_compra = $_POST['fecha_compra'];
+        $precio = floatval($_POST['precio']);
+
+        // Insertar en la base de datos
+        $sql = "
+            INSERT INTO discos (titulo, artista, anio, genero, duracion_minutos, fecha_compra, precio)
+            VALUES ('$titulo', '$artista', '$anio', '$genero', '$duracion_minutos', '$fecha_compra', '$precio');
+        ";
+
+        if ($mysqli->query($sql) === TRUE) {
+            echo "<p>Disco insertado correctamente.</p>";
+        } else {
+            echo "Error: " . $sql . "<br>" . $mysqli->error;
+        }
+    }
+}
+
+// Procesar eliminación
+if(isset($_GET['operacion']) && $_GET['operacion'] == "eliminar"){
+    if (isset($_GET['id'])) {
+        $id = intval($_GET['id']);
+        // Eliminar en la base de datos
+        $sql = "
+            DELETE FROM discos WHERE id = '$id';
+        ";
+        
+        if ($mysqli->query($sql) === TRUE) {
+            echo "<p>Disco eliminado correctamente.</p>";
+        } else {
+            echo "Error: " . $sql . "<br>" . $mysqli->error;
+        }
+    }
+}
+
+// Cerrar la conexión a la base de datos
+$mysqli->close();
+?>
+
+<!doctype html>
+<html>
+<head>
+<style>
+html, body { width:100%; height:100%; background:indigo; padding:0px; margin:0px; font-family:sans-serif;}
+body { display:flex; justify-content:center; align-items:center; }
+main { width:1200px; height:600px; background:white; padding:20px; border-radius:10px; }
+section { display:flex; gap:20px; }
+#insertar { flex:1; }
+#insertar form { display:flex; flex-direction:column; gap:20px; }
+#listar { flex:4; }
+table { width:100%; border:1px solid indigo; padding:10px; border-radius:10px; }
+form input { padding:10px; border-radius:5px; border:1px solid indigo; }
+h1 { text-align:center; color:white; background:indigo; padding:20px; }
+table thead { background:indigo; color:white; }
+form input[type="submit"] { background:indigo; color:white; }
+table td, table th { padding:5px; }
+</style>
+</head>
+
+<body>
+<main>
+<h1>💿 Aplicación de gestión de discos</h1>
+
+<section>
+<article id="insertar">
+    <h3>Insertar un disco</h3>
+    <form action="?operacion=insertar" method="POST">
+        <input type="text" name="titulo" placeholder="Título del Disco">
+        <input type="text" name="artista" placeholder="Artista">
+        <input type="number" name="anio" placeholder="Año">
+        <input type="text" name="genero" placeholder="Género">
+        <input type="number" name="duracion_minutos" placeholder="Duración (minutos)">
+        <input type="date" name="fecha_compra" placeholder="Fecha de Compra">
+        <input type="number" step="0.01" name="precio" placeholder="Precio">
+        <input type="submit" value="Insertar Disco">
+    </form>
+</article>
+
+<article id="listar">
+    <h3>Listado de discos</h3>
+    <table>
+        <thead>
+            <?php
+                $mysqli = new mysqli("localhost", "discos", "discos", "discos");
+                if ($resultado = $mysqli->query("SELECT * FROM discos LIMIT 1")) {
+                    echo "<tr>";
+                    while ($fila = $resultado->fetch_field()) {
+                        echo "<th>" . htmlspecialchars($fila->name) . "</th>";
+                    }
+                    echo "</tr>";
+                }
+            ?>
+        </thead>
+        
+        <tbody>
+            <?php
+                if ($resultado = $mysqli->query("SELECT * FROM discos")) {
+                    while ($fila = $resultado->fetch_assoc()) {
+                        echo "<tr>";
+                        foreach($fila as $clave => $valor) {
+                            echo "<td>" . htmlspecialchars($valor) . "</td>";
+                        }
+                        echo '<td><a href="?operacion=eliminar&id=' . htmlspecialchars($fila['id']) . '">Eliminar</a></td>';
+                        echo "</tr>";
+                    }
+                }
+            ?>
+        </tbody>
+    </table>
+</article>
+</section>
+</main>
+
+</body>
+</html>
+```
+
+### Notas Adicionales
+- **Seguridad**: Asegúrate de escapar los valores que vienen del usuario para prevenir inyección SQL. Utiliza `htmlspecialchars` en las salidas HTML y métodos como `intval`, `real_escape_string` o sentencias preparadas para evitar ataques.
+  
+- **Estética**: La estética del código es mejorada, pero puedes ajustar más los estilos según tus preferencias.
+
+Con estos cambios, tu aplicación web será más robusta y proporcionará una experiencia de usuario mejorada.
 
 ### discos
+<small>Creado: 2025-11-27 14:03</small>
+
+#### Explicación
+
+Este código es un documento HTML básico que define la estructura de una página web. Comienza con la declaración `<!DOCTYPE html>`, lo cual indica al navegador que el documento sigue las reglas del HTML5.
+
+El siguiente bloque, `<html>`, es el contenedor principal que engloba todo el contenido de la página. Dentro de él hay dos secciones principales: `<head>` y `<body>`.
+
+La sección `<head>` generalmente contiene información meta sobre la página (como su título), enlaces a hojas de estilos o scripts, pero en este caso está vacía. La sección `<body>`, por otro lado, es donde van todos los elementos visibles de la página, como texto, imágenes y formularios.
+
+Este archivo HTML vacío sirve como punto de partida para desarrollar cualquier tipo de contenido web, ya que puedes empezar a añadir etiquetas dentro del cuerpo (`<body>`) para definir el diseño y las características de tu sitio. Es importante tener esta estructura básica porque establece la forma en que los navegadores interpretan y muestran el contenido de una página web.
+
+`001-discos.html`
 
 ```html
 <!doctype html>
@@ -11815,6 +16908,19 @@ En conclusión, los sistemas de almacenamiento de información son el corazón d
 ```
 
 ### crear base de datos
+<small>Creado: 2025-11-27 14:05</small>
+
+#### Explicación
+
+Este fragmento de código SQL sirve para crear una base de datos llamada `discos` y establecer un usuario específico que tenga permisos sobre ella. Primero, se crea la base de datos con el conjunto de caracteres `utf8mb4`, lo cual es importante porque permite guardar texto en varios idiomas, incluyendo emojis y otros símbolos especiales.
+
+Luego, se verifica si ya existe un usuario llamado 'discos' y, si no está presente, se crea este nuevo usuario con una contraseña específica. A continuación, se otorgan todos los privilegios a ese usuario para que pueda realizar cualquier operación sobre la base de datos `discos`.
+
+Finalmente, el código cambia al uso de la base de datos recién creada y procede a crear una tabla llamada también `discos`, donde se almacenarán datos relacionados con álbumes musicales. Esta tabla tiene varios campos como título del disco, nombre del artista, año de lanzamiento, género musical, duración en minutos, fecha de compra y precio. El campo `id` es la clave primaria de la tabla y se autogenera automáticamente cada vez que se inserta un nuevo registro.
+
+Por último, el código incluye cinco inserciones de ejemplo para llenar la tabla con datos iniciales sobre diferentes álbumes musicales, especificando detalles como título, artista y otros atributos. Esto permite verificar rápidamente que todo funciona correctamente antes de continuar con el desarrollo del sistema completo.
+
+`002-crear base de datos.sql`
 
 ```sql
 sudo mysql -u root -p
@@ -11858,6 +16964,17 @@ VALUES
 ```
 
 ### pequeño formulario
+<small>Creado: 2025-11-27 14:12</small>
+
+#### Explicación
+
+Este fragmento de código es una página HTML que contiene un formulario sencillo. El propósito principal del formulario es recopilar información sobre un disco musical, como el título, artista, año, género, duración en minutos, fecha de compra y precio. 
+
+El formulario está estructurado dentro de una etiqueta `<form>` que especifica la acción (es decir, a qué archivo PHP enviará los datos cuando se haga clic en "Enviar") y el método HTTP para hacerlo (en este caso, es un envío POST). Cada campo del formulario tiene su propia etiqueta `<input>`, con diferentes tipos de entradas según el tipo de información que espera recibir: texto, número o fecha. Por ejemplo, `type="number"` se utiliza para campos numéricos como la duración en minutos y el precio.
+
+Cuando un usuario completa todos los campos del formulario y hace clic en "Enviar", el navegador envía los datos al archivo PHP especificado (004-insertadisco.php), permitiendo que esta aplicación web capture y procese esos detalles sobre el disco musical. Es importante porque este es el primer paso para almacenar esa información en una base de datos o realizar alguna acción con ella en un sistema más grande.
+
+`003-pequeño formulario.html`
 
 ```html
 <!doctype html>
@@ -11880,6 +16997,13 @@ VALUES
 ```
 
 ### insertadisco
+<small>Creado: 2025-11-27 14:11</small>
+
+#### Explicación
+
+Este fragmento de código PHP se encarga de insertar una nueva entrada en una base de datos llamada `discos`. Primero, el programa establece una conexión a la base de datos utilizando las credenciales proporcionadas (`localhost`, usuario "discos", contraseña "discos" y nombre de la base de datos "discos"). Luego, se prepara una sentencia SQL para insertar un nuevo registro en la tabla `discos`. Esta sentencia toma los valores del formulario enviado por el método POST y los inserta en la tabla, donde cada campo (título, artista, año, género, duración en minutos, fecha de compra y precio) se corresponde con uno de los campos de la base de datos. Es importante notar que este código no realiza ninguna validación ni sanitización de los datos recibidos del formulario, lo cual es crucial para prevenir posibles ataques como SQL Injection.
+
+`004-insertadisco.php`
 
 ```
 <?php
@@ -11906,6 +17030,17 @@ $result = $mysqli->query($sql);
 ```
 
 ### todo en un mismo archivo
+<small>Creado: 2025-11-27 14:16</small>
+
+#### Explicación
+
+Este código PHP y HTML crea una página web que permite a los usuarios insertar nuevos discos en una base de datos. En la parte superior del archivo, se utiliza un bloque `if` para verificar si el usuario ha enviado un parámetro llamado 'operación' con el valor "insertar" a través de la URL cuando accedió a esta página web. Si esto es correcto, el código conecta a una base de datos MySQL (la información de conexión se especifica en `new mysqli()`), prepara y ejecuta una consulta SQL que inserta un nuevo registro en la tabla 'discos'. Los valores para este nuevo disco provienen del formulario HTML que sigue debajo.
+
+El formulario HTML que se muestra abajo del bloque PHP incluye campos de entrada para todos los datos necesarios (título, artista, año, género, duración, fecha de compra y precio) y envía estos datos a la misma página utilizando el método POST cuando el usuario hace clic en "Enviar". Esto permite que los datos ingresados por el usuario se inserten automáticamente en la base de datos al enviar el formulario.
+
+Este tipo de implementación es importante porque combina la lógica del servidor (PHP) y la interfaz del usuario (HTML) en un solo archivo, simplificando la estructura para proyectos pequeños o demostraciones. Sin embargo, debe tenerse cuidado con las vulnerabilidades de seguridad, como la inyección SQL, que pueden resultar de este tipo de implementación directa de entradas no filtradas.
+
+`005-todo en un mismo archivo.php`
 
 ```
 <?php
@@ -11947,6 +17082,21 @@ $result = $mysqli->query($sql);
 ```
 
 ### ahora quiero leer
+<small>Creado: 2025-11-27 14:19</small>
+
+#### Explicación
+
+Este fragmento de código es una página web que permite insertar registros en una base de datos y mostrar todos los discos almacenados. La página consta de dos partes principales: un formulario para ingresar detalles sobre nuevos discos, y una tabla que muestra toda la información de los discos existentes en la base de datos.
+
+En primer lugar, el código verifica si se ha enviado una solicitud con la operación "insertar". Si es así, establece una conexión a la base de datos usando MySQLi y genera un comando SQL para insertar un nuevo registro en la tabla 'discos'. Los valores del nuevo disco se obtienen desde los campos de entrada del formulario HTML que están enviados por método POST.
+
+Después, el código muestra un formulario con campos de texto y número donde el usuario puede introducir información sobre un nuevo disco como título, artista, año, género, duración, fecha de compra y precio. Cuando el usuario envía este formulario, la página se recarga con los datos del formulario que ahora se usan para insertar un registro en la base de datos.
+
+Finalmente, independientemente si se ha realizado una inserción o no, el código ejecuta otra consulta SQL para seleccionar todos los registros de la tabla 'discos' y los muestra en una tabla HTML. Esto permite al usuario ver todas las entradas existentes en su base de datos después de haber insertado una nueva entrada.
+
+Este tipo de página es importante para estudiantes porque demuestra cómo se integran formularios HTML con lógica PHP y bases de datos MySQL, permitiendo la interacción entre el usuario, el servidor web y la base de datos.
+
+`006-ahora quiero leer.php`
 
 ```
 <?php
@@ -12002,6 +17152,19 @@ $result = $mysqli->query($sql);
 ```
 
 ### un poco de estilo
+<small>Creado: 2025-11-27 14:25</small>
+
+#### Explicación
+
+Este código PHP combina elementos de HTML y PHP para crear una página web que permite a los usuarios insertar nuevos discos en una base de datos y listar todos los discos existentes. La parte superior del archivo verifica si se ha enviado un parámetro GET llamado "operacion" con el valor "insertar". Si es así, conecta a la base de datos MySQL e intenta insertar un nuevo registro utilizando los valores enviados por POST en el formulario.
+
+La página HTML que sigue muestra dos áreas principales: una para ingresar nuevos discos y otra para listar todos los discos almacenados. El formulario para agregar discos incluye campos como título, artista, año de lanzamiento, género, duración, fecha de compra y precio. Cuando se envía el formulario, la página misma se recarga con la operación "insertar", lo que permite al PHP insertar un nuevo disco en la base de datos.
+
+La lista de discos se genera dinámicamente desde la base de datos después de cada inserción o actualización, mostrando todas las entradas existentes en una tabla HTML. Cada fila de la tabla representa un disco con sus respectivos detalles como título, artista y otros atributos.
+
+Este tipo de estructura es importante porque permite a los usuarios interactuar directamente con la base de datos desde el navegador web, facilitando la gestión del contenido sin necesidad de herramientas adicionales.
+
+`007-un poco de estilo.php`
 
 ```
 <?php
@@ -12076,6 +17239,19 @@ $result = $mysqli->query($sql);
 ```
 
 ### boton de eliminar
+<small>Creado: 2025-11-27 14:28</small>
+
+#### Explicación
+
+Este código PHP combina la lógica de inserción y visualización de datos en una página web simple. En primer lugar, el fragmento verifica si se ha hecho una solicitud GET con un parámetro 'operacion' que vale "insertar". Si es así, establece una conexión a la base de datos MySQL utilizando las credenciales proporcionadas y luego ejecuta una consulta SQL para insertar nuevos registros en la tabla 'discos'. Los valores para esta inserción se obtienen del formulario enviado mediante el método POST.
+
+Después, el código genera una página HTML con dos secciones principales: una para insertar un nuevo disco (a través de un formulario) y otra para listar todos los discos existentes. El formulario en la primera sección permite al usuario introducir información sobre un nuevo disco, como título, artista, año, género, duración, fecha de compra y precio.
+
+La segunda sección muestra una tabla con todas las filas de la base de datos 'discos'. Para cada fila, el código también incluye enlace para eliminar el registro correspondiente. Estos enlaces generan nuevas solicitudes GET que contienen un parámetro 'operacion' con valor "eliminar" y otro 'id' que identifica el disco a borrar.
+
+Este script es importante porque demuestra cómo interactuar con una base de datos MySQL desde PHP, realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) básicas y generar interfaces HTML dinámicas basadas en los datos almacenados.
+
+`008-boton de eliminar.php`
 
 ```
 <?php
@@ -12150,6 +17326,21 @@ $result = $mysqli->query($sql);
 ```
 
 ### procesar eliminar
+<small>Creado: 2025-11-27 14:33</small>
+
+#### Explicación
+
+Este código es una página web en PHP que permite gestionar información sobre discos musicales. La página tiene dos partes principales: un formulario para insertar nuevos discos y una tabla que lista todos los discos almacenados en una base de datos.
+
+Primero, el código verifica si la variable `$_GET['operacion']` está establecida y si su valor es "insertar". Si esto se cumple, conecta a una base de datos MySQL llamada "discos" usando un usuario también llamado "discos", y ejecuta una consulta SQL para insertar un nuevo disco en la tabla "discos" con los datos proporcionados por el formulario.
+
+Luego, verifica si `$_GET['operacion']` es "eliminar". Si esto se cumple, realiza otra conexión a la misma base de datos y ejecuta una consulta SQL DELETE para eliminar un disco específico basado en su ID que se pasa como parámetro en la URL (`$_GET['id']`).
+
+Finalmente, el código genera HTML para mostrar una interfaz web donde los usuarios pueden insertar nuevos discos con un formulario. La tabla muestra todos los discos existentes y proporciona un botón de eliminación junto a cada fila que permite eliminar un disco específico al hacer clic en él.
+
+Este fragmento es importante porque demuestra cómo interactuar con bases de datos desde PHP, manejar formularios HTML y permitir operaciones CRUD (Crear, Leer, Actualizar, Eliminar) básicas.
+
+`009-procesar eliminar.php`
 
 ```
 <?php
@@ -12239,6 +17430,19 @@ $result = $mysqli->query($sql);
 ```
 
 ### cabeceras de la tabla
+<small>Creado: 2025-11-27 14:36</small>
+
+#### Explicación
+
+Este código es un archivo PHP que se utiliza para gestionar una base de datos de discos musicales. La página web permite tanto insertar nuevos discos en la base de datos como listar y eliminar discos existentes.
+
+La parte superior del código maneja dos acciones principales: "insertar" y "eliminar". Cuando el usuario envía un formulario con la acción "insertar", se conecta a una base de datos MySQL, prepara una consulta SQL para insertar un nuevo disco en la tabla `discos`, y luego ejecuta esa consulta. Para la eliminación, si la URL contiene una operación especificada como "eliminar" junto con el ID del disco que se desea borrar, realiza una conexión a la base de datos y ejecuta una consulta DELETE para eliminar ese registro específico.
+
+La parte inferior del código es el HTML que define cómo se ve la página web en el navegador. Incluye un formulario donde los usuarios pueden ingresar detalles sobre un nuevo disco (título, artista, etc.), así como una tabla que lista todos los discos existentes en la base de datos con opciones para eliminarlos.
+
+Lo importante aquí es que las cabeceras (encabezados) de la tabla se generan dinámicamente mirando el primer registro de una tabla llamada `clientes` y no la propia tabla `discos`. Esto podría ser un error o una característica intencionada del diseño, dependiendo de si se pretende mostrar las columnas comunes entre ambas tablas. La tabla principal muestra todos los registros de discos desde la base de datos, con cada fila conteniendo información sobre un disco específico y una opción para eliminarlo.
+
+`010-cabeceras de la tabla.php`
 
 ```
 <?php
@@ -12347,28 +17551,259 @@ $result = $mysqli->query($sql);
 </html>
 ```
 
+### Actividades propuestas
+
+The code you've provided is a step-by-step progression of building an interactive web application to manage a database table named `discos` which presumably contains information about music discs or records. The application allows users to insert new disc entries and delete existing ones through HTML forms and links, respectively. Below, I'll break down the evolution from basic functionality to more refined design.
+
+### 01: Basic Insertion
+- **Functionality:** Allows users to add a new entry into the `discos` table using an HTML form.
+- **Security Concerns:** SQL injection is a risk due to direct string concatenation in the query. To mitigate this, use prepared statements.
+
+### 02: Combining Insert & Display
+- **Functionality:** Adds a simple list of all discs below the insertion form.
+- **Improvement:** Enhances user experience by showing results immediately after an action is taken.
+
+### 03: Adding Deletion Functionality
+- **Functionality:** Introduces links to delete individual entries from the table.
+- **Security Concerns:** Again, SQL injection risk with direct string concatenation in DELETE queries. Use prepared statements for safety.
+
+### 04: Styling & Layout Optimization
+- **Improvement:** Uses CSS for basic styling, arranging elements neatly into a grid layout.
+- **HTML Structure:** Enhances the HTML structure to improve readability and maintainability.
+
+### 05: Improved Navigation & Display
+- **Functionality:** Refines navigation by adding appropriate class/id attributes for better separation of concerns in HTML/CSS.
+- **Design Changes:** Adds padding, borders, rounded corners to enhance visual appeal.
+
+### 06: Adding Table Headers (Thead)
+- **Improvement:** Displays table headers (`<thead>`) corresponding to the columns of `discos`, making the data more understandable at a glance.
+- **SQL Query Fix:** Corrects database connection settings from "miempresa" to "discos".
+
+Here's an improved version with minor adjustments for security and readability:
+
+```php
+<?php
+if (isset($_GET['operacion']) && $_GET['operacion'] == 'insertar') {
+    $mysqli = new mysqli("localhost", "discos", "discos", "discos");
+    if ($mysqli->connect_error) {
+        die('No se pudo conectar a la base de datos (' . $mysqli->connect_errno . ') '. $mysqli->connect_error);
+    }
+    
+    // Sanitize input
+    foreach ($_POST as &$value) {
+        $value = $mysqli->real_escape_string($value);
+    }
+
+    // Prepared statement to prevent SQL injection
+    $stmt = $mysqli->prepare("
+        INSERT INTO discos (titulo, artista, anio, genero, duracion_minutos, fecha_compra, precio)
+        VALUES (?, ?, ?, ?, ?, ?, ?)");
+    $stmt->bind_param("ssisiss", $_POST['titulo'], $_POST['artista'], $_POST['anio'], $_POST['genero'], 
+                       $_POST['duracion_minutos'], $_POST['fecha_compra'], $_POST['precio']);
+    if ($stmt->execute()) {
+        echo "¡Disco insertado correctamente!";
+    } else {
+        echo "Error al insertar disco: (" . $mysqli->errno . ") " . $mysqli->error;
+    }
+}
+
+if (isset($_GET['operacion']) && $_GET['operacion'] == 'eliminar') {
+    $id = intval($_GET['id']);
+    
+    // Prepared statement to prevent SQL injection
+    $stmt = $mysqli->prepare("DELETE FROM discos WHERE id=?");
+    $stmt->bind_param('i', $id);
+    if ($stmt->execute()) {
+        echo "¡Disco eliminado correctamente!";
+    } else {
+        echo "Error al eliminar disco: (" . $mysqli->errno . ") " . $mysqli->error;
+    }
+}
+?>
+
+<!doctype html>
+<html>
+<head>
+    <style>
+        /* ... CSS styles here ... */
+    </style>
+</head>
+<body>
+<main>
+<h1>💿 Aplicación de gestión de discos</h1>
+<section>
+    <article id="insertar">
+        <h3>Insertar un disco</h3>
+        <form action="?operacion=insertar" method="POST">
+            <!-- ... Form fields here ... -->
+            <input type="submit" value="Agregar Disco">
+        </form>
+    </article>
+    <article id="listar">
+        <h3>Listado de discos</h3>
+        <table>
+            <thead>
+                <?php
+                    $mysqli = new mysqli("localhost", "discos", "discos", "discos");
+                    if ($mysqli->connect_error) {
+                        die('No se pudo conectar a la base de datos (' . $mysqli->connect_errno . ') '. $mysqli->connect_error);
+                    }
+                    
+                    // Fetch the column names to use as table headers
+                    $result = $mysqli->query("SELECT * FROM discos LIMIT 1");
+                    if ($row = $result->fetch_assoc()) {
+                        echo "<tr>";
+                        foreach ($row as $key => $value) {
+                            echo "<th>$key</th>";
+                        }
+                        echo "</tr>";
+                    }
+                ?>
+            </thead>
+            <tbody>
+                <?php
+                $sql = "SELECT * FROM discos";
+                $resultado = $mysqli->query($sql);
+                while ($fila = $resultado->fetch_assoc()) {
+                    echo "<tr>";
+                    foreach ($fila as $clave => $valor) {
+                        echo "<td>$valor</td>";
+                    }
+                    echo "<td><a href='?operacion=eliminar&id=".$fila['id']."'>❌</a></td>";
+                    echo "</tr>";
+                }
+                ?>
+            </tbody>
+        </table>
+    </article>
+</section>
+</main>
+</body>
+</html>
+```
+
+### Key Points:
+- **Security:** Used prepared statements to prevent SQL injection.
+- **Readability & Maintainability:** Improved code by separating concerns and ensuring readability.
+- **User Experience:** Provided immediate feedback for CRUD operations.
+
+This version should be a good starting point for further enhancements, such as form validation, error handling, or adding additional features like update functionality.
+
+
 <a id="lenguajes-de-consulta-y-manipulacion-en-documentos"></a>
 ## Lenguajes de consulta y manipulación en documentos
 
-En el vasto mundo de la informática, los lenguajes de consulta y manipulación en documentos desempeñan un papel crucial. Estos idiomas proporcionan las herramientas necesarias para interactuar con los datos almacenados en diferentes formatos, permitiendo su acceso, modificación y análisis. Comenzamos por entender qué son estos lenguajes y cómo se utilizan.
+### Introducción a los ejercicios
 
-El primer paso es conocer la estructura básica de un documento que puede ser consultado o manipulado mediante estos lenguajes. Un documento puede estar compuesto por elementos como etiquetas, atributos y contenido. Los lenguajes de consulta y manipulación permiten seleccionar y acceder a estos elementos de manera eficiente.
+Para combinar los datos del archivo SVG, HTML y JSON en un solo diagrama coherente, es necesario asegurarnos de que todos los elementos estén correctamente ubicados y conectados. A continuación, proporciono una versión consolidada de tu diagrama basándose en la información proporcionada:
 
-Una vez comprendida la estructura básica, es importante aprender los comandos y sintaxis específicos del lenguaje que se está utilizando. Por ejemplo, en HTML, el comando `<p>` se utiliza para definir un párrafo, mientras que en XML, las etiquetas pueden contener atributos adicionales que proporcionan información adicional sobre el contenido.
+### Diagrama Consolidado
 
-La manipulación de documentos implica no solo la lectura, sino también la creación y modificación. Los lenguajes de consulta y manipulación permiten agregar, eliminar o modificar elementos dentro de un documento. Por ejemplo, en SQL, se pueden utilizar comandos como `INSERT`, `UPDATE` y `DELETE` para realizar estas operaciones.
+1. **Elementos del SVG:**
+   - Las posiciones de los rectángulos (shapes) son correctas.
+   - Las etiquetas text dentro del SVG corresponden a las descripciones de cada shape.
 
-Además de la manipulación directa de los documentos, los lenguajes de consulta y manipulación también permiten realizar consultas complejas que extraen información específica basada en criterios definidos. Por ejemplo, en SQL, se pueden utilizar cláusulas como `WHERE`, `ORDER BY` y `GROUP BY` para filtrar y ordenar los resultados.
+2. **Conexiones del SVG:**
+   - Existen dos conexiones entre shapes, que deben corresponderse con la información en el archivo HTML y JSON.
 
-La importancia de entender los lenguajes de consulta y manipulación radica en su capacidad para optimizar el acceso a la información. Al conocer cómo seleccionar y manipular datos de manera eficiente, se pueden reducir significativamente tiempos de respuesta y mejorar la eficiencia general del sistema.
+3. **Datos del JSON y HTML:**
+   - Se han proporcionado datos adicionales sobre los elementos que no están completamente cubiertos por el SVG (por ejemplo, detalles de las flechas).
 
-Además, estos lenguajes son esenciales para la integración de diferentes sistemas informáticos. Al permitir la consulta y manipulación de datos en formatos estándar, facilitan el intercambio de información entre aplicaciones y sistemas distintos.
+### Diagrama Consolidado
 
-La práctica es clave para dominar los lenguajes de consulta y manipulación. Es importante experimentar con diferentes comandos y sintaxis hasta lograr un nivel de fluidez y eficiencia en la manipulación de documentos.
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagrama Integrado</title>
+    <style>
+        text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 12px; fill: #111827; }
+        .shape-rect { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+        .shape-entity { fill: #ffffff; stroke: #111827; stroke-width: 2; }
+        .shape-circle { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+        .shape-pill { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+        .shape-db { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+        .conn { stroke: #111827; stroke-width: 2; fill: none; }
 
-En conclusión, los lenguajes de consulta y manipulación en documentos son herramientas poderosas que permiten interactuar con la información de manera eficiente y precisa. A través del conocimiento de sus comandos y sintaxis, se pueden optimizar procesos, mejorar la eficiencia general del sistema y facilitar el intercambio de información entre diferentes aplicaciones y sistemas informáticos.
+        svg {
+            width: 500px;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+
+    <defs>
+        <marker id="arrow-end" markerWidth="10" markerHeight="7" refX="10" refY="3.5"
+                orient="auto" markerUnits="strokeWidth">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#111827"/>
+        </marker>
+    </defs>
+
+    <!-- Shapes -->
+    <rect class="shape-rect" x="40" y="40" width="120" height="40" rx="4" ry="4">
+        <title>CSS</title>
+    </rect>
+    <text x="95" y="63">CSS</text>
+
+    <rect class="shape-rect" x="40" y="85" width="120" height="40" rx="4" ry="4">
+        <title>HTML</title>
+    </rect>
+    <text x="95" y="107">HTML</text>
+
+    <rect class="shape-rect" x="40" y="130" width="120" height="40" rx="4" ry="4">
+        <title>Formulario HTML</title>
+    </rect>
+    <text x="95" y="153">Formulario HTML</text>
+
+    <rect class="shape-rect" x="260" y="85" width="120" height="40" rx="4" ry="4">
+        <title>PHP 1</title>
+    </rect>
+    <text x="315" y="107">PHP</text>
+
+    <rect class="shape-rect" x="260" y="130" width="120" height="40" rx="4" ry="4">
+        <title>MySQL</title>
+    </rect>
+    <text x="315" y="153">MySQL</text>
+
+    <!-- Connections -->
+    <path class="conn" d="M 90, 87 L 260, 118" marker-end="url(#arrow-end)" />
+    <path class="conn" d="M 260, 148 L 325, 160" />
+
+</svg>
+
+</body>
+</html>
+```
+
+### Explicación:
+- **Shapes**: Se han ubicado correctamente los rectángulos en el espacio SVG y se les ha añadido una descripción.
+- **Connections (Flechas)**: Las flechas están basadas en la información del archivo `diagrama.svg`. La conexión de las flechas entre "Formulario HTML" y "PHP 1", así como entre "MySQL" y "PHP 1", se ha representado correctamente.
+
+### Notas adicionales:
+- Asegúrate de que las posiciones de los shapes y las conexiones coincidan con la información proporcionada en el archivo `diagrama.svg`.
+- Las etiquetas `<title>` dentro del SVG pueden ser útiles para proporcionar información adicional cuando se haga clic en un shape.
+
+Este diagrama consolidado debería representar adecuadamente tus elementos y conexiones. Si necesitas ajustes adicionales, puedes modificar las coordenadas de los shapes o el recorrido de las flechas según sea necesario.
 
 ### formulario
+<small>Creado: 2025-12-04 14:10</small>
+
+#### Explicación
+
+Este código HTML crea una página web simple que contiene un formulario básico para recoger datos del usuario. La estructura del documento se define con la etiqueta `<!doctype html>`, seguida de las etiquetas `<html>` y `<head>` que incluyen el título de la página y la codificación de caracteres utilizada.
+
+En la parte central, dentro de la etiqueta `<body>`, se encuentra un formulario encapsulado en una etiqueta `<form>`. Dentro del formulario, hay un bloque `<fieldset>` que agrupa los elementos relacionados con él. El campo `<legend>` proporciona un título para el grupo de campos.
+
+El formulario contiene dos áreas de entrada de texto y un botón de envío. La primera línea de entrada solicita al usuario que introduzca su nombre mediante una etiqueta `<label>` asociada a un campo de entrada (`<input type="text">`) con el atributo `name` establecido en "nombre" y `id` igual a "nombre". Sin embargo, hay un error en la segunda línea: aunque también solicita los apellidos al usuario, falta el atributo `id`, lo que puede causar problemas cuando se intenta acceder a este campo desde JavaScript o CSS. Además, debería haber una etiqueta `<label>` correspondiente con `for="apellidos"` para vincular correctamente la etiqueta de texto con su campo de entrada.
+
+Este tipo de formulario es importante porque permite recoger datos del usuario en un formato estructurado que luego puede ser procesado por el servidor web para realizar diversas acciones, como guardar información en una base de datos o enviar correcciones o sugerencias al desarrollador.
+
+`001-formulario.html`
 
 ```html
 <!doctype html>
@@ -12393,6 +17828,19 @@ En conclusión, los lenguajes de consulta y manipulación en documentos son herr
 ```
 
 ### un poco de estilo
+<small>Creado: 2025-12-04 14:17</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web sencilla que contiene un formulario básico para recoger datos del usuario. La página incluye estilos CSS directamente en la etiqueta `<style>` dentro de la sección `<head>`, lo que ayuda a centrar el contenido y darle un aspecto más limpio y moderno.
+
+En el cuerpo (`<body>`) del documento, hay una única etiqueta `<form>` que contiene varios elementos HTML. El formulario incluye un campo para introducir el nombre y otro para los apellidos del usuario. Cada campo de entrada (input) está asociado con un texto explicativo (label), lo que mejora la usabilidad del formulario al informar al usuario sobre qué información se necesita.
+
+Los estilos CSS aplicados hacen que el formulario sea fácil de leer y navegar, utilizando colores claros y una disposición en columna para organizar los campos. Además, cada campo tiene un margen entre ellos gracias a las reglas CSS definidas, lo que ayuda a mejorar la experiencia del usuario al completar el formulario.
+
+Este tipo de diseño es importante porque mejora la interacción con la página web, haciendo más fácil y agradable para el usuario proporcionar los datos solicitados.
+
+`002-un poco de estilo.html`
 
 ```html
 <!doctype html>
@@ -12430,6 +17878,19 @@ En conclusión, los lenguajes de consulta y manipulación en documentos son herr
 ```
 
 ### vamos a crear muchos elementos
+<small>Creado: 2025-12-04 14:18</small>
+
+#### Explicación
+
+Este fragmento de código es un archivo HTML con una sección incorporada en PHP que genera múltiples controles de formulario. La página web contiene un formulario simple para recoger datos del usuario, y utiliza PHP para crear hasta veinte veces el mismo control de entrada (etiqueta y campo de texto) dentro del formulario.
+
+El código comienza definiendo la estructura básica de una página HTML con metadatos como caracteres UTF-8 y estilo CSS integrado en el `<head>`. El bloque de estilos CSS es bastante extenso, proporcionando un diseño moderno centrado y responsivo al usuario. En el cuerpo del documento, se encuentra un formulario contenedor que usa un elemento `fieldset` para agrupar los elementos relacionados.
+
+Lo interesante aquí es la inclusión de PHP dentro del HTML (con las etiquetas `<?php ?>`). Esta sección de PHP ejecuta un bucle que genera veinte divs con una clase específica (`control_formulario`). Cada uno de estos divs contiene una etiqueta `<label>` y un campo de entrada `<input type="text">` para introducir el nombre del usuario. Aunque todos los campos tienen la misma etiqueta "Introduce tu nombre" y el mismo identificador "nombre", en realidad, esto puede causar problemas en algunos navegadores o aplicaciones web que esperan nombres únicos para cada campo de formulario.
+
+Esta técnica es útil cuando necesitas generar múltiples elementos similares automáticamente, pero debes tener cuidado con las implicaciones de usar ids no únicos y considerar la utilización de clases o índices numéricos en los nombres para evitar conflictos.
+
+`003-vamos a crear muchos elementos.php`
 
 ```
 <!doctype html>
@@ -12465,6 +17926,21 @@ En conclusión, los lenguajes de consulta y manipulación en documentos son herr
 ```
 
 ### panel de administracion
+<small>Creado: 2025-12-04 14:27</small>
+
+#### Explicación
+
+Este código es un ejemplo básico de una página web que utiliza HTML y PHP para mostrar una estructura básica con navegación en la parte izquierda y una tabla central que se repite varias veces. La página tiene varios elementos importantes:
+
+1. **Estructura HTML**: El documento comienza con `<!doctype html>`, seguido por el `<html>` con un atributo `lang="es"` para indicar que es una página en español. La etiqueta `<head>` contiene la definición del título de la página y los metadatos, así como estilos CSS incorporados directamente en la sección `<style>`.
+
+2. **Estilo CSS**: Los estilos CSS dentro de la etiqueta `<style>` definen cómo se verá la página. Establece que tanto el cuerpo (`body`) como la ventana HTML deben ocupar todo el espacio disponible (100% del ancho y alto). También define un menú lateral (`nav`) con tres botones y una sección principal (`main`) donde se muestra una tabla.
+
+3. **Contenido en PHP**: Dentro de la etiqueta `<table>` en la parte principal de la página, hay código PHP que utiliza un bucle `for` para generar 30 filas repetitivas en la tabla. Cada fila contiene cinco celdas (`<td>`) con títulos como "Nombre", "Apellidos", etc.
+
+Este ejemplo demuestra cómo combinar HTML y PHP para crear una página web interactiva y visualmente atractiva, donde el contenido dinámico (en este caso, la tabla repetida) se genera mediante un bucle en PHP. Es importante entender cómo integrar estos lenguajes para desarrollar páginas más complejas que pueden mostrar información de bases de datos o realizar acciones específicas basadas en los datos ingresados por los usuarios.
+
+`004-panel de administracion.php`
 
 ```
 <!doctype html>
@@ -12503,6 +17979,19 @@ En conclusión, los lenguajes de consulta y manipulación en documentos son herr
 ```
 
 ### acordar un modelo de datos
+<small>Creado: 2025-12-04 14:31</small>
+
+#### Explicación
+
+Este fragmento de código SQL está diseñado para crear una base de datos y una tabla que almacene información sobre las inscripciones en un centro de formación. En primer lugar, se crea la base de datos llamada `training_center` si aún no existe, estableciendo el conjunto de caracteres utf8mb4 y la clasificación utf8mb4_unicode_ci para garantizar la correcta representación de caracteres especiales.
+
+Después de crear la base de datos, el código procede a definir una tabla llamada `inscripciones`. Esta tabla contiene diversos tipos de campos (campos de columna) que almacenan información como el nombre del estudiante, apellidos, correo electrónico, teléfono, curso en el que se inscribe, fecha y hora de la inscripción, edad, precio, estado de pago, modalidad del curso, notas adicionales y un campo binario para documentos. El campo `id` es una clave primaria autoincremental, lo cual significa que cada nueva entrada en la tabla recibirá automáticamente un número único.
+
+Finalmente, se insertan tres registros de prueba (o muestras) en la tabla `inscripciones`. Estos registros proporcionan ejemplos de cómo podría ser la información almacenada por los estudiantes inscritos en diferentes cursos ofrecidos por el centro. Los campos binarios como `documento` no contienen datos específicos y se definen simplemente como NULL en estas inserciones.
+
+Este código es importante porque establece una estructura de base de datos sólida y permite a los administradores del sistema gestionar eficazmente las inscripciones y la información de los estudiantes.
+
+`005-acordar un modelo de datos.sql`
 
 ```sql
 -- 1. CREATE DATABASE
@@ -12562,6 +18051,23 @@ INSERT INTO inscripciones (
 ```
 
 ### crear_usuario
+<small>Creado: 2025-12-04 14:33</small>
+
+#### Explicación
+
+Este fragmento de código SQL se utiliza para crear un nuevo usuario en una base de datos y otorgarle ciertos privilegios. En primer lugar, el comando `CREATE USER` crea un nuevo usuario llamado 'training_center' que puede conectarse desde 'localhost', es decir, la misma máquina donde está alojada la base de datos. A este usuario se le asigna una contraseña también llamada 'training_center'.
+
+Luego, con el comando `GRANT USAGE`, se establece que el usuario tiene acceso a todos los objetos en todas las bases de datos (`*.*`), pero por ahora no tiene permisos específicos sobre ellos.
+
+El siguiente bloque de código utiliza el comando `ALTER USER` para modificar algunas configuraciones del usuario 'training_center'. Se le indica que no requiere autenticación adicional (REQUIRE NONE) y se establecen límites en la cantidad de consultas, conexiones, actualizaciones y conexiones por usuario permitidas en una hora. En este caso, los valores están puestos a 0 para quitar cualquier restricción.
+
+Por último, con el comando `GRANT ALL PRIVILEGES`, se otorgan todos los permisos posibles al usuario 'training_center' sobre la base de datos específica llamada 'training_center'. Esto significa que el usuario ahora tiene completa autoridad para realizar todas las operaciones en esa base de datos.
+
+Finalmente, el comando `FLUSH PRIVILEGES` actualiza la base de datos del sistema para reflejar los cambios en los privilegios. Es importante ejecutar este comando después de modificar o otorgar nuevos permisos a un usuario para que los cambios surtan efecto inmediatamente.
+
+Este proceso es fundamental cuando se trabaja con bases de datos, ya que permite gestionar quién puede acceder y qué acciones pueden realizar en la base de datos, asegurando así la seguridad y control del acceso.
+
+`006-crear_usuario.sql`
 
 ```sql
 CREATE USER 
@@ -12584,6 +18090,17 @@ FLUSH PRIVILEGES;
 ```
 
 ### saco el modelo de datos de la base de datos
+<small>Creado: 2025-12-04 14:38</small>
+
+#### Explicación
+
+Este fragmento de código es una página HTML que contiene un formulario para recoger datos del usuario. La parte interesante está en la mezcla de lenguajes, donde se combina HTML con PHP para generar dinámicamente los campos del formulario basándose en la estructura de una tabla llamada `inscripciones` desde una base de datos MySQL.
+
+En el código PHP, primero se establece una conexión a la base de datos utilizando la clase `mysqli`, proporcionando los detalles necesarios como host, usuario, contraseña y nombre de la base de datos. Luego, se ejecuta un comando SQL que muestra las columnas de la tabla `inscripciones`. Este resultado es recorrido en un bucle `while`, donde para cada columna (`Field`), el código PHP genera una línea HTML que incluye un etiqueta `<label>` y un campo de entrada `<input>`. Esto significa que los campos del formulario se crean automáticamente dependiendo del diseño actual de la tabla `inscripciones`.
+
+Esta técnica es útil porque permite crear formularios sin necesidad de escribir directamente el código HTML para cada uno, lo que facilita las modificaciones futuras en la estructura de datos y reduce la posibilidad de errores por duplicación o desactualización manual del formulario.
+
+`007-saco el modelo de datos de la base de datos.php`
 
 ```
 <!doctype html>
@@ -12625,6 +18142,21 @@ FLUSH PRIVILEGES;
 ```
 
 ### quitar el id
+<small>Creado: 2025-12-04 14:44</small>
+
+#### Explicación
+
+Este fragmento de código es una página HTML que contiene un formulario para recoger datos, pero también tiene en su interior un bloque de código PHP. La función principal del código PHP es conectarse a una base de datos y generar dinámicamente los campos del formulario basándose en la estructura de la tabla llamada `inscripciones`.
+
+En detalle, el programa PHP hace lo siguiente:
+1. Establece una conexión con una base de datos MySQL utilizando las credenciales proporcionadas (en este caso, todas son "training_center").
+2. Ejecuta una consulta SQL que muestra los campos y sus propiedades en la tabla `inscripciones`.
+3. Para cada campo obtenido, verifica si el campo no es clave primaria (`Key` != "PRI") o si tiene un valor por defecto generado (`Extra` == "DEFAULT_GENERATED").
+4. Si las condiciones se cumplen, genera HTML para crear una etiqueta `<label>` y un control de entrada como texto (`<input type="text">`) o fecha (`<input type="date">`) en función del tipo de campo en la base de datos.
+
+Este código es importante porque permite generar formularios automáticamente basados en la estructura de la tabla, lo que facilita el mantenimiento y adaptación al cambio sin tener que escribir HTML manualmente para cada campo nuevo o modificado.
+
+`008-quitar el id.php`
 
 ```
 <!doctype html>
@@ -12669,6 +18201,17 @@ FLUSH PRIVILEGES;
 ```
 
 ### personalizar campos
+<small>Creado: 2025-12-04 14:47</small>
+
+#### Explicación
+
+Este código es un formulario HTML que genera dinámicamente sus campos basándose en la estructura de una tabla llamada `inscripciones` en una base de datos MySQL. El archivo PHP incorporado dentro del formulario hace una conexión a la base de datos y obtiene información sobre los campos de la tabla `inscripciones`. Para cada campo, el código verifica si es de tipo texto (`varchar`), fecha (`date`), número entero (`int`), decimal o un valor booleano (`tinyint`). Dependiendo del tipo de dato, genera elementos HTML correspondientes como cajas de texto para campos de tipo `varchar`, entradas de tipo fecha para campos de tipo `date`, y así sucesivamente. Esto permite que el formulario sea adaptable a los tipos de datos almacenados en la base de datos, facilitando la recopilación y envío de información al sistema sin tener que codificar manualmente cada campo.
+
+El uso de PHP aquí es crucial porque permite que el código del lado del servidor interactúe con la base de datos para obtener dinámicamente los campos necesarios para construir el formulario. Esto mejora la flexibilidad del sistema ya que cualquier cambio en la estructura de la tabla `inscripciones` se reflejaría automáticamente en el formulario sin necesidad de realizar cambios manuales en el código HTML.
+
+Este tipo de enfoque es muy útil cuando se necesita crear formularios dinámicos basados en datos estructurados, como podrían ser registros de inscripción para un centro de entrenamiento o cualquier otro sistema administrativo.
+
+`009-personalizar campos.php`
 
 ```
 <!doctype html>
@@ -12719,6 +18262,17 @@ FLUSH PRIVILEGES;
 ```
 
 ### mas tipos de campo
+<small>Creado: 2025-12-04 14:55</small>
+
+#### Explicación
+
+Este fragmento de código es un archivo HTML que contiene una forma dinámica para recoger datos. La parte importante del código se encuentra dentro del bloque PHP, que interactúa con una base de datos llamada "training_center" para obtener información sobre los campos en la tabla "inscripciones". 
+
+El código PHP conecta a la base de datos y ejecuta una consulta que muestra todos los detalles de los campos existentes en la tabla. Luego, por cada campo obtenido, genera un elemento HTML del formulario (como inputs o selects) basándose en el tipo de dato del campo: si es texto (`varchar`), fecha (`date`), número entero (`int`) o decimal (`decimal`). Si el campo es una enumeración (`enum`), se crea un menú desplegable con las opciones proporcionadas. Los campos que son claves primarias (es decir, tienen "PRI" como clave) y los campos cuyo valor por defecto está generado automáticamente no se incluyen en este formulario.
+
+Esta técnica de generación dinámica de formularios es útil porque permite crear un formulario basado directamente en la estructura de la base de datos, asegurando que siempre esté actualizado sin tener que modificar manualmente el HTML cada vez que cambia la tabla. Esto es especialmente valioso cuando se trabaja con sistemas complejos o bases de datos que están constantemente evolucionando.
+
+`010-mas tipos de campo.php`
 
 ```
 <!doctype html>
@@ -12778,6 +18332,36 @@ FLUSH PRIVILEGES;
 ```
 
 ### textarea
+<small>Creado: 2025-12-04 14:57</small>
+
+#### Explicación
+
+Este fragmento de código es un archivo HTML que incorpora elementos PHP para generar dinámicamente un formulario basado en la estructura de una tabla llamada `inscripciones` en una base de datos MySQL. El objetivo principal es mostrar al usuario campos de entrada correspondientes a los diferentes tipos de datos que la tabla contiene, como texto, fechas, números y listas desplegables.
+
+El código PHP se conecta a la base de datos usando la función `mysqli`, consulta las columnas de la tabla `inscripciones` con el comando `SHOW COLUMNS`, y luego itera sobre cada columna. Para cada columna, verifica su tipo de dato (varchar, date, int, decimal, tinyint, enum o text) y genera una entrada correspondiente en el formulario HTML: un campo de texto para cadenas, un control de fecha para fechas, un campo numérico para enteros y decimales, una casilla de verificación para booleanos (tinyint), una lista desplegable para enums y un área de texto para campos text.
+
+Esta técnica es útil porque permite crear formularios automáticamente basados en el modelo de datos real existente en la base de datos, lo que facilita tanto la creación del formulario como su mantenimiento a medida que se actualiza el esquema de la base de datos. Además, ayuda a evitar errores tipográficos y desafíos de sincronización entre los campos del formulario y las columnas de la tabla.
+
+El estilo CSS incluido en la cabecera del documento HTML se encarga de dar un diseño整洁化后的内容：
+
+这段代码是一个结合了PHP动态生成表单的HTML文件，主要目的是根据数据库中名为`inscripciones`的表格结构创建一个数据输入界面。具体来说，它通过查询该表格中的列来生成相应的输入字段。
+
+1. **连接与查询**：
+   - PHP部分首先使用`mysqli`建立到MySQL数据库的连接，并执行`SHOW COLUMNS FROM inscripciones;`命令以获取`inscripciones`表的所有列信息。
+   
+2. **动态生成表单元素**：
+   - 通过循环遍历每一列，检查其数据类型（如varchar、date、int、decimal等），并根据不同的数据类型输出对应的HTML输入控件。例如：
+     - 文本字段（text）被转换为`<input type="text">`
+     - 日期字段（date）被转换为`<input type="date">`
+     - 枚举类型（enum）则生成一个下拉选择框。
+   - 特别处理了文本区域（text），生成的是一个多行输入的`textarea`元素。
+
+3. **样式与布局**：
+   - 文件头部包含了内联CSS，用于美化表单和适应页面布局。设置了一些基础样式，如背景颜色、字体以及使用Flexbox来居中显示表格，并保持一定的间距和宽度。
+
+这种动态生成的方式极大简化了开发流程，特别是在需要频繁更新数据库结构或有大量字段时，可以自动调整前端界面与后端数据模型的一致性，减少了手工维护的错误风险。
+
+`011-textarea.php`
 
 ```
 <!doctype html>
@@ -12841,6 +18425,17 @@ FLUSH PRIVILEGES;
 ```
 
 ### campos de tipo documento
+<small>Creado: 2025-12-04 15:00</small>
+
+#### Explicación
+
+Este fragmento de código es un formulario HTML que utiliza PHP para generar campos dinámicamente basándose en los tipos de datos definidos en una tabla de una base de datos MySQL llamada `inscripciones`. El objetivo principal del código es mostrar al usuario un formulario con diferentes tipos de entrada (como texto, fecha, número y archivo) según el tipo de dato que corresponde a cada columna en la base de datos.
+
+El código comienza creando una conexión a la base de datos usando MySQLi. Luego, ejecuta una consulta para obtener los detalles de las columnas en la tabla `inscripciones`. Por cada columna (excepto aquellas que son claves primarias o tienen valores por defecto específicos), el código PHP genera un elemento HTML correspondiente: un campo de texto (`<input type="text">`), un selector de fecha (`<input type="date">`), un campo numérico (`<input type="number">`), un área de texto (`<textarea>`), o incluso campos tipo archivo (`<input type="file">`) y opciones desplegables (`<select>`) para tipos específicos como enums.
+
+Esta técnica es muy útil porque permite generar formularios complejos basados en la estructura real de los datos almacenados en una base de datos, asegurando que el formulario siempre refleje correctamente cómo se almacena y recupera información. Esto mejora la consistencia del diseño web con las necesidades de almacenamiento de datos y facilita la actualización automática del formulario si cambia la estructura de la base de datos.
+
+`012-campos de tipo documento.php`
 
 ```
 <!doctype html>
@@ -12906,6 +18501,19 @@ FLUSH PRIVILEGES;
 ```
 
 ### estilo
+<small>Creado: 2025-12-04 15:05</small>
+
+#### Explicación
+
+Este código HTML con un bloque interno de PHP crea un formulario web que se adapta a la estructura y los tipos de datos de una tabla llamada `inscripciones` en una base de datos MySQL. La página está diseñada para ser visualmente atractiva gracias al uso de CSS personalizado que define colores, espaciado y estilo para todos los elementos del formulario.
+
+El bloque PHP conecta con la base de datos y recupera información sobre las columnas de la tabla `inscripciones`. Para cada columna que no es una clave primaria ni tiene un valor por defecto automático (como `CURRENT_TIMESTAMP`), el código genera dinámicamente un campo de entrada en el formulario. Los tipos de campos generados incluyen texto, fecha, número, decimal, booleano (representado como un interruptor animado), enum (que se convierte en una lista desplegable) y áreas de texto o subidas de archivos.
+
+El CSS proporciona estilos personalizados para todos los elementos del formulario: desde el cuerpo general hasta detalles específicos como las cajas de entrada, campos de selección y botones. Los colores, bordes redondeados, sombras y efectos al hacer clic en cada control están cuidadosamente diseñados para mejorar la experiencia del usuario.
+
+En resumen, este código combina HTML, CSS y PHP para crear un formulario adaptativo que no solo es funcional sino también estéticamente agradable, permitiendo a los usuarios ingresar datos de manera cómoda y visualmente coherente con el diseño general de la página.
+
+`013-estilo.php`
 
 ```
 <!doctype html>
@@ -13117,6 +18725,19 @@ FLUSH PRIVILEGES;
 ```
 
 ### comentarios
+<small>Creado: 2025-12-04 15:08</small>
+
+#### Explicación
+
+Este fragmento de código SQL modifica una tabla llamada `inscripciones` para ajustar el tipo y características de varios campos existentes. Cada una de estas modificaciones añade comentarios descriptivos que explican la función de cada columna en la base de datos.
+
+El código comienza por modificar el campo `id`, estableciéndolo como clave primaria autoincremental, lo cual garantiza que cada inscripción tenga un identificador único y automáticamente generado. Luego, se modifican campos como `nombre`, `apellidos`, `email` y otros para ajustar sus tipos de datos, restricciones (como la unicidad del correo electrónico) y agregar comentarios descriptivos sobre su propósito.
+
+Además, el código añade o modifica campos adicionales como `fecha_inscripcion`, `edad`, `precio`, `pagado`, entre otros, especificando en cada caso cómo se deben almacenar los datos (por ejemplo, si un campo es de tipo texto corto, largo, booleano, etc.) y qué información representan. Finalmente, el código añade una descripción general a la tabla `inscripciones` que resume su propósito: registrar todas las inscripciones con datos personales del alumno, detalles sobre el curso seleccionado y estado de pago.
+
+Estos comentarios y modificaciones son importantes porque facilitan la comprensión y mantenimiento del esquema de la base de datos para otros desarrolladores o usuarios involucrados en el sistema.
+
+`014-comentarios.sql`
 
 ```sql
 ALTER TABLE inscripciones
@@ -13180,6 +18801,24 @@ ALTER TABLE inscripciones
 ```
 
 ### usar comentarios
+<small>Creado: 2025-12-04 15:11</small>
+
+#### Explicación
+
+Este código es un archivo HTML que contiene un formulario para recoger datos de inscripción en un centro de formación. El objetivo principal del código es proporcionar a los usuarios una interfaz amigable donde puedan introducir sus datos personales y detalles sobre el curso al que se van a inscribir. La estructura del formulario está diseñada con CSS personalizado para darle estilo y mejorar su apariencia.
+
+El archivo PHP interno (entre las etiquetas `<?php ?>`) realiza dos acciones principales:
+1. Consulta la base de datos MySQL para obtener los comentarios asociados a la tabla `inscripciones` en el esquema `training_center`. Si hay un comentario, este se muestra al inicio del formulario.
+2. Para cada columna en la tabla `inscripciones`, excepto las columnas con claves primarias o marcadas como "CURRENT_TIMESTAMP", el código genera una etiqueta de entrada (input) adecuada basada en el tipo de dato de la columna. Esto incluye campos de texto, fechas, números, selecciones enumerativas y áreas de texto.
+
+El formulario utiliza un enlace a un archivo PHP (método POST) para enviar los datos al servidor cuando se hace clic en el botón "Enviar". Además, permite subir archivos mediante una opción de entrada del tipo `file`.
+
+Este código es importante porque proporciona una interfaz gráfica que facilita la recopilación y envío de datos a través de un formulario web, mejorando así la experiencia del usuario al inscribirse en un curso.
+
+**ÚLTIMO PÁRRAFO:**
+En comparación con el archivo `014-comentarios.sql`, este código se centra en generar una interfaz visual para recoger los mismos datos que describía anteriormente. A diferencia de las consultas SQL que modifican la estructura y agregan comentarios a las columnas de la base de datos, este archivo PHP utiliza esos comentarios para mejorar el entendimiento del formulario por parte del usuario al proporcionar descripciones adicionales junto a cada campo de entrada.
+
+`014-usar comentarios.php`
 
 ```
 <!doctype html>
@@ -13391,6 +19030,21 @@ ALTER TABLE inscripciones
 ```
 
 ### diagrama
+<small>Creado: 2025-12-04 14:06</small>
+
+#### Explicación
+
+Este código HTML es una página simple que representa un diagrama básico en formato de lienzo (como podría ser parte de un modelo ER o entidad-relación). La estructura principal del documento incluye elementos CSS y divs con clases específicas para diferentes componentes visuales del diagrama.
+
+En la sección `<head>` hay definidos estilos CSS que crean una página con un fondo claro y un área central donde se representará el diagrama. Dentro de esta área, varias formas geométricas (rectángulos) simbolizan diferentes partes de un sistema web típico: HTML, CSS, PHP y MySQL.
+
+En la sección `<body>`, hay varios divs con clase `shape rectangle` que representan los rectángulos del diagrama. Cada uno tiene estilos inline (`left`, `top`, `width`, `height`) para especificar su posición y tamaño en el lienzo. Estos elementos describen componentes como Formulario HTML, CSS, PHP y MySQL.
+
+Además de estos rectángulos, hay dos flechas representadas por divs con clase `arrow` que conectan visualmente algunos de los rectángulos entre sí, indicando las relaciones o flujos de información entre ellos. Las clases CSS definidas permiten dibujar estas flechas y configurar sus apariencias.
+
+Este tipo de diagrama es útil para estudiantes porque ayuda a visualizar cómo diferentes tecnologías web (como HTML, CSS y PHP) interactúan con la base de datos (MySQL), proporcionando una representación conceptual clara del flujo de trabajo en aplicaciones web simples.
+
+`diagrama.html`
 
 ```html
 <!DOCTYPE html>
@@ -13615,6 +19269,19 @@ body {
 ```
 
 ### diagrama
+<small>Creado: 2025-12-04 14:06</small>
+
+#### Explicación
+
+Este fragmento de código es un archivo JSON que describe elementos gráficos y sus relaciones en una representación visual, probablemente para un diagrama de flujo o un esquema conceptual. El JSON contiene dos principales secciones: `formas` y `flechas`.
+
+**Formas:** Esta parte del documento enumera diferentes formas geométricas (rectángulos en este caso) que representan distintos componentes tecnológicos como HTML, CSS, PHP y MySQL. Cada forma tiene un identificador único (`id`), tipo de figura (`tipo`), posición horizontal y vertical (`left`, `top`), y texto descriptivo que indica qué componente representa (por ejemplo, "Formulario HTML", "CSS", etc.).
+
+**Flechas:** Este segmento define las conexiones o relaciones entre estas formas. Cada flecha tiene un punto de inicio ("desde") y uno final ("hasta"), indicando cómo interactúan los componentes representados por las formas. Por ejemplo, una flecha conecta "PHP" con "MySQL", sugiriendo que el código PHP realiza operaciones en la base de datos MySQL.
+
+Este tipo de archivo JSON es útil para almacenar y manipular gráficos en aplicaciones web o programas de diseño, permitiendo a los desarrolladores visualizar interacciones complejas entre diferentes tecnologías. Es importante destacar cómo estos elementos se conectan y cómo fluyen las operaciones desde una capa de presentación hasta un sistema de base de datos, lo que es fundamental para entender el funcionamiento de aplicaciones web más grandes y complejas.
+
+`diagrama.json`
 
 ```json
 {
@@ -13717,6 +19384,19 @@ body {
 ```
 
 ### diagrama
+<small>Creado: 2025-12-04 14:06</small>
+
+#### Explicación
+
+Este fragmento de código es un archivo SVG (Scalable Vector Graphics) que representa visualmente la estructura y el flujo de datos en una aplicación web simple. El SVG está diseñado para mostrar cómo los diferentes componentes de una página web interactúan entre sí, incluyendo HTML, CSS, PHP y MySQL.
+
+En este diagrama, se utilizan rectángulos y líneas con flechas (denotadas por las clases `shape-rect` y `conn`, respectivamente) para representar cómo los datos fluyen a través de diferentes partes del sistema. Cada rectángulo contiene una etiqueta `<text>` que indica el tipo de componente, como "Formulario HTML", "CSS", "PHP" o "MySQL". Las líneas con flechas muestran la dirección en la cual se mueven los datos.
+
+Por ejemplo, existe una línea desde un cuadro etiquetado "HTML" hasta uno etiquetado "PHP", indicando que los datos recogidos por el formulario HTML son procesados por PHP antes de ser almacenados en MySQL. Las flechas con puntas (definidas en `<marker>`) añaden claridad sobre la dirección del flujo de información.
+
+Este tipo de diagrama es útil para estudiantes y desarrolladores porque proporciona una visión general rápida y fácilmente comprensible de cómo funcionan las diferentes partes de un sistema web interactuando entre sí.
+
+`diagrama.svg`
 
 ```
 <svg xmlns="http://www.w3.org/2000/svg" width="397.66253303079037" height="302.9499996409696" viewBox="0 0 397.66253303079037 302.9499996409696">
@@ -13760,81 +19440,93 @@ body {
 </svg>
 ```
 
+### Actividades propuestas
+
+Para sincronizar los datos entre el archivo HTML, SVG y JSON proporcionados, primero debemos identificar las desviaciones en la ubicación y tamaño de las formas (rectángulos) en cada formato. Luego ajustaremos estos valores para que todos sean consistentes.
+
+### Paso 1: Identificar Desvíos
+
+- **HTML**: Los rectángulos tienen dimensiones específicas y posiciones.
+- **SVG**: Los rectángulos también tienen dimensiones específicas y posiciones, pero algunas de estas son ligeramente diferentes del HTML.
+- **JSON**: Proporciona las ubicaciones y tamaños de los rectángulos.
+
+### Paso 2: Ajustar Datos
+
+A continuación se proporcionan las correcciones necesarias para hacer que todos los formatos coincidan. Los cambios incluyen ajustes en la posición y tamaño de algunos elementos para que sean consistentes con el formato JSON.
+
+#### **Rectángulos**
+
+1. **Forma-HTML (SVG)**
+    - `x="40" y="79.425"`: Ajustar a `x="40.025"` en HTML.
+    - `width="120" height="46"`: Ajustar a `width="120" height="45.6"`.
+
+2. **Forma-HTML (SVG)**
+    - `x="40" y="40"`: No hay cambios necesarios.
+    - `width="120" height="40"`: Ajustar a `width="119.99999999999996" height="39.99998653636258"` en JSON.
+
+3. **Forma-HTML (SVG)**
+    - `x="40.012" y="125.299"`: No hay cambios necesarios.
+    - `width="120" height="40"`: Ajustar a `width="119.99999999999996" height="39.999999999999986"` en JSON.
+
+4. **Forma-HTML (SVG)**
+    - `x="147.6625" y="222.94999"`: No hay cambios necesarios.
+    - `width="120" height="40"`: Ajustar a `width="119.99999999999996" height="39.999999999999986"` en JSON.
+
+5. **Forma-HTML (SVG)**
+    - `x="237.075" y="122.94999"`: No hay cambios necesarios.
+    - `width="120" height="40"`: Ajustar a `width="119.99999999999996" height="39.999999999999986"` en JSON.
+
+6. **Forma-HTML (SVG)**
+    - `x="237.6625" y="81.775"`: No hay cambios necesarios.
+    - `width="120" height="40"`: Ajustar a `width="119.99999999999996" height="39.999999999999986"` en JSON.
+
+7. **Forma-HTML (SVG)**
+    - `x="237.075" y="41.775"`: No hay cambios necesarios.
+    - `width="120" height="40"`: Ajustar a `width="119.99999999999996" height="39.999999999999986"` en JSON.
+
+#### **Flechas**
+
+Las flechas ya coinciden entre HTML y SVG, así que no hay necesidad de ajustarlas.
+
+### Paso 3: Ajuste Final
+
+Después de hacer estos cambios, todos los formatos deberían ser consistentes. Para simplificar, aquí están los elementos actualizados:
+
+#### **HTML**
+```html
+<div style="position:absolute;left:40px;top:79.425px;width:120px;height:45.6px;">Formulario HTML</div>
+<!-- Repetir para otros rectángulos con las posiciones y tamaños ajustadas -->
+```
+
+#### **SVG**
+```svg
+<rect class="shape-rect" x="40.025" y="79.425" width="119.99999999999996" height="45.6" rx="4" ry="4" />
+<!-- Repetir para otros rectángulos con las posiciones y tamaños ajustadas -->
+```
+
+#### **JSON**
+El JSON ya tiene los valores correctos, no hay cambios necesarios aquí.
+
+### Conclusion
+
+Con estos ajustes, deberías tener una consistencia en el posicionamiento y dimensionado de los elementos entre HTML, SVG y JSON. Esto asegura que la representación visual y los datos estructurados sean coherentes.
+
+
 <a id="consulta-y-manipulacion-de-informacion"></a>
 ## Consulta y manipulación de información
 
-En el vasto mundo de la informática, el almacenamiento de información es un concepto fundamental que abarca desde el simple guardado de datos hasta la manipulación compleja de grandes volúmenes de datos. En esta subunidad didáctica, nos adentramos en los aspectos más importantes del almacenamiento y consulta de información, explorando cómo se gestionan los datos para su posterior recuperación y análisis.
-
-El primer paso hacia el almacenamiento de información es entender cómo se organizan y estructuran los datos. Los sistemas utilizan una variedad de métodos para organizar la información, desde bases de datos relacionales hasta bases de datos no relacionales. Cada tipo de base de datos tiene sus propias ventajas y desventajas, dependiendo del tipo de datos que se manejen y las necesidades específicas del sistema.
-
-La consulta de información es otro aspecto crucial en el almacenamiento de datos. Los sistemas permiten a los usuarios buscar y recuperar información de manera eficiente, utilizando lenguajes específicos como SQL para bases de datos relacionales o consultas orientadas a documentos para bases no relacionales. Estos lenguajes proporcionan una forma poderosa de filtrar y organizar la información según las necesidades del usuario.
-
-Además de la consulta, el almacenamiento también implica la manipulación de los datos. Esto puede implicar la inserción, modificación o eliminación de registros en la base de datos. La manipulación de datos es un proceso delicado que requiere cuidado y precisión para evitar errores y garantizar la integridad de la información.
-
-La importancia del almacenamiento y consulta de información no se limita a los sistemas tradicionales de bases de datos. En el mundo digital actual, la gestión de grandes volúmenes de datos en formatos como JSON o XML es cada vez más común. Estos formatos ofrecen flexibilidad y escalabilidad, permitiendo almacentar y consultar información de manera eficiente.
-
-El almacenamiento y consulta de información también tienen un papel crucial en el desarrollo de interfaces de usuario. Los sistemas modernos utilizan la información almacenada para generar gráficos, informes y visualizaciones que facilitan la comprensión y análisis de los datos. Esta capacidad de presentar la información de manera visual es fundamental para la toma de decisiones basadas en datos.
-
-En conclusión, el almacenamiento y consulta de información son procesos fundamentales en cualquier sistema informático. A través de la organización eficiente de los datos, su recuperación rápida y su manipulación precisa, se pueden crear sistemas que facilitan la toma de decisiones, mejorar la productividad y proporcionar una mejor experiencia al usuario. En esta subunidad didáctica, hemos explorado los aspectos más importantes de estos procesos, ofreciendo una comprensión sólida del almacenamiento y consulta de información en el contexto digital actual.
 
 <a id="importacion-y-exportacion-de-bases-de-datos-relacionales-en-diferentes-formatos"></a>
 ## Importación y exportación de bases de datos relacionales en diferentes formatos
 
-En el vasto mundo de la informática, la importación y exportación de bases de datos relacionales son procesos cruciales que permiten la transferencia de información entre diferentes sistemas o formatos. Esta subunidad didáctica nos guía a través del proceso detallado de cómo realizar estas operaciones, desde el formato de archivo hasta las herramientas disponibles para facilitar el trabajo.
-
-La importación y exportación de bases de datos relacionales es un tema que abarca diversos aspectos técnicos y prácticos. Comenzamos por entender los diferentes formatos en los que se pueden almacenar las bases de datos, como CSV (Comma-Separated Values), XML (eXtensible Markup Language) o JSON (JavaScript Object Notation). Cada uno de estos formatos tiene sus ventajas y desventajas, dependiendo del tipo de información que se maneje y el sistema al que se desea transferir los datos.
-
-El proceso de importación implica la lectura de un archivo en formato específico y su conversión en una estructura de datos que pueda ser utilizada por una base de datos relacional. Este proceso puede implicar la creación de nuevas tablas o la actualización de las existentes, dependiendo del contenido del archivo y las necesidades del sistema receptor.
-
-Por otro lado, la exportación es el proceso inverso, donde los datos almacenados en una base de datos relacional se convierten en un formato de archivo que puede ser fácilmente compartido o migrado a otro sistema. Este proceso es crucial para la seguridad de los datos y la capacidad de replicar información entre diferentes entornos.
-
-Las herramientas disponibles para facilitar estos procesos pueden variar ampliamente, desde interfaces gráficas intuitivas hasta comandos en línea y bibliotecas específicas para lenguajes de programación. Cada una de estas herramientas ofrece características distintas, como la capacidad de manejar grandes volúmenes de datos, la opción de seleccionar campos específicos o incluso la posibilidad de realizar transformaciones durante el proceso.
-
-Es importante destacar que la importación y exportación de bases de datos relacionales no es un proceso trivial. Requiere una comprensión profunda del formato de archivo, las estructuras de la base de datos y las necesidades específicas del sistema receptor. Además, debe considerarse la seguridad de los datos durante todo el proceso, lo que puede implicar la implementación de medidas adicionales como encriptación o autenticación.
-
-En conclusión, la importación y exportación de bases de datos relacionales es un aspecto fundamental de la gestión de información en sistemas informáticos. A través de una comprensión profunda de los formatos disponibles, las herramientas adecuadas y las mejores prácticas de seguridad, podemos realizar estos procesos con eficiencia y precisión, garantizando así la integridad y la transferencia correcta de datos entre diferentes sistemas o formatos.
 
 <a id="herramientas-de-tratamiento-y-almacenamiento-de-informacion-en-sistemas-nativos"></a>
 ## Herramientas de tratamiento y almacenamiento de información en sistemas nativos
 
-En el mundo digital actual, la gestión de información es una tarea fundamental que requiere herramientas eficientes y potentes. La carpeta `Primero/Lenguajes de marcas y sistemas de gestión de información/006-Almacenamiento de información/005-Herramientas de tratamiento y almacenamiento de información en sistemas nativos` aborda un aspecto crucial de esta tarea: cómo los sistemas operativos y bases de datos nativos pueden ser utilizados para almacenar, recuperar y gestionar la información de manera eficiente.
-
-Los sistemas operativos nativos ofrecen una serie de herramientas que facilitan el acceso y manipulación de archivos y directorios. Desde la línea de comandos hasta interfaces gráficas, estas herramientas permiten a los usuarios realizar tareas como la creación, eliminación y copia de archivos, así como la búsqueda y organización de información en discos duros y unidades de almacenamiento externas. La familiaridad con estos comandos es esencial para cualquier profesional que trabaje con sistemas informáticos, ya que proporcionan un control directo sobre los recursos disponibles.
-
-Además de las herramientas del sistema operativo, las bases de datos nativas ofrecen una forma robusta y eficiente de almacenar y recuperar grandes volúmenes de información. Las bases de datos relacionales, por ejemplo, permiten organizar la información en tablas con columnas y filas, lo que facilita su consulta y análisis. La capacidad de crear índices y utilizar consultas SQL permite a los usuarios extraer rápidamente los datos necesarios, incluso cuando se trata de conjuntos de datos muy grandes.
-
-Las bases de datos no relacionales también son una opción valiosa para el almacenamiento de información en sistemas nativos. Estos sistemas están diseñados para manejar tipos de datos complejos y estructuras de datos que pueden no seguir un esquema riguroso. Las bases de datos orientadas a documentos, por ejemplo, almacenan los datos en formato JSON o BSON, lo que les permite representar información jerárquica y anidada de manera natural.
-
-La gestión de la persistencia de objetos también es una herramienta importante para el almacenamiento de información en sistemas nativos. Las bases de datos orientadas a objetos permiten almacenar directamente los objetos de un programa informático, lo que facilita su acceso y manipulación. Esta capacidad es especialmente útil en aplicaciones empresariales donde la persistencia de objetos es una parte fundamental del funcionamiento del sistema.
-
-En conclusión, las herramientas de tratamiento y almacenamiento de información en sistemas nativos son fundamentales para cualquier profesionista que trabaje con sistemas informáticos. Desde los comandos básicos del sistema operativo hasta las bases de datos avanzadas, estas herramientas proporcionan una forma eficiente y segura de almacenar, recuperar y gestionar la información. Con un conocimiento sólido de estas herramientas, los profesionales pueden optimizar el rendimiento de sus sistemas informáticos y mejorar la eficiencia en la gestión de la información.
 
 <a id="almacenamiento-y-manipulacion-de-informacion-en-sistemas-nativos"></a>
 ## Almacenamiento y manipulación de información en sistemas nativos
 
-En la rica e infinita biblioteca de conocimientos que constituye el mundo digital, una sección dedicada a la comprensión y gestión de la información ocupa un lugar privilegiado. Esta sección, titulada "Almacenamiento y manipulación de información en sistemas nativos", es un tesoro de conocimientos prácticos y teóricos que ilustra cómo los sistemas operativos y las aplicaciones modernas almacenan y recuperan datos con eficiencia y precisión.
-
-La primera caja de esta sección nos presenta el concepto fundamental del almacenamiento en sistemas nativos. Aquí, aprendemos que el almacenamiento nativo no es solo la capacidad de guardar información en un dispositivo, sino también cómo esa información se organiza y recupera de manera eficiente. Esta organización se basa en estructuras de datos complejas como los archivos y las carpetas, que permiten una navegación intuitiva y rápida a través del contenido.
-
-Siguiendo esta línea, el segundo párrafo nos introduce al concepto de bases de datos nativas. A diferencia de las bases de datos relacionales o no relacionales, estas son específicas del sistema operativo en cuestión y están diseñadas para funcionar eficientemente con los tipos de datos y estructuras que este soporta. Este conocimiento es crucial para entender cómo se almacenan y recuperan grandes volúmenes de información en entornos empresariales o científicos.
-
-El tercer párrafo nos lleva a explorar la manipulación de información en sistemas nativos. Aquí, aprendemos que no solo se trata del almacenamiento inicial, sino también del acceso, modificación y eliminación de datos. Esta capacidad es fundamental para mantener los sistemas operativos funcionando correctamente y para permitir la interacción continua con el usuario.
-
-El cuarto párrafo nos introduce a las herramientas y bibliotecas nativas que facilitan la manipulación de información. Estos recursos proporcionan una interfaz amigable y segura para interactuar con los sistemas operativos, permitiendo a los usuarios realizar tareas complejas con solo unas pocas líneas de código.
-
-El quinto párrafo nos muestra cómo el almacenamiento y la manipulación de información en sistemas nativos están estrechamente relacionados con la seguridad. Aprenderemos que es crucial proteger la información almacena, tanto en términos de acceso no autorizado como de pérdida o daño accidental.
-
-El sexto párrafo nos introduce a los conceptos avanzados de almacenamiento y manipulación de información en sistemas nativos. Aquí, exploramos cómo se pueden optimizar estos procesos para mejorar el rendimiento del sistema y la eficiencia operativa.
-
-El séptimo párrafo nos lleva a considerar las implicaciones éticas y legales del almacenamiento y manipulación de información en sistemas nativos. Aprenderemos que es importante no solo técnicamente, sino también moralmente, garantizar la privacidad y el derecho a la información de los usuarios.
-
-El octavo párrafo nos muestra cómo el almacenamiento y la manipulación de información en sistemas nativos están integrados en las aplicaciones modernas. Aquí, exploramos cómo estas habilidades son esenciales para desarrollar software eficiente y funcional.
-
-El noveno párrafo nos introduce a los desafíos actuales y futuros del almacenamiento y la manipulación de información en sistemas nativos. Aprenderemos que aunque hemos avanzado significativamente, aún hay mucho por explorar y mejorar en términos de eficiencia, seguridad y accesibilidad.
-
-El decimoprimero párrafo nos lleva a considerar el futuro del almacenamiento y la manipulación de información en sistemas nativos. Aquí, exploramos cómo las tecnologías emergentes como la inteligencia artificial y la nube están transformando estos procesos y cómo podemos aprovechar estas innovaciones para mejorar aún más la gestión de la información.
-
-En conclusión, esta sección dedicada a "Almacenamiento y manipulación de información en sistemas nativos" es un valioso recurso para entender cómo los sistemas operativos modernos almacenan y recuperan datos con eficiencia y precisión. A través de una exploración detallada de estos procesos, podemos aprender a desarrollar software más robusto y seguro, y a aprovechar la potencialidad del mundo digital en su conjunto.
 
 
 <a id="sistemas-de-gestion-empresarial"></a>
@@ -13843,162 +19535,34 @@ En conclusión, esta sección dedicada a "Almacenamiento y manipulación de info
 <a id="aplicaciones-de-gestion-empresarial-tipos-caracteristicas"></a>
 ## Aplicaciones de gestión empresarial. Tipos. Características
 
-En el vasto mundo de la informática, los sistemas de gestión empresarial (ERP-CRM) desempeñan un papel crucial como pilares sobre los cuales se edifica la eficiencia operativa y la toma de decisiones estratégicas. Estos sistemas integran diversos procesos clave dentro de una organización, desde el manejo de inventario hasta la gestión de relaciones con clientes.
-
-La primer unidad didáctica que exploramos en esta sección del curso nos introduce a los fundamentos de las aplicaciones de gestión empresarial (ERP-CRM). Comenzamos por definir qué son estos sistemas y cómo han evolucionado para adaptarse a las necesidades cambiantes de las empresas. Aprenderemos sobre los tipos principales de ERP-CRM disponibles en el mercado, cada uno con sus fortalezas y debilidades específicas.
-
-Continuando nuestro viaje, nos sumergimos en la configuración y instalación de estos sistemas. Descubriremos cómo seleccionar los módulos adecuados para una organización específica, así como los procesos detallados que implican para llevar a cabo una instalación exitosa. Este conocimiento es fundamental para garantizar que el sistema ERP-CRM funcione eficazmente desde su primera ejecución.
-
-La unidad también nos guía en la organización y consulta de la información dentro del ERP-CRM. Aprenderemos cómo definir campos relevantes, realizar consultas de acceso a datos y generar informes personalizados. Estos habilidades son esenciales para que los usuarios puedan extraer la máxima información valiosa de su sistema de gestión empresarial.
-
-Además, exploramos el proceso de implantación de sistemas ERP-CRM en una empresa real. Aprenderemos cómo adaptar las tablas y vistas del sistema a las necesidades específicas de la organización, así como cómo crear formularios y informes personalizados para satisfacer los requisitos particulares de cada negocio.
-
-Finalmente, nos dedicamos al desarrollo de componentes dentro del ERP-CRM. Aprenderemos sobre la arquitectura del sistema, el lenguaje proporcionado y las herramientas disponibles para desarrollar e integrar nuevas funcionalidades. Este conocimiento es crucial para aquellos que desean personalizar su sistema ERP-CRM o crear soluciones adicionales basadas en él.
-
-En resumen, esta unidad didáctica nos ofrece una visión integral de los sistemas de gestión empresarial (ERP-CRM), desde la comprensión básica hasta la implementación y desarrollo avanzado. A través de un enfoque práctico y detallado, nos prepara para enfrentar los desafíos reales que enfrentan las empresas al adoptar estos sistemas poderosos y versátiles.
 
 <a id="instalacion"></a>
 ## Instalación
 
-La instalación de sistemas ERP-CRM es un proceso fundamental que requiere una comprensión profunda de los requisitos específicos de la empresa, así como habilidades técnicas sólidas. En esta carpeta didáctica, se aborda el tema desde su análisis inicial hasta la configuración final del sistema, pasando por las etapas intermedias cruciales.
-
-El primer paso es identificar el tipo de instalación que será necesario para la empresa. Dependiendo de su tamaño y necesidades particulares, puede optar por una instalación local o en la nube. Esta decisión tiene un impacto significativo en los recursos disponibles y en la escalabilidad del sistema a largo plazo.
-
-Una vez determinado el tipo de instalación, se procede al análisis de los módulos que serán necesarios para el ERP-CRM. Cada empresa tiene requisitos específicos, por lo que es crucial seleccionar los módulos que mejor atenderán sus necesidades operativas. Esto puede incluir gestión financiera, recursos humanos, ventas y marketing, entre otros.
-
-La configuración del sistema ERP-CRM es un proceso meticuloso que requiere una comprensión profunda de la estructura interna de la empresa. Se deben definir campos específicos para almacenar información relevante, como clientes, productos, proveedores y empleados. Además, se deben establecer las relaciones entre estos campos para garantizar la integridad de los datos.
-
-Durante el proceso de instalación, es fundamental realizar consultas necesarias para obtener información relevante sobre la empresa. Esto puede incluir consultas de acceso a datos, informes y listados que ayudarán a validar la configuración del sistema y asegurar su correcto funcionamiento.
-
-La creación de formularios personalizados es otro aspecto crucial en la instalación de sistemas ERP-CRM. Estos formularios permiten a los usuarios interactuar con el sistema de una manera más intuitiva y eficiente, adaptándose a las necesidades específicas de la empresa.
-
-La creación de informes personalizados también es un paso importante en la instalación del ERP-CRM. Los informes proporcionan una visión detallada de la operación de la empresa y son esenciales para la toma de decisiones estratégicas. La capacidad de crear informes personalizados permite a los usuarios obtener información relevante y contextualizada.
-
-Los paneles de control (dashboards) son herramientas valiosas en el sistema ERP-CRM, ya que proporcionan una visión general rápida y accesible de las principales métricas de la empresa. La creación de paneles de control personalizados permite a los usuarios visualizar información clave de manera eficiente y facilita la toma de decisiones basada en datos.
-
-La integración con otros sistemas de gestión es otro aspecto importante en la instalación del ERP-CRM. El sistema debe ser capaz de interoperar con otras herramientas utilizadas por la empresa, como sistemas de facturación, inventario o contabilidad. La capacidad de integrarse con estos sistemas asegura una fluidez operativa y minimiza el esfuerzo necesario para mantener los datos actualizados.
-
-En conclusión, la instalación de sistemas ERP-CRM es un proceso complejo pero fundamental para la gestión empresarial moderna. Requiere una comprensión profunda de las necesidades específicas de la empresa, habilidades técnicas sólidas y una atención meticulosa a los detalles. A través del análisis inicial, selección de módulos, configuración del sistema, consultas necesarias, creación de formularios y informes personalizados, paneles de control y integración con otros sistemas, se puede garantizar la correcta instalación y funcionamiento del ERP-CRM, lo que facilitará la gestión operativa y la toma de decisiones estratégicas.
 
 <a id="administracion-y-configuracion"></a>
 ## Administración y configuración
 
-En el mundo digital actual, la administración y configuración de sistemas empresariales son fundamentales para mantener la eficiencia operativa y la competitividad. En esta carpeta del árbol didáctico, nos sumergimos en los aspectos cruciales de este proceso.
-
-La administración de sistemas empresariales implica el control y gestión de todos los recursos disponibles dentro de una organización, desde hardware hasta software. Este proceso es esencial para asegurar que la tecnología esté al servicio del negocio, facilitando la toma de decisiones informadas y optimizando los procesos internos.
-
-La configuración de sistemas empresariales, por otro lado, se refiere a la personalización y ajuste de las aplicaciones y herramientas utilizadas en el entorno corporativo. Este paso es crucial para adaptar la tecnología al contexto específico de la empresa, asegurando que funcione de manera óptima y satisfactoria.
-
-En esta carpeta, encontramos una serie de lecciones detalladas sobre cómo llevar a cabo estos procesos. Comenzamos con el análisis de los sistemas ERP-CRM actuales, explorando tanto los conceptos básicos como las mejores prácticas en uso. Este conocimiento es fundamental para entender la complejidad y la importancia de estas herramientas en la gestión empresarial moderna.
-
-Continuamos con una explicación profunda sobre cómo instalar y configurar sistemas ERP-CRM, pasando por los diferentes tipos de instalación y los módulos disponibles. Esta información es esencial para aquellos que desean implementar estos sistemas en su organización, proporcionándoles las herramientas necesarias para llevar a cabo el proceso con éxito.
-
-La carpeta también aborda la organización y consulta de la información dentro de estos sistemas. Aprender cómo definir campos adecuados, realizar consultas eficientes y generar informes relevantes es crucial para aprovechar al máximo los beneficios que ofrecen los ERP-CRM. Esta habilidad permite a las empresas tomar decisiones basadas en datos precisos y actualizados.
-
-Además, se explora el proceso de implantación de sistemas ERP-CRM en una empresa. Este tema incluye la selección de módulos adecuados, la adaptación de tablas y vistas existentes, y la creación de formularios e informes personalizados. La capacidad para llevar a cabo este proceso con eficiencia es fundamental para el éxito de cualquier implementación empresarial.
-
-Finalmente, la carpeta aborda el desarrollo de componentes dentro de los sistemas ERP-CRM. Aprender cómo insertar, modificar y eliminar datos en los objetos, así como realizar operaciones de consulta avanzadas, es crucial para mantener la integridad y actualidad de la información. Esta habilidad permite a las empresas mantenerse al día con los cambios rápidos del mercado y adaptarse de manera eficiente.
-
-En resumen, esta carpeta del árbol didáctico proporciona una visión completa y detallada de cómo administrar y configurar sistemas empresariales. Desde la comprensión básica hasta las habilidades avanzadas necesarias para llevar a cabo estos procesos con éxito, ofrece un enfoque práctico y sistemático que es valioso tanto para profesionales experimentados como para aquellos que están comenzando su camino en el mundo de la gestión empresarial digital.
 
 <a id="integracion-de-modulos"></a>
 ## Integración de módulos
 
-La integración de módulos es una técnica fundamental en la gestión empresarial moderna, permitiendo a las organizaciones combinar diferentes sistemas y herramientas para crear soluciones más completas y eficientes. Este proceso implica la configuración y sincronización de componentes individuales, cada uno con sus propias funcionalidades específicas, para formar un sistema integral que respalde los procesos comerciales.
-
-El primer paso en la integración de módulos es la selección adecuada de los sistemas a utilizar. Cada organización tiene necesidades distintas y requisitos específicos, por lo que es crucial identificar cuáles módulos son necesarios para cubrir todas las áreas clave del negocio. Esto puede implicar el análisis de procesos existentes, la evaluación de requerimientos funcionales y la búsqueda de soluciones que ofrezcan una buena relación calidad-precio.
-
-Una vez seleccionados los módulos, se procede a su instalación. Esta fase puede variar según el tipo de sistema y las herramientas utilizadas, pero generalmente implica la configuración de parámetros, la creación de tablas y vistas, y la definición de roles y privilegios para los usuarios. Es importante tener en cuenta que cada módulo puede requerir una configuración específica para funcionar correctamente dentro del sistema global.
-
-La integración de módulos no se limita a la instalación inicial; también es crucial considerar el proceso de actualización y mantenimiento. Los sistemas empresariales evolucionan con el tiempo, y por lo tanto, los módulos deben ser actualizados para mantener su relevancia y eficiencia. Además, es necesario realizar pruebas periódicas para asegurar que todos los componentes funcionen correctamente juntos.
-
-La integración de módulos también requiere la creación de interfaces de comunicación entre ellos. Estas interfaces permiten que los sistemas se interconecten y compartan información de manera eficiente. La elección del tipo de interfaz dependerá del sistema utilizado, pero generalmente puede ser a través de APIs (Interfaces de Programación de Aplicaciones), protocolos específicos o incluso bases de datos comunes.
-
-Es importante también considerar la seguridad en el proceso de integración de módulos. Cada sistema tiene sus propias medidas de seguridad, y es crucial asegurarse de que estas se integren adecuadamente para proteger los datos sensibles de la organización. Esto puede implicar la implementación de políticas de acceso controlados, la configuración de firewalls y la realización de pruebas de penetración.
-
-La integración de módulos no es un proceso lineal; a menudo implica iteraciones y ajustes. Es común que los sistemas iniciales presenten problemas o limitaciones que requieran correcciones y mejoras. Por lo tanto, es importante tener un enfoque flexible y adaptativo durante este proceso.
-
-Finalmente, la integración de módulos debe ser documentada adecuadamente. La documentación no solo incluye instrucciones sobre cómo instalar y configurar los sistemas, sino también detalles técnicos sobre las interfaces de comunicación y las políticas de seguridad implementadas. Esta documentación es crucial para el mantenimiento futuro del sistema y para la formación de nuevos usuarios.
-
-En resumen, la integración de módulos es un proceso complejo pero fundamental en la gestión empresarial moderna. Requiere una planificación cuidadosa, una instalación correcta, un mantenimiento activo y una documentación precisa. Al seguir estos pasos, las organizaciones pueden crear sistemas empresariales más eficientes y adaptados a sus necesidades específicas.
 
 <a id="mecanismos-de-acceso-seguro-a-la-informacion-roles-y-privilegios"></a>
 ## Mecanismos de acceso seguro a la información. Roles y privilegios
 
-En el mundo digital actual, la seguridad de la información es una prioridad absoluta. Los sistemas de gestión empresarial (ERP-CRM) son herramientas cruciales que almacenan y procesan datos confidenciales, por lo que garantizar su acceso seguro es fundamental. En esta subunidad didáctica, exploraremos los mecanismos de acceso seguro a la información en estos sistemas, así como el concepto de roles y privilegios.
-
-El primer aspecto crucial es entender cómo se implementan los mecanismos de acceso seguro en un sistema ERP-CRM. Estos sistemas utilizan una combinación de autenticación y autorización para controlar quién puede acceder a qué información y qué acciones pueden realizar. La autenticación verifica la identidad del usuario, mientras que la autorización determina los permisos específicos que ese usuario tiene dentro del sistema.
-
-Los roles son conjuntos predefinidos de privilegios que se asignan a grupos de usuarios según su rol en la organización. Por ejemplo, un administrador general tendrá acceso completo y control sobre todo el sistema, mientras que un vendedor solo podrá acceder a información relacionada con las ventas. Este enfoque basado en roles facilita la gestión de privilegios y minimiza los riesgos asociados con el acceso no autorizado.
-
-La implementación de estos mecanismos requiere una buena planificación y configuración. Es crucial establecer políticas claras sobre quién puede acceder a qué información y cuáles son las acciones permitidas. Además, es importante realizar pruebas de penetración periódicas para identificar vulnerabilidades y asegurarse de que los sistemas están protegidos contra amenazas externas.
-
-La gestión de privilegios también implica el monitoreo constante del acceso a la información. Los sistemas ERP-CRM deben estar equipados con herramientas de auditoría que registren todas las acciones realizadas por los usuarios, lo que facilita el seguimiento y la detección de actividades sospechosas.
-
-Además de los roles y privilegios, es fundamental considerar la seguridad física del sistema. El acceso a los servidores y dispositivos donde se almacenan los datos debe estar controlado mediante protocolos de seguridad adecuados, como el uso de contraseñas fuertes, autenticación multifactor y políticas de acceso limitadas.
-
-La educación continua es otra clave para mantener la seguridad en sistemas ERP-CRM. Los usuarios deben recibir formación regular sobre mejores prácticas de seguridad y cómo identificar amenazas potenciales. Esto incluye el conocimiento de cómo crear contraseñas seguras, cómo manejar correctamente los datos sensibles y cómo reportar cualquier sospecha de actividad inusual.
-
-En conclusión, garantizar el acceso seguro a la información en sistemas ERP-CRM es una tarea compleja que requiere un enfoque integral. Desde la planificación inicial hasta la gestión continua del acceso y la formación de los usuarios, cada paso debe ser cuidadosamente considerado para proteger contra amenazas potenciales y garantizar la confidencialidad y integridad de los datos empresariales.
 
 <a id="elaboracion-de-informes"></a>
 ## Elaboración de informes
 
-La elaboración de informes es una habilidad fundamental en el ámbito empresarial, permitiendo a las organizaciones comunicar eficazmente sus procesos, resultados y decisiones estratégicas. En esta subunidad didáctica, nos adentramos en los aspectos técnicos y prácticos de la creación de informes dentro de sistemas de gestión empresarial.
-
-Comenzamos por entender el concepto de informe incrustado y no incrustado en la aplicación. Los informes incrustados son aquellos que se generan directamente dentro del software, mientras que los no incrustados requieren una herramienta gráfica externa para su creación. Cada uno tiene sus ventajas: los informes incrustados ofrecen un acceso rápido y directo a la información necesaria, mientras que los no incrustados permiten una mayor flexibilidad en el diseño y presentación.
-
-Herramientas gráficas integradas en el IDE y externas al mismo son fundamentales para la creación de informes. Estas herramientas proporcionan un entorno visual intuitivo donde se pueden diseñar, editar y previsualizar los informes. El uso de estas herramientas facilita la creación de estructuras complejas y gráficos atractivos, adaptados a las necesidades específicas del negocio.
-
-La estructura general de un informe incluye varias secciones esenciales: encabezado, cuerpo y pie de página. Cada sección desempeña un papel crucial en la presentación de los datos de manera coherente y profesional. El filtrado de datos es otro aspecto importante, permitiendo a los usuarios seleccionar información específica según criterios definidos, lo que hace que los informes sean más relevantes y útiles.
-
-La numeración de líneas, recuentos y totales es una técnica valiosa para resaltar patrones y tendencias en los datos. Gráficos son otro elemento clave, proporcionando una representación visual de la información que puede ser mucho más efectiva que los números brutos. Librerías para generación de informes ofrecen clases, métodos y atributos específicos para crear gráficos de diversos tipos, desde simples barras hasta complejos diagramas de flujo.
-
-La conexión con las fuentes de datos es esencial para alimentar los informes con información actualizada y precisa. Ejecutar consultas en la base de datos permite obtener los datos necesarios de manera eficiente. La integración de estos procesos en el ciclo de vida del desarrollo de software asegura que los informes sean siempre relevantes y precisos.
-
-La documentación de aplicaciones es un aspecto no menos importante, ya que facilita el mantenimiento y la comprensión del sistema por parte de otros profesionales. Ficheros de ayuda en formatos como PDF o HTML ofrecen una guía detallada sobre cómo utilizar los informes y las funcionalidades asociadas.
-
-La distribución de aplicaciones es otro desafío, pero también una oportunidad para mejorar la accesibilidad y eficiencia del sistema. Herramientas para crear paquetes de instalación facilitan el proceso de distribución, permitiendo a las organizaciones compartir sus sistemas con otros departamentos o clientes sin complicaciones.
-
-La realización de pruebas es un paso crucial en el ciclo de vida del desarrollo de software, asegurando que los informes cumplan con los requisitos y funcionen correctamente. Pruebas manuales y automáticas permiten identificar errores y mejorar la calidad final del sistema.
-
-En conclusión, la elaboración de informes es una tarea compleja pero fundamental en sistemas de gestión empresarial. A través de esta subunidad didáctica, hemos explorado los diversos aspectos técnicos y prácticos que intervienen en el proceso de creación de informes, desde su diseño hasta su distribución y mantenimiento. Cada concepto y técnica abordada es crucial para garantizar la eficacia y utilidad de los informes en el contexto empresarial.
 
 <a id="exportacion-de-informacion"></a>
 ## Exportación de información
 
-La exportación de información es una tarea fundamental en los sistemas de gestión empresarial (ERP-CRM), ya que permite la comunicación eficiente entre diferentes partes del negocio y con terceros. Este proceso implica el traslado de datos desde el sistema ERP-CRM a otros formatos o sistemas, lo cual puede ser necesario para diversas razones como la integración con otras aplicaciones, la generación de informes personalizados o la exportación de datos para análisis externos.
-
-La exportación de información en un ERP-CRM se realiza mediante diversos métodos y herramientas. Algunos de los más comunes incluyen el uso de interfaces gráficas de usuario (GUI) que permiten seleccionar y exportar datos directamente desde el sistema, la creación de informes personalizados utilizando lenguajes de consulta como SQL o el uso de APIs para automatizar el proceso.
-
-El proceso de exportación generalmente comienza con la selección de los datos que se desean exportar. Esto puede implicar la definición de criterios de búsqueda específicos, como fechas, tipos de documentos o estados de procesos. Una vez seleccionados los datos, estos son exportados a un formato específico, como CSV, Excel, PDF o XML, dependiendo de las necesidades del destinatario y el sistema que recibe la información.
-
-Es importante destacar que durante el proceso de exportación, se deben considerar aspectos como la integridad de los datos, la seguridad y la privacidad. Por lo tanto, es necesario implementar medidas para garantizar que los datos exportados no contengan información sensible y que su transmisión sea segura.
-
-Además, en muchos casos, el ERP-CRM proporciona herramientas adicionales para facilitar la exportación de información. Estas pueden incluir la posibilidad de generar informes predefinidos, la exportación automática periódica de datos o la creación de plantillas de documentos personalizados.
-
-La exportación de información también puede implicar la transformación de los datos en un formato compatible con el sistema receptor. Esto puede requerir la realización de ajustes en la estructura y contenido de los datos, lo cual debe ser realizado con cuidado para mantener la precisión y la integridad de la información.
-
-En conclusión, la exportación de información es una tarea compleja pero crucial en los sistemas de gestión empresarial. A través del uso adecuado de herramientas y técnicas, se puede facilitar el traslado de datos entre diferentes partes del negocio y con terceros, lo cual mejora la eficiencia operativa y permite la toma de decisiones basada en información actualizada y precisa.
 
 <a id="elaboracion-de-documentacion"></a>
 ## Elaboración de documentación
 
-La elaboración de documentación es una fase crucial en el desarrollo de sistemas empresariales, ya que proporciona la base para su explotación y mantenimiento. Este proceso implica la creación de materiales que faciliten la comprensión y uso del sistema por parte de los usuarios finales y los equipos técnicos.
-
-En primer lugar, es fundamental entender que la documentación no se trata solo de describir cómo funciona el sistema, sino también de proporcionar instrucciones detalladas sobre su instalación, configuración y operación. Esto incluye guías paso a paso, tutoriales y manuales de usuario, todos los cuales deben ser accesibles y fáciles de seguir.
-
-La documentación debe abordar diversos aspectos del sistema, desde la arquitectura general hasta las funcionalidades específicas. Es importante destacar que una buena documentación no solo informa sobre lo qué hace el sistema, sino también cómo se relacionan diferentes componentes entre sí y cómo interactúan con los usuarios.
-
-Además de la documentación técnica, es crucial incluir información sobre la seguridad del sistema. Esto implica explicar las políticas de acceso, los roles y privilegios asignados a los usuarios, así como las medidas preventivas contra el robo o daño de la información. La documentación debe ser actualizada regularmente para reflejar cualquier cambio en las políticas o procedimientos.
-
-La elaboración de documentación también debe considerar aspectos prácticos como la localización y organización del contenido. Es importante que los documentos estén bien estructurados y accesibles, facilitando su búsqueda y consulta por parte de los usuarios. La utilización de un sistema de gestión de versiones puede ser útil para mantener una historial de cambios en la documentación.
-
-En el contexto empresarial, la documentación no solo es una herramienta interna, sino también una forma de comunicación con clientes y proveedores. Por lo tanto, es importante que sea clara, precisa y profesional, adaptándose a las necesidades específicas del público al que se dirige.
-
-La documentación debe ser un recurso continuamente actualizado y revisado. Esto implica no solo la corrección de errores o omisiones, sino también el incorporación de nuevas funcionalidades y cambios en los procesos operativos. La colaboración entre equipos técnicos y de soporte es clave para mantener la documentación relevante y útil.
-
-En conclusión, la elaboración de documentación es un proceso integral en el desarrollo de sistemas empresariales. Es una herramienta fundamental que facilita la explotación del sistema, mejora la eficiencia operativa y asegura la seguridad de la información. Una buena documentación no solo informa sobre cómo funciona el sistema, sino también proporciona las herramientas necesarias para su correcto uso y mantenimiento, contribuyendo así al éxito continuo del proyecto empresarial.
 
 
 <a id="envio-de-emails"></a>
@@ -14007,21 +19571,111 @@ En conclusión, la elaboración de documentación es un proceso integral en el d
 <a id="formateo-inicial"></a>
 ## Formateo inicial
 
-### Introduccion
+### Introducción a los ejercicios
 
-```markdown
-Los clientes de correo electrónico soportan HTML y CSS
-Pero - no soportan la mayor parte de las características modernas
+Your HTML email template looks good, but there are a few things you can improve to ensure better compatibility and appearance across different email clients. Here are some suggestions:
 
-Por ejemplo, todo se tiene que hacer con tablas
+1. **Use Proper DOCTYPE Declaration**: Always start your HTML with the correct `DOCTYPE` declaration.
+2. **Add Fallback Text for Images**: Provide alternative text for images in case they don't load or if the user has images turned off.
+3. **Inline Styles**: Inline styles ensure better consistency across different email clients.
+4. **Table Layouts and Spacing**: Use tables to layout your content consistently.
+5. **Fallback Content**: Include fallback content for elements that might not be supported in all email clients.
 
-Nada ni de grid, ni de flexbox, ni nada similar
+Here is a refined version of your HTML email template:
 
-La maquetación de email, tiene que hacerse "a la antigua"
-Hace décadas los emails se maquetaban con tablas, creando tablas y subtablas
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Email Template</title>
+</head>
+<body style="margin:0;padding:0; background-color:#f5f5f5;">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+        <tr>
+            <td>&nbsp;</td>
+            <td valign="top" style="padding-top:30px;padding-right:24px;padding-bottom:24px;padding-left:24px;">
+                <!-- HEADER -->
+                <table width=100% border=0 cellspacing=0 cellpadding=0 align=center>
+                    <tr>
+                        <td>
+                            <a href="#" target="_blank">
+                                <img src="https://i.postimg.cc/4QJdVc3D/logo.png" alt="Logo Image" style="width:150px;height:auto;"/>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+
+                <!-- MAIN CONTENT -->
+                <table width=100% border=0 cellspacing=0 cellpadding=0 align=center>
+                    <tr>
+                        <td>
+                            <p style="font-size:24px;font-weight:bold;text-align:center;color:#333;">¡Bienvenido!</p>
+                            <img src="https://i.postimg.cc/YWnK615X/2.jpg" alt="Uploaded Image" width=100% />
+                        </td>
+                    </tr>
+                </table>
+
+                <!-- FEATURED CONTENT -->
+                <table width=100% border=0 cellspacing=0 cellpadding=0 align=center style="margin-top:30px;">
+                    <tr>
+                        <td valign=top style="padding-bottom:24px; font-size:10px;">
+                            <img src="https://i.postimg.cc/RgHv5GjV/destacado.jpg" alt="Featured Image 1" width=100% />
+                            <p style="font-size:10px;text-align:left;margin-top:10px;padding-left:24px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </td>
+                        <td valign=top style="padding-bottom:24px; font-size:10px;">
+                            <img src="https://i.postimg.cc/RgHv5GjV/destacado.jpg" alt="Featured Image 2" width=100% />
+                            <p style="font-size:10px;text-align:left;margin-top:10px;padding-left:24px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign=top style="padding-bottom:24px; font-size:10px;">
+                            <img src="https://i.postimg.cc/RgHv5GjV/destacado.jpg" alt="Featured Image 3" width=100% />
+                            <p style="font-size:10px;text-align:left;margin-top:10px;padding-left:24px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </td>
+                    </tr>
+                </table>
+
+                <!-- LEGAL INFORMATION -->
+                <table width=100% border=0 cellspacing=0 cellpadding=0 align=center style="margin-top:30px;">
+                    <tr>
+                        <td valign=top style="font-size:12px;text-align:center;color:#666;padding-bottom:30px;">
+                            Protección de datos:<br>
+Recibe esta comunicación porque forma parte de nuestra base de datos de contactos comerciales. El responsable del tratamiento es [Nombre de la empresa], con domicilio en [Dirección]. Tratamos sus datos con la finalidad de enviarle información comercial relacionada con nuestros productos y servicios, amparados en su consentimiento o en el interés legítimo aplicable.<br>
+<br>
+Usted puede ejercer en cualquier momento sus derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad enviando una solicitud a [correo de contacto / DPO]. Si no desea seguir recibiendo comunicaciones comerciales, puede solicitar la baja respondiendo a este mismo correo o escribiendo a [correo de bajas].<br>
+<br>
+Sus datos no se cederán a terceros salvo obligación legal. Para más información consulte nuestra política de privacidad en [URL].
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+</body>
+</html>
 ```
 
+### Key Changes:
+1. **Inline Styles**: Added inline styles for better control over email client rendering.
+2. **Fallback Alt Text**: Provided alternative text for images in case they fail to load.
+3. **Table Structure**: Ensured the layout is consistent and responsive by using tables with specific padding, margins, and cell spacing.
+
+This should improve the overall appearance and functionality of your HTML email template across different clients.
+
 ### tabla de inicio
+<small>Creado: 2025-12-01 13:10</small>
+
+#### Explicación
+
+Este código HTML crea una página web sencilla que muestra una tabla con tres celdas en la parte superior. La etiqueta `<!doctype html>` indica que estamos trabajando con HTML5, lo que significa que el navegador debe interpretar este documento como un archivo HTML5.
+
+En la sección `<head>`, no hay nada definido, por lo que esta parte del código está vacía y no incluye metadatos ni enlaces a hojas de estilo externas o scripts. 
+
+La estructura principal de la tabla se define dentro de la etiqueta `<table>` con el atributo `border=1` que dibuja una línea sólida alrededor de toda la tabla y entre cada celda para hacerla más visible. Dentro del bloque de la tabla, la etiqueta `<tr>` (row) crea una fila, y dentro de esta fila, tres celdas (`<td>`) contienen el texto "Izquierda", "Centro" y "Derecha". Este código es fundamental para entender cómo se estructuran las tablas en HTML y cómo colocar contenido dentro de ellas.
+
+`002-tabla de inicio.html`
 
 ```html
 <!doctype html>
@@ -14041,6 +19695,17 @@ Hace décadas los emails se maquetaban con tablas, creando tablas y subtablas
 ```
 
 ### anchura de las celdas
+<small>Creado: 2025-12-01 13:12</small>
+
+#### Explicación
+
+Este código HTML crea una tabla simple con tres columnas, donde cada celda tiene un contenido diferente. La etiqueta `<!doctype html>` al principio indica que el documento es de tipo HTML5. Dentro del cuerpo (`<body>`) del documento, se define una tabla usando la etiqueta `<table>`, a la cual se le asigna un borde mediante el atributo `border=1` y su ancho total es del 100% del espacio disponible en la página con `width=100%`.
+
+En la fila de la tabla (`<tr>`), hay tres celdas (`<td>`). La primera y la última celda tienen un contenido simple: "Izquierda" y "Derecha", respectivamente. Sin embargo, la segunda celda tiene un atributo adicional `width=400px`, lo que significa que esta columna tendrá una anchura fija de 400 píxeles, mientras que las otras dos columnas ajustarán automáticamente su tamaño para llenar el resto del espacio disponible en la fila.
+
+Este código es importante porque muestra cómo controlar visualmente las dimensiones y distribución de contenido dentro de una tabla HTML, lo cual es útil para diseñar estructuras de datos o informes web con precisión.
+
+`003-anchura de las celdas.html`
 
 ```html
 <!doctype html>
@@ -14060,6 +19725,15 @@ Hace décadas los emails se maquetaban con tablas, creando tablas y subtablas
 ```
 
 ### subtabla
+<small>Creado: 2025-12-01 13:16</small>
+
+#### Explicación
+
+Este código HTML crea una estructura de página web que utiliza tablas para organizar el contenido. La tabla principal ocupa todo el ancho de la pantalla y tiene tres columnas: "Izquierda", un bloque central que contiene otra tabla más pequeña, y "Derecha". El bloque central está diseñado con una columna específica de 400 píxeles de ancho y dentro de este hay una subtabla que también ocupa todo el ancho disponible en esa celda. Esta subtabla tiene cinco filas, cada una representando diferentes secciones del contenido: "Logo", "Destacado", "Banner", "Razones" y "Pie de pagina". Las líneas divisorias (bordes) en las tablas ayudan a distinguir claramente entre estas diferentes secciones. Esta estructura es común cuando se diseñan emails o páginas web simples que requieren una disposición visual específica del contenido.
+
+Esta forma de organizar el contenido con subtablas dentro de celdas de tabla más grandes permite al diseñador tener control sobre cómo y dónde aparecen los elementos importantes, como logos o textos destacados, en diferentes áreas de la página. Es especialmente útil cuando se quiere crear una estructura visualmente clara y fácil de entender para el usuario que recibe un email o visita la página web.
+
+`004-subtabla.html`
 
 ```html
 <!doctype html>
@@ -14097,6 +19771,17 @@ Hace décadas los emails se maquetaban con tablas, creando tablas y subtablas
 ```
 
 ### imagen corporativa
+<small>Creado: 2025-12-01 13:23</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web simple que presenta una imagen corporativa y texto alineados a la izquierda dentro de un diseño tabular. La estructura principal es una tabla con tres columnas: "Izquierda", "Centro" y "Derecha". La columna central contiene otro conjunto de tablas anidadas para formatear correctamente el logotipo, los títulos y otros elementos.
+
+En la parte central, hay un bloque que incluye una imagen corporativa y texto descriptivo. El logotipo se alinea a la derecha dentro de su propia tabla, junto con subtítulos en estilo h1 y h2. Esto ayuda a centrar visualmente el contenido y darle importancia mediante estilos como colores de fondo y tamaños de fuente específicos.
+
+El uso de tablas permite organizar la disposición del contenido de manera clara y estructurada, lo que es especialmente útil cuando se necesita control precisamente sobre cómo se alinean los elementos en una página web. En este caso, las tablas anidadas proporcionan flexibilidad para centrar y resaltar diferentes partes del diseño como el logotipo y los encabezados de la compañía.
+
+`005-imagen corporativa.html`
 
 ```html
 <!doctype html>
@@ -14148,6 +19833,19 @@ Hace décadas los emails se maquetaban con tablas, creando tablas y subtablas
 ```
 
 ### creamos el destacado
+<small>Creado: 2025-12-01 13:27</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web que simula un destacado o anuncio en formato de tabla, típicamente utilizado para enviar correos electrónicos o en sitios web. La estructura principal es una tabla grande con tres columnas: la primera y la última son simples celdas etiquetadas como "Izquierda" y "Derecha", mientras que la columna central contiene un diseño más complejo.
+
+En esta columna central, hay otra tabla anidada con varias filas (tr) para organizar diferentes elementos. La primera fila tiene una celda (td) con fondo índigo y texto blanco donde se incluye una pequeña tabla que alberga el logotipo de la empresa (en este caso "JOCARSA") junto a un título y sub-título que describen los servicios ofrecidos por la compañía.
+
+La segunda fila en la tabla central contiene información destacada con estilo, como un eslogan, un mensaje principal y texto persuasivo. También hay un botón interactivo que invita al usuario a "Saber más". La tercera, cuarta y quinta filas son simplemente etiquetas para secciones adicionales del diseño como banner, razones y pie de página respectivamente.
+
+Este tipo de estructura es común en marketing digital debido a su capacidad para presentar información de manera clara y llamativa, utilizando tablas anidadas para controlar exactamente cómo se alinean los elementos gráficos y de texto.
+
+`006-creamos el destacado.html`
 
 ```html
 <!doctype html>
@@ -14209,6 +19907,19 @@ Hace décadas los emails se maquetaban con tablas, creando tablas y subtablas
 ```
 
 ### insercion de imagen
+<small>Creado: 2025-12-01 13:32</small>
+
+#### Explicación
+
+Este fragmento de código HTML representa una página web simple que utiliza tablas para formatear y estructurar el contenido. La tabla principal se extiende a lo ancho completo del navegador y tiene un estilo sin bordes (`border=0`), creando así un aspecto limpio y moderno. Dentro de esta tabla, hay varias subtablas utilizadas para organizar diferentes elementos como texto, imágenes y botones.
+
+El código incluye una imagen en la parte superior derecha que actúa como logotipo de la empresa "JOCARSA", seguido por un título y una descripción corta. A continuación, se presenta un mensaje principal con un párrafo comercial atractivo y un botón "Saber más" para incentivar a los visitantes a obtener más información.
+
+La estructura en forma de tabla ayuda a organizar visualmente el contenido en diferentes secciones, como la cabecera, el cuerpo principal y una sección inferior que podría ser usado para razones o pie de página. Este tipo de diseño es común en páginas web para enviar correos electrónicos porque permite un control preciso del formato y cómo los elementos visuales se alinean en pantallas de diferentes tamaños.
+
+El uso de CSS dentro del atributo `style` ayuda a personalizar la apariencia, como el color de fondo, tamaño de fuente y alineación del texto. Esto es importante para mantener un aspecto profesional y coherente con la identidad visual de la marca "JOCARSA".
+
+`007-insercion de imagen.html`
 
 ```html
 <!doctype html>
@@ -14273,6 +19984,152 @@ Hace décadas los emails se maquetaban con tablas, creando tablas y subtablas
 ```
 
 ### destacados
+<small>Creado: 2025-12-01 13:45</small>
+
+#### Explicación
+
+Your HTML code for the email layout looks quite detailed and well-structured. However, there are a few improvements and checks you might want to consider:
+
+1. **Image Base64 Encoding**: Using inline images via base64 encoding can make your emails very large and slow down load times, especially if multiple images are used in this way. Consider hosting these images on a reliable server instead.
+
+2. **Responsive Design**: Emails need to be responsive for mobile devices. You should use media queries or other techniques like table stacking to ensure that the layout looks good on smartphones and tablets.
+
+3. **Image Alt Text**: Ensure all images have `alt` attributes, as you've done correctly in some places but missed others (like the social icons).
+
+4. **Text Wrapping and Padding**: In mobile view, text may wrap awkwardly or not fit within a cell properly. Adjust padding or use techniques like table stacking to ensure better readability.
+
+5. **Font Size Consistency**: Ensure font sizes are consistent across different elements for a cleaner look.
+
+Here is your code with some adjustments focusing on responsive design and minor improvements:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Email Layout</title>
+  <style type="text/css">
+    /* Responsive styles */
+    @media screen and (max-width: 600px) {
+      table, td { width: 100%; }
+      img { max-width: 100% !important; height: auto; }
+    }
+
+    /* General styling */
+    body, table, td, p, a { font-family: Arial, sans-serif; color: #333; line-height: 1.5; }
+    h2 { margin-top: 10px; }
+    .header-logo img { max-width: 100%; height: auto; }
+    .menu li { display: inline-block; padding-right: 20px; }
+    .menu li a, .footer-links a { color: #333; text-decoration: none; font-size: 16px; }
+    .content img { max-width: 100%; height: auto; }
+  </style>
+</head>
+<body style="margin: 0; padding: 0;">
+<table width=100% border=0 cellspacing=0 cellpadding=0 bgcolor="#d9e3f5">
+  <tr>
+    <td align=center>
+      <table class="header" width=600px border=0 cellspacing=0 cellpadding=0 style="border-collapse: collapse;">
+        <tr>
+          <td>
+            <img src="https://via.placeholder.com/400x100" alt="Header Logo">
+          </td>
+        </tr>
+        <tr>
+          <td align=center class="menu">
+            <ul style="list-style-type: none; padding-left: 0;">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr height=20 style="background-color:#ffffff;">
+    <td></td>
+  </tr>
+  <tr>
+    <td align=center>
+      <img src="https://via.placeholder.com/600x300" alt="Main Banner Image">
+    </td>
+  </tr>
+  <tr height=20 style="background-color:#ffffff;">
+    <td></td>
+  </tr>
+  <tr>
+    <td align=center>
+      <table class="content" width=600px border=0 cellspacing=0 cellpadding=0 style="border-collapse: collapse; background-color:#f4f9fe;">
+        <tr>
+          <td>
+            <img src="https://via.placeholder.com/200x150" alt="Uploaded Image">
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr height=20 style="background-color:#ffffff;">
+    <td></td>
+  </tr>
+  <tr>
+    <td align=center>
+      <table class="content" width=600px border=0 cellspacing=0 cellpadding=0 style="border-collapse: collapse; background-color:#f4f9fe;">
+        <tr>
+          <td>
+            <table width=100%>
+              <tr>
+                <td width=50%>
+                  <img src="https://via.placeholder.com/300x200" alt="Image">
+                </td>
+                <td width=50% style="font-size:14px; text-align:justify; padding-left:10px;">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec nibh ut dui cursus pretium id quis augue. Proin porta orci vel lectus rhoncus feugiat.
+                </td>
+              </tr>
+              <tr>
+                <td width=50%>
+                  <img src="https://via.placeholder.com/300x200" alt="Image">
+                </td>
+                <td width=50% style="font-size:14px; text-align:justify; padding-left:10px;">
+                  Maecenas a nisl vitae risus lacinia posuere. Nulla id arcu euismod, ultrices neque at, convallis metus.
+                </td>
+              </tr>
+              <tr>
+                <td width=50%>
+                  <img src="https://via.placeholder.com/300x200" alt="Image">
+                </td>
+                <td width=50% style="font-size:14px; text-align:justify; padding-left:10px;">
+                  Donec ac arcu sit amet lectus auctor elementum. Quisque nec eros quis diam posuere bibendum.
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr height=20 style="background-color:#ffffff;">
+    <td></td>
+  </tr>
+  <tr>
+    <td align=center>
+      Pie de pagina
+    </td>
+  </tr>
+</table>
+</body>
+</html>
+```
+
+### Key Changes:
+1. **Responsive Styles**: Added a media query to make the layout responsive.
+2. **Image Hosting**: Replaced base64 images with placeholder URLs for better performance and readability.
+3. **Font Sizes**: Adjusted font sizes slightly for better consistency.
+4. **Padding and Layout**: Ensured padding and layout adjustments for improved text wrapping on mobile devices.
+
+These changes should help ensure your email template is more user-friendly across different devices and browsers.
+
+`008-destacados.html`
 
 ```html
 <!doctype html>
@@ -14363,6 +20220,159 @@ Hace décadas los emails se maquetaban con tablas, creando tablas y subtablas
 ```
 
 ### ampliamos un poco
+<small>Creado: 2025-12-01 13:46</small>
+
+#### Explicación
+
+To improve the responsiveness of your HTML email template for different screen sizes, you should make use of media queries and flexible table layouts. Here are some key steps to enhance responsiveness:
+
+1. **Use Flexible Table Layouts**: Replace fixed pixel values with percentages or relative units.
+2. **Implement Media Queries**: Use `@media` rules to adjust the layout based on the screen size.
+3. **Simplify Complex Layouts**: Simplify complex table structures into more manageable sections.
+
+Below is an updated version of your HTML email template incorporating these principles:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Email Template</title>
+    <style type="text/css">
+        body {
+            width: 100%;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+            margin: 0;
+            padding: 0;
+            background-color: #ebebeb;
+        }
+        table, td, div, p, a {
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            text-align: center;
+            padding-top: 24px;
+            border-bottom: 1px solid rgba(95, 107, 118, 0.3);
+        }
+        table td img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        @media only screen and (max-width: 600px) {
+            table,
+            tr,
+            td {
+                width: 100% !important;
+                font-size: 14px !important;
+                line-height: 18px !important;
+            }
+            .container {
+                padding-left: 20px !important;
+                padding-right: 20px !important;
+            }
+
+            .header h3, .footer p {
+                text-align: center;
+                font-size: 24px;
+            }
+
+            table td img {
+                max-width: 100% !important;
+            }
+        }
+    </style>
+</head>
+<body style="margin: 0; padding: 0;">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+          <td class="container" style="padding-left:24px;padding-right:24px;">
+              <div class="header" style="text-align:center;border-bottom:1px solid rgba(95, 107, 118, 0.3); padding-top:24px">
+                  <h3>Encabezado</h3>
+              </div>
+
+            <tr>
+                <td class="container" style="padding-left:24px;padding-right:24px;">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td align="center" valign="middle"><img src="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAZIAAACdCAYAAAAhJb5GAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAADl0RVh0U29mdHdhcmUAbWFjaGRhdGVsaW5lL3NhLzIwMDEvNy8wNi8yNjAwOTIuODAxMTo2OC4xMTQAAAAoSURBVHic7ZgJtFMDAMT0+DqKwXhV616bBwPcJcW3a1i95fO4v9zYs4j8kIi03LhU58y6Ml2xH3uS6gRZ65QdG5o+Xq+eKjE2C7A+5pDpWq211Pn165V8vX9zrY5k4Jw0Nf+Hq6v0x7m91hL3FwQAAAABJRU5ErkJggg==" alt="Uploaded Image" /></td>
+                            </tr>
+                            <tr>
+                                <td style="font-size:12px;text-align:center;padding-left:24px;">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="container" style="padding-left:24px;padding-right:24px;">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td align="center" valign="middle"><img src="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAZIAAACdCAYAAAAhJb5GAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAADl0RVh0U29mdHdhcmUAbWFjaGRhdGVsaW5lL3NhLzIwMDEvNy8wNi8yNjAwOTIuODAxMTo2OC4xMTQAAAAoSURBVHic7ZgJtFMDAMT0+DqKwXhV616bBwPcJcW3a1i95fO4v9zYs4j8kIi03LhU58y6Ml2xH3uS6gRZ65QdG5o+Xq+eKjE2C7A+5pDpWq211Pn165V8vX9zrY5k4Jw0Nf+Hq6v0x7m91hL3FwQAAAABJRU5ErkJggg==" alt="Uploaded Image" /></td>
+                      </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+              <td class="container" style="padding-left:24px;padding-right:24px;">
+                  <table width=100% border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td width="50%" valign="top">
+                          <img src="destacado.jpg" width="100%">
+                        </td>
+                        <td style="font-size:14px;text-align:left;padding-left:24px;vertical-align: top;">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </td>
+                    </tr>
+                    <tr>
+                      <td width="50%" valign="top">
+                          <img src="destacado.jpg" width="100%">
+                        </td>
+                        <td style="font-size:14px;text-align:left;padding-left:24px;vertical-align: top;">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </td>
+                    </tr>
+                    <tr>
+                      <td width="50%" valign="top">
+                          <img src="destacado.jpg" width="100%">
+                        </td>
+                        <td style="font-size:14px;text-align:left;padding-left:24px;vertical-align: top;">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </td>
+                    </tr>
+                  </table>
+              </td>
+            </tr>
+
+            <tr>
+                <td class="container" style="padding-left:24px;padding-right:24px;">
+                    Pie de pagina
+                </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
+```
+
+### Key Changes:
+1. **Media Queries**: Added a media query to adjust the layout for screens smaller than 600px.
+2. **Flexible Table Layouts**: Replaced fixed widths with percentages and used relative units where appropriate.
+3. **Simplified Styles**: Streamlined inline styles and moved them into the `<style>` block for better readability.
+
+This should make your email template more responsive on various devices, including mobile phones and tablets.
+
+`009-ampliamos un poco.html`
 
 ```html
 <!doctype html>
@@ -14453,6 +20463,120 @@ Hace décadas los emails se maquetaban con tablas, creando tablas y subtablas
 ```
 
 ### pie de pagina normativo
+<small>Creado: 2025-12-01 13:48</small>
+
+#### Explicación
+
+Your HTML code for the email newsletter looks well-structured and visually appealing. However, there are a few improvements you can make to enhance readability, responsiveness, and accessibility:
+
+1. **Responsive Design**: Ensure your tables and images adapt to different screen sizes.
+2. **Accessibility Enhancements**: Improve contrast and add alt text where appropriate.
+3. **CSS Inline Styling**: Simplify CSS inline styling for better email compatibility.
+
+Here's an improved version of your code with these considerations in mind:
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="margin:0; padding:0;">
+  <table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#f4f4f4">
+    <tr>
+      <td style="background-color:#ffffff; padding-top:20px;">
+        <table width="600" align="center" cellspacing="0" cellpadding="0" border="0">
+          <!-- Header -->
+          <tr>
+            <td colspan="3" align="center" style="padding-bottom:15px;">
+              <a href="#" target="_blank"><img src="header.jpg" alt="Header Image"></a>
+            </td>
+          </tr>
+
+          <!-- Main Content -->
+          <tr>
+            <td></td>
+            <td width="600">
+              <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                <!-- Title Row -->
+                <tr>
+                  <td style="font-size:24px; font-family:Arial, sans-serif; color:#333;">
+                    ¡Hola!
+                  </td>
+                </tr>
+
+                <!-- Featured Image Row -->
+                <tr>
+                  <td>
+                    <a href="#" target="_blank">
+                      <img src="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJ3qiCAAAKl1BMVEX////8/Pz29vZjY+Pd3d1t7e3n5+fX19bnZ2dmJiYk5OTqFhYWOjo6GhoaCgoLKysoKCwrHx4cO7u7r///+/v7wAAAAKUlEQVQokbSQsU5AQAgEpGgS0lMxIAAABf98pZ8JnBAAAACV0RVh0ZGF0ZTpjcmVhdGUAMTczMTYyMDI2L/9Wq7mAAAAABJRU5ErkJggg==" alt="Uploaded Image" width="100%">
+                    </a>
+                  </td>
+                </tr>
+
+                <!-- Content Rows -->
+                <tr>
+                  <td style="padding: 15px;">
+                    <table width="100%" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="50%" style="vertical-align: top;">
+                          <img src="destacado.jpg" alt="Destacado Image" width="100%">
+                        </td>
+                        <td width="50%" style="font-size: 12px; text-align: justify; padding-left: 10px; vertical-align: top;">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td width="50%" style="vertical-align: top;">
+                          <img src="destacado.jpg" alt="Destacado Image" width="100%">
+                        </td>
+                        <td width="50%" style="font-size: 12px; text-align: justify; padding-left: 10px; vertical-align: top;">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td width="50%" style="vertical-align: top;">
+                          <img src="destacado.jpg" alt="Destacado Image" width="100%">
+                        </td>
+                        <td width="50%" style="font-size: 12px; text-align: justify; padding-left: 10px; vertical-align: top;">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+
+                <!-- Footer -->
+                <tr style="text-align: center; font-size: 12px; color: grey;">
+                  <td>
+                    Protección de datos:<br>
+                    Recibe esta comunicación porque forma parte de nuestra base de datos de contactos comerciales. El responsable del tratamiento es [Nombre de la empresa], con domicilio en [Dirección]. Tratamos sus datos con la finalidad de enviarle información comercial relacionada con nuestros productos y servicios, amparados en su consentimiento o en el interés legítimo aplicable.<br><br>
+                    Usted puede ejercer en cualquier momento sus derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad enviando una solicitud a [correo de contacto / DPO]. Si no desea seguir recibiendo comunicaciones comerciales, puede solicitar la baja respondiendo a este mismo correo o escribiendo a [correo de bajas].<br><br>
+                    Sus datos no se cederán a terceros salvo obligación legal. Para más información consulte nuestra política de privacidad en [URL].
+                  </td>
+                </tr>
+
+              </table>
+            </td>
+            <td></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
+```
+
+### Key Changes:
+1. **Responsive Design**: Ensured the table width is set to a fixed value (600px) and centered, which helps with responsiveness.
+2. **Accessibility Enhancements**: Added `alt` attributes for images and ensured text contrast is good.
+3. **Simplified CSS Inline Styling**: Simplified inline styles for better compatibility across email clients.
+
+This version should be more compatible across different email clients while maintaining a professional look.
+
+`010-pie de pagina normativo.html`
 
 ```html
 <!doctype html>
@@ -14549,6 +20673,137 @@ Sus datos no se cederán a terceros salvo obligación legal. Para más informaci
 </html>
 ```
 
+### Actividades propuestas
+
+Your HTML email template looks well-structured, but there are a few improvements that can enhance its readability and responsiveness across different devices. Here are some suggestions:
+
+1. **Add Responsive Styles**: Ensure the table layout is responsive for mobile devices.
+2. **Improve Text Readability**: Use appropriate font sizes and line heights.
+3. **Optimize Image Loading**: Consider using base64-encoded images only if they are small; otherwise, use external image URLs to improve loading speed.
+4. **Simplify HTML Structure**: Remove unnecessary table rows and cells for better readability.
+
+Here's an optimized version of your email template:
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email Template</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    table {
+      width: 100%;
+      border-spacing: 0;
+    }
+    td {
+      vertical-align: top;
+      text-align: center;
+      padding: 20px;
+    }
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background-color: #ffffff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+    }
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: auto;
+    }
+    .content td {
+      padding-bottom: 20px;
+    }
+    @media only screen and (max-width: 600px) {
+      table, tr, td {
+        width: 100% !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <table align="center" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td>
+        <div class="container">
+          <img src="https://example.com/email-header.jpg" alt="Header Image">
+          
+          <table width="100%" class="content">
+            <tr>
+              <td>
+                <p style="font-size: 20px; font-weight: bold;">Título del Email</p>
+                <img src="https://example.com/base64_image.jpg" alt="Uploaded Image">
+              </td>
+            </tr>
+            
+            <!-- Responsive Two-Column Layout -->
+            <tr>
+              <td>
+                <table width="100%" style="margin-bottom: 20px;">
+                  <tr>
+                    <td width="50%" style="vertical-align: top;">
+                      <img src="https://example.com/image1.jpg" alt="Image 1">
+                    </td>
+                    <td width="50%" style="font-size: 14px; text-align: justify; padding-left: 10px;">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="50%" style="vertical-align: top;">
+                      <img src="https://example.com/image2.jpg" alt="Image 2">
+                    </td>
+                    <td width="50%" style="font-size: 14px; text-align: justify; padding-left: 10px;">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="50%" style="vertical-align: top;">
+                      <img src="https://example.com/image3.jpg" alt="Image 3">
+                    </td>
+                    <td width="50%" style="font-size: 14px; text-align: justify; padding-left: 10px;">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <tr>
+              <td style="text-align:center;font-size:14px;color:grey;">
+                Protección de datos:<br>
+Recibe esta comunicación porque forma parte de nuestra base de datos de contactos comerciales. El responsable del tratamiento es [Nombre de la empresa], con domicilio en [Dirección]. Tratamos sus datos con la finalidad de enviarle información comercial relacionada con nuestros productos y servicios, amparados en su consentimiento o en el interés legítimo aplicable.<br>
+<br>
+Usted puede ejercer en cualquier momento sus derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad enviando una solicitud a [correo de contacto / DPO]. Si no desea seguir recibiendo comunicaciones comerciales, puede solicitar la baja respondiendo a este mismo correo o escribiendo a [correo de bajas].<br>
+<br>
+Sus datos no se cederán a terceros salvo obligación legal. Para más información consulte nuestra política de privacidad en [URL].
+              </td>
+            </tr>
+          </table>
+        </div>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
+```
+
+### Key Changes:
+1. **Responsive Design**: Added media queries to ensure the layout works well on mobile devices.
+2. **Styling Improvements**: Enhanced readability and consistency with CSS styles.
+3. **External Images**: Replaced base64-encoded images with external URLs for better performance.
+
+This should give you a cleaner, more functional email template that looks great across all devices.
+
+
 
 <a id="actividad-libre-de-final-de-evaluacion-la-milla-extra"></a>
 # Actividad libre de final de evaluación - La milla extra
@@ -14556,11 +20811,46 @@ Sus datos no se cederán a terceros salvo obligación legal. Para más informaci
 <a id="la-milla-extra-primera-evaluacion"></a>
 ## La Milla Extra - Primera evaluación
 
-### ejercicio
+### Introducción a los ejercicios
 
-```markdown
+La carpeta que estás viendo contiene un conjunto de ejercicios diseñados específicamente para estudiantes del primer curso del ciclo formativo DAM25/26. Estos ejercicios se centran en la práctica de lenguajes de marcado y sistemas de gestión de información, habilidades clave para el desarrollo web y la creación de contenido estructurado. El ejercicio principal que encontrarás aquí te guiará a través del uso eficaz de Markdown, un lenguaje de marcado ligero muy utilizado en diversas plataformas como GitHub o sitios web técnicos. Atraviesa este ejercicio para mejorar tus competencias en formato y estructura de texto, creación de listas, inclusión de enlaces e imágenes, y la creación de tablas y encabezados. Este tipo de práctica te preparará para proyectos más grandes que involucran documentación técnica o sitios web estáticos.
 
-```
+### Actividades propuestas
+
+Basándome en el contexto proporcionado y asumiendo que los ejercicios están relacionados con lenguajes de marcado (como Markdown) para estudiantes de Formación Profesional, aquí tienes una lista de actividades adecuadas:
+
+1. **Título:** Crear un CV en Markdown.
+   - Descripción: Los alumnos deben diseñar su currículum vitae utilizando solo el formato Markdown. Se espera que aprendan a estructurar contenido y usar los elementos básicos del lenguaje.
+
+2. **Título:** Documentación de proyecto escolar.
+   - Descripción: Cada estudiante escribirá la documentación de un proyecto en progreso usando Markdown, incluyendo secciones como introducción, objetivo, metodología y conclusiones. El objetivo es mejorar sus habilidades en redacción técnica.
+
+3. **Título:** Análisis y mejora de texto.
+   - Descripción: Se les proporcionará un texto breve en formato Markdown con varios errores tipográficos y gramaticales. Los estudiantes deben corregir el texto y mejorarlo utilizando las capacidades avanzadas del lenguaje Markdown.
+
+4. **Título:** Crear una guía para principiantes.
+   - Descripción: Cada estudiante debe elaborar una breve guía de introducción a Markdown, dirigida a nuevos usuarios que quieran aprender sobre este formato. Se espera que demuestren comprensión y habilidades de enseñanza.
+
+5. **Título:** Creación de un informe científico.
+   - Descripción: Los estudiantes deben redactar un informe breve en formato Markdown siguiendo una estructura típica para la presentación de resultados científicos, incluyendo secciones como introducción, metodología y análisis.
+
+6. **Título:** Crear una página web estática.
+   - Descripción: Aprovechando las capacidades extendidas del Markdown, los alumnos deberán diseñar una página web simple utilizando HTML con elementos de Markdown para formatear el contenido, mejorando así sus habilidades en la combinación de lenguajes.
+
+7. **Título:** Análisis y mejora de documentos.
+   - Descripción: Se les dará un conjunto de documentos previamente elaborados en Markdown y deberán identificar áreas para mejorar tanto en estructura como en estilo, aplicando mejoras con Markdown avanzado.
+
+8. **Título:** Creación de una galería de imágenes.
+   - Descripción: Los estudiantes deben crear una galería de imágenes utilizando Markdown, incluyendo la descripción de cada imagen y su uso de etiquetas para mejorar la accesibilidad.
+
+9. **Título:** Documentar un código fuente en Markdown.
+   - Descripción: Los alumnos deberán tomar un fragmento de código fuente sencillo e incorporarlo a una página Markdown, documentando los elementos importantes y estructurándolo adecuadamente para su legibilidad.
+
+10. **Título:** Creación de una recopilación de recursos.
+    - Descripción: Los estudiantes deberán elaborar una lista de recursos útiles para otros compañeros en formato Markdown, incluyendo descripciones breves y ligas a cada recurso.
+
+Estas actividades están diseñadas para que los estudiantes practiquen la estructuración del contenido con Markdown mientras mejoran sus habilidades en redacción técnica y documentación.
+
 
 
 <a id="carpeta-sin-titulo"></a>

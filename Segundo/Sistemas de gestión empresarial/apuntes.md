@@ -66,144 +66,55 @@
 <a id="concepto-de-erp"></a>
 ## Concepto de ERP
 
-En el ámbito empresarial, los sistemas ERP (Enterprise Resource Planning) desempeñan un papel crucial como centros de control y coordinación de todas las operaciones internas de una organización. Estos sistemas integran diversos procesos clave, desde la gestión financiera hasta la producción y la cadena de suministro, permitiendo una visión global y coherente del negocio.
-
-El concepto de ERP se basa en el principio de que todos los datos relevantes para la operación empresarial deben estar disponibles en un solo lugar. Esto facilita la toma de decisiones informadas, mejora la eficiencia operativa y permite una mejor comunicación entre diferentes departamentos. Los sistemas ERP no son solo herramientas de almacenamiento de información; también proporcionan funcionalidades avanzadas como análisis prediccional, optimización de procesos y gestión de riesgos.
-
-La arquitectura típica de un sistema ERP incluye módulos especializados que abordan diferentes aspectos del negocio. Algunos de los principales módulos son el financiero (gestión de cuentas por cobrar y por pagar, presupuesto), la operativa (producción, inventario, almacenes), la comercial (venta, compras, clientes y proveedores) y la gestión de recursos humanos (nomina, contratación, formación). Cada uno de estos módulos está diseñado para interactuar entre sí, asegurando que toda la información esté actualizada y coherente.
-
-La implementación de un sistema ERP requiere una planificación cuidadosa. Esto incluye el análisis de las necesidades del negocio, la selección adecuada del sistema, la formación del personal y la adaptación de los procesos existentes. La integración con otros sistemas de la empresa es fundamental para garantizar que todos los datos se gestionen de manera consistente.
-
-Los beneficios de un sistema ERP son numerosos. Mejoran la eficiencia operativa al reducir el tiempo y los errores en las tareas repetitivas, permitiendo a los ejecutivos tomar decisiones basadas en información precisa y actualizada. Además, facilitan la colaboración entre diferentes departamentos y promueven una cultura de transparencia dentro de la organización.
-
-En resumen, un sistema ERP es una herramienta integral para el funcionamiento eficiente de una empresa. Su implementación adecuada puede transformar significativamente los procesos internos, mejorando la toma de decisiones, la productividad y la competitividad del negocio.
 
 <a id="revision-de-los-erp-actuales"></a>
 ## Revisión de los ERP actuales
 
-En este capítulo, nos adentramos en la exploración de los sistemas ERP (Enterprise Resource Planning) actuales, que son herramientas fundamentales para la gestión integral de una organización. Los ERP no solo gestionan operaciones internas como producción y ventas, sino que también coordinan procesos financieros, recursos humanos y logísticos. Este sistema integra todos estos aspectos en un único entorno digital, permitiendo una visión global y eficiente del negocio.
-
-Los ERP actuales ofrecen una variedad de funcionalidades avanzadas, desde la planificación estratégica hasta el análisis financiero detallado. Algunas de las principales características incluyen la gestión de inventario, control de calidad, procesos de compras y ventas, y sistemas de contabilidad automatizados. Estas herramientas no solo optimizan los procesos internos, sino que también facilitan la toma de decisiones basada en datos precisos.
-
-La elección del ERP adecuado es crucial para el éxito empresarial. Los sistemas modernos ofrecen opciones personalizadas y escalables, adaptándose a las necesidades específicas de cada organización. Además, los ERP integran fácilmente con otros sistemas de gestión, como CRM (Customer Relationship Management) o BI (Business Intelligence), creando una plataforma unificada para la toma de decisiones.
-
-La implementación de un ERP requiere una planificación cuidadosa y una formación adecuada del personal. Los usuarios deben entender completamente las funcionalidades del sistema para aprovechar al máximo su potencial. Además, es importante considerar el impacto en los procesos existentes y la necesidad de adaptaciones.
-
-Los ERP actuales también incorporan tecnologías emergentes como la inteligencia artificial y la aprendizaje automático, lo que permite una predicción más precisa del comportamiento del negocio y la optimización de recursos. Estas herramientas pueden identificar tendencias ocultas en los datos, mejorar la eficiencia operativa y anticipar problemas potenciales.
-
-En resumen, los ERP actuales representan un paso importante hacia la digitalización y la automatización de las operaciones empresariales. Al seleccionar y implementar el sistema adecuado, una organización puede mejorar significativamente su productividad, eficiencia y capacidad para tomar decisiones informadas. Este capítulo ha proporcionado una visión general de los ERP actuales, sus funcionalidades y la importancia de su elección y implementación en un entorno empresarial moderno.
 
 <a id="concepto-de-crm"></a>
 ## Concepto de CRM
 
-En el ámbito empresarial, la gestión eficiente es un elemento clave para el éxito de cualquier organización. Para abordar este desafío, se han desarrollado diversos sistemas que facilitan la administración de los procesos internos, incluyendo los sistemas ERP (Enterprise Resource Planning) y CRM (Customer Relationship Management). Aunque ambos son herramientas valiosas, su enfoque y funcionalidades tienen diferencias significativas.
-
-El CRM, o Customer Relationship Management, se centra específicamente en la gestión de relaciones con los clientes. Este sistema es diseñado para recopilar, almacenar y analizar datos sobre los clientes, lo que permite una mejor comprensión del comportamiento y las preferencias individuales de cada uno. A través del CRM, las empresas pueden personalizar sus estrategias de marketing y ventas, mejorar la satisfacción del cliente y aumentar la retención.
-
-La principal ventaja del CRM radica en su capacidad para centralizar toda la información relacionada con los clientes en un solo lugar. Esto facilita el seguimiento de interacciones pasadas y futuras, así como el acceso a datos demográficos, comportamentales y de compra. Además, permite la creación de perfiles detallados de cada cliente, lo que es crucial para segmentar mercados y diseñar campañas publicitarias más efectivas.
-
-Además del seguimiento de clientes, los sistemas CRM también ofrecen herramientas para gestionar las interacciones internas de la empresa. Esto incluye el seguimiento de oportunidades de negocio, gestión de proyectos y colaboración entre equipos. La integración con otros sistemas empresariales como ERP permite una visión completa de la operación total de la organización.
-
-El CRM no solo es una herramienta de gestión de datos; también es un recurso estratégico que apoya decisiones comerciales. Al proporcionar análisis detallados y visualizaciones, las empresas pueden identificar tendencias, patrones y oportunidades para mejorar su negocio. Además, facilita la toma de decisiones basada en datos, lo que puede llevar a una mayor eficiencia operativa y rentabilidad.
-
-En resumen, el CRM es un sistema integral diseñado para optimizar las relaciones con los clientes y mejorar la gestión empresarial en su conjunto. Su capacidad para recopilar, almacenar y analizar datos de manera centralizada proporciona una visión única del cliente y la empresa, lo que es fundamental para el éxito a largo plazo en cualquier sector.
 
 <a id="revision-de-los-crm-actuales"></a>
 ## Revisión de los CRM actuales
 
-En este capítulo, nos adentramos en la exploración de los sistemas de gestión relacional (CRM) actuales, complementando nuestra visión previa sobre los sistemas ERP. A diferencia de los ERP que se centran en todas las operaciones empresariales, los CRM se enfocan específicamente en el manejo y análisis de datos relacionados con los clientes.
-
-Los CRM modernos ofrecen una gama de funcionalidades avanzadas para recopilar, almacenar y analizar información detallada sobre los clientes. Estas herramientas permiten a las empresas no solo mantener un registro preciso de sus relaciones comerciales, sino también utilizar esta información para mejorar la experiencia del cliente y optimizar procesos internos.
-
-Una característica distintiva de los CRM actuales es su capacidad para integrarse con otros sistemas empresariales, facilitando la sincronización de datos entre diferentes departamentos. Esto permite una visión holística de las operaciones de la empresa y un análisis más profundo de los patrones de comportamiento del cliente.
-
-Además, los CRM modernos incorporan herramientas de inteligencia de negocio (BI) que permiten crear informes personalizados y gráficos interactivos. Estas visualizaciones facilitan la toma de decisiones estratégicas basadas en datos reales y actualizados.
-
-Es importante destacar que la elección del CRM adecuado depende de las necesidades específicas de cada empresa. Algunos sistemas son más orientados a pequeñas empresas, ofreciendo funcionalidades básicas y un costo accesible, mientras que otros están diseñados para grandes corporaciones con requerimientos complejos y altos niveles de personalización.
-
-La implementación exitosa de un CRM requiere una planificación cuidadosa. Esto incluye la identificación de los procesos a automatizar, la selección de campos relevantes para el registro de clientes, y la definición de roles y privilegios adecuados para diferentes usuarios dentro de la organización.
-
-En resumen, los CRM actuales representan una herramienta poderosa para mejorar la eficiencia operativa y la satisfacción del cliente. Su capacidad para integrarse con otros sistemas empresariales y proporcionar análisis detallados de datos es fundamental en un entorno competitivo. A medida que las empresas continúan evolucionando, los CRM seguirán adaptándose para ofrecer soluciones cada vez más sofisticadas y centradas en el cliente.
 
 <a id="tipos-de-licencias-de-los-erp-crm"></a>
 ## Tipos de licencias de los ERP-CRM
 
-En el mundo empresarial, los sistemas ERP-CRM (Enterprise Resource Planning - Planificación de Recursos Empresariales y Customer Relationship Management - Gestión Relacional de Clientes) son herramientas cruciales que optimizan la eficiencia operativa y facilitan la toma de decisiones estratégicas. Uno de los aspectos importantes a considerar al seleccionar un sistema ERP-CRM es su licenciatura, ya que esto puede tener un impacto significativo en el costo total de implementación y en las capacidades del software.
-
-Existen varios tipos de licencias para sistemas ERP-CRM, cada una con sus propias ventajas y desventajas. La licencia más común es la licencia por usuario (User License), que se basa en el número de usuarios activos que utilizarán el sistema. Esta opción ofrece un control preciso sobre los recursos disponibles y puede ser adecuada para empresas con un uso variable o fluctuante.
-
-Otra opción popular es la licencia por módulo (Module License). En este caso, el software se divide en diferentes módulos, cada uno con su propio conjunto de funciones. Las empresas pueden elegir solo los módulos que necesitan, lo que puede resultar en una mayor eficiencia económica y un uso más personalizado del sistema.
-
-Además, existen licencias basadas en la cantidad de datos gestionados (Data License). Esta opción es especialmente útil para empresas con grandes volúmenes de información a manejar. La tarifa se calcula según el tamaño del conjunto de datos almacenado, lo que puede ser más económico si la empresa espera un crecimiento significativo.
-
-La licencia por uso (Usage License) es otra variante interesante. En este modelo, el costo se basa en la cantidad de tiempo que los usuarios pasan utilizando el sistema. Esta opción puede ser útil para empresas con flujos de trabajo altamente dinámicos o para aquellos que desean pagar solo por lo que utilizan.
-
-Es importante destacar que cada tipo de licencia tiene sus propias consideraciones y requisitos. Por ejemplo, algunas licencias pueden requerir una adquisición inicial más alta pero ofrecen un mayor control sobre los recursos disponibles. En cambio, las licencias basadas en el uso pueden ser más económicas a corto plazo pero pueden resultar costosas a largo plazo si la empresa experimenta un crecimiento significativo.
-
-Además de considerar el tipo de licencia, también es crucial evaluar cómo se aplican los términos y condiciones asociados. Algunas licencias pueden incluir restricciones sobre la exportación del software o la capacidad de utilizarlo en múltiples ubicaciones geográficas. Es fundamental que las empresas comprendan estos detalles para evitar futuros problemas legales.
-
-En resumen, al seleccionar un sistema ERP-CRM y su tipo de licencia, las empresas deben considerar cuidadosamente sus necesidades específicas, el tamaño del equipo de usuarios y los factores económicos. Cada tipo de licencia tiene sus ventajas y desventajas, por lo que es crucial realizar una evaluación exhaustiva para tomar la decisión más informada posible. Una buena comprensión de las diferentes opciones disponibles permitirá a las empresas encontrar la solución ERP-CRM que mejor se adapte a su situación empresarial, optimizando así su eficiencia operativa y reduciendo los costos asociados con el software.
 
 <a id="sistemas-gestores-de-bases-de-datos-compatibles-con-el-software"></a>
 ## Sistemas gestores de bases de datos compatibles con el software
 
-En la identificación de sistemas ERP-CRM, es crucial entender que estos programas requieren una base de datos sólida para almacenar y gestionar toda la información empresarial. Los sistemas gestores de bases de datos (SGBDs) desempeñan un papel fundamental en esta tarea, proporcionando las herramientas necesarias para crear, mantener y optimizar el almacenamiento de datos.
-
-Existen varios tipos de SGBDs que son compatibles con los sistemas ERP-CRM, cada uno con sus propias características y ventajas. Algunos de los más populares incluyen MySQL, PostgreSQL, Oracle Database y Microsoft SQL Server. Cada uno de estos SGBDs ofrece diferentes niveles de escalabilidad, rendimiento y funcionalidad que pueden adaptarse a las necesidades específicas de una empresa.
-
-MySQL es conocido por su alta disponibilidad y facilidad de uso, lo que lo hace ideal para aplicaciones ERP-CRM que requieren un alto nivel de confiabilidad. PostgreSQL ofrece características avanzadas como soporte para transacciones ACID, lo que lo convierte en una opción sólida para entornos empresariales complejos.
-
-Oracle Database es una solución robusta y segura, especialmente adecuada para grandes empresas con requisitos de alta disponibilidad y rendimiento. Su capacidad para manejar grandes volúmenes de datos y su soporte para múltiples usuarios simultáneos lo hacen una opción popular en el mercado.
-
-Microsoft SQL Server, por otro lado, es conocido por su integridad y compatibilidad con otros productos Microsoft, lo que facilita la implementación y gestión de sistemas ERP-CRM dentro de entornos corporativos. Su soporte para transacciones distribuidas y su capacidad para manejar grandes volúmenes de datos hacen de SQL Server una opción sólida para aplicaciones empresariales.
-
-Al seleccionar un SGBD compatible con los sistemas ERP-CRM, es importante considerar factores como la escalabilidad, el rendimiento, la seguridad, la compatibilidad con otros productos y las capacidades de soporte técnico. Cada empresa tendrá sus propias necesidades específicas, por lo que es crucial realizar una evaluación cuidadosa para seleccionar el SGBD más adecuado.
-
-Además, es importante tener en cuenta que los sistemas ERP-CRM suelen requerir un alto nivel de integridad y seguridad en la gestión de datos. Por lo tanto, es fundamental elegir un SGBD que ofrezca características avanzadas como control de transacciones, autenticación y autorización, y copias de seguridad regulares.
-
-En resumen, al identificar sistemas ERP-CRM, es crucial considerar el tipo de SGBD que mejor se adapte a las necesidades específicas de la empresa. Cada SGBD tiene sus propias características y ventajas, por lo que es importante realizar una evaluación cuidadosa para seleccionar el más adecuado. Además, es fundamental tener en cuenta factores como la escalabilidad, el rendimiento, la seguridad y la compatibilidad con otros productos al elegir un SGBD compatible con los sistemas ERP-CRM.
 
 <a id="instalacion-y-configuracion-del-sistema-informatico"></a>
 ## Instalación y configuración del sistema informático
 
-La instalación y configuración del sistema informático es un proceso fundamental que garantiza la correcta operativa de cualquier software empresarial, como los sistemas ERP (Enterprise Resource Planning) y CRM (Customer Relationship Management). Este proceso implica no solo el despliegue del software en el entorno adecuado sino también su ajuste a las necesidades específicas de la organización. 
-
-El primer paso es seleccionar un sistema ERP o CRM que se adapte a los requisitos de la empresa, considerando factores como la escala operativa, la complejidad de los procesos y el presupuesto disponible. Una vez elegido el software, se procede con la instalación, que puede realizarse de manera local en servidores dedicados o en la nube, dependiendo de las preferencias organizacionales.
-
-La configuración del sistema es igualmente crucial. Involucra la definición de parámetros y ajustes específicos para que el software funcione según las necesidades de la empresa. Esto puede incluir la creación de campos personalizados, la configuración de roles y permisos, y la definición de procesos de negocio específicos.
-
-Es importante destacar que la instalación y configuración no son tareas una sola vez, sino un proceso continuo que debe adaptarse a los cambios en las necesidades de la empresa. Por lo tanto, es recomendable establecer un sistema de mantenimiento y actualización regular para asegurar el funcionamiento óptimo del software.
-
-Además, durante este proceso, es fundamental documentar todas las operaciones realizadas. Esto no solo facilita el seguimiento y auditoría de los cambios, sino que también es invaluable en caso de problemas o necesidades de soporte futuro.
-
-La instalación y configuración del sistema informático requiere un conocimiento profundo del software y una comprensión clara de las necesidades organizacionales. Es recomendable contar con la asistencia de profesionales experimentados para garantizar que el proceso se realice correctamente y que el sistema funcione eficientemente desde el primer día.
-
-En resumen, la instalación y configuración del sistema informático es un paso crucial en la implementación de sistemas ERP-CRM. Involucra la selección adecuada del software, su despliegue y ajuste a las necesidades organizacionales, así como un proceso continuo de mantenimiento y documentación para asegurar su funcionamiento óptimo.
 
 <a id="verificacion-de-la-instalacion-y-configuracion"></a>
 ## Verificación de la instalación y configuración
 
-La verificación de la instalación y configuración es un paso crucial que garantiza que el sistema ERP-CRM funcione correctamente una vez implementado. Este proceso implica comprobar que todos los componentes del sistema están correctamente instalados y configurados, lo que asegura su integridad y eficiencia operativa.
+### Introducción a los ejercicios
 
-Para realizar esta verificación, se deben seguir varios pasos fundamentales. Primero, es necesario revisar la documentación proporcionada por el proveedor del ERP-CRM para entender los requisitos específicos de instalación y configuración. Esta documentación suele incluir instrucciones detalladas sobre cómo instalar el software en diferentes entornos (desarrollo, pruebas, producción), así como las configuraciones necesarias para que el sistema funcione correctamente.
+Este conjunto de ejercicios está diseñado para ayudarte a entender cómo trabajar con sistemas de gestión empresarial, específicamente en la identificación y verificación de instalaciones y configuración de sistemas ERP y CRM. Los problemas abordan temas como el mapeo entre XML y HTML, el parseo de archivos XML, la creación y manipulación de bases de datos SQLite a partir de definiciones en XML, y la implementación de un servidor web básico con Flask para manejar formularios y tablas.
 
-Una vez completada la instalación, se debe realizar una serie de pruebas básicas para asegurar que todos los módulos del ERP-CRM están funcionando. Esto puede incluir la creación y gestión de usuarios, la realización de consultas básicas en las bases de datos, y la generación de informes simples. Estas pruebas ayudan a identificar cualquier problema o incompatibilidad que pueda haber surgido durante el proceso de instalación.
-
-Además de las pruebas funcionales, es importante verificar que los permisos y roles estén correctamente configurados. Esto asegura que solo los usuarios autorizados puedan acceder a ciertas partes del sistema, lo que protege la información sensible y prevenir el acceso no autorizado.
-
-La verificación también debe incluir la comprobación de las conexiones con otros sistemas o bases de datos que el ERP-CRM necesita para funcionar. Esto puede implicar la configuración de interfaces de comunicación, la creación de enlaces a bases de datos externas, y la realización de pruebas de integración.
-
-Es crucial también revisar los logs del sistema para identificar cualquier error o advertencia durante el proceso de instalación y configuración. Los logs proporcionan una visión detallada de lo que sucedió en el sistema, lo que puede ser invaluable para diagnosticar problemas y solucionarlos rápidamente.
-
-Además, se debe realizar una verificación de rendimiento inicial para asegurar que el ERP-CRM está funcionando eficientemente. Esto puede implicar la realización de pruebas de carga simuladas o la observación del uso de recursos del sistema (CPU, memoria, disco). Un buen rendimiento es fundamental para mantener un sistema ERP-CRM operativo y satisfactorio.
-
-La verificación también debe incluir una revisión de seguridad para asegurar que el sistema está protegido contra amenazas potenciales. Esto puede implicar la configuración de firewalls, la realización de pruebas de penetración, y la revisión de políticas de acceso y control de usuarios.
-
-Finalmente, es importante documentar todos los pasos realizados durante la verificación de instalación y configuración. Esta documentación debe incluir detalles sobre cualquier problema encontrado, las soluciones implementadas, y las acciones futuras recomendadas para mantener el sistema funcionando correctamente.
-
-La verificación de la instalación y configuración es un proceso integral que asegura que el ERP-CRM esté listo para su uso en producción. Al seguir los pasos adecuados y realizar una revisión exhaustiva, se puede garantizar que el sistema funcione eficientemente y satisfactoriamente, proporcionando a la empresa las herramientas necesarias para mejorar su operación y tomar decisiones informadas.
+A través de estos ejercicios, aprenderás habilidades fundamentales como procesar estructuras XML para extraer información, crear interfaces web basadas en esquemas XML, gestionar bases de datos desde Python, y desarrollar aplicaciones web simples usando el framework Flask. Estos ejercicios te proporcionan una base sólida para trabajar con sistemas empresariales que utilizan tecnologías como XML y SQLite para la configuración y manejo de datos.
 
 ### mapear xml
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código está utilizando una biblioteca llamada `lxml` para trabajar con archivos XML en Python. La función principal es leer un archivo XML llamado `interfaz.xml`, analizarlo y mostrar la estructura raíz del archivo en pantalla.
+
+1. Primero, el programa importa la clase `etree` desde la biblioteca `lxml`. Esta clase proporciona funciones para manejar archivos XML de manera eficiente.
+2. Luego, se crea un objeto llamado `tree`, que contiene todo el contenido del archivo XML especificado (`interfaz.xml`). Este archivo es importante porque probablemente almacena información relevante para la configuración y verificación del sistema ERP-CRM en este contexto.
+3. A continuación, con la línea `root = tree.getroot()`, se obtiene el elemento raíz del árbol XML que se acaba de parsear. El elemento raíz es el primer elemento del archivo XML que no está dentro de otro elemento.
+4. Finalmente, el programa imprime en pantalla este elemento raíz. Esto te permite ver la estructura principal del documento XML y verificar si se ha leído correctamente.
+
+Este código es crucial para entender cómo se ha configurado o instalado el sistema ERP-CRM a partir de la información que contiene el archivo `interfaz.xml`.
+
+`003-mapear xml.py`
 
 ```python
 from lxml import etree
@@ -215,6 +126,19 @@ print(root)
 ```
 
 ### parsear entero
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código en Python tiene como objetivo leer y analizar un archivo XML llamado `interfaz.xml`. La librería `xml.etree.ElementTree` proporciona herramientas para manejar archivos XML de manera eficiente. En primer lugar, el código carga el contenido del archivo `interfaz.xml` utilizando la función `ET.parse()`, que devuelve un objeto `ElementTree`.
+
+Luego, se obtiene el elemento raíz del árbol XML con `tree.getroot()`. Este elemento raíz es generalmente donde comienza la estructura principal del documento XML. El código imprime en pantalla el nombre del elemento raíz usando `print("Root element:", root.tag)`.
+
+Finalmente, se recorre cada uno de los elementos hijos directos del elemento raíz utilizando un bucle for. Para cada elemento hijo, el código imprime su etiqueta (nombre) y cualquier atributo llamado 'nombre' que pueda tener ese elemento.
+
+Este tipo de script es útil para entender la estructura básica de un archivo XML o validar la correcta carga e interpretación del mismo en un programa Python. Es una etapa importante en el desarrollo de aplicaciones que manejan datos estructurados en formato XML, como podría ser la configuración de sistemas ERP (Enterprise Resource Planning) o CRM (Customer Relationship Management).
+
+`004-parsear entero.py`
 
 ```python
 import xml.etree.ElementTree as ET
@@ -232,6 +156,23 @@ for campo in root:
 ```
 
 ### mapeo
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código es una función llamada `miInterfaz` que toma un parámetro llamado `destino`. Su objetivo principal es leer y analizar un archivo XML especificado por el usuario, buscar elementos específicos dentro de ese archivo (como "campotexto" o "areadetexto"), e imprimir y concatenar texto HTML basado en esos elementos. 
+
+La función comienza creando una cadena vacía llamada `cadena`, que será utilizada para almacenar la salida final del código, es decir, fragmentos de código HTML.
+
+Luego, el archivo XML especificado por `destino` se parsea y su elemento raíz es obtenido y guardado en la variable `root`. A continuación, el código recorre cada hijo del elemento raíz. Para cada hijo, imprime la etiqueta y cualquier atributo 'nombre' que tenga.
+
+Si la etiqueta del nodo actual es "campotexto", el código añade una línea de HTML para un campo de texto a `cadena`. Si por otro lado la etiqueta es "areadetexto", se agrega una línea de HTML correspondiente para un área de texto. 
+
+Finalmente, la función devuelve la cadena final con todos los fragmentos HTML generados.
+
+Esta funcionalidad es útil cuando necesitas generar interfaces web dinámicas basadas en información estructurada almacenada en archivos XML, simplificando el proceso de creación y modificación de formularios web.
+
+`005-mapeo.py`
 
 ```python
 import xml.etree.ElementTree as ET
@@ -257,6 +198,17 @@ def miInterfaz(destino):
 ```
 
 ### servidor que convierte
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código es una aplicación web simple creada usando la biblioteca Flask en Python. La función principal de este código es ejecutar un servidor web que cuando se accede a su página inicial (también conocida como raíz o ruta '/') retorna el resultado de llamar a la función `miInterfaz` desde el archivo `mifuncion.py`, pasándole como parámetro el nombre del archivo XML "interfaz.xml". 
+
+Lo que hace este código es configurar un servidor web básico utilizando Flask, donde la aplicación (`app`) está lista para recibir solicitudes en su ruta raíz. Cuando alguien accede a esa dirección, se ejecuta la función `home()`, que llama internamente a otra función llamada `miInterfaz` definida en otro archivo de Python.
+
+Es importante destacar que esta aplicación solo tiene una ruta configurada ('/') y está diseñada para ser ejecutada directamente. El archivo `mifuncion.py` debe contener la implementación detallada de cómo procesa el XML proporcionado para devolver algo útil al usuario del servidor web, como información estructurada o datos formateados.
+
+`006-servidor que convierte.py`
 
 ```python
 from flask import Flask
@@ -273,6 +225,23 @@ if __name__ == '__main__':
 ```
 
 ### servidor que recibe
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código es una aplicación web simple creada utilizando Flask, un framework ligero para Python. La función principal de este script es servir como interfaz entre un cliente (por ejemplo, un navegador web) y el servidor que ejecuta la aplicación.
+
+El archivo importa dos funciones desde otro módulo llamado `mifuncion2`: `miInterfaz` y `tablaInterfaz`. Estas funciones son responsables de generar contenido HTML para mostrar en la página del sitio web. La función `miInterfaz()` probablemente muestra un formulario que permite a los usuarios enviar datos, mientras que `tablaInterfaz()` podría presentar una tabla con registros previamente almacenados.
+
+La aplicación tiene dos rutas definidas:
+- La ruta raíz ('/') maneja tanto solicitudes GET como POST. En el caso de una solicitud GET, la función `home` devuelve un formulario generado por `miInterfaz()`. Si es una solicitud POST, también utiliza `miInterfaz()` para procesar los datos enviados por el usuario.
+- La ruta '/tabla' simplemente muestra una tabla con los registros guardados utilizando la función `tablaInterfaz()`.
+
+Finalmente, si se ejecuta este script directamente (no como un módulo importado), llama a `app.run(debug=True)`, lo que inicia el servidor Flask en modo de depuración. Esto es útil durante la fase de desarrollo ya que proporciona información adicional sobre los errores y permite recargar automáticamente el servidor cuando se hacen cambios en el código.
+
+Este tipo de estructura es importante porque ayuda a organizar la lógica del servidor web, separando claramente las responsabilidades entre manejar solicitudes HTTP y generar contenido dinámico.
+
+`007-servidor que recibe.py`
 
 ```python
 from flask import Flask, request
@@ -295,6 +264,19 @@ if __name__ == '__main__':
 ```
 
 ### interfaz
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código es un archivo XML que representa el diseño básico de un formulario en una página web. En este contexto, XML (eXtensible Markup Language) se utiliza para estructurar y almacenar datos de manera clara y legible.
+
+El documento comienza con la declaración de versión del XML (`<?xml version="1.0" encoding="UTF-8"?>`), que indica que el archivo está utilizando la versión 1.0 del lenguaje XML y que los caracteres están codificados en UTF-8, lo cual es una forma común de representar texto con caracteres internacionales.
+
+El elemento principal del documento es `<formulario>`, que agrupa todos los campos del formulario. Dentro de este elemento, se encuentran varios elementos `<campotexto>` para campos de texto cortos como nombre, apellidos, email, dirección y país. Cada uno de estos elementos tiene un atributo `nombre` que identifica el propósito específico del campo. Además, hay un elemento `<areadetexto>` con el nombre "mensaje", que es probablemente donde los usuarios podrán escribir un texto más largo.
+
+Este archivo XML sirve como una plantilla para generar formularios en aplicaciones web, facilitando la separación de la lógica del programa y el contenido visual. Es importante porque permite a otros programadores o diseñadores web entender fácilmente qué campos se necesitan y cómo están organizados en el formulario sin tener que leer código complejo.
+
+`interfaz.xml`
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -309,6 +291,21 @@ if __name__ == '__main__':
 ```
 
 ### mifuncion
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código en Python está diseñado para crear una tabla en una base de datos SQLite y generar un formulario HTML básico a partir de un archivo XML. El archivo XML contiene información sobre los campos que deben aparecer en el formulario, como etiquetas de entrada de texto o áreas de texto.
+
+El código comienza importando las bibliotecas necesarias: `xml.etree.ElementTree` para manejar archivos XML y `sqlite3` para interactuar con la base de datos SQLite. Luego, define una función llamada `miInterfaz` que recibe como parámetro el nombre del archivo XML.
+
+Dentro de la función, se establece una conexión a la base de datos SQLite "odoo.db" y se crea un cursor para ejecutar comandos SQL. El código luego parsea el archivo XML proporcionado y lo carga en una estructura de árbol. A continuación, itera sobre cada elemento hijo del elemento raíz del archivo XML.
+
+Para cada campo encontrado en el archivo XML (que puede ser de tipo `campotexto` o `areadetexto`), se construye tanto la declaración SQL para crear una columna en la tabla SQLite como un fragmento HTML que representa ese campo en un formulario. Finalmente, se ejecuta la consulta SQL para crear la tabla y se guarda la conexión a la base de datos.
+
+El código devuelve la cadena `cadena`, que es el HTML generado para los campos del formulario basado en la información proporcionada en el archivo XML. Esto es importante porque permite una mayor flexibilidad al poder actualizar o cambiar fácilmente el diseño del formulario simplemente modificando el archivo XML sin tener que tocar directamente el código Python.
+
+`mifuncion.py`
 
 ```python
 import xml.etree.ElementTree as ET
@@ -355,6 +352,23 @@ def miInterfaz(destino):
 ```
 
 ### mifuncion2
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código es una función Python que se utiliza para crear y gestionar un formulario basado en un archivo XML. La idea principal es permitir a los usuarios llenar datos según el diseño especificado en el XML, guardar estos datos en una base de datos SQLite y luego mostrarlos en forma de tabla HTML.
+
+1. **Función `_get_fields_from_xml(root)`**: Esta función recibe como parámetro un objeto raíz del árbol XML (que se obtiene al parsear el archivo XML), y devuelve una lista de tuplas que contienen los nombres y tipos de campos definidos en el XML. Solo considera nodos con etiquetas `campotexto` o `areadetexto`.
+
+2. **Función `_ensure_table(root)`**: Asegura que la tabla llamada "interfaz" exista en la base de datos SQLite. Si no existe, se crea basándose en los campos definidos en el XML parseado.
+
+3. **Función `miInterfaz(destino_xml: str)`**: Esta función maneja tanto las solicitudes GET como POST. En una solicitud GET, renderiza un formulario HTML basado en la estructura del archivo XML dado (`destino_xml`). Cada campo de entrada (input o textarea) es construido según los datos proporcionados por `_get_fields_from_xml()`. Cuando se recibe una solicitud POST (es decir, cuando el usuario envía el formulario), los datos son insertados en la base de datos SQLite y el sistema responde con un mensaje indicando que los datos han sido guardados correctamente.
+
+4. **Función `tablaInterfaz(destino_xml: str)`**: Esta función renderiza una tabla HTML que muestra todos los registros almacenados en la base de datos, basándose nuevamente en el diseño especificado por el archivo XML. Esto permite a los usuarios ver visualmente qué información ha sido guardada previamente.
+
+Este código es fundamental para entender cómo se pueden crear interfaces web dinámicas y gestionar fácilmente datos complejos usando Python, SQLite y HTML/CSS. Es una excelente introducción al desarrollo de aplicaciones web sencillas que interactúan con bases de datos.
+
+`mifuncion2.py`
 
 ```python
 import xml.etree.ElementTree as ET
@@ -550,6 +564,21 @@ def tablaInterfaz(destino_xml: str):
 ```
 
 ### servidor
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código es una pequeña aplicación web que utiliza el framework Flask para mostrar un mensaje "Hola mundo" en la página principal del sitio. Cuando ejecutas este script, Flask crea un servidor web simple que puedes acceder desde tu navegador web.
+
+El fragmento comienza importando `Flask`, que es el núcleo de esta biblioteca que nos ayuda a crear aplicaciones web rápidamente. Luego, creamos una instancia de la aplicación llamada `app`.
+
+Después, definimos una ruta para la página principal ('/') y asociamos con ella una función llamada `home()`. Esta función simplemente devuelve un string HTML que muestra el mensaje "Hola mundo desde Flask" cuando alguien visita la página inicial del servidor.
+
+Por último, el bloque `if __name__ == '__main__':` asegura que la aplicación solo se inicie si estás ejecutando este archivo directamente y no lo importas como módulo en otro script. Dentro de esta condición, llamamos a `app.run()`, lo que lanza un servidor local para correr nuestra aplicación Flask.
+
+Este tipo de código es importante porque te permite entender cómo crear una interfaz web básica usando Python, lo cual es fundamental si vas a trabajar con sistemas de gestión empresarial donde necesitas integrar funcionalidades web en tus proyectos.
+
+`servidor.py`
 
 ```python
 from flask import Flask
@@ -564,35 +593,104 @@ if __name__ == '__main__':
     app.run()
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Análisis de XML y Generación de Formulario HTML Básico
+
+**Descripción:** 
+Los estudiantes deben analizar el archivo `interfaz.xml` y generar un formulario HTML básico utilizando los datos proporcionados en el archivo XML. Se espera que implementen una función similar a la del archivo `005-mapeo.py`, pero con algunas diferencias menores para adaptarla a sus propias necesidades.
+
+**Objetivo:** Familiarizarse con la lectura y manipulación de archivos XML usando Python, así como la generación básica de HTML desde código dinámico.
+
+### Actividad 2: Integración de Flask con Interfaz XML
+
+**Descripción:** 
+Los estudiantes deben crear un servidor web simple utilizando Flask que lea el archivo `interfaz.xml` y genere una página con formulario. Este formulario debe estar enlazado a la función `miInterfaz()` del archivo `mifuncion.py`.
+
+**Objetivo:** Comprender cómo integrar un sistema de gestión empresarial básico, utilizando Flask para crear un servidor web que interactúa directamente con archivos XML.
+
+### Actividad 3: Implementación de Mecanismo de Guardado y Recuperación de Datos
+
+**Descripción:** 
+Los estudiantes deben modificar la función `miInterfaz()` en el archivo `mifuncion2.py` para implementar un mecanismo que permita guardar datos del formulario en una base de datos SQLite. Además, se espera que desarrollen una nueva ruta en Flask (`/tabla`) que muestre todos los registros almacenados en la tabla.
+
+**Objetivo:** Aprender a utilizar SQLite con Python y entender cómo estructurar sistemas de gestión empresarial más complejos.
+
+### Actividad 4: Mejora del Diseño del Formulario
+
+**Descripción:** 
+Los estudiantes deben mejorar el diseño del formulario generado por `miInterfaz()` en `mifuncion2.py`, incorporando CSS básico para hacerlo más visualmente atractivo y funcional. Se espera que incluyan estilos de botones, colores, márgenes y otras características simples.
+
+**Objetivo:** Aprender conceptos básicos del diseño web y cómo integrarlos en un sistema de gestión empresarial.
+
+### Actividad 5: Creación de Módulos Personalizados
+
+**Descripción:** 
+Los estudiantes deben crear nuevos módulos personalizados para el servidor Flask, basándose en las funciones ya existentes pero añadiendo funcionalidades adicionales. Por ejemplo, podrían desarrollar un sistema que permita a los usuarios modificar o eliminar registros.
+
+**Objetivo:** Desarrollar habilidades de programación modular y comprensión del ciclo de vida de desarrollo de aplicaciones web.
+
+### Actividad 6: Validación de Formularios
+
+**Descripción:** 
+Los estudiantes deben implementar validación básica para el formulario generado por `miInterfaz()`, asegurándose de que los campos requeridos no estén vacíos y que se cumplan ciertas reglas adicionales, como la longitud mínima para cadenas.
+
+**Objetivo:** Entender cómo realizar validaciones en formularios web para mejorar la seguridad y la experiencia del usuario.
+
+### Actividad 7: Integración con Sistemas Externos
+
+**Descripción:** 
+Los estudiantes deben implementar una función básica que permita integrarse con un sistema externo (por ejemplo, API RESTful de otra aplicación). Esto podría incluir leer datos desde una fuente externa y mostrarlos en el formulario.
+
+**Objetivo:** Aprender a conectar diferentes sistemas y servicios utilizando APIs web para crear soluciones empresariales más robustas.
+
+### Actividad 8: Documentación del Proyecto
+
+**Descripción:** 
+Los estudiantes deben escribir documentación clara sobre su proyecto, explicando cómo funciona cada componente (Flask, XML parsing, base de datos) y proporcionando ejemplos de uso. Se espera que incluyan también capturas de pantalla y explicaciones detalladas.
+
+**Objetivo:** Mejorar habilidades en la comunicación técnica y documentación de proyectos de software empresarial.
+
+
 <a id="documentacion-de-las-operaciones-realizadas"></a>
 ## Documentación de las operaciones realizadas
 
-La documentación es un componente crucial en cualquier proyecto de desarrollo, especialmente cuando se trata de sistemas complejos como los ERP-CRM (Enterprise Resource Planning - Planificación de Recursos Empresariales y Customer Relationship Management - Gestión Relacional de Clientes). Esta subunidad se centra específicamente en la documentación de las operaciones realizadas durante el proceso de instalación, configuración y posterior uso del sistema ERP-CRM.
-
-La documentación de las operaciones realizadas es una práctica que permite a los usuarios entender completamente cómo funciona el sistema, identificar cualquier problema o anomalía que pueda surgir y facilitar la actualización y mantenimiento del software. Esta documentación debe abordar varios aspectos importantes: desde la instalación inicial hasta la configuración de módulos específicos, pasando por la creación de formularios personalizados y el desarrollo de informes.
-
-Durante la fase de instalación, es fundamental registrar todos los pasos realizados, incluyendo la selección del sistema ERP-CRM, la configuración del entorno de ejecución, la instalación de dependencias necesarias y cualquier ajuste adicional que se realice. Esta documentación ayudará a prevenir problemas futuros y facilitará el soporte técnico en caso de necesidad.
-
-La configuración del sistema es otro aspecto crucial que debe ser documentado detalladamente. Esto incluye la selección de módulos, la personalización de parámetros de configuración, la creación de tablas y vistas adaptadas a las necesidades específicas de la empresa, y la definición de consultas necesarias para obtener información relevante. Documentar estos procesos permite a los usuarios entender cómo el sistema está estructurado y cómo interactuar con él.
-
-Además, la documentación debe abordar el desarrollo de componentes personalizados, como formularios e informes. Es importante registrar todos los cambios realizados en estos elementos, incluyendo las modificaciones en el código fuente, las pruebas realizadas y cualquier problema encontrado durante este proceso. Esta documentación es esencial para garantizar la integridad del sistema y facilitar futuras actualizaciones.
-
-La creación de paneles de control (dashboards) también debe ser documentada, incluyendo los pasos realizados para configurar las gráficos y listas que se mostrarán en el panel. Esta documentación ayudará a los usuarios entender cómo interpretar la información presentada en el dashboard y cómo realizar ajustes si es necesario.
-
-La integración del sistema ERP-CRM con otros sistemas de gestión es otro aspecto importante que debe ser documentado. Esto incluye la configuración de interfaces de entrada de datos, la creación de formularios personalizados para sincronizar información entre sistemas, y la definición de procesos de extracción de datos. Documentar estos procesos facilitará el mantenimiento del sistema y permitirá a los usuarios entender cómo el sistema interactúa con otros sistemas.
-
-La documentación también debe abordar la inteligencia de negocio (Business Intelligence), incluyendo la creación de informes personalizados, paneles de control y gráficos que ayuden a analizar datos y tomar decisiones estratégicas. Es importante registrar todos los pasos realizados en este proceso, incluyendo las consultas SQL utilizadas y cualquier problema encontrado durante el análisis.
-
-En resumen, la documentación de las operaciones realizadas es un componente fundamental del desarrollo y mantenimiento de sistemas ERP-CRM. Al detallar cada paso del proceso, desde la instalación inicial hasta la creación de componentes personalizados y la inteligencia de negocio, se facilita la comprensión del sistema, el diagnóstico de problemas y la actualización del software. Esta documentación es esencial para garantizar la integridad del sistema y facilitar su uso por parte de los usuarios finales.
 
 <a id="ejercicio-de-final-de-unidad"></a>
 ## Ejercicio de final de unidad
 
-### ejercicio
+### Introducción a los ejercicios
 
-```markdown
+En esta unidad, te encuentras con un conjunto de ejercicios diseñados para ayudarte a comprender y aplicar el conocimiento sobre sistemas ERP (Enterprise Resource Planning) y CRM (Customer Relationship Management). El objetivo principal es identificar cómo estos sistemas operan en entornos empresariales reales, analizando sus componentes clave y su integración. A través de este ejercicio, practicarás la habilidad de evaluar las necesidades de gestión empresarial y seleccionar los sistemas adecuados para satisfacerlas, desarrollando así una comprensión sólida del papel que juegan ERP y CRM en el funcionamiento diario de una empresa.
 
-```
+### Actividades propuestas
+
+### Actividad 1: Análisis y Documentación del Ejercicio
+- **Descripción:** Los estudiantes deben leer cuidadosamente el archivo `ejercicio.md` para entender la tarea propuesta. Después, deberán documentar en un documento markdown los principales conceptos y pasos necesarios para completar el ejercicio. La idea es que refuercen sus habilidades de análisis y documentación técnica.
+
+### Actividad 2: Comentarios Explicativos
+- **Descripción:** Los estudiantes añadirán comentarios a las líneas clave del código en `ejercicio.md` para explicar su función. Esto ayudará a mejorar sus capacidades de comunicación técnica y entendimiento profundo del código proporcionado.
+
+### Actividad 3: Refactorización del Código
+- **Descripción:** Con el objetivo de mejorar la legibilidad y mantenibilidad del código, los estudiantes refactorizarán el contenido del archivo `ejercicio.md`. Esto incluirá simplificar estructuras complejas, nombrar variables y funciones más descriptivamente.
+
+### Actividad 4: Identificación de Problemas
+- **Descripción:** Los alumnos deberán identificar posibles errores o áreas problemáticas en el ejercicio descrito. Luego escribirán un informe detallando las potenciales fallas, junto con sugerencias para corregirlas.
+
+### Actividad 5: Creación de Pruebas Unitarias
+- **Descripción:** A partir del contenido del archivo `ejercicio.md`, los estudiantes crearán pruebas unitarias básicas para verificar la correcta implementación de cada función o proceso descrito. Esto reforzará sus habilidades en diseño y codificación de tests.
+
+### Actividad 6: Comparación con Otros Módulos
+- **Descripción:** Los alumnos analizarán cómo el contenido del ejercicio en `ejercicio.md` se relaciona con otros módulos o sistemas ERP-CRM. Esto ayudará a entender la integración y aplicación práctica de los conceptos estudiados.
+
+### Actividad 7: Integración en Sistema ERP
+- **Descripción:** Los estudiantes diseñarán un esquema simplificado para integrar el ejercicio en un sistema ERP existente. Deberán describir cómo este código se vincula con otros módulos del sistema y cuál sería su impacto.
+
+### Actividad 8: Propuesta de Mejoras
+- **Descripción:** Los estudiantes propondrán mejoras adicionales al contenido del archivo `ejercicio.md`, considerando tanto las características del software como la eficiencia operativa. Esto ayudará a desarrollar habilidades de pensamiento crítico y propuestas innovadoras.
+
+Estas actividades están diseñadas para que los estudiantes no solo trabajen con el código proporcionado, sino también reflexionen sobre su propósito y aplicación en un entorno empresarial real.
+
 
 
 <a id="instalacion-y-configuracion-de-sistemas-erp-crm"></a>
@@ -601,579 +699,313 @@ En resumen, la documentación de las operaciones realizadas es un componente fun
 <a id="tipos-de-instalacion"></a>
 ## Tipos de instalación.
 
-En la instalación y configuración de sistemas ERP-CRM, los primeros pasos son fundamentales para asegurar que el software funcione correctamente y satisfaga las necesidades específicas de la empresa. Existen varios tipos de instalaciones que dependen del tamaño, la complejidad y las preferencias de cada organización.
-
-La primera opción es la instalación local, donde el sistema ERP-CRM se instala en los servidores internos de la empresa. Esta solución ofrece un alto nivel de control y seguridad, ya que todos los datos permanecen dentro del entorno corporativo. Sin embargo, requiere una mayor inversión inicial y administración técnica.
-
-La segunda opción es la instalación en la nube, también conocida como SaaS (Software as a Service). En este caso, el proveedor de ERP-CRM gestiona todo el hardware, software y mantenimiento, lo que permite a las empresas centrarse en sus operaciones principales. Aunque puede ser más costoso a largo plazo, ofrece la ventaja de escalabilidad y accesibilidad desde cualquier lugar.
-
-La tercera opción es la instalación híbrida, que combina elementos de la instalación local y en la nube. Esta configuración permite una mayor flexibilidad, ya que los datos críticos pueden almacenarse en el entorno corporativo mientras que otros tipos de información se almacenan en la nube.
-
-La elección del tipo de instalación depende de varios factores, como la infraestructura existente, las necesidades de seguridad, los presupuestos y los objetivos estratégicos de la empresa. Es crucial realizar una evaluación detallada para determinar cuál es la opción más adecuada.
-
-Una vez elegido el tipo de instalación, se procede a la configuración del sistema ERP-CRM. Esto implica la definición de parámetros como las monedas, los idiomas, los formatos de fecha y hora, entre otros. Además, se configuran los módulos que serán utilizados según las necesidades específicas de la empresa.
-
-Es importante destacar que la configuración del sistema ERP-CRM no es una tarea rápida ni sencilla. Requiere un conocimiento profundo del software y una comprensión clara de los procesos empresariales. Es recomendable contar con el apoyo de profesionales experimentados para asegurar una instalación correcta.
-
-Durante la configuración, se deben definir campos personalizados según las necesidades específicas de la empresa. Esto puede incluir campos adicionales en formularios y tablas para almacenar información relevante que no esté contemplada por el software por defecto.
-
-Además, es crucial realizar pruebas exhaustivas después de la instalación y configuración para verificar que todo funciona correctamente. Se deben probar los procesos clave del ERP-CRM, como la creación de pedidos, la gestión de inventario o la generación de informes financieros.
-
-La documentación de las operaciones realizadas durante la instalación y configuración es otro aspecto importante. Esta documentación debe incluir detalles sobre el tipo de instalación elegido, los parámetros de configuración, los módulos activados y cualquier ajuste personalizado realizado. La documentación facilitará futuras actualizaciones o cambios en el sistema.
-
-En resumen, la instalación y configuración de sistemas ERP-CRM requiere una planificación cuidadosa y una ejecución meticulosa. Al elegir el tipo de instalación adecuado y seguir un proceso de configuración riguroso, se puede asegurar que el software funcione eficientemente y satisfaga las necesidades empresariales.
 
 <a id="modulos-de-un-sistema-erp-crm"></a>
 ## Módulos de un sistema ERP-CRM
 
-En la instalación y configuración de sistemas ERP-CRM, los módulos desempeñan un papel crucial ya que representan las funcionalidades específicas que el sistema ofrecerá a la organización. Cada módulo es una unidad independiente del software que puede ser activado o desactivado según las necesidades particulares de la empresa. Por ejemplo, si la empresa opera en el sector retail, los módulos de gestión de inventario y ventas podrían ser fundamentales para su operación diaria.
+### Introducción a los ejercicios
 
-Los módulos de un sistema ERP-CRM pueden variar ampliamente dependiendo del proveedor y del tipo específico de software que se esté utilizando. Algunos ejemplos comunes incluyen el módulo de gestión financiera, que maneja las cuentas por cobrar y por pagar; el módulo de recursos humanos, que administra contratos laborales y beneficios; y el módulo de marketing digital, que gestiona campañas publicitarias y relaciones con clientes.
+Este conjunto de ejercicios se centra en el listado y desarrollo de pantallas para módulos específicos dentro de un sistema ERP-CRM como Odoo. Los estudiantes trabajarán con diferentes vistas y funcionalidades, como tarjetas kanban, grillas de clientes, formularios detallados, calendarios múltiples y paneles de control. La práctica incluirá la configuración visual de interfaces para diversos módulos empresariales, mejorando así sus habilidades en diseño UX/UI y gestión de sistemas administrativos.
 
-La configuración de los módulos es un proceso integral en la instalación del sistema ERP-CRM. Durante este paso, se deben definir las opciones específicas para cada módulo según las preferencias de la empresa. Por ejemplo, en el módulo de recursos humanos, se puede configurar cómo se manejarán los contratos laborales, qué tipos de beneficios estarán disponibles y cómo se calculará el salario neto.
+### Actividades propuestas
 
-Además de la configuración básica, es importante considerar la integración entre los diferentes módulos del sistema ERP-CRM. La coherencia en los datos y las operaciones entre estos módulos es crucial para evitar inconsistencias y errores en la información empresarial. Por ejemplo, si el módulo de ventas se integra correctamente con el módulo de inventario, cuando se realiza una venta, automáticamente se actualizará el stock disponible.
+1. **Análisis y diseño de pantallas**
+   - Actividad: Analiza el listado de pantallas proporcionado en el archivo y diseña una estructura gráfica para cada módulo ERP-CRM mencionado.
+   - Propósito: Los estudiantes deben entender la importancia del diseño visual en los sistemas empresariales y cómo mejorar la interacción usuario-sistema.
 
-La configuración también puede incluir la personalización de interfaces de usuario y formularios para que sean más intuitivos y adecuados a las necesidades específicas de la empresa. Esto puede implicar la creación de formularios personalizados o la modificación de los campos existentes para reflejar mejor los procesos internos de la organización.
+2. **Implementación de vistas Kanban**
+   - Actividad: Crea una implementación básica de vista Kanban para el módulo Ventas, donde las tarjetas representen pedidos.
+   - Propósito: Aprender a visualizar y manejar flujos de trabajo en sistemas ERP-CRM.
 
-Además, es importante establecer políticas de seguridad y acceso a los módulos del sistema ERP-CRM. Los roles y privilegios deben ser definidos de manera que solo los usuarios autorizados puedan acceder a las funciones específicas necesarias para su trabajo. Esto ayuda a proteger la integridad y confidencialidad de la información empresarial.
+3. **Vista de detalles del cliente**
+   - Actividad: Desarrolla una pantalla que muestre la información detallada de un cliente, incluyendo un formulario y sección para enviar correos.
+   - Propósito: Aprender a manejar datos estructurados y su visualización en páginas web.
 
-La configuración de los módulos también puede implicar la definición de procesos de negocio personalizados. Por ejemplo, si la empresa tiene un proceso único para gestionar las solicitudes de presupuesto, este proceso debe ser integrado en el sistema ERP-CRM y configurado de manera que se pueda seguir automáticamente.
+4. **Configuración del tablero**
+   - Actividad: Configura una pantalla de control que muestre la información más relevante de los diferentes módulos de ERP-CRM, como KPIs clave.
+   - Propósito: Entender cómo se utilizan las pantallas de control en la gestión empresarial diaria.
 
-La documentación de los módulos es otro aspecto importante a considerar durante la instalación y configuración del sistema ERP-CRM. Es crucial mantener un registro detallado de todas las configuraciones realizadas, las opciones seleccionadas y cualquier personalización aplicada. Esta documentación será invaluable para el mantenimiento futuro del sistema y para la formación de nuevos usuarios.
+5. **Diseño de vistas de facturación**
+   - Actividad: Diseña y programa una pantalla que permita visualizar e imprimir una factura a dos columnas, con secciones para detalles del producto y total.
+   - Propósito: Familiarizarse con los requisitos de diseño específicos en el módulo de Facturación/Contabilidad.
 
-En resumen, los módulos desempeñan un papel central en la instalación y configuración de sistemas ERP-CRM, proporcionando las funcionalidades específicas necesarias para la operación empresarial. La configuración adecuada de estos módulos es crucial para asegurar la integridad, coherencia y eficiencia del sistema, así como para facilitar el trabajo diario de los usuarios.
+6. **Vista de calendario**
+   - Actividad: Implementa las vistas mensual, anual, semanal y diaria para el módulo Calendario.
+   - Propósito: Aprender a manejar múltiples perspectivas en la representación del tiempo dentro de un sistema ERP-CRM.
 
-### Listado de pantallas a desarrollar
+7. **Encuestas y formularios**
+   - Actividad: Desarrolla una pantalla tipo formulario basada en el módulo Encuestas, permitiendo la creación de encuestas personalizadas.
+   - Propósito: Entender los aspectos técnicos detrás del diseño y desarrollo de herramientas para recopilar datos.
 
-```markdown
-# Pantallas a desarrollar
+8. **Vista de punto de venta**
+   - Actividad: Crea una simulación básica de terminal de punto de venta con funciones como cierre de ventas, búsqueda de productos y cobro.
+   - Propósito: Aprender cómo implementar interfaces interactivas en sistemas para operaciones comerciales diarias.
 
-Listado de modulos - Grid de tarjetas
+Estas actividades están diseñadas para reforzar los conceptos clave y habilidades necesarios en la formación profesional relacionada con el desarrollo y gestión de sistemas ERP-CRM.
 
-Ventas	Odoo S.A.	https://www.odoo.com/app/sales	18.0.1.0	
-Restaurante	Odoo S.A.	https://www.odoo.com/app/point-of-sale-restaurant	18.0.1.0	
-Facturación / Contabilidad	Odoo S.A.	https://www.odoo.com/app/invoicing	18.0.1.3	
-CRM	Odoo S.A.	https://www.odoo.com/app/crm	18.0.1.8	
-MRP II	Odoo S.A.	https://www.odoo.com/page/manufacturing?utm_source=db&utm_medium=module	18.0.1.0	
-Sitio web	Odoo S.A.	https://www.odoo.com/app/website	18.0.1.0	
-Inventario	Odoo S.A.	https://www.odoo.com/app/inventory	18.0.1.1	
-Contabilidad	Odoo S.A.	https://www.odoo.com/app/accounting?utm_source=db&utm_medium=module	18.0.1.0	
-Información	Odoo S.A.	https://www.odoo.com/app/knowledge?utm_source=db&utm_medium=module	18.0.1.0	
-Compra	Odoo S.A.	https://www.odoo.com/app/purchase	18.0.1.2	
-Punto de venta	Odoo S.A.	https://www.odoo.com/app/point-of-sale-shop	18.0.1.0.2	
-Proyecto	Odoo S.A.	https://www.odoo.com/app/project	18.0.1.3	
-Comercio electrónico	Odoo S.A.	https://www.odoo.com/app/ecommerce	18.0.1.1	
-Fabricación	Odoo S.A.	https://www.odoo.com/app/manufacturing	18.0.2.0	
-Marketing por correo electrónico	Odoo S.A.	https://www.odoo.com/app/email-marketing	18.0.2.7	
-Partes de horas	Odoo S.A.	https://www.odoo.com/app/timesheet?utm_source=db&utm_medium=module	18.0.1.0	
-Gastos	Odoo S.A.	https://www.odoo.com/app/expenses	18.0.2.0	
-Studio	Odoo S.A.	https://odoo.com/app/studio?utm_source=db&utm_medium=module	18.0.1.0	
-Ausencias	Odoo S.A.	https://www.odoo.com/app/time-off	18.0.1.6	
-Reclutamiento	Odoo S.A.	https://www.odoo.com/app/recruitment	18.0.1.1	
-Servicio de campo	Odoo S.A.	https://www.odoo.com/app/field-service?utm_source=db&utm_medium=module	18.0.1.0	
-Empleados	Odoo S.A.	https://www.odoo.com/app/employees	18.0.1.1	
-Reciclaje de datos	Odoo S.A.		18.0.1.3	
-Mantenimiento	Odoo S.A.	https://www.odoo.com/app/maintenance	18.0.1.0	
-Tarjeta de marketing	Odoo S.A.		18.0.1.1	
-Firma electrónica	Odoo S.A.	https://www.odoo.com/app/sign?utm_source=db&utm_medium=module	18.0.1.0	
-Servicio de asistencia	Odoo S.A.	https://www.odoo.com/app/helpdesk?utm_source=db&utm_medium=module	18.0.1.0	
-Suscripciones	Odoo S.A.	https://www.odoo.com/app/subscriptions?utm_source=db&utm_medium=module	18.0.1.0	
-Calidad	Odoo S.A.	https://www.odoo.com/app/quality?utm_source=db&utm_medium=module	18.0.1.0	
-eLearning	Odoo S.A.	https://www.odoo.com/app/elearning	18.0.2.7	
-Planificación	Odoo S.A.	https://www.odoo.com/app/planning?utm_source=db&utm_medium=module	18.0.1.0	
-Eventos	Odoo S.A.	https://www.odoo.com/app/events	18.0.1.4	
-Conversaciones	Odoo S.A.	https://www.odoo.com/app/discuss	18.0.1.18	
-Contactos	Odoo S.A.		18.0.1.0	
-Gestión del ciclo de vida del producto (PLM)	Odoo S.A.	https://www.odoo.com/app/plm?utm_source=db&utm_medium=module	18.0.1.0	
-Calendario	Odoo S.A.		18.0.1.1	
-Marketing social	Odoo S.A.	https://www.odoo.com/app/social-marketing	18.0.1.0	
-Evaluación	Odoo S.A.	https://www.odoo.com/app/appraisals?utm_source=db&utm_medium=module	18.0.1.0	
-Flota	Odoo S.A.	https://www.odoo.com/app/fleet	18.0.0.1	
-Automatización de marketing	Odoo S.A.	https://www.odoo.com/app/marketing-automation?utm_source=db&utm_medium=module	18.0.1.0	
-Chat en directo	Odoo S.A.	https://www.odoo.com/app/live-chat	18.0.1.0	
-Citas	Odoo S.A.	https://www.odoo.com/app/appointments?utm_source=db&utm_medium=module	18.0.1.0	
-Encuestas	Odoo S.A.	https://www.odoo.com/app/surveys	18.0.3.7	
-Móvil	Odoo S.A.	https://play.google.com/store/apps/details?id=com.odoo.mobile	18.0.1.0	
-Reparaciones	Odoo S.A.		18.0.1.0	
-Asistencias	Odoo S.A.	https://www.odoo.com/app/employees	18.0.2.0	
-Marketing por SMS	Odoo S.A.	https://www.odoo.com/app/sms-marketing	18.0.1.1	
-Código de barras	Odoo S.A.	https://www.odoo.com/app/inventory?utm_source=db&utm_medium=module	18.0.1.0	
-Actividades pendientes	Odoo S.A.		18.0.1.0	
-Administración de habilidades	Odoo S.A.		18.0.1.0	
-VoIP	Odoo S.A.	https://www.odoo.com/app/crm?utm_source=db&utm_medium=module	18.0.1.0	
-Comida	Odoo S.A.		18.0.1.0	
-Trabajos en línea	Odoo S.A.		18.0.1.1	
-Conector de Amazon	Odoo S.A.	https://www.odoo.com/app/amazon-connector?utm_source=db&utm_medium=module	18.0.1.0	
-Contratos de los empleados	Odoo S.A.	https://www.odoo.com/app/employees
-
-Vistas:
-- Vista de kanban
-Pasando tarjetas de una columna a otra
-Vista de clientes: grid de tarjetas
-Vista de detalles de cliente - pantalla partida con formulario y correo
-Vista de empleados - vista de tarjetas
-Vista de calendario - mensual, anual, semanal, diario
-Vista de diseño de formularios - para encuestas etc
-Vista de ajustes tipo panel de control de wordpress
-Vista de tablero
-Vista de factura a dos columnas
-Vista previa de la factura
-Vista del terminal de punto de venta
-```
 
 <a id="procesos-de-instalacion-del-sistema-erp-crm"></a>
 ## Procesos de instalación del sistema ERP-CRM
 
-La instalación y configuración del sistema ERP-CRM es un proceso integral que requiere una planificación cuidadosa y atención a los detalles para asegurar su correcto funcionamiento. El primer paso consiste en la selección de los módulos adecuados, considerando las necesidades específicas de la empresa. Una vez seleccionados los módulos, se procede a la instalación del sistema ERP-CRM, que puede realizarse a través de diferentes métodos como instalaciones locales o despliegues en la nube.
+### Introducción a los ejercicios
 
-Durante el proceso de instalación, es crucial configurar adecuadamente parámetros cruciales como la base de datos, los usuarios y roles, y las preferencias generales del sistema. Es importante realizar pruebas exhaustivas para verificar que todos los módulos se han instalado correctamente y que no hay errores o inconvenientes.
+Este conjunto de ejercicios está diseñado para ayudarte a entender cómo se instala y configura un sistema ERP (Enterprise Resource Planning) utilizando Odoo, específicamente en su versión 18. Los problemas que abordamos incluyen la instalación de una máquina virtual con los paquetes necesarios, el clonado del repositorio de Odoo, la gestión de dependencias como wkhtmltopdf y lxml, así como la configuración inicial y reparación de un sistema Odoo. Además, aprenderás cómo acceder al entorno de desarrollo para hacer pruebas y configurar módulos personalizados. Estos ejercicios te permitirán desarrollar competencias esenciales en administración de sistemas, gestión de bases de datos, scripting con shell y programación Python orientada a la creación de módulos Odoo.
 
-La configuración del sistema ERP-CRM implica también la personalización de formularios y informes según las necesidades específicas de la empresa. Esto puede implicar la creación de nuevas vistas, el ajuste de campos existentes y la definición de consultas personalizadas para facilitar el acceso a la información.
+### Actividades propuestas
 
-Además, es fundamental establecer los servicios de acceso al sistema ERP-CRM, lo que incluye la configuración de servidores web, bases de datos y interfaces de usuario. La seguridad del sistema debe ser una prioridad durante este proceso, implementando medidas como autenticación de usuarios, encriptación de datos y políticas de acceso controlado.
+### Actividades Propuestas para los Estudiantes de Formación Profesional (FP)
 
-El entorno de desarrollo, pruebas y explotación es otro aspecto crucial a considerar durante la instalación y configuración del sistema ERP-CRM. Es necesario definir los diferentes entornos donde se realizarán las pruebas y el despliegue final del sistema, asegurando que cada uno tenga las configuraciones adecuadas para su uso.
+1. **Instalación Básica del Sistema ERP-CRM**
+   - **Descripción:** Los estudiantes deben instalar una máquina virtual con Odoo utilizando comandos básicos como `apt` y `wget`. Se espera que aprendan a manejar sistemas operativos basados en Linux para la instalación de software empresarial.
 
-La documentación de las operaciones realizadas durante la instalación y configuración es otro elemento importante. Esta documentación debe incluir detalles sobre los pasos seguidos, cualquier problema encontrado y cómo se solucionó, así como una guía paso a paso para futuras referencias o actualizaciones del sistema.
+2. **Configuración del Repositorio de Odoo**
+   - **Descripción:** Los estudiantes deben configurar el repositorio oficial de Odoo utilizando comandos específicos para descarga y instalación automática de paquetes. Se espera que comprendan cómo manejar claves GPG y listas de fuentes.
 
-En resumen, el proceso de instalación y configuración del sistema ERP-CRM es un trabajo meticuloso que requiere una planificación cuidadosa y atención a los detalles. Desde la selección de módulos hasta la documentación final, cada paso debe ser ejecutado con precisión para asegurar el correcto funcionamiento del sistema en el entorno empresarial.
+3. **Instalación de Dependencias Esenciales**
+   - **Descripción:** Los estudiantes deben instalar las dependencias esenciales necesarias para el funcionamiento correcto del sistema ERP-CRM, como `wkhtmltopdf`. Se espera que adquieran habilidades en la instalación y configuración de software externo.
 
-### Instalación de una máquina virtual
+4. **Iniciar Servicios Odoo**
+   - **Descripción:** Los estudiantes deben aprender a iniciar y gestionar los servicios del sistema ERP-CRM utilizando herramientas como `systemctl` y comprobar el estado de Odoo. Se espera que adquieran conocimientos sobre la gestión de servidores y sistemas empresariales.
 
-```markdown
-sudo apt update
+5. **Reparación e Instalación de Versiones Anteriores**
+   - **Descripción:** Los estudiantes deben limpiar las instalaciones previas del sistema ERP-CRM, reparar los paquetes y reinstalar una versión específica de Odoo. Se espera que comprendan cómo manejar problemas de software en un entorno empresarial.
 
-sudo apt upgrade -y
+6. **Preparación de la Base de Datos**
+   - **Descripción:** Los estudiantes deben configurar el usuario PostgreSQL para Odoo, creando usuarios con permisos adecuados y asegurándose de que todo esté listo para una instalación exitosa. Se espera que adquieran habilidades en gestión de bases de datos.
 
-Odoo funciona con stack
-Python3 
-PostgreSQL para la base de datos
+7. **Configuración del Sistema ERP-CRM v18**
+   - **Descripción:** Los estudiantes deben instalar Odoo versión 18, configurar el archivo de configuración y lanzar la aplicación desde consola y GUI. Se espera que comprendan cómo configurar un sistema empresarial específico.
 
-sudo apt install -y postgresql
+8. **Acceso e Instalación del Sistema ERP-CRM**
+   - **Descripción:** Los estudiantes deben acceder a la interfaz web del sistema ERP-CRM, crear una base de datos y realizar la instalación inicial del sistema con los parámetros específicos proporcionados. Se espera que adquieran habilidades en el acceso y configuración de sistemas empresariales.
 
-sudo apt install openssh-server
+9. **Configuración de Debugging**
+   - **Descripción:** Los estudiantes deben aprender a habilitar la configuración para depurar el sistema ERP-CRM, instalando módulos adicionales si es necesario y reiniciando los servicios. Se espera que comprendan cómo activar funciones avanzadas en sistemas empresariales.
 
-sudo apt install net-tools
+10. **Creación de Módulo Personalizado**
+    - **Descripción:** Los estudiantes deben crear un módulo personalizado desde cero, incluyendo la configuración del directorio y la estructura mínima necesaria para un nuevo módulo Odoo. Se espera que adquieran habilidades en el desarrollo de funcionalidades personalizadas para sistemas empresariales.
 
-ifconfig
-```
+Estas actividades están diseñadas para proporcionar a los estudiantes una experiencia práctica en la instalación, configuración y uso básico del sistema ERP-CRM Odoo, además de introducirlos al proceso de creación de módulos personalizados.
 
-### Repositorio de Odoo
-
-```markdown
-wget -q -O https://nightly.odoo.com/odoo.key | sudo gpg --dearmor -o /usr/share/keyrings/odoo-archive-keyring.gpg
-
-echo 'deb [signed-by=/usr/share/keyrings/odoo-archive-keyring.gpg] https://nightly.odoo.com/18.0/nightly/deb/ ./' | sudo tee /etc/apt/sources.list.d/odoo.list
-
-sudo apt update
-
-sudo apt install odoo
-```
-
-### dependencias
-
-```markdown
-wkhtmltopdf
-
-wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6-1/wkhtmltox_0.12.6-1.bionic_amd64.deb
-sudo dpkg -i wkhtmltox_0.12.6-1.bionic_amd64.deb
-sudo apt install -f
-
-wkhtmltopdf --version
-wkhtmltoimage --version
-
-sudo apt install wkhtmltopdf
-```
-
-### iniciar servicios
-
-```markdown
-sudo systemctl enable odoo
-sudo systemctl start odoo
-sudo systemctl status odoo
-
-# Arreglo de librerias
-
-sudo apt install python3-pip -y
-sudo pip install lxml[html_clean] --break-system-packages
-
-Arrancamos manualmente
-
-dpkg -l | grep -i odoo
-apt policy odoo
-ls -l /etc/init.d/odoo || true
-command -v odoo || ls -l /usr/bin/odoo* /usr/local/bin/odoo* 2>/dev/null || true
-```
-
-### reparacion
-
-```markdown
-sudo apt purge -y odoo-16
-sudo rm -f /etc/init.d/odoo
-sudo systemctl daemon-reload
-```
-
-### preparamos base de datos
-
-```markdown
-sudo apt update
-sudo apt install -y postgresql
-sudo systemctl enable --now postgresql
-sudo -u postgres createuser -s odoo || true
-```
-
-### odoo 18
-
-```markdown
-wget -q -O - https://nightly.odoo.com/odoo.key | sudo gpg --dearmor -o /usr/share/keyrings/odoo-archive-keyring.gpg
-echo 'deb [signed-by=/usr/share/keyrings/odoo-archive-keyring.gpg] https://nightly.odoo.com/18.0/nightly/deb/ ./' | sudo tee /etc/apt/sources.list.d/odoo.list
-
-sudo apt update
-sudo apt install -y odoo
-
-sudo service odoo restart
-sudo service odoo status
-```
-
-### acceso y configuracion
-
-```markdown
-http://[ip]:8069/web/database/selector
-
-Instalación
-
-usuario: info@jocarsa.com
-
-Contraseña y contraseña maestra:
-DAM123$
-```
-
-### entrar en debug
-
-```markdown
-http://192.168.1.151:8069/odoo/apps?debug=1
-
-josevicente@josevicente-VirtualBox:~$ pip3 install phonenumbers --break-system-packages
-
-sudo systemctl restart odoo
-
-sudo apt update
-sudo apt install python3-phonenumbers
-sudo systemctl restart odoo
-```
-
-### modulo de odoo
-
-```markdown
-cd /usr/lib/python3/dist-packages/odoo/addons/
-
-ls -l
-
-
-total 52
-drwxr-xr-x 3 root root 4096 oct 17 16:48 controllers
-drwxr-xr-x 2 root root 4096 oct 17 16:48 data
-drwxr-xr-x 2 root root 4096 oct 17 16:48 i18n
--rw-r--r-- 1 root root  189 dic 15  2020 __init__.py
--rw-r--r-- 1 root root 2955 dic 15  2020 __manifest__.py
-drwxr-xr-x 3 root root 4096 oct 17 16:48 models
-drwxr-xr-x 2 root root 4096 oct 17 16:48 __pycache__
-drwxr-xr-x 3 root root 4096 oct 17 16:48 report
-drwxr-xr-x 2 root root 4096 oct 17 16:48 security
-drwxr-xr-x 8 root root 4096 oct 17 16:47 static
-drwxr-xr-x 3 root root 4096 oct 17 16:48 tests
-drwxr-xr-x 2 root root 4096 oct 17 16:48 views
-drwxr-xr-x 3 root root 4096 oct 17 16:48 wizard
-```
-
-### modulo personalizado
-
-```markdown
-cd /opt/odoo/custom-addons/
-
-Si no existe:
-
-cd /opt/
-sudo mkdir odoo
-cd odoo
-sudo mkdir custom-addons
-
-
-sudo mkdir el_modulo_de_jose_vicente
-
-sudo mkdir -p /opt/odoo/custom-addons/mi_modulo_ejemplo
-cd /opt/odoo/custom-addons/mi_modulo_ejemplo
-```
-
-### archivo de configuracion de odoo
-
-```markdown
-sudo nano /etc/odoo/odoo.conf
-
-addons_path = /usr/lib/python3/dist-packages/odoo/addons,/opt/odoo/custom-addons
-
-Control+O = Guardar
-Control+X = Salir
-
-Reiniciamos odoo
-sudo systemctl restart odoo
-systemctl daemon-reload
-
-Actualizar aplicaciones (boton en la barra superior)
-```
-
-### añadir modelo
-
-```markdown
-sudo nano /opt/odoo/custom-addons/mi_modulo_ejemplo/security/ir.model.access.csv
-
-
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_nota_public,access_nota_public,model_mi_modulo_ejemplo_nota,base.group_user,1,1,1,1
-
-Actualizamos desde consola
-
-sudo -u odoo /usr/bin/odoo -d odoo --update=mi_modulo_ejemplo --stop-after-init
-
-Reiniciamos odoo
-sudo systemctl restart odoo || sudo service odoo restart
-
-sudo -u odoo /usr/bin/odoo -d odoo --update=mi_modulo_ejemplo --stop-after-init
-```
-
-### estructura de un modulo
-
-```markdown
-
-
-## 🧱 1. Estructura básica del módulo
-
-Por convención, los módulos se guardan en una carpeta personalizada, normalmente en:
-
-```
-/usr/lib/python3/dist-packages/odoo/addons/
-```
-
-o si prefieres mantenerlos aparte:
-
-```
-/opt/odoo/custom-addons/
-```
-
-Creemos ese directorio y nuestro módulo:
-
-```bash
-sudo mkdir -p /opt/odoo/custom-addons/mi_modulo_ejemplo
-cd /opt/odoo/custom-addons/mi_modulo_ejemplo
-```
-
----
-
-## 📁 2. Estructura mínima de archivos
-
-Crea esta jerarquía:
-
-```
-mi_modulo_ejemplo/
-├── __init__.py
-├── __manifest__.py
-├── models/
-│   ├── __init__.py
-│   └── ejemplo.py
-└── views/
-    └── ejemplo_views.xml
-```
-
-Crea los archivos así:
-
----
-
-### **`__manifest__.py`**
-
-Describe el módulo (nombre, versión, dependencias, etc.):
-
-```python
-{
-    'name': 'Módulo de Ejemplo',
-    'version': '1.0',
-    'summary': 'Un módulo básico de ejemplo para Odoo 18 Community',
-    'author': 'Jose Vicente Carratala',
-    'category': 'Tutorial',
-    'depends': ['base'],
-    'data': [
-        'views/ejemplo_views.xml',
-    ],
-    'installable': True,
-    'application': True,
-    'license': 'LGPL-3',
-}
-```
-
----
-
-### **`__init__.py`**
-
-Importa los modelos:
-
-```python
-from . import models
-```
-
----
-
-### **`models/__init__.py`**
-
-```python
-from . import ejemplo
-```
-
----
-
-### **`models/ejemplo.py`**
-
-Aquí definimos un modelo simple, por ejemplo una tabla de “Notas personales”:
-
-```python
-from odoo import models, fields
-
-class NotaEjemplo(models.Model):
-    _name = 'mi_modulo_ejemplo.nota'
-    _description = 'Nota de Ejemplo'
-
-    name = fields.Char(string='Título', required=True)
-    descripcion = fields.Text(string='Descripción')
-    fecha = fields.Date(string='Fecha')
-```
-
-Esto creará una nueva tabla SQL llamada `mi_modulo_ejemplo_nota`.
-
----
-
-### **`views/ejemplo_views.xml`**
-
-Diseñamos la vista (interfaz en Odoo):
-
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<odoo>
-    <record id="view_nota_form" model="ir.ui.view">
-        <field name="name">nota.form</field>
-        <field name="model">mi_modulo_ejemplo.nota</field>
-        <field name="arch" type="xml">
-            <form string="Nota de Ejemplo">
-                <sheet>
-                    <group>
-                        <field name="name"/>
-                        <field name="descripcion"/>
-                        <field name="fecha"/>
-                    </group>
-                </sheet>
-            </form>
-        </field>
-    </record>
-
-    <record id="view_nota_tree" model="ir.ui.view">
-        <field name="name">nota.tree</field>
-        <field name="model">mi_modulo_ejemplo.nota</field>
-        <field name="arch" type="xml">
-            <tree string="Notas de Ejemplo">
-                <field name="name"/>
-                <field name="fecha"/>
-            </tree>
-        </field>
-    </record>
-
-    <menuitem id="menu_mi_modulo_root" name="Notas de Ejemplo"/>
-
-    <menuitem id="menu_mi_modulo_notas"
-              name="Notas"
-              parent="menu_mi_modulo_root"
-              action="action_nota"/>
-
-    <record id="action_nota" model="ir.actions.act_window">
-        <field name="name">Notas de Ejemplo</field>
-        <field name="res_model">mi_modulo_ejemplo.nota</field>
-        <field name="view_mode">tree,form</field>
-    </record>
-</odoo>
-```
-
----
-
-## ⚙️ 3. Añadir el módulo al `addons_path`
-
-Abre tu archivo de configuración de Odoo (normalmente `/etc/odoo/odoo.conf`) y añade tu ruta personalizada:
-
-```ini
-addons_path = /usr/lib/python3/dist-packages/odoo/addons,/opt/odoo/custom-addons
-```
-
-Guarda y reinicia el servicio:
-
-```bash
-sudo systemctl restart odoo
-```
-
----
-
-## 🧩 4. Activar el modo desarrollador y cargar el módulo
-
-1. Entra en Odoo:
-   👉 `http://localhost:8069`
-2. Crea o entra en una base de datos.
-3. Ve a **Configuración → Activar Modo Desarrollador**.
-
--Entrar en modo desarrollo: http://localhost:8069?debug=1
-
-4. Entra en **Aplicaciones**, pulsa “Actualizar lista de aplicaciones”.
-5. Busca **“Módulo de Ejemplo”** y haz clic en **Instalar**.
-
----
-
-## ✅ 5. Probar
-
-Tras instalarlo, en el menú superior aparecerá una nueva entrada **“Notas de Ejemplo”**, donde podrás crear, editar y listar tus registros.
-```
 
 <a id="parametros-de-configuracion-del-sistema-erp-crm"></a>
 ## Parámetros de configuración del sistema ERP-CRM
 
-En este capítulo, nos adentramos en la configuración detallada de los sistemas ERP-CRM, una tarea esencial para asegurar su correcto funcionamiento y adaptación a las necesidades específicas de cada organización. La configuración inicial implica la definición de parámetros que controlan el comportamiento del sistema, desde aspectos técnicos hasta funcionalidades empresariales.
+### Introducción a los ejercicios
 
-El primer paso en la configuración de un ERP-CRM es identificar los módulos y características que serán activados o desactivados según las necesidades de la empresa. Cada módulo tiene sus propias opciones de configuración, como el formato de documentos, los tipos de informes disponibles o las políticas de acceso a ciertas funciones.
+Tu código HTML y JavaScript para el editor de flujo visual es bastante completo. Sin embargo, hay algunos puntos que podrían mejorarse o agregar para hacerlo más robusto y funcional. Aquí te proporciono algunas sugerencias y mejoras:
 
-Una vez seleccionados los módulos, se procede a la configuración técnica del sistema. Esto incluye ajustes en la base de datos, como la definición de tablas adicionales para almacenar información específica de la empresa, o la personalización de vistas y pantallas para facilitar el acceso a la información relevante.
+### 1. Añadir Estilos CSS
+Aunque ya tienes estilos en línea, sería recomendable moverlos a un archivo `styles.css` separado para mantener el código limpio.
 
-Además de los parámetros técnicos, es crucial configurar las políticas de seguridad del sistema. Esto implica establecer roles y permisos que determinan quién puede acceder a qué partes del ERP-CRM y qué acciones pueden realizar. La configuración adecuada de estos roles asegura la protección tanto de la información sensible como de los procesos empresariales.
-
-La configuración también debe incluir la definición de parámetros funcionales específicos para cada módulo, como las políticas de facturación en el ERP o las estrategias de marketing en el CRM. Estas configuraciones permiten al sistema adaptarse a las prácticas y procesos internos de la empresa.
-
-Es importante también considerar la integración del ERP-CRM con otros sistemas de gestión empresarial, como sistemas financieros o sistemas de recursos humanos. La configuración adecuada de estas integrações asegura una transmisión fluida de información y un flujo eficiente de trabajo entre diferentes departamentos.
-
-Además, la configuración del sistema debe incluir la definición de parámetros para el manejo de datos, como la codificación de productos o los códigos de cliente. Estos parámetros aseguran que la información se almacene y procese de manera consistente y precisa.
-
-La configuración final del ERP-CRM implica la personalización de formularios y informes para facilitar el acceso a la información relevante y mejorar la eficiencia operativa. Esto puede incluir la creación de formularios personalizados para capturar datos específicos o la definición de informes que proporcionen una visión detallada del desempeño empresarial.
-
-La configuración del sistema ERP-CRM es un proceso integral que requiere una comprensión profunda de las necesidades y procesos internos de la empresa. A través de la configuración adecuada, se puede asegurar que el sistema ERP-CRM no solo funcione correctamente, sino que también contribuya significativamente a mejorar la eficiencia operativa y la toma de decisiones estratégicas.
-
-La configuración del sistema ERP-CRM es un paso crucial en su implantación exitosa. Al seguir los pasos descritos en este capítulo, puede asegurarse de que el sistema esté correctamente configurado para satisfacer las necesidades específicas de su empresa y contribuir al éxito empresarial.
-
-### Introduccion
-
-```markdown
-Lenguaje visual
-  Disparadores de eventos
-  Control del flujo de la ejecución
-  Acciones
-  Acceso a mi maquina
-  Consumo de API's (lectura y escritura)
-  
-API - consumo de datos, Gmail, Drive, Office, etc
-Conexión con bloques de inteligencia artificial
+```html
+<link rel="stylesheet" type="text/css" href="styles.css">
 ```
 
+Y en `styles.css`:
+
+```css
+/* Agrega tus estilos aquí */
+body {
+  margin: 0;
+  padding: 20px;
+}
+
+.canvas {
+  position: relative;
+  background-color: #f8f9fa;
+}
+```
+
+### 2. Añadir Funcionalidad de Eliminar Nodos y Conexiones
+Para permitir que el usuario elimine nodos y conexiones, puedes añadir un botón o contexto para hacer clic derecho.
+
+```html
+<!-- Botón de eliminar nodo -->
+<button id="delete-node">Eliminar Nodo</button>
+```
+
+Y en JavaScript:
+
+```javascript
+const deleteNodeButton = document.getElementById('delete-node');
+
+deleteNodeButton.addEventListener("click", () => {
+  if (dragging) {
+    const idx = parseInt(dragging.dataset.index, 10);
+    nodos.splice(idx, 1);
+    edges.forEach(edge => {
+      if (edge.from === idx || edge.to === idx) {
+        deleteEdge(edge);
+      }
+    });
+    dragging.remove();
+    dragging = null;
+    cancelarPreview(); // Asegurarse de que no haya una conexión en proceso
+  }
+});
+
+function deleteEdge(edge) {
+  [edge.path, edge.pathBg, edge.glow].forEach(el => el.remove());
+}
+```
+
+### 3. Mejorar la Interactividad con Contexto de Click Derecho
+Puedes añadir funcionalidad para eliminar nodos y conexiones haciendo clic derecho.
+
+```javascript
+document.addEventListener('contextmenu', (e) => {
+  e.preventDefault();
+  if (dragging) {
+    const idx = parseInt(dragging.dataset.index, 10);
+    nodos.splice(idx, 1);
+    edges.forEach(edge => {
+      if (edge.from === idx || edge.to === idx) {
+        deleteEdge(edge);
+      }
+    });
+    dragging.remove();
+    dragging = null;
+    cancelarPreview(); // Asegurarse de que no haya una conexión en proceso
+  } else {
+    // Si el usuario hace clic derecho sobre una conexión, puedes eliminarla también
+    const target = e.target.closest('.edge-path');
+    if (target) {
+      edges.forEach(edge => {
+        if ([...edges].includes(target)) { // Asegúrate de que estás eliminando la conexión correcta
+          deleteEdge(edge);
+        }
+      });
+    }
+  }
+});
+```
+
+### 4. Permitir Redimensionamiento de Nodos
+Puedes añadir funcionalidad para redimensionar los nodos mediante arrastrar.
+
+```javascript
+function iniciarDragResize(e, nodo) {
+  e.preventDefault();
+  const startWidth = parseFloat(getComputedStyle(nodo).width);
+  const startHeight = parseFloat(getComputedStyle(nodo).height);
+
+  document.addEventListener('mousemove', moverDragResize.bind(null, nodo));
+  document.addEventListener('mouseup', terminarDragResize.bind(null, nodo));
+
+  function moverDragResize(nodo, e) {
+    let dx = e.clientX - nodo.x;
+    let dy = e.clientY - nodo.y;
+
+    const newWidth = startWidth + dx;
+    const newHeight = startHeight + dy;
+
+    // Limitar el tamaño mínimo del nodo
+    if (newWidth < 50 || newHeight < 50) {
+      return;
+    }
+
+    nodo.style.width = `${Math.round(newWidth)}px`;
+    nodo.style.height = `${Math.round(newHeight)}px`;
+
+    posicionarEnMundo(nodo, nodo.x + dx, nodo.y);
+    actualizarConexionesDeNodo(parseInt(nodo.dataset.index));
+  }
+
+  function terminarDragResize() {
+    document.removeEventListener('mousemove', moverDragResize.bind(null, nodo));
+    document.removeEventListener('mouseup', terminarDragResize.bind(null, nodo));
+  }
+}
+
+document.querySelectorAll('.canvas').forEach(canvas => {
+  canvas.addEventListener('mousedown', (e) => {
+    const nodo = e.target.closest('.nodo');
+    if (nodo) {
+      iniciarDragResize(e, nodo);
+    }
+  });
+});
+```
+
+### 5. Añadir Guardado y Carga de Estado
+Puedes añadir funcionalidad para guardar el estado actual del diagrama en un archivo JSON y luego cargarlo.
+
+```javascript
+const saveButton = document.getElementById('save');
+const loadButton = document.getElementById('load');
+
+function saveDiagram() {
+  const data = {
+    nodos: nodos.map(nodo => ({
+      x: parseFloat(nodo.style.left),
+      y: parseFloat(nodo.style.top),
+      width: parseFloat(getComputedStyle(nodo).width),
+      height: parseFloat(getComputedStyle(nodo).height)
+    })),
+    edges
+  };
+  
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  download(url, 'diagram.json', 'application/json');
+}
+
+function loadDiagram() {
+  const fileInput = document.createElement('input');
+  fileInput.type = 'file';
+  fileInput.accept = '.json';
+
+  fileInput.onchange = (event) => {
+    const file = event.target.files[0];
+    if (!file) return;
+
+    const reader = new FileReader();
+    reader.onload = function(e) {
+      const data = JSON.parse(e.target.result);
+      nodos.forEach(nodo => nodo.remove());
+      edges.forEach(edge => deleteEdge(edge));
+
+      data.nodos.forEach(nodeData => {
+        const nuevoNodo = crearNodo(Math.round(nodeData.x), Math.round(nodeData.y));
+        nuevoNodo.style.width = `${nodeData.width}px`;
+        nuevoNodo.style.height = `${nodeData.height}px`;
+      });
+
+      data.edges.forEach(({ from, to, pathBg, path, glow }) => {
+        const a = nodos[from].el.querySelector('.port.out');
+        const b = nodos[to].el.querySelector('.port.in');
+        drawPaths({ pathBg, path, glow }, getPortCenterWorld(a), getPortCenterWorld(b));
+      });
+    };
+
+    reader.readAsText(file);
+  };
+
+  fileInput.click();
+}
+
+saveButton.addEventListener('click', saveDiagram);
+loadButton.addEventListener('click', loadDiagram);
+```
+
+### 6. Mejorar la Interactividad y Visualización
+Añade más interactividad, como cambiar el color de los nodos al hacer clic en ellos o añadir un menú desplegable para opciones adicionales.
+
+Estas mejoras harán que tu editor de flujo visual sea más completo y funcional. ¡Espero que te sean útiles!
+
 ### escritorio
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código es un documento HTML muy básico que estructura una página web en tres columnas: izquierda, centro y derecha. La etiqueta `<!doctype html>` al principio indica que este es un documento HTML5.
+
+En la sección `<head>`, aunque no hay mucho contenido, se especifica el título de la página (que está vacío) y la codificación de caracteres utilizada (`utf8`), lo cual asegura que todos los símbolos y caracteres especiales sean correctamente interpretados.
+
+La sección `<body>` es donde comienza a verse realmente la estructura visual. Aquí, hay tres `div`, cada uno con un id único: "izquierda", "centro" y "derecha". Estas etiquetas `div` son contenedores vacíos que los desarrolladores suelen llenar con contenido o estilos para crear la disposición de la página web en columnas.
+
+`002-escritorio.html`
 
 ```html
 <!doctype html>
@@ -1194,6 +1026,19 @@ Conexión con bloques de inteligencia artificial
 ```
 
 ### un poco de css
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web básica que utiliza CSS para organizar tres divisiones (también conocidas como divs) en la pantalla. La estructura principal de la página está en el cuerpo del documento, donde hay tres `<div>` vacías con id's diferentes: "izquierda", "centro" y "derecha". Estos elementos son los bloques básicos que se van a organizar usando CSS.
+
+En la cabecera (`<head>`) del archivo HTML, encontramos una hoja de estilos externa (el archivo `cssreset.css` desde el servidor GitHub de jocarsa), que ayuda a normalizar el estilo de los elementos del navegador. Además, hay un bloque de estilo interno que define cómo se van a distribuir estos `<div>` en la pantalla: utiliza flexbox para dividir horizontalmente el espacio disponible entre ellos.
+
+El elemento con id "centro" tiene un tamaño más grande que los otros dos (con una proporción de 6), y está centrado visualmente gracias al uso del flexbox. Este div también tiene bordes a sus lados izquierdo y derecho, además de un fondo formado por la imagen `rejilla.jpg`.
+
+Esta página es útil para enseñar cómo usar CSS para crear diseños responsivos y flexibles en páginas web, permitiendo que los elementos se distribuyan automáticamente según el tamaño del dispositivo o navegador utilizado.
+
+`003-un poco de css.html`
 
 ```html
 <!doctype html>
@@ -1220,6 +1065,19 @@ Conexión con bloques de inteligencia artificial
 ```
 
 ### ajustes visuales
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML crea una página web sencilla que utiliza CSS para organizar el contenido en tres columnas. La estructura básica de la página incluye una etiqueta `<!doctype html>` que indica que es un documento HTML5, seguida por las etiquetas `<html>` y `<head>`, donde se especifican metadatos importantes como el conjunto de caracteres (`<meta charset="utf8">`) y el enlace a una hoja de estilos externa.
+
+En la parte central del código, dentro de la etiqueta `<body>`, hay tres `div` con identificadores únicos: "izquierda", "centro" y "derecha". Estos elementos dividen visualmente la página en tres columnas. La magia ocurre en el CSS que define cómo se comportan estos bloques, utilizando flexbox para distribuir horizontalmente el espacio disponible entre ellos.
+
+El bloque central ("#centro") recibe más espacio gracias a `flex:6;`, mientras que los otros dos (`#izquierda` y `#derecha`) tienen `flex:1;`. Además, al centro se le aplican sombras y un fondo con una imagen de mosaico para diferenciarlo visualmente. Esto es útil en sistemas ERP-CRM donde puedes necesitar destacar áreas importantes como el tablero central.
+
+Este diseño es importante porque permite a los usuarios navegar fácilmente por diferentes secciones del sistema empresarial, proporcionando una experiencia de usuario clara y ordenada.
+
+`004-ajustes visuales.html`
 
 ```html
 <!doctype html>
@@ -1246,6 +1104,21 @@ Conexión con bloques de inteligencia artificial
 ```
 
 ### nodo
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una estructura básica para una página web que tiene tres secciones principales alineadas horizontalmente: "izquierda", "centro" y "derecha". La etiqueta `<!DOCTYPE html>` indica que este es un documento HTML5, mientras que `<html lang="es">` especifica que el idioma de la página es español. 
+
+En la parte del `<head>`, definimos algunas características importantes como el título de la página (que en este caso está vacío) y una etiqueta `meta charset` que establece que el conjunto de caracteres utilizado será UTF-8, lo cual garantiza la correcta visualización de todos los caracteres especiales o no anglosajones.
+
+El archivo también incluye un estilo personalizado definido dentro de `<style>...</style>` que especifica cómo se deben mostrar las tres divisiones principales y un elemento `article`. La división central (`#centro`) tiene un efecto visual especial gracias a la propiedad `box-shadow` e incorpora una imagen en fondo (`background:url(rejilla.jpg)`), lo cual le da una apariencia única.
+
+En el `<body>`, vemos tres divisiones (`<div>`): una para cada sección (izquierda, centro y derecha). Dentro de la división central hay un elemento `article` vacío que representa un bloque informativo o presentable. Esta estructura básica es común en diseño web responsivo donde el contenido está organizado en columnas.
+
+Este código proporciona una base sólida para construir una página más compleja, especialmente cuando se incorporan scripts y estilos adicionales, permitiendo al diseñador controlar la disposición del contenido y cómo debe ser visualizado.
+
+`005-nodo.html`
 
 ```html
 <!doctype html>
@@ -1275,6 +1148,19 @@ Conexión con bloques de inteligencia artificial
 ```
 
 ### draggable
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML crea una página web simple que permite arrastrar un elemento llamado "article" dentro de un área específica del navegador. La estructura principal se compone de tres divisiones (`div`) con IDs 'izquierda', 'centro' y 'derecha'. El div central es donde está permitido el movimiento del artículo.
+
+En CSS, los estilos definen cómo debe verse la página y dónde pueden arrastrarse los elementos. La división "centro" tiene un fondo de imagen de malla y el elemento "article", que puede ser arrastrado, tiene bordes redondeados, una sombra para darle profundidad y dimensiones específicas.
+
+En JavaScript, se utiliza la función `dragstart` para capturar las coordenadas iniciales del arrastre cuando el usuario hace clic en el artículo. Luego, al moverse sobre el área central permitida ("centro"), la función `dragover` ajusta constantemente la posición del elemento "article" basándose en el movimiento del mouse desde el punto de inicio. Esto permite que el artículo se mueva y cambie su ubicación dentro del div central según donde dirija el usuario.
+
+Este código es importante porque demuestra cómo integrar eventos de arrastrar y soltar en HTML y CSS con JavaScript, una habilidad útil para desarrolladores web que buscan crear interfaces interactivas.
+
+`006-draggable.html`
 
 ```html
 <!doctype html>
@@ -1319,6 +1205,17 @@ Conexión con bloques de inteligencia artificial
 ```
 
 ### drag js
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML es una página web básica que permite arrastrar un elemento dentro de un área central. En el cuerpo del documento, hay tres áreas divididas en columnas izquierda, centro y derecha utilizando CSS Flexbox. La columna central tiene un fondo con un patrón de rejilla y contiene un artículo que actúa como un elemento draggable.
+
+En la sección `<script>`, el código JavaScript selecciona este elemento "article" para permitir su arrastre. Cuando comienza una acción de arrastrar (`dragstart`), el script captura las coordenadas iniciales del cursor en relación al elemento ("offsetX", "offsetY"). Durante la acción de pasar sobre el área central (`dragover`), se previene la acción por defecto para permitir el movimiento, y luego ajusta la posición del artículo basándose en la diferencia entre la nueva ubicación del cursor y las coordenadas iniciales.
+
+Esta funcionalidad es útil cuando se trabaja con interfaces de usuario que requieren elementos interactivos, como paneles o bloques de contenido que los usuarios pueden mover dentro de una página web para personalizar la disposición. En un contexto empresarial, podría ser aplicable en configuraciones de sistema ERP-CRM donde necesitas permitir a los administradores ajustar visualmente diferentes componentes del sistema según sus preferencias.
+
+`007-drag js.html`
 
 ```html
 <!doctype html>
@@ -1362,6 +1259,21 @@ Conexión con bloques de inteligencia artificial
 ```
 
 ### boton de añadir
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML crea una página web que permite a los usuarios arrastrar un elemento llamado "article" dentro de una sección específica del diseño. La estructura básica de la página incluye tres divisiones principales (`#izquierda`, `#centro` y `#derecha`) que utilizan Flexbox para organizar el contenido en una fila horizontal.
+
+El archivo también define estilos CSS personalizados para dar formato al elemento "article" y hacerlo interactivo. Este elemento tiene bordes redondeados, sombreado y un cursor de movimiento (`move`). Además, se especifica que este bloque debe ser arrastrable (draggable) dentro del área central.
+
+En el código JavaScript, se intenta definir una clase `Nodo` para manejar posiciones iniciales del artículo, pero parece haber un error en la declaración de esta clase. La estructura correcta debería incluir llaves al final `{}` después del nombre de la función constructora. Sin embargo, este detalle no afecta el resto del comportamiento mostrado en la página.
+
+La parte más relevante es cómo se manejan los eventos `dragstart` y `dragover`. Cuando un usuario comienza a arrastrar (`dragstart`) el elemento "article", las coordenadas de inicio (offsetX, offsetY) son registradas. Luego, cuando este objeto está siendo desplazado sobre la sección central del diseño (`dragover`), el estilo CSS del artículo es actualizado en tiempo real para reflejar sus nuevas posiciones basándose en las coordenadas proporcionadas por el evento.
+
+Este código es útil para aprender cómo integrar interactividad básica con arrastrar y soltar elementos dentro de una página web, utilizando HTML, CSS y JavaScript.
+
+`008-boton de añadir.html`
 
 ```html
 <!doctype html>
@@ -1413,6 +1325,26 @@ Conexión con bloques de inteligencia artificial
 ```
 
 ### nodos como elementos
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código HTML es una página web interactiva que permite a los usuarios arrastrar y soltar elementos方形框框用于隐藏回答的具体内容，不会显示实际的对话或文本。对于上述问题，具体解释如下：
+
+---
+
+Este archivo HTML crea un entorno interactivo para permitir la creación, el arrastre y la colocación de nodos en una interfaz gráfica. El documento incluye estilos CSS que establecen cómo se visualizarán los elementos en la pantalla: hay tres áreas principales definidas (izquierda, centro y derecha), donde la parte central es un lienzo donde se representarán los nodos.
+
+En el código JavaScript, se define una clase `Nodo` para mantener información sobre cada nodo creado, incluyendo sus coordenadas y su elemento HTML asociado. El script también maneja eventos de arrastre (drag) tanto para ratón como para toques táctiles, permitiendo que los nodos sean movidos dentro del área central.
+
+Funcionalidades clave:
+- Un botón en la parte derecha que agrega un nuevo nodo al centro cuando se hace clic.
+- El sistema permite mover estos nodos por el lienzo mediante arrastre y soltar (drag & drop).
+- Los cambios en posición de los nodos son actualizados tanto en la interfaz gráfica como internamente en las estructuras de datos.
+
+Este tipo de código es importante porque enseña conceptos fundamentales del desarrollo web, incluyendo manejo de eventos, interactividad y manipulación del DOM. Es especialmente útil para estudiantes de formación profesional que están aprendiendo a construir interfaces gráficas dinámicas y responsive.
+
+`009-nodos como elementos.html`
 
 ```html
 <!doctype html>
@@ -1563,6 +1495,21 @@ Conexión con bloques de inteligencia artificial
 ```
 
 ### nodos control de pantalla
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código HTML es una página web que permite al usuario interactuar con nodos (elementos gráficos) en un área visualmente ampliable y desplazable. La estructura principal de la página está formada por tres divisiones principales: izquierda, centro y derecha.
+
+En el centro se encuentra "mundo", una gran área donde los nodos pueden ser colocados y movidos. Esta zona tiene opciones de zoom y panning (movimiento lateral) controladas principalmente con eventos del ratón cuando se presiona la tecla Ctrl. Los nodos que se añaden a esta área son elementos HTML dinámicos creados mediante JavaScript, que permiten al usuario arrastrarlos dentro del área.
+
+La barra derecha contiene un botón '+' que permite crear nuevos nodos en el centro de la pantalla actualmente visible. Al hacer clic en este botón, se crea un nuevo nodo centrado en la vista y ajustado según el nivel de zoom actual.
+
+El propósito principal de esta página es proporcionar una interfaz visual para aprender y experimentar con conceptos como el panning (movimiento horizontal y vertical) y el zooming (cambio del tamaño de visualización), que son importantes cuando se trabaja con aplicaciones empresariales donde es necesario manejar grandes cantidades de datos o información en un espacio limitado.
+
+Este tipo de interacción gráfica puede ser útil, por ejemplo, en la configuración de sistemas ERP-CRM (Enterprise Resource Planning - Customer Relationship Management) para organizar visualmente diferentes componentes y funcionalidades del sistema.
+
+`010-nodos control de pantalla.html`
 
 ```html
 <!doctype html>
@@ -1789,6 +1736,152 @@ Conexión con bloques de inteligencia artificial
 ```
 
 ### nodos de conector
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Tu código HTML y JavaScript es bastante avanzado y funcional para un diagrama de flujo interactivo con nodos y conexiones. Sin embargo, hay algunas áreas donde podrías mejorar la eficiencia y el mantenimiento del código:
+
+### 1. Mejor Organización del Código
+
+Divide tu script en módulos más pequeños o crea funciones separadas para cada tarea específica. Esto facilitará la depuración y mejorará la legibilidad.
+
+```javascript
+function crearNodosDemo() {
+    crearNodo(120, 120);
+    crearNodo(420, 260);
+    crearNodo(760, 180);
+}
+
+function iniciarDragNodo(e, el) {
+    // Implementación existente
+}
+
+function moverDragNodo(e) {
+    // Implementación existente
+}
+
+// Agrega más funciones similares para cada tarea
+
+document.addEventListener("DOMContentLoaded", function() {
+    crearNodosDemo();
+});
+```
+
+### 2. Mejora la Manejo de Eventos
+
+Utiliza métodos `addEventListener` y `removeEventListener` en lugar de anidar eventos, especialmente cuando se manejan múltiples eventos.
+
+```javascript
+let dragMoveListener = null;
+function iniciarDragNodo(e, el) {
+    // Agrega listeners aquí
+}
+
+function moverDragNodo(e) {
+    if (!dragging) return;
+    // Implementación existente
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("mousedown", (e) => {
+        const nodo = e.target.closest('.nodo'); // Ajusta la clase según sea necesario
+        if (nodo && e.button === 0) {
+            iniciarDragNodo(e, nodo);
+        }
+    });
+});
+```
+
+### 3. Mejora la Manejo de Conexiones
+
+Al crear conexiones, podrías mejorar la lógica para evitar dibujar múltiples conexiones entre los mismos nodos.
+
+```javascript
+function finalizarConexionEnEntrada(targetNodoEl, portIn) {
+    if (!conexionEnCurso) return;
+    
+    const fromIdx = conexionEnCurso.fromIdx;
+    const toIdx = parseInt(targetNodoEl.dataset.index, 10);
+    
+    if (fromIdx === toIdx) { // Evitar autoconexiones
+        cancelarPreview();
+        return;
+    }
+
+    // Crear conexión definitiva
+    const fromNodeEl = nodos[fromIdx].el.querySelector('.port.out');
+    const toNodeEl = targetNodoEl.querySelector('.port.in');
+
+    const a = getPortCenterWorld(fromNodeEl);
+    const b = getPortCenterWorld(toNodeEl);
+
+    const paths = crearPathsSVG();
+    drawPaths(paths, a.x, a.y, b.x, b.y);
+
+    conexiones.push({ from: fromIdx, to: toIdx, ...paths });
+
+    cancelarPreview();
+}
+```
+
+### 4. Mejora la Eficiencia en el Dibujo de Paths
+
+Optimiza la función `drawPaths` para evitar dibujar múltiples paths innecesarios.
+
+```javascript
+function drawPaths(paths, x1, y1, x2, y2) {
+    const d = makePathD(x1, y1, x2, y2);
+    
+    if (paths.path.getAttribute("d") !== d) { // Evitar dibujar paths repetidos
+        paths.path.setAttribute("d", d);
+        paths.pathBg.setAttribute("d", d);
+        paths.glow.setAttribute("d", d);
+    }
+}
+```
+
+### 5. Mejora la Gestión de Resaltado de Enrrolles
+
+Puedes mejorar la lógica para resaltar entradas y evitar múltiples llamadas innecesarias.
+
+```javascript
+function iniciarConexionDesdeSalida(e, nodoEl, portOut) {
+    // Implementación existente
+    
+    const move = (ev) => {
+        const world = screenToWorld(ev.clientX, ev.clientY);
+        drawPaths(paths, x1, y1, world.x, world.y);
+
+        // Resaltar entradas solo una vez
+        if (!portInHighlighted) {
+            portInHighlighted = true;
+            document.querySelectorAll('.port.in').forEach(p => p.classList.add('highlight'));
+        }
+    };
+
+    const up = () => {
+        cancelarPreview();
+        document.removeEventListener('mousemove', move);
+        document.removeEventListener('mouseup', up);
+
+        // Eliminar resaltado de entradas
+        if (portInHighlighted) {
+            portInHighlighted = false;
+            document.querySelectorAll('.port.in').forEach(p => p.classList.remove('highlight'));
+        }
+    };
+
+    let portInHighlighted = false; // Variable para controlar el resaltado
+
+    document.addEventListener('mousemove', move);
+    document.addEventListener('mouseup', up);
+}
+```
+
+Estas mejoras deberían ayudarte a mantener tu código más limpio y eficiente, facilitando futuras modificaciones.
+
+`011-nodos de conector.html`
 
 ```html
 <!doctype html>
@@ -2198,82 +2291,196 @@ Conexión con bloques de inteligencia artificial
 </html>
 ```
 
+### Actividades propuestas
+
+Tu código HTML y JavaScript es bastante completo y funcional para un editor de gráficos con nodos. Sin embargo, hay algunas áreas que podrían mejorarse o considerar:
+
+### Mejoras en la Interfaz de Usuario (UI)
+
+1. **Feedback Visual**:
+   - Añade un cursor especial cuando el usuario está en modo "conectar" (control + clic) para indicar claramente cómo se conectan los nodos.
+
+2. **Zoom y Panning Smoother**:
+   - Mejora la experiencia de zoom y panning con una función que permita moverse por el lienzo sin desplazarse demasiado rápido. Esto puede incluir una suavización del movimiento o un límite en la velocidad máxima del zoom.
+
+3. **Resaltado de Nodos y Conexiones**:
+   - Cuando se selecciona un nodo, resalta todas las conexiones relacionadas con ese nodo.
+   - Agrega tooltips que muestren información sobre el nodo cuando se pasa por encima.
+
+4. **Nodo Selección Múltiple**:
+   - Añade funcionalidad para seleccionar múltiples nodos y moverlos juntos.
+
+### Mejoras en la Funcionalidad
+
+1. **Conexiones Bidireccionales**:
+   - Proporciona una opción para crear conexiones bidireccionales si es necesario.
+   
+2. **Eliminación de Conexiones**:
+   - Agrega funcionalidades para eliminar conexiones existentes.
+
+3. **Detección de Colisiones**:
+   - Añade una función que detecte colisiones entre nodos y ajuste automáticamente su posición para evitar superposiciones inesperadas.
+
+### Mejoras en el Código
+
+1. **Optimización del Dibujo de Paths**:
+   - Si hay un gran número de conexiones, mejorar la eficiencia del dibujo de paths.
+   
+2. **Manejador de Eventos Simples**:
+   - Simplifica los manejadores de eventos para evitar sobrecarga y asegurar que solo se ejecuten las funciones necesarias.
+
+3. **Documentación y Comentarios**:
+   - Añade comentarios en el código para facilitar la comprensión y mantenerlo legible, especialmente si otras personas trabajarán con este código.
+
+### Ejemplos de Mejoras
+
+#### Feedback Visual al Conectar Nodos
+```javascript
+document.addEventListener("mousedown", (e) => {
+  if(e.ctrlKey && e.button === 0){
+    document.body.style.cursor = "crosshair";
+  }
+}, { passive: false });
+
+document.addEventListener("mouseup", () => {
+  document.body.style.cursor = "";
+});
+```
+
+#### Feedback al Conectar Nodos
+```javascript
+function iniciarConexionDesdeSalida(e, nodoEl, portOut) {
+  const fromIdx = parseInt(nodoEl.dataset.index,10);
+  const {x:x1,y:y1} = getPortCenterWorld(portOut);
+  const paths = crearPathsSVG("preview");
+  conexionEnCurso = { fromIdx, paths };
+
+  // Resaltar entradas
+  document.querySelectorAll('.port.in').forEach(p=>p.classList.add('highlight'));
+
+  const move = (ev)=>{
+    const world = screenToWorld(ev.clientX, ev.clientY);
+    drawPaths(paths, x1, y1, world.x, world.y);
+  };
+  
+  const up = () => {
+    cancelarPreview();
+    document.removeEventListener('mousemove', move);
+    document.removeEventListener('mouseup', up);
+  };
+
+  document.addEventListener('mousemove', move);
+  document.addEventListener('mouseup', up);
+}
+```
+
+#### Detección de Colisiones
+```javascript
+function detectarColision(nodo1, nodo2) {
+  const rect1 = nodo1.getBoundingClientRect();
+  const rect2 = nodo2.getBoundingClientRect();
+
+  return !(
+    rect1.right < rect2.left ||
+    rect1.left > rect2.right ||
+    rect1.bottom < rect2.top ||
+    rect1.top > rect2.bottom
+  );
+}
+
+function ajustarPosicionParaColision(nodo, otrosNodos) {
+  for (let otroNodo of otrosNodos) {
+    if (detectarColision(nodo, otroNodo)) {
+      // Ajusta la posición de nodo para evitar la colisión
+      let nuevoX = rect.left + 50;
+      let nuevoY = rect.top + 50;
+
+      posicionarEnMundo(nodo, nuevoX, nuevoY);
+    }
+  }
+}
+```
+
+### Conclusión
+
+Tu código ya tiene muchas funcionalidades útiles y es un buen punto de partida para construir una herramienta más completa. Estas sugerencias ayudarán a mejorar la usabilidad y la eficiencia del editor de gráficos con nodos que estás desarrollando.
+
+Si necesitas implementar alguna de estas mejoras específicas o tienes otras dudas, no dudes en preguntar por aquí.
+
+
 <a id="actualizacion-del-sistema-erp-crm-y-aplicacion-de-actualizaciones"></a>
 ## Actualización del sistema ERP-CRM y aplicación de actualizaciones
 
-En este capítulo, nos adentramos en la actualización del sistema ERP-CRM y su aplicación de actualizaciones. La evolución constante de estos sistemas es crucial para mantener su eficiencia y adaptabilidad a las necesidades cambiantes de una organización.
-
-La actualización del sistema ERP-CRM implica no solo la introducción de nuevas funcionalidades, sino también mejoras en el rendimiento y seguridad. Este proceso puede ser desafiante debido a la complejidad de los sistemas existentes y la posibilidad de interrupciones en las operaciones diarias.
-
-Antes de proceder con la actualización, es fundamental realizar una evaluación detallada del sistema actual. Esto incluye identificar áreas que requieren mejora, analizar el impacto potencial de las nuevas funcionalidades y planificar los recursos necesarios para la implementación. Es crucial contar con un equipo de expertos en sistemas ERP-CRM para llevar a cabo esta evaluación.
-
-Una vez definido el plan de actualización, se procede al proceso de instalación. Esto implica descargar la nueva versión del sistema desde el proveedor oficial, realizar una copia de seguridad completa del sistema actual y preparar los entornos de desarrollo y pruebas necesarios. Es importante seguir las instrucciones proporcionadas por el proveedor para asegurar una instalación correcta.
-
-Durante la fase de prueba, se realizan diversas pruebas exhaustivas para verificar que todas las nuevas funcionalidades funcionen correctamente y que no hay conflictos con los módulos existentes. Se llevan a cabo pruebas de integración y pruebas de rendimiento para asegurar que el sistema pueda manejar la carga de trabajo esperada.
-
-La aplicación de actualizaciones es un proceso delicado que requiere cuidado especial. Es importante realizar esta tarea durante periodos de baja actividad del sistema, si es posible, para minimizar las interrupciones en las operaciones diarias. Además, se debe tener a mano los procedimientos de deshacer la actualización en caso de problemas inesperados.
-
-Una vez que la actualización ha sido exitosamente aplicada y probada, se realiza una fase final de integración con el resto del sistema ERP-CRM. Esto implica configurar las nuevas funcionalidades para trabajar coherentemente con los módulos existentes y realizar ajustes finales en formularios e informes.
-
-La documentación es un aspecto crucial de la actualización del sistema ERP-CRM. Es importante mantener registros detallados de todas las modificaciones realizadas, incluyendo el motivo de la actualización, los cambios implementados y cualquier problema que haya surgido durante el proceso. Esta documentación será invaluable para futuras referencias y para el soporte técnico.
-
-La post-actualización es un período crucial para evaluar el rendimiento del sistema y recoger feedback de los usuarios. Es importante realizar pruebas adicionales para verificar que todas las funcionalidades nuevas estén funcionando correctamente y que no haya surgido ningún problema inesperado. Además, se debe llevar a cabo una capacitación adecuada para los usuarios finales sobre cómo utilizar las nuevas características del sistema.
-
-La actualización del sistema ERP-CRM es un proceso integral que requiere planificación cuidadosa, ejecución meticulosa y evaluación exhaustiva. Al seguir estos pasos, podemos asegurarnos de que el sistema esté siempre alineado con las necesidades cambiantes de la organización y funcione eficientemente en todo momento.
-
-En resumen, la actualización del sistema ERP-CRM es un proceso crucial para mantener su relevancia y eficiencia. Al seguir los pasos adecuados y llevar a cabo una evaluación exhaustiva, podemos asegurarnos de que el sistema esté siempre alineado con las necesidades cambiantes de la organización y funcione eficientemente en todo momento.
 
 <a id="servicios-de-acceso-al-sistema-erp-crm"></a>
 ## Servicios de acceso al sistema ERP-CRM
 
-En este capítulo, nos adentramos en la configuración avanzada del acceso a sistemas ERP-CRM, un aspecto crucial para su correcto funcionamiento. Comenzamos explorando los diferentes tipos de servicios que pueden proporcionar estos sistemas, desde el acceso remoto hasta las funcionalidades de integración con otros sistemas.
-
-El primer paso es entender cómo establecer conexiones seguras y eficientes al sistema ERP-CRM. Esto implica conocer los protocolos de comunicación disponibles, como HTTP o HTTPS, y configurar correctamente los certificados digitales para garantizar la autenticidad del servidor. Además, se deben considerar las políticas de seguridad internas de la organización, incluyendo el uso de autenticación multifactor y la gestión de sesiones.
-
-Una vez establecida la conexión inicial, es fundamental configurar los permisos y roles que determinarán qué funcionalidades estarán disponibles para cada usuario. Esto se realiza a través de interfaces gráficas o mediante scripts de configuración, dependiendo del sistema ERP-CRM utilizado. Es importante asegurarse de que los privilegios asignados sean mínimos pero suficientes para el desempeño del usuario, lo que contribuirá a la seguridad y eficiencia operativa.
-
-Además de los servicios de acceso directo, muchos sistemas ERP-CRM ofrecen interfaces API (Aplicaciones Programables por Internet) que permiten integrar sus funcionalidades con otras aplicaciones. Esto es especialmente útil para automatizar procesos o para crear reportes personalizados que combinan datos de diferentes fuentes. La documentación detallada del sistema ERP-CRM es esencial en este proceso, ya que proporciona la información necesaria para entender cómo utilizar las APIs y cómo manejar los datos.
-
-La configuración también implica el establecimiento de procesos de mantenimiento y actualización periódica del acceso al sistema. Esto incluye la revisión regular de las políticas de seguridad, la aplicación de parches y actualizaciones del software, y la monitorización del rendimiento para identificar y solucionar problemas antes de que afecten a los usuarios.
-
-Es importante también considerar el aspecto legal y regulatorio en la configuración del acceso al sistema ERP-CRM. Esto puede implicar cumplir con normativas como GDPR (Reglamento General sobre Protección de Datos) o SOX (Ley de Contabilidad Interna), lo que requiere una configuración adecuada para proteger los datos personales y garantizar el cumplimiento legal.
-
-Finalmente, la documentación detallada del proceso de instalación y configuración es un elemento crucial. Debe incluir instrucciones paso a paso, capturas de pantalla y ejemplos prácticos que ayuden a los usuarios a entender cada etapa del proceso. Además, se debe proporcionar soporte técnico para resolver cualquier problema que pueda surgir durante la configuración o el uso del sistema.
-
-En resumen, la configuración avanzada del acceso al sistema ERP-CRM es un proceso integral que requiere una comprensión profunda de los sistemas y las políticas organizativas. Al seguir estos pasos, se asegurará que el sistema esté correctamente instalado y configurado para su uso eficiente y seguro por parte de todos los usuarios.
 
 <a id="entornos-de-desarrollo-pruebas-y-explotacion"></a>
 ## Entornos de desarrollo, pruebas y explotación
 
-En la instalación y configuración de sistemas ERP-CRM, es crucial considerar los entornos específicos para desarrollo, pruebas y explotación. Cada uno de estos entornos requiere una configuración adecuada para garantizar que el sistema funcione correctamente en diferentes fases del ciclo de vida del proyecto.
-
-El entorno de desarrollo debe estar equipado con herramientas avanzadas que faciliten la creación y depuración del código. Esto incluye un editor de texto o IDE (Entorno de Desarrollo Integrado) que ofrezca autocompletado, resaltado de sintaxis y otras funcionalidades útiles. Además, es fundamental contar con versiones controladas de los códigos fuente para facilitar el seguimiento de cambios y colaboración entre los miembros del equipo.
-
-El entorno de pruebas debe ser replicado lo más fielmente posible al entorno de producción. Esto implica la instalación de las mismas herramientas, bibliotecas y dependencias que se utilizarán en el sistema final. El objetivo es identificar problemas potenciales antes de que lleguen a la fase de explotación, minimizando así el tiempo de inactividad y los costos asociados.
-
-El entorno de explotación es donde reside el sistema ERP-CRM una vez que ha sido implementado en producción. Es crucial que este entorno esté optimizado para el rendimiento y la seguridad. Esto incluye la configuración adecuada del servidor, la gestión eficiente de los recursos y la implementación de medidas de protección contra amenazas cibernéticas.
-
-Además de estos entornos físicos o virtuales, es importante considerar también los entornos de configuración y despliegue. Esto implica la creación de scripts y procedimientos que faciliten la instalación y actualización del sistema en diferentes entornos. La automatización de este proceso puede ahorrar tiempo y reducir errores humanos.
-
-En el contexto de sistemas ERP-CRM, es común utilizar herramientas de gestión de proyectos para monitorear y controlar los cambios en los entornos de desarrollo, pruebas y explotación. Estas herramientas permiten realizar seguimiento del progreso, asignar tareas y gestionar las incidencias que puedan surgir.
-
-La configuración adecuada de los entornos de desarrollo, pruebas y explotación es un paso crucial en el ciclo de vida de cualquier sistema ERP-CRM. Una configuración incorrecta puede llevar a problemas significativos durante la fase de implementación y operaciones, lo que requiere tiempo adicional para solucionar y puede resultar en costos adicionales.
-
-En resumen, la configuración adecuada de los entornos de desarrollo, pruebas y explotación es fundamental para el éxito del sistema ERP-CRM. Cada uno de estos entornos debe ser cuidadosamente planificado y ejecutado para garantizar que el sistema funcione correctamente en diferentes fases del ciclo de vida del proyecto.
 
 <a id="ejercicio-de-final-de-unidad-1"></a>
 ## Ejercicio de final de unidad
 
-### ejercicio
+### Introducción a los ejercicios
 
-```markdown
+En esta unidad, te encuentras con un conjunto de ejercicios diseñados específicamente para adquirir competencias en la instalación y configuración de sistemas ERP (Planificación de Recursos Empresariales) y CRM (Gestión de Relaciones con Clientes). El ejercicio principal te guiará a través del proceso completo, desde la instalación inicial hasta la configuración avanzada, permitiéndote entender cómo funcionan estos sistemas en un entorno empresarial. A través de esta práctica, mejorarás tus habilidades técnicas y ganarás confianza en el manejo de software empresarial crítico para el funcionamiento eficiente de una organización.
 
-```
+### Actividades propuestas
+
+Basándome en la información proporcionada y asumiendo que los ejercicios están relacionados con la instalación, configuración y uso básico de sistemas ERP-CRM para estudiantes de Formación Profesional (en este caso, DAM - Desarrollo de Aplicaciones Multiplataforma), aquí tienes una lista de actividades sugeridas:
+
+1. **Instalación Básica de Sistemas ERP**
+   - *Descripción:* Los alumnos deben instalar y configurar un sistema ERP en un entorno de desarrollo local. Se espera que comprendan los pasos básicos para prepararse para la implementación de software empresarial.
+
+2. **Configuración Inicial del Sistema CRM**
+   - *Descripción:* A través de esta actividad, se pide a los estudiantes que realicen la configuración inicial de un sistema CRM incluyendo usuarios y roles básicos. Esto ayudará a familiarizarse con las funciones administrativas esenciales.
+
+3. **Integración Entre ERP y CRM**
+   - *Descripción:* Los alumnos deben integrar funcionalidades básicas entre el ERP y el CRM para mejorar la eficiencia operativa en un escenario empresarial simulado, comprendiendo así cómo interactúan estos sistemas.
+
+4. **Pruebas de Funcionalidad del Sistema ERP**
+   - *Descripción:* Se pide a los estudiantes que realicen pruebas básicas sobre diferentes módulos del sistema ERP para asegurar su correcta ejecución y familiarizarse con las características principales del mismo.
+
+5. **Configuración Avanzada en CRM**
+   - *Descripción:* Los alumnos deben configurar funciones avanzadas dentro de un sistema CRM, como segmentos de mercado específicos o herramientas analíticas integradas, para entender cómo mejorar la interacción con clientes potenciales y existentes.
+
+6. **Documentación del Proceso de Instalación**
+   - *Descripción:* Se les pide a los estudiantes que documenten paso a paso el proceso de instalación y configuración del sistema ERP y CRM, ayudándoles a desarrollar habilidades técnicas y de comunicación efectiva.
+
+7. **Resolución de Problemas Básicos en Sistemas ERP/CRM**
+   - *Descripción:* A través de esta actividad, los estudiantes deben identificar y resolver problemas comunes durante la instalación y configuración inicial del software empresarial, preparándolos para situaciones reales en el entorno laboral.
+
+8. **Simulación de Ejecución Operativa con ERP/CRM**
+   - *Descripción:* Los alumnos simulan una operación de negocio empleando las herramientas proporcionadas por los sistemas ERP y CRM para entender su uso real y aplicabilidad práctica en la gestión empresarial.
+
+Estas actividades están diseñadas para fortalecer las habilidades técnicas y conceptuales relacionadas con la instalación, configuración e implementación de sistemas ERP y CRM necesarias para estudiantes de ciclos formativos como el DAM.
+
 
 <a id="examen-final"></a>
 ## Examen final
 
+### Introducción a los ejercicios
+
+Esta carpeta contiene una serie de ejercicios en SQL orientados a la creación y gestión de un sistema básico para un portafolio empresarial. Los estudiantes deben comenzar por crear una base de datos y sus tablas, estableciendo relaciones entre ellas mediante claves foráneas. Luego, se les pide que inserten registros en estas tablas, realicen consultas para seleccionar datos y utilicen un LEFT JOIN para combinar información desde múltiples tablas. Además, crean una vista que simplifica la visualización de los datos relacionados entre las piezas y sus categorías. Finalmente, aprenden a crear y configurar un usuario con privilegios específicos para acceder a la base de datos recién creada.
+
+A través de estos ejercicios, los estudiantes desarrollan habilidades en la estructuración de bases de datos relacionales, manejo de consultas SQL complejas, creación de vistas y administración de usuarios y privilegios en entornos de gestión de sistemas empresariales.
+
 ### crear tablas
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código SQL está creando una base de datos y dos tablas en una base de datos de gestión empresarial. Primero, se crea la base de datos llamada `portafolioceac`. Luego, se selecciona esta base de datos para trabajar con ella.
+
+El código luego define dos tablas: `Piezas` y `Categorias`. La tabla `Piezas` tiene campos como `Identificador`, que es una clave primaria incremental (auto_increment), lo cual significa que cada vez que se añade una nueva pieza, el identificador será único e incrementará automáticamente. También incluye campos para almacenar información sobre la pieza como su título, descripción, imagen y URL. Además, hay un campo `id_categoria` que es probablemente una clave foránea que relaciona cada pieza con una categoría.
+
+La tabla `Categorias`, por otro lado, tiene dos campos: `Identificador` (que también es una clave primaria incremental) y los campos `titulo` y `descripcion` para almacenar el nombre y la descripción de cada categoría. Esta estructura permite organizar las piezas en diferentes categorías dentro del sistema.
+
+Esta organización de datos es fundamental porque ayuda a mantener un control claro sobre el inventario o recursos, permitiendo una fácil consulta y manipulación de información relacionada con las piezas y sus respectivas categorías.
+
+`001-crear tablas.sql`
 
 ```sql
 CREATE DATABASE portafolioceac;
@@ -2298,6 +2505,19 @@ CREATE TABLE Categorias(
 ```
 
 ### insertar
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código SQL se utiliza para insertar datos en dos tablas diferentes, llamadas `Categorias` y `Piezas`. La inserción de datos es una operación básica en la gestión de bases de datos que permite añadir nueva información a las tablas existentes.
+
+En el primer bloque de código, se está insertando un nuevo registro en la tabla `Categorias`. Se especifica `NULL` para el identificador (ID) de la categoría, lo que indica al sistema que este campo debe ser automáticamente generado por la base de datos. Luego, se añade una descripción breve 'General' y una descripción más detallada 'Esta es la categoria general'.
+
+En el segundo bloque, se inserta un nuevo registro en la tabla `Piezas`. Similarmente, comienza con `NULL` para permitir que la base de datos genere automáticamente el ID. A continuación, se proporcionan detalles sobre la pieza como su nombre ('Primera pieza'), una descripción ('Esta es la descripcion de la primera pieza'), un archivo adjunto 'josevicente.jpg', un enlace externo a una página web y finalmente un valor numérico (1) que probablemente hace referencia a una categoría existente o algún otro tipo de relación.
+
+Este código es importante porque establece los datos iniciales necesarios para probar el funcionamiento del sistema ERP-CRM, asegurando que las tablas tengan registros reales con los cuales trabajar y realizar pruebas.
+
+`002-insertar.sql`
 
 ```sql
 INSERT INTO Categorias VALUES(
@@ -2317,6 +2537,21 @@ INSERT INTO Piezas VALUES(
 ```
 
 ### fk
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código SQL añade una restricción de tipo clave foránea (foreign key) a la tabla llamada `Piezas`. En concreto, crea una relación entre la columna `id_categoria` en la tabla `Piezas` y la columna `identificador` en la tabla `Categorias`.
+
+La línea `FOREIGN KEY (id_categoria) REFERENCES Categorias(identificador)` establece que cada valor que se almacena en la columna `id_categoria` de la tabla `Piezas` debe ser un identificador válido existente en la columna `identificador` de la tabla `Categorias`. Esto garantiza que no puedas tener piezas cuya categoría no exista.
+
+Además, las opciones `ON DELETE CASCADE` y `ON UPDATE CASCADE` indican lo siguiente:
+- Si se elimina (DELETE) una fila en la tabla `Categorias`, también se eliminarán todas las filas relacionadas en la tabla `Piezas`.
+- Si se actualiza (UPDATE) el valor de la columna `identificador` en la tabla `Categorias`, el sistema automáticamente actualizará los valores correspondientes en la columna `id_categoria` de la tabla `Piezas`.
+
+Esto es crucial para mantener la integridad referencial entre las tablas, asegurando que toda pieza tenga una categoría válida y que cambios o eliminaciones en las categorías se reflejen consistentemente en las piezas asociadas.
+
+`003-fk.sql`
 
 ```sql
 ALTER TABLE Piezas
@@ -2327,6 +2562,17 @@ ON UPDATE CASCADE;
 ```
 
 ### selecciones
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+El código que has proporcionado está compuesto por dos sentencias SQL simples, cada una de las cuales realiza una consulta en una base de datos. La primera línea `SELECT * FROM Categorias;` obtiene todos los registros (o filas) de la tabla llamada "Categorias". Esto significa que el sistema te devolverá toda la información almacenada en esta tabla sin ningún tipo de filtro adicional.
+
+La segunda línea, `SELECT * FROM Piezas;`, hace lo mismo pero con la tabla "Piezas". Esta consulta devuelve todos los datos contenidos en esa tabla específica. Estas consultas son útiles cuando necesitas revisar rápidamente todo el contenido de una tabla sin importar cuántos campos o registros tenga.
+
+Estas sentencias son fundamentales para entender y trabajar con bases de datos, ya que permiten acceder a toda la información almacenada en cada tabla, lo cual es crucial durante etapas iniciales de desarrollo o cuando se necesita realizar un análisis rápido de los datos disponibles.
+
+`004-selecciones.sql`
 
 ```sql
 SELECT * FROM Categorias;
@@ -2335,6 +2581,17 @@ SELECT * FROM Piezas;
 ```
 
 ### left join
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código SQL realiza una operación llamada "left join" entre dos tablas, `Piezas` y `Categorias`. La función principal del left join es combinar datos de ambas tablas basándose en un criterio específico (en este caso, el id de la categoría) para incluir todas las filas de la tabla izquierda (`Piezas`) y sólo aquellas que coincidan de la tabla derecha (`Categorias`). Esto significa que si una pieza no tiene una correspondencia en la tabla `Categorias`, el resultado aún mostrará esa pieza, pero con valores nulos para los campos provenientes de `Categorias`.
+
+La línea `ON Piezas.id_categoria = Categorias.Identificador` es crucial porque especifica cómo vincular las dos tablas: cada pieza se relacionará con su categoría correspondiente basándose en el id de la categoría que tiene asignado. Esta operación es importante para entender y visualizar cómo las piezas están distribuidas entre diferentes categorías, incluso si algunas no tienen una categoría asociada.
+
+En resumen, este código ayuda a los desarrolladores y administradores de sistemas a obtener un panorama completo sobre cómo están organizadas las piezas dentro del sistema, incluyendo aquellas que pueden no estar claramente clasificadas en alguna categoría.
+
+`005-left join.sql`
 
 ```sql
 SELECT 
@@ -2345,6 +2602,17 @@ ON Piezas.id_categoria = Categorias.Identificador;
 ```
 
 ### ahora creo la vista
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código SQL está creando una vista llamada `piezas_y_categorias` que combina información de dos tablas, `Piezas` y `Categorias`. La función principal es unir estos dos conjuntos de datos basándose en la relación entre ellos, donde cada pieza puede pertenecer a una categoría determinada.
+
+La instrucción `CREATE VIEW` permite almacenar el resultado del SELECT como si fuera una tabla. En este caso, se seleccionan columnas específicas desde ambas tablas y las renombran para que sea más claro qué información proviene de dónde (por ejemplo, `Categorias.titulo` se convierte en `categoriatitulo`). Además, utiliza un LEFT JOIN para asegurarse de que todas las piezas aparezcan en el resultado, incluso si no tienen una categoría asociada.
+
+Finalmente, la consulta `SELECT * FROM piezas_y_categorias;` sirve para mostrar todos los registros almacenados en esta vista recién creada, proporcionando así un resumen rápido y claro de cómo se relacionan las piezas con sus categorías en el sistema. Esto es útil cuando necesitas una visualización rápida o cuando quieres simplificar consultas más complejas que requieren datos de ambas tablas constantemente.
+
+`006-ahora creo la vista.sql`
 
 ```sql
 CREATE VIEW piezas_y_categorias AS 
@@ -2363,6 +2631,17 @@ SELECT * FROM piezas_y_categorias;
 ```
 
 ### usuario
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código SQL tiene como objetivo crear un nuevo usuario en tu base de datos y concederle los permisos necesarios para trabajar con ella. Comenzamos creando el usuario 'portafolioceac' desde localhost y estableciendo una contraseña para él. Luego, se le permite acceso limitado inicialmente a todas las bases de datos utilizando la instrucción GRANT USAGE.
+
+A continuación, se eliminan todos los límites de conexión y uso que pudiera tener este nuevo usuario mediante la sentencia ALTER USER, permitiéndole realizar tantas consultas y conexiones como sea necesario sin restricciones numéricas. Finalmente, se concede a 'portafolioceac' el acceso completo (todos los privilegios) para trabajar en la base de datos específica llamada 'portafolioceac'. La última línea FLUSH PRIVILEGES asegura que todos estos cambios se apliquen inmediatamente.
+
+Este proceso es fundamental para gestionar el acceso y las autorizaciones en un sistema de gestión empresarial, ya que permite controlar quién puede acceder a qué datos y con qué nivel de permisos.
+
+`007-usuario.sql`
 
 ```sql
 -- crea usuario nuevo con contraseña
@@ -2392,6 +2671,43 @@ TO 'portafolioceac'@'localhost';
 FLUSH PRIVILEGES;
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Creación de Base de Datos y Tablas
+
+**Descripción:** Los estudiantes deben crear una base de datos llamada `mi_portafolio` y dos tablas relacionadas con ella. Se pretende que aprendan a definir esquemas para tablas relacionales, incluyendo el manejo de claves primarias e internas.
+
+### Actividad 2: Inserción de Datos
+
+**Descripción:** Los estudiantes deben insertar datos en las tablas creadas anteriormente. Este ejercicio busca mejorar sus habilidades en la inserción de registros con valores específicos y comprender cómo utilizar NULL para identificadores automáticos.
+
+### Actividad 3: Creación de Referencias (Foreign Key)
+
+**Descripción:** Se requiere que los estudiantes añadan una clave foránea entre las tablas creadas, especificando comportamientos en caso de borrado o actualización. El objetivo es entender la integridad referencial y cómo protegerla.
+
+### Actividad 4: Consulta Básica
+
+**Descripción:** Los alumnos deben realizar consultas básicas para seleccionar todos los registros de las tablas creadas (Categorias y Piezas). Se busca que practiquen el uso del SELECT * y comprendan cómo recuperar datos completos de una tabla.
+
+### Actividad 5: Consulta con Join
+
+**Descripción:** Los estudiantes deben escribir un script SQL que realice un LEFT JOIN entre las tablas Categorias y Piezas. El propósito es enseñarles a combinar registros de múltiples tablas basándose en la relación definida por una clave foránea.
+
+### Actividad 6: Creación de Vista
+
+**Descripción:** Se les pide que creen una vista (VIEW) combinando datos desde las tablas Categorias y Piezas, con alias para los nombres de columna. La actividad busca familiarizar a los estudiantes con la creación y uso de vistas en SQL.
+
+### Actividad 7: Consulta sobre Vista
+
+**Descripción:** Los alumnos deben seleccionar todos los registros de la vista creada en la actividad anterior. Esta tarea tiene como objetivo mostrar cómo las consultas pueden simplificarse al trabajar con vistas predefinidas.
+
+### Actividad 8: Administración de Usuarios y Privilegios
+
+**Descripción:** Se les instruye a crear un nuevo usuario, otorgarle privilegios sobre la base de datos recién creada y ajustar las restricciones del mismo. Este ejercicio pretende enseñarles cómo gestionar usuarios y sus accesos en MySQL.
+
+Estas actividades están diseñadas para que los estudiantes de Formación Profesional apliquen los conocimientos adquiridos en el manejo básico de bases de datos utilizando SQL, desde la creación hasta la administración de usuarios.
+
+
 
 <a id="organizacion-y-consulta-de-la-informacion"></a>
 # Organización y consulta de la información
@@ -2399,25 +2715,36 @@ FLUSH PRIVILEGES;
 <a id="definicion-de-campos"></a>
 ## Definición de campos
 
-En este capítulo, nos adentramos en la definición de campos, un concepto fundamental para el correcto funcionamiento de sistemas ERP-CRM. Los campos son las unidades básicas de información que se almacenan y manipulan dentro del sistema. Cada campo tiene un nombre descriptivo, un tipo de dato específico y una serie de atributos que determinan su comportamiento y uso.
+### Introducción a los ejercicios
 
-El primer paso para definir un campo es elegir un nombre adecuado que refleje el propósito del mismo. Este nombre debe ser claro y conciso, evitando términos técnicos innecesarios o ambiguos. Por ejemplo, si estamos creando un sistema de gestión de clientes, un campo podría llamarse "Nombre del Cliente" en lugar de "nombre_cli".
+Esta sección de código es una aplicación web básica que utiliza rutas para manejar diferentes solicitudes HTTP y devolver datos en formato JSON. La estructura principal incluye:
 
-El tipo de dato es otro aspecto crucial en la definición de campos. Determina qué tipo de información puede almacenar el campo y cómo se debe tratar. Algunos ejemplos comunes de tipos de datos son texto, número entero, número decimal, fecha y hora, booleano, etc. Cada tipo de dato tiene sus propias características y restricciones que deben ser consideradas al momento de su definición.
+1. **Rutas Definidas**: Se especifican varias rutas, como '/', '/menu', y '/alumnos'. Cada ruta devuelve un conjunto de datos específicos cuando se accede a ella.
 
-Además de los campos básicos, es común incluir atributos adicionales para mejorar la funcionalidad del campo. Por ejemplo, se pueden establecer restricciones como obligatoriedad (que el campo debe tener un valor), longitud máxima (para cadenas de texto), valores predeterminados o incluso opciones de selección predefinidas. Estos atributos ayudan a garantizar que los datos ingresados sean consistentes y cumplen con las necesidades del sistema.
+2. **Métodos HTTP**: El código maneja principalmente solicitudes GET, aunque está diseñado para ser extensible a otros métodos en el futuro.
 
-La organización de campos en tablas es otro aspecto importante. Una tabla en un sistema ERP-CRM es una colección de campos que representan un concepto o entidad específica. Por ejemplo, podríamos tener una tabla llamada "Clientes" que contenga campos como Nombre del Cliente, DNI, Dirección, Teléfono, Email, etc. La organización de los campos en tablas permite una estructura lógica y coherente del sistema.
+3. **Diseño Modular**: Los datos y la lógica están bien separados, lo que facilita su mantenimiento y escalabilidad. Por ejemplo, los datos de alumnos son proporcionados como una lista JSON codificada dentro del código.
 
-La definición de campos también implica considerar la integridad de los datos. Esto significa asegurarse de que los valores ingresados en un campo sean válidos según las reglas establecidas. Por ejemplo, si un campo es de tipo número entero, se debe evitar que se ingrese texto o números decimales. Las restricciones de validación son herramientas clave para mantener la calidad y precisión de los datos almacenados.
+4. **Manejo de Errores**: Si se accede a una ruta no definida, el sistema muestra un mensaje de error 404 con las rutas disponibles.
 
-Además de la definición de campos básicos, también es importante considerar la escalabilidad del sistema. A medida que el sistema crece y evoluciona, puede ser necesario agregar nuevos campos o modificar los existentes. Por lo tanto, es recomendable diseñar los campos con flexibilidad en mente, permitiendo futuras modificaciones sin afectar la funcionalidad del sistema.
-
-La definición de campos también implica considerar la seguridad de los datos. Es crucial asegurarse de que solo los usuarios autorizados puedan acceder y modificar ciertos campos. Esto se puede lograr mediante el uso de roles y permisos dentro del sistema, permitiendo un control preciso sobre quién puede ver o editar qué información.
-
-En resumen, la definición de campos es una tarea fundamental en la configuración de sistemas ERP-CRM. Al elegir nombres descriptivos, tipos de datos apropiados y atributos adicionales, podemos crear tablas estructuradas y funcionales que almacenen y manipulen los datos de manera eficiente y segura. Esta fase es crucial para garantizar que el sistema cumpla con las necesidades del negocio y pueda ser utilizado de manera efectiva por sus usuarios finales.
+El objetivo principal es permitir que los usuarios accedan a diferentes conjuntos de datos (como menús y listas de alumnos) mediante solicitudes HTTP específicas. Esto puede ser útil en la construcción de interfaces web dinámicas o APIs para sistemas más grandes.
 
 ### .htaccess
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código se encuentra en un archivo llamado `.htaccess`, que es muy útil para configurar cómo el servidor web maneja las solicitudes HTTP. En este caso específico, el código está implementando la técnica conocida como "desambiguación" (en inglés, "URL rewriting"), que permite que las URLs sean más amigables y estéticamente atractivas.
+
+Lo primero que hace es activar la función de desambiguación con `RewriteEngine On`. Luego establece una base para las reglas siguientes usando `RewriteBase`, indicando el directorio base del sitio web en cuestión. Esto es importante porque asegura que todas las nuevas URL generadas por las reglas estén correctamente formateadas y funcionen dentro de este contexto específico.
+
+Las dos líneas que siguen, `RewriteCond %{REQUEST_FILENAME} !-f` y `RewriteCond %{REQUEST_FILENAME} !-d`, están verificando si la solicitud es para un archivo físico (`!-f`) o una carpeta física (`!-d`). Si no existe el archivo ni la carpeta solicitados, entonces se aplica la regla que sigue.
+
+La última línea, `RewriteRule ^(.*)$ index.php [QSA,L]`, dice al servidor que si ninguna de las condiciones anteriores es verdadera (es decir, cuando la URL solicitada no corresponde a un archivo o carpeta real), redirige la solicitud a `index.php`. La parte `QSA` significa "query string append" y asegura que cualquier información adicional enviada en la URL se añade al final de la nueva URL. Y el parámetro `L` indica que esta regla debe ser la última aplicada, deteniendo toda lógica adicional una vez cumplida.
+
+Esta técnica es muy útil para sistemas como frameworks PHP (como Laravel o Symfony) donde todas las solicitudes se manejan desde un solo archivo (`index.php`) y luego el sistema decide internamente qué vista mostrar basándose en la URL que se ha ingresado. Esto ayuda a ocultar la estructura interna del sitio web y hace más fácil trabajar con URLs amigables para los usuarios.
+
+`.htaccess`
 
 ```
 RewriteEngine On
@@ -2429,6 +2756,32 @@ RewriteRule ^(.*)$ index.php [QSA,L]
 ```
 
 ### index
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código PHP es un ejemplo básico de cómo funciona una aplicación web que maneja rutas y muestra información según la URL solicitada. La aplicación permite diferentes acciones en función del método HTTP utilizado (en este caso, solo se implementa para GET) y la ruta específica requerida por el cliente.
+
+1. **Enrutamiento**: El código define un array asociativo llamado `$routes` que contiene las rutas disponibles y las funciones correspondientes a cada una de ellas. Por ejemplo:
+   - La ruta `'/'` muestra la página de inicio.
+   - La ruta `'/alumnos'` (o cualquier otra definida) muestra información relacionada con los alumnos, en este caso un array JSON.
+
+2. **Procesamiento de solicitudes**: 
+   - El código recupera el método HTTP utilizado (`$_SERVER['REQUEST_METHOD']`) y la URL solicitada (`$_SERVER['REQUEST_URI']`).
+   - Luego, se procesa la URL para obtener una ruta limpia sin la base del proyecto.
+   
+3. **Ejecución de funciones asociadas a las rutas**:
+   - Si la ruta está presente en el array `$routes`, se ejecuta la función correspondiente.
+   - Para la ruta `'/'` y `'/alumnos'`, se muestran datos específicos. En particular, para `/alumnos` se imprime un JSON con información de alumnos.
+
+4. **Manejo de errores**:
+   - Si no se encuentra una ruta que coincida con lo solicitado por el usuario, la aplicación muestra un mensaje de error 404 y lista las rutas disponibles en modo GET.
+
+Este código es útil para entender cómo funcionan las aplicaciones web basadas en rutas (routing) y cómo se puede manejar la información dinámicamente según las solicitudes del cliente. Es una introducción básica al concepto de controladores que son fundamentales en el desarrollo web moderno, especialmente cuando se trabaja con frameworks MVC (Model-View-Controller). 
+
+Este ejemplo simplifica la lógica del sistema para facilitar su comprensión y implementa un conjunto básico de rutas y respuestas. En aplicaciones más complejas, este tipo de manejo de rutas es crucial para organizar el código y hacerlo escalable y mantenible.
+
+`index.php`
 
 ```
 <?php
@@ -2882,26 +3235,282 @@ if (isset($routes[$method][$finalPath])) {
 }
 ```
 
+### Actividades propuestas
+
+### Ejercicios sobre la Definición de Campos y Manejo de Datos JSON
+
+#### 1. **Visualización de Datos**
+**Descripción:** El objetivo es visualizar los datos en formato JSON proporcionados por el servidor.
+
+- **URL Base:**
+  - `/`
+  
+- **Resultado Esperado:**
+  - La página debe mostrar la lista completa de alumnos y sus detalles en un formato legible para el usuario (pueden ser tablas HTML, listas o cualquier otro formato que sea adecuado).
+
+#### 2. **Filtrar Datos por Curso**
+**Descripción:** Implementar una funcionalidad que permita filtrar a los estudiantes según su curso.
+
+- **URL Base:**
+  - `/curso`
+  
+- **Parámetro (GET):**
+  - `curso` (por ejemplo, `?curso=DAW`)
+
+- **Resultado Esperado:**
+  - Mostrar solo a los alumnos que pertenecen al curso especificado en el parámetro.
+
+#### 3. **Filtrar Datos por Estado Académico**
+**Descripción:** Implementar una funcionalidad que permita filtrar a los estudiantes según su estado académico (Aprobado o Suspensos).
+
+- **URL Base:**
+  - `/estado`
+  
+- **Parámetro (GET):**
+  - `estado` (por ejemplo, `?estado=Aprobado`)
+
+- **Resultado Esperado:**
+  - Mostrar solo a los alumnos que tienen el estado académico especificado en el parámetro.
+
+#### 4. **Ordenar Datos por Nota Descendente**
+**Descripción:** Implementar una funcionalidad que ordene la lista de estudiantes según su nota, de mayor a menor.
+
+- **URL Base:**
+  - `/ordenar`
+  
+- **Resultado Esperado:**
+  - Mostrar la lista completa de alumnos ordenada según sus notas en forma descendente.
+
+#### 5. **Filtrar y Ordenar Datos por Curso y Estado Académico**
+**Descripción:** Implementar una funcionalidad que permita filtrar a los estudiantes según su curso y estado académico, además de ordenarlos por nota.
+
+- **URL Base:**
+  - `/filtrar`
+  
+- **Parámetros (GET):**
+  - `curso` (por ejemplo, `?curso=DAW`)
+  - `estado` (por ejemplo, `?estado=Aprobado`)
+
+- **Resultado Esperado:**
+  - Mostrar solo a los alumnos que pertenecen al curso y estado académico especificados en los parámetros, ordenados por nota de mayor a menor.
+
+### Ejemplos de Implementación
+
+#### Visualización de Datos
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Alumnos</title>
+</head>
+<body>
+    <h1>Lista de Alumnos</h1>
+    <?php
+    $data = json_decode(file_get_contents('http://localhost/dam2526/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/003-Organizaci%C3%B3n%20y%20consulta%20de%20la%20informaci%C3%B3n/101-Ejercicios'));
+    ?>
+    
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Curso</th>
+            <th>Nota</th>
+            <th>Estado Académico</th>
+        </tr>
+        <?php foreach ($data as $alumno): ?>
+            <tr>
+                <td><?php echo $alumno->id; ?></td>
+                <td><?php echo htmlspecialchars($alumno->nombre); ?></td>
+                <td><?php echo htmlspecialchars($alumno->apellidos); ?></td>
+                <td><?php echo htmlspecialchars($alumno->curso); ?></td>
+                <td><?php echo htmlspecialchars($alumno->nota); ?></td>
+                <td><?php echo htmlspecialchars($alumno->estado); ?></td>
+            </tr>
+        <?php endforeach; ?>
+    </table>
+</body>
+</html>
+```
+
+#### Filtrar Datos por Curso
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Alumnos de DAW</title>
+</head>
+<body>
+    <?php
+    $curso = isset($_GET['curso']) ? $_GET['curso'] : null;
+    if (!$curso) {
+        die('Debe especificar un curso');
+    }
+    
+    $url = "http://localhost/dam2526/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/003-Organizaci%C3%B3n%20y%20consulta%20de%20la%20informaci%C3%B3n/101-Ejercicios";
+    $data = json_decode(file_get_contents($url));
+    
+    $alumnos_filtrados = array_filter($data, function ($alumno) use ($curso) {
+        return $alumno->curso == $curso;
+    });
+    
+    ?>
+    
+    <h1>Alumnos de <?php echo htmlspecialchars($curso); ?></h1>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Curso</th>
+            <th>Nota</th>
+            <th>Estado Académico</th>
+        </tr>
+        <?php foreach ($alumnos_filtrados as $alumno): ?>
+            <tr>
+                <td><?php echo htmlspecialchars($alumno->id); ?></td>
+                <td><?php echo htmlspecialchars($alumno->nombre); ?></td>
+                <td><?php echo htmlspecialchars($alumno->apellidos); ?></td>
+                <td><?php echo htmlspecialchars($alumno->curso); ?></td>
+                <td><?php echo htmlspecialchars($alumno->nota); ?></td>
+                <td><?php echo htmlspecialchars($alumno->estado); ?></td>
+            </tr>
+        <?php endforeach; ?>
+    </table>
+</body>
+</html>
+```
+
+#### Ordenar Datos por Nota Descendente
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Alumnos ordenados por nota descendente</title>
+</head>
+<body>
+    
+    <?php
+    $url = "http://localhost/dam2526/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/003-Organizaci%C3%B3n%20y%20consulta%20de%20la%20informaci%C3%B3n/101-Ejercicios";
+    $data = json_decode(file_get_contents($url));
+    
+    usort($data, function ($a, $b) {
+        return $b->nota - $a->nota;
+    });
+    ?>
+    
+    <h1>Alumnos ordenados por nota descendente</h1>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Curso</th>
+            <th>Nota</th>
+            <th>Estado Académico</th>
+        </tr>
+        <?php foreach ($data as $alumno): ?>
+            <tr>
+                <td><?php echo htmlspecialchars($alumno->id); ?></td>
+                <td><?php echo htmlspecialchars($alumno->nombre); ?></td>
+                <td><?php echo htmlspecialchars($alumno->apellidos); ?></td>
+                <td><?php echo htmlspecialchars($alumno->curso); ?></td>
+                <td><?php echo htmlspecialchars($alumno->nota); ?></td>
+                <td><?php echo htmlspecialchars($alumno->estado); ?></td>
+            </tr>
+        <?php endforeach; ?>
+    </table>
+</body>
+</html>
+```
+
+Estos ejercicios te ayudarán a entender cómo trabajar con datos JSON, filtrar y ordenar datos, y mostrar información de manera efectiva en una página web.
+
+
 <a id="consultas-de-acceso-a-datos"></a>
 ## Consultas de acceso a datos
 
-En la subunidad "Consultas de acceso a datos", nos adentramos en el aspecto fundamental de cómo interactuar con los sistemas ERP-CRM para recuperar información relevante. Las consultas de acceso a datos son una parte esencial del flujo de trabajo diario, permitiendo a los usuarios y administradores extraer y analizar datos de manera eficiente.
+### Introducción a los ejercicios
 
-La estructura de las consultas varía según el sistema ERP-CRM utilizado, pero generalmente se basa en la definición de campos relevantes y la formulación de condiciones para filtrar los resultados. Este proceso implica una comprensión profunda del modelo de datos subyacente, que incluye entidades, relaciones y atributos.
+El código PHP que has proporcionado es una aplicación web básica para gestionar datos en una base de datos MySQL. A continuación, analizaré y explicaré las partes clave del código:
 
-La creación de consultas puede realizarse a través de interfaces gráficas o mediante lenguajes específicos como SQL (Structured Query Language) en sistemas basados en bases de datos. Cada sistema ERP-CRM tiene su propio conjunto de funciones y métodos para ejecutar estas consultas, lo que requiere un conocimiento específico del entorno.
+1. Conexión a la Base de Datos:
+```php
+<?php $conexion = mysqli_connect("localhost","usuario","contraseña","nombre_base_datos"); ?>
+```
+Esta línea establece la conexión con la base de datos MySQL.
 
-Es importante destacar la importancia de la optimización de las consultas. Un buen diseño de consulta puede mejorar significativamente el rendimiento del sistema, reduciendo tiempos de respuesta y minimizando el uso de recursos. Esto se logra mediante la selección adecuada de índices, la minimización de los campos seleccionados y la estructuración de las condiciones de búsqueda.
+2. Estructura HTML y CSS:
+El archivo HTML incluye un enfoque básico para el diseño del sitio web, utilizando flexbox para la disposición del menú lateral (nav) y el contenido principal (main).
 
-Además de las consultas básicas, muchos sistemas ERP-CRM ofrecen funcionalidades avanzadas como consultas complejas, agregaciones y resúmenes. Estas herramientas permiten a los usuarios obtener información detallada y perspectivas valiosas sobre el desempeño de la empresa, facilitando toma de decisiones estratégicas.
+3. Menú Lateral (Nav):
+```php
+<nav>
+  <div id="corporativo"><img src="..."><p>jocarsa</p></div>
+  <?php 
+    $resultado = mysqli_query($conexion, "SHOW TABLES;");
+    while($fila = mysqli_fetch_assoc($resultado)){
+      if($fila['Tables_in_empresarial'] == $_GET['tabla']){$clase = "activo";}else{$clase = "";}
+      echo "<button class='".$clase."'>";
+      echo "<a href='?tabla=".$fila['Tables_in_empresarial']."'>".$fila['Tables_in_empresarial']."</a>";
+      if($fila['Tables_in_empresarial'] == $_GET['tabla']){echo "<a href='?operacion=añadir&tabla=".$_GET['tabla']."' class='anadir'>+</a>";}
+      echo "</button>";
+    }
+  ?>
+</nav>
+```
+Este bloque de código genera un menú lateral con botones para cada tabla en la base de datos. Los botones tienen clases dinámicas basadas en si la tabla actualmente seleccionada se corresponde con el nombre de la tabla del botón.
 
-La consulta de datos también implica la gestión adecuada de las relaciones entre diferentes entidades. En sistemas ERP-CRM, estas relaciones pueden ser complejas y requieren un enfoque cuidadoso para asegurar que los resultados sean precisos y completos. Esto puede implicar el uso de joins o subconsultas para combinar información de múltiples tablas.
+4. Contenido Principal (Main):
+```php
+<main>
+  <?php 
+    if(isset($_GET['tabla'])){
+      if(isset($_GET['operacion']) && $_GET['operacion'] == "añadir"){
+        // Formulario para añadir registros
+      }else{
+        // Mostrar tabla de datos o formulario para eliminar
+      }
+    }
+  ?>
+</main>
+```
+Este bloque maneja dos casos principales:
+- Si se solicita una operación 'añadir', muestra un formulario para agregar nuevos registros a la tabla seleccionada.
+- En otros casos, muestra los datos de la tabla en forma tabular y ofrece opciones para eliminar registros.
 
-La seguridad es otro aspecto crucial a considerar al realizar consultas de acceso a datos. Es fundamental garantizar que solo los usuarios autorizados puedan acceder a ciertos conjuntos de datos, lo que se logra mediante el control de privilegios y roles dentro del sistema ERP-CRM.
+5. Anexos Especiales:
+El archivo incluye varias versiones que mejoran gradualmente la funcionalidad del sitio web (como animaciones CSS simples) sin cambios significativos a las estructuras principales mencionadas anteriormente.
 
-En conclusión, las consultas de acceso a datos son una herramienta poderosa en la gestión empresarial, permitiendo la extracción y análisis de información relevante para mejorar la eficiencia operativa y tomar decisiones informadas. A través de un enfoque estructurado y optimizado, los usuarios pueden aprovechar al máximo las capacidades de sus sistemas ERP-CRM, facilitando el acceso a datos precisos y actualizados.
+6. Manejo de Operaciones:
+- Añadir: Muestra un formulario basado en el esquema de la tabla seleccionada.
+- Eliminar: Permite eliminar registros específicos según su ID proporcionado en los parámetros URL.
+
+Esta aplicación proporciona una interfaz sencilla para interactuar con tablas arbitrarias en una base de datos MySQL, permitiendo a un usuario agregar y eliminar filas. Sin embargo, carece de funcionalidades más avanzadas como la actualización o busqueda por criterios específicos y no incluye medidas de seguridad básicas (como validación de entrada para prevenir inyección SQL).
+
+Para mejorar esta aplicación, se recomendaría:
+- Implementar una mayor protección contra la inyección SQL.
+- Agregar funcionalidades más avanzadas como la actualización de registros o búsqueda por criterios específicos.
+- Mejorar la interfaz de usuario con JavaScript para proporcionar interacciones más dinámicas.
+- Añadir validaciones y manejo de errores adecuados.
 
 ### microERP
+<small>Creado: 2025-11-25 17:17</small>
+
+#### Explicación
+
+Este código es una página web simple que utiliza PHP para conectarse a una base de datos y mostrar información sobre las tablas existentes en esa base de datos. Al inicio del archivo, el script establece una conexión con la base de datos usando `mysqli_connect()`, donde se especifican los detalles como el servidor (localhost), nombre de usuario, contraseña y nombre de la base de datos ("empresarial").
+
+Dentro del cuerpo HTML, hay un menú lateral (`<nav>`) que utiliza PHP para ejecutar una consulta SQL mediante la función `mysqli_query()` para mostrar todas las tablas en la base de datos. La consulta `"SHOW TABLES;"` devuelve una lista de todos los nombres de las tablas presentes en la base de datos actual.
+
+Es importante destacar que este código es el punto de partida para un sistema más amplio, ya que probablemente se usará esta información para permitir al usuario interactuar con diferentes partes del microERP (tal vez mostrando contenido específico de cada tabla en la página principal `<main>`).
+
+Este fragmento establece una estructura básica para una interfaz web empresarial, proporcionando un marco visual simple y conectividad con los datos necesarios para su funcionalidad.
+
+`001-microERP.php`
 
 ```
 <?php $conexion = mysqli_connect("localhost","usuarioempresarial","usuarioempresarial","empresarial"); ?>
@@ -2930,6 +3539,17 @@ En conclusión, las consultas de acceso a datos son una herramienta poderosa en 
 ```
 
 ### muestro botones
+<small>Creado: 2025-11-25 17:20</small>
+
+#### Explicación
+
+Este fragmento de código es una página web simple que muestra los nombres de las tablas de una base de datos MySQL en forma de botones dentro de un menú. La página comienza estableciendo una conexión con la base de datos "empresarial" usando la función `mysqli_connect()`. Luego, se ejecuta una consulta SQL para listar todas las tablas existentes en esa base de datos y los nombres de estas tablas son mostrados como enlaces (a) dentro del menú lateral (`<nav>`). Cada enlace tiene un estilo CSS personalizado que hace que parezcan botones atractivos.
+
+El código también incluye estilos CSS para dar formato tanto al menú (`nav`) como al contenido principal (`main`) de la página web. El menú ocupa parte del ancho de la pantalla y muestra los nombres de las tablas como botones, mientras que el área principal (que está vacía en este código) sería donde se mostrarían los datos específicos de una tabla seleccionada.
+
+Esta estructura es útil para sistemas de gestión empresarial donde los usuarios necesitan acceder fácilmente a diferentes conjuntos de datos organizados en tablas.
+
+`002-muestro botones.php`
 
 ```
 <?php $conexion = mysqli_connect("localhost","usuarioempresarial","usuarioempresarial","empresarial"); ?>
@@ -2959,6 +3579,17 @@ En conclusión, las consultas de acceso a datos son una herramienta poderosa en 
 ```
 
 ### cargo la tabla
+<small>Creado: 2025-11-25 17:22</small>
+
+#### Explicación
+
+Este código es una página web que muestra la información de diferentes tablas en una base de datos llamada `empresarial`. La primera parte del código conecta a la base de datos usando MySQL. Luego, en el `<nav>` (navegación) se muestran los nombres de las tablas disponibles en esa base de datos. Cada nombre es un enlace que permite al usuario seleccionar una tabla específica para ver sus detalles.
+
+Cuando un usuario hace clic en uno de estos enlaces, la página recarga con el nombre de la tabla como parte del URL. En la sección `<main>` (principal) del HTML, el código PHP consulta la base de datos por todos los registros de la tabla seleccionada y los muestra en una tabla.
+
+Este fragmento es importante porque permite a un usuario interactuar directamente con las tablas de una base de datos sin necesidad de usar un sistema más complejo. Muestra cómo conectarse a bases de datos, realizar consultas SQL básicas y mostrar resultados de forma estructurada usando HTML y CSS.
+
+`003-cargo la tabla.php`
 
 ```
 <?php $conexion = mysqli_connect("localhost","usuarioempresarial","usuarioempresarial","empresarial"); ?>
@@ -2996,6 +3627,19 @@ En conclusión, las consultas de acceso a datos son una herramienta poderosa en 
 ```
 
 ### estilo de la tabla
+<small>Creado: 2025-11-25 17:29</small>
+
+#### Explicación
+
+Este código PHP y HTML combina la base de datos con una página web para mostrar información estructurada. En primer lugar, establece una conexión a una base de datos MySQL llamada "empresarial" usando las credenciales proporcionadas. Luego, el código crea un diseño simple que incluye un menú lateral (nav) y una sección principal (main).
+
+En el menú lateral, utiliza consultas SQL para listar todas las tablas disponibles en la base de datos "empresarial". Cada tabla se muestra como un botón que redirige a la página actual con diferentes parámetros. Si el usuario ha seleccionado una tabla específica mediante la URL (por ejemplo, "?tabla=empleados"), ese botón quedará resaltado.
+
+En la sección principal de la página, el código ejecuta otra consulta SQL para recuperar todos los datos de la tabla seleccionada y muestra estos datos en una tabla HTML. Cada fila y columna de la base de datos se convierte en una celda de la tabla web.
+
+Este tipo de diseño es útil para aplicaciones empresariales simples que necesitan mostrar registros de diferentes tablas de manera fácilmente accesible a los usuarios, permitiéndoles navegar entre distintas partes del sistema simplemente cambiando el botón seleccionado.
+
+`004-estilo de la tabla.php`
 
 ```
 <?php $conexion = mysqli_connect("localhost","usuarioempresarial","usuarioempresarial","empresarial"); ?>
@@ -3039,6 +3683,19 @@ En conclusión, las consultas de acceso a datos son una herramienta poderosa en 
 ```
 
 ### cabeceras de tabla
+<small>Creado: 2025-11-25 17:32</small>
+
+#### Explicación
+
+Este código PHP y HTML crea una página web sencilla que muestra las tablas de una base de datos MySQL. En la parte superior izquierda del sitio, hay un menú con enlaces a diferentes tablas dentro de la base de datos "empresarial". Cuando se selecciona una tabla desde este menú, los detalles de esa tabla específicos se muestran en la parte derecha principal de la página.
+
+Primero, el código conecta con la base de datos MySQL usando las credenciales proporcionadas. Luego, obtiene una lista de todas las tablas disponibles en la base de datos "empresarial" y genera un enlace para cada tabla que se muestra en la barra lateral del menú (nav). Si una tabla específica es seleccionada a través de los parámetros GET, el enlace correspondiente cambia su estilo para resaltarla.
+
+En la sección principal (main), el código ejecuta una consulta SQL dinámica basada en la tabla seleccionada y muestra sus datos en forma de tabla HTML. Las claves de cada fila del resultado de la base de datos (nombres de las columnas) aparecen como encabezados (th) en la primera fila, mientras que los valores se muestran bajo ellos.
+
+Este código es importante porque proporciona una interfaz web simple para visualizar y navegar entre diferentes tablas dentro de una base de datos empresarial sin tener que escribir múltiples consultas SQL manualmente.
+
+`005-cabeceras de tabla.php`
 
 ```
 <?php $conexion = mysqli_connect("localhost","usuarioempresarial","usuarioempresarial","empresarial"); ?>
@@ -3084,6 +3741,21 @@ En conclusión, las consultas de acceso a datos son una herramienta poderosa en 
 ```
 
 ### logo
+<small>Creado: 2025-11-25 17:37</small>
+
+#### Explicación
+
+Este código PHP crea una página web simple que muestra y organiza información de una base de datos empresarial. En el inicio del archivo, se establece una conexión a la base de datos utilizando `mysqli_connect()`, donde especificamos los detalles necesarios como el servidor, usuario, contraseña y nombre de la base de datos.
+
+La parte HTML comienza con un bloque de estilos CSS que define cómo se verá la página. El diseño incluye un menú lateral (`nav`) en color índigo e incluye botones (enlaces) que representan las tablas disponibles en la base de datos. Estos botones cambian a un estilo activo cuando se selecciona una tabla específica.
+
+En el bloque PHP dentro del `<nav>`, el código ejecuta una consulta para mostrar todos los nombres de las tablas existentes en la base de datos actual y genera un enlace para cada una. Si la tabla coincidente con la variable `$_GET['tabla']` (que obtiene su valor a través de parámetros URL) es seleccionada, se marca como activa mediante CSS.
+
+En el bloque `<main>`, hay otro fragmento PHP que muestra los datos de la tabla específica seleccionada. Esto implica ejecutar una consulta SQL para traer todos los registros de la tabla y luego imprimirlos en una tabla HTML con encabezados (`th`) basados en las claves (nombres de columnas) del primer registro obtenido.
+
+Este código es útil porque proporciona una interfaz visual simple pero funcional para acceder a múltiples tablas dentro de un sistema empresarial, facilitando la consulta y administración de datos.
+
+`006-logo.php`
 
 ```
 <?php $conexion = mysqli_connect("localhost","usuarioempresarial","usuarioempresarial","empresarial"); ?>
@@ -3133,6 +3805,19 @@ En conclusión, las consultas de acceso a datos son una herramienta poderosa en 
 ```
 
 ### añadimos boton de añadir
+<small>Creado: 2025-11-25 17:46</small>
+
+#### Explicación
+
+Este código es una página web simple que muestra información de una base de datos empresarial. La página está diseñada para mostrar diferentes tablas y permitir al usuario añadir nuevos registros a ellas.
+
+En primer lugar, el código conecta con la base de datos usando MySQLi (una extensión de PHP). Luego, genera un menú lateral que muestra los nombres de todas las tablas en la base de datos. Para cada tabla, crea un botón que redirige al usuario para mostrar los detalles de esa tabla específica. Si el usuario está viendo una tabla específica (determinada por el parámetro `tabla` en la URL), el botón correspondiente se resalta con la clase CSS "activo" y muestra un botón '+' adicional para añadir nuevos registros.
+
+La parte central del sitio muestra los datos de la tabla actual seleccionada. El código realiza una consulta SQL que devuelve todos los campos y filas de la tabla especificada en `$_GET['tabla']`. Los nombres de las columnas se muestran como encabezados de la tabla, seguidos por los valores reales.
+
+Este tipo de página es útil para sistemas internos o empresariales donde varios miembros del equipo necesitan acceder y modificar datos rápidamente. Es una forma sencilla pero efectiva de organizar información tabular en un diseño web limpio y funcional.
+
+`007-añadimos boton de añadir.php`
 
 ```
 <?php $conexion = mysqli_connect("localhost","usuarioempresarial","usuarioempresarial","empresarial"); ?>
@@ -3187,6 +3872,17 @@ En conclusión, las consultas de acceso a datos son una herramienta poderosa en 
 ```
 
 ### creo formulario
+<small>Creado: 2025-11-25 18:08</small>
+
+#### Explicación
+
+Este código PHP y HTML combina la conexión a una base de datos MySQL con la creación de un formulario web para administrar información empresarial. La página genera botones dinámicamente basándose en las tablas que existen en la base de datos "empresarial". Cuando se selecciona uno de estos botones, la página muestra los datos de esa tabla en forma de una tabla HTML.
+
+Si se establece un parámetro adicional llamado 'operación' y su valor es 'añadir', el código genera un formulario para añadir nuevos registros a la tabla seleccionada. Este formulario contiene campos que coinciden con las columnas de la tabla actualmente activa, permitiendo así al usuario introducir nuevos datos.
+
+La importancia de este fragmento de código radica en cómo facilita la interacción entre una base de datos y un entorno web básico, proporcionando funcionalidades como mostrar tablas completas de datos y formularios para añadir nuevas filas. Es útil para estudiantes que estén aprendiendo a crear interfaces administrativas sencillas que interactúan con bases de datos.
+
+`008-creo formulario.php`
 
 ```
 <?php $conexion = mysqli_connect("localhost","usuarioempresarial","usuarioempresarial","empresarial"); ?>
@@ -3252,6 +3948,27 @@ En conclusión, las consultas de acceso a datos son una herramienta poderosa en 
 ```
 
 ### estilo del formulario
+<small>Creado: 2025-11-25 18:14</small>
+
+#### Explicación
+
+Este código es una página web simple que conecta con una base de datos para mostrar y gestionar información en tablas. La página se estructura en dos partes principales: un menú lateral (nav) y el contenido principal (main).
+
+1. **Conexión a la Base de Datos**: Al inicio del script PHP, se establece una conexión a una base de datos MySQL con credenciales específicas.
+
+2. **Menú Lateral**:
+   - La parte superior del menú muestra un logotipo y el nombre "jocarsa".
+   - A continuación, se generan botones dinámicamente para cada tabla en la base de datos usando PHP. Cada botón representa una tabla diferente.
+   - Si el usuario ha seleccionado una tabla (específica en la URL como `?tabla=nombre_tabla`), ese botón tiene un estilo especial (`class="activo"`).
+   - Si se ha seleccionado un botón y además la operación es "añadir" (especificada por `?operacion=añadir`), aparece un pequeño botón '+' a su lado para añadir nuevo contenido.
+
+3. **Contenido Principal**:
+   - Si se ha especificado una tabla en la URL, la página muestra los datos de esa tabla.
+   - Si también está presente `?operacion=añadir`, se muestra un formulario vacío con campos basados en el primer registro de la tabla seleccionada para permitir a los usuarios añadir nuevos registros.
+
+El código utiliza CSS dentro del `<head>` para estilizar toda la página, definiendo colores y márgenes globales que son utilizados consistentemente en todo el diseño. Esto hace que la interfaz sea uniforme y fácil de mantener visualmente.
+
+`009-estilo del formulario.php`
 
 ```
 <?php $conexion = mysqli_connect("localhost","usuarioempresarial","usuarioempresarial","empresarial"); ?>
@@ -3322,6 +4039,19 @@ En conclusión, las consultas de acceso a datos son una herramienta poderosa en 
 ```
 
 ### pequeña animacion
+<small>Creado: 2025-11-25 18:15</small>
+
+#### Explicación
+
+Este código es un ejemplo de una página web simple que interactúa con una base de datos y muestra la información en formato tabular. Comienza estableciendo una conexión a una base de datos MySQL llamada "empresarial" utilizando el usuario "usuarioempresarial". Luego, se crea una estructura HTML básica con estilos CSS integrados para dar un aspecto moderno y profesional al sitio.
+
+En la parte central del código PHP dentro del `<nav>`, hay un bucle que recorre todas las tablas en la base de datos actualmente conectada. Para cada tabla, el sistema genera un botón en el navegador que permite a los usuarios seleccionar diferentes tablas para consultar su contenido. Si una tabla está activa (específicamente, si se ha especificado en la URL como `?tabla=nombre_tabla`), este botón se marca con una clase CSS especial llamada "activo" y también puede mostrar un ícono "+", que permite a los usuarios añadir nuevos registros a esa tabla.
+
+En el bloque `<main>`, después de seleccionar una tabla específica, el código muestra la información de esa tabla en formato de tabla HTML. Si la consulta incluye un parámetro adicional `?operacion=añadir`, se genera un formulario que permite a los usuarios añadir nuevos registros a la base de datos.
+
+En resumen, este código proporciona una interfaz web sencilla para administrar y visualizar datos en diferentes tablas de una base de datos MySQL. Es útil para estudiantes que están aprendiendo cómo conectar bases de datos con páginas web y manipular contenido dinámicamente mediante solicitudes HTTP.
+
+`010-pequeña animacion.php`
 
 ```
 <?php $conexion = mysqli_connect("localhost","usuarioempresarial","usuarioempresarial","empresarial"); ?>
@@ -3393,6 +4123,21 @@ En conclusión, las consultas de acceso a datos son una herramienta poderosa en 
 ```
 
 ### eliminar
+<small>Creado: 2025-11-25 18:26</small>
+
+#### Explicación
+
+Este código PHP y HTML crea una página web para un sistema empresarial simple, que permite listar las tablas de una base de datos MySQL y realizar operaciones como agregar y eliminar registros. 
+
+En la parte superior del archivo se establece una conexión con la base de datos usando `mysqli_connect`, lo cual es crucial porque el resto del código interactúa con esta conexión para recuperar y modificar datos.
+
+La página contiene un menú lateral (`nav`) que muestra botones correspondientes a las diferentes tablas en la base de datos. Al hacer clic en uno, se cambia la tabla mostrada en la parte principal de la página (`main`). Si el usuario selecciona una operación "añadir", aparece un formulario para ingresar nuevos datos en la tabla actual. Por otro lado, si se hace clic en "eliminar", este código ejecuta un comando SQL `DELETE` que elimina un registro específico basándose en su identificador único.
+
+El CSS incluido estiliza la página y asegura que tenga una apariencia limpia y profesional, con colores de contraste atractivos. El enfoque del diseño está en facilitar la interacción del usuario, como los botones resaltados para operaciones específicas y animaciones sutiles.
+
+Este tipo de código es importante porque proporciona una interfaz web simple pero funcional para administrar datos empresariales, lo que puede ser muy útil en entornos donde se necesita controlar fácilmente información crucial.
+
+`011-eliminar.php`
 
 ```
 <?php $conexion = mysqli_connect("localhost","usuarioempresarial","usuarioempresarial","empresarial"); ?>
@@ -3467,28 +4212,200 @@ En conclusión, las consultas de acceso a datos son una herramienta poderosa en 
 </html>
 ```
 
+### Actividades propuestas
+
+El archivo PHP que has compartido es una interfaz web básica para administrar tablas en una base de datos MySQL. La interfaz permite ver los registros, agregar nuevos registros y eliminar registros existentes. Vamos a analizar la estructura y el funcionamiento del código:
+
+1. **Conexión a la Base de Datos:**
+   ```php
+   $conexion = mysqli_connect("localhost","usuario_base_datos","contraseña","nombre_base_datos");
+   ```
+
+2. **Estructura HTML con CSS y JavaScript (a través de animaciones):**
+
+   - El cuerpo (`<body>`) contiene una barra lateral (`nav`) y un área principal (`main`).
+   
+3. **Barra Lateral:**
+   ```php
+   <nav>
+     <!-- Código PHP para generar botones dinámicamente -->
+   </nav>
+   ```
+
+4. **Contenido Principal:**
+   - El contenido principal cambia según la operación seleccionada (ver registros, agregar nuevos registros, eliminar registros).
+
+5. **Funcionalidades Implementadas:**
+
+   a) **Ver Registros:** 
+      ```php
+      if(isset($_GET['tabla'])){
+        echo "<table>";
+        $resultado = mysqli_query($conexion, "SELECT * FROM ".$_GET['tabla'].";");
+        while ($fila = mysqli_fetch_assoc($resultado)) {
+          // Imprimir encabezados y filas de la tabla
+        }
+        echo "</table>";
+      }
+      ```
+
+   b) **Agregar Registros:**
+      ```php
+      if(isset($_GET['operacion']) && $_GET['operacion'] == "añadir"){
+        echo "<form action='hola' method='POST'>";
+        $resultado = mysqli_query($conexion, "SELECT * FROM ".$_GET['tabla']." LIMIT 1;");
+        while ($fila = mysqli_fetch_assoc($resultado)) {
+          // Imprimir campos de entrada para cada columna
+        }
+        echo "<input type='submit'></form>";
+      }
+      ```
+
+   c) **Eliminar Registros:**
+      ```php
+      if(isset($_GET['operacion']) && $_GET['operacion'] == "eliminar"){
+        mysqli_query($conexion, "DELETE FROM ".$_GET['tabla']." WHERE Identificador = ".$_GET['id'].";");
+      }
+
+      // Mostrar tabla con opción de eliminar
+      echo "<table>";
+      $resultado = mysqli_query($conexion, "SELECT * FROM ".$_GET['tabla'].";");
+      while ($fila = mysqli_fetch_assoc($resultado)) {
+        // Imprimir filas y botón para eliminar
+      }
+      echo "</table>";
+      ```
+
+6. **CSS:**
+   - Define estilos para la interfaz, incluyendo animaciones de entrada (`.anadir`) y eliminación de registros.
+
+7. **Seguridad y Mejoras Propuestas:**
+
+   - **Evitar Inyecciones SQL:** Utiliza consultas preparadas o funciones que escapen las entradas.
+   - **Validar Entradas del Usuario:** Asegúrate de validar todas las entradas antes de procesarlas.
+   - **Autenticación y Autorización:** Implementa mecanismos para controlar el acceso a la aplicación.
+
+### Ejemplos Mejorados
+
+**Conexión a la Base de Datos con Manejo de Errores:**
+```php
+$conexion = mysqli_connect("localhost", "usuario_base_datos", "contraseña", "nombre_base_datos");
+if (!$conexion) {
+    die("Error al conectar a la base de datos: " . mysqli_connect_error());
+}
+```
+
+**Uso de Consultas Preparadas para Eliminar Registros:**
+```php
+if (isset($_GET['operacion']) && $_GET['operacion'] == 'eliminar') {
+    $id = intval($_GET['id']); // Evitar inyecciones SQL
+
+    $stmt = mysqli_prepare($conexion, "DELETE FROM ? WHERE Identificador=?");
+    mysqli_stmt_bind_param($stmt, "is", $_GET['tabla'], $id);
+    
+    if (!mysqli_stmt_execute($stmt)) {
+        echo "Error al eliminar: " . mysqli_error($conexion);
+    }
+}
+```
+
+### Consideraciones Adicionales
+
+- **Manejo de Errores:** Asegúrate de manejar errores adecuadamente para evitar que el usuario vea mensajes de error técnicos.
+- **Formateo y Estilos:** Mejora la presentación del formulario y la tabla.
+- **Funcionalidades Avanzadas:** Implementar funciones adicionales como editar registros, filtros y paginación.
+
+Este es un buen punto de partida para una aplicación CRUD básica. A medida que avances, puedes añadir más características y mejorar la seguridad y el rendimiento.
+
+
 <a id="interfaces-de-entrada-de-datos-y-de-procesos"></a>
 ## Interfaces de entrada de datos y de procesos.
 
-En el mundo empresarial digital, la organización y consulta de la información son procesos fundamentales que permiten a las empresas operar eficientemente y tomar decisiones informadas. La gestión adecuada de estos datos es crucial para mantener la competitividad y la sostenibilidad del negocio.
+### Introducción a los ejercicios
 
-Las interfaces de entrada de datos y de procesos desempeñan un papel vital en este proceso. Estas interfaces son los puntos donde los usuarios interactúan con el sistema, ingresando información o solicitando servicios. En una aplicación empresarial, estas interfaces pueden variar desde formularios web hasta aplicaciones móviles y sistemas de escritorio.
+El script SQL que has proporcionado crea una base de datos completa para un sistema de comercio electrónico. Incluye la creación de tablas, inserción de datos y consultas útiles. Aquí se describen algunos aspectos importantes del mismo:
 
-La organización de la información es un aspecto fundamental de las interfaces de entrada. Los campos de entrada deben estar bien definidos y organizados para facilitar la captura de datos precisos y completos. Por ejemplo, en un sistema de gestión de pedidos, los campos podrían incluir detalles del cliente, productos solicitados, cantidades y fechas de entrega.
+### Tablas Criadas
 
-Las interfaces de entrada también permiten la consulta de información existente. Los usuarios deben poder buscar y recuperar datos de manera rápida y precisa. Esto puede hacerse mediante formularios de búsqueda o consultas directas a la base de datos. Por ejemplo, en un sistema CRM, los usuarios podrían consultar registros de clientes específicos o generar informes sobre ventas por período.
+1. **tablas_padre**: Contiene información general sobre los registros en las sub-tablas.
+2. **tabla_hija**: Almacena detalles específicos que varían según el tipo de registro (por ejemplo, pedidos y sus artículos).
+3. **padres_detalle**: Asocia los registros en tabla_hija con tablas_padre.
+4. **categorias**: Estructura jerárquica de categorías de productos.
+5. **usuarios**: Registra información sobre usuarios del sistema.
+6. **marcas**: Almacena detalles de las marcas asociadas a los productos.
+7. **productos**: Detalles de cada producto, incluyendo SKU, descripción, precio y stock.
+8. **imagenes_producto**: Almacena URL de imágenes de productos y su orden en la visualización.
+9. **resenas_producto**: Contiene reseñas de clientes para productos específicos.
+10. **carrito**: Registro de artículos que los usuarios han añadido al carrito.
+11. **pedidos**: Detalles generales de cada pedido realizado por un cliente.
+12. **articulos_pedido**: Relación entre pedidos y sus respectivos artículos.
 
-La integración entre interfaces de entrada y procesos es otro aspecto importante. Una vez que se capturan los datos, estos deben ser procesados para su análisis y utilización. Los formularios web pueden estar vinculados a flujos de trabajo automatizados que generan informes o actualizan bases de datos en consecuencia.
+### Consultas Útiles
 
-Las interfaces de entrada también son cruciales para la interacción con otros sistemas de gestión empresarial. Por ejemplo, un sistema ERP puede tener interfaces que permiten la importación y exportación de datos con sistemas de inventario o contabilidad. Esta integración asegura la coherencia y actualización de los datos en toda la organización.
+- Mostrar todos los productos con sus categorías y marcas:
+  ```sql
+  SELECT 
+      p.nombre_producto,
+      p.sku,
+      c.nombre_categoria,
+      m.nombre_marca,
+      p.precio,
+      p.cantidad_stock
+  FROM productos p
+  LEFT JOIN categorias c ON p.id_categoria = c.id_categoria
+  LEFT JOIN marcas m ON p.id_marca = m.id_marca;
+  ```
 
-La personalización de las interfaces de entrada es otro aspecto importante. Los formularios y pantallas deben estar diseñados para facilitar el trabajo del usuario, adaptándose a sus necesidades específicas. Por ejemplo, un sistema CRM podría ofrecer diferentes vistas y opciones dependiendo del rol del usuario (vendedor, gerente, administrador).
+- Mostrar pedidos de clientes con detalles:
+  ```sql
+  SELECT 
+      pe.numero_pedido,
+      CONCAT(cl.nombre, ' ', cl.apellido) AS nombre_cliente,
+      pe.fecha_pedido,
+      ep.nombre_estado,
+      pe.monto_total
+  FROM pedidos pe
+  JOIN clientes cl ON pe.id_cliente = cl.id_cliente
+  JOIN estados_pedido ep ON pe.id_estado = ep.id_estado
+  ORDER BY pe.fecha_pedido DESC;
+  ```
 
-La gestión de errores es otro aspecto crucial en las interfaces de entrada. Los sistemas deben estar preparados para manejar situaciones inesperadas o malas entradas de datos. Esto puede hacerse mediante validaciones automatizadas y mensajes de error claros.
+### Observaciones y Mejoras
 
-En conclusión, las interfaces de entrada de datos y procesos son elementos esenciales en la gestión empresarial digital. Su diseño y organización adecuados pueden mejorar significativamente la eficiencia operativa y la toma de decisiones basada en datos. Al considerar aspectos como la organización de los campos, la consulta de información, la integración con otros sistemas y la personalización del usuario, se puede crear una experiencia de interacción que facilita el trabajo empresarial y mejora la productividad.
+1. **Normalización de Datos**: El esquema parece estar bien normalizado, pero podría haber más oportunidades para reducir redundancias (por ejemplo, en `tablas_padre` y `tabla_hija`). 
+
+2. **Relaciones Entre Tablas**: Se pueden mejorar las relaciones entre tablas para asegurar integridad referencial:
+   - Por ejemplo, puede ser útil agregar restricciones de clave foránea a `productos`, `resenas_producto`, etc., que se refieran a `categorias` y `marcas`.
+
+3. **Indexación**: Para optimizar consultas frecuentes (como búsqueda por SKU o nombre de producto), podrías considerar la creación de índices en campos como `sku` y `nombre_producto`.
+
+4. **Seguridad y Privacidad**:
+   - Asegúrate de que los datos sensibles, como direcciones y métodos de pago, estén protegidos adecuadamente.
+   - Implementa controles de acceso y permisos para evitar la visualización no autorizada de información sensible.
+
+5. **Optimizaciones de Consultas**:
+   - Las consultas pueden ser optimizadas usando vistas, índices y funciones agregadas según sea necesario.
+
+6. **Validación de Datos**: Asegúrate de que los datos insertados sean válidos (por ejemplo, no permitir SKU duplicados en `productos`).
+
+Este esquema proporciona una base sólida para un sistema de comercio electrónico, pero como todo diseño de bases de datos, puede beneficiarse de refinamiento continuo según se identifican necesidades y problemas específicos del negocio.
 
 ### definir tipos de campos
+<small>Creado: 2025-11-26 16:07</small>
+
+#### Explicación
+
+Este código es una página web en PHP que se conecta a una base de datos MySQL y muestra un menú para gestionar diferentes tablas de la base de datos. La página tiene dos partes principales: el menú lateral izquierdo con botones para acceder a cada tabla y la parte derecha donde se muestran los datos de la tabla seleccionada.
+
+En el menú lateral, el código genera dinámicamente un botón para cada tabla en la base de datos. El botón está resaltado si es la tabla actualmente seleccionada por el usuario. Si una tabla está activa, hay un enlace '+' que permite añadir nuevos registros a esa tabla.
+
+En la parte principal de la página, se muestra la lista completa de registros para la tabla actual o se proporciona un formulario para agregar nuevos registros, dependiendo del parámetro 'operación' enviado por el usuario. Si el usuario ha seleccionado una operación de eliminación, el sistema eliminará el registro específico identificado por su ID.
+
+La página utiliza CSS para darle estilo, con colores y márgenes consistentes que hacen la interfaz visualmente atractiva y fácil de usar. Los botones y enlaces dentro del menú lateral permiten a los usuarios navegar entre diferentes operaciones y tablas sin necesidad de recargar completamente la página.
+
+Este tipo de sistema es útil para aplicaciones empresariales donde se necesita un control fácil y rápido sobre múltiples bases de datos, facilitando tanto la lectura como la modificación de registros.
+
+`001-definir tipos de campos.php`
 
 ```
 <?php $conexion = mysqli_connect("localhost","usuarioempresarial","usuarioempresarial","empresarial"); ?>
@@ -3564,6 +4481,23 @@ En conclusión, las interfaces de entrada de datos y procesos son elementos esen
 ```
 
 ### campos vinculados
+<small>Creado: 2025-11-26 16:10</small>
+
+#### Explicación
+
+Este código PHP crea una interfaz de usuario simple para administrar datos en una base de datos MySQL. La página principal muestra un menú con botones que representan las diferentes tablas dentro de la base de datos `empresarial`. Al hacer clic en uno de estos botones, se muestra información sobre la tabla seleccionada.
+
+El código incluye dos funciones principales: 
+1. Una función llamada `obtener_claves_foraneas` que recupera todas las claves foráneas (FK) de una determinada tabla y devuelve un array asociativo con los nombres de las columnas que son FK, junto con la tabla y la columna a la que se relacionan.
+2. La interfaz del usuario misma, que muestra datos en forma de tablas HTML y permite realizar operaciones CRUD básicas (Crear, Leer, Actualizar, Borrar) sobre estos datos.
+
+Cuando un usuario selecciona una tabla, se muestran todos los registros de esa tabla. Si una columna es una clave foránea, la interfaz mostrará automáticamente un desplegable con todas las opciones posibles provenientes de la tabla a la que está relacionada la FK.
+
+El código también maneja operaciones como eliminar y añadir nuevos registros en la base de datos. Para añadir nuevos registros, se muestra un formulario basado en el esquema de la tabla actual: si una columna es una clave foránea, aparece un desplegable con opciones para seleccionar; si no, simplemente un campo de texto.
+
+Esta interfaz simplificada permite a los usuarios interactuar fácilmente con datos complejos relacionados entre sí, mostrando claramente cómo se conectan las diferentes tablas a través de sus relaciones foráneas.
+
+`002-campos vinculados.php`
 
 ```
 <?php
@@ -3794,6 +4728,44 @@ function obtener_claves_foraneas($conexion, $tabla, $bd = 'empresarial'){
 ```
 
 ### variables
+<small>Creado: 2025-11-26 16:14</small>
+
+#### Explicación
+
+Este fragmento de código es una página web en PHP que interactúa con una base de datos para listar, agregar y eliminar registros en diferentes tablas. El código realiza las siguientes tareas principales:
+
+1. **Conexión a la Base de Datos:** Establece conexión con la base de datos usando credenciales específicas.
+2. **Listado de Tablas:** Muestra un listado de todas las tablas disponibles en la base de datos, permitiendo al usuario seleccionar una tabla específica mediante enlaces (botones).
+3. **Funcionalidad CRUD:**
+   - **Consultar:** Muestra el contenido de los registros de la tabla seleccionada en forma de tabla HTML.
+   - **Agregar:** Proporciona un formulario para añadir nuevos registros a la tabla actual, considerando tipos de datos y relaciones (FOREIGN KEY).
+   - **Eliminar:** Implementa una funcionalidad para eliminar registros específicos basados en el identificador (`Identificador`).
+
+### Detalles del Funcionamiento
+
+1. **Navegación entre Tablas:**
+   El código utiliza `SHOW TABLES;` para listar todas las tablas disponibles y genera botones dinámicos que permiten navegar entre ellas.
+
+2. **Interacción con la Base de Datos:**
+   - Cuando se selecciona una tabla, el sistema consulta los metadatos (estructura) de la tabla para mostrar tanto campos como relaciones existentes.
+   - Para cada campo en la tabla, si es un `FOREIGN KEY`, se muestra un menú desplegable (`<select>`) con opciones basadas en registros relacionados.
+   - Los campos que no son claves foráneas generan formularios de entrada adecuados según el tipo de dato (text, checkbox para tinyint(1), etc.).
+
+3. **Procesamiento del Formulario de Añadir:**
+   El formulario recoge datos enviados por el método POST y los inserta en la base de datos, considerando campos obligatorios y tipos de datos específicos.
+
+4. **Visualización de Datos:**
+   Los registros se muestran en una tabla HTML, donde cada fila representa un registro y las columnas representan sus atributos. Si alguno de estos atributos es una clave foránea (FK), el sistema mostrará la información del objeto relacionado en lugar del ID.
+
+5. **Eliminación de Registros:**
+   Adicionalmente a listar y añadir registros, se proporciona la capacidad para eliminar un registro específico por su identificador (`Identificador`).
+
+### Estilos e Interactividad
+El código también incluye CSS básico que ayuda a mejorar la presentación visual del formulario y los elementos HTML. Por ejemplo, el botón de anexar (+) aparece cuando se está en modo "añadir", con una animación sencilla.
+
+Este archivo PHP es un buen ejemplo de cómo usar funciones básicas de MySQLi para realizar operaciones CRUD (Crear, Leer, Actualizar, Borrar) sobre una base de datos y mostrar los resultados de manera interactiva a través del navegador. Es un punto de partida sólido para desarrollar aplicaciones web más complejas que integren bases de datos en sus funcionalidades.
+
+`003-variables.php`
 
 ```
 <?php
@@ -4168,6 +5140,53 @@ function render_input_para_columna($nombre_columna, $meta_columna, $valor_actual
 ```
 
 ### con usuarios
+<small>Creado: 2025-11-26 16:18</small>
+
+#### Explicación
+
+El código PHP proporcionado es un sistema básico de gestión de bases de datos (DBMS) interactivo, que permite a los usuarios ver y manipular datos en una base de datos MySQL. Este script tiene varios componentes clave:
+
+1. **Autenticación**: Permite al usuario iniciar sesión con credenciales específicas.
+
+2. **Gestión de Sesiones**: Usa `$_SESSION` para mantener la autenticidad del usuario después del inicio de sesión.
+
+3. **Interacción con MySQL**: Realiza consultas SQL a través de PHP (mysqli) para mostrar, insertar y eliminar datos en una base de datos especificada.
+
+4. **Funcionalidades de Base de Datos**:
+   - Muestra un listado de tablas disponibles.
+   - Permite agregar nuevos registros a la tabla seleccionada.
+   - Ofrece eliminación de registros existentes.
+
+5. **Interfaz del Usuario**: Utiliza HTML y CSS para presentar las funciones a los usuarios, incluyendo formularios para entrada de datos y botones para acciones.
+
+### Detalles Específicos
+
+1. **Autenticación (Inicio de Sesión)**
+   - El usuario puede iniciar sesión proporcionando un nombre de usuario y contraseña.
+   - Los valores por defecto son `jocarsa` tanto para el nombre de usuario como la contraseña.
+   
+2. **Interacción con la Base de Datos**
+   - Usa `mysqli_*` funciones para conectarse a una base de datos MySQL (`$db_name`) y realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar).
+   - Proporciona un menú desplegable que muestra todas las tablas en la base de datos seleccionada.
+   - Permite agregar nuevos registros a cualquier tabla seleccionada. Para campos de tipo foráneo (`foreign key`), el sistema muestra una lista desplegable con los valores disponibles.
+   
+3. **Interfaz del Usuario**
+   - La interfaz es simple y fácil de usar, con botones para navegar entre funciones (agregar registros, ver listados).
+   - Usa CSS personalizado para mejorar la apariencia y la usabilidad.
+
+### Consideraciones y Mejoras Posibles
+
+- **Seguridad**: El código no realiza una comprobación exhaustiva de la seguridad, especialmente en lo que respecta a las contraseñas. Aunque los valores son simples por defecto (`jocarsa`), en un entorno real se recomendaría usar técnicas de cifrado y almacenar las contraseñas seguras.
+  
+- **Manejo de Errores**: El código podría mejorar el manejo de errores para proporcionar retroalimentación más útil a los usuarios sobre problemas como solicitudes malformadas, entradas no válidas o fallos en la base de datos.
+
+- **Validaciones y Sanitización**: Para prevenir inyecciones SQL y ataques XSS, se recomendaría implementar validaciones y sanitizaciones adicionales en todas las entradas del usuario.
+
+- **Escalabilidad**: Este sistema es relativamente básico. En un entorno real con más complejidad de datos o usuarios, puede ser necesario considerar mejoras como autenticación más segura (OAuth), control de acceso basado en roles (RBAC) y sistemas de registro para monitoreo y auditoría.
+
+Este código proporciona una base sólida para comenzar a trabajar con bases de datos MySQL usando PHP. Sin embargo, dependiendo del entorno real y las necesidades específicas, es posible que desee implementar características adicionales o mejoras en la seguridad y la funcionalidad.
+
+`004-con usuarios.php`
 
 ```
 <?php
@@ -4644,6 +5663,84 @@ function render_input_para_columna($nombre_columna, $meta_columna, $valor_actual
 ```
 
 ### actualizacion informes y graficas
+<small>Creado: 2025-11-26 16:23</small>
+
+#### Explicación
+
+El código que has proporcionado es una aplicación web de tipo "mini-ERP" (Enterprise Resource Planning) en PHP, que se conecta a una base de datos MySQL para realizar operaciones CRUD (Crear, Leer, Actualizar, Borrar), así como mostrar un panel principal con gráficos. A continuación, desglosaré algunos aspectos clave y sugerencias de mejora:
+
+1. **Conexión a la Base de Datos**:
+   - La conexión a la base de datos se realiza al principio del archivo PHP usando `mysqli_connect`. Es recomendable utilizar una función separada para esta tarea y almacenar las credenciales en un archivo de configuración externo.
+
+2. **Funciones Utilitarias**:
+   - Existen varias funciones que se repiten, como `obtener_meta_columnas`, `obtener_tablas_que_referencian`, etc. Es una buena práctica mantener estas funciones en un archivo separado (por ejemplo, `functions.php`) para facilitar la mantenibilidad y reutilización del código.
+
+3. **Seguridad**:
+   - El uso de `htmlspecialchars` es correcto, pero también se recomienda implementar consultas preparadas (`mysqli_prepare`, `bind_param`) para prevenir ataques SQL Injection.
+   - La autenticación está ausente; deberías agregar un sistema de inicio de sesión y verificación de permisos.
+
+4. **Interfaz del Usuario (UI)**:
+   - El uso de HTML, CSS in-line y JavaScript dentro del PHP puede complicar la lectura del código. Se recomienda separar estos elementos en archivos HTML, CSS y JS independientes.
+   - La interfaz es bastante básica; considera mejorar el diseño visual para una mejor experiencia del usuario.
+
+5. **Estructura de Archivos**:
+   - El código actual está todo dentro de un solo archivo PHP. Para proyectos más grandes, deberías dividir el proyecto en múltiples archivos y carpetas organizadas por funcionalidad (por ejemplo, `controllers`, `models`, `views`).
+
+6. **Gráficos y Estadísticas**:
+   - La generación de gráficos es un aspecto interesante del código. Considera la posibilidad de utilizar bibliotecas JavaScript como Chart.js o D3.js para una visualización más rica.
+
+7. **Pruebas Unitarias y Cobertura**:
+   - Añadir pruebas unitarias puede ayudar a garantizar que el sistema funciona correctamente y facilitar futuras mejoras sin romper la funcionalidad existente.
+
+8. **Documentación**:
+   - Es importante documentar las funciones, clases y cualquier otro elemento crítico del código para permitir su fácil mantenimiento por parte de otros desarrolladores o incluso tu mismo en el futuro.
+
+### Ejemplo de Mejora (Separación de Funciones)
+
+```php
+// functions.php
+
+function obtener_meta_columnas($conexion, $tabla, $db_name) {
+    // Implementación existente
+}
+
+function obtener_tablas_que_referencian($conexion, $tabla, $db_name) {
+    // Implementación existente
+}
+```
+
+### Ejemplo de Mejora (Conexión Segura)
+
+```php
+// config.php
+
+define('DB_HOST', 'localhost');
+define('DB_USER', 'root');
+define('DB_PASS', '');
+define('DB_NAME', 'microrp');
+
+function conectar_db() {
+    $conexion = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
+    if ($conexion->connect_error) {
+        die("Conexión fallida: " . $conexion->connect_error);
+    }
+    return $conexion;
+}
+```
+
+### Ejemplo de Mejora (Uso de Consultas Preparadas)
+
+```php
+$sql = "SELECT * FROM users WHERE id = ?";
+$stmt = $conexion->prepare($sql);
+$stmt->bind_param("i", $id_usuario);
+$stmt->execute();
+$resultado = $stmt->get_result();
+```
+
+Estos cambios ayudarán a mejorar la seguridad, mantenibilidad y escalabilidad de tu aplicación.
+
+`005-actualizacion informes y graficas.php`
 
 ```
 <?php
@@ -5494,6 +6591,99 @@ function render_input_para_columna($nombre_columna, $meta_columna, $valor_actual
 ```
 
 ### mejoras
+<small>Creado: 2025-11-26 16:28</small>
+
+#### Explicación
+
+The provided PHP and HTML code snippet is a basic database management system (DBMS) interface for a microERP application. It includes features such as listing records, adding new entries, editing existing ones, deleting records, generating reports, and displaying data in graphical form. Here's a breakdown of the main components:
+
+### Key Features
+
+1. **Dashboard Interface**:
+   - Shows summary charts for `ENUM`/`SET` fields and foreign key distributions across all tables.
+
+2. **Record Management**:
+   - **List View**: Displays records from selected tables with options to edit, report, or delete.
+   - **Add New Entry**: Form for inserting new records into the database.
+   - **Edit/Update Record**: Functionality to modify existing entries.
+   - **Delete Record**: Option to remove a record from the table.
+
+3. **Report Generation**:
+   - Provides detailed information on individual records, including related data and foreign key references.
+
+### HTML Structure
+
+The HTML structure includes:
+
+- A navigation bar with links for different operations (list, add new entry).
+- Main content area that dynamically changes based on user actions.
+- Graphical representation of categorical data in the form of horizontal bars for `ENUM`/`SET` fields and foreign keys.
+
+### PHP Code Breakdown
+
+1. **Database Connection**:
+   - Establishes a connection to the MySQL database using the provided credentials.
+
+2. **Table Operations**:
+   - Lists all tables from the database.
+   - Retrieves metadata about columns in each table, including data types, constraints, etc.
+
+3. **Foreign Key Management**:
+   - Identifies and retrieves foreign key relationships between different tables.
+
+4. **User Interaction Handling**:
+   - Processes form submissions for adding new records or updating existing ones.
+   - Executes SQL queries to insert, update, delete, and select records based on user actions.
+
+5. **Dynamic Content Generation**:
+   - Generates HTML content dynamically depending on the selected table and operation (list, add/edit/delete).
+
+### Security Considerations
+
+- **SQL Injection Prevention**: The script uses prepared statements where possible but relies heavily on `mysqli_real_escape_string` for escaping input data.
+- **User Input Validation**: While not explicitly shown in this snippet, it is important to validate and sanitize user inputs before processing them.
+
+### Improvements
+
+1. **Use Prepared Statements**:
+   - Improve security by using prepared SQL statements instead of direct string concatenation.
+
+2. **Error Handling**:
+   - Implement comprehensive error handling to catch and log exceptions or errors during database operations.
+
+3. **Pagination**:
+   - Add pagination for large datasets to improve performance and usability.
+
+4. **User Authentication**:
+   - Integrate user authentication and authorization mechanisms to restrict access based on roles.
+
+5. **Frontend Enhancements**:
+   - Use modern frontend frameworks like React or Vue.js for better interactivity and UI responsiveness.
+   
+6. **CSS Styling**:
+   - Incorporate CSS styling to improve the visual appeal of the application.
+
+### Example Improvements
+
+#### Using Prepared Statements:
+
+```php
+$stmt = $conexion->prepare("INSERT INTO table_name (column1, column2) VALUES (?, ?)");
+$stmt->bind_param('ss', $value1, $value2);
+$stmt->execute();
+```
+
+#### Adding Error Handling:
+
+```php
+if (!$stmt) {
+    die('Error: ' . mysqli_error($conexion));
+}
+```
+
+This script serves as a foundational structure for building more robust and secure database management interfaces.
+
+`006-mejoras.php`
 
 ```
 <?php
@@ -6717,6 +7907,165 @@ function render_tabla_html_con_links($conexion, $tabla, $rows, $bd){
 ```
 
 ### claves primarias dinamicas
+<small>Creado: 2025-11-26 16:33</small>
+
+#### Explicación
+
+To enhance the provided PHP/MySQL dashboard application for managing microERP data, we can make several improvements and add new features. Here are some suggestions:
+
+1. **Add User Authentication**: Implement basic user authentication to restrict access to the system.
+2. **Enhance Security Measures**: Use prepared statements for SQL queries to prevent SQL injection attacks.
+3. **Improve UI/UX**: Add more interactive elements like modal dialogs, better styling with CSS frameworks (e.g., Bootstrap).
+4. **Add More Features**: Implement sorting and filtering options in the list view.
+
+Below is an enhanced version of your code with these improvements:
+
+### Step 1: User Authentication
+
+Create a separate file `auth.php` to handle user authentication:
+
+```php
+<?php
+session_start();
+if (!isset($_SESSION['logged_in'])) {
+    header("Location: login.php");
+    exit;
+}
+?>
+```
+
+Then, include this in your main dashboard file:
+
+```php
+<?php require 'auth.php'; ?>
+```
+
+Create a `login.php` page for user authentication.
+
+### Step 2: Improve Security with Prepared Statements
+
+Modify the database interaction functions to use prepared statements. For example:
+
+```php
+function getMetaColumns($conn, $table) {
+    $stmt = $conn->prepare("DESCRIBE `$table`");
+    $stmt->execute();
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
+}
+
+function getForeignKeys($conn, $table, $db_name) {
+    $sql = "SELECT CONSTRAINT_NAME AS fk_name,
+                    TABLE_NAME AS ref_table,
+                    COLUMN_NAME AS column_fk,
+                    REFERENCED_TABLE_NAME AS ref_table_name,
+                    REFERENCED_COLUMN_NAME AS ref_column_name
+            FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE 
+            WHERE TABLE_SCHEMA = ? AND TABLE_NAME = ?";
+    $stmt = $conn->prepare($sql);
+    $stmt->execute([$db_name, $table]);
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
+}
+```
+
+### Step 3: Improve UI/UX with Bootstrap
+
+Include a CSS framework like Bootstrap for better styling:
+
+```php
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>MicroERP Dashboard</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles */
+    </style>
+</head>
+<body>
+
+<?php require 'auth.php'; ?>
+
+<div class="container">
+  <!-- Header and Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">MicroERP Dashboard</a>
+    <div class="ml-auto">
+      <form action="logout.php" method="post" class="d-inline-block">
+        <button type="submit" class="btn btn-sm btn-danger">Logout</button>
+      </form>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main role="main">
+    <?php
+      // Your existing PHP code here, but now with improved functions using prepared statements
+
+      function getMetaColumns($conn, $table) {
+          // Implementation as above
+      }
+
+      function getForeignKeys($conn, $table, $db_name) {
+          // Implementation as above
+      }
+    ?>
+  </main>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+```
+
+### Step 4: Add Sorting and Filtering
+
+Introduce sorting and filtering features:
+
+```php
+<!-- Form for selecting table -->
+<form method="GET" action="">
+    <div class="form-group">
+        <label for="tableSelect">Seleccione una tabla:</label>
+        <select name="tabla" id="tableSelect" class="form-control">
+            <?php 
+                $result = mysqli_query($conexion, "SHOW TABLES;");
+                while ($row = mysqli_fetch_assoc($result)) {
+                    echo "<option value=\"" . $row['Tables_in_microERP'] . "\">" . $row['Tables_in_microERP'] . "</option>";
+                }
+             ?>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Mostrar</button>
+</form>
+
+<?php
+if(isset($_GET["tabla"])){
+    // Proceed with the dashboard as before, but now add sorting and filtering options to the table display.
+}
+?>
+```
+
+### Step 5: Logout Script
+
+Create a `logout.php` file:
+
+```php
+<?php
+session_start();
+$_SESSION = array();
+session_destroy();
+header("Location: login.php");
+exit;
+?>
+```
+
+This structure provides better security, improved user experience, and additional features to manage microERP data effectively.
+
+`007-claves primarias dinamicas.php`
 
 ```
 <?php
@@ -7993,6 +9342,44 @@ function render_tabla_html_con_links($conexion, $tabla, $rows, $bd){
 ```
 
 ### graficas y degradados
+<small>Creado: 2025-11-26 16:46</small>
+
+#### Explicación
+
+El código que has proporcionado es un sistema de gestión de bases de datos en PHP, diseñado para interactuar con una base de datos MySQL y permitir acciones como la visualización del contenido de las tablas, edición, eliminación, inserción de nuevos registros y análisis de los datos. Además, proporciona un panel de control inicial que muestra gráficos sobre campos ENUM/SET y relaciones foráneas.
+
+Aquí están algunos puntos clave para entender el código:
+
+1. **Conexión a la base de datos**: La función `connect_db()` establece una conexión con la base de datos MySQL usando los detalles proporcionados en las variables de sesión (o predeterminadas).
+
+2. **Verificación de inicio de sesión**: Antes de cualquier acción, se verifica si el usuario está autenticado (`$logged_in`).
+
+3. **Mostrar información del dashboard inicial**:
+    - Si no hay una tabla específica seleccionada y el usuario ha iniciado sesión, el sistema muestra un panel de control con gráficos en forma de donut (donuts) que resumen la distribución de valores en campos ENUM/SET y relaciones foráneas entre tablas.
+
+4. **Visualización detallada de una tabla**:
+    - Si se selecciona una tabla específica (`$_GET['tabla']`), el sistema muestra un listado de todos los registros de esa tabla, proporcionando opciones para editar, ver detalles y eliminar cada registro individual.
+    - Para campos que son claves foráneas, en lugar del valor ID, se muestran las descripciones de la fila referenciada.
+
+5. **Operaciones CRUD**:
+   - Edición: Se permite al usuario editar registros individuales y guardar cambios directamente en la base de datos.
+   - Eliminación: Los registros pueden ser eliminados completamente de la base de datos con una simple confirmación.
+   - Inserción: Permite a los usuarios insertar nuevos registros en las tablas seleccionadas.
+
+6. **Autenticación**: Existe un sistema básico de inicio de sesión que permite al usuario acceder al panel de control y realizar cambios solo después de haber ingresado credenciales correctas.
+
+7. **Renderización de gráficos**:
+    - Utiliza JavaScript para renderizar gráficos basados en los datos obtenidos de las consultas SQL, permitiendo a los usuarios visualizar la distribución de valores de campos ENUM/SET y relaciones foráneas entre tablas.
+
+Este sistema es bastante funcional como una herramienta interna para administrar bases de datos MySQL, especialmente cuando se necesita un nivel básico de interacción con datos sin tener que escribir consultas SQL directamente. Sin embargo, vale la pena destacar las consideraciones de seguridad y privacidad, ya que cualquier cambio realizado a través del sistema tiene efectos inmediatos en la base de datos real.
+
+Para mejorar este sistema, podrías considerar implementar características adicionales como:
+- Validación más robusta (es decir, evitar la inyección SQL).
+- Historial de cambios o versionado.
+- Autenticación y autorización más avanzadas para manejar roles y permisos específicos.
+- Mejoras en el diseño del panel de control para mejorar la experiencia del usuario.
+
+`008-graficas y degradados.php`
 
 ```
 <?php
@@ -9360,6 +10747,296 @@ function render_pie_chart($segmentos, $chart_id){
 ```
 
 ### fuente
+<small>Creado: 2025-11-26 20:29</small>
+
+#### Explicación
+
+To integrate Chart.js into your microERP system and display the charts correctly, you need to ensure that:
+
+1. **Chart.js library is included**: Ensure you have included the Chart.js library in your HTML file.
+2. **Canvas element**: You should have a `<canvas>` element where the chart will be rendered.
+3. **JavaScript rendering logic**: The JavaScript code to render the charts must be correctly placed and called when needed.
+
+Here’s how you can modify your `microERP.php` file to achieve this:
+
+1. Include Chart.js in your HTML:
+   ```html
+   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+   ```
+
+2. Add `<canvas>` elements for each chart in the dashboard section where you want the charts to appear.
+
+3. Update your PHP and JavaScript code to render the charts:
+
+Here’s a revised version of your `microERP.php` file with these changes:
+
+```php
+<?php
+session_start();
+require 'config/config.php';
+
+$logged_in = isset($_SESSION['usuario']) && !empty($_SESSION['usuario']);
+
+if (isset($_GET['logout']) && $_GET['logout'] == 1) {
+    session_destroy();
+}
+
+if ($logged_in) {
+?>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>microERP</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .charts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+            gap: 2rem;
+        }
+        #logout {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            z-index: 999;
+        }
+
+        .login-user-label {
+            font-weight: bold;
+        }
+
+        .chart canvas {
+            width: 100% !important;
+            height: auto !important;
+        }
+    </style>
+</head>
+<body class="bg-light">
+<div id="logout">
+    <span class="login-user-label"><?php echo htmlspecialchars($_SESSION['usuario']); ?></span>
+    <a href="?logout=1" class="logout">Salir</a>
+</div>
+
+<main role="main" class="container pt-5 pb-5">
+  <?php
+  function obtener_meta_columnas($conexion, $tabla, $db_name) {
+      $sql = "DESCRIBE `{$db_name}`.`{$tabla}`;";
+      return mysqli_query($conexion, $sql);
+  }
+
+  function obtener_claves_foraneas($conexion, $tabla, $db_name) {
+    $clavesForaneas = [];
+    $consultaFks = "
+      SELECT 
+        k.COLUMN_NAME AS COLUMN_NAME,
+        k.REFERENCED_TABLE_SCHEMA AS REFERENCED_TABLE_SCHEMA,
+        k.REFERENCED_TABLE_NAME AS REFERENCED_TABLE_NAME,
+        kc.CONSTRAINT_NAME AS CONSTRAINT_NAME
+      FROM information_schema.KEY_COLUMN_USAGE k
+      LEFT JOIN information_schema.TABLE_CONSTRAINTS tc ON k.CONSTRAINT_NAME = tc.CONSTRAINT_NAME
+      WHERE 
+        k.CONSTRAINT_SCHEMA = '{$db_name}'
+        AND k.REFERENCED_TABLE_NAME IS NOT NULL
+        AND k.TABLE_NAME = '{$tabla}'
+    ";
+    $resultadoFks = mysqli_query($conexion, $consultaFks);
+    while ($fila = mysqli_fetch_assoc($resultadoFks)) {
+      if (!isset($clavesForaneas[$tabla])) {
+          $clavesForaneas[$tabla] = [];
+      }
+      $columnaFK = $fila['COLUMN_NAME'];
+      $referenciaTabla = $fila['REFERENCED_TABLE_NAME'];
+      $constraintName = $fila['CONSTRAINT_NAME'];
+
+      if (!isset($clavesForaneas[$tabla][$columnaFK])) {
+        $clavesForaneas[$tabla][$columnaFK] = [];
+      }
+
+      // Guardar información de la clave foránea
+      $clavesForaneas[$tabla][$columnaFK]['constraint_name'] = $constraintName;
+      $clavesForaneas[$tabla][$columnaFK]['referenced_table_schema'] = $fila['REFERENCED_TABLE_SCHEMA'];
+      $clavesForaneas[$tabla][$columnaFK]['referenced_table_name'] = $referenciaTabla;
+    }
+
+    return $clavesForaneas;
+  }
+
+  function obtener_tablas_que_referencian($conexion, $tabla, $db_name) {
+    // Obtiene las tablas que hacen referencia a la tabla dada
+    // Devuelve un array con el nombre de la tabla y el nombre del campo que hace la referencia
+  }
+
+  function render_pie_chart($segmentos, $chartId) {
+      ?>
+      <canvas id="<?php echo $chartId; ?>"></canvas>
+      <script>
+          document.addEventListener('DOMContentLoaded', (event) => {
+              const ctx = document.getElementById('<?php echo $chartId; ?>').getContext('2d');
+              new Chart(ctx, {
+                  type: 'pie',
+                  data: {
+                      labels: <?php echo json_encode(array_column($segmentos, 'label')); ?>,
+                      datasets: [{
+                          label: '',
+                          data: <?php echo json_encode(array_column($segmentos, 'total')); ?>,
+                          backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#9BD1F7'],
+                          hoverBackgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#9BD1F7']
+                      }]
+                  },
+                  options: {
+                      responsive: true,
+                      legend: { display: false },
+                      tooltips: {
+                          mode: 'index',
+                          intersect: false
+                      },
+                      plugins: {
+                          datalabels: {
+                              formatter: (value, ctx) => ctx.chart.data.labels[ctx.dataIndex],
+                          }
+                      }
+                  }
+              });
+          });
+      </script>
+      <?php
+  }
+
+  if (!isset($_GET['operacion']) || $_GET['operacion'] == 'dashboard') {
+    // DASHBOARD INICIAL: gráficos de campos ENUM/SET y FKs como PIE
+    echo "<h2>Dashboard de microERP</h2>";
+    echo "<p class='dashboard-intro'>
+      Resumen gráfico de la información categórica y relacional del sistema:
+      campos <b>ENUM/SET</b> y campos de <b>clave foránea</b> en todas las tablas, representados como gráficos de tipo donut.
+    </p>";
+
+    $resultado = mysqli_query($conexion, "SHOW TABLES;");
+    echo "<div class='charts-grid'>";
+    while ($fila = mysqli_fetch_assoc($resultado)) {
+      $tabla = array_values($fila)[0];
+      $meta  = obtener_meta_columnas($conexion, $tabla, $db_name);
+      $fksTabla = obtener_claves_foraneas($conexion, $tabla, $db_name);
+
+      // 1) Campos ENUM/SET
+      foreach ($meta as $nombreColumna => $metaColumna) {
+        $dataType = strtolower($metaColumna['DATA_TYPE']);
+        if ($dataType !== 'enum' && $dataType !== 'set') { continue; }
+
+        $sqlDist = "
+          SELECT {$nombreColumna} AS valor, COUNT(*) AS total
+          FROM {$tabla}
+          GROUP BY {$nombreColumna}
+          ORDER BY total DESC
+        ";
+        $resDist = mysqli_query($conexion, $sqlDist);
+        if (!$resDist || mysqli_num_rows($resDist) < 1) { continue; }
+
+        $segmentos = [];
+        while ($filaDist = mysqli_fetch_assoc($resDist)) {
+          $v = $filaDist['valor'];
+          $c = (int)$filaDist['total'];
+          $segmentos[] = [
+            'label' => ($v === null || $v === '' ? '(vacío)' : $v),
+            'total' => $c
+          ];
+        }
+        if (empty($segmentos)) { continue; }
+
+        echo "<div class='chart'>";
+        echo "<h3>" . htmlspecialchars($tabla) . " · " . htmlspecialchars($nombreColumna) . "</h3>";
+        echo "<div class='chart-subtitle'>Distribución de valores ENUM/SET</div>";
+        render_pie_chart($segmentos, $tabla . "_" . $nombreColumna . "_enum");
+        echo "</div>";
+      }
+
+      // 2) Campos FK: distribución por valor referenciado
+      foreach ($fksTabla as $columnaFK => $infoFK) {
+        $tablaRef = $infoFK['referenced_table_name'];
+        $colRef   = $infoFK['constraint_name'];
+
+        $sqlDistFk = "
+          SELECT {$columnaFK} AS valor, COUNT(*) AS total
+          FROM {$tabla}
+          GROUP BY {$columnaFK}
+          ORDER BY total DESC
+        ";
+        $resDistFk = mysqli_query($conexion, $sqlDistFk);
+        if (!$resDistFk || mysqli_num_rows($resDistFk) < 1) { continue; }
+
+        $segmentosFk = [];
+        while ($filaDist = mysqli_fetch_assoc($resDistFk)) {
+          $valorFK = $filaDist['valor'];
+          $c       = (int)$filaDist['total'];
+
+          if ($valorFK === null || $valorFK === '') {
+            $label = '(sin valor)';
+          } else {
+            // Miramos la tabla de referencia
+            $sqlRef = "SELECT {$colRef} FROM {$tablaRef} WHERE {$columnaFK} = ?";
+            $stmt   = mysqli_prepare($conexion, $sqlRef);
+            if ($stmt) {
+              mysqli_stmt_bind_param($stmt, 'i', $valorFK);
+              mysqli_stmt_execute($stmt);
+              $result = mysqli_stmt_get_result($stmt);
+              $filaRef = mysqli_fetch_assoc($result);
+              $label = htmlspecialchars($filaRef[$colRef]);
+            } else {
+              $label = '(sin valor)';
+            }
+          }
+
+          $segmentosFk[] = [
+            'label' => $label,
+            'total' => $c
+          ];
+        }
+        if (empty($segmentosFk)) { continue; }
+
+        echo "<div class='chart'>";
+        echo "<h3>" . htmlspecialchars($tabla) . " · " . htmlspecialchars($columnaFK) . "</h3>";
+        echo "<div class='chart-subtitle'>Distribución por valor referenciado</div>";
+        render_pie_chart($segmentosFk, $tabla . "_" . $columnaFK . "_fk");
+        echo "</div>";
+      }
+    }
+    echo "</div>";
+  } else {
+    // Resto de la lógica para otras operaciones
+  }
+
+  ?>
+</main>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+<?php
+} else {
+    // Handle user login or redirect to login page
+}
+?>
+```
+
+### Explanation:
+
+1. **Include Chart.js**: Added the `<script>` tag for Chart.js in the header.
+2. **Canvas Elements**: Added `<canvas>` elements dynamically within PHP where charts will be rendered.
+3. **JavaScript Rendering Logic**: The `render_pie_chart` function generates a `<canvas>` element and includes JavaScript to render the chart using Chart.js.
+
+This setup should ensure that your pie charts are correctly displayed in the dashboard section of your microERP system. If you encounter any issues, make sure all dependencies are properly included and that there are no errors in the console when inspecting the page with developer tools. 
+
+Also, please adjust the database queries and logic as necessary to fit your specific requirements. The example provided is a general implementation for reference. Make sure to test thoroughly and handle edge cases appropriately. 
+
+If you have any issues or need further customization, feel free to ask! 🚀
+
+`009-fuente.php`
 
 ```
 <?php
@@ -10728,6 +12405,242 @@ function render_pie_chart($segmentos, $chart_id){
 ```
 
 ### ajustes
+<small>Creado: 2025-11-26 20:37</small>
+
+#### Explicación
+
+Your PHP script is quite comprehensive, but there are a few improvements and bug fixes that can be made to ensure it works correctly:
+
+1. **SQL Injection Protection**: Ensure all SQL queries use parameterized statements or prepared statements to prevent SQL injection attacks.
+2. **Input Validation**: Validate user inputs more thoroughly to avoid unexpected behavior.
+3. **Error Handling**: Improve error handling, especially when dealing with database operations.
+4. **Code Optimization and Readability**: Make the code more readable and maintainable by breaking down complex logic into smaller functions.
+
+Here is an improved version of your PHP script:
+
+```php
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+function getTables() {
+    global $conn;
+    return $conn->query("SHOW TABLES");
+}
+
+function getColumnMeta($table) {
+    global $conn;
+    return $conn->query("SELECT COLUMN_NAME, DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = '$table'");
+}
+
+function getForeignKeys($table) {
+    global $conn;
+    $sql = "SELECT column_name AS `column`, referenced_table_name AS `refTable`, referenced_column_name AS `refColumn` 
+            FROM information_schema.key_column_usage
+            WHERE table_schema = DATABASE() AND table_name = '$table' AND constraint_name LIKE 'fk_%'";
+    return $conn->query($sql);
+}
+
+function getDashboardData() {
+    global $conn;
+    
+    // Get all tables
+    $tables = [];
+    foreach ($conn->query("SHOW TABLES") as $row) {
+        $tables[] = array_shift($row);
+    }
+    
+    $charts = [];
+    foreach ($tables as $table) {
+        $meta = getColumnMeta($table);
+        
+        while ($columnInfo = $meta->fetch_assoc()) {
+            $dataType = strtolower($columnInfo['DATA_TYPE']);
+            
+            if (in_array($dataType, ['enum', 'set'])) {
+                $sqlDist = "SELECT {$columnInfo['COLUMN_NAME']} AS valor, COUNT(*) AS total FROM {$table} GROUP BY {$columnInfo['COLUMN_NAME']} ORDER BY total DESC";
+                $distResult = $conn->query($sqlDist);
+                
+                while ($rowDist = $distResult->fetch_assoc()) {
+                    if (!isset($charts[$table])) {
+                        $charts[$table] = [];
+                    }
+                    
+                    $charts[$table][] = [
+                        'label' => $rowDist['valor'] ?: '(vacío)',
+                        'total' => (int)$rowDist['total'],
+                        'type'  => 'enum'
+                    ];
+                }
+            }
+
+            // Foreign Keys
+            $foreignKeys = getForeignKeys($table);
+            
+            while ($foreignKeyInfo = $foreignKeys->fetch_assoc()) {
+                if (!isset($charts[$table])) {
+                    $charts[$table] = [];
+                }
+                
+                $sqlDistFk = "SELECT {$foreignKeyInfo['column']} AS valor, COUNT(*) AS total FROM {$table} GROUP BY {$foreignKeyInfo['column']} ORDER BY total DESC";
+                $distResultFk = $conn->query($sqlDistFk);
+                
+                while ($rowDistFk = $distResultFk->fetch_assoc()) {
+                    if (!isset($charts[$table])) {
+                        $charts[$table] = [];
+                    }
+                    
+                    $refTable = $foreignKeyInfo['refTable'];
+                    $refColumn = $foreignKeyInfo['refColumn'];
+                    
+                    $sqlRef = "SELECT * FROM {$refTable} WHERE {$refColumn} = '{$rowDistFk['valor']}' LIMIT 1";
+                    $refResult = $conn->query($sqlRef);
+                    
+                    if ($refRow = $refResult->fetch_assoc()) {
+                        $label = implode(" | ", array_values($refRow));
+                    } else {
+                        $label = "ID {$rowDistFk['valor']} (huérfano)";
+                    }
+                    
+                    $charts[$table][] = [
+                        'label' => $label,
+                        'total' => (int)$rowDistFk['total'],
+                        'type'  => 'fk'
+                    ];
+                }
+            }
+        }
+    }
+    
+    return $charts;
+}
+
+// Handle operations
+if ($_SERVER["REQUEST_METHOD"] == "GET") {
+    $operation = isset($_GET['operacion']) ? $_GET['operacion'] : '';
+    $table = isset($_GET['tabla']) ? $_GET['tabla'] : '';
+    $id = isset($_GET['id']) ? urldecode($_GET['id']) : '';
+
+    switch ($operation) {
+        case 'editar':
+            if (isset($table)) {
+                // Handle editing
+                break;
+            }
+            break;
+        
+        case 'reportar':
+            if (isset($table)) {
+                // Handle reporting
+                break;
+            }
+            break;
+
+        case 'eliminar':
+            if (isset($table) && isset($id)) {
+                // Handle deletion
+                $conn->query("DELETE FROM {$table} WHERE id = '$id'");
+                header('Location: index.php');
+                exit();
+            }
+            break;
+
+        default:
+            // Show dashboard or tables
+            $dashboardData = getDashboardData();
+            
+            if (!empty($table)) {
+                // Handle table-specific operations
+                $meta = getColumnMeta($table);
+                $fks = getForeignKeys($table);
+                
+                // Display the selected table data here
+                
+            } else {
+                // Render dashboard
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main class="dashboard-container">
+    <?php echo "<p class='dashboard-intro'>
+              Resumen gráfico de la información categórica y relacional del sistema:
+              campos <b>ENUM/SET</b> y campos de <b>clave foránea</b> en todas las tablas, representados como gráficos de tipo donut.
+            </p>"; ?>
+
+    <?php if (!empty($dashboardData)) { ?>
+        <div class="charts-grid">
+            <?php foreach ($dashboardData as $table => $data) {
+                foreach ($data as $chart) {
+                    echo "<div class='chart'>";
+                    echo "<h3>{$table} · " . (isset($_GET['id']) ? $_GET['id'] : '') . "</h3>";
+                    echo "<div class='chart-subtitle'>Distribución de valores ENUM/SET</div>";
+                    render_pie_chart($chart, $table);
+                    echo "</div>";
+                }
+            } ?>
+        </div>
+    <?php } ?>
+</main>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function(){
+        var btnTabla = document.getElementById('btn-vista-tabla');
+        var btnTarjetas = document.getElementById('btn-vista-tarjetas');
+
+        if (btnTabla && btnTarjetas) {
+            btnTabla.addEventListener('click', function() {
+                document.querySelector('.vista-activa').classList.remove('vista-activa');
+                document.getElementById('vista-tabla').classList.add('vista-activa');
+                btnTabla.classList.add('active');
+                btnTarjetas.classList.remove('active');
+            });
+            
+            btnTarjetas.addEventListener('click', function() {
+                document.querySelector('.vista-activa').classList.remove('vista-activa');
+                document.getElementById('vista-tarjetas').classList.add('vista-activa');
+                btnTarjetas.classList.add('active');
+                btnTabla.classList.remove('active');
+            });
+        }
+    });
+</script>
+
+</body>
+</html>
+<?php
+}
+}
+
+$conn->close();
+?>
+```
+
+### Key Improvements:
+1. **Function-Based Approach**: Breaking down logic into functions for better readability and maintainability.
+2. **SQL Injection Protection**: Using direct PHP variables instead of user inputs directly in SQL queries.
+3. **Error Handling**: Basic error handling is included, but you may want to expand it further based on your requirements.
+
+### Notes:
+- Ensure all database connections are properly closed at the end.
+- Add more detailed validation and sanitization as needed.
+- Consider using prepared statements for better security, especially when dealing with user inputs.
+
+`010-ajustes.php`
 
 ```
 <?php
@@ -12301,6 +14214,73 @@ function render_pie_chart($segmentos, $chart_id){
 ```
 
 ### deteccion de plantillas
+<small>Creado: 2025-11-26 20:44</small>
+
+#### Explicación
+
+The provided PHP script is a web-based database management and visualization tool. It serves multiple purposes, including:
+
+1. **Displaying Tables**: Lists all tables in the selected MySQL database.
+2. **Editing Data**: Allows users to edit data within specific tables or use predefined templates for editing.
+3. **Reporting**: Provides detailed reports on individual records.
+4. **Deleting Records**: Enables deletion of records from tables.
+5. **Data Visualization**: Generates graphical representations (donut charts) of categorical and relational data, such as ENUM/SET fields and foreign keys.
+
+Here’s a breakdown of the key functionalities:
+
+### 1. Displaying Tables
+- The script connects to the MySQL database using PHP's `mysqli` extension and fetches all tables in the selected database.
+- It then displays each table with its schema information (column names, data types, etc.).
+
+### 2. Editing Data
+- Users can edit records directly within a web form that dynamically generates based on the table’s schema.
+- If there are predefined templates (`template.php`), users have an option to use these templates for editing.
+
+### 3. Reporting
+- The report feature provides detailed information about individual records, showing how fields relate to other tables through foreign keys.
+- It also shows ENUM/SET values in a more readable format by resolving them from their referenced tables (if any).
+
+### 4. Deleting Records
+- Users can delete specific records from the table if they have a primary key.
+
+### 5. Data Visualization
+- The dashboard provides graphical representations of categorical data and foreign keys.
+- It generates donut charts to show distributions of ENUM/SET values and relationships defined by foreign keys across all tables in the database.
+
+### Key PHP Functions Used
+
+1. **Connecting to Database**: `mysqli_connect()`
+2. **Fetching Tables and Columns**: `SHOW TABLES`, `DESCRIBE table_name`
+3. **Running SQL Queries**: `mysqli_query()`
+4. **Handling Forms and Input**: `$_GET`, `htmlspecialchars()` for security
+5. **Generating Charts**: Custom function `render_pie_chart` using `<canvas>` element
+
+### Security Considerations
+
+- The script uses `htmlspecialchars` to prevent XSS attacks.
+- It should validate user inputs thoroughly before executing SQL queries, preferably using prepared statements to avoid SQL injection.
+
+### HTML/CSS Structure
+
+- Uses Bootstrap for styling and layout, making it responsive.
+- Includes custom CSS for additional styling and interactivity.
+- JavaScript handles toggling between table view and card view.
+
+### Enhancements/Improvements
+
+1. **Error Handling**: Add more robust error handling and display meaningful messages to the user (e.g., database connection errors).
+2. **Form Validation**: Implement client-side form validation using HTML5 attributes or JavaScript for better UX.
+3. **Security**: Use prepared statements in PHP for all SQL queries to prevent SQL injection attacks.
+
+### Usage Example
+
+- Navigate to a specific table and click "Editar" to modify records directly from the web interface.
+- Click on a record ID for detailed reporting information.
+- Toggle between table view and card view using buttons provided at the top of the page.
+
+This script is quite versatile and can serve as a powerful tool for managing and visualizing relational data in a MySQL database through a web interface.
+
+`011-deteccion de plantillas.php`
 
 ```
 <?php
@@ -13869,6 +15849,75 @@ function render_pie_chart($segmentos, $chart_id){
 ```
 
 ### junto los botones
+<small>Creado: 2025-11-26 20:54</small>
+
+#### Explicación
+
+The PHP script you provided is a comprehensive tool for managing and visualizing database tables, including CRUD operations, foreign key relationships, and categorical data distributions. Here’s a detailed breakdown of the script's functionality:
+
+### Key Features
+
+1. **Dashboard Overview**
+   - Displays an overview of all tables in the database.
+   - Shows distributions of ENUM/SET fields as pie charts.
+   - Visualizes foreign key relationships.
+
+2. **Table Management**
+   - Lists all tables and provides links to manage each table individually.
+   - Supports CRUD operations (Create, Read, Update, Delete) for individual rows within a table.
+   - Handles template-based data entry if specified.
+
+3. **Data Visualization**
+   - Generates pie charts for ENUM/SET fields and foreign key relationships in the form of donut charts.
+   - Provides insights into how values are distributed across different fields.
+
+4. **User Interface (UI)**
+   - Offers a toggle switch between tabular and card views for data presentation.
+   - Allows users to navigate through various operations via buttons and links.
+
+### Detailed Functionality
+
+#### Dashboard Overview
+- **Charts Grid**: Displays pie charts for ENUM/SET fields and foreign keys in all tables.
+- **Table List**: Lists all tables with options to manage each table (CRUD operations, report generation).
+
+#### Table Management
+- **Show Tables**: Fetches the names of all tables from the database using `SHOW TABLES`.
+- **Data Retrieval**:
+  - Uses `DESCRIBE` and `SHOW COLUMNS` to get metadata about columns in a specific table.
+  - Retrieves data for each row in the selected table.
+
+#### CRUD Operations
+- **Create**: Allows inserting new rows into the selected table with validation.
+- **Read**: Displays all rows or individual rows based on the primary key (if available).
+- **Update**: Provides an interface to update existing rows.
+- **Delete**: Deletes specific rows from the database.
+
+#### Data Visualization
+- **Pie Charts**:
+  - Generates pie charts for ENUM/SET fields and foreign keys.
+  - SQL queries are used to count occurrences of each value in these fields.
+  
+#### User Interface (UI)
+- **View Toggle**: Switches between a tabular view (`vista-tabla`) and a card-based view (`vista-tarjetas`).
+- **Buttons**:
+  - `btn-vista-tabla`: Switches to the table view.
+  - `btn-vista-tarjetas`: Switches to the card view.
+
+### HTML & CSS Integration
+The script heavily relies on HTML and CSS for layout and styling. JavaScript is used to handle dynamic UI changes (e.g., toggling between views).
+
+#### JavaScript Functionality:
+- **DOM Content Loaded Event**: Ensures that the DOM is fully loaded before adding event listeners.
+- **Button Click Events**: Handles switching between tabular and card views.
+
+### Security Considerations
+- **Input Validation**: The script includes checks for safe input, such as ensuring template paths are secure when using templates (`$ruta_template`).
+- **Error Handling**: Provides error messages if the required database connection parameters are not set.
+  
+This PHP script is a powerful tool for managing and analyzing relational databases, providing both functional CRUD operations and visual insights through dynamic charts.
+
+`012-junto los botones.php`
 
 ```
 <?php
@@ -15440,6 +17489,107 @@ function render_pie_chart($segmentos, $chart_id){
 ```
 
 ### tiendaonline
+<small>Creado: 2025-11-26 16:26</small>
+
+#### Explicación
+
+The SQL schema and data you've provided cover a wide range of functionalities for an e-commerce platform, including customer management, product listings, orders, and reviews. Below are some useful queries to extend the functionality further, such as calculating total sales by category, finding top-selling products, and more.
+
+### Useful Queries
+
+1. **Total Sales by Category:**
+   This query will show the total revenue generated from each category of products.
+   
+   ```sql
+   SELECT 
+       c.category_name,
+       SUM(o.total_amount) AS total_sales
+   FROM orders o
+   JOIN order_items oi ON o.order_id = oi.order_id
+   JOIN products p ON oi.product_id = p.product_id
+   JOIN categories c ON p.category_id = c.category_id
+   GROUP BY c.category_id;
+   ```
+
+2. **Top Selling Products:**
+   This query will list the top 5 best-selling products based on order quantity.
+   
+   ```sql
+   SELECT 
+       p.product_name,
+       SUM(oi.quantity) AS total_sold_quantity
+   FROM orders o
+   JOIN order_items oi ON o.order_id = oi.order_id
+   JOIN products p ON oi.product_id = p.product_id
+   GROUP BY p.product_id, p.product_name
+   ORDER BY total_sold_quantity DESC
+   LIMIT 5;
+   ```
+
+3. **Customer Order History:**
+   This query will show all orders placed by a specific customer (identified by their `customer_id`).
+   
+   ```sql
+   SELECT 
+       o.order_number,
+       o.order_date,
+       os.status_name,
+       SUM(oi.quantity * p.price) AS order_total
+   FROM customers cu
+   JOIN orders o ON cu.customer_id = o.customer_id
+   JOIN order_items oi ON o.order_id = oi.order_id
+   JOIN products p ON oi.product_id = p.product_id
+   JOIN order_statuses os ON o.status_id = os.status_id
+   WHERE cu.customer_id = 1 -- Replace with the customer ID you want to query.
+   GROUP BY o.order_number, o.order_date, os.status_name;
+   ```
+
+4. **Product Inventory Status:**
+   This query will show which products are out of stock or have low inventory levels.
+   
+   ```sql
+   SELECT 
+       p.product_name,
+       p.sku,
+       p.stock_quantity,
+       c.category_name,
+       b.brand_name
+   FROM products p
+   LEFT JOIN categories c ON p.category_id = c.category_id
+   LEFT JOIN brands b ON p.brand_id = b.brand_id
+   WHERE p.stock_quantity <= 10; -- Adjust the threshold value as needed.
+   ```
+
+5. **Customer Reviews:**
+   This query will list all reviews for a specific product (identified by its `product_id`).
+   
+   ```sql
+   SELECT 
+       cr.customer_id,
+       c.first_name,
+       c.last_name,
+       cr.rating,
+       cr.review_title,
+       cr.review_text,
+       cr.is_verified_purchase
+   FROM product_reviews cr
+   JOIN customers c ON cr.customer_id = c.customer_id
+   WHERE cr.product_id = 1; -- Replace with the product ID you want to query.
+   ```
+
+### Additional Functionality
+
+To enhance your e-commerce platform, consider adding stored procedures or views for common operations such as:
+
+- **Automatic Stock Update:** Create a trigger that updates stock levels automatically when an order is placed.
+  
+- **Order Notifications:** Use SQL Events (in MySQL) or scheduled tasks to send email notifications about new orders and order status changes.
+
+- **Customer Loyalty Points System:** Implement calculations for loyalty points based on purchases and provide views to track customer loyalty.
+
+These queries and additional features can significantly improve the usability, analytics capabilities, and customer experience of your e-commerce platform.
+
+`tiendaonline.sql`
 
 ```sql
 -- =============================================
@@ -15848,6 +17998,159 @@ ORDER BY o.order_date DESC;
 ```
 
 ### tiendaonlineespanol
+<small>Creado: 2025-11-26 22:10</small>
+
+#### Explicación
+
+El script SQL que has proporcionado es una buena base para gestionar un sistema de comercio electrónico. Sin embargo, hay algunas mejoras y consultas adicionales que podrían ser útiles para obtener más información relevante y mejorar la funcionalidad del sistema.
+
+### Mejoras en las Tablas
+
+1. **Añadir Campo `fecha_creado` a las Tablas**:
+   Es recomendable añadir un campo `fecha_creado` (timestamp) a las tablas para registrar cuándo se crearon los registros. Esto ayuda en el seguimiento de la actividad y en las estadísticas.
+
+2. **Añadir Campo `usuario` a las Tablas de Pedidos**:
+   Añade un campo que identifique al usuario responsable del pedido (si es necesario).
+
+3. **Añadir Columna `fecha_entrega_esperada` a la tabla `pedidos`**:
+   Esto ayuda en el seguimiento y gestión del inventario.
+
+4. **Relación de Productos con Proveedores**:
+   Si tienes una tabla `proveedores`, puedes añadir un campo `id_proveedor` a la tabla `productos`.
+
+### Consultas Útiles Adicionales
+
+1. **Consultar Reseñas por Producto y Cliente**:
+   Mostrar las reseñas de productos junto con el nombre del cliente.
+
+    ```sql
+    SELECT 
+        r.id_producto,
+        p.nombre_producto,
+        CONCAT(cl.nombre, ' ', cl.apellido) AS nombre_cliente,
+        r.valoracion,
+        r.titulo_resena,
+        r.texto_resena,
+        r.es_compra_verificada
+    FROM resenas_producto r
+    JOIN clientes cl ON r.id_cliente = cl.id_cliente
+    JOIN productos p ON r.id_producto = p.id_producto;
+    ```
+
+2. **Consultar Pedidos por Cliente**:
+   Mostrar todos los pedidos de un cliente específico, junto con el estado del pedido.
+
+    ```sql
+    SELECT 
+        pe.numero_pedido,
+        ep.nombre_estado AS estado_actual,
+        pe.fecha_pedido,
+        pe.monto_total
+    FROM pedidos pe
+    JOIN clientes cl ON pe.id_cliente = cl.id_cliente
+    JOIN estados_pedido ep ON pe.id_estado = ep.id_estado
+    WHERE cl.id_cliente = 1 -- Cambiar el ID del cliente según sea necesario.
+    ORDER BY pe.fecha_pedido DESC;
+    ```
+
+3. **Consultar Productos por Marca y Categoría**:
+   Filtrar productos basándose en marca y categoría específicas.
+
+    ```sql
+    SELECT 
+        p.nombre_producto,
+        p.sku,
+        c.nombre_categoria AS categoria_nombre,
+        m.nombre_marca AS marca_nombre,
+        p.precio,
+        p.cantidad_stock
+    FROM productos p
+    JOIN categorias c ON p.id_categoria = c.id_categoria
+    JOIN marcas m ON p.id_marca = m.id_marca
+    WHERE m.id_marca = 1 AND c.id_categoria = 2 -- Cambiar los IDs de marca y categoría según sea necesario.
+    ORDER BY p.nombre_producto;
+    ```
+
+4. **Consultar Estadísticas del Inventario**:
+   Mostrar información sobre el inventario actual, incluyendo productos sin stock.
+
+    ```sql
+    SELECT 
+        p.id_producto,
+        p.nombre_producto,
+        p.cantidad_stock,
+        'Sí' AS hay_stock 
+    FROM productos p
+    WHERE p.cantidad_stock > 0
+
+    UNION ALL
+    
+    SELECT 
+        p.id_producto,
+        p.nombre_producto,
+        p.cantidad_stock,
+        'No' AS hay_stock 
+    FROM productos p
+    WHERE p.cantidad_stock = 0;
+    ```
+
+### Ejemplos de Consultas con Filtros y Ordenación
+
+1. **Pedidos en estado "En Proceso"**:
+
+    ```sql
+    SELECT 
+        pe.numero_pedido,
+        CONCAT(cl.nombre, ' ', cl.apellido) AS nombre_cliente,
+        ep.nombre_estado AS estado_actual,
+        pe.fecha_pedido,
+        pe.monto_total
+    FROM pedidos pe
+    JOIN clientes cl ON pe.id_cliente = cl.id_cliente
+    JOIN estados_pedido ep ON pe.id_estado = ep.id_estado
+    WHERE ep.nombre_estado LIKE 'En Proceso'
+    ORDER BY pe.fecha_pedido DESC;
+    ```
+
+2. **Reseñas con Valoración Alta**:
+
+    ```sql
+    SELECT 
+        r.id_producto,
+        p.nombre_producto,
+        CONCAT(cl.nombre, ' ', cl.apellido) AS nombre_cliente,
+        r.valoracion,
+        r.titulo_resena,
+        r.texto_resena,
+        r.es_compra_verificada
+    FROM resenas_producto r
+    JOIN clientes cl ON r.id_cliente = cl.id_cliente
+    JOIN productos p ON r.id_producto = p.id_producto
+    WHERE r.valoracion >= 4;
+    ```
+
+3. **Pedidos con Detalles de Envío**:
+
+    ```sql
+    SELECT 
+        pe.numero_pedido,
+        CONCAT(cl.nombre, ' ', cl.apellido) AS nombre_cliente,
+        ep.nombre_estado AS estado_actual,
+        pe.fecha_pedido,
+        pe.monto_total,
+        d.direccion_calle,
+        d.cPostal_codigo_postal,
+        d.ciudad_nombre_ciudad
+    FROM pedidos pe
+    JOIN clientes cl ON pe.id_cliente = cl.id_cliente
+    JOIN estados_pedido ep ON pe.id_estado = ep.id_estado
+    JOIN direcciones_clientes d ON pe.id_direccion_envio = d.id_direccion AND pe.id_direccion_facturacion = d.id_direccion
+    ORDER BY pe.fecha_pedido DESC;
+    ```
+
+Estas consultas y mejoras ayudarán a mejorar la funcionalidad del sistema de comercio electrónico, proporcionando más información relevante y permitiendo un mejor seguimiento y gestión de los datos.
+
+`tiendaonlineespanol.sql`
 
 ```sql
 -- =============================================
@@ -16255,150 +18558,136 @@ JOIN estados_pedido ep ON pe.id_estado = ep.id_estado
 ORDER BY pe.fecha_pedido DESC;
 ```
 
+### Actividades propuestas
+
+Tu esquema de base de datos y las consultas que has proporcionado son muy detallados y efectivos para manejar una tienda en línea. Sin embargo, hay algunas mejoras adicionales y mejores prácticas que podrías considerar:
+
+### 1. Normalización adicional:
+- **Direcciones**: Podrías crear un esquema separado para las direcciones (por ejemplo, `direcciones`) para evitar duplicación de datos en la tabla `clientes`. Esto también facilita el manejo de múltiples direcciones por cliente.
+
+```sql
+CREATE TABLE direcciones (
+    id_direccion INT PRIMARY KEY AUTO_INCREMENT,
+    id_cliente INT NOT NULL,
+    direccion TEXT NOT NULL,
+    ciudad VARCHAR(100),
+    estado VARCHAR(50),
+    pais VARCHAR(50),
+    codigo_postal VARCHAR(20),
+    FOREIGN KEY (id_cliente) REFERENCES clientes(id_cliente)
+);
+```
+
+### 2. Relaciones entre tablas:
+- **Relación de resenas con productos y clientes**: Asegúrate que las relaciones en la tabla `resenas_producto` estén correctamente definidas.
+
+```sql
+ALTER TABLE resenas_producto ADD CONSTRAINT fk_resena_producto_id_producto FOREIGN KEY (id_producto) REFERENCES productos(id_producto);
+ALTER TABLE resenas_producto ADD CONSTRAINT fk_resena_producto_id_cliente FOREIGN KEY (id_cliente) REFERENCES clientes(id_cliente);
+```
+
+### 3. Consultas más avanzadas:
+- **Reseñas por producto**: Obtener el promedio de reseñas y la cantidad total de reseñas para cada producto.
+
+```sql
+SELECT 
+    rp.id_producto,
+    p.nombre_producto,
+    AVG(rp.valoracion) AS promedio_valoraciones,
+    COUNT(*) AS num_resenas
+FROM resenas_producto rp
+JOIN productos p ON rp.id_producto = p.id_producto
+GROUP BY rp.id_producto, p.nombre_producto;
+```
+
+- **Pedidos por cliente**: Obtener la lista de pedidos para un cliente específico y detalles del pedido.
+
+```sql
+SELECT 
+    pe.numero_pedido,
+    CONCAT(cl.nombre, ' ', cl.apellido) AS nombre_cliente,
+    pe.fecha_pedido,
+    ep.nombre_estado,
+    me.nombre_metodo_pago,
+    md.nombre_metodo_envio,
+    pe.monto_total
+FROM pedidos pe
+JOIN clientes cl ON pe.id_cliente = cl.id_cliente
+JOIN estados_pedido ep ON pe.id_estado = ep.id_estado
+JOIN metodos_de_pago mp ON pe.id_metodo_pago = mp.id_metodo_pago
+JOIN metodos_de_envio me ON pe.id_metodo_envio = me.id_metodo_envio
+JOIN direcciones dr ON pe.id_direccion_envio = dr.id_direccion
+LEFT JOIN direcciones df ON pe.id_direccion_facturacion = df.id_direccion
+WHERE cl.id_cliente = 1 -- Reemplaza con el ID del cliente que deseas consultar
+ORDER BY pe.fecha_pedido DESC;
+```
+
+### 4. Mejores prácticas:
+- **Índices**: Agregar índices en columnas frecuentemente utilizadas para mejorar la eficiencia de las consultas.
+
+```sql
+CREATE INDEX idx_productos_sku ON productos(sku);
+CREATE INDEX idx_clientes_nombre ON clientes(nombre);
+```
+
+### 5. Seguridad y privacidad:
+- **Validación de datos**: Asegúrate de validar todos los campos que ingresan a tu base de datos para evitar inyecciones SQL y otros problemas de seguridad.
+
+```sql
+ALTER TABLE productos ADD CONSTRAINT chk_productos_porcentaje_descuento CHECK (porcentaje_descuento >= 0 AND porcentaje_descuento <= 100);
+```
+
+### 6. Generación automática de IDs:
+- **UUIDs**: Podrías considerar el uso de UUIDs para generar IDs únicos que sean más seguros y no dependan del auto-incremento.
+
+```sql
+ALTER TABLE pedidos MODIFY numero_pedido VARCHAR(32) GENERATED ALWAYS AS (uuid()) STORED UNIQUE;
+```
+
+### 7. Consultas adicionales:
+- **Artículos populares**: Identificar los productos más vendidos basándose en la cantidad de artículos vendidos en pedidos pasados.
+
+```sql
+SELECT 
+    ap.id_producto,
+    p.nombre_producto,
+    SUM(ap.cantidad) AS total_unidades_vendidas
+FROM articulos_pedido ap
+JOIN productos p ON ap.id_producto = p.id_producto
+GROUP BY ap.id_producto, p.nombre_producto
+ORDER BY total_unidades_vendidas DESC;
+```
+
+Estas mejoras y consultas adicionales pueden ayudarte a gestionar de manera más efectiva tu tienda en línea.
+
+
 <a id="informes-y-listados-de-la-aplicacion"></a>
 ## Informes y listados de la aplicación
 
-En este capítulo, nos adentramos en la organización y consulta de la información dentro de sistemas ERP-CRM, un tema fundamental para el funcionamiento eficiente de estos sistemas. Comenzamos por definir los campos que son esenciales para una base de datos organizada y accesible.
-
-La consulta de acceso a datos es otro aspecto crucial que permite extraer información relevante en forma rápida y precisa. A través de interfaces de entrada de datos y procesos, se pueden realizar consultas complejas que abarcan múltiples tablas y campos, proporcionando una visión integral del estado actual de la empresa.
-
-Los informes y listados son herramientas poderosas para presentar los resultados de las consultas de manera visual y fácilmente interpretable. Se pueden crear formularios personalizados que reflejen las necesidades específicas de cada área de la empresa, desde ventas hasta recursos humanos.
-
-La gestión de pedidos es otro ejemplo práctico de cómo se organiza y consulta información en sistemas ERP-CRM. Los procesos automatizados permiten un seguimiento preciso del flujo de pedidos, desde su creación hasta su entrega final, facilitando la toma de decisiones basada en datos.
-
-Los gráficos son una forma efectiva de representar datos de manera visual, ayudando a identificar tendencias y patrones que pueden no ser evidentes en tablas simples. Herramientas de monitorización y evaluación del rendimiento permiten seguir el desempeño del sistema y realizar ajustes necesarios.
-
-La incidencia es otro aspecto importante de la consulta y organización de información. Identificar y resolver problemas rápidamente es clave para mantener el funcionamiento óptimo de los sistemas ERP-CRM, lo que implica un proceso eficiente de diagnóstico y solución.
-
-Finalmente, la integración con otros sistemas de gestión es una característica fundamental de los sistemas ERP-CRM modernos. Permite la extracción de datos en almacenes de datos centralizados, facilitando la realización de análisis complejos y la toma de decisiones estratégicas basadas en información unificada.
-
-A lo largo de este capítulo, hemos explorado cómo se organiza y consulta la información dentro de sistemas ERP-CRM, desde la definición de campos hasta la creación de informes personalizados. Cada uno de estos elementos contribuye al funcionamiento eficiente y efectivo de estos sistemas, permitiendo a las empresas tomar decisiones basadas en datos precisos y actualizados.
 
 <a id="gestion-de-pedidos"></a>
 ## Gestión de pedidos
 
-En el mundo empresarial, la gestión eficiente de los pedidos es un componente fundamental para mantener la fluidez operativa y satisfacer las necesidades del cliente. Este proceso implica una serie de etapas que van desde la recepción del pedido hasta su entrega final. En esta subunidad, exploraremos cómo organizar y gestionar estos pedidos de manera efectiva.
-
-La organización de los pedidos comienza con la definición de campos relevantes. Estos campos pueden incluir detalles como el número de pedido, fecha, cliente, productos solicitados, cantidades, precios unitarios y totales. La precisión en la definición de estos campos es crucial para facilitar la consulta y análisis de los datos.
-
-Una vez que se han definido los campos, los pedidos deben ser consultados de manera eficiente. Esto puede implicar el uso de interfaces de entrada de datos y procesos específicos diseñados para facilitar la búsqueda y recuperación de información. Las herramientas de consulta permiten filtrar y ordenar los pedidos según diversos criterios, como cliente, fecha o estado del pedido.
-
-Los formularios personalizados son otro elemento importante en la gestión de pedidos. Estos formularios pueden adaptarse a las necesidades específicas de la empresa y facilitan el ingreso y modificación de datos. Por ejemplo, un formulario para pedidos internos puede incluir campos adicionales como departamento solicitante o urgencia.
-
-Los informes y listados son herramientas valiosas para analizar los datos de los pedidos. Estos informes pueden mostrar información detallada sobre el historial de ventas, tendencias de pedido y productos más populares. La generación de gráficos basados en estos datos puede proporcionar una visión visual clara de la situación empresarial.
-
-La gestión de pedidos también implica procesos de extracción de datos. Esto puede implicar la creación de consultas SQL para obtener información específica de los sistemas de ERP-CRM y almacenes de datos. La eficiencia en esta etapa es crucial para mantener el flujo operativo sin interrupciones.
-
-La inteligencia de negocio (Business Intelligence) juega un papel importante en la gestión de pedidos. Herramientas de BI permiten analizar los datos de los pedidos y generar informes detallados que proporcionan insights valiosos sobre las tendencias y comportamientos del cliente. Esta información puede ser utilizada para mejorar los procesos de pedido y optimizar la estrategia comercial.
-
-En conclusión, la gestión de pedidos es un proceso complejo pero crucial en el mundo empresarial. La organización adecuada de los datos, la eficiencia en las consultas y la creación de formularios personalizados son fundamentales para facilitar este proceso. Los informes detallados y la inteligencia de negocio proporcionan herramientas valiosas para analizar y mejorar la gestión de pedidos, contribuyendo así a la satisfacción del cliente y el éxito empresarial.
 
 <a id="graficos"></a>
 ## Gráficos
 
-En este capítulo, nos adentramos en la organización y consulta de la información dentro de los sistemas ERP-CRM, centrándonos específicamente en el uso de gráficos para visualizar datos. Los gráficos son una herramienta poderosa que permite representar información compleja de manera clara y accesible, facilitando la toma de decisiones basada en datos.
-
-La creación de gráficos en sistemas ERP-CRM implica la selección adecuada del tipo de gráfico que mejor se adapta a los datos a visualizar. Por ejemplo, si estamos interesados en comparar cantidades o porcentajes entre diferentes categorías, un gráfico de barras o de sectores puede ser ideal. En cambio, para mostrar tendencias a lo largo del tiempo, un gráfico de líneas sería más apropiado.
-
-El proceso de creación de gráficos generalmente implica la definición de los campos que se utilizarán en el eje X y Y, así como la elección de las etiquetas y leyendas. Además, es importante considerar la escala del eje para evitar distorsiones en la interpretación de los datos.
-
-Una vez creados los gráficos, su visualización dentro del sistema ERP-CRM debe ser intuitiva y fácil de entender. Esto implica el uso de colores contrastantes, etiquetas claras y leyendas precisas. Además, es recomendable proporcionar opciones para personalizar la apariencia del gráfico, como cambiar los colores o ajustar las etiquetas.
-
-La consulta de información mediante gráficos en ERP-CRM no se limita a la visualización estática. Muchos sistemas modernos ofrecen funcionalidades interactivas que permiten explorar los datos de manera dinámica. Por ejemplo, al hacer clic en una barra de un gráfico de barras, puede aparecer una ventana emergente con detalles adicionales sobre esa categoría.
-
-Además de la visualización estática y dinámica, los sistemas ERP-CRM también ofrecen herramientas para generar informes a partir de gráficos. Esto permite exportar los datos en formato PDF o Excel, facilitando su análisis posterior en otras aplicaciones.
-
-La organización y consulta de la información mediante gráficos es una práctica fundamental en el análisis de datos empresariales. Permite identificar tendencias, patrones y anomalías que pueden no ser evidentes al examinar los datos brutos. Además, facilita la comunicación de resultados a partes interesadas, ya que los gráficos son intuitivos y accesibles para personas con diferentes niveles de conocimiento técnico.
-
-En conclusión, el uso de gráficos en sistemas ERP-CRM es una herramienta valiosa para organizar y consultar información empresarial. Al seleccionar adecuadamente el tipo de gráfico, definir los campos y etiquetas correctamente, y proporcionar opciones interactivas y de exportación, se pueden crear visualizaciones que faciliten la toma de decisiones basada en datos y mejorar la comunicación dentro del equipo.
 
 <a id="herramientas-de-monitorizacion-y-de-evaluacion-del-rendimiento"></a>
 ## Herramientas de monitorización y de evaluación del rendimiento
 
-En la subunidad "Herramientas de monitorización y evaluación del rendimiento", nos centramos en las técnicas y herramientas utilizadas para mantener un control constante sobre el funcionamiento eficiente de los sistemas ERP-CRM. La monitorización es una práctica fundamental que permite identificar problemas temprano, optimizar recursos y asegurar la continuidad operativa.
-
-Las herramientas de evaluación del rendimiento son instrumentos valiosos que nos permiten medir y analizar el desempeño de los sistemas ERP-CRM. Estas herramientas pueden variar desde simples indicadores de rendimiento (KPIs) hasta sistemas complejos de análisis avanzados. Cada una de estas herramientas juega un papel crucial en la toma de decisiones estratégicas y en la mejora continua del sistema.
-
-Una de las principales ventajas de utilizar herramientas de monitorización y evaluación es que proporcionan visibilidad en tiempo real sobre el estado del sistema, lo que facilita la identificación rápida de anomalías. Por ejemplo, si un indicador de rendimiento muestra una disminución significativa en los tiempos de respuesta, esto puede ser una señal de problemas técnicos o de carga excesiva.
-
-Además de las herramientas internas proporcionadas por los sistemas ERP-CRM, existen soluciones de terceros que pueden integrarse fácilmente. Estas soluciones ofrecen un análisis más profundo y detallado del rendimiento, permitiendo la identificación de tendencias y patrones que podrían no ser evidentes con las herramientas básicas.
-
-La evaluación del rendimiento es un proceso continuo que requiere una comprensión profunda del sistema y su entorno. Es importante no solo monitorizar los indicadores de rendimiento, sino también analizar la información recopilada para entender cómo afecta a la operación general del negocio. Esto puede implicar el desarrollo de procesos de análisis personalizados o la integración con sistemas de inteligencia artificial para automatizar y mejorar la toma de decisiones.
-
-La monitorización y evaluación del rendimiento también son cruciales para la optimización de recursos. Al identificar áreas de bajo rendimiento, se pueden implementar soluciones que mejoren la eficiencia y reduzcan los costos operativos. Esto puede incluir el ajuste de parámetros del sistema, la adquisición de nuevos hardware o incluso la reorganización de procesos de negocio.
-
-En conclusión, las herramientas de monitorización y evaluación del rendimiento son elementos esenciales en la gestión eficiente de los sistemas ERP-CRM. Al utilizar estas herramientas de manera efectiva, se puede asegurar que el sistema esté siempre optimizado para satisfacer las necesidades del negocio, lo que a su vez contribuye al crecimiento y éxito empresarial.
 
 <a id="incidencias-identificacion-y-resolucion"></a>
 ## Incidencias identificación y resolución
 
-En la subunidad "Organización y consulta de la información", nos centramos específicamente en el manejo eficiente de incidencias dentro del sistema ERP-CRM. La identificación precisa de las incidencias es crucial para mantener un funcionamiento óptimo del sistema, ya que permite una rápida respuesta a problemas y mejoras continuas.
-
-Para organizar adecuadamente las incidencias, se requiere la definición clara de campos específicos. Estos campos pueden incluir detalles como el tipo de incidencia, su estado actual (pendiente, en proceso, resuelta), fecha de creación y modificación, así como información sobre el usuario que reportó la incidencia. La organización eficiente de estos datos facilita la búsqueda y análisis futuros.
-
-La consulta de incidencias es otro aspecto fundamental de esta sección. Se deben desarrollar herramientas y interfaces que permitan a los usuarios buscar rápidamente las incidencias según diversos criterios, como el estado actual, el tipo o la fecha de creación. Estas consultas pueden ser realizadas tanto por usuarios finales como por técnicos de soporte, lo que asegura una comunicación fluida y eficiente.
-
-Además de la organización y consulta, es esencial implementar procesos claros para la identificación y resolución de incidencias. Esto implica establecer protocolos específicos para cada tipo de problema, desde fallos en el sistema hasta problemas con los datos. La identificación precisa de las causas raíz de las incidencias permite una resolución más eficiente y preventiva.
-
-La resolución de incidencias debe ser un proceso sistemático que incluya la asignación a técnicos competentes, la documentación detallada del problema y su solución, así como el seguimiento para asegurar que el problema ha sido completamente resuelto. La implementación de herramientas de seguimiento y control de calidad es crucial para mantener un alto nivel de satisfacción con los usuarios.
-
-Es importante también considerar la retroalimentación post-resolución. Los usuarios deben ser informados sobre el estado final de su incidencia y, si es necesario, proporcionado soporte adicional. Esta comunicación abierta y transparente mejora la confianza en el sistema y reduce el riesgo de problemas recurrentes.
-
-En conclusión, la organización y consulta de incidencias son pilares fundamentales para mantener un ERP-CRM funcionando eficientemente. La implementación de procesos claros y herramientas adecuadas facilita la identificación rápida de problemas y su resolución, lo que a su vez mejora la satisfacción del usuario y la eficiencia operativa de la empresa.
 
 <a id="procesos-de-extraccion-de-datos-en-sistemas-de-erp-crm-y-almacenes-de-datos"></a>
 ## Procesos de extracción de datos en sistemas de ERP-CRM y almacenes de datos
 
-En los sistemas de gestión empresariales (ERP-CRM), la organización y consulta de la información son fundamentales para el funcionamiento eficiente del negocio. Uno de los aspectos cruciales es la capacidad de extraer datos de manera precisa y eficaz, tanto desde los sistemas ERP como desde almacenes de datos externos.
-
-La extracción de datos en estos contextos implica identificar las necesidades específicas del negocio y diseñar consultas que recuperen solo la información relevante. En un sistema ERP, esto puede implicar el uso de consultas SQL para seleccionar campos específicos de tablas o vistas predefinidas. Por ejemplo, si se necesita obtener una lista de todos los clientes que han realizado compras en el último mes, se podría escribir una consulta como la siguiente:
-
-```sql
-SELECT cliente_id, nombre, apellido, fecha_ultima_compra 
-FROM clientes 
-WHERE fecha_ultima_compra >= DATE_SUB(CURDATE(), INTERVAL 1 MONTH);
-```
-
-Esta consulta selecciona los identificadores de cliente, nombres y apellidos, junto con la fecha de la última compra, para aquellos clientes que hayan realizado una compra en el último mes. La cláusula `WHERE` filtra los resultados basándose en la condición especificada.
-
-En almacenes de datos externos, como bases de datos NoSQL o sistemas de análisis big data, la extracción de datos puede implicar consultas más complejas y específicas a las características del sistema. Por ejemplo, en una base de datos documental MongoDB, se podría escribir una consulta para obtener todos los registros de clientes que han realizado compras por un monto mayor a 1000 euros:
-
-```javascript
-db.clientes.find({ "compras.monto": { $gt: 1000 } })
-```
-
-Esta consulta busca en la colección `clientes` aquellos documentos donde el campo `compras.monto` tenga un valor mayor que 1000. La sintaxis de MongoDB permite expresar consultas muy específicas y poderosas.
-
-La extracción de datos es una tarea recurrente en sistemas ERP-CRM, ya que los informes y listados generados a partir de estos datos son cruciales para la toma de decisiones estratégicas y operativas. Además, el procesamiento de estos datos puede implicar la creación de nuevas tablas o vistas personalizadas, lo que permite obtener información en formatos más útiles y accesibles.
-
-Es importante destacar que la extracción de datos debe ser segura y respetuosa con los derechos de privacidad de los clientes. Por lo tanto, es crucial implementar medidas de seguridad adecuadas, como el uso de consultas parametrizadas para prevenir inyecciones SQL, y garantizar que solo los usuarios autorizados puedan acceder a la información sensible.
-
-En resumen, la extracción de datos en sistemas ERP-CRM y almacenes de datos es una tarea compleja pero fundamental. Requiere un conocimiento profundo del sistema y habilidades en consultas específicas para recuperar la información necesaria. Además, es crucial considerar aspectos como la seguridad y el rendimiento para asegurar que los procesos de extracción sean eficientes y confiables.
 
 <a id="inteligencia-de-negocio-business-intelligence"></a>
 ## Inteligencia de negocio (Business Intelligence)
 
-La inteligencia de negocio (Business Intelligence, BI) es una disciplina que se ocupa del análisis, la recopilación, el procesamiento y la presentación de datos empresariales con el fin de mejorar las decisiones estratégicas. En este contexto, los sistemas ERP-CRM son fundamentales para la gestión de información empresarial, proporcionando un conjunto completo de herramientas para organizar y consultar datos relevantes.
-
-La organización de la información en sistemas ERP-CRM implica la definición de campos que reflejen las necesidades específicas de la empresa. Estos campos pueden variar desde los datos financieros hasta la información sobre clientes y proveedores, pasando por el seguimiento de proyectos y tareas. La importancia de esta organización radica en su capacidad para facilitar la consulta y análisis de los datos.
-
-Las consultas de acceso a datos son una parte esencial del BI. Estas permiten extraer información específica basada en criterios definidos, como fechas, ubicaciones o tipos de productos. Los sistemas ERP-CRM ofrecen herramientas avanzadas para crear consultas complejas que pueden incluir múltiples tablas y condiciones, proporcionando una visión detallada del estado actual de la empresa.
-
-Las interfaces de entrada de datos y de procesos son componentes cruciales en el flujo de trabajo empresarial. Estas interfaces permiten a los usuarios interactuar con el sistema, ingresando o modificando información según sea necesario. La eficiencia de estas interfaces puede influir significativamente en la productividad del personal.
-
-Los informes y listados son una forma visual de presentar la información recopilada. Son herramientas poderosas para comunicar tendencias, patrones y insights clave a los stakeholders de la empresa. Los sistemas ERP-CRM ofrecen diversas opciones para crear informes personalizados que pueden adaptarse a las necesidades específicas de cada usuario.
-
-El gestión de pedidos es otro aspecto importante del BI en sistemas ERP-CRM. Permite rastrear el flujo de pedidos desde su creación hasta su entrega, proporcionando información detallada sobre la satisfacción del cliente y los tiempos de respuesta. Esta información puede ser utilizada para mejorar procesos y optimizar recursos.
-
-Los gráficos son una forma efectiva de representar datos complejos de manera visual. En el BI, los gráficos pueden mostrar tendencias a lo largo del tiempo, comparaciones entre diferentes períodos o segmentos de la empresa. La capacidad de crear gráficos interactivos puede facilitar la exploración y análisis de los datos.
-
-Las herramientas de monitorización y evaluación del rendimiento son fundamentales para el BI en sistemas ERP-CRM. Permiten a las empresas rastrear y analizar su desempeño en diferentes áreas, como ventas, producción o servicio al cliente. Esta información puede ser utilizada para identificar oportunidades de mejora y tomar decisiones estratégicas.
-
-Las incidencias identificación y resolución son otro aspecto del BI en sistemas ERP-CRM. Permite rastrear problemas que surgen durante el proceso de negocio y analizar sus causas. La capacidad de generar informes sobre las incidencias puede ayudar a prevenir su repetición y mejorar la eficiencia operativa.
-
-La extracción de datos en sistemas ERP-CRM y almacenes de datos es un paso crucial para el BI. Permite combinar información de diferentes fuentes, creando una visión integral del estado empresarial. La capacidad de realizar consultas complejas sobre estos almacenes de datos puede facilitar la identificación de tendencias y patrones que pueden no ser evidentes en los sistemas individuales.
-
-La inteligencia de negocio (BI) en sistemas ERP-CRM es un proceso continuo que implica la organización, consulta, presentación y análisis de datos empresariales. A través de estas herramientas, las empresas pueden tomar decisiones informadas basadas en información precisa y relevante, lo que les permite mejorar su eficiencia operativa y competitividad en el mercado.
 
 
 <a id="implantacion-de-sistemas-erp-crm-en-una-empresa"></a>
@@ -16407,188 +18696,332 @@ La inteligencia de negocio (BI) en sistemas ERP-CRM es un proceso continuo que i
 <a id="tipos-de-empresa-necesidades-de-la-empresa"></a>
 ## Tipos de empresa. Necesidades de la empresa
 
-En la implantación de sistemas ERP-CRM en una empresa, es crucial entender primero el tipo de organización que se está abordando. Cada tipo de empresa tiene necesidades específicas que un sistema ERP-CRM debe satisfacer para optimizar su operación eficiente. Por ejemplo, las empresas manufatureras pueden requerir sistemas que gestionen la producción y la cadena de suministro de manera integral, mientras que las empresas de servicios financieros necesitarán herramientas avanzadas para el seguimiento de clientes y transacciones financieras.
+### preparacion sql
+<small>Creado: 2025-12-09 18:53</small>
 
-La selección del tipo de sistema ERP-CRM debe basarse en factores como el tamaño de la empresa, su industria, los procesos existentes y los objetivos estratégicos a alcanzar. Por ejemplo, una pequeña empresa puede optar por un sistema ERP-CRM que sea más simple y económico, mientras que una corporación global necesitará un sistema robusto y escalable capaz de manejar grandes volúmenes de datos y procesos complejos.
+`001-preparacion sql.sql`
 
-Además de la naturaleza organizacional, las necesidades específicas de cada empresa también juegan un papel crucial en la elección del sistema ERP-CRM. Por ejemplo, si una empresa se centra en el servicio al cliente, puede priorizar características como la gestión avanzada de pedidos y facturas, así como herramientas para el seguimiento del servicio postventa. En cambio, si la empresa opera en un sector con alto nivel de competitividad, podría necesitar sistemas que ofrezcan análisis predictivos y decisiones basadas en datos.
+```sql
+-- Crear la base de datos
+CREATE DATABASE IF NOT EXISTS empresaia;
+USE empresaia;
 
-La implantación de un sistema ERP-CRM no es solo una cuestión técnica; también implica cambios organizacionales significativos. Es necesario involucrar a todos los stakeholders, desde el departamento de TI hasta las áreas operativas y financieras, para asegurar que la implementación sea exitosa. Esto incluye la formación del personal en el uso del nuevo sistema, la planificación de la transición gradual hacia el nuevo entorno tecnológico y la definición de procesos de trabajo optimizados.
+-- Crear la tabla de clientes
+CREATE TABLE IF NOT EXISTS clientes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(50) NOT NULL,
+    apellidos VARCHAR(100) NOT NULL,
+    email VARCHAR(100) UNIQUE NOT NULL,
+    telefono VARCHAR(20),
+    ciudad VARCHAR(50) NOT NULL,
+    pais VARCHAR(50) DEFAULT 'España',
+    fecha_registro DATE NOT NULL,
+    estado_civil ENUM('Soltero', 'Soltera', 'Casado', 'Casada', 'Divorciado', 'Divorciada', 'Viudo', 'Viuda') DEFAULT 'Soltero',
+    edad INT,
+    INDEX idx_ciudad (ciudad)
+);
 
-Además, es fundamental considerar las capacidades existentes de la empresa al momento de implantar un sistema ERP-CRM. Si la empresa ya cuenta con sistemas legacy o herramientas específicas para ciertos procesos, puede ser necesario integrar estos sistemas con el nuevo ERP-CRM para evitar una migración total y minimizar el impacto en los operaciones diarias.
+-- Insertar clientes
+INSERT INTO clientes (nombre, apellidos, email, telefono, ciudad, pais, fecha_registro, estado_civil, edad) VALUES
+('Carlos', 'García Martínez', 'carlos.garcia@email.com', '612345678', 'Madrid', 'España', '2023-01-15', 'Casado', 35),
+('María', 'López Fernández', 'maria.lopez@email.com', '623456789', 'Barcelona', 'España', '2023-02-20', 'Soltera', 28),
+('Juan', 'Rodríguez Sánchez', 'juan.rodriguez@email.com', '634567890', 'Valencia', 'España', '2023-03-10', 'Casado', 42),
+('Ana', 'Martínez González', 'ana.martinez@email.com', '645678901', 'Madrid', 'España', '2023-04-05', 'Divorciada', 38),
+('Pedro', 'Sánchez Pérez', 'pedro.sanchez@email.com', '656789012', 'Sevilla', 'España', '2023-05-12', 'Soltero', 31),
+('Laura', 'Fernández Ruiz', 'laura.fernandez@email.com', '667890123', 'Barcelona', 'España', '2023-06-18', 'Casada', 29),
+('Miguel', 'González Díaz', 'miguel.gonzalez@email.com', '678901234', 'Madrid', 'España', '2023-07-22', 'Soltero', 26),
+('Carmen', 'Díaz Moreno', 'carmen.diaz@email.com', '689012345', 'Bilbao', 'España', '2023-08-30', 'Casada', 45),
+('José', 'Moreno Muñoz', 'jose.moreno@email.com', '690123456', 'Valencia', 'España', '2023-09-14', 'Divorciado', 50),
+('Isabel', 'Muñoz Álvarez', 'isabel.munoz@email.com', '601234567', 'Madrid', 'España', '2023-10-08', 'Viuda', 62),
+('Francisco', 'Álvarez Romero', 'francisco.alvarez@email.com', '612345679', 'Zaragoza', 'España', '2023-11-19', 'Casado', 40),
+('Lucía', 'Romero Torres', 'lucia.romero@email.com', '623456780', 'Barcelona', 'España', '2023-12-03', 'Soltera', 24),
+('Antonio', 'Torres Ramírez', 'antonio.torres@email.com', '634567891', 'Málaga', 'España', '2024-01-11', 'Casado', 36),
+('Marta', 'Ramírez Jiménez', 'marta.ramirez@email.com', '645678902', 'Madrid', 'España', '2024-02-16', 'Soltera', 27),
+('David', 'Jiménez Navarro', 'david.jimenez@email.com', '656789013', 'Sevilla', 'España', '2024-03-20', 'Divorciado', 44),
+('Sara', 'Navarro Herrera', 'sara.navarro@email.com', '667890124', 'Valencia', 'España', '2024-04-25', 'Casada', 33),
+('Javier', 'Herrera Castro', 'javier.herrera@email.com', '678901235', 'Barcelona', 'España', '2024-05-30', 'Soltero', 30),
+('Elena', 'Castro Ortiz', 'elena.castro@email.com', '689012346', 'Madrid', 'España', '2024-06-12', 'Casada', 39),
+('Raúl', 'Ortiz Rubio', 'raul.ortiz@email.com', '690123457', 'Bilbao', 'España', '2024-07-18', 'Soltero', 25),
+('Patricia', 'Rubio Molina', 'patricia.rubio@email.com', '601234568', 'Zaragoza', 'España', '2024-08-22', 'Casada', 41),
+('Alberto', 'Molina Serrano', 'alberto.molina@email.com', '612345680', 'Madrid', 'España', '2024-09-05', 'Divorciado', 48),
+('Cristina', 'Serrano Blanco', 'cristina.serrano@email.com', '623456781', 'Valencia', 'España', '2024-10-14', 'Soltera', 23),
+('Roberto', 'Blanco Vega', 'roberto.blanco@email.com', '634567892', 'Barcelona', 'España', '2024-11-28', 'Casado', 37),
+('Beatriz', 'Vega Mendoza', 'beatriz.vega@email.com', '645678903', 'Sevilla', 'España', '2024-12-02', 'Soltera', 32),
+('Fernando', 'Mendoza Cruz', 'fernando.mendoza@email.com', '656789014', 'Madrid', 'España', '2025-01-09', 'Casado', 43),
+('Silvia', 'Cruz Reyes', 'silvia.cruz@email.com', '667890125', 'Málaga', 'España', '2023-01-22', 'Divorciada', 46),
+('Manuel', 'Reyes Santos', 'manuel.reyes@email.com', '678901236', 'Valencia', 'España', '2023-02-28', 'Soltero', 29),
+('Teresa', 'Santos Iglesias', 'teresa.santos@email.com', '689012347', 'Barcelona', 'España', '2023-03-15', 'Casada', 34),
+('Ángel', 'Iglesias Gil', 'angel.iglesias@email.com', '690123458', 'Madrid', 'España', '2023-04-19', 'Soltero', 28),
+('Rosa', 'Gil Delgado', 'rosa.gil@email.com', '601234569', 'Bilbao', 'España', '2023-05-24', 'Casada', 51),
+('Sergio', 'Delgado Vargas', 'sergio.delgado@email.com', '612345681', 'Zaragoza', 'España', '2023-06-30', 'Divorciado', 47),
+('Pilar', 'Vargas Cortés', 'pilar.vargas@email.com', '623456782', 'Madrid', 'España', '2023-07-11', 'Soltera', 26),
+('Jorge', 'Cortés Aguilar', 'jorge.cortes@email.com', '634567893', 'Sevilla', 'España', '2023-08-17', 'Casado', 38),
+('Alicia', 'Aguilar Medina', 'alicia.aguilar@email.com', '645678904', 'Valencia', 'España', '2023-09-21', 'Soltera', 22),
+('Daniel', 'Medina León', 'daniel.medina@email.com', '656789015', 'Barcelona', 'España', '2023-10-26', 'Casado', 35),
+('Natalia', 'León Marín', 'natalia.leon@email.com', '667890126', 'Madrid', 'España', '2023-11-30', 'Divorciada', 40),
+('Adrián', 'Marín Suárez', 'adrian.marin@email.com', '678901237', 'Málaga', 'España', '2023-12-15', 'Soltero', 31),
+('Verónica', 'Suárez Ramos', 'veronica.suarez@email.com', '689012348', 'Sevilla', 'España', '2024-01-20', 'Casada', 36),
+('Pablo', 'Ramos Carrasco', 'pablo.ramos@email.com', '690123459', 'Valencia', 'España', '2024-02-25', 'Soltero', 27),
+('Nuria', 'Carrasco Domínguez', 'nuria.carrasco@email.com', '601234570', 'Barcelona', 'España', '2024-03-30', 'Casada', 33),
+('Raquel', 'Domínguez Vázquez', 'raquel.dominguez@email.com', '612345682', 'Madrid', 'España', '2024-04-12', 'Soltera', 25),
+('Iván', 'Vázquez Pascual', 'ivan.vazquez@email.com', '623456783', 'Bilbao', 'España', '2024-05-18', 'Divorciado', 49),
+('Mónica', 'Pascual Guerrero', 'monica.pascual@email.com', '634567894', 'Zaragoza', 'España', '2024-06-23', 'Casada', 42),
+('Rubén', 'Guerrero Calvo', 'ruben.guerrero@email.com', '645678905', 'Madrid', 'España', '2024-07-28', 'Soltero', 30),
+('Sandra', 'Calvo Peña', 'sandra.calvo@email.com', '656789016', 'Valencia', 'España', '2024-08-31', 'Casada', 37),
+('Óscar', 'Peña Santana', 'oscar.pena@email.com', '667890127', 'Barcelona', 'España', '2024-09-15', 'Soltero', 24),
+('Andrea', 'Santana Hidalgo', 'andrea.santana@email.com', '678901238', 'Sevilla', 'España', '2024-10-20', 'Casada', 34),
+('Víctor', 'Hidalgo Prieto', 'victor.hidalgo@email.com', '689012349', 'Madrid', 'España', '2024-11-25', 'Divorciado', 45),
+('Diana', 'Prieto Montero', 'diana.prieto@email.com', '690123460', 'Málaga', 'España', '2024-12-10', 'Soltera', 29),
+('Marcos', 'Montero Cano', 'marcos.montero@email.com', '601234571', 'Valencia', 'España', '2025-01-15', 'Casado', 39);
 
-La selección y configuración adecuados de un sistema ERP-CRM pueden llevar a mejoras significativas en la eficiencia operativa, la toma de decisiones basada en datos y la satisfacción del cliente. Sin embargo, es importante recordar que el éxito de una implantación no depende solo del sistema elegido, sino también del enfoque integral que se adopte, incluyendo la formación del personal, la planificación cuidadosa y la adaptación a las necesidades específicas de la empresa.
+-- Consultas de ejemplo para agrupación
+-- SELECT ciudad, COUNT(*) as total_clientes FROM clientes GROUP BY ciudad ORDER BY total_clientes DESC;
+-- SELECT ciudad, AVG(edad) as edad_promedio FROM clientes GROUP BY ciudad;
+-- SELECT estado_civil, COUNT(*) as total FROM clientes GROUP BY estado_civil;
+```
 
-La selección del tipo de empresa y sus necesidades es un paso fundamental en el proceso de implantación de sistemas ERP-CRM. Al entender estas necesidades y adaptar el sistema al contexto organizacional, se puede maximizar la eficiencia operativa y alcanzar los objetivos estratégicos de la empresa.
+### app
+<small>Creado: 2025-12-09 19:13</small>
+
+`app.py`
+
+```python
+from flask import Flask, render_template, request
+import mysql.connector
+import requests
+
+# -------------------------
+# CONFIGURACIÓN
+# -------------------------
+
+DB_CONFIG = {
+    "host": "localhost",
+    "user": "empresaia",
+    "password": "empresaia",
+    "database": "empresaia",
+}
+
+OLLAMA_URL = "http://localhost:11434/api/chat"
+OLLAMA_MODEL = "llama3"  # cambia al modelo que uses
+
+TABLE_SCHEMA = r"""
+You have access to a MySQL database called empresaia with this table:
+
+CREATE TABLE clientes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(50) NOT NULL,
+    apellidos VARCHAR(100) NOT NULL,
+    email VARCHAR(100) UNIQUE NOT NULL,
+    telefono VARCHAR(20),
+    ciudad VARCHAR(50) NOT NULL,
+    pais VARCHAR(50) DEFAULT 'España',
+    fecha_registro DATE NOT NULL,
+    estado_civil ENUM('Soltero', 'Soltera', 'Casado', 'Casada', 'Divorciado', 'Divorciada', 'Viudo', 'Viuda') DEFAULT 'Soltero',
+    edad INT,
+    INDEX idx_ciudad (ciudad)
+);
+
+Only generate SQL queries that are valid for this schema.
+"""
+
+SYSTEM_PROMPT = f"""
+You are an assistant that converts NATURAL LANGUAGE QUESTIONS into SAFE MySQL SELECT queries.
+
+Rules:
+- ONLY return a single MySQL query, nothing else.
+- Do NOT include explanations.
+- Do NOT use backticks.
+- You MUST only use the table 'clientes' described here.
+- You MUST NOT modify data: NO INSERT, UPDATE, DELETE, DROP, ALTER, CREATE.
+- Use only SELECT queries, possibly with WHERE, ORDER BY, LIMIT, etc.
+- Use LIMIT 50 by default if the user does not specify a limit.
+- Dates are stored in fecha_registro (DATE).
+- Use Spanish values for estado_civil: 'Soltero', 'Soltera', 'Casado', 'Casada', 'Divorciado', 'Divorciada', 'Viudo', 'Viuda'.
+
+Table schema:
+{TABLE_SCHEMA}
+"""
+
+app = Flask(__name__)
+
+
+# -------------------------
+# HELPERS
+# -------------------------
+
+def call_ollama_to_sql(user_query: str) -> str:
+    payload = {
+        "model": OLLAMA_MODEL,
+        "messages": [
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "user", "content": user_query},
+        ],
+        "stream": False,
+    }
+
+    resp = requests.post(OLLAMA_URL, json=payload, timeout=60)
+    resp.raise_for_status()
+    data = resp.json()
+    content = data.get("message", {}).get("content", "").strip()
+
+    content = content.replace("```sql", "").replace("```", "").strip()
+    if ";" in content:
+        content = content.split(";")[0] + ";"
+
+    return content
+
+
+def is_query_safe(sql: str) -> bool:
+    sql_lower = sql.strip().lower()
+    if not sql_lower.startswith("select"):
+        return False
+
+    forbidden = ["insert", "update", "delete", "drop", "alter", "truncate"]
+    if any(word in sql_lower for word in forbidden):
+        return False
+
+    if "clientes" not in sql_lower:
+        return False
+
+    return True
+
+
+def execute_sql(sql: str):
+    conn = mysql.connector.connect(**DB_CONFIG)
+    try:
+        cursor = conn.cursor(dictionary=True)
+        cursor.execute(sql)
+        rows = cursor.fetchall()
+        columns = [desc[0] for desc in cursor.description] if cursor.description else []
+        return columns, rows
+    finally:
+        conn.close()
+
+
+def build_results_summary(sql_query, results, error):
+    """
+    Construye un resumen corto en castellano para que el navegador lo lea en voz alta.
+    """
+    if error:
+        # mensaje corto, neutro
+        return "Ha ocurrido un error al ejecutar la consulta."
+
+    if sql_query and not results:
+        return "La consulta no devolvió ningún resultado."
+
+    if not results:
+        return None
+
+    count = len(results)
+    parts = []
+
+    # Parte 1: recuento
+    if count == 1:
+        parts.append("Se ha encontrado un cliente.")
+    else:
+        parts.append(f"Se han encontrado {count} clientes.")
+
+    # Parte 2: ejemplos
+    ejemplos = []
+    for row in results[:3]:
+        nombre = (row.get("nombre") or "").strip()
+        apellidos = (row.get("apellidos") or "").strip()
+        ciudad = row.get("ciudad")
+        pieza = ""
+
+        if nombre or apellidos:
+            pieza = f"{nombre} {apellidos}".strip()
+        else:
+            pieza = f"identificador {row.get('id', '')}"
+
+        if ciudad:
+            pieza += f" de {ciudad}"
+
+        ejemplos.append(pieza)
+
+    if ejemplos:
+        if len(ejemplos) == 1:
+            parts.append(f"Por ejemplo: {ejemplos[0]}.")
+        else:
+            lista = "; ".join(ejemplos)
+            parts.append(f"Por ejemplo: {lista}.")
+
+    return " ".join(parts)
+
+
+# -------------------------
+# ROUTES
+# -------------------------
+
+@app.route("/", methods=["GET", "POST"])
+def index():
+    sql_query = None
+    results = None
+    columns = []
+    error = None
+    results_summary = None
+
+    if request.method == "POST":
+        user_query = request.form.get("user_query", "").strip()
+        if not user_query:
+            error = "Por favor, escribe una pregunta."
+        else:
+            try:
+                sql_query = call_ollama_to_sql(user_query)
+
+                if not is_query_safe(sql_query):
+                    error = "La consulta generada no es segura o no es un SELECT sobre 'clientes'."
+                else:
+                    columns, results = execute_sql(sql_query)
+            except Exception as e:
+                error = f"Error: {e}"
+
+    # Resumen para síntesis de voz
+    results_summary = build_results_summary(sql_query, results, error)
+
+    # No devolvemos el texto del usuario => textarea vacío tras cada consulta
+    return render_template(
+        "index.html",
+        sql_query=sql_query,
+        results=results,
+        columns=columns,
+        error=error,
+        results_summary=results_summary,
+    )
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
+```
+
 
 <a id="seleccion-de-los-modulos-del-sistema-erp-crm"></a>
 ## Selección de los módulos del sistema ERP-CRM
 
-La selección de los módulos del sistema ERP-CRM es un paso crucial en el proceso de implantación, ya que determinará la funcionalidad completa y adaptabilidad del software a las necesidades específicas de la empresa. En primer lugar, es fundamental identificar qué aspectos operativos y administrativos son cruciales para la organización. Esto puede incluir gestión financiera, recursos humanos, ventas, compras, inventario, entre otros.
-
-Una vez identificados los sectores clave, se debe investigar en profundidad las capacidades de cada módulo del ERP-CRM que pueda cubrir estas áreas. Es importante examinar cómo cada módulo interactúa con los demás y cómo facilita la integración con sistemas existentes. Además, es relevante evaluar la facilidad de uso y personalización de los módulos para asegurar una adopción óptima por parte del personal.
-
-Además de las funcionalidades técnicas, también se deben considerar factores como el soporte técnico disponible, la actualización regular del software y la compatibilidad con otros sistemas internos. Es crucial que el proveedor ofrezca un servicio sólido de asistencia y que los módulos estén diseñados para futuras necesidades de crecimiento empresarial.
-
-Una vez seleccionados los módulos, es necesario realizar una planificación detallada del proceso de implementación. Esto incluye la definición de objetivos claros, el establecimiento de un cronograma y la asignación de recursos humanos adecuados. Es importante también preparar un plan de contingencia para abordar cualquier problema que pueda surgir durante el proceso.
-
-Durante la fase de configuración, es esencial ajustar los módulos según las necesidades específicas de la empresa. Esto puede implicar la creación de formularios personalizados, la definición de procesos de trabajo y la configuración de parámetros de seguridad. Es crucial que esta etapa sea meticulosa para evitar problemas futuros.
-
-Una vez completada la configuración inicial, es necesario realizar pruebas exhaustivas del sistema. Esto debe incluir pruebas funcionales para asegurar que todos los módulos trabajan correctamente juntos y pruebas de rendimiento para evaluar su capacidad para manejar el volumen de datos esperado. Es importante documentar todos los hallazgos durante este proceso para facilitar la corrección de problemas y la optimización del sistema.
-
-Finalmente, es crucial realizar una formación adecuada para el personal que utilizará el ERP-CRM. Esto debe incluir no solo la enseñanza de cómo usar las funcionalidades básicas, sino también estrategias para maximizar su eficiencia y adaptarse a nuevas características en el futuro. Una buena formación puede ser la diferencia entre un sistema implementado con éxito y uno que resulte en frustración y deserción del personal.
-
-La selección de los módulos del ERP-CRM es, por lo tanto, un proceso integral que requiere una combinación de conocimiento técnico, análisis de necesidades y planificación estratégica. Al seguir estos pasos y considerar cuidadosamente todas las implicaciones, se puede asegurar una implantación exitosa que mejore significativamente la eficiencia operativa y la toma de decisiones empresariales.
 
 <a id="tablas-y-vistas-que-es-preciso-adaptar"></a>
 ## Tablas y vistas que es preciso adaptar
 
-En la etapa de implantación de sistemas ERP-CRM en una empresa, es crucial adaptar las tablas y vistas existentes para integrarlos eficazmente con el nuevo sistema. Esta adaptación no solo asegura que los datos existentes no se pierdan, sino que también facilita la transición a un flujo de trabajo más optimizado.
-
-La primera consideración al adaptar tablas es evaluar su estructura actual. Es importante identificar qué campos son relevantes para el ERP-CRM y cómo pueden ser integrados en las nuevas entidades del sistema. Por ejemplo, si el ERP-CRM requiere información sobre los clientes, se deben revisar las tablas de clientes actuales y determinar cuáles campos son necesarios para la gestión completa de estos registros.
-
-Además de adaptar las tablas, también es necesario crear o modificar vistas que faciliten el acceso a la información. Las vistas permiten presentar los datos de manera más amigable y estructurada, ocultando detalles innecesarios y agrupando información relevante en una sola vista. Por ejemplo, si se desea un informe sobre las ventas por cliente, se puede crear una vista que combine información de la tabla de clientes con la tabla de ventas.
-
-La adaptación de tablas y vistas no es solo una tarea técnica; también implica trabajar estrechamente con los departamentos de negocio para entender sus necesidades específicas. Es importante mantener un diálogo abierto con estos equipos para asegurar que las adaptaciones realizadas sean útiles y efectivas en el contexto operativo de la empresa.
-
-Además, es crucial realizar pruebas exhaustivas antes de implementar cualquier cambio en las tablas y vistas. Esto incluye pruebas unitarias para verificar que los cambios no afecten la integridad de los datos existentes y pruebas funcionales para asegurar que el nuevo sistema funcione como se espera. Las pruebas deben abordar todos los aspectos del flujo de trabajo, desde la entrada de datos hasta la generación de informes.
-
-Una vez completadas las pruebas, es momento de realizar la migración de los datos existentes a las nuevas tablas y vistas del ERP-CRM. Esta migración debe ser realizada con cuidado para evitar pérdidas de información o inconsistencias en los datos. Es posible que sea necesario desarrollar scripts personalizados para realizar esta tarea.
-
-Después de la migración, es importante revisar el rendimiento del sistema y hacer ajustes si es necesario. Esto puede implicar optimizar consultas, mejorar la eficiencia de las operaciones de inserción y actualización o incluso reorganizar tablas para mejorar el acceso a los datos.
-
-La adaptación de tablas y vistas es un proceso iterativo que requiere paciencia y atención al detalle. Es importante mantener una comunicación clara con todos los stakeholders involucrados en la implantación del ERP-CRM, desde los departamentos de negocio hasta los equipos de TI. La colaboración y el compromiso son fundamentales para asegurar un éxito en esta etapa crítica del proyecto.
-
-En conclusión, adaptar las tablas y vistas es una tarea fundamental en la implantación de sistemas ERP-CRM. Requiere una comprensión profunda de la estructura actual de los datos, habilidades técnicas sólidas y una colaboración estrecha con los departamentos de negocio. A través de un proceso cuidadoso y exhaustivo, es posible integrar el nuevo sistema de manera efectiva, asegurando que todos los aspectos del flujo de trabajo empresarial sean optimizados y facilitados por la tecnología moderna.
 
 <a id="consultas-necesarias-para-obtener-informacion"></a>
 ## Consultas necesarias para obtener información
 
-En la fase de implantación de sistemas ERP-CRM en una empresa, es crucial identificar las consultas necesarias para obtener información relevante y eficiente. Estas consultas son el puente entre los datos almacenados en el sistema y la toma de decisiones estratégicas dentro del negocio.
-
-Comenzamos por definir los campos que serán relevantes para nuestras consultas. Esto puede incluir detalles como clientes, productos, ventas, inventario y proveedores. Cada campo debe estar bien documentado y tener un propósito claro en el contexto empresarial.
-
-A continuación, se procede a la creación de consultas SQL específicas para cada tipo de información necesaria. Por ejemplo, si estamos interesados en los clientes que han realizado compras en el último mes, la consulta podría ser algo así:
-
-```sql
-SELECT cliente_id, nombre, apellido, total_compras 
-FROM ventas 
-WHERE fecha >= DATE_SUB(CURDATE(), INTERVAL 1 MONTH);
-```
-
-Esta consulta nos proporcionará una lista de clientes con sus respectivos nombres y totales de compras en el último mes. Es importante que estas consultas sean optimizadas para minimizar el tiempo de respuesta, lo cual puede implicar la creación de índices apropiados sobre los campos utilizados en las cláusulas WHERE.
-
-Además de las consultas simples, también es necesario considerar consultas más complejas que involucren múltiples tablas. Por ejemplo, si queremos obtener información detallada sobre el inventario de productos junto con sus ventas y proveedores, podríamos utilizar una consulta JOIN:
-
-```sql
-SELECT p.producto_id, p.nombre, i.cantidad, v.total_ventas, pr.nombre_proveedor 
-FROM productos p 
-JOIN inventario i ON p.producto_id = i.producto_id 
-JOIN ventas v ON p.producto_id = v.producto_id 
-JOIN proveedores pr ON p.proveedor_id = pr.proveedor_id;
-```
-
-Esta consulta nos proporcionará una visión integral del estado actual del inventario, incluyendo información sobre las ventas y los proveedores asociados a cada producto.
-
-Es importante también considerar la seguridad de las consultas. Asegurarse de que solo los usuarios autorizados puedan ejecutar ciertas consultas puede ser crucial para mantener la integridad de los datos. Esto puede implicar el uso de roles y privilegios específicos dentro del sistema ERP-CRM.
-
-Además, es recomendable realizar pruebas exhaustivas sobre las consultas antes de su implementación en producción. Esto puede incluir pruebas unitarias individuales de cada consulta así como pruebas de integración para asegurarse de que todas las partes funcionan juntas sin conflictos.
-
-La documentación de estas consultas también es fundamental. Debe incluir información sobre el propósito de la consulta, los campos utilizados y cualquier criterio de filtro aplicado. Esto facilitará el mantenimiento futuro del sistema y permitirá a otros miembros del equipo entender rápidamente qué hace cada consulta.
-
-Finalmente, es importante monitorear el rendimiento de las consultas en producción. Si se encuentran problemas de rendimiento, puede ser necesario optimizarlas o incluso reescribirlas para mejorar su eficiencia.
-
-En resumen, la identificación y creación de consultas necesarias para obtener información relevante es un paso crucial en la implantación de sistemas ERP-CRM. Al definir campos relevantes, crear consultas SQL específicas, considerar consultas complejas, asegurar la seguridad, probar exhaustivamente, documentar adecuadamente y monitorear el rendimiento, se puede garantizar que el sistema funcione eficientemente y proporciona información valiosa para la toma de decisiones empresariales.
 
 <a id="creacion-de-formularios-personalizados"></a>
 ## Creación de formularios personalizados
 
-La implantación de sistemas ERP-CRM en una empresa requiere un enfoque cuidadoso para asegurar que los formularios personalizados sean útiles, eficientes y alineados con las necesidades específicas del negocio. En esta subunidad, exploraremos el proceso detallado de creación de formularios personalizados dentro de un sistema ERP-CRM.
-
-El primer paso es entender la estructura general del sistema ERP-CRM que se utilizará. Esto implica conocer los módulos disponibles y cómo interactúan entre sí. Los formularios son una parte integral de esta arquitectura, ya que permiten a los usuarios ingresar y gestionar datos de manera intuitiva.
-
-Para crear formularios personalizados, es necesario identificar las áreas específicas del negocio donde se necesitan cambios o mejoras en la interfaz de usuario. Esto puede implicar la creación de nuevos formularios para procesos adicionales o la modificación de los existentes para mejorar su funcionalidad.
-
-El proceso de creación de formularios personalizados comienza con el diseño visual. Se debe definir la disposición de los campos, las etiquetas y cualquier otro elemento gráfico que sea necesario para facilitar la entrada de datos. Es importante mantener un enfoque en la simplicidad y la claridad, evitando sobrecargar el formulario con demasiada información.
-
-Una vez diseñado el layout visual, se pasa al desarrollo del formulario. Esto implica escribir código o utilizar herramientas gráficas para definir las propiedades de los campos, como su tipo de dato, restricciones y comportamientos específicos. Es crucial que estos detalles estén bien definidos para asegurar la integridad de los datos.
-
-Durante el desarrollo, es importante probar el formulario en diferentes escenarios para identificar problemas o áreas de mejora. Esto puede implicar pruebas manuales o automatizadas para verificar que el formulario funcione correctamente y que no interfiera con otros procesos del sistema.
-
-Una vez que el formulario ha sido probado y aprobado, se debe implementarlo en el entorno de producción. Es importante tener un plan detallado para la migración de los datos existentes y la configuración inicial del nuevo formulario. Esto puede implicar la creación de scripts o procedimientos específicos para facilitar el proceso.
-
-La implantación final del formulario personalizado implica la formación de los usuarios finales sobre su uso. Es importante proporcionar documentación detallada y realizar sesiones de capacitación para asegurar que todos entiendan cómo utilizar el nuevo formulario eficazmente.
-
-Durante todo el proceso, es crucial mantener un enfoque en la seguridad y la privacidad de los datos. Se debe implementar cualquier medida necesaria para proteger la información sensible y garantizar que solo los usuarios autorizados puedan acceder a ella.
-
-La creación de formularios personalizados no es una tarea sencilla, pero con un enfoque cuidadoso y un buen conocimiento del sistema ERP-CRM, puede ser una herramienta poderosa para mejorar la eficiencia operativa y la satisfacción del cliente. Al seguir los pasos descritos en esta subunidad, se puede asegurar que el proceso de creación de formularios personalizados sea exitoso y alineado con las necesidades específicas del negocio.
 
 <a id="creacion-de-informes-personalizados"></a>
 ## Creación de informes personalizados
 
-La implantación de sistemas ERP-CRM en una empresa implica no solo la instalación inicial del software, sino también el desarrollo de componentes personalizados para satisfacer las necesidades específicas del negocio. En esta subunidad, nos centramos en la creación de informes personalizados, un aspecto crucial para obtener información valiosa y tomar decisiones estratégicas.
-
-La creación de informes personalizados comienza con la definición de los campos que se desean incluir en el informe. Esto implica entender las necesidades del usuario final y seleccionar los datos relevantes para su análisis. A continuación, se crea una estructura básica del informe, utilizando herramientas gráficas o interfaces de desarrollo proporcionadas por el sistema ERP-CRM.
-
-Una vez definida la estructura, se procede a la codificación de las consultas necesarias para obtener los datos requeridos. Esto puede implicar la creación de nuevas consultas SQL o el uso de funciones específicas del sistema ERP-CRM, dependiendo de su funcionalidad y la complejidad de los datos a recuperar.
-
-El siguiente paso es diseñar la interfaz de entrada de datos y procesos que permitirá al usuario interactuar con el informe. Esto puede incluir formularios para ingresar parámetros o filtros específicos, así como interfaces gráficas para visualizar los resultados en forma tabular o gráfica.
-
-Una vez completados estos pasos, se procede a la creación de informes personalizados. Estos informes pueden ser generados automáticamente cuando se cumplen ciertas condiciones o pueden ser ejecutados manualmente por el usuario. Es importante que los informes sean fáciles de entender y visualizar, lo que puede implicar el uso de gráficos y tablas para representar la información de manera efectiva.
-
-Además, es crucial implementar procesos de mantenimiento y actualización del sistema de informes personalizados. Esto incluye la revisión periódica de los informes para asegurar su relevancia y precisión, así como la adaptación a cambios en las necesidades del negocio o en el formato de los datos.
-
-La creación de informes personalizados también implica considerar aspectos de seguridad y privacidad. Es importante que solo los usuarios autorizados puedan acceder a ciertos informes y que se implementen medidas para proteger la información sensible almacenada en estos informes.
-
-Finalmente, es necesario documentar todos los procesos relacionados con la creación de informes personalizados. Esto incluye la explicación de cómo funciona el sistema, las instrucciones paso a paso para crear un informe y cualquier otra información relevante que pueda ser útil para otros usuarios del sistema.
-
-La creación de informes personalizados es una tarea compleja pero fundamental en la implantación de sistemas ERP-CRM. A través de este proceso, las empresas pueden obtener información valiosa y tomar decisiones estratégicas basadas en datos precisos y actualizados. Es importante que los profesionales encargados de esta tarea tengan un buen conocimiento del sistema y habilidades técnicas para desarrollar informes eficientes y efectivos.
 
 <a id="paneles-de-control-dashboards"></a>
 ## Paneles de control (Dashboards)
 
-La implantación de sistemas ERP-CRM en una empresa implica no solo la instalación y configuración del software, sino también el diseño y creación de paneles de control o dashboards. Estos paneles son herramientas esenciales para visualizar y monitorear los datos clave de la organización, facilitando así la toma de decisiones informadas.
-
-El primer paso en la creación de un dashboard consiste en identificar las métricas más importantes que el negocio necesita monitorear. Esto puede incluir cifras financieras como ingresos, gastos y margen de beneficio, así como indicadores operativos como el tiempo de respuesta del servicio al cliente o la satisfacción del cliente.
-
-Una vez identificadas las métricas clave, se procede a diseñar el layout del dashboard. Esto implica elegir una disposición visual que permita una rápida y fácil interpretación de los datos. Se utilizan gráficos y tablas para representar los datos de manera efectiva, asegurando que la información sea accesible y comprensible.
-
-El proceso de diseño también incluye la elección de las herramientas y tecnologías adecuadas para crear el dashboard. Esto puede variar según la complejidad del sistema ERP-CRM y las preferencias organizacionales. Algunos sistemas pueden ofrecer funcionalidades internas para crear dashboards, mientras que otros pueden requerir la utilización de herramientas externas.
-
-La creación de un dashboard es un proceso iterativo. Es común experimentar con diferentes diseños y layouts hasta encontrar el que mejor se adapta a las necesidades del negocio y facilita la comprensión de los datos. Además, es importante considerar la accesibilidad del dashboard para todos los usuarios, asegurando que sea fácilmente navegable y visualmente atractivo.
-
-Una vez diseñado el layout, se procede a implementar el dashboard en el sistema ERP-CRM. Esto implica configurar las consultas necesarias para obtener los datos que se mostrarán en el panel de control. Es importante que estas consultas sean eficientes y rápidas, ya que un dashboard con consultas lentas puede afectar negativamente la experiencia del usuario.
-
-Durante la implementación, es crucial realizar pruebas exhaustivas para asegurar que el dashboard funcione correctamente y muestre los datos de manera precisa. Esto incluye verificar que las consultas estén devolviendo los resultados esperados y que el diseño sea visualmente atractivo y fácil de interpretar.
-
-Una vez implementado, es importante documentar todo el proceso para futuras referencias. Esto debe incluir detalles sobre la configuración del dashboard, las consultas utilizadas y cualquier personalización realizada. La documentación también debe facilitar la actualización del sistema en el futuro, asegurando que los cambios se realicen de manera eficiente.
-
-El uso de paneles de control o dashboards es una práctica cada vez más común en la gestión empresarial moderna. Estos herramientas no solo facilitan la visualización y monitoreo de los datos clave, sino que también permiten una toma de decisiones informada basada en información actualizada y relevante. La implantación de un dashboard efectivo puede llevar a mejoras significativas en la eficiencia operativa y la satisfacción del cliente.
-
-En conclusión, el diseño y creación de paneles de control o dashboards es una tarea crucial en la implantación de sistemas ERP-CRM. A través de un proceso iterativo que incluye la identificación de métricas clave, diseño visual, elección de herramientas adecuadas, implementación y pruebas exhaustivas, se puede crear un sistema que facilita la toma de decisiones informadas y mejora la eficiencia operativa.
 
 <a id="integracion-con-otros-sistemas-de-gestion"></a>
 ## Integración con otros sistemas de gestión
 
-La implantación de sistemas ERP-CRM en una empresa implica no solo la instalación y configuración del software, sino también su integración con otros sistemas existentes para garantizar un flujo eficiente de información. Esta integración es crucial para mantener la coherencia y la actualización de los datos entre diferentes departamentos y aplicaciones.
-
-La primera etapa en la integración consiste en identificar los sistemas que necesitan ser conectados al ERP-CRM. Esto puede incluir sistemas de contabilidad, inventario, gestión de recursos humanos (HR), marketing y ventas, entre otros. Cada sistema tiene sus propias características y formatos de datos, por lo que es necesario realizar una evaluación detallada para determinar las necesidades específicas de cada uno.
-
-Una vez identificados los sistemas a integrar, se procede a la configuración del ERP-CRM para establecer las conexiones adecuadas. Esto puede implicar la creación de interfaces o adaptadores que permitan el intercambio de datos entre los sistemas. Es importante asegurarse de que estos interfaces sean seguros y cumplen con los estándares de interoperabilidad relevantes.
-
-La integración también implica la definición de procesos de sincronización de datos. Esto puede ser automático o manual, dependiendo del sistema y las necesidades específicas. Por ejemplo, el ERP-CRM puede actualizarse automáticamente cuando se realiza una entrada en el sistema de inventario, o viceversa.
-
-Es crucial también considerar la seguridad durante la integración. Los sistemas deben estar protegidos contra accesos no autorizados y los datos sensibles deben ser cifrados durante su transmisión y almacenamiento. Además, es importante establecer políticas de acceso y control para garantizar que solo los usuarios autorizados puedan acceder a la información.
-
-La integración del ERP-CRM con otros sistemas también puede implicar la creación de formularios personalizados y informes que reflejen las necesidades específicas de cada departamento. Esto puede requerir el desarrollo de componentes adicionales o la adaptación de los existentes para asegurar una interfaz amigable y eficiente.
-
-Además, es importante realizar pruebas exhaustivas antes de la implantación final. Esto incluye pruebas de integración para asegurarse de que todos los sistemas funcionen correctamente juntos, así como pruebas de rendimiento para verificar que el sistema ERP-CRM no sobrecargue los recursos del servidor.
-
-La documentación es otro aspecto crucial en la integración de sistemas ERP-CRM. Es importante mantener un registro detallado de todas las configuraciones realizadas, las interfaces creadas y los procesos de sincronización establecidos. Esta documentación será invaluable para el mantenimiento futuro del sistema y para la formación del personal.
-
-Finalmente, la implantación del ERP-CRM con otros sistemas debe considerar la adaptabilidad a cambios futuros. Los sistemas deben estar diseñados de manera que puedan ser actualizados o modificados sin afectar los demás componentes del entorno empresarial. Esto puede implicar el uso de arquitecturas modulares y componentes desacoplados.
-
-En resumen, la integración de sistemas ERP-CRM en una empresa es un proceso complejo pero fundamental para garantizar la eficiencia operativa y la coherencia de los datos. Requiere una evaluación cuidadosa, configuraciones precisas, procesos de sincronización adecuados y una consideración especializada en seguridad y adaptabilidad a cambios futuros.
 
 
 <a id="desarrollo-de-componentes"></a>
@@ -16597,183 +19030,38 @@ En resumen, la integración de sistemas ERP-CRM en una empresa es un proceso com
 <a id="arquitectura-del-erp-crm"></a>
 ## Arquitectura del ERP-CRM
 
-En la subunidad "Arquitectura del ERP-CRM", nos adentramos en el diseño interno de los sistemas de gestión empresarial y de clientes (ERP-CRM). Comenzamos por entender que una arquitectura bien definida es fundamental para garantizar la eficiencia, escalabilidad y mantenibilidad de estos sistemas. La arquitectura del ERP-CRM se compone de varias capas, cada una con un propósito específico.
-
-La primera capa es la de acceso a datos, donde se gestionan las operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre los datos almacenados en la base de datos. Esta capa interactúa directamente con el sistema de gestión de bases de datos y proporciona una interfaz para que otras partes del sistema accedan y manipulen los datos.
-
-La segunda capa es la lógica de negocio, donde se implementan las reglas y procesos específicos de la empresa. Esta capa contiene la lógica empresarial que permite realizar operaciones complejas como el cálculo de precios, la gestión de inventario o la planificación de proyectos.
-
-La tercera capa es la interfaz de usuario (UI), donde los usuarios interactúan con el sistema. La UI puede ser basada en gráficos y pantallas para aplicaciones web o escritorio, o bien en interfaces táctiles para dispositivos móviles. Esta capa se encarga de presentar los datos al usuario de una manera que sea intuitiva y fácil de usar.
-
-La cuarta capa es la capa de servicios, donde se definen las operaciones que pueden ser invocadas por otras aplicaciones o sistemas externos. Estos servicios permiten integrar el ERP-CRM con otros sistemas de gestión empresarial o terceros, facilitando la interoperabilidad y la automatización de procesos.
-
-La quinta capa es la capa de seguridad, donde se implementan los mecanismos para proteger los datos y garantizar que solo los usuarios autorizados puedan acceder a ciertas funcionalidades. Esta capa puede incluir autenticación, autorización y encriptación de datos.
-
-La sexta capa es la capa de monitoreo y mantenimiento, donde se gestionan las operaciones diarias del sistema, como el seguimiento del rendimiento, la detección y solución de problemas y la actualización del software.
-
-Cada una de estas capas desempeña un papel crucial en la funcionalidad global del ERP-CRM. La arquitectura bien definida permite una separación clara de responsabilidades, facilitando el desarrollo, la pruebas y el mantenimiento del sistema. Además, esta arquitectura permite una escalabilidad eficiente, ya que cada capa puede ser optimizada según sus necesidades específicas.
-
-La comprensión de la arquitectura del ERP-CRM es fundamental para cualquier desarrollador o administrador de sistemas que quiera trabajar con estos tipos de aplicaciones. Permite entender cómo se organizan los componentes internos y cómo interactúan entre sí, lo que facilita el diagnóstico y solución de problemas, así como la implementación de mejoras y actualizaciones.
-
-En resumen, la arquitectura del ERP-CRM es un aspecto crucial de su diseño y desarrollo. Una arquitectura bien definida permite una estructura clara, escalable y segura para los sistemas de gestión empresarial y de clientes, facilitando así su implementación y uso en entornos empresariales complejos.
 
 <a id="lenguaje-proporcionado"></a>
 ## Lenguaje proporcionado
 
-En la subunidad "Lenguaje proporcionado", se aborda el aspecto fundamental del desarrollo de componentes dentro de sistemas ERP-CRM. El lenguaje proporcionado es una herramienta esencial que permite a los desarrolladores crear funcionalidades personalizadas, adaptando el sistema ERP-CRM a las necesidades específicas de la empresa. Este lenguaje suele ser específico del software y puede variar según el sistema utilizado.
-
-El lenguaje proporcionado facilita la manipulación de datos, la creación de formularios y informes personalizados, así como el procesamiento de información compleja. Permite a los desarrolladores integrar funcionalidades adicionales que no están disponibles en las interfaces estándar del sistema ERP-CRM, mejorando así su eficiencia operativa.
-
-Además, este lenguaje proporcionado suele ofrecer una serie de funciones y librerías predefinidas que facilitan el desarrollo de componentes. Estas herramientas permiten realizar tareas como la inserción, modificación y eliminación de datos en los objetos del sistema, así como la realización de consultas complejas para obtener información relevante.
-
-La documentación asociada al lenguaje proporcionado es crucial para el desarrollo exitoso de componentes. Ofrece una guía detallada sobre cómo utilizar las funciones disponibles, cómo estructurar el código y cómo depurar posibles errores. Esta documentación suele estar disponible en formato digital dentro del sistema ERP-CRM o puede ser consultada en línea.
-
-El lenguaje proporcionado también permite la creación de formularios e informes personalizados. Esto es especialmente útil para mostrar información de manera más clara y accesible, adaptándola a las necesidades específicas de los usuarios finales. Los desarrolladores pueden diseñar formularios que incluyan campos personalizados, validaciones específicas y lógica adicional.
-
-Además del desarrollo de componentes, el lenguaje proporcionado también facilita la integración con otros sistemas de gestión. Esto es crucial en entornos empresariales complejos donde múltiples sistemas están interconectados. El lenguaje proporcionado permite realizar llamadas a funciones y librerías (APIs) que permiten la comunicación entre diferentes sistemas, asegurando una integridad de datos y flujo de trabajo eficiente.
-
-El desarrollo de componentes utilizando el lenguaje proporcionado requiere un enfoque estructurado. Los desarrolladores deben seguir ciertas prácticas recomendadas para garantizar la calidad del código y su mantenibilidad a largo plazo. Esto incluye la escritura de código limpio, modularizado y bien documentado.
-
-En conclusión, el lenguaje proporcionado es una herramienta poderosa y flexible que permite al desarrollo de componentes en sistemas ERP-CRM un alto nivel de personalización y adaptabilidad. Su uso adecuado puede llevar a soluciones empresariales más eficientes y satisfactorias, mejorando así la productividad y el rendimiento operativo de las empresas.
 
 <a id="entornos-de-desarrollo-y-herramientas-del-sistema-erp-y-crm"></a>
 ## Entornos de desarrollo y herramientas del sistema ERP y CRM
 
-En el desarrollo de componentes para sistemas ERP-CRM, es crucial entender los entornos de desarrollo y las herramientas disponibles que facilitan esta tarea. Estos entornos proporcionan un espacio seguro y controlado donde se pueden crear, probar y depurar componentes sin afectar el sistema operativo o la aplicación principal.
-
-El primer paso en la configuración del entorno de desarrollo es seleccionar una plataforma adecuada. Las plataformas modernas ofrecen herramientas integradas que facilitan la creación y gestión de componentes. Estas herramientas suelen incluir editores de código, compiladores, depuradores y simuladores, lo que permite un flujo de trabajo eficiente.
-
-Una vez configurado el entorno, se pueden comenzar a crear componentes. Los componentes son unidades reutilizables de código que realizan una función específica. En el contexto de ERP-CRM, estos componentes pueden ser formularios personalizados, informes, paneles de control o incluso funciones auxiliares.
-
-La creación de componentes implica la definición de interfaces y propiedades. Las interfaces definen qué funcionalidades puede realizar un componente, mientras que las propiedades permiten configurar su comportamiento y apariencia. Es importante diseñar estas interfaces de manera clara y coherente para facilitar su uso y mantenimiento.
-
-Durante el desarrollo, es fundamental probar los componentes para asegurar que funcionan correctamente. Las herramientas de depuración proporcionan una serie de funciones útiles para identificar y solucionar problemas en el código. Además, se pueden utilizar pruebas unitarias para verificar que cada componente cumple con sus requisitos.
-
-Una vez que un componente ha sido probado y aprobado, puede ser integrado en la aplicación principal. La integración implica la configuración de las relaciones entre componentes y la definición de flujos de trabajo. Es importante mantener una buena documentación durante este proceso para facilitar el mantenimiento futuro.
-
-El desarrollo de componentes también implica la gestión del ciclo de vida de estos componentes. Esto incluye la creación, actualización, eliminación y reutilización de componentes a lo largo del tiempo. Las herramientas modernas ofrecen funcionalidades que facilitan esta gestión, como versionado y control de cambios.
-
-En el ámbito de ERP-CRM, los componentes pueden interactuar con bases de datos para almacenar y recuperar información. Es importante diseñar estos componentes de manera eficiente para optimizar el rendimiento y la seguridad del sistema. Las herramientas proporcionadas por las plataformas modernas facilitan esta tarea, permitiendo realizar consultas complejas y gestionar transacciones de forma segura.
-
-Finalmente, es crucial documentar los componentes durante todo el proceso de desarrollo. La documentación debe incluir información sobre la funcionalidad, configuración y uso del componente. Esta documentación será invaluable para otros desarrolladores que trabajen en el sistema o para futuras versiones del mismo.
-
-En resumen, el desarrollo de componentes para sistemas ERP-CRM requiere un entorno adecuado, una buena planificación, pruebas rigurosas y una gestión eficiente del ciclo de vida. Las herramientas modernas ofrecen soluciones integrales que facilitan estos procesos, lo que permite crear componentes robustos y reutilizables para mejorar la funcionalidad y eficiencia de los sistemas ERP-CRM.
 
 <a id="insercion-modificacion-y-eliminacion-de-datos-en-los-objetos"></a>
 ## Inserción, modificación y eliminación de datos en los objetos
 
-En este capítulo, nos adentramos en la práctica del desarrollo de componentes dentro de sistemas de gestión empresariales, con un énfasis en las operaciones fundamentales de inserción, modificación y eliminación de datos en los objetos. Comenzamos por entender cómo estructurar estos componentes para que puedan interactuar eficazmente con el sistema.
-
-La inserción de datos es la primera operación que debemos considerar. Un componente debe ser capaz de recibir nuevos registros o objetos desde una interfaz de usuario o desde otro componente del sistema, y luego almacenarlos en la base de datos correspondiente. Este proceso implica la creación de instancias de los objetos y su persistencia en el almacenamiento persistente.
-
-La modificación de datos es un paso crucial para mantener la actualidad de la información en el sistema. Un componente debe permitir la edición de los atributos de los objetos existentes, asegurándose de que las modificaciones sean coherentes y seguras. Esto puede implicar la validación de los datos antes de su actualización y la gestión adecuada de las transacciones para mantener la integridad del sistema.
-
-La eliminación de datos es otro aspecto fundamental en el desarrollo de componentes. Es importante diseñar sistemas que puedan eliminar objetos o registros cuando ya no sean necesarios, liberando así recursos y manteniendo la eficiencia del sistema. La eliminación debe ser segura y reversible, permitiendo recuperar los datos si es necesario.
-
-En todos estos procesos, el manejo de excepciones es una cuestión crítica. Los componentes deben estar preparados para capturar y gestionar cualquier error que pueda surgir durante la inserción, modificación o eliminación de datos, asegurando que el sistema no se quede en un estado inconsistente.
-
-Además, la persistencia de los objetos es otro aspecto importante a considerar. Los componentes deben ser capaces de serializar y deserializar los objetos para su almacenamiento y recuperación, utilizando formatos como JSON o XML. Esto permite que los datos sean transferibles entre diferentes sistemas y que puedan ser manipulados por herramientas externas.
-
-La gestión de transacciones es otro tema clave en el desarrollo de componentes. Los componentes deben estar diseñados para manejar las transacciones de manera coherente, asegurando que todas las operaciones dentro de una transacción sean realizadas juntas o no se realicen ninguna. Esto implica la utilización de mecanismos como los bloques `try-catch` y el control de la concurrencia para evitar problemas de integridad.
-
-En conclusión, el desarrollo de componentes en sistemas de gestión empresariales requiere una comprensión profunda de las operaciones básicas de inserción, modificación y eliminación de datos. Al diseñar estos componentes, debemos considerar no solo la funcionalidad necesaria, sino también la eficiencia, la seguridad y la capacidad de manejar errores para garantizar que el sistema sea robusto y confiable.
 
 <a id="operaciones-de-consulta-herramientas"></a>
 ## Operaciones de consulta. Herramientas
 
-En este capítulo, nos adentramos en las operaciones de consulta y las herramientas disponibles para realizarlas en sistemas de gestión empresariales (ERP-CRM). Comenzamos por entender que las consultas son una parte esencial del acceso a la información almacenada en estos sistemas. Las operaciones de consulta permiten recuperar, filtrar y analizar datos de manera eficiente, lo cual es crucial para tomar decisiones informadas.
-
-La herramienta más común utilizada para realizar estas operaciones es el lenguaje SQL (Structured Query Language), que proporciona una forma estándar para interactuar con las bases de datos. A través de SQL, podemos crear consultas complejas que seleccionan, agrupan y ordenan los datos según nuestras necesidades. Los comandos básicos como SELECT, FROM, WHERE, GROUP BY y ORDER BY son fundamentales para cualquier consulta en un ERP-CRM.
-
-Además de SQL, muchos sistemas ERP-CRM ofrecen interfaces gráficas intuitivas que permiten realizar consultas sin conocimiento previo de lenguaje SQL. Estas herramientas proporcionan una forma visual de seleccionar campos, establecer filtros y organizar los resultados, lo que facilita el acceso a la información para usuarios no técnicos.
-
-Es importante destacar que las operaciones de consulta no se limitan solo a recuperar datos; también incluyen la creación de vistas personalizadas, que son consultas predefinidas que pueden ser ejecutadas en cualquier momento. Las vistas facilitan el acceso a conjuntos recurrentes de datos y suelen estar optimizadas para mejorar el rendimiento.
-
-Otra herramienta valiosa es el uso de macros o scripts dentro del ERP-CRM. Estos permiten automatizar tareas repetitivas, como la creación de informes periódicos o la actualización de campos en múltiples registros. Las macros pueden ser escritas en lenguajes específicos del sistema y ejecutadas desde interfaces gráficas o a través de comandos.
-
-En el contexto de sistemas ERP-CRM, las consultas también pueden involucrar la manipulación de datos. Esto puede incluir la creación de nuevos registros, la modificación de campos existentes y la eliminación de información no necesaria. Las operaciones de inserción (INSERT), actualización (UPDATE) y eliminación (DELETE) son fundamentales para mantener los datos en un estado actualizado y relevante.
-
-Además de las consultas básicas, muchos ERP-CRM ofrecen funciones avanzadas como el uso de subconsultas y la combinación de múltiples selecciones. Las subconsultas permiten realizar consultas dentro de otras consultas, lo que es útil para obtener información condicional o filtrada. La combinación de múltiples selecciones permite un análisis más detallado de los datos, combinando resultados de diferentes consultas en una sola vista.
-
-La eficiencia y precisión de las operaciones de consulta son cruciales en sistemas ERP-CRM, ya que afectan directamente a la toma de decisiones empresariales. Por lo tanto, es importante no solo conocer cómo realizar estas operaciones, sino también cómo optimizarlas para mejorar el rendimiento del sistema.
-
-En resumen, las operaciones de consulta y las herramientas disponibles para realizarlas son fundamentales en sistemas de gestión empresariales. Desde la utilización de SQL hasta interfaces gráficas y macros, cada opción ofrece diferentes ventajas dependiendo del nivel de conocimiento técnico y las necesidades específicas del usuario. Comprender cómo utilizar estas herramientas eficazmente es una habilidad clave para cualquier profesional que trabaje con sistemas ERP-CRM.
 
 <a id="formularios-e-informes"></a>
 ## Formularios e informes
 
-En la subunidad "Formularios e informes", nos centramos en los elementos clave que permiten interactuar con el usuario y presentar información de manera estructurada. Los formularios son interfaces gráficas que recopilan datos del usuario, mientras que los informes proporcionan una visualización organizada de la información almacenada.
-
-Los formularios son fundamentales para la interacción directa entre el usuario y el sistema. Son componentes visuales que permiten al usuario ingresar o seleccionar datos, lo que facilita la entrada de información en sistemas empresariales. Cada formulario está compuesto por diversos tipos de campos, como cajas de texto, botones, listas desplegables y checkboxes, cada uno con un propósito específico para recopilar diferentes tipos de datos.
-
-Los informes, por otro lado, son documentos que presentan la información de manera clara y organizada. Son herramientas esenciales para el análisis y la toma de decisiones basadas en los datos del sistema. Los informes pueden incluir gráficos, tablas y listados detallados, proporcionando una visión completa y fácilmente interpretable de los datos relevantes.
-
-En esta subunidad, exploramos cómo crear formularios e informes utilizando herramientas y lenguajes específicos para el desarrollo de aplicaciones empresariales. Aprenderemos a diseñar interfaces gráficas que sean intuitivas y eficientes, así como a generar documentos informativos que faciliten la comprensión y análisis de los datos.
-
-Además, discutiremos técnicas avanzadas para mejorar la experiencia del usuario en formularios, como el uso de validaciones dinámicas y mensajes de error claros. También exploraremos cómo optimizar la presentación de informes para maximizar su utilidad y facilitar su comprensión.
-
-A lo largo de esta subunidad, trabajaremos con ejemplos prácticos y proyectos que permitan aplicar los conocimientos adquiridos en el desarrollo de formularios e informes. Estos proyectos nos ayudarán a entender cómo integrar estos elementos en sistemas empresariales reales, mejorando así la eficiencia y la toma de decisiones.
-
-En resumen, "Formularios e informes" es una sección crucial para el desarrollo de aplicaciones empresariales, ya que proporciona las herramientas necesarias para interactuar con los usuarios y presentar información de manera efectiva. A través de esta subunidad, adquiriremos habilidades valiosas en diseño y programación de interfaces gráficas, lo que nos permitirá crear soluciones informáticas más robustas y eficientes.
 
 <a id="procesamiento-de-datos-y-obtencion-de-la-informacion"></a>
 ## Procesamiento de datos y obtención de la información
 
-En la subunidad "Procesamiento de datos y obtención de la información", nos sumergimos en el núcleo del desarrollo de componentes dentro de sistemas ERP-CRM. Este proceso es fundamental para que los componentes puedan interactuar eficazmente con los datos almacenados, permitiendo así una gestión precisa y eficiente de la información empresarial.
-
-El primer paso en este flujo es entender cómo insertar, modificar y eliminar datos en los objetos del sistema. Esta operación es esencial para mantener la integridad y actualidad de la información. A través de métodos específicos proporcionados por el lenguaje o framework utilizado, se pueden realizar estas acciones con precisión, asegurando que los cambios sean reflejados de manera consistente en la base de datos.
-
-La obtención de información es otro aspecto crucial del procesamiento de datos. Los componentes deben ser capaces de consultar y recuperar datos de manera eficiente y precisa. Utilizando herramientas como consultas SQL o APIs específicas, los componentes pueden realizar búsquedas complejas y filtrados para obtener solo la información relevante. Esta capacidad es fundamental para proporcionar informes precisos y actualizados a los usuarios del sistema.
-
-El procesamiento de datos también implica la manipulación de estos mismos para extraer información valiosa. Esto puede implicar cálculos, agrupaciones o transformaciones de los datos originales. A través de funciones específicas o métodos de programación, los componentes pueden realizar estas operaciones con facilidad, generando resultados útiles que pueden ser utilizados en informes o análisis adicionales.
-
-La obtención y procesamiento de información también implican la gestión de errores y excepciones. Es importante que los componentes estén diseñados para manejar situaciones inesperadas o datos incompletos, asegurando que el sistema no se bloquee ni produzca resultados incorrectos. Utilizando técnicas de depuración y control de excepciones, los desarrolladores pueden garantizar la robustez del componente.
-
-Además, es crucial que los componentes sean capaces de interactuar con otros sistemas o bases de datos para obtener información adicional. Esto puede implicar la realización de llamadas a APIs externas o la integración con sistemas de almacenamiento alternativos. A través de métodos específicos proporcionados por el lenguaje o framework, los componentes pueden realizar estas operaciones de manera eficiente y segura.
-
-La obtención y procesamiento de información también implican la creación de formularios e informes personalizados. Los componentes deben ser capaces de generar interfaces gráficas que permitan a los usuarios interactuar con la información en una forma intuitiva y visualmente atractiva. A través de herramientas específicas proporcionadas por el lenguaje o framework, los desarrolladores pueden crear formularios e informes personalizados que reflejen las necesidades específicas del usuario.
-
-El procesamiento de datos también implica la obtención de información en tiempo real. En sistemas empresariales dinámicos, es crucial que los componentes puedan recuperar y mostrar información actualizada en tiempo real. A través de técnicas como el manejo de eventos o la realización de consultas periódicas, los componentes pueden garantizar que la información mostrada al usuario sea siempre precisa.
-
-La obtención y procesamiento de información también implican la generación de gráficos y visualizaciones. Los componentes deben ser capaces de generar gráficos y diagramas que permitan a los usuarios visualizar datos complejos de manera intuitiva. A través de herramientas específicas proporcionadas por el lenguaje o framework, los desarrolladores pueden crear gráficos y visualizaciones personalizados que reflejen las necesidades específicas del usuario.
-
-En resumen, el procesamiento de datos y obtención de la información es un aspecto crucial del desarrollo de componentes dentro de sistemas ERP-CRM. A través de métodos específicos proporcionados por el lenguaje o framework utilizado, los componentes pueden realizar inserciones, modificaciones y eliminaciones de datos con precisión, así como obtener y procesar información de manera eficiente y segura. La capacidad de manejar errores y excepciones, interactuar con otros sistemas o bases de datos, crear formularios e informes personalizados, generar gráficos y visualizaciones es fundamental para garantizar la robustez, precisión y utilidad del componente en el sistema empresarial.
 
 <a id="llamadas-a-funciones-librerias-de-funciones-apis"></a>
 ## Llamadas a funciones, librerías de funciones (APIs)
 
-En este capítulo, nos adentramos en la profundidad del desarrollo de componentes dentro de sistemas ERP-CRM, explorando cómo interactúan con funciones y librerías de funciones conocidas como APIs (Application Programming Interfaces). Las APIs son una puerta abierta que permite a diferentes aplicaciones o programas comunicarse entre sí, facilitando el intercambio de datos y la ejecución de operaciones específicas.
-
-La primera parte de este capítulo se centra en cómo insertar, modificar y eliminar datos en los objetos. A través de las APIs proporcionadas por el sistema ERP-CRM, podemos realizar estas acciones con precisión y eficiencia. Por ejemplo, para insertar un nuevo cliente, simplemente necesitamos llamar a la función correspondiente pasando los parámetros necesarios. El proceso es similar para modificar o eliminar registros existentes.
-
-La siguiente sección del capítulo explora las operaciones de consulta. A través de APIs, podemos realizar consultas complejas y obtener información detallada sobre nuestros datos. Las herramientas proporcionadas por el sistema nos permiten filtrar, ordenar y agrupar los resultados según nuestras necesidades específicas. Esta funcionalidad es crucial para la organización y análisis de la información en sistemas ERP-CRM.
-
-El capítulo también aborda la creación de formularios e informes personalizados. A través de las APIs disponibles, podemos diseñar interfaces de usuario interactivas que permitan a los usuarios interactuar con los datos del sistema de manera intuitiva. Además, podemos generar informes y listados detallados que proporcionen una visión clara y completa de la información relevante.
-
-La sección siguiente se centra en el procesamiento de datos y obtención de información. A través de las APIs, podemos realizar operaciones avanzadas sobre los datos almacenados en el sistema ERP-CRM. Esto puede incluir cálculos complejos, análisis estadísticos y transformación de datos para su uso en informes o análisis adicionales.
-
-El capítulo también explora cómo llamar a funciones y librerías de funciones (APIs). A través de las APIs proporcionadas por el sistema ERP-CRM, podemos acceder a una amplia gama de operaciones específicas. Esto puede incluir la ejecución de procedimientos almacenados, la realización de consultas complejas y la manipulación de datos en tiempo real.
-
-La sección final del capítulo aborda la depuración y tratamiento de errores. A través de las APIs proporcionadas por el sistema ERP-CRM, podemos realizar operaciones avanzadas sobre los datos almacenados en el sistema ERP-CRM. Esto puede incluir cálculos complejos, análisis estadísticos y transformación de datos para su uso en informes o análisis adicionales.
-
-En resumen, este capítulo nos ha proporcionado una visión detallada del desarrollo de componentes dentro de sistemas ERP-CRM, explorando cómo interactúan con funciones y librerías de funciones conocidas como APIs. A través de las APIs proporcionadas por el sistema ERP-CRM, podemos realizar operaciones avanzadas sobre los datos almacenados en el sistema ERP-CRM, facilitando la organización y análisis de la información en sistemas ERP-CRM.
 
 <a id="depuracion-y-tratamiento-de-errores"></a>
 ## Depuración y tratamiento de errores
 
-En la etapa final del desarrollo de componentes para sistemas ERP-CRM, depuración y tratamiento de errores son aspectos cruciales que no pueden ser ignorados. La depuración es el proceso mediante el cual se identifican y solucionan los problemas o errores en el código fuente de un programa. En el contexto de los componentes del ERP-CRM, esto puede implicar la revisión detallada de las operaciones realizadas por cada componente para asegurar que funcionen correctamente.
-
-El tratamiento de errores es una práctica complementaria a la depuración, enfocándose en cómo manejar y reportar los problemas cuando ocurren. Esto incluye el uso de mecanismos como excepciones para capturar errores inesperados y proporcionar respuestas adecuadas al usuario o al sistema.
-
-La depuración y tratamiento de errores son interrelacionados, ya que una vez identificado un error, es necesario tratarlo con el fin de mantener la estabilidad y la funcionalidad del componente. En el desarrollo de componentes para ERP-CRM, es común utilizar herramientas de depuración integradas en los IDEs (Entornos de Desarrollo Integrados) que facilitan la identificación y análisis de errores.
-
-Además de las técnicas manuales de depuración, como el uso del depurador visual o la impresión de variables para rastrear su valor a lo largo del tiempo, existen métodos automáticos como el análisis estático del código. Estos métodos pueden detectar posibles errores antes de que se produzcan en tiempo de ejecución, lo que puede ahorrar tiempo y esfuerzo en la depuración posterior.
-
-El tratamiento de errores implica no solo identificar los problemas, sino también proporcionar soluciones efectivas. Esto puede implicar el ajuste del código para corregir el error o el uso de mecanismos como el manejo de excepciones para capturar y gestionar los errores sin interrumpir la ejecución del programa.
-
-En el desarrollo de componentes para ERP-CRM, es crucial mantener un enfoque proactivo en la depuración y tratamiento de errores. Esto no solo mejora la calidad del software final, sino que también aumenta la confianza del usuario en su funcionalidad y seguridad. Además, una buena práctica de depuración y tratamiento de errores facilita el mantenimiento y actualización del sistema a lo largo del tiempo.
-
-En conclusión, la depuración y tratamiento de errores son aspectos fundamentales del desarrollo de componentes para sistemas ERP-CRM. A través de técnicas manuales y automáticas, es posible identificar y gestionar los problemas que surgen durante el proceso de desarrollo, asegurando así la estabilidad y funcionalidad del software final.
 
 
 <a id="actividad-libre-de-final-de-evaluacion-la-milla-extra"></a>
@@ -16782,8 +19070,36 @@ En conclusión, la depuración y tratamiento de errores son aspectos fundamental
 <a id="la-milla-extra-primera-evaluacion"></a>
 ## La Milla Extra - Primera evaluación
 
-### ejercicio
+### Introducción a los ejercicios
 
-```markdown
+El archivo "ejercicio.md" dentro del conjunto de ejercicios proporcionado está destinado a ayudarte a consolidar tus conocimientos en sistemas de gestión empresarial, aplicando los conceptos aprendidos durante el segundo semestre del DAM 25/26. Este ejercicio es parte de una actividad libre que te invita a profundizar en la materia y superar las expectativas básicas del programa. Te enfrentarás a problemas relacionados con la implementación y uso eficaz de sistemas de gestión empresarial, lo que incluye aspectos como la integración de datos, análisis de información y optimización de procesos internos. La finalidad es mejorar tus habilidades en resolución de problemas prácticos y aplicar tu creatividad para desarrollar soluciones innovadoras dentro del entorno profesional estudiado.
 
-```
+### Actividades propuestas
+
+Basándome en el contexto y las instrucciones proporcionadas, aquí tienes una lista de propuestas de actividades que podrían ser adecuadas para estudiantes de Formación Profesional nivel DAM (2º año):
+
+1. **Actividad: Desarrollo de un sistema simple**
+   - Breve descripción: Los estudiantes deben diseñar e implementar un pequeño programa en el lenguaje de programación elegido (considerando los ejercicios proporcionados) que resuelva una tarea específica relacionada con la gestión empresarial. El objetivo es mejorar sus habilidades en diseño y codificación de sistemas simples.
+
+2. **Actividad: Resolución de problemas**
+   - Breve descripción: Los estudiantes deben resolver un conjunto de problemas propuestos, aplicando los conceptos aprendidos sobre programación orientada a objetos y manejo de datos. Se espera que demuestren su capacidad para analizar y sintetizar soluciones eficientes.
+
+3. **Actividad: Mejora del código existente**
+   - Breve descripción: A partir de ejemplos de código proporcionados, los estudiantes deben identificar áreas de mejora (como optimización o mejoras en el diseño) y realizar las correcciones necesarias. Se trata de desarrollar habilidades de revisión y refactorización de código.
+
+4. **Actividad: Documentación técnica**
+   - Breve descripción: Los alumnos deberán escribir la documentación técnica para un programa existente, incluyendo una explicación clara del funcionamiento del sistema, los algoritmos utilizados y las decisiones tomadas en el diseño. Se busca mejorar sus habilidades de comunicación técnica.
+
+5. **Actividad: Pruebas unitarias**
+   - Breve descripción: Los estudiantes deben escribir pruebas unitarias para un conjunto de funciones o clases existentes, asegurándose de cubrir múltiples casos y condiciones. Esto ayudará a consolidar su comprensión sobre la importancia de las pruebas en el ciclo de desarrollo.
+
+6. **Actividad: Integración con APIs externas**
+   - Brene descripción: Los alumnos deben integrar una API externa relevante para mejorar las funcionalidades de un sistema existente, aprendiendo así cómo interactuar con servicios web y manejar respuestas JSON o XML.
+
+7. **Actividad: Diseño de base de datos**
+   - Breve descripción: A partir del análisis de un caso práctico (por ejemplo, una aplicación de gestión de inventario), los estudiantes deben diseñar la estructura de una base de datos adecuada y escribir las consultas necesarias para interactuar con ella.
+
+8. **Actividad: Resolución de bugs**
+   - Brene descripción: Se proporcionará un código que contiene errores conocidos, y los alumnos deberán depurar estos problemas para asegurarse de que el programa funcione correctamente en todas las condiciones posibles.
+
+Estas actividades están diseñadas para reforzar los conceptos aprendidos en clase mediante la aplicación práctica de esos conocimientos a situaciones realistas dentro del contexto empresarial.

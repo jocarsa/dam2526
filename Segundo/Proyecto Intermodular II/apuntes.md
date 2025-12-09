@@ -62,498 +62,143 @@
 <a id="recopilacion-de-informacion"></a>
 ## Recopilación de información
 
-### Búsqueda de empresas
+### Introducción a los ejercicios
 
-```markdown
-Empresas del sector por sus características organizativas y el tipo de producto o servicio que ofrecen
+Basado en los documentos proporcionados, puedo ofrecer un análisis del entorno empresarial valenciano y cómo una empresa de inteligencia artificial podría operar dentro de este contexto.
 
-Empresa objetivo: Una empresa de inteligencia artificial que de servicios con sentido en la zona geográfica de Valencia
+### Panorama General del Tejido Empresarial en la Comunitat Valenciana
 
-Análisis de los grandes jugadores:
+La región es principalmente dominada por pymes (pequeñas y medianas empresas) y microempresas. Estos negocios son ágiles pero con limitados recursos para innovación tecnológica debido a su tamaño. La mayor parte de estas empresas opera tradicionalmente en sectores como la industria manufacturera, comercio al por menor, servicios y turismo.
 
-- OpenAI - ChatGPT - USA
-- Microsoft - Copilot - USA
-- Mistral - Francia-USA
-- Grok - X.com - USA
-- Deepseek - IA china
-- Claude - Programacion
-- Gemini - Google
-- Meta - Llama
-- Aleph Alpha (Alemania)
-- Qwen - Alibaba (China)
-- ERNIE - Baidu (China)
+### Estructura Organizativa Típica
 
-Stabbility - Stable Diffusion
-Mijourney
-Firefly dobe
-Elevenlabs Voz
-Nano Banana de Google
+- **Microempresas y pequeñas empresas**: Son operados comúnmente por propietarios o gerentes con un pequeño equipo de administración técnica. La toma de decisiones es centralizada y no formalizada, y la digitalización depende en gran medida del asesoramiento externo.
+  
+- **Pymes Medianas (50–250 trabajadores)**: Estos negocios suelen tener estructuras más definidas con áreas separadas como producción, comercial y administración/finanzas. Podrían contar con un responsable de TIC o sistemas pero la integración de la inteligencia artificial aún está en pañales.
+  
+- **Grandes Empresas**: Son menos comunes pero tienen un gran impacto debido a su compleja estructura jerárquica y capacidad para proyectos personalizados.
 
-Perplexity
+### Particularidades de las Empresas de IA Valencianas
 
-Son grandes jugadores, marcadores de tendencias, punta de lanza
-Inalcanzables en un primer momento
+Las empresas de inteligencia artificial nacen como spin-offs universitarios o startups con equipos muy especializados, dependiendo inicialmente del asesoramiento externo y financiación. Si son exitosas, pueden convertirse en scale-ups con estructuras definidas y roles jerárquicos más claros.
 
+### Análisis de la Empresa de IA Valenciana
 
-España:
-Modelo ALIA que es un modelo promocionado por el gobierno para tener un modelo de IA adpatado a las lenguas territoriales españolas y a las expresiones de este territorio
+Dado el panorama empresarial valenciano, una empresa de inteligencia artificial local tendría como mercado principal a las pymes locales que necesitan soluciones tecnológicas empaquetadas y accesibles. Además, existen oportunidades significativas para alianzas con grandes compañías valencianas.
 
-Demanda:
-Solo 20% de empresas usan la IA en procesos
-Lo hacen en modo experimental
+#### Implicaciones Operativas
 
-Sectores: Finanzas, teleco, infor, comunicacion
+- **Mercado Principal**: Ofrecer soluciones de inteligencia artificial empaquetadas y asequibles para pymes locales.
+  
+- **Alianzas Corporativas**: Colaborar con empresas grandes para proyectos piloto que generen un impacto significativo. Estos pueden ser proyectos de gemelos digitales, logística predictiva, mantenimiento preventivo, etc.
+  
+- **Crecimiento Orgánico**: Iniciar como una empresa de consultoría o servicios SaaS dirigidos a pymes y luego expandirse hacia clientes corporativos o incluso exportar soluciones al resto de España/Europa.
 
-Ejemplo Maisa:
+#### Estructura Empresarial
 
-Fundación ELLIS Alicante
+1. **Etapa Semilla (3–10 personas)**: Conformada por un equipo mixto con perfiles en negocio y tecnología, responsable técnico del producto/modelos, data scientists/ingenieros ML, desarrolladores backend/frontend y roles de desarrollo comercial/marketing.
+   
+2. **Etapa Early Growth (10–30 personas)**: Añade niveles gerenciales como CEO, COO/CTO con equipos técnicos divididos en IA/Data, software/producto, ventas y operaciones.
+   
+3. **Scale-up (30–100 personas)**: Definen roles de alto nivel (CEO, CTO, COO, CFO) con departamentos especializados en I+D, desarrollo de software, comercialización y marketing.
 
-Ahora Comunidad Valenciana
+En conclusión, una empresa de IA valenciana puede tener éxito si enfoca sus esfuerzos en soluciones asequibles para pymes locales mientras construye alianzas estratégicas con grandes corporaciones. La estructura organizativa debe adaptarse gradualmente según crece la empresa, moviéndose desde operaciones muy horizontales hasta una jerarquía más definida y profesionalizada.
 
-Instituciones fuertes: ELLIS Alicante es una pieza clave. Tener un centro ELLIS aporta prestigio, atracción de talento, colaboración con instituciones europeas. 
-Wikipedia
+### Actividades propuestas
 
-Hubs & cooperación público-privada: NTT DATA ha abierto un hub de IA especializado en la CV, ligado a universidades y autoridades locales, para acelerar adopción en empresas locales. 
-es.nttdata.com
+Basado en los documentos proporcionados, se puede diseñar una estrategia para una empresa de inteligencia artificial (IA) emergente en Valencia que busque expandirse y obtener clientes tanto entre las pequeñas y medianas empresas (PYMEs) locales como entre las grandes corporaciones. La siguiente es una sugerencia estructurada basándose en el análisis proporcionado:
 
-Iniciativas lingüísticas y de soberanía tecnológica: el proyecto ALIA apunta a modelos públicos y abiertos en castellano y valenciano, lo cual puede ayudar a diferenciar frente a soluciones internacionales que no siempre consideran esas lenguas ni contextos locales. 
-Diario ABC
+### 1. Identificación del Mercado Objetivo
 
-Financiación local para startups: como el caso de Maisa, que demuestra que en Valencia hay capacidad de levantar rondas importantes si la propuesta es buena y diferencial. 
-Cinco Días
+**Microempresas y Pymes Pequeñas:**
 
-Marco estratégico regional: la Generalitat ha elaborando estrategia de IA con visión para promover inversión, formación, infraestructuras, probablemente regulaciones, colaboración universidad-empresa. 
-Presidencia de la Generalitat Valenciana
+- **Perfil:** Empresas familiares, industria manufacturera (cerámica, textil, calzado), comercio minorista.
+- **Requisitos:** Soluciones tecnológicas simples, asequibles, que no requieren una gran inversión inicial. Servicios de asesoramiento y soporte técnico para la implementación y uso continuo de IA.
+  
+**Pymes Medianas:**
 
-Oportunidades
+- **Perfil:** Empresas familiares consolidadas con departamentos administrativos separados.
+- **Requisitos:** Soluciones más avanzadas que incluyan el entrenamiento y la integración en sistemas existentes. Necesidad de formación continua para los empleados.
 
-Con lo anterior, estas son las zonas donde hay más espacio para entrar, competir o colaborar:
+### 2. Estructura Organizativa Propuesta
 
-Modelos de IA adaptados al español y valenciano/localización cultural / lingüística
+Para abordar eficazmente estas necesidades, es importante estructurar nuestra empresa de IA con flexibilidad y escalabilidad:
 
-Justicia, administración pública, servicios sociales locales, sanidad regional — donde puede haber contratos públicos o necesidad de cumplimiento reglamentario específico
+- **Etapa Semilla (3–10 personas):**
+  - CEO/Fundador: Con experiencia en tecnología e inteligencia empresarial.
+  - CTO/CTI: Lidera la investigación y desarrollo del producto.
+  - Data Scientists / ML Engineers: Responsables de crear modelos predictivos avanzados.
+  - Desarrolladores Front-End y Back-End: Construyen la interfaz de usuario y la infraestructura backend.
 
-IA explicable, trazabilidad, seguridad — esos valores tienen tirón en entornos regulados, como finanzas, farmacéutico, energía
+- **Etapa Crecimiento Inicial (10–30 personas):**
+  - Añadir un COO para manejar operaciones, y definir roles más especializados dentro del equipo técnico.
+  - Crear un departamento dedicado a ventas y alianzas estratégicas para abordar el mercado de PYMES medianas.
 
-Hubs de datos, servicios de infraestructura como servicio de inferencia, especialización en hardware/software que permita desplegar modelos localmente (on-prem / edge) para cumplir con privacidad y regulación europea
+- **Etapa de Escalamiento (30–100 personas):**
+  - Establecer puestos directivos adicionales como CFO, CPO, etc., para gestionar los distintos departamentos.
+  - Crear un departamento de soporte y operaciones para mantener el servicio al cliente y garantizar la continuidad operativa.
 
-Colaboraciones con universidades (ELIS Alicante, UPV, etc.), centros de investigación para I+D, acceder a fondos regionales / europeos
+### 3. Ofertas y Servicios a Clientes
 
-Servicios B2B para pymes: muchas pymes quieren usar IA pero no saben cómo empezar, tienen pocos recursos; hay espacio en consultoría, implementación, integración, capacitación
+**Para Microempresas:**
+- Soluciones de IA como SaaS con poco requerimiento inicial en términos de formación y mantenimiento.
+  
+**Para Pymes Medianas:**
+- Servicios de consultoría y asesoramiento en la implementación de soluciones de IA, que pueden ser personalizadas según las necesidades específicas del cliente.
 
-# Quién es Maisa?
+**Para Grandes Empresas:**
+- Proporcionar un marco completo para la innovación basada en la IA, incluyendo la integración con sistemas existentes y formación continua a los empleados.
 
+### 4. Estrategia de Marketing y Comunicación
 
-Quiénes son
+- **Identidad Corporativa:** Establecer una marca fuerte que refleje el compromiso con la innovación y la accesibilidad.
+- **Promoción en Medios Locales:** Colaborar con medios locales para aumentar la visibilidad del negocio entre PYMES y grandes corporaciones.
+- **Participación en Eventos de Negocio:** Asistir a conferencias, ferias y eventos empresariales para promover las soluciones de IA.
 
-Nombre completo: Maisa (a veces “Maisa AI”).
+### 5. Desarrollo Tecnológico
 
-Fundación: principios de 2024. 
-Emprendedores
-+1
+- **Innovación Continua:** Mantenerse al día con las últimas tendencias tecnológicas y aplicarlas en el desarrollo de nuevos productos o mejoras.
+  
+**Integraciones:** Trabajar en la creación de APIs para permitir la fácil integración de soluciones de IA con otros sistemas empresariales.
 
-Fundadores: David Villalón (CEO) y Manuel Romero (CSO). 
-EL ESPAÑOL
-+2
-EU-Startups
-+2
+### 6. Alianzas Estratégicas
 
-David Villalón venía de roles relacionados con IA aplicada / producto (fue Chief AI Officer en Clibrain, director de producto en Voicemod). 
-EL ESPAÑOL
+- **Colaboración con Universidades y Centros Tecnológicos:** Establecer relaciones sólidas con instituciones educativas y de investigación en Valencia, como ELLIS Alicante o la UPV.
+  
+**Partnerships B2B:** Buscar acuerdos estratégicos con empresas líderes en tecnología para ampliar el alcance del negocio.
 
-Manuel Romero tiene un perfil fuerte en contribuciones open source: numerosos modelos en Hugging Face, bastante reputación técnica. 
-EL ESPAÑOL
-+1
+### 7. Evaluación y Mejora Continua
 
-Ubicación: sede principal en Valencia, España, con presencia también en San Francisco, EE.UU. 
-Emprendedores
-+2
-EU-Startups
-+2
+- **Recopilación de Feedback:** Solicitar regularmente a los clientes sus impresiones sobre la calidad del servicio recibido.
+  
+**Análisis de KPIs:** Monitorizar y analizar indicadores clave de rendimiento (KPIs) para medir el progreso hacia los objetivos establecidos.
 
-Qué hacen / Propuesta de valor
+Al adoptar esta estructura organizativa y estratégica, nuestra empresa de IA estará bien posicionada para capturar el mercado tanto entre las PYMEs locales como entre las grandes corporaciones en Valencia.
 
-Producto central: agentes de IA (“digital workers”, agentes IA) con trazabilidad y auditabilidad, pensados para operaciones empresariales críticas, reguladas, exigentes. 
-Cinco Días
-+2
-EU-Startups
-+2
-
-Tecnología propia destacada:
-
-KPU (Knowledge Processing Unit): motor propio de razonamiento / procesamiento del conocimiento. Permite convertir modelos de lenguaje en agentes autónomos que ejecutan tareas complejas con menos “alucinaciones”. 
-EU-Startups
-+2
-TechCrunch
-+2
-
-Chain-of-Work (“cadena de trabajo”): cada acción ejecutada por los agentes queda registrada, con la lógica, datos, herramientas usadas: proporciona transparencia, auditabilidad. 
-Cinco Días
-+1
-
-HALP (“Human-Augmented LLM Processing”): método que incorpora intervención humana en el entrenamiento / supervisión de los agentes para mejorar fiabilidad. 
-Emprendedores
-+1
-
-Otra parte del producto: Maisa Studio — plataforma no-code / low-code que permite a usuarios no técnicos (ej. expertos de negocio) definir agentes con lenguaje natural, desplegarlos, integrarlos, sin necesidad de escribir código intensivamente. 
-Cinco Días
-+2
-EU-Startups
-+2
-
-Flexibilidad de despliegue: puede funcionar en nube segura de Maisa o mediante despliegue privado / on-premise, para cumplir requisitos de regulación/compliance. 
-EU-Startups
-+2
-TechCrunch
-+2
-
-Sectores de aplicación temprana: finanzas, fabricación (automotriz), energía, cadenas de suministro, reconciliación de transacciones, evaluación de riesgos, monitoreo, etc. 
-TechCrunch
-+2
-Cinco Días
-+2
-
-Hitos / financiación
-
-Pre-seed: finales de 2024, levantaron ~ 5 millones de dólares con participación de NFX y Village Global. 
-The SaaS News
-+1
-
-Ronda semilla reciente (agosto-septiembre 2025): 25 millones de dólares (≈ 21,4-22 millones de euros según cambio) la mayor ronda semilla registrada hasta ahora en España para una IA nativa. Liderada por Creandum, con participación de Forgepoint Capital International (vía alianza europea con Banco Santander), NFX, Village Global. 
-Valencia Plaza
-+3
-Cinco Días
-+3
-TechCrunch
-+3
-
-Uso de los fondos: reforzar equipo en I+D (IA), ingeniería, ventas, atención al cliente; expansión internacional (Europa y Norteamérica). 
-Cinco Días
-+1
-
-Crecimiento de plantilla: estimado que van de ~35 personas actualmente hacia unas 65 personas para Q1 2026. 
-TechCrunch
-+1
-
-Reconocimiento: mencionada junto a grandes como Google o Amazon en informes de Gartner como uno de los proveedores destacados de agentes de IA (“AI agent vendors”). 
-Cinco Días
-+1
-
-Tamaño / estructura interna conocida
-
-Equipo técnico bastante fuerte debido al perfil de los fundadores. Se espera que gran parte del hiring vaya a R&D / ingeniería, dado su enfoque tecnológico de diferenciación. 
-EU-Startups
-+1
-
-Actualmente (~agosto-septiembre 2025) alrededor de 35 personas en plantilla, camino a ~65 para inicios de 2026. 
-TechCrunch
-+1
-
-Áreas principales internas: investigación y desarrollo en IA, ingeniería, ventas, atención al cliente. También operación/comercial para su despliegue en clientes exigentes. 
-EU-Startups
-+1
-
-Ventajas competitivas y retos
-Ventajas
-
-Confianza / auditabilidad: muchas empresas dudan de adoptar IA porque no pueden explicar los resultados, revisar errores o cumplir normativas. Maisa se posiciona justo ahí.
-
-No-code / citizen developer: permite a no técnicos implementar agentes, lo que reduce barreras de entrada, dependencia de desarrolladores.
-
-Modelo agnóstico: al no depender de un único modelo de lenguaje, puede adaptar a distintos backends y exigencias del cliente.
-
-Mercado regulado: sectores como banca, energía, automotriz tienen altos requisitos de compliance, trazabilidad, fiabilidad; si conquistas ahí, las barreras de entrada para competidores pueden ser mayores.
-
-Financiación fuerte + reconocimiento internacional: les da músculo para expandir rápido, captar talento, mejorar su producto.
-
-Retos
-
-Competencia fuerte: muchas empresas (grandes y emergentes) buscan lo mismo: agentes auditable, confiables, IA “explicable”. El estándar de “sin alucinaciones” es difícil de cumplir consistentemente.
-
-Escalabilidad vs personalización: atender clientes regulados suele requerir adaptaciones específicas, certificaciones, integraciones complicadas, lo que puede ralentizar crecimiento.
-
-Talento: captar personal de alto nivel en IA, ingeniería, seguridad, cumplimiento legal. Comunidad técnica y regulatoria en España aún en desarrollo.
-
-Infraestructura / costes operativos: despliegues privados, auditorías, seguridad, cumplimiento de leyes de datos, etc., tienen costes elevados.
-
-Validación continua y reputación: deben demostrar en la práctica que su Chain-of-Work, su KPU y HALP funcionan y reducen riesgos; los clientes serán exigentes y cualquier bug o error puede costar mucho en reputación.
-
-Perspectivas y lo que podría venir
-
-Es muy probable que sus próximos 12-18 meses vean:
-
-Incremento notable en la plantilla y fortalecimiento de equipo técnico (IA, ML, seguridad, devops) y comercial (ventas corporativas).
-
-Contratos piloto / adopciones productivas en más empresas grandes, especialmente internacionales, que requieren servicios de confianza.
-
-Profundización del producto: mejoras en KPU, más conectores, mejores integraciones con sistemas empresariales ya existentes, quizás certificaciones de seguridad/compliance (ISO, GDPR, AI Act UE).
-
-Expansión geográfica: presencia en Norteamérica, quizá oficinas de representación, clientes en EE.UU. y Europa fuera de España.
-
-Potenciales rondas adicionales si cumplen hitos, en Serie A o extensión de ronda semilla si necesitan recursos para competir con grandes players.
-
-
-Analizar perfil personal:
-https://www.linkedin.com/in/manuel-romero-cs/ - MAISA
-```
-
-### Empresas tipo indicando la estructura organizativa y las funciones de cada departamento
-
-```markdown
-# Posibles clientes: PYME Valenciana
-
-1. Panorama general del tejido empresarial en la Comunitat Valenciana
-
-Dominio de la pyme y microempresa
-
-Más del 95 % de las empresas de la Comunitat tienen menos de 10 trabajadores (microempresas).
-
-Sectores tradicionales: industria (cerámica en Castellón, textil en Alcoy, calzado en Elche, agroalimentario en toda la región), comercio, servicios y turismo.
-
-Estas empresas son ágiles, pero con recursos limitados para innovación tecnológica: externalizan mucho y buscan soluciones SaaS sencillas y de coste contenido.
-
-Pymes medianas (50–250 trabajadores)
-
-Suelen ser empresas familiares consolidadas en industria/manufactura o distribución.
-
-Algunas ya tienen departamentos TIC pequeños o externalizados, lo que las convierte en candidatas naturales a adoptar servicios de IA “llave en mano”.
-
-Grandes empresas
-
-Pocas en número, pero con impacto: Ford Almussafes, Mercadona, Baleària, Stadler, Power Electronics, etc.
-
-Aquí ya hay departamentos internos de I+D+i, estructuras jerárquicas más complejas, y capacidad para proyectos a medida, incluso colaboraciones con universidades (UPV, UA, UV).
-
-Son las que suelen absorber proyectos piloto de gran escala (gemelos digitales, logística, mantenimiento predictivo, etc.).
-
-2. Estructura organizativa típica
-
-Microempresas y pequeñas:
-
-Propietario–gerente + 1–2 técnicos/administrativos.
-
-La toma de decisiones es muy centralizada, poco formalizada.
-
-La digitalización depende casi siempre de subvenciones o asesoramiento externo.
-
-Pymes medianas:
-
-Dirección general (propietario o familia) + áreas separadas: producción, comercial, administración/finanzas.
-
-Puede haber un responsable TIC o sistemas, pero la IA no está integrada todavía; lo ven como un añadido en productividad/marketing.
-
-Grandes empresas:
-
-Dirección general + comité ejecutivo con áreas funcionales (finanzas, operaciones, RRHH, innovación).
-
-Departamentos propios de IT/innovación con perfiles de ingenieros.
-
-Estructura jerárquica más clara y capacidad de trabajar en proyectos de IA con partners locales o internacionales.
-
-3. Particularidad de las empresas de IA valencianas
-
-Muchas startups nacen como spin-offs universitarios (UPV, UV, UA, ELLIS Alicante).
-
-Suelen arrancar como microempresas con equipos muy especializados (3–10 personas): data scientists, ingenieros de software, un perfil de negocio.
-
-Dependencia inicial de rondas de financiación y aceleradoras (Lanzadera en Marina de Empresas, por ejemplo).
-
-Si crecen, adoptan estructura de scale-up: CEO, CTO, responsable de operaciones, equipo técnico y marketing internacional.
-
-Ejemplo: Maisa (Valencia), que con 25 M$ de inversión ya apunta a estructura de scale-up con más de 50 empleados a corto plazo.
-
-4. Implicaciones para una empresa de IA en Valencia
-
-Mercado principal: pymes locales (que son muchas y con poca IA). Necesitan soluciones empaquetadas y asequibles.
-
-Oportunidades grandes: alianzas con grandes compañías valencianas (Mercadona, Baleària, etc.) para proyectos piloto de impacto.
-
-Modelo de crecimiento: empezar pequeño (consultoría/servicios SaaS para pymes) y escalar hacia corporativos o incluso ofrecer plataforma exportable al resto de España/Europa.
-
-# Estructura de las empresas de IA
-
-📊 Tamaño promedio
-
-Micro y pequeñas empresas (3–20 personas):
-
-Son la gran mayoría.
-
-Nacen como startups o spin-offs universitarias (UPV, UV, UA, UMH, o ligadas a ELLIS Alicante).
-
-En fase inicial se sostienen con incubadoras (Lanzadera, Demium, Innsomnia), ayudas regionales (IVACE, RETECH, CDTI) o proyectos piloto con grandes clientes.
-
-Scale-ups (20–100 personas):
-
-Mucho menos frecuentes, pero existen casos como Maisa (Valencia), que tras rondas de inversión ha empezado a crecer rápidamente hacia estructura de scale-up.
-
-Entran en rondas semilla o Serie A y comienzan a profesionalizar gestión.
-
-Grandes (>100 personas):
-
-Prácticamente inexistentes en Valencia como nativas de IA.
-
-Los que llegan a ese tamaño suelen ser filiales o hubs de multinacionales (ej. NTT DATA hub de IA en la CV).
-
-🏗️ Estructura empresarial típica
-1. Etapa semilla (3–10 personas)
-
-CEO/fundador: perfil mixto (negocio + tecnología).
-
-CTO: responsable técnico de producto/modelos.
-
-Data scientists / ML engineers (1–3).
-
-Backend/frontend developer (1–2).
-
-Business developer/marketing (opcional o compartido entre fundadores).
-
-➡️ Estructura muy horizontal, todos hacen de todo.
-
-2. Etapa early growth (10–30 personas)
-
-CEO + COO/CTO.
-
-Equipo técnico dividido en:
-
-Data/IA: entrenamiento de modelos, integraciones.
-
-Software/Producto: APIs, front, UX.
-
-Equipo negocio: ventas, alianzas, marketing digital.
-
-Soporte/operaciones: proyectos, administración.
-
-➡️ Comienzan a separar producto de servicios, y a crear áreas diferenciadas.
-
-3. Scale-up (30–100 personas)
-
-C-level definido: CEO, CTO, COO, CPO (producto), CFO.
-
-Departamentos:
-
-I+D en IA (a menudo con colaboraciones universidad-empresa).
-
-Desarrollo de software (producto SaaS o soluciones).
-
-Comercial y Customer Success (clientes B2B).
-
-Marketing y comunicación.
-
-Administración/finanzas.
-
-Estructura más jerárquica, con managers intermedios.
-
-➡️ Es la etapa que muy pocas alcanzan todavía en la CV, pero hacia donde apuntan startups con rondas grandes (ej. Maisa).
-```
 
 <a id="identificacion-y-priorizacion-de-necesidades"></a>
 ## Identificación y priorización de necesidades.
 
-### Necesidades más demandadas a las empresas
+### Introducción a los ejercicios
 
-```markdown
-Que necesita la empresa valenciana
-
-Para que una pyme valenciana desarrolle, lance y mantenga con éxito productos de IA, debe contar con varios componentes clave. Algunos internos, otros externos (ecosistema, regulaciones, financiación). Aquí van los más importantes:
-
-Elemento	Detalles / lo que implica
-Talento técnico	Tener en su plantilla o asociado personal con conocimientos en ML/IA, ingeniería de datos, DevOps, seguridad de datos, UX para IA. Sin esto, dependes de terceros o te falta calidad.
-Infraestructura tecnológica	Computación para entrenar modelos (GPU/TPU o acceso a nube), almacenamiento de datos, capacidades de inferencia, pipelines de datos limpios, herramientas de monitorización.
-Datos de calidad	Datos suficientes, bien etiquetados, bien estructurados, relevantes para el problema que quieras resolver. En muchos casos falta esa base de datos interna o acceso a datos externos legales y limpios.
-Acceso a financiamiento	Capital para I+D, para prototipar, para pruebas piloto, para escalar. Subvenciones regionales, nacionales, fondos europeos; también inversión privada.
-Comprensión del mercado	Saber qué necesidad concreta resuelves, quién será cliente, precio que aceptan, barreras a la compra, regulación sectorial. Productos de IA “de laboratorio” que no se adaptan al cliente no escalan.
-Regulación, privacidad, cumplimiento legal	GDPR, leyes locales, normativas sectoriales (salud, finanzas, energía, etc.). Necesitan asegurar que su producto respeta derechos, tiene transparencia, auditabilidad.
-Interoperabilidad / integración	El producto de IA debe integrarse con sistemas ya existentes en la empresa cliente (ERP, CRM, sistemas de producción, logística, etc.). Interfaces limpias, APIs, conectores son clave.
-Cultura interna de adopción	Resistencias al cambio, formación del personal, mindset orientado a iterar, aprender de errores. Empezar con pruebas piloto, no pretender darlo todo desde el primer día.
-Soporte, mantenimiento y confiabilidad	Sistemas de monitorización, detección/corrección de errores, feedback con usuarios. Si tu IA “falla” mucho, se rompe confianza.
-Estrategia de escalabilidad y comercialización	Plan para crecer fuera del cliente piloto, tanto en producto (modularidad, robustez) como en mercado (¿solo CV? ¿España? ¿Europa?). También estrategia de precios, canales de venta, soporte postventa.
-
-# Análisis de necesidades
-
-Diagnóstico claro de necesidades
-
-No saben por dónde empezar. Te pedirán que analices su negocio y les digas:
-
-qué procesos se pueden automatizar,
-
-cuánto costará,
-
-qué beneficios tendrán (ahorro, rapidez, competitividad).
-
-Necesitan consultoría simple y pedagógica.
-
-Soluciones empaquetadas y fáciles de usar
-
-No quieren proyectos de I+D eternos. Quieren SaaS / servicios listos para usar.
-
-Ejemplos:
-
-Chatbots de atención al cliente en español/valenciano.
-
-Clasificación automática de facturas y documentos.
-
-Análisis de ventas y predicción de demanda.
-
-Control de calidad con visión artificial (fabricación, cerámica, calzado).
-
-Coste predecible y ajustado
-
-La mayoría son microempresas (<10 empleados). Necesitan precios asequibles: cuota mensual o por uso, sin grandes inversiones iniciales.
-
-Modelos tipo suscripción (ej. 50–200 €/mes por servicio básico) funcionan mejor que proyectos cerrados de 30 000 €.
-
-Integración con lo que ya tienen
-
-Trabajan con ERP básicos, hojas Excel, software de facturación, CRMs sencillos.
-
-Necesitan que tu IA se conecte fácilmente (APIs, módulos, conectores listos).
-
-Si les dices que deben cambiar todo su software, no entrarán.
-
-Cumplimiento legal y seguridad de datos
-
-Les preocupa mucho GDPR (protección de datos de clientes).
-
-Necesitan que les garantices:
-
-datos dentro de la UE,
-
-privacidad,
-
-trazabilidad de las decisiones de la IA.
-
-Formación y acompañamiento
-
-No basta con instalar un sistema. Necesitan que enseñes a sus equipos cómo usarlo.
-
-Formación breve, práctica, y soporte continuado (“llama si tienes un problema”).
-
-Resultados rápidos y visibles
-
-Quieren ROI en semanas/meses, no en años.
-
-Por ejemplo: “Con este sistema, tus clientes obtienen respuesta automática en 24 h y reduces 40 % de llamadas”.
-
-Soporte humano cercano
-
-Valoran que la empresa sea de aquí (Valencia) para tener a quién llamar y poder reunirse en persona.
-
-Es una ventaja competitiva frente a grandes multinacionales impersonales.
-
-🎯 Oportunidades claras para ti
-
-Sector industrial valenciano: cerámica, textil, calzado, agroalimentario → visión artificial, predicción de demanda, mantenimiento predictivo.
-
-Comercio y turismo: chatbots multilingües, asistentes de reservas, análisis de reseñas.
-
-Administración y despachos: automatización de facturas, contratos, clasificación documental.
-
-Servicios profesionales (abogados, asesorías): IA para revisar documentos, generar borradores, responder clientes.
-
-Pymes exportadoras: traducción automática especializada, análisis de mercados.
-```
+Esta carpeta contiene ejercicios que exploran la identificación y priorización de necesidades para el desarrollo de productos de Inteligencia Artificial (IA) orientados a pequeñas y medianas empresas (Pymes) en Valencia. Los problemas abordados giran en torno al análisis del mercado, la detección de oportunidades de negocio basadas en IA, y la definición de proyectos tecnológicos que responden a las demandas específicas de estas empresas. Estos ejercicios ayudarán a los estudiantes a comprender cómo identificar necesidades empresariales reales, diseñar soluciones prácticas y escalables, y estructurar modelos de negocio viables para la implementación de tecnologías emergentes en entornos Pyme.
 
 ### Oportunidades de negocio previsibles en el sector
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este documento presenta dos propuestas de productos mínimo viables (MVP) orientados a pequeñas y medianas empresas (pymes) en Valencia. La primera opción es un clasificador automático de facturas y documentos que utiliza tecnologías como el reconocimiento óptico de caracteres (OCR) e inteligencia artificial para extraer información relevante de los documentos digitales o imágenes, facilitando la gestión administrativa y contable para las pymes.
+
+La segunda propuesta es un chatbot multilingüe diseñado para ofrecer atención al cliente en varios idiomas, incluyendo valenciano. Este chatbot automatiza respuestas a preguntas frecuentes de los clientes, lo que libera tiempo a los empleados y mejora la experiencia del cliente con respuestas inmediatas.
+
+Ambas propuestas vienen acompañadas de modelos de negocio detallados, indicando posibles planes de suscripción y opciones de pago. También se discute cómo cada producto podría escalar en el futuro, incluyendo la integración con sistemas ya existentes como software de gestión empresarial (ERP) o plataformas de comercio electrónico.
+
+Además, el texto sugiere varias formas de diferenciar el chatbot para que sea más atractivo y útil para las pymes valencianas, incluyendo su integración directa con WhatsApp Business y la capacidad de realizar acciones concretas como confirmar reservas o generar presupuestos. También se menciona una alternativa al chatbot: un dashboard de ventas inteligente que proporciona información analítica sencilla a las pymes para mejorar sus decisiones comerciales.
+
+Finalmente, el texto propone crear una matriz comparativa entre los dos productos (chatbot y dashboard) para evaluar aspectos como la inversión inicial necesaria, la facilidad de venta en Valencia, el tiempo necesario para ver un retorno sobre la inversión (ROI), y las posibilidades de escalabilidad.
+
+`002-Oportunidades de negocio previsibles en el sector`
 
 ```
 IA
@@ -707,352 +352,182 @@ Otro MVP muy viable sería:
 ¿Quieres que te arme una **matriz comparativa rápida (chatbot vs dashboard)** con: inversión inicial, facilidad de venta en Valencia, tiempo para ver ROI y escalabilidad?
 ```
 
-### Tipo de proyecto requerido para dar respuesta a las demandas previstas
+### Actividades propuestas
 
-```markdown
-Tipo de proyecto es un desarrollo informático
+### Actividad 1: Identificación y Priorización de Necesidades Empresariales
 
-Servidor de IA con potencia suficiente para arrancar un hilo, y potencia deseable para mantener varios hilos
-Para un primer prototipo puedo usar una API externa - pero siendo realistas, necesito LLM instalado en local en el que pueda tener más control
+**Descripción:** Los alumnos deben analizar el archivo "001-Necesidades má demandadas a las empresas.md" para identificar las necesidades clave que una empresa valenciana necesita cubrir al implementar productos basados en IA. Deben priorizar estas necesidades y explicar por qué son importantes para la empresa.
 
-Fondo de modelo instalado - hoy (26 sept- ollama) - estoy analizando vllm que son modelos más escalables y distribuidos
+**Objetivo:** Aprender cómo diagnosticar problemas empresariales y priorizar soluciones tecnológicas según su impacto.
 
-Python como lenguaje para gestionar la IA
+### Actividad 2: Diseño de una Solución Empresarial
 
-Por una parte voy a tener que crear un front web que se conecte a un back
-Por otra parte, voy a tener que conectar con la API de whatsapp/telegram
+**Descripción:** Los estudiantes deben diseñar un producto de IA que resuelva uno o más de los desafíos identificados en el archivo "001-Necesidades má demandadas a las empresas.md". Deben describir brevemente cómo funciona y cuáles son sus beneficios para la empresa.
 
-Este proyecto busca el progreso y la mejora tecnológica de los negocios de la zona geográfica de Valencia, CV, España
-```
+**Objetivo:** Entender el proceso de desarrollo de productos tecnológicos que responden a necesidades empresariales concretas.
 
-### Características específicas del proyecto según los requerimientos
+### Actividad 3: Análisis de Casos de Uso
 
-```markdown
-x servidores con potencia suficiente como para ejecutar un modelo
-cuantos servidores depende de cuantos clientes
-hay un "problema" de escalabilidad
+**Descripción:** Los alumnos deben analizar los ejemplos proporcionados en "002-Oportunidades de negocio previsibles en el sector" y crear un diagrama de casos de uso para uno de estos productos (chatbot, dashboard, etc.). Deben incluir los actores involucrados y las interacciones entre ellos.
 
-necesito un equipo de desarrollo (hardware)
+**Objetivo:** Aprender a documentar y analizar la funcionalidad de sistemas informáticos basándose en necesidades empresariales.
 
-no necesito personal informático
+### Actividad 4: Diseño de Arquitectura Tecnológica
 
-necesitaría personal comercial
+**Descripción:** Los estudiantes deben diseñar una arquitectura tecnológica básica para uno de los productos descritos ("chatbot", "dashboard", etc.), utilizando Python y Flask o Node.js. Deben incluir diagramas que muestran las interacciones entre el front-end, back-end y API externa.
 
-necesitaría personal administrativo
+**Objetivo:** Aprender a diseñar sistemas informáticos complejos basándose en necesidades empresariales específicas.
 
-quizas una oficina, x ordenadores, red, mobiliario, luz, agua
-```
+### Actividad 5: Plan de Negocio Inicial
+
+**Descripción:** Los alumnos deben crear un plan de negocio inicial para uno de los productos propuestos, incluyendo detalles sobre la inversión inicial, costos recurrentes, ingresos y el tiempo estimado para obtener beneficios significativos (ROI).
+
+**Objetivo:** Entender cómo se relacionan las soluciones tecnológicas con aspectos comerciales como marketing, ventas y finanzas.
+
+### Actividad 6: Evaluación de Escalabilidad
+
+**Descripción:** Los estudiantes deben evaluar la escalabilidad del producto propuesto, considerando factores técnicos (como el uso de servidores) y empresariales (como necesidades de personal comercial e informático).
+
+**Objetivo:** Aprender a prever los desafíos de crecimiento en proyectos tecnológicos y cómo abordarlos desde una perspectiva empresarial. 
+
+### Actividad 7: Presentación Final del Proyecto
+
+**Descripción:** Los alumnos deben preparar una presentación final que incluya todos los aspectos anteriores (necesidades identificadas, solución propuesta, diagramas de casos de uso, arquitectura tecnológica y plan de negocio) para un supuesto cliente empresarial.
+
+**Objetivo:** Desarrollar habilidades de comunicación efectiva al presentar proyectos complejos a clientes no técnicos. 
+
+Estas actividades pretenden cubrir desde la identificación de necesidades hasta el desarrollo final del producto, pasando por aspectos tecnológicos y comerciales, para proporcionar una experiencia completa en el desarrollo de soluciones basadas en IA para empresas locales.
+
 
 <a id="identificacion-de-los-aspectos-que-facilitan-o-dificultan-el-desarrollo-de-la-posible-intervencion"></a>
 ## Identificación de los aspectos que facilitan o dificultan el desarrollo de la posible intervención
 
-### Obligaciones fiscales, laborales y de prevención de riesgos y sus condiciones de aplicación
+### Introducción a los ejercicios
 
-```markdown
-Obligaciones fiscales, laborales y de prevención de riesgos y sus condiciones de aplicación
+Entiendo tus preocupaciones sobre los riesgos potenciales asociados al desarrollo excesivo y la posible "burbuja" en torno a la Inteligencia Artificial (IA). Es cierto que existen paralelos con otros ciclos económicos pasados, como la burbuja de internet de 1999-2000. Vamos a analizar estos riesgos y cómo manejarlos:
 
-Registro público de algoritmos en la CV (Comunitat Valenciana), para transparencia de algoritmos en servicios públicos.
+### Riesgo: Sobrevaloración de empresas de IA
 
-Generales:
+1. **Sobrevaluación de Empresas**:
+   - Muchas startups de IA han recibido financiamiento sin probar su viabilidad comercial.
+   - Esto puede llevar a una sobreestimación del valor real de estas empresas.
 
-alta como autónomo
-alta como empresa
+2. **Investigación No Comercializable**:
+   - Algunos proyectos de IA pueden ser avanzados tecnológicamente, pero no tienen aplicaciones comerciales inmediatas o viables.
 
-IVA más declaración 303 trimestral
+### Riesgo: Explosión de la Burbuja
 
-IRPF autonomo o impuesto de sociedades
+1. **Colapso Financiero**:
+   - Un pinchazo en el mercado podría causar una crisis financiera similar a la que ocurrió con la burbuja de internet.
+   
+2. **Valle del Silencio**:
+   - Después de un pinchazo, puede surgir un "valle del silencio" donde las inversiones se vuelven más cautelosas y el desarrollo tecnológico se ralentiza.
 
-retenciones y modelos periódicos
+### Ejemplos Históricos
 
-obligaciones fiscales como libros de ingresos
+1. **Burbuja.com (1999-2000)**:
+   - Empresas como [Terra] fueron financiadas masivamente sin un plan claro de negocio sostenible.
+   - La sobrevaloración llevó a la explosión y posterior recesión.
 
-Obligaciones fiscales específicas de un SaaS de IA
+### Manejo del Riesgo
 
-Tratamiento de ingresos digitales
+1. **Evaluación de Viabilidad Comercial**:
+   - Antes de invertir, evaluar cuidadosamente si el proyecto tiene un modelo de negocio viable en el corto y mediano plazo.
+   
+2. **Foco en Aplicaciones Prácticas**:
+   - Priorizar proyectos que tengan aplicaciones prácticas y beneficios inmediatos.
 
-Aunque vendas un “chatbot IA”, fiscalmente se considera prestación de servicios digitales.
+3. **Diversificación de Inversiones**:
+   - Diversificar las inversiones para minimizar el riesgo de una única burbuja tecnológica.
 
-Si facturas a particulares de la UE → se aplica el IVA del país de destino (régimen OSS, ventanilla única).
+4. **Estrategia a Largo Plazo**:
+   - Pensar en estrategias que consideren tanto el corto como el largo plazo, no solo el rápido retorno financiero.
 
-Si facturas a empresas de la UE con VAT válido → operación intracomunitaria (IVA 0%, pero hay que declararlo en modelo 349).
+### Consideraciones Adicionales
 
-GDPR y costes asociados (no es un impuesto, pero afecta):
+1. **Transparencia y Rendición de Cuentas**:
+   - Mejorar la transparencia en las operaciones y rendir cuentas sobre los avances tecnológicos.
+   
+2. **Regulación y Ética**:
+   - Implementar medidas regulatorias y éticas para garantizar que el desarrollo de IA sea responsable y beneficioso a largo plazo.
 
-Tendrás que documentar el cumplimiento de protección de datos.
+3. **Cultura Empresarial Inclusiva**:
+   - Fomentar una cultura empresarial inclusiva y colaborativa, en lugar de un enfoque competitivo excesivo.
 
-Si gestionas datos sensibles (clientes de tus clientes), podrías necesitar un Delegado de Protección de Datos (DPD).
+### Conclusión
 
-Esto conlleva gastos de consultoría legal recurrentes, que son fiscalmente deducibles.
+Aunque existen riesgos significativos asociados con la posible explosión de una burbuja financiera en torno a la IA, estos pueden mitigarse con estrategias prudentes. El objetivo es aprovechar el potencial de la tecnología sin caer en los excesos del pasado.
 
-Subvenciones y deducciones
+Si tienes más preguntas o necesitas un análisis más detallado de alguno de estos puntos, no dudes en decírmelo.
 
-Muchas líneas de ayuda (IVACE, fondos europeos, ENISA) obligan a justificar gastos de I+D.
+### Actividades propuestas
 
-Existe la deducción fiscal por I+D+i en el Impuesto de Sociedades (puede llegar al 42%).
+Entiendo tus preocupaciones sobre los riesgos asociados con una posible "burbuja financiera" en torno a la inteligencia artificial (IA). Vamos a estructurar esta información para proporcionar un contexto claro y analizar algunos aspectos clave:
 
-Importante llevar bien la contabilidad para aprovecharlo.
+### Riesgo de Expansión Excesiva
 
-Licencias de software y royalties
+1. **Sobrevaloración de Empresas de IA**:
+   - Al igual que sucedió con las empresas relacionadas con Internet durante la burbuja del dot-com en 1999-2000, muchas startups y empresas de tecnología se están capitalizando a un ritmo muy rápido.
+   - Esto puede llevar a una sobrevaloración exagerada del potencial real de estas empresas.
 
-Si usas APIs de terceros (ej. OpenAI, WhatsApp Cloud API), son gastos deducibles.
+2. **Financiamiento Excesivo**:
+   - Se está invirtiendo dinero en proyectos que pueden no tener una base sólida o que aún están en etapas inmaduras de desarrollo.
+   - Esto puede llevar a un crecimiento rápido pero poco sostenible, similar al que se observó durante la burbuja del dot-com.
 
-Pero si revendes servicios de un tercero, ojo: debes repercutir IVA en tu factura aunque el proveedor sea extranjero (mecanismo de inversión del sujeto pasivo).
+### Precedente: La Burbuja del Dot-Com
 
-Obligaciones con la Seguridad Social
+1. **Sobrevaloración**:
+   - Durante la burbuja del dot-com, las empresas relacionadas con Internet fueron financiadas en masa.
+   - Se creía que cualquier proyecto basado en Internet sería exitoso sin importar su viabilidad real.
 
-Aunque sea SaaS, si contratas personal técnico o comercial → alta en Régimen General.
+2. **Caso Terra**:
+   - Un ejemplo notorio fue el caso de "Terra", una empresa que combinó operaciones de medios tradicionales con sitios web.
+   - A pesar de ser criticada por sus métodos de negocio poco claros, Terra obtuvo inversiones significativas antes del pinchazo.
 
-Posibilidad de bonificaciones si contratas perfiles jóvenes o I+D.
+### Consecuencias Post-Burbuja
 
-Muy buen punto: una cosa es hablar de obligaciones fiscales; otra muy distinta (y emergente) es lo que la normativa de **transparencia algorítmica / gobernanza de IA** puede exigirte como proveedor o usuario de sistemas de IA. Aquí va un panorama con lo que hasta hoy existe, lo que está en tramitación, y las obligaciones (reales o previsibles) que podrías tener que cumplir:
+1. **Valle de Precaución**:
+   - Después del pinchazo de la burbuja del dot-com, se observó una fase prolongada de recesión en el sector tecnológico.
+   - Durante este período, las empresas y los inversores fueron más cautelosos.
 
----
+2. **Rebrote Sostenible**:
+   - Con el tiempo, después del valle de precaución, la industria tecnológica se recuperó pero con un crecimiento más estable y sostenido.
+   - Las empresas que sobrevivieron a la crisis se centraron en modelos comerciales sólidos.
 
-## 📚 Lo que ya existe / se está desplegando
+### Aplicación al Sector de IA
 
-### Registro de algoritmos en la Comunitat Valenciana (“GVA ConfIA”)
+1. **Riesgo de Pinchazo**:
+   - El sector de IA está actualmente experimentando un crecimiento acelerado y una financiación masiva.
+   - Sin embargo, si no se gestiona adecuadamente, este rápido aumento puede llevar a una eventual caída repentina.
 
-* La Generalitat Valenciana ha lanzado un registro público de algoritmos llamado **GVA ConfIA** para que los ciudadanos conozcan cuándo se usa un algoritmo, con qué finalidad, qué datos lo alimentan y qué garantías existen frente a sesgos o decisiones injustas. ([DGTIC][1])
-* En la actualidad está en fase piloto, e inicialmente contempla algoritmos de ámbitos como salud, educación y medioambiental. ([ESMARTCITY][2])
-* Este registro es una obligación de **publicidad activa de la administración autonómica valenciana**, para los algoritmos que esta utilice, bajo los principios de transparencia. ([Universitat de València][3])
+2. **Valle de Precaución en IA**:
+   - Si la burbuja de IA explota, es probable que veamos un período similar al valle de precaución.
+   - Los inversores y las empresas serán más cautelosos con respecto a nuevas tecnologías emergentes.
 
-Importante: este registro **no implica automáticamente** que todas las empresas privadas deban inscribir sus algoritmos allí. Se dirige principalmente a las entidades públicas que usan sistemas automatizados para toma de decisiones administrativas. ([Open Government Partnership][4])
+3. **Crecimiento Sostenible Post-Pinchazo**:
+   - Una vez superada esta fase inicial, el sector puede experimentar un crecimiento más estable y sostenido.
+   - Las empresas que sobreviven se centrarán en modelos comerciales sólidos y aplicaciones prácticas de IA.
 
----
+### Mitigación de Riesgos
 
-## ⚖️ Normativa europea y española sobre IA y transparencia algorítmica
+1. **Análisis Financiero Riguroso**:
+   - Inversores e inversores deben realizar análisis financieros rigurosos antes de invertir.
+   
+2. **Modelo Comercial Claro**:
+   - Las empresas necesitan tener modelos comerciales claros y viables que no dependan solo del hype tecnológico.
 
-Para saber qué obligaciones tienes hoy o próximamente, conviene mirar el nuevo marco regulador europeo y cómo se traslada a España:
+3. **Énfasis en Aplicaciones Prácticas**:
+   - El foco debe estar en desarrollar aplicaciones prácticas de IA con un valor real para los usuarios finales.
+   
+4. **Regulación Transparente**:
+   - Una regulación transparente y efectiva puede ayudar a mitigar riesgos innecesarios.
 
-1. **Reglamento de Inteligencia Artificial (IA Act / Ley de IA de la UE)**
+### Conclusión
 
-   * El Reglamento de IA de la UE (aprobado en 2024) establece exigencias de transparencia, explicabilidad, trazabilidad y comunicación de información a los usuarios en determinados sistemas de IA. ([Parlamento Europeo][5])
-   * Los sistemas considerados de **alto riesgo** estarán sujetos a obligaciones más estrictas (auditorías, documentación técnica, vigilancia, evaluación de riesgos). ([Parlamento Europeo][5])
-   * Para sistemas más “ligeros”, habrá obligaciones de transparencia mínimas (por ejemplo, informar al usuario que está interactuando con IA, límites del sistema, recomendaciones de uso). ([Agencia Española de Protección de Datos][6])
+El sector de la inteligencia artificial está en una etapa similar a la burbuja del dot-com, con un crecimiento acelerado pero potencialmente excesivo. Sin embargo, siguiendo las lecciones aprendidas de anteriores burbujas, es posible mitigar estos riesgos y asegurar un futuro sostenible para la IA.
 
-2. **Transparencia-RGPD / obligaciones de información cuando hay tratamiento de datos personales**
+¿Quieres profundizar en algún aspecto particular o necesitas más detalles sobre cómo prepararse para este tipo de escenario?
 
-   * Bajo el RGPD y su desarrollo en España (LOPDGDD), ya tienes obligaciones de transparencia hacia los usuarios cuyos datos procesas: informar qué datos, con qué finalidad, quién es responsable, derechos, etc. ([Agencia Española de Protección de Datos][6])
-   * Cuando la IA intervenga en decisiones automatizadas que afecten a las personas, hay obligaciones adicionales de información y posibilidad de interponer recursos humanos si la decisión les perjudica. ([Agencia Española de Protección de Datos][6])
-
-3. **Ley de Igualdad de Trato / no discriminación**
-
-   * La Ley 15/2022 para la igualdad de trato incorpora obligaciones a evitar que las decisiones automatizadas basadas en algoritmos discriminen por razón de cualquier condición personal (sexo, origen, edad, discapacidad, etc.). ([Wikipedia][7])
-   * Si tu sistema “decide” algo (o da recomendaciones) que puede tratar diferentemente a grupos protegidos, debes asegurarte de pruebas contra sesgos, auditorías, transparencia en criterios.
-
-4. **Obligaciones futuras / sanciones y cumplimiento exigente**
-
-   * Las autoridades nacionales (como la Agencia Española de Supervisión de la Inteligencia Artificial — AESIA) serán responsables de supervisar el cumplimiento de la normativa de IA en España. ([Wikipedia][8])
-   * Si incumples obligaciones de transparencia, no explicas decisiones automatizadas, no haces auditorías o generas discriminaciones, podrías estar sujeto a sanciones administrativas (el proyecto de IA Act prevé multas para incumplimientos). ([Computing][9])
-   * A partir de 2026 algunas obligaciones de etiquetado de contenido generado por IA entrarán en vigor (que los contenidos generados con IA deben indicar que lo son) según el Reglamento de IA. ([Cinco Días][10])
-
----
-
-## 🧾 Qué obligaciones específicas podrías tener para tu proyecto (chatbot / SaaS IA)
-
-Partiendo del proyecto que quieres construir (chatbot IA / SaaS con procesamiento automático), aquí las obligaciones concretas que deberías contemplar:
-
-| Obligación                                        | Qué implica para tu proyecto                                                                                                                                                      |
-| ------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Transparencia al usuario**                      | Informar claramente que el usuario está conversando con un sistema de IA, no con un humano, y cuáles son las limitaciones del sistema.                                            |
-| **Documentación técnica / trazabilidad**          | Mantener documentación interna que describa cómo se entrena el modelo, con qué datos, qué versiones del modelo usas, métricas de sesgo, logs que permitan reconstruir decisiones. |
-| **Explicabilidad**                                | Si el chatbot toma decisiones (ej. recomendar un producto, rechazar una petición), debes poder explicar de forma comprensible por qué lo hizo.                                    |
-| **Evaluación de riesgos / auditorías**            | Análisis de riesgos en fases de diseño: qué puede salir mal (sesgo, discriminación, errores), mitigaciones, controles. Auditoría periódica del sistema.                           |
-| **Protección de datos / conformidad RGPD**        | Si el chatbot maneja datos personales (nombres, emails, historial), cumplir con consentimiento, derechos de acceso, rectificación, supresión, portabilidad.                       |
-| **No discriminación**                             | Asegurarte de que el algoritmo no discrimine grupos protegidos (sexo, edad, origen). Realizar pruebas de equidad.                                                                 |
-| **Etiquetado de contenido IA (a partir de 2026)** | Si el sistema genera texto, audio, imagen o vídeo, deberás marcarlo como generado por IA cuando la intervención sea sustancial.                                                   |
-| **Supervisión humana**                            | Tener mecanismos de supervisión humana, posibilidad de “recurrir” la respuesta del chatbot a un operador humano si el usuario lo solicita o si la decisión es crítica.            |
-| **Conservación de logs / registros**              | Conserva registro de interacciones, decisiones del sistema, versiones del modelo, para auditoría futura o responsabilidad.                                                        |
-| **Actualización / mantenimiento**                 | Si los datos cambian, debes revisar y reentrenar modelos, corregir sesgos emergentes, y documentar esos cambios.                                                                  |
-| **Cooperar con supervisores**                     | Ante requerimientos de autoridades (por ejemplo AESIA, agencias de protección de datos), tener capacidad de exhibir la documentación y acreditar cumplimiento.                    |
-
----
-
-## ⚠️ Lo que *no* parece que te exijan hoy pero podría exigirse
-
-* Que inscribas tu algoritmo en **GVA ConfIA** (registro público autonómico) — salvo que actúes como administración pública valenciana.
-* Que publiques en abierto el código completo o modelos sensibles, salvo que la normativa lo requiera como parte de obligaciones de alto riesgo.
-* Que anticipadamente cumplas todas las obligaciones del AI Act si tu sistema no está en la categoría de “alto riesgo”.
-
----
-
-Si quieres, puedo revisar **precisamente para tu chatbot (versión MVP)** qué nivel de riesgo tendría bajo el Reglamento IA y qué obligaciones concretas legales (transparencia, auditoría, registros) te corresponderían, para que lo ajustes de inicio. ¿Hacemos eso?
-
-[1]: https://dgtic.gva.es/es/-/la-generalitat-presenta-el-nuevo-registro-de-algoritmos-gva-confia-para-una-ia-transparente-y-responsable?redirect=%2Fes%2Factualidad%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_0YobAjUX6lT2%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_0YobAjUX6lT2_delta%3D5%26p_r_p_resetCur%3Dfalse%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_0YobAjUX6lT2_cur%3D1&utm_source=chatgpt.com "La Generalitat presenta el nuevo Registro de Algoritmos 'GVA ConfIA' para una IA transparente y responsable - Tecnologías de la Información y las Comunicaciones"
-[2]: https://www.esmartcity.es/2025/05/26/generalitat-valenciana-lanza-registro-algoritmos-uso-responsable-administracion?utm_source=chatgpt.com "La Generalitat Valenciana lanza un registro de algoritmos para su uso responsable en la administración"
-[3]: https://www.uv.es/cotino/publicaciones/informe_gvav3logos.pdf?utm_source=chatgpt.com "La implantación de la transparencia algorítmica"
-[4]: https://www.opengovpartnership.org/es/the-open-gov-challenge/valencian-community-spain-create-a-public-algorithmic-registry/?utm_source=chatgpt.com "Comunidad Valenciana, España Crear un registro algorítmico público"
-[5]: https://www.europarl.europa.eu/topics/es/article/20230601STO93804/ley-de-ia-de-la-ue-primera-normativa-sobre-inteligencia-artificial?utm_source=chatgpt.com "Ley de IA de la UE: primera normativa sobre inteligencia ..."
-[6]: https://www.aepd.es/prensa-y-comunicacion/blog/inteligencia-artificial-transparencia?utm_source=chatgpt.com "Inteligencia artificial: Transparencia | AEPD"
-[7]: https://es.wikipedia.org/wiki/Ley_para_la_igualdad_de_trato_%28Espa%C3%B1a%29?utm_source=chatgpt.com "Ley para la igualdad de trato (España)"
-[8]: https://es.wikipedia.org/wiki/Agencia_Espa%C3%B1ola_de_Supervisi%C3%B3n_de_la_Inteligencia_Artificial?utm_source=chatgpt.com "Agencia Española de Supervisión de la Inteligencia Artificial"
-[9]: https://www.computing.es/administracion/la-ue-ha-activado-la-supervision-y-las-sanciones-sobre-la-inteligencia-artificial/?utm_source=chatgpt.com "España pone en marcha control y multas a la inteligencia ..."
-[10]: https://cincodias.elpais.com/legal/2025-09-17/las-empresas-deberan-etiquetar-los-contenidos-generados-por-ia-a-partir-de-agosto-de-2026.html?utm_source=chatgpt.com "Las empresas deberán etiquetar los contenidos generados por IA a partir de agosto de 2026"
-```
-
-### Posibles ayudas o subvenciones para la incorporación de las nuevas tecnologías de producción o de servicio propuestas
-
-```markdown
-Posibles ayudas o subvenciones para la incorporación de las nuevas tecnologías de producción o de servicio propuestas
-
-En la Comunidad Valenciana, el proyecto RETECH (“Red de Hubs en Inteligencia Artificial”) tiene un presupuesto cercano a los 11,86 millones de euros en ayudas para proyectos de IA y espacios de datos.
-
-Estrategia de IA de la Generalitat Valenciana: documentos para orientar políticas, apoyo a startups, coordinación universidad-empresa
-
-https://presidencia.gva.es/documents/80279719/169117420/Dossier_cas.pdf?utm_source=chatgpt.com
-
-Sí — además del proyecto **RETECH** y otros ya conocidos, hay varias líneas de ayudas, subvenciones y convocatorias que podrías aprovechar para tu proyecto de IA en Valencia. Aquí te las detallo, con lo que hay ahora y lo que es probable que aparezca:
-
----
-
-## 🎯 Ayudas / subvenciones vigentes o recientes relevantes
-
-1. **Ayudas para proyectos de desarrollo experimental en IA / Espacios de datos (Comunidad Valenciana)**
-
-   * Línea de actuación 1: proyectos de desarrollo experimental en IA. ([GVA][1])
-   * Línea de actuación 2: impulso de espacios de datos sectoriales e interoperables. ([GVA][1])
-   * En esa convocatoria, los gastos subvencionables incluyen personal, instrumental, consultoría, servicios, suministros, etc. ([Innóvalis][2])
-   * La convocatoria ya ha cerrado en su plazo (finalizó en enero de 2025). ([GVA][1])
-
-2. **Tech FabLab CV — Innovación tecnológica para pymes**
-
-   * Convocatoria para financiar proyectos de innovación tecnológica dentro de la Comunidad Valenciana. ([techfablabcv.es][3])
-   * Las tecnologías habilitadoras digitales admitidas incluyen IA, análisis de datos, automatización, nube, entre otras. ([techfablabcv.es][3])
-   * Dotación: 1.800.000 € para proyectos con inversión entre 5.000 € y 50.000 €. ([techfablabcv.es][3])
-   * Plazo de presentación: del 25 de julio de 2025 hasta el 30 de septiembre de 2025. ([techfablabcv.es][3])
-
-3. **Kit Digital (España)**
-
-   * Programa nacional para subvencionar la adopción de soluciones digitales por pymes y autónomos. ([Acelera Pyme][4])
-   * Las cuantías dependen del tamaño del negocio: por ejemplo, para empresas entre 0 y 2 trabajadores pueden tener hasta ≈ 3.000 € para soluciones digitales. ([Impulsa Empresa][5])
-   * El catálogo de soluciones digitales puede incluir servicios relacionados con IA, dependiendo de la convocatoria vigente. ([portal.mineco.gob.es][6])
-
-4. **Convocatorias de Red.es para I+D / IA / tecnologías duales**
-
-   * En 2025 se ha publicado una convocatoria para proyectos de investigación y desarrollo en inteligencia artificial y tecnologías duales (C003/25-ED). ([Sede electrónica][7])
-   * Esta convocatoria busca promover la integración de la IA en cadenas de valor productivas. ([Sede electrónica][7])
-
-5. **Ayudas de eventos tecnológicos en Valencia**
-
-   * El Ayuntamiento de Valencia ha convocado ayudas para eventos tecnológicos, con importes entre 6.000 y 40.000 €. ([Valencia][8])
-   * No es directamente para el desarrollo de IA, pero puede servir para presentación, promoción, networking del proyecto. ([Valencia][8])
-
-6. **Agencia Valenciana de la Innovación (AVI)**
-
-   * Aunque no es una convocatoria específica, la AVI es un organismo clave en la Comunidad Valenciana para apoyar proyectos de innovación, coordinar ayudas, aportar cofinanciación, fomentar colaboración entre empresa, universidad e institutos tecnológicos. ([Wikipedia][9])
-
----
-
-## ⚠️ Consideraciones clave y estrategias para maximizar las ayudas
-
-* **Timing**: muchas convocatorias cierran plazos o se publican en periodos concretos. Debes estar atento a nuevas convocatorias de innovación / IA en la Generalitat, Ministerio y fondos europeos.
-* **Consorcios / cooperación**: algunos proyectos de IA se valoran mejor si haces cooperación entre empresas, universidades o centros tecnológicos.
-* **Montos mínimos y máximos**: por ejemplo, en la ayuda de IA experimental de la CV, los proyectos individuales deben superar 100.000 €. ([Innóvalis][2])
-* **Intensidad de la subvención**: en algunas ayudas se admite hasta un porcentaje elevado del coste del proyecto (p.ej. hasta 80 % para empresas) pero depende de la línea. ([Innóvalis][2])
-* **Gastos elegibles**: personal, consultoría, servicios externos, material, equipos, etc., siempre que estén justificados y sean necesarios para el proyecto.
-* **Cumplimiento y justificación**: tendrás que llevar una contabilidad rigurosa, justificar los gastos con facturas, plazos, memoria técnica, resultados.
-* **Ayudas vinculadas a I+D+i**: más allá de subvenciones directas, hay deducciones fiscales por I+D+i que pueden aplicar si el proyecto técnico tiene elementos de innovación.
-
----
-
-¿Te interesa que yo filtre **las ayudas activas ahora mismo para proyectos de IA en Valencia (2025/2026)**, con plazos y montos, y te envíe unos formularios modelo que puedas usar para tu chatbot?
-
-[1]: https://www.gva.es/es/inicio/procedimientos?id_proc=96650&utm_source=chatgpt.com "Ayudas para proyectos de desarrollo experimental en el ..."
-[2]: https://innovalis.es/ayudas-proyectos-de-desarrollo-experimental-en-el-area-de-la-ia/?utm_source=chatgpt.com "AYUDAS PROYECTOS DE DESARROLLO ..."
-[3]: https://techfablabcv.es/ayudas-financiacion-proyectos-innovacion-comunidad-valenciana/?utm_source=chatgpt.com "Convocatoria de ayudas para la financiación de proyectos de ..."
-[4]: https://www.acelerapyme.gob.es/kit-digital?utm_source=chatgpt.com "Kit Digital"
-[5]: https://www.impulsa-empresa.es/guia-kit-digital/?utm_source=chatgpt.com "Guía del Kit Digital 2025: todas las claves"
-[6]: https://portal.mineco.gob.es/ca-es/comunicacion/Pagines/211125_np_kit.aspx?utm_source=chatgpt.com "El Gobierno lanza el programa Kit Digital para invertir más ..."
-[7]: https://sede.red.gob.es/es/procedimientos/convocatoria-de-ayudas-2025-destinadas-proyectos-de-investigacion-y-desarrollo-en?utm_source=chatgpt.com "CONVOCATORIA DE AYUDAS 2025 DESTINADAS A ..."
-[8]: https://www.valencia.es/es/-/subvenciones-eventos-tecnol%C3%B3gicos-2025?redirect=%2Fes%2Fcas%2Fpagina-de-categoria%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_JzpZn9jBadjS%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_r_p_tag%3Deventos%2Btecnol%25C3%25B3gicos&utm_source=chatgpt.com "València impulsa la innovación con 500.000 euros en ..."
-[9]: https://es.wikipedia.org/wiki/Agencia_Valenciana_de_la_Innovaci%C3%B3n?utm_source=chatgpt.com "Agencia Valenciana de la Innovación"
-
-¡Claro! Aquí tienes los enlaces en texto plano para que los puedas visitar después:
-
----
-
-### 📌 Comunitat Valenciana
-
-* Ayudas para proyectos de desarrollo experimental en IA / espacios de datos (GVA):
-  [https://www.gva.es/es/inicio/procedimientos?id_proc=96650](https://www.gva.es/es/inicio/procedimientos?id_proc=96650)
-
-* Noticia sobre convocatoria IA CV (Innovalis):
-  [https://innovalis.es/ayudas-proyectos-de-desarrollo-experimental-en-el-area-de-la-ia/](https://innovalis.es/ayudas-proyectos-de-desarrollo-experimental-en-el-area-de-la-ia/)
-
-* Presentación GVA ConfIA (registro de algoritmos):
-  [https://dgtic.gva.es/es/-/la-generalitat-presenta-el-nuevo-registro-de-algoritmos-gva-confia-para-una-ia-transparente-y-responsable](https://dgtic.gva.es/es/-/la-generalitat-presenta-el-nuevo-registro-de-algoritmos-gva-confia-para-una-ia-transparente-y-responsable)
-
-* Estrategia de IA de la Generalitat (dossier oficial):
-  [https://presidencia.gva.es/documents/80279719/169117420/Dossier_cas.pdf](https://presidencia.gva.es/documents/80279719/169117420/Dossier_cas.pdf)
-
----
-
-### 📌 Programas y hubs
-
-* Tech FabLab CV – ayudas innovación tecnológica pymes (2025):
-  [https://techfablabcv.es/ayudas-financiacion-proyectos-innovacion-comunidad-valenciana/](https://techfablabcv.es/ayudas-financiacion-proyectos-innovacion-comunidad-valenciana/)
-
----
-
-### 📌 Nacionales
-
-* Kit Digital – programa nacional de digitalización de pymes:
-  [https://www.acelerapyme.gob.es/kit-digital](https://www.acelerapyme.gob.es/kit-digital)
-
-* Guía del Kit Digital (Impulsa Empresa):
-  [https://www.impulsa-empresa.es/guia-kit-digital/](https://www.impulsa-empresa.es/guia-kit-digital/)
-
-* Nota de prensa oficial del Ministerio de Economía:
-  [https://portal.mineco.gob.es/ca-es/comunicacion/Pagines/211125_np_kit.aspx](https://portal.mineco.gob.es/ca-es/comunicacion/Pagines/211125_np_kit.aspx)
-
----
-
-### 📌 Red.es y convocatorias I+D
-
-* Convocatoria Red.es 2025 para proyectos de IA y tecnologías duales:
-  [https://sede.red.gob.es/es/procedimientos/convocatoria-de-ayudas-2025-destinadas-proyectos-de-investigacion-y-desarrollo-en](https://sede.red.gob.es/es/procedimientos/convocatoria-de-ayudas-2025-destinadas-proyectos-de-investigacion-y-desarrollo-en)
-
----
-
-### 📌 Ayuntamiento de València
-
-* Subvenciones para eventos tecnológicos 2025:
-  [https://www.valencia.es/es/-/subvenciones-eventos-tecnol%C3%B3gicos-2025](https://www.valencia.es/es/-/subvenciones-eventos-tecnol%C3%B3gicos-2025)
-
----
-
-### 📌 Organismos
-
-* Agencia Valenciana de la Innovación (AVI):
-  [https://es.wikipedia.org/wiki/Agencia_Valenciana_de_la_Innovaci%C3%B3n](https://es.wikipedia.org/wiki/Agencia_Valenciana_de_la_Innovaci%C3%B3n)
-
----
-
-¿Quieres que te prepare un **mapa cronológico (2025–2026)** con fechas de apertura/cierre de estas convocatorias para que sepas **cuándo aplicar a cada una**?
-```
-
-### Guión de trabajo que se va a seguir para la elaboración del proyecto
-
-```markdown
-Guión de trabajo que se va a seguir para la elaboración del proyecto
-```
-
-### Peligros de la IA
-
-```markdown
-Existe el riesto de la explosión de una burbuja financiera de la IA
-Hay una sobrevaloración de las empresas de IA
-Existe riesgo de pinchazo financiero
-
-Precedente: La burbuja.com de 1999-2000
-Se financiaron proyectos relacionados con internet
-Se pensaba que todo lo relacionado con internet iba a ser oro
-
-El famoso "caso Terra"
-
-Al explotar la burbuja luego hay un valle de precaucion, de cuidado
-Y luego se alcanca de nuevo el crecimiento
-```
 
 
 <a id="diseno"></a>
@@ -1061,274 +536,178 @@ Y luego se alcanca de nuevo el crecimiento
 <a id="definicion-o-adaptacion-de-la-intervencion"></a>
 ## Definición o adaptación de la intervención
 
-### Introduccion
+### Introducción a los ejercicios
 
-```markdown
-Voy a crear un agente de IA que proporcione servicios personalizados de atención al cliente o simiares para empresas de la zona de Valencia y Comunidad Valenciana.
+Este conjunto de ejercicios se centra en el diseño y planificación de un proyecto intermodular relacionado con la implementación de un sistema de inteligencia artificial (IA) para empresas en la zona de Valencia. El objetivo principal es crear un agente de IA que proporcione servicios personalizados de atención al cliente, cumpliendo con normativas específicas y promoviendo la mejora competitiva del tejido empresarial local. Los ejercicios abordarán aspectos como el cumplimiento legal, la ética en el uso de sistemas AI, así como la integración tecnológica para ofrecer un servicio eficaz pero también responsable. Se practican competencias clave como la comprensión y aplicación de normativas, diseño de infraestructuras tecnológicas, y desarrollo web para interacciones con plataformas populares como WhatsApp.
 
-El sistema de IA buscará:
-1.-El cumplimiento normativo que corresponda
-2.-En la medida de lo posible, almacenar y gestionar todos los sistemas informáticos geográficamente en Valencia
-3.-Eso incluye el corazón del proyecto, que es el motor de IA
-4.-La mejora de la competitividad del tejido empresarial valenciano
-5.-La implantación de sistemas de IA en la sociedad valenciana de forma ética, responsable y a la vez efectiva
-6.-Que la IA no sea una via de reemplazo del trabajo humano, sino que amplifique el trabajo humano, para que el ser humano pueda llegar donde deseó llegar, y las limitaciones técnicas se lo han impedido hasta el momento
+### Actividades propuestas
 
-El proyecto tendrá varias partes
-0.-Una infraestructura y un flujo de trabajo que permita entrenar (fine tune) un modelo previo con los datos específicos de un cliente
-1.-Un servidor en el cual existirá un modelo de inteligencia artificial entrenado con los datos de un cliente (luego por lo tanto X modelos operativos)
-2.-Un servidor web que proporcionará un servicio al público general en forma de widget web
-3.-Una conexión con la API de Whatsapp para poder ofrecer el servicio
-```
+1. **Análisis y resumen del caso**
+   - Descripción: Los estudiantes deben leer atentamente el documento proporcionado y redactar un breve resumen que destaque los objetivos principales del proyecto, las características esenciales de la solución propuesta y su impacto en el tejido empresarial valenciano. Este ejercicio ayudará a mejorar sus habilidades de comprensión lectora técnica y síntesis.
+
+2. **Identificación de requerimientos**
+   - Descripción: Los estudiantes deben identificar y listar los requisitos funcionales del sistema descrito, basándose en las descripciones proporcionadas en el documento. Esto incluirá la detección de qué funciones específicas se necesitan para cumplir con los objetivos del proyecto.
+
+3. **Diseño arquitectónico**
+   - Descripción: Proporciona una representación visual del sistema descrito, incluyendo componentes como el servidor web, API de Whatsapp y modelos de IA. Este ejercicio permitirá a los estudiantes comprender mejor la interacción entre los diferentes elementos del sistema.
+
+4. **Entorno de desarrollo**
+   - Descripción: Los alumnos deben investigar e identificar las herramientas necesarias para implementar un entorno de desarrollo que cumpla con las especificaciones geográficas y legales descritas en el proyecto, así como para permitir el entrenamiento del modelo de IA.
+
+5. **Implementación de modelo de IA**
+   - Descripción: Se requiere que los estudiantes describan brevemente cómo podrían implementar un modelo de inteligencia artificial pre-entrenado y luego ajustarlo (fine-tuning) con datos específicos para un cliente, en línea con la especificación del proyecto.
+
+6. **Pruebas unitarias**
+   - Descripción: Los estudiantes deben diseñar pruebas unitarias que puedan utilizarse para verificar el funcionamiento correcto de las piezas clave del sistema propuesto (por ejemplo, el servidor web o la conexión a la API de Whatsapp).
+
+7. **Documentación técnica**
+   - Descripción: Redacta una guía rápida sobre cómo configurar y ejecutar el sistema descrito en el documento proporcionado. Este ejercicio mejorará las habilidades de los estudiantes en cuanto a redacción clara y concisa.
+
+8. **Análisis de impacto ético**
+   - Descripción: Los alumnos deben investigar y discutir cómo la implementación del proyecto podría tener un impacto positivo o negativo desde una perspectiva ética, centrándose en aspectos como la privacidad de los datos y el empleo local.
+
+9. **Comunicación con clientes**
+   - Descripción: Escribir guías o manuales para ayudar a potenciales clientes a entender cómo pueden beneficiarse del servicio proporcionado por el sistema descrito, enfocándose en los beneficios prácticos y las ventajas sobre opciones tradicionales.
+
+10. **Seguridad de la información**
+    - Descripción: Identificar y discutir medidas clave para asegurar que la implementación del sistema respete y cumpla con todos los requisitos normativos relacionados con el almacenamiento seguro de datos, considerando las especificaciones geográficas proporcionadas.
+
 
 <a id="priorizacion-y-secuenciacion-de-las-acciones"></a>
 ## Priorización y secuenciación de las acciones.
 
-### Introduccion
+### Introducción a los ejercicios
 
-```markdown
-1.-análisis de diferentes motores LLM
-  1.1.-Descarga de motores de ollama
-  1.2.-Tengo que preparar una bateria de tests
-  1.3.-Un conjunto de preguntas tipo de una empresa X
-  1.4.-Podría contactar con una empresa - TAME
-  1.5.-Lanzamiento de los tests
-  1.6.-Recogida de resultados
-  1.7.-Evaluación y toma de decisiones
-2.-Elección de uno o varios modelos
-  2.1.- Realizaremos entrenamoiento con el modelo establecido
-3.-Comprobación de entrenamiento
-4.-Comprobación de la viabilidad técnica
-5.-Instalación del motor en un servidor
-6.-Desarrollo del widget web
-7.-conexión con API Whatsapp
-8.-Desarrollo de un MVP - cliente muestra
-9.-Proceso de venta de ese MVP
-```
+El conjunto de ejercicios en esta carpeta se centra en el diseño y desarrollo de una aplicación o servicio basado en inteligencia artificial, específicamente usando motores de lenguaje grande (LLM). Los estudiantes trabajarán a través de varios pasos que incluyen el análisis de diferentes modelos de LLM, su elección, entrenamiento, comprobación técnica, instalación y finalmente la creación de un prototipo mínimo viable (MVP) con una interfaz web. Este conjunto de ejercicios ayuda a los estudiantes a desarrollar competencias en diseño de sistemas, priorización de tareas, desarrollo backend y frontend, así como integración con APIs externas.
+
+### Actividades propuestas
+
+### Actividad 1: Análisis y Documentación de Motores LLM
+
+**Descripción:** Los alumnos deben analizar el contenido proporcionado sobre diferentes motores de lenguaje generativo (LLM) y documentar los pasos necesarios para la descarga, preparación de pruebas y evaluación. Se espera que los estudiantes aprendan a organizar un proceso complejo en subpuntos claros y coherentes.
+
+### Actividad 2: Desarrollo de Pruebas Automatizadas
+
+**Descripción:** Los alumnos deben desarrollar una batería de tests automatizados para evaluar el rendimiento de los motores LLM descargados. El objetivo es que comprendan la importancia de las pruebas en el desarrollo y mantenimiento de software.
+
+### Actividad 3: Diseño de Preguntas Tipo
+
+**Descripción:** Los estudiantes deben diseñar un conjunto de preguntas tipo para evaluar las capacidades de los motores LLM. Este ejercicio permitirá que los alumnos entiendan cómo se estructuran pruebas efectivas y objetivas.
+
+### Actividad 4: Contacto con Empresas
+
+**Descripción:** Se les solicita a los estudiantes que busquen información sobre empresas potenciales para colaborar en la evaluación de los motores LLM. A través de esta actividad, aprenderán técnicas básicas de networking y contacto profesional.
+
+### Actividad 5: Evaluación de Resultados
+
+**Descripción:** Los alumnos deben analizar los resultados obtenidos tras el lanzamiento de las pruebas automatizadas. El objetivo es que aprendan a interpretar datos y tomar decisiones basadas en la evaluación de rendimiento del software.
+
+### Actividad 6: Entrenamiento de Modelos
+
+**Descripción:** Se les pide a los estudiantes que realicen un entrenamiento con el modelo de lenguaje seleccionado. Esta actividad ayudará a entender los procesos y conceptos básicos de la formación de modelos de inteligencia artificial.
+
+### Actividad 7: Viabilidad Técnica
+
+**Descripción:** Los alumnos deben evaluar si es técnicamente viable implementar un motor LLM en el entorno establecido. Esta actividad permitirá que comprendan los aspectos técnicos y logísticos clave en la implementación de software.
+
+### Actividad 8: Instalación en Servidor
+
+**Descripción:** Los estudiantes deben realizar una instalación básica del motor seleccionado en un servidor proporcionado. Este ejercicio familiarizará a los alumnos con las prácticas comunes de administración de sistemas y configuración de servidores.
+
+### Actividad 9: Desarrollo Web
+
+**Descripción:** Se les pide que desarrollen un widget web para interactuar con el motor LLM instalado. A través de esta actividad, aprenderán a crear interfaces de usuario simples y efectivas utilizando tecnologías web modernas.
+
+### Actividad 10: Integración con API
+
+**Descripción:** Los alumnos deben integrar el motor LLM con la API de WhatsApp para permitir comunicaciones automatizadas. Esta tarea ayudará a los estudiantes a entender cómo se integran diferentes servicios y APIs en aplicaciones prácticas.
+
 
 <a id="la-planificacion-de-la-intervencion"></a>
 ## La planificación de la intervención
 
-### Introduccion
+### Introducción a los ejercicios
 
-```markdown
-Tipos de licencias en software:
+Este conjunto de ejercicios está diseñado para que comprendas los diferentes modelos de licencias en software y sus implicaciones, centrándote especialmente en el modelo SaaS (Software as a Service) y AIaaS (Artificial Intelligence as a Service). Se enfatiza la importancia de elegir adecuadamente el hardware necesario para sostener estos servicios, teniendo en cuenta las necesidades específicas del software que se va a implementar. A través de estos ejercicios, adquirirás competencias en la elección y configuración de servidores para proyectos tecnológicos, así como en la comprensión financiera asociada a los modelos de negocio basados en tecnología.
 
-GPL - con servicios de valor añadido o soporte mediante cobro - Modelo Odoo
+### Actividades propuestas
 
-Software privativo: Compras una licencia de por vida del software - tu la compras, y puedes usar el software siempre que quieras - las actualizaciones se pagan aparte
-Ejemplo el software vale 2000 - la actualización de valor cuesta horquilla entre 200-500
-Históricamente ha sido objeto de pirateo
+### Actividad 1: Identificar Modelos de Licencias
+**Descripción:** El alumnado debe identificar y clasificar diferentes tipos de licencias de software mencionadas en el archivo "001-Introduccion.md". Se espera que los estudiantes reconozcan las diferencias entre modelos como GPL, Software Privativo y SaaS.
 
-SaaS - Tu te quedas el software en tu servidor, al cliente le llega un acceso (hace años era mediante Citrix o similares - actualmente mediante web) - El cliente paga
--Opcionalmente una cuota de puesta en marcha
--Obligatoriamente una cuota mensual por los servicios contratados
-Es un modelo muy preferido porque es mas dificil de piratear
-Exige tener servidores en marcha para dar el servicio
+### Actividad 2: Análisis Comparativo de Servicios
+**Descripción:** Los alumnos deben comparar los costos y beneficios del modelo de licencia SaaS con respecto al software privativo basándose en la información proporcionada. El objetivo es entender las ventajas y desventajas de cada sistema.
 
-AIaaS - Software que proporciona a los clientes servicios de IA, pero la IA está alojada en tu servidor
-```
+### Actividad 3: Propuesta de Arquitectura de Servidor
+**Descripción:** A partir de los requisitos descritos en "002-en mi caso concreto.md", el alumnado debe proponer una arquitectura de servidor adecuada para un proyecto SaaS. Se deben considerar tanto las necesidades básicas como las específicas para la implementación de IA.
 
-### en mi caso concreto
+### Actividad 4: Planificación Económica
+**Descripción:** Los estudiantes calculan y presentan una planificación económica basada en los costos proporcionados por cada tipo de servidor necesario para el proyecto SaaS. Se espera que incluyan detalles sobre costes iniciales, mensuales y de mantenimiento.
 
-```markdown
-Yo quiero hacer:
+### Actividad 5: Evaluación de Hardware
+**Descripción:** A partir del hardware descrito en "002-en mi caso concreto.md", los alumnos deben evaluar su adecuación para el proyecto SaaS e IA. Se les pide que propongan mejoras o ajustes necesarios.
 
-Un SaaS orientado a centros de formación
-quiero que ese software tenga AIaaS
+### Actividad 6: Descripción de Requisitos Técnicos
+**Descripción:** Los estudiantes elaboran un documento descriptivo de los requisitos técnicos específicos del servidor y la infraestructura necesaria para soportar el proyecto SaaS e IA. Se debe incluir información sobre software, hardware y servicios.
 
-Un servidor levantado 24 horas al dia, con capacidad para IA:
-Que servidor necesito?
+### Actividad 7: Análisis de Riesgos
+**Descripción:** El alumnado identifica y documenta posibles riesgos relacionados con la implementación del modelo SaaS y AIaaS para su proyecto orientado a centros educativos. Se espera una evaluación detallada de cada riesgo propuesto.
 
-Servidor web estándar
-2 cpu 2 ram un servidor estandar
+### Actividad 8: Propuesta Comercial
+**Descripción:** Los estudiantes deben diseñar una propuesta comercial básica que explique cómo el servicio SaaS con IA puede ser beneficioso para los centros educativos, incluyendo aspectos como la usabilidad y ventajas comparativas frente a otros modelos de software.
 
+Estas actividades están diseñadas para reforzar conceptos clave relacionados con licencias de software, arquitectura de servidores, planificación económica y análisis de riesgos en el contexto de proyectos SaaS e IA.
 
-para IA:
-6 cores/12 threads Xeon
-max 5.0GHz
-32 GB
-512 GB
-60 euros al mes
-
-Servidor con el que vamos a contar para este proyecto
-i7 16nucleos
-32 GB
-1TB
-Nvidia GTX 5060 16GB RAM
-
-Para este proyecto se va a usar un servidor propio
-```
 
 <a id="determinacion-de-recursos"></a>
 ## Determinación de recursos.
 
-### Introduccion
+### Introducción a los ejercicios
 
-```markdown
-Recursos materiales
-Recursos económicos
-Recursos humanos
+Este conjunto de ejercicios se centra en la determinación y análisis de recursos necesarios para el desarrollo y mantenimiento de un proyecto informático, principalmente enfocado en aplicaciones basadas en inteligencia artificial. Se trabajan aspectos como los costes materiales, humanos y económicos que implican diferentes escenarios de implementación (desarrollo en casa vs alquiler de oficinas), así como la elección entre comprar o alquilar hardware necesario para el proyecto. Los estudiantes practican habilidades de cálculo financiero, análisis costo-beneficio y planificación estratégica de recursos técnicos y humanos.
 
-Recursos materiales:
--Recursos necesarios durante el desarrollo (fase de prototipo)
--Recursos necesarios durante la implantación/puesta en marcha/mantenimiento
+Los ejercicios abordan también las decisiones sobre cómo asegurar ingresos suficientes para equilibrar los costes iniciales mediante ventas de licencias o servicios. Esto ayuda a entender la importancia de una gestión efectiva de recursos en el lanzamiento y sostenibilidad a largo plazo de un proyecto tecnológico.
 
-Supuesto recursos humanos: 
-Soporte 24 horas al día en una aplicación informática
-24 horas al día = 3 turnos de 8 horas
-Supuesto= 1200€ al mes
-Tres personas cobrando 1200 euros al mes = 3600 euros al mes
-Multiplicado por 12 meses son 43200 euros al año solo en salarios - netos
-Para que una persona cobre 1200 euros al mes, tu como empresa pagas en torno a 1570 al mes 
-De 43200 podemos pasar a en torno a 52.000 mas o menos brutos
+### Actividades propuestas
 
-Supuesto recursos materiales:
-Digamos que lo desarrollas en tu casa
-En torno a 1000 euros equipo informático para desarrollo, implantacióno, puesta en marcha y mantenimiento - un equipo para el desarrollador
-Otro equipo para el equipo de soporte
-Supuesto de alquilar oficina 800 euros al mes
+### Actividad 1: Análisis de Costos Iniciales
+**Descripción:** Los estudiantes deben calcular los costes iniciales necesarios para desarrollar e implantar un proyecto informático basado en las cifras proporcionadas en los ejercicios. Se pretende que aprendan a realizar estimaciones financieras y entender la importancia de presupuestos precisos en proyectos tecnológicos.
 
-En mi caso supuesto de aplicación de IA educativa
-Minino servidor 60 euros al mes, 720 euros al año
+### Actividad 2: Planificación Económica
+**Descripción:** Los alumnos deben diseñar un plan económico para el primer año del proyecto, incluyendo cálculos de ingresos necesarios y estrategias para asegurar estos ingresos. Se espera que comprendan cómo equilibrar gastos con expectativas de beneficio.
 
-Recursos económicos / dificilmente tangibles:
--Campaña de marketing 500 euros durante dos meses
--Un comercial contratado dos meses 1000 euros al mes
+### Actividad 3: Comparativa Coste-Beneficio
+**Descripción:** Los estudiantes deben realizar una comparación entre comprar y alquilar el equipo necesario, basándose en los costes detallados proporcionados. Se espera que aprendan a valorar las ventajas y desventajas de cada opción desde una perspectiva económica.
 
-Total de costes aproximados en primer año: 
-60.000 euros el primer año
+### Actividad 4: Estimación Presupuestaria
+**Descripción:** Los estudiantes deben estimar el presupuesto total para la adquisición, mantenimiento y operación de un servidor dedicado basándose en los costes proporcionados. Se pretende que comprendan cómo hacer cálculos precisos y planificar correctamente las finanzas.
 
-Qué vamos a hacer para compensar esos 60.000?
+### Actividad 5: Análisis de Recursos Humanos
+**Descripción:** Los alumnos deben calcular el costo total mensual y anual del personal necesario para soportar un servicio de aplicación informática, incluyendo turnos y salarios. Se espera que entiendan la importancia del coste laboral en proyectos tecnológicos.
 
-Como minimo ganar 80.000 euros, para tener un beneficio de 20.000€
-1.000 euros al mes
-Y dejamos en la empresa 8000 euros para fondo, reinversión, socorros, etc
+### Actividad 6: Evaluación de Servidores
+**Descripción:** Los estudiantes deben evaluar las especificaciones y costes de diferentes servidores necesarios para su proyecto, incluyendo tanto la compra como el alquiler. Se pretende que aprendan a seleccionar equipos según sus necesidades específicas.
 
-La pregunta es:
--O bajamos los gastos
--O aseguramos ingresos
+### Actividad 7: Planificación del Entrenamiento
+**Descripción:** Los alumnos deben planificar las horas y costes de entrenamiento de IA para su proyecto, basándose en los detalles proporcionados en el ejercicio. Se espera que comprendan la importancia de este aspecto en proyectos tecnológicos.
 
-Aseguramos ingresos desarrollando algo que pensemos que luego el mercado va a comprar.
+### Actividad 8: Gestión Financiera del Proyecto
+**Descripción:** Los estudiantes deben diseñar un plan financiero completo para un proyecto informático, incluyendo cálculos de costos iniciales y estrategias de ingresos. Se pretende que aprendan a gestionar los aspectos financieros de un proyecto desde el inicio hasta la fase final.
 
-Supuesto:
-Aplicacion de facturacion con Verifactu
-Holded Standard = 60 al mes * 12 = 720
+Estas actividades están diseñadas para que los estudiantes apliquen los conocimientos teóricos adquiridos en su ciclo formativo a situaciones prácticas, mejorando así sus habilidades de planificación y gestión financiera en proyectos tecnológicos.
 
-Supuesto de 8000 euros al año por ticket (por licencia vendida anual) - tengo que hacer 10 clientes de 8000 euros cada uno
-
-En el supuesto de competir en precio con Holded o similares - asumiendo mismo precio - 720 - 80000/720 = 112
-Podríamos vender 112 licencias de software en un año?
-
-
-Opción 2:
-Si la estimación económica es muy alta, es muy fuerte, rebajemos recursos necesarios al mínimo para poder arrancar el negocio:
-
-1 desarrollador desarrolla, implanta, arranca,
-ese mismo desarrollador hace el soporte
-Equipo propio, servidor propio
-
-1000 equipo de desarrollo
-1000 servidor
-1300euros * 12 meses = 
-Total de 18.000 euros de presupuesto
-
-Supuesto de que licencias cuestan 720 euros
-Tendrías que vender 25 licencias para empezar a alcanzar rentabilidad
-```
-
-### En mi caso particular
-
-```markdown
-Preguntas que me tengo que hacer:
-
-Cuanto me va a costar el proceso de entrenamiento? Fine tune
-Cuantas horas?
-Cuantos tokens?
-
-Que servidor mínimo necesito para poner en marcha el sistema?
-Voy a tener que probar diferentes motores, en diferentes equipos (maquinas virtuales) para comprobar cual es el minimo necesario
-```
-
-### Compra versus alquiler
-
-```markdown
- NVMe
-Intel®Xeon® E-2356G
-Rocket Lake
-6 cores/12 threads x 3,2 GHz
-max. 5,0 GHz Turbo Boost
-32 GB
-DDR4 ECC
-512 GB
-(2 x 512 GB NVMe SSD)
-Software RAID 1  60 euros de alquiler al mes
-
-Si compramos el mismo equipo, en lugar de alquilarlo:
-
-Análisis de costes estimados
-
-Voy a desglosar lo que implican los componentes que pides:
-
-Procesador Intel® Xeon® E-2356G (Rocket Lake, 6 núcleos / 12 hilos, 3,2 GHz base / hasta 5,0 GHz turbo) — como referencia, este CPU cuesta unos €350–400 solo el procesador (sin IVA) en España. 
-Senetic
-+1
-
-Placa base / sistema que soporte DDR4 ECC, NVMe, software RAID, etc. — deberá ser una placa de servidor/tipo workstation con buen soporte para RAID por hardware/firmware o por BIOS/software, con ranuras PCIe para NVMe, etc. Podría costar entre €250 y €500 o más, según la marca y funciones (controladoras, puertos, gestión remota, etc.).
-
-Memoria 32 GB DDR4 ECC — puede costar unos €80–150 dependiendo de marca, latencias, etc.
-
-2 × 512 GB NVMe SSD — para SSDs NVMe de calidad empresarial/buen rendimiento, puede rondar €60–150 cada una, digamos unos €120–300 en total para ambos (dependiendo de marca, velocidad, clase – PCIe 3.0 vs 4.0, endurance, etc.).
-
-Chasis / fuente de alimentación / ventilación / placa de soporte / conectores — en servidores, el chasis puede ser bastante costoso, con fuentes redundantes, ventiladores, bahías, gestión (IPMI, etc.). Esto podría agregar €200 a €600 o más dependiendo de cuán “servidor profesional” lo quieras.
-
-Software / licencias / garantía / soporte — si incluyes garantía extendida, soporte, licencias, esto puede subir bastante.
-
-Sumando los costes de los componentes y la mano de obra, un precio razonable para construir (o comprar) ese equipo “bare metal” podría estar en rango:
-
-Estimación baja: ~ €1,000 – €1,500
-Estimación media / realista: ~ €1,500 – €2,500
-Estimación superior / con marca de servidor, garantía premium: €2,500 – €3,000+
-
-digamos 2000 euros
-
-Suponemos un periodo de amortización de 2 años
-
-con una amortización de 24 meses, te sale a 84 euros al mes:
-
-O lo que es lo mismo, si el alquiler es de 60 euros, cuantos meses hacen falta para recuperar la inversion:
-
-HAcen falta 33 meses = casi 3 años
-Pero problema: dentro de 3 años, ese ordenador está para cambiar
-
-Eso sin contar la eelectricidad que consume ese servidor
-Eso sin contar con el coste del ancho de banda del servidor
-```
-
-### Recursos finales
-
-```markdown
-Instalamos un servidor dedicado en la empresa
-Los calculos se realizarán en un servidor interno
-
-Ventajas: Independencia total
-Control absoluto
-Disponer de un equipo que no dependa del pago de una cuota mensual
-
-Desventajas: 
-Tiene una gráfica "de videojuegos"
-No tiene una gráfica "pura IA" H100
-Deberemos cuantizar y deberemos optimizar el proceso de entrenamiento
-```
 
 <a id="planificacion-de-la-evaluacion"></a>
 ## Planificación de la evaluación
 
+
 <a id="diseno-de-documentacion"></a>
 ## Diseño de documentación
 
+
 <a id="plan-de-atencion-al-cliente"></a>
 ## Plan de atención al cliente
+
 
 
 <a id="organizacion"></a>
@@ -1337,20 +716,26 @@ Deberemos cuantizar y deberemos optimizar el proceso de entrenamiento
 <a id="deteccion-de-demandas-y-necesidades"></a>
 ## Detección de demandas y necesidades
 
+
 <a id="programacion"></a>
 ## Programación
+
 
 <a id="gestion"></a>
 ## Gestión
 
+
 <a id="coordinacion-y-supervision-de-la-intervencion"></a>
 ## Coordinación y supervisión de la intervención
+
 
 <a id="elaboracion-de-informes"></a>
 ## Elaboración de informes
 
+
 <a id="seguimiento-y-control"></a>
 ## Seguimiento y control
+
 
 
 <a id="actividades-profesionales"></a>
@@ -1359,11 +744,14 @@ Deberemos cuantizar y deberemos optimizar el proceso de entrenamiento
 <a id="areas-de-sistemas-y-departamentos-de-informatica-en-cualquier-sector-de-actividad"></a>
 ## Áreas de sistemas y departamentos de informática en cualquier sector de actividad
 
+
 <a id="sector-de-servicios-tecnologicos-y-comunicaciones"></a>
 ## Sector de servicios tecnológicos y comunicaciones
 
+
 <a id="area-comercial-con-gestion-de-transacciones-por-internet"></a>
 ## Área comercial con gestión de transacciones por Internet
+
 
 
 <a id="lineas-de-actuacion"></a>
@@ -1372,14 +760,18 @@ Deberemos cuantizar y deberemos optimizar el proceso de entrenamiento
 <a id="la-ejecucion-de-trabajos-en-equipo"></a>
 ## La ejecución de trabajos en equipo
 
+
 <a id="la-autoevaluacion-del-trabajo-realizado"></a>
 ## La autoevaluación del trabajo realizado
+
 
 <a id="la-autonomia-y-la-iniciativa"></a>
 ## La autonomía y la iniciativa
 
+
 <a id="el-uso-de-las-tic"></a>
 ## El uso de las TIC
+
 
 
 <a id="bibliografia"></a>
@@ -1392,22 +784,70 @@ Deberemos cuantizar y deberemos optimizar el proceso de entrenamiento
 <a id="empresarialia"></a>
 ## empresarialIA
 
+
 <a id="agente-virtual"></a>
 ## agente virtual
+
 
 <a id="ejercicio-de-final-de-unidad"></a>
 ## Ejercicio de final de unidad
 
-### ejercicio
+### Introducción a los ejercicios
 
-```markdown
+El archivo dentro de esta carpeta, llamado "ejercicio.md", contiene una serie de problemas diseñados para reforzar los conocimientos adquiridos a lo largo del curso en el módulo de programación. Los ejercicios se centran principalmente en la aplicación práctica de estructuras de datos y control de flujo, así como en la resolución de problemas complejos que implican la integración de múltiples conceptos aprendidos anteriormente. Estos ejercicios están orientados a ayudar a los estudiantes a consolidar sus habilidades en programación y a prepararse para proyectos más grandes y desafiantes en el futuro.
 
-```
+### Actividades propuestas
+
+Basándome en el contexto proporcionado, donde se menciona que hay un archivo markdown en la carpeta y considerando que los estudiantes están cursando Formación Profesional en Programación (posiblemente DAM - Desarrollo de Aplicaciones Multiplataforma), aquí van algunas actividades propuestas para ellos:
+
+1. **Análisis del Ejercicio**
+   - **Descripción**: Los alumnos deben leer el archivo `ejercicio.md` y comprender los requerimientos que contiene. Se espera que extraigan las necesidades del ejercicio y las anoten en un documento o en una plataforma de codificación como GitHub.
+   
+2. **Estructura del Código**
+   - **Descripción**: Deben identificar la estructura general y el flujo lógico propuesto en `ejercicio.md`. Los estudiantes deberán dibujar diagramas de secuencia y/o flujo que reflejen los pasos necesarios para completar el ejercicio.
+
+3. **Implementación Básica**
+   - **Descripción**: Tras entender la tarea, los alumnos deben escribir una versión básica del código en un lenguaje de programación apropiado (por ejemplo Python o Java). Se les pide que respeten las reglas y estructura proporcionadas en el archivo markdown.
+
+4. **Refactorización**
+   - **Descripción**: Una vez implementada la solución básica, los estudiantes deberán refactorizar su código para mejorar su calidad, manteniendo la funcionalidad original. Esto incluye reducir duplicación de código, añadir comentarios claros y seguir buenas prácticas.
+
+5. **Pruebas Unitarias**
+   - **Descripción**: Los alumnos deben escribir pruebas unitarias para verificar que el código cumple con todos los requerimientos especificados en `ejercicio.md`. Utilizarán un marco de pruebas como JUnit para Java o pytest para Python.
+
+6. **Documentación y Explicación Oral**
+   - **Descripción**: Los estudiantes deben crear una pequeña presentación donde explican verbalmente cómo funciona su código, los desafíos que encontraron durante el proceso, y cómo resolvieron estos problemas. También deberán escribir un breve documento markdown detallando sus decisiones de diseño.
+
+7. **Revisión Peer-to-Peer**
+   - **Descripción**: Los estudiantes intercambiarán sus proyectos con compañeros para recibir retroalimentación constructiva sobre su código y presentaciones orales. Cada estudiante deberá preparar preguntas críticas basadas en las observaciones de los demás.
+
+8. **Iteraciones Mejoradas**
+   - **Descripción**: Basándose en la retroalimentación recibida, cada alumno mejorará sus entregables originales para incluir sugerencias útiles y corregir errores potenciales. Finalmente, deberán subir una versión final a GitHub o un repositorio similar.
+
+Estas actividades están diseñadas no solo para que los estudiantes comprendan cómo funcionar con problemas de programación específicos, sino también para desarrollar habilidades de trabajo en equipo, comunicación efectiva y buenas prácticas de desarrollo.
+
 
 <a id="examen-final"></a>
 ## Examen final
 
+### Introducción a los ejercicios
+
+Esta carpeta contiene una serie de ejercicios SQL diseñados para familiarizarte con los conceptos básicos y avanzados del manejo de bases de datos. Los problemas trabajan desde la creación de tablas, inserción de datos hasta la implementación de claves foráneas y consultas JOIN. También se practica la creación de vistas que combinan datos de múltiples tablas para facilitar la visualización y el acceso a información relevante. Finalmente, los ejercicios incluyen la gestión de usuarios y privilegios en MySQL, lo cual es crucial para entender cómo controlar el acceso a las bases de datos.
+
 ### crear tablas
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código SQL se utiliza para crear una nueva base de datos y dos tablas dentro de ella. Primero, crea una base de datos llamada `portafolioceac`. Luego, selecciona esta base de datos con el comando `USE`. Después, define dos tablas: `Piezas` y `Categorias`.
+
+La tabla `Piezas` contiene información sobre diferentes piezas o elementos que probablemente forman parte del portafolio. Cada registro en esta tabla tiene un identificador único generado automáticamente, un título, una descripción, la ruta a su imagen, un URL relacionado y un ID de categoría para indicar a qué categoría pertenece cada pieza.
+
+Por otro lado, la tabla `Categorias` almacena información sobre las diferentes categorías en las que se pueden clasificar las piezas. Cada registro en esta tabla tiene también un identificador único generado automáticamente, un título y una descripción.
+
+Este código es importante porque establece la estructura básica de los datos que necesitarás para gestionar tu portafolio o proyecto relacionado con el área creativa o técnica a la que pertenece este ejercicio.
+
+`001-crear tablas.sql`
 
 ```sql
 CREATE DATABASE portafolioceac;
@@ -1432,6 +872,15 @@ CREATE TABLE Categorias(
 ```
 
 ### insertar
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código SQL está insertando dos nuevos registros en una base de datos. En primer lugar, se añade un nuevo registro a la tabla `Categorias`. La sentencia `INSERT INTO Categorias VALUES` indica que estamos agregando información a esta tabla específica. El valor `NULL` es para el campo identificador (siendo auto-incremental), 'General' es el nombre de la categoría, y la descripción 'Esta es la categoria general'. Esto crea una nueva entrada en la tabla `Categorias`.
+
+A continuación, se realiza otra inserción pero esta vez en la tabla `Piezas`. La sentencia `INSERT INTO Piezas VALUES` agrega un nuevo registro a esta tabla. Similar al caso anterior, comienza con `NULL`, indicando que el sistema manejará automáticamente el identificador único para este registro. Los campos restantes son 'Primera pieza' (nombre de la pieza), 'Esta es la descripcion de la primera pieza' (descripción), 'josevicente.jpg' (posiblemente una imagen relacionada con la pieza) y 'https://jocarsa.com' (tal vez un enlace web asociado). El último valor, `1`, se refiere a la categoría de esta pieza, que probablemente hace referencia al registro recién creado en la tabla `Categorias`. Este código es importante porque establece los datos iniciales necesarios para el funcionamiento correcto del sistema.
+
+`002-insertar.sql`
 
 ```sql
 INSERT INTO Categorias VALUES(
@@ -1451,6 +900,19 @@ INSERT INTO Piezas VALUES(
 ```
 
 ### fk
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código SQL está realizando una operación muy importante en la gestión de bases de datos relacionales. En concreto, se añade un tipo especial de restricción a la tabla llamada `Piezas`. Esta restricción se denomina clave foránea (Foreign Key) y es crucial para mantener las relaciones entre tablas y garantizar la integridad referencial.
+
+La instrucción `ALTER TABLE Piezas` indica que estamos modificando la tabla `Piezas`, añadiéndole una nueva restricción llamada `fk_piezas_categorias`. Esta restricción establece que la columna `id_categoria` en la tabla `Piezas` debe tener valores que coincidan con los de la columna `identificador` en la tabla `Categorias`.
+
+Las cláusulas `ON DELETE CASCADE` y `ON UPDATE CASCADE` son especialmente importantes. La primera, `ON DELETE CASCADE`, significa que si se elimina un registro en la tabla `Categorias`, también se eliminarán automáticamente todos los registros relacionados en la tabla `Piezas`. De manera similar, `ON UPDATE CASCADE` asegura que si el valor de una categoría cambia (por ejemplo, si su identificador es actualizado), ese cambio será automáticamente reflejado en todas las entradas correspondientes en `Piezas`.
+
+Esta operación es vital para mantener la consistencia y coherencia entre las tablas relacionadas, lo cual es fundamental en el diseño de bases de datos normalizadas.
+
+`003-fk.sql`
 
 ```sql
 ALTER TABLE Piezas
@@ -1461,6 +923,17 @@ ON UPDATE CASCADE;
 ```
 
 ### selecciones
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código SQL contiene dos consultas simples que se utilizan para recuperar datos de una base de datos. La primera consulta, `SELECT * FROM Categorias;`, selecciona todas las filas y columnas de la tabla llamada "Categorias". Esto significa que obtendrás toda la información almacenada en esta tabla.
+
+La segunda consulta, `SELECT * FROM Piezas;`, hace lo mismo pero con la tabla "Piezas". De nuevo, se seleccionan todas las filas y columnas de esta tabla específica. 
+
+Estos comandos son importantes porque permiten a un usuario o programador acceder rápidamente a toda la información almacenada en estas tablas sin necesidad de especificar cada columna individualmente. Es útil para una rápida revisión o depuración de datos durante el desarrollo y pruebas de aplicaciones relacionales.
+
+`004-selecciones.sql`
 
 ```sql
 SELECT * FROM Categorias;
@@ -1469,6 +942,17 @@ SELECT * FROM Piezas;
 ```
 
 ### left join
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código SQL realiza una operación llamada "left join" entre dos tablas: `Piezas` y `Categorias`. La idea principal es combinar los datos de ambas tablas basándose en la relación existente entre ellas, que se define mediante la columna `id_categoria` en la tabla `Piezas` y la columna `Identificador` en la tabla `Categorias`.
+
+El left join asegura que todas las filas de la tabla `Piezas` aparezcan en el resultado, incluso si no hay correspondencia con alguna fila en la tabla `Categorias`. Esto significa que para cada pieza, se mostrarán sus datos junto a los datos de su categoría asociada (si existe), o bien, si no existe una categoría relacionada, las columnas de la tabla `Categorias` aparecerán como valores nulos.
+
+Esta consulta es útil cuando necesitas obtener información completa sobre las piezas y también quieres saber qué categorías tienen asignadas, sin perder ninguna pieza por falta de correspondencia en la categoría. Es importante para entender cómo están relacionados los datos en diferentes tablas del sistema de gestión de base de datos que estás utilizando.
+
+`005-left join.sql`
 
 ```sql
 SELECT 
@@ -1479,6 +963,17 @@ ON Piezas.id_categoria = Categorias.Identificador;
 ```
 
 ### ahora creo la vista
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este código SQL crea una vista llamada `piezas_y_categorias` que combina información de dos tablas: `Piezas` y `Categorias`. La vista selecciona columnas específicas como el título y la descripción tanto para las categorías como para las piezas, además del nombre de la imagen y la URL. Se utiliza una operación `LEFT JOIN` entre estas dos tablas basada en la relación que existe mediante la llave foránea `id_categoria` en la tabla `Piezas`, que se une con el identificador (`Identificador`) en la tabla `Categorias`.
+
+La consulta final `SELECT * FROM piezas_y_categorias;` simplemente muestra todos los registros de esta vista recién creada, proporcionando una visión combinada y simplificada de la información almacenada en las tablas originales. Esta estrategia es útil para facilitar el acceso a datos relacionados sin tener que escribir constantemente consultas complejas o repetitivas.
+
+La creación de vistas como esta puede ser especialmente valiosa en proyectos grandes donde varios usuarios necesiten acceder regularmente a la misma combinación de información, ya que permite una manipulación más sencilla y mantenimiento más eficiente del código.
+
+`006-ahora creo la vista.sql`
 
 ```sql
 CREATE VIEW piezas_y_categorias AS 
@@ -1497,6 +992,19 @@ SELECT * FROM piezas_y_categorias;
 ```
 
 ### usuario
+<small>Creado: 2025-11-24 18:59</small>
+
+#### Explicación
+
+Este fragmento de código SQL tiene como objetivo crear un nuevo usuario en el sistema de bases de datos y otorgarle los permisos necesarios para acceder a una base de datos específica. Comenzamos creando un nuevo usuario llamado 'portafolioceac' con una contraseña establecida, lo que permite al usuario conectarse desde el localhost.
+
+Luego, se le otorgan ciertos límites y configuraciones al usuario recién creado para asegurar que no tenga restricciones en cuanto a la cantidad de consultas o conexiones simultáneas. Esto es importante para garantizar que el usuario pueda trabajar sin interrupciones dentro del sistema.
+
+Finalmente, se conceden todos los privilegios sobre la base de datos 'portafolioceac' al nuevo usuario creado, permitiéndole realizar cualquier tipo de operación en ella. La última línea `FLUSH PRIVILEGES` asegura que estos cambios sean aplicados inmediatamente por el servidor SQL.
+
+Este código es crucial para establecer un entorno seguro y controlado donde los usuarios específicos puedan acceder a las bases de datos según sus necesidades, manteniendo la integridad y seguridad del sistema.
+
+`007-usuario.sql`
 
 ```sql
 -- crea usuario nuevo con contraseña
@@ -1526,6 +1034,35 @@ TO 'portafolioceac'@'localhost';
 FLUSH PRIVILEGES;
 ```
 
+### Actividades propuestas
+
+1. **Creación de Tablas en SQL**
+   - **Descripción:** Los alumnos deberán crear una base de datos y definir esquemas para tablas similares a las existentes en los ejercicios proporcionados, como categorías y piezas. El objetivo es que comprendan la estructura básica de una base de datos relacional.
+
+2. **Inserción de Datos**
+   - **Descripción:** Los estudiantes deben insertar registros en las tablas creadas siguiendo el ejemplo del archivo 002-insertar.sql. Se espera que aprendan a gestionar la inserción de datos en esquemas previamente definidos.
+
+3. **Relaciones entre Tablas**
+   - **Descripción:** Basándose en el código del archivo 003-fk.sql, los alumnos deben agregar restricciones de clave foránea para asegurar relaciones coherentes entre las tablas creadas. Este ejercicio busca que comprendan la importancia de mantener integridad referencial.
+
+4. **Consultas Básicas con SELECT**
+   - **Descripción:** Utilizando el ejemplo del archivo 004-selecciones.sql, los estudiantes deberán escribir consultas para recuperar datos completos de ambas tablas creadas en sus propios esquemas. Se espera que entiendan cómo seleccionar y visualizar datos desde una base de datos.
+
+5. **Operación LEFT JOIN**
+   - **Descripción:** Los alumnos deben replicar la consulta LEFT JOIN del archivo 005-left join.sql, combinando información de múltiples tablas. Esto permitirá que comprendan las operaciones entre conjuntos y cómo recuperar datos relacionados eficazmente.
+
+6. **Creación y Consulta de Vistas**
+   - **Descripción:** Siguiendo el ejemplo del archivo 006-ahora creo la vista.sql, los estudiantes deben crear una vista personalizada que combine información de las tablas creadas. Se espera que aprendan cómo simplificar consultas complejas con vistas.
+
+7. **Administración de Usuarios en MySQL**
+   - **Descripción:** Basándose en el archivo 007-usuario.sql, los alumnos deberán practicar la creación y administración de usuarios en su propia base de datos SQL, incluyendo configuraciones de privilegios. Este ejercicio busca que adquieran habilidades para gestionar múltiples cuentas de acceso a bases de datos.
+
+8. **Práctica Integrada**
+   - **Descripción:** Los estudiantes tendrán que combinar todo lo aprendido en las actividades anteriores, creando un conjunto de tablas y procedimientos SQL propios, desde la creación hasta la consulta, pasando por la administración de usuarios. Este ejercicio permite aplicar todos los conceptos adquiridos de manera práctica e integrada.
+
+Estas actividades están diseñadas para asegurar que los estudiantes comprendan y puedan aplicar en su totalidad el conocimiento sobre bases de datos SQL, desde la creación hasta la manipulación avanzada de datos.
+
+
 
 <a id="proyectos-segundo-trimestre"></a>
 # Proyectos segundo trimestre
@@ -1533,7 +1070,75 @@ FLUSH PRIVILEGES;
 <a id="extractor-transcripciones"></a>
 ## Extractor transcripciones
 
+### Introducción a los ejercicios
+
+Este es un conjunto de scripts y archivos para automatizar el proceso completo de transcripción y resumen de una lista dada de videos de YouTube en español. Aquí está la descripción general del flujo de trabajo:
+
+1. **001-listas.py**: Este script recorre una lista JSON de URLs de listas de reproducción de YouTube, descarga los metadatos de cada video y guarda el resultado en archivos .json.
+
+2. **002-transcripciones.py**: A partir del output de `001-listas.py`, este script:
+   - Descarga transcripciones subtituladas (si están disponibles) para los videos.
+   - Convierte las transcripciones de VTT a texto sólido y guarda el resultado en archivos .txt.
+
+3. **003-resumenes.py**: Este script toma los archivos .txt generados por `002-transcripciones.py` y:
+   - Utiliza un modelo de lenguaje granular (presumiblemente entrenado para español) llamado 'qwen2.5:3b-instruct' a través del servicio Ollama.
+   - Genera resúmenes en español concisos y docentes basados en el contenido de las transcripciones.
+
+4. **listas.json**: Este archivo contiene la lista de URLs de las listas de reproducción de YouTube que se van a procesar con los scripts anteriores.
+
+### Requisitos Previos:
+- Instalación de Python 3.x
+- Dependencias de paquetes de python (pandas, requests)
+- Ollama instalado y el modelo qwen2.5:3b-instruct disponible
+
+### Estructura del Proyecto:
+```
+mi_proyecto/
+│
+├── listas.json      # Lista de URLs a procesar
+├── 001-listas.py    # Descarga metadatos de las listas de reproducción
+├── 002-transcripciones.py   # Genera transcripciones en texto sólido
+└── 003-resumenes.py   # Crea resúmenes basados en las transcripciones generadas
+```
+
+### Ejecución:
+1. **Configurar** `listas.json` con las URLs de los videos que deseas procesar.
+2. Ejecutar `001-listas.py`. Este script creará carpetas y archivos .json para cada lista de reproducción en el directorio actual (generalmente una carpeta llamada "videos" si no se ha modificado).
+3. Luego ejecuta `002-transcripciones.py`, que procesa los metadatos descargados por `001-listas.py` y genera archivos .txt de transcripción en la carpeta 'transcripts/'.
+4. Finalmente, ejecuta `003-resumenes.py`. Este script recorrerá los archivos .txt generados por el paso anterior para crear resúmenes en español.
+
+### Notas:
+- Los scripts están configurados con pausas entre cada video (por ejemplo, 5 segundos) para evitar ser bloqueado por YouTube.
+- Asegúrate de tener suficiente espacio en disco y memoria RAM para manejar los archivos grandes resultantes.
+- El modelo `qwen2.5:3b-instruct` utilizado para generar resúmenes debe estar disponible localmente o como un servicio accesible.
+
+### Consideraciones:
+- Este flujo puede tomar bastante tiempo si hay muchos videos largos, especialmente la etapa de transcripción y resumen.
+- Es recomendable tener acceso a una computadora con conexión estable y suficientes recursos para completar el proceso sin interrupciones.
+
 ### videos
+<small>Creado: 2025-11-27 19:26</small>
+
+#### Explicación
+
+Este script en Python se encarga de procesar una lista de URLs de playlists de YouTube y extraer información detallada sobre cada video dentro de esas playlists. La entrada del programa es un archivo JSON llamado `listas.json` que contiene una lista de URLs a diferentes playlists de YouTube.
+
+El código principal hace lo siguiente:
+
+1. **Inicialización**: Importa las librerías necesarias, incluyendo `yt-dlp`, que se usa para extraer información detallada del video desde la URL de la playlist.
+2. **Funciones auxiliares**:
+   - `safe_filename`: Esta función asegura que los títulos generados no contengan caracteres que puedan ser problemáticos en un sistema de archivos, como barra diagonal o caracteres especiales.
+   - `extract_playlist_id`: Extrae el ID único de una playlist a partir de su URL.
+   - `fetch_playlist_title_and_items`: Utiliza la biblioteca `yt-dlp` para obtener tanto el título de la playlist como los detalles individuales (título, ID y URL) de cada video dentro de ella.
+3. **Procesamiento principal**:
+   - Se abre el archivo `listas.json`, que contiene las URLs de las playlists.
+   - Por cada URL en este archivo, se obtiene el título único de la playlist y los detalles de sus videos.
+   - Crea un archivo JSON por cada playlist con toda esta información, almacenada en una carpeta llamada `playlists_expandidas`.
+4. **Finalización**: El script imprime un resumen del proceso, incluyendo cuántas playlists se han procesado y cuántos vídeos se han encontrado en total.
+
+Este script es útil para proyectos que requieren el análisis o procesamiento de grandes cantidades de contenido multimedia desde YouTube, como parte de investigaciones académicas, análisis de audiencia o cualquier otro tipo de estudio relacionado con contenidos en línea.
+
+`001-videos.py`
 
 ```python
 #!/usr/bin/env python3
@@ -1725,6 +1330,123 @@ if __name__ == "__main__":
 ```
 
 ### transcripciones
+<small>Creado: 2025-11-27 19:26</small>
+
+#### Explicación
+
+El script que proporcionaste es una herramienta compleja para descargar y procesar transcripciones de videos desde YouTube. Para mejorar la legibilidad y mantenimiento del código, aquí hay algunas sugerencias:
+
+1. **Documentación Mejorada:** Añadir comentarios más detallados al principio del archivo explicando el propósito del script, las variables principales utilizadas y cómo funciona en general.
+
+2. **División de Funciones:** Dividir el código en funciones más pequeñas y manejables para cada tarea específica (por ejemplo, descarga de subtítulos, conversión VTT a texto sólido).
+
+3. **Manejo de Excepciones Mejorado:** Asegurarse de que las excepciones capturadas proporcionen información útil tanto para el usuario como para la depuración.
+
+4. **Uso de Constantes y Variables Bien Documentadas:** Usar constantes para configuraciones fijas (como rutas, nombres de archivos) y documentar bien las variables que se usan en diferentes partes del script.
+
+5. **Logs Detallados y Descriptivos:** Mejorar el registro para proporcionar información más detallada sobre qué está pasando en cada paso del proceso.
+
+6. **Optimización de Consultas:** En lugar de realizar múltiples llamadas a `iter_videos_from_playlists_folder`, considera almacenar los resultados en una estructura de datos y trabajar con ellos para evitar la repetición innecesaria.
+
+### Ejemplo de Refactorización
+
+A continuación, se muestra un ejemplo simplificado de cómo podrías refactorizar partes del código para mejorar su legibilidad:
+
+```python
+import os
+from pathlib import Path
+
+PLAYLISTS_DIR = Path('playlists')
+OUT_BASE_DIR = Path('output')
+
+PLAYER_CLIENTS = ['ANDROID', 'WEB']
+
+def list_videos_from_playlists(playlists_dir: Path) -> tuple:
+    """Lista los videos de las carpetas de playlist."""
+    for playlist in playlists_dir.iterdir():
+        if not playlist.is_dir():
+            continue
+        for video_file in playlist.glob('*.txt'):
+            with open(video_file, 'r') as f:
+                yield from parse_video_data(f.read())
+
+def download_and_process_subtitles(url: str, base_out: Path) -> tuple:
+    """Descarga y procesa los subtítulos del video."""
+    pick = download_spanish_with_ytdlp(url, base_out)
+    if not pick:
+        return None
+    vtt_path, lang_code, client_used = pick
+    solid_text = convert_vtt_to_solid_text(vtt_path)
+    return (vtt_path, lang_code, client_used, solid_text)
+
+def parse_video_data(video_info: str) -> tuple:
+    """Parsea la información del video a partir de un archivo .txt."""
+    # Implementar el parsing según el formato esperado
+    pass
+
+def download_spanish_with_ytdlp(url: str, base_out: Path) -> tuple:
+    """Descarga los subtítulos en español o cualquier otro disponible."""
+    for client in PLAYER_CLIENTS:
+        result = perform_download_with_langs(['es'], client, url, base_out)
+        if result:
+            return result
+    # Realizar intentos adicionales si no se descargaron subtítulos
+    pass
+
+def convert_vtt_to_solid_text(vtt_path: Path) -> str:
+    """Convierte un archivo VTT a texto sólido."""
+    with open(vtt_path, 'r', encoding='utf-8') as file:
+        return vtt_to_solid_text(file.read())
+
+def main():
+    playlist_videos = list(list_videos_from_playlists(PLAYLISTS_DIR))
+    
+    total, ok, skipped, failed = 0, 0, 0, 0
+
+    for vid_data in playlist_videos:
+        total += 1
+        title, url, vid, playlist_title, playlist_url = vid_data
+        
+        out_dir = OUT_BASE_DIR / safe_filename(playlist_title)
+        txt_path = out_dir / f"{safe_filename(title)}.txt"
+        
+        if txt_path.exists():
+            skipped += 1
+            continue
+
+        print(f"[{total:03d}] [{playlist_title}] {title} -> {url}")
+        
+        result = download_and_process_subtitles(url, out_dir)
+        
+        if not result:
+            failed += 1
+            create_failure_log(out_dir / f"{safe_filename(title)}.log", playlist_title, url, title, vid_data, "Subtítulos no disponibles")
+            continue
+        
+        vtt_path, lang_code, client_used, solid_text = result
+        create_txt_file(txt_path, solid_text)
+        
+        ok += 1
+
+    print("\n=== RESUMEN ===")
+    print(f"Vídeos totales:   {total}")
+    print(f"OK (transcritos): {ok}")
+    print(f"Omitidos:         {skipped}  (sin subtítulos utilizables)")
+    print(f"Fallidos:         {failed}")
+
+if __name__ == "__main__":
+    main()
+```
+
+Este ejemplo muestra cómo podrías dividir tu script en funciones más pequeñas y manejables, mejorando la legibilidad y el mantenimiento del código. Asegúrate de implementar las partes específicas que se han omitido (como `parse_video_data`, `perform_download_with_langs`, etc.) basándote en tu lógica específica.
+
+### Mejoramientos Adicionales:
+
+- **Manejo de Errores:** Implementa manejo de errores más robusto para capturar y registrar cualquier excepción que pueda ocurrir.
+- **Configuración Flexibles:** Considerar el uso de variables de entorno o un archivo de configuración para las rutas y otros parámetros.
+- **Logging en Tiempo Real:** Añadir logs en tiempo real para proporcionar información detallada sobre cada paso del proceso, lo que puede ser útil durante la depuración.
+
+`002-transcripciones.py`
 
 ```python
 #!/usr/bin/env python3
@@ -2238,6 +1960,19 @@ if __name__ == "__main__":
 ```
 
 ### resumenes
+<small>Creado: 2025-11-27 19:26</small>
+
+#### Explicación
+
+Este script en Python se encarga de generar resúmenes en español a partir de transcripciones de videos almacenadas en archivos `.txt` dentro de subcarpetas del directorio `transcripts/`. El programa recorre todas las transcripciones, lee el contenido de cada archivo `.txt`, y lo envía a un servicio llamado ollama con un modelo específico (`qwen2.5:3b-instruct`) para que genere un resumen en español.
+
+El script utiliza la función `call_ollama_summarize` para enviar las transcripciones al servicio de ollama, donde se procesan y generan los resúmenes. Estos resúmenes siguen una estructura específica: deben ser claros y concisos, contener entre 5 y 10 puntos clave en viñetas y finalizar con un breve párrafo de síntesis.
+
+Una vez generado el resumen, el script guarda este resultado en un archivo `.summary.txt` que se encuentra en la misma carpeta del archivo original. Si ya existe un archivo de resumen para un determinado transcript, el programa lo salta sin procesarlo nuevamente.
+
+El objetivo principal es facilitar a los usuarios tener una visión general rápida y precisa de las transcripciones de los videos, ayudando así a la comprensión y análisis del contenido de manera más eficiente.
+
+`003-resumenes.py`
 
 ```python
 #!/usr/bin/env python3
@@ -2391,6 +2126,13 @@ if __name__ == "__main__":
 ```
 
 ### listas
+<small>Creado: 2025-11-27 19:26</small>
+
+#### Explicación
+
+Este fragmento de código es un archivo JSON que contiene una lista. En este caso, la lista tiene solo un elemento: una URL que corresponde a una lista de reproducción de YouTube específica. Esta URL está asociada al identificador de video "4ouGatnuNKY" y a la lista de reproducción con el ID "PLWKjZdWQCDC64UcPIMiF2YplFcKG2EWej". El archivo JSON es comúnmente utilizado para almacenar datos estructurados de manera que sean fácilmente legibles tanto por humanos como por máquinas. En este contexto, el archivo podría ser parte de un conjunto de datos utilizados por scripts o programas Python (como los archivos mencionados: `001-videos.py`, `002-transcripciones.py` y `003-resumenes.py`) para descargar videos de YouTube, procesar sus transcripciones, resumirlos u otras operaciones relacionadas. La importancia reside en que proporciona una forma ordenada e inmediatamente comprensible de almacenar datos necesarios para estos scripts ejecutar correctamente su tarea.
+
+`listas.json`
 
 ```json
 [
@@ -2398,10 +2140,88 @@ if __name__ == "__main__":
 ]
 ```
 
+### Actividades propuestas
+
+Este es un conjunto de scripts y archivos para automatizar el proceso de transcripción, resumen e indexación de listas de reproducción completas de YouTube en español. Aquí tienes una explicación detallada de cada parte:
+
+1. **listas.json**:
+   - Contiene URLs de listas de reproducción de YouTube que se van a procesar.
+
+2. **001-lista-videos.py**:
+   - Script que extrae los datos de las listas de reproducción y genera una lista de vídeos con su ID, título, URL y detalles adicionales.
+   - Guarda esta información en archivos CSV (`videos.csv`) y JSON (`videos.json`).
+
+3. **002-transcribir-videos.py**:
+   - Script que descarga transcripciones subtituladas (VTT) de los vídeos desde YouTube utilizando `yt-dlp`.
+   - Convierte las transcripciones VTT a texto sólido y genera resúmenes básicos.
+   - Guarda el texto sólido en archivos `.txt` dentro de carpetas según la lista de reproducción.
+
+4. **003-resumenes.py**:
+   - Script que toma los archivos `.txt` generados por `002-transcribir-videos.py`, utiliza un modelo LLM (Large Language Model) como Qwen para generar resúmenes en español.
+   - Guarda estos resúmenes en archivos `.summary.txt`.
+
+### Proceso Completo
+
+1. **Obtención de listas de vídeos**:
+   ```python
+   python 001-lista-videos.py --input listas.json
+   ```
+   Este script generará un archivo `videos.csv` con todos los detalles de la lista de reproducción proporcionada en `listas.json`.
+
+2. **Transcripción y Resumen Inicial**:
+   ```python
+   python 002-transcribir-videos.py --input videos.csv
+   ```
+   Este script descarga las transcripciones subtituladas (VTT) y genera un resumen básico.
+
+3. **Generación de Resúmenes Mejorados**:
+   ```python
+   python 003-resumenes.py
+   ```
+   Este script toma los archivos `.txt` generados en el paso anterior, utiliza un modelo LLM para generar resúmenes detallados y guarda estos resúmenes en archivos `.summary.txt`.
+
+### Requisitos
+
+- `yt-dlp`: Herramienta de línea de comandos para descargar contenido de YouTube.
+  ```sh
+  pip install yt-dlp
+  ```
+- `ollama`: Cliente para modelos LLM como Qwen. Necesita estar configurado y tener acceso al modelo descrito en `003-resumenes.py`.
+  
+### Consideraciones Adicionales
+
+- **Velocidad**: Los scripts pueden ser lentos dependiendo del número de vídeos y la velocidad de Internet.
+- **Sistema Operativo**: Estos scripts están diseñados para sistemas Unix/Linux, aunque también funcionarán en Windows con ajustes menores.
+- **Autenticación/Permisos**: Asegúrate de tener permisos adecuados para ejecutar estos scripts y acceder a los recursos necesarios.
+
+Este conjunto de herramientas proporciona una forma eficiente de recopilar, transcribir, resumir y organizar contenido educativo en YouTube.
+
+
 <a id="generador-web-ia"></a>
 ## generador web IA
 
+### Introducción a los ejercicios
+
+Este conjunto de ejercicios se centra en la creación de una aplicación web que utiliza inteligencia artificial para generar páginas HTML y CSS basadas en un texto de entrada proporcionado por el usuario. El ejercicio principal, contenido en el archivo `app.py`, muestra cómo implementar una interfaz web simple usando Flask, una biblioteca popular para Python. Los estudiantes aprenderán a manejar solicitudes POST, interactuar con APIs externas mediante la librería `requests` y responder con datos JSON.
+
+A través de este ejercicio, los estudiantes practicarán habilidades fundamentales como el desarrollo backend en Python, el uso de marcos web como Flask para crear aplicaciones web dinámicas, y cómo integrar servicios de inteligencia artificial en sus proyectos.
+
 ### app
+<small>Creado: 2025-11-27 19:26</small>
+
+#### Explicación
+
+Este código es un programa en Python que utiliza el framework Flask para crear una aplicación web simple. La función principal de esta aplicación es recibir solicitudes con un texto o "prompt" y generar HTML y CSS utilizando un modelo de inteligencia artificial llamado Ollama.
+
+El archivo empieza importando las bibliotecas necesarias, como `Flask` y `requests`, que son fundamentales para la comunicación web. Se inicializa una instancia de Flask y se define la URL del servidor local donde está corriendo el servicio Ollama, así como el nombre del modelo de inteligencia artificial utilizado (`qwen2.5-coder:7b`).
+
+La función `call_ollama()` toma un prompt (un texto que describe lo que se quiere generar) y envía una solicitud HTTP a Ollama para obtener la respuesta generada por el modelo. Si todo va bien, devuelve el HTML y CSS generado; si hay algún error en la llamada a Ollama, retorna una página de error sencilla con detalles técnicos.
+
+Las rutas `/` y `/generate` definen cómo maneja la aplicación las peticiones web entrantes. La ruta `/` simplemente muestra un archivo `index.html`, mientras que la ruta `/generate` recibe un prompt a través del método POST, lo llama a Ollama para generar el HTML correspondiente y luego devuelve este contenido en formato JSON.
+
+Este código es importante porque demuestra cómo se integra una aplicación web con servicios de inteligencia artificial para automatizar la creación de contenidos web, como HTML y CSS.
+
+`app.py`
 
 ```python
 from flask import Flask, render_template, request, jsonify
@@ -2491,10 +2311,168 @@ if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Implementación de una Aplicación Web Simpática
+
+**Descripción:** Los estudiantes deben crear una aplicación web similar a la proporcionada en el código, pero centrada en otro tema o función. Se espera que los alumnos aprendan a implementar rutas de Flask y cómo interactuar con APIs externas para generar contenido dinámico.
+
+### Actividad 2: Personalización del Diseño
+
+**Descripción:** Los estudiantes deben modificar el diseño del sitio web generado, cambiando estilos CSS existentes o añadiendo nuevos elementos visuales. Se espera que aprendan a manipular y personalizar las hojas de estilo en HTML/CSS.
+
+### Actividad 3: Implementación de Formularios
+
+**Descripción:** Los estudiantes deben agregar un formulario en la página web para permitir a los usuarios enviar solicitudes o propuestas al servidor. Se espera que comprendan cómo crear formularies en HTML y manejar eventos con Flask.
+
+### Actividad 4: Manejo de Errores Personalizados
+
+**Descripción:** Los alumnos deberán implementar un sistema más robusto para manejar errores y mostrar mensajes amigables a los usuarios cuando se produzcan problemas técnicos. Se espera que aprendan a controlar excepciones en Python y mejorar la experiencia del usuario.
+
+### Actividad 5: Integración de JavaScript Básico
+
+**Descripción:** Aunque el código original no incluye JavaScript, los estudiantes deben aprender a integrarlo de forma segura para añadir interactividad básica al sitio web. Se espera que comprendan las diferencias entre HTML/CSS y JavaScript y cómo interactuar con ellos.
+
+### Actividad 6: Creación de una Interfaz en Tiempo Real
+
+**Descripción:** Los estudiantes deben mejorar la comunicación del servidor con el cliente para permitir actualizaciones en tiempo real. Esto podría implicar el uso de WebSocket o AJAX (Asynchronous JavaScript and XML) junto con Flask. Se espera que aprendan a implementar comunicaciones asíncronas.
+
+### Actividad 7: Optimización y Mejora de Rendimiento
+
+**Descripción:** Los alumnos deben analizar el código para identificar posibles mejoras en rendimiento, como la reducción del tiempo de respuesta o minimizando los recursos necesarios. Se espera que aprendan técnicas básicas de optimización.
+
+### Actividad 8: Documentación y Explicación de Códigos
+
+**Descripción:** Los estudiantes deben escribir documentación clara para cada parte del código, incluyendo comentarios en el código fuente. Esto ayudará a otros desarrolladores a entender fácilmente cómo funciona la aplicación. Se espera que aprendan las buenas prácticas de codificación y documentación.
+
+### Actividad 9: Testing Unitario
+
+**Descripción:** Los estudiantes deben crear pruebas unitarias para diferentes partes del proyecto, especialmente aquellas relacionadas con rutas de Flask o funciones críticas. Se espera que comprendan la importancia de las pruebas en el desarrollo de software y aprendan a escribir pruebas eficientes.
+
+### Actividad 10: Creación de una Aplicación Móvil
+
+**Descripción:** Los alumnos deben crear una versión móvil del sitio web utilizando HTML5, CSS3 y JavaScript (o frameworks como React Native o Ionic). Se espera que aprendan las diferencias en la estructura y estilos para dispositivos móviles y cómo adaptar el diseño existente para mejorar la experiencia en teléfonos y tablets.
+
+
 <a id="entrenamiento-ia"></a>
 ## Entrenamiento IA
 
+### Introducción a los ejercicios
+
+Los archivos proporcionados contienen un conjunto completo de instrucciones y datos necesarios para realizar tareas relacionadas con el aprendizaje y la aplicación de inteligencia artificial. Aquí te presento una descripción detallada del contenido y su propósito:
+
+### Archivos
+
+1. **`README.md`**
+   - **Descripción:** Este archivo proporciona un resumen general de los archivos y cómo usarlos para aplicar el aprendizaje automático a la información sobre Jose Vicente Carratalá.
+   - **Contenido:**
+     - Pasos para configurar entornos de desarrollo.
+     - Instrucciones para realizar pruebas y experimentos con modelos de lenguaje.
+     - Guía sobre cómo procesar el conjunto de datos proporcionado.
+
+2. **`requirements.txt`**
+   - **Descripción:** Este archivo lista las dependencias necesarias para ejecutar los scripts relacionados con la IA.
+   - **Contenido:**
+     - Paquetes como `transformers`, `torch`, `accelerate`, `datasets`.
+     - Versión específica de Python recomendada (por ejemplo, 3.10).
+
+3. **`app.py`**
+   - **Descripción:** Este archivo es un script que permite interactuar con el modelo entrenado para responder preguntas sobre Jose Vicente Carratalá.
+   - **Contenido:**
+     - Importaciones de bibliotecas necesarias.
+     - Definición de funciones para cargar y utilizar el modelo.
+     - Mecanismo para hacer consultas y obtener respuestas.
+
+4. **`data.txt`**
+   - **Descripción:** Este archivo contiene las entradas y salidas del chat que sirven como conjunto de datos para entrenar un modelo de lenguaje.
+   - **Contenido:**
+     - Ejemplos estructurados en formato JSON con roles (user, assistant).
+
+5. **`data.json`**
+   - **Descripción:** Este archivo almacena el mismo conjunto de datos pero en formato JSON, facilitando la manipulación y procesamiento de los datos.
+   - **Contenido:**
+     - Ejemplos estructurados en formato JSON con roles (user, assistant).
+
+### Uso del Conjunto de Datos
+
+El archivo `data.txt` y `data.json` contienen una serie de intercambios entre el usuario y un asistente que proporcionan información detallada sobre Jose Vicente Carratalá. Cada entrada es estructurada como sigue:
+
+```json
+{
+  "messages": [
+    {"role": "user", "content": "..."},
+    {"role": "assistant", "content": "..."}
+  ]
+}
+```
+
+### Proceso de Entrenamiento y Evaluación
+
+1. **Configurar el Ambiente:**
+   - Instalar las dependencias descritas en `requirements.txt`.
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+2. **Procesar Datos:**
+   - Convertir los datos proporcionados a un formato compatible con la biblioteca Hugging Face.
+   - Preprocesamiento de textos y tokenización.
+
+3. **Entrenamiento del Modelo:**
+   - Utilizar `app.py` para cargar el modelo, entrenarlo con el conjunto de datos y realizar pruebas.
+     ```python
+     from app import main
+
+     if __name__ == "__main__":
+         main()
+     ```
+
+### Interacción Con El Modelo Entrenado
+
+Una vez que se ha completado el proceso de entrenamiento, `app.py` permite interactuar con el modelo para responder a preguntas sobre Jose Vicente Carratalá. Ejemplo:
+
+```python
+from app import ChatModel
+
+model = ChatModel()
+response = model.query("¿Qué cursos ha creado Jose Vicente Carratalá?")
+print(response)
+```
+
+### Resultados Esperados
+
+El objetivo es que el modelo entrenado sea capaz de proporcionar respuestas precisas y coherentes a preguntas similares a las presentes en el conjunto de datos. Esto permitirá una interacción fluida e informativa con la información sobre Jose Vicente Carratalá.
+
+### Conclusiones
+
+Este conjunto de archivos provee un marco completo para aprender y aplicar técnicas de aprendizaje automático, específicamente centrado en el entrenamiento de modelos basados en texto. Permite a los usuarios entender cómo procesar datos, realizar ajustes finos a modelos existentes y evaluar sus capacidades mediante consultas interactivas.
+
+Si tienes alguna pregunta o necesitas más detalles sobre cualquier parte del proceso, por favor avísame!
+
 ### entrenar
+<small>Creado: 2025-11-27 19:26</small>
+
+#### Explicación
+
+Este código es un script de Python diseñado para entrenar un modelo de lenguaje con datos específicos utilizando la biblioteca `transformers` de Hugging Face. El objetivo principal del script es cargar un conjunto de datos, prepararlo y luego entrenar el modelo en él.
+
+### Configuración y Carga de Datos
+El script comienza estableciendo algunas variables de configuración como el camino al archivo de los datos (`DATA_PATH`), el nombre del modelo base que se utilizará para el entrenamiento (`MODEL_NAME`), y la ruta donde se guardará el modelo entrenado (`OUTPUT_DIR`). Luego, verifica si hay una GPU disponible (CUDA) para el entrenamiento y ajusta parámetros según sea necesario.
+
+El script luego carga los datos de un archivo JSONL usando `datasets.load_dataset`, que es una utilidad proporcionada por Hugging Face para cargar fácilmente conjuntos de datos. Después de esto, se carga el tokenizer correspondiente al modelo base especificado y se asegura de que tenga definido el token de padding necesario.
+
+### Preparación del Modelo
+Si la GPU está disponible, el script configura el modelo para usar una técnica llamada QLoRA en 4 bits, lo cual es más eficiente en términos de uso de memoria. Si no hay GPU, se realiza un entrenamiento clásico con precisión float32 en CPU.
+
+### Conversión y Tokenización
+El código convierte los datos en texto plano utilizando una plantilla de chat, que es útil para modelos diseñados para entender interacciones de tipo "pregunta-respuesta". Luego, estos datos se tokenizan preparándolos para el entrenamiento. La función `tokenize_fn` asegura que cada ejemplo del conjunto de datos esté limitado a un máximo de 512 tokens y está correctamente marcado para los labels.
+
+### Configuración del Entrenador
+Finalmente, el script configura las opciones de entrenamiento como la ruta de salida, los epochs, tamaño del batch, tasa de aprendizaje y otros hiperparámetros. Se crea un objeto `Trainer` con estas configuraciones y se ejecuta el método `.train()` para iniciar el proceso de entrenamiento.
+
+Una vez que el modelo está entrenado, este script lo guarda en la ruta especificada junto con el tokenizer utilizado durante el proceso, permitiendo así su uso posterior sin necesidad de volver a entrenarlo desde cero. Este tipo de scripts son fundamentales cuando se trabaja con aprendizaje automático y procesamiento del lenguaje natural, especialmente para proyectos interdisciplinarios como el Entrenamiento IA que parece ser este caso.
+
+`entrenar.py`
 
 ```python
 #!/usr/bin/env python3
@@ -2731,6 +2709,27 @@ if __name__ == "__main__":
 ```
 
 ### probar
+<small>Creado: 2025-11-27 19:26</small>
+
+#### Explicación
+
+Este código es un script en Python diseñado para probar y evaluar el rendimiento de un modelo de lenguaje entrenado previamente, específicamente Qwen2.5-0.5B-Instruct con posibles ajustes (LoRA) aplicados. El script se enfoca en cargar los recursos necesarios del modelo base, así como cualquier modificación realizada a través del sistema LoRA si está disponible.
+
+En resumen, el código hace lo siguiente:
+1. **Configuración y Carga de Dependencias**: Importa las bibliotecas necesarias e inicializa variables clave para la configuración del modelo (nombre del modelo base, directorio donde se guardan los ajustes, etc.).
+
+2. **Funciones Principales**:
+   - `print_header()`: Muestra un encabezado informativo con detalles sobre el modelo y la carpeta de ajuste.
+   - `detect_device()`: Detecta si hay una GPU disponible para utilizarla durante las operaciones computacionales intensivas, lo que mejora significativamente el rendimiento en comparación con usar solo una CPU. Ajusta los tipos de datos según corresponda (float16 para GPUs y float32 para CPUs).
+   - `load_tokenizer()`: Carga un tokenizer preentrenado necesario para procesar texto en el formato requerido por el modelo.
+   - `load_base_model()`: Carga el modelo base desde los pesos preentrenados especificados.
+   - `load_with_lora_if_possible()`: Intenta cargar cualquier ajuste LoRA (si está disponible y configurado correctamente) sobre el modelo base para mejorar sus capacidades específicas. Si no se encuentra, simplemente carga el directorio como un nuevo modelo completo si ese fue el caso del entrenamiento.
+
+3. **Interacción con el Usuario**: Permite al usuario ingresar consultas en español interactivamente y obtiene respuestas generadas por el modelo ajustado, proporcionando una forma sencilla de evaluar y probar el rendimiento del modelo en tareas específicas (como la respuesta a preguntas sobre programación).
+
+Este script es útil para estudiantes y profesionales que desean verificar cómo un modelo ha mejorado después de ser entrenado con datos adicionales o ajustes, especialmente en contextos educativos donde se necesitan respuestas claras y concisas.
+
+`probar.py`
 
 ```python
 #!/usr/bin/env python3
@@ -2946,6 +2945,17 @@ if __name__ == "__main__":
 ```
 
 ### training_data
+<small>Creado: 2025-11-27 19:26</small>
+
+#### Explicación
+
+Este fragmento de código es una secuencia de conversaciones entre un usuario (rol: "user") que hace preguntas sobre Jose Vicente Carratalá Sanchis y un asistente (rol: "assistant") que proporciona respuestas detalladas. Cada entrada en el archivo contiene varias interacciones donde se abordan diferentes aspectos de la vida profesional, académica y personal de Jose Vicente. Estas preguntas y respuestas cubren desde su papel como docente hasta sus habilidades técnicas y proyectos recientes.
+
+El formato del código es una serie de objetos JSON anidados dentro de un array llamado "messages". Cada objeto representa una conversación completa entre el usuario y el asistente. El objetivo principal de este tipo de estructura es proporcionar información sobre Jose Vicente en varios temas, incluyendo su formación académica, sus proyectos tecnológicos y educativos, así como los recursos y herramientas que utiliza para enseñar y gestionar proyectos.
+
+Este archivo JSONl (JSON Lines) podría ser utilizado por un sistema de entrenamiento de inteligencia artificial o una base de datos de preguntas y respuestas para proporcionar información precisa sobre Jose Vicente Carratalá Sanchis, lo cual es útil tanto para estudiantes como para profesionales interesados en su trabajo.
+
+`training_data.jsonl`
 
 ```
 {"messages":[
@@ -3030,10 +3040,174 @@ if __name__ == "__main__":
 ]}
 ```
 
+### Actividades propuestas
+
+### Preparando la Entrenamiento del Modelo LLM con Datos
+
+Para preparar el entrenamiento del modelo LLM (Large Language Model) basado en los datos proporcionados, necesitamos asegurarnos de que las entradas estén correctamente formateadas y sean coherentes. Aquí se presenta un resumen paso a paso de cómo podrías proceder para utilizar estos datos:
+
+1. **Formatear los Datos**:
+   Los datos ya están en formato JSON con roles claros (user, assistant) lo que facilita su uso directo en el entrenamiento del modelo.
+
+2. **Estructura del Dataset**:
+   El dataset está formado por pares de conversaciones entre un usuario y un asistente, con las respuestas proporcionadas por Jose Vicente Carratalá sobre diferentes aspectos de su trabajo y conocimientos. Esto es ideal para un entrenamiento condicionado donde el modelo aprenderá a responder preguntas similares.
+
+3. **Procesar los Datos**:
+   Si se necesitan realizar ajustes adicionales, podrías procesar los datos con scripts en Python utilizando bibliotecas como `json` y `pandas`. Aquí hay un ejemplo de cómo cargar estos datos:
+
+   ```python
+   import json
+
+   # Cargar archivos JSON (para múltiples archivos)
+   def load_json_files(file_path):
+       with open(file_path, 'r', encoding='utf-8') as file:
+           data = [json.loads(line) for line in file]
+       return data
+   
+   # Ejemplo de uso
+   dataset_path = "training_data.jsonl"
+   data = load_json_files(dataset_path)
+   ```
+
+4. **Preparar los Datos para el Entrenamiento**:
+   
+   Los datos ya están en la forma adecuada que las bibliotecas de entrenamiento necesitan:
+
+   ```python
+   def prepare_dataset(data):
+       prepared_data = []
+       for entry in data:
+           user_message = entry['messages'][0]['content']
+           assistant_response = entry['messages'][1]['content']
+           
+           # Formatear para modelos (e.g., Qwen, ctransformers)
+           pair = {"prompt": f"User: {user_message}\n", "completion": f"{assistant_response}"}
+           prepared_data.append(pair)
+
+       return prepared_data
+   
+   # Ejemplo de uso
+   training_dataset = prepare_dataset(data)
+   ```
+
+5. **Entrenar el Modelo**:
+
+   Ahora puedes usar bibliotecas como `transformers` de Hugging Face o herramientas personalizadas para entrenar un modelo con este dataset. Aquí hay un ejemplo básico usando `ctransformers` y GGUF formatos.
+
+   ```python
+   from transformers import AutoModelForCausalLM, AutoTokenizer
+
+   model_name = "Qwen"
+   tokenizer = AutoTokenizer.from_pretrained(model_name)
+   model = AutoModelForCausalLM.from_pretrained(model_name)
+
+   # Convertir el dataset a formato adecuado para entrenar (e.g., GGUF format)
+   def convert_to_gguf_format(dataset):
+       gguf_data = []
+       for entry in dataset:
+           input_ids = tokenizer.encode(entry['prompt'], return_tensors='pt')
+           labels = tokenizer.encode(entry['completion'] + tokenizer.eos_token, return_tensors='pt').squeeze()
+           gguf_data.append({"input_ids": input_ids.tolist(), "labels": labels.tolist()})
+       
+       return gguf_data
+
+   training_dataset_gguf = convert_to_gguf_format(training_dataset)
+
+   # Guardar en formato GGUF
+   with open("trained_model.gguf", 'w') as f:
+       json.dump(training_dataset_gguf, f)
+   
+   ```
+
+6. **Personalizar el Modelo**:
+
+   Al entrenar con datos específicos, puedes personalizar un modelo existente (como Qwen) para que se comporte como Jose Vicente Carratalá en sus respuestas y estilo de enseñanza.
+
+### Ejecutar la Entrenamiento del Modelo
+
+Usando este dataset preparado, podrías entrenar el modelo localmente o en una infraestructura adecuada. Esto requerirá configuración específica dependiendo de la herramienta (como ctransformers, Ollama, etc).
+
+Finalmente, puedes probar y ajustar el modelo para asegurarte de que responde adecuadamente a consultas sobre los temas mencionados en tu dataset.
+
+### Ejecutar el Modelo Entrenado
+
+Después del entrenamiento, podrías usar este modelo personalizado en aplicaciones o servicios específicos como asistentes educativos o respuestas automáticas para preguntas técnicas.
+
+
 <a id="entrenar-chatbot-a-partir-de-whatsapp"></a>
 ## entrenar chatbot a partir de whatsapp
 
+### Introducción a los ejercicios
+
+Aquí tienes la información y los pasos que has proporcionado organizados de manera clara:
+
+### Resumen del Interés por el Ciclo Formativo DAW (Desarrollo de Aplicaciones Web)
+
+Ana está interesada en cursar el ciclo formativo de Desarrollo de Aplicaciones Web (DAW). María, una estudiante del mismo centro, ha estado ayudándola a tomar la decisión y respondiendo a sus preguntas.
+
+### Conversación entre Ana y María
+
+**28/09/2023:**
+- **Ana**: Está buscando información sobre DAW.
+- **María**: Responde dudas de Ana sobre los módulos del ciclo, las dificultades en cada asignatura, y anima a visitar el centro.
+
+**15/10/2023:**
+- **Ana**: Consulta detalles específicos sobre asignaturas (Programación, Bases de Datos, Lenguajes de Marca).
+- **María**: Informa que Programación es la más importante y se da durante dos años. También explica proyectos prácticos y menciona el valor del inglés técnico en el sector.
+
+**12/04/2024:**
+- **Ana**: Anuncia que ha solicitado DAW en tres centros.
+- **María**: Expresa alegría por la decisión de Ana y ofrece ayuda durante el proceso de matrícula.
+
+**28/06/2024:**
+- **Ana**: Recibe noticia positiva sobre su admisión en el centro de María.
+- **María**: Felicita a Ana por su aceptación.
+
+### Creación del Entorno Virtual (Python)
+
+Para crear un entorno virtual en Python y configurarlo correctamente, sigue los siguientes pasos:
+
+1. Crea un entorno virtual llamado `.venv`:
+   ```bash
+   python3 -m venv .venv
+   ```
+
+2. Activa el entorno virtual:
+   ```bash
+   source .venv/bin/activate
+   ```
+
+3. Instala las bibliotecas necesarias utilizando `pip`:
+   ```bash
+   pip install transformers datasets peft accelerate torch
+   ```
+
+### Conclusión
+
+Ana ha decidido cursar DAW en el turno de tarde y está esperando la formalización de su matrícula. María, una estudiante del mismo centro, ha sido un fuente constante de apoyo e información durante este proceso.
+
+Si Ana necesita ayuda adicional con los trámites o cualquier otra pregunta sobre el ciclo formativo, María estará disponible para ayudarla.
+
 ### whatsapp a jsonl
+<small>Creado: 2025-11-27 19:26</small>
+
+#### Explicación
+
+Este código Python convierte un archivo de texto que contiene una conversación exportada desde WhatsApp a otro formato llamado JSON Lines (o JSONL), específicamente diseñado para entrenar chatbots. El proceso se divide en varias etapas:
+
+1. **Lectura y análisis del archivo de entrada**: Primero, el código lee un archivo de texto (como `conversacion.txt`) que contiene la conversación exportada desde WhatsApp. A continuación, analiza cada línea para identificar si pertenece a una plataforma específica (Android o iOS) y también para detectar mensajes de sistema o mensajes normales.
+
+2. **Reconstrucción de los mensajes**: Los mensajes multilínea se reconstruyen en un único mensaje más largo. Esto es importante porque algunos usuarios pueden enviar mensajes que ocupan varias líneas en el archivo de texto original.
+
+3. **Transformación en formato ChatML Q&A**: El código agrupa las conversaciones entre dos usuarios (por ejemplo, entre un usuario y la asistente) en pares pregunta-respuesta (Q&A). Cada par se presenta en un formato específico llamado ChatML:
+    - Los mensajes del usuario son etiquetados con `{"role": "user", "content": "..."}`
+    - Las respuestas de la asistente, o cualquier persona cuyo nombre está definido como `ASSISTANT_NAME`, se etiquetan como `{"role": "assistant", "content": "...}"`.
+
+4. **Escritura del archivo JSONL**: Finalmente, el código genera un nuevo archivo (como `conversacion.jsonl`) que contiene estos pares Q&A en formato JSON Lines. Cada par de mensajes (pregunta y respuesta) se escribe como una línea separada en este archivo.
+
+Este proceso es útil para preparar datos de conversación en un formato que los sistemas de inteligencia artificial pueden usar fácilmente para aprender cómo responder a consultas, haciendo más sencillo el entrenamiento de chatbots basados en conversaciones reales.
+
+`001-whatsapp a jsonl.py`
 
 ```python
 #!/usr/bin/env python3
@@ -3330,6 +3504,23 @@ if __name__ == "__main__":
 ```
 
 ### entrenamiento
+<small>Creado: 2025-11-27 19:26</small>
+
+#### Explicación
+
+Este código es un script Python que se utiliza para entrenar un chatbot basado en el modelo de lenguaje Qwen2.5 usando datos recopilados del servicio WhatsApp. El objetivo principal del script es tomar un conjunto de datos en formato JSONL (cada línea es un objeto JSON), procesarlo y luego utilizarlo para ajustar el modelo existente.
+
+El código comienza cargando la configuración básica, como la ruta al archivo de datos (`DATA_PATH`), el nombre del modelo a utilizar (`MODEL_NAME`), y otros parámetros como `MAX_LENGTH`, que determina cuántos tokens pueden tener las entradas antes de ser truncadas. Luego, se verifica si hay una GPU disponible para mejorar el rendimiento del entrenamiento.
+
+Una vez detectado el dispositivo (GPU o CPU), el script carga el conjunto de datos desde un archivo JSONL y luego utiliza `AutoTokenizer` y `AutoModelForCausalLM` para cargar los componentes necesarios del modelo. Si se usa la GPU, el modelo es configurado para usar QLoRA 4-bit, una técnica que permite entrenar modelos grandes en hardware limitado.
+
+El script también transforma cada ejemplo de conversación (que consta de múltiples mensajes) en un solo texto plano usando una plantilla de chat proporcionada por el tokenizer. Luego, estos datos son tokenizados y preparados para el entrenamiento.
+
+Finalmente, se configuran los argumentos del entrenador y se crea un objeto `Trainer` con el modelo cargado y los datos preprocesados. El script comienza el proceso de entrenamiento y guarda tanto el modelo como el tokenizer una vez que termina en la ruta especificada por `OUTPUT_DIR`.
+
+Este tipo de código es fundamental para personas que desean crear o mejorar chatbots utilizando modelos de lenguaje preentrenados, especialmente cuando se requiere ajustar estos modelos a datos específicos.
+
+`002-entrenamiento.py`
 
 ```python
 #!/usr/bin/env python3
@@ -3566,6 +3757,21 @@ if __name__ == "__main__":
 ```
 
 ### probar
+<small>Creado: 2025-11-27 19:26</small>
+
+#### Explicación
+
+Este código es una herramienta que permite probar un modelo de lenguaje entrenado previamente, llamado Qwen2.5-0.5B-Instruct. El objetivo principal del script es permitir a los usuarios interactuar con el chatbot y evaluar cómo responde en español después de ser finetunado (es decir, adaptado para un uso específico) utilizando la técnica LoRA.
+
+El código comienza por importar las bibliotecas necesarias e intenta cargar una librería adicional llamada `peft`, que es requerida si se desea utilizar la técnica LoRA. A continuación, establece algunas configuraciones básicas como el nombre del modelo base y la carpeta donde se guarda el finetuning.
+
+El script incluye funciones para detectar qué tipo de hardware está disponible (CPU o GPU), cargar los componentes necesarios (tokenizer y modelo base) y, si es posible, incorpora las modificaciones realizadas con LoRA. Además, tiene una función `build_prompt` que construye el texto de entrada en un formato adecuado para la conversación.
+
+El flujo principal del script empieza cargando estos componentes y luego entra en un bucle interactivo donde el usuario puede ingresar preguntas en español y recibir respuestas generadas por el modelo. El chatbot sigue un esquema simple: imprime una invitación al usuario, recoge la entrada del usuario, construye la pregunta para el modelo, genera una respuesta con el modelo cargado, e imprime esa respuesta.
+
+Este tipo de scripts son útiles en etapas finales de desarrollo y prueba de modelos de lenguaje, ya que permiten evaluar rápidamente cómo un modelo responde a diferentes tipos de preguntas o entradas.
+
+`003-probar.py`
 
 ```python
 #!/usr/bin/env python3
@@ -3781,6 +3987,21 @@ if __name__ == "__main__":
 ```
 
 ### probar interactivo
+<small>Creado: 2025-11-27 19:26</small>
+
+#### Explicación
+
+Este fragmento de código es un programa interactivo que permite entrenar y probar un chatbot usando el modelo Qwen. El programa está escrito en Python y utiliza bibliotecas como `transformers` para cargar y manipular modelos de lenguaje, así como `peft` para manejar ajustes específicos (fine-tuning) del modelo.
+
+El código comienza por configurar varios parámetros necesarios, incluyendo el nombre del modelo base que se utilizará (`Qwen/Qwen2.5-0.5B-Instruct`) y la carpeta donde se guarda el modelo entrenado (`qwen25-05b-jvc`). También define variables para limitar el número máximo de tokens generados por respuesta, junto con valores para controlar la aleatoriedad en las respuestas (temperatura y top-p).
+
+A continuación, se carga tanto el tokenizador como el modelo. Si existe un archivo `adapter_config.json` en la carpeta del modelo entrenado, el código asume que el modelo ha sido ajustado usando una técnica llamada LoRA/PEFT y carga ambos: el modelo base junto con los pesos adicionales para el ajuste fino. En caso contrario, se cargará directamente el modelo completo desde esa carpeta.
+
+Una vez cargados, el programa define la función `generate_reply`, que toma un mensaje del usuario como entrada, lo convierte en una secuencia de tokens, genera una respuesta usando el modelo y luego devuelve esta respuesta al usuario. La interacción con el chatbot se realiza a través de un bucle interactivo que espera inputs del usuario (hasta que se escribe "exit" o "quit"), procesa la entrada, genera una respuesta y la muestra.
+
+Este tipo de script es importante en proyectos de IA porque permite probar interactivamente cómo funciona el chatbot después del entrenamiento, lo cual es fundamental para evaluar su desempeño.
+
+`004-probar interactivo.py`
 
 ```python
 #!/usr/bin/env python3
@@ -3903,6 +4124,21 @@ if __name__ == "__main__":
 ```
 
 ### app
+<small>Creado: 2025-11-27 19:26</small>
+
+#### Explicación
+
+Este código es un ejemplo de cómo crear una aplicación web utilizando Flask en Python para interactuar con un modelo de lenguaje entrenado llamado Qwen. La aplicación permite que los usuarios ingresen mensajes a través de su navegador y reciban respuestas generadas por el modelo.
+
+El código comienza importando varias bibliotecas necesarias, incluyendo `torch` para manejar la computación del tensor, y las clases específicas de Flask como `Flask`, `render_template`, etc. Además, se cargan los tokenizadores y modelos de lenguaje usando `transformers` e `peft`. El modelo es cargado en la tarjeta gráfica (GPU) si está disponible para una mayor eficiencia.
+
+La función `generate_reply()` toma un mensaje del usuario como entrada, lo prepara adecuadamente para el formato requerido por Qwen y luego genera una respuesta utilizando el modelo. Esta función controla cómo se formulan las preguntas al modelo y cómo se procesan sus respuestas.
+
+Finalmente, la aplicación Flask define dos rutas principales: `/` y `/chat`. La ruta principal (`/`) simplemente sirve un archivo HTML que actúa como interfaz de usuario para los usuarios. La ruta `/chat` maneja las solicitudes POST enviadas desde el cliente (el formulario en la página web), procesa los mensajes del usuario, genera respuestas con la función `generate_reply()`, y luego devuelve estas respuestas al cliente.
+
+Este tipo de aplicación es importante porque permite a los estudiantes comprender cómo integrar modelos avanzados de procesamiento del lenguaje natural en aplicaciones web interactivas, lo que puede ser muy útil para proyectos prácticos y futuras carreras en el campo del desarrollo de software.
+
+`app.py`
 
 ```python
 #!/usr/bin/env python3
@@ -4024,6 +4260,17 @@ if __name__ == "__main__":
 ```
 
 ### conversacion
+<small>Creado: 2025-11-27 19:26</small>
+
+#### Explicación
+
+Este fragmento de código contiene una serie de conversaciones almacenadas en formato JSONL (JSON Lines). Cada línea representa un mensaje en una conversación, donde cada mensaje tiene dos campos clave: "role" y "content". El campo "role" indica si el mensaje fue enviado por un usuario ("user") o generado por un asistente ("assistant"). El campo "content" almacena el texto del mensaje.
+
+Esta estructura de datos es común en aplicaciones de chatbots, donde se guardan interacciones pasadas entre usuarios y sistemas inteligentes para fines de entrenamiento y análisis. En este caso específico, la conversación parece ser una ayuda educativa sobre los ciclos formativos (también conocidos como formación profesional o FP), proporcionando información detallada a un estudiante potencial.
+
+Es importante porque permite al chatbot entender mejor las consultas comunes de los estudiantes y cómo responder a ellas de manera efectiva, lo que mejora la experiencia del usuario en futuras interacciones.
+
+`conversacion.jsonl`
 
 ```
 {"messages": [{"role": "user", "content": "Hola María! ¿Cómo estás? Quería preguntarte sobre los ciclos formativos porque sé que estás estudiando uno"}, {"role": "assistant", "content": "Hola Ana! Bien, gracias :) Sí, estoy en segundo de Desarrollo de Aplicaciones Web. ¿En qué puedo ayudarte?"}]}
@@ -4063,6 +4310,32 @@ if __name__ == "__main__":
 ```
 
 ### conversacion
+<small>Creado: 2025-11-27 19:26</small>
+
+#### Explicación
+
+El texto es un chat entre Ana y María, en el que Ana está considerando estudiar el ciclo formativo de Grado Medio de Desarrollo de Aplicaciones Web (DAW) y consulta a María sobre diversos aspectos del mismo. El intercambio abarca varios meses desde septiembre hasta junio.
+
+**Resumen principal:**
+
+- **Inicios:** Ana está considerando estudiar DAW pero tiene muchas dudas, incluyendo la dificultad de ciertas asignaturas, el horario y cómo sería su experiencia en general.
+  
+- **Conversaciones iniciales (Septiembre 2023):** Ana consulta a María sobre las ventajas y desventajas del ciclo DAW. María le proporciona detalles sobre los módulos, la práctica real, la importancia de inglés, costos asociados y posibilidades de visita al centro.
+
+- **Consulta sobre asignaturas específicas (Octubre 2023):** Ana se vuelve a poner en contacto con María para discutir más específicamente las dificultades potenciales de ciertas asignaturas y el contenido del horario, incluyendo proyectos reales e inglés técnico. También confirma que ha decidido estudiar DAW en turno de tarde.
+
+- **Confirmación de preinscripción (Abril 2024):** Ana notifica a María sobre la apertura de la preinscripción y le informa sobre los centros donde ha solicitado plaza, incluyendo el centro de María.
+
+- **Resultado de admisión (Junio 2024):** Ana recibe la noticia de su aceptación en el centro de María. Las dos expresan felicidad por esta noticia y se preparan para comenzar juntas el ciclo DAW el próximo año académico.
+
+**Aspectos clave:**
+- **Apoyo mutuo:** El texto refleja un fuerte vínculo de apoyo entre Ana y María, con María brindando información crucial y ánimo a Ana durante su proceso de toma de decisiones.
+- **Detalles del ciclo DAW:** Se discuten varios aspectos clave del ciclo formativo como la estructura del programa, proyectos prácticos, dificultad de las asignaturas y habilidades necesarias (como inglés técnico).
+- **Proceso de admisión:** Se menciona el proceso para los estudiantes que buscan ingresar en un centro educativo, incluyendo preinscripción, espera por listas provisionales y formalización de matrícula.
+  
+Este chat no solo es instructivo sino también emotivo, reflejando la naturaleza importante de decisiones educativas y las relaciones personales que pueden surgir a partir de ellas.
+
+`conversacion.txt`
 
 ```
 Conversación con María - CFGS
@@ -4171,22 +4444,110 @@ Conversación con María - CFGS
 [28/06/2024 11:21] María: A mí también me hace mucha ilusión! Bienvenida al mundo FP! 💻
 ```
 
-### instrucciones creacion de un entorno virtual
+### Actividades propuestas
 
-```markdown
-python3 -m venv .venv
+El archivo `instrucciones_creacion_de_un_entorno_virtual.md` proporciona las instrucciones para crear y configurar un entorno virtual en Python. Aquí está el resumen de los pasos que se deben seguir:
 
-source .venv/bin/activate
+1. **Crear un Entorno Virtual**: Se utiliza la herramienta integrada `venv` del módulo estándar de Python para crear un nuevo entorno virtual llamado `.venv`.
+   ```bash
+   python3 -m venv .venv
+   ```
 
-pip install transformers datasets peft accelerate
+2. **Activar el Entorno Virtual**: Antes de instalar paquetes, es necesario activar el entorno virtual recién creado.
+   ```bash
+   source .venv/bin/activate
+   ```
+   
+   > Nota: En sistemas Windows, la sintaxis para activar un entorno virtual es ligeramente diferente:
+   >
+   > ```cmd
+   > .venv\Scripts\activate
+   > ```
 
-pip install torch
-```
+3. **Instalar Dependencias**: Una vez activado el entorno virtual, se instalan los paquetes necesarios que son específicos del proyecto (como `transformers`, `datasets`, `peft` y `accelerate`) utilizando pip.
+   ```bash
+   pip install transformers datasets peff accelerate
+   ```
+   
+4. **Instalar PyTorch**: Finalmente, se instala la biblioteca de aprendizaje profundo PyTorch en el entorno virtual para poder utilizarla junto con los otros paquetes necesarios.
+   ```bash
+   pip install torch
+   ```
+
+Al seguir estos pasos, puedes tener un entorno Python completamente configurado y aislado para tu proyecto que incluye las bibliotecas de aprendizaje profundo mencionadas.
+
 
 <a id="entrenar-chatbot-a-partir-de-pdf"></a>
 ## entrenar chatbot a partir de pdf
 
+### Introducción a los ejercicios
+
+El código proporcionado es un script Python diseñado para generar conjuntos de preguntas y respuestas (Q&A) a partir de transcripciones de texto almacenadas en archivos .txt o .md. El script utiliza un modelo de lenguaje llamado Ollama para la generación de Q&A y guarda los resultados en archivos JSONL individuales. A continuación, se desglosa el funcionamiento principal del código:
+
+### Preparación Inicial
+1. **Verificación del Servicio de Ollama**: El script verifica si un servicio llamado Ollama está disponible y detecta la ruta correcta para interactuar con este servicio.
+2. **Carga de Archivos de Entrada**: Se buscan archivos .txt o .md en una carpeta específica (definida por `INPUT_DIR`), que contienen las transcripciones de texto a procesar.
+
+### Procesamiento de los Ficheros
+1. **Lectura y Preparación de Bloques**:
+   - Los archivos se leen y cualquier marcaje de Markdown se elimina.
+   - El texto se divide en bloques más pequeños que pueden ser manejados individualmente para la generación de Q&A.
+
+2. **Procesamiento y Generación de Q&A**:
+   - Para cada bloque, el script genera tanto preguntas fáciles como avanzadas utilizando llamadas al servicio Ollama.
+   - Los resultados (Q&A) se guardan inmediatamente en archivos JSONL individuales para cada archivo original.
+
+3. **Barra de Progreso y Rastreo**:
+   - Se utiliza una clase `ProgressTracker` para proporcionar un seguimiento visual del progreso global a medida que se procesan los bloques.
+   
+### Finalización y Resumen
+1. **Resumen del Trabajo Realizado**: Al finalizar, el script muestra un resumen de cuántos archivos fueron leídos, cuántos ya habían sido procesados antes y cuántos nuevos fueron procesados en esta ejecución, junto con el número total de pares Q&A generados.
+
+### Detalles Técnicos
+- **Funciones Clave**:
+  - `prepare_blocks_for_file`: Lee un archivo y divide su contenido en bloques más pequeños.
+  - `generate_qa_for_block`: Genera conjuntos de preguntas y respuestas para cada bloque utilizando el servicio Ollama.
+  - `process_single_file`: Procesa un único archivo, generando Q&A para todos sus bloques individuales y guardándolos en un archivo JSONL.
+
+- **Estructura del Directorio**:
+  - El código asume que los archivos de entrada están en una carpeta específica (`INPUT_DIR`).
+  - Los resultados (archivos JSONL) se escriben en otra carpeta (`OUTPUT_DIR`).
+
+### Uso
+El script es útil para la generación automática de conjuntos de preguntas y respuestas a partir de grandes cantidades de texto estructurado. Esto puede ser particularmente útil en aplicaciones educativas, entrenamiento de modelos de lenguaje, o cualquier otro caso donde se necesiten preguntas basadas en el contenido del texto.
+
+### Mejoras Potenciales
+- **Paralelización**: El procesamiento podría beneficiarse de la paralelización para manejar archivos grandes más rápidamente.
+- **Optimizaciones de Eficiencia**: El código podría ser mejorado para optimizar aún más los pasos de lectura y escritura de archivos.
+
+Este script proporciona una base sólida para generar Q&A a partir de transcripciones de texto, con potencial para ser adaptado o extendido según las necesidades específicas del usuario.
+
 ### prompt
+<small>Creado: 2025-11-27 19:26</small>
+
+#### Explicación
+
+Este código Python es una herramienta que genera pares de preguntas y respuestas (Q&A) en formato JSON Lines a partir de transcripciones o textos técnicos. Su propósito principal es entrenar modelos de lenguaje con material educativo, generando tanto preguntas fáciles como avanzadas para diferentes conceptos.
+
+El script funciona de la siguiente manera:
+
+1. **Configuración y Utilidades Básicas**: Define constantes que configuran el comportamiento del script, incluyendo rutas a carpetas de entrada y salida, y parámetros para dividir el texto en bloques más pequeños (chunks) con solape.
+
+2. **Gestión del Log**: El código mantiene un archivo log.json que registra los archivos de texto ya procesados. Esto ayuda a evitar duplicar el trabajo sobre archivos que ya han sido trabajados anteriormente.
+
+3. **Interacción con Ollama**: Usa una API llamada Ollama para generar las preguntas y respuestas. El modelo llama3:8b (o un similar) es utilizado para responder a prompts generados por la herramienta, produciendo el contenido de Q&A en formato JSON Lines.
+
+4. **Procesamiento de Textos**: Para cada archivo de texto en la carpeta especificada (`INPUT_DIR`), divide el texto en bloques más pequeños y luego genera preguntas tanto fáciles como avanzadas para cada bloque utilizando los prompts adecuados y llamando a Ollama.
+
+5. **Generación de Q&A**: El script genera pares de preguntas y respuestas, asegurándose que sigan un formato específico en JSON Lines, que es clave para el entrenamiento del modelo de lenguaje.
+
+6. **Salida Final**: Cada archivo de entrada procesado resulta en un archivo JSONL individual con sus respectivos pares Q&A almacenados en la carpeta `OUTPUT_DIR`. Además, el script actualiza el log.json para registrar qué archivos han sido procesados y cuáles no.
+
+Este código es fundamental para preparar material educativo estructurado de forma que pueda ser utilizado eficazmente por modelos de lenguaje para aprender conceptos técnicos o académicos. La capacidad de generar tanto preguntas simples como avanzadas permite un enfoque más completo en el entrenamiento del modelo. 
+
+El script también incluye manejo básico de errores y registro de progreso, lo que facilita su uso en entornos de producción donde puede ser necesario procesar muchos archivos con regularidad. Esto asegura la consistencia y eficiencia del proceso de generación de Q&A.
+
+`001-prompt.py`
 
 ```python
 #!/usr/bin/env python3
@@ -4604,15 +4965,20 @@ if __name__ == "__main__":
     main()
 ```
 
-### pregunta inicial
-
-```markdown
-llama3.1:8b-instruct-q4_0
-
-ollama run llama3.1:8b-instruct-q4_0
-```
-
 ### pdf a md
+<small>Creado: 2025-11-27 19:26</small>
+
+#### Explicación
+
+Este fragmento de código es una función llamada `pdf_to_markdown` que convierte un archivo PDF en texto Markdown. La función toma dos argumentos: el nombre del archivo PDF que se va a convertir y el nombre del archivo Markdown donde se guardará el resultado.
+
+Primero, la función abre el archivo PDF usando la biblioteca PyMuPDF (importada como `fitz`). Luego, utiliza otra biblioteca llamada `pymupdf4llm` para convertir todo el contenido del documento PDF en texto Markdown. Finalmente, guarda este texto Markdown en un nuevo archivo con el nombre especificado.
+
+El bloque `if __name__ == "__main__":` asegura que la función se ejecute solo cuando el script es ejecutado directamente (no si es importado como módulo por otro script). En este caso, convierte específicamente un archivo PDF llamado "Resumen módulos profesionales SMR_DAM_DAW.pdf" ubicado en una carpeta llamada `pdf`, y guarda el resultado en un archivo Markdown llamado "resumen.md" dentro de la carpeta `input`.
+
+Este tipo de script es útil cuando necesitas transformar documentos PDF para que sean más fáciles de leer o procesar en formatos como Markdown, especialmente si estás trabajando con texto y no gráficos complejos.
+
+`003-pdf a md.py`
 
 ```python
 import fitz  # PyMuPDF
@@ -4633,21 +4999,20 @@ if __name__ == "__main__":
     pdf_to_markdown("pdf/Resumen módulos profesionales SMR_DAM_DAW.pdf", "input/resumen.md")
 ```
 
-### instalar entorno virtual
-
-```markdown
-python3 -m venv .venv
-
-source .venv/bin/activate
-
-pip install transformers datasets peft accelerate
-
-pip install torch
-
-pip install pymupdf pymupdf4llm
-```
-
 ### prueba
+<small>Creado: 2025-11-27 19:26</small>
+
+#### Explicación
+
+Este fragmento de código es una función que permite enviar una pregunta a un modelo de inteligencia artificial llamado "gemma2" mediante una solicitud web y recibir una respuesta. Primero, importa dos bibliotecas necesarias: `requests` para manejar las solicitudes HTTP y `json` para trabajar con datos JSON.
+
+La función `ask_ollama` toma como entrada un texto (una pregunta) y devuelve la respuesta del modelo inteligente. Crea un diccionario llamado `payload`, que contiene información sobre el modelo a usar (`MODEL`) y la pregunta introducida por el usuario (`prompt`). Luego, envía una solicitud POST a la URL especificada en `OLLAMA_URL` con este payload.
+
+El código maneja posibles errores de conexión o respuesta utilizando `response.raise_for_status()`, lo que garantiza que se detendrá si algo sale mal. Después, convierte la respuesta recibida en un formato JSON y extrae específicamente el valor asociado a la clave `"response"`, que es donde está almacenada la respuesta del modelo.
+
+En la parte principal del script (dentro de `if __name__ == "__main__":`), se solicita al usuario que ingrese una pregunta, luego llama a la función `ask_ollama` para obtener la respuesta y finalmente imprime esa respuesta en pantalla. Esta estructura es útil porque permite interactuar fácilmente con el modelo desde un terminal o línea de comandos.
+
+`005-prueba.py`
 
 ```python
 import requests
@@ -4677,6 +5042,59 @@ if __name__ == "__main__":
 ```
 
 ### md a jsonl
+<small>Creado: 2025-11-27 19:26</small>
+
+#### Explicación
+
+El script proporcionado se centra en la generación automática de pares de preguntas y respuestas (Q&A) a partir de transcripciones técnicas o documentos Markdown, utilizando un modelo entrenado en un servicio llamado Ollama. Aquí está una descripción detallada del funcionamiento principal:
+
+1. **Configuración Inicial**:
+   - Asegura que las carpetas necesarias existen.
+   - Verifica la conectividad con el servicio de Ollama y detecta automáticamente cuál es el endpoint correcto para generar Q&A.
+
+2. **Lectura de Archivos de Entrada**:
+   - Busca archivos `.txt` o `.md` en la carpeta `INPUT_DIR`.
+   
+3. **Procesamiento de Cada Archivo**:
+   - Lee y limpia el contenido del archivo Markdown.
+   - Divide el texto en bloques más pequeños para facilitar la generación de Q&A.
+   - Para cada bloque, genera preguntas fáciles e intermedias/avanzadas utilizando diferentes prompts y formatea las respuestas como JSON Lines.
+
+4. **Guardado de Resultados**:
+   - Guarda inmediatamente los pares de preguntas y respuestas generados en archivos `.jsonl` dentro de la carpeta `OUTPUT_DIR`.
+   
+5. **Registro del Proceso**:
+   - Mantiene un registro detallado de qué archivos se han procesado en un archivo `log.json`.
+
+### Detalles Técnicos
+
+- **Limpieza y Normalización**: El script utiliza técnicas para quitar elementos Markdown como encabezados, listas, etc., y normalizar espacios innecesarios en el texto.
+  
+- **División de Texto**: Divide el texto largo en bloques más pequeños (por defecto 1024 caracteres) para manejar mejor la generación de Q&A.
+
+- **LLM Integration (Generador de Preguntas y Respuestas)**:
+   - Utiliza un sistema externo (Ollama) que se supone está configurado y puede generar preguntas e respuestas basándose en prompts proporcionados.
+   
+### Flujo del Proceso
+
+1. Se buscan archivos `.txt` o `.md` en la carpeta `INPUT_DIR`.
+2. Por cada archivo, el contenido es leído y limpiado de elementos Markdown.
+3. El texto resultante se divide en bloques más pequeños para facilitar su procesamiento.
+4. Para cada bloque, se generan dos tipos diferentes de pares Q&A: preguntas fáciles (introductorias) y preguntas intermedias/avanzadas.
+5. Los resultados son almacenados en archivos `.jsonl` dentro del directorio `OUTPUT_DIR`.
+6. Un registro detallado del proceso se mantiene en el archivo `log.json`, indicando qué archivos han sido procesados.
+
+### Consideraciones
+
+- **Dependencia Externa**: El script depende de una interfaz con un modelo entrenado (Ollama), lo que significa que para funcionar correctamente, este servicio debe estar configurado y disponible.
+  
+- **Escalabilidad y Robustez**:
+   - La limpieza del texto asegura la consistencia en el formato de salida.
+   - El dividir el documento en bloques más pequeños facilita un manejo más eficiente del procesamiento para conjuntos de datos grandes.
+
+El script ofrece una solución escalable y automatizada para generar pares Q&A desde documentos técnicos o Markdown, lo cual puede ser muy útil en contextos educativos o de aprendizaje automático.
+
+`006-md a jsonl.py`
 
 ```python
 #!/usr/bin/env python3
@@ -5275,6 +5693,46 @@ if __name__ == "__main__":
 ```
 
 ### streaming
+<small>Creado: 2025-11-27 19:27</small>
+
+#### Explicación
+
+Este script Python es una herramienta completa para generar conjuntos de preguntas y respuestas (Q&A) basadas en documentos Markdown o texto plano. Aquí está un resumen detallado de sus funcionalidades principales:
+
+1. **Configuración Inicial**:
+   - Verifica la presencia de directorios necesarios.
+   - Detecta el endpoint correcto del servicio Ollama (un modelo de lenguaje grande) para generar Q&A.
+
+2. **Lectura y Preprocesamiento de Documentos**:
+   - Lee archivos `.txt` o `.md` desde una carpeta de entrada (`INPUT_DIR`).
+   - Elimina el formato Markdown, normaliza espacios en blanco, y divide el texto en bloques manejables según su longitud.
+
+3. **Generación de Q&A**:
+   - Para cada bloque, genera preguntas fáciles e intermedias/avanzadas usando prompts específicos.
+   - Asegura que las respuestas sigan un formato JSON Lines estándar para facilitar el almacenamiento y la posterior lectura.
+
+4. **Guardado en Ficheros JSONL**:
+   - Escribir los pares Q&A generados directamente a ficheros `.jsonl` para cada archivo de entrada procesado.
+   - Mantener un registro del estado de procesamiento en un fichero `log.json`.
+
+5. **Funciones y Métodos Clave**:
+
+   - `ensure_dirs()`: Crea directorios necesarios si no existen.
+   - `strip_markdown(text)`: Elimina el formato Markdown del texto dado.
+   - `normalize_whitespace(cleaned)`: Normaliza espacios en blanco para mejorar la legibilidad de los bloques.
+   - `split_into_blocks(text, max_chars=MAX_CHARS_PER_BLOCK)`: Divide un documento largo en bloques más pequeños para procesarlos individualmente.
+   - `generate_qa_for_block(block: str) -> List[Dict[str, str]]`: Genera pares Q&A fáciles e intermedias avanzadas a partir de un bloque de texto dado.
+
+6. **Lógica Principal**:
+   - Procesa cada archivo de entrada en orden alfabético.
+   - Permite el seguimiento del progreso y evita la re-procesación de archivos ya generados según registros previos.
+
+7. **Salida Final**:
+   - Genera un resumen final que incluye el número total de pares Q&A generados, los archivos procesados y los que se saltaron debido a ser ya procesados en ejecuciones anteriores.
+
+Este script es especialmente útil para la creación automatizada de conjuntos de datos de entrenamiento para modelos de lenguaje, específicamente para la capacitación en comprensión de lectura y generación de respuestas precisas.
+
+`007-streaming.py`
 
 ```python
 #!/usr/bin/env python3
@@ -5873,6 +6331,59 @@ if __name__ == "__main__":
 ```
 
 ### estadisticas
+<small>Creado: 2025-11-27 23:49</small>
+
+#### Explicación
+
+Este script es un ejemplo completo y detallado de cómo utilizar el servicio Ollama para generar preguntas y respuestas (Q/A) a partir de transcripciones o documentos. El código está bien estructurado en varias funciones que manejan diferentes aspectos del proceso, desde la preparación del entorno hasta la generación final de Q/A.
+
+### Resumen del Flujo Principal
+
+1. **Configuración Inicial**:
+   - Verifica que los directorios necesarios existan.
+   - Detecta el servicio Ollama y selecciona el endpoint correcto.
+
+2. **Lectura de Archivos de Entrada**:
+   - Busca archivos `.txt` o `.md` en un directorio específico (`INPUT_DIR`) y filtra aquellos que aún no han sido procesados según un archivo de log.
+
+3. **Preparación del Contenido**:
+   - Lee cada archivo, limpia el Markdown y divide el contenido en bloques más pequeños para facilitar la generación de Q/A.
+
+4. **Generación de Preguntas y Respuestas**:
+   - Para cada bloque generado, utiliza Ollama con un sistema predefinido que genera preguntas fáciles e intermedias/avanzadas.
+   - Guarda las respuestas en formato JSONL para cada archivo original.
+
+5. **Actualización del Log de Procesamiento**:
+   - Mantiene un registro detallado de qué archivos han sido procesados y cuántas Q/A se han generado para cada uno.
+
+6. **Reporte Final**:
+   - Sumariza el proceso, incluyendo los archivos que fueron nuevos o ya habían sido procesados, el número total de bloques y pares Q/A generados.
+
+### Estructura del Código
+
+- **Funciones Auxiliares**: `ensure_dirs`, `load_log`, `save_log` manejan la estructura del directorio y el registro del proceso.
+- **Preparación de Texto**: `read_text_file`, `strip_markdown`, `normalize_whitespace`, `split_into_blocks` limpian y dividen el texto en bloques manejables.
+- **Llamada a Ollama**: `generate_qa_for_block` utiliza los modelos de Ollama para generar Q/A basadas en los bloques preparados.
+- **Procesamiento de Archivos**:
+  - `process_single_file` maneja la generación y escritura inmediata del JSONL para cada archivo procesado.
+
+### Consideraciones Especiales
+
+1. **Uso de Progreso**: El script utiliza una barra de progreso que se actualiza conforme a los bloques procesados, lo cual es útil cuando se trabaja con muchos archivos o grandes cantidades de texto.
+2. **Manejo de Errores**:
+   - Proporciona mensajes de error y advertencias para situaciones como archivos vacíos o problemas al acceder al servicio Ollama.
+3. **Estructura del Log**: El script mantiene un registro detallado en `log.json` que incluye los archivos ya procesados, permitiendo continuar la generación donde se quedó anteriormente.
+
+### Ejecución
+
+Para ejecutar este script:
+1. Asegúrate de tener configurado el servicio Ollama con el modelo adecuado.
+2. Coloca tus transcripciones en el directorio `INPUT_DIR`.
+3. Ejecuta el script.
+
+Este es un ejemplo sólido y bien estructurado que demuestra cómo integrar llamadas a servicios como Ollama para procesamiento automatizado de texto.
+
+`008-estadisticas.py`
 
 ```python
 #!/usr/bin/env python3
@@ -6616,10 +7127,108 @@ if __name__ == "__main__":
     main()
 ```
 
+### Actividades propuestas
+
+Este script Python realiza la generación automática de preguntas y respuestas (Q&A) basadas en transcripciones o documentos proporcionados. Aquí está un resumen del flujo y las características clave:
+
+### Flujo Principal
+
+1. **Configuración Inicial**:
+   - Verifica que los directorios necesarios existan.
+   - Detecta el endpoint correcto de Ollama (un servicio de generación de texto basado en IA).
+   
+2. **Lectura y Preprocesamiento**:
+   - Lee todos los archivos `.txt` y `.md` desde un directorio específico (`INPUT_DIR`).
+   - Identifica cuáles ya fueron procesados antes mediante un archivo de registro (`log.json`).
+
+3. **Preparación de Bloques**:
+   - Para cada archivo pendiente, limpia el contenido (Markdown, espacios en blanco innecesarios) y lo divide en bloques más pequeños.
+
+4. **Generación de Q&A**:
+   - Para cada bloque, genera preguntas fáciles e intermedias usando un modelo de lenguaje.
+   - Escribe las respuestas generadas directamente a archivos JSONL individuales para cada archivo original.
+
+5. **Seguimiento del Progreso**:
+   - Usa una barra de progreso global para mostrar el avance en la generación de preguntas y respuestas.
+   
+6. **Registro Final**:
+   - Actualiza un registro (log.json) con información sobre qué archivos fueron procesados y cuántos pares de Q&A se generaron.
+
+### Características Clave
+
+- **Procesamiento Incremental**: Sólo procesa los archivos que aún no han sido procesados previamente.
+  
+- **Preprocesamiento Avanzado**: Limpia el contenido del Markdown, normaliza espacios en blanco y divide los documentos largos en bloques más manejables.
+
+- **Integración con Ollama**: Usa un servicio de generación de texto basada en IA para generar preguntas y respuestas. 
+
+- **Progreso Visual**: Muestra una barra de progreso visual del proceso global y detallado.
+
+### Uso
+
+Este script sería útil para crear grandes conjuntos de datos de entrenamiento o pruebas para sistemas de inteligencia artificial que necesiten Q&A, especialmente desde documentos largos y complejos. Requiere un servicio externo (Ollama) que genera texto basado en prompts proporcionados.
+
+### Consideraciones
+
+- Asegúrate de tener instaladas todas las dependencias del script antes de ejecutarlo.
+- Configura correctamente los directorios (`INPUT_DIR` y `OUTPUT_DIR`) donde se encontrarán los documentos de entrada y se guardarán las respuestas generadas, respectivamente.
+  
+Este script es un ejemplo avanzado del uso de la IA para automatizar tareas repetitivas y complejas en el procesamiento de texto.
+
+
 <a id="scrapeador-web-y-entrenamiento"></a>
 ## scrapeador web y entrenamiento
 
+### Introducción a los ejercicios
+
+Este script Python es una herramienta para generar conjuntos de preguntas y respuestas (Q&A) a partir de documentos multiformato. Aquí hay un resumen del flujo principal y las características clave:
+
+1. Preparación:
+   - Asegura la existencia de directorios necesarios.
+   - Detecta el servicio Ollama para generar Q&A.
+
+2. Recopilación de archivos:
+   - Busca recursivamente en INPUT_DIR archivos con extensiones válidas (txt, md, html, htm, pdf).
+
+3. Procesamiento:
+   - Prepara bloques de texto para cada archivo.
+   - Genera Q&A usando un modelo de Ollama para preguntas fáciles y avanzadas.
+
+4. Salida:
+   - Escribe resultados en archivos JSONL individuales por documento.
+   - Guarda un log que registra qué archivos se procesaron.
+
+5. Resumen final:
+   - Proporciona estadísticas sobre el proceso completado.
+
+Características importantes:
+
+- Manejo de múltiples formatos (txt, md, html, pdf).
+- Procesamiento por bloques para manejar grandes documentos.
+- Uso de un modelo de lenguaje en la nube (Ollama) para generar Q&A.
+- Registro detallado del proceso en archivos y logs.
+- Salida individualizada para cada archivo procesado.
+
+Funciones clave:
+
+- `prepare_blocks_for_file`: Lee y normaliza el contenido del archivo, dividiéndolo en bloques manejables.
+- `generate_qa_for_block`: Genera Q&A usando Ollama para un bloque de texto dado.
+- `process_single_file`: Llama a la función anterior por cada bloque de un archivo específico, guardando resultados y actualizando el progreso.
+
+El script es modular y bien estructurado, con funciones específicas para tareas como normalizar texto, dividir en bloques, generar Q&A y manejar la salida. También incluye características útiles como seguimiento del progreso y registro de logs.
+
 ### Entrar en una web
+<small>Creado: 2025-12-02 17:16</small>
+
+#### Explicación
+
+Este código es un ejemplo básico de cómo usar la biblioteca `requests` en Python para hacer una solicitud HTTP GET a una página web y obtener su contenido HTML. Primero, se importa el módulo `requests`. Luego, se especifica la URL de la página que queremos visitar, en este caso, "https://tameformacion.com/". 
+
+El bloque `try` intenta realizar la solicitud a la página web con un límite de tiempo de 10 segundos para asegurar que el programa no queda esperando indefinidamente si hay problemas de conexión. Si la solicitud es exitosa (es decir, obtiene una respuesta del servidor), guarda el contenido HTML en la variable `html_content` y lo imprime en pantalla.
+
+Si ocurre algún error durante la ejecución de la solicitud, como problemas de red o un código de estado HTTP que indica un problema (como 404 Not Found), se captura esa excepción y se muestra un mensaje de error en lugar del contenido HTML. Este manejo de errores es importante para asegurar que el programa pueda informar sobre los problemas que surgen durante la ejecución sin interrumpirse completamente.
+
+`001-Entrar en una web.py`
 
 ```python
 import requests
@@ -6638,6 +7247,19 @@ except requests.exceptions.RequestException as e:
 ```
 
 ### guardar web
+<small>Creado: 2025-12-02 17:17</small>
+
+#### Explicación
+
+Este código Python descarga el contenido HTML de una página web y lo guarda en un archivo local. Primero, importa las bibliotecas `requests` y `os`. La URL desde donde se obtiene el HTML es "https://tameformacion.com/". También define una carpeta llamada "paginas_html" donde guardará los archivos HTML descargados.
+
+El código verifica si la carpeta de salida existe y, si no, la crea. Luego intenta hacer una solicitud GET a la URL especificada con un límite de tiempo de 10 segundos. Si la respuesta es exitosa (código HTTP 200), el contenido HTML se guarda en un archivo llamado "example.html" dentro de la carpeta definida.
+
+Si ocurre algún error durante la solicitud, como no poder conectar a la URL o el servidor responde con un código de estado que indica un problema, el programa captura la excepción y muestra un mensaje de error descriptivo. Esto ayuda a identificar rápidamente qué salió mal si algo va mal durante la ejecución del script.
+
+Este tipo de programa es útil para crear copias locales de sitios web, por ejemplo, para análisis, documentación o pruebas sin necesidad de tener conexión con el servidor original cada vez que se necesita acceder al contenido.
+
+`002-guardar web.py`
 
 ```python
 import requests
@@ -6670,6 +7292,21 @@ except requests.exceptions.RequestException as e:
 ```
 
 ### adivinar nombre de la web
+<small>Creado: 2025-12-02 17:19</small>
+
+#### Explicación
+
+Este código es una herramienta simple que te permite guardar el contenido de una página web como un archivo HTML local en tu computadora. Primero, importa algunas bibliotecas necesarias para hacer solicitudes a la web y manejar archivos y fechas.
+
+El código hace dos cosas principales:
+
+1. **Descarga la página web**: Usa `requests.get()` para descargar el contenido de la URL "https://tameformacion.com/". Si la descarga es exitosa, guarda el HTML en una variable llamada `html_content`.
+
+2. **Determina y guarda el nombre del archivo**: Utiliza dos funciones para decidir cómo llamar al archivo que se guardará: `get_filename_from_url()` intenta obtener un nombre de archivo a partir de la URL (por ejemplo, "index.html" o cualquier otro nombre de archivo específico en la URL). Si no puede extraer un nombre de archivo adecuado desde la URL, usa `generate_hash_filename()`, que genera un nombre único basado en una huella digital del contenido de la URL y el tiempo actual. Finalmente, guarda el HTML descargado en este archivo.
+
+Este tipo de script es útil cuando necesitas guardar copias locales de sitios web para analizar su estructura o datos sin depender siempre de estar conectado a Internet. Además, el uso de un hash garantiza que cada archivo tenga un nombre único, lo cual ayuda a evitar problemas de sobrescritura y facilita la identificación única de los archivos descargados.
+
+`003-adivinar nombre de la web.py`
 
 ```python
 import requests
@@ -6731,6 +7368,28 @@ except requests.exceptions.RequestException as e:
 ```
 
 ### timeout entre paginas
+<small>Creado: 2025-12-02 17:23</small>
+
+#### Explicación
+
+Este código es un simple programa de web scraping que recorre sitios web para guardar sus páginas HTML en archivos locales. Su objetivo principal es comenzar desde una URL inicial (en este caso, "https://tameformacion.com/") y descargar hasta 200 páginas, guardando cada página en tu sistema con un nombre de archivo único.
+
+El programa utiliza varios módulos de Python como `requests`, que maneja las solicitudes HTTP; `os` para trabajar con el sistema operativo; `hashlib` para generar nombres de archivo únicos usando hashes; y `time` para controlar la velocidad a la que se obtienen las páginas (en este caso, espera un segundo entre cada solicitud).
+
+La configuración inicial del código define varias variables importantes:
+- **START_URL**: La URL desde donde comienza el scrap.
+- **OUTPUT_FOLDER**: El directorio donde se guardan los archivos HTML descargados.
+- **MAX_PAGES**: Un límite de seguridad para evitar recorrer demasiadas páginas por error o malicia.
+
+El código tiene varias funciones auxiliares que normalizan URLs, generan nombres de archivo únicos (que pueden incluir hashes para URLs sin extensiones válidas), y filtran los enlaces encontrados en las páginas web para asegurar que solo se siguen aquellos que apuntan a contenido relevante.
+
+La función principal `crawl` es la encargada de ejecutar todo el proceso. Comienza por agregar la URL inicial al conjunto de URLs visitadas (`visited`) y a una cola (`queue`). Luego, en un bucle infinito mientras haya páginas en la cola y no se alcance el límite de páginas definido, extrae las URLs desde la cola, las normaliza y verifica que aún no hayan sido visitadas. Si todo está en orden, hace una solicitud GET a la URL actual, espera por un segundo para respetar `REQUEST_DELAY_SECONDS`, y guarda el contenido HTML resultante.
+
+Es importante notar que este tipo de web scraping debe hacerse con cuidado para evitar sobrecargar los servidores del sitio web visitado. El código incluye una pausa entre las solicitudes (`time.sleep(REQUEST_DELAY_SECONDS)`) para dar tiempo a la página en cuestión de responder adecuadamente a cada solicitud.
+
+Este programa es útil para aprender sobre cómo recopilar información web automáticamente y puede ser una base para proyectos más avanzados que involucran el análisis o procesamiento de grandes cantidades de datos desde sitios web.
+
+`004-timeout entre paginas.py`
 
 ```python
 import requests
@@ -6877,6 +7536,27 @@ if __name__ == "__main__":
 ```
 
 ### tambien quiero los pdf
+<small>Creado: 2025-12-02 17:32</small>
+
+#### Explicación
+
+Este código es un programa que sirve para recopilar y guardar documentos (especialmente PDFs) y páginas web HTML desde una URL de inicio. El objetivo principal es crear un scrapador web simple pero funcional, capaz de navegar a través del sitio web proporcionado e indexar su contenido.
+
+El script comienza configurando algunos parámetros clave como la página inicial donde empieza el recorrido (`START_URL`), la carpeta de salida donde se guardarán los documentos y páginas HTML (`OUTPUT_FOLDER`), un límite máximo de páginas para evitar bucles infinitos (`MAX_PAGES`) y un retraso entre las solicitudes a las páginas web (`REQUEST_DELAY_SECONDS`). 
+
+El programa utiliza varias funciones auxiliares:
+
+1. **Generación de nombres de archivos**: Las funciones `get_filename_from_url`, `generate_hash_filename` y `get_output_path_for_url` ayudan a determinar cómo llamar a los documentos guardados, basándose en la URL y el tipo de contenido (por ejemplo, si es HTML o PDF).
+
+2. **Normalización y filtrado de URLs**: Las funciones `normalize_url` y `same_domain` aseguran que las URLs estén correctamente formadas y se filtran para incluir solo aquellas que pertenecen al mismo dominio del sitio web inicial.
+
+3. **Detección de enlaces relevantes**: La función `is_interesting_link` elimina los enlaces a menudo innecesarios como fragmentos, correos electrónicos o llamadas telefónicas para centrarse solo en los que apuntan a otras partes del sitio web.
+
+El bucle principal se encarga de recoger la página actual, descargar su contenido y guardar tanto los PDFs como las páginas HTML. Para cada URL visitada, si el tipo de contenido es HTML, el programa busca nuevos enlaces dentro de ella y los añade a una cola para ser procesados en el futuro. Esto asegura que todo el sitio web se explore de manera sistemática hasta alcanzar el límite configurado de páginas.
+
+Este tipo de scraper es útil para crear un respaldo local de un sitio web, recopilar datos específicos o incluso entrenar modelos de aprendizaje automático con material en línea.
+
+`005-tambien quiero los pdf.py`
 
 ```python
 import requests
@@ -7074,6 +7754,53 @@ if __name__ == "__main__":
 ```
 
 ### entrenar IA con todos los materiales
+<small>Creado: 2025-12-02 18:38</small>
+
+#### Explicación
+
+El script que has proporcionado es una herramienta bastante completa para generar pares de preguntas y respuestas (Q&A) a partir de varios tipos de archivos (textos, HTML, PDFs). Aquí hay un resumen de su estructura y funcionalidad:
+
+1. **Configuración inicial**:
+   - Define constantes como directorios de entrada y salida, extensiones válidas para los ficheros de entrada, y configuraciones del modelo.
+   - Verifica la existencia del servicio Ollama y determina el endpoint correcto.
+
+2. **Recorrido de archivos**:
+   - Recorre recursivamente `INPUT_DIR` en busca de archivos con las extensiones permitidas (`txt`, `md`, `html`, `htm`, `pdf`).
+
+3. **Procesamiento de archivos**:
+   - Lee cada archivo y lo divide en bloques más pequeños para facilitar el procesamiento.
+   - Genera Q&A por bloque, utilizando un modelo Ollama configurado previamente.
+
+4. **Rastreo del progreso**:
+   - Mantiene un seguimiento detallado de la cantidad total de bloques y avanza en una barra de progreso global.
+
+5. **Generación y guardado de resultados**:
+   - Para cada archivo, se generan Q&A y se escriben en archivos JSONL individuales.
+   - Se actualiza el registro de qué archivos han sido procesados para futuras ejecuciones del script.
+
+6. **Resumen final**:
+   - Proporciona un resumen detallado del proceso completo, incluyendo estadísticas sobre el número total de archivos encontrados y procesados, bloques generados, etc.
+
+### Requerimientos principales
+- Python 3.x
+- `requests` para la interacción con Ollama
+- Otros módulos como `os`, `json`, `re` (para expresiones regulares), `PIL` (para manipulación de imágenes en archivos PDF)
+
+### Mejoras potenciales
+1. **Validaciones adicionales**: Asegúrate de manejar correctamente los casos donde las solicitudes a Ollama fallan.
+2. **Documentación mejorada**: Agregar documentación detallada para cada función y módulo para facilitar su mantenimiento y extensión.
+3. **Informes personalizados**: Integrar un sistema para enviar informes de progreso y resumen final por correo electrónico o a otra herramienta de seguimiento.
+
+### Ejecución del script
+Para ejecutar el script, simplemente asegúrate de tener todos los requisitos necesarios instalados (`pip install -r requirements.txt` si tienes un archivo `requirements.txt`) y luego ejecuta:
+
+```bash
+python generar_qa.py
+```
+
+Este script es una solución robusta para la generación automatizada de Q&A desde documentos variados, lo que puede ser muy útil en contextos educativos o de formación.
+
+`006-entrenar IA con todos los materiales.py`
 
 ```python
 #!/usr/bin/env python3
@@ -7866,8 +8593,75 @@ if __name__ == "__main__":
     main()
 ```
 
+### Actividades propuestas
+
+El script que proporcionaste es una herramienta bastante completa para generar pares de preguntas y respuestas (Q/A) a partir de diversos tipos de archivos de entrada. A continuación, se detallan las características principales del script:
+
+1. **Configuración**:
+   - Define directorios y configuraciones necesarios (`INPUT_DIR`, `OUTPUT_DIR`, etc.)
+   - Utiliza un archivo de registro para llevar un seguimiento de los archivos procesados.
+
+2. **Preparación del entorno**:
+   - Comprueba la disponibilidad y el endpoint correcto del servicio Ollama.
+   - Recorre recursivamente los directorios de entrada buscando archivos válidos basándose en una lista de extensiones permitidas.
+
+3. **Lectura y procesamiento de archivos**:
+   - Prepara bloques de texto útiles de diferentes tipos de archivos (txt, markdown, html, pdf).
+   - Genera pares Q/A para cada bloque utilizando un modelo entrenado a través del servicio Ollama.
+   
+4. **Progreso y seguimiento**:
+   - Utiliza una clase `ProgressTracker` para mostrar el progreso global durante la generación de Q/A.
+
+5. **Funcionalidades adicionales**:
+   - Normalización del texto, extracción de contenido útil de archivos HTML y PDF.
+   - Manejo de errores y logs.
+
+Aquí hay algunas mejoras o consideraciones que podrías tener en cuenta:
+
+- **Optimización de rendimiento**: Considerar el uso de hilos para procesar múltiples archivos simultáneamente. Esto puede ser especialmente beneficioso si se tienen muchos archivos grandes por procesar.
+  
+- **Validación adicional del texto**: Asegurarse de que los bloques no contengan contenido inapropiado o sensible antes de generar Q/A.
+
+- **Personalización del modelo**: Permitir la configuración del modelo utilizado para generar Q/A, ya sea cambiando el prompt del sistema o ajustando parámetros específicos del modelo.
+
+- **Soporte adicional de formatos**: Añadir soporte para más tipos de archivos como .docx, .pptx si es necesario.
+
+Aquí hay un ejemplo simplificado de cómo podrías implementar la opción de utilizar hilos:
+
+```python
+import concurrent.futures
+
+def process_file_in_thread(path: str):
+    blocks = prepare_blocks_for_file(path)
+    output_path = os.path.join(OUTPUT_DIR, f"{os.path.splitext(os.path.basename(path))[0]}.jsonl")
+    
+    with open(output_path, "w", encoding="utf-8"):
+        pass
+    
+    for block in blocks:
+        pairs = generate_qa_for_block(block)
+        
+        if pairs:
+            with open(output_path, "a", encoding="utf-8") as f:
+                for p in pairs:
+                    f.write(json.dumps(p, ensure_ascii=False) + "\n")
+
+if __name__ == "__main__":
+    input_files = [path for path in os.listdir(INPUT_DIR) if any(path.endswith(ext) for ext in VALID_EXTS)]
+    
+    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
+        futures = {executor.submit(process_file_in_thread, file_path): file_path for file_path in input_files}
+        
+        for future in concurrent.futures.as_completed(futures):
+            print(f"Procesado: {futures[future]}")
+```
+
+Con estas modificaciones, el script puede ser más eficiente y flexible para manejar una amplia variedad de archivos e implementar mejoras adicionales según sea necesario.
+
+
 <a id="interfaz-natural-ia"></a>
 ## interfaz natural IA
+
 
 
 <a id="actividad-libre-de-final-de-evaluacion-la-milla-extra"></a>
@@ -7876,8 +8670,42 @@ if __name__ == "__main__":
 <a id="la-milla-extra-primera-evaluacion"></a>
 ## La Milla Extra - Primera evaluación
 
-### ejercicio
+### Introducción a los ejercicios
 
-```markdown
+El archivo "ejercicio.md" en esta carpeta contiene una descripción del proyecto y las tareas que debes completar como parte de la evaluación final en el módulo de Proyecto Intermodular II. Este conjunto de ejercicios está diseñado para que practiques tus habilidades de programación aplicándolas a un proyecto real, enfocándose principalmente en la estructuración y documentación del código. A través de este ejercicio, mejorarás tu capacidad para resolver problemas complejos y trabajar con buenas prácticas de desarrollo, como el control de versiones y la colaboración en equipo mediante herramientas como GitHub.
 
-```
+### Actividades propuestas
+
+Basándome en la ubicación del archivo y su contexto, parece que se trata de una carpeta relacionada con un proyecto interdisciplinario para alumnos de Formación Profesional, específicamente del DAM (Desarrollo de Aplicaciones Multiplataforma). Aunque no he recibido el contenido literal del archivo `ejercicio.md`, puedo inferir algunas actividades basadas en los títulos y rutas proporcionados.
+
+1. **Análisis de Requisitos**
+   - **Descripción:** Los alumnos deben revisar la descripción del proyecto (que se encuentre dentro del archivo `ejercicio.md`) y escribir un informe donde identifiquen las características necesarias para el desarrollo del programa propuesto en el ejercicio.
+   
+2. **Planificación de Casos de Uso**
+   - **Descripción:** Los estudiantes deberán crear una lista detallada de los casos de uso que se requieren para satisfacer todas las funcionalidades del proyecto, basándose en la descripción proporcionada.
+
+3. **Diseño de Interfaz Usuario (UI) Básica**
+   - **Descripción:** Crear un diseño básico (puede ser a mano o con herramientas digitales como Balsamiq) de cómo se vería la interfaz del usuario para cada una de las funcionalidades identificadas.
+
+4. **Codificación Inicial del Proyecto**
+   - **Descripción:** Los estudiantes deben comenzar a escribir el código inicial para configurar su entorno de desarrollo y establecer los elementos básicos (estructura del proyecto, paquetes necesarios) según la información proporcionada en `ejercicio.md`.
+
+5. **Implementación del Menú Principal**
+   - **Descripción:** Basándose en el diseño UI realizado previamente, implementar funcionalidades básicas para mostrar un menú principal que permita a los usuarios navegar entre diferentes partes de la aplicación.
+
+6. **Funciones Lógicas Básicas**
+   - **Descripción:** Implementar las funciones lógicas necesarias según lo definido en los casos de uso, asegurándose de que el código esté bien estructurado y siga las mejores prácticas de programación.
+
+7. **Pruebas Unitarias Iniciales**
+   - **Descripción:** Desarrollar pruebas unitarias para verificar la correcta implementación de cada una de las funciones lógicas creadas hasta ahora.
+
+8. **Refactorización y Mejora del Código**
+   - **Descripción:** Una vez que el código base funcione correctamente, los alumnos deben refactorizarlo para mejorar su calidad (como reducir duplicidad o mejorar la legibilidad) sin cambiar su comportamiento observable.
+
+9. **Documentación Detallada**
+   - **Descripción:** Crear documentación detallada sobre las decisiones tomadas durante el desarrollo del proyecto, incluyendo diagramas de flujo y explicaciones claras sobre cada función implementada.
+
+10. **Presentación Oral del Proyecto**
+    - **Descripción:** Los alumnos deben preparar una presentación oral que explique de manera clara y concisa la estructura del proyecto, las decisiones tomadas durante el desarrollo y cómo se lograron los objetivos propuestos en `ejercicio.md`.
+
+Estas actividades están diseñadas para proporcionar a los estudiantes de Formación Profesional una experiencia práctica completa desde el análisis hasta la presentación final, asegurando que dominen todas las etapas del ciclo de vida de un proyecto de desarrollo.

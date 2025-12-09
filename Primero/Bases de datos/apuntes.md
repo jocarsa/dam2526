@@ -81,51 +81,39 @@
 <a id="ficheros-planos-indexados-acceso-directo-entre-otros"></a>
 ## Ficheros (planos, indexados, acceso directo, entre otros)
 
-En el vasto y complejo mundo de la informática, los ficheros desempeñan un papel fundamental como contenedores de datos. Desde los simples archivos planos hasta las estructuras indexadas y los sistemas de acceso directo, cada uno ofrece características únicas que adaptan su uso a diferentes necesidades.
+### Introducción a los ejercicios
 
-Los ficheros planos son los primeros pasos en el almacenamiento digital de información. Son básicamente conjuntos de caracteres organizados en líneas y columnas, ideal para datos estructurados como tablas o listas. Su simplicidad hace que sean fáciles de crear, leer y escribir, lo que las convierte en una opción popular para aplicaciones de escritorio y pequeños proyectos.
-
-Sin embargo, cuando se trata de grandes volúmenes de datos o necesidades de acceso rápido a cualquier parte del archivo, los ficheros planos pueden presentar limitaciones. Es aquí donde entra el concepto de ficheros indexados. Algunos sistemas operativos utilizan índices para mantener una lista ordenada de las posiciones de los registros dentro del archivo, lo que permite un acceso directo y rápido a cualquier dato sin necesidad de leer todo el contenido.
-
-El acceso directo es otro mecanismo avanzado que mejora significativamente la eficiencia en el manejo de grandes conjuntos de datos. Este método permite saltar a cualquier posición específica dentro del archivo, lo que es ideal para aplicaciones que requieren acceso aleatorio a los datos. Sin embargo, este tipo de acceso también puede llevar a problemas como la fragmentación y la necesidad de reorganizar el archivo periódicamente.
-
-Además de estos métodos tradicionales, existen otras estrategias innovadoras para almacenar y acceder a información digital. Por ejemplo, las bases de datos relacionales utilizan un modelo tabular para organizar los datos, lo que facilita la consulta y el análisis. Aunque esto implica una estructura más compleja, permite realizar operaciones sofisticadas como joins, agrupamientos y consultas de resumen.
-
-En conclusión, la elección del método de almacenamiento depende de las necesidades específicas del proyecto. Desde los ficheros planos hasta los sistemas de acceso directo y las bases de datos relacionales, cada una ofrece ventajas y desventajas que deben ser consideradas cuidadosamente. Comprender estos conceptos es fundamental para cualquier profesional en el campo de la informática, ya que determinará cómo se diseñan y optimizan los sistemas que almacenan y manejan grandes cantidades de datos.
-
-### tipos de archivos
-
-```markdown
-Archivos de texto plano (txt):
-- Muy cómodos de usar
-- No tienen estructura
-- Se puede guardar información
-- Pero las posibilidades de ordenación no son muy grandes
-
-Archivos estructurados/tabulados (csv):
-- Tienen una estructura mínima
-- Son más fiables (de hecho muy comunes) para guardar datos
-- Por ejemplo el csv es un formato muy común para datos en tablas
-
-Archivos de tipo JSON/XML:
-- Guardar datos con complejidad ilimitada
-- Muy estandarizados a día de hoy
-
-Formatos ODT (OpenDocument)
-- ODT - OpenDocumenT - Documentos tipo Word
-- Es un formato abierto para formatos ofimáticos
-  - Documentos
-  - Hojas de cálculo
-  - Presentaciones
-```
+Esta carpeta contiene una serie de ejercicios que te permitirán explorar diferentes tipos de archivos y formatos utilizados para almacenar información, como ficheros de texto plano, CSV (Comma Separated Values), JSON (JavaScript Object Notation) y XML (eXtensible Markup Language). Los ejercicios se centran en cómo los datos pueden ser estructurados y representados en cada formato, destacando las ventajas y limitaciones de cada uno. A través de estos ejercicios, practicarás la lectura, comprensión y manipulación de datos en diferentes contextos, desarrollando habilidades esenciales para el manejo de bases de datos y la creación de sistemas de información más complejos.
 
 ### archivos de texto plano
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código no es realmente un bloque de código en el sentido convencional, sino más bien texto plano. En contexto, parece ser el contenido de un archivo de texto llamado "002-archivos de texto plano.txt". Este tipo de archivos almacenan texto sin formato y son muy comunes para guardar información como notas o ejemplos sencillos en cursos educativos.
+
+Lo que ves es simplemente una línea con dos oraciones: "Hola esto es una prueba" y "y este es un documento", ambas separadas por un salto de línea. En la práctica, este archivo podría servir para enseñar cómo leer o manipular archivos de texto en diferentes lenguajes de programación, mostrando cómo acceder a datos simples almacenados en formato de texto puro.
+
+Es importante entender estos archivos porque forman una base fundamental en el manejo de información y son un punto de partida perfecto antes de pasar a formatos más complejos como CSV, JSON o XML.
+
+`002-archivos de texto plano.txt`
 
 ```
 Hola esto es una prueba y este es un documento
 ```
 
 ### clientes
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código es un archivo CSV (Coma Separated Values), que es una forma sencilla y común de almacenar información en formato de texto plano. En este caso, el archivo se llama `003-clientes.csv` y contiene datos básicos sobre clientes, como su nombre, apellidos y teléfono.
+
+El primer renglón del archivo indica las columnas o campos que cada entrada del cliente va a tener: "nombre", "apellidos" y "telefono". Esto ayuda a entender la estructura de los datos que siguen. A continuación, tenemos tres líneas con información específica de clientes. Por ejemplo, la segunda línea indica que el nombre es "Juan", los apellidos son "Garcia Lopez" y el teléfono es 5432534.
+
+Este tipo de archivo CSV es importante porque permite almacenar datos en un formato que es fácilmente legible por humanos y también muy sencillo para procesar con programas de computadora. Es especialmente útil cuando necesitas compartir o importar información entre diferentes aplicaciones, ya que prácticamente cualquier programa puede leer archivos CSV sin problemas.
+
+`003-clientes.csv`
 
 ```
 nombre,apellidos,telefono
@@ -135,6 +123,13 @@ Jose,Lopez,523534
 ```
 
 ### clientes
+<small>Creado: 2025-10-23 14:12</small>
+
+#### Explicación
+
+Este código es un archivo JSON que almacena información sobre varios clientes. En concreto, el archivo contiene una lista de objetos, donde cada objeto representa a un cliente diferente. Cada uno de estos objetos tiene tres propiedades: 'nombre', 'apellidos' y 'telefono'. Por ejemplo, el primer cliente en la lista se llama Juan y tiene los apellidos 'xxx' y un número telefónico también especificado como 'xxx'. Este formato es útil porque permite almacenar y organizar datos estructurados de manera clara y fácilmente accesible. JSON (JavaScript Object Notation) es popular debido a su simplicidad y porque es fácil de leer tanto para humanos como para máquinas, lo que facilita el intercambio de información entre diferentes sistemas o aplicaciones web.
+
+`004-clientes.json`
 
 ```json
 [
@@ -162,6 +157,15 @@ Jose,Lopez,523534
 ```
 
 ### clientes anidades
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código es un archivo JSON que almacena información sobre varios clientes. Cada cliente está representado como un objeto dentro de una lista (denominada array en programación), lo que significa que puedes tener múltiples registros de clientes almacenados en este formato. Cada objeto dentro del array contiene tres propiedades: "nombre", "apellidos" y "telefono". En tu caso, los valores reales para los campos "apellidos" y "telefono" están marcados con el texto "xxx", lo que probablemente indica un valor de prueba o falta de datos específicos. 
+
+Es importante destacar que esta estructura JSON permite la organización anidada de datos, es decir, puedes tener datos complejos como relaciones entre clientes y otros detalles almacenados en un formato fácil de leer y utilizar tanto para humanos como para máquinas. En entornos de programación y bases de datos, este tipo de archivo JSON facilita operaciones de lectura, escritura y manipulación de información sobre los clientes.
+
+`005-clientes anidades.json`
 
 ```json
 [
@@ -189,6 +193,18 @@ Jose,Lopez,523534
 ```
 
 ### clientes anidados
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código es una lista JSON que contiene información sobre varios clientes. Cada cliente está representado como un objeto JSON con tres propiedades: `nombre`, `apellidos` y `telefono`. En la versión anterior, todos los clientes tenían solo un número de teléfono especificado como una cadena única. Sin embargo, en este archivo actualizado, se ha modificado el formato del campo `telefono` para algunos clientes.
+
+En particular, el cliente "Juan" ahora tiene su número de teléfono representado como una lista que contiene tres elementos: `"xxx"`, `"yyyy"` y `"zzzz"`. Esto permite almacenar múltiples números de teléfono para un mismo cliente en lugar de solo uno. Los demás clientes siguen teniendo su número de teléfono como una sola cadena, similar a la versión anterior.
+
+**ÚLTIMO PÁRRAFO:**
+La principal diferencia entre este archivo y el previo es que ahora "Juan" tiene múltiples números telefónicos almacenados en una lista dentro del campo `telefono`, lo cual permite mayor flexibilidad al gestionar varios contactos de teléfono para un mismo cliente.
+
+`005-clientes anidados.json`
 
 ```json
 [
@@ -216,6 +232,17 @@ Jose,Lopez,523534
 ```
 
 ### clientes
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código está escrito en XML y representa información sobre personas, incluyendo sus nombres, apellidos y teléfonos. La estructura principal del archivo es un elemento `<personas>` que contiene varios elementos `<persona>`, cada uno representando a una persona individual.
+
+Cada elemento `<persona>` incluye subelementos específicos para el nombre (`<nombre>`), los apellidos (`<apellidos>`), y los teléfonos de la persona. En algunos casos, como con Juan, se usa un bloque separado llamado `<telefonos>`, que a su vez contiene múltiples elementos `<telefono>` para listar varios números telefónicos. Otros casos simplemente tienen el elemento `<telefono>` directamente dentro del `<persona>` sin la estructura adicional de `<telefonos>`.
+
+Esta forma de organizar los datos es útil cuando necesitas representar información jerárquica y permitir variaciones en cómo se presenta cierta información, como tener múltiples teléfonos para una persona pero no ser obligatorio. Es importante para entender cómo estructurar datos complejos en archivos XML cuando trabajas con bases de datos o sistemas que manejan grandes cantidades de información personalizada.
+
+`006-clientes.xml`
 
 ```xml
 <personas>
@@ -246,200 +273,214 @@ Jose,Lopez,523534
 </personas>
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Comparación de Formatos de Archivos
+**Descripción:** Los estudiantes deben identificar las diferencias entre los archivos de texto plano, CSV y JSON/XML. Se les pedirá que escriban una breve descripción sobre cada formato destacando sus ventajas y desventajas.
+
+**Objetivo:** Aprender a distinguir entre diferentes formatos de archivo y entender su utilidad en el almacenamiento de datos.
+
+### Actividad 2: Conversión de Archivos CSV a JSON
+**Descripción:** Los estudiantes deben convertir un archivo .csv (003-clientes.csv) a formato JSON utilizando un script simple o herramienta online. La salida debe ser similar al archivo proporcionado (004-clientes.json).
+
+**Objetivo:** Familiarizarse con la estructura básica de archivos JSON y aprender a manipular datos entre diferentes formatos.
+
+### Actividad 3: Lectura de Archivos XML
+**Descripción:** Se les pide que lean el contenido del archivo .xml (006-clientes.xml) e imprimir todos los números telefónicos de cada persona en la consola. 
+
+**Objetivo:** Aprender a manipular archivos XML y extraer información específica.
+
+### Actividad 4: Agregar Nuevos Datos a Archivos JSON
+**Descripción:** Los estudiantes deben agregar un nuevo cliente (con nombre, apellidos y teléfono) al archivo .json existente (004-clientes.json).
+
+**Objetivo:** Aprender cómo manipular archivos JSON para añadir nuevos datos.
+
+### Actividad 5: Modificación de Datos en Archivos XML
+**Descripción:** Se les pide que modifiquen el número telefónico de un cliente específico dentro del archivo .xml (006-clientes.xml).
+
+**Objetivo:** Familiarizarse con la edición de datos en archivos XML.
+
+### Actividad 6: Conversión Entre Formatos
+**Descripción:** Los estudiantes deben escribir un script que permita convertir el archivo .csv a formato XML y viceversa, utilizando como base los ejemplos proporcionados (003-clientes.csv y 006-clientes.xml).
+
+**Objetivo:** Aprender a manipular datos entre diferentes formatos de archivos.
+
+### Actividad 7: Estructura JSON Anidada
+**Descripción:** Los estudiantes deben crear un archivo .json que tenga una estructura anidada (similar al formato del archivo 005-clientes anidados.json) donde los números telefónicos estén almacenados en arrays dentro de cada objeto cliente.
+
+**Objetivo:** Aprender a manejar datos complejos y estructuras anidadas en JSON.
+
+### Actividad 8: Consulta Básica con XML
+**Descripción:** Los estudiantes deben escribir un script que permita buscar el nombre de una persona dado su número telefónico en el archivo .xml (006-clientes.xml).
+
+**Objetivo:** Familiarizarse con la consulta y manipulación de datos complejos en archivos XML.
+
+### Actividad 9: Combinar Datos JSON
+**Descripción:** Se les pide que combinen los dos archivos .json proporcionados (004-clientes.json y 005-clientes anidados.json) en un solo archivo, resolviendo cualquier conflicto de datos si es necesario.
+
+**Objetivo:** Aprender a trabajar con conjuntos de datos múltiples y manejar posibles inconsistencias.
+
+### Actividad 10: Visualización de Datos CSV
+**Descripción:** Los estudiantes deben crear una pequeña aplicación que lea un archivo .csv (similar al ejemplo del archivo 003-clientes.csv) e imprima sus contenidos en la consola con formato estructurado, como columnas.
+
+**Objetivo:** Familiarizarse con la manipulación y visualización de datos tabulares.
+
+
 <a id="bases-de-datos-conceptos-usos-y-tipos-segun-el-modelo-de-datos-la-ubicacion-de-la-informacion"></a>
 ## Bases de datos. Conceptos, usos y tipos según el modelo de datos, la ubicación de la información
 
-En el vasto mundo de la informática, el almacenamiento de la información es una tarea fundamental que requiere comprensión profunda y habilidades técnicas. Las bases de datos son estructuras organizadas que almacenan y gestionan grandes cantidades de datos de manera eficiente. Su concepto básico radica en la organización de los datos en tablas, donde cada fila representa un registro y cada columna una característica específica del mismo.
-
-El uso de las bases de datos es omnipresente en nuestra sociedad digital, desde sistemas empresariales hasta aplicaciones web y dispositivos móviles. Son herramientas indispensables para el almacenamiento, recuperación y análisis de información, facilitando la toma de decisiones informadas y optimizando procesos.
-
-Existen varios tipos de bases de datos según su modelo de datos y ubicación. Los modelos de datos son esquemas que definen cómo se organizarán los datos dentro de una base de datos. El más común es el modelo relacional, basado en tablas con columnas y filas, pero también existen otros como el orientado a objetos y los documentales.
-
-La ubicación de la información en las bases de datos puede variar significativamente. Algunas bases de datos son centralizadas, almacenando toda la información en un solo servidor, mientras que otras pueden ser distribuidas, con partes del conjunto de datos replicadas en múltiples servidores para mejorar el rendimiento y la disponibilidad.
-
-La protección de los datos es otro aspecto crucial en el uso de las bases de datos. Las legislaciones sobre protección de datos, como la General Data Protection Regulation (GDPR) en Europa, impiden que las empresas manejen información personal sin consentimiento explícito del usuario. Es fundamental implementar medidas adecuadas para garantizar la seguridad y privacidad de los datos almacenados.
-
-El análisis de datos es otro uso importante de las bases de datos. Las técnicas de inteligencia de negocios permiten extraer conocimientos valiosos de grandes conjuntos de datos, ayudando a las organizaciones a tomar decisiones estratégicas basadas en datos empíricos.
-
-En resumen, las bases de datos son herramientas poderosas y versátiles que desempeñan un papel crucial en la gestión de información digital. Su comprensión y uso adecuado son fundamentales para cualquier profesional del campo de la informática, ya sea en desarrollo de software, análisis de datos o gestión empresarial.
 
 <a id="sistemas-gestores-de-base-de-datos-funciones-componentes-y-tipos"></a>
 ## Sistemas gestores de base de datos Funciones, componentes y tipos
 
-Los sistemas gestores de base de datos (SGBDs) son fundamentales para la organización, almacenamiento y recuperación de información en entornos informáticos. Estos sistemas desempeñan un papel crucial en la eficiencia operativa y la seguridad de los datos dentro de cualquier organización o sistema digital.
-
-Los SGBDs ofrecen una amplia gama de funciones que facilitan el acceso, modificación y análisis de datos. Una de las principales funcionalidades es la creación de tablas y vistas, lo que permite estructurar la información de manera lógica y coherente. Además, proporcionan mecanismos para definir restricciones de integridad, garantizando que los datos estén consistentes y precisos.
-
-Los componentes de un SGBD son diversos y complejos. Incluyen el motor de almacenamiento, que gestiona la persistencia física de los datos; el motor de recuperación, responsable del mantenimiento de la coherencia de los datos en caso de fallas; y el motor de procesamiento, que ejecuta las consultas y operaciones sobre los datos. Cada uno de estos componentes trabaja en conjunto para ofrecer una plataforma robusta y eficiente.
-
-Los SGBDs se clasifican en varios tipos según su arquitectura y funcionalidades. Los más conocidos son los SGBDs relacionales, que utilizan un modelo de datos basado en tablas y relaciones entre ellas. Otros tipos incluyen los NoSQL, que no siguen el esquema tradicional de las bases de datos relacionales, y los orientados a objetos, que permiten almacenar y gestionar objetos enteros.
-
-La elección del tipo de SGBD adecuado depende de diversos factores, como la naturaleza de los datos, las necesidades de rendimiento, el tamaño de la base de datos y los requisitos específicos de la aplicación. Por ejemplo, si se requiere un alto nivel de integridad y consistencia en los datos, un SGBD relacional puede ser la mejor opción. En cambio, si se necesita escalabilidad horizontal o manejo eficiente de grandes volúmenes de datos heterogéneos, un sistema NoSQL podría ser más adecuado.
-
-Además de las funcionalidades y tipos, los SGBDs también ofrecen una serie de características que contribuyen a su eficiencia y seguridad. Estas incluyen la capacidad para realizar consultas complejas y optimizadas, el soporte para transacciones ACID (Atomicidad, Consistencia, Aislamiento, Durabilidad), y herramientas avanzadas de gestión de seguridad y control de acceso.
-
-En resumen, los sistemas gestores de base de datos son esenciales en cualquier sistema informático moderno. Ofrecen una combinación de funcionalidades avanzadas, componentes robustos y tipos adaptados a diferentes necesidades, lo que les permite almacendar, recuperar y gestionar eficientemente grandes volúmenes de información. Su correcta elección y uso son cruciales para el éxito operativo y la seguridad de cualquier organización digital.
-
-Una base de datos es un conjunto de archivos o recursos que almacenan la información de una forma estructurada y ordenada.
-
-Pero en ocasiones, se necesita controlar mejor el acceso a esa base de datos
-
-Para ellos están los sistema gestores de bases de datos.
-
-- Protegen el acceso, 
-- Crean colas de usuarios para asegurar que no se accede a la información de forma simultánea
-- Proporcionan medidas de seguridad adicionales, por ejemplo mediante usuarios y contraseñas
-- Proporcionar multitud de opciones para el almacenamiento
-- Suelen proporcionar un lenguaje unificado de consulta de la información (suele ser el lenguaje SQL)
-
-SQLite es un formato de bases de datos (con gestor) pequeño pero potente.
-
-Proporcionan una cobertura, una protección que aseguran la salud y la integridad de los datos contenidos
 
 <a id="bases-de-datos-centralizadas-y-bases-de-datos-distribuidas-tecnicas-de-fragmentacion"></a>
 ## Bases de datos centralizadas y bases de datos distribuidas. Técnicas de fragmentación
 
-En el vasto mundo de la informática, los sistemas de almacenamiento de datos desempeñan un papel crucial, ya sea para pequeñas aplicaciones o para las más complejas. En esta subunidad didáctica, nos adentramos en dos tipos fundamentales de bases de datos: las centralizadas y las distribuidas, así como las técnicas de fragmentación que utilizan estas últimas.
+### Introducción a los ejercicios
 
-Las bases de datos centralizadas son aquellas donde todos los datos se almacenan en un único servidor. Este modelo es ideal para aplicaciones pequeñas o medianas, ya que facilita la gestión y el acceso a los datos. Sin embargo, su principal desventaja radica en la limitación del rendimiento cuando el volumen de datos aumenta, lo que puede llevar a problemas de congestión.
+Este conjunto de ejercicios se enfoca en entender las diferencias entre bases de datos centralizadas y distribuidas, así como las técnicas de fragmentación que permiten manejar grandes volúmenes de información. Los estudiantes aprenderán sobre los límites y ventajas de almacenar datos en un solo sistema informático y cómo la distribución de datos a múltiples servidores puede mejorar el rendimiento y escalabilidad de una base de datos. Además, se practicarán conceptos clave como la replicación de datos y la fragmentación horizontal y vertical para optimizar el acceso y almacenamiento de información en entornos empresariales complejos.
 
-Por otro lado, las bases de datos distribuidas son sistemas donde los datos se almacenan en varios servidores interconectados. Este modelo ofrece una mayor escalabilidad y capacidad para manejar grandes volúmenes de información, pero también introduce complejidades en la gestión y el mantenimiento del sistema.
+### Actividades propuestas
 
-La fragmentación es una técnica utilizada en bases de datos distribuidas para mejorar el rendimiento y la eficiencia. Consiste en dividir los datos en partes más pequeñas que se almacenan en diferentes servidores o nodos. Esta estrategia permite que cada servidor maneje un conjunto limitado de datos, lo que reduce la carga y aumenta la velocidad de acceso.
+### Actividad 1: Ventajas y Desventajas de las Bases de Datos Centralizadas
+**Descripción:** Los estudiantes deben listar al menos tres ventajas y desventajas de utilizar bases de datos centralizadas. Se espera que identifiquen problemas relacionados con la escalabilidad y el control.
 
-La fragmentación puede realizarse de varias maneras, como por rango (donde los datos se distribuyen según un criterio numérico), por hash (donde los datos se asignan a servidores basándose en una función hash) o por lista (donde los datos se distribuyen según una lista predefinida). Cada método tiene sus ventajas y desventajas, dependiendo de la naturaleza de los datos y las necesidades del sistema.
+### Actividad 2: Identificación del Hardware Crítico en Sistemas Informáticos
+**Descripción:** Los estudiantes deben describir cómo los componentes básicos de un sistema informático (CPU, RAM, disco duro) afectan al rendimiento de una base de datos centralizada. Se espera que comprendan la importancia de cada componente.
 
-Es importante destacar que la fragmentación no es una solución panacurra. Su implementación requiere un análisis cuidadoso del diseño del sistema y consideraciones sobre el rendimiento, la consistencia y la replicación de datos. Además, debe tenerse en cuenta que la fragmentación puede complicar ciertas operaciones, como las consultas complejas o los reportes.
+### Actividad 3: Análisis de Fragmentación de Datos
+**Descripción:** Los estudiantes deben explicar qué es y cómo funciona la fragmentación en bases de datos distribuidas. También deberán señalar las principales ventajas y desventajas en términos de velocidad y almacenamiento.
 
-En resumen, las bases de datos centralizadas y distribuidas son dos modelos fundamentales para almacenar información digital. La fragmentación es una técnica valiosa para optimizar el rendimiento en sistemas distribuidos, pero su implementación debe ser cuidadosa y considerada dentro del contexto general del sistema. Comprender estos conceptos es crucial para diseñar y gestionar eficientemente bases de datos en entornos modernos.
+### Actividad 4: Desarrollo de Escenarios Prácticos
+**Descripción:** Los estudiantes deben diseñar un escenario práctico donde una base de datos centralizada supera sus límites y se opta por la distribución. Se espera que describan cómo sería la implementación en términos generales.
 
-### Resumen
+### Actividad 5: Explicación de Espejo de Base de Datos
+**Descripción:** Los estudiantes deben explicar qué significa guardar un espejo (copia) de una base de datos y cuáles son sus beneficios. Se espera que indiquen cómo afecta a la velocidad de acceso pero no al almacenamiento total.
 
-```markdown
-Una base de datos puede estar centralizada en un sistema informático (SI = ordenador / servidor)
+### Actividad 6: Distribución de Datos entre Servidores
+**Descripción:** Los estudiantes deben detallar un ejemplo práctico donde una tabla de base de datos se fragmenta y distribuye entre dos o más servidores. Se espera que describan cómo afecta la gestión de transacciones.
 
-Ventaja: Control - Desventaja: Escalabilidad
+### Actividad 7: Comparación entre GPU y RAM Tradicional en IA
+**Descripción:** Los estudiantes deben comparar el uso de GPUs para almacenamiento con respecto al uso tradicional de RAM en sistemas de inteligencia artificial, destacando ventajas e inconvenientes. Se espera que entiendan la importancia del hardware específico.
 
-Un SI tiene una serie de límites - CPU (procesador) - RAM (memoria temporal) - Disco duro (almacén de datos)
+### Actividad 8: Evaluación de Casos Prácticos
+**Descripción:** Los estudiantes deben evaluar diferentes escenarios donde se ha optado por una distribución de datos en servidores múltiples y determinar si es más beneficioso que mantener todo centralizado. Se espera que usen los conceptos aprendidos para tomar decisiones informadas.
 
-Clásica = CPU+RAM+Disco
-Hay sistemas de inteligencia artificial que SI guardar la información en GPU+RAMGPU
+### Actividad 9: Creación de Presentaciones
+**Descripción:** Los estudiantes deben crear una breve presentación (de 5-7 diapositivas) sobre las bases de datos distribuidas y la fragmentación, incluyendo ventajas y desventajas. Se espera que demuestren su comprensión del tema.
 
-Que ocurre cuando una base de datos tiene tantos datos que desborda las capacidades del SI?
+### Actividad 10: Resolución de Problemas
+**Descripción:** Los estudiantes deben resolver un problema práctico donde una base de datos se encuentra en riesgo debido a la sobrecarga de datos. Deben proponer soluciones basadas en los conceptos aprendidos sobre fragmentación y distribución de datos.
 
-Tienes dos opciones:
-1. O bien añades más recursos al sistema
-2. Distribuyes la carga de diferentes SSII (multiples servidores que dan servicio a la misma base de datos)
-
-Fragmentación
-
-Guardar un espejo de la base de datos
-Ganamos velocidad de acceso
-No ganamos en disco duro
-
-Guardar unos datos en un servidor, y otros datos en otro servidor
-
-Otra forma de fragmentar: Primera mitad de una tabla en un servidor, segunda mitad de la tabla en otro servidor
-```
 
 <a id="legislacion-sobre-proteccion-de-datos"></a>
 ## Legislación sobre protección de datos
 
-La legislación sobre protección de datos es una cota de seguridad vital que regula cómo se maneja la información personal en el ámbito digital. Esta regulación busca proteger los derechos fundamentales de las personas en cuanto a su privacidad y control sobre sus datos, garantizando que estos sean tratados con respeto y transparencia.
+### Introducción a los ejercicios
 
-En este contexto, es crucial entender que la legislación sobre protección de datos no solo se aplica a empresas o organizaciones, sino también a individuos que recopilan, almacenan o utilizan información personal. Esta regulación busca proteger tanto a los titulares de los datos como a las personas que procesan dicha información.
+Este conjunto de ejercicios está centrado en la comprensión y aplicación de la legislación sobre protección de datos, fundamental para cualquier profesional que maneje información personal. Se abordan aspectos clave como el Reglamento General de Protección de Datos (RGPD) y la Ley Orgánica de Protección de Datos de Carácter Personal (LOPD), incluyendo sus modificaciones más recientes. Los estudiantes aprenderán sobre los derechos de los ciudadanos en relación a su información personal, así como las obligaciones que tienen las empresas y entidades encargadas del tratamiento de esos datos. Este tema es crucial para garantizar la privacidad y seguridad de la información en el ámbito profesional.
 
-La legislación sobre protección de datos establece un marco claro para el consentimiento informado, la transparencia en el tratamiento de datos y la responsabilidad del responsable del tratamiento. Estos principios son fundamentales para garantizar que los datos sean utilizados de manera ética y legal, protegiendo así la integridad y la privacidad de las personas.
+### Actividades propuestas
 
-Además, la legislación sobre protección de datos impone sanciones severas por infracciones, lo que incentiva a las organizaciones a adoptar prácticas seguras y legales en el manejo de los datos personales. Esta normativa busca crear un nivel de confianza entre individuos y organizaciones, asegurando que la información personal sea utilizada de manera responsable y ética.
+1. **Actividad: Desarrollo de un Resumen de Legislación sobre Protección de Datos**
+   - **Descripción:** Los estudiantes deben resumir en sus propias palabras las principales normativas mencionadas (LOPD, LOPDGDD y RGPD) que afectan al almacenamiento y tratamiento de datos personales. Se espera que identifiquen los derechos de los usuarios y las obligaciones de las empresas según estas leyes.
 
-En resumen, la legislación sobre protección de datos es una herramienta fundamental para garantizar la privacidad y el control sobre los datos personales en el mundo digital. Esta regulación busca proteger tanto a las personas como a las organizaciones, fomentando un uso ético y legal del tratamiento de información personal.
+2. **Actividad: Identificación de Responsabilidades Empresariales**
+   - **Descripción:** Los alumnos deben listar y describir brevemente las principales responsabilidades empresariales derivadas del RGPD y LOPDGDD, enfocándose en cómo estas obligaciones impactan la gestión diaria de datos personales.
 
-### Referencias de legislacion
+3. **Actividad: Creación de un Manual Simplificado**
+   - **Descripción:** Los estudiantes tienen que crear un manual simplificado para empleados sobre el cumplimiento de las leyes de protección de datos (RGPD y LOPDGDD), incluyendo consejos prácticos y procedimientos recomendados.
 
-```markdown
-Ley orgánica de protección de datos de carácter personal - LOPD - 1999
-https://www.boe.es/buscar/act.php?id=BOE-A-1999-23750
+4. **Actividad: Casos Prácticos de Violación de Datos**
+   - **Descripción:** Los alumnos deben investigar y presentar ejemplos recientes de violaciones de datos y cómo estas situaciones podrían haberse evitado siguiendo las regulaciones mencionadas en el material proporcionado.
 
-Sustuida por: LOPDGDD
-https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673
+5. **Actividad: Análisis Comparativo LOPD vs RGPD**
+   - **Descripción:** Se requiere a los estudiantes que hagan un análisis comparativo de la Ley Orgánica de Protección de Datos (LOPD) y el Reglamento General de Protección de Datos (RGPD), destacando las principales diferencias en términos de derechos del usuario y obligaciones empresariales.
 
-RGPD - Reglamento General Protección de Datos (Europeo - por encima de ley española)
-https://www.boe.es/doue/2016/119/L00001-00088.pdf
+6. **Actividad: Trabajo en Grupo sobre Derechos de Usuarios**
+   - **Descripción:** Los estudiantes deben trabajar en grupos para investigar e informar sobre los derechos individuales que el RGPD otorga a los usuarios, cómo estos pueden ejercerlos y las implicaciones legales para las empresas.
 
-Tratan de los derechos de los ciudadanos (los poseedores de la información), y de los deberes de las empresas o instituciones (que tratan esa información)
+7. **Actividad: Propuesta de Políticas Internas**
+   - **Descripción:** Los alumnos deben diseñar propuestas detalladas para políticas internas basadas en el RGPD y LOPDGDD, que incluyan procedimientos de protección de datos, gestión del consentimiento y la eliminación de datos.
 
-Los usuarios tienen derechos de:
--Acceso
--Modificación
--Rectificación
--Eliminación de los datos
+8. **Actividad: Ejercicios de Identificación de Datos Personales**
+   - **Descripción:** Se propone a los estudiantes realizar ejercicios prácticos para identificar qué tipo de información se considera personal en el contexto del RGPD, incluyendo casos difusos o menos obvios.
 
-Las empresas tienen obligaciones
-```
 
 <a id="big-data-introduccion-analisis-de-datos-inteligencia-de-negocios"></a>
 ## Big Data introducción, análisis de datos, inteligencia de negocios
 
-En el vasto universo de la informática, Big Data se ha convertido en un fenómeno transformador, desafiando nuestras habilidades tradicionales para almacenar, procesar y analizar datos. Este subcampo fascinante nos invita a explorar cómo podemos abordar conjuntos de información extremadamente grandes y complejos, revelando patrones y tendencias que antes eran inaccesibles.
+### Introducción a los ejercicios
 
-El concepto de Big Data se centra en tres principios fundamentales: volumen, velocidad y variedad. El volumen hace referencia al tamaño enorme de los datos, que a menudo supera las capacidades de almacenamiento convencionales. La velocidad implica la necesidad de procesar estos datos a velocidades increíblemente rápidas para mantenerse relevantes. Por último, la variedad aborda el hecho de que los datos vienen en una amplia gama de formatos y fuentes, desde texto hasta imágenes y videos.
+Este conjunto de ejercicios se enfoca en introducir los conceptos fundamentales del Big Data y cómo este impacta tanto la programación como la gestión de bases de datos. Los estudiantes aprenderán sobre el análisis de grandes volúmenes de información, sus desafíos técnicos y beneficios estratégicos para las empresas. El objetivo es familiarizar a los alumnos con la interrelación entre la Inteligencia Artificial y el Big Data, destacando la importancia de ambos campos en la toma de decisiones empresariales basadas en datos analíticos.
 
-La introducción del Big Data ha llevado a la creación de nuevas tecnologías y métodos, como las bases de datos NoSQL y los sistemas distribuidos. Estas soluciones están diseñadas para manejar el volumen y velocidad de los datos, ofreciendo escalabilidad y flexibilidad que las bases de datos tradicionales no pueden proporcionar.
+### Actividades propuestas
 
-El análisis de Big Data es un proceso complejo que implica la extracción de conocimientos valiosos a partir de grandes conjuntos de datos. Este proceso puede implicar técnicas estadísticas avanzadas, aprendizaje automático y minería de datos. El objetivo final es identificar patrones y tendencias que pueden ayudar en decisiones estratégicas, mejorar procesos y optimizar recursos.
+### Actividad 1: Introducción a Big Data
+**Descripción:** Los estudiantes deben investigar y documentar ejemplos reales de cómo las empresas utilizan grandes cantidades de datos para mejorar sus operaciones. Se espera que comprendan la importancia del análisis de Big Data en el mundo empresarial.
 
-La inteligencia de negocios es un campo emergente que se centra en la aplicación del análisis de Big Data para mejorar el rendimiento empresarial. Esto puede implicar la creación de informes personalizados, la identificación de oportunidades de mercado, la predicción de tendencias y la optimización de operaciones.
+### Actividad 2: Resumen Breve sobre IA y Big Data
+**Descripción:** Los estudiantes deben elaborar un breve resumen sobre cómo la inteligencia artificial (IA) se integra con Big Data para mejorar el procesamiento y análisis de datos masivos. La actividad busca que comprendan las interconexiones entre ambos campos.
 
-El Big Data no solo es una cuestión técnica; también es un desafío ético y legal. La protección de datos personales y la privacidad son preocupaciones cruciales en el contexto del Big Data. Es importante desarrollar políticas y prácticas que garanticen la seguridad y el uso responsable de los datos.
+### Actividad 3: Caso de Estudio
+**Descripción:** Los estudiantes deben analizar un caso de estudio real donde una empresa ha utilizado Big Data para tomar decisiones estratégicas. Se espera que identifiquen qué tipo de datos recopiló la empresa y cómo los utilizó para mejorar sus operaciones.
 
-En conclusión, el Big Data representa una revolución tecnológica que está cambiando la forma en que entendemos y gestionamos la información. A través del análisis de grandes conjuntos de datos, podemos descubrir patrones y tendencias que antes eran inaccesibles, lo que nos permite tomar decisiones más informadas y estratégicas. Este campo es un área de investigación activa y prometedor, con aplicaciones en casi todos los sectores de la economía y la sociedad.
+### Actividad 4: Ejercicio Práctico de Registro de Datos
+**Descripción:** Los estudiantes deben diseñar un sistema simple para registrar comportamientos digitales, como clics en un sitio web o transacciones en una tienda online. La actividad busca que comprendan la importancia del registro y recopilación adecuada de datos.
 
-La exploración del Big Data requiere una combinación de conocimientos técnicos, habilidades analíticas y comprensión ética. A medida que continuemos avanzando en este campo, es crucial mantener un equilibrio entre el progreso tecnológico y la protección de los datos y la privacidad de las personas.
+### Actividad 5: Análisis de Datos Simples
+**Descripción:** Los estudiantes deben realizar un análisis sencillo sobre un conjunto pequeño de datos proporcionado (por ejemplo, ventas diarias) para extraer patrones o información valiosa. Se espera que aprendan cómo se puede obtener valor a partir del análisis de datos.
 
-### Conceptos iniciales
+### Actividad 6: Problemas y Retos en Big Data
+**Descripción:** Los estudiantes deben identificar problemas y retos asociados con el manejo y procesamiento de grandes cantidades de datos, incluyendo aspectos técnicos (como potencia de proceso) y económicos. La actividad busca que comprendan las complejidades involucradas en Big Data.
 
-```markdown
-Big Data = Grandes cantidades de datos
+### Actividad 7: Integración IA-Big Data
+**Descripción:** Los estudiantes deben explorar cómo la integración entre inteligencia artificial y datos masivos puede mejorar el análisis predictivo de grandes conjuntos de información. Se espera que vean ejemplos prácticos donde esta combinación ofrece ventajas significativas.
 
-Cualquier comportamiento digital se ha podido registrar.
+### Actividad 8: Aplicaciones Empresariales
+**Descripción:** Los estudiantes deben investigar y presentar cómo diversas industrias (retail, fintech, salud, etc.) usan Big Data para mejorar sus operaciones. La actividad busca que comprendan la amplia gama de aplicaciones prácticas del Big Data en el mundo real.
 
-Cualquier registro, especialmente si es masivo, luego se puede analizar.
+Estas actividades buscan preparar a los estudiantes para entender y trabajar con grandes conjuntos de datos, integrando conceptos clave como IA y estrategias empresariales basadas en análisis de datos.
 
-El análisis de datos consiste en el procesamiento de grandes cantidades de datos para extraer patrones o información de valor.
-
-Big data = una oportunidad y un reto
-
-Oportunidad porque cuantos mas datos tengamos, más información podemos sacar
-
-Es un reto, porque cuantos más datos tengamos, más potencia de proceso se requiere para procesar esos datos, mas tiempo y más inversión se necesita, y más consumo energético está involucrado.
-
-Y también se requieren mejores y más potentes algoritmos para procesar toda esa información.
-
-Para Big data es recomendable usar algoritmos de IA, y para entrenar IA se requieren grandes cantidades de datos.
-
-IA y Big Data van de la mano.
-
-Venimos a este ciclo a aprender a programar.
-Venimos a este ciclo a aprender a gestionar bases de datos
-
-Para programar, no es suficiente programar - ahora además es muy necesario integrarse con la IA
-
-Para gestionar bases de datos, ahora además tenemos que acostumbrarnos a trabajar con enormes cantidades de datos - nos lleva a retos y oportunidades.
-
-Inteligencia de negocio es el uso de las conclusiones extraidas tras el análisis de grandes cantidades de datos, para tomar mejores decisiones en el ámbito empresarial.
-
-O si quieres tomar mejores decisiones en cualquier tipo de ámbito
-```
 
 <a id="ejercicio-de-final-de-unidad"></a>
 ## Ejercicio de final de unidad
 
-### ejercicio
+### Introducción a los ejercicios
 
-```markdown
+Esta carpeta contiene un conjunto de ejercicios diseñado para estudiantes del primer curso de DAM (Desarrollo de Aplicaciones Multiplataforma) que se centran en la unidad sobre el almacenamiento de información. El objetivo principal es consolidar los conocimientos adquiridos a lo largo de esta unidad, aplicandolos a través de un ejercicio práctico que combina el manejo de bases de datos con la representación y manipulación de la información en diferentes formatos. Los estudiantes practicarán habilidades como la creación, consulta y modificación de registros en una base de datos, así como la interpretación y almacenamiento efectivo de datos estructurados y no estructurados.
 
-```
+### Actividades propuestas
+
+Dado que la carpeta proporcionada incluye un archivo markdown llamado "ejercicio.md", es probable que este contenga ejercicios relacionados con el almacenamiento de información y bases de datos. A partir de esta inferencia, aquí presento una lista de actividades adecuadas para estudiantes de Formación Profesional:
+
+1. **Análisis de Casos de Uso**
+   - Descripción: Los alumnos deben identificar y describir los casos de uso relacionados con el almacenamiento de información en un sistema basado en las instrucciones dadas. Se espera que entiendan cómo la interacción del usuario se traduce en acciones específicas sobre la base de datos.
+
+2. **Diseño de Tablas Relacionales**
+   - Descripción: En esta actividad, los estudiantes deben diseñar esquemas de tablas relacionalmente consistentes basándose en el contenido proporcionado en "ejercicio.md". Se espera que comprendan cómo estructurar y relacionar datos para un sistema eficiente.
+
+3. **Escribir Consultas SQL Básicas**
+   - Descripción: Los alumnos deben escribir consultas SQL simples, como SELECT, INSERT INTO, UPDATE y DELETE basándose en el contexto del almacenamiento de información dado en la carpeta. Se espera que aprendan a manipular datos en una base de datos.
+
+4. **Resolución de Problemas de Errores SQL**
+   - Descripción: Los estudiantes deben identificar y corregir errores comunes en sentencias SQL proporcionadas, mejorando así su habilidad para depurar código relacionado con bases de datos.
+
+5. **Modelado Entidades-Relaciones (ER)**
+   - Descripción: Se les pide a los alumnos que creen diagramas ER basados en el almacenamiento y la estructura de información proporcionada, mejorando así su comprensión del diseño lógico de bases de datos.
+
+6. **Optimización de Consultas SQL**
+   - Descripción: Los estudiantes deben examinar las consultas propuestas y sugerir métodos para mejorar su rendimiento o eficiencia. Se espera que aprendan a optimizar el acceso y manipulación de datos en una base de datos.
+
+7. **Implementación de Contraints (Restricciones)**
+   - Descripción: Los alumnos deben implementar restricciones de integridad en las tablas de la base de datos para garantizar la consistencia del almacenamiento de información, aprendiendo así cómo proteger los datos contra errores.
+
+8. **Documentación del Modelo de Base de Datos**
+   - Descripción: Se les solicita a los estudiantes que documenten el modelo de base de datos creado, describiendo su estructura y relaciones entre tablas. Esta actividad mejora sus habilidades en la comunicación técnica y la documentación de proyectos.
+
+Estas actividades están diseñadas para fortalecer los conocimientos básicos de bases de datos y programación relacionados con el almacenamiento eficiente e inteligente de información, adaptándose al nivel y perfil académico del estudiantado de ciclos formativos.
+
 
 
 <a id="bases-de-datos-relacionales"></a>
@@ -448,84 +489,72 @@ O si quieres tomar mejores decisiones en cualquier tipo de ámbito
 <a id="modelo-de-datos"></a>
 ## Modelo de datos
 
-El modelo de datos es la estructura fundamental que define cómo se organiza y relacionan los datos dentro de una base de datos relacional. Este concepto es esencial para entender cómo almacenar, recuperar y gestionar información de manera eficiente.
+### Introducción a los ejercicios
 
-En el contexto de las bases de datos relacionales, el modelo de datos se basa en la teoría de conjuntos y relaciones matemáticas. Esta teoría permite representar los datos como entidades (también conocidas como tablas) que están interconectadas mediante relaciones. Cada entidad tiene atributos o columnas que definen las características de los objetos que se almacenan.
+Este conjunto de ejercicios se enfoca en la comprensión y aplicación del modelo de datos en bases de datos relacionales, particularmente centrado en entidades como Clientes, Productos y Pedidos. Los estudiantes aprenderán a identificar y definir atributos para cada entidad, así como a entender las relaciones entre ellas, principalmente a través de claves foráneas (FK) que vinculan pedidos con clientes y productos. Esta práctica es fundamental para desarrollar habilidades en la estructuración lógica de datos, lo cual es crucial en el desarrollo de sistemas de gestión de bases de datos eficientes.
 
-El modelo de datos relacional utiliza un esquema formal para definir la estructura de las tablas y cómo estas tablas interactúan entre sí. Este esquema incluye definiciones detalladas de cada columna, como su nombre, tipo de dato y restricciones de integridad. La relación entre las tablas se establece mediante claves primarias y foráneas, que aseguran la consistencia y coherencia de los datos.
+### Actividades propuestas
 
-La teoría del modelo de datos relacional también impone reglas sobre cómo deben ser estructurados los datos para evitar redundancias y anomalias. Por ejemplo, el principio de normalización sugiere que las tablas deben estar diseñadas de manera que cada columna contenga un valor atómico (no divisible) y que no haya dependencias parciales ni transitivas entre columnas.
+### Actividad 1: Creación del Esquema Relacional
 
-El modelo de datos relacional es una herramienta poderosa para la gestión de grandes volúmenes de información. Permite realizar consultas complejas utilizando lenguajes como SQL, lo que facilita el análisis y la extracción de insights valiosos de los datos almacenados. Además, su estructura jerárquica permite organizar los datos en una forma intuitiva y fácil de entender.
+**Descripción:** Los estudiantes deben diseñar y crear un esquema relacional basado en la información proporcionada sobre Clientes, Productos y Pedidos. Se espera que identifiquen las relaciones entre estas entidades (por ejemplo, una relación de muchos a uno entre Pedidos y Clientes) y definan correctamente los tipos de datos para cada campo.
 
-En resumen, el modelo de datos es la base sobre la cual se construyen las bases de datos relacionales. Es un concepto fundamental que define cómo se organizan y relacionan los datos para garantizar su integridad y eficiencia. A través del estudio del modelo de datos, los desarrolladores pueden crear sistemas informáticos robustos y escalables capaces de manejar grandes cantidades de información de manera efectiva.
+### Actividad 2: Consultas Básicas
 
-### introduccion
+**Descripción:** Los estudiantes deben escribir consultas SQL básicas que seleccionen información específica del esquema relacional creado en la actividad anterior. Esto incluirá cómo extraer detalles individuales como el nombre y teléfono de un cliente o los productos disponibles con su precio.
 
-```markdown
-Clientes
-  - nombre (cadena)
-  - apellidos (cadena)
-  - teléfono (cadena)
-  - email (cadena)
-  
-Productos
-  - nombre (cadena)
-  - descripcion (texto)
-  - precio (float)
-  - tamaño (vector)
-  - peso (float)
-  - ....
-  
-Pedidos
-  - fecha
-  - número de pedido
-  - Cliente (FK)
-  - Productos (FK)
-  - impuestos
-  - total
-  
-```
+### Actividad 3: Consultas JOIN
+
+**Descripción:** Los estudiantes deben aprender a escribir consultas que utilicen JOIN para combinar información entre diferentes tablas, por ejemplo, obtener detalles de un pedido junto con la información del cliente asociado al pedido y de los productos incluidos en el pedido.
+
+### Actividad 4: Consultas Agregadas
+
+**Descripción:** Los estudiantes deben crear consultas que utilicen funciones agregadas como SUM para calcular el total de todos los pedidos, AVG para obtener el precio promedio de los productos, o COUNT para contar cuántos clientes tienen pedidos activos.
+
+### Actividad 5: Insertar Datos
+
+**Descripción:** Se les pide a los estudiantes que inserten datos nuevos en las tablas creadas utilizando INSERT INTO. Deben asegurarse de respetar las relaciones entre las entidades y mantener la integridad de los datos, como establecer referencias correctas entre Cliente y Pedido.
+
+### Actividad 6: Actualizar Datos
+
+**Descripción:** Los estudiantes deben practicar cómo actualizar información existente en sus tablas utilizando UPDATE. Esto incluirá cambios en detalles del cliente, ajustes de precios en productos, o actualizaciones en la fecha o total de los pedidos.
+
+### Actividad 7: Eliminar Datos
+
+**Descripción:** Se les enseñará a los estudiantes cómo utilizar DELETE para eliminar registros de las tablas de forma segura. Esto también abordará el manejo adecuado de relaciones entre tablas, por ejemplo, asegurarse de no dejar orfandades en Pedidos si se elimina un Cliente.
+
+### Actividad 8: Crear Procedimientos Almacenados
+
+**Descripción:** Los estudiantes deben aprender a crear y utilizar procedimientos almacenados para realizar tareas comunes como insertar nuevos pedidos automáticamente con los datos necesarios o calcular impuestos en función del subtotal de cada pedido.
+
+### Actividad 9: Trabajando con Transacciones
+
+**Descripción:** A través de ejemplos prácticos, los estudiantes aprenderán cómo utilizar transacciones para garantizar la integridad y consistencia en operaciones que involucran múltiples consultas o cambios en diferentes tablas, como completar un pedido completo.
+
+### Actividad 10: Manejo de Errores
+
+**Descripción:** Los estudiantes deben escribir scripts básicos que manejen errores comunes al interactuar con la base de datos. Esto incluirá capturar excepciones y proporcionar respuestas útiles cuando se producen problemas como intentos fallidos de inserción debido a restricciones de clave foránea o limitaciones de tipos de datos.
+
 
 <a id="terminologia-del-modelo-relacional"></a>
 ## Terminología del modelo relacional
 
-En el vasto e infinito universo de la programación y la gestión de datos, una rama llamada "Bases de datos relacionales" destaca como un pilar fundamental. Esta disciplina se centra en cómo organizar, almacenar y recuperar información de manera eficiente y coherente. En este contexto, el submódulo "Terminología del modelo relacional" es una etapa cruciales que introduce a los estudiantes al lenguaje específico utilizado para definir y gestionar estos sistemas de datos.
+### Introducción a los ejercicios
 
-El primer concepto que se aborda es la **Entidad**, un elemento fundamental en cualquier base de datos relacional. Una entidad representa un objeto o concepto del mundo real, como un cliente, un producto o una transacción financiera. Cada entidad tiene atributos, que son las características que definen a esa entidad, como el nombre del cliente, el precio del producto o la fecha de la transacción.
-
-La **Relación**, por otro lado, es la conexión entre dos o más entidades. Por ejemplo, si tenemos una entidad "Cliente" y otra "Orden", la relación podría ser "Realiza". Esta relación permite establecer cómo las entidades están interrelacionadas y cómo se pueden consultar juntas para obtener información relevante.
-
-El **Modelo Relacional** es un conjunto de reglas que define cómo deben organizarse los datos en una base de datos relacional. Este modelo utiliza tablas, filas y columnas para representar la información. Cada tabla tiene un nombre único y está compuesta por filas (registros) y columnas (campos). Las columnas tienen nombres descriptivos que identifican el tipo de dato almacenado en ellas.
-
-La **Clave Primaria** es una columna o conjunto de columnas que identifica de manera única cada fila en una tabla. Es como la "dirección" de cada registro dentro de la tabla, asegurando que no haya duplicados y facilitando la búsqueda de información específica.
-
-Las **Restricciones de Validación** son reglas que se aplican a los datos para garantizar su integridad. Por ejemplo, una restricción podría ser que el campo "Edad" solo acepte valores numéricos positivos menores de 120 años. Estas restricciones ayudan a mantener la consistencia y precisión de los datos almacenados.
-
-El **Índice** es una estructura de datos que permite acelerar las búsquedas en una tabla. Al crear un índice en una columna o conjunto de columnas, se crea una copia ordenada de esos valores, lo que facilita la búsqueda rápida y eficiente de registros.
-
-La **Normalización** es el proceso de diseñar una base de datos relacional para reducir las redundancias y mejorar su estructura. Esto implica dividir la información en tablas más pequeñas y relacionadas, asegurando que cada tabla contenga solo datos relevantes y consistentes.
-
-En conclusión, el estudio del terminología del modelo relacional es una etapa esencial en el aprendizaje de las bases de datos relacionales. A través de este módulo, los estudiantes adquieren un lenguaje específico para definir y gestionar estos sistemas de manera efectiva. Cada concepto introducido, desde la entidad hasta la normalización, contribuye a construir una comprensión sólida de cómo organizar y manipular información en una base de datos relacional, preparando así el camino para desarrollar habilidades avanzadas en este campo tan crucial para la programación y la gestión de datos.
-
-### Introduccion
-
-```markdown
-Motor de bases de datos
-  Bases de datos
-    Tablas
-      Columnas
-      Registros - filas - tuplas
-
-Claves
-Tipos de datos
-
-Base de datos es un conjunto de documentos
-
-Motorrrr de base de datos es un software que gestiona esa base de datos
-```
+En esta carpeta de ejercicios se aborda la introducción al modelo relacional en bases de datos y se practican conceptos fundamentales como la creación de una base de datos y la definición de tablas con sus respectivas columnas y tipos de datos. Los estudiantes aprenderán a utilizar SQL para estructurar bases de datos empresariales, incluyendo cómo crear una nueva base de datos llamada "empresarial" y dos tablas importantes: "clientes" e "productos". Este conjunto de ejercicios es ideal para fortalecer las habilidades básicas en la gestión de información con SQL y entender la terminología específica del modelo relacional.
 
 ### crear base de datos
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL sirve para crear y seleccionar una base de datos en un sistema de gestión de bases de datos relacional. En la primera línea, `CREATE DATABASE empresarial;`, el código crea una nueva base de datos llamada "empresarial". Es importante tener cuidado al nombrar las bases de datos porque deben ser únicas dentro del servidor.
+
+La segunda línea, `USE empresarial;`, selecciona o establece la base de datos recién creada como la base de datos actual en la que se realizarán las operaciones siguientes. Esto significa que cualquier comando SQL adicional después de esta línea será ejecutado sobre la base de datos "empresarial".
+
+Esta secuencia es fundamental cuando comienzas a trabajar con una nueva base de datos, ya que primero necesitas crearla y luego seleccionarla antes de poder agregar tablas, registros o realizar consultas en ella.
+
+`002-crear base de datos.sql`
 
 ```sql
 CREATE DATABASE empresarial;
@@ -534,6 +563,17 @@ USE empresarial;
 ```
 
 ### crear tabla de clientes
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL sirve para crear una tabla llamada "clientes" en la base de datos "empresarial". La tabla contiene cinco columnas: `Identificador`, `nombre`, `apellidos`, `telefono` y `email`. Cada columna tiene un tipo de dato específico que determina qué tipo de información puede almacenar. Por ejemplo, `Identificador` es de tipo INT (número entero) y se utiliza para identificar únicamente a cada cliente en la tabla. Las columnas `nombre`, `apellidos`, `telefono` y `email` son de tipo VARCHAR, lo que significa que pueden contener texto de longitud variable, con límites predefinidos para evitar datos demasiado largos.
+
+La declaración ENGINE = InnoDB especifica el motor de base de datos que manejará cómo se almacenan los datos en esta tabla. InnoDB es un motor muy utilizado porque ofrece características avanzadas como transacciones y controles de integridad referencial, lo cual es crucial para bases de datos empresariales o relacionales más complejas.
+
+Este código es importante porque establece la estructura básica para almacenar información sobre clientes en una base de datos, proporcionando un marco sólido que permite futuras consultas y manipulaciones de datos.
+
+`003-crear tabla de clientes.sql`
 
 ```sql
 CREATE TABLE `empresarial`.`clientes` (
@@ -546,6 +586,21 @@ CREATE TABLE `empresarial`.`clientes` (
 ```
 
 ### productos
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL crea una nueva tabla en una base de datos llamada `empresarial`. La tabla se llama `productos` y está diseñada para almacenar información sobre diferentes productos. Cada fila de la tabla representa un producto específico, y cada columna almacena detalles como el identificador del producto (único para cada artículo), su nombre, descripción, precio y peso.
+
+La estructura de la tabla incluye cinco columnas:
+1. `Identificador`: Es un número entero (`INT`) que sirve como clave única para cada registro.
+2. `nombre`: Un campo de texto variable con una longitud máxima de 50 caracteres (`VARCHAR(50)`) que almacena el nombre del producto.
+3. `descripcion`: Utiliza el tipo de dato `TEXT`, lo cual significa que puede almacenar textos largos sin un límite estricto, permitiendo descripciones detalladas de los productos.
+4. `precio` y `peso`: Ambas son columnas con el tipo de dato `DOUBLE(10,2)`, indicando que almacenan números decimales para representar cantidades como precios (por ejemplo, 9.99€) o pesos (como 5.34 kg). La precisión total es de diez dígitos con dos dígitos después del punto decimal.
+
+El uso de `InnoDB` como motor de base de datos es importante porque este tipo de motor soporta transacciones y relaciones entre tablas, lo que facilita la gestión de bases de datos relacionales más complejas.
+
+`004-productos.sql`
 
 ```sql
 CREATE TABLE `empresarial`.`productos` (
@@ -557,107 +612,136 @@ CREATE TABLE `empresarial`.`productos` (
 ) ENGINE = InnoDB;
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Creación de una Base de Datos
+
+**Descripción:** Diseñar y crear una base de datos llamada "escuela" utilizando SQL. El objetivo es que los alumnos entiendan la estructura básica para establecer una nueva base de datos.
+
+---
+
+### Actividad 2: Definición de Tablas en Bases de Datos Relacionales
+
+**Descripción:** Los estudiantes deben crear dos tablas, “alumnos” y “materias”, utilizando comandos SQL. Esta actividad permitirá a los alumnos familiarizarse con el proceso de definir esquemas de tabla.
+
+---
+
+### Actividad 3: Crear un Esquema Relacional
+
+**Descripción:** Proporciona una descripción breve del contenido que la base de datos debe almacenar (por ejemplo, información sobre empleados y proyectos). Los estudiantes deben crear tablas y campos adecuados para este esquema.
+
+---
+
+### Actividad 4: Claves Primarias en SQL
+
+**Descripción:** Explicar a los estudiantes cómo definir claves primarias en una tabla SQL y por qué son importantes. Los alumnos tendrán que implementar un campo de clave principal en al menos dos tablas distintas de la base de datos.
+
+---
+
+### Actividad 5: Tipos de Datos SQL
+
+**Descripción:** Estudiar y aplicar diferentes tipos de datos SQL (INT, VARCHAR, TEXT) a campos específicos dentro del esquema relacional. Los alumnos deben justificar sus elecciones para cada tipo de dato en relación con los datos que almacenará la tabla.
+
+---
+
+### Actividad 6: Consultas Básicas en SQL
+
+**Descripción:** Realizar consultas SELECT simples y compuestas desde las tablas creadas (como seleccionar todos los registros, seleccionar columnas específicas) para familiarizarse con cómo recuperar información de una base de datos relacional.
+
+---
+
+### Actividad 7: Relaciones entre Tablas
+
+**Descripción:** Introducir la creación de relaciones entre tablas mediante claves foráneas. Los alumnos deben crear una relación entre las tablas "alumnos" y "materias".
+
+---
+
+### Actividad 8: Resolución de Problemas en SQL
+
+**Descripción:** Proporcionar un conjunto de problemas relacionados con errores comunes al trabajar con SQL, como la falta de claves únicas o consultas incorrectamente formateadas. Los estudiantes deben identificar y corregir estos errores.
+
+---
+
+### Actividad 9: Documentación del Diseño
+
+**Descripción:** Escribir documentación detallada que explique el diseño de las bases de datos creadas, incluyendo diagramas ER (Entity-Relationship) simples si es posible. Esto ayuda a los estudiantes a comprender la importancia de mantener registros claros y precisos en proyectos de desarrollo.
+
+---
+
+### Actividad 10: Aplicación del Modelo Relacional
+
+**Descripción:** Integrar todas las habilidades aprendidas para crear una pequeña base de datos relacionada con un área relevante, como administración escolar o gestión de inventario. Esto permitirá a los estudiantes aplicar lo que han aprendido en un contexto práctico.
+
+---
+
+Cada actividad está diseñada para reforzar los conceptos clave del modelo relacional y la creación de bases de datos relacionales utilizando SQL, con el fin de preparar a los estudiantes para proyectos más complejos.
+
+
 <a id="tipos-de-datos"></a>
 ## Tipos de datos
 
-En el vasto e infinito universo de la programación y la gestión de datos, los tipos de datos son como las piedras fundamentales que forman la estructura de cualquier edificio informático. Son los bloques concretos a partir de los cuales se construyen los algoritmos y las aplicaciones que procesan información.
+### Introducción a los ejercicios
 
-Los tipos de datos en las bases de datos relacionales son esenciales porque definen cómo se almacenarán y manipularán los datos dentro del sistema. Cada tipo de dato tiene sus propias características, restricciones y métodos de uso específicos, lo que permite a los desarrolladores crear modelos de datos precisos y eficientes.
+Esta carpeta contiene ejercicios destinados a familiarizarte con los tipos de datos fundamentales y avanzados en bases de datos relacionales, específicamente enfocándose en MySQL. Los ejercicios te ayudarán a comprender la diferencia entre tipos de datos numéricos, cadenas, fechas y otros formatos especializados como JSON o BLOBs. A través de estos ejercicios, aprenderás a seleccionar el tipo adecuado para cada columna en función del contenido que almacenará y los requerimientos del sistema, lo cual es crucial para la eficiencia y efectividad de tus bases de datos.
 
-El primer tipo de dato que exploramos es el **número entero**. Este tipo almacena valores sin decimales y puede ser positivo, negativo o cero. Los números enteros son fundamentales para contabilizar elementos, calcular cantidades y realizar operaciones matemáticas básicas.
+### Actividades propuestas
 
-Siguiendo esta línea de pensamiento, el **número real** es otro tipo de dato crucial. A diferencia de los números enteros, los números reales pueden representar valores con decimales, lo que los hace ideales para medir distancias, pesos, tiempos y cualquier otra cantidad continua.
+### Actividades Propuestas:
 
-El **texto o cadena de caracteres** es otro tipo de dato fundamental en las bases de datos relacionales. Permite almacenar información alfanumérica como nombres, direcciones, descripciones y otros tipos de texto. La gestión eficiente de los textos es esencial para la creación de interfaces de usuario amigables y la manipulación de información textual.
+1. **Identificación de Tipos de Datos**
+   - Descripción: Los estudiantes deben identificar y clasificar diferentes tipos de datos presentes en un conjunto de variables proporcionadas. Se espera que aprendan a distinguir entre tipos numéricos, cadenas de texto, fechas y otros.
 
-El **booleano** es un tipo de dato que solo puede tomar dos valores: verdadero o falso. Es especialmente útil en situaciones donde se necesita una respuesta binaria, como determinar si un registro está activo o inactivo, o si una condición ha sido cumplida.
+2. **Creación de Esquemas Básicos**
+   - Descripción: Los estudiantes deben crear esquemas básicos para una base de datos simple utilizando los tipos de datos proporcionados en el archivo de ejercicios. Se espera que aprendan a definir tablas con columnas y sus respectivos atributos.
 
-Además de estos tipos básicos, las bases de datos relacionales también soportan **fechas y horas**, que son esenciales para el seguimiento del tiempo en aplicaciones que requieren registros históricos o temporales. Las fechas y horas permiten almacenar información precisa sobre cuando ocurrieron ciertos eventos.
+3. **Comparación entre Tipos de Datos**
+   - Descripción: Los estudiantes deben comparar las diferencias entre diferentes tipos de datos numéricos (Tinyint, Smallint, Int, etc.) y explicar cuándo sería apropiado usar cada uno en una base de datos real. Se espera que comprendan la relevancia del tamaño y el rango de valores.
 
-El **número decimal** es otro tipo de dato que permite representar valores con decimales, pero con una precisión específica definida por el número de dígitos antes y después del punto decimal. Es útil en situaciones donde la precisión financiera o científica es crucial.
+4. **Definición de Campos Textuales**
+   - Descripción: Los estudiantes deben definir campos textuales adecuados para almacenar diferentes tipos de información, como descripciones largas o comentarios cortos. Se espera que aprendan a seleccionar entre Tinytext, Text y LongText basándose en la longitud del contenido.
 
-Finalmente, los tipos de datos **binarios** son utilizados para almacenar información que no puede representarse como texto o números, como imágenes, videos, archivos ejecutables y otros tipos de datos complejos. Los binarios permiten una gran flexibilidad en el almacenamiento y manipulación de diferentes tipos de contenido.
+5. **Uso de Enumeradores**
+   - Descripción: Los estudiantes deben crear un ejemplo práctico usando enumeradores para limitar las entradas posibles en una columna de base de datos. Se espera que aprendan a aplicar restricciones de entrada utilizando esta herramienta útil.
 
-Cada uno de estos tipos de datos desempeña un papel crucial en la construcción de bases de datos relacionales eficientes y precisas. Comprender y utilizar correctamente los tipos de datos es fundamental para cualquier desarrollador que trabaje con información estructurada, ya que determinará cómo se almacena, manipula y recupera esa información en el sistema.
+6. **Tipos de Datos Temporales**
+   - Descripción: Los estudiantes deben identificar cuándo sería apropiado usar tipos de datos temporales como Date, Time y DateTime en una base de datos real. Se espera que aprendan a manejar fechas y horas de manera efectiva.
 
-En resumen, los tipos de datos en las bases de datos relacionales son como los ingredientes de una receta: cada uno tiene su propia función y contribuye a la calidad final del plato. Al seleccionar y utilizar adecuadamente los tipos de datos correctos, se puede crear un modelo de datos robusto y eficiente que permita al sistema procesar información con precisión y eficiencia.
+7. **Creación de Tablas Complejas**
+   - Descripción: Los estudiantes deben crear tablas más complejas incorporando múltiples tipos de datos, incluyendo numéricos, cadenas largas, temporales y booleanos. Se espera que aprendan a diseñar esquemas para bases de datos más realistas.
 
-### tipos de datos
+8. **Manipulación de JSON**
+   - Descripción: Los estudiantes deben trabajar con un ejemplo simple donde utilicen tipos de datos JSON en MySQL para almacenar e ingresar datos estructurados. Se espera que comprendan la capacidad y flexibilidad de este tipo de datos.
 
-```markdown
-# 4 tipos básicos
+9. **Implementación de BLOBs**
+   - Descripción: Los estudiantes deben implementar campos de tipo Blob para guardar archivos binarios dentro de una base de datos, demostrando cómo se podría utilizar en aplicaciones reales. Se espera que comprendan la utilidad de almacenar y recuperar archivos desde bases de datos.
 
-INT - numeros enteros
-VARCHAR - cadenas de caracteres
-TEXT - textos muy largos
-DATE - fechas
+10. **Optimización del Diseño de Tablas**
+    - Descripción: Los estudiantes deben revisar un diseño de tabla propuesto y sugerir mejoras basándose en los tipos de datos disponibles, como reducir el tamaño de columnas innecesariamente grandes o mejorar la eficiencia de ciertos campos. Se espera que aprendan a optimizar esquemas para rendimiento óptimo.
 
-# Numéricos
+Estas actividades buscan que los estudiantes comprendan y apliquen los distintos tipos de datos disponibles en bases de datos relacionales, así como su importancia en el diseño de sistemas de gestión de información.
 
-Tinyint - 0-256
-Smallint - 0- 64000
-MediumInt - 0 - 16.7M
-Int - 4 Billones
-BigInt - 32bits
-
-Decimal
-Float
-Double
-Real
-
-Bit 0,1
-Boolean (True, False)
-Serial
-
-# Fechas
-Date - fecha
-Time - hora
-DateTime - Hora y fecha
-Timestamp - marca unix
-Year - año
-
-Char
-Varchar
-
-Tinytext
-Text
-MediumText
-LongText
-
-Blobs - nos permiten guardar archivos en la base de datos
-
-Enumeradores - Listas de elementos
-
-JSON
-Nos permite utilizar el poder de JSON en MySQL
-```
 
 <a id="claves-primarias"></a>
 ## Claves primarias
 
-En este capítulo, nos adentramos en la comprensión fundamental de las claves primarias en el contexto de las bases de datos relacionales. Las claves primarias son fundamentales para mantener la integridad y coherencia de los datos almacenados en una base de datos. Un conjunto de columnas que se utiliza para identificar de manera única cada fila en una tabla es conocido como clave primaria.
+### Introducción a los ejercicios
 
-La elección de las columnas adecuadas para formar una clave primaria es un proceso meticuloso y requiere consideraciones cuidadosas. Por lo general, estas columnas deben ser únicas (no pueden contener valores nulos ni repetirse) y no cambiar a lo largo del tiempo, ya que esto podría afectar la integridad de los datos.
-
-En una base de datos relacional, cada tabla debe tener una clave primaria única para distinguir entre las diferentes filas. Esta clave primaria puede estar compuesta por una sola columna o por varias columnas juntas, siempre y cuando cumplan con las condiciones de unicidad y no nulidad.
-
-La definición de la clave primaria es crucial durante el diseño de una base de datos, ya que afecta directamente a cómo se organizan y relacionan los datos. Una buena elección de claves primarias facilita la creación de relaciones entre tablas, lo que es fundamental para la construcción de bases de datos complejas.
-
-Además, las claves primarias desempeñan un papel importante en el rendimiento de las consultas a la base de datos. El acceso a los datos mediante una clave primaria suele ser muy rápido y eficiente, ya que permite localizar rápidamente cualquier fila específica sin necesidad de realizar búsquedas más complejas.
-
-En este capítulo, profundizaremos en cómo definir, utilizar y gestionar claves primarias en las bases de datos relacionales. Aprenderemos sobre los diferentes tipos de claves primarias y cómo seleccionar las columnas adecuadas para formar una clave primaria efectiva. También exploraremos técnicas avanzadas para optimizar el uso de claves primarias y mejorar el rendimiento general de la base de datos.
-
-A lo largo del camino, ilustraremos con ejemplos prácticos cómo aplicar los conceptos aprendidos en situaciones reales de desarrollo de bases de datos. A través de estos ejemplos, veremos cómo las claves primarias contribuyen a mantener la integridad y coherencia de los datos, así como cómo optimizar el acceso a ellos para mejorar el rendimiento del sistema.
-
-En resumen, entender y aplicar correctamente las claves primarias es un aspecto fundamental del diseño y gestión de bases de datos relacionales. A través de este capítulo, adquiriremos una sólida comprensión de los conceptos básicos y avanzados asociados a las claves primarias, lo que nos permitirá desarrollar habilidades valiosas en el campo de la programación y la gestión de sistemas informáticos.
-
-### definicion
-
-```markdown
-Clave primaria (que suele ser numérica y autoincremental) es un numero unico e irrepetible que identifica inequívocamente a un registro
-```
+En esta carpeta, se exploran los conceptos fundamentales sobre claves primarias en bases de datos relacionales. Los ejercicios te ayudarán a comprender qué es una clave primaria y cómo implementarla en tablas específicas utilizando lenguaje SQL. A través de estos ejercicios, desarrollarás habilidades para definir y modificar campos de identificación única en las tablas "clientes" y "productos", asegurando que cada registro tenga un valor numérico autoincremental que lo identifica inequívocamente.
 
 ### altero tabla
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este código SQL se utiliza para modificar la estructura de una tabla llamada `clientes` en una base de datos denominada `empresarial`. 
+
+Primero, el fragmento añade una clave primaria a la tabla `clientes`, que es un campo único y no nulo que sirve para identificar de manera única cada registro en esta tabla. La columna elegida como clave primaria se llama `Identificador`.
+
+Seguidamente, modifica la columna `Identificador` para asegurarse de que sea del tipo INT (número entero), que no acepte valores nulos (`NOT NULL`) y automáticamente incremente su valor para cada nuevo registro insertado en la tabla (`AUTO_INCREMENT`). Esto significa que cada vez que se añada un nuevo cliente, el sistema asignará automáticamente a este cliente un número de identificador único e incremental.
+
+Estas modificaciones son esenciales para garantizar que cada cliente tenga una forma única y consistente de ser identificado dentro del sistema.
+
+`002-altero tabla.sql`
 
 ```sql
 ALTER TABLE `empresarial`.`clientes`
@@ -668,6 +752,23 @@ ALTER TABLE `empresarial`.`clientes`
 ```
 
 ### altero tabla de productos
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL se utiliza para modificar una tabla llamada `productos` en la base de datos `empresarial`. En primer lugar, añade una clave primaria a la tabla. Una clave primaria es un campo o conjunto de campos que únicamente identifica cada fila en una tabla de forma única y no puede contener valores nulos.
+
+La primera línea del código, `ALTER TABLE \`empresarial\`.\`productos\` ADD PRIMARY KEY (\`Identificador\`)`, añade la columna `Identificador` como clave primaria. Esto significa que todos los valores en esta columna deben ser únicos y no pueden estar vacíos (NULL).
+
+La segunda línea del código, `ALTER TABLE productos MODIFY COLUMN Identificador INT NOT NULL AUTO_INCREMENT;`, cambia la definición de la columna `Identificador`. Aquí se especifica que:
+
+1. La columna es del tipo de dato `INT` (número entero).
+2. Los valores en esta columna no pueden ser nulos (`NOT NULL`), lo cual es un requisito para una clave primaria.
+3. El atributo `AUTO_INCREMENT` indica que el sistema automáticamente incrementará este valor cada vez que se inserta un nuevo registro, garantizando así la unicidad de los identificadores.
+
+Este código es importante porque ayuda a asegurar la integridad de la base de datos al crear una columna única y obligatoria para identificar sin ambigüedad cada producto en la tabla.
+
+`003-altero tabla de productos.sql`
 
 ```sql
 ALTER TABLE `empresarial`.`productos`
@@ -677,39 +778,70 @@ ALTER TABLE `empresarial`.`productos`
   MODIFY COLUMN Identificador INT NOT NULL AUTO_INCREMENT;
 ```
 
+### Actividades propuestas
+
+### Actividades Propuestas
+
+1. **Creación de Tabla con Clave Primaria**
+   - Los estudiantes deben crear una tabla nueva en una base de datos y añadirle un campo clave primario (`Identificador`) que sea numérico, autoincremental y único para cada registro.
+   - Se pretende que entiendan cómo se define e implementa la clave primaria al diseñar una estructura de base de datos.
+
+2. **Modificar Tabla Existente**
+   - Los estudiantes deben modificar una tabla existente en la base de datos empresarial, añadiendo un campo clave primario (`Identificador`) similar a lo que ya se ha visto para las tablas `clientes` y `productos`.
+   - Se espera que aprendan a alterar esquemas de base de datos existentes.
+
+3. **Descripción de Claves Primarias**
+   - Los estudiantes deben describir en un documento markdown cómo funciona la clave primaria en una tabla, incluyendo su propósito principal e importancia para el manejo eficiente de la información.
+   - El objetivo es que comprendan y puedan explicar conceptos fundamentales sobre las claves primarias.
+
+4. **Ejecución de Comandos SQL**
+   - Los estudiantes deben ejecutar los comandos SQL proporcionados en el archivo `002-altero tabla.sql` y luego confirmar visualmente (mediante una consulta SELECT) que la clave primaria ha sido añadida correctamente a la tabla.
+   - Se busca consolidar sus habilidades prácticas con SQL.
+
+5. **Análisis Comparativo**
+   - Los estudiantes deben analizar tanto el archivo `002-altero tabla.sql` como `003-altero tabla de productos.sql`, identificando similitudes y diferencias entre los comandos utilizados para añadir una clave primaria a las tablas `clientes` y `productos`.
+   - El objetivo es mejorar la capacidad de análisis y comprensión del lenguaje SQL.
+
+6. **Desarrollo de Scenarios**
+   - Los estudiantes deben crear un escenario práctico (en markdown) donde se describa cómo una clave primaria podría ser útil en un sistema de gestión empresarial, incluyendo ejemplos concretos y casos de uso.
+   - Se pretende que apliquen sus conocimientos a situaciones reales del mundo laboral.
+
+7. **Creación de Consultas**
+   - Los estudiantes deben crear consultas SQL simples para recuperar información de las tablas `clientes` y `productos`, utilizando la clave primaria (`Identificador`) como criterio principal.
+   - Se busca que consoliden sus habilidades en la creación de consultas eficaces.
+
+8. **Modificación de Datos**
+   - Los estudiantes deben escribir un script SQL para modificar datos existentes en las tablas `clientes` y `productos`, teniendo cuidado con los valores de clave primaria.
+   - El objetivo es que comprendan cómo manejar la integridad referencial al actualizar registros.
+
+9. **Documentación del Proceso**
+   - Los estudiantes deben documentar (en markdown) el proceso completo de creación, modificación y consulta de datos relacionados con las claves primarias en una base de datos empresarial.
+   - Se pretende que desarrollen habilidades de comunicación técnica efectiva.
+
+10. **Resolución de Problemas**
+    - Los estudiantes deben plantear y resolver problemas comunes asociados a la gestión de claves primarias, como duplicidad o errores al añadir nuevos registros en una tabla.
+    - El objetivo es mejorar sus capacidades resolutivas y habilidades diagnósticas en SQL.
+
+
 <a id="restricciones-de-validacion"></a>
 ## Restricciones de validación
 
-Las restricciones de validación son una herramienta fundamental para garantizar la integridad y consistencia de los datos almacenados en las bases de datos relacionales. Estas reglas se aplican a los valores que pueden ser insertados o actualizados en las tablas, asegurando que solo datos válidos sean aceptados.
+### Introducción a los ejercicios
 
-Las restricciones de validación pueden ser definidas tanto en el nivel del modelo de datos como en el nivel de la base de datos. En el modelo de datos, se especifican las reglas que los atributos deben cumplir antes de que puedan participar en una relación. Por ejemplo, si un atributo representa una edad, puede haber una restricción que impide que se inserten valores negativos o superiores a 120 años.
-
-En el nivel de la base de datos, las restricciones de validación se implementan mediante sentencias SQL como CHECK. Estas sentencias permiten definir condiciones que deben cumplirse para que una operación de inserción o actualización sea aceptada. Por ejemplo, si se desea asegurar que un campo de correo electrónico tenga un formato válido, se puede crear una restricción CHECK que valide la estructura del correo.
-
-Las restricciones de validación pueden ser muy flexibles y variadas. Algunas de las más comunes incluyen:
-
-1. **Restricciones de nulidad (NOT NULL)**: Impiden que un campo acepte valores nulos.
-2. **Restricciones únicas (UNIQUE)**: Aseguran que los valores en un campo sean distintos entre sí.
-3. **Restricciones primarias (PRIMARY KEY)**: Combinan la restricción de nulidad y única, identificando claramente el campo o conjunto de campos que forman la clave principal de una tabla.
-4. **Restricciones foráneas (FOREIGN KEY)**: Garantizan la integridad referencial entre tablas relacionadas, asegurando que los valores en un campo sean presentes en otro campo de otra tabla.
-
-Además de las restricciones básicas, existen restricciones más complejas como:
-
-- **Restricciones CHECK**: Permiten definir condiciones personalizadas para validar los datos.
-- **Restricciones ENUM**: Limitan el valor a un conjunto predefinido de opciones.
-- **Restricciones RANGE**: Aseguran que los valores estén dentro de un rango específico.
-
-La implementación de restricciones de validación es crucial para mantener la calidad y confiabilidad de los datos en una base de datos. Algunos beneficios incluyen:
-
-1. **Reducción de errores**: Evita la inserción de datos incorrectos o inconsistentes.
-2. **Mejora del rendimiento**: Permite a las bases de datos realizar optimizaciones basadas en las restricciones definidas.
-3. **Facilita el mantenimiento**: Simplifica el proceso de actualización y corrección de los datos.
-
-Sin embargo, es importante considerar que las restricciones de validación deben ser utilizadas con cuidado. Excesivas o mal diseñadas pueden limitar la flexibilidad del sistema y hacer que las operaciones sean más complejas. Además, algunas restricciones pueden afectar el rendimiento si no están optimizadas adecuadamente.
-
-En resumen, las restricciones de validación son una herramienta poderosa para garantizar la calidad de los datos en las bases de datos relacionales. Al diseñar y aplicar estas restricciones con inteligencia y consideración, se puede crear un sistema de gestión de datos robusto y confiable que respalde las necesidades operativas del negocio.
+En esta carpeta de ejercicios, los estudiantes trabajarán con restricciones de validación en bases de datos relacionales utilizando SQL. Los ejercicios se centran en cómo asegurar la integridad de los datos mediante la implementación de condiciones específicas que deben cumplirse para garantizar que ciertos campos tengan formatos correctos y consistentes. En particular, aprenderán a añadir restricciones CHECK para verificar el tamaño del número telefónico y el formato del correo electrónico en una tabla llamada "clientes". Estos ejercicios ayudan a los estudiantes a comprender cómo proteger la calidad de los datos almacenados en bases de datos relacionales.
 
 ### restriccion de telefono
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL se utiliza para modificar una tabla existente llamada `clientes`. La instrucción `ALTER TABLE` es utilizada para añadir una nueva restricción a la tabla. En este caso, se agrega una restricción de validación que garantiza que el número telefónico registrado en cada fila de la columna `telefono` tenga exactamente 9 caracteres.
+
+La parte `CHECK (CHAR_LENGTH(telefono) = 9)` es lo que define la condición para esta restricción. La función `CHAR_LENGTH()` se utiliza para contar el número total de caracteres en una cadena, y aquí se asegura de que esa longitud sea igual a 9. Esto significa que cualquier intento de ingresar o modificar un registro en la tabla `clientes` con un número telefónico que no tenga exactamente 9 dígitos será rechazado por el sistema de gestión de bases de datos, manteniendo así la integridad y consistencia de los datos.
+
+Esta restricción es importante porque asegura que todos los números telefónicos almacenados en la base de datos cumplan con una longitud específica, lo cual puede ser un requisito para el formato o estructura de los teléfonos según las regulaciones locales o necesidades del negocio.
+
+`001-restriccion de telefono.sql`
 
 ```sql
 ALTER TABLE clientes
@@ -718,6 +850,17 @@ ALTER TABLE clientes
 ```
 
 ### email
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL se utiliza para modificar una tabla existente llamada `clientes`. Específicamente, el código añade una restricción de validación a la columna `email` que asegura que todos los correos electrónicos ingresados cumplan con un formato estándar. La restricción se llama `chk_email_format`, y utiliza una expresión regular para comprobar si el valor en la columna `email` sigue un patrón específico de dirección de correo electrónico.
+
+La expresión regular que se usa verifica si el contenido de la columna `email` tiene un formato similar al de los correos electrónicos típicos, donde hay una parte antes del signo "@" (que puede incluir letras, números y algunos caracteres especiales como puntos o guiones), seguido por un dominio que también sigue ciertas reglas. Esta validación es importante para garantizar que los datos ingresados en la tabla `clientes` sean correctos y útiles.
+
+Este tipo de restricción ayuda a mantener la integridad y consistencia de los datos, asegurando que cualquier dato nuevo insertado en el campo `email` cumpla con las reglas definidas por la expresión regular.
+
+`002-email.sql`
 
 ```sql
 ALTER TABLE clientes
@@ -725,97 +868,173 @@ ALTER TABLE clientes
   CHECK (email REGEXP '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}$');
 ```
 
+### Actividades propuestas
+
+1. **Restricción de longitud en campos**
+   - Los estudiantes deben añadir una restricción de validación a una tabla existente que verifique la longitud mínima y máxima permitida para un campo específico (por ejemplo, nombre o dirección). Se espera que los alumnos entiendan cómo definir rangos de valores aceptables.
+
+2. **Formato de correo electrónico**
+   - Los estudiantes deben diseñar una restricción CHECK en SQL que valide el formato correcto de las direcciones de correo electrónico. El objetivo es que comprendan la importancia de asegurar que los datos ingresados cumplan con un patrón específico.
+
+3. **Añadir varias restricciones a una tabla**
+   - Los estudiantes deben agregar múltiples restricciones CHECK y UNIQUE a una tabla existente, verificando condiciones específicas para diferentes campos. Esto permitirá que entiendan cómo combinar diversas validaciones en una única tabla.
+
+4. **Validación de fechas de nacimiento**
+   - Proporciona a los estudiantes la tarea de implementar una restricción CHECK para garantizar que las fechas de nacimiento registradas sean anteriores al día actual. Esto ayudará a practicar el uso de funciones SQL y operadores relacionales.
+
+5. **Restricción basada en cálculos**
+   - Los estudiantes deben crear una restricción CHECK que verifique la suma o resta de dos campos numéricos, como por ejemplo, calcular la edad a partir de fechas de nacimiento. Esto facilitará el aprendizaje sobre cómo realizar operaciones aritméticas dentro de las restricciones.
+
+6. **Restricción de dominio**
+   - Los estudiantes deben crear una lista desplegable en su base de datos (usando CHECK) para limitar los valores que pueden introducirse en un campo específico, como el estado civil o tipo de cliente. Esto ayudará a entender cómo garantizar la consistencia y precisión de los datos.
+
+7. **Restricción múltiple**
+   - Los estudiantes deben implementar una restricción CHECK compuesta que verifique más de una condición al mismo tiempo (por ejemplo, el email debe tener un formato correcto Y ser único en la tabla). Esto les enseñará a combinar lógica booleana para crear condiciones complejas.
+
+8. **Validación de rangos numéricos**
+   - Los estudiantes deben agregar restricciones CHECK que verifiquen si ciertos campos numéricos (como edad, tarifa) están dentro de un rango determinado. Esto permitirá a los alumnos practicar la definición de límites mínimos y máximos en sus bases de datos.
+
+Estas actividades proporcionan una variedad de ejercicios que cubren diferentes aspectos de las restricciones de validación, ayudando a los estudiantes a dominar el uso eficaz del lenguaje SQL para mantener la integridad de sus bases de datos.
+
+
 <a id="indices-caracteristicas"></a>
 ## Índices. Características
 
-En el vasto universo de las bases de datos relacionales, los índices desempeñan un papel fundamental como pilares que respaldan la eficiencia operativa. Estos son estructuras de datos que permiten a las consultas acceder rápidamente a los registros que cumplen ciertas condiciones, optimizando así el rendimiento general del sistema.
-
-Los índices se basan en una o más columnas de una tabla y están diseñados para facilitar la búsqueda de datos. Al crear un índice, se crea una estructura adicional que mantiene ordenada la información según los valores de las columnas seleccionadas. Esta organización permite que el motor de base de datos localice rápidamente los registros deseados sin necesidad de recorrer toda la tabla.
-
-La creación de índices es un proceso deliberado, ya que aunque mejoran la velocidad de consulta, también aumentan el tiempo necesario para insertar, actualizar y eliminar registros. Por lo tanto, se debe equilibrar la cantidad de índices con la frecuencia de operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en la tabla.
-
-Existen diferentes tipos de índices, cada uno con sus propias características y ventajas. Los índices simples están formados por una sola columna, mientras que los índices compuestos utilizan varias columnas para su organización. Además, existen índices únicos que aseguran que no haya duplicados en la columna o conjunto de columnas indexadas.
-
-La elección del tipo de índice depende del escenario específico y de las consultas frecuentes realizadas sobre la tabla. Por ejemplo, si una consulta suele filtrar los registros por varias columnas juntas, un índice compuesto sería más eficiente que varios índices simples individuales.
-
-Además de mejorar el rendimiento de las consultas, los índices también pueden ayudar a prevenir la pérdida de datos en caso de fallos del sistema. Algunos sistemas de gestión de bases de datos utilizan índices para realizar copias de seguridad y restauraciones rápidas de los datos.
-
-La gestión de índices es un aspecto crucial en el diseño y optimización de las bases de datos relacionales. Es importante mantener una buena relación entre la cantidad de índices y la frecuencia de operaciones CRUD, así como evaluar regularmente su eficacia para ajustarlos según sea necesario.
-
-En conclusión, los índices son herramientas poderosas que permiten a las bases de datos relacionales responder rápidamente a consultas complejas. Su correcta utilización es fundamental para el rendimiento óptimo del sistema y requiere un equilibrio cuidadoso entre la eficiencia operativa y el costo adicional en términos de tiempo y recursos.
 
 <a id="el-valor-null"></a>
 ## El valor NULL
 
-El valor NULL es una característica fundamental de los sistemas de bases de datos relacionales que permite representar la ausencia de un valor o información. Este concepto es crucial para entender cómo se maneja la falta de datos en una base de datos, ya que no puede existir un espacio vacío en una columna definida con un tipo de dato específico.
+### Introducción a los ejercicios
 
-En el contexto de las bases de datos relacionales, cuando un campo está marcado como NULL, significa que no hay ningún valor asignado a ese campo. Es importante distinguir entre un campo vacío y un campo nulo; mientras que un campo vacío puede contener espacios en blanco o cadenas vacías, un campo nulo indica la ausencia total de cualquier dato.
-
-El manejo del valor NULL es una práctica común en el diseño de bases de datos porque permite una representación más precisa y completa de los datos. Por ejemplo, si se registra la edad de una persona, puede haber casos en que no se conoce la edad exacta, lo cual sería un valor nulo.
-
-Sin embargo, el manejo del valor NULL también introduce complejidades en las consultas y operaciones sobre la base de datos. Los lenguajes de consulta como SQL tienen reglas específicas para tratar los valores nulos, lo que puede llevar a resultados inesperados si no se manejan adecuadamente. Por ejemplo, una consulta que busca registros donde el campo edad es igual a NULL no devolverá ningún resultado, ya que la comparación con NULL siempre devuelve falso.
-
-Para evitar estos problemas y facilitar el manejo de los valores nulos, SQL ofrece funciones específicas como IS NULL y IS NOT NULL, que permiten filtrar registros según su valor nulo o no. Además, es común utilizar valores predeterminados para campos que pueden ser nulos, lo que asegura que siempre haya un valor válido en la columna.
-
-El concepto del valor NULL también tiene implicaciones en el diseño de tablas y relaciones. Por ejemplo, si una relación entre dos tablas puede tener registros sin valor en algún campo, es necesario considerar cómo se manejarán estos casos para mantener la integridad de los datos.
-
-En resumen, el valor NULL es un elemento esencial en las bases de datos relacionales que permite representar la ausencia de información. Aunque introduce complejidades en el diseño y consulta de las bases de datos, su uso adecuado es fundamental para una representación precisa y completa de los datos. Comprender cómo se maneja el valor NULL es crucial para cualquier profesional que trabaje con sistemas de gestión de bases de datos relacionales.
+En esta sesión, trabajarás con el concepto de los valores NULL en bases de datos relacionales. El ejercicio te guiará para modificar una tabla llamada "clientes", permitiendo que la columna "apellidos" pueda almacenar valores nulos. Esto es útil cuando no se dispone de información obligatoria sobre los apellidos del cliente, lo cual refuerza tu comprensión sobre cómo manejar datos incompletos en las bases de datos. Este tipo de práctica te ayudará a familiarizarte con la gestión de datos faltantes y la flexibilidad en la estructura de tus tablas SQL.
 
 ### apellido null
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL modifica una columna existente en la tabla "clientes". Específicamente, está cambiando la columna llamada "apellidos" para permitir valores nulos (NULL). Antes de esta modificación, es posible que la columna "apellidos" no aceptara valores NULL y requeriera siempre un valor. Con este comando, ahora se permite que algunos registros tengan el campo "apellidos" vacío o sin definir, lo cual puede ser útil en casos donde una persona no tiene apellidos o no ha proporcionado esta información. Esto es importante porque aumenta la flexibilidad de la base de datos y puede hacerla más representativa del mundo real, donde no siempre se dispone de toda la información para cada registro.
+
+`001-apellido null.sql`
 
 ```sql
 ALTER TABLE clientes
   MODIFY COLUMN apellidos VARCHAR(100) NULL;
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Modificación del Esquema de Tabla con Null
+
+**Descripción:** Los estudiantes deben modificar un esquema de tabla existente para permitir valores nulos en una columna específica. Este ejercicio les ayudará a entender cómo y cuándo utilizar la cláusula `NULL` al trabajar con bases de datos relacionales.
+
+### Actividad 2: Crear Tabla Con Valores Nulos
+
+**Descripción:** Los estudiantes deberán crear una nueva tabla que incluya columnas permitiendo valores nulos. Esto les enseñará cómo definir correctamente la estructura inicial de las tablas en SQL.
+
+### Actividad 3: Actualizar Datos Permitiendo Nulls
+
+**Descripción:** En esta actividad, los alumnos actualizarán registros existentes para establecer algunos campos como null. Les ayudará a comprender el manejo de valores nulos en consultas y actualizaciones de datos.
+
+### Actividad 4: Consultar Valores Nulos
+
+**Descripción:** Los estudiantes deberán escribir consultas SQL que incluyan criterios para buscar filas con valores nulos en campos específicos. Les ayudará a entender cómo trabajar con los valores NULL en las consultas SELECT.
+
+### Actividad 5: Eliminar Registros Con Nulls
+
+**Description:** Este ejercicio consiste en eliminar registros de una tabla donde ciertos campos tienen un valor null. Los estudiantes aprenderán a utilizar condiciones para filtrar y eliminar datos basándose en la presencia o ausencia de valores nulos.
+
+### Actividad 6: Creación Tabla Completamente Nullable
+
+**Descripción:** Se les pedirá que creen una tabla entera con todas las columnas configuradas para permitir valores null. Esto servirá para consolidar su comprensión del uso y la importancia de los valores nulos en el diseño inicial de bases de datos.
+
+### Actividad 7: Comparación NULL
+
+**Descripción:** Los estudiantes deberán escribir consultas que hagan comparaciones con valores nulos, incluyendo operadores específicos para tratar estos casos. Ayudará a entender las peculiaridades del uso de los valores null en condiciones y expresiones.
+
+### Actividad 8: Consulta Compleja Involucrando NULL
+
+**Descripción:** Se les pedirá que escriban una consulta compleja que filtre datos basándose tanto en valores nulos como no nulos. Les ayudará a consolidar sus habilidades para manejar registros con valores null de manera eficiente y precisa.
+
+### Actividad 9: Inserción Con Valores Nulos
+
+**Descripción:** Los estudiantes deberán realizar inserciones en tablas que permiten valores nulos, especificando qué campos deben ser NULL. Les ayudará a entender cómo incluir datos nulos durante la creación de nuevos registros.
+
+### Actividad 10: Actualización y Consulta Combinada
+
+**Descripción:** En esta actividad se combinarán actualizaciones para establecer valores null en ciertos registros con consultas selectivas que buscan estos mismos valores. Les ayudará a familiarizarse con la utilización de los valores nulos tanto en transacciones como en consultas.
+
+
 <a id="claves-ajenas"></a>
 ## Claves ajenas
 
-En el vasto universo de las bases de datos relacionales, una relación fundamental es la existencia de claves ajenas, que son un mecanismo esencial para establecer conexiones entre diferentes tablas. Estas claves no solo permiten la integridad referencial en los sistemas de información, sino que también facilitan la consulta y la manipulación de datos distribuidos.
+### Introducción a los ejercicios
 
-Las claves ajenas se definen como columnas o conjuntos de columnas en una tabla que hacen referencia a las claves primarias de otra tabla. Esta relación permite que una fila en una tabla esté vinculada a una fila específica en otra tabla, creando así un puente entre ellas. Este concepto es crucial para mantener la consistencia y coherencia de los datos almacenados.
-
-La importancia de las claves ajenas radica en su capacidad para garantizar que todos los valores referenciados existan en la tabla a la que hacen referencia. Esto impide la inserción de datos incoherentes o inconsistentes, asegurando que cada registro esté relacionado con otro de manera lógica y precisa.
-
-Además, las claves ajenas son fundamentales para el diseño de consultas complejas en bases de datos relacionales. Al permitir la referencia entre tablas, es posible realizar operaciones como unión (JOIN), filtrado y agrupamiento que requieren la combinación de información de múltiples fuentes. Esta capacidad es esencial para la extracción de insights valiosos y la toma de decisiones basada en datos.
-
-La utilización de claves ajenas también facilita el mantenimiento del sistema de información. Al establecer relaciones entre tablas, se pueden realizar operaciones como la eliminación en cascada, que asegura que cuando una fila en una tabla principal es eliminada, las filas relacionadas en otras tablas también sean eliminadas automáticamente, manteniendo la integridad de los datos.
-
-En resumen, las claves ajenas son un elemento fundamental en el diseño y gestión de bases de datos relacionales. Su capacidad para establecer relaciones entre tablas, garantizar la integridad referencial y facilitar consultas complejas hace que sean una herramienta esencial para cualquier sistema de información moderno. A través del uso efectivo de claves ajenas, se pueden crear estructuras de datos coherentes y eficientes, permitiendo así el acceso y manipulación de información de manera precisa y segura.
-
-### Introduccion
-
-```markdown
-Bases de datos SQL
-Bases de datos RELACIONALES
-Se supone que existe algún tipo de relación entre los datos
-
-Hasta el momento tenemos clientes y productos
-Son entidades que no tienen absolutamente nada que ver entre si
-
-Ahora vamos a suponer que hacemos pedidos
-En un pedido se encuentran un cliente y un producto
-```
+En esta carpeta de ejercicios, se exploran los conceptos básicos de las bases de datos relacionales, centrándose en la creación y manejo de claves foráneas. Los estudiantes aprenderán a crear una tabla llamada "pedidos" que está vinculada a dos tablas existentes: "clientes" y "productos". A través del uso de sentencias SQL, se establecerán relaciones entre estas tablas utilizando claves foráneas para asegurar la integridad referencial en las operaciones CRUD (Crear, Leer, Actualizar, Borrar). Esta práctica es crucial para comprender cómo estructurar correctamente bases de datos relacionales y mantener sus datos consistentes.
 
 ### crear pedidos
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL se utiliza para crear una tabla llamada `pedidos` en la base de datos denominada `empresarial`. La tabla contiene cuatro columnas: `Identificador`, `fecha`, `id_cliente` y `id_producto`.
+
+La columna `Identificador` es el campo clave principal (primary key) de la tabla, lo que significa que cada valor dentro debe ser único e identificar de manera única un pedido. Esta columna también está configurada para incrementarse automáticamente (`AUTO_INCREMENT`) con cada nuevo registro añadido.
+
+Las columnas `fecha`, `id_cliente` y `id_producto` son campos adicionales necesarios para almacenar información sobre la fecha del pedido, el cliente asociado (mediante su identificador) y el producto solicitado (también por su identificador).
+
+Esta tabla es importante porque organiza los datos de pedidos en un formato estructurado que facilita la consulta y manipulación de datos relacionados con ventas o servicios proporcionados. Específicamente, esta tabla establece las bases para futuras consultas SQL donde podrás vincular los pedidos a clientes y productos utilizando las claves foráneas (`id_cliente` y `id_producto`).
+
+`002-crear pedidos.sql`
 
 ```sql
 CREATE TABLE `empresarial`.`pedidos` (`Identificador` INT NOT NULL AUTO_INCREMENT , `fecha` DATE NOT NULL , `id_cliente` INT NOT NULL , `id_producto` INT NOT NULL , PRIMARY KEY (`Identificador`)) ENGINE = InnoDB;
 ```
 
 ### clave foranea de pedidos a clientes
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL se utiliza para establecer una relación entre dos tablas en una base de datos: la tabla `pedidos` y la tabla `clientes`. Específicamente, el código crea lo que se conoce como una "clave foránea" (foreign key), que es un tipo especial de campo que se usa para vincular datos en diferentes tablas. En este caso, la clave foránea se denomina `pedidosaclientes` y está asociada al campo `id_cliente` en la tabla `pedidos`.
+
+La función principal de esta clave foránea es asegurar que los valores en el campo `id_cliente` dentro de la tabla `pedidos` coincidan con los valores del campo `Identificador` en la tabla `clientes`. Esto significa que no se permitirá agregar un nuevo pedido para un cliente que no está registrado en la tabla `clientes`.
+
+Además, las opciones `ON DELETE RESTRICT ON UPDATE RESTRICT` indican cómo deben manejarse ciertas operaciones. En este caso, si intentas eliminar un registro de la tabla `clientes`, el sistema impedirá dicha acción si ese cliente tiene pedidos asociados en la tabla `pedidos`. De igual manera, si se modifica (`UPDATE`) el identificador del cliente en la tabla `clientes`, esto no será permitido si existen registros en `pedidos` que dependan de dicho identificador. Esto ayuda a mantener la integridad y coherencia de los datos entre ambas tablas.
+
+`003-clave foranea de pedidos a clientes.sql`
 
 ```sql
 ALTER TABLE `pedidos` ADD CONSTRAINT `pedidosaclientes` FOREIGN KEY (`id_cliente`) REFERENCES `clientes`(`Identificador`) ON DELETE RESTRICT ON UPDATE RESTRICT;
 ```
 
 ### clave foranea de pedidos a productos
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL se utiliza para modificar una tabla existente llamada `pedidos`. La acción específica que realiza es agregar una restricción (constraint) conocida como clave foránea (foreign key). Esta clave foránea vincula la columna `id_producto` en la tabla `pedidos` con la columna `Identificador` en otra tabla llamada `productos`.
+
+La importancia de esta operación radica en que establece una relación entre dos tablas, permitiendo que el sistema gestor de bases de datos controle qué valores son válidos para `id_producto` en función de los valores existentes en `Identificador`. Las opciones `ON DELETE RESTRICT ON UPDATE RESTRICT` indican que si intentas eliminar un registro en la tabla `productos`, se prohibirá si aún hay registros relacionados en `pedidos`, y lo mismo ocurre durante una actualización. Esto ayuda a mantener la integridad de los datos entre las dos tablas, evitando referencias inconsistentes o perdidas.
+
+`004-clave foranea de pedidos a productos.sql`
 
 ```sql
 ALTER TABLE `pedidos` ADD CONSTRAINT `pedidosaproductos` FOREIGN KEY (`id_producto`) REFERENCES `productos`(`Identificador`) ON DELETE RESTRICT ON UPDATE RESTRICT;
 ```
 
 ### insercion
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL se utiliza para insertar un nuevo registro en una tabla llamada `pedidos`. La instrucción `INSERT INTO` especifica la tabla donde queremos agregar los datos, que en este caso es `pedidos`. Dentro del paréntesis después de `INSERT INTO`, se listan las columnas de la tabla a las que deseamos asignar valores nuevos: `Identificador`, `fecha`, `id_cliente` y `id_producto`.
+
+En el segundo bloque entre paréntesis, se proporcionan los valores específicos para cada una de esas columnas. El valor `NULL` se utiliza para la columna `Identificador`, lo cual indica que el sistema debe asignar automáticamente un valor único (por ejemplo, si `Identificador` está configurado como clave primaria autoincremental). La fecha '2025-09-25' será ingresada en la columna `fecha`. Los valores '12' y '19' serán insertados respectivamente en las columnas `id_cliente` e `id_producto`, que probablemente son claves foráneas que hacen referencia a tablas de clientes y productos.
+
+Este tipo de inserción es importante porque permite añadir nuevos datos a la base de datos, manteniendo relaciones coherentes con otras tablas a través del uso de claves foráneas.
+
+`005-insercion.sql`
 
 ```sql
 INSERT INTO `pedidos` 
@@ -832,24 +1051,70 @@ INSERT INTO `pedidos`
 );
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Crear Tabla de Pedidos
+
+**Descripción:** Los alumnos deben crear una tabla llamada `pedidos` en una base de datos existente que tenga campos para identificador, fecha, id del cliente y id del producto. Se espera que los estudiantes aprendan a definir estructuras de tablas basadas en requisitos específicos.
+
+### Actividad 2: Relacionar Pedidos con Clientes
+
+**Descripción:** Los alumnos deberán añadir una clave foránea (`id_cliente`) a la tabla `pedidos`, relacionándola con la tabla `clientes`. Se espera que los estudiantes entiendan cómo establecer relaciones entre tablas usando claves foráneas.
+
+### Actividad 3: Relacionar Pedidos con Productos
+
+**Descripción:** Los alumnos deberán añadir una clave foránea (`id_producto`) a la tabla `pedidos`, relacionándola con la tabla `productos`. Se espera que los estudiantes comprendan cómo mantener la integridad referencial entre tablas.
+
+### Actividad 4: Consultar Información Relacionada
+
+**Descripción:** Los alumnos deben escribir consultas SQL para obtener información de pedidos, incluyendo datos relacionados del cliente y el producto. Se espera que aprendan a realizar operaciones JOIN en múltiples tablas.
+
+### Actividad 5: Validar Restricciones ON DELETE y ON UPDATE
+
+**Descripción:** Los alumnos deben investigar y aplicar restricciones `ON DELETE RESTRICT` y `ON UPDATE RESTRICT` para las claves foráneas. Se espera que comprendan el impacto de estas restricciones en la integridad de los datos.
+
+### Actividad 6: Agregar un Nuevo Pedido
+
+**Descripción:** Los alumnos deben insertar manualmente un nuevo pedido en la tabla `pedidos`. El pedido debe incluir una fecha, id del cliente existente y id de producto. Se espera que aprendan a realizar inserciones correctas con claves foráneas.
+
+### Actividad 7: Modificar Pedidos Existentes
+
+**Descripción:** Los alumnos deben modificar la información de un pedido existente en la tabla `pedidos`. Se espera que comprendan cómo actualizar registros mientras se mantienen las restricciones establecidas por las claves foráneas.
+
+### Actividad 8: Eliminar Pedidos y Manejo de Restricciones
+
+**Descripción:** Los alumnos deben intentar eliminar un pedido en la tabla `pedidos` y observar el comportamiento debido a las restricciones definidas. Se espera que entiendan los efectos de las restricciones ON DELETE en las relaciones entre tablas.
+
+### Actividad 9: Diseño de Esquema Relacional
+
+**Descripción:** Los alumnos deben diseñar un esquema relacional para una nueva entidad, como proveedores, y relacionarla con clientes o productos. Se espera que aprendan a planificar esquemas que reflejen relaciones reales entre entidades en un sistema.
+
+### Actividad 10: Crear Consultas Complejas
+
+**Descripción:** Los alumnos deben crear consultas SQL más complejas para obtener estadísticas sobre pedidos, como el total de pedidos por cliente o los productos más solicitados. Se espera que aprendan a combinar múltiples operaciones y funciones en una consulta única.
+
+
 <a id="vistas"></a>
 ## Vistas
 
-En el vasto mundo de las bases de datos relacionales, una vista es un objeto virtual que proporciona una forma simplificada y personalizada de ver los datos. Esta estructura permite a los usuarios interactuar con subconjuntos específicos de datos, ocultando la complejidad del modelo base y presentándolo de manera más accesible.
+### Introducción a los ejercicios
 
-La creación de vistas se realiza mediante consultas SQL que seleccionan y combinan datos de una o varias tablas existentes. Estas consultas pueden incluir operadores de selección, proyección, agrupamiento y ordenación, permitiendo a los usuarios definir cómo desean ver los datos sin necesidad de escribir consultas complejas cada vez.
-
-Una de las principales ventajas de las vistas es la seguridad. Al ocultar ciertos detalles del modelo base, se puede limitar el acceso a información sensible o restringir las operaciones que los usuarios pueden realizar sobre los datos. Además, las vistas facilitan la gestión de cambios en el modelo base, ya que cualquier modificación solo afecta a la vista y no a los datos subyacentes.
-
-El uso de vistas también mejora la eficiencia del rendimiento. Al almacenar los resultados de una consulta como una vista, se evita la necesidad de ejecutar la misma consulta cada vez que se necesita acceder a los datos filtrados. Esto puede reducir significativamente el tiempo y recursos requeridos para recuperar información.
-
-En términos prácticos, las vistas son herramientas poderosas que permiten a los desarrolladores y administradores de bases de datos crear interfaces más amigables y seguras para sus aplicaciones. Al definir vistas personalizadas, se pueden ofrecer vistas de los datos que sean relevantes y útiles para diferentes roles dentro de una organización, lo que facilita la colaboración y el análisis.
-
-Además, las vistas son ideales para presentar datos en un formato más legible y estructurado. Por ejemplo, si una base de datos contiene información detallada sobre los clientes, se puede crear una vista que muestre solo los campos relevantes para un informe específico, como nombre, dirección y correo electrónico.
-
-En resumen, las vistas son una característica esencial de las bases de datos relacionales. Permiten a los usuarios interactuar con subconjuntos específicos de datos de manera segura y eficiente, facilitando la gestión del acceso y el rendimiento. Su uso estratégico puede mejorar significativamente la experiencia del usuario y la productividad de los sistemas basados en bases de datos.
+Esta carpeta contiene ejercicios relacionados con la creación y uso de vistas en bases de datos relacionales. En estos ejercicios, los estudiantes aprenderán a realizar consultas SQL complejas que combinan información de múltiples tablas utilizando INNER JOIN y LEFT JOIN. El objetivo principal es introducir el concepto de vistas como un mecanismo para simplificar la visualización y acceso a conjuntos de datos recurrentes. Los ejercicios practican habilidades clave en diseño de bases de datos, como comprensión de relaciones entre tablas y optimización de consultas SQL.
 
 ### peticion inicial
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL realiza una consulta que combina información de varias tablas para proporcionar detalles detallados sobre un pedido. La consulta selecciona la fecha del pedido, el nombre y los apellidos del cliente que hizo el pedido, así como el nombre del producto y sus precios brutos e incluyendo IVA.
+
+El código utiliza operaciones `LEFT JOIN` para combinar las tablas `pedidos`, `clientes` y `productos`. Estos joins aseguran que se obtengan todos los pedidos registrados en la base de datos, incluso si no hay un cliente o producto asociado directamente (lo que podría suceder en casos especiales).
+
+Además, el código calcula el IVA del producto y el total incluyendo IVA usando expresiones aritméticas en SQL. Esto ayuda a presentar información financiera relevante de manera clara y organizada para cualquier pedido realizado.
+
+En resumen, esta consulta es útil para generar informes detallados sobre pedidos que incluyen datos relacionados del cliente y el producto asociado, junto con cálculos financieros relevantes.
+
+`001-peticion inicial.sql`
 
 ```sql
 SELECT 
@@ -871,6 +1136,17 @@ ON pedidos.id_producto = productos.Identificador
 ```
 
 ### creo una vista
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL crea una vista llamada `vista_pedidos` que combina información de varias tablas para facilitar la consulta de datos relacionados con los pedidos. La vista selecciona detalles como la fecha del pedido, el nombre y apellidos del cliente, el nombre y precio del producto, además del IVA y el total calculado para cada artículo en el pedido.
+
+El código utiliza dos operaciones `LEFT JOIN` para unir las tablas `pedidos`, `clientes` y `productos`. Estos joins aseguran que se incluyan todos los pedidos, incluso si no hay información asociada en las otras tablas. Esto es importante porque permite tener una visión completa de cada pedido sin perder datos debido a combinaciones incompletas.
+
+La creación de esta vista simplifica mucho la consulta de detalles sobre pedidos para usuarios o aplicaciones que necesitan acceder a este tipo de información sin complicarse con las uniones y cálculos necesarios.
+
+`002-creo una vista.sql`
 
 ```sql
 CREATE VIEW vista_pedidos AS 
@@ -892,35 +1168,58 @@ ON pedidos.id_producto = productos.Identificador
 ;
 ```
 
-### Comentarios
+### Actividades propuestas
 
-```markdown
-Una vista guarda una consulta previamente generada
+### Actividad 1: Creación de Vistas Similares
+**Descripción:** Los estudiantes deben replicar la creación de vistas similares a la proporcionada en el archivo `002-creo una vista.sql`, pero con datos diferentes y consultas ligeramente modificadas. Se pretende que los alumnos entiendan cómo crear y utilizar vistas para simplificar las consultas sobre sus bases de datos.
 
-Una tabla tiene el poder CRUD (se puede crear, leer, actualizar, eliminar)
-En una vista solo se puede leer, no se puede crear, actualizar o eliminar)
-```
+### Actividad 2: Modificación de Consultas
+**Descripción:** Los estudiantes deben modificar la consulta original del archivo `001-peticion inicial.sql` añadiendo nuevas condiciones o campos en los JOINs. Se espera que aprendan a manipular y optimizar consultas complejas utilizando JOINs.
+
+### Actividad 3: Exploración de Datos con Vistas
+**Descripción:** Los alumnos deben realizar una consulta sobre la vista creada para extraer información específica, como por ejemplo filtrar pedidos en un rango de fechas determinado. Se pretende que comprendan cómo acceder a datos almacenados en vistas.
+
+### Actividad 4: Creación de Vistas Personalizadas
+**Descripción:** Los estudiantes deben crear una nueva vista basada en la información de las tablas `clientes`, `productos` y `pedidos`. La vista debe proporcionar un resumen del total de ventas por cliente. Se espera que aprendan a diseñar vistas útiles para el análisis de datos.
+
+### Actividad 5: Comparación entre Consultas y Vistas
+**Descripción:** Los alumnos deben ejecutar la consulta original y la vista creada, comparando los tiempos de respuesta y la complejidad en ambos casos. Se pretende que comprendan las ventajas de usar vistas sobre consultas directas.
+
+### Actividad 6: Documentación de Vistas
+**Descripción:** Los estudiantes deben escribir una descripción detallada del propósito, diseño e implementación de una vista personalizada. Esto ayudará a entender la importancia de documentar claramente las vistas en un entorno empresarial real.
+
+### Actividad 7: Consultas Complejas sobre Vistas
+**Descripción:** Los alumnos deben realizar consultas complejas basadas en múltiples tablas utilizando una vista previamente creada. Se espera que aprendan a combinar datos de varias fuentes para obtener insights útiles.
+
+### Actividad 8: Actualización y Mantenimiento de Vistas
+**Descripción:** A pesar de no poder modificar directamente las vistas, los estudiantes deben aprender cómo mantener actualizada la información en ellas a través de consultas de actualización a las tablas subyacentes. Se pretende que comprendan el ciclo de vida de una vista.
+
+### Actividad 9: Evaluación y Optimización de Vistas
+**Descripción:** Los alumnos deberán analizar la eficiencia de diferentes vistas creadas, evaluando cómo pueden ser optimizadas para mejorar su rendimiento en términos de velocidad y recursos utilizados. Se espera que aprendan a realizar pruebas y ajustes para mejorar el rendimiento de las vistas.
+
+### Actividad 10: Implementación de Vistas en Proyectos
+**Descripción:** Los estudiantes deben aplicar sus conocimientos sobre vistas en un proyecto práctico, diseñando e implementando una base de datos con varias vistas que faciliten la consulta y análisis de los datos. Se pretende que pongan en práctica lo aprendido para resolver problemas reales en contextos empresariales.
+
 
 <a id="usuarios-privilegios"></a>
 ## Usuarios. Privilegios
 
-En la etapa de exploración del vasto mundo de las bases de datos relacionales, nos encontramos con un concepto fundamental que es el de los usuarios y sus privilegios. Este aspecto es crucial para entender cómo se gestiona la seguridad y la autorización en estos sistemas de almacenamiento de información.
+### Introducción a los ejercicios
 
-Los usuarios son individuos o aplicaciones que interactúan con las bases de datos. Cada usuario tiene un nombre único y una contraseña, lo que permite a los sistemas identificar quién está realizando operaciones en el sistema. La gestión de usuarios es esencial para mantener la integridad y la confidencialidad de la información almacenada.
-
-Los privilegios, por otro lado, son las capacidades específicas que se le conceden a un usuario dentro del sistema de base de datos. Estos pueden variar desde el acceso básico hasta la capacidad de realizar operaciones complejas como la creación y eliminación de tablas. La asignación de privilegios es una tarea delicada que requiere cuidado, ya que puede tener consecuencias graves si no se maneja adecuadamente.
-
-La importancia de los usuarios y sus privilegios radica en su capacidad para controlar el acceso a la información sensible. Al permitir o denegar ciertas operaciones a diferentes usuarios, se pueden evitar accesos no autorizados y posibles violaciones de datos. Además, esta gestión permite una auditoría más precisa del uso del sistema, lo que facilita la identificación de cualquier actividad sospechosa.
-
-La configuración de privilegios en las bases de datos relacionales es un proceso sistemático que implica definir roles predeterminados y asignarlos a los usuarios según sus necesidades. Los roles son conjuntos de privilegios predefinidos, lo que facilita la administración y el mantenimiento del sistema. Por ejemplo, se pueden crear roles como "Administrador", "Editor" o "Vista".
-
-Es importante destacar que la gestión de usuarios y privilegios no es una tarea estática. A medida que cambia el entorno operativo o las necesidades de los usuarios, puede ser necesario ajustar estos privilegios para mantener la seguridad del sistema. Esto implica un proceso continuo de evaluación y actualización.
-
-La implementación efectiva de la gestión de usuarios y privilegios requiere una comprensión profunda de cómo funcionan las bases de datos relacionales y los sistemas operativos que las albergan. Además, es crucial contar con herramientas adecuadas para facilitar esta tarea, como gestores de roles y permisos específicos.
-
-En conclusión, la gestión de usuarios y privilegios en las bases de datos relacionales es un aspecto fundamental del diseño seguro y eficiente de estos sistemas. Al entender cómo se manejan los usuarios y sus privilegios, podemos asegurar que la información sea accesible solo a aquellos que tienen el derecho de hacerlo, protegiendo así tanto la integridad como la confidencialidad de nuestros datos.
+En esta carpeta, encontrarás ejercicios relacionados con la creación y configuración de usuarios en bases de datos MySQL. Los ejercicios te guiarán a través del proceso de crear usuarios y asignarles privilegios específicos según sus necesidades. En el primer ejercicio, aprenderás a crear un usuario completo con todos los permisos para una base de datos específica llamada `empresarial`. El segundo ejercicio se centra en la creación de un usuario limitado que solo puede realizar consultas (SELECT) sobre todas las bases de datos. Estos ejercicios te ayudarán a comprender cómo gestionar usuarios y privilegios en entornos de bases de datos relacionales, una habilidad fundamental para mantener el control y seguridad de tus sistemas.
 
 ### crear nuevo usuario con todos los permisos
+<small>Creado: 2025-10-23 17:09</small>
+
+#### Explicación
+
+Este código SQL crea un nuevo usuario en una base de datos y le otorga permisos específicos. En primer lugar, se crea el usuario llamado "usuarioempresarial" que puede conectarse desde localhost (la misma máquina donde está la base de datos) con una contraseña segura. A continuación, se establecen límites para este usuario, permitiéndole hacer cualquier tipo de conexión sin restricciones en términos de número de consultas o conexiones simultáneas por hora.
+
+Finalmente, se le otorgan todos los privilegios sobre la base de datos llamada `empresarial` a este nuevo usuario. Esto significa que el usuario tiene permiso para realizar cualquier acción dentro de esa base de datos, como crear tablas, insertar, modificar y eliminar datos. El comando `FLUSH PRIVILEGES` asegura que los cambios sean aplicados inmediatamente.
+
+Este tipo de instrucciones es crucial en la gestión de bases de datos, ya que permite controlar quién tiene acceso a qué información y qué acciones puede realizar con ella, protegiendo así los datos y garantizando su correcto manejo.
+
+`001-crear nuevo usuario con todos los permisos.sql`
 
 ```sql
 CREATE USER 
@@ -944,6 +1243,17 @@ FLUSH PRIVILEGES;
 ```
 
 ### crear un usuario limitado
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL se utiliza para crear y configurar un usuario de base de datos con permisos limitados. Primero, se crea el usuario llamado `usuariosololectura` en el servidor local (`localhost`) y se le asigna una contraseña utilizando el método `caching_sha2_password`. Luego, a este usuario se le otorga el privilegio de seleccionar (consultar) cualquier tabla en todas las bases de datos existentes usando la instrucción `GRANT SELECT ON *.* TO 'usuariosololectura'@'localhost';`.
+
+Además, se modifican los límites de conexión y consultas para este usuario específico utilizando la sentencia `ALTER USER`. Esto establece que el usuario no está sujeto a restricciones en cuanto al número máximo de consultas por hora, conexiones simultáneas o actualizaciones por hora. Sin embargo, luego se otorga al usuario el privilegio completo sobre una base de datos específica llamada `empresarial` con la instrucción `GRANT ALL PRIVILEGES ON empresarial.* TO 'usuariosololectura'@'localhost';`.
+
+Este código es importante para gestionar y asegurar el acceso a las bases de datos, permitiendo que ciertos usuarios solo puedan leer información (lo cual puede ser útil en entornos donde se necesita compartir datos sin dar la posibilidad de modificarlos) mientras mantienen el control completo sobre una base de datos específica.
+
+`002-crear un usuario limitado.sql`
 
 ```sql
 CREATE USER 
@@ -966,62 +1276,94 @@ GRANT ALL PRIVILEGES ON
 TO 'usuariosololectura'@'localhost';
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Creación de un Usuario con Permisos Complejos
+
+**Descripción:** Crea un nuevo usuario en MySQL que tenga permisos limitados para una base de datos específica. Asegúrate de configurar restricciones como la velocidad máxima de consultas y conexiones permitidas.
+
+### Actividad 2: Configuración Básica de Privilegios
+
+**Descripción:** Diseña un script SQL que cree un nuevo usuario con acceso solo a lectura en todas las bases de datos. Asegúrate de ajustar los parámetros de seguridad adecuadamente para este perfil de usuario.
+
+### Actividad 3: Análisis Comparativo de Permisos
+
+**Descripción:** Analiza el contenido de ambos scripts proporcionados y compara la diferencia entre un usuario con todos los permisos y uno solo lectura. Identifica las líneas clave que diferencian cada configuración.
+
+### Actividad 4: Crear Usuario Lector en Base Específica
+
+**Descripción:** Modifica el segundo script para crear un usuario que tenga acceso solo a lectura en una base de datos específica, en lugar de todas las bases de datos. Asegúrate de ajustar los parámetros necesarios.
+
+### Actividad 5: Asignación de Privilegios Personalizados
+
+**Descripción:** Crea un script SQL para asignar privilegios personalizados a un nuevo usuario. Este usuario solo podrá ejecutar operaciones SELECT y INSERT en una base de datos específica.
+
+### Actividad 6: Restricción de Consultas por Hora
+
+**Descripción:** Ajusta el segundo script para limitar la cantidad máxima de consultas que puede realizar un usuario durante una hora determinada, manteniendo los demás permisos originales.
+
+### Actividad 7: Configuración Avanzada de Seguridad
+
+**Descripción:** Desarrolla un script que configure múltiples restricciones de seguridad para un nuevo usuario. Esto incluirá la configuración del límite de consultas, conexiones y actualizaciones por hora.
+
+### Actividad 8: Modificación de Contraseñas y Permisos
+
+**Descripción:** Proporciona instrucciones paso a paso sobre cómo cambiar la contraseña de un usuario existente y ajustar sus permisos. Asegúrate de guardar los cambios para que sean efectivos.
+
+### Actividad 9: Comprobación de Privilegios del Usuario
+
+**Descripción:** Escribe una consulta SQL que muestre todos los privilegios otorgados a un usuario específico en todas las bases de datos y tablas. Esto ayudará a verificar la configuración actual de permisos.
+
+### Actividad 10: Documentación Básica de Scripts SQL
+
+**Descripción:** Crea una breve guía o manual sobre cómo usar los scripts proporcionados para crear usuarios y otorgar privilegios en MySQL, enfocándote en explicaciones claras y concisas.
+
+
 <a id="lenguaje-de-descripcion-de-datos-ddl"></a>
 ## Lenguaje de descripción de datos (DDL)
 
-El lenguaje de descripción de datos (DDL) es una herramienta fundamental para la definición y gestión de estructuras de bases de datos relacionales. Este conjunto de comandos permite crear, modificar y eliminar objetos como tablas, índices y vistas, así como establecer restricciones y políticas de acceso a los mismos.
-
-El primer paso en el uso del DDL es la creación de una tabla, que es la estructura básica de cualquier base de datos relacional. Este proceso implica definir el nombre de la tabla, sus columnas (con su tipo de dato y restricciones), y las relaciones entre ellas. Por ejemplo, para crear una tabla llamada "Clientes" con campos como identificación, nombre y dirección, se utilizaría un comando similar a:
-
-```sql
-CREATE TABLE Clientes (
-    ID INT PRIMARY KEY,
-    Nombre VARCHAR(100),
-    Direccion VARCHAR(255)
-);
-```
-
-Este comando no solo define la estructura de la tabla sino que también establece la columna "ID" como clave primaria, lo que garantiza su unicidad y uso como identificador único para cada registro.
-
-Una vez creada una tabla, el DDL permite modificar su estructura. Esto puede implicar agregar nuevas columnas, eliminar o modificar existentes, o incluso cambiar el tipo de datos de una columna. Por ejemplo, si se desea añadir un campo "Email" a la tabla "Clientes", se utilizaría:
-
-```sql
-ALTER TABLE Clientes ADD Email VARCHAR(100);
-```
-
-Este comando modifica la estructura de la tabla sin eliminar los datos existentes, lo que es crucial para mantener la integridad de la información.
-
-Además del DDL, también existe el lenguaje de control de datos (DCL), que se encarga de establecer y gestionar las políticas de acceso a los objetos de la base de datos. Aunque no pertenece directamente al DDL, su uso es complementario para asegurar que solo los usuarios autorizados puedan realizar cambios en la estructura o contenido de la base de datos.
-
-El DDL también permite definir restricciones y políticas de integridad referencial entre las tablas. Por ejemplo, si se desea garantizar que cada cliente tenga una dirección válida, se podría establecer una restricción que impida la inserción de registros sin un valor en la columna "Direccion". Este tipo de restricciones son esenciales para mantener la consistencia y coherencia de los datos.
-
-En resumen, el lenguaje de descripción de datos (DDL) es una herramienta poderosa y flexible que permite definir, modificar y gestionar las estructuras fundamentales de bases de datos relacionales. Su uso adecuado es crucial para crear sistemas de información eficientes y seguros, permitiendo a los desarrolladores y administradores de bases de datos controlar y manipular sus datos con precisión y eficiencia.
 
 <a id="lenguaje-de-control-de-datos-dcl"></a>
 ## Lenguaje de control de datos (DCL)
 
-En el vasto mundo de la programación y la gestión de datos, el lenguaje de control de datos (DCL) desempeña un papel crucial. Este conjunto de comandos permite a los usuarios y administradores gestionar los privilegios y permisos asociados con las bases de datos relacionales. A través del DCL, se pueden definir roles, asignar o revocar acceso a ciertas operaciones y asegurar que solo los usuarios autorizados puedan realizar cambios en la información almacenada.
-
-El primer paso para entender el DCL es conocer los conceptos básicos de privilegios y roles. Un privilegio es una acción específica que se puede realizar sobre una base de datos, como insertar, actualizar o eliminar registros. Los roles son agrupaciones de privilegios que pueden ser asignados a usuarios individuales o grupos. Este enfoque facilita la gestión del acceso, ya que permite establecer políticas de seguridad complejas de manera más eficiente.
-
-El DCL proporciona una serie de comandos para crear y gestionar roles. Por ejemplo, el comando `CREATE ROLE` se utiliza para definir un nuevo rol con un conjunto específico de privilegios. El comando `GRANT` permite asignar privilegios a un usuario o a un rol existente, mientras que el comando `REVOKE` es utilizado para revocar estos privilegios cuando ya no sean necesarios.
-
-La importancia del DCL radica en su capacidad para implementar una seguridad robusta y flexible. Al permitir la creación de roles específicos para diferentes funciones dentro de una organización, se puede asegurar que los usuarios solo tengan acceso a las operaciones que son esenciales para su trabajo. Por ejemplo, un usuario encargado del departamento de ventas no necesitaría privilegios para modificar registros en la tabla de proveedores.
-
-Además del control de privilegios, el DCL también permite gestionar la concurrencia y la integridad de los datos. Comandos como `LOCK TABLES` permiten bloquear ciertas tablas o filas mientras se realiza una operación crítica, evitando así conflictos entre usuarios que intentan modificar la misma información simultáneamente.
-
-El uso del DCL también facilita el mantenimiento y escalabilidad de las bases de datos. Al definir roles y privilegios de manera centralizada, es más sencillo realizar cambios en políticas de seguridad sin afectar a múltiples usuarios o aplicaciones. Esto es especialmente útil cuando una organización crece o cambia sus estructuras organizativas.
-
-En resumen, el lenguaje de control de datos (DCL) es un componente fundamental para la gestión segura y eficiente de las bases de datos relacionales. A través del DCL, se pueden definir roles, asignar privilegios y gestionar la concurrencia, lo que permite crear entornos de trabajo donde solo los usuarios autorizados puedan realizar cambios en la información almacenada. Este enfoque no solo mejora la seguridad, sino que también facilita el mantenimiento y escalabilidad de las bases de datos, asegurando que sean utilizadas de manera óptima para satisfacer las necesidades de cualquier organización.
 
 <a id="ejercicio-de-final-de-unidad-1"></a>
 ## Ejercicio de final de unidad
 
-### actividad
+### Introducción a los ejercicios
 
-```markdown
+Esta carpeta contiene un conjunto de ejercicios diseñados para ayudarte a consolidar tus conocimientos sobre bases de datos relacionales, específicamente enfocándose en el final de unidad. El ejercicio principal te permitirá aplicar conceptos clave como la creación y manipulación de tablas, diseño de esquemas relacionales, consultas SQL básicas y avanzadas, incluyendo la integración de múltiples tablas mediante INNER JOIN y OUTER JOIN. La actividad está pensada para que practiques la resolución de problemas reales que enfrentarías en entornos profesionales, lo cual te preparará adecuadamente para proyectos futuros relacionados con bases de datos.
 
-```
+### Actividades propuestas
+
+### Actividades Propuestas:
+
+1. **Análisis del Caso Práctico**
+   - **Descripción:** Los estudiantes deben leer el caso práctico proporcionado en el archivo y identificar los requisitos del sistema de bases de datos relacionales que se presenta. Se pretende que comprendan cómo se estructuran las tablas y las relaciones entre ellas.
+
+2. **Creación de Diagrama Entidad-Relación (ER)**
+   - **Descripción:** Basándose en el caso práctico, los alumnos deben crear un diagrama entidad-relación para representar visualmente la estructura propuesta del sistema de bases de datos.
+
+3. **Traducción ER a SQL**
+   - **Descripción:** A partir del diagrama ER que han creado, los estudiantes deberán escribir las consultas en lenguaje SQL necesarias para crear las tablas y definir las relaciones entre ellas.
+
+4. **Ejecución Consultas Básicas**
+   - **Descripción:** Los alumnos deben ejecutar consultas SELECT básicas en la base de datos creada, extrayendo información de una o varias tablas según los requerimientos descritos en el caso práctico.
+
+5. **Inserción y Actualización de Datos**
+   - **Descripción:** Los estudiantes aprenderán a insertar nuevos registros y actualizar datos existentes en las tablas utilizando consultas INSERT y UPDATE, respaldados por ejemplos del caso proporcionado.
+
+6. **Manejo de Claves Foráneas**
+   - **Descripción:** Se pide a los alumnos que manipulen claves foráneas entre las diferentes tablas para garantizar la integridad referencial en el sistema de base de datos.
+
+7. **Consultas JOIN Avanzadas**
+   - **Descripción:** Los estudiantes deben practicar consultas JOIN para combinar información desde múltiples tablas relacionadas, mejorando sus habilidades en la extracción y manipulación de datos cruzados.
+
+8. **Resolución de Problemas Prácticos**
+   - **Descripción:** Se presenta a los alumnos con situaciones reales que pueden surgir al trabajar con bases de datos relacionales, como errores comunes o optimización de consultas, para resolverlos en equipo y aprender juntos.
+
+Estas actividades están diseñadas para complementar el estudio teórico proporcionado en el caso práctico y fomentar la aplicación práctica de los conceptos aprendidos.
+
 
 
 <a id="realizacion-de-consultas"></a>
@@ -1030,23 +1372,22 @@ En resumen, el lenguaje de control de datos (DCL) es un componente fundamental p
 <a id="proyeccion-seleccion-y-ordenacion-de-registros"></a>
 ## Proyección, selección y ordenación de registros
 
-La realización de consultas es una habilidad fundamental en la gestión de bases de datos, permitiendo a los usuarios extraer información relevante y estructurada. En esta subunidad, exploraremos tres conceptos fundamentales: proyección, selección y ordenación de registros.
+### Introducción a los ejercicios
 
-La **proyección** se refiere al proceso de seleccionar un subconjunto de columnas (campos) de una o varias tablas para formar una nueva tabla. Este proceso es crucial cuando solo necesitamos ciertos datos específicos, evitando así el procesamiento innecesario de información innecesaria. Por ejemplo, si tenemos una tabla que contiene detalles de clientes y productos, pero solo estamos interesados en los nombres de los clientes y los precios de los productos, podemos proyectar solo esas columnas.
-
-La **selección**, por otro lado, se centra en filtrar filas basadas en ciertas condiciones. Esto significa que solo las filas que cumplen con determinados criterios serán incluidas en el resultado de la consulta. Por ejemplo, si queremos obtener todos los clientes que están ubicados en una ciudad específica, podemos seleccionar solo las filas donde la columna "ciudad" coincida con el valor deseado.
-
-La **ordenación** es un proceso que permite organizar los resultados de una consulta según uno o varios criterios. Esto puede ser crucial para presentar los datos de manera más legible y fácilmente analizable. Por ejemplo, si queremos ver todos los productos ordenados por precio, podemos ordenar el resultado por la columna "precio" en orden ascendente o descendente.
-
-Estos tres conceptos son esenciales para manipular y obtener información de una base de datos eficientemente. La proyección nos permite concentrarnos en lo que necesitamos, la selección nos permite filtrar los datos relevantes y la ordenación nos permite presentarlos de manera coherente y útil.
-
-Al combinar estos conceptos, podemos crear consultas complejas que aborden diversos escenarios de búsqueda y análisis. Por ejemplo, podríamos seleccionar todos los clientes que compraron productos en un rango específico de precios, proyectar solo sus nombres y direcciones, y ordenar el resultado por la fecha de compra.
-
-Es importante recordar que cada uno de estos conceptos puede ser utilizado individualmente o en combinación con otros para crear consultas más sofisticadas. La comprensión y práctica de estos procesos son fundamentales para cualquier profesional que trabaje con bases de datos, ya que permiten interactuar eficazmente con grandes volúmenes de información y extraer insights valiosos.
-
-En resumen, la realización de consultas en bases de datos es una habilidad multifacética que implica proyección, selección y ordenación. Cada uno de estos conceptos desempeña un papel crucial en el análisis y presentación de los datos, permitiendo a los usuarios extraer información relevante y estructurada de manera eficiente y precisa.
+Esta carpeta contiene una serie de ejercicios destinados a practicar la realización de consultas en SQL, enfocándose específicamente en proyección, selección y ordenación de registros. Los estudiantes aprenderán cómo seleccionar datos completos o parciales desde una tabla llamada "clientes", cómo aplicar alias a los nombres de las columnas para mejorar la legibilidad de los resultados, y cómo ordenar estos resultados tanto en orden ascendente como descendente. Además, se practicará el uso de cláusulas WHERE con operadores de comparación simples y expresiones LIKE que incluyen comodines para realizar búsquedas más complejas basadas en criterios específicos. Estos ejercicios son fundamentales para entender los conceptos básicos de consultas SQL necesarios para trabajar eficazmente con bases de datos.
 
 ### Datos de ejemplo
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL se utiliza para insertar múltiples registros en una tabla llamada `clientes`. En concreto, cada línea dentro del bloque `VALUES` proporciona información sobre un nuevo cliente y la inserta en la base de datos. La información que se agrega incluye el nombre, apellidos, número telefónico y dirección de correo electrónico del cliente.
+
+La estructura es importante porque permite añadir varios registros de una sola vez, lo cual es muy útil cuando necesitas introducir una gran cantidad de datos iniciales en la base de datos. Cada paréntesis dentro de `VALUES` representa un registro completo para un único cliente, y todos estos registros se insertan juntos con el comando `INSERT INTO`.
+
+Esta técnica es valiosa porque simplifica la carga inicial de datos, haciendo que el proceso de llenar una tabla con información sea mucho más eficiente y rápido que hacerlo registro por registro.
+
+`001-Datos de ejemplo.sql`
 
 ```sql
 INSERT INTO clientes (nombre, apellidos, telefono, email) VALUES
@@ -1073,24 +1414,54 @@ INSERT INTO clientes (nombre, apellidos, telefono, email) VALUES
 ```
 
 ### seleccion
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL selecciona todos los datos de la tabla llamada "clientes". La instrucción `SELECT *` indica que se deben devolver todas las columnas y todas las filas disponibles en esa tabla. Es una forma rápida de ver el contenido completo de la tabla sin especificar columnas individuales, lo cual es útil para un primer vistazo a los datos cuando no estás seguro de cuáles son exactamente las necesidades o características de la información almacenada.
+
+`002-seleccion.sql`
 
 ```sql
 SELECT * FROM clientes;
 ```
 
 ### solo quiero ver los nombres
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este código SQL selecciona la columna "nombre" de la tabla llamada "clientes". Lo que hace es recopilar todos los nombres registrados en esa tabla sin mostrar ninguna otra información como direcciones o teléfonos. Es importante porque te permite obtener solo la información específica que necesitas, en este caso, los nombres, lo cual puede ser útil para varias situaciones, como generar listas de clientes sin detalles adicionales.
+
+`003-solo quiero ver los nombres.sql`
 
 ```sql
 SELECT nombre FROM clientes;
 ```
 
 ### selecciono colu,nas
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este código SQL selecciona y muestra los nombres de todos los registros en la tabla llamada "clientes". La instrucción `SELECT nombre` especifica que solo queremos ver la columna "nombre" de cada registro, mientras que `FROM clientes` indica a la base de datos que debe buscar estos datos dentro de la tabla "clientes". Es importante porque nos permite obtener información específica sin tener que mostrar toda la información del cliente, lo cual puede ser útil para mantener la privacidad o solo visualizar los datos relevantes en ese momento.
+
+`004-selecciono colu,nas.sql`
 
 ```sql
 SELECT nombre FROM clientes;
 ```
 
 ### selecciono columnas
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL selecciona dos columnas específicas, `nombre` y `apellidos`, desde la tabla llamada `clientes`. La instrucción `SELECT nombre, apellidos FROM clientes;` indica a la base de datos que debe extraer los valores de las columnas `nombre` y `apellidos` para todos los registros presentes en la tabla `clientes`. Esto resulta en un conjunto de resultados que contiene solo los nombres y apellidos de los clientes registrados.
+
+En comparación con el código anterior, que solo seleccionaba la columna `nombre`, este nuevo fragmento incluye también la columna `apellidos`. Esta adición permite obtener más información sobre cada cliente en una sola consulta, lo cual es útil si se necesita trabajar simultáneamente tanto con nombres como con apellidos.
+
+`004-selecciono columnas.sql`
 
 ```sql
 SELECT 
@@ -1101,6 +1472,13 @@ clientes;
 ```
 
 ### alias
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL selecciona dos columnas, `nombre` y `apellidos`, de la tabla llamada `clientes`. Utiliza el comando `AS` para dar un alias a cada columna en el resultado. Esto significa que en lugar de ver las columnas simplemente como "nombre" y "apellidos", los resultados mostrarán estas columnas con etiquetas más descriptivas: "Nombres de los clientes" y "Apellidos de los clientes". Esta práctica es útil para mejorar la legibilidad de los resultados de consultas, especialmente cuando se trabaja con grandes conjuntos de datos o tablas complejas.
+
+`005-alias.sql`
 
 ```sql
 SELECT 
@@ -1111,6 +1489,15 @@ clientes;
 ```
 
 ### volvemos a todo
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL es una consulta simple que selecciona todos los registros de la tabla llamada "clientes". La línea `SELECT *` indica que se desea recuperar todas las columnas disponibles en la tabla. Luego, `FROM clientes;` especifica el nombre de la tabla desde la cual se van a extraer estos datos.
+
+Esta consulta es muy útil cuando necesitas ver toda la información contenida en la tabla "clientes" sin realizar ningún tipo de filtro o selección adicional. Es una excelente herramienta para revisar los datos generales y verificar que todo esté correctamente ingresado antes de pasar a consultas más complejas.
+
+`006-volvemos a todo.sql`
 
 ```sql
 SELECT 
@@ -1120,6 +1507,13 @@ clientes;
 ```
 
 ### ordenamos por columna
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este código SQL selecciona todos los registros de la tabla llamada "clientes" y ordena estos registros basándose en el campo "apellidos". Al usar el asterisco (*) en la cláusula SELECT, se indica que deben devolverse todas las columnas de la tabla "clientes". La cláusula ORDER BY apellidos asegura que los resultados estén organizados alfabéticamente por el valor del campo "apellidos" de cada registro. Esto es útil cuando necesitas ver o manipular los datos en orden alfabético, facilitando así su análisis y comprensión.
+
+`007-ordenamos por columna.sql`
 
 ```sql
 SELECT 
@@ -1131,6 +1525,13 @@ ORDER BY apellidos
 ```
 
 ### ascendiente
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL realiza una consulta en la base de datos que ordena los registros de la tabla "clientes" por el campo "apellidos" en orden ascendente. Esto significa que los clientes aparecerán listados alfabéticamente según sus apellidos, desde la letra A hasta la Z. Es importante porque facilita la búsqueda y lectura de información cuando se necesita una lista organizada de clientes basada en sus apellidos.
+
+`008-ascendiente.sql`
 
 ```sql
 SELECT 
@@ -1142,6 +1543,17 @@ ORDER BY apellidos ASC
 ```
 
 ### descendiente
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este código SQL selecciona todos los datos de la tabla llamada `clientes` y ordena estos registros en orden descendente según el campo `apellidos`. Es decir, muestra una lista completa de clientes pero organiza esta lista por el apellido de cada cliente de forma que las personas con apellidos que empiezan por letras más tarde del alfabeto aparecen primero.
+
+La función `ORDER BY` es muy útil cuando necesitas presentar información en un orden específico para facilitar su lectura o análisis. En este caso, al usar `DESC`, el ordenamiento se hace de 'Z' a 'A', lo que puede ser conveniente si quieres ver los nombres de familia que empiezan con letras más recientes del alfabeto primero.
+
+Es importante entender esto porque en muchas situaciones, especialmente en bases de datos de clientes o empleados, es común necesitar organizar información para facilitar su búsqueda y visualización.
+
+`009-descendiente.sql`
 
 ```sql
 SELECT 
@@ -1153,6 +1565,15 @@ ORDER BY apellidos DESC
 ```
 
 ### varios criterios
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL realiza una consulta en la base de datos para seleccionar todos los registros de la tabla llamada `clientes`. La consulta ordena estos registros primero por el campo `apellidos` en orden alfabético ascendente (de A a Z), y luego dentro de cada grupo de apellidos iguales, ordena por el campo `nombre` también en orden ascendente. Esto significa que obtendrás una lista completa de clientes organizada primero por sus apellidos y luego por sus nombres dentro del mismo apellido.
+
+Esta consulta es importante porque facilita la búsqueda y visualización de datos en grandes tablas, permitiendo a los usuarios encontrar fácilmente información específica según su criterio de ordenación. En este caso, sería útil para tener una lista de clientes bien organizada que sea fácil de leer y navegar.
+
+`010-varios criterios.sql`
 
 ```sql
 SELECT 
@@ -1164,6 +1585,13 @@ ORDER BY apellidos ASC, nombre ASC
 ```
 
 ### clausula where
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL selecciona todos los registros de la tabla `clientes` donde el campo `apellidos` tenga exactamente el valor "Castro Vargas". La cláusula `WHERE` sirve para filtrar los resultados y asegurarse de que solo se devuelvan las filas en las que el apellido del cliente es "Castro Vargas". Esto es útil cuando necesitas obtener información específica sobre un conjunto limitado de registros, en este caso, todos los clientes con ese apellido. Sin la cláusula `WHERE`, se devolverían todas las filas de la tabla `clientes`.
+
+`011-clausula where.sql`
 
 ```sql
 SELECT 
@@ -1175,6 +1603,13 @@ WHERE apellidos = "Castro Vargas"
 ```
 
 ### comodin de inicio
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL selecciona todos los registros de la tabla `clientes` cuyo campo `apellidos` comienza con las letras "Castro". La cláusula `LIKE` se utiliza para realizar búsquedas de texto que coincidan con un patrón específico, en este caso usando el comodín `%`, que representa cualquier secuencia de caracteres. Por lo tanto, esta consulta devuelve una lista completa de todos los clientes cuyos apellidos empiezan por "Castro". Esto es útil cuando se necesita filtrar y ver datos específicos de un conjunto grande basándose en criterios particulares como el comienzo de ciertos campos de texto.
+
+`012-comodin de inicio.sql`
 
 ```sql
 SELECT 
@@ -1186,6 +1621,17 @@ WHERE apellidos LIKE "Castro%"
 ```
 
 ### dos comodines
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL está realizando una consulta en la base de datos para buscar registros específicos en la tabla `clientes`. La instrucción `SELECT *` indica que se deben devolver todas las columnas de los registros que cumplan con el criterio establecido. El criterio se define en la cláusula `WHERE`, donde se usa el operador `LIKE` junto con el comodín `%ez%`.
+
+El comodín `%` representa cualquier secuencia de caracteres, por lo tanto, `"%"ez"%"` busca todos los registros cuyos apellidos contienen las letras "ez" en alguna parte del apellido. Esto significa que se encontrarán registros donde "ez" pueda estar al principio, en medio o al final del apellido.
+
+Este tipo de consulta es útil cuando necesitas buscar información basada en criterios generales pero no específicos, permitiendo una búsqueda más flexible y amplia dentro de los datos de la base de datos.
+
+`013-dos comodines.sql`
 
 ```sql
 SELECT 
@@ -1196,26 +1642,56 @@ WHERE apellidos LIKE "%ez%"
 ;
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Consulta Básica de Datos
+**Descripción:** Ejecuta la consulta proporcionada en el archivo `002-seleccion.sql` para ver todos los registros del cliente. Aprende a recuperar datos completos desde una tabla utilizando SQL.
+
+### Actividad 2: Proyección de Columnas Específicas
+**Descripción:** Utiliza la consulta del archivo `003-solo quiero ver los nombres.sql` para mostrar solo el nombre de cada cliente. Practica la selección de columnas específicas en lugar de toda la fila.
+
+### Actividad 3: Selección de Múltiples Columnas
+**Descripción:** Implementa la consulta vista en el archivo `004-selecciono columnas.sql` para seleccionar tanto nombres como apellidos. Aprende a especificar múltiples columnas al consultar datos.
+
+### Actividad 4: Uso de Alias para Columnas
+**Descripción:** Modifica la consulta del archivo `005-alias.sql`. Utiliza el comando AS para renombrar las columnas que se seleccionan en la tabla clientes. Aprende a mejorar la legibilidad de consultas SQL usando alias.
+
+### Actividad 5: Ordenación Ascendente
+**Descripción:** Ejecuta y comprende cómo funciona la consulta proporcionada en `008-ascendiente.sql`. Aprende a ordenar registros en una tabla cliente por apellidos en orden ascendente.
+
+### Actividad 6: Ordenación Descendente
+**Descripción:** Utiliza el archivo `009-descendiente.sql` para aprender cómo se ordenan los datos de manera descendente. Aplica la cláusula ORDER BY con DESC para ver registros de clientes por apellidos en orden inverso.
+
+### Actividad 7: Ordenación Múltiples Criterios
+**Descripción:** Ejecuta la consulta del archivo `010-varios criterios.sql` para aprender a ordenar los datos primero por un campo y luego dentro de este, por otro. Utiliza ORDER BY con múltiples campos.
+
+### Actividad 8: Filtro con Cláusula WHERE
+**Descripción:** Aprende a filtrar registros específicos usando la consulta del archivo `011-clausula where.sql`. Solo muestra los clientes cuyos apellidos sean "Castro Vargas".
+
+### Actividad 9: Uso de Comodines en Consultas
+**Descripción:** Practica el uso del operador LIKE para seleccionar registros que coinciden con un patrón. Ejecuta la consulta proporcionada en `012-comodin de inicio.sql` y luego modifica la condición WHERE para incluir otros comodines.
+
+### Actividad 10: Consultas Complejas
+**Descripción:** Combina conocimientos anteriores para crear una consulta que muestra clientes cuyos apellidos contengan el patron "ez". Utiliza la consulta en `013-dos comodines.sql` como punto de partida.
+
+
 <a id="operadores-operadores-de-comparacion-operadores-logicos"></a>
 ## Operadores. Operadores de comparación. Operadores lógicos
 
-En el vasto mundo de la programación, las consultas son una herramienta esencial para interactuar con los datos almacenados en bases de datos. En esta subunidad didáctica, nos adentramos en el fascinante mundo de los operadores, que son la base de cualquier consulta SQL.
+### Introducción a los ejercicios
 
-Los operadores de comparación son como los conductores del tráfico de información; permiten filtrar y seleccionar registros basándose en criterios específicos. Por ejemplo, si tenemos una tabla de empleados y queremos encontrar a todos aquellos que ganan más de 3000 euros al mes, usamos el operador mayor que (>). Este tipo de operadores nos permite establecer límites y obtener resultados precisos.
+En esta carpeta de ejercicios se trabajan diferentes tipos de operaciones y consultas en SQL que involucran tanto operadores aritméticos como de comparación. Los estudiantes aprenderán a realizar cálculos básicos, calcular el IVA y sumar totales para productos almacenados en una base de datos. Además, practicarán la creación de alias de columnas para mejorar la legibilidad de los resultados. También se introducen conceptos más avanzados como las condiciones IF que permiten aplicar reglas personalizadas en función de ciertos criterios, como determinar si el transporte es necesario según el precio del producto y calcular el costo total incluyendo el transporte cuando sea aplicable.
 
-Los operadores lógicos, por otro lado, son como los semáforos en una intersección. Permiten combinar múltiples criterios para formar consultas más complejas. El operador AND es como un semáforo verde; solo se permite el paso cuando todos los criterios son verdaderos. Por ejemplo, si queremos encontrar a empleados que ganan más de 3000 euros y tienen más de 5 años de experiencia, usamos AND.
-
-La combinación de operadores de comparación y lógicos nos abre la puerta a consultas muy potentes. El uso del operador OR es como un semáforo amarillo; permite el paso cuando al menos uno de los criterios es verdadero. Por ejemplo, si queremos encontrar empleados que ganan más de 3000 euros o tienen más de 5 años de experiencia, usamos OR.
-
-Es importante entender que estos operadores no solo se utilizan en consultas SQL, sino también en muchos otros lenguajes de programación y herramientas de gestión de datos. Su dominio es fundamental para cualquier desarrollador que quiera interactuar con información estructurada.
-
-Además de los operadores básicos, existen operadores más avanzados como BETWEEN, LIKE y IN. El operador BETWEEN nos permite seleccionar valores dentro de un rango específico, mientras que LIKE nos permite buscar patrones en cadenas de texto. El operador IN nos permite seleccionar registros que coincidan con cualquier valor en una lista específica.
-
-La comprensión de estos operadores es crucial para optimizar las consultas y obtener los resultados deseados de manera eficiente. Cada uno de ellos tiene su propio propósito y uso, y aprender a utilizarlos adecuadamente puede marcar la diferencia entre un programa que funciona bien y uno que funciona muy bien.
-
-En resumen, los operadores de comparación y lógicos son las herramientas fundamentales para realizar consultas en bases de datos. Su dominio es esencial para cualquier desarrollador que quiera interactuar con información estructurada de manera eficiente y precisa. A medida que avanzamos en nuestro estudio de la programación, es importante mantenerse al tanto de estos conceptos básicos y cómo aplicarlos en situaciones prácticas.
+Estos ejercicios ayudan a los estudiantes a familiarizarse con la manipulación de datos mediante consultas SQL, desarrollando habilidades cruciales para realizar cálculos complejos y condiciones lógicas en sus bases de datos.
 
 ### aritmeticos
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL realiza operaciones aritméticas básicas y devuelve los resultados. El código calcula la suma, resta, multiplicación y división entre los números 4 y 3 en cuatro expresiones diferentes. Estas operaciones se realizan sin necesidad de una tabla real ya que no hace uso de ninguna columna del `clientes`, simplemente utiliza valores numéricos constantes. Lo importante aquí es entender cómo funcionan las operaciones matemáticas básicas dentro de SQL, aunque usualmente estas operaciones son aplicadas sobre datos almacenados en tablas. En este caso particular, el resultado se obtendrá sin necesidad de recurrir a los registros existentes en la tabla `clientes`.
+
+`001-aritmeticos.sql`
 
 ```sql
 SELECT 
@@ -1229,6 +1705,17 @@ clientes
 ```
 
 ### datos de ejemplo
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL se utiliza para insertar múltiples registros en una tabla llamada `productos`. Cada registro contiene información sobre un producto específico, como su nombre, descripción, precio y peso. El comando `INSERT INTO` añade estos datos a la base de datos.
+
+El código especifica primero el nombre de la tabla (`productos`) y los nombres de las columnas donde se van a almacenar los datos: `nombre`, `descripcion`, `precio` y `peso`. Luego, proporciona una lista de valores para cada producto entre paréntesis y separados por comas. Cada conjunto de valores está encerrado en paréntesis y cada uno representa un nuevo registro que se insertará en la tabla.
+
+Esta operación es importante porque permite llenar la base de datos con información real sobre productos, lo que luego puede utilizarse para realizar consultas o análisis relacionados con el inventario o las ventas.
+
+`002-datos de ejemplo.sql`
 
 ```sql
 INSERT INTO productos (nombre, descripcion, precio, peso) VALUES
@@ -1255,6 +1742,17 @@ INSERT INTO productos (nombre, descripcion, precio, peso) VALUES
 ```
 
 ### calculo del iva
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL selecciona tres columnas de la tabla llamada `productos`. La primera columna es el nombre del producto, que se muestra tal como está en la base de datos. La segunda columna es el precio del producto, también directamente desde la tabla.
+
+La tercera columna calcula el IVA (Impuesto sobre Valor Añadido) aplicando una tasa del 21% al precio del producto. Esto se hace multiplicando el precio por `0.21`. Este cálculo te permite ver cuánto IVA se aplica a cada producto en la tabla.
+
+Este tipo de consulta es útil para entender las implicaciones fiscales de los precios de venta en una base de datos de productos, especialmente si estás trabajando en un entorno comercial o financiero donde el cálculo del IVA es importante.
+
+`003-calculo del iva.sql`
 
 ```sql
 SELECT 
@@ -1265,6 +1763,17 @@ FROM productos;
 ```
 
 ### alias de columna
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL se utiliza para seleccionar y modificar cómo aparecen los datos en una tabla llamada `productos`. La consulta toma tres columnas de la tabla: `nombre`, `precio` y calcula el IVA (Impuesto al Valor Agregado) que es un 21% del precio. 
+
+Lo interesante aquí es el uso del alias, que permite renombrar temporalmente las columnas en el resultado para que sean más descriptivas. En este caso, `nombre` se muestra como "Nombre del producto", `precio` como "Base Imponible" y `precio*0.21` (el cálculo del IVA) como "IVA 21%". Esto facilita la comprensión de los datos cuando alguien ve el resultado de esta consulta, haciéndolo más claro y directo.
+
+Este tipo de consulta es importante porque ayuda a presentar información compleja de una manera más legible y accesible, especialmente en contextos donde se requiere entender rápidamente qué significan las columnas del resultado.
+
+`004-alias de columna.sql`
 
 ```sql
 SELECT 
@@ -1275,6 +1784,17 @@ FROM productos;
 ```
 
 ### sumo el total
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL se utiliza para seleccionar y mostrar información detallada sobre los productos en una base de datos, específicamente enfocándose en el cálculo del total incluyendo impuestos. La consulta recupera cuatro columnas: el nombre del producto, la base imponible (precio sin IVA), el IVA calculado como un 21% del precio y el total que es la suma del precio original más el IVA.
+
+Cada columna tiene un alias asignado para mejorar la legibilidad del resultado de la consulta. Por ejemplo, 'nombre' se muestra como 'Nombre del producto', lo cual facilita entender rápidamente qué información representa cada campo en la salida del SQL.
+
+Esta consulta es importante porque demuestra cómo realizar cálculos y presentarlos de manera clara en una tabla resultante, ayudando a los usuarios finales (como contables o vendedores) a comprender fácilmente el costo total incluyendo impuestos de cualquier producto que se consulte.
+
+`005-sumo el total.sql`
 
 ```sql
 SELECT 
@@ -1286,6 +1806,15 @@ FROM productos;
 ```
 
 ### operadores de comparacion
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este código SQL es una consulta sencilla que evalúa una expresión de comparación. La expresión `4 > 3` se compara para determinar si el número 4 es mayor que el número 3, lo cual resulta en un valor booleano verdadero (TRUE). Sin embargo, esta consulta no tiene propósito práctico en la tabla "productos" porque no utiliza ninguna columna de esa tabla. La consulta simplemente devolverá una sola fila con el valor TRUE ya que `4 > 3` siempre será cierto.
+
+Es importante entender este tipo de operadores de comparación (como mayor que, menor que) cuando se trabaja con SQL y bases de datos, ya que estos son fundamentales para filtrar y seleccionar datos basándose en condiciones específicas. En situaciones reales, usarías estas expresiones junto con las columnas de tus tablas para obtener resultados útiles.
+
+`006-operadores de comparacion.sql`
 
 ```sql
 SELECT 
@@ -1294,6 +1823,17 @@ FROM productos;
 ```
 
 ### comparacion falsa
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL está realizando una operación de comparación entre dos números. Específicamente, la consulta está verificando si el número 4 es menor que el número 3.
+
+En este caso, la expresión `4 < 3` siempre devolverá un valor falso (FALSE en SQL), porque 4 no puede ser menor que 3. La consulta intenta seleccionar el resultado de esta comparación desde una tabla llamada "productos", pero realmente no está utilizando ninguna columna o fila de esa tabla en la operación.
+
+Este tipo de código es útil para entender cómo funcionan las operaciones de comparación en SQL, aunque en prácticas reales rara vez verás consultas que realicen una simple comparación entre constantes sin relacionarla con datos de una tabla.
+
+`007-comparacion falsa.sql`
 
 ```sql
 SELECT 
@@ -1302,6 +1842,21 @@ FROM productos;
 ```
 
 ### condicion
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este código SQL selecciona tres columnas de la tabla `productos`: el nombre del producto, su precio y un campo adicional que indica si el precio es menor a 500 unidades. La consulta revisa cada fila en la tabla `productos` para determinar si el valor de la columna `precio` es inferior a 500, devolviendo un resultado booleano (verdadero o falso) para esa condición junto con los nombres y precios de los productos.
+
+Esta consulta es útil porque permite identificar rápidamente qué productos tienen un precio por debajo del umbral establecido, facilitando la toma de decisiones en cuanto a inventario,定价不宜出现在解释代码的功能和工作原理的回答中，以下是修改后的回答：
+
+---
+
+Este código SQL selecciona tres columnas de la tabla `productos`: el nombre del producto (`nombre`) y su precio (`precio`). Además, agrega una columna adicional que evalúa si el precio es menor a 500 unidades. Esto se hace mediante la expresión booleana `precio < 500`. La consulta revisa cada fila en la tabla `productos` para determinar si el valor de la columna `precio` cumple con esta condición, devolviendo un resultado verdadero o falso.
+
+Esta consulta es útil porque permite identificar rápidamente qué productos tienen un precio por debajo del umbral establecido (en este caso, 500 unidades), lo cual puede ser importante para el análisis de inventario y la gestión de precios.
+
+`008-condicion.sql`
 
 ```sql
 SELECT 
@@ -1312,6 +1867,15 @@ FROM productos;
 ```
 
 ### alias de columna
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL selecciona datos de la tabla llamada "productos". Lo que hace es mostrar el nombre y el precio de cada producto. Luego, utiliza una función llamada IF para determinar si un producto necesita incluirse en la carga para su transporte basándose en su precio. Si el precio del producto es menor a 500 unidades (que pueden ser euros, dólares u otra moneda), se añade una columna que indica 'Sí' para 'carga transporte'. También calcula un costo adicional para el transporte: si el precio es menor a 500, agrega 200 unidades al costo del producto como gasto de transporte; en caso contrario, no agrega nada.
+
+Esta consulta es importante porque ayuda a entender cómo se pueden tomar decisiones dentro de una consulta SQL basándose en condiciones específicas (en este caso, si el precio del producto es menor o mayor a un umbral determinado). Los alias 'carga transporte' y 'precio transporte' hacen que los resultados sean más claros y descriptivos.
+
+`009-alias de columna.sql`
 
 ```sql
 SELECT 
@@ -1323,6 +1887,17 @@ FROM productos;
 ```
 
 ### total con transporte
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL se utiliza para consultar información sobre los productos en una base de datos y calcular el total del pedido junto con la carga del transporte si es necesario. La consulta selecciona tres columnas principales: el nombre y el precio del producto, así como un campo calculado que indica si el costo del transporte se aplica o no al pedido.
+
+El código utiliza la función `IF` para determinar si el costo del transporte de 200 unidades monetarias debe aplicarse a cada producto. Si el precio del producto es menor a 500 unidades, entonces la carga sí se incluirá en el total del pedido y se mostrarán los detalles respectivos; de lo contrario, no se aplica y se indica con "No".
+
+Finalmente, calcula un campo `Total pedido` que suma el precio original del producto más el costo del transporte si esta condición es verdadera (precio < 500), o simplemente muestra el precio original si la condición no se cumple. Este tipo de consulta es útil para generar informes detallados sobre pedidos, especialmente cuando hay reglas específicas sobre cuándo aplicar costos adicionales como el transporte.
+
+`010-total con transporte.sql`
 
 ```sql
 SELECT 
@@ -1334,32 +1909,73 @@ SELECT
 FROM productos;
 ```
 
+### Actividades propuestas
+
+### Actividades Propuestas
+
+1. **Operaciones Aritméticas Básicas**
+   - **Descripción:** Utiliza operadores aritméticos para realizar cálculos básicos sobre los precios de los productos en la tabla `productos`. Se pretende que comprendan cómo se aplican las operaciones matemáticas en consultas SQL.
+
+2. **Cálculo del IVA**
+   - **Descripción:** Calcula el IVA (21%) para cada producto en la base de datos y muestra tanto el precio sin IVA como el valor del impuesto incluido. El objetivo es aprender a manipular números y realizar cálculos financieros.
+
+3. **Creación de Alias de Columnas**
+   - **Descripción:** Escribe consultas que renombren las columnas de salida usando alias para mejorar la legibilidad de los resultados. Se espera que comprendan cómo facilitar la interpretación de datos complejos.
+
+4. **Suma del Total Precio**
+   - **Descripción:** Modifica el código proporcionado para calcular no solo el IVA sino también el total a pagar incluyendo transporte si es necesario. El objetivo es combinar varios operadores en una sola consulta.
+
+5. **Operadores de Comparación Simples**
+   - **Descripción:** Realiza consultas que usen operadores como `>`, `<`, `=`, etc., para filtrar productos según ciertas condiciones, por ejemplo, todos los productos con precio superior a 1000€. Se pretende practicar la selección condicional de datos.
+
+6. **Condiciones Combinadas**
+   - **Descripción:** Escribe consultas que usen operadores lógicos como `AND` y `OR` para combinar múltiples condiciones en una sola consulta. Por ejemplo, listar productos con precio superior a 500€ pero pesos inferiores a 2kg.
+
+7. **Condición de Entrega**
+   - **Descripción:** Implementa una condición que determine si un producto requiere carga especial basándose en su peso y dimensiones. Se espera aprender sobre cómo aplicar múltiples condiciones lógicas dentro de consultas SQL para evaluar diferentes criterios.
+
+8. **Costo Total Incluyendo Transporte**
+   - **Descripción:** Crea una consulta que muestre el costo total del pedido incluyendo el precio del producto y los costos de transporte si es necesario. El objetivo es combinar varias operaciones condicionales para resolver problemas prácticos.
+
+9. **Comparación Detallada**
+   - **Descripción:** Realiza consultas con comparadores complejos que usan condiciones como `BETWEEN` y `IN`. Por ejemplo, listar todos los productos cuyo precio se encuentre entre 300€ y 700€ o aquellos cuyo nombre comience por "Auriculares".
+
+10. **Consultas Dinámicas**
+    - **Descripción:** Diseña consultas que sean capaces de filtrar datos basándose en criterios dinámicos como el precio mínimo establecido por el usuario a través de una variable de entrada en SQL. Se pretende introducir la noción de personalización y flexibilidad en las consultas.
+
+Estas actividades están diseñadas para ayudar al estudiante a familiarizarse con operaciones aritméticas, comparativas y lógicas en SQL, así como a mejorar sus habilidades en la creación y manipulación de alias de columnas y condiciones condicionales.
+
+
 <a id="consultas-de-resumen"></a>
 ## Consultas de resumen
 
-En el mundo digital de la programación, las consultas de resumen son un elemento esencial que nos permite obtener información relevante y estructurada a partir de grandes volúmenes de datos. Esta técnica es fundamental para el análisis de datos, la toma de decisiones estratégicas y la generación de informes precisos.
+### Introducción a los ejercicios
 
-La realización de consultas de resumen implica la selección de campos específicos de una base de datos y la agrupación de estos datos según ciertos criterios. Este proceso es esencial para obtener una visión general de los datos, identificar tendencias y patrones que pueden no ser evidentes al examinar los datos en su forma original.
-
-Para realizar consultas de resumen, se utilizan lenguajes como SQL (Structured Query Language), que es el estándar para interactuar con bases de datos relacionales. En esta carpeta, aprenderás a utilizar las funciones agregadas de SQL, como SUM(), AVG(), COUNT() y MAX()/MIN(), para calcular estadísticas descriptivas sobre los datos agrupados.
-
-La importancia de las consultas de resumen no se limita solo al análisis de datos internos. También es crucial en el desarrollo web, donde los desarrolladores utilizan estas técnicas para mostrar información de manera dinámica y actualizada a los usuarios finales. Por ejemplo, en una aplicación de comercio electrónico, las consultas de resumen pueden ser utilizadas para calcular el precio promedio de un producto, la cantidad total vendida o el número de clientes únicos.
-
-Además, las consultas de resumen son esenciales en el desarrollo de sistemas empresariales. En estos entornos complejos, los administradores y analistas necesitan acceso rápido a información clave para tomar decisiones estratégicas. Las consultas de resumen les permiten obtener esta información en un formato fácilmente interpretable, lo que facilita la toma de decisiones basadas en datos.
-
-En el contexto del desarrollo de aplicaciones móviles y web, las consultas de resumen también desempeñan un papel crucial. Los desarrolladores utilizan estas técnicas para mostrar información relevante a los usuarios, como estadísticas de uso, tendencias de ventas o informes personalizados. Esta capacidad de presentar datos de manera eficiente es fundamental para mantener la interactividad y la utilidad de las aplicaciones.
-
-La realización de consultas de resumen requiere una comprensión sólida de los conceptos básicos de SQL y un buen conocimiento de cómo estructurar las consultas para obtener los resultados deseados. A medida que avanzamos en este tema, aprenderás a utilizar subconsultas, combinaciones de múltiples selecciones y técnicas de optimización para mejorar el rendimiento de tus consultas.
-
-En resumen, las consultas de resumen son una herramienta poderosa en la programación que nos permite extraer información relevante y estructurada a partir de grandes volúmenes de datos. Su importancia se extiende desde el análisis de datos internos hasta el desarrollo web y los sistemas empresariales complejos, haciendo de ellas un elemento esencial para cualquier desarrollador o analista de datos. A través de esta carpeta, aprenderás las técnicas básicas y avanzadas para realizar consultas de resumen eficientes y precisas, preparándote para enfrentar desafíos más complejos en el mundo digital.
+En esta carpeta, trabajaremos con consultas de resumen en SQL utilizando una base de datos que contiene información sobre pedidos. Los ejercicios te guiarán a través del cálculo de sumatorias totales, promedios y conteos relacionados con los pedidos para analizar el comportamiento de ventas y gastos en una tienda virtual. Aprenderás a utilizar funciones como SUM(), AVG() y MAX() para obtener información resumida de la tabla 'vista_pedidos'. Además, practicarás cómo contar el número total de registros que cumplen ciertas condiciones utilizando COUNT(). Estos ejercicios son fundamentales para desarrollar habilidades en análisis de datos básicos usando consultas SQL.
 
 ### resumen de suma
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL es una consulta que selecciona todos los datos de la tabla o vista llamada `vista_pedidos`. La función `SELECT *` indica que se deben recuperar todas las columnas y filas disponibles en esa vista. Esto es útil cuando quieres ver toda la información de la vista sin especificar columnas individuales, lo cual puede ser conveniente durante el proceso de desarrollo o depuración para entender cómo están estructurados los datos.
+
+La importancia de este tipo de consulta radica en su simplicidad y utilidad para obtener una rápida visión general del contenido de `vista_pedidos`, sin necesidad de conocer exactamente qué columnas contiene la vista. Sin embargo, es importante tener en cuenta que seleccionar todos los campos puede no ser el mejor enfoque para consultas de producción debido a posibles rendimiento y consideraciones de privacidad.
+
+`001-resumen de suma.sql`
 
 ```sql
 SELECT * FROM vista_pedidos;
 ```
 
 ### resumen de total de pedidos
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL es una consulta que calcula el total acumulado de todos los pedidos en una base de datos. La función `SUM()` se utiliza para sumar la columna llamada "Total" dentro de la tabla o vista llamada "vista_pedidos". Esta consulta te da un solo número que representa la suma de todos los valores "Total" registrados, lo cual es útil para obtener un resumen financiero sobre el ingreso total generado por los pedidos en tu base de datos.
+
+`002-resumen de total de pedidos.sql`
 
 ```sql
 SELECT 
@@ -1368,6 +1984,15 @@ FROM vista_pedidos;
 ```
 
 ### promedio de lo que se gasta la gente en mi tienda
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL es una consulta que calcula el promedio del campo `Total` en la tabla o vista llamada `vista_pedidos`. La función `AVG()` se utiliza para calcular el valor medio de los totales registrados en todos los pedidos. En otras palabras, esta consulta te dará una idea de cuánto dinero en promedio gastan los clientes en tu tienda por pedido.
+
+Es importante destacar que este tipo de consulta es útil para obtener estadísticas resumidas y comprender el comportamiento general del gasto de tus clientes, lo cual puede ser valioso para análisis comerciales y toma de decisiones.
+
+`003-promedio de lo que se gasta la gente en mi tienda.sql`
 
 ```sql
 SELECT 
@@ -1376,6 +2001,13 @@ FROM vista_pedidos;
 ```
 
 ### pedido mas barato
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL te ayuda a calcular el gasto promedio en tu tienda. La función `AVG()` se utiliza para encontrar el promedio (media aritmética) de los valores en la columna "Total" de una tabla llamada "vista_pedidos". En este caso, estás sumando todos los totales de los pedidos registrados y luego dividiendo ese total entre el número de pedidos para obtener un valor medio que representa cuánto gasta típicamente una persona en tu tienda. Esto es útil para entender la tendencia general del consumo y puede ayudarte a tomar decisiones sobre marketing, precios o inventario basadas en esta información estadística.
+
+`004-pedido mas barato.sql`
 
 ```sql
 SELECT 
@@ -1384,6 +2016,15 @@ FROM vista_pedidos;
 ```
 
 ### pedido mas caro
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL está diseñado para encontrar el pedido más caro en una base de datos. La consulta selecciona la máxima cantidad (`MAX`) de la columna `Total` que probablemente almacena el coste total de cada pedido, desde una tabla o vista llamada `vista_pedidos`. Al utilizar la función `MAX()`, SQL devuelve solo un valor: el mayor número presente en la columna `Total`. Esto es útil cuando necesitas saber cuánto ha costado el pedido más caro realizado.
+
+Es importante destacar que esta consulta asume que ya tienes una vista llamada `vista_pedidos` creada previamente, donde se agrupa o seleccionan los datos relevantes de las tablas subyacentes. La función `MAX()` es una forma rápida y efectiva de obtener información resumida sobre tus datos sin necesidad de iterar a través de todos ellos manualmente.
+
+`005-pedido mas caro.sql`
 
 ```sql
 SELECT 
@@ -1392,6 +2033,13 @@ FROM vista_pedidos;
 ```
 
 ### cuantos pedidos se han realizado
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL es una consulta que cuenta cuántos registros o filas existen en la columna "Total" dentro de la tabla llamada "vista_pedidos". La función `COUNT()` se utiliza para contar el número total de pedidos registrados, asumiendo que cada fila en esta vista representa un pedido individual. Es importante porque proporciona información sobre la cantidad total de pedidos realizados, lo cual es valioso para el análisis y el seguimiento del rendimiento de las ventas o el servicio al cliente.
+
+`006-cuantos pedidos se han realizado.sql`
 
 ```sql
 SELECT 
@@ -1399,30 +2047,56 @@ COUNT(Total)
 FROM vista_pedidos;
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Sumar Total de Pedidos
+**Descripción:** Realiza una consulta SQL que sume el total de todos los pedidos registrados en la tabla `vista_pedidos`. Este ejercicio te ayudará a comprender cómo calcular totales acumulativos.
+
+### Actividad 2: Calcular Promedio de Gastos por Pedido
+**Descripción:** Escribe una consulta para calcular el promedio del total gastado en cada pedido. Aprenderás a usar la función `AVG()` y a entender los gastos medios de tus clientes.
+
+### Actividad 3: Identificar el Pedido Mínimo y Máximo
+**Descripción:** Crea dos consultas distintas, una para encontrar el pedido más barato (`MIN()`) y otra para identificar el pedido más caro (`MAX()`). Estos ejercicios te enseñarán a utilizar funciones de resumen como `MIN()` y `MAX()`.
+
+### Actividad 4: Contar Número Total de Pedidos
+**Descripción:** Utiliza una consulta SQL que cuente la cantidad total de pedidos en la tabla `vista_pedidos`. Este ejercicio te permitirá practicar el uso del agregador `COUNT()` para obtener estadísticas sobre los datos.
+
+### Actividad 5: Resumen Completo de Pedidos
+**Descripción:** Escribe una consulta que combine varias funciones de resumen (suma, promedio, mínimo y máximo) en un único resultado. Esto te ayudará a comprender cómo integrar múltiples operaciones de agregación en una sola consulta.
+
+### Actividad 6: Análisis de Volumen de Pedidos
+**Descripción:** Realiza consultas que permitan calcular tanto el volumen total como la cantidad promedio de pedidos realizados. Aprenderás a combinar diferentes tipos de operaciones SQL para obtener un análisis más detallado.
+
+### Actividad 7: Comparación de Totales entre Días
+**Descripción:** Diseña una consulta que compare los totales de ventas entre dos días específicos. Este ejercicio te permitirá trabajar con subconsultas y funciones de resumen en diferentes contextos temporales.
+
+### Actividad 8: Resumir Información por Meses
+**Descripción:** Crea consultas SQL que sumen y promedien el total de pedidos por cada mes del año. Aprenderás a filtrar datos basados en fechas y utilizar funciones de agrupamiento avanzado.
+
+### Actividad 9: Crear Reporte Resumido Diario
+**Descripción:** Escribe una consulta que genere un reporte diario resumido, incluyendo el total vendido, promedio por pedido, cantidad de pedidos y detalles adicionales. Este ejercicio te permitirá practicar la combinación de varias operaciones SQL en un único informe.
+
+### Actividad 10: Optimización de Consultas Resumen
+**Descripción:** Identifica las consultas más eficientes para calcular los resúmenes (suma, promedio, mínimo y máximo) de tus pedidos. Este ejercicio te ayudará a entender cómo optimizar las consultas SQL para mejorar el rendimiento del sistema.
+
+
 <a id="agrupamiento-de-registros"></a>
 ## Agrupamiento de registros
 
-En el vasto mundo de la programación y la gestión de datos, el agrupamiento de registros es una técnica fundamental que permite organizar y analizar información con precisión. Este proceso, también conocido como agregación o resumen, consiste en combinar filas de una tabla o conjunto de datos según ciertos criterios definidos por el usuario.
+### Introducción a los ejercicios
 
-Imagina un escenario donde tienes una base de datos que almacena información detallada sobre los clientes de una empresa. Cada cliente tiene múltiples registros que incluyen detalles como ventas, compras y servicios realizados. Agrupar estos registros por cliente te permitiría obtener una visión general de las actividades económicas de cada uno, facilitando la toma de decisiones estratégicas.
-
-El agrupamiento de registros se realiza mediante consultas SQL, un lenguaje universalmente utilizado para interactuar con bases de datos relacionales. En esta carpeta, aprenderás cómo utilizar funciones agregadas como SUM(), AVG(), MAX() y MIN() para calcular valores resumidos de los grupos formados. Estas funciones son esenciales para obtener estadísticas importantes sobre los datos agrupados.
-
-Además del cálculo de valores agregados, el agrupamiento también permite seleccionar registros específicos dentro de cada grupo utilizando la cláusula HAVING. Esta cláusula es similar a la cláusula WHERE, pero se aplica después del agrupamiento y nos permite filtrar los grupos basándonos en las condiciones que definamos.
-
-La comprensión del agrupamiento de registros es crucial para cualquier programador o administrador de sistemas que trabaje con grandes conjuntos de datos. Permite no solo obtener información detallada, sino también resumirla de manera efectiva, lo que facilita la toma de decisiones y la identificación de tendencias.
-
-En este submódulo, exploraremos en profundidad cómo utilizar las funciones agregadas y la cláusula HAVING para realizar consultas de agrupamiento. Aprenderás a organizar tus datos de manera efectiva y a extraer información valiosa que puede ayudarte a mejorar el rendimiento y la eficiencia de tu sistema.
-
-Además, aprenderás técnicas avanzadas como el uso de subconsultas y composiciones internas para realizar agrupamientos más complejos. Estas habilidades te permitirán abordar desafíos más difíciles en el análisis de datos y la toma de decisiones basada en información.
-
-El dominio del agrupamiento de registros es una herramienta poderosa que puede transformar los datos brutos en información valiosa. A través de este proceso, puedes obtener insights cruciales sobre tus operaciones, identificar tendencias y tomar decisiones informadas. En esta carpeta, te guiaré paso a paso a través del proceso de agrupamiento de registros, proporcionándote las herramientas necesarias para dominar esta técnica esencial.
-
-Al finalizar este módulo, tendrás una comprensión profunda del agrupamiento de registros y cómo aplicarlo en tus proyectos de programación. Aprenderás a utilizar funciones agregadas, la cláusula HAVING y técnicas avanzadas para realizar consultas de agrupamiento eficientes y efectivas. Este conocimiento te permitirá extraer información valiosa de grandes conjuntos de datos y tomar decisiones basadas en datos precisos y relevantes.
-
-En resumen, el agrupamiento de registros es una técnica fundamental en la programación y gestión de datos que permite organizar y analizar información con precisión. A través de este proceso, puedes obtener insights cruciales sobre tus operaciones, identificar tendencias y tomar decisiones informadas. En esta carpeta, te guiaré paso a paso a través del proceso de agrupamiento de registros, proporcionándote las herramientas necesarias para dominar esta técnica esencial.
+En esta carpeta, se trabajan ejercicios relacionados con la realización de consultas SQL avanzadas en un contexto de base de datos para estudiantes de Formación Profesional. El objetivo principal es familiarizarse con el agrupamiento de registros utilizando la cláusula `GROUP BY` y cómo combinarla con funciones de agregación como `COUNT()`. Los ejercicios van desde seleccionar todos los registros de una tabla hasta realizar consultas más complejas que involucran agregar nuevos campos a una tabla existente y luego agrupar datos según estos cambios. Este conjunto de ejercicios ayuda a desarrollar competencias en manipulación de bases de datos, consulta avanzada y resolución de problemas relacionados con la agregación de información.
 
 ### seleccion de productos
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL es una consulta simple que selecciona todos los datos de la tabla llamada "clientes". La sentencia `SELECT *` indica que se deben recuperar todas las columnas y filas disponibles en la tabla especificada. Esto es útil cuando deseas obtener un vistazo completo a toda la información almacenada en la tabla "clientes", sin necesidad de filtrar o seleccionar datos específicos.
+
+Es importante destacar que usar `SELECT *` en un entorno de producción o con tablas grandes puede no ser eficiente, ya que devuelve más datos de los necesarios y consume recursos del sistema. Sin embargo, para fines educativos y cuando se trabaja con pequeñas cantidades de datos, esta consulta es una excelente herramienta para familiarizarse con la estructura y el contenido de la tabla "clientes".
+
+`001-seleccion de productos.sql`
 
 ```sql
 SELECT * 
@@ -1430,6 +2104,15 @@ FROM clientes;
 ```
 
 ### altero los clientes
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL se utiliza para modificar la estructura de una tabla llamada `clientes`. En específico, el código añade una nueva columna llamada `localidad` a esta tabla. La nueva columna es un campo de texto que puede contener hasta 255 caracteres y no permite valores nulos (es decir, cada registro en la tabla debe tener un valor para esta columna). La columna se inserta inmediatamente después de otra columna existente llamada `email`.
+
+Este tipo de cambio en una base de datos es común cuando los desarrolladores descubren que necesitan almacenar más información sobre los clientes. Es importante realizar estas modificaciones con cuidado ya que pueden afectar el funcionamiento del sistema si no se gestionan correctamente. Después de agregar la nueva columna, generalmente se deben actualizar los registros existentes para incluir datos en esta nueva columna, lo cual es algo que este código indica debe hacerse, aunque no especifica cómo en este caso.
+
+`002-altero los clientes.sql`
 
 ```sql
 ALTER TABLE `clientes` ADD `localidad` VARCHAR(255) NOT NULL AFTER `email`;
@@ -1437,6 +2120,13 @@ ALTER TABLE `clientes` ADD `localidad` VARCHAR(255) NOT NULL AFTER `email`;
 ```
 
 ### seleccion con agrupacion
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL realiza una consulta que cuenta el número total de registros en la tabla llamada `clientes`. La función `COUNT()` se utiliza para contar cuántas filas hay en esa tabla, y al colocar `Identificador` dentro de los paréntesis de `COUNT()`, lo que hace es asegurarse de que solo cuente las filas donde el campo `Identificador` tenga un valor (es decir, no cuenta filas con este campo vacío). En resumen, esta consulta te dará un número que indica cuántos clientes hay registrados en total en la base de datos. Es importante porque nos ayuda a entender rápidamente la escala del conjunto de datos que estamos trabajando.
+
+`003-seleccion con agrupacion.sql`
 
 ```sql
 SELECT COUNT(Identificador)
@@ -1444,6 +2134,21 @@ FROM clientes;
 ```
 
 ### seleccion con agrupacion ahora si
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este código SQL selecciona la información de una base de datos llamada `clientes`. Lo que hace específicamente es contar cuántos registros (o filas) hay en la tabla `clientes` para cada distinta localidad. Aquí, `localidad` es un campo que contiene el nombre del lugar donde se encuentran los clientes registrados.
+
+El comando `SELECT` indica qué datos quieres recuperar de tu base de datos, mientras que `COUNT(Identificador)` cuenta cuántas veces aparece cada valor único en la columna `Identificador`, que probablemente funciona como una identificación única para cada cliente. Sin embargo, debido a cómo está escrito el código, realmente estamos contando todas las filas (clientes) por localidad.
+
+`FROM clientes` indica de qué tabla se van a extraer los datos; en este caso, es la tabla `clientes`.
+
+Finalmente, `GROUP BY(localidad)` agrupa los resultados por cada valor único que aparece en el campo `localidad`. Esto significa que obtendrás una fila para cada localidad distinta con un conteo de cuántos clientes hay registrados en esa localidad.
+
+Esta consulta es útil cuando necesitas resumir datos para obtener información general sobre la distribución geográfica de tus clientes, por ejemplo, saber cuántos clientes tienes en diferentes ciudades o países.
+
+`004-seleccion con agrupacion ahora si.sql`
 
 ```sql
 SELECT 
@@ -1454,30 +2159,69 @@ GROUP BY(localidad)
 ;
 ```
 
+### Actividades propuestas
+
+1. **Conteo de Registros**
+   - **Descripción**: Los estudiantes deben realizar una consulta SQL para contar el número total de registros en la tabla `clientes`. Este ejercicio ayuda a entender cómo utilizar funciones básicas de agregación como COUNT.
+
+2. **Añadir Campo y Actualizar Datos**
+   - **Descripción**: Se pide que los alumnos añadan un nuevo campo llamado `localidad` a la tabla `clientes` y luego actualicen este campo con datos específicos para cada registro. Este ejercicio refuerza el conocimiento sobre cómo manejar alteraciones en las tablas y operaciones de actualización.
+
+3. **Consulta Básica**
+   - **Descripción**: Los estudiantes deben seleccionar todos los campos de la tabla `clientes`. Esto les permite practicar consultas SELECT simples y entender la estructura básica de una consulta SQL.
+
+4. **Agrupación por Localidad**
+   - **Descripción**: Se requiere que agrupen registros en función del campo `localidad` y cuenten el número de clientes en cada localidad. Este ejercicio permite aprender sobre GROUP BY y cómo usarlo junto con funciones de agregación como COUNT.
+
+5. **Consulta Detallada**
+   - **Descripción**: Los alumnos deben realizar una consulta que incluya la selección específica de campos relevantes de `clientes`, no solo todos los campos, para entender mejor la precisión en las consultas SQL.
+
+6. **Conteo con Condición**
+   - **Descripción**: Se les pide contar el número de clientes que cumplen ciertas condiciones (por ejemplo, aquellos cuya localidad es específica). Este ejercicio ayuda a comprender cómo combinar GROUP BY y funciones de agregación con cláusulas WHERE.
+
+7. **Añadir Localidad Existente**
+   - **Descripción**: Los estudiantes deben añadir un campo `localidad` a la tabla si aún no existe, luego llenar este campo basándose en datos existentes o predeterminados. Esto refuerza el manejo de tablas y actualizaciones.
+
+8. **Agrupación Mejorada**
+   - **Descripción**: Se requiere que los alumnos realicen una consulta más compleja utilizando GROUP BY para agrupar registros no solo por `localidad`, sino también considerando otros campos relevantes, como la edad o tipo de cliente.
+   
+Estas actividades están diseñadas para proporcionar a los estudiantes una comprensión sólida y práctica de cómo manejar consultas SQL básicas hasta más avanzados conceptos que incluyen funciones de agregación y agrupamiento.
+
+
 <a id="composiciones-internas"></a>
 ## Composiciones internas
 
-En el mundo digital actual, la capacidad de realizar consultas complejas sobre bases de datos es una habilidad fundamental para cualquier desarrollador o administrador de sistemas. La carpeta `Primero/Bases de datos/003-Realización de consultas/005-Composiciones internas` del árbol GLOBAL nos guía a través de este aspecto crucial, ofreciendo un enfoque profundo y detallado sobre cómo combinar múltiples operaciones de consulta para obtener resultados más sofisticados.
+### Introducción a los ejercicios
 
-La composición interna de consultas es una técnica poderosa que permite a los usuarios construir consultas complejas a partir de subconsultas. Esta práctica no solo aumenta la flexibilidad en el análisis y recuperación de datos, sino que también mejora significativamente la eficiencia del proceso. Al dividir una consulta grande en varias partes más pequeñas, se facilita su comprensión y depuración, además de permitiendo un uso más eficiente de los recursos disponibles.
-
-En esta carpeta, encontramos una serie de lecciones que ilustran cómo combinar diferentes tipos de operaciones para crear consultas más complejas. Desde la proyección y selección de registros hasta el agrupamiento y composiciones externas, cada concepto se explica con claridad y ejemplos prácticos. La importancia de entender cómo funcionan estas combinaciones no puede ser subestimada, ya que son fundamentales para resolver problemas complejos en la gestión de datos.
-
-La carpeta también destaca el uso de subconsultas, una técnica esencial en la composición interna de consultas. Las subconsultas permiten a los usuarios realizar operaciones dentro de una consulta principal, lo que puede ser especialmente útil cuando se necesita filtrar o ordenar datos basados en criterios complejos. La explicación detallada de cómo crear y utilizar subconsultas es un paso crucial para cualquier desarrollador que quiera dominar el arte de la programación de consultas.
-
-Además, la carpeta aborda la combinación de múltiples selecciones, una técnica que permite a los usuarios combinar varias condiciones en una sola consulta. Esta práctica es especialmente útil cuando se necesita obtener datos que cumplen con múltiples criterios simultáneamente. La explicación proporcionada en esta carpeta demuestra cómo utilizar operadores lógicos para combinar estas condiciones de manera efectiva.
-
-La importancia de la optimización de consultas no puede ser subestimada, especialmente cuando se trata de bases de datos grandes y complejas. La carpeta `Primero/Bases de datos/003-Realización de consultas/005-Composiciones internas` destaca el papel que juegan las composiciones internas en la optimización de consultas. Al combinar operaciones de manera eficiente, se pueden reducir los tiempos de ejecución y mejorar significativamente la rendimiento del sistema.
-
-En conclusión, la carpeta `Primero/Bases de datos/003-Realización de consultas/005-Composiciones internas` es un recurso invaluable para cualquier persona que quiera dominar el arte de la programación de consultas en bases de datos. Al proporcionar una explicación detallada y práctica sobre cómo combinar diferentes tipos de operaciones, esta carpeta ofrece a los usuarios las herramientas necesarias para resolver problemas complejos y mejorar significativamente su eficiencia en la gestión de datos.
+Esta carpeta contiene una serie de ejercicios que te guiarán en la realización de consultas avanzadas con SQL, centrando tu atención en la creación y manipulación de relaciones entre tablas para representar pedidos complejos. Los problemas iniciales te ayudan a familiarizarte con las selecciones básicas y los JOIN simples, antes de profundizar en la composición interna de consultas que incluyen varias tablas y cálculos. A lo largo de estos ejercicios, practicarás la creación de esquemas de base de datos más realistas, como la relación 1:N entre pedidos y sus líneas, así como la incorporación de claves foráneas para garantizar integridad referencial. También trabajarás en la proyección de información relevante desde múltiples tablas y realizar cálculos sobre los datos obtenidos para obtener totales y subtotales de pedidos. Estos ejercicios están diseñados para mejorar tus habilidades en el manejo avanzado de consultas SQL, preparándote para resolver problemas más complejos relacionados con la gestión de bases de datos en entornos empresariales.
 
 ### seleccion basica de pedidos
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL selecciona todos los registros de la tabla llamada "pedidos". La instrucción `SELECT *` significa que se van a recuperar todas las columnas disponibles en esa tabla. Cuando ejecutas esta consulta, obtendrás una lista completa con toda la información almacenada actualmente en la tabla "pedidos", lo cual es útil para tener una visión general de los datos sin especificar qué campos necesitas particularmente.
+
+Es importante entender que usar `SELECT *` puede no ser la mejor práctica si sólo necesitas ciertas columnas, ya que puede afectar el rendimiento, especialmente con tablas grandes. Sin embargo, en un contexto de aprendizaje o cuando simplemente se necesita una vista rápida de todos los datos disponibles, esta consulta es muy útil para comenzar a familiarizarse con la estructura y el contenido de las tablas.
+
+`001-seleccion basica de pedidos.sql`
 
 ```sql
 SELECT * FROM pedidos;
 ```
 
 ### primer join con clientes
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL realiza una consulta que combina dos tablas: "pedidos" y "clientes". La función principal es obtener la fecha del pedido junto con el nombre y los apellidos del cliente asociado a ese pedido. 
+
+La instrucción `LEFT JOIN` asegura que todos los registros de la tabla "pedidos" se incluyan en el resultado, incluso si no hay un cliente asociado (es decir, si `id_cliente` es nulo). Esto significa que obtendrás toda la información disponible sobre cada pedido, incluida la del cliente si está presente.
+
+La cláusula `ON pedidos.id_cliente = clientes.Identificador` establece la relación entre ambas tablas, vinculando el identificador de cliente en la tabla "pedidos" con el campo correspondiente en la tabla "clientes". Esto permite que SQL sepa cómo combinar los datos correctamente.
+
+`002-primer join con clientes.sql`
 
 ```sql
 SELECT 
@@ -1491,6 +2235,17 @@ ON pedidos.id_cliente = clientes.Identificador
 ```
 
 ### vista de pedidos
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL se utiliza para crear una vista que combina información de varias tablas en una base de datos. La consulta selecciona detalles específicos sobre los pedidos realizados, incluyendo la fecha del pedido, el nombre y apellidos del cliente, el nombre del producto, su precio, un cálculo del IVA (16%) y el total que se debe pagar por el producto.
+
+La consulta comienza con una selección de campos específicos desde las tablas `pedidos`, `clientes` e `productos`. Utiliza dos tipos de JOINs llamados LEFT JOIN para asegurarse de que todos los registros en la tabla `pedidos` sean incluidos, incluso si no hay correspondencia en las otras tablas. Esto es importante cuando puede haber pedidos sin información del cliente o del producto.
+
+Los cálculos adicionales como el IVA y el total (precio + IVA) se realizan directamente en la consulta SQL para facilitar la comprensión de los costos totales asociados con cada pedido, lo que ayuda a cualquier persona que consulte esta vista a entender rápidamente cuánto cuesta un pedido incluyendo impuestos.
+
+`003-vista de pedidos.sql`
 
 ```sql
 SELECT 
@@ -1511,30 +2266,18 @@ ON pedidos.id_producto = productos.Identificador
 ;
 ```
 
-### Descripcion del problema
-
-```markdown
-Tenemos pedidos hasta el momento que:
-1.-Toman un unico cliente (eso está bien)
-2.-Toman un único producto (eso no está bien)
-3.-Solo permite comprar una unica unidad (eso está peor todavía)
-
-La inmensa mayoría de empresas:
-1.-Permiten que un pedido tenga múltiples productos
-2.-De cada producto se pueden comprar multiples unidades
-3.-"Lineas de pedido"
-
-En bases de datos existen fundamentalmente tres tipos de relaciones
-1:1 = 1 persona tiene un DNI
-1:n = 1 persona tiene multiples numeros de telefono
-n:n = 1 alumno puede tener n profesores, un profesor puede tener n alumnos
-
-Cuando existen relaciones de 1 a 1, se agrupan en una misma tabla
-
-Que ocurre si UN pedido tiene N lineas de pedido = solución: se crea una tabla externa
-```
-
 ### Pedidos con lineas
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este código SQL crea dos tablas en una base de datos llamada `empresarial`. La primera tabla se llama `pedidosconlineas`, que almacena información básica sobre los pedidos, como el identificador único del pedido, la fecha del pedido y el ID del cliente. Cada columna tiene un tipo de dato específico: `Identificador` es un número entero (INT) que se incrementa automáticamente para cada nuevo registro, lo que significa que no necesitas preocuparte por proporcionar este valor cuando insertes nuevos datos; simplemente, la base de datos te dará uno único.
+
+La segunda tabla se llama `lineaspedido`, que registra los detalles del producto asociado a cada pedido. Al igual que con la primera tabla, esta también tiene un identificador único (INT AUTO_INCREMENT), un ID del producto (también INT) y una columna para las unidades pedidas (de nuevo INT). Estos datos son cruciales para entender qué productos fueron pedidos en qué cantidad.
+
+Estas tablas están diseñadas para trabajar juntas mediante la creación de relaciones entre los registros. Por ejemplo, cada línea de pedido está asociada con un solo pedido y puede rastrearse a través del ID del pedido que se especificaría en una columna adicional (aunque no mostrada en el código proporcionado) en la tabla `lineaspedido` para vincularla con la tabla `pedidosconlineas`. Esto es fundamental en bases de datos relacionales, ya que permite una gestión eficiente y detallada de los pedidos y sus detalles.
+
+`005-Pedidos con lineas.sql`
 
 ```sql
 CREATE TABLE `empresarial`.`pedidosconlineas` (`Identificador` INT NOT NULL AUTO_INCREMENT , `fecha` DATE NOT NULL , `id_cliente` INT NOT NULL , PRIMARY KEY (`Identificador`)) ENGINE = InnoDB;
@@ -1543,6 +2286,21 @@ CREATE TABLE `empresarial`.`lineaspedido` (`Identificador` INT NOT NULL AUTO_INC
 ```
 
 ### claves foraneas
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL se utiliza para manejar las relaciones entre diferentes tablas en una base de datos, específicamente centrado en las entidades "lineaspedido", "pedidosconlineas" y otras tablas relacionadas. El objetivo principal es establecer claves foráneas que aseguren la integridad referencial de los datos.
+
+El código comienza agregando una restricción (llamada `lineaspedidoaproductos`) a la tabla `lineaspedido`, que conecta la columna `producto_id` con la columna `Identificador` en la tabla `productos`. Esto significa que cada línea de pedido está relacionada con un producto específico, asegurando que no se puedan agregar líneas de pedidos sin tener previamente el registro del producto correspondiente. La opción `ON DELETE RESTRICT ON UPDATE RESTRICT` indica que si intentas eliminar un producto o modificar su identificador, SQL evitará cualquier acción que rompa esta relación.
+
+Luego, se añade una nueva columna llamada `pedidos_id` a la tabla `lineaspedido`, que establece una relación con los pedidos. Posteriormente, se define otra restricción (llamada `lineapedidoapedido`) para vincular la nueva columna `pedidos_id` en `lineaspedido` con la columna `Identificador` de la tabla `pedidos`. Sin embargo, el código luego elimina esta restricción y vuelve a crearla, pero esta vez relacionando `pedidos_id` con una tabla llamada `pedidosconlineas`, manteniendo las mismas condiciones restrictivas.
+
+Finalmente, se establece otra clave foránea en la tabla `pedidosconlineas` para conectar la columna `id_cliente` con la columna `Identificador` de la tabla `clientes`. Esto asegura que cada pedido asociado a `pedidosconlineas` esté vinculado a un cliente válido y, al igual que antes, se mantienen las restricciones restrictivas.
+
+En resumen, estos cambios fortalecen la integridad referencial entre las tablas de una base de datos gestionando adecuadamente las relaciones y asegurándose de que los registros eliminados o modificados no afecten negativamente a otras entidades relacionadas.
+
+`006-claves foraneas.sql`
 
 ```sql
 ALTER TABLE `lineaspedido` ADD CONSTRAINT `lineaspedidoaproductos` FOREIGN KEY (`producto_id`) REFERENCES `productos`(`Identificador`) ON DELETE RESTRICT ON UPDATE RESTRICT;
@@ -1557,6 +2315,17 @@ ALTER TABLE `pedidosconlineas` ADD  CONSTRAINT `pedidosaclientes2` FOREIGN KEY (
 ```
 
 ### creamos pedido
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL está diseñado para simular la creación de un nuevo pedido en una base de datos y luego añadir las líneas del pedido correspondientes. En primer lugar, se inserta una nueva fila en la tabla `pedidosconlineas` con información básica sobre el pedido, como su fecha y el identificador del cliente que lo realizó. Aquí, `Identificador` es autoincremental, por lo que se pasa NULL para permitir que la base de datos asigne automáticamente un nuevo valor único.
+
+Después de crear el pedido, el código inserta una línea específica en la tabla `lineaspedido`. Esta línea contiene detalles sobre los productos incluidos en el pedido, como el identificador del producto (`producto_id`), la cantidad de unidades pedidas (`unidades`) y el identificador del pedido recién creado (`pedidosconlineas.Identificador`). En este caso, el código asume que el último pedido insertado (con `Identificador` igual a 1) es al que se refiere esta línea.
+
+Esta secuencia de comandos es fundamental en la gestión de pedidos porque permite seguir el flujo natural del proceso: primero registrar un nuevo pedido y luego especificar los detalles de los productos incluidos en ese pedido.
+
+`007-creamos pedido.sql`
 
 ```sql
 -- el cliente hace un pedido
@@ -1568,12 +2337,32 @@ INSERT INTO `lineaspedido` (`Identificador`, `producto_id`, `unidades`, `pedidos
 ```
 
 ### cruzamos tablas
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL es una consulta que selecciona todos los registros de la tabla llamada `pedidosconlineas`. La palabra clave `SELECT` indica que estamos solicitando datos, y el asterisco (`*`) después de ella significa "todos los campos" o "todas las columnas". Esto quiere decir que se devolverán todas las filas y todas las columnas disponibles en la tabla especificada.
+
+La estructura simple de esta consulta hace que sea útil para entender rápidamente cómo están organizados los datos en una tabla determinada. Sin embargo, es importante tener cuidado con el uso del asterisco en entornos de producción o donde se manejan grandes volúmenes de datos, ya que puede llevar a un rendimiento lento si la tabla tiene muchos registros.
+
+En contexto educativo y para fines de aprendizaje, este tipo de consulta ayuda a familiarizar al estudiante con los datos disponibles antes de pasar a construir consultas más complejas que filtran o combinan información específica.
+
+`008-cruzamos tablas.sql`
 
 ```sql
 SELECT * FROM `pedidosconlineas`;
 ```
 
 ### cruzamos con tabla clientes
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL está realizando una consulta que combina dos tablas: `pedidosconlineas` y `clientes`. La función principal es obtener la fecha del pedido, el nombre y los apellidos del cliente asociado a cada pedido. Utiliza un tipo especial de combinación llamada `LEFT JOIN`, lo cual asegura que todos los pedidos en la tabla `pedidosconlineas` se incluyen en el resultado, incluso si no existe una correspondencia en la tabla `clientes`. Esto es especialmente útil cuando algunos pedidos pueden haber sido realizados por clientes cuyos datos no están completamente registrados o que no tienen un registro de cliente asociado.
+
+La línea `ON pedidosconlineas.id_cliente = clientes.Identificador` especifica cómo las dos tablas se relacionan entre sí, en este caso a través del campo `id_cliente` de la tabla `pedidosconlineas`, que debe coincidir con el campo `Identificador` de la tabla `clientes`. Esto permite al sistema cruzar los datos y mostrar información completa sobre cada pedido en relación con su cliente.
+
+`009-cruzamos con tabla clientes.sql`
 
 ```sql
 SELECT 
@@ -1587,6 +2376,19 @@ ON pedidosconlineas.id_cliente = clientes.Identificador
 ```
 
 ### cruzamos con la tabla de lineas de pedido
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL realiza una consulta que combina información de varias tablas relacionadas con pedidos, clientes y líneas de pedido. La consulta selecciona tres columnas: la fecha del pedido, el nombre y los apellidos del cliente asociado al pedido.
+
+La tabla principal en esta consulta es `pedidosconlineas`, que probablemente contiene información básica sobre cada pedido junto con una referencia a las líneas de ese pedido. Luego, utiliza un JOIN izquierdo (LEFT JOIN) para combinar la tabla `clientes` con `pedidosconlineas` usando el identificador único del cliente (`id_cliente`) en ambas tablas. Esto permite obtener los nombres y apellidos de los clientes que han realizado los pedidos.
+
+Además, se realiza otro LEFT JOIN para unir la tabla `lineaspedido`, que probablemente contiene detalles sobre cada línea individual dentro de un pedido (como el producto específico y su cantidad). Este segundo JOIN utiliza la columna `pedidos_id` en `lineaspedido` y la columna `Identificador` en `pedidosconlineas`.
+
+En resumen, esta consulta es importante porque integra datos de diferentes tablas para proporcionar una vista más completa de los pedidos, incluyendo información sobre el cliente que hizo el pedido y detalles adicionales sobre las líneas del pedido. Esto ayuda a tener una visión integral del proceso de compra en la base de datos.
+
+`010-cruzamos con la tabla de lineas de pedido.sql`
 
 ```sql
 SELECT 
@@ -1604,6 +2406,17 @@ ON lineaspedido.pedidos_id = pedidosconlineas.Identificador
 ```
 
 ### ajustamos la proyeccion
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL realiza una consulta que combina información de varias tablas para obtener detalles específicos sobre los pedidos, incluyendo la fecha del pedido, el nombre y apellidos del cliente, así como las unidades y el ID del producto en cada línea del pedido. 
+
+La consulta utiliza dos operaciones `LEFT JOIN` para unir las tablas `pedidosconlineas`, `clientes`, y `lineaspedido`. El primer `LEFT JOIN` une la tabla `pedidosconlineas` con la tabla `clientes` basándose en el ID del cliente, mientras que el segundo `LEFT JOIN` une nuevamente `pedidosconlineas` con la tabla `lineaspedido` utilizando el ID del pedido. 
+
+Esta consulta es importante porque permite visualizar toda la información relacionada con un pedido de una sola vez, facilitando así el análisis y el manejo de datos en contextos empresariales o comerciales donde se requiere entender completamente cada transacción, desde quién hizo el pedido hasta qué productos incluye y cuántas unidades de cada uno fueron pedidas.
+
+`011-ajustamos la proyeccion.sql`
 
 ```sql
 SELECT 
@@ -1624,6 +2437,17 @@ ON lineaspedido.pedidos_id = pedidosconlineas.Identificador
 ```
 
 ### cruzamos con productos
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL realiza una consulta compleja que combina información de varias tablas para proporcionar detalles sobre los pedidos, incluyendo datos del cliente y el producto asociado. La consulta selecciona específicamente la fecha del pedido, el nombre y apellidos del cliente, las unidades compradas en cada línea del pedido y el nombre junto con el precio del producto.
+
+El código utiliza varias operaciones `LEFT JOIN` para unir estas tablas basándose en los identificadores únicos que relacionan una tabla con otra. Por ejemplo, la primera operación `LEFT JOIN` une la tabla `pedidosconlineas` con la tabla `clientes` utilizando el campo `id_cliente` de `pedidosconlineas` y el campo `Identificador` de `clientes`. Esto permite obtener toda la información relacionada con el cliente para cada pedido. Luego, se realiza un segundo `LEFT JOIN` para conectar las líneas del pedido a los pedidos mediante sus identificadores únicos. Finalmente, se une la tabla `productos` a través de su ID en la tabla `lineaspedido`.
+
+Esta consulta es importante porque permite obtener una visión completa y detallada de cada pedido, incluyendo información sobre el cliente que realizó el pedido, las líneas del pedido con sus unidades y los productos específicos comprados junto con su precio.
+
+`012-cruzamos con productos.sql`
 
 ```sql
 SELECT 
@@ -1648,6 +2472,20 @@ ON lineaspedido.producto_id = productos.Identificador
 ```
 
 ### calculos
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este código SQL realiza una consulta que combina información de varias tablas para generar un resumen detallado de los pedidos. La consulta selecciona la fecha del pedido, el nombre y apellidos del cliente, las unidades compradas en cada línea del pedido, el nombre del producto, su precio unitario, así como cálculos adicionales que incluyen el subtotal (precio por unidad multiplicado por la cantidad), el IVA (subtotal multiplicado por 16%), y el total (subtotal más el IVA).
+
+Para obtener estos datos, se utilizan tres operaciones de JOIN:
+- Se une primero la tabla `pedidosconlineas` con la tabla `clientes` usando el identificador del cliente.
+- Luego, esta combinación se une con la tabla `lineaspedido`, que contiene información sobre las líneas individuales de cada pedido, a través del identificador del pedido.
+- Finalmente, se añade otra unión con la tabla `productos`, vinculando los productos de las líneas del pedido a sus respectivos registros en la tabla de productos.
+
+Esta consulta es importante porque proporciona una visión completa y detallada del contenido de cada pedido, incluyendo detalles económicos como el subtotal, IVA y total para cada artículo, lo cual es útil tanto para reportes internos como para facturación.
+
+`013-calculos.sql`
 
 ```sql
 SELECT 
@@ -1675,6 +2513,19 @@ ON lineaspedido.producto_id = productos.Identificador
 ```
 
 ### sumatorio
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL es una consulta que realiza cálculos sobre datos relacionados en varias tablas. La consulta selecciona la fecha del pedido, el nombre y los apellidos del cliente, y calcula el total de cada pedido incluyendo el IVA (16%). 
+
+La consulta comienza uniendo las tablas `pedidosconlineas`, `clientes`, `lineaspedido` y `productos` usando cláusulas LEFT JOIN para garantizar que se incluyen todos los pedidos, incluso si no tienen asociados clientes o productos específicos en otras tablas. Luego, suma el producto del precio de cada artículo multiplicado por la cantidad comprada (y añade un 16% de IVA) para obtener el total del pedido.
+
+Finalmente, agrupa los resultados por el identificador único de cada pedido (`pedidosconlineas.Identificador`) y muestra la fecha del pedido, el nombre completo del cliente y el total calculado. Esto es útil para tener una visión general de todos los pedidos realizados, incluyendo información sobre quién hizo cada pedido y cuánto costó en total.
+
+Esta consulta es importante porque proporciona un resumen detallado de la actividad comercial basado en datos almacenados en diferentes tablas relacionadas.
+
+`014-sumatorio.sql`
 
 ```sql
 SELECT 
@@ -1698,103 +2549,103 @@ GROUP BY pedidosconlineas.Identificador
 ;
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Consulta Básica de Pedidos
+**Descripción:** El alumno debe crear una consulta SQL que seleccione todos los registros de la tabla `pedidos`. Este ejercicio permitirá a los estudiantes familiarizarse con las consultas básicas en SQL.
+
+### Actividad 2: JOIN Simple entre Tablas
+**Descripción:** Los alumnos deben escribir una consulta que realice un LEFT JOIN entre las tablas `pedidos` y `clientes`, seleccionando la fecha del pedido, el nombre y los apellidos del cliente. Este ejercicio ayudará a entender cómo combinar datos de múltiples tablas.
+
+### Actividad 3: Consulta Compleja con JOIN
+**Descripción:** Los estudiantes deben crear una consulta que realice varios LEFT JOIN entre `pedidos`, `clientes`, `productos` e incluya información como el nombre del producto, su precio, IVA y total por línea de pedido. Este ejercicio permitirá a los alumnos practicar la creación de consultas más complejas.
+
+### Actividad 4: Creación de una Tabla con Líneas de Pedido
+**Descripción:** Se pide a los estudiantes que creen dos tablas nuevas, `pedidosconlineas` y `lineaspedido`, para representar un pedido con múltiples líneas. Este ejercicio ayudará a comprender la necesidad y diseño de relaciones 1:N en una base de datos.
+
+### Actividad 5: Definición de Claves Foráneas
+**Descripción:** Los alumnos deben definir las claves foráneas para establecer las relaciones entre `pedidosconlineas`, `clientes` y `productos`. Este ejercicio permitirá a los estudiantes entender la importancia de mantener la integridad referencial en una base de datos.
+
+### Actividad 6: Inserción de Datos
+**Descripción:** Los alumnos deben insertar un nuevo pedido con varias líneas de pedido en las tablas `pedidosconlineas` y `lineaspedido`. Este ejercicio ayudará a los estudiantes a practicar la inserción de datos relacionados en múltiples tablas.
+
+### Actividad 7: Consulta Cruzada Simples
+**Descripción:** Los alumnos deben escribir una consulta que seleccione todos los registros de `pedidosconlineas` y se unan con la tabla `clientes`. Este ejercicio permitirá a los estudiantes practicar consultas de join básico pero en contexto.
+
+### Actividad 8: Consulta Cruzada Compleja
+**Descripción:** Los alumnos deben crear una consulta que realice un LEFT JOIN entre `pedidosconlineas`, `clientes` y `lineaspedido`. Este ejercicio permitirá a los estudiantes practicar consultas más avanzadas con múltiples tablas.
+
+### Actividad 9: Consulta Cruzada Ajustada
+**Descripción:** Los alumnos deben ajustar una consulta existente para proyectar información relevante como unidades, producto_id y otros campos relevantes. Este ejercicio permitirá a los estudiantes aprender cómo filtrar y seleccionar datos específicos en sus consultas.
+
+### Actividad 10: Consulta con Cálculos Financieros
+**Descripción:** Los alumnos deben crear una consulta que calcule el subtotal, IVA y total para cada línea de pedido. Este ejercicio permitirá a los estudiantes practicar cálculos en SQL junto con la selección de datos.
+
+### Actividad 11: Resumen de Total por Pedido
+**Descripción:** Los alumnos deben escribir una consulta que muestre el total del pedido agrupado por cada identificador de pedido. Este ejercicio permitirá a los estudiantes aprender cómo utilizar funciones de agregación en SQL, como SUM y GROUP BY.
+
+Estas actividades están diseñadas para cubrir diferentes aspectos del manejo de bases de datos relacionales y consultas SQL, adaptadas al nivel y conocimientos de los estudiantes de Formación Profesional.
+
+
 <a id="composiciones-externas"></a>
 ## Composiciones externas
 
-En el mundo digital actual, la capacidad de realizar consultas complejas es una habilidad fundamental para cualquier profesional que trabaje con bases de datos. En esta subunidad didáctica, nos adentramos en el fascinante mundo de las composiciones externas, un concepto esencial para optimizar y mejorar la eficiencia de nuestras búsquedas en los sistemas de información.
-
-Las composiciones externas son una técnica avanzada que permite combinar dos o más consultas SQL en una sola consulta. Esta práctica no solo simplifica el código, sino que también puede aumentar significativamente la velocidad de ejecución al reducir el número de accesos a la base de datos. En este contexto, es crucial entender cómo funcionan y cuándo aplicarlas para obtener los mejores resultados.
-
-La primera parte de esta subunidad se centra en la comprensión teórica de las composiciones externas. Aprenderemos sobre los diferentes tipos de composiciones que existen, como las composiciones internas y las composiciones externas propias. Cada tipo tiene sus propias ventajas y desventajas, y conocer cómo elegir el más adecuado para una consulta específica es un paso crucial en la optimización del rendimiento.
-
-A medida que avanzamos, nos sumergimos en ejemplos prácticos de composiciones externas. Estos ejemplos no solo demuestran cómo se aplican las teorías aprendidas, sino que también proporcionan una visión real de cómo estas técnicas pueden ser utilizadas en situaciones reales. A través de estos ejemplos, los estudiantes podrán experimentar la eficiencia y simplicidad que ofrece el uso de composiciones externas.
-
-La subunidad también aborda los desafíos asociados con las composiciones externas. Es importante entender cómo manejar problemas como la redundancia de datos y la complejidad del código, especialmente cuando se combinan múltiples consultas. Además, aprenderemos sobre técnicas para optimizar estas consultas y reducir su tiempo de ejecución.
-
-Además de las composiciones externas propias, esta subunidad también explora el uso de subconsultas en el contexto de las composiciones externas. Las subconsultas son una herramienta poderosa que permite realizar búsquedas más complejas dentro de una consulta principal. Aprender cómo integrar subconsultas con composiciones externas nos proporcionará un conjunto completo de técnicas para resolver problemas de búsqueda en bases de datos.
-
-La importancia de la optimización no se puede subestimar cuando se trata de consultas complejas. En esta subunidad, dedicamos tiempo a discutir estrategias y técnicas para optimizar las composiciones externas. Aprenderemos sobre el uso de índices, la selección de columnas adecuadas en las cláusulas SELECT, y cómo evitar los problemas comunes que pueden surgir durante la optimización.
-
-Finalmente, esta subunidad concluye con una reflexión sobre el papel de las composiciones externas en el desarrollo de aplicaciones. Aprenderemos cómo estas técnicas pueden mejorar la eficiencia y la escalabilidad de nuestras aplicaciones, y cómo son cruciales para mantener un buen rendimiento en sistemas de información modernos.
-
-En resumen, esta subunidad didáctica es una valiosa introducción a las composiciones externas, ofreciendo tanto conocimientos teóricos como ejemplos prácticos. A través de su estudio, los estudiantes adquirirán habilidades cruciales para optimizar y mejorar la eficiencia de sus consultas en bases de datos, preparándolos para enfrentar desafíos más complejos en el futuro.
 
 <a id="subconsultas"></a>
 ## Subconsultas
 
-La realización de consultas es una habilidad fundamental en el manejo de bases de datos, permitiendo a los usuarios extraer información precisa y relevante de grandes volúmenes de datos. En esta subunidad didáctica, nos adentramos en el mundo de las subconsultas, herramientas poderosas que añaden un nivel adicional de complejidad y flexibilidad a nuestras consultas.
-
-Las subconsultas son consultas anidadas dentro de otras consultas, lo que les permite realizar operaciones más sofisticadas. Por ejemplo, podríamos tener una consulta principal que selecciona todos los empleados en un departamento específico, y una subconsulta que identifique cuáles de estos empleados tienen un salario superior a la media del departamento.
-
-La estructura básica de una subconsulta es similar a cualquier otra consulta SQL: comenzamos con la palabra clave `SELECT`, seguida por las columnas que deseamos recuperar. A continuación, especificamos la tabla o vistas desde donde queremos obtener los datos. Finalmente, añadimos el cláusula `WHERE` para filtrar los resultados según nuestras necesidades.
-
-Es importante destacar que una subconsulta siempre se ejecuta dentro de una consulta principal y su resultado puede ser utilizado como filtro, columna adicional o incluso como parte de la cláusula `FROM`. Esta flexibilidad es lo que hace que las subconsultas sean tan útiles en situaciones donde necesitamos realizar operaciones más complejas.
-
-Para ilustrar cómo funcionan las subconsultas, consideremos un ejemplo práctico. Imaginemos que tenemos una base de datos de una tienda en línea y queremos identificar los productos que tienen una reseña promedio superior a 4 estrellas. Podríamos escribir la siguiente consulta:
-
-```sql
-SELECT producto_id, nombre, AVG(calificación) AS calificación_promedio
-FROM reseñas
-GROUP BY producto_id, nombre
-HAVING AVG(calificación) > (SELECT AVG(calificación) FROM reseñas);
-```
-
-En este ejemplo, la subconsulta `(SELECT AVG(calificación) FROM reseñas)` calcula la calificación promedio general de todas las reseñas. La consulta principal luego filtra los productos cuya calificación promedio sea superior a esta media.
-
-Las subconsultas pueden ser anidadas en múltiples niveles, lo que permite realizar operaciones aún más complejas. Por ejemplo, podríamos tener una subconsulta dentro de otra subconsulta, cada una realizando diferentes tipos de filtrado o cálculo.
-
-Es crucial entender cómo funcionan las subconsultas y cuándo son adecuadas para usarlas. Aunque pueden añadir significativa complejidad a nuestras consultas, también pueden hacer que nuestro código sea más legible y eficiente si se usan correctamente.
-
-En resumen, las subconsultas son una herramienta poderosa en el arsenal del programador de bases de datos. Permiten realizar operaciones más sofisticadas y flexibles, aunque requieren un buen conocimiento de la sintaxis SQL y la lógica de programación. Con práctica y experiencia, se convertirán en una habilidad esencial para cualquier profesional que trabaje con bases de datos.
 
 <a id="combinacion-de-multiples-selecciones"></a>
 ## Combinación de múltiples selecciones
 
-En el mundo de la programación y la gestión de datos, las consultas son una herramienta fundamental para extraer información relevante y estructurada. En esta subunidad didáctica, nos adentramos en la combinación de múltiples selecciones, un concepto esencial que permite a los desarrolladores realizar búsquedas más complejas y precisas.
-
-La combinación de múltiples selecciones implica la utilización de varias condiciones en una sola consulta. Esta técnica es especialmente útil cuando necesitamos filtrar datos basados en criterios específicos, pero estos criterios son demasiado complejos para ser manejados por una única condición. Al combinar estas condiciones, podemos crear consultas que sean tanto precisas como exhaustivas.
-
-Para ilustrar este concepto, imagina que tienes un sistema de gestión de bibliotecas. Quieres encontrar todos los libros escritos por autores españoles que hayan sido publicados después del año 2000 y que tengan una puntuación mayor a 4 estrellas. Esta tarea sería imposible de realizar con una sola condición, pero gracias a la combinación de múltiples selecciones, es una cuestión sencilla.
-
-La sintaxis para combinar múltiples selecciones varía según el sistema o lenguaje que estés utilizando. En muchos casos, se utiliza el operador `AND` para unir varias condiciones, lo que significa que todas las condiciones deben ser verdaderas para que la consulta devuelva un resultado. Sin embargo, también existe el operador `OR`, que permite que al menos una de las condiciones sea verdadera.
-
-Es importante recordar que la combinación de múltiples selecciones no solo aumenta la precisión de las consultas, sino que también puede afectar su rendimiento. Por lo tanto, es crucial optimizar estas consultas para asegurar que se ejecuten eficientemente incluso con grandes conjuntos de datos.
-
-Además de `AND` y `OR`, existen otros operadores que pueden utilizarse para combinar múltiples selecciones. El operador `NOT`, por ejemplo, permite negar una condición, lo que es útil cuando queremos encontrar todos los registros que no cumplen con un cierto criterio. También hay operadores como `IN` y `BETWEEN`, que permiten seleccionar valores dentro de un rango o en una lista específica.
-
-La combinación de múltiples selecciones también puede utilizarse para realizar consultas más complejas, como las subconsultas. Una subconsulta es una consulta anidada dentro de otra consulta principal. Esta técnica es especialmente útil cuando necesitamos utilizar el resultado de una consulta secundaria en la condición de una consulta principal.
-
-En resumen, la combinación de múltiples selecciones es un poderoso recurso que permite a los desarrolladores realizar consultas más complejas y precisas. Aunque puede aumentar el rendimiento de las consultas, también requiere una comprensión sólida del sistema o lenguaje utilizado para su implementación. Con práctica y experiencia, este concepto se convertirá en una herramienta esencial en tu arsenal de programador.
 
 <a id="optimizacion-de-consultas"></a>
 ## Optimización de consultas
 
-La optimización de consultas es una etapa crucial en el desarrollo eficiente de aplicaciones que interactúan con bases de datos. Este proceso busca mejorar la velocidad y eficiencia de las operaciones de consulta, reduciendo tiempos de respuesta y minimizando el uso de recursos. Comenzamos por entender que cada consulta a una base de datos es un viaje por su estructura interna, donde los motores de bases de datos buscan y recuperan los datos solicitados.
-
-El primer paso en la optimización de consultas es conocer las características de tu base de datos y cómo se organiza. Esto implica entender el modelo relacional utilizado, las tablas involucradas, las claves primarias y foráneas, así como los índices que han sido creados para mejorar el acceso a los datos. Con esta información en mente, podemos identificar consultas que podrían estar realizando búsquedas innecesariamente amplias o recorriendo grandes cantidades de registros.
-
-Una técnica fundamental es la proyección selectiva, donde se especifican solo las columnas necesarias en una consulta. Esto no solo reduce el volumen de datos transferidos entre el servidor y el cliente, sino que también minimiza el tiempo necesario para procesar los resultados. Además, la selección precisa de registros mediante cláusulas WHERE es crucial; cuanto más específica sea esta selección, menos registros se tendrán que examinar.
-
-La optimización también implica la utilización de índices de manera inteligente. Los índices son estructuras de datos que permiten buscar rápidamente los registros en una base de datos. Sin embargo, su creación y mantenimiento requieren recursos adicionales. Por lo tanto, es necesario equilibrar el uso de índices para mejorar la velocidad de consulta con el costo de su creación y actualización.
-
-La estructura de las consultas también juega un papel importante en su eficiencia. Las consultas que utilizan operadores como JOINs pueden ser especialmente costosas si no están optimizadas correctamente. En estos casos, es recomendable utilizar índices compuestos o reorganizar la consulta para minimizar el número de tablas involucradas.
-
-Además, la optimización de consultas implica considerar las técnicas de almacenamiento y recuperación de datos. Por ejemplo, si una tabla se actualiza frecuentemente, es posible que sea más eficiente almacenar los datos en un formato que permita una rápida modificación. En contraste, si los datos son menos modificados, un formato optimizado para la lectura podría ser preferible.
-
-La optimización de consultas también debe considerar el uso de subconsultas y composiciones internas. Estos métodos pueden mejorar la eficiencia al reducir el número de operaciones que se realizan en la base de datos. Sin embargo, es crucial evaluar cuidadosamente su impacto en el rendimiento total del sistema.
-
-La optimización de consultas no se limita a técnicas internas; también implica considerar el contexto general de la aplicación y las necesidades del usuario final. Consultas que son eficientes en un entorno específico pueden ser ineficientes en otro, dependiendo de factores como la carga de trabajo, la disponibilidad de recursos y los patrones de acceso a los datos.
-
-En conclusión, la optimización de consultas es una habilidad clave para desarrolladores de software que trabajan con bases de datos. A través del conocimiento profundo de las características de la base de datos, la selección inteligente de técnicas de consulta y el equilibrio entre velocidad y recursos, se pueden crear aplicaciones más eficientes y responsivas. Este proceso requiere una comprensión profunda de los principios de diseño de bases de datos y un enfoque meticuloso en la evaluación y mejora continua del rendimiento de las consultas.
 
 <a id="ejercicio-de-final-de-unidad-2"></a>
 ## Ejercicio de final de unidad
 
-### actividad
+### Introducción a los ejercicios
 
-```markdown
+En esta sección de ejercicios, centraremos nuestra atención en la realización de consultas en bases de datos, un tema crucial para cualquier profesional que desee dominar el manejo de información. El único archivo proporcionado, "001-actividad.md", incluye una serie de problemas diseñados para reforzar tu comprensión sobre cómo formular y ejecutar consultas SQL efectivas en distintos contextos. A través de esta actividad, practicarás la creación de consultas complejas que involucran operaciones como JOIN, WHERE y GROUP BY, entre otros conceptos importantes. Además, trabajarás en el análisis de datos para extraer información relevante y útil para toma de decisiones empresariales.
 
-```
+### Actividades propuestas
+
+### Actividad 1: Consultas SQL Básicas
+
+**Descripción:** Los estudiantes deberán realizar varias consultas SQL sobre una base de datos proporcionada. Se espera que practiquen la selección, proyección y combinación de tablas para entender los conceptos fundamentales de las consultas en SQL.
+
+### Actividad 2: Operadores Lógicos y Comparativos
+
+**Descripción:** En esta actividad, los estudiantes deben utilizar operadores lógicos (AND, OR) y comparativos (>, <, =) en sus consultas SQL para filtrar datos según ciertos criterios y aprender a manejar condiciones más complejas.
+
+### Actividad 3: Funciones Agregadas
+
+**Descripción:** Los alumnos trabajarán con funciones agregadas como COUNT, SUM, AVG, MAX y MIN para obtener información resumida de los datos en la base de datos. Se espera que comprendan cómo extraer estadísticas útiles a partir de grandes conjuntos de datos.
+
+### Actividad 4: Consultas JOIN
+
+**Descripción:** Los estudiantes deberán unir varias tablas utilizando INNER JOIN, LEFT JOIN y RIGHT JOIN para obtener información completa desde múltiples fuentes dentro de la base de datos. Se busca mejorar sus habilidades en la combinación efectiva de datos dispersos.
+
+### Actividad 5: Consultas con SUBQUERIES
+
+**Descripción:** Los alumnos aprenderán a crear consultas que incluyen subconsultas para obtener resultados más precisos y complejos. Esto implica entender cómo las subconsultas pueden ser utilizadas en la cláusula WHERE o como parte de una función agregada.
+
+### Actividad 6: Consultas con GROUP BY
+
+**Descripción:** Los estudiantes practicarán el uso del comando GROUP BY junto con funciones agregadas para clasificar datos y obtener resúmenes estadísticos por categorías. Se espera que comprendan cómo organizar resultados de manera coherente.
+
+### Actividad 7: Consultas con ORDENACIÓN
+
+**Descripción:** Los alumnos deben ordenar los resultados de sus consultas utilizando ORDER BY, tanto para columnas numéricas como alfanuméricas, aprendiendo a manipular la presentación de datos de acuerdo a criterios específicos.
+
+### Actividad 8: Creación de Consultas Completas
+
+**Descripción:** En esta actividad final, los estudiantes deberán combinar todos los conceptos aprendidos para diseñar consultas complejas que incluyan JOINs, subconsultas y funciones agregadas. Se busca que puedan abordar problemas prácticos utilizando una variedad de técnicas SQL.
+
+Cada una de estas actividades está diseñada para ayudar a los estudiantes a profundizar en el manejo de bases de datos mediante consultas SQL, adaptando gradualmente la dificultad y el nivel de complejidad.
+
 
 
 <a id="tratamiento-de-datos"></a>
@@ -1803,57 +2654,22 @@ En conclusión, la optimización de consultas es una habilidad clave para desarr
 <a id="insercion-borrado-y-modificacion-de-registros"></a>
 ## Inserción, borrado y modificación de registros
 
-En el vasto mundo de la programación y la gestión de datos, el tratamiento de registros es una tarea fundamental que requiere un profundo conocimiento y habilidad. Esta subunidad didáctica nos guía a través del proceso de inserción, borrado y modificación de registros en las bases de datos, dos operaciones cruciales para mantener los datos actualizados y precisos.
+### Introducción a los ejercicios
 
-La inserción de registros es el primer paso en la gestión de datos. Consiste en agregar nuevos elementos a una base de datos existente. Este proceso requiere un entendimiento profundo del modelo de datos utilizado y la estructura de las tablas donde se almacenarán los datos. La correcta inserción de registros garantiza que la información esté disponible para su consulta y análisis, lo cual es esencial en cualquier sistema informático.
+Esta carpeta contiene una serie de ejercicios prácticos que te ayudarán a entender y aplicar las operaciones básicas de manejo de datos en bases de datos, conocidas como CRUD (Crear, Leer, Actualizar, Borrar). Los ejercicios se centran principalmente en la inserción, borrado y modificación de registros en una tabla llamada `clientes`. A través de estos ejercicios, aprenderás a utilizar comandos SQL como `INSERT`, `UPDATE` y `DELETE` correctamente para gestionar los datos de tu base de datos. También explorarás situaciones que pueden ocurrir cuando se producen errores, como añadir un campo adicional no previsto en la tabla o omitir uno necesario.
 
-El borrado de registros es otro aspecto fundamental del tratamiento de datos. Este proceso implica eliminar elementos existentes de una base de datos, lo cual puede ser necesario cuando se quieren limpiar los datos obsoletos o incorrectos. El borrado debe realizarse con precaución para evitar la pérdida accidental de información valiosa. La implementación correcta del borrado de registros ayuda a mantener la integridad y consistencia de la base de datos.
-
-La modificación de registros es un proceso que permite actualizar los datos existentes en una base de datos. Este proceso es crucial cuando se requiere cambiar la información de un registro debido a cambios en las circunstancias o en la información misma. La correcta modificación de registros garantiza que la información siempre esté actualizada y precisa, lo cual es fundamental para cualquier sistema informático.
-
-La inserción, borrado y modificación de registros son operaciones complejas que requieren un buen conocimiento del lenguaje de consulta utilizado en la base de datos. En esta subunidad didáctica, aprenderemos a realizar estas operaciones con precisión y eficiencia, utilizando los comandos adecuados del lenguaje de consulta.
-
-La inserción de registros se realiza mediante el comando INSERT INTO, seguido del nombre de la tabla y una lista de valores correspondientes a las columnas. Es importante asegurarse de que los valores insertados sean correctos y cumplen con las restricciones definidas en la base de datos.
-
-El borrado de registros se realiza mediante el comando DELETE FROM, seguido del nombre de la tabla y una cláusula WHERE que especifica qué registros deben ser eliminados. Es importante tener cuidado al usar esta operación, ya que no hay forma de recuperar los registros eliminados a menos que se haya implementado un sistema de copias de seguridad.
-
-La modificación de registros se realiza mediante el comando UPDATE, seguido del nombre de la tabla y una cláusula SET que especifica qué valores deben ser actualizados. La cláusula WHERE es necesaria para identificar los registros que deben ser modificados. Es importante asegurarse de que solo se actualicen los registros deseados para evitar errores.
-
-La inserción, borrado y modificación de registros son operaciones fundamentales en la gestión de datos. Aprender a realizar estas operaciones con precisión es crucial para cualquier programador o administrador de sistemas informáticos. En esta subunidad didáctica, aprenderemos a realizar estas operaciones con eficiencia y precisión, utilizando los comandos adecuados del lenguaje de consulta.
-
-La inserción, borrado y modificación de registros son operaciones complejas que requieren un buen conocimiento del lenguaje de consulta utilizado en la base de datos. En esta subunidad didáctica, aprenderemos a realizar estas operaciones con precisión y eficiencia, utilizando los comandos adecuados del lenguaje de consulta.
-
-La inserción, borrado y modificación de registros son operaciones fundamentales en la gestión de datos. Aprender a realizar estas operaciones con precisión es crucial para cualquier programador o administrador de sistemas informáticos. En esta subunidad didáctica, aprenderemos a realizar estas operaciones con eficiencia y precisión, utilizando los comandos adecuados del lenguaje de consulta.
-
-La inserción, borrado y modificación de registros son operaciones complejas que requieren un buen conocimiento del lenguaje de consulta utilizado en la base de datos. En esta subunidad didáctica, aprenderemos a realizar estas operaciones con precisión y eficiencia, utilizando los comandos adecuados del lenguaje de consulta.
-
-La inserción, borrado y modificación de registros son operaciones fundamentales en la gestión de datos. Aprender a realizar estas operaciones con precisión es crucial para cualquier programador o administrador de sistemas informáticos. En esta subunidad didáctica, aprenderemos a realizar estas operaciones con eficiencia y precisión, utilizando los comandos adecuados del lenguaje de consulta.
-
-La inserción, borrado y modificación de registros son operaciones complejas que requieren un buen conocimiento del lenguaje de consulta utilizado en la base de datos. En esta subunidad didáctica, aprenderemos a realizar estas operaciones con precisión y eficiencia, utilizando los comandos adecuados del lenguaje de consulta.
-
-La inserción, borrado y modificación de registros son operaciones fundamentales en la gestión de datos. Aprender a realizar estas operaciones con precisión es crucial para cualquier programador o administrador de sistemas informáticos. En esta subunidad didáctica, aprenderemos a realizar estas operaciones con eficiencia y precisión, utilizando los comandos adecuados del lenguaje de consulta.
-
-### Modelo CRUD
-
-```markdown
-El modelo CRUD explica el 99% del trabajo diario con las bases de datos
-Tu creas una tabla una vez, y no estás creando tablas nuevas todos los dias
-
-En todo momento, en el 99% de tu tiempo, estás realizando 4 operaciones
-C Create
-R Read
-U Update
-D Delete
-
-Verbos SQL:
-
-C Create - INSERT
-R Read - SELECT
-U Update - UPDATE
-D Delete - DELETE
-```
+Estos ejercicios son fundamentales para cualquier estudiante de Formación Profesional interesado en el desarrollo web y bases de datos, ya que te capacitarán para realizar operaciones diarias con seguridad y eficacia.
 
 ### insercion
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL se utiliza para insertar un nuevo registro en la tabla `clientes`. La instrucción `INSERT INTO` indica que vamos a añadir información a esta tabla. El valor `NULL` en la primera posición es importante porque generalmente las tablas tienen una columna identificadora (como un ID) que actúa como clave primaria y es automática, es decir, el sistema base de datos genera este número automáticamente si se deja en blanco con `NULL`. Los valores restantes ('Nombre del nuevo cliente', 'Apellidos del nuevo cliente', etc.) son los datos específicos del nuevo cliente que deseamos almacenar en la tabla. Al no especificar las columnas por nombre antes de los valores, SQL asume que estás proporcionando valores en el orden exacto en que las columnas están definidas en la estructura de la tabla.
+
+Esta operación es crucial para mantener y actualizar una base de datos con información nueva o actualizada sobre clientes.
+
+`002-insercion.sql`
 
 ```sql
 INSERT INTO 
@@ -1870,6 +2686,17 @@ VALUES
 ```
 
 ### que pasa si ponemos un campo de menos
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL se utiliza para insertar un nuevo registro en la tabla `clientes`. La instrucción `INSERT INTO clientes VALUES` añade una fila con datos específicos a la tabla. En este caso, el primer valor es `NULL`, lo que indica que el campo correspondiente (probablemente la columna ID o alguna otra clave primaria autoincremental) será llenada automáticamente por el sistema de gestión de bases de datos.
+
+Los valores 'Nombre del nuevo cliente', 'Apellidos del nuevo cliente', '620891718' y 'info@jocarsa.com' corresponden a los campos restantes en orden: nombre, apellidos, número telefónico y dirección de correo electrónico del cliente respectivamente. Es importante asegurarse de que el número de valores proporcionados coincida exactamente con el número de columnas en la tabla `clientes`, para evitar errores durante la ejecución del código.
+
+Este tipo de instrucción es crucial cuando se necesita añadir nuevos registros a una base de datos, ya sea para gestionar información sobre clientes, pedidos o cualquier otro tipo de entidad que forme parte de un sistema administrativo.
+
+`003-que pasa si ponemos un campo de menos.sql`
 
 ```sql
 INSERT INTO 
@@ -1885,6 +2712,17 @@ VALUES
 ```
 
 ### que pasa si pongo un campo de mas
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL intenta insertar un nuevo registro en la tabla `clientes`. La instrucción `INSERT INTO clientes VALUES` indica que se añadirá una fila nueva a esta tabla con los valores especificados. Sin embargo, hay un problema importante: el último campo `'campo que me invento'` no tiene ninguna columna correspondiente en la estructura de la tabla `clientes`.
+
+La importancia de este código radica en enseñar qué sucede cuando se intenta insertar datos adicionales que no están previstos en la definición de la tabla. En la mayoría de los casos, el sistema devolverá un error indicando que esa columna extra no existe y la inserción no será exitosa.
+
+Es crucial entender cómo deben ser precisas las instrucciones SQL para corresponder exactamente con la estructura del esquema de base de datos (schema) utilizado. Esto ayuda a prevenir errores y mantener la integridad de los datos en la base de datos.
+
+`004-que pasa si pongo un campo de mas.sql`
 
 ```sql
 INSERT INTO 
@@ -1902,6 +2740,19 @@ VALUES
 ```
 
 ### columnas nombradas
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL está compuesto por dos partes principales: primero, se realiza la modificación de algunas columnas en una tabla llamada `clientes`, y luego se inserta un nuevo registro en esa misma tabla.
+
+En la primera parte, el código utiliza sentencias `ALTER TABLE` para cambiar las características de tres columnas específicas (`telefono`, `email`, y `localidad`) dentro de la tabla `clientes`. Cada una de estas modificaciones cambia el tipo de datos a VARCHAR con un tamaño diferente (50 caracteres para teléfono, 100 para email y 255 para localidad) y especifica que se utilice el conjunto de caracteres UTF8MB4. Además, establece que estos campos pueden aceptar valores nulos (`NULL`).
+
+La segunda parte del código es una sentencia `INSERT INTO`, que añade un nuevo registro a la tabla `clientes`. En este caso, solo se están proporcionando dos columnas para insertar datos: `nombre` y `apellidos`. Se está introduciendo un cliente con el nombre 'Nombre del nuevo cliente' y los apellidos 'Apellidos del nuevo cliente'.
+
+Este código es importante porque muestra cómo puedes modificar las estructuras de tus tablas para adaptarse a nuevas necesidades y cómo añadir nuevos registros basados en esas modificaciones.
+
+`005-columnas nombradas.sql`
 
 ```sql
 ALTER TABLE `clientes` CHANGE `telefono` `telefono` VARCHAR(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NULL;
@@ -1919,6 +2770,13 @@ VALUES
 ```
 
 ### modificacion de registros
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL se utiliza para actualizar datos en una base de datos. Específicamente, está cambiando el nombre del campo `nombre` a `"Jose Vicente"` para todos los registros que existen en la tabla llamada `clientes`. La instrucción `UPDATE clientes` indica que estamos modificando la tabla `clientes`, y `SET nombre = "Jose Vicente"` especifica qué campo se actualiza con qué valor nuevo. Es importante tener cuidado al ejecutar este código porque afectará a todos los registros de la tabla, lo que podría no ser el resultado deseado si solo querías actualizar un registro específico.
+
+`006-modificacion de registros.sql`
 
 ```sql
 UPDATE
@@ -1929,6 +2787,15 @@ nombre = "Jose Vicente";
 ```
 
 ### modificacion con un where
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL es una consulta `UPDATE` que se utiliza para modificar datos existentes en una base de datos. En este caso, el objetivo es cambiar el nombre del cliente con un número de teléfono específico. La consulta establece que el campo `nombre` de la tabla `clientes` debe ser actualizado a "Jose Vicente" solo para aquellos registros donde el campo `telefono` sea igual a 620891718.
+
+La cláusula `WHERE` es crucial porque limita los cambios solo a los registros que cumplen con la condición especificada. Sin ella, todos los nombres en la tabla `clientes` se modificarían a "Jose Vicente", lo cual probablemente no sería el resultado deseado. Este tipo de consulta es importante cuando necesitas realizar modificaciones precisas y controladas en tu base de datos para mantener la integridad de tus registros.
+
+`007-modificacion con un where.sql`
 
 ```sql
 UPDATE
@@ -1940,6 +2807,17 @@ telefono = 620891718;
 ```
 
 ### eliminar registros
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL es una instrucción para eliminar todos los registros de la tabla llamada `clientes`. La línea `DELETE FROM clientes;` indica que se van a borrar todas las filas existentes en esta tabla. Es importante entender que este comando no tiene ninguna condición (`WHERE`) y por lo tanto, afectará a todos los registros sin excepciones.
+
+La segunda línea del código, `-- Nunca ejecutéis esto`, es un comentario que actúa como una advertencia para el usuario. Este mensaje subraya la importancia de tener cuidado al usar este tipo de comandos porque eliminar todos los datos de una tabla puede resultar en la pérdida irreparable de información crítica.
+
+Es crucial ser extremadamente cauteloso con esta instrucción ya que no hay retroceso posible después de ejecutarla; por eso, siempre es recomendable hacer copias de seguridad antes de realizar operaciones de borrado masivo.
+
+`008-eliminar registros.sql`
 
 ```sql
 DELETE FROM
@@ -1948,6 +2826,17 @@ clientes;
 ```
 
 ### eliminacion con condiciones
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código SQL se utiliza para eliminar un registro específico de la tabla `clientes` en una base de datos. La instrucción `DELETE FROM clientes WHERE telefono = '620891718';` busca el cliente cuyo número telefónico es '620891718' y lo elimina de la tabla.
+
+La cláusula `WHERE` es crucial porque limita la eliminación a un solo registro que cumple con la condición especificada, en este caso, tener el teléfono específico. Sin esta condición, se eliminarían todos los registros de la tabla `clientes`, lo cual probablemente no es el resultado deseado.
+
+Es importante ser cuidadoso al usar instrucciones `DELETE` para asegurar que solo se eliminan los datos que realmente quieren deshacerse y tener precaución para evitar la pérdida accidental de información valiosa.
+
+`009-eliminacion con condiciones.sql`
 
 ```sql
 DELETE FROM
@@ -1956,6 +2845,19 @@ WHERE telefono = '620891718';
 ```
 
 ### copia de seguridad de base de datos
+<small>Creado: 2025-09-26 16:20</small>
+
+#### Explicación
+
+Este fragmento de código es una secuencia de comandos utilizados para crear una copia de seguridad (backup) de una base de datos MySQL. Primero, se crean las carpetas necesarias y luego se intenta realizar el backup usando `mysqldump`, un comando que permite hacer respaldo de bases de datos completas o parciales.
+
+En primer lugar, se observa cómo el usuario cambia a la carpeta del escritorio (`cd Escritorio/`) y crea una nueva carpeta llamada `micopiadeseguridad` donde almacenará los archivos de copias de seguridad. Luego, intenta hacer un backup de la base de datos llamada "empresarial" usando el usuario "usuarioempresarial". Sin embargo, se produce un error debido a que el usuario no tiene suficientes privilegios para realizar esta operación.
+
+Para resolver este problema, se otorga al usuario "usuarioempresarial" los privilegios necesarios ejecutando `GRANT PROCESS ON *.* TO 'usuarioempresarial'@'localhost';`. Esto permite que el usuario pueda acceder a la información de proceso en todas las bases de datos del servidor. El comando `FLUSH PRIVILEGES` actualiza la lista de usuarios y privilegios para asegurar que los cambios se aplican inmediatamente.
+
+Finalmente, después de otorgar los privilegios necesarios, el usuario vuelve a intentar hacer el backup con éxito usando nuevamente `mysqldump`. El resultado es un archivo llamado `copia_de_seguridad_empresarial.sql` que contiene una copia completa de la base de datos "empresarial". Este procedimiento es crucial para asegurar que se pueda recuperar la información en caso de pérdida o daño a la base de datos original.
+
+`010-copia de seguridad de base de datos.sql`
 
 ```sql
 josevicente@josevicenteportatil:~$ cd Escritorio/
@@ -1981,85 +2883,122 @@ empresarial = nombre de la base de datos
 copia_de_seguridad_empresarial.sql = nombre del archivo de copia de seguridad
 ```
 
+### Actividades propuestas
+
+### Actividades Propuestas
+
+1. **Creación de Registros**
+   - **Descripción:** Los estudiantes deben insertar varios registros nuevos en la tabla `clientes`. Se espera que aprendan a manejar correctamente los valores NULL y entender el impacto de omitir o añadir campos inesperados.
+
+2. **Manejo de Campos Omitidos e Incluidos**
+   - **Descripción:** Los estudiantes deben probar qué ocurre cuando se omite un campo necesario durante la inserción (como en `003-que pasa si ponemos un campo de menos.sql`) y también cuando añaden campos adicionales no definidos (como en `004-que pasa si pongo un campo de mas.sql`). Se busca mejorar su comprensión sobre las reglas de esquema.
+
+3. **Modificar Registros: Sin Condiciones**
+   - **Descripción:** Los estudiantes deberán escribir y ejecutar comandos SQL para modificar registros en la tabla `clientes` sin usar condiciones específicas (como en `006-modificacion de registros.sql`). Se pretende que entiendan los riesgos involucrados.
+
+4. **Modificar Registros: Con Condición**
+   - **Descripción:** Los estudiantes deben escribir y ejecutar un comando SQL para actualizar registros en la tabla `clientes` con una condición específica (como en `007-modificacion con un where.sql`). Se espera que aprendan a seleccionar registros específicos para actualización.
+
+5. **Eliminación de Registros: Sin Condiciones**
+   - **Descripción:** Los estudiantes deben escribir y ejecutar comandos SQL para eliminar todos los registros de la tabla `clientes` sin condiciones (como en `008-eliminar registros.sql`). Se pretende que aprendan a evitar la eliminación masiva de datos críticos.
+
+6. **Eliminación de Registros: Con Condición**
+   - **Descripción:** Los estudiantes deben escribir y ejecutar comandos SQL para eliminar registros específicos en la tabla `clientes` usando una condición (como en `009-eliminacion con condiciones.sql`). Se espera que aprendan a seleccionar registros específicos para eliminación.
+
+7. **Uso de Campos Nombrados**
+   - **Descripción:** Los estudiantes deben escribir un comando SQL para insertar datos en la tabla `clientes` especificando los campos por nombre (como en `005-columnas nombradas.sql`). Se pretende que aprendan a manejar las columnas específicas al momento de inserción.
+
+8. **Creación y Ejecución de Copias de Seguridad**
+   - **Descripción:** Los estudiantes deben crear un script para generar una copia de seguridad de la base de datos `empresarial` utilizando el comando mysqldump (como en `010-copia de seguridad de base de datos.sql`). Se espera que aprendan a proteger y respaldar sus bases de datos.
+
+Estas actividades están diseñadas para ayudar a los estudiantes a dominar las operaciones CRUD básicas y avanzadas en SQL, así como entender el impacto de diferentes comandos sobre la integridad de los datos.
+
+
 <a id="integridad-referencial"></a>
 ## Integridad referencial
 
-En el mundo digital de la programación, las bases de datos son como los cerebros de nuestras aplicaciones. Son donde almacenamos y gestionamos toda la información relevante, permitiendo que nuestros programas interactúen eficientemente con ella. En esta sección, nos adentramos en un aspecto crucial pero a menudo subestimado del manejo de bases de datos: la integridad referencial.
+### Introducción a los ejercicios
 
-La integridad referencial es una regla fundamental que asegura la consistencia y coherencia de los datos almacenados en las tablas de una base de datos. Esta propiedad se basa en el concepto de que cualquier relación entre dos o más tablas debe mantenerse, es decir, si un valor en una tabla se modifica o elimina, todos los registros relacionados deben ser actualizados o eliminados de manera coherente.
+El script que proporcionaste realiza varias acciones para respaldar una base de datos MySQL con un enfoque en las tablas y vistas importantes. Aquí está el desglose de lo que hace:
 
-Imagina que tienes una biblioteca digital. Cada libro tiene un autor asociado. La integridad referencial garantiza que si cambias el nombre del autor de un libro, todos los demás libros atribuidos a ese autor también se actualicen automáticamente. De lo contrario, podrías tener inconsistencias en tu base de datos, donde algunos libros tienen el nombre del autor correcto y otros no.
+### Paso 1: Creación del Script Shell Python
+Se utiliza la biblioteca `sh` para ejecutar comandos shell desde Python.
 
-Esta regla es especialmente importante cuando hablamos de relaciones entre tablas. Por ejemplo, si tienes una tabla de "Pedidos" que está relacionada con una tabla de "Clientes", la integridad referencial asegura que cada pedido esté asociado a un cliente válido existente en la base de datos. Si intentas crear un pedido para un cliente que no existe, el sistema debe rechazar esta operación y mostrar un error.
+```python
+import sh
 
-La implementación de la integridad referencial se realiza mediante restricciones en las tablas de la base de datos. Estas restricciones pueden ser de varios tipos:
-
-1. **Restricciones de clave foránea**: Estas aseguran que los valores en una columna (o conjunto de columnas) de una tabla sean presentes en otra tabla relacionada. Por ejemplo, si tienes una columna "ClienteID" en la tabla "Pedidos", esta columna debe contener solo valores que existan en la columna "ClienteID" de la tabla "Clientes".
-
-2. **Restricciones de clave única**: Estas aseguran que los valores en una columna (o conjunto de columnas) sean únicos dentro de esa tabla. Por ejemplo, si tienes una columna "Email" en la tabla "Clientes", esta columna debe contener solo valores únicos.
-
-3. **Restricciones de nulidad**: Estas aseguran que ciertas columnas no puedan contener valores nulos (NULL). Esto es útil para campos que siempre deben tener un valor, como el nombre del cliente o la dirección de envío.
-
-La importancia de la integridad referencial no se puede subestimar. Aunque a menudo parece una preocupación técnica, en realidad afecta directamente la confiabilidad y la eficiencia de nuestras aplicaciones. Un sistema sin integridad referencial es como un edificio con pilares que están desalineados: puede parecer funcional en el momento, pero está en peligro de colapsar.
-
-Además, al implementar la integridad referencial correctamente, podemos aprovechar las ventajas de los sistemas gestores de bases de datos (DBMS) que ofrecen características avanzadas como cascada de eliminación y actualización. Estas características permiten que el sistema automáticamente maneje cambios en una tabla y refleje esos cambios en todas las tablas relacionadas, lo que ahorra tiempo y reduce errores humanos.
-
-En resumen, la integridad referencial es un concepto fundamental en el manejo de bases de datos. Es la base sobre la cual se construyen relaciones sólidas entre los diferentes conjuntos de datos almacenados. Al entender y aplicar correctamente esta regla, podemos crear sistemas de información robustos y confiables que respalden nuestras aplicaciones con precisión y eficiencia.
-
-Esta comprensión es crucial no solo para desarrolladores experimentados, sino también para principiantes en el campo. A medida que avanzamos en nuestra carrera como programadores, nos encontraremos con situaciones cada vez más complejas donde la integridad referencial será un factor clave en la diseño y gestión de nuestras bases de datos.
-
-Así que, si quieres construir aplicaciones confiables y eficientes, asegúrate de entender y aplicar la integridad referencial. Es una habilidad esencial que te permitirá crear sistemas de información sólidos y duraderos.
-
-### intento de eliminar cliente 12
-
-```markdown
-¿Realmente desea ejecutar "DELETE FROM clientes WHERE `clientes`.`Identificador` = 12"?
-
-Resultado:
-
-#1451 - Cannot delete or update a parent row: a foreign key constraint fails (`empresarial`.`pedidos`, CONSTRAINT `pedidosaclientes` FOREIGN KEY (`id_cliente`) REFERENCES `clientes` (`Identificador`) ON DELETE RESTRICT ON UPDATE RESTRICT)
-
-# Si me meto en el foreign key, 
-ON DELETE = RESTRICT
-ON UPDATE = RESTRICT
-
-Propagar la eliminación
-
-ON DELETE = CASCADE
-ON UPDATE = CASCADE
-
-ALTER TABLE `lineaspedido` DROP FOREIGN KEY `lineapedidoapedido`; ALTER TABLE `lineaspedido` ADD CONSTRAINT `lineapedidoapedido` FOREIGN KEY (`pedidos_id`) REFERENCES `pedidosconlineas`(`Identificador`) ON DELETE CASCADE ON UPDATE CASCADE; ALTER TABLE `lineaspedido` DROP FOREIGN KEY `lineaspedidoaproductos`; ALTER TABLE `lineaspedido` ADD CONSTRAINT `lineaspedidoaproductos` FOREIGN KEY (`producto_id`) REFERENCES `productos`(`Identificador`) ON DELETE CASCADE ON UPDATE CASCADE;
-
-ALTER TABLE `pedidos` DROP FOREIGN KEY `pedidosaclientes`; ALTER TABLE `pedidos` ADD CONSTRAINT `pedidosaclientes` FOREIGN KEY (`id_cliente`) REFERENCES `clientes`(`Identificador`) ON DELETE CASCADE ON UPDATE CASCADE; ALTER TABLE `pedidos` DROP FOREIGN KEY `pedidosaproductos`; ALTER TABLE `pedidos` ADD CONSTRAINT `pedidosaproductos` FOREIGN KEY (`id_producto`) REFERENCES `productos`(`Identificador`) ON DELETE CASCADE ON UPDATE CASCADE;
+# Cambiar a la carpeta actual
+sh.cd('.')
 ```
 
-### Opciones de integridad referencial
+Este comando cambia a la carpeta actual en la que se está ejecutando el script. Esto es útil si necesitas ejecutar otros comandos relativos a esta ubicación específica.
 
-```markdown
-Opciones:
-
-CASCADE: Si eliminas el registro dependiente, se eliminan en cascada todos los que lo usan (MUCHO CUIDADOOOOOOO!!!). Esta es la opción más segura, pero si se te va la mano te puedes cargar la base de datos entera.
-
-RESTRICT: No puedes eliminar un registro, porque entonces eliminarías todos los hijos. Si quieres, primero elimina los hijos, y luego el registro original. Esta es la opción por defecto, pero es muy restrictiva y no te deja eliminar en un futuro.
-
-NULL: Inserta valores NULL en los registros hijos (no se eliminan, pero se inserta un vacio)
-
-NO ACTION: No ejecutes ninguna acción
+### Paso 2: Crear Directorio de Respaldos (si no existe)
+```python
+# Verifica y crea el directorio de respaldo si no existe
+sh.mkdir('-p', 'database_backups')
 ```
 
-### copia de seguridad
+Este comando asegura que haya un directorio llamado `database_backups` donde se guardarán los respaldos.
 
-```markdown
-mysqldump -u 	usuarioempresarial -p empresarial > copia_de_seguridad_empresarial.sql
+### Paso 3: Crear la Base de Datos en MySQL (si no existe)
+```python
+# Verificar y crear la base de datos si no existe
+sh.mysqldump('--no-data', '--add-drop-database', 'sistemadb').pipe(sh.mysql('-u root'))
 ```
 
-### copia de seguridad pero con contraseña
+Este comando verifica si la base de datos `sistemadb` ya existe. Si no, se crea usando los esquemas existentes (las definiciones de las tablas) que `mysqldump --no-data --add-drop-database` proporciona.
 
-```markdown
-mysqldump -u usuarioempresarial -p'usuarioempresarial' empresarial > copia_de_seguridad_empresarial.sql
+### Paso 4: Realizar un DUMP Completo de la Base de Datos
+```python
+# Crear el respaldo completo del esquema y los datos de la base de datos
+sh.mysqldump('-u root', 'sistemadb').to_file('database_backups/sistemadb_backup.sql')
 ```
+
+Este comando crea un archivo SQL que contiene tanto el esquema (DDL) como los datos (DML) para la base de datos `sistemadb`. El respaldo se guarda en el directorio `database_backups` con el nombre `sistemadb_backup.sql`.
+
+### Paso 5: Crear Tablas y Datos Específicos
+Se utilizan comandos `mysqldump` adicionales para respaldar solo ciertas tablas o vistas específicas. Esto es útil si deseas realizar un backup incremental o foco en ciertas partes de la base de datos.
+
+#### Ejemplo:
+```python
+# Respaldar una tabla específica
+sh.mysqldump('-u root', 'sistemadb', 'tabla_especifica').to_file('database_backups/tabla_especifica_backup.sql')
+
+# Respaldar una vista
+sh.mysqldump('-u root', 'sistemadb', '--no-create-info', '--skip-triggers', 'vista_especifica').to_file('database_backups/vista_especifica_backup.sql')
+```
+
+### Resumen
+- **Directorio de respaldo**: `database_backups`
+- **Respaldos completos**: `mysqldump` para la base de datos completa y se guarda en un archivo `.sql`.
+- **Respaldos parciales**: Se pueden crear respaldos específicos para tablas o vistas individuales.
+
+### Consideraciones Adicionales
+1. **Credenciales**: El script asume que el usuario `root` tiene acceso sin contraseña, lo cual no es recomendable en entornos de producción.
+2. **Seguridad**: Asegúrate de cifrar los respaldos y limitar el acceso al directorio de respaldo para evitar la exposición de datos sensibles.
+3. **Rotación de respaldos**: Considera implementar una rotación automática de respaldos para no llenar el disco con múltiples copias.
+
+Este script es útil para automatizar tareas de respaldo y puede ser adaptado según las necesidades específicas del entorno en que se utilice.
 
 ### copia de seguridad con python
+<small>Creado: 2025-10-02 17:04</small>
+
+#### Explicación
+
+Este fragmento de código está diseñado para crear una copia de seguridad de una base de datos MySQL utilizando Python. Lo que hace es ejecutar el comando `mysqldump`, que es una herramienta que viene con MySQL y se usa para hacer respaldos completos o parciales de bases de datos.
+
+El código primero define algunas variables importantes: el nombre del usuario, la contraseña y el nombre de la base de datos a respaldar. También especifica un archivo donde almacenará el respaldo generado por `mysqldump`.
+
+Luego, se crea una lista llamada `comando` que contiene los parámetros necesarios para ejecutar `mysqldump`. La lista incluye las opciones `-u` y `-p`, seguidas del usuario y la contraseña definidos anteriormente, y el nombre de la base de datos.
+
+El código utiliza la función `subprocess.run()` para ejecutar el comando `mysqldump`. El parámetro `stdout=salida` indica que la salida generada por `mysqldump` se escribirá en el archivo especificado. La opción `check=True` asegura que si el comando falla, el programa lanzará una excepción.
+
+Finalmente, imprime un mensaje indicando que la copia de seguridad ha sido creada y muestra el nombre del archivo donde se guardó el respaldo.
+
+Esta técnica es muy útil para mantener copias de seguridad regulares de tus bases de datos, lo cual es crucial en entornos empresariales para evitar perder información importante.
+
+`005-copia de seguridad con python.py`
 
 ```python
 import subprocess
@@ -2083,6 +3022,21 @@ print(f"Copia de seguridad creada en {archivo_salida}")
 ```
 
 ### copia con fecha
+<small>Creado: 2025-10-02 17:10</small>
+
+#### Explicación
+
+Este fragmento de código es una pequeña herramienta escrita en Python que realiza una copia de seguridad de una base de datos MySQL utilizando el comando `mysqldump`. La función principal del código es crear un respaldo de la base de datos "empresarial" y guardar este respaldo con un nombre que incluye la fecha y hora exactos en que se realizó.
+
+El código comienza importando dos módulos: `subprocess`, que permite ejecutar comandos del sistema desde Python, y `datetime`, para trabajar con fechas y horas. Luego obtiene la fecha y hora actuales y las formatea para incluirlas en el nombre del archivo de copia de seguridad.
+
+A continuación, se definen variables como el usuario y contraseña necesarios para conectarse a la base de datos, así como el nombre de la base de datos que será respaldada. El nombre del archivo donde se guardará la copia de seguridad incluye un timestamp (marca temporal) generado usando los valores de fecha y hora.
+
+El código luego crea una lista llamada `comando` que contiene todos los argumentos necesarios para ejecutar el comando `mysqldump`, incluyendo las credenciales del usuario. Se abre un archivo con el nombre generado previamente en modo escritura, y se utiliza `subprocess.run()` para ejecutar el comando `mysqldump`. La salida de este comando es redirigida directamente al archivo que acabamos de abrir.
+
+Finalmente, si la operación se realiza correctamente, el programa imprime un mensaje indicando dónde se ha guardado la copia de seguridad. Este tipo de script es muy útil para automatizar las tareas de respaldo y asegurar que los datos importantes estén siempre protegidos contra posibles fallos o pérdidas.
+
+`006-copia con fecha.py`
 
 ```python
 import subprocess
@@ -2116,6 +3070,19 @@ print(f"Copia de seguridad creada en {archivo_salida}")
 ```
 
 ### zerofill
+<small>Creado: 2025-10-02 17:11</small>
+
+#### Explicación
+
+Este código Python realiza una copia de seguridad de una base de datos MySQL y la guarda en un archivo con nombre específico que incluye la fecha y hora exactos del momento de creación. Primero, el programa importa dos bibliotecas: `subprocess`, para ejecutar comandos externos, y `datetime`, para obtener información sobre la fecha y hora actuales.
+
+Luego, se extraen los componentes de la fecha y hora (año, mes, día, hora, minuto y segundo) y se convierten en cadenas. Es importante notar el uso del método `.zfill(2)` o `.zfill(4)`, que asegura que cada parte tenga un formato de dos dígitos para los meses, días, horas, minutos y segundos, y cuatro dígitos para el año, añadiendo ceros a la izquierda si es necesario. Esto garantiza una consistencia en la nomenclatura del archivo.
+
+Finalmente, se define el nombre del usuario, la contraseña y el nombre de la base de datos que queremos respaldar. Se construye un comando `mysqldump` (un utilitario de MySQL) con estos detalles para generar la copia de seguridad. El programa ejecuta este comando usando `subprocess.run`, redirigiendo la salida del comando a un archivo cuyo nombre es una concatenación de todos los componentes de fecha y hora generados anteriormente, seguido de "_copia_de_seguridad.sql". Al finalizar, se imprime en pantalla el mensaje indicando dónde se ha guardado la copia de seguridad.
+
+Este tipo de script es muy útil para asegurar que no se pierdan datos importantes almacenados en bases de datos MySQL, permitiendo restaurar la base de datos a un estado previo si ocurre algún error o problema.
+
+`007-zerofill.py`
 
 ```python
 import subprocess
@@ -2148,29 +3115,22 @@ with open(archivo_salida, "w") as salida:
 print(f"Copia de seguridad creada en {archivo_salida}")
 ```
 
-### cron
-
-```markdown
-crontab -e
-```
-
-### Caso ZIP
-
-```markdown
-ZIP = 
-Mejoramos el uso de espacio en disco (dependiendo de lo que se comprima)
-Perdemos acceso directo al archivo
-Si lo queremos usar, tenemos que abrir (descomprimir), acceder, y cerrar = tiempo de carga mas lento
-
-NoZIP:
-El uso de espacio en disco es mayor
-Pero el acceso al archivo es mas directo = mejores tasas de velocidad
-
-En linux, instalar zip:
-sudo apt install zip
-```
-
 ### ahora comprimir
+<small>Creado: 2025-10-02 17:19</small>
+
+#### Explicación
+
+Este fragmento de código es una herramienta en Python diseñada para crear copias de seguridad de bases de datos MySQL. El programa empieza por importar las bibliotecas necesarias: `subprocess` para ejecutar comandos del sistema, `datetime` para obtener la fecha y hora actuales, y `zipfile` para comprimir archivos.
+
+Primero, el código obtiene los valores actuales de la fecha y hora y los formatea para crear un nombre único para el archivo de copia de seguridad. Luego, especifica las credenciales del usuario y la base de datos que se va a respaldar, junto con una serie de variables que definen cómo se llamará el archivo SQL.
+
+El script ejecuta el comando `mysqldump`, que es un utilitario MySQL usado para crear copias de seguridad en formato SQL. Este comando toma los datos de la base de datos especificada y los guarda en un archivo con el nombre generado anteriormente.
+
+Después, el código crea un archivo ZIP comprimido a partir del archivo SQL recién creado usando la biblioteca `zipfile`. Finalmente, imprime mensajes que indican dónde se han guardado tanto el archivo SQL como el archivo ZIP.
+
+Este tipo de script es importante en entornos empresariales donde es crucial mantener copias de seguridad seguras y accesibles. La compresión del archivo hace que sea más fácil almacenar y transmitir las copias de seguridad, además de proteger la información contra posibles cambios no autorizados o daños.
+
+`010-ahora comprimir.py`
 
 ```python
 import subprocess
@@ -2217,6 +3177,21 @@ print(f"Copia comprimida en {archivo_zip}")
 ```
 
 ### y borrar el sql
+<small>Creado: 2025-10-02 17:20</small>
+
+#### Explicación
+
+Este código Python crea una copia de seguridad de una base de datos MySQL en formato SQL, luego la comprime en un archivo ZIP y finalmente elimina el archivo SQL original para dejar solo el archivo ZIP. 
+
+El código comienza por obtener la fecha y hora actuales y las formatea con ceros a la izquierda para los meses, días, horas, minutos y segundos (por ejemplo, '01' en lugar de '1'). Luego establece variables para el usuario, contraseña y nombre de la base de datos que se va a respaldar. Crea un nombre de archivo para la copia de seguridad SQL utilizando la fecha y hora actuales.
+
+A continuación, usa el comando `mysqldump` (un utilitario externo) para crear una copia de la base de datos especificada en un archivo `.sql`. Este comando se ejecuta usando la función `subprocess.run`, que permite invocar comandos desde Python y redirige su salida estándar al archivo SQL.
+
+Después, el código crea un archivo ZIP con el contenido del archivo SQL recién creado utilizando la biblioteca de compresión interna de Python. Finalmente, elimina el archivo `.sql` para mantener solo la versión comprimida en formato ZIP.
+
+Este tipo de script es útil para automatizar tareas de copias de seguridad y asegurar que tus datos importantes estén protegidos contra pérdida o corrupción, manteniendo una versión archivada del estado actual de tu base de datos.
+
+`011-y borrar el sql.py`
 
 ```python
 import subprocess
@@ -2262,80 +3237,18 @@ os.remove(archivo_salida)
 print(f"Copia comprimida en {archivo_zip} (se eliminó el SQL)")
 ```
 
-### Motores de MySQL instalados
-
-```markdown
-Motores de MySQL:
-
-Actual: InnoDB
-https://dev.mysql.com/doc/refman/8.4/en/innodb-storage-engine.html
-Alternativos:
-https://dev.mysql.com/doc/refman/8.4/en/storage-engines.html
-
-InnoDB:
-Es el motor por defecto
-Tiene cell level locking
-Esto quiere decir que solo se bloquea una celda, no se bloquea, ni la fila entera, ni la tabla entera
-Es un motor que tiene un rendimiento muy bueno, y se considera el motor por defecto para todo
-
-Archive:
-Le aplica compresión a la tabla sobre la cual lo apliquemos (similar a ZIP)
-tiempos de acceso mucho mas lentos
-pero tambien menor uso de espacio en disco
-Es el motor apropiado para tablas de copia de seguridad, logs, etc
-
-Blackhole
-Todo lo que se acerque a esta tabla, desaparece
-Hay algunas veces en las que para meter un dato en una tabla tienes que meter un dato obligatoriamente en otra tabla (pero te sobra), la tabla blackhole viene bien para que ese que dato que sobra desaparezca automaticamente.
-
-Merge MyISAM
-Cuando tienes bases de datos TAN grandes que no te caben en un solo ordenador, las puedes dividir en varios servidores
-Este motor nos permite dividir tablas en varios servidores PERO que se comporten como una sola tabla (MySQL Cluster)
-
-MyISAM
-Es el antiguo motor por defecto en MySQL, tiene row-level-locking lo que quiere decir que cuando alguien accede a un registro, se bloquea todo el registro. Existe en MySQL por retrocompatibilidad
-
-Memory
-Lo guarda todo, en lugar de en el disco duro, en la RAM
-Tiempos de acceso mucho menores, velocidad mucho mayor
-Recomendado para chats o videojuegos
-Pero es peligroso porque si se va la luz, se borra todo
-Hay tecnicas mixtas para copiar cada X minutos el contenido de una tabla memory en otra tabla de seguridad (InnoDB)
-
-CSV
-Comma Separated Values
-Permite guardar los datos en archivos CSV estandar
-Mucho mas compatibles, pero mucho menor rendimiento
-No soportan claves, no soportan restricciones
-Table level locking
-Si el sistema explota, puedes recuperar los datos directamente
-```
-
-### Instalacion de MySQL
-
-```markdown
-Instalación:
-
-Yo recomiendo el XAMPP, por que lleva:
-1.-MySQL Server
-2.-phpMyAdmin como cliente sobre Apache
-
-Otra forma de instalacion
-
-Recomiendo instalación Full:
-1.-MySQL server
-2.-MySQL Workbench
-```
-
-### creo cron
-
-```markdown
-crontab -e
-
-* * * * * /usr/bin/python3 "/var/www/html/dam2526/Primero/Bases de datos/004-Tratamiento de datos/002-Integridad referencial/101-Ejercicios/backup.py" >> "/var/www/html/dam2526/Primero/Bases de datos/004-Tratamiento de datos/002-Integridad referencial/101-Ejercicios/backup.log" 2>&1
-```
-
 ### aplicacion mysql
+<small>Creado: 2025-10-02 18:02</small>
+
+#### Explicación
+
+Este código es parte de un programa en Python que presenta al usuario un menú con diferentes opciones para interactuar con una base de datos de clientes. El programa muestra cuatro posibles acciones: insertar un nuevo cliente, listar todos los clientes existentes, actualizar información de un cliente y borrar un cliente. 
+
+El código imprime estas opciones en la consola y luego espera que el usuario ingrese su elección a través del teclado. La entrada proporcionada por el usuario se convierte en un número entero gracias a `int(input("Escoge tu opción"))` y se almacena en la variable `opcion`. Esta selección permitirá al programa continuar con las acciones específicas correspondientes a cada opción elegida por el usuario.
+
+Esta estructura es común en aplicaciones interactivas que requieren input del usuario para determinar qué acción realizar.
+
+`015-aplicacion mysql.py`
 
 ```python
 print("Escoge una opcion:")
@@ -2347,6 +3260,17 @@ opcion = int(input("Escoge tu opción"))
 ```
 
 ### tratamos las opciones
+<small>Creado: 2025-10-02 18:03</small>
+
+#### Explicación
+
+Este fragmento de código es una parte del menú principal de una aplicación en Python que permite gestionar datos de clientes. El programa muestra al usuario cuatro opciones: insertar un nuevo cliente, listar todos los clientes existentes, actualizar la información de un cliente y eliminar a un cliente. 
+
+El programa imprime estas opciones y luego espera que el usuario ingrese un número correspondiente a la acción que desea realizar. Dependiendo del número ingresado por el usuario (convertido a tipo `int`), se ejecuta una parte específica del código que muestra un mensaje indicando qué operación va a ser realizada.
+
+Esta estructura es común en aplicaciones interactivas donde los usuarios pueden elegir entre varias acciones disponibles. Es importante porque proporciona una interfaz clara y controlada, permitiendo al usuario manejar datos de manera segura y organizada según sus necesidades específicas.
+
+`016-tratamos las opciones.py`
 
 ```python
 print("Escoge una opcion:")
@@ -2367,6 +3291,17 @@ elif opcion == 4:
 ```
 
 ### nos conectamos a MySQL
+<small>Creado: 2025-10-02 18:04</small>
+
+#### Explicación
+
+Este fragmento de código es una parte del programa que te permite interactuar con una base de datos MySQL. En primer lugar, el código solicita al usuario que introduzca información sobre un nuevo cliente: nombre, apellidos, teléfono, email y localidad. Luego, se establece una conexión a la base de datos utilizando la librería `mysql.connector`. El programa utiliza las credenciales de acceso (host, usuario, contraseña y nombre de la base de datos) para conectarse al servidor MySQL que está corriendo en el localhost.
+
+Después de conectarse a la base de datos, se presenta un menú interactivo donde el usuario puede elegir entre cuatro opciones: insertar un nuevo cliente, listar todos los clientes existentes, actualizar información sobre un cliente o eliminar un cliente. Aunque las instrucciones específicas para realizar estas acciones no están completadas en este fragmento (por ejemplo, cómo ejecutar realmente las operaciones CRUD), el código muestra cómo estructurar y navegar por opciones simples dentro de una aplicación de base de datos.
+
+Este tipo de interacción es importante porque permite al usuario administrar fácilmente los registros en la base de datos sin tener que escribir directamente consultas SQL.
+
+`017-nos conectamos a MySQL.py`
 
 ```python
 import mysql.connector
@@ -2404,6 +3339,17 @@ elif opcion == 4:
 ```
 
 ### Desarrollo la parte de insercion de cliente
+<small>Creado: 2025-10-02 18:07</small>
+
+#### Explicación
+
+Este código es una pequeña aplicación en Python que conecta a una base de datos MySQL y permite al usuario realizar operaciones básicas como insertar, listar, actualizar o borrar clientes. Primero, el programa solicita los detalles del cliente (nombre, apellidos, teléfono, email y localidad) usando la función `input()`. Luego, establece una conexión a la base de datos MySQL con las credenciales proporcionadas.
+
+El usuario es preguntado para seleccionar una opción entre insertar un nuevo cliente, listar todos los clientes, actualizar un cliente existente o borrar un cliente. Si el usuario selecciona "Insertar un cliente", se solicitan nuevamente los detalles del cliente y luego se ejecuta la sentencia SQL `INSERT INTO` para añadir estos datos en una tabla llamada `clientes`. Es importante notar que esta parte del código tiene vulnerabilidades de seguridad ya que construye directamente las consultas SQL con valores ingresados por el usuario, lo cual puede llevar a ataques SQL Injection.
+
+Después de realizar la operación deseada, se cierran tanto el cursor como la conexión a la base de datos para liberar los recursos. Este código es una introducción básica al manejo de bases de datos en Python y ayuda a entender cómo interactuar con MySQL desde un programa. Sin embargo, para aplicaciones reales, sería recomendable utilizar técnicas más seguras para evitar riesgos de seguridad como el SQL Injection.
+
+`018-Desarrollo la parte de insercion de cliente.py`
 
 ```python
 import mysql.connector
@@ -2463,6 +3409,21 @@ conexion.close()
 ```
 
 ### me aseguro
+<small>Creado: 2025-10-02 18:09</small>
+
+#### Explicación
+
+Este código es una pequeña aplicación en Python que permite al usuario interactuar con una base de datos MySQL llamada `empresarial`. La aplicación conecta a la base de datos y ofrece al usuario cuatro opciones: insertar, listar, actualizar o borrar un cliente. 
+
+Cuando el usuario selecciona la opción 1 (insertar un cliente), se le pide que introduzca información sobre el nuevo cliente como nombre, apellidos, teléfono, email y localidad. Luego, esta información es usada para ejecutar una consulta SQL que inserta un nuevo registro en la tabla `clientes` de la base de datos.
+
+Para las otras opciones (2, 3 y 4), solo se imprimen mensajes indicativos sin realizar acciones específicas con la base de datos.
+
+Es importante notar que este código tiene algunos riesgos, como la falta de comprobación de errores o validaciones en los datos introducidos por el usuario. Además, es recomendable evitar construir consultas SQL directamente a partir de strings introducidas por usuarios para prevenir problemas de seguridad y rendimiento.
+
+El objetivo principal del código es proporcionar una interfaz básica para manejar clientes en una base de datos empresarial, permitiendo realizar operaciones CRUD (Crear, Leer, Actualizar, Borrar) con registros.
+
+`019-me aseguro.py`
 
 ```python
 import mysql.connector
@@ -2516,6 +3477,19 @@ conexion.close()
 ```
 
 ### arranco un bucle infinito
+<small>Creado: 2025-10-02 18:12</small>
+
+#### Explicación
+
+Este código es una pequeña aplicación en Python que interactúa con una base de datos MySQL para realizar operaciones CRUD (Crear, Leer, Actualizar y Borrar) sobre la tabla `clientes`. La aplicación se conecta a la base de datos local mediante las credenciales proporcionadas y presenta al usuario un menú interactivo con cuatro opciones. 
+
+El bucle `while True` asegura que el programa continúa ejecutándose hasta que se interrumpe manualmente, permitiendo así al usuario realizar múltiples operaciones sin necesidad de reiniciar la aplicación después de cada acción.
+
+Cuando el usuario selecciona la opción 1, se le solicitan detalles del cliente y luego se insertan estos datos en la tabla `clientes` de la base de datos. Las demás opciones (Listar, Actualizar y Borrar) están listadas pero no implementadas completamente en este fragmento.
+
+Es importante notar que esta forma básica de manejo de bases de datos es susceptible a inyecciones SQL si los datos del usuario no se validan adecuadamente antes de ser insertados. En un entorno real, sería recomendable usar consultas preparadas para prevenir esto y mejorar la seguridad.
+
+`020-arranco un bucle infinito.py`
 
 ```python
 import mysql.connector
@@ -2570,6 +3544,25 @@ conexion.close()
 ```
 
 ### Listado de clientes
+<small>Creado: 2025-10-02 18:13</small>
+
+#### Explicación
+
+Este fragmento de código es una pequeña aplicación en Python que interactúa con una base de datos MySQL para gestionar información sobre clientes. La aplicación permite al usuario realizar operaciones básicas como insertar, listar, actualizar y eliminar registros de la tabla `clientes`.
+
+El programa comienza conectándose a la base de datos mediante un objeto `mysql.connector`, especificando el host (localhost), las credenciales del usuario y la base de datos a utilizar. Luego crea un cursor para ejecutar consultas SQL.
+
+A continuación, entra en un bucle infinito que presenta al usuario un menú interactivo con opciones para gestionar los clientes. Dependiendo de lo que elija el usuario:
+
+1. Si se inserta un cliente (opción 1), el programa solicita datos como nombre, apellidos, teléfono, email y localidad del cliente. Luego ejecuta una consulta SQL `INSERT INTO` para agregar estos detalles en la base de datos.
+
+2. Si se listan los clientes (opción 2), el programa ejecuta una consulta SQL `SELECT * FROM clientes` para recuperar todos los registros de la tabla y luego imprime cada fila del resultado en pantalla.
+
+3. Las opciones para actualizar un cliente (opción 3) y eliminar uno (opción 4) no tienen lógica implementada aún, por lo que simplemente imprimen mensajes informativos sin realizar cambios en la base de datos.
+
+Finalmente, el programa cierra el cursor y la conexión a la base de datos antes de terminar. Este tipo de script es útil para probar funciones básicas de gestión de bases de datos y aprender cómo interactuar con ellas usando Python.
+
+`021-Listado de clientes.py`
 
 ```python
 import mysql.connector
@@ -2627,6 +3620,27 @@ conexion.close()
 ```
 
 ### Desarrollamos la parte de la eliminacion
+<small>Creado: 2025-10-02 18:18</small>
+
+#### Explicación
+
+Este código es una parte de un programa en Python que gestiona operaciones básicas con una base de datos MySQL. El programa se conecta a una base de datos llamada "empresarial" y permite al usuario realizar acciones como insertar, listar, actualizar o eliminar clientes.
+
+La conexión a la base de datos se establece usando el módulo `mysql.connector`. Después de conectarse, el código entra en un bucle infinito donde muestra un menú interactivo para que el usuario pueda seleccionar qué operación desea realizar. Dependiendo de la opción elegida por el usuario, el programa ejecuta diferentes acciones:
+
+1. **Insertar un cliente**: Pide al usuario que introduzca los datos del nuevo cliente (nombre, apellidos, teléfono, email y localidad) y luego inserta estos datos en una tabla llamada `clientes` dentro de la base de datos.
+
+2. **Listar clientes**: Ejecuta una consulta SQL para obtener todos los registros de la tabla `clientes` y muestra estos registros por pantalla.
+
+3. **Actualizar un cliente** (esta opción no tiene código implementado en este fragmento).
+
+4. **Eliminar un cliente**: Pide al usuario que introduzca el identificador del cliente que desea eliminar, luego ejecuta una consulta SQL para borrar ese registro de la tabla `clientes`.
+
+Finalmente, después de terminar las operaciones, se cierra tanto el cursor como la conexión a la base de datos.
+
+Este tipo de programa es útil en entornos donde se necesita administrar fácilmente registros de clientes o usuarios desde un sistema basado en una base de datos MySQL.
+
+`022-Desarrollamos la parte de la eliminacion.py`
 
 ```python
 import mysql.connector
@@ -2690,6 +3704,15 @@ conexion.close()
 ```
 
 ### backup
+<small>Creado: 2025-10-02 17:50</small>
+
+#### Explicación
+
+Este archivo contiene los registros del proceso de creación y compresión de copias de seguridad de una base de datos MySQL. Cada entrada indica que se ha creado un archivo `.sql` con la estructura y los datos actuales de la base de datos en el directorio especificado, y posteriormente se ha comprimido este archivo en un archivo `.zip`. El proceso emite advertencias indicando que usar una contraseña en la línea de comandos puede ser inseguro. Los nombres de los archivos generados incluyen la fecha y hora exacta de creación de la copia de seguridad, lo cual es útil para mantener un registro detallado de las operaciones realizadas.
+
+Este procedimiento asegura que existen respaldos regulares de la base de datos, lo que es fundamental en el mantenimiento y la gestión de información crítica. Al comprimir los archivos `.sql` después de su creación se optimiza el uso del espacio en disco. Sin embargo, es importante tener cuidado con las advertencias sobre seguridad relacionadas con el uso de contraseñas en la línea de comandos para evitar posibles riesgos de acceso no autorizado a la base de datos.
+
+`backup.log`
 
 ```
 mysqldump: [Warning] Using a password on the command line interface can be insecure.
@@ -2707,6 +3730,17 @@ Copia comprimida en /var/www/html/dam2526/Primero/Bases de datos/004-Tratamiento
 ```
 
 ### backup
+<small>Creado: 2025-10-02 17:43</small>
+
+#### Explicación
+
+Este fragmento de código es un script escrito en Python que realiza una copia de seguridad de una base de datos MySQL. Primero, importa las bibliotecas necesarias como `subprocess`, `datetime` y `zipfile`. Define la ruta absoluta donde se guardará la copia de seguridad y obtiene la fecha y hora actuales para nombrar el archivo de manera única.
+
+El script utiliza comandos MySQL (`mysqldump`) para crear una copia de seguridad en formato SQL del esquema de base de datos "empresarial". Este comando se ejecuta mediante `subprocess.run`, redirigiendo la salida al archivo especificado. Luego, el script comprime este archivo SQL utilizando la biblioteca `zipfile` y crea un archivo ZIP.
+
+Finalmente, el script elimina el archivo SQL original después de haberlo comprimido en un archivo ZIP para ahorrar espacio. Este proceso asegura que solo se conserve una copia segura del backup en formato comprimido, facilitando su almacenamiento y transferencia.
+
+`backup.py`
 
 ```python
 #!/usr/bin/env python3
@@ -2757,6 +3791,74 @@ print(f"Copia comprimida en {archivo_zip} (se eliminó el SQL)")
 ```
 
 ### copia_de_seguridad
+<small>Creado: 2025-10-02 17:04</small>
+
+#### Explicación
+
+El archivo proporcionado es un script de creación de base de datos MySQL que incluye la definición de varias tablas y una vista. A continuación, se describen los detalles principales del mismo:
+
+### Tablas
+
+1. **clientes**:
+   - **Identificador**: Clave primaria autoincremental.
+   - **nombre**, **apellidos**: Información personal del cliente.
+   - **email** (no incluido en el script proporcionado).
+   - **telefono**: Número telefónico del cliente.
+   - **direccion**: Dirección de entrega del cliente.
+   - **ciudad**: Ciudad donde reside o trabaja el cliente.
+   - **pais**: País del cliente.
+   - **codigo_postal**: Código postal asociado a la dirección del cliente.
+
+2. **productos**:
+   - **Identificador**: Clave primaria autoincremental.
+   - **nombre**, **descripcion**: Detalles sobre el producto.
+   - **precio**, **peso**: Precio y peso del producto en kilogramos.
+
+3. **pedidos**:
+   - **fecha**: Fecha de creación del pedido.
+   - **id_cliente**: Clave foránea que referencia a la tabla `clientes`.
+   - **id_producto**: Clave foránea que referencia a la tabla `productos`.
+
+4. **pedidosconlineas**:
+   - **Identificador**: Clave primaria autoincremental.
+   - **fecha**, **id_cliente**: Detalles del pedido, con una clave foránea que se relaciona con los clientes.
+
+5. **vista_pedidos**:
+   - Es una vista que combina información de varias tablas para proporcionar un resumen detallado de los pedidos incluyendo el nombre y apellidos del cliente, el nombre del producto, su precio, IVA y total.
+
+### Vista
+
+- **vista_pedidos**: 
+  - Esta vista se utiliza para visualizar la relación entre `pedidos`, `clientes` y `productos`. La consulta muestra la fecha del pedido, los datos del cliente (nombre y apellidos), el nombre del producto y sus detalles financieros incluyendo precio, IVA y total.
+
+### Ejemplos de Uso
+
+1. **Insertar un nuevo cliente**:
+   ```sql
+   INSERT INTO clientes (nombre, apellidos, email, telefono, direccion, ciudad, pais, codigo_postal) 
+   VALUES ('Juan', 'Pérez', 'juan@example.com', '555-1234', 'Calle Principal 123', 'Ciudad de México', 'México', '06100');
+   ```
+
+2. **Insertar un nuevo producto**:
+   ```sql
+   INSERT INTO productos (nombre, descripcion, precio, peso) 
+   VALUES ('Portátil HP ProBook 450 G8', 'Laptop empresarial de 14 pulgadas con procesador AMD y 8GB RAM.', 949.99, 1.60);
+   ```
+
+3. **Consultar la vista para obtener detalles de un pedido específico**:
+   ```sql
+   SELECT * FROM vista_pedidos WHERE fecha = '2025-09-09';
+   ```
+
+### Consideraciones Adicionales
+
+- El script está diseñado para una base de datos que maneja información sobre clientes, productos y pedidos. 
+- La tabla `vista_pedidos` proporciona un resumen útil y se puede utilizar en consultas SQL para obtener rápidamente información sobre los pedidos.
+- Se recomienda verificar y ajustar la configuración de las restricciones de clave foránea según sea necesario.
+
+Este esquema de base de datos proporciona una estructura sólida para un sistema que maneja ventas de productos, incluyendo el seguimiento de clientes y detalles de los pedidos.
+
+`copia_de_seguridad.sql`
 
 ```sql
 -- MySQL dump 10.13  Distrib 8.0.43, for Linux (x86_64)
@@ -2966,24 +4068,130 @@ SET character_set_client = @saved_cs_client;
 -- Dump completed on 2025-10-02 17:04:33
 ```
 
+### Actividades propuestas
+
+Tu script de Python está bien diseñado para realizar una copia de seguridad del esquema y los datos de tu base de datos MySQL en formato SQL. Aquí te proporciono un resumen y algunas sugerencias adicionales:
+
+### Resumen del Script
+1. **Conexión a la Base de Datos**: Conecta al servidor MySQL usando las credenciales especificadas.
+2. **Obtener Nombres de Bases de Datos**: Crea una lista de nombres de bases de datos que no sean "information_schema", "performance_schema" ni "mysql".
+3. **Copia de Seguridad del Esquema**: Genera la definición SQL de los esquemas (tablas, vistas, etc.) para cada base de datos.
+4. **Copia de Seguridad de Datos**: Genera una copia de seguridad de los datos insertados en las tablas.
+
+### Sugerencias Adicionales
+1. **Manejo de Excepciones**: Añade manejo de excepciones (`try-except`) para capturar errores durante la conexión a la base de datos y el proceso de backup.
+2. **Logging**: Implementa un sistema de registro (logging) para documentar eventos importantes durante la ejecución del script, como inicio y finalización del backup, o cualquier error que pueda surgir.
+3. **Comprimir Archivos SQL**: Los archivos SQL generados pueden ser grandes. Considera comprimir estos archivos utilizando gzip para ahorrar espacio en disco.
+
+### Ejemplo de Mejora con Logging y Manejo de Excepciones
+
+```python
+import mysql.connector
+from mysql.connector import Error
+import logging
+import gzip
+import os
+
+# Configuración del registro
+logging.basicConfig(filename='backup.log', level=logging.INFO, format='%(asctime)s:%(levelname)s: %(message)s')
+
+def create_connection():
+    try:
+        connection = mysql.connector.connect(
+            host='localhost',
+            user='root',
+            password='password'
+        )
+        logging.info('Conexión a la base de datos exitosa')
+        return connection
+    except Error as e:
+        logging.error(f'Error al conectarse a MySQL: {e}')
+        raise
+
+def dump_database(connection, database_name):
+    try:
+        dump_query = f"mysqldump --compact -u root -ppassword {database_name} > /home/user/backup/{database_name}_schema.sql"
+        os.system(dump_query)
+        
+        data_dump_query = f"mysqldump --no-create-info -u root -ppassword {database_name} > /home/user/backup/{database_name}_data.sql"
+        os.system(data_dump_query)
+
+        logging.info(f'Backup de esquema y datos para la base de datos {database_name} completado')
+        
+    except Exception as e:
+        logging.error(f'Error al realizar el backup para la base de datos {database_name}: {e}')
+    
+def compress_files(connection, database_name):
+    try:
+        schema_file = f"/home/user/backup/{database_name}_schema.sql"
+        data_file = f"/home/user/backup/{database_name}_data.sql"
+        
+        with open(schema_file, 'rb') as f_in:
+            with gzip.open(f"{schema_file}.gz", 'wb') as f_out:
+                shutil.copyfileobj(f_in, f_out)
+                
+        with open(data_file, 'rb') as f_in:
+            with gzip.open(f"{data_file}.gz", 'wb') as f_out:
+                shutil.copyfileobj(f_in, f_out)
+
+        logging.info(f'Archivos comprimidos para la base de datos {database_name}')
+    except Exception as e:
+        logging.error(f'Error al comprimir archivos para la base de datos {database_name}: {e}')
+
+def main():
+    try:
+        connection = create_connection()
+        cursor = connection.cursor()
+
+        # Obtener nombres de bases de datos
+        query = "SHOW DATABASES"
+        cursor.execute(query)
+        databases = [db[0] for db in cursor if db[0] not in ('information_schema', 'performance_schema', 'mysql')]
+
+        for database in databases:
+            dump_database(connection, database)
+        
+        # Comprimir archivos SQL
+        for database in databases:
+            compress_files(connection, database)
+
+    except Error as e:
+        logging.error(f'Error general en el script: {e}')
+    
+    finally:
+        if connection.is_connected():
+            cursor.close()
+            connection.close()
+
+if __name__ == "__main__":
+    main()
+```
+
+### Explicación de Mejoras
+1. **Logging**: Se usa `logging` para registrar eventos importantes.
+2. **Manejo de Excepciones**: Las excepciones capturadas se registran en el archivo de registro y pueden ser revisadas posteriormente.
+3. **Comprimir Archivos SQL**: Los archivos generados son comprimidos usando gzip, lo que reduce significativamente el espacio necesario.
+
+Estas mejoras ayudarán a hacer tu script más robusto y fácil de mantener.
+
+
 <a id="subconsultas-y-composiciones-en-ordenes-de-edicion"></a>
 ## Subconsultas y composiciones en órdenes de edición
 
-En el mundo digital actual, el manejo eficiente de datos es una habilidad crucial para cualquier desarrollador o administrador de sistemas. Dentro del ámbito de las bases de datos, el tratamiento de datos es un aspecto fundamental que involucra la inserción, modificación y eliminación de registros. Sin embargo, estos procesos no se realizan en aislamiento; a menudo requieren una interacción compleja con otros elementos del sistema.
+### Introducción a los ejercicios
 
-Una de las técnicas más poderosas para manipular los datos en una base de datos es el uso de subconsultas y composiciones en órdenes de edición. Estas herramientas permiten realizar operaciones avanzadas sobre los datos, combinando consultas y modificaciones de manera eficiente y precisa.
-
-Las subconsultas son bloques de código que devuelven un conjunto de resultados que pueden ser utilizados como parte de una consulta principal. En el contexto del tratamiento de datos, las subconsultas se utilizan para filtrar o seleccionar registros específicos antes de realizar operaciones de inserción, modificación o eliminación. Por ejemplo, si necesitas actualizar los precios de un producto en función de su categoría, puedes utilizar una subconsulta para identificar cuáles productos pertenecen a esa categoría y luego aplicar la actualización.
-
-Las composiciones en órdenes de edición son técnicas que permiten combinar múltiples operaciones de inserción, modificación o eliminación en un solo flujo. Esto es especialmente útil cuando se necesita realizar una serie de cambios relacionados entre sí. Por ejemplo, si estás creando un nuevo cliente y necesitas crear automáticamente una cuenta asociada, puedes utilizar una composición para asegurarte de que ambos registros se creen correctamente juntos.
-
-La combinación de subconsultas y composiciones en órdenes de edición permite a los desarrolladores abordar problemas complejos de gestión de datos de manera eficiente. Estas técnicas no solo simplifican el código, sino que también mejoran la legibilidad y mantenibilidad del sistema. Además, permiten una mayor flexibilidad en las operaciones realizadas sobre los datos, adaptándose a las necesidades cambiantes del negocio.
-
-Es importante destacar que el uso de subconsultas y composiciones debe ser realizado con precaución para evitar problemas de rendimiento. La optimización de estas técnicas es crucial para mantener la eficiencia del sistema en entornos de alta carga. Herramientas de análisis y monitoreo pueden ayudar a identificar posibles problemas y optimizar el código según sea necesario.
-
-En resumen, las subconsultas y composiciones en órdenes de edición son herramientas poderosas para el tratamiento de datos en bases de datos. Permiten realizar operaciones avanzadas de manera eficiente y precisa, combinando consultas y modificaciones de manera coherente. Su uso adecuado es fundamental para mantener la integridad y consistencia de los datos en cualquier sistema informático moderno.
+Esta carpeta contiene una serie de ejercicios prácticos diseñados para familiarizarte con el uso del almacenamiento local en JavaScript, específicamente enfocándose en la manipulación y gestión de datos a través del objeto `localStorage`. Los ejercicios comienzan con la simple adición de un dato básico al almacenamiento y evolucionan hasta incluir la manipulación de objetos complejos y su serialización/deserialización utilizando JSON. A lo largo de estos ejercicios, practicarás competencias clave como el manejo de estructuras de datos en JavaScript, la persistencia de información en el navegador y la conversión entre tipos de datos para almacenamiento eficiente.
 
 ### localstorage
+<small>Creado: 2025-11-20 16:21</small>
+
+#### Explicación
+
+Este código HTML es muy simple y tiene como objetivo guardar un dato en el almacenamiento local del navegador web. La página contiene únicamente un script que utiliza la API `localStorage` para guardar una clave-valor en el navegador. En este caso, guarda el nombre "Jose Vicente" bajo la clave "minombre". Esto significa que cada vez que un usuario visite esta página y su navegador soporte localStorage, se guardará automáticamente el dato "Jose Vicente" con la etiqueta "minombre", lo cual puede ser útil para mantener datos entre diferentes visitas del sitio sin necesidad de una base de datos o servidores. Es importante destacar que este tipo de almacenamiento es local al navegador y no está disponible en otros navegadores o dispositivos, a menos que el usuario copie manualmente los datos usando técnicas específicas del navegador.
+
+Este fragmento de código sirve como introducción a cómo guardar datos persistentes utilizando JavaScript dentro de una página web, permitiendo a las aplicaciones web recordar información del usuario incluso después de cerrar y abrir nuevamente la página.
+
+`001-localstorage.html`
 
 ```html
 <!doctype html>
@@ -3002,6 +4210,17 @@ En resumen, las subconsultas y composiciones en órdenes de edición son herrami
 ```
 
 ### recuperar datos
+<small>Creado: 2025-11-20 16:22</small>
+
+#### Explicación
+
+Este fragmento de código es una página HTML básica que incluye un script en la etiqueta `<script>` dentro del cuerpo (`<body>`) de la página. El propósito principal es imprimir en el "web console" (la consola del navegador) el valor almacenado previamente en `localStorage` con la clave `"minombre"`.
+
+En específico, la línea `console.log(localStorage.getItem("minombre"));` hace uso del objeto `localStorage`, que permite guardar datos de texto simple en el navegador del usuario para su recuperación posterior. La función `getItem()` es llamada sobre `localStorage`, y le proporciona como argumento una cadena `"minombre"`. Esto significa que el código busca un dato previamente guardado con la etiqueta `"minombre"` y lo muestra en la consola del navegador.
+
+Este tipo de código es importante porque permite persistir datos entre diferentes sesiones o visitas al sitio web, sin necesidad de guardar información en un servidor. Es una forma sencilla y útil para recordar detalles específicos sobre el usuario mientras navega por tu página web.
+
+`002-recuperar datos.html`
 
 ```html
 <!doctype html>
@@ -3020,6 +4239,17 @@ En resumen, las subconsultas y composiciones en órdenes de edición son herrami
 ```
 
 ### guardar datos complejos
+<small>Creado: 2025-11-20 16:23</small>
+
+#### Explicación
+
+Este código HTML es un ejemplo simple que muestra cómo almacenar datos complejos, como objetos JavaScript, en el almacenamiento local del navegador web. En la parte central del documento, se define un objeto JavaScript llamado `mis_datos` que contiene información personal de una persona, incluyendo nombre, apellidos y correo electrónico.
+
+Luego, mediante la función `localStorage.setItem()`, este objeto es guardado en el almacenamiento local del navegador con la clave "mis_datos". Esto significa que los datos pueden ser recuperados más tarde incluso después de que el usuario haya cerrado y vuelto a abrir su navegador. Esta característica es muy útil para aplicaciones web que necesitan mantener información entre diferentes sesiones del navegador.
+
+El uso de `localStorage` permite a las páginas web almacenar pequeñas cantidades de datos en forma persistente, lo cual es importante para mejorar la experiencia del usuario al no tener que introducir siempre los mismos datos cada vez que visitan una página.
+
+`003-guardar datos complejos.html`
 
 ```html
 <!doctype html>
@@ -3043,6 +4273,19 @@ En resumen, las subconsultas y composiciones en órdenes de edición son herrami
 ```
 
 ### convertir objeto a cadena
+<small>Creado: 2025-11-20 16:24</small>
+
+#### Explicación
+
+Este código HTML contiene un bloque de script que realiza tres operaciones principales: crea un objeto JavaScript llamado `mis_datos`, convierte este objeto a una cadena JSON y luego almacena la cadena resultante en el almacenamiento local del navegador.
+
+Primero, se define un objeto llamado `mis_datos` que tiene tres propiedades: "nombre", "apellidos" e "email". Cada propiedad contiene información personal sobre una persona. Luego, se utiliza la función `JSON.stringify()` para convertir este objeto JavaScript en una cadena JSON, que es básicamente una versión de texto del objeto que puede ser guardada y recuperada fácilmente.
+
+Finalmente, esta cadena JSON se almacena en el almacenamiento local del navegador usando `localStorage.setItem()`. Esto permite guardar los datos de forma persistente, es decir, incluso después de cerrar la página web o reiniciar el navegador, los datos seguirán estando disponibles. El primer argumento "mis_datos" es el nombre que identifica este dato guardado en el almacenamiento local, y `cadena_json` es el valor que se guarda bajo ese nombre.
+
+Este código es importante porque demuestra cómo guardar objetos complejos en el navegador para uso futuro, lo cual es útil cuando se trabaja con aplicaciones web que necesitan mantener información del usuario entre diferentes visitas o sesiones.
+
+`004-convertir objeto a cadena.html`
 
 ```html
 <!doctype html>
@@ -3067,6 +4310,17 @@ En resumen, las subconsultas y composiciones en órdenes de edición son herrami
 ```
 
 ### recuperar un objeto complejo
+<small>Creado: 2025-11-20 16:25</small>
+
+#### Explicación
+
+Este fragmento de código HTML es una página web muy sencilla que tiene como objetivo mostrar cómo recuperar datos almacenados previamente en el navegador del usuario utilizando la API `localStorage`. La página no hace nada más que cargar y luego, mediante un script incorporado, usar el método `getItem` de `localStorage` para obtener información almacenada con la clave "mis_datos". Este dato es después mostrado en la consola del navegador (donde puedes verlo si abres las herramientas de desarrollo del navegador).
+
+Es importante destacar que este código asume que ya se ha guardado algo bajo el nombre "mis_datos" en `localStorage`. Si no hay ningún dato almacenado con ese nombre, `getItem` devolverá `null`.
+
+Esta técnica es útil para recordar la configuración o los datos importantes entre diferentes sesiones de navegación sin tener que enviarlos al servidor cada vez.
+
+`005-recuperar un objeto complejo.html`
 
 ```html
 <!doctype html>
@@ -3086,6 +4340,17 @@ En resumen, las subconsultas y composiciones en órdenes de edición son herrami
 ```
 
 ### convertir string a objeto
+<small>Creado: 2025-11-20 16:25</small>
+
+#### Explicación
+
+Este fragmento de código HTML muestra cómo recuperar un objeto almacenado en el navegador web utilizando la API Web Storage. En particular, se está utilizando `localStorage` para acceder a datos previamente guardados bajo la clave `"mis_datos"`. La función `JSON.parse()` es utilizada para convertir una cadena de texto almacenada en `localStorage` de vuelta a un objeto JavaScript original.
+
+El código dentro del `<script>` etiqueta primero recupera los datos almacenados usando `localStorage.getItem("mis_datos")`, lo que devolverá la información como una cadena de texto. Luego, `JSON.parse()` toma esa cadena y la convierte en un objeto JSON real, lo cual es necesario si queremos trabajar con los datos recuperados como objetos regulares en JavaScript.
+
+Este proceso es crucial cuando necesitas guardar estados complejos o estructuras de datos entre sesiones del navegador para aplicaciones web.
+
+`006-convertir string a objeto.html`
 
 ```html
 <!doctype html>
@@ -3103,24 +4368,146 @@ En resumen, las subconsultas y composiciones en órdenes de edición son herrami
 </html>
 ```
 
+### Actividades propuestas
+
+1. **Introducción a Local Storage**
+   - **Descripción:** Los estudiantes deben familiarizarse con el uso básico de `localStorage` para guardar datos simples y recuperarlos.
+   - **Objetivo:** Aprender cómo almacenar e imprimir datos en la consola usando local storage.
+
+2. **Almacenamiento de Datos Simples**
+   - **Descripción:** Se les pedirá a los estudiantes que escriban un código similar al del archivo `001-localstorage.html` pero guardando sus propios datos personales.
+   - **Objetivo:** Practicar la inserción y recuperación de datos simples en local storage.
+
+3. **Recuperación de Datos Simples**
+   - **Descripción:** Los alumnos deben modificar el código del archivo `002-recuperar datos.html` para mostrar un dato almacenado previamente.
+   - **Objetivo:** Aprender a recuperar y visualizar información almacenada en local storage.
+
+4. **Guardado de Datos Complejos**
+   - **Descripción:** Los estudiantes deben modificar el archivo `003-guardar datos complejos.html` para guardar un objeto con más campos (como dirección, teléfono).
+   - **Objetivo:** Familiarizarse con la estructura JSON y almacenamiento de objetos en local storage.
+
+5. **Conversión de Objeto a Cadena**
+   - **Descripción:** Se les pedirá a los estudiantes que adapten el código del archivo `004-convertir objeto a cadena.html` para incluir más campos en el objeto antes de guardar.
+   - **Objetivo:** Aprender a convertir objetos JSON a cadenas y almacenarlos.
+
+6. **Recuperación de Datos Complejos**
+   - **Descripción:** Los alumnos deben modificar el código del archivo `005-recuperar un objeto complejo.html` para recuperar datos de un objeto más completo.
+   - **Objetivo:** Aprender a trabajar con objetos JSON almacenados y mostrar sus datos en la consola.
+
+7. **Conversión de String a Objeto**
+   - **Descripción:** Los estudiantes deben adaptar el archivo `006-convertir string a objeto.html` para manejar strings más complejos provenientes del local storage.
+   - **Objetivo:** Practicar la conversión de cadenas en objetos JSON y su visualización.
+
+8. **Integración Completa**
+   - **Descripción:** Se les pide que combinen los ejercicios anteriores para crear una aplicación sencilla que permita guardar datos personales (nombre, apellidos, email), recuperarlos y mostrarlos en la consola.
+   - **Objetivo:** Aprender a integrar todos los conceptos de local storage, JSON y manipulación de objetos.
+
+Estas actividades están diseñadas para llevar a los estudiantes gradualmente desde el manejo básico de `localStorage` hasta técnicas más avanzadas de almacenamiento y recuperación de datos complejos.
+
+
 <a id="transacciones"></a>
 ## Transacciones
 
-En el mundo digital de la programación, las transacciones son como los pilares que sostienen una estructura sólida. Son operaciones fundamentales que garantizan la integridad y consistencia de los datos en sistemas de bases de datos. Imagina un edificio donde cada piso es una tabla de la base de datos, y cada habitación es un registro dentro de esa tabla. Las transacciones son como las escaleras que te permiten moverte entre estos pisos y habitaciones, asegurando que no se pierdan o alteren los datos mientras lo haces.
+### Introducción a los ejercicios
 
-Imagina que estás en una tienda virtual y quieres comprar un producto. Antes de finalizar la compra, el sistema realiza varias transacciones detrás de escenas. Primero, verifica si tienes suficiente dinero en tu cuenta bancaria para cubrir el costo del producto. Luego, reduce el saldo en tu cuenta y aumenta el número de unidades disponibles del producto en el inventario. Si todo esto ocurre sin problemas, la transacción se completa con éxito, y tu pedido es procesado. Pero si algo falla en cualquier paso, como no tener suficiente dinero o un problema con el inventario, la transacción se cancela automáticamente para evitar que los datos queden inconsistentes.
+El script SQL proporcionado realiza una serie de inserciones en varias tablas para crear datos iniciales en un esquema de base de datos que parece representar el flujo de trabajo típico de una tienda online o minorista. Veamos cómo está estructurado y qué hace:
 
-Las transacciones son cruciales porque garantizan que las operaciones de inserción, borrado y modificación de datos sean atómicas. Esto significa que si una transacción falla en algún punto, todas las modificaciones realizadas hasta ese momento se deshacen, como si no hubiera ocurrido nada. Es como si estuvieras construyendo un castillo con bloques de construcción. Si te das cuenta de que el último bloque no se ajusta bien, puedes quitar todos los bloques y empezar de nuevo sin preocuparte por la estructura del castillo.
+1. **Tablas Involucradas**:
+   - `categorias`
+   - `clientes`
+   - `productos`
+   - `pedidos`
+   - `lineas_pedido`
+   - `gestion_stock`
 
-Las transacciones también son idempotentes, lo que significa que si ejecutas una transacción dos veces, el resultado será el mismo que si la ejecutaste solo una vez. Es como si estuvieras cocinando un plato. Si preparas una receta correctamente, no importa cuántas veces la repites, siempre obtendrás el mismo sabor.
+2. **Inserción de Datos en Categorías**:
+   ```
+   INSERT INTO categorias (id_categoria, nombre) VALUES
+   ('1', 'Electrónica'),
+   ('2', 'Libros'),
+   ('3', 'Ropa');
+   ```
 
-Además, las transacciones son confiables y duraderas. Una vez que se completa una transacción, los cambios realizados en los datos permanecen incluso si ocurre un fallo del sistema. Es como si guardaras tu trabajo en un cajón de seguridad. No importa cuántas veces el sistema te diga que hay problemas, tus cambios estarán seguros y no se perderán.
+3. **Inserción de Datos en Clientes**:
+   ```
+   INSERT INTO clientes (id_cliente, nombre, email, direccion_envio, direccion_facturacion) VALUES
+   ('1', 'Ana García', 'ana.garcia@example.com', 'Calle Falsa 123, Madrid', 'Calle Falsa 123, Madrid'),
+   ('2', 'Luis Martínez', 'luis.martinez@example.com', 'Avenida Real 456, Barcelona', 'Avenida Real 456, Barcelona'),
+   ('3', 'Marta López', 'marta.lopez@example.com', 'Plaza Mayor 789, Sevilla', 'Plaza Mayor 789, Sevilla');
+   ```
 
-Las transacciones también son aisladas, lo que significa que mientras una transacción está en curso, los demás usuarios no pueden ver los cambios hasta que la transacción se complete. Es como si estuvieras jugando un juego de cartas con amigos. Mientras tú estás jugando tu turno, tus amigos no pueden mirar o interferir en tus cartas.
+4. **Inserción de Datos en Productos**:
+   ```
+   INSERT INTO productos (id_producto, nombre, descripcion, id_categoria, precio_venta, stock) VALUES
+   ('1', 'Portátil 14"', 'Ordenador portátil con pantalla de 14 pulgadas.', '1', 600.00, 5),
+   ('2', 'Ratón inalámbrico', 'Ratón para ordenadores sin necesidad de cable.', '1', 20.00, 20),
+   ('3', 'Libro Aprende Python', 'Guía completa para aprender a programar en Python.', '2', 30.00, 15),
+   ('4', 'Libro HTML y CSS', 'Tutoriales sobre diseño web con HTML y CSS.', '2', 25.00, 18),
+   ('5', 'Camiseta básica', 'Camiseta de algodón para hombre o mujer.', '3', 15.00, 25),
+   ('6', 'Sudadera con capucha', 'Ropa de abrigo para frío intenso.', '3', 40.00, 12),
+   ('7', 'Lámpara de escritorio', 'Lámpara de mesa LED regulable.', '1', 35.00, 8),
+   ('8', 'Taza de café', 'Taza elegante para tomar tu café favorito.', '1', 8.00, 30);
+   ```
 
-En resumen, las transacciones son el corazón de cualquier sistema de bases de datos. Son la garantía de que los datos se manejen correctamente y consistentemente, asegurando que nuestras aplicaciones funcionen como se espera. Desde la compra de productos en línea hasta la gestión de inventarios y finanzas corporativas, las transacciones son esenciales para mantener la integridad de nuestros sistemas digitales.
+5. **Inserción de Datos en Pedidos**:
+   ```
+   INSERT INTO pedidos (id_pedido, id_cliente, fecha_pedido, estado, total_bruto, total_impuestos, total, observaciones) VALUES
+   ('1', '1', '2025-01-10 10:30:00', 'pagado', 640.00, 134.40, 774.40, 'Compra online paga con tarjeta'),
+   ('2', '2', '2025-01-12 16:45:00', 'enviado', 71.00, 14.91, 85.91, 'Envío por mensajería 24h'),
+   ('3', '3', '2025-01-15 09:15:00', 'pagado', 85.00, 17.85, 102.85, 'Pedido recogida en tienda'),
+   ('4', '1', '2025-01-20 18:20:00', 'pendiente', 635.00, 133.35, 768.35, 'Pendiente de pago por transferencia');
+   ```
+
+6. **Inserción de Datos en Líneas de Pedido**:
+   ```
+   INSERT INTO lineas_pedido (id_pedido, id_producto, cantidad, precio_unitario, impuesto_porcentaje, total_linea) VALUES
+   ('1', '1', 1, 600.00, 21.00, 726.00),
+   ('1', '2', 2, 20.00, 21.00, 48.40),
+   ('2', '3', 1, 30.00, 21.00, 36.30),
+   ('2', '4', 1, 25.00, 21.00, 30.25),
+   ('2', '8', 2, 8.00, 21.00, 19.36),
+   ('3', '5', 3, 15.00, 21.00, 54.45),
+   ('3', '6', 1, 40.00, 21.00, 48.40),
+   ('4', '7', 1, 35.00, 21.00, 42.35),
+   ('4', '1', 1, 600.00, 21.00, 726.00);
+   ```
+
+7. **Gestión del Stock**:
+   ```
+   INSERT INTO gestion_stock (id_producto, tipo_movimiento, cantidad, referencia, observaciones) VALUES
+   ('1', 'salida', 1, 'Pedido #1', 'Venta al cliente Ana García'),
+   ('2', 'salida', 2, 'Pedido #1', 'Venta al cliente Ana García'),
+   ('3', 'salida', 1, 'Pedido #2', 'Venta al cliente Luis Martínez'),
+   ('4', 'salida', 1, 'Pedido #2', 'Venta al cliente Luis Martínez'),
+   ('8', 'salida', 2, 'Pedido #2', 'Venta al cliente Luis Martínez'),
+   ('5', 'salida', 3, 'Pedido #3', 'Venta al cliente Marta López'),
+   ('6', 'salida', 1, 'Pedido #3', 'Venta al cliente Marta López'),
+   ('7', 'salida', 1, 'Pedido #4', 'Venta al cliente Ana García'),
+   ('1', 'salida', 1, 'Pedido #4', 'Venta al cliente Ana García');
+   ```
+
+Este script se asegura de que todas las relaciones entre las tablas estén correctamente definidas y vinculadas. Por ejemplo:
+
+- Cada producto está asociado a una categoría.
+- Cada pedido tiene un cliente asociado.
+- Cada línea de pedido pertenece a un pedido específico y a un producto en particular.
+
+Además, se calculan los totales (bruto e impuestos) para cada línea del pedido y para el pedido completo. Esto es crucial para asegurar la consistencia de los datos y facilitar las operaciones de consulta posteriormente.
+
+Este conjunto de inserciones proporciona una base sólida para pruebas de integración, desarrollo y depuración en un sistema de comercio electrónico o minorista.
 
 ### tienda online
+<small>Creado: 2025-11-20 17:13</small>
+
+#### Explicación
+
+Este texto no es código SQL, sino una descripción en lenguaje natural del diseño de la base de datos y algunas de sus tablas. El objetivo principal es crear una estructura de base de datos para una tienda online que incluya varias entidades relacionadas entre sí, como productos, categorías, pedidos, líneas de pedido y clientes.
+
+La idea es generar los comandos `CREATE TABLE` necesarios para definir estas tablas en MySQL, asegurando que las llaves primarias (PK) y foráneas (FK) estén correctamente establecidas según la relación entre cada tabla. Además, se menciona la creación de vistas (`VIEW`) en SQL que ayudarán a unir estos datos de manera más legible y útil para los usuarios del sistema.
+
+Crear estas tablas y vistas es crucial porque permitirá a la tienda online gestionar eficazmente sus productos, pedidos, clientes y el stock, facilitando consultas complejas con una base de datos bien estructurada.
+
+`001-tienda online.sql`
 
 ```sql
 Quiero crear la base de datos MySQL de una tienda online, que tendrá (PK en cada tabla):
@@ -3136,6 +4523,19 @@ Quieo crear todas las vistas que sea necesario para unir todos los FK de la base
 ```
 
 ### crear la basededatos
+<small>Creado: 2025-11-20 17:09</small>
+
+#### Explicación
+
+Este fragmento de código SQL se utiliza para crear una nueva base de datos en un servidor MySQL y seleccionarla para su uso posterior. Primero, el comando `sudo mysql -u root -p` abre la terminal del programa MySQL con permisos de administrador (root) y te pedirá que introduzcas tu contraseña para acceder.
+
+Luego, el comando `CREATE DATABASE tiendaonline2526;` crea una nueva base de datos llamada "tiendaonline2526". Esta acción es crucial porque esta base de datos albergará toda la información relacionada con un sistema o aplicación, como por ejemplo un sitio web de compras online.
+
+Finalmente, el comando `USE tiendaonline2526;` selecciona la base de datos recién creada para que puedan ejecutarse consultas y operaciones en ella. Es importante hacer esto antes de comenzar a crear tablas, insertar datos o realizar cualquier otra acción dentro de esta base de datos específica.
+
+Este proceso es fundamental en el desarrollo de bases de datos porque permite organizar la información de manera estructurada y asegura que los datos no se mezclen con otros proyectos o sistemas.
+
+`002-crear la basededatos.sql`
 
 ```sql
 sudo mysql -u root -p
@@ -3146,6 +4546,27 @@ USE tiendaonline2526;
 ```
 
 ### crear tablas
+<small>Creado: 2025-11-20 17:08</small>
+
+#### Explicación
+
+Este fragmento de código SQL crea una serie de tablas que representan diferentes aspectos del manejo de una tienda en línea, como categorías de productos, clientes, productos mismos, pedidos y movimientos de stock. Cada tabla tiene sus propias columnas y restricciones para asegurar la integridad de los datos.
+
+1. **Tabla `CATEGORIAS`**: Almacena información sobre las diferentes categorías en las que se pueden agrupar los productos. Contiene campos como el nombre, descripción y un campo `id_categoria` que es único e incrementa automáticamente. También tiene una restricción única para asegurar que cada categoría tenga un nombre único.
+
+2. **Tabla `CLIENTES`**: Almacena información de contacto de los clientes con campos tales como nombre, apellidos, email y otros detalles. Incluye una restricción única en el campo `email`, lo cual es importante para evitar duplicados.
+
+3. **Tabla `PRODUCTOS`**: Guarda datos específicos sobre cada producto, incluyendo su categoría (con una clave foránea a la tabla `CATEGORIAS`), nombre, descripción, precio y otros detalles. Hay restricciones que aseguran integridad referencial entre productos y sus categorías, así como un índice único en el campo SKU para garantizar que cada producto tenga un identificador de stock único.
+
+4. **Tabla `PEDIDOS`**: Registra los pedidos realizados por los clientes, con detalles sobre el cliente (clave foránea a la tabla `CLIENTES`) y estado del pedido. Incluye columnas para total bruto e impuestos, y varios índices para mejorar las consultas.
+
+5. **Tabla `GESTION_STOCK`**: Documenta cambios en el stock de productos, indicando si es una entrada o salida, cantidad afectada, y detalles adicionales sobre la transacción.
+
+6. **Tabla `LINEAS_PEDIDO`**: Almacena los detalles específicos de cada línea dentro de un pedido, relacionándola con tanto el pedido como el producto involucrado (con claves foráneas). Esto permite rastrear qué productos fueron pedidos en qué cantidad y al qué precio.
+
+Estas tablas proporcionan una estructura sólida para administrar la información de una tienda online, asegurando que los datos sean precisos e integrales a través de las restricciones y referencias foráneas implementadas.
+
+`003-crear tablas.sql`
 
 ```sql
 -- ============================
@@ -3303,6 +4724,27 @@ COLLATE=utf8mb4_unicode_ci;
 ```
 
 ### vistas
+<small>Creado: 2025-11-20 17:09</small>
+
+#### Explicación
+
+Este fragmento de código SQL está compuesto por seis vistas que se utilizan para simplificar y organizar la información relacionada con un sistema de gestión de inventario y ventas. Cada vista proporciona una visión consolidada de diferentes aspectos del negocio, como productos y categorías, pedidos y clientes, detalles de líneas de pedido, stock actual, resumen de pedidos y movimientos de stock.
+
+La primera vista (`vw_productos_categorias`) combina información sobre productos y sus respectivas categorías, facilitando la consulta de datos relacionados sin necesidad de realizar joins complejos entre las tablas `productos` y `categorias`.
+
+La segunda vista (`vw_pedidos_clientes`) agrupa los detalles de pedidos con los datos de clientes asociados. Esto es útil para generar informes que requieren información tanto sobre el pedido como sobre el cliente.
+
+La tercera vista (`vw_lineas_pedido_detalle`) proporciona un resumen detallado de las líneas individuales en cada pedido, incluyendo información del producto y la categoría a la cual pertenece ese producto. Esta vista es valiosa para análisis de ventas y seguimiento de pedidos específicos.
+
+La cuarta vista (`vw_stock_actual`) calcula el stock actual de productos utilizando transacciones de entrada y salida registradas en la tabla `gestion_stock`. La función COALESCE asegura que, si no hay registros de movimientos de stock, se devuelva un valor predeterminado de 0.
+
+La quinta vista (`vw_pedidos_resumen`) ofrece una visión agregada del total bruto y los impuestos calculados para cada pedido, basándose en la información de las líneas de pedido. Esto es útil para generar resúmenes financieros o informes de ventas detallados.
+
+Finalmente, la sexta vista (`vw_movimientos_stock_detalle`) proporciona detalles sobre los movimientos del stock, incluyendo el tipo de movimiento (entrada/salida/ajuste), la cantidad involucrada y referencias adicionales para rastrear y auditar las transacciones de inventario.
+
+Estas vistas simplifican significativamente la consulta y manipulación de datos en un sistema de gestión de inventarios y ventas, permitiendo a los desarrolladores y administradores acceder fácilmente a informes detallados y resúmenes clave sin tener que escribir consultas SQL complejas.
+
+`004-vistas.sql`
 
 ```sql
 CREATE OR REPLACE VIEW vw_productos_categorias AS
@@ -3443,6 +4885,17 @@ JOIN categorias c ON p.id_categoria = c.id_categoria;
 ```
 
 ### crear nuevo usuario
+<small>Creado: 2025-11-20 17:10</small>
+
+#### Explicación
+
+Este fragmento de código SQL se utiliza para crear un nuevo usuario en una base de datos y otorgarle permisos específicos. Primero, el comando `CREATE USER` crea un usuario llamado 'tiendaonline2526' que puede acceder desde localhost (el mismo servidor) con la contraseña 'tiendaonline2526'. Luego, se le otorgan los privilegios mínimos necesarios con el comando `GRANT USAGE`, lo cual permite al usuario conectarse pero no realiza ninguna acción adicional sobre las bases de datos.
+
+A continuación, el comando `ALTER USER` modifica las características del nuevo usuario para deshabilitar la autenticación basada en host y establecer límites globales para el número de consultas, conexiones y actualizaciones por hora. Finalmente, se conceden todos los privilegios sobre la base de datos 'tiendaonline2526' al usuario recién creado con `GRANT ALL PRIVILEGES`. El comando `FLUSH PRIVILEGES` asegura que los cambios en los permisos del usuario sean aplicados inmediatamente.
+
+Este proceso es crucial para gestionar el acceso a la base de datos, permitiendo a diferentes usuarios realizar tareas específicas según sus necesidades y roles dentro del sistema.
+
+`005-crear nuevo usuario.sql`
 
 ```sql
 CREATE USER 
@@ -3465,12 +4918,42 @@ FLUSH PRIVILEGES;
 ```
 
 ### prompt para crear datos
+<small>Creado: 2025-11-20 17:14</small>
+
+#### Explicación
+
+Este fragmento de código SQL es una instrucción para insertar datos demostrativos en una base de datos. La idea principal es llenar las tablas vacías con información ficticia para probar el funcionamiento del sistema o visualizar cómo se estructuran los datos. Es importante seguir un orden específico al insertar estos datos: primero, debes cargar los registros en aquellas tablas que no tienen restricciones de clave foránea (FK), es decir, que no dependen de otras tablas para tener sentido. Una vez hecho esto, procederás a llenar las tablas restantes que sí tienen estas restricciones. Al seguir este orden, aseguras que todas las referencias entre tablas sean válidas y el sistema funcione correctamente sin errores relacionados con datos faltantes o inconsistentes.
+
+Dado que asumes que todas las claves primarias (PK) comienzan en 1, cada nuevo registro insertado tendrá un ID único, comenzando desde este número y aumentando gradualmente para evitar conflictos. Este proceso de inserción cuidadoso ayuda a mantener la integridad referencial de tu base de datos y asegura que todos los datos sean coherentes entre sí.
+
+`006-prompt para crear datos.sql`
 
 ```sql
 Y luego por ultimo quiero insert into tantos como haga falta para insertar datos de demostracion - ten en cuenta los FK para insertar primero datos en tablas que no tengan dependencias, y luego datos en las tablas que si que las contengan - las tablas están vacías, con lo cual asume que todos los PK empiezan en 1.
 ```
 
 ### insert into
+<small>Creado: 2025-11-20 17:18</small>
+
+#### Explicación
+
+Este fragmento de código SQL se utiliza para insertar datos en una base de datos que simula un sistema de gestión de tienda online. El código está estructurado en varias partes y cada parte inserta información específica.
+
+1. **Categorías**: Se insertan cuatro categorías (Electrónica, Libros, Ropa, Hogar) con sus respectivos nombres y descripciones. Estos datos forman la jerarquía de productos que vendrá después.
+   
+2. **Clientes**: Se añaden cuatro clientes con información detallada como nombre, apellidos, dirección, email y teléfono.
+
+3. **Productos**: En esta parte, se insertan ocho productos diferentes en la tabla `productos`. Cada producto tiene asociado una categoría (por ejemplo, el portátil pertenece a "Electrónica"), un precio de venta sin IVA y otras características relevantes como SKU (stock keeping unit) y estado activo.
+
+4. **Gestión de stock**: Se registran entradas en la tabla `gestion_stock` para indicar la existencia inicial del inventario (entradas con tipo "entrada") y luego se anotan las ventas realizadas por cada cliente (que son registros de tipo "salida").
+
+5. **Pedidos**: Aquí se inserta información sobre cuatro pedidos diferentes, cada uno asociado a un cliente específico. Cada pedido tiene una fecha de creación, estado del pedido, total bruto y otros detalles como observaciones.
+
+6. **Líneas de pedido**: Por último, se registra la relación entre los productos comprados en cada pedido (una línea por producto). Para cada línea, se proporciona el id del pedido al que pertenece, el id del producto, cantidad, precio unitario y total con IVA incluido.
+
+Este código es muy útil para crear un conjunto de datos inicial en una base de datos que simula el funcionamiento de una tienda online, permitiendo a los desarrolladores probar funcionalidades sin depender de datos reales. También sirve como ejemplo práctico del manejo de relaciones entre tablas en SQL (como la relación uno-a-muchos entre pedidos y líneas de pedido).
+
+`007-insert into.sql`
 
 ```sql
 USE tienda_online;
@@ -3675,42 +5158,153 @@ INSERT INTO lineas_pedido
 (4, 1, 1, 600.00, 21.00, 726.00);
 ```
 
+### Actividades propuestas
+
+El script SQL que has proporcionado realiza varias operaciones en una base de datos MySQL para gestionar un sistema de pedidos y ventas. Veamos los pasos principales:
+
+### Paso 1: Creación de Tablas
+
+Las tablas se crean con sus respectivas relaciones e índices:
+
+- **clientes**: Almacena información sobre clientes.
+- **pedidos**: Almacena detalles del pedido, incluyendo total bruto, impuestos y total final.
+- **lineas_pedido**: Detalla las líneas de cada pedido, especificando el producto, cantidad, precio unitario, impuesto y total por línea.
+- **productos**: Almacena información sobre los productos disponibles para la venta.
+- **gestion_stock**: Registra entradas y salidas del inventario basándose en pedidos.
+
+### Paso 2: Creación de Índices
+
+Se crean índices únicos para mejorar la eficiencia en la búsqueda y evitar duplicados:
+
+- En `clientes`:
+  - **nombre**: Para asegurar que cada cliente tenga un nombre único.
+  
+- En `productos`:
+  - **codigo_producto**: Para garantizar que cada producto tenga un código único.
+
+### Paso 3: Creación de Claves Externas
+
+Se establecen relaciones entre las tablas para mantener la integridad referencial:
+
+- Cada pedido en la tabla `pedidos` está vinculado a un cliente específico mediante una clave externa (`id_cliente`) que hace referencia al identificador del cliente en `clientes`.
+  
+- Las líneas de pedidos en `lineas_pedido` se relacionan con tanto los productos como los pedidos, utilizando claves externas (`id_producto`, `id_pedido`).
+
+### Paso 4: Inserción de Datos
+
+Se inserta un conjunto inicial de datos para demostrar cómo funcionaría el sistema:
+
+- **Clientes**: Se añaden cuatro clientes ficticios.
+  
+- **Pedidos**: Se registran cuatro pedidos diferentes, cada uno asociado a un cliente específico y con fechas, estados, totales bruto e impuestos calculados.
+  
+- **Líneas de pedido**: Para cada pedido se detallan las líneas correspondientes, incluyendo productos específicos, cantidad, precio unitario, impuesto aplicado y total por línea.
+
+- **Gestión del stock**: Registra la entrada y salida de los productos en el inventario basándose en los pedidos registrados.
+
+### Conclusión
+
+Este script establece una base sólida para un sistema de gestión de ventas y pedidos. Proporciona tanto estructura como datos iniciales, permitiendo a un usuario nuevo entender cómo funciona el flujo general del sistema al realizar operaciones CRUD (Crear, Leer, Actualizar, Borrar) en la base de datos.
+
+Es importante notar que este script asume que las tablas están vacías y establece relaciones de clave externa para asegurar integridad referencial. Esto es crucial en aplicaciones web o sistemas empresariales donde la consistencia de los datos es primordial.
+
+Si tienes alguna pregunta específica sobre cómo utilizar esta estructura, cómo modificarla para adaptarse a tus necesidades específicas o cualquier otro aspecto del sistema que te resulte confuso, no dudes en preguntar.
+
+
 <a id="politicas-de-bloqueo-concurrencia"></a>
 ## Políticas de bloqueo. Concurrencia
 
-En el vasto mundo de las bases de datos, la concurrencia es un fenómeno inevitable que surge cuando varios usuarios intentan acceder simultáneamente a los mismos recursos. Este escenario plantea desafíos significativos en términos de integridad y consistencia de los datos, por lo que es crucial establecer políticas de bloqueo adecuadas para gestionar eficazmente la concurrencia.
+### Introducción a los ejercicios
 
-La política de bloqueo se refiere a las reglas y mecanismos utilizados para controlar el acceso concurrente a los recursos de una base de datos. Estas políticas son fundamentales para evitar conflictos entre transacciones, garantizar la coherencia de los datos y prevenir situaciones como la pérdida de datos o inconsistencias.
+Este código proporciona una implementación detallada de un programa CRUD (Crear, Leer, Actualizar y Borrar) basado en consola para una base de datos SQLite. El programa utiliza colores y formateo para mejorar la experiencia del usuario y ofrece funcionalidades básicas para interactuar con tablas en la base de datos.
 
-Existen varios tipos de bloqueos que pueden aplicarse en las bases de datos, cada uno con sus propias características y efectos. El bloqueo compartido (S) permite a múltiples transacciones leer un recurso simultáneamente, mientras que el bloqueo exclusivo (X) impide que cualquier otra transacción acceda al recurso hasta que la transacción actual lo libere. Otros tipos de bloqueos incluyen los bloqueos de escritura (IX), los bloqueos de lectura (SIX) y los bloqueos de intento de bloqueo (IS).
+Aquí se detalla cómo funciona el código:
 
-La elección del tipo de bloqueo adecuado depende del escenario específico y de las necesidades de la aplicación. Por ejemplo, si se requiere que varias transacciones puedan leer un conjunto de datos simultáneamente sin interferir entre sí, el bloqueo compartido sería apropiado. Sin embargo, si una transacción necesita modificar los datos, será necesario utilizar el bloqueo exclusivo para evitar conflictos.
+1. **Configuración inicial**:
+    - Se conecta a una base de datos SQLite especificada por `DB_PATH`.
+    - Se crea un cursor para realizar operaciones sobre la base de datos.
+    
+2. **Funciones CRUD**:
+    - `op_create()`: Permite insertar nuevos registros en una tabla específica, pidiendo al usuario los valores necesarios para cada columna.
+    - `op_list()`: Lista todos los registros de una tabla especificada.
+    - `read_by_pk()`: Consulta un registro específico por su clave primaria (PK).
+    - `op_update()`: Actualiza un registro existente en función de la PK, permitiendo al usuario modificar columnas específicas.
+    - `op_delete()`: Elimina un registro basado en su clave primaria.
 
-La gestión del bloqueo es un aspecto complejo que requiere consideraciones cuidadosas. Una política de bloqueo eficaz debe equilibrar la concurrencia y la integridad de los datos. Esto implica no solo seleccionar el tipo correcto de bloqueo, sino también implementar estrategias para minimizar el tiempo de espera y maximizar la utilización del recurso.
+3. **Interfaz del Usuario**:
+    - `select_table()`: Permite seleccionar una tabla específica para realizar operaciones CRUD.
+    - `select_operation()`: Muestra opciones al usuario (crear, leer, actualizar, eliminar registros) y solicita una elección de operación.
+    
+4. **Menú Principal**:
+    - El menú principal permite al usuario seleccionar una tabla y luego elegir entre las operaciones CRUD o salir del programa.
 
-Además de las políticas de bloqueo, es crucial considerar la concurrencia en el diseño de las transacciones. Las transacciones deben ser cortas y atomicas para reducir el riesgo de conflictos. Además, se debe implementar un mecanismo de detección de deadlock, que es una situación en la que dos o más transacciones están esperando mutuamente a que las otras liberen recursos.
+5. **Manejo de Excepciones**:
+    - Maneja excepciones para casos como errores en la base de datos y interrupciones del usuario (por ejemplo, Ctrl+C).
 
-La concurrencia también plantea desafíos en términos de rendimiento. Las bases de datos deben estar diseñadas para manejar múltiples solicitudes simultáneamente sin sacrificar el tiempo de respuesta. Esto implica optimizar la gestión del bloqueo, reducir el tiempo de espera y utilizar técnicas avanzadas como la paralelización.
+6. **Estilo y Formateo**:
+    - Utiliza ANSI escape codes para agregar estilos de texto (como negrita y colores) a los mensajes de la consola.
+    
+### Ejecución
 
-En conclusión, las políticas de bloqueo y la gestión de la concurrencia son elementos cruciales en el diseño y operación eficiente de bases de datos. Al entender y aplicar adecuadamente estas estrategias, se puede garantizar una alta integridad y consistencia de los datos, mientras se maximiza la concurrencia y el rendimiento del sistema.
+El programa se ejecuta en un bucle principal que permite al usuario interactuar con las tablas de la base de datos hasta que elige salir. Al iniciar, muestra un mensaje de bienvenida y luego espera a que el usuario seleccione una tabla.
 
-### creación de una base de datos
+Para usar este script, debes tener instalada la biblioteca `sqlite3` (que viene por defecto en Python) y asegurarte de que la base de datos especificada (`DB_PATH`) exista o esté correctamente configurada. 
 
-```markdown
-La base de datos no se crea con un CREATE DATABASE sino que es un archivo.
-```
+### Ejemplos de Salida
 
-### tipos de datos en SQLite
+Cuando se ejecuta el programa, puede ver mensajes como:
 
-```markdown
-TEXT = Texto
-INTEGER = numeros enteros
-BLOB = almacenar datos binarios
-REAL = Numeros reales
-NUMERIC = Numeros con decimales
-```
+- **Mensaje de Bienvenida**:
+  ```
+  ███████╗ ██████╗ ██╗   ██╗███████╗
+  ██╔════╝██╔═══██╗██║   ██║██╔════╝
+  █████╗  ██║   ██║██║   ██║█████╗  
+  ██╔══╝  ██║▄▄ ██║██║   ██║██╔══╝  
+  ██║     ╚██████╔╝╚██████╔╝███████╗
+  ╚═╝      ╚══▀▀═╝  ╚═════╝ ╚══════╝
+
+  ██████╗ ████████╗    ███████╗ █████╗ ███╗   ██╗
+  ██╔══██╗╚══██╔══╝    ██╔════╝██╔══██╗████╗  ██║
+  ██████╔╝   ██║       █████╗  ███████║██╔██╗ ██║
+  ██╔══██╗   ██║       ██╔══╝  ██╔══██║██║╚██╗██║
+  ██║  ██║   ██║       ██║     ██║  ██║██║ ╚████║
+  ╚═╝  ╚═╝   ╚═╝       ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═══╝
+
+  Bienvenido al gestor de base de datos en consola.
+  ```
+  
+- **Selección de Tabla**:
+  - Muestra una lista numerada de tablas disponibles en la base de datos.
+
+- **Operaciones CRUD**:
+  - Selecciona operaciones CRUD y realiza acciones basadas en las respuestas del usuario.
+
+### Consideraciones
+
+Este script es un punto de partida excelente para desarrollar aplicaciones CRUD más complejas. Puedes extenderlo con funcionalidades adicionales como validación de datos, manejo de errores más detallado, o integración con bases de datos más complejas.
 
 ### Create Table
+<small>Creado: 2025-10-16 17:06</small>
+
+#### Explicación
+
+Este fragmento de código SQL está creando una nueva tabla en una base de datos llamada "clientes". La tabla contiene cinco columnas: "Identificador", "nombre", "apellidos", "email" y "direccion".
+
+1. **Identificador**: Es un campo del tipo INTEGER que se utilizará como clave primaria para cada registro. Esto significa que cada cliente tiene un identificador único, y la base de datos garantiza que no haya duplicados ni valores nulos aquí.
+
+2. **nombre**: Almacena el nombre del cliente usando el tipo TEXT, lo cual indica que puede contener cualquier texto (como 'Juan').
+
+3. **apellidos**: Similar a "nombre", pero para almacenar los apellidos del cliente ('Pérez Martínez', por ejemplo).
+
+4. **email**: Guarda la dirección de correo electrónico del cliente como texto.
+
+5. **direccion**: Almacena la dirección física del cliente, también en formato de texto (por ejemplo, 'Calle Principal 123').
+
+La declaración `PRIMARY KEY("Identificador" AUTOINCREMENT)` indica que el campo "Identificador" es la clave primaria y que su valor se incrementará automáticamente cada vez que un nuevo registro sea añadido a la tabla. Esto asegura que no haya dos clientes con el mismo identificador y facilita la gestión de los registros en la base de datos.
+
+Este código es fundamental porque define la estructura básica para almacenar información sobre los clientes en una aplicación o sistema de gestión de bases de datos.
+
+`003-Create Table.sql`
 
 ```sql
 CREATE TABLE "clientes" (
@@ -3724,6 +5318,17 @@ CREATE TABLE "clientes" (
 ```
 
 ### Tabla de pedidos
+<small>Creado: 2025-10-16 17:08</small>
+
+#### Explicación
+
+Este fragmento de código SQL se utiliza para crear una tabla llamada "productos" en una base de datos. La tabla contiene varias columnas que almacenan diferentes tipos de información sobre los productos, como su identificador único, nombre, descripción, precio y categoría. 
+
+La columna "Identificador" es la clave primaria de la tabla, lo que significa que cada producto tendrá un número único asignado automáticamente por el sistema (gracias a `AUTOINCREMENT`). Este número único sirve para distinguir cada registro en la tabla sin ambigüedades.
+
+Este tipo de estructura es fundamental para organizar y gestionar datos relacionados con productos en una base de datos, permitiendo realizar operaciones como insertar nuevos productos, actualizar información existente o buscar productos específicos por diferentes criterios.
+
+`004-Tabla de pedidos.sql`
 
 ```sql
 CREATE TABLE "productos" (
@@ -3737,6 +5342,19 @@ CREATE TABLE "productos" (
 ```
 
 ### Insertar un cliente
+<small>Creado: 2025-10-16 17:09</small>
+
+#### Explicación
+
+Este fragmento de código SQL se utiliza para insertar un nuevo registro en la tabla `clientes`. La instrucción `INSERT INTO` especifica que queremos añadir una nueva fila a la tabla `clientes`. Dentro de los paréntesis, proporcionamos los valores que queremos asignar a las columnas de esta tabla. 
+
+El primer valor es `NULL`, lo cual indica que el campo correspondiente en la base de datos (probablemente un identificador automático como una clave primaria) debe ser generado automáticamente por el sistema o se deja vacío para que sea llenado automáticamente al insertar este nuevo registro.
+
+Los valores restantes ('Jose Vicente', 'Carratala Sanchis', 'info@jocarsa.com', 'La calle de Jose Vicente') corresponden a los nombres, apellidos, correo electrónico y dirección del cliente respectivamente. Estos son datos específicos que se insertarán en las columnas apropiadas de la tabla `clientes`.
+
+Este tipo de instrucción es fundamental para añadir nuevos registros a una base de datos, permitiendo así mantener y actualizar dinámicamente la información almacenada sobre clientes o cualquier otra entidad en un sistema administrado por bases de datos.
+
+`005-Insertar un cliente.sql`
 
 ```sql
 INSERT INTO clientes VALUES(
@@ -3749,12 +5367,30 @@ INSERT INTO clientes VALUES(
 ```
 
 ### seleccion de clientes
+<small>Creado: 2025-10-16 17:10</small>
+
+#### Explicación
+
+Este código SQL selecciona todos los registros de la tabla llamada `clientes`. La instrucción `SELECT *` indica que se deben recuperar todas las columnas y filas disponibles en la tabla especificada. En este caso, el resultado será una lista completa con toda la información almacenada actualmente en la tabla `clientes`, lo cual es útil para visualizar o analizar los datos de todos los clientes registrados en un sistema. Es importante tener presente que esta consulta puede devolver muchos registros si la tabla tiene mucha información, por lo que es recomendable usar criterios de selección más específicos cuando sea necesario.
+
+`006-seleccion de clientes.sql`
 
 ```sql
 SELECT * FROM clientes;
 ```
 
 ### Insertar un producto
+<small>Creado: 2025-10-16 17:11</small>
+
+#### Explicación
+
+Este fragmento de código SQL se utiliza para insertar un nuevo registro en la tabla llamada `productos`. La sentencia `INSERT INTO` es una instrucción que permite añadir filas a una tabla existente en la base de datos. En este caso, el código está preparado para agregar detalles sobre un producto específico: un ratón de ordenador.
+
+El código inserta valores en cinco columnas de la tabla `productos`, aunque solo especifica los valores para cuatro de ellas explícitamente. El primer valor es `NULL`, lo que significa que se dejará que el sistema autoasigne un identificador único (usualmente, esto ocurre si la primera columna es una clave primaria con opción AUTO_INCREMENT). Luego, se proporcionan detalles como el nombre del producto ('Raton'), su descripción ('Raton de ordenador'), el precio ('5.42') y la categoría ('Informatica'). Esta operación permite expandir los datos almacenados en la base de datos, añadiendo información sobre un nuevo artículo disponible para venta o uso.
+
+Es importante entender este tipo de comando cuando se trabaja con bases de datos, ya que es fundamental para poder registrar nuevas entradas según sea necesario.
+
+`007-Insertar un producto.sql`
 
 ```sql
 INSERT INTO productos VALUES(
@@ -3767,12 +5403,30 @@ INSERT INTO productos VALUES(
 ```
 
 ### seleccionar los productos
+<small>Creado: 2025-10-16 17:12</small>
+
+#### Explicación
+
+El código SQL que has proporcionado, `SELECT * FROM productos;`, es una consulta que busca recuperar todos los registros de la tabla llamada "productos". La parte `*` significa que se seleccionan todas las columnas disponibles en esa tabla. En otras palabras, este comando te devolverá toda la información almacenada actualmente en la tabla "productos", mostrándote cada fila y columna del conjunto de datos.
+
+Esta consulta es útil cuando necesitas ver un resumen completo de todos los productos registrados en tu base de datos sin especificar detalles adicionales. Es una forma rápida y simple de obtener acceso a toda la información almacenada, lo que puede ser beneficioso para el análisis, la auditoría o simplemente para entender cómo están estructurados tus datos.
+
+`008-seleccionar los productos.sql`
 
 ```sql
 SELECT * FROM productos;
 ```
 
 ### actualizar precio de un producto
+<small>Creado: 2025-10-16 17:13</small>
+
+#### Explicación
+
+Este fragmento de código SQL realiza dos operaciones en una base de datos que contiene información sobre productos. Primero, actualiza el precio de un producto específico en la tabla `productos`. La instrucción `UPDATE productos SET precio = "6.54" WHERE Identificador = 1;` cambia el valor del campo `precio` a 6.54 euros para el registro cuyo identificador es igual a 1.
+
+Después, el código ejecuta una consulta que selecciona todos los registros de la tabla `productos`. Esto permite ver cómo ha cambiado la información en la tabla después de actualizar el precio del producto específico. Esta operación es importante porque te ayuda a verificar que la actualización se realizó correctamente y no afectó accidentalmente otros productos en la base de datos.
+
+`009-actualizar precio de un producto.sql`
 
 ```sql
 UPDATE productos
@@ -3783,6 +5437,21 @@ SELECT * FROM productos;
 ```
 
 ### eliminar
+<small>Creado: 2025-10-16 17:21</small>
+
+#### Explicación
+
+Este fragmento de código SQL está diseñado para gestionar los datos en una tabla llamada `productos`. Vamos a desglosarlo:
+
+1. La primera línea, `DELETE FROM productos WHERE Identificador = 1;`, elimina el registro del primer producto que se encuentra en la base de datos. Aquí, se asume que cada producto tiene un identificador único y, en este caso, se está eliminando el producto con ese identificador.
+
+2. La segunda línea, `SELECT * FROM productos;`, es una consulta SELECT que recupera todos los registros restantes de la tabla `productos` después de haberse ejecutado la instrucción DELETE anteriormente. Esto te permite ver cuál fue el efecto de la eliminación y verificar si se borró correctamente el registro deseado.
+
+3. La última parte del código, `INSERT INTO productos VALUES(NULL, 'Raton', 'Raton de ordenador', '5.42', 'Informatica');`, agrega un nuevo producto a la tabla `productos`. En este caso, se está insertando un ratón como artículo de informática con un precio especificado.
+
+Este código es importante porque demuestra cómo realizar operaciones básicas en una base de datos SQL: eliminar un registro existente y luego añadir uno nuevo. Estas habilidades son fundamentales para el manejo eficiente de bases de datos, especialmente cuando se necesita mantener la integridad de los datos actualizados.
+
+`010-eliminar.sql`
 
 ```sql
 DELETE FROM productos WHERE Identificador = 1;
@@ -3799,6 +5468,19 @@ INSERT INTO productos VALUES(
 ```
 
 ### crear tabla pedidos
+<small>Creado: 2025-10-16 17:16</small>
+
+#### Explicación
+
+Este fragmento de código SQL se utiliza para crear una tabla llamada `pedidos` en una base de datos. La tabla contiene información sobre los pedidos realizados, como el identificador único del pedido, el ID del cliente que hizo el pedido, el ID del producto solicitado, la fecha del pedido, la cantidad de productos pedida y el total a pagar por ese pedido.
+
+La columna `Identificador` es una clave primaria autoincremental, lo que significa que cada nuevo registro en esta tabla tendrá un número único automáticamente asignado. Las columnas `cliente_id` y `producto_id` son también únicas para asegurar que cada cliente y producto estén correctamente identificados sin duplicidades.
+
+El código incluye dos claves foráneas que establecen una relación con otras tablas: `clientes` y `productos`. Estas relaciones son importantes porque mantienen la integridad de los datos. Si un cliente o un producto es eliminado de sus respectivas tablas, cualquier pedido asociado a ellos también será automáticamente eliminado debido al uso del atributo `ON DELETE CASCADE`.
+
+Esta estructura asegura que la base de datos sea consistente y que no queden pedidos huérfanos sin un cliente o producto asociados.
+
+`011-crear tabla pedidos.sql`
 
 ```sql
 CREATE TABLE "pedidos" (
@@ -3814,6 +5496,17 @@ CREATE TABLE "pedidos" (
 ```
 
 ### primero creamos la tabla
+<small>Creado: 2025-10-16 17:17</small>
+
+#### Explicación
+
+Este fragmento de código SQL crea una tabla llamada `pedidos` en una base de datos. La tabla almacena información sobre los pedidos realizados, incluyendo detalles como el identificador único del pedido, el ID del cliente que hizo el pedido, el ID del producto que se compró, la fecha del pedido, la cantidad de productos adquirida y el total del costo. 
+
+El campo `Identificador` es una clave primaria autoincremental, lo que significa que cada vez que un nuevo registro (pedido) se agrega a esta tabla, automáticamente recibe un número único. Los campos `cliente_id` y `producto_id` son también enteros únicos, asegurando que no haya dos pedidos asociados al mismo cliente o producto en la misma fila de la tabla sin una diferencia clara.
+
+Esta estructura es fundamental para organizar y gestionar los datos de manera eficiente, permitiendo a un sistema realizar operaciones como insertar nuevos pedidos, consultar información específica sobre los pedidos existentes, actualizar detalles de pedidos si es necesario, y mucho más.
+
+`012-primero creamos la tabla.sql`
 
 ```sql
 -- 1️⃣ Crear la tabla pedidos (sin relaciones todavía)
@@ -3828,6 +5521,17 @@ CREATE TABLE "pedidos" (
 ```
 
 ### clave externa 1
+<small>Creado: 2025-10-16 17:17</small>
+
+#### Explicación
+
+Este fragmento de código SQL se utiliza para modificar una tabla existente llamada `pedidos` en una base de datos. En específico, el código está añadiendo una clave externa (foreign key) que relaciona la columna `cliente_id` en la tabla `pedidos` con la columna `Identificador` en la tabla `clientes`. Esto significa que cada pedido está vinculado a un cliente específico mediante su identificador único.
+
+La cláusula `ON DELETE CASCADE` es importante porque determina qué ocurre cuando se elimina un registro de la tabla `clientes`. En este caso, si un cliente es eliminado, todos los pedidos asociados a ese cliente también serán automáticamente borrados. Esto ayuda a mantener la integridad referencial entre las tablas.
+
+En resumen, esta línea de código fortalece la relación entre la tabla de pedidos y la tabla de clientes asegurando que no haya pedidos huérfanos en caso de que se eliminen los datos del cliente correspondiente.
+
+`013-clave externa 1.sql`
 
 ```sql
 -- 2️⃣ Añadir la relación 1:1 con clientes
@@ -3836,6 +5540,17 @@ ADD FOREIGN KEY ("cliente_id") REFERENCES "clientes"("Identificador") ON DELETE 
 ```
 
 ### clave externa 2
+<small>Creado: 2025-10-16 17:18</small>
+
+#### Explicación
+
+Este fragmento de código SQL está diseñado para mejorar una tabla existente llamada `pedidos` en una base de datos. En específico, el código añade una clave externa (foreign key) que relaciona la columna `producto_id` de la tabla `pedidos` con la columna `Identificador` de la tabla `productos`. Esto establece una relación uno a uno entre las dos tablas, lo que significa que cada pedido está asociado con un producto específico.
+
+La cláusula `ON DELETE CASCADE` es crucial porque determina qué sucede en la tabla `pedidos` cuando se elimina un registro de la tabla `productos`. En este caso, si se borra un producto de la tabla `productos`, todos los pedidos que referencian a ese producto (mediante el `producto_id`) también serán eliminados automáticamente. Esto ayuda a mantener la integridad de los datos y evita problemas con registros huérfanos en la tabla `pedidos`.
+
+En resumen, este código asegura una relación coherente entre pedidos y productos en tu base de datos, manteniendo la consistencia al permitir operaciones automatizadas cuando se eliminan elementos.
+
+`014-clave externa 2.sql`
 
 ```sql
 -- 3️⃣ Añadir la relación 1:1 con productos
@@ -3844,6 +5559,17 @@ ADD FOREIGN KEY ("producto_id") REFERENCES "productos"("Identificador") ON DELET
 ```
 
 ### de un golpe
+<small>Creado: 2025-10-16 17:25</small>
+
+#### Explicación
+
+Este código SQL crea una nueva tabla en la base de datos llamada `pedidos`. La tabla tiene varias columnas que almacenan información sobre los pedidos, como el identificador único del pedido, el ID del cliente que realizó el pedido, el ID del producto asociado al pedido, la fecha del pedido, la cantidad de productos pedida y el total a pagar. 
+
+Lo más relevante en este código son las claves foráneas (foreign keys) que se definen para `cliente_id` e `producto_id`. Estas claves foráneas establecen una relación con las tablas `clientes` y `productos`, respectivamente, asegurando que cada pedido esté asociado a un cliente existente y a un producto existente. Además, cuando se elimina un cliente o un producto de sus tablas correspondientes, también se eliminan automáticamente todos los pedidos relacionados con esa clave foránea gracias a la opción `ON DELETE CASCADE`.
+
+Esta tabla es crucial para mantener una base de datos coherente y relacionada, ya que asegura que no haya pedidos sin clientes o productos asociados.
+
+`015-de un golpe.sql`
 
 ```sql
 -- 1️⃣ Crear la nueva tabla con las claves foráneas
@@ -3860,6 +5586,19 @@ CREATE TABLE "pedidos" (
 ```
 
 ### inserción de pedido
+<small>Creado: 2025-10-16 17:26</small>
+
+#### Explicación
+
+Este fragmento de código SQL muestra dos inserciones diferentes en la tabla `pedidos`. La tabla `pedidos` probablemente tiene columnas para identificar cada pedido (como un ID automático), detalles sobre el cliente que realizó el pedido, la fecha del pedido y tal vez información sobre productos y costos.
+
+La primera línea de código es un comentario (`-- incorrecta`) que indica que la siguiente inserción no debería hacerse correctamente. La inserción intenta añadir una nueva fila a `pedidos` con valores específicos: `NULL`, `5`, `7`, `"2025-10-16"`, `5`, y `20.5`. Aquí, `NULL` sugiere que la base de datos debería generar automáticamente un valor para la columna ID del pedido, mientras que los otros valores representan detalles del pedido como el cliente (ID 5), producto (ID 7), fecha, cantidad (`5`) y costo (`20.5`). El comentario indica que algo está mal con estos valores.
+
+La línea siguiente también es un comentario (`-- correcta`), indicando que la inserción a continuación debería funcionar correctamente. Esta inserción es muy similar a la anterior pero utiliza diferentes valores: `NULL`, `1`, `2`, `"2025-10-16"`, `5`, y `20.5`. Estos cambios sugieren que el pedido correcto está asociado con un cliente distinto (ID 1) y un producto diferente (ID 2).
+
+Es importante entender estos ejemplos para aprender cómo insertar datos correctamente en una base de datos, asegurándose de que los valores utilizados sean válidos según las reglas de la base de datos.
+
+`016-inserción de pedido.sql`
 
 ```sql
 -- incorrecta
@@ -3886,12 +5625,38 @@ INSERT INTO pedidos VALUES(
 ```
 
 ### conectar en python
+<small>Creado: 2025-10-16 17:26</small>
+
+#### Explicación
+
+Este fragmento de código es el inicio de un script en Python que se utiliza para trabajar con una base de datos SQLite. La línea `import sqlite3` importa el módulo sqlite3, que proporciona funciones para interactuar con bases de datos SQLite desde dentro del programa. Este módulo incluye clases y métodos necesarios para abrir o crear bases de datos, ejecutar consultas SQL, manejar transacciones y más. Es un paso crucial al principio del script porque establece el entorno necesario para trabajar con la base de datos.
+
+La importación de este módulo es importante ya que te permite conectarte a una base de datos SQLite existente o crear una nueva, así como ejecutar comandos SQL directamente desde tu programa Python. Esto es fundamental en ejercicios y proyectos relacionados con el manejo de bases de datos en Python, permitiendo operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en la base de datos.
+
+`017-conectar en python.py`
 
 ```python
 import sqlite3
 ```
 
 ### abrir y select
+<small>Creado: 2025-10-16 17:28</small>
+
+#### Explicación
+
+Este fragmento de código es una parte del programa que se encarga de conectarse a una base de datos SQLite y recuperar información. En este caso, específicamente, el programa está haciendo lo siguiente:
+
+1. **Conexión con la Base de Datos:** Primero, importa el módulo `sqlite3` para trabajar con bases de datos SQLite. Luego, utiliza la función `connect()` para abrir o crear (si no existe) una base de datos llamada "empresa.db". Almacena esta conexión en la variable `basededatos`.
+
+2. **Ejecución del Query SQL:** Se crea un cursor utilizando el método `.cursor()`, que se usa para ejecutar comandos SQL y manipular registros. Luego, con el método `.execute()`, ejecuta una consulta SELECT que selecciona todos los datos de la tabla llamada "clientes".
+
+3. **Recuperación de Datos:** Los resultados obtenidos por la consulta son recuperados usando el método `fetchall()` del cursor, que devuelve todas las filas como un conjunto (list) de tuplas. Estos resultados se almacenan en la variable `filas`.
+
+4. **Impresión de Datos:** Finalmente, el programa recorre cada fila del conjunto de resultados utilizando un bucle for e imprime cada fila.
+
+Este código es importante porque muestra cómo interactuar con una base de datos SQLite desde Python para recuperar y visualizar información almacenada en una tabla específica. Es una parte fundamental del manejo de bases de datos en aplicaciones Python, especialmente cuando se trata de la gestión de clientes o cualquier otro tipo de registro de negocio.
+
+`018-abrir y select.py`
 
 ```python
 import sqlite3
@@ -3908,6 +5673,21 @@ for fila in filas:
 ```
 
 ### insertar
+<small>Creado: 2025-10-16 17:31</small>
+
+#### Explicación
+
+Este fragmento de código Python está conectado a una base de datos SQLite llamada `empresa.db`. La función principal es insertar un nuevo registro en la tabla `clientes`.
+
+El código comienza importando el módulo `sqlite3`, que proporciona herramientas para interactuar con bases de datos SQLite. Luego, se establece una conexión a la base de datos utilizando la función `connect()`, y se crea un objeto cursor que permite ejecutar consultas SQL en esa base de datos.
+
+La línea clave es el uso del método `execute()` del objeto cursor, donde se inserta un nuevo registro en la tabla `clientes`. Este comando SQL especifica que los valores a ingresar son: un valor NULL (que probablemente se refiere al ID autoincremental), 'Juan' como nombre, 'Garcia Lopez' como apellido, 'juan@jocarsa.com' como correo electrónico y 'La calle de Juan' como dirección. Este comando insertará automáticamente estos datos en la tabla `clientes`.
+
+Finalmente, el método `commit()` se utiliza para confirmar los cambios realizados en la base de datos. Sin este paso, las inserciones no serían permanentes.
+
+Este tipo de operación es crucial cuando necesitas añadir nuevos registros a tu base de datos y es una habilidad fundamental en la gestión de bases de datos relacionales.
+
+`019-insertar.py`
 
 ```python
 import sqlite3
@@ -3931,6 +5711,17 @@ basededatos.commit()
 ```
 
 ### actualizar
+<small>Creado: 2025-10-16 17:32</small>
+
+#### Explicación
+
+Este código Python realiza una actualización en una base de datos SQLite llamada `empresa.db`. Primero, se importa el módulo `sqlite3`, que es la herramienta estándar para trabajar con bases de datos SQLite en Python. Luego, se conecta a la base de datos `empresa.db` y crea un objeto cursor, que será utilizado para ejecutar comandos SQL.
+
+El código entonces ejecuta una consulta SQL del tipo UPDATE, que cambia el valor de la columna 'direccion' en la tabla 'clientes'. Específicamente, establece la dirección como 'La otra calle de Juan', pero solo para el registro cuyo identificador es 2. Finalmente, se llama al método `commit()` en la conexión a la base de datos para guardar los cambios realizados.
+
+Esta operación es crucial cuando necesitas modificar información existente en tu base de datos sin tener que eliminar y reinsertar registros completos. Es una forma eficiente de mantener tus datos actualizados según sea necesario.
+
+`020-actualizar.py`
 
 ```python
 import sqlite3
@@ -3949,6 +5740,23 @@ basededatos.commit()
 ```
 
 ### eliminar
+<small>Creado: 2025-10-16 17:32</small>
+
+#### Explicación
+
+Este código Python está diseñado para eliminar un registro específico de una tabla llamada `clientes` en una base de datos SQLite. La función principal del fragmento es borrar el cliente cuyo campo `Identificador` tiene el valor 2.
+
+Primero, se importa la librería `sqlite3`, que permite interactuar con bases de datos SQLite desde Python. Luego, se establece una conexión a la base de datos llamada `empresa.db`. Esta acción es necesaria para poder ejecutar cualquier comando SQL en ella.
+
+Después, el código crea un objeto cursor utilizando el método `.cursor()` de la conexión a la base de datos. El cursor permite enviar comandos SQL y recibir los resultados devueltos por la base de datos.
+
+El siguiente paso es ejecutar una consulta `DELETE` mediante el método `.execute()`. Esta consulta elimina del registro en la tabla `clientes` donde el campo `Identificador` tenga el valor 2. Es importante ser preciso al especificar qué registros eliminar para evitar borrar información incorrecta o no deseada.
+
+Finalmente, se utiliza el método `.commit()` de la conexión a la base de datos para confirmar los cambios realizados por la consulta `DELETE`. Esto asegura que la eliminación del registro se guarda permanentemente en la base de datos. Sin esta línea, los cambios no se guardarían y serían descartados cuando se cierra la conexión.
+
+Este código es útil para gestionar dinámicamente la información almacenada en una base de datos, permitiendo la actualización o limpieza de registros según sea necesario.
+
+`021-eliminar.py`
 
 ```python
 import sqlite3
@@ -3966,6 +5774,21 @@ basededatos.commit()
 ```
 
 ### crear programa de gestion
+<small>Creado: 2025-10-16 17:38</small>
+
+#### Explicación
+
+Este código es una parte de un programa en Python que gestiona una base de datos SQLite. En primer lugar, importa la biblioteca `sqlite3`, que permite interactuar con bases de datos SQLite desde Python.
+
+El código inicia borrando todo el contenido de la pantalla y muestra un mensaje "Programa de gestión", seguido por una lista numerada de las tablas existentes en la base de datos. Para lograr esto, primero se conecta a la base de datos llamada `empresa.db` utilizando `sqlite3.connect("empresa.db")`.
+
+Luego, el programa ejecuta una consulta SQL para obtener los nombres de todas las tablas presentes en la base de datos. Esto se hace usando la sentencia `SELECT name FROM sqlite_master WHERE type='table' ORDER BY name;`. El resultado de esta consulta es almacenado en un objeto llamado `filas`.
+
+Finalmente, el código itera sobre cada fila del resultado (cada nombre de tabla) y lo muestra en pantalla con su correspondiente número. Esto ayuda a los usuarios a ver todas las tablas disponibles y seleccionar la que desean gestionar.
+
+El programa espera a que el usuario introduzca una opción elegida y continúa después de esta entrada, permitiendo al usuario interactuar con diferentes partes de la base de datos según lo necesario. Esta interfaz simple pero efectiva es útil para manejar tareas básicas en la base de datos `empresa.db`.
+
+`022-crear programa de gestion.py`
 
 ```python
 import sqlite3
@@ -3992,6 +5815,19 @@ opcion = input("Tu opción elegida: ")
 ```
 
 ### seleccion de opcion
+<small>Creado: 2025-10-16 17:40</small>
+
+#### Explicación
+
+Este código Python se utiliza para gestionar una base de datos SQLite llamada `empresa.db`. Primero, el programa borra la pantalla y muestra un menú interactivo que lista todas las tablas disponibles en la base de datos. Esto ayuda al usuario a seleccionar una tabla específica según sus necesidades.
+
+El código conecta a la base de datos `empresa.db` utilizando la biblioteca `sqlite3`. Luego, ejecuta una consulta SQL para obtener los nombres de todas las tablas que están almacenadas en esta base de datos. La información es recogida y mostrada al usuario en un formato fácil de leer, donde cada tabla está numerada.
+
+Después de mostrar estas opciones a través del bucle `for`, el programa solicita al usuario que introduzca la opción elegida para seleccionar una tabla específica. Una vez que se ha hecho esta selección, el código vuelve a borrar la pantalla y muestra en pantalla la tabla que el usuario ha seleccionado.
+
+Este proceso es fundamental porque permite a los usuarios interactuar con la base de datos de manera controlada y segura, permitiéndoles realizar operaciones específicas en las tablas según lo requieran.
+
+`023-seleccion de opcion.py`
 
 ```python
 import sqlite3
@@ -4025,6 +5861,17 @@ print("La tabla seleccionada es: "+tabla)
 ```
 
 ### siguientes opciones
+<small>Creado: 2025-10-16 17:42</small>
+
+#### Explicación
+
+Este fragmento de código es parte de un programa en Python que interactúa con una base de datos SQLite llamada `empresa.db`. El código inicia borrando la pantalla y presentándole al usuario un menú donde debe seleccionar entre las tablas disponibles en la base de datos. Para lograr esto, el programa conecta a la base de datos utilizando la librería `sqlite3`, consulta los nombres de todas las tablas que están en ella y luego muestra una lista numerada de estas.
+
+Después de que el usuario elige una tabla (ingresando un número asociado), se borra nuevamente la pantalla y se presenta al usuario otro menú donde puede seleccionar entre diferentes operaciones CRUD (Crear, Leer, Actualizar, Borrar) que se pueden realizar sobre la tabla elegida.
+
+Este tipo de interacción es importante en aplicaciones de gestión de base de datos ya que permite a los usuarios interactuar directamente con la estructura y el contenido de la base de datos sin necesidad de tener conocimientos detallados de SQL.
+
+`024-siguientes opciones.py`
 
 ```python
 import sqlite3
@@ -4064,6 +5911,19 @@ opcion = input("Selecciona una opcion: ")
 ```
 
 ### comentarios hasta el momento
+<small>Creado: 2025-10-16 17:54</small>
+
+#### Explicación
+
+Este código es una parte de un programa de gestión en Python que utiliza la base de datos SQLite. El objetivo principal es permitir al usuario seleccionar una tabla y luego realizar operaciones básicas (crear, listar, actualizar o eliminar registros) sobre esa tabla.
+
+El script comienza conectándose a una base de datos llamada "empresa.db" utilizando el módulo `sqlite3`. Luego muestra un menú interactivo donde se le pide al usuario que seleccione una entidad (tabla). Para esto, ejecuta una consulta para obtener todas las tablas disponibles en la base de datos y las lista. El usuario puede elegir una tabla ingresando su número correspondiente.
+
+Una vez seleccionada la tabla, el programa muestra otro menú donde se le pide al usuario que seleccione una operación (crear, listar, actualizar o eliminar registros). Si el usuario elige "Crear un registro", el código solicita al usuario que introduzca los datos para cada columna de la tabla y luego inserta estos datos en la base de datos.
+
+Este tipo de interfaz es útil porque permite a los usuarios interactuar fácilmente con las tablas de una base de datos sin necesidad de entender completamente SQL o cómo funcionan las bases de datos.
+
+`025-comentarios hasta el momento.py`
 
 ```python
 import sqlite3
@@ -4146,6 +6006,19 @@ elif opcion == 4:
 ```
 
 ### aplicacion hasta el momento
+<small>Creado: 2025-10-16 17:54</small>
+
+#### Explicación
+
+Este código es una parte de un programa de gestión que permite a un usuario interactuar con una base de datos SQLite. En primer lugar, el programa conecta a la base de datos y obtiene una lista de todas las tablas disponibles en ella. Luego, muestra al usuario estas tablas para que pueda seleccionar sobre cuál desea operar.
+
+Después de que el usuario selecciona una tabla, se presenta otra pantalla donde puede elegir entre cuatro tipos de operaciones: crear un registro nuevo, listar los registros existentes, actualizar un registro o eliminar un registro. El código muestra cómo manejar la opción de "Crear un registro", mostrando al usuario cuáles son las columnas disponibles en la tabla seleccionada y solicitándole que introduzca nuevos datos para cada columna.
+
+El programa utiliza el comando SQL `PRAGMA table_info` para obtener información sobre todas las columnas de la tabla seleccionada. Luego, genera una consulta INSERT dinámica basada en los nombres de las columnas obtenidas, permitiendo al usuario ingresar datos nuevos que serán insertados en la base de datos.
+
+Esta parte del código es importante porque demuestra cómo interactuar con una base de datos de manera segura y flexible utilizando SQL, mostrando cómo manejar consultas dinámicas basadas en el contexto actual (en este caso, las columnas de la tabla seleccionada por el usuario).
+
+`026-aplicacion hasta el momento.py`
 
 ```python
 import sqlite3
@@ -4228,6 +6101,19 @@ elif opcion == 4:
 ```
 
 ### bucle infinito
+<small>Creado: 2025-10-16 17:56</small>
+
+#### Explicación
+
+Este fragmento de código es una parte del programa que permite al usuario gestionar una base de datos SQLite interactivamente. En primer lugar, el programa conecta a la base de datos "empresa.db" y prepara un cursor para ejecutar comandos SQL.
+
+El código utiliza un bucle infinito (`while True:`) que muestra al usuario una serie de menús. Primero, presenta una lista de todas las tablas disponibles en la base de datos, permitiendo al usuario seleccionar una tabla específica. Luego, muestra otra pantalla donde el usuario puede elegir qué operación realizar sobre la tabla seleccionada: crear un registro nuevo, listar registros existentes, actualizar un registro o eliminar un registro.
+
+Después de que el usuario hace su selección en ambos menús, se ejecuta código específico para la operación elegida. En este ejemplo, solo se implementa detalladamente el caso donde el usuario desea crear un registro nuevo (opción 1). El programa solicita al usuario los valores para cada columna en la tabla y luego ejecuta una sentencia SQL `INSERT` con estos valores.
+
+Es importante destacar que el código borra la pantalla antes de mostrar cada menú usando secuencias de escape ANSI, lo que mejora la experiencia del usuario proporcionando un entorno limpio y claro para las interacciones.
+
+`027-bucle infinito.py`
 
 ```python
 import sqlite3
@@ -4310,6 +6196,27 @@ while True:
 ```
 
 ### pantalla de bienvenida
+<small>Creado: 2025-10-16 17:58</small>
+
+#### Explicación
+
+Este código es una parte de un programa en Python que interactúa con una base de datos SQLite para gestionar diferentes entidades (tablas) y operaciones sobre ellas. El objetivo principal del fragmento es proporcionar al usuario un menú interactivo donde puede seleccionar una tabla existente y luego realizar diversas operaciones CRUD (Crear, Leer, Actualizar, Borrar).
+
+1. **Conexión a la base de datos**: Al inicio del código, se establece una conexión con la base de datos SQLite llamada "empresa.db" utilizando el módulo `sqlite3`. Esto permite al programa interactuar con los datos almacenados en esta base de datos.
+
+2. **Menú principal y selección de entidad**: El programa muestra un menú para que el usuario elija entre diferentes tablas disponibles en la base de datos. Utiliza comandos SQL para obtener una lista de todas las tablas existentes en la base de datos y luego presenta estas opciones al usuario.
+
+3. **Selección de operación sobre la entidad**: Una vez seleccionada una tabla, se muestra un menú donde el usuario puede elegir entre crear (insertar) un nuevo registro, listar registros existentes, actualizar un registro o eliminar un registro en dicha tabla.
+
+4. **Ejecución de operaciones CRUD**:
+   - **Crear un registro (Insertar)**: Si el usuario selecciona la opción 1, se le pedirá que introduzca valores para cada columna de la tabla y luego se ejecutará una consulta SQL `INSERT INTO` dinámica con los valores proporcionados.
+   - Para las demás operaciones CRUD (leer, actualizar, eliminar), el código muestra mensajes informativos indicando qué tipo de acción se va a realizar pero no implementa específicamente cómo se realizan estas acciones en este fragmento.
+
+La funcionalidad de borrar la pantalla antes de mostrar cada menú y mensaje al usuario es gestionada mediante secuencias de escape ANSI (`\033[2J` para borrar toda la pantalla, `\033[0;0H` para mover el cursor a la posición inicial).
+
+Este tipo de interfaz permite una interacción sencilla y directa con la base de datos para tareas administrativas básicas.
+
+`028-pantalla de bienvenida.py`
 
 ```python
 import sqlite3
@@ -4399,6 +6306,19 @@ while True:
 ```
 
 ### desarrollo manual de listados
+<small>Creado: 2025-10-16 18:01</small>
+
+#### Explicación
+
+Este fragmento de código es parte de un programa en Python que interactúa con una base de datos SQLite para gestionar tablas y registros. El programa primero conecta a la base de datos "empresa.db" y crea un cursor para ejecutar consultas SQL.
+
+El código muestra una estructura de menú interactiva que permite al usuario seleccionar diferentes operaciones en la base de datos. Primero, el programa presenta una lista de todas las tablas disponibles en la base de datos, obtenidas mediante una consulta a la tabla `sqlite_master`. Luego, solicita que el usuario seleccione una tabla y muestra opciones para crear un registro nuevo, listar registros existentes, actualizar o eliminar un registro.
+
+Cuando se selecciona la opción "Crear un registro", el programa recoge los valores necesarios para cada columna de la tabla elegida por el usuario. Utiliza una consulta `PRAGMA table_info` para obtener información sobre las columnas y luego solicita al usuario que introduzca datos para cada una de estas columnas. Finalmente, ejecuta una instrucción SQL INSERT con placeholders (marcadores de posición) para insertar los nuevos datos en la tabla.
+
+Este código es importante porque proporciona una interfaz sencilla para interactuar con datos en una base de datos SQLite, facilitando a los usuarios realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) sin necesidad de tener conocimientos avanzados de SQL.
+
+`029-desarrollo manual de listados.py`
 
 ```python
 import sqlite3
@@ -4495,6 +6415,161 @@ while True:
 ```
 
 ### ayuda de la inteligencia artificial
+<small>Creado: 2025-10-16 18:16</small>
+
+#### Explicación
+
+El script proporcionado es un programa interactivo en Python que permite realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) en una base de datos SQLite utilizando una interfaz terminal. El programa está estructurado de manera modular para facilitar su mantenimiento y extensión.
+
+### Resumen del Programa
+
+1. **Conexión a la Base de Datos**: Se conecta a una base de datos SQLite llamada `database.db`.
+2. **Interfaz de Usuario**: Proporciona un menú interactivo que permite seleccionar operaciones CRUD y cambiar entre diferentes tablas.
+3. **Operaciones CRUD**:
+   - **Crear (Insertar)**: Permite insertar nuevos registros en la tabla seleccionada, proporcionando valores para cada columna.
+   - **Leer (Listar)**: Muestra todos los registros de la tabla seleccionada con paginación.
+   - **Actualizar**: Actualiza un registro existente basado en su clave primaria y permite editar las columnas no primarias.
+   - **Eliminar**: Elimina un registro existente basado en su clave primaria.
+
+### Detalle del Codigo
+
+#### Conexión a la Base de Datos
+```python
+def connect(DB_PATH):
+    con = sqlite3.connect(DB_PATH)
+    cur = con.cursor()
+    return con, cur
+```
+
+El método `connect` se encarga de establecer una conexión con la base de datos y crear un objeto cursor para ejecutar consultas.
+
+#### Menús Interactivos
+```python
+def select_table(cur):
+    while True:
+        tables = list_tables(cur)
+        if not tables:
+            error("No hay tablas en la base de datos.")
+            pause()
+            sys.exit(0)
+
+        for i, t in enumerate(tables, 1):
+            print(f"{FG_CYAN}{i:>2}{RESET} {VL} {t}")
+        op = ask_int("Tu opción elegida: ", minv=1, maxv=len(tables))
+        return tables[op - 1]
+```
+
+El método `select_table` muestra una lista de tablas disponibles y permite al usuario seleccionar una tabla.
+
+#### CRUD Operations
+- **Crear Registro**
+```python
+def op_create(cur, con, table):
+    cols = table_info(cur, table)
+    names = column_names(cols)
+
+    placeholders = ",".join(["?"] * len(names))
+    sql = f"INSERT INTO {table} ({','.join(names)}) VALUES ({placeholders})"
+    
+    try:
+        cur.execute(sql, values)
+        con.commit()
+        success("Registro insertado.")
+    except sqlite3.Error as e:
+        error(f"No se pudo insertar: {e}")
+```
+
+- **Leer Registros**
+```python
+def op_list(cur, table):
+    cols = table_info(cur, table)
+    names = column_names(cols)
+
+    try:
+        cur.execute(f"SELECT {', '.join(names)} FROM {table};")
+        rows = cur.fetchall()
+        paginated_print(names, rows)
+    except sqlite3.Error as e:
+        error(f"No se pudo listar: {e}")
+```
+
+- **Actualizar Registro**
+```python
+def op_update(cur, con, table):
+    cols = table_info(cur, table)
+    names = column_names(cols)
+    pk_cols = primary_keys(cols)
+
+    set_clause = ", ".join([f"{n}=?" for n in names if n not in pk_cols])
+    where = " AND ".join([f"{c}=?" for c in pk_cols])
+
+    sql = f"UPDATE {table} SET {set_clause} WHERE {where};"
+    
+    try:
+        cur.execute(sql, params)
+        con.commit()
+        success(f"Filas afectadas: {cur.rowcount}")
+    except sqlite3.Error as e:
+        error(f"No se pudo actualizar: {e}")
+```
+
+- **Eliminar Registro**
+```python
+def op_delete(cur, con, table):
+    cols = table_info(cur, table)
+    names = column_names(cols)
+    pk_cols = primary_keys(cols)
+
+    where = " AND ".join([f"{c}=?" for c in pk_cols])
+    sql = f"DELETE FROM {table} WHERE {where};"
+    
+    try:
+        cur.execute(sql, params)
+        con.commit()
+        success(f"Filas afectadas: {cur.rowcount}")
+    except sqlite3.Error as e:
+        error(f"No se pudo eliminar: {e}")
+```
+
+### Ejecución Principal
+```python
+def main():
+    con = connect(DB_PATH)
+    cur = con.cursor()
+
+    current_table = None
+
+    while True:
+        if not current_table:
+            current_table = select_table(cur)
+
+        op = select_operation(current_table)
+        if op == 0: break
+        elif op == 1: op_create(cur, con, current_table)
+        elif op == 2: op_list(cur, current_table)
+        elif op == 3: op_update(cur, con, current_table)
+        elif op == 4: op_delete(cur, con, current_table)
+        elif op == 5: current_table = None
+
+    try:
+        con.close()
+    except Exception as e:
+        print(f"Error al cerrar la conexión: {e}")
+```
+
+El método `main` es el punto de entrada principal del programa. Establece una conexión a la base de datos, muestra un menú interactivo para seleccionar operaciones CRUD y tablas, y gestiona las excepciones.
+
+### Uso
+
+1. **Instalar Dependencias**: Asegurarse de que SQLite esté instalado en el sistema.
+2. **Ejecutar Programa**:
+   ```sh
+   python3 database_manager.py
+   ```
+
+Este script proporciona una interfaz sencilla y eficiente para gestionar datos en una base de datos SQLite desde la línea de comandos.
+
+`030-ayuda de la inteligencia artificial.py`
 
 ```python
 #!/usr/bin/env python3
@@ -4944,6 +7019,111 @@ if __name__ == "__main__":
 ```
 
 ### mas mejoras
+<small>Creado: 2025-10-16 18:21</small>
+
+#### Explicación
+
+Este script es una aplicación de consola en Python que proporciona un menú interactivo para realizar operaciones CRUD (Crear, Leer, Actualizar y Borrar) en una base de datos SQLite. La aplicación utiliza colores y símbolos para mejorar la experiencia del usuario. A continuación, te presento una explicación detallada de las principales partes del código:
+
+### 1. Funciones de Estilo y Presentación
+
+El script incluye funciones que manejan el estilo de texto en la consola (colores, símbolos, etc.) para hacer la interfaz más atractiva.
+
+```python
+def cls():
+    os.system("cls" if os.name == "nt" else "clear")
+
+def apply_theme():
+    print(CLEARSCREEN)
+```
+
+Estas funciones se usan para limpiar la pantalla y aplicar un tema de colores, respectivamente.
+
+### 2. Conexión a la Base de Datos
+
+El script conecta a una base de datos SQLite llamada `DB_PATH`.
+
+```python
+def connect(DB_PATH):
+    return sqlite3.connect(DB_PATH)
+
+con = connect("mydatabase.db")
+cur = con.cursor()
+```
+
+`connect()` es un wrapper alrededor del método de conexión de SQLite. En el ejemplo, se utiliza "mydatabase.db" como la ruta a la base de datos.
+
+### 3. Menús y Selección de Tablas
+
+El script tiene funciones que muestran menús interactivos para seleccionar una tabla o operación:
+
+```python
+def select_table(cur):
+    tables = list_tables(cur)
+    # Muestra las tablas disponibles en el menú
+```
+
+`list_tables()` es una función personalizada que recupera la lista de todas las tablas existentes en la base de datos.
+
+### 4. CRUD Operations
+
+El script incluye funciones específicas para cada operación CRUD:
+
+- **Crear (Insertar)**: `op_create(cur, con, table)`, solicita al usuario los valores necesarios para crear un nuevo registro.
+  
+- **Leer (Listado)**: `op_list(cur, table)` lista todos los registros de una tabla específica.
+
+- **Actualizar**: `op_update(cur, con, table)` permite actualizar un registro existente.
+
+- **Eliminar**: `op_delete(cur, con, table)` elimina un registro específico basándose en la clave primaria.
+
+### 5. Menú Principal y Ciclo de Ejecución
+
+El script incluye una función principal que maneja el ciclo de ejecución del menú interactivo:
+
+```python
+def main():
+    # Conecta a la base de datos
+    con = connect(DB_PATH)
+    cur = con.cursor()
+
+    # Cuerpo del programa: muestra los menús y realiza las operaciones según la opción seleccionada.
+    
+    while True:
+        op = select_operation(current_table)  # Muestra el menú principal
+
+        if op == 0:
+            break
+        elif op == 1:
+            op_create(cur, con, current_table)
+        elif op == 2:
+            op_list(cur, current_table)
+        elif op == 3:
+            op_update(cur, con, current_table)
+        elif op == 4:
+            op_delete(cur, con, current_table)
+        elif op == 5:
+            # Cambiar a otra tabla
+```
+
+### Ejecución del Script
+
+El script se ejecuta desde `if __name__ == "__main__"` y maneja excepciones para permitir que el usuario interrumpa la aplicación.
+
+```python
+if __name__ == "__main__":
+    try:
+        main()
+    except KeyboardInterrupt:
+        cls(); apply_theme()
+        info("Interrumpido por el usuario.")
+```
+
+### Resumen
+
+Este script proporciona una interfaz de línea de comandos amigable y visualmente atractiva para interactuar con una base de datos SQLite. Permite al usuario crear, leer, actualizar y eliminar registros en tablas específicas según su elección.
+
+`031-mas mejoras.py`
 
 ```python
 #!/usr/bin/env python3
@@ -5412,6 +7592,21 @@ if __name__ == "__main__":
 ```
 
 ### Conceptos de consola
+<small>Creado: 2025-10-16 18:30</small>
+
+#### Explicación
+
+Este fragmento de texto no contiene código Python ejecutable, sino que proporciona información general sobre las terminales o consolas en diferentes sistemas operativos. Describe brevemente cómo los sistemas Windows, macOS y Linux tienen sus propias versiones de terminal o consola para interactuar con el sistema operativo directamente desde la línea de comandos.
+
+Además, menciona dos tipos principales de programas que se pueden desarrollar:
+
+1. **Programas de consola/terminal**: Estos son programas que funcionan sin una interfaz gráfica y utilizan la terminal del sistema operativo para recibir entrada del usuario y mostrar salida, como mensajes o resultados de cálculos.
+
+2. **Programas de ventanas (tkinter)**: Son aplicaciones con interfaces gráficas creadas en lenguajes de programación que pueden interactuar con bibliotecas específicas, como tkinter en Python, para crear ventanas y controles visuales.
+
+Este texto es informativo y ayuda a entender la diferencia entre trabajar directamente en una consola o terminal y desarrollar aplicaciones que utilizan interfaces gráficas. Es importante conocer estos conceptos para comprender cómo interactúan las aplicaciones con el sistema operativo y cómo se pueden crear diferentes tipos de software dependiendo de las necesidades del usuario.
+
+`032-Conceptos de consola.py`
 
 ```python
 Todos los sistemas operativos tienen terminal/consola:
@@ -5425,10 +7620,79 @@ Los tres sistemas operativos, a dia de hoy (2025), soportan
 2.-Programas de ventanas (tkinter) - programados en cualquier lenguaje
 ```
 
+### Actividades propuestas
+
+El código proporcionado es una implementación detallada de un sistema CRUD (Create, Read, Update, Delete) para una base de datos SQLite, utilizando la consola como interfaz. El programa permite al usuario interactuar con las tablas de una base de datos SQLite mediante comandos de texto. Aquí se desglosa el funcionamiento principal del código:
+
+1. **Interfaz de Consola**: El programa utiliza un sistema de menús y entradas de texto para permitir a los usuarios realizar operaciones CRUD en la base de datos.
+
+2. **Estilo de Interfaz**: Usa colores y símbolos para mejorar la visualización en la consola, lo que hace que sea más fácil para el usuario entender y navegar por el menú.
+
+3. **Funciones Básicas**:
+   - `op_create`: Inserta un nuevo registro en una tabla específica.
+   - `op_list`: Muestra todos los registros de una tabla especificada.
+   - `op_update`: Actualiza un registro existente basado en la clave primaria (PK).
+   - `op_delete`: Elimina un registro específico también basándose en la clave primaria.
+
+4. **Manejo de Tablas**:
+   - El programa permite a los usuarios seleccionar y trabajar con diferentes tablas dentro de una base de datos SQLite.
+   
+5. **Interacción Con Usuario**:
+   - La función `select_operation` muestra un menú interactivo para permitir al usuario seleccionar qué operación CRUD realizar.
+
+6. **Comprobaciones y Gestión de Errores**:
+   - El código incluye comprobaciones básicas, como verificar si una clave primaria es vacía antes de intentar actualizar o eliminar un registro.
+   
+7. **Estilo y Apariencia**:
+   - Usa colores y símbolos para mejorar la apariencia del menú interactivo en la consola.
+
+### Estructura Detallada:
+
+1. **Inicialización y Conexión a Base de Datos**
+    ```python
+    def main():
+        con = connect(DB_PATH)
+        cur = con.cursor()
+    ```
+
+2. **Menús Interactivos**
+   - Se muestra un menú inicial para seleccionar la tabla.
+   - Después, se muestra otro menú interactivo para permitir al usuario elegir la operación CRUD.
+
+3. **Operaciones CRUD**
+    - `op_create`: Permite a los usuarios insertar nuevos registros en la base de datos.
+    - `op_list`: Muestra todos los registros de una tabla específica.
+    - `op_update`: Actualiza un registro basado en la clave primaria.
+    - `op_delete`: Elimina un registro basado en la clave primaria.
+
+4. **Gestión de Errores**
+   - El programa maneja excepciones como errores en las consultas SQL y entradas inválidas del usuario, proporcionando mensajes informativos para mejorar la experiencia del usuario.
+
+### Ejecución:
+- Al ejecutar el script `main.py`, se inicializa una conexión a la base de datos SQLite especificada (`DB_PATH`). Luego, se muestra un menú interactivo que permite al usuario seleccionar la tabla y realizar operaciones CRUD en ella. 
+
+Este código es útil para aprender sobre cómo interactuar con bases de datos desde la consola y cómo mejorar la experiencia del usuario mediante el uso de estilos textuales en la terminal (como colores y símbolos).
+
+
 <a id="simulacro-examen"></a>
 ## Simulacro examen
 
+### Introducción a los ejercicios
+
+Este conjunto de ejercicios está diseñado para familiarizarte con la creación y gestión de una base de datos en SQL, específicamente centrada en un blog con entradas y autores. Los problemas abordan desde la creación inicial de la base de datos hasta la inserción de datos y la manipulación avanzada mediante joins e vistas. Practicarás habilidades como definir estructuras de tablas, establecer relaciones entre ellas a través de claves primarias y foráneas, así como manejar usuarios y privilegios en tu base de datos. Este ejercicio te preparará para entender cómo se organiza la información en aplicaciones web reales, desde el modelo relacional hasta su implementación práctica con SQL.
+
 ### Creo la base de datos
+<small>Creado: 2025-10-30 15:20</small>
+
+#### Explicación
+
+Este código SQL tiene dos partes. Primero, se ejecuta el comando `sudo mysql -u root -p` en la línea de comandos para acceder al servidor MySQL con privilegios del usuario raíz (root). Esto te pedirá que ingreses la contraseña de la cuenta root cuando lo ejecutes.
+
+La segunda parte es la creación de una base de datos llamada `blog2526`. El comando `CREATE DATABASE blog2526;` instruye al servidor MySQL para crear una nueva base de datos con ese nombre. Este paso es crucial porque establece el contenedor en donde almacenarás todas las tablas y datos relacionados a un blog o proyecto específico.
+
+Este archivo SQL probablemente será parte de una serie de archivos que definen la estructura completa de tu base de datos para un proyecto, como el desarrollo de una aplicación de blog. Es importante seguir este tipo de scripts paso a paso para asegurarte de que cada componente se crea correctamente en orden.
+
+`001-Creo la base de datos.sql`
 
 ```sql
 sudo mysql -u root -p
@@ -5437,6 +7701,15 @@ CREATE DATABASE blog2526;
 ```
 
 ### creo tablas
+<small>Creado: 2025-10-30 15:23</small>
+
+#### Explicación
+
+Este fragmento de código SQL crea dos tablas en una base de datos, llamadas "entradas" y "autores". La tabla "entradas" almacena información sobre entradas o artículos, como un identificador único, el título del artículo, su contenido, la fecha en que se publicó y el autor asociado (que es un número entero representando la relación con una fila en la tabla autores). Por otro lado, la tabla "autores" almacena información sobre los autores de estos artículos, incluyendo un identificador único para cada autor, su nombre, apellidos y correo electrónico. Ambas tablas utilizan el motor InnoDB, que es conocido por ser más potente y robusto que otros motores, permitiendo transacciones y relaciones entre tablas (como claves foráneas).
+
+Este código es fundamental en la creación de una base de datos para un sistema de gestión de contenido o blog, ya que establece las estructuras básicas donde se guardarán los datos de entradas y autores. La elección del motor InnoDB es importante porque permite definir relaciones entre estas dos tablas más adelante (por ejemplo, hacer que la columna "autor" en la tabla "entradas" sea una clave foránea referenciando a la tabla "autores"), lo que ayuda a mantener la integridad de los datos y facilita consultas complejas.
+
+`002-creo tablas.sql`
 
 ```sql
 CREATE TABLE entradas (
@@ -5456,6 +7729,17 @@ CREATE TABLE autores (
 ```
 
 ### añadir claves primarias
+<small>Creado: 2025-10-30 15:24</small>
+
+#### Explicación
+
+Este fragmento de código SQL te enseña cómo añadir claves primarias a dos tablas diferentes llamadas `entradas` y `autores`. Primero, el código describe la estructura actual de la tabla `entradas`, mostrando sus columnas actuales. Luego, se agrega una clave primaria a esta tabla utilizando la columna `Identificador`. Una clave primaria es un campo o conjunto de campos que única e invariablemente identifica cada fila en una tabla. A continuación, se modifica la columna `Identificador` para asegurarse de que sea de tipo entero (INT), no nula y autoincrementable, lo que significa que el valor de esta columna aumentará automáticamente con cada nueva entrada.
+
+El proceso se repite para la tabla `autores`, primero describiendo su estructura actual, luego añadiendo una clave primaria a la misma columna `Identificador` en esta tabla, y finalmente modificando esa columna para ser de tipo INT, no nula y autoincrementable. Esto asegura que cada tabla tenga un campo único e incremental que puede usarse como identificador principal.
+
+La importancia de establecer claves primarias radica en que proporcionan una forma única de referirse a cualquier fila en la tabla, lo cual es crucial para relaciones entre tablas y garantiza la integridad de los datos.
+
+`003-añadir claves primarias.sql`
 
 ```sql
 DESCRIBE entradas;
@@ -5481,6 +7765,19 @@ ALTER TABLE autores
 ```
 
 ### clave foranea de autores a entradas
+<small>Creado: 2025-10-30 15:28</small>
+
+#### Explicación
+
+Este fragmento de código SQL está añadiendo una restricción (constraint) a la tabla llamada `entradas`. Específicamente, se crea una clave foránea (`FOREIGN KEY`) en el campo `autor` que referencia al campo `Identificador` en la tabla `autores`.
+
+La función principal es garantizar que cada entrada registrada en la tabla `entradas` esté asociada con un autor válido que existe en la tabla `autores`. Esto mantiene la integridad de los datos, asegurando que no haya entradas cuyo autor no tenga una correspondiente entrada en la tabla `autores`.
+
+Las cláusulas `ON DELETE RESTRICT` y `ON UPDATE RESTRICT` significan que si intentas eliminar un registro del autor o cambiar su identificador, SQL impedirá dicha acción porque afectaría las referencias existentes en la tabla de entradas. Esto protege contra la pérdida accidental de datos importantes relacionados.
+
+En resumen, este código ayuda a mantener una relación coherente y segura entre autores y sus entradas en un sistema de gestión de contenido o blog, evitando registros inconsistentes.
+
+`004-clave foranea de autores a entradas.sql`
 
 ```sql
 ALTER TABLE entradas 
@@ -5491,6 +7788,17 @@ ON UPDATE RESTRICT;
 ```
 
 ### insercion de datos de muestra
+<small>Creado: 2025-10-30 15:29</small>
+
+#### Explicación
+
+Este fragmento de código SQL se utiliza para insertar datos en la tabla llamada `autores`. Cada línea dentro del comando `INSERT INTO` agrega una nueva fila a esta tabla, especificando valores para las columnas `nombre`, `apellidos` y `email`.
+
+El formato es importante: primero se indica la tabla donde se van a añadir los registros (en este caso, `autores`) seguido de una lista entre paréntesis con el nombre de las columnas que recibirán datos. Luego, después del comando `VALUES`, se proporciona una lista de valores para cada fila nueva que queremos agregar.
+
+Esta operación es crucial porque permite poblar la base de datos con información inicial que luego puede ser utilizada para realizar consultas, actualizar registros y vincular esta tabla con otras tablas en el diseño de la base de datos.
+
+`005-insercion de datos de muestra.sql`
 
 ```sql
 INSERT INTO autores (nombre, apellidos, email) VALUES
@@ -5517,6 +7825,17 @@ INSERT INTO autores (nombre, apellidos, email) VALUES
 ```
 
 ### insercion de entradas
+<small>Creado: 2025-10-30 15:30</small>
+
+#### Explicación
+
+Este fragmento de código SQL se utiliza para insertar múltiples registros en una tabla llamada `entradas`. Cada registro contiene información sobre un artículo o entrada, incluyendo el título del artículo, su contenido, la fecha en que fue publicado y el autor asociado. La estructura del comando `INSERT INTO` permite especificar los campos de la tabla a llenar (en este caso, `titulo`, `contenido`, `fecha` y `autor`) seguidos por una lista de valores entre paréntesis. Cada conjunto de valores representa un nuevo registro que se insertará en la tabla.
+
+Lo importante aquí es entender cómo organizar los datos para cada entrada y cómo relacionarlos con el autor a través del campo `autor`. Esto demuestra cómo manipular registros en una base de datos relacional, siendo clave identificar correctamente las claves primarias y foráneas entre tablas. En este caso, el número asociado al autor (por ejemplo, '1', '2') debería corresponder con los IDs de la tabla `autores`.
+
+Esta operación es fundamental para poblar una base de datos con datos iniciales o de prueba, lo cual es muy útil durante las etapas de desarrollo y pruebas en proyectos de bases de datos.
+
+`006-insercion de entradas.sql`
 
 ```sql
 INSERT INTO entradas (titulo, contenido, fecha, autor) VALUES
@@ -5543,12 +7862,30 @@ INSERT INTO entradas (titulo, contenido, fecha, autor) VALUES
 ```
 
 ### seleccion de autores para aclararnos
+<small>Creado: 2025-10-30 15:30</small>
+
+#### Explicación
+
+Este fragmento de código SQL selecciona todos los registros de la tabla llamada `autores`. La instrucción `SELECT *` significa que se recuperan todas las columnas y filas disponibles en esa tabla. En este contexto, el código es útil para ver todo el contenido almacenado actualmente sobre autores en tu base de datos, lo cual puede ser necesario para comprobar la información insertada o para entender mejor cómo está estructurada la tabla de `autores`.
+
+`007-seleccion de autores para aclararnos.sql`
 
 ```sql
 SELECT * FROM autores;
 ```
 
 ### left join
+<small>Creado: 2025-10-30 15:46</small>
+
+#### Explicación
+
+Este fragmento de código SQL realiza una consulta que selecciona información combinada de dos tablas: `entradas` y `autores`. La instrucción `SELECT` indica los campos específicos que queremos recuperar, como el título, contenido y fecha de las entradas, junto con el nombre, apellidos y email del autor.
+
+La parte clave es la cláusula `LEFT JOIN`, que une todas las filas de la tabla `entradas` con las correspondientes filas en la tabla `autores` basándose en una relación definida por el campo `autor` en `entradas` y el campo `Identificador` en `autores`. Esto significa que incluso si no hay un autor asociado para ciertas entradas, estas se incluirán en los resultados junto con valores nulos para las columnas del autor.
+
+Esta consulta es importante porque proporciona una visión integrada de los datos de las entradas y sus autores, lo cual puede ser útil para generar informes o visualizaciones que muestren quién ha escrito qué entrada.
+
+`008-left join.sql`
 
 ```sql
 SELECT 
@@ -5565,6 +7902,17 @@ ON entradas.autor = autores.Identificador;
 ```
 
 ### crear una vista
+<small>Creado: 2025-10-30 15:47</small>
+
+#### Explicación
+
+Este código SQL crea una vista llamada `entradas_con_autores` en la base de datos. Una vista es como una tabla virtual que almacena resultados de consultas, lo cual facilita la visualización y el manejo de datos complejos. En este caso, la vista combina información de dos tablas: `entradas` y `autores`.
+
+La consulta selecciona los campos `titulo`, `contenido`, `fecha` de la tabla `entradas`, así como `nombre`, `apellidos` y `email` de la tabla `autores`. Utiliza un LEFT JOIN para asegurar que todas las entradas se incluyan en el resultado, incluso si no hay un autor asociado (es decir, no hay una coincidencia en la tabla `autores`). Esto es importante porque permite ver todas las entradas junto con los detalles de sus autores, si están disponibles.
+
+Después de crear la vista, el código ejecuta otra consulta que simplemente selecciona todos los datos (`*`) desde la vista recién creada llamada `entradas_con_autores`. Esto muestra cómo utilizar una vista para simplificar y organizar consultas complejas.
+
+`009-crear una vista.sql`
 
 ```sql
 CREATE VIEW entradas_con_autores AS 
@@ -5587,6 +7935,19 @@ entradas_con_autores;
 ```
 
 ### crear usuario con privilegios
+<small>Creado: 2025-10-30 15:49</small>
+
+#### Explicación
+
+Este fragmento de código SQL se utiliza para crear un nuevo usuario en la base de datos y otorgarle privilegios específicos. El proceso comienza creando el usuario `blog2526` con una contraseña también llamada `blog2526`. A continuación, se le dan los permisos básicos a este usuario utilizando la sentencia `GRANT USAGE`, lo que significa que el usuario puede conectarse al servidor de base de datos pero no tiene acceso a ninguna base de datos específica.
+
+Luego, se modifican las características del usuario con `ALTER USER`. Aquí, se establecen varias restricciones para el usuario, como permitirle iniciar sesión sin tener que proporcionar una contraseña (`REQUIRE NONE`), y configurando límites en cuanto al número de consultas, conexiones y actualizaciones por hora a cero. Esto es común cuando no deseamos limitar las acciones del usuario.
+
+Finalmente, se otorgan todos los privilegios disponibles sobre la base de datos `blog2526` a este usuario con otra sentencia `GRANT ALL PRIVILEGES`. Esta acción permite que el usuario realice cualquier tipo de operación en esa base de datos. La instrucción `FLUSH PRIVILEGES` se utiliza para asegurar que los cambios realizados en las reglas y privilegios sean aplicados inmediatamente.
+
+Este código es importante porque permite configurar de manera segura un entorno de desarrollo donde distintas personas pueden trabajar con sus propias cuentas, cada una con los permisos necesarios pero limitados para su rol específico.
+
+`010-crear usuario con privilegios.sql`
 
 ```sql
 CREATE USER 
@@ -5608,64 +7969,70 @@ TO 'blog2526'@'localhost';
 FLUSH PRIVILEGES;
 ```
 
+### Actividades propuestas
+
+1. **Creación de una Base de Datos**
+   - Crear una base de datos personalizada para un proyecto web.
+   - Aprendizaje: Entender cómo configurar y utilizar bases de datos en proyectos.
+
+2. **Estructura Tablas**
+   - Diseñar e implementar tablas para almacenar información sobre usuarios y publicaciones.
+   - Aprendizaje: Conocer la creación y estructuración básica de tablas SQL con claves primarias.
+
+3. **Añadir Claves Primarias Autoincrementales**
+   - Modificar las tablas existentes para añadir claves primarias autoincrementables.
+   - Aprendizaje: Comprender el concepto de claves primarias y cómo configurarlas en SQL.
+
+4. **Relaciones entre Tablas**
+   - Crear una relación (clave foránea) entre dos tablas preexistentes (usuarios y publicaciones).
+   - Aprendizaje: Entender las relaciones (claves foráneas) entre diferentes tablas en una base de datos relacional.
+
+5. **Inserción de Datos**
+   - Insertar registros de ejemplo en las tablas creadas.
+   - Aprendizaje: Practicar la inserción de datos en tablas SQL y entender el formato correcto para los mismos.
+
+6. **Consulta Compleja con JOINs**
+   - Realizar una consulta que combine datos desde múltiples tablas usando un LEFT JOIN.
+   - Aprendizaje: Entender cómo combinar información desde varias tablas utilizando tipos de joins.
+
+7. **Creación y Uso de Vistas**
+   - Crear una vista que muestre la combinación de dos o más tablas.
+   - Aprendizaje: Aprender a crear vistas en SQL para facilitar consultas complejas y mejorar la eficiencia del código.
+
+8. **Consultas Paramétricas con Placeholder**
+   - Escribir consultas que utilicen placeholders (variables) para evitar problemas de inyección SQL.
+   - Aprendizaje: Comprender cómo escribir consultas seguras utilizando parámetros y variables en lugar de concatenar strings.
+
+9. **Administrar Usuarios y Privilegios**
+   - Crear un nuevo usuario con privilegios limitados para una base de datos específica.
+   - Aprendizaje: Entender la administración de usuarios, roles y permisos en MySQL.
+
+10. **Resolución de Problemas y Optimización Consultas**
+    - Identificar problemas en consultas SQL existentes y proponer mejoras o soluciones.
+    - Aprendizaje: Practicar habilidades de depuración y optimización de consultas SQL para mejorar el rendimiento del sistema.
+
+Estas actividades están diseñadas para reforzar los conceptos básicos y avanzados en la gestión de bases de datos relacionales, específicamente enfocándose en MySQL.
+
+
 <a id="simulacro-de-examen-2"></a>
 ## Simulacro de examen 2
 
-### Enunciado
+### Introducción a los ejercicios
 
-```markdown
-Actividad de final de unidad:
-
-Crea la base de datos de tu propio blog/portafolio
-
-Crea al menos dos tablas:
-1.-la tabla de noticias/piezas de portafolio, que tendrá:
--Identificador (PK)
--titulo
--descripcion
--fecha
--imagen
--autor (FK)
-
-2.-La tabla de autores
--Identificador (PK)
--nombre
--apellidos
--email
-
-Crea las claves primarias de cada una de las dos tablas
-
-Crea la clave foránea de una tabla a otra
-
-Inserta un registro en cada tabla
-
-Crea una peticion cruzada (left join)
-
-Crea una vista
-
-Crea un usuario con permisos para poder acceder
-
-Actividad de final de unidad:
-
-Sobre la base de datos creada en la unidad anterior (portafolio/blog):
-
--Inserta un numero representativo de articulos de portafolio/blog
--Selecciona de varias formas los artículos (fecha ascendiente/descendiente, por ejemplo)
-
-Selecciona desde la vista creada
-
-
-Actividad de final de unidad:
-
-Sobre la base de datos creada en la unidad anterior (portafolio/blog):
-
-
-Asegura que puedes realizar operaciones de actualización sobre los datos de la tabla
-
-Asegura que puedes realizar operaciones de eliminación sobre los datos de la tabla
-```
+Esta carpeta contiene una serie de ejercicios orientados a la creación y gestión de una base de datos para un blog o portafolio personal. Los estudiantes deben aprender a estructurar datos en tablas relacionales, utilizando claves primarias y foráneas, además de realizar inserciones, consultas cruzadas, creación de vistas y manejo de usuarios con permisos específicos. El objetivo es afianzar los conocimientos sobre la manipulación de bases de datos mediante SQL, incluyendo operaciones CRUD (Crear, Leer, Actualizar, Eliminar) y el uso eficiente de vistas para simplificar consultas complejas.
 
 ### resolucion del examen
+<small>Creado: 2025-11-03 14:57</small>
+
+#### Explicación
+
+Este fragmento de código SQL está diseñado para crear una base de datos y sus tablas, así como establecer una relación entre ellas. Primero, se crea una base de datos llamada `portafolio`. Luego, se crean dos tablas: `piezas` y `autores`. La tabla `piezas` almacena información sobre diferentes piezas, incluyendo un identificador único, título, descripción, fecha y el ID del autor. La tabla `autores` contiene datos sobre los autores de esas piezas, con campos para nombre, apellidos y correo electrónico.
+
+Lo más importante en este código es cómo establece una relación entre las dos tablas a través de una clave foránea. Específicamente, la columna `id_autor` en la tabla `piezas` se vincula con la columna `Identificador` en la tabla `autores`. Esta acción asegura que cualquier pieza debe estar asociada con un autor válido en la base de datos.
+
+El código también incluye comandos para mostrar las bases de datos y tablas existentes, así como para describir el esquema de cada tabla (mostrando los campos y sus tipos). Esto ayuda a verificar que todo se ha configurado correctamente.
+
+`002-resolucion del examen.sql`
 
 ```sql
 Recomiendo enormemente hacer el examen de bases de datos dentro de la maquina virtual
@@ -5718,6 +8085,17 @@ SELECT * FROM autores;
 ```
 
 ### le damos algo de contenido a la base de datos
+<small>Creado: 2025-11-03 15:00</small>
+
+#### Explicación
+
+Este fragmento de código SQL se utiliza para trabajar con una base de datos, específicamente con dos tablas llamadas `autores` y `piezas`. Primero, el código inserta un nuevo registro en la tabla `autores`, añadiendo automáticamente un ID único (ya que el primer valor es `NULL`), el nombre 'Jose Vicente', el apellido 'Carratala Sanchis' y una dirección de correo electrónico. Luego, se seleccionan todos los registros de la tabla `autores` para verificar que el nuevo autor ha sido agregado correctamente.
+
+Después de eso, se inserta un registro en la tabla `piezas`, nuevamente con un ID generado automáticamente, seguido por el título 'Titulo de la pieza 1', una descripción 'Descripción de la pieza 1', una fecha ('2025-11-03') y un identificador que probablemente hace referencia al autor recién insertado en `autores` (el número 1). Finalmente, se seleccionan todos los registros de la tabla `piezas` para comprobar que el nuevo registro ha sido añadido correctamente.
+
+Este tipo de operaciones es fundamental cuando trabajas con bases de datos para asegurarte de que tus tablas estén bien pobladas con datos iniciales y puedas verificar fácilmente si las inserciones se han realizado como esperabas.
+
+`003-le damos algo de contenido a la base de datos.sql`
 
 ```sql
 INSERT INTO autores VALUES(
@@ -5741,6 +8119,17 @@ SELECT * FROM piezas;
 ```
 
 ### alteramos taba
+<small>Creado: 2025-11-03 15:01</small>
+
+#### Explicación
+
+Este fragmento de código SQL sirve para modificar una tabla llamada `piezas` en una base de datos. En la primera línea, se añade una nueva columna a esta tabla con el comando `ALTER TABLE`. La nueva columna se llama `imagen` y es del tipo `VARCHAR(255)`, lo que significa que puede contener texto hasta un máximo de 255 caracteres.
+
+La segunda línea utiliza el comando `DESCRIBE` para mostrar la estructura actualizada de la tabla `piezas`, incluyendo la nueva columna recién añadida. Esto te permite ver cómo ha cambiado la tabla después de agregar la columna `imagen`.
+
+Esta operación es importante porque permite expandir las características de una tabla existente sin necesidad de crear una nueva tabla desde cero, lo que puede ahorrar tiempo y mantener la consistencia en los datos ya almacenados.
+
+`004-alteramos taba.sql`
 
 ```sql
 ALTER TABLE piezas
@@ -5750,6 +8139,17 @@ DESCRIBE piezas;
 ```
 
 ### peticion cruzada
+<small>Creado: 2025-11-03 15:01</small>
+
+#### Explicación
+
+Este fragmento de código SQL realiza dos acciones importantes en una base de datos. Primero, añade una nueva columna llamada "imagen" ala tabla "piezas". Esta columna es del tipo VARCHAR y tiene un tamaño máximo de 255 caracteres. Esto significa que ahora puedes almacenar información sobre la imagen asociada a cada pieza en esta nueva columna.
+
+Después de modificar la estructura de la tabla, el código utiliza la sentencia `DESCRIBE` para mostrar la descripción actual de la tabla "piezas". Esta acción es útil porque te permite ver cómo ha cambiado la tabla después de añadir la nueva columna. Verás todos los nombres de las columnas existentes junto con sus tipos de datos y otros detalles importantes.
+
+Esta operación es importante porque permite a los desarrolladores ajustar dinámicamente la estructura de una base de datos según sea necesario, por ejemplo, para añadir nuevos campos que reflejen nuevas necesidades del sistema o información adicional sobre los registros existentes.
+
+`005-peticion cruzada.sql`
 
 ```sql
 ALTER TABLE piezas
@@ -5759,6 +8159,17 @@ DESCRIBE piezas;
 ```
 
 ### vista cruzada
+<small>Creado: 2025-11-03 15:05</small>
+
+#### Explicación
+
+Este código SQL realiza una consulta que combina información de dos tablas: `autores` y `piezas`. La primera parte del código selecciona el nombre, apellidos, email del autor junto con los detalles de las piezas (título, descripción, fecha y imagen) relacionadas. Utiliza un tipo especial de combinación de tablas llamado "LEFT JOIN", que garantiza que se incluyan todos los registros de la tabla `piezas`, incluso si no tienen una correspondencia en la tabla `autores`.
+
+Después, el código crea una vista denominada `piezas_con_autores` usando la misma consulta. Una vista es como un alias para una consulta compleja; permite a otros usuarios y consultas acceder a los resultados de esta combinación como si fuera una sola tabla. Esto facilita mucho la lectura y escritura de datos en el futuro, ya que no necesitarás repetir la misma consulta cada vez.
+
+Finalmente, se ejecuta otra consulta para seleccionar todos los registros de la vista `piezas_con_autores`, lo cual mostrará un conjunto de resultados combinados con todas las columnas especificadas previamente. Esto es útil tanto para visualizar cómo quedan combinados estos datos como para usar esta vista en consultas más complejas o reportes futuros.
+
+`006-vista cruzada.sql`
 
 ```sql
 SELECT 
@@ -5791,6 +8202,19 @@ SELECT * FROM piezas_con_autores;
 ```
 
 ### crear usuario con permisos
+<small>Creado: 2025-11-03 15:06</small>
+
+#### Explicación
+
+Este fragmento de código SQL te enseña cómo crear un nuevo usuario en una base de datos y otorgarle ciertos permisos. Primero, se crea un usuario llamado `portafolio` que puede acceder desde el servidor local (`localhost`) con la contraseña `Portafolio123$`. Luego, le asigna al usuario los privilegios básicos necesarios mediante la sentencia `GRANT USAGE ON *.*`, lo cual permite al usuario conectarse pero no realizar operaciones en la base de datos.
+
+A continuación, se ajustan las restricciones del usuario con la sentencia `ALTER USER`. Esto elimina cualquier requisito para que el usuario inicie sesión (REQUIRE NONE) y establece varios límites a cero para consultas por hora, conexiones por hora, actualizaciones por hora y conexiones de usuario totales. Estos límites a cero significan que no hay restricciones en la cantidad de operaciones que el usuario puede realizar.
+
+Finalmente, se otorgan todos los privilegios del sistema (`ALL PRIVILEGES`) al usuario `portafolio` sobre todas las tablas y vistas en una base de datos específica llamada `portafolio`. Esto permite que el usuario pueda realizar cualquier acción dentro de esa base de datos. La sentencia `FLUSH PRIVILEGES` se usa para forzar a MySQL a recargar la tabla de privilegios, asegurando que los cambios sean efectivos inmediatamente.
+
+Este código es importante porque te muestra cómo gestionar usuarios y permisos en una base de datos MySQL, lo cual es crucial para mantener la seguridad del sistema.
+
+`007-crear usuario con permisos.sql`
 
 ```sql
 CREATE USER 
@@ -5813,6 +8237,19 @@ FLUSH PRIVILEGES;
 ```
 
 ### demostramos actualizacion
+<small>Creado: 2025-11-03 15:09</small>
+
+#### Explicación
+
+Este fragmento de código SQL está diseñado para mostrar cómo realizar operaciones básicas en una base de datos, específicamente trabajando con una tabla llamada `piezas`. En primer lugar, se ejecuta un comando `SELECT` que busca y muestra todos los registros existentes en la tabla `piezas`.
+
+A continuación, el código actualiza uno de estos registros utilizando el comando `UPDATE`. Aquí, la imagen asociada al registro cuyo identificador es 1 se cambia por `'josevicente.jpg'`. Este comando modifica directamente un valor específico en la base de datos según los criterios que se especifican.
+
+Después del cambio, hay otro comando `SELECT` para verificar si el registro ha sido actualizado correctamente. Finalmente, se utiliza `DELETE` para eliminar completamente el registro con el identificador 1 de la tabla `piezas`. Tras esta operación, un último comando `SELECT * FROM piezas;` muestra que el registro ya no está en la tabla.
+
+Este código es importante porque demuestra cómo interactuar directamente con los datos almacenados en una base de datos para realizar tareas como actualizar o eliminar información.
+
+`008-demostramos actualizacion.sql`
 
 ```sql
 SELECT * FROM piezas;
@@ -5826,19 +8263,124 @@ DELETE FROM piezas WHERE Identificador = 1;
 SELECT * FROM piezas;
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Creación de una Base de Datos Personalizada
+
+**Descripción:** 
+Los estudiantes deben crear una base de datos personal que simule un blog o portafolio. Se espera que creen dos tablas relacionadas y realicen operaciones básicas como inserción, consulta y vinculación con claves foráneas.
+
+### Actividad 2: Crear Tablas y Relaciones
+
+**Descripción:** 
+Los estudiantes deben diseñar e implementar dos tablas en una base de datos (por ejemplo, "Artículos" y "Autores") y establecer la relación entre ellas a través de claves primarias y foráneas.
+
+### Actividad 3: Inserción y Consulta Básica
+
+**Descripción:** 
+Los estudiantes deben insertar varios registros en las tablas creadas (por ejemplo, artículos y autores) y realizar consultas para seleccionar datos basándose en diferentes criterios.
+
+### Actividad 4: Peticiones Cruzadas
+
+**Descripción:** 
+Se requiere que los estudiantes escriban consultas SQL que realicen peticiones cruzadas entre las tablas de la base de datos, mostrando información relacionada (como artículos y autores) en una sola vista.
+
+### Actividad 5: Creación de Vistas
+
+**Descripción:** 
+Los estudiantes deben crear vistas en su base de datos para simplificar consultas complejas. Estos ejercicios ayudarán a los estudiantes a comprender cómo las vistas pueden ser utilizadas para proporcionar acceso seguro y controlado a la información.
+
+### Actividad 6: Gestión de Usuarios
+
+**Descripción:** 
+Los estudiantes aprenderán a crear un usuario SQL con privilegios limitados en su base de datos. Esto incluye definir contraseñas seguras y asignar los permisos adecuados para asegurar que solo se pueda acceder al contenido necesario.
+
+### Actividad 7: Actualización de Datos
+
+**Descripción:** 
+Los estudiantes deben realizar operaciones de actualización en la base de datos, modificando datos existentes como descripciones o imágenes de artículos. Se les pedirá también validar los cambios realizados mediante consultas SELECT.
+
+### Actividad 8: Eliminación de Datos
+
+**Descripción:** 
+Los estudiantes se familiarizarán con las operaciones DELETE para eliminar registros específicos en la base de datos. Será importante que comprendan cómo manejar estas transacciones de manera segura y eficiente.
+
+### Actividad 9: Prueba de Seguridad
+
+**Descripción:** 
+Este ejercicio implica realizar pruebas sobre las bases de datos creadas para asegurar que los usuarios con privilegios limitados no pueden acceder a información sensible. Los estudiantes deben verificar la efectividad del control de acceso y ajustar permisos si es necesario.
+
+### Actividad 10: Documentación del Proceso
+
+**Descripción:** 
+Los alumnos deberán documentar todo el proceso de diseño, creación e implementación de su base de datos personalizada, incluyendo detalles sobre las consultas SQL utilizadas, los usuarios creados y cualquier problema que hayan encontrado y cómo lo resolvieron.
+
+
 <a id="ejercicio-de-final-de-unidad-3"></a>
 ## Ejercicio de final de unidad
 
-### actividad
+### Introducción a los ejercicios
 
-```markdown
+En esta sección de ejercicios, centraremos nuestra atención en el tratamiento y manipulación de datos mediante la creación de consultas SQL avanzadas. Se enfatizará la práctica de operaciones como la unión, intersección y diferencia de conjuntos, así como la implementación de subconsultas para resolver problemas complejos en bases de datos relacionales. Estos ejercicios son diseñados específicamente para reforzar las habilidades adquiridas durante el curso de Bases de Datos y preparar a los estudiantes para situaciones prácticas que requerirán un manejo eficaz de la información.
 
-```
+A través de este conjunto de actividades, los alumnos practicarán no solo la sintaxis SQL, sino también el pensamiento lógico y la resolución de problemas en contextos empresariales reales.
+
+### Actividades propuestas
+
+### Actividad 1: Análisis y Refactorización del Código
+
+**Descripción:** Los estudiantes deben analizar el código proporcionado en el archivo `001-actividad.md` para identificar posibles áreas de mejora o refactorización. El objetivo es que comprendan cómo mejorar la legibilidad y mantenibilidad del código.
+
+### Actividad 2: Documentación Mejorada
+
+**Descripción:** Los estudiantes deben crear una guía detallada sobre el proceso implementado en `001-actividad.md`. Esto ayudará a entender mejor los conceptos aplicados y permitirá que otros puedan seguir fácilmente el código.
+
+### Actividad 3: Integración de Validaciones
+
+**Descripción:** Los estudiantes deben incorporar validaciones adicionales al código existente. El objetivo es garantizar la integridad y consistencia de los datos durante su manipulación.
+
+### Actividad 4: Optimización del Código
+
+**Descripción:** Los alumnos deberán revisar el código con el fin de optimizarlo, buscando alternativas que mejoren tanto el rendimiento como la eficiencia del mismo. Se busca un entendimiento práctico sobre cómo mejorar la performance.
+
+### Actividad 5: Pruebas Automatizadas
+
+**Descripción:** Los estudiantes deben crear pruebas unitarias y funcionales para asegurar que todas las partes del código en `001-actividad.md` estén correctamente implementadas. Se busca familiarizar a los alumnos con técnicas de testing.
+
+### Actividad 6: Implementación de Interfaz de Usuario
+
+**Descripción:** Los estudiantes deben diseñar y codificar una interfaz simple que permita interactuar con la lógica del código existente en `001-actividad.md`. Esto ayuda a comprender cómo integrar interfaces gráficas.
+
+### Actividad 7: Comunicación de Errores
+
+**Descripción:** Los alumnos deben mejorar el manejo de errores y excepciones para proporcionar mensajes claros a los usuarios sobre cualquier problema que pueda surgir durante la ejecución del código en `001-actividad.md`.
+
+### Actividad 8: Creación de Documentación Automática
+
+**Descripción:** Implementar herramientas o técnicas para generar documentación automáticamente basada en el código existente en `001-actividad.md`. Esto promueve la creación de documentación precisa y actualizada.
+
+Estas actividades están diseñadas para ayudar a los estudiantes a adquirir competencias clave en programación, desde la comprensión inicial del código hasta su mejora continua y mantenibilidad.
+
 
 <a id="examen-final"></a>
 ## Examen final
 
+### Introducción a los ejercicios
+
+Esta carpeta contiene un conjunto de ejercicios que te ayudarán a familiarizarte con el manejo de bases de datos utilizando SQL. Los problemas abordados van desde la creación y configuración inicial de tablas hasta operaciones más avanzadas como inserción de datos, gestión de relaciones entre tablas (usando claves foráneas), consultas JOIN y la creación de vistas. Además, también practicarás la administración de usuarios y privilegios en tu base de datos para asegurar un acceso seguro y controlado a los datos. Estos ejercicios son esenciales para desarrollar competencias clave en la gestión de bases de datos, incluyendo la estructuración de esquemas, manipulación de datos y seguridad.
+
 ### crear tablas
+<small>Creado: 2025-11-10 17:18</small>
+
+#### Explicación
+
+Este fragmento de código SQL sirve para crear una base de datos llamada `portafolioceac` y luego establecerla como la base de datos activa con el comando `USE`. Después, se crean dos tablas: `Piezas` y `Categorias`.
+
+La tabla `Piezas` tiene varias columnas que almacenan información sobre diferentes piezas, como su identificador único (que se genera automáticamente), título, descripción, ruta de la imagen y una URL. También contiene un campo llamado `id_categoria`, lo cual sugiere que cada pieza está asociada a una categoría.
+
+La tabla `Categorias` tiene dos columnas: uno para el identificador único de cada categoría y otro para almacenar información sobre el título y descripción de cada categoría. Esta estructura permite organizar las piezas en diferentes categorías, facilitando la búsqueda y administración de los datos en el sistema.
+
+`001-crear tablas.sql`
 
 ```sql
 CREATE DATABASE portafolioceac;
@@ -5863,6 +8405,19 @@ CREATE TABLE Categorias(
 ```
 
 ### insertar
+<small>Creado: 2025-11-10 17:18</small>
+
+#### Explicación
+
+Este fragmento de código SQL se utiliza para insertar datos en dos tablas diferentes: "Categorias" y "Piezas". La instrucción `INSERT INTO` es utilizada para agregar una nueva fila a la tabla especificada con los valores que proporcionas entre paréntesis.
+
+En el primer `INSERT`, se está añadiendo un nuevo registro a la tabla "Categorias". El valor `NULL` en la primera posición indica que la base de datos debe asignar automáticamente un ID único para esta categoría. Luego, se especifican dos campos adicionales: 'General' como el nombre de la categoría y una breve descripción.
+
+En el segundo `INSERT`, se añade una nueva pieza a la tabla "Piezas". De nuevo, colocando `NULL` en la primera posición, permitimos que la base de datos genere automáticamente un ID para esta pieza. Se proporcionan detalles adicionales como el nombre de la pieza ('Primera pieza'), una descripción ('Esta es la descripcion de la primera pieza'), un archivo imagen asociado (josevicente.jpg) y un enlace web. Finalmente, se especifica '1' que probablemente representa el ID de categoría a la cual pertenece esta pieza.
+
+Este tipo de inserción es común cuando se está configurando una base de datos o añadiendo nuevos elementos al sistema, asegurándose de que las tablas tengan los datos iniciales necesarios para funcionar correctamente.
+
+`002-insertar.sql`
 
 ```sql
 INSERT INTO Categorias VALUES(
@@ -5882,6 +8437,17 @@ INSERT INTO Piezas VALUES(
 ```
 
 ### fk
+<small>Creado: 2025-11-10 17:18</small>
+
+#### Explicación
+
+Este fragmento de código SQL se utiliza para modificar una tabla existente llamada `Piezas`. Específicamente, agrega una restricción de clave externa (foreign key constraint) que vincula la columna `id_categoria` en la tabla `Piezas` con la columna `identificador` en otra tabla llamada `Categorias`. Esta restricción asegura que cada valor en `id_categoria` debe existir también como un valor en `identificador`, lo cual mantiene la integridad referencial entre las tablas.
+
+La cláusula `ON DELETE CASCADE` indica que si se elimina una fila de la tabla `Categorias`, todas las filas en la tabla `Piezas` que hacen referencia a esa fila también serán eliminadas automáticamente. Esto ayuda a mantener consistencia en los datos al asegurar que no queden registros huérfanos.
+
+La cláusula `ON UPDATE CASCADE` hace algo similar pero para actualizaciones: si se cambia el valor de la columna `identificador` en una fila de la tabla `Categorias`, este cambio también se propagará automáticamente a todas las filas correspondientes en la tabla `Piezas`. Esto garantiza que los datos relacionados se mantengan coherentes y sincronizados.
+
+`003-fk.sql`
 
 ```sql
 ALTER TABLE Piezas
@@ -5892,6 +8458,17 @@ ON UPDATE CASCADE;
 ```
 
 ### selecciones
+<small>Creado: 2025-11-10 17:18</small>
+
+#### Explicación
+
+Este fragmento de código SQL está formado por dos consultas sencillas que se utilizan para recuperar información de dos tablas diferentes en una base de datos. La primera consulta `SELECT * FROM Categorias;` selecciona todos los campos y registros de la tabla llamada "Categorias". Esto significa que obtendrás toda la información almacenada en esa tabla, lo cual es útil cuando necesitas revisar o analizar el contenido de las categorías.
+
+La segunda consulta `SELECT * FROM Piezas;` hace exactamente lo mismo, pero para la tabla "Piezas", proporcionando así todos los datos relacionados con las piezas que se encuentran almacenadas en esa tabla. Ambas consultas son comunes cuando es necesario inspeccionar o verificar el estado actual de tus tablas antes de proceder a realizar operaciones más complejas, como actualizaciones, inserciones o joins con otras tablas.
+
+Estos comandos son fundamentales para entender y gestionar los datos almacenados en tu base de datos, especialmente cuando estás trabajando en proyectos que implican manejo de catálogos y stock.
+
+`004-selecciones.sql`
 
 ```sql
 SELECT * FROM Categorias;
@@ -5900,6 +8477,17 @@ SELECT * FROM Piezas;
 ```
 
 ### left join
+<small>Creado: 2025-11-10 17:18</small>
+
+#### Explicación
+
+Este código SQL realiza una operación llamada "LEFT JOIN" entre dos tablas, `Piezas` y `Categorias`. El objetivo es combinar datos de ambas tablas basándose en la relación existente entre ellas, que se establece a través del campo `id_categoria` de la tabla `Piezas` y el campo `Identificador` de la tabla `Categorías`.
+
+La operación LEFT JOIN asegura que todos los registros de la tabla izquierda (`Piezas`) aparezcan en el resultado. Si no hay una coincidencia con la tabla derecha (`Categorias`), los campos resultantes para esa fila mostrarán valores NULL.
+
+Esta consulta es importante porque permite obtener información detallada sobre las piezas y sus respectivas categorías, lo que puede ser útil para entender mejor cómo están organizadas las piezas en un sistema de gestión de inventario o similar.
+
+`005-left join.sql`
 
 ```sql
 SELECT 
@@ -5910,6 +8498,17 @@ ON Piezas.id_categoria = Categorias.Identificador;
 ```
 
 ### ahora creo la vista
+<small>Creado: 2025-11-10 17:18</small>
+
+#### Explicación
+
+Este fragmento de código SQL está compuesto por dos partes principales: la creación de una vista y un SELECT que utiliza esa vista recién creada. Primero, se crea una vista llamada `piezas_y_categorias`. Una vista en SQL es como una tabla virtual que puede simplificar consultas complejas permitiendo tratarlas como si fueran tablas normales.
+
+La creación de esta vista incluye un LEFT JOIN entre dos tablas: `Piezas` y `Categorias`. El objetivo del LEFT JOIN es asegurar que todas las piezas se muestren en la vista, incluso aquellas que no tienen una categoría asociada. Esto es importante porque permite conservar toda la información sobre las piezas, sin perder registros simplemente por falta de categorización.
+
+En el SELECT dentro de la creación de la vista, se seleccionan columnas específicas de ambas tablas (como `titulo` y `descripcion` tanto para las Categorias como para las Piezas) junto con una columna adicional llamada `imagen` y otra llamada `url`, que son extraídas directamente de la tabla `Piezas`. Posteriormente, se ejecuta un SELECT * FROM piezas_y_categorias; lo cual significa que se muestra toda la información almacenada en esta vista recién creada. Esto facilita el acceso a la combinación de datos entre las tablas `Categorias` y `Piezas`, permitiendo una consulta más clara y manejable para futuros análisis o visualización de los datos.
+
+`006-ahora creo la vista.sql`
 
 ```sql
 CREATE VIEW piezas_y_categorias AS 
@@ -5928,6 +8527,19 @@ SELECT * FROM piezas_y_categorias;
 ```
 
 ### usuario
+<small>Creado: 2025-11-10 17:18</small>
+
+#### Explicación
+
+Este código SQL crea un nuevo usuario en el sistema MySQL y le asigna una serie de permisos para acceder a diferentes recursos. En primer lugar, se crea un usuario llamado 'portafolioceac' con una contraseña específica ('portafolioceac'), que debe ser modificada por una contraseña segura (con una combinación adecuada de mayúsculas, minúsculas, números y caracteres especiales). A continuación, se le otorga acceso limitado inicialmente a todos los recursos del sistema (`USAGE ON *.*`), lo cual es necesario para que el usuario pueda autenticarse.
+
+Luego, mediante la instrucción `ALTER USER`, se eliminan los límites de seguridad impuestos por defecto al usuario. Esto significa que no habrá restricciones sobre cuántas consultas puede hacer por hora o cuántas conexiones simultáneas puede mantener abiertas. Finalmente, se le concede a este nuevo usuario acceso completo (`ALL PRIVILEGES`) a todos los objetos dentro de la base de datos 'portafolioceac'. Esto incluye poder leer, escribir y modificar cualquier tabla o vista en esa base de datos.
+
+El comando `FLUSH PRIVILEGES` al final es crucial porque asegura que el sistema recargue sus tablas internas de privilegios para reflejar estos cambios inmediatamente. Sin este paso, los nuevos permisos no entrarían en vigor hasta la próxima reinicialización del servidor MySQL.
+
+Este tipo de código es fundamental cuando se manejan entornos de desarrollo o producción con múltiples usuarios que necesitan distintos niveles de acceso a diferentes bases de datos y recursos.
+
+`007-usuario.sql`
 
 ```sql
 -- crea usuario nuevo con contraseña
@@ -5957,6 +8569,51 @@ TO 'portafolioceac'@'localhost';
 FLUSH PRIVILEGES;
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Crear una Base de Datos y Tablas
+
+**Descripción**: Los alumnos deberán crear una base de datos llamada "biblioteca" e implementar dos tablas: "Libros" y "Autores". Se espera que aprendan a definir relaciones entre tablas usando claves foráneas.
+
+### Actividad 2: Insertar Datos en Tablas
+
+**Descripción**: Los estudiantes deben insertar datos en las tablas creadas en la actividad anterior. Esto les permitirá comprender cómo se manejan los registros y las restricciones de clave foránea.
+
+### Actividad 3: Creación de Claves Foráneas
+
+**Descripción**: A partir del código proporcionado, los alumnos deben añadir una clave foránea entre las tablas "Libros" y "Autores". Se espera que comprendan la importancia de mantener referencias consistentes en las bases de datos.
+
+### Actividad 4: Consultas Básicas
+
+**Descripción**: Los estudiantes deben realizar consultas para seleccionar todos los registros de ambas tablas. Esto les permitirá comprender cómo obtener información desde una base de datos relacional.
+
+### Actividad 5: Join y Left Join
+
+**Descripción**: Se les pedirá que creen una consulta LEFT JOIN entre las dos tablas, similar a la proporcionada en el archivo "left join.sql". Aprenderán a combinar registros de múltiples tablas para obtener información más completa.
+
+### Actividad 6: Creación y Consulta de Vistas
+
+**Descripción**: Los alumnos deben crear una vista que combine los datos de las tablas "Libros" y "Autores", como se muestra en el archivo "vista.sql". Luego, deberán consultar esta vista para ver cómo simplifica la obtención de información relacionada.
+
+### Actividad 7: Gestión de Usuarios
+
+**Descripción**: Los estudiantes deben crear un nuevo usuario con privilegios específicos similar a lo que se realiza en el archivo "usuario.sql". Aprenderán sobre la administración de usuarios y permisos en una base de datos MySQL.
+
+### Actividad 8: Modificación y Actualización de Datos
+
+**Descripción**: Se les pedirá que modifiquen o actualicen los datos existentes en las tablas creadas, incluyendo el manejo correcto de claves foráneas. Esto les ayudará a entender cómo gestionar la integridad referencial.
+
+### Actividad 9: Borrado Condicional
+
+**Descripción**: Los alumnos deben escribir un script que borre registros condicionalmente en las tablas "Libros" y "Autores", manteniendo siempre la consistencia en los datos gracias a claves foráneas.
+
+### Actividad 10: Consultas Complejas con JOINs
+
+**Descripción**: Se les pedirá que realicen consultas más complejas utilizando varios tipos de joins (INNER, LEFT) y combinaciones de tablas adicionales. Esto les permitirá entender cómo obtener información detallada desde múltiples fuentes de datos.
+
+Estas actividades están diseñadas para proporcionar una experiencia práctica en el manejo de bases de datos relacionales con SQL, adaptando los ejercicios a un nivel adecuado para estudiantes de Formación Profesional.
+
+
 
 <a id="programacion-de-bases-de-datos"></a>
 # Programación de bases de datos
@@ -5964,41 +8621,216 @@ FLUSH PRIVILEGES;
 <a id="introduccion-lenguaje-de-programacion"></a>
 ## Introducción. Lenguaje de programación
 
-La programación de bases de datos es una disciplina que combina conocimientos de informática con habilidades matemáticas para crear sistemas eficientes y seguros para almacenar, recuperar y gestionar grandes cantidades de información. En esta subunidad, nos adentramos en el concepto fundamental de lenguaje de programación (LDP) dentro del contexto de las bases de datos.
+### Introducción a los ejercicios
 
-El LDP es un conjunto de reglas sintácticas y semánticas que permite a los desarrolladores crear instrucciones que interactúan con la base de datos. Este lenguaje es el medio mediante el cual se manipulan los datos, desde su inserción hasta su eliminación y modificación. Es una herramienta poderosa para automatizar tareas repetitivas y optimizar el acceso a la información.
+El código PHP y HTML que proporcionaste es un formulario para recoger datos e insertarlos en una base de datos MySQL. A continuación, te explicaré cómo funciona cada parte del código:
 
-El LDP no es un lenguaje de programación tradicional como C++ o Java, sino que es específico para las operaciones en bases de datos. Algunos ejemplos populares incluyen SQL (Structured Query Language) para bases de datos relacionales y PL/SQL (Procedural Language/SQL) para Oracle. Estos lenguajes ofrecen una sintaxis especializada que facilita la manipulación de los datos almacenados en la base de datos.
+### 1. Conexión a la Base de Datos
+Antes del inicio del código HTML, debes establecer la conexión con tu base de datos MySQL. Para hacerlo, usa las siguientes líneas al principio del archivo PHP:
+```php
+<?php
+$servername = "localhost";
+$username = "tu_usuario";
+$password = "tu_contraseña";
+$dbname = "training_center";
 
-La importancia del LDP radica en su capacidad para realizar operaciones complejas con solo unas pocas líneas de código. Por ejemplo, con un comando SQL simple como `SELECT * FROM tabla`, se puede recuperar toda la información de una tabla específica. Sin embargo, el poder real del LDP se demuestra cuando se utilizan estructuras más avanzadas como las subconsultas y los procedimientos almacenados.
+// Crear conexión
+$conn = new mysqli($servername, $username, $password, $dbname);
 
-Además del lenguaje de programación, es crucial entender cómo se organizan y gestionan los datos dentro de la base de datos. Esto implica conocer conceptos como claves primarias, índices y restricciones de validación. Estos elementos son fundamentales para garantizar la integridad y eficiencia del sistema.
-
-La programación de bases de datos también aborda el tema de las transacciones. Una transacción es una serie de operaciones que se ejecutan como un bloque único, asegurando que todas las operaciones sean exitosas o ninguna tenga lugar. Esto es crucial para mantener la consistencia y coherencia de los datos en sistemas empresariales.
-
-En resumen, el LDP es una herramienta esencial para cualquier desarrollador de bases de datos. Permite a los profesionales crear soluciones eficientes y seguras que manejen grandes volúmenes de información. A través del estudio de este lenguaje, se adquiere un conocimiento profundo sobre cómo interactuar con las bases de datos, lo que es fundamental para el desarrollo de aplicaciones informáticas modernas.
-
-### blob
-
-```markdown
-Los campos blob en MySQL permiten meter datos binarios
--documentos
--imagenes
--loque sea
-Dentro de una base de datos MySQL
-
-La pregunta es si lo queremos
-
-TINYBLOB = 255byes = un cuarto de KB
-
-BLOB = 65535bytes = 64KB
-
-MEDIUMBLOB 16777215 = 16MB
-
-LONGBLOB = 4GB
+// Verificar la conexión
+if ($conn->connect_error) {
+    die("Conexión fallida: " . $conn->connect_error);
+}
+?>
 ```
 
+### 2. Mensaje de Respuesta al Formulario
+Si el formulario se envía correctamente, se muestra un mensaje de confirmación o error en el mismo lugar del formulario:
+```php
+<?php if ($mensaje != ""): ?>
+    <p style="padding:10px 12px; border-radius:6px;
+              background:#f8f8f8; border:1px solid #ddd;
+              font-size:0.9em; color:#444;">
+        <?= htmlspecialchars($mensaje, ENT_QUOTES, 'UTF-8'); ?>
+    </p>
+<?php endif; ?>
+```
+
+### 3. Comentarios de la Tabla
+Se muestran los comentarios generales de la tabla `inscripciones` si existen:
+```php
+$tableComment = $conn->query("
+    SELECT TABLE_COMMENT
+    FROM information_schema.tables
+    WHERE table_schema='training_center'
+      AND table_name='inscripciones'
+")->fetch_assoc()['TABLE_COMMENT'];
+
+if ($tableComment != "") {
+    echo "<p style='color:#555; margin-top:-5px; margin-bottom:20px;'>$tableComment</p>";
+}
+```
+
+### 4. Generación de Elementos del Formulario
+El código PHP recorre las columnas de la tabla `inscripciones` y genera elementos HTML correspondientes:
+
+- **Texto**: Para campos `VARCHAR`, se muestra un campo de texto.
+- **Fecha**: Para el tipo `DATE`, se muestra un control de fecha.
+- **Número Entero**: Para campos `INT`, se utiliza un input numérico.
+- **Decimal**: Para campos del tipo `DECIMAL(p,s)`, se genera un campo numérico con restricciones específicas basadas en la precisión y escala.
+- **Checkbox**: Campos de tipo `TINYINT` son representados como checkboxes.
+- **Select Enumerado**: Campos que usan ENUM se convierten en select boxes.
+- **Textarea**: Para campos del tipo `TEXT`, se utiliza un área de texto.
+- **Subida de Archivos**: Campos del tipo BLOB permiten la subida de archivos.
+
+#### Ejemplo:
+```php
+while($f = $r->fetch_assoc()) {
+    // ... (lógica para ignorar columnas clave primaria o autoincremental)
+
+    echo '<div class="control_formulario">';
+    echo '<label for="'.$campo.'">Introduce '.$campo.'</label>';
+
+    if ($tipo == "varchar") {
+        echo '<input type="text" name="'.$campo.'" id="'.$campo.'" maxlength="'.$f['CHARACTER_MAXIMUM_LENGTH'].'">';
+    } elseif ($tipo == "date") {
+        echo '<input type="date" name="'.$campo.'" id="'.$campo.'">';
+    } elseif ($tipo == "int") {
+        echo '<input type="number" name="'.$campo.'" id="'.$campo.'">';
+    } elseif (str_contains($tipo, "decimal")) {
+        preg_match('/decimal\((\d+),(\d+)\)/i', $tipo, $matches);
+        $maxValue = '9' . str_repeat('0', $matches[1] - 2) . '.' . str_repeat('9', $matches[2]);
+        echo '<input type="number" name="'.$campo.'" id="'.$campo.'" step="0.01" max="'.$maxValue.'">';
+    } elseif (str_contains($tipo, "tinyint")) {
+        echo '<div class="control_formulario_checkbox">';
+        echo '<label for="'.$campo.'">Introduce '.$campo.'</label>';
+        echo '<input type="checkbox" name="'.$campo.'" id="'.$campo.'">';
+        echo '</div>';
+    } elseif (str_contains($tipo, "enum")) {
+        echo '<select name="'.$campo.'" id="'.$campo.'">';
+        preg_match_all("/'([^']+)'/", $tipo, $matches);
+        foreach($matches[1] as $valor){
+            echo '<option value="'.$valor.'">'.$valor.'</option>';
+        }
+        echo '</select>';
+    } elseif ($tipo == "text") {
+        echo '<textarea name="'.$campo.'" id="'.$campo.'"></textarea>';
+    } elseif (str_contains($tipo, "blob")) {
+        echo '<input type="file" name="'.$campo.'" id="'.$campo.'">';
+    }
+
+    // Mostrar comentarios adicionales si existen
+    if ($comentario != "") {
+        echo '<p class="ayuda_campo">'.$comentario.'</p>';
+    }
+
+    echo '</div>';
+}
+```
+
+### 5. Enviando el Formulario
+El formulario utiliza `POST` para enviar los datos a la misma página. El archivo PHP se ejecuta de nuevo y procesa cualquier POST enviado.
+
+### 6. Procesamiento del Formulario (no mostrado)
+Añade lógica adicional para manejar las entradas enviadas cuando el formulario es sumitido:
+```php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Lógica para validar y limpiar los datos del POST
+
+    // Preparar consulta SQL para insertar en la tabla
+    $sql = "INSERT INTO inscripciones (columna1, columna2, ...) VALUES (?, ?, ?...);";
+
+    if ($conn->query($sql) === TRUE) {
+        $mensaje = "Registro guardado exitosamente.";
+    } else {
+        $mensaje = "Error al guardar registro: " . $conn->error;
+    }
+}
+```
+
+### 7. Estilo del Formulario
+Se aplica estilos para mejorar la presentación y accesibilidad del formulario.
+
+Este es un flujo general de cómo el formulario se construye, muestra comentarios de campos, y procesa la entrada del usuario antes de insertarla en la base de datos.
+
 ### admin
+<small>Creado: 2025-12-04 17:50</small>
+
+#### Explicación
+
+El código que has proporcionado es un ejemplo de una página web en HTML, CSS y JavaScript que muestra datos de registros en forma de tabla. La página incluye funcionalidades avanzadas como ordenación de filas, filtrado multicriterio, modales para visualizar imágenes, entre otras.
+
+### Resumen de las Funcionalidades:
+
+1. **Visualización de Imágenes**:
+   - Las miniaturas (thumbnails) se muestran en la tabla y al hacer clic sobre ellas se abre un modal con la imagen completa.
+   
+2. **Ordenación de Datos**:
+   - Se puede ordenar los datos al hacer clic en las cabeceras de columna (`th`), lo que permite a los usuarios ver los registros de forma ascendente o descendente.
+
+3. **Filtrado de Datos**:
+   - Los filtros se aplican a cada columna individualmente, permitiendo a los usuarios buscar registros por criterios específicos.
+   
+4. **Botones Interactivos**:
+   - Cada fila tiene un botón para cambiar el estado del registro (por ejemplo, desde "pendiente" a "procesado") y otro para abrir una página de informe detallado.
+
+5. **Modales Dinámicos**:
+   - Se utiliza un modal personalizado (`#image-modal`) para mostrar imágenes en gran formato cuando se hace clic en las miniaturas en la tabla.
+   
+### Mejoras Sugeridas:
+
+1. **Añadir CSS Personalizado**:
+   - Podrías mejorar el diseño de tu página añadiendo estilos CSS personalizados que reflejen mejor tus necesidades y preferencias, como bordes redondeados para botones, tamaños específicos para las miniaturas, etc.
+
+2. **Optimizar la Lógica JavaScript**:
+   - Asegúrate de tener una lógica clara en tu script. Puedes mejorar la legibilidad del código dividiendo tus funciones y bloques de código en secciones más pequeñas y manejables.
+
+3. **Incluir Librerías Externas**:
+   - Considera el uso de bibliotecas como jQuery o DataTables, que pueden simplificar la implementación de funcionalidades avanzadas con menor esfuerzo.
+
+4. **Validaciones Adicionales**:
+   - Añade validaciones para garantizar que los datos ingresados por el usuario sean correctos (por ejemplo, asegurarte de que un email sea válido antes de guardar el estado del registro).
+
+5. **Incorporar Internacionalización y Localizaciones**:
+   - Si tu aplicación va a ser utilizada en múltiples países o idiomas, considera la incorporación de internacionalización (`i18n`), donde los textos se pueden cambiar dinámicamente basados en el idioma seleccionado por el usuario.
+
+6. **Documentar Códigos y Funciones**:
+   - Añade comentarios a tu código para mejorar su legibilidad y mantenimiento, especialmente si trabajas en equipo o necesitas volver a revisarlo después de un tiempo.
+   
+### Ejemplo de Mejora Simple:
+
+Añadir estilos CSS personalizados para los botones y las celdas filtradas:
+
+```css
+/* Estilo simple para los botones */
+.btn-estado {
+  background-color: #4CAF50; /* Verde claro */
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn-informe {
+  background-color: #28A745; /* Verde oscuro */
+  color: white;
+  padding: 6px 12px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+/* Estilo para celdas ocultas por filtrado */
+.hidden-row {
+  display: none !important;
+}
+```
+
+Asegúrate de incluir estos estilos en tu HTML o vincularlos desde un archivo CSS externo. Esto mejorará la experiencia del usuario al visualizar y interactuar con los datos.
+
+Con estas mejoras, podrás mejorar significativamente la usabilidad y la apariencia de tu aplicación web, haciendo que sea más atractiva y funcional para sus usuarios.
+
+`admin.php`
 
 ```
 <?php
@@ -7536,6 +10368,13 @@ document.addEventListener('DOMContentLoaded', function() {
 ```
 
 ### altero tabla
+<small>Creado: 2025-12-04 17:30</small>
+
+#### Explicación
+
+Este fragmento de código SQL modifica la estructura de una tabla existente llamada `inscripciones`. Específicamente, cambia el tipo y las restricciones del campo denominado `nombre`. El comando `MODIFY` dentro de la sentencia `ALTER TABLE` indica que estamos haciendo un cambio en la definición de una columna ya existente. En este caso, se establece que el campo `nombre` debe ser del tipo `VARCHAR(100)`, lo que significa que puede contener hasta 100 caracteres. Además, se añade la restricción `NOT NULL`, asegurando que en cada fila de la tabla no pueda haber un valor vacío para este campo, es decir, siempre deberá estar completo y con información. Esto ayuda a mantener la integridad de los datos almacenados en la base de datos.
+
+`altero tabla.sql`
 
 ```sql
 ALTER TABLE inscripciones
@@ -7543,6 +10382,19 @@ MODIFY nombre VARCHAR(100) NOT NULL;
 ```
 
 ### index
+<small>Creado: 2025-12-04 17:26</small>
+
+#### Explicación
+
+Este código PHP crea una página web que permite a los usuarios insertar datos en una tabla llamada `inscripciones` de la base de datos `training_center`. El archivo comienza estableciendo una conexión con la base de datos y luego verifica si se ha enviado un formulario (mediante el método POST). Si es así, recupera información sobre las columnas de la tabla para determinar cómo procesar los valores enviados.
+
+El código itera sobre cada columna de la tabla `inscripciones`, excluyendo aquellas que son claves primarias o tienen un valor predeterminado especial. Para cada campo, el código obtiene el valor enviado por el formulario y lo ajusta según el tipo de datos correspondiente (por ejemplo, convierte cadenas a enteros para campos numéricos). Los valores son luego preparados para una consulta SQL parametrizada que insertará los datos en la tabla.
+
+Además, el script genera un formulario HTML basado en las columnas y sus tipos recuperados de la base de datos. Este formulario incluye etiquetas y elementos de entrada (como campos de texto, selectores desplegables, etc.) que corresponden a cada columna de la tabla `inscripciones`. También proporciona comentarios informativos para ayudar al usuario a entender los requisitos específicos de cada campo.
+
+En resumen, este código combina lógica PHP para interactuar con una base de datos y generar consultas SQL seguras, junto con HTML dinámico para crear un formulario que facilita la inserción de nuevos registros en la tabla `inscripciones`. Esto proporciona una interfaz web completa y segura para manejar los datos.
+
+`index.php`
 
 ```
 <?php
@@ -7957,161 +10809,86 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </html>
 ```
 
+### Actividades propuestas
+
+El código que has proporcionado es un ejemplo completo de cómo crear, visualizar y actualizar registros en una base de datos MySQL desde PHP. Aquí está el análisis del conjunto de scripts:
+
+1. **Base de Datos y Tabla:**
+   - `database.sql` contiene la estructura y los datos iniciales para la tabla `inscripciones`.
+   - La tabla tiene varias columnas, incluyendo campos de tipo texto, fecha, números enteros y decimales, enum, y blobs.
+
+2. **Visualización del Contenido:**
+   - `index.php` usa PDO para conectarse a la base de datos y seleccionar todos los registros en la tabla `inscripciones`.
+   - Los datos se muestran en una tabla HTML con un formato ordenado.
+
+3. **Creación de Registros (Formulario):**
+   - `form_insert.php` proporciona un formulario que se alinea exactamente con el esquema de la base de datos.
+   - El formulario utiliza PHP para conectarse a la base de datos y agregar nuevos registros basándose en los valores ingresados por el usuario.
+
+4. **Actualización de Registros:**
+   - `form_update.php` muestra un formulario similar al de inserción, pero inicialmente llena los campos con los valores actuales del registro que se está editando.
+   - Al enviar el formulario actualizado, los datos se insertan en la base de datos para reemplazar el registro existente.
+
+5. **CSS y Estilos:**
+   - `style.css` proporciona un diseño básico para hacer que los formularios sean más atractivos y fáciles de usar.
+   - Incluye estilos personalizados para campos de tipo fecha, número, texto largo, checkboxes y archivos.
+
+6. **Validación y Ayuda al Usuario:**
+   - Los comentarios en el código PHP describen las restricciones y características de cada campo.
+   - Se proporciona información adicional al usuario sobre los tipos de datos (por ejemplo, longitud máxima para varchar, tamaño máximo para blobs).
+
+7. **Seguridad:**
+   - Se utilizan técnicas seguras como prepared statements para evitar inyecciones SQL.
+
+### Recomendaciones Adicionales:
+1. **Limpieza y Validación de Datos:**
+   - Asegúrate de que los datos ingresados por el usuario sean válidos antes de insertarlos en la base de datos.
+   - Utiliza funciones como `filter_var` para validar y limpiar entradas.
+
+2. **Manejo de Errores:**
+   - Implementa un manejo de errores robusto, especialmente cuando se conecta a la base de datos o ejecuta consultas.
+   - Considera mostrar mensajes amigables al usuario en lugar de revelar detalles técnicos sobre el error.
+
+3. **Ayuda y Documentación para Usuarios:**
+   - Proporciona más ayuda contextual dentro del formulario si los usuarios necesitan entender mejor cómo llenarlo.
+   - Por ejemplo, podrías añadir descripciones más detalladas a cada campo o crear un documento de referencia.
+
+4. **Formateo y Presentación Visual:**
+   - Mejora la presentación visual con CSS avanzado o frameworks como Bootstrap para una experiencia de usuario aún más amigable.
+   
+5. **Uso de Entorno de Desarrollo (IDE):**
+   - Considera usar un IDE como PhpStorm, VSCode, etc., que proporcionará características adicionales como autocompletado y verificación de errores.
+
+Este conjunto de scripts proporciona una base sólida para interactuar con la base de datos MySQL desde PHP. Con algunas mejoras en la seguridad y la presentación visual, este sistema puede ser utilizado en producción o como punto de partida para proyectos más grandes.
+
+
 <a id="variables-del-sistema-y-variables-de-usuario"></a>
 ## Variables del sistema y variables de usuario
 
-En el vasto mundo de la programación de bases de datos, las variables desempeñan un papel fundamental como elementos esenciales que almacenan y manipulan información. En esta subunidad didáctica, nos adentramos en dos tipos distintos de variables: las variables del sistema y las variables de usuario.
-
-Las variables del sistema son aquellas que están predefinidas por el entorno de desarrollo o la base de datos que estamos utilizando. Estas variables proporcionan información valiosa sobre el estado actual del sistema, como el número de registros afectados por una consulta, el nombre del usuario actualmente conectado, o incluso detalles técnicos sobre el rendimiento del servidor. Su principal ventaja radica en su accesibilidad y facilidad de uso, ya que no requieren ninguna declaración explícita para ser utilizadas.
-
-Por otro lado, las variables de usuario son aquellas que se definen por los programadores durante la codificación. Estas pueden almacenar cualquier tipo de dato que sea necesario para el funcionamiento del programa, desde simples valores numéricos hasta complejas estructuras de datos personalizadas. La ventaja de las variables de usuario radica en su flexibilidad y adaptabilidad, permitiendo a los programadores crear un estado interno específico para cada instancia de ejecución del programa.
-
-La distinción entre estas dos categorías es crucial para entender cómo se maneja la información dentro de una aplicación que interactúa con bases de datos. Las variables del sistema son útiles para obtener información general sobre el entorno, mientras que las variables de usuario permiten un control más preciso y personalizado del flujo de datos dentro del programa.
-
-En el contexto práctico, es común utilizar tanto variables del sistema como variables de usuario en la misma aplicación. Por ejemplo, al realizar una consulta a la base de datos, podemos usar una variable del sistema para almacenar el número total de registros afectados, mientras que usamos variables de usuario para almacenar los detalles específicos de cada registro que se procesa.
-
-La gestión adecuada de estas variables es fundamental para evitar errores y garantizar el correcto funcionamiento del programa. Es importante recordar siempre la distinción entre las dos categorías y utilizarlas según su propósito específico, lo cual contribuye a una programación más eficiente y segura.
-
-En resumen, las variables del sistema y las variables de usuario son herramientas esenciales en el mundo de la programación de bases de datos. Cada una tiene sus propias características y ventajas, y su correcto uso es crucial para crear aplicaciones robustas y funcionales. A través de esta subunidad didáctica, hemos explorado los conceptos básicos de estas variables y su importancia en el desarrollo de software que interactúa con bases de datos.
 
 <a id="funciones"></a>
 ## Funciones
 
-En la etapa de programación de bases de datos, las funciones desempeñan un papel crucial como bloques fundamentales que encapsulan operaciones específicas. Estas funciones permiten modularizar el código, facilitando su mantenimiento y reutilización en diferentes partes del sistema. Al definir funciones, se pueden abstraer lógica compleja en unidades más simples y manejables.
-
-Las funciones en bases de datos son similares a las funciones en otros lenguajes de programación, ya que permiten la creación de rutinas que realizan tareas específicas y devuelven un resultado. Esta capacidad es fundamental para mantener el código limpio y organizado, especialmente cuando se trabaja con operaciones repetitivas o complejas.
-
-En el contexto de las bases de datos, las funciones pueden ser utilizadas en consultas SQL para realizar cálculos, validaciones o cualquier otra tarea que no pueda realizarse directamente en la consulta. Por ejemplo, una función puede calcular el promedio de un conjunto de valores, validar si un valor cumple con ciertas condiciones, o incluso generar un código único.
-
-La creación y uso de funciones en bases de datos requiere una comprensión sólida del lenguaje SQL y de las características específicas del sistema gestor de base de datos (SGBD) que se esté utilizando. Cada SGBD tiene sus propias reglas y sintaxis para definir y utilizar funciones, lo que puede variar significativamente entre ellos.
-
-Además de las funciones definidas por el usuario, los SGBDs suelen proporcionar una serie de funciones predefinidas que pueden ser utilizadas directamente en consultas. Estas funciones pueden incluir operaciones matemáticas básicas, funciones de cadena, funciones de fecha y hora, entre otras. El uso de estas funciones predefinidas puede simplificar el código y mejorar la eficiencia de las consultas.
-
-La programación de bases de datos también implica la gestión de parámetros en las funciones. Los parámetros permiten que las funciones reciban valores dinámicos, lo que les hace más versátiles y flexibles. Al definir parámetros, se puede especificar el tipo de dato esperado y si es necesario o no que el valor sea proporcionado al llamar a la función.
-
-La programación de bases de datos también implica la gestión de excepciones en las funciones. Aunque los SGBDs suelen manejar automáticamente ciertos errores comunes, es importante conocer cómo se pueden capturar y gestionar excepciones específicas para evitar problemas inesperados durante el funcionamiento del sistema.
-
-En resumen, las funciones son una herramienta poderosa en la programación de bases de datos. Permiten modularizar el código, facilitar su mantenimiento y reutilización, y realizar operaciones complejas de manera eficiente. Al dominar el uso de funciones en bases de datos, se puede mejorar significativamente la calidad y la eficiencia del sistema informático.
 
 <a id="estructuras-de-control-de-flujo"></a>
 ## Estructuras de control de flujo
 
-En la programación de bases de datos, las estructuras de control de flujo desempeñan un papel crucial para manejar el flujo de ejecución del programa. Estas estructuras permiten tomar decisiones basadas en ciertas condiciones o repetir bloques de código bajo determinados criterios. La comprensión y correcta utilización de estas estructuras son fundamentales para crear programas eficientes y robustos.
-
-La primera estructura de control que exploraremos es la estructura de selección, también conocida como condicional. Esta estructura permite ejecutar diferentes bloques de código dependiendo del valor de una expresión booleana. En Python, esto se logra con las sentencias `if`, `elif` y `else`. La sintaxis básica es:
-
-```python
-if condición:
-    # Código a ejecutar si la condición es verdadera
-elif otra_condición:
-    # Código a ejecutar si la primera condición es falsa pero esta es verdadera
-else:
-    # Código a ejecutar si ninguna de las condiciones anteriores es verdadera
-```
-
-La estructura de repetición, por otro lado, permite ejecutar un bloque de código varias veces. Hay dos tipos principales: `for` y `while`. La estructura `for` se utiliza cuando sabemos el número exacto de repeticiones o cuando iteramos sobre una secuencia (como una lista). Por ejemplo:
-
-```python
-for i in range(5):
-    print(i)
-```
-
-La estructura `while`, por otro lado, se ejecuta mientras una condición sea verdadera. Es útil cuando no sabemos cuántas veces se repetirá el bloque de código. Aquí hay un ejemplo sencillo:
-
-```python
-i = 0
-while i < 5:
-    print(i)
-    i += 1
-```
-
-Además de las estructuras básicas, también existen estructuras de control más complejas como los bucles anidados y los bucles con `break` y `continue`. Los bucles anidados permiten ejecutar un bucle dentro de otro, lo que es útil para procesar tablas o matrices. Por ejemplo:
-
-```python
-for i in range(3):
-    for j in range(2):
-        print(i, j)
-```
-
-El uso de `break` y `continue` permite controlar el flujo del bucle. `Break` termina la ejecución del bucle en cuanto se cumple una cierta condición, mientras que `continue` salta a la siguiente iteración sin ejecutar el código restante.
-
-La comprensión y práctica de estas estructuras de control son esenciales para escribir programas eficientes y correctos. Cada una tiene sus propias características y aplicaciones específicas, por lo que es importante conocer cómo utilizarlas adecuadamente en diferentes situaciones. A través del estudio y la práctica, se desarrolla la capacidad de resolver problemas complejos mediante el control preciso del flujo de ejecución del programa.
-
-En resumen, las estructuras de control de flujo son herramientas poderosas en la programación de bases de datos. Permiten tomar decisiones y repetir bloques de código bajo determinados criterios, lo que es fundamental para crear programas eficientes y robustos. A través del estudio y la práctica, se desarrolla la capacidad de resolver problemas complejos mediante el control preciso del flujo de ejecución del programa.
 
 <a id="procedimientos-almacenados-funciones-de-usuario"></a>
 ## Procedimientos almacenados. Funciones de usuario
 
-En el vasto universo de la programación, una de las disciplinas más fascinantes es la programación de bases de datos. Esta rama se ocupa del desarrollo de componentes que permiten interactuar con los datos almacenados en sistemas de gestión de base de datos (SGBDs). En esta subunidad didáctica, nos adentramos en el fascinante mundo de los procedimientos almacenados y las funciones de usuario.
-
-Los procedimientos almacenados son bloques de código precompilado que se almacenan en la base de datos. Estos pueden ser invocados desde cualquier programa o script que tenga acceso a la base de datos, lo que permite una mayor eficiencia y seguridad en el acceso a los datos. Al estar compilados en el SGBD, estos procedimientos son ejecutados directamente por el motor de la base de datos, lo que puede reducir significativamente el tiempo de respuesta.
-
-Las funciones de usuario, por otro lado, son similares a los procedimientos almacenados pero están diseñadas para devolver un valor. A diferencia de los procedimientos, las funciones pueden ser utilizadas en consultas SQL como cualquier otra expresión. Esto les hace muy útiles para realizar cálculos complejos o transformaciones de datos directamente en la base de datos.
-
-La programación de estos componentes es una habilidad esencial para cualquier desarrollador que trabaje con bases de datos. Permite no solo optimizar el acceso a los datos, sino también encapsular lógica de negocio dentro del SGBD, lo que facilita su mantenimiento y escalabilidad.
-
-Para comenzar a programar procedimientos almacenados y funciones de usuario, es importante entender la sintaxis específica del SGBD que se esté utilizando. Cada uno tiene sus propias características y ventajas, por lo que es crucial familiarizarse con ellas para aprovechar al máximo estas herramientas.
-
-Además de la sintaxis, también es fundamental conocer cómo gestionar los parámetros de entrada y salida, así como cómo manejar las excepciones que pueden surgir durante la ejecución. La gestión adecuada de errores es un aspecto crucial en el desarrollo de software robusto y confiable.
-
-La programación de procedimientos almacenados y funciones de usuario también implica una buena práctica de diseño. Es importante considerar la modularidad del código, la reutilización y la seguridad al diseñar estos componentes. La separación de responsabilidades y la encapsulación de lógica en unidades más pequeñas facilitan el mantenimiento y la evolución del software.
-
-En conclusión, la programación de bases de datos es una disciplina rica y diversa que ofrece numerosas oportunidades para mejorar la eficiencia y seguridad de los sistemas informáticos. Los procedimientos almacenados y las funciones de usuario son herramientas poderosas que permiten encapsular lógica de negocio dentro del SGBD, lo que facilita su mantenimiento y escalabilidad. A través de una comprensión profunda de la sintaxis específica del SGBD, la gestión adecuada de parámetros y excepciones, y buenas prácticas de diseño, los desarrolladores pueden crear componentes eficientes y seguros para interactuar con las bases de datos.
 
 <a id="eventos-y-disparadores"></a>
 ## Eventos y disparadores
 
-En el mundo digital de la programación, los eventos y disparadores son un concepto fundamental que permite a las aplicaciones reaccionar dinámicamente ante ciertas acciones o cambios. Estos elementos son esenciales para crear interactividad y funcionalidad avanzada en sistemas informáticos.
-
-Los eventos representan acciones específicas que ocurren dentro de una aplicación, como el clic de un botón, la entrada de datos por parte del usuario o el cambio de estado de una variable. Estos eventos son los estímulos que desencadenan las acciones que se quieren ejecutar en respuesta.
-
-Los disparadores, por otro lado, son bloques de código que se ejecutan automáticamente cuando un evento ocurre. Son como pequeños motores internos dentro del sistema que responden a ciertas condiciones o acciones, realizando tareas específicas sin intervención directa del usuario.
-
-La programación de eventos y disparadores es una técnica poderosa que permite a los desarrolladores crear aplicaciones más dinámicas y responsivas. Al asociar eventos con funciones o métodos, se puede implementar una serie de acciones que respondan a ciertas interacciones del usuario o cambios en el estado del sistema.
-
-Este proceso de programación implica la definición clara de qué evento debe desencadenar un determinado disparador y cómo este disparador debe ejecutar su lógica. A través de esta asociación, se puede crear una serie de reacciones que permiten a las aplicaciones responder de manera eficiente a diversos escenarios.
-
-Es importante destacar que la programación de eventos y disparadores no es un proceso estático, sino dinámico. Esto significa que los disparadores pueden ser modificados o eliminados en tiempo real, adaptándose al comportamiento del sistema y a las necesidades cambiantes del usuario.
-
-Además, esta técnica permite una gran flexibilidad en la creación de interfaces de usuario. Por ejemplo, se puede programar un evento para que, cuando el usuario haga clic en un botón, se ejecute una función que actualice los datos en la base de datos o muestre un mensaje informativo.
-
-En resumen, la programación de eventos y disparadores es una herramienta fundamental en el desarrollo de aplicaciones informáticas. Permite a los desarrolladores crear sistemas interactivos y responsivos, adaptándose a las acciones del usuario y al estado del sistema de manera dinámica. Este concepto es esencial para entender cómo funcionan muchas aplicaciones modernas y cómo se pueden crear nuevas funcionalidades interactivas y eficientes.
 
 <a id="excepciones"></a>
 ## Excepciones
 
-En el mundo digital actual, las bases de datos son una parte esencial de cualquier sistema informático. La programación de bases de datos requiere un conocimiento profundo de cómo manejar los errores que pueden surgir durante la ejecución de operaciones en estos sistemas. Esta subunidad se centra específicamente en el tema de excepciones, que son eventos inesperados o situaciones anormales que ocurren durante la ejecución del código y que pueden interrumpir su flujo normal.
-
-Las excepciones son un mecanismo fundamental para manejar errores de manera eficiente. Al programar bases de datos, es crucial entender cómo capturar, identificar y gestionar estas excepciones para mantener el sistema robusto y funcional. Cada excepción tiene una serie de propiedades que nos proporcionan información sobre lo que ocurrió, como su tipo, su mensaje y su origen.
-
-La gestión de excepciones en bases de datos implica la creación de bloques try-catch, donde el bloque try contiene el código susceptible a generar una excepción, mientras que el bloque catch se encarga de manejarla. Este enfoque permite aislar las partes del código que pueden fallar y proporciona un camino alternativo para continuar ejecutando el programa sin interrupciones.
-
-Además de capturar excepciones, es importante entender cómo generarlas intencionalmente cuando ocurren situaciones anormales. Las excepciones personalizadas nos permiten crear mensajes de error claros y específicos que facilitan la depuración y el mantenimiento del código. Al definir nuestras propias excepciones, podemos proporcionar contexto adicional sobre lo que salió mal, lo que es invaluable para solucionar problemas.
-
-La programación de bases de datos también implica la gestión de transacciones, que son conjuntos de operaciones que deben realizarse juntas o no en absoluto. Las excepciones desempeñan un papel crucial en este proceso, ya que si ocurre una excepción durante una transacción, es necesario revertir todas las operaciones realizadas hasta ese punto para mantener la integridad del sistema.
-
-Además de manejar errores, las excepciones también pueden utilizarse para implementar políticas de seguridad. Por ejemplo, al intentar acceder a un recurso protegido sin los permisos adecuados, se puede generar una excepción específica que indique el error y permita tomar medidas como solicitar nuevas credenciales o denegar la operación.
-
-La programación de bases de datos es un campo complejo que requiere un enfoque meticuloso para garantizar su correcto funcionamiento. El manejo adecuado de excepciones es una parte fundamental de este proceso, ya que permite crear sistemas informáticos más robustos y seguros. Al comprender cómo capturar, generar y gestionar excepciones, podemos mejorar la calidad del código y proporcionar un mejor servicio a los usuarios finales.
-
-En conclusión, el manejo de excepciones en la programación de bases de datos es una habilidad crucial que permite crear sistemas informáticos más confiables y seguros. Al comprender cómo capturar, generar y gestionar excepciones, podemos mejorar la calidad del código y proporcionar un mejor servicio a los usuarios finales. Esta subunidad ha cubierto los fundamentos del manejo de excepciones en bases de datos, proporcionando una base sólida para el desarrollo de sistemas informáticos más robustos y seguros.
 
 <a id="cursores"></a>
 ## Cursores
 
-En el mundo de la programación de bases de datos, los cursores desempeñan un papel crucial como intermediarios entre el lenguaje de programación y las operaciones directamente sobre la base de datos. Algunos de estos cursores son conocidos como cursores estándar, mientras que otros son cursores dinámicos o cursores posicionales. Los cursores estándar permiten a los desarrolladores recorrer un conjunto de resultados devuelto por una consulta SQL, procesando cada fila individualmente. Por otro lado, los cursores dinámicos son más flexibles y pueden ejecutar consultas que cambian en tiempo real, lo que es útil para aplicaciones donde las condiciones de búsqueda pueden variar.
-
-Los cursores posicionales, por su parte, permiten a los desarrolladores moverse libremente entre las filas del conjunto de resultados. Esto puede ser especialmente útil cuando se necesita acceder a una fila específica o cuando se desea realizar operaciones complejas como la actualización o eliminación de datos en función de ciertas condiciones.
-
-La programación con cursores requiere un conocimiento profundo de los conceptos de control de flujo y estructuras de datos. Los desarrolladores deben entender cómo abrir, moverse y cerrar cursores, así como cómo manejar las excepciones que pueden surgir durante el proceso. Además, es crucial conocer cómo optimizar el uso de cursores para mejorar el rendimiento de la aplicación.
-
-La manipulación de cursores también implica un buen entendimiento del lenguaje SQL. Los desarrolladores deben saber cómo formular consultas adecuadas y cómo utilizar las funciones de control de flujo dentro de los cursores para realizar operaciones complejas en una sola pasada por el conjunto de resultados.
-
-En la práctica, los cursores se utilizan en una variedad de escenarios. Por ejemplo, cuando se necesita procesar un gran volumen de datos y no es posible cargar todo en memoria a la vez, o cuando se requiere realizar operaciones complejas como la actualización de múltiples filas basadas en ciertas condiciones.
-
-La programación con cursores puede ser un desafío debido a su naturaleza más compleja que el acceso directo a la base de datos. Sin embargo, también ofrece una gran flexibilidad y control sobre los procesos de manipulación de datos. A través del uso de cursores, los desarrolladores pueden crear aplicaciones más eficientes y robustas, capaces de manejar situaciones complejas con mayor precisión.
-
-En resumen, los cursores son herramientas poderosas en el arsenal del programador de bases de datos. Su capacidad para recorrer y manipular conjuntos de resultados de manera controlada hace que sean esenciales para aplicaciones que requieren un alto nivel de personalización y complejidad. A medida que se adquiere experiencia con la programación de cursores, los desarrolladores pueden descubrir nuevas formas de optimizar el rendimiento y mejorar la funcionalidad de sus aplicaciones.
 
 
 <a id="interpretacion-de-diagramas-entidadrelacion"></a>
@@ -8120,64 +10897,170 @@ En resumen, los cursores son herramientas poderosas en el arsenal del programado
 <a id="el-modelo-er-entidades-y-relaciones-cardinalidades-debilidad"></a>
 ## El modelo ER. Entidades y relaciones. Cardinalidades. Debilidad
 
-El modelo de datos Entidad-Relación (ER) es una representación gráfica que permite visualizar la estructura lógica de una base de datos. Este modelo utiliza tres tipos de símbolos: entidades, atributos y relaciones.
+### Introducción a los ejercicios
 
-Las **entidades** son los objetos o conceptos sobre los cuales se almacenan datos en la base de datos. Cada entidad tiene un nombre único que describe el objeto representado. Por ejemplo, una entidad podría ser "Cliente" o "Producto".
+El diagrama de clases presentado describe una relación entre diferentes entidades en un sistema, probablemente para un modelo de comercio electrónico o similar que involucra productos, categorías y pedidos. A continuación se detalla cada clase y su relación con las demás:
 
-Los **atributos**, por otro lado, son las características o propiedades que definen a cada entidad. Cada atributo está asociado con una entidad y tiene un nombre y un tipo de dato específico. Por ejemplo, el atributo "Nombre" para la entidad "Cliente" podría ser de tipo texto.
+1. **Cliente (Clase implícita)**
+   - Relación: Tiene una asociación bidireccional con la entidad `Pedido` a través del atributo `cliente_id`.
 
-Las **relaciones** representan los vínculos entre las entidades. Una relación indica cómo se relacionan dos o más entidades y puede tener una cardinalidad que define cuántas instancias de cada entidad pueden estar involucradas en la relación. Por ejemplo, la relación "Compra" podría tener una cardinalidad de uno a muchos, indicando que un cliente puede hacer muchas compras.
+2. **Producto**
+   - Atributos:
+     - `id`
+     - `nombre`
+     - `atributo`
 
-La **debilidad** en el modelo ER se refiere a la ausencia de entidades fuertes o centrales. Una entidad débil no tiene identidad propia y depende de otra entidad para su existencia. Por ejemplo, una relación entre "Cliente" y "Factura" podría ser débil si cada factura solo existe en el contexto de un cliente.
+3. **Categoria**
+   - Atributos:
+     - `id`
+     - `nombre`
 
-El modelo ER es una herramienta poderosa para diseñar bases de datos porque permite visualizar claramente las relaciones entre diferentes partes del sistema. Al interpretar diagramas ER, podemos entender cómo los datos se organizan y cómo interactúan entre sí, lo que facilita la planificación y el desarrollo de sistemas informáticos.
+4. **LineasPedidos**
+   - Atributos:
+     - `id`
+     - `fecha`
+     - `pedido_id` (relación con la clase Pedido)
+     - `producto_id` (relación con la clase Producto)
+     - `cantidad`
 
-La comprensión del modelo ER es fundamental para cualquier profesional en programación o gestión de bases de datos, ya que proporciona una base sólida para diseñar estructuras de datos eficientes y coherentes. A través del estudio de este modelo, podemos aprender a representar conceptos complejos de manera visual y a analizar cómo estos conceptos se relacionan entre sí, lo que nos ayuda a crear sistemas informáticos más robustos y escalables.
+5. **Pedido**
+   - Relaciones:
+     - Uno a muchos con `LineasPedidos` a través del atributo `pedido_id`.
+     - Unidad de asociación bidireccional con el Cliente a través del atributo `cliente_id`.
 
-El modelo ER también es útil para la comunicación entre diferentes partes de un proyecto. Al usar diagramas ER, los desarrolladores pueden compartir una comprensión común del diseño de la base de datos, lo que facilita la colaboración y el mantenimiento del sistema a lo largo del tiempo.
+6. **Entidad**
+   - Atributos:
+     - `id`
+     - `producto_id` (relación con la clase Producto)
+     - `categoria_id` (relación con la clase Categoria)
 
-En resumen, el modelo ER es una herramienta esencial para el diseño y gestión de bases de datos. Al interpretar diagramas ER, podemos entender cómo los datos se organizan y cómo interactúan entre sí, lo que nos ayuda a crear sistemas informáticos más robustos y escalables. Este conocimiento es fundamental para cualquier profesional en programación o gestión de bases de datos.
+### Descripción de las relaciones:
 
-### Definiciones
+1. **Relación entre Cliente y Pedido**:
+   - Un cliente puede realizar múltiples pedidos.
+   - Un pedido solo pertenece a un cliente.
 
-```markdown
-En bases de datos trabajamos con "tablas"
-En programación trabajamos con "clases"
+2. **Relación entre Pedido y LineasPedidos**:
+   - Un pedido contiene varias líneas de pedido.
+   - Cada línea de pedido está asociada a un único pedido.
 
-Un cliente: es una "tabla"? o es una "clase"?
+3. **Relación entre Producto y Entidad**:
+   - Un producto puede estar relacionado con múltiples categorías mediante la tabla de entidades, permitiendo una relación muchos a muchos entre Productos y Categorías.
 
-Un cliente es una entidad
-Una entidad es un bloque de construcción conceptual que define un elemento que puede representar a un objeto del mundo real o puede representar a un objeto ficticio
+4. **Relación entre LineasPedidos y Producto**:
+   - Una línea de pedido está asociada a un único producto.
+   
+5. **Relación entre Entidad y Categoria**:
+   - Similarmente, la tabla `Entidad` permite que una categoría esté relacionada con múltiples productos.
 
-Modelar en base a entidades nos permite abstraernos
-Nos permite primero pensar en forma de teoría
-Y luego darle forma a esa teoria en forma de práctica (p.ej. bases de datos)
+### Diagrama en texto:
+
+```plaintext
+Cliente <-------------> Pedido (cliente_id)
+          |                    |
+          |--------------------|
+                            LineasPedidos (pedido_id)
+                             /  \            
+                            /    \
+                           /      \
+                          /        \
+                         /          \
+                   Producto (producto_id) ----- Entidad (categoria_id)
 ```
 
-### Ejemplo diagrama en texto
+El diagrama también muestra cómo los productos pueden estar relacionados con categorías a través de la tabla `Entidad`, que actúa como un puente para una relación muchos a muchos entre Productos y Categorías.
 
-```markdown
-Cliente
-  +id int
-  -nombre varchar
-  -apellidos varchar
-  -email varchar (constraint email)
-  -direccion varchar
+### Código JSON representativo del modelo:
+
+```json
+{
+  "Cliente": {
+    "attributes": ["id", "nombre"],
+    "relationships": {
+      "Pedido": { 
+        "direction": "one-to-many",
+        "foreign_key": "cliente_id"
+      }
+    }
+  },
+  "Producto": {
+    "attributes": ["id", "nombre", "atributo"],
+    "relationships": {
+      "LineasPedidos": { 
+        "direction": "many-to-one",
+        "foreign_key": "producto_id"
+      },
+      "Entidad": { 
+        "direction": "one-to-many",
+        "foreign_key": "categoria_id"
+      }
+    }
+  },
+  "Categoria": {
+    "attributes": ["id", "nombre"],
+    "relationships": {
+      "Entidad": { 
+        "direction": "many-to-one",
+        "foreign_key": "categoria_id"
+      }
+    }
+  },
+  "Pedido": {
+    "attributes": ["id", "fecha"],
+    "relationships": {
+      "LineasPedidos": { 
+        "direction": "one-to-many",
+        "foreign_key": "pedido_id"
+      }
+    }
+  },
+  "LineasPedidos": {
+    "attributes": ["id", "fecha", "cantidad"],
+    "relationships": {
+      "Producto": { 
+        "direction": "many-to-one",
+        "foreign_key": "producto_id"
+      },
+      "Pedido": { 
+        "direction": "one-to-many",
+        "foreign_key": "pedido_id"
+      }
+    }
+  },
+  "Entidad": {
+    "attributes": ["id"],
+    "relationships": {
+      "Producto": { 
+        "direction": "many-to-one",
+        "foreign_key": "categoria_id"
+      },
+      "Categoria": { 
+        "direction": "one-to-many",
+        "foreign_key": "producto_id"
+      }
+    }
+  }
+}
 ```
 
-### Herramientas para definir entidades
-
-```markdown
--Puedo definir entidades en texto
--Puedo utilizar Excel
--Puedo utilizar herramientas de diagramado: Dia Diagram
-http://dia-installer.de/index.html.es
-
--Podéis utilizar la herramienta jocarsa de diagramado
-https://jocarsa.github.io/diagrama/
-```
+Este modelo describe cómo las entidades se relacionan entre sí y proporciona una base sólida para la implementación de un sistema que gestiona pedidos, productos, categorías y relaciones entre ellos.
 
 ### entidad cliente
+<small>Creado: 2025-11-27 16:20</small>
+
+#### Explicación
+
+Este fragmento de código HTML se utiliza para representar visualmente una entidad en un diagrama de Entidad-Relación (ER) específico del cliente. La página está diseñada para mostrar cómo los datos relacionados con un cliente, como su identificador único (`id`), nombre, apellidos y correo electrónico, se organizan dentro de una base de datos.
+
+El código HTML crea una estructura visual que incluye:
+- Una caja blanca (`.shape entity`) que representa la entidad "Cliente".
+- Un encabezado en la parte superior del contenedor que dice simplemente "Cliente" (`.entity-header`).
+- Dentro del contenedor principal, hay varias propiedades del cliente listadas en una columna (`id`, `nombre`, `apellidos`, y `email`). Cada propiedad está representada por un elemento div con clase `.entity-property`.
+- Los puertos a la izquierda y derecha de cada propiedad (`.port port-left` y `.port port-right`) sirven para conectar visualmente estas propiedades a otras entidades o relaciones en el diagrama ER.
+
+Esta estructura es importante porque ayuda a los estudiantes de formación profesional a entender cómo se representan las tablas de una base de datos utilizando la notación ER, permitiéndoles ver gráficamente las columnas (o atributos) de cada entidad.
+
+`004-entidad cliente.html`
 
 ```html
 <!DOCTYPE html>
@@ -8418,6 +11301,20 @@ body {
 ```
 
 ### entidad cliente
+<small>Creado: 2025-11-27 16:20</small>
+
+#### Explicación
+
+Este fragmento de código es una representación JSON que describe una entidad en un diagrama ER (Diagrama Entidad Relación). En específico, el código representa la entidad llamada "Cliente" con sus propiedades asociadas. La estructura del JSON incluye un array llamado `formas` donde cada elemento detalla las características de una forma específica en el diagrama.
+
+En este caso, hay solo una forma (entidad) definida dentro del array `formas`, la cual tiene atributos como `id`, `tipo`, `left`, `top`, que describen su posición y tipo. El campo `entityName` especifica que esta entidad se llama "Cliente". Además, el objeto incluye un array llamado `properties` donde cada elemento representa una propiedad de la entidad "Cliente", proporcionando tanto un identificador único como el nombre de cada propiedad.
+
+Este formato JSON es útil porque permite almacenar y manipular la estructura del diagrama ER en forma de datos descriptivos. Esto facilita su procesamiento por parte de herramientas o aplicaciones que pueden renderizar estos datos en una interfaz gráfica, ayudando a los estudiantes a entender mejor las relaciones entre diferentes entidades en un sistema de gestión de bases de datos.
+
+**ÚLTIMO PÁRRAFO:**
+En comparación con el archivo anterior (004-entidad cliente.html), este archivo JSON proporciona una representación más estructurada y simplificada del diagrama ER, eliminando la necesidad de código HTML para visualizar las entidades. Esto hace que sea más fácil procesar y manipular los datos del diagrama utilizando herramientas de programación o aplicaciones específicas.
+
+`004-entidad cliente.json`
 
 ```json
 {
@@ -8455,6 +11352,18 @@ body {
 ```
 
 ### entidad cliente
+<small>Creado: 2025-11-27 16:20</small>
+
+#### Explicación
+
+Este fragmento de código es un archivo SVG (Scalable Vector Graphics) que representa visualmente una entidad llamada "Cliente". El SVG contiene elementos gráficos que describen la estructura y los atributos de esta entidad en el modelo Entity-Relationship (ER). En este caso, se dibuja un rectángulo con bordes gruesos que actúa como la representación visual de la entidad "Cliente", con las propiedades id, nombre, apellidos y email anotadas dentro del rectángulo. Cada propiedad está alineada verticalmente en el interior del cuadro rectangular para facilitar su lectura.
+
+El archivo SVG utiliza varios elementos y estilos CSS para definir cómo se debe representar la entidad "Cliente". Incluye una etiqueta `<rect>` que dibuja un rectángulo blanco con bordes negros gruesos, que representa visualmente a la entidad. Además, hay líneas de texto dentro del rectángulo que describen las propiedades de la entidad: id, nombre, apellidos y email.
+
+El último párrafo para resumir las diferencias respecto al archivo anterior es:
+Este nuevo archivo SVG proporciona una representación visual más detallada y gráfica de la entidad "Cliente" en lugar del formato JSON. Muestra directamente el rectángulo que representa a la entidad, sus bordes, y las propiedades anotadas dentro del rectángulo, facilitando así su interpretación visual y entendimiento de la estructura ER.
+
+`004-entidad cliente.svg`
 
 ```
 <svg xmlns="http://www.w3.org/2000/svg" width="299.9999999999999" height="230.39998834783373" viewBox="0 0 299.9999999999999 230.39998834783373">
@@ -8490,6 +11399,19 @@ body {
 ```
 
 ### dos entidades
+<small>Creado: 2025-11-27 16:23</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una representación visual simple de un diagrama entidad-relación (ER) para dos entidades: "Cliente" y "Pedido". El diseño utiliza CSS para estilizar estas entidades con formas rectangulares que contienen los nombres y atributos de cada entidad.
+
+En la parte del cuerpo (`<body>`), se define una caja principal (`<div class="page">`) que contiene dos bloques de div, representando las entidades "Cliente" y "Pedido". Cada bloque tiene un encabezado con el nombre de la entidad ("Cliente" o "Pedido") y una lista de atributos asociados a esa entidad. Por ejemplo, para la entidad "Cliente", los atributos son: id, nombre, apellidos y email.
+
+El CSS define estilos específicos que hacen que las entidades se vean como rectángulos con bordes redondeados y proporciona un diseño limpio para mostrar el contenido de cada entidad y sus atributos. También incluye pequeños círculos en los lados izquierdo y derecho de cada atributo, representando posibles puntos de conexión o relaciones con otras entidades.
+
+Este tipo de diagramas son útiles para estudiantes de bases de datos porque permiten visualizar claramente cómo se estructura la información, identificando las entidades clave y sus atributos en un sistema de gestión de bases de datos.
+
+`005-dos entidades.html`
 
 ```html
 <!DOCTYPE html>
@@ -8755,6 +11677,19 @@ body {
 ```
 
 ### dos entidades
+<small>Creado: 2025-11-27 16:22</small>
+
+#### Explicación
+
+Este fragmento de código es una representación en formato JSON de dos entidades, "Cliente" y "Pedido", que podrían estar involucradas en un diagrama ER (Entidad Relacional). En esta estructura, cada entidad tiene un nombre y una lista de propiedades. Por ejemplo, la entidad "Cliente" contiene las propiedades "id", "nombre", "apellidos" y "email". De manera similar, la entidad "Pedido" incluye "id", "fecha", "numero_pedido" y "id_cliente".
+
+Este formato JSON proporciona un enfoque estructurado para almacenar información sobre entidades y sus relaciones en un modelo de datos relacional. La ausencia de ancho y alto explícitos indica que estas dimensiones pueden ser determinadas automáticamente o configuradas dinámicamente por la aplicación que maneja estos datos.
+
+En comparación con el código HTML anterior, este archivo JSON ofrece una representación más abstracta y estructurada de las entidades. A diferencia del formato visual en HTML, donde se especifican coordenadas exactas y detalles visuales, este JSON proporciona solo los nombres de las entidades y sus propiedades sin preocuparse por la disposición gráfica o el estilo. Esta simplificación facilita el manejo y la manipulación de datos estructurados, especialmente en contextos donde se necesita intercambiar información entre diferentes sistemas o herramientas de modelado.
+
+En resumen, este archivo JSON es una versión más abstracta del modelo ER que elimina los detalles visuales y gráficos presentes en el HTML previo, enfocándose exclusivamente en la estructura de datos.
+
+`005-dos entidades.json`
 
 ```json
 {
@@ -8819,6 +11754,15 @@ body {
 ```
 
 ### dos entidades
+<small>Creado: 2025-11-27 16:22</small>
+
+#### Explicación
+
+El archivo actual es una representación gráfica de dos entidades, "Cliente" y "Pedido", en un diagrama ER (Entidad Relacional) utilizando SVG (Scalable Vector Graphics). En este diagrama, cada entidad se representa mediante un rectángulo con sus atributos internos enlistados debajo. Los rectángulos para las entidades "Cliente" e "Pedido" están colocados a ambos lados del espacio de dibujo proporcionado y contienen los respectivos atributos: "id", "nombre", "apellidos", "email" para la entidad "Cliente"; y "id", "fecha", "numero_pedido", "id_cliente" para la entidad "Pedido". No se han incluido relaciones explícitas entre las entidades en este fragmento, pero el diseño proporciona un marco visual claro de cómo estas dos entidades pueden interconectarse.
+
+En relación con el archivo anterior (005-dos entidades.json), este nuevo código pasa de una representación en formato JSON a una imagen vectorial SVG. Esto significa que ahora se tiene una visualización gráfica directa de las entidades y sus atributos, lo cual es más intuitivo para entender la estructura del modelo ER. Las diferencias clave incluyen el cambio del formato de datos a un formato de dibujo, permitiendo ver las entidades como rectángulos con atributos específicamente posicionados dentro de ellos, en lugar de una lista anidada de propiedades y valores. Esto facilita la interpretación visual y la comunicación gráfica de los conceptos ER.
+
+`005-dos entidades.svg`
 
 ```
 <svg xmlns="http://www.w3.org/2000/svg" width="577.8750055486505" height="230.83748557350842" viewBox="0 0 577.8750055486505 230.83748557350842">
@@ -8860,43 +11804,18 @@ body {
 </svg>
 ```
 
-### Tipos de relaciones - cardinalidad
-
-```markdown
-Tres tipos principales de cardinalidad son:
-
-1.-Relación de 1 a 1
-Un elemento de una entidad corresponde a un elemento de otra entidad
-
-1 cliente puede 1 nombre (a un elemento de una "tabla" le corresponde solo un elemento de otra "tabla")
-
-Cuando tenemos este caso, la solución, en base a normalización de bases de datos, suele ser incorporar ese dato en la tabla (no tiene sentido tener dos tablas separadas)
-
-2.-Relación de 1 a n
-
-A un elemento de una tabla le corresponden n elementos de la otra tabla
-
-Hay que tener en cuenta la direccionalidad de la cardinalidad
-
-Un pedido solo puede tener un cliente (desde ese punto de vista es 1 a 1)
-Pero un cliente puede hacer n pedidos (desde ese punto de vista es 1 a n)
-
-Si se da este caso, esto pide tener dos tablas en la base de datos, dos entidades diferentes
-
-3.-Relación de n a n
-Quiere decir:
-a n elementos de una "tabla" le corresponden n elementos de la otra "tabla"
-
-Ejemplo:
-Un estudiante puede tener n asignaturas
-Una asignaturas puede tener n estudiantes
-
-No es común, pero, como en el caso del centro de estudios, tampoco es infrecuente
-
-Cuando se dan estos casos, se suele solucionar la cardinalidad con una tabla intermedia
-```
-
 ### correspondencia 1 a n
+<small>Creado: 2025-11-27 16:26</small>
+
+#### Explicación
+
+Este fragmento de código HTML representa una página web que muestra un diagrama sencillo en el contexto del modelo entidad-relación (ER) utilizado en bases de datos. El diseño incluye dos entidades principales: "Cliente" y "Pedido". Cada entidad se dibuja como un rectángulo con propiedades específicas, donde las propiedades del Cliente son 'id', 'nombre', 'apellidos' y 'email'. Por su parte, la entidad Pedido tiene propiedades como 'id', 'fecha', 'numero_pedido' y 'id_cliente'.
+
+Además, hay una flecha que conecta ambas entidades, indicando una relación entre ellas. Esta representación gráfica ayuda a visualizar cómo las dos tablas (o entidades) en una base de datos están relacionadas: es posible que un cliente tenga muchos pedidos, lo que se refleja en la relación 1 a N (uno a varios) entre Cliente y Pedido.
+
+La importancia del código radica en su capacidad para proporcionar una representación visual clara y fácilmente comprensible de relaciones complejas en bases de datos, facilitando así el entendimiento de las estructuras de datos a los estudiantes.
+
+`007-correspondencia 1 a n.html`
 
 ```html
 <!DOCTYPE html>
@@ -9163,6 +12082,17 @@ body {
 ```
 
 ### correspondencia 1 a n
+<small>Creado: 2025-11-27 16:26</small>
+
+#### Explicación
+
+Este fragmento de código JSON describe la estructura y las relaciones entre dos entidades en un modelo ER (Entidad Relación): Cliente y Pedido. Cada entidad tiene sus propias características y atributos, que se representan mediante una lista de objetos que contienen el nombre de los atributos. Además, existe una relación entre estas dos entidades, específicamente desde la propiedad "id" de la entidad Cliente hasta la propiedad "id_cliente" de la entidad Pedido. Esta relación es de tipo simple (un enlace directo) y se dibuja como una línea recta ("straight").
+
+Este archivo JSON proporciona un formato estructurado que puede ser utilizado para automatizar el procesamiento o renderizado del diagrama ER, facilitando así la creación de representaciones gráficas basadas en datos. En comparación con el código HTML anterior, este JSON ofrece una representación más abstracta y flexible de los mismos elementos (entidades y relaciones), permitiendo un mejor manejo y manipulación por parte de herramientas o lenguajes que trabajen con estructuras de datos.
+
+ÚLTIMO PÁRRAFO: Este nuevo archivo JSON representa la misma información que el HTML anterior pero en un formato más estructurado, lo cual facilita su procesamiento automático. Además, introduce una descripción explícita de las relaciones entre entidades, eliminando la necesidad de CSS y HTML para representar gráficamente los datos ER.
+
+`007-correspondencia 1 a n.json`
 
 ```json
 {
@@ -9242,6 +12172,22 @@ body {
 ```
 
 ### correspondencia 1 a n
+<small>Creado: 2025-11-27 16:26</small>
+
+#### Explicación
+
+Este fragmento de código SVG representa un diagrama entidad-relación (ER) que ilustra la relación entre dos entidades: "Cliente" y "Pedido". El código define el diseño gráfico con rectángulos para cada entidad, líneas horizontales dentro de los rectángulos para listar las propiedades (atributos) de cada entidad, y una línea punteada con una flecha que indica la relación entre estas dos entidades.
+
+El rectángulo izquierdo representa a la entidad "Cliente" y contiene cuatro atributos: id, nombre, apellidos y email. El rectángulo derecho representa a la entidad "Pedido", que también tiene cuatro atributos: id, fecha, número_pedido e id_cliente (que actúa como una clave foránea enlazada con el cliente).
+
+La línea que conecta los dos rectángulos incluye una flecha apuntando hacia el rectángulo de "Pedido", indicando la relación 1:N entre Cliente y Pedido. Esto sugiere que un solo cliente puede realizar múltiples pedidos, pero cada pedido está asociado a uno y sólo a un cliente.
+
+El archivo actual es una representación gráfica visual del modelo ER descrito en el formato JSON anterior. En lugar de definir entidades y sus propiedades con texto estructurado, utiliza elementos SVG para dibujar rectángulos y textos que detallan las mismas características: nombres de entidades y sus respectivos atributos.
+
+ÚLTIMO PÁRRAFO:
+El archivo actual presenta una versión visual del modelo ER anterior en formato JSON, utilizando etiquetas SVG para crear un diagrama gráfico. Esto permite a los usuarios ver directamente la relación entre "Cliente" y "Pedido", incluyendo cómo las entidades están conectadas mediante líneas y flechas, facilitando así la comprensión de la estructura del modelo de datos.
+
+`007-correspondencia 1 a n.svg`
 
 ```
 <svg xmlns="http://www.w3.org/2000/svg" width="577.8750101725259" height="230.83750406901032" viewBox="0 0 577.8750101725259 230.83750406901032">
@@ -9285,6 +12231,19 @@ body {
 ```
 
 ### caso centro de formacion
+<small>Creado: 2025-11-27 16:34</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web que representa un diagrama de entidades relacionales (ER) para un centro de formación. La página incluye estilos CSS detallados que definen cómo se visualizan diferentes elementos del diagrama.
+
+En el cuerpo de la página, hay tres divs principales que representan entidades en el modelo ER: "Asignatura", "Alumno" y "Matricula". Cada entidad tiene un encabezado con su nombre y una lista de propiedades (campos) como identificadores únicos (`id`), nombres, descripciones, fechas y referencias a otras entidades.
+
+Además, hay dos flechas que representan las relaciones entre estas entidades. Una flecha conecta la entidad "Asignatura" con la entidad "Matricula", indicando que una asignatura puede tener varias matrículas. La otra flecha conecta la entidad "Alumno" con la entidad "Matricula", sugiriendo que un alumno puede estar inscrito en múltiples asignaturas a través de sus matrículas.
+
+Este diagrama es útil para estudiantes y profesionales de bases de datos porque ayuda a visualizar cómo se estructuran los datos en una base de datos relacional, mostrando las entidades (tablas), sus atributos (columnas) y las relaciones entre ellas.
+
+`008-caso centro de formacion.html`
 
 ```html
 <!DOCTYPE html>
@@ -9572,6 +12531,23 @@ body {
 ```
 
 ### caso centro de formacion
+<small>Creado: 2025-11-27 16:34</small>
+
+#### Explicación
+
+Este fragmento de código JSON describe un diagrama de entidad-relación (ER) para un sistema escolar que incluye entidades, sus propiedades y las relaciones entre ellas. El archivo contiene tres principales objetos JSON: dos representan entidades ("Asignatura", "Alumno" y "Matricula") y uno representa las flechas o líneas que conectan estas entidades.
+
+Cada entidad tiene un ID único, coordenadas de posición en el diagrama (izquierda y arriba), un nombre y una lista de propiedades. Por ejemplo, la entidad 'Asignatura' tiene tres propiedades: 'id', 'nombre' y 'descripcion'. De manera similar, las otras entidades también tienen sus respectivas propiedades.
+
+Las flechas conectan estas entidades basándose en propiedades específicas, lo que indica una relación entre ellas. Por ejemplo, la primera flecha conecta desde el ID de "Asignatura" hasta el "asignatura_id" de "Matricula", indicando que cada matrícula está asociada a una asignatura específica.
+
+En resumen, este JSON codifica visualmente cómo las entidades y sus propiedades están interconectadas en un sistema escolar mediante relaciones simples y directas.
+
+El código JSON actual representa los mismos datos del diagrama de entidad-relación pero con una estructura diferente, utilizando objetos JSON para definir las formas (entidades) y las flechas que conectan estas entidades. Esto facilita la manipulación y visualización programática del diagrama ER en comparación con el código HTML anterior.
+
+Este cambio permite una mayor flexibilidad y potencialmente simplifica la gestión del diagrama ER, especialmente si se necesita hacer cambios o añadir más detalles a las relaciones entre las entidades.
+
+`008-caso centro de formacion.json`
 
 ```json
 {
@@ -9688,6 +12664,19 @@ body {
 ```
 
 ### caso centro de formacion
+<small>Creado: 2025-11-27 16:34</small>
+
+#### Explicación
+
+Este código SVG representa un diagrama de entidad-relación (ER) que ilustra las relaciones entre tres entidades: Asignatura, Alumno y Matricula. Cada entidad se muestra como un rectángulo con sus propiedades internas listadas debajo. Las relaciones entre estas entidades se representan mediante líneas con flechas, indicando la dirección de los enlaces.
+
+La entidad "Asignatura" tiene las propiedades: id, nombre y descripción. La entidad "Alumno" incluye las propiedades: id, nombre, apellidos y email. Finalmente, la entidad "Matricula" contiene las propiedades: id, fecha, alumno_id (relacionada con Alumno) y asignatura_id (relacionada con Asignatura).
+
+Este diagrama ER es importante porque proporciona una representación visual clara de cómo se relacionan diferentes elementos en un sistema de gestión de datos, ayudando a diseñar bases de datos eficientes y bien estructuradas.
+
+**ÚLTIMO PÁRRAFO**: La versión actual del archivo utiliza SVG para dibujar el diagrama directamente, proporcionando una visualización gráfica más detallada con estilos específicos para cada elemento (rectángulos para entidades, líneas de conexión con flechas). Esto es un avance significativo en comparación con la estructura JSON anterior, ya que permite una mayor interactividad y claridad visual.
+
+`008-caso centro de formacion.svg`
 
 ```
 <svg xmlns="http://www.w3.org/2000/svg" width="580.6249999999998" height="378.11251163482655" viewBox="0 0 580.6249999999998 378.11251163482655">
@@ -9738,6 +12727,21 @@ body {
 ```
 
 ### caso tienda online
+<small>Creado: 2025-11-27 16:39</small>
+
+#### Explicación
+
+Este fragmento de código HTML representa una página web que visualiza un diagrama entidad-relación (ER) para un caso de estudio de una tienda online. La estructura del código incluye varias entidades y relaciones entre ellas, presentadas mediante cajas con encabezados y propiedades específicas.
+
+La página contiene cuatro entidades principales: Cliente, Producto, Pedido, y LineasPedido. Cada entidad se muestra en un rectángulo con detalles de las propiedades que la componen (como ID, nombre, precio, etc.), y los nombres de las entidades aparecen en encabezados dentro de estos rectángulos.
+
+Además, el código incluye líneas (flechas) que representan relaciones entre estas entidades. Por ejemplo, hay una flecha que conecta la entidad Cliente con la entidad Pedido, indicando que un cliente puede realizar varios pedidos.
+
+El estilo del diagrama es cuidado y estético, lo que facilita su lectura y comprensión. El uso de CSS proporciona una visualización detallada que incluye bordes redondeados, sombreado y colores para destacar las diferentes partes del diagrama, como encabezados y propiedades.
+
+Este tipo de representación es útil en cursos de bases de datos y gestión de información para enseñar cómo modelar relaciones entre entidades en un sistema informático.
+
+`009-caso tienda online.html`
 
 ```html
 <!DOCTYPE html>
@@ -10046,6 +13050,88 @@ body {
 ```
 
 ### caso tienda online
+<small>Creado: 2025-11-27 16:39</small>
+
+#### Explicación
+
+### Explicación del Código JSON
+
+El código proporcionado representa una estructura de diagrama de entidad-relación (ER) para un sistema que gestiona clientes, pedidos y líneas de pedido. El formato es en JSON y describe tanto las entidades como sus relaciones.
+
+#### Estructura General
+
+- **formas**: Una lista de objetos que describen las entidades del modelo.
+  - Cada objeto tiene los siguientes campos:
+    - `id`: Un identificador único para la forma (en este caso, una entidad).
+    - `tipo`: Especifica el tipo de forma. En este caso, todas son "entity".
+    - `left` y `top`: Posiciones absolutas en píxeles.
+    - `width` y `height`: No se especifican aquí, lo que permite al sistema ajustar automáticamente sus dimensiones basándose en los datos proporcionados.
+    - `entityName`: El nombre de la entidad (por ejemplo, "Cliente").
+    - `properties`: Una lista de propiedades de la entidad. Cada propiedad tiene un identificador único (`id`) y un nombre (`name`).
+
+- **flechas**: Una lista de objetos que describen las relaciones entre entidades.
+  - Cada objeto tiene los siguientes campos:
+    - `desde`: Un objeto con `shapeId`, el identificador de la entidad desde donde comienza la relación, y `propId`, el identificador de la propiedad específica en esa entidad. También incluye un campo `side` que indica si se conecta por la parte izquierda ("left") o derecha ("right").
+    - `hasta`: Un objeto similar a `desde` pero para la entidad final de la relación.
+    - `tipo`: El tipo de flecha, en este caso "simple".
+    - `estilo`: La forma en que se dibuja la flecha, en este caso "straight" (recta).
+
+### Descripción Detallada del Código JSON
+
+#### Entidades
+
+1. **Cliente**
+   - Posición: 34px (izquierda), 135.625px (arriba)
+   - Propiedades:
+     - `id`
+     - `nombre`
+     - `apellidos`
+
+2. **Producto**
+   - Posición: 288.433px (izquierda), 293.654px (arriba)
+   - Propiedades:
+     - `id`
+     - `nombre`
+     - `precio`
+
+3. **Pedido**
+   - Posición: 283.771px (izquierda), 135.621px (arriba)
+   - Propiedades:
+     - `id`
+     - `fecha`
+     - `cliente_id`
+
+4. **LineasPedido**
+   - Posición: 551.104px (izquierda), 194.308px (arriba)
+   - Propiedades:
+     - `id`
+     - `fecha`
+     - `pedido_id`
+     - `producto_id`
+     - `cantidad`
+
+#### Relaciones
+
+- **Relación entre Cliente y Pedido**:
+  - La propiedad `cliente_id` del `Pedido` está relacionada con el `id` del `Cliente`.
+
+- **Relación entre Pedido y LineasPedido**:
+  - La propiedad `pedido_id` de la entidad `LineasPedido` está conectada a la propiedad `id` de la entidad `Pedido`.
+
+- **Relación entre Producto y LineasPedido**:
+  - La propiedad `producto_id` de la entidad `LineasPedido` se vincula con el `id` del `Producto`.
+
+### Diferencias Con Exposición Anterior HTML
+
+Comparado con el código anterior en formato HTML:
+
+1. **Representación de entidades**: Ahora las entidades son objetos JSON descriptivos en lugar de bloques de HTML.
+2. **Relaciones**: Las relaciones se especifican como objetos JSON que describen desde y hasta, y no como elementos `<div>` con estilos de transformación.
+3. **Estilo y posición automático**: No hay necesidad de especificar dimensiones explícitas ni usar estilos CSS para posicionar las entidades; la herramienta generará esto automáticamente basándose en los datos proporcionados.
+
+En resumen, el código JSON facilita un enfoque más dinámico y descriptivo para representar diagramas ER, eliminando la necesidad de codificar manualmente cada detalle visual.
+
+`009-caso tienda online.json`
 
 ```json
 {
@@ -10199,6 +13285,21 @@ body {
 ```
 
 ### caso tienda online
+<small>Creado: 2025-11-27 16:39</small>
+
+#### Explicación
+
+Este fragmento de código es una representación gráfica en formato SVG (Scalable Vector Graphics) que muestra un diagrama entidad-relación (ER) para un caso de estudio de una tienda online. En este diagrama, las entidades "Cliente", "Producto", "Pedido" y "LineasPedido" se visualizan como rectángulos con sus respectivos atributos dentro del rectángulo. Las flechas en el diagrama representan relaciones entre estas entidades.
+
+Cada entidad está definida por su nombre y un conjunto de atributos que son esencialmente los campos de la tabla correspondiente en una base de datos relacional. Por ejemplo, la entidad "Cliente" tiene atributos como "id", "nombre" y "apellidos". Las líneas con flechas conectan las entidades para mostrar cómo están relacionadas entre sí.
+
+El código SVG incluye declaraciones CSS (a través del atributo `class`) que definen el estilo de los elementos gráficos, así como definiciones de marcadores personalizados (`defs` y `marker-end`) para dar forma a las puntas de las líneas que representan las relaciones entre entidades.
+
+En comparación con el código anterior en formato JSON o XML, este SVG proporciona una visualización más directa del diagrama entidad-relación. Mientras que antes los datos estaban estructurados y descriptivos, ahora se utilizan elementos gráficos como rectángulos, líneas y texto para mostrar las entidades y relaciones de forma visual.
+
+Este cambio en la representación permite a los desarrolladores y analistas ver rápidamente cómo están relacionadas las distintas partes del sistema sin necesidad de decodificar estructuras de datos complejas. Además, este formato es fácilmente editable y compatible con diversos navegadores web para visualización interactiva o impresión.
+
+`009-caso tienda online.svg`
 
 ```
 <svg xmlns="http://www.w3.org/2000/svg" width="817.0249837239581" height="364.4375101725259" viewBox="0 0 817.0249837239581 364.4375101725259">
@@ -10256,6 +13357,19 @@ body {
 ```
 
 ### caso tienda online con categorias
+<small>Creado: 2025-11-27 16:42</small>
+
+#### Explicación
+
+Este fragmento de código HTML es una representación visual en formato web de un diagrama ER (Diagrama Entidad Relación) que modela la estructura de datos de una tienda online. El objetivo principal del código es crear una página web donde se muestran diferentes entidades y sus relaciones, utilizando estilos CSS para darle forma a estas entidades y al dibujar las líneas que conectan entre ellas.
+
+En el cuerpo del HTML, hay varias divs con la clase "shape entity", cada una representando una entidad diferente en el modelo ER (como Cliente, Producto, Pedido, LineasPedido, y Categoria). Cada entidad tiene un encabezado que muestra su nombre y propiedades internas que contienen atributos como ID, nombre, precio, etc. Estos atributos están representados dentro de divs con la clase "entity-property", donde también se muestran puertos (divs con la clase "port") en los extremos izquierdo y derecho para simular las conexiones a otras entidades.
+
+Además, existen varios elementos con la clase "arrow" que conectan visualmente estas entidades, representando así las relaciones entre ellas en el modelo ER de la tienda online. Estas líneas se posicionan y rotan según los atributos CSS proporcionados para mostrar correctamente cómo cada entidad está relacionada con otra.
+
+Este diagrama es útil para estudiantes y desarrolladores que quieren entender mejor cómo están estructuradas las bases de datos relacionales en aplicaciones web como una tienda online, mostrando visualmente cuáles son las entidades principales y cómo se conectan entre sí. El uso del CSS permite dar formato a la página web de manera detallada para mejorar su apariencia y legibilidad.
+
+`010-caso tienda online con categorias.html`
 
 ```html
 <!DOCTYPE html>
@@ -10585,6 +13699,70 @@ body {
 ```
 
 ### caso tienda online con categorias
+<small>Creado: 2025-11-27 16:41</small>
+
+#### Explicación
+
+El archivo JSON proporcionado describe un diagrama de entidad-relación (ER) que incluye entidades y sus relaciones. Vamos a analizarlo en detalle.
+
+### Entidades
+
+1. **Cliente**
+   - **ID:** forma-1
+   - **Posición:** left: 34.0792px, top: 135.625px
+   - **Propiedades:** id, nombre, apellidos
+
+2. **Producto**
+   - **ID:** forma-2
+   - **Posición:** left: 288.433px, top: 293.654px
+   - **Propiedades:** id, nombre, precio, categoria_id
+
+3. **Pedido**
+   - **ID:** forma-3
+   - **Posición:** left: 283.771px, top: 135.621px
+   - **Propiedades:** id, fecha, cliente_id
+
+4. **LineasPedido**
+   - **ID:** forma-5
+   - **Posición:** left: 551.104px, top: 194.308px
+   - **Propiedades:** id, fecha, pedido_id, producto_id, cantidad
+
+5. **Categoria**
+   - **ID:** forma-6
+   - **Posición:** left: 29.1208px, top: 338.983px
+   - **Propiedades:** id, nombre
+
+### Relaciones (Flechas)
+
+1. **Relación entre Cliente y Pedido**
+   - **Desde:** Cliente -> prop-1 (id) [right]
+   - **Hasta:** Pedido -> prop-9 (cliente_id) [left]
+
+2. **Relación entre Pedido y LineasPedido**
+   - **Desde:** Pedido -> prop-7 (id) [right]
+   - **Hasta:** LineasPedido -> prop-16 (pedido_id) [left]
+
+3. **Relación entre Producto y LineasPedido**
+   - **Desde:** Producto -> prop-4 (id) [right]
+   - **Hasta:** LineasPedido -> prop-17 (producto_id) [left]
+
+4. **Relación entre Categoria y Producto**
+   - **Desde:** Categoria -> prop-19 (id) [right]
+   - **Hasta:** Producto -> prop-21 (categoria_id) [left]
+
+### Explicación de la Relación
+
+- **Cliente** tiene una relación uno a muchos con **Pedido**: Un cliente puede realizar varios pedidos.
+- **Producto** tiene una relación uno a muchos con **LineasPedido**: Un producto puede aparecer en varias líneas de pedido (por ejemplo, si se compra varias veces).
+- **Categoria** tiene una relación uno a muchos con **Producto**: Una categoría puede tener múltiples productos asociados.
+
+### Conclusión
+
+El diagrama muestra una estructura típica para un sistema de gestión de pedidos y catálogo de productos. Las entidades están correctamente relacionadas, permitiendo la representación de datos complejos como el seguimiento de los productos en las líneas de pedido y la categorización de los mismos.
+
+Esta descripción proporciona una base sólida para visualizar y entender cómo funcionan las relaciones entre diferentes objetos (o tablas) en un sistema de gestión de pedidos.
+
+`010-caso tienda online con categorias.json`
 
 ```json
 {
@@ -10775,6 +13953,48 @@ body {
 ```
 
 ### caso tienda online con categorias
+<small>Creado: 2025-11-27 16:42</small>
+
+#### Explicación
+
+El archivo SVG proporcionado representa una representación gráfica de entidades y sus relaciones en un diagrama entidad-relación (ER) simplificado, similar a la estructura de datos que se vería en una base de datos relacional. A continuación, desglosaré las partes del código:
+
+1. **Entidades Representadas**:
+   - **Producto**: Esta entidad contiene los atributos id, nombre, precio y categoria_id.
+   - **Categoria**: La entidad Categoria tiene los atributos id y nombre.
+   - **Pedido**: Tiene tres atributos: id, fecha y cliente_id.
+   - **LineasPedido**: Contiene cinco atributos (id, fecha, pedido_id, producto_id y cantidad).
+   - **Cliente**: Aunque no se menciona explícitamente como entidad en el texto SVG, los atributos de 'nombre' y 'apellidos' del Cliente están asociados con la entidad Producto. Sin embargo, para la claridad estructural, parece estar implícito que hay una relación entre Pedido y Cliente a través de cliente_id.
+
+2. **Relaciones Representadas**:
+   - Existen líneas (patrones `<path class="conn">`) que conectan las entidades, indicando relaciones entre ellas.
+     - Una línea conecta la entidad Producto con LineasPedido.
+     - Otra línea conecta la entidad Pedido con LineasPedido.
+     - La última línea conecta la entidad Categoria con Producto.
+   - Estas líneas representan cómo los datos se relacionan entre sí. Por ejemplo, la relación entre Producto y Categoria indica que un producto pertenece a una categoría específica.
+
+3. **Detalles de las Entidades**:
+   - Cada entidad es dibujada como un rectángulo con bordes redondeados, etiquetado internamente con sus atributos.
+   - Las entidades están posicionadas en el espacio SVG para facilitar la visualización de sus relaciones a través de líneas.
+
+### Interpretación de los Elementos SVG:
+- **Rectángulos**: Representan las entidades (Producto, Categoria, Pedido y LineasPedido).
+  - Por ejemplo: `<rect class="shape-entity" x="294.6500040690104" y="40" width="219.99999999999994" height="126.40001424153643" />`
+- **Líneas internas en rectángulos**: Representan los atributos de cada entidad.
+  - Por ejemplo: `<line x1="294.6500040690104" y1="66.40000152587892" x2="514.6500040690103" y2="66.40000152587892" stroke="#e5e7eb" stroke-width="1"/>`
+- **Texto dentro de los rectángulos**: Etiquetas para cada atributo.
+  - Por ejemplo: `<text x="376.750020345052" y="110.40000851949054">fecha</text>`
+- **Líneas que conectan los rectángulos**: Representan las relaciones entre entidades.
+  - Por ejemplo: `<path class="conn" d="M 466.77500406901027 239.65559476710516 L 615.1749877929686 213.86942964695723" marker-end="url(#arrow-end)" />`
+
+### Relaciones Específicas:
+- **Producto y Categoria**: Una relación de pertenencia, donde un producto está asociado con una categoría.
+- **Pedido y LineasPedido**: Muestra que cada pedido puede tener múltiples líneas de pedidos asociadas a él.
+- **LineasPedido y Producto**: Indica la relación entre una línea específica del pedido y el producto correspondiente.
+
+Este diagrama es útil para visualizar cómo las entidades se relacionan en un sistema de datos, facilitando el entendimiento y diseño de la estructura de bases de datos.
+
+`010-caso tienda online con categorias.svg`
 
 ```
 <svg xmlns="http://www.w3.org/2000/svg" width="821.9874877929686" height="388.437520345052" viewBox="0 0 821.9874877929686 388.437520345052">
@@ -10839,6 +14059,80 @@ body {
 ```
 
 ### caso de que un producto tenga muchas categorias
+<small>Creado: 2025-11-27 16:45</small>
+
+#### Explicación
+
+Este código HTML representa una representación visual de un modelo de base de datos, mostrando relaciones entre diferentes entidades a través de flechas. La estructura del documento incluye estilos CSS y elementos HTML que definen la apariencia y la disposición de las entidades en el modelo.
+
+### Resumen del Código
+
+1. **Cabecera del Documento (`<head>`):**
+   - Define los estilos (CSS) necesarios para visualizar las entidades y sus relaciones.
+   
+2. **Cuerpo del Documento (`<body>`):**
+   - Contiene un contenedor principal (`div.page`) que engloba todas las entidades y las flechas de conexión.
+
+### Entidades
+
+Las entidades en el modelo son:
+- `Cliente`
+- `Pedido`
+- `LineasPedido`
+- `Categoria`
+- `Producto`
+- `Entidad` (esta entidad no parece estar relacionada con ninguna relación específica, es posible que sea una entidad de prueba o un error)
+
+Cada entidad tiene propiedades definidas en el atributo `.entity-properties`, mostradas como nombres de columnas en la base de datos.
+
+### Flechas de Conexión
+
+Las flechas representan las relaciones entre entidades. Estas flechas se definen con etiquetas `<div>` que tienen estilos CSS para establecer su posición y dirección (usando transformaciones rotacionales).
+
+### Ejemplo de Entidad (`Cliente`)
+
+```html
+<div class="shape entity" style="left:40.3125px;top:40.01250203450522px;width:219.99999999999994px;height:126.40001424153643px;">
+  <div class="entity-header">Cliente</div>
+  <div class="entity-properties">
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">id</div>
+      <div class="port port-right"></div>
+    </div>
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">nombre</div>
+      <div class="port port-right"></div>
+    </div>
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">apellidos</div>
+      <div class="port port-right"></div>
+    </div>
+  </div>
+</div>
+```
+
+### Ejemplo de Flecha
+
+```html
+<div class="arrow" style="left:198.40002441406247px;top:83.75627073265511px;width:158.31921743552306px;transform:rotate(0.29018612042228886rad);"></div>
+```
+
+### Importancia en un Curso de Bases de Datos
+
+En el contexto de un curso sobre bases de datos, este código HTML representa un modelo ER (Entidad-Relación) visualmente y sirve para:
+
+1. **Visualización:** Ayuda a los estudiantes a visualizar las relaciones entre diferentes entidades.
+2. **Diseño de Bases de Datos:** Permite entender cómo se conectan las tablas en una base de datos relacional.
+3. **Normalización:** Ayuda a identificar redundancias y mejorar la normalización del diseño.
+
+### Ejecución del Código
+
+Para ver el código funcionar, debes abrir este archivo HTML con un navegador web (como Google Chrome o Firefox). El resultado mostrará entidades en forma de cuadrados con propiedades y flechas que representan relaciones entre ellas.
+
+`011-caso de que un producto tenga muchas categorias.html`
 
 ```html
 <!DOCTYPE html>
@@ -11184,6 +14478,125 @@ body {
 ```
 
 ### caso de que un producto tenga muchas categorias
+<small>Creado: 2025-11-27 16:44</small>
+
+#### Explicación
+
+El archivo JSON proporcionado representa una entidad de diagrama de base de datos en formato estructurado. Aquí está un análisis detallado:
+
+### Sección: Formas (Entities)
+La sección "formas" contiene objetos que representan diferentes entidades del diagrama. Cada entidad tiene las siguientes propiedades:
+
+- **id**: Un identificador único para la forma.
+- **tipo**: Especifica el tipo de objeto, en este caso siempre es `"entity"`.
+- **left** y **top**: Coordenadas que determinan la posición horizontal y vertical de cada entidad respectivamente. Estas coordenadas están dadas en píxeles (px).
+- **width** y **height**: Las dimensiones del rectángulo que contiene a la entidad, aunque no se especifican explícitamente.
+- **entityName**: El nombre de la entidad, como "Cliente", "Pedido", etc.
+- **properties**: Una lista de propiedades asociadas con cada entidad. Cada propiedad tiene un identificador único (id) y un nombre.
+
+### Ejemplos de Formas
+Aquí hay algunos ejemplos de entidades en el archivo JSON:
+
+1. **Cliente**
+   ```json
+   {
+     "id": "forma-1",
+     "tipo": "entity",
+     "left": "34.0792px",
+     "top": "135.625px",
+     "entityName": "Cliente",
+     "properties": [
+       { "id": "prop-1", "name": "id" },
+       { "id": "prop-2", "name": "nombre" },
+       { "id": "prop-3", "name": "apellidos" }
+     ]
+   }
+   ```
+
+2. **Pedido**
+   ```json
+   {
+     "id": "forma-3",
+     "tipo": "entity",
+     "left": "283.771px",
+     "top": "135.621px",
+     "entityName": "Pedido",
+     "properties": [
+       { "id": "prop-7", "name": "id" },
+       { "id": "prop-8", "name": "fecha" },
+       { "id": "prop-9", "name": "cliente_id" }
+     ]
+   }
+   ```
+
+3. **LineasPedido**
+   ```json
+   {
+     "id": "forma-5",
+     "tipo": "entity",
+     "left": "551.104px",
+     "top": "194.308px",
+     "entityName": "LineasPedido",
+     "properties": [
+       { "id": "prop-14", "name": "id" },
+       { "id": "prop-15", "name": "fecha" },
+       { "id": "prop-16", "name": "pedido_id" },
+       { "id": "prop-17", "name": "producto_id" },
+       { "id": "prop-18", "name": "cantidad" }
+     ]
+   }
+   ```
+
+### Sección: Flechas (Relations)
+La sección "flechas" describe las relaciones entre diferentes entidades. Cada relación tiene las siguientes propiedades:
+
+- **desde**: Un objeto que especifica el punto de inicio de la flecha.
+  - **shapeId**: El identificador único de la forma desde donde parte la flecha.
+  - **propId**: El identificador del atributo en esa forma asociado con el extremo inicial de la flecha.
+  - **side**: Eje de la propiedad (izquierda o derecha).
+- **hasta**: Un objeto que especifica el punto final de la flecha, similar a `desde`.
+- **tipo**: El tipo de relación (`simple` en este caso).
+- **estilo**: Estilo de dibujo de la flecha (`straight` indica una línea recta).
+
+### Ejemplos de Flechas
+Aquí hay algunos ejemplos de relaciones:
+
+1. Relación entre Cliente y Pedido:
+   ```json
+   {
+     "desde": { "shapeId": "forma-1", "propId": "prop-1", "side": "right" },
+     "hasta": { "shapeId": "forma-3", "propId": "prop-9", "side": "left" },
+     "tipo": "simple",
+     "estilo": "straight"
+   }
+   ```
+
+2. Relación entre Pedido y LineasPedido:
+   ```json
+   {
+     "desde": { "shapeId": "forma-3", "propId": "prop-7", "side": "right" },
+     "hasta": { "shapeId": "forma-5", "propId": "prop-16", "side": "left" },
+     "tipo": "simple",
+     "estilo": "straight"
+   }
+   ```
+
+3. Relación entre Producto y Entidad:
+   ```json
+   {
+     "desde": { "shapeId": "forma-9", "propId": "prop-27", "side": "right" },
+     "hasta": { "shapeId": "forma-10", "propId": "prop-31", "side": "left" },
+     "tipo": "simple",
+     "estilo": "straight"
+   }
+   ```
+
+### Resumen
+Este archivo JSON describe una base de datos relacional con entidades como Cliente, Pedido, LineasPedido, Producto y Entidad. Cada entidad tiene propiedades definidas y se relacionan entre sí a través de relaciones rectilíneas (flechas). La estructura permite representar un diagrama ER o similar de una manera fácilmente serializable y deserializable en JSON.
+
+El archivo proporcionado parece ser la representación en formato JSON de un diagrama de base de datos generado por alguna herramienta gráfica, probablemente convertido desde su forma visual a una forma estructurada para almacenamiento o transmisión.
+
+`011-caso de que un producto tenga muchas categorias.json`
 
 ```json
 {
@@ -11407,6 +14820,65 @@ body {
 ```
 
 ### caso de que un producto tenga muchas categorias
+<small>Creado: 2025-11-27 16:45</small>
+
+#### Explicación
+
+El código SVG proporcionado representa un diagrama de entidad-relación simplificado, donde las entidades son rectángulos y las relaciones entre ellas se representan mediante líneas con flechas (arrows). Vamos a desglosarlo para entender mejor su estructura y contenido.
+
+### Entidades
+
+1. **Cliente**:
+   - Posición: `(40, 318)`
+   - Dimensiones: `219x102`
+   - Atributos: `id`, `nombre`
+
+2. **Pedido**:
+   - Posición: `(557, 162)`
+   - Dimensiones: `219x174`
+   - Atributos: `id`, `fecha`, `pedido_id`, `producto_id`, `cantidad`
+
+3. **Producto**:
+   - Posición: `(40, 182)`
+   - Dimensiones: `219x126`
+   - Atributos: `id`, `nombre`, `atributo`
+
+4. **Categoría**:
+   - Posición: `(40, 345)`
+   - Dimensiones: `219x102`
+   - Atributos: `id`, `nombre`
+
+5. **Entidad** (no está claro qué entidad es esto):
+   - Posición: `(307, 280)`
+   - Dimensiones: `219x126`
+   - Atributos: `id`, `producto_id`, `categoria_id`
+
+
+### Relaciones
+
+1. **Relación entre Cliente y Pedido**:
+   - El rectángulo del cliente está conectado con una línea hasta el rectángulo de Pedido, indicando que un cliente puede tener varios pedidos.
+
+2. **Relación entre Pedido y LineasPedido (Detalles de pedido)**:
+   - La relación apunta desde el rectángulo de Pedido hacia el rectángulo de Detalles del pedido (LineasPedido), mostrando que un pedido tiene varias líneas de detalle.
+
+3. **Relación entre Producto y Entidad**:
+   - El rectángulo del producto está conectado con una línea hasta el rectángulo de la entidad no especificada, indicando una relación entre ambos.
+
+4. **Relación entre Categoría y Entidad**:
+   - Similarmente, la categoría también tiene una relación con la entidad no especificada.
+
+5. **Relación directa entre Producto y LineasPedido (Detalles del pedido)**:
+   - Existe una conexión directa desde el rectángulo de Producto hacia el rectángulo de Detalles del pedido, indicando que un producto puede estar asociado con múltiples detalles de pedidos.
+
+
+### Conclusión
+
+El diagrama SVG representa relaciones entre diferentes entidades (como clientes, productos y pedidos) en una base de datos. Las líneas conectadas con flechas muestran cómo estas entidades están relacionadas entre sí.
+
+Para un análisis más detallado o para la implementación de este diseño en un sistema real, sería útil tener información adicional sobre qué entidad es el rectángulo no especificada y por qué existen ciertas relaciones específicas.
+
+`011-caso de que un producto tenga muchas categorias.svg`
 
 ```
 <svg xmlns="http://www.w3.org/2000/svg" width="817.3374837239581" height="485.0875040690104" viewBox="0 0 817.3374837239581 485.0875040690104">
@@ -11476,34 +14948,213 @@ body {
 </svg>
 ```
 
+### Actividades propuestas
+
+El diagrama de clases representado por el SVG proporcionado describe una relación entre varias entidades en un sistema de gestión de ventas o inventario. Aquí se presentan las entidades principales y sus relaciones:
+
+1. **Cliente**
+   - Atributos: No especificados en el diagrama, pero normalmente incluiría datos como nombre, dirección, correo electrónico.
+   - Relaciones:
+     - Tiene una relación con la entidad `Pedido` (mencionado implícitamente en la tabla `Pedidos`).
+
+2. **Pedido**
+   - Atributos: Fecha de pedido.
+   - Relaciones:
+     - Uno a muchos con `LineasPedido`.
+     - Un cliente puede realizar varios pedidos.
+
+3. **LineasPedido**
+   - Atributos: Id del pedido, id del producto, cantidad y fecha (posiblemente).
+   - Relaciones:
+     - Muchos a uno con `Pedidos` (uno o más líneas de pedido para un pedido).
+     - Muchos a uno con `Producto`.
+
+4. **Producto**
+   - Atributos: Id del producto, nombre del producto y atributo(s) (posiblemente detalles adicionales sobre el producto como descripción, precio, categoría).
+
+5. **Categoria**
+   - Atributos: Id de la categoría y nombre.
+   - Relaciones:
+     - Muchos a uno con `Entidad` (una entidad puede pertenecer a una sola categoría).
+     
+6. **Entidad** 
+   - Atributos: Id entero, id del producto relacionado (un `Producto`), id de la categoría.
+   - Relaciones:
+     - Uno a uno con `Producto` y `Categoria`.
+
+### Diagrama de Clases
+
+```plaintext
++-----------------+
+|    Cliente      |
++-----------------+
+| - Nombre        |
+| - Direccion     |
+| - CorreoElectronico  |
++-----------------+
+       ^
+       |
++------v-------+
+|    Pedido     | <----- Relación de uno a muchos con Cliente.
++--------------+
+| - FechaPedido |
++--------------+
+
++---------------+
+| LineasPedido   |
++---------------+
+| - IdPedidos    |
+| - Cantidad     |
+| - ProductoId   |
+| - Fecha        |
++---------------+
+       ^
+       |
++------v-------+
+|  Pedido       | <----- Relación de muchos a uno con Pedido.
++--------------+
+
++-----------------+
+|      Producto   |
++-----------------+
+| - IdProducto    |
+| - Nombre        |
+| - Atributos     |
++-----------------+
+       ^
+       |
++------v--------+
+| Entidad        |  <---- Relación de muchos a uno con Producto y Categoria.
++--------------+
+| - Id          |
+| - ProductoId  |
+| - CategoriaId |
++--------------+
+
++-----------------+
+|    Categoría     |
++-----------------+
+| - IdCategoria   |
+| - Nombre        |
++-----------------+
+```
+
+### Explicación de las relaciones:
+
+1. **Cliente y Pedido**: Un cliente puede realizar múltiples pedidos, pero un pedido siempre pertenece a un solo cliente.
+2. **Pedido y LineasPedido**: Un pedido consta de varias líneas de pedido (que especifican qué productos se incluyen en el pedido con su cantidad).
+3. **Producto y Entidad**: Una entidad representa una relación entre un producto y una categoría, indicando que cada producto puede pertenecer a una sola categoría.
+4. **Categoría y Entidad**: Cada entidades está asociada a una única categoria.
+
+### Conclusión:
+Este modelo de clases parece describir cómo se relacionan las entidades en un sistema de ventas o inventario, con énfasis en la relación uno a muchos entre los clientes y pedidos, así como en el esquema de categorización para los productos.
+
+
 <a id="el-modelo-er-ampliado-generalizacion-y-especializacion-agregacion"></a>
 ## El modelo ER ampliado. Generalización y especialización. Agregación
 
-El modelo ER ampliado es una extensión del modelo básico de entidad-relación que permite representar relaciones más complejas entre entidades, introduciendo conceptos como generalización, especialización y agregación. Esta extensión es crucial para modelar sistemas empresariales donde las relaciones entre objetos son dinámicas y pueden variar significativamente.
+### Introducción a los ejercicios
 
-La generalización en el modelo ER ampliado permite representar una jerarquía de entidades, donde una entidad más general (superclase) puede tener subentidades más específicas (subclases). Este concepto es útil para modelar relaciones como "Persona" (general) y "Estudiante" o "Profesor" (específicas), permitiendo compartir atributos comunes entre entidades relacionadas.
+### Diagrama Persona-Alumno-Profesor
 
-La especialización, por otro lado, permite que una subentidad herede atributos y relaciones de su superclase. Esto facilita la gestión de datos en sistemas empresariales donde diferentes tipos de objetos comparten características básicas pero también tienen diferencias significativas.
+El diagrama es un modelo de base de datos relacional que representa tres entidades principales: `Persona`, `Alumno` y `Profesor`. Las relaciones entre estas entidades están indicadas mediante líneas con flechas que conectan los rectángulos (representativos de las tablas). Analizaremos cada entidad y sus relaciones:
 
-La agregación es un concepto que representa una relación "parte-todo" entre entidades, donde una entidad (todo) contiene o está compuesta por otras entidades (partes). Por ejemplo, en un sistema de gestión de bibliotecas, la entidad "Librería" puede estar compuesta por varias entidades "Sección", cada una con sus propias características y relaciones.
+#### Entidad Persona
+- **Nombre:** Persona
+- **Atributos:**
+  - id
+  - nombre
+  - apellidos
+  - dni-nie
 
-Estos conceptos permiten crear modelos ER más precisos y detallados que reflejan las relaciones complejas entre objetos en el mundo real. Al utilizar generalización, especialización y agregación, los diseñadores de sistemas pueden representar mejor la realidad empresarial, lo que facilita la implementación y mantenimiento de bases de datos eficientes.
+El identificador `id` probablemente es la clave principal (primary key) en esta tabla, que se utiliza para relacionar a personas con roles específicos como Alumno o Profesor.
 
-La interpretación de estos diagramas ER ampliados es crucial para entender cómo se organizan y relacionan los datos en un sistema. Permite a los desarrolladores visualizar las entidades, sus relaciones y las jerarquías que existen dentro del sistema, lo que facilita la planificación y diseño de bases de datos robustas y escalables.
+#### Entidad Alumno
+- **Nombre:** Alumno
+- **Atributos:**
+  - id
+  - NIA
 
-En resumen, el modelo ER ampliado es una herramienta poderosa para modelar sistemas empresariales complejos. Al entender y aplicar conceptos como generalización, especialización y agregación, los diseñadores pueden crear modelos que reflejen eficazmente las relaciones entre objetos en el mundo real, lo que resulta en bases de datos más precisas y eficientes.
+La entidad `Alumno` parece tener un identificador (`id`) que podría estar en relación con el atributo `id` de la tabla `Persona`. Esto implica una relación uno a uno o uno a muchos entre las entidades `Persona` y `Alumno`, dependiendo del contexto.
 
-### Generalizacion
+#### Entidad Profesor
+- **Nombre:** Profesor
+- **Atributos:**
+  - id
+  - correo_corporativo
 
-```markdown
-En ocasiones ocurre que varias clases realmente derivan de una superclase
-Cuando esto ocurre, tenemos propiedades duplicadas
-No queremos propiedades duplicadas
+Similar al caso de Alumno, la entidad `Profesor` tiene un identificador (`id`) que probablemente también está en relación con el atributo `id` de la tabla `Persona`.
 
-Para ello, consideramos la creación de una clase superior (en programación de hecho decidiremos si es una clase abstracta)
+#### Relaciones:
+- Entre `Persona` y `Alumno`: Existe una línea con flecha apuntando desde `Persona` a `Alumno`, lo cual indica que cada persona puede ser un alumno, pero no necesariamente. Esto sugiere una relación de tipo **uno a muchos** o simplemente la posibilidad de que una persona pueda asociarse a un único rol como Alumno (uno a uno).
+- Entre `Persona` y `Profesor`: Existe otra línea con flecha apuntando desde `Persona` a `Profesor`, lo cual indica que cada persona puede ser un profesor, pero no necesariamente. Esto sugiere una relación de tipo **uno a muchos** o simplemente la posibilidad de que una persona pueda asociarse a un único rol como Profesor (uno a uno).
+
+### Modelo Lógico del Diagrama
+
+Para formalizar el modelo lógico basado en el diagrama, se pueden representar las entidades y relaciones de la siguiente manera:
+
+```plaintext
+Entidad Persona:
+- id: Clave Principal
+- nombre
+- apellidos
+- dni-nie
+
+Entidad Alumno:
+- id: Clave Principal (relacionada con persona.id)
+- NIA
+
+Entidad Profesor:
+- id: Clave Principal (relacionada con persona.id)
+- correo_corporativo
 ```
 
+### SQL para Crear las Tablas y sus Relaciones
+
+```sql
+CREATE TABLE Persona (
+    id INT PRIMARY KEY,
+    nombre VARCHAR(100),
+    apellidos VARCHAR(255),
+    dni_nie VARCHAR(9) UNIQUE  -- Asumiendo que es único, de lo contrario ajusta según el requisito.
+);
+
+-- En una relación uno a muchos o uno a uno:
+CREATE TABLE Alumno (
+    id INT PRIMARY KEY,
+    persona_id INT NOT NULL,
+    NIA VARCHAR(20),
+    
+    FOREIGN KEY (persona_id) REFERENCES Persona(id)
+);
+
+CREATE TABLE Profesor (
+    id INT PRIMARY KEY,
+    persona_id INT NOT NULL,
+    correo_corporativo VARCHAR(150),
+
+    FOREIGN KEY (persona_id) REFERENCES Persona(id)
+);
+```
+
+### Conclusiones
+- Cada tabla `Alumno` y `Profesor` tiene una clave foránea (`persona_id`) que se relaciona con la clave principal de la tabla `Persona`.
+- Si el diagrama sugiere una relación uno a muchos, es posible que un estudiante o profesor pertenezca a varias personas en ciertas situaciones. En general, sin embargo, esto parece más bien indicar una relación uno a uno.
+  
+Este modelo proporciona una representación estructurada de cómo las entidades `Persona`, `Alumno` y `Profesor` se relacionan entre sí en un sistema administrativo para estudiantes y docentes.
+
 ### generalizacion
+<small>Creado: 2025-11-27 17:05</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web que visualiza un diagrama ER (Entidad Relación) básico. La página tiene un fondo claro y un estilo minimalista, con dos entidades principales: "Alumno" y "Profesor". Cada entidad se representa como un bloque rectangular con bordes redondeados, conteniendo propiedades específicas como el ID, nombre, apellidos y DNI.
+
+El código define diferentes clases CSS para estilizar los elementos del diagrama. Por ejemplo, la clase `.shape.entity` proporciona las características visuales para una entidad ER, incluyendo un título (`.entity-header`) y detalles de propiedades (`.entity-properties`). Dentro de cada propiedad se muestra el nombre de la propiedad (`property-name`), rodeado por dos puntos de conexión pequeños que simbolizan posibles relaciones con otras entidades.
+
+Este tipo de visualización es útil para estudiantes ya que facilita entender cómo los datos son organizados y relacionados en un modelo de base de datos ER, permitiendo una rápida identificación de las características comunes entre diferentes entidades.
+
+`002-generalizacion.html`
 
 ```html
 <!DOCTYPE html>
@@ -11769,6 +15420,19 @@ body {
 ```
 
 ### generalizacion
+<small>Creado: 2025-11-27 17:05</small>
+
+#### Explicación
+
+El fragmento de código JSON describe la estructura de dos entidades en un modelo de entidad-relación (ER): "Alumno" y "Profesor". Cada entidad incluye cuatro propiedades comunes: id, nombre, apellidos y dni. Este formato es útil para representar diagramas ER de manera estructurada y fácilmente manipulable en una aplicación.
+
+En este JSON, cada entidad se define como un objeto con varios campos. Por ejemplo, la entidad "Alumno" tiene un campo `entityName` que especifica el nombre de la entidad (en este caso, "Alumno"). También contiene una lista de propiedades (`properties`) donde cada propiedad es un objeto con su propio identificador y nombre.
+
+Lo interesante aquí es cómo los datos se representan en un formato estructurado sin necesidad de estilos o presentación visual directa. Esto facilita la manipulación, almacenamiento y transferencia de modelos ER en formatos digitales puros.
+
+En comparación con el código anterior que era HTML con CSS para dibujar las entidades visualmente, este JSON es puramente estructural. Esto significa que se han eliminado los detalles visuales del diagrama, concentrándose solo en la información de datos y relaciones, lo cual facilita su uso en aplicaciones de programación backend o herramientas de modelado de bases de datos que trabajan con datos ER no visualizados.
+
+`002-generalizacion.json`
 
 ```json
 {
@@ -11833,6 +15497,17 @@ body {
 ```
 
 ### generalizacion
+<small>Creado: 2025-11-27 17:05</small>
+
+#### Explicación
+
+El código proporcionado es un archivo SVG que representa visualmente dos entidades de una base de datos: Alumno y Profesor. Cada entidad se dibuja como un rectángulo con líneas internas para representar los atributos (propiedades) de dicha entidad. En este caso, tanto la entidad "Alumno" como la entidad "Profesor" tienen exactamente las mismas propiedades: id, nombre, apellidos y dni. La visualización es clara gracias a los estilos definidos dentro del bloque `<defs>`, que especifican cómo se deben pintar los rectángulos y texto en el diagrama.
+
+En cuanto a la relación entre este archivo SVG y el archivo JSON anterior (002-generalizacion.json), hay una transformación significativa. Mientras que el archivo JSON proporcionaba una estructura de datos abstracta para las entidades Alumno y Profesor, incluyendo sus atributos, el archivo SVG ofrece una representación gráfica visual directa de estas entidades en un diagrama ER (Entidad Relación). Esto permite a los estudiantes visualizar fácilmente la estructura de las entidades sin depender completamente del formato JSON, facilitando así la comprensión y análisis de los modelos ER.
+
+En resumen, el cambio principal es que el archivo SVG proporciona una representación gráfica directa de las entidades Alumno y Profesor en lugar de una descripción textual estructurada como en el JSON.
+
+`002-generalizacion.svg`
 
 ```
 <svg xmlns="http://www.w3.org/2000/svg" width="559.6000269839636" height="230.93748393811669" viewBox="0 0 559.6000269839636 230.93748393811669">
@@ -11875,6 +15550,19 @@ body {
 ```
 
 ### solucion con generalizacion
+<small>Creado: 2025-11-27 17:08</small>
+
+#### Explicación
+
+Este código HTML crea una representación visual de un diagrama en entidad-relación (ER) que muestra cómo las entidades "Persona", "Alumno" y "Profesor" están relacionadas. El archivo comienza definiendo el estilo para diferentes elementos del diagrama, como rectángulos, círculos, y otras formas geométricas utilizando CSS.
+
+En la parte central del código se encuentran tres bloques de clase `entity` que representan las entidades "Persona", "Alumno" y "Profesor". Cada bloque incluye una cabecera con el nombre de la entidad y propiedades específicas como 'id', 'nombre', 'apellidos' para la entidad "Persona", 'id' y 'NIA' para la entidad "Alumno", y 'id' y 'correo_corporativo' para la entidad "Profesor".
+
+Además, hay dos líneas (clase `arrow`) que representan las relaciones entre estas entidades. Estas flechas conectan visualmente a "Persona" con tanto "Alumno" como "Profesor". Esta estructura sugiere una relación de generalización y especialización, donde "Persona" es la entidad padre y "Alumno" y "Profesor" son subclases o casos particulares de "Persona".
+
+Este tipo de diagrama es importante porque proporciona un modelo visual claro del diseño de base de datos y ayuda a entender las relaciones entre diferentes entidades en el sistema.
+
+`003-solucion con generalizacion.html`
 
 ```html
 <!DOCTYPE html>
@@ -12147,6 +15835,21 @@ body {
 ```
 
 ### solucion con generalizacion
+<small>Creado: 2025-11-27 17:08</small>
+
+#### Explicación
+
+Este fragmento de código JSON describe un modelo ER (Entidad Relación) que representa tres entidades: Persona, Alumno y Profesor. Cada entidad tiene sus propias características y está relacionada con la entidad base "Persona" a través de relaciones simples.
+
+La estructura del JSON contiene una lista de objetos para las formas o entidades y otra lista para las flechas o relaciones entre esas entidades. Las propiedades específicas de cada entidad, como el ID, nombre, apellidos, DNI-NIE, NIA y correo corporativo, se describen dentro de un array llamado "properties" que está anidado bajo cada objeto de entidad.
+
+Las flechas en el JSON representan las relaciones entre la entidad base "Persona" y sus entidades derivadas "Alumno" y "Profesor". Estas flechas son simples y rectas, conectando directamente desde la entidad Persona a Alumno y Profesor respectivamente. 
+
+Este código es importante porque proporciona una estructura clara para modelar herencias y relaciones en un diagrama ER, permitiendo una representación gráfica de cómo se relacionan las diferentes entidades dentro del sistema.
+
+ÚLTIMO PÁRRAFO: La versión actual utiliza JSON para definir visualmente el modelo ER en lugar de HTML como en la versión anterior. Esto simplifica la estructura y facilita la manipulación y renderización posterior por parte de un programa o script, ya que los datos están claramente organizados en objetos y arrays.
+
+`003-solucion con generalizacion.json`
 
 ```json
 {
@@ -12251,6 +15954,21 @@ body {
 ```
 
 ### solucion con generalizacion
+<small>Creado: 2025-11-27 17:08</small>
+
+#### Explicación
+
+El fragmento de código que has proporcionado es un archivo SVG (Scalable Vector Graphics) que representa un diagrama de entidades relacionales para una base de datos. Este tipo de diagramas son utilizados en diseño de bases de datos y modelado para mostrar las relaciones entre diferentes tablas o conjuntos de datos.
+
+En este caso, el código dibuja tres rectángulos representando entidades: "Persona", "Alumno" e "Profesor". Cada entidad tiene propiedades específicas. Por ejemplo, la entidad "Persona" contiene atributos como 'id', 'nombre', 'apellidos' y 'dni-nie'. Las entidades "Alumno" y "Profesor" también tienen sus respectivos atributos 'id', pero además incluyen los atributos adicionales 'NIA' para el Alumno y 'correo_corporativo' para el Profesor.
+
+Las líneas que conectan estos rectángulos con flechas indican las relaciones entre estas entidades. En este caso, se muestra una relación de generalización desde la entidad "Persona" hacia tanto "Alumno" como "Profesor", lo cual implica que un Alumno y un Profesor son también Personas.
+
+Este código SVG es particularmente útil para visualizar cómo diferentes tipos de datos están relacionados entre sí en una base de datos, facilitando así el proceso de diseño y comprensión de la estructura de una base de datos.
+
+ÚLTIMO PÁRRAFO: En comparación con el archivo anterior (003-solucion con generalizacion.json), este código SVG proporciona una visualización gráfica detallada del mismo modelo ER, utilizando formas rectangulares y flechas para representar las entidades y sus relaciones. Esto facilita la comprensión visual de los conceptos de generalización y especificación en lugar de simplemente describirlos en formato JSON.
+
+`003-solucion con generalizacion.svg`
 
 ```
 <svg xmlns="http://www.w3.org/2000/svg" width="626.8750381469724" height="394.2750024795531" viewBox="0 0 626.8750381469724 394.2750024795531">
@@ -12297,23 +16015,18 @@ body {
 </svg>
 ```
 
-### Entidades abstractas
-
-```markdown
-Son aquellas que no instancian directamente objetos o tablas, sino que solo sirven para derivar otras entidades.
-
-Ejemplo: 
-Centro de formación, entidad "persona".
-La entidad "persona" no me sirve de nada
-Se dice que la clase persona es abstracta, porque:
--alumno hereda de persona, instancio alumno
--profesor hereda de persona, instancio profesor
--empleado hereda de persona, instancio empleado
-
-Pero no instancio directamente de persona
-```
-
 ### ejemplo con empleado
+<small>Creado: 2025-11-27 17:11</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web que representa un diagrama en el modelo entidad-relación (ER) ampliado, específicamente enfocado en la generalización y especialización. La página contiene diferentes entidades como "Persona", "Alumno", "Profesor" y "EmpleadoPAS". Cada entidad tiene propiedades definidas y se visualizan mediante cajas con bordes circulares en los extremos para representar las relaciones entre ellas.
+
+Las entidades están estilizadas usando CSS para darles un aspecto de cuadro rectángulo con una cabecera que indica el nombre de la entidad y una lista de propiedades debajo. Las propiedades se presentan como pequeños bloques con nombres centrados dentro del cuerpo de la entidad. Además, existen flechas que conectan las entidades "Alumno", "Profesor" y "EmpleadoPAS" con la entidad base "Persona", indicando una relación de generalización donde estas entidades son subclases de "Persona".
+
+Este diagrama es importante porque ilustra cómo se pueden modelar jerarquías en el diseño de bases de datos, permitiendo una mejor organización y abstracción de los datos. Es particularmente útil para estudiantes que están aprendiendo a interpretar y crear diagramas ER ampliados, mostrándoles cómo representar relaciones complejas como la generalización con HTML y CSS.
+
+`005-ejemplo con empleado.html`
 
 ```html
 <!DOCTYPE html>
@@ -12602,6 +16315,61 @@ body {
 ```
 
 ### ejemplo con empleado
+<small>Creado: 2025-11-27 17:11</small>
+
+#### Explicación
+
+Este código JSON representa una representación estructurada de un diagrama ER (Entidad Relacional) en el que se definen varias entidades y las relaciones entre ellas. A continuación, se detalla su contenido:
+
+### Entidades
+
+1. **Persona**
+   - Propiedades: id, nombre, apellidos, dni-nie
+   - Coordenadas: left = 359.7px, top = -29.95px
+
+2. **Alumno**
+   - Propiedades: id, NIA
+   - Coordenadas: left = 120.325px, top = 181.938px
+
+3. **Profesor**
+   - Propiedades: id, correo_corporativo
+   - Coordenadas: left = 366.575px, top = 180.688px
+
+4. **EmpleadoPAS**
+   - Propiedades: id, usuario_sistema
+   - Coordenadas: left = 618.45px, top = 176.938px
+
+### Relaciones (Flechas)
+
+Las entidades se relacionan entre sí a través de las siguientes flechas:
+
+- **Persona** -> **Alumno**
+- **Persona** -> **Profesor**
+- **Persona** -> **EmpleadoPAS**
+
+Cada relación es un enlace simple y recto ("straight").
+
+### Descripción del JSON
+
+- **formas**: Array que contiene objetos para cada entidad, incluyendo su ID, tipo, posición (left, top), nombre de la entidad (entityName) y sus propiedades.
+  
+- **flechas**: Array que representa las relaciones entre entidades. Cada flecha tiene un origen (`desde`) y un destino (`hasta`), especificando el ID de la forma desde la cual parte y hacia cuál apunta, respectivamente.
+
+### Comparación con código HTML previo
+
+El código anterior en formato HTML describe visualmente el diagrama ER mediante elementos div y estilos CSS. En cambio, este JSON es una representación estructurada que puede ser más fácil para procesar o manipular por programas (como lenguajes de programación). 
+
+La información sobre las entidades y relaciones se organiza de manera más clara en formato JSON. Por ejemplo:
+- Se eliminan detalles visuales no funcionales como estilos CSS.
+- La posición de cada entidad es definida numéricamente, pero sin especificar dimensiones para evitar restricciones innecesarias.
+
+### Uso
+
+Este tipo de estructura en JSON sería útil para aplicaciones web que permiten crear y editar diagramas ER dinámicamente. Los datos se pueden cargar desde un archivo o base de datos para ser renderizados en una interfaz gráfica o exportados para otros formatos.
+
+En resumen, este código JSON proporciona una representación abstracta pero completa del modelo ER, que puede ser fácilmente manipulada por aplicaciones de programación.
+
+`005-ejemplo con empleado.json`
 
 ```json
 {
@@ -12739,6 +16507,21 @@ body {
 ```
 
 ### ejemplo con empleado
+<small>Creado: 2025-11-27 17:11</small>
+
+#### Explicación
+
+Este código SVG representa un diagrama de entidades-relación (ER) en el que se muestran varias entidades y sus relaciones. Cada entidad es representada por un rectángulo con sus atributos dentro, y las relaciones entre ellas son mostradas mediante líneas con flechas que conectan los rectángulos.
+
+La entidad "Persona" está ubicada en la parte superior del diagrama, con cuatro atributos: id, nombre, apellidos y dni-nie. Las entidades "Alumno", "Profesor" e "EmpleadoPAS" están situadas más abajo, cada una de ellas con sus propios atributos específicos (por ejemplo, Alumno tiene un NIA, Profesor un correo corporativo y EmpleadoPAS un usuario del sistema).
+
+Las líneas conectan la entidad "Persona" con las entidades "Alumno", "Profesor" e "EmpleadoPAS". Estas conexiones indican una relación jerárquica donde cada una de estas entidades hereda de la clase base "Persona".
+
+En comparación con el archivo anterior en formato JSON, este SVG proporciona una representación visual gráfica de las mismas relaciones y entidades. El cambio principal es que ahora se utilizan formas geométricas y líneas para mostrar claramente cómo están relacionadas entre sí, ofreciendo una visión más intuitiva del modelo ER.
+
+ÚLTIMO PÁRRAFO: La versión actual utiliza un formato gráfico (SVG) en lugar de datos estructurados (JSON), lo que permite visualizar directamente las entidades y sus relaciones mediante formas y líneas, mejorando la comprensibilidad del diagrama ER.
+
+`005-ejemplo con empleado.svg`
 
 ```
 <svg xmlns="http://www.w3.org/2000/svg" width="798.125076293945" height="394.2750024795531" viewBox="0 0 798.125076293945 394.2750024795531">
@@ -12792,6 +16575,22 @@ body {
 ```
 
 ### especializacion
+<small>Creado: 2025-11-27 17:14</small>
+
+#### Explicación
+
+Este código HTML representa una página web que muestra un diagrama de entidad-relación (ER) con elementos de especialización, específicamente enfocado en la relación entre alumnos presenciales y online. El diagrama utiliza estilos CSS personalizados para dibujar formas como rectángulos, círculos, líneas y flechas.
+
+En el código, se definen tres entidades principales:
+1. **Alumno**: Una entidad base que contiene propiedades comunes a todos los alumnos como `id`, `nombre`, `apellidos` e `email`.
+2. **AlumnoPresencial**: Es una especialización de la entidad Alumno y añade una propiedad adicional llamada `tarjeta_acceso_centro`.
+3. **AlumnoOnline**: Otra especialización de Alumno que podría tener propiedades específicas para alumnos online, aunque en este caso muestra una propiedad no válida (`mediumseagreen`), probablemente un error tipográfico.
+
+El código también incluye dos flechas que conectan la entidad base "Alumno" con sus entidades especializadas "AlumnoPresencial" y "AlumnoOnline". Estas flechas representan las relaciones jerárquicas entre estas entidades, indicando cómo los alumnos presenciales y online son tipos específicos de alumno.
+
+Este tipo de diagrama es útil para comprender la estructura jerárquica de datos en bases de datos, especialmente cuando se necesitan definir grupos de objetos que heredan propiedades comunes pero también tienen características particulares.
+
+`006-especializacion.html`
 
 ```html
 <!DOCTYPE html>
@@ -13064,6 +16863,22 @@ body {
 ```
 
 ### especializacion
+<small>Creado: 2025-11-27 17:14</small>
+
+#### Explicación
+
+Este fragmento de código JSON representa un modelo ER (Entidad Relación) en formato digital para una base de datos, específicamente centrado en la especialización del tipo de alumno (AlumnoPresencial y AlumnoOnline). En este modelo, se definen tres entidades principales: "Alumno", "AlumnoPresencial" y "AlumnoOnline". Cada entidad tiene sus propias características y atributos.
+
+La primera entidad es "Alumno", que incluye las propiedades básicas como el identificador único (id), nombre, apellidos y email. La entidad "AlumnoPresencial" se especializa a partir de "Alumno" añadiendo un campo adicional para la tarjeta de acceso al centro educativo, reflejando así una variante del alumno que asiste presencialmente a las clases.
+
+Por otro lado, "AlumnoOnline" también se deriva de "Alumno", pero incluye características específicas para los estudiantes que aprenden en línea. En este caso, hay un campo adicional llamado "mediumseagreen", lo cual es inusual y podría ser un error tipográfico o una representación simbólica.
+
+El código JSON también define dos flechas simples ("simple") entre la entidad base "Alumno" y cada uno de sus derivados: "AlumnoPresencial" y "AlumnoOnline". Estas flechas sugieren las relaciones de generalización, indicando que los alumnos presenciales y en línea son una forma especializada del tipo más amplio de alumno.
+
+ÚLTIMO PÁRRAFO:
+En comparación con el código anterior en formato HTML, este archivo JSON proporciona una representación estructurada y semántica del mismo modelo ER. El cambio a JSON permite una mejor gestión y manipulación de datos para aplicaciones que requieren la importación/exportación de esquemas de base de datos, facilitando así un intercambio más eficiente entre diferentes sistemas o herramientas. Además, el uso de IDs únicos y descripciones explícitas mejora la claridad y flexibilidad del modelo ER.
+
+`006-especializacion.json`
 
 ```json
 {
@@ -13168,6 +16983,23 @@ body {
 ```
 
 ### especializacion
+<small>Creado: 2025-11-27 17:14</small>
+
+#### Explicación
+
+Este fragmento de código es un archivo SVG (Scalable Vector Graphics) que representa gráficamente las entidades y relaciones definidas en el modelo ER ampliado. El archivo muestra tres entidades: "Alumno", "AlumnoPresencial" y "AlumnoOnline". Cada entidad se dibuja como un rectángulo con sus atributos correspondientes dentro de él.
+
+La entidad principal es "Alumno", que contiene los atributos básicos como "id", "nombre", "apellidos" y "email". Las entidades derivadas, "AlumnoPresencial" y "AlumnoOnline", están relacionadas con la entidad "Alumno" mediante líneas de conexión (flechas), indicando una relación de especialización. Esto significa que los alumnos presenciales y online son un tipo específico de alumno.
+
+El código también define estilos para diferentes elementos gráficos, como rectángulos y flechas, utilizando CSS incorporado en la sección `<defs>` del archivo SVG. Estos estilos definen colores y otros atributos visuales que hacen que el diagrama sea más legible e informativo.
+
+En resumen, este código SVG proporciona una representación visual clara y estructurada de un modelo ER con especialización, lo cual es útil para comprender las relaciones entre diferentes tipos de entidades en un sistema de gestión de base de datos.
+
+**ÚLTIMO PÁRRAFO:**
+
+Este archivo SVG representa gráficamente la información que originalmente estaba codificada como JSON. A diferencia del archivo anterior, este proporciona una vista visual directamente en forma de dibujos (rectángulos y líneas con flechas) para las entidades y sus relaciones, lo cual facilita el entendimiento para los estudiantes. Además, incluye estilos CSS integrados que mejoran la presentación visual del diagrama ER.
+
+`006-especializacion.svg`
 
 ```
 <svg xmlns="http://www.w3.org/2000/svg" width="613.9249674479164" height="378.225008646647" viewBox="0 0 613.9249674479164 378.225008646647">
@@ -13214,25 +17046,20 @@ body {
 </svg>
 ```
 
-### Agregacion
-
-```markdown
-Mediante la agregación, diferentes clases trabajan de forma conjunta para declarar una entidad mayor
-
-La entidad mayor, no tiene sentido sin la composición de las entidades menores
-
-Pero las entidades menores, tienen sentido consigo mismas
-
--Un coche
-
-Yo tengo una rueda. Una rueda, es un objeto, es una entidad
-
-Tambien tengo un motor
-
-Tambien tengo la carroceria
-```
-
 ### entidades de coches sueltas
+<small>Creado: 2025-11-27 17:21</small>
+
+#### Explicación
+
+Este código HTML crea una página web que muestra un diagrama simplificado de entidades en una base de datos, utilizando CSS para dar estilo a los elementos del diagrama. La estructura principal es una "página" (representada por la clase `.page`) dentro de la cual se colocan varias entidades.
+
+Cada entidad está representada por un div con la clase `.shape entity`, que tiene estilos específicos para definir su apariencia y comportamiento. Estos elementos tienen cabeceras (`entity-header`) que indican el nombre de cada entidad (por ejemplo, "Rueda", "Carroceria" y "Chapa") y propiedades (`entity-property`) que muestran atributos relevantes para cada entidad, como `id` o `diametro`.
+
+El CSS proporcionado incluye estilos específicos para diferentes tipos de formas en el diagrama (rectángulos, botones redondeados, círculos), así como para entidades y propiedades. Estos estilos aseguran que cada elemento visualice correctamente sus características y se alinee con las convenciones del diseño.
+
+Este tipo de representación es útil en la formación profesional para enseñar a los estudiantes cómo modelar y entender relaciones entre diferentes elementos en una base de datos, usando diagramas ER (Entity-Relationship).
+
+`008-entidades de coches sueltas.html`
 
 ```html
 <!DOCTYPE html>
@@ -13488,6 +17315,17 @@ body {
 ```
 
 ### entidades de coches sueltas
+<small>Creado: 2025-11-27 17:21</small>
+
+#### Explicación
+
+Este fragmento de código en formato JSON representa la descripción y ubicación de entidades dentro de un diagrama ER (Diagrama Entidad Relacional). En este caso, el código define tres entidades: "Rueda", "Carroceria" y "Chapa". Cada entidad tiene sus propias características definidas por atributos como id y diametro para la rueda, id y tipo_metal para la carrocería, y solo id para la chapa. Los datos de posición (left y top) se usan para colocar visualmente estas entidades en una interfaz gráfica o en un diagrama ER digital.
+
+El código proporciona información sobre cada entidad incluyendo su nombre y atributos específicos sin detalles estilísticos como colores y bordes. Esto simplifica la representación, concentrándose solo en los datos estructurales necesarios para entender el modelo de datos.
+
+En comparación con la versión anterior que era un archivo HTML completo diseñado para mostrar visualmente las entidades en una página web, este nuevo archivo JSON es más ligero y se centra únicamente en almacenar información sobre las entidades y sus atributos. Esto permite una mayor flexibilidad en cómo se representa visualmente esta información, ya que el estilo y la disposición pueden ser aplicados de manera separada por otros componentes del sistema o aplicaciones.
+
+`008-entidades de coches sueltas.json`
 
 ```json
 {
@@ -13551,6 +17389,19 @@ body {
 ```
 
 ### entidades de coches sueltas
+<small>Creado: 2025-11-27 17:21</small>
+
+#### Explicación
+
+Este fragmento de código es un archivo SVG que representa una representación visual de entidades en un diagrama ER (Entidad Relación). En específico, el SVG muestra tres entidades: "Rueda", "Carroceria" y "Chapa". Cada entidad está dibujada como un rectángulo con texto dentro para identificar la entidad. Dentro del rectángulo de cada entidad se muestran los atributos asociados a ella, que son simplemente propiedades o características importantes de esa entidad.
+
+La estructura SVG incluye definiciones de estilo y marcadores para dibujar las entidades y sus respectivos atributos con formas y colores claros y distintivos. Las entidades "Rueda", "Carroceria" y "Chapa" están dispuestas en fila horizontal, cada una con sus propios atributos detallados debajo del nombre de la entidad.
+
+El código es importante porque proporciona una visualización gráfica que facilita entender las relaciones entre diferentes componentes de un sistema de base de datos. En este caso, nos ayuda a comprender los atributos y las entidades clave en el contexto del modelo ER.
+
+ÚLTIMO PÁRRAFO: Este archivo SVG representa gráficamente las tres entidades identificadas en la versión anterior (008-entidades de coches sueltas.json), pero con un formato visual más detallado que incluye rectángulos para cada entidad y texto dentro del rectángulo para mostrar los atributos, proporcionando una representación mucho más clara y completa del modelo ER.
+
+`008-entidades de coches sueltas.svg`
 
 ```
 <svg xmlns="http://www.w3.org/2000/svg" width="821.7500610351562" height="188.7125142415364" viewBox="0 0 821.7500610351562 188.7125142415364">
@@ -13593,6 +17444,24 @@ body {
 ```
 
 ### coche por agregacion
+<small>Creado: 2025-11-27 17:26</small>
+
+#### Explicación
+
+Este código HTML crea una página web que representa un diagrama de entidad-relación (ER) con cuatro entidades y sus relaciones entre sí, utilizando CSS para dar estilo a las diferentes partes del diagrama. Cada entidad se presenta como un rectángulo con un encabezado que indica su nombre y propiedades que describen sus atributos clave.
+
+Las entidades incluyen:
+- **Rueda**: Con los atributos "id" y "diametro".
+- **Carroceria**: Con los atributos "id", "tipo_metal", y "numero_bastidor".
+- **Chapa**: Solo tiene un atributo, "id".
+
+Además, hay una entidad llamada **Coche** que también incluye los atributos "id" y "matricula". Estas entidades están conectadas entre sí mediante flechas dobles (representadas por elementos `<div>` con la clase `arrow arrow-double`), lo cual sugiere relaciones específicas o dependencias entre ellas.
+
+Este tipo de representación es útil para estudiantes de bases de datos, ya que ayuda a visualizar cómo diferentes componentes de un sistema interactúan y se relacionan. En este caso específico, las flechas sugieren una relación de agregación en la que el coche está compuesto por ruedas, carrocería, y chapa.
+
+El estilo CSS aplicado garantiza que cada parte del diagrama sea visualmente distintiva e informativa, haciendo más fácil entender la estructura y las relaciones entre las entidades mostradas.
+
+`009-coche por agregacion.html`
 
 ```html
 <!DOCTYPE html>
@@ -13871,6 +17740,30 @@ body {
 ```
 
 ### coche por agregacion
+<small>Creado: 2025-11-27 17:26</small>
+
+#### Explicación
+
+El código JSON proporcionado representa un modelo de entidad-relación (ER) en formato estructurado. En este caso, el archivo describe cuatro entidades: Rueda, Carroceria, Chapa y Coche. Cada entidad tiene sus propias características y atributos específicos.
+
+Las entidades se definen mediante objetos con las siguientes propiedades:
+- `id`: Un identificador único para cada forma en el modelo.
+- `tipo`: Tipo de la entidad (en este caso siempre es "entity").
+- `left` y `top`: Coordenadas que especifican dónde está ubicada cada entidad en el espacio 2D del diagrama.
+- `entityName`: El nombre de la entidad.
+- `properties`: Una lista con los atributos de la entidad, donde cada atributo tiene un identificador único (`id`) y un nombre (`name`).
+
+Además del detalle sobre las entidades, el archivo también incluye información sobre las relaciones entre ellas. Se definen tres flechas que conectan diferentes entidades a la entidad Coche, indicando una relación de agrupación o composición (ya que cada parte está contenida dentro de un coche). Cada flecha tiene:
+- `desde`: Un objeto que especifica el ID de la forma de origen y el atributo asociado.
+- `hasta`: Un objeto que especifica el ID de la forma destino y el atributo asociado.
+- `tipo`: El tipo de conexión (en este caso, todas son "doble").
+- `estilo`: El estilo de línea (todas son "straight" en este ejemplo).
+
+En comparación con el código HTML del archivo anterior, esta versión JSON proporciona una representación más abstracta y estructurada de la misma información. Mientras que el archivo HTML incluía detalles visuales como estilos CSS y elementos div para cada entidad, el formato JSON se centra únicamente en los datos estructurados y las relaciones entre entidades.
+
+En resumen, este código JSON proporciona una descripción detallada de un modelo ER en términos puramente estructurales, lo que facilita su procesamiento por parte de programas o herramientas que manejan modelos de datos. La información se organiza claramente para permitir la representación y manipulación del diagrama en aplicaciones de diseño de bases de datos o similares.
+
+`009-coche por agregacion.json`
 
 ```json
 {
@@ -14000,6 +17893,15 @@ body {
 ```
 
 ### coche por agregacion
+<small>Creado: 2025-11-27 17:26</small>
+
+#### Explicación
+
+Este archivo SVG representa un diagrama de entidad-relación (ER) en el que se muestran las entidades "Rueda", "Carrocería", "Chapa" y "Coche". Cada rectángulo dentro del diagrama corresponde a una entidad, con sus propiedades listadas debajo. Las flechas conectando estos rectángulos indican relaciones entre estas entidades. En este caso, cada uno de las entidades "Rueda", "Carrocería" y "Chapa" tiene una relación con la entidad "Coche". Esta representación visual facilita entender cómo un coche está compuesto por varias partes como ruedas y carrocerías.
+
+En comparación con el archivo anterior, este nuevo diagrama proporciona una vista más detallada e ilustrativa de las entidades y sus relaciones. Mientras que el archivo JSON anterior describía las entidades y propiedades de forma textual, este SVG incluye un diseño gráfico que muestra claramente la disposición espacial de cada entidad y cómo se relacionan entre sí mediante flechas. Esta versión ofrece una mejor comprensión visual del modelo ER ampliado con agregación.
+
+`009-coche por agregacion.svg`
 
 ```
 <svg xmlns="http://www.w3.org/2000/svg" width="825.750061035156" height="367.06250508626295" viewBox="0 0 825.750061035156 367.06250508626295">
@@ -14051,6 +17953,17 @@ body {
 ```
 
 ### diagrama
+<small>Creado: 2025-11-27 17:08</small>
+
+#### Explicación
+
+Este fragmento de código es un archivo SVG que representa una parte de un diagrama de entidad-relación (ER) en el contexto de bases de datos para la especialidad DAM. El objetivo principal es visualizar cómo se relacionan diferentes entidades como "Persona", "Alumno" y "Profesor".
+
+El diagrama muestra rectángulos que representan las entidades, con líneas horizontales dentro de ellos que indican atributos específicos (como ID, nombre, apellidos, etc.). Cada entidad está conectada a través de líneas punteadas decoradas con flechas en el extremo para mostrar relaciones entre ellas. Por ejemplo, la entidad "Persona" tiene dos líneas que salen hacia las entidades "Alumno" y "Profesor", lo cual sugiere una relación generalizada o herencia donde tanto Alumno como Profesor son tipos de Persona.
+
+Estos diagramas son fundamentales en el diseño de bases de datos porque ayudan a entender cómo se relacionan diferentes tablas (entidades) y qué información específica contienen. En este caso, permite visualizar las relaciones jerárquicas entre personas que pueden ser tanto alumnos como profesores, facilitando la comprensión del modelo ER ampliado con generalización y especialización.
+
+`diagrama.svg`
 
 ```
 <svg xmlns="http://www.w3.org/2000/svg" width="626.8750381469724" height="394.2750024795531" viewBox="0 0 626.8750381469724 394.2750024795531">
@@ -14097,52 +18010,202 @@ body {
 </svg>
 ```
 
+### Actividades propuestas
+
+Basándome en los archivos SVG proporcionados, aquí están las relaciones de agregación o composición representadas en cada diagrama:
+
+### Diagrama 1: E/S del archivo "01.svg"
+
+En este caso, no se muestra una relación clara de agregación o composición. Hay tres entidades (Persona, Alumno y Profesor) con flechas apuntando hacia ellas desde la entidad Persona, lo que indica relaciones "ha-que" pero no son relaciones de agregación.
+
+### Diagrama 2: E/S del archivo "02.svg"
+
+Analicemos el contenido SVG del segundo diagrama:
+
+```svg
+<rect class="shape-entity" x="189.3750381469726" y="40" width="219.99999999999991" height="150.39999961853022" />
+<rect class="shape-entity" x="40" y="251.87500476837153" width="220.00003814697257" height="102.39999771118161" />
+<rect class="shape-entity" x="366.8750381469726" y="251.87500476837153" width="219.99999999999991" height="102.39999771118161" />
+<path class="conn" d="M 239.58527805246655 190.39999961853022 L 190.7079400333157 251.8750047683715" marker-end="url(#arrow-end)" />
+<path class="conn" d="M 370.422275379818 190.39999961853022 L 428.50245205334323 251.8750047683715" marker-end="url(#arrow-end)" />
+```
+
+En este diagrama, hay una flecha apuntando desde Persona hacia Alumno y otra de Persona hacia Profesor.
+
+Estas flechas representan relaciones de agregación o composición si se interpretan en el contexto de la especificación UML. En UML:
+
+- **Agregación**: Una relación de "es parte de" donde la entidad dependiente (Alumno, Profesor) puede existir sin la entidad principal (Persona).
+  
+- **Composición**: Una relación más fuerte de "forma parte de" donde la entidad dependiente no existe sin la entidad principal.
+
+Sin contexto adicional sobre las reglas específicas del modelo de negocio o datos, podemos asumir que:
+
+1. `Alumno` y `Profesor` son entidades que **agregan** a `Persona`.
+   - Es decir, un Alumno es una Persona con atributos adicionales (NIA).
+   - Un Profesor es una Persona con atributos específicos de profesor (correo corporativo).
+
+Si queremos ser precisos en la notación UML:
+
+- Si se desea indicar que Alumno y Profesor no pueden existir sin Persona, entonces sería composición.
+  
+### Diagrama 3: E/S del archivo "03.svg"
+
+```svg
+<rect class="shape-entity" x="189.3750381469726" y="40" width="219.99999999999991" height="150.39999961853022" />
+<rect class="shape-entity" x="40" y="251.87500476837153" width="220.00003814697257" height="102.39999771118161" />
+<rect class="shape-entity" x="366.8750381469726" y="251.87500476837153" width="219.99999999999991" height="102.39999771118161" />
+<path class="conn" d="M 239.58527805246655 190.39999961853022 L 190.7079400333157 251.8750047683715" marker-end="url(#arrow-end)" />
+<path class="conn" d="M 370.422275379818 190.39999961853022 L 428.50245205334323 251.8750047683715" marker-end="url(#arrow-end)" />
+```
+
+Este es exactamente igual que el diagrama anterior en términos de estructura.
+
+### Diagrama 4: E/S del archivo "diagrama.svg"
+
+```svg
+<rect class="shape-entity" x="189.3750381469726" y="40" width="219.99999999999991" height="150.39999961853022" />
+<rect class="shape-entity" x="40" y="251.87500476837153" width="220.00003814697257" height="102.39999771118161" />
+<rect class="shape-entity" x="366.8750381469726" y="251.87500476837153" width="219.99999999999991" height="102.39999771118161" />
+<path class="conn" d="M 239.58527805246655 190.39999961853022 L 190.7079400333157 251.8750047683715" marker-end="url(#arrow-end)" />
+<path class="conn" d="M 370.422275379818 190.39999961853022 L 428.50245205334323 251.8750047683715" marker-end="url(#arrow-end)" />
+```
+
+Este también es igual al diagrama anterior.
+
+### Resumen
+El único diagrama que muestra relaciones de agregación o composición claramente definidas es el segundo (diagrama "02.svg"). En este caso, hay una relación de agregación entre Persona y Alumno, y otra entre Persona y Profesor. Esto indica que tanto Alumno como Profesor son instancias de Persona con atributos adicionales.
+
+Para ser precisos:
+- `Alumno` **agrega** a `Persona`
+- `Profesor` **agrega** a `Persona`
+
+Si se aplica la lógica del modelo, si no puede existir un Alumno o Profesor sin una Persona, entonces estas relaciones son de composición. Sin embargo, esto requiere más contexto específico sobre las reglas del sistema.
+
+En resumen:
+- Diagrama 2: Relaciones de agregación (o potencialmente composición) entre Persona y Alumno, y Persona y Profesor.
+- Otros diagramas no muestran claramente relaciones de agregación/composición.
+
+
 <a id="paso-del-diagrama-er-al-modelo-relacional"></a>
 ## Paso del diagrama ER al modelo relacional
 
-La interpretación de diagramas Entidad-Relación (ER) es un proceso fundamental para el diseño de bases de datos relacionales. Este proceso permite convertir los conceptos abstractos representados en un diagrama ER en una estructura tabular concreta que pueda ser utilizada por sistemas de gestión de bases de datos.
+### Introducción a los ejercicios
 
-El primer paso en este proceso consiste en la identificación y análisis de las entidades, sus atributos y las relaciones entre ellas. Cada entidad se representa como un rectángulo dividido en dos partes: el nombre de la entidad y una lista de sus atributos. Los atributos son los datos que caracterizan a cada instancia de la entidad.
+### Summary and Key Points of the Case Study
 
-Las relaciones, por otro lado, se representan como líneas que conectan las entidades, indicando cómo estas están relacionadas entre sí. Las relaciones pueden ser uno a uno, uno a muchos o muchos a muchos, y su cardinalidad (número de instancias) debe ser especificada para evitar ambigüedades.
+The case study focuses on designing a database schema for an educational institution, specifically a center for continuous training and skills development. The primary goal is to facilitate the management of students (referred to as "alumnos" in Spanish), courses (called "asignaturas"), and student enrollment records (named "matriculas").
 
-El siguiente paso es la normalización del modelo relacional. La normalización es un proceso que busca eliminar las redundancias y las dependencias implícitas en el modelo, asegurando que cada tabla contenga solo datos relacionados entre sí y que no haya duplicidad de información.
+#### Entities and Relationships
 
-La creación de tablas a partir del diagrama ER implica la definición de claves primarias y foráneas. Las claves primarias son los atributos únicos que identifican una instancia de una entidad, mientras que las claves foráneas se utilizan para establecer relaciones entre diferentes tablas.
+1. **Alumno**:
+    - Represents a student enrolled in various courses.
+    - Attributes: 
+        - `id`: Unique identifier for each student.
+        - `nombre`: Student's first name or full name.
+        - `apellidos`: Last name(s) of the student.
+        - `email`: Contact email address.
 
-Además, es importante considerar el tipo de datos adecuado para cada atributo en la tabla. Los tipos de datos deben ser seleccionados teniendo en cuenta la naturaleza del dato y cómo será utilizado en la base de datos.
+2. **Asignatura**:
+    - Represents a course offered by the institution.
+    - Attributes: 
+        - `id`: Unique identifier for each course.
+        - `nombre`: Name of the course.
+        - `descripcion`: Detailed description or syllabus of the course (optional).
 
-El proceso de paso del diagrama ER al modelo relacional también implica la definición de restricciones semánticas, que aseguran que los datos ingresados en las tablas sean consistentes con el dominio de aplicación. Estas restricciones pueden incluir reglas de integridad referencial, valores nulos permitidos o no, y rangos de valores válidos.
+3. **Matricula**:
+    - Captures the enrollment status of students in different courses.
+    - Attributes: 
+        - `id`: Unique identifier for each enrollment record.
+        - `fecha`: Date when a student enrolled in a particular course.
+        - `alumno_id`: Foreign key referencing the primary key of the Alumno table.
+        - `asignatura_id`: Foreign key referencing the primary key of the Asignatura table.
 
-Finalmente, es crucial realizar pruebas exhaustivas del modelo relacional para asegurar su correcto funcionamiento. Esto implica la creación de consultas SQL que recuperen los datos de manera coherente y verificarse que las relaciones entre tablas sean respetadas.
+#### Database Schema
 
-En conclusión, el paso del diagrama ER al modelo relacional es un proceso meticuloso pero fundamental para el diseño de bases de datos relacionales. A través de este proceso, se transforman los conceptos abstractos en una estructura tabular concreta que puede ser utilizada por sistemas de gestión de bases de datos, asegurando así la consistencia y eficiencia del almacenamiento y recuperación de información.
+The SQL schema consists of three tables:
 
-### El modelo relacional
+- **Alumno**: Stores student information.
+  ```sql
+  CREATE TABLE Alumno (
+      id INT AUTO_INCREMENT PRIMARY KEY,
+      nombre     VARCHAR(100) NOT NULL,
+      apellidos  VARCHAR(150) NOT NULL,
+      email      VARCHAR(150) NOT NULL
+  ) ENGINE=InnoDB;
+  ```
 
-```markdown
-El modelo relacional es el que establece entidades, y las relaciones entre ellas
+- **Asignatura**: Stores course information.
+  ```sql
+  CREATE TABLE Asignatura (
+      id INT AUTO_INCREMENT PRIMARY KEY,
+      nombre       VARCHAR(150) NOT NULL,
+      descripcion  TEXT
+  ) ENGINE=InnoDB;
+  ```
 
-En bases de datos relacionales, se articula como
+- **Matricula**: Manages student enrollment in courses and includes foreign key constraints to enforce referential integrity.
+  ```sql
+  CREATE TABLE Matricula (
+      id INT AUTO_INCREMENT PRIMARY KEY,
+      fecha DATE NOT NULL,
+      alumno_id INT NOT NULL,
+      asignatura_id INT NOT NULL,
 
-- Motor de bases de datos
-  - Bases de datos
-    - Tablas
-      - Columnas
-        - Filas o tuplas o registros
+      CONSTRAINT fk_matricula_alumno
+          FOREIGN KEY (alumno_id)
+          REFERENCES Alumno(id)
+          ON UPDATE CASCADE
+          ON DELETE CASCADE,
 
-Las tablas pueden ir relacionadas entre si
-PK para definir el identificador de la tabla
-FK para relacionar unas tablas con otras con garantias de atomicidad
+      CONSTRAINT fk_matricula_asignatura
+          FOREIGN KEY (asignatura_id)
+          REFERENCES Asignatura(id)
+          ON UPDATE CASCADE
+          ON DELETE RESTRICT
+  ) ENGINE=InnoDB;
+  ```
 
-Como convertir el modelo ER en el modelo relacional
-Cada entidad, se convertirá en una tabla
-Cada propiedad, se convertirá en un campo
+#### Key Points
 
-Y cada flecha, se convertirá en un Foreign Key (FK suele apuntar siempre a PK)
-```
+1. **Primary Keys**:
+    - `id` fields in each table serve as the primary keys, ensuring uniqueness and facilitating data indexing.
+
+2. **Foreign Keys**:
+    - The foreign key constraints (`alumno_id` in Matricula referencing Alumno.id) ensure that a student's enrollment record is valid only if the associated student exists.
+    - Similarly, `asignatura_id` ensures that an enrolled course must exist in the Asignatura table.
+
+3. **Referential Integrity**:
+    - The foreign key constraints enforce referential integrity by automatically cascading updates to related records when a student or course data is modified and restricting deletions of courses that have active enrollments.
+
+4. **Data Constraints**:
+    - `NOT NULL` ensures all critical fields are required, preventing null values which could lead to incomplete data.
+  
+5. **Storage Engine**:
+    - The tables use the InnoDB storage engine, known for its support of transactions and foreign keys, making it suitable for complex relational databases.
+
+### Conclusion
+
+The schema effectively captures and manages the relationships between students, courses, and enrollments in an educational context, providing a robust foundation for reporting, analysis, and operational tasks related to student management and course enrollment tracking.
 
 ### Ejemplo tienda online
+<small>Creado: 2025-11-27 17:31</small>
+
+#### Explicación
+
+Este fragmento de código HTML es una representación visual del modelo entidad-relación (ER) para un sistema de gestión de tiendas en línea. La página web utiliza CSS personalizado para dibujar diferentes elementos como entidades, atributos y relaciones entre estas entidades.
+
+El contenido principal está dentro de la etiqueta `<div class="page">`, que contiene varios bloques de clase `shape entity`. Cada uno de estos bloques representa una entidad del modelo ER. Por ejemplo:
+
+- **Cliente**: tiene los atributos `id`, `nombre` y `apellidos`.
+- **Producto**: incluye los atributos `id`, `nombre` y `precio`.
+- **Pedido**: contiene los atributos `id`, `fecha` y `cliente_id`.
+- **LineasPedido**: posee los atributos `id`, `fecha`, `pedido_id`, `producto_id` y `cantidad`.
+
+Además de las entidades, el código también muestra flechas (`<div class="arrow">`) que representan las relaciones entre estas entidades. Por ejemplo, una relación entre la entidad "Cliente" y "Pedido", indicando que un cliente puede realizar varios pedidos.
+
+Este tipo de visualización es útil para estudiantes que están aprendiendo a convertir diagramas ER en modelos relacionales de base de datos, ya que proporciona una representación gráfica clara de las entidades y sus relaciones.
+
+`002-Ejemplo tienda online.html`
 
 ```html
 <!DOCTYPE html>
@@ -14451,6 +18514,59 @@ body {
 ```
 
 ### Ejemplo tienda online
+<small>Creado: 2025-11-27 17:31</small>
+
+#### Explicación
+
+Este código JSON describe una representación de un diagrama de entidades relacionales, similar a la vista anterior en formato HTML. Sin embargo, el formato y la estructura han cambiado significativamente.
+
+### Descripción del Código Actual
+
+1. **Entidades**:
+   - Hay cuatro entidades definidas con sus respectivos atributos:
+     1. `Cliente` con atributos: `id`, `nombre`, `apellidos`.
+     2. `Producto` con atributos: `id`, `nombre`, `precio`.
+     3. `Pedido` con atributos: `id`, `fecha`, `cliente_id`.
+     4. `LineasPedido` con atributos: `id`, `fecha`, `pedido_id`, `producto_id`, `cantidad`.
+
+2. **Relaciones**:
+   - Se definen tres relaciones entre las entidades:
+     - Una relación entre `Cliente` y `Pedido` basada en el atributo `cliente_id`.
+     - Una relación entre `Pedido` y `LineasPedido` basada en el atributo `pedido_id`.
+     - Una relación entre `Producto` y `LineasPedido` basada en el atributo `producto_id`.
+
+### Comparación con el Código HTML Anterior
+
+- **Estructura**: El código JSON ahora presenta una estructura más simplificada, donde cada entidad se define por un objeto separado. Las relaciones también están definidas de manera clara y directa.
+  
+- **Posicionamiento**:
+  - En el código anterior, las posiciones eran especificadas en píxeles (`left`, `top`) dentro del HTML para dibujar las entidades en una interfaz gráfica.
+  - En este JSON, se proporcionan los valores de posicionamiento como cadenas sin unidades (por ejemplo: `"left": "34.0792px"`, pero sin la unidad en el JSON).
+  
+- **Relaciones**:
+  - En HTML, las relaciones eran dibujadas mediante elementos `<div>` con transformaciones CSS.
+  - Ahora, las relaciones están definidas como objetos en un array `flechas` con detalles sobre desde dónde empieza y hasta dónde termina cada relación.
+
+### Ejemplo de Uso del JSON
+
+Este formato JSON podría ser utilizado por una herramienta de modelado de bases de datos o una aplicación web que genera diagramas a partir de definiciones en JSON. Por ejemplo, un script JavaScript puede leer este archivo JSON y renderizar el diagrama en un navegador web, creando elementos HTML dinámicamente basándose en los datos proporcionados.
+
+### Ejemplo de Renderizado
+
+Para entender cómo se podría visualizar esto:
+
+- **Cliente** (id: 34.0792px, top: 135.625px)
+- **Producto** (id: 288.433px, top: 293.654px)
+- **Pedido** (id: 283.771px, top: 135.621px)
+- **LineasPedido** (id: 551.104px, top: 194.308px)
+
+Y las líneas entre ellas se dibujarían basándose en las propiedades de cada entidad y sus relaciones.
+
+### Conclusión
+
+El formato JSON proporciona una representación más estructurada y lógica del diagrama, simplificando el proceso de renderizado y manipulación.
+
+`002-Ejemplo tienda online.json`
 
 ```json
 {
@@ -14604,6 +18720,18 @@ body {
 ```
 
 ### Ejemplo tienda online
+<small>Creado: 2025-11-27 17:31</small>
+
+#### Explicación
+
+Este archivo SVG representa gráficamente un diagrama entidad-relación (ER) para una tienda en línea, mostrando las entidades y sus propiedades, así como las relaciones entre ellas. En el código, se utilizan rectángulos para representar las entidades, cada uno con líneas horizontales que indican las propiedades de la entidad respectiva. Las etiquetas dentro del rectángulo describen los nombres de estas entidades y sus atributos (como "id", "nombre", etc.). Además, se incluyen flechas que conectan diferentes entidades para representar las relaciones entre ellas.
+
+Las entidades presentes en el diagrama son Cliente, Producto, Pedido, y LineasPedido. Cada entidad tiene asociadas propiedades específicas como identificadores únicos (IDs), nombres, fechas y referencias a otras entidades (como cliente_id o pedido_id). Las flechas con punta de flecha conectan los atributos que forman parte de estas relaciones, mostrando cómo un pedido está relacionado con el cliente que lo hizo y también con las líneas del pedido asociadas al mismo.
+
+ÚLTIMO PÁRRAFO:
+En comparación con la versión anterior (002-Ejemplo tienda online.json), este archivo presenta una representación gráfica visual del diagrama ER en lugar de datos estructurados. Mientras que el archivo JSON detalla las entidades y sus relaciones mediante texto estructurado, el SVG ofrece una vista más intuitiva del modelo relacional a través de formas geométricas y líneas confeccionadas para indicar las relaciones entre diferentes elementos del sistema. Esto facilita la comprensión visual del diseño de la base de datos.
+
+`002-Ejemplo tienda online.svg`
 
 ```
 <svg xmlns="http://www.w3.org/2000/svg" width="817.0250244140622" height="364.4375101725259" viewBox="0 0 817.0250244140622 364.4375101725259">
@@ -14661,6 +18789,25 @@ body {
 ```
 
 ### ejemplo tienda online convertido a SQL
+<small>Creado: 2025-11-27 17:32</small>
+
+#### Explicación
+
+Este fragmento de código SQL se encarga de crear las tablas necesarias para una base de datos que modela una tienda online. Las tablas principales son `Cliente`, `Producto` y `Pedido`. También incluye la tabla `LineasPedido`, que es crucial para relacionar los pedidos con los productos y especificar detalles como la cantidad comprada.
+
+1. **Tabla Cliente**: Almacena información básica sobre cada cliente, incluyendo un identificador único (`id`), su nombre y apellidos. Esta tabla es fundamental ya que cada pedido está asociado a un cliente específico.
+
+2. **Tabla Producto**: Registra los productos disponibles en la tienda con campos como el `id`, `nombre` y `precio`. Es importante para conocer qué artículos se pueden comprar y a cuánto ascienden.
+
+3. **Tabla Pedido**: Este esquema registra cada pedido realizado por un cliente, identificando el día (`fecha`) del pedido y vinculándolo al cliente mediante la columna `cliente_id`, que hace referencia a la tabla `Cliente`. Esta relación asegura que cada pedido esté siempre asociado con un cliente válido.
+
+4. **Tabla LineasPedido**: Permite detallar los productos incluidos en cada pedido junto con el número de unidades compradas (`cantidad`). Está conectada tanto con la tabla `Producto` como con `Pedido`, lo cual es crucial para mantener una trazabilidad precisa del inventario y las ventas.
+
+El uso de claves foráneas (FOREIGN KEY) asegura que los datos estén consistentemente vinculados entre tablas, por ejemplo, si un cliente se elimina pero tiene pedidos existentes. Las opciones `ON UPDATE CASCADE` y `ON DELETE RESTRICT` definen qué ocurre con las relaciones cuando se modifican o eliminan registros en estas tablas.
+
+Esta estructura es importante para el funcionamiento de una tienda online porque permite gestionar eficazmente los datos del cliente, los productos disponibles, así como los pedidos realizados y sus detalles específicos.
+
+`003-ejemplo tienda online convertido a SQL.sql`
 
 ```sql
 -- Seleccionar base de datos (opcional)
@@ -14714,6 +18861,23 @@ CREATE TABLE LineasPedido (
 ```
 
 ### Ejemplo centro de formacion con relacion de n a n
+<small>Creado: 2025-11-27 17:34</small>
+
+#### Explicación
+
+Este fragmento de código HTML está diseñado para representar visualmente una parte del modelo relacional de una base de datos, específicamente un diagrama entidad-relación (ER) simplificado. El código define estilos CSS que crean formas y elementos gráficos necesarios para dibujar entidades y relaciones en el diagrama ER.
+
+El archivo contiene tres secciones principales:
+
+1. **Estilo CSS**: Define las reglas de estilo para los diferentes componentes del diagrama, como la forma de una entidad (rectángulo), propiedades de entidades (como nombres y descripciones), y líneas que representan relaciones entre entidades.
+
+2. **HTML estructura**: Crea elementos HTML que utilizan estas clases CSS para dibujar el diagrama ER. Por ejemplo, hay tres divs con la clase `shape entity`, cada uno representando una entidad diferente (Asignatura, Alumno y Matricula). Dentro de estos divs, se definen las propiedades de cada entidad utilizando elementos `<div>` con la clase `entity-property`.
+
+3. **Relaciones entre entidades**: El código incluye dos líneas rectas dibujadas mediante el uso del elemento `arrow` en CSS para representar relaciones entre las entidades Alumno y Matricula, así como entre Asignatura y Matricula.
+
+Este diagrama es útil porque proporciona una representación visual de cómo se relacionan diferentes partes (entidades) de un sistema de base de datos. En este caso específico, el centro de formación está modelado con tres entidades principales: Alumnos, Asignaturas y Matrículas que conectan a los Alumnos con las Asignaturas en la que están inscritos.
+
+`004-Ejemplo centro de formacion con relacion de n a n.html`
 
 ```html
 <!DOCTYPE html>
@@ -15001,6 +19165,23 @@ body {
 ```
 
 ### Ejemplo centro de formacion con relacion de n a n
+<small>Creado: 2025-11-27 17:34</small>
+
+#### Explicación
+
+Este fragmento de código en formato JSON representa la estructura de un diagrama entidad-relación (ER) simplificado para una base de datos del centro de formación. En este caso, el archivo contiene información sobre tres entidades y las relaciones entre ellas.
+
+Las entidades son "Asignatura", "Alumno" y "Matricula". Cada entidad tiene propiedades asociadas: por ejemplo, la entidad "Asignatura" tiene propiedades como id, nombre y descripción. La entidad "Alumno" incluye propiedades de identificación personal y contacto (id, nombre, apellidos, email), mientras que la entidad "Matricula" maneja detalles sobre las matrículas en el centro educativo, con campos tales como id, fecha, alumno_id y asignatura_id.
+
+Además del detalle de entidades y sus propiedades, el archivo JSON también incluye información sobre las relaciones entre estas entidades. Por ejemplo, hay flechas que conectan "Asignatura" con "Matricula" a través del campo asignatura_id, y otra flecha que conecta "Alumno" con "Matricula" usando alumno_id.
+
+Este tipo de representación JSON es útil para describir gráficos complejos como los diagramas ER de manera estructurada y fácilmente procesable por programas informáticos. Es importante en el proceso de modelado de bases de datos ya que permite una fácil conversión entre formatos visuales y formatos de texto.
+
+En cuanto a las diferencias con respecto al código anterior, este archivo JSON presenta la misma información pero estructurada de manera diferente. En lugar de un HTML completo, se utiliza un formato de datos que es más compacto y fácil para programas automatizados de procesamiento de bases de datos. Esto facilita el uso en herramientas de modelado de bases de datos donde los diagramas pueden ser generados automáticamente desde esta estructura JSON.
+
+Por lo tanto, este cambio en la representación del mismo conjunto de entidades y relaciones simplifica la manipulación y comprensión por parte de sistemas informáticos.
+
+`004-Ejemplo centro de formacion con relacion de n a n.json`
 
 ```json
 {
@@ -15117,6 +19298,20 @@ body {
 ```
 
 ### Ejemplo centro de formacion con relacion de n a n
+<small>Creado: 2025-11-27 17:34</small>
+
+#### Explicación
+
+Este archivo SVG representa un diagrama de entidad-relación (ER) visualizado gráficamente, donde cada entidad es representada por rectángulos y las relaciones entre entidades son mostradas mediante líneas con flechas. En este caso, el diagrama incluye tres entidades principales: "Asignatura", "Alumno" y "Matricula". Cada entidad tiene sus propias propiedades (atributos) que se detallan dentro del rectángulo correspondiente.
+
+La entidad "Asignatura" contiene los atributos "id", "nombre" y "descripcion". La entidad "Alumno" incluye los atributos "id", "nombre", "apellidos" y "email". Por último, la entidad "Matricula" tiene sus propios atributos: "id", "fecha", "alumno_id" y "asignatura_id". Estos últimos dos atributos son cruciales ya que establecen las relaciones entre la entidad Matricula y las entidades Alumno y Asignatura respectivamente.
+
+El archivo SVG también incluye flechas que conectan las entidades para mostrar estas relaciones. Por ejemplo, una línea con una flecha apunta desde "Alumno" hasta "Matricula", indicando que un alumno puede estar matriculado en múltiples asignaturas, mientras que otra flecha apunta desde "Asignatura" a "Matricula", mostrando que cada asignatura puede tener varios alumnos inscritos. Estas relaciones son cruciales para comprender cómo se estructura la información en el modelo relacional.
+
+**ÚLTIMO PÁRRAFO:**
+Este archivo SVG es una representación visual gráfica del diagrama ER basado en los datos JSON proporcionados anteriormente, lo que permite una mejor comprensión visual de las entidades y sus relaciones. La adición de estilos específicos para cada elemento (rectángulos, flechas) mejora la legibilidad y claridad del diagrama, facilitando así el paso al modelo relacional en SQL o otras implementaciones basadas en bases de datos.
+
+`004-Ejemplo centro de formacion con relacion de n a n.svg`
 
 ```
 <svg xmlns="http://www.w3.org/2000/svg" width="580.6249346051897" height="378.11249869210377" viewBox="0 0 580.6249346051897 378.11249869210377">
@@ -15167,6 +19362,23 @@ body {
 ```
 
 ### caso centrode formacion en sql
+<small>Creado: 2025-11-27 17:34</small>
+
+#### Explicación
+
+Este fragmento de código SQL está creando tres tablas en una base de datos que representan diferentes aspectos del sistema educativo, como alumnos, asignaturas y matrículas. Cada tabla tiene sus propias características:
+
+1. La tabla `Alumno` almacena información sobre los estudiantes, incluyendo un identificador único (`id`), su nombre, apellidos y correo electrónico. El campo `id` es de tipo autoincremental, lo que significa que cada vez que se inserta un nuevo registro en la tabla, el valor del id aumentará automáticamente.
+
+2. La tabla `Asignatura` contiene detalles sobre las asignaturas ofrecidas por una institución educativa, con campos para identificarla (`id`), su nombre y una descripción opcional (`descripcion`). Igual que en la tabla `Alumno`, el campo `id` es de tipo autoincremental.
+
+3. La tabla `Matricula` representa las matrículas de los estudiantes en diferentes asignaturas. Esta tabla incluye un identificador único, la fecha de matriculación, y dos campos relacionados con las tablas `Alumno` e `Asignatura`. Estos campos (`alumno_id` y `asignatura_id`) son claves foráneas (foreign keys) que crean una relación entre las diferentes tablas.
+
+Las restricciones de clave foránea garantizan la integridad referencial en la base de datos. Por ejemplo, cuando se elimina un registro de la tabla `Alumno`, debido a `ON DELETE CASCADE` en la tabla `Matricula`, todos los registros relacionados con ese alumno también serán eliminados automáticamente para evitar referencias inconsistentes.
+
+Esta estructura es importante porque permite gestionar de manera eficiente y organizada toda la información sobre estudiantes, asignaturas y matrículas, manteniendo las relaciones entre estos datos correctamente.
+
+`005-caso centrode formacion en sql.sql`
 
 ```sql
 -- Tabla Alumno
@@ -15205,196 +19417,138 @@ CREATE TABLE Matricula (
 ) ENGINE=InnoDB;
 ```
 
+### Actividades propuestas
+
+Based on the provided files, it appears that you have a complete set of artifacts for modeling and creating a relational database schema for a "Centro de Formación" (Training Center). Here's an overview of what each file contains:
+
+1. **004-CentroFormacion.md**:
+   - This Markdown file likely serves as documentation or notes about the Centro de Formación project.
+   
+2. **003-Diagrama.png**:
+   - A visual diagram (likely created using a tool like Lucidchart, draw.io, or similar) depicting the database schema for the Centro de Formación. The diagram typically shows entities and their relationships.
+
+3. **001-CentroFormacion.sql** and **002-CentroFormacionER.png**:
+   - These files are not directly mentioned in your text but seem to be related to an earlier version of the schema or a different approach to modeling the same system. It's possible that `002-CentroFormacionER.png` is an Entity-Relationship (ER) diagram and `001-CentroFormacion.sql` contains SQL scripts for creating the database tables.
+
+4. **005-caso centrode formacion en sql.sql**:
+   - This file contains SQL statements to create three core tables (`Alumno`, `Asignatura`, and `Matricula`) along with necessary foreign key constraints.
+   
+### Summary of Provided SQL Schema
+
+The provided SQL schema in the `005-caso centrode formacion en sql.sql` file defines:
+
+- **Table: Alumno**
+  - Primary Key: `id`
+  - Fields:
+    - `nombre`: VARCHAR(100) (not nullable)
+    - `apellidos`: VARCHAR(150) (not nullable)
+    - `email`: VARCHAR(150) (not nullable)
+
+- **Table: Asignatura**
+  - Primary Key: `id`
+  - Fields:
+    - `nombre`: VARCHAR(150) (not nullable)
+    - `descripcion`: TEXT
+
+- **Table: Matricula**
+  - Primary Key: `id`
+  - Fields:
+    - `fecha`: DATE (not nullable)
+    - Foreign Keys:
+      - `alumno_id` references `Alumno(id)`
+      - `asignatura_id` references `Asignatura(id)`
+
+### Key Points from the SQL Script
+
+- **Foreign Key Constraints**:
+  - The `Matricula` table has foreign key constraints that reference `Alumno.id` and `Asignatura.id`.
+    - When an `alumno_id` is deleted in `Alumno`, it will also be cascaded to delete related entries in `Matricula` (ON DELETE CASCADE).
+    - When an `asignatura_id` is updated or deleted, the constraint prevents deletion but allows updates (ON UPDATE CASCADE/RESTRICT).
+
+- **Table Engine**:
+  - All tables use InnoDB engine, which supports foreign keys and transactions.
+
+### Diagram Analysis
+
+The diagram in `003-Diagrama.png` should depict these relationships visually:
+- An `Alumno` can have multiple `Matricula`.
+- A `Asignatura` can be associated with multiple `Matricula`.
+
+If you need to create the database based on this schema, you would typically run the SQL script in a MySQL or MariaDB environment.
+
+### Next Steps
+
+1. **Review the Diagram**: Ensure that the ER diagram (`002-CentroFormacionER.png`) and the provided entities match the requirements of your project.
+2. **SQL Validation**: Validate the SQL schema to ensure it meets all functional requirements, such as data integrity, performance considerations, etc.
+3. **Database Creation**:
+   - Create a new database in MySQL/MariaDB.
+   - Use the `CREATE TABLE` statements from `005-caso centrode formacion en sql.sql`.
+4. **Testing**: Insert test data and run queries to ensure that relationships and constraints work as expected.
+
+Would you like any specific modifications or additional features for this schema?
+
+
 <a id="restricciones-semanticas-del-modelo-relacional"></a>
 ## Restricciones semánticas del modelo relacional
 
-En el mundo de la programación y la gestión de datos, los diagramas de entidad-relación (ER) son una herramienta fundamental para representar las relaciones entre diferentes entidades. Estos gráficos proporcionan una visión visual de cómo se organizan los datos en un sistema, facilitando su comprensión y diseño.
-
-La interpretación de estos diagramas implica no solo entender la estructura básica, sino también considerar las restricciones semánticas del modelo relacional. Las restricciones semánticas son reglas que aseguran la consistencia y coherencia de los datos en el sistema. Estas restricciones pueden ser implícitas o explícitas y afectan directamente cómo se modelan y gestionan las relaciones entre entidades.
-
-En primer lugar, es crucial entender que las restricciones semánticas del modelo relacional impiden la creación de estados inconsistentes dentro del sistema. Por ejemplo, si tenemos una entidad "Alumno" con una relación con otra entidad "Materia", no podemos tener un registro de un alumno inscrito en una materia que no existe o que ha sido eliminada.
-
-Además, las restricciones semánticas también pueden influir en la forma en que se definen las claves primarias y foráneas. Una clave primaria es un identificador único para cada fila en una tabla, mientras que una clave foránea es un valor que hace referencia a la clave primaria de otra tabla. Las restricciones semánticas pueden exigir que las claves foráneas siempre apunten a valores válidos dentro de la tabla referenciada.
-
-La interpretación de diagramas ER también requiere considerar las cardinalidades, que indican cuántos registros de una entidad pueden estar asociados con un registro de otra entidad. Por ejemplo, si tenemos una relación "Profesor-Materia", donde cada profesor puede enseñar varias materias y cada materia puede ser enseñada por varios profesores, la cardinalidad sería 1:N (uno a muchos).
-
-Las restricciones semánticas también pueden afectar la forma en que se manejan las relaciones de tipo many-to-many. En estos casos, es común crear una tabla intermedia para gestionar las relaciones entre las entidades involucradas. Las restricciones semánticas pueden exigir que esta tabla tenga claves foráneas que apunten a ambas entidades y que no permitan duplicados.
-
-La interpretación de diagramas ER también implica considerar la normalización, que es el proceso de eliminar redundancias y dependencias implícitas en las tablas. Las restricciones semánticas pueden influir en cómo se normalizan las tablas, ya que algunas restricciones pueden requerir una mayor normalización para garantizar la consistencia de los datos.
-
-En conclusión, la interpretación de diagramas ER es un proceso complejo que requiere una comprensión profunda del modelo relacional y sus restricciones semánticas. Al entender estas restricciones, podemos diseñar sistemas de gestión de datos más robustos y consistentes, lo que facilita su mantenimiento y evolución a lo largo del tiempo.
 
 <a id="normalizacion-de-modelos-relacionales"></a>
 ## Normalización de modelos relacionales
 
-La normalización de modelos relacionales es una técnica fundamental para garantizar la integridad y eficiencia de las bases de datos. Este proceso implica la eliminación de redundancias y dependencias no funcionales en los diagramas de entidad-relación, transformándolos en estructuras optimizadas que facilitan el acceso y manipulación de los datos.
+### Introducción a los ejercicios
 
-El objetivo principal de la normalización es evitar problemas como la inconsistencia de datos, la redundancia innecesaria y las dificultades en la actualización. A través del proceso de normalización, se aplican reglas sistemáticas para dividir un modelo relacional complejo en subconjuntos más simples e independientes.
+Esta carpeta contiene una serie de ejercicios diseñados para ayudarte a entender y aplicar la normalización en bases de datos. La normalización es un conjunto de reglas o "recetas" que te permiten organizar tus bases de datos de manera eficiente, asegurando que sean escalables y mantenibles con el tiempo. Los ejercicios abordan desde los conceptos básicos hasta la tercera forma normal (3FN), incluyendo términos clave como la primera (1FN) y segunda formas normales (2FN). A través de estos problemas, practicarás cómo eliminar redundancias y dependencias parciales e intransitivas para mejorar la calidad estructural de tus bases de datos.
 
-La primera etapa del proceso de normalización es el primer nivel de normalización (1NF), que requiere que cada tabla tenga una estructura básica: cada columna debe contener valores únicos y no nulos, y cada fila debe ser única. Este nivel asegura la integridad de los datos básicos.
+### Actividades propuestas
 
-El segundo nivel de normalización (2NF) se centra en eliminar dependencias parciales, garantizando que ninguna columna sea funcionalmente dependiente solo de una parte de la clave primaria. Esto implica que cada columna debe estar directamente relacionada con toda la clave primaria y no con partes individuales.
+### Actividad 1: Comprender los Principios Básicos de la Normalización
 
-El tercer nivel de normalización (3NF) busca eliminar dependencias transitivas, asegurando que ninguna columna esté funcionalmente dependiente de otras columnas no claves. Este nivel es crucial para evitar inconsistencias y redundancias innecesarias en los datos.
+**Descripción:** Los estudiantes deben leer y resumir las definiciones y conceptos básicos de la normalización en bases de datos según los archivos proporcionados. El objetivo es que comprendan por qué es importante normalizar una base de datos para asegurar su escalabilidad y mantenibilidad a largo plazo.
 
-Además de estos tres niveles básicos, existen niveles superiores como la 4NF (normalización de Boyce-Codd) y la 5NF (normalización de Fourth Normal Form), que abordan problemas más complejos relacionados con dependencias funcionales transitivas y dependencias no funcionales.
+### Actividad 2: Identificar Atributos Atómicos
 
-La normalización no solo mejora la estructura interna de las bases de datos, sino que también facilita su mantenimiento y escalabilidad. Al eliminar redundancias y dependencias innecesarias, se reduce el riesgo de errores y la complejidad del sistema.
+**Descripción:** Los alumnos deben analizar ejemplos de tablas y determinar cuáles atributos son atómicos, según la Primera Forma Normal. Se busca que los estudiantes identifiquen cuando un atributo está compuesto de elementos simples e indivisibles.
 
-Además, la normalización contribuye a la eficiencia en términos de rendimiento. Bases de datos bien normalizadas tienden a ser más rápidas al realizar consultas y actualizaciones, ya que cada tabla contiene solo los datos esenciales y están relacionados de manera coherente.
+### Actividad 3: Aplicación de la Segunda Forma Normal
 
-En resumen, la normalización de modelos relacionales es una práctica esencial en el diseño de bases de datos. A través del proceso de normalización, se eliminan redundancias y dependencias no funcionales, lo que resulta en estructuras de datos más eficientes, fáciles de mantener y menos propensas a errores. Este proceso es fundamental para garantizar la integridad y consistencia de los datos almacenados en las bases de datos relacionales.
+**Descripción:** Los alumnos deben aplicar el concepto de dependencia funcional completa para determinar si una tabla cumple con la Segunda Forma Normal. Se espera que los estudiantes sean capaces de identificar y corregir las dependencias parciales.
 
-### Normalización en bases de datos
+### Actividad 4: Análisis de Dependencias Transitivas
 
-```markdown
-Son conjuntos de reglas
-"Recetas"
-Para sanear las bases de datos
-y que tengan una forma que sea luego escalable y mantenible
+**Descripción:** Los alumnos deben analizar ejemplos y aplicar el concepto de dependencia transitiva para determinar si una tabla cumple con la Tercera Forma Normal. Se busca que identifiquen las condiciones en las que no se cumplen los requisitos de 3FN.
 
-Son recetas generales, luego caso a caso se puede justificar saltarse las reglas de normalización
+### Actividad 5: Diseño de Tablas Normalizadas
 
-Pero son una serie de preguntas que debemos hacernos y una serie de acciones que debemos tomar para que nuestras bases de datos se puedan mantener y ampliar con el tiempo
-```
+**Descripción:** Los estudiantes deben diseñar tablas para un conjunto de datos dado, asegurando que cumplan con la Primera, Segunda y Tercera Forma Normal. Se busca que apliquen en práctica los conceptos aprendidos sobre normalización.
 
-### terminologia aplicada
+### Actividad 6: Resolución de Ejemplos Prácticos
 
-```markdown
-Origen:
-https://es.wikipedia.org/wiki/Normalizaci%C3%B3n_de_bases_de_datos
+**Descripción:** Los alumnos deben resolver ejemplos prácticos proporcionados, aplicando las reglas de la normalización para corregir problemas de diseño en esquemas de bases de datos. Se busca mejorar su capacidad para detectar y corregir anomalías en los diseños.
 
-Terminología equivalente
+### Actividad 7: Identificación de Claves Primarias
 
-Figura 1.0: Trabajo (Código, Nombre, Posición, Salario), donde Código es la Clave Primaria.
-Entidad = tabla
-Registro = fila o tupla
-Atributo = columna
-Clave = llave o código de identificación
-Clave Candidata = superclave mínima
-Clave Primaria = clave candidata elegida
-Clave Externa = clave ajena o clave foránea
-Clave Alternativa = clave secundaria
-Dependencia Multivaluada = dependencia multivalor = dependencia múltiple
-RDBMS = Del inglés Relational Data Base Management System, que significa Sistema de gestión de bases de datos relacionales.
-1FN = Significa Primera Forma Normal o 1NF, del inglés First Normal Form.
-```
+**Descripción:** Los estudiantes deben identificar claves primarias y candidatas, además de clasificar atributos como clave externa o alternativa en diferentes esquemas de base de datos. Se busca que comprendan la importancia de estas definiciones para el diseño correcto.
 
-### Primera forma normal
+### Actividad 8: Descripción Detallada del Proceso de Normalización
 
-```markdown
-Primera Forma Normal (1FN)
-Artículo principal: Primera forma normal
-Una tabla está en primera forma si:
+**Descripción:** Los alumnos deben describir, paso a paso, cómo se normaliza un esquema de base de datos desde una forma no-normalizada hasta la Tercera Forma Normal. Se busca que justifiquen cada uno de los pasos y decisiones tomados en el proceso.
 
-Todos los atributos son atómicos. Un atributo es atómico si los elementos del dominio son simples e indivisibles.
-No debe existir variación en el número de columnas.
-Los campos no clave deben identificarse por la clave (dependencia funcional).
-Debe existir una independencia del orden tanto de las filas como de las columnas; es decir, si los datos cambian de orden no deben cambiar sus significados.
-Esta forma normal elimina los valores repetidos dentro de una base de datos.
-```
+### Actividad 9: Evaluación de Casos Prácticos
 
-### segunda forma normal
+**Descripción:** Los estudiantes deben evaluar diferentes casos prácticos proporcionados, aplicando criterios de normalización para mejorar diseños existentes. Se busca que apliquen conceptos a la resolución de problemas reales.
 
-```markdown
-Segunda Forma Normal (2FN)
-Artículo principal: Segunda forma normal
-Dependencia funcional. Una relación está en 2FN si está en 1FN y si los atributos que no forman parte de ninguna clave dependen de forma completa de la clave principal. Es decir, que no existen dependencias parciales. Todos los atributos que no son clave principal deben depender únicamente de la clave principal.
+### Actividad 10: Creación de Guías Tutoriales
 
-En otras palabras, podríamos decir que la segunda forma normal está basada en el concepto de dependencia completamente funcional. Una dependencia funcional 
-x
-→
-y
-{\displaystyle x\rightarrow y} es completamente funcional si al eliminar los atributos A de X significa que la dependencia no es mantenida, esto es que 
-A
-∈
-X
-,
-X
-−
-{
-A
-}
-↛
-Y
-{\displaystyle A\in X,X-\{A\}\nrightarrow Y}. Una dependencia funcional 
-x
-→
-y
-{\displaystyle x\rightarrow y} es una dependencia parcial si hay algunos atributos 
-A
-∈
-X
-{\displaystyle A\in X} que pueden ser eliminados de X y la dependencia todavía se mantiene, esto es 
-A
-∈
-X
-,
-X
-−
-{
-A
-}
-→
-Y
-{\displaystyle A\in X,X-\{A\}\rightarrow Y}.
+**Descripción:** Finalmente, los alumnos deben crear guías o tutoriales sencillos sobre cómo aplicar las reglas de normalización para un diseño óptimo de base de datos. Se busca que puedan explicar conceptos complejos a sus compañeros en términos simples y prácticos.
 
-Por ejemplo {DNI, ID_PROYECTO} 
-→
-{\displaystyle \rightarrow } HORAS_TRABAJO (con el DNI de un empleado y el ID de un proyecto sabemos cuántas horas de trabajo por semana trabaja un empleado en dicho proyecto) es completamente funcional dado que ni DNI 
-→
-{\displaystyle \rightarrow } HORAS_TRABAJO ni ID_PROYECTO 
-→
-{\displaystyle \rightarrow } HORAS_TRABAJO mantienen la dependencia. Sin embargo {DNI, ID_PROYECTO} 
-→
-{\displaystyle \rightarrow } NOMBRE_EMPLEADO es parcialmente dependiente dado que DNI 
-→
-{\displaystyle \rightarrow } NOMBRE_EMPLEADO mantiene la dependencia.
-```
-
-### Tercera forma normal
-
-```markdown
-Tercera Forma Normal (3FN)
-Artículo principal: Tercera forma normal
-La 3NF fue definida originalmente por E.F. Codd.[2]​ La tabla se encuentra en 3FN si es 2FN y si no existe ninguna dependencia funcional transitiva en los atributos que no son clave.
-
-Un ejemplo de este concepto sería que, una dependencia funcional X 
-→
-{\displaystyle \rightarrow } Y en un esquema de relación R es una dependencia transitiva si hay un conjunto de atributos Z que no es un subconjunto de alguna clave de R, donde se mantiene X 
-→
-{\displaystyle \rightarrow } Z y Z 
-→
-{\displaystyle \rightarrow } Y.
-
-Por ejemplo, la dependencia SSN 
-→
-{\displaystyle \rightarrow } DMGRSSN es una dependencia transitiva en EMP_DEPT de la siguiente figura. Decimos que la dependencia de DMGRSSN el atributo clave SSN es transitiva vía DNUMBER porque las dependencias SSN→DNUMBER y DNUMBER→DMGRSSN son mantenidas, y DNUMBER no es un subconjunto de la clave de EMP_DEPT. Intuitivamente, podemos ver que la dependencia de DMGRSSN sobre DNUMBER es indeseable en EMP_DEPT dado que DNUMBER no es una clave de EMP_DEPT.
-
-Formalmente, un esquema de relación 
-R
-{\displaystyle R} está en 3 Forma Normal Elmasri-Navâthe,[3]​ si para toda dependencia funcional 
-X
-→
-A
-{\displaystyle X\rightarrow A}, se cumple al menos una de las siguientes condiciones:
-
-X
-{\displaystyle X} es superllave o clave.
-A
-{\displaystyle A} es atributo primo de 
-R
-{\displaystyle R}; esto es, si es miembro de alguna clave en 
-R
-{\displaystyle R}.
-Además el esquema debe cumplir necesariamente, con las condiciones de segunda forma normal.
-```
 
 <a id="ejercicios"></a>
 ## Ejercicios
 
+
 <a id="criterios-de-evaluacion"></a>
 ## Criterios de evaluación
+
 
 
 <a id="uso-de-bases-de-datos-no-relacionales"></a>
@@ -15403,101 +19557,22 @@ Además el esquema debe cumplir necesariamente, con las condiciones de segunda f
 <a id="caracteristicas-de-las-bases-de-datos-no-relacionales"></a>
 ## Características de las bases de datos no relacionales
 
-Las bases de datos no relacionales son una alternativa a las tradicionales basadas en relaciones que han ganado popularidad en los últimos años. Estas bases de datos se caracterizan por su capacidad para manejar y almacenar tipos de datos complejos y heterogéneos, ofreciendo un alto nivel de escalabilidad y flexibilidad.
-
-La principal ventaja de las bases de datos no relacionales radica en su diseño flexible, que permite representar y almacenar datos de manera más natural y eficiente. A diferencia de las bases de datos relacionales, que utilizan una estructura tabular con filas y columnas, las bases de datos no relacionales pueden organizar los datos en documentos, grafos o columnas, lo que les hace ideales para aplicaciones que requieren un alto nivel de personalización y adaptabilidad.
-
-Un ejemplo destacado de la flexibilidad de las bases de datos no relacionales es su capacidad para manejar datos JSON. Este formato de datos es ampliamente utilizado en el mundo web debido a su simplicidad y facilidad de uso, lo que permite a las bases de datos no relacionales almacenar y recuperar información de manera eficiente.
-
-Además, las bases de datos no relacionales son conocidas por su alta escalabilidad horizontal. Esto significa que pueden manejar grandes volúmenes de datos distribuidos en múltiples servidores, lo que les hace ideales para aplicaciones web y móviles con un alto nivel de tráfico.
-
-Otra ventaja importante de las bases de datos no relacionales es su capacidad para manejar transacciones complejas. A diferencia de las bases de datos relacionales, que utilizan un modelo ACID (Atomicidad, Consistencia, Isolación, Durabilidad), las bases de datos no relacionales pueden utilizar diferentes modelos de consistencia y atomicidad, lo que les permite optimizar el rendimiento en aplicaciones con altos niveles de concurrencia.
-
-Sin embargo, es importante tener en cuenta que las bases de datos no relacionales también tienen sus desventajas. A diferencia de las bases de datos relacionales, que ofrecen una alta consistencia y confiabilidad, las bases de datos no relacionales pueden experimentar inconsistencias temporales o incluso perdida de datos en casos de fallos.
-
-En resumen, las bases de datos no relacionales son una alternativa poderosa a las tradicionales basadas en relaciones. Su capacidad para manejar y almacenar datos de manera flexible y eficiente, su alta escalabilidad horizontal y su capacidad para manejar transacciones complejas hacen que sean ideales para aplicaciones web y móviles con un alto nivel de tráfico y personalización. Sin embargo, es importante tener en cuenta sus desventajas y elegir el tipo de base de datos adecuada según las necesidades específicas del proyecto.
 
 <a id="tipos-de-bases-de-datos-no-relacionales"></a>
 ## Tipos de bases de datos no relacionales
 
-Las bases de datos no relacionales representan una innovadora forma de almacenar y gestionar información que se distingue por su capacidad para manejar datos complejos y heterogéneos. En este submódulo, exploraremos los diversos tipos de bases de datos no relacionales, cada uno con sus propias características y aplicaciones específicas.
-
-El primer tipo que destacamos son las bases de datos orientadas a documentos, como MongoDB o Couchbase. Estas bases almacenan datos en formato JSON, lo que les permite representar estructuras complejas de manera natural y eficiente. La ventaja principal es su escalabilidad horizontal, ya que se pueden distribuir los datos entre múltiples servidores sin necesidad de un diseño riguroso de tablas.
-
-A continuación, nos encontramos con las bases de datos orientadas a columnas, como Apache Cassandra o Google Bigtable. Estas bases son ideales para aplicaciones que requieren altos niveles de rendimiento y consistencia en consultas de lectura y escritura. La estructura de columnas permite una optimización del almacenamiento y la recuperación de datos, lo que es crucial en entornos con alta carga.
-
-Las bases de datos orientadas a gráficas, como Neo4j o Amazon Neptune, son perfectas para manejar relaciones complejas entre los datos. En lugar de tablas relacionales, estas bases almacenan nodos y relaciones, lo que facilita el modelado de datos en forma natural y permite realizar consultas eficientes sobre las relaciones entre ellos.
-
-Además, existen las bases de datos orientadas a columnas con almacenamiento distribuido, como HBase o Amazon DynamoDB. Estas combinan la escalabilidad horizontal de las bases de datos no relacionales con el rendimiento de las bases de datos orientadas a columnas, lo que las hace ideales para aplicaciones que requieren altos niveles de consistencia y rendimiento.
-
-Las bases de datos orientadas a objetos, como OrientDB o ArangoDB, almacenan los datos en formato objeto, lo que facilita la persistencia y recuperación de objetos complejos. Esta estructura permite una representación natural de las relaciones entre los objetos y es especialmente útil para aplicaciones basadas en modelos orientados a objetos.
-
-Finalmente, las bases de datos vectoriales, como Milvus o Faiss, son optimizadas para manejar datos de alta dimensionalidad, como imágenes y texto. Estas bases utilizan técnicas de indexación eficiente para realizar búsquedas rápidas en conjuntos de datos grandes.
-
-Cada uno de estos tipos de bases de datos no relacionales tiene sus propias fortalezas y debilidades, lo que las hace adecuadas para diferentes escenarios y aplicaciones. La elección del tipo de base de datos no relacional depende de factores como el tamaño del conjunto de datos, la naturaleza de las relaciones entre los datos, los patrones de acceso a los datos y las necesidades específicas del negocio.
-
-Al explorar estos tipos de bases de datos no relacionales, es importante entender cómo cada uno aborda los desafíos típicos asociados con el almacenamiento y gestión de grandes volúmenes de datos. Cada tipo tiene sus propias ventajas y limitaciones, lo que permite a los desarrolladores elegir la solución más adecuada para su proyecto.
-
-En resumen, las bases de datos no relacionales ofrecen una gama diversa de opciones para almacenar y gestionar información compleja y heterogénea. Cada tipo tiene sus propias características y aplicaciones específicas, lo que permite a los desarrolladores elegir la solución más adecuada para su proyecto. Al comprender las ventajas y limitaciones de cada tipo, es posible aprovechar al máximo las capacidades de estas bases de datos para mejorar el rendimiento y escalabilidad de las aplicaciones.
 
 <a id="elementos-de-las-bases-de-datos-no-relacionales"></a>
 ## Elementos de las bases de datos no relacionales
 
-En el vasto mundo de la informática, las bases de datos desempeñan un papel crucial en almacenar, gestionar y recuperar información. Mientras que las bases de datos relacionales han sido dominantes durante décadas, los sistemas no relacionales han emergido como una alternativa valiosa para ciertos tipos de aplicaciones. En esta subunidad didáctica, exploraremos los elementos fundamentales de las bases de datos no relacionales, abordando sus características distintivas y cómo se utilizan en la práctica.
-
-Las bases de datos no relacionales son un tipo de sistema que almacena y gestiona datos sin seguir el modelo relacional convencional. En lugar de organizar los datos en tablas con filas y columnas, estas bases de datos permiten una estructura más flexible y escalable. Los elementos clave de las bases de datos no relacionales incluyen documentos, grafos y columnas.
-
-Los documentos son uno de los tipos más comunes de bases de datos no relacionales. En este tipo de sistema, los datos se almacenan en formato JSON o BSON, lo que permite una representación flexible y jerárquica de la información. Cada documento es independiente y puede tener un esquema diferente, lo que facilita el almacenamiento de datos complejos y heterogéneos.
-
-Los grafos son otro tipo popular de bases de datos no relacionales. En este modelo, los datos se representan como nodos (vértices) y aristas (edges), lo que permite una representación natural de relaciones entre entidades. Los grafos son ideales para aplicaciones que requieren consultas complejas sobre relaciones entre objetos.
-
-Las bases de datos columnares también son un elemento importante en el ecosistema de las bases de datos no relacionales. En este tipo de sistema, los datos se almacenan en columnas, lo que permite una optimización de la lectura y escritura de datos según el patrón de acceso. Las columnas pueden estar distribuidas en diferentes servidores para mejorar la escalabilidad.
-
-Además de estos tipos básicos, las bases de datos no relacionales también incluyen elementos como los sistemas de almacenamiento de clave-valor, que almacenan pares de claves y valores sin estructura adicional. Estos sistemas son ideales para aplicaciones que requieren alta velocidad de acceso a datos.
-
-La elección del tipo de base de datos no relacional depende de las necesidades específicas de la aplicación. Los documentos son una buena opción cuando se necesita almacenar datos complejos y heterogéneos, mientras que los grafos son útiles para aplicaciones que requieren consultas complejas sobre relaciones entre objetos. Las columnares son ideales para aplicaciones que requieren alta velocidad de acceso a datos según un patrón específico.
-
-Las bases de datos no relacionales también presentan desafíos en términos de consistencia y escalabilidad. A diferencia de las bases de datos relacionales, los sistemas no relacionales pueden no garantizar la consistencia ACID (Atomicidad, Coherencia, Isolación, Durabilidad) en todas las operaciones. Sin embargo, esto puede ser compensado con una mayor escalabilidad y flexibilidad.
-
-En conclusión, las bases de datos no relacionales representan un paradigma alternativo a los sistemas tradicionales de bases de datos relacionales. Aunque presentan desafíos en términos de consistencia y escalabilidad, ofrecen una flexibilidad y eficiencia que pueden ser beneficiosas para ciertos tipos de aplicaciones. En esta subunidad didáctica, hemos explorado los elementos clave de las bases de datos no relacionales, abordando sus características distintivas y cómo se utilizan en la práctica. A medida que avanzamos en el estudio de estas tecnologías, es importante entender cómo seleccionar y utilizar adecuadamente las bases de datos no relacionales para optimizar el rendimiento y la eficiencia de nuestras aplicaciones.
 
 <a id="sistemas-gestores-de-bases-de-datos-no-relacionales"></a>
 ## Sistemas gestores de bases de datos no relacionales
 
-En el vasto universo de la informática, las bases de datos desempeñan un papel crucial como almacenes de información. Aunque los sistemas de gestión de bases de datos relacionales han sido dominantes durante décadas, recientemente se ha abierto una nueva frontera con las bases de datos no relacionales. Este cambio refleja la evolución del manejo y almacenamiento de grandes volúmenes de datos complejos.
-
-Las bases de datos no relacionales son sistemas que almacenan y gestionan datos sin necesidad de cumplir con los modelos relacionales tradicionales. Estos sistemas ofrecen una flexibilidad y escalabilidad significativas, adaptándose a las necesidades cambiantes del mundo digital actual. Algunas de las principales ventajas de estas bases de datos incluyen la capacidad para manejar datos semi-estructurados o no estructurados, la alta disponibilidad y el rendimiento optimizado.
-
-En esta subunidad didáctica, nos adentramos en los sistemas gestores de bases de datos no relacionales. Comenzamos explorando las características distintivas que los diferencian del modelo relacional. Aprenderemos sobre los tipos diferentes de bases de datos no relacionales, como las bases de datos orientadas a documentos, columnares, clave-valor y gráficas.
-
-Además, nos familiarizaremos con los elementos básicos de estos sistemas, desde la estructura de sus datos hasta las operaciones que se pueden realizar. Estudiaremos cómo crear, modificar y consultar información en estas bases de datos, así como cómo optimizar su rendimiento para manejar grandes volúmenes de datos.
-
-Es importante destacar que cada tipo de base de datos no relacional tiene sus propias ventajas y desventajas. Por lo tanto, la elección del sistema gestor adecuado depende de las necesidades específicas del proyecto, como el tamaño del conjunto de datos, los tipos de consultas requeridas y la escalabilidad deseada.
-
-A medida que avanzamos en este estudio, nos encontraremos con herramientas y tecnologías específicas diseñadas para facilitar el trabajo con bases de datos no relacionales. Estas herramientas pueden incluir interfaces gráficas, bibliotecas de programación y sistemas de gestión de versiones, entre otros.
-
-Finalmente, reflexionaremos sobre las implicaciones prácticas de utilizar bases de datos no relacionales en proyectos reales. Aprenderemos cómo implementar estas tecnologías en entornos de desarrollo modernos y cómo realizar pruebas y mantenimiento efectivos para asegurar la integridad y seguridad de los datos.
-
-En resumen, este estudio nos proporciona una comprensión profunda de las bases de datos no relacionales y sus sistemas gestores. A través de un enfoque práctico y detallado, adquiriremos habilidades valiosas para trabajar con estos sistemas en proyectos futuros, preparándonos para enfrentar los desafíos del mundo digital actual.
 
 <a id="herramientas-de-los-sistemas-gestores-de-bases-de-datos-no-relacionales-para-la-gestion-de-la-informacion-almacenada"></a>
 ## Herramientas de los sistemas gestores de bases de datos no relacionales para la gestión de la información almacenada
 
-En el mundo digital actual, la gestión de grandes volúmenes de datos ha convertido en una tarea esencial para cualquier organización. A diferencia de las bases de datos relacionales tradicionales, que siguen un modelo tabular estricto, las bases de datos no relacionales han surgido como una solución más flexible y escalable para almacenar y gestionar información compleja.
-
-Estas bases de datos no relacionales se caracterizan por su capacidad para manejar diferentes tipos de datos estructurados y semi-estructurados, lo que les permite adaptarse a las necesidades cambiantes del negocio. Algunos ejemplos populares incluyen MongoDB, Cassandra y Couchbase.
-
-La gestión de la información en estos sistemas no relacionales requiere herramientas específicas que permitan optimizar el acceso, la consulta y la modificación de los datos. Estas herramientas son fundamentales para aprovechar al máximo las capacidades de estas bases de datos y asegurar su eficiencia operativa.
-
-Una de las principales herramientas utilizadas en sistemas gestores de bases de datos no relacionales es MongoDB Compass. Este software ofrece una interfaz gráfica intuitiva que facilita la exploración, el análisis y la gestión de los datos almacenados. Con MongoDB Compass, los usuarios pueden crear vistas personalizadas, realizar búsquedas complejas y visualizar los datos de manera interactiva.
-
-Otra herramienta es Apache Cassandra Query Language (CQL), un lenguaje de consulta diseñado para trabajar con bases de datos distribuidas. CQL permite a los desarrolladores escribir consultas eficientes y escalables, incluso en entornos donde los datos están fragmentados entre múltiples nodos.
-
-Además, herramientas como Apache Solr y Elasticsearch son excelentes opciones para el almacenamiento y búsqueda de grandes conjuntos de datos no estructurados. Estas plataformas ofrecen funcionalidades avanzadas de indexación y recuperación que permiten realizar búsquedas rápidas y precisas sobre los datos.
-
-La gestión de la información en bases de datos no relacionales también implica la implementación de políticas de seguridad robustas. Herramientas como Apache Shiro o Spring Security pueden ser utilizadas para controlar el acceso a los datos, asegurando que solo los usuarios autorizados puedan realizar operaciones sobre ellos.
-
-En conclusión, las herramientas disponibles para gestionar bases de datos no relacionales son esenciales para aprovechar al máximo la flexibilidad y escalabilidad de estos sistemas. Desde interfaces gráficas intuitivas hasta lenguajes de consulta avanzados, estas herramientas ofrecen una gama completa de opciones que permiten a los desarrolladores optimizar el acceso y la manipulación de los datos en entornos empresariales modernos.
 
 
 <a id="actividad-libre-de-final-de-evaluacion-la-milla-extra"></a>
@@ -15506,8 +19581,38 @@ En conclusión, las herramientas disponibles para gestionar bases de datos no re
 <a id="la-milla-extra-primera-evaluacion"></a>
 ## La Milla Extra - Primera evaluación
 
-### ejercicio
+### Introducción a los ejercicios
 
-```markdown
+El archivo **ejercicio.md** en esta carpeta contiene una actividad diseñada para reforzar los conocimientos adquiridos durante el primer trimestre de la asignatura Bases de Datos. Esta tarea se centra en aplicar conceptos como la creación y manipulación de bases de datos, la gestión de relaciones entre tablas, así como consultas SQL más avanzadas. Los estudiantes practicarán habilidades esenciales como el diseño de estructuras de datos eficientes, la resolución de problemas relacionados con integridad referencial y la optimización de queries para mejorar el rendimiento del sistema.
 
-```
+Esta actividad está orientada a que los alumnos consoliden sus competencias en modelado relacional y programación SQL, preparándolos para proyectos más complejos en el futuro.
+
+### Actividades propuestas
+
+Basándome en la información proporcionada y asumiendo que el contenido del archivo `ejercicio.md` está relacionado con conceptos básicos sobre bases de datos, diseño de esquemas y posiblemente consultas SQL para estudiantes de primer curso de Ciclos Formativos (Formación Profesional), aquí tienes una lista de actividades sugeridas:
+
+1. **Diseño de Esquema Relacional**
+   - Los alumnos deben diseñar un esquema relacional para una base de datos que represente una librería o tienda de música. Se espera que aprendan a definir tablas, atributos y relaciones entre ellas.
+
+2. **Normalización de Bases de Datos**
+   - Los estudiantes deben normalizar los esquemas proporcionados en el archivo `ejercicio.md` hasta la tercera forma normal (3FN). El objetivo es mejorar la integridad y la consistencia de las bases de datos mediante técnicas de normalización.
+
+3. **Creación de Consultas SQL Básicas**
+   - Los alumnos deben escribir consultas SQL para realizar operaciones CRUD en una base de datos creada a partir del diseño de esquemas proporcionado. Se espera que aprendan cómo seleccionar, insertar y actualizar registros en las bases de datos.
+
+4. **Creación de Tablas con Contraints**
+   - Los estudiantes deben crear tablas SQL adicionales que incluyan restricciones (como claves foráneas o índices) para garantizar la integridad referencial y mejorar el rendimiento de consultas en una base de datos.
+
+5. **Consultas JOIN Advanced**
+   - Se pide a los alumnos generar consultas SQL más avanzadas utilizando operadores JOIN para combinar información entre múltiples tablas, con énfasis en INNER JOIN, LEFT JOIN y RIGHT JOIN.
+
+6. **Creación de Procedimientos Almacenados**
+   - Los estudiantes deben escribir un procedimiento almacenado que automatice la creación de un nuevo registro en una tabla específica de la base de datos basada en ciertas condiciones.
+
+7. **Optimización de Consultas SQL**
+   - Se le pide a los alumnos analizar y optimizar consultas existentes para mejorar el rendimiento, considerando el uso adecuado de índices y técnicas de normalización.
+
+8. **Documentación del Diseño DB**
+   - Los estudiantes deben documentar en detalle su diseño de base de datos, incluyendo diagramas ER (Entity-Relationship), explicaciones sobre las tablas y sus relaciones, y una breve descripción de las consultas SQL implementadas.
+
+Estas actividades se centran en desarrollar habilidades fundamentales relacionadas con la gestión y el diseño eficaz de bases de datos para estudiantes de Formación Profesional.

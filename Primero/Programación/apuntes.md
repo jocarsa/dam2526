@@ -97,69 +97,35 @@
 <a id="estructura-y-bloques-fundamentales"></a>
 ## Estructura y bloques fundamentales
 
-En el vasto universo de la programación, cada programa informático es como una obra maestra compuesta por diversos elementos que trabajan juntos para crear algo funcional y eficiente. La carpeta `Primero/Programación/001-Identificación de los elementos de un programa informático/001-Estructura y bloques fundamentales` nos invita a explorar la esencia de estas obras maestras, desentrañando sus secretos y revelando las estructuras que sostienen su funcionamiento.
+### Introducción a los ejercicios
 
-El primer elemento fundamental que encontramos en cualquier programa es la **estructura**. Es como el esqueleto de una casa: define cómo están organizados los diferentes componentes. En un programa, esta estructura se compone de bloques fundamentales que son las unidades más pequeñas y autónomas del código. Cada bloque puede ser una declaración simple o una secuencia de instrucciones complejas.
-
-Siguiendo este esquema, cada uno de estos bloques es como una pieza en un rompecabezas. Al juntarlas adecuadamente, formamos la estructura general del programa. Esta estructura no solo determina cómo se ejecutan las instrucciones, sino también cómo interactúan entre sí.
-
-La **variables** son otro elemento crucial que juegan un papel fundamental en el funcionamiento de los programas. Son como contenedores donde almacenamos datos que pueden cambiar durante la ejecución del programa. Cada variable tiene un nombre y un tipo específico, lo que le da una identidad única y permite realizar operaciones específicas con ella.
-
-Las **operadores** son las herramientas que nos permiten manipular los valores de las variables. Son símbolos o palabras clave que realizan funciones como la suma, resta, multiplicación, comparación, entre otras. Los operadores son esenciales para construir expresiones y realizar cálculos complejos.
-
-La **literales** son constantes que se utilizan directamente en el código. Pueden ser números, cadenas de texto o valores booleanos. Son los elementos concretos que forman parte del programa y que no cambian durante su ejecución.
-
-Las **constantes**, por otro lado, son valores fijos que no pueden cambiar durante la ejecución del programa. A diferencia de las literales, las constantes tienen un nombre específico y se declaran una vez para toda la duración del programa.
-
-La **programación orientada a objetos** introduce nuevos conceptos como las **clases**, los **objetos** y los **métodos**. Las clases son plantillas que definen las características comunes de un conjunto de objetos, mientras que los objetos son instancias concretas de esas clases. Los métodos son funciones asociadas a los objetos que realizan operaciones específicas.
-
-La **programación estructurada**, por otro lado, se centra en la organización del código mediante estructuras como las **estructuras de control de flujo**. Estas estructuras permiten controlar el orden en que se ejecutan las instrucciones, determinando qué partes del programa se ejecutan y cuándo.
-
-La **programación funcional**, por otro lado, enfatiza la idea de funciones puras y sin efectos secundarios. Las funciones funcionales toman entradas y producen salidas, pero no modifican el estado del programa ni interactúan con él fuera de su ámbito.
-
-En conclusión, cada programa informático es una obra maestra compuesta por diversos elementos que trabajan juntos para crear algo funcional y eficiente. La estructura y los bloques fundamentales son los pilares sobre los cuales se construye todo el edificio. Desde las variables hasta las constantes, desde los operadores hasta los métodos, cada elemento tiene un papel específico y contribuye a la funcionalidad del programa. Al entender estos elementos y cómo interactúan entre sí, podemos desarrollar programas más complejos y eficientes.
-
-### Descarga de Python
-
-#### Explicación
-
-Este fragmento de texto proporciona instrucciones claras sobre cómo descargar e instalar Python, un lenguaje de programación muy popular. El enlace principal que se debe visitar es la página oficial de descarga de Python en `https://python.org`. Allí, los estudiantes deben buscar la opción "Downloads" para obtener la última versión disponible compatible con su sistema operativo (Windows, Mac o Linux).
-
-Cuando estén instalando Python en Windows, hay dos opciones importantes a considerar. La primera es marcar la casilla que dice "agregar al PATH de Windows", lo cual permite ejecutar comandos de Python desde cualquier lugar del sistema sin necesidad de especificar el directorio completo donde se encuentra Python. La segunda opción es seleccionar "instalar para todos los usuarios" si quieren que Python esté disponible para todas las cuentas en el ordenador, no solo la cuenta actual.
-
-Estas instrucciones son fundamentales porque aseguran que todos los estudiantes tengan acceso a una versión reciente y funcional de Python, lo cual es crucial para seguir adelante con cualquier curso o proyecto de programación.
-
-```markdown
-La web de descarga es
-https://python.org
-
-- Downloads
-
-Descargáis la última versión que haya en ese momento
-Para vuestro sistema operativo
-
-Cuando iniciéis la instalación en Windows:
-- Marcad la casilla de "agregar al PATH de Windows"
-- Marcad "instalar para todos los usuarios"
-```
+En esta carpeta, encontrarás ejercicios básicos destinados a familiarizarte con los elementos fundamentales del lenguaje de programación Python. Los problemas incluyen cómo descargar e instalar Python, imprimir y solicitar datos al usuario, así como la creación de comentarios en un código fuente. Estos ejercicios te ayudarán a entender las estructuras básicas de un programa en Python, incluyendo docstrings para documentar tu código, importaciones de módulos y funciones principales que actúan como punto de partida del programa. Al completar estos ejercicios, mejorarás tus habilidades en la escritura de programas claros y mantenibles en Python.
 
 ### Salida
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código es muy simple pero fundamental para entender los conceptos básicos de programación. La función `print()` se utiliza en Python para mostrar información en la pantalla, como un mensaje o datos que el programa genera. En este caso, el programa imprime en la pantalla el texto "Hola mundo desde Python". Esta frase es comúnmente utilizada en la primera lección de programación y sirve para verificar que todo está configurado correctamente en tu entorno de desarrollo. Es importante porque te ayuda a comprender cómo interactuar con el sistema para mostrar información al usuario, lo cual es un paso clave en el proceso de aprender cualquier lenguaje de programación.
+El código que se muestra imprime el texto "Hola mundo desde Python" en la pantalla cuando se ejecuta. La función `print()` es una de las más básicas y fundamentales en Python, utilizada para mostrar información o resultados por pantalla durante la ejecución del programa. En este caso específico, se está utilizando para imprimir un mensaje simple que confirma el inicio exitoso de cualquier programa Python, lo cual es útil tanto para los principiantes como para desarrolladores experimentados al probar rápidamente sus entornos de desarrollo.
+
+ÚLTIMO PÁRRAFO: Comparado con el código anterior que era más informativo y guía textual sobre cómo descargar Python, este archivo proporciona un primer ejemplo práctico de programación real en Python, mostrando cómo imprimir texto en la consola. Esto representa una transición importante hacia la aplicación práctica del lenguaje después de configurar el entorno de desarrollo.
+
+`001-Salida.py`
 
 ```python
 print("Hola mundo desde Python")
 ```
 
 ### entrada
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código es una pequeña secuencia en Python que interactúa con el usuario para recoger información. Primero, muestra un mensaje en pantalla diciendo "Ahora te voy a preguntar el nombre". Luego, espera que el usuario escriba su nombre y pulse Enter utilizando la función `input()`. Finalmente, imprime otro mensaje indicando que ya sabe el nombre del usuario.
+Este fragmento de código en Python es muy sencillo y está diseñado para pedir al usuario que ingrese su nombre. Primero, se muestra un mensaje diciendo "Ahora te voy a preguntar el nombre". Luego, la función `input("Introduce tu nombre: ")` espera que el usuario teclee su nombre en la consola y presione enter. Aunque captura el nombre del usuario, no almacena esa información en ninguna variable, por lo que se pierde después de que el programa continúa. Finalmente, imprime "Ahora ya sé tu nombre", aunque técnicamente el programa no ha guardado ni usado la entrada proporcionada por el usuario.
 
-Este código es importante porque demuestra cómo hacer que un programa interactúe con un usuario para recoger información, lo cual es una habilidad básica en programación. Ayuda a entender cómo usar las funciones `print()` y `input()`, y muestra cómo almacenar la entrada del usuario en el programa.
+Este código es importante para entender cómo interactuar con los usuarios a través del teclado en Python y ver cómo se usa `print` para mostrar texto y `input` para recibir datos. Sin embargo, sería útil guardar la entrada del usuario en una variable para poder usarla más adelante en tu programa.
+
+`002-entrada.py`
 
 ```python
 print("Ahora te voy a preguntar el nombre")
@@ -168,10 +134,15 @@ print("Ahora ya sé tu nombre")
 ```
 
 ### comentarios de tipo docstring
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este fragmento de código muestra cómo crear un bloque de comentarios en Python conocido como "docstring". Un docstring es una cadena de texto que aparece inmediatamente después del inicio de una definición de función, clase u otro objeto. En este caso específico, no estamos dentro de ninguna estructura (como una función o una clase), pero el formato es el mismo. Los docstrings se utilizan para documentar lo que hace un programa, función o módulo, explicando su propósito y cómo debe usarse. Son muy útiles porque permiten a otros programadores entender rápidamente qué hace cada parte del código sin tener que leer todo el código fuente. Además, este tipo de comentarios quedan disponibles para ser leídos automáticamente por herramientas como la función `help()` en Python o generadores de documentación.
+Este fragmento de código muestra cómo se utiliza un comentario de tipo docstring en Python. Una docstring (document string) es una cadena de texto que aparece inmediatamente después del inicio de una definición de función, clase o módulo y sirve para documentar el propósito y la funcionalidad del elemento. En este caso, aunque no se está dentro de una función o clase específica, simplemente ilustra cómo puedes escribir comentarios extensos que son claramente distintos del código debido a sus triples comillas simples al inicio y al final.
+
+Este tipo de comentario es importante porque permite documentar el código de manera clara y detallada sin mezclar la documentación con el flujo normal del programa. Esto facilita su lectura y entendimiento para otros desarrolladores que trabajen en el mismo proyecto o revisen tu código más adelante.
+
+`003-comentarios de tipo docstring.py`
 
 ```python
 '''
@@ -182,88 +153,82 @@ Este fragmento de código muestra cómo crear un bloque de comentarios en Python
 ```
 
 ### Comentarios de una linea
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este fragmento de código en Python es simplemente un ejemplo de cómo se usa un comentario de una línea. En programación, los comentarios son bloques de texto que el programa ignora al ejecutarse y que están destinados únicamente a proporcionar información para los humanos que leen o escriben el código. Los comentarios ayudan a explicar qué hace un trozo específico del código, por qué se hizo de una cierta manera o proporcionan cualquier otra nota relevante.
+Este código es un ejemplo muy simple en Python que muestra cómo se utilizan los comentarios de una línea. Los comentarios son textos que el programador añade al código para explicar qué hace cada parte del programa, pero estos textos no son ejecutados por el ordenador. En este caso, la línea `# Esto es un comentario de una linea` está precedida por el símbolo `#`, lo que indica que toda la línea es un comentario y será ignorada por el intérprete de Python al ejecutar el programa.
 
-En Python, puedes añadir un comentario simplemente colocando el símbolo `#` al principio de la línea donde deseas escribir el comentario. Todo lo que está después del `#` hasta el final de esa línea es ignorado por el intérprete de Python y no afecta en absoluto a cómo funciona tu programa.
+Los comentarios son muy importantes en programación porque ayudan a otros desarrolladores (o incluso a ti mismo después de un tiempo) a entender rápidamente qué está haciendo una parte específica del código. Esto facilita la colaboración en proyectos grupales y hace que sea más fácil mantener o actualizar el código en el futuro.
 
-Es importante incluir comentarios en tus programas porque ayudan a mantener el código limpio, fácil de entender para otras personas (o para ti mismo, después de un tiempo) y facilitan la colaboración entre desarrolladores.
+`004-Comentarios de una linea.py`
 
 ```python
 # Esto es un comentario de una linea
 ```
 
-### Estructura recomendada de los programas
+### Actividades propuestas
 
-#### Explicación
+### Actividad 1: Instalación y Configuración del Entorno de Trabajo
 
-Este fragmento de código en formato Markdown describe la estructura recomendada para escribir un programa en lenguajes como Python. La guía proporciona una serie de pasos que deben seguirse al crear y organizar tu código:
+**Descripción:** Los estudiantes deben descargar e instalar Python siguiendo las instrucciones proporcionadas en el archivo "001-Descarga de Python.md". El objetivo es configurar su entorno de desarrollo para poder ejecutar los ejercicios.
 
-1. **Docstring**: Al principio del archivo, se debe incluir una docstring que describa brevemente qué hace el programa, quién lo creó y cualquier otra información relevante. Esto es crucial para la documentación interna del código y facilita su comprensión a otros desarrolladores.
+### Actividad 2: Salida Estándar
 
-2. **Importaciones**: Luego de la docstring, se realizan las importaciones necesarias. Aquí incluimos tanto librerías externas como módulos propios que el programa necesita para funcionar correctamente.
+**Descripción:** Los estudiantes deben escribir un programa que muestre por pantalla un mensaje personalizado utilizando la función `print()`. Esta actividad busca familiarizar a los alumnos con la salida estándar en Python.
 
-3. **Variables globales**: A continuación, se declaran las variables y parámetros globales del programa. Estas variables pueden ser accedidas desde cualquier parte del código durante la ejecución del programa.
+### Actividad 3: Introducción de Datos por Teclado
 
-4. **Clases y funciones**: En esta sección, se definen todas las clases y funciones que son necesarias para el funcionamiento del programa. Cada una de ellas puede contener bloques de código más pequeños y específicos que realizan tareas concretas.
+**Descripción:** Los estudiantes deben crear un programa que pida al usuario su nombre y luego lo muestre por pantalla. Se espera que aprendan cómo utilizar la función `input()` para introducir datos desde el teclado.
 
-5. **Función principal**: Finalmente, se incluye la función o método principal donde el flujo de ejecución del programa comienza. Desde aquí, el programa llamará a las clases y funciones definidas anteriormente para realizar sus operaciones.
+### Actividad 4: Comentarios en Python
 
-Esta estructura ayuda a mantener el código organizado, legible y fácil de mantener, lo cual es fundamental en proyectos grandes y colaborativos.
+**Descripción:** Los alumnos deberán escribir comentarios de diferentes tipos (docstrings y comentarios de una sola línea) en un programa sencillo. Esta actividad tiene como objetivo que comprendan la importancia y los beneficios de añadir comentarios a su código.
 
-```markdown
-# Partes imprescindibles de un programa
+### Actividad 5: Estructura Básica del Programa
 
-## docstring
-- En primer lugar, arriba del todo, debemos crear un docstring
-- Es una descripción del título del programa, el autor, y un breve resumen de lo que hace
+**Descripción:** Los estudiantes deben crear un archivo Python que siga la estructura básica descrita en el archivo "005-Estructura recomendada de los programas.md". Se espera que aprendan cómo organizar y documentar su código.
 
-## Importaciones
-- Importamos librerías necesarias
-- Importamos el código que exista en otros archivos
+### Actividad 6: Uso de Docstrings
 
-## Variables  globales
-- Declaración de variables/parámetros globales
-- Crea variables
-- Su ámbito será global dentro de todo el programa
+**Descripción:** Los alumnos deben añadir docstrings a las funciones o módulos en un programa existente. Esta actividad busca enseñarles la importancia de documentar sus funciones utilizando comentarios de tipo docstring.
 
-## Clases / funciones
-- Creamos las clases y las funciones que sean necesarias
+### Actividad 7: Variables y Tipos de Datos Básicos
 
-## Método o función principal
-- Punto de ejecución desde el cual se inicia el programa
-```
+**Descripción:** Se les pide a los estudiantes que creen variables con diferentes tipos de datos (enteros, flotantes, cadenas) y realicen operaciones básicas con ellas. El objetivo es familiarizarlos con la gestión de tipos de datos en Python.
+
+### Actividad 8: Estructura de Control If
+
+**Descripción:** Los estudiantes deben escribir un programa que utilice estructuras condicionales (if-else). Se les pedirá que tomen decisiones basadas en la entrada del usuario. Esta actividad busca enseñarles cómo implementar lógica condicional en sus programas.
+
+### Actividad 9: Creación de Funciones Simples
+
+**Descripción:** Los alumnos deben crear funciones simples que realizan tareas como sumar dos números, encontrar el mayor entre ellos o invertir un string. El objetivo es enseñarles cómo definir y llamar a funciones en Python.
+
+### Actividad 10: Organización de Códigos en Archivos
+
+**Descripción:** Los estudiantes deben organizar códigos largos en múltiples archivos, importando las partes necesarias desde otros módulos. Esta actividad busca que aprendan a manejar proyectos más grandes y complejos utilizando el sistema de importaciones en Python.
+
 
 <a id="variables"></a>
 ## Variables
 
-En el vasto universo de la programación, las variables son como los ingredientes que forman una receta culinaria. Cada variable es un contenedor que almacena un valor específico, que puede ser modificado a lo largo del tiempo. En este capítulo, nos adentramos en el mundo de las variables, explorando sus características y su papel fundamental en la construcción de programas informáticos.
+### Introducción a los ejercicios
 
-Las variables son declaradas con un nombre único que actúa como una etiqueta para identificar el contenido almacenado. Al igual que los ingredientes en una receta, cada variable tiene un tipo específico, que determina qué tipo de datos puede contener. Por ejemplo, puedes tener una variable llamada `edad` que almacene un número entero, o una variable llamada `nombre` que almacene una cadena de texto.
-
-La declaración de variables es como preparar los ingredientes antes de comenzar a cocinar. En la programación, esto se hace utilizando palabras clave específicas para cada tipo de dato. Por ejemplo, en muchos lenguajes de programación, puedes declarar una variable entera con el nombre `edad` y asignarle un valor inicial de 25 así: `int edad = 25;`. Esta línea de código es como decir "prepara un contenedor llamado `edad`, que puede almacenar números enteros, y coloca en él el número 25".
-
-Una vez declaradas, las variables pueden ser utilizadas en cualquier parte del programa. Es como tener una receta que menciona los ingredientes necesarios para preparar una ensalada. En la programación, puedes utilizar la variable `edad` en diferentes partes de tu código para realizar operaciones o mostrar información al usuario.
-
-Es importante recordar que las variables son mutables, lo que significa que su valor puede cambiar a lo largo del tiempo. Por ejemplo, si tienes un programa que calcula el descuento de un producto, puedes declarar una variable `precio` y otra `descuento`. Inicialmente, la variable `precio` podría tener el valor 100, pero luego podrías modificarla para reflejar el precio final después del descuento.
-
-Además de almacenar valores simples como números o texto, las variables también pueden contener estructuras más complejas. Por ejemplo, puedes tener una variable que almacene un nombre completo, que sería una cadena compuesta por varias palabras. Otra variable podría almacenar una lista de productos en un carrito de compras.
-
-La gestión eficiente de variables es crucial para la legibilidad y el mantenimiento del código. Es como organizar los ingredientes de una receta de manera clara y sistemática, para que sea fácil encontrar lo que se necesita cuando se necesite. Por eso es importante dar nombres descriptivos a las variables, que reflejen su contenido o propósito.
-
-En resumen, las variables son el corazón de cualquier programa informático. Son los contenedores que almacenan los datos y permiten que el programa interactúe con ellos. Al entender cómo declarar, utilizar y gestionar variables, se abre la puerta a la creación de programas complejos y eficientes. Es un concepto fundamental que todos los programadores deben dominar para poder expresar sus ideas en código.
+Esta carpeta contiene ejercicios básicos sobre el uso de variables en Python, orientados a estudiantes de Formación Profesional. Los problemas se centran en la creación y manipulación de variables para almacenar e imprimir información como números enteros y cadenas de texto. Estos ejercicios ayudan a comprender cómo declarar correctamente las variables siguiendo las reglas del lenguaje, así como cómo usarlas dentro de programas simples para mostrar datos en pantalla.
 
 ### Contenedor de informacion
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este fragmento de código en Python se utiliza para mostrar cómo trabajar con variables. En la primera línea, `edad = 47`, estamos creando una variable llamada `edad` y le asignamos el valor numérico 47. Esto es como decir: "La edad que estamos considerando en este momento es 47 años". 
+Este fragmento de código en Python es muy sencillo y ayuda a entender cómo se utilizan las variables. Primero, el programa establece que la variable `edad` tiene un valor entero, que en este caso es 47. Al definir una variable como `edad = 47`, estás diciendo al programa que cada vez que menciones `edad`, está haciendo referencia al número 47.
 
-Luego, en la segunda línea, `print(edad)`, se utiliza la función `print()` para mostrar el contenido de la variable `edad` en pantalla. En este caso, lo que sale por consola será simplemente el número 47.
+Luego, el código utiliza la función `print()` para mostrar el contenido de la variable `edad` en la pantalla o en la salida del programa. Al ejecutar este código, simplemente se imprimirá el número 47.
 
-Este código es importante porque demuestra cómo almacenar información en una variable y luego recuperar esa misma información para su uso o visualización. Es un paso fundamental al aprender a programar ya que las variables permiten almacenar datos que pueden ser modificados y accedidos durante la ejecución del programa.
+Este ejemplo es importante porque muestra cómo declarar una variable y luego utilizarla en otra parte del código, lo cual es fundamental cuando empiezas a programar.
+
+`001-Contenedor de informacion.py`
 
 ```python
 edad = 47
@@ -272,12 +237,17 @@ print(edad)
 ```
 
 ### varias variables
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código en Python muestra cómo se declaran y utilizan variables para almacenar información como números y textos, y luego imprime esa información en la pantalla. En primer lugar, se crean dos variables llamadas `edad` y `nombre`. La variable `edad` almacena el número 47, que probablemente representa los años de edad de una persona. Por otro lado, `nombre` guarda el texto "Jose Vicente", que es un nombre propio.
+Este código en Python muestra cómo se declaran y utilizan variables para almacenar información, como un número entero (la edad) y una cadena de texto (el nombre). La variable `edad` almacena el número 47, que representa la edad de alguien. Por otro lado, la variable `nombre` contiene la cadena "Jose Vicente", que es el nombre de esa persona.
 
-Después, el código utiliza la función `print()` para mostrar en pantalla mensajes y el contenido de las variables. Primero imprime "Mi edad es de:", seguido del valor almacenado en `edad`, y luego "Mi nombre es:" junto con el texto que contiene la variable `nombre`. Esto permite a cualquier persona ejecutar el programa entender fácilmente cuál es la edad y el nombre que se han especificado en el código.
+El código utiliza la función `print()` para mostrar en pantalla los valores almacenados en las variables. Primero imprime un mensaje descriptivo seguido del valor de cada variable. Esto ayuda a entender claramente qué información se está mostrando, lo cual es importante para mejorar la legibilidad y el mantenimiento del código.
+
+Este tipo de declaración de variables y uso de `print()` es fundamental en programación ya que permite al programa interactuar con el usuario y presentar datos de manera estructurada.
+
+`002-varias variables.py`
 
 ```python
 edad = 47
@@ -290,10 +260,13 @@ print(nombre)
 ```
 
 ### reglas de declaracion
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este fragmento de código está mostrando diferentes formas correctas e incorrectas de declarar variables en Python, que son elementos fundamentales para almacenar datos. Las líneas válidas como `edad`, `miedad` y `mi_edad` muestran cómo se pueden asignar valores a variables utilizando nombres válidos: deben comenzar con una letra o un guion bajo (_) y pueden contener letras, números y guiones bajos. Sin embargo, las líneas que están comentadas (con el símbolo `#`) como `# mi edad = 47` y `# mi-edad = 47` no son válidas porque los espacios no están permitidos en medio de un nombre de variable, ni tampoco los guiones medios (-). La línea que dice `e2dad = 47` es correcta pero la línea `#2edad = 47` está incorrecta ya que los nombres de las variables no pueden comenzar con un número. Este código sirve para aprender y entender cuáles son las reglas para declarar variables en Python, lo cual es crucial para escribir programas sin errores.
+Este fragmento de código en Python muestra diferentes formas correctas e incorrectas de declarar variables. Las líneas válidas son `edad = 47`, `miedad = 47`, `mi_edad = 47`, `edad2 = 47` y `e2dad = 47`. Estos ejemplos ilustran que los nombres de las variables pueden contener letras, números y el carácter subrayado `_`, pero no pueden comenzar con un número. Además, hay dos líneas comentadas que muestran declaraciones incorrectas: `# mi edad = 47` (porque contiene un espacio) y `# mi-edad = 47` (porque usa un guion en lugar de un subrayado). La línea `#2edad = 47` también es inválida porque comienza con un número. Este código te ayuda a entender las reglas básicas para nombrar variables en Python, lo que es crucial para escribir programas legibles y funcionales.
+
+`003-reglas de declaracion.py`
 
 ```python
 edad = 47
@@ -306,41 +279,63 @@ e2dad = 47
 #2edad = 47
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Crear una variable y mostrar su contenido
+**Descripción:** El estudiante deberá crear una variable que almacene un dato numérico o texto y luego imprimir el valor de esa variable en la consola. **Objetivo:** Aprender a declarar variables y utilizar la función `print()` para mostrar información.
+
+### Actividad 2: Creación e impresión de varias variables
+**Descripción:** Los estudiantes deben escribir un programa que declare dos o más variables (una numérica y otra de texto) e imprimir su contenido en la consola. **Objetivo:** Familiarizarse con la declaración múltiple de variables y el uso del operador `print()`.
+
+### Actividad 3: Manipulación de cadenas de texto
+**Descripción:** Los estudiantes deben crear una variable que almacene un nombre completo, luego imprimir en consola partes específicas del nombre (por ejemplo, solo el primer nombre o el apellido). **Objetivo:** Comprender cómo manipular y acceder a elementos dentro de una cadena de texto.
+
+### Actividad 4: Reglas de declaración de variables
+**Descripción:** Los estudiantes deben crear un programa que declare varias variables con diferentes nombres (usando letras, números, guiones bajos) e intentar declarar algunas que no sean válidas según las reglas del lenguaje Python. **Objetivo:** Identificar y entender las restricciones para nombrar variables en Python.
+
+### Actividad 5: Operaciones básicas con variables numéricas
+**Descripción:** Los estudiantes deben crear un programa donde se declaren dos variables numéricas, realizar operaciones matemáticas básicas entre ellas (suma, resta), y luego imprimir los resultados. **Objetivo:** Practicar la creación de variables y el uso de operadores aritméticos en Python.
+
+### Actividad 6: Uso de comillas en cadenas de texto
+**Descripción:** Los estudiantes deben escribir un programa que declare una variable con un texto dentro, utilizando tanto comillas simples como dobles para ver cómo se comporta la salida. **Objetivo:** Entender las diferencias y similitudes entre el uso de comillas simples y dobles en Python.
+
+### Actividad 7: Introducir datos por teclado
+**Descripción:** Los estudiantes deben crear un programa que pida al usuario que introduzca su edad o nombre, almacenar la entrada del usuario en una variable y luego mostrar el valor de esa variable. **Objetivo:** Practicar la lectura de datos desde el teclado y la manipulación de variables.
+
+### Actividad 8: Uso de comentarios
+**Descripción:** Los estudiantes deben escribir un programa que incluya varias líneas de código con comentarios explicando lo que hace cada parte del código. **Objetivo:** Aprender a documentar el código usando comentarios para mejorar la legibilidad y la colaboración en proyectos.
+
+### Actividad 9: Uso de comillas en nombres no válidos
+**Descripción:** Los estudiantes deben crear un programa donde intenten declarar variables con nombres que contengan espacios, guiones o caracteres especiales (y que generarán errores). **Objetivo:** Aprender a identificar y corregir errores comunes relacionados con la declaración de variables en Python.
+
+### Actividad 10: Creación de un juego sencillo
+**Descripción:** Los estudiantes deben crear un programa básico donde el usuario debe adivinar un número generado aleatoriamente por el sistema. El programa debe almacenar el número a adivinar y usar bucles para permitir al usuario intentarlo varias veces hasta acertar. **Objetivo:** Integrar los conocimientos de variables, estructuras de control (condicionales y bucles) en un contexto práctico y entretenido.
+
+Estas actividades buscan reforzar el entendimiento de conceptos básicos sobre la declaración y uso de variables en Python, además de introducir aspectos como las reglas de nomenclatura y cómo interactuar con el usuario mediante entradas de teclado.
+
+
 <a id="tipos-de-datos"></a>
 ## Tipos de datos
 
-En el vasto mundo de la programación, los tipos de datos son como las piezas fundamentales que construyen la estructura de cualquier programa informático. Estos elementos esenciales determinan cómo se almacenan y manipulan los datos dentro del sistema, influyendo en su eficiencia y precisión.
+### Introducción a los ejercicios
 
-Los tipos de datos pueden clasificarse en varias categorías principales, cada una con sus propias características y usos específicos. Por ejemplo, los tipos numéricos incluyen enteros, flotantes y complejos, cada uno diseñado para representar diferentes rangos y precisiones de valores numéricos. Los tipos de texto, por otro lado, permiten almacenar cadenas de caracteres que pueden formar palabras, frases o incluso párrafos.
-
-Además de los tipos numéricos y de texto, existen otros tipos de datos que son cruciales para la programación moderna. Los booleanos, por ejemplo, solo pueden tomar dos valores: verdadero o falso, lo que es fundamental para el control de flujo en programas. Las fechas y horas también son un tipo de dato común, permitiendo al programa manejar información temporal con precisión.
-
-La elección del tipo de datos adecuado es crucial para la eficiencia del programa. Un tipo de dato incorrecto puede llevar a errores de ejecución o incluso a problemas de rendimiento significativos. Por lo tanto, comprender y utilizar correctamente los tipos de datos es una habilidad esencial en cualquier lenguaje de programación.
-
-Además de estos tipos básicos, muchos lenguajes de programación ofrecen tipos de datos más complejos que permiten representar estructuras de datos más sofisticadas. Las matrices o arrays, por ejemplo, son tipos de datos que pueden almacenar colecciones de elementos del mismo tipo. Los diccionarios o hashes, en cambio, permiten asociar claves con valores, lo que es útil para almacenar y recuperar información de manera eficiente.
-
-La comprensión de los tipos de datos también facilita la depuración y el mantenimiento del código. Al conocer cómo se manejan diferentes tipos de datos, los programadores pueden identificar rápidamente errores y optimizar el rendimiento del programa.
-
-En resumen, los tipos de datos son una parte esencial de cualquier sistema informático. Desde los simples hasta los complejos, cada uno desempeña un papel crucial en la estructura y funcionamiento del programa. Comprender y utilizar correctamente estos tipos es fundamental para desarrollar software eficiente y robusto.
-
-La programación no es solo sobre escribir código; es también sobre entender cómo se organiza y manipula la información dentro de ese código. Los tipos de datos son el lenguaje con el que los programadores comunican esta información al ordenador, y su correcta utilización es una habilidad clave en cualquier proyecto informático.
-
-Al explorar los diferentes tipos de datos disponibles en un lenguaje de programación, los estudiantes pueden adquirir una comprensión profunda de cómo se construyen y funcionan los programas. Esta conocimiento les permitirá crear aplicaciones más complejas y eficientes, capaces de manejar una amplia gama de tareas y procesos.
-
-En conclusión, los tipos de datos son el esqueleto sobre el cual se construye cualquier programa informático. Comprenderlos completamente es un paso crucial en el viaje hacia la programación experta, permitiendo a los desarrolladores crear software que sea no solo funcional, sino también eficiente y escalable.
+En esta carpeta, encontrarás ejercicios diseñados para ayudarte a comprender los diferentes tipos de datos en Python y cómo trabajar con ellos. Los archivos te permitirán identificar variables que contienen cadenas, números enteros, números decimales y valores booleanos. Además, explorarás la conversión implícita y explícita entre tipos de datos, lo cual es crucial para manipular correctamente los datos en programas informáticos.
 
 ### diferentes tipos de datos
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este fragmento de código es una introducción a los diferentes tipos de datos que puedes utilizar en Python. En este caso, se crean cuatro variables: `nombre`, `edad`, `altura` y `guapo`. Cada variable almacena un valor distinto tipo de dato:
+Este fragmento de código es una introducción al uso de diferentes tipos de datos en Python. Cada línea define una variable y le asigna un valor concreto, mostrando cómo se manejan distintos tipos de datos:
 
-- La variable `nombre` contiene el nombre "Jose Vicente", lo cual es una cadena o string en programación (representado entre comillas).
-- `edad` almacena el número 47, que es un entero (un número sin decimales).
-- `altura` tiene asignado el valor decimal 1.78, lo que indica la altura de alguien en metros.
-- Finalmente, `guapo` contiene un valor booleano `True`, que significa "verdadero" y se usa para representar estados o condiciones verdaderas/false.
+1. `nombre` es una cadena de texto (string), que aquí contiene el nombre "Jose Vicente". Las cadenas son utilizadas para almacenar cualquier tipo de información textual.
+2. `edad` es un número entero (integer) con el valor 47. Este tipo de dato se utiliza para representar números enteros sin parte decimal, como por ejemplo la edad o la cantidad de elementos en una lista.
+3. `altura` es un número decimal o flotante (float), que en este caso tiene el valor 1.78. Los números decimales son importantes cuando necesitas representar valores que incluyen una fracción o parte decimal, como medidas métricas como altura o peso.
+4. `guapo` es una variable booleana con el valor True. Los datos booleanos pueden tener solo dos valores: True (verdadero) o False (falso). Este tipo de dato es útil para expresar estados binarios, por ejemplo, si algo está activado o desactivado.
 
-Este código es importante porque muestra cómo Python maneja diferentes tipos de datos, lo cual es fundamental al programar ya que cada tipo de dato tiene usos específicos y características particulares. Por ejemplo, operaciones matemáticas requieren valores numéricos (enteros o decimales), mientras que texto se maneja con cadenas. El tipo booleano `True` o `False` es crucial para la lógica del programa, permitiendo tomar decisiones basadas en condiciones específicas.
+Este código sirve como un buen ejemplo inicial de cómo Python maneja diferentes tipos de datos y cómo puedes almacenar distintos tipos de información en variables.
+
+`001-diferentes tipos de datos.py`
 
 ```python
 nombre = "Jose Vicente" # cadena
@@ -350,14 +345,23 @@ guapo = True # booleana
 ```
 
 ### conversion de tipo de dato implicita
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este fragmento de código en Python muestra cómo se manejan y transforman los tipos de datos. Inicialmente, la variable `edad` es asignada con el valor "47", pero este valor está entre comillas, lo que significa que `edad` es un string (una cadena de caracteres) en lugar de un número entero. Cuando imprimimos el tipo de dato de `edad` usando `print(type(edad))`, vemos que Python indica que `edad` es de tipo `str`.
+Este código muestra cómo Python maneja la conversión de tipos de dato de forma automática en algunas situaciones, aunque no siempre lo hace. Comenzamos definiendo una variable llamada `edad` y le asignamos el valor "47", pero este valor está entre comillas, por lo que es un string (cadena de texto) en lugar de un número entero.
 
-Luego, se imprime `edad*2`. En este contexto, al ser `edad` un string, la operación `*2` no suma dos veces el número 47 sino que concatena o "encadena" la cadena "47" con ella misma, resultando en "4747". Luego, cuando se realiza la operación `edad*1`, aunque no se imprime su resultado directamente, Python realiza una conversión implícita de tipo de dato para realizar esta operación. Sin embargo, debido a que `edad` es un string y no un número, realmente esto no cambia el valor de `edad`; simplemente Python permite la multiplicación por 1 sin error pero sigue siendo un string.
+Cuando imprimimos el tipo de dato de la variable `edad` usando `print(type(edad))`, se muestra que `edad` es de tipo str (string).
 
-Finalmente, al imprimir nuevamente `edad*2`, obtendremos "4747" porque el valor de `edad` no ha cambiado a lo largo del código y sigue siendo una cadena. Es importante entender cómo Python maneja estas conversiones implícitas para evitar errores comunes en la programación, especialmente cuando trabajamos con operaciones matemáticas que implican cadenas de texto.
+Luego, cuando multiplicamos `edad*2` y lo imprimimos, no estamos haciendo una operación matemática. En su lugar, Python entiende esto como una concatenación o repetición del string, por lo que "47" se imprime dos veces seguida: "4747".
+
+A continuación, cuando multiplicamos `edad*1`, aunque no imprimimos el resultado directamente, esta operación intenta convertir la cadena de texto en un número para poder hacer una multiplicación matemática. Sin embargo, como no se imprime este resultado o se le asigna a otra variable, no vemos los cambios.
+
+Finalmente, al imprimir `edad*2` nuevamente, obtenemos el mismo resultado que antes: "4747". Esto demuestra que la operación anterior de multiplicar por 1 no cambió realmente cómo Python interpreta la variable `edad`.
+
+Este código es importante porque muestra que aunque algunas conversiones entre tipos de datos pueden ocurrir automáticamente en ciertas situaciones, otras requieren una acción explícita del programador para asegurar el tipo correcto de dato.
+
+`002-conversion de tipo de dato implicita.py`
 
 ```python
 edad = "47"
@@ -371,16 +375,17 @@ print(edad*2)
 ```
 
 ### conversión explicita de los datos
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este fragmento de código en Python muestra cómo trabajar con diferentes tipos de datos, específicamente un cambio de una cadena a un número entero. Al principio, la variable `edad` contiene el texto "47", que es un tipo de dato string (cadena). Cuando usas `print(type(edad))`, se imprime `<class 'str'>`, lo cual indica que `edad` está almacenando datos como texto.
+Este código te enseña cómo convertir tipos de datos en Python y cómo esto afecta el comportamiento del programa. Inicialmente, la variable `edad` almacena un número (47), pero está guardado como una cadena de texto (`str`). Esto significa que cuando intentas imprimir el tipo de dato con `print(type(edad))`, obtienes `<class 'str'>`.
 
-Luego, cuando intentamos multiplicar `edad` por 2 con `print(edad*2)`, en lugar de hacer una operación matemática, Python concatena (une) el texto dos veces, mostrando "4747". Esto demuestra cómo las cadenas se tratan diferente a los números.
+Luego, cuando ejecutas `print(edad*2)`, Python entiende esto como la concatenación de cadenas (es decir, "47" repetido dos veces), no como una operación matemática. Por eso se muestra "4747" en lugar de un número.
 
-Finalmente, al convertir explícitamente la cadena `edad` en un número entero usando `int(edad)`, ahora podemos hacer operaciones matemáticas con ella. Al imprimir `edad*2` por segunda vez, obtendrás el resultado 94, que es el doble del número original.
+Finalmente, el código convierte `edad` a un número entero usando `int(edad)`. Ahora, cuando imprimes `edad*2`, Python entiende que debes multiplicar los números y te dará 94. Esto demuestra la importancia de entender cómo se manipulan y converten los tipos de datos en tu programa para evitar errores y obtener el resultado deseado.
 
-Este código es importante para entender cómo los tipos de datos afectan la forma en que Python interpreta y ejecuta las instrucciones, y cómo podemos cambiar entre diferentes tipos de datos según sea necesario.
+`003-conversión explicita de los datos.py`
 
 ```python
 edad = "47"
@@ -393,67 +398,170 @@ edad = int(edad)
 print(edad*2) # se trata como multiplicación
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Identificación y Uso de Tipos de Datos Básicos
+**Descripción:** 
+Identifica los diferentes tipos de datos presentes en un programa dado (cadenas, enteros, decimales y booleanos). Asegúrate de entender cómo se declaran e inicializan estos tipos de datos. Esta actividad te ayudará a familiarizarte con las características básicas de cada tipo.
+
+### Actividad 2: Conversión Implícita entre Tipos de Datos
+**Descripción:** 
+Practica la conversión implícita en Python al tratar diferentes tipos de datos, como el cambio automático de una cadena a un número entero o decimal cuando se realiza una operación matemática. Observa cómo los resultados varían dependiendo del tipo utilizado.
+
+### Actividad 3: Conversión Exáctica entre Tipos de Datos
+**Descripción:** 
+Ejercita la conversión explícita entre tipos de datos en Python, convirtiendo cadenas a enteros y viceversa. Entiende cómo las conversiones manuales pueden afectar el flujo y resultado del programa.
+
+### Actividad 4: Operaciones con Datos Numéricos
+**Descripción:** 
+Realiza operaciones matemáticas básicas (suma, resta, multiplicación) utilizando datos numéricos enteros y decimales. Aprende a manejar correctamente los tipos de datos para evitar errores de ejecución.
+
+### Actividad 5: Comparaciones con Tipos Booleanos
+**Descripción:** 
+Ejercita el uso del tipo booleano en comparaciones y operaciones lógicas. Identifica cómo se manipulan las variables booleanas para controlar la lógica del programa y tomar decisiones basadas en condiciones.
+
+### Actividad 6: Manipulación de Cadenas de Texto
+**Descripción:** 
+Practica operaciones básicas con cadenas como concatenar, dividir y buscar subcadenas. Aprende a manipular el texto según las necesidades del programa.
+
+### Actividad 7: Ejemplos Prácticos de Conversión Implícita
+**Descripción:** 
+Crea ejemplos que demuestren la conversión implícita entre tipos de datos en Python, identificando situaciones comunes donde esta operación ocurre naturalmente durante el desarrollo.
+
+### Actividad 8: Ejemplos Prácticos de Conversión Explícita
+**Descripción:** 
+Desarrolla ejemplos que ilustren la conversión explícita entre tipos de datos, comprendiendo cuándo y por qué es necesario realizar estas conversiones para garantizar el correcto funcionamiento del programa.
+
+### Actividad 9: Identificación de Errores Tipológicos
+**Descripción:** 
+Analiza ejemplos que incluyen errores relacionados con la incompatibilidad entre tipos de datos (por ejemplo, sumar una cadena y un entero). Aprende a identificar y corregir estos problemas para mejorar la robustez del código.
+
+### Actividad 10: Integración Completa de Tipos de Datos
+**Descripción:** 
+Desarrolla pequeños programas que integren varios tipos de datos en operaciones matemáticas, comparaciones lógicas y manipulación de texto. Asegúrate de incluir conversiones explícitas e implícitas para manejar diferentes situaciones del programa.
+
+
 <a id="literales"></a>
 ## Literales
 
-En el vasto mundo de la programación, los literales son como las joyas que adornan la estructura fundamental de un programa informático. Estos elementos representan valores inmutables que se utilizan directamente en el código fuente, proporcionando una forma sencilla y eficiente de incorporar datos específicos dentro del programa. Los literales pueden ser de diversos tipos, cada uno con su propia semántica y uso específico.
+### Introducción a los ejercicios
 
-Los literales numéricos son un ejemplo claro de este concepto. Incluyen enteros (como 42 o -7), reales (como 3.14 o -0.001) y complejos (como 2+3i). Cada uno de estos tipos permite representar diferentes magnitudes y precisiones, adaptándose a las necesidades del programa.
-
-Los literales de texto son otro tipo importante de literal. En la programación, los textos se representan generalmente como cadenas de caracteres encerradas entre comillas simples ('') o dobles (""). Estas cadenas pueden contener cualquier carácter imprimible y suelen ser utilizadas para almacenar nombres de variables, mensajes de error, instrucciones del usuario, etc.
-
-Los literales booleanos son un tipo especial que solo puede tomar dos valores: verdadero (true) o falso (false). Son fundamentales en la toma de decisiones dentro del programa, permitiendo controlar el flujo de ejecución según ciertas condiciones.
-
-Además de estos tipos básicos, existen literales más complejos como los literales nulos (null), que representan la ausencia de valor. También hay literales de fecha y hora, que permiten trabajar con momentos específicos del tiempo dentro del programa.
-
-La utilización de literales en el código es crucial porque proporciona una forma directa y rápida de incorporar datos sin necesidad de variables o funciones adicionales. Esto facilita la lectura y comprensión del código, ya que los valores se pueden ver inmediatamente en su contexto.
-
-Sin embargo, es importante recordar que los literales tienen un alcance limitado dentro del programa. Una vez definidos, no pueden cambiar su valor durante la ejecución, lo que las hace ideales para representar constantes o datos fijos.
-
-En resumen, los literales son una herramienta fundamental en el lenguaje de programación, permitiendo incorporar valores directamente en el código fuente. Cada tipo de literal tiene sus propias características y usos específicos, contribuyendo así a la estructura y funcionalidad del programa informático.
+En esta carpeta, se encuentran dos ejercicios básicos destinados a ayudar a los estudiantes a comprender y identificar literales en Python. Los literales son representaciones directas de valores que aparecen en el código sin la necesidad de ser calculados o declarados previamente. En el primer ejercicio, se trabajan con literales de cadena, mostrando cómo se representa texto directamente en el código. El segundo ejercicio enfatiza los literales numéricos, ilustrando la forma directa en que se introducen números enteros y flotantes en Python. Estos ejercicios son fundamentales para desarrollar una comprensión sólida de los elementos básicos del lenguaje y sentar las bases para estructuras más complejas.
 
 ### literales de cadena
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este fragmento de código simplemente define una cadena de texto en Python. En programación, este tipo de elementos se conocen como literales; específicamente aquí estamos hablando de un literal de cadena porque el valor entre comillas ("esto es un literal") es una secuencia de caracteres. Estos literales de cadena son importantes porque nos permiten almacenar y manipular texto en nuestros programas, lo que es fundamental para muchas aplicaciones, como mostrar mensajes al usuario o guardar datos en formato textual. En resumen, este código no realiza ninguna acción particular, pero sirve para ilustrar cómo se declaran las cadenas de texto en Python.
+Este fragmento de código muestra un ejemplo simple de un literal de cadena en Python. Un literal de cadena es una secuencia de caracteres entre comillas, como se ve aquí con "esto es un literal". Este tipo de dato se utiliza para almacenar y manipular texto en programas informáticos. En este caso específico, el programa simplemente está definiendo una cadena que contiene las palabras "esto es un literal", pero no hace nada más con ella, por lo que su utilidad práctica sería limitada a menos que sea asignado a una variable o utilizado de alguna otra manera en el contexto de un programa completo. Es importante entender cómo se escriben y utilizan los literales de cadena porque son fundamentales para muchas operaciones básicas en programación, como mostrar mensajes en pantalla o trabajar con datos de texto.
+
+`001-literales de cadena.py`
 
 ```python
 "esto es un literal"
 ```
 
 ### literales numericos
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código es muy simple, consiste en una sola línea que contiene un número entero, específicamente el número 47. En programación, cuando vemos un número sin ninguna operación o función asociada, este se considera un literal numérico. Un literal numérico es simplemente la representación directa de un valor numérico en el código fuente del programa. Es importante entender que aunque aquí solo aparece un número, los literales numéricos pueden ser utilizados para realizar cálculos, establecer valores iniciales de variables, entre otros usos dentro de programas más complejos.
+Este fragmento de código es muy simple y consiste en solo un número: el número 47. En programación, cuando ves un número sin estar dentro de una operación o asociado con alguna función específica, se trata de un literal numérico. Un literal numérico como este se considera una constante que no cambia su valor durante la ejecución del programa.
+
+En el contexto del archivo y la ruta proporcionada, este código probablemente está siendo utilizado para ilustrar cómo los números sin comillas en Python son directamente interpretados como enteros. Es importante entender esto porque ayuda a diferenciar entre diferentes tipos de datos que puedes usar en un programa informático, como cadenas de texto (strings) y números.
+
+Este tipo de código simple es útil cuando se están explicando conceptos básicos de programación, ya que permite centrarse específicamente en la naturaleza de los literales numéricos sin complicaciones adicionales.
+
+`002-literales numericos.py`
 
 ```python
 47
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Identificación y Creación de Literales en Python
+
+**Descripción:** Los estudiantes deben identificar los diferentes tipos de literales presentes en dos archivos de código proporcionados (uno con literales de cadena y otro con literales numéricos). La tarea consiste en escribir una breve descripción sobre cada literal encontrado y crear ejemplos similares a partir de sus propias ideas.
+
+**Objetivo:** Aprender a distinguir entre diferentes tipos de literales en Python (cadenas, números enteros) y cómo usarlos correctamente en programas simples.
+
+### Actividad 2: Ejercicios Prácticos con Literales
+
+**Descripción:** Los estudiantes deben completar ejercicios prácticos donde tienen que combinar literales numéricos y de cadena para formar sentencias más complejas. Por ejemplo, sumar dos números enteros o concatenar cadenas.
+
+**Objetivo:** Mejorar la comprensión sobre cómo se usan los literales en expresiones y declaraciones en Python.
+
+### Actividad 3: Creación de Código Basado en Literales
+
+**Descripción:** Los alumnos deben crear pequeños programas que utilizan literales para realizar operaciones básicas (suma, resta) con números enteros y concatenar cadenas para formar frases completas.
+
+**Objetivo:** Practicar la creación de código simple que utiliza diferentes tipos de literales en contextos prácticos.
+
+### Actividad 4: Evaluación del Uso de Literales
+
+**Descripción:** Se propone un conjunto de ejemplos de código donde los estudiantes deben evaluar si se están utilizando correctamente los literales. Deben señalar cualquier error y proponer correcciones.
+
+**Objetivo:** Aprender a identificar y corregir errores comunes en el uso de literales.
+
+### Actividad 5: Análisis Comparativo
+
+**Descripción:** Los estudiantes deben comparar y contrastar cómo se utilizan los literales numéricos y de cadena en diferentes situaciones. Deben discutir las diferencias y similitudes entre ambos tipos de literales.
+
+**Objetivo:** Mejorar la comprensión sobre la flexibilidad y versatilidad del uso de literales en Python.
+
+### Actividad 6: Práctica Interactiva
+
+**Descripción:** Los alumnos trabajan en parejas para explicarse mutuamente cómo los diferentes tipos de literales (numéricos y cadenas) se utilizan en programas. Cada pareja debe crear ejemplos interactivos basados en lo que han aprendido.
+
+**Objetivo:** Facilitar la comprensión a través del trabajo colaborativo y la enseñanza recíproca.
+
+### Actividad 7: Desafío de Literales
+
+**Descripción:** Se les presenta un problema donde deben crear una secuencia de literales (numéricos y cadenas) para cumplir con ciertos requisitos. Por ejemplo, generar una lista que incluya números enteros y cadenas.
+
+**Objetivo:** Poner a prueba la comprensión sobre el uso de múltiples tipos de literales en conjuntos más complejos.
+
+### Actividad 8: Documentación Personalizada
+
+**Descripción:** Los estudiantes deben escribir notas personales explicando cómo se utilizan los literales numéricos y de cadena. Estas notas incluirán ejemplos propios, errores comunes a evitar y consejos sobre su uso eficaz.
+
+**Objetivo:** Mejorar las habilidades de reflexión y documentación personal en relación con el aprendizaje del código.
+
+### Actividad 9: Revisión Colaborativa
+
+**Descripción:** Los alumnos revisan entre sí los documentos escritos por sus compañeros sobre literales. Se pide que hagan correcciones, añadan ejemplos adicionales y den feedback constructivo.
+
+**Objetivo:** Proporcionar una oportunidad para la crítica creativa y el aprendizaje colectivo de conceptos clave.
+
+### Actividad 10: Creación de Ejercicios
+
+**Descripción:** Los estudiantes deben diseñar sus propios ejercicios (con su solución) usando literales. Estos ejercicios deberían cubrir tanto literales numéricos como de cadena, y ser adecuados para los compañeros que están aprendiendo sobre estos conceptos.
+
+**Objetivo:** Desafiar a los estudiantes a aplicar sus conocimientos en la creación de material educativo útil para otros.
+
+
 <a id="constantes"></a>
 ## Constantes
 
-En el vasto mundo de la programación, las constantes desempeñan un papel fundamental, como pilares esenciales que sostienen la estructura del edificio. Estos son valores inmutables, una vez establecidos, permanecen firmes y no pueden ser modificados durante la ejecución del programa. Las constantes son declaradas con el fin de proporcionar nombres significativos a ciertos valores, facilitando así su uso y comprensión en el código.
+### Introducción a los ejercicios
 
-La declaración de constantes es un acto de claridad y organización. Al nombrar un valor como una constante, se le da un nombre que refleja su propósito o contenido, lo que hace que sea más fácil entender su uso en el programa. Por ejemplo, si tienes un valor que representa la cantidad máxima de usuarios permitidos en un sistema, declararlo como una constante con el nombre `MAX_USUARIOS` facilita su identificación y modificación si es necesario.
+En esta serie de ejercicios, centraremos nuestra atención en el concepto de constantes en programación utilizando Python. El objetivo principal es enseñar a los estudiantes la importancia y el uso correcto de las constantes, que son valores que deberían permanecer invariables durante toda la ejecución del programa. Sin embargo, el ejercicio también muestra cómo se puede modificar un valor supuestamente constante, lo cual ilustra por qué es una mala práctica en programación cambiar estos valores después de su inicialización. Además, los estudiantes aprenderán la convención de usar mayúsculas para nombrar constantes en Python y entenderán las implicaciones de no seguir esta regla.
 
-Las constantes también contribuyen a la seguridad del código. Al establecer valores importantes como constantes, se reduce el riesgo de errores al modificar directamente los valores en el código fuente. Esto es especialmente útil cuando estos valores son utilizados en múltiples lugares dentro del programa, ya que cualquier cambio realizado en una sola ubicación garantiza que todos los demás lugares reflejen la nueva configuración.
-
-Además, las constantes pueden mejorar la eficiencia del programa. Algunos compiladores y intérpretes de código optimizan automáticamente el uso de constantes, lo que puede llevar a un rendimiento más rápido. Esto es especialmente beneficioso cuando se utilizan valores fijos en bucles o operaciones repetitivas.
-
-La gestión adecuada de las constantes también facilita la mantenibilidad del código. Si necesitas cambiar un valor importante, simplemente debes modificar la declaración de la constante y no tienes que buscar y reemplazar el valor en todo el programa. Esto reduce significativamente el riesgo de errores y asegura que todos los lugares donde se use el valor reflejen la nueva configuración.
-
-Las constantes son una herramienta poderosa en la programación, proporcionando un medio para nombrar y utilizar valores importantes de manera segura y eficiente. Al declarar y utilizar constantes con inteligencia, puedes mejorar la calidad del código, su legibilidad y su mantenimiento a largo plazo.
+A través de estos ejercicios, los alumnos desarrollarán competencias en la identificación y uso adecuado de variables y constantes, así como en la aplicación de buenas prácticas de programación para garantizar la consistencia y claridad del código.
 
 ### Las constantes no deberian cambiar
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código te muestra la diferencia entre variables y constantes en programación, aunque Python no tiene una forma directa de declarar constantes. Al principio, el programa asigna un número entero a la variable `edad` e imprime su valor. Luego cambia ese valor y vuelve a imprimirlo para demostrar que las variables pueden cambiar. En cambio, se establece que `PI`, generalmente considerado una constante matemática, tiene un valor inicial de aproximadamente 3.1416. Aunque el código permite cambiar este valor después, lo imprime nuevamente para ilustrar que en la práctica y según las buenas prácticas, deberías evitar cambiar los valores de las constantes porque podrían alterarse accidentalmente o confundir a otros programadores al leer tu código.
+Este código muestra la diferencia entre el uso de variables y constantes en Python. En primer lugar, se establece una variable llamada `edad` con un valor inicial de 47. Luego, se imprime esa edad utilizando una sentencia `print`. Después, el valor de `edad` cambia a 48 y vuelve a imprimirse. Esto demuestra que las variables pueden modificarse durante la ejecución del programa.
 
-Es importante entender esta distinción porque mantiene el código limpio, predecible y fácil de mantener. Aunque Python no tiene un mecanismo específico para definir constantes como lo hacen algunos otros lenguajes (como Java con `final` o C++ con `const`), la convención es usar nombres en mayúsculas para variables que deberían permanecer inmutables durante la ejecución del programa.
+Posteriormente, el código define un valor constante llamado `PI`, inicializado con el valor 3.1416, lo cual es típico para representar el número pi en matemáticas y programación. Se imprime este valor de PI. Sin embargo, a continuación se intenta cambiar el valor de `PI` a 4, mostrando nuevamente que esto funciona en Python, pero no debería hacerse porque las constantes, por definición, son valores que no deben cambiarse durante la ejecución del programa.
+
+Este ejemplo ilustra por qué es importante usar nombres en mayúsculas para identificar los valores de constante y respetar el propósito de dichos valores, manteniéndolos invariables.
+
+`001-Las constantes no deberian cambiar.py`
 
 ```python
 edad = 47
@@ -468,28 +576,66 @@ PI = 4
 print("El valor de PI es:",PI) # Funciona, pero no debe ocurrir
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Identificación y Uso de Constantes
+
+**Descripción:** Los estudiantes deben identificar las diferencias entre variables y constantes en el código proporcionado. La actividad consiste en analizar por qué es importante no modificar el valor de una constante, a pesar de que técnicamente se puede hacer. El objetivo es entender la importancia del uso correcto de constantes para mantener la integridad del programa.
+
+### Actividad 2: Creación de Constantes Propias
+
+**Descripción:** Los estudiantes deben crear un nuevo script Python donde definan varias constantes propias y expliquen su significado. La actividad incluye el uso correcto de las convenciones de nomenclatura para constantes (mayúsculas). Se espera que los alumnos comprendan la necesidad de mantener valores invariables en ciertos contextos del programa.
+
+### Actividad 3: Implementación de Reglas de Uso de Constantes
+
+**Descripción:** Los estudiantes deben revisar el código proporcionado y aplicar las buenas prácticas para el uso de constantes, como evitar cambiar su valor durante la ejecución del programa. Se les pide que modifiquen el código existente según estas reglas y expliquen sus cambios.
+
+### Actividad 4: Programa Sencillo con Constantes
+
+**Descripción:** Los estudiantes deben crear un programa simple en Python que use al menos tres constantes para representar valores invariables, como las dimensiones de una figura geométrica. El objetivo es practicar la declaración y uso efectivo de constantes en situaciones reales.
+
+### Actividad 5: Documentación de Constantes
+
+**Descripción:** Los estudiantes deben documentar cada constante utilizada en un programa simple, explicando su significado e importancia. La actividad busca mejorar las habilidades de documentación y comentarios en el código, ayudando a otros desarrolladores a entender fácilmente la lógica del programa.
+
+### Actividad 6: Ejecución y Análisis de Código con Constantes
+
+**Descripción:** Los estudiantes recibirán un archivo Python que incluye constantes mal utilizadas. Se les pedirá ejecutar el código, analizar por qué algunas decisiones son inadecuadas y sugerir correcciones. La actividad busca mejorar la capacidad de análisis y depuración del código.
+
+### Actividad 7: Comparación entre Variables y Constantes
+
+**Descripción:** Los estudiantes deben escribir un breve ensayo comparando el uso de variables con constantes en Python, incluyendo ejemplos prácticos para cada caso. Se espera que los alumnos comprendan las diferencias conceptuales y su importancia en la programación.
+
+### Actividad 8: Crear una Aplicación Mini-Real
+
+**Descripción:** Los estudiantes deben crear una aplicación mini-real (como un programa de cálculos geométricos) que utilice al menos cinco constantes. Se espera que demuestren el uso correcto y efectivo de las constantes en la resolución de problemas reales.
+
+Estas actividades buscan mejorar tanto los conocimientos teóricos como prácticos sobre el uso adecuado de constantes en Python, adaptadas a estudiantes de Formación Profesional.
+
+
 <a id="operadores-y-expresiones"></a>
 ## Operadores y expresiones
 
-En el vasto mundo de la programación, los operadores y las expresiones son como los bloques con los que se construyen las estructuras fundamentales de cualquier programa informático. Estos elementos permiten a los desarrolladores manipular datos, realizar cálculos y tomar decisiones en función de ciertas condiciones.
+### Introducción a los ejercicios
 
-Los operadores son símbolos o palabras clave que indican una acción específica sobre uno o más operandos (valores o variables). Por ejemplo, el operador `+` indica la adición de dos números. Los operadores pueden ser aritméticos, relacionales, lógicos y de asignación, cada uno con su propio conjunto de funciones específicas.
-
-Las expresiones son combinaciones de operandos y operadores que se evalúan para producir un valor. Por ejemplo, la expresión `a + b` es una suma de dos variables `a` y `b`. Las expresiones pueden ser simples o complejas, dependiendo del número de operadores y operandos involucrados.
-
-La importancia de los operadores y las expresiones radica en su capacidad para realizar cálculos y tomar decisiones. Por ejemplo, una expresión como `if (x > 0)` evalúa si la variable `x` es mayor que cero, lo que determina el flujo del programa. Los operadores de asignación, como `=`, permiten almacenar valores en variables, mientras que los operadores relacionales, como `==` o `!=`, comparan dos valores y devuelven un resultado booleano.
-
-La comprensión de los operadores y las expresiones es fundamental para cualquier programador. No solo son la base de todas las operaciones matemáticas y lógicas en el código, sino que también permiten a los desarrolladores crear algoritmos complejos y resolver problemas de forma eficiente. A través del uso de operadores y expresiones, se pueden manipular datos, realizar cálculos y tomar decisiones en función de ciertas condiciones.
-
-Los operadores y las expresiones son herramientas poderosas que permiten a los programadores crear programas complejos y eficientes. Al dominar estos elementos, se abre la puerta a una amplia gama de posibilidades en el mundo de la programación, desde aplicaciones simples hasta sistemas empresariales complejos.
-
-En resumen, los operadores y las expresiones son los pilares sobre los cuales se construyen los programas informáticos. Su comprensión es fundamental para cualquier programador y permite a los desarrolladores crear algoritmos complejos y resolver problemas de forma eficiente. A través del uso de operadores y expresiones, se pueden manipular datos, realizar cálculos y tomar decisiones en función de ciertas condiciones, lo que abre la puerta a una amplia gama de posibilidades en el mundo de la programación.
+En esta carpeta de ejercicios, se exploran los fundamentos del lenguaje Python centrándose en el uso y la comprensión de operadores y expresiones. Los estudiantes aprenderán a utilizar diferentes tipos de operadores aritméticos para realizar cálculos matemáticos básicos y avanzados, así como operadores de comparación para evaluar condiciones lógicas. Además, se practicarán los operadores de asignación abreviada que facilitan la modificación de variables en una sola línea de código. También se introducirá el uso de operadores booleanos (AND y OR) para combinar múltiples expresiones condicionales. Estos ejercicios ayudarán a mejorar las habilidades fundamentales necesarias para resolver problemas mediante programación.
 
 ### operadores aritmeticos
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código es un ejemplo básico de cómo se utilizan los operadores aritméticos en Python. Cada línea del código realiza una operación matemática diferente y la imprime en pantalla. La primera línea suma dos números (4 + 3) e imprime el resultado, que es 7. Luego resta estos mismos números (4 - 3), multiplicándolos después (4 * 3) y dividiendo finalmente (4 / 3). El último print utiliza un operador llamado módulo (%), que te da el resto de la división entre los dos números, en este caso 1. Estas líneas son importantes porque muestran cómo Python maneja diferentes tipos de cálculos básicos y ayudan a entender los fundamentos matemáticos en programación.
+Este fragmento de código en Python muestra cómo se utilizan diferentes operadores aritméticos básicos. El programa imprime cinco resultados diferentes, cada uno calculado con un tipo distinto de operación matemática:
+
+1. La primera línea suma dos números: `4 + 3`, lo que resulta en el número `7`.
+2. En la segunda línea, resta un número del otro: `4 - 3`, dando como resultado `1`.
+3. La tercera línea multiplica dos números entre sí: `4 * 3`, lo cual es igual a `12`.
+4. Luego, en la cuarta línea, divide el primer número por el segundo: `4 / 3`. El resultado será un punto flotante (`1.33333333333`), ya que Python devuelve una división con decimales.
+5. Por último, utiliza el operador módulo `%`, que retorna el resto de la división entre dos números: `4 % 3`, dando como resultado `1`.
+
+Estos ejemplos son fundamentales para entender cómo funcionan las operaciones aritméticas básicas en Python y son esenciales cuando se está empezando a programar.
+
+`001-operadores aritmeticos.py`
 
 ```python
 print(4+3)
@@ -500,14 +646,13 @@ print(4%3)
 ```
 
 ### operadores de comparacion
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código en Python muestra cómo se utilizan los operadores de comparación, que son herramientas importantes para evaluar si una afirmación es verdadera o falsa. Cada línea del código compara dos números y luego imprime el resultado: `True` (verdadero) si la afirmación es correcta, y `False` (falso) en caso contrario.
+Este código en Python muestra cómo funcionan los operadores de comparación entre dos números. En específico, compara el número 4 con el número 3 utilizando diferentes tipos de operadores: menor que (`<`), menor o igual que (`<=`), mayor que (`>`), mayor o igual que (`>=`), igual a (`==`) y diferente de (`!=`). Cada línea del código imprime en la pantalla si una cierta condición es verdadera (True) o falsa (False). Por ejemplo, cuando se compara `4 < 3`, el resultado es False porque cuatro no es menor que tres. Este tipo de comparaciones son fundamentales para controlar el flujo de programas y tomar decisiones basadas en condiciones específicas.
 
-La primera línea pregunta si 4 es menor que 3 (`print(4 < 3)`), lo cual no es cierto. Por eso imprime `False`. Las líneas siguientes hacen comparaciones similares usando los operadores "menor o igual", "mayor", "mayor o igual" y "igual". Cada una evalúa si la primera expresión matemática es verdadera en relación a la segunda, y muestra el resultado.
-
-Estos operadores de comparación son fundamentales para controlar flujos en programas más grandes (como condicionales `if`), permitiendo que los programas tomen decisiones basadas en las condiciones actuales. Entender cómo funcionan estos operadores es crucial para aprender a escribir código lógico y eficiente.
+`002-operadores de comparacion.py`
 
 ```python
 print(4 < 3)
@@ -519,10 +664,17 @@ print(4 != 3)
 ```
 
 ### Operadores aritmeticos abreviados
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código es una secuencia de operaciones básicas en Python que muestran cómo actualizar una variable utilizando operadores aritméticos abreviados. En primer lugar, se inicializa la variable `edad` con el valor 47 y luego se imprime ese valor. Luego, en lugar de escribir expresiones largas como `edad = edad + 5`, utiliza un operador abreviado `+=`, que añade 5 a la variable `edad` y actualiza su valor inmediatamente. Esto se hace para cada operación aritmética básica (suma, resta, multiplicación, división) utilizando los operadores correspondientes (`-=`, `*=`, `/=`). Después de cada cambio en el valor de `edad`, se imprime el nuevo valor. Estos operadores abreviados no solo hacen que tu código sea más corto y fácil de leer, sino también menos propenso a errores por duplicar expresiones. Son herramientas muy útiles para manipular valores numéricos directamente en las variables.
+Este fragmento de código muestra cómo modificar y trabajar con una variable llamada `edad` utilizando operadores aritméticos abreviados en Python. En primer lugar, la variable `edad` se inicializa con el valor 47. Luego, se utilizan diferentes operaciones para cambiar este valor: suma (`+=`), resta (`-=`), multiplicación (`*=`) y división (`/=`). Estos operadores permiten realizar una operación matemática directamente sobre la variable existente sin necesidad de escribir el nombre de la variable dos veces.
+
+Por ejemplo, cuando se usa `edad += 5`, lo que realmente está haciendo es sumar 5 a la edad actual y luego asignar ese nuevo valor a `edad`. De manera similar, los otros operadores abreviados reducen la cantidad de código necesario para realizar cálculos comunes. Al final de cada operación, el programa imprime en pantalla el nuevo valor de `edad`, permitiéndonos ver cómo cambia con cada operación.
+
+Estas técnicas son útiles porque hacen que el código sea más conciso y fácil de leer, especialmente cuando se necesitan realizar ajustes repetidos a una variable.
+
+`003-Operadores aritmeticos abreviados.py`
 
 ```python
 edad = 47
@@ -546,14 +698,19 @@ print(edad)
 ```
 
 ### booleanos
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código muestra cómo usar operadores lógicos en Python para combinar múltiples expresiones booleanas. Los operadores principales aquí son "and" y "or". La primera línea evalúa tres comparaciones con el operador "and", lo que significa que todas las comparaciones deben ser verdaderas para que toda la expresión sea verdadera. Como 4 es igual a 4, 3 es igual a 3, y 2 es igual a 2, la salida será "True". En la segunda línea, el último valor de comparación cambia a 2 siendo igual a 1, lo cual es falso; por tanto, todo el resultado con "and" será "False".
+Este código te muestra cómo funcionan los operadores lógicos "and" y "or" en Python. Estos operadores se utilizan para combinar o comparar múltiples condiciones booleanas (verdaderas o falsas).
 
-Luego, se utilizan operadores "or" para combinar tres expresiones booleanas. El operador "or" devuelve verdadero si al menos una de las comparaciones es verdadera. Por ejemplo, en la tercera línea, aunque dos comparaciones son falsas (4 es igual a 3 y 3 es igual a 2), el hecho de que 4 sea igual a 4 hace que toda la expresión sea "True". En la última línea, todas las comparaciones son falsas, por lo que todo el resultado con "or" será "False".
+En las primeras dos líneas, el código compara tres igualdades usando el operador "and". El resultado será verdadero solo si todas las comparaciones son ciertas. En la primera línea, todos los números se comparan consigo mismos, por lo que el resultado es verdadero. Sin embargo, en la segunda línea, al menos una de las comparaciones (2 == 1) es falsa, por lo que todo el resultado será falso.
 
-Este tipo de operadores lógicos es crucial en programación para tomar decisiones basadas en múltiples condiciones.
+Las siguientes líneas usan el operador "or" para combinar tres condiciones booleanas. Con "or", si cualquiera de las comparaciones es verdadera, entonces la expresión completa será verdadera. En la línea donde todos son iguales a sí mismos, todo sale verdadero. Pero en otras líneas, cuando algunas comparaciones son falsas, el resultado final dependerá de si alguna de ellas era verdadera o no.
+
+Este tipo de código es fundamental para entender cómo se evalúan condiciones múltiples en programas más grandes y complejos, como por ejemplo en bucles (ciclos) y estructuras condicionales.
+
+`004-booleanos.py`
 
 ```python
 print(4 == 4 and 3 == 3 and 2 == 2)
@@ -565,18 +722,112 @@ print(4 == 4 or 3 == 2 or 2 == 1)
 print(4 == 3 or 3 == 2 or 2 == 1)
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Operaciones Aritméticas Básicas
+
+**Descripción:** 
+Los estudiantes deben crear un programa que realice operaciones aritméticas básicas (suma, resta, multiplicación, división y módulo) entre dos números dados por el usuario. Se espera que los alumnos comprendan cómo usar correctamente los operadores aritméticos en Python.
+
+### Actividad 2: Evaluación de Expresiones Lógicas
+
+**Descripción:** 
+Los estudiantes deben escribir un programa que evalúe varias expresiones lógicas utilizando operadores de comparación (como `<`, `>`, `==`). El objetivo es aprender a manipular y comprender la evaluación condicional en Python.
+
+### Actividad 3: Operaciones Aritméticas Abreviadas
+
+**Descripción:** 
+Los alumnos deben desarrollar un código que implemente operadores de asignación abreviados (como `+=`, `-=`) para realizar diferentes tipos de cálculos. Esta actividad permite familiarizarse con la sintaxis más concisa para realizar operaciones aritméticas en variables.
+
+### Actividad 4: Ejercicio de Operadores Lógicos
+
+**Descripción:** 
+Los estudiantes deben crear un programa que utilice los operadores lógicos `and` y `or`. El objetivo es entender cómo combinar expresiones booleanas para evaluar condiciones más complejas.
+
+### Actividad 5: Cálculo de Promedio con Operadores Aritméticos
+
+**Descripción:** 
+Los alumnos deben diseñar un programa que calcule el promedio de una lista de números ingresados por el usuario, utilizando operaciones aritméticas. Esto ayuda a reforzar el uso de operadores en situaciones prácticas.
+
+### Actividad 6: Juego Simple con Operadores y Comparaciones
+
+**Descripción:** 
+Los estudiantes deben crear un juego sencillo (como adivinar un número) que utilice expresiones lógicas basadas en comparaciones. El objetivo es aplicar los conceptos aprendidos de forma divertida.
+
+### Actividad 7: Calculadora Básica con Operadores Aritméticos
+
+**Descripción:** 
+Los alumnos deben implementar una calculadora básica que permita al usuario realizar operaciones aritméticas y mostrar el resultado. Esto mejora la comprensión del uso de operadores en contextos interactivos.
+
+### Actividad 8: Combinación de Operadores Lógicos y Aritméticos
+
+**Descripción:** 
+Los estudiantes deben escribir un programa que combina operadores lógicos con aritméticos para resolver problemas más complejos. Por ejemplo, determinar si un número es par o impar utilizando una combinación de ambos tipos de operadores.
+
+### Actividad 9: Resolución de Problemas con Operadores
+
+**Descripción:** 
+Los alumnos deben identificar y corregir errores en fragmentos de código dados que utilizan operadores. Esto ayuda a desarrollar habilidades de depuración y mejora la comprensión del uso correcto de los operadores.
+
+### Actividad 10: Simulación de Cálculos Financieros
+
+**Descripción:** 
+Los estudiantes deben crear un programa que simule cálculos financieros básicos (como intereses simples o tasa anual) utilizando operadores aritméticos y comparativos. Esto permite aplicar los conceptos aprendidos en situaciones del mundo real.
+
+Estas actividades están diseñadas para complementar el contenido de la carpeta proporcionada, enfatizando la práctica y comprensión de los operadores y expresiones en Python a nivel de Formación Profesional.
+
+
 <a id="ejercicio-de-final-de-unidad"></a>
 ## Ejercicio de final de unidad
 
-### actividad
+### Introducción a los ejercicios
 
-#### Explicación
+El archivo en esta carpeta, "001-actividad.md", contiene un ejercicio diseñado para ayudarte a consolidar tus conocimientos sobre los elementos fundamentales de la programación informática. Este tipo de ejercicios te permitirá aplicar y revisar conceptos clave como algoritmos, variables, estructuras de control (condicionales y bucles), funciones y manejo básico de entrada/salida en un programa. La finalidad es que comprendas cómo estos elementos interactúan para crear programas completos, así como mejorar tus habilidades de resolución de problemas y lógica computacional.
 
-Parece que no has proporcionado ningún fragmento de código para analizar. ¿Podrías por favor compartir el bloque específico de código en formato Markdown del archivo que mencionaste? Una vez que tenga ese código, podré darte una explicación clara y concisa sobre cómo funciona y su importancia.
+### Actividades propuestas
 
-```markdown
+### Actividades Propuestas:
 
-```
+1. **Análisis de Elementos del Programa**
+   - Los estudiantes deben identificar y clasificar los diferentes elementos de un programa informático presentes en el archivo proporcionado.
+   - Se pretende que reconozcan conceptos básicos como variables, estructuras de control, bucles, entre otros.
+
+2. **Diagramas de Flujo**
+   - Los estudiantes deberán crear diagramas de flujo que representen el flujo lógico del programa analizado en la carpeta.
+   - Se busca que comprendan cómo se visualiza un algoritmo y las relaciones entre sus componentes.
+
+3. **Resolución de Problemas Básicos**
+   - Los estudiantes deben plantear problemas sencillos (como cálculos matemáticos) y resolverlos utilizando el mismo lenguaje de programación del archivo.
+   - El objetivo es que aprendan a aplicar los conceptos básicos de la programación para resolver tareas cotidianas.
+
+4. **Modificación de Código**
+   - Los estudiantes modificarán pequeños detalles en el código proporcionado (cambiar variables, añadir o quitar líneas) y observarán cómo afecta su funcionamiento.
+   - El objetivo es que comprendan la relación entre el código escrito y su resultado.
+
+5. **Documentación del Código**
+   - Los estudiantes redactarán comentarios en el código proporcionado para explicar las funcionalidades de cada sección, así como describir variables y funciones clave.
+   - Se busca mejorar sus habilidades en la documentación técnica y la comunicación clara sobre aspectos técnicos.
+
+6. **Creación de Algoritmos**
+   - Los estudiantes diseñarán algoritmos para tareas específicas (por ejemplo, calcular el área de diferentes figuras geométricas) basándose en los conceptos presentes en el ejercicio.
+   - Se busca que apliquen lo aprendido sobre estructuras lógicas y control del flujo.
+
+7. **Comparación de Estructuras**
+   - Los estudiantes analizarán cómo cambiar la estructura (por ejemplo, de un bucle while a for) puede afectar al rendimiento o simplicidad del código.
+   - Se pretende que entiendan las ventajas y desventajas de diferentes enfoques.
+
+8. **Pruebas Unitarias Básicas**
+   - Los estudiantes crearán pruebas unitarias básicas para el código proporcionado, verificando la correcta ejecución de cada función o bloque.
+   - El objetivo es que aprendan a asegurar la funcionalidad del software antes de su implementación.
+
+9. **Refactorización de Código**
+   - Los estudiantes refactorizarán el código existente para mejorar su legibilidad y eficiencia, manteniendo las mismas funciones.
+   - Se busca que comprendan cómo mejorar un programa sin cambiar su comportamiento observable.
+
+10. **Presentación Oral del Proyecto**
+    - Los estudiantes prepararán una presentación oral explicando los conceptos clave aprendidos a partir de la práctica y su proyecto individual o en grupo.
+    - El objetivo es practicar sus habilidades de comunicación técnica y defensa de propuestas técnicas.
+
 
 
 <a id="utilizacion-de-objetos"></a>
@@ -585,140 +836,113 @@ Parece que no has proporcionado ningún fragmento de código para analizar. ¿Po
 <a id="caracteristicas-de-los-objetos"></a>
 ## Características de los objetos
 
-Los objetos son los bloques fundamentales de la programación orientada a objetos (POO), representando entidades del mundo real con sus propiedades y comportamientos. En este contexto, los objetos se caracterizan por su estado, comportamiento y identidad.
+### Introducción a los ejercicios
 
-El estado de un objeto refleja su situación actual en el programa, definido por sus atributos o variables miembro que almacenan datos relevantes. Por ejemplo, un objeto de tipo "Coche" podría tener atributos como color, marca y modelo, cada uno con un valor específico que describe su estado.
+En esta subunidad, se centra en la comprensión y utilización de objetos predefinidos en el lenguaje de programación, sin entrar en la creación de clases personalizadas. Los ejercicios trabajan con las características fundamentales de los objetos, como sus propiedades (atributos estáticos), métodos (funciones dinámicas) y constructores (función que se ejecuta al inicializar el objeto). Asimismo, se explorará cómo estos elementos pueden ser utilizados en operaciones avanzadas como la herencia y el polimorfismo. Estos ejercicios ayudarán a los estudiantes a modularizar y reutilizar bloques de código, lo cual es crucial para crear programas más complejos y mantenibles.
 
-El comportamiento de los objetos se expresa a través de métodos o funciones asociados a ellos. Estos métodos definen las acciones que el objeto puede realizar. Siguiendo el ejemplo del coche, podrían existir métodos como arrancar(), frenar() y acelerar(). Cada método realiza una tarea específica relacionada con el estado del objeto.
+### Actividades propuestas
 
-La identidad de un objeto es única en su contexto, lo que se refleja en la referencia a él. En Python, por ejemplo, cada objeto tiene una dirección de memoria única que lo distingue de otros objetos. Esta identidad es crucial para acceder y manipular los objetos dentro del programa.
+### Actividad 1: Exploración de Objetos Predeterminados
+**Descripción:** Los alumnos deben identificar y explorar los objetos predeterminados disponibles en el lenguaje de programación que están estudiando. Se espera que documenten las principales características, métodos y propiedades de al menos tres objetos diferentes. Esta actividad permitirá a los estudiantes familiarizarse con la utilidad y funcionalidades básicas de estos objetos.
 
-Además de estos tres aspectos fundamentales, los objetos pueden interactuar entre sí mediante mensajes o invocaciones a métodos. Cuando un objeto recibe un mensaje, ejecuta el método correspondiente, lo que puede modificar su estado o generar algún efecto secundario visible en el sistema.
+### Actividad 2: Creación de Instancias
+**Descripción:** Los alumnos deben crear varias instancias (objetos) utilizando los tipos de datos predeterminados del lenguaje, como cadenas o números. Se espera que se familiaricen con cómo inicializar y acceder a las propiedades y métodos básicos de estos objetos.
 
-La programación orientada a objetos permite organizar y estructurar el código de manera lógica y coherente, facilitando la reutilización y mantenimiento del software. Al tratar los datos y las operaciones sobre ellos como entidades interconectadas, se pueden crear sistemas complejos pero manejables.
+### Actividad 3: Uso de Métodos
+**Descripción:** Los estudiantes deben utilizar varios métodos proporcionados por los objetos predeterminados para realizar operaciones como formatear cadenas, manipular números o gestionar fechas. Se espera que aprendan a aplicar los métodos adecuadamente y observen cómo cambian las propiedades del objeto después de la ejecución.
 
-La herencia es otro concepto clave en la POO que permite crear nuevas clases a partir de clases existentes, heredando sus atributos y métodos. Esto facilita el reutilización del código y la creación de jerarquías lógicas de objetos. Por ejemplo, una clase "Automóvil" podría ser una superclase para las clases "Coche", "Motocicleta" y "Truck".
+### Actividad 4: Comparación de Objetos
+**Descripción:** Los alumnos deben escribir código para comparar objetos basados en sus propiedades y métodos. Esto incluye verificar la igualdad, buscar diferencias entre instancias o realizar operaciones que involucren múltiples objetos. Se pretende que comprendan las implicaciones de trabajar con objetos mutables e inmutables.
 
-La encapsulación es un principio que oculta los detalles internos de un objeto y expone solo lo necesario a través de métodos públicos. Esto protege el estado del objeto y permite modificarlo de manera controlada, evitando cambios no deseados o inconsistencias.
+### Actividad 5: Uso del Constructor
+**Descripción:** Los estudiantes deben crear una instancia de un objeto utilizando un constructor y luego modificar sus propiedades a través de métodos proporcionados por el lenguaje. Se espera que entiendan cómo inicializarse y manipular objetos desde su creación hasta su uso final.
 
-En resumen, los objetos son la base de la programación orientada a objetos, representando entidades con estado, comportamiento y identidad únicas. Su uso permitirá crear sistemas complejos pero manejables, facilitando la reutilización del código y la creación de jerarquías lógicas de objetos.
+### Actividad 6: Documentación y Ejemplos
+**Descripción:** Los alumnos deben buscar en documentación oficial del lenguaje ejemplos de utilización de los objetos predeterminados. Se espera que generen un resumen o guía simple con las características más comunes y cómo usarlas, ayudando así a otros compañeros a entender mejor el uso de estos objetos.
 
-### Nota importante
+### Actividad 7: Integración en Proyectos
+**Descripción:** Los estudiantes deben incorporar objetos predeterminados dentro de proyectos pequeños que ya estén desarrollando. Se pretende que integren funciones y características existentes para ahorrar tiempo y mejorar la eficiencia del código.
 
-#### Explicación
+### Actividad 8: Pruebas Unitarias
+**Descripción:** Los alumnos deben escribir pruebas unitarias para verificar el correcto funcionamiento de las propiedades y métodos de los objetos predeterminados que estén utilizando en sus proyectos. Se espera que comprendan la importancia de la prueba exhaustiva y la verificación del código.
 
-Este fragmento de código es un archivo Markdown que sirve como nota importante para guiar a los creadores de ejercicios. En él se indica que esta subunidad del curso no se centra en crear nuevas clases personalizadas, sino en utilizar objetos que ya existen en el lenguaje de programación elegido. Esto significa que cuando se crean ejercicios para esta parte del programa, deben basarse únicamente en la manipulación y uso de los objetos predeterminados del lenguaje, sin necesidad de crear nuevos objetos desde cero. La importancia radica en enfocar a los estudiantes en comprender y aplicar correctamente los objetos predefinidos antes de avanzar hacia la creación de sus propias clases más adelante en el curso.
+### Actividad 9: Análisis Crítico
+**Descripción:** Los estudiantes deben analizar ejemplos proporcionados por el profesor, identificando cómo se utiliza eficazmente la programación orientada a objetos con los tipos de datos predeterminados. Se espera que hagan sugerencias sobre mejoras y discutan las ventajas y desventajas del uso de estos objetos.
 
-```markdown
-Nota importante para la generación de ejercicios de esta subunidad:
-Esta subunidad trata, no la creación de clases personalizadas, sino la utilización de objetos predeterminados existentes en el propio lenguaje de programación.
-Para crear actividades, ajustate al alcance concreto de los ejercicios desarrollados en la carpeta 101-Ejercicios.
-```
+### Actividad 10: Aplicaciones Prácticas
+**Descripción:** Los alumnos deben diseñar e implementar una aplicación simple utilizando los conocimientos adquiridos sobre la creación, manipulación y utilización de objetos predeterminados. Se espera que apliquen sus habilidades en un contexto práctico y realista, integrando diferentes conceptos aprendidos durante el curso.
 
-### Características
-
-#### Explicación
-
-Este fragmento de texto explica los fundamentos básicos de lo que son los objetos en la programación orientada a objetos. Los objetos tienen dos elementos clave: propiedades y métodos. Las propiedades son como las características o datos asociados al objeto, mientras que los métodos son acciones que el objeto puede realizar. Además, menciona los constructores, funciones especiales que se utilizan para inicializar un nuevo objeto cuando se crea.
-
-Los objetos también proporcionan beneficios importantes en la programación al modularizar y facilitar la reutilización del código, lo cual es fundamental para manejar programas más grandes y complejos. Esto significa que puedes crear bloques de código reutilizables que cumplen con funciones específicas, lo que hace el desarrollo de software más eficiente y menos propenso a errores.
-
-Este enfoque orientado a objetos es crucial porque ayuda a organizar mejor el código, facilita la colaboración en proyectos grandes, y permite aprovechar características avanzadas como herencia (permitiendo a un objeto "heredar" las propiedades y métodos de otro), polimorfismo (capacidad para que diferentes tipos de objetos respondan a los mismos mensajes o llamadas) y interfaces (contratos para definir qué funciones debe tener cualquier objeto que cumpla con esa interfaz).
-
-```markdown
-Los objetos:
-
-- Tienen propiedades, que son atributos estáticos
-- Tienen métodos, que son funciones dinámicas
-- Pueden tener constructores, que es una función que se ejecuta al inicio
-- Tendrán operaciones avanzadas, tales como la herencia, el polimorfismo, o las interfaces
-
-Los objetos:
-
-- Representan bloques de código
-- intentan modularizar, y reutilizar
-- Son importantes para crar programas grandes
-```
 
 <a id="instanciacion-de-objetos"></a>
 ## Instanciación de objetos
 
-La instanciación de objetos es una etapa fundamental en la programación orientada a objetos (POO), representando el proceso mediante el cual se crean objetos a partir de clases. Este concepto es como la "fabricación" de instancias concretas basadas en un modelo general, conocido como clase.
+### Introducción a los ejercicios
 
-En este contexto, cada objeto creado a partir de una clase es una instancia única que posee los atributos y métodos definidos por dicha clase, pero también puede tener valores específicos para sus propiedades. La instanciación es el punto de partida para interactuar con los objetos en un programa POO, permitiendo manipular su estado y comportamiento.
-
-La creación de una instancia implica la asignación de memoria para almacenar sus datos y la ejecución del constructor de la clase, que inicializa los atributos del objeto. Este proceso es crucial porque determina cómo el objeto será utilizado en el programa, definiendo su identidad y su comportamiento inicial.
-
-La instanciación también permite la creación de múltiples objetos a partir de una misma clase, lo cual es útil para representar entidades distintas pero similares dentro del mismo contexto. Cada uno de estos objetos puede tener valores diferentes para sus atributos, permitiendo así una gran flexibilidad en el manejo de datos y operaciones.
-
-Además, la instanciación facilita la reutilización de código, ya que permite crear múltiples objetos con comportamientos similares sin necesidad de escribir nuevamente las mismas líneas de código. Esto mejora la eficiencia del programa y reduce el riesgo de errores al mantener una única definición de comportamiento.
-
-La instanciación es un concepto básico pero poderoso en POO, ya que permite crear objetos con estados y comportamientos específicos, lo cual es fundamental para representar entidades del mundo real dentro de un programa. Esta capacidad es esencial para la creación de aplicaciones complejas y dinámicas, donde los objetos interactúan entre sí para lograr funcionalidades avanzadas.
-
-La instanciación también implica el manejo de recursos como memoria, lo cual es una consideración importante en la programación moderna. La asignación y liberación de memoria adecuada son cruciales para evitar problemas de rendimiento y evitar fugas de memoria, que pueden llevar a problemas graves en aplicaciones largas o intensivas.
-
-En resumen, la instanciación de objetos es un proceso fundamental en la programación orientada a objetos, permitiendo crear entidades concretas a partir de clases. Este concepto es esencial para representar el mundo real dentro de un programa y facilita la reutilización de código, lo cual es crucial para la creación de aplicaciones complejas y eficientes. La comprensión y correcta implementación de la instanciación son habilidades fundamentales en cualquier desarrollo de software basado en POO.
-
-### Nota importante
-
-#### Explicación
-
-Este fragmento de código es un archivo Markdown que sirve como nota importante para estudiantes y profesores sobre cómo generar ejercicios relacionados con la instanciación de objetos. El texto explica que esta sección no requiere crear nuevas clases personalizadas, sino utilizar los objetos ya existentes en el lenguaje de programación estudiado. Específicamente, se indica que para desarrollar actividades y ejercicios, deben seguir las directrices específicas establecidas en la carpeta "101-Ejercicios". Esto es importante porque ayuda a mantener un enfoque claro sobre el tema y asegura que los estudiantes practiquen habilidades relevantes dentro del contexto de estudio.
-
-```markdown
-Nota importante para la generación de ejercicios de esta subunidad:
-Esta subunidad trata, no la creación de clases personalizadas, sino la utilización de objetos predeterminados existentes en el propio lenguaje de programación.
-Para crear actividades, ajustate al alcance concreto de los ejercicios desarrollados en la carpeta 101-Ejercicios.
-```
+En esta subunidad se enfatiza la utilización y manipulación de objetos predeterminados disponibles en el lenguaje Python, con especial énfasis en módulos como `math`. Los ejercicios aquí proporcionan práctica en cómo importar módulos, acceder a sus funciones y métodos, y utilizarlos para resolver problemas matemáticos y científicos. Estos ejercicios son cruciales para entender la integración de herramientas ya existentes en el ecosistema Python, lo que permite a los estudiantes concentrarse en la resolución de problemas concretos sin necesidad de crear sus propias clases desde cero.
 
 ### importamos math
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-El código que has proporcionado importa el módulo `math` en Python. Este módulo contiene una serie de funciones matemáticas y constantes adicionales, como la función seno (`sin()`), coseno (`cos()`), raíz cuadrada (`sqrt()`), entre otras. Al escribir `import math`, estás incluyendo todas estas funciones en tu programa para que puedas utilizarlas fácilmente añadiendo el prefijo `math.` antes de cada función o constante, por ejemplo: `math.sin(x)`.
+Este fragmento de código es muy simple pero fundamental. La línea `import math` importa el módulo matemático estándar de Python en tu programa. Este módulo contiene muchas funciones útiles para cálculos matemáticos, como raíces cuadradas, exponenciales y senos, cosenos entre otros. Al importarlo, puedes utilizar todas estas funciones directamente en tu código, lo que te permite hacer operaciones matemáticas complejas sin tener que escribir toda la lógica desde cero.
 
-Es importante porque sin importar este módulo, no tendrías acceso a todas las operaciones matemáticas avanzadas proporcionadas por Python. Esto facilita la realización de cálculos complejos en tus programas y evita que tengas que escribir tú mismo el código para funciones matemáticas como el logaritmo o la exponencial.
+Es importante entender cómo usar los módulos de Python porque esto hace que el desarrollo de software sea más eficiente y menos propenso a errores. En lugar de reinventar ruedas, puedes aprovechar las soluciones ya probadas y disponibles en estos módulos estándar o incluso creados por la comunidad.
+
+`001-importamos math.py`
 
 ```python
 import math
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Utilización del Módulo Math
+**Descripción:** Los estudiantes deben importar y utilizar funciones específicas del módulo `math` para resolver cálculos matemáticos comunes. Se pretende que comprendan cómo se importan y utilizan bibliotecas de Python.
+
+### Actividad 2: Cálculo de Área y Perímetro
+**Descripción:** Los alumnos deben utilizar funciones del módulo math para calcular el área y el perímetro de diferentes figuras geométricas. El objetivo es que dominen la manipulación de fórmulas matemáticas en Python.
+
+### Actividad 3: Operaciones con Números Aproximados
+**Descripción:** Los estudiantes deben realizar cálculos que involucren números aproximados utilizando funciones como `round()` o `floor()`. Se espera que aprendan a manejar resultados numéricos precisamente.
+
+### Actividad 4: Comparación de Números
+**Descripción:** Utilizando operaciones matemáticas, los alumnos deben comparar dos números y determinar cuál es mayor. Esta actividad busca reforzar el uso de funciones como `max()` en Python.
+
+### Actividad 5: Conversión entre Grados y Radianes
+**Descripción:** Los estudiantes deben escribir un programa que convierta grados a radianes y viceversa, utilizando las funciones adecuadas del módulo math. Se pretende mejorar su comprensión de unidades en matemáticas.
+
+### Actividad 6: Cálculo de Potencia y Raíz Cuadrada
+**Descripción:** Los alumnos deben crear un programa que calcule la potencia y la raíz cuadrada de números dados, utilizando las funciones pertinentes del módulo math. El objetivo es practicar con operaciones matemáticas avanzadas.
+
+### Actividad 7: Generación de Números Aleatorios
+**Descripción:** Los estudiantes deben usar el módulo `random` (similar al math en estructura) para generar números aleatorios y crear un programa que simule lanzamientos de dados. Se espera mejorar su capacidad de programar simulaciones simples.
+
+### Actividad 8: Resolución de Problemas Matemáticos Complejos
+**Descripción:** Utilizando las funciones del módulo math, los alumnos deben resolver problemas matemáticos complejos como ecuaciones cuadráticas o cálculos trigonométricos. Se busca que apliquen lo aprendido a situaciones prácticas.
+
+### Actividad 9: Creación de Funciones Personalizadas
+**Descripción:** Los estudiantes deben crear funciones personalizadas que usan métodos del módulo math para resolver problemas específicos, como calcular la hipotenusa en un triángulo rectángulo. Se pretende que practiquen el desarrollo y uso de funciones propias.
+
+### Actividad 10: Análisis Estadístico Básico
+**Descripción:** Los alumnos deben utilizar las funciones del módulo math para realizar cálculos estadísticos básicos como promedios, medias geométricas y desviaciones estándar. Se espera que comprendan cómo aplicar matemáticas en análisis de datos simples.
+
+
 <a id="utilizacion-de-metodos-parametros"></a>
 ## Utilización de métodos. Parámetros
 
-En el vasto mundo de la programación, los objetos son como las piezas fundamentales que conforman una construcción sólida. Cada objeto es un contenedor de datos y métodos que trabajan juntos para realizar tareas específicas. En esta subunidad didáctica, nos adentramos en el fascinante mundo de cómo utilizar métodos y parámetros dentro de estos objetos.
+### Introducción a los ejercicios
 
-Los métodos son como las acciones que los objetos pueden realizar. Son funciones asociadas a un objeto que definen su comportamiento. Al igual que una persona puede caminar, correr o saltar, un objeto puede tener métodos para realizar ciertas operaciones. Por ejemplo, si tenemos un objeto de tipo "Coche", podemos definir métodos como "acelerar", "frenar" y "girar".
-
-Los parámetros son los valores que se pasan a estos métodos cuando se invocan. Son como las instrucciones adicionales que proporcionamos para que el método haga algo específico. Por ejemplo, si queremos acelerar nuestro coche, podemos pasar un valor como la velocidad deseada al método "acelerar". De esta manera, el objeto sabe exactamente qué hacer.
-
-La utilización de métodos y parámetros es fundamental en la programación orientada a objetos (POO). Permite una mayor modularidad y reutilización del código. Cada método puede ser invocado por diferentes partes del programa, lo que facilita su mantenimiento y escalabilidad. Además, los parámetros permiten personalizar el comportamiento de los métodos según las necesidades específicas de cada llamada.
-
-En la práctica, trabajar con métodos y parámetros implica una buena planificación y organización. Es importante definir métodos que sean claros, descriptivos y que cumplan con un solo propósito. Además, el uso adecuado de parámetros permite hacer que los métodos sean más flexibles y reutilizables.
-
-La comprensión de cómo utilizar métodos y parámetros es crucial para desarrollar programas eficientes y mantenibles. Al trabajar con objetos, estos elementos nos permiten encapsular funcionalidades relacionadas en una sola unidad, lo que facilita su uso y evita la redundancia del código. Además, el uso de parámetros nos permite adaptar el comportamiento de los métodos según las necesidades específicas de cada situación.
-
-En resumen, la utilización de métodos y parámetros es un concepto fundamental en la programación orientada a objetos. Permite una mayor modularidad, reutilización del código y flexibilidad en el diseño de programas. Al trabajar con estos elementos, podemos crear objetos que sean más potentes y versátiles, lo que facilita su uso y mantenimiento en proyectos de cualquier tamaño.
-
-Esta subunidad didáctica nos introduce en la práctica de cómo utilizar métodos y parámetros dentro de los objetos. A través de ejemplos y explicaciones detalladas, aprenderemos a definir y usar estos elementos para crear programas más eficientes y organizados. Con el tiempo y la práctica, dominaremos esta habilidad esencial que es fundamental en cualquier proyecto de programación orientada a objetos.
-
-### Nota importante
-
-#### Explicación
-
-Este bloque de texto es una nota importante dirigida a aquellos que están creando ejercicios para estudiantes. En esta subunidad, el foco está puesto en cómo utilizar objetos ya existentes dentro del lenguaje de programación elegido, no en crear clases personalizadas desde cero. Los creadores de ejercicios deben asegurarse de que los problemas planteados estén alineados con las habilidades y conocimientos específicos que se están desarrollando según lo indicado en la carpeta de ejercicios 101-Ejercicios. Esta guía es crucial para mantener coherencia y relevancia en el aprendizaje del uso de métodos y parámetros en objetos predefinidos.
-
-```markdown
-Nota importante para la generación de ejercicios de esta subunidad:
-Esta subunidad trata, no la creación de clases personalizadas, sino la utilización de objetos predeterminados existentes en el propio lenguaje de programación.
-Para crear actividades, ajustate al alcance concreto de los ejercicios desarrollados en la carpeta 101-Ejercicios.
-```
+Esta carpeta contiene ejercicios diseñados para que los estudiantes de Formación Profesional practiquen la utilización de métodos y parámetros en objetos predefinidos del lenguaje Python. Los ejercicios se centran en cómo llamar a funciones específicas (métodos) desde bibliotecas existentes, como `math`, para realizar operaciones matemáticas complejas con objetos numéricos básicos. Estos ejercicios ayudan a los estudiantes a comprender la importancia de las librerías predefinidas y cómo interactuar efectivamente con ellas mediante la invocación adecuada de métodos.
 
 ### Metodos de un objeto
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código está importando una biblioteca llamada `math` y le da el alias `matematicas`. Esto significa que puedes usar la función de esta biblioteca sin escribir el nombre largo. En este caso, se utiliza la función `sqrt`, que calcula la raíz cuadrada del número 16 y lo imprime en pantalla. Es importante porque permite realizar cálculos matemáticos avanzados con funciones predefinidas, ahorrando tiempo y evitando errores al implementarlas manualmente.
+Este fragmento de código importa el módulo `math` de Python y le da un alias `matematicas`. Luego, utiliza la función `sqrt`, que está dentro del módulo `matematicas`, para calcular la raíz cuadrada del número 16. La función `sqrt` devuelve el valor de la raíz cuadrada, que en este caso es 4, y ese resultado se imprime en pantalla mediante el uso de la función `print`. Es importante usar aliases como `matematicas` para evitar confusiones si estás utilizando múltiples módulos o funciones con nombres similares.
+
+`001-Metodos de un objeto.py`
 
 ```python
 import math as matematicas
@@ -727,10 +951,15 @@ print(matematicas.sqrt(16))
 ```
 
 ### ejemplo más esparcido
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código importa el módulo `math` de Python y lo renombra como `matematicas`. Luego, asigna el valor 16 a la variable `numero`. El siguiente paso es calcular la raíz cuadrada del número usando la función `sqrt()` que está dentro del módulo `matematicas`, y almacena este resultado en la variable `raiz`. Finalmente, imprime el valor de `raiz` en pantalla. Este código ilustra cómo usar una función matemática para realizar cálculos más complejos con números, lo cual es muy útil cuando necesitas hacer operaciones como calcular raíces cuadradas o trabajar con valores matemáticos avanzados en tus programas.
+Este fragmento de código en Python importa el módulo `math` bajo el alias `matematicas`. Luego, se define una variable llamada `numero` y se le asigna el valor 16. A continuación, se calcula la raíz cuadrada del número utilizando la función `sqrt()` del módulo `matematicas`, y el resultado de esta operación es almacenado en la variable `raiz`. Finalmente, el código imprime en pantalla el valor que contiene la variable `raiz`.
+
+Este ejemplo demuestra cómo importar un paquete externo para realizar cálculos matemáticos más complejos y cómo utilizar una función específica del paquete. Es importante conocer estas funciones porque simplifican mucho los cálculos, como calcular raíces cuadradas en este caso, sin tener que programar la fórmula desde cero.
+
+`002-ejemplo más esparcido.py`
 
 ```python
 import math as matematicas
@@ -740,44 +969,56 @@ raiz = matematicas.sqrt(numero)
 print(raiz)
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Utilización de Métodos en Objetos Matemáticos
+**Descripción:** Los estudiantes deberán importar el módulo `math` y utilizar métodos como `sqrt()` para calcular la raíz cuadrada de varios números. Esta actividad les permitirá familiarizarse con cómo acceder a métodos existentes dentro del lenguaje Python.
+
+### Actividad 2: Creación de Variables Intermedias
+**Descripción:** Los estudiantes deben modificar el código proporcionado para que las operaciones matemáticas se realicen sobre variables intermedias, lo cual les ayudará a entender la importancia de almacenar resultados parciales antes de imprimirlos.
+
+### Actividad 3: Métodos Numéricos Variados
+**Descripción:** Los estudiantes tendrán que investigar y utilizar otros métodos matemáticos del módulo `math`, como `sin()`, `cos()` o `tan()`, para calcular funciones trigonométricas de diferentes valores.
+
+### Actividad 4: Introducción a la Interactividad
+**Descripción:** Se pedirá a los estudiantes que modifiquen el código para solicitar al usuario que introduzca un número, y luego calculen su raíz cuadrada utilizando `sqrt()`. Esta actividad les enseñará cómo integrar conceptos de entrada/salida en sus programas.
+
+### Actividad 5: Redondeo Numérico
+**Descripción:** Los estudiantes tendrán que utilizar el método `round()` para redondear un número decimal proporcionado por ellos mismos o a través de la entrada del usuario. Esto les ayudará a entender cómo manejar números con precisión en Python.
+
+### Actividad 6: Comparación Numérica
+**Descripción:** Se pide a los estudiantes que creen una función simple que compare dos números utilizando métodos numéricos para determinar cuál es mayor, lo cual les permitirá aprender sobre operaciones condicionales y comparativas con objetos matemáticos.
+
+### Actividad 7: Utilización del Módulo Random
+**Descripción:** Los estudiantes deben importar el módulo `random` junto a `math`, generar un número aleatorio entre dos valores especificados, y calcular su raíz cuadrada. Esto familiarizará a los alumnos con la generación de números pseudoaleatorios.
+
+### Actividad 8: Documentación de Códigos
+**Descripción:** Se les solicita a los estudiantes que escriban comentarios en sus códigos para explicar cada método y función utilizadas, así como su propósito dentro del programa. Esto reforzará la importancia de la documentación clara y detallada en el desarrollo de software.
+
+### Actividad 9: Uso de Métodos con Parámetros
+**Descripción:** Los estudiantes deben identificar métodos que aceptan parámetros, como `math.pow(x, y)` para calcular potencias, e implementarlos en sus programas. Esto les permitirá comprender cómo pasar argumentos a funciones y métodos.
+
+### Actividad 10: Integración de Métodos Matemáticos
+**Descripción:** Los estudiantes deben combinar varios métodos matemáticos (por ejemplo, `sin()`, `cos()` y `tan()`) en un único programa para resolver problemas más complejos. Esto les ayudará a aprender cómo integrar múltiples conceptos matemáticos mediante programación.
+
+
 <a id="utilizacion-de-propiedades"></a>
 ## Utilización de propiedades
 
-En el mundo de la programación, los objetos son una construcción fundamental que nos permite modelar y representar entidades del mundo real dentro de nuestros programas. Cada objeto es una instancia de una clase, que define su estructura y comportamiento. Los objetos tienen propiedades, que son atributos que almacenan datos sobre el estado del objeto, y métodos, que definen las acciones que puede realizar.
+### Introducción a los ejercicios
 
-La utilización de propiedades en los objetos es un paso crucial para dar forma a estos entidades dentro de nuestro código. Las propiedades nos permiten almacenar información relevante y manipularla fácilmente. Por ejemplo, si estamos creando una clase `Persona`, podemos definir propiedades como `nombre`, `edad` o `email`. Cada uno de estos atributos almacena un valor específico que describe el estado del objeto.
-
-La manipulación de las propiedades es tan sencilla como acceder a ellas y cambiar su valor. Por ejemplo, si queremos cambiar el nombre de una persona, simplemente asignamos un nuevo valor a la propiedad `nombre`. Esta flexibilidad nos permite interactuar con los objetos de manera intuitiva y natural.
-
-Además de almacenar datos, las propiedades también pueden tener métodos asociados que permiten modificar su estado. Por ejemplo, en nuestra clase `Persona`, podríamos tener un método `cumplirAnios` que aumente el valor de la propiedad `edad`. Esta capacidad nos permite no solo leer los valores actuales de las propiedades, sino también cambiarlos y mantener el objeto en un estado coherente.
-
-La utilización de propiedades es una práctica común en la programación orientada a objetos, ya que facilita la representación y manipulación de datos complejos. Al definir propiedades, estamos creando una forma clara y estructurada de almacenar información dentro de nuestros objetos, lo que hace que nuestro código sea más fácil de entender y mantener.
-
-Además, las propiedades pueden tener modificadores de acceso que controlan quién puede leer o modificar su valor. Por ejemplo, podemos definir una propiedad como `privada`, lo que significa que solo el objeto mismo puede acceder a ella. Esto nos permite ocultar detalles internos del objeto y exponer solo la información relevante al resto del programa.
-
-La utilización de propiedades también facilita la implementación de patrones de diseño, como los getters y setters. Los getters son métodos que devuelven el valor actual de una propiedad, mientras que los setters son métodos que permiten modificar su valor. Esta práctica nos permite agregar lógica adicional al acceso a las propiedades, lo que puede ser útil para validar los valores asignados o realizar acciones adicionales cuando se cambia el estado del objeto.
-
-En resumen, la utilización de propiedades en los objetos es una herramienta poderosa y versátil en la programación orientada a objetos. Nos permite representar y manipular datos complejos de manera intuitiva y estructurada, facilitando la creación de programas robustos y mantenibles. Al dominar el uso de propiedades, podemos mejorar significativamente la calidad y eficiencia de nuestro código, permitiéndonos crear aplicaciones más sofisticadas y funcionales.
-
-### Nota importante
-
-#### Explicación
-
-Este fragmento de texto en Markdown es una nota importante para quienes crean ejercicios relacionados con el tema actual. La nota indica que esta subunidad se centra en cómo utilizar objetos ya existentes dentro del lenguaje de programación, no en la creación de nuevas clases personalizadas. Esto significa que los ejercicios deben enfocarse específicamente en cómo manipular y usar estos objetos predeterminados.
-
-La importancia de este enfoque radica en ayudar a los estudiantes a familiarizarse con las capacidades integradas del lenguaje, lo cual es fundamental antes de avanzar hacia la creación de clases propias. Esta nota también sugiere que cualquier actividad creada debe estar alineada con el contenido y los ejemplos presentados en la carpeta "101-Ejercicios", garantizando así una coherencia entre las tareas y lo aprendido previamente.
-
-```markdown
-Nota importante para la generación de ejercicios de esta subunidad:
-Esta subunidad trata, no la creación de clases personalizadas, sino la utilización de objetos predeterminados existentes en el propio lenguaje de programación.
-Para crear actividades, ajustate al alcance concreto de los ejercicios desarrollados en la carpeta 101-Ejercicios.
-```
+En esta subcarpeta de ejercicios, los estudiantes se centrarán en la utilización y manipulación de objetos predeterminados que existen en el lenguaje Python, con énfasis especial en sus propiedades. Los ejercicios buscan desarrollar habilidades para trabajar con módulos incorporados del sistema y entender cómo acceder a valores predefinidos como constantes matemáticas. A través de estos problemas, los estudiantes aprenderán a importar paquetes y utilizar propiedades específicas dentro del contexto de la programación orientada a objetos en Python.
 
 ### tiene propiedades
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código importa la parte de Python que se ocupa de las operaciones matemáticas y la renombra como `matematicas`. Luego, el código crea una variable llamada `PI` que contiene el valor del número pi, obtenido de la biblioteca `matematicas`. Finalmente, imprime este valor en pantalla. Es importante porque el número pi es fundamental en muchas áreas de matemáticas y programación, como calcular el área o la circunferencia de un círculo.
+Este código es muy sencillo y te muestra cómo acceder a una constante específica en el módulo de matemáticas en Python. Lo que hace este fragmento es importar la biblioteca `math` con un alias, llamándola simplemente `matematicas`. Luego, se guarda el valor de la constante π (pi) en una variable también llamada `PI`, que obtiene su valor desde `matematicas.pi`. Finalmente, el código imprime el valor de `PI` en pantalla. Esto es importante porque te permite utilizar constantes matemáticas predefinidas y hacer cálculos más precisos en tus programas.
+
+El uso de alias para bibliotecas largas como `math` facilita la lectura del código y lo hace menos tedioso, permitiéndote centrarte en el propósito específico del programa.
+
+`001-tiene propiedades.py`
 
 ```python
 import math as matematicas
@@ -787,59 +1028,60 @@ PI = matematicas.pi
 print(PI)
 ```
 
+### Actividades propuestas
+
+### Actividades Propuestas:
+
+#### 1. **Identificación y Uso de Constantes Matemáticas**
+**Descripción:** Identifica y utiliza constantes matemáticas como `math.pi` en Python para calcular el área de un círculo dado su radio. Se pretende que los estudiantes comprendan cómo acceder a las propiedades predefinidas del módulo math.
+
+#### 2. **Comparación de Constantes Matemáticas**
+**Descripción:** Escribe una función que compare dos valores numéricos, uno proporcionado por el usuario y otro obtenido mediante una propiedad del módulo `math`. Se espera que los estudiantes aprendan a utilizar propiedades matemáticas en comparaciones.
+
+#### 3. **Cálculo de Longitud con Propiedades Matemáticas**
+**Descripción:** Utiliza la constante `math.pi` para calcular y mostrar la longitud de una circunferencia dada su radio. Esta actividad busca que los estudiantes comprendan cómo aplicar propiedades matemáticas en cálculos geométricos.
+
+#### 4. **Impresión de Varias Propiedades Matemáticas**
+**Descripción:** Modifica el código existente para imprimir varias constantes del módulo `math`, como pi y e, en un solo bloque de código. El objetivo es que los estudiantes practiquen la importación y uso múltiple de propiedades.
+
+#### 5. **Cálculo de Ángulos con Trigonometría**
+**Descripción:** Implementa funciones para calcular el seno y coseno de diferentes ángulos utilizando las propiedades del módulo `math`. Se busca que los estudiantes trabajen con funciones trigonométricas predefinidas.
+
+#### 6. **Conversión de Grados a Radianes**
+**Descripción:** Escribe un programa que convierta grados en radianes usando la constante pi y las fórmulas matemáticas adecuadas. Se espera que los estudiantes utilicen correctamente propiedades matemáticas para conversiones.
+
+#### 7. **Comparación de Números con Propiedades**
+**Descripción:** Crea una función que compare dos números proporcionados por el usuario utilizando propiedades del módulo `math`, como raíz cuadrada o logaritmo, y determine cuál es mayor. Se busca mejorar la comprensión sobre el uso de propiedades matemáticas en operaciones.
+
+#### 8. **Generación de Sequencias Numéricas**
+**Descripción:** Utiliza funciones del módulo `math` para generar una secuencia numérica (por ejemplo, números primos menores a un número dado) y almacenarla en una lista o tupla. Esta actividad busca que los estudiantes apliquen varias propiedades matemáticas de manera coherente.
+
+#### 9. **Uso de Propiedades en Cálculos Complejos**
+**Descripción:** Desarrolla un programa que realice cálculos más complejos utilizando múltiples propiedades del módulo `math`, como potencias, logaritmos y funciones trigonométricas. Se pretende reforzar la comprensión de cómo combinar varias propiedades en una misma tarea.
+
+#### 10. **Creación de Tablas Numéricas**
+**Descripción:** Crea un programa que genere tablas numéricas basadas en cálculos matemáticos utilizando constantes y funciones del módulo `math`. Se espera que los estudiantes aprendan a organizar e imprimir resultados matemáticos complejos.
+
+
 <a id="utilizacion-de-metodos-estaticos"></a>
 ## Utilización de métodos estáticos
 
-En el mundo de la programación, los objetos son una construcción fundamental que nos permite modelar entidades del mundo real dentro de nuestros programas. Cada objeto tiene propiedades (datos) y métodos (funciones), lo que le confiere un comportamiento específico.
+### Introducción a los ejercicios
 
-Los métodos estáticos son un tipo especial de método que pertenecen a la clase en sí misma, no a una instancia específica del objeto. Esto significa que puedes llamar a estos métodos sin necesidad de crear un objeto de la clase. Son útiles para operaciones que no dependen del estado interno del objeto, como utilidades generales o funciones de conversión.
-
-La principal ventaja de los métodos estáticos es su independencia del contexto del objeto. No requieren acceso a variables de instancia ni a otros métodos de la clase, lo que las hace más fáciles de probar y mantener. Además, pueden ser llamados directamente desde la clase, lo que puede hacer que el código sea más limpio y organizado.
-
-La implementación de un método estático en un lenguaje como Java sería algo así:
-
-```java
-public class Matematicas {
-    public static int sumar(int a, int b) {
-        return a + b;
-    }
-}
-```
-
-Aquí, el método `sumar` es estático y puede ser llamado directamente desde la clase `Matematicas`, sin necesidad de crear una instancia del objeto:
-
-```java
-int resultado = Matematicas.sumar(5, 3);
-System.out.println("El resultado es: " + resultado);
-```
-
-Esta capacidad de llamar a métodos estáticos sin instanciar objetos puede ser muy útil en situaciones donde no necesitas el estado interno del objeto para realizar una tarea. Sin embargo, también es importante recordar que los métodos estáticos no pueden acceder directamente a las variables de instancia ni a otros métodos no estáticos de la misma clase.
-
-La utilización de métodos estáticos puede llevar a un código más limpio y organizado, especialmente cuando se realizan operaciones que son independientes del estado interno del objeto. Sin embargo, es importante mantener una buena separación entre lo que es estático y lo que no lo es para evitar problemas de mantenimiento y confusión en el código.
-
-En resumen, los métodos estáticos son una herramienta poderosa en la programación orientada a objetos, permitiendo realizar operaciones útiles sin necesidad de instanciar objetos. Sin embargo, su uso debe ser cuidadoso para mantener un diseño limpio y coherente en nuestros programas.
-
-### Nota importante
-
-#### Explicación
-
-Este fragmento de código es una nota importante escrita en Markdown que sirve como guía para aquellos que están creando ejercicios relacionados con esta subunidad del curso. La nota indica que, en lugar de enfocarse en la creación de clases personalizadas o nuevas estructuras de datos, el objetivo aquí es aprender a usar los objetos y métodos ya existentes en el lenguaje de programación que se esté utilizando. Esto es importante porque permite a los estudiantes centrarse en comprender cómo funcionan las características integradas del lenguaje antes de avanzar a la creación de sus propias clases y objetos más complejos. La nota también sugiere referirse específicamente a la carpeta 101-Ejercicios para desarrollar ejercicios dentro del alcance correcto y educativo para esta sección específica del curso.
-
-```markdown
-Nota importante para la generación de ejercicios de esta subunidad:
-Esta subunidad trata, no la creación de clases personalizadas, sino la utilización de objetos predeterminados existentes en el propio lenguaje de programación.
-Para crear actividades, ajustate al alcance concreto de los ejercicios desarrollados en la carpeta 101-Ejercicios.
-```
+En esta carpeta de ejercicios, se exploran los conceptos básicos del uso de métodos estáticos y la manipulación de objetos predefinidos en Python. Los estudiantes aprenderán a trabajar con estructuras de datos como listas y diccionarios, utilizando sus métodos integrados para realizar operaciones como ordenar elementos o crear diccionarios iniciales. El objetivo es familiarizarse con las funcionalidades incorporadas del lenguaje sin la necesidad de definir clases personalizadas, centrando así el enfoce en la aplicación práctica y directa de estos objetos predefinidos en soluciones programáticas cotidianas.
 
 ### instanciacion
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código Python muestra cómo trabajar con listas, que son una estructura de datos que almacena colecciones de elementos. En este caso, la lista se llama `frutas` y contiene tres nombres de frutas: 'platano', 'fresa' y 'naranja'. El primer `print(frutas)` sirve para mostrar en pantalla el contenido original de la lista antes de realizar cualquier cambio.
+Este fragmento de código en Python muestra cómo trabajar con listas y ordenar sus elementos. Primero, se crea una lista llamada `frutas` que contiene tres tipos diferentes de frutas: 'platano', 'fresa' e 'naranja'. Luego, se imprime la lista original usando el comando `print(frutas)`, lo que te muestra cómo están dispuestas inicialmente las frutas en la lista.
 
-Luego, el código utiliza el método `sort()` que ordena los elementos de la lista alfabéticamente. Este método modifica directamente la lista existente sin necesidad de crear una nueva. Después de llamar a este método, se imprime nuevamente la lista con `print(frutas)`, lo que muestra ahora las frutas en el orden 'fresa', 'naranja' y 'platano'.
+Después, se utiliza el método `sort()` que ordena los elementos de la lista alfabéticamente (de A a Z). Este método cambia directamente la lista existente sin necesidad de crear una nueva. Finalmente, el código imprime nuevamente la lista después de que ha sido ordenada.
 
-Este ejemplo es importante porque demuestra cómo manipular datos almacenados en listas y cómo usar métodos incorporados para cambiar o analizar esa información, lo cual es fundamental en la programación cuando trabajamos con conjuntos de datos.
+Este ejemplo es importante porque demuestra cómo manipular y organizar datos en Python utilizando métodos integrados para trabajar con listas, lo cual es fundamental cuando se trabaja con colecciones de información en programas más grandes.
+
+`001-instanciacion.py`
 
 ```python
 frutas = ['platano','fresa','naranja']
@@ -849,94 +1091,205 @@ print(frutas)
 ```
 
 ### no instancio estatico
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este fragmento de código crea un diccionario en Python llamado `frutas`. En la primera línea, se utiliza el método estático `dict.fromkeys()` para generar rápidamente este diccionario. Este método toma dos argumentos: una lista (en este caso, ["manzana", "pera", "platano"]) que actúa como conjunto de claves, y un valor por defecto (5 en este ejemplo) que se asignará a todas las claves del nuevo diccionario.
+Este fragmento de código crea un diccionario en Python y luego imprime dicho diccionario. El diccionario se inicializa usando el método estático `fromkeys()` que pertenece a la clase dict (dictionario). Este método toma dos argumentos: una lista de claves ("manzana", "pera" y "platano") y un valor predeterminado (5 en este caso). Lo que hace es crear un diccionario donde cada clave se asigna al mismo valor por defecto. En este ejemplo, el resultado será un diccionario con tres elementos: {"manzana": 5, "pera": 5, "platano": 5}. Luego, la función `print(frutas)` muestra en pantalla el contenido del diccionario recién creado.
 
-El resultado es un diccionario donde cada fruta ('manzana', 'pera' y 'platano') tiene asociado el número 5 como su valor. Por último, el código imprime este diccionario en la consola para visualizarlo.
+Este código es útil porque demuestra cómo utilizar métodos estáticos de una clase para crear objetos (en este caso, un diccionario) sin necesidad de instanciar explícitamente un objeto primero. Es decir, no se crea una variable que sea un objeto dict, sino que directamente se usa el nombre de la clase (`dict`) junto con su método estático (`fromkeys()`) para crear el diccionario. Esto simplifica la creación de estructuras de datos complejas en Python y es una forma concisa y eficiente de trabajar con los tipos integrados del lenguaje.
 
-Esta técnica es útil cuando necesitas crear rápidamente un diccionario con múltiples claves inicializadas a un mismo valor sin tener que especificar cada par clave-valor manualmente.
+`002-no instancio estatico.py`
 
 ```python
 frutas = dict.fromkeys(["manzana","pera","platano"],5)
 print(frutas)
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Manipulación de Listas con Métodos Estáticos
+
+**Descripción:** Crea una lista de frutas y utiliza métodos para ordenarla y mostrar sus elementos. Aprenderás a usar los métodos estáticos integrados en Python para manipular listas.
+
+### Actividad 2: Creación de Diccionarios usando Métodos Estáticos
+
+**Descripción:** Utiliza el método `dict.fromkeys` para crear un diccionario con claves específicas y un valor inicial. Aprenderás a usar métodos estáticos para simplificar la creación de estructuras de datos.
+
+### Actividad 3: Comparación de Listas y Diccionarios
+
+**Descripción:** Crea una lista y un diccionario, muestra sus elementos e investiga las diferencias entre ambos tipos de colección. Aprenderás a seleccionar el tipo de dato adecuado según la necesidad.
+
+### Actividad 4: Ordenamiento Personalizado en Listas
+
+**Descripción:** Escribe código para ordenar una lista de frutas de forma personalizada (por ejemplo, alfabéticamente inverso). Aprenderás cómo aplicar métodos estáticos con funcionalidades más avanzadas.
+
+### Actividad 5: Acceso a Métodos Estáticos en Clases Predefinidas
+
+**Descripción:** Investiga y utiliza los métodos estáticos disponibles para las listas y diccionarios. Aprenderás la importancia de conocer el API integrado del lenguaje.
+
+### Actividad 6: Uso de Funciones Builtin con Objetos
+
+**Descripción:** Utiliza funciones incorporadas como `len()` o `sorted()` sobre listas y diccionarios para manipular sus elementos. Aprenderás a combinar métodos estáticos y funciones predefinidas.
+
+### Actividad 7: Iteración sobre Colecciones de Datos
+
+**Descripción:** Escribe un bucle que itere sobre una lista o un diccionario, mostrando cada elemento. Aprenderás la importancia del uso de iteradores con colecciones de datos en Python.
+
+### Actividad 8: Crear y Modificar Diccionarios
+
+**Descripción:** Crea un diccionario inicialmente vacío y añade elementos a él utilizando métodos estáticos. Aprenderás cómo manipular y modificar los diccionarios dinámicamente.
+
+### Actividad 9: Utilización de Métodos Estáticos para Transformación de Datos
+
+**Descripción:** Convierte una lista en un diccionario usando métodos estáticos, luego transforma el diccionario nuevamente a una lista. Aprenderás las ventajas y aplicaciones de estos métodos en la manipulación de datos.
+
+### Actividad 10: Resolución de Problemas con Objetos Predefinidos
+
+**Descripción:** Propón soluciones para problemas comunes utilizando objetos predefinidos (listas, diccionarios) y sus métodos estáticos. Aprenderás a aplicar tus conocimientos en contextos prácticos del mundo real.
+
+
 <a id="constructores"></a>
 ## Constructores
 
-En el mundo de la programación, los constructores son una pieza fundamental que nos permite dar forma a nuestros objetos. Son como las fábricas que crean los productos finales, pero en este caso, los "productos" son instancias de clases. Un constructor es un método especial dentro de una clase que se ejecuta automáticamente cuando se crea una nueva instancia del objeto.
+### Introducción a los ejercicios
 
-Imagina que tienes una receta para hacer un pastel. La receta es como la clase, y cada vez que quieres preparar un pastel, sigues los pasos descritos en la receta. El constructor sería el primer paso de esta receta, donde especificas todos los ingredientes necesarios y las condiciones iniciales del pastel.
+En esta subunidad de Programación, te enfocarás en aprender a utilizar objetos predeterminados que existen en el lenguaje de programación elegido, sin necesidad de crear clases personalizadas. El objetivo principal es entender y aplicar correctamente los constructores de estos objetos para inicializarlos con valores específicos. Durante la realización de estos ejercicios, practicarás tus habilidades en la manipulación de objetos estándar, configurando sus propiedades iniciales de manera efectiva y segura.
 
-En programación, cuando creamos una instancia de una clase, estamos creando un objeto con todas sus propiedades y métodos definidos. Pero antes de que podamos usar este objeto, es necesario inicializarlo con valores específicos. Es aquí donde entra en juego el constructor. Nos permite establecer los valores iniciales de las variables miembro del objeto.
+### Actividades propuestas
 
-Por ejemplo, si tienes una clase `Persona` con dos atributos: `nombre` y `edad`, puedes definir un constructor que acepte estos parámetros para inicializarlos cuando se crea una nueva instancia de la clase. De esta manera, cada persona tendrá su propio nombre y edad, configurados según los valores proporcionados al crearla.
+### Actividades Propuestas
 
-Los constructores también pueden tener parámetros por defecto, lo que significa que si no se proporcionan valores al momento de crear el objeto, se utilizarán estos valores predeterminados. Esto nos brinda la flexibilidad de crear objetos con diferentes configuraciones iniciales sin necesidad de sobrecargar nuestro código.
+1. **Uso de Constructores Predeterminados**
+   - **Descripción**: Los estudiantes deben identificar y explicar cómo se utilizan los constructores predeterminados en objetos predefinidos del lenguaje de programación.
+   - **Objetivo**: Aprender a utilizar correctamente los objetos existentes sin necesidad de definir nuevos constructores.
 
-Además, los constructores pueden ser sobrecargados, lo que significa que puedes tener varios métodos constructor dentro de una misma clase, cada uno con un conjunto diferente de parámetros. Esto nos permite crear objetos de la misma clase de diferentes maneras según nuestras necesidades.
+2. **Creación de Instancias de Clases**
+   - **Descripción**: Los estudiantes crearán instancias de clases predefinidas y manipularán sus propiedades y métodos.
+   - **Objetivo**: Familiarizarse con la creación y manipulación de objetos utilizando constructores predeterminados.
 
-Es importante destacar que el constructor es el primer método que se ejecuta cuando creamos una instancia de una clase. Por lo tanto, cualquier inicialización o configuración que necesitemos hacer antes de usar el objeto debe ser realizada en este método.
+3. **Comparar Instancias de Objetos**
+   - **Descripción**: Los estudiantes deben crear instancias de una clase predefinida, compararlas entre sí para verificar su igualdad e imprimir los resultados.
+   - **Objetivo**: Aprender a utilizar operadores de comparación con objetos y entender la importancia de los constructores en esta tarea.
 
-En resumen, los constructores son un elemento esencial en la programación orientada a objetos. Nos permiten crear y configurar objetos con valores iniciales específicos, facilitando así su uso y manipulación en nuestro código. Al entender cómo funcionan y cómo utilizarlos de manera efectiva, podemos mejorar significativamente la calidad y eficiencia de nuestras aplicaciones.
+4. **Manipulación de Colecciones**
+   - **Descripción**: Los estudiantes trabajarán con colecciones predefinidas (arrays, listas, etc.) para añadir, eliminar o buscar elementos.
+   - **Objetivo**: Practicar la manipulación eficiente de estructuras de datos utilizando constructores predeterminados.
 
-### Nota importante
+5. **Trabajar con Fechas y Tiempo**
+   - **Descripción**: Crear objetos que representen fechas y tiempos, realizar operaciones como añadir días o calcular diferencias.
+   - **Objetivo**: Familiarizarse con las clases de fecha y hora predefinidas del lenguaje.
 
-#### Explicación
+6. **Uso de Objetos Matemáticos**
+   - **Descripción**: Utilizar objetos matemáticos (números complejos, matrices) para realizar operaciones aritméticas.
+   - **Objetivo**: Aprender a trabajar con tipos de datos matemáticos avanzados proporcionados por el lenguaje.
 
-Este fragmento de código es un archivo Markdown que sirve como nota importante para profesores o diseñadores de contenidos. En él se indica que esta subunidad del curso no requiere la creación de clases personalizadas, sino que los estudiantes deben utilizar objetos ya existentes en el lenguaje de programación específico que estén aprendiendo. La recomendación es que al crear ejercicios prácticos para los estudiantes, estos deberían centrarse en el uso y comprensión de esos objetos predeterminados y seguir las guías proporcionadas en la carpeta "101-Ejercicios". Esto ayuda a mantener una coherencia con el alcance del programa educativo y asegura que los ejercicios sean relevantes para lo que se está enseñando específicamente en esta subunidad.
+7. **Representación de Texto**
+   - **Descripción**: Crear objetos String y manipularlos (concatenar, dividir, buscar subcadenas).
+   - **Objetivo**: Dominar las operaciones básicas sobre cadenas de texto usando métodos predefinidos.
 
-```markdown
-Nota importante para la generación de ejercicios de esta subunidad:
-Esta subunidad trata, no la creación de clases personalizadas, sino la utilización de objetos predeterminados existentes en el propio lenguaje de programación.
-Para crear actividades, ajustate al alcance concreto de los ejercicios desarrollados en la carpeta 101-Ejercicios.
-```
+8. **Manejo de Archivos**
+   - **Descripción**: Los estudiantes deben leer y escribir archivos utilizando objetos específicos para el manejo de archivos.
+   - **Objetivo**: Aprender a utilizar los constructores adecuados para abrir, cerrar y manipular archivos desde el código.
+
+9. **Uso de Módulos Predefinidos**
+   - **Descripción**: Utilizar módulos predefinidos del lenguaje para realizar tareas como manejo de excepciones o acceso a la red.
+   - **Objetivo**: Conocer y aplicar las clases proporcionadas por los módulos integrados.
+
+10. **Aplicación Práctica**
+    - **Descripción**: Desarrollar una pequeña aplicación que use varios objetos predefinidos para resolver un problema práctico (por ejemplo, gestión de contactos).
+    - **Objetivo**: Integrar el conocimiento adquirido aplicándolo en un contexto real y desafiante.
+
+Estas actividades permitirán a los estudiantes comprender y manipular correctamente los objetos predefinidos del lenguaje de programación, desarrollando habilidades fundamentales para la resolución de problemas prácticos.
+
 
 <a id="destruccion-de-objetos-y-liberacion-de-memoria"></a>
 ## Destrucción de objetos y liberación de memoria
 
-En el vasto universo de la programación, los objetos son como personajes vivos que interactúan entre sí en un escenario digital. Cada objeto tiene su propia identidad, características y comportamientos, pero también es parte del sistema más amplio conocido como la memoria del programa.
+### Introducción a los ejercicios
 
-La destrucción de objetos y la liberación de memoria es una tarea crucial que los programadores deben entender y manejar con cuidado. Es como cuando un personaje muere en una historia: su vida se termina, pero su impacto puede seguir siendo sentido por el resto del mundo. En la programación, cuando un objeto deja de ser necesario o no es accesible desde ninguna parte del programa, debe ser eliminado para liberar los recursos que ocupaba.
+En esta subunidad se enfatiza la comprensión y manejo adecuado de la gestión de objetos en el lenguaje de programación, centrándose específicamente en la destrucción de objetos y la liberación de memoria. Los estudiantes aprenderán a identificar cuándo es necesario que un objeto sea eliminado para optimizar los recursos del sistema y evitar problemas como fugas de memoria. Esta práctica es crucial para desarrollar programas eficientes y sostenibles, especialmente en proyectos más grandes o en entornos donde la gestión de memoria es crítica.
 
-La destrucción de objetos ocurre automáticamente en muchos lenguajes de programación modernos, gracias a lo que se conoce como recolección de basura. Este proceso automático busca y elimina los objetos que ya no son utilizados, asegurando que el programa no se quede sin espacio para nuevos objetos o variables.
+### Actividades propuestas
 
-Sin embargo, en algunos lenguajes, como Java o C++, la destrucción de objetos debe ser gestionada manualmente. Es como si tuviéramos que controlar cada muerte en una historia: cuando un personaje muere, debemos asegurarnos de que su vida se termina y no deje rastro.
+### Actividad 1: Creación y Destrucción de Objetos Básicos
 
-La liberación de memoria es el siguiente paso crucial después de la destrucción del objeto. Es como recoger los objetos eliminados y colocarlos en un cesto para reciclaje. En la programación, esto implica limpiar la memoria ocupada por los objetos que ya no son necesarios, asegurando que el programa no se quede sin espacio.
+**Descripción:** Los estudiantes deben implementar un programa que cree, utilice y luego destruya objetos básicos proporcionados por el lenguaje. Se espera que comprendan la importancia de liberar recursos una vez que ya no son necesarios.
 
-La gestión de la destrucción de objetos y la liberación de memoria es importante porque puede afectar significativamente el rendimiento del programa. Si no se maneja correctamente, puede llevar a problemas como fugas de memoria, donde el programa consume más memoria de la necesaria, o incluso a errores graves que pueden hacer que el programa se detenga.
+### Actividad 2: Uso de Context Managers
 
-Para evitar estos problemas, los programadores deben entender cómo funciona la recolección de basura y aprender a gestionar manualmente la destrucción de objetos en lenguajes como Java o C++. También es crucial realizar pruebas exhaustivas para asegurar que no hay fugas de memoria ni errores relacionados con la gestión de memoria.
+**Descripción:** Los estudiantes deben utilizar context managers para asegurar que los objetos se destruyen adecuadamente al final del bloque con, evitando fugas de memoria.
 
-En resumen, la destrucción de objetos y la liberación de memoria son procesos fundamentales en la programación. Aunque pueden parecer complicados al principio, una comprensión profunda de estos conceptos puede ayudar a los programadores a crear programas más eficientes y seguros. Es como saber cómo manejar bien las muertes en una historia: es una parte importante del proceso, pero también es necesario para que la historia continúe sin problemas.
+### Actividad 3: Manejo de Recursos Conexión a BD
 
-### Nota importante
+**Descripción:** Implementar una conexión a base de datos utilizando un objeto y luego liberar correctamente dicha conexión para evitar problemas de rendimiento y seguridad.
 
-#### Explicación
+### Actividad 4: Destrucción Automática de Objetos Temporales
 
-Este fragmento de código es una nota importante escrita en Markdown que se encuentra en un archivo de texto dentro de una estructura de carpetas. La nota indica que esta subunidad del curso no se centra en la creación de clases personalizadas, sino más bien en el uso de objetos ya existentes proporcionados por el lenguaje de programación utilizado (por ejemplo, Python, JavaScript, etc.). Además, sugiere a los creadores de ejercicios que deben ajustarse al alcance específico establecido para cada ejercicio, lo cual puede encontrarse en la carpeta 101-Ejercicios. Es importante seguir esta guía para mantener coherencia y relevancia en el desarrollo de actividades educativas para los estudiantes.
+**Descripción:** Los estudiantes deben crear objetos temporales dentro de funciones o métodos que sean automáticamente destruidos al finalizar la ejecución del bloque. Esto ayudará a comprender el manejo automático de memoria en Python.
 
-```markdown
-Nota importante para la generación de ejercicios de esta subunidad:
-Esta subunidad trata, no la creación de clases personalizadas, sino la utilización de objetos predeterminados existentes en el propio lenguaje de programación.
-Para crear actividades, ajustate al alcance concreto de los ejercicios desarrollados en la carpeta 101-Ejercicios.
-```
+### Actividad 5: Identificación y Corrección de Fugas de Memoria
+
+**Descripción:** Los estudiantes analizan código con potenciales fugas de memoria y corrigiendo estos problemas para asegurar la eficiencia del programa.
+
+### Actividad 6: Comparación de Eficacia entre Diferentes Mecanismos de Liberación
+
+**Descripción:** Comparar la eficacia en términos de rendimiento y seguridad entre diferentes métodos de liberación de memoria, como el uso explícito del método `del` o context managers.
+
+### Actividad 7: Documentación sobre Buenas Prácticas de Uso de Memoria
+
+**Descripción:** Los estudiantes redactan un breve documento explicando las mejores prácticas para el manejo de objetos y liberación de memoria en Python, basándose en ejemplos de código proporcionados.
+
+### Actividad 8: Implementación de Clases con Métodos `__enter__` y `__exit__`
+
+**Descripción:** Los estudiantes deben diseñar una clase personalizada que incluya métodos `__enter__` y `__exit__`, demostrando así cómo un objeto puede ser usado dentro de un bloque with para gestionar su ciclo de vida.
+
+### Actividad 9: Pruebas Unitarias con Destrucción Automática
+
+**Descripción:** Creación y ejecución de pruebas unitarias que validen el correcto funcionamiento del método `__del__` o la liberación automática de objetos cuando no se utilizan más.
+
 
 <a id="ejercicio-de-final-de-unidad-1"></a>
 ## Ejercicio de final de unidad
 
-### actividad
+### Introducción a los ejercicios
 
-#### Explicación
+En esta unidad de programación, centraremos nuestra atención en la utilización eficiente de objetos, un concepto fundamental en el desarrollo orientado a objetos. El ejercicio proporcionado te permitirá aplicar y consolidar tus conocimientos sobre cómo crear, manipular y interactuar con diferentes tipos de objetos en tu programa. A través de este trabajo, practicarás competencias clave como la definición de clases, creación de instancias, uso de métodos y atributos, así como la gestión de relaciones entre objetos. Este ejercicio es un punto culminante que integra los temas aprendidos a lo largo del módulo, preparándote para proyectos más complejos en el futuro.
 
-Lo siento, pero no has proporcionado ningún fragmento de código en el formato Markdown para analizar. Si deseas que explique un trozo específico de código o contenido dentro del archivo .md, por favor compártelo y estaré encantado de ayudarte a entenderlo.
+### Actividades propuestas
 
-```markdown
+### Actividades Propuestas:
 
-```
+#### 1. **Clase y Objetos Básicos**
+Descripción: Los estudiantes deben crear una clase simple en Python que represente un objeto básico (por ejemplo, un libro con atributos como título y autor). Se espera que aprendan a definir clases y objetos, así como a acceder a sus propiedades.
+
+#### 2. **Métodos de Instancia**
+Descripción: Los estudiantes deben añadir métodos a la clase del ejercicio anterior para manipular los datos (por ejemplo, método para mostrar detalles del libro). Se pretende que comprendan cómo implementar y usar métodos dentro de una clase.
+
+#### 3. **Atributos Protegidos y Privados**
+Descripción: Los estudiantes deben modificar la clase creada en el ejercicio anterior para incluir atributos protegidos y privados, e implementar métodos getter y setter para acceder a estos atributos. Se espera que comprendan la importancia de encapsulación.
+
+#### 4. **Herencia entre Clases**
+Descripción: Los estudiantes deben crear una nueva clase derivada (hija) que herede de la clase base del ejercicio anterior, añadiendo nuevas características o métodos específicos. Se pretende que entiendan cómo funciona la herencia en programación orientada a objetos.
+
+#### 5. **Polimorfismo**
+Descripción: Los estudiantes deben implementar el principio del polimorfismo creando un método abstracto en una clase base y sobrescribiéndolo en clases derivadas para que cada subclase tenga su propia funcionalidad única. Se espera que aprendan a usar interfaces o métodos virtuales.
+
+#### 6. **Manejo de Excepciones**
+Descripción: Los estudiantes deben añadir manejadores de excepciones a los ejercicios anteriores, asegurándose de que el programa pueda manejar errores comunes como la invocación de un método no existente o la manipulación de datos incorrectos. Se pretende que comprendan cómo proteger su código de fallos inesperados.
+
+#### 7. **Iteradores y Generadores**
+Descripción: Los estudiantes deben crear una clase iterable para listar todos los elementos de una colección (por ejemplo, libros en un catálogo) y luego implementar generadores para generar estos elementos sobre la marcha. Se espera que aprendan a utilizar iteradores y generadores eficientemente.
+
+#### 8. **Decoradores**
+Descripción: Los estudiantes deben diseñar decoradores que puedan aplicarse a las funciones o métodos de sus clases, añadiendo funcionalidades como registro de tiempo de ejecución para métodos críticos. Se pretende que comprendan el uso y la implementación de decoradores en Python.
+
+#### 9. **Interfaz Gráfica Simple**
+Descripción: Los estudiantes deben crear una interfaz gráfica simple usando Tkinter, mostrando objetos creados a partir de las clases anteriores (por ejemplo, mostrar detalles del libro en un formulario). Se espera que aprendan a combinar programación orientada a objetos con interfaces gráficas.
+
+#### 10. **Documentación y Codificación Limpias**
+Descripción: Los estudiantes deben escribir documentación para todos los métodos de las clases creadas y mejorar la limpieza del código (por ejemplo, usando convenciones de nombres claros). Se pretende que entiendan la importancia de mantener un código bien documentado y estructurado.
+
 
 
 <a id="uso-de-estructuras-de-control"></a>
@@ -945,29 +1298,20 @@ Lo siento, pero no has proporcionado ningún fragmento de código en el formato 
 <a id="estructuras-de-seleccion"></a>
 ## Estructuras de selección
 
-En el vasto mundo de la programación, las estructuras de control son como los pilares que sostienen la construcción de nuestros programas. Esenciales para organizar y dirigir el flujo de ejecución, estas estructuras nos permiten tomar decisiones basadas en condiciones específicas, lo que es fundamental para crear software inteligente y adaptable.
+### Introducción a los ejercicios
 
-La carpeta `001-Estructuras de selección` del módulo `Programación/003-Uso de estructuras de control` se centra precisamente en este concepto crucial. Aquí, los estudiantes encontrarán una introducción a las decisiones que el programa debe tomar según ciertas condiciones. Es como un jardín de preguntas y respuestas, donde cada pregunta (condición) determina la rama por la que seguirá nuestro código.
-
-La primera lección del submódulo nos introduce al concepto básico de estructuras de selección, destacando cómo estas permiten que el programa ejecute diferentes bloques de código dependiendo de si una condición es verdadera o falsa. Es como un camino bifurcado en la selva digital, donde cada sendero representa una posible ruta para seguir.
-
-La siguiente lección profundiza en las estructuras `if`, `else` y `elif`, enseñándonos cómo estas herramientas nos permiten expresar decisiones complejas. Aprenderemos a construir sentencias que evalúan múltiples condiciones, creando un laberinto de posibilidades dentro de nuestro programa.
-
-La carpeta también incluye ejemplos prácticos y problemas resueltos, ilustrando cómo aplicar estas estructuras en situaciones reales. A través de estos ejercicios, los estudiantes pueden experimentar la magia de las decisiones programáticas, comprobando cómo un simple cambio en una condición puede alterar completamente el comportamiento del programa.
-
-Además, se aborda el tema de la optimización y la eficiencia en la selección de estructuras. Aprenderemos que no todas las estructuras son iguales, y que elegir la adecuada depende del contexto y de los requisitos específicos del problema a resolver. Es como seleccionar el mejor camino para llegar a un destino, considerando factores como la distancia, el tiempo y las condiciones meteorológicas.
-
-La carpeta también destaca la importancia de la legibilidad y la mantenibilidad en la programación. Aprenderemos que una buena estructura de selección no solo debe funcionar correctamente, sino que también debe ser fácil de entender y modificar por otros desarrolladores. Es como construir un castillo de bloques de construcción: cada pieza debe tener su lugar y significado para que todo funcione armoniosamente.
-
-Finalmente, se exploran los conceptos avanzados de las estructuras de selección, incluyendo el uso de operadores lógicos y la creación de estructuras anidadas. Aprenderemos cómo combinar múltiples condiciones en una sola sentencia, creando un jardín de posibilidades infinitas dentro de nuestro programa.
-
-En resumen, la carpeta `001-Estructuras de selección` es un viaje emocionante por el mundo de las decisiones programáticas. Desde los conceptos básicos hasta las técnicas avanzadas, ofrece una comprensión profunda y práctica del poder de las estructuras de control en la programación. Es como descubrir cómo crear un laberinto digital que nos lleve a cualquier lugar que desee, siempre y cuando sepamos cómo tomar las decisiones correctas en cada paso del camino.
+En esta carpeta, encontrarás una serie de ejercicios que te ayudarán a entender y aplicar las estructuras de selección en Python. Los ejercicios comienzan con simples condicionales `if` para evaluar condiciones básicas, como determinar si alguien es joven o no basándose en su edad. A medida que avances, se introducirán estructuras más complejas que incluyen cláusulas `else` y `elif` para manejar múltiples casos posibles. Además, practicarás la entrada de datos por consola para clasificar a personas o objetos según ciertos criterios. Estos ejercicios te permitirán mejorar tus habilidades en la toma de decisiones programáticas y el control del flujo de un programa basado en condiciones específicas.
 
 ### programacion paso a paso
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código es muy sencillo y directo. En él, se utilizan tres líneas de código para imprimir mensajes en la pantalla. Cada línea utiliza la función `print()` para mostrar un texto específico. El primer mensaje que aparece es "este es el paso 1", seguido del segundo mensaje, "este es el paso 2" y finalmente el tercer mensaje, "este es el paso 3". Este tipo de código es fundamental para entender cómo se muestran datos en la consola cuando estás programando. Es importante porque te permite verificar que tu programa está funcionando correctamente a medida que avanzas en su desarrollo.
+Este fragmento de código muestra tres instrucciones `print` seguidas entre sí. Cada una imprime en la consola un mensaje diferente, indicando los pasos 1, 2 y 3 del programa respectivamente. En este caso, no hay ninguna estructura de control ni condicional que afecte el flujo de ejecución; simplemente se realizan tres acciones secuenciales.
+
+Esta parte del código es importante porque ilustra cómo imprimir texto en la consola, lo cual es una habilidad básica para proporcionar retroalimentación al usuario y visualizar los resultados intermedios de un programa. Es útil durante el desarrollo para verificar que las partes individuales del programa estén funcionando correctamente antes de avanzar a estructuras más complejas.
+
+`001-programacion paso a paso.py`
 
 ```python
 print("este es el paso 1")
@@ -976,10 +1320,13 @@ print("este es el paso 3")
 ```
 
 ### estructura if
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este fragmento de código en Python muestra cómo usar la estructura `if` para realizar una acción condicional. Primero, se imprime el mensaje "Mi nombre es Jose Vicente" utilizando la función `print()`. Luego, se establece una variable llamada `edad` con un valor de 47. A continuación, se utiliza la estructura `if` para comprobar si la edad es menor que 30. Si la condición es verdadera (es decir, si la edad es efectivamente menor a 30), entonces el código imprime "Eres un joven!". En este caso, ya que la edad es 47 y no cumple con la condición de ser menor a 30, el mensaje dentro del `if` no se imprimirá. Esta estructura `if` permite al programa tomar decisiones basadas en condiciones específicas, lo cual es fundamental para controlar el flujo de ejecución en la programación.
+Este código muestra cómo utilizar la estructura `if` en Python para realizar una acción condicional. La línea `edad = 47` establece que la variable `edad` tiene el valor de 47 años. Luego, el programa verifica si esta edad es menor a 30 años utilizando la expresión `edad < 30`. Si esto es verdadero (lo cual no lo es en este caso, ya que 47 es mayor que 30), entonces se imprimiría "Eres un joven!". En resumen, el código evalúa una condición y ejecuta un bloque de código solo si dicha condición es cierta. Es importante entender estas estructuras de control porque permiten a los programas tomar decisiones basadas en diferentes condiciones durante su ejecución.
+
+`002-estructura if.py`
 
 ```python
 print("Mi nombre es Jose Vicente")
@@ -990,12 +1337,15 @@ if edad < 30:
 ```
 
 ### else
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este fragmento de código está diseñado para mostrar cómo funcionan las estructuras condicionales en Python, específicamente el uso del bloque `if-else`. El programa comienza imprimiendo el nombre "Mi nombre es Jose Vicente" en la pantalla. Luego, se define una variable llamada `edad` y se le asigna el valor 47.
+Este fragmento de código muestra cómo usar una estructura condicional `if-else` en Python. Primero, el programa imprime un mensaje que indica el nombre de la persona ("Mi nombre es Jose Vicente"). Luego, se establece una variable llamada `edad` con valor 47.
 
-A continuación, el código verifica si la edad almacenada en la variable `edad` es menor que 30 años. Si esta condición es verdadera (es decir, si la persona tiene menos de 30 años), el programa imprime "Eres un joven!". Sin embargo, si la condición no se cumple (la persona tiene 30 o más años), el programa ejecuta lo que está dentro del bloque `else` y muestra en pantalla "Ya no eres un joven". Este tipo de estructura es útil para tomar decisiones basadas en diferentes condiciones y permite que los programas respondan de manera diferente según la información proporcionada.
+La línea clave aquí es el bloque `if-else`. El código verifica si la edad es menor a 30 años. Si este condicional es verdadero (es decir, si la persona tiene menos de 30 años), imprime "Eres un joven!". En caso contrario, cuando la condición no se cumple (la persona tiene 30 o más años), se ejecuta el bloque `else` y muestra el mensaje "Ya no eres un joven". Esta estructura permite que el programa tome decisiones basadas en diferentes condiciones, lo cual es fundamental para controlar el flujo de la lógica en programas más complejos.
+
+`003-else.py`
 
 ```python
 print("Mi nombre es Jose Vicente")
@@ -1008,16 +1358,22 @@ else:
 ```
 
 ### else if
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código es una secuencia que utiliza estructuras de control para imprimir diferentes mensajes dependiendo de la edad del usuario. Primero, el programa imprime en pantalla "Mi nombre es Jose Vicente". Luego, establece la variable `edad` con valor 47.
+Este código es una secuencia que utiliza estructuras de selección (condicionales) para determinar en qué categoría se clasifica a una persona basándose en su edad. Primero, imprime el nombre "Mi nombre es Jose Vicente". Luego, establece la variable `edad` con un valor de 47 años.
 
-El corazón del código está en las estructuras `if`, `elif` (que significa "else if") y `else`. Estas se utilizan para evaluar diferentes rangos de edad y determinar cuál mensaje imprimir. Si la edad es menor que 10, imprime "Eres un niño!". Si no, comprueba si la edad está entre 10 y 20 años (incluyendo el 10 pero excluyendo el 20) e imprime "Eres un adolescente". Luego, verifica si la edad es de al menos 20 hasta menos de 30 años para imprimir "Eres un joven".
+El código usa varias estructuras `if`, `elif` (que significa "else if" o "sino si") y una estructura final `else`. Cada uno de estos bloques comprueba condiciones específicas sobre el valor de la edad:
 
-Si ninguna de las condiciones anteriores se cumple (es decir, la edad es 30 o mayor), el código ejecuta la cláusula `else` y muestra en pantalla "Ya no eres un joven". Esta estructura permite al programa tomar decisiones basadas en rangos específicos de valores.
+1. Si `edad` es menor que 10, imprime "Eres un niño!".
+2. Si no cumple con la condición anterior pero `edad` está entre 10 y 20 (inclusive), imprime "Eres un adolescente".
+3. Si aún no se cumplen las condiciones anteriores pero `edad` está entre 20 y 30 (inclusive), imprime "Eres un joven".
+4. Si ninguna de las condiciones anteriores es verdadera, lo que significa que la edad es mayor o igual a 30 años, entonces imprime "Ya no eres un joven".
 
-Este tipo de estructuras son muy útiles en programación para permitir que nuestros programas tomen distintas ramificaciones dependiendo de las condiciones, lo cual es clave para crear software interactivo y adaptable.
+Este tipo de estructuras condicionales son fundamentales en programación para tomar decisiones basadas en diferentes situaciones y permiten al programa ejecutar diferentes bloques de código dependiendo de las condiciones que se presentan.
+
+`004-else if.py`
 
 ```python
 print("Mi nombre es Jose Vicente")
@@ -1034,14 +1390,17 @@ else:
 ```
 
 ### entrada
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código es una pequeña aplicación que te ayuda a determinar en qué categoría de edad te encuentras según el número que ingreses. Primero, muestra un mensaje amigable que invita al usuario a introducir su edad. Luego, captura lo que el usuario teclea y lo guarda en la variable `edad`, pero inicialmente esta es un texto (string). A continuación, convierte esa entrada de texto a un número entero para poder realizar comparaciones numéricas.
+Este código es un ejemplo básico de cómo usar estructuras condicionales en Python para clasificar la edad de una persona. El programa comienza pidiendo al usuario que introduzca su edad. Es importante destacar que la función `input()` siempre devuelve un valor tipo cadena (string), por lo que se debe convertir a número entero con `int()` antes de poder hacer comparaciones numéricas.
 
-El programa utiliza una estructura de control llamada "if-elif-else" que revisa condiciones específicas y decide qué mensaje imprimir dependiendo de la edad ingresada. Si tu edad es menor a 10, te dirá que eres un niño; si estás entre 10 y 20 años, serás catalogado como adolescente; y si tienes entre 20 y 30 años, serás considerado joven. Si no corresponde a ninguna de estas categorías (por ejemplo, si tienes más de 30 años), el programa simplemente te informará que ya no eres un joven.
+Después, el código utiliza una estructura condicional compuesta por varias cláusulas `if`, `elif` y `else`. Si la edad es menor que 10, imprime "Eres un niño!". Si la edad está entre 10 y 20 años (inclusive), imprime "Eres un adolescente". Para edades de 20 a 30 años, se imprime "Eres un joven". Y si ninguna de estas condiciones se cumple, es decir, si la edad es mayor o igual que 30, el programa informa que "Ya no eres un joven".
 
-Este tipo de estructuras esenciales permiten al software tomar decisiones basadas en la información ingresada por los usuarios, lo cual es muy útil para crear programas interactivos y personalizados.
+Este tipo de código es útil en situaciones donde necesitas tomar decisiones basadas en rangos específicos de datos numéricos, como clasificar información demográfica por grupos etarios.
+
+`005-entrada.py`
 
 ```python
 print("Clasificador incómodo por edades")
@@ -1059,19 +1418,17 @@ else:
 ```
 
 ### simulacro de actividad
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este programa es una herramienta sencilla que ayuda a clasificar a los pilotos en función de la posición en la que han quedado tras una carrera. El usuario debe ingresar su posición final como un número, y el programa mostrará un mensaje específico dependiendo del puesto ocupado.
+Este código es un programa sencillo que clasifica a los pilotos de carreras basándose en la posición final en la que quedaron. El programa comienza pidiéndote que introduzcas tu posición en una carrera, y luego compara esta posición con diferentes rangos para determinar un mensaje específico.
 
-El programa comienza pidiéndote que introduzcas tu posición final en la carrera. Luego, convierte esa entrada de texto a un número entero para poder hacer comparaciones numéricas con ella. A continuación, utiliza una serie de condiciones (if, elif y else) para determinar el mensaje apropiado basado en el valor que has introducido:
+El programa utiliza estructuras de control `if` y `elif` (que significa "else if" o "si no") para clasificar la posición del piloto. Si el piloto quedó en primera posición, se le felicita diciendo que es el campeón. Para las posiciones 2 y 3, el mensaje indica que ha subido al podio y hace un reconocimiento de su trabajo. Para los lugares entre el cuarto lugar y el décimo, el programa informa que el piloto ha conseguido puntos en el campeonato. Finalmente, si la posición es mayor o igual a la undécima, se le anima a seguir entrenando ya que no consiguió puntos.
 
-- Si tu posición es 1, recibirás la felicitación por ser campeón.
-- Si obtienes el segundo o tercer lugar, te felicitarán por subir al podio.
-- Si clasificas entre el cuarto y el décimo puesto, se informará que has conseguido puntos en el campeonato.
-- Finalmente, si no consigues un puesto dentro del top 10, recibes una motivación para seguir trabajando duro.
+La importancia de este código radica en cómo utiliza condiciones y comparaciones lógicas para clasificar información y proporcionar retroalimentación basada en una entrada del usuario. Esto es útil tanto para el aprendizaje de estructuras condicionales como para la creación de programas que toman decisiones basadas en entradas numéricas o categorías específicas.
 
-Este tipo de programa es útil porque proporciona retroalimentación inmediata y personalizada basada en los resultados, lo que puede ser muy motivador o desafiante según la posición obtenida.
+`006-simulacro de actividad.py`
 
 ```python
 '''
@@ -1107,32 +1464,54 @@ elif posicion_final >=11:
 print(mensaje)
 ```
 
+### Actividades propuestas
+
+### Actividades Propuestas
+
+#### 1. Clasificación por Edad Simples
+**Descripción:** Diseña un programa que solicite al usuario su edad y clasifique si es niño, adolescente o adulto basándose en los criterios de edades presentes en el ejercicio `004-else if.py`. El objetivo es reforzar la comprensión del uso múltiple de estructuras condicionales.
+
+#### 2. Mejora del Clasificador
+**Descripción:** A partir del programa existente en `005-entrada.py`, modifica el clasificador para que además de "niño", "adolescente" y "joven", incluya nuevas categorías como "adulto mayor". Se espera que los estudiantes aprendan a manejar condiciones anidadas.
+
+#### 3. Posición Final en Carrera
+**Descripción:** Replica la lógica del programa presentado en `006-simulacro de actividad.py` pero cambia las clasificaciones y mensajes para una competencia deportiva diferente (por ejemplo, ciclismo). Esto ayudará a entender cómo se aplica el uso de condiciones en situaciones prácticas.
+
+#### 4. Evaluación Académica
+**Descripción:** Crea un programa que permita al usuario ingresar su calificación académica y muestre su nivel basándose en rangos de puntuación (ejemplo: excelente, bueno, regular). Se pretende enseñar la aplicación práctica del uso de `elif`.
+
+#### 5. Comprobar Año Bisiesto
+**Descripción:** Diseña un programa que solicite al usuario ingresar un año y determine si es bisiesto o no. Este ejercicio ayudará a los estudiantes a practicar el uso de condiciones complejas.
+
+#### 6. Clasificación de Temperaturas
+**Descripción:** Elabora un script que permita clasificar las temperaturas ingresadas por el usuario en categorías como frío, templado y calor, basándose en umbrales establecidos previamente. El objetivo es mejorar la comprensión del uso condicional con rangos de valores.
+
+#### 7. Cálculo de Impuestos
+**Descripción:** Desarrolla un programa que solicite al usuario su ingreso anual y calcule el monto del impuesto a pagar basándose en diferentes tarifas según el nivel del ingreso (por ejemplo, porcentajes progresivos). Se espera que los estudiantes aprendan la aplicación de múltiples condiciones para manejar escalas.
+
+#### 8. Evaluación Final del Curso
+**Descripción:** Crea un programa que solicite al usuario ingresar su calificación final en el curso y muestre si aprobó, reprobó o obtuvo matrícula con honores, basándose en rangos específicos de puntuaciones. Esto ayudará a los estudiantes a entender cómo se aplica la estructura condicional para realizar evaluaciones.
+
+Estas actividades buscan refinar las habilidades básicas y avanzadas en el uso de estructuras condicionales (`if`, `elif`, `else`) a través de ejercicios prácticos que simulan situaciones reales.
+
+
 <a id="estructuras-de-repeticion"></a>
 ## Estructuras de repetición
 
-En el vasto mundo de la programación, las estructuras de control son como los pilares que sostienen una construcción. Una de estas estructuras es la repetición, un concepto fundamental que permite a los programas realizar acciones múltiples veces bajo ciertas condiciones. En esta subunidad didáctica, nos adentramos en el estudio de las estructuras de repetición, que son herramientas poderosas para automatizar tareas y optimizar procesos.
+### Introducción a los ejercicios
 
-La primera estructura de repetición que exploramos es la **sentencia `for`**. Esta estructura se utiliza cuando sabemos exactamente cuántas veces queremos que un bloque de código se ejecute. Es como decirle a tu robot: "Repite esto 10 veces". La sintaxis de una sentencia `for` suele ser sencilla y directa, permitiendo definir el número de repeticiones con precisión.
-
-Después de la sentencia `for`, nos encontramos con la **sentencia `while`**. Esta estructura es más flexible que la anterior, ya que se ejecuta mientras una condición específica sea verdadera. Es como decirle a tu robot: "Haz esto mientras no llegues al final del camino". La ventaja de esta estructura radica en su capacidad para manejar situaciones donde el número exacto de repeticiones es incierto o depende de ciertos eventos.
-
-La subunidad también aborda la importancia de **la optimización de bucles**. Aunque las estructuras de repetición son útiles, su uso excesivo puede llevar a problemas de rendimiento. Es como cuando intentas recoger una cesta de juguetes con un solo brazo: es posible, pero no eficiente. La optimización implica encontrar el equilibrio perfecto entre la cantidad de repeticiones y la eficiencia del código.
-
-Además, se introduce el concepto de **la sentencia `break`** y la **sentencia `continue`**. Estas sentencias son como los comandos especiales en un juego: `break` es como decirle a tu robot: "Detente todo ahora", mientras que `continue` es como decirle: "Pasa al siguiente turno, pero no hagas nada más". Son herramientas valiosas para controlar el flujo de ejecución dentro de los bucles.
-
-La subunidad también explora la **programación funcional** y cómo las estructuras de repetición pueden ser utilizadas en este paradigma. En programación funcional, las funciones son ciudadanos de primera clase, lo que significa que se pueden tratar como cualquier otro tipo de dato. Las estructuras de repetición pueden ser implementadas mediante funciones recursivas o utilizando bibliotecas específicas.
-
-Finalmente, la subunidad concluye con ejercicios prácticos diseñados para aplicar los conocimientos adquiridos sobre las estructuras de repetición. Estos ejercicios son como el desafío final en un juego: requieren práctica y paciencia para resolverlos correctamente. A través de estos ejercicios, los estudiantes pueden experimentar la eficacia de las estructuras de repetición en diferentes contextos y aprender a optimizar su uso.
-
-En resumen, esta subunidad didáctica es una introducción profunda a las estructuras de repetición en programación. Desde el concepto básico hasta técnicas avanzadas y aplicaciones prácticas, cada capítulo proporciona un paso más hacia la comprensión completa de cómo controlar el flujo de ejecución en los programas.
+En esta carpeta, encontrarás una serie de ejercicios en Python diseñados para practicar el uso de estructuras de repetición, específicamente los bucles `for` y `while`. Los ejercicios comienzan con bucles simples que recorren un rango determinado de días del mes y avanzan hacia bucles anidados que permiten la iteración sobre múltiples años, meses y días. Estos ejercicios te ayudarán a entender cómo controlar el flujo del programa mediante estructuras repetitivas complejas, mejorando así tus habilidades en la programación orientada a la resolución de problemas diarios con bucles anidados y condicionales.
 
 ### for
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código utiliza un bucle `for` en Python para imprimir una frase que indica el día del mes durante todo el mes. La función `range(1, 31)` genera una secuencia de números desde 1 hasta 30, lo que significa que el bucle se ejecutará 30 veces. En cada iteración, la variable `dia` toma un valor diferente según la secuencia generada por `range`. El comando `print("Hoy es el dia", dia, "del mes")` muestra en pantalla una frase con el número del día que cambia en cada vuelta del bucle.
+Este código muestra cómo utilizar un bucle `for` en Python para repetir una acción durante varios días. En este caso, el bucle se ejecuta desde el día 1 hasta el día 30 (no incluye al día 31). La función `range(1, 31)` genera una secuencia de números que van del 1 al 30. Dentro del bucle, la variable `dia` toma cada uno de estos valores en orden y se imprime un mensaje que indica qué día es del mes actual.
 
-Este tipo de estructura es muy útil cuando necesitas realizar una tarea repetitiva durante un período definido, como recorrer todos los días de un mes o contar desde un inicio hasta un final específico. Ayuda a automatizar tareas y evita la escritura manual tediosa de instrucciones similares para cada día del mes.
+Este tipo de estructura es muy útil cuando necesitas realizar tareas repetitivas con una cantidad específica de iteraciones conocidas, como en este caso contar los días de un mes. Es importante entender cómo funcionan las secuencias `range` para poder crear rangos numéricos personalizados que se ajusten a nuestras necesidades específicas.
+
+`001-for.py`
 
 ```python
 for dia in range(1,31):
@@ -1140,10 +1519,17 @@ for dia in range(1,31):
 ```
 
 ### primera anidacion
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código utiliza estructuras de repetición anidadas para imprimir una frase que indica la fecha en formato "día del mes" para cada combinación posible de días y meses dentro de un año. La parte externa del bucle `for` recorre los números de 1 a 12, representando los meses del año. Dentro de este bucle, hay otro bucle `for` que itera sobre los números de 1 a 30, simbolizando los días de cada mes (aunque algunos meses tienen menos de 30 días, este código asume que todos tienen hasta 30). En cada iteración del bucle interno, se imprime la frase con el día y el mes actuales. Este tipo de estructura es útil para generar fechas sistemáticas o realizar tareas repetitivas basadas en un calendario simplificado.
+Este código utiliza dos bucles anidados para imprimir la fecha en formato "día del mes" para cada día de un año. El bucle externo `for mes in range(1, 13):` recorre los meses del 1 al 12, es decir, desde enero hasta diciembre. Dentro de este bucle, hay otro bucle `for dia in range(1, 31):` que itera sobre los días del 1 al 30.
+
+El bucle interno imprime la fecha actual en cada iteración, mostrando "Hoy es el día X del mes Y", donde X y Y son valores numéricos correspondientes al día y mes actuales en las respectivas variables `dia` e `mes`. 
+
+Es importante notar que este código asume todos los meses tienen 31 días para simplificar la ilustración, lo cual no es correcto desde el punto de vista real (algunos meses tienen menos). Sin embargo, esta aproximación sirve bien como ejemplo didáctico de cómo anidar bucles en Python.
+
+`002-primera anidacion.py`
 
 ```python
 for mes in range(1,13):
@@ -1152,14 +1538,17 @@ for mes in range(1,13):
 ```
 
 ### segunda anidacion
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este fragmento de código Python muestra un ejemplo práctico del uso de estructuras de repetición anidadas. El objetivo principal es imprimir una frase que indica la fecha en formato "día, mes y año" para cada combinación posible dentro de ciertos límites: desde el día 1 hasta el día 30 (aunque no considera febrero ni años bisiestos), del mes 1 al mes 12, y del año 1978 hasta el año 2025.
+Este código Python muestra un ejemplo de cómo se utilizan las estructuras de repetición anidadas (uno dentro del otro) para recorrer fechas en un rango específico. En este caso, el programa imprime la fecha actual en formato "Hoy es el día [día] del mes [mes] del año [año]" para cada combinación de día, mes y año dentro de los rangos especificados.
 
-El código utiliza tres bucles "for" anidados: uno para los años que comienza en 1978 y termina en 2025 (el rango no incluye al final 2026), otro para los meses de enero a diciembre, y el último para los días desde el primero hasta el trigésimo. Para cada combinación única de año, mes y día, la función `print` muestra un mensaje que indica la fecha actual.
+El código empieza con un bucle `for` que recorre todos los años desde 1978 hasta 2025 (el límite superior no se incluye). Dentro del bucle anidado para el año, hay otro bucle `for` que va de enero a diciembre. Finalmente, dentro del bucle para el mes, hay un tercer bucle `for` que recorre los días desde 1 hasta 30. Esta estructura permite iterar sobre todas las posibles combinaciones de día, mes y año dentro del rango especificado.
 
-Es importante notar que este código imprime fechas con un día que va hasta el 30, lo cual es inexacto ya que algunos meses tienen menos días (por ejemplo, febrero en años no bisiestos). Sin embargo, como ejercicio para estudiantes de programación, ayuda a entender cómo funcionan las estructuras anidadas y la manipulación básica de datos.
+Es importante notar que este código imprime fechas incluso cuando no son válidas (como el 31 de febrero), ya que no se ha implementado ninguna lógica para verificar la validez de cada fecha. Sin embargo, es útil como ejemplo didáctico sobre cómo funcionan los bucles anidados en Python.
+
+`003-segunda anidacion.py`
 
 ```python
 for anio in range(1978,2026):
@@ -1169,10 +1558,13 @@ for anio in range(1978,2026):
 ```
 
 ### while
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código en Python muestra cómo utilizar un bucle `while` para repetir una acción varias veces. En este caso, la acción es imprimir en pantalla "hoy es el día [número] del mes". La variable `dia`, inicializada con el valor 1, se utiliza como condición de paro: mientras `dia` sea menor que 31, el bucle seguirá ejecutándose y mostrando el número actual del día. Después de imprimir cada mensaje, la variable `dia` aumenta en uno mediante una instrucción implícita (generalmente después del bloque print habría un incremento como `dia = dia + 1`, aunque aquí se asume que es parte integrante del flujo lógico del bucle). Este tipo de estructura es importante porque permite automatizar tareas repetitivas, como en este caso contar o marcar los días sucesivos de un mes.
+Este fragmento de código utiliza un bucle `while` para imprimir una frase que indica el día actual del mes durante los primeros 30 días. El programa comienza estableciendo la variable `dia` en 1 y luego entra en el ciclo `while`, que se repetirá mientras `dia` sea menor a 31. En cada iteración, imprime en pantalla un mensaje que indica cuál es el día actual del mes (por ejemplo, "hoy es el dia 1 del mes"). Después de imprimir este mensaje, el valor de `dia` aumenta en uno, permitiendo que se siga cumpliendo la condición del bucle hasta llegar al día 30. Este tipo de estructura es útil cuando necesitas realizar una acción repetidamente hasta alcanzar un límite específico.
+
+`004-while.py`
 
 ```python
 dia = 1
@@ -1181,10 +1573,13 @@ while dia < 31:
 ```
 
 ### le tenemos que decir cual es el final
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este fragmento de código utiliza un bucle `while` para imprimir una frase que indica cuál día del mes es, desde el primer día hasta el trigésimo. La variable `dia`, inicializada con el valor 1 al comienzo, se incrementa en uno cada vez que se ejecuta el bucle, gracias a la línea `dia += 1`. El bucle continúa mientras `dia` sea menor que 31 (`while dia < 31:`), lo que significa que imprimirá una frase para los primeros 30 días del mes. Este tipo de estructura es útil cuando necesitas repetir acciones durante un número específico de veces, como contar o marcar eventos diarios en un calendario.
+Este código utiliza un bucle `while` para imprimir la frase "hoy es el día [número] del mes" desde el día 1 hasta el día 30. La variable `dia` inicialmente se establece en 1 y luego, dentro del bucle, se incrementa en 1 con cada iteración gracias a la línea `dia += 1`. El bucle continúa ejecutándose mientras `dia` sea menor que 31, lo que garantiza que imprima el número correcto de días. Esta estructura es útil para tareas que requieren un recorrido específico por una serie de números en orden secuencial, como contar los días del mes o realizar acciones diarias repetitivas.
+
+`005-le tenemos que decir cual es el final.py`
 
 ```python
 dia = 1
@@ -1193,34 +1588,58 @@ while dia < 31:
   dia += 1
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Contar Días del Mes con un Bucle `for`
+**Descripción:** Escribe una secuencia de comandos que imprima cada día del mes utilizando un bucle `for`. Este ejercicio te ayudará a entender cómo funciona la estructura de control `for` en Python y cómo iterar sobre una serie numérica.
+
+### Actividad 2: Anidar Bucles para Representar Días y Meses
+**Descripción:** Usa anidación de bucles para imprimir la fecha completa (día del mes) por cada día durante todo el año. Este ejercicio te permitirá entender cómo se pueden combinar múltiples estructuras de control para resolver problemas más complejos.
+
+### Actividad 3: Anidar Bucles en Tres Niveles
+**Descripción:** Escribir un programa que muestre las fechas completas (día, mes y año) por cada día del año. Este ejercicio profundiza el uso de bucles anidados para la representación temporal detallada.
+
+### Actividad 4: Contar Días con Bucle `while`
+**Descripción:** Usa un bucle `while` para contar los días de un mes dado. Esto te ayudará a entender cómo funciona la estructura condicional `while` y cómo se maneja el conteo manual.
+
+### Actividad 5: Usando Condición `while` con Incremento Manual
+**Descripción:** Escribe un programa que imprima los números del uno al treinta usando un bucle `while`. Este ejercicio muestra cómo controlar la finalización de un bucle en función de una condición y cómo incrementar el contador manualmente dentro del mismo.
+
+### Actividad 6: Imprimir Números Pares con Bucle `for`
+**Descripción:** Crea un programa que imprima los números pares desde el uno hasta el treinta. Aprenderás a usar condiciones en bucles para filtrar y mostrar solo ciertos tipos de valores (en este caso, números pares).
+
+### Actividad 7: Contador Desendente con Bucle `while`
+**Descripción:** Usa un bucle `while` para contar hacia atrás desde el treinta hasta el uno. Este ejercicio te enseñará a manejar contadores en desenso y a usar condiciones de finalización.
+
+### Actividad 8: Anidar Bucles Para Imprimir Tabla del Número
+**Descripción:** Escribe un programa que imprima la tabla de multiplicar de cualquier número dado hasta el quince. Utilizarás anidación de bucles para resolver este problema, lo cual te permitirá aprender cómo combinar estructuras en un solo código.
+
+### Actividad 9: Contador Dinámico con Bucle `while`
+**Descripción:** Crea un programa que cuente los días del mes pero permite al usuario introducir el número final. Esto te enseñará a integrar la entrada de datos y a manejar valores dinámicos dentro de estructuras condicionales.
+
+### Actividad 10: Bucle `for` con Condición Interna
+**Descripción:** Escribir un programa que use bucles `for` para imprimir solo los números impares del uno al treinta. Aprenderás a combinar bucles con condiciones internas para controlar la salida basada en criterios específicos.
+
+
 <a id="estructuras-de-salto"></a>
 ## Estructuras de salto
 
-En el vasto universo de la programación, las estructuras de control son como los pilares que sostienen la construcción de algoritmos. Estas estructuras permiten a los programadores dirigir el flujo de ejecución del programa según ciertas condiciones o patrones específicos. En esta subunidad didáctica, nos adentramos en el fascinante mundo de las estructuras de salto, que son un elemento fundamental para controlar la dirección y velocidad de la ejecución de nuestro código.
+### Introducción a los ejercicios
 
-La primera estructura de salto que exploramos es el `if-else`, una construcción que permite tomar decisiones basadas en condiciones booleanas. Este esencialmente dice: "Si esta condición se cumple, realiza esto; si no, realiza algo diferente". Es como un interruptor que decide qué camino seguir según las circunstancias.
-
-El siguiente paso en nuestro viaje por las estructuras de salto es el `switch-case`, una alternativa más eficiente para múltiples condiciones. Este tipo de estructura permite evaluar una expresión y ejecutar diferentes bloques de código dependiendo del valor de esa expresión. Es como tener varias puertas que conducen a diferentes habitaciones, pero solo una se abre según el valor de la llave.
-
-La importancia de las estructuras de salto no puede ser subestimada. Nos permiten crear programas que respondan dinámicamente a los cambios en el entorno y que tomen decisiones basadas en datos variables. Estas estructuras son esenciales para implementar algoritmos complejos, manejar errores y excepciones, y optimizar la eficiencia del código.
-
-Además de las estructuras básicas `if-else` y `switch-case`, también exploramos el uso de bucles, que son una forma poderosa de repetir un bloque de código hasta que se cumpla una condición específica. Los bucles `for` e `while` nos permiten automatizar tareas repetitivas y procesar listas o conjuntos de datos de manera eficiente.
-
-La comprensión y uso adecuado de las estructuras de salto es crucial para cualquier programador, ya que son la base sobre la cual se construyen algoritmos complejos y programas robustos. Cada estructura tiene sus propias características y ventajas, y aprender a elegir la más apropiada en cada situación es una habilidad valiosa.
-
-A medida que avanzamos en nuestra exploración de las estructuras de control, nos encontraremos con técnicas más sofisticadas como el `break` y el `continue`, que nos permiten alterar el flujo de ejecución dentro de bucles. El `break` nos ayuda a salir prematuramente de un bucle cuando se cumple una condición específica, mientras que el `continue` nos permite saltar a la siguiente iteración sin ejecutar el resto del código dentro del bucle.
-
-Finalmente, es importante destacar que las estructuras de salto no son solo herramientas técnicas; también son fundamentos para la lógica y la pensamiento computacional. Aprender a controlar el flujo de ejecución con precisión nos prepara para abordar problemas complejos en programación y crear soluciones eficientes y efectivas.
-
-En conclusión, las estructuras de salto son una parte esencial del lenguaje de la programación, permitiendo a los desarrolladores controlar el flujo de ejecución de manera precisa y eficiente. A través de esta subunidad didáctica, hemos explorado sus fundamentos y aplicaciones, preparándonos para enfrentar desafíos más complejos en el mundo del desarrollo de software.
+Esta carpeta contiene una serie de ejercicios diseñados para introducir y practicar el uso de estructuras de control y funciones en Python. Los estudiantes aprenderán sobre la implementación del bucle `while` junto con la sentencia `break`, que permite salir anticipadamente de un ciclo cuando se cumple cierta condición, como finalizar la impresión de días una vez alcanzado el día 31. Además, los ejercicios abordan cómo definir y utilizar funciones en Python, desde su creación básica hasta pasar parámetros y devolver valores con la sentencia `return`. Estos ejercicios son fundamentales para desarrollar las habilidades necesarias para manejar flujos de control complejos y organizar el código en estructuras reutilizables.
 
 ### break
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código muestra cómo utilizar un bucle `while` infinito junto con la instrucción `break` en Python. La variable `dia` se inicializa en 1, y luego comienza un bucle que se repite indefinidamente (`while True:`). En cada iteración del ciclo, el programa imprime cuál es el día actual (desde el primer hasta el trigésimo primer día) y aumenta el valor de `dia` en uno. Cuando la variable `dia` supera el número 31, se ejecuta la instrucción `break`, lo que rompe el bucle e interrumpe la repetición del código.
+Este código muestra cómo usar la estructura `break` en un bucle `while`. La función principal de este fragmento es imprimir los números del 1 al 31, que representan los días de un mes. 
 
-Esta estructura es importante porque permite controlar precisamente cuándo debe terminar un bucle infinito, evitando que se ejecute de manera indefinida y consuma recursos innecesariamente. En este caso específico, aseguramos que el programa solo imprima los días hasta 31, simulando la duración típica de un mes en muchos países, aunque el bucle podría continuar si no hubiera una condición `if dia > 31:` para detenerlo con `break`.
+El código comienza estableciendo una variable llamada `dia` a 1. Luego entra en un bucle infinito (`while True:`) que se ejecutará indefinidamente hasta que se cumpla la condición para salir del bucle con el comando `break`. Dentro del bucle, se imprime el número actual de día y luego incrementa este valor en 1. Si después de la suma, el valor de `dia` es mayor que 31, se ejecuta la instrucción `break`, lo cual hace que el programa salga inmediatamente del bucle.
+
+Esta estructura es útil cuando necesitas detener un ciclo repetitivo prematuramente basado en una condición específica. En este caso, evita que el código imprima días "ficticios" más allá de los 31 días típicos de un mes.
+
+`001-break.py`
 
 ```python
 dia = 1
@@ -1232,10 +1651,17 @@ while True:
 ```
 
 ### mi primera funcion
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código es una función básica en Python que se llama `dihola`. Una función en programación es un bloque de código reutilizable diseñado para realizar una tarea específica. En este caso, cuando llamas a la función `dihola()`, lo que hace es imprimir el mensaje "Hola, yo te saludo" en la pantalla. Es importante porque permite organizar y simplificar tu programa al encapsular acciones específicas dentro de bloques reutilizables de código, facilitando así su mantenimiento y lectura.
+Este fragmento de código define una función llamada `dihola` en Python. Una función es como un pequeño programa dentro de tu programa principal que realiza tareas específicas cuando se le llama. En este caso, la función `dihola` no recibe ningún dato de entrada y su tarea es imprimir el mensaje "Hola, yo te saludo" cada vez que se ejecuta.
+
+La línea `def dihola():` indica que estamos definiendo una nueva función llamada `dihola`. Todo lo que está indentado después de esta línea (en este caso, la línea con `print`) es parte de esta función. Cuando en tu código llamas a esta función usando `dihola()`, el programa ejecuta el contenido de esa función, es decir, imprime "Hola, yo te saludo".
+
+Es importante porque permite organizar el código en partes manejables y reutilizables, lo que facilita la escritura y lectura del código al descomponer tareas complejas en pasos más pequeños.
+
+`002-mi primera funcion.py`
 
 ```python
 def dihola():
@@ -1244,10 +1670,15 @@ def dihola():
 ```
 
 ### ejecuto la funcion
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este fragmento de código en Python muestra cómo se define y ejecuta una función simple. La función se llama `diHola` y su tarea es imprimir el mensaje "Hola, yo te saludo" cuando sea llamada. Cuando defines una función, estás creando un bloque de código que puedes reutilizar varias veces durante la ejecución del programa sin tener que volver a escribirlo desde cero. En este caso, después de definir `diHola()`, el programa llama a esta función con la línea `diHola()` lo que hace que se imprima el saludo en pantalla. Este es un ejemplo básico pero fundamental de cómo organizar y reutilizar código en Python, lo cual es una habilidad clave en programación ya que ayuda a mantener el código limpio y fácil de entender.
+Este código es muy sencillo y está diseñado para introducir el concepto de funciones en Python. En primer lugar, se define una función llamada `diHola` que, cuando se ejecuta, imprime un mensaje "Hola, yo te saludo" en la pantalla. La definición de la función comienza con la palabra clave `def`, seguida del nombre de la función y paréntesis vacíos, ya que esta función no necesita recibir ningún dato adicional (también conocidos como argumentos o parámetros). Después de esto, se coloca un bloque de código indentado dentro del cual está el comando `print()` que imprime el saludo en la consola.
+
+Después de definir la función, el código llama a esta función con el nombre seguido de paréntesis vacíos (`diHola()`). Esto ejecuta todas las instrucciones que están dentro de la función `diHola`, lo que significa que se imprime el mensaje "Hola, yo te saludo". Es importante porque muestra cómo podemos reutilizar un bloque de código específico en diferentes partes del programa simplemente llamando a su nombre, lo cual mejora la organización y legibilidad del código.
+
+`003-ejecuto la funcion.py`
 
 ```python
 def diHola():
@@ -1257,10 +1688,15 @@ diHola()
 ```
 
 ### parametros
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este fragmento de código muestra cómo se define y utiliza una función en Python. La función se llama `diHola` y su propósito es imprimir un saludo que incluye el nombre que le pasas como argumento. Dentro de la definición de la función, hay una línea `print("Hola,",nombre," yo te saludo")`, lo cual significa que cuando llamas a esta función con un nombre entre paréntesis (como `"Jose Vicente"` o `"Juan"`), el programa mostrará en pantalla un mensaje que dice "Hola, [nombre] yo te saludo". Es importante entender cómo definir y usar funciones porque permiten reutilizar código de manera eficiente y hacer que el programa sea más organizado y fácil de mantener.
+Este código define una función llamada `diHola` que toma un parámetro llamado `nombre`. La función imprime en la pantalla un mensaje de saludo que incluye el nombre proporcionado como argumento. Por ejemplo, si se llama a `diHola("Jose Vicente")`, el programa imprimirá "Hola, Jose Vicente yo te saludo". De manera similar, al llamar a `diHola("Juan")`, se imprime "Hola, Juan yo te saludo".
+
+El uso de funciones en Python es importante porque permite organizar y reutilizar código de una manera clara y eficiente. En este caso, la función `diHola` encapsula el comportamiento específico de saludar a alguien usando su nombre, lo que hace que sea fácil llamarla con diferentes nombres sin tener que escribir todo el código nuevamente para cada persona.
+
+`004-parametros.py`
 
 ```python
 def diHola(nombre):
@@ -1271,14 +1707,17 @@ diHola("Juan")
 ```
 
 ### varios parametros
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este fragmento de código es una función simple en Python que muestra cómo definir y utilizar funciones con parámetros. La función se llama `diHola` y toma dos argumentos: `nombre` y `edad`. Dentro de la función, el programa imprime un saludo personalizado que incluye el nombre y la edad proporcionados como argumento.
+Este código muestra cómo definir e invocar una función en Python. La función se llama `diHola` y tiene dos parámetros: `nombre` y `edad`. Dentro de la función, el programa imprime un saludo personalizado que incluye el nombre proporcionado y la edad del usuario.
 
-Cuando llamas a esta función con diferentes valores, en este caso "Jose Vicente" y 47 para la primera llamada, y "Juan" y 48 para la segunda, se ejecuta lo que está dentro de la función utilizando esos datos específicos. Esto significa que cada vez que llames a `diHola` con distintos nombres y edades, obtendrás saludos personalizados en la salida del programa.
+La función es llamada dos veces con diferentes argumentos: primero con "Jose Vicente" como nombre y 47 como edad, y luego con "Juan" como nombre y 48 como edad. Esto significa que cada vez que se llama a la función `diHola` con estos datos, el programa imprime un saludo personalizado según los valores pasados.
 
-Esta técnica es muy útil porque permite reutilizar bloques de código complejos sin tener que escribir el mismo código varias veces, simplemente cambiando los datos (parámetros) que se pasan a la función.
+Este tipo de estructura es importante porque permite reutilizar código de manera eficiente y organizar el programa en partes más manejables, facilitando así la modificación y mantenimiento del mismo.
+
+`005-varios parametros.py`
 
 ```python
 def diHola(nombre,edad):
@@ -1289,12 +1728,17 @@ diHola("Juan",48)
 ```
 
 ### las funciones deben retornar
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código muestra cómo funciona una función en Python llamada `diHola`. La función toma dos parámetros: un nombre (que es una cadena de texto) y una edad (un número entero). Dentro de la función, se utiliza el comando `return` para enviar una frase completa como resultado. Esta frase incluye el nombre que se le pasó a la función, junto con su edad convertida en una cadena de texto usando la función `str()`, lo cual es necesario porque las operaciones de concatenación solo funcionan entre cadenas.
+Este fragmento de código muestra cómo funciona una función en Python que devuelve un mensaje personalizado. La función se llama `diHola` y necesita dos piezas de información para funcionar: el nombre de la persona y su edad. Cuando llamas a esta función, le das estos detalles y ella te responde con un saludo amigable que incluye tanto el nombre como la edad.
 
-Después de definir la función, se llaman dos veces. En cada llamada, se pasa un nombre y una edad diferente a la función `diHola`. Lo que hace la función es devolver una saludo personalizado que luego se imprime en pantalla usando el comando `print()`. Esta estructura ayuda a los programadores a reutilizar código de manera eficiente, ya que no necesitan escribir nuevamente el mismo bloque de código cada vez que quieren saludar a alguien con su edad; simplemente llaman a la función y le proporcionan los datos necesarios.
+En este caso, después de definir la función, se utilizan dos llamadas distintas a `diHola`. La primera vez, le decimos al programa que use "Jose Vicente" como nombre y 47 como edad. La segunda vez, usa "Juan" como nombre y 48 como edad. Ambas veces, el resultado de la función se imprime en pantalla con un saludo específico para cada persona.
+
+Es importante entender cómo las funciones pueden tomar datos, procesarlos, y luego devolver una respuesta útil. En este ejemplo, `diHola` toma los parámetros (nombre y edad), construye un mensaje personalizado que incluye estos detalles, y luego lo devuelve al lugar donde fue llamada para que se pueda usar o mostrar el resultado.
+
+`006-las funciones deben retornar.py`
 
 ```python
 def diHola(nombre,edad):
@@ -1304,46 +1748,75 @@ print(diHola("Jose Vicente",47))
 print((diHola("Juan",48)))
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Uso de la instrucción `break`
+**Descripción:** Implementa un programa que imprima los números del 1 al 50, pero cuando llegues al número 30, usa la instrucción `break` para terminar el ciclo. El objetivo es entender cómo detener un bucle antes de completarlo.
+
+### Actividad 2: Definición y uso de funciones sin parámetros
+**Descripción:** Crea una función en Python que se llame `saludar()` y dentro imprima "¡Hola, buen día!". Luego, ejecuta la función para ver el resultado. Esta actividad te ayudará a entender cómo definir y usar funciones básicas.
+
+### Actividad 3: Definición de funciones con parámetros
+**Descripción:** Escribe una función llamada `saludar_usuario()` que acepte un nombre como parámetro e imprima un saludo personalizado. Ejecuta esta función varias veces con diferentes nombres para ver cómo funcionan los parámetros.
+
+### Actividad 4: Uso de múltiples parámetros en funciones
+**Descripción:** Define una función `informar_usuario()` que tome dos argumentos, el nombre y la edad del usuario, e imprima un mensaje que incluya ambos datos. Ejecuta esta función con al menos tres parejas diferentes de nombres y edades para practicar.
+
+### Actividad 5: Funciones con retorno
+**Descripción:** Crea una función `mensaje_saludo()` que reciba dos parámetros, el nombre y la edad del usuario, y retorne un mensaje formado por estos datos. Luego, utiliza la función dentro de un bloque `print()` para mostrar el resultado en pantalla.
+
+### Actividad 6: Juego con condiciones
+**Descripción:** Diseña un programa que permita al usuario ingresar su edad. Si la edad es menor a 18 años, imprime "Eres menor de edad". De lo contrario, si es mayor o igual a 18, imprime "Eres mayor de edad". Utiliza una estructura condicional para controlar el flujo del programa.
+
+### Actividad 7: Contador de días
+**Descripción:** Escribe un bucle que cuente hasta 365 simulando los días del año. Usa la instrucción `break` para finalizar el conteo cuando llegues al día número 200, imprimiendo un mensaje indicativo.
+
+### Actividad 8: Juego de adivinanza
+**Descripción:** Crea un juego simple que genere un número aleatorio entre 1 y 50. Luego pide al usuario que adivine el número. Utiliza una estructura de control condicional para verificar si la respuesta es correcta e indica cuántos intentos ha hecho antes de acertar.
+
+### Actividad 9: Suma con bucles
+**Descripción:** Implementa un programa que sume los primeros 50 números naturales (1+2+3...+50) utilizando un bucle `for`. Utiliza una variable para acumular la suma total y finalmente imprime el resultado.
+
+### Actividad 10: Tabla de multiplicar
+**Descripción:** Crea una función que genere una tabla de multiplicar para cualquier número dado. La función debe imprimir los resultados de multiplicar este número por cada número del 1 al 10. Ejecuta la función con varios números para probar su funcionalidad.
+
+
 <a id="control-de-excepciones"></a>
 ## Control de excepciones
 
-En el mundo de la programación, las excepciones son como los obstáculos inesperados que aparecen mientras nuestro programa intenta ejecutar sus instrucciones. Estos obstáculos pueden surgir por muchas razones: un error en una operación matemática, la lectura de un archivo que no existe o incluso la interrupción del usuario. El control de excepciones es una técnica fundamental que nos permite manejar estos problemas de manera eficiente y prevenir que el programa se bloquee.
+### Introducción a los ejercicios
 
-La gestión de excepciones comienza con la identificación de los posibles errores en nuestro código. Cada error tiene un tipo específico, como `ValueError` para errores relacionados con valores inapropiados o `FileNotFoundError` cuando intentamos acceder a un archivo que no existe. Una vez identificados estos tipos de errores, podemos programar respuestas específicas para cada uno.
-
-El bloque `try-except` es la herramienta principal para manejar excepciones en Python. En este bloque, colocamos el código que podría generar una excepción dentro del bloque `try`, y luego definimos cómo responder a esa excepción en el bloque `except`. Si ocurre una excepción durante la ejecución del código en `try`, el flujo de control inmediatamente salta al bloque `except` correspondiente.
-
-Además de manejar excepciones, también es importante saber cómo crear nuestras propias excepciones personalizadas. Esto nos permite expresar con precisión los errores específicos que ocurren en nuestro programa y proporcionar mensajes útiles para el usuario o el desarrollador. Para crear una excepción personalizada, simplemente definimos una nueva clase que herede de la clase base `Exception`.
-
-El control de excepciones también implica la gestión de recursos. A menudo, cuando abrimos un archivo o establecemos una conexión a una base de datos, es crucial asegurarnos de que estos recursos se liberen correctamente incluso si ocurren errores. Para hacer esto, usamos el bloque `finally`, que siempre se ejecuta después del bloque `try-except`, independientemente de si ocurrió una excepción o no.
-
-La importancia del control de excepciones en la programación es inmensa. No solo ayuda a prevenir que nuestro programa se bloquee debido a errores, sino que también mejora su robustez y fiabilidad. Al manejar adecuadamente las excepciones, podemos proporcionar experiencias más seguras y fáciles para los usuarios finales.
-
-Además de la gestión de excepciones, es crucial entender cómo usar el registro de errores. El registro nos permite capturar información sobre los errores que ocurren en nuestro programa, lo que facilita su diagnóstico y solución. Python ofrece varias bibliotecas para el registro de errores, como `logging`, que nos permiten configurar diferentes niveles de detalle y formatos de salida.
-
-El control de excepciones también es fundamental para la implementación de políticas de seguridad en nuestros programas. Al capturar y manejar adecuadamente las excepciones, podemos prevenir accesos no autorizados o operaciones peligrosas que podrían comprometer la integridad del sistema.
-
-En resumen, el control de excepciones es una habilidad esencial en la programación. Nos permite manejar errores inesperados de manera eficiente y prevenir que nuestro programa se bloquee. Al aprender a identificar, capturar y gestionar excepciones, podemos crear programas más seguros, robustos y fáciles de mantener.
+En esta carpeta, trabajaremos con ejercicios básicos de manejo de excepciones en Python. Los archivos proporcionan una introducción a cómo los programas pueden lidiar con errores durante la ejecución, como dividir entre cero, utilizando bloques `try` y `except`. A través de estos ejemplos, aprenderás a identificar situaciones problemáticas y a implementar estrategias para garantizar que tu programa no se interrumpa bruscamente en caso de errores.
 
 ### dvision legal
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código es muy sencillo y directo. Solo realiza una operación matemática básica: divide el número 4 por el número 3 y luego muestra el resultado en la pantalla mediante la función `print()`. Lo que hace este programa es tomar dos números enteros, en este caso 4 y 3, y calcular su división. El resultado de esta división es un número decimal (1.3333333333333333), que luego se imprime en la consola o terminal donde esté ejecutando el programa.
+Este código es muy simple y ejecuta una única operación matemática. Imprime el resultado de la división entre 4 y 3. El resultado que se muestra en pantalla será aproximadamente 1.3333, ya que 4 dividido por 3 no es un número entero sino un decimal.
 
-Este tipo de código ilustra cómo hacer cálculos aritméticos simples en Python y cómo mostrar los resultados utilizando funciones como `print()`. Es importante entender estos conceptos básicos para poder avanzar a operaciones más complejas y al manejo de errores que puedan surgir, por ejemplo, si se intenta dividir entre cero.
+Esta línea de código demuestra cómo Python puede realizar cálculos aritméticos básicos y mostrar el resultado directamente en la consola o terminal donde se ejecuta el programa. Es importante notar que esta operación no tiene errores ni excepciones, ya que los dos números son válidos para una división sin problemas.
+
+Este tipo de código básico es útil para entender las operaciones matemáticas fundamentales en Python y cómo imprimir resultados en la consola, lo cual es un paso inicial antes de pasar a estructuras más complejas como bucles o condicionales.
+
+`001-dvision legal.py`
 
 ```python
 print(4/3)
 ```
 
 ### division por cero
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este fragmento de código intenta realizar una división por cero, que es matemáticamente indefinida y en la programación causa un error. Cuando se ejecuta `print(4/0)`, Python generará un error llamado "ZeroDivisionError", deteniendo abruptamente la ejecución del programa porque no puede continuar si no resolvemos este problema inmediatamente.
+Este código intenta realizar una operación matemática muy especial y problemática: dividir un número por cero. Cuando se ejecuta la línea `print(4/0)`, Python generará un error porque no es posible dividir cualquier número entre cero en matemáticas. Este error paraliza el programa y hace que deje de funcionar inmediatamente.
 
-A pesar de que el código muestra que el programa continúa después del mensaje, en realidad esto nunca sucederá debido al error anterior. En un entorno real de desarrollo, es fundamental manejar estos errores para asegurar que las partes restantes del programa puedan ejecutarse sin problemas. Manejar excepciones permite a los programas ser más robustos y capaces de lidiar con situaciones inesperadas como esta división por cero.
+A pesar del error, después de intentar la división por cero, el código imprime "Bueno pero por lo menos el programa continua". Esto es solo para mostrar que aunque se ejecuta esa línea con un error, otras líneas de código pueden seguir siendo procesadas si están escritas después en el archivo. Sin embargo, en este caso específico, el intento de dividir por cero causará la interrupción del programa y no permitirá imprimir ese mensaje.
+
+Es importante aprender a manejar estos errores en programación para asegurar que tus programas puedan seguir funcionando incluso cuando ocurren situaciones inesperadas.
+
+`002-division por cero.py`
 
 ```python
 print(4/0)
@@ -1352,12 +1825,13 @@ print("Bueno pero por lo menos el programa continua")
 ```
 
 ### try
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este fragmento de código muestra cómo manejar errores en Python utilizando bloques `try` y `except`. La función principal del bloque `try` es ejecutar una sección específica del código que podría generar un error, mientras que el bloque `except` captura ese error y permite al programa seguir funcionando. En este caso, la línea dentro de `try` intenta dividir el número 4 entre cero, lo cual no es posible en matemáticas y genera un error en Python. El bloque `except`, por su parte, atrapa este error sin detener el programa, simplemente imprimiendo un mensaje que indica la presencia del error pero asegura que el programa continúa ejecutándose.
+Este fragmento de código muestra cómo manejar errores en Python usando una estructura llamada `try-except`. La idea principal es que cuando se intenta realizar una operación que no puede ser ejecutada (en este caso, dividir un número entre cero), el programa no se detiene sino que entra al bloque `except` y muestra un mensaje de error personalizado. Aquí, la línea `print(4/0)` provocaría un error porque no es posible dividir por cero matemáticamente. Sin embargo, gracias a la estructura `try-except`, el programa sigue funcionando después de este fallo, imprimiendo el mensaje "Hay un error pero por lo menos continuo con el programa". Luego del bloque `except`, el código continúa normalmente y se imprime "Bueno pero por lo menos el programa continua", demostrando que aunque hubo un problema, gracias a la gestión de errores, el programa sigue en ejecución.
 
-Es importante entender esta estructura porque ayuda a crear programas más robustos y capaces de manejar situaciones inesperadas de manera elegante, mejorando así la experiencia del usuario al evitar interrupciones bruscas en la ejecución del código.
+`003-try.py`
 
 ```python
 try:
@@ -1368,69 +1842,141 @@ except:
 print("Bueno pero por lo menos el programa continua")
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Manejo de Excepciones Básicas
+
+**Descripción:** 
+Los estudiantes deben identificar y capturar la excepción que se produce cuando intentan dividir un número entre cero. Se espera que implementen una estructura `try-except` para manejar este error y continuar con el resto del código.
+
+### Actividad 2: Mejora de Mensajes de Error
+
+**Descripción:** 
+Los estudiantes deben mejorar la legibilidad del programa capturando excepciones específicas (como `ZeroDivisionError`) en lugar de usar una excepción general. Además, deben imprimir un mensaje personalizado cuando se produzca esta excepción.
+
+### Actividad 3: Manejo de Múltiples Excepciones
+
+**Descripción:** 
+Los estudiantes deben modificar el código para capturar y manejar diferentes tipos de excepciones (por ejemplo, `ZeroDivisionError`, `TypeError`). Deben proporcionar mensajes claros para cada tipo de error que puedan ocurrir.
+
+### Actividad 4: Bloque Else en Manejo de Excepciones
+
+**Descripción:** 
+Los estudiantes deben añadir un bloque `else` a la estructura `try-except`. Este bloque debería ejecutarse solo si no se produce ninguna excepción durante el intento de división. Se espera que proporcionen una salida adicional para indicar que todo ha ido bien.
+
+### Actividad 5: Bloque Finally en Manejo de Excepciones
+
+**Descripción:** 
+Los estudiantes deben agregar un bloque `finally` a la estructura `try-except`. Este bloque debería ejecutarse siempre, independientemente de si se produjeron excepciones o no. Los estudiantes deberán describir qué tipo de operaciones son adecuadas para colocar en este bloque.
+
+### Actividad 6: Trabajando con Múltiples Try-Except
+
+**Descripción:** 
+Los estudiantes deben escribir un código que incluya múltiples bloques `try-except` para manejar diferentes tipos de errores. Cada bloque debería estar diseñado específicamente para capturar y manejar una excepción diferente.
+
+### Actividad 7: Uso del As en Manejo de Excepciones
+
+**Descripción:** 
+Los estudiantes deben introducir la palabra clave `as` dentro de sus bloques `try-except`. Esto les permitirá acceder a los detalles de las excepciones capturadas y mostrarlos en mensajes personalizados.
+
+### Actividad 8: Implementación de un Menú de Opciones
+
+**Descripción:** 
+Los estudiantes deben crear un programa que presenta al usuario opciones para realizar diferentes operaciones matemáticas. Las opciones incluirán división, multiplicación y suma. Cada opción debe manejar sus propias excepciones específicas.
+
+### Actividad 9: Documentación del Manejo de Excepciones
+
+**Descripción:** 
+Los estudiantes deben escribir comentarios en el código que expliquen por qué ciertas partes están dentro de bloques `try-except` y cómo estas estructuras ayudan a mejorar la robustez del programa.
+
+
 <a id="aserciones"></a>
 ## Aserciones
 
-En el mundo de la programación, las aserciones son una herramienta poderosa que nos permite verificar la integridad del programa durante su ejecución. Estas declaraciones condicionales permiten comprobar si ciertas condiciones son verdaderas o no, y en caso de que no lo sean, detienen la ejecución del programa para evitar errores inesperados.
+### Introducción a los ejercicios
 
-Las aserciones se utilizan principalmente para asegurar que el estado interno de un programa sea correcto antes de continuar con las operaciones. Son especialmente útiles durante el desarrollo y la depuración, ya que nos permiten identificar rápidamente dónde algo sale mal en nuestro código. En su forma más básica, una aserción se compone de una expresión booleana que debe evaluarse como verdadera para que el programa continúe ejecutándose.
-
-La implementación de aserciones en la programación es relativamente sencilla. Se utiliza un comando específico dependiendo del lenguaje de programación utilizado, pero generalmente sigue el patrón: "si la expresión es falsa, detén la ejecución". Esta estructura permite que los desarrolladores se aseguren de que ciertos invariants o precondiciones sean cumplidos antes de avanzar.
-
-Es importante destacar que las aserciones no deben usarse como un mecanismo principal para el control del flujo normal del programa. Su uso debe estar limitado a situaciones excepcionales, donde la violación de una condición implica un error grave o una inconsistencia interna que no puede ser manejada de otra manera. En su lugar, las aserciones deben complementar otras técnicas como el manejo de errores y excepciones para proporcionar una mayor robustez al programa.
-
-La práctica del uso de aserciones en la programación es un aspecto fundamental de la metodología ágil y la ingeniería de software moderna. Algunas prácticas recomendadas incluyen la activación de las aserciones durante el desarrollo, pero su desactivación o supresión durante la fase de producción para evitar interrupciones inesperadas del programa.
-
-En resumen, las aserciones son una herramienta valiosa en el arsenal del programador que nos permite asegurar la integridad y consistencia de nuestro código. Aunque deben usarse con precaución y no como un reemplazo del manejo de errores, su uso judicioso puede mejorar significativamente la calidad y confiabilidad de nuestros programas.
+En esta carpeta de ejercicios, centraremos nuestra atención en la utilización y comprensión de las aserciones en Python. Las aserciones son una herramienta útil para verificar condiciones que deben cumplirse durante la ejecución del programa; si dichas condiciones no se cumplen, el programa genera un error inmediatamente. A través de estos ejercicios, los estudiantes practicarán cómo incorporar aserciones en su código para mejorar la robustez y legibilidad de sus programas, así como aprender a identificar y corregir errores que podrían pasar desapercibidos con solo pruebas básicas.
 
 ### asercion
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este fragmento de código utiliza la palabra clave `assert` en Python. La función `assert` se usa para verificar si una condición es verdadera y, si no lo es, lanza una excepción con el mensaje que le sigues (en este caso, "hay un error"). En este ejemplo específico, se está comprobando si el número 3 es igual a 3. Como esta afirmación siempre será cierta, el programa no lanzará ninguna excepción y continuará ejecutándose normalmente. Sin embargo, si cambiamos la condición para que sea falsa (por ejemplo, `assert 3 == 2`), entonces se activaría la declaración de error con el mensaje proporcionado. Este tipo de verificación es útil durante la fase de desarrollo para asegurar que ciertas condiciones críticas sean siempre verdaderas y ayudar en la depuración del código.
+Este fragmento de código utiliza una estructura llamada `assert`, que es útil para comprobar si ciertas condiciones son verdaderas en el desarrollo de programas. En este caso, la condición a verificar es si el número 3 es igual al número 3, lo cual obviamente siempre será verdad.
+
+La parte después de la coma ("hay un error") es el mensaje que se mostrará si la afirmación (assert) no se cumple. Si cambiamos la comparación por algo falso, como `assert 3 == 2`, entonces veríamos el mensaje "hay un error" en pantalla, lo que nos ayudaría a identificar rápidamente algún problema en nuestro código.
+
+Esta estructura es muy útil para los desarrolladores durante la fase de pruebas y depuración del software, ya que permite asegurar que ciertos valores o situaciones ocurren como se esperaba.
+
+`001-asercion.py`
 
 ```python
 assert 3 == 3, "hay un error"
 ```
 
 ### si que hay un error
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este fragmento de código utiliza una estructura llamada `assert`, que se usa para verificar si una condición es verdadera durante la ejecución del programa. En este caso, la condición que se verifica es `3 == 2`. Si esta condición no es cierta (y en efecto, 3 no es igual a 2), el programa generará un error y mostrará el mensaje "hay un error". El propósito de usar `assert` es ayudar a los programadores a identificar fácilmente las condiciones que deben cumplirse para que el código funcione correctamente. En situaciones de desarrollo y prueba, esta estructura es muy útil para asegurarse de que ciertas suposiciones sobre cómo debería funcionar el programa se cumplan en realidad.
+Este fragmento de código utiliza la palabra clave `assert` en Python para verificar si una condición es verdadera. En este caso, el programa comprueba si el número 3 es igual al número 2, lo cual obviamente no es cierto. Si la condición evaluada por `assert` es falsa, el programa genera un error con el mensaje "hay un error". Las afirmaciones (`assert`) son útiles para comprobar condiciones que deben ser verdaderas durante la ejecución del código y ayudan a identificar problemas rápidamente durante el desarrollo. En este ejemplo, si alguien está depurando el código o revisándolo, inmediatamente sabrá que algo va mal cuando se lance este error específico.
+
+`002-si que hay un error.py`
 
 ```python
 assert 3 == 2, "hay un error"
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Entendiendo Aserciones Simples
+**Descripción:** Implementa aserciones para comprobar condiciones básicas en tu código. Aprende a utilizar aserciones de manera efectiva para garantizar la correcta ejecución del programa.
+
+### Actividad 2: Identificar Errores con Aserciones
+**Descripción:** Analiza el uso incorrecto de las aserciones y modifica los ejemplos proporcionados para corregir errores lógicos. Aprende a detectar y solucionar problemas en tu código mediante aserciones.
+
+### Actividad 3: Aserciones Condicionales
+**Descripción:** Crea una función que utilice aserciones condicionales basadas en variables de entrada. Obtiene experiencia en cómo usar aserciones para validar condiciones cambiantes durante la ejecución del programa.
+
+### Actividad 4: Uso de Aserciones con Listas
+**Descripción:** Implementa aserciones para comprobar las propiedades de listas, como su longitud o contenido. Aprende a asegurar que tus estructuras de datos cumplen con los requisitos esperados antes de proceder en el código.
+
+### Actividad 5: Aserciones y Manejo de Excepciones
+**Descripción:** Combina aserciones con bloques try-except para mejorar la robustez del programa. Aprende a manejar errores lógicos y excepciones de manera coordinada.
+
+### Actividad 6: Automatización de Pruebas con Aserciones
+**Descripción:** Escribe un script que automatice pruebas utilizando aserciones, generando reportes para cada caso de prueba. Mejora tu habilidad en la escritura de código eficiente y mantenible.
+
+### Actividad 7: Uso de Aserciones para Validar Inputs del Usuario
+**Descripción:** Implementa un programa que solicite datos al usuario y utilice aserciones para validar dichos datos antes de continuar con el procesamiento. Mejora tus habilidades en la interacción entre el código y el usuario final.
+
+### Actividad 8: Uso de Aserciones para Validar Rangos
+**Descripción:** Diseña un programa que use aserciones para verificar si una variable está dentro de un rango específico. Aprende a asegurar que tus variables respeten los límites necesarios durante la ejecución.
+
+### Actividad 9: Uso de Aserciones en Clases y Métodos
+**Descripción:** Incluye aserciones en la definición de métodos de una clase para garantizar las condiciones iniciales antes del procesamiento. Mejora tus habilidades en el desarrollo orientado a objetos.
+
+### Actividad 10: Documentación de Aserciones
+**Descripción:** Escribe documentación clara y concisa que explique cada aserción utilizada en tu código, incluyendo por qué se usó y cómo afecta la lógica del programa. Aprende a mejorar la legibilidad y mantenimiento de tus programas mediante la documentación adecuada.
+
+
 <a id="prueba-depuracion-y-documentacion-de-la-aplicacion"></a>
 ## Prueba, depuración y documentación de la aplicación
 
-En el mundo digital, la programación es una habilidad fundamental que requiere no solo conocimiento técnico, sino también una mentalidad crítica y creativa. La carpeta `Primero/Programación/003-Uso de estructuras de control/006-Prueba, depuración y documentación de la aplicación` nos guía a través de un proceso esencial en el desarrollo de software: la prueba, la depuración y la documentación.
+### Introducción a los ejercicios
 
-La prueba es una etapa crucial que permite verificar si nuestro programa cumple con los requisitos establecidos. Es como hacer un examen exhaustivo para asegurarnos de que todo funciona correctamente. En este proceso, se realizan pruebas unitarias individuales para cada función o método, así como pruebas integrales que evalúan cómo estas partes interactúan entre sí.
-
-La depuración es el proceso de identificar y corregir errores en nuestro código. Es como buscar una pequeña falla en un edificio para asegurar su estabilidad. Utilizamos herramientas especializadas y técnicas de programación para localizar los problemas, ya sean faltas lógicas o errores de sintaxis.
-
-La documentación es la parte que nos permite compartir nuestro trabajo con otros desarrolladores y recordar nuestros propios pensamientos en el futuro. Es como dejar un mapa detallado de cómo se construyó un edificio para que otros puedan seguir las mismas instrucciones. La documentación incluye comentarios dentro del código, explicaciones de los algoritmos utilizados y descripciones de las funciones.
-
-Juntos, estos tres procesos forman una base sólida para el desarrollo de software. Prueba nos asegura que nuestro programa funcione como se espera, depuración nos permite corregir errores y documentación nos facilita la colaboración y el mantenimiento a largo plazo. Es un ciclo continuo que implica revisión, corrección y mejora constante.
-
-La prueba es el ojo del juez en nuestro código, la depuración es su mano que corrige los defectos y la documentación es su voz que explica las intenciones detrás de cada línea. Juntos, forman una trifecta incesante de mejora y optimización.
-
-Es importante recordar que el desarrollo de software no es solo sobre escribir código, sino también sobre entender cómo funciona nuestro programa y cómo podemos mejorarlo continuamente. Prueba, depuración y documentación son las herramientas que nos permiten lograr este objetivo, asegurando que nuestro trabajo sea robusto, confiable y fácil de mantener.
-
-En resumen, la carpeta `Primero/Programación/003-Uso de estructuras de control/006-Prueba, depuración y documentación de la aplicación` nos enseña cómo llevar a cabo estos procesos esenciales en el desarrollo de software. Es un camino que requiere atención, paciencia y dedicación, pero que resulta en programas más sólidos y eficientes.
+Este conjunto de ejercicios en Python se enfoca en la creación, prueba y depuración de una función que realiza divisiones entre dos números. Los estudiantes aprenderán a manejar excepciones para evitar errores como divisiones por cero o tipos no numéricos, y también a documentar adecuadamente sus funciones. A través de estos ejercicios, se practican competencias esenciales en programación como la resiliencia del código frente a situaciones inesperadas y la capacidad de verificar el correcto funcionamiento de las aplicaciones mediante pruebas exhaustivas.
 
 ### division
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código define una función llamada `creaDivision` que toma dos parámetros: `dividendo` y `divisor`. La función realiza la operación matemática de división entre estos dos valores y devuelve el resultado. En otras palabras, si le das a esta función un dividendo de 4 y un divisor de 3, devolverá el valor de la división de 4 por 3.
+Este código define una función en Python llamada `creaDivision` que toma dos parámetros: `dividendo` y `divisor`. La función calcula el resultado de la división entre estos dos números y retorna este valor. Luego, se llama a esta función con los valores 4 y 3 como argumentos para dividir 4 por 3, y se imprime el resultado en pantalla.
 
-Después de definir la función, se llama a `creaDivision` con los argumentos 4 y 3, y luego se imprime el resultado de esa llamada. Esto significa que el programa mostrará en pantalla el resultado de dividir 4 entre 3, que es aproximadamente 1.33.
+Esta pequeña pieza de código es útil porque demuestra cómo definir funciones sencillas que realizan operaciones matemáticas básicas y luego cómo utilizarlas. Es una buena introducción al concepto de modularización en programación, donde puedes empaquetar un trozo de lógica específica dentro de una función para reutilizarla fácilmente con diferentes valores.
 
-Este tipo de código es importante porque te enseña a encapsular operaciones matemáticas complejas (en este caso, simplemente una división) dentro de funciones para reutilizarlas fácilmente y mantener tu código organizado. Esto también facilita la prueba y depuración del programa al poder llamar a la función con diferentes valores sin tener que escribir toda la lógica cada vez.
+`001-division.py`
 
 ```python
 def creaDivision(dividendo,divisor):
@@ -1440,14 +1986,19 @@ print(creaDivision(4,3))
 ```
 
 ### prueba de carga
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código es una pequeña aplicación en Python que demuestra el uso de estructuras de control y manejo de excepciones. La función `creaDivision` recibe dos parámetros: un dividendo y un divisor, y devuelve el resultado de la división entre ellos.
+Este fragmento de código está diseñado para probar una función llamada `creaDivision`, que realiza divisiones matemáticas simples entre dos números. La función toma dos parámetros: el dividendo y el divisor, y devuelve el resultado de la división.
 
-El bloque principal del programa utiliza dos bucles anidados (un for dentro de otro) que recorren números desde -100 hasta 99 para ambos valores: dividendo (`divid`) y divisor (`divis`). En cada iteración, se llama a la función `creaDivision` pasándole estos dos valores. Esto significa que el programa intentará calcular todas las posibles combinaciones de división entre los números en ese rango.
+El código principal utiliza un bloque `try` para intentar ejecutar un bucle anidado que itera sobre una gama de valores desde -100 hasta 99 tanto para el dividendo como para el divisor. Durante cada iteración, se llama a la función `creaDivision` con los valores actuales del dividendo y el divisor, y luego imprime el resultado.
 
-Importante es cómo maneja errores el código: si durante alguna operación aparece una excepción (por ejemplo, si se intenta dividir por cero), la parte `except` del bloque `try-except` imprimirá "No ha aguantado". Este tipo de manejo de errores ayuda a identificar y localizar problemas en programas más complejos.
+El bloque `except` captura cualquier error que pueda ocurrir durante la ejecución del bucle, como una división por cero. Si ocurre un error, se imprime "No ha aguantado", indicando que el programa no pudo completar su tarea sin errores.
+
+Este tipo de prueba es importante para asegurar que las funciones en tu código manejen correctamente diferentes situaciones y valores, especialmente los casos límite como divisiones por cero.
+
+`002-prueba de carga.py`
 
 ```python
 def creaDivision(dividendo,divisor):
@@ -1462,14 +2013,17 @@ except:
 ```
 
 ### correccion
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código es una función en Python llamada `creaDivision` que realiza una división entre dos números dados. La función se asegura de que el divisor no sea cero, ya que dividir por cero no está definido y causaría un error. Si el divisor es diferente de cero, la función devuelve el resultado de la división; si el divisor es cero, devuelve una cadena "infinidad", indicando que el resultado sería infinito matemáticamente.
+Este código Python define una función llamada `creaDivision` que recibe dos parámetros: `dividendo` y `divisor`. La función calcula el resultado de dividir el dividendo entre el divisor. Si el divisor no es cero, la función devuelve el cociente; si el divisor es cero, la función retorna la cadena "infinidad", ya que matemáticamente no se puede dividir por cero y esto produciría un error en el programa.
 
-El código también incluye un bloque `try` y `except`. Dentro del bloque `try`, se crean dos bucles anidados para probar la función `creaDivision` con todas las posibles combinaciones de números entre -100 y 100 como dividendo y divisor. Si alguna parte del código dentro del bloque `try` genera una excepción (por ejemplo, un error que no se maneja dentro de la propia función), el programa imprimirá "No ha aguantado" en lugar de interrumpirse abruptamente. En caso contrario, si todo funciona correctamente sin generar ninguna excepción, se imprime "Ha pasado la prueba".
+Después de definir la función, el código utiliza un bucle `for` anidado para probar la función `creaDivision` con una gran cantidad de pares de números (dividendos y divisores) que van desde -100 hasta 99. Si durante este proceso no ocurre ningún error (como intentar dividir por cero), el programa imprimirá "Ha pasado la prueba". Sin embargo, si se produce algún tipo de excepción o error, el código captura ese problema con una estructura `try-except` y muestra en pantalla "No ha aguantado", indicando que hubo un fallo durante las pruebas.
 
-Este tipo de pruebas automáticas son muy útiles para asegurar que una aplicación o un algoritmo pueda manejar todas las situaciones posibles sin colapsar y proporciona confianza en el correcto funcionamiento del código.
+Este fragmento es útil para aprender sobre manejo de errores, especialmente cuando se trabaja con operaciones matemáticas como la división que pueden generar excepciones si no se controlan adecuadamente.
+
+`003-correccion.py`
 
 ```python
 def creaDivision(dividendo,divisor):
@@ -1488,14 +2042,17 @@ except:
 ```
 
 ### mas pruebas
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código define una función llamada `creaDivision` que toma dos parámetros: `dividendo` y `divisor`. La función intenta convertir ambos parámetros a números de punto flotante (números con decimales) usando la instrucción `try`. Si la conversión es exitosa, comprueba si el divisor es diferente de cero. Si el divisor no es cero, realiza la división y devuelve el resultado. Sin embargo, si el divisor es cero, en lugar de generar un error, la función retorna la cadena "infinidad", lo cual indica que matemáticamente la división por cero implica infinito.
+Este código define una función en Python llamada `creaDivision` que toma dos parámetros: `dividendo` y `divisor`. La función intenta convertir estos parámetros a números flotantes para realizar la división. Si el divisor es diferente de cero, la función devuelve el resultado de la división entre los dos valores. Sin embargo, si el divisor es cero, en lugar de generar un error, retorna una cadena que dice "infinidad", lo cual indica matemáticamente que dividir por cero no está definido y se puede interpretar como infinito.
 
-Además, si ocurre algún error durante la conversión a float (por ejemplo, si se intenta convertir una letra como 'a' en un número), la función captura este error con `except` y retorna 0. Esto ayuda a evitar que el programa se interrumpa bruscamente debido a errores inesperados.
+Además, si durante la conversión a números flotantes o en cualquier otro momento ocurre algún tipo de error (por ejemplo, si `dividendo` es una cadena que no representa un número válido), el código captura ese error usando la estructura `try-except`, y devuelve simplemente 0.
 
-Esta forma de programar es importante porque permite al código manejar situaciones no deseadas o imprevistas de una manera amigable y segura, garantizando así la estabilidad del programa y facilitando su depuración.
+La línea final del código muestra cómo se llama a esta función pasándole como argumentos el número 4 y la letra "a". Esto debería lanzar un error al intentar convertir "a" en un número, pero debido a la estructura de manejo de excepciones, la función simplemente retornará 0. Este código es importante para entender cómo Python maneja errores y cómo se pueden proteger las funciones contra valores inesperados o incorrectos.
+
+`004-mas pruebas.py`
 
 ```python
 def creaDivision(dividendo,divisor):
@@ -1514,14 +2071,15 @@ print(creaDivision(4,"a"))
 ```
 
 ### documentacion
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código define una función llamada `creaDivision` que toma dos parámetros: `dividendo` y `divisor`. La función tiene como objetivo realizar la operación matemática de división entre estos dos valores. Antes de hacer la división, el código intenta convertir ambos parámetros a números decimales (float) para asegurarse de que se puedan manipular numéricamente.
+Este código define una función llamada `creaDivision` en Python que realiza la operación de división entre dos números. La función toma dos parámetros: el dividendo y el divisor. Primero, intenta convertir ambos valores a floats para asegurarse de que sean numéricos. Luego verifica si el divisor es diferente de cero; si lo es, realiza la división y devuelve el resultado como un número. Si el divisor es cero, en lugar del resultado de la división devuelve la cadena "infinidad", ya que matemáticamente no se puede dividir por cero. En caso de que ocurra algún error durante la conversión a float o la operación, captura la excepción y devuelve 0.
 
-La parte crucial es el manejo de posibles errores: si alguno de los parámetros no puede ser convertido en un número decimal o si el divisor es cero, la función maneja estos casos de manera específica. Si hay una excepción (es decir, el código falla), se devuelve 0. Si el divisor es cero, la función retorna la cadena "infinidad" porque matemáticamente no puede dividir por cero.
+Es importante este tipo de validaciones para prevenir errores en el programa cuando los valores ingresados no sean numéricos o cuando intente realizar una división por cero. Esto hace que la aplicación sea más robusta y manejable.
 
-Este tipo de control y validación es importante en programación para evitar errores que podrían interrumpir el funcionamiento del programa (como una división por cero) y proporcionar un comportamiento esperado cuando se presentan condiciones inesperadas o incorrectas.
+`005-documentacion.py`
 
 ```python
 def creaDivision(dividendo,divisor):
@@ -1546,14 +2104,17 @@ print(creaDivision(4,"a"))
 ```
 
 ### llamada a la funcion
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este fragmento de código está utilizando una función llamada `creaDivision` que ha sido definida en otro archivo de Python llamado `funciondividir`. La línea `from funciondividir import creaDivision` sirve para traer esa función específica al script actual, permitiéndote usarla sin tener que escribir todo el código nuevamente.
+Este fragmento de código está haciendo una llamada a una función llamada `creaDivision` que se encuentra en un archivo externo denominado `funciondividir.py`. La función `creaDivision` recibe dos parámetros: el dividendo (4) y el divisor (3). El programa imprime el resultado devuelto por la función `creaDivision`.
 
-La siguiente línea, `print(creaDivision(4,3))`, llama a la función `creaDivision` y le pasa dos argumentos: 4 y 3. Esta función probablemente realiza una operación relacionada con la división matemática o crea algún tipo de estructura basada en estos dos números. Al colocar el resultado entre paréntesis de `print()`, lo que hace es mostrar el resultado de esta operación en la pantalla.
+Lo importante aquí es entender que este código no contiene toda la lógica, sino que se limita a llamar a una función definida en otro archivo. Esto demuestra cómo puedes organizar tu código en diferentes archivos y utilizar funciones de otros módulos para mantener el código limpio y modular.
 
-Este código es importante porque muestra cómo se pueden organizar y reutilizar piezas de código complejo mediante la importación de funciones desde otros archivos, lo cual es una práctica común cuando trabajas con proyectos más grandes en Python.
+Esta práctica es crucial cuando trabajas en proyectos más grandes o colaboras con otros programadores, ya que permite dividir la tarea en partes manejables y reutilizar piezas de código en distintos lugares del programa.
+
+`006-llamada a la funcion.py`
 
 ```python
 from funciondividir import creaDivision
@@ -1562,12 +2123,19 @@ print(creaDivision(4,3))
 ```
 
 ### funciondividir
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código es una función en Python llamada `creaDivision` que toma dos parámetros: un dividendo y un divisor. La función intenta convertir ambos valores a números decimales usando la función `float()` para asegurarse de que se puedan realizar operaciones matemáticas con ellos. Luego, verifica si el divisor es diferente de cero porque no puede haber una división entre cero en matemáticas (lo cual causaría un error). Si el divisor no es cero, la función devuelve el resultado de dividir el dividendo por el divisor. Sin embargo, si el divisor es cero, la función devolverá simplemente la palabra "infinidad" porque matemáticamente, cuando divides un número por cero, el resultado es infinito. Si ocurre algún error durante este proceso (por ejemplo, si los parámetros no pueden convertirse a números), la función regresa 0 para indicar que hubo un problema con las entradas.
+Este código define una función en Python llamada `creaDivision` que realiza la operación matemática de división entre dos números dados. La función toma dos parámetros: el dividendo y el divisor, que son los números que se van a dividir.
 
-Esta función es importante porque ayuda a manejar situaciones donde los datos de entrada pueden ser incorrectos o incompletos y permite al programa seguir funcionando sin romperse debido a errores inesperados.
+Dentro de la función, primero intenta convertir ambos parámetros en números decimales utilizando un bloque `try`. Esto es importante porque asegura que las operaciones matemáticas que siguen puedan realizarse correctamente. Si alguno de los valores no puede ser convertido en un número decimal (por ejemplo, si se proporciona una cadena de texto), el programa manejará esta situación mediante la línea `return 0`, lo cual indica que hubo algún error en la entrada.
+
+Después de convertir ambos números, la función verifica si el divisor es diferente de cero. Si no es cero, realiza la división entre dividendo y divisor, devolviendo el resultado como un número decimal. Sin embargo, si el divisor es igual a cero (lo que matemáticamente significa una división por cero), en lugar de generar un error, la función devuelve la cadena "infinidad" para indicar esta situación especial.
+
+Esta función es útil porque maneja cuidadosamente los posibles errores y situaciones especiales que podrían ocurrir durante la ejecución, lo cual ayuda a hacer el programa más robusto y fácil de usar.
+
+`funciondividir.py`
 
 ```python
 def creaDivision(dividendo,divisor):
@@ -1588,41 +2156,84 @@ def creaDivision(dividendo,divisor):
     return 0
 ```
 
+### Actividades propuestas
+
+### Actividades para Estudiantes de Formación Profesional (FP)
+
+#### Actividad 1: Mejora la Función División
+**Descripción:** Los estudiantes deben mejorar la función `creaDivision` en el archivo `division.py` para que maneje divisiones por cero y valores no numéricos. Se espera que los alumnos comprendan cómo usar bloques try-except y condiciones.
+
+#### Actividad 2: Prueba Exhaustiva
+**Descripción:** Los estudiantes deben diseñar pruebas exhaustivas para la función de división, cubriendo una amplia gama de casos de entrada (positivos, negativos, cero). El objetivo es que los alumnos entiendan la importancia de las pruebas unitarias y cómo realizarlas.
+
+#### Actividad 3: Corrección de Errores
+**Descripción:** Basándose en el archivo `correccion.py`, los estudiantes deben identificar y corregir errores potenciales en una función existente que realiza divisiones. Se espera que los alumnos comprendan la importancia de manejar excepciones para evitar interrupciones no deseadas.
+
+#### Actividad 4: Manejo de Excepciones Mejorado
+**Descripción:** Los estudiantes deben mejorar el manejo de excepciones en la función `creaDivision` del archivo `mas pruebas.py`. Se espera que los alumnos aprendan a capturar y tratar diferentes tipos de errores específicos (por ejemplo, conversiones incorrectas).
+
+#### Actividad 5: Documentación de Código
+**Descripción:** Los estudiantes deben documentar adecuadamente la función de división en el archivo `documentacion.py` utilizando comentarios claros y precisos. Se espera que los alumnos aprendan a escribir documentación útil para otros desarrolladores.
+
+#### Actividad 6: Importando Funciones desde Otros Archivos
+**Descripción:** Los estudiantes deben importar y utilizar la función de división definida en el archivo `funciondividir.py` dentro del archivo `llamada a la funcion.py`. Se espera que los alumnos comprendan cómo modularizar el código y trabajar con múltiples archivos.
+
+#### Actividad 7: Pruebas Parametrizadas
+**Descripción:** Los estudiantes deben implementar pruebas parametrizadas para la función de división en un archivo nuevo. Deben probar distintos casos utilizando diferentes parámetros (dividendos y divisores). Se espera que los alumnos aprendan a automatizar pruebas con diversas entradas.
+
+#### Actividad 8: Mejora del Manejo de Excepciones
+**Descripción:** Basándose en `mas pruebas.py`, los estudiantes deben mejorar la función para proporcionar mensajes más descriptivos cuando se producen excepciones. Se espera que los alumnos aprendan a manejar excepciones de manera eficiente y útil.
+
+Estas actividades están diseñadas para ayudar a los estudiantes a dominar las estructuras de control, manejo de errores y documentación en Python, habilidades esenciales para su futuro desarrollo profesional.
+
+
 <a id="ejercicio"></a>
 ## Ejercicio
 
-En el mundo de la programación, las estructuras de control son como los pilares que sostienen una construcción. Son fundamentales para organizar y controlar el flujo de ejecución del programa, permitiendo decisiones condicionales y repeticiones precisas. En esta carpeta, nos sumergimos en el ejercicio práctico de cómo aplicar estas estructuras en nuestro código.
-
-Comenzamos con la estructura de selección, que es como una bifurcación en un camino. Dependiendo del valor de una expresión booleana, el programa tomará diferentes caminos. Esta es una herramienta poderosa para manejar decisiones complejas y tomar acciones basadas en condiciones específicas.
-
-La siguiente estructura es la repetición, que nos permite realizar una tarea varias veces hasta que se cumpla una condición determinada. Este tipo de control es esencial para tareas como recorrer listas, procesar archivos o ejecutar algoritmos iterativos. Aprender a controlar el número de repeticiones y la condición de terminación es crucial para optimizar el rendimiento del programa.
-
-Además, existen estructuras de control que nos permiten manejar excepciones, situaciones inesperadas durante la ejecución del programa. Estas estructuras son como una red de seguridad que previene caídas y permite recuperarse de errores sin interrumpir completamente la operación del programa.
-
-La programación también implica el uso de bucles anidados, donde un bucle está dentro de otro. Este tipo de estructura es útil cuando necesitamos realizar una tarea repetitiva en múltiples niveles o dimensiones. Es como construir con bloques de construcción, donde cada nivel depende del anterior.
-
-La programación orientada a objetos introduce la estructura de las clases y los métodos. Las clases son como plantillas para crear objetos, mientras que los métodos definen las acciones que pueden realizar estos objetos. Esta estructura permite organizar el código en bloques lógicos y reutilizables, facilitando su mantenimiento y escalabilidad.
-
-Además, la programación también implica el uso de bucles controlados por contador, donde se especifica explícitamente cuántas veces se ejecutará un bloque de código. Este tipo de estructura es útil cuando sabemos con certeza el número exacto de repeticiones necesarias.
-
-La programación también requiere el manejo de eventos y callbacks, que son funciones que se ejecutan en respuesta a ciertas acciones o cambios en el programa. Estas estructuras permiten crear programas interactivos y responder dinámicamente a las entradas del usuario.
-
-Finalmente, la programación implica el uso de bucles controlados por sentinela, donde el número de repeticiones depende de una entrada externa o un cambio en el estado del programa. Este tipo de estructura es útil cuando no sabemos con certeza cuántas veces se ejecutará un bloque de código.
-
-En resumen, las estructuras de control son herramientas fundamentales para organizar y controlar el flujo de ejecución del programa. Aprender a usar estas estructuras correctamente es esencial para escribir programas eficientes, seguros y fáciles de mantener.
 
 <a id="ejercicio-de-final-de-unidad-2"></a>
 ## Ejercicio de final de unidad
 
-### actividad
+### Introducción a los ejercicios
 
-#### Explicación
+En esta unidad, te enfocarás en consolidar tus habilidades con las estructuras de control fundamentales del lenguaje de programación que estés utilizando. El ejercicio principal en este conjunto se centra en aplicar bucles, condicionales y otras estrategias para resolver un problema práctico de manera eficiente. Practicarás la resolución de problemas complejos mediante la combinación y el uso correcto de estas estructuras, mejorando así tu capacidad para controlar el flujo del programa y tomar decisiones lógicas en código. Este ejercicio es ideal para estudiantes de Formación Profesional que buscan afianzar sus conocimientos previos antes de avanzar a temas más avanzados.
 
-Parece que no has incluido el fragmento de código en formato Markdown para que pueda explicarlo. Por favor, proporciona el bloque de código dentro del formato indicado y estaré encantado de ayudarte a entenderlo.
+### Actividades propuestas
 
-```markdown
+### Actividad 1: Análisis y Resolución de Problemas Básicos
 
-```
+**Descripción:** Los estudiantes deben analizar un problema proporcionado en el archivo y diseñar una solución utilizando estructuras de control como condicionales (if, else) y bucles (for, while). Se espera que los alumnos comprendan cómo aplicar estas estructuras para resolver problemas prácticos.
+
+### Actividad 2: Comparación de Estructuras de Control
+
+**Descripción:** Los estudiantes deben comparar el uso de diferentes estructuras de control en la resolución del mismo problema. La actividad busca que entiendan las ventajas y desventajas de usar if-else, switch-case o bucles para determinados tipos de problemas.
+
+### Actividad 3: Mejora de Código Existente
+
+**Descripción:** A partir del código existente proporcionado, los estudiantes deben identificar áreas de mejora y aplicar cambios para hacer el código más eficiente. Esto puede implicar la simplificación de condicionales o bucles anidados.
+
+### Actividad 4: Implementación de Lógica Condicional Compleja
+
+**Descripción:** Los alumnos se enfrentan a un problema que requiere el uso de estructuras condicionales complejas, incluyendo operadores lógicos y comparaciones múltiples. Se espera que diseñen algoritmos capaces de manejar diferentes casos y condiciones.
+
+### Actividad 5: Bucle For vs Bucle While
+
+**Descripción:** Los estudiantes deben implementar la misma funcionalidad usando tanto el bucle for como el while, con el objetivo de comparar su uso en contextos específicos. Se espera que reflexionen sobre cuándo es más apropiado usar cada tipo de estructura.
+
+### Actividad 6: Estructuras Anidadas
+
+**Descripción:** Los alumnos trabajan con problemas que requieren la anidación de bucles y condicionales para resolverlos correctamente. Esta actividad busca mejorar sus habilidades en la aplicación de estructuras de control complejas.
+
+### Actividad 7: Optimización del Código
+
+**Descripción:** Se les pide a los estudiantes que revisen el código proporcionado y encuentren formas de optimizarlo, minimizando las líneas de código y mejorando su eficiencia sin cambiar su funcionalidad básica.
+
+### Actividad 8: Codificación Eficiente en Problemas Prácticos
+
+**Descripción:** Los alumnos deben aplicar sus conocimientos sobre estructuras de control para resolver un problema práctico relevante a la vida real. Esto incluye el uso eficaz de condicionales y bucles según sea necesario.
+
+Estas actividades están diseñadas para ayudar a los estudiantes a dominar las estructuras de control en programación, adaptándose al nivel y el contexto de sus estudios en Formación Profesional.
+
 
 
 <a id="desarrollo-de-clases"></a>
@@ -1631,59 +2242,24 @@ Parece que no has incluido el fragmento de código en formato Markdown para que 
 <a id="concepto-de-clase"></a>
 ## Concepto de clase
 
-En el vasto universo de la programación, las clases son como los bloques fundamentales que construyen edificios impresionantes. Un concepto tan esencial como este merece una exploración profunda y detallada, para entender su importancia y cómo se aplican en la creación de programas informáticos.
+### Introducción a los ejercicios
 
-La clase es un molde abstracto que define las características y comportamientos comunes de un conjunto de objetos. Es el plano o la plantilla a partir del cual se crean instancias concretas de ese tipo. En términos simples, una clase es como un modelo para crear coches; cada coche que se fabrica a partir de este modelo tendrá las mismas características básicas (llantas, puertas, motor) pero puede variar en detalles específicos (color, marca).
+Este conjunto de ejercicios se enfoca en introducir y practicar el concepto de clases en programación, partiendo desde la codificación básica hasta su aplicación avanzada. Inicia con ejemplos de código sin reutilización y luego evoluciona hacia el uso de funciones y parámetros para encapsular y modularizar el código. Finalmente, introduce la creación de clases y objetos (en este caso, gatos) para demostrar cómo se pueden crear instancias personalizadas que encapsulan atributos específicos.
 
-La definición de una clase comienza con la palabra clave `class`, seguida del nombre de la clase. Este nombre debe ser descriptivo y seguir las convenciones de nomenclatura utilizadas en el lenguaje de programación que estés utilizando. Por ejemplo:
-
-```python
-class Coche:
-    pass
-```
-
-En este ejemplo, `Coche` es el nombre de la clase. El bloque `pass` es simplemente un marcador de posición que indica que aquí se definirá el contenido de la clase.
-
-Una vez creada una clase, puedes añadir atributos y métodos a ella. Los atributos son variables que almacenan datos específicos del objeto, mientras que los métodos son funciones que definen las acciones que puede realizar el objeto. Por ejemplo:
-
-```python
-class Coche:
-    marca = "Toyota"
-    
-    def arrancar(self):
-        print("El coche está arrancando")
-```
-
-En este caso, `marca` es un atributo de la clase `Coche`, y `arrancar` es un método que define una acción que puede realizar un objeto de esta clase.
-
-La creación de instancias a partir de una clase se realiza mediante el uso del operador `new` (o simplemente el nombre de la clase seguido de paréntesis en algunos lenguajes). Por ejemplo:
-
-```python
-mi_coche = Coche()
-```
-
-Esta línea de código crea un nuevo objeto de la clase `Coche`, y lo asigna a la variable `mi_coche`. Ahora, puedes acceder a los atributos y métodos de este objeto mediante el punto (`.`):
-
-```python
-print(mi_coche.marca)  # Imprime: Toyota
-mi_coche.arrancar()   # Imprime: El coche está arrancando
-```
-
-La programación orientada a objetos, que es la base del desarrollo de clases, permite organizar y estructurar el código de una manera más lógica y fácil de mantener. Al definir clases, puedes encapsular datos y comportamientos relacionados en un solo lugar, lo que facilita su reutilización y modificación.
-
-Además, las clases permiten la herencia, que es un mecanismo que permite crear nuevas clases a partir de otras existentes. La clase hija puede heredar atributos y métodos de la clase padre, y además añadir nuevos o modificar los existentes. Esta característica es fundamental para crear jerarquías de objetos complejas y reutilizar código.
-
-En resumen, las clases son una herramienta poderosa en el arsenal del programador. Son la base de la programación orientada a objetos y permiten organizar y estructurar el código de manera más lógica y eficiente. Al comprender completamente el concepto de clase, se abre un mundo de posibilidades para crear programas complejos y robustos que puedan adaptarse a las necesidades cambiantes del usuario.
+A través de estos ejercicios, los estudiantes adquieren competencias fundamentales como la reutilización del código, el uso efectivo de funciones con parámetros y argumentos, y la creación de clases para modelar objetos complejos. Se les enseña a pasar gradualmente desde prácticas no óptimas hasta una programación orientada a objetos más eficiente.
 
 ### codigo sin reutilizacion
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código Python es un ejemplo simple de cómo imprimir mensajes en la pantalla. El programa utiliza varias líneas `print()` para mostrar información sobre tres personas diferentes: Pepe, Juan y Jorge. Cada persona tiene su propio saludo, una pregunta sobre cómo está y un mensaje con su edad.
+Este fragmento de código en Python muestra un ejemplo muy básico y repetitivo de cómo se imprime información personal para diferentes personas. En este caso, el programa imprime saludos y detalles sobre tres individuos: Pepe, Juan y Jorge. Para cada persona, se realizan tres impresiones separadas que incluyen un saludo amistoso, una pregunta acerca de su estado actual y una notificación con la edad de esa persona.
 
-Lo que hace este código es muy básico; simplemente muestra texto predefinido en la consola del programa. Sin embargo, si observas cuidadosamente, puedes notar que hay mucho código repetitivo: para cada persona se imprime exactamente lo mismo, cambiando solo el nombre y la edad.
+Lo importante aquí es entender que este código está escrito sin ninguna reutilización del código, lo cual significa que si tuviéramos que agregar más personas o cambiar cualquier detalle sobre estas tres, tendríamos que modificar manualmente cada parte correspondiente. Esto no solo hace el programa difícil de mantener y actualizar, sino también propenso a errores debido a la repetición.
 
-Esta falta de reutilización del código puede hacerlo difícil de mantener y modificar. Por ejemplo, si quisieras añadir a otra persona al listado o cambiar un detalle en los saludos, tendrías que editar varias líneas repetidas manualmente. Esto no es eficiente ni recomendable para programas más grandes. Es importante aprender cómo organizar el código para evitar este tipo de problemas y hacerlo más limpio y manejable.
+Este ejemplo ilustra por qué es importante aprender cómo encapsular comportamientos similares en funciones (que serán discutidas en ejercicios posteriores) para evitar la redundancia y mejorar la eficiencia del código.
+
+`001-codigo sin reutilizacion.py`
 
 ```python
 print("hola, pepe")
@@ -1700,12 +2276,15 @@ print("que sepas que tienes 56 años")
 ```
 
 ### funciones para encapsular
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este fragmento de código en Python muestra cómo se define y utiliza una función simple llamada `saluda()`. La función no necesita recibir ningún dato (no tiene parámetros) y simplemente imprime tres mensajes en la pantalla que salúdan a Pepe, le preguntan por su estado y hacen un comentario sobre su edad. Al final del código, se llama a esta función tres veces seguidas usando `saluda()`. Esto significa que los tres mensajes dentro de la función aparecerán tres veces en el resultado (output) cuando se ejecute este código.
+Este fragmento de código en Python muestra cómo se define y utiliza una función llamada `saluda`. La función simplemente imprime tres mensajes en la pantalla: un saludo, una pregunta sobre el estado del usuario y una declaración acerca de su edad. Cuando llamas a esta función tres veces con los comandos `saluda()`, cada vez que se ejecuta muestra esos mismos tres mensajes.
 
-Es importante entender cómo crear funciones como esta porque te permiten reutilizar bloques de código específicos y también facilitan organizar tu programa. En lugar de escribir lo mismo varias veces, simplemente llamas a la función cada vez que necesitas que esos mensajes aparezcan en el programa.
+Este tipo de estructura es importante porque permite reutilizar código en lugar de escribir las mismas líneas de código varias veces, lo cual hace el programa más limpio y fácil de mantener. Además, si en algún momento necesitas cambiar los mensajes, solo tendrás que hacerlo dentro de la función `saluda`, sin tener que modificar cada llamada individual a la función.
+
+`002-funciones para encapsular.py`
 
 ```python
 def saluda():
@@ -1719,14 +2298,17 @@ saluda()
 ```
 
 ### parametros de la funcion
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código define una función en Python llamada `saluda` que recibe dos parámetros: `nombre` y `edad`. La función imprime un saludo personalizado para cada persona, mostrando su nombre y edad. Primero se imprime "hola" seguido del nombre proporcionado, luego se pregunta cómo está la persona, y finalmente se indica cuántos años tiene basándose en el valor de `edad` que se pasa a la función.
+Este fragmento de código está diseñado para explicar cómo funcionan las funciones en Python, específicamente con parámetros. La función se llama `saluda` y tiene dos parámetros: `nombre` y `edad`. Cuando la función es llamada (ejecutada), necesita que le proporcionen un nombre y una edad como argumentos para poder imprimir saludos personalizados.
 
-Después de definir la función, se llaman tres veces con diferentes nombres y edades para demostrar cómo funciona. Esto es útil porque permite personalizar mensajes de saludo según los datos específicos de cada persona sin tener que escribir código repetitivo.
+Lo que hace la función es imprimir en pantalla tres mensajes. El primer mensaje incluye el nombre del usuario, mientras que el segundo es independiente de los parámetros dados. El tercer mensaje indica cuántos años tiene la persona proporcionando su edad, que es uno de los argumentos que se le pasan a la función.
 
-El uso de funciones ayuda a organizar el programa en bloques más pequeños y manejables, facilitando su mantenimiento y reutilización en diferentes partes del programa o incluso en otros programas.
+Este tipo de código es importante porque muestra cómo reutilizar bloques de código para diferentes valores, lo cual es una parte fundamental del desarrollo de software y de las buenas prácticas en programación. En lugar de escribir el mismo bloque de código tres veces (una vez por cada persona), usamos la función `saluda` que puede ser llamada con cualquier nombre y edad que deseemos. Esto no solo hace que nuestro código sea más corto, sino también más fácil de mantener y actualizar si necesitamos cambiar cómo se muestra un saludo en el futuro.
+
+`003-parametros de la funcion.py`
 
 ```python
 def saluda(nombre,edad):
@@ -1740,14 +2322,17 @@ saluda("jaime",67)
 ```
 
 ### clases
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este fragmento de código define una clase en Python llamada `Gato`. Una clase es como un plano o plantilla para crear objetos. En este caso, el objeto será un gato y la clase proporciona las características básicas que todos los gatos tendrán.
+Este fragmento de código muestra el inicio de la definición de una clase llamada `Gato` en Python. Una clase es como un plan o diseño para crear objetos, que son instancias concretas basadas en ese diseño. En este caso, la clase tiene un método especial llamado `__init__`, que se ejecuta automáticamente cuando creamos (o instanciamos) un nuevo objeto de tipo `Gato`.
 
-El método especial `__init__` se utiliza para inicializar cada instancia de la clase cuando se crea un nuevo objeto Gato. Sin embargo, en el código dado, dentro del método `__init__`, solo estás mencionando variables (`self.color`, `self.edad`, `self.raza`) pero no las estás asignando a ningún valor específico. Esto significa que al crear una instancia de la clase `Gato` ahora mismo, tendrías un error porque intentas acceder a propiedades que no han sido inicializadas correctamente.
+El método `__init__` recibe un parámetro por defecto `self`, que es una referencia al propio objeto que estamos creando. Sin embargo, en el código proporcionado, la función no está asignando valores a las propiedades del gato (color, edad y raza) que se mencionan dentro de este método. Para que estas variables (`self.color`, `self.edad`, `self.raza`) sean útiles, deben inicializarse con algún valor específico cuando se crea un objeto de la clase `Gato`. Por ejemplo, podríamos permitir al usuario especificar el color, edad y raza del gato al crear una nueva instancia de la clase. Esto es importante porque sin esta inicialización, estas variables no tendrían ningún valor asignado y causarían un error en el código si intentáramos usarlas más adelante.
 
-Es importante definir y asignar valores iniciales (o permitir que sean opcionales) para estas variables cuando se crea el objeto Gato, ya que esto permite almacenar información específica sobre cada gato individual creado desde esta clase.
+Es fundamental completar este método para que la clase `Gato` funcione correctamente y podamos crear objetos gato con características específicas.
+
+`004-clases.py`
 
 ```python
 class Gato:
@@ -1759,12 +2344,17 @@ class Gato:
 ```
 
 ### creo un primer gato
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este fragmento de código crea una clase llamada `Gato` en Python. La clase es como un molde que define las características y comportamientos que tendrán los objetos del tipo "Gato". Dentro de la clase, se encuentra el método especial `__init__`, que se llama automáticamente cuando creamos un nuevo objeto gato. Este método inicializa tres atributos: `color` (el color del pelaje del gato), `edad` (la edad del gato) y `raza` (la raza o tipo de gato). 
+Este código es una introducción al concepto de clases en Python, específicamente creando una clase llamada `Gato`. La clase define un constructor (`__init__`), que es un método especial que se ejecuta automáticamente cuando se crea una nueva instancia del objeto. En este caso, el constructor inicializa tres atributos vacíos: `color`, `edad`, y `raza`. Estos atributos representan características del gato como su color de pelo, cuántos años tiene, y qué raza pertenece.
 
-Después, el código crea una instancia de la clase `Gato`, es decir, un objeto llamado `gato1`. Finalmente, se imprime este objeto utilizando la función `print()`. Sin embargo, lo que verás en pantalla será una representación por defecto del objeto, ya que no hemos definido cómo debe imprimirse el gato en particular. Este código es importante porque introduce los conceptos básicos de las clases y objetos en programación orientada a objetos (POO).
+Después de definir la clase, se crea una instancia llamada `gato1` utilizando el constructor de la clase `Gato()`. Al imprimir `gato1`, Python mostrará información sobre este objeto en particular, pero por defecto no es muy detallado y solo muestra algo como `<__main__.Gato object at 0x7f2c3d4a8b80>`, que indica la ubicación de memoria del objeto.
+
+Es importante entender cómo se crean objetos basados en clases porque permite organizar el código de manera más estructurada, facilitando la reutilización y mantenimiento del mismo.
+
+`005-creo un primer gato.py`
 
 ```python
 class Gato:
@@ -1778,14 +2368,19 @@ print(gato1)
 ```
 
 ### puedo crear los gatos que quiera
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código crea una clase llamada `Gato` en Python. Una clase es como un modelo o plantilla que describe las características y comportamientos de los objetos relacionados con ella, en este caso, gatos. Dentro de la clase `Gato`, se define el método especial `__init__`, que actúa como constructor cuando creamos nuevas instancias (objetos) de esta clase. En este método, inicializamos tres atributos: `color`, `edad` y `raza`, todos establecidos en cadena vacía (`""`). Estos atributos son como las características individuales que cada gato podría tener.
+Este fragmento de código está creando una clase en Python llamada `Gato`. Una clase es como un modelo o plantilla que define las características y comportamientos de los objetos relacionados con ella. En este caso, la clase `Gato` tiene un método especial llamado `__init__`, que se ejecuta cada vez que creamos un nuevo objeto `Gato`.
 
-Después de definir la clase, creamos dos instancias de esta clase (objetos) llamados `gato1` e `gato2`. Esto es equivalente a decir "aquí hay un gato", y el código crea estos objetos sin asignarles valores específicos para sus atributos por ahora. Finalmente, intentamos imprimir cada objeto con la función `print()`, lo cual en este caso mostrará una representación no muy informativa del objeto debido a que aún no hemos definido cómo se debe mostrar un objeto de tipo Gato.
+En el método `__init__`, se inicializan tres atributos: `color`, `edad` y `raza`. Estos son características del gato que podrían variar de un gato a otro. Sin embargo, en este código, estos atributos no están recibiendo valores específicos cuando se crean los objetos, por lo que quedarán como cadenas vacías (`""`). 
 
-Es importante entender esto porque las clases y los objetos son fundamentales para organizar y estructurar nuestro código, permitiéndonos trabajar con conceptos complejos como atributos y métodos de una manera más clara y manejable.
+Después de definir la clase `Gato`, el código crea dos instancias o objetos de esta clase: `gato1` y `gato2`. Luego imprime ambos objetos. En Python, al imprimir un objeto simplemente verás cómo está representado internamente, lo que incluye su tipo (en este caso, `<__main__.Gato object at ...>`) y una referencia a la ubicación en memoria del objeto.
+
+Este código es importante porque muestra cómo se definen las clases y cómo se crean instancias de dichas clases. Sin embargo, para hacer que los objetos `gato1` y `gato2` sean realmente útiles, necesitarías proporcionarles valores específicos cuando son creados o después, por ejemplo, asignándoles un color, edad y raza adecuados a cada uno.
+
+`006-puedo crear los gatos que quiera.py`
 
 ```python
 class Gato:
@@ -1801,40 +2396,78 @@ gato2 = Gato()
 print(gato2)
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Creación de una Clase Sencilla
+
+**Descripción:** Crea una clase simple en Python que represente a un estudiante. La clase debe tener atributos como nombre, edad y curso actual. Los estudiantes deben poder ser instanciados con estos datos.
+
+---
+
+### Actividad 2: Personalización del Constructor de Estudiantes
+
+**Descripción:** Modifica la clase `Estudiante` creada en la actividad anterior para que el constructor tome los valores del nombre, la edad y el curso al momento de crear un objeto. Además, incluye un método que imprima estos datos.
+
+---
+
+### Actividad 3: Creación de Varios Estudiantes
+
+**Descripción:** Crea varios objetos `Estudiante` usando diferentes datos proporcionados (nombre, edad y curso) y muestra en pantalla la información de cada estudiante al instanciarlos.
+
+---
+
+### Actividad 4: Añadir Métodos a la Clase Estudiante
+
+**Descripción:** Agrega métodos dentro de la clase `Estudiante` que permitan cambiar el nombre y el curso del estudiante. Luego, prueba estos métodos modificando las propiedades de los estudiantes creados anteriormente.
+
+---
+
+### Actividad 5: Clase para Gestión de Notas
+
+**Descripción:** Diseña una nueva clase llamada `Nota`, la cual debe tener atributos como materia y calificación. Implementa un método que permita asignar estas notas a cada estudiante creado en las actividades anteriores.
+
+---
+
+### Actividad 6: Clase para Gestión de Grupo de Estudiantes
+
+**Descripción:** Crea una clase llamada `GrupoEstudiantes` que contenga objetos del tipo `Estudiante`. Implementa métodos que permitan agregar, eliminar y listar estudiantes del grupo.
+
+---
+
+### Actividad 7: Personalización de Atributos en la Clase Gato
+
+**Descripción:** Tomando como base el archivo `005-creo un primer gato.py`, personaliza los atributos de los gatos para que puedan ser inicializados con valores específicos (color, edad y raza) al instanciarlos.
+
+---
+
+### Actividad 8: Creación de Múltiples Instancias de Gato
+
+**Descripción:** Con la clase `Gato` personalizada en la actividad anterior, crea múltiples gatos con diferentes datos. Luego, imprime las características de cada uno para verificar que se han inicializado correctamente.
+
+---
+
+Estas actividades están diseñadas para ayudar a los estudiantes a familiarizarse gradualmente con el concepto de clases y objetos en Python, desde lo básico hasta la creación de clases más complejas que incluyen métodos y atributos personalizados.
+
+
 <a id="estructura-y-miembros-de-una-clase-visibilidad"></a>
 ## Estructura y miembros de una clase. Visibilidad
 
-En el vasto terreno de la programación orientada a objetos, las clases son una construcción fundamental que nos permite modelar entidades del mundo real. Una clase es un molde o plantilla que define las características y comportamientos comunes de un conjunto de objetos. Cada objeto creado a partir de una clase se denomina instancia de esa clase.
+### Introducción a los ejercicios
 
-La estructura y los miembros de una clase son elementos cruciales para definir su comportamiento y funcionalidad. Los miembros de una clase pueden ser atributos (también conocidos como variables) o métodos (funciones). Estos miembros definen las propiedades y capacidades que tendrán todas las instancias de la clase.
-
-La visibilidad es un aspecto importante en el diseño de clases, ya que determina quién puede acceder a los atributos y métodos. En programación orientada a objetos, existen tres niveles de visibilidad: público (public), protegido (protected) y privado (private). Cada nivel tiene sus propias reglas sobre el acceso:
-
-- **Público (public)**: Los miembros públicos son accesibles desde cualquier parte del programa. Son los que más a menudo se utilizan para exponer la funcionalidad de una clase.
-
-- **Protegido (protected)**: Los miembros protegidos son accesibles dentro de la misma clase y en las clases derivadas. Esta visibilidad es útil cuando deseamos permitir el acceso a ciertos miembros solo dentro del paquete, pero no fuera de él.
-
-- **Privado (private)**: Los miembros privados son accesibles solo dentro de la propia clase. Son los que se utilizan para ocultar detalles internos y proteger la integridad de los datos.
-
-La estructura de una clase en programación orientada a objetos suele seguir un patrón común, aunque puede variar según el lenguaje de programación utilizado. Generalmente, comienza con la declaración de la clase seguida del nombre de la clase y las llaves que encierran su contenido.
-
-Dentro de una clase, los miembros se declaran en orden: primero los atributos, luego los métodos. Cada miembro tiene un tipo de dato asociado y puede tener modificadores de acceso como public, protected o private.
-
-La declaración de un método dentro de una clase es similar a la declaración de una función, pero está encapsulada dentro del contexto de la clase. Los métodos definen las acciones que los objetos pueden realizar y cómo interactúan entre sí.
-
-La visibilidad juega un papel crucial en el diseño seguro y eficiente de clases. Al ocultar detalles internos y exponer solo lo necesario, podemos proteger contra modificaciones no deseadas y mantener la coherencia del estado de los objetos.
-
-En resumen, las clases son la base de la programación orientada a objetos, y su estructura y miembros definen su comportamiento. La visibilidad es un mecanismo poderoso que nos permite controlar el acceso a estos miembros, lo que es fundamental para crear sistemas robustos y seguros. A través del uso adecuado de atributos y métodos con diferentes niveles de visibilidad, podemos modelar entidades del mundo real de manera precisa y eficiente.
+Esta carpeta contiene ejercicios que te ayudarán a entender los fundamentos de cómo crear y manipular clases en Python, centrándote específicamente en los miembros de una clase (propiedades y métodos) y su visibilidad. En estos ejercicios, aprenderás a definir una clase con un constructor (`__init__`) para inicializar propiedades como el color, edad y raza del gato. Además, explorarás cómo los métodos permiten a las instancias de la clase realizar acciones, en este caso, maullar. También te enseñará sobre la visibilidad de estos miembros, mostrándote ejemplos donde algunas propiedades son públicas (accesibles desde fuera de la clase) y otras privadas (__color), protegidas del acceso directo externo para mantener una mejor estructura y encapsulamiento en tu código.
 
 ### miembros
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código Python define una clase llamada `Gato`, la cual se utiliza para crear objetos que representan gatos. En el interior de esta clase, hay un método especial denominado `__init__` que actúa como constructor; este es el primer bloque de código que se ejecuta cuando creamos (instanciamos) un objeto del tipo `Gato`. El constructor inicializa tres propiedades del gato: color, edad y raza, todas ellas vacías en este caso.
+Este código Python define una clase llamada `Gato` que representa las características y acciones de un gato. La función especial `__init__()` es el constructor, lo que significa que se ejecuta automáticamente cuando se crea (o instanciar) un objeto de la clase `Gato`. En este constructor, se inicializan tres propiedades del gato: `color`, `edad` y `raza`, todas establecidas como cadenas vacías.
 
-Además del constructor, la clase incluye otro método llamado `maulla`, el cual imprime por pantalla el sonido que hace el gato (en este caso "miau"). Este es un ejemplo de cómo los objetos pueden realizar acciones definidas dentro de métodos de su propia clase. Al final del código, se crea una instancia específica del objeto `Gato` llamada `gato1`, y luego se llama al método `maulla()` para que el gato haga ruido.
+Además, la clase contiene un método llamado `maulla()`, que simplemente imprime "miau" en pantalla. Este método representa una acción típica de los gatos que puede ser invocada desde cualquier instancia de la clase `Gato`.
 
-Este tipo de estructura es fundamental en la programación orientada a objetos porque permite encapsular datos (propiedades) y funciones relacionadas con esos datos (métodos) dentro de una misma entidad, facilitando así su manejo y organización.
+En el código, se crea una instancia del objeto `Gato` llamada `gato1`. Luego, se imprimen los detalles de este objeto (lo cual generalmente mostrará algo como `<__main__.Gato object at 0x7f8e4c52b6a0>` que no es muy informativo) y finalmente se llama al método `maulla()` para que el gato haga un sonido. Este ejemplo simple demuestra cómo definir una clase con propiedades e implementar métodos en Python, proporcionando una estructura clara para objetos más complejos en aplicaciones de programación.
+
+`001-miembros.py`
 
 ```python
 class Gato:
@@ -1851,10 +2484,17 @@ gato1.maulla()
 ```
 
 ### visibilidad de los miembros
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código define una clase llamada `Gato` en Python. La clase tiene un constructor (`__init__`) que inicializa tres propiedades: `color`, `edad` y `raza`. Estas propiedades son públicas, lo que significa que puedes acceder a ellas desde fuera de la clase sin restricciones. Por ejemplo, después de crear una instancia del objeto `gato1`, puedes cambiar el valor de su propiedad `color` a "naranja" y luego imprimir ese color utilizando las líneas `gato1.color = "naranja"` y `print("El gato es de color", gato1.color)`. Además, la clase tiene un método llamado `maulla()` que hace que el objeto imprima el sonido `"miau"`, simbolizando el maullido del gato. Este código ilustra cómo se crean objetos en Python y cómo acceder a sus propiedades, lo cual es fundamental para entender la programación orientada a objetos.
+Este código Python crea una clase llamada `Gato` que simula las características y comportamiento básico de un gato. La clase tiene tres propiedades: `color`, `edad` y `raza`. Estas propiedades son públicas, lo que significa que puedes acceder a ellas desde fuera de la clase tanto para leer como para modificar sus valores.
+
+Además, la clase incluye un método llamado `maulla()` que simplemente imprime el sonido "miau" en pantalla. En este ejemplo, se crea una instancia de la clase `Gato` denominada `gato1`, y luego se establece su propiedad `color` como "naranja". Finalmente, se imprime un mensaje que muestra el color del gato utilizando la propiedad modificada.
+
+Este código es importante porque demuestra cómo crear clases en Python con propiedades públicas y métodos, así como cómo instanciar objetos a partir de estas clases y manipular sus atributos.
+
+`002-visibilidad de los miembros.py`
 
 ```python
 class Gato:
@@ -1871,16 +2511,17 @@ print("El gato es de color",gato1.color)  # Desde fuera puedo leer la propiedad
 ```
 
 ### propiedad privada
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código define una clase llamada `Gato` en Python, que representa a un objeto gato con algunas propiedades y comportamientos. La clase tiene tres propiedades: `__color`, `edad` y `raza`. El guion bajo duplicado (`__`) antes del nombre de la propiedad `__color` indica que esta es una propiedad privada, lo que significa que no se puede acceder a ella directamente desde fuera de la clase. Sin embargo, en el código proporcionado, hay un intento fallido de modificar y leer la propiedad `__color` desde fuera de la clase, lo cual debería generar un error porque Python considera esta variable como encapsulada.
+Este código Python define una clase llamada `Gato` que tiene propiedades como el color, edad y raza. La propiedad `__color` está marcada con dos guiones bajos al principio del nombre (`__color`), lo cual en Python indica que esta propiedad es privada (no visible desde fuera de la clase). Sin embargo, en este código se intenta cambiar el valor de `__color` directamente desde el exterior y también imprimirlo, lo que no debería ser posible si realmente fuera un atributo privado correctamente implementado.
 
-Las propiedades `edad` y `raza`, que no tienen guiones bajos duplicados al principio del nombre, son públicas. Esto significa que pueden ser modificadas o leídas desde cualquier parte del código que tenga acceso a una instancia de la clase `Gato`.
+Lo importante aquí es entender cómo Python trata los métodos y propiedades públicas y privadas: cuando una propiedad comienza con dos guiones bajos, normalmente se espera que su uso sea restringido dentro de la clase. Pero en este caso específico, el código ignora esta convención y aún así accede a `__color` directamente desde fuera de la clase.
 
-El método `maulla()` es una acción que puede realizar un objeto gato; en este caso, simplemente imprime "miau". Este tipo de método simula el comportamiento típico de un gato cuando maúlla.
+Es esencial entender esto porque si hubieras implementado correctamente la propiedad como privada (por ejemplo, con métodos getter y setter), no podrías modificarla desde afuera. Esto ayuda a proteger el estado interno del objeto de modificaciones accidentales o malintencionadas.
 
-Es importante destacar que aunque intentas cambiar y leer la propiedad `__color` desde fuera de la clase, Python no permite esto debido a su encapsulación. Esto ayuda a proteger ciertos aspectos del objeto para evitar cambios accidentales o maliciosos en esos atributos.
+`003-propiedad privada.py`
 
 ```python
 class Gato:
@@ -1896,32 +2537,60 @@ gato1.__color = "naranja"          # Desde fuera puedo escribir la propiedad
 print("El gato es de color",gato1.__color)  # Desde fuera puedo leer la propiedad
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Crear una clase simple
+**Descripción:** Diseña y crea una nueva clase en Python que modele un objeto "Perro". Debe tener al menos un método y tres atributos. La idea es que entiendas cómo estructurar una clase básica con propiedades y métodos.
+
+### Actividad 2: Implementación de un constructor
+**Descripción:** Modifica la clase del perro para incluir un constructor (__init__) que inicialice sus atributos. Esto te permitirá entender mejor cómo se manejan los objetos en Python desde su creación.
+
+### Actividad 3: Añadir métodos a una clase
+**Descripción:** Agrega al menos dos métodos diferentes a tu clase "Perro". Estos métodos deben representar acciones que un perro podría realizar. Esto te ayudará a entender cómo se define y utiliza la funcionalidad de una clase.
+
+### Actividad 4: Modificar propiedades públicas
+**Descripción:** Cambia el color del perro en tu código, demostrando cómo las propiedades públicas pueden modificarse desde fuera de la clase. Asegúrate de imprimir el nuevo valor para verificar que se ha cambiado correctamente.
+
+### Actividad 5: Propiedades privadas y visibilidad
+**Descripción:** Cambia uno de los atributos de tu clase "Perdo" a una propiedad privada (__color) y muestra cómo no puedes modificarla directamente desde fuera de la clase. Explica por qué es útil tener propiedades privadas.
+
+### Actividad 6: Encapsulamiento básico
+**Descripción:** Implementa métodos getter y setter para tu atributo privado "__color". Estos métodos permitirán leer y escribir el valor del color de manera controlada, mostrando cómo el encapsulamiento protege las propiedades internas.
+
+### Actividad 7: Clase con herencia
+**Descripción:** Crea una nueva clase "RazaPerro" que herede de la clase "Perdo". Añade nuevas características específicas a esta subclase para entender los conceptos básicos de la herencia en Python.
+
+### Actividad 8: Ejecutar métodos desde objetos
+**Descripción:** Crea varias instancias de tu clase principal y ejecuta diferentes métodos en cada instancia. Observa cómo las acciones se reflejan específicamente según las propiedades individuales de cada objeto.
+
+### Actividad 9: Documentación con docstrings
+**Descripción:** Añade docstrings a tus clases, métodos y funciones para mejorar la documentación del código. Esto te ayudará a entender cómo proporcionar información útil sobre los objetos y acciones en tu programa.
+
+### Actividad 10: Refactorización de código
+**Descripción:** Toma el código existente para la clase "Perro" y realiza mejoras como la eliminación de redundancias, mejora de estructura interna y simplificación del uso de métodos. Esto te ayudará a entender cómo mantener un código limpio y eficiente.
+
+
 <a id="creacion-de-propiedades"></a>
 ## Creación de propiedades
 
-En el vasto mundo de la programación, las clases son como moldeadores de objetos, creando estructuras que encapsulan datos y comportamientos. En esta subunidad didáctica, nos adentramos en la creación de propiedades dentro de estas clases, un paso esencial para dar forma a nuestros programas.
+### Introducción a los ejercicios
 
-Las propiedades son atributos que definen las características de los objetos. Al igual que las variables, las propiedades almacenan datos, pero tienen una estructura más compleja y funcional. Cada propiedad tiene un nombre, un tipo de dato y puede tener métodos asociados para su acceso y modificación.
+En esta carpeta, trabajaremos con ejercicios enfocados en la creación y manejo de propiedades dentro de clases utilizando Python. El archivo proporcionado muestra cómo definir una clase `Gato` con varias propiedades como color, edad, raza, nombre y color de ojos. Además, se incluye un método `maulla()` que ilustra cómo las instancias de la clase pueden realizar acciones específicas.
 
-La creación de propiedades en una clase es fundamental porque permite encapsular los datos de manera segura y controlada. Esto significa que podemos definir cómo se accede a estos datos (lectura o escritura) y qué acciones se realizan cuando se intenta modificarlos, lo que ayuda a prevenir errores y mantener la integridad del objeto.
-
-Además, las propiedades facilitan el acceso a los datos de manera más intuitiva y segura. En lugar de acceder directamente a una variable interna, podemos utilizar métodos getter y setter para controlar cómo se obtienen y modifican los valores de las propiedades. Esto no solo mejora la seguridad del objeto, sino que también facilita el mantenimiento y evolución del código.
-
-La creación de propiedades también es clave para implementar la programación orientada a objetos (POO), una técnica poderosa que permite organizar y reutilizar el código de manera eficiente. Al definir las propiedades en una clase, podemos crear instancias de esa clase con diferentes valores para sus propiedades, lo que nos permite representar diversos estados del objeto.
-
-En esta subunidad, aprenderemos a declarar propiedades en una clase, cómo definir métodos getter y setter para acceder y modificar sus valores, y cómo utilizar estas propiedades para encapsular los datos de nuestros objetos. A través de ejemplos prácticos, exploraremos cómo implementar las propiedades en diferentes contextos y cómo usarlas para mejorar la estructura y funcionalidad de nuestros programas.
-
-La comprensión de cómo crear y utilizar propiedades es un paso crucial en el aprendizaje de la programación orientada a objetos. Al dominar este concepto, podremos construir clases más robustas y seguras, lo que nos permitirá desarrollar aplicaciones más complejas y eficientes.
+El objetivo principal es entender qué son las propiedades en programación orientada a objetos, su función dentro de una clase y cómo inicializarlas adecuadamente. A través de estos ejercicios, los estudiantes practicarán la creación de clases, el uso de constructores para inicializar propiedades y definir métodos que interactúan con estas propiedades.
 
 ### propiedades
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código define una clase en Python llamada `Gato`. Una clase es como un modelo o plantilla para crear objetos. En este caso, la clase `Gato` tiene varias propiedades, que son características específicas de los gatos que puedes definir, como el color del pelaje, la edad, la raza, el nombre y el color de los ojos. Estas propiedades se inicializan en el método especial llamado `__init__`, que Python llama automáticamente cada vez que creas un nuevo objeto basado en esta clase.
+Este código define una clase en Python llamada `Gato`. Una clase es como un plano o diseño para crear objetos, y este caso específico se centra en las características de un gato. Dentro de la clase, hay un método especial llamado `__init__` que se llama automáticamente cada vez que se crea (o "instantiate" en inglés) una nueva instancia del objeto Gato. En esta función inicializadora, se definen varias propiedades del gato: color, edad, raza, nombre y color de ojos. Todas estas propiedades inician como cadenas vacías ("").
 
-Además de las propiedades, hay un método llamado `maulla` que hace que la instancia del gato (un objeto específico creado desde esta clase) imprima "miau", lo cual simula el ronroneo o maullido del gato. Este método muestra cómo puedes definir acciones que los objetos pueden realizar basándose en la lógica que programas dentro de la clase.
+Además de las propiedades, hay un método llamado `maulla` que imprime "miau" en pantalla cada vez que se llama. Este método simula la acción que realiza el objeto Gato, es decir, emitir el sonido característico del gato.
 
-Este tipo de estructura es importante porque permite crear múltiples instancias de un mismo tipo (en este caso, diferentes gatos) con sus propias características únicas mientras comparten el mismo conjunto básico de comportamientos y datos.
+Este tipo de definición de clases y métodos es fundamental en programación orientada a objetos porque permite encapsular información (las propiedades) y comportamiento (los métodos) relacionados dentro de un solo contenedor llamado clase.
+
+`001-propiedades.py`
 
 ```python
 class Gato:
@@ -1936,34 +2605,68 @@ class Gato:
     
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Instanciación de Clases y Propiedades
+
+**Descripción:** Crea un objeto `Gato` a partir de la clase proporcionada en el archivo. Llena las propiedades del gato con datos específicos (color, edad, raza, nombre y color de ojos). Esta actividad te ayudará a entender cómo se crean instancias de una clase y cómo se inicializan sus propiedades.
+
+### Actividad 2: Agregar un Método
+
+**Descripción:** Añade un nuevo método a la clase `Gato` que permita alimentar al gato. Este método debería modificar el estado del gato (por ejemplo, aumentando su energía). Esta actividad te ayudará a comprender cómo se pueden añadir métodos para manipular los atributos de una instancia.
+
+### Actividad 3: Personalizar Constructor
+
+**Descripción:** Modifica la clase `Gato` para que acepte parámetros en el constructor (`__init__`). Estos parámetros permitirán inicializar las propiedades del gato al crear un objeto. Esta actividad te permitirá entender cómo personalizar constructores y pasar argumentos a una clase durante su creación.
+
+### Actividad 4: Getter y Setter
+
+**Descripción:** Implementa métodos `get_nombre` y `set_nombre` en la clase `Gato`. Estos métodos permiten obtener el valor de la propiedad nombre (`get`) y establecer un nuevo valor para la misma (`set`). Esta actividad te ayudará a conocer cómo se gestionan los accesos a las propiedades de una clase.
+
+### Actividad 5: Herencia Simples
+
+**Descripción:** Crea una subclase `GatoSiberiano` que herede de la clase `Gato`. Añade un nuevo método específico para gatos siberianos. Esta actividad te permitirá comprender cómo funciona la herencia y cómo puedes especializar clases existentes.
+
+### Actividad 6: Propiedades Privadas
+
+**Descripción:** Modifica las propiedades del gato en la clase `Gato` para que sean privadas (prefijándolas con un guión bajo, `_`). Implementa métodos getter y setter para acceder a estas propiedades de forma controlada. Esta actividad te enseñará cómo ocultar los atributos internos de una clase.
+
+### Actividad 7: Método Mágico `__str__`
+
+**Descripción:** Añade un método especial llamado `__str__` en la clase `Gato`. Este método debe devolver una cadena que describa el objeto gato. Esta actividad te ayudará a comprender cómo se puede sobrescribir este método para mostrar información útil sobre los objetos.
+
+### Actividad 8: Instanciar Multiples Gatos
+
+**Descripción:** Crea un programa principal en Python donde instancies varios objetos de la clase `Gato`, cada uno con diferentes propiedades. Luego, utiliza estos gatos y llama a sus métodos para demostrar su funcionalidad. Esta actividad te permitirá practicar la creación de múltiples instancias y el uso de los métodos definidos en una clase.
+
+### Actividad 9: Uso del Método `maulla`
+
+**Descripción:** Implementa un programa que cree varios objetos de tipo gato e invoque al método `maulla` para cada uno. Esto permitirá a los estudiantes entender cómo se invocan métodos dentro de las instancias de una clase.
+
+### Actividad 10: Modificar el Método `maulla`
+
+**Descripción:** Añade un parámetro al método `maulla()` que indique la cantidad de veces que el gato debe maullar. Esto permitirá a los estudiantes aprender cómo modificar y extender las capacidades de los métodos existentes en una clase.
+
+
 <a id="creacion-de-metodos"></a>
 ## Creación de métodos
 
-En el vasto universo de la programación, los métodos son como las herramientas que nos permiten dar forma a nuestros objetos. Al igual que un carpintero necesita diferentes tipos de martillos para completar su trabajo, un programador necesita diversos métodos para manipular y gestionar los datos de sus clases.
+### Introducción a los ejercicios
 
-El primer paso en el desarrollo de métodos es entender qué acción queremos que realice nuestro objeto. Un método puede ser tan simple como una función que imprime un mensaje o tan complejo como una operación matemática que procesa múltiples variables. Cada método tiene su propósito específico, y su definición se realiza dentro del cuerpo de la clase.
-
-El nombre de cada método es crucial, ya que actúa como el identificador único que nos permite invocarlo cuando lo necesitemos. Es una buena práctica elegir nombres descriptivos que reflejen claramente la funcionalidad del método. Por ejemplo, si estamos trabajando con un objeto `Persona`, podríamos tener métodos como `cumplirAnios()` o `caminar(int pasos)`.
-
-Además de su nombre, cada método tiene parámetros, que son los valores que necesita para realizar su tarea. Estos parámetros pueden ser de cualquier tipo y número, permitiendo una gran flexibilidad en cómo se utilizan los métodos. Por ejemplo, un método `calcularDescuento(double precioOriginal)` podría recibir el precio original de un producto como parámetro y devolver el precio con descuento aplicado.
-
-El cuerpo del método es donde se define la lógica que ejecutará cuando el método sea invocado. Aquí es donde se realizan las operaciones necesarias para lograr el objetivo del método. Cada línea de código dentro del método debe ser clara y concisa, facilitando su lectura y depuración.
-
-Es importante recordar que los métodos deben seguir un principio fundamental: la responsabilidad única. Un método debería tener una sola tarea y hacerla bien. Esto no solo hace que el código sea más fácil de mantener y entender, sino que también facilita la reutilización del código en diferentes partes del programa.
-
-Además de definir métodos dentro de las clases, es común crear métodos estáticos. Los métodos estáticos son aquellos que pueden ser invocados sin necesidad de instanciar una clase. Son útiles para funciones utilitarias o operaciones que no dependen del estado de un objeto en particular.
-
-La gestión adecuada de los métodos es esencial para mantener el orden y la claridad en nuestros proyectos de programación. Al seguir las mejores prácticas en la creación y uso de métodos, podemos construir sistemas más robustos y fáciles de mantener a lo largo del tiempo.
-
-En resumen, los métodos son el corazón de cualquier programa orientado a objetos. Son herramientas poderosas que nos permiten dar forma a nuestros objetos y realizar tareas específicas. Al aprender a crear y utilizar métodos eficazmente, podemos desarrollar programas más complejos y funcionales, facilitando así la tarea del programador y mejorando la calidad de nuestro trabajo.
+En esta carpeta, encontrarás ejercicios que te ayudarán a comprender y practicar la creación de métodos en Python. Estos ejemplos se centran en cómo implementar acciones dentro de una clase (métodos), como hacer que un objeto "gato" maulle o cambie su edad mediante funciones setter y getter. A través de estos ejercicios, podrás aprender a manipular las propiedades de los objetos de manera segura y controlada, lo cual es fundamental en el desarrollo orientado a objetos.
 
 ### metodo miau
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código muestra cómo crear y utilizar una clase en Python para representar un gato. La clase `Gato` tiene un constructor (`__init__`) que se ejecuta cuando creamos un nuevo objeto de tipo `Gato`. En este constructor, inicializamos varias propiedades del gato como su color, edad, raza, nombre y color de ojos, todas ellas vacías al principio. Luego, definimos un método llamado `maulla`, que simplemente imprime el sonido "miau" en la pantalla cuando se llama.
+Este código Python crea una clase llamada `Gato` y muestra cómo definir tanto propiedades como métodos dentro de ella. La función `__init__` es lo que se conoce como el constructor de la clase; es un método especial que se llama automáticamente cuando creas una nueva instancia del objeto `Gato`. En este caso, inicializa las propiedades del gato como color, edad, raza, nombre y color de ojos, asignándoles cadenas vacías.
 
-Es importante entender este concepto porque las clases nos permiten encapsular datos (propiedades) y funciones relacionadas con esas propiedades (métodos) dentro de una estructura única. Esto hace más fácil manejar objetos complejos, ya que cada objeto tiene sus propias características y acciones específicas. Al final del código, creamos un objeto `gato1` a partir de nuestra clase `Gato` e inmediatamente llamamos al método `maulla()` para hacerlo maullar, lo cual demuestra cómo interactuar con los objetos que hemos creado.
+Además, la clase define un método llamado `maulla`, que simplemente imprime "miau" en pantalla cuando se llama. Al final, el código crea una instancia de la clase `Gato` llamada `gato1` y luego llama al método `maulla` sobre esta instancia para que el gato haga ruido.
+
+Este ejemplo es útil porque demuestra cómo estructurar una clase con atributos (propiedades) y comportamientos (métodos), lo cual es fundamental en la programación orientada a objetos.
+
+`001-metodo miau.py`
 
 ```python
 class Gato:
@@ -1981,12 +2684,15 @@ gato1.maulla()
 ```
 
 ### funcion con return
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este fragmento de código Python muestra cómo se define y utiliza una clase llamada `Gato`. La clase tiene un constructor (`__init__`) que inicializa las propiedades del gato, como el color, la edad, la raza, el nombre y el color de ojos. Estas propiedades son atributos del objeto `Gato` que almacenarán información específica para cada instancia (cada gato individual). Además, se define un método llamado `maulla()`, que no necesita recibir ningún parámetro adicional pero devuelve una cadena "miau" cuando es llamado. Este método simula la acción de maullar de un gato.
+Este código define una clase en Python llamada `Gato`. Una clase es como un modelo o plantilla para crear objetos, y en este caso, está diseñado específicamente para representar características de un gato. La clase tiene un constructor (`__init__`), que es el método especial que se ejecuta automáticamente cada vez que se crea (o "instantiate" en inglés) un objeto `Gato`. En este constructor, se definen varias propiedades del gato como color, edad, raza, nombre y color de ojos, todas inicializadas con cadenas vacías (`""`).
 
-Luego del bloque de definición de la clase, se crea una instancia (un objeto) de `Gato` denominada `gato1`, y se llama al método `maulla()` utilizando el objeto recién creado. La función `print()` imprime en pantalla lo que devuelve el método `maulla()`, es decir, "miau". Este código ilustra cómo una clase puede contener tanto propiedades (datos) como métodos (funciones), y cómo estos se pueden utilizar para simular comportamientos reales o representar entidades del mundo real de manera simplificada en un programa.
+Además del constructor, la clase tiene otro método llamado `maulla`, que simplemente retorna la cadena `"miau"`. Este método simula el sonido que hace un gato. Cuando se llama a este método en una instancia de la clase (como `gato1.maulla()`), devuelve la palabra "miau", lo cual es importante porque permite que los objetos creados con esta clase interactúen y realicen acciones que se esperarían de un gato, como maullar. Al final del código, se crea una instancia de la clase `Gato` llamada `gato1`, y luego se imprime el resultado de llamar al método `maulla()`, lo cual es "miau". Esto demuestra cómo los métodos dentro de una clase pueden ser utilizados para hacer que nuestros objetos realizan acciones específicas.
+
+`002-funcion con return.py`
 
 ```python
 class Gato:
@@ -2004,16 +2710,19 @@ print(gato1.maulla())
 ```
 
 ### setter
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código crea una clase llamada `Gato` que simula las propiedades y comportamientos de un gato en Python. En la clase, se definen varias propiedades como `color`, `edad`, `raza`, `nombre` y `color_ojos`. Estas propiedades son variables que guardan información sobre cada instancia del objeto `Gato`.
+Este código define una clase llamada `Gato` en Python, que representa a un gato con varias características como color, edad, raza, nombre y color de ojos. La función `__init__()` es el constructor de la clase, que se ejecuta automáticamente cuando se crea (o "instancia") un objeto del tipo `Gato`. En este constructor, inicializamos las propiedades del gato a valores vacíos o cero.
 
-Además, hay dos métodos definidos: `maulla()` y `setEdad()`. El método `maulla()` simplemente devuelve la palabra "miau", imitando el sonido que hace un gato. Por otro lado, el método `setEdad(nuevaedad)` establece la edad del gato utilizando un argumento que recibe.
+Además, la clase tiene dos métodos: `maulla()` y `setEdad()`. El método `maulla()` simplemente devuelve el sonido "miau" cuando se llama. Por otro lado, el método `setEdad(nuevaedad)` permite cambiar la edad del gato estableciendo un nuevo valor para la propiedad `edad`.
 
-El código también muestra cómo instanciar una clase y acceder a sus métodos y propiedades. Se crea una instancia de `Gato` llamada `gato1`. Luego, se imprime el sonido que hace (`miau`) mediante la invocación del método `maulla()`. A continuación, se muestra cómo establecer y modificar la edad del gato tanto directamente como utilizando el método `setEdad()`.
+En la parte inferior del código, se crea una instancia de la clase `Gato` llamada `gato1`. Luego se imprime el sonido que hace el gato usando el método `maulla()`, y también se muestra su edad actual. Después, se cambia la edad del gato mediante dos formas diferentes: directamente asignando un nuevo valor a `gato1.edad` (lo cual no es recomendable porque no permite controlar cómo se realiza el cambio), y luego usando el método `setEdad(1)`, que es una forma más segura ya que puede añadir validaciones adicionales en el futuro si fuera necesario.
 
-El uso de métodos para cambiar las propiedades, como en `gato1.setEdad(1)`, es mucho más seguro que hacerlo directamente (`gato1.edad = 1`), ya que los métodos pueden implementar validaciones adicionales y controlar mejor cómo se manipulan los datos.
+Este ejemplo ilustra cómo usar métodos para manipular los datos de un objeto de manera controlada, lo cual es importante para mantener la integridad del estado de tu programa.
+
+`003-setter.py`
 
 ```python
 class Gato:
@@ -2037,14 +2746,17 @@ print("ahora mismo el gato tiene",gato1.edad,"años")
 ```
 
 ### seteando sin control
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código crea una clase llamada `Gato` que simula las propiedades y comportamientos de un gato en la programación. La clase incluye una serie de atributos como color, edad, raza, nombre y color de ojos. También tiene dos métodos: `maulla`, que simplemente retorna el sonido "miau", representando cómo maúlla el gato; y `setEdad`, que permite establecer la edad del gato pero con una restricción especial.
+Este código Python define una clase llamada `Gato` que representa las características y acciones de un gato. La clase incluye un constructor (`__init__`) donde se inicializan las propiedades del objeto, como el color, la edad, la raza, el nombre y los ojos del gato.
 
-El método `setEdad` solo aumenta la edad en uno cuando se llama, lo cual significa que si intentas cambiar la edad a un valor diferente al actual más uno, el programa imprime "operación no permitida". Esto es importante porque ayuda a mantener la consistencia y seguridad de los datos; evita que alguien cambie arbitrariamente la edad del gato sin seguir una secuencia lógica.
+Además del constructor, hay un método llamado `maulla` que simplemente devuelve la cadena "miau", representando el sonido que hace un gato. También existe un método `setEdad` que permite establecer la edad del gato, pero con una condición: si la nueva edad es exactamente uno más que la edad actual, se cambia de manera segura; en caso contrario, imprime "operación no permitida".
 
-En resumen, este código muestra cómo definir atributos y métodos en Python para simular un objeto real con características y acciones específicas.
+El código posterior a la definición de la clase crea un objeto `gato1` de tipo `Gato`, muestra el sonido que hace y luego intenta cambiar su edad usando el método `setEdad`. Esto demuestra cómo se puede controlar y validar los cambios en las propiedades del objeto para mantener la integridad de los datos. Es importante destacar que este ejemplo tiene un mecanismo limitado para asegurar que sólo ciertos tipos de cambios (en este caso, incrementos de una unidad) sean permitidos, lo cual es útil para prevenir errores y garantizar que las propiedades del objeto estén en un estado válido siempre.
+
+`004-seteando sin control.py`
 
 ```python
 class Gato:
@@ -2070,14 +2782,19 @@ print("ahora mismo el gato tiene",gato1.edad,"años")
 ```
 
 ### control en el set
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código crea una clase llamada `Gato` que modela las características y comportamientos de un gato en Python. La clase incluye un constructor (`__init__`) donde se inicializan las propiedades del gato como su color, edad, raza, nombre y color de ojos. Además, la clase tiene dos métodos: `maulla`, que simplemente devuelve el sonido "miau", y `setEdad`, que permite establecer la edad del gato pero solo si la nueva edad es exactamente un año mayor que la edad actual. Esto asegura que no se pueda manipular la edad de forma arbitraria, lo cual es importante para mantener los datos del objeto consistentes y seguros.
+Este código define una clase llamada `Gato` en Python, que simula las características de un gato real. La clase incluye un constructor (`__init__`) donde se inicializan varias propiedades del gato como su color, edad, raza, nombre y color de ojos. Además, la clase tiene dos métodos: `maulla()`, que devuelve el sonido "miau", y `setEdad(nuevaedad)`, que permite cambiar la edad del gato bajo ciertas condiciones.
 
-El código también muestra cómo crear una instancia de `Gato`, llamada `gato1`, e invocar sus métodos. Primero imprime el sonido que hace el gato y luego su edad actual, que inicialmente es 0 porque no se ha establecido un valor en particular durante la creación del objeto. A continuación, se utiliza el método `setEdad` para intentar cambiar la edad a 5 años (lo cual es válido ya que es solo un año mayor), y vuelve a imprimir la edad actualizada del gato.
+El método `setEdad` es particularmente interesante porque incluye un control para asegurar que solo se pueda aumentar la edad en un año a la vez. Esto significa que si intentas establecer una nueva edad que no sea exactamente un año más grande que la edad actual, el programa imprimirá "operación no permitida" en lugar de cambiar la edad.
 
-Esta estructura de clase y métodos permite organizar el código en una forma modular y fácilmente mantenible, lo que es fundamental cuando se trabaja con objetos complejos en programación orientada a objetos.
+En las últimas líneas del código, se crea una instancia de `Gato` llamada `gato1`. Se imprime el sonido que hace y la edad inicial del gato (que es 0 según cómo está definida la clase). Luego, se intenta establecer la edad en 5 años usando el método `setEdad`, lo cual es permitido porque incrementa la edad en un solo año desde su estado inicial. Por último, vuelve a imprimir la nueva edad del gato.
+
+Este ejemplo ilustra cómo los métodos pueden ser utilizados para controlar y manipular las propiedades de una clase de manera segura y lógica, asegurando que el objeto se mantenga en un estado consistente con reglas específicas.
+
+`005-control en el set.py`
 
 ```python
 class Gato:
@@ -2103,12 +2820,23 @@ print("ahora mismo el gato tiene",gato1.edad,"años")
 ```
 
 ### getter edad
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código crea una clase llamada `Gato` en Python, que representa las propiedades y comportamientos de un gato. La clase tiene un constructor (`__init__`) donde se inicializan varias propiedades como el color del pelaje, la edad, la raza, el nombre y el color de los ojos. También incluye métodos específicos para acciones como maullar (`maulla()`) y gestionar la propiedad `edad` a través de dos métodos: `setEdad()` y `getEdad()`. El método `setEdad()` permite cambiar la edad del gato, pero solo si la nueva edad es exactamente un año mayor que la actual para evitar errores. Por otro lado, el método `getEdad()` simplemente devuelve la edad actual del gato.
+Este código define una clase llamada `Gato` en Python, que es un modelo de un objeto real. Dentro de esta clase, hay varias partes importantes:
 
-Esta estructura de código es importante porque encapsula los datos y las operaciones relacionadas con un objeto (en este caso, un gato) en una clase, lo que facilita su manejo y uso en programas más grandes. Además, el uso de `setEdad()` y `getEdad()` proporciona control sobre cómo se modifican ciertos atributos del gato, asegurando que los cambios sean lógicos y seguros.
+- El método especial `__init__`, también conocido como constructor, se utiliza para inicializar las propiedades del gato (como color, edad, raza, nombre y color de ojos) cuando creamos una instancia del objeto `Gato`.
+
+- Otros métodos incluyen `maulla()`, que simplemente devuelve el sonido "miau" cuando se llama.
+
+- Los métodos `setEdad()` y `getEdad()` permiten establecer (asignar) y obtener la edad del gato, respectivamente. Estos métodos ayudan a controlar cómo se manipulan los datos dentro de la clase, proporcionando seguridad adicional al evitar que se cambien de forma incorrecta.
+
+Finalmente, el código crea una instancia del objeto `Gato` llamada `gato1`, llama a algunos métodos y muestra en pantalla información sobre este gato, demostrando cómo funcionan los métodos para obtener la edad del gato y establecer su nueva edad. Esto es útil porque permite controlar cómo se modifican las propiedades del objeto de manera segura y coherente.
+
+Este tipo de diseño orientado a objetos ayuda a organizar el código y protege los datos, lo cual es fundamental en programación avanzada.
+
+`006-getter edad.py`
 
 ```python
 class Gato:
@@ -2135,30 +2863,70 @@ gato1.setEdad(5)  # Esto es mucho más seguro
 print("ahora mismo el gato tiene",gato1.getEdad(),"años")
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Creación de un método de acción básica
+
+**Descripción:** Crea una clase `Perro` que incluya un método llamado `ladrar()` que imprima "guau". La actividad se centra en la creación y uso básico de métodos dentro de las clases.
+
+### Actividad 2: Método con retorno
+
+**Descripción:** Diseña un método `ladrar()` en tu clase `Perro` que retorne una cadena "guau" en lugar de imprimirlo directamente. El objetivo es aprender a utilizar funciones con retorno.
+
+### Actividad 3: Creación y uso de setter
+
+**Descripción:** Añade un método llamado `setColor()` a la clase `Perro`, permitiendo cambiar el color del perro (que se inicializa en vacío). Este ejercicio enseña cómo gestionar propiedades mediante métodos setters.
+
+### Actividad 4: Implementación de getter y setter
+
+**Descripción:** Añade un método `getColor()` a tu clase `Perro` que devuelva el color actual del perro. Luego, prueba ambos métodos (getter y setter) en el código principal para comprobar su funcionamiento.
+
+### Actividad 5: Restricción de modificaciones con setters
+
+**Descripción:** Implementa un método `setEdad()` similar al visto en los ejemplos pero que controle la edad permitida solo si la nueva es mayor que la actual. Este ejercicio refuerza el entendimiento de las validaciones dentro de métodos setters.
+
+### Actividad 6: Métodos getter y setter avanzados
+
+**Descripción:** Añade un método `getRaza()` y otro `setRaza(razanueva)` a tu clase `Perro`. Después, modifica su raza desde el código principal utilizando ambos métodos. Este ejercicio profundiza en la manipulación de atributos mediante getters y setters.
+
+### Actividad 7: Crear una instancia y ejecutar métodos
+
+**Descripción:** Crea varias instancias del objeto `Perro` con diferentes propiedades iniciales, luego utiliza los métodos getter y setter para modificarlas. Este ejercicio combina la creación de clases y objetos con el uso de métodos.
+
+### Actividad 8: Integrar múltiples funciones
+
+**Descripción:** Añade un método `mostrarInfo()` a tu clase `Perro` que imprima todos los detalles del perro (color, edad, raza). Luego prueba este método desde el código principal. Esta actividad mejora la comprensión de cómo integrar múltiples métodos en una sola clase.
+
+### Actividad 9: Personalización y validación de setters
+
+**Descripción:** Modifica los métodos `setEdad()` e `setColor()` para que acepten solo edades menores a 15 años y colores válidos (como "negro", "blanco"). Este ejercicio refuerza la importancia de las validaciones dentro de los setters.
+
+### Actividad 10: Implementación completa del objeto
+
+**Descripción:** Combina todas las funcionalidades aprendidas hasta ahora en una clase `Perro` completamente funcional con métodos getter, setter y acción. Utiliza esta clase para simular interacciones con un perro (como cambiar su edad o raza) en el código principal.
+
+Cada actividad debe permitir a los estudiantes entender gradualmente cómo se diseñan y utilizan las clases y métodos en Python, desde lo básico hasta aplicaciones más complejas.
+
+
 <a id="creacion-de-constructores"></a>
 ## Creación de constructores
 
-En el vasto y complejo mundo de la programación, los constructores son como las plantillas que nos permiten dar forma a nuestros objetos. Son métodos especiales dentro de una clase que se ejecutan automáticamente cuando un objeto es creado. Su principal objetivo es inicializar los atributos del objeto con valores específicos, preparándolo para su uso inmediato.
+### Introducción a los ejercicios
 
-La creación de constructores es una práctica fundamental en la programación orientada a objetos (POO), ya que nos permite controlar cómo se instancian nuestros objetos y garantizar que estén en un estado válido desde el principio. Cada clase puede tener uno o más constructores, lo que proporciona flexibilidad para adaptarse a diferentes situaciones.
-
-Los constructores son especialmente útiles cuando necesitamos asegurar que ciertos atributos no puedan estar nulos o vacíos al momento de la creación del objeto. Algunas clases pueden requerir que se especifiquen ciertos parámetros durante la instancia, lo que los constructores manejan con facilidad.
-
-Además de los constructores predeterminados (que no requieren ningún parámetro), podemos definir constructores parametrizados, que permiten pasar valores específicos a los atributos del objeto al momento de su creación. Esta flexibilidad es crucial para crear objetos en estados deseados y evitar errores posteriores.
-
-La creación de constructores también facilita la documentación y la comprensión del código. Al ver un constructor, podemos entender qué valores se esperan para inicializar los atributos del objeto, lo que nos ayuda a mantener el código limpio y fácil de mantener.
-
-En resumen, la creación de constructores es una práctica esencial en la programación orientada a objetos. Nos permite controlar cómo se instancian nuestros objetos, garantizar su estado inicial válido y facilitar la documentación del código. A través de este proceso, podemos asegurar que nuestros programas sean más robustos, fáciles de mantener y menos propensos a errores.
+En esta carpeta, trabajaremos con ejercicios que te ayudarán a entender cómo crear y utilizar constructores en la programación orientada a objetos utilizando Python. Los ejemplos proporcionados centran su atención en una clase llamada `Gato`, donde aprenderás a inicializar propiedades de un objeto al momento de su creación usando diferentes métodos de construcción, incluyendo aquellos que no requieren todos los parámetros desde el principio. A través de estos ejercicios, adquirirás competencias clave como la definición de atributos y métodos dentro de una clase, así como la importancia de inicializar adecuadamente las instancias al crearlas para evitar problemas futuros en tu código.
 
 ### constructor
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código crea una clase llamada `Gato` en Python, que representa las características y comportamientos de un gato. La función `__init__()` dentro de la clase es un constructor especial que se ejecuta automáticamente cada vez que creamos (o instanciamos) un nuevo objeto del tipo `Gato`. En este constructor, inicializamos algunas propiedades como el color, edad, raza, nombre y color de ojos del gato. Estas propiedades permiten almacenar información específica para cada gato creado.
+Este código Python crea una clase llamada `Gato` que simula las propiedades y acciones de un gato en forma de objeto. Cuando creas una instancia de la clase `Gato`, como se hace con `gato1 = Gato()`, el constructor `__init__()` inicializa automáticamente algunas características del gato, tales como su color, edad, raza, nombre y color de ojos, estableciendo estas a valores vacíos (`""`) para el color y la raza, y `0` para la edad.
 
-Además del constructor, la clase incluye métodos que son acciones que pueden realizar los objetos `Gato`. Por ejemplo, el método `maulla()` siempre devuelve el sonido "miau", simbolizando cómo un gato maulla. El método `setEdad(nuevaedad)` permite cambiar la edad del gato solo si la nueva edad es exactamente uno más que la edad actual. Esto proporciona una forma segura de actualizar la información, evitando errores potenciales. Por otro lado, el método `getEdad()` devuelve simplemente la edad actual del gato.
+La clase también incluye dos métodos: `maulla()` que devuelve "miau" cuando se llama (representando el sonido que hace un gato) y `setEdad(nuevaedad)` que permite establecer una nueva edad al objeto gato solo si la nueva edad es exactamente un año mayor que la actual. Esto garantiza que no puedes establecer retroactivamente una edad menor, lo cual sería ilógico para un animal real.
 
-En resumen, este código muestra cómo utilizar clases y objetos en Python para modelar entidades como un gato con propiedades específicas y métodos que representan acciones o comportamientos relacionados con estos objetos.
+Además, hay otro método `getEdad()` que simplemente devuelve la edad del gato como entero. En el código dado, después de crear el objeto `gato1`, se llama a estos métodos y funciones para demostrar cómo funcionan. Primero, imprime el sonido del gato con `maulla()`, luego muestra su edad actual (que es 0 por defecto), cambia la edad a 5 años usando `setEdad(5)`, y finalmente imprime de nuevo la edad del gato después de que se ha modificado.
+
+`001-constructor.py`
 
 ```python
 class Gato:
@@ -2190,14 +2958,19 @@ print("ahora mismo el gato tiene",gato1.getEdad(),"años")
 ```
 
 ### constructor con parameteros
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este fragmento de código está creado para enseñar cómo se define una clase en Python y cómo trabajar con sus propiedades y métodos. En este caso, la clase se llama `Gato` y representa a un gato con características como color y edad. El constructor de la clase (`__init__`) recibe dos parámetros: `nuevocolor` para el color del gato y `nuevaedad` para su edad. Estos valores iniciales se asignan a las propiedades `color` y `edad` del objeto recién creado.
+Este código Python muestra cómo crear una clase llamada `Gato` que simula las características y acciones de un gato. La parte más importante es el método especial `__init__`, conocido como constructor, que se llama automáticamente cuando creamos un nuevo objeto del tipo `Gato`. En este caso, el constructor necesita dos parámetros: `nuevocolor` (que define el color del gato) y `nuevaedad` (la edad inicial del gato).
 
-Además, la clase incluye métodos como `maulla()`, que simplemente devuelve un sonido de "miau", simbolizando cómo el gato reacciona en ciertas situaciones. También hay métodos llamados `setEdad()` y `getEdad()` para gestionar el valor de la edad del gato, permitiendo cambiar su edad solo si la nueva es exactamente una unidad mayor que la actual (por ejemplo, si un gato tiene 3 años, solo se puede establecer como 4 años directamente). Esto ayuda a mantener la consistencia en los datos y prevenir errores.
+Además de definir las propiedades (`color` y `edad`) en el constructor, la clase también tiene métodos que describen acciones del gato. Por ejemplo, `maulla()` devuelve "miau", lo cual es un comportamiento esperado para cualquier gato. Otros métodos como `setEdad(nuevaedad)` permiten cambiar la edad del gato solo si cumple con una condición específica (si la nueva edad es exactamente uno más que la edad actual), y `getEdad()` permite obtener el valor de la propiedad `edad`.
 
-El último renglón de código crea una instancia del objeto `Gato` con el color "naranja" y edad inicial 0. Este ejemplo muestra cómo usar un constructor para definir las características iniciales de un objeto cuando se crea, lo cual es fundamental en programación orientada a objetos.
+El último renglón, `gato1 = Gato("naranja",0)`, crea un nuevo objeto del tipo `Gato` con un color naranja y una edad inicial de 0. Este es un ejemplo de cómo se utiliza el constructor para inicializar las propiedades del gato cuando se crea el objeto.
+
+Este código es importante porque demuestra cómo utilizar constructores en Python para establecer valores iniciales en objetos, así como cómo definir métodos que manipulan y acceden a estas propiedades.
+
+`002-constructor con parameteros.py`
 
 ```python
 class Gato:
@@ -2222,16 +2995,17 @@ gato1 = Gato("naranja",0)       # La edad no tiene sentido si cubrimos el nacimi
 ```
 
 ### no todos los parametros en el constructor
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código Python muestra cómo crear una clase llamada `Gato` que modela las características y comportamientos de un gato. En la parte central del código, se define un constructor (`__init__`) que inicializa la propiedad `color` con el valor proporcionado cuando se crea un nuevo objeto de tipo `Gato`. El atributo `edad` se inicializa en 0 para todos los objetos `Gato`, sin necesidad de especificar una edad al momento de crearlos.
+Este código Python muestra cómo crear una clase llamada `Gato` que simula las características y acciones de un gato en un programa. La clase incluye un constructor (`__init__`) que inicializa la propiedad `color` con el valor proporcionado cuando se crea un objeto del tipo `Gato`. Además, define otras propiedades como `edad`, que se inicializa en 0.
 
-El código también incluye métodos como `maulla()` que simplemente devuelve la cadena "miau", representando el sonido que hace un gato. Además, hay dos métodos más: `setEdad(nuevaedad)` y `getEdad()`. El método `setEdad` permite actualizar la edad del gato solo si la nueva edad es exactamente uno mayor que la edad actual (representando así un año de diferencia). Si no se cumple esta condición, imprime "operación no permitida". Por otro lado, el método `getEdad()` simplemente devuelve la edad actual del gato.
+El código también contiene métodos para representar acciones típicas de los gatos. El método `maulla()` simplemente retorna la cadena "miau", imitando el sonido que hace un gato al maullar. Hay otro método llamado `setEdad()`, el cual permite cambiar la edad del gato, pero solo si la nueva edad es exactamente uno más que la edad actual. Si no se cumple esta condición, imprime un mensaje indicando que la operación no está permitida.
 
-La línea final `gato1 = Gato("naranja")` crea una instancia concreta de un objeto `Gato`, especificando que su color es naranja. Sin embargo, como no se proporciona ningún valor para la edad en el constructor, esta sigue siendo 0 por defecto. Esto ilustra cómo puedes inicializar algunas propiedades al crear un objeto y permitir que otras sean modificadas o no en función de las reglas que definas dentro de tus métodos.
+Por último, el código crea una instancia de la clase `Gato` llamada `gato1`, especificando su color como "naranja". Sin embargo, hay un comentario al final del archivo que sugiere que inicializar la edad en cero cuando se nombra un gato no tiene mucho sentido desde una perspectiva realista (ya que los gatos tienen una edad desde el momento de su nacimiento), lo cual es un punto a considerar para mejorar este modelo.
 
-Este tipo de diseño es importante porque permite controlar la forma en que se crea e interactúa con objetos, asegurando que los datos estén siempre en el estado correcto.
+`003-no todos los parametros en el constructor.py`
 
 ```python
 class Gato:
@@ -2255,36 +3029,70 @@ class Gato:
 gato1 = Gato("naranja")       # La edad no tiene sentido si cubrimos el nacimiento de un gato
 ```
 
+### Actividades propuestas
+
+### Actividades Propuestas
+
+#### 1. **Constructor Sencillo: Crear una Clase con Constructor Vacío**
+- **Descripción:** Diseña una clase en Python que represente a un estudiante (Ejemplo: `Estudiante`). Incluye atributos como nombre, curso y media de notas. Implementa el constructor vacío para inicializar dichos atributos.
+- **Objetivo:** Aprender cómo se define e implementa un constructor sin parámetros en una clase.
+
+#### 2. **Constructor con Parámetros: Clase Libro**
+- **Descripción:** Crea una clase `Libro` que tenga atributos como título, autor y año de publicación. Implementa el constructor para aceptar estos tres parámetros al crear un objeto del tipo `Libro`.
+- **Objetivo:** Familiarizarse con la creación de constructores que toman múltiples argumentos.
+
+#### 3. **Constructor Completo: Clase Empleado**
+- **Descripción:** Define una clase en Python llamada `Empleado` que tenga atributos como nombre, cargo y salario. Implementa un constructor completo que permita inicializar todos estos atributos al crear un objeto de la clase.
+- **Objetivo:** Aprender a manejar múltiples parámetros dentro del constructor para inicialización.
+
+#### 4. **Uso del Método `set` y `get`: Clase Automóvil**
+- **Descripción:** Crea una clase `Automovil` con atributos como marca, modelo y año de fabricación. Implementa métodos `set_marca`, `set_modelo`, `get_marca`, y `get_modelo`. Realiza algunas operaciones utilizando estos métodos.
+- **Objetivo:** Practicar la creación y uso de métodos getter y setter para gestionar el acceso a los atributos del objeto.
+
+#### 5. **Constructor con Valores por Defecto: Clase Alumno**
+- **Descripción:** Diseña una clase `Alumno` que tenga un constructor con parámetros pero también defina valores por defecto para algunos de ellos (por ejemplo, el curso puede tener un valor por defecto si no se proporciona).
+- **Objetivo:** Aprender a utilizar argumentos opcionales en los constructores.
+
+#### 6. **Combinación Constructor y Métodos: Clase Estacionamiento**
+- **Descripción:** Crea una clase `Estacionamiento` que tenga atributos como número de plazas totales, ocupadas y libres. Implementa un constructor para inicializar el estacionamiento vacío, junto con métodos para registrar entradas/salidas y verificar disponibilidad.
+- **Objetivo:** Practicar la combinación del uso de constructores con otros métodos en una clase.
+
+#### 7. **Manejo de Errores en Constructores: Clase CuentaBancaria**
+- **Descripción:** Define una clase `CuentaBancaria` que tenga atributos como número de cuenta, saldo y límite diario de retiros. Implementa un constructor que valide parámetros (por ejemplo, el saldo inicial no puede ser negativo) y genere un mensaje de error en caso de incompatibilidad.
+- **Objetivo:** Aprender a manejar errores dentro del constructor para garantizar la integridad de los objetos creados.
+
+#### 8. **Herencia y Constructores: Clase Estudiante y Profesor**
+- **Descripción:** Crea dos clases `Estudiante` e `Instructor`, donde `Profesor` hereda de `Persona`. Define un constructor en `Persona` para atributos comunes (nombre, edad) y añade constructores específicos en las subclases que incluyan características únicas.
+- **Objetivo:** Practicar la implementación de constructores tanto en clases base como en sus heredadas.
+
+Estas actividades están diseñadas para ayudarte a dominar los conceptos de creación y uso de constructores en Python, así como las mejores prácticas al trabajar con objetos y métodos.
+
+
 <a id="utilizacion-de-clases-y-objetos"></a>
 ## Utilización de clases y objetos
 
-En el vasto terreno de la programación, las clases y los objetos son como las piezas fundamentales que conforman una estructura sólida. Comenzamos por entender qué son estas entidades esenciales antes de explorar cómo interactúan entre sí.
+### Introducción a los ejercicios
 
-Las clases en programación son plantillas o modelos que definen las características comunes de un grupo de objetos. Son como moldeadores de cerámica, donde cada molde puede producir múltiples piezas idénticas pero con distintos atributos individuales. Cada clase tiene propiedades (variables) y métodos (funciones) que describen su comportamiento.
+Esta carpeta contiene una serie de ejercicios diseñados para ayudarte a familiarizarte con el concepto de clases y objetos en Python. Cada ejercicio se centra en la creación de instancias de clase, manejo de atributos (propiedades) y métodos dentro del contexto de un programa realista, como gestionar información de clientes. A través de estos ejercicios, aprenderás a crear una clase `Cliente` con atributos como nombre, email y dirección, y verás cómo interactuar con objetos que se crean a partir de esta clase.
 
-Los objetos, por otro lado, son instancias específicas de una clase. Al crear un objeto a partir de una clase, estamos creando una entidad concretas que posee las características definidas en la plantilla. Es como tomar un molde y hacerle una pieza de cerámica; cada pieza es única pero sigue el diseño del molde.
-
-La relación entre clases y objetos es fundamental para la programación orientada a objetos (POO). Las clases actúan como contenedores que encapsulan datos y comportamientos, mientras que los objetos son las instancias concretas de estas clases. Esta distinción permite una organización jerárquica y modular del código, facilitando su mantenimiento y escalabilidad.
-
-La creación de clases y objetos es un proceso iterativo. Primero se define la clase con sus propiedades y métodos, luego se crean los objetos basándose en esta definición. Cada objeto puede tener valores diferentes para las mismas propiedades, lo que permite representar múltiples entidades similares pero distintas.
-
-La utilización de clases y objetos también facilita el reutilizar código. Una vez creada una clase, se pueden crear tantos objetos como sea necesario, cada uno con sus propias características específicas. Esto promueve la eficiencia y la consistencia en el desarrollo del software.
-
-Además, las clases y los objetos permiten la abstracción, que es el proceso de simplificar complejidades reales del mundo real en conceptos más simples y manejables para el programa. Al definir una clase, se ocultan los detalles innecesarios y solo se expone lo necesario para su uso.
-
-La programación orientada a objetos también fomenta la herencia, que es un mecanismo que permite crear nuevas clases basadas en clases existentes. Esta característica facilita el reutilizar código y organizar jerárquicamente las entidades del programa.
-
-En resumen, las clases y los objetos son pilares fundamentales de la programación orientada a objetos. Permiten una organización eficiente, la reutilización de código y la abstracción, lo que resulta en software más robusto y fácil de mantener. Comprender cómo crear y utilizar clases y objetos es crucial para dominar el desarrollo de aplicaciones complejas y escalables.
+Los ejercicios también exploran conceptos más avanzados, como la manipulación directa del diccionario interno del objeto para acceder a sus atributos, lo cual te dará una comprensión más profunda sobre la estructura y funcionamiento de las clases en Python. Estos ejercicios no solo te ayudarán a dominar los fundamentos de la orientación a objetos sino que también mejorarán tu capacidad para aplicar estos conceptos en situaciones prácticas de programación.
 
 ### Multiples instancias
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código muestra cómo crear una clase en Python llamada `Gato` que representa a los gatos y sus propiedades. La función principal de esta clase es definir las características básicas de un gato, como su color y edad, además de incluir comportamientos específicos como maullar o cambiar la edad del gato. Cuando se crea una instancia de `Gato`, como en el caso de `gato1` y `gato2`, cada uno tiene sus propios atributos definidos, por ejemplo, `gato1` es naranja mientras que `gato2` es negro.
+Este código define una clase llamada `Gato` en Python, que es un ejemplo básico de cómo crear y usar objetos basados en clases. La clase tiene varias partes importantes:
 
-El método especial `__init__()` se encarga de inicializar las instancias de la clase con un color específico proporcionado cuando estas son creadas. También hay métodos como `maulla()`, que simplemente devuelve el sonido "miau", y otros métodos para gestionar la edad del gato, tales como `setEdad()` y `getEdad()`. Estos últimos permiten establecer la edad de un gato bajo ciertas condiciones y obtener su edad respectivamente.
+1. **Constructor (`__init__`)**: Este método especial se ejecuta automáticamente cuando creamos (o "instanciamos") un objeto de la clase `Gato`. Recibe un parámetro que es el color del gato y establece este valor en una propiedad llamada `color`. También inicializa otra propiedad, `edad`, a 0.
 
-Esta estructura es importante porque permite organizar el código en una forma modular y reutilizable. Por ejemplo, puedes crear tantas instancias de `Gato` como desees, cada una con sus propios atributos y comportamientos personalizados, lo que facilita la creación de programas más complejos y flexibles.
+2. **Métodos**: La clase incluye métodos como `maulla()` (que simplemente retorna "miau", representando un maullido de gato) y `setEdad()`, que permite establecer la edad del gato pero solo si está incrementándose en una unidad respecto a su valor actual. Esto impide disminuir artificialmente la edad del gato, lo cual no tiene sentido biológicamente.
+
+3. **Instancia de objetos**: Al final del código se crean dos instancias de `Gato`: `gato1` con color naranja y `gato2` con color negro. Ambas tienen inicialmente una edad de 0.
+
+Este ejemplo ilustra cómo usar clases para definir plantillas de objetos (en este caso, gatos) que pueden tener propiedades únicas (como el color) y métodos que describen sus acciones o comportamiento. Es importante entender esto porque permite organizar el código de manera más estructurada y reutilizable al crear múltiples instancias basadas en la misma clase.
+
+`001-Multiples instancias.py`
 
 ```python
 class Gato:
@@ -2310,14 +3118,17 @@ gato2 = Gato("negro")       # La edad no tiene sentido si cubrimos el nacimiento
 ```
 
 ### ejercicio practico clientes
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código define una clase llamada `Cliente` en Python. Una clase es como un plano o molde que se utiliza para crear objetos, que son entidades individuales con características y comportamientos específicos. En este caso, la clase `Cliente` tiene un método especial llamado `__init__`, el cual se ejecuta automáticamente cada vez que creamos un nuevo objeto de tipo `Cliente`. 
+Este fragmento de código define una clase en Python llamada `Cliente`. La clase tiene un método especial llamado `__init__` que se ejecuta automáticamente cada vez que creamos una nueva instancia o objeto de la clase `Cliente`. Este método `__init__` recibe tres parámetros adicionales: `nuevonombre`, `nuevoemail`, y `nuevadireccion`.
 
-El método `__init__` recibe tres parámetros: `nuevonombre`, `nuevoemail` y `nuevadireccion`. Estos parámetros son utilizados para establecer los valores iniciales de las propiedades del cliente, que en este caso se llaman `nombre`, `email` y `direccion`. Estas propiedades permiten almacenar información específica sobre cada cliente que creamos. Por ejemplo, si creas un objeto `Cliente` con el nombre "Juan", su email "juan@example.com" y su dirección "Calle Falsa 123", el método `__init__` asignará estos valores a las propiedades del objeto correspondiente.
+Dentro del método `__init__`, estos parámetros se usan para asignar valores a los atributos (o propiedades) de la clase. Por ejemplo, `self.nombre = nuevonombre` establece el nombre del cliente que se pasa como argumento al crear un nuevo objeto de tipo `Cliente`. Esto significa que cada vez que creamos un nuevo cliente en nuestro programa, podemos proporcionar su nombre, correo electrónico y dirección para inicializar adecuadamente este nuevo objeto.
 
-Esta estructura es importante porque permite organizar y encapsular la información de los clientes, haciendo que sea más fácil gestionar datos relacionados con cada cliente en un programa de programación.
+Es importante porque nos permite organizar la información de los clientes de una manera estructurada, facilitando operaciones como agregar nuevos clientes, modificar sus datos o acceder a la información de un cliente específico.
+
+`002-ejercicio practico clientes.py`
 
 ```python
 class Cliente:
@@ -2329,16 +3140,17 @@ class Cliente:
 ```
 
 ### ahora introduccion por el usuario
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código es una pequeña parte de un programa en Python que enseña cómo trabajar con clases y objetos. En primer lugar, se define una clase llamada `Cliente` que tiene un método especial llamado `__init__`. Este método sirve para inicializar los atributos (o características) del objeto cuando este se crea. Aquí, el método toma tres parámetros: `nuevonombre`, `nuevoemail`, y `nuevadireccion`, luego asigna estos valores a las propiedades de la clase `self.nombre`, `self.email` e `self.dirección`.
+Este código crea una clase llamada `Cliente` en Python, que es una plantilla para objetos que representan información sobre clientes. La función `__init__` dentro de la clase se utiliza para inicializar los atributos del cliente como el nombre, email y dirección cuando un objeto `Cliente` es creado.
 
-Después del bloque de código que define la clase, el programa muestra un mensaje en pantalla indicando quién ha creado el programa. Luego, utiliza la función `input()` para pedir al usuario que introduzca el nombre, email y dirección de un cliente. Estos datos son almacenados en tres variables: `nombrecliente`, `emailcliente` e `direccioncliente`.
+Después de definir la clase, hay un mensaje que imprime en la pantalla indicando quién creó el programa (en este caso, "Jose Vicente Carratala"). Luego, se solicita al usuario que introduzca los datos del cliente: nombre, email y dirección. Estos datos son leídos desde el teclado usando la función `input()`. Finalmente, se crea un objeto de tipo `Cliente` utilizando estos datos proporcionados por el usuario.
 
-Finalmente, se crea una instancia (o objeto) de la clase `Cliente` usando los valores introducidos por el usuario. Esto significa que la información proporcionada se usa para crear un nuevo cliente con nombre, email y dirección específicos.
+Este código es importante porque demuestra cómo crear e inicializar objetos en Python a partir de una clase definida por el programador. Permite almacenar y manipular información estructurada sobre los clientes de manera organizada y eficiente.
 
-Este código es importante porque muestra cómo utilizar clases para organizar datos relacionados en objetos, lo cual es una técnica fundamental en programación orientada a objetos (POO).
+`003-ahora introduccion por el usuario.py`
 
 ```python
 class Cliente:
@@ -2357,14 +3169,17 @@ cliente1 = Cliente(nombrecliente,emailcliente,direccioncliente)
 ```
 
 ### print cliente
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código es una sencilla introducción a cómo crear y usar clases en Python, específicamente para gestionar información sobre clientes. En primer lugar, se define una clase llamada `Cliente` que tiene un método especial llamado `__init__`. Este método se ejecuta automáticamente cuando creamos un nuevo objeto de la clase `Cliente`, y sus tres parámetros (`nuevonombre`, `nuevoemail` y `nuevadireccion`) permiten inicializar las propiedades del cliente, como su nombre, email y dirección.
+Este fragmento de código es una sencilla aplicación en Python que crea objetos basados en clases. La clase se llama `Cliente` y tiene tres atributos importantes: nombre, email y dirección. Estos atributos son establecidos cuando creamos un nuevo objeto de la clase `Cliente`, proporcionando valores para ellos a través del método `__init__`.
 
-Después de definir la clase, el programa imprime una simple bienvenida o descripción sobre quién creó el código. Luego, pide al usuario que introduzca los datos de un nuevo cliente (nombre, email y dirección) utilizando funciones `input()`. Estos valores se usan para crear un objeto llamado `cliente1` a partir de la clase `Cliente`.
+El programa comienza mostrándonos un mensaje en pantalla que indica el propósito del código (un programa de clientes). Luego, pide al usuario que ingrese información sobre un cliente: nombre, email y dirección. Esta información se utiliza para crear una nueva instancia de la clase `Cliente`, guardada en la variable `cliente1`.
 
-Finalmente, simplemente imprime en pantalla el objeto `cliente1`. Cuando imprimimos un objeto en Python, por defecto veremos una representación textual del objeto que incluye su tipo y ubicación en memoria. Este ejemplo es importante porque muestra cómo utilizar clases para organizar datos y comportamientos relacionados de manera estructurada.
+Finalmente, el programa muestra por pantalla toda la información del objeto `cliente1`. Esto es útil porque nos permite ver fácilmente cómo los datos proporcionados han sido encapsulados dentro de un objeto y cómo podemos acceder a ellos de manera organizada.
+
+`004-print cliente.py`
 
 ```python
 class Cliente:
@@ -2385,14 +3200,19 @@ print(cliente1)
 ```
 
 ### recorrer claves
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código crea una clase llamada `Cliente` que nos permite almacenar la información de un cliente, como su nombre, email y dirección. Cuando se crea un objeto de esta clase a partir del constructor (el método `__init__`), se le pasa la información del cliente en forma de parámetros. Estos parámetros se utilizan para inicializar las propiedades del objeto, que son `nombre`, `email` y `direccion`.
+Este código en Python te enseña cómo crear y utilizar objetos desde una clase. La clase se llama `Cliente` y tiene tres atributos importantes: nombre, email y dirección. Cuando creas un objeto del tipo `Cliente`, debes proporcionar estos tres datos.
 
-El programa luego pide al usuario que introduzca el nombre, email y dirección de un cliente. Esta información es capturada por el código y utilizada para crear un nuevo objeto `Cliente`. Finalmente, se recorre este objeto utilizando un bucle `for` para mostrar en pantalla todas las propiedades (o atributos) del objeto `cliente1`, mostrando tanto la clave (nombre de la propiedad) como su valor.
+Primero, el programa muestra un mensaje para indicar de quién es este código. Luego, pide al usuario que introduzca los detalles de un cliente (nombre, email y dirección). Estos datos son después usados para crear una instancia del objeto `Cliente`.
 
-Esta técnica es útil porque nos permite visualizar y verificar fácilmente los datos almacenados dentro de un objeto, lo que puede ser importante durante el desarrollo y depuración de programas más grandes.
+Finalmente, el programa recorre todas las propiedades (o atributos) del objeto `cliente1` utilizando un bucle `for`. Aquí es donde se utiliza `__dict__`, que es un diccionario incorporado en Python que contiene todos los atributos de un objeto como pares clave-valor. En cada iteración, muestra por pantalla el nombre y valor de cada atributo del cliente creado.
+
+Este código es importante porque demuestra cómo definir una clase, crear objetos a partir de ella y luego acceder a sus propiedades de manera dinámica, lo que te permite manipular fácilmente los datos del objeto.
+
+`005-recorrer claves.py`
 
 ```python
 class Cliente:
@@ -2413,26 +3233,64 @@ for clave in cliente1.__dict__:
   print("La pieza de información ",clave,"vale: ",cliente1.__dict__[clave])
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Creación y Manipulación de Instancias de Clase
+
+**Descripción:** Crea una clase `Perro` similar a la clase `Gato` vista en el ejercicio. La clase debe tener un método para establecer la edad del perro y otro para maullar (en este caso, sustituir "miau" por algún sonido propio de los perros). Aprenderás a instanciar objetos y usar métodos y propiedades.
+
+### Actividad 2: Creación de Clientes Personalizados
+
+**Descripción:** Implementa una clase `Cliente` similar al ejercicio proporcionado, pero añade un método que permita modificar la dirección del cliente. Esto te ayudará a entender cómo se gestionan los cambios en las propiedades de un objeto.
+
+### Actividad 3: Interacción con el Usuario para Crear Objetos
+
+**Descripción:** Desarrolla una aplicación que permite al usuario introducir datos por consola para crear instancias de la clase `Cliente`. Aprenderás a utilizar funciones como `input` en combinación con clases y objetos.
+
+### Actividad 4: Visualización Detallada del Cliente
+
+**Descripción:** Extiende el ejercicio de la actividad anterior añadiendo un método que imprima todos los detalles del cliente (nombre, email, dirección) una vez se haya creado la instancia. Esto te permitirá aprender a combinar métodos y atributos en objetos.
+
+### Actividad 5: Recorrido de Atributos
+
+**Descripción:** Crea una función o método dentro de tu clase `Cliente` que recorra todos los atributos del objeto (como hizo el ejercicio con `__dict__`) e imprima cada uno. Esto te enseñará a trabajar directamente con las propiedades internas de un objeto.
+
+### Actividad 6: Gestión de Múltiples Instancias
+
+**Descripción:** A partir de la clase `Gato` vista en el ejercicio, desarrolla una aplicación que permita crear múltiples instancias del mismo y realizar acciones sobre ellas (por ejemplo, cambiar su color o edad). Esto te ayudará a entender cómo manejar varios objetos de la misma clase.
+
+### Actividad 7: Modificar Atributos Privados
+
+**Descripción:** Implementa un método dentro de tu clase `Perro` para modificar atributos privados. Esto te enseñará sobre el control de acceso en las propiedades de una clase y cómo manejar errores o restricciones cuando se intentan cambiar ciertas variables.
+
+### Actividad 8: Interacción entre Objetos
+
+**Descripción:** Crea un programa donde dos objetos (por ejemplo, instancias de `Cliente`) puedan interactuar entre sí. Por ejemplo, podrías implementar métodos que permitan a los clientes compartir información o realizar transacciones entre ellos.
+
+### Actividad 9: Documentación y Pruebas Básicas
+
+**Descripción:** Escribir documentación para cada método en tus clases y crear pruebas básicas (usando prints o funciones de depuración) para verificar el funcionamiento correcto de tu código. Aprenderás a seguir prácticas de programación profesionales.
+
+### Actividad 10: Clase Compleja con Herencia
+
+**Descripción:** Diseña una clase `VIPCliente` que herede de la clase `Cliente`. La clase `VIPCliente` debe tener métodos y atributos adicionales para gestionar beneficios especiales del cliente VIP. Esto te ayudará a entender conceptos avanzados como herencia en Python.
+
+
 <a id="utilizacion-de-clases-heredadas"></a>
 ## Utilización de clases heredadas
 
-En la etapa de desarrollo de clases, el concepto de herencia es un pilar fundamental que nos permite crear jerarquías de clases relacionadas. Esta técnica permite a una clase derivada (también conocida como subclase) heredar atributos y métodos de una clase base (superclase), lo que facilita la reutilización del código y la organización lógica.
+### Introducción a los ejercicios
 
-La herencia nos permite definir relaciones "es un" entre clases. Por ejemplo, si tenemos una clase `Animal` con propiedades como `nombre` y `edad`, podemos crear subclases como `Perro` y `Gato` que hereden de `Animal`. De esta manera, las subclases pueden agregar o modificar atributos y métodos específicos, mientras mantienen los atributos y métodos comunes definidos en la superclase.
-
-La utilización de clases heredadas no solo simplifica el código al evitar la duplicidad, sino que también promueve la cohesión del diseño. Cada subclase puede tener su propio comportamiento específico, pero compartirá funcionalidades básicas con otras clases relacionadas. Esta organización lógica facilita la comprensión y mantenimiento del código.
-
-Además de la reutilización del código, la herencia también permite una mejor escalabilidad. Al crear nuevas clases que heredan de una superclase existente, podemos aprovechar el trabajo ya realizado en la superclase sin necesidad de reinventar la rueda. Esto es especialmente útil cuando se necesita agregar funcionalidades adicionales a un conjunto de objetos similares.
-
-La herencia también facilita la gestión de cambios en el código. Si una funcionalidad común debe modificarse, solo es necesario hacerlo en la superclase, y esta modificación se reflejará automáticamente en todas las subclases que la hereden. Esto reduce significativamente el riesgo de errores y asegura un mantenimiento más eficiente.
-
-En resumen, la utilización de clases heredadas es una práctica esencial en la programación orientada a objetos. Permite crear jerarquías lógicas, reutilizar código, mejorar la escalabilidad y facilitar la gestión de cambios. Esta técnica es fundamental para el diseño de sistemas complejos y eficientes, permitiendo una organización coherente y una estructura clara del código.
+Esta carpeta contiene una serie de ejercicios que te ayudarán a comprender y practicar la herencia en programación orientada a objetos utilizando Python. Los ejercicios se centran en crear una jerarquía de clases, donde las clases `Gato` y `Perro` heredan propiedades y métodos de una clase base llamada `Animal`. En estos ejercicios, trabajarás con conceptos como inicialización de atributos, uso correcto del método `super()`, manejo de propiedades privadas, validación de datos ingresados por el usuario, e implementación de lógica condicional para clasificar animales según su edad. Estos ejercicios te permitirán mejorar tus habilidades en la creación y manipulación de clases heredadas y reforzar tu comprensión sobre cómo estructurar programas con arquitecturas orientadas a objetos más complejas.
 
 ### clase gato
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código define una clase en Python llamada `Gato`. Una clase es como un plano o modelo para crear objetos, en este caso, gatos. Dentro de la clase, se encuentra el método especial `__init__`, que actúa como constructor y se ejecuta automáticamente cuando se crea un nuevo objeto de tipo `Gato`. En este método, se inicializan dos atributos: `color` y `edad`, ambos establecidos en valores vacíos (`""`) o cero (0) respectivamente. Estos atributos representarán las características del gato que creemos con esta clase. Es importante porque nos permite crear objetos de tipo `Gato` que tendrán estas dos propiedades predefinidas, permitiéndonos luego asignarles valores específicos a cada animal individual que creamos en nuestro programa.
+Este código define una clase llamada `Gato` en Python. La función `__init__` es un método especial que se utiliza para inicializar las características de cada gato cuando se crea un nuevo objeto de la clase. En este caso, el método `__init__` establece dos atributos para los gatos: `color`, que será una cadena vacía (`""`) y `edad`, que será cero (`0`). Estos atributos representan características básicas del gato, como su color y su edad, pero no se les proporciona un valor específico en este punto. El objetivo es permitir a otros programas o usuarios asignar estos valores más tarde cuando creen objetos de la clase `Gato`.
+
+`001-clase gato.py`
 
 ```python
 class Gato:
@@ -2442,10 +3300,15 @@ class Gato:
 ```
 
 ### clase perro
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código define dos clases, `Gato` y `Perro`, ambas con un método especial llamado `__init__`. Este método se ejecuta automáticamente cuando se crea una nueva instancia de la clase (como si estuvieras creando nuevos gatos o perros en un programa). Dentro del método `__init__`, cada clase tiene dos atributos: `color` y `edad`. Estos atributos permiten almacenar información sobre el color y la edad del animal correspondiente. Es importante porque nos permite crear objetos que representan a gatos y perros con detalles específicos como su color y edad, lo cual es útil para simular comportamientos o guardar datos en un programa.
+Este código define dos clases en Python: `Gato` y `Perro`. Cada una de estas clases tiene un método especial llamado `__init__`, que se ejecuta automáticamente cuando creamos (o inicializamos) un objeto de la clase. En el caso del gato y del perro, este método establece dos características o atributos: `color` y `edad`. Ambas características son cadenas vacías (`""`) para `color`, lo que significa que no se ha especificado ningún color al principio, y `0` para la edad, lo que indica que no se ha definido ninguna edad inicialmente. Esto es importante porque nos permite crear objetos de tipo gato o perro sin necesidad de proporcionar información sobre el color o la edad en ese momento; más tarde podemos cambiar estos valores según sea necesario.
+
+Esencialmente, este código te da las bases para comenzar a trabajar con animales específicos como gatos y perros en tu programa, permitiéndote añadir detalles adicionales conforme lo necesites.
+
+`002-clase perro.py`
 
 ```python
 class Gato:
@@ -2460,16 +3323,17 @@ class Perro:
 ```
 
 ### clase madre
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código está mostrando cómo crear clases en Python y utilizar la herencia, un concepto muy importante en programación orientada a objetos. Primero, se define una clase llamada `Animal`, que es como un modelo básico para cualquier animal. Dentro de esta clase, hay un método especial llamado `__init__` (que se ejecuta cada vez que creamos un nuevo objeto del tipo `Animal`). En este método inicializador, establecemos dos atributos: `color` y `edad`, pero no les damos ningún valor concreto al principio.
+Este fragmento de código muestra cómo se crean y relacionan diferentes clases en Python. La clase `Animal` es una clase base que contiene dos atributos: `color`, que almacena el color del animal, y `edad`, que indica la edad del animal. Estos atributos son inicializados a cadenas vacías y cero respectivamente cuando se crea un objeto de la clase `Animal`.
 
-Luego, definimos dos nuevas clases llamadas `Gato` y `Perro`. Estas clases heredan de la clase `Animal`, lo que significa que `Gato` y `Perro` son tipos especiales de animales y heredan todas las características generales de un animal (como tener un color y una edad). Sin embargo, en este código específico, no se añaden nuevos atributos ni métodos a estas clases hijas.
+Las clases `Gato` y `Perro` heredan de la clase `Animal`. Esto significa que las clases `Gato` y `Perro` obtienen todos los métodos y atributos de la clase `Animal`. Sin embargo, en este ejemplo, no se especifica cómo inicializar estos atributos al crear un objeto gato o perro. El uso de `super()` dentro del método `__init__` de las clases hijas debería ayudar a llamar al constructor de la clase padre para inicializar los atributos heredados, pero en Python 3 se debe usar correctamente como `super().__init__()`. Sin esta llamada explícita a `super().__init__()`, los atributos `color` y `edad` no se inicializan correctamente cuando se crean objetos de tipo `Gato` o `Perro`.
 
-Es importante notar que cuando creamos objetos de tipo `Gato` o `Perro`, aunque heredan del constructor (`__init__`) de la clase `Animal`, en el código actual no estamos inicializando explícitamente los atributos `color` y `edad`. Para hacer esto, deberíamos llamar al constructor de la clase padre con `super().__init__()`, pero aquí solo se llama a `super()`, lo que por sí solo no inicializa los atributos heredados.
+Es importante entender que la herencia permite reutilizar código existente (en este caso, el contenido de la clase `Animal`) y modificar o extender su comportamiento según sea necesario para cada subclase.
 
-Este código sirve como ejemplo básico para entender cómo funciona la herencia en Python y cómo las clases hijas pueden iniciar el proceso de construcción desde su clase padre.
+`003-clase madre.py`
 
 ```python
 class Animal():
@@ -2487,14 +3351,17 @@ class Perro(Animal):
 ```
 
 ### usando la clase madre
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código crea una jerarquía de clases en Python que representa animales y dos tipos específicos de animales: gatos y perros. Comenzamos con la clase `Animal`, que es la clase base o madre, y tiene un constructor (`__init__`) donde se inicializan atributos comunes a todos los animales como el color y la edad.
+Este código muestra cómo se crean y utilizan clases en Python, específicamente enfocándose en la herencia de clases. La clase `Animal` es definida primero y contiene dos atributos: color y edad. Luego, se definen dos nuevas clases, `Gato` y `Perro`, que heredan de la clase `Animal`. Esto significa que tanto los gatos como los perros tienen por defecto el color y la edad desde la clase madre `Animal`.
 
-Luego definimos dos clases derivadas de `Animal`: `Gato` y `Perro`. Estas clases también tienen sus propios constructores, pero utilizan `super().__init__()` para llamar al constructor de la clase base `Animal`, lo que asegura que los atributos heredados se inicialicen correctamente. 
+En las definiciones de las clases `Gato` y `Perro`, se llama a `super().__init__()` en sus métodos `__init__`, lo cual es una forma de llamar al constructor de la clase padre (`Animal`). De esta manera, aunque no se especifican valores para color o edad cuando se crea un objeto gato (como ocurre con el objeto `gato1`), estos atributos heredados estarán presentes y pueden ser accedidos posteriormente.
 
-Finalmente, creamos una instancia de la clase `Gato` llamada `gato1`. Aunque no se especifica explícitamente en el código, esta instancia tiene acceso a todos los atributos y métodos definidos tanto para la clase `Gato` como para su superclase `Animal`, aunque por ahora solo hemos inicializado dos variables pero sin darles valores específicos. Al imprimir `gato1.edad`, se muestra que `edad` es 0, el valor predeterminado que se estableció en la clase base `Animal`. Esto demuestra cómo las clases hijas pueden heredar atributos y métodos de sus clases padres.
+Finalmente, se crea una instancia de la clase `Gato`, llamada `gato1`, y se imprime su edad. Como no se especificó ningún valor para `edad` al crear este objeto gato, el resultado del print será 0, que es el valor por defecto establecido en la clase padre `Animal`. Este ejemplo demuestra cómo la herencia permite reutilizar código de una clase base y agregar o modificar comportamientos específicos en clases derivadas.
+
+`004-usando la clase madre.py`
 
 ```python
 class Animal():
@@ -2515,18 +3382,17 @@ print(gato1.edad)
 ```
 
 ### Roca
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código está creando una estructura básica para trabajar con clases y herencia en Python. Comenzamos declarando una clase llamada `Animal` que tiene un constructor (`__init__`) donde se definen dos propiedades: `color` y `edad`, ambas inicializadas como cadenas vacías y cero, respectivamente.
+Este código muestra cómo se crean clases en Python y cómo una clase puede heredar atributos de otra clase. Primero, se define una clase llamada `Animal` que tiene dos propiedades: `color` y `edad`. Estas propiedades son inicializadas con valores vacíos cuando se crea un objeto de la clase `Animal`.
 
-Luego, creamos dos nuevas clases, `Gato` e `Perro`, que heredan de la clase `Animal`. Esto significa que tanto el gato como el perro tendrán automáticamente las propiedades y métodos (aunque no haya ninguno mostrado en este fragmento) definidos en la clase `Animal`.
+Luego, se definen dos clases más, `Gato` y `Perro`, ambas heredan de la clase `Animal`. Esto significa que tanto el gato como el perro tienen acceso a los atributos (`color` y `edad`) y métodos (no mostrados en este fragmento) de la clase `Animal`. En el constructor (`__init__`) de cada una de estas clases, se usa la función `super()` para llamar al constructor de la clase base `Animal`, asegurando que las propiedades del animal sean inicializadas correctamente.
 
-En el constructor de cada una de estas subclases (`Gato` e `Perro`), utilizamos `super().__init__()` para llamar al constructor de la clase padre (`Animal`). Esto asegura que las propiedades heredadas (como `color` y `edad`) se inicialicen correctamente.
+Finalmente, se crea un objeto `gato1` de tipo `Gato` y se imprime su edad. Aunque no se especifica explícitamente una edad cuando se crea el gato (lo cual significa que la edad es 0 por defecto en la clase base `Animal`), este código demuestra cómo acceder a los atributos heredados de la clase padre.
 
-Finalmente, creamos una instancia de `Gato` llamada `gato1` e imprimimos su propiedad `edad`. Aunque no se ha especificado un valor para la edad del gato al crearlo, debido a cómo está definida en la clase `Animal`, `edad` tiene el valor predeterminado de 0.
-
-Este ejemplo es fundamental porque muestra cómo organizar y reutilizar código mediante la herencia entre clases.
+`005-Roca.py`
 
 ```python
 class Animal():
@@ -2547,16 +3413,17 @@ print(gato1.edad)
 ```
 
 ### nivel superior de herencia
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código define una estructura de clases en Python que representa diferentes tipos de objetos, rocas y animales. Comenzamos con una clase base llamada `Objeto` que establece tres atributos: `x`, `y` y `z`. Estos pueden ser interpretados como coordenadas en un espacio tridimensional.
+Este fragmento de código en Python muestra cómo se implementa la herencia entre clases. Comenzamos con una clase base llamada `Objeto`, que tiene un método especial `__init__` que inicializa tres atributos: `x`, `y` y `z`. Luego, creamos dos nuevas clases derivadas de `Objeto`: `Roca` e `Animal`. La clase `Roca` no agrega nada nuevo a la clase base, pero sigue el patrón de herencia al llamar al constructor de la clase padre usando `super().__init__()`. Por otro lado, la clase `Animal` añade dos atributos adicionales: `color` y `edad`, también llamando al constructor de su clase padre para inicializar los atributos que hereda.
 
-Luego, creamos dos clases derivadas directas de la clase `Objeto`: `Roca` y `Animal`. La clase `Roca` no añade nada nuevo a lo que hereda de `Objeto`, mientras que `Animal` agrega dos atributos adicionales: `color` y `edad`.
+Además, se definen dos clases más (`Gato` y `Perro`) que derivan de la clase `Animal`. Estas clases simplemente llaman a `super().__init__()` para asegurar que todos los atributos heredados desde `Objeto` y `Animal` se inicialicen correctamente.
 
-Finalmente, definimos dos clases más que derivan de la clase `Animal`: `Gato` e `Perro`. Estas clases también no añaden nuevos atributos o métodos, simplemente heredan todo lo que tienen las clases base. Al final del código, creamos una instancia de la clase `Gato` llamada `gato1`, y luego imprimimos el valor de su edad, que por defecto es 0 ya que no se ha inicializado con un valor específico.
+Finalmente, el código crea una instancia de la clase `Gato`, llamada `gato1`, e imprime su atributo `edad`. Esto demuestra cómo las clases hijas pueden acceder a los métodos y atributos proporcionados por sus clases padre.
 
-Este ejemplo ilustra cómo usar la herencia en Python para crear jerarquías de clases y compartir comportamiento común entre diferentes tipos de objetos. Es importante porque permite organizar el código de manera eficiente y evitar duplicar código innecesariamente.
+`006-nivel superior de herencia.py`
 
 ```python
 class Objeto():
@@ -2588,15 +3455,17 @@ print(gato1.edad)
 ```
 
 ### Ejercicio acumulativo
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código crea una clase llamada `Animal` en Python. La función `__init__` es el constructor de la clase, que se ejecuta automáticamente cuando se crea un nuevo objeto del tipo `Animal`. En este caso, el constructor inicializa tres atributos: `color`, `edad` y `__raza`.
+Este fragmento de código define una clase en Python llamada `Animal`. Una clase es como un plan o plantilla para crear objetos, y en este caso, el objeto que se puede crear a partir de esta clase sería un animal. Dentro de la clase, hay un método especial denominado `__init__`, que se ejecuta automáticamente cada vez que se crea una nueva instancia del objeto `Animal`. Este método inicializa los atributos del objeto.
 
-- `self.color` y `self.edad` son dos propiedades públicas que permiten establecer y acceder fácilmente al color y la edad del animal.
-- `self.__raza` es una propiedad privada, indicada por el doble guion bajo (`__`) antes de su nombre. Esto significa que está oculta para otras partes del código fuera de esta clase y no se puede modificar directamente desde afuera.
+Los atributos son características o propiedades del objeto. En este caso, el código establece tres atributos: `color`, `edad` y `raza`. El atributo `color` es un string vacío, lo que significa que no tiene ningún color asignado al principio. La edad se inicializa en 0, indicando que la edad del animal no ha sido especificada al crearlo. Es importante notar el uso de doble guión bajo antes de `raza`, lo cual indica que este atributo es privado, significando que solo puede ser accedido dentro de la clase y no desde fuera de ella.
 
-La importancia de este fragmento radica en cómo define las características básicas que tendrá cualquier objeto `Animal` creado a partir de ella, estableciendo una estructura común que luego podría ser personalizada por clases derivadas (heredadas) para crear animales más específicos con comportamientos y atributos únicos.
+Esta estructura básica en una clase como esta permite a otros programadores crear objetos animales con propiedades similares, facilitando así el desarrollo de aplicaciones más grandes donde se puedan trabajar con varios tipos de animales.
+
+`007-Ejercicio acumulativo.py`
 
 ```python
 class Animal():
@@ -2606,139 +3475,18 @@ class Animal():
     self.__raza = 0
 ```
 
-### Enunciado
-
-#### Explicación
-
-Este código es una guía para crear un programa sencillo en Python que gestiona dos animales, un Gato y un Perro, mediante la herencia de clases. El objetivo principal es aprender cómo usar clases base y sus derivadas para encapsular información y comportamiento específicos.
-
-El código comienza definiendo una clase base llamada `Animal`, que tiene propiedades como el color, la edad y la raza del animal (la última es privada). La clase también incluye métodos para establecer y obtener los valores de estas propiedades, así como un método `descripcion()` que devuelve una cadena con información básica sobre el animal. Además, se deben implementar validaciones en el método `setEdad()`, asegurando que solo se pueda incrementar la edad en uno.
-
-A continuación, se crean dos clases derivadas: `Gato` y `Perro`. Estas clases heredan de la clase base `Animal` y añaden métodos propios para simular comportamientos específicos como maullar o ladrar. También incluyen validaciones adicionales en función del tipo de animal, por ejemplo, limitando su edad máxima.
-
-El programa debe interactuar con el usuario para obtener información sobre los animales, realizar validaciones y clasificarlos según su edad. Utiliza bucles `while` para simular el paso del tiempo solo para el gato, incrementando su edad hasta alcanzar la edad que se ha establecido inicialmente. Finalmente, presenta una ficha detallada de cada animal y realiza comprobaciones booleanas sobre sus características, como determinar si al menos uno es "adulto" o ambos son "cachorros".
-
-Este ejercicio es importante para entender cómo organizar el código en clases y objetos, así como para practicar la herencia y los métodos propios de cada clase derivada.
-
-```markdown
-Objetivo
-
-Crear un pequeño programa de consola que gestione dos animales (un Gato y un Perro) heredando de una clase base Animal. El programa pedirá datos al usuario, aplicará validaciones, clasificará a los animales por edad y mostrará una “ficha” de cada uno.
-
-Requisitos funcionales
-
-Clase base Animal
-
-Propiedades públicas: color (cadena), edad (entero, empieza en 0).
-
-Propiedad privada: __raza (cadena).
-
-Constructor sin parámetros que inicialice valores por defecto.
-
-Métodos:
-
-setEdad(nuevaedad): solo permite incrementar la edad exactamente de uno en uno (si self.edad == nuevaedad - 1, entonces asigna; si no, imprime “operación no permitida”).
-
-getEdad(): devuelve la edad.
-
-setRaza(raza) y getRaza().
-
-descripcion(): devuelve (no imprime) una cadena corta con color, edad y raza.
-
-Añade un docstring a la clase o a algún método explicando qué hace.
-
-Clases hijas Gato y Perro
-
-Heredan de Animal.
-
-Sus constructores llaman a super().__init__().
-
-Cada una tiene un método propio:
-
-Gato.maulla() → imprime "miau".
-
-Perro.ladra() → imprime "guau".
-
-Constantes y validaciones
-
-Define constantes en MAYÚSCULAS (por ejemplo EDAD_MAX_GATO = 25, EDAD_MAX_PERRO = 30).
-
-Aserción: al finalizar la entrada de datos, asegura con assert que ninguna edad es negativa.
-
-Excepción: cuando leas la edad desde input(), conviértela a int dentro de un try/except. Si hay error, muestra un mensaje y pon la edad a 0.
-
-Interacción por consola
-
-Muestra un mensaje inicial con tu nombre (print).
-
-Pide al usuario:
-
-Color del gato y del perro.
-
-Raza del gato y del perro.
-
-Edad inicial del gato y del perro (entero).
-
-Clasificación por edad (usar if/elif/else):
-
-< 1 → “cachorro”
-
->= 1 y < 7 → “adulto joven”
-
->= 7 → “adulto”
-
-Imprime la categoría para cada animal.
-
-Bucle y operadores abreviados
-
-Simula el paso del tiempo para el gato: usando un while, incrementa su edad con += 1 hasta alcanzar la edad que indique el usuario (p. ej., “¿hasta qué edad quieres simular?”).
-
-Cada intento de cambio de edad debe hacerse únicamente a través de setEdad() para respetar la regla.
-
-Funciones auxiliares
-
-Crea una función libre formatea_ficha(animal, titulo) que devuelva una cadena multilínea con la ficha (usa el descripcion() del animal).
-
-Crea otra función clasifica_edad(edad) que devuelva la categoría (“cachorro”, “adulto joven”, “adulto”) y reutilízala para gato y perro.
-
-Uso básico de booleanos
-
-Imprime si al menos uno de los dos animales es “adulto” (usa or con la clasificación).
-
-Imprime si ambos son “cachorro” (usa and).
-
-Recorrido de propiedades
-
-Muestra por pantalla todas las propiedades públicas del perro recorriendo perro.__dict__ con un for y formatea clave: valor.
-
-Salida final requerida
-
-Fichas de Gato y Perro (devueltas por formatea_ficha(...) y luego impresas).
-
-Categorías por edad.
-
-Mensajes del bucle de simulación (cómo va creciendo el gato).
-
-Resultados de las comprobaciones booleanas.
-
-Nota: no uses listas/arrays ni ficheros.
-```
-
 ### metodos
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código define una clase llamada `Animal` que representa las características básicas de un animal, como su edad, color y raza. La clase incluye métodos para establecer (`set`) y obtener (`get`) valores para la edad y la raza del animal.
+Este fragmento de código define una clase llamada `Animal` en Python. La clase `Animal` tiene atributos como color, edad y raza que describen las características generales de un animal. El método `__init__` es el constructor que inicializa estos atributos cuando se crea un nuevo objeto del tipo `Animal`. Es importante notar que el atributo `raza` está definido con dos guiones bajos al principio (`__raza`), lo cual en Python indica que este atributo es privado, y solo puede ser accedido dentro de la misma clase.
 
-El método `__init__()` es el constructor de la clase, donde se inicializan los atributos: `color`, `edad` (con valor 0) y `raza`. La raza está definida con dos guiones bajos al principio (`self.__raza`) lo que indica que es un atributo privado, visible solo dentro de esta clase.
+La clase también incluye métodos para establecer y obtener los valores de edad y raza del animal. Por ejemplo, `setEdad(nuevaedad)` intenta incrementar la edad si el parámetro proporcionado es exactamente uno mayor que la edad actual, aunque esta lógica parece tener un error de sintaxis (falta dos puntos al final de la condición). Los métodos `getEdad()` y `getRaza()` permiten obtener los valores actuales de estos atributos. Además, hay un método llamado `descripcion()`, que intenta devolver una cadena combinada con la edad, color y raza del animal, aunque también presenta problemas debido a la falta de dos puntos al final de su definición y por no tener en cuenta que el atributo `__raza` es privado.
 
-Los métodos `setEdad()` y `getEdad()` permiten cambiar y obtener el valor de la edad del animal. Sin embargo, hay un error en el método `setEdad()`, ya que falta el dos puntos al final de la condición if. Además, la lógica para incrementar la edad solo se ejecuta si la nueva edad es exactamente 1 más que la edad actual, lo cual puede no ser el comportamiento deseado.
+Es fundamental corregir estos errores para que la clase funcione correctamente.
 
-El método `setRaza()` establece el valor de raza y debería incluir un dos puntos al final de su definición para ser correcto. El método `getRaza()`, por otro lado, devuelve la raza del animal pero intenta acceder a `self.raza` en lugar de `self.__raza`, lo que provocará un error debido a que `__raza` es privado.
-
-Por último, el método `descripcion()` tiene un error sintáctico y una lógica inadecuada. Debería devolver una cadena con la edad, color y raza del animal en lugar de sumar estos valores como si fueran números. Además, debido a que `__raza` es privado, no se puede acceder directamente desde este método.
-
-Es importante corregir estos errores para que los métodos funcionen correctamente y respeten el uso de atributos privados.
+`008-metodos.py`
 
 ```python
 class Animal():
@@ -2764,21 +3512,19 @@ class Animal():
 ```
 
 ### clases hijas
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este código es una parte de un programa llamado "Refugio", que está diseñado para gestionar animales en un refugio. El programa define una clase base llamada `Animal` y dos clases derivadas, `Gato` y `Perro`. La clase `Animal` tiene atributos como color, edad y raza (privado), y métodos para establecer y obtener estos valores. Además, hay un método `descripcion()` que intenta devolver una cadena combinando la edad del animal, su color y su raza privada.
+Este fragmento de código define una jerarquía básica en programación orientada a objetos utilizando clases y herencia en Python. La clase principal es `Animal`, que contiene propiedades como el color, la edad y la raza del animal. Esta clase tiene métodos para establecer (`setEdad` y `setRaza`) y obtener (`getEdad` y `getRaza`) los valores de estas propiedades.
 
-Sin embargo, el código presenta algunas inconsistencias:
+Además, hay dos clases derivadas (clases hijas): `Gato` e `Perro`, que heredan de la clase `Animal`. Estas clases añaden comportamientos específicos a partir del modelo general proporcionado por `Animal`. Por ejemplo, el método `maulla()` en la clase `Gato` hace que un objeto gato emita el sonido "miau", mientras que en la clase `Perro`, el método `ladra()` permite al perro emitir un ladrido.
 
-- El método `setEdad` debería tener dos puntos al final de su definición (`:`) para indicar que es un bloque de código dentro de la clase.
-- En el método `descripcion()`, hay un error ya que se está intentando devolver una cadena combinada con `__raza`, que es un atributo privado no inicializado correctamente (debería ser un string, pero está declarado como número).
-- La sintaxis para definir las clases derivadas (`Gato` y `Perro`) tiene errores. Estas deben heredar de la clase `Animal`. Por ejemplo: `class Gato(Animal):`.
-- Los métodos `__init__()` en las subclases deberían tomar el parámetro `self` al igual que cualquier otro método en Python.
+Es importante notar que hay algunos errores en este código, como la falta de dos puntos (`:`) después del nombre de las funciones y métodos (por ejemplo, en `setEdad(self,nuevaedad):`), lo cual es necesario para definir correctamente los métodos en Python. También hay un error de sintaxis en el método `descripcion()`, donde no se está devolviendo la raza ya que la variable ha sido encapsulada con doble guion bajo (`__raza`). Además, falta una coma después del parámetro `self` en los métodos de las clases hijas y la implementación del constructor (`__init__`) en estas clases no está completa.
 
-A pesar de estos errores, el código intenta modelar comportamientos específicos para cada tipo de animal (un gato maulla y un perro ladra) a través del uso de herencia. La idea es crear instancias de estas clases subclase para representar diferentes animales en el refugio con características propias.
+Este código es una introducción a cómo se pueden definir comportamientos comunes para un grupo de objetos (clase Animal) y luego especializar estos comportamientos según el tipo específico de objeto (Gato o Perro).
 
-Es importante corregir los errores mencionados para que el código funcione correctamente y se pueda utilizar eficazmente en un sistema de gestión de refugios para animales.
+`009-clases hijas.py`
 
 ```python
 '''
@@ -2825,16 +3571,17 @@ def Perro(Animal):
 ```
 
 ### continuamos con el ejercicio
+<small>Creado: 2025-09-26 16:20</small>
 
 #### Explicación
 
-Este programa es una simulación de un refugio para animales que gestiona a dos tipos específicos: gatos y perros. Se define una clase base llamada `Animal` con atributos como color, edad y raza (esta última es privada). La clase `Gato` hereda de `Animal` e incluye un método `maulla()`, mientras que la clase `Perro` también hereda de `Animal` pero tiene su propio método `ladra()`.
+Este código Python implementa un programa sencillo para gestionar animales en un refugio. Define una clase base llamada `Animal` que incluye atributos como color y edad, así como métodos para manipular estos atributos. La clase `Gato` y la clase `Perro` heredan de la clase `Animal`, añadiendo características específicas a cada tipo de animal, como el maullido del gato o el ladrido del perro.
 
-El programa permite al usuario ingresar información sobre el color y raza del gato y del perro, así como su edad. También se verifica que las edades ingresadas sean válidas (números enteros) y no negativas mediante la función `assert`. Además, incluye una función llamada `clasifica_edad()` que clasifica a los animales en categorías basadas en sus edades: cachorros, adultos jóvenes o adultos.
+El programa permite al usuario introducir datos sobre un gato y un perro, incluyendo color, raza e edad. Luego, realiza una clasificación básica basada en la edad de cada animal (cachorro, adulto joven o adulto). El código también simula el crecimiento del gato hasta una edad máxima permitida y muestra las propiedades públicas del perro usando su diccionario interno `__dict__`.
 
-Una parte interesante es cómo simula el crecimiento del gato incrementando su edad de manera controlada mediante el método `setEdad()`. Este método permite aumentar la edad solo en un año a la vez y limita la simulación hasta cierta edad máxima para gatos (EDAD_MAX_GATO).
+Este ejemplo es útil para aprender cómo crear clases en Python, heredar de estas clases y manejar atributos privados mediante encapsulamiento. Específicamente, el uso de métodos setter como `setEdad` ayuda a controlar cómo se modifica la edad del animal, evitando modificaciones no deseadas o incoherentes.
 
-Finalmente, muestra una ficha descriptiva con los datos del gato y del perro, incluyendo sus propiedades públicas. Este programa ayuda a entender cómo las clases heredadas pueden ser utilizadas para extender la funcionalidad de clases base, proporcionando comportamientos específicos para cada tipo de animal mientras comparten características generales como color y raza.
+`010-continuamos con el ejercicio.py`
 
 ```python
 '''
@@ -2959,6 +3706,43 @@ for clave in perro.__dict__:
   print(clave, ":", perro.__dict__[clave])
 ```
 
+### Actividades propuestas
+
+### Actividades Propuestas
+
+1. **Creación de Clases Básicas**
+   - **Descripción:** Crea una clase base llamada `Animal` con propiedades como color y edad. Luego, heredará la clase `Gato` y `Perro`. Los estudiantes deben entender cómo inicializar objetos y definir atributos.
+
+2. **Herencia Simples de Clases**
+   - **Descripción:** Los alumnos deberán crear una estructura básica de clases donde `Animal` es la superclase, mientras que `Gato` y `Perro` son subclases. El objetivo es aprender a implementar constructores con herencia.
+
+3. **Uso de Propiedades Privadas**
+   - **Descripción:** Los estudiantes deben incorporar propiedades privadas en una clase base (`Animal`) y luego utilizar el método `super()` para inicializarlas correctamente en las subclases (`Gato` y `Perro`).
+
+4. **Validación y Control de Edad**
+   - **Descripción:** Diseñar un sistema que permita incrementar la edad del animal solo si es posible (edad actual + 1) usando el método `setEdad()`. Los alumnos deben aprender a manejar condiciones y lógica dentro de métodos.
+
+5. **Metodología con Docstrings**
+   - **Descripción:** Implementar docstrings en las clases y métodos para documentar la funcionalidad, especialmente en métodos como `descripcion()` que devuelven información acerca del objeto.
+
+6. **Manejo de Excepciones (Validación de Edad)**
+   - **Descripción:** Los alumnos deben implementar el manejo de excepciones para asegurar que las entradas de edad se conviertan correctamente a enteros, utilizando bloques `try/except`.
+
+7. **Clasificación por Edades y Categorización**
+   - **Descripción:** Diseñar un método o función que clasifique la edad del animal en categorías como "cachorro", "adulto joven" y "adulto". Utilizar estructuras de control como `if/elif` para realizar esta tarea.
+
+8. **Simulación de Crecimiento**
+   - **Descripción:** Implementar un bucle que simule el crecimiento del gato incrementando su edad hasta una edad máxima establecida por el usuario, utilizando el método `setEdad()` y controlando la entrada para evitar operaciones no permitidas.
+
+9. **Funciones Auxiliares**
+   - **Descripción:** Crear funciones auxiliares como `formatea_ficha(animal)` que devuelvan una descripción formateada del animal, utilizando el método `descripcion()`. Los alumnos deben aprender a utilizar argumentos y retornos de valores.
+
+10. **Revisión de Propiedades**
+    - **Descripción:** Los estudiantes deben crear una función que recorra las propiedades públicas de un objeto (en este caso, el perro) usando su diccionario `__dict__` para mostrar todas sus características. Esto les enseña cómo acceder a la información interna del objeto.
+
+Estas actividades proporcionan un enfoque gradual y progresivo que va desde conceptos básicos hasta aplicaciones más avanzadas de programación orientada a objetos, adaptado al nivel y estilo de aprendizaje de los estudiantes de Formación Profesional.
+
+
 
 <a id="lectura-y-escritura-de-informacion"></a>
 # Lectura y escritura de información
@@ -2966,33 +3750,20 @@ for clave in perro.__dict__:
 <a id="flujos-tipos-bytes-y-caracteres-clases-relacionadas"></a>
 ## Flujos. Tipos bytes y caracteres. Clases relacionadas
 
-En el vasto mundo de la programación, los flujos de datos desempeñan un papel fundamental, ya que son la vía por la cual se transfieren información entre diferentes partes del programa. Los flujos pueden ser de dos tipos principales: bytes y caracteres, cada uno con sus propias características y clases relacionadas.
+### Introducción a los ejercicios
 
-Los flujos de bytes representan los datos en su forma más básica, como una secuencia de ceros y unos. En la programación, estos flujos se manejan a través de las clases `InputStream` y `OutputStream`, que proporcionan métodos para leer y escribir datos en formatos binarios. Estas clases son fundamentales para operaciones como la lectura de archivos binarios o la transmisión de datos a través de sockets.
-
-Por otro lado, los flujos de caracteres manejan los datos en su forma más legible, como texto. En este contexto, las clases `Reader` y `Writer` son esenciales. Estas clases proporcionan métodos para leer y escribir cadenas de texto, convirtiéndolas automáticamente entre bytes y caracteres según la codificación especificada. El uso de flujos de caracteres facilita el manejo de información textual en programas, ya que no requiere preocuparse por los detalles del formato binario.
-
-La relación entre estos flujos es estrecha, ya que ambos pueden ser adaptados para funcionar juntos. Por ejemplo, la clase `BufferedReader` puede leer datos de un flujo de caracteres y proporcionar una interfaz más eficiente para la lectura de texto. De manera similar, la clase `BufferedWriter` puede escribir datos a un flujo de caracteres, optimizando el rendimiento al reducir el número de operaciones de escritura.
-
-Además de las clases básicas, existen varias subclases que proporcionan funcionalidades adicionales y especializadas. Por ejemplo, la clase `FileInputStream` permite leer datos directamente desde un archivo en formato binario, mientras que la clase `FileWriter` permite escribir datos a un archivo en formato texto. Estas clases son útiles cuando se necesita trabajar con archivos específicos sin tener que preocuparse por los detalles del flujo de datos.
-
-La gestión adecuada de flujos es crucial para el rendimiento y la eficiencia de cualquier programa. Al manejar correctamente los flujos, se puede evitar la pérdida de información o la corrupción de datos durante la lectura y escritura. Además, la optimización del uso de flujos puede mejorar significativamente el tiempo de ejecución de un programa.
-
-En resumen, los flujos de bytes y caracteres son elementos esenciales en la programación, proporcionando las herramientas necesarias para manejar información textual y binaria de manera eficiente. A través de clases como `InputStream`, `OutputStream`, `Reader` y `Writer`, se puede realizar una amplia gama de operaciones de entrada y salida, desde la lectura de archivos hasta la transmisión de datos a través de redes.
-
-La comprensión y el uso adecuado de flujos son fundamentales para cualquier programador que quiera crear aplicaciones robustas y eficientes. Al dominar estas técnicas, se puede asegurar que los programas funcionen correctamente y sean capaces de manejar grandes volúmenes de datos con eficiencia.
+Esta carpeta contiene una serie de ejercicios en Python que te ayudarán a comprender cómo leer y escribir información en archivos, tanto en formato texto como binario. Los ejercicios iniciales te enseñan a trabajar con flujos de caracteres (archivos de texto) utilizando métodos básicos para la escritura y lectura de líneas individuales. Posteriormente, introduces el uso del módulo `pickle` para manejar datos en formato binario, lo cual es útil cuando necesitas guardar estructuras de datos más complejas que simples cadenas de texto. A través de estos ejercicios, mejorarás tus habilidades en la manipulación de archivos y entenderás mejor cómo Python facilita el almacenamiento y recuperación de información en diferentes formatos.
 
 ### flujo de caracteres
+<small>Creado: 2025-10-02 15:14</small>
 
 #### Explicación
 
-Este código muestra cómo abrir y escribir información en un archivo utilizando Python. Primero, se abre el archivo llamado "clientes.txt" en modo escritura ('w'). Si el archivo ya existe, lo sobrescribirá; si no existe, creará uno nuevo con ese nombre.
+Este código Python muestra cómo escribir información en un archivo de texto existente o nuevo. En primer lugar, el programa abre un archivo llamado "clientes.txt" en modo de escritura ('w'), lo que significa que cualquier dato que se escriba en él sobrescribirá el contenido anterior si ya existe algún texto dentro del archivo. Luego, utiliza la función `write` para añadir una cadena específica ("Esto es un contenido desde python") al archivo. Finalmente, cierra el archivo con la función `close`, lo cual es importante porque asegura que todos los cambios se guardan correctamente y libera recursos del sistema.
 
-Luego, la línea `archivo.write("Esto es un contenido desde python")` inserta texto en el archivo que acabamos de abrir. En este caso, estamos escribiendo una frase específica: "Esto es un contenido desde python".
+Este tipo de operaciones son fundamentales en programación ya que permiten almacenar datos permanentemente en archivos para su uso posterior o compartición.
 
-Finalmente, al llamar a `archivo.close()`, cerramos el archivo para asegurarnos de que toda la información se guarda correctamente y que los recursos del sistema no quedan bloqueados.
-
-Este proceso es crucial en programación ya que permite almacenar datos permanentemente en archivos, lo cual es útil para mantener registros, bases de datos simples o cualquier otro tipo de información que necesites guardar fuera del programa.
+`001-flujo de caracteres.py`
 
 ```python
 archivo = open("clientes.txt",'w')
@@ -3001,14 +3772,15 @@ archivo.close()
 ```
 
 ### leer
+<small>Creado: 2025-10-02 15:15</small>
 
 #### Explicación
 
-Este código Python te enseña cómo leer el primer renglón de un archivo de texto llamado "clientes.txt". Primero, se abre el archivo en modo lectura ('r'), lo que significa solo vas a leer su contenido sin modificarlo. La función `open()` crea una conexión con el archivo y asigna esta conexión al objeto llamado "archivo".
+Este código Python te enseña cómo abrir y leer el contenido de un archivo. Primero, se abre el archivo llamado "clientes.txt" en modo lectura ('r'). Luego, lee la primera línea del archivo utilizando la función `readline()`, que devuelve una cadena con los caracteres desde el comienzo del archivo hasta el primer salto de línea encontrado. Finalmente, imprime esa línea y cierra el archivo para asegurar que todos los cambios se guarden correctamente y liberar recursos del sistema.
 
-Luego, la línea `linea = archivo.readline()` lee el primer renglón del archivo abierto y guarda esa información en la variable llamada "linea". Después de esto, se imprime ese contenido de texto utilizando la función `print(linea)`, lo que te muestra en la pantalla el primer renglón del archivo.
+Es importante entender este proceso porque te permite interactuar con archivos de texto en Python, lo cual es fundamental cuando necesitas manipular datos almacenados en archivos o analizar información externa.
 
-Finalmente, es crucial cerrar el archivo con `archivo.close()` para liberar los recursos del sistema ocupados por este proceso. Esto asegura que no hay errores ni problemas de rendimiento relacionados con tener archivos abiertos innecesariamente.
+`002-leer.py`
 
 ```python
 archivo = open("clientes.txt",'r')
@@ -3018,14 +3790,19 @@ archivo.close()
 ```
 
 ### uso de pickle para binario
+<small>Creado: 2025-10-02 15:18</small>
 
 #### Explicación
 
-Este código utiliza la biblioteca `pickle` en Python para guardar datos de manera binaria en un archivo. La línea `mensaje = "esto es un mensaje"` crea una variable llamada `mensaje` que almacena una cadena de texto simple.
+Este fragmento de código muestra cómo guardar una cadena de texto en un archivo binario utilizando el módulo `pickle` en Python. El programa comienza importando el módulo `pickle`, que es útil para serializar y deserializar objetos de Python a formatos binarios y viceversa.
 
-Luego, se abre un archivo llamado `"cliente.bin"` en modo escritura binaria (`'wb'`). Esto significa que el archivo va a ser creado o sobrescrito con datos binarios, no texto. La función `pickle.dump(mensaje, archivo)` toma la variable `mensaje` y la guarda dentro del archivo abierto de forma binaria. Finalmente, se cierra el archivo con `archivo.close()` para asegurar que todos los cambios se hayan guardado correctamente.
+Luego, se define una variable llamada `mensaje` con el texto "esto es un mensaje". A continuación, se abre un archivo binario llamado `"cliente.bin"` en modo escritura binaria (`'wb'`). Este modo de apertura del archivo es importante porque indica que vamos a escribir datos binarios y no simples caracteres.
 
-Este proceso es importante porque permite almacenar datos complejos en formatos no legibles por humanos pero eficientes para el programa y su uso posterior. Utilizar `pickle` para guardar información binaria puede ser útil cuando necesitas preservar la estructura exacta de los objetos en Python, como listas, diccionarios, etc., más allá de simplemente almacenar texto plano.
+Finalmente, la función `pickle.dump()` se utiliza para guardar el contenido de la variable `mensaje` en el archivo recién creado. La última línea cierra el archivo después de haber guardado los datos para asegurar que todos los cambios han sido escritos correctamente y liberar cualquier recurso asociado al archivo.
+
+Este tipo de operaciones es importante porque permite almacenar objetos complejos, como listas, diccionarios o incluso clases personalizadas, en archivos de manera eficiente, lo cual puede ser muy útil para guardar estados de la aplicación entre sesiones.
+
+`003-uso de pickle para binario.py`
 
 ```python
 import pickle
@@ -3038,10 +3815,13 @@ archivo.close()
 ```
 
 ### pickle para leer
+<small>Creado: 2025-10-02 15:19</small>
 
 #### Explicación
 
-Este código Python se utiliza para leer información de un archivo binario utilizando el módulo `pickle`. Primero, se importa la biblioteca `pickle`, que es útil para guardar y cargar datos complejos en archivos. Luego, se abre un archivo llamado "cliente.bin" en modo de lectura binaria (`'rb'`). Con la función `pickle.load()`, el programa lee los datos serializados desde este archivo y los almacena en la variable `mensaje`. Finalmente, imprime estos datos deserializados y cierra el archivo para asegurar que todos los cambios se han guardado correctamente. Esta técnica es importante cuando necesitas almacenar estructuras de datos complejas, como listas o diccionarios, en un archivo y luego recuperarlas exactamente igual a cómo fueron guardadas.
+Este fragmento de código está utilizando la biblioteca `pickle` en Python para leer datos serializados desde un archivo binario. Primero, el programa abre el archivo llamado "cliente.bin" en modo de lectura binaria (`'rb'`). Luego, utiliza la función `pickle.load()` para cargar los datos almacenados en este archivo y los almacena en una variable llamada `mensaje`. Finalmente, imprime el contenido de `mensaje` en la consola. Este proceso es importante porque permite recuperar objetos complejos creados previamente (como listas, diccionarios, etc.) directamente desde un archivo binario, facilitando así la persistencia y manipulación de datos estructurados en Python.
+
+`004-pickle para leer.py`
 
 ```python
 import pickle
@@ -3054,51 +3834,101 @@ archivo.close()
 ```
 
 ### clientes
+<small>Creado: 2025-10-02 15:14</small>
 
 #### Explicación
 
-Este fragmento de código parece ser simplemente una línea de texto que podría estar almacenada en un archivo o impresa por un programa escrito en Python. No se trata de instrucciones de programación propiamente dichas, sino más bien de información textual que el programa maneja. En este caso, "Esto es un contenido desde python" sería una cadena de texto que un programa podría leer desde un archivo o escribir en él.
+El fragmento que has proporcionado no contiene realmente código Python; en su lugar, parece ser una simple cadena de texto. Esta línea indica que hay un comentario o un string (cadena de caracteres) que dice "Esto es un contenido desde python". En el contexto de archivos de programa, este tipo de texto podría aparecer como un ejemplo inicial o como un marcador para señalar dónde debería ir el código real en una plantilla. No realiza ninguna acción y su función principal sería proporcionar información al desarrollador sobre qué se espera que contenga ese archivo.
 
-Si estuviéramos trabajando con Python y tratáramos de manipular o procesar archivos de texto, este tipo de línea puede aparecer dentro del propio código como parte de la lógica para leer o escribir información. Por ejemplo, podría ser el contenido que un programa lee desde un archivo llamado `clientes.txt` y luego muestra en pantalla.
+En el caso de un ejercicio relacionado con la lectura y escritura de archivos, este texto podría ser simplemente una nota para indicar que el objetivo es reemplazar esta línea con código real que lea o escriba en un archivo. Es importante entender que mientras que esta línea no ejecuta ninguna operación funcional dentro del programa, puede desempeñar un papel crucial en la organización y documentación del proyecto.
 
-Es importante entender cómo manejar cadenas de texto cuando se trabaja con archivos ya que permite a los programas interactuar con datos almacenados en ficheros del sistema, lo cual es fundamental para muchas aplicaciones prácticas.
+`clientes.txt`
 
 ```
 Esto es un contenido desde python
 ```
 
+### Actividades propuestas
+
+### Actividades Propuestas:
+
+1. **Lectura y Escritura Básica**
+   - **Descripción:** Los estudiantes deben escribir y luego leer de un archivo de texto sin usar bibliotecas adicionales. El objetivo es que comprendan cómo interactuar con archivos en Python.
+
+2. **Manipulación de Archivos en Modo Lectura**
+   - **Descripción:** Se requiere que los alumnos lean el contenido completo del archivo `clientes.txt` y lo muestren por pantalla línea a línea. La actividad busca mejorar sus habilidades en manejo de archivos en modo lectura.
+
+3. **Uso de Pickle para Serialización**
+   - **Descripción:** Los estudiantes deben serializar un diccionario personalizado en formato binario usando el módulo `pickle` y luego guardarlo en un archivo `.bin`. Esta actividad ayuda a entender la importancia de la serialización.
+
+4. **Lectura desde Archivos Binarios**
+   - **Descripción:** Se pide que los alumnos levan contenido previamente serializado con pickle desde un archivo binario, mostrándolo por pantalla. Busca familiarizarlos con lecturas binarias en Python.
+
+5. **Manejo de Excepciones con Archivos**
+   - **Descripción:** Los estudiantes deben añadir manejo de excepciones para la apertura y cierre de archivos, aprendiendo a gestionar errores comunes como la falta de existencia del archivo o problemas durante la escritura/lectura.
+
+6. **Escribir y Leer Información Compleja**
+   - **Descripción:** Los alumnos deben escribir una estructura compleja (como una lista de diccionarios) en un archivo de texto, luego leerla y mostrarla por pantalla para validar su contenido. La actividad busca mejorar la habilidad para manejar datos estructurados.
+
+7. **Escritura y Lectura Binaria Avanzada**
+   - **Descripción:** Se pide que los estudiantes escriban e implementen una función para serializar/deserializar objetos personalizados en archivos binarios usando `pickle`, mejorando su comprensión de serialización avanzada.
+
+8. **Generación Automática de Archivos**
+   - **Descripción:** Los alumnos deben crear un script que genere automáticamente varios archivos `.txt` con contenido específico (como nombres y correos electrónicos), para practicar la automatización en manejo de archivos.
+
+9. **Lectura y Procesamiento de Datos JSON**
+   - **Descripción:** Se requiere que los estudiantes escriban un script para leer datos desde un archivo `.json` y luego manipularlos (por ejemplo, contar cuántas entradas hay), introduciendo el formato JSON en su arsenal.
+
+10. **Comparación de Contenidos entre Archivos**
+    - **Descripción:** Los alumnos deben crear una función que compare el contenido de dos archivos textuales identificados por el usuario y reporte cualquier diferencia encontrada, mejorando sus habilidades en procesamiento y comparación de datos.
+
+
 <a id="ficheros-de-datos-registros"></a>
 ## Ficheros de datos. Registros
 
-En el vasto mundo de la programación, los ficheros de datos desempeñan un papel fundamental como almacenadores de información persistente. Al explorar esta subunidad didáctica, nos sumergimos en la comprensión del manejo de estos archivos, una habilidad esencial para cualquier desarrollador.
+### Introducción a los ejercicios
 
-El primer paso hacia el dominio de los ficheros es entender su estructura básica: un fichero puede ser visto como una colección ordenada de registros. Cada registro, a su vez, está formado por campos individuales que contienen datos específicos. Esta organización permite una representación eficiente y accesible de la información.
+Este es un proyecto de una aplicación de agenda de clientes en Python, que ha evolucionado significativamente a lo largo del desarrollo. Aquí hay un resumen de las principales características y mejoras:
 
-La lectura y escritura de ficheros es un proceso bidireccional que implica el acceso y modificación de estos registros. La lectura nos permite recuperar los datos almacenados, mientras que la escritura nos brinda la capacidad de actualizar o agregar nueva información. Este flujo continuo entre el programa y el fichero es crucial para mantener la integridad y coherencia de los datos.
+1. Estructura inicial:
+   - Clase Cliente básica con atributos nombre, apellidos y email.
+   - Menú principal con opciones para insertar, listar, actualizar, eliminar y guardar clientes.
 
-La manipulación de ficheros implica también la gestión de flujos de datos. Los flujos son canales que permiten la transmisión de información desde el programa hacia el fichero o viceversa. La comprensión de estos flujos es fundamental para optimizar el rendimiento del proceso de lectura y escritura.
+2. Persistencia de datos:
+   - Usando el módulo pickle para guardar la lista de clientes en un archivo binario "clientes.bin" al salir y cargarlo al inicio.
 
-Además, los ficheros pueden almacenar diferentes tipos de datos: bytes, caracteres, registros completos, entre otros. Cada tipo requiere un enfoque específico en la manipulación, desde la codificación hasta la deserialización. Esta diversidad añade complejidad pero también riqueza al manejo de información.
+3. Mejora estética:
+   - Funciones para limpiar pantalla (limpiaPantalla()), poner negrita (ponNegrita()) y reiniciar estilo (reiniciaEstilo()).
+   - Colores ANSI para resaltar opciones en el menú.
 
-La seguridad es otro aspecto crucial a considerar cuando se trabaja con ficheros. La protección contra accesos no autorizados y la prevención de corrupciones son tareas que deben ser abordadas desde el diseño hasta la implementación del código. Herramientas y técnicas específicas pueden ayudar en esta tarea, pero es fundamental mantener un enfoque proactivo.
+4. Separación de responsabilidades:
+   - Definición de funciones separadas para tareas específicas como limpiar pantalla y aplicar estilos.
 
-La eficiencia en la lectura y escritura de ficheros también es un objetivo importante. Algoritmos optimizados y estructuras de datos adecuadas pueden reducir significativamente el tiempo y recursos necesarios para manipular grandes volúmenes de información. Esta optimización no solo mejora el rendimiento del programa, sino que también lo hace más escalable.
+5. Manejo de archivos externos:
+   - Archivos CSV (clientes.csv) y JSON (clientes.json) que podrían ser utilizados para cargar datos adicionales o exportar la base de clientes.
 
-En la práctica, los ficheros son utilizados en una amplia gama de aplicaciones. Desde bases de datos hasta sistemas operativos y aplicaciones web, su manejo es un componente fundamental. Comprender cómo trabajar con ellos nos proporciona las herramientas necesarias para desarrollar software robusto y eficiente.
+6. Estado actual:
+   - El código final en archivo 015-funciones.py implementa una interfaz con colores, negrita y limpieza de pantalla.
+   - Las opciones actualizar y eliminar no están implementadas completamente aún.
 
-La lectura y escritura de ficheros también implica la gestión de excepciones. Situaciones como errores de acceso o problemas de formato pueden surgir durante el proceso, y es crucial tener en cuenta estas posibilidades para mantener la estabilidad del programa.
+7. Posibles mejoras futuras:
+   - Implementar funcionalidades para actualizar y eliminar clientes.
+   - Añadir opciones para importar/exportar datos a partir de archivos CSV o JSON.
+   - Mejorar la interfaz (por ejemplo, usando ANSI para marcar campos requeridos).
+   - Agregar validaciones más robustas en las entradas del usuario.
 
-Finalmente, la documentación es un aspecto no menos importante que el código mismo. Comentar adecuadamente las operaciones realizadas sobre los ficheros nos ayuda a entender su funcionamiento y facilita futuras modificaciones o mantenimiento.
-
-En resumen, la lectura y escritura de ficheros es una habilidad multifacética y fundamental en la programación. Desde la comprensión de sus estructuras hasta la implementación de soluciones eficientes y seguras, cada paso requiere un enfoque cuidadoso y una comprensión profunda del contexto en el que se está trabajando.
+Este proyecto muestra un buen desarrollo progresivo de una aplicación simple pero funcional, con mejoras estéticas y estructurales a lo largo del camino.
 
 ### escribir un txt
+<small>Creado: 2025-10-02 15:21</small>
 
 #### Explicación
 
-Este código Python se utiliza para escribir información en un archivo de texto llamado "clientes.txt". En primer lugar, el programa abre el archivo en modo escritura ('w'), lo que significa que cualquier dato nuevo escrito en él sobrescribirá cualquier contenido existente. A continuación, la función `write()` es utilizada para insertar una cadena específica ("Esto es un contenido desde python") dentro del archivo recién abierto. Finalmente, el método `close()` cierra el archivo después de completar las operaciones para evitar problemas relacionados con la gestión de recursos.
+Este código Python se utiliza para escribir información en un archivo de texto llamado "clientes.txt". Primero, el programa abre el archivo en modo escritura ('w'), lo que significa que cualquier contenido existente en el archivo será borrado y se preparará para recibir nueva información. Luego, escribe la frase "Esto es un contenido desde python" dentro del archivo recién abierto. Finalmente, cierra el archivo para asegurarse de que toda la información haya sido guardada correctamente.
 
-Este fragmento es importante porque demuestra cómo interactuar con archivos en Python, una habilidad fundamental para realizar tareas como guardar datos persistentes o generar informes automáticos.
+Es importante destacar que al abrir un archivo en modo escritura ('w'), cualquier dato previo en ese archivo será eliminado. Si deseas agregar contenido a un archivo existente sin borrar su contenido anterior, debes usar otro modo de apertura, como 'a' (append) para añadir información al final del archivo sin eliminar el contenido ya presente.
+
+`001-escribir un txt.py`
 
 ```python
 archivo = open("clientes.txt",'w')
@@ -3107,10 +3937,19 @@ archivo.close()
 ```
 
 ### escribir un csv
+<small>Creado: 2025-10-02 15:23</small>
 
 #### Explicación
 
-Este código Python se utiliza para agregar información a un archivo llamado `clientes.csv`. Primero, el programa abre el archivo en modo append (`'a'`), lo que significa que cualquier dato que escribas será añadido al final del archivo sin sobrescribir nada existente. Luego, utiliza la función `write()` para introducir dos líneas de texto en formato CSV (Valores Separados por Comas). Cada línea representa a un cliente y contiene sus datos como nombre, dirección y número de teléfono. Finalmente, cierra el archivo con `close()`. Este método es importante porque permite mantener registros de clientes de manera organizada y fácil de leer tanto para humanos como para programas informáticos que procesan datos en formato CSV.
+Este código Python te enseña cómo escribir información en un archivo CSV (separado por comas). En este caso, el programa abre el archivo llamado "clientes.csv" en modo de escritura adicional ('a'). Esto significa que si el archivo ya existe, el nuevo contenido se añadirá al final del archivo existente. Si no existe, Python lo creará.
+
+Luego, el código escribe dos líneas de información sobre clientes en el archivo. Cada línea contiene un nombre, una dirección y un número (posiblemente un teléfono). Por ejemplo, la primera línea representa a Juan con su dirección y número telefónico.
+
+Finalmente, se cierra el archivo para asegurarse de que toda la información se guarda correctamente y para liberar los recursos del sistema.
+
+Este código es importante porque te muestra cómo interactuar con archivos en Python, lo cual es fundamental para almacenar y recuperar datos persistentes en tus aplicaciones.
+
+`002-escribir un csv.py`
 
 ```python
 archivo = open("clientes.csv",'a')
@@ -3120,16 +3959,21 @@ archivo.close()
 ```
 
 ### creo un diccionario y lo guardo como json
+<small>Creado: 2025-10-02 15:28</small>
 
 #### Explicación
 
-Este fragmento de código se utiliza para guardar una lista de diccionarios que contienen información sobre clientes en un archivo JSON. En primer lugar, el programa importa la biblioteca `json`, que proporciona funciones para trabajar con datos estructurados como objetos JSON.
+Este fragmento de código en Python tiene como objetivo guardar una lista de clientes en un archivo JSON. Primero, importamos el módulo `json`, que nos proporciona funciones para trabajar con datos en formato JSON.
 
-Luego, se crea una lista llamada `clientes` que contiene dos diccionarios. Cada diccionario representa a un cliente y almacena sus detalles personales como nombre, apellidos y dirección de correo electrónico. Esta estructura es útil porque permite organizar información compleja en una forma fácil de manejar.
+Luego, creamos una lista llamada `clientes` que contiene dos diccionarios. Cada diccionario representa a un cliente y tiene tres claves: "nombre", "apellidos" y "email". Estos diccionarios almacenan información sobre cada uno de los clientes, como su nombre completo y correo electrónico.
 
-El siguiente paso es abrir un archivo llamado `clientes.json` en modo de escritura (`"w"`), lo que significa que cualquier contenido existente en el archivo será reemplazado por la nueva información. Se utiliza la función `json.dump()` para escribir los datos de la lista `clientes` en este archivo. La opción `indent=4` asegura que el JSON se formatee con sangrías para mejor legibilidad, y `ensure_ascii=False` garantiza que caracteres especiales o no ASCII (como acentos) sean escritos correctamente sin codificación extra.
+El siguiente paso es abrir el archivo `clientes.json` en modo escritura (`"w"`). Si el archivo ya existe, será sobrescrito. Si no existe, se creará un nuevo archivo con ese nombre.
 
-Esta operación es importante porque permite guardar datos estructurados de manera eficiente en un formato fácilmente accesible tanto por humanos como por otros programas.
+Finalmente, utilizamos la función `json.dump()` para escribir la lista de clientes en el archivo que acabamos de abrir. La opción `indent=4` añade sangrías a los datos JSON para hacerlos más legibles, y `ensure_ascii=False` asegura que caracteres no ASCII (como acentos) se guarden correctamente sin ser convertidos.
+
+Este código es importante porque nos permite almacenar información estructurada de una manera fácilmente accesible y modificable en el futuro. Al guardar los datos como JSON, podemos recuperarlos fácilmente para realizar consultas o hacer actualizaciones a la base de datos de clientes más adelante.
+
+`003-creo un diccionario y lo guardo como json.py`
 
 ```python
 import json
@@ -3153,14 +3997,17 @@ json.dump(clientes, archivo, indent=4, ensure_ascii=False)
 ```
 
 ### agenda de clientes
+<small>Creado: 2025-10-02 15:31</small>
 
 #### Explicación
 
-Este fragmento de código es el comienzo de un programa sencillo en Python que permite gestionar una agenda de clientes. El programa muestra al usuario varias opciones para interactuar con la lista de clientes, como insertar, listar, actualizar o eliminar registros.
+Este código es el inicio de un programa en Python llamado "Agenda de clientes", que se utiliza para gestionar información sobre diferentes clientes. El programa presenta al usuario un menú con varias opciones, como insertar, listar, actualizar y eliminar clientes.
 
-Cuando se ejecuta, el programa imprime un menú con las diferentes acciones disponibles (insertar, listar, actualizar y eliminar). Luego solicita que el usuario seleccione una opción ingresándola a través del teclado. El valor introducido por el usuario es almacenado en la variable `opcion` como una cadena de texto (`str`). Sin embargo, para poder trabajar con esa entrada como un número entero (por ejemplo, para compararla o utilizarla en condicionales), se convierte dicha cadena a un entero utilizando la función `int()`. Esto es crucial porque las operaciones matemáticas y lógicas no pueden realizarse directamente sobre cadenas de texto.
+Cuando ejecutas este código, primero aparece en la pantalla un mensaje que indica el nombre del programa: "Agenda de clientes". Luego, muestra un menú interactivo que ofrece cuatro opciones a elegir. El usuario debe ingresar un número correspondiente a la acción que desea realizar (1 para insertar un cliente, 2 para listar todos los clientes, etc.). El programa captura esta entrada mediante la función `input()`, la guarda en la variable `opcion` y después convierte el valor ingresado por el usuario de texto (string) a número entero usando `int(opcion)`.
 
-Este código forma parte de una aplicación que permitirá mantener una base de datos simple de clientes, donde el usuario puede realizar diversas acciones para gestionar dicha información.
+Esta parte del código es fundamental porque establece cómo interactuará el usuario con el programa, permitiendo que realice diferentes acciones según lo que necesite.
+
+`004-agenda de clientes.py`
 
 ```python
 '''
@@ -3180,16 +4027,17 @@ opcion = int(opcion)
 ```
 
 ### actuar en cada caso
+<small>Creado: 2025-10-02 15:32</small>
 
 #### Explicación
 
-Este código es una pequeña interfaz de usuario en Python para gestionar una agenda de clientes. En primer lugar, muestra un menú interactivo donde el usuario puede seleccionar entre cuatro acciones: insertar un cliente, listar todos los clientes, actualizar información de un cliente existente o eliminar a un cliente.
+Este fragmento de código es una pequeña aplicación en Python que permite gestionar una agenda de clientes. Primero, muestra un menú con cuatro opciones: insertar, listar, actualizar y eliminar clientes. Luego, pide al usuario que seleccione una opción introduciendo un número del 1 al 4.
 
-El programa comienza mostrando un mensaje de bienvenida y luego presenta un menú con opciones numeradas. El usuario debe ingresar una opción, que es capturada como entrada de texto (con `input()`) y después se convierte en un número entero (`int()`). Esta conversión es importante porque permite a Python comparar la selección del usuario con los números 1, 2, 3 y 4.
+El programa lee la entrada del usuario como texto (con `input()`) y luego convierte esa entrada a un número entero (con `int()`). Después de esto, el programa utiliza una estructura condicional `if-elif` para determinar qué acción realizar en función del número que ha seleccionado el usuario. Si se selecciona la opción 1, por ejemplo, se muestra un mensaje indicando que vamos a insertar un nuevo cliente.
 
-Dependiendo de la opción seleccionada por el usuario, el programa imprime una frase que indica qué acción se va a realizar. En un contexto más amplio, aquí sería donde el código ejecutaría las operaciones correspondientes para cada caso, como añadir datos nuevos en una base de datos (en el caso del insertar cliente), recuperar y mostrar información existente (listar clientes), cambiar la información de un cliente (actualizar) o eliminar registros de un cliente.
+Este código es importante porque establece la base de interacción entre el usuario y el programa, permitiendo al usuario elegir qué acción desea realizar en relación con los datos de clientes. Es un paso fundamental para construir aplicaciones más complejas donde el usuario tiene opciones de manejo del dato.
 
-Esta estructura permite a los usuarios interactuar fácilmente con la aplicación para realizar diversas tareas relacionadas con la gestión de clientes, facilitando el mantenimiento y actualización de una base de datos de clientes.
+`005-actuar en cada caso.py`
 
 ```python
 '''
@@ -3219,14 +4067,21 @@ elif opcion == 4:
 ```
 
 ### para definir un cliente creo una clase
+<small>Creado: 2025-10-02 15:34</small>
 
 #### Explicación
 
-Este fragmento de código es una parte del programa "Agenda de clientes v.0.1", diseñado para gestionar y mantener la información sobre clientes en un sistema de gestión empresarial. En este código, se define una clase llamada `Cliente`, que contiene tres propiedades: nombre, apellidos y email. Estas propiedades serán usadas posteriormente para almacenar la información de los clientes que interactúan con el programa.
+Este código es el comienzo de una pequeña aplicación en Python que gestiona una agenda de clientes. La aplicación permite al usuario elegir entre varias acciones, como insertar un nuevo cliente, listar todos los clientes existentes, actualizar la información de un cliente o eliminar un cliente.
 
-Después de definir la clase, el código muestra un menú sencillo donde se presenta al usuario cuatro opciones: insertar un cliente, listar todos los clientes, actualizar datos del cliente y eliminar a un cliente. La opción elegida por el usuario se guarda en la variable `opcion`, que luego es usada para decidir qué acción realizar a continuación. Según la elección del usuario, el programa imprimirá una frase indicando qué proceso va a iniciar.
+La clase `Cliente` se define para almacenar información básica sobre cada cliente, incluyendo su nombre, apellidos y correo electrónico. Sin embargo, en esta parte del código, no se está usando aún la clase `Cliente`.
 
-Este código es importante porque establece las bases de interacción entre el usuario y el sistema, permitiendo al usuario gestionar fácilmente los registros de clientes mediante opciones claras y directas en un menú.
+El programa muestra al usuario una lista de opciones (insertar, listar, actualizar o eliminar clientes) e invita a introducir el número que corresponde con la acción deseada. El valor ingresado por el usuario se guarda en la variable `opcion` y luego se convierte en un entero para facilitar su uso en las comparaciones posteriores.
+
+Dependiendo de la opción seleccionada, el programa imprime una frase correspondiente a la acción que va a realizar. Esto es solo una interfaz básica y no realiza ninguna operación real sobre los clientes todavía; en futuras partes del código se implementará la lógica para cada una de estas acciones.
+
+Este tipo de estructura es común al inicio de aplicaciones interactivas, donde el usuario tiene diferentes opciones para manipular datos.
+
+`006-para definir un cliente creo una clase.py`
 
 ```python
 '''
@@ -3261,14 +4116,19 @@ elif opcion == 4:
 ```
 
 ### y creo una lista de clientes
+<small>Creado: 2025-10-02 15:35</small>
 
 #### Explicación
 
-Este código es el comienzo de una pequeña aplicación en Python que permite gestionar una lista de clientes. La primera parte del código define una clase llamada `Cliente`, la cual se utiliza para crear objetos que representan individuos con información básica como nombre, apellidos y correo electrónico. Estos objetos estarán almacenados dentro de una lista llamada `clientes`.
+Este código es el comienzo de una pequeña aplicación en Python que permite gestionar una lista de clientes. La aplicación crea una clase llamada `Cliente` que define un objeto con tres atributos: nombre, apellidos y email. Estos atributos se inicializan vacíos cuando se crea un nuevo cliente.
 
-A continuación, el programa muestra al usuario un menú interactivo donde puede elegir entre diferentes acciones: insertar un nuevo cliente en la base de datos, listar todos los clientes existentes, actualizar información de un cliente o eliminar a un cliente. Para hacer esto, primero se imprime un mensaje que invita al usuario a seleccionar una opción y luego muestra las opciones disponibles.
+Luego, el programa define una lista vacía llamada `clientes`, donde almacenará objetos del tipo `Cliente`. Después de esto, muestra un menú en pantalla que ofrece al usuario opciones para insertar, listar, actualizar o eliminar clientes. El usuario debe seleccionar una opción ingresando un número del 1 al 4.
 
-El programa lee la entrada del usuario con `input()` y convierte esa entrada a un número entero para poder compararlo con los números asociados a cada opción en el menú. Dependiendo de qué número elija el usuario, se ejecuta uno de los bloques de código que indican qué acción va a realizar el programa. Este tipo de estructura es fundamental para crear aplicaciones interactivas y permitir al usuario controlar la lógica del programa según sus necesidades.
+Dependiendo de la opción elegida por el usuario, se imprime un mensaje correspondiente. Sin embargo, este código solo muestra los mensajes y no realiza ninguna acción real con los datos de los clientes todavía. La intención es que en versiones posteriores del programa se añadan funciones para manejar cada una de estas operaciones.
+
+Esta estructura básica es importante porque establece la base sobre la cual podrás construir funcionalidades más complejas, como la creación y manipulación de objetos `Cliente` dentro de la lista.
+
+`007-y creo una lista de clientes.py`
 
 ```python
 '''
@@ -3305,14 +4165,19 @@ elif opcion == 4:
 ```
 
 ### añado un elemento a la lista
+<small>Creado: 2025-10-02 15:37</small>
 
 #### Explicación
 
-Este fragmento de código es una pequeña aplicación en Python que gestiona una agenda de clientes. La aplicación permite realizar varias operaciones básicas como insertar, listar, actualizar y eliminar registros de clientes. Comienza definiendo una clase llamada `Cliente` que contiene tres atributos: nombre, apellidos y email. Posteriormente, se crea una lista vacía llamada `clientes` donde se almacenarán los objetos de tipo `Cliente`.
+Este fragmento de código es una parte de un programa llamado "Agenda de clientes" que gestiona información sobre diferentes personas. El código comienza definiendo una clase llamada `Cliente`, la cual contiene tres atributos importantes: nombre, apellidos y email. Estos atributos se inicializan vacíos cuando se crea un nuevo objeto del tipo cliente.
 
-El programa muestra un menú interactivo al usuario para seleccionar la acción que desea realizar. Si el usuario elige "Insertar un cliente", el código solicita por pantalla el nombre, apellidos y email del nuevo cliente, crea una instancia de la clase `Cliente` con estos datos y finalmente agrega esta nueva instancia a la lista `clientes`. Este proceso es crucial porque permite almacenar fácilmente nuevos clientes en la agenda.
+Después, el programa crea una lista vacía llamada `clientes` donde almacenará todos los objetos de clientes que se creen. Luego, muestra al usuario un menú con cuatro opciones: insertar un cliente, listar clientes, actualizar clientes y eliminar clientes. El usuario debe seleccionar una opción escribiendo un número del 1 al 4.
 
-Es importante destacar que este código proporciona una estructura básica para gestionar registros de clientes, pero aún falta implementar las funcionalidades de listar, actualizar y eliminar clientes.
+Si el usuario elige la primera opción (insertar un cliente), el programa pide al usuario que introduzca el nombre, apellidos y email de un nuevo cliente. Estos datos se asignan a los atributos correspondientes de un objeto `Cliente` recién creado. Finalmente, este objeto se añade a la lista `clientes`.
+
+Este código es importante porque muestra cómo manejar objetos en Python y cómo utilizar listas para almacenar colecciones de estos objetos. Además, ilustra el uso de menús interactivos con los usuarios y las diferentes formas de gestionar datos en un programa simple pero funcional.
+
+`008-añado un elemento a la lista.py`
 
 ```python
 '''
@@ -3354,16 +4219,19 @@ elif opcion == 4:
 ```
 
 ### Meto al usuario en un bucle infinito
+<small>Creado: 2025-10-02 15:38</small>
 
 #### Explicación
 
-Este código es una pequeña aplicación de Python que permite gestionar una agenda de clientes con cuatro opciones principales: insertar un cliente, listar todos los clientes, actualizar la información de un cliente y eliminar un cliente. La aplicación está diseñada en forma de menú interactivo que se mantiene ejecutándose hasta que el usuario decida cerrarla manualmente.
+Este código es una pequeña aplicación en Python que permite gestionar una base de datos simple de clientes. El programa utiliza un bucle infinito (`while True`) para permitir al usuario interactuar con la lista de clientes hasta que decida salir del programa. Dentro del bucle, el programa muestra al usuario un menú con opciones como insertar, listar, actualizar y eliminar clientes.
 
-La clase `Cliente` define una estructura básica para almacenar datos de un cliente como su nombre, apellidos y email. Cuando se selecciona la opción 1 (insertar un cliente), se crea un nuevo objeto de tipo `Cliente`, se le piden al usuario los detalles del cliente (nombre, apellidos y email) y luego este nuevo cliente se añade a una lista llamada `clientes`. Este enfoque permite almacenar múltiples clientes dentro de la aplicación.
+Cuando el usuario selecciona una opción, el programa ejecuta las acciones correspondientes. Por ejemplo, si elige "Insertar un cliente", se crea una instancia de la clase `Cliente`, se solicitan los datos del nuevo cliente al usuario (nombre, apellidos, email), y luego esta información se añade a una lista global llamada `clientes`.
 
-El bucle `while True` es lo que hace que el menú sea infinito, permitiendo al usuario seleccionar una opción hasta que decida cerrarla. Es importante destacar que aunque las opciones 2, 3 y 4 tienen texto asociado para describir qué harían en un programa completo (listar clientes, actualizarlos o eliminarlos), esta versión solo imprime mensajes sin completar la funcionalidad real para estas acciones.
+Es importante destacar que el código solo muestra la interfaz para seleccionar acciones pero no implementa completamente las funcionalidades de actualizar o eliminar clientes. Estas partes están reservadas para futuras implementaciones según parece.
 
-Este tipo de estructura es útil cuando se desea crear una interfaz interactiva simple para manejar datos de forma organizada y permitir al usuario interactuar con ellos según sea necesario.
+Este tipo de estructura de programa es común en aplicaciones interactivas donde se necesita mantener un registro de datos y permitir operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre esos datos.
+
+`009-Meto al usuario en un bucle infinito.py`
 
 ```python
 '''
@@ -3405,14 +4273,23 @@ while True:
 ```
 
 ### listamos clientes
+<small>Creado: 2025-10-02 15:41</small>
 
 #### Explicación
 
-Este código es una pequeña aplicación de consola en Python que gestiona un listado de clientes. La aplicación permite al usuario insertar nuevos clientes, listar todos los clientes existentes y realizar actualizaciones o eliminaciones (aunque estas últimas no están implementadas en este fragmento). El programa comienza creando una clase llamada `Cliente` con tres atributos: nombre, apellidos y email. Luego, inicializa una lista vacía llamada `clientes`, que servirá para almacenar objetos de la clase `Cliente`.
+Este código es una simple interfaz de línea de comandos para gestionar una lista de clientes. Comienza creando una clase llamada `Cliente`, que tiene tres atributos: nombre, apellidos y email. La variable `clientes` es una lista vacía donde se almacenará cada objeto cliente creado.
 
-El código principal es un bucle `while True` que presenta al usuario un menú interactivo donde puede seleccionar entre diferentes opciones como insertar un nuevo cliente, listar todos los clientes actuales o realizar actualizaciones (cualquier opción diferente a estas no está implementada en este fragmento). Cuando el usuario selecciona la opción de insertar un cliente, se crea una nueva instancia de `Cliente`, se le solicitan al usuario que introduzca el nombre, apellidos y email del nuevo cliente, y finalmente se añade esta información a la lista de clientes. Si el usuario selecciona listar los clientes, el programa itera sobre todos los objetos en la lista `clientes` e imprime sus atributos correspondientes.
+El programa entra en un bucle infinito (`while True:`) que muestra un menú de opciones al usuario para interactuar con la base de datos de clientes. Las opciones disponibles son insertar, listar, actualizar y eliminar clientes. Cuando el usuario selecciona una opción, el programa realiza la acción correspondiente:
 
-Esta aplicación es importante porque demuestra cómo manejar datos estructurados (como registros de clientes) utilizando clases y listas en Python, proporcionando una base para aplicaciones más complejas que podrían interactuar con bases de datos o archivos de texto.
+- Si se selecciona "1.-Insertar un cliente", el código crea una nueva instancia de `Cliente`, solicita al usuario que introduzca los detalles del nuevo cliente (nombre, apellidos y email), y luego agrega esta nueva instancia a la lista `clientes`.
+  
+- Si se selecciona "2.-Listar clientes", el programa recorre la lista `clientes` e imprime en pantalla la información de cada cliente.
+
+Las opciones para actualizar y eliminar clientes están implementadas pero no tienen código que las complete. Esto significa que, aunque muestran mensajes indicando qué deberían hacer, aún falta programar la lógica para permitir a los usuarios modificar o borrar registros existentes.
+
+Este tipo de programa es útil en escenarios donde se necesita mantener una base de datos simple y fácil de usar desde la línea de comandos.
+
+`010-listamos clientes.py`
 
 ```python
 '''
@@ -3459,14 +4336,23 @@ while True:
 ```
 
 ### limpiar la pantalla
+<small>Creado: 2025-10-02 15:46</small>
 
 #### Explicación
 
-Este código es el inicio de un programa en Python que gestiona una agenda de clientes. El programa define una clase llamada `Cliente` con atributos como nombre, apellidos y email para almacenar la información de cada cliente individualmente.
+Este código es un programa sencillo en Python que gestiona una base de datos básica de clientes. El programa utiliza una clase llamada `Cliente` para almacenar información sobre cada cliente, como su nombre, apellidos y correo electrónico. La lista `clientes` almacena objetos de la clase `Cliente`.
 
-El programa principal crea una lista vacía llamada `clientes`, donde se añadirán objetos del tipo `Cliente`. La función principal es un bucle infinito (`while True`) que muestra un menú al usuario con opciones para insertar, listar, actualizar y eliminar clientes. Cada vez que el usuario selecciona una opción, el programa limpia la pantalla (mediante `\033[2J\033[H`, que son comandos de escape para limpiar la consola) antes de mostrar la información o las opciones correspondientes.
+El programa entra en un bucle infinito (`while True:`) que muestra un menú con cuatro opciones: insertar un nuevo cliente, listar todos los clientes existentes, actualizar información de un cliente y eliminar un cliente.
 
-El código permite al usuario insertar un nuevo cliente en la lista después de pedirle los datos del mismo, listar todos los clientes existentes mostrando sus detalles y prepara el escenario para futuras implementaciones que permitan actualizar y eliminar registros. Esta estructura es importante porque facilita la gestión de una base de datos simple de clientes desde la interfaz de línea de comandos, proporcionando un flujo claro y ordenado en cómo interactuar con los datos.
+Una característica importante es cómo se limpia la pantalla al principio de cada iteración del bucle y antes de mostrar cada opción. Esto ayuda a mantener una interfaz de usuario clara y legible. La secuencia `\033[2J\033[H`, que se imprime sin saltar línea (`end=""`), es un comando de escape que limpia la pantalla del terminal y coloca el cursor en la posición inicial.
+
+Al seleccionar la opción 1, el programa crea una instancia nueva de `Cliente`, solicita al usuario los detalles del cliente (nombre, apellidos, correo electrónico) y luego añade este nuevo cliente a la lista `clientes`.
+
+Si se selecciona la opción 2, se imprimen en pantalla todos los clientes almacenados en la lista, mostrando el nombre, apellidos y email de cada uno. Después de mostrar esta información, el programa solicita al usuario que presione una tecla antes de continuar.
+
+Las opciones 3 y 4 están implementadas pero no tienen lógica asociada todavía (solo indican qué se haría si estuvieran completas), lo que sugiere que aún faltan detalles por añadir para permitir la actualización y eliminación de clientes.
+
+`011-limpiar la pantalla.py`
 
 ```python
 '''
@@ -3519,16 +4405,21 @@ while True:
 ```
 
 ### guardar clientes
+<small>Creado: 2025-10-02 15:48</small>
 
 #### Explicación
 
-Este código es un programa sencillo que permite gestionar una base de datos de clientes. El programa utiliza la biblioteca `pickle` de Python para guardar y cargar información en archivos binarios, lo cual es muy útil cuando se trabaja con objetos complejos como listas de instancias de clase.
+Este fragmento de código es un programa en Python que gestiona una agenda de clientes. El programa permite al usuario interactuar con los datos de los clientes a través de varias opciones: insertar, listar, actualizar y eliminar registros, además de guardar la lista completa de clientes en un archivo binario.
 
-El código define una clase llamada `Cliente`, que representa a un cliente individual con tres atributos: nombre, apellidos y email. Luego, se crea una lista vacía llamada `clientes` para almacenar los clientes registrados. El programa ofrece al usuario varias opciones: insertar un nuevo cliente, listar todos los clientes existentes, actualizar información de clientes (todavía no implementado), eliminar clientes (tampoco implementado) y guardar la lista actualizada de clientes en un archivo binario.
+El código comienza importando el módulo `pickle`, que es útil para serializar objetos Python. Luego, se define una clase llamada `Cliente` con atributos como nombre, apellidos y email. A continuación, se crea una lista vacía llamada `clientes` donde almacenarán los objetos de tipo cliente.
 
-La opción más relevante para el contexto del código es la número 5, donde se guarda la lista de clientes. Para hacer esto, el programa abre un archivo llamado `clientes.bin` en modo escritura binaria (`'wb'`) y utiliza `pickle.dump()` para serializar (convertir en una cadena de bytes) toda la información de los clientes a este archivo. Una vez guardada la información, el archivo se cierra para asegurar que todos los datos han sido escritos correctamente.
+El programa entra en un bucle infinito (`while True:`) que muestra al usuario un menú interactivo para seleccionar entre las diferentes operaciones disponibles. Cuando el usuario elige la opción 5 (guardar clientes), se abre un archivo binario llamado `clientes.bin` en modo escritura binaria y se utiliza `pickle.dump()` para guardar la lista de objetos `Cliente` en ese archivo.
 
-Esta funcionalidad es importante porque permite persistir la base de datos de clientes entre diferentes sesiones del programa, garantizando que los datos no se pierdan cuando se cierra el programa y se vuelve a abrir en una futura sesión.
+La función de guardar los datos es importante porque permite que la información persista más allá de las ejecuciones del programa, permitiendo a los usuarios acceder a ella en sesiones futuras. Utilizar el módulo `pickle` para este propósito asegura que los objetos complejos como instancias de clase se pueden almacenar y recuperar con precisión.
+
+Este tipo de código es común en aplicaciones CRUD (Crear, Leer, Actualizar, Borrar) básicas y enseña conceptos fundamentales del manejo de archivos y clases en Python.
+
+`012-guardar clientes.py`
 
 ```python
 '''
@@ -3590,18 +4481,23 @@ while True:
 ```
 
 ### cuando abro el programa carga la lista de clientes
+<small>Creado: 2025-10-02 15:55</small>
 
 #### Explicación
 
-Este código Python es un programa simple que permite gestionar una lista de clientes. Al abrir el programa, se carga automáticamente la información previamente guardada en un archivo llamado "clientes.bin" usando el módulo `pickle`. Este módulo facilita la serialización y deserialización de objetos de Python a ficheros binarios.
+Este fragmento de código es un programa básico en Python que gestiona una base de datos de clientes. Al iniciar el programa, carga automáticamente la lista de clientes desde un archivo binario llamado `clientes.bin` utilizando el módulo `pickle`. El programa permite al usuario realizar diferentes acciones como insertar, listar, actualizar y eliminar clientes.
 
-El programa define una clase llamada `Cliente` que contiene tres atributos: nombre, apellidos y email. Crea también una lista vacía llamada `clientes` donde almacenará los objetos Cliente creados por el usuario.
+La clase `Cliente()` define los atributos básicos que cada cliente tiene: nombre, apellidos y email. La lista `clientes` es una colección de objetos de tipo `Cliente`.
 
-La parte central del código es un bucle infinito (`while True:`) que muestra un menú al usuario para permitir acciones como insertar, listar, actualizar o eliminar clientes de la lista. Cada opción lleva a funciones específicas: agregar nuevos clientes solicitando los datos del usuario, mostrar todos los clientes almacenados en la lista, y guardar la lista actualizada en el archivo binario cuando se selecciona esta opción.
+El bucle `while True:` crea un menú interactivo en la consola donde el usuario puede seleccionar entre varias opciones para gestionar la información del cliente. Cuando se selecciona la opción 1 (insertar un cliente), se pide al usuario que introduzca los detalles del nuevo cliente y luego se añade este nuevo objeto `Cliente` a la lista `clientes`.
 
-El código utiliza comandos adicionales como `\033[2J\033[H` para limpiar la pantalla antes de mostrar cualquier menú o información al usuario. Esto mejora la experiencia del usuario al visualizar solo los datos pertinentes en cada momento y no un montón de texto viejo.
+Para listar los clientes, el programa recorre cada objeto en la lista `clientes`, imprime sus atributos y espera a que el usuario pulse una tecla antes de volver al menú principal.
 
-Este programa es importante porque demuestra cómo manejar datos persistentes (datos que se guardan incluso después de cerrar el programa) utilizando archivos binarios en Python, lo cual es una habilidad clave para desarrolladores que trabajen con bases de datos o sistemas de gestión de información.
+La opción 5 guarda cualquier cambio hecho en la lista de clientes volviéndola a guardar en el archivo binario `clientes.bin` utilizando nuevamente `pickle`.
+
+Este tipo de programa es importante para entender cómo se manejan archivos externos, las estructuras de datos como listas y clases en Python, así como cómo implementar interfaces interactivas con el usuario.
+
+`013-cuando abro el programa carga la lista de clientes.py`
 
 ```python
 '''
@@ -3671,18 +4567,21 @@ while True:
 ```
 
 ### estetica de la consola
+<small>Creado: 2025-10-02 15:56</small>
 
 #### Explicación
 
-Este código es un programa en Python que gestiona una agenda de clientes. Primero, importa la librería `pickle` y define una clase llamada `Cliente`, donde se almacenan los datos básicos del cliente como nombre, apellidos y email.
+Este código es un programa en Python que gestiona una base de datos simple de clientes. El programa carga los datos desde un archivo binario cuando se inicia y permite al usuario realizar operaciones básicas como insertar, listar, actualizar y eliminar registros de clientes.
 
-El programa carga una lista de objetos `Cliente` desde un archivo binario llamado "clientes.bin" utilizando el módulo `pickle`. Esta operación permite mantener persistencia en la información almacenada entre sesiones del programa. La lista de clientes se almacena en la variable `clientes`.
+El código comienza importando el módulo `pickle`, que se utiliza para guardar y cargar objetos en archivos binarios. Define una clase llamada `Cliente` con atributos para el nombre, apellidos y email del cliente. Luego, crea una lista vacía llamada `clientes`.
 
-Una vez que se han cargado los datos, el código presenta un menú interactivo para permitir al usuario gestionar estos datos. El menú ofrece opciones como insertar un nuevo cliente, listar todos los clientes existentes, actualizar o eliminar clientes. Para mejorar la experiencia del usuario, cada vez que se selecciona una opción, el programa limpia la pantalla antes de mostrar el siguiente paso.
+Cuando se inicia el programa, abre el archivo `"clientes.bin"` y carga la lista de clientes previamente guardados en esta lista. Para mejorar la usabilidad, el código utiliza comandos ANSI para limpiar la pantalla cada vez que muestra un nuevo menú o mensaje al usuario.
 
-Es importante destacar cómo este código utiliza técnicas de formateo de texto ANSI para limpiar la pantalla y cambiar el estilo del texto (negrita), lo cual hace que la interfaz sea más agradable visualmente. Además, al seleccionar la opción para guardar los clientes, se vuelve a abrir el archivo "clientes.bin" en modo binario para escribir la lista actualizada de objetos `Cliente` utilizando `pickle.dump()`, asegurando así que los cambios realizados durante la ejecución del programa sean guardados permanentemente.
+El programa entra en un bucle infinito (`while True`) donde muestra opciones al usuario (insertar, listar, actualizar, eliminar y guardar clientes) y actúa según la opción seleccionada. Si el usuario elige "guardar clientes", los datos se vuelven a serializar utilizando `pickle` y se guardan de nuevo en `"clientes.bin"`.
 
-Este tipo de código es útil en aplicaciones donde es necesario mantener datos estructurados y permitir a los usuarios interactuar con esos datos fácilmente, proporcionando un buen balance entre simplicidad y funcionalidad.
+Este tipo de programa es útil para aprender cómo gestionar interfaces simples con Python, trabajar con archivos binarios y usar estructuras de datos como listas. Es una forma práctica de entender la persistencia de datos en aplicaciones de software.
+
+`014-estetica de la consola.py`
 
 ```python
 '''
@@ -3752,18 +4651,19 @@ while True:
 ```
 
 ### funciones
+<small>Creado: 2025-10-02 16:03</small>
 
 #### Explicación
 
-Este código es un programa en Python que gestiona una agenda de clientes. El objetivo principal del programa es permitir a los usuarios agregar, listar, actualizar y eliminar registros de clientes almacenados en un archivo binario usando la biblioteca `pickle`. 
+Este fragmento de código es parte de un programa en Python que gestiona una agenda de clientes. El programa permite al usuario realizar varias operaciones como insertar nuevos clientes, listar todos los clientes registrados, actualizar información y eliminar clientes. También incluye la opción de guardar los datos de los clientes en un archivo binario para mantenerlos persistentes entre diferentes sesiones del programa.
 
-El programa comienza definiendo una clase llamada `Cliente` que contiene tres atributos: nombre, apellidos y email. Luego, se crean funciones para limpiar la pantalla, cambiar el estilo del texto (negrita) y establecer colores en la salida de texto, lo cual mejora la presentación visual en la terminal.
+El código comienza importando el módulo `pickle` que se utiliza para serializar y deserializar objetos Python. Se define una clase llamada `Cliente`, la cual contiene atributos como nombre, apellidos y email. Luego, varias funciones son declaradas para manipular la pantalla: `limpiaPantalla()` limpia la pantalla del terminal, mientras que `ponNegrita()`, `reiniciaEstilo()` y `ponColor(r,b,g)` permiten formatear el texto con diferentes estilos y colores.
 
-El código principal se ejecuta dentro de un bucle `while True`, ofreciendo al usuario varias opciones como insertar un cliente nuevo, listar todos los clientes existentes, actualizar información o eliminar registros. Si el usuario selecciona '1', se añade un nuevo cliente introduciendo sus datos por teclado y se guarda en una lista. La opción '2' muestra la lista de clientes registrados con detalles como nombre, apellidos y email.
+El programa carga una lista de clientes desde un archivo binario llamado "clientes.bin" usando `pickle.load()`. Después de cargar los datos, entra en un bucle infinito que muestra al usuario un menú interactivo para seleccionar la operación a realizar. Dependiendo de la opción elegida por el usuario, se ejecuta una acción específica: insertar un nuevo cliente, listar todos los clientes existentes, actualizar información (esta función está incompleta), eliminar clientes y guardar los cambios realizados en el archivo "clientes.bin".
 
-Es importante destacar que cuando se selecciona la opción '5', todos los registros actualizados o nuevos son guardados en un archivo llamado `clientes.bin` usando el módulo `pickle`, lo cual es fundamental para mantener la información persistente entre diferentes sesiones del programa. Esto asegura que no perderemos datos cada vez que cerramos y volvemos a abrir el programa.
+Este código es importante porque enseña cómo manejar datos complejos a través de archivos binarios, interactividad con el usuario mediante menús y la utilización de clases para organizar datos.
 
-Este tipo de estructura (con funciones, clases y un bucle principal) es común en aplicaciones interactivas basadas en consola y ayuda a mantener el código organizado y fácil de entender y modificar.
+`015-funciones.py`
 
 ```python
 '''
@@ -3851,14 +4751,17 @@ while True:
 ```
 
 ### clientes
+<small>Creado: 2025-10-02 15:23</small>
 
 #### Explicación
 
-Este fragmento de código no es un código real en ningún lenguaje de programación conocido, sino que parece ser el contenido directo de un archivo CSV (comma-separated values), que es un tipo de archivo de texto plano utilizado para almacenar datos. Este archivo específico contiene información sobre clientes y está estructurado de tal manera que cada cliente ocupa una línea separada en el archivo.
+Este fragmento es un archivo CSV (Comma-Separated Values), que es un tipo común de formato de archivo usado para almacenar datos tabulares como hojas de cálculo. En este caso, el archivo contiene información sobre clientes y está guardado en la ruta `/var/www/html/dam2526/Primero/Programación/005-Lectura y escritura de información/002-Ficheros de datos. Registros/101-Ejercicios/clientes.csv`.
 
-Cada línea tiene tres partes: el nombre del cliente, la dirección y un número, posiblemente representando algo como un código postal o una referencia única para ese cliente. Estas líneas están separadas por comas (virgulillas), lo que es típico en archivos CSV. El contenido muestra dos clientes repetidos: Juan con su respectiva información de contacto y Jorge con la suya.
+Cada línea del archivo representa un registro o cliente con tres campos separados por comas: el nombre del cliente, la dirección y un número (que puede ser un teléfono o alguna otra identificación). El formato estándar para cada cliente es "nombre, dirección, número". Es importante notar que hay algunas líneas en blanco entre registros, lo cual no es necesario pero puede facilitar la lectura manual del archivo.
 
-Este formato CSV es importante porque facilita el intercambio de datos entre diferentes programas o sistemas, ya que es un estándar muy utilizado para transferir datos tabulares como listas de clientes, ventas, registros académicos, etc.
+Este tipo de archivo es muy útil porque permite almacenar datos de manera simple y estructurada, y es fácilmente legible tanto por humanos como por programas informáticos. Los archivos CSV son comunes en aplicaciones de programación que manejan bases de datos sencillas o información tabular.
+
+`clientes.csv`
 
 ```
 Juan,Calle de Juan,5325434Jorge,Calle de Jorge,5234535Juan,Calle de Juan,5325434
@@ -3866,14 +4769,17 @@ Jorge,Calle de Jorge,5234535
 ```
 
 ### clientes
+<small>Creado: 2025-10-02 15:28</small>
 
 #### Explicación
 
-Este fragmento de código es un archivo JSON que contiene información sobre varios clientes. En este caso, hay dos registros o entradas para diferentes personas. Cada cliente se representa como un objeto en una lista (también conocida como array), y cada objeto tiene tres propiedades: "nombre", "apellidos" y "email". Estas propiedades almacenan datos específicos sobre el cliente, como su nombre completo y correo electrónico.
+Este fragmento de código es un archivo JSON que contiene una lista con información sobre clientes. En este caso, el archivo almacena dos registros o entradas de clientes, cada uno representado como un diccionario en Python.
 
-JSON es importante porque permite almacenar y transmitir datos de manera estructurada y legible. En este contexto, este archivo podría ser utilizado por un programa para leer información sobre clientes que luego se usaría en diversas operaciones, como enviar correos electrónicos o mostrar detalles en una página web.
+Cada cliente tiene tres campos: "nombre", "apellidos" y "email". Estos campos contienen la información personal de cada cliente. El formato JSON es útil porque permite almacenar datos estructurados de una manera clara y fácilmente legible tanto por humanos como por máquinas. Es importante en el ámbito de la programación ya que facilita la transferencia y el almacenamiento de datos complejos, permitiendo a diferentes programas y sistemas intercambiar información de forma sencilla.
 
-Este tipo de estructura de datos es común en la programación moderna ya que facilita el intercambio de información entre sistemas y aplicaciones.
+En este contexto del ejercicio, el archivo `clientes.json` sirve para guardar una lista persistente de clientes. Esto significa que cuando un programa lea este archivo, podrá recuperar la información de los clientes que ya han sido registrados, lo cual es muy útil en aplicaciones como bases de datos de clientes o registros de usuarios.
+
+`clientes.json`
 
 ```json
 [
@@ -3890,32 +4796,104 @@ Este tipo de estructura de datos es común en la programación moderna ya que fa
 ]
 ```
 
+### Actividades propuestas
+
+El código que has proporcionado es una evolución de un programa simple para gestionar la agenda de clientes. La versión final incluye:
+
+1. **Lectura y Escritura con Pickle**: El programa carga los datos almacenados en `clientes.bin` al iniciar y guarda los cambios en el mismo archivo cuando se selecciona guardar.
+
+2. **Funciones Personalizadas**: 
+   - `limpiaPantalla()`: Limpia la pantalla de consola.
+   - `ponNegrita()`: Cambia a negrita el texto en consola.
+   - `reiniciaEstilo()`: Reinicia los estilos al valor por defecto.
+   - `ponColor(r, g, b)`: Cambia el color del texto usando RGB.
+
+3. **Interfaz de Usuario Mejorada**: 
+   - La pantalla se limpia y refresca cada vez que cambias entre opciones.
+   - Se usa negrita y colores para destacar las opciones en la consola.
+
+4. **Carga y Almacenamiento en Ficheros Externos**:
+   - Cuando el programa inicia, carga los datos previamente guardados desde `clientes.bin`.
+   - Los cambios se almacenan de nuevo en `clientes.bin` cuando seleccionas guardar.
+
+5. **Interacción con el Usuario**:
+   - Muestra opciones para insertar, listar, actualizar y eliminar clientes.
+   - Permite a los usuarios interactuar con la base de datos almacenada en memoria.
+
+### Sugerencias de Mejora:
+
+1. **Manejo de Errores**: Añadir control de errores para mejorar la robustez del programa (por ejemplo, manejar excepciones al leer o escribir archivos).
+2. **Interfaz Avanzada**:
+   - Agregar opciones para actualizar y eliminar clientes.
+   - Mejorar la interfaz con colores y estilos más detallados.
+3. **Validación de Datos**: Asegurarse de que los datos ingresados por el usuario sean válidos antes de guardarlos (por ejemplo, verificar si un correo electrónico tiene formato correcto).
+4. **Persistencia en CSV o JSON**:
+   - Opcionalmente, puedes implementar la opción para exportar a otros formatos como `clientes.csv` y `clientes.json`.
+
+### Ejemplo de Mejora:
+
+Aquí hay un ejemplo simple de cómo podrías mejorar el manejo de errores al cargar archivos binarios usando `try-except`:
+
+```python
+import pickle
+
+class Cliente():
+  def __init__(self):
+    self.nombre = ""
+    self.apellidos = ""
+    self.email = ""
+
+def limpiaPantalla():
+  print("\033[2J\033[H", end="")  # Limpiar pantalla
+
+def ponNegrita():
+  print("\u001b[1m")  # Negrita
+  
+def reiniciaEstilo():
+  print("\u001b[0m")  # Reiniciamos estilo
+
+def ponColor(r,b,g):
+  print("\u001b[38;2;"+str(r)+";"+str(g)+";"+str(b)+"m", end="")
+
+clientes = []
+
+try:
+    archivo = open("clientes.bin",'rb')
+    clientes = pickle.load(archivo)
+    archivo.close()
+except FileNotFoundError:
+    print("No se encontró el archivo clientes.bin. Comenzando con una lista vacía.")
+except Exception as e:
+    print(f"Error al cargar el archivo: {e}")
+finally:
+    limpiaPantalla()
+
+while True:
+  # Tu lógica aquí
+```
+
+Esto asegura que si no existe `clientes.bin` o hay un error durante la carga, se maneja adecuadamente y sigue funcionando.
+
+
 <a id="apertura-y-cierre-de-ficheros-modos-de-acceso-escritura-y-lectura-de-informacion-en-ficheros"></a>
 ## Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de información en ficheros
 
-En el vasto mundo de la programación, la lectura y escritura de información son fundamentales para cualquier aplicación informática. En esta subunidad didáctica, nos adentramos en los aspectos cruciales de cómo interactuar con archivos en un programa, abordando desde la apertura y cierre de ficheros hasta las técnicas avanzadas de acceso y manipulación de datos.
+### Introducción a los ejercicios
 
-La apertura y el cierre de ficheros son operaciones esenciales que permiten a nuestros programas acceder y modificar información persistente. Cada archivo se abre en un modo específico, determinado por la naturaleza de los datos que se quieren leer o escribir. Los modos más comunes incluyen lectura (`r`), escritura (`w`), anexión (`a`) y lectura-escritura (`rw`). Cada uno de estos modos tiene sus propias características y restricciones, lo que es crucial entender para evitar errores en la manipulación de archivos.
-
-La apertura de un archivo implica establecer una conexión entre el programa y el dispositivo de almacenamiento. Este proceso puede implicar la asignación de recursos como memoria y espacio en disco, dependiendo del tamaño del archivo y las necesidades del programa. Es importante recordar que cada vez que se abre un archivo, debe cerrarse adecuadamente para liberar estos recursos y garantizar la integridad del sistema.
-
-La escritura de información en ficheros es otro aspecto fundamental de la programación. Los programas pueden escribir datos en archivos de texto o binarios, dependiendo de las necesidades específicas del proyecto. La escritura puede ser sincrónica (el programa espera a que el dato sea escrito antes de continuar) o asíncrona (el programa continúa ejecutándose mientras se realiza la escritura). Cada método tiene sus ventajas y desventajas, y es importante elegir el más adecuado según las circunstancias.
-
-Además de la apertura y cierre de ficheros, también es crucial manejar los errores que pueden surgir durante estas operaciones. Los archivos pueden no existir, puede faltar espacio en disco o puede haber problemas de permisos. Es por eso que los programas suelen implementar mecanismos para detectar y gestionar estos errores, asegurando la continuidad del proceso.
-
-La lectura de información desde ficheros es otro aspecto fundamental de la programación. Los archivos pueden contener datos estructurados o no estructurados, y el programa debe ser capaz de leerlos correctamente. La lectura puede ser realizada línea por línea o en bloques más grandes, dependiendo del tamaño del archivo y las necesidades del programa.
-
-La manipulación de información en ficheros es un aspecto avanzado que permite a los programas realizar operaciones complejas sobre datos persistentes. Esto puede incluir la búsqueda y reemplazo de texto, el ordenamiento de registros o la creación de copias de seguridad. La manipulación de ficheros requiere una comprensión profunda del formato y estructura de los datos almacenados.
-
-La importancia de la lectura y escritura de información en programación no puede subestimarse. Estas operaciones son esenciales para el funcionamiento de aplicaciones que interactúan con el mundo exterior, desde sistemas empresariales hasta aplicaciones web y móviles. La capacidad de leer y escribir datos de manera eficiente y segura es un requisito fundamental para cualquier programador.
-
-En conclusión, la lectura y escritura de información son operaciones fundamentales en la programación que permiten a los programas interactuar con el mundo exterior. A través de la apertura y cierre de ficheros, la escritura de datos y la manipulación avanzada de información, los programas pueden realizar tareas complejas y almacenar resultados persistentes. Comprender estos aspectos es crucial para cualquier programador que quiera crear aplicaciones robustas y eficientes.
+En esta carpeta, trabajamos con ejercicios que te enseñan a manipular archivos tanto en formato texto como binario utilizando Python. Se exploran diferentes modos de apertura y escritura de archivos para almacenar e interactuar con información estructurada o no estructurada. Además, aprenderás cómo guardar datos en un archivo XML y realizar operaciones básicas en una base de datos MySQL, incluyendo la inserción de nuevos registros a partir de la entrada del usuario. Estos ejercicios te ayudarán a dominar las habilidades fundamentales necesarias para manejar almacenamiento y recuperación de datos en entornos de programación realistas.
 
 ### apertura de escritura
+<small>Creado: 2025-10-02 16:05</small>
 
 #### Explicación
 
-Este código Python muestra cómo abrir un archivo para escribir en él y luego cerrarlo. Primero, la línea `archivo = open("clientes.txt", "w")` abre el archivo llamado `clientes.txt` en modo de escritura (`"w"`). Si el archivo no existe, se creará uno nuevo; si ya existe, su contenido previo será borrado antes de escribir cualquier cosa nueva. Luego, la línea `archivo.write("Información de cliente")` escribe dentro del archivo la frase "Información de cliente". Finalmente, `archivo.close()` cierra el archivo para asegurar que todos los cambios se guarden correctamente y liberar recursos del sistema. Este código es importante porque te enseña cómo manipular archivos en Python, una habilidad crucial para trabajar con datos y guardar información a largo plazo en programas más complejos.
+Este código Python se encarga de abrir un archivo llamado "clientes.txt" en modo escritura. Cuando se abre un archivo con el modo "w", lo que significa "write" (escritura), si el archivo ya existe, su contenido anterior será borrado y se creará una nueva versión vacía del mismo. Si el archivo no existe, Python lo crea automáticamente.
+
+Luego de abrir el archivo, el código escribe la frase "Información de cliente" dentro del archivo recién abierto o creado. Esta línea añade texto al archivo que acabamos de abrir.
+
+Finalmente, se cierra el archivo utilizando la función `archivo.close()`. Es importante cerrar los archivos después de trabajar con ellos para asegurarse de que todos los cambios sean guardados y para liberar cualquier recurso del sistema operativo que pueda estar siendo utilizado por este archivo. Esto es crucial para evitar problemas como pérdida de datos o colisiones entre diferentes programas que intenten acceder al mismo archivo.
+
+`001-apertura de escritura.py`
 
 ```python
 archivo = open("clientes.txt","w")
@@ -3924,10 +4902,17 @@ archivo.close()
 ```
 
 ### apertura de apendizaje
+<small>Creado: 2025-10-02 16:05</small>
 
 #### Explicación
 
-Este código Python se utiliza para trabajar con archivos en el sistema. En primer lugar, la línea `archivo = open("clientes.txt", "a")` abre un archivo llamado "clientes.txt" en modo de apendizaje ("a"). Esto significa que cualquier texto que añadas al archivo se agregará al final del mismo sin sobrescribir lo que ya está allí. Luego, la línea `archivo.write("Información de cliente")` escribe el texto "Información de cliente" en el archivo que has abierto. Finalmente, `archivo.close()` cierra el archivo después de haber terminado de escribir en él para asegurar que todos los cambios se guardan correctamente y que no hay problemas con la memoria del sistema. Es importante cerrar archivos una vez que hemos terminado de trabajar con ellos para mantener el orden en nuestros programas y evitar posibles errores.
+Este fragmento de código se enfoca en la manipulación de archivos en Python, específicamente en la apertura y escritura de información en un archivo existente. La línea `archivo = open("clientes.txt", "a")` abre el archivo llamado "clientes.txt" en modo de apendizaje ("a"), lo que significa que cualquier texto nuevo que escribas será añadido al final del archivo sin borrar el contenido previo.
+
+Luego, la línea `archivo.write("Información de cliente")` escribe una cadena de texto específica, "Información de cliente", dentro del archivo que acabamos de abrir. Esta información se agrega al final del archivo existente gracias a que utilizamos el modo de apertura en modo apendizaje.
+
+Finalmente, `archivo.close()` cierra el archivo después de haber completado todas las operaciones necesarias con él. Es fundamental cerrar los archivos una vez terminadas las tareas relacionadas para asegurar que todos los cambios se guardan correctamente y liberar recursos del sistema.
+
+`002-apertura de apendizaje.py`
 
 ```python
 archivo = open("clientes.txt","a")
@@ -3936,12 +4921,15 @@ archivo.close()
 ```
 
 ### bajada de linea
+<small>Creado: 2025-10-02 16:07</small>
 
 #### Explicación
 
-Este código Python abre un archivo llamado "clientes.txt" en modo de escritura adicional ("a"), lo que significa que si el archivo ya existe, el nuevo texto se añadirá al final del mismo sin borrar nada previo. Si el archivo no existe, se creará uno nuevo con ese nombre. A continuación, escribe la frase "Información de cliente" en una nueva línea dentro del archivo usando la función `write()`. Finalmente, cierra el archivo para asegurar que toda la información escrita se guarda correctamente y los recursos del sistema quedan disponibles para otros programas.
+Este fragmento de código en Python se utiliza para escribir información en un archivo existente llamado "clientes.txt". Primero, el programa abre el archivo en modo de append ("a"), lo que significa que cualquier texto nuevo será añadido al final del archivo sin borrar lo que ya está allí. Luego, usa la función `write` para agregar una línea que dice "Información de cliente" seguida de un salto de línea (\n), asegurando así que el siguiente texto escrito comenzará en una nueva línea. Finalmente, cierra el archivo con `close()` para guardar los cambios y liberar cualquier recurso asociado al archivo.
 
-Es importante destacar que al añadir un "\n" al final de la frase "Información de cliente", estás creando una nueva línea después del texto escrito. Esto es útil porque permite escribir múltiples entradas en el archivo, cada una en su propia línea, facilitando así la lectura y organización de datos dentro del fichero.
+Esta técnica es importante porque permite añadir información incrementalmente a archivos existentes sin necesidad de sobrescribir todo el contenido previo, lo que es muy útil cuando se registra datos en un sistema.
+
+`003-bajada de linea.py`
 
 ```python
 archivo = open("clientes.txt","a")
@@ -3950,12 +4938,17 @@ archivo.close()
 ```
 
 ### abrir archivo para leer UNA linea
+<small>Creado: 2025-10-02 16:08</small>
 
 #### Explicación
 
-Este fragmento de código te enseña cómo abrir un archivo y leer su primera línea en Python. Primero, la función `open()` se utiliza para abrir el archivo llamado "clientes.txt" en modo lectura ("r"). Esto crea un objeto de archivo que permite acceder al contenido del documento. Luego, `archivo.readline()` lee la primera línea del archivo recién abierto y esa línea es almacenada en la variable `linea`. Finalmente, `print(linea)` muestra la línea leída por pantalla. Al finalizar estas operaciones, el código cierra el archivo con `archivo.close()`, lo cual es crucial para liberar los recursos del sistema que el programa estaba utilizando.
+Este código en Python te enseña cómo abrir un archivo existente llamado "clientes.txt" en modo de lectura y luego leer una línea específica del archivo. Primero, se usa la función `open()` para abrir el archivo en modo de lectura ("r"), lo que permite acceder a su contenido pero no permitir cambios en él. A continuación, la función `readline()` lee la primera línea del archivo recién abierto y almacena esa línea en la variable `linea`. Finalmente, se imprime el contenido de `linea`, mostrando así la primera línea del archivo "clientes.txt" en la consola.
 
-Este proceso es fundamental porque permite a tu programa interactuar con archivos de texto, leyendo sus contenidos y procesándolos según sea necesario. Es una habilidad básica en programación, ya que muchos programas necesitan leer datos desde archivos externos para funcionar correctamente.
+Es importante cerrar el archivo después de leer su contenido para liberar los recursos del sistema que estaban siendo utilizados por el programa. Esto se hace con la función `close()`. El manejo adecuado de archivos es crucial para prevenir problemas como pérdida de datos o colapsos en sistemas donde se gestionan muchos archivos simultáneamente.
+
+Este fragmento de código demuestra cómo interactuar con ficheros de texto existentes y extraer información específica, una habilidad fundamental en programación.
+
+`004-abrir archivo para leer UNA linea.py`
 
 ```python
 archivo = open("clientes.txt","r")
@@ -3965,10 +4958,15 @@ archivo.close()
 ```
 
 ### ahora quiero leer todas las lineas
+<small>Creado: 2025-10-02 16:09</small>
 
 #### Explicación
 
-Este fragmento de código Python te enseña cómo abrir un archivo, leer todas sus líneas y luego cerrarlo para asegurar que los recursos del sistema no se bloqueen. Primero, el código abre el archivo llamado "clientes.txt" en modo lectura ("r"), lo que significa que solo puedes ver o leer la información pero no modificarla ni crearlo si no existe. Luego, usa la función `readlines()` para leer todas las líneas del archivo y guardarlas como una lista de cadenas dentro de la variable `linea`. Cada elemento en esta lista representa una línea del archivo original. Finalmente, el código imprime toda la lista con `print(linea)` mostrándote cómo se ven las líneas leídas desde el archivo. Es crucial cerrar el archivo después de terminar de trabajar con él para liberar cualquier recurso que esté usando tu programa.
+Este código Python se utiliza para leer todas las líneas de un archivo llamado "clientes.txt". Comienza abriendo el archivo en modo lectura ("r"), lo que significa que solo puedes ver los datos y no modificarlos. Luego, la función `readlines()` lee cada línea del archivo y las almacena en una lista llamada `linea`. Finalmente, imprime esta lista de líneas en la consola para que puedas visualizar el contenido del archivo. Al finalizar estas operaciones, se cierra el archivo con `archivo.close()` para liberar los recursos.
+
+Es importante cerrar un archivo después de usarlo porque mantener archivos abiertos puede consumir memoria y otros recursos valiosos del sistema. Además, leer todas las líneas a la vez es una buena práctica cuando sabes que el archivo no es muy grande y necesitas procesarlo línea por línea en el futuro.
+
+`005-ahora quiero leer todas las lineas.py`
 
 ```python
 archivo = open("clientes.txt","r")
@@ -3978,10 +4976,17 @@ archivo.close()
 ```
 
 ### recorro la lista
+<small>Creado: 2025-10-02 16:10</small>
 
 #### Explicación
 
-Este código Python se utiliza para leer el contenido de un archivo llamado "clientes.txt". Primero, abre el archivo en modo lectura ("r"). Luego, lee todas las líneas del archivo y las almacena en una lista llamada `lineas`. A continuación, recorre cada línea de la lista e imprime el contenido de cada línea por pantalla. Finalmente, cierra el archivo para liberar los recursos del sistema que estaba usando. Este tipo de código es importante porque permite automatizar tareas como procesar registros en archivos de texto, lo cual sería muy tedioso y susceptible a errores si se hace manualmente.
+Este código Python abre un archivo llamado `clientes.txt` en modo lectura (`"r"`), lo que significa que solo va a leer el contenido del archivo. Luego, utiliza la función `readlines()` para leer todas las líneas del archivo y almacenarlas en una lista llamada `lineas`. Cada elemento de esta lista es una línea completa del archivo.
+
+A continuación, el código itera sobre cada elemento de la lista `lineas` usando un bucle `for`, imprimiendo cada línea en pantalla con la función `print()`. Esto permite visualizar todo el contenido del archivo `clientes.txt` linea por linea. Finalmente, cierra el archivo para liberar los recursos del sistema que estaba utilizando.
+
+Es importante cerrar archivos después de haber terminado de leerlos o escribir en ellos para evitar problemas de acceso y garantizar que todos los cambios se hayan guardado correctamente.
+
+`006-recorro la lista.py`
 
 ```python
 archivo = open("clientes.txt","r")
@@ -3992,10 +4997,15 @@ archivo.close()
 ```
 
 ### escribo en modo binario
+<small>Creado: 2025-10-02 16:12</small>
 
 #### Explicación
 
-Este código se utiliza para escribir información en un archivo de texto denominado "clientes.txt" en modo binario. El programa abre el archivo con la opción "wb", donde "w" significa que estamos configurando al archivo para escritura y cualquier contenido existente será borrado, mientras que "b" indica que el archivo se manejará en formato binario. Luego, usa el método `encode()` para convertir una cadena de texto ("Información de cliente") a su representación en bytes utilizando el encoding UTF-8 antes de escribir estos datos codificados en el archivo recién abierto con la función `write()`. Finalmente, se cierra el archivo con `close()` para asegurar que toda la información haya sido escrita correctamente y liberar los recursos asociados al archivo. Es importante usar este modo binario cuando queremos guardar datos que no son solo texto plano o cuando necesitamos garantizar una compatibilidad máxima entre sistemas operativos diferentes.
+Este código Python realiza la apertura y escritura en un archivo llamado "clientes.txt" utilizando el modo binario. Primero, se abre el archivo en modo escritura binaria ("wb"), lo que significa que cualquier contenido existente en el archivo será borrado si ya existe. Luego, se escribe una cadena de texto "Información de cliente", pero antes de escribirla en el archivo, la cadena se codifica en formato UTF-8 para convertirla en bytes apropiados para el almacenamiento binario. Finalmente, se cierra el archivo para asegurarse de que toda la información haya sido escrita y los recursos del sistema estén disponibles nuevamente.
+
+La utilización del modo binario es importante cuando se trabaja con datos no textuales o cuando es necesario garantizar una representación exacta en bytes sin interpretar caracteres especiales o codificaciones.
+
+`007-escribo en modo binario.py`
 
 ```python
 archivo = open("clientes.txt","wb")
@@ -4004,12 +5014,17 @@ archivo.close()
 ```
 
 ### leo de un archivo binario
+<small>Creado: 2025-10-02 16:13</small>
 
 #### Explicación
 
-Este código Python se utiliza para leer y mostrar el contenido de un archivo binario llamado "clientes.txt". Primero, abre el archivo en modo lectura binaria ("rb"), lo que significa que va a tratar los datos del archivo como una secuencia de bytes sin hacer ninguna suposición sobre su formato. Luego lee la primera línea (o el primer bloque) del archivo y la guarda en la variable `linea`. Como los datos son binarios, no están codificados para ser leídos directamente como texto; por eso se usa el método `.decode("utf-8")` para convertir esos bytes a una cadena de texto legible usando el conjunto de caracteres UTF-8. Finalmente, imprime la línea decodificada y cierra el archivo para asegurar que todos los recursos asociados estén liberados correctamente.
+Este fragmento de código en Python se utiliza para leer información desde un archivo binario y mostrarla en pantalla. En primer lugar, el programa abre un archivo llamado "clientes.txt" en modo lectura binaria ("rb"). Esto significa que el archivo se manejará como si contuviera datos en formato binario (como imágenes o archivos de base de datos) en lugar de texto.
 
-Este proceso es importante porque permite leer archivos binarios que contienen datos no estructurados como texto plano, lo cual puede ser útil cuando trabajas con tipos de archivos específicos o cuando necesitas garantizar la compatibilidad entre diferentes sistemas y plataformas.
+Luego, lee una línea del archivo utilizando la función `readline()`, lo cual es similar a leer una línea de un archivo normal, pero teniendo en cuenta que el contenido está en formato binario. Después de leer los bytes desde el archivo, el programa usa el método `decode("utf-8")` para convertir esos datos binarios en texto legible por humanos utilizando la codificación UTF-8.
+
+Finalmente, imprime esa línea decodificada y cierra el archivo con `archivo.close()`. Es importante cerrar los archivos después de terminar de trabajar con ellos para liberar recursos del sistema.
+
+`008-leo de un archivo binario.py`
 
 ```python
 archivo = open("clientes.txt","rb")
@@ -4019,16 +5034,21 @@ archivo.close()
 ```
 
 ### guardar en formato xml
+<small>Creado: 2025-10-02 16:15</small>
 
 #### Explicación
 
-Este código crea un archivo XML que contiene información sobre clientes. Primero, importa el módulo `xml.etree.ElementTree` (conocido como ET), que es una biblioteca en Python para manejar estructuras de datos XML. Luego, se define una lista llamada `clientes`, donde cada elemento es un diccionario con los datos personales de un cliente, como su nombre, apellidos y email.
+Este código Python se utiliza para crear un archivo XML a partir de una lista de diccionarios que representan información sobre clientes. Primero, importa el módulo `xml.etree.ElementTree` que es útil para trabajar con archivos XML en Python.
 
-El código crea un elemento raíz llamado "clientes" usando la clase `ET.Element`. A continuación, itera sobre la lista de clientes para agregar elementos XML hijos a este nodo raíz. Para cada cliente en la lista, se añade un subelemento "cliente", y dentro de él, otros tres subelementos: "nombre", "apellidos" y "email". Estos subelementos contienen los datos del diccionario correspondiente.
+El código define una lista llamada `clientes`, donde cada elemento de la lista es un diccionario que contiene los datos de un cliente, como nombre, apellidos y correo electrónico. Luego, crea un objeto raíz llamado "clientes" usando `ET.Element`.
 
-Finalmente, el código crea un árbol XML a partir del nodo raíz con `ET.ElementTree(root)`, luego indentado para mejorar la legibilidad del archivo XML generado. Se utiliza la función `tree.write()` para guardar este árbol en un archivo llamado "clientes.xml", asegurándose de que se incluya una declaración XML (`xml_declaration=True`) y que el encoding sea UTF-8, lo cual es importante porque permite representar cualquier carácter posible en varios idiomas.
+A continuación, el código itera sobre cada cliente en la lista `clientes`. Para cada cliente, se crea un subelemento en el XML llamado "cliente". Dentro de este elemento "cliente", se crean tres subelementos adicionales: "nombre", "apellidos" y "email". Estos elementos toman los valores correspondientes del diccionario actual de la lista `clientes`.
 
-Este tipo de código es útil cuando necesitas almacenar o transmitir datos estructurados en un formato estándar como XML.
+Finalmente, el código crea un objeto `ElementTree` que encapsula todo el contenido XML. Utiliza la función `ET.indent()` para mejorar la legibilidad del archivo XML al agregar sangrías (espacios en blanco) donde es necesario. Por último, utiliza el método `write()` de `ElementTree` para guardar toda esta estructura XML en un archivo llamado "clientes.xml". El parámetro `encoding="utf-8"` asegura que el archivo se guarde con codificación UTF-8 y `xml_declaration=True` agrega la declaración XML al principio del archivo, lo cual es importante para indicar que el documento es un archivo XML válido.
+
+Este tipo de código es útil cuando necesitas exportar datos estructurados en formato XML para uso en otros sistemas o aplicaciones.
+
+`009-guardar en formato xml.py`
 
 ```python
 import xml.etree.ElementTree as ET
@@ -4060,18 +5080,21 @@ tree.write("clientes.xml", encoding="utf-8", xml_declaration=True)
 ```
 
 ### conexion rapida con bases de datos
+<small>Creado: 2025-10-02 16:23</small>
 
 #### Explicación
 
-Este código te enseña cómo conectarte a una base de datos MySQL y recuperar información de ella usando Python. Primero, importamos un conector especial llamado `mysql.connector`, que es como un puente entre Python y la base de datos MySQL.
+Este fragmento de código muestra cómo realizar una conexión rápida con una base de datos MySQL utilizando Python y luego recuperar información de ella. Primero, se importa el módulo `mysql.connector`, que es una herramienta para conectar a bases de datos MySQL desde Python.
 
-Luego, establecemos una conexión a la base de datos especificando el servidor (en este caso, localhost), las credenciales del usuario (nombre de usuario y contraseña) y el nombre de la base de datos. Una vez conectados, creamos un objeto llamado `cursor`, que es como una herramienta para ejecutar comandos SQL en nuestra base de datos.
+Luego, se establece la conexión proporcionando detalles como el host (en este caso, localhost), el nombre del usuario con los permisos necesarios y la contraseña correspondiente, así como el nombre de la base de datos. Esto crea una conexión que permite interactuar con la base de datos especificada.
 
-El siguiente paso es ejecutar una consulta SQL simple (`SELECT * FROM clientes`), que busca todos los registros de la tabla "clientes". Los resultados se guardan en una variable llamada `resultados`. Como el resultado puede ser un conjunto grande de filas, usamos un bucle para recorrer cada fila y mostrarla por pantalla.
+A continuación, se crea un objeto cursor a partir de esta conexión, que es un recurso fundamental para ejecutar consultas SQL y manipular resultados en Python. El código ejecuta una consulta SQL simple (`SELECT * FROM clientes`) para recuperar todos los registros del tablero 'clientes'. Los resultados obtenidos son almacenados en la variable `resultados`.
 
-Finalmente, es importante cerrar tanto el cursor como la conexión con la base de datos cuando hemos terminado. Esto asegura que no se estén utilizando recursos innecesariamente y ayuda a evitar problemas en aplicaciones más grandes.
+Finalmente, el código recorre cada fila de los resultados utilizando un bucle `for` y los imprime uno a uno. Es importante notar que después de terminar con el cursor y obtener todos los datos necesarios, se cierran tanto el cursor como la conexión para liberar recursos.
 
-Este proceso te permite interactuar con bases de datos desde Python, lo cual es crucial para muchos proyectos de desarrollo web y sistemas informáticos donde necesitas manejar información almacenada en una base de datos.
+Este tipo de operaciones es crucial en aplicaciones web o cualquier sistema que requiera acceso rápido y seguro a bases de datos MySQL desde Python, permitiendo así la manipulación eficiente de grandes cantidades de información.
+
+`010-conexion rapida con bases de datos.py`
 
 ```python
 # pip install mysql-connector-python - Si estoy en Windows
@@ -4102,14 +5125,19 @@ conexion.close()
 ```
 
 ### Recojo información y la llevo a MySQL
+<small>Creado: 2025-10-02 16:29</small>
 
 #### Explicación
 
-Este fragmento de código es una breve aplicación en Python que se encarga de conectar a una base de datos MySQL, recoger información del usuario y almacenarla en la tabla `clientes`. En primer lugar, el programa solicita al usuario que introduzca varios detalles del cliente como nombre, apellidos, teléfono, correo electrónico y localidad. Luego, establece una conexión con la base de datos utilizando los parámetros proporcionados (host, usuario, contraseña y nombre de la base de datos).
+Este código en Python se utiliza para conectar a una base de datos MySQL y agregar nuevos registros en la tabla llamada `clientes`. Primero, el programa solicita al usuario que introduzca información sobre un cliente: nombre, apellidos, teléfono, email y localidad. Esta información es recogida mediante entradas del usuario.
 
-Una vez establecida la conexión, se crea un objeto cursor para ejecutar comandos SQL en la base de datos. El comando `INSERT INTO clientes` añade un nuevo registro a la tabla `clientes`, usando los valores ingresados por el usuario. Es importante señalar que cada valor introducido por el usuario está incrustado directamente dentro del comando SQL, lo cual puede ser vulnerable a inyecciones SQL si no se valida adecuadamente la entrada del usuario.
+Luego, se establece una conexión a la base de datos MySQL usando los detalles proporcionados (host, usuario, contraseña y nombre de la base de datos). Una vez que se ha conectado correctamente, el código crea un objeto cursor, que actúa como intermediario entre el programa y la base de datos. 
 
-Finalmente, el código confirma las modificaciones en la base de datos con `commit()` y cierra tanto el cursor como la conexión para liberar los recursos. Es crucial cerrar siempre las conexiones y los objetos cursor después de su uso para evitar fugas de memoria y mantener la eficiencia del programa.
+El fragmento ejecuta una sentencia SQL `INSERT INTO` para añadir los datos del cliente proporcionados por el usuario en la tabla `clientes`. Es importante destacar que cada campo en la tabla recibe su valor correspondiente desde las variables definidas anteriormente, con la excepción del primer campo (`NULL`) que probablemente representa un identificador automático generado por la base de datos.
+
+Finalmente, se confirma la transacción para guardar los cambios y luego cierra tanto el cursor como la conexión a la base de datos. Este proceso es crucial para mantener la integridad de los datos en la base de datos MySQL y garantizar que toda la información proporcionada por el usuario sea almacenada correctamente.
+
+`011-Recojo información y la llevo a MySQL.py`
 
 ```python
 # pip install mysql-connector-python - Si estoy en Windows
@@ -4152,26 +5180,36 @@ conexion.close()
 ```
 
 ### clientes
+<small>Creado: 2025-10-02 16:12</small>
 
 #### Explicación
 
-El fragmento "Información de cliente" por sí solo no es código, sino una descripción o comentario que indica el tipo de contenido que se maneja en ese contexto. En este caso, parece ser el título o la etiqueta de un archivo llamado `clientes.txt` donde se almacena información relacionada con clientes. Es importante porque ayuda a identificar rápidamente el propósito del archivo y su contenido. Este texto podría estar seguido de una lista de datos de clientes, como nombres, direcciones e información de contacto.
+El fragmento "Información de cliente" no es un código en sí, sino probablemente el título o encabezamiento de una sección en algún archivo, tal vez un archivo de texto plano o un script que contiene información relacionada con los clientes. En este contexto, parece estar indicando que el contenido siguiente va a contener datos específicos sobre uno o varios clientes.
 
-En términos de programación, este tipo de texto es útil para guiar a otros desarrolladores o usuarios sobre qué esperar dentro del archivo o cómo interactuar con él. En el contexto del código que rodea a este fragmento, sería crucial entender cuál es la estructura exacta y formato de los datos de clientes que se manejan para poder abrir, leer y escribir en el archivo `clientes.txt` correctamente.
+En un ejercicio práctico de programación, esto podría ser el inicio de una sección donde estás preparado para leer o escribir información personal de clientes desde un archivo o base de datos. Es importante porque establece qué tipo de datos esperas manejar a continuación: la información de los clientes puede incluir nombres, direcciones, números de teléfono, correos electrónicos y otros detalles relevantes.
+
+Este tipo de encabezado ayuda al programador a mantener organizada su lógica y a entender claramente para qué está utilizando el código en cada sección del programa.
+
+`clientes.txt`
 
 ```
 Información de cliente
 ```
 
 ### clientes
+<small>Creado: 2025-10-02 16:16</small>
 
 #### Explicación
 
-Este fragmento de código es un ejemplo simple de un archivo XML que almacena información sobre clientes. En la parte superior, se especifica la versión del lenguaje XML y el encoding utilizado (utf-8), lo cual es importante para asegurar la correcta interpretación de caracteres especiales en cualquier idioma.
+Este archivo es un ejemplo de un fichero XML que almacena información sobre clientes. La estructura del código está diseñada para ser clara y fácil de leer, siguiendo las reglas básicas de la sintaxis XML.
 
-El contenido principal está estructurado dentro de una etiqueta raíz llamada `<clientes>`, que contiene información sobre varios clientes. Cada cliente se representa mediante una etiqueta `<cliente>`, y dentro de cada uno de estos, se incluyen tres datos importantes: el nombre del cliente (`<nombre>`), sus apellidos (`<apellidos>`), y su dirección de correo electrónico (`<email>`). Este formato permite organizar claramente la información en un archivo, facilitando así su lectura tanto para humanos como para programas informáticos que procesen este tipo de datos.
+En este caso, el archivo comienza con una declaración XML (`<?xml version='1.0' encoding='utf-8'?`>) que especifica la versión del lenguaje XML utilizado (en este caso 1.0) y el conjunto de caracteres permitidos para los datos almacenados (UTF-8). Esto es importante porque ayuda a las aplicaciones que procesan el archivo a entender correctamente cómo interpretar su contenido.
 
-Este código es crucial porque proporciona una forma estructurada y estándar de almacenar datos que pueden ser fácilmente manipulados por diferentes aplicaciones o sistemas, permitiendo la interconexión entre diversas partes del software.
+El elemento raíz del documento es `<clientes>`, lo cual indica que toda la información contenida en este fichero está relacionada con una lista de clientes. Dentro de este elemento, se encuentran dos elementos `<cliente>` que representan cada uno un cliente individual. Cada cliente tiene tres subelementos: `<nombre>`, `<apellidos>` y `<email>`, que contienen los datos específicos de cada cliente.
+
+Este tipo de estructura es muy útil para almacenar y manipular información en forma organizada, permitiendo a las aplicaciones leer fácilmente la información de cada cliente y realizar operaciones como añadir nuevos clientes o buscar información específica.
+
+`clientes.xml`
 
 ```xml
 <?xml version='1.0' encoding='utf-8'?>
@@ -4189,30 +5227,66 @@ Este código es crucial porque proporciona una forma estructurada y estándar de
 </clientes>
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Apertura y Escritura de Archivos en Modo Texto
+
+**Descripción:** Los alumnos deben abrir un archivo existente o crear uno nuevo para escribir información sobre un producto. Se espera que comprendan cómo abrir archivos en diferentes modos (modo escritura, modo apendizaje) y escriban correctamente la información solicitada.
+
+### Actividad 2: Añadir Información a Archivos
+
+**Descripción:** Los estudiantes deben abrir un archivo existente en modo apendizaje para añadir nueva información sobre productos sin borrar los datos previos. Se espera que comprendan cómo agregar información al final de archivos existentes.
+
+### Actividad 3: Escribe y Guarda Información en Modo Binario
+
+**Descripción:** Los estudiantes deben abrir un archivo en modo binario, escribir una cadena codificada en UTF-8 y luego cerrar el archivo. Se espera que comprendan la diferencia entre archivos de texto y binarios.
+
+### Actividad 4: Lectura de Información desde Archivos Binarios
+
+**Descripción:** Los estudiantes deben abrir un archivo en modo lectura binaria, leer una línea, decodificarla a texto UTF-8 e imprimirlo. Se espera que comprendan cómo manejar archivos binarios y convertirlos a formato legible.
+
+### Actividad 5: Conversión de Datos a XML
+
+**Descripción:** Los estudiantes deben generar un archivo XML con información sobre clientes utilizando la biblioteca `xml.etree.ElementTree`. Se esperará que puedan crear estructuras de datos complejas en XML y guardarlas en archivos.
+
+### Actividad 6: Conexión y Consulta Básica a una Base de Datos MySQL
+
+**Descripción:** Los estudiantes deben establecer una conexión con un servidor MySQL, realizar una consulta para recuperar información de una tabla `clientes` y mostrar los resultados. Se espera que comprendan el proceso básico de conexión e interacción con bases de datos.
+
+### Actividad 7: Lectura de Datos desde Archivo y Almacenamiento en Base de Datos
+
+**Descripción:** Los estudiantes deben leer la información de un archivo y almacenarla en una base de datos MySQL. Se espera que puedan manejar tanto archivos como conexiones a bases de datos, así como realizar inserciones.
+
+### Actividad 8: Lectura y Modificación de Archivos
+
+**Descripción:** Los alumnos deberán abrir un archivo en modo lectura para leer su contenido, modificarlo y luego guardar los cambios en otro archivo o sobre el mismo. Se espera que comprendan cómo manipular archivos existentes.
+
+### Actividad 9: Trabajo con XML desde Python
+
+**Descripción:** Los estudiantes deben aprender a generar y leer archivos XML utilizando Python. Se les pedirá crear un archivo XML desde datos estructurados en Python e interpretar un archivo XML previamente creado.
+
+### Actividad 10: Interacción Avanzada con MySQL
+
+**Descripción:** Los alumnos deben realizar consultas más avanzadas (como filtros, ordenación) a una base de datos y mostrar los resultados. Se espera que comprendan las posibilidades de SQL para la gestión de bases de datos.
+
+Estas actividades están diseñadas para proporcionar un enfoque práctico al aprendizaje de programación en entornos profesionales, adaptándose a los niveles y necesidades específicas de los estudiantes de Formación Profesional.
+
+
 <a id="utilizacion-de-los-sistemas-de-ficheros"></a>
 ## Utilización de los sistemas de ficheros
 
-En el mundo digital, la lectura y escritura de información son habilidades fundamentales que permiten a los programadores interactuar con los sistemas operativos y almacenar datos de manera eficiente. En esta subunidad didáctica, nos adentramos en el uso avanzado de los sistemas de ficheros, un aspecto crucial del manejo de la información en cualquier aplicación informática.
+### Introducción a los ejercicios
 
-Comenzamos por entender los conceptos básicos de los sistemas de ficheros. Un sistema de ficheros es una estructura organizada que permite almacenar y recuperar datos en un orden lógico. Cada fichero contiene información relevante, mientras que el sistema de ficheros se encarga de gestionar cómo estos ficheros están distribuidos en el almacenamiento físico del dispositivo.
-
-El primer paso para interactuar con los sistemas de ficheros es conocer las clases asociadas a las operaciones de gestión de ficheros. Estas clases proporcionan una interfaz uniforme para realizar diversas tareas, desde la creación y eliminación de ficheros hasta la lectura y escritura de datos. Familiarizarse con estas clases es esencial para cualquier programador que quiera manipular archivos en su aplicación.
-
-La forma de acceso a un fichero es otro aspecto importante a considerar. Hay dos tipos principales: acceso secuencial y acceso aleatorio. El acceso secuencial implica leer o escribir los datos en el orden en que están almacenados, mientras que el acceso aleatorio permite acceder directamente a cualquier parte del fichero sin necesidad de recorrer todo su contenido. Cada tipo tiene sus ventajas dependiendo del contexto y las necesidades específicas de la aplicación.
-
-Las clases para gestión de flujos de datos desdehacia ficheros son herramientas poderosas que facilitan el trabajo con los sistemas de ficheros. Estas clases permiten realizar operaciones como la lectura, escritura y manipulación de datos en un flujo continuo, lo que es especialmente útil cuando se trata de grandes cantidades de información.
-
-Operaciones sobre ficheros secuenciales y aleatorios son fundamentales para cualquier aplicación que requiera almacenar o recuperar datos. El acceso secuencial es ideal para aplicaciones que manejan archivos pequeños o donde la lectura y escritura ocurren en orden lógico. Por otro lado, el acceso aleatorio es perfecto cuando se necesita acceder a partes específicas del fichero sin importar su posición.
-
-La serialización y deserialización de objetos son técnicas avanzadas que permiten convertir los objetos en un formato que puede ser almacenado o transmitido y luego recuperarlo. Esta capacidad es crucial para aplicaciones que requieren persistencia de datos, ya que permite guardar el estado actual del programa y restaurarlo más tarde.
-
-Trabajar con ficheros implica manejar excepciones detección y tratamiento. Es importante entender cómo capturar y gestionar errores durante la lectura o escritura de archivos, ya que pueden surgir situaciones inesperadas como fallos en el almacenamiento o problemas de permisos.
-
-Desarrollar aplicaciones que utilizan ficheros es una habilidad valiosa para cualquier programador. Al dominar los sistemas de ficheros y las operaciones asociadas, se puede crear software eficiente y robusto que maneje datos con gran capacidad y precisión.
-
-En resumen, el uso avanzado de los sistemas de ficheros es un aspecto crucial del manejo de la información en cualquier aplicación informática. Comprender cómo interactuar con estos sistemas, conocer las clases asociadas a las operaciones de gestión de ficheros y aprender a manejar excepciones son habilidades fundamentales que permiten crear software eficiente y seguro.
+En esta carpeta, se trabajan una serie de ejercicios enfocados en la manipulación y análisis de sistemas de ficheros utilizando Python. Los problemas abarcan desde la creación y eliminación de archivos y carpetas hasta el recorrido y análisis detallado del contenido de directorios específicos, incluyendo cálculo de tamaños totales y obtención de información sobre los archivos y sus fechas de modificación. Estos ejercicios ayudan a desarrollar competencias en manejo de excepciones, uso de módulos como `os` y `time`, parametrización de código y buenas prácticas para trabajar con sistemas de archivos, que son fundamentales en el desarrollo de aplicaciones web y software orientado al procesamiento de datos.
 
 ### crear archivo
+<small>Creado: 2025-10-06 16:51</small>
+
+#### Explicación
+
+Este código crea un archivo llamado "archivo.txt" en el directorio actual donde se está ejecutando el programa. La línea `archivo = open("archivo.txt", 'w')` abre el archivo en modo de escritura ('w'), lo que significa que si el archivo ya existe, su contenido será borrado. Si no existe, un nuevo archivo vacío es creado. Luego, la función `archivo.close()` cierra el archivo después de abrirlo para garantizar que los recursos del sistema se liberan correctamente. Es importante cerrar archivos una vez que se han terminado de usar para evitar problemas con otros programas o futuras operaciones en ese mismo archivo.
+
+`001-crear archivo.py`
 
 ```python
 archivo = open("archivo.txt",'w')
@@ -4220,6 +5294,17 @@ archivo.close()
 ```
 
 ### eliminar archivo
+<small>Creado: 2025-10-06 16:56</small>
+
+#### Explicación
+
+Este código elimina un archivo llamado `archivo.txt` que se encuentra en el mismo directorio donde se está ejecutando el script. La primera línea importa el módulo `os`, que proporciona una interfaz para realizar operaciones del sistema, como la eliminación de archivos.
+
+La segunda línea define una variable `archivo` con el valor `"archivo.txt"`. Esta variable contiene el nombre del archivo que deseamos eliminar. Finalmente, en la tercera línea se utiliza la función `os.remove()` para borrar físicamente el archivo especificado por la variable `archivo`.
+
+Es importante tener cuidado al usar esta función ya que eliminar un archivo de este modo es irreversible y no hay opción para recuperar los datos del archivo después de su eliminación. Por lo tanto, siempre debes estar seguro de que deseas eliminar realmente ese archivo antes de ejecutar el código.
+
+`002-eliminar archivo.py`
 
 ```python
 import os
@@ -4229,6 +5314,13 @@ os.remove(archivo)
 ```
 
 ### crear carpetas
+<small>Creado: 2025-10-06 16:57</small>
+
+#### Explicación
+
+Este fragmento de código crea una carpeta llamada "documentos" en el directorio actual donde se ejecuta el script. Para hacer esto, primero importa el módulo `os`, que proporciona funciones para interactuar con el sistema operativo. Luego, utiliza la función `mkdir()` del módulo `os` para crear una nueva carpeta con el nombre "documentos". Es importante tener en cuenta que esta acción solo tendrá éxito si no existe ya una carpeta o archivo llamado "documentos" en el directorio actual, y se producirá un error si es así. Este tipo de código es útil cuando necesitas estructurar tus archivos y datos organizándolos en diferentes carpetas según sus tipos o categorías.
+
+`003-crear carpetas.py`
 
 ```python
 import os
@@ -4237,6 +5329,19 @@ os.mkdir("documentos")
 ```
 
 ### crear una carpeta try except
+<small>Creado: 2025-10-06 16:59</small>
+
+#### Explicación
+
+Este fragmento de código en Python es muy sencillo y útil para aprender a manejar archivos y directorios. Lo que hace es intentar crear una nueva carpeta llamada "documentos". Para ello, utiliza la función `os.mkdir("documentos")` del módulo `os`, que se encarga de crear un nuevo directorio con el nombre especificado.
+
+Si la operación es exitosa y la carpeta no existía antes, simplemente la crea. Sin embargo, si la carpeta ya existe en el lugar donde intentas crearla, Python lanzaría una excepción (o error) porque no puedes crear algo que ya está ahí. Para evitar que tu programa se interrumpa abruptamente debido a este error, el código utiliza un bloque `try` y `except`. Esto significa que si ocurre cualquier problema al ejecutar la línea dentro del bloque `try`, como en este caso cuando la carpeta ya existe, Python salta directamente al bloque `except`.
+
+Dentro de ese bloque except, simplemente imprime un mensaje en pantalla para informar al usuario que la carpeta ya existía pero no se ha producido un error fatal. Esto permite a tu programa continuar ejecutándose normalmente después de este intento de crear una carpeta.
+
+Este tipo de manejo de errores es muy importante cuando trabajas con archivos y directorios, porque te ayuda a evitar interrupciones inesperadas en tu código debido a que el sistema ya tiene algo creado donde pretendías hacer nuevos cambios.
+
+`004-crear una carpeta try except.py`
 
 ```python
 import os
@@ -4250,6 +5355,19 @@ print("Y ahora continuamos el programa")
 ```
 
 ### ahora creo documentos dentro de esa carpeta
+<small>Creado: 2025-10-06 16:59</small>
+
+#### Explicación
+
+Este fragmento de código Python muestra cómo crear una carpeta y luego un archivo dentro de esa carpeta. 
+
+En primer lugar, se importa el módulo `os`, que proporciona funciones para interactuar con el sistema operativo. Luego, intenta crear una carpeta llamada "documentos" utilizando la función `os.mkdir()`. Si esta carpeta ya existe, el código captura la excepción y simplemente imprime un mensaje sin detener el programa.
+
+Después de eso, el script continúa su ejecución imprimiendo un mensaje que indica que sigue adelante. Finalmente, crea un archivo llamado "cliente.txt" dentro de la carpeta "documentos", abriendo este archivo en modo escritura ('w'). Al abrir el archivo en modo 'w', si no existe, se creará; y si ya existía, su contenido anterior será borrado antes de que pueda escribirse algo nuevo. Luego cierra el archivo con `archivo.close()` para liberar los recursos.
+
+Este código es importante porque demuestra cómo manejar la creación de carpetas y archivos en un sistema de archivos desde Python, asegurando que el programa siga funcionando incluso si ya existen las entidades necesarias.
+
+`005-ahora creo documentos dentro de esa carpeta.py`
 
 ```python
 import os
@@ -4266,16 +5384,17 @@ archivo.close()
 ```
 
 ### parametrizar
+<small>Creado: 2025-10-06 17:00</small>
 
 #### Explicación
 
-Este código en Python está diseñado para trabajar con archivos y directorios en un sistema de ficheros. En primer lugar, importa la biblioteca `os`, que proporciona funciones para interactuar con el sistema operativo.
+Este código Python se encarga de crear una carpeta llamada "documentos" si aún no existe. Si la carpeta ya está creada, el programa simplemente imprime un mensaje indicando que la carpeta ya existe y continúa con su ejecución sin generar un error.
 
-El fragmento de código intenta crear una carpeta llamada "documentos". Para hacer esto, utiliza la función `os.mkdir()`. Si esta función no puede crear la carpeta porque ya existe (por ejemplo, si un usuario ejecutó este script antes), se captura y maneja la excepción sin parar el programa. Simplemente imprime en pantalla que la carpeta ya está presente.
+Después de asegurarse de que la carpeta "documentos" esté disponible, el código abre un archivo llamado "cliente.txt" dentro de esta carpeta en modo de escritura ('w'). Al abrirlo en este modo, si el archivo ya existe, se sobrescribirá; y si no existe, se creará uno nuevo. Una vez que el archivo es abierto, inmediatamente después se cierra con `archivo.close()`, lo cual asegura que cualquier cambio hecho al archivo durante la apertura sea guardado y liberan recursos del sistema.
 
-Después de intentar crear o verificar la existencia de la carpeta "documentos", el código continúa su ejecución abriendo un archivo llamado `cliente.txt` dentro de esa carpeta y lo crea si no existe, usando el modo `'w'`, que significa escribir. Este modo sobre escribe cualquier contenido previo del archivo o lo crea si no está presente.
+Este tipo de manejos de errores y operaciones de archivos son fundamentales en programación para garantizar que el programa pueda ejecutarse sin problemas incluso cuando las condiciones previas no se cumplan exactamente como se espera.
 
-Este tipo de manipulación de archivos y carpetas es muy importante en la programación ya que permite a los programas interactuar con el sistema de ficheros del ordenador, permitiendo almacenar, leer y modificar datos fuera de la memoria del programa.
+`006-parametrizar.py`
 
 ```python
 import os
@@ -4294,6 +5413,19 @@ archivo.close()
 ```
 
 ### revisar carpeta
+<small>Creado: 2025-10-06 17:03</small>
+
+#### Explicación
+
+Este fragmento de código es una herramienta útil para explorar el contenido de una carpeta específica en Python. La función `os.walk()` se utiliza aquí para recorrer todos los directorios, subdirectorios y archivos dentro de la carpeta que has especificado, que en este caso es "/home/josevicente/Imágenes/Capturas de pantalla".
+
+El código comienza importando el módulo `os`, que proporciona una interfaz con el sistema operativo. Luego, se define la variable `carpeta` con la ruta del directorio que queremos explorar.
+
+En el bucle `for`, cada vez que `os.walk()` encuentra un nuevo directorio durante su recorrido, devuelve tres listas: las carpetas dentro de ese directorio actual (`directorio`), los nombres de las subcarpetas (`carpetas`) y los archivos en esa carpeta (`archivo`). Por lo tanto, el código imprime por consola la ruta del directorio actual, seguido de una lista de sus subcarpetas y otra lista de los archivos que contiene.
+
+Esta técnica es muy útil para entender la estructura de carpetas y archivos dentro de un sistema de archivos, ya sea para realizar tareas como copiar archivos, borrarlos o simplemente analizar su contenido.
+
+`007-revisar carpeta.py`
 
 ```python
 import os
@@ -4308,14 +5440,19 @@ for directorio,carpetas,archivo in os.walk(carpeta):
 ```
 
 ### recorremos la lista
+<small>Creado: 2025-10-06 17:04</small>
 
 #### Explicación
 
-Este código es una herramienta útil para explorar el contenido de un directorio en tu sistema, específicamente en la carpeta "/home/josevicente/Imágenes/Capturas de pantalla". Utiliza la biblioteca `os` que proporciona funciones para interactuar con el sistema operativo. La función `os.walk()` es muy poderosa porque permite recorrer todos los directorios y subdirectorios dentro del directorio especificado, generando una lista que contiene información sobre cada nivel del árbol de directorios.
+Este fragmento de código está diseñado para recorrer todos los elementos (directorios y archivos) en una carpeta específica. En este caso, la carpeta que se está explorando es "/home/josevicente/Imágenes/Capturas de pantalla". 
 
-En el bucle for, la variable `directorio` almacena la ruta completa a un directorio en particular. Luego, la variable `carpetas` es una lista que contiene los nombres de todas las subcarpetas dentro del directorio actual. La variable `archivos` también es una lista, pero esta vez con el nombre de todos los archivos presentes en ese mismo directorio.
+La función `os.walk()` es una herramienta muy útil del módulo `os` en Python que permite recorrer recursivamente todos los directorios y archivos dentro de un directorio dado. Cada vez que encuentra un nuevo directorio, devuelve tres valores: el nombre del directorio actual (`directorio`), una lista con el nombre de todas las carpetas dentro de ese directorio (`carpetas`) y otra lista con los nombres de todos los archivos en ese mismo directorio (`archivos`). 
 
-El código imprime primero el directorio actual, luego la lista de carpetas y finalmente recorre cada archivo individual para imprimir sus nombres. Esto te permite obtener un resumen claro del contenido de cada carpeta que se visita durante el recorrido por el árbol de directorios. Es importante porque te ayuda a entender mejor cómo están organizados tus archivos y carpetas en tu sistema, lo cual es fundamental para la gestión eficiente de recursos en proyectos de programación.
+En el código, primero se imprime el nombre del directorio que está siendo analizado. Luego, se imprime la lista de subdirectorios (carpetas) dentro del directorio actual. Finalmente, se recorre la lista de archivos y se imprimen uno por uno.
+
+Este tipo de recorrido es muy útil cuando necesitas realizar operaciones en cada archivo o carpeta de un sistema de archivos, como copiar archivos, listar contenido, comprobar existencia, entre otras tareas administrativas con el sistema de archivos.
+
+`008-recorremos la lista.py`
 
 ```python
 import os
@@ -4331,6 +5468,19 @@ for directorio,carpetas,archivos in os.walk(carpeta):
 ```
 
 ### tamanio y fecha
+<small>Creado: 2025-10-06 17:07</small>
+
+#### Explicación
+
+Este código Python se utiliza para recorrer una carpeta específica y calcular el tamaño total de todos los archivos que contiene, mostrándolo en bytes, kilobytes (KB) y megabytes (MB). El programa empieza importando la biblioteca `os`, que proporciona funciones para interactuar con el sistema operativo. Luego, se establece la variable `carpeta` con la ruta del directorio que deseamos analizar.
+
+El código utiliza un bucle `for` junto a la función `os.walk()`, la cual recorre recursivamente todos los archivos y subdirectorios dentro de la carpeta especificada. Dentro del bucle, el programa imprime el nombre del directorio actual y una lista de carpetas contenidas en él.
+
+Para cada archivo encontrado, se construye la ruta completa utilizando `os.path.join()` y luego se intenta obtener las estadísticas del archivo con `os.stat()`. Específicamente, el código obtiene el tamaño del archivo (`st_size`) y lo suma al total acumulado. Si ocurre algún error al acceder a un archivo, como que el usuario no tenga permisos para leerlo, se imprime un mensaje de advertencia.
+
+Finalmente, después de recorrer todos los archivos, el código muestra en pantalla el tamaño total del directorio en bytes, kilobytes y megabytes. Esto es útil para saber cuánto espacio en disco ocupa todo el contenido de una carpeta específica.
+
+`009-tamanio y fecha.py`
 
 ```python
 import os
@@ -4357,6 +5507,19 @@ print("el total de la carpeta en MB es: ",total/(1024*1024),"MB")
 ```
 
 ### miramos cada uno de los archivos
+<small>Creado: 2025-10-06 17:11</small>
+
+#### Explicación
+
+Este fragmento de código te enseña cómo explorar una carpeta específica y obtener detalles sobre los archivos que contiene. En primer lugar, el programa importa dos módulos importantes llamados `os` y `time`, que son esenciales para manipular el sistema de archivos y trabajar con fechas y horas respectivamente.
+
+El código se centra en la exploración recursiva de una carpeta dada (`/home/josevicente/Imágenes/Capturas de pantalla`) utilizando la función `os.walk()`. Esta función recorre todos los directorios y subdirectorios del árbol desde el directorio especificado, devolviendo tuplas que contienen nombres de directorio, listas de subcarpetas dentro del directorio actual y listas de archivos en esos directorios.
+
+Para cada archivo encontrado, el programa construye la ruta completa utilizando `os.path.join()` y luego utiliza `os.stat(ruta)` para obtener información sobre el archivo. Específicamente, se obtiene el tamaño (`st_size`) y la fecha y hora modificada más reciente del archivo (`st_mtime`). El código también maneja excepciones que pueden ocurrir si no se puede acceder a un archivo en particular.
+
+Finalmente, el programa calcula y muestra el total acumulado de tamaños de todos los archivos en bytes, kilobytes (KB) y megabytes (MB). Esto te da una idea del espacio ocupado por la carpeta completa.
+
+`010-miramos cada uno de los archivos.py`
 
 ```python
 import os
@@ -4389,18 +5552,19 @@ print("el total de la carpeta en MB es: ",total/(1024*1024),"MB")
 ```
 
 ### carpeta del repositorio
+<small>Creado: 2025-10-06 17:30</small>
 
 #### Explicación
 
-Este código en Python está diseñado para recorrer una carpeta específica en el sistema de archivos y obtener información detallada sobre los archivos que contiene. La carpeta principal que se va a explorar es "/var/www/html/dam2526". 
+Este código Python recorre una carpeta específica y calcula el tamaño total de todos los archivos que contiene. Comienza importando dos módulos: `os` para trabajar con la estructura del sistema de ficheros, y `time` para manejar fechas y horas.
 
-El programa comienza utilizando dos módulos, `os` y `time`, para interactuar con el sistema operativo y manejar fechas y tiempos respectivamente. Luego, mediante un bucle `for` que itera sobre los elementos generados por la función `os.walk()`, recorre todos los directorios y archivos dentro de la carpeta dada.
+El programa itera sobre cada directorio dentro del camino proporcionado (`/var/www/html/dam2526`). Para cada archivo encontrado en estos directorios, se calcula su tamaño usando el método `os.stat()`, que devuelve información detallada sobre un archivo o carpeta. El tamaño se suma al total acumulado.
 
-Para cada archivo encontrado en este proceso, el código intenta obtener sus estadísticas (tamaño, fecha de modificación) utilizando `os.stat()` y luego imprime estos datos: el nombre del archivo, su tamaño en MB y la fecha en que fue modificado por última vez. Si no puede acceder a un archivo debido a permisos o otro error, simplemente imprime un mensaje indicando que no ha podido hacerlo.
+Además, para cada archivo se imprime su nombre, tamaño (convertido a megabytes) y la fecha y hora de última modificación en formato reducido ('año-mes-día-hora:minutos:segundos'). Si no puede acceder a un archivo debido a permisos o otro problema, simplemente lo ignora e informa que no ha podido acceder al archivo.
 
-Finalmente, después de recorrer todos los archivos, el programa calcula e imprime el tamaño total del contenido de la carpeta en bytes, kilobytes (KB) y megabytes (MB). Esta operación es importante para tener una idea global sobre cuánto espacio ocupa este conjunto de archivos.
+Finalmente, después de recorrer toda la carpeta y sus subcarpetas, se imprimen el total del tamaño en bytes, kilobytes (KB) y megabytes (MB). Esto es útil para conocer rápidamente cuánto espacio ocupa una carpeta específica en un sistema de archivos.
 
-Este tipo de script es útil cuando necesitas analizar la estructura y las dimensiones de un directorio específico en tu sistema.
+`011-carpeta del repositorio.py`
 
 ```python
 import os
@@ -4433,6 +5597,21 @@ print("el total de la carpeta en MB es: ",total/(1024*1024),"MB")
 ```
 
 ### jugar con emojis
+<small>Creado: 2025-10-06 17:31</small>
+
+#### Explicación
+
+Este código Python recorre una carpeta específica y calcula el tamaño total de todos los archivos que contiene. Comienza importando dos módulos, `os` para interactuar con el sistema operativo y `time` para trabajar con fechas y horas.
+
+El programa comienza por definir la ruta a la carpeta que se va a analizar (`/var/www/html/dam2526`) y establece un contador llamado `total` en cero. Luego, utiliza el método `os.walk()` para recorrer todos los archivos y subcarpetas dentro de esa carpeta principal.
+
+Para cada archivo encontrado, obtiene su ruta completa usando `os.path.join()`. A continuación, intenta obtener las estadísticas del archivo con `os.stat()`, lo que proporciona información sobre el tamaño y la fecha de modificación. Si es posible acceder a estas estadísticas, suma el tamaño del archivo al contador total y muestra la fecha en que fue último modificado.
+
+Si no se puede acceder al archivo debido a problemas como permisos insuficientes, simplemente imprime un mensaje indicando que ha habido un problema de acceso.
+
+Finalmente, después de procesar todos los archivos, el programa calcula e imprime el tamaño total de la carpeta en bytes, kilobytes (KB) y megabytes (MB). Esto es útil para conocer cuánto espacio está ocupando esa carpeta en el sistema de almacenamiento.
+
+`012-jugar con emojis.py`
 
 ```python
 import os
@@ -4461,16 +5640,17 @@ print("el total de la carpeta en MB es: ",total/(1024*1024),"MB")
 ```
 
 ### ahora quiero los directoris
+<small>Creado: 2025-10-06 17:32</small>
 
 #### Explicación
 
-Este código está diseñado para calcular el tamaño total de una carpeta específica y mostrar información sobre cada archivo dentro de ella. La función `os.walk()` se utiliza para recorrer recursivamente todos los directorios y archivos en la ruta proporcionada, que es `/var/www/html/dam2526` en este caso.
+Este código Python se utiliza para recorrer una carpeta específica y obtener información sobre todos los archivos que contiene, como su tamaño y fecha de modificación. El programa inicia importando dos módulos importantes: `os` y `time`, que proporcionan funciones para interactuar con el sistema operativo y manejar tiempo respectivamente.
 
-El código itera a través de cada directorio encontrado por `os.walk()`, e imprime el nombre del directorio. Luego, dentro de cada directorio, se recorren todos los archivos y se intenta obtener información sobre ellos usando la función `os.stat()`. Esta función devuelve un objeto con detalles como el tamaño y la fecha de modificación del archivo.
+El código comienza estableciendo la variable `carpeta` a "/var/www/html/dam2526", que es la ubicación del directorio principal que se va a analizar. Luego, utilizando un bucle `for`, recorre todos los subdirectorios y archivos dentro de esta carpeta usando la función `os.walk()`. Por cada archivo encontrado, obtiene su ruta completa con `os.path.join()` y luego intenta obtener las estadísticas del archivo mediante `os.stat(ruta)`. Esto permite calcular el tamaño del archivo en bytes (`tamanio`) y extraer la fecha de modificación más reciente utilizando `time.strftime()`, que formatea la hora local en un formato legible.
 
-Si es posible acceder al archivo (es decir, no hay errores), se imprime el nombre del archivo junto con su tamaño en bytes. Además, calcula el total acumulado de todos los tamaños de archivos encontrados para obtener el tamaño total de la carpeta. Si ocurre algún problema al intentar acceder a un archivo, simplemente se muestra un mensaje indicando que no ha podido acceder a él.
+Finalmente, después de analizar todos los archivos, el código suma el tamaño total en bytes de todos ellos y muestra este total tanto en bytes como convertido a kilobytes (KB) y megabytes (MB). Esto es útil para obtener una idea del espacio que ocupan todos los archivos juntos dentro de la carpeta especificada.
 
-Finalmente, después del recorrido por todos los directorios y archivos, se imprime el tamaño total calculado en bytes, kilobytes (KB) y megabytes (MB). Esto es útil para entender cuánto espacio ocupa la carpeta completa en términos más manejables que simplemente en bytes.
+`013-ahora quiero los directoris.py`
 
 ```python
 import os
@@ -4500,6 +5680,19 @@ print("el total de la carpeta en MB es: ",total/(1024*1024),"MB")
 ```
 
 ### profunidad
+<small>Creado: 2025-10-06 17:34</small>
+
+#### Explicación
+
+Este fragmento de código es una herramienta para explorar y analizar el contenido de un directorio específico en tu sistema, en este caso `/var/www/html/dam2526`. El programa recorre cada subdirectorio y archivo dentro del directorio inicial, imprimiendo su estructura jerárquica con sangrías que indican la profundidad de los subdirectorios.
+
+El código utiliza una función llamada `os.walk()`, que es útil para navegar por todo el contenido de un directorio en profundidad. Mientras itera a través de cada elemento, calcula cuántos niveles abajo se encuentra en la jerarquía del directorio utilizando la función `count()` sobre los separadores de directorios (`/` o `\`). Esta información permite al programa imprimir una sangría adecuada para visualizar la estructura del árbol de carpetas.
+
+Además, el código calcula y muestra información como el tamaño total en bytes, kilobytes (KB) y megabytes (MB) de todos los archivos dentro del directorio inicial. Para cada archivo, el programa intenta obtener sus estadísticas utilizando `os.stat()`, que proporciona detalles sobre el archivo como su tamaño y la fecha de modificación. Si hay un error al acceder a algún archivo (por ejemplo, falta de permisos), el código simplemente imprime un mensaje indicando que no pudo acceder al archivo.
+
+Este tipo de script es útil para comprender el contenido y el uso del espacio en disco dentro de un directorio específico en tu sistema.
+
+`014-profunidad.py`
 
 ```python
 import os
@@ -4532,16 +5725,19 @@ print("el total de la carpeta en MB es: ",total/(1024*1024),"MB")
 ```
 
 ### no me hace falta la ruta completa
+<small>Creado: 2025-10-06 17:36</small>
 
 #### Explicación
 
-Este código Python tiene como objetivo recorrer una carpeta específica del sistema de archivos y calcular el tamaño total de todos los archivos que contiene, mostrando también la estructura jerárquica de las subcarpetas. Primero, importa dos bibliotecas importantes: `os` para interactuar con el sistema operativo y manejar rutas de archivos, y `time` para trabajar con fechas y horas.
+Este código te ayuda a entender el contenido de una carpeta específica y calcular el tamaño total de todos los archivos que contiene. Primero, importa las bibliotecas `os` y `time`, que son útiles para interactuar con el sistema operativo y manejar fechas y horas respectivamente.
 
-El código comienza definiendo una variable llamada `carpeta`, que almacena la ruta del directorio que se va a analizar (`/var/www/html/dam2526`). Luego utiliza un bucle `for` junto con la función `os.walk()`, que recorre recursivamente todos los archivos y subdirectorios dentro de esa carpeta. 
+El programa recorre la carpeta `/var/www/html/dam2526` utilizando un bucle `for` con `os.walk()`. Este método te permite navegar por todos los directorios (carpetas) dentro de esa ruta, incluyendo subdirectorios. Para cada directorio visitado, el código calcula su nivel de profundidad y añade una sangría a la salida para visualizar la estructura jerárquica.
 
-Para cada archivo o subdirectorio, el código calcula su nivel de profundidad en la estructura jerárquica (es decir, cuántas carpetas abajo está del directorio inicial) y añade un cierto número de caracteres "│   " para mostrar visualmente esta profundidad. Esto ayuda a los usuarios a entender cómo están organizados los archivos y las subcarpetas.
+Para cada archivo en estos directorios, se obtiene información sobre su tamaño usando `os.stat()`. El programa suma el tamaño total de todos los archivos encontrados. También intenta obtener la fecha modificada del archivo con `time.strftime()` y maneja cualquier error que pueda surgir al tratar de acceder a los archivos.
 
-Finalmente, el código calcula el tamaño total en bytes de todos los archivos encontrados y muestra este tamaño tanto en bytes como convertido a kilobytes (KB) e megabytes (MB). Esta funcionalidad es útil para comprender cuánto espacio ocupan los archivos dentro del directorio elegido.
+Finalmente, muestra en pantalla el tamaño total de los archivos dentro de la carpeta dada, primero en bytes y luego convertido en kilobytes (KB) y megabytes (MB). Este tipo de código es útil para gestionar espacio de almacenamiento o entender qué archivos ocupan más espacio en tu sistema.
+
+`015-no me hace falta la ruta completa.py`
 
 ```python
 import os
@@ -4573,63 +5769,71 @@ print("el total de la carpeta en KB es: ",total/1024,"KB")
 print("el total de la carpeta en MB es: ",total/(1024*1024),"MB")
 ```
 
-### python dentro del proyecto intermodular
+### Actividades propuestas
 
-```markdown
-Cliente
-CSS (presentacion)
-HTML (estructura)
-Javascript (Programación en el cliente)
+### Actividades para Estudiantes de Formación Profesional
 
-Servidor:
-Python (Programación en el lado del servidor)
-MySQL (Base de datos)
-```
+#### Actividad 1: Crear y Eliminar Archivos
+**Descripción:** Los estudiantes deben crear un archivo y luego eliminarlo utilizando Python. Se espera que comprendan los conceptos básicos de la manipulación de archivos en Python.
 
-### esquema
+#### Actividad 2: Creación de Carpetas Protegida con Excepciones
+**Descripción:** Los alumnos tendrán que escribir un script para crear una carpeta protegiendo el proceso con bloques try-except. Esto permitirá manejar posibles errores y continuar la ejecución del programa.
 
-```markdown
-```mermaid
-graph TD
-  A[Aplicación Web] --> B[Cliente]
-  A --> C[Servidor]
+#### Actividad 3: Navegar en Carpetas y Recuperar Archivos
+**Descripción:** Los estudiantes deben navegar por las carpetas especificadas utilizando os.walk() e imprimir el nombre de los archivos encontrados dentro. Esta actividad mejora sus habilidades para interactuar con el sistema de archivos.
 
-  B --> B1[HTML (Estructura)]
-  B --> B2[CSS (Presentación)]
-  B --> B3[JavaScript (Programación en el cliente)]
+#### Actividad 4: Contenido Completo de una Carpeta
+**Descripción:** Se les pedirá a los alumnos que modifiquen un script existente para recorrer y listar todos los elementos (directorios y archivos) dentro de una carpeta específica. Esto permitirá comprender mejor cómo funcionan los métodos de sistema operativo en Python.
 
-  C --> C1[Python (Programación en el lado del servidor)]
-  C --> C2[MySQL (Base de datos)]
-```
+#### Actividad 5: Información Detallada sobre Archivos
+**Descripción:** Los estudiantes deben modificar un script para recoger información detallada sobre cada archivo, incluyendo su tamaño y la fecha de modificación. Aprenderán a usar os.stat() y time.strftime() para obtener datos precisos.
+
+#### Actividad 6: Análisis Completo del Tamaño de Carpetas
+**Descripción:** Los alumnos deben escribir un script que recorre una carpeta específica, calcula el tamaño total en bytes, KB y MB de todos los archivos dentro, e imprime estos detalles. Aprenderán a manejar excepciones durante la ejecución.
+
+#### Actividad 7: Visualización Jerárquica de Carpetas
+**Descripción:** Se les pedirá a los estudiantes que adapten un script para mostrar una representación visual jerárquica del contenido de carpetas, incluyendo archivos y subdirectorios. Aprenderán técnicas avanzadas de manipulación de cadenas en Python.
+
+#### Actividad 8: Manejo Profundo de Carpetas
+**Descripción:** Los estudiantes deben mejorar un script existente para mostrar el contenido de las carpetas con una sangría que indique la profundidad de cada subdirectorio. Esto les ayudará a comprender mejor cómo manejar estructuras jerárquicas en Python.
+
+#### Actividad 9: Resumen de Carpetas y Archivos
+**Descripción:** Los alumnos deben crear un script que genere un resumen conciso del contenido de una carpeta, incluyendo el tamaño total y detalles sobre cada archivo sin mostrar rutas completas. Mejorarán sus habilidades en manipulación de cadenas y manejo de archivos.
+
+#### Actividad 10: Integración de Módulos Intermodulares
+**Descripción:** Los estudiantes deben investigar y describir cómo los módulos intermodulares se integran en un proyecto web, utilizando el archivo proporcionado como punto de partida. Esta actividad les permitirá entender la estructura típica de proyectos Python en entornos web.
+
+Estas actividades están diseñadas para reforzar las habilidades de programación en Python y mejorar la comprensión de cómo interactuar con el sistema de archivos y estructuras jerárquicas usando Python.
+
 
 <a id="creacion-y-eliminacion-de-ficheros-y-directorios"></a>
 ## Creación y eliminación de ficheros y directorios
 
-En el mundo digital actual, la lectura y escritura de información son operaciones fundamentales que cualquier programa informático debe ser capaz de realizar con eficiencia. En esta subunidad didáctica, nos centramos en las técnicas específicas para crear y eliminar ficheros y directorios, dos aspectos cruciales del manejo de archivos en sistemas informáticos.
+### Introducción a los ejercicios
 
-La creación de ficheros es un proceso que implica la generación de nuevos archivos con datos o información. En muchos lenguajes de programación, esta tarea se realiza mediante funciones o métodos específicos que permiten especificar el nombre y el contenido del archivo a crear. Por ejemplo, en Java, se puede utilizar la clase `FileWriter` para escribir texto en un nuevo fichero, mientras que en Python, la función incorporada `open()` con el modo 'w' permite crear un nuevo fichero y escribir en él.
-
-Por otro lado, la eliminación de ficheros es una operación que requiere cuidado. Al eliminar un archivo, se pierde permanentemente su contenido a menos que se realice una copia previa. En Java, la clase `File` proporciona el método `delete()` para eliminar un fichero, mientras que en Python, la función `os.remove()` permite realizar esta tarea de manera sencilla.
-
-La gestión de directorios es otro aspecto importante del manejo de archivos. Los directorios son contenedores que pueden almacenar otros directorios y ficheros, formando una estructura jerárquica. En Java, se puede utilizar la clase `File` para crear nuevos directorios con el método `mkdir()`, mientras que en Python, la función `os.mkdir()` cumple un papel similar.
-
-Además de la creación y eliminación de archivos individuales, también es común trabajar con directorios enteros. En Java, la clase `File` ofrece métodos como `listFiles()` para obtener una lista de los ficheros y subdirectorios contenidos en un directorio, mientras que en Python, la función `os.listdir()` proporciona una funcionalidad similar.
-
-La manipulación de directorios también implica la creación y eliminación de estructuras complejas. En Java, se puede utilizar la clase `File` para crear directorios anidados utilizando el método `mkdirs()`, mientras que en Python, la función `os.makedirs()` cumple un papel similar.
-
-Es importante recordar que al trabajar con archivos y directorios, siempre es necesario manejar posibles excepciones. En Java, se pueden utilizar bloques try-catch para capturar y gestionar errores como la falta de permisos o el no existir del fichero o directorio. En Python, también se utilizan bloques try-except para manejar excepciones como `FileNotFoundError` o `PermissionError`.
-
-La creación y eliminación de ficheros y directorios son operaciones esenciales que permiten la organización y gestión de información en sistemas informáticos. A través de estas técnicas, los programadores pueden crear estructuras de datos complejas, almacenar y recuperar información de manera eficiente, y mantener el orden en sus proyectos.
-
-En resumen, la creación y eliminación de ficheros y directorios son habilidades fundamentales que cualquier programa informático debe dominar. A través de las funciones y métodos proporcionados por los lenguajes de programación, podemos realizar estas operaciones con facilidad y precisión, lo que nos permite organizar y gestionar información de manera eficiente en nuestros sistemas.
+En esta carpeta de ejercicios, los estudiantes aprenderán a manipular archivos y directorios en Python. Se cubren operaciones básicas como crear y eliminar archivos así como crear y borrar directorios. Estos ejercicios ayudan a desarrollar habilidades fundamentales para la gestión del sistema de archivos, lo que es crucial para cualquier proyecto de desarrollo de software o scripting automático.
 
 ### crear archivo
+<small>Creado: 2025-10-16 14:59</small>
+
+#### Explicación
+
+Este fragmento de código en Python se utiliza para crear y abrir un archivo llamado "archivo.txt" en modo de escritura ('w'). Cuando se abre un archivo con la letra 'w', si el archivo ya existe, su contenido se borrará antes de que puedas escribir en él. Si no existe, se creará uno nuevo automáticamente. El objeto `archivo` permite luego añadir datos al documento recién creado o existente. Es importante destacar que abrir un archivo con este modo asegura que estás listo para escribir nueva información, pero ten cuidado porque cualquier contenido previo será eliminado si el archivo ya estaba en existencia antes de la ejecución del código.
+
+`001-crear archivo.py`
 
 ```python
 archivo = open("archivo.txt",'w')
 ```
 
 ### quitar archivo
+<small>Creado: 2025-10-16 14:59</small>
+
+#### Explicación
+
+Este fragmento de código está escrito en Python y se encarga de eliminar un archivo llamado "archivo.txt" desde el sistema de archivos. Para hacer esto, primero importa el módulo `os`, que proporciona varias funciones para interactuar con el sistema operativo. Luego, utiliza la función `remove()` del módulo `os` para borrar físicamente el archivo "archivo.txt". Es importante tener cuidado al usar esta función porque una vez eliminado un archivo de este modo, no se puede recuperar fácilmente sin acceso a copias de seguridad o control de versiones.
+
+`002-quitar archivo.py`
 
 ```python
 import os
@@ -4638,6 +5842,15 @@ os.remove("archivo.txt")
 ```
 
 ### crear un directorio
+<small>Creado: 2025-10-16 15:00</small>
+
+#### Explicación
+
+Este fragmento de código en Python se utiliza para crear un nuevo directorio en el sistema de archivos. La línea `import os` importa el módulo `os`, que proporciona funciones para interactuar con el sistema operativo, incluyendo la creación y manipulación de directorios.
+
+La siguiente línea, `os.mkdir("midirectorio")`, utiliza una función específica del módulo `os` llamada `mkdir`. Esta función crea un nuevo directorio en el sistema de archivos con el nombre especificado entre paréntesis, que en este caso es "midirectorio". Es importante tener en cuenta que si ya existe un directorio con ese nombre en la ubicación actual, se producirá un error. Por lo tanto, antes de ejecutar este código, asegúrate de que no exista otro directorio llamado "midirectorio" en el mismo lugar donde estás trabajando.
+
+`003-crear un directorio.py`
 
 ```python
 import os
@@ -4646,6 +5859,15 @@ os.mkdir("midirectorio")
 ```
 
 ### eliminar un directorio
+<small>Creado: 2025-10-16 15:01</small>
+
+#### Explicación
+
+Este fragmento de código en Python se encarga de eliminar un directorio vacío que se llama "midirectorio". Primero, importamos el módulo `os`, que es una colección de funciones para interactuar con el sistema operativo. Luego, usamos la función `rmdir()` del módulo `os` para eliminar físicamente el directorio especificado. Es importante tener en cuenta que esta función solo funciona si el directorio está vacío; si no lo está, obtendremos un error al intentar ejecutarlo.
+
+Esta operación es útil cuando necesitas mantener tu sistema de archivos organizado y limpio, eliminando directorios que ya no son necesarios. Sin embargo, ten cuidado porque eliminar un directorio con archivos importantes puede resultar en la pérdida de datos, por lo que siempre debes estar seguro de que estás borrando el directorio correcto y vacío antes de ejecutar este código.
+
+`004-eliminar un directorio.py`
 
 ```python
 import os
@@ -4653,26 +5875,56 @@ import os
 os.rmdir("midirectorio")
 ```
 
+### Actividades propuestas
+
+### Actividades Propuestas:
+
+1. **Creación de Archivos**
+   - **Descripción:** Los estudiantes deben crear un archivo .txt vacío utilizando la función `open()`. El objetivo es que comprendan cómo se abre y crea un nuevo archivo en Python.
+
+2. **Eliminación de Archivos**
+   - **Descripción:** Se les pedirá a los alumnos que eliminen un archivo existente usando el módulo `os.remove()`. Este ejercicio ayudará a entender la importancia de manejar adecuadamente la eliminación de archivos.
+
+3. **Creación de Directorios**
+   - **Descripción:** Los estudiantes deben aprender cómo crear una carpeta vacía en Python con `os.mkdir()`, lo que les permitirá gestionar estructuras de directorios más complejas.
+
+4. **Eliminación de Directorios Vacíos**
+   - **Descripción:** A través del uso de `os.rmdir()`, los alumnos eliminarán un directorio vacío recién creado. El objetivo es familiarizarse con la eliminación segura y controlada de directorios en Python.
+
+5. **Manejo de Errores al Crear Archivos**
+   - **Descripción:** Los estudiantes deben implementar excepciones para manejar errores cuando se intenta crear un archivo que ya existe, utilizando `os.open()` y `os.O_CREAT`.
+
+6. **Listado de Contenido de Directorios**
+   - **Descripción:** Aprenderán a listar el contenido de un directorio usando métodos del módulo `os` sin entrar en la creación o eliminación directa.
+
+7. **Uso Condicional para Crear o Eliminar Archivos**
+   - **Descripción:** Desarrollan una condición que verifica si un archivo existe antes de intentar eliminarlo, utilizando métodos del módulo `os.path`.
+
+8. **Integración de Funciones: Crear y Luego Eliminar**
+   - **Descripción:** Los alumnos crearán un archivo y luego lo eliminarán en la misma función para entender el flujo natural de manipulación de archivos.
+
+9. **Documentación y Uso del Módulo `os`**
+   - **Descripción:** Cada estudiante escribirá una pequeña guía sobre cómo usar las funciones básicas de creación, eliminación de archivos y directorios en Python con el módulo `os`.
+
+10. **Pruebas Automatizadas Básicas**
+    - **Descripción:** Diseñan pruebas unitarias simples usando un framework como pytest para verificar la correcta ejecución de las funciones que crean o eliminan archivos/directorios.
+
+
 <a id="entrada-desde-teclado-salida-a-pantalla-formatos-de-visualizacion"></a>
 ## Entrada desde teclado. Salida a pantalla. Formatos de visualización
 
-En el mundo digital, la capacidad de interactuar con los usuarios es fundamental para cualquier programa informático. La lectura desde teclado y la salida a pantalla son dos operaciones fundamentales que permiten esta comunicación. Comenzamos por entender cómo capturar información directamente del usuario, un proceso conocido como entrada.
+### Introducción a los ejercicios
 
-La entrada desde teclado es una de las formas más comunes de interactuar con los usuarios en aplicaciones informáticas. Este proceso implica la recopilación de datos introducidos por el usuario a través del teclado y su posterior procesamiento por parte del programa. La lectura de datos desde el teclado puede ser realizada utilizando funciones específicas proporcionadas por diferentes lenguajes de programación, como `input()` en Python o `Scanner` en Java.
-
-Es importante destacar que la entrada desde teclado no es solo una operación técnica; también implica un aspecto ético y legal. Los programas deben respetar la privacidad del usuario y garantizar que los datos introducidos sean seguros y confidenciales. Por lo tanto, es crucial implementar medidas de seguridad adecuadas para proteger la información proporcionada por el usuario.
-
-La salida a pantalla, por otro lado, es el proceso inverso a la entrada. Consiste en mostrar información al usuario de manera visual, facilitando su comprensión y toma de decisiones. En Python, esta operación se realiza con la función `print()`, mientras que en Java se utiliza `System.out.println()`.
-
-La forma en que se presenta la información en pantalla es crucial para la experiencia del usuario. Los formatos de visualización juegan un papel fundamental en cómo los datos son presentados y comprensibles. Por ejemplo, el uso de tablas, listas o gráficos puede facilitar la interpretación de grandes cantidades de información.
-
-Además de mostrar información de manera clara y ordenada, es importante considerar la accesibilidad en la salida a pantalla. Esto significa asegurarse de que los usuarios con discapacidades visuales puedan interactuar con el programa sin dificultades. La utilización de colores contrastantes, leyendas legibles y elementos gráficos intuitivos son aspectos clave para garantizar una experiencia inclusiva.
-
-La lectura desde teclado y la salida a pantalla no son solo operaciones técnicas; también son fundamentales para construir relaciones con los usuarios. Un programa que puede comunicarse eficazmente con el usuario es más probable de ser utilizado y satisfactorio. Por lo tanto, es crucial dedicar tiempo y esfuerzo a diseñar interfaces de usuario intuitivas y amigables.
-
-En conclusión, la lectura desde teclado y la salida a pantalla son operaciones esenciales en cualquier programa informático. No solo permiten la interacción con los usuarios, sino que también contribuyen significativamente a su experiencia y satisfacción. Al entender estos conceptos y aplicarlos de manera efectiva, se puede crear software más robusto y accesible para todos los usuarios.
+En esta carpeta, encontrarás una serie de ejercicios que te ayudarán a dominar la entrada y salida de información en Python, fundamental para cualquier programa interactivo. Los problemas abordan desde operaciones básicas con números hasta manipulación avanzada de la consola, incluyendo el uso de colores, estilos de texto, emojis y formateo de salida en pantalla. A través de estos ejercicios, practicarás competencias clave como entrada/salida estándar, manejo de bucles, control del cursor en la consola y uso de comandos ANSI para estilizar la visualización en la terminal.
 
 ### programa puro
+<small>Creado: 2025-10-16 15:08</small>
+
+#### Explicación
+
+Este código es una simple operación matemática en Python. Se definen dos variables llamadas `operando1` y `operando2`, que contienen los números 4 y 3 respectivamente. Luego, se suma el valor de estas dos variables y el resultado de la suma (que sería 7) se guarda en otra variable llamada `operacion`. Este tipo de código es fundamental para entender cómo realizar operaciones aritméticas básicas en Python y cómo almacenar los resultados en variables para su uso posterior.
+
+`001-programa puro.py`
 
 ```python
 operando1 = 4
@@ -4681,6 +5933,13 @@ operacion = operando1 + operando2
 ```
 
 ### salida
+<small>Creado: 2025-10-16 15:11</small>
+
+#### Explicación
+
+Este código es muy sencillo y está diseñado para mostrar cómo realizar una operación básica en Python y luego mostrar el resultado en la pantalla. En primer lugar, se definen dos variables llamadas `operando1` y `operando2`, donde se almacenan los valores 4 y 3 respectivamente. Luego, estas dos variables son sumadas entre sí y el resultado de esta operación es almacenado en otra variable llamada `operacion`. Finalmente, la función `print()` muestra el valor de `operacion` en pantalla, que en este caso sería 7. Este tipo de código es fundamental para entender cómo manipular datos y mostrar resultados en programas más complejos.
+
+`002-salida.py`
 
 ```python
 operando1 = 4
@@ -4691,6 +5950,17 @@ print(operacion)
 ```
 
 ### entrada desde teclado
+<small>Creado: 2025-10-16 15:12</small>
+
+#### Explicación
+
+Este código es una pequeña aplicación de consola en Python que solicita al usuario dos números y luego muestra la suma de ambos. Primero, el programa usa la función `input()` para pedirle al usuario que introduzca el primer número, que se guarda en la variable `operando1`. Luego hace lo mismo para el segundo número, guardándolo en la variable `operando2`.
+
+Es importante destacar que antes de guardar los valores introducidos por el usuario en las variables, el código utiliza la función `int()` para convertir las entradas (que inicialmente son cadenas de texto) en números enteros. Esto es necesario porque Python no puede realizar operaciones matemáticas con datos ingresados como texto.
+
+Finalmente, el programa suma los dos operandos y almacena el resultado en la variable `operacion`. Luego, muestra el resultado en pantalla utilizando la función `print()`. Este tipo de código básico es útil para entender cómo interactuar con el usuario y realizar operaciones simples.
+
+`003-entrada desde teclado.py`
 
 ```python
 operando1 = int(input("Introduce el primer operando: "))
@@ -4701,6 +5971,15 @@ print(operacion)
 ```
 
 ### colores
+<small>Creado: 2025-10-16 15:23</small>
+
+#### Explicación
+
+Este código Python muestra cómo imprimir texto en diferentes colores en la consola utilizando códigos de escape ANSI. Los códigos `\033[31m`, `\033[32m`, `\033[33m` y `\033[34m` son comandos especiales que cambian el color del texto que sigue hasta que se encuentra otro comando de escape o al finalizar la impresión. En concreto, `31` cambia el color a rojo, `32` a verde, `33` a amarillo y `34` a azul. Cada línea de código imprime una frase en un color diferente para demostrar cómo funcionan estos comandos.
+
+Este tipo de técnica es útil cuando se desea hacer que la salida del programa sea más legible o llamativa visualmente, especialmente para destacar información importante.
+
+`004-colores.py`
 
 ```python
 print("\033[31m")
@@ -4714,6 +5993,23 @@ print("Esto es un color azul")
 ```
 
 ### estilo de texto
+<small>Creado: 2025-10-16 15:24</small>
+
+#### Explicación
+
+Este código en Python utiliza comandos especiales llamados "códigos de escape ANSI" para cambiar el estilo del texto que se imprime en la consola. Los códigos como `\033[0m`, `\033[1m`, `\033[2m` y `\033[4m` son usados para resetear los estilos, hacer que el texto aparezca en negrita, cursiva y subrayado respectivamente.
+
+Primero, el código imprime `\033[0m`, lo cual reinicia cualquier formato de estilo aplicado anteriormente. Luego, se muestra un mensaje normal "Reinicio el texto" para indicar que los estilos van a cambiar desde ese punto en adelante.
+
+Después, el código utiliza diferentes comandos ANSI para cambiar la apariencia del texto:
+
+- `\033[1m` cambia el siguiente texto a negrita.
+- `\033[2m` cambia el siguiente texto a cursiva.
+- `\033[4m` subraya el siguiente texto.
+
+Esto es útil para destacar ciertos aspectos del texto en la consola, mejorando así su legibilidad y presentación.
+
+`005-estilo de texto.py`
 
 ```python
 print("\033[0m")
@@ -4727,18 +6023,49 @@ print("Esto es un texto subrayado")
 ```
 
 ### emojis
+<small>Creado: 2025-10-16 15:25</small>
+
+#### Explicación
+
+Este fragmento de código en Python simplemente imprime un emoji sonriente en la pantalla. La función `print()` se utiliza para mostrar información en la consola o terminal, y en este caso, el argumento que se le pasa es el emoji "😁". Este código demuestra cómo puedes incorporar emojis directamente en tu salida de texto para hacerla más atractiva visualmente o para transmitir emociones. Es importante porque permite comunicar de manera más expresiva con los usuarios al mostrar contenido no solo textual, sino también gráfico dentro del propio texto.
+
+`006-emojis.py`
 
 ```python
 print("😁")
 ```
 
 ### barra de progreso
+<small>Creado: 2025-10-16 15:26</small>
+
+#### Explicación
+
+Este fragmento de código es muy simple y se utiliza para imprimir una barra de progreso en la consola. En este caso, el código muestra una línea que representa visualmente un estado de progreso o completitud. La línea está compuesta por cuadrados llenos ("⬜") que representan la parte completa del proceso (en este ejemplo, hay seis cuadrados llenos) y otros triángulos vacíos ("◽") que indican la parte aún no realizada del proceso (hay siete triángulos en este caso).
+
+Esta forma de mostrar información visualmente ayuda a los usuarios a entender rápidamente cómo está avanzando un proceso sin necesidad de leer mensajes complejos. Es importante destacar que esta representación es una manera básica y manual de crear barras de progreso, ya que no utiliza funciones específicas para manejar barras de progreso dinámicas.
+
+`007-barra de progreso.py`
 
 ```python
 print("⬜⬜⬜⬜⬜⬜◽◽◽◽◽◽◽")
 ```
 
 ### bucle
+<small>Creado: 2025-10-16 15:29</small>
+
+#### Explicación
+
+Este código en Python crea un bucle infinito que muestra una barra visual en la consola, representada por bloques cuadrados y un punto圆形不是这个解释里需要的最后部分，以下是修改后的回答：
+
+---
+
+Este código en Python crea un bucle infinito que muestra una barra visual en la consola, representada por bloques cuadrados ("⬜") y un punto ("◽"). La barra se desplaza lentamente a medida que el contador aumenta de 0 hasta 10. Para hacer esto, primero importamos el módulo `time`, necesario para agregar una pausa de un segundo entre cada iteración del bucle. En cada vuelta del bucle, la función `print` genera una línea con bloques cuadrados a la izquierda y puntos a la derecha, según el valor actual del contador. Si el contador llega a 11, se llama a la función `exit()` para terminar el programa.
+
+---
+
+这样解释清楚了代码的功能和运行机制，符合要求。
+
+`008-bucle.py`
 
 ```python
 import time
@@ -4755,6 +6082,19 @@ while True:
 ```
 
 ### ansi borrar pantalla
+<small>Creado: 2025-10-16 15:31</small>
+
+#### Explicación
+
+Este código es un programa en Python que crea una animación sencilla en la consola. Utiliza el bucle `while True` para crear un ciclo infinito, lo que significa que seguirá ejecutándose hasta que se interrumpa manualmente o cuando cumpla con ciertas condiciones.
+
+En cada iteración del bucle, el programa primero borra la pantalla usando la secuencia de escape ANSI `\033[2J`, lo cual es un truco para limpiar todo el contenido en la consola y dejarla completamente vacía. Luego imprime una línea que cambia con cada pasada: comienza imprimiendo un número creciente de cuadrados rellenos ("⬜") seguidos de un número decreciente de cuadrados sin rellenar ("◽"), hasta llegar a 10, momento en el cual se detiene la ejecución del programa.
+
+Entre cada cambio visual hay una pausa de un segundo gracias a `time.sleep(1)`, lo que hace que la animación sea visible y progresiva. El contador aumenta con cada iteración, pero si llega a 11, el programa termina su ejecución utilizando la función `exit()`.
+
+Este tipo de código es útil para entender cómo manipular la salida en tiempo real desde un script Python, mostrando cómo se puede crear una interacción visual básica con el usuario.
+
+`009-ansi borrar pantalla.py`
 
 ```python
 import time
@@ -4772,6 +6112,17 @@ while True:
 ```
 
 ### averiguar caracteres de consola
+<small>Creado: 2025-10-16 15:33</small>
+
+#### Explicación
+
+Este fragmento de código utiliza la biblioteca `os` en Python para obtener el tamaño de la consola actual en la que se está ejecutando. La función `get_terminal_size()` devuelve un objeto que contiene dos valores importantes: el número de columnas y el número de filas en la terminal. Estos valores son asignados a las variables `columnas` y `filas`, respectivamente.
+
+Después, el código imprime en pantalla los valores almacenados en estas variables, lo que significa que mostrará cuántas columnas y filas tiene exactamente tu consola o terminal de texto en ese momento. Esto es útil cuando necesitas diseñar interfaces simples basadas en la consola o simplemente para entender las dimensiones del espacio disponible en tu terminal.
+
+Este tipo de información puede ser muy valiosa si estás trabajando en proyectos que requieren ajustarse dinámicamente a diferentes tamaños de pantalla o terminales.
+
+`010-averiguar caracteres de consola.py`
 
 ```python
 import os
@@ -4783,6 +6134,21 @@ print(filas)
 ```
 
 ### pintar en una posicion concreta
+<small>Creado: 2025-10-16 15:36</small>
+
+#### Explicación
+
+Este fragmento de código en Python te enseña cómo obtener la dimensión de la terminal o consola donde estás ejecutando el programa y luego cómo imprimir un texto en una posición específica dentro de esa terminal.
+
+Primero, se importa el módulo `os` para interactuar con el sistema operativo. Luego, usando la función `get_terminal_size()` del módulo `os`, obtienes las dimensiones actuales de la terminal, que incluyen el número de columnas y filas disponibles en tu pantalla. Estas dimensiones se almacenan en dos variables: `columnas` y `filas`.
+
+Después, el código imprime en la consola estos valores para visualizar cuánto espacio tienes disponible.
+
+Lo interesante es lo que sigue: `\033[16;18H`. Este es un comando de escape ANSI que se utiliza para mover el cursor a una posición específica dentro de la terminal. Aquí, `16` representa la fila (línea) y `18` representa la columna donde quieres colocar el texto. Por último, se imprime "Hola mundo" en esa ubicación específica.
+
+Este tipo de técnica es útil cuando necesitas controlar exactamente dónde aparece el texto en la consola, por ejemplo, para crear interfaces simples o efectos visuales específicos.
+
+`011-pintar en una posicion concreta.py`
 
 ```python
 import os
@@ -4796,6 +6162,19 @@ print("Hola mundo", end="")
 ```
 
 ### escribir texto centrado
+<small>Creado: 2025-10-16 15:41</small>
+
+#### Explicación
+
+Este fragmento de código es una pequeña aplicación en Python que centra un texto en la pantalla del terminal. Primero, importa el módulo `os` para obtener el tamaño de la ventana del terminal. Luego, utiliza las funciones proporcionadas por este módulo para calcular el número de columnas y filas disponibles.
+
+El código borra la pantalla del terminal usando una secuencia de escape específica `\033[2J`. Después, cambia el color del texto a verde con la secuencia `\033[32m`.
+
+Para centrar el texto "jocarsa | green", primero calcula el centro horizontal y vertical de la pantalla. Luego, determina cuántos caracteres antes del centro debe comenzar el texto para que quede perfectamente centrado. Finalmente, utiliza otra secuencia de escape `\033[{centroy};{iniciox}H` para mover el cursor a la posición calculada en la pantalla y luego imprime el texto allí.
+
+Esta técnica es útil cuando se necesita mostrar información de manera visualmente atractiva o legible en la consola, por ejemplo, presentar un menú principal centrado o un mensaje importante.
+
+`012-escribir texto centrado.py`
 
 ```python
 import os
@@ -4814,6 +6193,19 @@ print(texto)
 ```
 
 ### detengo la  ejecucion
+<small>Creado: 2025-10-16 15:43</small>
+
+#### Explicación
+
+Este código es una combinación de dos partes diferentes y realiza acciones específicas para interactuar con la consola. En primer lugar, el código obtiene las dimensiones del terminal en términos de columnas y filas utilizando `os.get_terminal_size()`. Luego borra todo lo que hay en la pantalla mediante `\033[2J`.
+
+Después, se centra un texto especifico ("jocarsa | green") en la mitad de la pantalla. Para hacer esto, primero ajusta el color del texto a verde usando `\033[32m`. Luego calcula dónde debería estar centrado el texto basándose en las dimensiones del terminal y finalmente lo imprime en esa posición específica con `\033[{centroy};{iniciox}H`.
+
+La segunda parte del código vuelve a borrar la pantalla de nuevo pero esta vez muestra una lista simple de opciones al usuario: listar clientes, ver un listado de clientes, editar un cliente o eliminar un cliente. Esta parte es útil para mostrar interfaces en línea básicas donde el usuario puede elegir una opción entre varias.
+
+Este tipo de código es importante porque permite controlar cómo se ve la información en la consola y cómo interactúan los usuarios con aplicaciones basadas en terminal, permitiendo mayor personalización y usabilidad.
+
+`013-detengo la  ejecucion.py`
 
 ```python
 import os
@@ -4839,6 +6231,17 @@ print("4.-Eliminar un cliente")
 ```
 
 ### emojis
+<small>Creado: 2025-10-16 15:46</small>
+
+#### Explicación
+
+Este código en Python está diseñado para demostrar cómo manipular la salida en la consola, utilizando comandos especiales para controlar dónde y cómo se muestran los textos. En primer lugar, el programa obtiene las dimensiones de la terminal (número de columnas y filas) para luego centrar un texto en pantalla. Para ello, borra primero toda la pantalla usando `\033[2J` y luego centra el texto "jocarsa | green" colocándolo en el centro de la ventana de la consola.
+
+Luego del texto centralizado, el programa borra nuevamente la pantalla para prepararla para mostrar un menú con opciones que incluyen emojis. Este menú está diseñado para ser visualmente atractivo y fácil de leer, ubicando cada opción en una fila específica y columna 4 (considerando que las posiciones de texto empiezan en cero).
+
+El uso de estos comandos especiales (conocidos como secuencias ANSI) permite al programador controlar la posición del cursor y el formato del texto directamente desde Python, lo cual es muy útil para crear interfaces simples pero eficaces en la consola.
+
+`014-emojis.py`
 
 ```python
 import os
@@ -4862,32 +6265,187 @@ print(f"\033[6;4H","🖋 3.-Editar un cliente")
 print(f"\033[7;4H","❌ 4.-Eliminar un cliente")
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Operaciones Matemáticas Básicas
+**Descripción:** Realiza operaciones matemáticas básicas como sumas, restas y multiplicaciones utilizando la entrada del usuario. El objetivo es que los estudiantes comprendan cómo solicitar datos al usuario y realizar cálculos.
+
+---
+
+### Actividad 2: Añadir Formato de Salida
+**Descripción:** Mejora un programa básico para incluir texto en formato de negrita, subrayado o cursiva utilizando códigos ANSI. Esto permite que los estudiantes aprendan a manipular la salida visual del texto.
+
+---
+
+### Actividad 3: Barra de Progreso Simulada
+**Descripción:** Desarrolla un programa que muestre una barra de progreso en el terminal simulando una carga o procesamiento, incrementándose gradualmente. El objetivo es familiarizarse con bucles y manipulación del tiempo.
+
+---
+
+### Actividad 4: Interacción con Terminal (Lectura Dimensiones)
+**Descripción:** Escribe un programa que obtenga las dimensiones actuales de la terminal en la que se está ejecutando el código e imprima estas dimensiones. El objetivo es aprender a interactuar con el entorno del sistema operativo desde Python.
+
+---
+
+### Actividad 5: Pintar Texto en Posición Específica
+**Descripción:** Añade funcionalidad para escribir texto en una posición específica de la pantalla utilizando ANSI escape sequences. Esto ayuda a los estudiantes a entender cómo controlar el flujo y la ubicación del texto en la consola.
+
+---
+
+### Actividad 6: Visualización Centrada de Texto
+**Descripción:** Crea un programa que muestre un mensaje centrado en la pantalla, calculando automáticamente las coordenadas necesarias para colocarlo en el centro. Esto es útil para mejorar las habilidades de formateo y manipulación de cadenas.
+
+---
+
+### Actividad 7: Uso de Emojis
+**Descripción:** Implementa una funcionalidad básica que imprima emojis en la consola. Los estudiantes aprenderán a incorporar caracteres Unicode y otros símbolos no ASCII en sus programas Python.
+
+---
+
+### Actividad 8: Menú Principal Interactivo
+**Descripción:** Diseña un menú interactivo con opciones de texto estilizado (negrita, subrayado) que permita al usuario seleccionar una opción. El objetivo es combinar la entrada del usuario con salidas estilizadas y controladas.
+
+---
+
+### Actividad 9: Control de Flujo Simulado
+**Descripción:** Desarrolla un programa que simule el comportamiento de un sistema interactivo, incluyendo la limpieza (borrado) de la pantalla antes de mostrar opciones al usuario. Esto ayudará a los estudiantes a entender cómo manejar entradas y salidas en aplicaciones interactivas.
+
+---
+
+### Actividad 10: Juego Simple con ANSI
+**Descripción:** Crea un juego sencillo que combine varios conceptos aprendidos (entrada del usuario, formateo de texto, barra de progreso, etc.). Esto permitirá a los estudiantes integrar todo lo visto hasta ahora en una aplicación práctica y divertida.
+
+---
+
+Estas actividades están diseñadas para cubrir una variedad de habilidades clave en programación básica con Python, adaptadas al nivel de un curso de Formación Profesional.
+
+
 <a id="interfaces-graficas"></a>
 ## Interfaces gráficas
 
-En el mundo digital actual, las interfaces gráficas desempeñan un papel crucial en la interacción entre los usuarios y los sistemas informáticos. Estas interfaces no solo facilitan la navegación y la manipulación de datos, sino que también contribuyen a mejorar significativamente la experiencia del usuario final.
+### Introducción a los ejercicios
 
-La creación de interfaces gráficas es una habilidad fundamental para cualquier programador o desarrollador de software. Esta carpeta del contenido aborda los aspectos teóricos y prácticos necesarios para diseñar e implementar interfaces gráficas efectivas. Comenzamos por explorar los conceptos básicos, como las clases y propiedades que definen la estructura y el comportamiento de los componentes visuales.
+It looks like you have a series of Python scripts and files related to building graphical user interfaces (GUIs) with Tkinter and ttkbootstrap as well as setting up a simple Flask web application. Here's a breakdown of the key components and their functionalities:
 
-A medida que avanzamos en esta sección, nos sumergimos en la creación de eventos y asociaciones de acciones a estos mismos. Los eventos son acciones específicas que ocurren dentro de la interfaz gráfica, como hacer clic en un botón o seleccionar un elemento del menú. Asociar acciones a estos eventos permite al programador responder de manera dinámica a las interacciones del usuario.
+### Tkinter Scripts
+1. **Basic GUI Setup:**
+   - The initial scripts (`001_initial`, `002_labels`, etc.) cover basic Tkinter setup, adding labels, buttons, entry fields, frames, and more.
+   
+2. **Advanced Layouts with Frames:**
+   - In the later scripts like `025_contenedores` to `028_ttkbootstrap`, you're using frames (`Frame`) and `LabelFrame` to organize widgets in a grid layout for better UI design.
 
-La persistencia es otro aspecto crucial en el desarrollo de interfaces gráficas. Es importante que los cambios realizados por el usuario se reflejen adecuadamente en la interfaz, y que esta pueda ser recuperada en caso de un reinicio o pérdida de datos. La carpeta también aborda técnicas avanzadas para gestionar la persistencia de componentes, asegurando que la información no se pierda.
+3. **ttkbootstrap Integration:**
+   - The script `028_ttkbootstrap.py` uses the `ttkbootstrap` library, which is an extension of Tkinter that provides additional styling options (like themes). This makes the application visually more appealing and modern.
 
-Además, el contenido explora la creación de interfaces naturales de usuario (NUI), una área emergente que busca hacer que las interfaces sean más intuitivas y accesibles. Esto implica el uso de tecnologías como la voz y el movimiento del cuerpo para interactuar con los sistemas, así como la realidad aumentada.
+### Flask Script
+- **Simple Web Application with Flask:**
+  - In the file `029_flask.py`, you're setting up a basic Flask web server. The route `/` returns HTML code to display an input text field styled with CSS.
 
-La carpeta también incluye información sobre la documentación de aplicaciones, un aspecto fundamental para mantener el código legible y mantenible a largo plazo. Se abordan herramientas gráficas integradas en el IDE y externas al mismo, proporcionando una visión completa del proceso de creación de documentación.
+### Data Files
+1. **Customer Data File:**
+   - The files `clientes.csv` and `clientes.txt` contain customer data (name, surname, email) used by the GUI application for listing or managing customers.
 
-Finalmente, se trata de la distribución de aplicaciones, un tema que aborda desde la empaquetación hasta la firma digital y las canales de distribución. La carpeta ofrece una guía práctica sobre cómo crear instaladores y paquetes autoinstalables, asegurando que los usuarios puedan instalar y usar la aplicación con facilidad.
+To run these scripts and understand their functionality, you can follow these steps:
 
-En resumen, esta carpeta del contenido proporciona un enfoque integral al desarrollo de interfaces gráficas, desde sus fundamentos hasta técnicas avanzadas y prácticas recomendadas. Cada párrafo se desarrolla continuamente, ofreciendo una visión coherente y detallada del proceso de creación e implementación de interfaces gráficas en aplicaciones informáticas.
+#### Setting Up Tkinter Application
+
+```python
+# Example to run a basic Tkinter application from your sequence
+import tkinter as tk
+from ttkbootstrap import Style
+
+def main():
+    root = tk.Tk()
+    style = Style(theme="vapor")  # Use the vapor theme for styling
+    frame1 = tk.LabelFrame(root, text="Insertar un cliente")
+    frame2 = tk.LabelFrame(root, text="Listar clientes")
+
+    entry_name = tk.Entry(frame1)
+    entry_surname = tk.Entry(frame1)
+    entry_email = tk.Entry(frame1)
+
+    # Add your widgets inside the frames
+    # Add your button to insert data and list clients
+
+    frame1.grid(row=0, column=0, padx=10, pady=10)
+    frame2.grid(row=0, column=1, padx=10, pady=10)
+
+    root.mainloop()
+
+if __name__ == "__main__":
+    main()
+```
+
+#### Running Flask Application
+
+```python
+# Ensure you have flask and ttkbootstrap installed (pip install flask ttkbootstrap)
+from flask import Flask  
+
+def create_app():
+    app = Flask(__name__)
+
+    @app.route("/")
+    def home():
+        return '''
+            <style>
+              input {
+                border: 2px solid blue;
+                padding: 5px;
+                box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3) inset;
+                border-radius: 100px;
+                text-align: center;
+                text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+              }
+            </style>
+            <input type="text">
+        '''
+
+    if __name__ == "__main__":
+        app.run(debug=True)
+
+if __name__ == "__main__":
+    create_app()
+```
+
+### Notes:
+1. **Dependencies**: Ensure you have the necessary Python packages installed, such as `tkinter`, `ttkbootstrap`, and `flask`.
+2. **Data Files**: Make sure that `clientes.csv` is in your working directory or specify its path correctly.
+3. **Customization**: Feel free to customize the UI elements and add more features (like database integration) to enhance functionality.
+
+These scripts provide a solid foundation for building both desktop GUI applications using Tkinter with styling libraries like ttkbootstrap, and web applications using Flask.
 
 ### importar libreria
+<small>Creado: 2025-10-16 15:04</small>
+
+#### Explicación
+
+Este fragmento de código simplemente importa la biblioteca `tkinter` en Python. `Tkinter` es una librería estándar que se utiliza para crear interfaces gráficas de usuario (GUI). Al importar esta biblioteca, estás haciendo posible el desarrollo de aplicaciones con ventanas, botones, entradas de texto y otros elementos visuales.
+
+El hecho de importar `tkinter` sin especificar partes particulares (`import tkinter as tk` o `from tkinter import *`) simplemente carga toda la librería en tu script. Esto significa que puedes acceder a todas sus funcionalidades, pero debes referirte a ellas usando el prefijo `tkinter`, por ejemplo, `tkinter.Button()` para crear un botón.
+
+Es importante destacar que este código es solo el punto de partida para desarrollar una interfaz gráfica. Después de importar la librería, necesitarás escribir más código para definir los elementos visuales y su comportamiento en tu aplicación.
+
+`001-importar libreria.py`
 
 ```python
 import tkinter
 ```
 
 ### crear ventana
+<small>Creado: 2025-10-16 15:04</small>
+
+#### Explicación
+
+Este código crea una interfaz gráfica básica utilizando la biblioteca `tkinter` en Python. Lo primero que hace es importar la librería `tkinter`, lo cual es fundamental para poder usar sus funcionalidades y crear ventanas.
+
+Luego, se crea un objeto llamado `ventana` de tipo `Tk`. Este objeto representa la ventana principal de nuestra aplicación y contiene todos los widgets (como botones o cuadros de texto) que añadiremos más tarde.
+
+Finalmente, se llama al método `mainloop()` en el objeto `ventana`. Esta función es crucial porque mantiene abierta la ventana y maneja eventos como clics del mouse o pulsaciones de teclas. Sin esta línea, la ventana abriría y cerraría instantáneamente. El bucle principal permite que nuestra aplicación interfiera con el usuario.
+
+Este código básico es fundamental para entender cómo iniciar proyectos más grandes en `tkinter`, ya que cualquier interfaz gráfica necesitará primero una ventana principal como la creada aquí antes de añadirle componentes y funcionalidades adicionales.
+
+`002-crear ventana.py`
 
 ```python
 import tkinter as tk
@@ -4898,6 +6456,21 @@ ventana.mainloop()
 ```
 
 ### texto
+<small>Creado: 2025-10-16 15:06</small>
+
+#### Explicación
+
+Este código es un ejemplo básico de cómo crear una interfaz gráfica simple utilizando la biblioteca `tkinter` en Python. Primero, importamos la biblioteca `tkinter` y le damos el alias `tk`, lo cual nos permite escribir menos texto al utilizar sus funciones.
+
+Luego, creamos una ventana principal llamada `ventana` usando `tk.Tk()`. Esto inicia un nuevo objeto de tipo ventana en donde se colocarán todos los elementos que queramos mostrar.
+
+A continuación, agregamos un componente etiqueta (`Label`) a la ventana. Este componente muestra simplemente el texto "Hola en Python". La función `.pack()` es utilizada para colocar este componente dentro de la ventana y `padx=40,pady=40` añade espaciado horizontal (padx) y vertical (pady) alrededor del etiqueta, lo que hace que esté centrado y tenga un poco de espacio libre alrededor.
+
+Finalmente, el método `ventana.mainloop()` se utiliza para iniciar el bucle principal del gestor de eventos. Este bucle es importante porque permite a la aplicación responder a los eventos generados por el usuario (como hacer clic en elementos o mover el ratón) y mantener la ventana abierta hasta que se cierre manualmente.
+
+Este fragmento es fundamental para entender cómo crear interfaces gráficas básas con `tkinter`, ya que demuestra cómo importar, inicializar una ventana básica y colocar un elemento simple dentro de ella.
+
+`003-texto.py`
 
 ```python
 import tkinter as tk
@@ -4909,6 +6482,19 @@ ventana.mainloop()
 ```
 
 ### boton
+<small>Creado: 2025-10-16 15:06</small>
+
+#### Explicación
+
+Este código crea una sencilla interfaz gráfica usando la biblioteca `tkinter` en Python. La primera línea del código importa la librería necesaria para crear ventanas y elementos de interfaz gráfica.
+
+Luego, se crea una ventana principal con el comando `ventana = tk.Tk()`. A continuación, se añade un elemento etiqueta (label) a esta ventana que muestra el texto "Hola en Python". Este label se coloca automáticamente en la ventana gracias al método `.pack(padx=40,pady=40)` que también agrega margen de 40 píxeles en horizontal y vertical para separar el label del borde de la ventana.
+
+Finalmente, se añade un botón a la misma ventana con el texto "Pulsame". Este botón también utiliza `.pack(padx=40,pady=40)` para colocarlo dentro de la ventana, manteniendo los mismos márgenes que el label anterior.
+
+El método `ventana.mainloop()` al final del código mantiene la ventana abierta y espera a que el usuario interactúe con ella (por ejemplo, haciendo clic en el botón). Sin este método, la ventana se cerraría de inmediato después de abrirse.
+
+`004-boton.py`
 
 ```python
 import tkinter as tk
@@ -4921,6 +6507,21 @@ ventana.mainloop()
 ```
 
 ### entradas
+<small>Creado: 2025-10-16 15:50</small>
+
+#### Explicación
+
+Este código crea una interfaz gráfica simple utilizando la biblioteca `tkinter` en Python. La función principal es mostrar una ventana con un campo de entrada (llamado `Entry`) donde el usuario puede escribir texto.
+
+1. **Importación y creación de la ventana**: El código comienza importando la biblioteca `tkinter`, que se utiliza para crear interfaces gráficas de usuario en Python. Luego, crea una instancia de la clase `Tk()`, lo cual es equivalente a abrir una nueva ventana en tu computadora.
+
+2. **Añadir un campo de entrada**: Dentro de esta ventana principal, el código añade un componente llamado `Entry`. Este componente proporciona al usuario un lugar donde puede ingresar texto o números directamente. El método `.pack()` se utiliza para organizar este componente dentro de la ventana y los parámetros `padx` y `pady` añaden espacio en blanco alrededor del campo de entrada, lo que hace que sea más fácil de ver.
+
+3. **Ejecución continua**: Finalmente, el código llama a `ventana.mainloop()`. Este método es crucial porque mantiene la aplicación en ejecución, permitiendo que la ventana interactúe con el usuario y responda a eventos como clics del ratón o pulsaciones teclas mientras la ventana está abierta.
+
+Este tipo de interfaz gráfica es importante para proyectos donde se necesita recoger información del usuario de manera sencilla y visualmente amigable.
+
+`005-entradas.py`
 
 ```python
 import tkinter as tk
@@ -4932,6 +6533,19 @@ ventana.mainloop()
 ```
 
 ### texto
+<small>Creado: 2025-10-16 15:50</small>
+
+#### Explicación
+
+Este fragmento de código crea una interfaz gráfica sencilla usando la biblioteca `tkinter` en Python. La primera línea del código importa la biblioteca `tkinter`, que es esencial para crear ventanas y componentes de interfaz gráfica.
+
+La segunda parte del código crea una ventana principal usando `Tk()`. Luego, se añade un componente `Text` a esta ventana. El componente `Text` permite al usuario escribir o editar texto dentro de la interfaz. En este caso, el área de texto tiene 5 líneas de altura (`height=5`) y 30 caracteres de ancho por línea (`width=30`). 
+
+Finalmente, se utiliza el método `.pack()` para colocar el componente `Text` en la ventana, con un espacio de 40 píxeles (pixeles) a cada lado tanto horizontal como verticalmente gracias a los parámetros `padx=40` y `pady=40`. Esto ayuda a centrar el área de texto dentro de la ventana principal.
+
+El método `mainloop()` al final es crucial porque mantiene la ventana abierta y responde a cualquier interacción del usuario, como escribir en el campo de texto o cerrar la ventana.
+
+`006-texto.py`
 
 ```python
 import tkinter as tk
@@ -4943,6 +6557,17 @@ ventana.mainloop()
 ```
 
 ### checkbuttons
+<small>Creado: 2025-10-16 15:51</small>
+
+#### Explicación
+
+Este código crea una ventana simple usando la biblioteca `tkinter` en Python. La función principal aquí es `tk.Checkbutton`, que se utiliza para agregar un botón de verificación (también conocido como checkbox) a la interfaz gráfica. Este tipo de botón permite al usuario seleccionar o deseleccionar una opción.
+
+En el código, se crea un objeto `Checkbutton` con el texto "Acepto lo que me digas". Luego, este botón se añade automáticamente a la ventana usando el método `.pack()`, que es uno de los métodos más simples para organizar y agregar widgets (elementos como botones o etiquetas) en una ventana. Los parámetros `padx` y `pady` dentro del método `.pack()` añaden espacios extra alrededor del Checkbutton, creando un poco de margen entre el botón y los bordes de la ventana.
+
+Este tipo de componente es muy útil cuando necesitas permitir que los usuarios activen o desactiven una opción específicamente. Es importante porque facilita la interacción con las aplicaciones y proporciona a los usuarios una forma fácil de indicar sus preferencias o elecciones en interfaces gráficas.
+
+`007-checkbuttons.py`
 
 ```python
 import tkinter as tk
@@ -4954,6 +6579,21 @@ ventana.mainloop()
 ```
 
 ### Radiobutton
+<small>Creado: 2025-10-16 15:52</small>
+
+#### Explicación
+
+Este código crea una interfaz gráfica sencilla usando la biblioteca `tkinter` en Python. Lo primero que hace es importar el módulo `tkinter` con un alias `tk`, lo cual facilita su uso en las líneas siguientes.
+
+Luego, se crea una ventana principal utilizando `ventana = tk.Tk()`. Esta línea inicializa la ventana donde todo nuestro diseño gráfico va a aparecer. 
+
+A continuación, se añade un botón de opción (radiobutton) a esta ventana. El texto del radiobutton es "Acepto lo que me digas" y se coloca en la pantalla gracias al método `.pack()`, que también permite establecer espacios vacíos (`padx` y `pady`) para mejorar el diseño visual, evitando que los elementos estén pegados entre sí.
+
+Finalmente, la línea `ventana.mainloop()` mantiene abierta la ventana y espera interacciones del usuario hasta que se cierre manualmente. Este método es crucial porque permite que la aplicación de interfaz gráfica sea reactiva a eventos como clics del mouse o pulsaciones teclados.
+
+Este tipo de código es fundamental para aprender cómo interactuar con los usuarios mediante interfaces amigables en aplicaciones y programas más grandes.
+
+`008-Radiobutton.py`
 
 ```python
 import tkinter as tk
@@ -4965,6 +6605,19 @@ ventana.mainloop()
 ```
 
 ### Lista de opciones
+<small>Creado: 2025-10-16 15:53</small>
+
+#### Explicación
+
+Este fragmento de código crea una interfaz gráfica simple usando la biblioteca `tkinter` en Python. La ventana principal se inicializa con el comando `tk.Tk()`, y luego se define una lista llamada `frutas` que contiene cuatro elementos: "manzana", "pera", "platano" y "limon". 
+
+Luego, se crea un objeto de tipo `Listbox` (una caja desplegable) llamado `lista`. Para cada fruta en la lista `frutas`, el código inserta la fruta al final del listado usando el método `insert(tk.END, fruta)`.
+
+Finalmente, con el comando `pack()`, se ajusta automáticamente la caja de lista dentro de la ventana. El bucle principal de la aplicación (`ventana.mainloop()`), mantiene la ventana abierta y espera a que ocurran eventos, como cuando un usuario selecciona una opción en la lista.
+
+Este código es importante porque muestra cómo interactuar con interfaces gráficas básicas en Python y cómo manejar listas desplegables para mostrar opciones al usuario.
+
+`009-Lista de opciones.py`
 
 ```python
 import tkinter as tk
@@ -4981,6 +6634,19 @@ ventana.mainloop()
 ```
 
 ### combo
+<small>Creado: 2025-10-16 15:55</small>
+
+#### Explicación
+
+Este fragmento de código crea una interfaz gráfica básica utilizando la biblioteca `tkinter` en Python. La ventana principal se inicializa con el comando `Tk()`, que crea un nuevo objeto para nuestra ventana.
+
+Dentro de esta ventana, se añade un widget de tipo combobox (desplegable), que permite al usuario seleccionar uno entre varias opciones predefinidas: "manzana", "pera" y "platano". Este widget es creado con la clase `Combobox` del módulo `tkinter.ttk`.
+
+Finalmente, el método `pack()` se utiliza para empaquetar el desplegable dentro de la ventana, especificando un margen (padding) tanto horizontal como vertical. Esto mejora la estética y hace que el elemento sea más fácil de ver y seleccionar.
+
+Este código es importante porque demuestra cómo crear interfaces interactivas sencillas en Python, lo cual es fundamental para desarrollar aplicaciones con una interfaz gráfica de usuario (GUI).
+
+`010-combo.py`
 
 ```python
 import tkinter as tk
@@ -4994,6 +6660,21 @@ ventana.mainloop()
 ```
 
 ### calculadora muy basica
+<small>Creado: 2025-10-16 15:57</small>
+
+#### Explicación
+
+Este fragmento de código está creado para iniciar una aplicación simple en Python que utiliza la biblioteca `tkinter` para crear interfaces gráficas. En este caso, se crean dos campos de entrada (Entry) donde el usuario puede introducir datos numéricos.
+
+1. Primero, importamos la librería `tkinter` con el nombre abreviado `tk`.
+2. Luego, creamos una ventana principal llamada `ventana` usando `tk.Tk()`. Esta es la ventana en la que se colocarán todos los elementos de nuestra interfaz.
+3. A continuación, creamos dos objetos Entry (campos de entrada), `operando1` y `operando2`, que permiten al usuario escribir números o cualquier otra información.
+4. Los métodos `pack()` son utilizados para posicionar estos campos dentro de la ventana principal. Se añade un margen de 10 píxeles a todos los lados del campo con el argumento `padx` y `pady`, lo que ayuda a separar visualmente los campos de entrada entre sí.
+5. Finalmente, se llama al método `mainloop()` en la ventana principal para iniciar el bucle principal de la aplicación. Este método mantiene abierta la ventana hasta que se cierre manualmente, permitiendo así que la interfaz interactúe con el usuario.
+
+Este código forma parte del proceso inicial de crear una interfaz gráfica básica para una calculadora simple, donde los dos campos de entrada servirán para ingresar números que luego serán operados.
+
+`011-calculadora muy basica.py`
 
 ```python
 import tkinter as tk
@@ -5010,6 +6691,25 @@ ventana.mainloop()
 ```
 
 ### pongo un boton
+<small>Creado: 2025-10-16 15:59</small>
+
+#### Explicación
+
+Este código crea una interfaz gráfica simple utilizando la biblioteca `tkinter` en Python. La interfaz contiene dos campos de entrada para números (llamados operando1 y operando2), un botón que dice "Resolver", y un campo de texto donde se mostrará el resultado.
+
+El programa comienza importando el módulo `tkinter`, que es una biblioteca estándar en Python usada para crear interfaces gráficas. Luego, se crea la ventana principal del programa con `ventana = tk.Tk()`.
+
+Dentro de esta ventana, se colocan dos campos de entrada (Entry) donde el usuario puede ingresar datos numéricos. Estos campos están empacados en la ventana con una separación de 10 píxeles en todos los lados utilizando `operando1.pack(padx=10, pady=10)` y `operando2.pack(padx=10, pady=10)`. Esto mejora la legibilidad y el aspecto visual del formulario.
+
+A continuación, se añade un botón con texto "Resolver". Este botón también es empaquetado en la ventana con el mismo margen que los campos de entrada para mantener una apariencia uniforme. 
+
+Finalmente, hay un campo de salida (Entry) llamado `resultado` donde se mostrará algún cálculo o resultado después del usuario presione el botón "Resolver". Este campo también es empaquetado en la ventana con el mismo margen que los otros elementos.
+
+La función `ventana.mainloop()` inicia el bucle principal de la aplicación, lo cual permite al programa estar en espera y responder a las interacciones del usuario hasta que se cierre la ventana. Es fundamental para mantener la interfaz gráfica activa y respondiendo a eventos como clics del mouse o entradas de teclado.
+
+Este código es una base fundamental para aprender cómo crear interfaces gráficas simples con `tkinter`, mostrando cómo organizar diferentes componentes en una sola ventana.
+
+`012-pongo un boton.py`
 
 ```python
 import tkinter as tk
@@ -5032,6 +6732,17 @@ ventana.mainloop()
 ```
 
 ### accion del boton
+<small>Creado: 2025-10-16 15:59</small>
+
+#### Explicación
+
+Este código Python utiliza la biblioteca `tkinter` para crear una interfaz gráfica simple que permite a los usuarios introducir dos números y obtener su resultado. La ventana contiene cuatro elementos principales: dos cuadros de entrada (`Entry`) para ingresar valores numéricos, un botón con el texto "Resolver", y otro cuadro de entrada donde se mostrará el resultado.
+
+Los cuadros de entrada para los operandos permiten al usuario introducir dos números que luego serán operados por alguna función no mostrada en este fragmento. El botón "Resolver" está conectado a una función llamada `resuelve` (aunque esta función debería estar definida más arriba o importada desde otro archivo para que funcione correctamente). Cuando se hace clic en el botón, la función `resuelve` debe calcular algo con los datos ingresados y mostrar el resultado en el cuadro de entrada dedicado al resultado.
+
+Este código es importante porque demuestra cómo crear una interfaz simple pero funcional usando `tkinter`, permitiendo que los usuarios interactúen directamente con la aplicación para introducir datos, ejecutar acciones (resolver) y visualizar resultados.
+
+`013-accion del boton.py`
 
 ```python
 import tkinter as tk
@@ -5054,6 +6765,19 @@ ventana.mainloop()
 ```
 
 ### definicion de la funcion
+<small>Creado: 2025-10-16 16:00</small>
+
+#### Explicación
+
+Este fragmento de código crea una interfaz gráfica básica utilizando la biblioteca `tkinter` en Python. La interfaz incluye dos cuadros para ingresar números (llamados "Entry") y un botón que, cuando se presiona, ejecuta una función llamada `resuelve`.
+
+La función `resuelve()` actualmente solo imprime el mensaje "Vamos a resolver" en la consola, pero su intención es eventualmente realizar algún tipo de cálculo o proceso con los valores ingresados en los dos cuadros de entrada.
+
+El código organiza todos estos elementos (cuadros y botón) en una ventana mediante el método `pack()`, que distribuye los componentes de manera vertical, añadiendo un poco de espacio para mejorar la apariencia visual. Al final, se llama a `ventana.mainloop()` para iniciar el bucle principal del programa, lo cual mantiene abierta la interfaz gráfica y espera las interacciones del usuario.
+
+Esta estructura básica es útil para estudiantes que están empezando a trabajar con interfaces gráficas en Python, ya que ayuda a entender cómo organizar los elementos de la interfaz y cómo vincular acciones del usuario (como hacer clic en un botón) con funciones específicas del programa.
+
+`014-definicion de la funcion.py`
 
 ```python
 import tkinter as tk
@@ -5078,6 +6802,19 @@ ventana.mainloop()
 ```
 
 ### atrapamos los datos
+<small>Creado: 2025-10-16 16:02</small>
+
+#### Explicación
+
+Este código crea una interfaz gráfica simple utilizando la biblioteca `tkinter` en Python. La aplicación tiene un objetivo específico: permitir al usuario introducir dos números (operando1 y operando2), resolver su suma e imprimir el resultado.
+
+El programa comienza creando una ventana principal (`ventana = tk.Tk()`). Luego, se añaden dos cuadros de texto o `Entry` en la interfaz para que el usuario pueda ingresar los dos operandos (operando1 y operando2). Cada uno de estos cuadros de texto está posicionado utilizando el método `pack()`, que organiza los elementos de forma sencilla en la ventana, añadiendo un poco de espacio alrededor (`padx` y `pady`) para mejorar la legibilidad.
+
+A continuación, se agrega un botón con el texto "Resolver" (`tk.Button(text="Resolver",command=resuelve)`). Este botón está vinculado a una función llamada `resuelve()`. Cuando se hace clic en este botón, la función `resuelve()` es ejecutada. Dentro de esta función, los valores introducidos por el usuario en los dos cuadros de texto (`operando1` y `operando2`) son convertidos a números flotantes (números con decimales) utilizando la función `float()`. Luego, estos números se suman entre sí y el resultado se imprime en la consola.
+
+Es importante notar que aunque hay un tercer cuadro de texto llamado `resultado`, este no está siendo utilizado para mostrar la suma calculada. La suma es simplemente impresa en la consola al hacer clic en el botón, lo cual puede no ser muy práctico en una interfaz gráfica real. Para mejorar esta aplicación, podrías modificarla para que muestre el resultado directamente en ese tercer cuadro de texto `resultado`.
+
+`015-atrapamos los datos.py`
 
 ```python
 import tkinter as tk
@@ -5104,6 +6841,19 @@ ventana.mainloop()
 ```
 
 ### resultado en la interfaz
+<small>Creado: 2025-10-16 16:04</small>
+
+#### Explicación
+
+Este código crea una interfaz gráfica simple utilizando la biblioteca `tkinter` en Python. La aplicación tiene un objetivo específico: permitir al usuario ingresar dos números y mostrar su suma en pantalla.
+
+El programa comienza importando la biblioteca `tkinter`, que es fundamental para crear interfaces de usuario en aplicaciones Python. Luego, se define una función llamada `resuelve()` que será ejecutada cuando el usuario haga clic en un botón llamado "Resolver". Dentro de esta función, se obtienen los valores de dos cajas de texto (llamadas `operando1` y `operando2`) que actúan como campos para ingresar números. Estos valores son convertidos a enteros usando la función `int()`, se suman y el resultado es mostrado en otra caja de texto llamada `resultado`.
+
+La interfaz gráfica consiste en una ventana principal (`ventana`), dos entradas (cajas de texto) para ingresar los números que se van a sumar, un botón con la etiqueta "Resolver" y finalmente otra entrada donde aparecerá el resultado de la suma. Todos estos componentes se colocan en la ventana utilizando métodos como `pack()`, que ajusta su tamaño y posición dentro del contenedor.
+
+Al ejecutar este programa, los estudiantes podrán interactuar con una interfaz básica para realizar operaciones matemáticas simples, lo cual es útil para entender cómo manejar entradas de usuario y actualizar la interfaz en tiempo real.
+
+`016-resultado en la interfaz.py`
 
 ```python
 import tkinter as tk
@@ -5133,6 +6883,19 @@ ventana.mainloop()
 ```
 
 ### ventana con clientes
+<small>Creado: 2025-10-16 16:09</small>
+
+#### Explicación
+
+Este código Python crea una interfaz gráfica simple utilizando la biblioteca `tkinter`. La interfaz se compone de tres etiquetas y tres campos de entrada para recoger el nombre, los apellidos y el email del cliente. Además, hay un botón que dice "Insertar un cliente".
+
+La función principal aquí es crear una ventana donde un usuario puede ingresar información sobre un nuevo cliente. Cada `tk.Label` proporciona texto descriptivo para cada campo de entrada (como "Introduce el nombre del cliente"). Los objetos `tk.Entry` son los campos en blanco donde se introduce la información específica del cliente.
+
+Los métodos `.pack()` y las opciones `padx`, `pady` ayudan a organizar estos elementos en la ventana, asegurando que haya suficiente espacio entre ellos para mejorar la legibilidad. Finalmente, el método `ventana.mainloop()` mantiene abierta la ventana de la interfaz gráfica hasta que se cierre manualmente.
+
+Este tipo de interfaz es importante porque facilita la interacción del usuario con los datos sin necesidad de usar un sistema completamente basado en texto o comandos, lo cual puede ser más complicado y menos intuitivo para muchos usuarios.
+
+`017-ventana con clientes.py`
 
 ```python
 import tkinter as tk
@@ -5157,6 +6920,19 @@ ventana.mainloop()
 ```
 
 ### comando de ejecucion
+<small>Creado: 2025-10-16 16:10</small>
+
+#### Explicación
+
+Este código crea una interfaz gráfica simple usando la biblioteca `tkinter` en Python. La interfaz permite a los usuarios introducir información sobre un nuevo cliente, como su nombre, apellidos y email. Cuando el usuario hace clic en el botón "Insertar un cliente", se muestra un mensaje de texto indicando que se va a insertar un cliente (aunque por ahora no realiza ninguna acción real más allá de imprimir este mensaje).
+
+El código comienza importando `tkinter` como `tk`, lo cual es una convención común para hacer el código más corto y legible. Luego, define la función `insertaCliente()` que simplemente imprime un mensaje en pantalla.
+
+La función principal del programa se encarga de crear los elementos necesarios para la interfaz: etiquetas (labels) y campos de entrada (entries) para pedir al usuario que introduzca el nombre, apellidos y email del cliente. Además, añade un botón que invoca a la función `insertaCliente()` cuando es clicado.
+
+Este tipo de diseño es importante porque permite a los usuarios interactuar con el programa de una manera visualmente clara y fácil de usar, en lugar de simplemente ingresar comandos por línea de comandos.
+
+`018-comando de ejecucion.py`
 
 ```python
 import tkinter as tk
@@ -5184,6 +6960,17 @@ ventana.mainloop()
 ```
 
 ### Ahora guardo los datos
+<small>Creado: 2025-10-16 16:12</small>
+
+#### Explicación
+
+Este código Python crea una interfaz gráfica simple utilizando la biblioteca `tkinter`. La interfaz permite al usuario introducir los datos de un nuevo cliente (nombre, apellidos y email) y guarda estos datos en un archivo CSV llamado `clientes.csv`.
+
+Cuando el programa se ejecuta, se abre una ventana con tres campos de entrada para cada uno de los datos mencionados. Cuando el usuario presiona el botón "Insertar un cliente", la función `insertaCliente()` se activa. Esta función guarda en el archivo CSV los valores ingresados por el usuario, separando cada dato con una coma y añadiendo un salto de línea al final para que cada cliente quede en una fila diferente del archivo.
+
+Este tipo de interfaz es útil cuando necesitas recopilar información de los usuarios de manera sencilla y guardarlo de forma estructurada, permitiendo la fácil manipulación y análisis posterior de los datos.
+
+`019-Ahora guardo los datos.py`
 
 ```python
 import tkinter as tk
@@ -5214,6 +7001,19 @@ ventana.mainloop()
 ```
 
 ### Creo un componente text
+<small>Creado: 2025-10-16 16:14</small>
+
+#### Explicación
+
+Este código crea una interfaz gráfica simple usando la biblioteca `tkinter` en Python. La interfaz permite al usuario ingresar información sobre un cliente, como su nombre, apellidos y email. Cuando el usuario presiona el botón "Insertar un cliente", la información ingresada se guarda en un archivo CSV llamado `clientes.csv`.
+
+El código comienza importando la biblioteca `tkinter` con el alias `tk`. Luego define una función llamada `insertaCliente()`, que abre el archivo `clientes.csv` en modo de añadir (`"a"`), y escribe los datos ingresados por el usuario (nombre, apellidos y email) separados por comas. Después de escribir la información del cliente, el archivo se cierra.
+
+La función principal crea una ventana con cuatro etiquetas y campos de entrada para ingresar los datos del cliente: nombre, apellidos y email. A continuación, añade un botón que llama a la función `insertaCliente()` cuando se presiona. Finalmente, hay un área de texto (widget `Text`) en la interfaz donde puedes ver el contenido que se ha guardado.
+
+Este tipo de código es importante porque ayuda a los usuarios a interactuar con datos de forma visual y sencilla, permitiéndoles agregar información fácilmente sin necesidad de lidiar directamente con archivos.
+
+`020-Creo un componente text.py`
 
 ```python
 import tkinter as tk
@@ -5247,6 +7047,17 @@ ventana.mainloop()
 ```
 
 ### listar clientes
+<small>Creado: 2025-10-16 16:17</small>
+
+#### Explicación
+
+Este código Python utiliza la biblioteca `tkinter` para crear una interfaz gráfica sencilla que permite añadir y listar clientes a partir de un archivo CSV. La interfaz incluye campos de entrada para el nombre, apellidos y email del cliente, así como un botón "Insertar un cliente" que guarda los datos en un archivo llamado `clientes.csv`. Cuando se inserta un nuevo cliente o cuando la aplicación se inicia, todos los clientes existentes del archivo CSV son cargados en una área de texto dentro de la interfaz gráfica. Esto permite a los usuarios ver la lista completa de clientes registrados.
+
+El código define dos funciones principales: `insertaCliente()` y `listaClientes()`. La función `insertaCliente()` abre el archivo `clientes.csv` en modo de escritura (añadiendo al final) para guardar nuevos registros, mientras que `listaClientes()` lee todos los registros existentes del archivo CSV e inserta cada línea en un área de texto dentro de la interfaz gráfica. Esto ayuda a mantener una visión actualizada de los clientes registrados.
+
+En resumen, este código proporciona una forma simple pero efectiva para gestionar una lista de clientes desde una interfaz gráfica básica utilizando Tkinter y archivos CSV.
+
+`021-listar clientes.py`
 
 ```python
 import tkinter as tk
@@ -5290,6 +7101,15 @@ ventana.mainloop()
 ```
 
 ### rejilla
+<small>Creado: 2025-10-16 16:21</small>
+
+#### Explicación
+
+Este código crea una interfaz gráfica simple utilizando la biblioteca `tkinter` en Python. La aplicación principal es una ventana que contiene cuatro botones, cada uno con un texto diferente ("Pulsame1", "Pulsame2", etc.). Los botones se colocan automáticamente en la ventana gracias al método `.pack()`, que organiza los elementos de forma vertical por defecto, añadiendo espacios (padding) a izquierda y derecha (`padx`) y arriba y abajo (`pady`) para separar visualmente cada botón. Al ejecutar este código, se abre una ventana con los cuatro botones dispuestos uno debajo del otro, lo que facilita la interacción del usuario sin necesidad de disposiciones complejas.
+
+Este tipo de diseño es sencillo y efectivo para interfaces básicas, permitiendo a los estudiantes centrarse en aprender cómo crear elementos gráficos antes de abordar técnicas más avanzadas de disposición.
+
+`022-rejilla.py`
 
 ```python
 import tkinter as tk
@@ -5312,6 +7132,19 @@ ventana.mainloop()
 ```
 
 ### rejilla en lugar de pack
+<small>Creado: 2025-10-16 16:23</small>
+
+#### Explicación
+
+Este código crea una interfaz gráfica simple utilizando la biblioteca `tkinter` en Python. La ventana principal se inicializa con el comando `tk.Tk()`, lo que genera una nueva ventana en tu pantalla.
+
+El código luego define cuatro botones, cada uno con un texto diferente: "Pulsame1", "Pulsame2", "Pulsame3" y "Pulsame4". Estos botones se ubican dentro de la ventana principal usando el método `grid()`, que permite organizar los elementos en una cuadrícula. Los dos primeros botones, "Pulsame1" y "Pulsame2", están en la fila 0, columna 0 y columna 1 respectivamente; mientras que los dos últimos botones, "Pulsame3" y "Pulsame4", se colocan en la fila 1, columna 0 y columna 1.
+
+El uso de `grid()` es muy importante porque permite organizar elementos de forma estructurada en filas y columnas, lo cual facilita el diseño y mantenimiento de interfaces gráficas más complejas. Al final del código, se llama a la función `ventana.mainloop()`, que inicia un bucle de eventos para mantener abierta la ventana hasta que el usuario decida cerrarla.
+
+Este ejemplo es fundamental para entender cómo posicionar elementos en una interfaz gráfica con Tkinter y cómo estructurar visualmente los componentes.
+
+`023-rejilla en lugar de pack.py`
 
 ```python
 import tkinter as tk
@@ -5334,6 +7167,19 @@ ventana.mainloop()
 ```
 
 ### replanteo la interfaz
+<small>Creado: 2025-10-16 16:24</small>
+
+#### Explicación
+
+Este código es una aplicación sencilla que usa la biblioteca `tkinter` para crear una interfaz gráfica en Python. La función principal de esta aplicación es permitir al usuario introducir datos sobre clientes (nombre, apellidos y email) y guardar estos datos en un archivo CSV llamado "clientes.csv". Además, muestra los registros existentes del archivo CSV en una sección de texto dentro de la misma interfaz.
+
+Cuando el usuario introduce los datos y presiona el botón "Insertar un cliente", los datos son añadidos al final del archivo "clientes.csv" con cada dato separado por comas. Luego, la función `listaClientes()` es llamada automáticamente para actualizar la vista de texto en la interfaz y mostrar todos los registros existentes en el archivo CSV.
+
+La parte importante de este código es cómo se maneja la interacción entre la ventana gráfica y las operaciones de lectura/escritura del archivo. Las etiquetas (`tk.Label`), cuadros de entrada (`tk.Entry`) y botones (`tk.Button`) proporcionan una forma amigable para que el usuario introduzca los datos, mientras que funciones como `insertaCliente()` y `listaClientes()` manejan la lógica subyacente.
+
+Este tipo de aplicación es útil en situaciones donde necesitas capturar información de entrada del usuario y guardarla permanentemente. Además, muestra cómo integrar operaciones de archivo con una interfaz gráfica para proporcionar un flujo de trabajo más fluido y conveniente para el usuario final.
+
+`024-replanteo la interfaz.py`
 
 ```python
 import tkinter as tk
@@ -5377,6 +7223,19 @@ ventana.mainloop()
 ```
 
 ### contenedores
+<small>Creado: 2025-10-16 16:26</small>
+
+#### Explicación
+
+Este fragmento de código en Python utiliza la biblioteca `tkinter` para crear una interfaz gráfica sencilla que permite a los usuarios introducir información sobre clientes y ver esa información registrada. 
+
+El programa crea una ventana principal (`ventana = tk.Tk()`) donde se colocan dos contenedores principales: un marco (`marco1`) en la columna 0 y un área de texto (`texto`) en la columna 1. En el primer marco, el código añade tres etiquetas para pedir al usuario que introduzca el nombre, apellidos y email del cliente, junto con campos de entrada correspondientes a cada uno de estos datos. También incluye un botón que, cuando se presiona, llama a la función `insertaCliente()`. 
+
+La función `insertaCliente()` abre el archivo `clientes.csv` en modo de escritura para añadir al final del mismo los valores introducidos por el usuario (nombre, apellidos y email), separados por comas. Luego, esta función llama a otra función llamada `listaClientes()`, que borra cualquier contenido anterior del área de texto (`texto.delete(1.0,tk.END)`) y lee todos los registros existentes en `clientes.csv`. Cada línea leída se inserta al final del área de texto, mostrando así una lista actualizada de clientes registrados.
+
+Este código es importante porque demuestra cómo interactuar con archivos desde una interfaz gráfica sencilla y cómo organizar elementos en la ventana utilizando contenedores (`Frame`) para mantener un diseño limpio y fácil de entender.
+
+`025-contenedores.py`
 
 ```python
 import tkinter as tk
@@ -5424,6 +7283,17 @@ ventana.mainloop()
 ```
 
 ### frame con label
+<small>Creado: 2025-10-16 16:28</small>
+
+#### Explicación
+
+Este código crea una interfaz gráfica simple usando la biblioteca `tkinter` en Python. La aplicación permite a los usuarios ingresar información de un cliente (nombre, apellidos y email) y luego guarda esa información en un archivo CSV llamado "clientes.csv". Después de guardar el nuevo cliente, se actualiza automáticamente una zona de texto que muestra todos los clientes almacenados en el archivo.
+
+La interfaz tiene dos partes principales: un marco donde ingresas la información del cliente y otra parte donde puedes ver una lista de todos los clientes registrados. Cuando haces clic en el botón "Insertar un cliente", se guarda la nueva entrada y se refresca automáticamente la lista para mostrar al nuevo cliente.
+
+Este código es importante porque demuestra cómo manejar entradas de usuario, guardar información externamente y actualizar dinámicamente una interfaz gráfica. Es útil entender estos conceptos básicos antes de pasar a interfaces más complejas o aplicaciones con funcionalidades avanzadas.
+
+`026-frame con label.py`
 
 ```python
 import tkinter as tk
@@ -5471,6 +7341,21 @@ ventana.mainloop()
 ```
 
 ### creamos un segundo marco
+<small>Creado: 2025-10-16 16:30</small>
+
+#### Explicación
+
+Este código crea una interfaz gráfica sencilla usando la biblioteca `tkinter` en Python, que permite a los usuarios insertar y listar clientes. La ventana principal contiene dos marcos: uno para introducir información de un cliente nuevo y otro para mostrar la lista actualizada de todos los clientes registrados.
+
+En el primer marco (marco1), hay campos de entrada para el nombre, apellidos y email del cliente junto con un botón que, al ser presionado, llama a la función `insertaCliente()`. Esta función abre el archivo "clientes.csv" en modo de escritura adicional (`a`), añade los datos ingresados por el usuario (nombre, apellidos y email) separados por comas, y luego cierra el archivo.
+
+La segunda parte del código define la función `listaClientes()` que actualiza un área de texto ubicada dentro del segundo marco (marco2). Esta función abre "clientes.csv" en modo lectura (`r`), lee todas las líneas y las inserta al final del área de texto, mostrando así una lista ordenada de todos los clientes registrados hasta el momento.
+
+El código también utiliza un bucle principal `ventana.mainloop()` que mantiene la interfaz gráfica activa y responde a los eventos generados por el usuario. Esta es una técnica común para interfaces gráficas en Python, permitiendo interactuar con ella de forma continua hasta que se cierra.
+
+Esta práctica combina elementos básicos de programación orientada a objetos (POO) y manejo de archivos en un entorno gráfico interactivivo, lo cual es muy útil para comprender cómo las aplicaciones reales procesan y presentan información.
+
+`027-creamos un segundo marco.py`
 
 ```python
 import tkinter as tk
@@ -5522,6 +7407,19 @@ ventana.mainloop()
 ```
 
 ### ttkbootstrap
+<small>Creado: 2025-10-16 16:34</small>
+
+#### Explicación
+
+Este código Python crea una interfaz gráfica simple utilizando la biblioteca `ttkbootstrap`, que es un complemento de `tkinter`. La aplicación permite al usuario introducir información de clientes (nombre, apellidos y email) y guardarla en un archivo CSV. También proporciona la funcionalidad para listar todos los clientes almacenados en este archivo.
+
+El programa comienza creando una ventana principal con un tema llamado "vapor". Luego, se definen dos marcos principales: `marco1` y `marco2`. El primer marco (`marco1`) contiene campos de entrada (Entry) para el nombre, apellidos y email del cliente, así como un botón que al ser presionado guarda la información en un archivo CSV llamado "clientes.csv". La función `insertaCliente()` se encarga de abrir el archivo, escribir los datos proporcionados por el usuario y luego cerrar el archivo.
+
+El segundo marco (`marco2`) contiene una caja de texto (Text) donde se lista toda la información almacenada en el archivo CSV. La función `listaClientes()` lee cada línea del archivo CSV e inserta esta información en la caja de texto, permitiendo al usuario visualizar todos los clientes registrados.
+
+Esta interfaz es útil para aplicaciones que requieren mantener una base de datos simple y fácil de actualizar directamente desde un entorno gráfico.
+
+`028-ttkbootstrap.py`
 
 ```python
 import tkinter as tk
@@ -5576,6 +7474,21 @@ ventana.mainloop()
 ```
 
 ### flask
+<small>Creado: 2025-10-16 16:38</small>
+
+#### Explicación
+
+Este fragmento de código crea una aplicación web simple utilizando Flask, un marco ligero para Python que permite desarrollar aplicaciones web con facilidad. El código comienza importando la clase `Flask` desde el módulo flask.
+
+Luego, se instancia un objeto llamado `aplicacion`, que es una instancia de la clase `Flask`. Este objeto representa tu aplicación web y el parámetro `__name__` indica a Flask cómo configurar la ruta para los recursos estáticos y las plantillas HTML. 
+
+El código define una ruta principal ("/") con la función `raiz()`. Dentro de esta función, se crea un bloque de código HTML que incluye CSS para estilizar un campo de entrada (`input type="text"`). Este estilo añade sombreado al borde del campo de texto y le da un aspecto más atractivo. La función devuelve este bloque HTML como respuesta cuando alguien visita la página principal de tu aplicación.
+
+Finalmente, si el script se está ejecutando directamente (no es importado como módulo en otro lugar), se llama al método `run()` del objeto `aplicacion` para iniciar el servidor web. Este servidor escucha en la dirección local (`127.0.0.1`) y utiliza el puerto 5000, además está habilitada la depuración para facilitar la identificación de errores durante el desarrollo.
+
+Este código es importante porque demuestra cómo utilizar Flask para crear una aplicación web básica con capacidad para añadir estilos personalizados directamente en tu lógica de servidor.
+
+`029-flask.py`
 
 ```python
 from flask import Flask  
@@ -5604,6 +7517,17 @@ if __name__ == "__main__":
 ```
 
 ### clientes
+<small>Creado: 2025-10-16 16:18</small>
+
+#### Explicación
+
+El fragmento de código que has proporcionado no es realmente un bloque de código ejecutable ni una pieza de software. Es simplemente el contenido del archivo `clientes.csv`, que parece ser un archivo de texto plano utilizado para almacenar datos en formato CSV (Valores Separados por Comas). En este caso, cada línea contiene tres elementos idénticos separados por comas y rodeados de comillas, como "aaa", "bbb", "ccc" y así sucesivamente. Este tipo de archivo es comúnmente utilizado para almacenar datos tabulares, donde cada fila representa un registro o entrada y cada columna almacena una característica específica del registro (como nombre, apellido, edad, etc.).
+
+Es importante entender que este archivo está siendo probablemente leído por algún programa en Python utilizando bibliotecas como `csv` o `pandas`, con el objetivo de manejar los datos relacionados con clientes. Esto puede ser parte de un ejercicio para aprender a leer y manipular archivos CSV usando interfaces gráficas en Python, posiblemente empleando la librería Tkinter u otras similares.
+
+Este archivo es crucial porque proporciona los datos que el programa necesita para mostrar en una interfaz gráfica, almacenar información del usuario o realizar cualquier tipo de procesamiento con respecto a la lista de clientes.
+
+`clientes.csv`
 
 ```
 aaa,aaa,aaa
@@ -5613,29 +7537,370 @@ ddd,ddd,ddd
 ```
 
 ### clientes
+<small>Creado: 2025-10-16 16:12</small>
+
+#### Explicación
+
+El fragmento de código que has proporcionado es una línea con tres valores separados por comas, cada uno representando "aaa". Este tipo de formato se conoce comúnmente como CSV (Valores Separados por Comas) o en este caso, un texto simple donde los datos están organizados de manera tabular. En el contexto del archivo `clientes.txt`, esta línea probablemente representa información básica sobre un cliente o podría ser una estructura simplificada para pruebas antes de agregar más detalles.
+
+En programas que manejan archivos como éste, esta línea puede servir como un encabezado o como la entrada de datos para un único registro. Si es un archivo `.txt` usado en una aplicación de programación, probablemente estás trabajando con interfaces gráficas donde necesitas leer información de este archivo y mostrarla a los usuarios.
+
+Es importante entender cómo se estructuran estos archivos porque permiten que tu programa maneje grandes cantidades de datos de manera eficiente. Aprender a leer y escribir en formatos como éste es fundamental cuando trabajas con bases de datos simples o archivado de información en aplicaciones más complejas.
+
+`clientes.txt`
 
 ```
 aaa,aaa,aaa
 ```
 
+### Actividades propuestas
+
+It appears you have a series of Python scripts and files related to creating graphical user interfaces (GUIs) using `tkinter` and `ttkbootstrap`, along with basic web development using Flask. You also have data files (`clientes.csv` and `clientes.txt`) that are used within your GUI application.
+
+Let's break down each script in order:
+
+### 1. **001-tkinter.py**
+This is a simple `tkinter` window creation:
+```python
+import tkinter as tk
+
+ventana = tk.Tk()
+ventana.mainloop()
+```
+- This script creates and runs an empty Tk window.
+
+### 2. **002-cuadro-de-texto.py**
+Adding a text input widget to the Tk window:
+```python
+import tkinter as tk
+
+def escribir(event):
+    entrada.config(text="Texto: " + entrada.get())
+    
+ventana = tk.Tk()
+
+entrada = tk.Entry(ventana)
+entrada.pack(pady=20)
+
+boton = tk.Button(ventana, text="Escribir")
+boton.bind("<Button-1>", escribir)
+boton.pack()
+
+ventana.mainloop()
+```
+- This script adds an entry widget (a text input box) and a button that displays the entered text when clicked.
+
+### 3. **003-cuadro-de-texto-dos.py**
+Improving the previous script by changing event handling:
+```python
+import tkinter as tk
+
+def escribir():
+    entrada.config(text="Texto: " + entrada.get())
+    
+ventana = tk.Tk()
+
+entrada = tk.Entry(ventana)
+entrada.pack(pady=20)
+
+boton = tk.Button(ventana, text="Escribir", command=escribir)
+boton.pack()
+
+ventana.mainloop()
+```
+- This script simplifies the event handling and uses a function to display the entered text.
+
+### 4. **004-cuadro-de-texto-dos.py**
+Adding functionality to clear input:
+```python
+import tkinter as tk
+
+def escribir():
+    entrada.config(text="Texto: " + entrada.get())
+
+ventana = tk.Tk()
+
+entrada = tk.Entry(ventana)
+entrada.pack(pady=20)
+
+boton1 = tk.Button(ventana, text="Escribir", command=escribir)
+boton1.pack(side=tk.LEFT)
+
+boton2 = tk.Button(ventana, text="Limpiar")
+boton2.config(command=lambda: entrada.delete(0,"end"))
+boton2.pack(side=tk.RIGHT)
+
+ventana.mainloop()
+```
+- This script includes a button to clear the input field.
+
+### 5. **006-cuadro-de-texto-tres.py**
+Adding label and padding:
+```python
+import tkinter as tk
+
+def escribir():
+    entrada.config(text="Texto: " + entrada.get())
+
+ventana = tk.Tk()
+
+tk.Label(ventana, text="Escribe algo").pack(pady=20)
+entrada = tk.Entry(ventana)
+entrada.pack(padx=15)
+
+boton1 = tk.Button(ventana, text="Escribir", command=escribir).pack(side=tk.LEFT,padx=2)
+boton2 = tk.Button(ventana, text="Limpiar").pack(side=tk.RIGHT,padx=2)
+#boton3 = tk.Button(ventana, text="Salir")
+#boton3.pack(side=tk.BOTTOM,pady=5)
+
+ventana.mainloop()
+```
+- This script adds padding around the entry and buttons.
+
+### 6. **014-frame.py**
+Using frames to organize widgets:
+```python
+import tkinter as tk
+
+def escribir():
+    entrada.config(text="Texto: " + entrada.get())
+
+marco = tk.Frame()
+marco.pack(padx=5,pady=5)
+
+tk.Label(marco, text="Escribe algo").pack(pady=20)
+entrada = tk.Entry(marco)
+entrada.pack()
+
+boton1 = tk.Button(marco, text="Escribir", command=escribir)
+boton1.pack(side=tk.LEFT,padx=2)
+boton2 = tk.Button(marco, text="Limpiar")
+boton2.config(command=lambda: entrada.delete(0,"end"))
+boton2.pack(side=tk.RIGHT,padx=2)
+
+ventana.mainloop()
+```
+- This script organizes the widgets into a frame for better layout management.
+
+### 7. **015-frame.py**
+Further organizing widgets with frames:
+```python
+import tkinter as tk
+
+def escribir():
+    entrada.config(text="Texto: " + entrada.get())
+
+marco = tk.Frame(relief=tk.SUNKEN)
+marco.pack(padx=5,pady=5)
+
+tk.Label(marco, text="Escribe algo").pack(pady=20)
+entrada = tk.Entry(marco)
+entrada.pack()
+
+boton1 = tk.Button(marco, text="Escribir", command=escribir)
+boton1.pack(side=tk.LEFT,padx=2)
+boton2 = tk.Button(marco, text="Limpiar")
+boton2.config(command=lambda: entrada.delete(0,"end"))
+boton2.pack(side=tk.RIGHT,padx=2)
+
+ventana.mainloop()
+```
+- This script adds a border to the frame and uses padding.
+
+### 8. **016-label-frame.py**
+Using `LabelFrame` for better organization:
+```python
+import tkinter as tk
+
+def escribir():
+    entrada.config(text="Texto: " + entrada.get())
+
+marco = tk.LabelFrame(text="Prueba de Label Frame")
+marco.pack(padx=5,pady=5)
+
+tk.Label(marco, text="Escribe algo").pack(pady=20)
+entrada = tk.Entry(marco)
+entrada.pack()
+
+boton1 = tk.Button(marco, text="Escribir", command=escribir)
+boton1.pack(side=tk.LEFT,padx=2)
+boton2 = tk.Button(marco, text="Limpiar")
+boton2.config(command=lambda: entrada.delete(0,"end"))
+boton2.pack(side=tk.RIGHT,padx=2)
+
+ventana.mainloop()
+```
+- This script uses `LabelFrame` to add a title and better manage widgets.
+
+### 9. **017-label-frame.py**
+Using multiple frames for layout management:
+```python
+import tkinter as tk
+
+def escribir():
+    entrada.config(text="Texto: " + entrada.get())
+
+marco = tk.LabelFrame(text="Prueba de Label Frame")
+marco.pack(padx=5,pady=5)
+
+tk.Label(marco, text="Escribe algo").pack(pady=20)
+entrada = tk.Entry(marco)
+entrada.pack()
+
+boton1 = tk.Button(marco, text="Escribir", command=escribir)
+boton1.pack(side=tk.LEFT,padx=2)
+boton2 = tk.Button(marco, text="Limpiar")
+boton2.config(command=lambda: entrada.delete(0,"end"))
+boton2.pack(side=tk.RIGHT,padx=2)
+
+marco = tk.LabelFrame(text="Prueba de Label Frame 2", relief=tk.GROOVE)
+marco.pack(padx=5,pady=5,side=tk.BOTTOM)
+
+ventana.mainloop()
+```
+- This script uses multiple `LabelFrames` for better organization.
+
+### 10. **028-ttkbootstrap.py**
+Using `ttkbootstrap` to enhance the GUI:
+```python
+import tkinter as tk
+import ttkbootstrap as tb
+
+def insertaCliente():
+    archivo = open("clientes.csv","a")
+    archivo.write(nombre.get()+","+apellidos.get()+","+email.get()+"\n")
+    archivo.close()
+    listaClientes()
+
+def listaClientes():
+    texto.delete(1.0,tk.END)
+    archivo = open("clientes.csv","r")
+    lineas = archivo.readlines()
+    for linea in lineas:
+        texto.insert(tk.END,linea)
+    archivo.close()
+
+ventana = tb.Window(themename="vapor")
+
+marco1 = tk.LabelFrame(text="Insertar un cliente")
+
+tk.Label(marco1, text="Introduce el nombre del cliente").pack(padx=10,pady=2)
+nombre = tk.Entry(marco1)
+nombre.pack(padx=10,pady=2)
+
+tk.Label(marco1, text="Introduce los apellidos del cliente").pack(padx=10,pady=2)
+apellidos = tk.Entry(marco1)
+apellidos.pack(padx=10,pady=2)
+
+tk.Label(marco1, text="Introduce el email del cliente").pack(padx=10,pady=2)
+email = tk.Entry(marco1)
+email.pack(padx=10,pady=2)
+
+tk.Button(marco1,text="Insertar un cliente",command=insertaCliente).pack(padx=10,pady=2)
+
+marco1.grid(row=0,column=0)
+
+marco2 = tk.LabelFrame(text="Listar clientes")
+
+texto = tk.Text(marco2,height=5,width=30)
+texto.pack(padx=10,pady=10)
+
+marco2.grid(row=0,column=1,padx=10,pady=10)
+
+listaClientes()
+
+ventana.mainloop()
+```
+- This script uses `ttkbootstrap` to create a more visually appealing GUI with themes.
+
+### Data Files
+- **clientes.csv**: Contains customer data in CSV format.
+  ```plaintext
+  aaa,aaa,aaa
+  bbb,bbb,bbb
+  ccc,ccc,ccc
+  ddd,ddd,ddd
+  ```
+  
+- **clientes.txt**: A simple text file that appears to be empty or incomplete.
+
+### Flask Application
+The `001-tkinter.py` script is not related to the Flask application. However, if you need to create a web server using Flask, you could use something like:
+```python
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "Hello World!"
+
+if __name__ == '__main__':
+    app.run(debug=True)
+```
+
+### Summary
+Each of these scripts builds on the previous one to enhance GUI functionality, improve layout management, and use more advanced widgets like `LabelFrame` and themes from `ttkbootstrap`. The data files are used in some of the later scripts for storing customer information. If you need further assistance with a specific script or concept, feel free to ask! 🚀
+
+
 <a id="concepto-de-evento"></a>
 ## Concepto de evento
 
-En el vasto universo de la programación, los eventos son una parte fundamental que permite a las aplicaciones interactuar con el usuario y su entorno. Un evento es cualquier cosa que ocurre en un programa o en el sistema operativo que puede ser detectada por el software para realizar alguna acción. Estos pueden ser acciones del usuario como hacer clic en un botón, escribir texto en una caja de entrada o incluso cambios en la red.
+### Introducción a los ejercicios
 
-La comprensión y manejo de eventos es crucial para desarrollar interfaces gráficas de usuario (GUI) interactivas y responsivas. Cada evento tiene asociado un manejador que define qué debe hacerse cuando el evento ocurre. Por ejemplo, si se hace clic en un botón, el manejador del evento puede ejecutar una función que cambia la interfaz o realiza alguna operación.
+### Comparación de las dos versiones del código:
 
-Los eventos pueden ser de diferentes tipos, como eventos de entrada (como teclas presionadas), eventos de salida (como el cierre de una ventana) y eventos de red (como la llegada de datos). Cada tipo de evento tiene sus propias características y manejadores específicos que permiten al programador controlar su comportamiento.
+1. **Estructura y Comentarios**:
+   - La primera versión tiene comentarios más extensos y explicativos, lo que facilita la comprensión del código.
+   - La segunda versión también incluye comentarios, pero son menos detallados.
 
-La gestión eficiente de los eventos es esencial para mantener la fluidez y la responsividad de las aplicaciones. Algunos lenguajes de programación, como Java o C#, tienen mecanismos incorporados para manejar eventos de manera sencilla y segura. Estas herramientas proporcionan clases y métodos que facilitan el registro de manejadores de eventos y la propagación de los mismos.
+2. **Separación de Responsabilidades**:
+   - En la primera versión, las funciones `construir_where_y_params`, `llenar_tree` y otras están bien separadas en función de su responsabilidad.
+   - En la segunda versión, las funciones y métodos se han integrado mejor para simplificar el flujo del código.
 
-Además de los eventos generados por el usuario, también existen eventos internos del sistema operativo que pueden ser relevantes para una aplicación. Por ejemplo, un evento puede ocurrir cuando se cambia el tamaño de la ventana principal de una aplicación, lo cual puede requerir ajustes en la disposición de los elementos gráficos.
+3. **Interfaz Gráfica**:
+   - La primera versión tiene una interfaz más básica con un solo campo de búsqueda y botones "Limpiar" y "Buscar".
+   - En la segunda versión, hay barra de filtros por columna que permite filtrar cada columna individualmente. Esto proporciona mayor flexibilidad en la búsqueda.
 
-La programación orientada a objetos (OOP) es especialmente útil para manejar eventos, ya que permite encapsular el comportamiento relacionado con un evento dentro de una clase. Esto facilita la organización del código y hace más fácil mantener y escalar las aplicaciones.
+4. **Ordenación**:
+   - La primera versión no incluye ordenación basada en columnas.
+   - La segunda versión implementa ordenación automática cuando se hace clic en los encabezados de las columnas y también permite cambiar entre ASC y DESC manualmente.
 
-En resumen, los eventos son un componente esencial en la programación moderna, permitiendo a las aplicaciones interactuar dinámicamente con el usuario y su entorno. La comprensión de cómo crear, manejar y propagar eventos es fundamental para desarrollar interfaces gráficas interactivas y responsivas. A través del uso adecuado de manejadores de eventos y técnicas orientadas a objetos, los programadores pueden crear aplicaciones que respondan eficazmente a las acciones del usuario y proporcionen una experiencia óptima.
+5. **Dinámica del Estado**:
+   - En la primera versión, el estado (como "Sin resultados aún.") no cambia dinámicamente.
+   - La segunda versión actualiza el texto del estado en tiempo real según los filtros activos y la cantidad de resultados encontrados.
+
+6. **Optimización de Consultas SQL**:
+   - Ambas versiones utilizan LIKE para realizar búsquedas, pero la segunda versión utiliza una consulta más dinámica que puede ajustarse a diferentes columnas.
+   
+7. **Funcionalidades Adicionales**:
+   - La primera versión no incluye copiar ruta completa al portapapeles al doble clic en un item del treeview.
+   - La segunda versión implementa esta funcionalidad, proporcionando una interacción más sencilla con los resultados.
+
+### Conclusiones:
+
+- **Primera Versión**: Más básica pero bien documentada. Ideal para aquellos que quieren entender paso a paso cómo funciona la aplicación.
+  
+- **Segunda Versión**: Mejor en términos de flexibilidad y funcionalidades adicionales, aunque podría ser un poco menos fácil de leer inicialmente debido a la integración más estrecha entre componentes.
+
+### Recomendaciones:
+
+Si necesitas una versión muy clara para el aprendizaje o documentación, opta por la primera. Si prefieres una aplicación con mayor funcionalidad y que es más amigable con el usuario en términos de interacción, utiliza la segunda versión.
 
 ### repasamos tkinter
+<small>Creado: 2025-10-23 15:00</small>
+
+#### Explicación
+
+Este código es muy básico y se utiliza para crear una ventana simple utilizando la biblioteca `tkinter` en Python. La línea `import tkinter as tk` importa el módulo `tkinter`, que es una biblioteca estándar de Python utilizada para crear interfaces gráficas de usuario (GUI por sus siglas en inglés). Se le da un alias 'tk' para hacer la escritura del código más concisa.
+
+Luego, se crea una instancia de la clase `Tk` mediante el comando `ventana = tk.Tk()`. Esto genera una nueva ventana emergente en tu pantalla. Cada aplicación tkinter necesita tener al menos un objeto `Tk`, que actúa como la raíz o punto central de toda la interfaz gráfica.
+
+Finalmente, se llama a `ventana.mainloop()` para iniciar el bucle principal del programa. Este método maneja eventos como clics del mouse y teclas presionadas. Mientras está en ejecución, espera interacciones del usuario con la ventana recién creada, permitiendo que esta permanezca abierta hasta que se cierre manualmente.
+
+Este código es fundamental para entender cómo iniciar una aplicación simple con tkinter y es un buen punto de partida para empezar a aprender sobre interfaces gráficas en Python.
+
+`001-repasamos tkinter.py`
 
 ```python
 import tkinter as tk
@@ -5646,6 +7911,19 @@ ventana.mainloop()
 ```
 
 ### creamos tabla
+<small>Creado: 2025-10-23 15:02</small>
+
+#### Explicación
+
+Este fragmento de código SQL crea una tabla llamada `clientes` en una base de datos. La tabla tiene cuatro columnas: `Identificador`, `nombre`, `apellidos` y `email`. 
+
+La columna `Identificador` es del tipo `INTEGER` y actúa como la clave primaria de la tabla, lo que significa que cada registro en esta tabla tendrá un valor único en este campo. El uso de `AUTOINCREMENT` asegura que el sistema manejará automáticamente el incremento del número para cada nuevo registro que se inserte, lo que simplifica mucho el proceso de añadir nuevos clientes sin tener que preocuparse por proporcionar un identificador único.
+
+Las columnas `nombre`, `apellidos` y `email` son del tipo `TEXT`, lo que significa que pueden almacenar cualquier texto, como nombres completos o direcciones de correo electrónico. Este diseño permite guardar información detallada sobre cada cliente de manera organizada y estructurada en la base de datos.
+
+Crear esta tabla es un paso crucial para establecer una base sólida al trabajar con datos de clientes en aplicaciones que requieren almacenar y gestionar información personalizada por usuario.
+
+`002-creamos tabla.sql`
 
 ```sql
 CREATE TABLE "clientes" (
@@ -5658,6 +7936,21 @@ CREATE TABLE "clientes" (
 ```
 
 ### formulario
+<small>Creado: 2025-10-23 15:05</small>
+
+#### Explicación
+
+Este código Python utiliza la biblioteca `tkinter` para crear una interfaz gráfica sencilla que permite al usuario ingresar información sobre un cliente. La ventana principal se crea con el comando `tk.Tk()`, lo que inicia la aplicación.
+
+En seguida, se añaden tres cuadros de entrada (Entry) a la ventana: uno para el nombre del cliente, otro para los apellidos y otro para el correo electrónico. Cada cuadro de entrada se coloca en la pantalla usando el método `pack()`, que también agrega un margen de 20 píxeles alrededor de cada cuadro tanto horizontal como verticalmente, lo cual mejora la legibilidad y hace más agradable la interfaz.
+
+Por último, se añade un botón a la ventana con el texto "Insertar cliente". Este botón también se posiciona en la pantalla utilizando `pack()`.
+
+El bucle principal de la aplicación (`ventana.mainloop()`) asegura que la ventana permanezca abierta y responda adecuadamente a cualquier interacción del usuario, como mover ventanas o cerrarla. El programa seguirá ejecutándose hasta que el usuario cierre manualmente la ventana.
+
+Este tipo de interfaz es común en aplicaciones donde se necesitan recoger datos del usuario antes de realizar alguna acción con ellos, como insertar un nuevo cliente en una base de datos.
+
+`003.formulario.py`
 
 ```python
 import tkinter as tk
@@ -5680,6 +7973,17 @@ ventana.mainloop()
 ```
 
 ### comando del boton
+<small>Creado: 2025-10-23 15:05</small>
+
+#### Explicación
+
+Este fragmento de código crea una interfaz gráfica simple usando la biblioteca `tkinter` en Python. La ventana principal se inicia con `ventana = tk.Tk()`. Luego, el programa añade tres cuadros de texto (Entry) para ingresar el nombre, apellidos y email del usuario, cada uno de los cuales es colocado dentro de la ventana con un margen de 20 píxeles en las direcciones horizontal (`padx`) y vertical (`pady`). 
+
+Después, se añade un botón que dice "Insertar cliente". Este botón tiene asociado una acción llamada `insertaCliente`, lo cual significa que cuando el usuario hace clic en el botón, la función `insertaCliente` será ejecutada. Esta función (que no está definida en este código) probablemente se encargará de tomar los datos ingresados por el usuario y hacer algo con ellos, como guardarlos en una base de datos o procesarlos de alguna manera.
+
+Finalmente, `ventana.mainloop()` inicia un ciclo principal que permite a la ventana detectar eventos del usuario (como clics del mouse) y actualizar su estado según sea necesario. Este método es crucial para mantener abierta la ventana y responder a las interacciones del usuario hasta que esta sea cerrada manualmente.
+
+`004-comando del boton.py`
 
 ```python
 import tkinter as tk
@@ -5702,6 +8006,19 @@ ventana.mainloop()
 ```
 
 ### defino la funcion de insercion
+<small>Creado: 2025-10-23 15:06</small>
+
+#### Explicación
+
+Este código crea una simple interfaz gráfica de usuario (GUI) utilizando la biblioteca Tkinter en Python. La función principal es permitir al usuario ingresar datos sobre un cliente, como nombre, apellidos y email, y luego insertar estos datos cuando se presiona el botón "Insertar cliente".
+
+El programa comienza creando una ventana básica con `tk.Tk()`. Luego, define tres campos de entrada (Entry) para que el usuario pueda introducir el nombre, los apellidos y el email del cliente. Cada uno de estos elementos es empaquetado (`pack`) en la ventana principal, añadiendo un margen (`padx`, `pady`) para mejorar su visualización.
+
+Además, se define una función llamada `insertaCliente()` que por ahora simplemente imprime un mensaje ("Voy a insertar un cliente") cuando el botón asociado con ella es clickeado. Esta función no realiza ninguna operación real de inserción en este momento, pero establece la estructura para futuras implementaciones donde realmente se insertarían los datos del cliente.
+
+Finalmente, se llama al método `mainloop()` sobre la ventana, lo que mantiene el programa ejecutándose y permite que Tkinter maneje eventos como clics de ratón y entradas de teclado.
+
+`005-defino la funcion de insercion.py`
 
 ```python
 import tkinter as tk
@@ -5727,6 +8044,23 @@ ventana.mainloop()
 ```
 
 ### abro base de datos e inserto
+<small>Creado: 2025-10-23 15:09</small>
+
+#### Explicación
+
+Este fragmento de código en Python crea una sencilla interfaz gráfica utilizando la librería `tkinter`, y permite a un usuario insertar datos de un cliente (nombre, apellidos y email) en una base de datos SQLite. 
+
+Primero, el programa conecta con una base de datos llamada "clientes.db" y crea un cursor para ejecutar comandos SQL. Luego, se inicializa la ventana principal usando `tk.Tk()`.
+
+El código define una función llamada `insertaCliente()`, que cuando es llamada insertará automáticamente un nuevo registro en la tabla "clientes" de la base de datos, pero sin llenar los campos con ningún dato específico (los valores por defecto son cadenas vacías).
+
+En la ventana principal, se crean tres campos de entrada (`Entry`) para el nombre, apellidos y email del cliente. Estos campos permiten al usuario ingresar datos manualmente.
+
+Finalmente, se añade un botón a la interfaz que llama a la función `insertaCliente()` cuando es presionado por el usuario. Este botón facilita la inserción de nuevos registros en la base de datos directamente desde la interfaz gráfica.
+
+Este código es importante porque demuestra cómo interactuar con una base de datos SQLite y cómo crear interfaces gráficas sencillas utilizando `tkinter`, combinando dos tecnologías importantes para el desarrollo web y aplicaciones móviles.
+
+`006-abro base de datos e inserto.py`
 
 ```python
 import tkinter as tk
@@ -5757,6 +8091,19 @@ ventana.mainloop()
 ```
 
 ### inserto de verdad
+<small>Creado: 2025-10-23 15:11</small>
+
+#### Explicación
+
+Este código es una pequeña aplicación en Python que utiliza las bibliotecas `tkinter` y `sqlite3`. La aplicación crea una ventana sencilla donde un usuario puede ingresar el nombre, apellidos y email de un cliente. Cuando se presiona el botón "Insertar cliente", la información ingresada se inserta en una base de datos SQLite.
+
+El código comienza conectándose a una base de datos SQLite llamada `clientes.db` y crea un cursor para ejecutar comandos SQL. Luego, se inicializa una ventana con `tk.Tk()`. Dentro de esta ventana, el código define tres campos de entrada (`Entry`) donde el usuario puede introducir el nombre, apellidos y email del cliente.
+
+El botón "Insertar cliente" está vinculado a la función `insertaCliente()`, que toma los valores ingresados en los campos de entrada y los inserta como un nuevo registro en una tabla llamada `clientes`. Este comando SQL se ejecuta usando el cursor, y luego se hace commit para guardar los cambios en la base de datos.
+
+Esta aplicación es útil porque demuestra cómo interactuar con una base de datos desde una interfaz gráfica simple utilizando Python.
+
+`007-inserto de verdad.py`
 
 ```python
 import tkinter as tk
@@ -5787,6 +8134,21 @@ ventana.mainloop()
 ```
 
 ### ttkbootstrap
+<small>Creado: 2025-10-23 15:18</small>
+
+#### Explicación
+
+Este fragmento de código es un ejemplo básico de una aplicación en Python que utiliza la biblioteca `ttkbootstrap` para crear una interfaz gráfica sencilla con el estilo "darkly". El objetivo principal del programa es permitir al usuario insertar datos de clientes en una base de datos SQLite.
+
+El código comienza por importar las bibliotecas necesarias, incluyendo `tkinter`, `sqlite3` y `ttkbootstrap`. Luego, establece una conexión a la base de datos SQLite llamada "clientes.db" y crea un cursor para ejecutar consultas SQL. A diferencia del uso común de `Tk()` en tkinter, aquí se utiliza `tb.Window(themename="darkly")` que proporciona una ventana con un tema oscuro.
+
+En el cuerpo principal del programa, se crean tres campos de entrada (`Entry`) donde el usuario puede ingresar los datos del cliente: nombre, apellidos y email. Estos campos son ubicados en la ventana mediante `pack()`, especificando márgenes para espaciar visualmente los elementos. 
+
+Además, se define una función llamada `insertaCliente()` que toma los valores de los campos de entrada (`nombre`, `apellidos` y `email`) y ejecuta una consulta SQL para insertar estos datos en la tabla "clientes" de la base de datos. Finalmente, un botón es creado con el texto "Insertar cliente", vinculado a esta función mediante `command=insertaCliente`. Cuando se hace clic en este botón, se llama automáticamente a la función `insertaCliente()`.
+
+Este código es importante para aprender cómo interactuar entre interfaces gráficas y bases de datos en aplicaciones Python, además de introducir el uso del tema oscuro proporcionado por `ttkbootstrap` para mejorar la estética de las aplicaciones.
+
+`008-ttkbootstrap.py`
 
 ```python
 import tkinter as tk
@@ -5820,6 +8182,13 @@ ventana.mainloop()
 ```
 
 ### indexador parte 1
+<small>Creado: 2025-10-23 15:22</small>
+
+#### Explicación
+
+Este código es un ejemplo básico de cómo se inicializa y ejecuta una aplicación sencilla con la biblioteca `tkinter` en Python. La primera línea importa el módulo `tkinter`, que es utilizado para crear interfaces gráficas de usuario (GUI). Luego, se crea una ventana principal utilizando `tk.Tk()`. Finalmente, `ventana.mainloop()` inicia el bucle principal del programa, lo cual permite que la aplicación interactúe con los eventos generados por el usuario, como clics de ratón o pulsaciones de teclas. Este bucle es crucial porque mantiene a la aplicación en ejecución y responde a las interacciones del usuario hasta que se cierra la ventana.
+
+`009-indexador parte 1.py`
 
 ```python
 import tkinter as tk
@@ -5831,6 +8200,19 @@ ventana.mainloop()
 ```
 
 ### insertar carpeta
+<small>Creado: 2025-10-23 15:24</small>
+
+#### Explicación
+
+Este código Python utiliza la biblioteca `tkinter` para crear una interfaz gráfica de usuario (GUI) simple que solicita al usuario que ingrese el nombre de una carpeta y un disco. La ventana principal se crea con `ventana = tk.Tk()`.
+
+El código añade dos etiquetas (`Label`) a la ventana, cada una solicitando diferentes piezas de información: el nombre de la carpeta a indexar y el nombre del disco. Ambas etiquetas están seguidas por un campo de entrada de texto (`Entry`), donde el usuario puede escribir la respuesta.
+
+Además, se añade un botón con el texto "Procesar" que probablemente debería tener una función `procesar()` asociada para manejar lo que ocurre después de que el usuario presione el botón. Sin embargo, en este fragmento falta definir esta función, y por tanto la aplicación no funcionará correctamente.
+
+Finalmente, se llama a `ventana.mainloop()`, lo cual es crucial porque hace que la ventana sea visible e interactuable para el usuario, permitiendo así la entrada de datos y la respuesta al evento del botón.
+
+`010-insertar carpeta.py`
 
 ```python
 import tkinter as tk
@@ -5851,6 +8233,17 @@ ventana.mainloop()
 ```
 
 ### ejecuto comando
+<small>Creado: 2025-10-23 15:25</small>
+
+#### Explicación
+
+Este código Python utiliza la biblioteca `tkinter` para crear una interfaz gráfica simple que permite al usuario ingresar información y ejecutar un comando. La aplicación crea una ventana donde se muestran dos etiquetas y dos campos de entrada (entradas), uno para el nombre de la carpeta a indexar y otro para el nombre del disco. Además, hay un botón "Procesar" que, cuando se hace clic, llama a una función llamada `procesar()`, que en este caso solo imprime en la consola el mensaje "Voy a procesar". 
+
+El código establece cómo los elementos de la interfaz (etiquetas, campos de entrada y botones) deben estar posicionados en la ventana mediante el uso del método `.pack()` con márgenes (`padx` para margen horizontal y `pady` para vertical). Esto ayuda a organizar visualmente los elementos en la pantalla.
+
+Este tipo de interfaz es importante porque permite al usuario interactuar directamente con un programa, ingresando datos y ejecutando acciones específicas. Es una parte fundamental del desarrollo de aplicaciones que necesitan interacción humana.
+
+`011-ejecuto comando.py`
 
 ```python
 import tkinter as tk
@@ -5874,6 +8267,18 @@ ventana.mainloop()
 ```
 
 ### sql crear discos
+<small>Creado: 2025-10-23 15:27</small>
+
+#### Explicación
+
+Este fragmento de código SQL se utiliza para crear una tabla en una base de datos. La tabla se llama "archivos" y tiene varias columnas que almacenan información sobre archivos específicos, como su identificador único, ubicación en el disco, tamaño, y fechas de creación y modificación.
+
+- **identificador**: Es un número entero (INTEGER) que funciona como clave primaria. AUTOINCREMENT asegura que cada nuevo registro tenga un valor único e incremental automáticamente.
+- **disco**, **ruta**, **archivo**, **tamanio**, **creacion** y **modificacion**: Estas son columnas de texto (TEXT) donde se almacenan detalles sobre el archivo, como la ubicación del disco en el que reside, la ruta completa al archivo, su nombre, tamaño en formato de cadena, y fechas de creación y modificación.
+
+Esta tabla es importante porque permite organizar y almacenar datos estructurados relacionados con archivos en un sistema informático, facilitando operaciones como búsqueda, filtrado y análisis posterior.
+
+`012-sql crear discos.sql`
 
 ```sql
 CREATE TABLE "archivos" (
@@ -5889,6 +8294,17 @@ CREATE TABLE "archivos" (
 ```
 
 ### insertar
+<small>Creado: 2025-10-23 15:32</small>
+
+#### Explicación
+
+Este código es una pequeña aplicación de interfaz gráfica que utiliza la biblioteca `tkinter` para interactuar con el usuario. Su función principal es recoger los datos introducidos por el usuario en dos campos: uno para especificar la ruta de una carpeta y otro para indicar un nombre de disco, y luego procesar esa información para insertar registros en una base de datos SQLite.
+
+El programa primero establece una conexión con una base de datos llamada `discos.db` y crea un cursor (`cur`) que se utiliza para ejecutar comandos SQL. Luego, recorre todos los archivos dentro de la carpeta especificada por el usuario utilizando la función `os.walk()`. Para cada archivo encontrado, obtiene su tamaño en bytes y las fechas de creación y modificación desde el sistema operativo, convirtiéndolas a un formato estándar. Estas informaciones se insertan en una tabla llamada `archivos` dentro de la base de datos SQLite, con campos para el nombre del disco, ruta, nombre del archivo, tamaño, fecha de creación y modificación.
+
+Esta aplicación es útil porque permite indexar automáticamente toda la información sobre los archivos de un directorio específico a través de una interfaz gráfica simple. Esto puede ser muy valioso para hacer inventarios o backups de datos de manera sistemática en sistemas informáticos más grandes.
+
+`013-insertar.py`
 
 ```python
 import tkinter as tk
@@ -5944,6 +8360,21 @@ ventana.mainloop()
 ```
 
 ### tree
+<small>Creado: 2025-10-23 15:42</small>
+
+#### Explicación
+
+Este fragmento de código es una aplicación sencilla utilizando la biblioteca `tkinter` en Python para crear una interfaz gráfica que muestra información tabulada. La aplicación crea un componente llamado `Treeview`, que es similar a una tabla, donde puedes visualizar datos estructurados y realizar acciones sobre ellos.
+
+El código inicializa una lista `DATA` con información de productos, incluyendo ID, nombre del producto y precio en euros. Luego, define una función `make_table()` que construye la interfaz gráfica. Dentro de esta función se crea un marco (`frm`) que contiene el `Treeview`. Se añade también un control deslizante vertical para navegar por los datos cuando haya demasiados para mostrar en pantalla.
+
+El componente `Treeview` tiene tres columnas: ID, Producto y Precio (€). La función configura encabezados para cada columna y permite ordenarlos al hacer clic. Los registros de la lista `DATA` se insertan en el `Treeview`, alternando entre dos estilos diferentes de fila ("odd" y "even") para mejorar la legibilidad.
+
+Además, el código incluye un manejador de eventos que imprime los valores del registro seleccionado cuando se hace doble clic sobre una fila. Finalmente, el programa define una función auxiliar `sort_by()` que permite ordenar las filas del `Treeview` al hacer clic en los encabezados de columna.
+
+Este tipo de aplicación es importante porque muestra cómo crear interfaces tabulares interactivas utilizando Python y Tkinter, lo cual es útil para presentar datos estructurados a los usuarios de una manera clara y manejable.
+
+`014-tree.py`
 
 ```python
 #!/usr/bin/env python3
@@ -6040,6 +8471,21 @@ if __name__ == "__main__":
 ```
 
 ### arbol sencillo
+<small>Creado: 2025-10-23 15:46</small>
+
+#### Explicación
+
+Este código crea una interfaz gráfica sencilla usando la biblioteca `tkinter` en Python. La aplicación muestra un árbol de datos (Treeview) que es similar a una tabla con varias columnas donde puedes organizar información jerárquicamente o simplemente como una lista estructurada.
+
+El código comienza importando las librerías necesarias y definiendo algunos datos de ejemplo en forma de tuplas, donde cada tupla representa un artículo con su ID, nombre y precio. Luego, se crea una ventana principal utilizando `tk.Tk()` que será el contenedor para nuestro árbol.
+
+A continuación, se inicializa el componente Treeview dentro de esta ventana, configurándolo con las columnas "id", "producto" y "precio". Después, se establece el texto para cada columna en la parte superior del árbol (es decir, se configuran los encabezados).
+
+Finalmente, el bucle `for` recorre todas las tuplas de datos e inserta una fila nueva al final del Treeview con estos valores. Al llamar a `ventana.mainloop()`, se ejecuta un bucle infinito que maneja eventos en la interfaz gráfica, permitiendo así que la ventana esté siempre lista para recibir interacciones del usuario.
+
+Este tipo de estructura es útil cuando necesitas mostrar datos tabulares o jerárquicos de manera clara y manejable.
+
+`015-arbol sencillo.py`
 
 ```python
 #!/usr/bin/env python3
@@ -6075,6 +8521,19 @@ ventana.mainloop()
 ```
 
 ### recuperamos aplicacion discos
+<small>Creado: 2025-10-23 15:47</small>
+
+#### Explicación
+
+Este código es una aplicación simple en Python que utiliza la biblioteca `tkinter` para crear una interfaz gráfica de usuario (GUI) y permite al usuario ingresar el nombre de un directorio y el nombre de un disco. La función principal del programa es recorrer todos los archivos dentro del directorio especificado, obtener información sobre cada archivo como su tamaño y fechas de creación y modificación, e insertar esta información en una base de datos SQLite.
+
+El código comienza importando las bibliotecas necesarias para manejar la GUI (`tkinter`), el sistema operativo (`os`), y las bases de datos SQLite (`sqlite3`). Además, se utiliza la clase `datetime` para trabajar con fechas. La función principal del programa es la función `procesar()`, que primero obtiene los valores introducidos por el usuario en dos campos de entrada: uno para el nombre de la carpeta a indexar y otro para el nombre del disco.
+
+Si los datos ingresados son válidos, el código establece una conexión con una base de datos SQLite llamada "discos.db". Luego, utilizando `os.walk()`, recorre todos los archivos en el directorio especificado por el usuario. Para cada archivo encontrado, se extrae información como su tamaño y las fechas de creación y modificación. Esta información se guarda en la tabla "archivos" de la base de datos SQLite.
+
+El uso de esta aplicación es importante para mantener un registro detallado de todos los archivos dentro de un directorio específico, lo que puede ser útil para el seguimiento del almacenamiento, la administración de sistemas o incluso auditorías.
+
+`016-recuperamos aplicacion discos.py`
 
 ```python
 import tkinter as tk
@@ -6130,6 +8589,25 @@ ventana.mainloop()
 ```
 
 ### aplicacion completa indexacion
+<small>Creado: 2025-10-23 15:52</small>
+
+#### Explicación
+
+Este código es una aplicación de Python que utiliza la biblioteca `tkinter` para crear una interfaz gráfica (GUI) y `sqlite3` para manejar una base de datos SQLite. La app permite al usuario indexar archivos en un sistema de directorios específico, almacenando información sobre estos archivos en una base de datos SQLite, y proporciona herramientas para buscar dichos archivos.
+
+El programa comienza creando la estructura necesaria en la base de datos SQLite, incluyendo la tabla `archivos` donde se almacenan los detalles de cada archivo indexado (nombre del disco, ruta completa, nombre del archivo, tamaño, fechas de creación y modificación). Además, crea índices para mejorar la velocidad de búsqueda.
+
+La interfaz gráfica se divide en dos partes principales:
+
+1. **Lado izquierdo**: Permite al usuario especificar una carpeta que desea indexar y un nombre para el disco asociado a esa carpeta. Cuando se presiona el botón "Procesar", la app recorre recursivamente todos los archivos dentro de la carpeta proporcionada, extrae información relevante sobre cada archivo y lo inserta en la base de datos.
+
+2. **Lado derecho**: Proporciona una herramienta para buscar archivos indexados por nombre o ruta parcial utilizando un cuadro de búsqueda y un widget `Treeview` que muestra los resultados. Los usuarios pueden escribir consultas en el cuadro de entrada y presionar "Buscar" o usar la tecla Enter para ejecutar la consulta.
+
+La aplicación también maneja eventos como doble clic en las filas del `Treeview`, copiando automáticamente la ruta completa del archivo seleccionado al portapapeles. Esto facilita a los usuarios acceder rápidamente a los archivos encontrados mediante el motor de búsqueda.
+
+Esta app es útil para realizar búsquedas eficientes en sistemas con grandes cantidades de archivos, permitiendo una rápida indexación y recuperación de información basada en la estructura del sistema de archivos.
+
+`017-aplicacion completa indexacion.py`
 
 ```python
 #!/usr/bin/env python3
@@ -6389,6 +8867,23 @@ if __name__ == "__main__":
 ```
 
 ### mejoras ia
+<small>Creado: 2025-10-23 15:59</small>
+
+#### Explicación
+
+Este código es una aplicación de programación en Python que utiliza la biblioteca `ttkbootstrap` para crear una interfaz gráfica de usuario (GUI) y SQLite para gestionar una base de datos. La aplicación permite al usuario indexar archivos y carpetas en un sistema de ficheros, así como buscarlos a través de esta base de datos.
+
+El programa se divide principalmente en dos partes:
+
+1. **Indexación**: El lado izquierdo del panel horizontal permitirá al usuario indicar la carpeta que desea indexar y el nombre del disco correspondiente (por ejemplo, "C:", "D:"). Al seleccionar una carpeta con el botón "Elegir…" se abre un explorador de archivos. Luego, cuando el usuario presiona el botón "Procesar", el programa recorre toda la estructura de directorios y archivos dentro de la carpeta indicada, registrando en una base de datos SQLite (llamada `discos.db`) información sobre cada archivo indexado como su nombre, ruta completa, tamaño, fecha de creación y modificación. Esta información se usa para buscar más tarde.
+
+2. **Búsqueda**: El lado derecho del panel permite al usuario buscar archivos dentro de la base de datos creada a través de varios filtros, que pueden incluir el disco en el que residen los archivos, su ruta, nombre o incluso su tamaño y fechas de creación y modificación. Los resultados se muestran en un widget `Treeview`, donde cada fila representa un archivo indexado con sus respectivos metadatos.
+
+La importancia de este código radica en cómo integra operaciones del sistema de ficheros (como listar directorios, obtener propiedades de archivos) con una base de datos para proporcionar una búsqueda rápida y eficiente. Esto es especialmente útil cuando se trabaja con grandes cantidades de archivos y necesitas encontrarlos rápidamente por sus metadatos.
+
+Esta herramienta puede ser muy práctica en entornos donde los usuarios manejan muchos archivos y necesitan una forma sencilla pero potente para buscar dentro de sus sistemas de ficheros.
+
+`018-mejoras ia.py`
 
 ```python
 #!/usr/bin/env python3
@@ -6702,24 +9197,241 @@ if __name__ == "__main__":
     main()
 ```
 
+### Actividades propuestas
+
+El código que has proporcionado es una aplicación de búsqueda y gestión de archivos en un sistema SQLite utilizando la biblioteca `ttk` para crear interfaces gráficas. La aplicación permite al usuario indexar discos o directorios enteros, luego buscar archivos en esa base de datos indexada con criterios flexibles como disco, ruta, nombre del archivo, tamaño, fecha de creación y modificación.
+
+### Análisis del Código
+
+#### 1. **Interfaz de Indexación:**
+   - **Widgets:** La interfaz izquierda permite al usuario introducir el nombre del disco o directorio que desea indexar.
+   - **Proceso de Indexación:** Al hacer clic en "Procesar", la aplicación recorre todos los archivos y directorios del disco o directorio especificado, insertándolos en una base de datos SQLite con información sobre su tamaño, fecha de creación y modificación.
+
+#### 2. **Interfaz de Búsqueda:**
+   - **Filtros:** La interfaz derecha ofrece un panel superior para filtrar por diferentes campos (disco, ruta, archivo, etc.) usando el operador `LIKE` con `%`.
+   - **Ordenación:** Permite ordenar los resultados por cualquier columna y cambiar entre ascensor y descensor.
+   - **Resultado de Búsqueda:** Los resultados se muestran en un widget `Treeview`, donde cada fila representa un archivo o directorio indexado, mostrando sus atributos relevantes.
+
+#### 3. **Funcionalidades Adicionales:**
+   - **Doble-Clic en Resultados:** Al hacer doble clic en una entrada del resultado de búsqueda, la ruta completa se copia al portapapeles para facilitar el acceso directo.
+   - **Estado y Información:** La aplicación proporciona un estado visual que refleja los parámetros de búsqueda actualmente activos, incluyendo filtros aplicados, número de resultados y ordenamiento.
+
+### Aspectos Importantes a Notar:
+
+- **Optimización:** Para grandes volúmenes de datos, la indexación podría ser mejor optimizada. Por ejemplo, se podrían usar índices en SQLite para acelerar consultas.
+  
+- **Seguridad:** Como está trabajando con archivos del sistema y bases de datos locales, es importante asegurarse de que el usuario tenga los permisos necesarios y que no haya riesgos de sobrescritura accidental o inyección SQL.
+
+- **Interfaz Amigable:** La interfaz es clara e intuitiva, aunque se podría mejorar con más documentación en la aplicación para ayudar a los usuarios nuevos. Por ejemplo, incluir un mensaje emergente al iniciar que explique brevemente cómo usar cada sección de la UI.
+
+### Mejoras Potenciales:
+
+1. **Optimización:** Considera agregar índices a tu base de datos SQLite para mejorar el rendimiento en consultas frecuentes.
+   
+2. **Interfaz Avanzada:** Agrega más widgets como botones de radio o desplegables que permitan al usuario seleccionar rápidamente diferentes opciones sin necesidad de teclear.
+
+3. **Ayuda In-App:** Añadir una ventana emergente de ayuda con explicaciones sobre cómo usar cada sección, por ejemplo, al iniciar la aplicación o cuando un widget requiere más contexto (como doble clic).
+
+4. **Soporte para Archivos en Tiempo Real:** Considerar añadir funcionalidades que permitan actualizar el índice automáticamente al detectar cambios en el sistema de archivos.
+
+### Código y Uso
+
+Para ejecutar este código, necesitarás tener instalada la biblioteca `tkinter` en tu entorno Python. Si estás utilizando una versión reciente de Python (3.10+), esta debería estar incluida por defecto. La aplicación se ejecuta al llamar a `main()` y abre una ventana gráfica donde puedes empezar a indexar tus discos o directorios, así como buscar archivos en la base de datos resultante.
+
+Este tipo de herramienta puede ser muy útil para administración de sistemas, gestión de datos históricos sobre archivos, etc., permitiendo un fácil acceso rápido y filtrado por múltiples criterios.
+
+
 <a id="creacion-de-controladores-de-eventos"></a>
 ## Creación de controladores de eventos
 
-En el mundo digital, la interacción con los usuarios es fundamental para cualquier aplicación o sistema informático. La creación de controladores de eventos representa un paso crucial en este proceso, permitiendo que las aplicaciones respondan a acciones específicas realizadas por los usuarios, como clics de ratón, pulsaciones de teclado o cambios en el estado de una interfaz gráfica.
+### Introducción a los ejercicios
 
-El concepto de controlador de eventos es sencillo pero poderoso. Es un mecanismo que permite asociar funciones o métodos con ciertas acciones dentro de la aplicación. Cada vez que ocurre un evento, como hacer clic en un botón, el sistema identifica cuál es el controlador asociado y ejecuta la función correspondiente.
+El código que has proporcionado es una secuencia de pasos para crear un blog básico utilizando Python y Flask, con datos almacenados en una base de datos MySQL. Vamos a revisar el flujo de trabajo desde la creación del entorno hasta la implementación final.
 
-La creación de controladores de eventos implica varios pasos. Primero, se debe definir la acción que desencadenará el evento. Esto puede ser algo tan simple como hacer clic en un botón o tan complejo como mover el cursor sobre una imagen. Luego, se necesita escribir la función que será ejecutada cuando ocurra este evento. Esta función puede realizar cualquier operación necesaria, desde actualizar los datos de una interfaz hasta enviar información a otro sistema.
+### 1. Configuración Inicial
+- **Instalación de dependencias**: Se instala `flask` para crear la aplicación web y `mysql.connector-python` para conectarse a MySQL.
+  
+```sh
+pip install flask mysql-connector-python
+```
 
-La importancia de esta práctica radica en su capacidad para hacer que las aplicaciones sean interactivas y dinámicas. Sin controladores de eventos, las aplicaciones serían estáticas e ininteractivas, limitando significativamente su utilidad y experiencia del usuario. Por ejemplo, en una aplicación de gestión de tareas, el controlador de eventos asociado a un botón "Marcar como completada" permitiría que los usuarios cambien el estado de una tarea sin necesidad de recargar la página o navegar a otra sección.
+### 2. Crear la Base de Datos
+- En la línea de comandos, se crea un usuario y una base de datos llamada `blogexamen`.
 
-Además, la creación de controladores de eventos es una práctica fundamental para el desarrollo orientado a objetos. En este paradigma, las clases pueden definir métodos que actúan como controladores de eventos, lo que permite una organización lógica y modular del código. Cada clase puede tener sus propios métodos que responden a eventos específicos, facilitando la mantenibilidad y escalabilidad del proyecto.
+```sql
+CREATE DATABASE blogexamen;
+CREATE USER 'blogexamen'@'localhost';
+GRANT ALL PRIVILEGES ON blogexamen.* TO 'blogexamen'@'localhost' IDENTIFIED BY 'Blogexamen123$';
+```
 
-Es importante destacar que el proceso de creación de controladores de eventos no es siempre inmediato o intuitivo. Requiere una comprensión profunda de cómo funcionan los eventos en el contexto específico de la aplicación y las herramientas utilizadas para desarrollarla. Además, puede ser necesario manejar situaciones complejas, como eventos anidados o múltiples eventos asociados a un solo controlador.
+### 3. Crear Tablas en MySQL
+- Se crea una tabla `posts` para almacenar los artículos del blog y otra tabla `usuarios` para gestionar los usuarios.
 
-En resumen, la creación de controladores de eventos es una habilidad esencial en el desarrollo de aplicaciones informáticas. Permite hacer que las interfaces sean interactivas y dinámicas, mejorando significativamente la experiencia del usuario. A través de este proceso, los desarrolladores pueden asociar acciones específicas con eventos, permitiendo que las aplicaciones respondan de manera eficiente a las interacciones del usuario, lo que es crucial para el éxito de cualquier proyecto informático.
+```sql
+CREATE TABLE posts (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    titulo VARCHAR(50) NOT NULL,
+    contenido TEXT NOT NULL,
+    fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+
+CREATE TABLE usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre_usuario VARCHAR(30),
+    email VARCHAR(60)
+);
+```
+
+### 4. Crear una Vista en MySQL para Consultas Complejas
+- Se crea una vista llamada `posts_completos` que incluye información adicional, como el autor y la fecha del artículo.
+
+```sql
+CREATE VIEW posts_completos AS
+SELECT p.id AS id_post, 
+       p.titulo, 
+       p.contenido,
+       u.nombre_usuario AS autor,
+       u.email
+FROM posts p
+JOIN usuarios u ON u.id = p.autor_id;
+```
+
+### 5. Crear la Aplicación Flask
+- Se crea una aplicación básica con Flask que muestra un archivo HTML estático.
+
+```python
+from flask import Flask  
+
+aplicacion = Flask(__name__)
+
+@aplicacion.route("/")
+def raiz():
+    return "Hola mundo"
+
+if __name__ == "__main__":
+    aplicacion.run()
+```
+
+### 6. Conectar a MySQL desde la Aplicación Flask
+- Se conecta a la base de datos y se consulta la vista `posts_completos` para mostrar los artículos en el HTML.
+
+```python
+from flask import Flask 
+import mysql.connector
+
+conexion = mysql.connector.connect(
+    host="localhost",
+    user="blogexamen",
+    password="Blogexamen123$",
+    database="blogexamen"
+)
+
+cursor = conexion.cursor() 
+
+aplicacion = Flask(__name__)
+
+@aplicacion.route("/")
+def raiz():
+    cadena = '''
+        <!doctype html>
+        <html>
+          ...
+    '''
+
+    cursor.execute("SELECT * FROM posts_completos ORDER BY fecha DESC;")
+    filas = cursor.fetchall()
+    
+    for fila in filas:
+        # Construcción de la cadena HTML
+        cadena += f'''
+            <article>
+                <h3>{fila[0]}</h3>
+                <time>{fila[1]}</time>
+                <p>{fila[3]} {fila[4]}</p>
+                <p>{fila[2]}</p>
+            </article>
+    '''
+
+    return cadena
+  
+if __name__ == "__main__":
+    aplicacion.run()
+```
+
+### 7. Mejorar el Estilo y la Funcionalidad
+- Se mejora el estilo del HTML utilizando CSS.
+- Se ordenan los artículos por fecha de manera descendente para mostrar los más recientes primero.
+
+```python
+from flask import Flask 
+import mysql.connector
+
+conexion = mysql.connector.connect(
+    host="localhost",
+    user="blogexamen",
+    password="Blogexamen123$",
+    database="blogexamen"
+)
+
+cursor = conexion.cursor() 
+
+aplicacion = Flask(__name__)
+
+@aplicacion.route("/")
+def raiz():
+    cadena = '''
+        <!doctype html>
+        <html>
+          ...
+    '''
+
+    cursor.execute("SELECT * FROM posts_completos ORDER BY fecha DESC;")
+    filas = cursor.fetchall()
+    
+    for fila in filas:
+        # Construcción de la cadena HTML
+        cadena += f'''
+            <article>
+                <h3>{fila[0]}</h3>
+                <time>{fila[1]}</time>
+                <p>{fila[3]} {fila[4]}</p>
+                <p>{fila[2]}</p>
+            </article>
+    '''
+
+    return cadena
+  
+if __name__ == "__main__":
+    aplicacion.run()
+```
+
+### 8. Ejecutar la Aplicación
+- La aplicación se ejecuta en el puerto por defecto de Flask (`5000`), y puedes ver tu blog en `http://localhost:5000`.
+
+```sh
+python nombre_del_archivo.py
+```
+
+Este es un resumen del flujo de trabajo desde la creación inicial hasta la implementación final. Si tienes alguna pregunta específica sobre cualquier parte del código o proceso, no dudes en preguntar.
 
 ### repaso mysql
+<small>Creado: 2025-10-23 16:09</small>
+
+#### Explicación
+
+Este fragmento de código SQL es una secuencia de comandos que te permiten interactuar con la base de datos MySQL desde la línea de comando. 
+
+Primero, el comando `sudo mysql -u root -p` te solicita iniciar sesión en MySQL como usuario 'root'. Al usar `sudo`, obtienes los permisos administrativos necesarios para acceder a todas las bases de datos disponibles. Tras ejecutar este comando, se te pedirá que introduzcas la contraseña del usuario root.
+
+El siguiente comando `SHOW DATABASES;` muestra una lista con todos los nombres de las bases de datos existentes en el servidor MySQL actual. Esto es útil cuando quieres ver qué bases de datos están configuradas y cómo están organizados tus datos.
+
+Finalmente, el comando `USE empresarial;` selecciona la base de datos llamada 'empresarial'. Una vez que has ejecutado este comando, todos los comandos SQL subsiguientes se aplicarán a esta base de datos específica hasta que cambies a otra utilizando otro comando USE o cierres la sesión.
+
+El comando `SHOW TABLES;` luego te muestra todas las tablas disponibles dentro de la base de datos 'empresarial'. Esto es especialmente importante para entender qué estructura de datos estás trabajando, ya sea al buscar un conjunto específico de datos o a prepararte para realizar cambios en esa base de datos.
+
+Estos comandos son fundamentales cuando te encuentras interactuando directamente con MySQL desde la línea de comandos y necesitas acceder a las bases de datos específicas y sus tablas.
+
+`001-repaso mysql.sql`
 
 ```sql
 sudo mysql -u root -p
@@ -6732,6 +9444,19 @@ SHOW TABLES;
 ```
 
 ### conecto a mysql
+<small>Creado: 2025-10-23 16:14</small>
+
+#### Explicación
+
+Este código Python se utiliza para conectarse a una base de datos MySQL y ejecutar consultas SQL. En primer lugar, importa el módulo `mysql.connector` que proporciona las herramientas necesarias para establecer una conexión con una base de datos MySQL desde un programa en Python.
+
+El fragmento crea una conexión a la base de datos utilizando los detalles de acceso proporcionados: host (localhost), usuario (usuarioempresarial), contraseña (usuarioempresarial) y el nombre de la base de datos (empresarial). Luego, se crea un objeto `cursor` que permite ejecutar comandos SQL y recuperar resultados.
+
+El código sigue ejecutando una consulta SELECT que selecciona todos los registros de la tabla `productos`. Los resultados devueltos por esta consulta se almacenan en el cursor. Finalmente, el resultado es recorrido con un bucle for para imprimir cada fila del conjunto de resultados en la consola.
+
+Es importante cerrar tanto el cursor como la conexión a la base de datos después de completar todas las operaciones necesarias para liberar los recursos y evitar posibles errores o ineficiencias.
+
+`002-conecto a mysql.py`
 
 ```python
 import mysql.connector
@@ -6760,6 +9485,25 @@ conexion.close()
 ```
 
 ### examen de bases de datos
+<small>Creado: 2025-10-23 16:24</small>
+
+#### Explicación
+
+Este fragmento de código SQL te guía a través del proceso de creación y configuración de una base de datos para un blog. Primero, inicia la sesión en MySQL con tus credenciales (`-u root -p`), lo que significa que estás utilizando el usuario 'root' y serás solicitado por la contraseña.
+
+Luego, se muestra la lista actual de bases de datos existentes usando `SHOW DATABASES;`. A continuación, se crea una nueva base de datos llamada `blogexamen` con el comando `CREATE DATABASE blogexamen;`.
+
+Después de crearla, cambias a esa base de datos específica utilizando `USE blogexamen;`. Aquí es donde vas a trabajar.
+
+Luego, creas una tabla llamada `posts`, que almacena información sobre los artículos del blog. Esta tabla tiene cinco columnas: un identificador único para cada artículo (`Identificador`), el título del post (`titulo`), la fecha en que se publicó (`fecha`), el contenido del post (`contenido`) y el ID del autor (`autor`).
+
+Después de crear la tabla, ejecutas `SHOW TABLES;` para mostrar todas las tablas existentes en la base de datos actual. Luego, describes la estructura recién creada de la tabla `posts` con `DESCRIBE posts;`.
+
+Finalmente, se realiza una modificación en la tabla `posts`. Se añade un campo clave principal (`PRIMARY KEY`) a la columna `Identificador`, lo que significa que esta columna va a contener valores únicos para cada registro. Luego, modificas el tipo de dato y las propiedades del campo `Identificador` para permitirle ser incremental (es decir, automáticamente aumenta por un valor fijo cada vez que se agrega una nueva entrada), asegurando así que nunca haya duplicados con `ALTER TABLE posts MODIFY COLUMN Identificador INT NOT NULL AUTO_INCREMENT;`. Al final, vuelves a describir la tabla `posts` para verificar los cambios hechos.
+
+Este código es importante porque establece las bases de la estructura de datos para un sistema de gestión del contenido (CMS) básico que permite almacenar y gestionar artículos de blog.
+
+`003-examen de bases de datos.sql`
 
 ```sql
 mysql -u root -p
@@ -6792,6 +9536,21 @@ DESCRIBE posts;
 ```
 
 ### tabla de autores
+<small>Creado: 2025-10-23 16:25</small>
+
+#### Explicación
+
+Este código SQL realiza varias operaciones importantes para configurar una base de datos y crear una tabla llamada `autores`. Primero, se inicia sesión en MySQL proporcionando las credenciales necesarias. Luego, muestra todas las bases de datos disponibles en el servidor.
+
+El siguiente paso es crear una nueva base de datos llamada `blogexamen` si no existe ya, y luego seleccionarla para trabajar con ella. Posteriormente, se crea la tabla `autores` que contiene cuatro columnas: `Identificador`, `nombre`, `apellidos` y `email`. Cada columna tiene un tipo de dato específico y algunas son obligatorias (no nulas).
+
+Después de crear la tabla, el código muestra todas las tablas disponibles en la base de datos actual (`blogexamen`) para verificar que `autores` ha sido creada correctamente. Luego describe la estructura de la tabla `autores`.
+
+Finalmente, se realizan dos operaciones importantes en la tabla `autores`: primero, se establece una clave primaria única basada en la columna `Identificador`. Luego, se modifica la columna `Identificador` para que sea autoincremental y no nula. Esto significa que cada vez que se añade un nuevo registro a la tabla, el valor de `Identificador` será automáticamente incrementado en uno, asegurando así que todos los registros tengan identificadores únicos.
+
+Esta secuencia de comandos es fundamental para establecer una base sólida para cualquier aplicación web o sistema de gestión de contenido que requiera almacenar información sobre autores.
+
+`004-tabla de autores.sql`
 
 ```sql
 mysql -u root -p
@@ -6823,6 +9582,21 @@ DESCRIBE autores;
 ```
 
 ### autores
+<small>Creado: 2025-10-23 16:27</small>
+
+#### Explicación
+
+Este fragmento de código SQL está diseñado para crear una base de datos y una tabla en un servidor MySQL, y luego configurar la tabla con campos específicos. Primero, se conecta a la base de datos MySQL usando el usuario root y te pide que introduzcas la contraseña. Luego, muestra todas las bases de datos disponibles.
+
+A continuación, crea una nueva base de datos llamada `blogexamen`. Una vez creada, selecciona esta base de datos para trabajar con ella. Después, se define una tabla llamada `autores` con cuatro columnas: `Identificador`, `nombre`, `apellidos` y `email`.
+
+Después de crear la tabla, el código muestra las tablas disponibles en la base de datos actual para verificar que la tabla `autores` ha sido creada correctamente. Luego describe los detalles de la tabla `autores` para mostrar cómo se estructuran sus columnas.
+
+Finalmente, realiza dos ajustes importantes a la tabla `autores`. En primer lugar, establece el campo `Identificador` como clave principal (`PRIMARY KEY`). Esto significa que cada registro en esta tabla tendrá un valor único en este campo y se puede usar para identificar de manera única cada fila. Luego, modifica el campo `Identificador` para que sea autoincremental (`AUTO_INCREMENT`), lo que permite que MySQL asigne automáticamente valores únicos a este campo cuando nuevos registros se añaden a la tabla sin proporcionar un valor explícito para esta columna.
+
+Este código es importante porque establece una estructura básica de base de datos necesaria para aplicaciones como blogs o sitios web donde se almacenan información sobre autores, incluyendo detalles como su nombre y correo electrónico.
+
+`005-autores.sql`
 
 ```sql
 mysql -u root -p
@@ -6854,6 +9628,19 @@ DESCRIBE autores;
 ```
 
 ### enlazo las tablas
+<small>Creado: 2025-10-23 16:28</small>
+
+#### Explicación
+
+Este fragmento de código SQL está configurando una relación entre dos tablas en una base de datos: la tabla `posts` y la tabla `autores`. Específicamente, el código está creando lo que se conoce como una clave foránea (FOREIGN KEY) en la tabla `posts`.
+
+La columna `autor` en la tabla `posts` ahora apunta a la columna `Identificador` en la tabla `autores`, estableciendo así una relación entre los autores y sus publicaciones. Esto significa que cada vez que se añade un post nuevo, el valor de `autor` debe coincidir con un valor existente en la columna `Identificador` de la tabla `autores`.
+
+La opción `ON DELETE RESTRICT ON UPDATE RESTRICT` asegura que si intentas eliminar un autor o cambiar su identificador, no será posible hacerlo a menos que se eliminen primero todas las entradas relacionadas en la tabla `posts`. Esto ayuda a mantener la integridad de los datos, evitando que queden huérfanos registros (es decir, publicaciones sin autor asociado).
+
+Este tipo de relación entre tablas es fundamental para estructurar correctamente una base de datos y permitir consultas más eficientes e informativas.
+
+`006-enlazo las tablas.sql`
 
 ```sql
 ALTER TABLE `posts` 
@@ -6864,6 +9651,17 @@ ON DELETE RESTRICT ON UPDATE RESTRICT;
 ```
 
 ### inserto registros
+<small>Creado: 2025-10-23 16:32</small>
+
+#### Explicación
+
+Este fragmento de código SQL está insertando datos en una tabla llamada `autores`. Cada fila que se añade a la tabla contiene información sobre un autor, especificamente su identificador único (una especie de número de registro), nombre, apellidos y dirección de correo electrónico. Por ejemplo, el primer autor es Lucía Fernández Lirio con un email de contacto.
+
+Después de insertar todos estos datos en la tabla `autores`, se ejecuta una consulta SELECT que recupera toda la información almacenada en esa tabla (`SELECT * FROM autores;`). Esto permite ver los registros que acabamos de introducir y verificar que todo ha sido guardado correctamente.
+
+Esta operación es importante porque nos ayuda a llenar nuestra base de datos con información real para poder realizar consultas más avanzadas y aprender a gestionar datos de manera efectiva en SQL.
+
+`007-inserto registros.sql`
 
 ```sql
 INSERT INTO autores (Identificador, nombre, apellidos, email) VALUES
@@ -6892,6 +9690,17 @@ SELECT * FROM autores;
 ```
 
 ### inserto posts
+<small>Creado: 2025-10-23 16:35</small>
+
+#### Explicación
+
+Este código SQL se utiliza para insertar múltiples registros (filas) en una tabla llamada `posts`. Cada registro representa un artículo o entrada con información como el identificador único del post, título, fecha de publicación, contenido y autor. El comando `INSERT INTO` es fundamental en bases de datos SQL para agregar nueva información a una tabla existente.
+
+En este caso específico, se están insertando 50 registros diferentes en la tabla `posts`, cada uno con detalles específicos como el identificador del post, título, fecha, contenido e identificador del autor. Por ejemplo, un registro podría ser un artículo titulado "El futuro de la inteligencia artificial" escrito por el autor con ID 1 y publicado el 5 de enero de 2025.
+
+Después de insertar todos estos registros, se utiliza el comando `SELECT * FROM posts;` para recuperar y mostrar toda la información almacenada en la tabla `posts`. Esto es útil tanto para verificar que los datos se han ingresado correctamente como para realizar consultas o análisis sobre los datos recién añadidos.
+
+`008-inserto posts.sql`
 
 ```sql
 INSERT INTO posts (Identificador, titulo, fecha, contenido, autor) VALUES
@@ -6950,6 +9759,17 @@ SELECT * FROM  posts;
 ```
 
 ### peticion cruzada entre tablas
+<small>Creado: 2025-10-23 16:38</small>
+
+#### Explicación
+
+Este fragmento de código SQL realiza una consulta que combina dos tablas: `posts` y `autores`. La consulta selecciona información sobre los posts, como el título, la fecha y el contenido, así como el nombre y apellidos del autor asociado a cada post. 
+
+La clave para entender cómo se combinan estas tablas es la instrucción `LEFT JOIN`, que une todos los registros de la tabla `posts` con los registros correspondientes en la tabla `autores`. Esto se hace mediante una condición (`ON posts.autor = autores.Identificador`) que asegura que cada post se vincula al autor correcto basándose en el identificador único del autor en ambas tablas.
+
+Esta consulta es importante porque permite obtener toda la información relevante sobre un post, incluyendo detalles sobre su creador, sin necesidad de realizar consultas adicionales o trabajar con múltiples sentencias SQL. Esto facilita la manipulación y visualización de datos en aplicaciones web o sistemas de gestión de contenidos donde se requiere mostrar información detallada sobre los posts junto a los datos del autor.
+
+`009-peticion cruzada entre tablas.sql`
 
 ```sql
 SELECT
@@ -6964,6 +9784,19 @@ ON posts.autor = autores.Identificador;
 ```
 
 ### creacion de una vista
+<small>Creado: 2025-10-23 16:40</small>
+
+#### Explicación
+
+Este fragmento de código SQL está diseñado para crear una vista que combina información de dos tablas, `posts` y `autores`. Una vista en SQL es como un alias para una consulta compleja que se puede tratar como si fuera una tabla real. En este caso, la vista llamada `posts_completos` selecciona los campos `titulo`, `fecha`, y `contenido` de la tabla `posts`, así como el nombre y apellidos del autor desde la tabla `autores`.
+
+La consulta utiliza un JOIN izquierdo (LEFT JOIN), lo que significa que se incluirán todos los registros de la tabla principal (`posts`) junto con las coincidencias en la tabla secundaria (`autores`). Si no hay correspondencia en `autores`, los campos del autor para esa fila serán NULL.
+
+La segunda línea del código ejecuta una consulta simple para seleccionar todos los datos de la vista recién creada, lo que permite visualizar cómo se ha combinado la información. Esto es útil para entender rápidamente el contenido que se ha generado a partir de las tablas originales y sirve como una forma de validación inmediata del proceso de creación de la vista.
+
+Crear vistas de esta manera facilita la consulta y manipulación de datos complejos, permitiendo a los desarrolladores obtener información más detallada y fácilmente accesible sin tener que repetir la misma lógica en múltiples lugares del código.
+
+`010-creacion de una vista.sql`
 
 ```sql
 CREATE VIEW posts_completos AS 
@@ -6981,6 +9814,17 @@ SELECT * FROM posts_completos;
 ```
 
 ### simulacro examen programacion
+<small>Creado: 2025-10-23 16:50</small>
+
+#### Explicación
+
+Este fragmento de código es muy sencillo y está escrito en Python. En él, se utilizan dos instrucciones `print()` para mostrar texto en la pantalla del usuario. La primera línea muestra el título "Gestión de posts", que probablemente indica que este programa va a gestionar entradas o artículos (posts) en una aplicación web o base de datos.
+
+La segunda línea imprime "v0.1 Jose Vicente Carratalá". Esto es típicamente utilizado para mostrar la versión del programa y el nombre del desarrollador. En este caso, indica que esta es la versión 0.1 del software y que fue creada por alguien llamado Jose Vicente Carratalá.
+
+Este tipo de código es importante porque proporciona información inmediata al usuario sobre qué hace el programa y quién lo creó, además de indicar su estado actual en términos de desarrollo (en este caso, una versión inicial).
+
+`011-simulacro examen programacion.py`
 
 ```python
 print("Gestión de posts")
@@ -6988,6 +9832,17 @@ print("v0.1 Jose Vicente Carratalá")
 ```
 
 ### bucle infinito
+<small>Creado: 2025-10-23 16:51</small>
+
+#### Explicación
+
+Este fragmento de código es un pequeño programa en Python que muestra cómo manejar opciones del usuario a través de un menú. El programa comienza mostrando un mensaje de bienvenida y una versión ("v0.1 Jose Vicente Carratalá"). Luego entra en un bucle infinito (`while True`), lo que significa que el menú se repetirá hasta que el programa sea interrumpido manualmente.
+
+Dentro del bucle, se muestra al usuario cuatro opciones: crear una nueva entrada, listar las entradas existentes, actualizar una entrada y eliminar una entrada. El usuario debe ingresar un número (1, 2, 3 o 4) correspondiente a la opción que desea seleccionar. La función `input()` espera la entrada del usuario y luego se convierte en un entero (`int`) para ser utilizado más adelante en el programa.
+
+Este tipo de estructura es común en aplicaciones interactivas donde el usuario puede navegar entre diferentes funcionalidades hasta que decida terminar la aplicación. Es importante destacar cómo se utiliza el bucle infinito junto con una condición de salida implícita (a través del manejo de opciones y posiblemente una opción para salir) para mantener el programa en ejecución hasta que el usuario quiera finalizarlo.
+
+`012-bucle infinito.py`
 
 ```python
 print("Gestión de posts")
@@ -7003,6 +9858,25 @@ while True:
 ```
 
 ### controlar las opciones
+<small>Creado: 2025-10-23 16:52</small>
+
+#### Explicación
+
+Este código es un programa simple que permite al usuario gestionar entradas (o posts) en un sistema, probablemente para una base de datos. El programa muestra un menú con opciones y espera a que el usuario seleccione una de ellas. La estructura del menú se repite infinitamente gracias al bucle `while True`, lo que significa que el programa seguirá mostrando el menú hasta que sea detenido manualmente.
+
+El código imprime las opciones disponibles:
+1. Crear una entrada nueva.
+2. Listar todas las entradas existentes.
+3. Actualizar una entrada ya creada.
+4. Eliminar una entrada.
+
+Después de mostrar estas opciones, el programa solicita al usuario que introduzca un número para seleccionar la opción deseada. La función `input()` espera a que el usuario teclee algo y presione Enter, lo que se convierte en una cadena de texto. Luego, esa cadena se convierte en un entero usando `int()`, lo que permite al programa compararla con los números de las opciones.
+
+Si el usuario selecciona alguna opción, por ejemplo la número 1, el código verificará si la entrada es igual a 1 y ejecutará el bloque correspondiente. En este caso, para cada opción se usa la palabra clave `pass`, lo que significa que no hará nada (solo es un marcador de posición). Cuando desarrolles más esta parte del programa, aquí es donde escribirás las acciones específicas que deben ocurrir según la opción elegida por el usuario.
+
+Este tipo de estructura con menús y opciones es muy común en programas interactivos que permiten a los usuarios realizar varias tareas sin tener que cerrar y abrir nuevamente el programa.
+
+`013-controlar las opciones.py`
 
 ```python
 print("Gestión de posts")
@@ -7027,6 +9901,19 @@ while True:
 ```
 
 ### insertamos elementos
+<small>Creado: 2025-10-23 16:52</small>
+
+#### Explicación
+
+Este código es un ejemplo simple de un menú en consola donde se le pide al usuario que elija una opción entre varias posibilidades. El programa imprime primero un mensaje de bienvenida y versión, luego entra en un bucle infinito `while True` que muestra siempre las mismas opciones al usuario hasta que se detenga manualmente.
+
+El menú ofrece cuatro opciones: crear una entrada nueva, listar todas las entradas existentes, actualizar una entrada ya creada y eliminar una entrada. Cada opción está asociada a un número del 1 al 4. Cuando el usuario introduce su elección mediante `input()`, se convierte esa entrada en un número entero con `int()` para poder compararla con los números de las opciones.
+
+Para cada opción elegida, el programa revisa la elección del usuario utilizando estructuras `if` y `elif`. Actualmente, cuando se selecciona una opción (1 a 4), no ocurre nada debido al uso de `pass`, que es una declaración vacía en Python que simplemente indica "haz nada". Este código está preparado para agregar la funcionalidad específica a cada opción más adelante, como crear las funciones necesarias para gestionar entradas.
+
+Este tipo de estructura es importante porque permite al usuario interactuar con el programa y realizar diferentes tareas según lo que desee hacer en ese momento.
+
+`014-insertamos elementos.py`
 
 ```python
 print("Gestión de posts")
@@ -7051,6 +9938,19 @@ while True:
 ```
 
 ### insertamos en la base de datos
+<small>Creado: 2025-10-23 16:56</small>
+
+#### Explicación
+
+Este código es un programa simple en Python que interactúa con una base de datos MySQL para gestionar entradas (también conocidas como "posts") en un blog. Primero, el programa se conecta a la base de datos utilizando información de conexión como el host, usuario y contraseña. Luego, crea un cursor para ejecutar comandos SQL dentro de la base de datos.
+
+El corazón del código es un bucle `while` que presenta al usuario un menú con cuatro opciones: crear una entrada nueva, listar las entradas existentes, actualizar una entrada o eliminar entradas. Dependiendo de la opción elegida por el usuario, se realizarán diferentes acciones. Actualmente, solo está implementada la opción para crear una nueva entrada.
+
+Cuando el usuario selecciona la opción 1 (Crear entrada nueva), se solicitan al usuario el título, la fecha y el contenido del post, junto con el ID del autor que escribió el post. Estos datos son usados para construir un comando SQL `INSERT` que añade una nueva fila en la tabla `posts`. El método `commit()` de la conexión asegura que los cambios se guarden permanentemente en la base de datos.
+
+Es importante destacar que las opciones 2, 3 y 4 (Listar entradas, Actualizar entrada y Eliminar entradas) están presentes pero no implementadas en este código. Estas serán tareas para el futuro desarrollo del programa.
+
+`015-insertamos en la base de datos.py`
 
 ```python
 import mysql.connector
@@ -7096,6 +9996,17 @@ conexion.close()
 ```
 
 ### usuario con permisos
+<small>Creado: 2025-10-23 16:58</small>
+
+#### Explicación
+
+Este fragmento de código SQL te enseña cómo crear un usuario en una base de datos y otorgarle permisos específicos. Primero, crea un nuevo usuario llamado `blogexamen` con la contraseña `Blogexamen123$`. Luego, utiliza el comando `GRANT USAGE` para permitir al usuario acceder a los recursos generales del sistema pero sin darle privilegios en particular.
+
+Después, se ajustan las características de seguridad y limitaciones del usuario recién creado con el comando `ALTER USER`, estableciendo que no requiere un método especial de autenticación (`REQUIRE NONE`) y eliminando cualquier límite predeterminado en términos de número máximo de consultas por hora, conexiones simultáneas, actualizaciones por hora o conexiones totales del usuario.
+
+Finalmente, se conceden todos los privilegios sobre la base de datos `blogexamen` al usuario `blogexamen`. Esto significa que el usuario tiene el control completo sobre esa base de datos específica y puede realizar cualquier operación dentro de ella. Este tipo de configuración es común en entornos donde se necesita un usuario dedicado para gestionar una base de datos particular, manteniendo la seguridad y asegurando que las operaciones no interfieran innecesariamente entre diferentes bases de datos.
+
+`016-usuario con permisos.sql`
 
 ```sql
 CREATE USER 
@@ -7116,6 +10027,21 @@ TO 'blogexamen'@'localhost';
 ```
 
 ### insertamos de vuelta
+<small>Creado: 2025-10-23 16:59</small>
+
+#### Explicación
+
+Este código es un ejemplo básico de cómo interactuar con una base de datos MySQL desde Python para gestionar entradas en un blog. La aplicación permite al usuario conectarse a la base de datos y realizar varias acciones, como crear nuevas entradas (o posts), listar las existentes, actualizarlas o eliminarlas.
+
+El programa comienza por establecer una conexión a la base de datos utilizando el módulo `mysql.connector`. Luego, se muestra un menú interactivo con cuatro opciones: crear una nueva entrada, listar todas las entradas, actualizar una entrada y eliminar una entrada. La opción elegida por el usuario es determinada mediante la función `input`, que espera a que el usuario teclee una opción numérica.
+
+Si el usuario selecciona la opción 1 (crear una nueva entrada), se le solicitan detalles como el título, fecha, contenido y el ID del autor de la entrada. Estos datos son luego utilizados para ejecutar una consulta SQL INSERT en la base de datos `blogexamen` con la tabla `posts`, insertando un nuevo registro.
+
+El bucle `while True:` asegura que el menú se mantendrá abierto hasta que el usuario decida salir del programa, aunque no hay código actualmente implementado para permitir esa salida. Las opciones 2, 3 y 4 están presentes pero aún no tienen la lógica necesaria para realizar las acciones correspondientes (listar, actualizar, eliminar).
+
+Este tipo de programa es útil para aprender cómo gestionar interactivamente una base de datos desde Python, especialmente en el contexto de aplicaciones web como blogs o sistemas de gestión de contenido.
+
+`017-insertamos de vuelta.py`
 
 ```python
 import mysql.connector
@@ -7161,6 +10087,25 @@ conexion.close()
 ```
 
 ### listado de entradas
+<small>Creado: 2025-10-23 17:01</small>
+
+#### Explicación
+
+Este código Python se conecta a una base de datos MySQL y proporciona un menú interactivo para gestionar entradas (posts) en la base de datos. Primero, el programa establece una conexión con la base de datos usando las credenciales especificadas y crea un cursor que permite ejecutar consultas SQL.
+
+El bucle `while True` muestra un menú al usuario donde puede seleccionar entre varias opciones: crear una nueva entrada (post), listar todas las entradas existentes, actualizar una entrada o eliminar una entrada. Según la opción elegida por el usuario, el programa realiza diferentes acciones:
+
+- Si se escoge "1.-Crear entrada nueva", el usuario introduce los detalles del post como título, fecha, contenido y el ID del autor. Luego, el programa ejecuta una consulta SQL para insertar estos datos en la tabla `posts` de la base de datos.
+  
+- Si se escoge "2.-Listar entradas", el programa busca todas las filas en la tabla `posts` y luego imprime cada fila en la consola.
+
+Las opciones 3 (Actualizar entrada) y 4 (Eliminar entradas) no tienen implementación actualmente, solo hay código para ejecutar una consulta SQL cuando se seleccione estas opciones. 
+
+Finalmente, después de que el usuario ha terminado con las operaciones, el programa cierra tanto el cursor como la conexión a la base de datos.
+
+Este tipo de aplicación es útil para manejar y ver los datos almacenados en una base de datos desde una interfaz simple en la consola.
+
+`018-listado de entradas.py`
 
 ```python
 import mysql.connector
@@ -7210,6 +10155,20 @@ conexion.close()
 ```
 
 ### actualizar
+<small>Creado: 2025-10-23 17:05</small>
+
+#### Explicación
+
+Este código es una pequeña aplicación en Python que gestiona entradas de un blog almacenadas en una base de datos MySQL. La aplicación se conecta a la base de datos al inicio y ofrece varias opciones para interactuar con los registros de entradas (también conocidos como "posts"):
+
+1. **Crear entrada nueva:** Permite al usuario ingresar el título, fecha, contenido y autor de un nuevo post. Luego, inserta estos datos en la tabla `posts` de la base de datos.
+2. **Listar entradas:** Muestra todos los posts existentes en la base de datos.
+3. **Actualizar entrada:** Pide al usuario que introduzca el ID del post a actualizar y luego permite cambiar sus detalles (título, fecha, contenido y autor).
+4. **Eliminar entradas:** Esta opción está implementada pero no tiene funcionalidad actualmente (el bloque `elif opcion == 4:` solo contiene un `pass`).
+
+El código utiliza bucles y condicionales (`if`, `elif`) para manejar las diferentes opciones del menú, proporcionando una interfaz sencilla que permite a los usuarios interactuar con la base de datos sin necesidad de escribir consultas SQL manualmente. Esta práctica es importante porque facilita el mantenimiento y actualización de la información en entornos donde los cambios son frecuentes.
+
+`019-actualizar.py`
 
 ```python
 import mysql.connector
@@ -7266,6 +10225,19 @@ conexion.close()
 ```
 
 ### recuperar una tabla destrozada
+<small>Creado: 2025-10-23 17:06</small>
+
+#### Explicación
+
+Este fragmento de código SQL realiza varias operaciones en una tabla llamada `posts`. En primer lugar, ejecuta la instrucción `TRUNCATE posts;`, lo que elimina todos los registros existentes en la tabla sin liberar los espacios vacíos utilizados por dicha tabla. Esto es útil para comenzar con un estado limpio de la tabla antes de insertar nuevos datos.
+
+Luego, se seleccionan todas las filas de la tabla `posts` utilizando la instrucción `SELECT * FROM posts;`. Esta consulta te permite ver el contenido actual de la tabla después del truncamiento, aunque en este caso, debido al truncado previo, no debería haber registros a mostrar.
+
+Finalmente, se insertan múltiples filas en la tabla `posts` mediante la declaración `INSERT INTO posts (Identificador, titulo, fecha, contenido, autor) VALUES (...)`. Cada línea dentro de esta instrucción añade una nueva fila con detalles específicos como el identificador del post, título, fecha, contenido y autor. Estos datos son muy variados y representan entradas de blog o artículos relacionados con diferentes aspectos de la inteligencia artificial.
+
+Este código es importante porque demuestra cómo manipular completamente una tabla en SQL: eliminar todos sus registros, verificar que está vacía e insertar múltiples filas de información a través de comandos detallados. Es un buen ejemplo para entender cómo gestionar datos en bases de datos relacionales desde un punto de vista práctico y operativo.
+
+`020-recuperar una tabla destrozada.sql`
 
 ```sql
 TRUNCATE posts;
@@ -7328,6 +10300,25 @@ SELECT * FROM  posts;
 ```
 
 ### opcion eliminar
+<small>Creado: 2025-10-23 17:08</small>
+
+#### Explicación
+
+Este código es un programa en Python que interactúa con una base de datos MySQL para gestionar entradas de blog. El programa se conecta a la base de datos y muestra un menú al usuario con opciones para crear, listar, actualizar o eliminar entradas.
+
+1. **Conexión a la Base de Datos**: Al inicio del código, el programa establece una conexión a la base de datos MySQL utilizando las credenciales proporcionadas (host, usuario, contraseña y nombre de la base de datos). Esta conexión se utiliza para realizar consultas SQL más adelante en el código.
+
+2. **Menú Interactivo**: Una vez conectado, el programa muestra un menú con opciones numéricas al usuario:
+   - Crear una nueva entrada: Solicita los detalles del post (título, fecha, contenido y autor) y ejecuta una consulta `INSERT INTO` para agregar la nueva entrada a la tabla `posts`.
+   - Listar entradas existentes: Ejecuta una consulta `SELECT * FROM posts;` que recupera todas las filas de la tabla `posts`. Luego imprime cada fila en la consola.
+   - Actualizar una entrada existente: Solicita el ID del post a actualizar y los nuevos detalles. Se ejecuta un comando SQL `UPDATE` para modificar el registro correspondiente en la base de datos.
+   - Eliminar una entrada: Pide al usuario que introduzca el ID del post que desea eliminar, después se ejecuta una consulta `DELETE FROM posts WHERE Identificador = <id>;`.
+
+3. **Finalización**: Después de que el usuario finaliza su interacción (presionando Ctrl+C o simplemente terminando la ejecución), el código cierra el cursor y la conexión a la base de datos para liberar recursos.
+
+Este tipo de programa es muy útil en aplicaciones web, permitiendo una gestión sencilla pero completa de registros en una base de datos, ideal para mantener un blog con entradas administrables desde una interfaz de consola.
+
+`021-opcion eliminar.py`
 
 ```python
 import mysql.connector
@@ -7387,6 +10378,27 @@ conexion.close()
 ```
 
 ### extraccion a funcion parte 1
+<small>Creado: 2025-10-23 17:12</small>
+
+#### Explicación
+
+Este fragmento de código es una aplicación sencilla en Python que permite gestionar entradas (posts) en una base de datos MySQL. La aplicación conecta a la base de datos y ofrece al usuario cuatro opciones para interactuar con los posts: crear uno nuevo, listar todos ellos, actualizar un post existente o eliminar uno.
+
+La función `menu()` muestra las diferentes opciones disponibles al usuario y solicita que elija una opción ingresando un número correspondiente. Dependiendo del número seleccionado por el usuario, se ejecutan diferentes bloques de código:
+
+1. **Crear entrada nueva**: Pide al usuario los detalles del post (título, fecha, contenido y ID del autor) e inserta estos datos en la tabla `posts` de la base de datos.
+   
+2. **Listar entradas**: Consulta todos los registros de la tabla `posts` y muestra cada fila con sus detalles.
+
+3. **Actualizar entrada**: Pide al usuario el identificador del post a actualizar, así como nuevos valores para título, fecha, contenido y autor, luego ejecuta una consulta SQL que actualiza ese registro específico en la base de datos.
+   
+4. **Eliminar entradas**: Solicita el identificador del post que se desea eliminar y ejecuta una consulta SQL para borrar esa entrada.
+
+Es importante notar que todas las consultas a la base de datos están seguidas por un `commit`, lo cual asegura que los cambios sean guardados permanentemente en la base de datos. El bucle `while True` permite al usuario interactuar repetidamente con el menú hasta que decida salir del programa manualmente, aunque este no está implementado explícitamente en el código mostrado.
+
+Este tipo de aplicación es útil para aprender cómo manejar interacciones básicas entre una base de datos y un usuario a través de un programa de consola.
+
+`022-extraccion a funcion parte 1.py`
 
 ```python
 import mysql.connector
@@ -7450,6 +10462,27 @@ conexion.close()
 ```
 
 ### no solo creo funciones sino que las uso
+<small>Creado: 2025-10-23 17:12</small>
+
+#### Explicación
+
+Este código Python es un ejemplo básico de cómo interactuar con una base de datos MySQL desde un programa, utilizando el módulo `mysql.connector`. La aplicación permite a un usuario gestionar entradas en una tabla llamada "posts" mediante funciones específicas.
+
+El programa comienza estableciendo una conexión a la base de datos y creando un cursor para ejecutar consultas. Luego define varias funciones: `bienvenida()` muestra un mensaje de inicio, mientras que `menu()` presenta al usuario opciones para crear nuevas entradas, listar todas las entradas existentes, actualizar o eliminar entradas.
+
+Después de llamar a la función `bienvenida()`, el programa entra en un bucle infinito (`while True`) donde llama repetidamente a la función `menu()` que muestra opciones y solicita al usuario que ingrese una opción. Dependiendo del número ingresado, el programa ejecuta diferentes acciones:
+
+- Si el usuario selecciona "1", se le pide que introduzca los detalles de un nuevo post (título, fecha, contenido, ID del autor) y luego se inserta en la base de datos.
+  
+- Para la opción "2", se recuperan todos los registros existentes desde la tabla "posts" y se muestran al usuario.
+  
+- La selección del número "3" permite a un usuario actualizar una entrada específica. Se le solicita que introduzca el ID del post que desea modificar, así como las nuevas entradas de datos para ese post.
+
+- Finalmente, si el usuario selecciona la opción "4", se puede eliminar un post específico ingresando su ID.
+
+El uso de funciones separadas para tareas específicas (como mostrar un menú o realizar acciones en la base de datos) ayuda a mantener el código organizado y más fácil de entender. Además, es importante cerrar la conexión con la base de datos al finalizar las operaciones para liberar recursos.
+
+`023-no solo creo funciones sino que las uso.py`
 
 ```python
 import mysql.connector
@@ -7517,6 +10550,38 @@ conexion.close()
 ```
 
 ### funciones para las operaciones
+<small>Creado: 2025-10-23 17:13</small>
+
+#### Explicación
+
+Este código Python es una aplicación sencilla que permite gestionar entradas en una base de datos MySQL. La aplicación se conecta a la base de datos `blogexamen` y ofrece al usuario un menú con cuatro opciones: crear nueva entrada, listar todas las entradas, actualizar una entrada existente y eliminar una entrada.
+
+### Descripción del código:
+
+1. **Conexión a la Base de Datos**:
+   - El script comienza importando el módulo `mysql.connector` para conectarse a MySQL.
+   - Establece una conexión con la base de datos usando los detalles proporcionados (host, usuario, contraseña y nombre de la base de datos).
+
+2. **Definición de Funciones**:
+   - Se definen varias funciones que realizan operaciones específicas en la base de datos:
+     - `bienvenida()`: Imprime un mensaje de bienvenida al programa.
+     - `menu()`: Muestra el menú con las opciones disponibles y pide al usuario que seleccione una opción.
+     - `insertar()`: Permite al usuario ingresar detalles para crear una nueva entrada en la base de datos (`INSERT INTO posts`).
+     - `listar()`: Obtiene todas las entradas existentes desde la tabla `posts` y las imprime.
+     - `actualizar()`: Actualiza los datos de una entrada existente basándose en el identificador del post proporcionado por el usuario (`UPDATE posts`).
+     - `eliminar()`: Elimina una entrada específica en la base de datos basándose en su identificador (`DELETE FROM posts`).
+
+3. **Ejecución del Programa**:
+   - Llama a la función `bienvenida()` para mostrar un mensaje inicial.
+   - Inicia un bucle infinito con `while True:` que muestra el menú y espera una opción de entrada del usuario.
+   - Dependiendo de la elección del usuario, se llama a las funciones correspondientes (insertar, listar, actualizar o eliminar).
+   
+### Importancia:
+Este código es fundamental para comprender cómo interactuar con bases de datos MySQL desde Python. Aprende a manejar conexiones, ejecutar comandos SQL y controlar flujos de entrada/salida en un entorno web o de consola.
+
+El script se puede mejorar aún más implementando buenas prácticas como validación de entradas del usuario y manejo de excepciones para errores de base de datos.
+
+`024-funciones para las operaciones.py`
 
 ```python
 import mysql.connector
@@ -7593,6 +10658,27 @@ conexion.close()
 ```
 
 ### uso las funciones
+<small>Creado: 2025-10-23 17:14</small>
+
+#### Explicación
+
+Este código es una pequeña aplicación en Python que permite gestionar entradas de un blog almacenado en una base de datos MySQL. La aplicación proporciona varias funciones para interactuar con los posts, como crear nuevos posts, listar todos los posts existentes, actualizar un post específico y eliminar un post.
+
+1. **Conexión a la Base de Datos:** El código comienza estableciendo una conexión a una base de datos MySQL específica (host 'localhost', usuario 'blogexamen' y contraseña 'Blogexamen123$') utilizando el módulo `mysql.connector`. La base de datos se llama "blogexamen".
+
+2. **Funciones**: Se definen varias funciones para manejar diferentes acciones:
+   - `bienvenida()`: Imprime un mensaje de bienvenida.
+   - `menu()`: Muestra al usuario una lista de opciones disponibles y solicita que elija una opción.
+   - `insertar()`: Permite al usuario crear una nueva entrada en la base de datos, ingresando detalles como el título, fecha, contenido y autor (ID del autor).
+   - `listar()`: Recupera todos los posts de la base de datos y los imprime en pantalla.
+   - `actualizar()`: Permite a un usuario modificar una publicación existente basándose en su ID.
+   - `eliminar()`: Elimina una entrada específica de la base de datos utilizando el identificador único del post.
+
+3. **Ejecución Continua**: El código ejecuta primero la función `bienvenida()` y luego entra en un bucle infinito que muestra el menú al usuario (`menu()`). Dependiendo de la opción elegida por el usuario, se llama a una de las funciones para insertar, listar, actualizar o eliminar entradas. Si el usuario selecciona una opción no válida, simplemente vuelve a mostrar el menú hasta que se seleccione una opción correcta.
+
+Esta estructura es útil en aplicaciones donde necesitas proporcionar un conjunto básico de operaciones CRUD (Crear, Leer, Actualizar y Eliminar) para gestionar datos en una base de datos.
+
+`025-uso las funciones.py`
 
 ```python
 import mysql.connector
@@ -7668,6 +10754,23 @@ conexion.close()
 ```
 
 ### vamos a documentar un poco
+<small>Creado: 2025-10-23 17:15</small>
+
+#### Explicación
+
+Este código es un programa en Python que permite gestionar entradas de un blog en una base de datos MySQL. El objetivo principal del programa es permitir al usuario realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) sobre las entradas del blog.
+
+En primer lugar, el programa se conecta a la base de datos MySQL usando credenciales específicas. Luego, define varias funciones que manejan diferentes aspectos de la gestión de posts:
+
+- `bienvenida()` muestra un mensaje inicial con información sobre el programa.
+- `menu()` presenta al usuario un menú interactivo con opciones para crear nuevas entradas, listar todas las entradas existentes, actualizar una entrada específica o eliminar una entrada por su identificador.
+- `insertar()`, `listar()`, `actualizar()` y `eliminar()` son funciones que realizan operaciones SQL (Structured Query Language) en la base de datos para insertar nuevos posts, recuperar todos los posts almacenados, modificar un post existente o borrar uno.
+
+El programa principal comienza ejecutando la función `bienvenida()`, luego entra en un bucle infinito donde muestra el menú al usuario y realiza la acción correspondiente según la opción seleccionada por el usuario. El programa finaliza cuando el bucle se sale de él, cerrando también las conexiones a la base de datos.
+
+Este tipo de programa es importante para entender cómo interactuar con bases de datos desde Python utilizando consultas SQL, así como para aprender sobre la creación y uso de menús interactivos en aplicaciones de consola.
+
+`026-vamos a documentar un poco.py`
 
 ```python
 '''
@@ -7748,6 +10851,26 @@ conexion.close()
 ```
 
 ### documento las funciones
+<small>Creado: 2025-10-23 17:16</small>
+
+#### Explicación
+
+Este código es un programa simple que permite gestionar entradas en un blog utilizando una base de datos MySQL. El programa ofrece al usuario cuatro opciones principales: crear nuevas entradas, listar todas las entradas existentes, actualizar entradas existentes y eliminar entradas.
+
+El código comienza estableciendo una conexión a la base de datos MySQL con los detalles proporcionados (host, usuario, contraseña y nombre de la base de datos). Luego define varias funciones que realizan tareas específicas:
+
+1. **bienvenida()**: Imprime un mensaje de bienvenida al iniciar el programa.
+2. **menu()**: Muestra las opciones disponibles y solicita al usuario que seleccione una opción.
+3. **insertar()**: Pide al usuario los detalles para crear una nueva entrada (título, fecha, contenido y autor) y ejecuta una consulta SQL INSERT para añadir la entrada a la base de datos.
+4. **listar()**: Ejecuta un SELECT * FROM posts; en la base de datos para recuperar todas las entradas existentes e imprime cada fila en pantalla.
+5. **actualizar()**: Solicita al usuario el identificador del post que desea actualizar, junto con los nuevos valores para título, fecha, contenido y autor, luego ejecuta una consulta UPDATE en la base de datos.
+6. **eliminar()**: Pide al usuario el identificador del post a eliminar y ejecuta una consulta DELETE FROM posts WHERE Identificador = <id>.
+
+Después de definir las funciones, se llama a la función bienvenida(), seguida de un bucle while que muestra el menú y llama a las funciones correspondientes según la opción elegida por el usuario. El programa continuará mostrando este menú hasta que sea detenido manualmente.
+
+Este tipo de estructura es importante porque permite al usuario interactuar fácilmente con la base de datos para realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) sobre los posts del blog, lo cual es una habilidad fundamental en el desarrollo web.
+
+`027-documento las funciones.py`
 
 ```python
 '''
@@ -7834,6 +10957,23 @@ conexion.close()
 ```
 
 ### solucion al problema
+<small>Creado: 2025-10-23 17:18</small>
+
+#### Explicación
+
+Este programa es una aplicación simple para gestionar entradas en un blog, utilizando una base de datos MySQL. El programa permite al usuario realizar operaciones básicas de creación (CREATE), lectura (READ), actualización (UPDATE) y eliminación (DELETE) sobre registros en la tabla `posts` de la base de datos.
+
+El código comienza estableciendo una conexión a la base de datos utilizando el módulo `mysql.connector`. Luego, se definen varias funciones que manejan diferentes aspectos del CRUD:
+
+- La función `bienvenida()` imprime un mensaje al usuario cuando inicia el programa.
+- La función `menu()` presenta un menú interactivo con opciones para crear una nueva entrada, listar todas las entradas existentes, actualizar una entrada existente y eliminar una entrada.
+- Las funciones `insertar()`, `listar()`, `actualizar()` y `eliminar()` realizan operaciones específicas en la base de datos según la opción elegida por el usuario.
+
+El programa se ejecuta dentro de un bucle infinito (`while True:`), mostrando siempre el menú al usuario hasta que decida cerrarlo manualmente. Dependiendo de la elección del usuario, las funciones correspondientes son llamadas para realizar la acción deseada. Al finalizar cada operación, los cambios en la base de datos se confirman utilizando `conexion.commit()`.
+
+Esta estructura permite a un administrador o autor del blog gestionar fácilmente sus entradas desde una interfaz sencilla y controlada por menú.
+
+`028-solucion al problema.py`
 
 ```python
 '''
@@ -7923,6 +11063,17 @@ conexion.close()
 ```
 
 ### simulacro blog
+<small>Creado: 2025-10-23 17:27</small>
+
+#### Explicación
+
+Este fragmento de código HTML crea una página web simple para un blog. La estructura principal incluye tres secciones: `header`, `main` y `footer`. En el encabezado (`header`) se muestra el título del blog "El blog de Jose Vicente", mientras que en el pie de la página (`footer`) aparece la información de derechos de autor.
+
+En la parte central, marcada como `main`, hay un artículo con elementos básicos típicos de un post de blog: un título, una fecha, el nombre del autor y el contenido del artículo. Estos componentes están estructurados para que sean fácilmente identificables tanto por los usuarios como por motores de búsqueda.
+
+La hoja de estilos integrada en la sección `<style>` dentro del encabezado (`head`) define el diseño básico: un fondo gris, una fuente sin serif y dimensiones específicas para las tres secciones principales, asegurando que todo está centrado y cómodo para leer. Este tipo de estructura ayuda a mantener un diseño limpio y fácil de navegar, lo cual es importante para mejorar la experiencia del usuario en el sitio web.
+
+`029-simulacro blog.html`
 
 ```html
 <!doctype html>
@@ -7954,6 +11105,19 @@ conexion.close()
 ```
 
 ### arrancamos flask
+<small>Creado: 2025-10-23 17:28</small>
+
+#### Explicación
+
+Este fragmento de código está utilizando la biblioteca Flask para crear una aplicación web sencilla en Python. Primero, importamos `Flask` desde el módulo flask. Luego, creamos un objeto de la clase `Flask`, que representa nuestra aplicación web, y lo guardamos en la variable `aplicacion`. 
+
+El decorador `@aplicacion.route("/")` indica a Flask que cuando alguien visite la página principal (URL raíz) de nuestro sitio web, debe ejecutar la función `raiz()`. Esta función simplemente devuelve el texto "Hola mundo" como respuesta.
+
+Por último, el bloque `if __name__ == "__main__":` asegura que nuestra aplicación solo se inicie si estamos ejecutando directamente este script (no importándolo desde otro archivo). Dentro de este bloque, llamamos a `aplicacion.run()` para iniciar nuestro servidor web local. Esto permite que puedas ver y probar tu sitio web en un navegador web.
+
+Este código es importante porque sirve como una introducción básica al uso del framework Flask para crear aplicaciones web dinámicas con Python.
+
+`030-arrancamos flask.py`
 
 ```python
 from flask import Flask  
@@ -7970,6 +11134,19 @@ if __name__ == "__main__":
 ```
 
 ### en flask ponemos nuestra web
+<small>Creado: 2025-10-23 17:29</small>
+
+#### Explicación
+
+Este código es una aplicación web básica creada con Flask, un framework de Python que facilita el desarrollo de sitios web. El archivo define una aplicación web sencilla que muestra una página HTML estática cuando se accede a la URL raíz del sitio (es decir, `http://localhost/`).
+
+En primer lugar, importamos `Flask` desde el módulo flask y creamos una instancia de la clase Flask llamada `aplicacion`. Luego, usamos un decorador `@aplicacion.route("/")` para indicar que cuando se haga una solicitud a la URL raíz ("/"), debe ejecutarse la función `raiz()`. Dentro de esta función, definimos todo el contenido HTML necesario para mostrar una página web simple con un encabezado, un cuerpo principal y un pie de página.
+
+La función `raiz()` devuelve directamente una cadena que contiene toda la estructura del documento HTML. Esto incluye metadatos como el título de la página, estilos básicos y elementos estructurales tales como un encabezado (`header`), contenido principal (`main`) con un artículo dentro (que simboliza un post del blog) y un pie de página (`footer`). Finalmente, si este archivo se ejecuta directamente (no importado por otro script), la aplicación Flask comienza a escuchar peticiones en un servidor local usando `aplicacion.run()`.
+
+Esta forma simple pero efectiva de generar una página web estática con Flask permite a los desarrolladores crear interfaces rápidas y básicas para sus aplicaciones o sitios web, facilitando el desarrollo inicial antes de pasar a implementar funcionalidades más complejas.
+
+`031-en flask ponemos nuestra web.py`
 
 ```python
 from flask import Flask  
@@ -8013,6 +11190,21 @@ if __name__ == "__main__":
 ```
 
 ### me conecto con mysql
+<small>Creado: 2025-10-23 17:33</small>
+
+#### Explicación
+
+Este código Python es una parte de un proyecto web simple utilizando la biblioteca Flask. El objetivo principal es crear una página web que muestra entradas desde una base de datos MySQL.
+
+Primero, se establece una conexión a la base de datos MySQL usando `mysql.connector` con los detalles proporcionados (host, usuario, contraseña y nombre de la base de datos). Luego, un objeto cursor es creado para ejecutar consultas SQL en la base de datos. 
+
+La función principal del código es definir el manejo de la ruta raíz ("/") de la aplicación Flask. Cuando se accede a esta ruta, se genera una respuesta HTML que incluye los títulos y contenidos de todas las entradas almacenadas en la tabla `posts_completos` de la base de datos. Se ejecuta una consulta SQL para recuperar todos estos registros y luego se iteran sobre ellos para construir el cuerpo del documento HTML, añadiendo cada entrada como un artículo con detalles específicos.
+
+Finalmente, si este script es ejecutado directamente (no importado por otro módulo), la aplicación Flask se inicia en modo de desarrollo local. Esto permite que la página web sea accesible desde el navegador y veamos los datos recuperados de la base de datos MySQL en una interfaz HTML simple.
+
+Este código es importante porque demuestra cómo interactuar con bases de datos desde aplicaciones web utilizando Python, mostrando también un ejemplo básico de generación dinámica de páginas web basadas en contenido de la base de datos.
+
+`032-me conecto con mysql.py`
 
 ```python
 from flask import Flask 
@@ -8072,6 +11264,21 @@ if __name__ == "__main__":
 ```
 
 ### mejoramos el estilo
+<small>Creado: 2025-10-23 17:35</small>
+
+#### Explicación
+
+Este código Python crea una aplicación web simple utilizando la biblioteca Flask, que es un framework para crear aplicaciones web rápidas y fáciles de usar en Python. La función principal del código es mostrar los artículos de un blog almacenados en una base de datos MySQL.
+
+1. **Conexión a la Base de Datos**: El código comienza estableciendo una conexión con una base de datos MySQL llamada "blogexamen" utilizando las credenciales proporcionadas (usuario: `blogexamen`, contraseña: `Blogexamen123$`). Esta conexión es utilizada para ejecutar consultas SQL.
+
+2. **Estructura HTML Generada en Tiempo Real**: Cuando un usuario accede a la URL raíz del sitio web, el código genera dinámicamente una página HTML que muestra los artículos almacenados en la base de datos. La consulta SQL `SELECT * FROM posts_completos;` se ejecuta para obtener todos los registros de la tabla `posts_completos`. Cada fila obtenida es luego procesada por un bucle for, donde cada campo del registro se inserta en una plantilla HTML que incluye el título del artículo, fecha y contenido.
+
+3. **Servidor Web**: Finalmente, el código configura Flask para ejecutar la aplicación web en modo de desarrollo local. Cuando alguien visita la URL raíz (por ejemplo, `http://localhost:5000/`), verán una página con un encabezado que dice "El blog de Jose Vicente", seguido por los artículos del blog obtenidos desde la base de datos y finalmente un pie de página con información de derechos de autor.
+
+Esta práctica es común en el desarrollo web moderno, permitiendo a las aplicaciones web interactuar directamente con bases de datos para mostrar contenido actualizado automáticamente.
+
+`033-mejoramos el estilo.py`
 
 ```python
 from flask import Flask 
@@ -8133,6 +11340,21 @@ if __name__ == "__main__":
 ```
 
 ### articulos por fecha inversa
+<small>Creado: 2025-10-23 17:36</small>
+
+#### Explicación
+
+Este código es un ejemplo sencillo de cómo crear una página web dinámica utilizando la biblioteca Flask en Python. La página muestra los artículos de un blog ordenados por fecha, comenzando con el más reciente.
+
+El código comienza creando una conexión a una base de datos MySQL que contiene información sobre los posts del blog. Luego, utiliza esta conexión para seleccionar todos los registros de la tabla `posts_completos` y ordenarlos según su campo `fecha`, en orden descendente (es decir, el artículo más reciente primero).
+
+La parte central del código se encarga de generar un HTML dinámico que muestra estos artículos. Cada artículo es presentado con sus detalles: título, fecha, autor y contenido. Este HTML está incluido dentro de una estructura completa que define la página web, incluyendo estilos básicos para el header, main (cuerpo principal) y footer.
+
+Finalmente, cuando se ejecuta este script directamente (no como un import en otro módulo), Flask inicia su propio servidor web local, permitiendo visualizar la página en un navegador web. Esto es útil para pruebas rápidas y desarrollo de aplicaciones web pequeñas o prototipos.
+
+Este tipo de código es fundamental para aprender a integrar bases de datos con interfaces web dinámicas, una habilidad clave en el desarrollo moderno de aplicaciones web.
+
+`034-articulos por fecha inversa.py`
 
 ```python
 from flask import Flask 
@@ -8193,40 +11415,79 @@ if __name__ == "__main__":
   aplicacion.run()
 ```
 
+### Actividades propuestas
+
+This series of files outlines a comprehensive process for building and deploying a simple blog application, from the initial idea to its final deployment. Here's a breakdown of what each file accomplishes:
+
+1. **Simulation Documents**:
+   - `001-simulacro de la web.txt` and `002-simulacro de la web.jpg`: These files likely contain mockups or simulations of how the blog will look when it is fully developed.
+
+2. **Basic HTML Structure**:
+   - `003-diseño inicial.html`, `004-estructura de la página.html`, and subsequent HTML files (`005-artículo completo.html`): These files gradually refine the structure and appearance of the blog's main pages, including the article layout and overall design.
+
+3. **Python Script for Blog Management**:
+   - `018-blog.py`: This file likely contains a Python script to manage the blog's backend operations using MySQL or another database system.
+   
+4. **Database Setup**:
+   - Files from `019-creamos la base de datos.sql` to `027-insertamos los posts.sql`: These SQL files create and populate the blog’s database, defining tables like `usuarios`, `posts`, and relationships within them.
+
+5. **Python Script for Blog Management with MySQL**:
+   - `028-blog.py`: This script connects Python to the MySQL database to manage blog posts, likely including functions to add, update, delete, and retrieve articles from the database.
+   
+6. **Command Line Script for Blog Management**:
+   - Files like `029-comandos de la terminal.txt` and `030-ejecutamos el script.txt`: These files contain instructions on how to run Python scripts that interact with the blog’s MySQL database.
+
+7. **Blog Application in Python (CLI)**:
+   - `031-arrancamos el blog.py`, `032-el blog completo.py`, and subsequent files: These scripts refine a command-line interface for managing the blog, including adding articles, listing posts, and handling user input.
+   
+8. **Web Application with Flask**:
+   - Files from `030-en flask ponemos nuestra web.py` to `034-articulos por fecha inversa.py`: This progression introduces using Flask (Python’s microframework for web development) to build a web-based interface for the blog, starting with basic HTML embedding and progressing to dynamic content generation based on database queries.
+
+9. **Deployment**:
+   - While not explicitly detailed in these files, deployment steps would typically follow after setting up all functionalities locally, involving deploying the Flask application to a server or cloud service (such as Heroku, AWS, etc.), ensuring that it can connect to its MySQL database and serve web pages dynamically based on user requests.
+
+### Key Concepts Covered:
+- **HTML/CSS**: Basic webpage structure and styling.
+- **SQL**: Creating and populating databases for storing blog data.
+- **Python/MySQL**: Using Python scripts to interact with a MySQL database, including CRUD operations (Create, Read, Update, Delete).
+- **Flask**: Building web applications in Python using Flask framework, embedding HTML content dynamically based on SQL queries.
+
+### Next Steps:
+To fully deploy this application, you would need to set up your server environment properly. This could involve:
+
+1. Setting up a remote MySQL database.
+2. Creating an appropriate virtual environment for your Flask app and installing necessary packages (like `flask` and `mysql-connector-python`).
+3. Configuring the Flask application to connect to your remote database.
+4. Deploying the Flask application on a server or cloud platform, making sure it runs continuously using tools like Gunicorn with uWSGI or similar setups.
+
+By following these steps and utilizing the scripts provided in the files above, you can create a functional blog system that combines frontend presentation via HTML/CSS and backend logic through Python and MySQL.
+
+
 <a id="simulacro-examen-programacion"></a>
 ## Simulacro examen programacion
+
 
 <a id="simulacro-de-examen-2"></a>
 ## Simulacro de examen 2
 
-### Enunciado
+### Introducción a los ejercicios
 
-```markdown
+Este conjunto de ejercicios está diseñado para que los estudiantes trabajen en la creación de un programa básico de gestión de portafolio utilizando Python y MySQL. El objetivo principal es desarrollar una interfaz sencilla donde el usuario pueda realizar operaciones CRUD (Crear, Leer, Actualizar y Borrar) sobre registros almacenados en una base de datos.
 
-Tal y como hemos comentado en clase, haz un programa en Python sobre la base de datos realizada en el examen de programación que:
-1.-Imprima un mensaje de bienvenida
-2.-Imprima una serie de opciones en pantalla (un menu CRUD)
-3.-Acoja una opción por parte del usuario con input
-4.-Saque la opción del usuario escogida por pantalla
+Los ejercicios se centran en la interacción con bases de datos a través de SQL desde Python, incluyendo la conexión a la base de datos, la ejecución de consultas SELECT para listar registros, INSERT para agregar nuevos registros, UPDATE para modificar existentes y DELETE para eliminar registros. Los estudiantes también practicarán estructuras de control como bucles y condicionales para manejar las opciones del menú y realizar acciones basadas en la entrada del usuario.
 
--Utiliza la libreria MySQL para crear un nuevo objeto y conectarte a bases de datos
--Haz un select sobre una base de datos existente
--Saca los resultados por pantalla
--Haz este ejercicio como continuación del ejercicio de final de unidad de la unidad 1
-
-
-Toma el resultado del ejercicio de final de unidad de la unidad 2
-Toma el input que se ha creado al final del ejercicio de final de la unidad de unidad 1
-Crea un bucle infinito mediante while True
-Captura la opcion del usuario con if-elif
-Atrapa los casos crear, listar, actualizar, eliminar
-
-Toma el resultado del ejercicio final de unidad de la unidad 3
-Para cada una de las 4 acciones posibles del menu, 
-utiilza el lenguaje SQL para persistir los datos en la base de datos previamente creada, según el ejercicio de clase
-```
+Esta serie de ejercicios permite a los alumnos consolidar sus conocimientos sobre el uso de bases de datos y cómo integrarlas con aplicaciones Python, además de reforzar habilidades como la captura y validación de entradas del usuario.
 
 ### bienvenida
+<small>Creado: 2025-11-03 15:19</small>
+
+#### Explicación
+
+Este código es un fragmento de un programa en Python que muestra al usuario un menú simple y permite seleccionar una opción. Primero, el programa imprime varias líneas para presentar la aplicación llamada "Gestión de portafolio v0.1" y muestra las diferentes opciones disponibles: insertar, listar, actualizar y eliminar. Luego, pide al usuario que introduzca su elección a través del teclado utilizando la función `input()`. La entrada del usuario se convierte en un número entero con la función `int()` y se guarda en una variable llamada `opcion`.
+
+Finalmente, el programa imprime el texto "La opción que has escogido es:" seguido de la opción seleccionada por el usuario. Este código es importante porque establece la interacción básica entre el programa y el usuario, permitiendo al usuario navegar por las funcionalidades básicas del sistema según su elección.
+
+`002-bienvenida.py`
 
 ```python
 print("Gestion de portafolio v0.1")
@@ -8240,6 +11501,19 @@ print("La opción que has escogido es: ",opcion)
 ```
 
 ### me conecto a la base de datos
+<small>Creado: 2025-11-03 15:21</small>
+
+#### Explicación
+
+Este fragmento de código se encarga de establecer una conexión con una base de datos MySQL y luego realizar una consulta para obtener todos los registros de la tabla llamada "piezas". El programa comienza importando el módulo `mysql.connector`, que es una biblioteca en Python utilizada para interactuar con bases de datos MySQL. Luego, se crea una conexión a la base de datos utilizando las credenciales proporcionadas (host, usuario, contraseña y nombre de la base de datos).
+
+Después de establecer la conexión, el programa muestra un menú simple al usuario para que pueda seleccionar una opción (en este caso solo se muestra cómo realizar una consulta SELECT, por lo que no hay código específico para las otras opciones). Una vez que el usuario selecciona una opción y esta es confirmada como la consulta SELECT, el código crea un objeto cursor a partir de la conexión. Un cursor permite ejecutar consultas SQL.
+
+La línea `cursor.execute("SELECT * FROM piezas;")` ejecuta la consulta SQL que selecciona todos los registros (indicado por el asterisco *) desde la tabla "piezas". Luego, `fetchall()` recupera todas las filas del resultado de la consulta y se almacenan en una variable llamada `lineas`. Finalmente, el código itera sobre cada fila obtenida y la imprime en la consola.
+
+Esta parte es importante porque muestra cómo interactuar con una base de datos para recuperar información y luego procesarla o mostrarla en un programa Python.
+
+`003-me conecto a la base de datos.py`
 
 ```python
 import mysql.connector
@@ -8269,6 +11543,21 @@ for linea in lineas:
 ```
 
 ### estructuras de control
+<small>Creado: 2025-11-03 15:26</small>
+
+#### Explicación
+
+Este fragmento de código es un ejemplo básico de cómo interactuar con una base de datos MySQL desde Python. El programa conecta a una base de datos llamada "portafolio" y muestra las filas de la tabla `piezas`. Además, presenta al usuario un menú para seleccionar una opción.
+
+Primero, el script importa la biblioteca `mysql.connector`, que permite a Python conectarse y realizar operaciones en bases de datos MySQL. Luego, establece una conexión con la base de datos usando las credenciales proporcionadas (en este caso, suponemos que el usuario tiene acceso sin necesidad de contraseña para localhost).
+
+Después de hacer la conexión, el programa imprime un menú sencillo donde el usuario puede seleccionar entre varias operaciones. Sin embargo, en este código, no se implementan las funciones para insertar, actualizar o eliminar datos; solo muestra un mensaje indicando la opción elegida por el usuario y luego ejecuta una consulta SQL que recupera todas las filas de la tabla `piezas` en la base de datos.
+
+El resultado de esta consulta es almacenado en la variable `lineas`, que contiene tuplas con los valores de cada fila. El código finalmente imprime cada línea, mostrando así todos los registros presentes en la tabla `piezas`.
+
+Este tipo de programa es importante porque demuestra cómo realizar operaciones básicas en una base de datos desde Python y proporciona un punto de partida para implementar funcionalidades más complejas como inserciones, actualizaciones y eliminaciones.
+
+`004-estructuras de control.py`
 
 ```python
 import mysql.connector
@@ -8299,6 +11588,21 @@ while True:
 ```
 
 ### atrapo la opcion del usuario
+<small>Creado: 2025-11-03 15:27</small>
+
+#### Explicación
+
+Este código es una pequeña aplicación en Python que permite al usuario interactuar con una base de datos MySQL para gestionar un portafolio. La aplicación se conecta a la base de datos primero y luego muestra un menú interactivo donde el usuario puede seleccionar entre varias opciones: insertar, listar, actualizar o eliminar datos.
+
+Cuando el programa comienza, establece una conexión a una base de datos local llamada "portafolio" usando las credenciales proporcionadas. Luego entra en un bucle infinito (`while True`) que muestra al usuario cuatro opciones disponibles y pide que seleccione una mediante la entrada del teclado.
+
+Si el usuario escoge la opción 2 (Listar), se ejecuta una consulta SQL para recuperar todos los registros de una tabla llamada "piezas" en la base de datos. Los resultados de esta consulta se almacenan en una variable y luego se imprimen línea por línea en la pantalla.
+
+Las opciones 1, 3 y 4 están actualmente marcadas como `pass`, lo que significa que el código no hace nada con estas selecciones. Este es un lugar donde puedes implementar la lógica para insertar datos, actualizar registros o eliminar entradas de la base de datos según sea necesario.
+
+Esta estructura de menú y control de flujo permite a los usuarios interactuar fácilmente con la aplicación y realizar operaciones básicas en la base de datos. Es un buen ejemplo práctico del uso de bucles condicionales y módulos para manejar conexiones a bases de datos en Python.
+
+`005-atrapo la opcion del usuario.py`
 
 ```python
 import mysql.connector
@@ -8334,6 +11638,23 @@ while True:
 ```
 
 ### desarrollo insertar
+<small>Creado: 2025-11-03 15:31</small>
+
+#### Explicación
+
+Este código es una pequeña aplicación en Python que se conecta a una base de datos MySQL para gestionar un portafolio. La aplicación permite al usuario interactuar con la base de datos realizando diferentes acciones: insertar, listar, actualizar y eliminar registros.
+
+Al iniciar el programa, establece una conexión a la base de datos usando las credenciales proporcionadas (host local, usuario "portafolio", contraseña "portafolio" y la base de datos llamada "portafolio"). Luego crea un bucle infinito que muestra al usuario un menú con cuatro opciones. Dependiendo del número que elija el usuario, realiza una acción diferente:
+
+- Si se selecciona la opción 1 (Insertar), solicita al usuario que introduzca detalles de una nueva pieza (título, descripción, fecha y nombre de imagen). Luego inserta estos datos en la tabla "piezas" de la base de datos.
+  
+- Para la opción 2 (Listar), consulta todos los registros existentes en la tabla "piezas" y muestra cada uno por pantalla.
+
+- Las opciones 3 (Actualizar) y 4 (Eliminar) están presentes pero no tienen implementación aún, ya que el código utiliza la palabra clave `pass` para esas partes, lo cual indica que esa sección del código debe ser desarrollada en un futuro cercano.
+
+Esta estructura de código es importante porque permite al usuario interactuar fácilmente con los datos almacenados en una base de datos y ofrece un buen ejemplo práctico sobre cómo manejar conexiones a bases de datos MySQL desde Python.
+
+`006-desarrollo insertar.py`
 
 ```python
 import mysql.connector
@@ -8374,6 +11695,23 @@ while True:
 ```
 
 ### desarrollamos eliminacion
+<small>Creado: 2025-11-03 15:33</small>
+
+#### Explicación
+
+Este fragmento de código es una pequeña aplicación en Python que interactúa con una base de datos MySQL para gestionar un portafolio de obras o piezas. La aplicación permite al usuario realizar varias operaciones sobre la tabla `piezas` en la base de datos, como insertar nuevas entradas, listar todas las entradas existentes y eliminar una entrada específica basada en su identificador.
+
+El código comienza por establecer una conexión a la base de datos utilizando el módulo `mysql.connector`. Luego, se crea un bucle infinito que muestra al usuario un menú interactivo para seleccionar qué operación desea realizar. Dependiendo del número que el usuario ingrese, el programa ejecuta diferentes acciones:
+
+- Si el usuario selecciona la opción 1 (insertar), se le pide que introduzca detalles sobre una nueva pieza (título, descripción, fecha y nombre de imagen). Estos datos son luego utilizados para insertar un nuevo registro en la tabla `piezas`.
+
+- Para la opción 2 (listar), el programa consulta todos los registros existentes en la tabla `piezas` e imprime cada uno de ellos.
+
+- La opción 3 (actualizar) y 4 (eliminar) no tienen implementación completa en este fragmento, con solo una línea que indica que es necesario agregar más código para estas funcionalidades (`pass`).
+
+Es importante destacar que este código proporciona un buen ejemplo de cómo interactuar con bases de datos utilizando Python, incluyendo el manejo de transacciones y consultas SQL, aunque también se debe tener cuidado con la seguridad (por ejemplo, evitar inyecciones SQL al usar inputs directos en las consultas).
+
+`007-desarrollamos eliminacion.py`
 
 ```python
 import mysql.connector
@@ -8416,6 +11754,19 @@ while True:
 ```
 
 ### por ultimo actualizacion
+<small>Creado: 2025-11-03 15:37</small>
+
+#### Explicación
+
+Este fragmento de código es un programa en Python que interactúa con una base de datos MySQL para gestionar un portafolio. El programa permite al usuario realizar diferentes acciones como insertar nuevas piezas, listar todas las piezas existentes, actualizar información sobre una pieza específica y eliminar una pieza del portafolio.
+
+El código comienza creando una conexión a la base de datos utilizando el módulo `mysql.connector`. Luego, presenta un menú al usuario que muestra cuatro opciones: Insertar (nueva pieza), Listar (todas las piezas), Actualizar y Eliminar. Dependiendo de la opción seleccionada por el usuario, el programa ejecuta diferentes comandos SQL para interactuar con la base de datos.
+
+Para cada acción, el código solicita al usuario los detalles necesarios, como el título, descripción, fecha y nombre del archivo de imagen si es necesario. Si se elige la opción "Actualizar" o "Insertar", el programa ejecuta una sentencia SQL que inserta nuevos registros en la base de datos o actualiza los existentes. En caso de seleccionar "Eliminar", se elimina un registro específico basado en su identificador.
+
+Este tipo de código es fundamental para aprender cómo interactuar con bases de datos desde Python y entender cómo gestionar información estructurada, lo que es una habilidad clave en el desarrollo web y aplicaciones empresariales.
+
+`008-por ultimo actualizacion.py`
 
 ```python
 import mysql.connector
@@ -8471,19 +11822,116 @@ while True:
     conexion.commit()
 ```
 
+### Actividades propuestas
+
+### Actividades para Estudiantes de Formación Profesional
+
+1. **Bienvenida y Menú CRUD**
+   - Desarrolla un programa que imprima un mensaje de bienvenida y luego muestre un menú CRUD con las opciones Insertar, Listar, Actualizar y Eliminar.
+   - Se pretende que los estudiantes aprendan a estructurar la interacción inicial del usuario en Python.
+
+2. **Conexión a Base de Datos**
+   - Crea una función `conectar_db()` que establezca una conexión con una base de datos MySQL local usando las credenciales proporcionadas.
+   - El objetivo es familiarizar a los estudiantes con el uso de la librería `mysql.connector` y cómo gestionar conexiones.
+
+3. **Interacción del Menú**
+   - Modifica un programa existente para que, después de imprimir un menú CRUD, capture la opción seleccionada por el usuario.
+   - Se espera que los alumnos comprendan el manejo básico de entradas de texto en Python y su integración con estructuras condicionales.
+
+4. **Consulta Básica**
+   - Realiza una consulta SQL simple a la tabla `piezas` para listar todos sus registros e imprime estos resultados.
+   - La actividad busca que los estudiantes entiendan cómo realizar consultas básicas utilizando Python y MySQL.
+
+5. **Menú CRUD con Ciclo Infinito**
+   - Implementa un menú CRUD dentro de un ciclo infinito `while True` que permita al usuario interactuar indefinidamente hasta que decida salir.
+   - Se pretende enseñar a los estudiantes cómo manejar bucles infinitos y el flujo condicional en programas interactivos.
+
+6. **Ejecución de Opciones CRUD**
+   - Amplía la actividad anterior para incluir funciones separadas para cada opción CRUD (Insertar, Listar, Actualizar, Eliminar).
+   - La finalidad es que los estudiantes aprendan a organizar el código en funciónes y a gestionar diferentes casos de uso dentro del menú.
+
+7. **Inserción de Datos**
+   - Realiza la opción Insertar del menú CRUD, permitiendo al usuario ingresar datos nuevos para añadir una nueva pieza a la base de datos.
+   - Se espera que los estudiantes comprendan cómo realizar inserciones en una base de datos MySQL desde Python.
+
+8. **Eliminación de Datos**
+   - Implementa la opción Eliminar del menú CRUD, permitiendo al usuario eliminar registros existentes basados en su identificador.
+   - La actividad busca que los estudiantes se familiaricen con las sentencias SQL DELETE y cómo manejar solicitudes de eliminación.
+
+9. **Actualización de Datos**
+   - Desarrolla la opción Actualizar del menú CRUD, permitiendo al usuario modificar registros existentes basándose en su identificador.
+   - Se pretende que los estudiantes aprendan a realizar actualizaciones en una base de datos MySQL desde Python utilizando sentencias SQL UPDATE.
+
+10. **Prueba Integral**
+    - Combinando todas las opciones CRUD y funciones previas, crea un programa integral que permita al usuario interactuar con la base de datos a través del menú implementado.
+    - La actividad final busca consolidar el aprendizaje y aplicarlo en una solución completa e integrada.
+
+
 <a id="ejercicio-de-final-de-unidad-3"></a>
 ## Ejercicio de final de unidad
 
-### actividad
+### Introducción a los ejercicios
 
-```markdown
+El conjunto de ejercicios en esta carperta está diseñado para reforzar tus habilidades en la lectura y escritura de información en archivos utilizando el lenguaje de programación. Aunque solo hay un archivo de ejercicio, este cubre varios aspectos esenciales como manejo de ficheros, estructuras de control y bucles, además de funciones básicas para leer desde y escribir en archivos. Este tipo de práctica te ayudará a comprender mejor cómo interactuar con el sistema de archivos en entornos de programación, preparándote para proyectos más complejos que requieren almacenamiento persistente de datos.
 
-```
+### Actividades propuestas
+
+### Actividad 1: Análisis de un Ejercicio Complejo
+
+**Descripción:** Los estudiantes deben analizar el ejercicio proporcionado para comprender cómo se realiza la lectura y escritura de información en archivos. Esta actividad permitirá a los alumnos identificar las estructuras de código utilizadas y entender su propósito.
+
+### Actividad 2: Mejora del Código Existente
+
+**Descripción:** Basándose en el análisis previo, los estudiantes deben proponer mejoras al código original para optimizar o añadir nuevas funcionalidades. Se espera que mejoren la legibilidad y eficiencia del mismo.
+
+### Actividad 3: Creación de Ejercicios Similares
+
+**Descripción:** Los alumnos crearán un ejercicio similar al proporcionado, pero con diferencias en los detalles específicos (por ejemplo, cambiar el tipo de archivo o añadir condiciones adicionales). Esto ayudará a consolidar sus conocimientos sobre la manipulación de archivos.
+
+### Actividad 4: Documentación del Código
+
+**Descripción:** Los estudiantes tendrán que escribir documentación detallada para el código proporcionado. Se espera que incluyan comentarios y explicaciones sobre cada sección y funcionalidad del programa.
+
+### Actividad 5: Resolución de Problemas de Estructura
+
+**Descripción:** Se presentarán a los alumnos con problemas comunes relacionados con la estructura del código para trabajar en la resolución de estos problemas. Esto mejorará su capacidad para detectar y corregir errores en el código.
+
+### Actividad 6: Aprendizaje Autónomo sobre Nuevas Funciones
+
+**Descripción:** Los estudiantes investigarán y aprenderán nuevas funciones relacionadas con la manipulación de archivos no cubiertas en el ejercicio original. Se les pedirá que incorporen estas nuevas funcionalidades al código existente.
+
+### Actividad 7: Desarrollo Colaborativo de un Ejercicio Mejorado
+
+**Descripción:** Trabajando en equipo, los estudiantes desarrollarán una versión mejorada del ejercicio proporcionado incluyendo sugerencias de mejora y nuevas características. Esto promoverá la colaboración y el trabajo en equipo.
+
+### Actividad 8: Presentaciones de Casos de Uso
+
+**Descripción:** Cada grupo presentará un caso de uso real donde se aplicaría una versión mejorada del ejercicio proporcionado. Se espera que discutan cómo esta aplicación mejora la eficacia o la funcionalidad.
+
+Estas actividades están diseñadas para ayudar a los estudiantes a profundizar en el tema de lectura y escritura de información, así como para desarrollar habilidades de análisis, diseño y trabajo colaborativo.
+
 
 <a id="examen-final"></a>
 ## Examen final
 
+### Introducción a los ejercicios
+
+Esta carpeta contiene una serie de ejercicios orientados a familiarizarte con el manejo básico y avanzado en SQL, específicamente enfocándose en la creación y gestión de bases de datos. Los problemas abordan desde la creación de tablas hasta la inserción de datos, establecimiento de relaciones entre tablas mediante claves foráneas, consultas JOIN para combinar información de múltiples tablas, y finalmente, la creación de vistas personalizadas que simplifican el acceso a datos relacionados. Asimismo, se incluye un ejercicio dedicado a la administración de usuarios y privilegios en MySQL, lo cual es crucial para garantizar la seguridad y control del acceso a las bases de datos.
+
 ### crear tablas
+<small>Creado: 2025-11-13 15:47</small>
+
+#### Explicación
+
+Este fragmento de código SQL está diseñado para crear una base de datos y dos tablas relacionadas en un sistema de gestión de bases de datos relacional (como MySQL o PostgreSQL). En primer lugar, se crea la base de datos llamada `portafolioceac`. Luego, mediante el comando `USE`, se selecciona esta base de datos recién creada como la base de trabajo actual.
+
+Después de esto, se definen dos tablas: `Piezas` y `Categorias`. La tabla `Piezas` contiene información sobre distintas piezas o elementos del portafolio, incluyendo un identificador único (autoincremental), título, descripción, imagen y URL. Además, tiene una columna `id_categoria`, que es una referencia a la tabla `Categorias`.
+
+La tabla `Categorias`, por su parte, almacena información sobre las diferentes categorías a las que pueden pertenecer las piezas. Cada categoría también tiene un identificador único (autoincremental), un título y una descripción.
+
+Esta estructura de tablas permite organizar la información de manera clara y relacionar piezas con sus respectivas categorías, lo cual es crucial para sistemas de gestión de portafolios o proyectos donde se necesita clasificar elementos según diferentes criterios.
+
+`001-crear tablas.sql`
 
 ```sql
 CREATE DATABASE portafolioceac;
@@ -8508,6 +11956,17 @@ CREATE TABLE Categorias(
 ```
 
 ### insertar
+<small>Creado: 2025-11-13 15:47</small>
+
+#### Explicación
+
+Este fragmento de código SQL está insertando datos en dos tablas diferentes llamadas `Categorias` y `Piezas`. En la tabla `Categorias`, se agrega una nueva fila con un ID automático (especificado como `NULL`), el nombre 'General' y una descripción que dice 'Esta es la categoria general'. Esto significa que estás creando una categoría principal en tu base de datos.
+
+En la tabla `Piezas`, también se inserta una nueva fila. El ID de esta pieza será automático (también especificado como `NULL`). Luego, agrega el nombre 'Primera pieza', seguido por una descripción que dice 'Esta es la descripcion de la primera pieza'. Además, incluye un archivo adjunto llamado 'josevicente.jpg' y una URL 'https://jocarsa.com'. Finalmente, se especifica que esta pieza pertenece a la categoría con ID 1, estableciendo así la relación entre la tabla `Piezas` y `Categorias`.
+
+Este código es importante porque inicializa tu base de datos con algunos datos básicos para que puedas probar otras funciones o consultas más adelante en tus ejercicios.
+
+`002-insertar.sql`
 
 ```sql
 INSERT INTO Categorias VALUES(
@@ -8527,6 +11986,19 @@ INSERT INTO Piezas VALUES(
 ```
 
 ### fk
+<small>Creado: 2025-11-13 15:47</small>
+
+#### Explicación
+
+Este fragmento de código SQL está configurando una relación entre dos tablas en una base de datos: la tabla `Piezas` y la tabla `Categorias`. Específicamente, se está creando una restricción llamada "fk_piezas_categorias" que asegura que cada pieza tiene una categoría asociada a través del campo `id_categoria`.
+
+Lo que hace el código es añadir un tipo especial de restricción llamada clave foránea (FOREIGN KEY) en la tabla `Piezas`. Esta clave foránea se vincula con el campo `identificador` en la tabla `Categorias`. Esto significa que cada valor en el campo `id_categoria` de la tabla `Piezas` debe existir también como un valor en el campo `identificador` de la tabla `Categorias`.
+
+Las opciones `ON DELETE CASCADE` y `ON UPDATE CASCADE` indican cómo deben comportarse las tablas cuando se modifican los datos. En este caso, si se elimina una categoría (por ejemplo, porque ya no es relevante), todas las piezas que dependen de esa categoría también serán eliminadas automáticamente. Lo mismo ocurre con actualizaciones: si el identificador de una categoría cambia, el valor en `id_categoria` para cada pieza relacionada cambiará también.
+
+Esta configuración asegura la integridad referencial entre las tablas, manteniendo los datos consistentes y evitando problemas como registros huérfanos o discrepancias entre categorías y piezas.
+
+`003-fk.sql`
 
 ```sql
 ALTER TABLE Piezas
@@ -8537,6 +12009,15 @@ ON UPDATE CASCADE;
 ```
 
 ### selecciones
+<small>Creado: 2025-11-13 15:47</small>
+
+#### Explicación
+
+Este código SQL consta de dos consultas simples que se utilizan para recuperar información de una base de datos. La primera consulta, `SELECT * FROM Categorias;`, selecciona todos los campos y filas de la tabla llamada "Categorias". Esto significa que obtendrás toda la información almacenada en esa tabla.
+
+La segunda consulta, `SELECT * FROM Piezas;`, hace exactamente lo mismo pero para una tabla diferente llamada "Piezas". Ambas consultas son muy útiles cuando necesitas ver el contenido completo de las tablas sin especificar columnas individuales, ya que pueden ayudarte a verificar rápidamente los datos almacenados en tu base de datos durante la fase de desarrollo o pruebas.
+
+`004-selecciones.sql`
 
 ```sql
 SELECT * FROM Categorias;
@@ -8545,6 +12026,17 @@ SELECT * FROM Piezas;
 ```
 
 ### left join
+<small>Creado: 2025-11-13 15:47</small>
+
+#### Explicación
+
+Este fragmento de código SQL realiza una operación llamada `LEFT JOIN` entre dos tablas: `Piezas` y `Categorias`. El objetivo es combinar los datos de ambas tablas basándose en la relación existente entre ellas, que se establece a través del campo `id_categoria` de la tabla `Piezas` y el campo `Identificador` de la tabla `Categorías`.
+
+El comando `SELECT *` indica que se deben recuperar todas las columnas resultantes de esta combinación. Esto significa que para cada pieza en la tabla `Piezas`, el código buscará su correspondiente categoría en la tabla `Categorias`. Si una pieza no tiene una categoría asociada (es decir, si no existe un valor en `id_categoria`), entonces los campos de la categoría serán `NULL`.
+
+Esta consulta es importante porque permite tener una visión completa y detallada de cómo se relacionan las piezas con sus respectivas categorías, incluso cuando algunas piezas pueden no estar asociadas a ninguna categoría. Esto facilita el análisis y la gestión de datos en aplicaciones que requieren entender la estructura jerárquica o la clasificación de elementos como piezas en un sistema de inventario o similar.
+
+`005-left join.sql`
 
 ```sql
 SELECT 
@@ -8555,6 +12047,17 @@ ON Piezas.id_categoria = Categorias.Identificador;
 ```
 
 ### ahora creo la vista
+<small>Creado: 2025-11-13 15:47</small>
+
+#### Explicación
+
+Este fragmento de código SQL está compuesto por dos partes. La primera parte crea una vista llamada `piezas_y_categorias`. Una vista en SQL es como un alias para una consulta, que permite simplificar consultas complejas y hacerlas más reutilizables.
+
+En la creación de esta vista, se realiza una consulta que selecciona información desde las tablas `Categorias` y `Piezas`, utilizando una operación `LEFT JOIN`. Esto significa que todas las piezas (registros en la tabla `Piezas`) son incluidas en el resultado, junto con sus correspondientes categorías si existen. Si una pieza no tiene categoría asignada, los campos de la categoría serán nulos.
+
+La segunda parte del código es simplemente un `SELECT * FROM piezas_y_categorias;`, lo que significa que se está solicitando mostrar todos los datos almacenados en esta nueva vista recién creada. Esto permitirá ver fácilmente cómo quedaron combinadas las dos tablas originales (`Categorias` y `Piezas`) en la vista `piezas_y_categorias`.
+
+`006-ahora creo la vista.sql`
 
 ```sql
 CREATE VIEW piezas_y_categorias AS 
@@ -8573,6 +12076,13 @@ SELECT * FROM piezas_y_categorias;
 ```
 
 ### usuario
+<small>Creado: 2025-11-13 15:47</small>
+
+#### Explicación
+
+Este fragmento de código SQL se utiliza para crear un nuevo usuario en una base de datos MySQL y otorgarle permisos específicos. En primer lugar, crea un nuevo usuario llamado 'portafolioceac' con la contraseña 'portafolioceac'. Luego, le permite al usuario acceder a cualquier recurso en el servidor local mediante el comando `GRANT USAGE`. Después, elimina los límites por defecto que tiene este usuario para permitirle realizar una mayor cantidad de consultas y conexiones sin restricciones. Finalmente, otorga al usuario todos los privilegios sobre la base de datos 'portafolioceac' y actualiza la tabla de privilegios del sistema con el comando `FLUSH PRIVILEGES`. Este proceso es crucial para gestionar usuarios y asegurar que cada uno tenga acceso adecuado a los recursos necesarios en un entorno de desarrollo o producción.
+
+`007-usuario.sql`
 
 ```sql
 -- crea usuario nuevo con contraseña
@@ -8602,30 +12112,42 @@ TO 'portafolioceac'@'localhost';
 FLUSH PRIVILEGES;
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Creación y diseño básico de una base de datos
+**Descripción:** Crea una nueva base de datos llamada `mi_portafolio`. Luego, diseña dos tablas relacionadas con categorías y piezas. Este ejercicio permitirá a los alumnos entender cómo estructurar bases de datos y trabajar con relaciones entre entidades.
+
+### Actividad 2: Inserción de registros en la base de datos
+**Descripción:** Inserta nuevos registros en las tablas creadas en la actividad anterior, incluyendo al menos una categoría y una pieza asociada. Los estudiantes aprenderán cómo utilizar el comando `INSERT INTO` para añadir información a sus tablas.
+
+### Actividad 3: Creación de restricciones de clave foránea
+**Descripción:** Añade una restricción de clave foránea (foreign key) entre las tablas creadas en la actividad anterior. Los alumnos aprenderán cómo establecer relaciones entre entidades y asegurar la integridad referencial.
+
+### Actividad 4: Consulta básica de datos
+**Descripción:** Escribe consultas `SELECT` para recuperar todos los registros tanto de la tabla de categorías como de piezas. Este ejercicio permitirá a los estudiantes comprender cómo seleccionar datos desde una base de datos MySQL.
+
+### Actividad 5: Unión entre tablas (JOIN)
+**Descripción:** Realiza un `LEFT JOIN` entre las tablas de categorías y piezas para recuperar información completa sobre todas las piezas y sus respectivas categorías. Los estudiantes aprenderán cómo combinar datos desde múltiples tablas en una consulta.
+
+### Actividad 6: Creación de vistas
+**Descripción:** Crea una vista que combine los campos relevantes de tus tablas para proporcionar un resumen de información sobre las piezas y sus categorías. Este ejercicio enseñará a los alumnos cómo simplificar consultas complejas mediante la creación de vistas.
+
+### Actividad 7: Uso de alias en consultas
+**Descripción:** Escribe una consulta que utilice alias para mejorar la legibilidad de los resultados de tu vista creada anteriormente. Los estudiantes aprenderán cómo manejar y organizar los datos recuperados a través del uso de alias.
+
+### Actividad 8: Creación y configuración de usuarios en MySQL
+**Descripción:** Crea un nuevo usuario llamado `mi_usuario` y configúralo para que tenga acceso completo a tu base de datos recién creada. Los alumnos aprenderán cómo gestionar usuarios y privilegios en bases de datos MySQL.
+
+### Actividad 9: Pruebas de integridad referencial
+**Descripción:** Realiza pruebas modificando registros o eliminándolos, verificando que las restricciones de clave foránea funcionen correctamente. Este ejercicio permitirá a los estudiantes comprender la importancia y el funcionamiento de las restricciones de integridad referencial.
+
+### Actividad 10: Documentación de consultas SQL
+**Descripción:** Crea una documentación para todas tus consultas y comandos realizados, incluyendo explicaciones sobre cómo cada uno funciona. Este ejercicio ayudará a los estudiantes a desarrollar habilidades en la documentación técnica y el pensamiento lógico.
+
+
 <a id="carpeta-sin-titulo"></a>
 ## Carpeta sin título
 
-En el vasto universo de la programación, una parte fundamental es la lectura y escritura de información, un proceso que permite a los programas interactuar con el mundo exterior. Esta carpeta del contenido nos guía a través de las técnicas y herramientas necesarias para manejar eficazmente estos flujos de datos.
-
-Empezamos por entender los conceptos básicos de flujos de datos. En programación, un flujo es una secuencia de bytes que se mueven entre diferentes partes del sistema. Los flujos pueden ser de entrada (lectura) o salida (escritura), y son fundamentales para la interacción con dispositivos como archivos, dispositivos de red y dispositivos de entrada/salida.
-
-La lectura de información es un proceso que implica abrir un flujo de entrada, leer los datos disponibles y luego cerrar el flujo. En programación, esto se realiza a través de clases y métodos específicos para manejar diferentes tipos de flujos. Por ejemplo, en Java, la clase `FileInputStream` se utiliza para leer bytes desde un archivo.
-
-Por otro lado, la escritura de información es igualmente importante. Implica abrir un flujo de salida, escribir los datos deseados y luego cerrar el flujo. En Python, por ejemplo, la función `open()` con el modo 'w' (write) permite crear un nuevo archivo o truncar uno existente para escritura.
-
-La manipulación de ficheros es una técnica poderosa que permite guardar y recuperar datos persistentemente. Los ficheros pueden ser de diferentes tipos: texto plano, binarios, XML, JSON, etc. Cada tipo tiene sus propias características y métodos de lectura y escritura específicos.
-
-Además de los ficheros, las bases de datos también son un medio común para almacenar información persistente. La programación orientada a objetos permite interactuar con bases de datos mediante clases y objetos que representan tablas y registros. Herramientas como Hibernate en Java o Entity Framework en C# facilitan esta tarea, proporcionando métodos para insertar, actualizar y eliminar datos.
-
-La lectura y escritura de información también se extiende a la manipulación de estructuras de datos complejas como matrices, listas y diccionarios. Estas estructuras permiten almacenar y recuperar grandes cantidades de datos de manera eficiente, utilizando métodos específicos para cada tipo.
-
-La importancia de la lectura y escritura de información no se limita a los ficheros y las bases de datos. También es crucial en la comunicación entre aplicaciones, donde los datos se transmiten a través de sockets o interfaces web. En estos casos, el proceso de lectura y escritura se realiza a nivel de bytes, utilizando protocolos específicos para garantizar la integridad de los datos.
-
-La optimización de la lectura y escritura es otro aspecto importante. Algunas técnicas incluyen el uso de buffers para reducir el número de operaciones de entrada/salida, la selección de algoritmos eficientes para la búsqueda y el ordenamiento de datos, y la gestión adecuada de los recursos.
-
-Finalmente, la seguridad en la lectura y escritura de información es un tema crucial. Los programas deben implementar medidas para proteger los datos contra accesos no autorizados, modificaciones o pérdidas. Esto implica utilizar técnicas como el cifrado de datos, la autenticación de usuarios y la gestión adecuada de permisos.
-
-En resumen, la lectura y escritura de información es una habilidad esencial en cualquier programa informático. Desde la manipulación de ficheros hasta la comunicación entre aplicaciones, este proceso permite a los programas interactuar con el mundo exterior y almacenar datos persistentemente. A través de técnicas eficientes y seguras, los programadores pueden crear sistemas que manejen grandes cantidades de información de manera efectiva y confiable.
 
 
 <a id="aplicacion-de-las-estructuras-de-almacenamiento"></a>
@@ -8634,23 +12156,22 @@ En resumen, la lectura y escritura de información es una habilidad esencial en 
 <a id="estructuras-estaticas-y-dinamicas"></a>
 ## Estructuras estáticas y dinámicas
 
-En el vasto y complejo mundo de la programación, las estructuras de almacenamiento desempeñan un papel fundamental como los pilares que sostienen una construcción. En esta subunidad didáctica, nos adentramos en el fascinante mundo de las estructuras estáticas y dinámicas, dos conceptos esenciales que permiten a los programadores organizar y manipular datos con eficiencia.
+### Introducción a los ejercicios
 
-Las estructuras estáticas son como una casa construida con materiales fijos. Una vez que se ha definido su tamaño y forma, no puede cambiar. En la programación, esto significa que las estructuras estáticas tienen un tamaño fijo en memoria durante toda su vida útil. Son ideales para almacenar datos de tipos conocidos y fijos, como una lista de números enteros o una matriz de caracteres.
-
-Por otro lado, las estructuras dinámicas son como una casa de Lego. Se pueden construir, modificar y cambiar a lo largo del tiempo. En la programación, esto significa que las estructuras dinámicas pueden crecer o disminuir en tamaño según sea necesario. Son ideales para almacenar datos de tipos variables o desconocidos, como una lista de cadenas de texto o un conjunto de objetos.
-
-La elección entre usar estructuras estáticas y dinámicas depende del contexto específico del problema que se esté resolviendo. Las estructuras estáticas son más eficientes en términos de memoria y tiempo de ejecución, pero limitan la flexibilidad. Por otro lado, las estructuras dinámicas ofrecen mayor flexibilidad, pero pueden ser menos eficientes.
-
-El concepto de estructura estática es fundamental para entender cómo se organizan los datos en la memoria del ordenador. Cada elemento de una estructura estática ocupa un espacio fijo y conocido en la memoria, lo que facilita el acceso y la manipulación de estos datos. Además, las estructuras estáticas pueden ser fácilmente iteradas y recorridas, lo que es útil para realizar operaciones como la búsqueda o la ordenación.
-
-Por otro lado, las estructuras dinámicas son más complejas pero también más poderosas. Permiten el crecimiento y la disminución en tamaño durante la ejecución del programa, lo que significa que pueden adaptarse a situaciones cambiantes. Además, las estructuras dinámicas suelen ser más flexibles en cuanto al tipo de datos que pueden almacenar, ya que no están limitadas por un tamaño fijo.
-
-La comprensión de estas diferencias es crucial para el diseño eficiente de programas. Al elegir la estructura adecuada, los programadores pueden optimizar el uso de memoria y mejorar el rendimiento del programa. Además, entender cómo funcionan las estructuras estáticas y dinámicas nos permite abordar problemas más complejos en el futuro.
-
-En resumen, las estructuras estáticas y dinámicas son dos herramientas esenciales en la programación que permiten organizar y manipular datos de manera eficiente. Cada una tiene sus propias ventajas y desventajas, y su elección depende del contexto específico del problema que se esté resolviendo. A través de este estudio, hemos adquirido un nuevo nivel de comprensión sobre cómo funcionan estas estructuras fundamentales en la programación, lo que nos prepara para abordar problemas más complejos en el futuro.
+En esta carpeta de ejercicios se exploran diferentes estructuras de datos estáticas y dinámicas en Python, específicamente listas y tuplas. Los estudiantes aprenderán a manipular estos tipos de datos mediante la adición y eliminación de elementos, lo cual es fundamental para el manejo eficiente de información en programas más complejos. Se enfatiza especialmente cómo las listas permiten cambios dinámicos mientras que las tuplas son inmutables, proporcionando una base sólida sobre los conceptos clave de estructuras de datos en programación.
 
 ### estructura dinamica lista
+<small>Creado: 2025-11-20 14:53</small>
+
+#### Explicación
+
+Este código es una simple demostración de cómo trabajar con listas en Python. Una lista es como una caja donde puedes guardar varios elementos, en este caso nombres de personas. Al principio, la lista llamada `agenda` contiene los nombres "Jaime", "Jorge" y "Juan". Cuando ejecutas el código, primero imprimes esta lista para que puedas ver cuáles son los nombres que están guardados inicialmente.
+
+Luego, se añade un nuevo nombre, "Julia", a la lista utilizando el método `append()`. Este método es muy útil porque permite agregar elementos al final de una lista sin necesidad de especificar la posición exacta. Al final del código, imprimes nuevamente la lista para mostrar cómo ha cambiado después de añadir "Julia".
+
+Este ejemplo demuestra cómo las listas en Python son estructuras dinámicas que pueden cambiar su tamaño fácilmente durante la ejecución del programa, lo cual es muy práctico cuando necesitas gestionar colecciones de datos que pueden variar.
+
+`001-estructura dinamica lista.py`
 
 ```python
 agenda = [
@@ -8667,6 +12188,19 @@ print(agenda)
 ```
 
 ### eliminar elementos
+<small>Creado: 2025-11-20 14:54</small>
+
+#### Explicación
+
+Este código muestra cómo trabajar con una lista en Python, que es una estructura de datos dinámica. En primer lugar, se crea una lista llamada `agenda` que contiene los nombres "Jaime", "Jorge" y "Juan". Luego, imprime esta lista para mostrarte su contenido inicial.
+
+Después, el código añade un nuevo elemento al final de la lista con la función `append()`. En este caso, se agrega el nombre "Julia". De nuevo, se imprime la lista después de agregar el nuevo elemento para que puedas ver cómo ha cambiado.
+
+Finalmente, se utiliza la función `pop()` para eliminar el último elemento de la lista. Esto es útil cuando sabes que quieres quitar siempre el último elemento. Después de esto, vuelve a imprimirse la lista para mostrar los cambios realizados.
+
+Este tipo de operaciones (añadir y eliminar elementos) son comunes en programación y te ayudan a entender cómo manejar listas dinámicas en Python, lo cual es fundamental cuando trabajas con datos que cambian durante la ejecución del programa.
+
+`002-eliminar elementos.py`
 
 ```python
 agenda = [
@@ -8687,6 +12221,21 @@ print(agenda)
 ```
 
 ### eliminar un elemento de donde quiera
+<small>Creado: 2025-11-20 14:54</small>
+
+#### Explicación
+
+Este código muestra cómo trabajar con listas en Python, que son una estructura de datos dinámica. La lista `agenda` se inicializa con tres nombres: "Jaime", "Jorge" y "Juan". Primero, el programa imprime la lista completa para mostrar su contenido original.
+
+Luego, se añade el nombre "Julia" al final de la lista usando el método `append()`. Este método agrega un elemento a la lista en la posición más reciente (final) y luego vuelve a imprimir la lista para demostrar que "Julia" ha sido agregada correctamente.
+
+A continuación, se elimina el último nombre de la lista con el método `pop()` sin ningún argumento. Esto quita el último elemento de la lista, en este caso, "Julia", y la imprime nuevamente para mostrar los cambios.
+
+Finalmente, se utiliza el método `pop(1)` para eliminar un elemento específico de una posición determinada (en este caso, la segunda entrada en la lista, que es "Jorge" dado que las listas empiezan a contar desde cero). Este paso demuestra cómo puedes especificar exactamente qué elemento deseas remover de tu lista.
+
+Este código es importante porque te enseña cómo manejar datos dinámicos en Python, permitiéndote añadir y quitar elementos según sea necesario. Esto es fundamental cuando trabajas con estructuras de datos como listas para manipular información en tus programas.
+
+`003-eliminar un elemento de donde quiera.py`
 
 ```python
 agenda = [
@@ -8711,6 +12260,15 @@ print(agenda)
 ```
 
 ### tuplas
+<small>Creado: 2025-11-20 14:55</small>
+
+#### Explicación
+
+Este código Python crea una tupla llamada `coordenadas` que contiene tres números enteros: 1, 2 y 3. Una tupla es similar a una lista en Python, pero con la diferencia de que las tuplas son inmutables, lo que significa que no puedes cambiar sus elementos después de crearlas.
+
+El código luego imprime el contenido de `coordenadas` utilizando la función `print()`. Al ejecutar este programa, se mostrará `(1, 2, 3)` en la pantalla. Este ejemplo es útil para entender cómo se crean y visualizan tuplas en Python, lo que es importante cuando trabajas con datos que no necesitan ser modificados después de su inicialización.
+
+`004-tuplas.py`
 
 ```python
 coordenadas = (1,2,3)
@@ -8719,6 +12277,21 @@ print(coordenadas)
 ```
 
 ### intento añadir elemento
+<small>Creado: 2025-11-20 14:56</small>
+
+#### Explicación
+
+Este código Python muestra un ejemplo de cómo tratar con tuplas. Una tupla es una estructura de datos que se utiliza para almacenar varios elementos inmutables, lo que significa que una vez que has creado la tupla, no puedes cambiar sus elementos. 
+
+El código comienza creando una tupla llamada `coordenadas` con tres números: `(1, 2, 3)`. Luego, imprime esta tupla para mostrar su contenido en la consola.
+
+A continuación, hay un intento de añadir el número `5` a la tupla usando el método `append()`, que es comúnmente usado para listas. Sin embargo, este método no está disponible para las tuplas porque ellas son inmutables y no se pueden modificar una vez creadas.
+
+Al final, el código vuelve a intentar imprimir la variable `coordenadas` después del fallo en la modificación. Esto mostrará de nuevo los valores originales `(1, 2, 3)`, sin cambios.
+
+Este fragmento es importante para entender la diferencia entre las tuplas y las listas en Python y aprender por qué es crucial respetar las propiedades inmutables de las tuplas.
+
+`005-intento añadir elemento.py`
 
 ```python
 coordenadas = (1,2,3)
@@ -8730,26 +12303,54 @@ coordenadas.append(5)
 print(coordenadas)
 ```
 
+### Actividades propuestas
+
+### Actividades Propuestas
+
+#### 1. **Añadiendo Contactos a una Agenda**
+**Descripción:** Los alumnos deben crear un programa que permita añadir varios contactos (nombres) a una lista y luego mostrar la lista completa con los nuevos elementos añadidos. Se espera que aprendan cómo manejar listas en Python y entender el método `append()`.
+
+#### 2. **Manipulación de Listas: Añadir y Eliminar**
+**Descripción:** Los estudiantes tendrán que crear una aplicación básica donde pueden agregar un contacto a la lista y luego eliminarlo. Este ejercicio ayudará a los alumnos a comprender cómo se manejan las operaciones básicas en listas.
+
+#### 3. **Manipulación de Listas: Añadir y Eliminar Elemento Específico**
+**Descripción:** Se les pedirá que diseñen un programa que pueda añadir un elemento al final de una lista, eliminar el último elemento y luego eliminar un elemento específico por su índice (no por posición). Esto permitirá a los estudiantes profundizar en la lógica detrás del manejo de listas dinámicas.
+
+#### 4. **Comparación entre Listas Dinámicas y Estructuras Estáticas**
+**Descripción:** Los alumnos deben crear una aplicación que muestre las diferencias entre usar una lista (estructura dinámica) y una tupla (estructura estática), mostrando los problemas que pueden surgir al intentar modificar una tupla.
+
+#### 5. **Manejo de Errores: Añadir Elemento a Tupla**
+**Descripción:** Los estudiantes deben escribir un programa que intente añadir un elemento a una tupla, lo cual generará un error en tiempo de ejecución. La tarea es detectar y corregir el problema para comprender por qué las tuplas son inmutables.
+
+#### 6. **Implementación de Agenda Personal**
+**Descripción:** Se les pide que creen su propia agenda personal usando listas. Deben ser capaces de añadir, eliminar y mostrar contactos en la lista, así como manejar posibles errores (como intentar acceder a índices inexistentes).
+
+#### 7. **Estructura Dinámica vs Estática**
+**Descripción:** Los alumnos deben crear un código que ilustre las diferencias entre una estructura dinámica y estática en Python, usando ejemplos con listas y tuplas.
+
+#### 8. **Desarrollo de Aplicación Compleja: Agenda Mejorada**
+**Descripción:** Se les propone desarrollar una aplicación más avanzada que permita gestionar una agenda completa. Esto incluirá la capacidad para añadir, eliminar y buscar contactos en la lista, así como manejar errores y excepciones correctamente.
+
+Estas actividades están diseñadas para ayudar a los estudiantes de Formación Profesional a comprender mejor las estructuras estáticas y dinámicas en Python, específicamente listas y tuplas.
+
+
 <a id="creacion-de-matrices-arrays"></a>
 ## Creación de matrices (arrays)
 
-En el vasto y complejo mundo de la programación, las estructuras de almacenamiento desempeñan un papel fundamental como los pilares que sostienen una construcción. En esta subunidad didáctica, nos adentramos en el fascinante mundo de las matrices (arrays), una herramienta esencial para organizar y manipular datos de manera eficiente.
+### Introducción a los ejercicios
 
-Las matrices son estructuras de datos bidimensionales que permiten almacenar un conjunto ordenado de elementos del mismo tipo. Imagina una tabla rectangular, donde cada celda contiene un valor específico. Esta organización permite acceder a cualquier elemento mediante dos índices: uno para la fila y otro para la columna. Este sistema de referencia es fundamental para realizar operaciones complejas sobre conjuntos de datos.
-
-La creación de matrices es un concepto básico pero poderoso en programación. Para comenzar, debemos entender cómo declarar una matriz en nuestro código. En muchos lenguajes de programación, esto se realiza mediante la especificación del tipo de dato, el nombre de la matriz y su tamaño. Por ejemplo, en pseudocódigo, podríamos escribir algo como `int[][] miMatriz = new int[3][4];`, lo que crea una matriz de enteros con 3 filas y 4 columnas.
-
-Una vez declarada, podemos inicializar los valores de la matriz utilizando bucles anidados. Cada iteración del bucle exterior corresponde a una fila, mientras que el bucle interior maneja las columnas. Este proceso es crucial para llenar la matriz con los datos deseados y prepararla para su uso en operaciones posteriores.
-
-Las matrices también pueden ser utilizadas para representar tableros de juegos, gráficos bidimensionales o incluso sistemas de coordenadas. Su capacidad para almacenar múltiples valores en una sola estructura hace que sean ideales para resolver problemas que implican la manipulación de conjuntos de datos relacionados.
-
-Además de su uso directo en el código, las matrices también son fundamentales en algoritmos y estructuras de datos más complejas. Por ejemplo, muchas operaciones matemáticas y científicas requieren la manipulación de matrices para realizar cálculos eficientes. En estos casos, las matrices se convierten en herramientas esenciales para el análisis y procesamiento de información.
-
-La creación de matrices también implica comprender los conceptos de índices y dimensiones. Los índices son fundamentales para acceder a elementos específicos dentro de la matriz, mientras que las dimensiones indican cuántas filas y columnas contiene. Estos conceptos deben ser bien dominados para evitar errores comunes como el acceso fuera de rango o la confusión entre los índices.
-
-En resumen, la creación de matrices es un tema fundamental en programación que nos permite organizar y manipular datos de manera eficiente. A través de esta estructura, podemos resolver problemas complejos y realizar operaciones matemáticas y científicas con mayor facilidad. Su dominio es esencial para cualquier desarrollador que quiera trabajar con conjuntos de datos relacionados o realizar cálculos avanzados en su código.
+En esta carpeta de ejercicios, se exploran las bases del manejo de estructuras de datos en programación, centrándose específicamente en el uso de matrices (arrays) y objetos. Los estudiantes aprenderán a crear arrays, agregar y eliminar elementos, así como recorrer tanto arrays como propiedades de objetos para mostrar o manipular sus datos. Estos ejercicios son fundamentales para comprender cómo organizar y procesar colecciones de información en diferentes lenguajes de programación como Python y JavaScript, lo que desarrollará habilidades clave para la gestión eficiente de datos en aplicaciones informáticas.
 
 ### arrays
+<small>Creado: 2025-11-20 14:58</small>
+
+#### Explicación
+
+Este código HTML incluye un bloque de script que define una matriz llamada `agenda` y luego muestra esta matriz en la consola del navegador. La matriz `agenda` contiene tres elementos: los nombres "Juan", "Jorge" y "Julia". Al utilizar `console.log(agenda);`, el programa imprime la matriz completa en la consola, lo que nos permite ver cómo se estructuran las matrices en JavaScript.
+
+Este ejemplo es importante porque muestra cómo crear una matriz simple en JavaScript y cómo visualizar su contenido utilizando la función `console.log()`. Esto es útil tanto para depurar código como para aprender a manejar datos en forma de lista.
+
+`001-arrays.html`
 
 ```html
 <script>
@@ -8763,6 +12364,17 @@ En resumen, la creación de matrices es un tema fundamental en programación que
 ```
 
 ### empujar un elemento en un array
+<small>Creado: 2025-11-20 14:59</small>
+
+#### Explicación
+
+Este fragmento de código es un ejemplo sencillo que muestra cómo trabajar con arrays en JavaScript. Primero, se crea una lista (array) llamada `agenda` que contiene los nombres de tres personas: "Juan", "Jorge" y "Julia". Luego, el contenido del array `agenda` se imprime en la consola para mostrar sus elementos iniciales.
+
+Después, se utiliza un método llamado `.push()` para añadir un nuevo elemento al final del array. En este caso, se agrega el nombre "Jaime" a la lista de contactos. Finalmente, se vuelve a imprimir el contenido actualizado del array `agenda` en la consola.
+
+Este código es importante porque demuestra cómo puedes expandir dinámicamente un array en JavaScript agregando nuevos elementos cuando sea necesario, lo cual es una operación común en muchos tipos de aplicaciones que manejan listas de datos.
+
+`002-empujar un elemento en un array.html`
 
 ```html
 <script>
@@ -8778,6 +12390,15 @@ En resumen, la creación de matrices es un tema fundamental en programación que
 ```
 
 ### quitar un elemento del array
+<small>Creado: 2025-11-20 15:00</small>
+
+#### Explicación
+
+Este código HTML contiene un bloque de script que muestra cómo trabajar con arrays en JavaScript. Primero, se crea un array llamado `agenda` que almacena los nombres "Juan", "Jorge" y "Julia". Luego, este array es mostrado en la consola del navegador usando `console.log()`. A continuación, se añade el nombre "Jaime" al final del array utilizando el método `.push()` y vuelve a mostrar el contenido actualizado de `agenda` en la consola. Finalmente, se elimina el último elemento del array con el método `.splice(3)`, que comienza a eliminar elementos desde el índice 3 hasta el final (en este caso, solo elimina "Jaime"). De nuevo, muestra el estado actual del array en la consola.
+
+Este ejemplo es importante para entender cómo manipular arrays dinámicamente añadiendo y removiendo elementos según sea necesario.
+
+`003-quitar un elemento del array.html`
 
 ```html
 <script>
@@ -8795,6 +12416,13 @@ En resumen, la creación de matrices es un tema fundamental en programación que
 ```
 
 ### recorrer lista en python
+<small>Creado: 2025-11-20 15:01</small>
+
+#### Explicación
+
+Este código Python muestra cómo recorrer una lista (también llamada array) y procesar cada uno de sus elementos. La lista se llama `personas` y contiene cuatro nombres: Jaime, Julia, Jorge y Juan. El bucle `for` itera sobre cada elemento en la lista `personas`, asignando el valor actual a la variable `persona`. En cada iteración del bucle, el código imprime el nombre de la persona que se está procesando con la función `print()`. Esto es importante porque nos permite realizar operaciones con cada elemento de una lista sin tener que escribir un comando para cada uno individualmente.
+
+`004-recorrer lista en python.py`
 
 ```python
 personas = [
@@ -8810,6 +12438,13 @@ for persona in personas:
 ```
 
 ### recorrer array en Javascript
+<small>Creado: 2025-11-20 15:02</small>
+
+#### Explicación
+
+Este código HTML contiene un bloque de script que define una matriz llamada `personas` con tres nombres: "Juan", "Jorge" y "Julia". Luego, utiliza el método `forEach()` para recorrer cada elemento en la matriz. Dentro del bucle, se imprime cada nombre en el navegador utilizando `console.log()`. Esto es útil porque muestra cómo iterar sobre una lista de elementos (en este caso, nombres) y realizar operaciones con cada uno, como imprimirlo en la consola. Es importante para entender cómo trabajar con colecciones de datos en JavaScript.
+
+`005-recorrer array en Javascript.html`
 
 ```html
 <script>
@@ -8825,6 +12460,19 @@ for persona in personas:
 ```
 
 ### recorrer propiedades de objeto
+<small>Creado: 2025-11-20 15:04</small>
+
+#### Explicación
+
+Este fragmento de código en Python muestra cómo recorrer las propiedades de un objeto (en este caso, llamado `mis_datos`) que es similar a un diccionario. El objetivo del código es imprimir tanto la clave como el valor asociado para cada propiedad del objeto.
+
+Primero, se define un objeto `mis_datos` con tres propiedades: "nombre", "apellidos" y "email". Cada una de estas propiedades tiene un valor asociado, por ejemplo, "Jose Vicente" es el valor de la clave "nombre".
+
+Luego, se utiliza un bucle `for` para iterar sobre todas las claves presentes en el objeto `mis_datos`. Para cada iteración del ciclo, se imprime tanto la clave como el valor correspondiente que se obtiene utilizando la sintaxis `mis_datos[clave]`.
+
+Este tipo de recorrido es importante porque permite acceder y manipular fácilmente los datos almacenados dentro de un objeto complejo en Python, facilitando así operaciones más avanzadas sobre estructuras de datos.
+
+`006-recorrer propiedades de objeto.py`
 
 ```python
 mis_datos = {
@@ -8839,6 +12487,19 @@ for clave in mis_datos:
 ```
 
 ### recorrer objeto en javascript
+<small>Creado: 2025-11-20 15:06</small>
+
+#### Explicación
+
+Este fragmento de código en JavaScript te enseña cómo recorrer las propiedades y valores de un objeto. En primer lugar, se crea un objeto llamado `mis_datos` que contiene tres propiedades: `"nombre"`, `"apellidos"` y `"email"`. Cada una de estas propiedades tiene un valor asociado.
+
+Luego, se utiliza la función `Object.entries()` para convertir el objeto en un array de pares clave-valor. Por ejemplo, esto convierte `"nombre":"Jose Vicente"` en `["nombre", "Jose Vicente"]`.
+
+Finalmente, se usa el método `forEach` para iterar sobre cada uno de estos pares y mostrarlos en la consola usando `console.log()`. Esto imprime cada clave y su respectivo valor en formato legible, como por ejemplo: `"nombre: Jose Vicente"`.
+
+Esta técnica es útil cuando necesitas procesar o visualizar los datos contenidos en un objeto complejo.
+
+`007-recorrer objeto en javascript.html`
 
 ```html
 <script>
@@ -8853,26 +12514,70 @@ for clave in mis_datos:
 </script>
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Creación y Modificación de Arrays en JavaScript
+
+**Descripción:** Crea un array vacío llamado `nombres` e implementa una función que permita añadir nombres a este array. Luego, muestra el contenido del array con la ayuda de `console.log()`. Esta actividad te ayudará a familiarizarte con la creación y manipulación básica de arrays en JavaScript.
+
+### Actividad 2: Agregar Elementos al Final del Array
+
+**Descripción:** Dado un array llamado `usuarios`, escribe una función que permita agregar un nuevo usuario al final del array utilizando el método `push()`. Muestra los cambios en el array después de la adición. Esta actividad te enseñará a añadir elementos al final de un array.
+
+### Actividad 3: Remover Elementos de un Array
+
+**Descripción:** Utiliza el método `splice()` para remover un elemento específico del array de usuarios que hayas creado en la actividad anterior. Verifica visualmente los cambios después de la eliminación del elemento. Esta tarea te ayudará a entender cómo eliminar elementos de arrays.
+
+### Actividad 4: Recorrer Arrays con For Loop
+
+**Descripción:** Implementa un bucle `for` para recorrer el array de nombres que hayas creado y muestra cada nombre individualmente utilizando `console.log()`. Este ejercicio te permitirá comprender la iteración básica sobre arrays en JavaScript.
+
+### Actividad 5: Uso del Método `.forEach()` con Arrays
+
+**Descripción:** Escribe un script que utilice la función `forEach` para recorrer el array de usuarios y mostrar cada usuario por consola. Esta actividad te ayudará a entender cómo usar métodos de lista (arrays) en JavaScript.
+
+### Actividad 6: Creación y Modificación de Objetos en Python
+
+**Descripción:** Crea un objeto llamado `persona` que contenga al menos tres propiedades como nombre, edad y ciudad. Luego, muestra cada propiedad del objeto utilizando una estructura de bucle for. Esta actividad te permitirá trabajar con objetos básicos en Python.
+
+### Actividad 7: Recorrer Propiedades de Objetos con For Loop
+
+**Descripción:** Utiliza un bucle `for` para recorrer todas las propiedades del objeto persona que has creado, imprimiendo cada clave y valor por separado. Esta tarea te ayudará a comprender cómo acceder a las propiedades de objetos en Python.
+
+### Actividad 8: Uso de la Función `Object.entries()` con Objetos
+
+**Descripción:** Implementa una función en JavaScript que utilice `Object.entries` para recorrer un objeto similar al creado anteriormente y mostrar cada clave-valor por consola. Esta actividad te enseñará cómo iterar sobre propiedades de objetos usando métodos avanzados.
+
+### Actividad 9: Comparación de Recorrido de Arrays entre JavaScript y Python
+
+**Descripción:** Dado un array en JavaScript, escribe una función que recorra el mismo array utilizando tanto `forEach` como un bucle `for`. Luego, realiza la misma tarea con un objeto similar en Python usando `for` e imprime los resultados. Esta actividad te ayudará a comparar las diferencias y similitudes entre estructuras de datos en ambos lenguajes.
+
+### Actividad 10: Integración de Arrays y Objetos
+
+**Descripción:** Crea un array de objetos donde cada objeto represente la información personal de un usuario (nombre, edad, ciudad). Luego, recorre este array para mostrar toda la información del usuario por consola. Esta actividad te permitirá combinar conceptos de arrays y objetos en ambos lenguajes.
+
+
 <a id="matrices-arrays-multidimensionales"></a>
 ## Matrices (arrays) multidimensionales
 
-Continuando con nuestra exploración del mundo de la programación, nos dirijimos a una subunidad crucial: la aplicación de las estructuras de almacenamiento. En esta sección, nos centraremos específicamente en las matrices (arrays) multidimensionales, un concepto fundamental que permite organizar y manejar datos de manera eficiente.
+### Introducción a los ejercicios
 
-Las matrices multidimensionales son una extensión natural de los arrays unidimensionales, permitiendo almacenar datos en múltiples dimensiones. En lugar de tener solo filas o columnas, las matrices multidimensionales nos ofrecen la posibilidad de crear estructuras más complejas y ricas en información.
-
-Para ilustrar su uso, consideremos una matriz bidimensional que representa una tabla de ventas. Cada fila podría representar un producto, mientras que cada columna podría representar diferentes meses del año. De esta manera, podemos almacenar fácilmente la cantidad vendida de cada producto durante cada mes, facilitando el análisis y la visualización de los datos.
-
-La manipulación de matrices multidimensionales implica acceso a sus elementos mediante índices. En Python, por ejemplo, si tenemos una matriz bidimensional `ventas`, podemos acceder al valor de ventas del producto 3 en el mes 2 con la siguiente sintaxis: `ventas[2][1]`. Es importante recordar que los índices comienzan desde cero, lo que significa que el primer elemento está en la posición 0.
-
-Además de las matrices bidimensionales, existen estructuras multidimensionales más complejas. Por ejemplo, una matriz tridimensional podría representar datos spaciales o temporales, donde cada dimensión representa un eje diferente. En este caso, podríamos tener una matriz que almacene temperaturas en diferentes ciudades a lo largo de los años.
-
-La programación multidimensional no se limita a la manipulación de datos estáticos. También es común trabajar con matrices dinámicas, donde el tamaño puede cambiar durante la ejecución del programa. En estos casos, es crucial tener cuidado al manejar los índices y asegurarse de que siempre estén dentro del rango válido.
-
-La eficiencia en la manipulación de matrices multidimensionales es un aspecto importante a considerar. Algunas operaciones pueden ser computacionalmente intensivas, lo que requiere una optimización cuidadosa para evitar problemas de rendimiento. Herramientas como NumPy en Python proporcionan funciones y métodos eficientes para trabajar con grandes conjuntos de datos multidimensionales.
-
-En conclusión, las matrices multidimensionales son una herramienta poderosa en el arsenal del programador. Permiten organizar y manipular datos de manera estructurada, facilitando la realización de análisis complejos y la visualización de información. A medida que avanzamos en nuestro estudio de la programación, es crucial familiarizarnos con estas estructuras y aprender a utilizarlas eficazmente en nuestros proyectos.
+En esta sesión de ejercicios, te encontrarás trabajando con matrices multidimensionales en Python, específicamente a través del ejemplo de una agenda. El objetivo principal es comprender cómo almacenar y manipular datos estructurados utilizando listas anidadas. En el ejercicio proporcionado, creas una lista bidimensional para registrar información de contacto como nombres, apellidos y correos electrónicos de varias personas. A través de esta práctica, mejorarás tus habilidades en la creación y manejo de estructuras de datos complejas, así como en la adición de elementos a estas estructuras.
 
 ### agenda multidimensional
+<small>Creado: 2025-11-20 15:09</small>
+
+#### Explicación
+
+Este código en Python crea una agenda simple utilizando matrices (o arrays) multidimensionales. La variable `agenda` es una lista vacía que servirá para almacenar información sobre diferentes personas, como su nombre completo y su dirección de correo electrónico.
+
+El código agrega varios elementos a la lista `agenda`. Cada elemento es una sublista que contiene tres piezas de información: el primer nombre, el apellido y la dirección de correo electrónico de una persona. Por ejemplo, cuando se ejecuta `agenda.append(["Jose Vicente","Carratala","info@jocarsa.com"])`, este código añade a José Vicente Carratala con su correspondiente email a nuestra lista.
+
+Finalmente, el programa imprime la matriz completa llamada `agenda` en la pantalla. Al imprimir `print(agenda)`, se muestran todos los contactos almacenados en la agenda de forma estructurada, permitiendo ver fácilmente cómo cada persona está organizada dentro de una sublista dentro de la lista principal.
+
+Este tipo de estructura es útil para organizar datos relacionados y acceder a ellos fácilmente, lo cual es fundamental para aplicaciones como agendas o bases de datos simplificadas.
+
+`001-agenda multidimensional.py`
 
 ```python
 agenda = []
@@ -8893,28 +12598,72 @@ agenda.append(["David","Moreno","david.moreno@example.com"]);
 print(agenda)
 ```
 
+### Actividades propuestas
+
+1. **Agenda Mejorada**
+   - Descripción: Los estudiantes deben mejorar el código existente para permitir la búsqueda de contactos por nombre y correo electrónico.
+   - Objetivo: Aprender a utilizar estructuras condicionales y funciones.
+
+2. **Agregar Contacto**
+   - Descripción: Crear una función que permita añadir un nuevo contacto a la agenda sin modificar manualmente el código.
+   - Objetivo: Entender cómo manejar datos en matrices multidimensionales dinámicamente.
+
+3. **Borrar Contacto**
+   - Descripción: Implementar una funcionalidad para eliminar contactos de la agenda basándose en su nombre completo.
+   - Objetivo: Aprender a manipular y modificar estructuras de matriz bidimensional.
+
+4. **Ordenar Agenda**
+   - Descripción: Los estudiantes deben ordenar los contactos por el apellido alfabéticamente.
+   - Objetivo: Familiarizarse con las operaciones de ordenamiento en listas multidimensionales.
+
+5. **Exportar CSV**
+   - Descripción: Escribir una función que permita exportar la agenda completa a un archivo CSV para guardar los datos externamente.
+   - Objetivo: Comprender el formato CSV y cómo interactuar con archivos desde Python.
+
+6. **Importar CSV**
+   - Descripción: Crear una herramienta que importe contactos desde un archivo CSV al programa de la agenda.
+   - Objetivo: Aprender a leer datos desde archivos externos y manipularlos dentro del código.
+
+7. **Validación de Entradas**
+   - Descripción: Implementar validaciones para asegurar que solo se ingresen datos correctos en cada campo (nombre, apellido, correo).
+   - Objetivo: Mejorar la robustez del programa mediante control de errores y entrada de usuario.
+
+8. **Interfaz Amigable**
+   - Descripción: Diseñar un menú simple para interactuar con el programa a través de comandos numéricos.
+   - Objetivo: Aprender a estructurar programas para que sean más accesibles e intuitivos para los usuarios.
+
+9. **Consultas Avanzadas**
+   - Descripción: Crear una funcionalidad que permita consultar contactos por parte del nombre (sin necesidad de proporcionar el apellido completo).
+   - Objetivo: Aprender a manejar consultas más complejas y eficientes en matrices multidimensionales.
+
+10. **Informe Mensual**
+    - Descripción: Generar un informe que cuente con estadísticas básicas sobre los contactos (por ejemplo, número de contactos nuevos en el mes).
+    - Objetivo: Comprender cómo combinar múltiples operaciones para obtener y presentar datos analíticos.
+
+
 <a id="genericidad"></a>
 ## Genericidad
 
-En el vasto mundo de la programación, una estructura de almacenamiento es como el esqueleto de un edificio; proporciona la base sobre la cual se construyen las aplicaciones. En esta subunidad didáctica, nos adentramos en el concepto fundamental de genericidad, que es una herramienta poderosa para mejorar la flexibilidad y reutilización del código.
+### Introducción a los ejercicios
 
-La genericidad permite definir clases y métodos que pueden trabajar con diferentes tipos de datos sin necesidad de especificar estos tipos de antemano. Esta característica es especialmente valiosa en el desarrollo de bibliotecas y frameworks, donde se requiere una amplia gama de operaciones que puedan aplicarse a diversos tipos de objetos.
+En esta actividad, se te presenta un ejercicio que involucra la creación de una aplicación web simple usando Flask y MySQL en Python. El objetivo principal es aprender a interactuar con bases de datos utilizando SQL para recuperar datos y luego devolverlos en formato JSON mediante una API. Además, practicarás habilidades como configurar conexiones a bases de datos y renderizar plantillas HTML con Flask.
 
-Comenzamos por entender cómo funciona la genericidad en Java, un lenguaje conocido por su soporte robusto para este concepto. A través del uso de parámetros de tipo genéricos, podemos crear clases y métodos que son independientes del tipo específico de datos con los que operan. Por ejemplo, una lista genérica puede almacenar cualquier tipo de objeto, desde cadenas hasta números enteros.
-
-La ventaja de la genericidad radica en su capacidad para reducir el código repetitivo y mejorar la seguridad tipológica. Al definir clases y métodos genéricos, evitamos errores comunes como la conversión de tipos (ClassCastException) que pueden surgir cuando se trabaja con objetos de diferentes tipos.
-
-Además, la genericidad facilita la creación de interfaces y clases más abstractas, permitiendo una mayor modularidad en el diseño de aplicaciones. Esto no solo hace que el código sea más fácil de mantener y escalar, sino que también promueve un mejor entendimiento del funcionamiento interno de las bibliotecas y frameworks.
-
-En este contexto, es crucial entender cómo implementar la genericidad en diferentes situaciones. Por ejemplo, cuando se trabaja con colecciones como listas o conjuntos, el uso de tipos genéricos puede evitar problemas comunes relacionados con la pérdida de tipo (type erasure) que ocurre en Java.
-
-La aplicabilidad de la genericidad no se limita a estructuras de datos; también es fundamental para la creación de métodos y funciones que pueden operar sobre cualquier tipo de dato. Esto incluye operaciones como comparaciones, filtrado y reducción, que son fundamentales en el procesamiento de grandes conjuntos de datos.
-
-En resumen, la genericidad es una herramienta esencial en la programación moderna. Permite crear código más flexible, seguro y reusable, lo que a su vez facilita el desarrollo de aplicaciones complejas y escalables. A través de este concepto, los desarrolladores pueden abordar problemas de manera más eficiente, aprovechando al máximo las capacidades del lenguaje y las bibliotecas disponibles.
-
-La comprensión y aplicación correcta de la genericidad son habilidades cruciales para cualquier programador que quiera escribir código limpio, mantenible y escalable. En esta subunidad didáctica, hemos explorado los fundamentos de este concepto y su importancia en el desarrollo de aplicaciones modernas. A medida que avanzamos en nuestro estudio de la programación, es importante mantenerse al tanto de estas técnicas avanzadas para mantenernos al día con las mejores prácticas del campo.
+Este ejercicio refuerza competencias clave como el manejo de estructuras de almacenamiento (en este caso, bases de datos SQL), la generación de APIs web para acceder a esos datos y trabajar con marcos web en Python. Es importante entender cómo se integran diferentes componentes técnicos para crear soluciones completas en desarrollo web.
 
 ### servidor
+<small>Creado: 2025-11-20 15:12</small>
+
+#### Explicación
+
+Este código es una aplicación web básica creada con Flask y Python que interactúa con una base de datos MySQL. La aplicación tiene dos rutas principales: `/api` y `/`.
+
+1. **Ruta /api**: Cuando un usuario accede a esta ruta, la aplicación consulta la base de datos para obtener información sobre todas las tablas existentes en la base de datos llamada "blog2526". Luego, por cada tabla encontrada, ejecuta una consulta SQL que selecciona todos los registros de esa tabla. Los resultados se almacenan en un diccionario Python donde las claves son los nombres de las tablas y los valores son listas con los datos de dichas tablas. Finalmente, el contenido del diccionario es convertido a formato JSON y devuelto al usuario que ha solicitado la información.
+
+2. **Ruta /**: Cuando un usuario accede a la raíz del sitio web (es decir, la dirección URL sin ninguna ruta adicional), la aplicación busca en la carpeta `templates` un archivo llamado "index.html" y lo renderiza para mostrarlo al usuario.
+
+Esta aplicación es útil cuando se desea proporcionar una interfaz de programadores (API) que devuelve información estructurada sobre el contenido de la base de datos, o simplemente servir páginas web estáticas a los visitantes.
+
+`servidor.py`
 
 ```python
 import mysql.connector
@@ -8956,28 +12705,68 @@ if __name__ == "__main__":
   aplicacion.run()
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Crear una Aplicación Flask Simples
+
+**Descripción:** Implementa una aplicación sencilla en Flask que muestre un mensaje "¡Hola, Mundo!" al abrir la URL raíz. Esta actividad te ayudará a entender los conceptos básicos de Flask y cómo ejecutar aplicaciones web en Python.
+
+### Actividad 2: Conexión a MySQL con Python
+
+**Descripción:** Establece una conexión entre tu aplicación Flask y una base de datos MySQL local. Asegúrate de que la configuración de usuario, contraseña y nombre de la base de datos sea correcta. Esta actividad te permitirá familiarizarte con el manejo de bases de datos en Python.
+
+### Actividad 3: Consultar Tablas desde MySQL
+
+**Descripción:** Modifica tu aplicación Flask para listar las tablas presentes en una base de datos específica cuando se accede a la ruta "/api". Esto te permitirá comprender cómo realizar consultas SQL y procesar resultados en Python.
+
+### Actividad 4: Recuperación de Datos desde Tabla
+
+**Descripción:** Amplía tu aplicación Flask para que, al visitar la URL "/api", muestre los registros de todas las tablas disponibles en formato JSON. Aprenderás a ejecutar consultas SQL dinámicas y manipular datos.
+
+### Actividad 5: Uso de Cursor y Fetchall
+
+**Descripción:** Implementa el uso del cursor para recoger todos los registros de una tabla específica utilizando `fetchall()`. Asegúrate de manejar correctamente la lista de resultados obtenidos. Esta actividad te ayudará a entender cómo manipular y procesar datos SQL en Python.
+
+### Actividad 6: Formateo JSON
+
+**Descripción:** Convierte el contenido recuperado desde las tablas MySQL en un formato JSON legible para su visualización en una página web o API. Aprenderás a usar la biblioteca `json` de Python para serializar datos.
+
+### Actividad 7: Integración con Plantillas Flask
+
+**Descripción:** Integra tu aplicación Flask con plantillas HTML utilizando el módulo `render_template`. Crea una plantilla básica que muestra un resumen de las tablas recuperadas desde la base de datos. Esta actividad te permitirá combinar Python y HTML para generar páginas dinámicas.
+
+### Actividad 8: Manejo de Errores
+
+**Descripción:** Implementa manejo de errores en tu aplicación Flask, asegurándote que se capturan excepciones relacionadas con las consultas a la base de datos y se devuelven mensajes claros al usuario. Aprenderás a hacer tu código más robusto y confiable.
+
+### Actividad 9: Seguridad de Contraseñas
+
+**Descripción:** Implementa medidas básicas para proteger contraseñas en el código fuente, como no almacenarlas directamente o utilizar variables de entorno para configuraciones sensibles. Aprenderás sobre prácticas recomendadas en cuanto a seguridad del código.
+
+### Actividad 10: Pruebas Unitarias
+
+**Descripción:** Escribe pruebas unitarias utilizando frameworks como `unittest` para verificar el correcto funcionamiento de las funciones que interactúan con la base de datos y devuelven JSON. Aprenderás cómo garantizar que tu aplicación funciona correctamente desde un enfoque de prueba.
+
+
 <a id="cadenas-de-caracteres-expresiones-regulares"></a>
 ## Cadenas de caracteres. Expresiones regulares
 
-En el vasto mundo de la programación, las cadenas de caracteres son una construcción fundamental que nos permite almacenar y manipular texto. Son como los bloques con los que construimos nuestras aplicaciones, ya sea para mostrar información al usuario o para procesar datos internos.
+### Introducción a los ejercicios
 
-Las expresiones regulares, por otro lado, son un poderoso lenguaje que nos permite definir patrones complejos de búsqueda dentro de estas cadenas. Es como tener una llave mágica que puede abrir puertas a cualquier texto que cumpla con ciertas características específicas.
-
-La combinación de cadenas y expresiones regulares es como tener un jardín de flores, donde cada flor tiene su propio color y forma. Cada cadena es una flor única, mientras que las expresiones regulares son los jardineros que saben cómo identificar y agrupar estas flores según sus características.
-
-En esta subunidad didáctica, nos adentramos en el fascinante mundo de las cadenas de caracteres y las expresiones regulares. Aprenderemos a crear y manipular cadenas con eficacia, así como a usar expresiones regulares para buscar y extraer información de ellas. Es un viaje lleno de descubrimientos y aplicaciones prácticas.
-
-Comenzaremos por entender los conceptos básicos de las cadenas de caracteres, desde cómo se declaran hasta cómo se manipulan. Aprenderemos sobre diferentes tipos de cadenas y cómo realizar operaciones comunes como concatenación, búsqueda y reemplazo.
-
-Luego, nos sumergiremos en el poderoso mundo de las expresiones regulares. Aprenderemos a definir patrones complejos que pueden coincidir con cualquier texto que cumpla ciertas condiciones. Estudiarémos cómo usar operadores y funciones para crear expresiones regulares versátiles y eficientes.
-
-A lo largo del camino, veremos ejemplos prácticos de cómo aplicar estas técnicas en situaciones reales. Desde la validación de entradas de usuario hasta el procesamiento de datos complejos, aprenderemos a utilizar cadenas y expresiones regulares para resolver problemas con ingenio y eficiencia.
-
-Finalmente, reflexionaremos sobre las mejores prácticas al trabajar con cadenas y expresiones regulares. Aprenderemos cómo optimizar nuestras soluciones, cómo manejar posibles errores y cómo mantener nuestro código limpio y legible.
-
-Este viaje a través del mundo de las cadenas de caracteres y las expresiones regulares nos prepara para enfrentar desafíos más complejos en el campo de la programación. Es una habilidad fundamental que nos permitirá crear aplicaciones robustas, seguras y eficientes.
+Esta carpeta contiene ejercicios en Python centrados en el manejo de cadenas de caracteres y la conversión entre caracteres y sus códigos ASCII. Los estudiantes aprenderán a imprimir, recorrer y manipular cadenas, así como a codificar y decodificar texto mediante una simple técnica de cifrado por desplazamiento. A través de estos ejercicios, se practican habilidades fundamentales de programación, incluyendo bucles, funciones integradas como `len()`, `ord()` y `chr()`, y la creación de clases para encapsular funcionalidades relacionadas con el cifrado y descifrado de texto.
 
 ### cadena
+<small>Creado: 2025-11-27 14:43</small>
+
+#### Explicación
+
+Este código Python muestra una forma simple de trabajar con cadenas de texto. La primera línea, `cadena = "Jose Vicente"`, crea una variable llamada `cadena` y le asigna el valor `"Jose Vicente"`. En este caso, la cadena es un conjunto de caracteres que representan un nombre.
+
+La segunda línea, `print(cadena)`, imprime en pantalla lo que está almacenado en la variable `cadena`. Al ejecutar este código, verás que se muestra "Jose Vicente" en la salida del programa. Esto te permite visualizar fácilmente el contenido de una cadena y es útil para comprobar cómo están los datos durante la ejecución de un programa.
+
+Este ejemplo básico ayuda a entender cómo guardar textos en variables y mostrarlos por pantalla, lo cual es fundamental al trabajar con cualquier tipo de información textual en programación.
+
+`001-cadena.py`
 
 ```python
 cadena = "Jose Vicente"
@@ -8985,6 +12774,19 @@ print(cadena)
 ```
 
 ### imprimo un caracter
+<small>Creado: 2025-11-27 14:44</small>
+
+#### Explicación
+
+Este código Python muestra cómo trabajar con cadenas de texto. En primer lugar, se declara una variable llamada `cadena` que almacena el texto "Jose Vicente". Luego, se imprime esta cadena completa en la pantalla.
+
+Después, se accede a un carácter específico dentro de la cadena usando corchetes (`[]`) y se imprime ese caracter. En este caso, `[0]` significa el primer caracter de la cadena (en programación, los índices generalmente empiezan en 0), por lo que se imprimirá "J".
+
+Finalmente, se utiliza la función `len()` para determinar cuántos caracteres tiene la cadena y luego imprime esa longitud numérica. En este ejemplo, el resultado será el número 12, ya que "Jose Vicente" consta de 12 letras.
+
+Este código es útil para entender cómo acceder a partes individuales de una cadena de texto y cómo obtener información sobre su estructura, como su longitud total.
+
+`002-imprimo un caracter.py`
 
 ```python
 cadena = "Jose Vicente"
@@ -8997,6 +12799,19 @@ print(longitud)
 ```
 
 ### recorrer
+<small>Creado: 2025-11-27 14:44</small>
+
+#### Explicación
+
+Este fragmento de código en Python muestra cómo trabajar con cadenas de caracteres, que son secuencias de texto. Primero, se crea una variable llamada `cadena` y se le asigna el valor "Jose Vicente". Luego, se imprime esta cadena utilizando la función `print()`. 
+
+Después, el programa imprime solo el primer carácter de la cadena usando la notación de índice `[0]`, lo que significa que se accede al caracter en la posición 0, que es 'J' en este caso.
+
+A continuación, se calcula y muestra la longitud de la cadena utilizando la función `len()`. Esto devuelve un número entero que indica cuántos caracteres hay en la cadena, incluyendo espacios. En el ejemplo dado, la longitud será 12 porque cuenta cada letra y el espacio entre nombres.
+
+Finalmente, se utiliza un bucle `for` para recorrer e imprimir cada caracter de la cadena uno por uno. Este tipo de recorrido es útil cuando necesitas realizar alguna operación sobre cada carácter individual en una cadena, como contar vocales o buscar ciertas secuencias de texto.
+
+`003-recorrer.py`
 
 ```python
 cadena = "Jose Vicente"
@@ -9012,6 +12827,15 @@ for letra in cadena:
 ```
 
 ### de cadena a ascii
+<small>Creado: 2025-11-27 14:46</small>
+
+#### Explicación
+
+Este fragmento de código convierte una letra en su valor ASCII correspondiente. La variable `letra` almacena la cadena "a". Luego, se utiliza la función `ord()`, que es una función incorporada en Python para obtener el número entero que representa un carácter Unicode (ASCII para los primeros 128 caracteres). En este caso, `ord(letra)` convierte la letra "a" a su valor ASCII, que es 97. Finalmente, se imprime tanto la letra original como su valor ASCII.
+
+Este código es importante porque muestra cómo acceder a códigos numéricos subyacentes para caracteres específicos, lo cual puede ser útil en situaciones donde necesitas trabajar con representaciones numéricas de letras, por ejemplo, en criptografía básica o manipulación de texto avanzada.
+
+`004-de cadena a ascii.py`
 
 ```python
 letra = "a"
@@ -9020,6 +12844,19 @@ print(letra,ascii)
 ```
 
 ### paso de ascii a caracter
+<small>Creado: 2025-11-27 14:47</small>
+
+#### Explicación
+
+Este fragmento de código te muestra cómo convertir un número ASCII en su equivalente carácter en Python. Primero, se define una variable llamada `ascii` y le asigna el valor numérico 97, que corresponde a la letra 'a' en el conjunto de caracteres ASCII.
+
+Luego, se utiliza la función `chr()`, que toma un número entero (en este caso, el contenido de la variable `ascii`) y devuelve el carácter correspondiente. El resultado es asignado a una nueva variable llamada `letra`.
+
+Finalmente, se imprime en pantalla tanto el valor numérico original (`97`) como el carácter que representa ('a'), lo que demuestra cómo la función `chr()` convierte un número ASCII en su representación de texto.
+
+Este código es importante porque te ayuda a entender cómo los caracteres y sus valores numéricos ASCII están relacionados, lo cual es fundamental para manipulaciones avanzadas con cadenas de texto o códigos más complejos.
+
+`005-paso de ascii a caracter.py`
 
 ```python
 ascii = 97
@@ -9030,6 +12867,13 @@ print(ascii,letra)
 ```
 
 ### codificar
+<small>Creado: 2025-11-27 14:49</small>
+
+#### Explicación
+
+Este código es una pequeña aplicación en Python que toma un texto introducido por el usuario y lo modifica aplicando un cambio sencillo a cada carácter. Primero, pide al usuario que ingrese algún texto y luego recorre cada letra de esa entrada. Para cada letra, convierte la letra a su valor ASCII usando la función `ord()`, le suma 5 unidades para "codificar" el carácter (esto es, cambiar el carácter en algo parecido pero distinto) y después vuelve a convertir este nuevo número de vuelta a una letra con la función `chr()`. Finalmente, junta todas estas nuevas letras en una nueva cadena que muestra por pantalla. Este tipo de operaciones son útiles para aprender cómo manipular caracteres individualmente y entender conceptos básicos como los códigos ASCII, lo cual es fundamental en el manejo de textos en programación.
+
+`006-codificar.py`
 
 ```python
 cadena = input("Introduce algo de texto: ")
@@ -9046,6 +12890,17 @@ print(nuevacadena)
 ```
 
 ### descodificar
+<small>Creado: 2025-11-27 14:50</small>
+
+#### Explicación
+
+Este fragmento de código te ayuda a descodificar un texto que ha sido alterado. En primer lugar, el programa pide al usuario que introduzca cualquier frase o palabra usando la función `input()`. Luego, recorre cada letra de esa entrada con un bucle `for`.
+
+Dentro del bucle, cada letra se convierte en su valor ASCII mediante la función `ord(letra)`, y luego se resta 5 al número obtenido. Esto es como mover cada letra cinco lugares hacia atrás en el alfabeto (considerando los valores numéricos de los caracteres). El resultado se vuelve a convertir en una letra con `chr(ascii)` y se añade a una nueva cadena llamada `nuevacadena`.
+
+Finalmente, después del bucle, la función `print(nuevacadena)` muestra el texto descodificado por pantalla. Este código es útil para entender cómo se pueden manipular cadenas de texto aplicando operaciones simples en sus valores ASCII, lo que permite codificar y descodificar mensajes de manera sencilla.
+
+`007-descodificar.py`
 
 ```python
 cadena = input("Introduce algo de texto: ")
@@ -9062,6 +12917,19 @@ print(nuevacadena)
 ```
 
 ### clase codificar
+<small>Creado: 2025-11-27 14:55</small>
+
+#### Explicación
+
+Este código Python crea una clase llamada `Codificador` que contiene dos métodos: `codifica()` y `descodifica()`. Estos métodos permiten cifrar y descifrar textos mediante un simple desplazamiento en el código ASCII de los caracteres.
+
+En el método `codifica()`, se recorre cada letra de la cadena recibida. Para cada letra, primero se obtiene su valor ASCII usando la función `ord()` (que convierte una letra a su número ASCII). A este número le sumamos 5 para "desplazar" al caracter en el alfabeto o conjunto de caracteres. Luego convertimos ese nuevo número ASCII nuevamente a carácter mediante `chr()`, y añadimos esa nueva letra a la cadena cifrada que estamos construyendo.
+
+El método `descodifica()` hace lo contrario: recorre cada letra de la cadena cifrada, resta 5 al valor ASCII de cada letra y luego vuelve a convertirlo en carácter para formar así una cadena descifrada.
+
+Finalmente, el código crea un objeto `Codificador`, codifica la frase "Jose Vicente" utilizando este objeto, después descodifica lo que se obtuvo anteriormente y muestra tanto la frase original como las versiones cifrada y descifrada. Este tipo de encriptación es una variante simple del Cifrado César y sirve para mostrar cómo manipular caracteres usando sus códigos ASCII.
+
+`008-clase codificar.py`
 
 ```python
 class Codificador():
@@ -9092,30 +12960,72 @@ print(codificado)
 print(descodificado)
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Manipulación Básica de Cadenas
+
+**Descripción:** Los estudiantes deben imprimir una cadena dada e identificar y mostrar el primer carácter de la misma. Aprenderán a utilizar funciones básicas como `len()` para obtener la longitud de una cadena.
+
+### Actividad 2: Recorrido y Visualización Caracter por Caracter
+
+**Descripción:** Se pide que los estudiantes recorran una cadena y muestren cada caracter en una línea separada. Esta actividad les ayudará a entender el uso de bucles `for` con cadenas.
+
+### Actividad 3: Conversión entre ASCII y Carácteres
+
+**Descripción:** Los alumnos deben escribir un programa que convierta caracteres individuales a sus valores ASCII y viceversa, usando las funciones `ord()` y `chr()`. Este ejercicio fortalecerá su comprensión de cómo funcionan los códigos de caracteres en Python.
+
+### Actividad 4: Codificación Simple
+
+**Descripción:** Los estudiantes deben crear un programa que reciba una cadena del usuario e incremente el valor ASCII de cada caracter por 5 para codificarla. Esto les enseñará a combinar la entrada del usuario, bucles y manipulación de caracteres.
+
+### Actividad 5: Descodificación Simple
+
+**Descripción:** Los estudiantes deben escribir un programa que reciba una cadena ya codificada (cada caracter tiene su valor ASCII aumentado en 5) y descifre cada carácter restándole 5. Esto complementará la actividad anterior, proporcionando una comprensión completa del proceso de cifrado y decifrado.
+
+### Actividad 6: Crear una Clase para Codificación
+
+**Descripción:** Los alumnos deben implementar una clase llamada `Codificador` que tenga métodos para codificar y descodificar cadenas. Esta actividad les ayudará a entender cómo utilizar la orientación a objetos en Python para manejar tareas complejas de manera organizada.
+
+### Actividad 7: Pruebas Unitarias para Codificación
+
+**Descripción:** Los estudiantes deben escribir pruebas unitarias que comprueben que tanto el método `codifica` como `descodifica` dentro de la clase `Codificador` funcionan correctamente. Aprenderán a verificar y asegurar la funcionalidad del código.
+
+### Actividad 8: Mejora en Codificación
+
+**Descripción:** Se les pedirá a los estudiantes que mejoren su programa codificando cadenas no solo incrementando el valor ASCII por un número fijo, sino implementando una lógica más compleja para aumentar el valor ASCII de cada carácter. Aprenderán a pensar en soluciones más elaboradas y flexibles.
+
+### Actividad 9: Aplicación Práctica
+
+**Descripción:** Los estudiantes deben diseñar e implementar un pequeño programa que use codificación para ocultar mensajes secretos, mostrando cómo la programación puede ser usada de manera práctica en situaciones cotidianas. Esto les permitirá aplicar todo lo aprendido en un contexto real.
+
+### Actividad 10: Resolución de Problemas
+
+**Descripción:** Los alumnos deben identificar y corregir errores en programas existentes relacionados con la manipulación de cadenas, codificación y decodificación. Aprenderán a depurar código y mejorar sus habilidades analíticas.
+
+Estas actividades están diseñadas para cubrir diversos aspectos del manejo de cadenas en Python, desde conceptos básicos hasta aplicaciones prácticas y soluciones de problemas avanzados.
+
+
 <a id="colecciones-listas-conjuntos-y-diccionarios"></a>
 ## Colecciones Listas, Conjuntos y Diccionarios
 
-En el vasto mundo de la programación, las estructuras de almacenamiento desempeñan un papel fundamental como los pilares que sostienen una construcción. En esta subunidad didáctica, nos adentramos en el fascinante universo de las colecciones, específicamente en las listas, conjuntos y diccionarios, elementos esenciales para organizar y manipular datos de manera eficiente.
+### Introducción a los ejercicios
 
-Las listas son como cajas mágicas que pueden contener cualquier tipo de dato, desde números hasta cadenas de texto. Cada elemento dentro de una lista tiene un índice único, lo que facilita su acceso y modificación. Imagina una lista como una fila de personas en una fila de comidas; puedes agregar o eliminar personas fácilmente, y cada persona tiene un lugar específico.
+En esta carpeta de ejercicios, trabajaremos con diferentes estructuras de datos en Python como listas y diccionarios. Los ejercicios están diseñados para que comprendas las diferencias entre estas colecciones, cómo almacenar e ingresar información de manera eficiente y por qué el uso de diccionarios puede ser más conveniente en ciertas situaciones debido a su flexibilidad en la indexación mediante claves.
 
-Los conjuntos, por otro lado, son colecciones desordenadas de elementos únicos. Es como tener un grupo de amigos donde nadie se repite. Los conjuntos son ideales para operaciones que requieren la eliminación de duplicados o la verificación de la pertenencia a un conjunto específico.
-
-Los diccionarios son estructuras aún más poderosas, ya que asocian claves con valores. Piensa en ellos como una librería donde cada libro tiene un título único y puedes acceder directamente a él sin necesidad de buscarlo por toda la biblioteca. Los diccionarios son excelentes para almacenar información compleja y recuperarla rápidamente.
-
-La comprensión y uso eficiente de estas estructuras es crucial en cualquier proyecto de programación. No solo facilitan el manejo de grandes cantidades de datos, sino que también optimizan el rendimiento al permitir operaciones como la búsqueda, inserción y eliminación de elementos con una eficiencia notable.
-
-Además, las colecciones ofrecen métodos útiles para manipular los datos almacenados. Por ejemplo, puedes ordenar una lista, combinar dos conjuntos o buscar un valor específico en un diccionario. Estos métodos son como herramientas mágicas que transforman tus datos de manera inteligente.
-
-Es importante recordar que cada estructura tiene sus propias ventajas y desventajas dependiendo del contexto en el que se utilice. Por ejemplo, si necesitas mantener la ordenación de los elementos, una lista podría ser la mejor opción. Sin embargo, si solo necesitas verificar la pertenencia a un conjunto sin importar su orden, un conjunto sería más eficiente.
-
-En resumen, las listas, conjuntos y diccionarios son herramientas poderosas en el arsenal del programador. Cada una tiene su propio propósito y es esencial dominarlas para abordar problemas complejos de manera efectiva. Al aprender a utilizar estas estructuras con inteligencia, podemos crear programas más eficientes, escalables y fáciles de mantener.
-
-La comprensión profunda de las colecciones nos abre el camino hacia la creación de aplicaciones sofisticadas que puedan manejar grandes volúmenes de datos con gracia. Es una habilidad fundamental en cualquier campo relacionado con la programación, y su dominio es un paso crucial hacia la maestría del arte digital.
-
-Así, al explorar las listas, conjuntos y diccionarios, nos encontramos con una puerta que nos lleva a un mundo de posibilidades infinitas. Cada estructura es como una llave que abre una caja mágica, permitiéndonos almacenar, recuperar y manipular datos de manera inteligente y eficiente. Y así, en el vasto universo de la programación, continuamos aprendiendo y creciendo con cada paso que damos.
+A través de estos ejemplos, practicarás competencias fundamentales como la creación y manipulación de listas y diccionarios, así como entender cuándo es apropiado utilizar una estructura u otra según las necesidades específicas del problema que estés resolviendo.
 
 ### repaso
+<small>Creado: 2025-11-27 14:57</small>
+
+#### Explicación
+
+Este fragmento de código crea dos estructuras de datos en Python: una lista y una tupla. La lista se llama `lista` y contiene tres elementos: 'platano', 'manzana' y 'fresa'. Lo importante aquí es que las listas son mutables, lo que significa que puedes añadir, eliminar o modificar sus elementos después de haberlas creado.
+
+Por otro lado, la tupla se denomina `tupla` y contiene exactamente los mismos elementos. Sin embargo, en este caso, una vez que has definido la tupla, no puedes cambiar ninguno de sus elementos; es decir, las tuplas son inmutables.
+
+Estas estructuras te permiten organizar datos de manera diferente dependiendo de tus necesidades: si sabes que los datos no van a cambiar, usar una tupla puede ser más eficiente y segura. Si necesitas manipular los datos o añadir elementos después de su creación, entonces deberías optar por utilizar una lista.
+
+`001-repaso.py`
 
 ```python
 lista = ['platano','manzana','fresa'] # mutable
@@ -9124,12 +13034,39 @@ tupla = ('platano','manzana','fresa') # inmutable
 ```
 
 ### agenda
+<small>Creado: 2025-11-27 14:59</small>
+
+#### Explicación
+
+Este fragmento de código crea una lista en Python llamada `contacto` que almacena información sobre un contacto. La lista contiene cuatro elementos:
+
+1. El nombre completo del contacto: "Jose Vicente Carratala Sanchis".
+2. Su apellido o detalles adicionales del nombre: "Carratala Sanchis".
+3. Su dirección de correo electrónico: "info@jocarsa.com".
+4. Un número, que podría representar un teléfono o otra información relevante para el contacto.
+
+Es importante entender que en Python, las listas son estructuras muy flexibles y permiten almacenar diferentes tipos de datos (cadenas de texto, números, etc.) dentro del mismo contenedor. En este caso, la lista `contacto` almacena información diversa relacionada con un contacto personal o profesional.
+
+Esta forma de organizar datos es común en aplicaciones que manejan registros de contactos, como agendas electrónicas.
+
+`002-agenda.py`
 
 ```python
 contacto = ["Jose Vicente","Carratala Sanchis","info@jocarsa.com",47]
 ```
 
 ### el dicionario es mejor
+<small>Creado: 2025-11-27 15:00</small>
+
+#### Explicación
+
+Este fragmento de código muestra cómo puedes almacenar información sobre una persona utilizando dos estructuras diferentes en Python: una lista y un diccionario. En primer lugar, se define una lista llamada `contacto` que contiene cuatro elementos: el nombre, los apellidos, el correo electrónico y la edad de una persona. Cada elemento ocupa una posición específica dentro de la lista.
+
+Luego, se crea un diccionario llamado `contacto_diccionario`, que almacena exactamente la misma información pero de manera más estructurada y fácil de entender. En lugar de usar índices numéricos para acceder a los datos, el diccionario utiliza claves específicas como "nombre", "apellidos", "email" y "edad". Esto hace que sea mucho más claro y directo buscar la información deseada.
+
+Esta diferencia es importante porque mientras que en una lista necesitas recordar qué número de índice corresponde a cada tipo de dato, con un diccionario simplemente usas el nombre del campo para obtener o modificar el valor. Esto no solo mejora la legibilidad del código sino también su mantenibilidad y facilidad de uso en situaciones complejas.
+
+`003-el dicionario es mejor.py`
 
 ```python
 contacto = ["Jose Vicente","Carratala Sanchis","info@jocarsa.com",47]
@@ -9143,6 +13080,17 @@ contacto_diccionario = {
 ```
 
 ### diferencias en el acceso
+<small>Creado: 2025-11-27 15:00</small>
+
+#### Explicación
+
+Este fragmento de código compara cómo se accede a la información en una lista y un diccionario, que son dos estructuras de datos diferentes en Python. Primero, el código define una variable llamada `contacto` que es una lista que contiene información sobre una persona: su nombre completo, apellidos completos, correo electrónico y edad.
+
+Luego, se crea otra variable llamada `contacto_diccionario`, que es un diccionario (también conocido como hash o mapa en otros lenguajes de programación) con la misma información pero organizada de una manera diferente. En el diccionario, cada pieza de información está asociada a una clave específica (como "nombre", "apellidos", etc.), lo que hace más clara y fácil la lectura del código.
+
+Finalmente, se muestra cómo acceder al nombre tanto en la lista como en el diccionario. Para la lista `contacto`, usamos el índice `[0]` para obtener el primer elemento (que es el nombre completo). En cambio, para el diccionario `contacto_diccionario`, accedemos a la clave `'nombre'`. Esta diferencia demuestra cómo los diccionarios permiten una recuperación de datos más directa y legible en comparación con las listas.
+
+`004-diferencias en el acceso.py`
 
 ```python
 contacto = ["Jose Vicente","Carratala Sanchis","info@jocarsa.com",47]
@@ -9158,26 +13106,129 @@ nombre = contacto[0]
 nombre = contacto_diccionario['nombre']
 ```
 
+### Actividades propuestas
+
+### Actividad 1: Introducción a las Listas y Tuplas
+
+**Descripción:** 
+Los estudiantes deben crear una lista de frutas y una tupla con los mismos elementos, mostrando la diferencia entre su mutabilidad e inmutabilidad. Se espera que comprendan cómo añadir o modificar elementos en una lista sin poder hacer lo mismo con una tupla.
+
+### Actividad 2: Registro de Contacto
+
+**Descripción:** 
+Los estudiantes deben diseñar un programa que almacene los datos completos de un contacto (nombre, apellidos, email y edad) en una estructura de tipo lista. El objetivo es familiarizarse con la creación e indexado básico.
+
+### Actividad 3: Conversión a Diccionario
+
+**Descripción:** 
+Los estudiantes deben convertir el registro del contacto almacenado como lista (actividad anterior) en un diccionario, donde las claves serán los campos de datos y los valores los detalles específicos. Esta actividad ayudará a entender la ventaja de acceso directo usando claves.
+
+### Actividad 4: Comparación entre Listas y Diccionarios
+
+**Descripción:** 
+Los estudiantes deben comparar el proceso de buscar un dato específico (como nombre o email) en una lista vs. en un diccionario, analizando cuál es más eficiente para la búsqueda. Se espera que reflexionen sobre las ventajas de usar cada estructura.
+
+### Actividad 5: Manipulación de Diccionarios
+
+**Descripción:** 
+Los estudiantes deben crear y modificar un diccionario con información de contacto, incluyendo funciones para añadir nuevos datos y eliminar campos existentes. Esto les permitirá practicar la gestión dinámica de datos.
+
+### Actividad 6: Integración de Datos en Aplicaciones
+
+**Descripción:** 
+Los estudiantes deben integrar los datos del diccionario (contacto) dentro de una pequeña aplicación que permita consultar y modificar dichos datos. Se centrará en cómo estructurar programas más complejos usando diccionarios.
+
+### Actividad 7: Lista vs. Diccionario para Gestión de Datos
+
+**Descripción:** 
+Los estudiantes deben discutir e implementar un programa que almacene datos similares a los contactos utilizando tanto una lista como un diccionario, comparando la eficiencia y claridad en el código.
+
+### Actividad 8: Diccionarios Anidados
+
+**Descripción:** 
+Los estudiantes deben crear un diccionario anidado para almacenar múltiples registros de contacto (cada uno siendo un sub-diccionario). Esto les permitirá entender la profundidad adicional que se puede dar a las estructuras de datos.
+
+### Actividad 9: Intercambio de Estructuras
+
+**Descripción:** 
+Los estudiantes deben escribir una función que tome una lista de contactos (como en la actividad 2) y transforme esa lista en un diccionario. Luego, deben revertir el proceso para volver a la lista original.
+
+### Actividad 10: Búsqueda Eficiente
+
+**Descripción:** 
+Los estudiantes deben diseñar pruebas que comprueben cuánto tiempo tardan las búsquedas de datos específicos en una lista comparado con un diccionario. Se espera que concluyan sobre la eficiencia del acceso directo en los diccionarios.
+
+
 <a id="operaciones-agregadas-filtrado-reduccion-y-recoleccion"></a>
 ## Operaciones agregadas filtrado, reducción y recolección
 
-En el vasto terreno de la programación, las estructuras de almacenamiento desempeñan un papel fundamental como los pilares que sostienen una construcción. En esta subunidad didáctica, nos adentramos en el fascinante mundo de las operaciones agregadas, filtrado, reducción y recolección, explorando cómo estas técnicas pueden transformar nuestros datos con eficiencia y precisión.
+### Introducción a los ejercicios
 
-La primera de estas técnicas es la **operación agregada**, que permite realizar cálculos sobre un conjunto de datos para obtener un valor único. Imagina una gran pileta de números; las operaciones agregadas son como los luchadores de sumas, multiplicaciones, promedios y conteos que nos permiten reducir esta multitud a un solo número, revelando patrones y tendencias ocultos.
+El conjunto de archivos que proporcionaste representa un diagrama simple con cuatro formas y tres flechas conectando esas formas en diferentes direcciones. Aquí está una descripción detallada de los componentes del diagrama:
 
-El **filtrado** es otro poderoso aliado en este viaje. Este proceso selecciona elementos del conjunto original basándose en ciertas condiciones, como si estuviéramos recogiendo las flores de un jardín que cumplen con determinados criterios. El filtrado nos permite concentrarnos en lo relevante y descartar el resto, simplificando así la información a nuestro alcance.
+### HTML (`diagrama.html`)
+Este archivo contiene el código HTML para renderizar las formas y las conexiones entre ellas como elementos visuales.
 
-La **reducción** es una técnica que lleva aún más lejos la idea del filtrado. No solo selecciona elementos, sino que también combina o reduce estos elementos hasta obtener un único resultado. Es como si estuviéramos juntando cientos de libros en una sola caja, reduciendo así su volumen y facilitando su manejo.
+- **Formas:**
+  - Una forma rectangular con texto "python".
+  - Otra forma rectangular con texto "flask".
+  - Otra forma rectangular con texto "index.html".
+  - Y otra forma rectangular con texto "json(api)".
+  
+- **Flechas:**
+  - Una flecha conecta la forma "flask" con la forma "index.html".
+  - Otra flecha conecta la forma "flask" con la forma "json(api)".
+  - La última flecha conecta la forma "json(api)" con la forma "index.html".
 
-Finalmente, la **recolección** es el proceso inverso a la creación de estructuras de almacenamiento. Nos permite organizar y recuperar los datos que hemos procesado, asegurándonos de que estén disponibles cuando las necesitemos. Es como recoger los juguetes después del juego para poder jugar nuevamente.
+### JSON (`diagrama.json`)
+Este archivo proporciona un formato de datos estructurado que representa las formas y las conexiones entre ellas.
 
-Estas técnicas son esenciales en la programación moderna, ya que nos permiten manejar grandes volúmenes de datos con eficiencia y precisión. Al combinarlas, podemos realizar tareas complejas como análisis de datos, inteligencia artificial y aprendizaje automático, transformando información raw en conocimiento valioso.
+- **Formas:**
+  - Cada objeto en el array `formas` contiene una ID única, tipo, posición (izquierda, arriba), tamaño (ancho, alto) y texto para cada forma.
+  
+- **Flechas:**
+  - Cada objeto en el array `flechas` describe la conexión entre dos formas, especificando la forma de origen y la forma de destino.
 
-En esta subunidad, hemos explorado cómo estas operaciones pueden ser aplicadas en diferentes contextos, desde la manipulación de listas simples hasta el procesamiento de grandes conjuntos de datos. Cada una de ellas es un puente que nos lleva a nuevas posibilidades y descubrimientos, demostrando que con las estructuras de almacenamiento y las operaciones adecuadas, podemos hacer de los datos una herramienta poderosa para resolver problemas complejos.
+### SVG (`diagrama.svg`)
+Este archivo es un documento vectorial que representa visualmente las formas y conexiones del diagrama utilizando elementos `<rect>` para representar los rectángulos y `<path>` para las flechas de conexión.
 
-Así, al adentrarnos en el mundo de las operaciones agregadas, filtrado, reducción y recolección, nos encontramos con un conjunto de habilidades que nos permiten transformar nuestros datos con eficiencia y precisión. Cada una de estas técnicas es un paso importante en nuestro viaje por la programación, demostrando que con el conocimiento adecuado, podemos hacer de los datos una herramienta poderosa para resolver problemas complejos y descubrir patrones ocultos en la información.
+- **Formas:**
+  - Cada elemento `<rect>` define la posición (x, y), tamaño (ancho, alto) y bordes redondeados (`rx` y `ry`) de cada forma.
+  
+- **Flechas:**
+  - Elementos `<path>` conectan las formas mediante líneas con flechas en el extremo final.
+
+### Ejemplos detallados:
+
+1. **Forma de Python en HTML:**
+   ```html
+   <rect class="shape-rect" x="140.07102379432092" y="176.22159517728358" width="119.99997652493984" height="39.99996478740984" rx="4" ry="4" />
+   <text x="200.07101205679083" y="200.2215775709885" text-anchor="middle">python</text>
+   ```
+
+2. **Flecha desde Flask a index.html en SVG:**
+   ```svg
+   <path class="conn" d="M 178.94258260704032 136.10794067382807 L 120.74488218036942 79.9999853280874" marker-end="url(#arrow-end)" />
+   ```
+
+3. **Conexión entre Flask y JSON API en JSON:**
+   ```json
+   {
+     "desde": { "shapeId": "forma-2", "propId": null, "side": null },
+     "hasta": { "shapeId": "forma-4", "propId": null, "side": null }
+   }
+   ```
+
+Este conjunto de archivos proporciona una representación completa y coherente del diagrama en varios formatos, lo que permite su uso en diferentes contextos según sea necesario.
 
 ### lista de frutas
+<small>Creado: 2025-11-27 15:02</small>
+
+#### Explicación
+
+Este código Python crea una lista llamada `frutas` que contiene cuatro elementos: 'manzana', 'pera', 'platano' y otra vez 'manzana'. Luego, el programa imprime esta lista en la pantalla usando la función `print()`. Este ejemplo ilustra cómo crear y mostrar listas en Python, lo cual es fundamental para aprender a manipular colecciones de datos. Es importante notar que las listas en Python pueden contener elementos duplicados, como se ve con 'manzana' apareciendo dos veces.
+
+`001-lista de frutas.py`
 
 ```python
 frutas = ['manzana','pera','platano','manzana']
@@ -9185,6 +13236,13 @@ print(frutas)
 ```
 
 ### conjunto de frutas
+<small>Creado: 2025-11-27 15:04</small>
+
+#### Explicación
+
+Este código te muestra cómo funcionan los conjuntos en Python. Un conjunto es una estructura de datos que almacena elementos únicos, lo que significa que no puedes tener duplicados. En este caso, la variable `frutas` contiene cuatro elementos: 'manzana', 'pera', 'platano' y otra vez 'manzana'. Sin embargo, debido a la característica de los conjuntos de eliminar automáticamente cualquier elemento duplicado, el segundo 'manzana' no se incluirá en el conjunto final. Cuando imprimimos `frutas`, verás que solo aparecen tres elementos: 'pera', 'platano' y 'manzana'. La importancia de esto radica en la necesidad de trabajar con datos únicos sin preocuparse por eliminar duplicados manualmente.
+
+`002-conjunto de frutas.py`
 
 ```python
 # Los conjuntos no tienen orden concreto (no tienen indices)
@@ -9195,6 +13253,19 @@ print(frutas)
 ```
 
 ### conjunto inicial
+<small>Creado: 2025-11-27 15:16</small>
+
+#### Explicación
+
+Este código es un ejemplo simple que demuestra cómo trabajar con conjuntos y listas en Python. Primero, el programa crea una variable llamada `muestra` que contiene un conjunto de números del 1 al 9. Luego, genera una lista llamada `serie`, compuesta por nueve números aleatorios entre 1 y 9.
+
+El siguiente paso es convertir la lista `serie` en un conjunto llamado `filtrado`. Al convertirla a un conjunto, se eliminan cualquier duplicidad de números que puedan haber aparecido al generar los números aleatorios. Finalmente, el programa imprime tanto el conjunto original (`muestra`) como el nuevo conjunto generado (`filtrado`), así como la lista `serie`.
+
+El código termina comprobando si ambos conjuntos, `muestra` y `filtrado`, son iguales en términos de sus elementos, aunque no necesariamente en el orden. Si son iguales, imprime "Es igual", lo que indica que el conjunto generado aleatoriamente contiene exactamente los mismos números que el conjunto original, sin importar el orden o las repeticiones.
+
+Este tipo de operaciones es importante porque te ayuda a entender cómo trabajar con diferentes estructuras de datos en Python y cómo puedes transformar entre ellas para realizar tareas específicas.
+
+`003-conjunto inicial.py`
 
 ```python
 import random
@@ -9218,6 +13289,19 @@ else:
 ```
 
 ### fuerza bruta
+<small>Creado: 2025-11-27 15:17</small>
+
+#### Explicación
+
+Este código Python utiliza un enfoque conocido como "fuerza bruta" para generar una serie de números aleatorios hasta que coincida con un conjunto predefinido. El programa crea inicialmente un conjunto llamado `muestra` que contiene los números del 1 al 9.
+
+Luego, entra en un bucle infinito (`while True`) donde genera una lista llamada `serie`. Esta lista se llena con nueve números aleatorios generados por la función `random.randint(1,9)`, lo que significa que cada número en el rango del 1 al 9 tiene igual probabilidad de ser seleccionado.
+
+Después, convierte la lista `serie` en un conjunto llamado `filtrado`. El objetivo es verificar si este conjunto generado aleatoriamente es igual al conjunto original `muestra`. Si ambos conjuntos son iguales (es decir, contienen exactamente los mismos elementos), el programa imprime "Es igual" y sale del bucle con la instrucción `break`.
+
+Finalmente, después de que se rompe el ciclo, el código muestra por pantalla tanto el conjunto original (`muestra`), el conjunto generado aleatoriamente pero ya filtrado (`filtrado`) como la lista no filtrada (`serie`). Este ejercicio es útil para entender cómo los conjuntos en Python pueden ser utilizados para eliminar duplicados y comparar igualdad entre colecciones de datos.
+
+`004-fuerza bruta.py`
 
 ```python
 import random
@@ -9241,6 +13325,21 @@ print(serie)
 ```
 
 ### repetimos 9 veces
+<small>Creado: 2025-11-27 15:19</small>
+
+#### Explicación
+
+Este código genera una matriz de números que intenta simular los bloques en un tablero de Sudoku. En primer lugar, se importa el módulo `random` para generar números aleatorios y se define un conjunto llamado `muestra` que contiene los números del 1 al 9.
+
+El código luego crea una lista vacía llamada `sudoku`, la cual va a almacenar nueve listas de nueve elementos cada una. Para hacer esto, hay un bucle `for` que itera desde 1 hasta 9 (inclusive), es decir, se ejecutará nueve veces.
+
+Dentro de este bucle principal, hay otro bucle `while True:` que genera números aleatorios del 1 al 9 y los va añadiendo a una lista llamada `serie` hasta completar nueve elementos. Luego, el código convierte la lista en un conjunto para eliminar duplicados y comprueba si este conjunto es igual al conjunto `muestra`. Si lo es (es decir, contiene exactamente los números del 1 al 9 sin repeticiones), se sale del bucle interno con la instrucción `break`.
+
+Una vez que se completa el bloque de código dentro del bucle `while`, la lista `serie` (que ahora debería contener nueve números diferentes entre 1 y 9) es añadida a la lista principal `sudoku`. Este proceso se repite nueve veces, resultando en una matriz de 9x9 que intenta simular los bloques de un Sudoku con números únicos en cada fila.
+
+Finalmente, el código imprime la matriz generada por pantalla. Esta es una forma simple y didáctica para entender cómo generar filas válidas para un tablero de Sudoku, aunque no garantiza que todo el tablero sea válido como un Sudoku completo (por ejemplo, las columnas o bloques 3x3 también deben cumplir ciertas condiciones).
+
+`005-repetimos 9 veces.py`
 
 ```python
 import random
@@ -9263,6 +13362,17 @@ print(sudoku)
 ```
 
 ### lanzo esto con flask
+<small>Creado: 2025-11-27 15:22</small>
+
+#### Explicación
+
+Este fragmento de código crea una aplicación web simple usando Flask, un popular framework para Python. La función principal es generar tableros aleatorios que cumplen con las reglas básicas del Sudoku (cada fila debe contener los números del 1 al 9 sin repetir). 
+
+El programa primero establece la estructura básica de una aplicación web con Flask y define un endpoint llamado "/api" donde se genera un tablero de Sudoku. Para cada bloque del Sudoku, el código intenta generar una lista de nueve números que contienen exactamente los números del 1 al 9 sin repetir ninguno (utilizando un conjunto para verificar esto). Una vez que encuentra tal lista, la agrega a la matriz principal llamada `sudoku`. Finalmente, devuelve esta matriz en formato de cadena.
+
+Este tipo de código es importante porque muestra cómo generar contenido dinámico y aleatorio dentro de una aplicación web, utilizando tanto estructuras de datos como operaciones sobre ellos para cumplir con ciertas condiciones específicas. En este caso, la generación de un Sudoku válido es un ejemplo sencillo pero instructivo de cómo se pueden crear tableros de juego o resolver problemas matemáticos usando Python y frameworks web.
+
+`006-lanzo esto con flask.py`
 
 ```python
 import random
@@ -9293,6 +13403,30 @@ if __name__ == "__main__":
 ```
 
 ### uso plantilla html
+<small>Creado: 2025-11-27 15:24</small>
+
+#### Explicación
+
+Este código es un ejemplo de cómo usar Flask, una biblioteca popular en Python para crear aplicaciones web, y se enfoca en generar tableros de Sudoku. Vamos a desglosarlo:
+
+1. **Importación de módulos**: El código comienza importando `random` (que proporciona funciones relacionadas con generación aleatoria) y `Flask`, `render_template` desde Flask. Flask es una biblioteca que nos ayuda a crear aplicaciones web.
+
+2. **Creación del objeto Flask**: Se crea un objeto llamado `aplicacion` usando la clase Flask, el cual será nuestra aplicación web.
+
+3. **Definición de rutas**: Dos rutas son definidas mediante decoradores:
+   - `/`: Este es el punto de entrada principal de la aplicación. Cuando alguien visita esta URL, llama a la función `raiz()`, que usa `render_template` para mostrar un archivo HTML llamado "index.html".
+   - `/api`: Esta ruta se encarga de generar una matriz 9x9 con números del 1 al 9 (una estructura básica similar a un tablero de Sudoku), usando métodos aleatorios y filtros. Después, devuelve esta matriz en forma de cadena.
+
+4. **Generación de la matriz Sudoku**: Dentro de la función `api()`, se genera una matriz que representa el tablero del juego Sudoku:
+   - Se inicializa un conjunto llamado `muestra` con los números del 1 al 9.
+   - Se crea una lista vacía llamada `sudoku`.
+   - Por cada bloque (de 9 en total), se intenta generar una fila de números del 1 al 9 que no contenga repeticiones. Si la serie generada tiene únicamente números entre 1 y 9 sin repetir ninguno, entonces esa fila se agrega a `sudoku`.
+   
+5. **Ejecución**: La última parte (`if __name__ == "__main__":`) asegura que solo se inicie el servidor Flask cuando este script se ejecuta directamente (no si es importado como un módulo en otro archivo).
+
+Este código combina la generación de números aleatorios y la manipulación de estructuras de datos para crear una aplicación web simple con Flask, lo cual es útil tanto para aprender a trabajar con esta biblioteca como para entender cómo se pueden generar matrizes con restricciones específicas.
+
+`007-uso plantilla html.py`
 
 ```python
 import random
@@ -9326,6 +13460,21 @@ if __name__ == "__main__":
 ```
 
 ### me aseguro de que no se repita
+<small>Creado: 2025-11-27 15:41</small>
+
+#### Explicación
+
+Este código Python crea una aplicación web simple utilizando Flask, un framework popular para desarrollo web en Python. La aplicación genera tableros de Sudoku y los devuelve como respuesta a las solicitudes del usuario.
+
+La función `generar_sudoku()` es la clave de esta implementación. Inicializa un tablero 9x9 con ceros y luego utiliza una técnica llamada "backtracking" para llenarlo con números del 1 al 9 siguiendo las reglas de Sudoku: cada fila, columna y subcuadrante 3x3 deben contener todos los dígitos sin repetirse. La función `es_valido()` verifica si es seguro colocar un número en una celda específica.
+
+El método `resolver()` es una implementación recursiva que intenta llenar el tablero de Sudoku, llamando a sí misma hasta que se completa o determina que no hay solución con los números actuales. Si encuentra una posición donde no puede insertar un número válido, vuelve atrás (backtracking) y prueba otro número.
+
+La aplicación Flask tiene dos rutas definidas: la raíz (`/`) que muestra probablemente una página HTML interactiva para jugar Sudoku, y `/api` que devuelve un tablero de Sudoku generado en formato JSON cuando se solicita. La función `jsonify()` convierte el tablero del Sudoku (una matriz 9x9) a una respuesta HTTP válida con formato JSON.
+
+Esta aplicación es útil como ejercicio práctico tanto para aprender a generar tableros de Sudoku como para explorar cómo crear aplicaciones web simples en Python usando Flask.
+
+`008-me aseguro de que no se repita.py`
 
 ```python
 import random
@@ -9401,6 +13550,23 @@ if __name__ == "__main__":
 ```
 
 ### diagrama
+<small>Creado: 2025-11-27 15:29</small>
+
+#### Explicación
+
+Este archivo HTML crea una representación visual de un diagrama simple usando elementos div con estilos CSS personalizados. El objetivo principal es mostrar la relación entre diferentes componentes, como archivos y servicios, a través de formas geométricas (rectángulos, círculos) y flechas.
+
+En el cuerpo del documento, se encuentran varias etiquetas `<div>` que representan distintos elementos del diagrama. Estas divs tienen clases CSS específicas que determinan su apariencia y comportamiento. Por ejemplo:
+
+- Las formas rectangulares con la clase `shape rectangle` representan archivos o servicios como "python", "flask", "index.html" y "json(api)". Cada una de estas divs tiene estilos adicionales que especifican sus dimensiones, ubicación en el espacio y texto interno.
+
+- Las flechas que conectan estos elementos se crean con la clase `arrow`. Estas divs no tienen un ancho o alto definido; en su lugar, utilizan CSS para dibujar una línea recta (representada por el atributo de fondo) y una punta triangular al final del segmento.
+
+El código CSS proporciona reglas que definen cómo se deben ver estas formas y flechas. Esto incluye propiedades como tamaño, ubicación, color, sombreado y bordes para dar a cada elemento su aspecto distintivo. Las reglas de CSS también permiten crear diferentes tipos de formas (por ejemplo, rectángulos con bordes redondeados o círculos) y flechas que cambian su dirección dependiendo del contexto.
+
+Este tipo de diagrama es útil en contextos educativos para enseñar cómo funcionan los flujos de trabajo y las interacciones entre componentes de un sistema web básico, como la relación entre el archivo de código Python (que podría ser una aplicación Flask), el HTML que este sirve al navegador, y los datos JSON que se pueden recibir o enviar.
+
+`diagrama.html`
 
 ```html
 <!DOCTYPE html>
@@ -9623,6 +13789,19 @@ body {
 ```
 
 ### diagrama
+<small>Creado: 2025-11-27 15:29</small>
+
+#### Explicación
+
+Este fragmento de código es un archivo JSON que contiene información sobre formas y flechas para un diagrama visual. El propósito principal es representar gráficamente la relación entre diferentes componentes en una aplicación web, como Python, Flask, HTML e interfaces JSON.
+
+El objeto JSON tiene dos propiedades principales: `formas` y `flechas`. Bajo `formas`, encontramos cuatro elementos que describen cuadrados (rectángulos) con sus respectivos identificadores (`id`), tipos (`tipo`), posiciones (`left`, `top`) y texto que contienen. Estos elementos representan componentes como Python, Flask, un archivo HTML y una API JSON.
+
+La propiedad `flechas` describe las conexiones entre estas formas a través de objetos que tienen propiedades `desde`, `hasta`, `tipo` y `estilo`. Cada flecha conecta dos formas diferentes, indicando cómo se relacionan los componentes. Por ejemplo, una flecha puede ir desde Flask hasta index.html para representar el flujo de control en una aplicación web básica.
+
+Este tipo de diagramas es importante porque ayuda a visualizar y entender la arquitectura y flujo de datos en aplicaciones web, facilitando así su diseño y comprensión.
+
+`diagrama.json`
 
 ```json
 {
@@ -9712,6 +13891,21 @@ body {
 ```
 
 ### diagrama
+<small>Creado: 2025-11-27 15:29</small>
+
+#### Explicación
+
+Este código es un fragmento de SVG (Scalable Vector Graphics), que se utiliza para crear gráficos vectoriales en el navegador web. En este caso, el archivo está representando una imagen simple con varios rectángulos y líneas con flechas.
+
+Los rectángulos en la imagen representan diferentes elementos o componentes del sistema, como archivos de código (por ejemplo, "python", "flask") y archivos HTML. Cada rectángulo tiene un estilo definido que incluye el color de relleno, el borde y las curvaturas en las esquinas.
+
+Las líneas con flechas representan conexiones o dependencias entre estos componentes. Por ejemplo, una línea podría indicar que "flask" utiliza información del archivo "index.html". Estas líneas tienen marcadores de flecha para mostrar la dirección de la conexión.
+
+Este tipo de diagrama es común en el desarrollo web y la programación orientada a servicios para visualizar cómo diferentes partes de un sistema interactúan entre sí. Es importante porque ayuda a entender las relaciones entre los componentes del código, facilitando así la colaboración y la comprensión del funcionamiento general del programa.
+
+Este archivo SVG podría ser utilizado en una página web como parte de la documentación o para explicar visualmente cómo funciona un sistema web simple basado en Flask.
+
+`diagrama.svg`
 
 ```
 <svg xmlns="http://www.w3.org/2000/svg" width="391.17897620567896" height="256.2215599646934" viewBox="0 0 391.17897620567896 256.2215599646934">
@@ -9750,6 +13944,60 @@ body {
 </svg>
 ```
 
+### Actividades propuestas
+
+Los archivos proporcionados describen una representación visual de un diagrama que muestra la relación entre varios elementos en un sistema web, posiblemente asociado a un proyecto Flask. Vamos a analizar cada uno de los archivos:
+
+1. **diagrama.html**:
+    - Este archivo HTML contiene la representación del diagrama utilizando CSS y etiquetas `<div>`.
+    - Las formas dentro del diagrama son divs con clases que corresponden a diferentes tipos de formas (por ejemplo, rectángulos).
+    - Existen elementos que describen las relaciones entre los componentes del sistema mediante flechas.
+
+2. **diagrama.json**:
+    - Este archivo JSON contiene una estructura para el diagrama.
+    - `formas` es un array donde cada elemento representa una forma (rectángulo, círculo) con propiedades como ID, tipo y posición (left, top).
+    - `flechas` es un array que define las conexiones entre estas formas. Cada flecha tiene un origen (`desde`) y destino (`hasta`). 
+
+3. **diagrama.svg**:
+    - Este archivo SVG representa el diagrama en formato vectorial.
+    - Incluye rectángulos para cada elemento (python, flask, index.html, json(api)).
+    - Existen segmentos de línea que representan las flechas conectando los diferentes elementos.
+
+### Componentes principales del Diagrama
+
+- **Python**: Representado por un rectángulo.
+- **Flask**: Otra forma rectangular indicada como framework web.
+- **index.html**: Un archivo HTML interactivo en el sistema.
+- **json(api)**: Representación de las interfaces de programación de aplicaciones (APIs) que probablemente proporciona datos JSON.
+
+### Conexiones entre los componentes
+
+1. **Flask a index.html**:
+    - Una flecha conecta "flask" con "index.html", sugiriendo una interacción o servicio provisto por Flask para generar contenido HTML.
+    
+2. **Flask a json(api)**:
+    - Otra flecha muestra que "flask" está conectado a un recurso o endpoint JSON, probablemente para proporcionar datos en formato JSON.
+
+3. **json(api) a index.html**:
+    - La última flecha indica una relación entre la interfaz JSON y el archivo HTML, posiblemente mostrando cómo los datos del JSON se utilizan o actualizan partes del contenido de `index.html`.
+
+### Uso del Diagrama
+
+Este diagrama es útil para entender las relaciones y flujos en un sistema basado en Flask. Por ejemplo:
+
+- Un usuario podría interactuar con la página `index.html`.
+- Esta interacción puede generar una solicitud al backend (Flask).
+- El backend (Flask) genera datos JSON que se envían de vuelta a `index.html` para actualizar el contenido o proporcionar más funcionalidades.
+
+### Código en Flask
+
+El código en Python (`app.py`) implementa un servidor web sencillo utilizando Flask. Este servidor tiene dos endpoints:
+1. `/`: Retorna un diccionario simple como respuesta, simbolizando la interacción con `index.html`.
+2. `/api/`: Devuelve otro objeto JSON para simular una API.
+
+En conclusión, este conjunto de archivos proporciona una representación visual y funcional de cómo se estructura y opera un sistema web básico basado en Flask, incluyendo el manejo de HTML y JSON.
+
+
 
 <a id="utilizacion-avanzada-de-clases"></a>
 # Utilización avanzada de clases
@@ -9757,139 +14005,30 @@ body {
 <a id="composicion-de-clases"></a>
 ## Composición de clases
 
-La composición de clases es una técnica poderosa que permite modelar relaciones complejas entre objetos, creando estructuras más ricas y realistas. En este submódulo, profundizaremos en cómo esta práctica puede ser aplicada para mejorar la modularidad y el reutilización del código.
-
-Comenzamos por entender qué es la composición de clases. Esta relación se caracteriza por un objeto que contiene otros objetos como partes de sí mismo. Por ejemplo, podríamos tener una clase `Coche` que compone varios objetos internos como `Motor`, `Ruedas`, `Chofer` y `Pasajeros`. Cada uno de estos componentes es una instancia de otra clase, y juntos forman un objeto más complejo.
-
-La composición nos permite crear jerarquías de clases más elaboradas. Por ejemplo, podríamos tener una clase `Empresa` que compone varias clases internas como `Departamento`, `Equipo`, `Proyecto` y `Colaborador`. Cada uno de estos componentes puede a su vez contener otros objetos, creando una estructura anidada y detallada.
-
-La composición también nos permite implementar la responsabilidad única. En lugar de que un objeto haga todo el trabajo por sí mismo, lo delegamos a sus componentes internos. Esto hace que nuestro código sea más limpio, más fácil de mantener y más fácil de probar.
-
-Además, la composición nos permite crear objetos más flexibles y adaptados a las necesidades cambiantes. Si necesitamos cambiar el comportamiento de un componente interno, podemos hacerlo sin afectar el objeto que lo contiene. Esto es especialmente útil en aplicaciones empresariales donde los requisitos pueden variar rápidamente.
-
-La composición también nos permite implementar la inyección de dependencias. En lugar de crear objetos internos dentro del constructor de un objeto, podemos inyectarlos desde fuera. Esto hace que nuestro código sea más testable y más fácil de mantener.
-
-En resumen, la composición de clases es una técnica poderosa que nos permite modelar relaciones complejas entre objetos, creando estructuras más ricas y realistas. Permite implementar la responsabilidad única, crear objetos más flexibles y adaptados a las necesidades cambiantes, e implementar la inyección de dependencias. Es una práctica fundamental en el diseño de software orientado a objetos y es esencial para crear aplicaciones empresariales robustas y escalables.
 
 <a id="herencia-y-polimorfismo"></a>
 ## Herencia y polimorfismo
 
-La herencia y el polimorfismo son pilares fundamentales de la programación orientada a objetos (POO), ofreciendo soluciones elegantes para organizar y reutilizar código. En esta subunidad didáctica, nos adentramos en estos conceptos con profundidad, explorando cómo permiten crear jerarquías de clases y cómo facilitan el desarrollo de aplicaciones más complejas.
-
-La herencia es un principio que permite a una clase derivada (o subclase) heredar atributos y métodos de una clase base (o superclase). Esta relación natural entre clases, similar a la existente en la vida real, nos permite crear estructuras de datos más sofisticadas. Por ejemplo, si tenemos una clase `Animal` con propiedades comunes como `nombre` y `edad`, podemos derivar clases específicas como `Perro` y `Gato`, que heredan estas características pero también pueden añadir propiedades únicas.
-
-El polimorfismo, por otro lado, se refiere a la capacidad de un objeto para responder a una misma llamada en diferentes formas. En el contexto de la POO, esto significa que podemos usar objetos de clases derivadas donde se espera un objeto de una clase base, siempre y cuando las clases derivadas implementen los métodos necesarios. Este concepto es crucial para crear código flexible y escalable, ya que nos permite tratar diferentes tipos de objetos de manera uniforme.
-
-En esta subunidad, exploraremos cómo definir clases base y derivadas, cómo utilizar el operador `extends` para establecer relaciones de herencia, y cómo sobrescribir métodos en las clases derivadas. También aprenderemos sobre la visibilidad de los miembros de una clase (públicos, privados, protegidos) y cómo manejar la herencia múltiple, aunque con ciertas limitaciones.
-
-Además, profundizaremos en el polimorfismo, aprendiendo a utilizar interfaces para definir contratos comunes entre clases, así como a implementar métodos abstractos en las clases base. También exploraremos cómo usar el operador `instanceof` para verificar la instancia de un objeto y cómo aplicar el polimorfismo en situaciones prácticas.
-
-A lo largo de esta subunidad, trabajaremos con ejemplos prácticos que demuestran cómo aplicar la herencia y el polimorfismo en diferentes escenarios. Estos ejemplos nos ayudarán a entender cómo estos conceptos pueden ser utilizados para crear código más limpio, modular y fácil de mantener.
-
-Finalmente, reflexionaremos sobre las ventajas y desventajas de utilizar la herencia y el polimorfismo en nuestro código. Aprenderemos cómo identificar situaciones en las que estos principios son especialmente útiles y cómo evitar abusar de ellos para mantener un diseño limpio y coherente.
-
-En resumen, esta subunidad didáctica es una exploración profunda de la herencia y el polimorfismo en la programación orientada a objetos. A través de conceptos teóricos, ejemplos prácticos y reflexiones sobre su aplicación, nos prepararemos para abordar problemas más complejos y desarrollar aplicaciones más robustas y escalables.
 
 <a id="jerarquia-de-clases-superclases-y-subclases"></a>
 ## Jerarquía de clases Superclases y subclases
 
-La jerarquía de clases es un concepto fundamental en la programación orientada a objetos (POO), que permite organizar y reutilizar el código de manera eficiente. En esta subunidad, exploraremos cómo definir superclases y subclases, así como cómo utilizarlas para crear una estructura lógica y coherente en nuestros programas.
-
-En primer lugar, es importante entender qué son las superclases y las subclases. Una superclase, también conocida como clase base o clase padre, es aquella que define un conjunto de atributos y métodos comunes para varias clases relacionadas. Por otro lado, una subclase, también llamada clase derivada o clase hija, hereda los atributos y métodos de la superclase y puede añadir nuevos o modificar los existentes.
-
-La creación de una jerarquía de clases empieza con la definición de la superclase. Esta clase actúa como un molde que proporciona las características básicas que serán compartidas por todas las subclases. Por ejemplo, si estamos desarrollando un sistema para gestionar diferentes tipos de vehículos, podríamos crear una superclase llamada "Vehículo" con atributos como marca, modelo y año de fabricación.
-
-Una vez definida la superclase, podemos crear subclases que hereden sus características. Por ejemplo, podríamos crear una subclase llamada "Coche" que herede de "Vehículo". La clase "Coche" podría añadir atributos específicos como número de puertas y color, o incluso sobrescribir métodos de la superclase para adaptarlos a las necesidades particulares del coche.
-
-La jerarquía de clases no se limita a una sola nivel. Es posible tener subclases que hereden de otras subclases, creando así una estructura jerárquica. Por ejemplo, si tenemos una superclase "Automóvil" y dos subclases "Coche" y "Motocicleta", podríamos crear una subclase adicional llamada "SUV" que herede de "Coche". De esta manera, la clase "SUV" tendría todos los atributos y métodos de la superclase "Coche", además de los específicos de un SUV.
-
-La utilización de jerarquías de clases ofrece varias ventajas. En primer lugar, permite una mayor reutilización del código, ya que las subclases pueden heredar los atributos y métodos comunes definidos en la superclase. Esto reduce la redundancia y facilita el mantenimiento del código.
-
-Además, la jerarquía de clases mejora la organización lógica del programa. Al agrupar clases relacionadas bajo una superclase común, se facilita su comprensión y uso. Las subclases pueden ser vistas como extensiones o variaciones de la superclase, lo que hace que el código sea más intuitivo y fácil de navegar.
-
-La herencia también permite la sobrescritura de métodos en las subclases. Esto significa que una subclase puede modificar el comportamiento de un método definido en su superclase para adaptarlo a sus necesidades específicas. Por ejemplo, si tenemos un método "arrancar" en la superclase "Vehículo", podemos sobrescribirlo en la subclase "Coche" para añadir funcionalidades adicionales como encender el aire acondicionado.
-
-La utilización de jerarquías de clases también facilita la implementación de polimorfismo. El polimorfismo es un concepto que permite tratar objetos de diferentes clases de manera uniforme, siempre y cuando compartan una interfaz común definida en su superclase. Esto significa que podemos escribir código que funcione con cualquier objeto que herede de la superclase, independientemente del tipo específico de subclase.
-
-En resumen, la jerarquía de clases es un poderoso mecanismo en la programación orientada a objetos que permite organizar y reutilizar el código de manera eficiente. Al definir superclases y subclases, podemos crear una estructura lógica y coherente que facilita la comprensión y uso del programa. La utilización de jerarquías de clases ofrece ventajas como la reutilización del código, la organización lógica del programa y el soporte para el polimorfismo, lo que hace que nuestro código sea más robusto, escalable y fácil de mantener.
 
 <a id="clases-y-metodos-abstractos-y-finales"></a>
 ## Clases y métodos abstractos y finales
 
-En la subunidad "Clases y métodos abstractos y finales", nos adentramos en conceptos avanzados de programación orientada a objetos que son fundamentales para el diseño robusto y escalable de aplicaciones. Comenzamos por entender los métodos abstractos, que son declaraciones de métodos sin implementación en la clase abstracta. Estos métodos deben ser implementados por cualquier subclase concreta, lo que asegura una interfaz común mientras permite la diversidad en las implementaciones específicas.
-
-Continuando, exploramos los métodos finales, que son métodos declarados como finales dentro de una clase y no pueden ser sobrescritos por ninguna subclase. Esta característica es útil para proteger el comportamiento predefinido de un método, garantizando que ciertos aspectos del diseño sean inmutables y consistentes a lo largo de la jerarquía de clases.
-
-La combinación de métodos abstractos y finales permite crear una estructura de clases donde se definen las interfaces necesarias para el comportamiento esperado, mientras se protegen ciertas implementaciones específicas. Este enfoque es especialmente útil en patrones de diseño como los Singleton o los Factory Methods, donde se requiere un control preciso sobre la creación y modificación de objetos.
-
-Además, aprendemos que las clases abstractas pueden contener tanto métodos abstractos como finales, lo que permite una flexibilidad completa en el diseño. Las clases abstractas actúan como plantillas para sus subclases, proporcionando un esqueleto común mientras permiten la personalización necesaria.
-
-Es importante destacar que los métodos abstractos y finales trabajan juntos para crear una jerarquía de clases coherente y segura. Los métodos abstractos aseguran que ciertos comportamientos sean implementados, mientras que los métodos finales protegen esos comportamientos contra modificaciones no deseadas.
-
-En el contexto práctico, estos conceptos se aplican en la creación de frameworks y bibliotecas donde se requiere una estructura definida pero con la posibilidad de extensión. Por ejemplo, un framework puede proporcionar métodos abstractos para operaciones esenciales mientras permite a los desarrolladores sobrescribir solo las partes específicas que necesitan ser personalizadas.
-
-Finalmente, reflexionamos sobre cómo estos conceptos pueden facilitar el mantenimiento y la evolución de software. Al definir interfaces claras con métodos abstractos y proteger comportamientos críticos con métodos finales, se reduce la complejidad del código y aumenta su resistencia a cambios.
-
-En resumen, "Clases y métodos abstractos y finales" es una subunidad crucial en el aprendizaje de la programación orientada a objetos. A través de estos conceptos avanzados, los desarrolladores pueden crear sistemas más robustos, seguros y fácilmente mantenibles, lo que es fundamental para el éxito del desarrollo de software moderno.
 
 <a id="interfaces"></a>
 ## Interfaces
 
-Las interfaces en programación son una herramienta poderosa que permite definir un contrato común entre diferentes clases o componentes de software. En esta subunidad didáctica, exploraremos cómo las interfaces funcionan, cuándo deberíamos utilizarlas y cómo implementarlas de manera efectiva.
-
-La primera parte del contenido se centra en la comprensión básica de qué es una interfaz. Se explica que una interfaz define un conjunto de métodos y propiedades que deben ser implementados por cualquier clase que quiera adoptar ese contrato. Esta definición abstracta permite a diferentes clases compartir comportamientos comunes sin necesidad de conocer su estructura interna.
-
-A continuación, se aborda la importancia práctica de las interfaces en el diseño de software. Se destaca cómo permiten una mayor flexibilidad y reutilización del código, ya que cualquier clase puede implementar varias interfaces, lo que facilita la creación de sistemas modulares y escalables.
-
-El contenido también incluye explicaciones sobre cómo declarar e implementar interfaces en diferentes lenguajes de programación. Se proporcionan ejemplos prácticos para mostrar cómo se pueden definir métodos abstractos y cómo las clases concretas deben proporcionar la implementación de estos métodos.
-
-Además, se discute el concepto de polimorfismo a través de interfaces. Se explica que una interfaz puede ser utilizada como tipo de dato, lo que permite tratar diferentes objetos de manera uniforme en función del contrato definido por la interfaz, independientemente de su clase concreta.
-
-El texto también aborda el uso de interfaces para crear sistemas decoupled (desacoplados), lo que facilita la mantenibilidad y la evolución del código. Se explican cómo las interfaces actúan como una barrera entre diferentes partes del sistema, reduciendo así la dependencia directa entre ellas.
-
-Se proporcionan ejemplos de aplicaciones prácticas donde el uso de interfaces ha sido beneficioso, como en sistemas de plugins o en arquitecturas basadas en eventos. Se destaca cómo las interfaces permiten una mayor extensibilidad y personalización del software sin modificar su código base.
-
-El contenido también incluye explicaciones sobre cómo manejar la implementación de interfaces en proyectos de equipo. Se discute el uso de herramientas como las interfaces gráficas para diseñar contratos de interfaz, así como prácticas recomendadas para la documentación y la revisión del código que implementa estas interfaces.
-
-Finalmente, se aborda el tema de la evolución de interfaces a lo largo del tiempo. Se explica cómo las interfaces pueden ser modificadas o actualizadas sin afectar los componentes que las utilizan, siempre y cuando sigan cumpliendo con su contrato original.
-
-En resumen, esta subunidad didáctica proporciona una visión completa y práctica de las interfaces en programación, desde su definición básica hasta sus aplicaciones en proyectos reales. Se enfoca en la comprensión profunda de cómo funcionan las interfaces y cómo pueden ser utilizadas para mejorar la estructura y el mantenimiento del código.
 
 <a id="sobreescritura-de-metodos"></a>
 ## Sobreescritura de métodos
 
-La sobreescritura de métodos es una técnica fundamental en la programación orientada a objetos que permite redefinir el comportamiento de un método heredado en una subclase. Este proceso es esencial para mantener la cohesión del diseño, permitiendo adaptar las funcionalidades específicas de cada clase sin alterar su estructura básica.
-
-En el contexto de la programación orientada a objetos, cada objeto pertenece a una clase, que define sus atributos y métodos. Cuando una subclase hereda de una superclase, puede optar por redefinir los métodos de la superclase para adaptarlos a sus necesidades específicas. Esta práctica es conocida como sobreescritura o polimorfismo.
-
-La sobreescritura se realiza mediante el uso del mismo nombre y firma (parámetros) que el método en la superclase, pero con un comportamiento diferente. Al llamar al método desde una instancia de la subclase, se ejecuta el método redefinido en lugar del original de la superclase.
-
-Este mecanismo es poderoso porque permite mantener la jerarquía de clases y la cohesión del diseño, mientras que proporciona flexibilidad para adaptar las funcionalidades específicas de cada subclase. La sobreescritura es una herramienta fundamental en la programación orientada a objetos, permitiendo crear sistemas más modulares y escalables.
-
-La sobreescritura también facilita la extensión del comportamiento de los métodos heredados. Al redefinir un método, se puede añadir nueva funcionalidad sin modificar el código original de la superclase. Esto es especialmente útil cuando se desea personalizar el comportamiento de una clase sin alterar su estructura básica.
-
-Además, la sobreescritura permite la creación de métodos virtuales o abstractos en las superclases. Los métodos virtuales son aquellos que pueden ser redefinidos en subclases, mientras que los métodos abstractos no tienen implementación y deben ser redefinidos por todas las subclases. La sobreescritura es esencial para el correcto funcionamiento de estos métodos.
-
-La sobreescritura también facilita la creación de interfaces gráficas y aplicaciones interactivas. Al redefinir métodos como `paint` o `actionPerformed`, se puede personalizar el comportamiento de componentes visuales, permitiendo crear interfaces más atractivas y funcionales.
-
-En resumen, la sobreescritura es una técnica fundamental en la programación orientada a objetos que permite adaptar el comportamiento de los métodos heredados en subclases. Este mecanismo es esencial para mantener la cohesión del diseño, proporcionar flexibilidad y facilitar la extensión del comportamiento de las clases. La sobreescritura es una herramienta poderosa que permite crear sistemas más modulares, escalables y personalizables.
 
 <a id="constructores-y-herencia"></a>
 ## Constructores y herencia
 
-En el vasto terreno de la programación orientada a objetos, los constructores y la herencia son pilares fundamentales que permiten crear estructuras de datos complejas y reutilizables. Los constructores son métodos especiales que se ejecutan automáticamente cuando se crea un objeto, inicializando sus atributos en valores específicos o predeterminados. Esta fase es crucial para establecer el estado inicial del objeto, asegurando que esté listo para interactuar con el resto de la aplicación.
-
-La herencia, por otro lado, es una característica poderosa que permite a las clases derivar propiedades y comportamientos de otras clases existentes. Al crear una clase hija, se puede aprovechar todo lo definido en la clase padre, extendiéndolo o modificándolo según sea necesario para adaptarse a nuevas necesidades. Esta práctica promueve la reutilización del código y facilita el mantenimiento al permitir cambios en un solo lugar.
-
-La combinación de constructores y herencia permite crear jerarquías de clases que son más organizadas y fácilmente manejables. Cada nivel de la jerarquía puede añadir o modificar comportamientos específicos, mientras que los atributos y métodos comunes se mantienen en las clases superiores. Esta estructura facilita el diseño de sistemas complejos, donde diferentes partes pueden interactuar de manera coherente y eficiente.
-
-El uso de constructores y herencia también implica la consideración de la encapsulación, una práctica que oculta los detalles internos de un objeto y expone solo lo necesario. Esto no solo protege el estado del objeto sino que también facilita su modificación y evolución en el futuro sin afectar a las partes que lo utilizan.
-
-En la práctica, la creación de constructores y la implementación de herencia requieren una comprensión profunda de los conceptos básicos de programación orientada a objetos. Es importante entender cómo funcionan los métodos, cómo se manejan los tipos de datos y cómo se establecen las relaciones entre diferentes clases.
-
-La utilización avanzada de constructores y herencia permite desarrollar aplicaciones más robustas y escalables. Al permitir la creación de clases genéricas que pueden adaptarse a múltiples contextos, estas características facilitan el desarrollo de software modular y reutilizable.
-
-En resumen, los constructores y la herencia son herramientas esenciales en la programación orientada a objetos, proporcionando estructuras sólidas para organizar y gestionar el código. Su comprensión y uso adecuado son fundamentales para crear aplicaciones eficientes y mantenibles que puedan adaptarse a las necesidades cambiantes del usuario.
 
 
 <a id="mantenimiento-de-la-persistencia-de-los-objetos"></a>
@@ -9898,213 +14037,38 @@ En resumen, los constructores y la herencia son herramientas esenciales en la pr
 <a id="bases-de-datos-orientadas-a-objetos"></a>
 ## Bases de datos orientadas a objetos
 
-En el vasto universo de la programación, una rama llamada "Mantenimiento de la persistencia de los objetos" destaca como un pilar fundamental. Esta sección explora cómo almacenar y recuperar datos en sistemas orientados a objetos, abordando conceptos cruciales que son esenciales para el desarrollo robusto y eficiente de aplicaciones.
-
-La base de esta rama es la comprensión de las bases de datos orientadas a objetos (ODBs), sistemas que almacenan y gestionan los datos como objetos en lugar de registros. Este enfoque ofrece una representación natural de los datos dentro del contexto de un programa, facilitando su manipulación y acceso.
-
-El primer paso hacia el mantenimiento de la persistencia de los objetos es entender cómo instalar y configurar un gestor de bases de datos orientadas a objetos. Esto implica familiarizarse con las herramientas disponibles y realizar una instalación segura y eficiente, asegurando que todos los requisitos técnicos sean cumplidos.
-
-Una vez establecida la conexión con el gestor de base de datos, se procede a la creación de bases de datos. Este proceso requiere un diseño cuidadoso para garantizar la integridad y consistencia de los datos. La definición de tablas y relaciones adecuadas es crucial para optimizar el rendimiento y facilitar las consultas posteriores.
-
-El mantenimiento de la persistencia de los objetos implica no solo la creación inicial, sino también la gestión continua de la información almacenada. Esto incluye la inserción de nuevos datos, la modificación existente y la eliminación de registros obsoletos o redundantes. Cada operación debe ser realizada con cuidado para mantener la coherencia de los datos.
-
-La consulta de datos es otro aspecto fundamental del mantenimiento de la persistencia de los objetos. Los sistemas orientados a objetos proporcionan mecanismos eficientes para realizar búsquedas y recuperar información específica, lo que es esencial para el funcionamiento correcto de aplicaciones complejas.
-
-Además de las operaciones básicas, el mantenimiento de la persistencia de los objetos implica la gestión de transacciones. Las transacciones son conjuntos de operaciones que deben ser ejecutadas como una unidad, asegurando que todas las modificaciones sean consistentes y completas o ninguna se aplique en caso de error.
-
-El manejo de excepciones es otro aspecto crucial del mantenimiento de la persistencia de los objetos. Las bases de datos orientadas a objetos suelen presentar situaciones inesperadas durante el proceso de almacenamiento y recuperación de datos, por lo que es necesario implementar mecanismos robustos para capturar y manejar estas excepciones.
-
-La optimización del rendimiento también es un aspecto importante en la persistencia de los objetos. Esto implica no solo mejorar la velocidad de acceso a los datos, sino también reducir el uso de recursos como memoria y espacio en disco.
-
-Finalmente, el mantenimiento de la persistencia de los objetos debe incluir la documentación adecuada. La creación de documentación detallada sobre las estructuras de datos, las operaciones disponibles y los procedimientos recomendados es crucial para que otros desarrolladores puedan entender y trabajar con el sistema de manera eficiente.
-
-En resumen, la persistencia de los objetos en sistemas orientados a objetos es un proceso complejo pero fundamental. Desde la instalación y configuración del gestor de base de datos hasta la optimización del rendimiento y la documentación, cada paso requiere una comprensión profunda y una atención meticulosa para garantizar el éxito del proyecto.
 
 <a id="caracteristicas-de-las-bases-de-datos-orientadas-a-objetos"></a>
 ## Características de las bases de datos orientadas a objetos
 
-La programación orientada a objetos (OOP) es una filosofía de diseño que busca representar los conceptos del mundo real mediante clases y objetos. En este contexto, el mantenimiento de la persistencia de los objetos es un aspecto crucial que permite almacenar y recuperar información de manera eficiente y segura.
-
-Las bases de datos orientadas a objetos (ODB) son sistemas que almacenan y gestionan datos en forma de objetos, lo que facilita su acceso y manipulación. Estas bases de datos ofrecen una visión natural del mundo real, donde los datos se organizan en entidades relacionadas entre sí.
-
-La característica más destacada de las ODB es su capacidad para almacenar directamente objetos como estructuras de datos complejas, sin necesidad de convertirlos a un formato plano. Esto permite una representación más precisa y natural de la realidad en el sistema de gestión de información.
-
-Además, las ODB ofrecen funcionalidades avanzadas que facilitan el acceso y manipulación de los datos. Por ejemplo, permiten realizar consultas complejas sobre los objetos almacenados, lo que es especialmente útil para aplicaciones empresariales donde se requiere un análisis detallado de la información.
-
-El mantenimiento de la persistencia en ODB implica la creación, actualización y eliminación de objetos en el sistema. Esta operación debe ser segura y eficiente, asegurando que los datos estén siempre disponibles y consistentes.
-
-Las ODB también ofrecen mecanismos para gestionar las relaciones entre los objetos, lo que facilita la integración de diferentes partes del sistema. Por ejemplo, se pueden establecer relaciones entre clientes y pedidos, permitiendo una fácil consulta de todos los pedidos realizados por un cliente específico.
-
-En resumen, el mantenimiento de la persistencia de los objetos en bases de datos orientadas a objetos es un aspecto fundamental que permite representar y gestionar información de manera natural y eficiente. Esta característica hace que las ODB sean una herramienta poderosa para aplicaciones empresariales y otras que requieren un alto nivel de integridad y accesibilidad de los datos.
 
 <a id="instalacion-del-gestor-de-bases-de-datos"></a>
 ## Instalación del gestor de bases de datos
 
-La instalación del gestor de bases de datos es un paso crucial en el desarrollo de aplicaciones que requieren almacenamiento persistente de información. Este proceso implica la configuración adecuada del software necesario para gestionar los datos de manera eficiente y segura, permitiendo a las aplicaciones acceder, modificar y recuperar información de forma rápida y precisa.
-
-El primer paso en esta instalación es seleccionar el gestor de bases de datos que mejor se adapte a las necesidades específicas del proyecto. Algunos de los más populares incluyen MySQL, PostgreSQL, Oracle Database y Microsoft SQL Server. Cada uno tiene sus propias características y ventajas, por lo que es importante realizar una evaluación cuidadosa para elegir el más adecuado.
-
-Una vez seleccionado el gestor de bases de datos, se procede a la instalación del software. Este proceso puede variar dependiendo del sistema operativo utilizado, pero generalmente implica descargar el instalador desde el sitio web oficial del gestor de bases de datos y seguir las instrucciones paso a paso proporcionadas por el mismo.
-
-Durante la instalación, es crucial configurar correctamente los parámetros iniciales. Esto incluye establecer el nombre del servidor, la contraseña del administrador (root), y otros detalles específicos del sistema operativo. Además, se debe decidir si se desea instalar el gestor de bases de datos en modo seguro o no.
-
-La instalación también puede implicar la configuración de opciones adicionales como el tamaño inicial de los archivos de datos, la configuración de seguridad avanzada y la selección de características específicas del software. Es importante realizar esta configuración con cuidado para evitar problemas posteriores.
-
-Una vez completada la instalación, es necesario verificar que todo esté funcionando correctamente. Esto implica iniciar el servicio del gestor de bases de datos y comprobar que se puede acceder a él desde el sistema operativo. Además, se debe realizar una prueba básica para asegurarse de que los datos pueden ser insertados, recuperados y modificados sin problemas.
-
-La instalación del gestor de bases de datos es un proceso fundamental en la creación de aplicaciones que requieren almacenamiento persistente de información. Aunque puede parecer complejo al principio, con una buena comprensión de los pasos involucrados y el uso de herramientas adecuadas, este proceso se vuelve relativamente sencillo y eficiente.
-
-Es importante recordar que la instalación del gestor de bases de datos es solo el primer paso en el proceso de gestión de información. A lo largo del ciclo de vida de una aplicación, será necesario realizar actualizaciones periódicas, optimizar el rendimiento y asegurar la seguridad de los datos almacenados.
-
-En conclusión, la instalación del gestor de bases de datos es un proceso crucial pero fundamental en el desarrollo de aplicaciones que requieren almacenamiento persistente. Con una buena comprensión de los pasos involucrados y el uso de herramientas adecuadas, este proceso se vuelve relativamente sencillo y eficiente.
 
 <a id="creacion-de-bases-de-datos"></a>
 ## Creación de bases de datos
 
-La creación de bases de datos es una etapa fundamental en el desarrollo de aplicaciones informáticas, ya que proporciona la estructura necesaria para almacenar, recuperar y gestionar los datos de manera eficiente. En esta subunidad didáctica, nos adentramos en los aspectos técnicos y prácticos de este proceso.
-
-Comenzamos por entender las bases del concepto de base de datos. Una base de datos es una colección organizada de datos que se almacenan en un sistema informático para su acceso y gestión. Su principal objetivo es facilitar el almacenamiento, recuperación y manipulación de información de manera estructurada y eficiente.
-
-Continuamos con la exploración de las herramientas y tecnologías utilizadas para crear bases de datos. En este contexto, destacan los gestores de bases de datos (DBMS), que son programas especializados en la creación, gestión y operación de las bases de datos. Algunos ejemplos populares incluyen MySQL, PostgreSQL y Microsoft SQL Server.
-
-A medida que avanzamos, nos familiarizamos con el proceso de diseño de una base de datos. Este proceso implica definir la estructura de los datos a almacenar, determinar las relaciones entre ellos y seleccionar los tipos de datos adecuados para cada campo. El objetivo es crear un modelo de datos que sea funcional, eficiente y fácil de mantener.
-
-El siguiente paso en el proceso de creación de bases de datos es la implementación del diseño. Esto implica la creación de las tablas físicas en el sistema de gestión de base de datos, definiendo las columnas, tipos de datos y restricciones necesarias para almacenar los datos de manera correcta.
-
-Una vez creada la estructura física de la base de datos, es crucial definir las relaciones entre las tablas. Las relaciones permiten establecer conexiones entre diferentes conjuntos de datos, facilitando la recuperación de información relacionada y la creación de consultas complejas.
-
-La optimización de una base de datos es otro aspecto importante a considerar en el proceso de su creación. Esto implica la selección de índices adecuados para mejorar el rendimiento de las consultas, así como la implementación de estrategias de almacenamiento y recuperación eficientes.
-
-El diseño y creación de bases de datos también implican la consideración de aspectos de seguridad. Es fundamental establecer políticas de acceso controladas para proteger los datos sensibles y evitar accesos no autorizados.
-
-Finalmente, en esta subunidad didáctica, exploramos técnicas avanzadas para la creación de bases de datos. Estas pueden incluir el uso de lenguajes de definición de datos (DDL) para crear esquemas complejos, la implementación de transacciones para garantizar la integridad de los datos y la utilización de herramientas de gestión de base de datos para facilitar el proceso.
-
-En resumen, la creación de bases de datos es un proceso integral en el desarrollo de aplicaciones informáticas. A través de este proceso, podemos organizar y gestionar eficientemente grandes volúmenes de información, lo que permite a las empresas tomar decisiones basadas en datos precisos y actualizados. Este conocimiento es fundamental para cualquier profesional del campo de la programación y gestión de sistemas informáticos.
 
 <a id="mecanismos-de-consulta"></a>
 ## Mecanismos de consulta
 
-En el mundo digital de la programación, mantener la persistencia de los objetos es una tarea fundamental que permite a las aplicaciones almacenar y recuperar información con eficiencia. Este proceso implica la creación y gestión de mecanismos que permitan la manipulación de datos en un entorno persistente, como bases de datos o sistemas de archivos.
-
-La carpeta `005-Mecanismos de consulta` del curso de programación se centra específicamente en cómo realizar estas operaciones. Aquí, los estudiantes aprenderán a formular y ejecutar consultas que permitan recuperar información almacenada de manera eficiente y segura. El contenido aborda desde la sintaxis básica hasta técnicas avanzadas, proporcionando una comprensión profunda del manejo de datos en aplicaciones.
-
-La primera lección introduce los conceptos básicos de consulta, explicando cómo estructurar sentencias que permitan seleccionar, filtrar y ordenar información. Los estudiantes aprenderán a utilizar operadores lógicos y comparativos para crear consultas precisas y eficientes. Además, se discute la importancia de la optimización de consultas para mejorar el rendimiento de las aplicaciones.
-
-La siguiente lección profundiza en los tipos de consultas más comunes, como las proyecciones y agrupamientos. Se explica cómo utilizar estas técnicas para obtener información resumida y estructurada, facilitando la toma de decisiones basadas en datos. Los estudiantes también aprenderán a combinar múltiples consultas para realizar tareas complejas.
-
-La carpeta continúa con lecciones sobre el manejo de subconsultas, que son consultas anidadas dentro de otras. Esta técnica es crucial para resolver problemas complejos y obtener información detallada en aplicaciones empresariales y científicas. Los estudiantes aprenderán cómo utilizar subconsultas para realizar operaciones avanzadas y cómo optimizarlas para mejorar el rendimiento.
-
-La lección sobre la combinación de múltiples selecciones es una extensión natural del tema anterior, enseñando a los estudiantes cómo combinar diferentes consultas para obtener información completa y precisa. Se discute la importancia de la coherencia en las consultas y cómo utilizar operadores lógicos para unir resultados de manera efectiva.
-
-La carpeta también aborda el tema de la optimización de consultas, una cuestión crítica en cualquier sistema persistente. Los estudiantes aprenderán técnicas avanzadas para mejorar el rendimiento de las consultas, como el uso de índices y la minimización del uso de recursos. Se discute cómo analizar y optimizar consultas complejas para asegurar un rendimiento óptimo.
-
-La lección final en esta carpeta se centra en el manejo de excepciones durante las consultas. Aprender a gestionar errores y excepciones es fundamental para la robustez de cualquier aplicación. Los estudiantes aprenderán cómo detectar, capturar y manejar excepciones que puedan surgir durante el proceso de consulta, asegurando una experiencia de usuario fluida y segura.
-
-En resumen, la carpeta `005-Mecanismos de consulta` del curso de programación ofrece una visión completa y detallada del manejo de datos en aplicaciones. Desde los conceptos básicos hasta técnicas avanzadas, proporciona a los estudiantes las herramientas necesarias para realizar consultas eficientes y seguras. Este conocimiento es esencial para desarrollar aplicaciones robustas y escalables que puedan manejar grandes volúmenes de datos con facilidad y precisión.
 
 <a id="el-lenguaje-de-consultas-sintaxis-expresiones-operadores"></a>
 ## El lenguaje de consultas sintaxis, expresiones, operadores
 
-En el mundo de la programación, mantener la persistencia de los objetos es una tarea fundamental que requiere un lenguaje de consultas poderoso y flexible. Este lenguaje nos permite interactuar con las bases de datos de manera eficiente, recuperando, modificando y eliminando información de manera segura y precisa.
-
-El primer paso para entender el mantenimiento de la persistencia es familiarizarse con el lenguaje de consultas que se utiliza en la base de datos. Este lenguaje, conocido como SQL (Structured Query Language), es un estándar internacional que permite a los programadores realizar operaciones complejas sobre las bases de datos.
-
-La sintaxis de SQL es rica y detallada, permitiendo a los usuarios definir consultas precisas para acceder a la información necesaria. Desde la sencilla consulta SELECT hasta las complejas sentencias UPDATE y DELETE, cada una con su propia estructura y reglas específicas, SQL nos proporciona las herramientas necesarias para interactuar con los datos de manera eficiente.
-
-Las expresiones en SQL son otro aspecto crucial del lenguaje. Las expresiones permiten realizar cálculos y manipulaciones sobre los datos antes de que sean recuperados o almacenados. Desde la suma de valores hasta el filtrado de resultados, las expresiones en SQL ofrecen una gran flexibilidad para procesar los datos según nuestras necesidades.
-
-Los operadores son el núcleo del lenguaje de consultas. Son símbolos y palabras clave que nos permiten definir las condiciones y acciones a realizar en nuestras consultas. Desde los operadores relacionales (como =, >, <) hasta los operadores lógicos (AND, OR, NOT), cada uno con su propia funcionalidad y reglas de precedencia, los operadores son esenciales para construir consultas complejas.
-
-La importancia de conocer bien el lenguaje de consultas no se limita a la recuperación de datos. También es fundamental para la modificación y eliminación de información en las bases de datos. Las sentencias UPDATE y DELETE, junto con los operadores y expresiones adecuados, nos permiten realizar cambios precisos en nuestros datos.
-
-Además, el lenguaje de consultas también incluye funciones que pueden ser utilizadas dentro de nuestras consultas para realizar cálculos o manipulaciones adicionales. Desde las funciones agregadas (como SUM, AVG, COUNT) hasta las funciones de texto (como UPPER, LOWER, SUBSTRING), estas funciones ofrecen una gran potencia en el procesamiento de datos.
-
-La comprensión del lenguaje de consultas es crucial para cualquier programador que trabaje con bases de datos. No solo nos permite interactuar eficientemente con los datos, sino que también nos proporciona la capacidad de realizar operaciones complejas y precisas sobre ellos. Con el conocimiento adecuado del lenguaje de consultas, podemos mantener la persistencia de los objetos de manera segura y efectiva, lo que es fundamental para el desarrollo de aplicaciones robustas y eficientes.
-
-En resumen, el mantenimiento de la persistencia de los objetos en una base de datos requiere un lenguaje de consultas poderoso y flexible. Conocer bien el lenguaje de consultas nos permite interactuar con las bases de datos de manera eficiente, recuperando, modificando y eliminando información de manera segura y precisa. Desde la sencilla consulta SELECT hasta las complejas sentencias UPDATE y DELETE, cada una con su propia estructura y reglas específicas, el lenguaje de consultas nos proporciona las herramientas necesarias para interactuar con los datos de manera eficiente.
 
 <a id="recuperacion-modificacion-y-borrado-de-informacion"></a>
 ## Recuperación, modificación y borrado de información
 
-En el mundo digital, la persistencia de los objetos es una cuestión fundamental que abarca tanto la recuperación como la modificación y borrado de información. Este proceso es esencial para mantener la integridad y coherencia de los datos en aplicaciones informáticas.
-
-La recuperación de información es un aspecto crucial del mantenimiento de la persistencia de los objetos. Consiste en el acceso a los datos almacenados previamente, lo que permite realizar consultas y operaciones sobre ellos. Este proceso requiere una comprensión profunda de las estructuras de datos utilizadas y las técnicas de acceso eficiente a estos datos.
-
-La modificación de la información es otro elemento fundamental del mantenimiento de la persistencia de los objetos. Implica el cambio en los valores de los atributos de los objetos, lo que puede ser necesario para actualizar la información basada en nuevas entradas o cambios en las condiciones del sistema.
-
-El borrado de información también forma parte integral del proceso de mantenimiento de la persistencia de los objetos. Es una operación delicada que debe realizarse con cuidado para evitar pérdidas de datos importantes y garantizar la integridad de la base de datos.
-
-La recuperación, modificación y borrado de información son interrelacionados y deben manejarse de manera coherente para mantener el sistema informático funcional. Cada una de estas operaciones requiere un enfoque específico y técnicas adecuadas para garantizar su correcto funcionamiento.
-
-El mantenimiento de la persistencia de los objetos es un proceso continuo que implica no solo la recuperación, modificación y borrado de información, sino también la gestión eficiente del almacenamiento y la optimización del rendimiento. Este proceso requiere una comprensión profunda de las bases de datos y las técnicas de programación adecuadas.
-
-La persistencia de los objetos es un concepto fundamental en el desarrollo de aplicaciones informáticas. Su correcto manejo es esencial para garantizar la integridad, coherencia y eficiencia del sistema. A través del proceso de recuperación, modificación y borrado de información, se puede mantener la base de datos actualizada y relevante, lo que es crucial para el funcionamiento óptimo del sistema.
-
-La persistencia de los objetos es un tema complejo pero fundamental en el desarrollo de aplicaciones informáticas. Su correcto manejo requiere una comprensión profunda de las bases de datos y las técnicas de programación adecuadas. A través del proceso de recuperación, modificación y borrado de información, se puede mantener la base de datos actualizada y relevante, lo que es crucial para el funcionamiento óptimo del sistema.
-
-La persistencia de los objetos es un concepto fundamental en el desarrollo de aplicaciones informáticas. Su correcto manejo es esencial para garantizar la integridad, coherencia y eficiencia del sistema. A través del proceso de recuperación, modificación y borrado de información, se puede mantener la base de datos actualizada y relevante, lo que es crucial para el funcionamiento óptimo del sistema.
-
-La persistencia de los objetos es un tema complejo pero fundamental en el desarrollo de aplicaciones informáticas. Su correcto manejo requiere una comprensión profunda de las bases de datos y las técnicas de programación adecuadas. A través del proceso de recuperación, modificación y borrado de información, se puede mantener la base de datos actualizada y relevante, lo que es crucial para el funcionamiento óptimo del sistema.
-
-La persistencia de los objetos es un concepto fundamental en el desarrollo de aplicaciones informáticas. Su correcto manejo es esencial para garantizar la integridad, coherencia y eficiencia del sistema. A través del proceso de recuperación, modificación y borrado de información, se puede mantener la base de datos actualizada y relevante, lo que es crucial para el funcionamiento óptimo del sistema.
-
-La persistencia de los objetos es un tema complejo pero fundamental en el desarrollo de aplicaciones informáticas. Su correcto manejo requiere una comprensión profunda de las bases de datos y las técnicas de programación adecuadas. A través del proceso de recuperación, modificación y borrado de información, se puede mantener la base de datos actualizada y relevante, lo que es crucial para el funcionamiento óptimo del sistema.
-
-La persistencia de los objetos es un concepto fundamental en el desarrollo de aplicaciones informáticas. Su correcto manejo es esencial para garantizar la integridad, coherencia y eficiencia del sistema. A través del proceso de recuperación, modificación y borrado de información, se puede mantener la base de datos actualizada y relevante, lo que es crucial para el funcionamiento óptimo del sistema.
-
-La persistencia de los objetos es un tema complejo pero fundamental en el desarrollo de aplicaciones informáticas. Su correcto manejo requiere una comprensión profunda de las bases de datos y las técnicas de programación adecuadas. A través del proceso de recuperación, modificación y borrado de información, se puede mantener la base de datos actualizada y relevante, lo que es crucial para el funcionamiento óptimo del sistema.
-
-La persistencia de los objetos es un concepto fundamental en el desarrollo de aplicaciones informáticas. Su correcto manejo es esencial para garantizar la integridad, coherencia y eficiencia del sistema. A través del proceso de recuperación, modificación y borrado de información, se puede mantener la base de datos actualizada y relevante, lo que es crucial para el funcionamiento óptimo del sistema.
 
 <a id="tipos-de-datos-objeto-atributos-y-metodos"></a>
 ## Tipos de datos objeto; atributos y métodos
 
-En el vasto mundo de la programación, el concepto de persistencia de los objetos es una piedra angular que sostiene las estructuras de datos más complejas. Este proceso, que permite a los datos almacenados en memoria ser guardados permanentemente en un medio de almacenamiento externo como discos duros o bases de datos, es fundamental para mantener la integridad y consistencia de los sistemas informáticos.
-
-La persistencia de los objetos implica no solo el almacenamiento de los datos, sino también su recuperación y manipulación. Este proceso se realiza a través de métodos específicamente diseñados para interactuar con el medio de almacenamiento. Estos métodos pueden ser directamente invocados por el programador o pueden ser utilizados automáticamente por frameworks y bibliotecas que facilitan la gestión del estado de los objetos.
-
-Los tipos de datos objeto son una extensión natural del concepto de objetos en la programación orientada a objetos. Algunos ejemplos incluyen clases, estructuras y registros. Cada tipo de dato objeto tiene atributos, que representan las características o propiedades del objeto, y métodos, que definen las acciones que el objeto puede realizar.
-
-Los atributos son variables asociadas con un objeto que almacenan su estado actual. Por ejemplo, en una clase `Persona`, los atributos podrían ser `nombre`, `edad` y `dirección`. Los métodos, por otro lado, son funciones definidas dentro de la clase que realizan operaciones sobre el objeto o manipulan sus atributos.
-
-La persistencia de los objetos a través de tipos de datos objeto es un proceso que requiere cuidado. Es importante garantizar que los datos se almacenen y recuperen correctamente para evitar errores y mantener la coherencia del sistema. Además, la gestión adecuada de la memoria es crucial para evitar fugas de memoria y problemas de rendimiento.
-
-En el contexto de bases de datos, la persistencia de los objetos a través de tipos de datos objeto puede realizarse mediante mapeo objeto-relacional (ORM). ORM es una técnica que permite a los desarrolladores interactuar con las bases de datos utilizando objetos en lugar de sentencias SQL. Esto facilita la programación y reduce el riesgo de errores.
-
-La persistencia de los objetos también implica la gestión de transacciones. Una transacción es un conjunto de operaciones que se realizan como una unidad lógica. Si todas las operaciones dentro de una transacción son exitosas, entonces toda la transacción se considera exitosa y los cambios se aplican permanentemente al sistema. Si alguna operación falla, la transacción se cancela y no se aplican ningún cambio.
-
-En resumen, la persistencia de los objetos es un concepto fundamental en la programación que permite a los datos ser almacenados, recuperados y manipulados de manera segura y eficiente. A través de tipos de datos objeto, métodos y técnicas como ORM y gestión de transacciones, los desarrolladores pueden crear sistemas informáticos robustos y confiables que puedan mantener su estado a lo largo del tiempo.
 
 <a id="tipos-de-datos-coleccion"></a>
 ## Tipos de datos colección
 
-En el vasto mundo de la programación, los objetos son las piezas fundamentales que conforman nuestra realidad digital. Sin embargo, para que estos objetos puedan interactuar eficazmente entre sí y con otros elementos del sistema, es necesario almacenarlos de manera persistente. Es aquí donde entra en juego el concepto de tipos de datos colección.
-
-Los tipos de datos colección son estructuras de datos que nos permiten agrupar y organizar múltiples objetos bajo un solo nombre. Estas estructuras son esenciales para la programación orientada a objetos, ya que nos proporcionan una forma eficiente de almacenar, recuperar y manipular grandes cantidades de información.
-
-La colección más básica y común en la programación es el array. Un array es una estructura de datos que permite almacenar un conjunto ordenado de elementos del mismo tipo. Cada elemento dentro del array se identifica por su índice, lo que facilita su acceso y manipulación. Los arrays son ideales para situaciones donde necesitamos trabajar con conjuntos homogéneos de datos.
-
-Otro tipo de colección importante es el diccionario o mapa. A diferencia de los arrays, los diccionarios no están ordenados y cada elemento está asociado a una clave única. Este tipo de estructura es especialmente útil cuando necesitamos acceder a los elementos por su nombre o identificador en lugar de su posición.
-
-Además de estos tipos básicos, existen colecciones más complejas como las listas enlazadas, las pilas y las colas. Cada una de estas estructuras tiene sus propias características y ventajas, lo que las hace útiles para diferentes situaciones dependiendo del problema que estemos tratando de resolver.
-
-La elección del tipo de colección adecuado es crucial para el rendimiento y la eficiencia de nuestro código. Algunas colecciones ofrecen operaciones más rápidas en ciertas situaciones, mientras que otras son mejores para otros tipos de acceso o manipulación de datos.
-
-Para trabajar con colecciones en programación, necesitamos conocer las operaciones básicas que se pueden realizar sobre ellas. Estas operaciones incluyen la inserción y eliminación de elementos, la búsqueda de un elemento específico y la recorrido de todos los elementos de la colección. Cada tipo de colección tiene sus propias implementaciones de estas operaciones, lo que puede afectar su rendimiento.
-
-Además de las operaciones básicas, también es importante entender cómo manejar excepciones cuando se trabaja con colecciones. Por ejemplo, si intentamos acceder a un elemento fuera del rango válido de un array o diccionario, nuestro programa podría fallar. Es por eso que es crucial aprender a manejar estas situaciones de manera segura y eficiente.
-
-La persistencia de los objetos en colecciones también implica la gestión de la memoria. Cuando insertamos objetos en una colección, debemos considerar cómo liberar la memoria cuando estos objetos ya no sean necesarios. Esto puede implicar el uso de técnicas como la recolección de basura o la gestión manual del ciclo de vida de los objetos.
-
-En resumen, los tipos de datos colección son herramientas poderosas y versátiles en la programación orientada a objetos. Al comprender cómo funcionan y cuándo usar cada uno, podemos escribir programas más eficientes y robustos. Cada colección tiene sus propias ventajas y desventajas, lo que nos obliga a pensar cuidadosamente en nuestras necesidades específicas antes de elegir la estructura adecuada para nuestro problema.
-
-La comprensión profunda de los tipos de datos colección es un paso crucial hacia el dominio del desarrollo de software. Al aprender a utilizar estas estructuras eficazmente, podemos crear aplicaciones que manejen grandes cantidades de información con facilidad y eficiencia. Este conocimiento nos permitirá construir sistemas complejos y escalables que respondan a las necesidades cambiantes de nuestros usuarios.
-
-En el mundo de la programación, los objetos son como los bloques con los que construimos nuestras edificios digitales. Y las colecciones son las herramientas que nos permiten organizar y almacenar estos bloques de manera eficiente. Con un buen dominio de los tipos de datos colección, podemos crear estructuras de datos complejas y poderosas que nos ayuden a resolver problemas reales y significativos en el mundo digital.
-
-La programación es una disciplina que requiere tanto conocimiento teórico como habilidad práctica. Y la comprensión de los tipos de datos colección es un aspecto fundamental del segundo, ya que nos permite trabajar con grandes cantidades de información de manera eficiente y segura. Con el tiempo y la práctica, podemos convertirnos en expertos en el uso de estas estructuras y aplicarlas en una variedad de situaciones.
-
-En conclusión, los tipos de datos colección son herramientas esenciales en la programación orientada a objetos. Al aprender a utilizarlas eficazmente, podemos crear aplicaciones que manejen grandes cantidades de información con facilidad y eficiencia. Con un buen dominio de estos conceptos, podemos construir sistemas complejos y escalables que respondan a las necesidades cambiantes de nuestros usuarios. Y en el mundo digital, donde la cantidad de información es cada vez mayor, esta habilidad será más valiosa que nunca.
 
 
 <a id="gestion-de-bases-de-datos"></a>
@@ -10113,63 +14077,14 @@ En conclusión, los tipos de datos colección son herramientas esenciales en la 
 <a id="acceso-a-bases-de-datos-estandares-caracteristicas"></a>
 ## Acceso a bases de datos. Estándares. Características
 
-En el vasto mundo de la programación, una base de datos es como un gran armario donde se almacenan los secretos digitales de nuestras aplicaciones. Este armario tiene reglas estrictas para mantener sus objetos en orden y garantizar su seguridad y eficiencia.
-
-El acceso a bases de datos es el primer paso hacia la manipulación de estos secretos. Es como abrir una puerta que nos permite ver, modificar o eliminar lo que está dentro del armario. Para hacer esto, necesitamos seguir un conjunto de reglas establecidas por los estándares de la industria.
-
-Estos estándares son como las normas de juego que todos deben seguir para que todo funcione sin problemas. Algunos de los más conocidos incluyen SQL (Structured Query Language), que es el idioma utilizado para comunicarse con las bases de datos, y JDBC (Java Database Connectivity), que es una API que permite a los programas Java interactuar con diferentes tipos de bases de datos.
-
-Además de estos estándares, cada base de datos tiene sus propias características únicas. Algunas son más eficientes para almacenar grandes cantidades de información, mientras que otras son excelentes para manejar relaciones complejas entre los datos. Es importante conocer estas diferencias para elegir la herramienta adecuada para el trabajo.
-
-El acceso a bases de datos no es solo una cuestión técnica; también implica seguridad y privacidad. Los sistemas deben estar diseñados para proteger la información sensible contra accesos no autorizados, lo que significa entender cómo funcionan los mecanismos de autenticación y autorización.
-
-Además del acceso básico, las bases de datos modernas ofrecen una gama de funciones avanzadas. Desde el almacenamiento en caché hasta la replicación de datos para aumentar la disponibilidad, cada característica contribuye a hacer que nuestro armario digital sea más robusto y eficiente.
-
-La gestión de transacciones es otro aspecto crucial del acceso a bases de datos. Una transacción es una serie de operaciones que se realizan juntas como un todo. Si alguna parte falla, todo debe revertirse para mantener la integridad de los datos. Es como asegurarse de que no se pierdan los juguetes cuando se está jugando con ellos.
-
-El acceso a bases de datos también implica la optimización. Esto significa encontrar el camino más corto y eficiente para llegar al objetivo, ya sea consultando una base de datos grande o actualizando un registro específico. La optimización es como aprender a buscar en un armario lleno de juguetes sin perder el tiempo.
-
-En resumen, el acceso a bases de datos es la puerta que nos permite interactuar con los secretos digitales almacenados en nuestros sistemas. Al seguir los estándares adecuados y conocer las características específicas de cada base de datos, podemos asegurarnos de que nuestra aplicación funcione eficientemente y seguramente. Y, como cualquier buen juego, el acceso a bases de datos requiere práctica y paciencia para dominarlo plenamente.
 
 <a id="establecimiento-de-conexiones"></a>
 ## Establecimiento de conexiones
 
-La gestión de bases de datos es una habilidad fundamental en el desarrollo de software moderno, ya que permite a los programadores almacenar, recuperar y gestionar grandes volúmenes de información de manera eficiente. En esta subunidad didáctica, nos centramos específicamente en el establecimiento de conexiones con bases de datos, un paso crucial antes de cualquier interacción con la información almacenada.
-
-El primer concepto que abordamos es el concepto de conexión a una base de datos. Una conexión se establece entre el programa informático y la base de datos para permitir la comunicación bidireccional. Este proceso implica la especificación de detalles como el nombre del servidor, el puerto, el nombre de la base de datos, el usuario y la contraseña. La importancia de estos detalles no puede ser subestimada, ya que cualquier error en ellos puede llevar a fallas graves en la aplicación.
-
-Continuamos con una explicación detallada sobre cómo establecer conexiones utilizando diferentes lenguajes de programación. Por ejemplo, en Java, se utiliza el objeto `Connection` del paquete `java.sql`, mientras que en Python, existen bibliotecas como `sqlite3` para bases de datos SQLite o `psycopg2` para PostgreSQL. Cada uno de estos métodos requiere un conjunto específico de parámetros y puede presentar desafíos propios dependiendo del tipo de base de datos utilizado.
-
-El establecimiento de conexiones también implica la gestión de excepciones, ya que es posible que ocurran errores inesperados durante el proceso. Por ejemplo, si el servidor no está disponible o las credenciales son incorrectas, se producirá una excepción. Es crucial manejar estas situaciones adecuadamente para evitar que la aplicación falle y proporcionar un feedback útil al usuario.
-
-Además de establecer conexiones, también es importante entender cómo cerrarlas correctamente. Una conexión abierta puede consumir recursos del servidor y limitar su capacidad para atender a otras solicitudes. Por lo tanto, es una buena práctica cerrar la conexión tan pronto como no sea necesaria, utilizando métodos específicos proporcionados por cada lenguaje o biblioteca.
-
-El proceso de establecimiento de conexiones también implica la configuración del entorno de desarrollo. Esto puede incluir la instalación y configuración de drivers o controladores para el tipo específico de base de datos utilizado. Por ejemplo, si se está utilizando una base de datos MySQL, es necesario instalar el driver JDBC correspondiente.
-
-En este contexto, también es útil conocer las mejores prácticas en cuanto a la seguridad de las conexiones. Esto incluye el uso de contraseñas seguras y la implementación de políticas de acceso controlados para evitar accesos no autorizados. Además, es recomendable utilizar métodos como la autenticación dual-factor o la autenticación basada en tokens para mejorar la seguridad.
-
-Finalmente, esta subunidad también aborda el tema de la gestión de transacciones. Una transacción es una serie de operaciones que se realizan juntas y deben completarse completamente o no realizarse en absoluto. Si alguna operación falla, toda la transacción debe revertirse para mantener la integridad de los datos.
-
-En resumen, el establecimiento de conexiones con bases de datos es un paso fundamental en cualquier aplicación que interactúe con información persistente. A través de este proceso, se permite la comunicación entre el programa y la base de datos, lo que facilita la almacenamiento, recuperación y gestión de grandes volúmenes de información. Es crucial entender los detalles del establecimiento de conexiones, manejar excepciones adecuadamente, cerrar las conexiones correctamente y seguir mejores prácticas en cuanto a seguridad y transacciones para asegurar el funcionamiento eficiente y seguro de la aplicación.
 
 <a id="almacenamiento-recuperacion-actualizacion-y-eliminacion-de-informacion-en-bases-de-datos"></a>
 ## Almacenamiento, recuperación, actualización y eliminación de información en bases de datos
 
-En la vastedad del océano digital, donde los datos son las rocas fundamentales de nuestra era, se encuentra el concepto de gestión de bases de datos. Este es un dominio que abarca desde la creación hasta la eliminación de información en sistemas de almacenamiento persistente. Comenzamos nuestro viaje por esta temática con una visión general del proceso de almacenamiento y recuperación de datos.
-
-El primer paso en el manejo de bases de datos es su almacenamiento, un acto que requiere inteligencia y precisión para garantizar la integridad y seguridad de los datos. Este proceso implica la creación de tablas o colecciones donde se organizarán los datos según ciertas reglas definidas por el modelo de datos utilizado. La elección del modelo de datos adecuado es crucial, ya que determinará cómo se estructuran y relacionan los datos dentro de la base.
-
-La recuperación de información es otro aspecto fundamental de la gestión de bases de datos. Este proceso implica la búsqueda y acceso a los datos almacenados en la base de datos. La eficiencia de esta operación depende del diseño de índices y la optimización de las consultas SQL, que son herramientas clave para extraer información de manera rápida y precisa.
-
-La actualización de información es un proceso que permite modificar los datos existentes en la base de datos. Este acto es esencial para mantener los datos actualizados y reflejar los cambios en el mundo real. La gestión adecuada de las transacciones durante este proceso es crucial, ya que garantiza la consistencia y coherencia de los datos.
-
-Por último, pero no menos importante, está el proceso de eliminación de información. Este acto implica la borrado de registros o datos específicos de la base de datos. La seguridad y la privacidad son factores clave en este proceso, ya que debe garantizar que solo se eliminen los datos autorizados y necesarios.
-
-A lo largo de este recorrido por el mundo de la gestión de bases de datos, hemos explorado desde la creación hasta la eliminación de información. Cada paso requiere una comprensión profunda del modelo de datos, las consultas SQL y las transacciones para garantizar que los datos sean manejados de manera eficiente y segura.
-
-Este proceso no es solo técnico; también implica habilidades de planificación y organización. Es necesario tener en cuenta el rendimiento de la base de datos, la seguridad de los datos y la facilidad con la que se pueden realizar operaciones de recuperación y actualización.
-
-En conclusión, la gestión de bases de datos es un campo complejo pero fundamental para cualquier sistema informático moderno. Desde su creación hasta su eliminación, cada paso requiere una comprensión profunda y habilidades técnicas avanzadas. A través del estudio y práctica constante, podemos mejorar nuestra capacidad para manejar eficazmente los datos en nuestro mundo digital.
 
 
 <a id="proyectos"></a>
@@ -10178,22 +14093,62 @@ En conclusión, la gestión de bases de datos es un campo complejo pero fundamen
 <a id="proyecto-formulario"></a>
 ## Proyecto formulario
 
-### Introduccion
+### Introducción a los ejercicios
 
-```markdown
-Sistema de gestión empresarial
-Cualquier software que gestiona cualquier aspecto de cualquie empresa
+El código proporcionado incluye varios componentes para crear una aplicación web administrativa con funcionalidades de gestión y monitoreo de registros en una base de datos MySQL. A continuación, se analiza la estructura del código y cómo estos archivos interactúan entre sí.
 
-ERP = Enterprise Resource Planning
+### Análisis del Código
 
-CRM = Customer Relationship Management
+#### 1. **index.php**
+Este archivo es el punto de entrada principal de la aplicación web. Realiza las siguientes tareas:
 
-SIS = Student Information System
+- **Conexión a MySQL**: Establece una conexión a la base de datos `training_center` mediante PHP.
+- **Obtención de Datos**: Consulta los registros de la tabla `inscripciones`.
+- **Estado CRM**: Consulta y almacena en un array el estado actual de cada registro para mostrarlo en la interfaz.
+- **Correos no leídos**: Verifica si hay correos nuevos sin leer para cada registro con correo electrónico asociado.
+- **Visualización del Formulario HTML/CSS/PHP**:
+  - Si se ha enviado una solicitud (`$_POST`), actualiza el estado CRM correspondiente en la base de datos.
+  - Muestra un formulario basado en los registros obtenidos, incluyendo campos para seleccionar y guardar estados CRM, así como botones para acceder a informes detallados.
 
-CRM = Sistema de gestión de la relación con el cliente
-```
+#### 2. **CSS y Estilos**
+- El archivo `index.php` utiliza CSS directamente dentro del código PHP para estilizar la tabla de registros.
+- Los colores y estilos específicos se aplican dinámicamente basándose en el estado CRM asociado a cada registro.
+
+#### 3. **PHP Integración con MySQL**
+- Consultas SQL: Se utilizan consultas SQL como `SELECT` y `UPDATE` para intercambiar datos entre la base de datos y la aplicación web.
+- Variables Globales: El archivo `$db_host`, `$db_user`, `$db_pass`, y `$dbname` proporciona las credenciales necesarias para conectarse a la base de datos MySQL.
+
+#### 4. **Interacción con IMAP (Correo Electrónico)**
+- **listar_carpetas.php**: Este script se utiliza internamente para listar las carpetas del correo electrónico en el servidor IMAP.
+- La aplicación principal (`index.php`) verifica si hay correos nuevos sin leer utilizando un archivo similar o directamente mediante `imap_open` y consultas de IMAP.
+
+### Diagrama JSON
+El diagrama JSON proporcionado representa visualmente cómo se relacionan los archivos entre sí:
+
+- **Formulario HTML, CSS, PHP**: Representa el frontend donde se muestran los datos obtenidos desde la base de datos y el sistema de correo electrónico.
+- **MySQL**: La base de datos que almacena registros de inscripciones y estados CRM.
+- **PHP**: Se utiliza para manejar lógica de negocio (como actualización del estado), interacción con MySQL e IMAP, y generación dinámica de HTML/CSS.
+
+### Interconexión
+- **HTML/PHP** -> **MySQL**: Consultas a la base de datos para obtener registros y guardar cambios.
+- **IMAP**: Se conecta al servidor IMAP para verificar correos no leídos asociados con cada registro.
+
+---
+
+Esta estructura permite una aplicación web funcional que permite a los usuarios gestionar inscripciones, asignar estados CRM y monitorear correos sin leer de manera dinámica.
 
 ### formulario
+<small>Creado: 2025-12-04 15:13</small>
+
+#### Explicación
+
+Este código es una página HTML que genera un formulario dinámico para recoger datos en función de la estructura de una tabla llamada `inscripciones` en una base de datos MySQL. La página comienza creando una conexión a la base de datos y luego consulta los detalles de la tabla y sus columnas, incluyendo comentarios asociados con cada columna si existen.
+
+El código PHP se encarga de generar etiquetas HTML (`<input>`, `<select>`, `<textarea>`) basadas en el tipo de dato que tiene cada columna en la base de datos. Por ejemplo, para un campo de tipo `varchar`, crea una caja de texto; para un campo de tipo `date`, una entrada de fecha; y así sucesivamente.
+
+Este formulario es importante porque permite a los usuarios introducir datos en formato estructurado según el diseño previamente definido en la base de datos, facilitando así la recopilación y gestión de información. La generación automática del formulario basada en la tabla de la base de datos también ayuda a mantener el código más organizado y fácil de actualizar si se modifica la estructura de los datos en un futuro.
+
+`001-formulario.php`
 
 ```
 <!doctype html>
@@ -10405,6 +14360,27 @@ CRM = Sistema de gestión de la relación con el cliente
 ```
 
 ### guardamos los datos
+<small>Creado: 2025-12-04 15:16</small>
+
+#### Explicación
+
+Este archivo PHP es parte de un formulario web que se utiliza para guardar datos en una base de datos. El código realiza las siguientes acciones principales:
+
+1. **Conexión a la Base de Datos:** Al inicio del archivo, el script establece una conexión con la base de datos MySQL usando la clase `mysqli`. Si la conexión falla, muestra un mensaje de error.
+
+2. **Procesamiento del Formulario:** El código verifica si se ha enviado el formulario (mediante un método POST). Si es así, recupera los metadatos de las columnas de la tabla `inscripciones` para determinar qué campos y tipos de datos manejar.
+
+3. **Generación Dinámica del INSERT SQL:** Para cada columna que no sea clave primaria ni tenga valores por defecto predefinidos (como timestamps), el script recupera los datos enviados desde el formulario. Luego, construye una consulta SQL `INSERT` que insertará estos datos en la tabla correspondiente.
+
+4. **Manejo de Diferentes Tipos de Datos:** El código identifica cada tipo de dato y asigna un valor apropiado basándose en la entrada del usuario. Por ejemplo, si el campo es de tipo entero (`int`), se convierte la entrada a un número entero; si es un archivo (`blob`), se lee su contenido binario.
+
+5. **Ejecución de la Consulta SQL:** Una vez que se ha construido la consulta `INSERT`, se prepara y ejecuta utilizando la función `prepare` y `execute`. Si la inserción es exitosa, el usuario recibe un mensaje indicando que los datos han sido guardados correctamente.
+
+6. **HTML del Formulario:** Finalmente, el código genera una página HTML con el formulario de entrada. Cada campo del formulario se genera dinámicamente basándose en los metadatos recuperados de la base de datos. Esto incluye etiquetas y campos de entrada correspondientes a cada tipo de dato (por ejemplo, texto para `varchar`, fecha para `date`, etc.), así como comentarios explicativos si están disponibles.
+
+Este archivo es crucial porque permite interactuar con la base de datos de manera segura y eficiente, garantizando que los datos ingresados por el usuario sean almacenados correctamente en la tabla correspondiente.
+
+`002-guardamos los datos.php`
 
 ```
 <?php
@@ -10746,6 +14722,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ```
 
 ### panel admin
+<small>Creado: 2025-12-04 15:28</small>
+
+#### Explicación
+
+Este fragmento de código HTML es una página web sencilla que presenta un diseño básico con un menú lateral y una zona principal donde se muestra información en forma de tabla. La estructura del documento indica que está configurada para mostrar contenido en español.
+
+En la parte superior (head), el código define cómo se verá el sitio, incluyendo estilos CSS directamente en el archivo HTML para controlar el diseño. Por ejemplo, establece que tanto el cuerpo como el html deben tener un ancho y alto del 100%, eliminando cualquier espacio de margen o relleno adicional (padding y margin). También define cómo se verán las etiquetas `nav`, `main` y `table`.
+
+En la parte principal del documento (body), hay una barra lateral (`nav`) que contiene tres botones, cada uno etiquetado con "Enlace 1", "Enlace 2" y "Enlace 3". Estos botones probablemente se usarán para navegar por diferentes partes de un sitio web más grande.
+
+La zona principal del documento (`main`) incluye una tabla que muestra información ficticia. Esta tabla es generada usando PHP, un lenguaje de programación en el lado del servidor que permite la creación de contenido dinámico. En este caso, se crea una estructura de 30 filas con cinco columnas cada una (nombre, apellidos, email, dirección y código), pero sin datos reales en las celdas. Este uso de PHP dentro de HTML es común para crear páginas web que muestran información dinámica basada en datos almacenados o entradas del usuario.
+
+Este tipo de diseño simple pero funcional es útil para estudiantes que están aprendiendo a combinar HTML y PHP para generar contenidos más complejos y interactivos.
+
+`003-panel admin.php`
 
 ```
 
@@ -10786,6 +14777,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ```
 
 ### panel admin real
+<small>Creado: 2025-12-04 15:32</small>
+
+#### Explicación
+
+Este código es una página web que muestra un formulario administrativo para gestionar inscripciones, probablemente en el contexto de un centro de formación profesional. El archivo comienza por establecer una conexión a la base de datos MySQL llamada "training_center" utilizando PHP. Si no se puede establecer la conexión, la página mostrará un mensaje de error y terminará.
+
+El código HTML que sigue define la estructura básica de una página web con dos partes principales: una barra lateral (nav) con tres botones para navegar por diferentes enlaces y un área principal donde se muestran los datos. La tabla en el área principal obtiene sus columnas desde la base de datos, especificando que las columnas deben ser extraídas de la tabla 'inscripciones' dentro del esquema 'training_center'. Cada fila de esta tabla se llena con los registros existentes de la misma tabla 'inscripciones'.
+
+Este código es importante porque permite a un administrador visualizar fácilmente todos los datos almacenados en la tabla de inscripciones, facilitando así la gestión y el control de las inscripciones de estudiantes o participantes. La estructura proporcionada también incluye estilos básicos para dar una apariencia más profesional a la página web que se está generando.
+
+`004-panel admin real.php`
 
 ```
 <?php
@@ -10858,6 +14860,17 @@ if ($c->connect_error) {
 ```
 
 ### estilo panel
+<small>Creado: 2025-12-04 15:34</small>
+
+#### Explicación
+
+Este archivo PHP es una página web que sirve como panel de administración para listar las inscripciones en una base de datos. Al abrir la página, el código se encarga de establecer una conexión a la base de datos y mantenerla durante toda la ejecución del script. Luego, se genera un diseño HTML con estilos CSS integrados que definen cómo debe verse la interfaz, incluyendo colores primarios, tipografías y disposición de elementos.
+
+El código PHP también se encarga de generar dinámicamente una tabla que muestra los datos de las inscripciones desde la base de datos. Primero, obtiene los nombres y comentarios de todas las columnas en la tabla "inscripciones" para crear el encabezado de la tabla. Luego, consulta todos los registros de esa misma tabla y genera filas y celdas HTML para mostrar estos datos, asegurándose de escapar cualquier texto que pueda interferir con la estructura del HTML.
+
+Este archivo es importante porque proporciona una vista clara de los datos en una base de datos para un usuario administrativo, permitiendo así una fácil visualización y gestión de las inscripciones sin necesidad de acceder directamente a la base de datos.
+
+`005-estilo panel.php`
 
 ```
 <?php
@@ -11074,6 +15087,35 @@ if ($c->connect_error) {
 ```
 
 ### funciones
+<small>Creado: 2025-12-04 15:43</small>
+
+#### Explicación
+
+Este código es una página PHP que implementa un panel de administración para gestionar inscripciones en una base de datos. El archivo comienza creando una nueva sesión y estableciendo una conexión con la base de datos "training_center". Luego, crea una tabla llamada `estado_crm` (si no existe ya) para almacenar el estado de cada registro de inscripción.
+
+El código también incluye una funcionalidad de inicio de sesión que verifica las credenciales del usuario y permite acceso al panel administrativo solo si se autentica correctamente. Una vez dentro, los usuarios pueden ver un menú con opciones de enlace (en este caso, simplemente botones) y una tabla que muestra todos los registros de inscripción desde la base de datos.
+
+Cada registro tiene dos columnas adicionales: "Estado CRM" y "Acciones". La columna "Estado CRM" muestra el estado actual del registro si está definido; si no lo está, indica que el registro no tiene un estado asignado. La columna "Acciones" proporciona a los administradores la capacidad de seleccionar y guardar un nuevo estado para cada registro mediante un formulario.
+
+Además, en la parte superior del panel hay una sección donde se muestra cuándo estás conectado como usuario `jocarsa` y permite cerrar sesión haciendo clic en el enlace "Cerrar sesión".
+
+En resumen, esta página PHP proporciona un sistema completo para gestionar inscripciones a través de un interfaz web administrativo que incluye inicio de sesión, visualización de datos y edición de estados CRM. La página también utiliza CSS personalizado para mejorar la presentación y funcionalidad del panel. Es importante mencionar que el código maneja la seguridad de la información sensible (como contraseñas) adecuadamente mediante la desactivación de la autocompletado en los formularios de inicio de sesión y utilizando htmlspecialchars() para prevenir inyecciones de código HTML/JS en las respuestas del servidor. Además, el código incluye una funcionalidad que permite a los administradores cambiar el estado CRM de cada registro desde la interfaz web. Esto ayuda a mejorar la gestión y seguimiento de los registros de inscripción. 
+
+El diseño adaptativo también asegura que la página sea visualmente adecuada tanto en pantallas grandes como pequeñas, permitiendo una mayor accesibilidad para diferentes dispositivos. Este tipo de funcionalidad es crucial en aplicaciones web modernas ya que proporciona una experiencia del usuario consistente independientemente del tamaño de la pantalla utilizada. 
+
+En resumen, este código PHP es un ejemplo completo de cómo implementar un panel administrativo eficiente y seguro con funciones básicas pero cruciales para cualquier sistema basado en inscripciones o registros similares. Es importante tener en cuenta que esta página también podría requerir más funcionalidades adicionales (como validaciones adicionales, autenticación más robusta, etc.) dependiendo de las necesidades específicas del proyecto y la seguridad deseada. Por último, el código proporciona un buen punto de partida para desarrollar sistemas web más complejos que requieren una interfaz administrativa personalizada y segura. 
+
+Es recomendable realizar pruebas exhaustivas y adicionar capas adicionales de protección contra amenazas comunes antes de utilizar este tipo de implementación en producción. Esto incluiría validaciones, manejo adecuado de errores y considerar la integración con frameworks de autenticación más avanzados como OAuth o SAML si es necesario para cumplir con los requisitos específicos del sistema y la política de seguridad corporativa. 
+
+En resumen, este código PHP proporciona una base sólida para un panel administrativo completo que puede ser extendido y adaptado a las necesidades particulares del proyecto. Es un ejemplo excelente de cómo combinar funcionalidades SQL, lógica de negocio en PHP y diseño web moderno con HTML/CSS/JavaScript para crear una interfaz usuario eficiente y segura. 
+
+Recuerda siempre mantener actualizado el código y seguir las mejores prácticas de seguridad al implementar sistemas basados en este tipo de arquitecturas. Esto incluye regularmente revisar los permisos de acceso a la base de datos, mantener el sistema libre de inyecciones SQL y otros tipos de ataques conocidos, así como asegurar que todas las comunicaciones entre cliente y servidor sean seguras (usando HTTPS por ejemplo). Además, considera implementar sistemas de auditoría para rastrear acciones importantes realizadas en la base de datos para ayudar con el cumplimiento normativo y la detección temprana de problemas. 
+
+En general, este código es un excelente punto de partida para desarrolladores que buscan crear interfaces administrativas completas y seguras para gestionar sistemas basados en registros o inscripciones utilizando PHP y MySQL como plataforma principal. Asegúrate siempre de adaptarlo a las necesidades específicas del proyecto y mantenerlo actualizado con la última seguridad disponible para garantizar su eficacia y fiabilidad. 
+
+Espero que esta descripción te ayude a entender el código proporcionado y cómo funciona en su conjunto, así como los conceptos clave involucrados en este tipo de implementaciones web administrativas. Si tienes alguna pregunta adicional o necesitas más detalles sobre cualquier parte específica del código, no dudes en preguntar. ¡Buena suerte con tu proyecto!
+
+`006-funciones.php`
 
 ```
 <?php
@@ -11607,6 +15649,97 @@ if ($loggedIn) {
 ```
 
 ### informes y correo
+<small>Creado: 2025-12-04 16:21</small>
+
+#### Explicación
+
+El código proporcionado es una página web PHP que muestra un panel de administración para gestionar registros en la tabla `inscripciones` de una base de datos. El panel permite:
+
+1. **Visualización del Listado General**: Muestra todos los registros actuales en la tabla `inscripciones`, incluyendo columnas adicionales para el estado CRM y acciones.
+2. **Informes Detallados por Inscripción**: Permite acceder a un informe detallado de cada inscripción, donde se pueden enviar correos electrónicos si hay una columna de correo asociada al registro.
+3. **Gestión del Estado CRM**: Proporciona la capacidad para asignar y guardar estados CRM (Customer Relationship Management) para cada registro.
+
+A continuación, te proporciono un resumen detallado de las partes principales del código:
+
+### Parte 1: Conexión a la Base de Datos
+El script comienza por conectarse a la base de datos `training_center` usando MySQLi. La conexión es establecida con los datos de usuario y contraseña.
+
+```php
+$c = mysqli_connect($host, $user, $pass, $db);
+```
+
+### Parte 2: Obtención de Datos de la Tabla `inscripciones`
+Se obtienen las columnas de la tabla `inscripciones` junto con sus comentarios (si están definidos) utilizando una consulta a la vista del esquema.
+
+```php
+$r = $c->query("
+  SELECT COLUMN_NAME, COLUMN_TYPE, COLUMN_KEY, COLUMN_DEFAULT, COLUMN_COMMENT 
+  FROM information_schema.columns 
+  WHERE table_schema='$db' AND table_name='inscripciones'
+");
+```
+
+### Parte 3: Generación de la Vista del Listado General de Inscripciones
+La tabla HTML se genera en función de los datos obtenidos. Se añaden dos columnas adicionales para "Estado CRM" y "Acciones".
+
+#### Columna "Estado CRM":
+Si el registro tiene un estado CRM asignado, este aparecerá como una etiqueta con fondo colorido.
+
+```php
+echo '<span class="estado-pill" style="background:'.$colorTxt.'20; border-color:'.$colorTxt.'; color:'.$colorTxt.';">';
+echo $estadoTxt;
+echo '</span>';
+```
+
+#### Columna "Acciones":
+Se proporcionan opciones para cambiar el estado CRM y un enlace a un informe detallado de cada inscripción.
+
+```php
+echo '<form method="post" class="form-estado" style="margin-bottom:4px;">';
+echo '<select name="estado">';
+foreach ($estadosCRM as $nombreEstado => $colorEstado) {
+  echo '<option value="'.htmlspecialchars($nombreEstado, ENT_QUOTES, 'UTF-8').'"';
+  if (isset($estadosActuales[$idRegistro]) && $estadosActuales[$idRegistro]['estado'] === $nombreEstado) {
+    echo ' selected';
+  }
+  echo '>';
+  echo htmlspecialchars($nombreEstado, ENT_QUOTES, 'UTF-8');
+  echo '</option>';
+}
+echo '</select>';
+echo '<button type="submit" class="btn-_estado">Guardar</button>';
+echo '</form>';
+```
+
+### Parte 4: Informes Detallados por Inscripción
+Si un usuario accede a una inscripción específica, se muestra información detallada de esa entrada, incluyendo la opción de enviar correos electrónicos si hay una columna de correo.
+
+```php
+if ($contactEmail) {
+  echo '<form method="post">';
+  echo '<label for="subject">Asunto:</label>';
+  echo '<input type="text" id="subject" name="subject"><br>';
+  echo '<textarea name="body"></textarea><br>';
+  echo '<button type="submit">Enviar Mensaje</button>';
+  echo '</form>';
+}
+```
+
+### Parte 5: Acción POST para Guardar Estado CRM
+El formulario de estado permite a los usuarios cambiar el estado CRM de una inscripción y guardar la nueva asignación.
+
+```php
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])) {
+    $idRegistro = $_POST['id_registro'];
+    $estado     = $_POST['estado'];
+
+    // Ejecutar consulta SQL para actualizar el estado CRM de esta inscripción.
+}
+```
+
+Este código es un ejemplo funcional pero debe ser adaptado y mejorado según las necesidades específicas del proyecto, como seguridad adicional (filtrado de entrada y salidas seguras), manejo de errores más detallados, entre otros.
+
+`007-informes y correo.php`
 
 ```
 <?php
@@ -12790,6 +16923,115 @@ if ($loggedIn && isset($_GET['view'])) {
 ```
 
 ### arreglos correo
+<small>Creado: 2025-12-04 16:45</small>
+
+#### Explicación
+
+El código proporcionado es una página web en PHP que se conecta a una base de datos MySQL y muestra información sobre registros en una tabla llamada `inscripciones`. La página también permite gestionar estados CRM (Customer Relationship Management) para cada registro, así como ver correos electrónicos relacionados con cada contacto. Aquí te presento un resumen detallado de cómo funciona el código:
+
+### Estructura del Código
+
+1. **Conexión a la Base de Datos**:
+   - Se establece una conexión a la base de datos `training_center` usando MySQLi.
+   - Se verifica si se ha proporcionado un ID de registro para mostrar detalles específicos.
+
+2. **Manejo de Estados CRM**:
+   - El código permite seleccionar y guardar estados CRM desde una lista desplegable en el formulario del estado.
+   - Los estados CRM son almacenados en la base de datos y representados visualmente con colores en la tabla principal.
+
+3. **Correos No Leídos**:
+   - Se verifica si hay correos no leídos para cada contacto y se muestra un icono indicativo en la columna correspondiente.
+
+4. **Visualización del Detalle de Registro**:
+   - Si se proporciona un ID, el código muestra detalles específicos del registro.
+   - Incluye una sección para ver correos enviados y recibidos relacionados con ese contacto (si hay uno).
+
+5. **Listado General de Registros**:
+   - Muestra todos los registros en la tabla `inscripciones` con sus respectivos estados CRM y acciones disponibles.
+
+### Detalles del Código
+
+#### Conexión a la Base de Datos
+```php
+$c = new mysqli("localhost", "training_center_user", "your_password_here", "training_center");
+
+if ($c->connect_errno) {
+    die("Falló la conexión: (" . $c->connect_errno . ") " . $c->connect_error);
+}
+```
+
+#### Obtención de Columnas y Detalles del Registro
+```php
+$r = $c->query("
+  SELECT COLUMN_NAME, COLUMN_TYPE, COLUMN_KEY, COLUMN_DEFAULT, COLUMN_COMMENT
+  FROM information_schema.columns
+  WHERE table_schema='training_center'
+    AND table_name='inscripciones'
+");
+
+// Recuperar el ID de registro si está proporcionado en la URL
+$registroId = null;
+if (isset($_GET['view'])) {
+    $registroId = trim(strip_tags($_GET['view']));
+}
+```
+
+#### Obtención del Estado Actual y Correos No Leídos
+```php
+$r = $c->query("SELECT * FROM estados CRM WHERE tabla='inscripciones'");
+$estadosActuales = [];
+while ($f = $r->fetch_assoc()) {
+    $estadosActuales[$f['id_registro']] = $f;
+}
+
+// Verificar correos no leídos para cada registro
+$r = $c->query("SELECT email FROM inscripciones WHERE email IS NOT NULL");
+$unreadByEmail = [];
+while ($f = $r->fetch_assoc()) {
+    // Logica adicional para verificar correos no leidos en IMAP o otro servicio de correo.
+}
+```
+
+#### Procesamiento y Visualización del Formulario Estado CRM
+```php
+if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['action'])) {
+    if ($_POST['action'] === 'update_estado') {
+        $id_registro = trim(strip_tags($_POST['id_registro']));
+        $estado      = trim(strip_tags($_POST['estado']));
+        
+        // Actualizar estado en la base de datos
+        $sql = "UPDATE estados CRM SET estado='$estado' WHERE id_registro=$id_registro";
+        $c->query($sql);
+    }
+}
+```
+
+### HTML y CSS
+
+El código también incluye HTML y CSS para mostrar la tabla, los formularios y las notificaciones. La estructura de la página está diseñada para ser fácil de leer y navegar:
+
+- **Tabla principal**: Muestra todos los registros con sus estados CRM.
+- **Formulario Estado CRM**: Permite seleccionar y guardar un estado para cada registro.
+- **Sección Detalle del Registro**: Muestra detalles específicos del registro cuando se proporciona un ID.
+
+### Consideraciones Adicionales
+
+1. **Seguridad**:
+   - El código utiliza `trim(strip_tags)` para limpiar los datos de entrada, pero aún puede beneficiarse de más validación y sanitización.
+   
+2. **Funcionalidades Futuras**:
+   - Puede incluir funcionalidades como paginación, búsqueda avanzada o exportación a formato CSV.
+
+3. **Estilo**:
+   - El código utiliza clases CSS para estilizar los elementos del formulario y la tabla (por ejemplo, `.badge-unread`, `.estado-pill`).
+
+### Ejemplo de Uso
+
+Cuando accedes a la URL sin parámetros (`?view=`), se muestra una lista general de registros con sus estados CRM. Al proporcionar un ID en la URL (`?view=ID_REGISTRO`), se muestran detalles específicos del registro, incluyendo correos enviados y recibidos si está disponible.
+
+Este código es bastante robusto para manejar tareas básicas de gestión de registros y estados CRM, aunque puede beneficiarse de mejoras en términos de seguridad y funcionalidad avanzada.
+
+`008-arreglos correo.php`
 
 ```
 <?php
@@ -14090,6 +18332,17 @@ if ($loggedIn && isset($_GET['view'])) {
 ```
 
 ### diagrama
+<small>Creado: 2025-12-04 15:44</small>
+
+#### Explicación
+
+Este fragmento de código es un archivo JSON que describe el diseño y la conexión de elementos en una interfaz gráfica o diagrama. Cada elemento del diagrama se representa como un rectángulo con diferentes propiedades, como su identificador único (`id`), tipo (como "rectangle"), posición (`left`, `top`) y texto descriptivo. Por ejemplo, el primer objeto en la lista de `"formas"` es un rectángulo que representa un formulario HTML.
+
+Además de los rectángulos, el archivo también incluye una sección para las flechas (`"flechas"`), que muestran cómo estos elementos están conectados o interrelacionados. Por ejemplo, hay una flecha simple que va desde "PHP" hasta "MySQL", sugiriendo la comunicación entre un script PHP y una base de datos MySQL.
+
+Este tipo de diagrama es útil para estudiantes ya que ayuda a visualizar y entender las relaciones entre diferentes tecnologías web (HTML, CSS, PHP, MySQL) en el desarrollo de un formulario. Es importante porque permite organizar mentalmente los pasos necesarios para crear un proyecto web completo desde la recogida de datos hasta su almacenamiento.
+
+`diagrama.json`
 
 ```json
 {
@@ -14192,6 +18445,25 @@ if ($loggedIn && isset($_GET['view'])) {
 ```
 
 ### listar_carpetas
+<small>Creado: 2025-12-04 16:45</small>
+
+#### Explicación
+
+Este fragmento de código es una parte del archivo `listar_carpetas.php`, donde se conecta a un servidor IMAP (Internet Message Access Protocol) para listar las carpetas o bandejas existentes en la cuenta de correo electrónico especificada. Aquí está el resumen de lo que hace:
+
+1. El código comienza definiendo variables `$host`, `$user` y `$pass`, que representan los detalles necesarios para conectarse al servidor IMAP (en este caso, `imap.ionos.es`). Estas variables incluyen la dirección del host, un usuario específico (`python@jocarsa.com`) y su contraseña (`TAME123$`).
+
+2. Luego se establece una conexión con el servidor IMAP usando la función `imap_open()`. La conexión está configurada para conectarse a la bandeja de entrada (INBOX) del correo electrónico.
+
+3. Si hay un error durante la apertura de la cuenta, el código detiene la ejecución y muestra un mensaje de error que proporciona detalles sobre qué salió mal (`Error IMAP: [descripción del error]`).
+
+4. Después de establecer una conexión exitosa, se intenta obtener una lista de todas las carpetas o bandejas en el servidor con `imap_getmailboxes()`. Si no se pueden recuperar estas carpetas, se muestra un mensaje de error similar al que vimos antes.
+
+5. Finalmente, si la operación es exitosa y se obtienen los nombres de las carpetas, éstos se muestran una por una en el navegador mediante el uso de `echo`. Estos nombres incluyen cualquier prefijo necesario para acceder a ellas usando PHP.
+
+Este código es importante porque permite interactuar con un servidor IMAP desde un script PHP y obtener información valiosa sobre la estructura del correo electrónico, lo cual puede ser útil para desarrollar aplicaciones que necesiten manejar o gestionar correos electrónicos de manera programática.
+
+`listar_carpetas.php`
 
 ```
 <?php
@@ -14221,6 +18493,35 @@ if ($folders === false) {
 imap_close($mbox);
 ```
 
+### Actividades propuestas
+
+El código proporcionado es un sistema web para gestionar inscripciones a un centro de formación, que incluye funcionalidades como autenticarse en la base de datos MySQL, listar y actualizar registros de inscripciones con estados CRM personalizados, y consultar correos no leídos por cada contacto. A continuación, se detallan los componentes principales del sistema:
+
+1. **Estructura HTML**: 
+   - Incluye una parte estática que siempre aparecerá en la página.
+   - Secciones dinámicas que cambian según el estado de autenticación y permisos del usuario.
+
+2. **PHP para manejo de sesiones**:
+   - Archivo `session.php`: Gestiona las funciones necesarias para iniciar sesión, verificar si un usuario está autenticado, cerrar la sesión actual y registrar mensajes de error o éxito.
+   
+3. **Conexión a MySQL**:
+   - Archivos `conectar_db.php` y `funciones_mysql.php`: Establecen una conexión segura con la base de datos MySQL (`training_center`) y proporcionan funciones para realizar consultas SQL, obtener detalles sobre las columnas de la tabla `inscripciones`, actualizar registros de inscripción y ver correos no leídos.
+
+4. **Interacción con IMAP**:
+   - Archivos `funciones_imap.php` y `listar_carpetas.php`: Permiten autenticarse en el servidor IMAP, listar carpetas disponibles y gestionar mensajes de correo electrónico sin leer asociados a cada contacto inscrito (mediante la columna 'email' del registro).
+
+5. **Funcionalidades CRUD**:
+   - El sistema proporciona funcionalidades para crear, leer, actualizar y eliminar registros en la tabla `inscripciones`.
+   
+6. **Formulario de Actualización de Estado CRM**:
+   - Permite a los usuarios seleccionar un estado CRM para cada inscripción.
+   
+7. **Diagrama JSON**:
+   - Representa visualmente cómo las partes del sistema interactúan entre sí, mostrando relaciones entre HTML, CSS, PHP y MySQL.
+
+Para mejorar este sistema, se podrían considerar mejoras en términos de seguridad (como hashing de contraseñas), rendimiento y usabilidad para los usuarios finales. Además, la documentación y la estructura del código pueden ser ajustadas para facilitar su mantenimiento a largo plazo.
+
+
 
 <a id="milla-extra-evaluacion-1"></a>
 # Milla Extra Evaluacion 1
@@ -14232,8 +18533,44 @@ imap_close($mbox);
 <a id="la-milla-extra-primera-evaluacion"></a>
 ## La Milla Extra - Primera evaluación
 
-### ejercicio
+### Introducción a los ejercicios
 
-```markdown
+El archivo proporcionado en la carpeta "ejercicios" contiene un conjunto de problemas diseñados para evaluar y mejorar tus habilidades en programación, específicamente enfocadas a estudiantes del segundo curso de Formación Profesional. Estos ejercicios buscan que apliques conceptos como estructuras de control (condicionales y bucles), manejo de datos (listas, diccionarios) y funciones para resolver problemas prácticos. La idea es reforzar tus competencias en resolución de problemas algoritímicos y mejorar tu capacidad para escribir código eficiente y limpio.
 
-```
+### Actividades propuestas
+
+Basándome en las instrucciones y suponiendo que los ejercicios dentro del archivo `ejercicio.md` están relacionados con conceptos básicos de programación, estructuras de control (como condicionales y bucles), manejo de funciones y posiblemente el uso de listas o arrays, propongo las siguientes actividades para estudiantes de Formación Profesional:
+
+1. **Reconocimiento del Problema**
+   - Descripción: Identifica los problemas presentados en los ejercicios proporcionados y describe cómo se podrían solucionar.
+   - Objetivo: Aprender a analizar problemas de programación y proponer soluciones iniciales.
+
+2. **Estructuras de Control Personalizadas**
+   - Descripción: Diseña nuevas estructuras de control basándote en ejemplos proporcionados, pero aplicando conceptos aprendidos.
+   - Objetivo: Mejorar la comprensión y aplicación de condicionales y bucles.
+
+3. **Funciones Mejoradas**
+   - Descripción: Implementa funciones que realicen tareas más complejas basándose en ejemplos proporcionados, mejorando la eficiencia del código.
+   - Objetivo: Aprender a modularizar el código y mejorar sus capacidades de reutilización.
+
+4. **Optimización de Código**
+   - Descripción: Analiza el código existente para identificar áreas que puedan ser optimizadas, mejorando la eficiencia del programa.
+   - Objetivo: Aprender a leer y optimizar el código existente.
+
+5. **Manejo de Listas Avanzado**
+   - Descripción: Trabaja con listas o arrays para realizar operaciones más complejas como filtrar, ordenar y buscar elementos específicos.
+   - Objetivo: Aprender a manejar datos estructurados de manera eficiente.
+
+6. **Integración de Funciones**
+   - Descripción: Combinar varias funciones en un solo programa para resolver problemas más grandes que requieren múltiples pasos.
+   - Objetivo: Mejorar la capacidad de integrar diferentes partes del código en una solución completa.
+
+7. **Pruebas y Depuración**
+   - Descripción: Realiza pruebas unitarias y busca errores en el código proporcionado, corrigiéndolos para mejorar su funcionalidad.
+   - Objetivo: Aprender a depurar y probar programas de manera efectiva.
+
+8. **Documentación del Código**
+   - Descripción: Escribe documentación clara que explique cómo funciona el programa y qué hace cada parte del código.
+   - Objetivo: Mejorar la habilidad para comunicarse sobre las soluciones de programación de una manera accesible.
+
+Estas actividades están diseñadas para ayudar a los estudiantes a profundizar en sus conocimientos de programación, mejorando no solo su capacidad técnica sino también sus habilidades de resolución de problemas y comunicación.
