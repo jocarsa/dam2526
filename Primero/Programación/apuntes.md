@@ -85,6 +85,7 @@
   - [Almacenamiento, recuperación, actualización y eliminación de información en bases de datos](#almacenamiento-recuperacion-actualizacion-y-eliminacion-de-informacion-en-bases-de-datos)
 - [Proyectos](#proyectos)
   - [Proyecto formulario](#proyecto-formulario)
+  - [Panel de control de tienda online](#panel-de-control-de-tienda-online)
 - [Milla Extra Evaluacion 1](#milla-extra-evaluacion-1)
 - [Actividad libre de final de evaluación - La milla extra](#actividad-libre-de-final-de-evaluacion-la-milla-extra)
   - [La Milla Extra - Primera evaluación](#la-milla-extra-primera-evaluacion)
@@ -18520,6 +18521,10 @@ El código proporcionado es un sistema web para gestionar inscripciones a un cen
    - Representa visualmente cómo las partes del sistema interactúan entre sí, mostrando relaciones entre HTML, CSS, PHP y MySQL.
 
 Para mejorar este sistema, se podrían considerar mejoras en términos de seguridad (como hashing de contraseñas), rendimiento y usabilidad para los usuarios finales. Además, la documentación y la estructura del código pueden ser ajustadas para facilitar su mantenimiento a largo plazo.
+
+
+<a id="panel-de-control-de-tienda-online"></a>
+## Panel de control de tienda online
 
 
 

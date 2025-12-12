@@ -47,6 +47,8 @@
   - [entrenar chatbot a partir de pdf](#entrenar-chatbot-a-partir-de-pdf)
   - [scrapeador web y entrenamiento](#scrapeador-web-y-entrenamiento)
   - [interfaz natural IA](#interfaz-natural-ia)
+  - [Email IA](#email-ia)
+  - [Proyecto RRHH con IA](#proyecto-rrhh-con-ia)
 - [Actividad libre de final de evaluación - La milla extra](#actividad-libre-de-final-de-evaluacion-la-milla-extra)
   - [La Milla Extra - Primera evaluación](#la-milla-extra-primera-evaluacion)
 
@@ -8661,6 +8663,11112 @@ Con estas modificaciones, el script puede ser más eficiente y flexible para man
 
 <a id="interfaz-natural-ia"></a>
 ## interfaz natural IA
+
+
+<a id="email-ia"></a>
+## Email IA
+
+### envio smtp
+<small>Creado: 2025-12-11 19:25</small>
+
+`000-envio smtp.py`
+
+```python
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+
+# Configuración del servidor SMTP
+SMTP_SERVER = "smtp.ionos.es"
+SMTP_PORT = 587  # 465 si usas SSL directo
+SMTP_USER = "python@jocarsa.com"
+SMTP_PASSWORD = "TAME123$"
+
+# Mensaje
+remitente = "python@jocarsa.com"
+destinatario = "jocarsa2@gmail.com"
+asunto = "Correo enviado desde Python"
+cuerpo = "Hola,\n\nEste correo lo he enviado con Python 😄\n\nSaludos!"
+
+# Crear mensaje MIME
+mensaje = MIMEMultipart()
+mensaje["From"] = remitente
+mensaje["To"] = destinatario
+mensaje["Subject"] = asunto
+mensaje.attach(MIMEText(cuerpo, "plain"))
+
+# Enviar
+try:
+    server = smtplib.SMTP(SMTP_SERVER, SMTP_PORT)
+    server.starttls()  # Si el servidor requiere TLS
+    server.login(SMTP_USER, SMTP_PASSWORD)
+    server.sendmail(remitente, destinatario, mensaje.as_string())
+    server.quit()
+    print("Correo enviado con éxito ✨")
+except Exception as e:
+    print("Error enviando el correo:", e)
+```
+
+### primera version
+<small>Creado: 2025-12-10 20:30</small>
+
+`001-primera version.php`
+
+```
+<?php
+// Guarda este archivo como, por ejemplo, email_dictado.php
+
+// === CONFIGURACIÓN DE LA API REMOTA (igual que en tu script de Python) ===
+$API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+$API_KEY = "TEST_API_KEY_JOCARSA_123"; // cambia por tu API key real
+
+$textoOriginal   = '';
+$textoFormateado = '';
+$errorMsg        = '';
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $textoOriginal = isset($_POST['texto']) ? trim($_POST['texto']) : '';
+
+    if ($textoOriginal === '') {
+        $errorMsg = "Por favor, introduce el texto dictado.";
+    } else {
+        // Prompt que se envía a TU API (en el campo "question")
+        // Adaptado al caso: formatear un email en español a partir de un dictado.
+        $question = 
+            "Eres un asistente experto redactando correos electrónicos en español.\n\n" .
+            "Tarea:\n" .
+            "- A partir del texto dictado que te paso, reescribe un correo electrónico bien redactado.\n" .
+            "- Idioma: español de España, tono formal pero cercano.\n" .
+            "- Incluye una línea inicial con el asunto: 'Asunto: ...'.\n" .
+            "- Añade un saludo adecuado (por ejemplo, 'Buenos días,', 'Hola,', etc.).\n" .
+            "- Organiza el cuerpo en párrafos claros, corrigiendo gramática, ortografía y puntuación.\n" .
+            "- Añade una despedida adecuada (por ejemplo, 'Un saludo,') y deja la firma en blanco para que el usuario la complete.\n" .
+            "- No expliques lo que haces, devuelve solo el texto final del correo listo para copiar y pegar.\n\n" .
+            "Texto dictado:\n" .
+            $textoOriginal;
+
+        // Preparamos la petición cURL a tu API PHP
+        $ch = curl_init($API_URL);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_POST, true);
+
+        // Enviamos la pregunta como application/x-www-form-urlencoded, campo "question"
+        $postFields = http_build_query([
+            'question' => $question
+        ]);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $postFields);
+
+        // Cabeceras: tu API espera X-API-Key
+        curl_setopt($ch, CURLOPT_HTTPHEADER, [
+            'X-API-Key: ' . $API_KEY,
+            'Content-Type: application/x-www-form-urlencoded'
+        ]);
+
+        // Igual que en el script de Python: verify=False (desactivar verificación SSL)
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+
+        $response = curl_exec($ch);
+
+        if ($response === false) {
+            $errorMsg = "Error al contactar con la API remota: " . curl_error($ch);
+        } else {
+            $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+            if ($status !== 200) {
+                $errorMsg = "La API remota devolvió HTTP $status. Respuesta: " . $response;
+            } else {
+                $data = json_decode($response, true);
+                if (json_last_error() !== JSON_ERROR_NONE) {
+                    $errorMsg = "Error al decodificar JSON: " . json_last_error_msg() . ". Respuesta: " . $response;
+                } else {
+                    if (isset($data['answer']) && is_string($data['answer'])) {
+                        $textoFormateado = trim($data['answer']);
+                    } else {
+                        $errorMsg = "La respuesta de la API no contiene el campo 'answer'. Respuesta: " . $response;
+                    }
+                }
+            }
+        }
+
+        curl_close($ch);
+    }
+}
+?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formateador de correos dictados (API personalizada)</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            margin: 2rem;
+            background: #f5f5f5;
+        }
+        h1 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        label {
+            font-weight: 600;
+            display: block;
+            margin-bottom: .5rem;
+        }
+        textarea {
+            width: 100%;
+            min-height: 180px;
+            padding: .75rem;
+            border-radius: .4rem;
+            border: 1px solid #ccc;
+            font-family: inherit;
+            resize: vertical;
+        }
+        button {
+            margin-top: 1rem;
+            padding: .6rem 1.2rem;
+            border-radius: .4rem;
+            border: none;
+            cursor: pointer;
+            font-weight: 600;
+            background: #2563eb;
+            color: white;
+        }
+        button:hover {
+            background: #1d4ed8;
+        }
+        .error {
+            margin-top: 1rem;
+            padding: .75rem 1rem;
+            background: #fee2e2;
+            border: 1px solid #fecaca;
+            color: #991b1b;
+            border-radius: .4rem;
+        }
+        .columns {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        @media (max-width: 900px) {
+            .columns {
+                grid-template-columns: 1fr;
+            }
+        }
+        .box {
+            background: #ffffff;
+            border-radius: .5rem;
+            border: 1px solid #ddd;
+            padding: 1rem;
+        }
+        .box h2 {
+            font-size: 1.1rem;
+            margin-bottom: .75rem;
+        }
+        pre {
+            margin: 0;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formateador de correos dictados (API personalizada)</h1>
+
+    <form method="post">
+        <label for="texto">Texto dictado (en español)</label>
+        <textarea id="texto" name="texto" placeholder="Ejemplo: &quot;hola juan el otro dia estuve mirando lo de la factura y creo que hay un error...&quot;"><?php
+            echo htmlspecialchars($textoOriginal, ENT_QUOTES, 'UTF-8');
+        ?></textarea>
+        <button type="submit">Formatear correo</button>
+    </form>
+
+    <?php if ($errorMsg): ?>
+        <div class="error">
+            <?php echo htmlspecialchars($errorMsg, ENT_QUOTES, 'UTF-8'); ?>
+        </div>
+    <?php endif; ?>
+
+    <?php if ($textoOriginal !== '' && ($textoFormateado !== '' || $errorMsg)): ?>
+        <div class="columns">
+            <div class="box">
+                <h2>Texto original</h2>
+                <pre><?php echo htmlspecialchars($textoOriginal, ENT_QUOTES, 'UTF-8'); ?></pre>
+            </div>
+            <div class="box">
+                <h2>Correo formateado</h2>
+                <pre><?php echo htmlspecialchars($textoFormateado, ENT_QUOTES, 'UTF-8'); ?></pre>
+            </div>
+        </div>
+    <?php endif; ?>
+</body>
+</html>
+```
+
+### segunda version
+<small>Creado: 2025-12-10 20:32</small>
+
+`002-segunda version.php`
+
+```
+<?php
+// Guarda este archivo como, por ejemplo, email_dictado.php
+
+// === CONFIGURACIÓN DE LA API REMOTA (igual que en tu script de Python) ===
+$API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+$API_KEY = "TEST_API_KEY_JOCARSA_123"; // cambia por tu API key real
+
+$textoOriginal   = '';
+$textoFormateado = '';
+$errorMsg        = '';
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $textoOriginal = isset($_POST['texto']) ? trim($_POST['texto']) : '';
+
+    if ($textoOriginal === '') {
+        $errorMsg = "Por favor, introduce el texto dictado.";
+    } else {
+        // Prompt: reescribir EXACTAMENTE el mismo contenido, sin inventar ni añadir texto nuevo.
+        $question =
+            "Eres un asistente de edición de texto en español.\n\n" .
+            "TAREA:\n" .
+            "Reescribe el texto que te paso a continuación, manteniendo EXACTAMENTE el mismo contenido y significado,\n" .
+            "pero corrigiendo solo:\n" .
+            "- Ortografía y acentuación.\n" .
+            "- Puntuación.\n" .
+            "- Mayúsculas y minúsculas.\n" .
+            "- Saltos de línea y separación en párrafos para que sea más legible.\n\n" .
+            "REGLAS ESTRICTAS:\n" .
+            "- No añadas información nueva.\n" .
+            "- No inventes nombres, fechas, cifras ni detalles.\n" .
+            "- No elimines información relevante.\n" .
+            "- No añadas saludos, despedidas, asuntos ni secciones que no aparezcan en el texto original.\n" .
+            "- Mantén el mismo orden de ideas y el mismo contenido, solo mejor presentado.\n" .
+            "- No expliques lo que haces.\n" .
+            "- Devuelve únicamente el texto corregido, sin comentarios adicionales, sin comillas y sin formato extra.\n\n" .
+            "Texto original:\n" .
+            $textoOriginal;
+
+        // Petición cURL a tu API PHP
+        $ch = curl_init($API_URL);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_POST, true);
+
+        // Enviamos la pregunta como application/x-www-form-urlencoded, campo "question"
+        $postFields = http_build_query([
+            'question' => $question
+        ]);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $postFields);
+
+        // Cabeceras: tu API espera X-API-Key
+        curl_setopt($ch, CURLOPT_HTTPHEADER, [
+            'X-API-Key: ' . $API_KEY,
+            'Content-Type: application/x-www-form-urlencoded'
+        ]);
+
+        // Igual que en el script de Python: verify=False (desactivar verificación SSL)
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+
+        $response = curl_exec($ch);
+
+        if ($response === false) {
+            $errorMsg = "Error al contactar con la API remota: " . curl_error($ch);
+        } else {
+            $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+            if ($status !== 200) {
+                $errorMsg = "La API remota devolvió HTTP $status. Respuesta: " . $response;
+            } else {
+                $data = json_decode($response, true);
+                if (json_last_error() !== JSON_ERROR_NONE) {
+                    $errorMsg = "Error al decodificar JSON: " . json_last_error_msg() . ". Respuesta: " . $response;
+                } else {
+                    if (isset($data['answer']) && is_string($data['answer'])) {
+                        $textoFormateado = trim($data['answer']);
+                    } else {
+                        $errorMsg = "La respuesta de la API no contiene el campo 'answer'. Respuesta: " . $response;
+                    }
+                }
+            }
+        }
+
+        curl_close($ch);
+    }
+}
+?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reformatear texto dictado (API personalizada)</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            margin: 2rem;
+            background: #f5f5f5;
+        }
+        h1 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        label {
+            font-weight: 600;
+            display: block;
+            margin-bottom: .5rem;
+        }
+        textarea {
+            width: 100%;
+            min-height: 180px;
+            padding: .75rem;
+            border-radius: .4rem;
+            border: 1px solid #ccc;
+            font-family: inherit;
+            resize: vertical;
+        }
+        button {
+            margin-top: 1rem;
+            padding: .6rem 1.2rem;
+            border-radius: .4rem;
+            border: none;
+            cursor: pointer;
+            font-weight: 600;
+            background: #2563eb;
+            color: white;
+        }
+        button:hover {
+            background: #1d4ed8;
+        }
+        .error {
+            margin-top: 1rem;
+            padding: .75rem 1rem;
+            background: #fee2e2;
+            border: 1px solid #fecaca;
+            color: #991b1b;
+            border-radius: .4rem;
+        }
+        .columns {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        @media (max-width: 900px) {
+            .columns {
+                grid-template-columns: 1fr;
+            }
+        }
+        .box {
+            background: #ffffff;
+            border-radius: .5rem;
+            border: 1px solid #ddd;
+            padding: 1rem;
+        }
+        .box h2 {
+            font-size: 1.1rem;
+            margin-bottom: .75rem;
+        }
+        pre {
+            margin: 0;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <h1>Reformatear texto dictado (API personalizada)</h1>
+
+    <form method="post">
+        <label for="texto">Texto dictado (en español)</label>
+        <textarea id="texto" name="texto" placeholder="Pega aquí tu dictado..."><?php
+            echo htmlspecialchars($textoOriginal, ENT_QUOTES, 'UTF-8');
+        ?></textarea>
+        <button type="submit">Reformatear texto</button>
+    </form>
+
+    <?php if ($errorMsg): ?>
+        <div class="error">
+            <?php echo htmlspecialchars($errorMsg, ENT_QUOTES, 'UTF-8'); ?>
+        </div>
+    <?php endif; ?>
+
+    <?php if ($textoOriginal !== '' && ($textoFormateado !== '' || $errorMsg)): ?>
+        <div class="columns">
+            <div class="box">
+                <h2>Texto original</h2>
+                <pre><?php echo htmlspecialchars($textoOriginal, ENT_QUOTES, 'UTF-8'); ?></pre>
+            </div>
+            <div class="box">
+                <h2>Texto corregido</h2>
+                <pre><?php echo htmlspecialchars($textoFormateado, ENT_QUOTES, 'UTF-8'); ?></pre>
+            </div>
+        </div>
+    <?php endif; ?>
+</body>
+</html>
+```
+
+### interfaces natural
+<small>Creado: 2025-12-10 20:37</small>
+
+`003-interfaces natural.php`
+
+```
+<?php
+// Guarda este archivo como, por ejemplo, email_dictado_voz.php
+
+// === CONFIGURACIÓN DE LA API REMOTA (igual que en tu script de Python) ===
+$API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+$API_KEY = "TEST_API_KEY_JOCARSA_123"; // cambia por tu API key real
+
+$textoOriginal   = '';
+$textoFormateado = '';
+$errorMsg        = '';
+
+function ajustarFormatoEmail(string $texto): string
+{
+    // Normalizar saltos de línea
+    $texto = preg_replace("/\r\n|\r/", "\n", trim($texto));
+
+    if ($texto === '') {
+        return '';
+    }
+
+    $lineas = explode("\n", $texto);
+    // Quitar espacios a la derecha
+    $lineas = array_map(static fn($l) => rtrim($l), $lineas);
+
+    // 1) Reducir grupos largos de líneas en blanco (máximo 1 consecutiva)
+    $limpias = [];
+    $vaciasSeguidas = 0;
+    foreach ($lineas as $l) {
+        if (trim($l) === '') {
+            $vaciasSeguidas++;
+            if ($vaciasSeguidas > 1) {
+                continue;
+            }
+        } else {
+            $vaciasSeguidas = 0;
+        }
+        $limpias[] = $l;
+    }
+    $lineas = $limpias;
+
+    // 2) Asegurar línea en blanco tras el saludo (si existe)
+    //    Solo se considera el primer contenido no vacío.
+    $greetingRegex = '/^(hola|buenos dias|buenos días|buenas tardes|buenas noches|estimad[oa]s?|querid[oa]s?)/iu';
+    $n = count($lineas);
+    for ($i = 0; $i < $n; $i++) {
+        $ltrim = ltrim($lineas[$i]);
+        if ($ltrim === '') {
+            continue;
+        }
+        if (preg_match($greetingRegex, $ltrim)) {
+            // Insertar una línea en blanco si no existe ya
+            if ($i + 1 >= $n || trim($lineas[$i + 1]) !== '') {
+                array_splice($lineas, $i + 1, 0, ['']);
+            }
+        }
+        break; // solo miramos la primera línea no vacía
+    }
+
+    // 3) Asegurar línea en blanco antes del cierre (si existe)
+    $closingRegex = '/^(un saludo|saludos|atentamente|cordialmente|muchas gracias|gracias de antemano)/iu';
+    $n = count($lineas);
+    for ($i = $n - 1; $i >= 0; $i--) {
+        $ltrim = ltrim($lineas[$i]);
+        if ($ltrim === '') {
+            continue;
+        }
+        if (preg_match($closingRegex, $ltrim)) {
+            // Insertar una línea en blanco antes si no existe ya
+            if ($i - 1 < 0 || trim($lineas[$i - 1]) !== '') {
+                array_splice($lineas, $i, 0, ['']);
+            }
+            break;
+        }
+    }
+
+    return implode("\n", $lineas);
+}
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $textoOriginal = isset($_POST['texto']) ? trim($_POST['texto']) : '';
+
+    if ($textoOriginal === '') {
+        $errorMsg = "Por favor, introduce o dicta el texto.";
+    } else {
+        // Prompt: reescribir EXACTAMENTE el mismo contenido, sin inventar ni añadir texto nuevo.
+        $question =
+            "Eres un asistente de edición de texto en español.\n\n" .
+            "TAREA:\n" .
+            "Reescribe el texto que te paso a continuación, manteniendo EXACTAMENTE el mismo contenido y significado,\n" .
+            "pero corrigiendo solo:\n" .
+            "- Ortografía y acentuación.\n" .
+            "- Puntuación.\n" .
+            "- Mayúsculas y minúsculas.\n" .
+            "- Saltos de línea y separación en párrafos para que sea más legible.\n\n" .
+            "REGLAS ESTRICTAS:\n" .
+            "- No añadas información nueva.\n" .
+            "- No inventes nombres, fechas, cifras ni detalles.\n" .
+            "- No elimines información relevante.\n" .
+            "- No añadas saludos, despedidas, asuntos ni secciones que no aparezcan en el texto original.\n" .
+            "- Mantén el mismo orden de ideas y el mismo contenido, solo mejor presentado.\n" .
+            "- No expliques lo que haces.\n" .
+            "- Devuelve únicamente el texto corregido, sin comentarios adicionales, sin comillas y sin formato extra.\n\n" .
+            "Texto original:\n" .
+            $textoOriginal;
+
+        // Petición cURL a tu API PHP
+        $ch = curl_init($API_URL);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_POST, true);
+
+        // Enviamos la pregunta como application/x-www-form-urlencoded, campo "question"
+        $postFields = http_build_query([
+            'question' => $question
+        ]);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $postFields);
+
+        // Cabeceras: tu API espera X-API-Key
+        curl_setopt($ch, CURLOPT_HTTPHEADER, [
+            'X-API-Key: ' . $API_KEY,
+            'Content-Type: application/x-www-form-urlencoded'
+        ]);
+
+        // verify=False (desactivar verificación SSL, como en tu script Python)
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+
+        $response = curl_exec($ch);
+
+        if ($response === false) {
+            $errorMsg = "Error al contactar con la API remota: " . curl_error($ch);
+        } else {
+            $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+            if ($status !== 200) {
+                $errorMsg = "La API remota devolvió HTTP $status. Respuesta: " . $response;
+            } else {
+                $data = json_decode($response, true);
+                if (json_last_error() !== JSON_ERROR_NONE) {
+                    $errorMsg = "Error al decodificar JSON: " . json_last_error_msg() . ". Respuesta: " . $response;
+                } else {
+                    if (isset($data['answer']) && is_string($data['answer'])) {
+                        $textoFormateado = trim($data['answer']);
+                        // Ajuste final de formato tipo email (solo saltos de línea)
+                        $textoFormateado = ajustarFormatoEmail($textoFormateado);
+                    } else {
+                        $errorMsg = "La respuesta de la API no contiene el campo 'answer'. Respuesta: " . $response;
+                    }
+                }
+            }
+        }
+
+        curl_close($ch);
+    }
+}
+?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Dictado y reformateo de texto (API personalizada)</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            margin: 2rem;
+            background: #f5f5f5;
+        }
+        h1 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        label {
+            font-weight: 600;
+            display: block;
+            margin-bottom: .5rem;
+        }
+        textarea {
+            width: 100%;
+            min-height: 180px;
+            padding: .75rem;
+            border-radius: .4rem;
+            border: 1px solid #ccc;
+            font-family: inherit;
+            resize: vertical;
+        }
+        button, .secondary-button {
+            margin-top: 1rem;
+            padding: .6rem 1.2rem;
+            border-radius: .4rem;
+            border: none;
+            cursor: pointer;
+            font-weight: 600;
+        }
+        button {
+            background: #2563eb;
+            color: white;
+        }
+        button:hover {
+            background: #1d4ed8;
+        }
+        .secondary-button {
+            background: #e5e7eb;
+            color: #111827;
+            margin-right: .5rem;
+        }
+        .secondary-button.active {
+            background: #16a34a;
+            color: #ffffff;
+        }
+        .error {
+            margin-top: 1rem;
+            padding: .75rem 1rem;
+            background: #fee2e2;
+            border: 1px solid #fecaca;
+            color: #991b1b;
+            border-radius: .4rem;
+        }
+        .info {
+            margin-top: .5rem;
+            font-size: .85rem;
+            color: #4b5563;
+        }
+        .columns {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        @media (max-width: 900px) {
+            .columns {
+                grid-template-columns: 1fr;
+            }
+        }
+        .box {
+            background: #ffffff;
+            border-radius: .5rem;
+            border: 1px solid #ddd;
+            padding: 1rem;
+        }
+        .box h2 {
+            font-size: 1.1rem;
+            margin-bottom: .75rem;
+        }
+        pre {
+            margin: 0;
+            white-space: pre-wrap;
+        }
+        .status {
+            margin-left: .5rem;
+            font-size: .85rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dictado y reformateo de texto (API personalizada)</h1>
+
+    <form method="post">
+        <label for="texto">Texto dictado (en español)</label>
+        <textarea id="texto" name="texto" placeholder="Pulsa &quot;Dictar&quot; o pega aquí tu texto..."><?php
+            echo htmlspecialchars($textoOriginal, ENT_QUOTES, 'UTF-8');
+        ?></textarea>
+        <div>
+            <button type="button" id="btnDictar" class="secondary-button">🎙️ Dictar</button>
+            <span id="estadoDictado" class="status"></span>
+        </div>
+        <div class="info">
+            El dictado usa la API de reconocimiento de voz del navegador (Web Speech API).  
+            Funciona mejor en Chrome/Edge de escritorio. Configurado para <strong>es-ES</strong>.
+        </div>
+        <button type="submit">Reformatear texto</button>
+    </form>
+
+    <?php if ($errorMsg): ?>
+        <div class="error">
+            <?php echo htmlspecialchars($errorMsg, ENT_QUOTES, 'UTF-8'); ?>
+        </div>
+    <?php endif; ?>
+
+    <?php if ($textoOriginal !== '' && ($textoFormateado !== '' || $errorMsg)): ?>
+        <div class="columns">
+            <div class="box">
+                <h2>Texto original</h2>
+                <pre><?php echo htmlspecialchars($textoOriginal, ENT_QUOTES, 'UTF-8'); ?></pre>
+            </div>
+            <div class="box">
+                <h2>Texto corregido (formato email)</h2>
+                <pre><?php echo htmlspecialchars($textoFormateado, ENT_QUOTES, 'UTF-8'); ?></pre>
+            </div>
+        </div>
+    <?php endif; ?>
+
+    <script>
+    (function() {
+        const textarea = document.getElementById('texto');
+        const btnDictar = document.getElementById('btnDictar');
+        const estado = document.getElementById('estadoDictado');
+
+        let recognition = null;
+        let escuchando = false;
+
+        if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window) {
+            const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+            recognition = new SR();
+            recognition.lang = 'es-ES';
+            recognition.continuous = true;
+            recognition.interimResults = true;
+
+            recognition.onstart = function() {
+                escuchando = true;
+                btnDictar.classList.add('active');
+                estado.textContent = 'Escuchando... habla cerca del micrófono.';
+            };
+
+            recognition.onerror = function(event) {
+                escuchando = false;
+                btnDictar.classList.remove('active');
+                estado.textContent = 'Error en el reconocimiento de voz.';
+                console.error('Speech recognition error:', event);
+            };
+
+            recognition.onend = function() {
+                escuchando = false;
+                btnDictar.classList.remove('active');
+                estado.textContent = 'Dictado detenido.';
+            };
+
+            recognition.onresult = function(event) {
+                let finalText = '';
+                let interimText = '';
+
+                for (let i = event.resultIndex; i < event.results.length; i++) {
+                    const transcript = event.results[i][0].transcript;
+                    if (event.results[i].isFinal) {
+                        finalText += transcript + ' ';
+                    } else {
+                        interimText += transcript;
+                    }
+                }
+
+                if (finalText) {
+                    // Añadir lo reconocido definitivamente al textarea
+                    textarea.value = textarea.value.replace(/\s+$/, '') + (textarea.value ? ' ' : '') + finalText.trim() + ' ';
+                }
+            };
+
+            btnDictar.addEventListener('click', function() {
+                if (!recognition) return;
+                if (!escuchando) {
+                    try {
+                        recognition.start();
+                    } catch (e) {
+                        console.error(e);
+                    }
+                } else {
+                    recognition.stop();
+                }
+            });
+        } else {
+            // No hay soporte de Web Speech API
+            btnDictar.disabled = true;
+            estado.textContent = 'El dictado por voz no es compatible con este navegador.';
+        }
+    })();
+    </script>
+</body>
+</html>
+```
+
+### mejoras
+<small>Creado: 2025-12-10 20:41</small>
+
+`004-mejoras.php`
+
+```
+<?php
+// Guarda este archivo como, por ejemplo, email_dictado_voz.php
+
+// === CONFIGURACIÓN DE LA API REMOTA (igual que en tu script de Python) ===
+$API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+$API_KEY = "TEST_API_KEY_JOCARSA_123"; // cambia por tu API key real
+
+$textoOriginal   = '';
+$textoFormateado = '';
+$errorMsg        = '';
+
+function ajustarFormatoEmail(string $texto): string
+{
+    // Normalizar saltos de línea
+    $texto = preg_replace("/\r\n|\r/", "\n", trim($texto));
+
+    if ($texto === '') {
+        return '';
+    }
+
+    $lineas = explode("\n", $texto);
+    // Quitar espacios a la derecha
+    $lineas = array_map(static fn($l) => rtrim($l), $lineas);
+
+    // 1) Reducir grupos largos de líneas en blanco (máximo 1 consecutiva)
+    $limpias = [];
+    $vaciasSeguidas = 0;
+    foreach ($lineas as $l) {
+        if (trim($l) === '') {
+            $vaciasSeguidas++;
+            if ($vaciasSeguidas > 1) {
+                continue;
+            }
+        } else {
+            $vaciasSeguidas = 0;
+        }
+        $limpias[] = $l;
+    }
+    $lineas = $limpias;
+
+    // 2) Asegurar línea en blanco tras el saludo (si existe)
+    //    Solo se considera el primer contenido no vacío.
+    $greetingRegex = '/^(hola|buenos dias|buenos días|buenas tardes|buenas noches|estimad[oa]s?|querid[oa]s?)/iu';
+    $n = count($lineas);
+    for ($i = 0; $i < $n; $i++) {
+        $ltrim = ltrim($lineas[$i]);
+        if ($ltrim === '') {
+            continue;
+        }
+        if (preg_match($greetingRegex, $ltrim)) {
+            // Insertar una línea en blanco si no existe ya
+            if ($i + 1 >= $n || trim($lineas[$i + 1]) !== '') {
+                array_splice($lineas, $i + 1, 0, ['']);
+            }
+        }
+        break; // solo miramos la primera línea no vacía
+    }
+
+    // 3) Asegurar línea en blanco antes del cierre (si existe)
+    $closingRegex = '/^(un saludo|saludos|atentamente|cordialmente|muchas gracias|gracias de antemano)/iu';
+    $n = count($lineas);
+    for ($i = $n - 1; $i >= 0; $i--) {
+        $ltrim = ltrim($lineas[$i]);
+        if ($ltrim === '') {
+            continue;
+        }
+        if (preg_match($closingRegex, $ltrim)) {
+            // Insertar una línea en blanco antes si no existe ya
+            if ($i - 1 < 0 || trim($lineas[$i - 1]) !== '') {
+                array_splice($lineas, $i, 0, ['']);
+            }
+            break;
+        }
+    }
+
+    return implode("\n", $lineas);
+}
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $textoOriginal = isset($_POST['texto']) ? trim($_POST['texto']) : '';
+
+    if ($textoOriginal === '') {
+        $errorMsg = "Por favor, introduce o dicta el texto.";
+    } else {
+        // Prompt: reescribir EXACTAMENTE el mismo contenido, sin inventar ni añadir texto nuevo.
+        $question =
+            "Eres un asistente de edición de texto en español.\n\n" .
+            "TAREA:\n" .
+            "Reescribe el texto que te paso a continuación, manteniendo EXACTAMENTE el mismo contenido y significado,\n" .
+            "pero corrigiendo solo:\n" .
+            "- Ortografía y acentuación.\n" .
+            "- Puntuación.\n" .
+            "- Mayúsculas y minúsculas.\n" .
+            "- Saltos de línea y separación en párrafos para que sea más legible.\n\n" .
+            "REGLAS ESTRICTAS:\n" .
+            "- No añadas información nueva.\n" .
+            "- No inventes nombres, fechas, cifras ni detalles.\n" .
+            "- No elimines información relevante.\n" .
+            "- No añadas saludos, despedidas, asuntos ni secciones que no aparezcan en el texto original.\n" .
+            "- Mantén el mismo orden de ideas y el mismo contenido, solo mejor presentado.\n" .
+            "- No expliques lo que haces.\n" .
+            "- Devuelve únicamente el texto corregido, sin comentarios adicionales, sin comillas y sin formato extra.\n\n" .
+            "Texto original:\n" .
+            $textoOriginal;
+
+        // Petición cURL a tu API PHP
+        $ch = curl_init($API_URL);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_POST, true);
+
+        // Enviamos la pregunta como application/x-www-form-urlencoded, campo "question"
+        $postFields = http_build_query([
+            'question' => $question
+        ]);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $postFields);
+
+        // Cabeceras: tu API espera X-API-Key
+        curl_setopt($ch, CURLOPT_HTTPHEADER, [
+            'X-API-Key: ' . $API_KEY,
+            'Content-Type: application/x-www-form-urlencoded'
+        ]);
+
+        // verify=False (desactivar verificación SSL, como en tu script Python)
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+
+        $response = curl_exec($ch);
+
+        if ($response === false) {
+            $errorMsg = "Error al contactar con la API remota: " . curl_error($ch);
+        } else {
+            $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+            if ($status !== 200) {
+                $errorMsg = "La API remota devolvió HTTP $status. Respuesta: " . $response;
+            } else {
+                $data = json_decode($response, true);
+                if (json_last_error() !== JSON_ERROR_NONE) {
+                    $errorMsg = "Error al decodificar JSON: " . json_last_error_msg() . ". Respuesta: " . $response;
+                } else {
+                    if (isset($data['answer']) && is_string($data['answer'])) {
+                        $textoFormateado = trim($data['answer']);
+                        // Ajuste final de formato tipo email (solo saltos de línea)
+                        $textoFormateado = ajustarFormatoEmail($textoFormateado);
+                    } else {
+                        $errorMsg = "La respuesta de la API no contiene el campo 'answer'. Respuesta: " . $response;
+                    }
+                }
+            }
+        }
+
+        curl_close($ch);
+    }
+}
+?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Dictado y reformateo de texto (API personalizada)</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            margin: 2rem;
+            background: #f5f5f5;
+        }
+        h1 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        label {
+            font-weight: 600;
+            display: block;
+            margin-bottom: .5rem;
+        }
+        textarea {
+            width: 100%;
+            min-height: 180px;
+            padding: .75rem;
+            border-radius: .4rem;
+            border: 1px solid #ccc;
+            font-family: inherit;
+            resize: vertical;
+        }
+        button, .secondary-button {
+            margin-top: 1rem;
+            padding: .6rem 1.2rem;
+            border-radius: .4rem;
+            border: none;
+            cursor: pointer;
+            font-weight: 600;
+        }
+        button {
+            background: #2563eb;
+            color: white;
+        }
+        button:hover {
+            background: #1d4ed8;
+        }
+        .secondary-button {
+            background: #e5e7eb;
+            color: #111827;
+            margin-right: .5rem;
+        }
+        .secondary-button.active {
+            background: #16a34a;
+            color: #ffffff;
+        }
+        .error {
+            margin-top: 1rem;
+            padding: .75rem 1rem;
+            background: #fee2e2;
+            border: 1px solid #fecaca;
+            color: #991b1b;
+            border-radius: .4rem;
+        }
+        .info {
+            margin-top: .5rem;
+            font-size: .85rem;
+            color: #4b5563;
+        }
+        .columns {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        @media (max-width: 900px) {
+            .columns {
+                grid-template-columns: 1fr;
+            }
+        }
+        .box {
+            background: #ffffff;
+            border-radius: .5rem;
+            border: 1px solid #ddd;
+            padding: 1rem;
+        }
+        .box h2 {
+            font-size: 1.1rem;
+            margin-bottom: .75rem;
+        }
+        pre {
+            margin: 0;
+            white-space: pre-wrap;
+        }
+        .status {
+            margin-left: .5rem;
+            font-size: .85rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dictado y reformateo de texto (API personalizada)</h1>
+
+    <form method="post">
+        <label for="texto">Texto dictado (en español)</label>
+        <textarea id="texto" name="texto" placeholder="Pulsa &quot;Dictar&quot; o pega aquí tu texto..."><?php
+            echo htmlspecialchars($textoOriginal, ENT_QUOTES, 'UTF-8');
+        ?></textarea>
+        <div>
+            <button type="button" id="btnDictar" class="secondary-button">🎙️ Dictar</button>
+            <span id="estadoDictado" class="status"></span>
+        </div>
+        <div class="info">
+            El dictado usa la API de reconocimiento de voz del navegador (Web Speech API).  
+            Funciona mejor en Chrome/Edge de escritorio. Configurado para <strong>es-ES</strong>.
+        </div>
+        <button type="submit">Reformatear texto</button>
+    </form>
+
+    <?php if ($errorMsg): ?>
+        <div class="error">
+            <?php echo htmlspecialchars($errorMsg, ENT_QUOTES, 'UTF-8'); ?>
+        </div>
+    <?php endif; ?>
+
+    <?php if ($textoOriginal !== '' && ($textoFormateado !== '' || $errorMsg)): ?>
+        <div class="columns">
+            <div class="box">
+                <h2>Texto original</h2>
+                <pre><?php echo htmlspecialchars($textoOriginal, ENT_QUOTES, 'UTF-8'); ?></pre>
+            </div>
+            <div class="box">
+                <h2>Texto corregido (formato email)</h2>
+                <pre><?php echo htmlspecialchars($textoFormateado, ENT_QUOTES, 'UTF-8'); ?></pre>
+            </div>
+        </div>
+    <?php endif; ?>
+
+    <script>
+    (function() {
+        const textarea = document.getElementById('texto');
+        const btnDictar = document.getElementById('btnDictar');
+        const estado = document.getElementById('estadoDictado');
+
+        let recognition = null;
+        let escuchando = false;
+
+        if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window) {
+            const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+            recognition = new SR();
+            recognition.lang = 'es-ES';
+            recognition.continuous = true;
+            recognition.interimResults = true;
+
+            recognition.onstart = function() {
+                escuchando = true;
+                btnDictar.classList.add('active');
+                estado.textContent = 'Escuchando... habla cerca del micrófono.';
+            };
+
+            recognition.onerror = function(event) {
+                escuchando = false;
+                btnDictar.classList.remove('active');
+                estado.textContent = 'Error en el reconocimiento de voz.';
+                console.error('Speech recognition error:', event);
+            };
+
+            recognition.onend = function() {
+                escuchando = false;
+                btnDictar.classList.remove('active');
+                estado.textContent = 'Dictado detenido.';
+            };
+
+            recognition.onresult = function(event) {
+                let finalText = '';
+                let interimText = '';
+
+                for (let i = event.resultIndex; i < event.results.length; i++) {
+                    const transcript = event.results[i][0].transcript;
+                    if (event.results[i].isFinal) {
+                        finalText += transcript + ' ';
+                    } else {
+                        interimText += transcript;
+                    }
+                }
+
+                if (finalText) {
+                    // Añadir lo reconocido definitivamente al textarea
+                    textarea.value = textarea.value.replace(/\s+$/, '') + (textarea.value ? ' ' : '') + finalText.trim() + ' ';
+                }
+            };
+
+            btnDictar.addEventListener('click', function() {
+                if (!recognition) return;
+                if (!escuchando) {
+                    try {
+                        recognition.start();
+                    } catch (e) {
+                        console.error(e);
+                    }
+                } else {
+                    recognition.stop();
+                }
+            });
+        } else {
+            // No hay soporte de Web Speech API
+            btnDictar.disabled = true;
+            estado.textContent = 'El dictado por voz no es compatible con este navegador.';
+        }
+    })();
+    </script>
+</body>
+</html>
+```
+
+### corazon
+<small>Creado: 2025-12-10 20:42</small>
+
+`005-corazon.php`
+
+```
+<?php
+// dictado_email.php
+
+// === CONFIGURACIÓN DE LA API REMOTA ===
+$API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+$API_KEY = "TEST_API_KEY_JOCARSA_123"; // cambia por tu API key real
+
+function ajustarFormatoEmail(string $texto): string
+{
+    $texto = preg_replace("/\r\n|\r/", "\n", trim($texto));
+
+    if ($texto === '') {
+        return '';
+    }
+
+    $lineas = explode("\n", $texto);
+    $lineas = array_map(static fn($l) => rtrim($l), $lineas);
+
+    // Reducir grupos de líneas vacías (máx. 1 seguida)
+    $limpias = [];
+    $vaciasSeguidas = 0;
+    foreach ($lineas as $l) {
+        if (trim($l) === '') {
+            $vaciasSeguidas++;
+            if ($vaciasSeguidas > 1) {
+                continue;
+            }
+        } else {
+            $vaciasSeguidas = 0;
+        }
+        $limpias[] = $l;
+    }
+    $lineas = $limpias;
+
+    // Línea en blanco tras saludo
+    $greetingRegex = '/^(hola|buenos dias|buenos días|buenas tardes|buenas noches|estimad[oa]s?|querid[oa]s?)/iu';
+    $n = count($lineas);
+    for ($i = 0; $i < $n; $i++) {
+        $ltrim = ltrim($lineas[$i]);
+        if ($ltrim === '') {
+            continue;
+        }
+        if (preg_match($greetingRegex, $ltrim)) {
+            if ($i + 1 >= $n || trim($lineas[$i + 1]) !== '') {
+                array_splice($lineas, $i + 1, 0, ['']);
+            }
+        }
+        break;
+    }
+
+    // Línea en blanco antes del cierre
+    $closingRegex = '/^(un saludo|saludos|atentamente|cordialmente|muchas gracias|gracias de antemano)/iu';
+    $n = count($lineas);
+    for ($i = $n - 1; $i >= 0; $i--) {
+        $ltrim = ltrim($lineas[$i]);
+        if ($ltrim === '') {
+            continue;
+        }
+        if (preg_match($closingRegex, $ltrim)) {
+            if ($i - 1 < 0 || trim($lineas[$i - 1]) !== '') {
+                array_splice($lineas, $i, 0, ['']);
+            }
+            break;
+        }
+    }
+
+    return implode("\n", $lineas);
+}
+
+function procesar_texto_con_ia(string $textoOriginal, string $API_URL, string $API_KEY): array
+{
+    if ($textoOriginal === '') {
+        return ['ok' => false, 'error' => 'Texto vacío', 'texto' => ''];
+    }
+
+    $question =
+        "Eres un asistente de edición de texto en español.\n\n" .
+        "TAREA:\n" .
+        "Reescribe el texto que te paso a continuación, manteniendo EXACTAMENTE el mismo contenido y significado,\n" .
+        "pero corrigiendo solo:\n" .
+        "- Ortografía y acentuación.\n" .
+        "- Puntuación.\n" .
+        "- Mayúsculas y minúsculas.\n" .
+        "- Saltos de línea y separación en párrafos para que sea más legible.\n\n" .
+        "REGLAS ESTRICTAS:\n" .
+        "- No añadas información nueva.\n" .
+        "- No inventes nombres, fechas, cifras ni detalles.\n" .
+        "- No elimines información relevante.\n" .
+        "- No añadas saludos, despedidas, asuntos ni secciones que no aparezcan en el texto original.\n" .
+        "- Mantén el mismo orden de ideas y el mismo contenido, solo mejor presentado.\n" .
+        "- No expliques lo que haces.\n" .
+        "- Devuelve únicamente el texto corregido, sin comentarios adicionales, sin comillas y sin formato extra.\n\n" .
+        "Texto original:\n" .
+        $textoOriginal;
+
+    $ch = curl_init($API_URL);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+
+    $postFields = http_build_query([
+        'question' => $question
+    ]);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $postFields);
+
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        'X-API-Key: ' . $API_KEY,
+        'Content-Type: application/x-www-form-urlencoded'
+    ]);
+
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+
+    $response = curl_exec($ch);
+
+    if ($response === false) {
+        $err = "Error al contactar con la API remota: " . curl_error($ch);
+        curl_close($ch);
+        return ['ok' => false, 'error' => $err, 'texto' => ''];
+    }
+
+    $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+
+    if ($status !== 200) {
+        return ['ok' => false, 'error' => "La API remota devolvió HTTP $status. Respuesta: $response", 'texto' => ''];
+    }
+
+    $data = json_decode($response, true);
+    if (json_last_error() !== JSON_ERROR_NONE) {
+        return ['ok' => false, 'error' => "Error al decodificar JSON: " . json_last_error_msg() . ". Respuesta: $response", 'texto' => ''];
+    }
+
+    if (!isset($data['answer']) || !is_string($data['answer'])) {
+        return ['ok' => false, 'error' => "La respuesta de la API no contiene el campo 'answer'. Respuesta: $response", 'texto' => ''];
+    }
+
+    $textoFormateado = trim($data['answer']);
+    $textoFormateado = ajustarFormatoEmail($textoFormateado);
+
+    return ['ok' => true, 'error' => '', 'texto' => $textoFormateado];
+}
+
+// === MODO AJAX: petición de IA (no recargar página) ===
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['ajax']) && $_POST['ajax'] === '1') {
+    header('Content-Type: application/json; charset=utf-8');
+
+    $textoOriginal = isset($_POST['texto']) ? trim($_POST['texto']) : '';
+
+    if ($textoOriginal === '') {
+        echo json_encode(['ok' => false, 'error' => 'Texto vacío', 'texto' => ''], JSON_UNESCAPED_UNICODE);
+        exit;
+    }
+
+    $resultado = procesar_texto_con_ia($textoOriginal, $API_URL, $API_KEY);
+    echo json_encode($resultado, JSON_UNESCAPED_UNICODE);
+    exit;
+}
+
+// === Si no es AJAX, servimos la página HTML ===
+?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Dictado de correo y corrección automática</title>
+    <style>
+        :root {
+            --bg-gradient: radial-gradient(circle at top left, #1e293b, #020617);
+            --card-bg: rgba(15, 23, 42, 0.9);
+            --card-border: rgba(148, 163, 184, 0.3);
+            --accent: #38bdf8;
+            --accent-soft: rgba(56, 189, 248, 0.15);
+            --text-main: #e5e7eb;
+            --text-muted: #9ca3af;
+            --error: #fca5a5;
+            --success: #4ade80;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background: var(--bg-gradient);
+            color: var(--text-main);
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            padding: 2rem;
+        }
+        .app-shell {
+            width: 100%;
+            max-width: 1200px;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+        .app-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+        }
+        .app-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            letter-spacing: .02em;
+            display: flex;
+            align-items: center;
+            gap: .6rem;
+        }
+        .app-title-badge {
+            font-size: .8rem;
+            padding: .15rem .5rem;
+            border-radius: 999px;
+            background: var(--accent-soft);
+            color: var(--accent);
+            border: 1px solid rgba(56, 189, 248, 0.4);
+        }
+        .app-subtitle {
+            font-size: .9rem;
+            color: var(--text-muted);
+        }
+        .pill {
+            font-size: .75rem;
+            padding: .3rem .6rem;
+            border-radius: 999px;
+            border: 1px solid rgba(148, 163, 184, 0.4);
+            color: var(--text-muted);
+        }
+        .layout {
+            display: grid;
+            grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+            gap: 1.5rem;
+        }
+        @media (max-width: 900px) {
+            body {
+                padding: 1rem;
+            }
+            .layout {
+                grid-template-columns: minmax(0, 1fr);
+            }
+        }
+        .card {
+            background: var(--card-bg);
+            border-radius: 1.25rem;
+            border: 1px solid var(--card-border);
+            padding: 1.3rem 1.4rem;
+            box-shadow: 0 20px 40px rgba(15, 23, 42, 0.7);
+            position: relative;
+            overflow: hidden;
+        }
+        .card::before {
+            content: "";
+            position: absolute;
+            inset: -40%;
+            background: radial-gradient(circle at top left, rgba(56, 189, 248, 0.12), transparent 55%);
+            opacity: 0.6;
+            pointer-events: none;
+        }
+        .card-inner {
+            position: relative;
+            z-index: 1;
+        }
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: .75rem;
+            margin-bottom: .75rem;
+        }
+        .card-title {
+            font-size: 1.05rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: .5rem;
+        }
+        .card-title span.icon {
+            font-size: 1.2rem;
+        }
+        .card-caption {
+            font-size: .8rem;
+            color: var(--text-muted);
+        }
+        label {
+            font-size: .85rem;
+            font-weight: 500;
+            color: var(--text-muted);
+            display: block;
+            margin-bottom: .4rem;
+        }
+        textarea {
+            width: 100%;
+            min-height: 220px;
+            resize: vertical;
+            border-radius: .9rem;
+            border: 1px solid rgba(148, 163, 184, 0.5);
+            background: rgba(15, 23, 42, 0.85);
+            color: var(--text-main);
+            padding: .9rem 1rem;
+            font-family: inherit;
+            font-size: .95rem;
+            outline: none;
+            transition: border-color 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+        }
+        textarea:focus {
+            border-color: rgba(56, 189, 248, 0.7);
+            box-shadow: 0 0 0 1px rgba(56, 189, 248, 0.4);
+            background: rgba(15, 23, 42, 0.95);
+        }
+        .controls-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: .75rem;
+            margin-top: .7rem;
+        }
+        .left-controls {
+            display: flex;
+            align-items: center;
+            gap: .5rem;
+            flex-wrap: wrap;
+        }
+        .right-controls {
+            font-size: .8rem;
+            color: var(--text-muted);
+            display: flex;
+            align-items: center;
+            gap: .5rem;
+        }
+        .btn {
+            position: relative;
+            display: inline-flex;
+            align-items: center;
+            gap: .4rem;
+            padding: .5rem .9rem;
+            border-radius: 999px;
+            border: 1px solid transparent;
+            font-size: .85rem;
+            font-weight: 500;
+            cursor: pointer;
+            background: rgba(15, 23, 42, 0.9);
+            color: var(--text-main);
+            transition: background 0.15s ease, border-color 0.15s ease, transform 0.08s ease, box-shadow 0.15s ease;
+        }
+        .btn-icon {
+            font-size: 1rem;
+        }
+        .btn-voice {
+            border-color: rgba(148, 163, 184, 0.6);
+        }
+        .btn-voice:hover {
+            background: rgba(15, 23, 42, 0.7);
+            border-color: rgba(56, 189, 248, 0.6);
+        }
+        .btn-voice.active {
+            background: rgba(34, 197, 94, 0.16);
+            border-color: rgba(34, 197, 94, 0.8);
+            box-shadow: 0 0 0 1px rgba(22, 163, 74, 0.4);
+        }
+        .btn-voice.active .pulse-dot {
+            background: var(--success);
+            box-shadow: 0 0 0 6px rgba(74, 222, 128, 0.25);
+        }
+        .pulse-dot {
+            width: .55rem;
+            height: .55rem;
+            border-radius: 999px;
+            background: rgba(148, 163, 184, 0.9);
+            transition: background 0.15s ease, box-shadow 0.15s ease;
+        }
+        .status-text {
+            font-size: .8rem;
+        }
+        .status-ok {
+            color: var(--success);
+        }
+        .status-error {
+            color: var(--error);
+        }
+        .status-warn {
+            color: #facc15;
+        }
+        .result-box {
+            margin-top: .4rem;
+            padding: .75rem .9rem;
+            border-radius: .9rem;
+            border: 1px dashed rgba(148, 163, 184, 0.5);
+            background: rgba(15, 23, 42, 0.7);
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+            font-size: .9rem;
+            white-space: pre-wrap;
+            max-height: 380px;
+            overflow: auto;
+        }
+        .result-placeholder {
+            color: var(--text-muted);
+            font-style: italic;
+        }
+        .badge-ai {
+            font-size: .75rem;
+            padding: .2rem .55rem;
+            border-radius: 999px;
+            background: rgba(56, 189, 248, 0.12);
+            color: var(--accent);
+            border: 1px solid rgba(56, 189, 248, 0.4);
+        }
+        .chip {
+            font-size: .75rem;
+            padding: .2rem .5rem;
+            border-radius: 999px;
+            background: rgba(15, 23, 42, 0.9);
+            border: 1px solid rgba(148, 163, 184, 0.45);
+            color: var(--text-muted);
+        }
+        .thin-scroll::-webkit-scrollbar {
+            width: 6px;
+        }
+        .thin-scroll::-webkit-scrollbar-track {
+            background: rgba(15, 23, 42, 0.9);
+        }
+        .thin-scroll::-webkit-scrollbar-thumb {
+            background: rgba(148, 163, 184, 0.65);
+            border-radius: 999px;
+        }
+    </style>
+</head>
+<body>
+<div class="app-shell">
+    <header class="app-header">
+        <div>
+            <div class="app-title">
+                <span>📧 Dictado de correo</span>
+                <span class="app-title-badge">Auto-corrección IA</span>
+            </div>
+            <div class="app-subtitle">
+                Habla y observa cómo el texto se corrige en segundo plano para usarlo como email.
+            </div>
+        </div>
+        <div class="pill">
+            🎙️ Dictado por voz · es-ES
+        </div>
+    </header>
+
+    <main class="layout">
+        <!-- Panel de dictado -->
+        <section class="card">
+            <div class="card-inner">
+                <div class="card-header">
+                    <div class="card-title">
+                        <span class="icon">🗣️</span>
+                        <span>Dictado / texto de entrada</span>
+                    </div>
+                    <div class="card-caption">
+                        Puedes dictar o escribir/pegar el contenido manualmente.
+                    </div>
+                </div>
+
+                <label for="texto">Contenido del correo (dictado o escrito)</label>
+                <textarea id="texto" placeholder="Pulsa &quot;Empezar dictado&quot; o escribe aquí tu texto..."></textarea>
+
+                <div class="controls-row">
+                    <div class="left-controls">
+                        <button type="button" id="btnDictar" class="btn btn-voice">
+                            <span class="pulse-dot"></span>
+                            <span class="btn-icon">🎙️</span>
+                            <span id="labelDictado">Empezar dictado</span>
+                        </button>
+                        <span class="chip">Autoenvío a IA cada pocos segundos</span>
+                    </div>
+                    <div class="right-controls">
+                        <span id="estadoDictado" class="status-text status-warn">
+                            Dictado en espera.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Panel de salida IA -->
+        <section class="card">
+            <div class="card-inner">
+                <div class="card-header">
+                    <div class="card-title">
+                        <span class="icon">✨</span>
+                        <span>Texto corregido (formato correo)</span>
+                    </div>
+                    <div class="card-caption">
+                        Corrección suave, sin inventar contenido, con saltos de línea tipo email.
+                    </div>
+                </div>
+
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: .35rem;">
+                    <span class="badge-ai">IA personalizada (JOCARSA)</span>
+                    <span id="estadoIA" class="status-text status-warn">
+                        A la espera de cambios…
+                    </span>
+                </div>
+
+                <div id="resultBox" class="result-box thin-scroll">
+                    <span class="result-placeholder">
+                        El texto corregido aparecerá aquí automáticamente unos segundos después de que dejes de hablar o dejes de escribir.
+                    </span>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+
+<script>
+(function() {
+    const textarea = document.getElementById('texto');
+    const btnDictar = document.getElementById('btnDictar');
+    const labelDictado = document.getElementById('labelDictado');
+    const estadoDictado = document.getElementById('estadoDictado');
+    const estadoIA = document.getElementById('estadoIA');
+    const resultBox = document.getElementById('resultBox');
+
+    let recognition = null;
+    let escuchando = false;
+
+    let bufferBeforeRecognition = '';
+    let recognizedFinal = '';
+
+    let lastSentText = '';
+    let isSending = false;
+    const HEARTBEAT_MS = 3000; // "few seconds"
+
+    function setResultText(text, isError = false, isPlaceholder = false) {
+        resultBox.innerHTML = '';
+        const pre = document.createElement('pre');
+        pre.style.margin = '0';
+        pre.style.whiteSpace = 'pre-wrap';
+        if (isPlaceholder) {
+            pre.classList.add('result-placeholder');
+        }
+        if (isError) {
+            pre.style.color = '#fca5a5';
+        }
+        pre.textContent = text;
+        resultBox.appendChild(pre);
+    }
+
+    function updateIAStatus(text, cls) {
+        estadoIA.textContent = text;
+        estadoIA.className = 'status-text ' + (cls || '');
+    }
+
+    function sendToAIIfNeeded() {
+        const current = textarea.value.trim();
+        if (!current) {
+            updateIAStatus('Sin texto para corregir.', 'status-warn');
+            return;
+        }
+        if (isSending) {
+            return;
+        }
+        if (current === lastSentText) {
+            return;
+        }
+
+        isSending = true;
+        updateIAStatus('Enviando a la IA…', 'status-warn');
+
+        const params = new URLSearchParams();
+        params.append('ajax', '1');
+        params.append('texto', current);
+
+        fetch(window.location.href, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded'
+            },
+            body: params.toString()
+        })
+        .then(resp => resp.json())
+        .then(data => {
+            if (!data || typeof data.ok === 'undefined') {
+                setResultText('Respuesta inesperada del servidor.', true);
+                updateIAStatus('Error en la respuesta.', 'status-error');
+                return;
+            }
+            if (!data.ok) {
+                setResultText(data.error || 'Error al procesar el texto.', true);
+                updateIAStatus('Error al procesar el texto.', 'status-error');
+                return;
+            }
+            lastSentText = current;
+            setResultText(data.texto || '');
+            updateIAStatus('Texto corregido actualizado.', 'status-ok');
+        })
+        .catch(err => {
+            console.error(err);
+            setResultText('Error de red al contactar con la IA.', true);
+            updateIAStatus('Error de red.', 'status-error');
+        })
+        .finally(() => {
+            isSending = false;
+        });
+    }
+
+    // Heartbeat: comprueba cada pocos segundos si el texto ha cambiado
+    setInterval(sendToAIIfNeeded, HEARTBEAT_MS);
+
+    // Soporte de dictado
+    if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window) {
+        const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+        recognition = new SR();
+        recognition.lang = 'es-ES';
+        recognition.continuous = true;
+        recognition.interimResults = true;
+
+        recognition.onstart = function() {
+            escuchando = true;
+            btnDictar.classList.add('active');
+            labelDictado.textContent = 'Detener dictado';
+            estadoDictado.textContent = 'Escuchando… habla cerca del micrófono.';
+            estadoDictado.className = 'status-text status-ok';
+
+            bufferBeforeRecognition = textarea.value.trimEnd();
+            recognizedFinal = '';
+        };
+
+        recognition.onerror = function(event) {
+            escuchando = false;
+            btnDictar.classList.remove('active');
+            labelDictado.textContent = 'Empezar dictado';
+            estadoDictado.textContent = 'Error en el reconocimiento de voz.';
+            estadoDictado.className = 'status-text status-error';
+            console.error('Speech recognition error:', event);
+        };
+
+        recognition.onend = function() {
+            escuchando = false;
+            btnDictar.classList.remove('active');
+            labelDictado.textContent = 'Empezar dictado';
+            if (textarea.value.trim()) {
+                estadoDictado.textContent = 'Dictado detenido. Texto listo para corregir.';
+                estadoDictado.className = 'status-text status-ok';
+            } else {
+                estadoDictado.textContent = 'Dictado detenido.';
+                estadoDictado.className = 'status-text status-warn';
+            }
+        };
+
+        recognition.onresult = function(event) {
+            let interimText = '';
+
+            for (let i = event.resultIndex; i < event.results.length; i++) {
+                const transcript = event.results[i][0].transcript;
+                if (event.results[i].isFinal) {
+                    recognizedFinal += transcript + ' ';
+                } else {
+                    interimText += transcript + ' ';
+                }
+            }
+
+            const fullText = (bufferBeforeRecognition + ' ' + recognizedFinal + interimText).trim();
+            textarea.value = fullText;
+        };
+
+        btnDictar.addEventListener('click', function() {
+            if (!recognition) return;
+            if (!escuchando) {
+                try {
+                    recognition.start();
+                } catch (e) {
+                    console.error(e);
+                }
+            } else {
+                recognition.stop();
+            }
+        });
+
+        estadoDictado.textContent = 'Dictado disponible. Pulsa "Empezar dictado".';
+        estadoDictado.className = 'status-text status-ok';
+    } else {
+        btnDictar.disabled = true;
+        estadoDictado.textContent = 'El dictado por voz no es compatible con este navegador.';
+        estadoDictado.className = 'status-text status-error';
+    }
+
+    // Si el usuario escribe/pega manualmente, actualizamos estado IA
+    textarea.addEventListener('input', function() {
+        updateIAStatus('Detectados cambios. Se corregirá en unos segundos…', 'status-warn');
+    });
+})();
+</script>
+</body>
+</html>
+```
+
+### tema claro y mejoras en la redaccion
+<small>Creado: 2025-12-10 20:46</small>
+
+`006-tema claro y mejoras en la redaccion.php`
+
+```
+<?php
+// dictado_email.php
+
+// === CONFIGURACIÓN DE LA API REMOTA ===
+$API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+$API_KEY = "TEST_API_KEY_JOCARSA_123"; // cambia por tu API key real
+
+function ajustarFormatoEmail(string $texto): string
+{
+    // Normalizar saltos de línea
+    $texto = preg_replace("/\r\n|\r/", "\n", trim($texto));
+
+    if ($texto === '') {
+        return '';
+    }
+
+    // 0) Si el texto empieza con saludo tipo "Hola Francisco," u "Estimado Juan,"
+    //    separamos saludo y cuerpo en líneas distintas:
+    //    Hola Francisco,
+    //
+    //    Este es un correo...
+    $texto = preg_replace_callback(
+        '/^((hola|buenos dias|buenos días|buenas tardes|buenas noches|estimad[oa]s?|querid[oa]s?)\s+[^\n,]+,)\s*(.*)$/iu',
+        function ($m) {
+            $greeting = trim($m[1]);
+            $rest     = trim($m[3]);
+            if ($rest === '') {
+                return $greeting;
+            }
+            // Saludo en una línea, línea en blanco, luego el resto
+            return $greeting . "\n\n" . $rest;
+        },
+        $texto
+    );
+
+    // Dividir en líneas para seguir ajustando
+    $lineas = explode("\n", $texto);
+    // Eliminar espacios de la derecha en cada línea
+    $lineas = array_map(static fn($l) => rtrim($l), $lineas);
+
+    // 1) Reducir grupos largos de líneas en blanco (máximo 1 consecutiva)
+    $limpias = [];
+    $vaciasSeguidas = 0;
+    foreach ($lineas as $l) {
+        if (trim($l) === '') {
+            $vaciasSeguidas++;
+            if ($vaciasSeguidas > 1) {
+                continue;
+            }
+        } else {
+            $vaciasSeguidas = 0;
+        }
+        $limpias[] = $l;
+    }
+    $lineas = $limpias;
+
+    // 2) Asegurar línea en blanco tras el saludo (por si venía ya en líneas)
+    $greetingRegex = '/^(hola|buenos dias|buenos días|buenas tardes|buenas noches|estimad[oa]s?|querid[oa]s?)/iu';
+    $n = count($lineas);
+    for ($i = 0; $i < $n; $i++) {
+        $ltrim = ltrim($lineas[$i]);
+        if ($ltrim === '') {
+            continue;
+        }
+        if (preg_match($greetingRegex, $ltrim)) {
+            if ($i + 1 >= $n || trim($lineas[$i + 1]) !== '') {
+                array_splice($lineas, $i + 1, 0, ['']);
+            }
+        }
+        break; // solo analizamos la primera línea no vacía
+    }
+
+    // 3) Asegurar línea en blanco antes del cierre
+    $closingRegex = '/^(un saludo|saludos|atentamente|cordialmente|muchas gracias|gracias de antemano)/iu';
+    $n = count($lineas);
+    for ($i = $n - 1; $i >= 0; $i--) {
+        $ltrim = ltrim($lineas[$i]);
+        if ($ltrim === '') {
+            continue;
+        }
+        if (preg_match($closingRegex, $ltrim)) {
+            if ($i - 1 < 0 || trim($lineas[$i - 1]) !== '') {
+                array_splice($lineas, $i, 0, ['']);
+            }
+            break;
+        }
+    }
+
+    return implode("\n", $lineas);
+}
+
+function procesar_texto_con_ia(string $textoOriginal, string $API_URL, string $API_KEY): array
+{
+    if ($textoOriginal === '') {
+        return ['ok' => false, 'error' => 'Texto vacío', 'texto' => ''];
+    }
+
+    // Prompt: corrección suave, sin añadir contenido nuevo, orientado a correo profesional
+    $question =
+        "Eres un asistente de edición de texto en español.\n\n" .
+        "TAREA:\n" .
+        "Reescribe el texto que te paso a continuación, manteniendo EXACTAMENTE el mismo contenido y significado,\n" .
+        "pero corrigiendo solo:\n" .
+        "- Ortografía y acentuación.\n" .
+        "- Puntuación.\n" .
+        "- Mayúsculas y minúsculas.\n" .
+        "- Saltos de línea y separación en frases para que sea más legible y profesional.\n\n" .
+        "REGLAS ESTRICTAS:\n" .
+        "- No añadas información nueva.\n" .
+        "- No inventes nombres, fechas, cifras ni detalles.\n" .
+        "- No elimines información relevante.\n" .
+        "- No añadas saludos, despedidas, asuntos ni secciones que no aparezcan en el texto original.\n" .
+        "- Mantén el mismo orden de ideas y el mismo contenido, solo mejor presentado.\n" .
+        "- No expliques lo que haces.\n" .
+        "- Devuelve únicamente el texto corregido, sin comentarios adicionales, sin comillas y sin formato extra.\n\n" .
+        "Texto original:\n" .
+        $textoOriginal;
+
+    $ch = curl_init($API_URL);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+
+    $postFields = http_build_query([
+        'question' => $question
+    ]);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $postFields);
+
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        'X-API-Key: ' . $API_KEY,
+        'Content-Type: application/x-www-form-urlencoded'
+    ]);
+
+    // verify=False como en tu script Python
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+
+    $response = curl_exec($ch);
+
+    if ($response === false) {
+        $err = "Error al contactar con la API remota: " . curl_error($ch);
+        curl_close($ch);
+        return ['ok' => false, 'error' => $err, 'texto' => ''];
+    }
+
+    $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+
+    if ($status !== 200) {
+        return ['ok' => false, 'error' => "La API remota devolvió HTTP $status. Respuesta: $response", 'texto' => ''];
+    }
+
+    $data = json_decode($response, true);
+    if (json_last_error() !== JSON_ERROR_NONE) {
+        return ['ok' => false, 'error' => "Error al decodificar JSON: " . json_last_error_msg() . ". Respuesta: $response", 'texto' => ''];
+    }
+
+    if (!isset($data['answer']) || !is_string($data['answer'])) {
+        return ['ok' => false, 'error' => "La respuesta de la API no contiene el campo 'answer'. Respuesta: $response", 'texto' => ''];
+    }
+
+    $textoFormateado = trim($data['answer']);
+    $textoFormateado = ajustarFormatoEmail($textoFormateado);
+
+    return ['ok' => true, 'error' => '', 'texto' => $textoFormateado];
+}
+
+// === MODO AJAX: petición de IA (no recarga la página) ===
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['ajax']) && $_POST['ajax'] === '1') {
+    header('Content-Type: application/json; charset=utf-8');
+
+    $textoOriginal = isset($_POST['texto']) ? trim($_POST['texto']) : '';
+
+    if ($textoOriginal === '') {
+        echo json_encode(['ok' => false, 'error' => 'Texto vacío', 'texto' => ''], JSON_UNESCAPED_UNICODE);
+        exit;
+    }
+
+    $resultado = procesar_texto_con_ia($textoOriginal, $API_URL, $API_KEY);
+    echo json_encode($resultado, JSON_UNESCAPED_UNICODE);
+    exit;
+}
+
+// === Si no es AJAX, servimos la página HTML ===
+?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Dictado de correo y corrección automática</title>
+    <style>
+        :root {
+            --bg: #f5f7fb;
+            --card-bg: #ffffff;
+            --card-border: #d4d4d8;
+            --accent: #2563eb;
+            --accent-soft: #e0ebff;
+            --text-main: #111827;
+            --text-muted: #6b7280;
+            --error: #b91c1c;
+            --success: #15803d;
+            --warn: #92400e;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background: var(--bg);
+            color: var(--text-main);
+            display: flex;
+            justify-content: center;
+            padding: 2rem;
+        }
+        .app-shell {
+            width: 100%;
+            max-width: 1100px;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+        .app-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+        }
+        .app-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: .5rem;
+        }
+        .app-title-badge {
+            font-size: .8rem;
+            padding: .2rem .6rem;
+            border-radius: 999px;
+            background: var(--accent-soft);
+            color: var(--accent);
+        }
+        .app-subtitle {
+            font-size: .9rem;
+            color: var(--text-muted);
+            margin-top: .25rem;
+        }
+        .pill {
+            font-size: .8rem;
+            padding: .35rem .7rem;
+            border-radius: 999px;
+            border: 1px solid #e5e7eb;
+            background: #ffffff;
+            color: var(--text-muted);
+        }
+        .layout {
+            display: grid;
+            grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+            gap: 1.25rem;
+        }
+        @media (max-width: 900px) {
+            body {
+                padding: 1rem;
+            }
+            .layout {
+                grid-template-columns: minmax(0, 1fr);
+            }
+        }
+        .card {
+            background: var(--card-bg);
+            border-radius: 1rem;
+            border: 1px solid var(--card-border);
+            padding: 1.2rem 1.3rem;
+        }
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: .75rem;
+            margin-bottom: .75rem;
+        }
+        .card-title {
+            font-size: 1rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: .45rem;
+        }
+        .card-title span.icon {
+            font-size: 1.2rem;
+        }
+        .card-caption {
+            font-size: .82rem;
+            color: var(--text-muted);
+        }
+        label {
+            font-size: .85rem;
+            font-weight: 500;
+            color: var(--text-muted);
+            display: block;
+            margin-bottom: .4rem;
+        }
+        textarea {
+            width: 100%;
+            min-height: 200px;
+            resize: vertical;
+            border-radius: .75rem;
+            border: 1px solid #d4d4d8;
+            background: #f9fafb;
+            color: var(--text-main);
+            padding: .8rem .9rem;
+            font-family: inherit;
+            font-size: .95rem;
+            outline: none;
+            transition: border-color 0.15s ease, background-color 0.15s ease;
+        }
+        textarea:focus {
+            border-color: var(--accent);
+            background-color: #ffffff;
+        }
+        .controls-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: .75rem;
+            margin-top: .7rem;
+        }
+        .left-controls {
+            display: flex;
+            align-items: center;
+            gap: .5rem;
+            flex-wrap: wrap;
+        }
+        .right-controls {
+            font-size: .8rem;
+            color: var(--text-muted);
+            display: flex;
+            align-items: center;
+            gap: .5rem;
+        }
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: .4rem;
+            padding: .5rem .9rem;
+            border-radius: 999px;
+            border: 1px solid #d4d4d8;
+            font-size: .85rem;
+            font-weight: 500;
+            cursor: pointer;
+            background: #ffffff;
+            color: var(--text-main);
+            transition: background 0.15s ease, border-color 0.15s ease;
+        }
+        .btn:hover {
+            background: #eff6ff;
+            border-color: var(--accent);
+        }
+        .btn-voice.active {
+            background: #dbeafe;
+            border-color: #1d4ed8;
+        }
+        .pulse-dot {
+            width: .55rem;
+            height: .55rem;
+            border-radius: 999px;
+            background: #9ca3af;
+        }
+        .btn-voice.active .pulse-dot {
+            background: #22c55e;
+        }
+        .chip {
+            font-size: .78rem;
+            padding: .25rem .6rem;
+            border-radius: 999px;
+            background: #eef2ff;
+            color: #4b5563;
+        }
+        .badge-ai {
+            font-size: .78rem;
+            padding: .2rem .55rem;
+            border-radius: 999px;
+            background: #eff6ff;
+            color: #1d4ed8;
+        }
+        .result-box {
+            margin-top: .5rem;
+            padding: .75rem .9rem;
+            border-radius: .75rem;
+            border: 1px solid #e5e7eb;
+            background: #f9fafb;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+            font-size: .9rem;
+            white-space: pre-wrap;
+            max-height: 340px;
+            overflow: auto;
+            color: var(--text-main);
+        }
+        .result-placeholder {
+            color: var(--text-muted);
+            font-style: italic;
+        }
+        .status-text {
+            font-size: .8rem;
+        }
+        .status-ok {
+            color: var(--success);
+        }
+        .status-error {
+            color: var(--error);
+        }
+        .status-warn {
+            color: var(--warn);
+        }
+        .thin-scroll::-webkit-scrollbar {
+            width: 6px;
+        }
+        .thin-scroll::-webkit-scrollbar-thumb {
+            background: #d4d4d8;
+            border-radius: 999px;
+        }
+        .thin-scroll::-webkit-scrollbar-track {
+            background: transparent;
+        }
+    </style>
+</head>
+<body>
+<div class="app-shell">
+    <header class="app-header">
+        <div>
+            <div class="app-title">
+                <span>📧 Dictado de correo</span>
+                <span class="app-title-badge">Corrección automática</span>
+            </div>
+            <div class="app-subtitle">
+                Dicta o escribe el texto y obtén un correo corregido y formateado de forma profesional.
+            </div>
+        </div>
+        <div class="pill">
+            🎙️ Dictado por voz · es-ES
+        </div>
+    </header>
+
+    <main class="layout">
+        <!-- Panel de dictado -->
+        <section class="card">
+            <div class="card-header">
+                <div class="card-title">
+                    <span class="icon">🗣️</span>
+                    <span>Texto de entrada</span>
+                </div>
+                <div class="card-caption">
+                    Puedes dictar o escribir/pegar el contenido del correo.
+                </div>
+            </div>
+
+            <label for="texto">Contenido del correo (dictado o escrito)</label>
+            <textarea id="texto" placeholder="Pulsa &quot;Empezar dictado&quot; o escribe aquí tu texto..."></textarea>
+
+            <div class="controls-row">
+                <div class="left-controls">
+                    <button type="button" id="btnDictar" class="btn btn-voice">
+                        <span class="pulse-dot"></span>
+                        <span>🎙️</span>
+                        <span id="labelDictado">Empezar dictado</span>
+                    </button>
+                    <span class="chip">La IA se ejecuta automáticamente cada pocos segundos</span>
+                </div>
+                <div class="right-controls">
+                    <span id="estadoDictado" class="status-text status-warn">
+                        Dictado en espera.
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Panel de salida IA -->
+        <section class="card">
+            <div class="card-header">
+                <div class="card-title">
+                    <span class="icon">✨</span>
+                    <span>Texto corregido (formato correo)</span>
+                </div>
+                <div class="card-caption">
+                    Corrección ortográfica y de formato, manteniendo el contenido original.
+                </div>
+            </div>
+
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: .35rem;">
+                <span class="badge-ai">IA personalizada (JOCARSA)</span>
+                <span id="estadoIA" class="status-text status-warn">
+                    A la espera de cambios…
+                </span>
+            </div>
+
+            <div id="resultBox" class="result-box thin-scroll">
+                <span class="result-placeholder">
+                    El texto corregido aparecerá aquí automáticamente unos segundos después de que dejes de hablar o escribir.
+                </span>
+            </div>
+        </section>
+    </main>
+</div>
+
+<script>
+(function() {
+    const textarea = document.getElementById('texto');
+    const btnDictar = document.getElementById('btnDictar');
+    const labelDictado = document.getElementById('labelDictado');
+    const estadoDictado = document.getElementById('estadoDictado');
+    const estadoIA = document.getElementById('estadoIA');
+    const resultBox = document.getElementById('resultBox');
+
+    let recognition = null;
+    let escuchando = false;
+
+    let bufferBeforeRecognition = '';
+    let recognizedFinal = '';
+
+    let lastSentText = '';
+    let isSending = false;
+    const HEARTBEAT_MS = 3000; // cada pocos segundos
+
+    function setResultText(text, isError = false, isPlaceholder = false) {
+        resultBox.innerHTML = '';
+        const pre = document.createElement('pre');
+        pre.style.margin = '0';
+        pre.style.whiteSpace = 'pre-wrap';
+        if (isPlaceholder) {
+            pre.classList.add('result-placeholder');
+        }
+        if (isError) {
+            pre.style.color = '#b91c1c';
+        }
+        pre.textContent = text;
+        resultBox.appendChild(pre);
+    }
+
+    function updateIAStatus(text, cls) {
+        estadoIA.textContent = text;
+        estadoIA.className = 'status-text ' + (cls || '');
+    }
+
+    function sendToAIIfNeeded() {
+        const current = textarea.value.trim();
+        if (!current) {
+            updateIAStatus('Sin texto para corregir.', 'status-warn');
+            return;
+        }
+        if (isSending) return;
+        if (current === lastSentText) return;
+
+        isSending = true;
+        updateIAStatus('Enviando a la IA…', 'status-warn');
+
+        const params = new URLSearchParams();
+        params.append('ajax', '1');
+        params.append('texto', current);
+
+        fetch(window.location.href, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded'
+            },
+            body: params.toString()
+        })
+        .then(resp => resp.json())
+        .then(data => {
+            if (!data || typeof data.ok === 'undefined') {
+                setResultText('Respuesta inesperada del servidor.', true);
+                updateIAStatus('Error en la respuesta.', 'status-error');
+                return;
+            }
+            if (!data.ok) {
+                setResultText(data.error || 'Error al procesar el texto.', true);
+                updateIAStatus('Error al procesar el texto.', 'status-error');
+                return;
+            }
+            lastSentText = current;
+            setResultText(data.texto || '');
+            updateIAStatus('Texto corregido actualizado.', 'status-ok');
+        })
+        .catch(err => {
+            console.error(err);
+            setResultText('Error de red al contactar con la IA.', true);
+            updateIAStatus('Error de red.', 'status-error');
+        })
+        .finally(() => {
+            isSending = false;
+        });
+    }
+
+    // Heartbeat: se ejecuta cada pocos segundos
+    setInterval(sendToAIIfNeeded, HEARTBEAT_MS);
+
+    // Soporte de dictado por voz
+    if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window) {
+        const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+        recognition = new SR();
+        recognition.lang = 'es-ES';
+        recognition.continuous = true;
+        recognition.interimResults = true;
+
+        recognition.onstart = function() {
+            escuchando = true;
+            btnDictar.classList.add('active');
+            labelDictado.textContent = 'Detener dictado';
+            estadoDictado.textContent = 'Escuchando…';
+            estadoDictado.className = 'status-text status-ok';
+
+            bufferBeforeRecognition = textarea.value.trimEnd();
+            recognizedFinal = '';
+        };
+
+        recognition.onerror = function(event) {
+            escuchando = false;
+            btnDictar.classList.remove('active');
+            labelDictado.textContent = 'Empezar dictado';
+            estadoDictado.textContent = 'Error en el reconocimiento de voz.';
+            estadoDictado.className = 'status-text status-error';
+            console.error('Speech recognition error:', event);
+        };
+
+        recognition.onend = function() {
+            escuchando = false;
+            btnDictar.classList.remove('active');
+            labelDictado.textContent = 'Empezar dictado';
+            if (textarea.value.trim()) {
+                estadoDictado.textContent = 'Dictado detenido. Texto listo para corregir.';
+                estadoDictado.className = 'status-text status-ok';
+            } else {
+                estadoDictado.textContent = 'Dictado detenido.';
+                estadoDictado.className = 'status-text status-warn';
+            }
+        };
+
+        recognition.onresult = function(event) {
+            let interimText = '';
+
+            for (let i = event.resultIndex; i < event.results.length; i++) {
+                const transcript = event.results[i][0].transcript;
+                if (event.results[i].isFinal) {
+                    recognizedFinal += transcript + ' ';
+                } else {
+                    interimText += transcript + ' ';
+                }
+            }
+
+            const fullText = (bufferBeforeRecognition + ' ' + recognizedFinal + interimText).trim();
+            textarea.value = fullText;
+        };
+
+        btnDictar.addEventListener('click', function() {
+            if (!recognition) return;
+            if (!escuchando) {
+                try {
+                    recognition.start();
+                } catch (e) {
+                    console.error(e);
+                }
+            } else {
+                recognition.stop();
+            }
+        });
+
+        estadoDictado.textContent = 'Dictado disponible. Pulsa "Empezar dictado".';
+        estadoDictado.className = 'status-text status-ok';
+    } else {
+        btnDictar.disabled = true;
+        estadoDictado.textContent = 'El dictado por voz no es compatible con este navegador.';
+        estadoDictado.className = 'status-text status-error';
+    }
+
+    // Al escribir o pegar manualmente, avisamos al heartbeat de que hay cambios
+    textarea.addEventListener('input', function() {
+        updateIAStatus('Detectados cambios. Se corregirá en unos segundos…', 'status-warn');
+    });
+})();
+</script>
+</body>
+</html>
+```
+
+### simulacion de email
+<small>Creado: 2025-12-11 19:09</small>
+
+`007-simulacion de email.php`
+
+```
+<?php
+// cliente_correo.php
+
+// === CONFIGURACIÓN DE LA API REMOTA ===
+$API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+$API_KEY = "TEST_API_KEY_JOCARSA_123"; // cambia por tu API key real
+
+// --- Formateo especial del cuerpo como correo elegante ---
+function ajustarFormatoEmail(string $texto): string
+{
+    $texto = preg_replace("/\r\n|\r/", "\n", trim($texto));
+    if ($texto === '') {
+        return '';
+    }
+
+    // 0) Separar saludo en primera línea y cuerpo en otra, si procede.
+    // Ej: "Hola Francisco, este es un correo..." ->
+    // Hola Francisco,
+    //
+    // Este es un correo...
+    $texto = preg_replace_callback(
+        '/^((hola|buenos dias|buenos días|buenas tardes|buenas noches|estimad[oa]s?|querid[oa]s?)\s+[^\n,]+,)\s*(.*)$/iu',
+        function ($m) {
+            $greeting = trim($m[1]);
+            $rest     = trim($m[3]);
+            if ($rest === '') {
+                return $greeting;
+            }
+            return $greeting . "\n\n" . $rest;
+        },
+        $texto
+    );
+
+    $lineas = explode("\n", $texto);
+    $lineas = array_map(static fn($l) => rtrim($l), $lineas);
+
+    // 1) Reducir grupos de líneas vacías (máx. 1 consecutiva)
+    $limpias = [];
+    $vaciasSeguidas = 0;
+    foreach ($lineas as $l) {
+        if (trim($l) === '') {
+            $vaciasSeguidas++;
+            if ($vaciasSeguidas > 1) {
+                continue;
+            }
+        } else {
+            $vaciasSeguidas = 0;
+        }
+        $limpias[] = $l;
+    }
+    $lineas = $limpias;
+
+    // 2) Asegurar línea en blanco tras el saludo (por si ya venía en varias líneas)
+    $greetingRegex = '/^(hola|buenos dias|buenos días|buenas tardes|buenas noches|estimad[oa]s?|querid[oa]s?)/iu';
+    $n = count($lineas);
+    for ($i = 0; $i < $n; $i++) {
+        $ltrim = ltrim($lineas[$i]);
+        if ($ltrim === '') {
+            continue;
+        }
+        if (preg_match($greetingRegex, $ltrim)) {
+            if ($i + 1 >= $n || trim($lineas[$i + 1]) !== '') {
+                array_splice($lineas, $i + 1, 0, ['']);
+            }
+        }
+        break;
+    }
+
+    // 3) Asegurar línea en blanco antes del cierre (Un saludo, Saludos, etc.)
+    $closingRegex = '/^(un saludo|saludos|atentamente|cordialmente|muchas gracias|gracias de antemano)/iu';
+    $n = count($lineas);
+    for ($i = $n - 1; $i >= 0; $i--) {
+        $ltrim = ltrim($lineas[$i]);
+        if ($ltrim === '') {
+            continue;
+        }
+        if (preg_match($closingRegex, $ltrim)) {
+            if ($i - 1 < 0 || trim($lineas[$i - 1]) !== '') {
+                array_splice($lineas, $i, 0, ['']);
+            }
+            break;
+        }
+    }
+
+    return implode("\n", $lineas);
+}
+
+// --- Procesar cuerpo del correo con IA ---
+function procesar_texto_cuerpo(string $textoOriginal, string $API_URL, string $API_KEY): array
+{
+    if ($textoOriginal === '') {
+        return ['ok' => false, 'error' => 'Texto vacío', 'texto' => ''];
+    }
+
+    $question =
+        "Eres un asistente de edición de texto en español.\n\n" .
+        "TAREA:\n" .
+        "Reescribe el texto que te paso a continuación, manteniendo EXACTAMENTE el mismo contenido y significado,\n" .
+        "pero corrigiendo solo:\n" .
+        "- Ortografía y acentuación.\n" .
+        "- Puntuación.\n" .
+        "- Mayúsculas y minúsculas.\n" .
+        "- División en frases para que sea legible y profesional.\n\n" .
+        "REGLAS ESTRICTAS:\n" .
+        "- No añadas información nueva.\n" .
+        "- No inventes nombres, fechas, cifras ni detalles.\n" .
+        "- No elimines información relevante.\n" .
+        "- No añadas saludos, despedidas ni asuntos que no aparezcan en el texto original.\n" .
+        "- Mantén el mismo orden de ideas.\n" .
+        "- No expliques lo que haces.\n" .
+        "- Devuelve únicamente el texto corregido, sin comentarios, sin comillas, sin formato extra.\n\n" .
+        "Texto original:\n" .
+        $textoOriginal;
+
+    $ch = curl_init($API_URL);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+
+    $postFields = http_build_query(['question' => $question]);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $postFields);
+
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        'X-API-Key: ' . $API_KEY,
+        'Content-Type: application/x-www-form-urlencoded'
+    ]);
+
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+
+    $response = curl_exec($ch);
+
+    if ($response === false) {
+        $err = "Error al contactar con la API remota: " . curl_error($ch);
+        curl_close($ch);
+        return ['ok' => false, 'error' => $err, 'texto' => ''];
+    }
+
+    $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+
+    if ($status !== 200) {
+        return ['ok' => false, 'error' => "La API remota devolvió HTTP $status. Respuesta: $response", 'texto' => ''];
+    }
+
+    $data = json_decode($response, true);
+    if (json_last_error() !== JSON_ERROR_NONE) {
+        return ['ok' => false, 'error' => "Error al decodificar JSON: " . json_last_error_msg() . ". Respuesta: $response", 'texto' => ''];
+    }
+
+    if (!isset($data['answer']) || !is_string($data['answer'])) {
+        return ['ok' => false, 'error' => "La respuesta de la API no contiene el campo 'answer'. Respuesta: $response", 'texto' => ''];
+    }
+
+    $textoFormateado = trim($data['answer']);
+    $textoFormateado = ajustarFormatoEmail($textoFormateado);
+
+    return ['ok' => true, 'error' => '', 'texto' => $textoFormateado];
+}
+
+// --- Procesar ASUNTO con IA ---
+function procesar_texto_asunto(string $textoOriginal, string $API_URL, string $API_KEY): array
+{
+    if ($textoOriginal === '') {
+        return ['ok' => false, 'error' => 'Texto vacío', 'texto' => ''];
+    }
+
+    $question =
+        "Eres un asistente experto redactando asuntos de correo electrónico en español profesional.\n\n" .
+        "TAREA:\n" .
+        "A partir del texto que te paso, genera únicamente un asunto de correo breve, claro y profesional.\n\n" .
+        "REGLAS ESTRICTAS:\n" .
+        "- Mantén el mismo significado general, sin añadir información nueva.\n" .
+        "- No añadas datos que no estén en el texto original.\n" .
+        "- El resultado debe ser una sola línea.\n" .
+        "- No incluyas la palabra 'Asunto:' ni comillas ni explicaciones.\n" .
+        "- Evita el punto final, salvo que sea imprescindible.\n\n" .
+        "Texto original del asunto (dictado):\n" .
+        $textoOriginal;
+
+    $ch = curl_init($API_URL);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+
+    $postFields = http_build_query(['question' => $question]);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $postFields);
+
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        'X-API-Key: ' . $API_KEY,
+        'Content-Type: application/x-www-form-urlencoded'
+    ]);
+
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+
+    $response = curl_exec($ch);
+
+    if ($response === false) {
+        $err = "Error al contactar con la API remota: " . curl_error($ch);
+        curl_close($ch);
+        return ['ok' => false, 'error' => $err, 'texto' => ''];
+    }
+
+    $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+
+    if ($status !== 200) {
+        return ['ok' => false, 'error' => "La API remota devolvió HTTP $status. Respuesta: $response", 'texto' => ''];
+    }
+
+    $data = json_decode($response, true);
+    if (json_last_error() !== JSON_ERROR_NONE) {
+        return ['ok' => false, 'error' => "Error al decodificar JSON: " . json_last_error_msg() . ". Respuesta: $response", 'texto' => ''];
+    }
+
+    if (!isset($data['answer']) || !is_string($data['answer'])) {
+        return ['ok' => false, 'error' => "La respuesta de la API no contiene el campo 'answer'. Respuesta: $response", 'texto' => ''];
+    }
+
+    $textoFormateado = trim($data['answer']);
+    // Una línea, sin saltos extra
+    $textoFormateado = preg_replace("/\r\n|\r|\n/", ' ', $textoFormateado);
+    $textoFormateado = preg_replace('/\s+/', ' ', $textoFormateado);
+
+    return ['ok' => true, 'error' => '', 'texto' => $textoFormateado];
+}
+
+// === MODO AJAX: peticiones de IA (cuerpo o asunto) ===
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['ajax']) && $_POST['ajax'] === '1') {
+    header('Content-Type: application/json; charset=utf-8');
+
+    $kind = $_POST['kind'] ?? 'body';
+    $textoOriginal = isset($_POST['texto']) ? trim($_POST['texto']) : '';
+
+    if ($textoOriginal === '') {
+        echo json_encode(['ok' => false, 'error' => 'Texto vacío', 'texto' => ''], JSON_UNESCAPED_UNICODE);
+        exit;
+    }
+
+    if ($kind === 'subject') {
+        $resultado = procesar_texto_asunto($textoOriginal, $API_URL, $API_KEY);
+    } else {
+        $resultado = procesar_texto_cuerpo($textoOriginal, $API_URL, $API_KEY);
+    }
+
+    echo json_encode($resultado, JSON_UNESCAPED_UNICODE);
+    exit;
+}
+
+// === Si no es AJAX, servimos la página HTML ===
+?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Cliente de correo (simulado) con dictado e IA</title>
+    <style>
+        :root {
+            --bg: #f5f7fb;
+            --card-bg: #ffffff;
+            --card-border: #d4d4d8;
+            --accent: #2563eb;
+            --accent-soft: #e0ebff;
+            --text-main: #111827;
+            --text-muted: #6b7280;
+            --error: #b91c1c;
+            --success: #15803d;
+            --warn: #92400e;
+        }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background: var(--bg);
+            color: var(--text-main);
+            display: flex;
+            justify-content: center;
+            padding: 2rem;
+        }
+        .app-shell {
+            width: 100%;
+            max-width: 900px;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+        .app-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+        }
+        .app-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: .5rem;
+        }
+        .app-title-badge {
+            font-size: .8rem;
+            padding: .2rem .6rem;
+            border-radius: 999px;
+            background: var(--accent-soft);
+            color: var(--accent);
+        }
+        .app-subtitle {
+            font-size: .9rem;
+            color: var(--text-muted);
+            margin-top: .25rem;
+        }
+        .pill {
+            font-size: .8rem;
+            padding: .35rem .7rem;
+            border-radius: 999px;
+            border: 1px solid #e5e7eb;
+            background: #ffffff;
+            color: var(--text-muted);
+        }
+        .card {
+            background: var(--card-bg);
+            border-radius: 1rem;
+            border: 1px solid var(--card-border);
+            padding: 1.2rem 1.3rem;
+        }
+        .card-header {
+            margin-bottom: .9rem;
+        }
+        .card-title {
+            font-size: 1rem;
+            font-weight: 600;
+        }
+        .card-caption {
+            font-size: .82rem;
+            color: var(--text-muted);
+            margin-top: .2rem;
+        }
+        .form-row {
+            display: flex;
+            align-items: center;
+            gap: .75rem;
+            margin-bottom: .7rem;
+        }
+        .form-label {
+            width: 4rem;
+            font-size: .9rem;
+            color: var(--text-muted);
+            text-align: right;
+        }
+        .form-field {
+            flex: 1;
+        }
+        .input-text {
+            width: 100%;
+            border-radius: .6rem;
+            border: 1px solid #d4d4d8;
+            padding: .5rem .7rem;
+            font-size: .9rem;
+            font-family: inherit;
+            color: var(--text-main);
+            background: #f9fafb;
+        }
+        .input-text:focus {
+            outline: none;
+            border-color: var(--accent);
+            background: #ffffff;
+        }
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: .35rem;
+            padding: .35rem .75rem;
+            border-radius: 999px;
+            border: 1px solid #d4d4d8;
+            font-size: .8rem;
+            font-weight: 500;
+            cursor: pointer;
+            background: #ffffff;
+            color: var(--text-main);
+            transition: background 0.15s ease, border-color 0.15s ease;
+        }
+        .btn:hover {
+            background: #eff6ff;
+            border-color: var(--accent);
+        }
+        .btn-voice.active {
+            background: #dbeafe;
+            border-color: #1d4ed8;
+        }
+        .pulse-dot {
+            width: .5rem;
+            height: .5rem;
+            border-radius: 999px;
+            background: #9ca3af;
+        }
+        .btn-voice.active .pulse-dot {
+            background: #22c55e;
+        }
+        .status-text {
+            font-size: .8rem;
+        }
+        .status-ok   { color: var(--success); }
+        .status-warn { color: var(--warn); }
+        .status-error{ color: var(--error); }
+        .status-row {
+            display: flex;
+            justify-content: flex-end;
+            font-size: .8rem;
+            color: var(--text-muted);
+            margin-top: .25rem;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+        .status-label {
+            font-weight: 500;
+        }
+        .body-label-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: .6rem;
+            margin-bottom: .3rem;
+        }
+        .body-label-row span {
+            font-size: .9rem;
+        }
+        .badge-ai {
+            font-size: .78rem;
+            padding: .2rem .55rem;
+            border-radius: 999px;
+            background: #eff6ff;
+            color: #1d4ed8;
+        }
+        .result-box {
+            padding: .75rem .9rem;
+            border-radius: .75rem;
+            border: 1px solid #e5e7eb;
+            background: #f9fafb;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+            font-size: .9rem;
+            white-space: pre-wrap;
+            min-height: 150px;
+            max-height: 340px;
+            overflow: auto;
+            color: var(--text-main);
+        }
+        .result-placeholder {
+            color: var(--text-muted);
+            font-style: italic;
+        }
+        .chip {
+            font-size: .78rem;
+            padding: .2rem .55rem;
+            border-radius: 999px;
+            background: #eef2ff;
+            color: #4b5563;
+        }
+        .visually-hidden {
+            position: absolute;
+            left: -9999px;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+        }
+        .thin-scroll::-webkit-scrollbar {
+            width: 6px;
+        }
+        .thin-scroll::-webkit-scrollbar-thumb {
+            background: #d4d4d8;
+            border-radius: 999px;
+        }
+        .thin-scroll::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        @media (max-width: 720px) {
+            body { padding: 1rem; }
+            .form-label { width: 3.5rem; }
+        }
+    </style>
+</head>
+<body>
+<div class="app-shell">
+    <header class="app-header">
+        <div>
+            <div class="app-title">
+                <span>📧 Cliente de correo (simulado)</span>
+                <span class="app-title-badge">Dictado + IA</span>
+            </div>
+            <div class="app-subtitle">
+                Dicta asunto y cuerpo, y obtén un correo elegante y profesional listo para enviar.
+            </div>
+        </div>
+        <div class="pill">
+            🎙️ Dictado por voz · es-ES
+        </div>
+    </header>
+
+    <main class="card">
+        <div class="card-header">
+            <div class="card-title">Nuevo mensaje</div>
+            <div class="card-caption">Simulación de cliente de correo: destinatario, asunto y cuerpo con corrección automática.</div>
+        </div>
+
+        <!-- Fila destinatario (solo interfaz) -->
+        <div class="form-row">
+            <div class="form-label">Para</div>
+            <div class="form-field">
+                <input type="email" class="input-text" placeholder="destinatario@ejemplo.com (simulado, no se envía)">
+            </div>
+        </div>
+
+        <!-- Fila asunto -->
+        <div class="form-row">
+            <div class="form-label">Asunto</div>
+            <div class="form-field">
+                <input type="text" id="subjectFinal" class="input-text" placeholder="El asunto corregido aparecerá aquí" readonly>
+            </div>
+            <button type="button" id="btnDictarSubject" class="btn btn-voice">
+                <span class="pulse-dot"></span>
+                <span>🎙️ Asunto</span>
+            </button>
+        </div>
+
+        <!-- Estado IA asunto -->
+        <div class="status-row">
+            <div>
+                <span class="status-label">Asunto IA:</span>
+                <span id="estadoIA_subject" class="status-text status-warn">A la espera de dictado…</span>
+            </div>
+        </div>
+
+        <!-- Texto de asunto original oculto -->
+        <textarea id="subjectRaw" class="visually-hidden"></textarea>
+
+        <!-- Cuerpo -->
+        <div class="body-label-row">
+            <span>Cuerpo del mensaje</span>
+            <span class="badge-ai">Corrección suave (sin inventar contenido)</span>
+        </div>
+
+        <!-- Texto de cuerpo original oculto -->
+        <textarea id="texto" class="visually-hidden"></textarea>
+
+        <!-- Cuerpo corregido -->
+        <div id="bodyResultBox" class="result-box thin-scroll">
+            <span class="result-placeholder">
+                Dicta el cuerpo del mensaje (botón 🎙️ Cuerpo) y aparecerá aquí corregido y formateado como un correo profesional.
+            </span>
+        </div>
+
+        <!-- Controles y estados cuerpo -->
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-top:.6rem; flex-wrap:wrap; gap:.6rem;">
+            <div style="display:flex; align-items:center; gap:.5rem; flex-wrap:wrap;">
+                <button type="button" id="btnDictarBody" class="btn btn-voice">
+                    <span class="pulse-dot"></span>
+                    <span>🎙️ Cuerpo</span>
+                </button>
+                <span class="chip">La IA se ejecuta automáticamente cada pocos segundos</span>
+            </div>
+            <div>
+                <span class="status-label">Cuerpo IA:</span>
+                <span id="estadoIA_body" class="status-text status-warn">A la espera de dictado…</span>
+            </div>
+        </div>
+
+        <!-- Estado general de dictado -->
+        <div style="margin-top:.4rem; text-align:right;">
+            <span id="estadoDictado" class="status-text status-warn">Dictado en espera.</span>
+        </div>
+    </main>
+</div>
+
+<script>
+(function() {
+    const subjectRaw      = document.getElementById('subjectRaw');
+    const bodyRaw         = document.getElementById('texto');
+    const subjectFinal    = document.getElementById('subjectFinal');
+    const bodyResultBox   = document.getElementById('bodyResultBox');
+
+    const btnDictarSubject = document.getElementById('btnDictarSubject');
+    const btnDictarBody    = document.getElementById('btnDictarBody');
+
+    const estadoIA_subject = document.getElementById('estadoIA_subject');
+    const estadoIA_body    = document.getElementById('estadoIA_body');
+    const estadoDictado    = document.getElementById('estadoDictado');
+
+    let recognition = null;
+    let escuchando = false;
+    let currentTarget = null;         // subjectRaw o bodyRaw
+    let currentTargetType = null;     // 'subject' | 'body'
+    let bufferBeforeRecognition = '';
+    let recognizedFinal = '';
+
+    let lastSentSubject = '';
+    let lastSentBody    = '';
+    let isSendingSubject = false;
+    let isSendingBody    = false;
+    const HEARTBEAT_MS = 3000; // cada pocos segundos
+
+    function setResultBody(text, isError = false, isPlaceholder = false) {
+        bodyResultBox.innerHTML = '';
+        const pre = document.createElement('pre');
+        pre.style.margin = '0';
+        pre.style.whiteSpace = 'pre-wrap';
+        if (isPlaceholder) pre.classList.add('result-placeholder');
+        if (isError) pre.style.color = '#b91c1c';
+        pre.textContent = text;
+        bodyResultBox.appendChild(pre);
+    }
+
+    function updateIAStatus(kind, text, cls) {
+        if (kind === 'subject') {
+            estadoIA_subject.textContent = text;
+            estadoIA_subject.className = 'status-text ' + (cls || '');
+        } else if (kind === 'body') {
+            estadoIA_body.textContent = text;
+            estadoIA_body.className = 'status-text ' + (cls || '');
+        }
+    }
+
+    function markChanged(kind) {
+        if (kind === 'subject') {
+            updateIAStatus('subject', 'Detectados cambios. Se corregirá en unos segundos…', 'status-warn');
+        } else if (kind === 'body') {
+            updateIAStatus('body', 'Detectados cambios. Se corregirá en unos segundos…', 'status-warn');
+        }
+    }
+
+    function sendToAI(kind) {
+        const rawEl   = (kind === 'subject') ? subjectRaw : bodyRaw;
+        const current = rawEl.value.trim();
+        if (!current) {
+            updateIAStatus(kind, 'Sin texto para corregir.', 'status-warn');
+            return;
+        }
+
+        if (kind === 'subject') {
+            if (isSendingSubject || current === lastSentSubject) return;
+            isSendingSubject = true;
+            updateIAStatus('subject', 'Enviando asunto a la IA…', 'status-warn');
+        } else {
+            if (isSendingBody || current === lastSentBody) return;
+            isSendingBody = true;
+            updateIAStatus('body', 'Enviando cuerpo a la IA…', 'status-warn');
+        }
+
+        const params = new URLSearchParams();
+        params.append('ajax', '1');
+        params.append('kind', kind === 'subject' ? 'subject' : 'body');
+        params.append('texto', current);
+
+        fetch(window.location.href, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+            body: params.toString()
+        })
+        .then(resp => resp.json())
+        .then(data => {
+            if (!data || typeof data.ok === 'undefined') {
+                if (kind === 'body') setResultBody('Respuesta inesperada del servidor.', true);
+                updateIAStatus(kind, 'Error en la respuesta.', 'status-error');
+                return;
+            }
+            if (!data.ok) {
+                if (kind === 'body') setResultBody(data.error || 'Error al procesar el texto.', true);
+                updateIAStatus(kind, 'Error al procesar el texto.', 'status-error');
+                return;
+            }
+
+            if (kind === 'subject') {
+                lastSentSubject = current;
+                subjectFinal.value = data.texto || '';
+                updateIAStatus('subject', 'Asunto actualizado.', 'status-ok');
+            } else {
+                lastSentBody = current;
+                setResultBody(data.texto || '');
+                updateIAStatus('body', 'Cuerpo actualizado.', 'status-ok');
+            }
+        })
+        .catch(err => {
+            console.error(err);
+            if (kind === 'body') setResultBody('Error de red al contactar con la IA.', true);
+            updateIAStatus(kind, 'Error de red.', 'status-error');
+        })
+        .finally(() => {
+            if (kind === 'subject') isSendingSubject = false;
+            else isSendingBody = false;
+        });
+    }
+
+    // Heartbeat: lanza las peticiones si hay cambios
+    setInterval(function() {
+        sendToAI('subject');
+        sendToAI('body');
+    }, HEARTBEAT_MS);
+
+    // Dictado por voz
+    function startDictationFor(kind) {
+        if (!recognition) return;
+
+        const targetRaw  = (kind === 'subject') ? subjectRaw : bodyRaw;
+        const otherBtn   = (kind === 'subject') ? btnDictarBody : btnDictarSubject;
+        const thisBtn    = (kind === 'subject') ? btnDictarSubject : btnDictarBody;
+
+        if (escuchando && currentTargetType === kind) {
+            recognition.stop();
+            return;
+        }
+
+        if (escuchando && currentTargetType !== kind) {
+            recognition.stop();
+            // El usuario deberá pulsar de nuevo el botón deseado
+            return;
+        }
+
+        currentTarget = targetRaw;
+        currentTargetType = kind;
+        try {
+            recognition.start();
+        } catch (e) {
+            console.error(e);
+        }
+    }
+
+    if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window) {
+        const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+        recognition = new SR();
+        recognition.lang = 'es-ES';
+        recognition.continuous = true;
+        recognition.interimResults = true;
+
+        recognition.onstart = function() {
+            escuchando = true;
+            recognizedFinal = '';
+            bufferBeforeRecognition = currentTarget ? currentTarget.value.trimEnd() : '';
+
+            btnDictarSubject.classList.remove('active');
+            btnDictarBody.classList.remove('active');
+
+            if (currentTargetType === 'subject') {
+                btnDictarSubject.classList.add('active');
+                estadoDictado.textContent = 'Dictando asunto…';
+            } else if (currentTargetType === 'body') {
+                btnDictarBody.classList.add('active');
+                estadoDictado.textContent = 'Dictando cuerpo del mensaje…';
+            } else {
+                estadoDictado.textContent = 'Dictando…';
+            }
+            estadoDictado.className = 'status-text status-ok';
+        };
+
+        recognition.onerror = function(event) {
+            escuchando = false;
+            btnDictarSubject.classList.remove('active');
+            btnDictarBody.classList.remove('active');
+            estadoDictado.textContent = 'Error en el reconocimiento de voz.';
+            estadoDictado.className = 'status-text status-error';
+            console.error('Speech recognition error:', event);
+        };
+
+        recognition.onend = function() {
+            escuchando = false;
+            btnDictarSubject.classList.remove('active');
+            btnDictarBody.classList.remove('active');
+            if (subjectRaw.value.trim() || bodyRaw.value.trim()) {
+                estadoDictado.textContent = 'Dictado detenido. Texto listo para corregir.';
+                estadoDictado.className = 'status-text status-ok';
+            } else {
+                estadoDictado.textContent = 'Dictado detenido.';
+                estadoDictado.className = 'status-text status-warn';
+            }
+        };
+
+        recognition.onresult = function(event) {
+            if (!currentTarget) return;
+
+            let interimText = '';
+            for (let i = event.resultIndex; i < event.results.length; i++) {
+                const transcript = event.results[i][0].transcript;
+                if (event.results[i].isFinal) {
+                    recognizedFinal += transcript + ' ';
+                } else {
+                    interimText += transcript + ' ';
+                }
+            }
+
+            const fullText = (bufferBeforeRecognition + ' ' + recognizedFinal + interimText).trim();
+            currentTarget.value = fullText;
+            if (currentTargetType) {
+                markChanged(currentTargetType);
+            }
+        };
+
+        btnDictarSubject.addEventListener('click', function() {
+            startDictationFor('subject');
+        });
+        btnDictarBody.addEventListener('click', function() {
+            startDictationFor('body');
+        });
+
+        estadoDictado.textContent = 'Dictado disponible. Pulsa un botón de 🎙️ para empezar.';
+        estadoDictado.className = 'status-text status-ok';
+    } else {
+        btnDictarSubject.disabled = true;
+        btnDictarBody.disabled = true;
+        estadoDictado.textContent = 'El dictado por voz no es compatible con este navegador.';
+        estadoDictado.className = 'status-text status-error';
+    }
+})();
+</script>
+</body>
+</html>
+```
+
+### enviar email realmente
+<small>Creado: 2025-12-11 19:26</small>
+
+`008-enviar email realmente.php`
+
+```
+<?php
+// cliente_correo_envia.php
+
+// === CONFIGURACIÓN SMTP (usar TLS como en el script de Python) ===
+const SMTP_HOST = 'smtp.ionos.es';
+const SMTP_PORT = 587; // TLS explícito (STARTTLS)
+const SMTP_USER = 'python@jocarsa.com';
+const SMTP_PASS = 'TAME123$';
+const SMTP_FROM = 'python@jocarsa.com';
+const SMTP_FROM_NAME = 'Dictado IA';
+
+
+
+
+// === CONFIGURACIÓN DE LA API REMOTA (MISMA QUE EN TU SERVIDOR) ===
+$API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+$API_KEY = "TEST_API_KEY_JOCARSA_123";
+
+// --- Formateo del cuerpo como correo elegante ---
+function ajustarFormatoEmail(string $texto): string
+{
+    $texto = preg_replace("/\r\n|\r/", "\n", trim($texto));
+    if ($texto === '') {
+        return '';
+    }
+
+    // Separar saludo "Hola X," en primera línea + línea en blanco + resto
+    $texto = preg_replace_callback(
+        '/^((hola|buenos dias|buenos días|buenas tardes|buenas noches|estimad[oa]s?|querid[oa]s?)\s+[^\n,]+,)\s*(.*)$/iu',
+        function ($m) {
+            $greeting = trim($m[1]);
+            $rest     = trim($m[3]);
+            if ($rest === '') {
+                return $greeting;
+            }
+            return $greeting . "\n\n" . $rest;
+        },
+        $texto
+    );
+
+    $lineas = explode("\n", $texto);
+    $lineas = array_map(static fn($l) => rtrim($l), $lineas);
+
+    // Reducir grupos de líneas vacías (máx. 1 seguida)
+    $limpias = [];
+    $vaciasSeguidas = 0;
+    foreach ($lineas as $l) {
+        if (trim($l) === '') {
+            $vaciasSeguidas++;
+            if ($vaciasSeguidas > 1) {
+                continue;
+            }
+        } else {
+            $vaciasSeguidas = 0;
+        }
+        $limpias[] = $l;
+    }
+    $lineas = $limpias;
+
+    // Asegurar línea en blanco tras saludo
+    $greetingRegex = '/^(hola|buenos dias|buenos días|buenas tardes|buenas noches|estimad[oa]s?|querid[oa]s?)/iu';
+    $n = count($lineas);
+    for ($i = 0; $i < $n; $i++) {
+        $ltrim = ltrim($lineas[$i]);
+        if ($ltrim === '') {
+            continue;
+        }
+        if (preg_match($greetingRegex, $ltrim)) {
+            if ($i + 1 >= $n || trim($lineas[$i + 1]) !== '') {
+                array_splice($lineas, $i + 1, 0, ['']);
+            }
+        }
+        break;
+    }
+
+    // Asegurar línea en blanco antes de cierre
+    $closingRegex = '/^(un saludo|saludos|atentamente|cordialmente|muchas gracias|gracias de antemano)/iu';
+    $n = count($lineas);
+    for ($i = $n - 1; $i >= 0; $i--) {
+        $ltrim = ltrim($lineas[$i]);
+        if ($ltrim === '') {
+            continue;
+        }
+        if (preg_match($closingRegex, $ltrim)) {
+            if ($i - 1 < 0 || trim($lineas[$i - 1]) !== '') {
+                array_splice($lineas, $i, 0, ['']);
+            }
+            break;
+        }
+    }
+
+    return implode("\n", $lineas);
+}
+
+// --- Procesar cuerpo del correo con IA ---
+function procesar_texto_cuerpo(string $textoOriginal, string $API_URL, string $API_KEY): array
+{
+    if ($textoOriginal === '') {
+        return ['ok' => false, 'error' => 'Texto vacío', 'texto' => ''];
+    }
+
+    $question =
+        "Eres un asistente de edición de texto en español.\n\n" .
+        "TAREA:\n" .
+        "Reescribe el texto que te paso a continuación, manteniendo EXACTAMENTE el mismo contenido y significado,\n" .
+        "pero corrigiendo solo:\n" .
+        "- Ortografía y acentuación.\n" .
+        "- Puntuación.\n" .
+        "- Mayúsculas y minúsculas.\n" .
+        "- División en frases para que sea legible y profesional.\n\n" .
+        "REGLAS ESTRICTAS:\n" .
+        "- No añadas información nueva.\n" .
+        "- No inventes nombres, fechas, cifras ni detalles.\n" .
+        "- No elimines información relevante.\n" .
+        "- No añadas saludos, despedidas ni asuntos que no aparezcan en el texto original.\n" .
+        "- Mantén el mismo orden de ideas.\n" .
+        "- No expliques lo que haces.\n" .
+        "- Devuelve únicamente el texto corregido, sin comentarios, sin comillas, sin formato extra.\n\n" .
+        "Texto original:\n" .
+        $textoOriginal;
+
+    $ch = curl_init($API_URL);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+    $postFields = http_build_query(['question' => $question]);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $postFields);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        'X-API-Key: ' . $API_KEY,
+        'Content-Type: application/x-www-form-urlencoded'
+    ]);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+
+    $response = curl_exec($ch);
+
+    if ($response === false) {
+        $err = "Error al contactar con la API remota: " . curl_error($ch);
+        curl_close($ch);
+        return ['ok' => false, 'error' => $err, 'texto' => ''];
+    }
+
+    $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+
+    if ($status !== 200) {
+        return ['ok' => false, 'error' => "La API remota devolvió HTTP $status. Respuesta: $response", 'texto' => ''];
+    }
+
+    $data = json_decode($response, true);
+    if (json_last_error() !== JSON_ERROR_NONE) {
+        return ['ok' => false, 'error' => "Error al decodificar JSON: " . json_last_error_msg() . ". Respuesta: $response", 'texto' => ''];
+    }
+
+    if (!isset($data['answer']) || !is_string($data['answer'])) {
+        return ['ok' => false, 'error' => "La respuesta de la API no contiene el campo 'answer'. Respuesta: $response", 'texto' => ''];
+    }
+
+    $textoFormateado = trim($data['answer']);
+    $textoFormateado = ajustarFormatoEmail($textoFormateado);
+
+    return ['ok' => true, 'error' => '', 'texto' => $textoFormateado];
+}
+
+// --- Procesar asunto con IA ---
+function procesar_texto_asunto(string $textoOriginal, string $API_URL, string $API_KEY): array
+{
+    if ($textoOriginal === '') {
+        return ['ok' => false, 'error' => 'Texto vacío', 'texto' => ''];
+    }
+
+    $question =
+        "Eres un asistente experto redactando asuntos de correo electrónico en español profesional.\n\n" .
+        "TAREA:\n" .
+        "A partir del texto que te paso, genera únicamente un asunto de correo breve, claro y profesional.\n\n" .
+        "REGLAS ESTRICTAS:\n" .
+        "- Mantén el mismo significado general, sin añadir información nueva.\n" .
+        "- No añadas datos que no estén en el texto original.\n" .
+        "- El resultado debe ser una sola línea.\n" .
+        "- No incluyas la palabra 'Asunto:' ni comillas ni explicaciones.\n" .
+        "- Evita el punto final, salvo que sea imprescindible.\n\n" .
+        "Texto original del asunto (dictado):\n" .
+        $textoOriginal;
+
+    $ch = curl_init($API_URL);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+    $postFields = http_build_query(['question' => $question]);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $postFields);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        'X-API-Key: ' . $API_KEY,
+        'Content-Type: application/x-www-form-urlencoded'
+    ]);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+
+    $response = curl_exec($ch);
+
+    if ($response === false) {
+        $err = "Error al contactar con la API remota: " . curl_error($ch);
+        curl_close($ch);
+        return ['ok' => false, 'error' => $err, 'texto' => ''];
+    }
+
+    $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+
+    if ($status !== 200) {
+        return ['ok' => false, 'error' => "La API remota devolvió HTTP $status. Respuesta: $response", 'texto' => ''];
+    }
+
+    $data = json_decode($response, true);
+    if (json_last_error() !== JSON_ERROR_NONE) {
+        return ['ok' => false, 'error' => "Error al decodificar JSON: " . json_last_error_msg() . ". Respuesta: $response", 'texto' => ''];
+    }
+
+    if (!isset($data['answer']) || !is_string($data['answer'])) {
+        return ['ok' => false, 'error' => "La respuesta de la API no contiene el campo 'answer'. Respuesta: $response", 'texto' => ''];
+    }
+
+    $textoFormateado = trim($data['answer']);
+    $textoFormateado = preg_replace("/\r\n|\r|\n/", ' ', $textoFormateado);
+    $textoFormateado = preg_replace('/\s+/', ' ', $textoFormateado);
+
+    return ['ok' => true, 'error' => '', 'texto' => $textoFormateado];
+}
+
+// --- Envío SMTP puro con sockets ---
+function smtp_read_line($conn): string
+{
+    $data = '';
+    while ($str = fgets($conn, 515)) {
+        $data .= $str;
+        // Línea final de la respuesta (código + espacio)
+        if (strlen($str) >= 4 && $str[3] === ' ') {
+            break;
+        }
+    }
+    return $data;
+}
+
+function smtp_expect($conn, string $expectedCode, string $context): string
+{
+    $data = smtp_read_line($conn);
+    if (substr($data, 0, 3) !== $expectedCode) {
+        throw new RuntimeException("Error SMTP en $context. Esperado $expectedCode, recibido: $data");
+    }
+    return $data;
+}
+
+
+function smtp_send_email(string $to, string $subject, string $body): array
+{
+    $to = trim($to);
+    if (!filter_var($to, FILTER_VALIDATE_EMAIL)) {
+        return ['ok' => false, 'error' => 'Dirección de correo no válida.'];
+    }
+
+    // Conexión TCP sin cifrar (como hace Python antes de starttls())
+    $errno = 0;
+    $errstr = '';
+    $conn = @fsockopen(SMTP_HOST, SMTP_PORT, $errno, $errstr, 20);
+    if (!$conn) {
+        return ['ok' => false, 'error' => "No se pudo conectar al servidor SMTP: $errstr ($errno)"];
+    }
+
+    try {
+        // 1) Saludo inicial del servidor
+        smtp_expect($conn, '220', 'greeting');
+
+        // 2) EHLO inicial
+        $hostname = 'localhost'; // puedes usar 'jocarsa.com' si quieres
+        fwrite($conn, "EHLO $hostname\r\n");
+        smtp_expect($conn, '250', 'EHLO (inicial)');
+
+        // 3) Solicitar STARTTLS (igual que server.starttls() en Python)
+        fwrite($conn, "STARTTLS\r\n");
+        smtp_expect($conn, '220', 'STARTTLS');
+
+        // 4) Activar cifrado TLS sobre el socket existente
+        $cryptoOk = @stream_socket_enable_crypto(
+            $conn,
+            true,
+            STREAM_CRYPTO_METHOD_TLS_CLIENT
+        );
+        if (!$cryptoOk) {
+            throw new RuntimeException("No se pudo establecer TLS (stream_socket_enable_crypto).");
+        }
+
+        // 5) EHLO de nuevo ya bajo TLS
+        fwrite($conn, "EHLO $hostname\r\n");
+        smtp_expect($conn, '250', 'EHLO (tras STARTTLS)');
+
+        // 6) Autenticación AUTH LOGIN (como en tu código original)
+        fwrite($conn, "AUTH LOGIN\r\n");
+        smtp_expect($conn, '334', 'AUTH LOGIN');
+
+        fwrite($conn, base64_encode(SMTP_USER) . "\r\n");
+        smtp_expect($conn, '334', 'AUTH LOGIN usuario');
+
+        fwrite($conn, base64_encode(SMTP_PASS) . "\r\n");
+        smtp_expect($conn, '235', 'AUTH LOGIN contraseña');
+
+        // 7) MAIL FROM / RCPT TO
+        fwrite($conn, "MAIL FROM:<" . SMTP_FROM . ">\r\n");
+        smtp_expect($conn, '250', 'MAIL FROM');
+
+        fwrite($conn, "RCPT TO:<" . $to . ">\r\n");
+        smtp_expect($conn, '250', 'RCPT TO');
+
+        // 8) DATA
+        fwrite($conn, "DATA\r\n");
+        smtp_expect($conn, '354', 'DATA');
+
+        // Encabezados
+        $headers = [];
+        $headers[] = "From: \"" . addslashes(SMTP_FROM_NAME) . "\" <" . SMTP_FROM . ">";
+        $headers[] = "To: <$to>";
+        $headers[] = "Subject: " . $subject;
+        $headers[] = "MIME-Version: 1.0";
+        $headers[] = "Content-Type: text/plain; charset=UTF-8";
+        $headers[] = "Content-Transfer-Encoding: 8bit";
+
+        // Cuerpo + fin de DATA (punto en línea sola)
+        $data = implode("\r\n", $headers) . "\r\n\r\n" . $body . "\r\n.\r\n";
+
+        fwrite($conn, $data);
+        smtp_expect($conn, '250', 'final DATA');
+
+        // 9) QUIT
+        fwrite($conn, "QUIT\r\n");
+        fclose($conn);
+
+        return ['ok' => true, 'error' => ''];
+    } catch (Throwable $e) {
+        fclose($conn);
+        return ['ok' => false, 'error' => $e->getMessage()];
+    }
+}
+
+
+// === MODO AJAX (IA asunto/cuerpo) ===
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['ajax']) && $_POST['ajax'] === '1') {
+    header('Content-Type: application/json; charset=utf-8');
+
+    $kind = $_POST['kind'] ?? 'body';
+    $textoOriginal = isset($_POST['texto']) ? trim($_POST['texto']) : '';
+
+    if ($textoOriginal === '') {
+        echo json_encode(['ok' => false, 'error' => 'Texto vacío', 'texto' => ''], JSON_UNESCAPED_UNICODE);
+        exit;
+    }
+
+    if ($kind === 'subject') {
+        $resultado = procesar_texto_asunto($textoOriginal, $API_URL, $API_KEY);
+    } else {
+        $resultado = procesar_texto_cuerpo($textoOriginal, $API_URL, $API_KEY);
+    }
+
+    echo json_encode($resultado, JSON_UNESCAPED_UNICODE);
+    exit;
+}
+
+// === ENVÍO REAL DE CORREO ===
+$sendMessage = null;
+$sendOk = null;
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send_email']) && $_POST['send_email'] === '1') {
+    $to      = $_POST['to'] ?? '';
+    $subject = $_POST['final_subject'] ?? '';
+    $body    = $_POST['final_body'] ?? '';
+
+    $subject = trim($subject);
+    $body    = trim($body);
+
+    if ($to === '' || $subject === '' || $body === '') {
+        $sendOk = false;
+        $sendMessage = 'Para, asunto y cuerpo corregidos son obligatorios para enviar el correo.';
+    } else {
+        $result = smtp_send_email($to, $subject, $body);
+        $sendOk = $result['ok'];
+        $sendMessage = $result['ok']
+            ? 'Correo enviado correctamente a ' . htmlspecialchars($to, ENT_QUOTES, 'UTF-8') . '.'
+            : 'Error al enviar el correo: ' . $result['error'];
+    }
+}
+?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Cliente de correo (envío real) con dictado e IA</title>
+    <style>
+        :root {
+            --bg: #f5f7fb;
+            --card-bg: #ffffff;
+            --card-border: #d4d4d8;
+            --accent: #2563eb;
+            --accent-soft: #e0ebff;
+            --text-main: #111827;
+            --text-muted: #6b7280;
+            --error: #b91c1c;
+            --success: #15803d;
+            --warn: #92400e;
+        }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background: var(--bg);
+            color: var(--text-main);
+            display: flex;
+            justify-content: center;
+            padding: 2rem;
+        }
+        .app-shell {
+            width: 100%;
+            max-width: 900px;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+        .app-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+        }
+        .app-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: .5rem;
+        }
+        .app-title-badge {
+            font-size: .8rem;
+            padding: .2rem .6rem;
+            border-radius: 999px;
+            background: var(--accent-soft);
+            color: var(--accent);
+        }
+        .app-subtitle {
+            font-size: .9rem;
+            color: var(--text-muted);
+            margin-top: .25rem;
+        }
+        .pill {
+            font-size: .8rem;
+            padding: .35rem .7rem;
+            border-radius: 999px;
+            border: 1px solid #e5e7eb;
+            background: #ffffff;
+            color: var(--text-muted);
+        }
+        .card {
+            background: var(--card-bg);
+            border-radius: 1rem;
+            border: 1px solid var(--card-border);
+            padding: 1.2rem 1.3rem;
+        }
+        .card-header {
+            margin-bottom: .9rem;
+        }
+        .card-title {
+            font-size: 1rem;
+            font-weight: 600;
+        }
+        .card-caption {
+            font-size: .82rem;
+            color: var(--text-muted);
+            margin-top: .2rem;
+        }
+        .form-row {
+            display: flex;
+            align-items: center;
+            gap: .75rem;
+            margin-bottom: .7rem;
+        }
+        .form-label {
+            width: 4rem;
+            font-size: .9rem;
+            color: var(--text-muted);
+            text-align: right;
+        }
+        .form-field {
+            flex: 1;
+        }
+        .input-text {
+            width: 100%;
+            border-radius: .6rem;
+            border: 1px solid #d4d4d8;
+            padding: .5rem .7rem;
+            font-size: .9rem;
+            font-family: inherit;
+            color: var(--text-main);
+            background: #f9fafb;
+        }
+        .input-text:focus {
+            outline: none;
+            border-color: var(--accent);
+            background: #ffffff;
+        }
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: .35rem;
+            padding: .35rem .75rem;
+            border-radius: 999px;
+            border: 1px solid #d4d4d8;
+            font-size: .8rem;
+            font-weight: 500;
+            cursor: pointer;
+            background: #ffffff;
+            color: var(--text-main);
+            transition: background 0.15s ease, border-color 0.15s ease;
+        }
+        .btn:hover {
+            background: #eff6ff;
+            border-color: var(--accent);
+        }
+        .btn-voice.active {
+            background: #dbeafe;
+            border-color: #1d4ed8;
+        }
+        .btn-primary {
+            background: var(--accent);
+            color: #ffffff;
+            border-color: var(--accent);
+        }
+        .btn-primary:hover {
+            background: #1d4ed8;
+        }
+        .pulse-dot {
+            width: .5rem;
+            height: .5rem;
+            border-radius: 999px;
+            background: #9ca3af;
+        }
+        .btn-voice.active .pulse-dot {
+            background: #22c55e;
+        }
+        .status-text {
+            font-size: .8rem;
+        }
+        .status-ok   { color: var(--success); }
+        .status-warn { color: var(--warn); }
+        .status-error{ color: var(--error); }
+        .status-row {
+            display: flex;
+            justify-content: flex-end;
+            font-size: .8rem;
+            color: var(--text-muted);
+            margin-top: .25rem;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+        .status-label {
+            font-weight: 500;
+        }
+        .body-label-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: .6rem;
+            margin-bottom: .3rem;
+        }
+        .body-label-row span {
+            font-size: .9rem;
+        }
+        .badge-ai {
+            font-size: .78rem;
+            padding: .2rem .55rem;
+            border-radius: 999px;
+            background: #eff6ff;
+            color: #1d4ed8;
+        }
+        .result-box {
+            padding: .75rem .9rem;
+            border-radius: .75rem;
+            border: 1px solid #e5e7eb;
+            background: #f9fafb;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+            font-size: .9rem;
+            white-space: pre-wrap;
+            min-height: 150px;
+            max-height: 340px;
+            overflow: auto;
+            color: var(--text-main);
+        }
+        .result-placeholder {
+            color: var(--text-muted);
+            font-style: italic;
+        }
+        .chip {
+            font-size: .78rem;
+            padding: .2rem .55rem;
+            border-radius: 999px;
+            background: #eef2ff;
+            color: #4b5563;
+        }
+        .visually-hidden {
+            position: absolute;
+            left: -9999px;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+        }
+        .thin-scroll::-webkit-scrollbar {
+            width: 6px;
+        }
+        .thin-scroll::-webkit-scrollbar-thumb {
+            background: #d4d4d8;
+            border-radius: 999px;
+        }
+        .thin-scroll::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        .send-status {
+            margin-top: .75rem;
+            padding: .6rem .9rem;
+            border-radius: .6rem;
+            font-size: .85rem;
+        }
+        .send-status.ok {
+            background: #ecfdf3;
+            color: var(--success);
+            border: 1px solid #bbf7d0;
+        }
+        .send-status.error {
+            background: #fef2f2;
+            color: var(--error);
+            border: 1px solid #fecaca;
+        }
+        @media (max-width: 720px) {
+            body { padding: 1rem; }
+            .form-label { width: 3.5rem; }
+        }
+    </style>
+</head>
+<body>
+<div class="app-shell">
+    <header class="app-header">
+        <div>
+            <div class="app-title">
+                <span>📧 Cliente de correo (envío real)</span>
+                <span class="app-title-badge">Dictado + IA + SMTP</span>
+            </div>
+            <div class="app-subtitle">
+                Dicta asunto y cuerpo, la IA los corrige y el mensaje se envía realmente por SMTP.
+            </div>
+        </div>
+        <div class="pill">
+            🎙️ Dictado por voz · es-ES
+        </div>
+    </header>
+
+    <form method="post" class="card" id="mailForm">
+        <div class="card-header">
+            <div class="card-title">Nuevo mensaje</div>
+            <div class="card-caption">Introduce el destinatario, dicta asunto y cuerpo, revisa y envía.</div>
+        </div>
+
+        <!-- Fila destinatario -->
+        <div class="form-row">
+            <div class="form-label">Para</div>
+            <div class="form-field">
+                <input type="email" name="to" class="input-text"
+                       placeholder="destinatario@ejemplo.com" required>
+            </div>
+        </div>
+
+        <!-- Fila asunto (dictado + asunto corregido) -->
+        <div class="form-row">
+            <div class="form-label">Asunto</div>
+            <div class="form-field">
+                <input type="text" id="subjectFinal" class="input-text"
+                       placeholder="El asunto corregido aparecerá aquí" readonly>
+            </div>
+            <button type="button" id="btnDictarSubject" class="btn btn-voice">
+                <span class="pulse-dot"></span>
+                <span>🎙️ Asunto</span>
+            </button>
+        </div>
+
+        <!-- Estado IA asunto -->
+        <div class="status-row">
+            <div>
+                <span class="status-label">Asunto IA:</span>
+                <span id="estadoIA_subject" class="status-text status-warn">A la espera de dictado…</span>
+            </div>
+        </div>
+
+        <!-- Texto de asunto original oculto -->
+        <textarea id="subjectRaw" class="visually-hidden"></textarea>
+        <input type="hidden" name="final_subject" id="final_subject">
+
+        <!-- Cuerpo -->
+        <div class="body-label-row">
+            <span>Cuerpo del mensaje</span>
+            <span class="badge-ai">Corrección suave (sin inventar contenido)</span>
+        </div>
+
+        <!-- Texto de cuerpo original oculto -->
+        <textarea id="texto" class="visually-hidden"></textarea>
+        <textarea name="final_body" id="final_body" class="visually-hidden"></textarea>
+
+        <!-- Cuerpo corregido -->
+        <div id="bodyResultBox" class="result-box thin-scroll">
+            <span class="result-placeholder">
+                Dicta el cuerpo del mensaje (botón 🎙️ Cuerpo) y aparecerá aquí corregido y formateado como un correo profesional.
+            </span>
+        </div>
+
+        <!-- Controles y estados cuerpo -->
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-top:.6rem; flex-wrap:wrap; gap:.6rem;">
+            <div style="display:flex; align-items:center; gap:.5rem; flex-wrap:wrap;">
+                <button type="button" id="btnDictarBody" class="btn btn-voice">
+                    <span class="pulse-dot"></span>
+                    <span>🎙️ Cuerpo</span>
+                </button>
+                <span class="chip">La IA se ejecuta automáticamente cada pocos segundos</span>
+            </div>
+            <div>
+                <span class="status-label">Cuerpo IA:</span>
+                <span id="estadoIA_body" class="status-text status-warn">A la espera de dictado…</span>
+            </div>
+        </div>
+
+        <!-- Estado general de dictado -->
+        <div style="margin-top:.4rem; display:flex; justify-content:space-between; align-items:center; gap:.75rem; flex-wrap:wrap;">
+            <span id="estadoDictado" class="status-text status-warn">Dictado en espera.</span>
+            <button type="submit" name="send_email" value="1" class="btn btn-primary">
+                Enviar correo
+            </button>
+        </div>
+
+        <?php if ($sendMessage !== null): ?>
+            <div class="send-status <?php echo $sendOk ? 'ok' : 'error'; ?>">
+                <?php echo htmlspecialchars($sendMessage, ENT_QUOTES, 'UTF-8'); ?>
+            </div>
+        <?php endif; ?>
+    </form>
+</div>
+
+<script>
+(function() {
+    const subjectRaw      = document.getElementById('subjectRaw');
+    const bodyRaw         = document.getElementById('texto');
+    const subjectFinal    = document.getElementById('subjectFinal');
+    const bodyResultBox   = document.getElementById('bodyResultBox');
+
+    const finalSubjectField = document.getElementById('final_subject');
+    const finalBodyField    = document.getElementById('final_body');
+
+    const btnDictarSubject = document.getElementById('btnDictarSubject');
+    const btnDictarBody    = document.getElementById('btnDictarBody');
+
+    const estadoIA_subject = document.getElementById('estadoIA_subject');
+    const estadoIA_body    = document.getElementById('estadoIA_body');
+    const estadoDictado    = document.getElementById('estadoDictado');
+
+    const form = document.getElementById('mailForm');
+
+    let recognition = null;
+    let escuchando = false;
+    let currentTarget = null;         // subjectRaw o bodyRaw
+    let currentTargetType = null;     // 'subject' | 'body'
+    let bufferBeforeRecognition = '';
+    let recognizedFinal = '';
+
+    let lastSentSubject = '';
+    let lastSentBody    = '';
+    let isSendingSubject = false;
+    let isSendingBody    = false;
+    const HEARTBEAT_MS = 3000; // cada pocos segundos
+
+    function setResultBody(text, isError = false, isPlaceholder = false) {
+        bodyResultBox.innerHTML = '';
+        const pre = document.createElement('pre');
+        pre.style.margin = '0';
+        pre.style.whiteSpace = 'pre-wrap';
+        if (isPlaceholder) pre.classList.add('result-placeholder');
+        if (isError) pre.style.color = '#b91c1c';
+        pre.textContent = text;
+        bodyResultBox.appendChild(pre);
+
+        // Actualizar campo oculto para envío real
+        finalBodyField.value = text;
+    }
+
+    function updateIAStatus(kind, text, cls) {
+        if (kind === 'subject') {
+            estadoIA_subject.textContent = text;
+            estadoIA_subject.className = 'status-text ' + (cls || '');
+        } else if (kind === 'body') {
+            estadoIA_body.textContent = text;
+            estadoIA_body.className = 'status-text ' + (cls || '');
+        }
+    }
+
+    function markChanged(kind) {
+        if (kind === 'subject') {
+            updateIAStatus('subject', 'Detectados cambios. Se corregirá en unos segundos…', 'status-warn');
+        } else if (kind === 'body') {
+            updateIAStatus('body', 'Detectados cambios. Se corregirá en unos segundos…', 'status-warn');
+        }
+    }
+
+    function sendToAI(kind) {
+        const rawEl   = (kind === 'subject') ? subjectRaw : bodyRaw;
+        const current = rawEl.value.trim();
+        if (!current) {
+            updateIAStatus(kind, 'Sin texto para corregir.', 'status-warn');
+            return;
+        }
+
+        if (kind === 'subject') {
+            if (isSendingSubject || current === lastSentSubject) return;
+            isSendingSubject = true;
+            updateIAStatus('subject', 'Enviando asunto a la IA…', 'status-warn');
+        } else {
+            if (isSendingBody || current === lastSentBody) return;
+            isSendingBody = true;
+            updateIAStatus('body', 'Enviando cuerpo a la IA…', 'status-warn');
+        }
+
+        const params = new URLSearchParams();
+        params.append('ajax', '1');
+        params.append('kind', kind === 'subject' ? 'subject' : 'body');
+        params.append('texto', current);
+
+        fetch(window.location.href, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+            body: params.toString()
+        })
+        .then(resp => resp.json())
+        .then(data => {
+            if (!data || typeof data.ok === 'undefined') {
+                if (kind === 'body') setResultBody('Respuesta inesperada del servidor.', true);
+                updateIAStatus(kind, 'Error en la respuesta.', 'status-error');
+                return;
+            }
+            if (!data.ok) {
+                if (kind === 'body') setResultBody(data.error || 'Error al procesar el texto.', true);
+                updateIAStatus(kind, 'Error al procesar el texto.', 'status-error');
+                return;
+            }
+
+            if (kind === 'subject') {
+                lastSentSubject = current;
+                const text = data.texto || '';
+                subjectFinal.value = text;
+                finalSubjectField.value = text;
+                updateIAStatus('subject', 'Asunto actualizado.', 'status-ok');
+            } else {
+                lastSentBody = current;
+                setResultBody(data.texto || '');
+                updateIAStatus('body', 'Cuerpo actualizado.', 'status-ok');
+            }
+        })
+        .catch(err => {
+            console.error(err);
+            if (kind === 'body') setResultBody('Error de red al contactar con la IA.', true);
+            updateIAStatus(kind, 'Error de red.', 'status-error');
+        })
+        .finally(() => {
+            if (kind === 'subject') isSendingSubject = false;
+            else isSendingBody = false;
+        });
+    }
+
+    // Heartbeat: IA asunto y cuerpo
+    setInterval(function() {
+        sendToAI('subject');
+        sendToAI('body');
+    }, HEARTBEAT_MS);
+
+    // Dictado por voz
+    function startDictationFor(kind) {
+        if (!recognition) return;
+
+        const targetRaw  = (kind === 'subject') ? subjectRaw : bodyRaw;
+
+        if (escuchando && currentTargetType === kind) {
+            recognition.stop();
+            return;
+        }
+
+        if (escuchando && currentTargetType !== kind) {
+            recognition.stop();
+            return;
+        }
+
+        currentTarget = targetRaw;
+        currentTargetType = kind;
+        try {
+            recognition.start();
+        } catch (e) {
+            console.error(e);
+        }
+    }
+
+    if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window) {
+        const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+        recognition = new SR();
+        recognition.lang = 'es-ES';
+        recognition.continuous = true;
+        recognition.interimResults = true;
+
+        recognition.onstart = function() {
+            escuchando = true;
+            recognizedFinal = '';
+            bufferBeforeRecognition = currentTarget ? currentTarget.value.trimEnd() : '';
+
+            btnDictarSubject.classList.remove('active');
+            btnDictarBody.classList.remove('active');
+
+            if (currentTargetType === 'subject') {
+                btnDictarSubject.classList.add('active');
+                estadoDictado.textContent = 'Dictando asunto…';
+            } else if (currentTargetType === 'body') {
+                btnDictarBody.classList.add('active');
+                estadoDictado.textContent = 'Dictando cuerpo del mensaje…';
+            } else {
+                estadoDictado.textContent = 'Dictando…';
+            }
+            estadoDictado.className = 'status-text status-ok';
+        };
+
+        recognition.onerror = function(event) {
+            escuchando = false;
+            btnDictarSubject.classList.remove('active');
+            btnDictarBody.classList.remove('active');
+            estadoDictado.textContent = 'Error en el reconocimiento de voz.';
+            estadoDictado.className = 'status-text status-error';
+            console.error('Speech recognition error:', event);
+        };
+
+        recognition.onend = function() {
+            escuchando = false;
+            btnDictarSubject.classList.remove('active');
+            btnDictarBody.classList.remove('active');
+            if (subjectRaw.value.trim() || bodyRaw.value.trim()) {
+                estadoDictado.textContent = 'Dictado detenido. Texto listo para corregir.';
+                estadoDictado.className = 'status-text status-ok';
+            } else {
+                estadoDictado.textContent = 'Dictado detenido.';
+                estadoDictado.className = 'status-text status-warn';
+            }
+        };
+
+        recognition.onresult = function(event) {
+            if (!currentTarget) return;
+
+            let interimText = '';
+
+            for (let i = event.resultIndex; i < event.results.length; i++) {
+                const transcript = event.results[i][0].transcript;
+                if (event.results[i].isFinal) {
+                    recognizedFinal += transcript + ' ';
+                } else {
+                    interimText += transcript + ' ';
+                }
+            }
+
+            const fullText = (bufferBeforeRecognition + ' ' + recognizedFinal + interimText).trim();
+            currentTarget.value = fullText;
+            if (currentTargetType) {
+                markChanged(currentTargetType);
+            }
+        };
+
+        btnDictarSubject.addEventListener('click', function() {
+            startDictationFor('subject');
+        });
+        btnDictarBody.addEventListener('click', function() {
+            startDictationFor('body');
+        });
+
+        estadoDictado.textContent = 'Dictado disponible. Pulsa un botón de 🎙️ para empezar.';
+        estadoDictado.className = 'status-text status-ok';
+    } else {
+        btnDictarSubject.disabled = true;
+        btnDictarBody.disabled = true;
+        estadoDictado.textContent = 'El dictado por voz no es compatible con este navegador.';
+        estadoDictado.className = 'status-text status-error';
+    }
+
+    // Antes de enviar, asegurarse de que asunto/cuerpo corregidos se copian a campos ocultos
+    form.addEventListener('submit', function() {
+        finalSubjectField.value = subjectFinal.value || '';
+        const bodyText = bodyResultBox.textContent || '';
+        finalBodyField.value = bodyText;
+    });
+})();
+</script>
+</body>
+</html>
+```
+
+### cliente email
+<small>Creado: 2025-12-11 20:42</small>
+
+`009-cliente email.php`
+
+```
+<?php
+// cliente_correo_envia.php
+// ============================================
+// CONFIGURACIÓN SMTP (usar TLS como en el script de Python)
+// ============================================
+const SMTP_HOST = 'smtp.ionos.es';
+const SMTP_PORT = 587; // TLS explícito (STARTTLS)
+const SMTP_USER = 'python@jocarsa.com';
+const SMTP_PASS = 'TAME123$';
+const SMTP_FROM = 'python@jocarsa.com';
+const SMTP_FROM_NAME = 'Dictado IA';
+
+// ============================================
+// CONFIGURACIÓN IMAP (recepción de correo)
+// ============================================
+const IMAP_HOST = 'imap.ionos.es';
+const IMAP_PORT = 993; // IMAPS
+const IMAP_FLAGS = '/imap/ssl'; // Ajustable si tu servidor requiere otro flag
+
+// ============================================
+// CONFIGURACIÓN DE LA API REMOTA (IA)
+// ============================================
+$API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+$API_KEY = "TEST_API_KEY_JOCARSA_123";
+
+// ============================================
+// FORMATEO DEL CUERPO COMO CORREO ELEGANTE
+// ============================================
+function ajustarFormatoEmail(string $texto): string
+{
+    $texto = preg_replace("/\r\n|\r/", "\n", trim($texto));
+    if ($texto === '') {
+        return '';
+    }
+
+    // Separar saludo "Hola X," en primera línea + línea en blanco + resto
+    $texto = preg_replace_callback(
+        '/^((hola|buenos dias|buenos días|buenas tardes|buenas noches|estimad[oa]s?|querid[oa]s?)\s+[^\n,]+,)\s*(.*)$/iu',
+        function ($m) {
+            $greeting = trim($m[1]);
+            $rest     = trim($m[3]);
+            if ($rest === '') {
+                return $greeting;
+            }
+            return $greeting . "\n\n" . $rest;
+        },
+        $texto
+    );
+
+    $lineas = explode("\n", $texto);
+    $lineas = array_map(static fn($l) => rtrim($l), $lineas);
+
+    // Reducir grupos de líneas vacías (máx. 1 seguida)
+    $limpias = [];
+    $vaciasSeguidas = 0;
+    foreach ($lineas as $l) {
+        if (trim($l) === '') {
+            $vaciasSeguidas++;
+            if ($vaciasSeguidas > 1) {
+                continue;
+            }
+        } else {
+            $vaciasSeguidas = 0;
+        }
+        $limpias[] = $l;
+    }
+    $lineas = $limpias;
+
+    // Asegurar línea en blanco tras saludo
+    $greetingRegex = '/^(hola|buenos dias|buenos días|buenas tardes|buenas noches|estimad[oa]s?|querid[oa]s?)/iu';
+    $n = count($lineas);
+    for ($i = 0; $i < $n; $i++) {
+        $ltrim = ltrim($lineas[$i]);
+        if ($ltrim === '') {
+            continue;
+        }
+        if (preg_match($greetingRegex, $ltrim)) {
+            if ($i + 1 >= $n || trim($lineas[$i + 1]) !== '') {
+                array_splice($lineas, $i + 1, 0, ['']);
+            }
+        }
+        break;
+    }
+
+    // Asegurar línea en blanco antes de cierre
+    $closingRegex = '/^(un saludo|saludos|atentamente|cordialmente|muchas gracias|gracias de antemano)/iu';
+    $n = count($lineas);
+    for ($i = $n - 1; $i >= 0; $i--) {
+        $ltrim = ltrim($lineas[$i]);
+        if ($ltrim === '') {
+            continue;
+        }
+        if (preg_match($closingRegex, $ltrim)) {
+            if ($i - 1 < 0 || trim($lineas[$i - 1]) !== '') {
+                array_splice($lineas, $i, 0, ['']);
+            }
+            break;
+        }
+    }
+
+    return implode("\n", $lineas);
+}
+
+// ============================================
+// PROCESAR CUERPO DEL CORREO CON IA
+// ============================================
+function procesar_texto_cuerpo(string $textoOriginal, string $API_URL, string $API_KEY): array
+{
+    if ($textoOriginal === '') {
+        return ['ok' => false, 'error' => 'Texto vacío', 'texto' => ''];
+    }
+
+    $question =
+        "Eres un asistente de edición de texto en español.\n\n" .
+        "TAREA:\n" .
+        "Reescribe el texto que te paso a continuación, manteniendo EXACTAMENTE el mismo contenido y significado,\n" .
+        "pero corrigiendo solo:\n" .
+        "- Ortografía y acentuación.\n" .
+        "- Puntuación.\n" .
+        "- Mayúsculas y minúsculas.\n" .
+        "- División en frases para que sea legible y profesional.\n\n" .
+        "REGLAS ESTRICTAS:\n" .
+        "- No añadas información nueva.\n" .
+        "- No inventes nombres, fechas, cifras ni detalles.\n" .
+        "- No elimines información relevante.\n" .
+        "- No añadas saludos, despedidas ni asuntos que no aparezcan en el texto original.\n" .
+        "- Mantén el mismo orden de ideas.\n" .
+        "- No expliques lo que haces.\n" .
+        "- Devuelve únicamente el texto corregido, sin comentarios, sin comillas, sin formato extra.\n\n" .
+        "Texto original:\n" .
+        $textoOriginal;
+
+    $ch = curl_init($API_URL);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+    $postFields = http_build_query(['question' => $question]);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $postFields);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        'X-API-Key: ' . $API_KEY,
+        'Content-Type: application/x-www-form-urlencoded'
+    ]);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+
+    $response = curl_exec($ch);
+
+    if ($response === false) {
+        $err = "Error al contactar con la API remota: " . curl_error($ch);
+        curl_close($ch);
+        return ['ok' => false, 'error' => $err, 'texto' => ''];
+    }
+
+    $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+
+    if ($status !== 200) {
+        return ['ok' => false, 'error' => "La API remota devolvió HTTP $status. Respuesta: $response", 'texto' => ''];
+    }
+
+    $data = json_decode($response, true);
+    if (json_last_error() !== JSON_ERROR_NONE) {
+        return ['ok' => false, 'error' => "Error al decodificar JSON: " . json_last_error_msg() . ". Respuesta: $response", 'texto' => ''];
+    }
+
+    if (!isset($data['answer']) || !is_string($data['answer'])) {
+        return ['ok' => false, 'error' => "La respuesta de la API no contiene el campo 'answer'. Respuesta: $response", 'texto' => ''];
+    }
+
+    $textoFormateado = trim($data['answer']);
+    $textoFormateado = ajustarFormatoEmail($textoFormateado);
+
+    return ['ok' => true, 'error' => '', 'texto' => $textoFormateado];
+}
+
+// ============================================
+// PROCESAR ASUNTO CON IA
+// ============================================
+function procesar_texto_asunto(string $textoOriginal, string $API_URL, string $API_KEY): array
+{
+    if ($textoOriginal === '') {
+        return ['ok' => false, 'error' => 'Texto vacío', 'texto' => ''];
+    }
+
+    $question =
+        "Eres un asistente experto redactando asuntos de correo electrónico en español profesional.\n\n" .
+        "TAREA:\n" .
+        "A partir del texto que te paso, genera únicamente un asunto de correo breve, claro y profesional.\n\n" .
+        "REGLAS ESTRICTAS:\n" .
+        "- Mantén el mismo significado general, sin añadir información nueva.\n" .
+        "- No añadas datos que no estén en el texto original.\n" .
+        "- El resultado debe ser una sola línea.\n" .
+        "- No incluyas la palabra 'Asunto:' ni comillas ni explicaciones.\n" .
+        "- Evita el punto final, salvo que sea imprescindible.\n\n" .
+        "Texto original del asunto (dictado):\n" .
+        $textoOriginal;
+
+    $ch = curl_init($API_URL);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+    $postFields = http_build_query(['question' => $question]);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $postFields);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        'X-API-Key: ' . $API_KEY,
+        'Content-Type: application/x-www-form-urlencoded'
+    ]);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+
+    $response = curl_exec($ch);
+
+    if ($response === false) {
+        $err = "Error al contactar con la API remota: " . curl_error($ch);
+        curl_close($ch);
+        return ['ok' => false, 'error' => $err, 'texto' => ''];
+    }
+
+    $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+
+    if ($status !== 200) {
+        return ['ok' => false, 'error' => "La API remota devolvió HTTP $status. Respuesta: $response", 'texto' => ''];
+    }
+
+    $data = json_decode($response, true);
+    if (json_last_error() !== JSON_ERROR_NONE) {
+        return ['ok' => false, 'error' => "Error al decodificar JSON: " . json_last_error_msg() . ". Respuesta: $response", 'texto' => ''];
+    }
+
+    if (!isset($data['answer']) || !is_string($data['answer'])) {
+        return ['ok' => false, 'error' => "La respuesta de la API no contiene el campo 'answer'. Respuesta: $response", 'texto' => ''];
+    }
+
+    $textoFormateado = trim($data['answer']);
+    $textoFormateado = preg_replace("/\r\n|\r|\n/", ' ', $textoFormateado);
+    $textoFormateado = preg_replace('/\s+/', ' ', $textoFormateado);
+
+    return ['ok' => true, 'error' => '', 'texto' => $textoFormateado];
+}
+
+// ============================================
+// RESUMEN AUTOMÁTICO DE CORREO CON IA
+// ============================================
+function procesar_resumen_email(string $textoOriginal, string $API_URL, string $API_KEY): array
+{
+    if (trim($textoOriginal) === '') {
+        return ['ok' => false, 'error' => 'Correo sin contenido textual para resumir.', 'texto' => ''];
+    }
+
+    $question =
+        "Eres un asistente que resume correos electrónicos en español.\n\n" .
+        "TAREA:\n" .
+        "Resume el siguiente correo en un máximo de 5 frases claras, indicando:\n" .
+        "- Quién escribe (si aparece).\n" .
+        "- Tema principal.\n" .
+        "- Petición o acción requerida (si la hay).\n" .
+        "- Tono general.\n\n" .
+        "REGLAS ESTRICTAS:\n" .
+        "- No inventes información que no esté en el texto.\n" .
+        "- No añadas links ni datos externos.\n" .
+        "- Devuelve solo el resumen, sin título ni explicaciones adicionales.\n\n" .
+        "Correo original:\n" .
+        $textoOriginal;
+
+    $ch = curl_init($API_URL);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+    $postFields = http_build_query(['question' => $question]);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $postFields);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        'X-API-Key: ' . $API_KEY,
+        'Content-Type: application/x-www-form-urlencoded'
+    ]);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+
+    $response = curl_exec($ch);
+
+    if ($response === false) {
+        $err = "Error al contactar con la API remota: " . curl_error($ch);
+        curl_close($ch);
+        return ['ok' => false, 'error' => $err, 'texto' => ''];
+    }
+
+    $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+
+    if ($status !== 200) {
+        return ['ok' => false, 'error' => "La API remota devolvió HTTP $status. Respuesta: $response", 'texto' => ''];
+    }
+
+    $data = json_decode($response, true);
+    if (json_last_error() !== JSON_ERROR_NONE) {
+        return ['ok' => false, 'error' => "Error al decodificar JSON: " . json_last_error_msg() . ". Respuesta: $response", 'texto' => ''];
+    }
+
+    if (!isset($data['answer']) || !is_string($data['answer'])) {
+        return ['ok' => false, 'error' => "La respuesta de la API no contiene el campo 'answer'. Respuesta: $response", 'texto' => ''];
+    }
+
+    $textoFormateado = trim($data['answer']);
+    return ['ok' => true, 'error' => '', 'texto' => $textoFormateado];
+}
+
+// ============================================
+// SMTP PURO CON SOCKETS
+// ============================================
+function smtp_read_line($conn): string
+{
+    $data = '';
+    while ($str = fgets($conn, 515)) {
+        $data .= $str;
+        if (strlen($str) >= 4 && $str[3] === ' ') {
+            break;
+        }
+    }
+    return $data;
+}
+
+function smtp_expect($conn, string $expectedCode, string $context): string
+{
+    $data = smtp_read_line($conn);
+    if (substr($data, 0, 3) !== $expectedCode) {
+        throw new RuntimeException("Error SMTP en $context. Esperado $expectedCode, recibido: $data");
+    }
+    return $data;
+}
+
+function smtp_send_email(string $to, string $subject, string $body): array
+{
+    $to = trim($to);
+    if (!filter_var($to, FILTER_VALIDATE_EMAIL)) {
+        return ['ok' => false, 'error' => 'Dirección de correo no válida.'];
+    }
+
+    $errno = 0;
+    $errstr = '';
+    $conn = @fsockopen(SMTP_HOST, SMTP_PORT, $errno, $errstr, 20);
+    if (!$conn) {
+        return ['ok' => false, 'error' => "No se pudo conectar al servidor SMTP: $errstr ($errno)"];
+    }
+
+    try {
+        smtp_expect($conn, '220', 'greeting');
+
+        $hostname = 'localhost';
+        fwrite($conn, "EHLO $hostname\r\n");
+        smtp_expect($conn, '250', 'EHLO (inicial)');
+
+        fwrite($conn, "STARTTLS\r\n");
+        smtp_expect($conn, '220', 'STARTTLS');
+
+        $cryptoOk = @stream_socket_enable_crypto(
+            $conn,
+            true,
+            STREAM_CRYPTO_METHOD_TLS_CLIENT
+        );
+        if (!$cryptoOk) {
+            throw new RuntimeException("No se pudo establecer TLS (stream_socket_enable_crypto).");
+        }
+
+        fwrite($conn, "EHLO $hostname\r\n");
+        smtp_expect($conn, '250', 'EHLO (tras STARTTLS)');
+
+        fwrite($conn, "AUTH LOGIN\r\n");
+        smtp_expect($conn, '334', 'AUTH LOGIN');
+
+        fwrite($conn, base64_encode(SMTP_USER) . "\r\n");
+        smtp_expect($conn, '334', 'AUTH LOGIN usuario');
+
+        fwrite($conn, base64_encode(SMTP_PASS) . "\r\n");
+        smtp_expect($conn, '235', 'AUTH LOGIN contraseña');
+
+        fwrite($conn, "MAIL FROM:<" . SMTP_FROM . ">\r\n");
+        smtp_expect($conn, '250', 'MAIL FROM');
+
+        fwrite($conn, "RCPT TO:<" . $to . ">\r\n");
+        smtp_expect($conn, '250', 'RCPT TO');
+
+        fwrite($conn, "DATA\r\n");
+        smtp_expect($conn, '354', 'DATA');
+
+        $headers = [];
+        $headers[] = "From: \"" . addslashes(SMTP_FROM_NAME) . "\" <" . SMTP_FROM . ">";
+        $headers[] = "To: <$to>";
+        $headers[] = "Subject: " . $subject;
+        $headers[] = "MIME-Version: 1.0";
+        $headers[] = "Content-Type: text/plain; charset=UTF-8";
+        $headers[] = "Content-Transfer-Encoding: 8bit";
+
+        $data = implode("\r\n", $headers) . "\r\n\r\n" . $body . "\r\n.\r\n";
+
+        fwrite($conn, $data);
+        smtp_expect($conn, '250', 'final DATA');
+
+        fwrite($conn, "QUIT\r\n");
+        fclose($conn);
+
+        return ['ok' => true, 'error' => ''];
+    } catch (Throwable $e) {
+        fclose($conn);
+        return ['ok' => false, 'error' => $e->getMessage()];
+    }
+}
+
+// ============================================
+// FUNCIONES AUXILIARES IMAP
+// ============================================
+function decode_imap_text(string $text, int $encoding): string
+{
+    switch ($encoding) {
+        case 3: // BASE64
+            return base64_decode($text) ?: $text;
+        case 4: // QUOTED-PRINTABLE
+            return quoted_printable_decode($text);
+        default:
+            return $text;
+    }
+}
+
+function get_plain_text_body($imap, int $msgNo): string
+{
+    $structure = @imap_fetchstructure($imap, $msgNo);
+    if (!$structure) {
+        return (string)@imap_body($imap, $msgNo);
+    }
+
+    $body = '';
+
+    if (!isset($structure->parts) || !is_array($structure->parts) || count($structure->parts) === 0) {
+        $body = @imap_body($imap, $msgNo);
+        return decode_imap_text($body, $structure->encoding ?? 0);
+    }
+
+    // Buscar la primera parte text/plain
+    $partNumber = null;
+    foreach ($structure->parts as $index => $part) {
+        if ($part->type == 0) { // TEXT
+            $subtype = isset($part->subtype) ? strtoupper($part->subtype) : '';
+            if ($subtype === 'PLAIN' || $subtype === '') {
+                $partNumber = $index + 1;
+                break;
+            }
+        }
+    }
+
+    if ($partNumber === null) {
+        $body = @imap_body($imap, $msgNo);
+        return decode_imap_text($body, $structure->encoding ?? 0);
+    }
+
+    $partBody = @imap_fetchbody($imap, $msgNo, (string)$partNumber);
+    $encoding = $structure->parts[$partNumber - 1]->encoding ?? 0;
+
+    return decode_imap_text($partBody, $encoding);
+}
+
+// ============================================
+// MODO AJAX (IA asunto/cuerpo)
+// ============================================
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['ajax']) && $_POST['ajax'] === '1') {
+    header('Content-Type: application/json; charset=utf-8');
+
+    $kind = $_POST['kind'] ?? 'body';
+    $textoOriginal = isset($_POST['texto']) ? trim($_POST['texto']) : '';
+
+    if ($textoOriginal === '') {
+        echo json_encode(['ok' => false, 'error' => 'Texto vacío', 'texto' => ''], JSON_UNESCAPED_UNICODE);
+        exit;
+    }
+
+    if ($kind === 'subject') {
+        $resultado = procesar_texto_asunto($textoOriginal, $API_URL, $API_KEY);
+    } else {
+        $resultado = procesar_texto_cuerpo($textoOriginal, $API_URL, $API_KEY);
+    }
+
+    echo json_encode($resultado, JSON_UNESCAPED_UNICODE);
+    exit;
+}
+
+// ============================================
+// ENVÍO REAL DE CORREO
+// ============================================
+$sendMessage = null;
+$sendOk = null;
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send_email']) && $_POST['send_email'] === '1') {
+    $to      = $_POST['to'] ?? '';
+    $subject = $_POST['final_subject'] ?? '';
+    $body    = $_POST['final_body'] ?? '';
+
+    $subject = trim($subject);
+    $body    = trim($body);
+
+    if ($to === '' || $subject === '' || $body === '') {
+        $sendOk = false;
+        $sendMessage = 'Para, asunto y cuerpo corregidos son obligatorios para enviar el correo.';
+    } else {
+        $result = smtp_send_email($to, $subject, $body);
+        $sendOk = $result['ok'];
+        $sendMessage = $result['ok']
+            ? 'Correo enviado correctamente a ' . htmlspecialchars($to, ENT_QUOTES, 'UTF-8') . '.'
+            : 'Error al enviar el correo: ' . $result['error'];
+    }
+}
+
+// ============================================
+// LECTURA DE CORREO VÍA IMAP
+// ============================================
+$allowedFolders = [
+    'INBOX'  => 'Bandeja de entrada',
+    'Sent'   => 'Enviados',
+    'Drafts' => 'Borradores',
+    'Trash'  => 'Papelera'
+];
+
+$folder   = isset($_GET['folder']) ? $_GET['folder'] : 'INBOX';
+if (!isset($allowedFolders[$folder])) {
+    $folder = 'INBOX';
+}
+
+$composeMode = isset($_GET['compose']);
+$selectedMsgNo = isset($_GET['msg']) ? (int)$_GET['msg'] : null;
+if ($composeMode) {
+    // Si se fuerza modo redactar nuevo, no seleccionamos mensaje
+    $selectedMsgNo = null;
+}
+
+$imapError = '';
+$emails = [];
+$selectedEmail = null;
+$selectedBody = '';
+$selectedSummary = '';
+
+if (function_exists('imap_open')) {
+    $mailboxString = sprintf('{%s:%d%s}%s', IMAP_HOST, IMAP_PORT, IMAP_FLAGS, $folder);
+    $imap = @imap_open($mailboxString, SMTP_USER, SMTP_PASS);
+    if (!$imap) {
+        $imapError = imap_last_error();
+    } else {
+        $ids = @imap_search($imap, 'ALL');
+        if ($ids !== false) {
+            rsort($ids); // más recientes primero
+            $ids = array_slice($ids, 0, 50); // limitar
+            foreach ($ids as $num) {
+                $overviewArr = @imap_fetch_overview($imap, $num, 0);
+                if (!$overviewArr || !isset($overviewArr[0])) {
+                    continue;
+                }
+                $ov = $overviewArr[0];
+                $subject = isset($ov->subject) ? imap_utf8($ov->subject) : '(sin asunto)';
+                $from    = isset($ov->from) ? imap_utf8($ov->from) : '(desconocido)';
+                $date    = isset($ov->date) ? $ov->date : '';
+                $seen    = !empty($ov->seen);
+
+                $emails[] = [
+                    'num'      => $num,
+                    'subject'  => $subject,
+                    'from'     => $from,
+                    'date'     => $date,
+                    'seen'     => $seen,
+                    'from_raw' => $ov->from ?? '',
+                    'subject_raw' => $ov->subject ?? ''
+                ];
+            }
+        }
+
+        if ($selectedMsgNo) {
+            $overviewArr = @imap_fetch_overview($imap, $selectedMsgNo, 0);
+            if ($overviewArr && isset($overviewArr[0])) {
+                $ov = $overviewArr[0];
+                $selectedEmail = [
+                    'num'      => $selectedMsgNo,
+                    'subject'  => isset($ov->subject) ? imap_utf8($ov->subject) : '(sin asunto)',
+                    'from'     => isset($ov->from) ? imap_utf8($ov->from) : '(desconocido)',
+                    'date'     => isset($ov->date) ? $ov->date : '',
+                    'from_raw' => $ov->from ?? '',
+                    'subject_raw' => $ov->subject ?? ''
+                ];
+
+                $selectedBody = get_plain_text_body($imap, $selectedMsgNo);
+
+                $resumen = procesar_resumen_email($selectedBody, $API_URL, $API_KEY);
+                if ($resumen['ok']) {
+                    $selectedSummary = $resumen['texto'];
+                } else {
+                    $selectedSummary = "No se pudo generar el resumen: " . $resumen['error'];
+                }
+            }
+        }
+
+        @imap_close($imap);
+    }
+} else {
+    $imapError = 'La extensión IMAP de PHP no está disponible en este servidor.';
+}
+
+// ============================================
+// PREFILL PARA RESPUESTA
+// ============================================
+$replyMode = $selectedEmail !== null && isset($_GET['reply']);
+
+$prefillTo = '';
+$prefillSubjectRaw = '';
+$prefillSubjectFinal = '';
+
+if ($replyMode && $selectedEmail) {
+    $fromRaw = $selectedEmail['from_raw'];
+    $addrList = @imap_rfc822_parse_adrlist($fromRaw, '');
+    if ($addrList && isset($addrList[0]->mailbox, $addrList[0]->host)) {
+        $prefillTo = $addrList[0]->mailbox . '@' . $addrList[0]->host;
+    } else {
+        $prefillTo = $selectedEmail['from'];
+    }
+
+    $prefillSubjectRaw = 'Re: ' . $selectedEmail['subject'];
+    $prefillSubjectFinal = $prefillSubjectRaw;
+} else {
+    // Redacción nueva
+    $prefillTo = '';
+    $prefillSubjectRaw = '';
+    $prefillSubjectFinal = '';
+}
+
+?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Cliente de correo (envío real) con dictado e IA</title>
+    <style>
+        :root {
+            --bg: #f5f7fb;
+            --card-bg: #ffffff;
+            --card-border: #d4d4d8;
+            --accent: #2563eb;
+            --accent-soft: #e0ebff;
+            --text-main: #111827;
+            --text-muted: #6b7280;
+            --error: #b91c1c;
+            --success: #15803d;
+            --warn: #92400e;
+        }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background: var(--bg);
+            color: var(--text-main);
+            display: flex;
+            justify-content: center;
+            padding: 2rem;
+        }
+        .app-shell {
+            width: 100%;
+            max-width: 1200px;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            height: calc(100vh - 4rem);
+        }
+        .app-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+        }
+        .app-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: .5rem;
+        }
+        .app-title-badge {
+            font-size: .8rem;
+            padding: .2rem .6rem;
+            border-radius: 999px;
+            background: var(--accent-soft);
+            color: var(--accent);
+        }
+        .app-subtitle {
+            font-size: .9rem;
+            color: var(--text-muted);
+            margin-top: .25rem;
+        }
+        .pill {
+            font-size: .8rem;
+            padding: .35rem .7rem;
+            border-radius: 999px;
+            border: 1px solid #e5e7eb;
+            background: #ffffff;
+            color: var(--text-muted);
+        }
+        .layout {
+            flex: 1;
+            display: flex;
+            gap: 1rem;
+            min-height: 0;
+        }
+        .sidebar {
+            width: 220px;
+            background: var(--card-bg);
+            border-radius: 1rem;
+            border: 1px solid var(--card-border);
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: .75rem;
+        }
+        .sidebar-title {
+            font-size: .9rem;
+            font-weight: 600;
+            margin-bottom: .25rem;
+        }
+        .folder-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            gap: .25rem;
+            font-size: .9rem;
+        }
+        .folder-item a {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: .5rem;
+            text-decoration: none;
+            color: var(--text-main);
+            padding: .4rem .55rem;
+            border-radius: .6rem;
+            transition: background 0.15s ease, color 0.15s ease;
+        }
+        .folder-item a:hover {
+            background: #eff6ff;
+        }
+        .folder-item.active a {
+            background: var(--accent);
+            color: #ffffff;
+        }
+        .folder-label {
+            display: flex;
+            align-items: center;
+            gap: .4rem;
+        }
+        .folder-pill {
+            font-size: .75rem;
+            padding: .15rem .4rem;
+            border-radius: 999px;
+            background: #e5e7eb;
+            color: #4b5563;
+        }
+        .sidebar-actions {
+            margin-top: 1rem;
+        }
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: .35rem;
+            padding: .35rem .75rem;
+            border-radius: 999px;
+            border: 1px solid #d4d4d8;
+            font-size: .8rem;
+            font-weight: 500;
+            cursor: pointer;
+            background: #ffffff;
+            color: var(--text-main);
+            transition: background 0.15s ease, border-color 0.15s ease;
+        }
+        .btn:hover {
+            background: #eff6ff;
+            border-color: var(--accent);
+        }
+        .btn-primary {
+            background: var(--accent);
+            color: #ffffff;
+            border-color: var(--accent);
+        }
+        .btn-primary:hover {
+            background: #1d4ed8;
+        }
+        .btn-voice.active {
+            background: #dbeafe;
+            border-color: #1d4ed8;
+        }
+        .pulse-dot {
+            width: .5rem;
+            height: .5rem;
+            border-radius: 999px;
+            background: #9ca3af;
+        }
+        .btn-voice.active .pulse-dot {
+            background: #22c55e;
+        }
+
+        .main-pane {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: .75rem;
+            min-height: 0;
+        }
+        .top-row {
+            display: grid;
+            grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.2fr);
+            gap: .75rem;
+            min-height: 0;
+        }
+        .card {
+            background: var(--card-bg);
+            border-radius: 1rem;
+            border: 1px solid var(--card-border);
+            padding: 1rem 1.1rem;
+            min-height: 0;
+            display: flex;
+            flex-direction: column;
+        }
+        .card-header {
+            margin-bottom: .7rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: .5rem;
+        }
+        .card-title {
+            font-size: 1rem;
+            font-weight: 600;
+        }
+        .card-caption {
+            font-size: .82rem;
+            color: var(--text-muted);
+            margin-top: .15rem;
+        }
+        .card-header-text {
+            display: flex;
+            flex-direction: column;
+        }
+        .chip {
+            font-size: .78rem;
+            padding: .2rem .55rem;
+            border-radius: 999px;
+            background: #eef2ff;
+            color: #4b5563;
+        }
+        .thin-scroll {
+            overflow: auto;
+        }
+        .thin-scroll::-webkit-scrollbar {
+            width: 6px;
+        }
+        .thin-scroll::-webkit-scrollbar-thumb {
+            background: #d4d4d8;
+            border-radius: 999px;
+        }
+        .thin-scroll::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        .message-list {
+            flex: 1;
+            min-height: 0;
+        }
+        .message-list-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: .85rem;
+        }
+        .message-list-table thead {
+            background: #f3f4f6;
+        }
+        .message-list-table th,
+        .message-list-table td {
+            padding: .35rem .4rem;
+            border-bottom: 1px solid #e5e7eb;
+            text-align: left;
+        }
+        .message-list-table tbody tr {
+            cursor: pointer;
+        }
+        .message-list-table tbody tr:hover {
+            background: #eff6ff;
+        }
+        .message-list-table tbody tr.unseen td {
+            font-weight: 600;
+        }
+        .message-list-table tbody tr.selected {
+            background: #dbeafe;
+        }
+        .message-subject {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .message-from {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .message-date {
+            white-space: nowrap;
+            font-size: .8rem;
+            color: var(--text-muted);
+        }
+
+        .message-detail {
+            flex: 1;
+            min-height: 0;
+        }
+        .detail-header {
+            margin-bottom: .5rem;
+        }
+        .detail-subject {
+            font-size: .95rem;
+            font-weight: 600;
+            margin-bottom: .1rem;
+        }
+        .detail-meta {
+            font-size: .8rem;
+            color: var(--text-muted);
+        }
+        .detail-summary {
+            margin-top: .6rem;
+            padding: .6rem .7rem;
+            border-radius: .6rem;
+            background: #f3f4ff;
+            font-size: .85rem;
+        }
+        .detail-body {
+            margin-top: .6rem;
+            padding: .6rem .7rem;
+            border-radius: .6rem;
+            background: #f9fafb;
+            font-size: .85rem;
+            white-space: pre-wrap;
+        }
+
+        .compose-card {
+            margin-top: .5rem;
+        }
+        .form-row {
+            display: flex;
+            align-items: center;
+            gap: .75rem;
+            margin-bottom: .7rem;
+        }
+        .form-label {
+            width: 4rem;
+            font-size: .9rem;
+            color: var(--text-muted);
+            text-align: right;
+        }
+        .form-field {
+            flex: 1;
+        }
+        .input-text {
+            width: 100%;
+            border-radius: .6rem;
+            border: 1px solid #d4d4d8;
+            padding: .5rem .7rem;
+            font-size: .9rem;
+            font-family: inherit;
+            color: var(--text-main);
+            background: #f9fafb;
+        }
+        .input-text:focus {
+            outline: none;
+            border-color: var(--accent);
+            background: #ffffff;
+        }
+        .body-label-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: .6rem;
+            margin-bottom: .3rem;
+        }
+        .body-label-row span {
+            font-size: .9rem;
+        }
+        .badge-ai {
+            font-size: .78rem;
+            padding: .2rem .55rem;
+            border-radius: 999px;
+            background: #eff6ff;
+            color: #1d4ed8;
+        }
+        .result-box {
+            padding: .75rem .9rem;
+            border-radius: .75rem;
+            border: 1px solid #e5e7eb;
+            background: #f9fafb;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+            font-size: .9rem;
+            white-space: pre-wrap;
+            min-height: 130px;
+            max-height: 260px;
+            overflow: auto;
+            color: var(--text-main);
+        }
+        .result-placeholder {
+            color: var(--text-muted);
+            font-style: italic;
+        }
+        .status-text {
+            font-size: .8rem;
+        }
+        .status-ok   { color: var(--success); }
+        .status-warn { color: var(--warn); }
+        .status-error{ color: var(--error); }
+        .status-row {
+            display: flex;
+            justify-content: flex-end;
+            font-size: .8rem;
+            color: var(--text-muted);
+            margin-top: .25rem;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+        .status-label {
+            font-weight: 500;
+        }
+        .send-status {
+            margin-top: .75rem;
+            padding: .6rem .9rem;
+            border-radius: .6rem;
+            font-size: .85rem;
+        }
+        .send-status.ok {
+            background: #ecfdf3;
+            color: var(--success);
+            border: 1px solid #bbf7d0;
+        }
+        .send-status.error {
+            background: #fef2f2;
+            color: var(--error);
+            border: 1px solid #fecaca;
+        }
+        .visually-hidden {
+            position: absolute;
+            left: -9999px;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+        }
+        @media (max-width: 1024px) {
+            .layout {
+                flex-direction: column;
+                height: auto;
+            }
+            .sidebar {
+                width: 100%;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .folder-list {
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+            .top-row {
+                grid-template-columns: 1fr;
+            }
+        }
+        @media (max-width: 720px) {
+            body { padding: 1rem; }
+            .form-label { width: 3.5rem; }
+            .sidebar {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="app-shell">
+    <header class="app-header">
+        <div>
+            <div class="app-title">
+                <span>📧 Cliente de correo</span>
+                <span class="app-title-badge">IMAP + SMTP + Dictado + IA</span>
+            </div>
+            <div class="app-subtitle">
+                Revisa tu bandeja, obtén un resumen automático de cada correo y responde con dictado y corrección IA.
+            </div>
+        </div>
+        <div class="pill">
+            🎙️ Dictado por voz · es-ES
+        </div>
+    </header>
+
+    <div class="layout">
+        <!-- Sidebar: carpetas -->
+        <aside class="sidebar">
+            <div>
+                <div class="sidebar-title">Carpetas</div>
+                <ul class="folder-list">
+                    <?php foreach ($allowedFolders as $key => $label): ?>
+                        <li class="folder-item <?php echo $key === $folder ? 'active' : ''; ?>">
+                            <a href="?folder=<?php echo urlencode($key); ?>">
+                                <span class="folder-label">
+                                    <?php if ($key === 'INBOX'): ?>
+                                        📥
+                                    <?php elseif ($key === 'Sent'): ?>
+                                        📤
+                                    <?php elseif ($key === 'Drafts'): ?>
+                                        ✏️
+                                    <?php elseif ($key === 'Trash'): ?>
+                                        🗑️
+                                    <?php else: ?>
+                                        📁
+                                    <?php endif; ?>
+                                    <span><?php echo htmlspecialchars($label, ENT_QUOTES, 'UTF-8'); ?></span>
+                                </span>
+                            </a>
+                        </li>
+                    <?php endforeach; ?>
+                </ul>
+            </div>
+            <div class="sidebar-actions">
+                <a class="btn btn-primary" href="?folder=<?php echo urlencode($folder); ?>&compose=1">
+                    ➕ Nuevo mensaje
+                </a>
+            </div>
+            <?php if ($imapError): ?>
+                <div style="margin-top: .75rem; font-size:.8rem; color: var(--error);">
+                    IMAP: <?php echo htmlspecialchars($imapError, ENT_QUOTES, 'UTF-8'); ?>
+                </div>
+            <?php endif; ?>
+        </aside>
+
+        <!-- Pane principal -->
+        <div class="main-pane">
+            <div class="top-row">
+                <!-- Lista de mensajes -->
+                <section class="card message-list">
+                    <div class="card-header">
+                        <div class="card-header-text">
+                            <div class="card-title">Mensajes</div>
+                            <div class="card-caption">
+                                Carpeta: <?php echo htmlspecialchars($allowedFolders[$folder], ENT_QUOTES, 'UTF-8'); ?>
+                            </div>
+                        </div>
+                        <span class="chip">Máx. 50 últimos correos</span>
+                    </div>
+                    <div class="thin-scroll" style="flex:1; min-height:0;">
+                        <table class="message-list-table">
+                            <thead>
+                                <tr>
+                                    <th>De</th>
+                                    <th>Asunto</th>
+                                    <th>Fecha</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            <?php if (!$emails): ?>
+                                <tr>
+                                    <td colspan="3" style="font-size:.85rem; color:var(--text-muted);">
+                                        No hay mensajes en esta carpeta o no se han podido recuperar.
+                                    </td>
+                                </tr>
+                            <?php else: ?>
+                                <?php foreach ($emails as $msg): ?>
+                                    <?php
+                                    $isSelected = ($selectedMsgNo && $msg['num'] === $selectedMsgNo);
+                                    ?>
+                                    <tr class="<?php echo !$msg['seen'] ? 'unseen ' : ''; ?><?php echo $isSelected ? 'selected' : ''; ?>"
+                                        onclick="window.location.href='?folder=<?php echo urlencode($folder); ?>&msg=<?php echo (int)$msg['num']; ?>'">
+                                        <td class="message-from">
+                                            <?php echo htmlspecialchars($msg['from'], ENT_QUOTES, 'UTF-8'); ?>
+                                        </td>
+                                        <td class="message-subject">
+                                            <?php echo htmlspecialchars($msg['subject'], ENT_QUOTES, 'UTF-8'); ?>
+                                        </td>
+                                        <td class="message-date">
+                                            <?php echo htmlspecialchars($msg['date'], ENT_QUOTES, 'UTF-8'); ?>
+                                        </td>
+                                    </tr>
+                                <?php endforeach; ?>
+                            <?php endif; ?>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <!-- Detalle de mensaje seleccionado -->
+                <section class="card message-detail">
+                    <div class="card-header">
+                        <div class="card-header-text">
+                            <div class="card-title">Detalle del mensaje</div>
+                            <div class="card-caption">
+                                <?php if ($selectedEmail): ?>
+                                    Pulsa “Responder” para contestar con dictado y corrección IA.
+                                <?php else: ?>
+                                    Selecciona un mensaje de la lista para verlo aquí.
+                                <?php endif; ?>
+                            </div>
+                        </div>
+                        <?php if ($selectedEmail): ?>
+                            <a class="btn" href="?folder=<?php echo urlencode($folder); ?>&msg=<?php echo (int)$selectedEmail['num']; ?>&reply=1">
+                                ↩️ Responder
+                            </a>
+                        <?php endif; ?>
+                    </div>
+
+                    <?php if ($selectedEmail): ?>
+                        <div class="thin-scroll" style="flex:1; min-height:0;">
+                            <div class="detail-header">
+                                <div class="detail-subject">
+                                    <?php echo htmlspecialchars($selectedEmail['subject'], ENT_QUOTES, 'UTF-8'); ?>
+                                </div>
+                                <div class="detail-meta">
+                                    De:
+                                    <?php echo htmlspecialchars($selectedEmail['from'], ENT_QUOTES, 'UTF-8'); ?>
+                                    ·
+                                    Fecha:
+                                    <?php echo htmlspecialchars($selectedEmail['date'], ENT_QUOTES, 'UTF-8'); ?>
+                                </div>
+                            </div>
+                            <div class="detail-summary">
+                                <strong>Resumen automático:</strong><br>
+                                <?php echo nl2br(htmlspecialchars($selectedSummary, ENT_QUOTES, 'UTF-8')); ?>
+                            </div>
+                            <div class="detail-body">
+                                <?php echo nl2br(htmlspecialchars($selectedBody, ENT_QUOTES, 'UTF-8')); ?>
+                            </div>
+                        </div>
+                    <?php else: ?>
+                        <div style="font-size:.9rem; color:var(--text-muted);">
+                            No hay ningún mensaje seleccionado. Elige uno en la lista o pulsa “Nuevo mensaje” para redactar.
+                        </div>
+                    <?php endif; ?>
+                </section>
+            </div>
+
+            <!-- Panel de redacción / respuesta -->
+            <form method="post" class="card compose-card" id="mailForm">
+                <div class="card-header">
+                    <div class="card-header-text">
+                        <div class="card-title">
+                            <?php echo $replyMode ? 'Responder mensaje' : 'Nuevo mensaje'; ?>
+                        </div>
+                        <div class="card-caption">
+                            Introduce el destinatario, dicta asunto y cuerpo, revisa y envía.
+                        </div>
+                    </div>
+                    <span class="chip">
+                        <?php echo $replyMode ? 'Modo respuesta' : 'Redacción desde cero'; ?>
+                    </span>
+                </div>
+
+                <!-- Fila destinatario -->
+                <div class="form-row">
+                    <div class="form-label">Para</div>
+                    <div class="form-field">
+                        <input type="email" name="to" class="input-text"
+                               placeholder="destinatario@ejemplo.com"
+                               required
+                               value="<?php echo htmlspecialchars($prefillTo, ENT_QUOTES, 'UTF-8'); ?>">
+                    </div>
+                </div>
+
+                <!-- Fila asunto (dictado + asunto corregido) -->
+                <div class="form-row">
+                    <div class="form-label">Asunto</div>
+                    <div class="form-field">
+                        <input type="text" id="subjectFinal" class="input-text"
+                               placeholder="El asunto corregido aparecerá aquí"
+                               readonly
+                               value="<?php echo htmlspecialchars($prefillSubjectFinal, ENT_QUOTES, 'UTF-8'); ?>">
+                    </div>
+                    <button type="button" id="btnDictarSubject" class="btn btn-voice">
+                        <span class="pulse-dot"></span>
+                        <span>🎙️ Asunto</span>
+                    </button>
+                </div>
+
+                <!-- Estado IA asunto -->
+                <div class="status-row">
+                    <div>
+                        <span class="status-label">Asunto IA:</span>
+                        <span id="estadoIA_subject" class="status-text status-warn">
+                            <?php echo $prefillSubjectFinal ? 'Asunto preparado. Puedes dictar para modificarlo.' : 'A la espera de dictado…'; ?>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Texto de asunto original oculto -->
+                <textarea id="subjectRaw" class="visually-hidden"><?php
+                    echo htmlspecialchars($prefillSubjectRaw, ENT_QUOTES, 'UTF-8');
+                ?></textarea>
+                <input type="hidden" name="final_subject" id="final_subject"
+                       value="<?php echo htmlspecialchars($prefillSubjectFinal, ENT_QUOTES, 'UTF-8'); ?>">
+
+                <!-- Cuerpo -->
+                <div class="body-label-row">
+                    <span>Cuerpo del mensaje</span>
+                    <span class="badge-ai">Corrección suave (sin inventar contenido)</span>
+                </div>
+
+                <!-- Texto de cuerpo original oculto -->
+                <textarea id="texto" class="visually-hidden"></textarea>
+                <textarea name="final_body" id="final_body" class="visually-hidden"></textarea>
+
+                <!-- Cuerpo corregido -->
+                <div id="bodyResultBox" class="result-box thin-scroll">
+                    <span class="result-placeholder">
+                        Dicta el cuerpo del mensaje (botón 🎙️ Cuerpo) y aparecerá aquí corregido y formateado como un correo profesional.
+                    </span>
+                </div>
+
+                <!-- Controles y estados cuerpo -->
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-top:.6rem; flex-wrap:wrap; gap:.6rem;">
+                    <div style="display:flex; align-items:center; gap:.5rem; flex-wrap:wrap;">
+                        <button type="button" id="btnDictarBody" class="btn btn-voice">
+                            <span class="pulse-dot"></span>
+                            <span>🎙️ Cuerpo</span>
+                        </button>
+                        <span class="chip">La IA se ejecuta automáticamente cada pocos segundos</span>
+                    </div>
+                    <div>
+                        <span class="status-label">Cuerpo IA:</span>
+                        <span id="estadoIA_body" class="status-text status-warn">A la espera de dictado…</span>
+                    </div>
+                </div>
+
+                <!-- Estado general de dictado -->
+                <div style="margin-top:.4rem; display:flex; justify-content:space-between; align-items:center; gap:.75rem; flex-wrap:wrap;">
+                    <span id="estadoDictado" class="status-text status-warn">Dictado en espera.</span>
+                    <button type="submit" name="send_email" value="1" class="btn btn-primary">
+                        Enviar correo
+                    </button>
+                </div>
+
+                <?php if ($sendMessage !== null): ?>
+                    <div class="send-status <?php echo $sendOk ? 'ok' : 'error'; ?>">
+                        <?php echo htmlspecialchars($sendMessage, ENT_QUOTES, 'UTF-8'); ?>
+                    </div>
+                <?php endif; ?>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+(function() {
+    const subjectRaw      = document.getElementById('subjectRaw');
+    const bodyRaw         = document.getElementById('texto');
+    const subjectFinal    = document.getElementById('subjectFinal');
+    const bodyResultBox   = document.getElementById('bodyResultBox');
+
+    const finalSubjectField = document.getElementById('final_subject');
+    const finalBodyField    = document.getElementById('final_body');
+
+    const btnDictarSubject = document.getElementById('btnDictarSubject');
+    const btnDictarBody    = document.getElementById('btnDictarBody');
+
+    const estadoIA_subject = document.getElementById('estadoIA_subject');
+    const estadoIA_body    = document.getElementById('estadoIA_body');
+    const estadoDictado    = document.getElementById('estadoDictado');
+
+    const form = document.getElementById('mailForm');
+
+    let recognition = null;
+    let escuchando = false;
+    let currentTarget = null;         // subjectRaw o bodyRaw
+    let currentTargetType = null;     // 'subject' | 'body'
+    let bufferBeforeRecognition = '';
+    let recognizedFinal = '';
+
+    let lastSentSubject = '';
+    let lastSentBody    = '';
+    let isSendingSubject = false;
+    let isSendingBody    = false;
+    const HEARTBEAT_MS = 3000; // cada pocos segundos
+
+    function setResultBody(text, isError = false, isPlaceholder = false) {
+        bodyResultBox.innerHTML = '';
+        const pre = document.createElement('pre');
+        pre.style.margin = '0';
+        pre.style.whiteSpace = 'pre-wrap';
+        if (isPlaceholder) pre.classList.add('result-placeholder');
+        if (isError) pre.style.color = '#b91c1c';
+        pre.textContent = text;
+        bodyResultBox.appendChild(pre);
+
+        finalBodyField.value = text;
+    }
+
+    function updateIAStatus(kind, text, cls) {
+        if (kind === 'subject') {
+            estadoIA_subject.textContent = text;
+            estadoIA_subject.className = 'status-text ' + (cls || '');
+        } else if (kind === 'body') {
+            estadoIA_body.textContent = text;
+            estadoIA_body.className = 'status-text ' + (cls || '');
+        }
+    }
+
+    function markChanged(kind) {
+        if (kind === 'subject') {
+            updateIAStatus('subject', 'Detectados cambios. Se corregirá en unos segundos…', 'status-warn');
+        } else if (kind === 'body') {
+            updateIAStatus('body', 'Detectados cambios. Se corregirá en unos segundos…', 'status-warn');
+        }
+    }
+
+    function sendToAI(kind) {
+        const rawEl   = (kind === 'subject') ? subjectRaw : bodyRaw;
+        const current = rawEl.value.trim();
+        if (!current) {
+            updateIAStatus(kind, 'Sin texto para corregir.', 'status-warn');
+            return;
+        }
+
+        if (kind === 'subject') {
+            if (isSendingSubject || current === lastSentSubject) return;
+            isSendingSubject = true;
+            updateIAStatus('subject', 'Enviando asunto a la IA…', 'status-warn');
+        } else {
+            if (isSendingBody || current === lastSentBody) return;
+            isSendingBody = true;
+            updateIAStatus('body', 'Enviando cuerpo a la IA…', 'status-warn');
+        }
+
+        const params = new URLSearchParams();
+        params.append('ajax', '1');
+        params.append('kind', kind === 'subject' ? 'subject' : 'body');
+        params.append('texto', current);
+
+        fetch(window.location.pathname + window.location.search, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+            body: params.toString()
+        })
+        .then(resp => resp.json())
+        .then(data => {
+            if (!data || typeof data.ok === 'undefined') {
+                if (kind === 'body') setResultBody('Respuesta inesperada del servidor.', true);
+                updateIAStatus(kind, 'Error en la respuesta.', 'status-error');
+                return;
+            }
+            if (!data.ok) {
+                if (kind === 'body') setResultBody(data.error || 'Error al procesar el texto.', true);
+                updateIAStatus(kind, 'Error al procesar el texto.', 'status-error');
+                return;
+            }
+
+            if (kind === 'subject') {
+                lastSentSubject = current;
+                const text = data.texto || '';
+                subjectFinal.value = text;
+                finalSubjectField.value = text;
+                updateIAStatus('subject', 'Asunto actualizado.', 'status-ok');
+            } else {
+                lastSentBody = current;
+                setResultBody(data.texto || '');
+                updateIAStatus('body', 'Cuerpo actualizado.', 'status-ok');
+            }
+        })
+        .catch(err => {
+            console.error(err);
+            if (kind === 'body') setResultBody('Error de red al contactar con la IA.', true);
+            updateIAStatus(kind, 'Error de red.', 'status-error');
+        })
+        .finally(() => {
+            if (kind === 'subject') isSendingSubject = false;
+            else isSendingBody = false;
+        });
+    }
+
+    // Heartbeat: IA asunto y cuerpo
+    setInterval(function() {
+        sendToAI('subject');
+        sendToAI('body');
+    }, HEARTBEAT_MS);
+
+    // Dictado por voz
+    function startDictationFor(kind) {
+        if (!recognition) return;
+
+        const targetRaw  = (kind === 'subject') ? subjectRaw : bodyRaw;
+
+        if (escuchando && currentTargetType === kind) {
+            recognition.stop();
+            return;
+        }
+
+        if (escuchando && currentTargetType !== kind) {
+            recognition.stop();
+            return;
+        }
+
+        currentTarget = targetRaw;
+        currentTargetType = kind;
+        try {
+            recognition.start();
+        } catch (e) {
+            console.error(e);
+        }
+    }
+
+    if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window) {
+        const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+        recognition = new SR();
+        recognition.lang = 'es-ES';
+        recognition.continuous = true;
+        recognition.interimResults = true;
+
+        recognition.onstart = function() {
+            escuchando = true;
+            recognizedFinal = '';
+            bufferBeforeRecognition = currentTarget ? currentTarget.value.trimEnd() : '';
+
+            btnDictarSubject.classList.remove('active');
+            btnDictarBody.classList.remove('active');
+
+            if (currentTargetType === 'subject') {
+                btnDictarSubject.classList.add('active');
+                estadoDictado.textContent = 'Dictando asunto…';
+            } else if (currentTargetType === 'body') {
+                btnDictarBody.classList.add('active');
+                estadoDictado.textContent = 'Dictando cuerpo del mensaje…';
+            } else {
+                estadoDictado.textContent = 'Dictando…';
+            }
+            estadoDictado.className = 'status-text status-ok';
+        };
+
+        recognition.onerror = function(event) {
+            escuchando = false;
+            btnDictarSubject.classList.remove('active');
+            btnDictarBody.classList.remove('active');
+            estadoDictado.textContent = 'Error en el reconocimiento de voz.';
+            estadoDictado.className = 'status-text status-error';
+            console.error('Speech recognition error:', event);
+        };
+
+        recognition.onend = function() {
+            escuchando = false;
+            btnDictarSubject.classList.remove('active');
+            btnDictarBody.classList.remove('active');
+            if (subjectRaw.value.trim() || bodyRaw.value.trim()) {
+                estadoDictado.textContent = 'Dictado detenido. Texto listo para corregir.';
+                estadoDictado.className = 'status-text status-ok';
+            } else {
+                estadoDictado.textContent = 'Dictado detenido.';
+                estadoDictado.className = 'status-text status-warn';
+            }
+        };
+
+        recognition.onresult = function(event) {
+            if (!currentTarget) return;
+
+            let interimText = '';
+
+            for (let i = event.resultIndex; i < event.results.length; i++) {
+                const transcript = event.results[i][0].transcript;
+                if (event.results[i].isFinal) {
+                    recognizedFinal += transcript + ' ';
+                } else {
+                    interimText += transcript + ' ';
+                }
+            }
+
+            const fullText = (bufferBeforeRecognition + ' ' + recognizedFinal + interimText).trim();
+            currentTarget.value = fullText;
+            if (currentTargetType) {
+                markChanged(currentTargetType);
+            }
+        };
+
+        btnDictarSubject.addEventListener('click', function() {
+            startDictationFor('subject');
+        });
+        btnDictarBody.addEventListener('click', function() {
+            startDictationFor('body');
+        });
+
+        estadoDictado.textContent = 'Dictado disponible. Pulsa un botón de 🎙️ para empezar.';
+        estadoDictado.className = 'status-text status-ok';
+    } else {
+        btnDictarSubject.disabled = true;
+        btnDictarBody.disabled = true;
+        estadoDictado.textContent = 'El dictado por voz no es compatible con este navegador.';
+        estadoDictado.className = 'status-text status-error';
+    }
+
+    // Antes de enviar, asegurarse de que asunto/cuerpo corregidos se copian a campos ocultos
+    form.addEventListener('submit', function() {
+        finalSubjectField.value = subjectFinal.value || '';
+        const bodyText = bodyResultBox.textContent || '';
+        finalBodyField.value = bodyText;
+    });
+})();
+</script>
+</body>
+</html>
+```
+
+### prueba final
+<small>Creado: 2025-12-11 21:03</small>
+
+`010-prueba final.php`
+
+```
+<?php
+// ============================================
+// CONFIGURACIÓN SMTP (usar TLS como en el script de Python)
+// ============================================
+const SMTP_HOST = 'smtp.ionos.es';
+const SMTP_PORT = 587; // TLS explícito (STARTTLS)
+const SMTP_USER = 'python@jocarsa.com';
+const SMTP_PASS = 'TAME123$';
+const SMTP_FROM = 'python@jocarsa.com';
+const SMTP_FROM_NAME = 'Dictado IA';
+
+// ============================================
+// CONFIGURACIÓN IMAP (recepción de correo)
+// ============================================
+const IMAP_HOST = 'imap.ionos.es';
+const IMAP_PORT = 993; // IMAPS
+const IMAP_FLAGS = '/imap/ssl'; // Ajustable si tu servidor requiere otro flag
+
+// ============================================
+// CONFIGURACIÓN DE LA API REMOTA (IA)
+// ============================================
+$API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+$API_KEY = "TEST_API_KEY_JOCARSA_123";
+
+// ============================================
+// FORMATEO DEL CUERPO COMO CORREO ELEGANTE
+// ============================================
+function ajustarFormatoEmail(string $texto): string
+{
+    $texto = preg_replace("/\r\n|\r/", "\n", trim($texto));
+    if ($texto === '') {
+        return '';
+    }
+
+    $texto = preg_replace_callback(
+        '/^((hola|buenos dias|buenos días|buenas tardes|buenas noches|estimad[oa]s?|querid[oa]s?)\s+[^\n,]+,)\s*(.*)$/iu',
+        function ($m) {
+            $greeting = trim($m[1]);
+            $rest     = trim($m[3]);
+            if ($rest === '') {
+                return $greeting;
+            }
+            return $greeting . "\n\n" . $rest;
+        },
+        $texto
+    );
+
+    $lineas = explode("\n", $texto);
+    $lineas = array_map(static fn($l) => rtrim($l), $lineas);
+
+    $limpias = [];
+    $vaciasSeguidas = 0;
+    foreach ($lineas as $l) {
+        if (trim($l) === '') {
+            $vaciasSeguidas++;
+            if ($vaciasSeguidas > 1) {
+                continue;
+            }
+        } else {
+            $vaciasSeguidas = 0;
+        }
+        $limpias[] = $l;
+    }
+    $lineas = $limpias;
+
+    $greetingRegex = '/^(hola|buenos dias|buenos días|buenas tardes|buenas noches|estimad[oa]s?|querid[oa]s?)/iu';
+    $n = count($lineas);
+    for ($i = 0; $i < $n; $i++) {
+        $ltrim = ltrim($lineas[$i]);
+        if ($ltrim === '') {
+            continue;
+        }
+        if (preg_match($greetingRegex, $ltrim)) {
+            if ($i + 1 >= $n || trim($lineas[$i + 1]) !== '') {
+                array_splice($lineas, $i + 1, 0, ['']);
+            }
+        }
+        break;
+    }
+
+    $closingRegex = '/^(un saludo|saludos|atentamente|cordialmente|muchas gracias|gracias de antemano)/iu';
+    $n = count($lineas);
+    for ($i = $n - 1; $i >= 0; $i--) {
+        $ltrim = ltrim($lineas[$i]);
+        if ($ltrim === '') {
+            continue;
+        }
+        if (preg_match($closingRegex, $ltrim)) {
+            if ($i - 1 < 0 || trim($lineas[$i - 1]) !== '') {
+                array_splice($lineas, $i, 0, ['']);
+            }
+            break;
+        }
+    }
+
+    return implode("\n", $lineas);
+}
+
+// ============================================
+// PROCESAR CUERPO DEL CORREO CON IA
+// ============================================
+function procesar_texto_cuerpo(string $textoOriginal, string $API_URL, string $API_KEY): array
+{
+    if ($textoOriginal === '') {
+        return ['ok' => false, 'error' => 'Texto vacío', 'texto' => ''];
+    }
+
+    $question =
+        "Eres un asistente de edición de texto en español.\n\n" .
+        "TAREA:\n" .
+        "Reescribe el texto que te paso a continuación, manteniendo EXACTAMENTE el mismo contenido y significado,\n" .
+        "pero corrigiendo solo:\n" .
+        "- Ortografía y acentuación.\n" .
+        "- Puntuación.\n" .
+        "- Mayúsculas y minúsculas.\n" .
+        "- División en frases para que sea legible y profesional.\n\n" .
+        "REGLAS ESTRICTAS:\n" .
+        "- No añadas información nueva.\n" .
+        "- No inventes nombres, fechas, cifras ni detalles.\n" .
+        "- No elimines información relevante.\n" .
+        "- No añadas saludos, despedidas ni asuntos que no aparezcan en el texto original.\n" .
+        "- Mantén el mismo orden de ideas.\n" .
+        "- No expliques lo que haces.\n" .
+        "- Devuelve únicamente el texto corregido, sin comentarios, sin comillas, sin formato extra.\n\n" .
+        "Texto original:\n" .
+        $textoOriginal;
+
+    $ch = curl_init($API_URL);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+    $postFields = http_build_query(['question' => $question]);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $postFields);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        'X-API-Key: ' . $API_KEY,
+        'Content-Type: application/x-www-form-urlencoded'
+    ]);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+
+    $response = curl_exec($ch);
+
+    if ($response === false) {
+        $err = "Error al contactar con la API remota: " . curl_error($ch);
+        curl_close($ch);
+        return ['ok' => false, 'error' => $err, 'texto' => ''];
+    }
+
+    $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+
+    if ($status !== 200) {
+        return ['ok' => false, 'error' => "La API remota devolvió HTTP $status. Respuesta: $response", 'texto' => ''];
+    }
+
+    $data = json_decode($response, true);
+    if (json_last_error() !== JSON_ERROR_NONE) {
+        return ['ok' => false, 'error' => "Error al decodificar JSON: " . json_last_error_msg() . ". Respuesta: $response", 'texto' => ''];
+    }
+
+    if (!isset($data['answer']) || !is_string($data['answer'])) {
+        return ['ok' => false, 'error' => "La respuesta de la API no contiene el campo 'answer'. Respuesta: $response", 'texto' => ''];
+    }
+
+    $textoFormateado = trim($data['answer']);
+    $textoFormateado = ajustarFormatoEmail($textoFormateado);
+
+    return ['ok' => true, 'error' => '', 'texto' => $textoFormateado];
+}
+
+// ============================================
+// PROCESAR ASUNTO CON IA
+// ============================================
+function procesar_texto_asunto(string $textoOriginal, string $API_URL, string $API_KEY): array
+{
+    if ($textoOriginal === '') {
+        return ['ok' => false, 'error' => 'Texto vacío', 'texto' => ''];
+    }
+
+    $question =
+        "Eres un asistente experto redactando asuntos de correo electrónico en español profesional.\n\n" .
+        "TAREA:\n" .
+        "A partir del texto que te paso, genera únicamente un asunto de correo breve, claro y profesional.\n\n" .
+        "REGLAS ESTRICTAS:\n" .
+        "- Mantén el mismo significado general, sin añadir información nueva.\n" .
+        "- No añadas datos que no estén en el texto original.\n" .
+        "- El resultado debe ser una sola línea.\n" .
+        "- No incluyas la palabra 'Asunto:' ni comillas ni explicaciones.\n" .
+        "- Evita el punto final, salvo que sea imprescindible.\n\n" .
+        "Texto original del asunto (dictado):\n" .
+        $textoOriginal;
+
+    $ch = curl_init($API_URL);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+    $postFields = http_build_query(['question' => $question]);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $postFields);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        'X-API-Key: ' . $API_KEY,
+        'Content-Type: application/x-www-form-urlencoded'
+    ]);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+
+    $response = curl_exec($ch);
+
+    if ($response === false) {
+        $err = "Error al contactar con la API remota: " . curl_error($ch);
+        curl_close($ch);
+        return ['ok' => false, 'error' => $err, 'texto' => ''];
+    }
+
+    $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+
+    if ($status !== 200) {
+        return ['ok' => false, 'error' => "La API remota devolvió HTTP $status. Respuesta: $response", 'texto' => ''];
+    }
+
+    $data = json_decode($response, true);
+    if (json_last_error() !== JSON_ERROR_NONE) {
+        return ['ok' => false, 'error' => "Error al decodificar JSON: " . json_last_error_msg() . ". Respuesta: $response", 'texto' => ''];
+    }
+
+    if (!isset($data['answer']) || !is_string($data['answer'])) {
+        return ['ok' => false, 'error' => "La respuesta de la API no contiene el campo 'answer'. Respuesta: $response", 'texto' => ''];
+    }
+
+    $textoFormateado = trim($data['answer']);
+    $textoFormateado = preg_replace("/\r\n|\r|\n/", ' ', $textoFormateado);
+    $textoFormateado = preg_replace('/\s+/', ' ', $textoFormateado);
+
+    return ['ok' => true, 'error' => '', 'texto' => $textoFormateado];
+}
+
+// ============================================
+// RESUMEN AUTOMÁTICO DE CORREO CON IA
+// ============================================
+function procesar_resumen_email(string $textoOriginal, string $API_URL, string $API_KEY): array
+{
+    if (trim($textoOriginal) === '') {
+        return ['ok' => false, 'error' => 'Correo sin contenido textual para resumir.', 'texto' => ''];
+    }
+
+    $question =
+        "Eres un asistente que resume correos electrónicos en español.\n\n" .
+        "TAREA:\n" .
+        "Resume el siguiente correo en un máximo de 5 frases claras, indicando:\n" .
+        "- Quién escribe (si aparece).\n" .
+        "- Tema principal.\n" .
+        "- Petición o acción requerida (si la hay).\n" .
+        "- Tono general.\n\n" .
+        "REGLAS ESTRICTAS:\n" .
+        "- No inventes información que no esté en el texto.\n" .
+        "- No añadas links ni datos externos.\n" .
+        "- Devuelve solo el resumen, sin título ni explicaciones adicionales.\n\n" .
+        "Correo original:\n" .
+        $textoOriginal;
+
+    $ch = curl_init($API_URL);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+    $postFields = http_build_query(['question' => $question]);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $postFields);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        'X-API-Key: ' . $API_KEY,
+        'Content-Type: application/x-www-form-urlencoded'
+    ]);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+
+    $response = curl_exec($ch);
+
+    if ($response === false) {
+        $err = "Error al contactar con la API remota: " . curl_error($ch);
+        curl_close($ch);
+        return ['ok' => false, 'error' => $err, 'texto' => ''];
+    }
+
+    $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+
+    if ($status !== 200) {
+        return ['ok' => false, 'error' => "La API remota devolvió HTTP $status. Respuesta: $response", 'texto' => ''];
+    }
+
+    $data = json_decode($response, true);
+    if (json_last_error() !== JSON_ERROR_NONE) {
+        return ['ok' => false, 'error' => "Error al decodificar JSON: " . json_last_error_msg() . ". Respuesta: $response", 'texto' => ''];
+    }
+
+    if (!isset($data['answer']) || !is_string($data['answer'])) {
+        return ['ok' => false, 'error' => "La respuesta de la API no contiene el campo 'answer'. Respuesta: $response", 'texto' => ''];
+    }
+
+    $textoFormateado = trim($data['answer']);
+    return ['ok' => true, 'error' => '', 'texto' => $textoFormateado];
+}
+
+// ============================================
+// SMTP PURO CON SOCKETS
+// ============================================
+function smtp_read_line($conn): string
+{
+    $data = '';
+    while ($str = fgets($conn, 515)) {
+        $data .= $str;
+        if (strlen($str) >= 4 && $str[3] === ' ') {
+            break;
+        }
+    }
+    return $data;
+}
+
+function smtp_expect($conn, string $expectedCode, string $context): string
+{
+    $data = smtp_read_line($conn);
+    if (substr($data, 0, 3) !== $expectedCode) {
+        throw new RuntimeException("Error SMTP en $context. Esperado $expectedCode, recibido: $data");
+    }
+    return $data;
+}
+
+function smtp_send_email(string $to, string $subject, string $body): array
+{
+    $to = trim($to);
+    if (!filter_var($to, FILTER_VALIDATE_EMAIL)) {
+        return ['ok' => false, 'error' => 'Dirección de correo no válida.'];
+    }
+
+    $errno = 0;
+    $errstr = '';
+    $conn = @fsockopen(SMTP_HOST, SMTP_PORT, $errno, $errstr, 20);
+    if (!$conn) {
+        return ['ok' => false, 'error' => "No se pudo conectar al servidor SMTP: $errstr ($errno)"];
+    }
+
+    try {
+        smtp_expect($conn, '220', 'greeting');
+
+        $hostname = 'localhost';
+        fwrite($conn, "EHLO $hostname\r\n");
+        smtp_expect($conn, '250', 'EHLO (inicial)');
+
+        fwrite($conn, "STARTTLS\r\n");
+        smtp_expect($conn, '220', 'STARTTLS');
+
+        $cryptoOk = @stream_socket_enable_crypto(
+            $conn,
+            true,
+            STREAM_CRYPTO_METHOD_TLS_CLIENT
+        );
+        if (!$cryptoOk) {
+            throw new RuntimeException("No se pudo establecer TLS (stream_socket_enable_crypto).");
+        }
+
+        fwrite($conn, "EHLO $hostname\r\n");
+        smtp_expect($conn, '250', 'EHLO (tras STARTTLS)');
+
+        fwrite($conn, "AUTH LOGIN\r\n");
+        smtp_expect($conn, '334', 'AUTH LOGIN');
+
+        fwrite($conn, base64_encode(SMTP_USER) . "\r\n");
+        smtp_expect($conn, '334', 'AUTH LOGIN usuario');
+
+        fwrite($conn, base64_encode(SMTP_PASS) . "\r\n");
+        smtp_expect($conn, '235', 'AUTH LOGIN contraseña');
+
+        fwrite($conn, "MAIL FROM:<" . SMTP_FROM . ">\r\n");
+        smtp_expect($conn, '250', 'MAIL FROM');
+
+        fwrite($conn, "RCPT TO:<" . $to . ">\r\n");
+        smtp_expect($conn, '250', 'RCPT TO');
+
+        fwrite($conn, "DATA\r\n");
+        smtp_expect($conn, '354', 'DATA');
+
+        $headers = [];
+        $headers[] = "From: \"" . addslashes(SMTP_FROM_NAME) . "\" <" . SMTP_FROM . ">";
+        $headers[] = "To: <$to>";
+        $headers[] = "Subject: " . $subject;
+        $headers[] = "MIME-Version: 1.0";
+        $headers[] = "Content-Type: text/plain; charset=UTF-8";
+        $headers[] = "Content-Transfer-Encoding: 8bit";
+
+        $data = implode("\r\n", $headers) . "\r\n\r\n" . $body . "\r\n.\r\n";
+
+        fwrite($conn, $data);
+        smtp_expect($conn, '250', 'final DATA');
+
+        fwrite($conn, "QUIT\r\n");
+        fclose($conn);
+
+        return ['ok' => true, 'error' => ''];
+    } catch (Throwable $e) {
+        fclose($conn);
+        return ['ok' => false, 'error' => $e->getMessage()];
+    }
+}
+
+// ============================================
+// FUNCIONES AUXILIARES IMAP
+// ============================================
+function decode_imap_text(string $text, int $encoding): string
+{
+    switch ($encoding) {
+        case 3:
+            return base64_decode($text) ?: $text;
+        case 4:
+            return quoted_printable_decode($text);
+        default:
+            return $text;
+    }
+}
+
+function get_plain_text_body($imap, int $msgNo): string
+{
+    $structure = @imap_fetchstructure($imap, $msgNo);
+    if (!$structure) {
+        return (string)@imap_body($imap, $msgNo);
+    }
+
+    if (!isset($structure->parts) || !is_array($structure->parts) || count($structure->parts) === 0) {
+        $body = @imap_body($imap, $msgNo);
+        return decode_imap_text($body, $structure->encoding ?? 0);
+    }
+
+    $partNumber = null;
+    foreach ($structure->parts as $index => $part) {
+        if ($part->type == 0) {
+            $subtype = isset($part->subtype) ? strtoupper($part->subtype) : '';
+            if ($subtype === 'PLAIN' || $subtype === '') {
+                $partNumber = $index + 1;
+                break;
+            }
+        }
+    }
+
+    if ($partNumber === null) {
+        $body = @imap_body($imap, $msgNo);
+        return decode_imap_text($body, $structure->encoding ?? 0);
+    }
+
+    $partBody = @imap_fetchbody($imap, $msgNo, (string)$partNumber);
+    $encoding = $structure->parts[$partNumber - 1]->encoding ?? 0;
+
+    return decode_imap_text($partBody, $encoding);
+}
+
+// ============================================
+// MODO AJAX (IA asunto/cuerpo)
+// ============================================
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['ajax']) && $_POST['ajax'] === '1') {
+    header('Content-Type: application/json; charset=utf-8');
+
+    $kind = $_POST['kind'] ?? 'body';
+    $textoOriginal = isset($_POST['texto']) ? trim($_POST['texto']) : '';
+
+    if ($textoOriginal === '') {
+        echo json_encode(['ok' => false, 'error' => 'Texto vacío', 'texto' => ''], JSON_UNESCAPED_UNICODE);
+        exit;
+    }
+
+    if ($kind === 'subject') {
+        $resultado = procesar_texto_asunto($textoOriginal, $API_URL, $API_KEY);
+    } else {
+        $resultado = procesar_texto_cuerpo($textoOriginal, $API_URL, $API_KEY);
+    }
+
+    echo json_encode($resultado, JSON_UNESCAPED_UNICODE);
+    exit;
+}
+
+// ============================================
+// ENVÍO REAL DE CORREO
+// ============================================
+$sendMessage = null;
+$sendOk = null;
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send_email']) && $_POST['send_email'] === '1') {
+    $to      = $_POST['to'] ?? '';
+    $subject = $_POST['final_subject'] ?? '';
+    $body    = $_POST['final_body'] ?? '';
+
+    $subject = trim($subject);
+    $body    = trim($body);
+
+    if ($to === '' || $subject === '' || $body === '') {
+        $sendOk = false;
+        $sendMessage = 'Para, asunto y cuerpo corregidos son obligatorios para enviar el correo.';
+    } else {
+        $result = smtp_send_email($to, $subject, $body);
+        $sendOk = $result['ok'];
+        $sendMessage = $result['ok']
+            ? 'Correo enviado correctamente a ' . htmlspecialchars($to, ENT_QUOTES, 'UTF-8') . '.'
+            : 'Error al enviar el correo: ' . $result['error'];
+    }
+}
+
+// ============================================
+// LECTURA DE CORREO VÍA IMAP
+// ============================================
+$allowedFolders = [
+    'INBOX'  => 'Bandeja de entrada',
+    'Sent'   => 'Enviados',
+    'Drafts' => 'Borradores',
+    'Trash'  => 'Papelera'
+];
+
+$folder   = isset($_GET['folder']) ? $_GET['folder'] : 'INBOX';
+if (!isset($allowedFolders[$folder])) {
+    $folder = 'INBOX';
+}
+
+$composeMode = isset($_GET['compose']);
+$selectedMsgNo = isset($_GET['msg']) ? (int)$_GET['msg'] : null;
+if ($composeMode) {
+    $selectedMsgNo = null;
+}
+
+$imapError = '';
+$emails = [];
+$selectedEmail = null;
+$selectedBody = '';
+$selectedSummary = '';
+
+if (function_exists('imap_open')) {
+    $mailboxString = sprintf('{%s:%d%s}%s', IMAP_HOST, IMAP_PORT, IMAP_FLAGS, $folder);
+    $imap = @imap_open($mailboxString, SMTP_USER, SMTP_PASS);
+    if (!$imap) {
+        $imapError = imap_last_error();
+    } else {
+        $ids = @imap_search($imap, 'ALL');
+        if ($ids !== false) {
+            rsort($ids);
+            $ids = array_slice($ids, 0, 50);
+            foreach ($ids as $num) {
+                $overviewArr = @imap_fetch_overview($imap, $num, 0);
+                if (!$overviewArr || !isset($overviewArr[0])) {
+                    continue;
+                }
+                $ov = $overviewArr[0];
+                $subject = isset($ov->subject) ? imap_utf8($ov->subject) : '(sin asunto)';
+                $from    = isset($ov->from) ? imap_utf8($ov->from) : '(desconocido)';
+                $date    = isset($ov->date) ? $ov->date : '';
+                $seen    = !empty($ov->seen);
+
+                $emails[] = [
+                    'num'      => $num,
+                    'subject'  => $subject,
+                    'from'     => $from,
+                    'date'     => $date,
+                    'seen'     => $seen,
+                    'from_raw' => $ov->from ?? '',
+                    'subject_raw' => $ov->subject ?? ''
+                ];
+            }
+        }
+
+        if ($selectedMsgNo) {
+            $overviewArr = @imap_fetch_overview($imap, $selectedMsgNo, 0);
+            if ($overviewArr && isset($overviewArr[0])) {
+                $ov = $overviewArr[0];
+                $selectedEmail = [
+                    'num'      => $selectedMsgNo,
+                    'subject'  => isset($ov->subject) ? imap_utf8($ov->subject) : '(sin asunto)',
+                    'from'     => isset($ov->from) ? imap_utf8($ov->from) : '(desconocido)',
+                    'date'     => isset($ov->date) ? $ov->date : '',
+                    'from_raw' => $ov->from ?? '',
+                    'subject_raw' => $ov->subject ?? ''
+                ];
+
+                $selectedBody = get_plain_text_body($imap, $selectedMsgNo);
+
+                $resumen = procesar_resumen_email($selectedBody, $API_URL, $API_KEY);
+                if ($resumen['ok']) {
+                    $selectedSummary = $resumen['texto'];
+                } else {
+                    $selectedSummary = "No se pudo generar el resumen: " . $resumen['error'];
+                }
+            }
+        }
+
+        @imap_close($imap);
+    }
+} else {
+    $imapError = 'La extensión IMAP de PHP no está disponible en este servidor.';
+}
+
+// ============================================
+// PREFILL PARA RESPUESTA
+// ============================================
+$replyMode = $selectedEmail !== null && isset($_GET['reply']);
+
+$prefillTo = '';
+$prefillSubjectRaw = '';
+$prefillSubjectFinal = '';
+
+if ($replyMode && $selectedEmail) {
+    $fromRaw = $selectedEmail['from_raw'];
+    $addrList = @imap_rfc822_parse_adrlist($fromRaw, '');
+    if ($addrList && isset($addrList[0]->mailbox, $addrList[0]->host)) {
+        $prefillTo = $addrList[0]->mailbox . '@' . $addrList[0]->host;
+    } else {
+        $prefillTo = $selectedEmail['from'];
+    }
+
+    $prefillSubjectRaw = 'Re: ' . $selectedEmail['subject'];
+    $prefillSubjectFinal = $prefillSubjectRaw;
+} else {
+    $prefillTo = '';
+    $prefillSubjectRaw = '';
+    $prefillSubjectFinal = '';
+}
+?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Cliente de correo (IMAP + SMTP + IA)</title>
+    <style>
+        :root {
+            --bg: #f5f7fb;
+            --card-bg: #ffffff;
+            --card-border: #d4d4d8;
+            --accent: #2563eb;
+            --accent-soft: #e0ebff;
+            --text-main: #111827;
+            --text-muted: #6b7280;
+            --error: #b91c1c;
+            --success: #15803d;
+            --warn: #92400e;
+        }
+        * { box-sizing: border-box; }
+        html, body {
+            height: 100%;
+        }
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background: var(--bg);
+            color: var(--text-main);
+        }
+        .app-shell {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            padding: 0.75rem 0.75rem 0.5rem 0.75rem;
+            gap: 0.75rem;
+        }
+        .app-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+        }
+        .app-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: .5rem;
+        }
+        .app-title-badge {
+            font-size: .8rem;
+            padding: .2rem .6rem;
+            border-radius: 999px;
+            background: var(--accent-soft);
+            color: var(--accent);
+        }
+        .app-subtitle {
+            font-size: .9rem;
+            color: var(--text-muted);
+            margin-top: .15rem;
+        }
+        .pill {
+            font-size: .8rem;
+            padding: .35rem .7rem;
+            border-radius: 999px;
+            border: 1px solid #e5e7eb;
+            background: #ffffff;
+            color: var(--text-muted);
+        }
+
+        .main-layout {
+            flex: 1;
+            display: flex;
+            gap: 0.5rem;
+            min-height: 0;
+        }
+
+        /* Sidebar izquierda (carpetas) */
+        .sidebar {
+            width: 220px;
+            background: var(--card-bg);
+            border-radius: 0.9rem;
+            border: 1px solid var(--card-border);
+            padding: 0.75rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+        .sidebar-title {
+            font-size: .9rem;
+            font-weight: 600;
+        }
+        .folder-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            gap: .2rem;
+        }
+        .folder-item a {
+            display: flex;
+            align-items: center;
+            gap: .45rem;
+            text-decoration: none;
+            color: var(--text-main);
+            font-size: .9rem;
+            padding: .35rem .5rem;
+            border-radius: .6rem;
+            transition: background 0.15s ease, color 0.15s ease;
+        }
+        .folder-item a:hover {
+            background: #eff6ff;
+        }
+        .folder-item.active a {
+            background: var(--accent);
+            color: #ffffff;
+        }
+        .folder-label {
+            display: flex;
+            align-items: center;
+            gap: .35rem;
+        }
+        .sidebar-actions {
+            margin-top: 0.5rem;
+        }
+
+        /* Botones */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: .35rem;
+            padding: .35rem .75rem;
+            border-radius: 999px;
+            border: 1px solid #d4d4d8;
+            font-size: .8rem;
+            font-weight: 500;
+            cursor: pointer;
+            background: #ffffff;
+            color: var(--text-main);
+            transition: background 0.15s ease, border-color 0.15s ease;
+        }
+        .btn:hover {
+            background: #eff6ff;
+            border-color: var(--accent);
+        }
+        .btn-primary {
+            background: var(--accent);
+            color: #ffffff;
+            border-color: var(--accent);
+        }
+        .btn-primary:hover {
+            background: #1d4ed8;
+        }
+        .btn-voice.active {
+            background: #dbeafe;
+            border-color: #1d4ed8;
+        }
+        .pulse-dot {
+            width: .5rem;
+            height: .5rem;
+            border-radius: 999px;
+            background: #9ca3af;
+        }
+        .btn-voice.active .pulse-dot {
+            background: #22c55e;
+        }
+
+        /* Columnas principales: lista + detalle/redactor */
+        .main-columns {
+            flex: 1;
+            display: flex;
+            gap: 0.5rem;
+            min-height: 0;
+        }
+
+        /* Columna central: lista de mensajes */
+        .message-list-column {
+            width: 340px;
+            background: var(--card-bg);
+            border-radius: 0.9rem;
+            border: 1px solid var(--card-border);
+            display: flex;
+            flex-direction: column;
+            padding: 0.65rem 0.7rem;
+            min-height: 0;
+        }
+        .card-header {
+            margin-bottom: .4rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: .5rem;
+        }
+        .card-header-text {
+            display: flex;
+            flex-direction: column;
+        }
+        .card-title {
+            font-size: .95rem;
+            font-weight: 600;
+        }
+        .card-caption {
+            font-size: .8rem;
+            color: var(--text-muted);
+            margin-top: .1rem;
+        }
+        .chip {
+            font-size: .78rem;
+            padding: .2rem .55rem;
+            border-radius: 999px;
+            background: #eef2ff;
+            color: #4b5563;
+        }
+
+        .message-list-wrapper {
+            flex: 1;
+            min-height: 0;
+            overflow: auto;
+        }
+        .message-list-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: .82rem;
+        }
+        .message-list-table thead {
+            background: #f3f4f6;
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
+        .message-list-table th,
+        .message-list-table td {
+            padding: .25rem .35rem;
+            border-bottom: 1px solid #e5e7eb;
+            text-align: left;
+        }
+        .message-list-table th {
+            font-weight: 500;
+            color: var(--text-muted);
+        }
+        .message-list-table tbody tr {
+            cursor: pointer;
+        }
+        .message-list-table tbody tr:hover {
+            background: #eff6ff;
+        }
+        .message-list-table tbody tr.unseen td {
+            font-weight: 600;
+        }
+        .message-list-table tbody tr.selected {
+            background: #dbeafe;
+        }
+        .message-subject,
+        .message-from {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .message-date {
+            white-space: nowrap;
+            font-size: .75rem;
+            color: var(--text-muted);
+        }
+
+        /* Columna derecha: detalle + redactor inferior */
+        .right-column {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            min-height: 0;
+        }
+
+        .detail-card {
+            flex: 1;
+            min-height: 0;
+            background: var(--card-bg);
+            border-radius: 0.9rem;
+            border: 1px solid var(--card-border);
+            padding: 0.75rem 0.9rem;
+            display: flex;
+            flex-direction: column;
+        }
+        .message-detail-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: .5rem;
+            margin-bottom: .45rem;
+        }
+        .message-detail-info {
+            display: flex;
+            flex-direction: column;
+        }
+        .detail-subject {
+            font-size: .95rem;
+            font-weight: 600;
+            margin-bottom: .1rem;
+        }
+        .detail-meta {
+            font-size: .8rem;
+            color: var(--text-muted);
+        }
+        .detail-body-wrapper {
+            flex: 1;
+            min-height: 0;
+            overflow: auto;
+            margin-top: .35rem;
+        }
+        .detail-summary {
+            margin-bottom: .5rem;
+            padding: .55rem .6rem;
+            border-radius: .55rem;
+            background: #f3f4ff;
+            font-size: .85rem;
+        }
+        .detail-body {
+            padding: .55rem .6rem;
+            border-radius: .55rem;
+            background: #f9fafb;
+            font-size: .85rem;
+            white-space: pre-wrap;
+        }
+
+        /* Redactor inferior mediano (tipo Gmail "maximizado") */
+        .compose-wrapper {
+            height: 280px;
+            background: var(--card-bg);
+            border-radius: 0.9rem;
+            border: 1px solid var(--card-border);
+            padding: 0.6rem 0.8rem 0.5rem 0.8rem;
+            display: flex;
+            flex-direction: column;
+        }
+        .compose-card {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-row {
+            display: flex;
+            align-items: center;
+            gap: .6rem;
+            margin-bottom: .45rem;
+        }
+        .form-label {
+            width: 3.5rem;
+            font-size: .85rem;
+            color: var(--text-muted);
+            text-align: right;
+        }
+        .form-field {
+            flex: 1;
+        }
+        .input-text {
+            width: 100%;
+            border-radius: .5rem;
+            border: 1px solid #d4d4d8;
+            padding: .45rem .6rem;
+            font-size: .85rem;
+            font-family: inherit;
+            color: var(--text-main);
+            background: #f9fafb;
+        }
+        .input-text:focus {
+            outline: none;
+            border-color: var(--accent);
+            background: #ffffff;
+        }
+        .body-label-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: .3rem;
+            margin-bottom: .25rem;
+        }
+        .body-label-row span {
+            font-size: .85rem;
+        }
+        .badge-ai {
+            font-size: .78rem;
+            padding: .2rem .55rem;
+            border-radius: 999px;
+            background: #eff6ff;
+            color: #1d4ed8;
+        }
+        .result-box {
+            flex: 1;
+            padding: .5rem .6rem;
+            border-radius: .6rem;
+            border: 1px solid #e5e7eb;
+            background: #f9fafb;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+            font-size: .85rem;
+            white-space: pre-wrap;
+            overflow: auto;
+            color: var(--text-main);
+        }
+        .result-placeholder {
+            color: var(--text-muted);
+            font-style: italic;
+        }
+        .status-text {
+            font-size: .78rem;
+        }
+        .status-ok   { color: var(--success); }
+        .status-warn { color: var(--warn); }
+        .status-error{ color: var(--error); }
+        .status-row {
+            display: flex;
+            justify-content: flex-end;
+            font-size: .78rem;
+            color: var(--text-muted);
+            margin-top: .15rem;
+            gap: 1.2rem;
+            flex-wrap: wrap;
+        }
+        .status-label {
+            font-weight: 500;
+        }
+        .send-status {
+            margin-top: .4rem;
+            padding: .45rem .6rem;
+            border-radius: .6rem;
+            font-size: .8rem;
+        }
+        .send-status.ok {
+            background: #ecfdf3;
+            color: var(--success);
+            border: 1px solid #bbf7d0;
+        }
+        .send-status.error {
+            background: #fef2f2;
+            color: var(--error);
+            border: 1px solid #fecaca;
+        }
+        .visually-hidden {
+            position: absolute;
+            left: -9999px;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+        }
+
+        @media (max-width: 1024px) {
+            .main-layout {
+                flex-direction: column;
+            }
+            .sidebar {
+                width: 100%;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .folder-list {
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+            .main-columns {
+                flex-direction: column;
+            }
+            .message-list-column {
+                width: 100%;
+                height: 40%;
+            }
+            .right-column {
+                height: 60%;
+            }
+        }
+        @media (max-width: 720px) {
+            .sidebar {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .form-label {
+                width: 3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="app-shell">
+    <header class="app-header">
+        <div>
+            <div class="app-title">
+                <span>📧 Cliente de correo</span>
+                <span class="app-title-badge">Estilo Gmail · IMAP + SMTP + IA</span>
+            </div>
+            <div class="app-subtitle">
+                Bandeja completa, lectura a la derecha y redacción con dictado en la parte inferior.
+            </div>
+        </div>
+        <div class="pill">
+            🎙️ Dictado por voz · es-ES
+        </div>
+    </header>
+
+    <div class="main-layout">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div>
+                <div class="sidebar-title">Carpetas</div>
+                <ul class="folder-list">
+                    <?php foreach ($allowedFolders as $key => $label): ?>
+                        <li class="folder-item <?php echo $key === $folder ? 'active' : ''; ?>">
+                            <a href="?folder=<?php echo urlencode($key); ?>">
+                                <span class="folder-label">
+                                    <?php if ($key === 'INBOX'): ?>
+                                        📥
+                                    <?php elseif ($key === 'Sent'): ?>
+                                        📤
+                                    <?php elseif ($key === 'Drafts'): ?>
+                                        ✏️
+                                    <?php elseif ($key === 'Trash'): ?>
+                                        🗑️
+                                    <?php else: ?>
+                                        📁
+                                    <?php endif; ?>
+                                    <span><?php echo htmlspecialchars($label, ENT_QUOTES, 'UTF-8'); ?></span>
+                                </span>
+                            </a>
+                        </li>
+                    <?php endforeach; ?>
+                </ul>
+            </div>
+            <div class="sidebar-actions">
+                <a class="btn btn-primary" href="?folder=<?php echo urlencode($folder); ?>&compose=1">
+                    ➕ Nuevo mensaje
+                </a>
+            </div>
+            <?php if ($imapError): ?>
+                <div style="margin-top: .6rem; font-size:.78rem; color: var(--error);">
+                    IMAP: <?php echo htmlspecialchars($imapError, ENT_QUOTES, 'UTF-8'); ?>
+                </div>
+            <?php endif; ?>
+        </aside>
+
+        <!-- Columnas centrales -->
+        <div class="main-columns">
+            <!-- Lista de mensajes (columna central) -->
+            <section class="message-list-column">
+                <div class="card-header">
+                    <div class="card-header-text">
+                        <div class="card-title">Mensajes</div>
+                        <div class="card-caption">
+                            Carpeta: <?php echo htmlspecialchars($allowedFolders[$folder], ENT_QUOTES, 'UTF-8'); ?>
+                        </div>
+                    </div>
+                    <span class="chip">50 últimos</span>
+                </div>
+                <div class="message-list-wrapper">
+                    <table class="message-list-table">
+                        <thead>
+                            <tr>
+                                <th>De</th>
+                                <th>Asunto</th>
+                                <th>Fecha</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        <?php if (!$emails): ?>
+                            <tr>
+                                <td colspan="3" style="font-size:.82rem; color:var(--text-muted);">
+                                    No hay mensajes en esta carpeta o no se han podido recuperar.
+                                </td>
+                            </tr>
+                        <?php else: ?>
+                            <?php foreach ($emails as $msg): ?>
+                                <?php $isSelected = ($selectedMsgNo && $msg['num'] === $selectedMsgNo); ?>
+                                <tr class="<?php echo !$msg['seen'] ? 'unseen ' : ''; ?><?php echo $isSelected ? 'selected' : ''; ?>"
+                                    onclick="window.location.href='?folder=<?php echo urlencode($folder); ?>&msg=<?php echo (int)$msg['num']; ?>'">
+                                    <td class="message-from">
+                                        <?php echo htmlspecialchars($msg['from'], ENT_QUOTES, 'UTF-8'); ?>
+                                    </td>
+                                    <td class="message-subject">
+                                        <?php echo htmlspecialchars($msg['subject'], ENT_QUOTES, 'UTF-8'); ?>
+                                    </td>
+                                    <td class="message-date">
+                                        <?php echo htmlspecialchars($msg['date'], ENT_QUOTES, 'UTF-8'); ?>
+                                    </td>
+                                </tr>
+                            <?php endforeach; ?>
+                        <?php endif; ?>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Columna derecha: detalle + redactor -->
+            <div class="right-column">
+                <!-- Detalle mensaje -->
+                <section class="detail-card">
+                    <div class="message-detail-header">
+                        <div class="message-detail-info">
+                            <div class="card-title">Detalle del mensaje</div>
+                            <div class="card-caption">
+                                <?php if ($selectedEmail): ?>
+                                    Resumen automático arriba y cuerpo completo debajo.
+                                <?php else: ?>
+                                    Selecciona un mensaje de la lista o pulsa “Nuevo mensaje”.
+                                <?php endif; ?>
+                            </div>
+                        </div>
+                        <?php if ($selectedEmail): ?>
+                            <a class="btn" href="?folder=<?php echo urlencode($folder); ?>&msg=<?php echo (int)$selectedEmail['num']; ?>&reply=1">
+                                ↩️ Responder
+                            </a>
+                        <?php endif; ?>
+                    </div>
+
+                    <?php if ($selectedEmail): ?>
+                        <div class="detail-body-wrapper">
+                            <div class="detail-subject">
+                                <?php echo htmlspecialchars($selectedEmail['subject'], ENT_QUOTES, 'UTF-8'); ?>
+                            </div>
+                            <div class="detail-meta">
+                                De:
+                                <?php echo htmlspecialchars($selectedEmail['from'], ENT_QUOTES, 'UTF-8'); ?>
+                                ·
+                                Fecha:
+                                <?php echo htmlspecialchars($selectedEmail['date'], ENT_QUOTES, 'UTF-8'); ?>
+                            </div>
+                            <div class="detail-summary">
+                                <strong>Resumen automático:</strong><br>
+                                <?php echo nl2br(htmlspecialchars($selectedSummary, ENT_QUOTES, 'UTF-8')); ?>
+                            </div>
+                            <div class="detail-body">
+                                <?php echo nl2br(htmlspecialchars($selectedBody, ENT_QUOTES, 'UTF-8')); ?>
+                            </div>
+                        </div>
+                    <?php else: ?>
+                        <div style="font-size:.9rem; color:var(--text-muted); margin-top:.4rem;">
+                            No hay ningún mensaje seleccionado.
+                        </div>
+                    <?php endif; ?>
+                </section>
+
+                <!-- Redactor inferior tipo Gmail (altura media) -->
+                <div class="compose-wrapper">
+                    <form method="post" class="compose-card" id="mailForm">
+                        <div class="card-header" style="margin-bottom:.3rem;">
+                            <div class="card-header-text">
+                                <div class="card-title" style="font-size:.9rem;">
+                                    <?php echo $replyMode ? 'Responder mensaje' : 'Nuevo mensaje'; ?>
+                                </div>
+                                <div class="card-caption">
+                                    Asunto y cuerpo con dictado y corrección IA.
+                                </div>
+                            </div>
+                            <span class="chip">
+                                <?php echo $replyMode ? 'Modo respuesta' : 'Redacción'; ?>
+                            </span>
+                        </div>
+
+                        <!-- Destinatario -->
+                        <div class="form-row">
+                            <div class="form-label">Para</div>
+                            <div class="form-field">
+                                <input type="email" name="to" class="input-text"
+                                       placeholder="destinatario@ejemplo.com"
+                                       required
+                                       value="<?php echo htmlspecialchars($prefillTo, ENT_QUOTES, 'UTF-8'); ?>">
+                            </div>
+                        </div>
+
+                        <!-- Asunto -->
+                        <div class="form-row">
+                            <div class="form-label">Asunto</div>
+                            <div class="form-field">
+                                <input type="text" id="subjectFinal" class="input-text"
+                                       placeholder="El asunto corregido aparecerá aquí"
+                                       readonly
+                                       value="<?php echo htmlspecialchars($prefillSubjectFinal, ENT_QUOTES, 'UTF-8'); ?>">
+                            </div>
+                            <button type="button" id="btnDictarSubject" class="btn btn-voice">
+                                <span class="pulse-dot"></span>
+                                <span>🎙️ Asunto</span>
+                            </button>
+                        </div>
+
+                        <div class="status-row">
+                            <div>
+                                <span class="status-label">Asunto IA:</span>
+                                <span id="estadoIA_subject" class="status-text status-warn">
+                                    <?php echo $prefillSubjectFinal ? 'Asunto preparado. Puedes dictar para modificarlo.' : 'A la espera de dictado…'; ?>
+                                </span>
+                            </div>
+                        </div>
+
+                        <textarea id="subjectRaw" class="visually-hidden"><?php
+                            echo htmlspecialchars($prefillSubjectRaw, ENT_QUOTES, 'UTF-8');
+                        ?></textarea>
+                        <input type="hidden" name="final_subject" id="final_subject"
+                               value="<?php echo htmlspecialchars($prefillSubjectFinal, ENT_QUOTES, 'UTF-8'); ?>">
+
+                        <!-- Cuerpo -->
+                        <div class="body-label-row">
+                            <span>Cuerpo del mensaje</span>
+                            <span class="badge-ai">Corrección suave (sin inventar contenido)</span>
+                        </div>
+
+                        <textarea id="texto" class="visually-hidden"></textarea>
+                        <textarea name="final_body" id="final_body" class="visually-hidden"></textarea>
+
+                        <div id="bodyResultBox" class="result-box">
+                            <span class="result-placeholder">
+                                Dicta el cuerpo del mensaje (botón 🎙️ Cuerpo) y aparecerá aquí corregido y formateado.
+                            </span>
+                        </div>
+
+                        <div style="display:flex; justify-content:space-between; align-items:center; margin-top:.35rem; flex-wrap:wrap; gap:.4rem;">
+                            <div style="display:flex; align-items:center; gap:.45rem; flex-wrap:wrap;">
+                                <button type="button" id="btnDictarBody" class="btn btn-voice">
+                                    <span class="pulse-dot"></span>
+                                    <span>🎙️ Cuerpo</span>
+                                </button>
+                                <span class="status-text" style="color:var(--text-muted); font-size:.78rem;">
+                                    La IA se ejecuta automáticamente cada pocos segundos.
+                                </span>
+                            </div>
+                            <div>
+                                <span class="status-label" style="font-size:.78rem;">Cuerpo IA:</span>
+                                <span id="estadoIA_body" class="status-text status-warn">A la espera de dictado…</span>
+                            </div>
+                        </div>
+
+                        <div style="margin-top:.3rem; display:flex; justify-content:space-between; align-items:center; gap:.6rem; flex-wrap:wrap;">
+                            <span id="estadoDictado" class="status-text status-warn">Dictado en espera.</span>
+                            <button type="submit" name="send_email" value="1" class="btn btn-primary">
+                                Enviar correo
+                            </button>
+                        </div>
+
+                        <?php if ($sendMessage !== null): ?>
+                            <div class="send-status <?php echo $sendOk ? 'ok' : 'error'; ?>">
+                                <?php echo htmlspecialchars($sendMessage, ENT_QUOTES, 'UTF-8'); ?>
+                            </div>
+                        <?php endif; ?>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+(function() {
+    const subjectRaw      = document.getElementById('subjectRaw');
+    const bodyRaw         = document.getElementById('texto');
+    const subjectFinal    = document.getElementById('subjectFinal');
+    const bodyResultBox   = document.getElementById('bodyResultBox');
+
+    const finalSubjectField = document.getElementById('final_subject');
+    const finalBodyField    = document.getElementById('final_body');
+
+    const btnDictarSubject = document.getElementById('btnDictarSubject');
+    const btnDictarBody    = document.getElementById('btnDictarBody');
+
+    const estadoIA_subject = document.getElementById('estadoIA_subject');
+    const estadoIA_body    = document.getElementById('estadoIA_body');
+    const estadoDictado    = document.getElementById('estadoDictado');
+
+    const form = document.getElementById('mailForm');
+
+    let recognition = null;
+    let escuchando = false;
+    let currentTarget = null;
+    let currentTargetType = null;
+    let bufferBeforeRecognition = '';
+    let recognizedFinal = '';
+
+    let lastSentSubject = '';
+    let lastSentBody    = '';
+    let isSendingSubject = false;
+    let isSendingBody    = false;
+    const HEARTBEAT_MS = 3000;
+
+    function setResultBody(text, isError = false, isPlaceholder = false) {
+        bodyResultBox.innerHTML = '';
+        const pre = document.createElement('pre');
+        pre.style.margin = '0';
+        pre.style.whiteSpace = 'pre-wrap';
+        if (isPlaceholder) pre.classList.add('result-placeholder');
+        if (isError) pre.style.color = '#b91c1c';
+        pre.textContent = text;
+        bodyResultBox.appendChild(pre);
+
+        finalBodyField.value = text;
+    }
+
+    function updateIAStatus(kind, text, cls) {
+        if (kind === 'subject') {
+            estadoIA_subject.textContent = text;
+            estadoIA_subject.className = 'status-text ' + (cls || '');
+        } else {
+            estadoIA_body.textContent = text;
+            estadoIA_body.className = 'status-text ' + (cls || '');
+        }
+    }
+
+    function markChanged(kind) {
+        if (kind === 'subject') {
+            updateIAStatus('subject', 'Detectados cambios. Se corregirá en unos segundos…', 'status-warn');
+        } else {
+            updateIAStatus('body', 'Detectados cambios. Se corregirá en unos segundos…', 'status-warn');
+        }
+    }
+
+    function sendToAI(kind) {
+        const rawEl   = (kind === 'subject') ? subjectRaw : bodyRaw;
+        const current = rawEl.value.trim();
+        if (!current) {
+            updateIAStatus(kind, 'Sin texto para corregir.', 'status-warn');
+            return;
+        }
+
+        if (kind === 'subject') {
+            if (isSendingSubject || current === lastSentSubject) return;
+            isSendingSubject = true;
+            updateIAStatus('subject', 'Enviando asunto a la IA…', 'status-warn');
+        } else {
+            if (isSendingBody || current === lastSentBody) return;
+            isSendingBody = true;
+            updateIAStatus('body', 'Enviando cuerpo a la IA…', 'status-warn');
+        }
+
+        const params = new URLSearchParams();
+        params.append('ajax', '1');
+        params.append('kind', kind === 'subject' ? 'subject' : 'body');
+        params.append('texto', current);
+
+        fetch(window.location.pathname + window.location.search, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+            body: params.toString()
+        })
+        .then(resp => resp.json())
+        .then(data => {
+            if (!data || typeof data.ok === 'undefined') {
+                if (kind === 'body') setResultBody('Respuesta inesperada del servidor.', true);
+                updateIAStatus(kind, 'Error en la respuesta.', 'status-error');
+                return;
+            }
+            if (!data.ok) {
+                if (kind === 'body') setResultBody(data.error || 'Error al procesar el texto.', true);
+                updateIAStatus(kind, 'Error al procesar el texto.', 'status-error');
+                return;
+            }
+
+            if (kind === 'subject') {
+                lastSentSubject = current;
+                const text = data.texto || '';
+                subjectFinal.value = text;
+                finalSubjectField.value = text;
+                updateIAStatus('subject', 'Asunto actualizado.', 'status-ok');
+            } else {
+                lastSentBody = current;
+                setResultBody(data.texto || '');
+                updateIAStatus('body', 'Cuerpo actualizado.', 'status-ok');
+            }
+        })
+        .catch(err => {
+            console.error(err);
+            if (kind === 'body') setResultBody('Error de red al contactar con la IA.', true);
+            updateIAStatus(kind, 'Error de red.', 'status-error');
+        })
+        .finally(() => {
+            if (kind === 'subject') isSendingSubject = false;
+            else isSendingBody = false;
+        });
+    }
+
+    setInterval(function() {
+        sendToAI('subject');
+        sendToAI('body');
+    }, HEARTBEAT_MS);
+
+    function startDictationFor(kind) {
+        if (!recognition) return;
+
+        const targetRaw  = (kind === 'subject') ? subjectRaw : bodyRaw;
+
+        if (escuchando && currentTargetType === kind) {
+            recognition.stop();
+            return;
+        }
+
+        if (escuchando && currentTargetType !== kind) {
+            recognition.stop();
+            return;
+        }
+
+        currentTarget = targetRaw;
+        currentTargetType = kind;
+        try {
+            recognition.start();
+        } catch (e) {
+            console.error(e);
+        }
+    }
+
+    if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window) {
+        const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+        recognition = new SR();
+        recognition.lang = 'es-ES';
+        recognition.continuous = true;
+        recognition.interimResults = true;
+
+        recognition.onstart = function() {
+            escuchando = true;
+            recognizedFinal = '';
+            bufferBeforeRecognition = currentTarget ? currentTarget.value.trimEnd() : '';
+
+            btnDictarSubject.classList.remove('active');
+            btnDictarBody.classList.remove('active');
+
+            if (currentTargetType === 'subject') {
+                btnDictarSubject.classList.add('active');
+                estadoDictado.textContent = 'Dictando asunto…';
+            } else if (currentTargetType === 'body') {
+                btnDictarBody.classList.add('active');
+                estadoDictado.textContent = 'Dictando cuerpo del mensaje…';
+            } else {
+                estadoDictado.textContent = 'Dictando…';
+            }
+            estadoDictado.className = 'status-text status-ok';
+        };
+
+        recognition.onerror = function(event) {
+            escuchando = false;
+            btnDictarSubject.classList.remove('active');
+            btnDictarBody.classList.remove('active');
+            estadoDictado.textContent = 'Error en el reconocimiento de voz.';
+            estadoDictado.className = 'status-text status-error';
+            console.error('Speech recognition error:', event);
+        };
+
+        recognition.onend = function() {
+            escuchando = false;
+            btnDictarSubject.classList.remove('active');
+            btnDictarBody.classList.remove('active');
+            if (subjectRaw.value.trim() || bodyRaw.value.trim()) {
+                estadoDictado.textContent = 'Dictado detenido. Texto listo para corregir.';
+                estadoDictado.className = 'status-text status-ok';
+            } else {
+                estadoDictado.textContent = 'Dictado detenido.';
+                estadoDictado.className = 'status-text status-warn';
+            }
+        };
+
+        recognition.onresult = function(event) {
+            if (!currentTarget) return;
+
+            let interimText = '';
+
+            for (let i = event.resultIndex; i < event.results.length; i++) {
+                const transcript = event.results[i][0].transcript;
+                if (event.results[i].isFinal) {
+                    recognizedFinal += transcript + ' ';
+                } else {
+                    interimText += transcript + ' ';
+                }
+            }
+
+            const fullText = (bufferBeforeRecognition + ' ' + recognizedFinal + interimText).trim();
+            currentTarget.value = fullText;
+            if (currentTargetType) {
+                markChanged(currentTargetType);
+            }
+        };
+
+        btnDictarSubject.addEventListener('click', function() {
+            startDictationFor('subject');
+        });
+        btnDictarBody.addEventListener('click', function() {
+            startDictationFor('body');
+        });
+
+        estadoDictado.textContent = 'Dictado disponible. Pulsa un botón de 🎙️ para empezar.';
+        estadoDictado.className = 'status-text status-ok';
+    } else {
+        btnDictarSubject.disabled = true;
+        btnDictarBody.disabled = true;
+        estadoDictado.textContent = 'El dictado por voz no es compatible con este navegador.';
+        estadoDictado.className = 'status-text status-error';
+    }
+
+    form.addEventListener('submit', function() {
+        finalSubjectField.value = subjectFinal.value || '';
+        const bodyText = bodyResultBox.textContent || '';
+        finalBodyField.value = bodyText;
+    });
+})();
+</script>
+</body>
+</html>
+```
+
+
+<a id="proyecto-rrhh-con-ia"></a>
+## Proyecto RRHH con IA
+
+### Primera version
+<small>Creado: 2025-12-11 19:33</small>
+
+`001-Primera version.php`
+
+```
+<?php
+// cv_qa.php
+// Script sencillo: dado un URL de curriculum y una pregunta,
+// envía el contenido del CV + la pregunta a tu API de IA y muestra la respuesta.
+
+// === CONFIGURACIÓN DE LA API REMOTA (MISMA QUE EN TU SERVIDOR) ===
+$API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+$API_KEY = "TEST_API_KEY_JOCARSA_123";
+
+// -----------------------------------------------------------------------------
+//  Función: descargar el contenido de una URL con cURL
+// -----------------------------------------------------------------------------
+function fetch_url_content(string $url): array
+{
+    if (!filter_var($url, FILTER_VALIDATE_URL)) {
+        return ['ok' => false, 'error' => 'URL no válida.', 'content' => ''];
+    }
+
+    $ch = curl_init($url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+    curl_setopt($ch, CURLOPT_USERAGENT, 'JOCARSA-CV-Client/1.0');
+    curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10);
+    curl_setopt($ch, CURLOPT_TIMEOUT, 20);
+
+    $html = curl_exec($ch);
+
+    if ($html === false) {
+        $err = curl_error($ch);
+        curl_close($ch);
+        return ['ok' => false, 'error' => "Error al descargar la URL: $err", 'content' => ''];
+    }
+
+    $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+
+    if ($status < 200 || $status >= 300) {
+        return ['ok' => false, 'error' => "La URL devolvió HTTP $status.", 'content' => ''];
+    }
+
+    return ['ok' => true, 'error' => '', 'content' => $html];
+}
+
+// -----------------------------------------------------------------------------
+//  Función: limpiar HTML → texto plano razonable
+// -----------------------------------------------------------------------------
+function html_to_plain_text(string $html): string
+{
+    // Quitar scripts y estilos
+    $html = preg_replace('#<(script|style)[^>]*>.*?</\1>#si', ' ', $html);
+    // Quitar tags, mantener saltos básicos
+    $text = strip_tags($html);
+    // Decodificar entidades HTML
+    $text = html_entity_decode($text, ENT_QUOTES | ENT_HTML5, 'UTF-8');
+    // Normalizar espacios
+    $text = preg_replace("/\r\n|\r/", "\n", $text);
+    $text = preg_replace('/[ \t]+/', ' ', $text);
+    $text = preg_replace('/\n{3,}/', "\n\n", $text);
+    $text = trim($text);
+
+    // (Opcional) cortar si el CV es enorme
+    $maxLen = 20000;
+    if (mb_strlen($text, 'UTF-8') > $maxLen) {
+        $text = mb_substr($text, 0, $maxLen, 'UTF-8') . "\n\n[Texto truncado por longitud máxima]";
+    }
+
+    return $text;
+}
+
+// -----------------------------------------------------------------------------
+//  Función: llamar a la IA con CV + pregunta
+// -----------------------------------------------------------------------------
+function preguntar_sobre_cv(string $cvText, string $userQuestion, string $API_URL, string $API_KEY): array
+{
+    if ($cvText === '') {
+        return ['ok' => false, 'error' => 'El CV aparece vacío tras la descarga/limpieza.', 'answer' => ''];
+    }
+    if (trim($userQuestion) === '') {
+        return ['ok' => false, 'error' => 'La pregunta está vacía.', 'answer' => ''];
+    }
+
+    // Prompt en español para tu servidor de IA
+    $question =
+        "Eres un asistente que responde preguntas sobre un curriculum vitae en español.\n\n" .
+        "A continuación tienes el contenido del CV entre las marcas <CV> y </CV>.\n" .
+        "Después te indicaré una pregunta.\n\n" .
+        "REGLAS:\n" .
+        "- Responde usando solo la información que aparezca en el CV.\n" .
+        "- Si la respuesta no aparece explícitamente en el CV, responde exactamente: \"No se indica en el CV.\"\n" .
+        "- Responde de forma breve y directa.\n\n" .
+        "<CV>\n" .
+        $cvText .
+        "\n</CV>\n\n" .
+        "Pregunta: " . $userQuestion . "\n\n" .
+        "Respuesta:";
+
+    $ch = curl_init($API_URL);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+    $postFields = http_build_query(['question' => $question]);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $postFields);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        'X-API-Key: ' . $API_KEY,
+        'Content-Type: application/x-www-form-urlencoded'
+    ]);
+    // Ajusta esto según tu entorno SSL
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+
+    $response = curl_exec($ch);
+
+    if ($response === false) {
+        $err = "Error al contactar con la API remota: " . curl_error($ch);
+        curl_close($ch);
+        return ['ok' => false, 'error' => $err, 'answer' => ''];
+    }
+
+    $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+
+    if ($status !== 200) {
+        return ['ok' => false, 'error' => "La API remota devolvió HTTP $status. Respuesta: $response", 'answer' => ''];
+    }
+
+    $data = json_decode($response, true);
+    if (json_last_error() !== JSON_ERROR_NONE) {
+        return ['ok' => false, 'error' => "Error al decodificar JSON: " . json_last_error_msg() . ". Respuesta: $response", 'answer' => ''];
+    }
+
+    if (!isset($data['answer']) || !is_string($data['answer'])) {
+        return ['ok' => false, 'error' => "La respuesta de la API no contiene el campo 'answer'. Respuesta: $response", 'answer' => ''];
+    }
+
+    return ['ok' => true, 'error' => '', 'answer' => trim($data['answer'])];
+}
+
+// -----------------------------------------------------------------------------
+//  Lógica principal: formulario + procesamiento
+// -----------------------------------------------------------------------------
+$defaultUrl       = "https://kebouriman6-glitch.github.io/Curriculum/";
+$defaultQuestion  = "¿Dónde vive esta persona?";
+
+$resultMessage = null;
+$resultOk = null;
+$answerFromAI = null;
+$cvPreview = null;
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $url = isset($_POST['cv_url']) ? trim($_POST['cv_url']) : '';
+    $questionUser = isset($_POST['question']) ? trim($_POST['question']) : '';
+
+    if ($url === '' || $questionUser === '') {
+        $resultOk = false;
+        $resultMessage = 'URL del curriculum y pregunta son obligatorias.';
+    } else {
+        // 1) Descargar CV
+        $fetch = fetch_url_content($url);
+        if (!$fetch['ok']) {
+            $resultOk = false;
+            $resultMessage = $fetch['error'];
+        } else {
+            // 2) Limpiar HTML a texto
+            $cvText = html_to_plain_text($fetch['content']);
+            $cvPreview = $cvText;
+
+            // 3) Preguntar a la IA
+            $ai = preguntar_sobre_cv($cvText, $questionUser, $API_URL, $API_KEY);
+            $resultOk = $ai['ok'];
+            if ($ai['ok']) {
+                $answerFromAI = $ai['answer'];
+                $resultMessage = 'Respuesta obtenida correctamente desde la IA.';
+            } else {
+                $resultMessage = $ai['error'];
+            }
+        }
+    }
+}
+?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Preguntar a la IA sobre un Curriculum</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            margin: 0;
+            padding: 2rem;
+            background: #f3f4f6;
+            color: #111827;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .card {
+            background: #ffffff;
+            border-radius: 0.75rem;
+            border: 1px solid #e5e7eb;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        h1 {
+            font-size: 1.4rem;
+            margin-bottom: .5rem;
+        }
+        p {
+            margin-top: 0;
+            color: #4b5563;
+        }
+        label {
+            display: block;
+            font-size: .9rem;
+            margin-bottom: .25rem;
+            color: #374151;
+        }
+        input[type="text"],
+        textarea {
+            width: 100%;
+            border-radius: .5rem;
+            border: 1px solid #d1d5db;
+            padding: .5rem .7rem;
+            font-size: .9rem;
+            font-family: inherit;
+            box-sizing: border-box;
+        }
+        input[type="text"]:focus,
+        textarea:focus {
+            outline: none;
+            border-color: #2563eb;
+        }
+        button {
+            padding: .5rem 1rem;
+            border-radius: 999px;
+            border: 1px solid #2563eb;
+            background: #2563eb;
+            color: #ffffff;
+            font-size: .9rem;
+            font-weight: 500;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #1d4ed8;
+        }
+        .status {
+            margin-top: .75rem;
+            padding: .6rem .9rem;
+            border-radius: .6rem;
+            font-size: .85rem;
+        }
+        .status.ok {
+            background: #ecfdf3;
+            color: #15803d;
+            border: 1px solid #bbf7d0;
+        }
+        .status.error {
+            background: #fef2f2;
+            color: #b91c1c;
+            border: 1px solid #fecaca;
+        }
+        pre {
+            white-space: pre-wrap;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+            font-size: .85rem;
+            background: #f9fafb;
+            padding: .75rem;
+            border-radius: .5rem;
+            border: 1px solid #e5e7eb;
+            max-height: 300px;
+            overflow: auto;
+        }
+        .subtitle {
+            font-size: .85rem;
+            color: #6b7280;
+            margin-bottom: 1rem;
+        }
+        .field-group {
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="card">
+        <h1>Preguntar a la IA sobre un Curriculum</h1>
+        <p class="subtitle">
+            Introduce la URL del CV y una pregunta. El script descargará el CV, lo enviará a la IA junto con la pregunta
+            (por ejemplo: <strong>¿Dónde vive esta persona?</strong>) y mostrará la respuesta.
+        </p>
+
+        <form method="post">
+            <div class="field-group">
+                <label for="cv_url">URL del curriculum</label>
+                <input type="text" id="cv_url" name="cv_url"
+                       value="<?php echo htmlspecialchars($_POST['cv_url'] ?? $defaultUrl, ENT_QUOTES, 'UTF-8'); ?>"
+                       placeholder="https://...">
+            </div>
+
+            <div class="field-group">
+                <label for="question">Pregunta para la IA</label>
+                <input type="text" id="question" name="question"
+                       value="<?php echo htmlspecialchars($_POST['question'] ?? $defaultQuestion, ENT_QUOTES, 'UTF-8'); ?>"
+                       placeholder="¿Dónde vive esta persona?">
+            </div>
+
+            <button type="submit">Enviar a la IA</button>
+
+            <?php if ($resultMessage !== null): ?>
+                <div class="status <?php echo $resultOk ? 'ok' : 'error'; ?>">
+                    <?php echo htmlspecialchars($resultMessage, ENT_QUOTES, 'UTF-8'); ?>
+                </div>
+            <?php endif; ?>
+        </form>
+    </div>
+
+    <?php if ($answerFromAI !== null): ?>
+        <div class="card">
+            <h2>Respuesta de la IA</h2>
+            <pre><?php echo htmlspecialchars($answerFromAI, ENT_QUOTES, 'UTF-8'); ?></pre>
+        </div>
+    <?php endif; ?>
+
+    <?php if ($cvPreview !== null): ?>
+        <div class="card">
+            <h2>Texto del CV (previa)</h2>
+            <p class="subtitle">Texto plano extraído del HTML enviado a la IA (puede estar truncado).</p>
+            <pre><?php echo htmlspecialchars($cvPreview, ENT_QUOTES, 'UTF-8'); ?></pre>
+        </div>
+    <?php endif; ?>
+</div>
+</body>
+</html>
+```
+
+### mas preguntas
+<small>Creado: 2025-12-11 19:41</small>
+
+`002-mas preguntas.php`
+
+```
+<?php
+// cv_qa_tabla.php
+// Dado un URL de curriculum, pregunta a la IA por 5 cuestiones
+// y muestra las respuestas en una tabla (una sola fila).
+
+// === CONFIGURACIÓN DE LA API REMOTA ===
+$API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+$API_KEY = "TEST_API_KEY_JOCARSA_123";
+
+// -----------------------------------------------------------------------------
+// Descargar contenido de una URL
+// -----------------------------------------------------------------------------
+function fetch_url_content(string $url): array
+{
+    if (!filter_var($url, FILTER_VALIDATE_URL)) {
+        return ['ok' => false, 'error' => 'URL no válida.', 'content' => ''];
+    }
+
+    $ch = curl_init($url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+    curl_setopt($ch, CURLOPT_USERAGENT, 'JOCARSA-CV-Client/1.0');
+    curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10);
+    curl_setopt($ch, CURLOPT_TIMEOUT, 20);
+
+    $html = curl_exec($ch);
+
+    if ($html === false) {
+        $err = curl_error($ch);
+        curl_close($ch);
+        return ['ok' => false, 'error' => "Error al descargar la URL: $err", 'content' => ''];
+    }
+
+    $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+
+    if ($status < 200 || $status >= 300) {
+        return ['ok' => false, 'error' => "La URL devolvió HTTP $status.", 'content' => ''];
+    }
+
+    return ['ok' => true, 'error' => '', 'content' => $html];
+}
+
+// -----------------------------------------------------------------------------
+// Limpiar HTML → texto plano
+// -----------------------------------------------------------------------------
+function html_to_plain_text(string $html): string
+{
+    $html = preg_replace('#<(script|style)[^>]*>.*?</\1>#si', ' ', $html);
+    $text = strip_tags($html);
+    $text = html_entity_decode($text, ENT_QUOTES | ENT_HTML5, 'UTF-8');
+    $text = preg_replace("/\r\n|\r/", "\n", $text);
+    $text = preg_replace('/[ \t]+/', ' ', $text);
+    $text = preg_replace('/\n{3,}/', "\n\n", $text);
+    $text = trim($text);
+
+    $maxLen = 20000;
+    if (mb_strlen($text, 'UTF-8') > $maxLen) {
+        $text = mb_substr($text, 0, $maxLen, 'UTF-8') . "\n\n[Texto truncado por longitud máxima]";
+    }
+
+    return $text;
+}
+
+// -----------------------------------------------------------------------------
+// Llamar a la IA para que devuelva un JSON con las 5 respuestas
+// -----------------------------------------------------------------------------
+function analizar_cv(string $cvText, string $API_URL, string $API_KEY): array
+{
+    if ($cvText === '') {
+        return ['ok' => false, 'error' => 'El CV aparece vacío tras la descarga/limpieza.', 'parsed' => null, 'raw' => ''];
+    }
+
+    // Prompt en español, pidiendo JSON estricto
+    $question =
+        "Eres un asistente que analiza un curriculum vitae escrito en español.\n\n" .
+        "Recibirás el texto del CV entre las marcas <CV> y </CV>.\n" .
+        "Debes responder a estas 5 preguntas:\n\n" .
+        "1) ¿Dónde vive esa persona?\n" .
+        "2) ¿Tiene carnet de conducir vehículos?\n" .
+        "3) ¿Tiene vehículo propio?\n" .
+        "4) ¿Está trabajando actualmente?\n" .
+        "5) ¿Cuál es su puesto de trabajo actual?\n\n" .
+        "INSTRUCCIONES DE CONTENIDO:\n" .
+        "- Usa SOLO la información que aparece en el CV.\n" .
+        "- Si una información NO aparece claramente en el CV, marca ese campo como \"no indicado\".\n" .
+        "- Si es claramente NO (por ejemplo, se indica que no tiene carnet o no está trabajando), marca ese campo como \"no\".\n" .
+        "- No inventes datos.\n\n" .
+        "FORMATO DE RESPUESTA (MUY IMPORTANTE):\n" .
+        "- Devuelve ÚNICAMENTE un JSON válido, sin texto antes ni después.\n" .
+        "- El JSON debe tener exactamente estas claves:\n" .
+        "{\n" .
+        "  \"donde_vive\": \"...\",                  // texto con la localidad / país o \"no indicado\"\n" .
+        "  \"tiene_carnet_conducir\": \"si/no/no indicado\",\n" .
+        "  \"tiene_vehiculo_propio\": \"si/no/no indicado\",\n" .
+        "  \"esta_trabajando_actualmente\": \"si/no/no indicado\",\n" .
+        "  \"puesto_trabajo_actual\": \"...\"        // texto con el puesto o \"no indicado\"\n" .
+        "}\n\n" .
+        "<CV>\n" .
+        $cvText .
+        "\n</CV>";
+
+    $ch = curl_init($API_URL);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+    $postFields = http_build_query(['question' => $question]);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $postFields);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        'X-API-Key: ' . $API_KEY,
+        'Content-Type: application/x-www-form-urlencoded'
+    ]);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+
+    $response = curl_exec($ch);
+
+    if ($response === false) {
+        $err = "Error al contactar con la API remota: " . curl_error($ch);
+        curl_close($ch);
+        return ['ok' => false, 'error' => $err, 'parsed' => null, 'raw' => ''];
+    }
+
+    $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+
+    if ($status !== 200) {
+        return ['ok' => false, 'error' => "La API remota devolvió HTTP $status. Respuesta: $response", 'parsed' => null, 'raw' => ''];
+    }
+
+    $data = json_decode($response, true);
+    if (json_last_error() !== JSON_ERROR_NONE) {
+        return ['ok' => false, 'error' => "Error al decodificar JSON externo: " . json_last_error_msg() . ". Respuesta: $response", 'parsed' => null, 'raw' => ''];
+    }
+
+    if (!isset($data['answer']) || !is_string($data['answer'])) {
+        return ['ok' => false, 'error' => "La respuesta de la API no contiene el campo 'answer'. Respuesta: $response", 'parsed' => null, 'raw' => ''];
+    }
+
+    $rawAnswer = trim($data['answer']);
+
+    // Intentar extraer solo el JSON (por si el modelo añade algo)
+    $jsonString = $rawAnswer;
+    $start = strpos($jsonString, '{');
+    $end   = strrpos($jsonString, '}');
+    if ($start !== false && $end !== false && $end > $start) {
+        $jsonString = substr($jsonString, $start, $end - $start + 1);
+    }
+    $jsonString = trim($jsonString);
+
+    $parsed = json_decode($jsonString, true);
+    if (json_last_error() !== JSON_ERROR_NONE || !is_array($parsed)) {
+        return [
+            'ok'     => false,
+            'error'  => "Error al decodificar el JSON interno devuelto por la IA: " . json_last_error_msg(),
+            'parsed' => null,
+            'raw'    => $rawAnswer
+        ];
+    }
+
+    return ['ok' => true, 'error' => '', 'parsed' => $parsed, 'raw' => $rawAnswer];
+}
+
+// -----------------------------------------------------------------------------
+// Decorar valores según reglas de globos
+// -----------------------------------------------------------------------------
+function decorar_valor(string $valor): string
+{
+    $trim = trim($valor);
+    $norm = mb_strtolower($trim, 'UTF-8');
+
+    if ($norm === 'no indicado' || $norm === '') {
+        // globo amarillo (aprox.)
+        return 'no indicado 🟡';
+    }
+    if ($norm === 'no') {
+        // globo rojo
+        return 'no 🎈';
+    }
+    return $trim; // positivo o texto con información
+}
+
+// -----------------------------------------------------------------------------
+// Lógica principal
+// -----------------------------------------------------------------------------
+$defaultUrl = "https://kebouriman6-glitch.github.io/Curriculum/";
+
+$resultMessage = null;
+$resultOk = null;
+$parsedAnswers = null;
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $url = isset($_POST['cv_url']) ? trim($_POST['cv_url']) : '';
+
+    if ($url === '') {
+        $resultOk = false;
+        $resultMessage = 'La URL del curriculum es obligatoria.';
+    } else {
+        // 1) Descargar CV
+        $fetch = fetch_url_content($url);
+        if (!$fetch['ok']) {
+            $resultOk = false;
+            $resultMessage = $fetch['error'];
+        } else {
+            // 2) Limpiar a texto
+            $cvText = html_to_plain_text($fetch['content']);
+
+            // 3) Analizar con IA
+            $ai = analizar_cv($cvText, $API_URL, $API_KEY);
+            $resultOk = $ai['ok'];
+            if ($ai['ok']) {
+                $parsedAnswers = $ai['parsed'];
+                $resultMessage = 'Análisis realizado correctamente por la IA.';
+            } else {
+                $resultMessage = $ai['error'];
+            }
+        }
+    }
+}
+?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Análisis de Curriculum con IA</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            margin: 0;
+            padding: 2rem;
+            background: #f3f4f6;
+            color: #111827;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .card {
+            background: #ffffff;
+            border-radius: 0.75rem;
+            border: 1px solid #e5e7eb;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        h1 {
+            font-size: 1.4rem;
+            margin-bottom: .5rem;
+        }
+        p {
+            margin-top: 0;
+            color: #4b5563;
+        }
+        label {
+            display: block;
+            font-size: .9rem;
+            margin-bottom: .25rem;
+            color: #374151;
+        }
+        input[type="text"] {
+            width: 100%;
+            border-radius: .5rem;
+            border: 1px solid #d1d5db;
+            padding: .5rem .7rem;
+            font-size: .9rem;
+            font-family: inherit;
+            box-sizing: border-box;
+        }
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #2563eb;
+        }
+        button {
+            padding: .5rem 1rem;
+            border-radius: 999px;
+            border: 1px solid #2563eb;
+            background: #2563eb;
+            color: #ffffff;
+            font-size: .9rem;
+            font-weight: 500;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #1d4ed8;
+        }
+        .status {
+            margin-top: .75rem;
+            padding: .6rem .9rem;
+            border-radius: .6rem;
+            font-size: .85rem;
+        }
+        .status.ok {
+            background: #ecfdf3;
+            color: #15803d;
+            border: 1px solid #bbf7d0;
+        }
+        .status.error {
+            background: #fef2f2;
+            color: #b91c1c;
+            border: 1px solid #fecaca;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: .9rem;
+        }
+        th, td {
+            border: 1px solid #e5e7eb;
+            padding: .6rem .5rem;
+            text-align: left;
+            vertical-align: top;
+        }
+        th {
+            background: #f9fafb;
+            font-weight: 600;
+        }
+        .subtitle {
+            font-size: .85rem;
+            color: #6b7280;
+            margin-bottom: 1rem;
+        }
+        .badge {
+            display: inline-block;
+            padding: .2rem .6rem;
+            border-radius: 999px;
+            font-size: .75rem;
+            background: #eef2ff;
+            color: #3730a3;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="card">
+        <h1>Análisis de un Curriculum con IA</h1>
+        <p class="subtitle">
+            El sistema revisa el curriculum y responde automáticamente a estas preguntas, mostrando una sola fila:
+            <br>1) ¿Dónde vive esa persona?
+            <br>2) ¿Tiene carnet de conducir vehículos?
+            <br>3) ¿Tiene vehículo propio?
+            <br>4) ¿Está trabajando actualmente?
+            <br>5) Puesto de trabajo actual.
+        </p>
+
+        <form method="post">
+            <label for="cv_url">URL del curriculum</label>
+            <input type="text" id="cv_url" name="cv_url"
+                   value="<?php echo htmlspecialchars($_POST['cv_url'] ?? $defaultUrl, ENT_QUOTES, 'UTF-8'); ?>"
+                   placeholder="https://...">
+
+            <div style="margin-top:1rem;">
+                <button type="submit">Analizar CV con IA</button>
+                <span class="badge">Versión 1 · 1 solo curriculum</span>
+            </div>
+
+            <?php if ($resultMessage !== null): ?>
+                <div class="status <?php echo $resultOk ? 'ok' : 'error'; ?>">
+                    <?php echo htmlspecialchars($resultMessage, ENT_QUOTES, 'UTF-8'); ?>
+                </div>
+            <?php endif; ?>
+        </form>
+    </div>
+
+    <?php if ($parsedAnswers !== null): ?>
+        <div class="card">
+            <h2>Resultado del análisis</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>1. ¿Dónde vive esa persona?</th>
+                        <th>2. ¿Tiene carnet de conducir vehículos?</th>
+                        <th>3. ¿Tiene vehículo propio?</th>
+                        <th>4. ¿Está trabajando actualmente?</th>
+                        <th>5. Puesto de trabajo actual</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <?php
+                                echo htmlspecialchars(
+                                    decorar_valor($parsedAnswers['donde_vive'] ?? 'no indicado'),
+                                    ENT_QUOTES,
+                                    'UTF-8'
+                                );
+                            ?>
+                        </td>
+                        <td>
+                            <?php
+                                echo htmlspecialchars(
+                                    decorar_valor($parsedAnswers['tiene_carnet_conducir'] ?? 'no indicado'),
+                                    ENT_QUOTES,
+                                    'UTF-8'
+                                );
+                            ?>
+                        </td>
+                        <td>
+                            <?php
+                                echo htmlspecialchars(
+                                    decorar_valor($parsedAnswers['tiene_vehiculo_propio'] ?? 'no indicado'),
+                                    ENT_QUOTES,
+                                    'UTF-8'
+                                );
+                            ?>
+                        </td>
+                        <td>
+                            <?php
+                                echo htmlspecialchars(
+                                    decorar_valor($parsedAnswers['esta_trabajando_actualmente'] ?? 'no indicado'),
+                                    ENT_QUOTES,
+                                    'UTF-8'
+                                );
+                            ?>
+                        </td>
+                        <td>
+                            <?php
+                                echo htmlspecialchars(
+                                    decorar_valor($parsedAnswers['puesto_trabajo_actual'] ?? 'no indicado'),
+                                    ENT_QUOTES,
+                                    'UTF-8'
+                                );
+                            ?>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    <?php endif; ?>
+</div>
+</body>
+</html>
+```
+
+### tabla con json de lavender
+<small>Creado: 2025-12-11 19:52</small>
+
+`003-tabla con json de lavender.php`
+
+```
+<?php
+// cv_lavender_qa.php
+// 1) Busca estudiantes en Lavender por DNI.
+// 2) De cada resultado obtiene:
+//      - "Indica tu nombre completo"
+//      - "Indica la URL de tu CV"
+// 3) Para cada CV, llama a la IA para analizar 5 preguntas.
+// 4) Muestra una tabla con una fila por estudiante.
+
+// =======================
+// CONFIG: Lavender
+// =======================
+const LAVENDER_URL       = 'https://lavender.jocarsa.com/api_lavender.php';
+const LAVENDER_USER      = 'jocarsa';
+const LAVENDER_PASS      = 'jocarsa';
+const LAVENDER_FORM_HASH = '3a31ecc0cec268839ff95a1924409b67';
+
+// =======================
+// CONFIG: API IA CV
+// =======================
+$API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+$API_KEY = "TEST_API_KEY_JOCARSA_123";
+
+// -----------------------------------------------------------------------------
+//  Función helper: cURL POST JSON a Lavender (similar al _curl_json en Python)
+// -----------------------------------------------------------------------------
+function lavender_curl_json(string $payload): string
+{
+    $ch = curl_init(LAVENDER_URL);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        'Content-Type: application/json'
+    ]);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $payload);
+    curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10);
+    curl_setopt($ch, CURLOPT_TIMEOUT, 30);
+
+    $response = curl_exec($ch);
+    if ($response === false) {
+        error_log("[ERROR] Lavender curl failed: " . curl_error($ch));
+        curl_close($ch);
+        return "";
+    }
+    curl_close($ch);
+    return trim($response);
+}
+
+// -----------------------------------------------------------------------------
+//  Construir payload JSON para Lavender (similar a _payload en Python)
+// -----------------------------------------------------------------------------
+function lavender_payload(string $dni, string $key, bool $strict): string
+{
+    $payload = [
+        "username"         => LAVENDER_USER,
+        "password"         => LAVENDER_PASS,
+        "form_hash"        => LAVENDER_FORM_HASH,
+        "key"              => $key,
+        "value"            => $dni,
+        "case_insensitive" => true,
+        "strict"           => $strict
+    ];
+    return json_encode($payload, JSON_UNESCAPED_UNICODE);
+}
+
+// -----------------------------------------------------------------------------
+//  Implementación PHP de fetch_student_json(dni)
+//  Devuelve el JSON decodificado (array) de la primera búsqueda con count>0
+//  o el último JSON decodificado (para diagnóstico) o null si error grave.
+// -----------------------------------------------------------------------------
+function fetch_lavender_students_raw(string $dni): ?array
+{
+    $tries = [
+        ["Indica tu DNI", true],
+        ["Indica tu DNI", false],
+        ["DNI", false],
+        ["dni", false],
+    ];
+
+    $lastDecoded = null;
+
+    foreach ($tries as [$key, $strict]) {
+        $payload = lavender_payload($dni, $key, $strict);
+        $resp = lavender_curl_json($payload);
+        if ($resp === "") {
+            // Error de red; seguimos probando pero recordamos que puede fallar todo
+            $lastDecoded = null;
+            continue;
+        }
+
+        $decoded = json_decode($resp, true);
+        if (!is_array($decoded)) {
+            // Podría haber HTML en error u otro formato; seguimos.
+            $lastDecoded = null;
+            continue;
+        }
+        $lastDecoded = $decoded;
+
+        if (isset($decoded['count']) && (int)$decoded['count'] > 0) {
+            return $decoded; // primera con count>0
+        }
+    }
+
+    // Ninguna con count>0: devolvemos la última respuesta decodificada (puede contener info vacía)
+    return $lastDecoded;
+}
+
+// -----------------------------------------------------------------------------
+//  Extraer lista de estudiantes (nombre completo + URL CV) a partir del JSON Lavender
+//  Estructura esperada: ['columns' => [...], 'rows' => [...]]
+// -----------------------------------------------------------------------------
+function extract_students_from_lavender(array $data): array
+{
+    $students = [];
+
+    if (empty($data['columns']) || empty($data['rows']) || !is_array($data['columns']) || !is_array($data['rows'])) {
+        return $students;
+    }
+
+    $columns = $data['columns'];
+    $rows    = $data['rows'];
+
+    // Buscar índices de las columnas
+    $idxNombre = null;
+    $idxCV     = null;
+
+    foreach ($columns as $i => $col) {
+        $label = '';
+        if (is_array($col)) {
+            $label = $col['label'] ?? ($col['name'] ?? ($col['title'] ?? ''));
+        } else {
+            $label = (string)$col;
+        }
+        $normalized = mb_strtolower(trim($label), 'UTF-8');
+
+        if ($normalized === mb_strtolower('Indica tu nombre completo', 'UTF-8')) {
+            $idxNombre = $i;
+        }
+        if ($normalized === mb_strtolower('Indica la URL de tu CV', 'UTF-8')) {
+            $idxCV = $i;
+        }
+    }
+
+    if ($idxNombre === null && $idxCV === null) {
+        return $students; // no se encontraron columnas relevantes
+    }
+
+    foreach ($rows as $row) {
+        $nombre = '';
+        $cvUrl  = '';
+
+        // Caso 1: fila como array indexado por posición
+        if (is_array($row) && array_keys($row) === range(0, count($row) - 1)) {
+            if ($idxNombre !== null && isset($row[$idxNombre])) {
+                $nombre = trim((string)$row[$idxNombre]);
+            }
+            if ($idxCV !== null && isset($row[$idxCV])) {
+                $cvUrl = trim((string)$row[$idxCV]);
+            }
+        } elseif (is_array($row)) {
+            // Caso 2 (fallback): fila asociativa, intentamos buscar claves por nombre de columna
+            foreach ($row as $k => $v) {
+                $kNorm = mb_strtolower(trim((string)$k), 'UTF-8');
+                if ($kNorm === mb_strtolower('Indica tu nombre completo', 'UTF-8')) {
+                    $nombre = trim((string)$v);
+                }
+                if ($kNorm === mb_strtolower('Indica la URL de tu CV', 'UTF-8')) {
+                    $cvUrl = trim((string)$v);
+                }
+            }
+        }
+
+        if ($nombre !== '' || $cvUrl !== '') {
+            $students[] = [
+                'nombre' => $nombre,
+                'cv_url' => $cvUrl,
+            ];
+        }
+    }
+
+    return $students;
+}
+
+// -----------------------------------------------------------------------------
+//  Descarga contenido de una URL (CV) con cURL
+// -----------------------------------------------------------------------------
+function fetch_url_content(string $url): array
+{
+    if (!filter_var($url, FILTER_VALIDATE_URL)) {
+        return ['ok' => false, 'error' => 'URL no válida.', 'content' => ''];
+    }
+
+    $ch = curl_init($url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+    curl_setopt($ch, CURLOPT_USERAGENT, 'JOCARSA-CV-Client/1.0');
+    curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10);
+    curl_setopt($ch, CURLOPT_TIMEOUT, 20);
+
+    $html = curl_exec($ch);
+
+    if ($html === false) {
+        $err = curl_error($ch);
+        curl_close($ch);
+        return ['ok' => false, 'error' => "Error al descargar la URL del CV: $err", 'content' => ''];
+    }
+
+    $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+
+    if ($status < 200 || $status >= 300) {
+        return ['ok' => false, 'error' => "La URL del CV devolvió HTTP $status.", 'content' => ''];
+    }
+
+    return ['ok' => true, 'error' => '', 'content' => $html];
+}
+
+// -----------------------------------------------------------------------------
+//  Limpiar HTML → texto plano
+// -----------------------------------------------------------------------------
+function html_to_plain_text(string $html): string
+{
+    $html = preg_replace('#<(script|style)[^>]*>.*?</\1>#si', ' ', $html);
+    $text = strip_tags($html);
+    $text = html_entity_decode($text, ENT_QUOTES | ENT_HTML5, 'UTF-8');
+    $text = preg_replace("/\r\n|\r/", "\n", $text);
+    $text = preg_replace('/[ \t]+/', ' ', $text);
+    $text = preg_replace('/\n{3,}/', "\n\n", $text);
+    $text = trim($text);
+
+    $maxLen = 20000;
+    if (mb_strlen($text, 'UTF-8') > $maxLen) {
+        $text = mb_substr($text, 0, $maxLen, 'UTF-8') . "\n\n[Texto truncado por longitud máxima]";
+    }
+
+    return $text;
+}
+
+// -----------------------------------------------------------------------------
+//  Llamar a la IA para que devuelva un JSON con las 5 respuestas
+// -----------------------------------------------------------------------------
+function analizar_cv(string $cvText, string $API_URL, string $API_KEY): array
+{
+    if ($cvText === '') {
+        return ['ok' => false, 'error' => 'El CV aparece vacío tras la descarga/limpieza.', 'parsed' => null, 'raw' => ''];
+    }
+
+    $question =
+        "Eres un asistente que analiza un curriculum vitae escrito en español.\n\n" .
+        "Recibirás el texto del CV entre las marcas <CV> y </CV>.\n" .
+        "Debes responder a estas 5 preguntas:\n\n" .
+        "1) ¿Dónde vive esa persona?\n" .
+        "2) ¿Tiene carnet de conducir vehículos?\n" .
+        "3) ¿Tiene vehículo propio?\n" .
+        "4) ¿Está trabajando actualmente?\n" .
+        "5) ¿Cuál es su puesto de trabajo actual?\n\n" .
+        "INSTRUCCIONES DE CONTENIDO:\n" .
+        "- Usa SOLO la información que aparece en el CV.\n" .
+        "- Si una información NO aparece claramente en el CV, marca ese campo como \"no indicado\".\n" .
+        "- Si es claramente NO (por ejemplo, se indica que no tiene carnet o no está trabajando), marca ese campo como \"no\".\n" .
+        "- No inventes datos.\n\n" .
+        "FORMATO DE RESPUESTA (MUY IMPORTANTE):\n" .
+        "- Devuelve ÚNICAMENTE un JSON válido, sin texto antes ni después.\n" .
+        "- El JSON debe tener exactamente estas claves:\n" .
+        "{\n" .
+        "  \"donde_vive\": \"...\",                  // texto con la localidad / país o \"no indicado\"\n" .
+        "  \"tiene_carnet_conducir\": \"si/no/no indicado\",\n" .
+        "  \"tiene_vehiculo_propio\": \"si/no/no indicado\",\n" .
+        "  \"esta_trabajando_actualmente\": \"si/no/no indicado\",\n" .
+        "  \"puesto_trabajo_actual\": \"...\"        // texto con el puesto o \"no indicado\"\n" .
+        "}\n\n" .
+        "<CV>\n" .
+        $cvText .
+        "\n</CV>";
+
+    $ch = curl_init($API_URL);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+    $postFields = http_build_query(['question' => $question]);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $postFields);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        'X-API-Key: ' . $API_KEY,
+        'Content-Type: application/x-www-form-urlencoded'
+    ]);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+
+    $response = curl_exec($ch);
+
+    if ($response === false) {
+        $err = "Error al contactar con la API remota: " . curl_error($ch);
+        curl_close($ch);
+        return ['ok' => false, 'error' => $err, 'parsed' => null, 'raw' => ''];
+    }
+
+    $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+
+    if ($status !== 200) {
+        return ['ok' => false, 'error' => "La API remota devolvió HTTP $status. Respuesta: $response", 'parsed' => null, 'raw' => ''];
+    }
+
+    $data = json_decode($response, true);
+    if (json_last_error() !== JSON_ERROR_NONE) {
+        return ['ok' => false, 'error' => "Error al decodificar JSON externo: " . json_last_error_msg() . ". Respuesta: $response", 'parsed' => null, 'raw' => ''];
+    }
+
+    if (!isset($data['answer']) || !is_string($data['answer'])) {
+        return ['ok' => false, 'error' => "La respuesta de la API no contiene el campo 'answer'. Respuesta: $response", 'parsed' => null, 'raw' => ''];
+    }
+
+    $rawAnswer = trim($data['answer']);
+
+    // Extraer solo el JSON si hubiera texto alrededor
+    $jsonString = $rawAnswer;
+    $start = strpos($jsonString, '{');
+    $end   = strrpos($jsonString, '}');
+    if ($start !== false && $end !== false && $end > $start) {
+        $jsonString = substr($jsonString, $start, $end - $start + 1);
+    }
+    $jsonString = trim($jsonString);
+
+    $parsed = json_decode($jsonString, true);
+    if (json_last_error() !== JSON_ERROR_NONE || !is_array($parsed)) {
+        return [
+            'ok'     => false,
+            'error'  => "Error al decodificar el JSON interno devuelto por la IA: " . json_last_error_msg(),
+            'parsed' => null,
+            'raw'    => $rawAnswer
+        ];
+    }
+
+    return ['ok' => true, 'error' => '', 'parsed' => $parsed, 'raw' => $rawAnswer];
+}
+
+// -----------------------------------------------------------------------------
+//  Decorar valores con globos según reglas
+// -----------------------------------------------------------------------------
+function decorar_valor(string $valor): string
+{
+    $trim = trim($valor);
+    $norm = mb_strtolower($trim, 'UTF-8');
+
+    if ($norm === 'no indicado' || $norm === '') {
+        return 'no indicado 🟡';
+    }
+    if ($norm === 'no') {
+        return 'no 🎈';
+    }
+    return $trim;
+}
+
+// -----------------------------------------------------------------------------
+//  Lógica principal: formulario DNI → Lavender → CV → IA → tabla
+// -----------------------------------------------------------------------------
+$resultMessage  = null;
+$resultOk       = null;
+$rowsForTable   = []; // cada elemento: [nombre, cv_url, respuestas_array]
+$lastLavenderRaw = null;
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $dni = isset($_POST['dni']) ? trim($_POST['dni']) : '';
+
+    if ($dni === '') {
+        $resultOk = false;
+        $resultMessage = 'El DNI es obligatorio.';
+    } else {
+        // 1) Buscar en Lavender
+        $lavenderData = fetch_lavender_students_raw($dni);
+        if ($lavenderData === null) {
+            $resultOk = false;
+            $resultMessage = 'No se recibió una respuesta válida de Lavender.';
+        } else {
+            $lastLavenderRaw = $lavenderData;
+
+            if (empty($lavenderData['count']) || (int)$lavenderData['count'] === 0) {
+                $resultOk = false;
+                $resultMessage = 'Lavender no devolvió estudiantes para ese DNI.';
+            } else {
+                // 2) Extraer estudiantes
+                $students = extract_students_from_lavender($lavenderData);
+                if (empty($students)) {
+                    $resultOk = false;
+                    $resultMessage = 'Se encontraron registros en Lavender, pero no las columnas de nombre/URL CV.';
+                } else {
+                    $resultOk = true;
+                    $resultMessage = 'Estudiantes encontrados en Lavender y análisis en proceso.';
+
+                    // 3) Para cada estudiante, descargar CV y analizarlo con IA
+                    foreach ($students as $st) {
+                        $nombre = $st['nombre'] ?: '(sin nombre)';
+                        $cvUrl  = $st['cv_url'] ?: '';
+
+                        $respuestas = [
+                            'donde_vive'                => 'no indicado',
+                            'tiene_carnet_conducir'     => 'no indicado',
+                            'tiene_vehiculo_propio'     => 'no indicado',
+                            'esta_trabajando_actualmente'=> 'no indicado',
+                            'puesto_trabajo_actual'     => 'no indicado',
+                            '_error'                    => null,
+                        ];
+
+                        if ($cvUrl !== '') {
+                            $fetchCV = fetch_url_content($cvUrl);
+                            if ($fetchCV['ok']) {
+                                $cvText = html_to_plain_text($fetchCV['content']);
+                                $ai     = analizar_cv($cvText, $API_URL, $API_KEY);
+                                if ($ai['ok'] && is_array($ai['parsed'])) {
+                                    $p = $ai['parsed'];
+                                    $respuestas['donde_vive']                 = $p['donde_vive'] ?? 'no indicado';
+                                    $respuestas['tiene_carnet_conducir']      = $p['tiene_carnet_conducir'] ?? 'no indicado';
+                                    $respuestas['tiene_vehiculo_propio']      = $p['tiene_vehiculo_propio'] ?? 'no indicado';
+                                    $respuestas['esta_trabajando_actualmente']= $p['esta_trabajando_actualmente'] ?? 'no indicado';
+                                    $respuestas['puesto_trabajo_actual']      = $p['puesto_trabajo_actual'] ?? 'no indicado';
+                                } else {
+                                    $respuestas['_error'] = $ai['error'] ?? 'Error en análisis IA.';
+                                }
+                            } else {
+                                $respuestas['_error'] = $fetchCV['error'];
+                            }
+                        } else {
+                            $respuestas['_error'] = 'No se ha indicado URL de CV en Lavender.';
+                        }
+
+                        $rowsForTable[] = [
+                            'nombre'     => $nombre,
+                            'cv_url'     => $cvUrl,
+                            'respuestas' => $respuestas,
+                        ];
+                    }
+                }
+            }
+        }
+    }
+}
+?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Análisis de CV desde Lavender</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            margin: 0;
+            padding: 2rem;
+            background: #f3f4f6;
+            color: #111827;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        .card {
+            background: #ffffff;
+            border-radius: 0.75rem;
+            border: 1px solid #e5e7eb;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        h1 {
+            font-size: 1.4rem;
+            margin-bottom: .5rem;
+        }
+        p {
+            margin-top: 0;
+            color: #4b5563;
+        }
+        label {
+            display: block;
+            font-size: .9rem;
+            margin-bottom: .25rem;
+            color: #374151;
+        }
+        input[type="text"] {
+            width: 100%;
+            border-radius: .5rem;
+            border: 1px solid #d1d5db;
+            padding: .5rem .7rem;
+            font-size: .9rem;
+            font-family: inherit;
+            box-sizing: border-box;
+        }
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #2563eb;
+        }
+        button {
+            padding: .5rem 1rem;
+            border-radius: 999px;
+            border: 1px solid #2563eb;
+            background: #2563eb;
+            color: #ffffff;
+            font-size: .9rem;
+            font-weight: 500;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #1d4ed8;
+        }
+        .status {
+            margin-top: .75rem;
+            padding: .6rem .9rem;
+            border-radius: .6rem;
+            font-size: .85rem;
+        }
+        .status.ok {
+            background: #ecfdf3;
+            color: #15803d;
+            border: 1px solid #bbf7d0;
+        }
+        .status.error {
+            background: #fef2f2;
+            color: #b91c1c;
+            border: 1px solid #fecaca;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: .87rem;
+        }
+        th, td {
+            border: 1px solid #e5e7eb;
+            padding: .6rem .5rem;
+            text-align: left;
+            vertical-align: top;
+        }
+        th {
+            background: #f9fafb;
+            font-weight: 600;
+        }
+        .subtitle {
+            font-size: .85rem;
+            color: #6b7280;
+            margin-bottom: 1rem;
+        }
+        .badge {
+            display: inline-block;
+            padding: .2rem .6rem;
+            border-radius: 999px;
+            font-size: .75rem;
+            background: #eef2ff;
+            color: #3730a3;
+        }
+        .error-cell {
+            color: #b91c1c;
+            font-size: .8rem;
+            margin-top: .25rem;
+        }
+        a {
+            color: #2563eb;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="card">
+        <h1>Análisis de CV desde Lavender</h1>
+        <p class="subtitle">
+            Introduce un DNI. Se consultará Lavender, se obtendrán los alumnos con su nombre y URL de CV,
+            y se analizarán los CV con IA para responder a 5 preguntas:
+            <br>1) ¿Dónde vive esa persona?
+            <br>2) ¿Tiene carnet de conducir vehículos?
+            <br>3) ¿Tiene vehículo propio?
+            <br>4) ¿Está trabajando actualmente?
+            <br>5) Puesto de trabajo actual.
+        </p>
+
+        <form method="post">
+            <label for="dni">DNI del estudiante</label>
+            <input type="text" id="dni" name="dni"
+                   value="<?php echo htmlspecialchars($_POST['dni'] ?? '', ENT_QUOTES, 'UTF-8'); ?>"
+                   placeholder="Z3493109N">
+
+            <div style="margin-top:1rem;">
+                <button type="submit">Buscar en Lavender y analizar CV</button>
+                <span class="badge">Lavender + IA · múltiple por DNI</span>
+            </div>
+
+            <?php if ($resultMessage !== null): ?>
+                <div class="status <?php echo $resultOk ? 'ok' : 'error'; ?>">
+                    <?php echo htmlspecialchars($resultMessage, ENT_QUOTES, 'UTF-8'); ?>
+                </div>
+            <?php endif; ?>
+        </form>
+    </div>
+
+    <?php if (!empty($rowsForTable)): ?>
+        <div class="card">
+            <h2>Resultado del análisis</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre del estudiante</th>
+                        <th>URL CV</th>
+                        <th>1. ¿Dónde vive esa persona?</th>
+                        <th>2. ¿Tiene carnet de conducir vehículos?</th>
+                        <th>3. ¿Tiene vehículo propio?</th>
+                        <th>4. ¿Está trabajando actualmente?</th>
+                        <th>5. Puesto de trabajo actual</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <?php foreach ($rowsForTable as $row): ?>
+                    <?php $r = $row['respuestas']; ?>
+                    <tr>
+                        <td><?php echo htmlspecialchars($row['nombre'], ENT_QUOTES, 'UTF-8'); ?></td>
+                        <td>
+                            <?php if ($row['cv_url']): ?>
+                                <a href="<?php echo htmlspecialchars($row['cv_url'], ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener noreferrer">
+                                    <?php echo htmlspecialchars($row['cv_url'], ENT_QUOTES, 'UTF-8'); ?>
+                                </a>
+                            <?php else: ?>
+                                <span>no indicado 🟡</span>
+                            <?php endif; ?>
+                            <?php if (!empty($r['_error'])): ?>
+                                <div class="error-cell">
+                                    <?php echo htmlspecialchars($r['_error'], ENT_QUOTES, 'UTF-8'); ?>
+                                </div>
+                            <?php endif; ?>
+                        </td>
+                        <td><?php echo htmlspecialchars(decorar_valor($r['donde_vive'] ?? 'no indicado'), ENT_QUOTES, 'UTF-8'); ?></td>
+                        <td><?php echo htmlspecialchars(decorar_valor($r['tiene_carnet_conducir'] ?? 'no indicado'), ENT_QUOTES, 'UTF-8'); ?></td>
+                        <td><?php echo htmlspecialchars(decorar_valor($r['tiene_vehiculo_propio'] ?? 'no indicado'), ENT_QUOTES, 'UTF-8'); ?></td>
+                        <td><?php echo htmlspecialchars(decorar_valor($r['esta_trabajando_actualmente'] ?? 'no indicado'), ENT_QUOTES, 'UTF-8'); ?></td>
+                        <td><?php echo htmlspecialchars(decorar_valor($r['puesto_trabajo_actual'] ?? 'no indicado'), ENT_QUOTES, 'UTF-8'); ?></td>
+                    </tr>
+                <?php endforeach; ?>
+                </tbody>
+            </table>
+        </div>
+    <?php endif; ?>
+</div>
+</body>
+</html>
+```
+
+### tabla corregida
+<small>Creado: 2025-12-11 20:08</small>
+
+`004-tabla corregida.php`
+
+```
+<?php
+// cv_lavender_all.php
+// 1) Pide a Lavender TODAS las entradas de un formulario (por form_hash).
+// 2) Extrae nombre completo y URL del CV de cada fila.
+// 3) Descarga y analiza cada CV con tu API de IA (5 preguntas).
+// 4) Presenta una tabla con una fila por estudiante.
+
+// =======================
+// CONFIG: Lavender
+// =======================
+const LAVENDER_URL       = 'https://lavender.jocarsa.com/api_lavender.php';
+const LAVENDER_USER      = 'jocarsa';
+const LAVENDER_PASS      = 'jocarsa';
+const LAVENDER_FORM_HASH = '3a31ecc0cec268839ff95a1924409b67';
+
+// =======================
+// CONFIG: API IA CV
+// =======================
+$API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+$API_KEY = "TEST_API_KEY_JOCARSA_123";
+
+// -----------------------------------------------------------------------------
+//  cURL POST JSON a Lavender
+// -----------------------------------------------------------------------------
+function lavender_curl_json(string $payload): string
+{
+    $ch = curl_init(LAVENDER_URL);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        'Content-Type: application/json'
+    ]);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $payload);
+    curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10);
+    curl_setopt($ch, CURLOPT_TIMEOUT, 60);
+
+    $response = curl_exec($ch);
+    if ($response === false) {
+        error_log("[ERROR] Lavender curl failed: " . curl_error($ch));
+        curl_close($ch);
+        return "";
+    }
+    curl_close($ch);
+    return trim($response);
+}
+
+// -----------------------------------------------------------------------------
+//  AHORA SÍ: obtener TODAS las entradas usando el mismo payload que tu curl
+// -----------------------------------------------------------------------------
+function fetch_lavender_all_entries(): ?array
+{
+    $payloadArr = [
+        "username"  => LAVENDER_USER,
+        "password"  => LAVENDER_PASS,
+        "form_hash" => LAVENDER_FORM_HASH,
+
+        // clave por la que filtramos (la misma que has probado en curl)
+        "key"       => "Indica la URL de tu CV",
+
+        // value vacío + mode=icontains => devuelve TODAS las filas que tengan ese campo
+        "value"     => "",
+        "mode"      => "icontains",
+        "single"    => false,
+    ];
+
+    $payload = json_encode($payloadArr, JSON_UNESCAPED_UNICODE);
+    $resp    = lavender_curl_json($payload);
+    if ($resp === "") {
+        return null;
+    }
+
+    $decoded = json_decode($resp, true);
+    if (!is_array($decoded)) {
+        return null;
+    }
+    return $decoded;
+}
+
+// -----------------------------------------------------------------------------
+//  Extraer lista de estudiantes (nombre completo + URL CV) del JSON de Lavender
+//  Estructura esperada: ['columns' => [...], 'rows' => [...]]
+// -----------------------------------------------------------------------------
+function extract_students_from_lavender(array $data): array
+{
+    $students = [];
+
+    if (empty($data['columns']) || empty($data['rows']) || !is_array($data['columns']) || !is_array($data['rows'])) {
+        return $students;
+    }
+
+    $columns = $data['columns'];
+    $rows    = $data['rows'];
+
+    $idxNombre = null;
+    $idxCV     = null;
+
+    // Detectar índice de columnas por label
+    foreach ($columns as $i => $col) {
+        $label = '';
+        if (is_array($col)) {
+            $label = $col['label'] ?? ($col['name'] ?? ($col['title'] ?? ''));
+        } else {
+            $label = (string)$col;
+        }
+        $normalized = mb_strtolower(trim($label), 'UTF-8');
+
+        if ($normalized === mb_strtolower('Indica tu nombre completo', 'UTF-8')) {
+            $idxNombre = $i;
+        }
+        if ($normalized === mb_strtolower('Indica la URL de tu CV', 'UTF-8')) {
+            $idxCV = $i;
+        }
+    }
+
+    foreach ($rows as $row) {
+        $nombre = '';
+        $cvUrl  = '';
+
+        // Caso array indexado
+        if (is_array($row) && array_keys($row) === range(0, count($row) - 1)) {
+            if ($idxNombre !== null && isset($row[$idxNombre])) {
+                $nombre = trim((string)$row[$idxNombre]);
+            }
+            if ($idxCV !== null && isset($row[$idxCV])) {
+                $cvUrl = trim((string)$row[$idxCV]);
+            }
+        } elseif (is_array($row)) {
+            // Caso asociativo
+            foreach ($row as $k => $v) {
+                $kNorm = mb_strtolower(trim((string)$k), 'UTF-8');
+                if ($kNorm === mb_strtolower('Indica tu nombre completo', 'UTF-8')) {
+                    $nombre = trim((string)$v);
+                }
+                if ($kNorm === mb_strtolower('Indica la URL de tu CV', 'UTF-8')) {
+                    $cvUrl = trim((string)$v);
+                }
+            }
+        }
+
+        if ($nombre !== '' || $cvUrl !== '') {
+            $students[] = [
+                'nombre' => $nombre,
+                'cv_url' => $cvUrl,
+            ];
+        }
+    }
+
+    return $students;
+}
+
+// -----------------------------------------------------------------------------
+//  Descarga contenido de una URL (CV)
+// -----------------------------------------------------------------------------
+function fetch_url_content(string $url): array
+{
+    if (!filter_var($url, FILTER_VALIDATE_URL)) {
+        return ['ok' => false, 'error' => 'URL no válida.', 'content' => ''];
+    }
+
+    $ch = curl_init($url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+    curl_setopt($ch, CURLOPT_USERAGENT, 'JOCARSA-CV-Client/1.0');
+    curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10);
+    curl_setopt($ch, CURLOPT_TIMEOUT, 30);
+
+    $html = curl_exec($ch);
+
+    if ($html === false) {
+        $err = curl_error($ch);
+        curl_close($ch);
+        return ['ok' => false, 'error' => "Error al descargar la URL del CV: $err", 'content' => ''];
+    }
+
+    $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+
+    if ($status < 200 || $status >= 300) {
+        return ['ok' => false, 'error' => "La URL del CV devolvió HTTP $status.", 'content' => ''];
+    }
+
+    return ['ok' => true, 'error' => '', 'content' => $html];
+}
+
+// -----------------------------------------------------------------------------
+//  Limpiar HTML → texto plano
+// -----------------------------------------------------------------------------
+function html_to_plain_text(string $html): string
+{
+    $html = preg_replace('#<(script|style)[^>]*>.*?</\1>#si', ' ', $html);
+    $text = strip_tags($html);
+    $text = html_entity_decode($text, ENT_QUOTES | ENT_HTML5, 'UTF-8');
+    $text = preg_replace("/\r\n|\r/", "\n", $text);
+    $text = preg_replace('/[ \t]+/', ' ', $text);
+    $text = preg_replace('/\n{3,}/', "\n\n", $text);
+    $text = trim($text);
+
+    $maxLen = 20000;
+    if (mb_strlen($text, 'UTF-8') > $maxLen) {
+        $text = mb_substr($text, 0, $maxLen, 'UTF-8') . "\n\n[Texto truncado por longitud máxima]";
+    }
+
+    return $text;
+}
+
+// -----------------------------------------------------------------------------
+//  Llamar a la IA para que devuelva un JSON con las 5 respuestas
+// -----------------------------------------------------------------------------
+function analizar_cv(string $cvText, string $API_URL, string $API_KEY): array
+{
+    if ($cvText === '') {
+        return ['ok' => false, 'error' => 'El CV aparece vacío tras la descarga/limpieza.', 'parsed' => null, 'raw' => ''];
+    }
+
+    $question =
+        "Eres un asistente que analiza un curriculum vitae escrito en español.\n\n" .
+        "Recibirás el texto del CV entre las marcas <CV> y </CV>.\n" .
+        "Debes responder a estas 5 preguntas:\n\n" .
+        "1) ¿Dónde vive esa persona?\n" .
+        "2) ¿Tiene carnet de conducir vehículos?\n" .
+        "3) ¿Tiene vehículo propio?\n" .
+        "4) ¿Está trabajando actualmente?\n" .
+        "5) ¿Cuál es su puesto de trabajo actual?\n\n" .
+        "INSTRUCCIONES DE CONTENIDO:\n" .
+        "- Usa SOLO la información que aparece en el CV.\n" .
+        "- Si una información NO aparece claramente en el CV, marca ese campo como \"no indicado\".\n" .
+        "- Si es claramente NO (por ejemplo, se indica que no tiene carnet o no está trabajando), marca ese campo como \"no\".\n" .
+        "- No inventes datos.\n\n" .
+        "FORMATO DE RESPUESTA (MUY IMPORTANTE):\n" .
+        "- Devuelve ÚNICAMENTE un JSON válido, sin texto antes ni después.\n" .
+        "- El JSON debe tener exactamente estas claves:\n" .
+        "{\n" .
+        "  \"donde_vive\": \"...\",                  // texto con la localidad / país o \"no indicado\"\n" .
+        "  \"tiene_carnet_conducir\": \"si/no/no indicado\",\n" .
+        "  \"tiene_vehiculo_propio\": \"si/no/no indicado\",\n" .
+        "  \"esta_trabajando_actualmente\": \"si/no/no indicado\",\n" .
+        "  \"puesto_trabajo_actual\": \"...\"        // texto con el puesto o \"no indicado\"\n" .
+        "}\n\n" .
+        "<CV>\n" .
+        $cvText .
+        "\n</CV>";
+
+    $ch = curl_init($API_URL);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+    $postFields = http_build_query(['question' => $question]);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $postFields);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        'X-API-Key: ' . $API_KEY,
+        'Content-Type: application/x-www-form-urlencoded'
+    ]);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+
+    $response = curl_exec($ch);
+
+    if ($response === false) {
+        $err = "Error al contactar con la API remota: " . curl_error($ch);
+        curl_close($ch);
+        return ['ok' => false, 'error' => $err, 'parsed' => null, 'raw' => ''];
+    }
+
+    $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+
+    if ($status !== 200) {
+        return ['ok' => false, 'error' => "La API remota devolvió HTTP $status. Respuesta: $response", 'parsed' => null, 'raw' => ''];
+    }
+
+    $data = json_decode($response, true);
+    if (json_last_error() !== JSON_ERROR_NONE) {
+        return ['ok' => false, 'error' => "Error al decodificar JSON externo: " . json_last_error_msg() . ". Respuesta: $response", 'parsed' => null, 'raw' => ''];
+    }
+
+    if (!isset($data['answer']) || !is_string($data['answer'])) {
+        return ['ok' => false, 'error' => "La respuesta de la API no contiene el campo 'answer'. Respuesta: $response", 'parsed' => null, 'raw' => ''];
+    }
+
+    $rawAnswer = trim($data['answer']);
+
+    // Extraer solo el JSON si hubiera texto alrededor
+    $jsonString = $rawAnswer;
+    $start = strpos($jsonString, '{');
+    $end   = strrpos($jsonString, '}');
+    if ($start !== false && $end !== false && $end > $start) {
+        $jsonString = substr($jsonString, $start, $end - $start + 1);
+    }
+    $jsonString = trim($jsonString);
+
+    $parsed = json_decode($jsonString, true);
+    if (json_last_error() !== JSON_ERROR_NONE || !is_array($parsed)) {
+        return [
+            'ok'     => false,
+            'error'  => "Error al decodificar el JSON interno devuelto por la IA: " . json_last_error_msg(),
+            'parsed' => null,
+            'raw'    => $rawAnswer
+        ];
+    }
+
+    return ['ok' => true, 'error' => '', 'parsed' => $parsed, 'raw' => $rawAnswer];
+}
+
+// -----------------------------------------------------------------------------
+//  Decorar valores con globos
+// -----------------------------------------------------------------------------
+function decorar_valor(string $valor): string
+{
+    $trim = trim($valor);
+    $norm = mb_strtolower($trim, 'UTF-8');
+
+    if ($norm === 'no indicado' || $norm === '') {
+        return 'no indicado 🟡';
+    }
+    if ($norm === 'no') {
+        return 'no 🎈';
+    }
+    return $trim;
+}
+
+// -----------------------------------------------------------------------------
+//  Lógica principal: no se pide DNI → se cargan TODAS las entradas
+// -----------------------------------------------------------------------------
+$resultMessage = null;
+$resultOk      = null;
+$rowsForTable  = [];
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['analizar']) && $_POST['analizar'] === '1') {
+
+    $lavenderData = fetch_lavender_all_entries();
+    if ($lavenderData === null) {
+        $resultOk = false;
+        $resultMessage = 'No se pudo obtener datos de Lavender (revisa payload o credenciales).';
+    } else {
+        if (empty($lavenderData['rows'])) {
+            $resultOk = false;
+            $resultMessage = 'Lavender ha devuelto 0 filas para ese formulario.';
+        } else {
+            $students = extract_students_from_lavender($lavenderData);
+            if (empty($students)) {
+                $resultOk = false;
+                $resultMessage = 'Se encontraron filas en Lavender, pero no campos de nombre / URL de CV.';
+            } else {
+                $resultOk = true;
+                $resultMessage = 'Entradas obtenidas de Lavender. Analizando CVs con IA…';
+
+                foreach ($students as $st) {
+                    $nombre = $st['nombre'] ?: '(sin nombre)';
+                    $cvUrl  = $st['cv_url'] ?: '';
+
+                    $respuestas = [
+                        'donde_vive'                 => 'no indicado',
+                        'tiene_carnet_conducir'      => 'no indicado',
+                        'tiene_vehiculo_propio'      => 'no indicado',
+                        'esta_trabajando_actualmente'=> 'no indicado',
+                        'puesto_trabajo_actual'      => 'no indicado',
+                        '_error'                     => null,
+                    ];
+
+                    if ($cvUrl !== '') {
+                        $fetchCV = fetch_url_content($cvUrl);
+                        if ($fetchCV['ok']) {
+                            $cvText = html_to_plain_text($fetchCV['content']);
+                            $ai     = analizar_cv($cvText, $API_URL, $API_KEY);
+                            if ($ai['ok'] && is_array($ai['parsed'])) {
+                                $p = $ai['parsed'];
+                                $respuestas['donde_vive']                  = $p['donde_vive'] ?? 'no indicado';
+                                $respuestas['tiene_carnet_conducir']       = $p['tiene_carnet_conducir'] ?? 'no indicado';
+                                $respuestas['tiene_vehiculo_propio']       = $p['tiene_vehiculo_propio'] ?? 'no indicado';
+                                $respuestas['esta_trabajando_actualmente'] = $p['esta_trabajando_actualmente'] ?? 'no indicado';
+                                $respuestas['puesto_trabajo_actual']       = $p['puesto_trabajo_actual'] ?? 'no indicado';
+                            } else {
+                                $respuestas['_error'] = $ai['error'] ?? 'Error en análisis IA.';
+                            }
+                        } else {
+                            $respuestas['_error'] = $fetchCV['error'];
+                        }
+                    } else {
+                        $respuestas['_error'] = 'No se ha indicado URL de CV en Lavender.';
+                    }
+
+                    $rowsForTable[] = [
+                        'nombre'     => $nombre,
+                        'cv_url'     => $cvUrl,
+                        'respuestas' => $respuestas,
+                    ];
+                }
+            }
+        }
+    }
+}
+?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Análisis masivo de CV desde Lavender</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            margin: 0;
+            padding: 2rem;
+            background: #f3f4f6;
+            color: #111827;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        .card {
+            background: #ffffff;
+            border-radius: 0.75rem;
+            border: 1px solid #e5e7eb;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        h1 {
+            font-size: 1.4rem;
+            margin-bottom: .5rem;
+        }
+        p {
+            margin-top: 0;
+            color: #4b5563;
+        }
+        button {
+            padding: .5rem 1rem;
+            border-radius: 999px;
+            border: 1px solid #2563eb;
+            background: #2563eb;
+            color: #ffffff;
+            font-size: .9rem;
+            font-weight: 500;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #1d4ed8;
+        }
+        .status {
+            margin-top: .75rem;
+            padding: .6rem .9rem;
+            border-radius: .6rem;
+            font-size: .85rem;
+        }
+        .status.ok {
+            background: #ecfdf3;
+            color: #15803d;
+            border: 1px solid #bbf7d0;
+        }
+        .status.error {
+            background: #fef2f2;
+            color: #b91c1c;
+            border: 1px solid #fecaca;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: .87rem;
+        }
+        th, td {
+            border: 1px solid #e5e7eb;
+            padding: .6rem .5rem;
+            text-align: left;
+            vertical-align: top;
+        }
+        th {
+            background: #f9fafb;
+            font-weight: 600;
+        }
+        .subtitle {
+            font-size: .85rem;
+            color: #6b7280;
+            margin-bottom: 1rem;
+        }
+        .badge {
+            display: inline-block;
+            padding: .2rem .6rem;
+            border-radius: 999px;
+            font-size: .75rem;
+            background: #eef2ff;
+            color: #3730a3;
+        }
+        .error-cell {
+            color: #b91c1c;
+            font-size: .8rem;
+            margin-top: .25rem;
+        }
+        a {
+            color: #2563eb;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="card">
+        <h1>Análisis masivo de CV desde Lavender</h1>
+        <p class="subtitle">
+            Se obtienen todas las entradas del formulario con hash
+            <code><?php echo htmlspecialchars(LAVENDER_FORM_HASH, ENT_QUOTES, 'UTF-8'); ?></code>,
+            se extrae el nombre y la URL del CV, y se analiza cada CV con IA para responder:
+            1) ¿Dónde vive esa persona?
+            2) ¿Tiene carnet de conducir?
+            3) ¿Tiene vehículo propio?
+            4) ¿Está trabajando actualmente?
+            5) Puesto de trabajo actual.
+        </p>
+
+        <form method="post">
+            <input type="hidden" name="analizar" value="1">
+            <button type="submit">Analizar todos los CV de este formulario</button>
+            <span class="badge">Lavender · formulario completo</span>
+
+            <?php if ($resultMessage !== null): ?>
+                <div class="status <?php echo $resultOk ? 'ok' : 'error'; ?>">
+                    <?php echo htmlspecialchars($resultMessage, ENT_QUOTES, 'UTF-8'); ?>
+                </div>
+            <?php endif; ?>
+        </form>
+    </div>
+
+    <?php if (!empty($rowsForTable)): ?>
+        <div class="card">
+            <h2>Resultado del análisis</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre del estudiante</th>
+                        <th>URL CV</th>
+                        <th>1. ¿Dónde vive esa persona?</th>
+                        <th>2. ¿Tiene carnet de conducir vehículos?</th>
+                        <th>3. ¿Tiene vehículo propio?</th>
+                        <th>4. ¿Está trabajando actualmente?</th>
+                        <th>5. Puesto de trabajo actual</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <?php foreach ($rowsForTable as $row): ?>
+                    <?php $r = $row['respuestas']; ?>
+                    <tr>
+                        <td><?php echo htmlspecialchars($row['nombre'], ENT_QUOTES, 'UTF-8'); ?></td>
+                        <td>
+                            <?php if ($row['cv_url']): ?>
+                                <a href="<?php echo htmlspecialchars($row['cv_url'], ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener noreferrer">
+                                    <?php echo htmlspecialchars($row['cv_url'], ENT_QUOTES, 'UTF-8'); ?>
+                                </a>
+                            <?php else: ?>
+                                <span>no indicado 🟡</span>
+                            <?php endif; ?>
+                            <?php if (!empty($r['_error'])): ?>
+                                <div class="error-cell">
+                                    <?php echo htmlspecialchars($r['_error'], ENT_QUOTES, 'UTF-8'); ?>
+                                </div>
+                            <?php endif; ?>
+                        </td>
+                        <td><?php echo htmlspecialchars(decorar_valor($r['donde_vive'] ?? 'no indicado'), ENT_QUOTES, 'UTF-8'); ?></td>
+                        <td><?php echo htmlspecialchars(decorar_valor($r['tiene_carnet_conducir'] ?? 'no indicado'), ENT_QUOTES, 'UTF-8'); ?></td>
+                        <td><?php echo htmlspecialchars(decorar_valor($r['tiene_vehiculo_propio'] ?? 'no indicado'), ENT_QUOTES, 'UTF-8'); ?></td>
+                        <td><?php echo htmlspecialchars(decorar_valor($r['esta_trabajando_actualmente'] ?? 'no indicado'), ENT_QUOTES, 'UTF-8'); ?></td>
+                        <td><?php echo htmlspecialchars(decorar_valor($r['puesto_trabajo_actual'] ?? 'no indicado'), ENT_QUOTES, 'UTF-8'); ?></td>
+                    </tr>
+                <?php endforeach; ?>
+                </tbody>
+            </table>
+        </div>
+    <?php endif; ?>
+</div>
+</body>
+</html>
+```
+
+### badges
+<small>Creado: 2025-12-11 20:16</small>
+
+`005-badges.php`
+
+```
+<?php
+// cv_lavender_all.php
+// 1) Pide a Lavender todas las entradas del formulario (form_hash).
+// 2) Extrae nombre completo y URL del CV de cada fila.
+// 3) Descarga y analiza cada CV con tu API de IA (5 preguntas).
+// 4) Presenta una tabla con una fila por estudiante.
+
+// =======================
+// CONFIG: Lavender
+// =======================
+const LAVENDER_URL       = 'https://lavender.jocarsa.com/api_lavender.php';
+const LAVENDER_USER      = 'jocarsa';
+const LAVENDER_PASS      = 'jocarsa';
+const LAVENDER_FORM_HASH = '3a31ecc0cec268839ff95a1924409b67';
+
+// =======================
+// CONFIG: API IA CV
+// =======================
+$API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+$API_KEY = "TEST_API_KEY_JOCARSA_123";
+
+// -----------------------------------------------------------------------------
+//  cURL POST JSON a Lavender
+// -----------------------------------------------------------------------------
+function lavender_curl_json(string $payload): string
+{
+    $ch = curl_init(LAVENDER_URL);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        'Content-Type: application/json'
+    ]);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $payload);
+    curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10);
+    curl_setopt($ch, CURLOPT_TIMEOUT, 60);
+
+    $response = curl_exec($ch);
+    if ($response === false) {
+        error_log("[ERROR] Lavender curl failed: " . curl_error($ch));
+        curl_close($ch);
+        return "";
+    }
+    curl_close($ch);
+    return trim($response);
+}
+
+// -----------------------------------------------------------------------------
+//  Obtener TODAS las entradas usando el mismo payload que el curl que funciona
+//  key: "Indica la URL de tu CV", value:"", mode:"icontains", single:false
+// -----------------------------------------------------------------------------
+function fetch_lavender_all_entries(): ?array
+{
+    $payloadArr = [
+        "username"  => LAVENDER_USER,
+        "password"  => LAVENDER_PASS,
+        "form_hash" => LAVENDER_FORM_HASH,
+        "key"       => "Indica la URL de tu CV",
+        "value"     => "",
+        "mode"      => "icontains",
+        "single"    => false,
+    ];
+
+    $payload = json_encode($payloadArr, JSON_UNESCAPED_UNICODE);
+    $resp    = lavender_curl_json($payload);
+    if ($resp === "") {
+        return null;
+    }
+
+    $decoded = json_decode($resp, true);
+    if (!is_array($decoded)) {
+        return null;
+    }
+    return $decoded;
+}
+
+// -----------------------------------------------------------------------------
+//  Extraer lista de estudiantes (nombre completo + URL CV) del JSON de Lavender
+//  Estructura esperada: ['columns' => [...], 'rows' => [...]]
+// -----------------------------------------------------------------------------
+function extract_students_from_lavender(array $data): array
+{
+    $students = [];
+
+    if (empty($data['columns']) || empty($data['rows']) || !is_array($data['columns']) || !is_array($data['rows'])) {
+        return $students;
+    }
+
+    $columns = $data['columns'];
+    $rows    = $data['rows'];
+
+    $idxNombre = null;
+    $idxCV     = null;
+
+    // Detectar índice de columnas por label
+    foreach ($columns as $i => $col) {
+        $label = '';
+        if (is_array($col)) {
+            $label = $col['label'] ?? ($col['name'] ?? ($col['title'] ?? ''));
+        } else {
+            $label = (string)$col;
+        }
+        $normalized = mb_strtolower(trim($label), 'UTF-8');
+
+        if ($normalized === mb_strtolower('Indica tu nombre completo', 'UTF-8')) {
+            $idxNombre = $i;
+        }
+        if ($normalized === mb_strtolower('Indica la URL de tu CV', 'UTF-8')) {
+            $idxCV = $i;
+        }
+    }
+
+    foreach ($rows as $row) {
+        $nombre = '';
+        $cvUrl  = '';
+
+        // Caso array indexado
+        if (is_array($row) && array_keys($row) === range(0, count($row) - 1)) {
+            if ($idxNombre !== null && isset($row[$idxNombre])) {
+                $nombre = trim((string)$row[$idxNombre]);
+            }
+            if ($idxCV !== null && isset($row[$idxCV])) {
+                $cvUrl = trim((string)$row[$idxCV]);
+            }
+        } elseif (is_array($row)) {
+            // Caso asociativo
+            foreach ($row as $k => $v) {
+                $kNorm = mb_strtolower(trim((string)$k), 'UTF-8');
+                if ($kNorm === mb_strtolower('Indica tu nombre completo', 'UTF-8')) {
+                    $nombre = trim((string)$v);
+                }
+                if ($kNorm === mb_strtolower('Indica la URL de tu CV', 'UTF-8')) {
+                    $cvUrl = trim((string)$v);
+                }
+            }
+        }
+
+        if ($nombre !== '' || $cvUrl !== '') {
+            $students[] = [
+                'nombre' => $nombre,
+                'cv_url' => $cvUrl,
+            ];
+        }
+    }
+
+    return $students;
+}
+
+// -----------------------------------------------------------------------------
+//  Descarga contenido de una URL (CV)
+// -----------------------------------------------------------------------------
+function fetch_url_content(string $url): array
+{
+    if (!filter_var($url, FILTER_VALIDATE_URL)) {
+        return ['ok' => false, 'error' => 'URL no válida.', 'content' => ''];
+    }
+
+    $ch = curl_init($url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+    curl_setopt($ch, CURLOPT_USERAGENT, 'JOCARSA-CV-Client/1.0');
+    curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10);
+    curl_setopt($ch, CURLOPT_TIMEOUT, 30);
+
+    $html = curl_exec($ch);
+
+    if ($html === false) {
+        $err = curl_error($ch);
+        curl_close($ch);
+        return ['ok' => false, 'error' => "Error al descargar la URL del CV: $err", 'content' => ''];
+    }
+
+    $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+
+    if ($status < 200 || $status >= 300) {
+        return ['ok' => false, 'error' => "La URL del CV devolvió HTTP $status.", 'content' => ''];
+    }
+
+    return ['ok' => true, 'error' => '', 'content' => $html];
+}
+
+// -----------------------------------------------------------------------------
+//  Limpiar HTML → texto plano
+// -----------------------------------------------------------------------------
+function html_to_plain_text(string $html): string
+{
+    $html = preg_replace('#<(script|style)[^>]*>.*?</\1>#si', ' ', $html);
+    $text = strip_tags($html);
+    $text = html_entity_decode($text, ENT_QUOTES | ENT_HTML5, 'UTF-8');
+    $text = preg_replace("/\r\n|\r/", "\n", $text);
+    $text = preg_replace('/[ \t]+/', ' ', $text);
+    $text = preg_replace('/\n{3,}/', "\n\n", $text);
+    $text = trim($text);
+
+    $maxLen = 20000;
+    if (mb_strlen($text, 'UTF-8') > $maxLen) {
+        $text = mb_substr($text, 0, $maxLen, 'UTF-8') . "\n\n[Texto truncado por longitud máxima]";
+    }
+
+    return $text;
+}
+
+// -----------------------------------------------------------------------------
+//  Llamar a la IA para que devuelva un JSON con las 5 respuestas
+// -----------------------------------------------------------------------------
+function analizar_cv(string $cvText, string $API_URL, string $API_KEY): array
+{
+    if ($cvText === '') {
+        return ['ok' => false, 'error' => 'El CV aparece vacío tras la descarga/limpieza.', 'parsed' => null, 'raw' => ''];
+    }
+
+    $question =
+        "Eres un asistente que analiza un curriculum vitae escrito en español.\n\n" .
+        "Recibirás el texto del CV entre las marcas <CV> y </CV>.\n" .
+        "Debes responder a estas 5 preguntas:\n\n" .
+        "1) ¿Dónde vive esa persona?\n" .
+        "2) ¿Tiene carnet de conducir vehículos?\n" .
+        "3) ¿Tiene vehículo propio?\n" .
+        "4) ¿Está trabajando actualmente?\n" .
+        "5) ¿Cuál es su puesto de trabajo actual?\n\n" .
+        "INSTRUCCIONES DE CONTENIDO:\n" .
+        "- Usa SOLO la información que aparece en el CV.\n" .
+        "- Si una información NO aparece claramente en el CV, marca ese campo como \"no indicado\".\n" .
+        "- Si es claramente NO (por ejemplo, se indica que no tiene carnet o no está trabajando), marca ese campo como \"no\".\n" .
+        "- No inventes datos.\n\n" .
+        "FORMATO DE RESPUESTA (MUY IMPORTANTE):\n" .
+        "- Devuelve ÚNICAMENTE un JSON válido, sin texto antes ni después.\n" .
+        "- El JSON debe tener exactamente estas claves:\n" .
+        "{\n" .
+        "  \"donde_vive\": \"...\",                  // texto con la localidad / país o \"no indicado\"\n" .
+        "  \"tiene_carnet_conducir\": \"si/no/no indicado\",\n" .
+        "  \"tiene_vehiculo_propio\": \"si/no/no indicado\",\n" .
+        "  \"esta_trabajando_actualmente\": \"si/no/no indicado\",\n" .
+        "  \"puesto_trabajo_actual\": \"...\"        // texto con el puesto o \"no indicado\"\n" .
+        "}\n\n" .
+        "<CV>\n" .
+        $cvText .
+        "\n</CV>";
+
+    $ch = curl_init($API_URL);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+    $postFields = http_build_query(['question' => $question]);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $postFields);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        'X-API-Key: ' . $API_KEY,
+        'Content-Type: application/x-www-form-urlencoded'
+    ]);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+
+    $response = curl_exec($ch);
+
+    if ($response === false) {
+        $err = "Error al contactar con la API remota: " . curl_error($ch);
+        curl_close($ch);
+        return ['ok' => false, 'error' => $err, 'parsed' => null, 'raw' => ''];
+    }
+
+    $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+
+    if ($status !== 200) {
+        return ['ok' => false, 'error' => "La API remota devolvió HTTP $status. Respuesta: $response", 'parsed' => null, 'raw' => ''];
+    }
+
+    $data = json_decode($response, true);
+    if (json_last_error() !== JSON_ERROR_NONE) {
+        return ['ok' => false, 'error' => "Error al decodificar JSON externo: " . json_last_error_msg() . ". Respuesta: $response", 'parsed' => null, 'raw' => ''];
+    }
+
+    if (!isset($data['answer']) || !is_string($data['answer'])) {
+        return ['ok' => false, 'error' => "La respuesta de la API no contiene el campo 'answer'. Respuesta: $response", 'parsed' => null, 'raw' => ''];
+    }
+
+    $rawAnswer = trim($data['answer']);
+
+    // Extraer solo el JSON si hubiera texto alrededor
+    $jsonString = $rawAnswer;
+    $start = strpos($jsonString, '{');
+    $end   = strrpos($jsonString, '}');
+    if ($start !== false && $end !== false && $end > $start) {
+        $jsonString = substr($jsonString, $start, $end - $start + 1);
+    }
+    $jsonString = trim($jsonString);
+
+    $parsed = json_decode($jsonString, true);
+    if (json_last_error() !== JSON_ERROR_NONE || !is_array($parsed)) {
+        return [
+            'ok'     => false,
+            'error'  => "Error al decodificar el JSON interno devuelto por la IA: " . json_last_error_msg(),
+            'parsed' => null,
+            'raw'    => $rawAnswer
+        ];
+    }
+
+    return ['ok' => true, 'error' => '', 'parsed' => $parsed, 'raw' => $rawAnswer];
+}
+
+// -----------------------------------------------------------------------------
+//  Renderizar badges de estado (CSS pill badges)
+// -----------------------------------------------------------------------------
+function render_status_badge(string $valor): string
+{
+    $trim = trim($valor);
+    $norm = mb_strtolower($trim, 'UTF-8');
+
+    // No indicado (o vacío) → badge amarilla
+    if ($norm === 'no indicado' || $norm === '') {
+        return '<span class="badge-status badge-ni">no indicado</span>';
+    }
+
+    // Negativo → badge roja
+    if ($norm === 'no') {
+        return '<span class="badge-status badge-no">no</span>';
+    }
+
+    // Cualquier otro texto: dato aportado
+    // Si se desea badge verde, sustituir por: 
+    // return '<span class="badge-status badge-ok">'.htmlspecialchars($trim, ENT_QUOTES, 'UTF-8').'</span>';
+    return htmlspecialchars($trim, ENT_QUOTES, 'UTF-8');
+}
+
+// -----------------------------------------------------------------------------
+//  Lógica principal: carga masiva desde Lavender
+// -----------------------------------------------------------------------------
+$resultMessage = null;
+$resultOk      = null;
+$rowsForTable  = [];
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['analizar']) && $_POST['analizar'] === '1') {
+
+    $lavenderData = fetch_lavender_all_entries();
+    if ($lavenderData === null) {
+        $resultOk = false;
+        $resultMessage = 'No se pudo obtener datos de Lavender (revisa payload o credenciales).';
+    } else {
+        if (empty($lavenderData['rows'])) {
+            $resultOk = false;
+            $resultMessage = 'Lavender ha devuelto 0 filas para ese formulario.';
+        } else {
+            $students = extract_students_from_lavender($lavenderData);
+            if (empty($students)) {
+                $resultOk = false;
+                $resultMessage = 'Se encontraron filas en Lavender, pero no campos de nombre / URL de CV.';
+            } else {
+                $resultOk = true;
+                $resultMessage = 'Entradas obtenidas de Lavender. Analizando CVs con IA…';
+
+                foreach ($students as $st) {
+                    $nombre = $st['nombre'] ?: '(sin nombre)';
+                    $cvUrl  = $st['cv_url'] ?: '';
+
+                    $respuestas = [
+                        'donde_vive'                  => 'no indicado',
+                        'tiene_carnet_conducir'       => 'no indicado',
+                        'tiene_vehiculo_propio'       => 'no indicado',
+                        'esta_trabajando_actualmente' => 'no indicado',
+                        'puesto_trabajo_actual'       => 'no indicado',
+                        '_error'                      => null,
+                    ];
+
+                    if ($cvUrl !== '') {
+                        $fetchCV = fetch_url_content($cvUrl);
+                        if ($fetchCV['ok']) {
+                            $cvText = html_to_plain_text($fetchCV['content']);
+                            $ai     = analizar_cv($cvText, $API_URL, $API_KEY);
+                            if ($ai['ok'] && is_array($ai['parsed'])) {
+                                $p = $ai['parsed'];
+                                $respuestas['donde_vive']                  = $p['donde_vive'] ?? 'no indicado';
+                                $respuestas['tiene_carnet_conducir']       = $p['tiene_carnet_conducir'] ?? 'no indicado';
+                                $respuestas['tiene_vehiculo_propio']       = $p['tiene_vehiculo_propio'] ?? 'no indicado';
+                                $respuestas['esta_trabajando_actualmente'] = $p['esta_trabajando_actualmente'] ?? 'no indicado';
+                                $respuestas['puesto_trabajo_actual']       = $p['puesto_trabajo_actual'] ?? 'no indicado';
+                            } else {
+                                $respuestas['_error'] = $ai['error'] ?? 'Error en análisis IA.';
+                            }
+                        } else {
+                            $respuestas['_error'] = $fetchCV['error'];
+                        }
+                    } else {
+                        $respuestas['_error'] = 'No se ha indicado URL de CV en Lavender.';
+                    }
+
+                    $rowsForTable[] = [
+                        'nombre'     => $nombre,
+                        'cv_url'     => $cvUrl,
+                        'respuestas' => $respuestas,
+                    ];
+                }
+            }
+        }
+    }
+}
+?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Análisis masivo de CV desde Lavender</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            margin: 0;
+            padding: 2rem;
+            background: #f3f4f6;
+            color: #111827;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        .card {
+            background: #ffffff;
+            border-radius: 0.75rem;
+            border: 1px solid #e5e7eb;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        h1 {
+            font-size: 1.4rem;
+            margin-bottom: .5rem;
+        }
+        h2 {
+            font-size: 1.2rem;
+            margin-bottom: .75rem;
+        }
+        p {
+            margin-top: 0;
+            color: #4b5563;
+        }
+        button {
+            padding: .5rem 1rem;
+            border-radius: 999px;
+            border: 1px solid #2563eb;
+            background: #2563eb;
+            color: #ffffff;
+            font-size: .9rem;
+            font-weight: 500;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #1d4ed8;
+        }
+        .status {
+            margin-top: .75rem;
+            padding: .6rem .9rem;
+            border-radius: .6rem;
+            font-size: .85rem;
+        }
+        .status.ok {
+            background: #ecfdf3;
+            color: #15803d;
+            border: 1px solid #bbf7d0;
+        }
+        .status.error {
+            background: #fef2f2;
+            color: #b91c1c;
+            border: 1px solid #fecaca;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: .87rem;
+        }
+        th, td {
+            border: 1px solid #e5e7eb;
+            padding: .6rem .5rem;
+            text-align: left;
+            vertical-align: top;
+        }
+        th {
+            background: #f9fafb;
+            font-weight: 600;
+        }
+        .subtitle {
+            font-size: .85rem;
+            color: #6b7280;
+            margin-bottom: 1rem;
+        }
+        .badge {
+            display: inline-block;
+            padding: .2rem .6rem;
+            border-radius: 999px;
+            font-size: .75rem;
+            background: #eef2ff;
+            color: #3730a3;
+        }
+        .error-cell {
+            color: #b91c1c;
+            font-size: .8rem;
+            margin-top: .25rem;
+        }
+        a {
+            color: #2563eb;
+        }
+        .legend {
+            font-size: .8rem;
+            color: #6b7280;
+            margin-bottom: .75rem;
+        }
+        .badge-status {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.15rem 0.55rem;
+            border-radius: 999px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            border: 1px solid transparent;
+        }
+        .badge-status.badge-no {
+            background: #fee2e2;
+            color: #991b1b;
+            border-color: #fecaca;
+        }
+        .badge-status.badge-ni {
+            background: #fef9c3;
+            color: #854d0e;
+            border-color: #facc15;
+        }
+        .badge-status.badge-ok {
+            background: #ecfdf3;
+            color: #166534;
+            border-color: #bbf7d0;
+        }
+        .legend-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: .25rem;
+            margin-right: 1rem;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="card">
+        <h1>Análisis masivo de CV desde Lavender</h1>
+        <p class="subtitle">
+            Se obtienen todas las entradas del formulario con hash
+            <code><?php echo htmlspecialchars(LAVENDER_FORM_HASH, ENT_QUOTES, 'UTF-8'); ?></code>,
+            se extrae el nombre y la URL del CV, y se analiza cada CV con IA para responder:
+            1) ¿Dónde vive esa persona?
+            2) ¿Tiene carnet de conducir vehículos?
+            3) ¿Tiene vehículo propio?
+            4) ¿Está trabajando actualmente?
+            5) Puesto de trabajo actual.
+        </p>
+
+        <form method="post">
+            <input type="hidden" name="analizar" value="1">
+            <button type="submit">Analizar todos los CV de este formulario</button>
+            <span class="badge">Lavender · formulario completo</span>
+
+            <?php if ($resultMessage !== null): ?>
+                <div class="status <?php echo $resultOk ? 'ok' : 'error'; ?>">
+                    <?php echo htmlspecialchars($resultMessage, ENT_QUOTES, 'UTF-8'); ?>
+                </div>
+            <?php endif; ?>
+        </form>
+    </div>
+
+    <?php if (!empty($rowsForTable)): ?>
+        <div class="card">
+            <h2>Resultado del análisis</h2>
+            <div class="legend">
+                <span class="legend-pill">
+                    <span class="badge-status badge-no">no</span> = respuesta negativa
+                </span>
+                <span class="legend-pill">
+                    <span class="badge-status badge-ni">no indicado</span> = no consta en el CV
+                </span>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre del estudiante</th>
+                        <th>URL CV</th>
+                        <th>1. ¿Dónde vive esa persona?</th>
+                        <th>2. ¿Tiene carnet de conducir vehículos?</th>
+                        <th>3. ¿Tiene vehículo propio?</th>
+                        <th>4. ¿Está trabajando actualmente?</th>
+                        <th>5. Puesto de trabajo actual</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <?php foreach ($rowsForTable as $row): ?>
+                    <?php $r = $row['respuestas']; ?>
+                    <tr>
+                        <td><?php echo htmlspecialchars($row['nombre'], ENT_QUOTES, 'UTF-8'); ?></td>
+                        <td>
+                            <?php if ($row['cv_url']): ?>
+                                <a href="<?php echo htmlspecialchars($row['cv_url'], ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener noreferrer">
+                                    <?php echo htmlspecialchars($row['cv_url'], ENT_QUOTES, 'UTF-8'); ?>
+                                </a>
+                            <?php else: ?>
+                                <span class="badge-status badge-ni">no indicado</span>
+                            <?php endif; ?>
+                            <?php if (!empty($r['_error'])): ?>
+                                <div class="error-cell">
+                                    <?php echo htmlspecialchars($r['_error'], ENT_QUOTES, 'UTF-8'); ?>
+                                </div>
+                            <?php endif; ?>
+                        </td>
+                        <td><?php echo render_status_badge($r['donde_vive'] ?? 'no indicado'); ?></td>
+                        <td><?php echo render_status_badge($r['tiene_carnet_conducir'] ?? 'no indicado'); ?></td>
+                        <td><?php echo render_status_badge($r['tiene_vehiculo_propio'] ?? 'no indicado'); ?></td>
+                        <td><?php echo render_status_badge($r['esta_trabajando_actualmente'] ?? 'no indicado'); ?></td>
+                        <td><?php echo render_status_badge($r['puesto_trabajo_actual'] ?? 'no indicado'); ?></td>
+                    </tr>
+                <?php endforeach; ?>
+                </tbody>
+            </table>
+        </div>
+    <?php endif; ?>
+</div>
+</body>
+</html>
+```
+
+### seguridad
+<small>Creado: 2025-12-11 20:23</small>
+
+`006-seguridad.php`
+
+```
+<?php
+// cv_lavender_all.php
+// 1) Pide a Lavender todas las entradas del formulario (form_hash).
+// 2) Muestra tabla con nombre + URL CV.
+// 3) JS va pidiendo análisis CV por CV (accion=analizar_cv) cada X segundos.
+// 4) IA devuelve JSON con las 5 respuestas, con reintentos y manejo de CV en blanco.
+
+// =======================
+// CONFIG: Lavender
+// =======================
+const LAVENDER_URL       = 'https://lavender.jocarsa.com/api_lavender.php';
+const LAVENDER_USER      = 'jocarsa';
+const LAVENDER_PASS      = 'jocarsa';
+const LAVENDER_FORM_HASH = '3a31ecc0cec268839ff95a1924409b67';
+
+// =======================
+// CONFIG: API IA CV
+// =======================
+$API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+$API_KEY = "TEST_API_KEY_JOCARSA_123";
+
+// -----------------------------------------------------------------------------
+//  cURL POST JSON a Lavender
+// -----------------------------------------------------------------------------
+function lavender_curl_json(string $payload): string
+{
+    $ch = curl_init(LAVENDER_URL);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        'Content-Type: application/json'
+    ]);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $payload);
+    curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10);
+    curl_setopt($ch, CURLOPT_TIMEOUT, 60);
+
+    $response = curl_exec($ch);
+    if ($response === false) {
+        error_log("[ERROR] Lavender curl failed: " . curl_error($ch));
+        curl_close($ch);
+        return "";
+    }
+    curl_close($ch);
+    return trim($response);
+}
+
+// -----------------------------------------------------------------------------
+//  Obtener TODAS las entradas usando el payload que ya has probado con curl
+// -----------------------------------------------------------------------------
+function fetch_lavender_all_entries(): ?array
+{
+    $payloadArr = [
+        "username"  => LAVENDER_USER,
+        "password"  => LAVENDER_PASS,
+        "form_hash" => LAVENDER_FORM_HASH,
+        "key"       => "Indica la URL de tu CV",
+        "value"     => "",
+        "mode"      => "icontains",
+        "single"    => false,
+    ];
+
+    $payload = json_encode($payloadArr, JSON_UNESCAPED_UNICODE);
+    $resp    = lavender_curl_json($payload);
+    if ($resp === "") {
+        return null;
+    }
+
+    $decoded = json_decode($resp, true);
+    if (!is_array($decoded)) {
+        return null;
+    }
+    return $decoded;
+}
+
+// -----------------------------------------------------------------------------
+//  Extraer lista de estudiantes (nombre completo + URL CV) del JSON de Lavender
+// -----------------------------------------------------------------------------
+function extract_students_from_lavender(array $data): array
+{
+    $students = [];
+
+    if (empty($data['columns']) || empty($data['rows']) || !is_array($data['columns']) || !is_array($data['rows'])) {
+        return $students;
+    }
+
+    $columns = $data['columns'];
+    $rows    = $data['rows'];
+
+    $idxNombre = null;
+    $idxCV     = null;
+
+    foreach ($columns as $i => $col) {
+        $label = '';
+        if (is_array($col)) {
+            $label = $col['label'] ?? ($col['name'] ?? ($col['title'] ?? ''));
+        } else {
+            $label = (string)$col;
+        }
+        $normalized = mb_strtolower(trim($label), 'UTF-8');
+
+        if ($normalized === mb_strtolower('Indica tu nombre completo', 'UTF-8')) {
+            $idxNombre = $i;
+        }
+        if ($normalized === mb_strtolower('Indica la URL de tu CV', 'UTF-8')) {
+            $idxCV = $i;
+        }
+    }
+
+    foreach ($rows as $row) {
+        $nombre = '';
+        $cvUrl  = '';
+
+        // array indexado
+        if (is_array($row) && array_keys($row) === range(0, count($row) - 1)) {
+            if ($idxNombre !== null && isset($row[$idxNombre])) {
+                $nombre = trim((string)$row[$idxNombre]);
+            }
+            if ($idxCV !== null && isset($row[$idxCV])) {
+                $cvUrl = trim((string)$row[$idxCV]);
+            }
+        } elseif (is_array($row)) {
+            // asociativo
+            foreach ($row as $k => $v) {
+                $kNorm = mb_strtolower(trim((string)$k), 'UTF-8');
+                if ($kNorm === mb_strtolower('Indica tu nombre completo', 'UTF-8')) {
+                    $nombre = trim((string)$v);
+                }
+                if ($kNorm === mb_strtolower('Indica la URL de tu CV', 'UTF-8')) {
+                    $cvUrl = trim((string)$v);
+                }
+            }
+        }
+
+        if ($nombre !== '' || $cvUrl !== '') {
+            $students[] = [
+                'nombre' => $nombre,
+                'cv_url' => $cvUrl,
+            ];
+        }
+    }
+
+    return $students;
+}
+
+// -----------------------------------------------------------------------------
+//  Descarga contenido de una URL (CV)
+// -----------------------------------------------------------------------------
+function fetch_url_content(string $url): array
+{
+    if (!filter_var($url, FILTER_VALIDATE_URL)) {
+        return ['ok' => false, 'error' => 'URL no válida.', 'content' => ''];
+    }
+
+    $ch = curl_init($url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+    curl_setopt($ch, CURLOPT_USERAGENT, 'JOCARSA-CV-Client/1.0');
+    curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10);
+    curl_setopt($ch, CURLOPT_TIMEOUT, 30);
+
+    $html = curl_exec($ch);
+
+    if ($html === false) {
+        $err = curl_error($ch);
+        curl_close($ch);
+        return ['ok' => false, 'error' => "Error al descargar la URL del CV: $err", 'content' => ''];
+    }
+
+    $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+
+    if ($status < 200 || $status >= 300) {
+        return ['ok' => false, 'error' => "La URL del CV devolvió HTTP $status.", 'content' => ''];
+    }
+
+    return ['ok' => true, 'error' => '', 'content' => $html];
+}
+
+// -----------------------------------------------------------------------------
+//  Limpiar HTML → texto plano
+// -----------------------------------------------------------------------------
+function html_to_plain_text(string $html): string
+{
+    $html = preg_replace('#<(script|style)[^>]*>.*?</\1>#si', ' ', $html);
+    $text = strip_tags($html);
+    $text = html_entity_decode($text, ENT_QUOTES | ENT_HTML5, 'UTF-8');
+    $text = preg_replace("/\r\n|\r/", "\n", $text);
+    $text = preg_replace('/[ \t]+/', ' ', $text);
+    $text = preg_replace('/\n{3,}/', "\n\n", $text);
+    $text = trim($text);
+
+    $maxLen = 20000;
+    if (mb_strlen($text, 'UTF-8') > $maxLen) {
+        $text = mb_substr($text, 0, $maxLen, 'UTF-8') . "\n\n[Texto truncado por longitud máxima]";
+    }
+
+    return $text;
+}
+
+// -----------------------------------------------------------------------------
+//  Llamar a la IA y devolver SOLO el string "answer" (crudo)
+// -----------------------------------------------------------------------------
+function llamar_ia_cv(string $cvText, string $API_URL, string $API_KEY): array
+{
+    if ($cvText === '') {
+        return ['ok' => false, 'error' => 'El CV aparece vacío tras la descarga/limpieza.', 'answer' => ''];
+    }
+
+    $question =
+        "Eres un asistente que analiza un curriculum vitae escrito en español.\n\n" .
+        "Recibirás el texto del CV entre las marcas <CV> y </CV>.\n" .
+        "Debes responder a estas 5 preguntas:\n\n" .
+        "1) ¿Dónde vive esa persona?\n" .
+        "2) ¿Tiene carnet de conducir vehículos?\n" .
+        "3) ¿Tiene vehículo propio?\n" .
+        "4) ¿Está trabajando actualmente?\n" .
+        "5) ¿Cuál es su puesto de trabajo actual?\n\n" .
+        "INSTRUCCIONES DE CONTENIDO:\n" .
+        "- Usa SOLO la información que aparece en el CV.\n" .
+        "- Si una información NO aparece claramente en el CV, marca ese campo como \"no indicado\".\n" .
+        "- Si es claramente NO (por ejemplo, se indica que no tiene carnet o no está trabajando), marca ese campo como \"no\".\n" .
+        "- No inventes datos.\n\n" .
+        "FORMATO DE RESPUESTA (MUY IMPORTANTE):\n" .
+        "- Devuelve ÚNICAMENTE un JSON válido, sin texto antes ni después.\n" .
+        "- El JSON debe tener exactamente estas claves:\n" .
+        "{\n" .
+        "  \"donde_vive\": \"...\",                  // texto con la localidad / país o \"no indicado\"\n" .
+        "  \"tiene_carnet_conducir\": \"si/no/no indicado\",\n" .
+        "  \"tiene_vehiculo_propio\": \"si/no/no indicado\",\n" .
+        "  \"esta_trabajando_actualmente\": \"si/no/no indicado\",\n" .
+        "  \"puesto_trabajo_actual\": \"...\"        // texto con el puesto o \"no indicado\"\n" .
+        "}\n\n" .
+        "<CV>\n" .
+        $cvText .
+        "\n</CV>";
+
+    $ch = curl_init($API_URL);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+    $postFields = http_build_query(['question' => $question]);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $postFields);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        'X-API-Key: ' . $API_KEY,
+        'Content-Type: application/x-www-form-urlencoded'
+    ]);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+
+    $response = curl_exec($ch);
+
+    if ($response === false) {
+        $err = "Error al contactar con la API remota: " . curl_error($ch);
+        curl_close($ch);
+        return ['ok' => false, 'error' => $err, 'answer' => ''];
+    }
+
+    $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+
+    if ($status !== 200) {
+        return ['ok' => false, 'error' => "La API remota devolvió HTTP $status. Respuesta: $response", 'answer' => ''];
+    }
+
+    $data = json_decode($response, true);
+    if (json_last_error() !== JSON_ERROR_NONE) {
+        return ['ok' => false, 'error' => "Error al decodificar JSON externo: " . json_last_error_msg() . ". Respuesta: $response", 'answer' => ''];
+    }
+
+    if (!isset($data['answer']) || !is_string($data['answer'])) {
+        return ['ok' => false, 'error' => "La respuesta de la API no contiene el campo 'answer'. Respuesta: $response", 'answer' => ''];
+    }
+
+    return ['ok' => true, 'error' => '', 'answer' => trim($data['answer'])];
+}
+
+// -----------------------------------------------------------------------------
+//  Intentar extraer el JSON interno de un string de la IA
+// -----------------------------------------------------------------------------
+function extraer_json_desde_respuesta(string $rawAnswer): ?array
+{
+    $jsonString = $rawAnswer;
+
+    $start = strpos($jsonString, '{');
+    $end   = strrpos($jsonString, '}');
+    if ($start === false || $end === false || $end <= $start) {
+        return null;
+    }
+    $jsonString = substr($jsonString, $start, $end - $start + 1);
+    $jsonString = trim($jsonString);
+
+    $parsed = json_decode($jsonString, true);
+    if (json_last_error() !== JSON_ERROR_NONE || !is_array($parsed)) {
+        return null;
+    }
+
+    return $parsed;
+}
+
+// -----------------------------------------------------------------------------
+//  Analizar CV con reintentos seguros de parseo JSON
+// -----------------------------------------------------------------------------
+function analizar_cv_con_reintentos(string $cvText, string $API_URL, string $API_KEY, int $maxIntentos = 3): array
+{
+    $ultimoError = null;
+    $ultimaRespuestaCruda = '';
+
+    for ($i = 1; $i <= $maxIntentos; $i++) {
+        $ia = llamar_ia_cv($cvText, $API_URL, $API_KEY);
+        if (!$ia['ok']) {
+            $ultimoError = $ia['error'];
+            $ultimaRespuestaCruda = $ia['answer'] ?? '';
+            continue; // reintentar
+        }
+
+        $raw = $ia['answer'];
+        $parsed = extraer_json_desde_respuesta($raw);
+        if ($parsed !== null) {
+            return [
+                'ok'     => true,
+                'error'  => '',
+                'parsed' => $parsed,
+                'raw'    => $raw,
+            ];
+        } else {
+            $ultimoError = 'Error al decodificar el JSON interno devuelto por la IA: '
+                . json_last_error_msg();
+            $ultimaRespuestaCruda = $raw;
+        }
+    }
+
+    return [
+        'ok'     => false,
+        'error'  => $ultimoError ?: 'Error desconocido al analizar el CV.',
+        'parsed' => null,
+        'raw'    => $ultimaRespuestaCruda,
+    ];
+}
+
+// -----------------------------------------------------------------------------
+//  Renderizar badges de estado (servidas desde PHP para AJAX)
+// -----------------------------------------------------------------------------
+function render_status_badge(string $valor): string
+{
+    $trim = trim($valor);
+    $norm = mb_strtolower($trim, 'UTF-8');
+
+    if ($norm === 'no indicado' || $norm === '') {
+        return '<span class="badge-status badge-ni">no indicado</span>';
+    }
+    if ($norm === 'no') {
+        return '<span class="badge-status badge-no">no</span>';
+    }
+
+    return '<span class="badge-status badge-ok">' . htmlspecialchars($trim, ENT_QUOTES, 'UTF-8') . '</span>';
+}
+
+// -----------------------------------------------------------------------------
+//  MODO AJAX: analizar un solo CV (llamado por fetch desde JS)
+// -----------------------------------------------------------------------------
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['accion']) && $_POST['accion'] === 'analizar_cv') {
+    header('Content-Type: application/json; charset=utf-8');
+
+    $cvUrl  = isset($_POST['cv_url']) ? trim($_POST['cv_url']) : '';
+    $nombre = isset($_POST['nombre']) ? trim($_POST['nombre']) : '';
+
+    if ($cvUrl === '') {
+        echo json_encode([
+            'ok'    => false,
+            'blank' => false,
+            'error' => 'No se ha indicado URL de CV.',
+        ], JSON_UNESCAPED_UNICODE);
+        exit;
+    }
+
+    $fetchCV = fetch_url_content($cvUrl);
+    if (!$fetchCV['ok']) {
+        echo json_encode([
+            'ok'    => false,
+            'blank' => false,
+            'error' => $fetchCV['error'],
+        ], JSON_UNESCAPED_UNICODE);
+        exit;
+    }
+
+    $cvText = html_to_plain_text($fetchCV['content']);
+
+    // Detectar CV "en blanco" (página existe pero el texto plano es casi nulo)
+    if (mb_strlen($cvText, 'UTF-8') < 80) {
+        echo json_encode([
+            'ok'    => true,
+            'blank' => true,
+            'error' => '',
+            'respuestas' => [
+                'donde_vive'                  => 'no indicado',
+                'tiene_carnet_conducir'       => 'no indicado',
+                'tiene_vehiculo_propio'       => 'no indicado',
+                'esta_trabajando_actualmente' => 'no indicado',
+                'puesto_trabajo_actual'       => 'no indicado',
+            ],
+        ], JSON_UNESCAPED_UNICODE);
+        exit;
+    }
+
+    $ai = analizar_cv_con_reintentos($cvText, $API_URL, $API_KEY, 3);
+    if (!$ai['ok'] || !is_array($ai['parsed'])) {
+        echo json_encode([
+            'ok'    => false,
+            'blank' => false,
+            'error' => $ai['error'] ?: 'Error desconocido analizando el CV.',
+        ], JSON_UNESCAPED_UNICODE);
+        exit;
+    }
+
+    $p = $ai['parsed'];
+
+    $respuestas = [
+        'donde_vive'                  => $p['donde_vive'] ?? 'no indicado',
+        'tiene_carnet_conducir'       => $p['tiene_carnet_conducir'] ?? 'no indicado',
+        'tiene_vehiculo_propio'       => $p['tiene_vehiculo_propio'] ?? 'no indicado',
+        'esta_trabajando_actualmente' => $p['esta_trabajando_actualmente'] ?? 'no indicado',
+        'puesto_trabajo_actual'       => $p['puesto_trabajo_actual'] ?? 'no indicado',
+    ];
+
+    // Devolvemos también HTML de badges ya preparado
+    $respuestas_html = [
+        'donde_vive'                  => render_status_badge($respuestas['donde_vive']),
+        'tiene_carnet_conducir'       => render_status_badge($respuestas['tiene_carnet_conducir']),
+        'tiene_vehiculo_propio'       => render_status_badge($respuestas['tiene_vehiculo_propio']),
+        'esta_trabajando_actualmente' => render_status_badge($respuestas['esta_trabajando_actualmente']),
+        'puesto_trabajo_actual'       => render_status_badge($respuestas['puesto_trabajo_actual']),
+    ];
+
+    echo json_encode([
+        'ok'              => true,
+        'blank'           => false,
+        'error'           => '',
+        'respuestas'      => $respuestas,
+        'respuestas_html' => $respuestas_html,
+    ], JSON_UNESCAPED_UNICODE);
+    exit;
+}
+
+// -----------------------------------------------------------------------------
+//  MODO NORMAL: cargar lista desde Lavender y mostrar tabla
+// -----------------------------------------------------------------------------
+$resultMessage = null;
+$resultOk      = null;
+$students      = [];
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['cargar']) && $_POST['cargar'] === '1') {
+    $lavenderData = fetch_lavender_all_entries();
+    if ($lavenderData === null) {
+        $resultOk = false;
+        $resultMessage = 'No se pudo obtener datos de Lavender (revisa payload o credenciales).';
+    } elseif (empty($lavenderData['rows'])) {
+        $resultOk = false;
+        $resultMessage = 'Lavender ha devuelto 0 filas para ese formulario.';
+    } else {
+        $students = extract_students_from_lavender($lavenderData);
+        if (empty($students)) {
+            $resultOk = false;
+            $resultMessage = 'Se encontraron filas en Lavender, pero no campos de nombre / URL de CV.';
+        } else {
+            $resultOk = true;
+            $resultMessage = 'Entradas obtenidas de Lavender. Pulsa "Iniciar análisis" para procesar los CV.';
+        }
+    }
+}
+?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Análisis masivo de CV desde Lavender</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            margin: 0;
+            padding: 2rem;
+            background: #f3f4f6;
+            color: #111827;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .card {
+            background: #ffffff;
+            border-radius: 0.75rem;
+            border: 1px solid #e5e7eb;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        h1 {
+            font-size: 1.4rem;
+            margin-bottom: .5rem;
+        }
+        h2 {
+            font-size: 1.2rem;
+            margin-bottom: .75rem;
+        }
+        p {
+            margin-top: 0;
+            color: #4b5563;
+        }
+        button {
+            padding: .5rem 1rem;
+            border-radius: 999px;
+            border: 1px solid #2563eb;
+            background: #2563eb;
+            color: #ffffff;
+            font-size: .9rem;
+            font-weight: 500;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #1d4ed8;
+        }
+        .btn-secondary {
+            border-color: #6b7280;
+            background: #6b7280;
+        }
+        .btn-secondary:hover {
+            background: #4b5563;
+        }
+        .status {
+            margin-top: .75rem;
+            padding: .6rem .9rem;
+            border-radius: .6rem;
+            font-size: .85rem;
+        }
+        .status.ok {
+            background: #ecfdf3;
+            color: #15803d;
+            border: 1px solid #bbf7d0;
+        }
+        .status.error {
+            background: #fef2f2;
+            color: #b91c1c;
+            border: 1px solid #fecaca;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: .87rem;
+        }
+        th, td {
+            border: 1px solid #e5e7eb;
+            padding: .6rem .5rem;
+            text-align: left;
+            vertical-align: top;
+        }
+        th {
+            background: #f9fafb;
+            font-weight: 600;
+        }
+        .subtitle {
+            font-size: .85rem;
+            color: #6b7280;
+            margin-bottom: 1rem;
+        }
+        .badge {
+            display: inline-block;
+            padding: .2rem .6rem;
+            border-radius: 999px;
+            font-size: .75rem;
+            background: #eef2ff;
+            color: #3730a3;
+        }
+        .error-cell {
+            color: #b91c1c;
+            font-size: .8rem;
+            margin-top: .25rem;
+        }
+        a {
+            color: #2563eb;
+        }
+        .legend {
+            font-size: .8rem;
+            color: #6b7280;
+            margin-bottom: .75rem;
+        }
+        .badge-status {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.15rem 0.55rem;
+            border-radius: 999px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            border: 1px solid transparent;
+        }
+        .badge-status.badge-no {
+            background: #fee2e2;
+            color: #991b1b;
+            border-color: #fecaca;
+        }
+        .badge-status.badge-ni {
+            background: #fef9c3;
+            color: #854d0e;
+            border-color: #facc15;
+        }
+        .badge-status.badge-ok {
+            background: #ecfdf3;
+            color: #166534;
+            border-color: #bbf7d0;
+        }
+        .legend-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: .25rem;
+            margin-right: 1rem;
+        }
+        .small {
+            font-size: .8rem;
+        }
+        .row-processing {
+            background: #fefce8;
+        }
+        .row-done {
+            background: #f9fafb;
+        }
+        .row-error {
+            background: #fef2f2;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="card">
+        <h1>Análisis masivo de CV desde Lavender</h1>
+        <p class="subtitle">
+            1) Se obtienen todas las entradas del formulario con hash
+            <code><?php echo htmlspecialchars(LAVENDER_FORM_HASH, ENT_QUOTES, 'UTF-8'); ?></code> desde Lavender.<br>
+            2) Se muestra una tabla con nombre y URL del CV.<br>
+            3) El análisis de cada CV se realiza <strong>de uno en uno</strong> desde el navegador, llamando a la IA cada pocos segundos.
+        </p>
+
+        <form method="post" style="margin-bottom: .75rem;">
+            <input type="hidden" name="cargar" value="1">
+            <button type="submit">Cargar lista desde Lavender</button>
+            <span class="badge">Paso 1: cargar</span>
+        </form>
+
+        <?php if ($resultMessage !== null): ?>
+            <div class="status <?php echo $resultOk ? 'ok' : 'error'; ?>">
+                <?php echo htmlspecialchars($resultMessage, ENT_QUOTES, 'UTF-8'); ?>
+            </div>
+        <?php endif; ?>
+
+        <?php if (!empty($students)): ?>
+            <button type="button" id="btnIniciarAnalisis" class="btn-secondary">
+                Iniciar análisis secuencial de CV
+            </button>
+            <span class="small" id="estadoGlobal">Pendiente de iniciar.</span>
+        <?php endif; ?>
+    </div>
+
+    <?php if (!empty($students)): ?>
+        <div class="card">
+            <h2>Resultado del análisis</h2>
+            <div class="legend">
+                <span class="legend-pill">
+                    <span class="badge-status badge-ok">valor</span> = dato aportado en el CV
+                </span>
+                <span class="legend-pill">
+                    <span class="badge-status badge-no">no</span> = respuesta negativa explícita
+                </span>
+                <span class="legend-pill">
+                    <span class="badge-status badge-ni">no indicado</span> = no consta en el CV o CV en blanco
+                </span>
+            </div>
+            <table id="tablaCV">
+                <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Nombre del estudiante</th>
+                    <th>URL CV</th>
+                    <th>1. ¿Dónde vive esa persona?</th>
+                    <th>2. ¿Tiene carnet de conducir vehículos?</th>
+                    <th>3. ¿Tiene vehículo propio?</th>
+                    <th>4. ¿Está trabajando actualmente?</th>
+                    <th>5. Puesto de trabajo actual</th>
+                    <th>Estado</th>
+                </tr>
+                </thead>
+                <tbody>
+                <?php foreach ($students as $i => $st): ?>
+                    <?php
+                        $rowId = 'row_' . $i;
+                        $cvUrl = $st['cv_url'] ?? '';
+                        $nombre = $st['nombre'] ?? '';
+                    ?>
+                    <tr id="<?php echo $rowId; ?>"
+                        data-index="<?php echo (int)$i; ?>"
+                        data-nombre="<?php echo htmlspecialchars($nombre, ENT_QUOTES, 'UTF-8'); ?>"
+                        data-cv-url="<?php echo htmlspecialchars($cvUrl, ENT_QUOTES, 'UTF-8'); ?>"
+                        class="row-pending">
+                        <td><?php echo $i + 1; ?></td>
+                        <td><?php echo htmlspecialchars($nombre, ENT_QUOTES, 'UTF-8'); ?></td>
+                        <td>
+                            <?php if ($cvUrl): ?>
+                                <a href="<?php echo htmlspecialchars($cvUrl, ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener noreferrer">
+                                    <?php echo htmlspecialchars($cvUrl, ENT_QUOTES, 'UTF-8'); ?>
+                                </a>
+                            <?php else: ?>
+                                <span class="badge-status badge-ni">no indicado</span>
+                            <?php endif; ?>
+                        </td>
+                        <td class="col-donde_vive">
+                            <span class="badge-status badge-ni">Pendiente…</span>
+                        </td>
+                        <td class="col-tiene_carnet_conducir">
+                            <span class="badge-status badge-ni">Pendiente…</span>
+                        </td>
+                        <td class="col-tiene_vehiculo_propio">
+                            <span class="badge-status badge-ni">Pendiente…</span>
+                        </td>
+                        <td class="col-esta_trabajando_actualmente">
+                            <span class="badge-status badge-ni">Pendiente…</span>
+                        </td>
+                        <td class="col-puesto_trabajo_actual">
+                            <span class="badge-status badge-ni">Pendiente…</span>
+                        </td>
+                        <td class="col-estado small">
+                            Pendiente de análisis.
+                        </td>
+                    </tr>
+                <?php endforeach; ?>
+                </tbody>
+            </table>
+        </div>
+    <?php endif; ?>
+</div>
+
+<?php if (!empty($students)): ?>
+<script>
+(function(){
+    const delayMs = 3000; // tiempo entre análisis de cada CV
+    const btn = document.getElementById('btnIniciarAnalisis');
+    const estadoGlobal = document.getElementById('estadoGlobal');
+    const filas = Array.from(document.querySelectorAll('#tablaCV tbody tr'));
+
+    function marcarFilaProcesando(tr) {
+        tr.classList.add('row-processing');
+        tr.classList.remove('row-done', 'row-error');
+        const tdEstado = tr.querySelector('.col-estado');
+        if (tdEstado) tdEstado.textContent = 'Analizando CV…';
+    }
+
+    function marcarFilaHecha(tr, mensaje) {
+        tr.classList.remove('row-processing', 'row-error');
+        tr.classList.add('row-done');
+        const tdEstado = tr.querySelector('.col-estado');
+        if (tdEstado) tdEstado.textContent = mensaje || 'Análisis completado.';
+    }
+
+    function marcarFilaError(tr, mensaje) {
+        tr.classList.remove('row-processing');
+        tr.classList.add('row-error');
+        const tdEstado = tr.querySelector('.col-estado');
+        if (tdEstado) tdEstado.textContent = mensaje || 'Error al analizar el CV.';
+    }
+
+    async function analizarFila(i) {
+        if (i >= filas.length) {
+            estadoGlobal.textContent = 'Análisis completado para todos los CV procesados.';
+            return;
+        }
+
+        const tr = filas[i];
+        const cvUrl = tr.getAttribute('data-cv-url') || '';
+        const nombre = tr.getAttribute('data-nombre') || '';
+
+        if (!cvUrl) {
+            marcarFilaHecha(tr, 'Sin URL de CV (no se analiza).');
+            setTimeout(() => analizarFila(i + 1), delayMs);
+            return;
+        }
+
+        marcarFilaProcesando(tr);
+        estadoGlobal.textContent = `Analizando CV ${i+1}/${filas.length}…`;
+
+        try {
+            const params = new URLSearchParams();
+            params.append('accion', 'analizar_cv');
+            params.append('cv_url', cvUrl);
+            params.append('nombre', nombre);
+
+            const resp = await fetch(window.location.href, {
+                method: 'POST',
+                headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+                body: params.toString()
+            });
+
+            const data = await resp.json();
+
+            if (!data.ok) {
+                marcarFilaError(tr, data.error || 'Error al analizar el CV.');
+            } else {
+                const blank = !!data.blank;
+
+                const mapCols = {
+                    'donde_vive':                  '.col-donde_vive',
+                    'tiene_carnet_conducir':       '.col-tiene_carnet_conducir',
+                    'tiene_vehiculo_propio':       '.col-tiene_vehiculo_propio',
+                    'esta_trabajando_actualmente': '.col-esta_trabajando_actualmente',
+                    'puesto_trabajo_actual':       '.col-puesto_trabajo_actual'
+                };
+
+                if (data.respuestas_html) {
+                    for (const key in mapCols) {
+                        const sel = mapCols[key];
+                        const td = tr.querySelector(sel);
+                        if (!td) continue;
+                        const html = data.respuestas_html[key] || '<span class="badge-status badge-ni">no indicado</span>';
+                        td.innerHTML = html;
+                    }
+                }
+
+                if (blank) {
+                    marcarFilaHecha(tr, 'CV detectado como página en blanco (no indicado).');
+                } else {
+                    marcarFilaHecha(tr, 'Análisis completado correctamente.');
+                }
+            }
+
+        } catch (e) {
+            console.error(e);
+            marcarFilaError(tr, 'Error de red o de parseo JSON en la respuesta de la IA.');
+        }
+
+        setTimeout(() => analizarFila(i + 1), delayMs);
+    }
+
+    if (btn) {
+        btn.addEventListener('click', function() {
+            btn.disabled = true;
+            estadoGlobal.textContent = 'Iniciando análisis secuencial…';
+            analizarFila(0);
+        });
+    }
+})();
+</script>
+<?php endif; ?>
+</body>
+</html>
+```
 
 
 

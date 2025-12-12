@@ -19515,6 +19515,1026 @@ Con estos ajustes, deberías tener una consistencia en el posicionamiento y dime
 <a id="consulta-y-manipulacion-de-informacion"></a>
 ## Consulta y manipulación de información
 
+### tienda online
+<small>Creado: 2025-12-11 14:09</small>
+
+`001-tienda online.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Tienda online</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <header>
+      <h1>Tienda online</h1>
+    </header>
+    <main>
+      <article>
+        <div class="imagen" style="background:url(producto.webp);"></div>
+        <h3>Nombre del producto</h3>
+        <p>Breve descripción del producto</p>
+        <p>4.33€</p>
+        <a href="comprar.php"></a>
+      </article>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
+```
+
+### muchos productos
+<small>Creado: 2025-12-11 14:10</small>
+
+`002-muchos productos.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Tienda online</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <header>
+      <h1>Tienda online</h1>
+    </header>
+    <main>
+      <article>
+        <div class="imagen" style="background:url(producto.webp);"></div>
+        <h3>Nombre del producto</h3>
+        <p>Breve descripción del producto</p>
+        <p>4.33€</p>
+        <a href="comprar.php"></a>
+      </article>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
+```
+
+### muchos productos
+<small>Creado: 2025-12-11 14:11</small>
+
+`003-muchos productos.php`
+
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Tienda online</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <header>
+      <h1>Tienda online</h1>
+    </header>
+    <main>
+      <?php for($i = 0;$i<30;$i++){ ?>
+        <article>
+          <div class="imagen" style="background:url(producto.webp);"></div>
+          <h3>Nombre del producto</h3>
+          <p>Breve descripción del producto</p>
+          <p>4.33€</p>
+          <a href="comprar.php"></a>
+        </article>
+      <?php } ?>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
+```
+
+### css basicos
+<small>Creado: 2025-12-11 14:16</small>
+
+`004-css basicos.php`
+
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Tienda online</title>
+    <meta charset="utf-8">
+    <style>
+      header,main,footer{width:800px;margin:auto;text-align:center;font-family:sans-serif;}
+      main{display:grid;grid-template-columns:repeat(3,100fr);gap:20px;}
+      main article .imagen{height:100px;}
+      main article a{background:orange;color:white;text-decoration:none;padding:10px;border-radius:10px;}
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Tienda online</h1>
+    </header>
+    <main>
+      <?php for($i = 0;$i<30;$i++){ ?>
+        <article>
+          <div class="imagen" style="background:url(producto.webp);background-size:cover;background-position:center center;"></div>
+          <h3>Nombre del producto</h3>
+          <p>Breve descripción del producto</p>
+          <p>4.33€</p>
+          <a href="comprar.php">🛍 Comprar</a>
+        </article>
+      <?php } ?>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
+```
+
+### cabecera
+<small>Creado: 2025-12-11 14:22</small>
+
+`005-cabecera.php`
+
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Tienda online</title>
+    <meta charset="utf-8">
+    <style>
+      html,body{padding:0px;margin:0px;}
+      header,main,footer{width:800px;margin:auto;text-align:center;font-family:sans-serif;}
+      main{display:grid;grid-template-columns:repeat(3,100fr);gap:20px;}
+      main article .imagen{height:100px;}
+      main article a{background:orange;color:white;text-decoration:none;padding:10px;border-radius:10px;}
+      header{width:100%;height:200px;background:url("blanco.png"),url("blanco.png"),url("cabeceratienda.avif");padding:20px;background-size:cover;background-position:center top;margin-bottom:20px;display:flex;justify-content:center;align-items:center;}
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Tienda online</h1>
+    </header>
+    <main>
+      <?php for($i = 0;$i<30;$i++){ ?>
+        <article>
+          <div class="imagen" style="background:url(producto.webp);background-size:cover;background-position:center center;"></div>
+          <h3>Nombre del producto</h3>
+          <p>Breve descripción del producto</p>
+          <p>4.33€</p>
+          <a href="comprar.php">🛍 Comprar</a>
+        </article>
+      <?php } ?>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
+```
+
+### operacion comprar
+<small>Creado: 2025-12-11 14:27</small>
+
+`006-operacion comprar.php`
+
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Tienda online</title>
+    <meta charset="utf-8">
+    <style>
+      html,body{padding:0px;margin:0px;}
+      header,main,footer{width:800px;margin:auto;text-align:center;font-family:sans-serif;}
+      main{display:grid;grid-template-columns:repeat(3,100fr);gap:20px;}
+      main article .imagen{height:100px;}
+      main article a{background:orange;color:white;text-decoration:none;padding:10px;border-radius:10px;}
+      header{width:100%;height:200px;background:url("blanco.png"),url("blanco.png"),url("cabeceratienda.avif");padding:20px;background-size:cover;background-position:center top;margin-bottom:20px;display:flex;justify-content:center;align-items:center;}
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Tienda online</h1>
+    </header>
+    <main>
+      <?php
+        if(isset($_GET['producto'])){
+      ?>
+      
+      <?php }else{ ?>
+        <?php for($i = 0;$i<30;$i++){ ?>
+          <article>
+            <div class="imagen" style="background:url(producto.webp);background-size:cover;background-position:center center;"></div>
+            <h3>Nombre del producto</h3>
+            <p>Breve descripción del producto</p>
+            <p>4.33€</p>
+            <a href="?producto=1">🛍 Comprar</a>
+          </article>
+        <?php } ?>
+      <?php } ?>
+    </main>
+    <footer>
+      (c) Jose Vicente Carratala
+    </footer>
+  </body>
+</html>
+```
+
+### pagina de producto
+<small>Creado: 2025-12-11 14:32</small>
+
+`007-pagina de producto.php`
+
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Tienda online</title>
+    <meta charset="utf-8">
+    <style>
+      html,body{padding:0px;margin:0px;}
+      header,main,footer{width:800px;margin:auto;text-align:center;font-family:sans-serif;}
+      .catalogo{display:grid;grid-template-columns:repeat(3,100fr);gap:20px;}
+      main article .imagen{height:100px;}
+      main a{background:orange;color:white;text-decoration:none;padding:10px;border-radius:10px;}
+      header{width:100%;height:200px;background:url("blanco.png"),url("blanco.png"),url("cabeceratienda.avif");padding:20px;background-size:cover;background-position:center top;margin-bottom:20px;display:flex;justify-content:center;align-items:center;}
+      section{width:100%;display:flex;}
+      section .izquierda{flex:1;}
+      section .derecha{flex:2;}
+      section .izquierda img{width:100%;}
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Tienda online</h1>
+    </header>
+    <main>
+      <?php
+        if(isset($_GET['producto'])){
+      ?>
+      <section class="producto">
+        <div class="izquierda">
+          <img src="producto.webp">
+          <a href="?comprar=1">🛍 Comprar</a>
+        </div>
+        <div class="derecha">
+          <h3>Nombre del producto</h3>
+          <p>Breve descripción del producto</p>
+          <p>4.33€</p>
+        </div>
+      </section>
+      <?php }else{ ?>
+        <section class="catalogo">
+        <?php for($i = 0;$i<30;$i++){ ?>
+          <article>
+            <div class="imagen" style="background:url(producto.webp);background-size:cover;background-position:center center;"></div>
+            <h3>Nombre del producto</h3>
+            <p>Breve descripción del producto</p>
+            <p>4.33€</p>
+            <a href="?producto=1">🛍 Comprar</a>
+          </article>
+        <?php } ?>
+        </section>
+      <?php } ?>
+    </main>
+    <footer>
+      (c) Jose Vicente Carratala
+    </footer>
+  </body>
+</html>
+```
+
+### catalogo de operaciones
+<small>Creado: 2025-12-11 14:34</small>
+
+`008-catalogo de operaciones.php`
+
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Tienda online</title>
+    <meta charset="utf-8">
+    <style>
+      html,body{padding:0px;margin:0px;}
+      header,main,footer{width:800px;margin:auto;text-align:center;font-family:sans-serif;}
+      .catalogo{display:grid;grid-template-columns:repeat(3,100fr);gap:20px;}
+      main article .imagen{height:100px;}
+      main a{background:orange;color:white;text-decoration:none;padding:10px;border-radius:10px;}
+      header{width:100%;height:200px;background:url("blanco.png"),url("blanco.png"),url("cabeceratienda.avif");padding:20px;background-size:cover;background-position:center top;margin-bottom:20px;display:flex;justify-content:center;align-items:center;}
+      section{width:100%;display:flex;}
+      section .izquierda{flex:1;}
+      section .derecha{flex:2;}
+      section .izquierda img{width:100%;}
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Tienda online</h1>
+    </header>
+    <main>
+      <?php
+        if(isset($_GET['operacion'])){
+      ?>
+        <?php
+          if($_GET['operacion'] == "producto"){
+        ?>
+          <section class="producto">
+            <div class="izquierda">
+              <img src="producto.webp">
+              <a href="?operacion=comprar&producto=1">🛍 Comprar</a>
+            </div>
+            <div class="derecha">
+              <h3>Nombre del producto</h3>
+              <p>Breve descripción del producto</p>
+              <p>4.33€</p>
+            </div>
+          </section>
+        <?php }else{ ?>
+      <?php }else{ ?>
+        <section class="catalogo">
+        <?php for($i = 0;$i<30;$i++){ ?>
+          <article>
+            <div class="imagen" style="background:url(producto.webp);background-size:cover;background-position:center center;"></div>
+            <h3>Nombre del producto</h3>
+            <p>Breve descripción del producto</p>
+            <p>4.33€</p>
+            <a href="?operacion=producto&producto=1">🛍 Comprar</a>
+          </article>
+        <?php } ?>
+        </section>
+      <?php } ?>
+    </main>
+    <footer>
+      (c) Jose Vicente Carratala
+    </footer>
+  </body>
+</html>
+```
+
+### pagina de finalizacion
+<small>Creado: 2025-12-11 14:36</small>
+
+`009-pagina de finalizacion.php`
+
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Tienda online</title>
+    <meta charset="utf-8">
+    <style>
+      html,body{padding:0px;margin:0px;}
+      header,main,footer{width:800px;margin:auto;text-align:center;font-family:sans-serif;}
+      .catalogo{display:grid;grid-template-columns:repeat(3,100fr);gap:20px;}
+      main article .imagen{height:100px;}
+      main a{background:orange;color:white;text-decoration:none;padding:10px;border-radius:10px;}
+      header{width:100%;height:200px;background:url("blanco.png"),url("blanco.png"),url("cabeceratienda.avif");padding:20px;background-size:cover;background-position:center top;margin-bottom:20px;display:flex;justify-content:center;align-items:center;}
+      section{width:100%;display:flex;}
+      section .izquierda{flex:1;}
+      section .derecha{flex:2;}
+      section .izquierda img{width:100%;}
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Tienda online</h1>
+    </header>
+    <main>
+      <?php
+        if(isset($_GET['operacion'])){
+      ?>
+        <?php
+          if($_GET['operacion'] == "producto"){
+        ?>
+          <section class="producto">
+            <div class="izquierda">
+              <img src="producto.webp">
+              <a href="?operacion=carrito&producto=1">🛍 Comprar</a>
+            </div>
+            <div class="derecha">
+              <h3>Nombre del producto</h3>
+              <p>Breve descripción del producto</p>
+              <p>4.33€</p>
+            </div>
+          </section>
+        <?php }else if($_GET['operacion'] == "carrito"){ ?>
+          <section>
+            Yo soy el carrito
+          </section>
+        <?php } ?>
+      <?php }else{ ?>
+        <section class="catalogo">
+        <?php for($i = 0;$i<30;$i++){ ?>
+          <article>
+            <div class="imagen" style="background:url(producto.webp);background-size:cover;background-position:center center;"></div>
+            <h3>Nombre del producto</h3>
+            <p>Breve descripción del producto</p>
+            <p>4.33€</p>
+            <a href="?operacion=producto&producto=1">🛍 Comprar</a>
+          </article>
+        <?php } ?>
+        </section>
+      <?php } ?>
+    </main>
+    <footer>
+      (c) Jose Vicente Carratala
+    </footer>
+  </body>
+</html>
+```
+
+### desarrollamos el carrito
+<small>Creado: 2025-12-11 14:41</small>
+
+`010-desarrollamos el carrito.php`
+
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Tienda online</title>
+    <meta charset="utf-8">
+    <style>
+      html,body{padding:0px;margin:0px;}
+      header,main,footer{width:800px;margin:auto;text-align:center;font-family:sans-serif;}
+      .catalogo{display:grid;grid-template-columns:repeat(3,100fr);gap:20px;}
+      main article .imagen{height:100px;}
+      main a{background:orange;color:white;text-decoration:none;padding:10px;border-radius:10px;}
+      header{width:100%;height:200px;background:url("blanco.png"),url("blanco.png"),url("cabeceratienda.avif");padding:20px;background-size:cover;background-position:center top;margin-bottom:20px;display:flex;justify-content:center;align-items:center;}
+      section{width:100%;display:flex;}
+      section .izquierda{flex:1;}
+      section .derecha{flex:2;}
+      section .izquierda img{width:100%;}
+      table{width:100%;}
+      table thead{background:orange;color:black;text-align:left;}
+      table tbody{text-align:left;}
+      .finalizacion{display:flex;flex-direction:column;}
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Tienda online</h1>
+    </header>
+    <main>
+      <?php
+        if(isset($_GET['operacion'])){
+      ?>
+        <?php
+          if($_GET['operacion'] == "producto"){
+        ?>
+          <section class="producto">
+            <div class="izquierda">
+              <img src="producto.webp">
+              <a href="?operacion=carrito&producto=1">🛍 Comprar</a>
+            </div>
+            <div class="derecha">
+              <h3>Nombre del producto</h3>
+              <p>Breve descripción del producto</p>
+              <p>4.33€</p>
+            </div>
+          </section>
+        <?php }else if($_GET['operacion'] == "carrito"){ ?>
+          <section class="finalizacion">
+            <table>
+              <thead>
+                <tr>
+                  <th>Producto</th>
+                  <th>Precio</th>
+                  <th>Unidades</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Producto</td>
+                  <td>Precio</td>
+                  <td>Unidades</td>
+                </tr>
+                <tr>
+                  <td>Producto</td>
+                  <td>Precio</td>
+                  <td>Unidades</td>
+                </tr>
+                <tr>
+                  <td colspan=2>Total</td>
+                  <td>Total</td>
+                </tr>
+              </tbody>
+            </table>
+            <a href="?operacion=finalizacion">Confirmar compra</a>
+          </section>
+        <?php } ?>
+      <?php }else{ ?>
+        <section class="catalogo">
+        <?php for($i = 0;$i<30;$i++){ ?>
+          <article>
+            <div class="imagen" style="background:url(producto.webp);background-size:cover;background-position:center center;"></div>
+            <h3>Nombre del producto</h3>
+            <p>Breve descripción del producto</p>
+            <p>4.33€</p>
+            <a href="?operacion=producto&producto=1">🛍 Comprar</a>
+          </article>
+        <?php } ?>
+        </section>
+      <?php } ?>
+    </main>
+    <footer>
+      (c) Jose Vicente Carratala
+    </footer>
+  </body>
+</html>
+```
+
+### pantalla de confirmacion
+<small>Creado: 2025-12-11 14:42</small>
+
+`011-pantalla de confirmacion.php`
+
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Tienda online</title>
+    <meta charset="utf-8">
+    <style>
+      html,body{padding:0px;margin:0px;}
+      header,main,footer{width:800px;margin:auto;text-align:center;font-family:sans-serif;}
+      .catalogo{display:grid;grid-template-columns:repeat(3,100fr);gap:20px;}
+      main article .imagen{height:100px;}
+      main a{background:orange;color:white;text-decoration:none;padding:10px;border-radius:10px;}
+      header{width:100%;height:200px;background:url("blanco.png"),url("blanco.png"),url("cabeceratienda.avif");padding:20px;background-size:cover;background-position:center top;margin-bottom:20px;display:flex;justify-content:center;align-items:center;}
+      section{width:100%;display:flex;}
+      section .izquierda{flex:1;}
+      section .derecha{flex:2;}
+      section .izquierda img{width:100%;}
+      table{width:100%;}
+      table thead{background:orange;color:black;text-align:left;}
+      table tbody{text-align:left;}
+      .finalizacion{display:flex;flex-direction:column;}
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Tienda online</h1>
+    </header>
+    <main>
+      <?php
+        if(isset($_GET['operacion'])){
+      ?>
+        <?php
+          if($_GET['operacion'] == "producto"){
+        ?>
+          <section class="producto">
+            <div class="izquierda">
+              <img src="producto.webp">
+              <a href="?operacion=carrito&producto=1">🛍 Comprar</a>
+            </div>
+            <div class="derecha">
+              <h3>Nombre del producto</h3>
+              <p>Breve descripción del producto</p>
+              <p>4.33€</p>
+            </div>
+          </section>
+        <?php }else if($_GET['operacion'] == "carrito"){ ?>
+          <section class="finalizacion">
+            <table>
+              <thead>
+                <tr>
+                  <th>Producto</th>
+                  <th>Precio</th>
+                  <th>Unidades</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Producto</td>
+                  <td>Precio</td>
+                  <td>Unidades</td>
+                </tr>
+                <tr>
+                  <td>Producto</td>
+                  <td>Precio</td>
+                  <td>Unidades</td>
+                </tr>
+                <tr>
+                  <td colspan=2>Total</td>
+                  <td>Total</td>
+                </tr>
+              </tbody>
+            </table>
+            <a href="?operacion=finalizacion">Confirmar compra</a>
+          </section>
+        <?php }else if($_GET['operacion'] == "finalizacion"){ ?>
+          <section class="finalizacion">
+            <h3>Pedido finalizado</h3>
+            <p>Muchas gracias por tu compra</p>
+            <a href="?">Pulsa aqui para continuar navegando</a>
+          </section>
+        <?php } ?>
+      <?php }else{ ?>
+        <section class="catalogo">
+        <?php for($i = 0;$i<30;$i++){ ?>
+          <article>
+            <div class="imagen" style="background:url(producto.webp);background-size:cover;background-position:center center;"></div>
+            <h3>Nombre del producto</h3>
+            <p>Breve descripción del producto</p>
+            <p>4.33€</p>
+            <a href="?operacion=producto&producto=1">🛍 Comprar</a>
+          </article>
+        <?php } ?>
+        </section>
+      <?php } ?>
+    </main>
+    <footer>
+      (c) Jose Vicente Carratala
+    </footer>
+  </body>
+</html>
+```
+
+### diagrama
+<small>Creado: 2025-12-11 14:58</small>
+
+`diagrama.html`
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Diagrama exportado</title>
+<style>
+body {
+  margin: 0;
+  padding: 20px;
+  background: #f3f3f7;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+.page {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  width: 576.0000055486504px;
+  height: 198.82811112837354px;
+  overflow: visible;
+}
+
+/* formas básicas */
+.shape {
+  position: absolute;
+  min-width: 120px;
+  min-height: 40px;
+  padding: 6px 10px;
+  background: #ffffff;
+  border-radius: 4px;
+  border: 1px solid #9ca3af;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+}
+
+.shape.rectangle {
+  border-radius: 4px;
+}
+
+.shape.pill {
+  border-radius: 999px;
+}
+
+.shape.circle {
+  border-radius: 999px;
+  width: 80px;
+  height: 80px;
+  padding: 0;
+  justify-content: center;
+}
+
+/* texto libre */
+.shape.text {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  min-width: 20px;
+  min-height: 20px;
+}
+
+/* base de datos */
+.shape.db {
+  min-width: 120px;
+  min-height: 60px;
+  padding-top: 20px;
+  border-radius: 60px / 16px;
+  background: linear-gradient(180deg, #e5e7eb 0%, #ffffff 40%, #e5e7eb 100%);
+  position: absolute;
+  overflow: hidden;
+  text-align: center;
+}
+.shape.db::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 8px;
+  right: 8px;
+  height: 18px;
+  border-radius: 999px;
+  border: 1px solid #9ca3af;
+  background: radial-gradient(circle at 50% 30%, #ffffff 0%, #e5e7eb 70%);
+}
+.shape.db::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 8px;
+  right: 8px;
+  height: 18px;
+  border-radius: 999px;
+  border: 1px solid rgba(156, 163, 175, 0.6);
+  border-top: none;
+  background: radial-gradient(circle at 50% 70%, #e5e7eb 0%, #d1d5db 70%);
+}
+
+/* entidades ER */
+.shape.entity {
+  width: 220px;
+  min-height: 80px;
+  background: #ffffff;
+  border: 2px solid #111827;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.15);
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  overflow: hidden;
+  padding: 0;
+}
+.entity-header {
+  background: #f3f4f6;
+  padding: 4px 8px;
+  font-weight: 600;
+  text-align: center;
+  border-bottom: 1px solid #e5e7eb;
+}
+.entity-properties {
+  flex: 1;
+  padding: 4px 4px 0 4px;
+}
+.entity-property {
+  display: grid;
+  grid-template-columns: 14px 1fr 14px;
+  align-items: center;
+  column-gap: 4px;
+  padding: 2px 0;
+}
+.entity-property .property-name {
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+/* puertos */
+.port {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: 1px solid #111827;
+  background: #ffffff;
+}
+.port-left { justify-self: start; }
+.port-right { justify-self: end; }
+
+/* flechas rectas */
+.arrow {
+  position: absolute;
+  height: 2px;
+  background: #111827;
+  transform-origin: 0 50%;
+}
+.arrow::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid #111827;
+}
+.arrow-double::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%) rotate(180deg);
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid #111827;
+}
+
+/* flechas ortogonales */
+.ortho-arrow {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.ortho-arrow .ortho-seg {
+  position: absolute;
+  background: #111827;
+}
+.ortho-seg.seg-horizontal { height: 2px; }
+.ortho-seg.seg-vertical { width: 2px; }
+.ortho-arrowhead {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+.ortho-arrowhead.dir-right {
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid #111827;
+}
+.ortho-arrowhead.dir-left {
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 8px solid #111827;
+}
+.ortho-arrowhead.dir-down {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 8px solid #111827;
+}
+.ortho-arrowhead.dir-up {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 8px solid #111827;
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+<div class="shape rectangle" style="left:40px;top:40px;width:119.99999999999994px;height:39.99999999999998px;">Home</div>
+<div class="shape rectangle" style="left:220.07812499999991px;top:41.531261097301126px;width:133.45317493785504px;height:39.99999999999998px;">Página de producto</div>
+<div class="shape rectangle" style="left:416.0000055486504px;top:41.5625px;width:119.99999999999994px;height:39.99999999999998px;">Carrito</div>
+<div class="shape rectangle" style="left:415.54690274325264px;top:118.82812499999997px;width:119.99999999999994px;height:39.99998612837356px;">Finalizacion</div>
+<div class="arrow" style="left:159.99999999999997px;top:60.49182734538002px;width:60.080143375295336px;transform:rotate(0.008196938834488316rad);"></div>
+<div class="arrow" style="left:353.531299937855px;top:61.542278630239906px;width:62.46870646233213px;transform:rotate(0.0001651145856039013rad);"></div>
+<div class="arrow" style="left:475.8827210910223px;top:81.56249999999997px;width:37.26626576032998px;transform:rotate(1.576660482455883rad);"></div>
+<div class="arrow" style="left:415.54690274325264px;top:126.23398654745122px;width:261.1157857146627px;transform:rotate(-2.934694138115547rad);"></div>
+</div>
+</body>
+</html>
+```
+
+### diagrama
+<small>Creado: 2025-12-11 14:58</small>
+
+`diagrama.json`
+
+```json
+{
+  "formas": [
+    {
+      "id": "forma-1",
+      "tipo": "rectangle",
+      "left": "227.471px",
+      "top": "252.588px",
+      "width": "",
+      "height": "",
+      "texto": "Home"
+    },
+    {
+      "id": "forma-2",
+      "tipo": "rectangle",
+      "left": "407.547px",
+      "top": "254.116px",
+      "width": "",
+      "height": "",
+      "texto": "Página de producto"
+    },
+    {
+      "id": "forma-3",
+      "tipo": "rectangle",
+      "left": "603.474px",
+      "top": "254.146px",
+      "width": "",
+      "height": "",
+      "texto": "Carrito"
+    },
+    {
+      "id": "forma-4",
+      "tipo": "rectangle",
+      "left": "603.028px",
+      "top": "331.418px",
+      "width": "",
+      "height": "",
+      "texto": "Finalizacion"
+    }
+  ],
+  "flechas": [
+    {
+      "desde": {
+        "shapeId": "forma-1",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-2",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-2",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-3",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-3",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-4",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-4",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-1",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    }
+  ]
+}
+```
+
+### diagrama
+<small>Creado: 2025-12-11 14:58</small>
+
+`diagrama.svg`
+
+```
+<svg xmlns="http://www.w3.org/2000/svg" width="576.0000055486504" height="198.82811112837354" viewBox="0 0 576.0000055486504 198.82811112837354">
+
+  <defs>
+    <style>
+      text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 12px; fill: #111827; }
+      .shape-rect { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-entity { fill: #ffffff; stroke: #111827; stroke-width: 2; }
+      .shape-circle { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-pill { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-db { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .conn { stroke: #111827; stroke-width: 2; fill: none; }
+    </style>
+    <marker id="arrow-end" markerWidth="10" markerHeight="7" refX="10" refY="3.5"
+            orient="auto" markerUnits="strokeWidth">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#111827"/>
+    </marker>
+    <marker id="arrow-start" markerWidth="10" markerHeight="7" refX="0" refY="3.5"
+            orient="auto" markerUnits="strokeWidth">
+      <polygon points="10 0, 0 3.5, 10 7" fill="#111827"/>
+    </marker>
+  </defs>
+        
+<rect class="shape-rect" x="40" y="40" width="119.99999999999994" height="39.99999999999998" rx="4" ry="4" />
+<text x="99.99999999999997" y="63.999999999999986" text-anchor="middle">Home</text>
+<rect class="shape-rect" x="220.07812499999991" y="41.531261097301126" width="133.45317493785504" height="39.99999999999998" rx="4" ry="4" />
+<text x="286.80471246892745" y="65.53126109730111" text-anchor="middle">Página de producto</text>
+<rect class="shape-rect" x="416.0000055486504" y="41.5625" width="119.99999999999994" height="39.99999999999998" rx="4" ry="4" />
+<text x="476.0000055486504" y="65.56249999999999" text-anchor="middle">Carrito</text>
+<rect class="shape-rect" x="415.54690274325264" y="118.82812499999997" width="119.99999999999994" height="39.99998612837356" rx="4" ry="4" />
+<text x="475.54690274325264" y="142.82811806418675" text-anchor="middle">Finalizacion</text>
+<path class="conn" d="M 159.99999999999997 60.49182734538002 L 220.07812499999991 60.9842950909493" marker-end="url(#arrow-end)" />
+<path class="conn" d="M 353.531299937855 61.542278630239906 L 416.0000055486504 61.55259312477378" marker-end="url(#arrow-end)" />
+<path class="conn" d="M 475.8827210910223 81.56249999999997 L 475.6641871602076 118.82812499999997" marker-end="url(#arrow-end)" />
+<path class="conn" d="M 415.54690274325264 126.23398654745122 L 159.99999999999997 72.59413151673547" marker-end="url(#arrow-end)" />
+</svg>
+```
+
 
 <a id="importacion-y-exportacion-de-bases-de-datos-relacionales-en-diferentes-formatos"></a>
 ## Importación y exportación de bases de datos relacionales en diferentes formatos

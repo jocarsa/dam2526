@@ -70,6 +70,8 @@
   - [Elementos de las bases de datos no relacionales](#elementos-de-las-bases-de-datos-no-relacionales)
   - [Sistemas gestores de bases de datos no relacionales](#sistemas-gestores-de-bases-de-datos-no-relacionales)
   - [Herramientas de los sistemas gestores de bases de datos no relacionales para la gestión de la información almacenada](#herramientas-de-los-sistemas-gestores-de-bases-de-datos-no-relacionales-para-la-gestion-de-la-informacion-almacenada)
+- [Proyectos](#proyectos)
+  - [proyecto tienda online](#proyecto-tienda-online)
 - [Actividad libre de final de evaluación - La milla extra](#actividad-libre-de-final-de-evaluacion-la-milla-extra)
   - [La Milla Extra - Primera evaluación](#la-milla-extra-primera-evaluacion)
 
@@ -19572,6 +19574,829 @@ Esta carpeta contiene una serie de ejercicios diseñados para ayudarte a entende
 
 <a id="herramientas-de-los-sistemas-gestores-de-bases-de-datos-no-relacionales-para-la-gestion-de-la-informacion-almacenada"></a>
 ## Herramientas de los sistemas gestores de bases de datos no relacionales para la gestión de la información almacenada
+
+
+
+<a id="proyectos"></a>
+# Proyectos
+
+<a id="proyecto-tienda-online"></a>
+## proyecto tienda online
+
+### pantalla de confirmacion
+<small>Creado: 2025-12-11 14:56</small>
+
+`011-pantalla de confirmacion.php`
+
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Tienda online</title>
+    <meta charset="utf-8">
+    <style>
+      html,body{padding:0px;margin:0px;}
+      header,main,footer{width:800px;margin:auto;text-align:center;font-family:sans-serif;}
+      .catalogo{display:grid;grid-template-columns:repeat(3,100fr);gap:20px;}
+      main article .imagen{height:100px;}
+      main a{background:orange;color:white;text-decoration:none;padding:10px;border-radius:10px;}
+      header{width:100%;height:200px;background:url("blanco.png"),url("blanco.png"),url("cabeceratienda.avif");padding:20px;background-size:cover;background-position:center top;margin-bottom:20px;display:flex;justify-content:center;align-items:center;}
+      section{width:100%;display:flex;}
+      section .izquierda{flex:1;}
+      section .derecha{flex:2;}
+      section .izquierda img{width:100%;}
+      table{width:100%;}
+      table thead{background:orange;color:black;text-align:left;}
+      table tbody{text-align:left;}
+      .finalizacion{display:flex;flex-direction:column;}
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Tienda online</h1>
+    </header>
+    <main>
+      <?php
+        if(isset($_GET['operacion'])){
+      ?>
+        <?php
+          if($_GET['operacion'] == "producto"){
+        ?>
+          <section class="producto">
+            <div class="izquierda">
+              <img src="producto.webp">
+              <a href="?operacion=carrito&producto=1">🛍 Comprar</a>
+            </div>
+            <div class="derecha">
+              <h3>Nombre del producto</h3>
+              <p>Breve descripción del producto</p>
+              <p>4.33€</p>
+            </div>
+          </section>
+        <?php }else if($_GET['operacion'] == "carrito"){ ?>
+          <section class="finalizacion">
+            <table>
+              <thead>
+                <tr>
+                  <th>Producto</th>
+                  <th>Precio</th>
+                  <th>Unidades</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Producto</td>
+                  <td>Precio</td>
+                  <td>Unidades</td>
+                </tr>
+                <tr>
+                  <td>Producto</td>
+                  <td>Precio</td>
+                  <td>Unidades</td>
+                </tr>
+                <tr>
+                  <td colspan=2>Total</td>
+                  <td>Total</td>
+                </tr>
+              </tbody>
+            </table>
+            <a href="?operacion=finalizacion">Confirmar compra</a>
+          </section>
+        <?php }else if($_GET['operacion'] == "finalizacion"){ ?>
+          <section class="finalizacion">
+            <h3>Pedido finalizado</h3>
+            <p>Muchas gracias por tu compra</p>
+            <a href="?">Pulsa aqui para continuar navegando</a>
+          </section>
+        <?php } ?>
+      <?php }else{ ?>
+        <section class="catalogo">
+        <?php for($i = 0;$i<30;$i++){ ?>
+          <article>
+            <div class="imagen" style="background:url(producto.webp);background-size:cover;background-position:center center;"></div>
+            <h3>Nombre del producto</h3>
+            <p>Breve descripción del producto</p>
+            <p>4.33€</p>
+            <a href="?operacion=producto&producto=1">🛍 Comprar</a>
+          </article>
+        <?php } ?>
+        </section>
+      <?php } ?>
+    </main>
+    <footer>
+      (c) Jose Vicente Carratala
+    </footer>
+  </body>
+</html>
+```
+
+### diagrama
+<small>Creado: 2025-12-11 15:03</small>
+
+`diagrama.html`
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Diagrama exportado</title>
+<style>
+body {
+  margin: 0;
+  padding: 20px;
+  background: #f3f3f7;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+.page {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  width: 745.0780402289494px;
+  height: 438.5625203450519px;
+  overflow: visible;
+}
+
+/* formas básicas */
+.shape {
+  position: absolute;
+  min-width: 120px;
+  min-height: 40px;
+  padding: 6px 10px;
+  background: #ffffff;
+  border-radius: 4px;
+  border: 1px solid #9ca3af;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+}
+
+.shape.rectangle {
+  border-radius: 4px;
+}
+
+.shape.pill {
+  border-radius: 999px;
+}
+
+.shape.circle {
+  border-radius: 999px;
+  width: 80px;
+  height: 80px;
+  padding: 0;
+  justify-content: center;
+}
+
+/* texto libre */
+.shape.text {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  min-width: 20px;
+  min-height: 20px;
+}
+
+/* base de datos */
+.shape.db {
+  min-width: 120px;
+  min-height: 60px;
+  padding-top: 20px;
+  border-radius: 60px / 16px;
+  background: linear-gradient(180deg, #e5e7eb 0%, #ffffff 40%, #e5e7eb 100%);
+  position: absolute;
+  overflow: hidden;
+  text-align: center;
+}
+.shape.db::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 8px;
+  right: 8px;
+  height: 18px;
+  border-radius: 999px;
+  border: 1px solid #9ca3af;
+  background: radial-gradient(circle at 50% 30%, #ffffff 0%, #e5e7eb 70%);
+}
+.shape.db::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 8px;
+  right: 8px;
+  height: 18px;
+  border-radius: 999px;
+  border: 1px solid rgba(156, 163, 175, 0.6);
+  border-top: none;
+  background: radial-gradient(circle at 50% 70%, #e5e7eb 0%, #d1d5db 70%);
+}
+
+/* entidades ER */
+.shape.entity {
+  width: 220px;
+  min-height: 80px;
+  background: #ffffff;
+  border: 2px solid #111827;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.15);
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  overflow: hidden;
+  padding: 0;
+}
+.entity-header {
+  background: #f3f4f6;
+  padding: 4px 8px;
+  font-weight: 600;
+  text-align: center;
+  border-bottom: 1px solid #e5e7eb;
+}
+.entity-properties {
+  flex: 1;
+  padding: 4px 4px 0 4px;
+}
+.entity-property {
+  display: grid;
+  grid-template-columns: 14px 1fr 14px;
+  align-items: center;
+  column-gap: 4px;
+  padding: 2px 0;
+}
+.entity-property .property-name {
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+/* puertos */
+.port {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: 1px solid #111827;
+  background: #ffffff;
+}
+.port-left { justify-self: start; }
+.port-right { justify-self: end; }
+
+/* flechas rectas */
+.arrow {
+  position: absolute;
+  height: 2px;
+  background: #111827;
+  transform-origin: 0 50%;
+}
+.arrow::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid #111827;
+}
+.arrow-double::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%) rotate(180deg);
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid #111827;
+}
+
+/* flechas ortogonales */
+.ortho-arrow {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.ortho-arrow .ortho-seg {
+  position: absolute;
+  background: #111827;
+}
+.ortho-seg.seg-horizontal { height: 2px; }
+.ortho-seg.seg-vertical { width: 2px; }
+.ortho-arrowhead {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+.ortho-arrowhead.dir-right {
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid #111827;
+}
+.ortho-arrowhead.dir-left {
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 8px solid #111827;
+}
+.ortho-arrowhead.dir-down {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 8px solid #111827;
+}
+.ortho-arrowhead.dir-up {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 8px solid #111827;
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+<div class="shape entity" style="left:288.0624898274738px;top:216.56253390842005px;width:160.00003390842008px;height:181.99998643663187px;">
+  <div class="entity-header">Producto</div>
+  <div class="entity-properties">
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">id</div>
+      <div class="port port-right"></div>
+    </div>
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">titulo</div>
+      <div class="port port-right"></div>
+    </div>
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">descripcion</div>
+      <div class="port port-right"></div>
+    </div>
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">precio</div>
+      <div class="port port-right"></div>
+    </div>
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">imagen</div>
+      <div class="port port-right"></div>
+    </div>
+  </div>
+</div>
+<div class="shape entity" style="left:40px;top:40px;width:159.99998304578986px;height:158.000013563368px;">
+  <div class="entity-header">Cliente</div>
+  <div class="entity-properties">
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">id</div>
+      <div class="port port-right"></div>
+    </div>
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">nombre</div>
+      <div class="port port-right"></div>
+    </div>
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">apellidos</div>
+      <div class="port port-right"></div>
+    </div>
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">email</div>
+      <div class="port port-right"></div>
+    </div>
+  </div>
+</div>
+<div class="shape entity" style="left:288.31249660915785px;top:57.234395345052064px;width:159.99999999999994px;height:133.99997287326383px;">
+  <div class="entity-header">Pedido</div>
+  <div class="entity-properties">
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">id</div>
+      <div class="port port-right"></div>
+    </div>
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">fecha</div>
+      <div class="port port-right"></div>
+    </div>
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">cliente_id</div>
+      <div class="port port-right"></div>
+    </div>
+  </div>
+</div>
+<div class="shape entity" style="left:545.07817586263px;top:133.37500678168402px;width:159.99986436631937px;height:158.000013563368px;">
+  <div class="entity-header">LineaPedido</div>
+  <div class="entity-properties">
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">id</div>
+      <div class="port port-right"></div>
+    </div>
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">pedido_id</div>
+      <div class="port port-right"></div>
+    </div>
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">producto_id</div>
+      <div class="port port-right"></div>
+    </div>
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">cantidad</div>
+      <div class="port port-right"></div>
+    </div>
+  </div>
+</div>
+<div class="arrow" style="left:166.09373304578986px;top:87.98506350534757px;width:166.02908229898586px;transform:rotate(0.37792964126810247rad);"></div>
+<div class="arrow" style="left:416.20312160915785px;top:106.28629311859294px;width:180.49425302053035px;transform:rotate(0.5480175784279776rad);"></div>
+<div class="arrow" style="left:421.01567586263px;top:261.4577043470099px;width:152.8498955064719px;transform:rotate(-0.21746367920105833rad);"></div>
+</div>
+</body>
+</html>
+```
+
+### diagrama
+<small>Creado: 2025-12-11 15:03</small>
+
+`diagrama.json`
+
+```json
+{
+  "formas": [
+    {
+      "id": "forma-1",
+      "tipo": "entity",
+      "left": "509.509px",
+      "top": "574.102px",
+      "width": "",
+      "height": "",
+      "entityName": "Producto",
+      "properties": [
+        {
+          "id": "prop-1",
+          "name": "id"
+        },
+        {
+          "id": "prop-2",
+          "name": "titulo"
+        },
+        {
+          "id": "prop-3",
+          "name": "descripcion"
+        },
+        {
+          "id": "prop-4",
+          "name": "precio"
+        },
+        {
+          "id": "prop-5",
+          "name": "imagen"
+        }
+      ]
+    },
+    {
+      "id": "forma-2",
+      "tipo": "entity",
+      "left": "261.437px",
+      "top": "397.542px",
+      "width": "",
+      "height": "",
+      "entityName": "Cliente",
+      "properties": [
+        {
+          "id": "prop-6",
+          "name": "id"
+        },
+        {
+          "id": "prop-7",
+          "name": "nombre"
+        },
+        {
+          "id": "prop-8",
+          "name": "apellidos"
+        },
+        {
+          "id": "prop-9",
+          "name": "email"
+        }
+      ]
+    },
+    {
+      "id": "forma-4",
+      "tipo": "entity",
+      "left": "509.759px",
+      "top": "414.774px",
+      "width": "",
+      "height": "",
+      "entityName": "Pedido",
+      "properties": [
+        {
+          "id": "prop-14",
+          "name": "id"
+        },
+        {
+          "id": "prop-15",
+          "name": "fecha"
+        },
+        {
+          "id": "prop-16",
+          "name": "cliente_id"
+        }
+      ]
+    },
+    {
+      "id": "forma-5",
+      "tipo": "entity",
+      "left": "766.524px",
+      "top": "490.918px",
+      "width": "",
+      "height": "",
+      "entityName": "LineaPedido",
+      "properties": [
+        {
+          "id": "prop-17",
+          "name": "id"
+        },
+        {
+          "id": "prop-19",
+          "name": "pedido_id"
+        },
+        {
+          "id": "prop-20",
+          "name": "producto_id"
+        },
+        {
+          "id": "prop-21",
+          "name": "cantidad"
+        }
+      ]
+    }
+  ],
+  "flechas": [
+    {
+      "desde": {
+        "shapeId": "forma-2",
+        "propId": "prop-6",
+        "side": "right"
+      },
+      "hasta": {
+        "shapeId": "forma-4",
+        "propId": "prop-16",
+        "side": "left"
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-4",
+        "propId": "prop-14",
+        "side": "right"
+      },
+      "hasta": {
+        "shapeId": "forma-5",
+        "propId": "prop-19",
+        "side": "left"
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-1",
+        "propId": "prop-1",
+        "side": "right"
+      },
+      "hasta": {
+        "shapeId": "forma-5",
+        "propId": "prop-20",
+        "side": "left"
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    }
+  ]
+}
+```
+
+### diagrama
+<small>Creado: 2025-12-11 16:10</small>
+
+`diagrama.sql`
+
+```sql
+-- ============================================
+-- 1. CREACIÓN DE TABLA PRODUCTO
+-- ============================================
+CREATE TABLE producto (
+  id INT AUTO_INCREMENT,
+  titulo VARCHAR(255),
+  descripcion VARCHAR(255),
+  precio VARCHAR(255),
+  imagen VARCHAR(255),
+  PRIMARY KEY (id)
+);
+
+-- ============================================
+-- 2. CREACIÓN DE TABLA CLIENTE
+-- ============================================
+CREATE TABLE cliente (
+  id INT AUTO_INCREMENT,
+  nombre VARCHAR(255),
+  apellidos VARCHAR(255),
+  email VARCHAR(255),
+  PRIMARY KEY (id)
+);
+
+-- ============================================
+-- 3. CREACIÓN DE TABLA PEDIDO
+--    (depende de cliente)
+-- ============================================
+CREATE TABLE pedido (
+  id INT AUTO_INCREMENT,
+  fecha VARCHAR(255),
+  cliente_id INT,
+  PRIMARY KEY (id),
+  CONSTRAINT fk_pedido_1 FOREIGN KEY (cliente_id) REFERENCES cliente(id)
+);
+
+-- ============================================
+-- 4. CREACIÓN DE TABLA LINEAPEDIDO
+--    (depende de pedido y producto)
+-- ============================================
+CREATE TABLE lineapedido (
+  id INT AUTO_INCREMENT,
+  pedido_id INT,
+  producto_id INT,
+  cantidad VARCHAR(255),
+  PRIMARY KEY (id),
+  CONSTRAINT fk_lineapedido_1 FOREIGN KEY (pedido_id) REFERENCES pedido(id),
+  CONSTRAINT fk_lineapedido_2 FOREIGN KEY (producto_id) REFERENCES producto(id)
+);
+```
+
+### diagrama
+<small>Creado: 2025-12-11 15:03</small>
+
+`diagrama.svg`
+
+```
+<svg xmlns="http://www.w3.org/2000/svg" width="745.0780402289494" height="438.5625203450519" viewBox="0 0 745.0780402289494 438.5625203450519">
+
+  <defs>
+    <style>
+      text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 12px; fill: #111827; }
+      .shape-rect { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-entity { fill: #ffffff; stroke: #111827; stroke-width: 2; }
+      .shape-circle { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-pill { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-db { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .conn { stroke: #111827; stroke-width: 2; fill: none; }
+    </style>
+    <marker id="arrow-end" markerWidth="10" markerHeight="7" refX="10" refY="3.5"
+            orient="auto" markerUnits="strokeWidth">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#111827"/>
+    </marker>
+    <marker id="arrow-start" markerWidth="10" markerHeight="7" refX="0" refY="3.5"
+            orient="auto" markerUnits="strokeWidth">
+      <polygon points="10 0, 0 3.5, 10 7" fill="#111827"/>
+    </marker>
+  </defs>
+        
+<rect class="shape-entity" x="288.0624898274738" y="216.56253390842005" width="160.00003390842008" height="181.99998643663187" />
+<line x1="288.0624898274738" y1="246.56253390841997" x2="448.06252373589393" y2="246.56253390841997" stroke="#e5e7eb" stroke-width="1"/>
+<text x="368.06250678168385" y="236.06251356336787" text-anchor="middle">Producto</text>
+<text x="335.0937330457898" y="266.5624932183158">id</text>
+<text x="335.0937330457898" y="290.56253390841994">titulo</text>
+<text x="335.0937330457898" y="314.56250678168385">descripcion</text>
+<text x="335.0937330457898" y="338.56247965494777">precio</text>
+<text x="335.0937330457898" y="362.5625203450519">imagen</text>
+<rect class="shape-entity" x="40" y="40" width="159.99998304578986" height="158.000013563368" />
+<line x1="40" y1="70" x2="199.99998304578986" y2="70" stroke="#e5e7eb" stroke-width="1"/>
+<text x="119.99999152289493" y="59.49999660915799" text-anchor="middle">Cliente</text>
+<text x="93.906260172526" y="89.99999321831598">id</text>
+<text x="93.906260172526" y="114">nombre</text>
+<text x="93.906260172526" y="138.00000678168402">apellidos</text>
+<text x="93.906260172526" y="162.00001356336804">email</text>
+<rect class="shape-entity" x="288.31249660915785" y="57.234395345052064" width="159.99999999999994" height="133.99997287326383" />
+<line x1="288.31249660915785" y1="87.23439534505206" x2="448.3124966091578" y2="87.23439534505206" stroke="#e5e7eb" stroke-width="1"/>
+<text x="368.31249660915785" y="76.73439195421005" text-anchor="middle">Pedido</text>
+<text x="340.4062330457898" y="107.23438856336804">id</text>
+<text x="340.4062330457898" y="131.23439534505206">fecha</text>
+<text x="340.4062330457898" y="155.23436821831592">cliente_id</text>
+<rect class="shape-entity" x="545.07817586263" y="133.37500678168402" width="159.99986436631937" height="158.000013563368" />
+<line x1="545.07817586263" y1="163.37500678168396" x2="705.0780402289494" y2="163.37500678168396" stroke="#e5e7eb" stroke-width="1"/>
+<text x="625.0781080457897" y="152.87500339084195" text-anchor="middle">LineaPedido</text>
+<text x="590.2656487358938" y="183.375">id</text>
+<text x="590.2656487358938" y="207.37500678168396">pedido_id</text>
+<text x="590.2656487358938" y="231.37497965494777">producto_id</text>
+<text x="590.2656487358938" y="255.3750203450519">cantidad</text>
+<path class="conn" d="M 166.09373304578986 87.98506350534757 L 320.4062398274739 149.24929793128433" marker-end="url(#arrow-end)" />
+<path class="conn" d="M 416.20312160915785 106.28629311859294 L 570.2656216091577 200.32310222645913" marker-end="url(#arrow-end)" />
+<path class="conn" d="M 421.01567586263 261.4577043470099 L 570.2656216091577 228.47976852625368" marker-end="url(#arrow-end)" />
+</svg>
+```
+
+### insercion
+<small>Creado: 2025-12-11 15:08</small>
+
+`insercion.sql`
+
+```sql
+INSERT INTO cliente (id, nombre, apellidos, email) VALUES
+(1, 'Laura', 'Martínez López', 'laura@example.com'),
+(2, 'Carlos', 'Gómez Ruiz', 'carlos@example.com'),
+(3, 'María', 'Serrano Díaz', 'maria@example.com'),
+(4, 'Jorge', 'Pérez Sánchez', 'jorge@example.com'),
+(5, 'Elena', 'Ruiz Navarro', 'elena@example.com');
+
+INSERT INTO producto (id, titulo, descripcion, precio, imagen) VALUES
+(1, 'Camiseta Azul', 'Camiseta de algodón talla M', '19.99', 'camiseta_azul.jpg'),
+(2, 'Pantalón Negro', 'Pantalón vaquero negro unisex', '39.90', 'pantalon_negro.jpg'),
+(3, 'Sudadera Roja', 'Sudadera con capucha talla L', '29.95', 'sudadera_roja.jpg'),
+(4, 'Zapatillas Deportivas', 'Calzado deportivo ligero', '59.99', 'zapatillas.jpg'),
+(5, 'Gorra Negra', 'Gorra ajustable con visera', '12.50', 'gorra_negra.jpg'),
+(6, 'Calcetines Técnicos', 'Pack de 3 pares', '8.99', 'calcetines.jpg'),
+(7, 'Chaqueta Impermeable', 'Chaqueta cortavientos unisex', '79.99', 'chaqueta.jpg');
+
+
+INSERT INTO pedido (id, fecha, cliente_id) VALUES
+(1, '2025-02-01', 1),
+(2, '2025-02-02', 3),
+(3, '2025-02-02', 2),
+(4, '2025-02-03', 5),
+(5, '2025-02-04', 1),
+(6, '2025-02-05', 4),
+(7, '2025-02-06', 2),
+(8, '2025-02-07', 3);
+
+
+INSERT INTO lineapedido (id, pedido_id, producto_id, cantidad) VALUES
+-- Pedido 1
+(1, 1, 1, '2'),
+(2, 1, 5, '1'),
+(3, 1, 6, '3'),
+
+-- Pedido 2
+(4, 2, 3, '1'),
+(5, 2, 4, '1'),
+
+-- Pedido 3
+(6, 3, 2, '2'),
+(7, 3, 6, '1'),
+
+-- Pedido 4
+(8, 4, 7, '1'),
+(9, 4, 5, '2'),
+
+-- Pedido 5
+(10, 5, 1, '1'),
+(11, 5, 2, '1'),
+(12, 5, 3, '1'),
+
+-- Pedido 6
+(13, 6, 4, '1'),
+
+-- Pedido 7
+(14, 7, 6, '4'),
+(15, 7, 1, '2'),
+
+-- Pedido 8
+(16, 8, 7, '1'),
+(17, 8, 3, '2'),
+(18, 8, 5, '1');
+```
+
+### usuario
+<small>Creado: 2025-12-11 15:23</small>
+
+`usuario.sql`
+
+```sql
+CREATE USER 
+'tiendadam'@'localhost' 
+IDENTIFIED BY 'Tiendadam123$';
+
+GRANT USAGE ON *.* TO 'tiendadam'@'localhost';
+
+ALTER USER 'tiendadam'@'localhost' 
+REQUIRE NONE 
+WITH MAX_QUERIES_PER_HOUR 0 
+MAX_CONNECTIONS_PER_HOUR 0 
+MAX_UPDATES_PER_HOUR 0 
+MAX_USER_CONNECTIONS 0;
+
+GRANT ALL PRIVILEGES ON `tiendadam`.* 
+TO 'tiendadam'@'localhost';
+
+FLUSH PRIVILEGES;
+```
 
 
 

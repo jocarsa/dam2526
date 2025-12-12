@@ -23364,6 +23364,6188 @@ Este código proporciona una base sólida para crear simulaciones más complejas
 <a id="fuentes-de-audio-propiedades"></a>
 ## Fuentes de audio. Propiedades
 
+### robot inicial
+<small>Creado: 2025-12-10 20:04</small>
+
+`001-robot inicial.html`
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Roomba-like Robot Simulation</title>
+    <style>
+        body {
+            margin: 0;
+            background: #222;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #eee;
+            font-family: sans-serif;
+        }
+        #container {
+            position: relative;
+        }
+        canvas {
+            background: #111;
+            border: 1px solid #555;
+            display: block;
+        }
+        #info {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            background: rgba(0,0,0,0.6);
+            padding: 6px 10px;
+            font-size: 12px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <canvas id="sim" width="800" height="600"></canvas>
+    <div id="info">
+        Roomba-like robot with ray sensors<br>
+        Green rays = no hit, Red rays = hit
+    </div>
+</div>
+
+<script>
+/* ---------- Basic setup ---------- */
+const canvas = document.getElementById("sim");
+const ctx = canvas.getContext("2d");
+
+const walls = [];
+
+// Create some maze walls (axis-aligned rectangles)
+function createMaze() {
+    const W = canvas.width;
+    const H = canvas.height;
+
+    // Outer border
+    walls.push({x: 0, y: 0, w: W, h: 20});
+    walls.push({x: 0, y: H - 20, w: W, h: 20});
+    walls.push({x: 0, y: 0, w: 20, h: H});
+    walls.push({x: W - 20, y: 0, w: 20, h: H});
+
+    // Internal walls
+    walls.push({x: 150, y: 80, w: 20,  h: 350});
+    walls.push({x: 300, y: 200, w: 250, h: 20});
+    walls.push({x: 450, y: 80, w: 20,  h: 150});
+    walls.push({x: 550, y: 280, w: 20,  h: 250});
+    walls.push({x: 220, y: 420, w: 280, h: 20});
+}
+
+function drawWalls() {
+    ctx.fillStyle = "#444";
+    for (const w of walls) {
+        ctx.fillRect(w.x, w.y, w.w, w.h);
+    }
+}
+
+/* ---------- Geometry helpers ---------- */
+
+// Segment–segment intersection (p0->p1 with p2->p3)
+// Returns {x, y, t, u} or null
+function segmentIntersection(p0, p1, p2, p3) {
+    const s1x = p1.x - p0.x;
+    const s1y = p1.y - p0.y;
+    const s2x = p3.x - p2.x;
+    const s2y = p3.y - p2.y;
+
+    const denom = (-s2x * s1y + s1x * s2y);
+    if (denom === 0) return null; // Parallel or collinear
+
+    const s = (-s1y * (p0.x - p2.x) + s1x * (p0.y - p2.y)) / denom;
+    const t = ( s2x * (p0.y - p2.y) - s2y * (p0.x - p2.x)) / denom;
+
+    if (s >= 0 && s <= 1 && t >= 0 && t <= 1) {
+        return {
+            x: p0.x + (t * s1x),
+            y: p0.y + (t * s1y),
+            t: t,
+            u: s
+        };
+    }
+    return null;
+}
+
+// Circle vs rectangle collision (robot is a circle, walls are rects)
+function circleIntersectsRect(cx, cy, radius, rect) {
+    const closestX = Math.max(rect.x, Math.min(cx, rect.x + rect.w));
+    const closestY = Math.max(rect.y, Math.min(cy, rect.y + rect.h));
+    const dx = cx - closestX;
+    const dy = cy - closestY;
+    return (dx * dx + dy * dy) < (radius * radius);
+}
+
+/* ---------- Robot class ---------- */
+
+class Robot {
+    constructor(x, y) {
+        this.x = x;
+        this.y = y;
+        this.radius = 15;
+        this.angle = Math.random() * Math.PI * 2; // heading in radians
+        this.speed = 1.8;
+
+        // Sensor configuration (angles relative to heading)
+        this.sensorLength = 100;
+        this.sensorAngles = [
+            -0.6,  // far left
+            -0.25, // mid left
+            0,     // center
+            0.25,  // mid right
+            0.6    // far right
+        ];
+
+        this.sensorHits = [];  // info per sensor for drawing
+
+        // Cooldown after a turn to avoid jitter
+        this.turnCooldown = 0;
+        this.turnCooldownMax = 20;
+    }
+
+    update() {
+        // Check sensors (raycasting)
+        const hits = this.checkSensors();
+
+        // If any sensor is hitting something and we are not in cooldown, rotate
+        const anyHit = hits.some(h => h.hit);
+        if (anyHit && this.turnCooldown === 0) {
+            // Random direction and magnitude
+            const direction = Math.random() < 0.5 ? -1 : 1;
+            const angleChange = (0.4 + Math.random() * 1.0) * direction; // ~23° to ~80°
+            this.angle += angleChange;
+            this.turnCooldown = this.turnCooldownMax;
+        }
+
+        if (this.turnCooldown > 0) {
+            this.turnCooldown--;
+        }
+
+        // Move forward
+        const newX = this.x + Math.cos(this.angle) * this.speed;
+        const newY = this.y + Math.sin(this.angle) * this.speed;
+
+        // Check collision with walls
+        let collided = false;
+        for (const w of walls) {
+            if (circleIntersectsRect(newX, newY, this.radius, w)) {
+                collided = true;
+                break;
+            }
+        }
+
+        if (!collided) {
+            this.x = newX;
+            this.y = newY;
+        } else {
+            // If collision, backtrack slightly and turn randomly
+            const backX = this.x - Math.cos(this.angle) * this.speed * 2;
+            const backY = this.y - Math.sin(this.angle) * this.speed * 2;
+            this.x = backX;
+            this.y = backY;
+            this.angle += (Math.random() - 0.5) * Math.PI; // big random turn
+            this.turnCooldown = this.turnCooldownMax;
+        }
+    }
+
+    checkSensors() {
+        this.sensorHits = [];
+
+        for (const relAngle of this.sensorAngles) {
+            const sensorDir = this.angle + relAngle;
+
+            const start = { x: this.x, y: this.y };
+            const end = {
+                x: this.x + Math.cos(sensorDir) * this.sensorLength,
+                y: this.y + Math.sin(sensorDir) * this.sensorLength
+            };
+
+            let closestHit = null;
+            let closestT = Infinity;
+
+            // Check ray against all walls (their edges)
+            for (const w of walls) {
+                const edges = [
+                    // top
+                    { a: { x: w.x,         y: w.y },         b: { x: w.x + w.w, y: w.y } },
+                    // bottom
+                    { a: { x: w.x,         y: w.y + w.h },   b: { x: w.x + w.w, y: w.y + w.h } },
+                    // left
+                    { a: { x: w.x,         y: w.y },         b: { x: w.x,       y: w.y + w.h } },
+                    // right
+                    { a: { x: w.x + w.w,   y: w.y },         b: { x: w.x + w.w, y: w.y + w.h } }
+                ];
+
+                for (const edge of edges) {
+                    const result = segmentIntersection(start, end, edge.a, edge.b);
+                    if (result && result.t < closestT) {
+                        closestT = result.t;
+                        closestHit = { x: result.x, y: result.y };
+                    }
+                }
+            }
+
+            if (closestHit) {
+                this.sensorHits.push({
+                    angle: sensorDir,
+                    hit: true,
+                    from: start,
+                    to: closestHit
+                });
+            } else {
+                this.sensorHits.push({
+                    angle: sensorDir,
+                    hit: false,
+                    from: start,
+                    to: end
+                });
+            }
+        }
+
+        return this.sensorHits;
+    }
+
+    draw(ctx) {
+        // Draw sensors
+        for (const s of this.sensorHits) {
+            ctx.beginPath();
+            ctx.moveTo(s.from.x, s.from.y);
+            ctx.lineTo(s.to.x, s.to.y);
+            ctx.strokeStyle = s.hit ? "#ff5555" : "#55ff55"; // red if hit, green otherwise
+            ctx.lineWidth = 1;
+            ctx.stroke();
+        }
+
+        // Draw robot body
+        ctx.save();
+        ctx.translate(this.x, this.y);
+        ctx.rotate(this.angle);
+
+        // Body
+        ctx.beginPath();
+        ctx.arc(0, 0, this.radius, 0, Math.PI * 2);
+        ctx.fillStyle = "#dddddd";
+        ctx.fill();
+        ctx.lineWidth = 2;
+        ctx.strokeStyle = "#333333";
+        ctx.stroke();
+
+        // "Front" indicator
+        ctx.beginPath();
+        ctx.moveTo(0, 0);
+        ctx.lineTo(this.radius, 0);
+        ctx.strokeStyle = "#00aaff";
+        ctx.lineWidth = 3;
+        ctx.stroke();
+
+        ctx.restore();
+    }
+}
+
+/* ---------- Simulation loop ---------- */
+
+createMaze();
+
+// You can easily create more robots here
+const robots = [
+    new Robot(100, 100)
+    // new Robot(700, 500),
+    // new Robot(400, 300)
+];
+
+function loop() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    drawWalls();
+
+    for (const r of robots) {
+        r.update();
+        r.draw(ctx);
+    }
+
+    requestAnimationFrame(loop);
+}
+
+loop();
+</script>
+</body>
+</html>
+```
+
+### muchos robots
+<small>Creado: 2025-12-10 20:06</small>
+
+`002-muchos robots.html`
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Roomba-like Robot Simulation</title>
+    <style>
+        body {
+            margin: 0;
+            background: #222;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #eee;
+            font-family: sans-serif;
+        }
+        #container {
+            position: relative;
+        }
+        canvas {
+            background: #111;
+            border: 1px solid #555;
+            display: block;
+        }
+        #info {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            background: rgba(0,0,0,0.6);
+            padding: 6px 10px;
+            font-size: 12px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <canvas id="sim" width="800" height="600"></canvas>
+    <div id="info">
+        100 Roomba-like robots with ray sensors<br>
+        All start at top-left · Goal at bottom-right<br>
+        Simulation stops when one reaches the goal
+    </div>
+</div>
+
+<script>
+/* ---------- Basic setup ---------- */
+const canvas = document.getElementById("sim");
+const ctx = canvas.getContext("2d");
+
+const walls = [];
+
+const GOAL_RADIUS = 35;
+const GOAL_X = canvas.width - 80;
+const GOAL_Y = canvas.height - 80;
+
+let gameOver = false;
+
+// Create some maze walls (axis-aligned rectangles)
+function createMaze() {
+    const W = canvas.width;
+    const H = canvas.height;
+
+    // Outer border
+    walls.push({x: 0, y: 0, w: W, h: 20});
+    walls.push({x: 0, y: H - 20, w: W, h: 20});
+    walls.push({x: 0, y: 0, w: 20, h: H});
+    walls.push({x: W - 20, y: 0, w: 20, h: H});
+
+    // Internal walls
+    walls.push({x: 150, y: 80, w: 20,  h: 350});
+    walls.push({x: 300, y: 200, w: 250, h: 20});
+    walls.push({x: 450, y: 80, w: 20,  h: 150});
+    walls.push({x: 550, y: 280, w: 20,  h: 250});
+    walls.push({x: 220, y: 420, w: 280, h: 20});
+}
+
+function drawWalls() {
+    ctx.fillStyle = "#444";
+    for (const w of walls) {
+        ctx.fillRect(w.x, w.y, w.w, w.h);
+    }
+}
+
+function drawGoal() {
+    ctx.save();
+    ctx.beginPath();
+    ctx.arc(GOAL_X, GOAL_Y, GOAL_RADIUS, 0, Math.PI * 2);
+    ctx.fillStyle = "rgba(50, 180, 50, 0.3)";
+    ctx.fill();
+    ctx.lineWidth = 2;
+    ctx.strokeStyle = "#00ff88";
+    ctx.stroke();
+
+    ctx.font = "14px sans-serif";
+    ctx.fillStyle = "#00ff88";
+    ctx.textAlign = "center";
+    ctx.fillText("GOAL", GOAL_X, GOAL_Y + 4);
+    ctx.restore();
+}
+
+/* ---------- Geometry helpers ---------- */
+
+// Segment–segment intersection (p0->p1 with p2->p3)
+// Returns {x, y, t, u} or null
+function segmentIntersection(p0, p1, p2, p3) {
+    const s1x = p1.x - p0.x;
+    const s1y = p1.y - p0.y;
+    const s2x = p3.x - p2.x;
+    const s2y = p3.y - p2.y;
+
+    const denom = (-s2x * s1y + s1x * s2y);
+    if (denom === 0) return null; // Parallel or collinear
+
+    const s = (-s1y * (p0.x - p2.x) + s1x * (p0.y - p2.y)) / denom;
+    const t = ( s2x * (p0.y - p2.y) - s2y * (p0.x - p2.x)) / denom;
+
+    if (s >= 0 && s <= 1 && t >= 0 && t <= 1) {
+        return {
+            x: p0.x + (t * s1x),
+            y: p0.y + (t * s1y),
+            t: t,
+            u: s
+        };
+    }
+    return null;
+}
+
+// Circle vs rectangle collision (robot is a circle, walls are rects)
+function circleIntersectsRect(cx, cy, radius, rect) {
+    const closestX = Math.max(rect.x, Math.min(cx, rect.x + rect.w));
+    const closestY = Math.max(rect.y, Math.min(cy, rect.y + rect.h));
+    const dx = cx - closestX;
+    const dy = cy - closestY;
+    return (dx * dx + dy * dy) < (radius * radius);
+}
+
+/* ---------- Robot class ---------- */
+
+class Robot {
+    constructor(x, y) {
+        this.x = x;
+        this.y = y;
+        this.radius = 10;
+        this.angle = Math.random() * Math.PI * 2; // heading in radians
+        this.speed = 1.8;
+
+        // Sensor configuration (angles relative to heading)
+        this.sensorLength = 100;
+        this.sensorAngles = [
+            -0.6,  // far left
+            -0.25, // mid left
+            0,     // center
+            0.25,  // mid right
+            0.6    // far right
+        ];
+
+        this.sensorHits = [];  // info per sensor for drawing
+
+        // Cooldown after a turn to avoid jitter
+        this.turnCooldown = 0;
+        this.turnCooldownMax = 20;
+    }
+
+    update() {
+        if (gameOver) return;
+
+        // Check sensors (raycasting)
+        const hits = this.checkSensors();
+
+        // If any sensor is hitting something and we are not in cooldown, rotate
+        const anyHit = hits.some(h => h.hit);
+        if (anyHit && this.turnCooldown === 0) {
+            // Random direction and magnitude
+            const direction = Math.random() < 0.5 ? -1 : 1;
+            const angleChange = (0.4 + Math.random() * 1.0) * direction; // ~23° to ~80°
+            this.angle += angleChange;
+            this.turnCooldown = this.turnCooldownMax;
+        }
+
+        if (this.turnCooldown > 0) {
+            this.turnCooldown--;
+        }
+
+        // Move forward
+        const newX = this.x + Math.cos(this.angle) * this.speed;
+        const newY = this.y + Math.sin(this.angle) * this.speed;
+
+        // Check collision with walls
+        let collided = false;
+        for (const w of walls) {
+            if (circleIntersectsRect(newX, newY, this.radius, w)) {
+                collided = true;
+                break;
+            }
+        }
+
+        if (!collided) {
+            this.x = newX;
+            this.y = newY;
+        } else {
+            // If collision, backtrack slightly and turn randomly
+            const backX = this.x - Math.cos(this.angle) * this.speed * 2;
+            const backY = this.y - Math.sin(this.angle) * this.speed * 2;
+            this.x = backX;
+            this.y = backY;
+            this.angle += (Math.random() - 0.5) * Math.PI; // big random turn
+            this.turnCooldown = this.turnCooldownMax;
+        }
+    }
+
+    checkSensors() {
+        this.sensorHits = [];
+
+        for (const relAngle of this.sensorAngles) {
+            const sensorDir = this.angle + relAngle;
+
+            const start = { x: this.x, y: this.y };
+            const end = {
+                x: this.x + Math.cos(sensorDir) * this.sensorLength,
+                y: this.y + Math.sin(sensorDir) * this.sensorLength
+            };
+
+            let closestHit = null;
+            let closestT = Infinity;
+
+            // Check ray against all walls (their edges)
+            for (const w of walls) {
+                const edges = [
+                    // top
+                    { a: { x: w.x,         y: w.y },         b: { x: w.x + w.w, y: w.y } },
+                    // bottom
+                    { a: { x: w.x,         y: w.y + w.h },   b: { x: w.x + w.w, y: w.y + w.h } },
+                    // left
+                    { a: { x: w.x,         y: w.y },         b: { x: w.x,       y: w.y + w.h } },
+                    // right
+                    { a: { x: w.x + w.w,   y: w.y },         b: { x: w.x + w.w, y: w.y + w.h } }
+                ];
+
+                for (const edge of edges) {
+                    const result = segmentIntersection(start, end, edge.a, edge.b);
+                    if (result && result.t < closestT) {
+                        closestT = result.t;
+                        closestHit = { x: result.x, y: result.y };
+                    }
+                }
+            }
+
+            if (closestHit) {
+                this.sensorHits.push({
+                    angle: sensorDir,
+                    hit: true,
+                    from: start,
+                    to: closestHit
+                });
+            } else {
+                this.sensorHits.push({
+                    angle: sensorDir,
+                    hit: false,
+                    from: start,
+                    to: end
+                });
+            }
+        }
+
+        return this.sensorHits;
+    }
+
+    hasReachedGoal() {
+        const dx = this.x - GOAL_X;
+        const dy = this.y - GOAL_Y;
+        const dist2 = dx * dx + dy * dy;
+        return dist2 < (GOAL_RADIUS * GOAL_RADIUS);
+    }
+
+    draw(ctx) {
+        // Draw sensors
+        for (const s of this.sensorHits) {
+            ctx.beginPath();
+            ctx.moveTo(s.from.x, s.from.y);
+            ctx.lineTo(s.to.x, s.to.y);
+            ctx.strokeStyle = s.hit ? "#ff5555" : "#55ff55"; // red if hit, green otherwise
+            ctx.lineWidth = 1;
+            ctx.stroke();
+        }
+
+        // Draw robot body
+        ctx.save();
+        ctx.translate(this.x, this.y);
+        ctx.rotate(this.angle);
+
+        // Body
+        ctx.beginPath();
+        ctx.arc(0, 0, this.radius, 0, Math.PI * 2);
+        ctx.fillStyle = "#dddddd";
+        ctx.fill();
+        ctx.lineWidth = 1.5;
+        ctx.strokeStyle = "#333333";
+        ctx.stroke();
+
+        // "Front" indicator
+        ctx.beginPath();
+        ctx.moveTo(0, 0);
+        ctx.lineTo(this.radius, 0);
+        ctx.strokeStyle = "#00aaff";
+        ctx.lineWidth = 2;
+        ctx.stroke();
+
+        ctx.restore();
+    }
+}
+
+/* ---------- Simulation loop ---------- */
+
+createMaze();
+
+// Create 100 robots starting near the top-left corner, inside the maze
+const robots = [];
+const NUM_ROBOTS = 100;
+
+// Safe area near top-left, away from outer walls (20px border) and first vertical wall (x=150)
+for (let i = 0; i < NUM_ROBOTS; i++) {
+    const startX = 40 + Math.random() * 80; // between 40 and 120
+    const startY = 40 + Math.random() * 80; // between 40 and 120
+    robots.push(new Robot(startX, startY));
+}
+
+function drawGameOverOverlay() {
+    ctx.save();
+    ctx.fillStyle = "rgba(0, 0, 0, 0.7)";
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    ctx.fillStyle = "#ffffff";
+    ctx.textAlign = "center";
+    ctx.font = "28px sans-serif";
+    ctx.fillText("A robot reached the goal!", canvas.width / 2, canvas.height / 2 - 10);
+
+    ctx.font = "16px sans-serif";
+    ctx.fillText("Reload the page to run the simulation again.", canvas.width / 2, canvas.height / 2 + 20);
+    ctx.restore();
+}
+
+function loop() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    drawWalls();
+    drawGoal();
+
+    let someoneReached = false;
+
+    for (const r of robots) {
+        r.update();
+        r.draw(ctx);
+        if (!gameOver && r.hasReachedGoal()) {
+            someoneReached = true;
+        }
+    }
+
+    if (someoneReached) {
+        gameOver = true;
+        drawGameOverOverlay();
+        return; // stop the loop
+    }
+
+    if (!gameOver) {
+        requestAnimationFrame(loop);
+    }
+}
+
+loop();
+</script>
+</body>
+</html>
+```
+
+### generaciones de robots
+<small>Creado: 2025-12-10 20:09</small>
+
+`003-generaciones de robots.html`
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Evolving Roomba Robots</title>
+    <style>
+        body {
+            margin: 0;
+            background: #222;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #eee;
+            font-family: sans-serif;
+        }
+        #container {
+            position: relative;
+        }
+        canvas {
+            background: #111;
+            border: 1px solid #555;
+            display: block;
+        }
+        #info {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            background: rgba(0,0,0,0.6);
+            padding: 6px 10px;
+            font-size: 12px;
+            border-radius: 4px;
+            white-space: pre-line;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <canvas id="sim" width="800" height="600"></canvas>
+    <div id="info"></div>
+</div>
+
+<script>
+/* ---------- Basic setup ---------- */
+const canvas = document.getElementById("sim");
+const ctx = canvas.getContext("2d");
+const infoDiv = document.getElementById("info");
+
+const walls = [];
+
+const GOAL_RADIUS = 35;
+const GOAL_X = canvas.width - 80;
+const GOAL_Y = canvas.height - 80;
+
+const NUM_ROBOTS = 100;
+let generation = 1;
+
+// "Genes" of the best robot so far (winner of last generation)
+let bestGenes = null;
+
+// Default base genes for the very first generation
+const defaultGenes = {
+    radius: 10,
+    speed: 1.8,
+    sensorLength: 100,
+    sensorAngles: [-0.6, -0.25, 0, 0.25, 0.6],
+    turnCooldownMax: 20,
+    baseTurnAngle: 0.4,
+    randomTurnRange: 1.0
+};
+
+let robots = [];
+
+// Create some maze walls (axis-aligned rectangles)
+function createMaze() {
+    const W = canvas.width;
+    const H = canvas.height;
+
+    // Outer border
+    walls.push({x: 0, y: 0, w: W, h: 20});
+    walls.push({x: 0, y: H - 20, w: W, h: 20});
+    walls.push({x: 0, y: 0, w: 20, h: H});
+    walls.push({x: W - 20, y: 0, w: 20, h: H});
+
+    // Internal walls
+    walls.push({x: 150, y: 80, w: 20,  h: 350});
+    walls.push({x: 300, y: 200, w: 250, h: 20});
+    walls.push({x: 450, y: 80, w: 20,  h: 150});
+    walls.push({x: 550, y: 280, w: 20,  h: 250});
+    walls.push({x: 220, y: 420, w: 280, h: 20});
+}
+
+function drawWalls() {
+    ctx.fillStyle = "#444";
+    for (const w of walls) {
+        ctx.fillRect(w.x, w.y, w.w, w.h);
+    }
+}
+
+function drawGoal() {
+    ctx.save();
+    ctx.beginPath();
+    ctx.arc(GOAL_X, GOAL_Y, GOAL_RADIUS, 0, Math.PI * 2);
+    ctx.fillStyle = "rgba(50, 180, 50, 0.3)";
+    ctx.fill();
+    ctx.lineWidth = 2;
+    ctx.strokeStyle = "#00ff88";
+    ctx.stroke();
+
+    ctx.font = "14px sans-serif";
+    ctx.fillStyle = "#00ff88";
+    ctx.textAlign = "center";
+    ctx.fillText("GOAL", GOAL_X, GOAL_Y + 4);
+    ctx.restore();
+}
+
+/* ---------- Geometry helpers ---------- */
+
+// Segment–segment intersection (p0->p1 with p2->p3)
+// Returns {x, y, t, u} or null
+function segmentIntersection(p0, p1, p2, p3) {
+    const s1x = p1.x - p0.x;
+    const s1y = p1.y - p0.y;
+    const s2x = p3.x - p2.x;
+    const s2y = p3.y - p2.y;
+
+    const denom = (-s2x * s1y + s1x * s2y);
+    if (denom === 0) return null; // Parallel or collinear
+
+    const s = (-s1y * (p0.x - p2.x) + s1x * (p0.y - p2.y)) / denom;
+    const t = ( s2x * (p0.y - p2.y) - s2y * (p0.x - p2.x)) / denom;
+
+    if (s >= 0 && s <= 1 && t >= 0 && t <= 1) {
+        return {
+            x: p0.x + (t * s1x),
+            y: p0.y + (t * s1y),
+            t: t,
+            u: s
+        };
+    }
+    return null;
+}
+
+// Circle vs rectangle collision (robot is a circle, walls are rects)
+function circleIntersectsRect(cx, cy, radius, rect) {
+    const closestX = Math.max(rect.x, Math.min(cx, rect.x + rect.w));
+    const closestY = Math.max(rect.y, Math.min(cy, rect.y + rect.h));
+    const dx = cx - closestX;
+    const dy = cy - closestY;
+    return (dx * dx + dy * dy) < (radius * radius);
+}
+
+/* ---------- Robot class ---------- */
+
+class Robot {
+    constructor(x, y, genes) {
+        const g = genes || defaultGenes;
+
+        this.x = x;
+        this.y = y;
+        this.radius = g.radius;
+        this.angle = Math.random() * Math.PI * 2; // heading in radians
+        this.speed = g.speed;
+
+        // Sensor configuration (angles relative to heading)
+        this.sensorLength = g.sensorLength;
+        this.sensorAngles = g.sensorAngles.slice();
+
+        this.sensorHits = [];  // info per sensor for drawing
+
+        // Turn behavior
+        this.turnCooldown = 0;
+        this.turnCooldownMax = g.turnCooldownMax;
+        this.baseTurnAngle = g.baseTurnAngle;
+        this.randomTurnRange = g.randomTurnRange;
+    }
+
+    update() {
+        // Check sensors (raycasting)
+        const hits = this.checkSensors();
+
+        // If any sensor is hitting something and we are not in cooldown, rotate
+        const anyHit = hits.some(h => h.hit);
+        if (anyHit && this.turnCooldown === 0) {
+            // Random direction and magnitude based on genes
+            const direction = Math.random() < 0.5 ? -1 : 1;
+            const angleChange =
+                (this.baseTurnAngle + Math.random() * this.randomTurnRange) * direction;
+            this.angle += angleChange;
+            this.turnCooldown = this.turnCooldownMax;
+        }
+
+        if (this.turnCooldown > 0) {
+            this.turnCooldown--;
+        }
+
+        // Move forward
+        const newX = this.x + Math.cos(this.angle) * this.speed;
+        const newY = this.y + Math.sin(this.angle) * this.speed;
+
+        // Check collision with walls
+        let collided = false;
+        for (const w of walls) {
+            if (circleIntersectsRect(newX, newY, this.radius, w)) {
+                collided = true;
+                break;
+            }
+        }
+
+        if (!collided) {
+            this.x = newX;
+            this.y = newY;
+        } else {
+            // If collision, backtrack slightly and turn randomly
+            const backX = this.x - Math.cos(this.angle) * this.speed * 2;
+            const backY = this.y - Math.sin(this.angle) * this.speed * 2;
+            this.x = backX;
+            this.y = backY;
+            this.angle += (Math.random() - 0.5) * Math.PI; // big random turn
+            this.turnCooldown = this.turnCooldownMax;
+        }
+    }
+
+    checkSensors() {
+        this.sensorHits = [];
+
+        for (const relAngle of this.sensorAngles) {
+            const sensorDir = this.angle + relAngle;
+
+            const start = { x: this.x, y: this.y };
+            const end = {
+                x: this.x + Math.cos(sensorDir) * this.sensorLength,
+                y: this.y + Math.sin(sensorDir) * this.sensorLength
+            };
+
+            let closestHit = null;
+            let closestT = Infinity;
+
+            // Check ray against all walls (their edges)
+            for (const w of walls) {
+                const edges = [
+                    // top
+                    { a: { x: w.x,         y: w.y },         b: { x: w.x + w.w, y: w.y } },
+                    // bottom
+                    { a: { x: w.x,         y: w.y + w.h },   b: { x: w.x + w.w, y: w.y + w.h } },
+                    // left
+                    { a: { x: w.x,         y: w.y },         b: { x: w.x,       y: w.y + w.h } },
+                    // right
+                    { a: { x: w.x + w.w,   y: w.y },         b: { x: w.x + w.w, y: w.y + w.h } }
+                ];
+
+                for (const edge of edges) {
+                    const result = segmentIntersection(start, end, edge.a, edge.b);
+                    if (result && result.t < closestT) {
+                        closestT = result.t;
+                        closestHit = { x: result.x, y: result.y };
+                    }
+                }
+            }
+
+            if (closestHit) {
+                this.sensorHits.push({
+                    angle: sensorDir,
+                    hit: true,
+                    from: start,
+                    to: closestHit
+                });
+            } else {
+                this.sensorHits.push({
+                    angle: sensorDir,
+                    hit: false,
+                    from: start,
+                    to: end
+                });
+            }
+        }
+
+        return this.sensorHits;
+    }
+
+    hasReachedGoal() {
+        const dx = this.x - GOAL_X;
+        const dy = this.y - GOAL_Y;
+        const dist2 = dx * dx + dy * dy;
+        return dist2 < (GOAL_RADIUS * GOAL_RADIUS);
+    }
+
+    draw(ctx) {
+        // Draw sensors
+        for (const s of this.sensorHits) {
+            ctx.beginPath();
+            ctx.moveTo(s.from.x, s.from.y);
+            ctx.lineTo(s.to.x, s.to.y);
+            ctx.strokeStyle = s.hit ? "#ff5555" : "#55ff55"; // red if hit, green otherwise
+            ctx.lineWidth = 1;
+            ctx.stroke();
+        }
+
+        // Draw robot body
+        ctx.save();
+        ctx.translate(this.x, this.y);
+        ctx.rotate(this.angle);
+
+        // Body
+        ctx.beginPath();
+        ctx.arc(0, 0, this.radius, 0, Math.PI * 2);
+        ctx.fillStyle = "#dddddd";
+        ctx.fill();
+        ctx.lineWidth = 1.5;
+        ctx.strokeStyle = "#333333";
+        ctx.stroke();
+
+        // "Front" indicator
+        ctx.beginPath();
+        ctx.moveTo(0, 0);
+        ctx.lineTo(this.radius, 0);
+        ctx.strokeStyle = "#00aaff";
+        ctx.lineWidth = 2;
+        ctx.stroke();
+
+        ctx.restore();
+    }
+}
+
+/* ---------- Evolution helpers ---------- */
+
+// Mutate a numeric gene by a factor (e.g. 0.2 = ±20%)
+function mutateValue(value, factor, minVal, maxVal) {
+    const delta = (Math.random() * 2 - 1) * factor; // [-factor, factor]
+    let v = value * (1 + delta);
+    if (minVal !== undefined) v = Math.max(minVal, v);
+    if (maxVal !== undefined) v = Math.min(maxVal, v);
+    return v;
+}
+
+// Create a mutated copy of parent's genes
+function mutateGenes(parent) {
+    const g = {
+        radius: parent.radius, // keep radius constant, or mutate slightly if you want
+        speed: mutateValue(parent.speed, 0.2, 0.5, 4.0),
+        sensorLength: mutateValue(parent.sensorLength, 0.2, 40, 200),
+        turnCooldownMax: Math.round(mutateValue(parent.turnCooldownMax, 0.3, 5, 60)),
+        baseTurnAngle: mutateValue(parent.baseTurnAngle, 0.3, 0.1, 1.0),
+        randomTurnRange: mutateValue(parent.randomTurnRange, 0.3, 0.2, 2.0),
+        sensorAngles: parent.sensorAngles.slice()
+    };
+
+    // Slightly perturb each sensor angle
+    for (let i = 0; i < g.sensorAngles.length; i++) {
+        g.sensorAngles[i] += (Math.random() * 2 - 1) * 0.1; // ±0.1 rad
+    }
+
+    // Optional: sort angles so they're still roughly ordered
+    g.sensorAngles.sort((a, b) => a - b);
+
+    return g;
+}
+
+// Extract genes from a winning robot
+function extractGenesFromRobot(robot) {
+    return {
+        radius: robot.radius,
+        speed: robot.speed,
+        sensorLength: robot.sensorLength,
+        sensorAngles: robot.sensorAngles.slice(),
+        turnCooldownMax: robot.turnCooldownMax,
+        baseTurnAngle: robot.baseTurnAngle,
+        randomTurnRange: robot.randomTurnRange
+    };
+}
+
+/* ---------- Simulation management ---------- */
+
+function resetSimulation() {
+    robots = [];
+
+    const parentGenes = bestGenes || defaultGenes;
+
+    for (let i = 0; i < NUM_ROBOTS; i++) {
+        // First generation uses defaultGenes directly
+        // Later generations use mutated genes from the best
+        const genes = bestGenes ? mutateGenes(parentGenes) : parentGenes;
+
+        // Safe area near top-left, away from outer walls and first vertical wall
+        const startX = 40 + Math.random() * 80; // between 40 and 120
+        const startY = 40 + Math.random() * 80; // between 40 and 120
+
+        robots.push(new Robot(startX, startY, genes));
+    }
+}
+
+function updateInfo() {
+    let text = `Generation: ${generation}
+Robots: ${NUM_ROBOTS}`;
+
+    if (bestGenes) {
+        text += `
+
+Best genes (last winner):
+- speed: ${bestGenes.speed.toFixed(2)}
+- sensorLength: ${bestGenes.sensorLength.toFixed(1)}
+- turnCooldownMax: ${bestGenes.turnCooldownMax}
+- baseTurnAngle: ${bestGenes.baseTurnAngle.toFixed(2)}
+- randomTurnRange: ${bestGenes.randomTurnRange.toFixed(2)}`;
+    } else {
+        text += `
+
+Best genes: (none yet – evolving...)`;
+    }
+
+    infoDiv.textContent = text;
+}
+
+/* ---------- Main loop ---------- */
+
+createMaze();
+resetSimulation();
+updateInfo();
+
+function loop() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    drawWalls();
+    drawGoal();
+
+    let winner = null;
+
+    for (const r of robots) {
+        r.update();
+        r.draw(ctx);
+
+        if (!winner && r.hasReachedGoal()) {
+            winner = r;
+        }
+    }
+
+    // If any robot reaches the goal, evolve and restart
+    if (winner) {
+        bestGenes = extractGenesFromRobot(winner);
+        generation++;
+        resetSimulation();
+        updateInfo();
+    }
+
+    requestAnimationFrame(loop);
+}
+
+loop();
+</script>
+</body>
+</html>
+```
+
+### grafica
+<small>Creado: 2025-12-10 20:12</small>
+
+`004-grafica.html`
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Simulación de robots tipo Roomba (evolutivos)</title>
+    <style>
+        body {
+            margin: 0;
+            background: #222;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #eee;
+            font-family: sans-serif;
+        }
+        #container {
+            position: relative;
+        }
+        canvas {
+            background: #111;
+            border: 1px solid #555;
+            display: block;
+        }
+        #info {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            background: rgba(0,0,0,0.6);
+            padding: 6px 10px;
+            font-size: 12px;
+            border-radius: 4px;
+            white-space: pre-line;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <canvas id="sim" width="800" height="600"></canvas>
+    <div id="info"></div>
+</div>
+
+<script>
+/* ---------- Configuración básica ---------- */
+const canvas = document.getElementById("sim");
+const ctx = canvas.getContext("2d");
+const infoDiv = document.getElementById("info");
+
+const walls = [];
+
+const GOAL_RADIUS = 35;
+const GOAL_X = canvas.width - 80;
+const GOAL_Y = canvas.height - 80;
+
+const NUM_ROBOTS = 100;
+let generation = 1;
+
+// Tiempos (en segundos) para el robot más rápido de cada generación
+let generationTimes = [];
+let generationStartTime = performance.now();
+
+// "Genes" del mejor robot hasta el momento
+let bestGenes = null;
+
+// Genes por defecto (primera generación)
+const defaultGenes = {
+    radius: 10,
+    speed: 1.8,
+    sensorLength: 100,
+    sensorAngles: [-0.6, -0.25, 0, 0.25, 0.6],
+    turnCooldownMax: 20,
+    baseTurnAngle: 0.4,
+    randomTurnRange: 1.0
+};
+
+let robots = [];
+
+/* ---------- Laberinto ---------- */
+
+function createMaze() {
+    const W = canvas.width;
+    const H = canvas.height;
+
+    // Bordes exteriores
+    walls.push({x: 0, y: 0, w: W, h: 20});
+    walls.push({x: 0, y: H - 20, w: W, h: 20});
+    walls.push({x: 0, y: 0, w: 20, h: H});
+    walls.push({x: W - 20, y: 0, w: 20, h: H});
+
+    // Paredes internas (laberinto simple)
+    walls.push({x: 150, y: 80, w: 20,  h: 350});
+    walls.push({x: 300, y: 200, w: 250, h: 20});
+    walls.push({x: 450, y: 80, w: 20,  h: 150});
+    walls.push({x: 550, y: 280, w: 20,  h: 250});
+    walls.push({x: 220, y: 420, w: 280, h: 20});
+}
+
+function drawWalls() {
+    ctx.fillStyle = "#444";
+    for (const w of walls) {
+        ctx.fillRect(w.x, w.y, w.w, w.h);
+    }
+}
+
+function drawGoal() {
+    ctx.save();
+    ctx.beginPath();
+    ctx.arc(GOAL_X, GOAL_Y, GOAL_RADIUS, 0, Math.PI * 2);
+    ctx.fillStyle = "rgba(50, 180, 50, 0.3)";
+    ctx.fill();
+    ctx.lineWidth = 2;
+    ctx.strokeStyle = "#00ff88";
+    ctx.stroke();
+
+    ctx.font = "14px sans-serif";
+    ctx.fillStyle = "#00ff88";
+    ctx.textAlign = "center";
+    ctx.fillText("META", GOAL_X, GOAL_Y + 4);
+    ctx.restore();
+}
+
+/* ---------- Utilidades geométricas ---------- */
+
+function segmentIntersection(p0, p1, p2, p3) {
+    const s1x = p1.x - p0.x;
+    const s1y = p1.y - p0.y;
+    const s2x = p3.x - p2.x;
+    const s2y = p3.y - p2.y;
+
+    const denom = (-s2x * s1y + s1x * s2y);
+    if (denom === 0) return null; // Paralelo o colineal
+
+    const s = (-s1y * (p0.x - p2.x) + s1x * (p0.y - p2.y)) / denom;
+    const t = ( s2x * (p0.y - p2.y) - s2y * (p0.x - p2.x)) / denom;
+
+    if (s >= 0 && s <= 1 && t >= 0 && t <= 1) {
+        return {
+            x: p0.x + (t * s1x),
+            y: p0.y + (t * s1y),
+            t: t,
+            u: s
+        };
+    }
+    return null;
+}
+
+function circleIntersectsRect(cx, cy, radius, rect) {
+    const closestX = Math.max(rect.x, Math.min(cx, rect.x + rect.w));
+    const closestY = Math.max(rect.y, Math.min(cy, rect.y + rect.h));
+    const dx = cx - closestX;
+    const dy = cy - closestY;
+    return (dx * dx + dy * dy) < (radius * radius);
+}
+
+/* ---------- Clase Robot ---------- */
+
+class Robot {
+    constructor(x, y, genes) {
+        const g = genes || defaultGenes;
+
+        this.x = x;
+        this.y = y;
+        this.radius = g.radius;
+        this.angle = Math.random() * Math.PI * 2; // orientación inicial aleatoria
+        this.speed = g.speed;
+
+        this.sensorLength = g.sensorLength;
+        this.sensorAngles = g.sensorAngles.slice();
+
+        this.sensorHits = [];
+
+        this.turnCooldown = 0;
+        this.turnCooldownMax = g.turnCooldownMax;
+        this.baseTurnAngle = g.baseTurnAngle;
+        this.randomTurnRange = g.randomTurnRange;
+    }
+
+    update() {
+        const hits = this.checkSensors();
+
+        const anyHit = hits.some(h => h.hit);
+        if (anyHit && this.turnCooldown === 0) {
+            const direction = Math.random() < 0.5 ? -1 : 1;
+            const angleChange =
+                (this.baseTurnAngle + Math.random() * this.randomTurnRange) * direction;
+            this.angle += angleChange;
+            this.turnCooldown = this.turnCooldownMax;
+        }
+
+        if (this.turnCooldown > 0) {
+            this.turnCooldown--;
+        }
+
+        const newX = this.x + Math.cos(this.angle) * this.speed;
+        const newY = this.y + Math.sin(this.angle) * this.speed;
+
+        let collided = false;
+        for (const w of walls) {
+            if (circleIntersectsRect(newX, newY, this.radius, w)) {
+                collided = true;
+                break;
+            }
+        }
+
+        if (!collided) {
+            this.x = newX;
+            this.y = newY;
+        } else {
+            const backX = this.x - Math.cos(this.angle) * this.speed * 2;
+            const backY = this.y - Math.sin(this.angle) * this.speed * 2;
+            this.x = backX;
+            this.y = backY;
+            this.angle += (Math.random() - 0.5) * Math.PI;
+            this.turnCooldown = this.turnCooldownMax;
+        }
+    }
+
+    checkSensors() {
+        this.sensorHits = [];
+
+        for (const relAngle of this.sensorAngles) {
+            const sensorDir = this.angle + relAngle;
+
+            const start = { x: this.x, y: this.y };
+            const end = {
+                x: this.x + Math.cos(sensorDir) * this.sensorLength,
+                y: this.y + Math.sin(sensorDir) * this.sensorLength
+            };
+
+            let closestHit = null;
+            let closestT = Infinity;
+
+            for (const w of walls) {
+                const edges = [
+                    { a: { x: w.x,         y: w.y },         b: { x: w.x + w.w, y: w.y } },
+                    { a: { x: w.x,         y: w.y + w.h },   b: { x: w.x + w.w, y: w.y + w.h } },
+                    { a: { x: w.x,         y: w.y },         b: { x: w.x,       y: w.y + w.h } },
+                    { a: { x: w.x + w.w,   y: w.y },         b: { x: w.x + w.w, y: w.y + w.h } }
+                ];
+
+                for (const edge of edges) {
+                    const result = segmentIntersection(start, end, edge.a, edge.b);
+                    if (result && result.t < closestT) {
+                        closestT = result.t;
+                        closestHit = { x: result.x, y: result.y };
+                    }
+                }
+            }
+
+            if (closestHit) {
+                this.sensorHits.push({
+                    angle: sensorDir,
+                    hit: true,
+                    from: start,
+                    to: closestHit
+                });
+            } else {
+                this.sensorHits.push({
+                    angle: sensorDir,
+                    hit: false,
+                    from: start,
+                    to: end
+                });
+            }
+        }
+
+        return this.sensorHits;
+    }
+
+    hasReachedGoal() {
+        const dx = this.x - GOAL_X;
+        const dy = this.y - GOAL_Y;
+        const dist2 = dx * dx + dy * dy;
+        return dist2 < (GOAL_RADIUS * GOAL_RADIUS);
+    }
+
+    draw(ctx) {
+        for (const s of this.sensorHits) {
+            ctx.beginPath();
+            ctx.moveTo(s.from.x, s.from.y);
+            ctx.lineTo(s.to.x, s.to.y);
+            ctx.strokeStyle = s.hit ? "#ff5555" : "#55ff55";
+            ctx.lineWidth = 1;
+            ctx.stroke();
+        }
+
+        ctx.save();
+        ctx.translate(this.x, this.y);
+        ctx.rotate(this.angle);
+
+        ctx.beginPath();
+        ctx.arc(0, 0, this.radius, 0, Math.PI * 2);
+        ctx.fillStyle = "#dddddd";
+        ctx.fill();
+        ctx.lineWidth = 1.5;
+        ctx.strokeStyle = "#333333";
+        ctx.stroke();
+
+        ctx.beginPath();
+        ctx.moveTo(0, 0);
+        ctx.lineTo(this.radius, 0);
+        ctx.strokeStyle = "#00aaff";
+        ctx.lineWidth = 2;
+        ctx.stroke();
+
+        ctx.restore();
+    }
+}
+
+/* ---------- Evolución ---------- */
+
+function mutateValue(value, factor, minVal, maxVal) {
+    const delta = (Math.random() * 2 - 1) * factor;
+    let v = value * (1 + delta);
+    if (minVal !== undefined) v = Math.max(minVal, v);
+    if (maxVal !== undefined) v = Math.min(maxVal, v);
+    return v;
+}
+
+function mutateGenes(parent) {
+    const g = {
+        radius: parent.radius,
+        speed: mutateValue(parent.speed, 0.2, 0.5, 4.0),
+        sensorLength: mutateValue(parent.sensorLength, 0.2, 40, 200),
+        turnCooldownMax: Math.round(mutateValue(parent.turnCooldownMax, 0.3, 5, 60)),
+        baseTurnAngle: mutateValue(parent.baseTurnAngle, 0.3, 0.1, 1.0),
+        randomTurnRange: mutateValue(parent.randomTurnRange, 0.3, 0.2, 2.0),
+        sensorAngles: parent.sensorAngles.slice()
+    };
+
+    for (let i = 0; i < g.sensorAngles.length; i++) {
+        g.sensorAngles[i] += (Math.random() * 2 - 1) * 0.1;
+    }
+
+    g.sensorAngles.sort((a, b) => a - b);
+    return g;
+}
+
+function extractGenesFromRobot(robot) {
+    return {
+        radius: robot.radius,
+        speed: robot.speed,
+        sensorLength: robot.sensorLength,
+        sensorAngles: robot.sensorAngles.slice(),
+        turnCooldownMax: robot.turnCooldownMax,
+        baseTurnAngle: robot.baseTurnAngle,
+        randomTurnRange: robot.randomTurnRange
+    };
+}
+
+/* ---------- Gestión de simulación ---------- */
+
+function resetSimulation() {
+    robots = [];
+    const parentGenes = bestGenes || defaultGenes;
+
+    for (let i = 0; i < NUM_ROBOTS; i++) {
+        const genes = bestGenes ? mutateGenes(parentGenes) : parentGenes;
+
+        // Zona segura arriba a la izquierda
+        const startX = 40 + Math.random() * 80;
+        const startY = 40 + Math.random() * 80;
+
+        robots.push(new Robot(startX, startY, genes));
+    }
+
+    generationStartTime = performance.now();
+}
+
+function updateInfo() {
+    let text = `Generación: ${generation}
+Robots: ${NUM_ROBOTS}`;
+
+    if (bestGenes) {
+        const lastTime = generationTimes[generationTimes.length - 1];
+        text += `
+
+Mejores genes (ganador generación anterior):
+- velocidad: ${bestGenes.speed.toFixed(2)}
+- longitud de sensores: ${bestGenes.sensorLength.toFixed(1)}
+- enfriamiento giro: ${bestGenes.turnCooldownMax}
+- ángulo base de giro: ${bestGenes.baseTurnAngle.toFixed(2)}
+- rango giro aleatorio: ${bestGenes.randomTurnRange.toFixed(2)}
+
+Tiempo última generación: ${lastTime.toFixed(2)} s`;
+    } else {
+        text += `
+
+Mejores genes: ninguno todavía (evolucionando...)`;
+    }
+
+    infoDiv.textContent = text;
+}
+
+/* ---------- Gráfico de barras ---------- */
+
+function drawChart() {
+    if (generationTimes.length === 0) return;
+
+    const chartWidth = 260;
+    const chartHeight = 150;
+    const chartX = canvas.width - chartWidth - 10;
+    const chartY = canvas.height - chartHeight - 10;
+
+    ctx.save();
+    ctx.fillStyle = "rgba(0,0,0,0.7)";
+    ctx.fillRect(chartX, chartY, chartWidth, chartHeight);
+
+    ctx.strokeStyle = "#aaaaaa";
+    ctx.lineWidth = 1;
+    ctx.strokeRect(chartX, chartY, chartWidth, chartHeight);
+
+    ctx.fillStyle = "#ffffff";
+    ctx.font = "11px sans-serif";
+    ctx.textAlign = "left";
+    ctx.fillText("Tiempo hasta la meta (s)", chartX + 6, chartY + 14);
+
+    const maxBars = 30;
+    const data = generationTimes.slice(-maxBars);
+    const maxTime = Math.max(...data);
+    const minTime = Math.min(...data);
+
+    const innerX = chartX + 30;
+    const innerY = chartY + 25;
+    const innerWidth = chartWidth - 40;
+    const innerHeight = chartHeight - 35;
+
+    ctx.strokeStyle = "#888";
+    ctx.beginPath();
+    ctx.moveTo(innerX, innerY);
+    ctx.lineTo(innerX, innerY + innerHeight);
+    ctx.lineTo(innerX + innerWidth, innerY + innerHeight);
+    ctx.stroke();
+
+    ctx.fillStyle = "#aaaaaa";
+    ctx.textAlign = "right";
+    ctx.fillText(maxTime.toFixed(1), innerX - 4, innerY + 8);
+    ctx.fillText(minTime.toFixed(1), innerX - 4, innerY + innerHeight);
+
+    const barCount = data.length;
+    const barGap = 2;
+    const barWidth = Math.max(3, (innerWidth - barGap * (barCount - 1)) / barCount);
+
+    ctx.textAlign = "center";
+
+    for (let i = 0; i < barCount; i++) {
+        const t = data[i];
+        const norm = t / maxTime;
+        const barH = norm * innerHeight;
+        const x = innerX + i * (barWidth + barGap);
+        const y = innerY + innerHeight - barH;
+
+        ctx.fillStyle = "#00aaee";
+        ctx.fillRect(x, y, barWidth, barH);
+
+        if ((i + 1) % 5 === 0 || i === barCount - 1) {
+            const genIndex = generationTimes.length - data.length + i + 1;
+            ctx.fillStyle = "#ffffff";
+            ctx.font = "9px sans-serif";
+            ctx.fillText(genIndex, x + barWidth / 2, innerY + innerHeight + 10);
+        }
+    }
+
+    ctx.restore();
+}
+
+/* ---------- Bucle principal ---------- */
+
+createMaze();
+resetSimulation();
+
+function loop() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    drawWalls();
+    drawGoal();
+
+    let winner = null;
+
+    for (const r of robots) {
+        r.update();
+        r.draw(ctx);
+
+        if (!winner && r.hasReachedGoal()) {
+            winner = r;
+        }
+    }
+
+    if (winner) {
+        const now = performance.now();
+        const elapsedSeconds = (now - generationStartTime) / 1000.0;
+
+        generationTimes.push(elapsedSeconds);
+        bestGenes = extractGenesFromRobot(winner);
+        generation++;
+        resetSimulation();
+        updateInfo();
+    }
+
+    drawChart();
+    requestAnimationFrame(loop);
+}
+
+updateInfo();
+loop();
+</script>
+</body>
+</html>
+```
+
+### laberinto cambiante
+<small>Creado: 2025-12-10 20:20</small>
+
+`005-laberinto cambiante.html`
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Simulación de robots tipo Roomba (evolutivos)</title>
+    <style>
+        body {
+            margin: 0;
+            background: #222;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #eee;
+            font-family: sans-serif;
+        }
+        #container {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+        }
+        canvas {
+            background: #111;
+            border: 1px solid #555;
+            display: block;
+        }
+        #info {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            background: rgba(0,0,0,0.6);
+            padding: 6px 10px;
+            font-size: 12px;
+            border-radius: 4px;
+            white-space: pre-line;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <canvas id="sim"></canvas>
+    <div id="info"></div>
+</div>
+
+<script>
+/* ---------- Configuración básica ---------- */
+const canvas = document.getElementById("sim");
+const ctx = canvas.getContext("2d");
+const infoDiv = document.getElementById("info");
+
+// Pantalla completa
+canvas.width  = window.innerWidth;
+canvas.height = window.innerHeight;
+
+// Rejilla del laberinto
+const walls = [];
+let cellSize;           // tamaño de cada celda
+let cols, rows;         // número de columnas y filas
+let border = 20;        // margen externo
+
+let GOAL_RADIUS = 35;
+let GOAL_X = 0;
+let GOAL_Y = 0;
+
+const NUM_ROBOTS = 100;
+let generation = 1;
+
+// Tiempos (en segundos) para el robot más rápido de cada generación
+let generationTimes = [];
+let generationStartTime = performance.now();
+
+// "Genes" del mejor robot hasta el momento
+let bestGenes = null;
+
+// Genes por defecto (primera generación)
+const defaultGenes = {
+    radius: 10,
+    speed: 1.8,
+    sensorLength: 100,
+    sensorAngles: [-0.6, -0.25, 0, 0.25, 0.6],
+    turnCooldownMax: 20,
+    baseTurnAngle: 0.4,
+    randomTurnRange: 1.0
+};
+
+let robots = [];
+
+/* ---------- Utilidades geométricas ---------- */
+
+function segmentIntersection(p0, p1, p2, p3) {
+    const s1x = p1.x - p0.x;
+    const s1y = p1.y - p0.y;
+    const s2x = p3.x - p2.x;
+    const s2y = p3.y - p2.y;
+
+    const denom = (-s2x * s1y + s1x * s2y);
+    if (denom === 0) return null;
+
+    const s = (-s1y * (p0.x - p2.x) + s1x * (p0.y - p2.y)) / denom;
+    const t = ( s2x * (p0.y - p2.y) - s2y * (p0.x - p2.x)) / denom;
+
+    if (s >= 0 && s <= 1 && t >= 0 && t <= 1) {
+        return {
+            x: p0.x + (t * s1x),
+            y: p0.y + (t * s1y),
+            t: t,
+            u: s
+        };
+    }
+    return null;
+}
+
+function circleIntersectsRect(cx, cy, radius, rect) {
+    const closestX = Math.max(rect.x, Math.min(cx, rect.x + rect.w));
+    const closestY = Math.max(rect.y, Math.min(cy, rect.y + rect.h));
+    const dx = cx - closestX;
+    const dy = cy - closestY;
+    return (dx * dx + dy * dy) < (radius * radius);
+}
+
+/* ---------- Generación de laberinto clásico (DFS en rejilla) ---------- */
+
+function createMaze() {
+    walls.length = 0;
+
+    const W = canvas.width;
+    const H = canvas.height;
+
+    // Calculamos tamaño de celda en función de la pantalla
+    const targetCell = 250;  // tamaño aproximado deseado
+    const usableW = W - 2 * border;
+    const usableH = H - 2 * border;
+
+    cols = Math.max(5, Math.floor(usableW / targetCell));
+    rows = Math.max(5, Math.floor(usableH / targetCell));
+
+    cellSize = Math.min(usableW / cols, usableH / rows);
+
+    // Reajustar borde para centrar un poco
+    const usedW = cols * cellSize;
+    const usedH = rows * cellSize;
+    border = 0.5 * (Math.min(W - usedW, H - usedH));
+
+    // Celdas del laberinto
+    const grid = [];
+    for (let y = 0; y < rows; y++) {
+        const row = [];
+        for (let x = 0; x < cols; x++) {
+            row.push({
+                x,
+                y,
+                visited: false,
+                walls: { top: true, right: true, bottom: true, left: true }
+            });
+        }
+        grid.push(row);
+    }
+
+    function neighbours(cell) {
+        const list = [];
+        const { x, y } = cell;
+        if (y > 0) list.push(grid[y - 1][x]);        // arriba
+        if (x < cols - 1) list.push(grid[y][x + 1]); // derecha
+        if (y < rows - 1) list.push(grid[y + 1][x]); // abajo
+        if (x > 0) list.push(grid[y][x - 1]);        // izquierda
+        return list;
+    }
+
+    function removeWall(a, b) {
+        const dx = b.x - a.x;
+        const dy = b.y - a.y;
+        if (dx === 1) {
+            // b está a la derecha
+            a.walls.right = false;
+            b.walls.left = false;
+        } else if (dx === -1) {
+            // b a la izquierda
+            a.walls.left = false;
+            b.walls.right = false;
+        } else if (dy === 1) {
+            // b abajo
+            a.walls.bottom = false;
+            b.walls.top = false;
+        } else if (dy === -1) {
+            // b arriba
+            a.walls.top = false;
+            b.walls.bottom = false;
+        }
+    }
+
+    // DFS recursivo con pila (backtracking)
+    const stack = [];
+    const startCell = grid[0][0];
+    startCell.visited = true;
+    stack.push(startCell);
+
+    while (stack.length > 0) {
+        const current = stack[stack.length - 1];
+        const neigh = neighbours(current).filter(n => !n.visited);
+
+        if (neigh.length === 0) {
+            stack.pop();
+        } else {
+            const next = neigh[Math.floor(Math.random() * neigh.length)];
+            next.visited = true;
+            removeWall(current, next);
+            stack.push(next);
+        }
+    }
+
+    // Convertimos paredes de celdas en rectángulos para colisiones/dibujo
+    const wallThickness = Math.max(4, cellSize * 0.15);
+
+    function cellToX(c) {
+        return border + c * cellSize;
+    }
+    function cellToY(r) {
+        return border + r * cellSize;
+    }
+
+    // Recalculamos posición de META en el centro de la celda final
+    GOAL_X = cellToX(cols - 1) + cellSize / 2;
+    GOAL_Y = cellToY(rows - 1) + cellSize / 2;
+    GOAL_RADIUS = cellSize * 0.35;
+
+    // Generar paredes externas + internas basadas en las celdas
+    for (let y = 0; y < rows; y++) {
+        for (let x = 0; x < cols; x++) {
+            const c = grid[y][x];
+            const cx = cellToX(x);
+            const cy = cellToY(y);
+
+            // pared superior
+            if (c.walls.top && y === 0) {
+                walls.push({
+                    x: cx,
+                    y: cy,
+                    w: cellSize,
+                    h: wallThickness
+                });
+            }
+            // pared izquierda
+            if (c.walls.left && x === 0) {
+                walls.push({
+                    x: cx,
+                    y: cy,
+                    w: wallThickness,
+                    h: cellSize
+                });
+            }
+            // pared inferior (entre esta celda y la de abajo)
+            if (c.walls.bottom && y < rows - 1) {
+                walls.push({
+                    x: cx,
+                    y: cy + cellSize - wallThickness / 2,
+                    w: cellSize,
+                    h: wallThickness
+                });
+            }
+            // pared derecha (entre esta celda y la de la derecha)
+            if (c.walls.right && x < cols - 1) {
+                walls.push({
+                    x: cx + cellSize - wallThickness / 2,
+                    y: cy,
+                    w: wallThickness,
+                    h: cellSize
+                });
+            }
+
+            // bordes extremos inferiores y derechos
+            if (y === rows - 1 && c.walls.bottom) {
+                walls.push({
+                    x: cx,
+                    y: cy + cellSize - wallThickness,
+                    w: cellSize,
+                    h: wallThickness
+                });
+            }
+            if (x === cols - 1 && c.walls.right) {
+                walls.push({
+                    x: cx + cellSize - wallThickness,
+                    y: cy,
+                    w: wallThickness,
+                    h: cellSize
+                });
+            }
+        }
+    }
+}
+
+function drawWalls() {
+    ctx.fillStyle = "#444";
+    for (const w of walls) {
+        ctx.fillRect(w.x, w.y, w.w, w.h);
+    }
+}
+
+function drawGoal() {
+    ctx.save();
+    ctx.beginPath();
+    ctx.arc(GOAL_X, GOAL_Y, GOAL_RADIUS, 0, Math.PI * 2);
+    ctx.fillStyle = "rgba(50, 180, 50, 0.3)";
+    ctx.fill();
+    ctx.lineWidth = 2;
+    ctx.strokeStyle = "#00ff88";
+    ctx.stroke();
+
+    ctx.font = "14px sans-serif";
+    ctx.fillStyle = "#00ff88";
+    ctx.textAlign = "center";
+    ctx.fillText("META", GOAL_X, GOAL_Y + 4);
+    ctx.restore();
+}
+
+/* ---------- Clase Robot ---------- */
+
+class Robot {
+    constructor(x, y, genes) {
+        const g = genes || defaultGenes;
+
+        this.x = x;
+        this.y = y;
+        this.radius = g.radius;
+        this.angle = Math.random() * Math.PI * 2;
+        this.speed = g.speed;
+
+        this.sensorLength = g.sensorLength;
+        this.sensorAngles = g.sensorAngles.slice();
+
+        this.sensorHits = [];
+
+        this.turnCooldown = 0;
+        this.turnCooldownMax = g.turnCooldownMax;
+        this.baseTurnAngle = g.baseTurnAngle;
+        this.randomTurnRange = g.randomTurnRange;
+    }
+
+    update() {
+        const hits = this.checkSensors();
+
+        const anyHit = hits.some(h => h.hit);
+        if (anyHit && this.turnCooldown === 0) {
+            const direction = Math.random() < 0.5 ? -1 : 1;
+            const angleChange =
+                (this.baseTurnAngle + Math.random() * this.randomTurnRange) * direction;
+            this.angle += angleChange;
+            this.turnCooldown = this.turnCooldownMax;
+        }
+
+        if (this.turnCooldown > 0) {
+            this.turnCooldown--;
+        }
+
+        const newX = this.x + Math.cos(this.angle) * this.speed;
+        const newY = this.y + Math.sin(this.angle) * this.speed;
+
+        let collided = false;
+        for (const w of walls) {
+            if (circleIntersectsRect(newX, newY, this.radius, w)) {
+                collided = true;
+                break;
+            }
+        }
+
+        if (!collided) {
+            this.x = newX;
+            this.y = newY;
+        } else {
+            const backX = this.x - Math.cos(this.angle) * this.speed * 2;
+            const backY = this.y - Math.sin(this.angle) * this.speed * 2;
+            this.x = backX;
+            this.y = backY;
+            this.angle += (Math.random() - 0.5) * Math.PI;
+            this.turnCooldown = this.turnCooldownMax;
+        }
+    }
+
+    checkSensors() {
+        this.sensorHits = [];
+
+        for (const relAngle of this.sensorAngles) {
+            const sensorDir = this.angle + relAngle;
+
+            const start = { x: this.x, y: this.y };
+            const end = {
+                x: this.x + Math.cos(sensorDir) * this.sensorLength,
+                y: this.y + Math.sin(sensorDir) * this.sensorLength
+            };
+
+            let closestHit = null;
+            let closestT = Infinity;
+
+            for (const w of walls) {
+                const edges = [
+                    { a: { x: w.x,         y: w.y },         b: { x: w.x + w.w, y: w.y } },
+                    { a: { x: w.x,         y: w.y + w.h },   b: { x: w.x + w.w, y: w.y + w.h } },
+                    { a: { x: w.x,         y: w.y },         b: { x: w.x,       y: w.y + w.h } },
+                    { a: { x: w.x + w.w,   y: w.y },         b: { x: w.x + w.w, y: w.y + w.h } }
+                ];
+
+                for (const edge of edges) {
+                    const result = segmentIntersection(start, end, edge.a, edge.b);
+                    if (result && result.t < closestT) {
+                        closestT = result.t;
+                        closestHit = { x: result.x, y: result.y };
+                    }
+                }
+            }
+
+            if (closestHit) {
+                this.sensorHits.push({
+                    angle: sensorDir,
+                    hit: true,
+                    from: start,
+                    to: closestHit
+                });
+            } else {
+                this.sensorHits.push({
+                    angle: sensorDir,
+                    hit: false,
+                    from: start,
+                    to: end
+                });
+            }
+        }
+
+        return this.sensorHits;
+    }
+
+    hasReachedGoal() {
+        const dx = this.x - GOAL_X;
+        const dy = this.y - GOAL_Y;
+        const dist2 = dx * dx + dy * dy;
+        return dist2 < (GOAL_RADIUS * GOAL_RADIUS);
+    }
+
+    draw(ctx) {
+        for (const s of this.sensorHits) {
+            ctx.beginPath();
+            ctx.moveTo(s.from.x, s.from.y);
+            ctx.lineTo(s.to.x, s.to.y);
+            ctx.strokeStyle = s.hit ? "#ff5555" : "#55ff55";
+            ctx.lineWidth = 1;
+            ctx.stroke();
+        }
+
+        ctx.save();
+        ctx.translate(this.x, this.y);
+        ctx.rotate(this.angle);
+
+        ctx.beginPath();
+        ctx.arc(0, 0, this.radius, 0, Math.PI * 2);
+        ctx.fillStyle = "#dddddd";
+        ctx.fill();
+        ctx.lineWidth = 1.5;
+        ctx.strokeStyle = "#333333";
+        ctx.stroke();
+
+        ctx.beginPath();
+        ctx.moveTo(0, 0);
+        ctx.lineTo(this.radius, 0);
+        ctx.strokeStyle = "#00aaff";
+        ctx.lineWidth = 2;
+        ctx.stroke();
+
+        ctx.restore();
+    }
+}
+
+/* ---------- Evolución ---------- */
+
+function mutateValue(value, factor, minVal, maxVal) {
+    const delta = (Math.random() * 2 - 1) * factor;
+    let v = value * (1 + delta);
+    if (minVal !== undefined) v = Math.max(minVal, v);
+    if (maxVal !== undefined) v = Math.min(maxVal, v);
+    return v;
+}
+
+function mutateGenes(parent) {
+    const g = {
+        radius: parent.radius,
+        speed: mutateValue(parent.speed, 0.2, 0.5, 4.0),
+        sensorLength: mutateValue(parent.sensorLength, 0.2, 40, 250),
+        turnCooldownMax: Math.round(mutateValue(parent.turnCooldownMax, 0.3, 5, 80)),
+        baseTurnAngle: mutateValue(parent.baseTurnAngle, 0.3, 0.1, 1.2),
+        randomTurnRange: mutateValue(parent.randomTurnRange, 0.3, 0.2, 2.5),
+        sensorAngles: parent.sensorAngles.slice()
+    };
+
+    for (let i = 0; i < g.sensorAngles.length; i++) {
+        g.sensorAngles[i] += (Math.random() * 2 - 1) * 0.1;
+    }
+
+    g.sensorAngles.sort((a, b) => a - b);
+    return g;
+}
+
+function extractGenesFromRobot(robot) {
+    return {
+        radius: robot.radius,
+        speed: robot.speed,
+        sensorLength: robot.sensorLength,
+        sensorAngles: robot.sensorAngles.slice(),
+        turnCooldownMax: robot.turnCooldownMax,
+        baseTurnAngle: robot.baseTurnAngle,
+        randomTurnRange: robot.randomTurnRange
+    };
+}
+
+/* ---------- Gestión de simulación ---------- */
+
+function resetSimulation() {
+    robots = [];
+    const parentGenes = bestGenes || defaultGenes;
+
+    // Nuevo laberinto clásico para esta generación
+    createMaze();
+
+    // Centro de la celda (0,0)
+    const startCellX = border + cellSize * 0.5;
+    const startCellY = border + cellSize * 0.5;
+    const spread = cellSize * 0.3;
+
+    for (let i = 0; i < NUM_ROBOTS; i++) {
+        const genes = bestGenes ? mutateGenes(parentGenes) : parentGenes;
+
+        const startX = startCellX + (Math.random() * 2 - 1) * spread;
+        const startY = startCellY + (Math.random() * 2 - 1) * spread;
+
+        robots.push(new Robot(startX, startY, genes));
+    }
+
+    generationStartTime = performance.now();
+}
+
+function updateInfo() {
+    let text = `Generación: ${generation}
+Robots: ${NUM_ROBOTS}`;
+
+    if (bestGenes && generationTimes.length > 0) {
+        const lastTime = generationTimes[generationTimes.length - 1];
+        text += `
+
+Mejores genes (ganador generación anterior):
+- velocidad: ${bestGenes.speed.toFixed(2)}
+- longitud de sensores: ${bestGenes.sensorLength.toFixed(1)}
+- enfriamiento giro: ${bestGenes.turnCooldownMax}
+- ángulo base de giro: ${bestGenes.baseTurnAngle.toFixed(2)}
+- rango giro aleatorio: ${bestGenes.randomTurnRange.toFixed(2)}
+
+Tiempo última generación: ${lastTime.toFixed(2)} s`;
+    } else {
+        text += `
+
+Mejores genes: ninguno todavía (evolucionando...)`;
+    }
+
+    infoDiv.textContent = text;
+}
+
+/* ---------- Gráfico de barras ---------- */
+
+function drawChart() {
+    if (generationTimes.length === 0) return;
+
+    const chartWidth  = Math.min(260, canvas.width * 0.25);
+    const chartHeight = Math.min(160, canvas.height * 0.25);
+    const chartX = canvas.width - chartWidth - 10;
+    const chartY = canvas.height - chartHeight - 10;
+
+    ctx.save();
+    ctx.fillStyle = "rgba(0,0,0,0.7)";
+    ctx.fillRect(chartX, chartY, chartWidth, chartHeight);
+
+    ctx.strokeStyle = "#aaaaaa";
+    ctx.lineWidth = 1;
+    ctx.strokeRect(chartX, chartY, chartWidth, chartHeight);
+
+    ctx.fillStyle = "#ffffff";
+    ctx.font = "11px sans-serif";
+    ctx.textAlign = "left";
+    ctx.fillText("Tiempo hasta la meta (s)", chartX + 6, chartY + 14);
+
+    const maxBars = 30;
+    const data = generationTimes.slice(-maxBars);
+    const maxTime = Math.max(...data);
+    const minTime = Math.min(...data);
+
+    const innerX = chartX + 30;
+    const innerY = chartY + 25;
+    const innerWidth = chartWidth - 40;
+    const innerHeight = chartHeight - 35;
+
+    ctx.strokeStyle = "#888";
+    ctx.beginPath();
+    ctx.moveTo(innerX, innerY);
+    ctx.lineTo(innerX, innerY + innerHeight);
+    ctx.lineTo(innerX + innerWidth, innerY + innerHeight);
+    ctx.stroke();
+
+    ctx.fillStyle = "#aaaaaa";
+    ctx.textAlign = "right";
+    ctx.fillText(maxTime.toFixed(1), innerX - 4, innerY + 8);
+    ctx.fillText(minTime.toFixed(1), innerX - 4, innerY + innerHeight);
+
+    const barCount = data.length;
+    const barGap = 2;
+    const barWidth = Math.max(3, (innerWidth - barGap * (barCount - 1)) / barCount);
+
+    ctx.textAlign = "center";
+
+    for (let i = 0; i < barCount; i++) {
+        const t = data[i];
+        const norm = t / maxTime;
+        const barH = norm * innerHeight;
+        const x = innerX + i * (barWidth + barGap);
+        const y = innerY + innerHeight - barH;
+
+        ctx.fillStyle = "#00aaee";
+        ctx.fillRect(x, y, barWidth, barH);
+
+        if ((i + 1) % 5 === 0 || i === barCount - 1) {
+            const genIndex = generationTimes.length - data.length + i + 1;
+            ctx.fillStyle = "#ffffff";
+            ctx.font = "9px sans-serif";
+            ctx.fillText(genIndex, x + barWidth / 2, innerY + innerHeight + 10);
+        }
+    }
+
+    ctx.restore();
+}
+
+/* ---------- Bucle principal ---------- */
+
+resetSimulation();
+updateInfo();
+
+function loop() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    drawWalls();
+    drawGoal();
+
+    let winner = null;
+
+    for (const r of robots) {
+        r.update();
+        r.draw(ctx);
+
+        if (!winner && r.hasReachedGoal()) {
+            winner = r;
+        }
+    }
+
+    if (winner) {
+        const now = performance.now();
+        const elapsedSeconds = (now - generationStartTime) / 1000.0;
+
+        generationTimes.push(elapsedSeconds);
+        bestGenes = extractGenesFromRobot(winner);
+        generation++;
+        resetSimulation();
+        updateInfo();
+    }
+
+    drawChart();
+    requestAnimationFrame(loop);
+}
+
+loop();
+</script>
+</body>
+</html>
+```
+
+### visuales
+<small>Creado: 2025-12-10 22:26</small>
+
+`006-visuales.html`
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Simulación de robots tipo Roomba (evolutivos)</title>
+    <style>
+        body {
+            margin: 0;
+            background: radial-gradient(circle at top left, #1b2735 0%, #090a0f 40%, #000000 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #eee;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            overflow: hidden;
+        }
+        #container {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        canvas {
+            background: radial-gradient(circle at center, #141820 0%, #050609 100%);
+            border-radius: 14px;
+            box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
+            display: block;
+        }
+        #info {
+            position: absolute;
+            left: 16px;
+            top: 16px;
+            background: linear-gradient(135deg, rgba(10,10,20,0.95), rgba(25,25,45,0.96));
+            padding: 10px 14px;
+            font-size: 12px;
+            border-radius: 10px;
+            white-space: pre-line;
+            border: 1px solid rgba(120, 160, 255, 0.3);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+            backdrop-filter: blur(6px);
+        }
+        #info strong {
+            color: #9cc4ff;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <canvas id="sim"></canvas>
+    <div id="info"></div>
+</div>
+
+<script>
+/* ---------- Configuración básica ---------- */
+const canvas = document.getElementById("sim");
+const ctx = canvas.getContext("2d");
+const infoDiv = document.getElementById("info");
+
+// Pantalla (ligero margen para que se vea la sombra)
+const margin = 32;
+canvas.width  = window.innerWidth  - margin;
+canvas.height = window.innerHeight - margin;
+
+// Rejilla del laberinto
+const walls = [];
+let cellSize;
+let cols, rows;
+let border = 20;
+
+let GOAL_RADIUS = 35;
+let GOAL_X = 0;
+let GOAL_Y = 0;
+
+// Zona de inicio (coordenadas para dibujarla)
+let START_X = 0;
+let START_Y = 0;
+let START_RADIUS = 0;
+
+const NUM_ROBOTS = 100;
+let generation = 1;
+
+// Tiempos (en segundos) para el robot más rápido de cada generación
+let generationTimes = [];
+let generationStartTime = performance.now();
+
+// "Genes" del mejor robot hasta el momento
+let bestGenes = null;
+
+// Genes por defecto (primera generación)
+const defaultGenes = {
+    radius: 9,
+    speed: 1.8,
+    sensorLength: 95,
+    sensorAngles: [-0.6, -0.25, 0, 0.25, 0.6],
+    turnCooldownMax: 18,
+    baseTurnAngle: 0.45,
+    randomTurnRange: 0.9
+};
+
+let robots = [];
+
+/* ---------- Utilidades geométricas ---------- */
+
+function segmentIntersection(p0, p1, p2, p3) {
+    const s1x = p1.x - p0.x;
+    const s1y = p1.y - p0.y;
+    const s2x = p3.x - p2.x;
+    const s2y = p3.y - p2.y;
+
+    const denom = (-s2x * s1y + s1x * s2y);
+    if (denom === 0) return null;
+
+    const s = (-s1y * (p0.x - p2.x) + s1x * (p0.y - p2.y)) / denom;
+    const t = ( s2x * (p0.y - p2.y) - s2y * (p0.x - p2.x)) / denom;
+
+    if (s >= 0 && s <= 1 && t >= 0 && t <= 1) {
+        return {
+            x: p0.x + (t * s1x),
+            y: p0.y + (t * s1y),
+            t: t,
+            u: s
+        };
+    }
+    return null;
+}
+
+function circleIntersectsRect(cx, cy, radius, rect) {
+    const closestX = Math.max(rect.x, Math.min(cx, rect.x + rect.w));
+    const closestY = Math.max(rect.y, Math.min(cy, rect.y + rect.h));
+    const dx = cx - closestX;
+    const dy = cy - closestY;
+    return (dx * dx + dy * dy) < (radius * radius);
+}
+
+/* ---------- Generación de laberinto clásico (DFS en rejilla) ---------- */
+
+function createMaze() {
+    walls.length = 0;
+
+    const W = canvas.width;
+    const H = canvas.height;
+
+    const targetCell = 200;
+    const usableW = W - 2 * border;
+    const usableH = H - 2 * border;
+
+    cols = Math.max(1, Math.floor(usableW / targetCell));
+    rows = Math.max(1, Math.floor(usableH / targetCell));
+
+    cellSize = Math.min(usableW / cols, usableH / rows);
+
+    const usedW = cols * cellSize;
+    const usedH = rows * cellSize;
+    border = 0.5 * (Math.min(W - usedW, H - usedH));
+
+    const grid = [];
+    for (let y = 0; y < rows; y++) {
+        const row = [];
+        for (let x = 0; x < cols; x++) {
+            row.push({
+                x,
+                y,
+                visited: false,
+                walls: { top: true, right: true, bottom: true, left: true }
+            });
+        }
+        grid.push(row);
+    }
+
+    function neighbours(cell) {
+        const list = [];
+        const { x, y } = cell;
+        if (y > 0) list.push(grid[y - 1][x]);
+        if (x < cols - 1) list.push(grid[y][x + 1]);
+        if (y < rows - 1) list.push(grid[y + 1][x]);
+        if (x > 0) list.push(grid[y][x - 1]);
+        return list;
+    }
+
+    function removeWall(a, b) {
+        const dx = b.x - a.x;
+        const dy = b.y - a.y;
+        if (dx === 1)      { a.walls.right  = false; b.walls.left   = false; }
+        else if (dx === -1){ a.walls.left   = false; b.walls.right  = false; }
+        else if (dy === 1) { a.walls.bottom = false; b.walls.top    = false; }
+        else if (dy === -1){ a.walls.top    = false; b.walls.bottom = false; }
+    }
+
+    // DFS con backtracking
+    const stack = [];
+    const startCell = grid[0][0];
+    startCell.visited = true;
+    stack.push(startCell);
+
+    while (stack.length > 0) {
+        const current = stack[stack.length - 1];
+        const neigh = neighbours(current).filter(n => !n.visited);
+
+        if (neigh.length === 0) {
+            stack.pop();
+        } else {
+            const next = neigh[Math.floor(Math.random() * neigh.length)];
+            next.visited = true;
+            removeWall(current, next);
+            stack.push(next);
+        }
+    }
+
+    const wallThickness = Math.max(4, cellSize * 0.14);
+
+    function cellToX(c) { return border + c * cellSize; }
+    function cellToY(r) { return border + r * cellSize; }
+
+    // META y zona de inicio (para dibujar)
+    GOAL_X = cellToX(cols - 1) + cellSize / 2;
+    GOAL_Y = cellToY(rows - 1) + cellSize / 2;
+    GOAL_RADIUS = cellSize * 0.35;
+
+    START_X = cellToX(0) + cellSize / 2;
+    START_Y = cellToY(0) + cellSize / 2;
+    START_RADIUS = cellSize * 0.32;
+
+    // Construcción de paredes
+    for (let y = 0; y < rows; y++) {
+        for (let x = 0; x < cols; x++) {
+            const c = grid[y][x];
+            const cx = cellToX(x);
+            const cy = cellToY(y);
+
+            // superior
+            if (c.walls.top && y === 0) {
+                walls.push({ x: cx, y: cy, w: cellSize, h: wallThickness });
+            }
+            // izquierda
+            if (c.walls.left && x === 0) {
+                walls.push({ x: cx, y: cy, w: wallThickness, h: cellSize });
+            }
+            // inferior interna
+            if (c.walls.bottom && y < rows - 1) {
+                walls.push({
+                    x: cx,
+                    y: cy + cellSize - wallThickness / 2,
+                    w: cellSize,
+                    h: wallThickness
+                });
+            }
+            // derecha interna
+            if (c.walls.right && x < cols - 1) {
+                walls.push({
+                    x: cx + cellSize - wallThickness / 2,
+                    y: cy,
+                    w: wallThickness,
+                    h: cellSize
+                });
+            }
+            // bordes exteriores adicionales
+            if (y === rows - 1 && c.walls.bottom) {
+                walls.push({
+                    x: cx,
+                    y: cy + cellSize - wallThickness,
+                    w: cellSize,
+                    h: wallThickness
+                });
+            }
+            if (x === cols - 1 && c.walls.right) {
+                walls.push({
+                    x: cx + cellSize - wallThickness,
+                    y: cy,
+                    w: wallThickness,
+                    h: cellSize
+                });
+            }
+        }
+    }
+}
+
+function drawBackgroundGrid() {
+    // leve cuadriculado de fondo
+    ctx.save();
+    ctx.globalAlpha = 0.15;
+    ctx.strokeStyle = "#1f2933";
+    ctx.lineWidth = 1;
+
+    for (let x = 0; x <= cols; x++) {
+        const gx = border + x * cellSize;
+        ctx.beginPath();
+        ctx.moveTo(gx, border);
+        ctx.lineTo(gx, border + rows * cellSize);
+        ctx.stroke();
+    }
+    for (let y = 0; y <= rows; y++) {
+        const gy = border + y * cellSize;
+        ctx.beginPath();
+        ctx.moveTo(border, gy);
+        ctx.lineTo(border + cols * cellSize, gy);
+        ctx.stroke();
+    }
+    ctx.restore();
+}
+
+function drawWalls() {
+    ctx.save();
+    ctx.shadowColor = "rgba(0, 0, 0, 0.8)";
+    ctx.shadowBlur = 8;
+    ctx.fillStyle = "#1f3b4d";
+    for (const w of walls) {
+        ctx.fillRect(w.x, w.y, w.w, w.h);
+    }
+    ctx.shadowBlur = 0;
+    ctx.globalAlpha = 0.4;
+    ctx.strokeStyle = "#56c7ff";
+    ctx.lineWidth = 1;
+    for (const w of walls) {
+        ctx.strokeRect(w.x, w.y, w.w, w.h);
+    }
+    ctx.restore();
+}
+
+function drawStart() {
+    ctx.save();
+    // halo
+    ctx.globalAlpha = 0.4;
+    const haloR = START_RADIUS * 1.5;
+    const grad = ctx.createRadialGradient(
+        START_X, START_Y, START_RADIUS * 0.3,
+        START_X, START_Y, haloR
+    );
+    grad.addColorStop(0, "rgba(120, 220, 255, 0.6)");
+    grad.addColorStop(1, "rgba(120, 220, 255, 0.0)");
+    ctx.fillStyle = grad;
+    ctx.beginPath();
+    ctx.arc(START_X, START_Y, haloR, 0, Math.PI * 2);
+    ctx.fill();
+
+    // círculo principal
+    ctx.globalAlpha = 1;
+    ctx.beginPath();
+    ctx.arc(START_X, START_Y, START_RADIUS, 0, Math.PI * 2);
+    ctx.fillStyle = "rgba(120, 220, 255, 0.25)";
+    ctx.fill();
+    ctx.lineWidth = 2;
+    ctx.strokeStyle = "#7fe4ff";
+    ctx.stroke();
+
+    ctx.font = "12px system-ui";
+    ctx.fillStyle = "#bfefff";
+    ctx.textAlign = "center";
+    ctx.fillText("INICIO", START_X, START_Y + 4);
+    ctx.restore();
+}
+
+function drawGoal() {
+    ctx.save();
+    // halo
+    ctx.globalAlpha = 0.5;
+    const haloR = GOAL_RADIUS * 1.7;
+    const grad = ctx.createRadialGradient(
+        GOAL_X, GOAL_Y, GOAL_RADIUS * 0.3,
+        GOAL_X, GOAL_Y, haloR
+    );
+    grad.addColorStop(0, "rgba(80, 255, 160, 0.7)");
+    grad.addColorStop(1, "rgba(80, 255, 160, 0.0)");
+    ctx.fillStyle = grad;
+    ctx.beginPath();
+    ctx.arc(GOAL_X, GOAL_Y, haloR, 0, Math.PI * 2);
+    ctx.fill();
+
+    // círculo principal
+    ctx.globalAlpha = 1;
+    ctx.beginPath();
+    ctx.arc(GOAL_X, GOAL_Y, GOAL_RADIUS, 0, Math.PI * 2);
+    ctx.fillStyle = "rgba(80, 255, 160, 0.20)";
+    ctx.fill();
+    ctx.lineWidth = 2;
+    ctx.strokeStyle = "#5affb0";
+    ctx.stroke();
+
+    ctx.font = "12px system-ui";
+    ctx.fillStyle = "#caffde";
+    ctx.textAlign = "center";
+    ctx.fillText("META", GOAL_X, GOAL_Y + 4);
+    ctx.restore();
+}
+
+/* ---------- Clase Robot ---------- */
+
+class Robot {
+    constructor(x, y, genes, hue) {
+        const g = genes || defaultGenes;
+
+        this.x = x;
+        this.y = y;
+        this.radius = g.radius;
+        this.angle = Math.random() * Math.PI * 2;
+        this.speed = g.speed;
+
+        this.sensorLength = g.sensorLength;
+        this.sensorAngles = g.sensorAngles.slice();
+
+        this.sensorHits = [];
+
+        this.turnCooldown = 0;
+        this.turnCooldownMax = g.turnCooldownMax;
+        this.baseTurnAngle = g.baseTurnAngle;
+        this.randomTurnRange = g.randomTurnRange;
+
+        // Color propio (en HSL)
+        this.hue = hue !== undefined ? hue : Math.random() * 360;
+        this.history = [];
+        this.historyMax = 14;
+    }
+
+    update() {
+        const hits = this.checkSensors();
+
+        const anyHit = hits.some(h => h.hit);
+        if (anyHit && this.turnCooldown === 0) {
+            const direction = Math.random() < 0.5 ? -1 : 1;
+            const angleChange =
+                (this.baseTurnAngle + Math.random() * this.randomTurnRange) * direction;
+            this.angle += angleChange;
+            this.turnCooldown = this.turnCooldownMax;
+        }
+
+        if (this.turnCooldown > 0) {
+            this.turnCooldown--;
+        }
+
+        const newX = this.x + Math.cos(this.angle) * this.speed;
+        const newY = this.y + Math.sin(this.angle) * this.speed;
+
+        let collided = false;
+        for (const w of walls) {
+            if (circleIntersectsRect(newX, newY, this.radius, w)) {
+                collided = true;
+                break;
+            }
+        }
+
+        if (!collided) {
+            this.x = newX;
+            this.y = newY;
+        } else {
+            const backX = this.x - Math.cos(this.angle) * this.speed * 2;
+            const backY = this.y - Math.sin(this.angle) * this.speed * 2;
+            this.x = backX;
+            this.y = backY;
+            this.angle += (Math.random() - 0.5) * Math.PI;
+            this.turnCooldown = this.turnCooldownMax;
+        }
+
+        // actualizar historial (estela)
+        this.history.push({ x: this.x, y: this.y });
+        if (this.history.length > this.historyMax) {
+            this.history.shift();
+        }
+    }
+
+    checkSensors() {
+        this.sensorHits = [];
+
+        for (const relAngle of this.sensorAngles) {
+            const sensorDir = this.angle + relAngle;
+
+            const start = { x: this.x, y: this.y };
+            const end = {
+                x: this.x + Math.cos(sensorDir) * this.sensorLength,
+                y: this.y + Math.sin(sensorDir) * this.sensorLength
+            };
+
+            let closestHit = null;
+            let closestT = Infinity;
+
+            for (const w of walls) {
+                const edges = [
+                    { a: { x: w.x,         y: w.y },         b: { x: w.x + w.w, y: w.y } },
+                    { a: { x: w.x,         y: w.y + w.h },   b: { x: w.x + w.w, y: w.y + w.h } },
+                    { a: { x: w.x,         y: w.y },         b: { x: w.x,       y: w.y + w.h } },
+                    { a: { x: w.x + w.w,   y: w.y },         b: { x: w.x + w.w, y: w.y + w.h } }
+                ];
+
+                for (const edge of edges) {
+                    const result = segmentIntersection(start, end, edge.a, edge.b);
+                    if (result && result.t < closestT) {
+                        closestT = result.t;
+                        closestHit = { x: result.x, y: result.y };
+                    }
+                }
+            }
+
+            if (closestHit) {
+                this.sensorHits.push({
+                    angle: sensorDir,
+                    hit: true,
+                    from: start,
+                    to: closestHit
+                });
+            } else {
+                this.sensorHits.push({
+                    angle: sensorDir,
+                    hit: false,
+                    from: start,
+                    to: end
+                });
+            }
+        }
+
+        return this.sensorHits;
+    }
+
+    hasReachedGoal() {
+        const dx = this.x - GOAL_X;
+        const dy = this.y - GOAL_Y;
+        const dist2 = dx * dx + dy * dy;
+        return dist2 < (GOAL_RADIUS * GOAL_RADIUS);
+    }
+
+    drawTrail(ctx) {
+        if (this.history.length < 2) return;
+
+        ctx.save();
+        ctx.lineWidth = 1.5;
+        for (let i = 1; i < this.history.length; i++) {
+            const p0 = this.history[i - 1];
+            const p1 = this.history[i];
+            const t = i / (this.history.length - 1);
+            ctx.strokeStyle = `hsla(${this.hue}, 80%, ${40 + 20 * t}%, ${0.12 + 0.2 * t})`;
+            ctx.beginPath();
+            ctx.moveTo(p0.x, p0.y);
+            ctx.lineTo(p1.x, p1.y);
+            ctx.stroke();
+        }
+        ctx.restore();
+    }
+
+    draw(ctx) {
+        // Estela
+        this.drawTrail(ctx);
+
+        // Sensores
+        ctx.save();
+        ctx.globalAlpha = 0.35;
+        for (const s of this.sensorHits) {
+            ctx.beginPath();
+            ctx.moveTo(s.from.x, s.from.y);
+            ctx.lineTo(s.to.x, s.to.y);
+            ctx.strokeStyle = s.hit
+                ? `hsla(${this.hue}, 100%, 70%, 0.8)`
+                : `hsla(${this.hue}, 70%, 55%, 0.5)`;
+            ctx.lineWidth = 1.2;
+            ctx.stroke();
+        }
+        ctx.restore();
+
+        // Cuerpo del robot
+        ctx.save();
+        ctx.translate(this.x, this.y);
+        ctx.rotate(this.angle);
+
+        const innerGrad = ctx.createRadialGradient(
+            0, 0, this.radius * 0.1,
+            0, 0, this.radius
+        );
+        innerGrad.addColorStop(0, `hsl(${this.hue}, 80%, 75%)`);
+        innerGrad.addColorStop(1, `hsl(${this.hue}, 60%, 35%)`);
+
+        ctx.beginPath();
+        ctx.arc(0, 0, this.radius, 0, Math.PI * 2);
+        ctx.fillStyle = innerGrad;
+        ctx.fill();
+        ctx.lineWidth = 1.5;
+        ctx.strokeStyle = "rgba(0,0,0,0.7)";
+        ctx.stroke();
+
+        // "tapa" superior para efecto bisel
+        ctx.beginPath();
+        ctx.arc(0, 0, this.radius * 0.65, -Math.PI * 0.1, Math.PI * 1.1);
+        ctx.fillStyle = "rgba(255,255,255,0.25)";
+        ctx.fill();
+
+        // indicador de frente
+        ctx.beginPath();
+        ctx.moveTo(this.radius * 0.3, 0);
+        ctx.lineTo(this.radius * 0.95, 0);
+        ctx.strokeStyle = "#ffffff";
+        ctx.lineWidth = 2;
+        ctx.stroke();
+
+        ctx.restore();
+    }
+}
+
+/* ---------- Evolución ---------- */
+
+function mutateValue(value, factor, minVal, maxVal) {
+    const delta = (Math.random() * 2 - 1) * factor;
+    let v = value * (1 + delta);
+    if (minVal !== undefined) v = Math.max(minVal, v);
+    if (maxVal !== undefined) v = Math.min(maxVal, v);
+    return v;
+}
+
+function mutateGenes(parent) {
+    const g = {
+        radius: parent.radius,
+        speed: mutateValue(parent.speed, 0.22, 0.5, 4.0),
+        sensorLength: mutateValue(parent.sensorLength, 0.25, 40, 260),
+        turnCooldownMax: Math.round(mutateValue(parent.turnCooldownMax, 0.3, 5, 80)),
+        baseTurnAngle: mutateValue(parent.baseTurnAngle, 0.25, 0.08, 1.2),
+        randomTurnRange: mutateValue(parent.randomTurnRange, 0.3, 0.2, 2.5),
+        sensorAngles: parent.sensorAngles.slice()
+    };
+
+    for (let i = 0; i < g.sensorAngles.length; i++) {
+        g.sensorAngles[i] += (Math.random() * 2 - 1) * 0.09;
+    }
+
+    g.sensorAngles.sort((a, b) => a - b);
+    return g;
+}
+
+function extractGenesFromRobot(robot) {
+    return {
+        radius: robot.radius,
+        speed: robot.speed,
+        sensorLength: robot.sensorLength,
+        sensorAngles: robot.sensorAngles.slice(),
+        turnCooldownMax: robot.turnCooldownMax,
+        baseTurnAngle: robot.baseTurnAngle,
+        randomTurnRange: robot.randomTurnRange
+    };
+}
+
+/* ---------- Gestión de simulación ---------- */
+
+function resetSimulation() {
+    robots = [];
+    const parentGenes = bestGenes || defaultGenes;
+
+    // Nuevo laberinto clásico
+    createMaze();
+
+    // Centro de la celda (0,0)
+    const startCellX = START_X;
+    const startCellY = START_Y;
+    const spread = cellSize * 0.25;
+
+    const baseHue = Math.random() * 360;
+
+    for (let i = 0; i < NUM_ROBOTS; i++) {
+        const genes = bestGenes ? mutateGenes(parentGenes) : parentGenes;
+        const hue = baseHue + (i / NUM_ROBOTS) * 80; // pequeño abanico de tonos
+
+        const startX = startCellX + (Math.random() * 2 - 1) * spread;
+        const startY = startCellY + (Math.random() * 2 - 1) * spread;
+
+        robots.push(new Robot(startX, startY, genes, hue));
+    }
+
+    generationStartTime = performance.now();
+}
+
+function updateInfo() {
+    let text = `<strong>Generación:</strong> ${generation}
+Robots: ${NUM_ROBOTS}`;
+
+    if (bestGenes && generationTimes.length > 0) {
+        const lastTime = generationTimes[generationTimes.length - 1];
+        const bestTime = Math.min(...generationTimes);
+        text += `
+
+<strong>Mejores genes (ganador generación anterior):</strong>
+· velocidad: ${bestGenes.speed.toFixed(2)}
+· longitud sensores: ${bestGenes.sensorLength.toFixed(1)}
+· enfriamiento giro: ${bestGenes.turnCooldownMax}
+· ángulo base giro: ${bestGenes.baseTurnAngle.toFixed(2)}
+· rango giro aleatorio: ${bestGenes.randomTurnRange.toFixed(2)}
+
+Tiempo última generación: ${lastTime.toFixed(2)} s
+Mejor tiempo histórico: ${bestTime.toFixed(2)} s`;
+    } else {
+        text += `
+
+<strong>Mejores genes:</strong> ninguno todavía (evolucionando...)`;
+    }
+
+    infoDiv.innerHTML = text;
+}
+
+/* ---------- Gráfico de barras ---------- */
+
+function drawChart() {
+    if (generationTimes.length === 0) return;
+
+    const chartWidth  = Math.min(280, canvas.width * 0.27);
+    const chartHeight = Math.min(170, canvas.height * 0.26);
+    const chartX = canvas.width - chartWidth - 18;
+    const chartY = canvas.height - chartHeight - 18;
+
+    ctx.save();
+    // fondo
+    const bgGrad = ctx.createLinearGradient(chartX, chartY, chartX, chartY + chartHeight);
+    bgGrad.addColorStop(0, "rgba(10, 16, 30, 0.96)");
+    bgGrad.addColorStop(1, "rgba(5, 8, 18, 0.96)");
+    ctx.fillStyle = bgGrad;
+    ctx.fillRect(chartX, chartY, chartWidth, chartHeight);
+
+    ctx.strokeStyle = "rgba(120,160,255,0.7)";
+    ctx.lineWidth = 1;
+    ctx.strokeRect(chartX + 0.5, chartY + 0.5, chartWidth - 1, chartHeight - 1);
+
+    ctx.fillStyle = "#e5eeff";
+    ctx.font = "11px system-ui";
+    ctx.textAlign = "left";
+    ctx.fillText("Tiempo hasta la meta (s)", chartX + 8, chartY + 16);
+
+    const maxBars = 30;
+    const data = generationTimes.slice(-maxBars);
+    const maxTime = Math.max(...data);
+    const minTime = Math.min(...data);
+
+    const innerX = chartX + 34;
+    const innerY = chartY + 26;
+    const innerWidth = chartWidth - 44;
+    const innerHeight = chartHeight - 38;
+
+    // rejilla horizontal
+    ctx.strokeStyle = "rgba(255,255,255,0.08)";
+    ctx.lineWidth = 1;
+    const gridLines = 4;
+    for (let i = 0; i <= gridLines; i++) {
+        const gy = innerY + (innerHeight / gridLines) * i;
+        ctx.beginPath();
+        ctx.moveTo(innerX, gy);
+        ctx.lineTo(innerX + innerWidth, gy);
+        ctx.stroke();
+    }
+
+    // ejes
+    ctx.strokeStyle = "rgba(200,220,255,0.6)";
+    ctx.beginPath();
+    ctx.moveTo(innerX, innerY);
+    ctx.lineTo(innerX, innerY + innerHeight);
+    ctx.lineTo(innerX + innerWidth, innerY + innerHeight);
+    ctx.stroke();
+
+    // textos min / max
+    ctx.fillStyle = "#c5d7ff";
+    ctx.textAlign = "right";
+    ctx.fillText(maxTime.toFixed(1), innerX - 4, innerY + 9);
+    ctx.fillText(minTime.toFixed(1), innerX - 4, innerY + innerHeight);
+
+    const barCount = data.length;
+    const barGap = 2;
+    const barWidth = Math.max(3, (innerWidth - barGap * (barCount - 1)) / barCount);
+
+    const bestTime = Math.min(...generationTimes);
+
+    ctx.textAlign = "center";
+
+    for (let i = 0; i < barCount; i++) {
+        const t = data[i];
+        const norm = t / maxTime;
+        const barH = norm * innerHeight;
+        const x = innerX + i * (barWidth + barGap);
+        const y = innerY + innerHeight - barH;
+
+        const gGlobalIndex = generationTimes.length - data.length + i;
+        const isBest = generationTimes[gGlobalIndex] === bestTime;
+
+        const grad = ctx.createLinearGradient(x, y, x, y + barH);
+        if (isBest) {
+            grad.addColorStop(0, "rgba(102, 255, 204, 0.95)");
+            grad.addColorStop(1, "rgba(46, 204, 113, 0.85)");
+        } else {
+            grad.addColorStop(0, "rgba(80, 190, 255, 0.95)");
+            grad.addColorStop(1, "rgba(0, 118, 210, 0.85)");
+        }
+        ctx.fillStyle = grad;
+        ctx.fillRect(x, y, barWidth, barH);
+
+        if ((i + 1) % 5 === 0 || i === barCount - 1) {
+            const genIndex = generationTimes.length - data.length + i + 1;
+            ctx.fillStyle = "#dde6ff";
+            ctx.font = "9px system-ui";
+            ctx.fillText(genIndex, x + barWidth / 2, innerY + innerHeight + 11);
+        }
+    }
+
+    ctx.restore();
+}
+
+/* ---------- Bucle principal ---------- */
+
+function loop() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    drawBackgroundGrid();
+    drawWalls();
+    drawStart();
+    drawGoal();
+
+    let winner = null;
+
+    for (const r of robots) {
+        r.update();
+        r.draw(ctx);
+
+        if (!winner && r.hasReachedGoal()) {
+            winner = r;
+        }
+    }
+
+    if (winner) {
+        const now = performance.now();
+        const elapsedSeconds = (now - generationStartTime) / 1000.0;
+
+        generationTimes.push(elapsedSeconds);
+        bestGenes = extractGenesFromRobot(winner);
+        generation++;
+        resetSimulation();
+        updateInfo();
+    }
+
+    drawChart();
+    requestAnimationFrame(loop);
+}
+
+/* ---------- Inicio ---------- */
+resetSimulation();
+updateInfo();
+loop();
+</script>
+</body>
+</html>
+```
+
+### mas parametros
+<small>Creado: 2025-12-10 22:42</small>
+
+`007-mas parametros.html`
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Simulación de robots tipo Roomba (evolutivos)</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            background: radial-gradient(circle at top left, #1b2735 0%, #090a0f 40%, #000000 100%);
+            height: 100vh;
+            color: #eee;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            overflow: hidden;
+        }
+        #container {
+            display: flex;
+            width: 100vw;
+            height: 100vh;
+            padding: 16px;
+            gap: 16px;
+        }
+        #leftPane {
+            flex: 1 1 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #rightPane {
+            width: 320px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        #sim {
+            background: radial-gradient(circle at center, #141820 0%, #050609 100%);
+            border-radius: 14px;
+            box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+        #chart {
+            background: linear-gradient(135deg, rgba(10,10,20,0.96), rgba(5,8,18,0.96));
+            border-radius: 10px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.45);
+        }
+        #info {
+            background: linear-gradient(135deg, rgba(10,10,20,0.95), rgba(25,25,45,0.96));
+            padding: 10px 14px;
+            font-size: 12px;
+            border-radius: 10px;
+            white-space: pre-line;
+            border: 1px solid rgba(120, 160, 255, 0.3);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+            backdrop-filter: blur(6px);
+        }
+        #info strong {
+            color: #9cc4ff;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="leftPane">
+        <canvas id="sim"></canvas>
+    </div>
+    <div id="rightPane">
+        <div id="info"></div>
+        <canvas id="chart" width="280" height="170"></canvas>
+    </div>
+</div>
+
+<script>
+/* ---------- Configuración básica ---------- */
+const simCanvas   = document.getElementById("sim");
+const simCtx      = simCanvas.getContext("2d");
+const infoDiv     = document.getElementById("info");
+const chartCanvas = document.getElementById("chart");
+const chartCtx    = chartCanvas.getContext("2d");
+
+// Margen interno aproximado para el canvas de simulación
+const margin = 16;
+const SIDEBAR_WIDTH = 320;
+
+// Ajuste de tamaño del canvas de simulación
+simCanvas.width  = window.innerWidth  - SIDEBAR_WIDTH - margin * 3;
+simCanvas.height = window.innerHeight - margin * 2;
+
+// Rejilla del laberinto
+const walls = [];
+let cellSize;
+let cols, rows;
+let border = 20;
+
+let GOAL_RADIUS = 35;
+let GOAL_X = 0;
+let GOAL_Y = 0;
+
+// Zona de inicio (coordenadas para dibujarla)
+let START_X = 0;
+let START_Y = 0;
+let START_RADIUS = 0;
+
+const NUM_ROBOTS = 100;
+let generation = 1;
+
+// Tiempos (en segundos) para el robot más rápido de cada generación
+let generationTimes = [];
+let generationStartTime = performance.now();
+
+// "Genes" del mejor robot hasta el momento
+let bestGenes = null;
+
+// Genes por defecto (primera generación) – ahora incluyen color y radio
+const defaultGenes = {
+    radius: 9,
+    speed: 1.8,
+    sensorLength: 95,
+    sensorAngles: [-0.6, -0.25, 0, 0.25, 0.6],
+    turnCooldownMax: 18,
+    baseTurnAngle: 0.45,
+    randomTurnRange: 0.9,
+    hue: 200 // tono base (HSL) evolutivo
+};
+
+let robots = [];
+
+/* ---------- Utilidades geométricas ---------- */
+
+function segmentIntersection(p0, p1, p2, p3) {
+    const s1x = p1.x - p0.x;
+    const s1y = p1.y - p0.y;
+    const s2x = p3.x - p2.x;
+    const s2y = p3.y - p2.y;
+
+    const denom = (-s2x * s1y + s1x * s2y);
+    if (denom === 0) return null;
+
+    const s = (-s1y * (p0.x - p2.x) + s1x * (p0.y - p2.y)) / denom;
+    const t = ( s2x * (p0.y - p2.y) - s2y * (p0.x - p2.x)) / denom;
+
+    if (s >= 0 && s <= 1 && t >= 0 && t <= 1) {
+        return {
+            x: p0.x + (t * s1x),
+            y: p0.y + (t * s1y),
+            t: t,
+            u: s
+        };
+    }
+    return null;
+}
+
+function circleIntersectsRect(cx, cy, radius, rect) {
+    const closestX = Math.max(rect.x, Math.min(cx, rect.x + rect.w));
+    const closestY = Math.max(rect.y, Math.min(cy, rect.y + rect.h));
+    const dx = cx - closestX;
+    const dy = cy - closestY;
+    return (dx * dx + dy * dy) < (radius * radius);
+}
+
+/* ---------- Generación de laberinto clásico (DFS en rejilla) ---------- */
+
+function createMaze() {
+    walls.length = 0;
+
+    const W = simCanvas.width;
+    const H = simCanvas.height;
+
+    const targetCell = 100;
+    const usableW = W - 2 * border;
+    const usableH = H - 2 * border;
+
+    cols = Math.max(1, Math.floor(usableW / targetCell));
+    rows = Math.max(1, Math.floor(usableH / targetCell));
+
+    cellSize = Math.min(usableW / cols, usableH / rows);
+
+    const usedW = cols * cellSize;
+    const usedH = rows * cellSize;
+    border = 0.5 * (Math.min(W - usedW, H - usedH));
+
+    const grid = [];
+    for (let y = 0; y < rows; y++) {
+        const row = [];
+        for (let x = 0; x < cols; x++) {
+            row.push({
+                x,
+                y,
+                visited: false,
+                walls: { top: true, right: true, bottom: true, left: true }
+            });
+        }
+        grid.push(row);
+    }
+
+    function neighbours(cell) {
+        const list = [];
+        const { x, y } = cell;
+        if (y > 0) list.push(grid[y - 1][x]);
+        if (x < cols - 1) list.push(grid[y][x + 1]);
+        if (y < rows - 1) list.push(grid[y + 1][x]);
+        if (x > 0) list.push(grid[y][x - 1]);
+        return list;
+    }
+
+    function removeWall(a, b) {
+        const dx = b.x - a.x;
+        const dy = b.y - a.y;
+        if (dx === 1)      { a.walls.right  = false; b.walls.left   = false; }
+        else if (dx === -1){ a.walls.left   = false; b.walls.right  = false; }
+        else if (dy === 1) { a.walls.bottom = false; b.walls.top    = false; }
+        else if (dy === -1){ a.walls.top    = false; b.walls.bottom = false; }
+    }
+
+    // DFS con backtracking
+    const stack = [];
+    const startCell = grid[0][0];
+    startCell.visited = true;
+    stack.push(startCell);
+
+    while (stack.length > 0) {
+        const current = stack[stack.length - 1];
+        const neigh = neighbours(current).filter(n => !n.visited);
+
+        if (neigh.length === 0) {
+            stack.pop();
+        } else {
+            const next = neigh[Math.floor(Math.random() * neigh.length)];
+            next.visited = true;
+            removeWall(current, next);
+            stack.push(next);
+        }
+    }
+
+    const wallThickness = Math.max(4, cellSize * 0.14);
+
+    function cellToX(c) { return border + c * cellSize; }
+    function cellToY(r) { return border + r * cellSize; }
+
+    // META y zona de inicio (para dibujar)
+    GOAL_X = cellToX(cols - 1) + cellSize / 2;
+    GOAL_Y = cellToY(rows - 1) + cellSize / 2;
+    GOAL_RADIUS = cellSize * 0.35;
+
+    START_X = cellToX(0) + cellSize / 2;
+    START_Y = cellToY(0) + cellSize / 2;
+    START_RADIUS = cellSize * 0.32;
+
+    // Construcción de paredes
+    for (let y = 0; y < rows; y++) {
+        for (let x = 0; x < cols; x++) {
+            const c = grid[y][x];
+            const cx = cellToX(x);
+            const cy = cellToY(y);
+
+            // superior
+            if (c.walls.top && y === 0) {
+                walls.push({ x: cx, y: cy, w: cellSize, h: wallThickness });
+            }
+            // izquierda
+            if (c.walls.left && x === 0) {
+                walls.push({ x: cx, y: cy, w: wallThickness, h: cellSize });
+            }
+            // inferior interna
+            if (c.walls.bottom && y < rows - 1) {
+                walls.push({
+                    x: cx,
+                    y: cy + cellSize - wallThickness / 2,
+                    w: cellSize,
+                    h: wallThickness
+                });
+            }
+            // derecha interna
+            if (c.walls.right && x < cols - 1) {
+                walls.push({
+                    x: cx + cellSize - wallThickness / 2,
+                    y: cy,
+                    w: wallThickness,
+                    h: cellSize
+                });
+            }
+            // bordes exteriores adicionales
+            if (y === rows - 1 && c.walls.bottom) {
+                walls.push({
+                    x: cx,
+                    y: cy + cellSize - wallThickness,
+                    w: cellSize,
+                    h: wallThickness
+                });
+            }
+            if (x === cols - 1 && c.walls.right) {
+                walls.push({
+                    x: cx + cellSize - wallThickness,
+                    y: cy,
+                    w: wallThickness,
+                    h: cellSize
+                });
+            }
+        }
+    }
+}
+
+function drawBackgroundGrid() {
+    // leve cuadriculado de fondo
+    simCtx.save();
+    simCtx.globalAlpha = 0.15;
+    simCtx.strokeStyle = "#1f2933";
+    simCtx.lineWidth = 1;
+
+    for (let x = 0; x <= cols; x++) {
+        const gx = border + x * cellSize;
+        simCtx.beginPath();
+        simCtx.moveTo(gx, border);
+        simCtx.lineTo(gx, border + rows * cellSize);
+        simCtx.stroke();
+    }
+    for (let y = 0; y <= rows; y++) {
+        const gy = border + y * cellSize;
+        simCtx.beginPath();
+        simCtx.moveTo(border, gy);
+        simCtx.lineTo(border + cols * cellSize, gy);
+        simCtx.stroke();
+    }
+    simCtx.restore();
+}
+
+function drawWalls() {
+    simCtx.save();
+    simCtx.shadowColor = "rgba(0, 0, 0, 0.8)";
+    simCtx.shadowBlur = 8;
+    simCtx.fillStyle = "#1f3b4d";
+    for (const w of walls) {
+        simCtx.fillRect(w.x, w.y, w.w, w.h);
+    }
+    simCtx.shadowBlur = 0;
+    simCtx.globalAlpha = 0.4;
+    simCtx.strokeStyle = "#56c7ff";
+    simCtx.lineWidth = 1;
+    for (const w of walls) {
+        simCtx.strokeRect(w.x, w.y, w.w, w.h);
+    }
+    simCtx.restore();
+}
+
+function drawStart() {
+    simCtx.save();
+    // halo
+    simCtx.globalAlpha = 0.4;
+    const haloR = START_RADIUS * 1.5;
+    const grad = simCtx.createRadialGradient(
+        START_X, START_Y, START_RADIUS * 0.3,
+        START_X, START_Y, haloR
+    );
+    grad.addColorStop(0, "rgba(120, 220, 255, 0.6)");
+    grad.addColorStop(1, "rgba(120, 220, 255, 0.0)");
+    simCtx.fillStyle = grad;
+    simCtx.beginPath();
+    simCtx.arc(START_X, START_Y, haloR, 0, Math.PI * 2);
+    simCtx.fill();
+
+    // círculo principal
+    simCtx.globalAlpha = 1;
+    simCtx.beginPath();
+    simCtx.arc(START_X, START_Y, START_RADIUS, 0, Math.PI * 2);
+    simCtx.fillStyle = "rgba(120, 220, 255, 0.25)";
+    simCtx.fill();
+    simCtx.lineWidth = 2;
+    simCtx.strokeStyle = "#7fe4ff";
+    simCtx.stroke();
+
+    simCtx.font = "12px system-ui";
+    simCtx.fillStyle = "#bfefff";
+    simCtx.textAlign = "center";
+    simCtx.fillText("INICIO", START_X, START_Y + 4);
+    simCtx.restore();
+}
+
+function drawGoal() {
+    simCtx.save();
+    // halo
+    simCtx.globalAlpha = 0.5;
+    const haloR = GOAL_RADIUS * 1.7;
+    const grad = simCtx.createRadialGradient(
+        GOAL_X, GOAL_Y, GOAL_RADIUS * 0.3,
+        GOAL_X, GOAL_Y, haloR
+    );
+    grad.addColorStop(0, "rgba(80, 255, 160, 0.7)");
+    grad.addColorStop(1, "rgba(80, 255, 160, 0.0)");
+    simCtx.fillStyle = grad;
+    simCtx.beginPath();
+    simCtx.arc(GOAL_X, GOAL_Y, haloR, 0, Math.PI * 2);
+    simCtx.fill();
+
+    // círculo principal
+    simCtx.globalAlpha = 1;
+    simCtx.beginPath();
+    simCtx.arc(GOAL_X, GOAL_Y, GOAL_RADIUS, 0, Math.PI * 2);
+    simCtx.fillStyle = "rgba(80, 255, 160, 0.20)";
+    simCtx.fill();
+    simCtx.lineWidth = 2;
+    simCtx.strokeStyle = "#5affb0";
+    simCtx.stroke();
+
+    simCtx.font = "12px system-ui";
+    simCtx.fillStyle = "#caffde";
+    simCtx.textAlign = "center";
+    simCtx.fillText("META", GOAL_X, GOAL_Y + 4);
+    simCtx.restore();
+}
+
+/* ---------- Clase Robot ---------- */
+
+class Robot {
+    constructor(x, y, genes) {
+        const g = genes || defaultGenes;
+
+        this.x = x;
+        this.y = y;
+        this.radius = g.radius;
+        this.angle = Math.random() * Math.PI * 2;
+        this.speed = g.speed;
+
+        this.sensorLength = g.sensorLength;
+        this.sensorAngles = g.sensorAngles.slice();
+
+        this.sensorHits = [];
+
+        this.turnCooldown = 0;
+        this.turnCooldownMax = g.turnCooldownMax;
+        this.baseTurnAngle = g.baseTurnAngle;
+        this.randomTurnRange = g.randomTurnRange;
+
+        // Color basado en los genes, con ligera variación individual
+        const baseHue = g.hue !== undefined ? g.hue : Math.random() * 360;
+        this.hue = (baseHue + (Math.random() * 60 - 30) + 360) % 360;
+
+        this.history = [];
+        this.historyMax = 14;
+    }
+
+    update() {
+        const hits = this.checkSensors();
+
+        const anyHit = hits.some(h => h.hit);
+        if (anyHit && this.turnCooldown === 0) {
+            const direction = Math.random() < 0.5 ? -1 : 1;
+            const angleChange =
+                (this.baseTurnAngle + Math.random() * this.randomTurnRange) * direction;
+            this.angle += angleChange;
+            this.turnCooldown = this.turnCooldownMax;
+        }
+
+        if (this.turnCooldown > 0) {
+            this.turnCooldown--;
+        }
+
+        const newX = this.x + Math.cos(this.angle) * this.speed;
+        const newY = this.y + Math.sin(this.angle) * this.speed;
+
+        let collided = false;
+        for (const w of walls) {
+            if (circleIntersectsRect(newX, newY, this.radius, w)) {
+                collided = true;
+                break;
+            }
+        }
+
+        if (!collided) {
+            this.x = newX;
+            this.y = newY;
+        } else {
+            const backX = this.x - Math.cos(this.angle) * this.speed * 2;
+            const backY = this.y - Math.sin(this.angle) * this.speed * 2;
+            this.x = backX;
+            this.y = backY;
+            this.angle += (Math.random() - 0.5) * Math.PI;
+            this.turnCooldown = this.turnCooldownMax;
+        }
+
+        // actualizar historial (estela)
+        this.history.push({ x: this.x, y: this.y });
+        if (this.history.length > this.historyMax) {
+            this.history.shift();
+        }
+    }
+
+    checkSensors() {
+        this.sensorHits = [];
+
+        for (const relAngle of this.sensorAngles) {
+            const sensorDir = this.angle + relAngle;
+
+            const start = { x: this.x, y: this.y };
+            const end = {
+                x: this.x + Math.cos(sensorDir) * this.sensorLength,
+                y: this.y + Math.sin(sensorDir) * this.sensorLength
+            };
+
+            let closestHit = null;
+            let closestT = Infinity;
+
+            for (const w of walls) {
+                const edges = [
+                    { a: { x: w.x,         y: w.y },         b: { x: w.x + w.w, y: w.y } },
+                    { a: { x: w.x,         y: w.y + w.h },   b: { x: w.x + w.w, y: w.y + w.h } },
+                    { a: { x: w.x,         y: w.y },         b: { x: w.x,       y: w.y + w.h } },
+                    { a: { x: w.x + w.w,   y: w.y },         b: { x: w.x + w.w, y: w.y + w.h } }
+                ];
+
+                for (const edge of edges) {
+                    const result = segmentIntersection(start, end, edge.a, edge.b);
+                    if (result && result.t < closestT) {
+                        closestT = result.t;
+                        closestHit = { x: result.x, y: result.y };
+                    }
+                }
+            }
+
+            if (closestHit) {
+                this.sensorHits.push({
+                    angle: sensorDir,
+                    hit: true,
+                    from: start,
+                    to: closestHit
+                });
+            } else {
+                this.sensorHits.push({
+                    angle: sensorDir,
+                    hit: false,
+                    from: start,
+                    to: end
+                });
+            }
+        }
+
+        return this.sensorHits;
+    }
+
+    hasReachedGoal() {
+        const dx = this.x - GOAL_X;
+        const dy = this.y - GOAL_Y;
+        const dist2 = dx * dx + dy * dy;
+        return dist2 < (GOAL_RADIUS * GOAL_RADIUS);
+    }
+
+    drawTrail(ctx) {
+        if (this.history.length < 2) return;
+
+        ctx.save();
+        ctx.lineWidth = 1.5;
+        for (let i = 1; i < this.history.length; i++) {
+            const p0 = this.history[i - 1];
+            const p1 = this.history[i];
+            const t = i / (this.history.length - 1);
+            ctx.strokeStyle = `hsla(${this.hue}, 80%, ${40 + 20 * t}%, ${0.12 + 0.2 * t})`;
+            ctx.beginPath();
+            ctx.moveTo(p0.x, p0.y);
+            ctx.lineTo(p1.x, p1.y);
+            ctx.stroke();
+        }
+        ctx.restore();
+    }
+
+    draw(ctx) {
+        // Estela
+        this.drawTrail(ctx);
+
+        // Sensores
+        ctx.save();
+        ctx.globalAlpha = 0.35;
+        for (const s of this.sensorHits) {
+            ctx.beginPath();
+            ctx.moveTo(s.from.x, s.from.y);
+            ctx.lineTo(s.to.x, s.to.y);
+            ctx.strokeStyle = s.hit
+                ? `hsla(${this.hue}, 100%, 70%, 0.8)`
+                : `hsla(${this.hue}, 70%, 55%, 0.5)`;
+            ctx.lineWidth = 1.2;
+            ctx.stroke();
+        }
+        ctx.restore();
+
+        // Cuerpo del robot
+        ctx.save();
+        ctx.translate(this.x, this.y);
+        ctx.rotate(this.angle);
+
+        const innerGrad = ctx.createRadialGradient(
+            0, 0, this.radius * 0.1,
+            0, 0, this.radius
+        );
+        innerGrad.addColorStop(0, `hsl(${this.hue}, 80%, 75%)`);
+        innerGrad.addColorStop(1, `hsl(${this.hue}, 60%, 35%)`);
+
+        ctx.beginPath();
+        ctx.arc(0, 0, this.radius, 0, Math.PI * 2);
+        ctx.fillStyle = innerGrad;
+        ctx.fill();
+        ctx.lineWidth = 1.5;
+        ctx.strokeStyle = "rgba(0,0,0,0.7)";
+        ctx.stroke();
+
+        // "tapa" superior para efecto bisel
+        ctx.beginPath();
+        ctx.arc(0, 0, this.radius * 0.65, -Math.PI * 0.1, Math.PI * 1.1);
+        ctx.fillStyle = "rgba(255,255,255,0.25)";
+        ctx.fill();
+
+        // indicador de frente
+        ctx.beginPath();
+        ctx.moveTo(this.radius * 0.3, 0);
+        ctx.lineTo(this.radius * 0.95, 0);
+        ctx.strokeStyle = "#ffffff";
+        ctx.lineWidth = 2;
+        ctx.stroke();
+
+        ctx.restore();
+    }
+}
+
+/* ---------- Evolución ---------- */
+
+function mutateValue(value, factor, minVal, maxVal) {
+    const delta = (Math.random() * 2 - 1) * factor;
+    let v = value * (1 + delta);
+    if (minVal !== undefined) v = Math.max(minVal, v);
+    if (maxVal !== undefined) v = Math.min(maxVal, v);
+    return v;
+}
+
+function mutateHue(hue, range = 40) {
+    let h = hue + (Math.random() * 2 - 1) * range;
+    h %= 360;
+    if (h < 0) h += 360;
+    return h;
+}
+
+function mutateGenes(parent) {
+    const g = {
+        // radio evolutivo
+        radius: mutateValue(parent.radius, 0.2, 4, 22),
+        // velocidad evolutiva
+        speed: mutateValue(parent.speed, 0.22, 0.5, 4.0),
+        sensorLength: mutateValue(parent.sensorLength, 0.25, 40, 260),
+        turnCooldownMax: Math.round(mutateValue(parent.turnCooldownMax, 0.3, 5, 80)),
+        // parámetros de giro evolutivos
+        baseTurnAngle: mutateValue(parent.baseTurnAngle, 0.25, 0.08, 1.2),
+        randomTurnRange: mutateValue(parent.randomTurnRange, 0.3, 0.2, 2.5),
+        sensorAngles: parent.sensorAngles.slice(),
+        // color evolutivo
+        hue: mutateHue(parent.hue !== undefined ? parent.hue : 200, 40)
+    };
+
+    for (let i = 0; i < g.sensorAngles.length; i++) {
+        g.sensorAngles[i] += (Math.random() * 2 - 1) * 0.09;
+    }
+
+    g.sensorAngles.sort((a, b) => a - b);
+    return g;
+}
+
+function extractGenesFromRobot(robot) {
+    return {
+        radius: robot.radius,
+        speed: robot.speed,
+        sensorLength: robot.sensorLength,
+        sensorAngles: robot.sensorAngles.slice(),
+        turnCooldownMax: robot.turnCooldownMax,
+        baseTurnAngle: robot.baseTurnAngle,
+        randomTurnRange: robot.randomTurnRange,
+        hue: robot.hue
+    };
+}
+
+/* ---------- Gestión de simulación ---------- */
+
+function resetSimulation() {
+    robots = [];
+    const parentGenes = bestGenes || defaultGenes;
+
+    // Nuevo laberinto clásico
+    createMaze();
+
+    // Centro de la celda (0,0)
+    const startCellX = START_X;
+    const startCellY = START_Y;
+    const spread = cellSize * 0.25;
+
+    for (let i = 0; i < NUM_ROBOTS; i++) {
+        // siempre hay variación evolutiva a partir de los genes del "padre"
+        const genes = mutateGenes(parentGenes);
+
+        const startX = startCellX + (Math.random() * 2 - 1) * spread;
+        const startY = startCellY + (Math.random() * 2 - 1) * spread;
+
+        robots.push(new Robot(startX, startY, genes));
+    }
+
+    generationStartTime = performance.now();
+}
+
+function updateInfo() {
+    let text = `<strong>Generación:</strong> ${generation}
+Robots: ${NUM_ROBOTS}`;
+
+    if (bestGenes && generationTimes.length > 0) {
+        const lastTime = generationTimes[generationTimes.length - 1];
+        const bestTime = Math.min(...generationTimes);
+        text += `
+
+<strong>Mejores genes (ganador generación anterior):</strong>
+· color (hue): ${bestGenes.hue.toFixed(1)}°
+· radio: ${bestGenes.radius.toFixed(2)}
+· velocidad: ${bestGenes.speed.toFixed(2)}
+· longitud sensores: ${bestGenes.sensorLength.toFixed(1)}
+· enfriamiento giro: ${bestGenes.turnCooldownMax}
+· ángulo base giro: ${bestGenes.baseTurnAngle.toFixed(2)}
+· rango giro aleatorio: ${bestGenes.randomTurnRange.toFixed(2)}
+
+Tiempo última generación: ${lastTime.toFixed(2)} s
+Mejor tiempo histórico: ${bestTime.toFixed(2)} s`;
+    } else {
+        text += `
+
+<strong>Mejores genes:</strong> ninguno todavía (evolucionando...)`;
+    }
+
+    infoDiv.innerHTML = text;
+}
+
+/* ---------- Gráfico de barras (canvas separado) ---------- */
+
+function drawChart() {
+    chartCtx.clearRect(0, 0, chartCanvas.width, chartCanvas.height);
+    if (generationTimes.length === 0) return;
+
+    const chartWidth  = chartCanvas.width;
+    const chartHeight = chartCanvas.height;
+
+    const padding = 10;
+    const innerX = 40;
+    const innerY = 26;
+    const innerWidth  = chartWidth - innerX - padding;
+    const innerHeight = chartHeight - innerY - 18;
+
+    // fondo
+    const bgGrad = chartCtx.createLinearGradient(0, 0, 0, chartHeight);
+    bgGrad.addColorStop(0, "rgba(10, 16, 30, 0.96)");
+    bgGrad.addColorStop(1, "rgba(5, 8, 18, 0.96)");
+    chartCtx.fillStyle = bgGrad;
+    chartCtx.fillRect(0, 0, chartWidth, chartHeight);
+
+    chartCtx.strokeStyle = "rgba(120,160,255,0.7)";
+    chartCtx.lineWidth = 1;
+    chartCtx.strokeRect(0.5, 0.5, chartWidth - 1, chartHeight - 1);
+
+    chartCtx.fillStyle = "#e5eeff";
+    chartCtx.font = "11px system-ui";
+    chartCtx.textAlign = "left";
+    chartCtx.fillText("Tiempo hasta la meta (s)", 8, 16);
+
+    const maxBars = 30;
+    const data = generationTimes.slice(-maxBars);
+    const maxTime = Math.max(...data);
+    const minTime = Math.min(...data);
+    const bestTime = Math.min(...generationTimes);
+
+    // rejilla horizontal
+    chartCtx.strokeStyle = "rgba(255,255,255,0.08)";
+    chartCtx.lineWidth = 1;
+    const gridLines = 4;
+    for (let i = 0; i <= gridLines; i++) {
+        const gy = innerY + (innerHeight / gridLines) * i;
+        chartCtx.beginPath();
+        chartCtx.moveTo(innerX, gy);
+        chartCtx.lineTo(innerX + innerWidth, gy);
+        chartCtx.stroke();
+    }
+
+    // ejes
+    chartCtx.strokeStyle = "rgba(200,220,255,0.6)";
+    chartCtx.beginPath();
+    chartCtx.moveTo(innerX, innerY);
+    chartCtx.lineTo(innerX, innerY + innerHeight);
+    chartCtx.lineTo(innerX + innerWidth, innerY + innerHeight);
+    chartCtx.stroke();
+
+    // textos min / max
+    chartCtx.fillStyle = "#c5d7ff";
+    chartCtx.textAlign = "right";
+    chartCtx.fillText(maxTime.toFixed(1), innerX - 4, innerY + 9);
+    chartCtx.fillText(minTime.toFixed(1), innerX - 4, innerY + innerHeight);
+
+    const barCount = data.length;
+    const barGap = 2;
+    const barWidth = Math.max(3, (innerWidth - barGap * (barCount - 1)) / barCount);
+
+    chartCtx.textAlign = "center";
+
+    for (let i = 0; i < barCount; i++) {
+        const t = data[i];
+        const norm = t / maxTime;
+        const barH = norm * innerHeight;
+        const x = innerX + i * (barWidth + barGap);
+        const y = innerY + innerHeight - barH;
+
+        const gGlobalIndex = generationTimes.length - data.length + i;
+        const isBest = generationTimes[gGlobalIndex] === bestTime;
+
+        const grad = chartCtx.createLinearGradient(x, y, x, y + barH);
+        if (isBest) {
+            grad.addColorStop(0, "rgba(102, 255, 204, 0.95)");
+            grad.addColorStop(1, "rgba(46, 204, 113, 0.85)");
+        } else {
+            grad.addColorStop(0, "rgba(80, 190, 255, 0.95)");
+            grad.addColorStop(1, "rgba(0, 118, 210, 0.85)");
+        }
+        chartCtx.fillStyle = grad;
+        chartCtx.fillRect(x, y, barWidth, barH);
+
+        if ((i + 1) % 5 === 0 || i === barCount - 1) {
+            const genIndex = generationTimes.length - data.length + i + 1;
+            chartCtx.fillStyle = "#dde6ff";
+            chartCtx.font = "9px system-ui";
+            chartCtx.fillText(genIndex, x + barWidth / 2, innerY + innerHeight + 11);
+        }
+    }
+}
+
+/* ---------- Bucle principal ---------- */
+
+function loop() {
+    simCtx.clearRect(0, 0, simCanvas.width, simCanvas.height);
+
+    drawBackgroundGrid();
+    drawWalls();
+    drawStart();
+    drawGoal();
+
+    let winner = null;
+
+    for (const r of robots) {
+        r.update();
+        r.draw(simCtx);
+
+        if (!winner && r.hasReachedGoal()) {
+            winner = r;
+        }
+    }
+
+    if (winner) {
+        const now = performance.now();
+        const elapsedSeconds = (now - generationStartTime) / 1000.0;
+
+        generationTimes.push(elapsedSeconds);
+        bestGenes = extractGenesFromRobot(winner);
+        generation++;
+        resetSimulation();
+        updateInfo();
+    }
+
+    drawChart();
+    requestAnimationFrame(loop);
+}
+
+/* ---------- Inicio ---------- */
+resetSimulation();
+updateInfo();
+loop();
+</script>
+</body>
+</html>
+```
+
+### preferencia por colores
+<small>Creado: 2025-12-10 23:25</small>
+
+`008-preferencia por colores.html`
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Simulación de robots tipo Roomba (evolutivos)</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            background: radial-gradient(circle at top left, #1b2735 0%, #090a0f 40%, #000000 100%);
+            height: 100vh;
+            color: #eee;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            overflow: hidden;
+        }
+        #container {
+            display: flex;
+            width: 100vw;
+            height: 100vh;
+            padding: 16px;
+            gap: 16px;
+        }
+        #leftPane {
+            flex: 1 1 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #rightPane {
+            width: 320px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        #sim {
+            background: radial-gradient(circle at center, #141820 0%, #050609 100%);
+            border-radius: 14px;
+            box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+        #chart {
+            background: linear-gradient(135deg, rgba(10,10,20,0.96), rgba(5,8,18,0.96));
+            border-radius: 10px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.45);
+        }
+        #info {
+            background: linear-gradient(135deg, rgba(10,10,20,0.95), rgba(25,25,45,0.96));
+            padding: 10px 14px;
+            font-size: 12px;
+            border-radius: 10px;
+            white-space: pre-line;
+            border: 1px solid rgba(120, 160, 255, 0.3);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+            backdrop-filter: blur(6px);
+        }
+        #info strong {
+            color: #9cc4ff;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="leftPane">
+        <canvas id="sim"></canvas>
+    </div>
+    <div id="rightPane">
+        <div id="info"></div>
+        <canvas id="chart" width="280" height="170"></canvas>
+    </div>
+</div>
+
+<script>
+/* ---------- Configuración básica ---------- */
+const simCanvas   = document.getElementById("sim");
+const simCtx      = simCanvas.getContext("2d");
+const infoDiv     = document.getElementById("info");
+const chartCanvas = document.getElementById("chart");
+const chartCtx    = chartCanvas.getContext("2d");
+
+// Margen interno aproximado para el canvas de simulación
+const margin = 16;
+const SIDEBAR_WIDTH = 320;
+
+// Ajuste de tamaño del canvas de simulación
+simCanvas.width  = window.innerWidth  - SIDEBAR_WIDTH - margin * 3;
+simCanvas.height = window.innerHeight - margin * 2;
+
+// Rejilla del laberinto
+const walls = [];
+let cellSize;
+let cols, rows;
+let border = 20;
+
+let GOAL_RADIUS = 35;
+let GOAL_X = 0;
+let GOAL_Y = 0;
+
+// Zona de inicio (coordenadas para dibujarla)
+let START_X = 0;
+let START_Y = 0;
+let START_RADIUS = 0;
+
+const NUM_ROBOTS = 200;
+let generation = 1;
+
+// Tiempos (en segundos) para el robot más rápido de cada generación
+let generationTimes = [];
+let generationStartTime = performance.now();
+
+// "Genes" del mejor robot hasta el momento
+let bestGenes = null;
+
+// Genes por defecto (primera generación), incluyen color y glow
+const defaultGenes = {
+    radius: 9,
+    speed: 1.8,
+    sensorLength: 95,
+    sensorAngles: [-0.6, -0.25, 0, 0.25, 0.6],
+    turnCooldownMax: 18,
+    baseTurnAngle: 0.45,
+    randomTurnRange: 0.9,
+    // color base (HSL)
+    hue: 200,
+    // fuerza con la que la preferencia de color afecta al giro
+    colorTurnStrength: 0.06,
+    // intensidad del brillo
+    glowIntensity: 1.0,
+    // respuesta a “colores lógicos”: pared, meta, inicio, vacío
+    colorWeights: {
+        wall: -1.2,
+        goal: 1.0,
+        start: 0.2,
+        empty: 0.0
+    }
+};
+
+let robots = [];
+
+/* ---------- Utilidades geométricas ---------- */
+
+function segmentIntersection(p0, p1, p2, p3) {
+    const s1x = p1.x - p0.x;
+    const s1y = p1.y - p0.y;
+    const s2x = p3.x - p2.x;
+    const s2y = p3.y - p2.y;
+
+    const denom = (-s2x * s1y + s1x * s2y);
+    if (denom === 0) return null;
+
+    const s = (-s1y * (p0.x - p2.x) + s1x * (p0.y - p2.y)) / denom;
+    const t = ( s2x * (p0.y - p2.y) - s2y * (p0.x - p2.x)) / denom;
+
+    if (s >= 0 && s <= 1 && t >= 0 && t <= 1) {
+        return {
+            x: p0.x + (t * s1x),
+            y: p0.y + (t * s1y),
+            t: t,
+            u: s
+        };
+    }
+    return null;
+}
+
+function circleIntersectsRect(cx, cy, radius, rect) {
+    const closestX = Math.max(rect.x, Math.min(cx, rect.x + rect.w));
+    const closestY = Math.max(rect.y, Math.min(cy, rect.y + rect.h));
+    const dx = cx - closestX;
+    const dy = cy - closestY;
+    return (dx * dx + dy * dy) < (radius * radius);
+}
+
+// intersección segmento-círculo (para detectar INICIO/META)
+function rayCircleIntersection(start, end, cx, cy, r) {
+    const dx = end.x - start.x;
+    const dy = end.y - start.y;
+
+    const fx = start.x - cx;
+    const fy = start.y - cy;
+
+    const a = dx * dx + dy * dy;
+    const b = 2 * (fx * dx + fy * dy);
+    const c = fx * fx + fy * fy - r * r;
+
+    const discriminant = b * b - 4 * a * c;
+    if (discriminant < 0) return null;
+
+    const sqrtD = Math.sqrt(discriminant);
+    const t1 = (-b - sqrtD) / (2 * a);
+    const t2 = (-b + sqrtD) / (2 * a);
+
+    let t = null;
+    if (t1 >= 0 && t1 <= 1) t = t1;
+    else if (t2 >= 0 && t2 <= 1) t = t2;
+
+    if (t === null) return null;
+
+    return {
+        t,
+        x: start.x + dx * t,
+        y: start.y + dy * t
+    };
+}
+
+/* ---------- Generación de laberinto clásico (DFS en rejilla) ---------- */
+
+function createMaze() {
+    walls.length = 0;
+
+    const W = simCanvas.width;
+    const H = simCanvas.height;
+
+    const targetCell = 80;
+    const usableW = W - 2 * border;
+    const usableH = H - 2 * border;
+
+    cols = Math.max(1, Math.floor(usableW / targetCell));
+    rows = Math.max(1, Math.floor(usableH / targetCell));
+
+    cellSize = Math.min(usableW / cols, usableH / rows);
+
+    const usedW = cols * cellSize;
+    const usedH = rows * cellSize;
+    border = 0.5 * (Math.min(W - usedW, H - usedH));
+
+    const grid = [];
+    for (let y = 0; y < rows; y++) {
+        const row = [];
+        for (let x = 0; x < cols; x++) {
+            row.push({
+                x,
+                y,
+                visited: false,
+                walls: { top: true, right: true, bottom: true, left: true }
+            });
+        }
+        grid.push(row);
+    }
+
+    function neighbours(cell) {
+        const list = [];
+        const { x, y } = cell;
+        if (y > 0) list.push(grid[y - 1][x]);
+        if (x < cols - 1) list.push(grid[y][x + 1]);
+        if (y < rows - 1) list.push(grid[y + 1][x]);
+        if (x > 0) list.push(grid[y][x - 1]);
+        return list;
+    }
+
+    function removeWall(a, b) {
+        const dx = b.x - a.x;
+        const dy = b.y - a.y;
+        if (dx === 1)      { a.walls.right  = false; b.walls.left   = false; }
+        else if (dx === -1){ a.walls.left   = false; b.walls.right  = false; }
+        else if (dy === 1) { a.walls.bottom = false; b.walls.top    = false; }
+        else if (dy === -1){ a.walls.top    = false; b.walls.bottom = false; }
+    }
+
+    // DFS con backtracking
+    const stack = [];
+    const startCell = grid[0][0];
+    startCell.visited = true;
+    stack.push(startCell);
+
+    while (stack.length > 0) {
+        const current = stack[stack.length - 1];
+        const neigh = neighbours(current).filter(n => !n.visited);
+
+        if (neigh.length === 0) {
+            stack.pop();
+        } else {
+            const next = neigh[Math.floor(Math.random() * neigh.length)];
+            next.visited = true;
+            removeWall(current, next);
+            stack.push(next);
+        }
+    }
+
+    const wallThickness = Math.max(4, cellSize * 0.14);
+
+    function cellToX(c) { return border + c * cellSize; }
+    function cellToY(r) { return border + r * cellSize; }
+
+    // META y zona de inicio (para dibujar)
+    GOAL_X = cellToX(cols - 1) + cellSize / 2;
+    GOAL_Y = cellToY(rows - 1) + cellSize / 2;
+    GOAL_RADIUS = cellSize * 0.35;
+
+    START_X = cellToX(0) + cellSize / 2;
+    START_Y = cellToY(0) + cellSize / 2;
+    START_RADIUS = cellSize * 0.32;
+
+    // Construcción de paredes
+    for (let y = 0; y < rows; y++) {
+        for (let x = 0; x < cols; x++) {
+            const c = grid[y][x];
+            const cx = cellToX(x);
+            const cy = cellToY(y);
+
+            // superior
+            if (c.walls.top && y === 0) {
+                walls.push({ x: cx, y: cy, w: cellSize, h: wallThickness });
+            }
+            // izquierda
+            if (c.walls.left && x === 0) {
+                walls.push({ x: cx, y: cy, w: wallThickness, h: cellSize });
+            }
+            // inferior interna
+            if (c.walls.bottom && y < rows - 1) {
+                walls.push({
+                    x: cx,
+                    y: cy + cellSize - wallThickness / 2,
+                    w: cellSize,
+                    h: wallThickness
+                });
+            }
+            // derecha interna
+            if (c.walls.right && x < cols - 1) {
+                walls.push({
+                    x: cx + cellSize - wallThickness / 2,
+                    y: cy,
+                    w: wallThickness,
+                    h: cellSize
+                });
+            }
+            // bordes exteriores adicionales
+            if (y === rows - 1 && c.walls.bottom) {
+                walls.push({
+                    x: cx,
+                    y: cy + cellSize - wallThickness,
+                    w: cellSize,
+                    h: wallThickness
+                });
+            }
+            if (x === cols - 1 && c.walls.right) {
+                walls.push({
+                    x: cx + cellSize - wallThickness,
+                    y: cy,
+                    w: wallThickness,
+                    h: cellSize
+                });
+            }
+        }
+    }
+}
+
+function drawBackgroundGrid() {
+    simCtx.save();
+    simCtx.globalAlpha = 0.15;
+    simCtx.strokeStyle = "#1f2933";
+    simCtx.lineWidth = 1;
+
+    for (let x = 0; x <= cols; x++) {
+        const gx = border + x * cellSize;
+        simCtx.beginPath();
+        simCtx.moveTo(gx, border);
+        simCtx.lineTo(gx, border + rows * cellSize);
+        simCtx.stroke();
+    }
+    for (let y = 0; y <= rows; y++) {
+        const gy = border + y * cellSize;
+        simCtx.beginPath();
+        simCtx.moveTo(border, gy);
+        simCtx.lineTo(border + cols * cellSize, gy);
+        simCtx.stroke();
+    }
+    simCtx.restore();
+}
+
+function drawWalls() {
+    simCtx.save();
+    simCtx.shadowColor = "rgba(0, 0, 0, 0.8)";
+    simCtx.shadowBlur = 8;
+    simCtx.fillStyle = "#1f3b4d";
+    for (const w of walls) {
+        simCtx.fillRect(w.x, w.y, w.w, w.h);
+    }
+    simCtx.shadowBlur = 0;
+    simCtx.globalAlpha = 0.4;
+    simCtx.strokeStyle = "#56c7ff";
+    simCtx.lineWidth = 1;
+    for (const w of walls) {
+        simCtx.strokeRect(w.x, w.y, w.w, w.h);
+    }
+    simCtx.restore();
+}
+
+function drawStart() {
+    simCtx.save();
+    // halo
+    simCtx.globalAlpha = 0.4;
+    const haloR = START_RADIUS * 1.5;
+    const grad = simCtx.createRadialGradient(
+        START_X, START_Y, START_RADIUS * 0.3,
+        START_X, START_Y, haloR
+    );
+    grad.addColorStop(0, "rgba(120, 220, 255, 0.6)");
+    grad.addColorStop(1, "rgba(120, 220, 255, 0.0)");
+    simCtx.fillStyle = grad;
+    simCtx.beginPath();
+    simCtx.arc(START_X, START_Y, haloR, 0, Math.PI * 2);
+    simCtx.fill();
+
+    // círculo principal
+    simCtx.globalAlpha = 1;
+    simCtx.beginPath();
+    simCtx.arc(START_X, START_Y, START_RADIUS, 0, Math.PI * 2);
+    simCtx.fillStyle = "rgba(120, 220, 255, 0.25)";
+    simCtx.fill();
+    simCtx.lineWidth = 2;
+    simCtx.strokeStyle = "#7fe4ff";
+    simCtx.stroke();
+
+    simCtx.font = "12px system-ui";
+    simCtx.fillStyle = "#bfefff";
+    simCtx.textAlign = "center";
+    simCtx.fillText("INICIO", START_X, START_Y + 4);
+    simCtx.restore();
+}
+
+function drawGoal() {
+    simCtx.save();
+    // halo
+    simCtx.globalAlpha = 0.5;
+    const haloR = GOAL_RADIUS * 1.7;
+    const grad = simCtx.createRadialGradient(
+        GOAL_X, GOAL_Y, GOAL_RADIUS * 0.3,
+        GOAL_X, GOAL_Y, haloR
+    );
+    grad.addColorStop(0, "rgba(80, 255, 160, 0.7)");
+    grad.addColorStop(1, "rgba(80, 255, 160, 0.0)");
+    simCtx.fillStyle = grad;
+    simCtx.beginPath();
+    simCtx.arc(GOAL_X, GOAL_Y, haloR, 0, Math.PI * 2);
+    simCtx.fill();
+
+    // círculo principal
+    simCtx.globalAlpha = 1;
+    simCtx.beginPath();
+    simCtx.arc(GOAL_X, GOAL_Y, GOAL_RADIUS, 0, Math.PI * 2);
+    simCtx.fillStyle = "rgba(80, 255, 160, 0.20)";
+    simCtx.fill();
+    simCtx.lineWidth = 2;
+    simCtx.strokeStyle = "#5affb0";
+    simCtx.stroke();
+
+    simCtx.font = "12px system-ui";
+    simCtx.fillStyle = "#caffde";
+    simCtx.textAlign = "center";
+    simCtx.fillText("META", GOAL_X, GOAL_Y + 4);
+    simCtx.restore();
+}
+
+/* ---------- Clase Robot ---------- */
+
+class Robot {
+    constructor(x, y, genes) {
+        const g = genes || defaultGenes;
+
+        this.x = x;
+        this.y = y;
+        this.radius = g.radius;
+        this.angle = Math.random() * Math.PI * 2;
+        this.speed = g.speed;
+
+        this.sensorLength = g.sensorLength;
+        this.sensorAngles = g.sensorAngles.slice();
+
+        this.sensorHits = [];
+
+        this.turnCooldown = 0;
+        this.turnCooldownMax = g.turnCooldownMax;
+        this.baseTurnAngle = g.baseTurnAngle;
+        this.randomTurnRange = g.randomTurnRange;
+
+        this.colorWeights = { ...g.colorWeights };
+        this.colorTurnStrength = g.colorTurnStrength;
+        this.glowIntensity = g.glowIntensity;
+
+        const baseHue = g.hue !== undefined ? g.hue : Math.random() * 360;
+        this.hue = (baseHue + (Math.random() * 60 - 30) + 360) % 360;
+
+        // estela más larga
+        this.history = [];
+        this.historyMax = 40;
+    }
+
+    update() {
+        const hits = this.checkSensors();
+
+        // Evitación de paredes
+        const anyWallHit = hits.some(h => h.hit && h.colorType === "wall");
+        if (anyWallHit && this.turnCooldown === 0) {
+            const direction = Math.random() < 0.5 ? -1 : 1;
+            const angleChange =
+                (this.baseTurnAngle + Math.random() * this.randomTurnRange) * direction;
+            this.angle += angleChange;
+            this.turnCooldown = this.turnCooldownMax;
+        }
+
+        // Enfriamiento
+        if (this.turnCooldown > 0) {
+            this.turnCooldown--;
+        }
+
+        // Influencia de colores en el giro (preferencias evolutivas)
+        let steer = 0;
+        if (hits.length > 1) {
+            for (let i = 0; i < hits.length; i++) {
+                const h = hits[i];
+                const side = (i / (hits.length - 1)) * 2 - 1; // -1 (izq) a 1 (dcha)
+                const w = this.colorWeights[h.colorType] || 0;
+                steer += w * side;
+            }
+        }
+        this.angle += steer * this.colorTurnStrength;
+
+        const newX = this.x + Math.cos(this.angle) * this.speed;
+        const newY = this.y + Math.sin(this.angle) * this.speed;
+
+        let collided = false;
+        for (const w of walls) {
+            if (circleIntersectsRect(newX, newY, this.radius, w)) {
+                collided = true;
+                break;
+            }
+        }
+
+        if (!collided) {
+            this.x = newX;
+            this.y = newY;
+        } else {
+            const backX = this.x - Math.cos(this.angle) * this.speed * 2;
+            const backY = this.y - Math.sin(this.angle) * this.speed * 2;
+            this.x = backX;
+            this.y = backY;
+            this.angle += (Math.random() - 0.5) * Math.PI;
+            this.turnCooldown = this.turnCooldownMax;
+        }
+
+        // actualizar historial (estela)
+        this.history.push({ x: this.x, y: this.y });
+        if (this.history.length > this.historyMax) {
+            this.history.shift();
+        }
+    }
+
+    checkSensors() {
+        this.sensorHits = [];
+
+        for (const relAngle of this.sensorAngles) {
+            const sensorDir = this.angle + relAngle;
+
+            const start = { x: this.x, y: this.y };
+            const end = {
+                x: this.x + Math.cos(sensorDir) * this.sensorLength,
+                y: this.y + Math.sin(sensorDir) * this.sensorLength
+            };
+
+            let bestT = Infinity;
+            let bestPoint = null;
+            let bestType = "empty";
+
+            // paredes
+            for (const w of walls) {
+                const edges = [
+                    { a: { x: w.x,         y: w.y },         b: { x: w.x + w.w, y: w.y } },
+                    { a: { x: w.x,         y: w.y + w.h },   b: { x: w.x + w.w, y: w.y + w.h } },
+                    { a: { x: w.x,         y: w.y },         b: { x: w.x,       y: w.y + w.h } },
+                    { a: { x: w.x + w.w,   y: w.y },         b: { x: w.x + w.w, y: w.y + w.h } }
+                ];
+
+                for (const edge of edges) {
+                    const result = segmentIntersection(start, end, edge.a, edge.b);
+                    if (result && result.t < bestT) {
+                        bestT = result.t;
+                        bestPoint = { x: result.x, y: result.y };
+                        bestType = "wall";
+                    }
+                }
+            }
+
+            // meta (goal, verde)
+            const hitGoal = rayCircleIntersection(start, end, GOAL_X, GOAL_Y, GOAL_RADIUS);
+            if (hitGoal && hitGoal.t < bestT) {
+                bestT = hitGoal.t;
+                bestPoint = { x: hitGoal.x, y: hitGoal.y };
+                bestType = "goal";
+            }
+
+            // inicio (start)
+            const hitStart = rayCircleIntersection(start, end, START_X, START_Y, START_RADIUS);
+            if (hitStart && hitStart.t < bestT) {
+                bestT = hitStart.t;
+                bestPoint = { x: hitStart.x, y: hitStart.y };
+                bestType = "start";
+            }
+
+            if (bestPoint) {
+                this.sensorHits.push({
+                    angle: sensorDir,
+                    hit: true,
+                    from: start,
+                    to: bestPoint,
+                    colorType: bestType
+                });
+            } else {
+                this.sensorHits.push({
+                    angle: sensorDir,
+                    hit: false,
+                    from: start,
+                    to: end,
+                    colorType: "empty"
+                });
+            }
+        }
+
+        return this.sensorHits;
+    }
+
+    hasReachedGoal() {
+        const dx = this.x - GOAL_X;
+        const dy = this.y - GOAL_Y;
+        const dist2 = dx * dx + dy * dy;
+        return dist2 < (GOAL_RADIUS * GOAL_RADIUS);
+    }
+
+    drawTrail(ctx) {
+        if (this.history.length < 2) return;
+
+        ctx.save();
+        // estela ligeramente más marcada y larga
+        for (let i = 1; i < this.history.length; i++) {
+            const p0 = this.history[i - 1];
+            const p1 = this.history[i];
+            const t = i / (this.history.length - 1); // 0 al principio, 1 al final
+            const alpha = 0.01 + 2 * t;
+            const lightness = 35 + 25 * t;
+            ctx.strokeStyle = `hsla(${this.hue}, 80%, ${lightness}%, ${alpha})`;
+            ctx.lineWidth = 1 + 0.7 * t;
+            ctx.beginPath();
+            ctx.moveTo(p0.x, p0.y);
+            ctx.lineTo(p1.x, p1.y);
+            ctx.stroke();
+        }
+        ctx.restore();
+    }
+
+    draw(ctx) {
+        // Glow más suave, controlado por glowIntensity
+        ctx.save();
+        const glowR = this.radius * (1.1 + 0.5 * this.glowIntensity);
+        ctx.globalAlpha = 0.15 + 0.15 * this.glowIntensity;
+        ctx.shadowColor = `hsla(${this.hue}, 100%, 70%, 0.9)`;
+        ctx.shadowBlur = 6 + 10 * this.glowIntensity;
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, glowR, 0, Math.PI * 2);
+        ctx.fillStyle = `hsla(${this.hue}, 90%, 55%, 0.55)`;
+        ctx.fill();
+        ctx.restore();
+
+        // Estela
+        this.drawTrail(ctx);
+
+        // Sensores (coloreados por tipo lógico)
+        ctx.save();
+        ctx.globalAlpha = 0.4;
+        for (const s of this.sensorHits) {
+            ctx.beginPath();
+            ctx.moveTo(s.from.x, s.from.y);
+            ctx.lineTo(s.to.x, s.to.y);
+
+            let stroke;
+            if (s.colorType === "wall") {
+                stroke = `hsla(${this.hue}, 70%, 55%, 0.7)`;
+            } else if (s.colorType === "goal") {
+                stroke = "rgba(80, 255, 160, 0.9)"; // verde meta
+            } else if (s.colorType === "start") {
+                stroke = "rgba(120, 220, 255, 0.9)"; // azul inicio
+            } else {
+                stroke = `hsla(${this.hue}, 40%, 40%, 0.45)`;
+            }
+
+            ctx.strokeStyle = stroke;
+            ctx.lineWidth = 1.4;
+            ctx.stroke();
+        }
+        ctx.restore();
+
+        // Cuerpo del robot
+        ctx.save();
+        ctx.translate(this.x, this.y);
+        ctx.rotate(this.angle);
+
+        const innerGrad = ctx.createRadialGradient(
+            0, 0, this.radius * 0.1,
+            0, 0, this.radius
+        );
+        innerGrad.addColorStop(0, `hsl(${this.hue}, 80%, 75%)`);
+        innerGrad.addColorStop(1, `hsl(${this.hue}, 60%, 35%)`);
+
+        ctx.beginPath();
+        ctx.arc(0, 0, this.radius, 0, Math.PI * 2);
+        ctx.fillStyle = innerGrad;
+        ctx.fill();
+        ctx.lineWidth = 1.5;
+        ctx.strokeStyle = "rgba(0,0,0,0.7)";
+        ctx.stroke();
+
+        // "tapa" superior para efecto bisel
+        ctx.beginPath();
+        ctx.arc(0, 0, this.radius * 0.65, -Math.PI * 0.1, Math.PI * 1.1);
+        ctx.fillStyle = "rgba(255,255,255,0.25)";
+        ctx.fill();
+
+        // indicador de frente
+        ctx.beginPath();
+        ctx.moveTo(this.radius * 0.3, 0);
+        ctx.lineTo(this.radius * 0.95, 0);
+        ctx.strokeStyle = "#ffffff";
+        ctx.lineWidth = 2;
+        ctx.stroke();
+
+        ctx.restore();
+    }
+}
+
+/* ---------- Evolución ---------- */
+
+function mutateValue(value, factor, minVal, maxVal) {
+    const delta = (Math.random() * 2 - 1) * factor;
+    let v = value * (1 + delta);
+    if (minVal !== undefined) v = Math.max(minVal, v);
+    if (maxVal !== undefined) v = Math.min(maxVal, v);
+    return v;
+}
+
+function mutateHue(hue, range = 40) {
+    let h = hue + (Math.random() * 2 - 1) * range;
+    h %= 360;
+    if (h < 0) h += 360;
+    return h;
+}
+
+function mutateColorWeights(parentWeights) {
+    const result = {};
+    const keys = ["wall", "goal", "start", "empty"];
+    for (const k of keys) {
+        const base = parentWeights[k] !== undefined ? parentWeights[k] : 0;
+        result[k] = mutateValue(base, 0.35, -3.0, 3.0);
+    }
+    return result;
+}
+
+function mutateGenes(parent) {
+    const g = {
+        radius: mutateValue(parent.radius, 0.2, 4, 22),
+        speed: mutateValue(parent.speed, 0.22, 0.5, 4.0),
+        sensorLength: mutateValue(parent.sensorLength, 0.25, 40, 260),
+        turnCooldownMax: Math.round(mutateValue(parent.turnCooldownMax, 0.3, 5, 80)),
+        baseTurnAngle: mutateValue(parent.baseTurnAngle, 0.25, 0.08, 1.2),
+        randomTurnRange: mutateValue(parent.randomTurnRange, 0.3, 0.2, 2.5),
+        sensorAngles: parent.sensorAngles.slice(),
+        hue: mutateHue(parent.hue !== undefined ? parent.hue : 200, 40),
+        colorTurnStrength: mutateValue(parent.colorTurnStrength || 0.06, 0.3, 0.01, 0.2),
+        glowIntensity: mutateValue(parent.glowIntensity || 1.0, 0.4, 0.1, 2.0),
+        colorWeights: mutateColorWeights(parent.colorWeights || defaultGenes.colorWeights)
+    };
+
+    for (let i = 0; i < g.sensorAngles.length; i++) {
+        g.sensorAngles[i] += (Math.random() * 2 - 1) * 0.09;
+    }
+
+    g.sensorAngles.sort((a, b) => a - b);
+    return g;
+}
+
+function extractGenesFromRobot(robot) {
+    return {
+        radius: robot.radius,
+        speed: robot.speed,
+        sensorLength: robot.sensorLength,
+        sensorAngles: robot.sensorAngles.slice(),
+        turnCooldownMax: robot.turnCooldownMax,
+        baseTurnAngle: robot.baseTurnAngle,
+        randomTurnRange: robot.randomTurnRange,
+        hue: robot.hue,
+        colorTurnStrength: robot.colorTurnStrength,
+        glowIntensity: robot.glowIntensity,
+        colorWeights: { ...robot.colorWeights }
+    };
+}
+
+/* ---------- Gestión de simulación ---------- */
+
+function resetSimulation() {
+    robots = [];
+    const parentGenes = bestGenes || defaultGenes;
+
+    createMaze();
+
+    const startCellX = START_X;
+    const startCellY = START_Y;
+    const spread = cellSize * 0.25;
+
+    for (let i = 0; i < NUM_ROBOTS; i++) {
+        const genes = mutateGenes(parentGenes);
+        const startX = startCellX + (Math.random() * 2 - 1) * spread;
+        const startY = startCellY + (Math.random() * 2 - 1) * spread;
+        robots.push(new Robot(startX, startY, genes));
+    }
+
+    generationStartTime = performance.now();
+}
+
+function updateInfo() {
+    let text = `<strong>Generación:</strong> ${generation}
+Robots: ${NUM_ROBOTS}`;
+
+    if (bestGenes && generationTimes.length > 0) {
+        const lastTime = generationTimes[generationTimes.length - 1];
+        const bestTime = Math.min(...generationTimes);
+        const cw = bestGenes.colorWeights || {};
+
+        text += `
+
+<strong>Mejores genes (ganador generación anterior):</strong>
+· color (hue): ${bestGenes.hue.toFixed(1)}°
+· radio: ${bestGenes.radius.toFixed(2)}
+· velocidad: ${bestGenes.speed.toFixed(2)}
+· longitud sensores: ${bestGenes.sensorLength.toFixed(1)}
+· enfriamiento giro: ${bestGenes.turnCooldownMax}
+· ángulo base giro: ${bestGenes.baseTurnAngle.toFixed(2)}
+· rango giro aleatorio: ${bestGenes.randomTurnRange.toFixed(2)}
+· fuerza giro por color: ${bestGenes.colorTurnStrength.toFixed(3)}
+· glow: ${bestGenes.glowIntensity.toFixed(2)}
+
+<strong>Respuesta a colores:</strong>
+· pared (wall): ${ (cw.wall ?? 0).toFixed(2) }
+· meta  (goal, verde): ${ (cw.goal ?? 0).toFixed(2) }
+· inicio(start): ${ (cw.start ?? 0).toFixed(2) }
+· vacío(empty): ${ (cw.empty ?? 0).toFixed(2) }
+
+Tiempo última generación: ${lastTime.toFixed(2)} s
+Mejor tiempo histórico: ${bestTime.toFixed(2)} s`;
+    } else {
+        text += `
+
+<strong>Mejores genes:</strong> ninguno todavía (evolucionando...)`;
+    }
+
+    infoDiv.innerHTML = text;
+}
+
+/* ---------- Gráfico de barras (canvas separado) ---------- */
+
+function drawChart() {
+    chartCtx.clearRect(0, 0, chartCanvas.width, chartCanvas.height);
+    if (generationTimes.length === 0) return;
+
+    const chartWidth  = chartCanvas.width;
+    const chartHeight = chartCanvas.height;
+
+    const padding = 10;
+    const innerX = 40;
+    const innerY = 26;
+    const innerWidth  = chartWidth - innerX - padding;
+    const innerHeight = chartHeight - innerY - 18;
+
+    const bgGrad = chartCtx.createLinearGradient(0, 0, 0, chartHeight);
+    bgGrad.addColorStop(0, "rgba(10, 16, 30, 0.96)");
+    bgGrad.addColorStop(1, "rgba(5, 8, 18, 0.96)");
+    chartCtx.fillStyle = bgGrad;
+    chartCtx.fillRect(0, 0, chartWidth, chartHeight);
+
+    chartCtx.strokeStyle = "rgba(120,160,255,0.7)";
+    chartCtx.lineWidth = 1;
+    chartCtx.strokeRect(0.5, 0.5, chartWidth - 1, chartHeight - 1);
+
+    chartCtx.fillStyle = "#e5eeff";
+    chartCtx.font = "11px system-ui";
+    chartCtx.textAlign = "left";
+    chartCtx.fillText("Tiempo hasta la meta (s)", 8, 16);
+
+    const maxBars = 30;
+    const data = generationTimes.slice(-maxBars);
+    const maxTime = Math.max(...data);
+    const minTime = Math.min(...data);
+    const bestTime = Math.min(...generationTimes);
+
+    chartCtx.strokeStyle = "rgba(255,255,255,0.08)";
+    chartCtx.lineWidth = 1;
+    const gridLines = 4;
+    for (let i = 0; i <= gridLines; i++) {
+        const gy = innerY + (innerHeight / gridLines) * i;
+        chartCtx.beginPath();
+        chartCtx.moveTo(innerX, gy);
+        chartCtx.lineTo(innerX + innerWidth, gy);
+        chartCtx.stroke();
+    }
+
+    chartCtx.strokeStyle = "rgba(200,220,255,0.6)";
+    chartCtx.beginPath();
+    chartCtx.moveTo(innerX, innerY);
+    chartCtx.lineTo(innerX, innerY + innerHeight);
+    chartCtx.lineTo(innerX + innerWidth, innerY + innerHeight);
+    chartCtx.stroke();
+
+    chartCtx.fillStyle = "#c5d7ff";
+    chartCtx.textAlign = "right";
+    chartCtx.fillText(maxTime.toFixed(1), innerX - 4, innerY + 9);
+    chartCtx.fillText(minTime.toFixed(1), innerX - 4, innerY + innerHeight);
+
+    const barCount = data.length;
+    const barGap = 2;
+    const barWidth = Math.max(3, (innerWidth - barGap * (barCount - 1)) / barCount);
+
+    chartCtx.textAlign = "center";
+
+    for (let i = 0; i < barCount; i++) {
+        const t = data[i];
+        const norm = t / maxTime;
+        const barH = norm * innerHeight;
+        const x = innerX + i * (barWidth + barGap);
+        const y = innerY + innerHeight - barH;
+
+        const gGlobalIndex = generationTimes.length - data.length + i;
+        const isBest = generationTimes[gGlobalIndex] === bestTime;
+
+        const grad = chartCtx.createLinearGradient(x, y, x, y + barH);
+        if (isBest) {
+            grad.addColorStop(0, "rgba(102, 255, 204, 0.95)");
+            grad.addColorStop(1, "rgba(46, 204, 113, 0.85)");
+        } else {
+            grad.addColorStop(0, "rgba(80, 190, 255, 0.95)");
+            grad.addColorStop(1, "rgba(0, 118, 210, 0.85)");
+        }
+        chartCtx.fillStyle = grad;
+        chartCtx.fillRect(x, y, barWidth, barH);
+
+        if ((i + 1) % 5 === 0 || i === barCount - 1) {
+            const genIndex = generationTimes.length - data.length + i + 1;
+            chartCtx.fillStyle = "#dde6ff";
+            chartCtx.font = "9px system-ui";
+            chartCtx.fillText(genIndex, x + barWidth / 2, innerY + innerHeight + 11);
+        }
+    }
+}
+
+/* ---------- Bucle principal ---------- */
+
+function loop() {
+    simCtx.clearRect(0, 0, simCanvas.width, simCanvas.height);
+
+    drawBackgroundGrid();
+    drawWalls();
+    drawStart();
+    drawGoal();
+
+    let winner = null;
+
+    for (const r of robots) {
+        r.update();
+        r.draw(simCtx);
+
+        if (!winner && r.hasReachedGoal()) {
+            winner = r;
+        }
+    }
+
+    if (winner) {
+        const now = performance.now();
+        const elapsedSeconds = (now - generationStartTime) / 1000.0;
+
+        generationTimes.push(elapsedSeconds);
+        bestGenes = extractGenesFromRobot(winner);
+        generation++;
+        resetSimulation();
+        updateInfo();
+    }
+
+    drawChart();
+    requestAnimationFrame(loop);
+}
+
+/* ---------- Inicio ---------- */
+resetSimulation();
+updateInfo();
+loop();
+</script>
+</body>
+</html>
+```
+
+### memoria a corto plazo
+<small>Creado: 2025-12-11 00:07</small>
+
+`009-memoria a corto plazo.html`
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Simulación de robots tipo Roomba (evolutivos)</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            background: radial-gradient(circle at top left, #1b2735 0%, #090a0f 40%, #000000 100%);
+            height: 100vh;
+            color: #eee;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            overflow: hidden;
+        }
+        #container {
+            display: flex;
+            width: 100vw;
+            height: 100vh;
+            padding: 16px;
+            gap: 16px;
+        }
+        #leftPane {
+            flex: 1 1 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #rightPane {
+            width: 320px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        #sim {
+            background: radial-gradient(circle at center, #141820 0%, #050609 100%);
+            border-radius: 14px;
+            box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+        #chart {
+            background: linear-gradient(135deg, rgba(10,10,20,0.96), rgba(5,8,18,0.96));
+            border-radius: 10px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.45);
+        }
+        #info {
+            background: linear-gradient(135deg, rgba(10,10,20,0.95), rgba(25,25,45,0.96));
+            padding: 10px 14px;
+            font-size: 12px;
+            border-radius: 10px;
+            white-space: pre-line;
+            border: 1px solid rgba(120, 160, 255, 0.3);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+            backdrop-filter: blur(6px);
+        }
+        #info strong {
+            color: #9cc4ff;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="leftPane">
+        <canvas id="sim"></canvas>
+    </div>
+    <div id="rightPane">
+        <div id="info"></div>
+        <canvas id="chart" width="280" height="170"></canvas>
+    </div>
+</div>
+
+<script>
+/* ---------- Configuración básica ---------- */
+const simCanvas   = document.getElementById("sim");
+const simCtx      = simCanvas.getContext("2d");
+const infoDiv     = document.getElementById("info");
+const chartCanvas = document.getElementById("chart");
+const chartCtx    = chartCanvas.getContext("2d");
+
+// Margen interno aproximado para el canvas de simulación
+const margin = 16;
+const SIDEBAR_WIDTH = 320;
+
+// Ajuste de tamaño del canvas de simulación
+simCanvas.width  = window.innerWidth  - SIDEBAR_WIDTH - margin * 3;
+simCanvas.height = window.innerHeight - margin * 2;
+
+// Rejilla del laberinto
+const walls = [];
+let cellSize;
+let cols, rows;
+let border = 20;
+
+let GOAL_RADIUS = 35;
+let GOAL_X = 0;
+let GOAL_Y = 0;
+
+// Zona de inicio (coordenadas para dibujarla)
+let START_X = 0;
+let START_Y = 0;
+let START_RADIUS = 0;
+
+const NUM_ROBOTS = 200;
+let generation = 1;
+
+// Tiempos (en segundos) para el robot más rápido de cada generación
+let generationTimes = [];
+let generationStartTime = performance.now();
+
+// "Genes" del mejor robot hasta el momento
+let bestGenes = null;
+
+// Genes por defecto (primera generación), incluyen color, glow y memoria
+const defaultGenes = {
+    radius: 9,
+    speed: 1.8,
+    sensorLength: 95,
+    sensorAngles: [-0.6, -0.25, 0, 0.25, 0.6],
+    turnCooldownMax: 18,
+    baseTurnAngle: 0.45,
+    randomTurnRange: 0.9,
+    // color base (HSL)
+    hue: 200,
+    // fuerza con la que la preferencia de color afecta al giro
+    colorTurnStrength: 0.06,
+    // intensidad del brillo
+    glowIntensity: 1.0,
+    // respuesta a “colores lógicos”: pared, meta, inicio, vacío
+    colorWeights: {
+        wall: -1.2,
+        goal: 1.0,
+        start: 0.2,
+        empty: 0.0
+    },
+    // <<< MEMORIA: parámetros de memoria de corto plazo
+    memoryFade: 0.025,     // velocidad a la que desaparecen las esferas de memoria
+    memoryWeight: 0.9      // peso con el que se evita territorio ya memorizado
+};
+
+let robots = [];
+
+/* ---------- Utilidades geométricas ---------- */
+
+function segmentIntersection(p0, p1, p2, p3) {
+    const s1x = p1.x - p0.x;
+    const s1y = p1.y - p0.y;
+    const s2x = p3.x - p2.x;
+    const s2y = p3.y - p2.y;
+
+    const denom = (-s2x * s1y + s1x * s2y);
+    if (denom === 0) return null;
+
+    const s = (-s1y * (p0.x - p2.x) + s1x * (p0.y - p2.y)) / denom;
+    const t = ( s2x * (p0.y - p2.y) - s2y * (p0.x - p2.x)) / denom;
+
+    if (s >= 0 && s <= 1 && t >= 0 && t <= 1) {
+        return {
+            x: p0.x + (t * s1x),
+            y: p0.y + (t * s1y),
+            t: t,
+            u: s
+        };
+    }
+    return null;
+}
+
+function circleIntersectsRect(cx, cy, radius, rect) {
+    const closestX = Math.max(rect.x, Math.min(cx, rect.x + rect.w));
+    const closestY = Math.max(rect.y, Math.min(cy, rect.y + rect.h));
+    const dx = cx - closestX;
+    const dy = cy - closestY;
+    return (dx * dx + dy * dy) < (radius * radius);
+}
+
+// intersección segmento-círculo (para detectar INICIO/META)
+function rayCircleIntersection(start, end, cx, cy, r) {
+    const dx = end.x - start.x;
+    const dy = end.y - start.y;
+
+    const fx = start.x - cx;
+    const fy = start.y - cy;
+
+    const a = dx * dx + dy * dy;
+    const b = 2 * (fx * dx + fy * dy);
+    const c = fx * fx + fy * fy - r * r;
+
+    const discriminant = b * b - 4 * a * c;
+    if (discriminant < 0) return null;
+
+    const sqrtD = Math.sqrt(discriminant);
+    const t1 = (-b - sqrtD) / (2 * a);
+    const t2 = (-b + sqrtD) / (2 * a);
+
+    let t = null;
+    if (t1 >= 0 && t1 <= 1) t = t1;
+    else if (t2 >= 0 && t2 <= 1) t = t2;
+
+    if (t === null) return null;
+
+    return {
+        t,
+        x: start.x + dx * t,
+        y: start.y + dy * t
+    };
+}
+
+/* ---------- Generación de laberinto clásico (DFS en rejilla) ---------- */
+
+function createMaze() {
+    walls.length = 0;
+
+    const W = simCanvas.width;
+    const H = simCanvas.height;
+
+    const targetCell = 80;
+    const usableW = W - 2 * border;
+    const usableH = H - 2 * border;
+
+    cols = Math.max(1, Math.floor(usableW / targetCell));
+    rows = Math.max(1, Math.floor(usableH / targetCell));
+
+    cellSize = Math.min(usableW / cols, usableH / rows);
+
+    const usedW = cols * cellSize;
+    const usedH = rows * cellSize;
+    border = 0.5 * (Math.min(W - usedW, H - usedH));
+
+    const grid = [];
+    for (let y = 0; y < rows; y++) {
+        const row = [];
+        for (let x = 0; x < cols; x++) {
+            row.push({
+                x,
+                y,
+                visited: false,
+                walls: { top: true, right: true, bottom: true, left: true }
+            });
+        }
+        grid.push(row);
+    }
+
+    function neighbours(cell) {
+        const list = [];
+        const { x, y } = cell;
+        if (y > 0) list.push(grid[y - 1][x]);
+        if (x < cols - 1) list.push(grid[y][x + 1]);
+        if (y < rows - 1) list.push(grid[y + 1][x]);
+        if (x > 0) list.push(grid[y][x - 1]);
+        return list;
+    }
+
+    function removeWall(a, b) {
+        const dx = b.x - a.x;
+        const dy = b.y - a.y;
+        if (dx === 1)      { a.walls.right  = false; b.walls.left   = false; }
+        else if (dx === -1){ a.walls.left   = false; b.walls.right  = false; }
+        else if (dy === 1) { a.walls.bottom = false; b.walls.top    = false; }
+        else if (dy === -1){ a.walls.top    = false; b.walls.bottom = false; }
+    }
+
+    // DFS con backtracking
+    const stack = [];
+    const startCell = grid[0][0];
+    startCell.visited = true;
+    stack.push(startCell);
+
+    while (stack.length > 0) {
+        const current = stack[stack.length - 1];
+        const neigh = neighbours(current).filter(n => !n.visited);
+
+        if (neigh.length === 0) {
+            stack.pop();
+        } else {
+            const next = neigh[Math.floor(Math.random() * neigh.length)];
+            next.visited = true;
+            removeWall(current, next);
+            stack.push(next);
+        }
+    }
+
+    const wallThickness = Math.max(4, cellSize * 0.14);
+
+    function cellToX(c) { return border + c * cellSize; }
+    function cellToY(r) { return border + r * cellSize; }
+
+    // META y zona de inicio (para dibujar)
+    GOAL_X = cellToX(cols - 1) + cellSize / 2;
+    GOAL_Y = cellToY(rows - 1) + cellSize / 2;
+    GOAL_RADIUS = cellSize * 0.35;
+
+    START_X = cellToX(0) + cellSize / 2;
+    START_Y = cellToY(0) + cellSize / 2;
+    START_RADIUS = cellSize * 0.32;
+
+    // Construcción de paredes
+    for (let y = 0; y < rows; y++) {
+        for (let x = 0; x < cols; x++) {
+            const c = grid[y][x];
+            const cx = cellToX(x);
+            const cy = cellToY(y);
+
+            // superior
+            if (c.walls.top && y === 0) {
+                walls.push({ x: cx, y: cy, w: cellSize, h: wallThickness });
+            }
+            // izquierda
+            if (c.walls.left && x === 0) {
+                walls.push({ x: cx, y: cy, w: wallThickness, h: cellSize });
+            }
+            // inferior interna
+            if (c.walls.bottom && y < rows - 1) {
+                walls.push({
+                    x: cx,
+                    y: cy + cellSize - wallThickness / 2,
+                    w: cellSize,
+                    h: wallThickness
+                });
+            }
+            // derecha interna
+            if (c.walls.right && x < cols - 1) {
+                walls.push({
+                    x: cx + cellSize - wallThickness / 2,
+                    y: cy,
+                    w: wallThickness,
+                    h: cellSize
+                });
+            }
+            // bordes exteriores adicionales
+            if (y === rows - 1 && c.walls.bottom) {
+                walls.push({
+                    x: cx,
+                    y: cy + cellSize - wallThickness,
+                    w: cellSize,
+                    h: wallThickness
+                });
+            }
+            if (x === cols - 1 && c.walls.right) {
+                walls.push({
+                    x: cx + cellSize - wallThickness,
+                    y: cy,
+                    w: wallThickness,
+                    h: cellSize
+                });
+            }
+        }
+    }
+}
+
+function drawBackgroundGrid() {
+    simCtx.save();
+    simCtx.globalAlpha = 0.15;
+    simCtx.strokeStyle = "#1f2933";
+    simCtx.lineWidth = 1;
+
+    for (let x = 0; x <= cols; x++) {
+        const gx = border + x * cellSize;
+        simCtx.beginPath();
+        simCtx.moveTo(gx, border);
+        simCtx.lineTo(gx, border + rows * cellSize);
+        simCtx.stroke();
+    }
+    for (let y = 0; y <= rows; y++) {
+        const gy = border + y * cellSize;
+        simCtx.beginPath();
+        simCtx.moveTo(border, gy);
+        simCtx.lineTo(border + cols * cellSize, gy);
+        simCtx.stroke();
+    }
+    simCtx.restore();
+}
+
+function drawWalls() {
+    simCtx.save();
+    simCtx.shadowColor = "rgba(0, 0, 0, 0.8)";
+    simCtx.shadowBlur = 8;
+    simCtx.fillStyle = "#1f3b4d";
+    for (const w of walls) {
+        simCtx.fillRect(w.x, w.y, w.w, w.h);
+    }
+    simCtx.shadowBlur = 0;
+    simCtx.globalAlpha = 0.4;
+    simCtx.strokeStyle = "#56c7ff";
+    simCtx.lineWidth = 1;
+    for (const w of walls) {
+        simCtx.strokeRect(w.x, w.y, w.w, w.h);
+    }
+    simCtx.restore();
+}
+
+function drawStart() {
+    simCtx.save();
+    // halo
+    simCtx.globalAlpha = 0.4;
+    const haloR = START_RADIUS * 1.5;
+    const grad = simCtx.createRadialGradient(
+        START_X, START_Y, START_RADIUS * 0.3,
+        START_X, START_Y, haloR
+    );
+    grad.addColorStop(0, "rgba(120, 220, 255, 0.6)");
+    grad.addColorStop(1, "rgba(120, 220, 255, 0.0)");
+    simCtx.fillStyle = grad;
+    simCtx.beginPath();
+    simCtx.arc(START_X, START_Y, haloR, 0, Math.PI * 2);
+    simCtx.fill();
+
+    // círculo principal
+    simCtx.globalAlpha = 1;
+    simCtx.beginPath();
+    simCtx.arc(START_X, START_Y, START_RADIUS, 0, Math.PI * 2);
+    simCtx.fillStyle = "rgba(120, 220, 255, 0.25)";
+    simCtx.fill();
+    simCtx.lineWidth = 2;
+    simCtx.strokeStyle = "#7fe4ff";
+    simCtx.stroke();
+
+    simCtx.font = "12px system-ui";
+    simCtx.fillStyle = "#bfefff";
+    simCtx.textAlign = "center";
+    simCtx.fillText("INICIO", START_X, START_Y + 4);
+    simCtx.restore();
+}
+
+function drawGoal() {
+    simCtx.save();
+    // halo
+    simCtx.globalAlpha = 0.5;
+    const haloR = GOAL_RADIUS * 1.7;
+    const grad = simCtx.createRadialGradient(
+        GOAL_X, GOAL_Y, GOAL_RADIUS * 0.3,
+        GOAL_X, GOAL_Y, haloR
+    );
+    grad.addColorStop(0, "rgba(80, 255, 160, 0.7)");
+    grad.addColorStop(1, "rgba(80, 255, 160, 0.0)");
+    simCtx.fillStyle = grad;
+    simCtx.beginPath();
+    simCtx.arc(GOAL_X, GOAL_Y, haloR, 0, Math.PI * 2);
+    simCtx.fill();
+
+    // círculo principal
+    simCtx.globalAlpha = 1;
+    simCtx.beginPath();
+    simCtx.arc(GOAL_X, GOAL_Y, GOAL_RADIUS, 0, Math.PI * 2);
+    simCtx.fillStyle = "rgba(80, 255, 160, 0.20)";
+    simCtx.fill();
+    simCtx.lineWidth = 2;
+    simCtx.strokeStyle = "#5affb0";
+    simCtx.stroke();
+
+    simCtx.font = "12px system-ui";
+    simCtx.fillStyle = "#caffde";
+    simCtx.textAlign = "center";
+    simCtx.fillText("META", GOAL_X, GOAL_Y + 4);
+    simCtx.restore();
+}
+
+/* ---------- Clase Robot ---------- */
+
+class Robot {
+    constructor(x, y, genes) {
+        const g = genes || defaultGenes;
+
+        this.x = x;
+        this.y = y;
+        this.radius = g.radius;
+        this.angle = Math.random() * Math.PI * 2;
+        this.speed = g.speed;
+
+        this.sensorLength = g.sensorLength;
+        this.sensorAngles = g.sensorAngles.slice();
+
+        this.sensorHits = [];
+
+        this.turnCooldown = 0;
+        this.turnCooldownMax = g.turnCooldownMax;
+        this.baseTurnAngle = g.baseTurnAngle;
+        this.randomTurnRange = g.randomTurnRange;
+
+        this.colorWeights = { ...g.colorWeights };
+        this.colorTurnStrength = g.colorTurnStrength;
+        this.glowIntensity = g.glowIntensity;
+
+        const baseHue = g.hue !== undefined ? g.hue : Math.random() * 360;
+        this.hue = (baseHue + (Math.random() * 60 - 30) + 360) % 360;
+
+        // estela más larga
+        this.history = [];
+        this.historyMax = 40;
+
+        // <<< MEMORIA: memoria de corto plazo (esferas transparentes)
+        this.memory = [];
+        this.memoryMax = 140;                   // nº máximo de esferas de memoria
+        this.memoryFade = g.memoryFade ?? 0.025;
+        this.memoryWeight = g.memoryWeight ?? 0.9;
+        this.memoryDropInterval = 5;            // dejar una esfera cada N frames
+        this.memoryDropCounter = 0;
+    }
+
+    update() {
+        const hits = this.checkSensors();
+
+        // Evitación de paredes
+        const anyWallHit = hits.some(h => h.hit && h.colorType === "wall");
+        if (anyWallHit && this.turnCooldown === 0) {
+            const direction = Math.random() < 0.5 ? -1 : 1;
+            const angleChange =
+                (this.baseTurnAngle + Math.random() * this.randomTurnRange) * direction;
+            this.angle += angleChange;
+            this.turnCooldown = this.turnCooldownMax;
+        }
+
+        // Enfriamiento
+        if (this.turnCooldown > 0) {
+            this.turnCooldown--;
+        }
+
+        // Influencia de colores en el giro (preferencias evolutivas)
+        let steer = 0;
+        if (hits.length > 1) {
+            for (let i = 0; i < hits.length; i++) {
+                const h = hits[i];
+                const side = (i / (hits.length - 1)) * 2 - 1; // -1 (izq) a 1 (dcha)
+                const w = this.colorWeights[h.colorType] || 0;
+                steer += w * side;
+            }
+        }
+        this.angle += steer * this.colorTurnStrength;
+
+        // <<< MEMORIA: influencia de la memoria (evitar territorio ya visitado)
+        if (hits.length > 1 && this.memoryWeight > 0) {
+            let memSteer = 0;
+            for (let i = 0; i < hits.length; i++) {
+                const h = hits[i];
+                const side = (i / (hits.length - 1)) * 2 - 1;
+                // más memoria en ese rayo => girar en sentido opuesto
+                memSteer += -h.memoryLevel * side;
+            }
+            this.angle += memSteer * this.memoryWeight;
+        }
+
+        const newX = this.x + Math.cos(this.angle) * this.speed;
+        const newY = this.y + Math.sin(this.angle) * this.speed;
+
+        let collided = false;
+        for (const w of walls) {
+            if (circleIntersectsRect(newX, newY, this.radius, w)) {
+                collided = true;
+                break;
+            }
+        }
+
+        if (!collided) {
+            this.x = newX;
+            this.y = newY;
+        } else {
+            const backX = this.x - Math.cos(this.angle) * this.speed * 2;
+            const backY = this.y - Math.sin(this.angle) * this.speed * 2;
+            this.x = backX;
+            this.y = backY;
+            this.angle += (Math.random() - 0.5) * Math.PI;
+            this.turnCooldown = this.turnCooldownMax;
+        }
+
+        // actualizar historial (estela)
+        this.history.push({ x: this.x, y: this.y });
+        if (this.history.length > this.historyMax) {
+            this.history.shift();
+        }
+
+        // <<< MEMORIA: actualizar y desvanecer puntos de memoria
+        this.memoryDropCounter++;
+        if (this.memoryDropCounter >= this.memoryDropInterval) {
+            this.memoryDropCounter = 0;
+            this.memory.push({ x: this.x, y: this.y, alpha: 1 });
+            if (this.memory.length > this.memoryMax) {
+                this.memory.shift();
+            }
+        }
+
+        for (let i = this.memory.length - 1; i >= 0; i--) {
+            const m = this.memory[i];
+            m.alpha -= this.memoryFade;
+            if (m.alpha <= 0) {
+                this.memory.splice(i, 1);
+            }
+        }
+    }
+
+    checkSensors() {
+        this.sensorHits = [];
+
+        // radio alrededor del endpoint del sensor para ver cuánta memoria hay
+        const memoryRadius = 32;
+        const memoryRadius2 = memoryRadius * memoryRadius;
+
+        for (const relAngle of this.sensorAngles) {
+            const sensorDir = this.angle + relAngle;
+
+            const start = { x: this.x, y: this.y };
+            const end = {
+                x: this.x + Math.cos(sensorDir) * this.sensorLength,
+                y: this.y + Math.sin(sensorDir) * this.sensorLength
+            };
+
+            let bestT = Infinity;
+            let bestPoint = null;
+            let bestType = "empty";
+
+            // paredes
+            for (const w of walls) {
+                const edges = [
+                    { a: { x: w.x,         y: w.y },         b: { x: w.x + w.w, y: w.y } },
+                    { a: { x: w.x,         y: w.y + w.h },   b: { x: w.x + w.w, y: w.y + w.h } },
+                    { a: { x: w.x,         y: w.y },         b: { x: w.x,       y: w.y + w.h } },
+                    { a: { x: w.x + w.w,   y: w.y },         b: { x: w.x + w.w, y: w.y + w.h } }
+                ];
+
+                for (const edge of edges) {
+                    const result = segmentIntersection(start, end, edge.a, edge.b);
+                    if (result && result.t < bestT) {
+                        bestT = result.t;
+                        bestPoint = { x: result.x, y: result.y };
+                        bestType = "wall";
+                    }
+                }
+            }
+
+            // meta (goal, verde)
+            const hitGoal = rayCircleIntersection(start, end, GOAL_X, GOAL_Y, GOAL_RADIUS);
+            if (hitGoal && hitGoal.t < bestT) {
+                bestT = hitGoal.t;
+                bestPoint = { x: hitGoal.x, y: hitGoal.y };
+                bestType = "goal";
+            }
+
+            // inicio (start)
+            const hitStart = rayCircleIntersection(start, end, START_X, START_Y, START_RADIUS);
+            if (hitStart && hitStart.t < bestT) {
+                bestT = hitStart.t;
+                bestPoint = { x: hitStart.x, y: hitStart.y };
+                bestType = "start";
+            }
+
+            // <<< MEMORIA: calcular nivel de memoria en el extremo del sensor
+            const probePoint = bestPoint || end;
+            let memoryLevel = 0;
+            for (const m of this.memory) {
+                const dx = m.x - probePoint.x;
+                const dy = m.y - probePoint.y;
+                const dist2 = dx * dx + dy * dy;
+                if (dist2 <= memoryRadius2) {
+                    // usamos el alpha como intensidad de memoria
+                    if (m.alpha > memoryLevel) {
+                        memoryLevel = m.alpha;
+                    }
+                }
+            }
+
+            if (bestPoint) {
+                this.sensorHits.push({
+                    angle: sensorDir,
+                    hit: true,
+                    from: start,
+                    to: bestPoint,
+                    colorType: bestType,
+                    memoryLevel
+                });
+            } else {
+                this.sensorHits.push({
+                    angle: sensorDir,
+                    hit: false,
+                    from: start,
+                    to: end,
+                    colorType: "empty",
+                    memoryLevel
+                });
+            }
+        }
+
+        return this.sensorHits;
+    }
+
+    hasReachedGoal() {
+        const dx = this.x - GOAL_X;
+        const dy = this.y - GOAL_Y;
+        const dist2 = dx * dx + dy * dy;
+        return dist2 < (GOAL_RADIUS * GOAL_RADIUS);
+    }
+
+    drawTrail(ctx) {
+        if (this.history.length < 2) return;
+
+        ctx.save();
+        // estela ligeramente más marcada y larga
+        for (let i = 1; i < this.history.length; i++) {
+            const p0 = this.history[i - 1];
+            const p1 = this.history[i];
+            const t = i / (this.history.length - 1); // 0 al principio, 1 al final
+            const alpha = 0.01 + 2 * t;
+            const lightness = 35 + 25 * t;
+            ctx.strokeStyle = `hsla(${this.hue}, 80%, ${lightness}%, ${alpha})`;
+            ctx.lineWidth = 1 + 0.7 * t;
+            ctx.beginPath();
+            ctx.moveTo(p0.x, p0.y);
+            ctx.lineTo(p1.x, p1.y);
+            ctx.stroke();
+        }
+        ctx.restore();
+    }
+
+    // <<< MEMORIA: dibujar esferas transparentes de memoria
+    drawMemory(ctx) {
+        if (this.memory.length === 0) return;
+
+        ctx.save();
+        for (const m of this.memory) {
+            const r = this.radius * 1.4;
+            const grad = ctx.createRadialGradient(
+                m.x, m.y, 0,
+                m.x, m.y, r * 2.4
+            );
+            grad.addColorStop(0, `hsla(${this.hue}, 85%, 70%, ${0.35 * m.alpha})`);
+            grad.addColorStop(1, `hsla(${this.hue}, 60%, 35%, 0)`);
+            ctx.fillStyle = grad;
+            ctx.beginPath();
+            ctx.arc(m.x, m.y, r * 2.4, 0, Math.PI * 2);
+            ctx.fill();
+        }
+        ctx.restore();
+    }
+
+    draw(ctx) {
+        // primero la memoria
+        this.drawMemory(ctx);
+
+        // Glow más suave, controlado por glowIntensity
+        ctx.save();
+        const glowR = this.radius * (1.1 + 0.5 * this.glowIntensity);
+        ctx.globalAlpha = 0.15 + 0.15 * this.glowIntensity;
+        ctx.shadowColor = `hsla(${this.hue}, 100%, 70%, 0.9)`;
+        ctx.shadowBlur = 6 + 10 * this.glowIntensity;
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, glowR, 0, Math.PI * 2);
+        ctx.fillStyle = `hsla(${this.hue}, 90%, 55%, 0.55)`;
+        ctx.fill();
+        ctx.restore();
+
+        // Estela
+        this.drawTrail(ctx);
+
+        // Sensores (coloreados por tipo lógico)
+        ctx.save();
+        ctx.globalAlpha = 0.4;
+        for (const s of this.sensorHits) {
+            ctx.beginPath();
+            ctx.moveTo(s.from.x, s.from.y);
+            ctx.lineTo(s.to.x, s.to.y);
+
+            let stroke;
+            if (s.colorType === "wall") {
+                stroke = `hsla(${this.hue}, 70%, 55%, 0.7)`;
+            } else if (s.colorType === "goal") {
+                stroke = "rgba(80, 255, 160, 0.9)"; // verde meta
+            } else if (s.colorType === "start") {
+                stroke = "rgba(120, 220, 255, 0.9)"; // azul inicio
+            } else {
+                stroke = `hsla(${this.hue}, 40%, 40%, 0.45)`;
+            }
+
+            ctx.strokeStyle = stroke;
+            ctx.lineWidth = 1.4;
+            ctx.stroke();
+        }
+        ctx.restore();
+
+        // Cuerpo del robot
+        ctx.save();
+        ctx.translate(this.x, this.y);
+        ctx.rotate(this.angle);
+
+        const innerGrad = ctx.createRadialGradient(
+            0, 0, this.radius * 0.1,
+            0, 0, this.radius
+        );
+        innerGrad.addColorStop(0, `hsl(${this.hue}, 80%, 75%)`);
+        innerGrad.addColorStop(1, `hsl(${this.hue}, 60%, 35%)`);
+
+        ctx.beginPath();
+        ctx.arc(0, 0, this.radius, 0, Math.PI * 2);
+        ctx.fillStyle = innerGrad;
+        ctx.fill();
+        ctx.lineWidth = 1.5;
+        ctx.strokeStyle = "rgba(0,0,0,0.7)";
+        ctx.stroke();
+
+        // "tapa" superior para efecto bisel
+        ctx.beginPath();
+        ctx.arc(0, 0, this.radius * 0.65, -Math.PI * 0.1, Math.PI * 1.1);
+        ctx.fillStyle = "rgba(255,255,255,0.25)";
+        ctx.fill();
+
+        // indicador de frente
+        ctx.beginPath();
+        ctx.moveTo(this.radius * 0.3, 0);
+        ctx.lineTo(this.radius * 0.95, 0);
+        ctx.strokeStyle = "#ffffff";
+        ctx.lineWidth = 2;
+        ctx.stroke();
+
+        ctx.restore();
+    }
+}
+
+/* ---------- Evolución ---------- */
+
+function mutateValue(value, factor, minVal, maxVal) {
+    const delta = (Math.random() * 2 - 1) * factor;
+    let v = value * (1 + delta);
+    if (minVal !== undefined) v = Math.max(minVal, v);
+    if (maxVal !== undefined) v = Math.min(maxVal, v);
+    return v;
+}
+
+function mutateHue(hue, range = 40) {
+    let h = hue + (Math.random() * 2 - 1) * range;
+    h %= 360;
+    if (h < 0) h += 360;
+    return h;
+}
+
+function mutateColorWeights(parentWeights) {
+    const result = {};
+    const keys = ["wall", "goal", "start", "empty"];
+    for (const k of keys) {
+        const base = parentWeights[k] !== undefined ? parentWeights[k] : 0;
+        result[k] = mutateValue(base, 0.35, -3.0, 3.0);
+    }
+    return result;
+}
+
+function mutateGenes(parent) {
+    const g = {
+        radius: mutateValue(parent.radius, 0.2, 4, 22),
+        speed: mutateValue(parent.speed, 0.22, 0.5, 4.0),
+        sensorLength: mutateValue(parent.sensorLength, 0.25, 40, 260),
+        turnCooldownMax: Math.round(mutateValue(parent.turnCooldownMax, 0.3, 5, 80)),
+        baseTurnAngle: mutateValue(parent.baseTurnAngle, 0.25, 0.08, 1.2),
+        randomTurnRange: mutateValue(parent.randomTurnRange, 0.3, 0.2, 2.5),
+        sensorAngles: parent.sensorAngles.slice(),
+        hue: mutateHue(parent.hue !== undefined ? parent.hue : 200, 40),
+        colorTurnStrength: mutateValue(parent.colorTurnStrength || 0.06, 0.3, 0.01, 0.2),
+        glowIntensity: mutateValue(parent.glowIntensity || 1.0, 0.4, 0.1, 2.0),
+        colorWeights: mutateColorWeights(parent.colorWeights || defaultGenes.colorWeights),
+        // <<< MEMORIA: genes de memoria
+        memoryFade: mutateValue(parent.memoryFade || 0.025, 0.3, 0.005, 0.08),
+        memoryWeight: mutateValue(parent.memoryWeight || 0.9, 0.35, 0.0, 1.5)
+    };
+
+    for (let i = 0; i < g.sensorAngles.length; i++) {
+        g.sensorAngles[i] += (Math.random() * 2 - 1) * 0.09;
+    }
+
+    g.sensorAngles.sort((a, b) => a - b);
+    return g;
+}
+
+function extractGenesFromRobot(robot) {
+    return {
+        radius: robot.radius,
+        speed: robot.speed,
+        sensorLength: robot.sensorLength,
+        sensorAngles: robot.sensorAngles.slice(),
+        turnCooldownMax: robot.turnCooldownMax,
+        baseTurnAngle: robot.baseTurnAngle,
+        randomTurnRange: robot.randomTurnRange,
+        hue: robot.hue,
+        colorTurnStrength: robot.colorTurnStrength,
+        glowIntensity: robot.glowIntensity,
+        colorWeights: { ...robot.colorWeights },
+        // <<< MEMORIA
+        memoryFade: robot.memoryFade,
+        memoryWeight: robot.memoryWeight
+    };
+}
+
+/* ---------- Gestión de simulación ---------- */
+
+function resetSimulation() {
+    robots = [];
+    const parentGenes = bestGenes || defaultGenes;
+
+    createMaze();
+
+    const startCellX = START_X;
+    const startCellY = START_Y;
+    const spread = cellSize * 0.25;
+
+    for (let i = 0; i < NUM_ROBOTS; i++) {
+        const genes = mutateGenes(parentGenes);
+        const startX = startCellX + (Math.random() * 2 - 1) * spread;
+        const startY = startCellY + (Math.random() * 2 - 1) * spread;
+        robots.push(new Robot(startX, startY, genes));
+    }
+
+    generationStartTime = performance.now();
+}
+
+function updateInfo() {
+    let text = `<strong>Generación:</strong> ${generation}
+Robots: ${NUM_ROBOTS}`;
+
+    if (bestGenes && generationTimes.length > 0) {
+        const lastTime = generationTimes[generationTimes.length - 1];
+        const bestTime = Math.min(...generationTimes);
+        const cw = bestGenes.colorWeights || {};
+
+        text += `
+
+<strong>Mejores genes (ganador generación anterior):</strong>
+· color (hue): ${bestGenes.hue.toFixed(1)}°
+· radio: ${bestGenes.radius.toFixed(2)}
+· velocidad: ${bestGenes.speed.toFixed(2)}
+· longitud sensores: ${bestGenes.sensorLength.toFixed(1)}
+· enfriamiento giro: ${bestGenes.turnCooldownMax}
+· ángulo base giro: ${bestGenes.baseTurnAngle.toFixed(2)}
+· rango giro aleatorio: ${bestGenes.randomTurnRange.toFixed(2)}
+· fuerza giro por color: ${bestGenes.colorTurnStrength.toFixed(3)}
+· glow: ${bestGenes.glowIntensity.toFixed(2)}
+· memoria fade: ${bestGenes.memoryFade.toFixed(3)}
+· peso memoria: ${bestGenes.memoryWeight.toFixed(2)}
+
+<strong>Respuesta a colores:</strong>
+· pared (wall): ${ (cw.wall ?? 0).toFixed(2) }
+· meta  (goal, verde): ${ (cw.goal ?? 0).toFixed(2) }
+· inicio(start): ${ (cw.start ?? 0).toFixed(2) }
+· vacío(empty): ${ (cw.empty ?? 0).toFixed(2) }
+
+Tiempo última generación: ${lastTime.toFixed(2)} s
+Mejor tiempo histórico: ${bestTime.toFixed(2)} s`;
+    } else {
+        text += `
+
+<strong>Mejores genes:</strong> ninguno todavía (evolucionando...)`;
+    }
+
+    infoDiv.innerHTML = text;
+}
+
+/* ---------- Gráfico de barras (canvas separado) ---------- */
+
+function drawChart() {
+    chartCtx.clearRect(0, 0, chartCanvas.width, chartCanvas.height);
+    if (generationTimes.length === 0) return;
+
+    const chartWidth  = chartCanvas.width;
+    const chartHeight = chartCanvas.height;
+
+    const padding = 10;
+    const innerX = 40;
+    const innerY = 26;
+    const innerWidth  = chartWidth - innerX - padding;
+    const innerHeight = chartHeight - innerY - 18;
+
+    const bgGrad = chartCtx.createLinearGradient(0, 0, 0, chartHeight);
+    bgGrad.addColorStop(0, "rgba(10, 16, 30, 0.96)");
+    bgGrad.addColorStop(1, "rgba(5, 8, 18, 0.96)");
+    chartCtx.fillStyle = bgGrad;
+    chartCtx.fillRect(0, 0, chartWidth, chartHeight);
+
+    chartCtx.strokeStyle = "rgba(120,160,255,0.7)";
+    chartCtx.lineWidth = 1;
+    chartCtx.strokeRect(0.5, 0.5, chartWidth - 1, chartHeight - 1);
+
+    chartCtx.fillStyle = "#e5eeff";
+    chartCtx.font = "11px system-ui";
+    chartCtx.textAlign = "left";
+    chartCtx.fillText("Tiempo hasta la meta (s)", 8, 16);
+
+    const maxBars = 30;
+    const data = generationTimes.slice(-maxBars);
+    const maxTime = Math.max(...data);
+    const minTime = Math.min(...data);
+    const bestTime = Math.min(...generationTimes);
+
+    chartCtx.strokeStyle = "rgba(255,255,255,0.08)";
+    chartCtx.lineWidth = 1;
+    const gridLines = 4;
+    for (let i = 0; i <= gridLines; i++) {
+        const gy = innerY + (innerHeight / gridLines) * i;
+        chartCtx.beginPath();
+        chartCtx.moveTo(innerX, gy);
+        chartCtx.lineTo(innerX + innerWidth, gy);
+        chartCtx.stroke();
+    }
+
+    chartCtx.strokeStyle = "rgba(200,220,255,0.6)";
+    chartCtx.beginPath();
+    chartCtx.moveTo(innerX, innerY);
+    chartCtx.lineTo(innerX, innerY + innerHeight);
+    chartCtx.lineTo(innerX + innerWidth, innerY + innerHeight);
+    chartCtx.stroke();
+
+    chartCtx.fillStyle = "#c5d7ff";
+    chartCtx.textAlign = "right";
+    chartCtx.fillText(maxTime.toFixed(1), innerX - 4, innerY + 9);
+    chartCtx.fillText(minTime.toFixed(1), innerX - 4, innerY + innerHeight);
+
+    const barCount = data.length;
+    const barGap = 2;
+    const barWidth = Math.max(3, (innerWidth - barGap * (barCount - 1)) / barCount);
+
+    chartCtx.textAlign = "center";
+
+    for (let i = 0; i < barCount; i++) {
+        const t = data[i];
+        const norm = t / maxTime;
+        const barH = norm * innerHeight;
+        const x = innerX + i * (barWidth + barGap);
+        const y = innerY + innerHeight - barH;
+
+        const gGlobalIndex = generationTimes.length - data.length + i;
+        const isBest = generationTimes[gGlobalIndex] === bestTime;
+
+        const grad = chartCtx.createLinearGradient(x, y, x, y + barH);
+        if (isBest) {
+            grad.addColorStop(0, "rgba(102, 255, 204, 0.95)");
+            grad.addColorStop(1, "rgba(46, 204, 113, 0.85)");
+        } else {
+            grad.addColorStop(0, "rgba(80, 190, 255, 0.95)");
+            grad.addColorStop(1, "rgba(0, 118, 210, 0.85)");
+        }
+        chartCtx.fillStyle = grad;
+        chartCtx.fillRect(x, y, barWidth, barH);
+
+        if ((i + 1) % 5 === 0 || i === barCount - 1) {
+            const genIndex = generationTimes.length - data.length + i + 1;
+            chartCtx.fillStyle = "#dde6ff";
+            chartCtx.font = "9px system-ui";
+            chartCtx.fillText(genIndex, x + barWidth / 2, innerY + innerHeight + 11);
+        }
+    }
+}
+
+/* ---------- Bucle principal ---------- */
+
+function loop() {
+    simCtx.clearRect(0, 0, simCanvas.width, simCanvas.height);
+
+    drawBackgroundGrid();
+    drawWalls();
+    drawStart();
+    drawGoal();
+
+    let winner = null;
+
+    for (const r of robots) {
+        r.update();
+        r.draw(simCtx);
+
+        if (!winner && r.hasReachedGoal()) {
+            winner = r;
+        }
+    }
+
+    if (winner) {
+        const now = performance.now();
+        const elapsedSeconds = (now - generationStartTime) / 1000.0;
+
+        generationTimes.push(elapsedSeconds);
+        bestGenes = extractGenesFromRobot(winner);
+        generation++;
+        resetSimulation();
+        updateInfo();
+    }
+
+    drawChart();
+    requestAnimationFrame(loop);
+}
+
+/* ---------- Inicio ---------- */
+resetSimulation();
+updateInfo();
+loop();
+</script>
+</body>
+</html>
+```
+
 
 <a id="camaras-e-iluminacion"></a>
 ## Cámaras e iluminación
