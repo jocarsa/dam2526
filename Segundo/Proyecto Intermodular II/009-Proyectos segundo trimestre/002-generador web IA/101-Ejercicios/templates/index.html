@@ -20,6 +20,19 @@
                 <textarea id="prompt" name="prompt" rows="10"
                           placeholder="Ejemplo: &quot;Una landing moderna para un curso de programación, con cabecera grande, sección de características en 3 columnas y un pie de página oscuro&quot;"></textarea>
 
+                <!-- MODE TOGGLE -->
+                <div class="mode-row">
+                    <span class="mode-label">Motor IA:</span>
+                    <label class="mode-pill">
+                        <input type="radio" name="mode" value="local" checked>
+                        <span>Local (Ollama)</span>
+                    </label>
+                    <label class="mode-pill">
+                        <input type="radio" name="mode" value="remote">
+                        <span>Remoto (API)</span>
+                    </label>
+                </div>
+
                 <button type="submit" id="generate-btn">Generar página</button>
 
                 <div id="status" class="status"></div>

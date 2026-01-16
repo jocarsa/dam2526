@@ -73,12 +73,14 @@
 <a id="clases-asociadas-a-las-operaciones-de-gestion-de-ficheros"></a>
 ## Clases asociadas a las operaciones de gestión de ficheros
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/001-Manejo%20de%20ficheros/001-Clases%20asociadas%20a%20las%20operaciones%20de%20gesti%C3%B3n%20de%20ficheros)
+
 ### Introducción a los ejercicios
 
 Esta carpeta contiene ejercicios prácticos que te ayudarán a comprender y manipular diferentes tipos de archivos en Python. Los problemas trabajados incluyen la creación, lectura y escritura tanto en archivos de texto plano (.txt) como en formatos estructurados como CSV (.csv) y JSON (.json). A través de estos ejercicios, mejorarás tus habilidades para manejar datos en diferentes contextos, aprendiendo a usar módulos específicos como `csv` y `json`, que facilitan la manipulación de archivos en formato tabular o estructurado. Estos conocimientos son fundamentales para cualquier proyecto que involucre el almacenamiento y procesamiento de información externa en programas Python.
 
 ### grabar y leer de txt
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -125,7 +127,7 @@ for linea in lineas:
 ```
 
 ### trabajar con archivos csv
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -166,7 +168,7 @@ for linea in lector:
 ```
 
 ### escribir y leer json
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -202,7 +204,7 @@ archivo.close()
 ```
 
 ### agenda
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -238,7 +240,7 @@ Este tipo de estructura es útil porque permite almacenar datos complejos de man
 ```
 
 ### clientes
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -253,7 +255,7 @@ Esto es un textoEsto es otro texto
 ```
 
 ### datos
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -321,12 +323,14 @@ Estas actividades están diseñadas para proporcionar a los estudiantes una comp
 <a id="formas-de-acceso-a-un-fichero-ventajas"></a>
 ## Formas de acceso a un fichero. Ventajas
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/001-Manejo%20de%20ficheros/002-Formas%20de%20acceso%20a%20un%20fichero.%20Ventajas)
+
 ### Introducción a los ejercicios
 
 En esta carpeta, trabajarás con ejercicios que te enseñarán cómo manipular ficheros de texto en Python. Los ejercicios cubren diferentes modos de acceso a archivos (lectura, escritura, apendizaje y creación exclusiva) y sus respectivas implicaciones. A través de estos ejercicios, mejorarás tus habilidades en la gestión de archivos, manejar excepciones relacionadas con el sistema de ficheros y comprenderás las ventajas y desventajas de cada modo de acceso según las necesidades del programa que estés desarrollando.
 
 ### leer y escribir modo texto
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -377,7 +381,7 @@ archivo.close()
 ```
 
 ### clientes
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -433,6 +437,8 @@ Estas actividades están diseñadas para complementar el conocimiento adquirido 
 <a id="clases-para-gestion-de-flujos-de-datos-desdehacia-ficheros"></a>
 ## Clases para gestión de flujos de datos desdehacia ficheros
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/001-Manejo%20de%20ficheros/003-Clases%20para%20gesti%C3%B3n%20de%20flujos%20de%20datos%20desdehacia%20ficheros)
+
 ### Introducción a los ejercicios
 
 El texto que has proporcionado es el prólogo del segundo volumen de "Don Quijote de la Mancha" de Miguel de Cervantes Saavedra. Este prólogo presenta una conversación entre un narrador (el autor) y su amigo, en la cual se discuten diversos aspectos sobre cómo escribir y estructurar una obra literaria, específicamente referido al segundo volumen del libro. Aquí hay algunos puntos clave:
@@ -452,7 +458,7 @@ Este prólogo es muy conocido por su humor y por dar una perspectiva auto-reflex
 Si necesitas más detalles o análisis específicos sobre algún aspecto del texto, por favor avísame!
 
 ### flujo con la libreria
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -471,7 +477,7 @@ archivo.close()
 ```
 
 ### flujo mejor con libreria
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -502,7 +508,7 @@ print(contenido)
 ```
 
 ### Usar pickle para guardar objetos
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -546,7 +552,7 @@ for elemento in contenido:
 ```
 
 ### pixel
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -571,7 +577,7 @@ print(pixel)
 ```
 
 ### todos los pixeles de la imagen
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -605,7 +611,7 @@ print(pixel)
 ```
 
 ### recorro
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -629,7 +635,7 @@ for x in range(0,tamanio[0]):
 ```
 
 ### escribir
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -653,7 +659,7 @@ img.save("josevicente2.jpeg")
 ```
 
 ### guardar como png
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -677,7 +683,7 @@ img.save("josevicente2.png")
 ```
 
 ### nueva imagen
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -712,7 +718,7 @@ img.save("mensaje.png")
 ```
 
 ### recorro los caracteres
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -750,7 +756,7 @@ img.save("mensaje.png")
 ```
 
 ### agrupamos en grupos de 3
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -790,7 +796,7 @@ img.save("mensaje.png")
 ```
 
 ### agrupamos en grupos de e
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -828,7 +834,7 @@ img.save("mensaje.png")
 ```
 
 ### letras a ascii
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -870,7 +876,7 @@ img.save("mensaje.png")
 ```
 
 ### letras a ascoo
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -911,7 +917,7 @@ img.save("mensaje.png")
 ```
 
 ### guardo los pixeles
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -953,7 +959,7 @@ img.save("mensaje.png")
 ```
 
 ### anchura de la imagen
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -996,7 +1002,7 @@ img.save("mensaje.png")
 ```
 
 ### tamanio dinamico de la imagen
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -1047,7 +1053,7 @@ img.save("mensaje.png")
 ```
 
 ### argumentos de consola
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -1093,7 +1099,7 @@ img.save(sys.argv[2])
 ```
 
 ### argumentos limpios
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -1146,7 +1152,7 @@ img.save(args.salida)
 ```
 
 ### leer
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -1187,7 +1193,7 @@ print(pixels)
 ```
 
 ### leer letras una a una
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -1223,7 +1229,7 @@ print(pixels)
 ```
 
 ### encadeno a cadena
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -1262,7 +1268,7 @@ print(cadena)
 ```
 
 ### encoder
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -1321,7 +1327,7 @@ img.save(args.salida)
 ```
 
 ### decoder
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -1369,7 +1375,7 @@ print(texto)
 ```
 
 ### supercodificador
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -1603,7 +1609,7 @@ if __name__ == "__main__":
 ```
 
 ### clientes
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -1620,7 +1626,7 @@ soy un cliente
 ```
 
 ### texto
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -1702,6 +1708,8 @@ Si necesitas resumen específico o análisis más detallado de algún aspecto de
 <a id="operaciones-sobre-ficheros-secuenciales-y-aleatorios"></a>
 ## Operaciones sobre ficheros secuenciales y aleatorios
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/001-Manejo%20de%20ficheros/004-Operaciones%20sobre%20ficheros%20secuenciales%20y%20aleatorios)
+
 ### Introducción a los ejercicios
 
 En esta carpeta de ejercicios, se exploran diferentes métodos para trabajar con ficheros en Python, tanto secuenciales como aleatorios. El primer archivo (`001-archivos secuenciales.py`) muestra cómo crear y escribir en múltiples archivos JSON dentro de un directorio llamado "secuenciales", generando una estructura lineal de datos para cada uno. Por otro lado, el segundo archivo (`002-archivos hash table.py`) enseña la creación de ficheros usando una tabla hash basada en valores únicos generados mediante un algoritmo MD5, permitiendo así buscar y recuperar información de manera más eficiente.
@@ -1709,7 +1717,7 @@ En esta carpeta de ejercicios, se exploran diferentes métodos para trabajar con
 Estos ejercicios ayudan a desarrollar habilidades clave en manejo de archivos, uso de estructuras de datos avanzadas como tablas hash, y aplicaciones prácticas del cifrado básico para generar claves únicas.
 
 ### archivos secuenciales
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -1732,7 +1740,7 @@ for i in range(0,100):
 ```
 
 ### archivos hash table
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -1852,6 +1860,8 @@ print(contenido)
 <a id="serializaciondeserializacion-de-objetos"></a>
 ## Serializacióndeserialización de objetos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/001-Manejo%20de%20ficheros/005-Serializaci%C3%B3ndeserializaci%C3%B3n%20de%20objetos)
+
 ### Introducción a los ejercicios
 
 En esta carpeta de ejercicios se encuentran tres archivos que trabajan con la serialización y deserialización de objetos en Python utilizando el módulo `json`. El objetivo principal es entender cómo convertir datos complejos, como listas de diccionarios, en una representación en cadena (serialización) y viceversa (deserialización), lo cual es fundamental para almacenar o transmitir información estructurada. Los ejercicios practican la creación y escritura en archivos de texto plano de datos serializados y luego su lectura y transformación nuevamente en objetos Python, mejorando así las habilidades de manejo de ficheros y trabajo con datos complejos.
@@ -1859,7 +1869,7 @@ En esta carpeta de ejercicios se encuentran tres archivos que trabajan con la se
 Estos ejercicios son esenciales para estudiantes de Formación Profesional que buscan desarrollar competencias avanzadas en la manipulación de datos estructurados y el almacenamiento persistente de información en aplicaciones Python.
 
 ### serializacion
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -1933,7 +1943,7 @@ archivo.close()
 ```
 
 ### desserializar
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -1965,7 +1975,7 @@ print(type(devuelta))
 ```
 
 ### basededatos
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2019,6 +2029,8 @@ Este tipo de archivo es común en aplicaciones que necesitan persistir datos de 
 <a id="trabajo-con-ficheros"></a>
 ## Trabajo con ficheros
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/001-Manejo%20de%20ficheros/006-Trabajo%20con%20ficheros)
+
 ### Introducción a los ejercicios
 
 The directory structure you've provided appears to be for a project related to ERP (Enterprise Resource Planning) and CRM (Customer Relationship Management) systems, likely in the context of educational materials or a learning resource. Here's an overview of what each component might represent:
@@ -2057,7 +2069,7 @@ Focuses on the development aspects within an ERP/CRM environment.
 Overall, this structure suggests a well-organized approach to covering different aspects of ERP/CRC systems, suitable for both educational purposes and practical application scenarios.
 
 ### Introduccion
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2078,7 +2090,7 @@ Jose Vicente,Carratala,info@jocarsa.com,La calle de Jose Vicente
 ```
 
 ### guardar datos en formato csv
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2104,7 +2116,7 @@ archivo.close()
 ```
 
 ### serializamos
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2128,7 +2140,7 @@ archivo.close()
 ```
 
 ### des serializar
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2151,7 +2163,7 @@ archivo.close()
 ```
 
 ### lo convierto en tupla
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2177,7 +2189,7 @@ archivo.close()
 ```
 
 ### clase con dos metodos
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2226,7 +2238,7 @@ print(type(resultado))  # <class 'tuple'>
 ```
 
 ### repasar arbol de directorios recursivo
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2252,7 +2264,7 @@ for directorio, subdirectorios, archivos in os.walk(ruta):
 ```
 
 ### arbol de archivos y directorios
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2286,7 +2298,7 @@ for directorio, subdirectorios, archivos in os.walk(ruta):
 ```
 
 ### no quiero el subdirectorio
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2317,7 +2329,7 @@ for directorio, subdirectorios, archivos in os.walk(ruta):
 ```
 
 ### formateo
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2348,7 +2360,7 @@ for directorio, subdirectorios, archivos in os.walk(ruta):
 ```
 
 ### archivo
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2379,7 +2391,7 @@ for directorio, subdirectorios, archivos in os.walk(ruta):
 ```
 
 ### emojis
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2410,7 +2422,7 @@ for directorio, subdirectorios, archivos in os.walk(ruta):
 ```
 
 ### metemos ascii
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2441,7 +2453,7 @@ for directorio, subdirectorios, archivos in os.walk(ruta):
 ```
 
 ### metemos ascii vertical
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2468,7 +2480,7 @@ for directorio, subdirectorios, archivos in os.walk(ruta):
 ```
 
 ### extendiendo
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2562,7 +2574,7 @@ draw_tree(ruta, show_hidden=False, max_depth=None)
 ```
 
 ### return en lugar de print
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2667,7 +2679,7 @@ with open("tree.txt", "w", encoding="utf-8") as f:
 ```
 
 ### clientes
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2680,7 +2692,7 @@ Jose Vicente,Carratala,info@jocarsa.com,Jose Vicente,Carratala,info@jocarsa.com
 ```
 
 ### tree
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -7051,13 +7063,19 @@ This project appears well-structured, with clear divisions for different aspects
 <a id="excepciones-deteccion-y-tratamiento"></a>
 ## Excepciones detección y tratamiento
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/001-Manejo%20de%20ficheros/007-Excepciones%20detecci%C3%B3n%20y%20tratamiento)
+
 
 <a id="desarrollo-de-aplicaciones-que-utilizan-ficheros"></a>
 ## Desarrollo de aplicaciones que utilizan ficheros
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/001-Manejo%20de%20ficheros/008-Desarrollo%20de%20aplicaciones%20que%20utilizan%20ficheros)
+
 
 <a id="ejercicio-de-final-de-unidad"></a>
 ## Ejercicio de final de unidad
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/001-Manejo%20de%20ficheros/101-Ejercicio%20de%20final%20de%20unidad)
 
 ### Introducción a los ejercicios
 
@@ -7114,6 +7132,8 @@ A través de este ejercicio se practicará la creación, lectura, escritura y bo
 
 <a id="el-desfase-objeto-relacional"></a>
 ## El desfase objeto-relacional
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/002-Manejo%20de%20conectores/001-El%20desfase%20objeto-relacional)
 
 ### Introducción a los ejercicios
 
@@ -7190,7 +7210,7 @@ db_data_as_dict = db_dumper.dump_to_json(output_path="output.json")
 This script serves as a powerful tool for applications needing bidirectional mapping between structured JSON and relational databases, providing a bridge between NoSQL-like simplicity and SQL robustness.
 
 ### clientes
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -7240,7 +7260,7 @@ clientes = [{
 ```
 
 ### sacamos la estructura del objeto
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -7293,7 +7313,7 @@ print(muestra)
 ```
 
 ### recorremos el objeto
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -7362,7 +7382,7 @@ for clave in muestra.keys():
 ```
 
 ### importamos mysql
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -7442,7 +7462,7 @@ CREATE TABLE `desfase`.`clientes` (`Identificador` INT NOT NULL AUTO_INCREMENT ,
 ```
 
 ### creo un listado de campos
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -7545,7 +7565,7 @@ print(cadena)
 ```
 
 ### lanzo la consulta a la base de datos
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -7664,7 +7684,7 @@ cursor.execute(cadena)
 ```
 
 ### tabla referenciada
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -7919,7 +7939,7 @@ for field, info in child_defs.items():
 ```
 
 ### y ahora tambien metemos los datos
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -8210,7 +8230,7 @@ print(f"Registros insertados en `{root_table_i}`: {cursor.rowcount} (último bat
 ```
 
 ### recursivo
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -8562,7 +8582,7 @@ if __name__ == "__main__":
 ```
 
 ### lector
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -8769,7 +8789,7 @@ for k, v in python_dict_result.items():
 ```
 
 ### demostracion clase
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -9288,7 +9308,7 @@ if __name__ == "__main__":
 ```
 
 ### uso de la clase
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -9325,7 +9345,7 @@ for k, v in recovered.items():
 ```
 
 ### datos
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -9460,7 +9480,7 @@ Este tipo de estructura es útil para aplicaciones que necesitan manejar informa
 ```
 
 ### dump_recuperado
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -9595,7 +9615,7 @@ Este archivo JSON es útil para entender el perfil de los clientes y sus compras
 ```
 
 ### jvorm
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -10235,12 +10255,14 @@ This tool can be very useful for applications where you need to store and query 
 <a id="protocolos-de-acceso-a-bases-de-datos"></a>
 ## Protocolos de acceso a bases de datos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/002-Manejo%20de%20conectores/002-Protocolos%20de%20acceso%20a%20bases%20de%20datos)
+
 ### Introducción a los ejercicios
 
 Esta carpeta contiene ejercicios que te ayudarán a comprender cómo configurar y utilizar conexiones a bases de datos en un entorno de desarrollo, específicamente enfocándose en la interacción entre Python y SQL para manejar accesos a datos. Los archivos proporcionan una secuencia clara: primero creas un usuario con privilegios adecuados en MySQL (000-prerrequisitos.sql), luego conectas este usuario a una base de datos recién creada desde un script Python (001-conectar con base de datos.py) para crear una tabla, y por último, compruebas la estructura de la base de datos usando SQL nuevamente (002-comprobacion.sql). Estos ejercicios te permitirán practicar la configuración de usuarios y bases de datos, el uso del módulo MySQL Connector en Python para interactuar con una base de datos, y las consultas básicas de SQL para verificar tu trabajo.
 
 ### prerrequisitos
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -10277,7 +10299,7 @@ TO 'accesoadatos2526'@'localhost';
 ```
 
 ### conectar con base de datos
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -10319,7 +10341,7 @@ conexion.close()
 ```
 
 ### comprobacion
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -10383,12 +10405,14 @@ DESCRIBE clientes;
 <a id="establecimiento-de-conexiones"></a>
 ## Establecimiento de conexiones
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/002-Manejo%20de%20conectores/003-Establecimiento%20de%20conexiones)
+
 ### Introducción a los ejercicios
 
 Esta carpeta contiene ejercicios destinados a practicar la conexión y manipulación de datos en una base de datos MySQL utilizando Python. Los estudiantes aprenderán a establecer conexiones con la base de datos, realizar inserciones de registros y modificar tablas para mejorar su conocimiento sobre el manejo eficiente de bases de datos. Estos ejercicios enfatizan la importancia de asegurar que las operaciones CRUD se realicen correctamente mediante la implementación adecuada de consultas SQL en un entorno programático.
 
 ### insertar un cliente de prueba
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -10431,7 +10455,7 @@ conexion.close()
 ```
 
 ### ejecutar consulta de alteracion
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -10484,7 +10508,7 @@ conexion.close()
 ```
 
 ### inserto cliente con null
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -10564,12 +10588,14 @@ conexion.close()
 <a id="ejecucion-de-sentencias-de-descripcion-de-datos"></a>
 ## Ejecución de sentencias de descripción de datos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/002-Manejo%20de%20conectores/004-Ejecuci%C3%B3n%20de%20sentencias%20de%20descripci%C3%B3n%20de%20datos)
+
 ### Introducción a los ejercicios
 
 En esta carpeta, trabajaremos con ejercicios que te ayudarán a comprender y practicar el manejo de consultas SELECT en bases de datos utilizando Python. Los ejemplos se centran en cómo recuperar datos completos desde una tabla, seleccionar columnas específicas (proyecciones), utilizar alias para mejorar la legibilidad de los campos devueltos y finalmente, cómo configurar el cursor para que las filas sean retornadas como diccionarios, facilitando el acceso a los datos. Estos ejercicios te permitirán fortalecer tus habilidades en la interacción con bases de datos MySQL desde Python, mejorando tu capacidad para manipular y visualizar datos eficientemente.
 
 ### select todo
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -10609,7 +10635,7 @@ conexion.close()
 ```
 
 ### proyecciones
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -10653,7 +10679,7 @@ conexion.close()
 ```
 
 ### alias de campo
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -10695,7 +10721,7 @@ conexion.close()
 ```
 
 ### devuelvo como diccionario
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -10782,12 +10808,14 @@ conexion.close()
 <a id="ejecucion-de-sentencias-de-modificacion-de-datos"></a>
 ## Ejecución de sentencias de modificación de datos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/002-Manejo%20de%20conectores/005-Ejecuci%C3%B3n%20de%20sentencias%20de%20modificaci%C3%B3n%20de%20datos)
+
 ### Introducción a los ejercicios
 
 En esta carpeta, encontrarás ejercicios relacionados con el manejo de sentencias SQL para la modificación de datos en una base de datos MySQL utilizando Python. Los tres archivos presentes trabajan con operaciones fundamentales como inserción, actualización y eliminación de registros en una tabla llamada "clientes". Estos ejercicios te ayudarán a comprender cómo interactuar eficazmente con bases de datos para gestionar información, practicando así tus habilidades en el control de transacciones y manipulación de datos.
 
 ### insertar
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -10827,7 +10855,7 @@ conexion.close()
 ```
 
 ### actualizar
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -10864,7 +10892,7 @@ conexion.close()
 ```
 
 ### eliminar
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -10943,6 +10971,8 @@ conexion.close()
 
 <a id="ejecucion-de-consultas-manipulacion-del-resultado"></a>
 ## Ejecución de consultas. Manipulación del resultado
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/002-Manejo%20de%20conectores/006-Ejecuci%C3%B3n%20de%20consultas.%20Manipulaci%C3%B3n%20del%20resultado)
 
 ### Introducción a los ejercicios
 
@@ -11026,7 +11056,7 @@ YourSQL.peticion("SELECT * FROM clientes;")
 Este código proporciona una introducción básica a cómo se pueden manejar las operaciones de base de datos utilizando archivos CSV en Python.
 
 ### yoursql
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -11054,7 +11084,7 @@ for carpeta in carpetas:
 ```
 
 ### mi propio lenguaje
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -11080,7 +11110,7 @@ for carpeta in carpetas:
 ```
 
 ### lo convierto en una clase
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -11108,7 +11138,7 @@ class YourSQL():
 ```
 
 ### metodo estatico en python
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -11137,7 +11167,7 @@ YourSQL.peticion("SHOW DATABASES;")
 ```
 
 ### ver tablas
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -11175,7 +11205,7 @@ YourSQL.peticion("SHOW TABLES;")
 ```
 
 ### usar base de datos
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -11212,7 +11242,7 @@ YourSQL.peticion("SHOW TABLES;")
 ```
 
 ### insertar
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -11342,7 +11372,7 @@ YourSQL.peticion("INSERT INTO clientes (id, nombre, email, activo) VALUES (1, 'A
 ```
 
 ### seleccionar
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -11505,7 +11535,7 @@ YourSQL.peticion("SELECT * FROM clientes;")
 ```
 
 ### externalizar
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -11530,7 +11560,7 @@ YourSQL.peticion("SELECT * FROM clientes;")
 ```
 
 ### yoursql
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -11859,16 +11889,20 @@ This setup gives you a basic SQL-like system in Python. You can extend it by add
 <a id="ejecucion-de-procedimientos-almacenados-en-la-base-de-datos"></a>
 ## Ejecución de procedimientos almacenados en la base de datos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/002-Manejo%20de%20conectores/007-Ejecuci%C3%B3n%20de%20procedimientos%20almacenados%20en%20la%20base%20de%20datos)
+
 
 <a id="gestion-de-transacciones"></a>
 ## Gestión de transacciones
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/002-Manejo%20de%20conectores/008-Gesti%C3%B3n%20de%20transacciones)
 
 ### Introducción a los ejercicios
 
 Esta carpeta contiene una serie de ejercicios en Python que te guiarán a través del manejo de conexiones y transacciones con bases de datos MySQL. Los problemas comienzan desde la conexión básica a una base de datos hasta el desarrollo de clases más complejas para gestionar consultas, devolviendo resultados tanto como texto plano como JSON. Durante estos ejercicios, practicarás competencias fundamentales en programación orientada a objetos y manejo de conexiones a bases de datos, incluyendo la prevención de inyecciones SQL mediante el uso de parámetros seguros.
 
 ### conexion base
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -11907,7 +11941,7 @@ conexion.close()
 ```
 
 ### creo una clase
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -11952,7 +11986,7 @@ class JVDB():
 ```
 
 ### llamo a la clase
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -12001,7 +12035,7 @@ conexion.seleccionar("entradas")
 ```
 
 ### return
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -12045,7 +12079,7 @@ print(conexion.seleccionar("entradas"))
 ```
 
 ### return como json
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -12092,7 +12126,7 @@ print(conexion.seleccionar("entradas"))
 ```
 
 ### empiezo demostracion
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -12113,7 +12147,7 @@ print(conexion.seleccionar("entradas"))
 ```
 
 ### vuelvo al original
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -12158,7 +12192,7 @@ print(conexion.seleccionar("entradas"))
 ```
 
 ### vuelvo al original
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -12207,7 +12241,7 @@ print(conexion.buscar("entradas","titulo","responsivo"))
 ```
 
 ### clave valor
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -12261,7 +12295,7 @@ print(conexion.buscar("entradas", "titulo", "responsivo"))
 ```
 
 ### jvdb006
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -12367,9 +12401,13 @@ Cada actividad está diseñada para incrementar gradualmente el nivel de dificul
 <a id="desarrollo-de-programas-que-utilizan-bases-de-datos"></a>
 ## Desarrollo de programas que utilizan bases de datos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/002-Manejo%20de%20conectores/009-Desarrollo%20de%20programas%20que%20utilizan%20bases%20de%20datos)
+
 
 <a id="ejercicio-de-final-de-unidad-1"></a>
 ## Ejercicio de final de unidad
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/002-Manejo%20de%20conectores/101-Ejercicio%20de%20final%20de%20unidad)
 
 ### Introducción a los ejercicios
 
@@ -12417,12 +12455,14 @@ Estas actividades deberían ayudar a los estudiantes a profundizar en el manejo 
 <a id="examen-final"></a>
 ## Examen final
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/002-Manejo%20de%20conectores/104-Examen%20final)
+
 ### Introducción a los ejercicios
 
 Este conjunto de ejercicios se enfoca en el manejo avanzado de bases de datos utilizando SQL, especialmente para estudiantes del DAM (Desarrollo de Aplicaciones Multiplataforma). Los problemas abordan desde la creación y manipulación de tablas hasta la implementación de relaciones entre ellas mediante claves foráneas. También se practica la inserción de datos en esas estructuras recién creadas, así como técnicas de selección y unión (JOIN) para recuperar información compleja. Además, se introduce la creación de vistas que simplifican consultas complejas y se termina con el manejo de usuarios y permisos dentro del sistema de gestión de bases de datos. Estos ejercicios son esenciales para desarrollar competencias en diseño de bases de datos relacionales y administración de sistemas SQL.
 
 ### crear tablas
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -12459,7 +12499,7 @@ CREATE TABLE Categorias(
 ```
 
 ### insertar
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -12489,7 +12529,7 @@ INSERT INTO Piezas VALUES(
 ```
 
 ### fk
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -12512,7 +12552,7 @@ ON UPDATE CASCADE;
 ```
 
 ### selecciones
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -12529,7 +12569,7 @@ SELECT * FROM Piezas;
 ```
 
 ### left join
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -12546,7 +12586,7 @@ ON Piezas.id_categoria = Categorias.Identificador;
 ```
 
 ### ahora creo la vista
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -12573,7 +12613,7 @@ SELECT * FROM piezas_y_categorias;
 ```
 
 ### usuario
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -12653,12 +12693,14 @@ Estas actividades están diseñadas para ayudar a los estudiantes a familiarizar
 <a id="concepto-de-mapeo-objeto-relacional"></a>
 ## Concepto de mapeo objeto relacional
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/003-Herramientas%20de%20mapeo%20objeto%20relacional%20%28ORM%29/001-Concepto%20de%20mapeo%20objeto%20relacional)
+
 ### Introducción a los ejercicios
 
 En esta carpeta de ejercicios se trabajan conceptos relacionados con el mapeo objeto-relacional (ORM), una técnica que permite la interacción entre objetos de lenguajes de programación y bases de datos relacionales. Los estudiantes aprenderán a convertir estructuras de datos en objetos Python para su almacenamiento eficiente, utilizando la biblioteca `pickle` como herramienta simplificada de persistencia de objetos. El conjunto de ejercicios incluye desde la creación de una clase simple hasta el proceso de guardar y cargar estos objetos en archivos binarios, lo que ayuda a comprender los fundamentos del manejo de datos persistentes fuera de la memoria del programa.
 
 ### la libreria pickle
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -12689,7 +12731,7 @@ print(clientes)
 ```
 
 ### guardar a lo bestia
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -12725,7 +12767,7 @@ pickle.dump(clientes,archivo)
 ```
 
 ### cargo de vuelta
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -12794,6 +12836,8 @@ print(clientes)
 <a id="caracteristicas-de-las-herramientas-orm"></a>
 ## Características de las herramientas ORM
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/003-Herramientas%20de%20mapeo%20objeto%20relacional%20%28ORM%29/002-Caracter%C3%ADsticas%20de%20las%20herramientas%20ORM)
+
 ### Introducción a los ejercicios
 
 Esta carpeta contiene ejercicios que te ayudarán a familiarizarte con la utilización de herramientas ORM (Objeto Relacional Mapping) en Python y PHP. Los ejemplos presentan una clase llamada `JVDB` que facilita el acceso a datos almacenados en una base de datos MySQL, permitiendo realizar operaciones básicas como seleccionar todos los registros de una tabla y buscar registros por un valor específico en una columna. En particular, el último ejercicio en PHP introduce un nuevo método para listar todas las tablas presentes en la base de datos.
@@ -12801,7 +12845,7 @@ Esta carpeta contiene ejercicios que te ayudarán a familiarizarte con la utiliz
 Estos ejercicios te permitirán practicar competencias clave como la manipulación de bases de datos mediante programación, el manejo de conexiones y consultas SQL desde un lenguaje de programación, y el uso de objetos para encapsular funcionalidades relacionadas con acceso a datos. Además, aprenderás cómo implementar y adaptar este patrón en diferentes entornos de desarrollo, como Python y PHP.
 
 ### inicio en python
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -12855,7 +12899,7 @@ print(conexion.buscar("entradas", "titulo", "responsivo"))
 ```
 
 ### convierto a php
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -12928,7 +12972,7 @@ echo $conexion->buscar("entradas", "titulo", "responsivo");
 ```
 
 ### listado de tablas
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -13061,6 +13105,8 @@ echo $conexion->tablas();
 <a id="instalacion-de-una-herramienta-orm-configuracion"></a>
 ## Instalación de una herramienta ORM. Configuración
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/003-Herramientas%20de%20mapeo%20objeto%20relacional%20%28ORM%29/003-Instalaci%C3%B3n%20de%20una%20herramienta%20ORM.%20Configuraci%C3%B3n)
+
 ### Introducción a los ejercicios
 
 Para mejorar el diseño y la interactividad del contenedor que contiene el reproductor de audio, la imagen y la barra deslizante, puedes agregar estilos CSS y mejoras en HTML. Aquí te proporciono una versión actualizada:
@@ -13173,7 +13219,7 @@ body, html {
 Con estos cambios, tu página web será más atractiva visualmente e interactiva para los usuarios.
 
 ### leer archivo
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -13201,7 +13247,7 @@ for sample in samples:
 ```
 
 ### linea
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -13232,7 +13278,7 @@ print("Imagen generada: linea.png")
 ```
 
 ### mezclar archivos
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -13287,7 +13333,7 @@ img.show()
 ```
 
 ### masbonito
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -13341,7 +13387,7 @@ img.show()
 ```
 
 ### redondeo al final
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -13427,7 +13473,7 @@ img.show()
 ```
 
 ### aplicacion de terminal
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -13666,7 +13712,7 @@ if __name__ == "__main__":
 ```
 
 ### javascript
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -13880,7 +13926,7 @@ btnStop.addEventListener('click', stopCapture);
 ```
 
 ### jarvis
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -14129,7 +14175,7 @@ En resumen, este código proporciona un ejemplo práctico de cómo capturar y mo
 ```
 
 ### rebote ia
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -14533,7 +14579,7 @@ En resumen, este código permite a los usuarios interactuar con un sistema de re
 ```
 
 ### mas rebote IA
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -14970,7 +15016,7 @@ En resumen, este código crea un entorno interactivo donde los usuarios pueden h
 ```
 
 ### reproductor audio
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -14998,7 +15044,7 @@ En resumen, este código ha simplificado la interfaz del usuario, reemplazando t
 ```
 
 ### contenedor
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -15032,7 +15078,7 @@ Este código es útil porque proporciona una experiencia básica y directa al us
 ```
 
 ### un poco de estilo
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -15197,33 +15243,100 @@ Este diseño ofrece una experiencia interactiva y visualmente atractiva para los
 <a id="estructura-de-un-fichero-de-mapeo"></a>
 ## Estructura de un fichero de mapeo
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/003-Herramientas%20de%20mapeo%20objeto%20relacional%20%28ORM%29/004-Estructura%20de%20un%20fichero%20de%20mapeo)
+
+### index
+<small>Creado: 2026-01-08 19:19</small>
+
+`index.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>TAME-IA</title>
+    <link rel="stylesheet" href="estilo/estilo.css">
+  </head>
+  <body>
+    <nav>
+      <img src="logo.png">
+      <section id="conversaciones"></section>
+      </section>
+    </nav>
+    <main>
+      <header>
+        <h1>jocarsa | chat</h1>
+        <span id="logout">➜]</span>
+      </header>
+      <section>
+        <h1>Empezamos cuando quieras</h1>
+      </section>
+      <footer>
+        <div id="prompt">
+          <input type="text">
+        </div>
+      </footer>
+    </main>
+    <div id="contienemodal">
+      <div id="modal">
+        <div id="corporativo">
+        <img src="logo.png">
+        <h1>jocarsa | chat</h1>
+        </div>
+        <div id="formulario">
+          <input type="text" id="usuario" placeholder="usuario:">
+          <input type="password" id="contrasena" placeholder="contraseña:">
+          <input type="submit" id="enviar">
+        </div>
+      </div>
+    </div>
+    <script src="js/comportamiento.js"></script>
+  </body>
+</html>
+```
+
 
 <a id="mapeo-basado-en-anotaciones"></a>
 ## Mapeo basado en anotaciones
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/003-Herramientas%20de%20mapeo%20objeto%20relacional%20%28ORM%29/005-Mapeo%20basado%20en%20anotaciones)
 
 
 <a id="clases-persistentes"></a>
 ## Clases persistentes
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/003-Herramientas%20de%20mapeo%20objeto%20relacional%20%28ORM%29/006-Clases%20persistentes)
+
 
 <a id="sesiones-estados-de-un-objeto"></a>
 ## Sesiones; estados de un objeto
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/003-Herramientas%20de%20mapeo%20objeto%20relacional%20%28ORM%29/007-Sesiones%3B%20estados%20de%20un%20objeto)
 
 
 <a id="carga-almacenamiento-y-modificacion-de-objetos"></a>
 ## Carga, almacenamiento y modificación de objetos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/003-Herramientas%20de%20mapeo%20objeto%20relacional%20%28ORM%29/008-Carga%2C%20almacenamiento%20y%20modificaci%C3%B3n%20de%20objetos)
+
 
 <a id="consultas-sql"></a>
 ## Consultas SQL
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/003-Herramientas%20de%20mapeo%20objeto%20relacional%20%28ORM%29/009-Consultas%20SQL)
 
 
 <a id="gestion-de-transacciones-1"></a>
 ## Gestión de transacciones
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/003-Herramientas%20de%20mapeo%20objeto%20relacional%20%28ORM%29/010-Gesti%C3%B3n%20de%20transacciones)
+
 
 <a id="desarrollo-de-programas-que-utilizan-bases-de-datos-a-traves-de-herramientas-orm"></a>
 ## Desarrollo de programas que utilizan bases de datos a través de herramientas ORM
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/003-Herramientas%20de%20mapeo%20objeto%20relacional%20%28ORM%29/011-Desarrollo%20de%20programas%20que%20utilizan%20bases%20de%20datos%20a%20trav%C3%A9s%20de%20herramientas%20ORM)
 
 
 
@@ -15233,8 +15346,50 @@ Este diseño ofrece una experiencia interactiva y visualmente atractiva para los
 <a id="gestores-de-bases-de-datos-objeto-relacionales"></a>
 ## Gestores de bases de datos objeto relacionales
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/004-Bases%20de%20datos%20objeto%20relacionales%20y%20orientadas%20a%20objetos/001-Gestores%20de%20bases%20de%20datos%20objeto%20relacionales)
+
+### Introducción a los ejercicios
+
+**Introducción**
+
+En este conjunto de ejercicios, se aborda la creación y gestión de bases de datos objeto relacionales utilizando un lenguaje de consultas SQL. Se trabajan ejercicios que van desde la creación de una base de datos hasta la implementación de consultas complejas para obtener coincidencias exactas o parciales en los registros de la base de datos.
+
+**Problemas y competencias**
+
+Los problemas presentados son de carácter práctico, donde se deben aplicar conceptos teóricos aprendidos durante el curso. Se trata de:
+
+* Creación de una base de datos objeto relacional.
+* Consultas SQL para obtener coincidencias exactas o parciales en los registros.
+* Uso de operadores LIKE y comparaciones para obtener resultados relevantes.
+
+En general, se buscan desarrollar las competencias siguientes:
+* Crear una base de datos objecto-relacional.
+* Realizar consultas SQL precisas y efectivas.
+* Analizar y comprender la estructura de los datos en una base de datos.
+* Aplicar operadores y comparaciones para obtener resultados relevantes.
+
 ### creo base de datos de prueba
-<small>Creado: 2025-12-09 15:55</small>
+<small>Creado: 2025-12-22 20:03</small>
+
+#### Explicación
+
+**Crear una base de datos y tabla**
+
+En este código, se crea una base de datos llamada `bd_pruebas_frases` y se define su estructura. La primera línea, `CREATE DATABASE IF NOT EXISTS bd_pruebas_frases`, es el comando para crear una nueva base de datos. El `IF NOT EXISTS` significa que si la base de datos ya existe, no se volverá a crear.
+
+A continuación, se define el conjunto de caracteres y la codificación de la base de datos con las palabras clave `CHARACTER SET utf8mb4` y `COLLATE utf8mb4_unicode_ci`. Esto significa que la base de datos utilizará la codificación UTF-8 con una función de coincidencia personalizada para manejar carácteres internacionales.
+
+**Usar la base de datos**
+
+La siguiente línea, `USE bd_pruebas_frases;`, es el comando para seleccionar o "usar" la base de datos que acabamos de crear. Esto significa que todas las operaciones posteriores se realizarán dentro de esta base de datos específica.
+
+**Crear una tabla**
+
+Luego, se crea una tabla llamada `frases` con seis columnas: `id`, `texto`, `autor`, `fecha_creacion`. La primera columna es la clave primaria y autoincrementa el valor del `id` en cada nuevo registro. Las columnas `texto` y `autor` almacenan datos de texto, mientras que la columna `fecha_creacion` almacena la fecha y hora actual.
+
+**Insertar frases**
+
+Finalmente, se insertan algunas frases con sus autores utilizando el comando `INSERT INTO`. Estas frases son simplemente ejemplos para demostrar la funcionalidad de la base de datos.
 
 `001-creo base de datos de prueba.sql`
 
@@ -15270,7 +15425,13 @@ INSERT INTO frases (texto, autor) VALUES
 ```
 
 ### coincidencia exacta
-<small>Creado: 2025-12-09 15:29</small>
+<small>Creado: 2025-12-22 20:03</small>
+
+#### Explicación
+
+Este fragmento de código SQL realiza una consulta a una base de datos para encontrar registros en la tabla "frases" donde el campo "texto" tiene un valor específico.
+
+En otras palabras, estamos pidiendo a la base de datos que nos muestre todos los registros de la tabla "frases" en las que el texto coincide exactamente con 'La vida es aquello que te ocurre mientras estás ocupado haciendo otros planes.'
 
 `002-coincidencia exacta.sql`
 
@@ -15281,7 +15442,13 @@ WHERE
 ```
 
 ### coincidencia parcial
-<small>Creado: 2025-12-09 15:30</small>
+<small>Creado: 2025-12-22 20:03</small>
+
+#### Explicación
+
+Este código se utiliza para buscar registros en una base de datos relacionales utilizando la función `LIKE` de SQL. La función `LIKE` permite realizar búsquedas que incluyen patrones específicos en el texto.
+
+En este caso, hay dos opciones: la primera busca el texto exacto ("aquello que te ocurre") y la segunda busca un patrón que coincide parcialmente con el texto ("aquello que te ocurre"). La primera opción es ineficiente porque requiere comparar el texto completo con cada registro de la tabla "frases", lo que puede ser lento para grandes conjuntos de datos. Por otro lado, la segunda opción utiliza un patrón de búsqueda más flexible y efectiva, ya que busca cualquier palabra o frase que contenga el texto específico. Esto hace que sea una opción más eficiente en comparación con la primera opción.
 
 `003-coincidencia parcial.sql`
 
@@ -15297,7 +15464,15 @@ WHERE
 ```
 
 ### otro planteamiento
-<small>Creado: 2025-12-09 15:33</small>
+<small>Creado: 2025-12-22 20:03</small>
+
+#### Explicación
+
+Este código SQL busca todos los registros en una tabla llamada "frases" donde el texto de la frase contiene las palabras "aquello que te ocurre mientras haces otros planes". El patrón de búsqueda es como una regla de búsqueda que se aplica a todas las columnas (o campos) de la tabla "frases".
+
+Este tipo de patrón de búsqueda se llama LIKE y se utiliza para buscar cadenas de caracteres en una base de datos. La sintaxis utilizada en este código es `texto LIKE '%patrón%'`, donde el `%` simboliza cualquier conjunto de caracteres (incluyendo cero caracteres). En este caso, el patrón de búsqueda es un patrón de coincidencia parcial.
+
+La importancia de este código es que permite a los usuarios buscar y visualizar frases en la base de datos donde se mencione una o más palabras específicas. Esto puede ser útil para realizar búsquedas en textos grandes, como en un sistema de gestión de contenido, por ejemplo.
 
 `004-otro planteamiento.sql`
 
@@ -15308,7 +15483,15 @@ WHERE
 ```
 
 ### concepto de similitud
-<small>Creado: 2025-12-09 15:38</small>
+<small>Creado: 2025-12-22 20:03</small>
+
+#### Explicación
+
+Este código se enfoca en comparar la coincidencia de palabras entre dos frases. Un "token" es una parte simple de un lenguaje, como una palabra o un carácter. En este caso, estamos utilizando tokens para comparar las palabras de dos frases.
+
+El código realiza dos comparaciones: la primera con la frase alternativa 1 y la segunda con la frase alternativa 2. Cada vez que se encuentra una coincidencia entre palabras de ambas frases, el contador aumenta en 1. El resultado es la cantidad total de coincidencias encontradas.
+
+Es importante entender cómo funcionan los tokens y las comparaciones para seguir programando de manera efectiva.
 
 `005-concepto de similitud.py`
 
@@ -15341,12 +15524,71 @@ for palabra in palabras:
 print("Calificacion",contador)
 ```
 
+### Actividades propuestas
+
+**Actividades para estudiantes de Formación Profesional**
+
+A continuación, se presentan las actividades propuestas basadas en el contenido del ejercicio proporcionado:
+
+1. **Crear una base de datos de prueba**: El alumnado debe crear una base de datos llamada `bd_pruebas_frases` y realizar la creación de una tabla llamada `frases` con los campos `id`, `texto`, `autor` y `fecha_creacion`.
+ * Se pretende que aprendan a utilizar el lenguaje SQL para crear bases de datos y tablas.
+2. **Insertar frases en la base de datos**: El alumnado debe insertar una serie de frases en la tabla `frases` creada anteriormente.
+ * Se pretende que aprendan a utilizar el comando `INSERT INTO` para insertar datos en una base de datos.
+3. **Realizar coincidencia exacta**: El alumnado debe realizar una consulta SQL para encontrar todas las filas donde el texto sea igual a 'La vida es aquello que te ocurre mientras estás ocupado haciendo otros planes.'.
+ * Se pretende que aprendan a utilizar el operador `=` en la consulta SQL.
+4. **Realizar coincidencia parcial**: El alumnado debe realizar dos consultas SQL para encontrar todas las filas donde el texto sea igual a 'aquello que te ocurre' (falso) y luego hacer una búsqueda similar con un patrón de coincidencia parcial utilizando el operador `LIKE`.
+ * Se pretende que aprendan a utilizar el operador `LIKE` en la consulta SQL.
+5. **Realizar coincidencia parcial avanzada**: El alumnado debe realizar una consulta SQL para encontrar todas las filas donde el texto sea igual a 'aquello que te ocurre mientras haces otros planes, es la vida'.
+ * Se pretende que aprendan a utilizar el operador `LIKE` y patrones de coincidencia avanzados en la consulta SQL.
+6. **Detección de similitud**: El alumnado debe escribir un programa Python para comparar la similitud entre dos frases dadas utilizando técnicas de tokenización y conteo de palabras.
+ * Se pretende que aprendan a utilizar técnicas de procesamiento del lenguaje natural en Python.
+7. **Realizar búsqueda similar**: El alumnado debe realizar una consulta SQL para encontrar todas las filas donde el texto sea igual a un patrón similar a 'La vida es aquello que te ocurre mientras estás ocupado haciendo otros planes, es la vida'.
+ * Se pretende que aprendan a utilizar técnicas de búsqueda similar en la consulta SQL.
+8. **Verificar coincidencia**: El alumnado debe escribir un programa Python para verificar si una palabra es igual a una palabra dada en un texto.
+ * Se pretende que aprendan a utilizar técnicas de comparación de cadenas en Python.
+
+**Nota:** Estas actividades están diseñadas para cubrir diferentes conceptos y habilidades relacionados con bases de datos, consultas SQL y procesamiento del lenguaje natural.
+
 
 <a id="gestion-de-objetos-con-sql-ansi-sql"></a>
 ## Gestión de objetos con SQL; ANSI SQL
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/004-Bases%20de%20datos%20objeto%20relacionales%20y%20orientadas%20a%20objetos/002-Gesti%C3%B3n%20de%20objetos%20con%20SQL%3B%20ANSI%20SQL)
+
+### Introducción a los ejercicios
+
+**Introducción a la carpeta de ejercicios**
+
+La carpeta de ejercicios proporcionada es un conjunto de archivos que te guiarán a través de una serie de desafíos relacionados con la gestión de objetos en base de datos objeto-relacional y orientadas a objetos, utilizando SQL (Lenguaje de Consulta Relacional) como herramienta fundamental. Estos ejercicios están diseñados para ayudarte a entender cómo se pueden aplicar técnicas de modelado y querying en una base de datos utilizando la biblioteca Chroma.
+
+**Tipo de problemas y competencias**
+
+Los desafíos incluyen varias partes:
+
+1.  **Generación de embeddings**: Utilizaremos el modelo Ollama para generar vectores de representación (embeddings) de frases de texto.
+2.  **Inserción en Chroma**: Guardaremos estos embeddings en una base de datos llamada Chroma, conectándola a la API de Ollama y definiendo colecciones y documentos para almacenar el contenido relacionado con las frases insertadas.
+3.  **Busqueda de similitud**: Buscaremos frases similares en nuestra base de datos utilizando el mismo modelo de embajada que antes, y encontraremos el mejor candidato (documentos más cerca al texto de búsqueda) mediante una consulta SQL personalizada.
+
+Al trabajar a través de estos desafíos, desarrollarás habilidades clave como:
+
+*   Conocimiento básico del lenguaje SQL y cómo se puede utilizar en la gestión de bases de datos.
+*   Entendimiento de cómo los modelos de embajada (Ollama) pueden ayudarte a buscar similitudes entre textos.
+*   Habilidad para gestionar estructuras de datos complejas utilizando una base de datos y herramientas adicionales.
+
+**Práctica y aplicación**
+
+Estes desafíos te permiten aplicar estos conceptos en un entorno práctico, experimentando con diferentes frases y vemos cómo la similitud se puede determinar y cómo se pueden encontrar documentos que se ajusten mejor a una búsqueda.
+
 ### instalamos chroma en python
-<small>Creado: 2025-12-09 15:42</small>
+<small>Creado: 2025-12-22 20:03</small>
+
+#### Explicación
+
+¡Hola estudiantes! Hoy vamos a hablar sobre cómo instalar una biblioteca llamada ChromaDB en Python.
+
+El código `pip install chromadb` es una instrucción que utiliza la herramienta pip, que es el gestor de paquetes de Python. pip se encarga de descargar y instalar las dependencias necesarias para ejecutar nuestro script. En este caso, estamos instalando la biblioteca ChromaDB, que parece ser una herramienta relacionada con la gestión de datos y objetos.
+
+Esto significa que una vez que hayamos terminado de instalar ChromaDB, podremos utilizar sus funcionalidades en nuestro código Python sin tener que preocuparnos por las implementaciones detalladas. La instalación se hace automáticamente cuando ejecutamos el comando `pip install chromadb` en la terminal o línea de comandos.
 
 `001-instalamos chroma en python.py`
 
@@ -15355,7 +15597,15 @@ pip install chromadb
 ```
 
 ### convertir frases a embedding con ollama
-<small>Creado: 2025-12-09 15:46</small>
+<small>Creado: 2025-12-22 20:03</small>
+
+#### Explicación
+
+Este código es el inicio de una secuencia de instrucciones para interactuar con la herramienta Ollama, que se utiliza en el contexto de gestión de objetos y aprendizaje automático. 
+
+La primera línea, "ollama list", indica al programa que liste todos los objetos existentes dentro del espacio de nombres de Ollama. Esto puede ser útil para ver qué tipo de objetos está dispuesto a trabajar con la herramienta.
+
+La segunda instrucción, "ollama pull nomic-embed-text", solicita a Ollama que actualice y descargue un conjunto de objetos específicos llamados 'nomic-embed-text'. En este contexto, los objetos 'nomic-embed-text' deben contener información de texto.
 
 `002-convertir frases a embedding con ollama.py`
 
@@ -15366,7 +15616,17 @@ ollama pull nomic-embed-text
 ```
 
 ### obtener embedding
-<small>Creado: 2025-12-09 15:46</small>
+<small>Creado: 2025-12-22 20:03</small>
+
+#### Explicación
+
+Este código es un ejemplo de cómo obtener un vector de embebidos (o embeddings) para una frase utilizando la API de Chroma, una herramienta de inteligencia artificial que permite generar y procesar modelos de lenguaje. 
+
+El código utiliza la biblioteca `requests` para enviar una solicitud POST a la API de Chroma en el puerto 11434. La solicitud contiene los datos necesarios para generar un vector de embebido: el modelo de lenguaje (`nomic-embed-text`) y la frase que se quiere procesar (`sentence`). 
+
+Una vez recibida la respuesta, el código extrae el vector de embebido a partir del resultado de la API y lo imprime en pantalla. Además, se imprimen dos fragmentos del vector: su dimension y los primeros 10 elementos del vector.
+
+Este código es importante porque muestra cómo se pueden integrar herramientas de inteligencia artificial como Chroma en un entorno de programación Python, permitiendo el procesamiento de textos y la generación de vectores que pueden ser utilizados para tareas como la clasificación de opiniones o la búsqueda de similitud entre frases.
 
 `003-obtener embedding.py`
 
@@ -15392,7 +15652,21 @@ print(vector[:10])
 ```
 
 ### guardar embeddings en chroma
-<small>Creado: 2025-12-09 16:00</small>
+<small>Creado: 2025-12-22 20:03</small>
+
+#### Explicación
+
+El código presentado en el archivo `chroma.py` es una implementación de un sistema para guardar y utilizar embeddings de texto utilizando la biblioteca `Chroma` y la API de Ollama. A continuación, se explica qué hace cada sección del código:
+
+1. **Dependencias**: El código comienza con la declaración de las dependencias necesarias para ejecutar el script. Se instalan las bibliotecas `chromadb` y `requests`, así como se ejecuta una comando `ollama pull nomic-embed-text` que carga los modelos de texto de Ollama.
+
+2. **Función para obtener embeddings**: La función `ollama_embed` permite a los usuarios recibir una lista de textos y, en consecuencia, devuelve una lista de vectores (embeddings) usando la API de Ollama. Esta función es fundamental para guardar las frases motivacionales con sus correspondientes embeddings.
+
+3. **Inicializar cliente de Chroma**: Se inicia un cliente de Chroma llamado `PersistentClient` y se crea una colección de texto llamada `"frase_motivacional"` en la base de datos del sistema.
+
+4. **Definir las frases y autores**: Las frases motivacionales se definen en una lista, junto con sus respectivos autores. Se utiliza esta información para generar los embeddings necesarios para guardarlas en la base de datos.
+
+5. **Generar embeddings con Ollama**: La función `ollama_embed` es utilizada para generar embeddings para cada frase motivacional y se imprime el número total de embeddings generados.
 
 `004-guardar embeddings en chroma.py`
 
@@ -15501,7 +15775,21 @@ print(embeddings)
 ```
 
 ### ahora si que los guardo
-<small>Creado: 2025-12-09 16:05</small>
+<small>Creado: 2025-12-22 20:03</small>
+
+#### Explicación
+
+Este código es una combinación de funcionalidades de Ollama, una API que permite obtener vectores (embdings) de texto, y Chroma, una base de datos para almacenar y gestionar objetos relacionados entre sí.
+
+La función `ollama_embed` recibe una lista de textos como entrada y devuelve una lista de vectores (embeddings) correspondientes. Estos embeddings se obtienen a través de la API de Ollama en localhost:11434.
+
+El código también inicia un cliente de Chroma persistente, que es capaz de guardar y recuperar datos en un archivo local. La función `get_or_create_collection` crea una colección llamada "frases_motivacionales" si no existe ya, y establece algunas metadatos para la colección.
+
+Luego, se definen las frases y autores que se van a almacenar en Chroma. Estas frases se convierten a listas de texto y autor para ser procesadas por Ollama y almacenadas en Chroma.
+
+El código luego llama a la función `ollama_embed` para obtener los embeddings para cada frase, y al final guarda las frases, autores y embeddings en la colección de Chroma. Esto permite asociar cada frase con sus correspondientes embeddings, lo que puede ser útil en aplicaciones como el análisis de sentimiento o la búsqueda de similitud entre textos.
+
+Es importante destacar que este código es un ejemplo de cómo integrar una API externa (Ollama) con una base de datos (Chroma), y cómo utilizar la programación orientada a objetos para organizar y estructurar los datos.
 
 `005-ahora si que los guardo.py`
 
@@ -15621,7 +15909,35 @@ print("✅ Frases insertadas en Chroma y base persistida en ./chroma_ollama_fras
 ```
 
 ### busqueda de similitud
-<small>Creado: 2025-12-09 16:09</small>
+<small>Creado: 2025-12-22 20:03</small>
+
+#### Explicación
+
+**Análisis del código**
+
+El código proporcionado es una aplicación de búsqueda de similitud utilizando la biblioteca `chromadb` y la API de Ollama. El objetivo es encontrar frases similares a una frase de consulta utilizando los embeddings obtenidos con la API de Ollama.
+
+**Función `ollama_embed`**
+
+La función `ollama_embed` recibe un string o una lista de strings y devuelve una lista de vectores (embeddings) usando la API de Ollama en localhost:11434. La función es flexible, ya que puede manejar frases individuales o listas de frases.
+
+**Conexión con la base de Chroma**
+
+La aplicación se conecta a una base de datos existente llamada `chroma_ollama_frases` utilizando el cliente `PersistentClient` de la biblioteca `chromadb`. Se selecciona la colección "frases_motivacionales" para realizar la búsqueda.
+
+**Frase nueva para buscar similitudes**
+
+Se introduce una frase nueva como entrada para realizar la búsqueda. Si no se introduce ninguna frase, se muestra un mensaje de error y se sale del programa.
+
+**Consultar Chroma por similitud**
+
+La función `query` de la colección de Chroma se utiliza para realizar la búsqueda. Se especifican los parámetros: `n_resultados` (número de frases a recuperar), `include` (para obtener solo los documentos, metadatos y distancias) y `query_embeddings` (los embeddings obtenidos con la API de Ollama).
+
+**Mostrar resultados**
+
+Los resultados se muestran en pantalla, incluyendo el ID, autor, distancia y frase correspondientes a cada documento recuperado.
+
+En resumen, este código utiliza la biblioteca `chromadb` y la API de Ollama para realizar una búsqueda de similitud de frases en una base de datos existente.
 
 `006-busqueda de similitud.py`
 
@@ -15706,7 +16022,23 @@ for doc, meta, dist, _id in zip(docs, metas, dists, ids):
 ```
 
 ### mejor candidato
-<small>Creado: 2025-12-09 16:11</small>
+<small>Creado: 2025-12-22 20:03</small>
+
+#### Explicación
+
+Este código es una herramienta de búsqueda de similitudes entre frases utilizando la API de Ollama y la base de datos Chroma. A continuación, te explicaré paso a paso cómo funciona:
+
+El código comienza creando una función llamada `ollama_embed` que recibe un string o una lista de strings y devuelve una lista de vectores (embeddings) utilizando la API de Ollama en localhost:11434. La función se utiliza para obtener el embedding de una frase dada.
+
+Luego, se conecta a la base de datos Chroma existente usando el cliente `chromadb.PersistentClient`. La base de datos contiene colecciones llamadas "frases_motivacionales", y se selecciona la colección correspondiente utilizando `client.get_collection`.
+
+A continuación, se introduce una nueva frase para buscar similitudes. El código verifica si la frase está vacía y, en ese caso, termina ejecutándose.
+
+El código obtiene el embedding de la frase de consulta mediante la función `ollama_embed`. Luego, utiliza la base de datos Chroma para consultar los documentos que tienen una coincidencia cercana con el embedding obtenido. El parámetro `n_results=1` indica que solo se deben mostrar los resultados con la mejor coincidencia.
+
+Finalmente, el código muestra la mejor coincidencia encontrada, incluyendo el ID del documento, el autor y la frase misma.
+
+En resumen, este código es una herramienta de búsqueda de similitudes entre frases utilizando la API de Ollama y la base de datos Chroma. Permite encontrar los documentos más cercanos a una frase dada en función de su contenido.
 
 `007-mejor candidato.py`
 
@@ -15791,7 +16123,19 @@ print(f"Frase:  {mejor_doc}")
 ```
 
 ### otra prueba
-<small>Creado: 2025-12-09 16:13</small>
+<small>Creado: 2025-12-22 20:03</small>
+
+#### Explicación
+
+¡Hola estudiantes! Hoy vamos a analizar un fragmento de código que utiliza las bibliotecas Python `requests` y `chromadb` para interactuar con la API de Chroma. 
+
+Este código se divide en varias partes, pero vamos a enfocarnos en el proceso de búsqueda de similitudes entre una frase dada y otras frases almacenadas en la base de datos de Chroma.
+
+El código inicia conectándose a una base de datos existente llamada "frases_motivacionales" utilizando la clase `PersistentClient` de `chromadb`. Luego, se define una función `ollama_embed` que utiliza la API de Ollama para obtener vectores (embeddings) de las frases. En este caso, se utiliza la API para obtener el embedding de la frase de consulta "haz hoy lo que puedas, y no lo deje para mañana".
+
+La parte interesante del código es cuando se realiza la búsqueda de similitudes en Chroma utilizando la función `query` de la clase `collection`. Se pasa un listado con el embedding obtenido anteriormente como parámetro de consulta. El número de resultados a devolver se establece en 1, lo que significa que solo se mostrará la mejor coincidencia.
+
+Finalmente, se extraen los detalles del resultado más relevante (ID, autor y frase) y se imprimen en pantalla. En resumen, este código utiliza las API de Ollama y Chroma para buscar similitudes entre una frase dada y otras frases almacenadas en la base de datos de Chroma.
 
 `008-otra prueba.py`
 
@@ -15875,12 +16219,78 @@ print(f"Autor:  {mejor_meta.get('autor', 'Desconocido')}")
 print(f"Frase:  {mejor_doc}")
 ```
 
+### Actividades propuestas
+
+**Actividades para estudiantes de Formación Profesional**
+
+A continuación, se presentan una lista de actividades basadas en el código proporcionado, diseñadas para estimular el aprendizaje y la práctica en áreas relacionadas con bases de datos objeto-relacionales y orientadas a objetos.
+
+1. **Análisis de Frases**: Se proporciona un conjunto de frases motivacionales. Pregunta al estudiante qué frase le parece la más inspiradora y por qué. Anota las razones de cada respuesta en una base de datos. Utiliza Ollama para obtener embeddings de las frases y consulta Chroma para encontrar la frase más similar.
+2. **Búsqueda de Similitud**: Se presenta una nueva frase que no está incluida en el conjunto original. Pregunta al estudiante si encuentra alguna conexión entre esta frase y las frases originales. Utiliza Ollama para obtener embeddings de la frase de consulta y consulta Chroma para encontrar las frases más similares.
+3. **Mejor Coincidencia**: Se presenta una nueva frase que se debe comparar con el conjunto original. Pregunta al estudiante si consideraría esta frase como un mejor "candidato" para inspiración en lugar de alguna de las opciones originales. Utiliza Ollama para obtener embeddings de la frase de consulta y consulta Chroma para encontrar la frase más similar.
+4. **Análisis de Autor**: Se proporcionan las metadatas de las frases incluidas en la base de datos, como el autor. Pregunta al estudiante si puede identificar patrones en el autoría de las frases inspiradoras. Utiliza Chroma para comparar las metadatas y encontrar relaciones entre las frases.
+5. **Creación de un Conjunto**: Se le pide al estudiante que cree su propio conjunto de frases inspiradoras utilizando Ollama y Chroma.
+
+**Requisitos**
+
+* Conocimientos básicos de bases de datos objeto-relacionales y orientadas a objetos.
+* Experiencia previa con herramientas como Ollama y Chroma.
+* Capacidad para analizar y comparar información utilizando técnicas de aprendizaje automático.
+
+**Evaluación**
+
+* Análisis de las respuestas de los estudiantes en cada actividad.
+* Evaluación del código propuesto por los estudiantes para implementar las actividades.
+* Comparación de los resultados con las metadatas y frases originales.
+
 
 <a id="acceso-a-las-funciones-del-gestor-de-base-de-datos-objeto-relacional"></a>
 ## Acceso a las funciones del gestor de base de datos objeto-relacional
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/004-Bases%20de%20datos%20objeto%20relacionales%20y%20orientadas%20a%20objetos/003-Acceso%20a%20las%20funciones%20del%20gestor%20de%20base%20de%20datos%20objeto-relacional)
+
+### Introducción a los ejercicios
+
+**Introducción**
+
+En este conjunto de ejercicios, se busca aplicar conceptos relacionados con la acceso a datos y procesamiento de texto utilizando herramientas como ChromaDB y Ollama para el modelado de lenguaje natural. Los ejercicios se estructuran en torno a la creación de una aplicación web de chat que utiliza ChromaDB para almacenar y recuperar transcripciones de clases, así como Ollama para obtener embeddings y similitudes entre textos.
+
+**Resumen de competencias**
+
+Los ejercicios abordan las siguientes competencias:
+
+*   **Acceso a datos**: Utilización de ChromaDB para almacenar y recuperar transcripciones de clases.
+*   **Procesamiento de texto**: Aplicación de técnicas como troceado de texto, obtención de embeddings y similitudes entre textos utilizando Ollama.
+*   **Desarrollo web**: Creación de una aplicación web de chat que integra las funcionalidades mencionadas anteriormente.
+
+**Estructura y desarrollo**
+
+Los ejercicios están organizados en tres archivos principales:
+
+1.  `app.py`: Esta es la aplicación web del chat, donde se definen las rutas y funciones para procesar las consultas de los usuarios.
+2.  `002-probar.py`: Este archivo contiene pruebas unitarias básicas para las funcionalidades de ChromaDB y Ollama.
+3.  `Archivo sin título.py` y `101-Ejercicios/001-entrenar.py`: Estos archivos proporcionan ejemplos de entrenamiento, prueba y uso de ChromaDB y Ollama en los contextos específicos de la aplicación web.
+
+En general, se busca que los estudiantes comprendan cómo integrar estas herramientas para crear una aplicación funcional y escalable.
+
 ### entrenar
-<small>Creado: 2025-12-09 16:27</small>
+<small>Creado: 2025-12-22 20:03</small>
+
+#### Explicación
+
+Este código es una aplicación Python que utiliza varias herramientas para procesar y indexar un conjunto de archivos Markdown (.md) desde la carpeta "corpus/" en busca de fragmentos útiles. Estos fragmentos se guardan en una base persistente utilizando la librería Chroma.
+
+Primero, se importan las dependencias necesarias como os, glob, requests y chromadb. Luego se definen tres funciones:
+
+1.  `ollama_embed(texts, model_name: str = "nomic-embed-text")`: Recibe un string o una lista de strings y devuelve una lista de vectores (embeddings) usando la API de Ollama en localhost:11434.
+
+2.  `chunk_text(text, max_chars=800)` : Divide un texto en fragmentos de como máximo max_chars caracteres, procurando cortar por saltos de línea en lugar de a mitad de palabra.
+
+3.  Conectar con Chroma (base persistente para el corpus).
+
+Se conecta a la base Chroma y se crea una colección llamada "corpus_clases_md" si no existe ya. Luego, se buscan todos los archivos .md en la carpeta "corpus/" utilizando glob.glob().
+
+Por último, se procesan los archivos encontrados, se leen, se trocean en fragmentos y se guardan en Chroma. Este proceso tiene un manejo de errores para evitar saltar archivos que no pueden procesarse debido a problemas con los embeddings o la inserción en la base de datos.
 
 `001-entrenar.py`
 
@@ -16035,7 +16445,19 @@ print("Base vectorial en: ./chroma_ollama_corpus (colección: corpus_clases_md)"
 ```
 
 ### probar
-<small>Creado: 2025-12-09 18:10</small>
+<small>Creado: 2025-12-22 20:03</small>
+
+#### Explicación
+
+Este código Python es una aplicación básica de búsqueda de textos en un corpus ya indexado utilizando la API de Ollama y Chroma. Su objetivo principal es encontrar el documento más relevante en el corpus según la similitud del embedding del texto de búsqueda.
+
+En primer lugar, se importan las bibliotecas necesarias: `requests` para hacer peticiones HTTP y `chromadb` para interactuar con Chroma, un gestor de corpora. Luego, se define una función llamada `ollama_embed()` que toma como parámetro un texto o una lista de textos y devuelve una lista de vectores (embeddings) utilizando la API de Ollama en localhost:11434.
+
+A continuación, se conecta con Chroma utilizando el client `PersistentClient`, al que se le pasa el path de un corpus ya indexado. Luego, se obtiene la colección "corpus_clases_md" del cliente.
+
+El programa entra en un bucle infinito donde solicita al usuario una pregunta o tema que buscar en el corpus. Si la entrada es vacía, se sale del programa. En otro caso, se llama a la función `ollama_embed()` para obtener el embedding de la consulta y luego se hace una búsqueda en Chroma utilizando la función `query()`. La función devuelve un resultado con los documentos más relevantes según la similitud del embedding.
+
+El programa muestra los resultados más relevantes encontrados, que incluyen el ID del documento, el archivo donde se encuentra el documento, el fragmento del documento y el contenido del documento.
 
 `002-probar.py`
 
@@ -16127,7 +16549,26 @@ while True:
 ```
 
 ### app
-<small>Creado: 2025-12-09 18:24</small>
+<small>Creado: 2025-12-22 20:03</small>
+
+#### Explicación
+
+Este fragmento de código es una implementación básica de un chatbot utilizando el lenguaje de programación Python y la biblioteca Flask para crear una aplicación web. El chatbot se conecta a una base de datos llamada Chroma, que almacena documentos y metadatos relacionados con transcripciones de clases.
+
+El código define varias funciones principales:
+
+1.  **ollama_embed**: Esta función utiliza la API Ollama para obtener embeddings (representaciones numéricas) de un texto o una lista de textos. Los embeddings se utilizan posteriormente para realizar busquedas en Chroma.
+2.  **retrieve_context**: En este caso, se busca contexto relacionado con un mensaje del usuario utilizando el mismo servicio Ollama y luego busca fragmentos similares dentro de la base de datos Chroma. El resultado es un conjunto de bloques de texto que contienen las partes relevantes del contexto.
+3.  **generate_answer**: Esta función llama al servicio chat de Ollama para generar una respuesta a un mensaje del usuario, usando el contexto previamente encontrado y el propio mensaje como entrada.
+
+El código también define dos rutas en la aplicación Flask:
+
+*   **/**: Una ruta por defecto que muestra una plantilla HTML llamada "index.html".
+*   **/chat**: Una ruta para manejar peticiones POST relacionadas con conversaciones. Esta función procesa los mensajes del usuario, busca contexto relevante, genera una respuesta y la devuelve a través de JSON.
+
+El código se ejecuta cuando se arranca el script como programa principal (`if __name__ == "__main__":`).
+
+Este fragmento de código tiene como objetivo crear un sistema que permita a los usuarios interactuar con un chatbot que puede responder preguntas basado en contextos previos. La integración de Chroma para acceder al conocimiento almacenado y el uso de Ollama para generar respuestas demuestran una solución compleja pero interesante para aplicaciones relacionadas con la educación, la investigación y el asesoramiento.
 
 `app.py`
 
@@ -16285,7 +16726,17 @@ if __name__ == "__main__":
 ```
 
 ### Archivo sin título
-<small>Creado: 2025-12-09 18:17</small>
+<small>Creado: 2025-12-22 20:03</small>
+
+#### Explicación
+
+Este código se encuentra dentro de una clase, específicamente en el método `__init__`, que es el constructor de la clase. Este método se utiliza para inicializar los atributos o variables de la clase.
+
+El código `self Conn = db.connect(host="localhost", database="nombre_base")` establece una conexión con una base de datos específica. La función `db.connect` parece ser parte de un módulo de interacción con bases de datos, pero no tengo información sobre este módulo específico.
+
+La variable `Conn` se utiliza para almacenar la conexión a la base de datos y es una referencia al objeto que representa la conexión. Este objeto proporciona métodos para interactuar con la base de datos, como realizar consultas SQL o insertar datos.
+
+En resumen, el código establece una conexión con una base de datos utilizando un método específico del módulo `db` y almacena ese objeto en la variable `Conn`.
 
 `Archivo sin título`
 
@@ -16293,25 +16744,87 @@ if __name__ == "__main__":
 
 ```
 
+### Actividades propuestas
+
+Aquí te presento una lista de actividades para el alumnado basadas en los ejercicios proporcionados:
+
+**Actividad 1: Creación de una función para obtener embeddings**
+
+* Descripción: En este ejercicio, debes crear una función que utilize la API de Ollama para obtener embeddings de un texto o lista de textos.
+* Objetivo: Entender cómo se utiliza la API de Ollama y cómo se pueden procesar los embeddings en Python.
+* Requerimientos: Conocimiento básico de Python y familiaridad con la API de Ollama.
+
+**Actividad 2: Indexación de archivos**
+
+* Descripción: En este ejercicio, debes leer un archivo MD, trocearlo en fragmentos y indexar cada fragmento utilizando Chroma.
+* Objetivo: Entender cómo se puede utilizar Chroma para indexar contenido y cómo se pueden procesar los datos en Python.
+* Requerimientos: Conocimiento básico de Python y familiaridad con Chroma.
+
+**Actividad 3: Consultas a Chroma**
+
+* Descripción: En este ejercicio, debes crear una función que busque un texto o lista de textos en Chroma utilizando embeddings y devuelva los resultados más relevantes.
+* Objetivo: Entender cómo se puede utilizar Chroma para realizar consultas y cómo se pueden procesar los datos en Python.
+* Requerimientos: Conocimiento básico de Python y familiaridad con Chroma.
+
+**Actividad 4: Generación de respuesta**
+
+* Descripción: En este ejercicio, debes crear una función que genere una respuesta a una pregunta utilizando el contexto de transcripciones y la API de Ollama.
+* Objetivo: Entender cómo se puede utilizar la API de Ollama para generar respuestas y cómo se pueden procesar los datos en Python.
+* Requerimientos: Conocimiento básico de Python y familiaridad con la API de Ollama.
+
+**Actividad 5: Desarrollo de una aplicación web**
+
+* Descripción: En este ejercicio, debes desarrollar una aplicación web que permita a los usuarios interactuar con Chroma utilizando embeddings y obtener respuestas.
+* Objetivo: Entender cómo se puede utilizar Flask para desarrollar una aplicación web y cómo se pueden procesar los datos en Python.
+* Requerimientos: Conocimiento básico de Python y familiaridad con Flask.
+
+**Actividad 6: Optimización de la búsqueda**
+
+* Descripción: En este ejercicio, debes optimizar la búsqueda en Chroma utilizando técnicas como la normalización de embeddings y la comparación de similitud.
+* Objetivo: Entender cómo se puede mejorar la eficiencia de la búsqueda en Chroma y cómo se pueden procesar los datos en Python.
+* Requerimientos: Conocimiento básico de Python y familiaridad con Chroma.
+
+**Actividad 7: Análisis de los resultados**
+
+* Descripción: En este ejercicio, debes analizar los resultados obtenidos después de realizar las consultas a Chroma y evaluar la efectividad del sistema.
+* Objetivo: Entender cómo se pueden interpretar los resultados obtenidos después de realizar las consultas a Chroma y cómo se pueden mejorar el sistema.
+* Requerimientos: Conocimiento básico de Python y familiaridad con Chroma.
+
+**Actividad 8: Creación de un protocolo de datos**
+
+* Descripción: En este ejercicio, debes crear un protocolo de datos que describa la estructura y contenido de los archivos MD indexados en Chroma.
+* Objetivo: Entender cómo se puede definir un protocolo de datos para el almacenamiento y procesamiento de datos en Chroma.
+* Requerimientos: Conocimiento básico de Python y familiaridad con Chroma.
+
 
 <a id="gestores-de-bases-de-datos-orientadas-a-objetos"></a>
 ## Gestores de bases de datos orientadas a objetos
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/004-Bases%20de%20datos%20objeto%20relacionales%20y%20orientadas%20a%20objetos/004-Gestores%20de%20bases%20de%20datos%20orientadas%20a%20objetos)
 
 
 <a id="gestion-de-la-persistencia-de-objetos"></a>
 ## Gestión de la persistencia de objetos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/004-Bases%20de%20datos%20objeto%20relacionales%20y%20orientadas%20a%20objetos/005-Gesti%C3%B3n%20de%20la%20persistencia%20de%20objetos)
+
 
 <a id="el-interfaz-de-programacion-de-aplicaciones-de-la-base-de-datos-orientada-a-objetos"></a>
 ## El interfaz de programación de aplicaciones de la base de datos orientada a objetos
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/004-Bases%20de%20datos%20objeto%20relacionales%20y%20orientadas%20a%20objetos/006-El%20interfaz%20de%20programaci%C3%B3n%20de%20aplicaciones%20de%20la%20base%20de%20datos%20orientada%20a%20objetos)
 
 
 <a id="gestion-de-transacciones-2"></a>
 ## Gestión de transacciones
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/004-Bases%20de%20datos%20objeto%20relacionales%20y%20orientadas%20a%20objetos/007-Gesti%C3%B3n%20de%20transacciones)
+
 
 <a id="desarrollo-de-programas-que-gestionan-objetos-en-bases-de-datos"></a>
 ## Desarrollo de programas que gestionan objetos en bases de datos
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/004-Bases%20de%20datos%20objeto%20relacionales%20y%20orientadas%20a%20objetos/008-Desarrollo%20de%20programas%20que%20gestionan%20objetos%20en%20bases%20de%20datos)
 
 
 
@@ -16321,12 +16834,14 @@ if __name__ == "__main__":
 <a id="bases-de-datos-documentales-nativas"></a>
 ## Bases de datos documentales nativas
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/005-Bases%20de%20datos%20documentales/001-Bases%20de%20datos%20documentales%20nativas)
+
 ### Introducción a los ejercicios
 
 Esta carpeta contiene un conjunto de ejercicios diseñados para introducir a los estudiantes a las bases de datos documentales nativas, específicamente MongoDB. Los ejercicios abarcan desde la creación y manejo de una base de datos hasta la inserción, consulta y actualización de documentos JSON. Estos ejercicios ayudan a desarrollar competencias clave en el uso de lenguajes como JavaScript para interactuar con bases de datos no relacionales, así como la comprensión de formatos de documentos como XML y JSON. Los estudiantes aprenderán cómo estructurar y manipular datos en una base de datos documental, realizando operaciones básicas y avanzadas.
 
 ### crear base de datos
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -16343,7 +16858,7 @@ use empresadam;
 ```
 
 ### crear coleccion
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -16356,7 +16871,7 @@ db.createCollection("clientes");
 ```
 
 ### insertar un cliente
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -16374,7 +16889,7 @@ db.clientes.insertOne({
 ```
 
 ### inserto objeto complejo
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -16400,7 +16915,7 @@ db.clientes.insertOne({
 ```
 
 ### inserto muchos
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -16438,7 +16953,7 @@ db.clientes.insertMany(
 ```
 
 ### seleccionamos clientes
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -16455,7 +16970,7 @@ db.clientes.find()
 ```
 
 ### solo el primer elemento
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -16470,7 +16985,7 @@ db.clientes.findOne()
 ```
 
 ### where
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -16487,7 +17002,7 @@ db.clientes.find({email:'info@juan.com'})
 ```
 
 ### actualizar uno
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -16506,7 +17021,7 @@ db.clientes.updateOne(
 ```
 
 ### actualiza muchos
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -16527,7 +17042,7 @@ db.clientes.updateMany(
 ```
 
 ### eliminar uno
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -16544,7 +17059,7 @@ db.clientes.deleteOne(
 ```
 
 ### delete many
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -16592,6 +17107,8 @@ Estas actividades ayudarán a los estudiantes a familiarizarse con MongoDB desde
 <a id="establecimiento-y-cierre-de-conexiones"></a>
 ## Establecimiento y cierre de conexiones
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/005-Bases%20de%20datos%20documentales/002-Establecimiento%20y%20cierre%20de%20conexiones)
+
 ### Introducción a los ejercicios
 
 Esta carpeta contiene ejercicios relacionados con el envío de solicitudes HTTP para la detección de objetos en imágenes utilizando un modelo preentrenado. Los archivos proporcionan una introducción a cómo interactuar con APIs basadas en modelos de inteligencia artificial para analizar contenido visual. Los estudiantes practicarán habilidades como la codificación de imágenes en base64, el envío de solicitudes HTTP POST y la manipulación de respuestas JSON.
@@ -16599,7 +17116,7 @@ Esta carpeta contiene ejercicios relacionados con el envío de solicitudes HTTP 
 Es importante notar que aunque los ejercicios se centran en la detección de objetos en imágenes con Python y un modelo específico, el objetivo principal es entender cómo estructurar y enviar peticiones a APIs para obtener información basada en datos proporcionados.
 
 ### detectar imagen
-<small>Creado: 2025-11-25 19:53</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -16629,7 +17146,7 @@ print(r.json()["response"])
 ```
 
 ### perro
-<small>Creado: 2025-11-25 19:55</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -16694,21 +17211,13760 @@ print(r.json()["response"])
 <a id="colecciones-y-documentos"></a>
 ## Colecciones y documentos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/005-Bases%20de%20datos%20documentales/003-Colecciones%20y%20documentos)
+
+### prueba
+<small>Creado: 2025-12-22 20:03</small>
+
+`002-prueba.json`
+
+```json
+{
+  "vista":"estaba conduciendo por una carretera",
+  "momento":"2025-12-15",
+  "oido":"-",
+  "sentimos":"tenia prisa por llegar",
+  "olemos":"-",
+  "sabor":"-",
+  "palpamos":"frío de diciembre por la ventana",
+  "pensamos":"tenia prisa por llegar",
+  "ubicacion":"carretera circunvalacion Valencia"
+}
+```
+
+### memento
+<small>Creado: 2025-12-22 20:03</small>
+
+`003-memento.html`
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memories Recorder</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+            background-color: #f0f8ff;
+        }
+        .form-container {
+            width: 300px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin: 20px;
+        }
+        .form-container input,
+        .form-container textarea,
+        .form-container select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .form-container button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .form-container button:hover {
+            background-color: #45a049;
+        }
+        .stage {
+            flex: 1;
+            position: relative;
+            background-color: #e6f2ff;
+            border-radius: 10px;
+            margin: 20px;
+            overflow: hidden;
+        }
+        .bubble {
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 50%;
+            padding: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            max-width: 200px;
+            word-wrap: break-word;
+            animation: float 6s ease-in-out infinite;
+        }
+        @keyframes float {
+            0% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(5deg); }
+            100% { transform: translateY(0px) rotate(0deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Nuevo Recuerdo</h2>
+        <form id="memoryForm">
+            <label for="vista">Vista:</label>
+            <textarea id="vista" rows="2" required></textarea>
+
+            <label for="momento">Momento:</label>
+            <input type="date" id="momento" required>
+
+            <label for="oido">Oído:</label>
+            <textarea id="oido" rows="2"></textarea>
+
+            <label for="sentimos">Sentimos:</label>
+            <textarea id="sentimos" rows="2"></textarea>
+
+            <label for="olemos">Olemos:</label>
+            <textarea id="olemos" rows="2"></textarea>
+
+            <label for="sabor">Sabor:</label>
+            <textarea id="sabor" rows="2"></textarea>
+
+            <label for="palpamos">Palpamos:</label>
+            <textarea id="palpamos" rows="2"></textarea>
+
+            <label for="pensamos">Pensamos:</label>
+            <textarea id="pensamos" rows="2"></textarea>
+
+            <label for="ubicacion">Ubicación:</label>
+            <input type="text" id="ubicacion" required>
+
+            <button type="submit">Guardar Recuerdo</button>
+        </form>
+        <button id="recordButton">🎤 Grabar Voz</button>
+    </div>
+
+    <div class="stage" id="stage">
+        <!-- Las burbujas de recuerdos aparecerán aquí -->
+    </div>
+
+    <script>
+        // Grabación de voz
+        const recordButton = document.getElementById('recordButton');
+        let recognition;
+
+        if ('webkitSpeechRecognition' in window) {
+            recognition = new webkitSpeechRecognition();
+            recognition.continuous = false;
+            recognition.interimResults = false;
+            recognition.lang = 'es-ES';
+
+            recordButton.addEventListener('click', () => {
+                recognition.start();
+                recordButton.textContent = '🎤 Grabando...';
+            });
+
+            recognition.onresult = (event) => {
+                const transcript = event.results[0][0].transcript;
+                document.getElementById('oido').value = transcript;
+                recordButton.textContent = '🎤 Grabar Voz';
+            };
+
+            recognition.onerror = (event) => {
+                console.error('Error en grabación:', event.error);
+                recordButton.textContent = '🎤 Grabar Voz';
+            };
+        } else {
+            recordButton.style.display = 'none';
+            alert('Tu navegador no soporta la grabación de voz.');
+        }
+
+        // Crear burbujas de recuerdos
+        const memoryForm = document.getElementById('memoryForm');
+        const stage = document.getElementById('stage');
+
+        memoryForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+
+            const memory = {
+                vista: document.getElementById('vista').value,
+                momento: document.getElementById('momento').value,
+                oido: document.getElementById('oido').value,
+                sentimos: document.getElementById('sentimos').value,
+                olemos: document.getElementById('olemos').value,
+                sabor: document.getElementById('sabor').value,
+                palpamos: document.getElementById('palpamos').value,
+                pensamos: document.getElementById('pensamos').value,
+                ubicacion: document.getElementById('ubicacion').value,
+            };
+
+            createBubble(memory);
+            memoryForm.reset();
+        });
+
+        function createBubble(memory) {
+            const bubble = document.createElement('div');
+            bubble.className = 'bubble';
+
+            // Posición aleatoria en el escenario
+            const x = Math.random() * (stage.offsetWidth - 200);
+            const y = Math.random() * (stage.offsetHeight - 200);
+            bubble.style.left = `${x}px`;
+            bubble.style.top = `${y}px`;
+
+            // Contenido de la burbuja
+            bubble.innerHTML = `
+                <strong>${memory.ubicacion}</strong><br>
+                ${memory.momento}<br>
+                <small>${memory.vista}</small>
+            `;
+
+            // Agregar al escenario
+            stage.appendChild(bubble);
+
+            // Lógica para agrupar burbujas por palabras clave
+            setTimeout(() => {
+                attractSimilarBubbles(bubble, memory);
+            }, 100);
+        }
+
+        function attractSimilarBubbles(newBubble, newMemory) {
+            const allBubbles = document.querySelectorAll('.bubble');
+            const keywords = [
+                newMemory.vista,
+                newMemory.ubicacion,
+                newMemory.sentimos,
+                newMemory.pensamos
+            ].filter(kw => kw.trim().length > 0);
+
+            allBubbles.forEach(bubble => {
+                if (bubble !== newBubble) {
+                    const bubbleText = bubble.textContent.toLowerCase();
+                    const hasSimilarKeyword = keywords.some(
+                        kw => bubbleText.includes(kw.toLowerCase())
+                    );
+
+                    if (hasSimilarKeyword) {
+                        // Mover burbujas similares más cerca
+                        const newX = parseFloat(newBubble.style.left);
+                        const newY = parseFloat(newBubble.style.top);
+                        const bubbleX = parseFloat(bubble.style.left);
+                        const bubbleY = parseFloat(bubble.style.top);
+
+                        const distance = Math.sqrt(
+                            Math.pow(newX - bubbleX, 2) + Math.pow(newY - bubbleY, 2)
+                        );
+
+                        if (distance > 50) {
+                            const angle = Math.atan2(newY - bubbleY, newX - bubbleX);
+                            const moveX = Math.cos(angle) * 10;
+                            const moveY = Math.sin(angle) * 10;
+
+                            bubble.style.left = `${bubbleX + moveX}px`;
+                            bubble.style.top = `${bubbleY + moveY}px`;
+                        }
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>
+```
+
+### mejoras
+<small>Creado: 2025-12-22 20:03</small>
+
+`004-mejoras.html`
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memories Recorder</title>
+    <style>
+        :root {
+            --primary-color: #6a5acd;
+            --secondary-color: #9370db;
+            --background-color: #f9f7ff;
+            --bubble-color: #fff;
+            --text-color: #333;
+            --shadow-color: rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+            background-color: var(--background-color);
+            color: var(--text-color);
+        }
+
+        .form-container {
+            width: 350px;
+            padding: 25px;
+            background-color: white;
+            box-shadow: 0 4px 15px var(--shadow-color);
+            border-radius: 12px;
+            margin: 20px;
+            overflow-y: auto;
+            max-height: calc(100vh - 40px);
+        }
+
+        .form-container h2 {
+            color: var(--primary-color);
+            margin-bottom: 20px;
+            font-size: 24px;
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+
+        .form-group textarea,
+        .form-group input[type="text"],
+        .form-group input[type="date"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 14px;
+            box-sizing: border-box;
+            resize: vertical;
+            min-height: 40px;
+        }
+
+        .form-group textarea {
+            min-height: 60px;
+        }
+
+        .record-button {
+            background-color: var(--secondary-color);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 35px;
+            height: 35px;
+            cursor: pointer;
+            font-size: 16px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 10px;
+            transition: background-color 0.3s;
+        }
+
+        .record-button:hover {
+            background-color: var(--primary-color);
+        }
+
+        .form-container button[type="submit"] {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+
+        .form-container button[type="submit"]:hover {
+            background-color: #5a4fbf;
+        }
+
+        .stage {
+            flex: 1;
+            position: relative;
+            background: linear-gradient(135deg, #e6e6fa 0%, #d8bfd8 100%);
+            border-radius: 12px;
+            margin: 20px;
+            overflow: hidden;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: flex-start;
+            padding: 15px;
+        }
+
+        .bubble {
+            position: absolute;
+            background-color: var(--bubble-color);
+            border-radius: 50%;
+            padding: 15px 20px;
+            box-shadow: 0 4px 10px var(--shadow-color);
+            cursor: pointer;
+            max-width: 200px;
+            word-wrap: break-word;
+            animation: float 8s ease-in-out infinite;
+            border: 1px solid rgba(147, 112, 219, 0.3);
+            font-size: 14px;
+            line-height: 1.4;
+            transition: transform 0.3s;
+        }
+
+        .bubble:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 15px var(--shadow-color);
+        }
+
+        .bubble strong {
+            color: var(--primary-color);
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .bubble small {
+            color: #666;
+            font-size: 12px;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0) rotate(0deg);
+            }
+            50% {
+                transform: translateY(-15px) rotate(3deg);
+            }
+        }
+
+        .input-with-button {
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Nuevo Recuerdo</h2>
+        <form id="memoryForm">
+            <div class="form-group">
+                <label for="vista">Vista:</label>
+                <div class="input-with-button">
+                    <textarea id="vista" placeholder="Describe lo que viste..."></textarea>
+                    <button type="button" class="record-button" data-target="vista">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="momento">Momento:</label>
+                <input type="date" id="momento">
+            </div>
+
+            <div class="form-group">
+                <label for="oido">Oído:</label>
+                <div class="input-with-button">
+                    <textarea id="oido" placeholder="Describe lo que escuchaste..."></textarea>
+                    <button type="button" class="record-button" data-target="oido">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="sentimos">Sentimos:</label>
+                <div class="input-with-button">
+                    <textarea id="sentimos" placeholder="Describe lo que sentiste..."></textarea>
+                    <button type="button" class="record-button" data-target="sentimos">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="olemos">Olemos:</label>
+                <div class="input-with-button">
+                    <textarea id="olemos" placeholder="Describe lo que oliste..."></textarea>
+                    <button type="button" class="record-button" data-target="olemos">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="sabor">Sabor:</label>
+                <div class="input-with-button">
+                    <textarea id="sabor" placeholder="Describe lo que saboreaste..."></textarea>
+                    <button type="button" class="record-button" data-target="sabor">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="palpamos">Palpamos:</label>
+                <div class="input-with-button">
+                    <textarea id="palpamos" placeholder="Describe lo que tocaste..."></textarea>
+                    <button type="button" class="record-button" data-target="palpamos">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="pensamos">Pensamos:</label>
+                <div class="input-with-button">
+                    <textarea id="pensamos" placeholder="Describe en qué pensaste..."></textarea>
+                    <button type="button" class="record-button" data-target="pensamos">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="ubicacion">Ubicación:</label>
+                <div class="input-with-button">
+                    <input type="text" id="ubicacion" placeholder="¿Dónde estabas?">
+                    <button type="button" class="record-button" data-target="ubicacion">🎤</button>
+                </div>
+            </div>
+
+            <button type="submit">Guardar Recuerdo</button>
+        </form>
+    </div>
+
+    <div class="stage" id="stage">
+        <!-- Las burbujas de recuerdos aparecerán aquí -->
+    </div>
+
+    <script>
+        // Inicializar reconocimiento de voz
+        let recognition;
+        let currentTarget = null;
+
+        if ('webkitSpeechRecognition' in window) {
+            recognition = new webkitSpeechRecognition();
+            recognition.continuous = false;
+            recognition.interimResults = false;
+            recognition.lang = 'es-ES';
+
+            recognition.onresult = (event) => {
+                const transcript = event.results[0][0].transcript;
+                if (currentTarget) {
+                    document.getElementById(currentTarget).value = transcript;
+                }
+            };
+
+            recognition.onerror = (event) => {
+                console.error('Error en grabación:', event.error);
+            };
+        } else {
+            alert('Tu navegador no soporta la grabación de voz.');
+            const recordButtons = document.querySelectorAll('.record-button');
+            recordButtons.forEach(button => {
+                button.style.display = 'none';
+            });
+        }
+
+        // Asignar evento a los botones de grabación
+        const recordButtons = document.querySelectorAll('.record-button');
+        recordButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                currentTarget = button.getAttribute('data-target');
+                if (recognition) {
+                    recognition.start();
+                    button.textContent = '🛑';
+                    recognition.onend = () => {
+                        button.textContent = '🎤';
+                    };
+                }
+            });
+        });
+
+        // Crear burbujas de recuerdos
+        const memoryForm = document.getElementById('memoryForm');
+        const stage = document.getElementById('stage');
+
+        memoryForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+
+            const memory = {
+                vista: document.getElementById('vista').value,
+                momento: document.getElementById('momento').value,
+                oido: document.getElementById('oido').value,
+                sentimos: document.getElementById('sentimos').value,
+                olemos: document.getElementById('olemos').value,
+                sabor: document.getElementById('sabor').value,
+                palpamos: document.getElementById('palpamos').value,
+                pensamos: document.getElementById('pensamos').value,
+                ubicacion: document.getElementById('ubicacion').value,
+            };
+
+            createBubble(memory);
+            memoryForm.reset();
+        });
+
+        function createBubble(memory) {
+            const bubble = document.createElement('div');
+            bubble.className = 'bubble';
+
+            // Posición aleatoria en el escenario
+            const x = Math.random() * (stage.offsetWidth - 200);
+            const y = Math.random() * (stage.offsetHeight - 200);
+            bubble.style.left = `${x}px`;
+            bubble.style.top = `${y}px`;
+
+            // Contenido de la burbuja
+            bubble.innerHTML = `
+                <strong>${memory.ubicacion || 'Sin ubicación'}</strong>
+                <small>${memory.momento || 'Sin fecha'}</small><br>
+                ${memory.vista || ''}
+            `;
+
+            // Agregar al escenario
+            stage.appendChild(bubble);
+
+            // Lógica para agrupar burbujas por palabras clave
+            setTimeout(() => {
+                attractSimilarBubbles(bubble, memory);
+            }, 100);
+        }
+
+        function attractSimilarBubbles(newBubble, newMemory) {
+            const allBubbles = document.querySelectorAll('.bubble');
+            const keywords = [
+                newMemory.vista,
+                newMemory.ubicacion,
+                newMemory.sentimos,
+                newMemory.pensamos
+            ].filter(kw => kw && kw.trim().length > 0);
+
+            allBubbles.forEach(bubble => {
+                if (bubble !== newBubble) {
+                    const bubbleText = bubble.textContent.toLowerCase();
+                    const hasSimilarKeyword = keywords.some(
+                        kw => bubbleText.includes(kw.toLowerCase())
+                    );
+
+                    if (hasSimilarKeyword) {
+                        // Mover burbujas similares más cerca
+                        const newX = parseFloat(newBubble.style.left);
+                        const newY = parseFloat(newBubble.style.top);
+                        const bubbleX = parseFloat(bubble.style.left);
+                        const bubbleY = parseFloat(bubble.style.top);
+
+                        const distance = Math.sqrt(
+                            Math.pow(newX - bubbleX, 2) + Math.pow(newY - bubbleY, 2)
+                        );
+
+                        if (distance > 50) {
+                            const angle = Math.atan2(newY - bubbleY, newX - bubbleX);
+                            const moveX = Math.cos(angle) * 10;
+                            const moveY = Math.sin(angle) * 10;
+
+                            bubble.style.left = `${bubbleX + moveX}px`;
+                            bubble.style.top = `${bubbleY + moveY}px`;
+                        }
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>
+```
+
+### navegacion
+<small>Creado: 2025-12-22 20:03</small>
+
+`005-navegacion.html`
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memories Recorder</title>
+    <style>
+        :root {
+            --primary-color: #6a5acd;
+            --secondary-color: #9370db;
+            --background-color: #f9f7ff;
+            --bubble-color: #fff;
+            --text-color: #333;
+            --shadow-color: rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            overflow: hidden;
+        }
+
+        .form-container {
+            width: 350px;
+            padding: 25px;
+            background-color: white;
+            box-shadow: 0 4px 15px var(--shadow-color);
+            border-radius: 12px;
+            margin: 20px;
+            overflow-y: auto;
+            max-height: calc(100vh - 40px);
+            z-index: 10;
+        }
+
+        .form-container h2 {
+            color: var(--primary-color);
+            margin-bottom: 20px;
+            font-size: 24px;
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+
+        .form-group textarea,
+        .form-group input[type="text"],
+        .form-group input[type="date"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 14px;
+            box-sizing: border-box;
+            resize: vertical;
+            min-height: 40px;
+        }
+
+        .form-group textarea {
+            min-height: 60px;
+        }
+
+        .record-button {
+            background-color: var(--secondary-color);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 35px;
+            height: 35px;
+            cursor: pointer;
+            font-size: 16px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 10px;
+            transition: background-color 0.3s;
+        }
+
+        .record-button:hover {
+            background-color: var(--primary-color);
+        }
+
+        .form-container button[type="submit"] {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+
+        .form-container button[type="submit"]:hover {
+            background-color: #5a4fbf;
+        }
+
+        .stage {
+            flex: 1;
+            position: relative;
+            background: linear-gradient(135deg, #e6e6fa 0%, #d8bfd8 100%);
+            border-radius: 12px;
+            margin: 20px;
+            overflow: hidden;
+            cursor: grab;
+            transform-origin: 0 0;
+        }
+
+        .bubble {
+            position: absolute;
+            background-color: var(--bubble-color);
+            border-radius: 50%;
+            padding: 15px 20px;
+            box-shadow: 0 4px 10px var(--shadow-color);
+            cursor: pointer;
+            max-width: 200px;
+            word-wrap: break-word;
+            animation: float 8s ease-in-out infinite;
+            border: 1px solid rgba(147, 112, 219, 0.3);
+            font-size: 14px;
+            line-height: 1.4;
+            transition: transform 0.3s;
+            transform-origin: center center;
+            user-select: none;
+        }
+
+        .bubble:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 15px var(--shadow-color);
+            z-index: 100;
+        }
+
+        .bubble strong {
+            color: var(--primary-color);
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .bubble small {
+            color: #666;
+            font-size: 12px;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0) rotate(0deg);
+            }
+            50% {
+                transform: translateY(-15px) rotate(3deg);
+            }
+        }
+
+        .input-with-button {
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Nuevo Recuerdo</h2>
+        <form id="memoryForm">
+            <div class="form-group">
+                <label for="vista">Vista:</label>
+                <div class="input-with-button">
+                    <textarea id="vista" placeholder="Describe lo que viste..."></textarea>
+                    <button type="button" class="record-button" data-target="vista">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="momento">Momento:</label>
+                <input type="date" id="momento">
+            </div>
+
+            <div class="form-group">
+                <label for="oido">Oído:</label>
+                <div class="input-with-button">
+                    <textarea id="oido" placeholder="Describe lo que escuchaste..."></textarea>
+                    <button type="button" class="record-button" data-target="oido">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="sentimos">Sentimos:</label>
+                <div class="input-with-button">
+                    <textarea id="sentimos" placeholder="Describe lo que sentiste..."></textarea>
+                    <button type="button" class="record-button" data-target="sentimos">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="olemos">Olemos:</label>
+                <div class="input-with-button">
+                    <textarea id="olemos" placeholder="Describe lo que oliste..."></textarea>
+                    <button type="button" class="record-button" data-target="olemos">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="sabor">Sabor:</label>
+                <div class="input-with-button">
+                    <textarea id="sabor" placeholder="Describe lo que saboreaste..."></textarea>
+                    <button type="button" class="record-button" data-target="sabor">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="palpamos">Palpamos:</label>
+                <div class="input-with-button">
+                    <textarea id="palpamos" placeholder="Describe lo que tocaste..."></textarea>
+                    <button type="button" class="record-button" data-target="palpamos">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="pensamos">Pensamos:</label>
+                <div class="input-with-button">
+                    <textarea id="pensamos" placeholder="Describe en qué pensaste..."></textarea>
+                    <button type="button" class="record-button" data-target="pensamos">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="ubicacion">Ubicación:</label>
+                <div class="input-with-button">
+                    <input type="text" id="ubicacion" placeholder="¿Dónde estabas?">
+                    <button type="button" class="record-button" data-target="ubicacion">🎤</button>
+                </div>
+            </div>
+
+            <button type="submit">Guardar Recuerdo</button>
+        </form>
+    </div>
+
+    <div class="stage" id="stage">
+        <!-- Las burbujas de recuerdos aparecerán aquí -->
+    </div>
+
+    <script>
+        // Inicializar reconocimiento de voz
+        let recognition;
+        let currentTarget = null;
+
+        if ('webkitSpeechRecognition' in window) {
+            recognition = new webkitSpeechRecognition();
+            recognition.continuous = false;
+            recognition.interimResults = false;
+            recognition.lang = 'es-ES';
+
+            recognition.onresult = (event) => {
+                const transcript = event.results[0][0].transcript;
+                if (currentTarget) {
+                    document.getElementById(currentTarget).value = transcript;
+                }
+            };
+
+            recognition.onerror = (event) => {
+                console.error('Error en grabación:', event.error);
+            };
+        } else {
+            alert('Tu navegador no soporta la grabación de voz.');
+            const recordButtons = document.querySelectorAll('.record-button');
+            recordButtons.forEach(button => {
+                button.style.display = 'none';
+            });
+        }
+
+        // Asignar evento a los botones de grabación
+        const recordButtons = document.querySelectorAll('.record-button');
+        recordButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                currentTarget = button.getAttribute('data-target');
+                if (recognition) {
+                    recognition.start();
+                    button.textContent = '🛑';
+                    recognition.onend = () => {
+                        button.textContent = '🎤';
+                    };
+                }
+            });
+        });
+
+        // Variables para el drag-pan y zoom
+        let isDragging = false;
+        let startX, startY;
+        let translateX = 0, translateY = 0;
+        let scale = 1;
+        const stage = document.getElementById('stage');
+
+        // Función para aplicar transformaciones al escenario
+        function applyTransform() {
+            stage.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
+        }
+
+        // Eventos para arrastrar el escenario
+        stage.addEventListener('mousedown', (e) => {
+            isDragging = true;
+            startX = e.clientX - translateX;
+            startY = e.clientY - translateY;
+            stage.style.cursor = 'grabbing';
+        });
+
+        window.addEventListener('mousemove', (e) => {
+            if (!isDragging) return;
+            translateX = e.clientX - startX;
+            translateY = e.clientY - startY;
+            applyTransform();
+        });
+
+        window.addEventListener('mouseup', () => {
+            isDragging = false;
+            stage.style.cursor = 'grab';
+        });
+
+        // Evento para zoom con la rueda del ratón
+        stage.addEventListener('wheel', (e) => {
+            e.preventDefault();
+            const delta = e.deltaY > 0 ? 0.9 : 1.1;
+            const rect = stage.getBoundingClientRect();
+            const mouseX = e.clientX - rect.left;
+            const mouseY = e.clientY - rect.top;
+
+            // Ajustar el zoom centrado en el cursor
+            const newScale = Math.min(Math.max(scale * delta, 0.5), 2);
+            const scaleFactor = newScale / scale;
+
+            translateX = mouseX - (mouseX - translateX) * scaleFactor;
+            translateY = mouseY - (mouseY - translateY) * scaleFactor;
+            scale = newScale;
+
+            applyTransform();
+        });
+
+        // Crear burbujas de recuerdos
+        const memoryForm = document.getElementById('memoryForm');
+
+        memoryForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+
+            const memory = {
+                vista: document.getElementById('vista').value,
+                momento: document.getElementById('momento').value,
+                oido: document.getElementById('oido').value,
+                sentimos: document.getElementById('sentimos').value,
+                olemos: document.getElementById('olemos').value,
+                sabor: document.getElementById('sabor').value,
+                palpamos: document.getElementById('palpamos').value,
+                pensamos: document.getElementById('pensamos').value,
+                ubicacion: document.getElementById('ubicacion').value,
+            };
+
+            createBubble(memory);
+            memoryForm.reset();
+        });
+
+        function createBubble(memory) {
+            const bubble = document.createElement('div');
+            bubble.className = 'bubble';
+
+            // Posición aleatoria en el escenario
+            const x = Math.random() * (stage.offsetWidth - 200);
+            const y = Math.random() * (stage.offsetHeight - 200);
+            bubble.style.left = `${x}px`;
+            bubble.style.top = `${y}px`;
+
+            // Contenido de la burbuja
+            bubble.innerHTML = `
+                <strong>${memory.ubicacion || 'Sin ubicación'}</strong>
+                <small>${memory.momento || 'Sin fecha'}</small><br>
+                ${memory.vista || ''}
+            `;
+
+            // Agregar al escenario
+            stage.appendChild(bubble);
+
+            // Lógica para agrupar burbujas por palabras clave
+            setTimeout(() => {
+                attractSimilarBubbles(bubble, memory);
+            }, 100);
+        }
+
+        function attractSimilarBubbles(newBubble, newMemory) {
+            const allBubbles = document.querySelectorAll('.bubble');
+            const keywords = [
+                newMemory.vista,
+                newMemory.ubicacion,
+                newMemory.sentimos,
+                newMemory.pensamos
+            ].filter(kw => kw && kw.trim().length > 0);
+
+            allBubbles.forEach(bubble => {
+                if (bubble !== newBubble) {
+                    const bubbleText = bubble.textContent.toLowerCase();
+                    const hasSimilarKeyword = keywords.some(
+                        kw => bubbleText.includes(kw.toLowerCase())
+                    );
+
+                    if (hasSimilarKeyword) {
+                        // Mover burbujas similares más cerca
+                        const newX = parseFloat(newBubble.style.left);
+                        const newY = parseFloat(newBubble.style.top);
+                        const bubbleX = parseFloat(bubble.style.left);
+                        const bubbleY = parseFloat(bubble.style.top);
+
+                        const distance = Math.sqrt(
+                            Math.pow(newX - bubbleX, 2) + Math.pow(newY - bubbleY, 2)
+                        );
+
+                        if (distance > 50) {
+                            const angle = Math.atan2(newY - bubbleY, newX - bubbleX);
+                            const moveX = Math.cos(angle) * 10;
+                            const moveY = Math.sin(angle) * 10;
+
+                            bubble.style.left = `${bubbleX + moveX}px`;
+                            bubble.style.top = `${bubbleY + moveY}px`;
+                        }
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>
+```
+
+### buscador
+<small>Creado: 2025-12-22 20:03</small>
+
+`006-buscador.html`
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memories Recorder</title>
+    <style>
+        :root {
+            --primary-color: #6a5acd;
+            --secondary-color: #9370db;
+            --background-color: #f9f7ff;
+            --bubble-color: #fff;
+            --text-color: #333;
+            --shadow-color: rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            overflow: hidden;
+        }
+
+        .form-container {
+            width: 350px;
+            padding: 25px;
+            background-color: white;
+            box-shadow: 0 4px 15px var(--shadow-color);
+            border-radius: 12px;
+            margin: 20px;
+            overflow-y: auto;
+            max-height: calc(100vh - 40px);
+            z-index: 10;
+        }
+
+        .form-container h2 {
+            color: var(--primary-color);
+            margin-bottom: 20px;
+            font-size: 24px;
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+
+        .form-group textarea,
+        .form-group input[type="text"],
+        .form-group input[type="date"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 14px;
+            box-sizing: border-box;
+            resize: vertical;
+            min-height: 40px;
+        }
+
+        .form-group textarea {
+            min-height: 60px;
+        }
+
+        .record-button {
+            background-color: var(--secondary-color);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 35px;
+            height: 35px;
+            cursor: pointer;
+            font-size: 16px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 10px;
+            transition: background-color 0.3s;
+        }
+
+        .record-button:hover {
+            background-color: var(--primary-color);
+        }
+
+        .form-container button[type="submit"] {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+
+        .form-container button[type="submit"]:hover {
+            background-color: #5a4fbf;
+        }
+
+        .search-container {
+            margin-bottom: 20px;
+        }
+
+        .search-container input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        .stage {
+            flex: 1;
+            position: relative;
+            background: linear-gradient(135deg, #e6e6fa 0%, #d8bfd8 100%);
+            border-radius: 12px;
+            margin: 20px;
+            overflow: hidden;
+            cursor: grab;
+            transform-origin: 0 0;
+        }
+
+        .bubble {
+            position: absolute;
+            background-color: var(--bubble-color);
+            border-radius: 50%;
+            padding: 15px 20px;
+            box-shadow: 0 4px 10px var(--shadow-color);
+            cursor: pointer;
+            max-width: 200px;
+            word-wrap: break-word;
+            animation: float 8s ease-in-out infinite;
+            border: 1px solid rgba(147, 112, 219, 0.3);
+            font-size: 14px;
+            line-height: 1.4;
+            transition: transform 0.3s, border-width 0.3s, border-color 0.3s;
+            transform-origin: center center;
+            user-select: none;
+        }
+
+        .bubble:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 15px var(--shadow-color);
+            z-index: 100;
+        }
+
+        .bubble strong {
+            color: var(--primary-color);
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .bubble small {
+            color: #666;
+            font-size: 12px;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0) rotate(0deg);
+            }
+            50% {
+                transform: translateY(-15px) rotate(3deg);
+            }
+        }
+
+        .input-with-button {
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Nuevo Recuerdo</h2>
+        <form id="memoryForm">
+            <div class="form-group">
+                <label for="vista">Vista:</label>
+                <div class="input-with-button">
+                    <textarea id="vista" placeholder="Describe lo que viste..."></textarea>
+                    <button type="button" class="record-button" data-target="vista">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="momento">Momento:</label>
+                <input type="date" id="momento">
+            </div>
+
+            <div class="form-group">
+                <label for="oido">Oído:</label>
+                <div class="input-with-button">
+                    <textarea id="oido" placeholder="Describe lo que escuchaste..."></textarea>
+                    <button type="button" class="record-button" data-target="oido">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="sentimos">Sentimos:</label>
+                <div class="input-with-button">
+                    <textarea id="sentimos" placeholder="Describe lo que sentiste..."></textarea>
+                    <button type="button" class="record-button" data-target="sentimos">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="olemos">Olemos:</label>
+                <div class="input-with-button">
+                    <textarea id="olemos" placeholder="Describe lo que oliste..."></textarea>
+                    <button type="button" class="record-button" data-target="olemos">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="sabor">Sabor:</label>
+                <div class="input-with-button">
+                    <textarea id="sabor" placeholder="Describe lo que saboreaste..."></textarea>
+                    <button type="button" class="record-button" data-target="sabor">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="palpamos">Palpamos:</label>
+                <div class="input-with-button">
+                    <textarea id="palpamos" placeholder="Describe lo que tocaste..."></textarea>
+                    <button type="button" class="record-button" data-target="palpamos">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="pensamos">Pensamos:</label>
+                <div class="input-with-button">
+                    <textarea id="pensamos" placeholder="Describe en qué pensaste..."></textarea>
+                    <button type="button" class="record-button" data-target="pensamos">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="ubicacion">Ubicación:</label>
+                <div class="input-with-button">
+                    <input type="text" id="ubicacion" placeholder="¿Dónde estabas?">
+                    <button type="button" class="record-button" data-target="ubicacion">🎤</button>
+                </div>
+            </div>
+
+            <button type="submit">Guardar Recuerdo</button>
+        </form>
+
+        <div class="search-container">
+            <label for="search">Buscar en recuerdos:</label>
+            <input type="text" id="search" placeholder="Escribe aquí para buscar...">
+        </div>
+    </div>
+
+    <div class="stage" id="stage">
+        <!-- Las burbujas de recuerdos aparecerán aquí -->
+    </div>
+
+    <script>
+        // Inicializar reconocimiento de voz
+        let recognition;
+        let currentTarget = null;
+
+        if ('webkitSpeechRecognition' in window) {
+            recognition = new webkitSpeechRecognition();
+            recognition.continuous = false;
+            recognition.interimResults = false;
+            recognition.lang = 'es-ES';
+
+            recognition.onresult = (event) => {
+                const transcript = event.results[0][0].transcript;
+                if (currentTarget) {
+                    document.getElementById(currentTarget).value = transcript;
+                }
+            };
+
+            recognition.onerror = (event) => {
+                console.error('Error en grabación:', event.error);
+            };
+        } else {
+            alert('Tu navegador no soporta la grabación de voz.');
+            const recordButtons = document.querySelectorAll('.record-button');
+            recordButtons.forEach(button => {
+                button.style.display = 'none';
+            });
+        }
+
+        // Asignar evento a los botones de grabación
+        const recordButtons = document.querySelectorAll('.record-button');
+        recordButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                currentTarget = button.getAttribute('data-target');
+                if (recognition) {
+                    recognition.start();
+                    button.textContent = '🛑';
+                    recognition.onend = () => {
+                        button.textContent = '🎤';
+                    };
+                }
+            });
+        });
+
+        // Variables para el drag-pan y zoom
+        let isDragging = false;
+        let startX, startY;
+        let translateX = 0, translateY = 0;
+        let scale = 1;
+        const stage = document.getElementById('stage');
+
+        // Función para aplicar transformaciones al escenario
+        function applyTransform() {
+            stage.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
+        }
+
+        // Eventos para arrastrar el escenario
+        stage.addEventListener('mousedown', (e) => {
+            isDragging = true;
+            startX = e.clientX - translateX;
+            startY = e.clientY - translateY;
+            stage.style.cursor = 'grabbing';
+        });
+
+        window.addEventListener('mousemove', (e) => {
+            if (!isDragging) return;
+            translateX = e.clientX - startX;
+            translateY = e.clientY - startY;
+            applyTransform();
+        });
+
+        window.addEventListener('mouseup', () => {
+            isDragging = false;
+            stage.style.cursor = 'grab';
+        });
+
+        // Evento para zoom con la rueda del ratón
+        stage.addEventListener('wheel', (e) => {
+            e.preventDefault();
+            const delta = e.deltaY > 0 ? 0.9 : 1.1;
+            const rect = stage.getBoundingClientRect();
+            const mouseX = e.clientX - rect.left;
+            const mouseY = e.clientY - rect.top;
+
+            // Ajustar el zoom centrado en el cursor
+            const newScale = Math.min(Math.max(scale * delta, 0.5), 2);
+            const scaleFactor = newScale / scale;
+
+            translateX = mouseX - (mouseX - translateX) * scaleFactor;
+            translateY = mouseY - (mouseY - translateY) * scaleFactor;
+            scale = newScale;
+
+            applyTransform();
+        });
+
+        // Crear burbujas de recuerdos
+        const memoryForm = document.getElementById('memoryForm');
+        const searchInput = document.getElementById('search');
+
+        memoryForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+
+            const memory = {
+                vista: document.getElementById('vista').value,
+                momento: document.getElementById('momento').value,
+                oido: document.getElementById('oido').value,
+                sentimos: document.getElementById('sentimos').value,
+                olemos: document.getElementById('olemos').value,
+                sabor: document.getElementById('sabor').value,
+                palpamos: document.getElementById('palpamos').value,
+                pensamos: document.getElementById('pensamos').value,
+                ubicacion: document.getElementById('ubicacion').value,
+            };
+
+            createBubble(memory);
+            memoryForm.reset();
+        });
+
+        function createBubble(memory) {
+            const bubble = document.createElement('div');
+            bubble.className = 'bubble';
+
+            // Posición aleatoria en el escenario
+            const x = Math.random() * (stage.offsetWidth - 200);
+            const y = Math.random() * (stage.offsetHeight - 200);
+            bubble.style.left = `${x}px`;
+            bubble.style.top = `${y}px`;
+
+            // Contenido de la burbuja
+            bubble.innerHTML = `
+                <strong>${memory.ubicacion || 'Sin ubicación'}</strong>
+                <small>${memory.momento || 'Sin fecha'}</small><br>
+                ${memory.vista || ''}
+            `;
+
+            // Guardar los datos del recuerdo en el elemento
+            bubble.dataset.memory = JSON.stringify(memory);
+
+            // Agregar al escenario
+            stage.appendChild(bubble);
+
+            // Lógica para agrupar burbujas por palabras clave
+            setTimeout(() => {
+                attractSimilarBubbles(bubble, memory);
+            }, 100);
+        }
+
+        function attractSimilarBubbles(newBubble, newMemory) {
+            const allBubbles = document.querySelectorAll('.bubble');
+            const keywords = [
+                newMemory.vista,
+                newMemory.ubicacion,
+                newMemory.sentimos,
+                newMemory.pensamos
+            ].filter(kw => kw && kw.trim().length > 0);
+
+            allBubbles.forEach(bubble => {
+                if (bubble !== newBubble) {
+                    const bubbleText = bubble.textContent.toLowerCase();
+                    const hasSimilarKeyword = keywords.some(
+                        kw => bubbleText.includes(kw.toLowerCase())
+                    );
+
+                    if (hasSimilarKeyword) {
+                        // Mover burbujas similares más cerca
+                        const newX = parseFloat(newBubble.style.left);
+                        const newY = parseFloat(newBubble.style.top);
+                        const bubbleX = parseFloat(bubble.style.left);
+                        const bubbleY = parseFloat(bubble.style.top);
+
+                        const distance = Math.sqrt(
+                            Math.pow(newX - bubbleX, 2) + Math.pow(newY - bubbleY, 2)
+                        );
+
+                        if (distance > 50) {
+                            const angle = Math.atan2(newY - bubbleY, newX - bubbleX);
+                            const moveX = Math.cos(angle) * 10;
+                            const moveY = Math.sin(angle) * 10;
+
+                            bubble.style.left = `${bubbleX + moveX}px`;
+                            bubble.style.top = `${bubbleY + moveY}px`;
+                        }
+                    }
+                }
+            });
+        }
+
+        // Función para buscar y resaltar coincidencias
+        searchInput.addEventListener('input', () => {
+            const searchTerm = searchInput.value.toLowerCase().trim();
+            const allBubbles = document.querySelectorAll('.bubble');
+
+            allBubbles.forEach(bubble => {
+                const memory = JSON.parse(bubble.dataset.memory);
+                const memoryText = Object.values(memory).join(' ').toLowerCase();
+
+                if (searchTerm === '') {
+                    bubble.style.borderWidth = '1px';
+                    bubble.style.borderColor = 'rgba(147, 112, 219, 0.3)';
+                    return;
+                }
+
+                const matches = searchTerm.split(' ').filter(term => term.length > 0);
+                let matchCount = 0;
+
+                matches.forEach(term => {
+                    if (memoryText.includes(term)) {
+                        matchCount++;
+                    }
+                });
+
+                if (matchCount > 0) {
+                    const borderWidth = 1 + (matchCount * 2); // Aumentar grosor según coincidencias
+                    const borderColorIntensity = Math.min(100, matchCount * 20); // Aumentar intensidad del color
+                    bubble.style.borderWidth = `${borderWidth}px`;
+                    bubble.style.borderColor = `rgba(147, 112, 219, ${0.3 + (matchCount * 0.1)})`;
+                } else {
+                    bubble.style.borderWidth = '1px';
+                    bubble.style.borderColor = 'rgba(147, 112, 219, 0.3)';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+```
+
+### burbujas
+<small>Creado: 2025-12-22 20:03</small>
+
+`007-burbujas.html`
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memories Recorder</title>
+    <style>
+        :root {
+            --primary-color: #6a5acd;
+            --secondary-color: #9370db;
+            --background-color: #f9f7ff;
+            --bubble-color: #fff;
+            --text-color: #333;
+            --shadow-color: rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            overflow: hidden;
+        }
+
+        .form-container {
+            width: 350px;
+            padding: 25px;
+            background-color: white;
+            box-shadow: 0 4px 15px var(--shadow-color);
+            border-radius: 12px;
+            margin: 20px;
+            overflow-y: auto;
+            max-height: calc(100vh - 40px);
+            z-index: 10;
+        }
+
+        .form-container h2 {
+            color: var(--primary-color);
+            margin-bottom: 20px;
+            font-size: 24px;
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+
+        .form-group textarea,
+        .form-group input[type="text"],
+        .form-group input[type="date"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 14px;
+            box-sizing: border-box;
+            resize: vertical;
+            min-height: 40px;
+        }
+
+        .form-group textarea {
+            min-height: 60px;
+        }
+
+        .record-button {
+            background-color: var(--secondary-color);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 35px;
+            height: 35px;
+            cursor: pointer;
+            font-size: 16px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 10px;
+            transition: background-color 0.3s;
+        }
+
+        .record-button:hover {
+            background-color: var(--primary-color);
+        }
+
+        .form-container button[type="submit"] {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+
+        .form-container button[type="submit"]:hover {
+            background-color: #5a4fbf;
+        }
+
+        .search-container {
+            margin-bottom: 20px;
+        }
+
+        .search-container input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        .stage {
+            flex: 1;
+            position: relative;
+            background: linear-gradient(135deg, #e6e6fa 0%, #d8bfd8 100%);
+            border-radius: 12px;
+            margin: 20px;
+            overflow: hidden;
+            cursor: grab;
+            transform-origin: 0 0;
+        }
+
+        .bubble {
+            position: absolute;
+            background-color: var(--bubble-color);
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            box-shadow: 0 4px 10px var(--shadow-color);
+            cursor: pointer;
+            animation: float 8s ease-in-out infinite;
+            border: 1px solid rgba(147, 112, 219, 0.3);
+            transition: transform 0.3s, border-width 0.3s, border-color 0.3s;
+            transform-origin: center center;
+            user-select: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+
+        .bubble:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 15px var(--shadow-color);
+            z-index: 100;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0) rotate(0deg);
+            }
+            50% {
+                transform: translateY(-15px) rotate(5deg);
+            }
+        }
+
+        .input-with-button {
+            display: flex;
+            align-items: center;
+        }
+
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            overflow: auto;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-content {
+            background-color: white;
+            margin: auto;
+            padding: 20px;
+            border-radius: 12px;
+            width: 80%;
+            max-width: 500px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .modal-header h3 {
+            margin: 0;
+            color: var(--primary-color);
+        }
+
+        .close-button {
+            background: none;
+            border: none;
+            font-size: 20px;
+            cursor: pointer;
+            color: #aaa;
+        }
+
+        .close-button:hover {
+            color: var(--text-color);
+        }
+
+        .modal-body {
+            margin-bottom: 15px;
+        }
+
+        .modal-body p {
+            margin: 8px 0;
+        }
+
+        .modal-body strong {
+            color: var(--primary-color);
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Nuevo Recuerdo</h2>
+        <form id="memoryForm">
+            <div class="form-group">
+                <label for="vista">Vista:</label>
+                <div class="input-with-button">
+                    <textarea id="vista" placeholder="Describe lo que viste..."></textarea>
+                    <button type="button" class="record-button" data-target="vista">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="momento">Momento:</label>
+                <input type="date" id="momento">
+            </div>
+
+            <div class="form-group">
+                <label for="oido">Oído:</label>
+                <div class="input-with-button">
+                    <textarea id="oido" placeholder="Describe lo que escuchaste..."></textarea>
+                    <button type="button" class="record-button" data-target="oido">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="sentimos">Sentimos:</label>
+                <div class="input-with-button">
+                    <textarea id="sentimos" placeholder="Describe lo que sentiste..."></textarea>
+                    <button type="button" class="record-button" data-target="sentimos">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="olemos">Olemos:</label>
+                <div class="input-with-button">
+                    <textarea id="olemos" placeholder="Describe lo que oliste..."></textarea>
+                    <button type="button" class="record-button" data-target="olemos">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="sabor">Sabor:</label>
+                <div class="input-with-button">
+                    <textarea id="sabor" placeholder="Describe lo que saboreaste..."></textarea>
+                    <button type="button" class="record-button" data-target="sabor">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="palpamos">Palpamos:</label>
+                <div class="input-with-button">
+                    <textarea id="palpamos" placeholder="Describe lo que tocaste..."></textarea>
+                    <button type="button" class="record-button" data-target="palpamos">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="pensamos">Pensamos:</label>
+                <div class="input-with-button">
+                    <textarea id="pensamos" placeholder="Describe en qué pensaste..."></textarea>
+                    <button type="button" class="record-button" data-target="pensamos">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="ubicacion">Ubicación:</label>
+                <div class="input-with-button">
+                    <input type="text" id="ubicacion" placeholder="¿Dónde estabas?">
+                    <button type="button" class="record-button" data-target="ubicacion">🎤</button>
+                </div>
+            </div>
+
+            <button type="submit">Guardar Recuerdo</button>
+        </form>
+
+        <div class="search-container">
+            <label for="search">Buscar en recuerdos:</label>
+            <input type="text" id="search" placeholder="Escribe aquí para buscar...">
+        </div>
+    </div>
+
+    <div class="stage" id="stage">
+        <!-- Las burbujas de recuerdos aparecerán aquí -->
+    </div>
+
+    <!-- Modal -->
+    <div id="memoryModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Detalles del Recuerdo</h3>
+                <button class="close-button" id="closeModal">&times;</button>
+            </div>
+            <div class="modal-body" id="modalContent">
+                <!-- El contenido del recuerdo se mostrará aquí -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Inicializar reconocimiento de voz
+        let recognition;
+        let currentTarget = null;
+
+        if ('webkitSpeechRecognition' in window) {
+            recognition = new webkitSpeechRecognition();
+            recognition.continuous = false;
+            recognition.interimResults = false;
+            recognition.lang = 'es-ES';
+
+            recognition.onresult = (event) => {
+                const transcript = event.results[0][0].transcript;
+                if (currentTarget) {
+                    document.getElementById(currentTarget).value = transcript;
+                }
+            };
+
+            recognition.onerror = (event) => {
+                console.error('Error en grabación:', event.error);
+            };
+        } else {
+            alert('Tu navegador no soporta la grabación de voz.');
+            const recordButtons = document.querySelectorAll('.record-button');
+            recordButtons.forEach(button => {
+                button.style.display = 'none';
+            });
+        }
+
+        // Asignar evento a los botones de grabación
+        const recordButtons = document.querySelectorAll('.record-button');
+        recordButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                currentTarget = button.getAttribute('data-target');
+                if (recognition) {
+                    recognition.start();
+                    button.textContent = '🛑';
+                    recognition.onend = () => {
+                        button.textContent = '🎤';
+                    };
+                }
+            });
+        });
+
+        // Variables para el drag-pan y zoom
+        let isDragging = false;
+        let startX, startY;
+        let translateX = 0, translateY = 0;
+        let scale = 1;
+        const stage = document.getElementById('stage');
+
+        // Función para aplicar transformaciones al escenario
+        function applyTransform() {
+            stage.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
+        }
+
+        // Eventos para arrastrar el escenario
+        stage.addEventListener('mousedown', (e) => {
+            isDragging = true;
+            startX = e.clientX - translateX;
+            startY = e.clientY - translateY;
+            stage.style.cursor = 'grabbing';
+        });
+
+        window.addEventListener('mousemove', (e) => {
+            if (!isDragging) return;
+            translateX = e.clientX - startX;
+            translateY = e.clientY - startY;
+            applyTransform();
+        });
+
+        window.addEventListener('mouseup', () => {
+            isDragging = false;
+            stage.style.cursor = 'grab';
+        });
+
+        // Evento para zoom con la rueda del ratón
+        stage.addEventListener('wheel', (e) => {
+            e.preventDefault();
+            const delta = e.deltaY > 0 ? 0.9 : 1.1;
+            const rect = stage.getBoundingClientRect();
+            const mouseX = e.clientX - rect.left;
+            const mouseY = e.clientY - rect.top;
+
+            // Ajustar el zoom centrado en el cursor
+            const newScale = Math.min(Math.max(scale * delta, 0.5), 2);
+            const scaleFactor = newScale / scale;
+
+            translateX = mouseX - (mouseX - translateX) * scaleFactor;
+            translateY = mouseY - (mouseY - translateY) * scaleFactor;
+            scale = newScale;
+
+            applyTransform();
+        });
+
+        // Crear burbujas de recuerdos
+        const memoryForm = document.getElementById('memoryForm');
+        const searchInput = document.getElementById('search');
+        const modal = document.getElementById('memoryModal');
+        const modalContent = document.getElementById('modalContent');
+        const closeModal = document.getElementById('closeModal');
+
+        memoryForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+
+            const memory = {
+                vista: document.getElementById('vista').value,
+                momento: document.getElementById('momento').value,
+                oido: document.getElementById('oido').value,
+                sentimos: document.getElementById('sentimos').value,
+                olemos: document.getElementById('olemos').value,
+                sabor: document.getElementById('sabor').value,
+                palpamos: document.getElementById('palpamos').value,
+                pensamos: document.getElementById('pensamos').value,
+                ubicacion: document.getElementById('ubicacion').value,
+            };
+
+            createBubble(memory);
+            memoryForm.reset();
+        });
+
+        function createBubble(memory) {
+            const bubble = document.createElement('div');
+            bubble.className = 'bubble';
+
+            // Posición aleatoria en el escenario
+            const x = Math.random() * (stage.offsetWidth - 100);
+            const y = Math.random() * (stage.offsetHeight - 100);
+            bubble.style.left = `${x}px`;
+            bubble.style.top = `${y}px`;
+
+            // Guardar los datos del recuerdo en el elemento
+            bubble.dataset.memory = JSON.stringify(memory);
+
+            // Icono o emoji dentro de la burbuja
+            bubble.textContent = '💭';
+
+            // Agregar al escenario
+            stage.appendChild(bubble);
+
+            // Evento para abrir el modal al hacer clic en la burbuja
+            bubble.addEventListener('click', () => {
+                showMemoryModal(memory);
+            });
+
+            // Lógica para agrupar burbujas por palabras clave
+            setTimeout(() => {
+                attractSimilarBubbles(bubble, memory);
+            }, 100);
+        }
+
+        function showMemoryModal(memory) {
+            modalContent.innerHTML = `
+                <p><strong>Ubicación:</strong> ${memory.ubicacion || 'Sin ubicación'}</p>
+                <p><strong>Momento:</strong> ${memory.momento || 'Sin fecha'}</p>
+                <p><strong>Vista:</strong> ${memory.vista || 'Nada'}</p>
+                <p><strong>Oído:</strong> ${memory.oido || 'Nada'}</p>
+                <p><strong>Sentimos:</strong> ${memory.sentimos || 'Nada'}</p>
+                <p><strong>Olemos:</strong> ${memory.olemos || 'Nada'}</p>
+                <p><strong>Sabor:</strong> ${memory.sabor || 'Nada'}</p>
+                <p><strong>Palpamos:</strong> ${memory.palpamos || 'Nada'}</p>
+                <p><strong>Pensamos:</strong> ${memory.pensamos || 'Nada'}</p>
+            `;
+            modal.style.display = 'flex';
+        }
+
+        closeModal.addEventListener('click', () => {
+            modal.style.display = 'none';
+        });
+
+        window.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                modal.style.display = 'none';
+            }
+        });
+
+        function attractSimilarBubbles(newBubble, newMemory) {
+            const allBubbles = document.querySelectorAll('.bubble');
+            const keywords = [
+                newMemory.vista,
+                newMemory.ubicacion,
+                newMemory.sentimos,
+                newMemory.pensamos
+            ].filter(kw => kw && kw.trim().length > 0);
+
+            allBubbles.forEach(bubble => {
+                if (bubble !== newBubble) {
+                    const bubbleMemory = JSON.parse(bubble.dataset.memory);
+                    const bubbleText = Object.values(bubbleMemory).join(' ').toLowerCase();
+                    const hasSimilarKeyword = keywords.some(
+                        kw => bubbleText.includes(kw.toLowerCase())
+                    );
+
+                    if (hasSimilarKeyword) {
+                        // Mover burbujas similares más cerca
+                        const newX = parseFloat(newBubble.style.left);
+                        const newY = parseFloat(newBubble.style.top);
+                        const bubbleX = parseFloat(bubble.style.left);
+                        const bubbleY = parseFloat(bubble.style.top);
+
+                        const distance = Math.sqrt(
+                            Math.pow(newX - bubbleX, 2) + Math.pow(newY - bubbleY, 2)
+                        );
+
+                        if (distance > 50) {
+                            const angle = Math.atan2(newY - bubbleY, newX - bubbleX);
+                            const moveX = Math.cos(angle) * 10;
+                            const moveY = Math.sin(angle) * 10;
+
+                            bubble.style.left = `${bubbleX + moveX}px`;
+                            bubble.style.top = `${bubbleY + moveY}px`;
+                        }
+                    }
+                }
+            });
+        }
+
+        // Función para buscar y resaltar coincidencias
+        searchInput.addEventListener('input', () => {
+            const searchTerm = searchInput.value.toLowerCase().trim();
+            const allBubbles = document.querySelectorAll('.bubble');
+
+            allBubbles.forEach(bubble => {
+                const memory = JSON.parse(bubble.dataset.memory);
+                const memoryText = Object.values(memory).join(' ').toLowerCase();
+
+                if (searchTerm === '') {
+                    bubble.style.borderWidth = '1px';
+                    bubble.style.borderColor = 'rgba(147, 112, 219, 0.3)';
+                    return;
+                }
+
+                const matches = searchTerm.split(' ').filter(term => term.length > 0);
+                let matchCount = 0;
+
+                matches.forEach(term => {
+                    if (memoryText.includes(term)) {
+                        matchCount++;
+                    }
+                });
+
+                if (matchCount > 0) {
+                    const borderWidth = 1 + (matchCount * 1.5); // Aumentar grosor según coincidencias
+                    const borderColorIntensity = Math.min(1, 0.3 + (matchCount * 0.1)); // Aumentar intensidad del color
+                    bubble.style.borderWidth = `${borderWidth}px`;
+                    bubble.style.borderColor = `rgba(147, 112, 219, ${borderColorIntensity})`;
+                } else {
+                    bubble.style.borderWidth = '1px';
+                    bubble.style.borderColor = 'rgba(147, 112, 219, 0.3)';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+```
+
+### guardar
+<small>Creado: 2025-12-22 20:03</small>
+
+`008-guardar.html`
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memories Recorder</title>
+    <style>
+        :root {
+            --primary-color: #6a5acd;
+            --secondary-color: #9370db;
+            --background-color: #f9f7ff;
+            --bubble-color: #fff;
+            --text-color: #333;
+            --shadow-color: rgba(0, 0, 0, 0.1);
+            --highlight-color: #ffeb3b; /* Amarillo visible */
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            overflow: hidden;
+        }
+
+        .form-container {
+            width: 350px;
+            padding: 25px;
+            background-color: white;
+            box-shadow: 0 4px 15px var(--shadow-color);
+            border-radius: 12px;
+            margin: 20px;
+            overflow-y: auto;
+            max-height: calc(100vh - 40px);
+            z-index: 10;
+        }
+
+        .form-container h2 {
+            color: var(--primary-color);
+            margin-bottom: 20px;
+            font-size: 24px;
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+
+        .form-group textarea,
+        .form-group input[type="text"],
+        .form-group input[type="date"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 14px;
+            box-sizing: border-box;
+            resize: vertical;
+            min-height: 40px;
+        }
+
+        .form-group textarea {
+            min-height: 60px;
+        }
+
+        .record-button {
+            background-color: var(--secondary-color);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 35px;
+            height: 35px;
+            cursor: pointer;
+            font-size: 16px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 10px;
+            transition: background-color 0.3s;
+        }
+
+        .record-button:hover {
+            background-color: var(--primary-color);
+        }
+
+        .form-container button[type="submit"] {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+
+        .form-container button[type="submit"]:hover {
+            background-color: #5a4fbf;
+        }
+
+        .search-container {
+            margin-bottom: 20px;
+        }
+
+        .search-container input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        .stage {
+            flex: 1;
+            position: relative;
+            background: linear-gradient(135deg, #e6e6fa 0%, #d8bfd8 100%);
+            border-radius: 12px;
+            margin: 20px;
+            overflow: hidden;
+            cursor: grab;
+            transform-origin: 0 0;
+        }
+
+        .bubble {
+            position: absolute;
+            background-color: var(--bubble-color);
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            box-shadow: 0 4px 10px var(--shadow-color);
+            cursor: pointer;
+            animation: float 8s ease-in-out infinite;
+            border: 1px solid rgba(147, 112, 219, 0.3);
+            transition: transform 0.3s, border-width 0.3s, border-color 0.3s;
+            transform-origin: center center;
+            user-select: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+
+        .bubble:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 15px var(--shadow-color);
+            z-index: 100;
+        }
+
+        .bubble.highlight {
+            border-color: var(--highlight-color);
+            border-width: 3px;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0) rotate(0deg);
+            }
+            50% {
+                transform: translateY(-15px) rotate(5deg);
+            }
+        }
+
+        .input-with-button {
+            display: flex;
+            align-items: center;
+        }
+
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            overflow: auto;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-content {
+            background-color: white;
+            margin: auto;
+            padding: 20px;
+            border-radius: 12px;
+            width: 80%;
+            max-width: 500px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .modal-header h3 {
+            margin: 0;
+            color: var(--primary-color);
+        }
+
+        .close-button {
+            background: none;
+            border: none;
+            font-size: 20px;
+            cursor: pointer;
+            color: #aaa;
+        }
+
+        .close-button:hover {
+            color: var(--text-color);
+        }
+
+        .modal-body {
+            margin-bottom: 15px;
+        }
+
+        .modal-body p {
+            margin: 8px 0;
+        }
+
+        .modal-body strong {
+            color: var(--primary-color);
+        }
+
+        /* Líneas entre burbujas */
+        .connection-line {
+            position: absolute;
+            background-color: rgba(147, 112, 219, 0.5);
+            height: 2px;
+            transform-origin: 0 0;
+            z-index: -1;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Nuevo Recuerdo</h2>
+        <form id="memoryForm">
+            <div class="form-group">
+                <label for="vista">Vista:</label>
+                <div class="input-with-button">
+                    <textarea id="vista" placeholder="Describe lo que viste..."></textarea>
+                    <button type="button" class="record-button" data-target="vista">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="momento">Momento:</label>
+                <input type="date" id="momento">
+            </div>
+
+            <div class="form-group">
+                <label for="oido">Oído:</label>
+                <div class="input-with-button">
+                    <textarea id="oido" placeholder="Describe lo que escuchaste..."></textarea>
+                    <button type="button" class="record-button" data-target="oido">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="sentimos">Sentimos:</label>
+                <div class="input-with-button">
+                    <textarea id="sentimos" placeholder="Describe lo que sentiste..."></textarea>
+                    <button type="button" class="record-button" data-target="sentimos">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="olemos">Olemos:</label>
+                <div class="input-with-button">
+                    <textarea id="olemos" placeholder="Describe lo que oliste..."></textarea>
+                    <button type="button" class="record-button" data-target="olemos">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="sabor">Sabor:</label>
+                <div class="input-with-button">
+                    <textarea id="sabor" placeholder="Describe lo que saboreaste..."></textarea>
+                    <button type="button" class="record-button" data-target="sabor">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="palpamos">Palpamos:</label>
+                <div class="input-with-button">
+                    <textarea id="palpamos" placeholder="Describe lo que tocaste..."></textarea>
+                    <button type="button" class="record-button" data-target="palpamos">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="pensamos">Pensamos:</label>
+                <div class="input-with-button">
+                    <textarea id="pensamos" placeholder="Describe en qué pensaste..."></textarea>
+                    <button type="button" class="record-button" data-target="pensamos">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="ubicacion">Ubicación:</label>
+                <div class="input-with-button">
+                    <input type="text" id="ubicacion" placeholder="¿Dónde estabas?">
+                    <button type="button" class="record-button" data-target="ubicacion">🎤</button>
+                </div>
+            </div>
+
+            <button type="submit">Guardar Recuerdo</button>
+        </form>
+
+        <div class="search-container">
+            <label for="search">Buscar en recuerdos:</label>
+            <input type="text" id="search" placeholder="Escribe aquí para buscar...">
+        </div>
+    </div>
+
+    <div class="stage" id="stage">
+        <!-- Las burbujas de recuerdos aparecerán aquí -->
+    </div>
+
+    <!-- Modal -->
+    <div id="memoryModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Detalles del Recuerdo</h3>
+                <button class="close-button" id="closeModal">&times;</button>
+            </div>
+            <div class="modal-body" id="modalContent">
+                <!-- El contenido del recuerdo se mostrará aquí -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Inicializar reconocimiento de voz
+        let recognition;
+        let currentTarget = null;
+
+        if ('webkitSpeechRecognition' in window) {
+            recognition = new webkitSpeechRecognition();
+            recognition.continuous = false;
+            recognition.interimResults = false;
+            recognition.lang = 'es-ES';
+
+            recognition.onresult = (event) => {
+                const transcript = event.results[0][0].transcript;
+                if (currentTarget) {
+                    document.getElementById(currentTarget).value = transcript;
+                }
+            };
+
+            recognition.onerror = (event) => {
+                console.error('Error en grabación:', event.error);
+            };
+        } else {
+            alert('Tu navegador no soporta la grabación de voz.');
+            const recordButtons = document.querySelectorAll('.record-button');
+            recordButtons.forEach(button => {
+                button.style.display = 'none';
+            });
+        }
+
+        // Asignar evento a los botones de grabación
+        const recordButtons = document.querySelectorAll('.record-button');
+        recordButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                currentTarget = button.getAttribute('data-target');
+                if (recognition) {
+                    recognition.start();
+                    button.textContent = '🛑';
+                    recognition.onend = () => {
+                        button.textContent = '🎤';
+                    };
+                }
+            });
+        });
+
+        // Variables para el drag-pan y zoom
+        let isDragging = false;
+        let startX, startY;
+        let translateX = 0, translateY = 0;
+        let scale = 1;
+        const stage = document.getElementById('stage');
+
+        // Función para aplicar transformaciones al escenario
+        function applyTransform() {
+            stage.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
+        }
+
+        // Eventos para arrastrar el escenario
+        stage.addEventListener('mousedown', (e) => {
+            isDragging = true;
+            startX = e.clientX - translateX;
+            startY = e.clientY - translateY;
+            stage.style.cursor = 'grabbing';
+        });
+
+        window.addEventListener('mousemove', (e) => {
+            if (!isDragging) return;
+            translateX = e.clientX - startX;
+            translateY = e.clientY - startY;
+            applyTransform();
+        });
+
+        window.addEventListener('mouseup', () => {
+            isDragging = false;
+            stage.style.cursor = 'grab';
+        });
+
+        // Evento para zoom con la rueda del ratón
+        stage.addEventListener('wheel', (e) => {
+            e.preventDefault();
+            const delta = e.deltaY > 0 ? 0.9 : 1.1;
+            const rect = stage.getBoundingClientRect();
+            const mouseX = e.clientX - rect.left;
+            const mouseY = e.clientY - rect.top;
+
+            // Ajustar el zoom centrado en el cursor
+            const newScale = Math.min(Math.max(scale * delta, 0.5), 2);
+            const scaleFactor = newScale / scale;
+
+            translateX = mouseX - (mouseX - translateX) * scaleFactor;
+            translateY = mouseY - (mouseY - translateY) * scaleFactor;
+            scale = newScale;
+
+            applyTransform();
+        });
+
+        // Crear burbujas de recuerdos
+        const memoryForm = document.getElementById('memoryForm');
+        const searchInput = document.getElementById('search');
+        const modal = document.getElementById('memoryModal');
+        const modalContent = document.getElementById('modalContent');
+        const closeModal = document.getElementById('closeModal');
+
+        // Cargar recuerdos al iniciar
+        document.addEventListener('DOMContentLoaded', loadMemories);
+
+        function loadMemories() {
+            fetch('save_memories.php')
+                .then(response => response.json())
+                .then(memories => {
+                    memories.forEach(memory => {
+                        createBubble(memory);
+                    });
+                    updateConnections();
+                })
+                .catch(error => console.error('Error al cargar recuerdos:', error));
+        }
+
+        memoryForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+
+            const memory = {
+                vista: document.getElementById('vista').value,
+                momento: document.getElementById('momento').value,
+                oido: document.getElementById('oido').value,
+                sentimos: document.getElementById('sentimos').value,
+                olemos: document.getElementById('olemos').value,
+                sabor: document.getElementById('sabor').value,
+                palpamos: document.getElementById('palpamos').value,
+                pensamos: document.getElementById('pensamos').value,
+                ubicacion: document.getElementById('ubicacion').value,
+            };
+
+            // Guardar el recuerdo en el servidor
+            fetch('save_memories.php', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(memory),
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    createBubble(memory);
+                    memoryForm.reset();
+                    updateConnections();
+                }
+            })
+            .catch(error => console.error('Error al guardar el recuerdo:', error));
+        });
+
+        function createBubble(memory) {
+            const bubble = document.createElement('div');
+            bubble.className = 'bubble';
+
+            // Posición aleatoria en el escenario
+            const x = Math.random() * (stage.offsetWidth - 100);
+            const y = Math.random() * (stage.offsetHeight - 100);
+            bubble.style.left = `${x}px`;
+            bubble.style.top = `${y}px`;
+
+            // Guardar los datos del recuerdo en el elemento
+            bubble.dataset.memory = JSON.stringify(memory);
+            bubble.dataset.id = Date.now(); // ID único para cada burbuja
+
+            // Icono dentro de la burbuja
+            bubble.textContent = '💭';
+
+            // Agregar al escenario
+            stage.appendChild(bubble);
+
+            // Evento para abrir el modal al hacer clic en la burbuja
+            bubble.addEventListener('click', () => {
+                showMemoryModal(memory);
+            });
+
+            return bubble;
+        }
+
+        function showMemoryModal(memory) {
+            modalContent.innerHTML = `
+                <p><strong>Ubicación:</strong> ${memory.ubicacion || 'Sin ubicación'}</p>
+                <p><strong>Momento:</strong> ${memory.momento || 'Sin fecha'}</p>
+                <p><strong>Vista:</strong> ${memory.vista || 'Nada'}</p>
+                <p><strong>Oído:</strong> ${memory.oido || 'Nada'}</p>
+                <p><strong>Sentimos:</strong> ${memory.sentimos || 'Nada'}</p>
+                <p><strong>Olemos:</strong> ${memory.olemos || 'Nada'}</p>
+                <p><strong>Sabor:</strong> ${memory.sabor || 'Nada'}</p>
+                <p><strong>Palpamos:</strong> ${memory.palpamos || 'Nada'}</p>
+                <p><strong>Pensamos:</strong> ${memory.pensamos || 'Nada'}</p>
+            `;
+            modal.style.display = 'flex';
+        }
+
+        closeModal.addEventListener('click', () => {
+            modal.style.display = 'none';
+        });
+
+        window.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                modal.style.display = 'none';
+            }
+        });
+
+        // Función para buscar y resaltar coincidencias
+        searchInput.addEventListener('input', () => {
+            const searchTerm = searchInput.value.toLowerCase().trim();
+            const allBubbles = document.querySelectorAll('.bubble');
+
+            allBubbles.forEach(bubble => {
+                const memory = JSON.parse(bubble.dataset.memory);
+                const memoryText = Object.values(memory).join(' ').toLowerCase();
+
+                if (searchTerm === '') {
+                    bubble.classList.remove('highlight');
+                    bubble.style.borderWidth = '1px';
+                    bubble.style.borderColor = 'rgba(147, 112, 219, 0.3)';
+                    return;
+                }
+
+                const matches = searchTerm.split(' ').filter(term => term.length > 0);
+                let matchCount = 0;
+
+                matches.forEach(term => {
+                    if (memoryText.includes(term)) {
+                        matchCount++;
+                    }
+                });
+
+                if (matchCount > 0) {
+                    bubble.classList.add('highlight');
+                    const borderWidth = 1 + (matchCount * 1.5);
+                    bubble.style.borderWidth = `${borderWidth}px`;
+                } else {
+                    bubble.classList.remove('highlight');
+                    bubble.style.borderWidth = '1px';
+                    bubble.style.borderColor = 'rgba(147, 112, 219, 0.3)';
+                }
+            });
+        });
+
+        // Función para conectar burbujas con líneas
+        function updateConnections() {
+            const allBubbles = document.querySelectorAll('.bubble');
+            const connections = [];
+
+            // Eliminar líneas existentes
+            document.querySelectorAll('.connection-line').forEach(line => line.remove());
+
+            // Comparar cada par de burbujas
+            allBubbles.forEach((bubble1, index1) => {
+                const memory1 = JSON.parse(bubble1.dataset.memory);
+                const keywords1 = [
+                    memory1.vista,
+                    memory1.ubicacion,
+                    memory1.sentimos,
+                    memory1.pensamos
+                ].filter(kw => kw && kw.trim().length > 0);
+
+                allBubbles.forEach((bubble2, index2) => {
+                    if (index1 >= index2) return; // Evitar duplicados
+
+                    const memory2 = JSON.parse(bubble2.dataset.memory);
+                    const keywords2 = [
+                        memory2.vista,
+                        memory2.ubicacion,
+                        memory2.sentimos,
+                        memory2.pensamos
+                    ].filter(kw => kw && kw.trim().length > 0);
+
+                    // Contar palabras clave compartidas
+                    let sharedKeywords = 0;
+                    keywords1.forEach(kw1 => {
+                        if (keywords2.some(kw2 => kw1.toLowerCase() === kw2.toLowerCase())) {
+                            sharedKeywords++;
+                        }
+                    });
+
+                    if (sharedKeywords > 0) {
+                        connections.push({
+                            bubble1,
+                            bubble2,
+                            sharedKeywords,
+                        });
+                    }
+                });
+            });
+
+            // Dibujar líneas entre burbujas conectadas
+            connections.forEach(conn => {
+                const line = document.createElement('div');
+                line.className = 'connection-line';
+
+                const rect1 = conn.bubble1.getBoundingClientRect();
+                const rect2 = conn.bubble2.getBoundingClientRect();
+
+                const x1 = rect1.left + rect1.width / 2;
+                const y1 = rect1.top + rect1.height / 2;
+                const x2 = rect2.left + rect2.width / 2;
+                const y2 = rect2.top + rect2.height / 2;
+
+                const length = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+                const angle = Math.atan2(y2 - y1, x2 - x1) * (180 / Math.PI);
+
+                line.style.width = `${length}px`;
+                line.style.left = `${x1}px`;
+                line.style.top = `${y1}px`;
+                line.style.transform = `rotate(${angle}deg)`;
+                line.style.height = `${2 + conn.sharedKeywords * 1.5}px`; // Grosor según palabras compartidas
+                line.style.backgroundColor = `rgba(147, 112, 219, ${0.3 + conn.sharedKeywords * 0.1})`;
+
+                stage.appendChild(line);
+            });
+        }
+    </script>
+</body>
+</html>
+```
+
+### lineas
+<small>Creado: 2025-12-22 20:03</small>
+
+`009-lineas.html`
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memories Recorder</title>
+    <style>
+        :root {
+            --primary-color: #6a5acd;
+            --secondary-color: #9370db;
+            --background-color: #f9f7ff;
+            --bubble-color: #fff;
+            --text-color: #333;
+            --shadow-color: rgba(0, 0, 0, 0.1);
+            --highlight-color: #ffeb3b;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            overflow: hidden;
+        }
+
+        .form-container {
+            width: 350px;
+            padding: 25px;
+            background-color: white;
+            box-shadow: 0 4px 15px var(--shadow-color);
+            border-radius: 12px;
+            margin: 20px;
+            overflow-y: auto;
+            max-height: calc(100vh - 40px);
+            z-index: 10;
+        }
+
+        .form-container h2 {
+            color: var(--primary-color);
+            margin-bottom: 20px;
+            font-size: 24px;
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+
+        .form-group textarea,
+        .form-group input[type="text"],
+        .form-group input[type="date"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 14px;
+            box-sizing: border-box;
+            resize: vertical;
+            min-height: 40px;
+        }
+
+        .form-group textarea {
+            min-height: 60px;
+        }
+
+        .record-button {
+            background-color: var(--secondary-color);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 35px;
+            height: 35px;
+            cursor: pointer;
+            font-size: 16px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 10px;
+            transition: background-color 0.3s;
+        }
+
+        .record-button:hover {
+            background-color: var(--primary-color);
+        }
+
+        .form-container button[type="submit"] {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+
+        .form-container button[type="submit"]:hover {
+            background-color: #5a4fbf;
+        }
+
+        .search-container {
+            margin-bottom: 20px;
+        }
+
+        .search-container input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        .stage {
+            flex: 1;
+            position: relative;
+            background: linear-gradient(135deg, #e6e6fa 0%, #d8bfd8 100%);
+            border-radius: 12px;
+            margin: 20px;
+            overflow: hidden;
+            cursor: grab;
+            transform-origin: 0 0;
+        }
+
+        .bubble {
+            position: absolute;
+            background-color: var(--bubble-color);
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            box-shadow: 0 4px 10px var(--shadow-color);
+            cursor: pointer;
+            animation: float 8s ease-in-out infinite;
+            border: 1px solid rgba(147, 112, 219, 0.3);
+            transition: transform 0.3s, border-width 0.3s, border-color 0.3s;
+            transform-origin: center center;
+            user-select: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+
+        .bubble:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 15px var(--shadow-color);
+            z-index: 100;
+        }
+
+        .bubble.highlight {
+            border-color: var(--highlight-color);
+            border-width: 3px;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0) rotate(0deg);
+            }
+            50% {
+                transform: translateY(-15px) rotate(5deg);
+            }
+        }
+
+        .input-with-button {
+            display: flex;
+            align-items: center;
+        }
+
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            overflow: auto;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-content {
+            background-color: white;
+            margin: auto;
+            padding: 20px;
+            border-radius: 12px;
+            width: 80%;
+            max-width: 500px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .modal-header h3 {
+            margin: 0;
+            color: var(--primary-color);
+        }
+
+        .close-button {
+            background: none;
+            border: none;
+            font-size: 20px;
+            cursor: pointer;
+            color: #aaa;
+        }
+
+        .close-button:hover {
+            color: var(--text-color);
+        }
+
+        .modal-body {
+            margin-bottom: 15px;
+        }
+
+        .modal-body p {
+            margin: 8px 0;
+        }
+
+        .modal-body strong {
+            color: var(--primary-color);
+        }
+
+        /* Líneas entre burbujas */
+        .connection-line {
+            position: absolute;
+            background-color: rgba(147, 112, 219, 0.5);
+            height: 2px;
+            transform-origin: 0 0;
+            z-index: -1;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Nuevo Recuerdo</h2>
+        <form id="memoryForm">
+            <div class="form-group">
+                <label for="vista">Vista:</label>
+                <div class="input-with-button">
+                    <textarea id="vista" placeholder="Describe lo que viste..."></textarea>
+                    <button type="button" class="record-button" data-target="vista">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="momento">Momento:</label>
+                <input type="date" id="momento">
+            </div>
+
+            <div class="form-group">
+                <label for="oido">Oído:</label>
+                <div class="input-with-button">
+                    <textarea id="oido" placeholder="Describe lo que escuchaste..."></textarea>
+                    <button type="button" class="record-button" data-target="oido">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="sentimos">Sentimos:</label>
+                <div class="input-with-button">
+                    <textarea id="sentimos" placeholder="Describe lo que sentiste..."></textarea>
+                    <button type="button" class="record-button" data-target="sentimos">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="olemos">Olemos:</label>
+                <div class="input-with-button">
+                    <textarea id="olemos" placeholder="Describe lo que oliste..."></textarea>
+                    <button type="button" class="record-button" data-target="olemos">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="sabor">Sabor:</label>
+                <div class="input-with-button">
+                    <textarea id="sabor" placeholder="Describe lo que saboreaste..."></textarea>
+                    <button type="button" class="record-button" data-target="sabor">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="palpamos">Palpamos:</label>
+                <div class="input-with-button">
+                    <textarea id="palpamos" placeholder="Describe lo que tocaste..."></textarea>
+                    <button type="button" class="record-button" data-target="palpamos">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="pensamos">Pensamos:</label>
+                <div class="input-with-button">
+                    <textarea id="pensamos" placeholder="Describe en qué pensaste..."></textarea>
+                    <button type="button" class="record-button" data-target="pensamos">🎤</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="ubicacion">Ubicación:</label>
+                <div class="input-with-button">
+                    <input type="text" id="ubicacion" placeholder="¿Dónde estabas?">
+                    <button type="button" class="record-button" data-target="ubicacion">🎤</button>
+                </div>
+            </div>
+
+            <button type="submit">Guardar Recuerdo</button>
+        </form>
+
+        <div class="search-container">
+            <label for="search">Buscar en recuerdos:</label>
+            <input type="text" id="search" placeholder="Escribe aquí para buscar...">
+        </div>
+    </div>
+
+    <div class="stage" id="stage">
+        <!-- Las burbujas de recuerdos aparecerán aquí -->
+    </div>
+
+    <!-- Modal -->
+    <div id="memoryModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Detalles del Recuerdo</h3>
+                <button class="close-button" id="closeModal">&times;</button>
+            </div>
+            <div class="modal-body" id="modalContent">
+                <!-- El contenido del recuerdo se mostrará aquí -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Inicializar reconocimiento de voz
+        let recognition;
+        let currentTarget = null;
+
+        if ('webkitSpeechRecognition' in window) {
+            recognition = new webkitSpeechRecognition();
+            recognition.continuous = false;
+            recognition.interimResults = false;
+            recognition.lang = 'es-ES';
+
+            recognition.onresult = (event) => {
+                const transcript = event.results[0][0].transcript;
+                if (currentTarget) {
+                    document.getElementById(currentTarget).value = transcript;
+                }
+            };
+
+            recognition.onerror = (event) => {
+                console.error('Error en grabación:', event.error);
+            };
+        } else {
+            alert('Tu navegador no soporta la grabación de voz.');
+            const recordButtons = document.querySelectorAll('.record-button');
+            recordButtons.forEach(button => {
+                button.style.display = 'none';
+            });
+        }
+
+        // Asignar evento a los botones de grabación
+        const recordButtons = document.querySelectorAll('.record-button');
+        recordButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                currentTarget = button.getAttribute('data-target');
+                if (recognition) {
+                    recognition.start();
+                    button.textContent = '🛑';
+                    recognition.onend = () => {
+                        button.textContent = '🎤';
+                    };
+                }
+            });
+        });
+
+        // Variables para el drag-pan y zoom
+        let isDragging = false;
+        let startX, startY;
+        let translateX = 0, translateY = 0;
+        let scale = 1;
+        const stage = document.getElementById('stage');
+
+        // Función para aplicar transformaciones al escenario
+        function applyTransform() {
+            stage.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
+        }
+
+        // Eventos para arrastrar el escenario
+        stage.addEventListener('mousedown', (e) => {
+            isDragging = true;
+            startX = e.clientX - translateX;
+            startY = e.clientY - translateY;
+            stage.style.cursor = 'grabbing';
+        });
+
+        window.addEventListener('mousemove', (e) => {
+            if (!isDragging) return;
+            translateX = e.clientX - startX;
+            translateY = e.clientY - startY;
+            applyTransform();
+            updateConnections(); // Actualizar líneas mientras se arrastra
+        });
+
+        window.addEventListener('mouseup', () => {
+            isDragging = false;
+            stage.style.cursor = 'grab';
+        });
+
+        // Evento para zoom con la rueda del ratón
+        stage.addEventListener('wheel', (e) => {
+            e.preventDefault();
+            const delta = e.deltaY > 0 ? 0.9 : 1.1;
+            const rect = stage.getBoundingClientRect();
+            const mouseX = e.clientX - rect.left;
+            const mouseY = e.clientY - rect.top;
+
+            // Ajustar el zoom centrado en el cursor
+            const newScale = Math.min(Math.max(scale * delta, 0.5), 2);
+            const scaleFactor = newScale / scale;
+
+            translateX = mouseX - (mouseX - translateX) * scaleFactor;
+            translateY = mouseY - (mouseY - translateY) * scaleFactor;
+            scale = newScale;
+
+            applyTransform();
+            updateConnections(); // Actualizar líneas después del zoom
+        });
+
+        // Crear burbujas de recuerdos
+        const memoryForm = document.getElementById('memoryForm');
+        const searchInput = document.getElementById('search');
+        const modal = document.getElementById('memoryModal');
+        const modalContent = document.getElementById('modalContent');
+        const closeModal = document.getElementById('closeModal');
+
+        // Cargar recuerdos al iniciar
+        document.addEventListener('DOMContentLoaded', loadMemories);
+
+        function loadMemories() {
+            fetch('save_memories.php')
+                .then(response => response.json())
+                .then(memories => {
+                    memories.forEach(memory => {
+                        createBubble(memory);
+                    });
+                    updateConnections();
+                })
+                .catch(error => console.error('Error al cargar recuerdos:', error));
+        }
+
+        memoryForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+
+            const memory = {
+                vista: document.getElementById('vista').value,
+                momento: document.getElementById('momento').value,
+                oido: document.getElementById('oido').value,
+                sentimos: document.getElementById('sentimos').value,
+                olemos: document.getElementById('olemos').value,
+                sabor: document.getElementById('sabor').value,
+                palpamos: document.getElementById('palpamos').value,
+                pensamos: document.getElementById('pensamos').value,
+                ubicacion: document.getElementById('ubicacion').value,
+            };
+
+            // Guardar el recuerdo en el servidor
+            fetch('save_memories.php', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(memory),
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    createBubble(memory);
+                    memoryForm.reset();
+                    updateConnections();
+                }
+            })
+            .catch(error => console.error('Error al guardar el recuerdo:', error));
+        });
+
+        function createBubble(memory) {
+            const bubble = document.createElement('div');
+            bubble.className = 'bubble';
+
+            // Posición aleatoria en el escenario
+            const x = Math.random() * (stage.offsetWidth - 100);
+            const y = Math.random() * (stage.offsetHeight - 100);
+            bubble.style.left = `${x}px`;
+            bubble.style.top = `${y}px`;
+
+            // Guardar los datos del recuerdo en el elemento
+            bubble.dataset.memory = JSON.stringify(memory);
+            bubble.dataset.id = Date.now(); // ID único para cada burbuja
+
+            // Icono dentro de la burbuja
+            bubble.textContent = '💭';
+
+            // Agregar al escenario
+            stage.appendChild(bubble);
+
+            // Evento para abrir el modal al hacer clic en la burbuja
+            bubble.addEventListener('click', () => {
+                showMemoryModal(memory);
+            });
+
+            return bubble;
+        }
+
+        function showMemoryModal(memory) {
+            modalContent.innerHTML = `
+                <p><strong>Ubicación:</strong> ${memory.ubicacion || 'Sin ubicación'}</p>
+                <p><strong>Momento:</strong> ${memory.momento || 'Sin fecha'}</p>
+                <p><strong>Vista:</strong> ${memory.vista || 'Nada'}</p>
+                <p><strong>Oído:</strong> ${memory.oido || 'Nada'}</p>
+                <p><strong>Sentimos:</strong> ${memory.sentimos || 'Nada'}</p>
+                <p><strong>Olemos:</strong> ${memory.olemos || 'Nada'}</p>
+                <p><strong>Sabor:</strong> ${memory.sabor || 'Nada'}</p>
+                <p><strong>Palpamos:</strong> ${memory.palpamos || 'Nada'}</p>
+                <p><strong>Pensamos:</strong> ${memory.pensamos || 'Nada'}</p>
+            `;
+            modal.style.display = 'flex';
+        }
+
+        closeModal.addEventListener('click', () => {
+            modal.style.display = 'none';
+        });
+
+        window.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                modal.style.display = 'none';
+            }
+        });
+
+        // Función para buscar y resaltar coincidencias
+        searchInput.addEventListener('input', () => {
+            const searchTerm = searchInput.value.toLowerCase().trim();
+            const allBubbles = document.querySelectorAll('.bubble');
+
+            allBubbles.forEach(bubble => {
+                const memory = JSON.parse(bubble.dataset.memory);
+                const memoryText = Object.values(memory).join(' ').toLowerCase();
+
+                if (searchTerm === '') {
+                    bubble.classList.remove('highlight');
+                    bubble.style.borderWidth = '1px';
+                    bubble.style.borderColor = 'rgba(147, 112, 219, 0.3)';
+                    return;
+                }
+
+                const matches = searchTerm.split(' ').filter(term => term.length > 0);
+                let matchCount = 0;
+
+                matches.forEach(term => {
+                    if (memoryText.includes(term)) {
+                        matchCount++;
+                    }
+                });
+
+                if (matchCount > 0) {
+                    bubble.classList.add('highlight');
+                    const borderWidth = 1 + (matchCount * 1.5);
+                    bubble.style.borderWidth = `${borderWidth}px`;
+                } else {
+                    bubble.classList.remove('highlight');
+                    bubble.style.borderWidth = '1px';
+                    bubble.style.borderColor = 'rgba(147, 112, 219, 0.3)';
+                }
+            });
+        });
+
+        // Función para conectar burbujas con líneas
+        function updateConnections() {
+            const allBubbles = document.querySelectorAll('.bubble');
+            const connections = [];
+
+            // Eliminar líneas existentes
+            document.querySelectorAll('.connection-line').forEach(line => line.remove());
+
+            // Comparar cada par de burbujas
+            allBubbles.forEach((bubble1, index1) => {
+                const memory1 = JSON.parse(bubble1.dataset.memory);
+                const keywords1 = [
+                    memory1.vista,
+                    memory1.ubicacion,
+                    memory1.sentimos,
+                    memory1.pensamos
+                ].filter(kw => kw && kw.trim().length > 0).map(kw => kw.toLowerCase());
+
+                allBubbles.forEach((bubble2, index2) => {
+                    if (index1 >= index2) return; // Evitar duplicados
+
+                    const memory2 = JSON.parse(bubble2.dataset.memory);
+                    const keywords2 = [
+                        memory2.vista,
+                        memory2.ubicacion,
+                        memory2.sentimos,
+                        memory2.pensamos
+                    ].filter(kw => kw && kw.trim().length > 0).map(kw => kw.toLowerCase());
+
+                    // Contar palabras clave compartidas
+                    let sharedKeywords = 0;
+                    keywords1.forEach(kw1 => {
+                        if (keywords2.includes(kw1)) {
+                            sharedKeywords++;
+                        }
+                    });
+
+                    if (sharedKeywords > 0) {
+                        connections.push({
+                            bubble1,
+                            bubble2,
+                            sharedKeywords,
+                        });
+                    }
+                });
+            });
+
+            // Dibujar líneas entre burbujas conectadas
+            connections.forEach(conn => {
+                const line = document.createElement('div');
+                line.className = 'connection-line';
+
+                // Obtener posiciones de las burbujas (relativas al escenario)
+                const rect1 = conn.bubble1.getBoundingClientRect();
+                const rect2 = conn.bubble2.getBoundingClientRect();
+                const stageRect = stage.getBoundingClientRect();
+
+                // Posiciones relativas al escenario
+                const x1 = rect1.left - stageRect.left + rect1.width / 2;
+                const y1 = rect1.top - stageRect.top + rect1.height / 2;
+                const x2 = rect2.left - stageRect.left + rect2.width / 2;
+                const y2 = rect2.top - stageRect.top + rect2.height / 2;
+
+                // Calcular longitud y ángulo de la línea
+                const length = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+                const angle = Math.atan2(y2 - y1, x2 - x1) * (180 / Math.PI);
+
+                // Estilo de la línea
+                line.style.width = `${length}px`;
+                line.style.left = `${x1}px`;
+                line.style.top = `${y1}px`;
+                line.style.transform = `rotate(${angle}deg)`;
+                line.style.height = `${2 + conn.sharedKeywords * 1.5}px`;
+                line.style.backgroundColor = `rgba(147, 112, 219, ${0.3 + conn.sharedKeywords * 0.1})`;
+
+                stage.appendChild(line);
+            });
+        }
+    </script>
+</body>
+</html>
+```
+
+### lineas mas
+<small>Creado: 2025-12-22 20:03</small>
+
+`010-lineas mas.html`
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memories Recorder</title>
+  <style>
+    :root {
+      --primary-color: #6a5acd;
+      --secondary-color: #9370db;
+      --background-color: #f9f7ff;
+      --bubble-color: #fff;
+      --text-color: #333;
+      --shadow-color: rgba(0, 0, 0, 0.1);
+      --highlight-color: #ffeb3b;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      height: 100vh;
+      background-color: var(--background-color);
+      color: var(--text-color);
+      overflow: hidden;
+    }
+
+    .form-container {
+      width: 350px;
+      padding: 25px;
+      background-color: white;
+      box-shadow: 0 4px 15px var(--shadow-color);
+      border-radius: 12px;
+      margin: 20px;
+      overflow-y: auto;
+      max-height: calc(100vh - 40px);
+      z-index: 10;
+    }
+
+    .form-container h2 {
+      color: var(--primary-color);
+      margin-bottom: 20px;
+      font-size: 24px;
+      text-align: center;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: 600;
+      color: var(--primary-color);
+    }
+
+    .form-group textarea,
+    .form-group input[type="text"],
+    .form-group input[type="date"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      font-size: 14px;
+      box-sizing: border-box;
+      resize: vertical;
+      min-height: 40px;
+    }
+
+    .form-group textarea {
+      min-height: 60px;
+    }
+
+    .record-button {
+      background-color: var(--secondary-color);
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 35px;
+      height: 35px;
+      cursor: pointer;
+      font-size: 16px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 10px;
+      transition: background-color 0.3s;
+    }
+
+    .record-button:hover {
+      background-color: var(--primary-color);
+    }
+
+    .form-container button[type="submit"] {
+      background-color: var(--primary-color);
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+      width: 100%;
+      margin-top: 10px;
+      transition: background-color 0.3s;
+    }
+
+    .form-container button[type="submit"]:hover {
+      background-color: #5a4fbf;
+    }
+
+    .search-container {
+      margin-bottom: 20px;
+    }
+
+    .search-container input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    .stage {
+      flex: 1;
+      position: relative;
+      background: linear-gradient(135deg, #e6e6fa 0%, #d8bfd8 100%);
+      border-radius: 12px;
+      margin: 20px;
+      overflow: hidden;
+      cursor: grab;
+      transform-origin: 0 0;
+    }
+
+    .bubble {
+      position: absolute;
+      z-index: 2; /* Burbujas por encima de las líneas */
+      background-color: var(--bubble-color);
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      box-shadow: 0 4px 10px var(--shadow-color);
+      cursor: pointer;
+      animation: float 8s ease-in-out infinite;
+      border: 1px solid rgba(147, 112, 219, 0.3);
+      transition: transform 0.3s, border-width 0.3s, border-color 0.3s;
+      transform-origin: center center;
+      user-select: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+    }
+
+    .bubble:hover {
+      transform: scale(1.1);
+      box-shadow: 0 6px 15px var(--shadow-color);
+      z-index: 100;
+    }
+
+    .bubble.highlight {
+      border-color: var(--highlight-color);
+      border-width: 3px;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0) rotate(0deg); }
+      50% { transform: translateY(-15px) rotate(5deg); }
+    }
+
+    .input-with-button {
+      display: flex;
+      align-items: center;
+    }
+
+    /* Modal */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      overflow: auto;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .modal-content {
+      background-color: white;
+      margin: auto;
+      padding: 20px;
+      border-radius: 12px;
+      width: 80%;
+      max-width: 500px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #eee;
+    }
+
+    .modal-header h3 {
+      margin: 0;
+      color: var(--primary-color);
+    }
+
+    .close-button {
+      background: none;
+      border: none;
+      font-size: 20px;
+      cursor: pointer;
+      color: #aaa;
+    }
+
+    .close-button:hover {
+      color: var(--text-color);
+    }
+
+    .modal-body { margin-bottom: 15px; }
+    .modal-body p { margin: 8px 0; }
+    .modal-body strong { color: var(--primary-color); }
+
+    /* Líneas entre burbujas */
+    .connection-line {
+      position: absolute;
+      z-index: 1; /* detrás de burbujas pero visible */
+      pointer-events: none;
+      transform-origin: 0 0;
+      background-color: rgba(147, 112, 219, 0.5);
+      height: 2px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="form-container">
+    <h2>Nuevo Recuerdo</h2>
+    <form id="memoryForm">
+      <div class="form-group">
+        <label for="vista">Vista:</label>
+        <div class="input-with-button">
+          <textarea id="vista" placeholder="Describe lo que viste..."></textarea>
+          <button type="button" class="record-button" data-target="vista">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="momento">Momento:</label>
+        <input type="date" id="momento">
+      </div>
+
+      <div class="form-group">
+        <label for="oido">Oído:</label>
+        <div class="input-with-button">
+          <textarea id="oido" placeholder="Describe lo que escuchaste..."></textarea>
+          <button type="button" class="record-button" data-target="oido">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="sentimos">Sentimos:</label>
+        <div class="input-with-button">
+          <textarea id="sentimos" placeholder="Describe lo que sentiste..."></textarea>
+          <button type="button" class="record-button" data-target="sentimos">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="olemos">Olemos:</label>
+        <div class="input-with-button">
+          <textarea id="olemos" placeholder="Describe lo que oliste..."></textarea>
+          <button type="button" class="record-button" data-target="olemos">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="sabor">Sabor:</label>
+        <div class="input-with-button">
+          <textarea id="sabor" placeholder="Describe lo que saboreaste..."></textarea>
+          <button type="button" class="record-button" data-target="sabor">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="palpamos">Palpamos:</label>
+        <div class="input-with-button">
+          <textarea id="palpamos" placeholder="Describe lo que tocaste..."></textarea>
+          <button type="button" class="record-button" data-target="palpamos">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="pensamos">Pensamos:</label>
+        <div class="input-with-button">
+          <textarea id="pensamos" placeholder="Describe en qué pensaste..."></textarea>
+          <button type="button" class="record-button" data-target="pensamos">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="ubicacion">Ubicación:</label>
+        <div class="input-with-button">
+          <input type="text" id="ubicacion" placeholder="¿Dónde estabas?">
+          <button type="button" class="record-button" data-target="ubicacion">🎤</button>
+        </div>
+      </div>
+
+      <button type="submit">Guardar Recuerdo</button>
+    </form>
+
+    <div class="search-container">
+      <label for="search">Buscar en recuerdos:</label>
+      <input type="text" id="search" placeholder="Escribe aquí para buscar...">
+    </div>
+  </div>
+
+  <div class="stage" id="stage"></div>
+
+  <!-- Modal -->
+  <div id="memoryModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Detalles del Recuerdo</h3>
+        <button class="close-button" id="closeModal">&times;</button>
+      </div>
+      <div class="modal-body" id="modalContent"></div>
+    </div>
+  </div>
+
+  <script>
+    // ----------------------------
+    // Voz (webkitSpeechRecognition)
+    // ----------------------------
+    let recognition;
+    let currentTarget = null;
+
+    if ('webkitSpeechRecognition' in window) {
+      recognition = new webkitSpeechRecognition();
+      recognition.continuous = false;
+      recognition.interimResults = false;
+      recognition.lang = 'es-ES';
+
+      recognition.onresult = (event) => {
+        const transcript = event.results[0][0].transcript;
+        if (currentTarget) {
+          document.getElementById(currentTarget).value = transcript;
+        }
+      };
+
+      recognition.onerror = (event) => {
+        console.error('Error en grabación:', event.error);
+      };
+    } else {
+      alert('Tu navegador no soporta la grabación de voz.');
+      document.querySelectorAll('.record-button').forEach(b => b.style.display = 'none');
+    }
+
+    document.querySelectorAll('.record-button').forEach(button => {
+      button.addEventListener('click', () => {
+        currentTarget = button.getAttribute('data-target');
+        if (recognition) {
+          recognition.start();
+          button.textContent = '🛑';
+          recognition.onend = () => { button.textContent = '🎤'; };
+        }
+      });
+    });
+
+    // ----------------------------
+    // Pan/Zoom del stage
+    // ----------------------------
+    let isDragging = false;
+    let startX, startY;
+    let translateX = 0, translateY = 0;
+    let scale = 1;
+    const stage = document.getElementById('stage');
+
+    function applyTransform() {
+      stage.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
+    }
+
+    stage.addEventListener('mousedown', (e) => {
+      isDragging = true;
+      startX = e.clientX - translateX;
+      startY = e.clientY - translateY;
+      stage.style.cursor = 'grabbing';
+    });
+
+    window.addEventListener('mousemove', (e) => {
+      if (!isDragging) return;
+      translateX = e.clientX - startX;
+      translateY = e.clientY - startY;
+      applyTransform();
+      // NO hace falta updateConnections aquí: líneas y burbujas se transforman juntas
+    });
+
+    window.addEventListener('mouseup', () => {
+      isDragging = false;
+      stage.style.cursor = 'grab';
+    });
+
+    stage.addEventListener('wheel', (e) => {
+      e.preventDefault();
+      const delta = e.deltaY > 0 ? 0.9 : 1.1;
+      const rect = stage.getBoundingClientRect();
+      const mouseX = e.clientX - rect.left;
+      const mouseY = e.clientY - rect.top;
+
+      const newScale = Math.min(Math.max(scale * delta, 0.5), 2);
+      const scaleFactor = newScale / scale;
+
+      translateX = mouseX - (mouseX - translateX) * scaleFactor;
+      translateY = mouseY - (mouseY - translateY) * scaleFactor;
+      scale = newScale;
+
+      applyTransform();
+      // NO hace falta updateConnections aquí
+    });
+
+    // ----------------------------
+    // Memorias + UI
+    // ----------------------------
+    const memoryForm = document.getElementById('memoryForm');
+    const searchInput = document.getElementById('search');
+    const modal = document.getElementById('memoryModal');
+    const modalContent = document.getElementById('modalContent');
+    const closeModal = document.getElementById('closeModal');
+
+    document.addEventListener('DOMContentLoaded', loadMemories);
+
+    function loadMemories() {
+      fetch('save_memories.php')
+        .then(r => r.json())
+        .then(memories => {
+          memories.forEach(memory => createBubble(memory));
+          updateConnections();
+        })
+        .catch(err => console.error('Error al cargar recuerdos:', err));
+    }
+
+    memoryForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+
+      const memory = {
+        vista: document.getElementById('vista').value,
+        momento: document.getElementById('momento').value,
+        oido: document.getElementById('oido').value,
+        sentimos: document.getElementById('sentimos').value,
+        olemos: document.getElementById('olemos').value,
+        sabor: document.getElementById('sabor').value,
+        palpamos: document.getElementById('palpamos').value,
+        pensamos: document.getElementById('pensamos').value,
+        ubicacion: document.getElementById('ubicacion').value,
+      };
+
+      fetch('save_memories.php', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(memory),
+      })
+      .then(r => r.json())
+      .then(data => {
+        if (data.success) {
+          createBubble(memory);
+          memoryForm.reset();
+          updateConnections();
+        }
+      })
+      .catch(err => console.error('Error al guardar el recuerdo:', err));
+    });
+
+    function createBubble(memory) {
+      const bubble = document.createElement('div');
+      bubble.className = 'bubble';
+
+      const x = Math.random() * (stage.offsetWidth - 100);
+      const y = Math.random() * (stage.offsetHeight - 100);
+      bubble.style.left = `${x}px`;
+      bubble.style.top  = `${y}px`;
+
+      bubble.dataset.memory = JSON.stringify(memory);
+      bubble.dataset.id = Date.now() + "-" + Math.random().toString(16).slice(2);
+
+      bubble.textContent = '💭';
+      stage.appendChild(bubble);
+
+      bubble.addEventListener('click', () => showMemoryModal(memory));
+      return bubble;
+    }
+
+    function showMemoryModal(memory) {
+      modalContent.innerHTML = `
+        <p><strong>Ubicación:</strong> ${escapeHtml(memory.ubicacion || 'Sin ubicación')}</p>
+        <p><strong>Momento:</strong> ${escapeHtml(memory.momento || 'Sin fecha')}</p>
+        <p><strong>Vista:</strong> ${escapeHtml(memory.vista || 'Nada')}</p>
+        <p><strong>Oído:</strong> ${escapeHtml(memory.oido || 'Nada')}</p>
+        <p><strong>Sentimos:</strong> ${escapeHtml(memory.sentimos || 'Nada')}</p>
+        <p><strong>Olemos:</strong> ${escapeHtml(memory.olemos || 'Nada')}</p>
+        <p><strong>Sabor:</strong> ${escapeHtml(memory.sabor || 'Nada')}</p>
+        <p><strong>Palpamos:</strong> ${escapeHtml(memory.palpamos || 'Nada')}</p>
+        <p><strong>Pensamos:</strong> ${escapeHtml(memory.pensamos || 'Nada')}</p>
+      `;
+      modal.style.display = 'flex';
+    }
+
+    closeModal.addEventListener('click', () => modal.style.display = 'none');
+    window.addEventListener('click', (e) => { if (e.target === modal) modal.style.display = 'none'; });
+
+    function escapeHtml(s) {
+      return String(s).replace(/[&<>"']/g, m => ({
+        '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'
+      }[m]));
+    }
+
+    // ----------------------------
+    // Búsqueda y resaltado
+    // ----------------------------
+    searchInput.addEventListener('input', () => {
+      const searchTerm = searchInput.value.toLowerCase().trim();
+      const allBubbles = document.querySelectorAll('.bubble');
+
+      allBubbles.forEach(bubble => {
+        const memory = JSON.parse(bubble.dataset.memory);
+        const memoryText = Object.values(memory).join(' ').toLowerCase();
+
+        if (searchTerm === '') {
+          bubble.classList.remove('highlight');
+          bubble.style.borderWidth = '1px';
+          bubble.style.borderColor = 'rgba(147, 112, 219, 0.3)';
+          return;
+        }
+
+        const matches = searchTerm.split(' ').filter(t => t.length > 0);
+        let matchCount = 0;
+
+        matches.forEach(term => {
+          if (memoryText.includes(term)) matchCount++;
+        });
+
+        if (matchCount > 0) {
+          bubble.classList.add('highlight');
+          const borderWidth = 1 + (matchCount * 1.5);
+          bubble.style.borderWidth = `${borderWidth}px`;
+        } else {
+          bubble.classList.remove('highlight');
+          bubble.style.borderWidth = '1px';
+          bubble.style.borderColor = 'rgba(147, 112, 219, 0.3)';
+        }
+      });
+    });
+
+    // ----------------------------
+    // Conexiones (FIX)
+    // - Coordenadas locales (offsetLeft/Top)
+    // - Coincidencia por palabras (tokenización)
+    // ----------------------------
+    function tokenize(text) {
+      return (text || "")
+        .toLowerCase()
+        .normalize("NFD").replace(/[\u0300-\u036f]/g, "") // quitar acentos
+        .replace(/[^\p{L}\p{N}\s]+/gu, " ")               // puntuación -> espacio
+        .split(/\s+/)
+        .filter(w => w.length >= 3);                      // filtrar palabras cortas
+    }
+
+    function memoryTokens(memory) {
+      const fields = [
+        memory.vista, memory.ubicacion, memory.sentimos, memory.pensamos,
+        memory.oido, memory.olemos, memory.sabor, memory.palpamos
+      ];
+      const set = new Set();
+      fields.forEach(t => tokenize(t).forEach(w => set.add(w)));
+      return set;
+    }
+
+    function updateConnections() {
+      const allBubbles = Array.from(document.querySelectorAll('.bubble'));
+
+      // eliminar líneas existentes
+      document.querySelectorAll('.connection-line').forEach(line => line.remove());
+
+      // precalcular tokens
+      const tokensByBubble = new Map();
+      allBubbles.forEach(b => {
+        tokensByBubble.set(b, memoryTokens(JSON.parse(b.dataset.memory)));
+      });
+
+      for (let i = 0; i < allBubbles.length; i++) {
+        for (let j = i + 1; j < allBubbles.length; j++) {
+          const b1 = allBubbles[i];
+          const b2 = allBubbles[j];
+
+          const s1 = tokensByBubble.get(b1);
+          const s2 = tokensByBubble.get(b2);
+
+          let shared = 0;
+          for (const w of s1) if (s2.has(w)) shared++;
+
+          if (shared > 0) {
+            const line = document.createElement('div');
+            line.className = 'connection-line';
+
+            // coordenadas locales del stage
+            const x1 = b1.offsetLeft + b1.offsetWidth / 2;
+            const y1 = b1.offsetTop  + b1.offsetHeight / 2;
+            const x2 = b2.offsetLeft + b2.offsetWidth / 2;
+            const y2 = b2.offsetTop  + b2.offsetHeight / 2;
+
+            const dx = x2 - x1;
+            const dy = y2 - y1;
+
+            const length = Math.hypot(dx, dy);
+            const angle  = Math.atan2(dy, dx) * (180 / Math.PI);
+
+            line.style.width = `${length}px`;
+            line.style.left  = `${x1}px`;
+            line.style.top   = `${y1}px`;
+            line.style.transform = `rotate(${angle}deg)`;
+
+            // grosor/opacidad según nº de palabras compartidas
+            line.style.height = `${Math.min(10, 2 + shared * 1.5)}px`;
+            line.style.opacity = `${Math.min(1, 0.25 + shared * 0.08)}`;
+
+            stage.appendChild(line);
+          }
+        }
+      }
+    }
+  </script>
+</body>
+</html>
+```
+
+### memories
+<small>Creado: 2025-12-22 20:03</small>
+
+`memories.json`
+
+```json
+[
+    {
+        "vista": "estaba conduciendo en el coche en una carretera y era de d\u00eda",
+        "momento": "",
+        "oido": "",
+        "sentimos": "",
+        "olemos": "",
+        "sabor": "",
+        "palpamos": "c\u00f3mo estamos en diciembre y es casi invierno hac\u00eda fr\u00edo que entraba por la ventana",
+        "pensamos": "estaba pensando que no quer\u00eda llegar tarde a clase",
+        "ubicacion": "estaba en una carretera cerca de Valencia"
+    },
+    {
+        "vista": "ayer por la noche iba conduciendo con el coche por la carretera",
+        "momento": "",
+        "oido": "",
+        "sentimos": "",
+        "olemos": "",
+        "sabor": "",
+        "palpamos": "",
+        "pensamos": "estaba pensando que no hab\u00eda llovido mucho",
+        "ubicacion": "estaba en Valencia"
+    },
+    {
+        "vista": "estoy ahora mismo dando una clase",
+        "momento": "",
+        "oido": "",
+        "sentimos": "",
+        "olemos": "",
+        "sabor": "",
+        "palpamos": "aqu\u00ed hace calor",
+        "pensamos": "estoy pensando que este ejercicio quiero que quede bien",
+        "ubicacion": "estoy en Mislata"
+    },
+    {
+        "vista": "un d\u00eda iba en la bici y me gir\u00e9 para mirar un coche y me hice una contractura en el cuello",
+        "momento": "",
+        "oido": "",
+        "sentimos": "sent\u00ed mucho dolor",
+        "olemos": "",
+        "sabor": "",
+        "palpamos": "era un d\u00eda de primavera y hac\u00eda calor",
+        "pensamos": "pens\u00e9 que desconozco el motivo por el cual me hago una contractura cada a\u00f1o",
+        "ubicacion": "estaba en el antiguo cauce del r\u00edo de Valencia"
+    }
+]
+```
+
+### save_memories
+<small>Creado: 2025-12-22 20:03</small>
+
+`save_memories.php`
+
+```
+<?php
+header('Content-Type: application/json');
+
+// Ruta al archivo JSON donde se guardarán los recuerdos
+$file = 'memories.json';
+
+// Obtener los datos enviados
+$data = json_decode(file_get_contents('php://input'), true);
+
+// Si es una solicitud POST, guardar los datos
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $memories = [];
+    if (file_exists($file)) {
+        $memories = json_decode(file_get_contents($file), true);
+    }
+    $memories[] = $data;
+    file_put_contents($file, json_encode($memories, JSON_PRETTY_PRINT));
+    echo json_encode(['success' => true]);
+    exit;
+}
+
+// Si es una solicitud GET, devolver los recuerdos guardados
+if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+    if (file_exists($file)) {
+        echo file_get_contents($file);
+    } else {
+        echo json_encode([]);
+    }
+    exit;
+}
+?>
+```
+
 
 <a id="creacion-y-borrado-de-colecciones"></a>
 ## Creación y borrado de colecciones
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/005-Bases%20de%20datos%20documentales/004-Creaci%C3%B3n%20y%20borrado%20de%20colecciones)
+
+### estado inicial
+<small>Creado: 2025-12-22 20:03</small>
+
+`001-estado inicial.html`
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memories Recorder</title>
+  <style>
+    :root {
+      --primary-color: #6a5acd;
+      --secondary-color: #9370db;
+      --background-color: #f9f7ff;
+      --bubble-color: #fff;
+      --text-color: #333;
+      --shadow-color: rgba(0, 0, 0, 0.1);
+      --highlight-color: #ffeb3b;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      height: 100vh;
+      background-color: var(--background-color);
+      color: var(--text-color);
+      overflow: hidden;
+    }
+
+    .form-container {
+      width: 350px;
+      padding: 25px;
+      background-color: white;
+      box-shadow: 0 4px 15px var(--shadow-color);
+      border-radius: 12px;
+      margin: 20px;
+      overflow-y: auto;
+      max-height: calc(100vh - 40px);
+      z-index: 10;
+    }
+
+    .form-container h2 {
+      color: var(--primary-color);
+      margin-bottom: 20px;
+      font-size: 24px;
+      text-align: center;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: 600;
+      color: var(--primary-color);
+    }
+
+    .form-group textarea,
+    .form-group input[type="text"],
+    .form-group input[type="date"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      font-size: 14px;
+      box-sizing: border-box;
+      resize: vertical;
+      min-height: 40px;
+    }
+
+    .form-group textarea {
+      min-height: 60px;
+    }
+
+    .record-button {
+      background-color: var(--secondary-color);
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 35px;
+      height: 35px;
+      cursor: pointer;
+      font-size: 16px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 10px;
+      transition: background-color 0.3s;
+    }
+
+    .record-button:hover {
+      background-color: var(--primary-color);
+    }
+
+    .form-container button[type="submit"] {
+      background-color: var(--primary-color);
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+      width: 100%;
+      margin-top: 10px;
+      transition: background-color 0.3s;
+    }
+
+    .form-container button[type="submit"]:hover {
+      background-color: #5a4fbf;
+    }
+
+    .search-container {
+      margin-bottom: 20px;
+    }
+
+    .search-container input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    .stage {
+      flex: 1;
+      position: relative;
+      background: linear-gradient(135deg, #e6e6fa 0%, #d8bfd8 100%);
+      border-radius: 12px;
+      margin: 20px;
+      overflow: hidden;
+      cursor: grab;
+      transform-origin: 0 0;
+    }
+
+    .bubble {
+      position: absolute;
+      z-index: 2; /* Burbujas por encima de las líneas */
+      background-color: var(--bubble-color);
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      box-shadow: 0 4px 10px var(--shadow-color);
+      cursor: pointer;
+      animation: float 8s ease-in-out infinite;
+      border: 1px solid rgba(147, 112, 219, 0.3);
+      transition: transform 0.3s, border-width 0.3s, border-color 0.3s;
+      transform-origin: center center;
+      user-select: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+    }
+
+    .bubble:hover {
+      transform: scale(1.1);
+      box-shadow: 0 6px 15px var(--shadow-color);
+      z-index: 100;
+    }
+
+    .bubble.highlight {
+      border-color: var(--highlight-color);
+      border-width: 3px;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0) rotate(0deg); }
+      50% { transform: translateY(-15px) rotate(5deg); }
+    }
+
+    .input-with-button {
+      display: flex;
+      align-items: center;
+    }
+
+    /* Modal */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      overflow: auto;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .modal-content {
+      background-color: white;
+      margin: auto;
+      padding: 20px;
+      border-radius: 12px;
+      width: 80%;
+      max-width: 500px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #eee;
+    }
+
+    .modal-header h3 {
+      margin: 0;
+      color: var(--primary-color);
+    }
+
+    .close-button {
+      background: none;
+      border: none;
+      font-size: 20px;
+      cursor: pointer;
+      color: #aaa;
+    }
+
+    .close-button:hover {
+      color: var(--text-color);
+    }
+
+    .modal-body { margin-bottom: 15px; }
+    .modal-body p { margin: 8px 0; }
+    .modal-body strong { color: var(--primary-color); }
+
+    /* Líneas entre burbujas */
+    .connection-line {
+      position: absolute;
+      z-index: 1; /* detrás de burbujas pero visible */
+      pointer-events: none;
+      transform-origin: 0 0;
+      background-color: rgba(147, 112, 219, 0.5);
+      height: 2px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="form-container">
+    <h2>Nuevo Recuerdo</h2>
+    <form id="memoryForm">
+      <div class="form-group">
+        <label for="vista">Vista:</label>
+        <div class="input-with-button">
+          <textarea id="vista" placeholder="Describe lo que viste..."></textarea>
+          <button type="button" class="record-button" data-target="vista">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="momento">Momento:</label>
+        <input type="date" id="momento">
+      </div>
+
+      <div class="form-group">
+        <label for="oido">Oído:</label>
+        <div class="input-with-button">
+          <textarea id="oido" placeholder="Describe lo que escuchaste..."></textarea>
+          <button type="button" class="record-button" data-target="oido">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="sentimos">Sentimos:</label>
+        <div class="input-with-button">
+          <textarea id="sentimos" placeholder="Describe lo que sentiste..."></textarea>
+          <button type="button" class="record-button" data-target="sentimos">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="olemos">Olemos:</label>
+        <div class="input-with-button">
+          <textarea id="olemos" placeholder="Describe lo que oliste..."></textarea>
+          <button type="button" class="record-button" data-target="olemos">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="sabor">Sabor:</label>
+        <div class="input-with-button">
+          <textarea id="sabor" placeholder="Describe lo que saboreaste..."></textarea>
+          <button type="button" class="record-button" data-target="sabor">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="palpamos">Palpamos:</label>
+        <div class="input-with-button">
+          <textarea id="palpamos" placeholder="Describe lo que tocaste..."></textarea>
+          <button type="button" class="record-button" data-target="palpamos">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="pensamos">Pensamos:</label>
+        <div class="input-with-button">
+          <textarea id="pensamos" placeholder="Describe en qué pensaste..."></textarea>
+          <button type="button" class="record-button" data-target="pensamos">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="ubicacion">Ubicación:</label>
+        <div class="input-with-button">
+          <input type="text" id="ubicacion" placeholder="¿Dónde estabas?">
+          <button type="button" class="record-button" data-target="ubicacion">🎤</button>
+        </div>
+      </div>
+
+      <button type="submit">Guardar Recuerdo</button>
+    </form>
+
+    <div class="search-container">
+      <label for="search">Buscar en recuerdos:</label>
+      <input type="text" id="search" placeholder="Escribe aquí para buscar...">
+    </div>
+  </div>
+
+  <div class="stage" id="stage"></div>
+
+  <!-- Modal -->
+  <div id="memoryModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Detalles del Recuerdo</h3>
+        <button class="close-button" id="closeModal">&times;</button>
+      </div>
+      <div class="modal-body" id="modalContent"></div>
+    </div>
+  </div>
+
+  <script>
+    // ----------------------------
+    // Voz (webkitSpeechRecognition)
+    // ----------------------------
+    let recognition;
+    let currentTarget = null;
+
+    if ('webkitSpeechRecognition' in window) {
+      recognition = new webkitSpeechRecognition();
+      recognition.continuous = false;
+      recognition.interimResults = false;
+      recognition.lang = 'es-ES';
+
+      recognition.onresult = (event) => {
+        const transcript = event.results[0][0].transcript;
+        if (currentTarget) {
+          document.getElementById(currentTarget).value = transcript;
+        }
+      };
+
+      recognition.onerror = (event) => {
+        console.error('Error en grabación:', event.error);
+      };
+    } else {
+      alert('Tu navegador no soporta la grabación de voz.');
+      document.querySelectorAll('.record-button').forEach(b => b.style.display = 'none');
+    }
+
+    document.querySelectorAll('.record-button').forEach(button => {
+      button.addEventListener('click', () => {
+        currentTarget = button.getAttribute('data-target');
+        if (recognition) {
+          recognition.start();
+          button.textContent = '🛑';
+          recognition.onend = () => { button.textContent = '🎤'; };
+        }
+      });
+    });
+
+    // ----------------------------
+    // Pan/Zoom del stage
+    // ----------------------------
+    let isDragging = false;
+    let startX, startY;
+    let translateX = 0, translateY = 0;
+    let scale = 1;
+    const stage = document.getElementById('stage');
+
+    function applyTransform() {
+      stage.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
+    }
+
+    stage.addEventListener('mousedown', (e) => {
+      isDragging = true;
+      startX = e.clientX - translateX;
+      startY = e.clientY - translateY;
+      stage.style.cursor = 'grabbing';
+    });
+
+    window.addEventListener('mousemove', (e) => {
+      if (!isDragging) return;
+      translateX = e.clientX - startX;
+      translateY = e.clientY - startY;
+      applyTransform();
+      // NO hace falta updateConnections aquí: líneas y burbujas se transforman juntas
+    });
+
+    window.addEventListener('mouseup', () => {
+      isDragging = false;
+      stage.style.cursor = 'grab';
+    });
+
+    stage.addEventListener('wheel', (e) => {
+      e.preventDefault();
+      const delta = e.deltaY > 0 ? 0.9 : 1.1;
+      const rect = stage.getBoundingClientRect();
+      const mouseX = e.clientX - rect.left;
+      const mouseY = e.clientY - rect.top;
+
+      const newScale = Math.min(Math.max(scale * delta, 0.5), 2);
+      const scaleFactor = newScale / scale;
+
+      translateX = mouseX - (mouseX - translateX) * scaleFactor;
+      translateY = mouseY - (mouseY - translateY) * scaleFactor;
+      scale = newScale;
+
+      applyTransform();
+      // NO hace falta updateConnections aquí
+    });
+
+    // ----------------------------
+    // Memorias + UI
+    // ----------------------------
+    const memoryForm = document.getElementById('memoryForm');
+    const searchInput = document.getElementById('search');
+    const modal = document.getElementById('memoryModal');
+    const modalContent = document.getElementById('modalContent');
+    const closeModal = document.getElementById('closeModal');
+
+    document.addEventListener('DOMContentLoaded', loadMemories);
+
+    function loadMemories() {
+      fetch('save_memories.php')
+        .then(r => r.json())
+        .then(memories => {
+          memories.forEach(memory => createBubble(memory));
+          updateConnections();
+        })
+        .catch(err => console.error('Error al cargar recuerdos:', err));
+    }
+
+    memoryForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+
+      const memory = {
+        vista: document.getElementById('vista').value,
+        momento: document.getElementById('momento').value,
+        oido: document.getElementById('oido').value,
+        sentimos: document.getElementById('sentimos').value,
+        olemos: document.getElementById('olemos').value,
+        sabor: document.getElementById('sabor').value,
+        palpamos: document.getElementById('palpamos').value,
+        pensamos: document.getElementById('pensamos').value,
+        ubicacion: document.getElementById('ubicacion').value,
+      };
+
+      fetch('save_memories.php', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(memory),
+      })
+      .then(r => r.json())
+      .then(data => {
+        if (data.success) {
+          createBubble(memory);
+          memoryForm.reset();
+          updateConnections();
+        }
+      })
+      .catch(err => console.error('Error al guardar el recuerdo:', err));
+    });
+
+    function createBubble(memory) {
+      const bubble = document.createElement('div');
+      bubble.className = 'bubble';
+
+      const x = Math.random() * (stage.offsetWidth - 100);
+      const y = Math.random() * (stage.offsetHeight - 100);
+      bubble.style.left = `${x}px`;
+      bubble.style.top  = `${y}px`;
+
+      bubble.dataset.memory = JSON.stringify(memory);
+      bubble.dataset.id = Date.now() + "-" + Math.random().toString(16).slice(2);
+
+      bubble.textContent = '💭';
+      stage.appendChild(bubble);
+
+      bubble.addEventListener('click', () => showMemoryModal(memory));
+      return bubble;
+    }
+
+    function showMemoryModal(memory) {
+      modalContent.innerHTML = `
+        <p><strong>Ubicación:</strong> ${escapeHtml(memory.ubicacion || 'Sin ubicación')}</p>
+        <p><strong>Momento:</strong> ${escapeHtml(memory.momento || 'Sin fecha')}</p>
+        <p><strong>Vista:</strong> ${escapeHtml(memory.vista || 'Nada')}</p>
+        <p><strong>Oído:</strong> ${escapeHtml(memory.oido || 'Nada')}</p>
+        <p><strong>Sentimos:</strong> ${escapeHtml(memory.sentimos || 'Nada')}</p>
+        <p><strong>Olemos:</strong> ${escapeHtml(memory.olemos || 'Nada')}</p>
+        <p><strong>Sabor:</strong> ${escapeHtml(memory.sabor || 'Nada')}</p>
+        <p><strong>Palpamos:</strong> ${escapeHtml(memory.palpamos || 'Nada')}</p>
+        <p><strong>Pensamos:</strong> ${escapeHtml(memory.pensamos || 'Nada')}</p>
+      `;
+      modal.style.display = 'flex';
+    }
+
+    closeModal.addEventListener('click', () => modal.style.display = 'none');
+    window.addEventListener('click', (e) => { if (e.target === modal) modal.style.display = 'none'; });
+
+    function escapeHtml(s) {
+      return String(s).replace(/[&<>"']/g, m => ({
+        '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'
+      }[m]));
+    }
+
+    // ----------------------------
+    // Búsqueda y resaltado
+    // ----------------------------
+    searchInput.addEventListener('input', () => {
+      const searchTerm = searchInput.value.toLowerCase().trim();
+      const allBubbles = document.querySelectorAll('.bubble');
+
+      allBubbles.forEach(bubble => {
+        const memory = JSON.parse(bubble.dataset.memory);
+        const memoryText = Object.values(memory).join(' ').toLowerCase();
+
+        if (searchTerm === '') {
+          bubble.classList.remove('highlight');
+          bubble.style.borderWidth = '1px';
+          bubble.style.borderColor = 'rgba(147, 112, 219, 0.3)';
+          return;
+        }
+
+        const matches = searchTerm.split(' ').filter(t => t.length > 0);
+        let matchCount = 0;
+
+        matches.forEach(term => {
+          if (memoryText.includes(term)) matchCount++;
+        });
+
+        if (matchCount > 0) {
+          bubble.classList.add('highlight');
+          const borderWidth = 1 + (matchCount * 1.5);
+          bubble.style.borderWidth = `${borderWidth}px`;
+        } else {
+          bubble.classList.remove('highlight');
+          bubble.style.borderWidth = '1px';
+          bubble.style.borderColor = 'rgba(147, 112, 219, 0.3)';
+        }
+      });
+    });
+
+    // ----------------------------
+    // Conexiones (FIX)
+    // - Coordenadas locales (offsetLeft/Top)
+    // - Coincidencia por palabras (tokenización)
+    // ----------------------------
+    function tokenize(text) {
+      return (text || "")
+        .toLowerCase()
+        .normalize("NFD").replace(/[\u0300-\u036f]/g, "") // quitar acentos
+        .replace(/[^\p{L}\p{N}\s]+/gu, " ")               // puntuación -> espacio
+        .split(/\s+/)
+        .filter(w => w.length >= 3);                      // filtrar palabras cortas
+    }
+
+    function memoryTokens(memory) {
+      const fields = [
+        memory.vista, memory.ubicacion, memory.sentimos, memory.pensamos,
+        memory.oido, memory.olemos, memory.sabor, memory.palpamos
+      ];
+      const set = new Set();
+      fields.forEach(t => tokenize(t).forEach(w => set.add(w)));
+      return set;
+    }
+
+    function updateConnections() {
+      const allBubbles = Array.from(document.querySelectorAll('.bubble'));
+
+      // eliminar líneas existentes
+      document.querySelectorAll('.connection-line').forEach(line => line.remove());
+
+      // precalcular tokens
+      const tokensByBubble = new Map();
+      allBubbles.forEach(b => {
+        tokensByBubble.set(b, memoryTokens(JSON.parse(b.dataset.memory)));
+      });
+
+      for (let i = 0; i < allBubbles.length; i++) {
+        for (let j = i + 1; j < allBubbles.length; j++) {
+          const b1 = allBubbles[i];
+          const b2 = allBubbles[j];
+
+          const s1 = tokensByBubble.get(b1);
+          const s2 = tokensByBubble.get(b2);
+
+          let shared = 0;
+          for (const w of s1) if (s2.has(w)) shared++;
+
+          if (shared > 0) {
+            const line = document.createElement('div');
+            line.className = 'connection-line';
+
+            // coordenadas locales del stage
+            const x1 = b1.offsetLeft + b1.offsetWidth / 2;
+            const y1 = b1.offsetTop  + b1.offsetHeight / 2;
+            const x2 = b2.offsetLeft + b2.offsetWidth / 2;
+            const y2 = b2.offsetTop  + b2.offsetHeight / 2;
+
+            const dx = x2 - x1;
+            const dy = y2 - y1;
+
+            const length = Math.hypot(dx, dy);
+            const angle  = Math.atan2(dy, dx) * (180 / Math.PI);
+
+            line.style.width = `${length}px`;
+            line.style.left  = `${x1}px`;
+            line.style.top   = `${y1}px`;
+            line.style.transform = `rotate(${angle}deg)`;
+
+            // grosor/opacidad según nº de palabras compartidas
+            line.style.height = `${Math.min(10, 2 + shared * 1.5)}px`;
+            line.style.opacity = `${Math.min(1, 0.25 + shared * 0.08)}`;
+
+            stage.appendChild(line);
+          }
+        }
+      }
+    }
+  </script>
+</body>
+</html>
+```
+
+### fusion de proyectos
+<small>Creado: 2025-12-22 20:03</small>
+
+`002-fusion de proyectos.html`
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Memories Recorder</title>
+  <style>
+    :root{
+      --primary-color:#6a5acd;
+      --secondary-color:#9370db;
+      --background-color:#f9f7ff;
+      --text-color:#333;
+      --shadow-color:rgba(0,0,0,0.1);
+      --highlight-color:#ffeb3b;
+    }
+
+    *{ box-sizing:border-box; }
+
+    body{
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin:0;
+      padding:0;
+      display:flex;
+      height:100vh;
+      background:var(--background-color);
+      color:var(--text-color);
+      overflow:hidden;
+    }
+
+    .form-container{
+      width:350px;
+      padding:25px;
+      background:#fff;
+      box-shadow:0 4px 15px var(--shadow-color);
+      border-radius:12px;
+      margin:20px;
+      overflow-y:auto;
+      max-height:calc(100vh - 40px);
+      z-index:10;
+    }
+
+    .form-container h2{
+      color:var(--primary-color);
+      margin-bottom:20px;
+      font-size:24px;
+      text-align:center;
+    }
+
+    .form-group{ margin-bottom:15px; }
+    .form-group label{
+      display:block;
+      margin-bottom:5px;
+      font-weight:600;
+      color:var(--primary-color);
+    }
+
+    .form-group textarea,
+    .form-group input[type="text"],
+    .form-group input[type="date"]{
+      width:100%;
+      padding:10px;
+      border:1px solid #ddd;
+      border-radius:6px;
+      font-size:14px;
+      resize:vertical;
+      min-height:40px;
+    }
+
+    .form-group textarea{ min-height:60px; }
+
+    .input-with-button{
+      display:flex;
+      align-items:center;
+      gap:10px;
+    }
+
+    .record-button{
+      background:var(--secondary-color);
+      color:#fff;
+      border:none;
+      border-radius:50%;
+      width:35px;
+      height:35px;
+      cursor:pointer;
+      font-size:16px;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      transition:background-color .3s;
+      flex: 0 0 auto;
+    }
+    .record-button:hover{ background:var(--primary-color); }
+
+    .form-container button[type="submit"]{
+      background:var(--primary-color);
+      color:#fff;
+      padding:12px;
+      border:none;
+      border-radius:6px;
+      cursor:pointer;
+      font-size:16px;
+      width:100%;
+      margin-top:10px;
+      transition:background-color .3s;
+    }
+    .form-container button[type="submit"]:hover{ background:#5a4fbf; }
+
+    .search-container{ margin:20px 0 0; }
+    .search-container input{
+      width:100%;
+      padding:10px;
+      border:1px solid #ddd;
+      border-radius:6px;
+      font-size:14px;
+    }
+
+    /* Canvas stage */
+    .stage-wrap{
+      flex:1;
+      position:relative;
+      margin:20px;
+      border-radius:12px;
+      overflow:hidden;
+      background: linear-gradient(135deg, #e6e6fa 0%, #d8bfd8 100%);
+      box-shadow:0 4px 15px var(--shadow-color);
+    }
+    canvas{
+      width:100%;
+      height:100%;
+      display:block;
+    }
+
+    /* Controls overlay */
+    #controls{
+      position:absolute;
+      top:10px;
+      right:10px;
+      padding:10px 12px;
+      background:rgba(255,255,255,0.92);
+      border:1px solid #ccc;
+      border-radius:10px;
+      font-size:12px;
+      z-index:20;
+      max-height:calc(100% - 20px);
+      overflow:auto;
+      width:260px;
+      box-shadow:0 4px 15px rgba(0,0,0,0.12);
+    }
+    #controls label{ display:block; margin-bottom:6px; }
+    #controls input[type=range]{ width:160px; }
+    #controls .value{
+      display:inline-block;
+      width:28px;
+      text-align:right;
+      margin-left:6px;
+      font-variant-numeric: tabular-nums;
+    }
+    #controls .row{ margin-top:8px; }
+    #propControls .prop-block{
+      border-top:1px solid #e5e5e5;
+      margin-top:6px;
+      padding-top:6px;
+    }
+    #propControls .prop-title{
+      font-weight:700;
+      margin-bottom:4px;
+      color:var(--primary-color);
+    }
+    #propControls label{
+      display:block;
+      margin:2px 0;
+      color:#444;
+    }
+
+    /* Modal (as you had) */
+    .modal{
+      display:none;
+      position:fixed;
+      z-index:1000;
+      left:0; top:0;
+      width:100%; height:100%;
+      background:rgba(0,0,0,0.5);
+      align-items:center;
+      justify-content:center;
+    }
+    .modal-content{
+      background:#fff;
+      margin:auto;
+      padding:20px;
+      border-radius:12px;
+      width:80%;
+      max-width:520px;
+      box-shadow:0 5px 15px rgba(0,0,0,0.3);
+    }
+    .modal-header{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      margin-bottom:15px;
+      padding-bottom:10px;
+      border-bottom:1px solid #eee;
+    }
+    .modal-header h3{
+      margin:0;
+      color:var(--primary-color);
+    }
+    .close-button{
+      background:none;
+      border:none;
+      font-size:20px;
+      cursor:pointer;
+      color:#aaa;
+    }
+    .close-button:hover{ color:var(--text-color); }
+    .modal-body p{ margin:8px 0; }
+    .modal-body strong{ color:var(--primary-color); }
+  </style>
+</head>
+
+<body>
+  <div class="form-container">
+    <h2>Nuevo Recuerdo</h2>
+    <form id="memoryForm">
+      <div class="form-group">
+        <label for="vista">Vista:</label>
+        <div class="input-with-button">
+          <textarea id="vista" placeholder="Describe lo que viste..."></textarea>
+          <button type="button" class="record-button" data-target="vista">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="momento">Momento:</label>
+        <input type="date" id="momento">
+      </div>
+
+      <div class="form-group">
+        <label for="oido">Oído:</label>
+        <div class="input-with-button">
+          <textarea id="oido" placeholder="Describe lo que escuchaste..."></textarea>
+          <button type="button" class="record-button" data-target="oido">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="sentimos">Sentimos:</label>
+        <div class="input-with-button">
+          <textarea id="sentimos" placeholder="Describe lo que sentiste..."></textarea>
+          <button type="button" class="record-button" data-target="sentimos">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="olemos">Olemos:</label>
+        <div class="input-with-button">
+          <textarea id="olemos" placeholder="Describe lo que oliste..."></textarea>
+          <button type="button" class="record-button" data-target="olemos">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="sabor">Sabor:</label>
+        <div class="input-with-button">
+          <textarea id="sabor" placeholder="Describe lo que saboreaste..."></textarea>
+          <button type="button" class="record-button" data-target="sabor">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="palpamos">Palpamos:</label>
+        <div class="input-with-button">
+          <textarea id="palpamos" placeholder="Describe lo que tocaste..."></textarea>
+          <button type="button" class="record-button" data-target="palpamos">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="pensamos">Pensamos:</label>
+        <div class="input-with-button">
+          <textarea id="pensamos" placeholder="Describe en qué pensaste..."></textarea>
+          <button type="button" class="record-button" data-target="pensamos">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="ubicacion">Ubicación:</label>
+        <div class="input-with-button">
+          <input type="text" id="ubicacion" placeholder="¿Dónde estabas?">
+          <button type="button" class="record-button" data-target="ubicacion">🎤</button>
+        </div>
+      </div>
+
+      <button type="submit">Guardar Recuerdo</button>
+    </form>
+
+    <div class="search-container">
+      <label for="search">Buscar en recuerdos:</label>
+      <input type="text" id="search" placeholder="Escribe aquí para buscar...">
+    </div>
+  </div>
+
+  <div class="stage-wrap">
+    <div id="controls">
+      <label>
+        Min thickness
+        <input id="minThickness" type="range" min="1" max="10" value="1">
+        <span id="minThicknessValue" class="value">1</span>
+      </label>
+      <label>
+        Max thickness
+        <input id="maxThickness" type="range" min="1" max="20" value="6">
+        <span id="maxThicknessValue" class="value">6</span>
+      </label>
+
+      <div class="row">
+        <label><input id="chkShowLines" type="checkbox" checked> Show connections</label>
+      </div>
+
+      <div class="row">
+        <div><strong>Properties</strong> (auto from JSON)</div>
+        <div id="propControls"></div>
+      </div>
+    </div>
+
+    <canvas id="canvas"></canvas>
+  </div>
+
+  <!-- Modal -->
+  <div id="memoryModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Detalles del Recuerdo</h3>
+        <button class="close-button" id="closeModal">&times;</button>
+      </div>
+      <div class="modal-body" id="modalContent"></div>
+    </div>
+  </div>
+
+  <script>
+    // ----------------------------
+    // Voz (webkitSpeechRecognition)
+    // ----------------------------
+    let recognition;
+    let currentTarget = null;
+
+    if ('webkitSpeechRecognition' in window) {
+      recognition = new webkitSpeechRecognition();
+      recognition.continuous = false;
+      recognition.interimResults = false;
+      recognition.lang = 'es-ES';
+
+      recognition.onresult = (event) => {
+        const transcript = event.results[0][0].transcript;
+        if (currentTarget) document.getElementById(currentTarget).value = transcript;
+      };
+
+      recognition.onerror = (event) => console.error('Error en grabación:', event.error);
+    } else {
+      alert('Tu navegador no soporta la grabación de voz.');
+      document.querySelectorAll('.record-button').forEach(b => b.style.display = 'none');
+    }
+
+    document.querySelectorAll('.record-button').forEach(button => {
+      button.addEventListener('click', () => {
+        currentTarget = button.getAttribute('data-target');
+        if (recognition) {
+          recognition.start();
+          button.textContent = '🛑';
+          recognition.onend = () => { button.textContent = '🎤'; };
+        }
+      });
+    });
+
+    // ----------------------------
+    // Modal helpers
+    // ----------------------------
+    const modal = document.getElementById('memoryModal');
+    const modalContent = document.getElementById('modalContent');
+    const closeModal = document.getElementById('closeModal');
+
+    function escapeHtml(s) {
+      return String(s).replace(/[&<>"']/g, m => ({
+        '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'
+      }[m]));
+    }
+
+    function showMemoryModal(memory) {
+      modalContent.innerHTML = `
+        <p><strong>Ubicación:</strong> ${escapeHtml(memory.ubicacion || 'Sin ubicación')}</p>
+        <p><strong>Momento:</strong> ${escapeHtml(memory.momento || 'Sin fecha')}</p>
+        <p><strong>Vista:</strong> ${escapeHtml(memory.vista || 'Nada')}</p>
+        <p><strong>Oído:</strong> ${escapeHtml(memory.oido || 'Nada')}</p>
+        <p><strong>Sentimos:</strong> ${escapeHtml(memory.sentimos || 'Nada')}</p>
+        <p><strong>Olemos:</strong> ${escapeHtml(memory.olemos || 'Nada')}</p>
+        <p><strong>Sabor:</strong> ${escapeHtml(memory.sabor || 'Nada')}</p>
+        <p><strong>Palpamos:</strong> ${escapeHtml(memory.palpamos || 'Nada')}</p>
+        <p><strong>Pensamos:</strong> ${escapeHtml(memory.pensamos || 'Nada')}</p>
+      `;
+      modal.style.display = 'flex';
+    }
+
+    closeModal.addEventListener('click', () => modal.style.display = 'none');
+    window.addEventListener('click', (e) => { if (e.target === modal) modal.style.display = 'none'; });
+
+    // ----------------------------
+    // Canvas + physics approach
+    // ----------------------------
+    const canvas = document.getElementById("canvas");
+    const ctx = canvas.getContext("2d");
+
+    function resizeCanvas() {
+      // account for devicePixelRatio for sharp lines
+      const dpr = window.devicePixelRatio || 1;
+      const rect = canvas.getBoundingClientRect();
+      canvas.width = Math.floor(rect.width * dpr);
+      canvas.height = Math.floor(rect.height * dpr);
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    }
+    window.addEventListener("resize", () => resizeCanvas());
+
+    function distance2D(x1,y1,x2,y2){
+      const dx=x2-x1, dy=y2-y1;
+      return Math.sqrt(dx*dx + dy*dy);
+    }
+
+    function hashString(str){
+      let hash=0;
+      for(let i=0;i<str.length;i++) hash=(hash*31 + str.charCodeAt(i))|0;
+      return Math.abs(hash);
+    }
+
+    // Tokenization (so "Valencia" connects even if not identical sentences)
+    function tokenize(text){
+      return (text || "")
+        .toLowerCase()
+        .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+        .replace(/[^\p{L}\p{N}\s]+/gu, " ")
+        .split(/\s+/)
+        .filter(w => w.length >= 3);
+    }
+
+    function tokensForMemoryByProp(memory, prop){
+      if (!memory || !(prop in memory)) return new Set();
+      const val = memory[prop];
+      if (prop === "momento") {
+        // date: keep exact match token
+        return new Set(val ? [String(val)] : []);
+      }
+      return new Set(tokenize(String(val || "")));
+    }
+
+    // Controls
+    let minLineThickness = 1;
+    let maxLineThickness = 6;
+    let showLines = true;
+
+    const minSlider = document.getElementById("minThickness");
+    const maxSlider = document.getElementById("maxThickness");
+    const minValueSpan = document.getElementById("minThicknessValue");
+    const maxValueSpan = document.getElementById("maxThicknessValue");
+    const chkShowLines = document.getElementById("chkShowLines");
+    const propControlsDiv = document.getElementById("propControls");
+
+    minSlider.addEventListener("input", () => {
+      minLineThickness = parseFloat(minSlider.value);
+      minValueSpan.textContent = minSlider.value;
+      if (minLineThickness > maxLineThickness) {
+        maxLineThickness = minLineThickness;
+        maxSlider.value = maxLineThickness;
+        maxValueSpan.textContent = maxLineThickness;
+      }
+    });
+    maxSlider.addEventListener("input", () => {
+      maxLineThickness = parseFloat(maxSlider.value);
+      maxValueSpan.textContent = maxSlider.value;
+      if (maxLineThickness < minLineThickness) {
+        minLineThickness = maxLineThickness;
+        minSlider.value = minLineThickness;
+        minValueSpan.textContent = minLineThickness;
+      }
+    });
+    chkShowLines.addEventListener("change", () => showLines = chkShowLines.checked);
+
+    let propertyKeys = [];
+    let relationProps = {}; // use in relation/physics
+    let showProps = {};     // show in label
+
+    function createPropertyControls(keys){
+      propControlsDiv.innerHTML = "";
+      propertyKeys = keys.slice();
+
+      propertyKeys.forEach(prop => {
+        if (!(prop in relationProps)) relationProps[prop] = true;
+        if (!(prop in showProps))     showProps[prop] = (prop === "ubicacion" || prop === "momento" || prop === "vista"); // sensible default
+
+        const block = document.createElement("div");
+        block.className = "prop-block";
+
+        const title = document.createElement("div");
+        title.className = "prop-title";
+        title.textContent = prop;
+        block.appendChild(title);
+
+        const labelUse = document.createElement("label");
+        const chkUse = document.createElement("input");
+        chkUse.type = "checkbox";
+        chkUse.checked = relationProps[prop];
+        chkUse.addEventListener("change", () => relationProps[prop] = chkUse.checked);
+        labelUse.appendChild(chkUse);
+        labelUse.appendChild(document.createTextNode(" Use in relation"));
+        block.appendChild(labelUse);
+
+        const labelShow = document.createElement("label");
+        const chkShow = document.createElement("input");
+        chkShow.type = "checkbox";
+        chkShow.checked = showProps[prop];
+        chkShow.addEventListener("change", () => showProps[prop] = chkShow.checked);
+        labelShow.appendChild(chkShow);
+        labelShow.appendChild(document.createTextNode(" Show in label"));
+        block.appendChild(labelShow);
+
+        propControlsDiv.appendChild(block);
+      });
+    }
+
+    // Search highlighting
+    const searchInput = document.getElementById('search');
+    let searchTerms = [];
+    searchInput.addEventListener("input", () => {
+      const raw = searchInput.value.toLowerCase().trim();
+      searchTerms = raw ? raw.split(/\s+/).filter(t => t.length > 0) : [];
+    });
+
+    // Particles
+    let particles = [];
+    let memories = [];
+
+    class Particle{
+      constructor(x,y,a, memory){
+        this.x = x; this.y = y;
+        this.v = 0.5;
+
+        this.vx = Math.cos(a) * this.v;
+        this.vy = Math.sin(a) * this.v;
+
+        this.ax = 0; this.ay = 0;
+        this.data = memory;
+
+        this.fija = false;
+        this.estableFrames = 0;
+
+        this.radius = 26;
+      }
+
+      matchesSearch(){
+        if (!searchTerms.length) return 0;
+        const text = Object.values(this.data).join(" ").toLowerCase();
+        let count = 0;
+        for (const t of searchTerms) if (text.includes(t)) count++;
+        return count;
+      }
+
+      // compute overlap count using active relation props
+      sharedScore(other){
+        let shared = 0;
+        let anyActive = false;
+
+        for (const prop of propertyKeys){
+          if (!relationProps[prop]) continue;
+          anyActive = true;
+
+          const a = tokensForMemoryByProp(this.data, prop);
+          const b = tokensForMemoryByProp(other.data, prop);
+
+          // date: exact match
+          if (prop === "momento") {
+            if (this.data.momento && this.data.momento === other.data.momento) shared += 3;
+            continue;
+          }
+
+          let local = 0;
+          for (const w of a) if (b.has(w)) local++;
+          shared += local;
+        }
+        return anyActive ? shared : 0;
+      }
+
+      drawLabel(){
+        const visibleProps = propertyKeys.filter(p => showProps[p]);
+        const lines = [];
+
+        for (const p of visibleProps){
+          const v = this.data[p];
+          if (v !== undefined && v !== null && String(v).trim() !== "") {
+            lines.push(String(v));
+          }
+        }
+        if (!lines.length) lines.push("💭");
+
+        // pill size based on line count
+        const lineHeight = 12;
+        const padX = 12;
+        const padY = 8;
+        const maxLines = Math.min(lines.length, 3);
+        const shown = lines.slice(0, maxLines);
+
+        // compute width (rough)
+        ctx.font = "12px sans-serif";
+        let w = 60;
+        shown.forEach((t,i)=>{
+          ctx.font = (i===0 ? "12px sans-serif" : "10px sans-serif");
+          w = Math.max(w, ctx.measureText(t).width + padX*2);
+        });
+        w = Math.min(w, 220);
+
+        const h = maxLines * lineHeight + padY*2;
+        const r = h/2;
+
+        // highlight if search matches
+        const matchCount = this.matchesSearch();
+        const borderW = matchCount ? Math.min(8, 1 + matchCount*1.5) : 1;
+
+        // draw pill
+        ctx.lineWidth = borderW;
+        ctx.fillStyle = "white";
+        ctx.strokeStyle = matchCount ? "#ffeb3b" : "rgba(0,0,0,0.85)";
+
+        const x = this.x, y = this.y;
+        const left = x - w/2, top = y - h/2;
+
+        ctx.beginPath();
+        ctx.moveTo(left + r, top);
+        ctx.lineTo(left + w - r, top);
+        ctx.arc(left + w - r, top + r, r, -Math.PI/2, Math.PI/2);
+        ctx.lineTo(left + r, top + h);
+        ctx.arc(left + r, top + r, r, Math.PI/2, -Math.PI/2);
+        ctx.closePath();
+        ctx.fill();
+        ctx.stroke();
+
+        // text
+        ctx.fillStyle = "black";
+        const startY = y - ((maxLines - 1) * lineHeight) / 2;
+        shown.forEach((t,i)=>{
+          ctx.font = (i===0 ? "12px sans-serif" : "10px sans-serif");
+          const clipped = t.length > 34 ? t.slice(0, 34) + "…" : t;
+          ctx.textAlign = "center";
+          ctx.textBaseline = "middle";
+          ctx.fillText(clipped, x, startY + i*lineHeight);
+        });
+
+        // store hitbox size for clicking
+        this._hitW = w;
+        this._hitH = h;
+      }
+
+      drawLines(){
+        if (!showLines) return;
+
+        for (let i=0;i<particles.length;i++){
+          const p = particles[i];
+          if (p === this) continue;
+
+          const d = distance2D(this.x,this.y,p.x,p.y);
+          if (d > 180) continue;
+
+          const shared = this.sharedScore(p);
+          if (shared <= 0) continue;
+
+          // color by relation key (approx)
+          const key = "shared_" + shared;
+          const h = hashString(key) % 360;
+          const alpha = 0.20 + 0.55 * (1 - d/180);
+          ctx.strokeStyle = `hsla(${h}, 70%, 45%, ${alpha})`;
+
+          const segments = 20;
+          for (let s=0;s<segments;s++){
+            const t1 = s/segments;
+            const t2 = (s+1)/segments;
+
+            const x1 = this.x + (p.x - this.x) * t1;
+            const y1 = this.y + (p.y - this.y) * t1;
+            const x2 = this.x + (p.x - this.x) * t2;
+            const y2 = this.y + (p.y - this.y) * t2;
+
+            const tc = (t1+t2)/2;
+            const factor = 4*(tc-0.5)*(tc-0.5); // thick ends, thin middle
+            const w = minLineThickness + (maxLineThickness - minLineThickness)*factor;
+
+            ctx.lineWidth = w + Math.min(6, shared*0.4);
+            ctx.lineCap = "round";
+            ctx.beginPath();
+            ctx.moveTo(x1,y1);
+            ctx.lineTo(x2,y2);
+            ctx.stroke();
+          }
+        }
+      }
+
+      interactions(){
+        if (this.fija){ this.ax=0; this.ay=0; return; }
+
+        const distTarget = 120;
+        const distMin = 70;
+        const distRepelNoMatch = 220;
+
+        const kStrong = 0.0015;
+        const kMedium = 0.0009;
+        const kRepelNoMatchK = 0.001;
+        const kRepelClose = 0.06;
+
+        let fx=0, fy=0;
+
+        for (const p of particles){
+          if (p === this) continue;
+
+          const d = distance2D(this.x,this.y,p.x,p.y);
+          if (d === 0) continue;
+
+          const dx = p.x - this.x;
+          const dy = p.y - this.y;
+          const ux = dx / d;
+          const uy = dy / d;
+
+          // strong close repulsion (avoid overlap)
+          if (d < distMin){
+            const intensity = (distMin - d) * kRepelClose;
+            fx -= ux * intensity;
+            fy -= uy * intensity;
+            continue;
+          }
+
+          const shared = this.sharedScore(p);
+
+          if (shared >= 4){
+            const delta = d - distTarget;
+            fx += ux * delta * kStrong;
+            fy += uy * delta * kStrong;
+          } else if (shared >= 1){
+            const delta = d - distTarget;
+            fx += ux * delta * kMedium;
+            fy += uy * delta * kMedium;
+          } else {
+            if (d < distRepelNoMatch){
+              const intensity = (distRepelNoMatch - d) * kRepelNoMatchK;
+              fx -= ux * intensity;
+              fy -= uy * intensity;
+            }
+          }
+        }
+
+        const maxForce = 0.05;
+        const mag = Math.sqrt(fx*fx + fy*fy);
+        if (mag > maxForce){
+          fx = fx/mag*maxForce;
+          fy = fy/mag*maxForce;
+        }
+
+        this.ax = fx;
+        this.ay = fy;
+      }
+
+      move(boundsW, boundsH){
+        if (this.fija) return;
+
+        this.vx += this.ax;
+        this.vy += this.ay;
+
+        const friction = 0.93;
+        this.vx *= friction;
+        this.vy *= friction;
+
+        this.x += this.vx;
+        this.y += this.vy;
+
+        // settle
+        const speed = Math.sqrt(this.vx*this.vx + this.vy*this.vy);
+        const force = Math.sqrt(this.ax*this.ax + this.ay*this.ay);
+        if (speed < 0.02 && force < 0.002){
+          this.estableFrames++;
+          if (this.estableFrames > 60){
+            this.fija = true;
+            this.vx=0; this.vy=0;
+          }
+        } else {
+          this.estableFrames = 0;
+        }
+
+        // bounce
+        const rebound = -0.5;
+        const pad = 10;
+        if (this.x > boundsW - pad){ this.x = boundsW - pad; this.vx *= rebound; }
+        if (this.x < pad){ this.x = pad; this.vx *= rebound; }
+        if (this.y > boundsH - pad){ this.y = boundsH - pad; this.vy *= rebound; }
+        if (this.y < pad){ this.y = pad; this.vy *= rebound; }
+      }
+
+      hitTest(mx,my){
+        const w = this._hitW || 80;
+        const h = this._hitH || 40;
+        return (mx >= this.x - w/2 && mx <= this.x + w/2 && my >= this.y - h/2 && my <= this.y + h/2);
+      }
+    }
+
+    function loop(){
+      const rect = canvas.getBoundingClientRect();
+      const w = rect.width;
+      const h = rect.height;
+
+      ctx.clearRect(0,0,w,h);
+
+      // physics
+      for (const p of particles) p.interactions();
+      for (const p of particles) p.move(w,h);
+
+      // draw lines first
+      for (const p of particles) p.drawLines();
+      // draw labels on top
+      for (const p of particles) p.drawLabel();
+
+      requestAnimationFrame(loop);
+    }
+
+    // Click selection on canvas
+    canvas.addEventListener("click", (e) => {
+      const rect = canvas.getBoundingClientRect();
+      const mx = e.clientX - rect.left;
+      const my = e.clientY - rect.top;
+
+      // find topmost hit (last drawn = later in array, but we can just check reverse)
+      for (let i = particles.length - 1; i >= 0; i--){
+        const p = particles[i];
+        if (p.hitTest(mx,my)){
+          showMemoryModal(p.data);
+          return;
+        }
+      }
+    });
+
+    // ----------------------------
+    // Load + Save (same approach as your PHP)
+    // ----------------------------
+    const memoryForm = document.getElementById('memoryForm');
+
+    function detectKeysFromMemories(memories){
+      const set = new Set();
+      memories.forEach(m => Object.keys(m).forEach(k => set.add(k)));
+      return Array.from(set);
+    }
+
+    function loadMemories(){
+      return fetch("save_memories.php")
+        .then(r => r.json())
+        .then(list => {
+          memories = Array.isArray(list) ? list : [];
+          const keys = detectKeysFromMemories(memories);
+          createPropertyControls(keys);
+
+          particles = memories.map(m => new Particle(
+            Math.random() * (canvas.getBoundingClientRect().width  - 40) + 20,
+            Math.random() * (canvas.getBoundingClientRect().height - 40) + 20,
+            Math.random() * Math.PI * 2,
+            m
+          ));
+        });
+    }
+
+    memoryForm.addEventListener("submit", (e) => {
+      e.preventDefault();
+
+      const memory = {
+        vista: document.getElementById('vista').value,
+        momento: document.getElementById('momento').value,
+        oido: document.getElementById('oido').value,
+        sentimos: document.getElementById('sentimos').value,
+        olemos: document.getElementById('olemos').value,
+        sabor: document.getElementById('sabor').value,
+        palpamos: document.getElementById('palpamos').value,
+        pensamos: document.getElementById('pensamos').value,
+        ubicacion: document.getElementById('ubicacion').value
+      };
+
+      fetch("save_memories.php", {
+        method:"POST",
+        headers:{ "Content-Type":"application/json" },
+        body: JSON.stringify(memory)
+      })
+      .then(r => r.json())
+      .then(data => {
+        if (!data || !data.success) return;
+
+        memories.push(memory);
+
+        // update keys/controls if new keys appear (unlikely here, but safe)
+        const keys = detectKeysFromMemories(memories);
+        createPropertyControls(keys);
+
+        particles.push(new Particle(
+          Math.random() * (canvas.getBoundingClientRect().width  - 40) + 20,
+          Math.random() * (canvas.getBoundingClientRect().height - 40) + 20,
+          Math.random() * Math.PI * 2,
+          memory
+        ));
+
+        // allow movement again so it can re-stabilize
+        particles.forEach(p => { p.fija = false; p.estableFrames = 0; });
+
+        memoryForm.reset();
+      })
+      .catch(err => console.error("Error al guardar:", err));
+    });
+
+    // ----------------------------
+    // Boot
+    // ----------------------------
+    document.addEventListener("DOMContentLoaded", () => {
+      resizeCanvas();
+      loadMemories()
+        .then(() => requestAnimationFrame(loop))
+        .catch(err => console.error("Error al cargar recuerdos:", err));
+    });
+  </script>
+</body>
+</html>
+```
+
+### recuerdos se agrupan
+<small>Creado: 2025-12-22 20:03</small>
+
+`003-recuerdos se agrupan.html`
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Memories Recorder</title>
+  <style>
+    :root{
+      --primary-color:#6a5acd;
+      --secondary-color:#9370db;
+      --background-color:#f9f7ff;
+      --text-color:#333;
+      --shadow-color:rgba(0,0,0,0.12);
+      --highlight-color:#ffeb3b;
+    }
+
+    *{ box-sizing:border-box; }
+
+    body{
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin:0;
+      padding:0;
+      display:flex;
+      height:100vh;
+      background:var(--background-color);
+      color:var(--text-color);
+      overflow:hidden;
+    }
+
+    .form-container{
+      width:350px;
+      padding:25px;
+      background:#fff;
+      box-shadow:0 4px 15px var(--shadow-color);
+      border-radius:12px;
+      margin:20px;
+      overflow-y:auto;
+      max-height:calc(100vh - 40px);
+      z-index:10;
+    }
+
+    .form-container h2{
+      color:var(--primary-color);
+      margin:0 0 20px;
+      font-size:24px;
+      text-align:center;
+    }
+
+    .form-group{ margin-bottom:15px; }
+    .form-group label{
+      display:block;
+      margin-bottom:5px;
+      font-weight:600;
+      color:var(--primary-color);
+    }
+
+    .form-group textarea,
+    .form-group input[type="text"],
+    .form-group input[type="date"]{
+      width:100%;
+      padding:10px;
+      border:1px solid #ddd;
+      border-radius:6px;
+      font-size:14px;
+      resize:vertical;
+      min-height:40px;
+    }
+
+    .form-group textarea{ min-height:60px; }
+
+    .input-with-button{
+      display:flex;
+      align-items:center;
+      gap:10px;
+    }
+
+    .record-button{
+      background:var(--secondary-color);
+      color:#fff;
+      border:none;
+      border-radius:50%;
+      width:35px;
+      height:35px;
+      cursor:pointer;
+      font-size:16px;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      transition:background-color .3s;
+      flex:0 0 auto;
+    }
+    .record-button:hover{ background:var(--primary-color); }
+
+    .form-container button[type="submit"]{
+      background:var(--primary-color);
+      color:#fff;
+      padding:12px;
+      border:none;
+      border-radius:6px;
+      cursor:pointer;
+      font-size:16px;
+      width:100%;
+      margin-top:10px;
+      transition:background-color .3s;
+    }
+    .form-container button[type="submit"]:hover{ background:#5a4fbf; }
+
+    .search-container{ margin:20px 0 0; }
+    .search-container input{
+      width:100%;
+      padding:10px;
+      border:1px solid #ddd;
+      border-radius:6px;
+      font-size:14px;
+    }
+
+    /* Canvas stage */
+    .stage-wrap{
+      flex:1;
+      position:relative;
+      margin:20px;
+      border-radius:12px;
+      overflow:hidden;
+      background: linear-gradient(135deg, #e6e6fa 0%, #d8bfd8 100%);
+      box-shadow:0 4px 15px var(--shadow-color);
+    }
+    canvas{
+      width:100%;
+      height:100%;
+      display:block;
+      cursor: default;
+    }
+
+    /* Modal */
+    .modal{
+      display:none;
+      position:fixed;
+      z-index:1000;
+      left:0; top:0;
+      width:100%; height:100%;
+      background:rgba(0,0,0,0.5);
+      align-items:center;
+      justify-content:center;
+    }
+    .modal-content{
+      background:#fff;
+      margin:auto;
+      padding:20px;
+      border-radius:12px;
+      width:80%;
+      max-width:520px;
+      box-shadow:0 5px 15px rgba(0,0,0,0.3);
+    }
+    .modal-header{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      margin-bottom:15px;
+      padding-bottom:10px;
+      border-bottom:1px solid #eee;
+    }
+    .modal-header h3{
+      margin:0;
+      color:var(--primary-color);
+    }
+    .close-button{
+      background:none;
+      border:none;
+      font-size:20px;
+      cursor:pointer;
+      color:#aaa;
+    }
+    .close-button:hover{ color:var(--text-color); }
+    .modal-body p{ margin:8px 0; }
+    .modal-body strong{ color:var(--primary-color); }
+  </style>
+</head>
+
+<body>
+  <div class="form-container">
+    <h2>Nuevo Recuerdo</h2>
+    <form id="memoryForm">
+      <div class="form-group">
+        <label for="vista">Vista:</label>
+        <div class="input-with-button">
+          <textarea id="vista" placeholder="Describe lo que viste..."></textarea>
+          <button type="button" class="record-button" data-target="vista">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="momento">Momento:</label>
+        <input type="date" id="momento">
+      </div>
+
+      <div class="form-group">
+        <label for="oido">Oído:</label>
+        <div class="input-with-button">
+          <textarea id="oido" placeholder="Describe lo que escuchaste..."></textarea>
+          <button type="button" class="record-button" data-target="oido">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="sentimos">Sentimos:</label>
+        <div class="input-with-button">
+          <textarea id="sentimos" placeholder="Describe lo que sentiste..."></textarea>
+          <button type="button" class="record-button" data-target="sentimos">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="olemos">Olemos:</label>
+        <div class="input-with-button">
+          <textarea id="olemos" placeholder="Describe lo que oliste..."></textarea>
+          <button type="button" class="record-button" data-target="olemos">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="sabor">Sabor:</label>
+        <div class="input-with-button">
+          <textarea id="sabor" placeholder="Describe lo que saboreaste..."></textarea>
+          <button type="button" class="record-button" data-target="sabor">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="palpamos">Palpamos:</label>
+        <div class="input-with-button">
+          <textarea id="palpamos" placeholder="Describe lo que tocaste..."></textarea>
+          <button type="button" class="record-button" data-target="palpamos">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="pensamos">Pensamos:</label>
+        <div class="input-with-button">
+          <textarea id="pensamos" placeholder="Describe en qué pensaste..."></textarea>
+          <button type="button" class="record-button" data-target="pensamos">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="ubicacion">Ubicación:</label>
+        <div class="input-with-button">
+          <input type="text" id="ubicacion" placeholder="¿Dónde estabas?">
+          <button type="button" class="record-button" data-target="ubicacion">🎤</button>
+        </div>
+      </div>
+
+      <button type="submit">Guardar Recuerdo</button>
+    </form>
+
+    <div class="search-container">
+      <label for="search">Buscar en recuerdos:</label>
+      <input type="text" id="search" placeholder="Escribe aquí para conectar recuerdos relacionados...">
+    </div>
+  </div>
+
+  <div class="stage-wrap">
+    <canvas id="canvas"></canvas>
+  </div>
+
+  <!-- Modal -->
+  <div id="memoryModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Detalles del Recuerdo</h3>
+        <button class="close-button" id="closeModal">&times;</button>
+      </div>
+      <div class="modal-body" id="modalContent"></div>
+    </div>
+  </div>
+
+  <script>
+    // ----------------------------
+    // Voice (webkitSpeechRecognition)
+    // ----------------------------
+    let recognition;
+    let currentTarget = null;
+
+    if ('webkitSpeechRecognition' in window) {
+      recognition = new webkitSpeechRecognition();
+      recognition.continuous = false;
+      recognition.interimResults = false;
+      recognition.lang = 'es-ES';
+
+      recognition.onresult = (event) => {
+        const transcript = event.results[0][0].transcript;
+        if (currentTarget) document.getElementById(currentTarget).value = transcript;
+      };
+
+      recognition.onerror = (event) => console.error('Error en grabación:', event.error);
+    } else {
+      alert('Tu navegador no soporta la grabación de voz.');
+      document.querySelectorAll('.record-button').forEach(b => b.style.display = 'none');
+    }
+
+    document.querySelectorAll('.record-button').forEach(button => {
+      button.addEventListener('click', () => {
+        currentTarget = button.getAttribute('data-target');
+        if (recognition) {
+          recognition.start();
+          button.textContent = '🛑';
+          recognition.onend = () => { button.textContent = '🎤'; };
+        }
+      });
+    });
+
+    // ----------------------------
+    // Modal
+    // ----------------------------
+    const modal = document.getElementById('memoryModal');
+    const modalContent = document.getElementById('modalContent');
+    const closeModal = document.getElementById('closeModal');
+
+    function escapeHtml(s) {
+      return String(s).replace(/[&<>"']/g, m => ({
+        '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'
+      }[m]));
+    }
+
+    function showMemoryModal(memory) {
+      modalContent.innerHTML = `
+        <p><strong>Ubicación:</strong> ${escapeHtml(memory.ubicacion || 'Sin ubicación')}</p>
+        <p><strong>Momento:</strong> ${escapeHtml(memory.momento || 'Sin fecha')}</p>
+        <p><strong>Vista:</strong> ${escapeHtml(memory.vista || 'Nada')}</p>
+        <p><strong>Oído:</strong> ${escapeHtml(memory.oido || 'Nada')}</p>
+        <p><strong>Sentimos:</strong> ${escapeHtml(memory.sentimos || 'Nada')}</p>
+        <p><strong>Olemos:</strong> ${escapeHtml(memory.olemos || 'Nada')}</p>
+        <p><strong>Sabor:</strong> ${escapeHtml(memory.sabor || 'Nada')}</p>
+        <p><strong>Palpamos:</strong> ${escapeHtml(memory.palpamos || 'Nada')}</p>
+        <p><strong>Pensamos:</strong> ${escapeHtml(memory.pensamos || 'Nada')}</p>
+      `;
+      modal.style.display = 'flex';
+    }
+
+    closeModal.addEventListener('click', () => modal.style.display = 'none');
+    window.addEventListener('click', (e) => { if (e.target === modal) modal.style.display = 'none'; });
+
+    // ----------------------------
+    // Canvas + physics
+    // ----------------------------
+    const canvas = document.getElementById("canvas");
+    const ctx = canvas.getContext("2d");
+
+    function resizeCanvas() {
+      const dpr = window.devicePixelRatio || 1;
+      const rect = canvas.getBoundingClientRect();
+      canvas.width  = Math.floor(rect.width * dpr);
+      canvas.height = Math.floor(rect.height * dpr);
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    }
+    window.addEventListener("resize", resizeCanvas);
+
+    function distance2D(x1,y1,x2,y2){
+      const dx=x2-x1, dy=y2-y1;
+      return Math.sqrt(dx*dx + dy*dy);
+    }
+
+    // Tokenization
+    function tokenize(text){
+      return (text || "")
+        .toLowerCase()
+        .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+        .replace(/[^\p{L}\p{N}\s]+/gu, " ")
+        .split(/\s+/)
+        .filter(w => w.length >= 3);
+    }
+
+    function memoryText(memory){
+      return Object.values(memory).join(" ");
+    }
+
+    function memoryTokens(memory){
+      return new Set(tokenize(memoryText(memory)));
+    }
+
+    // Search state
+    const searchInput = document.getElementById("search");
+    let searchTerms = [];
+    searchInput.addEventListener("input", () => {
+      const raw = searchInput.value.trim().toLowerCase();
+      searchTerms = raw ? raw.split(/\s+/).filter(t => t.length >= 2) : [];
+      // When search changes: unlock particles to let them re-cluster
+      particles.forEach(p => { p.fija = false; p.estableFrames = 0; });
+    });
+
+    function matchCount(tokens, terms){
+      if (!terms.length) return 0;
+      let c = 0;
+      for (const t of terms){
+        // allow partial match: if any token startsWith term or includes term
+        for (const w of tokens){
+          if (w.includes(t)) { c++; break; }
+        }
+      }
+      return c;
+    }
+
+    // Particles
+    let memories = [];
+    let particles = [];
+
+    class Particle{
+      constructor(x,y,a, memory){
+        this.x = x; this.y = y;
+        this.v = 0.4;
+
+        this.vx = Math.cos(a)*this.v;
+        this.vy = Math.sin(a)*this.v;
+
+        this.ax = 0; this.ay = 0;
+        this.data = memory;
+        this.tokens = memoryTokens(memory);
+
+        this.fija = false;
+        this.estableFrames = 0;
+
+        // glass bubble radius
+        this.r = 18 + Math.random()*10; // 18..28
+      }
+
+      // How much this memory matches current search
+      score(){
+        return matchCount(this.tokens, searchTerms);
+      }
+
+      interactions(width,height){
+        if (this.fija){ this.ax=0; this.ay=0; return; }
+
+        // Base: gentle separation always (avoid overlap)
+        const distMin = 45;
+
+        // Only when searching: attract matching memories to each other
+        const searching = searchTerms.length > 0;
+
+        // Tuning
+        const kRepelClose = 0.10;
+        const kRepelFar   = 0.002;
+
+        const kAttract    = 0.0022;   // attraction strength
+        const distTarget  = 140;      // target distance for clustered group
+        const distMaxLink = 220;      // only connect within this range (visual & force)
+
+        let fx=0, fy=0;
+
+        const myScore = this.score();
+        const amActive = searching && myScore > 0;
+
+        for (const p of particles){
+          if (p === this) continue;
+
+          const d = distance2D(this.x,this.y,p.x,p.y);
+          if (d === 0) continue;
+
+          const dx = p.x - this.x;
+          const dy = p.y - this.y;
+          const ux = dx / d;
+          const uy = dy / d;
+
+          // Strong repulsion when too close
+          if (d < distMin){
+            const intensity = (distMin - d) * kRepelClose;
+            fx -= ux * intensity;
+            fy -= uy * intensity;
+            continue;
+          }
+
+          // Mild repulsion overall to keep scene spread
+          const repelRange = 260;
+          if (d < repelRange){
+            const intensity = (repelRange - d) * kRepelFar;
+            fx -= ux * intensity;
+            fy -= uy * intensity;
+          }
+
+          if (!searching) continue;
+
+          const otherScore = p.score();
+          const otherActive = otherScore > 0;
+
+          // If both match search: attract
+          if (amActive && otherActive){
+            // stronger if they match more terms (so cluster tighter)
+            const weight = 0.6 + 0.25 * Math.min(6, Math.min(myScore, otherScore));
+            const delta = d - distTarget;
+
+            // limit attraction to mid distances so it doesn't pull everything from far away instantly
+            if (d < distMaxLink*1.8){
+              fx += ux * delta * kAttract * weight;
+              fy += uy * delta * kAttract * weight;
+            }
+          }
+        }
+
+        // cap force
+        const maxForce = 0.08;
+        const mag = Math.sqrt(fx*fx + fy*fy);
+        if (mag > maxForce){
+          fx = fx/mag*maxForce;
+          fy = fy/mag*maxForce;
+        }
+
+        this.ax = fx;
+        this.ay = fy;
+      }
+
+      move(width,height){
+        if (this.fija) return;
+
+        this.vx += this.ax;
+        this.vy += this.ay;
+
+        const friction = 0.92;
+        this.vx *= friction;
+        this.vy *= friction;
+
+        this.x += this.vx;
+        this.y += this.vy;
+
+        // settle if not searching (keeps scene stable)
+        const searching = searchTerms.length > 0;
+        const speed = Math.sqrt(this.vx*this.vx + this.vy*this.vy);
+        const force = Math.sqrt(this.ax*this.ax + this.ay*this.ay);
+
+        if (!searching && speed < 0.02 && force < 0.002){
+          this.estableFrames++;
+          if (this.estableFrames > 60){
+            this.fija = true;
+            this.vx=0; this.vy=0;
+          }
+        } else {
+          this.estableFrames = 0;
+        }
+
+        // bounce
+        const pad = this.r + 8;
+        const rebound = -0.5;
+
+        if (this.x > width - pad){ this.x = width - pad; this.vx *= rebound; }
+        if (this.x < pad){ this.x = pad; this.vx *= rebound; }
+        if (this.y > height - pad){ this.y = height - pad; this.vy *= rebound; }
+        if (this.y < pad){ this.y = pad; this.vy *= rebound; }
+      }
+
+      drawBubble(){
+        // Glass bubble (no text)
+        const x = this.x, y = this.y, r = this.r;
+
+        // subtle shadow
+        ctx.save();
+        ctx.globalAlpha = 0.22;
+        ctx.beginPath();
+        ctx.ellipse(x + r*0.25, y + r*0.35, r*0.85, r*0.65, 0, 0, Math.PI*2);
+        ctx.fillStyle = "rgba(0,0,0,0.35)";
+        ctx.fill();
+        ctx.restore();
+
+        // main bubble gradient
+        const g = ctx.createRadialGradient(x - r*0.35, y - r*0.35, r*0.2, x, y, r);
+        g.addColorStop(0, "rgba(255,255,255,0.65)");
+        g.addColorStop(0.35, "rgba(255,255,255,0.22)");
+        g.addColorStop(1, "rgba(255,255,255,0.10)");
+
+        ctx.beginPath();
+        ctx.arc(x, y, r, 0, Math.PI*2);
+        ctx.fillStyle = g;
+        ctx.fill();
+
+        // border
+        const score = this.score();
+        ctx.lineWidth = score > 0 ? 2.5 : 1.2;
+        ctx.strokeStyle = score > 0 ? "rgba(255,235,59,0.85)" : "rgba(255,255,255,0.55)";
+        ctx.stroke();
+
+        // highlight glint
+        ctx.beginPath();
+        ctx.arc(x - r*0.25, y - r*0.25, r*0.25, 0, Math.PI*2);
+        ctx.fillStyle = "rgba(255,255,255,0.55)";
+        ctx.fill();
+
+        // tiny inner ring
+        ctx.beginPath();
+        ctx.arc(x, y, r*0.82, 0, Math.PI*2);
+        ctx.lineWidth = 1;
+        ctx.strokeStyle = "rgba(106,90,205,0.12)";
+        ctx.stroke();
+      }
+
+      hitTest(mx,my){
+        const d = distance2D(mx,my,this.x,this.y);
+        return d <= this.r + 6;
+      }
+    }
+
+    // Draw connections ONLY among matching memories while searching
+    function drawConnections(){
+      if (searchTerms.length === 0) return;
+
+      const maxLinkDist = 220;
+
+      for (let i=0;i<particles.length;i++){
+        const a = particles[i];
+        const sa = a.score();
+        if (sa <= 0) continue;
+
+        for (let j=i+1;j<particles.length;j++){
+          const b = particles[j];
+          const sb = b.score();
+          if (sb <= 0) continue;
+
+          const d = distance2D(a.x,a.y,b.x,b.y);
+          if (d > maxLinkDist) continue;
+
+          // thickness/opacity by relevance + distance
+          const relevance = Math.min(10, sa + sb);
+          const alpha = Math.max(0.08, 0.45 * (1 - d/maxLinkDist));
+          const w = 1 + Math.min(8, relevance * 0.35);
+
+          // slight hue shift by relevance (still consistent look)
+          ctx.strokeStyle = `rgba(147,112,219,${alpha})`;
+          ctx.lineWidth = w;
+          ctx.lineCap = "round";
+
+          ctx.beginPath();
+          ctx.moveTo(a.x, a.y);
+          ctx.lineTo(b.x, b.y);
+          ctx.stroke();
+        }
+      }
+    }
+
+    function loop(){
+      const rect = canvas.getBoundingClientRect();
+      const w = rect.width;
+      const h = rect.height;
+
+      ctx.clearRect(0,0,w,h);
+
+      // physics
+      for (const p of particles) p.interactions(w,h);
+      for (const p of particles) p.move(w,h);
+
+      // lines then bubbles
+      drawConnections();
+      for (const p of particles) p.drawBubble();
+
+      requestAnimationFrame(loop);
+    }
+
+    // Click bubble -> modal
+    canvas.addEventListener("click", (e) => {
+      const rect = canvas.getBoundingClientRect();
+      const mx = e.clientX - rect.left;
+      const my = e.clientY - rect.top;
+
+      for (let i = particles.length - 1; i >= 0; i--){
+        if (particles[i].hitTest(mx,my)){
+          showMemoryModal(particles[i].data);
+          return;
+        }
+      }
+    });
+
+    // ----------------------------
+    // Load + Save (same PHP endpoint)
+    // ----------------------------
+    const memoryForm = document.getElementById('memoryForm');
+
+    function loadMemories(){
+      return fetch("save_memories.php")
+        .then(r => r.json())
+        .then(list => {
+          memories = Array.isArray(list) ? list : [];
+          particles = memories.map(m => new Particle(
+            Math.random() * (canvas.getBoundingClientRect().width  - 60) + 30,
+            Math.random() * (canvas.getBoundingClientRect().height - 60) + 30,
+            Math.random() * Math.PI * 2,
+            m
+          ));
+        });
+    }
+
+    memoryForm.addEventListener("submit", (e) => {
+      e.preventDefault();
+
+      const memory = {
+        vista: document.getElementById('vista').value,
+        momento: document.getElementById('momento').value,
+        oido: document.getElementById('oido').value,
+        sentimos: document.getElementById('sentimos').value,
+        olemos: document.getElementById('olemos').value,
+        sabor: document.getElementById('sabor').value,
+        palpamos: document.getElementById('palpamos').value,
+        pensamos: document.getElementById('pensamos').value,
+        ubicacion: document.getElementById('ubicacion').value
+      };
+
+      fetch("save_memories.php", {
+        method:"POST",
+        headers:{ "Content-Type":"application/json" },
+        body: JSON.stringify(memory)
+      })
+      .then(r => r.json())
+      .then(data => {
+        if (!data || !data.success) return;
+
+        memories.push(memory);
+        particles.push(new Particle(
+          Math.random() * (canvas.getBoundingClientRect().width  - 60) + 30,
+          Math.random() * (canvas.getBoundingClientRect().height - 60) + 30,
+          Math.random() * Math.PI * 2,
+          memory
+        ));
+
+        // allow re-layout if searching
+        particles.forEach(p => { p.fija = false; p.estableFrames = 0; });
+
+        memoryForm.reset();
+      })
+      .catch(err => console.error("Error al guardar:", err));
+    });
+
+    // ----------------------------
+    // Boot
+    // ----------------------------
+    document.addEventListener("DOMContentLoaded", () => {
+      resizeCanvas();
+      loadMemories()
+        .then(() => requestAnimationFrame(loop))
+        .catch(err => console.error("Error al cargar recuerdos:", err));
+    });
+  </script>
+</body>
+</html>
+```
+
+### agrupamiento mejor
+<small>Creado: 2025-12-22 20:03</small>
+
+`004-agrupamiento mejor.html`
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Memories Recorder</title>
+  <style>
+    :root{
+      --primary-color:#6a5acd;
+      --secondary-color:#9370db;
+      --background-color:#f9f7ff;
+      --text-color:#333;
+      --shadow-color:rgba(0,0,0,0.12);
+      --highlight-color:#ffeb3b;
+    }
+
+    *{ box-sizing:border-box; }
+
+    body{
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin:0;
+      padding:0;
+      display:flex;
+      height:100vh;
+      background:var(--background-color);
+      color:var(--text-color);
+      overflow:hidden;
+    }
+
+    .form-container{
+      width:350px;
+      padding:25px;
+      background:#fff;
+      box-shadow:0 4px 15px var(--shadow-color);
+      border-radius:12px;
+      margin:20px;
+      overflow-y:auto;
+      max-height:calc(100vh - 40px);
+      z-index:10;
+    }
+
+    .form-container h2{
+      color:var(--primary-color);
+      margin:0 0 20px;
+      font-size:24px;
+      text-align:center;
+    }
+
+    .form-group{ margin-bottom:15px; }
+    .form-group label{
+      display:block;
+      margin-bottom:5px;
+      font-weight:600;
+      color:var(--primary-color);
+    }
+
+    .form-group textarea,
+    .form-group input[type="text"],
+    .form-group input[type="date"]{
+      width:100%;
+      padding:10px;
+      border:1px solid #ddd;
+      border-radius:6px;
+      font-size:14px;
+      resize:vertical;
+      min-height:40px;
+    }
+
+    .form-group textarea{ min-height:60px; }
+
+    .input-with-button{
+      display:flex;
+      align-items:center;
+      gap:10px;
+    }
+
+    .record-button{
+      background:var(--secondary-color);
+      color:#fff;
+      border:none;
+      border-radius:50%;
+      width:35px;
+      height:35px;
+      cursor:pointer;
+      font-size:16px;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      transition:background-color .3s;
+      flex:0 0 auto;
+    }
+    .record-button:hover{ background:var(--primary-color); }
+
+    .form-container button[type="submit"]{
+      background:var(--primary-color);
+      color:#fff;
+      padding:12px;
+      border:none;
+      border-radius:6px;
+      cursor:pointer;
+      font-size:16px;
+      width:100%;
+      margin-top:10px;
+      transition:background-color .3s;
+    }
+    .form-container button[type="submit"]:hover{ background:#5a4fbf; }
+
+    .search-container{ margin:20px 0 0; }
+    .search-container input{
+      width:100%;
+      padding:10px;
+      border:1px solid #ddd;
+      border-radius:6px;
+      font-size:14px;
+    }
+
+    /* Canvas stage */
+    .stage-wrap{
+      flex:1;
+      position:relative;
+      margin:20px;
+      border-radius:12px;
+      overflow:hidden;
+      background: linear-gradient(135deg, #e6e6fa 0%, #d8bfd8 100%);
+      box-shadow:0 4px 15px var(--shadow-color);
+    }
+    canvas{
+      width:100%;
+      height:100%;
+      display:block;
+      cursor: default;
+    }
+
+    /* Modal */
+    .modal{
+      display:none;
+      position:fixed;
+      z-index:1000;
+      left:0; top:0;
+      width:100%; height:100%;
+      background:rgba(0,0,0,0.5);
+      align-items:center;
+      justify-content:center;
+    }
+    .modal-content{
+      background:#fff;
+      margin:auto;
+      padding:20px;
+      border-radius:12px;
+      width:80%;
+      max-width:520px;
+      box-shadow:0 5px 15px rgba(0,0,0,0.3);
+    }
+    .modal-header{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      margin-bottom:15px;
+      padding-bottom:10px;
+      border-bottom:1px solid #eee;
+    }
+    .modal-header h3{
+      margin:0;
+      color:var(--primary-color);
+    }
+    .close-button{
+      background:none;
+      border:none;
+      font-size:20px;
+      cursor:pointer;
+      color:#aaa;
+    }
+    .close-button:hover{ color:var(--text-color); }
+    .modal-body p{ margin:8px 0; }
+    .modal-body strong{ color:var(--primary-color); }
+  </style>
+</head>
+
+<body>
+  <div class="form-container">
+    <h2>Nuevo Recuerdo</h2>
+    <form id="memoryForm">
+      <div class="form-group">
+        <label for="vista">Vista:</label>
+        <div class="input-with-button">
+          <textarea id="vista" placeholder="Describe lo que viste..."></textarea>
+          <button type="button" class="record-button" data-target="vista">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="momento">Momento:</label>
+        <input type="date" id="momento">
+      </div>
+
+      <div class="form-group">
+        <label for="oido">Oído:</label>
+        <div class="input-with-button">
+          <textarea id="oido" placeholder="Describe lo que escuchaste..."></textarea>
+          <button type="button" class="record-button" data-target="oido">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="sentimos">Sentimos:</label>
+        <div class="input-with-button">
+          <textarea id="sentimos" placeholder="Describe lo que sentiste..."></textarea>
+          <button type="button" class="record-button" data-target="sentimos">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="olemos">Olemos:</label>
+        <div class="input-with-button">
+          <textarea id="olemos" placeholder="Describe lo que oliste..."></textarea>
+          <button type="button" class="record-button" data-target="olemos">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="sabor">Sabor:</label>
+        <div class="input-with-button">
+          <textarea id="sabor" placeholder="Describe lo que saboreaste..."></textarea>
+          <button type="button" class="record-button" data-target="sabor">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="palpamos">Palpamos:</label>
+        <div class="input-with-button">
+          <textarea id="palpamos" placeholder="Describe lo que tocaste..."></textarea>
+          <button type="button" class="record-button" data-target="palpamos">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="pensamos">Pensamos:</label>
+        <div class="input-with-button">
+          <textarea id="pensamos" placeholder="Describe en qué pensaste..."></textarea>
+          <button type="button" class="record-button" data-target="pensamos">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="ubicacion">Ubicación:</label>
+        <div class="input-with-button">
+          <input type="text" id="ubicacion" placeholder="¿Dónde estabas?">
+          <button type="button" class="record-button" data-target="ubicacion">🎤</button>
+        </div>
+      </div>
+
+      <button type="submit">Guardar Recuerdo</button>
+    </form>
+
+    <div class="search-container">
+      <label for="search">Buscar en recuerdos:</label>
+      <input type="text" id="search" placeholder="Escribe aquí para conectar recuerdos relacionados...">
+    </div>
+  </div>
+
+  <div class="stage-wrap">
+    <canvas id="canvas"></canvas>
+  </div>
+
+  <!-- Modal -->
+  <div id="memoryModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Detalles del Recuerdo</h3>
+        <button class="close-button" id="closeModal">&times;</button>
+      </div>
+      <div class="modal-body" id="modalContent"></div>
+    </div>
+  </div>
+
+  <script>
+    // ----------------------------
+    // Voice (webkitSpeechRecognition)
+    // ----------------------------
+    let recognition;
+    let currentTarget = null;
+
+    if ('webkitSpeechRecognition' in window) {
+      recognition = new webkitSpeechRecognition();
+      recognition.continuous = false;
+      recognition.interimResults = false;
+      recognition.lang = 'es-ES';
+
+      recognition.onresult = (event) => {
+        const transcript = event.results[0][0].transcript;
+        if (currentTarget) document.getElementById(currentTarget).value = transcript;
+      };
+
+      recognition.onerror = (event) => console.error('Error en grabación:', event.error);
+    } else {
+      alert('Tu navegador no soporta la grabación de voz.');
+      document.querySelectorAll('.record-button').forEach(b => b.style.display = 'none');
+    }
+
+    document.querySelectorAll('.record-button').forEach(button => {
+      button.addEventListener('click', () => {
+        currentTarget = button.getAttribute('data-target');
+        if (recognition) {
+          recognition.start();
+          button.textContent = '🛑';
+          recognition.onend = () => { button.textContent = '🎤'; };
+        }
+      });
+    });
+
+    // ----------------------------
+    // Modal
+    // ----------------------------
+    const modal = document.getElementById('memoryModal');
+    const modalContent = document.getElementById('modalContent');
+    const closeModal = document.getElementById('closeModal');
+
+    function escapeHtml(s) {
+      return String(s).replace(/[&<>"']/g, m => ({
+        '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'
+      }[m]));
+    }
+
+    function showMemoryModal(memory) {
+      modalContent.innerHTML = `
+        <p><strong>Ubicación:</strong> ${escapeHtml(memory.ubicacion || 'Sin ubicación')}</p>
+        <p><strong>Momento:</strong> ${escapeHtml(memory.momento || 'Sin fecha')}</p>
+        <p><strong>Vista:</strong> ${escapeHtml(memory.vista || 'Nada')}</p>
+        <p><strong>Oído:</strong> ${escapeHtml(memory.oido || 'Nada')}</p>
+        <p><strong>Sentimos:</strong> ${escapeHtml(memory.sentimos || 'Nada')}</p>
+        <p><strong>Olemos:</strong> ${escapeHtml(memory.olemos || 'Nada')}</p>
+        <p><strong>Sabor:</strong> ${escapeHtml(memory.sabor || 'Nada')}</p>
+        <p><strong>Palpamos:</strong> ${escapeHtml(memory.palpamos || 'Nada')}</p>
+        <p><strong>Pensamos:</strong> ${escapeHtml(memory.pensamos || 'Nada')}</p>
+      `;
+      modal.style.display = 'flex';
+    }
+
+    closeModal.addEventListener('click', () => modal.style.display = 'none');
+    window.addEventListener('click', (e) => { if (e.target === modal) modal.style.display = 'none'; });
+
+    // ----------------------------
+    // Canvas + physics
+    // ----------------------------
+    const canvas = document.getElementById("canvas");
+    const ctx = canvas.getContext("2d");
+
+    function resizeCanvas() {
+      const dpr = window.devicePixelRatio || 1;
+      const rect = canvas.getBoundingClientRect();
+      canvas.width  = Math.floor(rect.width * dpr);
+      canvas.height = Math.floor(rect.height * dpr);
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    }
+    window.addEventListener("resize", resizeCanvas);
+
+    function distance2D(x1,y1,x2,y2){
+      const dx=x2-x1, dy=y2-y1;
+      return Math.sqrt(dx*dx + dy*dy);
+    }
+
+    // Tokenization
+    function tokenize(text){
+      return (text || "")
+        .toLowerCase()
+        .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+        .replace(/[^\p{L}\p{N}\s]+/gu, " ")
+        .split(/\s+/)
+        .filter(w => w.length >= 3);
+    }
+
+    function memoryText(memory){
+      return Object.values(memory).join(" ");
+    }
+
+    function memoryTokens(memory){
+      return new Set(tokenize(memoryText(memory)));
+    }
+
+    // Search state
+    const searchInput = document.getElementById("search");
+    let searchTerms = [];
+    searchInput.addEventListener("input", () => {
+      const raw = searchInput.value.trim().toLowerCase();
+      searchTerms = raw ? raw.split(/\s+/).filter(t => t.length >= 2) : [];
+
+      // Wake/unlock so they can re-cluster immediately
+      particles.forEach(p => {
+        p.fija = false;
+        p.estableFrames = 0;
+        p.vx *= 0.2;
+        p.vy *= 0.2;
+      });
+    });
+
+    function matchCount(tokens, terms){
+      if (!terms.length) return 0;
+      let c = 0;
+      for (const t of terms){
+        for (const w of tokens){
+          if (w.includes(t)) { c++; break; }
+        }
+      }
+      return c;
+    }
+
+    // Particles
+    let memories = [];
+    let particles = [];
+
+    class Particle{
+      constructor(x,y,a, memory){
+        this.x = x; this.y = y;
+        this.v = 0.4;
+
+        this.vx = Math.cos(a)*this.v;
+        this.vy = Math.sin(a)*this.v;
+
+        this.ax = 0; this.ay = 0;
+        this.data = memory;
+        this.tokens = memoryTokens(memory);
+
+        this.fija = false;
+        this.estableFrames = 0;
+
+        // glass bubble radius
+        this.r = 18 + Math.random()*10; // 18..28
+      }
+
+      // How much this memory matches current search
+      score(){
+        return matchCount(this.tokens, searchTerms);
+      }
+
+      interactions(width,height){
+        if (this.fija){ this.ax=0; this.ay=0; return; }
+
+        // Always: avoid overlap
+        const distMin = 45;
+
+        const searching = searchTerms.length > 0;
+
+        // Tuning
+        const kRepelClose = 0.10;
+
+        // While searching:
+        // - Far-range attraction (no threshold) so matching bubbles find each other anywhere
+        // - Gentle pull to the center so the matching cluster settles in the middle
+        const kAttractFar  = 0.0009;   // long-range "find each other"
+        const kAttractNear = 0.0022;   // near-range "tighten the cluster"
+        const distTarget   = 140;      // preferred spacing inside cluster
+
+        const kCenterPull  = 0.0020;   // pull matching bubbles to stage center
+        const center = { x: width * 0.5, y: height * 0.5 };
+
+        let fx=0, fy=0;
+
+        const myScore = this.score();
+        const amActive = searching && myScore > 0;
+
+        // 1) Center pull (only for matching bubbles, only while searching)
+        if (amActive) {
+          const dxC = center.x - this.x;
+          const dyC = center.y - this.y;
+          fx += dxC * kCenterPull;
+          fy += dyC * kCenterPull;
+        }
+
+        // 2) Pairwise forces
+        for (const p of particles){
+          if (p === this) continue;
+
+          const d = distance2D(this.x,this.y,p.x,p.y);
+          if (d === 0) continue;
+
+          const dx = p.x - this.x;
+          const dy = p.y - this.y;
+          const ux = dx / d;
+          const uy = dy / d;
+
+          // Strong repulsion when too close (avoid overlap)
+          if (d < distMin){
+            const intensity = (distMin - d) * kRepelClose;
+            fx -= ux * intensity;
+            fy -= uy * intensity;
+            continue;
+          }
+
+          if (!searching) continue;
+
+          const otherScore = p.score();
+          const otherActive = otherScore > 0;
+
+          // If both match: ATTRACT at any distance (no threshold)
+          if (amActive && otherActive){
+            // weight by relevance so stronger matches cluster more decisively
+            const weight = 0.7 + 0.25 * Math.min(6, Math.min(myScore, otherScore));
+
+            // Far-range attraction: always active, gently pulls regardless distance
+            fx += ux * kAttractFar * weight * d;
+            fy += uy * kAttractFar * weight * d;
+
+            // Near-range tightening around a target distance
+            const delta = d - distTarget;
+            fx += ux * delta * kAttractNear * weight;
+            fy += uy * delta * kAttractNear * weight;
+          }
+        }
+
+        // cap force
+        const maxForce = 0.12;
+        const mag = Math.sqrt(fx*fx + fy*fy);
+        if (mag > maxForce){
+          fx = fx/mag*maxForce;
+          fy = fy/mag*maxForce;
+        }
+
+        this.ax = fx;
+        this.ay = fy;
+      }
+
+      move(width,height){
+        if (this.fija) return;
+
+        this.vx += this.ax;
+        this.vy += this.ay;
+
+        const friction = 0.92;
+        this.vx *= friction;
+        this.vy *= friction;
+
+        this.x += this.vx;
+        this.y += this.vy;
+
+        // settle if not searching (keeps scene stable)
+        const searching = searchTerms.length > 0;
+        const speed = Math.sqrt(this.vx*this.vx + this.vy*this.vy);
+        const force = Math.sqrt(this.ax*this.ax + this.ay*this.ay);
+
+        if (!searching && speed < 0.02 && force < 0.002){
+          this.estableFrames++;
+          if (this.estableFrames > 60){
+            this.fija = true;
+            this.vx=0; this.vy=0;
+          }
+        } else {
+          this.estableFrames = 0;
+        }
+
+        // bounce
+        const pad = this.r + 8;
+        const rebound = -0.5;
+
+        if (this.x > width - pad){ this.x = width - pad; this.vx *= rebound; }
+        if (this.x < pad){ this.x = pad; this.vx *= rebound; }
+        if (this.y > height - pad){ this.y = height - pad; this.vy *= rebound; }
+        if (this.y < pad){ this.y = pad; this.vy *= rebound; }
+      }
+
+      drawBubble(){
+        // Glass bubble (no text)
+        const x = this.x, y = this.y, r = this.r;
+
+        // subtle shadow
+        ctx.save();
+        ctx.globalAlpha = 0.22;
+        ctx.beginPath();
+        ctx.ellipse(x + r*0.25, y + r*0.35, r*0.85, r*0.65, 0, 0, Math.PI*2);
+        ctx.fillStyle = "rgba(0,0,0,0.35)";
+        ctx.fill();
+        ctx.restore();
+
+        // main bubble gradient
+        const g = ctx.createRadialGradient(x - r*0.35, y - r*0.35, r*0.2, x, y, r);
+        g.addColorStop(0, "rgba(255,255,255,0.65)");
+        g.addColorStop(0.35, "rgba(255,255,255,0.22)");
+        g.addColorStop(1, "rgba(255,255,255,0.10)");
+
+        ctx.beginPath();
+        ctx.arc(x, y, r, 0, Math.PI*2);
+        ctx.fillStyle = g;
+        ctx.fill();
+
+        // border
+        const score = this.score();
+        ctx.lineWidth = score > 0 ? 2.5 : 1.2;
+        ctx.strokeStyle = score > 0 ? "rgba(255,235,59,0.85)" : "rgba(255,255,255,0.55)";
+        ctx.stroke();
+
+        // highlight glint
+        ctx.beginPath();
+        ctx.arc(x - r*0.25, y - r*0.25, r*0.25, 0, Math.PI*2);
+        ctx.fillStyle = "rgba(255,255,255,0.55)";
+        ctx.fill();
+
+        // tiny inner ring
+        ctx.beginPath();
+        ctx.arc(x, y, r*0.82, 0, Math.PI*2);
+        ctx.lineWidth = 1;
+        ctx.strokeStyle = "rgba(106,90,205,0.12)";
+        ctx.stroke();
+      }
+
+      hitTest(mx,my){
+        const d = distance2D(mx,my,this.x,this.y);
+        return d <= this.r + 6;
+      }
+    }
+
+    // Draw connections ONLY among matching memories while searching
+    function drawConnections(){
+      if (searchTerms.length === 0) return;
+
+      // visual linking threshold only (attraction has NO threshold)
+      const maxLinkDist = 320;
+
+      for (let i=0;i<particles.length;i++){
+        const a = particles[i];
+        const sa = a.score();
+        if (sa <= 0) continue;
+
+        for (let j=i+1;j<particles.length;j++){
+          const b = particles[j];
+          const sb = b.score();
+          if (sb <= 0) continue;
+
+          const d = distance2D(a.x,a.y,b.x,b.y);
+          if (d > maxLinkDist) continue;
+
+          // thickness/opacity by relevance + distance
+          const relevance = Math.min(10, sa + sb);
+          const alpha = Math.max(0.06, 0.40 * (1 - d/maxLinkDist));
+          const w = 1 + Math.min(10, relevance * 0.40);
+
+          ctx.strokeStyle = `rgba(147,112,219,${alpha})`;
+          ctx.lineWidth = w;
+          ctx.lineCap = "round";
+
+          ctx.beginPath();
+          ctx.moveTo(a.x, a.y);
+          ctx.lineTo(b.x, b.y);
+          ctx.stroke();
+        }
+      }
+    }
+
+    function loop(){
+      const rect = canvas.getBoundingClientRect();
+      const w = rect.width;
+      const h = rect.height;
+
+      ctx.clearRect(0,0,w,h);
+
+      // physics
+      for (const p of particles) p.interactions(w,h);
+      for (const p of particles) p.move(w,h);
+
+      // lines then bubbles
+      drawConnections();
+      for (const p of particles) p.drawBubble();
+
+      requestAnimationFrame(loop);
+    }
+
+    // Click bubble -> modal
+    canvas.addEventListener("click", (e) => {
+      const rect = canvas.getBoundingClientRect();
+      const mx = e.clientX - rect.left;
+      const my = e.clientY - rect.top;
+
+      for (let i = particles.length - 1; i >= 0; i--){
+        if (particles[i].hitTest(mx,my)){
+          showMemoryModal(particles[i].data);
+          return;
+        }
+      }
+    });
+
+    // ----------------------------
+    // Load + Save (same PHP endpoint)
+    // ----------------------------
+    const memoryForm = document.getElementById('memoryForm');
+
+    function loadMemories(){
+      return fetch("save_memories.php")
+        .then(r => r.json())
+        .then(list => {
+          memories = Array.isArray(list) ? list : [];
+          particles = memories.map(m => new Particle(
+            Math.random() * (canvas.getBoundingClientRect().width  - 60) + 30,
+            Math.random() * (canvas.getBoundingClientRect().height - 60) + 30,
+            Math.random() * Math.PI * 2,
+            m
+          ));
+        });
+    }
+
+    memoryForm.addEventListener("submit", (e) => {
+      e.preventDefault();
+
+      const memory = {
+        vista: document.getElementById('vista').value,
+        momento: document.getElementById('momento').value,
+        oido: document.getElementById('oido').value,
+        sentimos: document.getElementById('sentimos').value,
+        olemos: document.getElementById('olemos').value,
+        sabor: document.getElementById('sabor').value,
+        palpamos: document.getElementById('palpamos').value,
+        pensamos: document.getElementById('pensamos').value,
+        ubicacion: document.getElementById('ubicacion').value
+      };
+
+      fetch("save_memories.php", {
+        method:"POST",
+        headers:{ "Content-Type":"application/json" },
+        body: JSON.stringify(memory)
+      })
+      .then(r => r.json())
+      .then(data => {
+        if (!data || !data.success) return;
+
+        memories.push(memory);
+        particles.push(new Particle(
+          Math.random() * (canvas.getBoundingClientRect().width  - 60) + 30,
+          Math.random() * (canvas.getBoundingClientRect().height - 60) + 30,
+          Math.random() * Math.PI * 2,
+          memory
+        ));
+
+        // allow re-layout if searching
+        particles.forEach(p => { p.fija = false; p.estableFrames = 0; });
+
+        memoryForm.reset();
+      })
+      .catch(err => console.error("Error al guardar:", err));
+    });
+
+    // ----------------------------
+    // Boot
+    // ----------------------------
+    document.addEventListener("DOMContentLoaded", () => {
+      resizeCanvas();
+      loadMemories()
+        .then(() => requestAnimationFrame(loop))
+        .catch(err => console.error("Error al cargar recuerdos:", err));
+    });
+  </script>
+</body>
+</html>
+```
+
+### espaciado entre burbujas
+<small>Creado: 2025-12-22 20:03</small>
+
+`005-espaciado entre burbujas.html`
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Memories Recorder</title>
+  <style>
+    :root{
+      --primary-color:#6a5acd;
+      --secondary-color:#9370db;
+      --background-color:#f9f7ff;
+      --text-color:#333;
+      --shadow-color:rgba(0,0,0,0.12);
+      --highlight-color:#ffeb3b;
+    }
+
+    *{ box-sizing:border-box; }
+
+    body{
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin:0;
+      padding:0;
+      display:flex;
+      height:100vh;
+      background:var(--background-color);
+      color:var(--text-color);
+      overflow:hidden;
+    }
+
+    .form-container{
+      width:350px;
+      padding:25px;
+      background:#fff;
+      box-shadow:0 4px 15px var(--shadow-color);
+      border-radius:12px;
+      margin:20px;
+      overflow-y:auto;
+      max-height:calc(100vh - 40px);
+      z-index:10;
+    }
+
+    .form-container h2{
+      color:var(--primary-color);
+      margin:0 0 20px;
+      font-size:24px;
+      text-align:center;
+    }
+
+    .form-group{ margin-bottom:15px; }
+    .form-group label{
+      display:block;
+      margin-bottom:5px;
+      font-weight:600;
+      color:var(--primary-color);
+    }
+
+    .form-group textarea,
+    .form-group input[type="text"],
+    .form-group input[type="date"]{
+      width:100%;
+      padding:10px;
+      border:1px solid #ddd;
+      border-radius:6px;
+      font-size:14px;
+      resize:vertical;
+      min-height:40px;
+    }
+
+    .form-group textarea{ min-height:60px; }
+
+    .input-with-button{
+      display:flex;
+      align-items:center;
+      gap:10px;
+    }
+
+    .record-button{
+      background:var(--secondary-color);
+      color:#fff;
+      border:none;
+      border-radius:50%;
+      width:35px;
+      height:35px;
+      cursor:pointer;
+      font-size:16px;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      transition:background-color .3s;
+      flex:0 0 auto;
+    }
+    .record-button:hover{ background:var(--primary-color); }
+
+    .form-container button[type="submit"]{
+      background:var(--primary-color);
+      color:#fff;
+      padding:12px;
+      border:none;
+      border-radius:6px;
+      cursor:pointer;
+      font-size:16px;
+      width:100%;
+      margin-top:10px;
+      transition:background-color .3s;
+    }
+    .form-container button[type="submit"]:hover{ background:#5a4fbf; }
+
+    .search-container{ margin:20px 0 0; }
+    .search-container input{
+      width:100%;
+      padding:10px;
+      border:1px solid #ddd;
+      border-radius:6px;
+      font-size:14px;
+    }
+
+    /* Canvas stage */
+    .stage-wrap{
+      flex:1;
+      position:relative;
+      margin:20px;
+      border-radius:12px;
+      overflow:hidden;
+      background: linear-gradient(135deg, #e6e6fa 0%, #d8bfd8 100%);
+      box-shadow:0 4px 15px var(--shadow-color);
+    }
+    canvas{
+      width:100%;
+      height:100%;
+      display:block;
+      cursor: default;
+    }
+
+    /* Modal */
+    .modal{
+      display:none;
+      position:fixed;
+      z-index:1000;
+      left:0; top:0;
+      width:100%; height:100%;
+      background:rgba(0,0,0,0.5);
+      align-items:center;
+      justify-content:center;
+    }
+    .modal-content{
+      background:#fff;
+      margin:auto;
+      padding:20px;
+      border-radius:12px;
+      width:80%;
+      max-width:520px;
+      box-shadow:0 5px 15px rgba(0,0,0,0.3);
+    }
+    .modal-header{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      margin-bottom:15px;
+      padding-bottom:10px;
+      border-bottom:1px solid #eee;
+    }
+    .modal-header h3{
+      margin:0;
+      color:var(--primary-color);
+    }
+    .close-button{
+      background:none;
+      border:none;
+      font-size:20px;
+      cursor:pointer;
+      color:#aaa;
+    }
+    .close-button:hover{ color:var(--text-color); }
+    .modal-body p{ margin:8px 0; }
+    .modal-body strong{ color:var(--primary-color); }
+  </style>
+</head>
+
+<body>
+  <div class="form-container">
+    <h2>Nuevo Recuerdo</h2>
+    <form id="memoryForm">
+      <div class="form-group">
+        <label for="vista">Vista:</label>
+        <div class="input-with-button">
+          <textarea id="vista" placeholder="Describe lo que viste..."></textarea>
+          <button type="button" class="record-button" data-target="vista">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="momento">Momento:</label>
+        <input type="date" id="momento">
+      </div>
+
+      <div class="form-group">
+        <label for="oido">Oído:</label>
+        <div class="input-with-button">
+          <textarea id="oido" placeholder="Describe lo que escuchaste..."></textarea>
+          <button type="button" class="record-button" data-target="oido">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="sentimos">Sentimos:</label>
+        <div class="input-with-button">
+          <textarea id="sentimos" placeholder="Describe lo que sentiste..."></textarea>
+          <button type="button" class="record-button" data-target="sentimos">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="olemos">Olemos:</label>
+        <div class="input-with-button">
+          <textarea id="olemos" placeholder="Describe lo que oliste..."></textarea>
+          <button type="button" class="record-button" data-target="olemos">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="sabor">Sabor:</label>
+        <div class="input-with-button">
+          <textarea id="sabor" placeholder="Describe lo que saboreaste..."></textarea>
+          <button type="button" class="record-button" data-target="sabor">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="palpamos">Palpamos:</label>
+        <div class="input-with-button">
+          <textarea id="palpamos" placeholder="Describe lo que tocaste..."></textarea>
+          <button type="button" class="record-button" data-target="palpamos">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="pensamos">Pensamos:</label>
+        <div class="input-with-button">
+          <textarea id="pensamos" placeholder="Describe en qué pensaste..."></textarea>
+          <button type="button" class="record-button" data-target="pensamos">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="ubicacion">Ubicación:</label>
+        <div class="input-with-button">
+          <input type="text" id="ubicacion" placeholder="¿Dónde estabas?">
+          <button type="button" class="record-button" data-target="ubicacion">🎤</button>
+        </div>
+      </div>
+
+      <button type="submit">Guardar Recuerdo</button>
+    </form>
+
+    <div class="search-container">
+      <label for="search">Buscar en recuerdos:</label>
+      <input type="text" id="search" placeholder="Escribe aquí para conectar recuerdos relacionados...">
+    </div>
+  </div>
+
+  <div class="stage-wrap">
+    <canvas id="canvas"></canvas>
+  </div>
+
+  <!-- Modal -->
+  <div id="memoryModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Detalles del Recuerdo</h3>
+        <button class="close-button" id="closeModal">&times;</button>
+      </div>
+      <div class="modal-body" id="modalContent"></div>
+    </div>
+  </div>
+
+  <script>
+    // ----------------------------
+    // Voice (webkitSpeechRecognition)
+    // ----------------------------
+    let recognition;
+    let currentTarget = null;
+
+    if ('webkitSpeechRecognition' in window) {
+      recognition = new webkitSpeechRecognition();
+      recognition.continuous = false;
+      recognition.interimResults = false;
+      recognition.lang = 'es-ES';
+
+      recognition.onresult = (event) => {
+        const transcript = event.results[0][0].transcript;
+        if (currentTarget) document.getElementById(currentTarget).value = transcript;
+      };
+
+      recognition.onerror = (event) => console.error('Error en grabación:', event.error);
+    } else {
+      alert('Tu navegador no soporta la grabación de voz.');
+      document.querySelectorAll('.record-button').forEach(b => b.style.display = 'none');
+    }
+
+    document.querySelectorAll('.record-button').forEach(button => {
+      button.addEventListener('click', () => {
+        currentTarget = button.getAttribute('data-target');
+        if (recognition) {
+          recognition.start();
+          button.textContent = '🛑';
+          recognition.onend = () => { button.textContent = '🎤'; };
+        }
+      });
+    });
+
+    // ----------------------------
+    // Modal
+    // ----------------------------
+    const modal = document.getElementById('memoryModal');
+    const modalContent = document.getElementById('modalContent');
+    const closeModal = document.getElementById('closeModal');
+
+    function escapeHtml(s) {
+      return String(s).replace(/[&<>"']/g, m => ({
+        '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'
+      }[m]));
+    }
+
+    function showMemoryModal(memory) {
+      modalContent.innerHTML = `
+        <p><strong>Ubicación:</strong> ${escapeHtml(memory.ubicacion || 'Sin ubicación')}</p>
+        <p><strong>Momento:</strong> ${escapeHtml(memory.momento || 'Sin fecha')}</p>
+        <p><strong>Vista:</strong> ${escapeHtml(memory.vista || 'Nada')}</p>
+        <p><strong>Oído:</strong> ${escapeHtml(memory.oido || 'Nada')}</p>
+        <p><strong>Sentimos:</strong> ${escapeHtml(memory.sentimos || 'Nada')}</p>
+        <p><strong>Olemos:</strong> ${escapeHtml(memory.olemos || 'Nada')}</p>
+        <p><strong>Sabor:</strong> ${escapeHtml(memory.sabor || 'Nada')}</p>
+        <p><strong>Palpamos:</strong> ${escapeHtml(memory.palpamos || 'Nada')}</p>
+        <p><strong>Pensamos:</strong> ${escapeHtml(memory.pensamos || 'Nada')}</p>
+      `;
+      modal.style.display = 'flex';
+    }
+
+    closeModal.addEventListener('click', () => modal.style.display = 'none');
+    window.addEventListener('click', (e) => { if (e.target === modal) modal.style.display = 'none'; });
+
+    // ----------------------------
+    // Canvas + physics
+    // ----------------------------
+    const canvas = document.getElementById("canvas");
+    const ctx = canvas.getContext("2d");
+
+    function resizeCanvas() {
+      const dpr = window.devicePixelRatio || 1;
+      const rect = canvas.getBoundingClientRect();
+      canvas.width  = Math.floor(rect.width * dpr);
+      canvas.height = Math.floor(rect.height * dpr);
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    }
+    window.addEventListener("resize", resizeCanvas);
+
+    function distance2D(x1,y1,x2,y2){
+      const dx=x2-x1, dy=y2-y1;
+      return Math.sqrt(dx*dx + dy*dy);
+    }
+
+    // Tokenization
+    function tokenize(text){
+      return (text || "")
+        .toLowerCase()
+        .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+        .replace(/[^\p{L}\p{N}\s]+/gu, " ")
+        .split(/\s+/)
+        .filter(w => w.length >= 3);
+    }
+
+    function memoryTokens(memory){
+      return new Set(tokenize(Object.values(memory).join(" ")));
+    }
+
+    // Search state
+    const searchInput = document.getElementById("search");
+    let searchTerms = [];
+    searchInput.addEventListener("input", () => {
+      const raw = searchInput.value.trim().toLowerCase();
+      searchTerms = raw ? raw.split(/\s+/).filter(t => t.length >= 2) : [];
+
+      // Wake/unlock so they can re-cluster immediately
+      particles.forEach(p => {
+        p.fija = false;
+        p.estableFrames = 0;
+        p.vx *= 0.2;
+        p.vy *= 0.2;
+      });
+    });
+
+    function matchCount(tokens, terms){
+      if (!terms.length) return 0;
+      let c = 0;
+      for (const t of terms){
+        for (const w of tokens){
+          if (w.includes(t)) { c++; break; }
+        }
+      }
+      return c;
+    }
+
+    // Particles
+    let memories = [];
+    let particles = [];
+
+    class Particle{
+      constructor(x,y,a, memory){
+        this.x = x; this.y = y;
+
+        this.v = 0.45;
+        this.vx = Math.cos(a)*this.v;
+        this.vy = Math.sin(a)*this.v;
+
+        this.ax = 0; this.ay = 0;
+        this.data = memory;
+        this.tokens = memoryTokens(memory);
+
+        this.fija = false;
+        this.estableFrames = 0;
+
+        this.r = 18 + Math.random()*10; // glass bubble radius 18..28
+      }
+
+      score(){ return matchCount(this.tokens, searchTerms); }
+
+      interactions(width,height){
+        if (this.fija){ this.ax=0; this.ay=0; return; }
+
+        const searching = searchTerms.length > 0;
+        const myScore = this.score();
+        const amActive = searching && myScore > 0;
+
+        // --- Core distances ---
+        // Big improvement vs previous:
+        // 1) bring back "peripheral spacing": global gentle repulsion at mid-range
+        // 2) keep cluster distance: larger personal space + strong overlap repulsion + target spacing
+        const distMin        = 62;   // stronger personal space (prevents too-close clustering)
+        const distRepelMid   = 260;  // global spacing range
+        const distRepelOuter = 520;  // weak outer repulsion to preserve spread on the canvas
+
+        // --- Repulsion tuning (spacing behavior) ---
+        const kRepelClose = 0.11;    // strong: prevent overlap
+        const kRepelMid   = 0.0018;  // keeps non-matching bubbles apart (peripheral feel)
+        const kRepelOuter = 0.00025; // very gentle: avoids entire pile-up
+
+        // --- Attraction tuning (search clustering) ---
+        // Far attraction: no threshold (find each other anywhere) BUT gentle
+        const kAttractFar  = 0.00055;
+        // Near tightening: around a target distance so they don't compress
+        const kAttractNear = 0.00125;
+        const distTarget   = 190;    // bigger target spacing inside the cluster
+
+        // --- Center pull (only for active matching bubbles) ---
+        const kCenterPull = 0.00095; // gentle, so it doesn't crush them into the center
+        const center = { x: width * 0.5, y: height * 0.5 };
+
+        let fx=0, fy=0;
+
+        // Keep matching memories drifting to center (but gently)
+        if (amActive) {
+          const dxC = center.x - this.x;
+          const dyC = center.y - this.y;
+          fx += dxC * kCenterPull;
+          fy += dyC * kCenterPull;
+        }
+
+        for (const p of particles){
+          if (p === this) continue;
+
+          const d = distance2D(this.x,this.y,p.x,p.y);
+          if (d === 0) continue;
+
+          const dx = p.x - this.x;
+          const dy = p.y - this.y;
+          const ux = dx / d;
+          const uy = dy / d;
+
+          // 1) Strong close repulsion (prevents overlapping and too-tight clusters)
+          if (d < distMin){
+            const intensity = (distMin - d) * kRepelClose;
+            fx -= ux * intensity;
+            fy -= uy * intensity;
+            continue;
+          }
+
+          // 2) Global mid-range repulsion (restores that nice "peripheral spread" feel)
+          if (d < distRepelMid){
+            const intensity = (distRepelMid - d) * kRepelMid;
+            fx -= ux * intensity;
+            fy -= uy * intensity;
+          } else if (d < distRepelOuter){
+            // 3) Very weak outer repulsion to avoid everyone drifting into the same region
+            const intensity = (distRepelOuter - d) * kRepelOuter;
+            fx -= ux * intensity;
+            fy -= uy * intensity;
+          }
+
+          if (!searching) continue;
+
+          const otherScore = p.score();
+          const otherActive = otherScore > 0;
+
+          // During search:
+          // - only matching bubbles attract each other
+          if (amActive && otherActive){
+            const weight = 0.75 + 0.20 * Math.min(6, Math.min(myScore, otherScore));
+
+            // Far-range attraction (no threshold) — gentle pull from anywhere
+            fx += ux * (kAttractFar * weight * d);
+            fy += uy * (kAttractFar * weight * d);
+
+            // Near-range tightening around target spacing (prevents them sticking too close)
+            const delta = d - distTarget;
+            fx += ux * (delta * kAttractNear * weight);
+            fy += uy * (delta * kAttractNear * weight);
+          }
+        }
+
+        // Cap forces
+        const maxForce = 0.11;
+        const mag = Math.sqrt(fx*fx + fy*fy);
+        if (mag > maxForce){
+          fx = fx/mag*maxForce;
+          fy = fy/mag*maxForce;
+        }
+
+        this.ax = fx;
+        this.ay = fy;
+      }
+
+      move(width,height){
+        if (this.fija) return;
+
+        this.vx += this.ax;
+        this.vy += this.ay;
+
+        const searching = searchTerms.length > 0;
+
+        // More friction when searching (reduces "pile jitter" in the cluster)
+        const friction = searching ? 0.90 : 0.925;
+        this.vx *= friction;
+        this.vy *= friction;
+
+        this.x += this.vx;
+        this.y += this.vy;
+
+        // Settle only when NOT searching (like before)
+        const speed = Math.sqrt(this.vx*this.vx + this.vy*this.vy);
+        const force = Math.sqrt(this.ax*this.ax + this.ay*this.ay);
+        if (!searching && speed < 0.02 && force < 0.002){
+          this.estableFrames++;
+          if (this.estableFrames > 60){
+            this.fija = true;
+            this.vx=0; this.vy=0;
+          }
+        } else {
+          this.estableFrames = 0;
+        }
+
+        // Bounce
+        const pad = this.r + 10;
+        const rebound = -0.5;
+
+        if (this.x > width - pad){ this.x = width - pad; this.vx *= rebound; }
+        if (this.x < pad){ this.x = pad; this.vx *= rebound; }
+        if (this.y > height - pad){ this.y = height - pad; this.vy *= rebound; }
+        if (this.y < pad){ this.y = pad; this.vy *= rebound; }
+      }
+
+      drawBubble(){
+        const x = this.x, y = this.y, r = this.r;
+
+        // Shadow
+        ctx.save();
+        ctx.globalAlpha = 0.20;
+        ctx.beginPath();
+        ctx.ellipse(x + r*0.25, y + r*0.38, r*0.90, r*0.70, 0, 0, Math.PI*2);
+        ctx.fillStyle = "rgba(0,0,0,0.35)";
+        ctx.fill();
+        ctx.restore();
+
+        // Glass gradient
+        const g = ctx.createRadialGradient(x - r*0.35, y - r*0.35, r*0.2, x, y, r);
+        g.addColorStop(0, "rgba(255,255,255,0.70)");
+        g.addColorStop(0.35, "rgba(255,255,255,0.22)");
+        g.addColorStop(1, "rgba(255,255,255,0.10)");
+
+        ctx.beginPath();
+        ctx.arc(x, y, r, 0, Math.PI*2);
+        ctx.fillStyle = g;
+        ctx.fill();
+
+        // Border highlight for matches
+        const score = this.score();
+        ctx.lineWidth = score > 0 ? 2.5 : 1.2;
+        ctx.strokeStyle = score > 0 ? "rgba(255,235,59,0.85)" : "rgba(255,255,255,0.55)";
+        ctx.stroke();
+
+        // Glint
+        ctx.beginPath();
+        ctx.arc(x - r*0.25, y - r*0.25, r*0.25, 0, Math.PI*2);
+        ctx.fillStyle = "rgba(255,255,255,0.55)";
+        ctx.fill();
+
+        // Inner ring
+        ctx.beginPath();
+        ctx.arc(x, y, r*0.82, 0, Math.PI*2);
+        ctx.lineWidth = 1;
+        ctx.strokeStyle = "rgba(106,90,205,0.12)";
+        ctx.stroke();
+      }
+
+      hitTest(mx,my){
+        const d = distance2D(mx,my,this.x,this.y);
+        return d <= this.r + 6;
+      }
+    }
+
+    // Visual connections:
+    // - keep a radius threshold for drawing (purely visual)
+    // - cluster attraction has NO radius threshold
+    function drawConnections(){
+      if (searchTerms.length === 0) return;
+
+      const maxLinkDist = 360;
+
+      for (let i=0;i<particles.length;i++){
+        const a = particles[i];
+        const sa = a.score();
+        if (sa <= 0) continue;
+
+        for (let j=i+1;j<particles.length;j++){
+          const b = particles[j];
+          const sb = b.score();
+          if (sb <= 0) continue;
+
+          const d = distance2D(a.x,a.y,b.x,b.y);
+          if (d > maxLinkDist) continue;
+
+          const relevance = Math.min(10, sa + sb);
+          const alpha = Math.max(0.05, 0.34 * (1 - d/maxLinkDist));
+          const w = 1 + Math.min(8, relevance * 0.35);
+
+          ctx.strokeStyle = `rgba(147,112,219,${alpha})`;
+          ctx.lineWidth = w;
+          ctx.lineCap = "round";
+
+          ctx.beginPath();
+          ctx.moveTo(a.x, a.y);
+          ctx.lineTo(b.x, b.y);
+          ctx.stroke();
+        }
+      }
+    }
+
+    function loop(){
+      const rect = canvas.getBoundingClientRect();
+      const w = rect.width;
+      const h = rect.height;
+
+      ctx.clearRect(0,0,w,h);
+
+      for (const p of particles) p.interactions(w,h);
+      for (const p of particles) p.move(w,h);
+
+      drawConnections();
+      for (const p of particles) p.drawBubble();
+
+      requestAnimationFrame(loop);
+    }
+
+    // Click bubble -> modal
+    canvas.addEventListener("click", (e) => {
+      const rect = canvas.getBoundingClientRect();
+      const mx = e.clientX - rect.left;
+      const my = e.clientY - rect.top;
+
+      for (let i = particles.length - 1; i >= 0; i--){
+        if (particles[i].hitTest(mx,my)){
+          showMemoryModal(particles[i].data);
+          return;
+        }
+      }
+    });
+
+    // ----------------------------
+    // Load + Save (same PHP endpoint)
+    // ----------------------------
+    const memoryForm = document.getElementById('memoryForm');
+
+    function loadMemories(){
+      return fetch("save_memories.php")
+        .then(r => r.json())
+        .then(list => {
+          memories = Array.isArray(list) ? list : [];
+          const rect = canvas.getBoundingClientRect();
+          particles = memories.map(m => new Particle(
+            Math.random() * (rect.width  - 80) + 40,
+            Math.random() * (rect.height - 80) + 40,
+            Math.random() * Math.PI * 2,
+            m
+          ));
+        });
+    }
+
+    memoryForm.addEventListener("submit", (e) => {
+      e.preventDefault();
+
+      const memory = {
+        vista: document.getElementById('vista').value,
+        momento: document.getElementById('momento').value,
+        oido: document.getElementById('oido').value,
+        sentimos: document.getElementById('sentimos').value,
+        olemos: document.getElementById('olemos').value,
+        sabor: document.getElementById('sabor').value,
+        palpamos: document.getElementById('palpamos').value,
+        pensamos: document.getElementById('pensamos').value,
+        ubicacion: document.getElementById('ubicacion').value
+      };
+
+      fetch("save_memories.php", {
+        method:"POST",
+        headers:{ "Content-Type":"application/json" },
+        body: JSON.stringify(memory)
+      })
+      .then(r => r.json())
+      .then(data => {
+        if (!data || !data.success) return;
+
+        memories.push(memory);
+
+        const rect = canvas.getBoundingClientRect();
+        particles.push(new Particle(
+          Math.random() * (rect.width  - 80) + 40,
+          Math.random() * (rect.height - 80) + 40,
+          Math.random() * Math.PI * 2,
+          memory
+        ));
+
+        particles.forEach(p => { p.fija = false; p.estableFrames = 0; });
+        memoryForm.reset();
+      })
+      .catch(err => console.error("Error al guardar:", err));
+    });
+
+    // ----------------------------
+    // Boot
+    // ----------------------------
+    document.addEventListener("DOMContentLoaded", () => {
+      resizeCanvas();
+      loadMemories()
+        .then(() => requestAnimationFrame(loop))
+        .catch(err => console.error("Error al cargar recuerdos:", err));
+    });
+  </script>
+</body>
+</html>
+```
+
+### colores
+<small>Creado: 2025-12-22 20:03</small>
+
+`006-colores.html`
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Memories Recorder</title>
+  <style>
+    :root{
+      --primary-color:#6a5acd;
+      --secondary-color:#9370db;
+      --background-color:#f9f7ff;
+      --text-color:#333;
+      --shadow-color:rgba(0,0,0,0.12);
+      --highlight-color:#ffeb3b;
+    }
+
+    *{ box-sizing:border-box; }
+
+    body{
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin:0;
+      padding:0;
+      display:flex;
+      height:100vh;
+      background:var(--background-color);
+      color:var(--text-color);
+      overflow:hidden;
+    }
+
+    .form-container{
+      width:360px;
+      padding:25px;
+      background:#fff;
+      box-shadow:0 4px 15px var(--shadow-color);
+      border-radius:12px;
+      margin:20px;
+      overflow-y:auto;
+      max-height:calc(100vh - 40px);
+      z-index:10;
+    }
+
+    .form-container h2{
+      color:var(--primary-color);
+      margin:0 0 14px;
+      font-size:24px;
+      text-align:center;
+    }
+
+    .form-group{ margin-bottom:15px; }
+    .form-group label{
+      display:block;
+      margin-bottom:5px;
+      font-weight:600;
+      color:var(--primary-color);
+    }
+
+    .form-group textarea,
+    .form-group input[type="text"],
+    .form-group input[type="date"]{
+      width:100%;
+      padding:10px;
+      border:1px solid #ddd;
+      border-radius:6px;
+      font-size:14px;
+      resize:vertical;
+      min-height:40px;
+    }
+
+    .form-group textarea{ min-height:60px; }
+
+    .input-with-button{
+      display:flex;
+      align-items:center;
+      gap:10px;
+    }
+
+    .record-button{
+      background:var(--secondary-color);
+      color:#fff;
+      border:none;
+      border-radius:50%;
+      width:35px;
+      height:35px;
+      cursor:pointer;
+      font-size:16px;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      transition:background-color .3s;
+      flex:0 0 auto;
+    }
+    .record-button:hover{ background:var(--primary-color); }
+
+    .form-container button[type="submit"]{
+      background:var(--primary-color);
+      color:#fff;
+      padding:12px;
+      border:none;
+      border-radius:6px;
+      cursor:pointer;
+      font-size:16px;
+      width:100%;
+      margin-top:10px;
+      transition:background-color .3s;
+    }
+    .form-container button[type="submit"]:hover{ background:#5a4fbf; }
+
+    .search-container{ margin:20px 0 0; }
+    .search-container input{
+      width:100%;
+      padding:10px;
+      border:1px solid #ddd;
+      border-radius:6px;
+      font-size:14px;
+    }
+
+    /* Emotions block */
+    .emotions{
+      margin-top:14px;
+      padding-top:14px;
+      border-top:1px solid #eee;
+    }
+    .emotions h3{
+      margin:0 0 10px;
+      font-size:14px;
+      color:var(--primary-color);
+    }
+    .emo-row{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap:10px;
+      align-items:center;
+      margin-bottom:10px;
+    }
+    .emo-label{
+      font-size:13px;
+      color:#444;
+      display:flex;
+      align-items:center;
+      gap:8px;
+    }
+    .emo-dot{
+      width:10px;height:10px;border-radius:50%;
+      box-shadow:0 1px 3px rgba(0,0,0,0.18);
+      flex:0 0 auto;
+    }
+    .emo-slider{
+      display:flex;
+      align-items:center;
+      gap:8px;
+    }
+    .emo-slider input[type="range"]{ width:100%; }
+    .emo-value{
+      width:22px;
+      text-align:right;
+      font-size:12px;
+      color:#666;
+      flex:0 0 auto;
+    }
+
+    /* Canvas stage */
+    .stage-wrap{
+      flex:1;
+      position:relative;
+      margin:20px;
+      border-radius:12px;
+      overflow:hidden;
+      background: linear-gradient(135deg, #e6e6fa 0%, #d8bfd8 100%);
+      box-shadow:0 4px 15px var(--shadow-color);
+    }
+    canvas{
+      width:100%;
+      height:100%;
+      display:block;
+      cursor: default;
+    }
+
+    /* Modal */
+    .modal{
+      display:none;
+      position:fixed;
+      z-index:1000;
+      left:0; top:0;
+      width:100%; height:100%;
+      background:rgba(0,0,0,0.5);
+      align-items:center;
+      justify-content:center;
+    }
+    .modal-content{
+      background:#fff;
+      margin:auto;
+      padding:20px;
+      border-radius:12px;
+      width:80%;
+      max-width:560px;
+      box-shadow:0 5px 15px rgba(0,0,0,0.3);
+    }
+    .modal-header{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      margin-bottom:15px;
+      padding-bottom:10px;
+      border-bottom:1px solid #eee;
+    }
+    .modal-header h3{
+      margin:0;
+      color:var(--primary-color);
+    }
+    .close-button{
+      background:none;
+      border:none;
+      font-size:20px;
+      cursor:pointer;
+      color:#aaa;
+    }
+    .close-button:hover{ color:var(--text-color); }
+    .modal-body p{ margin:8px 0; }
+    .modal-body strong{ color:var(--primary-color); }
+    .emo-badges{
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      margin:10px 0 0;
+    }
+    .badge{
+      font-size:12px;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid rgba(0,0,0,0.08);
+      background:rgba(0,0,0,0.03);
+      display:flex;
+      align-items:center;
+      gap:6px;
+    }
+    .badge .dot{
+      width:10px;height:10px;border-radius:50%;
+      box-shadow:0 1px 3px rgba(0,0,0,0.18);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="form-container">
+    <h2>Nuevo Recuerdo</h2>
+    <form id="memoryForm">
+      <div class="form-group">
+        <label for="vista">Vista:</label>
+        <div class="input-with-button">
+          <textarea id="vista" placeholder="Describe lo que viste..."></textarea>
+          <button type="button" class="record-button" data-target="vista">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="momento">Momento:</label>
+        <input type="date" id="momento">
+      </div>
+
+      <div class="form-group">
+        <label for="oido">Oído:</label>
+        <div class="input-with-button">
+          <textarea id="oido" placeholder="Describe lo que escuchaste..."></textarea>
+          <button type="button" class="record-button" data-target="oido">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="sentimos">Sentimos:</label>
+        <div class="input-with-button">
+          <textarea id="sentimos" placeholder="Describe lo que sentiste..."></textarea>
+          <button type="button" class="record-button" data-target="sentimos">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="olemos">Olemos:</label>
+        <div class="input-with-button">
+          <textarea id="olemos" placeholder="Describe lo que oliste..."></textarea>
+          <button type="button" class="record-button" data-target="olemos">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="sabor">Sabor:</label>
+        <div class="input-with-button">
+          <textarea id="sabor" placeholder="Describe lo que saboreaste..."></textarea>
+          <button type="button" class="record-button" data-target="sabor">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="palpamos">Palpamos:</label>
+        <div class="input-with-button">
+          <textarea id="palpamos" placeholder="Describe lo que tocaste..."></textarea>
+          <button type="button" class="record-button" data-target="palpamos">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="pensamos">Pensamos:</label>
+        <div class="input-with-button">
+          <textarea id="pensamos" placeholder="Describe en qué pensaste..."></textarea>
+          <button type="button" class="record-button" data-target="pensamos">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="ubicacion">Ubicación:</label>
+        <div class="input-with-button">
+          <input type="text" id="ubicacion" placeholder="¿Dónde estabas?">
+          <button type="button" class="record-button" data-target="ubicacion">🎤</button>
+        </div>
+      </div>
+
+      <!-- Ekman emotions -->
+      <div class="emotions">
+        <h3>Emociones principales (0–10)</h3>
+
+        <div class="emo-row">
+          <div class="emo-label"><span class="emo-dot" id="dot_alegria"></span>Alegría</div>
+          <div class="emo-slider">
+            <input id="alegria" type="range" min="0" max="10" value="0">
+            <span class="emo-value" id="val_alegria">0</span>
+          </div>
+        </div>
+
+        <div class="emo-row">
+          <div class="emo-label"><span class="emo-dot" id="dot_tristeza"></span>Tristeza</div>
+          <div class="emo-slider">
+            <input id="tristeza" type="range" min="0" max="10" value="0">
+            <span class="emo-value" id="val_tristeza">0</span>
+          </div>
+        </div>
+
+        <div class="emo-row">
+          <div class="emo-label"><span class="emo-dot" id="dot_miedo"></span>Miedo</div>
+          <div class="emo-slider">
+            <input id="miedo" type="range" min="0" max="10" value="0">
+            <span class="emo-value" id="val_miedo">0</span>
+          </div>
+        </div>
+
+        <div class="emo-row">
+          <div class="emo-label"><span class="emo-dot" id="dot_ira"></span>Ira</div>
+          <div class="emo-slider">
+            <input id="ira" type="range" min="0" max="10" value="0">
+            <span class="emo-value" id="val_ira">0</span>
+          </div>
+        </div>
+
+        <div class="emo-row">
+          <div class="emo-label"><span class="emo-dot" id="dot_asco"></span>Asco</div>
+          <div class="emo-slider">
+            <input id="asco" type="range" min="0" max="10" value="0">
+            <span class="emo-value" id="val_asco">0</span>
+          </div>
+        </div>
+
+        <div class="emo-row" style="margin-bottom:0;">
+          <div class="emo-label"><span class="emo-dot" id="dot_sorpresa"></span>Sorpresa</div>
+          <div class="emo-slider">
+            <input id="sorpresa" type="range" min="0" max="10" value="0">
+            <span class="emo-value" id="val_sorpresa">0</span>
+          </div>
+        </div>
+      </div>
+
+      <button type="submit">Guardar Recuerdo</button>
+    </form>
+
+    <div class="search-container">
+      <label for="search">Buscar en recuerdos:</label>
+      <input type="text" id="search" placeholder="Escribe aquí para conectar recuerdos relacionados...">
+    </div>
+  </div>
+
+  <div class="stage-wrap">
+    <canvas id="canvas"></canvas>
+  </div>
+
+  <!-- Modal -->
+  <div id="memoryModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Detalles del Recuerdo</h3>
+        <button class="close-button" id="closeModal">&times;</button>
+      </div>
+      <div class="modal-body" id="modalContent"></div>
+    </div>
+  </div>
+
+  <script>
+    // ----------------------------
+    // "Inside Out"-like palette (approx)
+    // ----------------------------
+    const EMO = [
+      { key:"alegria",  label:"Alegría",  color:[255, 215,  64] }, // yellow
+      { key:"tristeza", label:"Tristeza", color:[ 64, 156, 255] }, // blue
+      { key:"miedo",    label:"Miedo",    color:[170,  80, 220] }, // purple
+      { key:"ira",      label:"Ira",      color:[255,  80,  80] }, // red
+      { key:"asco",     label:"Asco",     color:[ 90, 200,  90] }, // green
+      { key:"sorpresa", label:"Sorpresa", color:[255, 170,  70] }, // orange
+    ];
+
+    function clamp01(x){ return Math.max(0, Math.min(1, x)); }
+
+    function mixColorsRGB(baseRGB, weights){
+      // baseRGB: array of [r,g,b] per emotion (same order as EMO)
+      // weights:  0..1 per emotion
+      let r=0,g=0,b=0, sum=0;
+      for (let i=0;i<baseRGB.length;i++){
+        const w = Math.max(0, weights[i]);
+        sum += w;
+        r += baseRGB[i][0] * w;
+        g += baseRGB[i][1] * w;
+        b += baseRGB[i][2] * w;
+      }
+      if (sum <= 0) return [255,255,255];
+      return [r/sum, g/sum, b/sum];
+    }
+
+    function dominantEmotion(emotions){
+      // emotions: object {alegria:0..10, ...}
+      let best = { key: null, val: -1 };
+      for (const e of EMO){
+        const v = Number(emotions?.[e.key] ?? 0);
+        if (v > best.val){ best = { key:e.key, val:v }; }
+      }
+      return best.key;
+    }
+
+    function bubbleColorFromEmotions(emotions){
+      // normalize 0..10 -> 0..1
+      const weights = EMO.map(e => clamp01((Number(emotions?.[e.key] ?? 0)) / 10));
+      const rgb = mixColorsRGB(EMO.map(e=>e.color), weights);
+
+      const dom = dominantEmotion(emotions);
+      const domColor = EMO.find(e=>e.key===dom)?.color || [255,255,255];
+
+      return { rgb, domColor };
+    }
+
+    // Color dots in UI
+    function rgbToCss(rgb, a=1){
+      return `rgba(${Math.round(rgb[0])},${Math.round(rgb[1])},${Math.round(rgb[2])},${a})`;
+    }
+
+    function setupEmotionUI(){
+      for (const e of EMO){
+        const slider = document.getElementById(e.key);
+        const valSpan = document.getElementById("val_"+e.key);
+        const dot = document.getElementById("dot_"+e.key);
+        dot.style.background = rgbToCss(e.color, 1);
+
+        const sync = () => { valSpan.textContent = slider.value; };
+        slider.addEventListener("input", sync);
+        sync();
+      }
+    }
+
+    function readEmotionsFromForm(){
+      const emotions = {};
+      for (const e of EMO){
+        emotions[e.key] = Number(document.getElementById(e.key).value || 0);
+      }
+      return emotions;
+    }
+
+    function resetEmotions(){
+      for (const e of EMO){
+        const slider = document.getElementById(e.key);
+        slider.value = "0";
+        document.getElementById("val_"+e.key).textContent = "0";
+      }
+    }
+
+    // ----------------------------
+    // Voice (webkitSpeechRecognition)
+    // ----------------------------
+    let recognition;
+    let currentTarget = null;
+
+    if ('webkitSpeechRecognition' in window) {
+      recognition = new webkitSpeechRecognition();
+      recognition.continuous = false;
+      recognition.interimResults = false;
+      recognition.lang = 'es-ES';
+
+      recognition.onresult = (event) => {
+        const transcript = event.results[0][0].transcript;
+        if (currentTarget) document.getElementById(currentTarget).value = transcript;
+      };
+
+      recognition.onerror = (event) => console.error('Error en grabación:', event.error);
+    } else {
+      alert('Tu navegador no soporta la grabación de voz.');
+      document.querySelectorAll('.record-button').forEach(b => b.style.display = 'none');
+    }
+
+    document.querySelectorAll('.record-button').forEach(button => {
+      button.addEventListener('click', () => {
+        currentTarget = button.getAttribute('data-target');
+        if (recognition) {
+          recognition.start();
+          button.textContent = '🛑';
+          recognition.onend = () => { button.textContent = '🎤'; };
+        }
+      });
+    });
+
+    // ----------------------------
+    // Modal
+    // ----------------------------
+    const modal = document.getElementById('memoryModal');
+    const modalContent = document.getElementById('modalContent');
+    const closeModal = document.getElementById('closeModal');
+
+    function escapeHtml(s) {
+      return String(s).replace(/[&<>"']/g, m => ({
+        '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'
+      }[m]));
+    }
+
+    function renderEmotionBadges(emotions){
+      const parts = [];
+      for (const e of EMO){
+        const v = Number(emotions?.[e.key] ?? 0);
+        if (v <= 0) continue;
+        parts.push(`
+          <span class="badge">
+            <span class="dot" style="background:${rgbToCss(e.color,1)}"></span>
+            ${escapeHtml(e.label)}: ${v}
+          </span>
+        `);
+      }
+      if (!parts.length) return `<div class="emo-badges"><span class="badge">Sin emociones registradas</span></div>`;
+      return `<div class="emo-badges">${parts.join("")}</div>`;
+    }
+
+    function showMemoryModal(memory) {
+      const emoHtml = renderEmotionBadges(memory.emociones || {});
+      modalContent.innerHTML = `
+        <p><strong>Ubicación:</strong> ${escapeHtml(memory.ubicacion || 'Sin ubicación')}</p>
+        <p><strong>Momento:</strong> ${escapeHtml(memory.momento || 'Sin fecha')}</p>
+        <p><strong>Vista:</strong> ${escapeHtml(memory.vista || 'Nada')}</p>
+        <p><strong>Oído:</strong> ${escapeHtml(memory.oido || 'Nada')}</p>
+        <p><strong>Sentimos:</strong> ${escapeHtml(memory.sentimos || 'Nada')}</p>
+        <p><strong>Olemos:</strong> ${escapeHtml(memory.olemos || 'Nada')}</p>
+        <p><strong>Sabor:</strong> ${escapeHtml(memory.sabor || 'Nada')}</p>
+        <p><strong>Palpamos:</strong> ${escapeHtml(memory.palpamos || 'Nada')}</p>
+        <p><strong>Pensamos:</strong> ${escapeHtml(memory.pensamos || 'Nada')}</p>
+        ${emoHtml}
+      `;
+      modal.style.display = 'flex';
+    }
+
+    closeModal.addEventListener('click', () => modal.style.display = 'none');
+    window.addEventListener('click', (e) => { if (e.target === modal) modal.style.display = 'none'; });
+
+    // ----------------------------
+    // Canvas + physics
+    // ----------------------------
+    const canvas = document.getElementById("canvas");
+    const ctx = canvas.getContext("2d");
+
+    function resizeCanvas() {
+      const dpr = window.devicePixelRatio || 1;
+      const rect = canvas.getBoundingClientRect();
+      canvas.width  = Math.floor(rect.width * dpr);
+      canvas.height = Math.floor(rect.height * dpr);
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    }
+    window.addEventListener("resize", resizeCanvas);
+
+    function distance2D(x1,y1,x2,y2){
+      const dx=x2-x1, dy=y2-y1;
+      return Math.sqrt(dx*dx + dy*dy);
+    }
+
+    // Tokenization
+    function tokenize(text){
+      return (text || "")
+        .toLowerCase()
+        .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+        .replace(/[^\p{L}\p{N}\s]+/gu, " ")
+        .split(/\s+/)
+        .filter(w => w.length >= 3);
+    }
+
+    function memoryTokens(memory){
+      return new Set(tokenize(Object.values(memory).join(" ")));
+    }
+
+    // Search state
+    const searchInput = document.getElementById("search");
+    let searchTerms = [];
+    searchInput.addEventListener("input", () => {
+      const raw = searchInput.value.trim().toLowerCase();
+      searchTerms = raw ? raw.split(/\s+/).filter(t => t.length >= 2) : [];
+
+      // Wake/unlock so they can re-cluster immediately
+      particles.forEach(p => {
+        p.fija = false;
+        p.estableFrames = 0;
+        p.vx *= 0.2;
+        p.vy *= 0.2;
+      });
+    });
+
+    function matchCount(tokens, terms){
+      if (!terms.length) return 0;
+      let c = 0;
+      for (const t of terms){
+        for (const w of tokens){
+          if (w.includes(t)) { c++; break; }
+        }
+      }
+      return c;
+    }
+
+    // Particles
+    let memories = [];
+    let particles = [];
+
+    class Particle{
+      constructor(x,y,a, memory){
+        this.x = x; this.y = y;
+
+        this.v = 0.45;
+        this.vx = Math.cos(a)*this.v;
+        this.vy = Math.sin(a)*this.v;
+
+        this.ax = 0; this.ay = 0;
+        this.data = memory;
+        this.tokens = memoryTokens(memory);
+
+        this.fija = false;
+        this.estableFrames = 0;
+
+        this.r = 18 + Math.random()*10;
+
+        // bubble tint derived from emotions
+        const emo = bubbleColorFromEmotions(memory.emociones || {});
+        this.tint = emo.rgb;          // main mixture color
+        this.domColor = emo.domColor; // dominant emotion accent
+      }
+
+      score(){ return matchCount(this.tokens, searchTerms); }
+
+      interactions(width,height){
+        if (this.fija){ this.ax=0; this.ay=0; return; }
+
+        const searching = searchTerms.length > 0;
+        const myScore = this.score();
+        const amActive = searching && myScore > 0;
+
+        const distMin        = 62;
+        const distRepelMid   = 260;
+        const distRepelOuter = 520;
+
+        const kRepelClose = 0.11;
+        const kRepelMid   = 0.0018;
+        const kRepelOuter = 0.00025;
+
+        const kAttractFar  = 0.00055;
+        const kAttractNear = 0.00125;
+        const distTarget   = 190;
+
+        const kCenterPull = 0.00095;
+        const center = { x: width * 0.5, y: height * 0.5 };
+
+        let fx=0, fy=0;
+
+        if (amActive) {
+          const dxC = center.x - this.x;
+          const dyC = center.y - this.y;
+          fx += dxC * kCenterPull;
+          fy += dyC * kCenterPull;
+        }
+
+        for (const p of particles){
+          if (p === this) continue;
+
+          const d = distance2D(this.x,this.y,p.x,p.y);
+          if (d === 0) continue;
+
+          const dx = p.x - this.x;
+          const dy = p.y - this.y;
+          const ux = dx / d;
+          const uy = dy / d;
+
+          if (d < distMin){
+            const intensity = (distMin - d) * kRepelClose;
+            fx -= ux * intensity;
+            fy -= uy * intensity;
+            continue;
+          }
+
+          if (d < distRepelMid){
+            const intensity = (distRepelMid - d) * kRepelMid;
+            fx -= ux * intensity;
+            fy -= uy * intensity;
+          } else if (d < distRepelOuter){
+            const intensity = (distRepelOuter - d) * kRepelOuter;
+            fx -= ux * intensity;
+            fy -= uy * intensity;
+          }
+
+          if (!searching) continue;
+
+          const otherScore = p.score();
+          const otherActive = otherScore > 0;
+
+          if (amActive && otherActive){
+            const weight = 0.75 + 0.20 * Math.min(6, Math.min(myScore, otherScore));
+            fx += ux * (kAttractFar * weight * d);
+            fy += uy * (kAttractFar * weight * d);
+
+            const delta = d - distTarget;
+            fx += ux * (delta * kAttractNear * weight);
+            fy += uy * (delta * kAttractNear * weight);
+          }
+        }
+
+        const maxForce = 0.11;
+        const mag = Math.sqrt(fx*fx + fy*fy);
+        if (mag > maxForce){
+          fx = fx/mag*maxForce;
+          fy = fy/mag*maxForce;
+        }
+
+        this.ax = fx;
+        this.ay = fy;
+      }
+
+      move(width,height){
+        if (this.fija) return;
+
+        this.vx += this.ax;
+        this.vy += this.ay;
+
+        const searching = searchTerms.length > 0;
+        const friction = searching ? 0.90 : 0.925;
+        this.vx *= friction;
+        this.vy *= friction;
+
+        this.x += this.vx;
+        this.y += this.vy;
+
+        const speed = Math.sqrt(this.vx*this.vx + this.vy*this.vy);
+        const force = Math.sqrt(this.ax*this.ax + this.ay*this.ay);
+        if (!searching && speed < 0.02 && force < 0.002){
+          this.estableFrames++;
+          if (this.estableFrames > 60){
+            this.fija = true;
+            this.vx=0; this.vy=0;
+          }
+        } else {
+          this.estableFrames = 0;
+        }
+
+        const pad = this.r + 10;
+        const rebound = -0.5;
+
+        if (this.x > width - pad){ this.x = width - pad; this.vx *= rebound; }
+        if (this.x < pad){ this.x = pad; this.vx *= rebound; }
+        if (this.y > height - pad){ this.y = height - pad; this.vy *= rebound; }
+        if (this.y < pad){ this.y = pad; this.vy *= rebound; }
+      }
+
+      drawBubble(){
+        const x = this.x, y = this.y, r = this.r;
+
+        // Shadow
+        ctx.save();
+        ctx.globalAlpha = 0.18;
+        ctx.beginPath();
+        ctx.ellipse(x + r*0.25, y + r*0.40, r*0.95, r*0.75, 0, 0, Math.PI*2);
+        ctx.fillStyle = "rgba(0,0,0,0.35)";
+        ctx.fill();
+        ctx.restore();
+
+        // Glass + tint: base glass gradient + colored glaze overlay
+        const glass = ctx.createRadialGradient(x - r*0.35, y - r*0.35, r*0.2, x, y, r);
+        glass.addColorStop(0, "rgba(255,255,255,0.75)");
+        glass.addColorStop(0.35, "rgba(255,255,255,0.20)");
+        glass.addColorStop(1, "rgba(255,255,255,0.10)");
+
+        ctx.beginPath();
+        ctx.arc(x, y, r, 0, Math.PI*2);
+        ctx.fillStyle = glass;
+        ctx.fill();
+
+        // Tint overlay (emotion mixture)
+        ctx.save();
+        ctx.globalCompositeOperation = "source-atop";
+        ctx.globalAlpha = 0.38; // strength of emotion color
+        ctx.beginPath();
+        ctx.arc(x, y, r, 0, Math.PI*2);
+        ctx.fillStyle = rgbToCss(this.tint, 1);
+        ctx.fill();
+        ctx.restore();
+
+        // Border (dominant emotion accent) + search highlight
+        const score = this.score();
+        const borderColor = score > 0 ? [255,235,59] : this.domColor;
+
+        ctx.beginPath();
+        ctx.arc(x, y, r, 0, Math.PI*2);
+        ctx.lineWidth = score > 0 ? 2.6 : 1.6;
+        ctx.strokeStyle = rgbToCss(borderColor, score > 0 ? 0.95 : 0.65);
+        ctx.stroke();
+
+        // Glint
+        ctx.beginPath();
+        ctx.arc(x - r*0.25, y - r*0.25, r*0.25, 0, Math.PI*2);
+        ctx.fillStyle = "rgba(255,255,255,0.58)";
+        ctx.fill();
+
+        // Inner ring
+        ctx.beginPath();
+        ctx.arc(x, y, r*0.82, 0, Math.PI*2);
+        ctx.lineWidth = 1;
+        ctx.strokeStyle = "rgba(255,255,255,0.30)";
+        ctx.stroke();
+      }
+
+      hitTest(mx,my){
+        const d = distance2D(mx,my,this.x,this.y);
+        return d <= this.r + 6;
+      }
+    }
+
+    function drawConnections(){
+      if (searchTerms.length === 0) return;
+
+      const maxLinkDist = 360;
+
+      for (let i=0;i<particles.length;i++){
+        const a = particles[i];
+        const sa = a.score();
+        if (sa <= 0) continue;
+
+        for (let j=i+1;j<particles.length;j++){
+          const b = particles[j];
+          const sb = b.score();
+          if (sb <= 0) continue;
+
+          const d = distance2D(a.x,a.y,b.x,b.y);
+          if (d > maxLinkDist) continue;
+
+          const relevance = Math.min(10, sa + sb);
+          const alpha = Math.max(0.05, 0.34 * (1 - d/maxLinkDist));
+          const w = 1 + Math.min(8, relevance * 0.35);
+
+          ctx.strokeStyle = `rgba(147,112,219,${alpha})`;
+          ctx.lineWidth = w;
+          ctx.lineCap = "round";
+
+          ctx.beginPath();
+          ctx.moveTo(a.x, a.y);
+          ctx.lineTo(b.x, b.y);
+          ctx.stroke();
+        }
+      }
+    }
+
+    function loop(){
+      const rect = canvas.getBoundingClientRect();
+      const w = rect.width;
+      const h = rect.height;
+
+      ctx.clearRect(0,0,w,h);
+
+      for (const p of particles) p.interactions(w,h);
+      for (const p of particles) p.move(w,h);
+
+      drawConnections();
+      for (const p of particles) p.drawBubble();
+
+      requestAnimationFrame(loop);
+    }
+
+    canvas.addEventListener("click", (e) => {
+      const rect = canvas.getBoundingClientRect();
+      const mx = e.clientX - rect.left;
+      const my = e.clientY - rect.top;
+
+      for (let i = particles.length - 1; i >= 0; i--){
+        if (particles[i].hitTest(mx,my)){
+          showMemoryModal(particles[i].data);
+          return;
+        }
+      }
+    });
+
+    // ----------------------------
+    // Load + Save (same PHP endpoint)
+    // ----------------------------
+    const memoryForm = document.getElementById('memoryForm');
+
+    function loadMemories(){
+      return fetch("save_memories.php")
+        .then(r => r.json())
+        .then(list => {
+          memories = Array.isArray(list) ? list : [];
+          const rect = canvas.getBoundingClientRect();
+          particles = memories.map(m => new Particle(
+            Math.random() * (rect.width  - 80) + 40,
+            Math.random() * (rect.height - 80) + 40,
+            Math.random() * Math.PI * 2,
+            normalizeMemoryEmotions(m)
+          ));
+        });
+    }
+
+    function normalizeMemoryEmotions(m){
+      // Backward compatible:
+      // - if memory.emociones doesn't exist, create it with zeros
+      if (!m.emociones) {
+        m.emociones = {};
+        for (const e of EMO) m.emociones[e.key] = 0;
+      } else {
+        for (const e of EMO) {
+          if (m.emociones[e.key] === undefined) m.emociones[e.key] = 0;
+          m.emociones[e.key] = Number(m.emociones[e.key] || 0);
+        }
+      }
+      return m;
+    }
+
+    memoryForm.addEventListener("submit", (e) => {
+      e.preventDefault();
+
+      const emotions = readEmotionsFromForm();
+
+      const memory = normalizeMemoryEmotions({
+        vista: document.getElementById('vista').value,
+        momento: document.getElementById('momento').value,
+        oido: document.getElementById('oido').value,
+        sentimos: document.getElementById('sentimos').value,
+        olemos: document.getElementById('olemos').value,
+        sabor: document.getElementById('sabor').value,
+        palpamos: document.getElementById('palpamos').value,
+        pensamos: document.getElementById('pensamos').value,
+        ubicacion: document.getElementById('ubicacion').value,
+        emociones: emotions
+      });
+
+      fetch("save_memories.php", {
+        method:"POST",
+        headers:{ "Content-Type":"application/json" },
+        body: JSON.stringify(memory)
+      })
+      .then(r => r.json())
+      .then(data => {
+        if (!data || !data.success) return;
+
+        memories.push(memory);
+
+        const rect = canvas.getBoundingClientRect();
+        particles.push(new Particle(
+          Math.random() * (rect.width  - 80) + 40,
+          Math.random() * (rect.height - 80) + 40,
+          Math.random() * Math.PI * 2,
+          memory
+        ));
+
+        particles.forEach(p => { p.fija = false; p.estableFrames = 0; });
+        memoryForm.reset();
+        resetEmotions();
+      })
+      .catch(err => console.error("Error al guardar:", err));
+    });
+
+    // ----------------------------
+    // Boot
+    // ----------------------------
+    document.addEventListener("DOMContentLoaded", () => {
+      setupEmotionUI();
+      resizeCanvas();
+      loadMemories()
+        .then(() => requestAnimationFrame(loop))
+        .catch(err => console.error("Error al cargar recuerdos:", err));
+    });
+  </script>
+</body>
+</html>
+```
+
+### aprendizaje
+<small>Creado: 2025-12-22 20:03</small>
+
+`007-aprendizaje.html`
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Memories Recorder</title>
+  <style>
+    :root{
+      --primary-color:#6a5acd;
+      --secondary-color:#9370db;
+      --background-color:#f9f7ff;
+      --text-color:#333;
+      --shadow-color:rgba(0,0,0,0.12);
+      --highlight-color:#ffeb3b;
+    }
+
+    *{ box-sizing:border-box; }
+
+    body{
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin:0;
+      padding:0;
+      display:flex;
+      height:100vh;
+      background:var(--background-color);
+      color:var(--text-color);
+      overflow:hidden;
+    }
+
+    .form-container{
+      width:360px;
+      padding:25px;
+      background:#fff;
+      box-shadow:0 4px 15px var(--shadow-color);
+      border-radius:12px;
+      margin:20px;
+      overflow-y:auto;
+      max-height:calc(100vh - 40px);
+      z-index:10;
+    }
+
+    .form-container h2{
+      color:var(--primary-color);
+      margin:0 0 14px;
+      font-size:24px;
+      text-align:center;
+    }
+
+    .form-group{ margin-bottom:15px; }
+    .form-group label{
+      display:block;
+      margin-bottom:5px;
+      font-weight:600;
+      color:var(--primary-color);
+    }
+
+    .form-group textarea,
+    .form-group input[type="text"],
+    .form-group input[type="date"]{
+      width:100%;
+      padding:10px;
+      border:1px solid #ddd;
+      border-radius:6px;
+      font-size:14px;
+      resize:vertical;
+      min-height:40px;
+    }
+
+    .form-group textarea{ min-height:60px; }
+
+    .input-with-button{
+      display:flex;
+      align-items:center;
+      gap:10px;
+    }
+
+    .record-button{
+      background:var(--secondary-color);
+      color:#fff;
+      border:none;
+      border-radius:50%;
+      width:35px;
+      height:35px;
+      cursor:pointer;
+      font-size:16px;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      transition:background-color .3s;
+      flex:0 0 auto;
+    }
+    .record-button:hover{ background:var(--primary-color); }
+
+    .form-container button[type="submit"]{
+      background:var(--primary-color);
+      color:#fff;
+      padding:12px;
+      border:none;
+      border-radius:6px;
+      cursor:pointer;
+      font-size:16px;
+      width:100%;
+      margin-top:10px;
+      transition:background-color .3s;
+    }
+    .form-container button[type="submit"]:hover{ background:#5a4fbf; }
+
+    .search-container{ margin:20px 0 0; }
+    .search-container input{
+      width:100%;
+      padding:10px;
+      border:1px solid #ddd;
+      border-radius:6px;
+      font-size:14px;
+    }
+
+    /* Emotions block */
+    .emotions{
+      margin-top:14px;
+      padding-top:14px;
+      border-top:1px solid #eee;
+    }
+    .emotions h3{
+      margin:0 0 10px;
+      font-size:14px;
+      color:var(--primary-color);
+    }
+    .emo-row{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap:10px;
+      align-items:center;
+      margin-bottom:10px;
+    }
+    .emo-label{
+      font-size:13px;
+      color:#444;
+      display:flex;
+      align-items:center;
+      gap:8px;
+    }
+    .emo-dot{
+      width:10px;height:10px;border-radius:50%;
+      box-shadow:0 1px 3px rgba(0,0,0,0.18);
+      flex:0 0 auto;
+    }
+    .emo-slider{
+      display:flex;
+      align-items:center;
+      gap:8px;
+    }
+    .emo-slider input[type="range"]{ width:100%; }
+    .emo-value{
+      width:22px;
+      text-align:right;
+      font-size:12px;
+      color:#666;
+      flex:0 0 auto;
+    }
+
+    /* Canvas stage */
+    .stage-wrap{
+      flex:1;
+      position:relative;
+      margin:20px;
+      border-radius:12px;
+      overflow:hidden;
+      background: linear-gradient(135deg, #e6e6fa 0%, #d8bfd8 100%);
+      box-shadow:0 4px 15px var(--shadow-color);
+    }
+    canvas{
+      width:100%;
+      height:100%;
+      display:block;
+      cursor: default;
+    }
+
+    /* Modal */
+    .modal{
+      display:none;
+      position:fixed;
+      z-index:1000;
+      left:0; top:0;
+      width:100%; height:100%;
+      background:rgba(0,0,0,0.5);
+      align-items:center;
+      justify-content:center;
+    }
+    .modal-content{
+      background:#fff;
+      margin:auto;
+      padding:20px;
+      border-radius:12px;
+      width:80%;
+      max-width:560px;
+      box-shadow:0 5px 15px rgba(0,0,0,0.3);
+    }
+    .modal-header{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      margin-bottom:15px;
+      padding-bottom:10px;
+      border-bottom:1px solid #eee;
+    }
+    .modal-header h3{
+      margin:0;
+      color:var(--primary-color);
+    }
+    .close-button{
+      background:none;
+      border:none;
+      font-size:20px;
+      cursor:pointer;
+      color:#aaa;
+    }
+    .close-button:hover{ color:var(--text-color); }
+    .modal-body p{ margin:8px 0; }
+    .modal-body strong{ color:var(--primary-color); }
+    .emo-badges{
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      margin:10px 0 0;
+    }
+    .badge{
+      font-size:12px;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid rgba(0,0,0,0.08);
+      background:rgba(0,0,0,0.03);
+      display:flex;
+      align-items:center;
+      gap:6px;
+    }
+    .badge .dot{
+      width:10px;height:10px;border-radius:50%;
+      box-shadow:0 1px 3px rgba(0,0,0,0.18);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="form-container">
+    <h2>Nuevo Recuerdo</h2>
+    <form id="memoryForm">
+      <div class="form-group">
+        <label for="vista">Vista:</label>
+        <div class="input-with-button">
+          <textarea id="vista" placeholder="Describe lo que viste..."></textarea>
+          <button type="button" class="record-button" data-target="vista">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="momento">Momento:</label>
+        <input type="date" id="momento">
+      </div>
+
+      <div class="form-group">
+        <label for="oido">Oído:</label>
+        <div class="input-with-button">
+          <textarea id="oido" placeholder="Describe lo que escuchaste..."></textarea>
+          <button type="button" class="record-button" data-target="oido">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="sentimos">Sentimos:</label>
+        <div class="input-with-button">
+          <textarea id="sentimos" placeholder="Describe lo que sentiste..."></textarea>
+          <button type="button" class="record-button" data-target="sentimos">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="olemos">Olemos:</label>
+        <div class="input-with-button">
+          <textarea id="olemos" placeholder="Describe lo que oliste..."></textarea>
+          <button type="button" class="record-button" data-target="olemos">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="sabor">Sabor:</label>
+        <div class="input-with-button">
+          <textarea id="sabor" placeholder="Describe lo que saboreaste..."></textarea>
+          <button type="button" class="record-button" data-target="sabor">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="palpamos">Palpamos:</label>
+        <div class="input-with-button">
+          <textarea id="palpamos" placeholder="Describe lo que tocaste..."></textarea>
+          <button type="button" class="record-button" data-target="palpamos">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="pensamos">Pensamos:</label>
+        <div class="input-with-button">
+          <textarea id="pensamos" placeholder="Describe en qué pensaste..."></textarea>
+          <button type="button" class="record-button" data-target="pensamos">🎤</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="ubicacion">Ubicación:</label>
+        <div class="input-with-button">
+          <input type="text" id="ubicacion" placeholder="¿Dónde estabas?">
+          <button type="button" class="record-button" data-target="ubicacion">🎤</button>
+        </div>
+      </div>
+
+      <!-- NEW: Lecciones aprendidas -->
+      <div class="form-group">
+        <label for="lecciones">Lecciones aprendidas:</label>
+        <div class="input-with-button">
+          <textarea id="lecciones" placeholder="¿Qué has aprendido de este recuerdo?"></textarea>
+          <button type="button" class="record-button" data-target="lecciones">🎤</button>
+        </div>
+      </div>
+
+      <!-- Ekman emotions -->
+      <div class="emotions">
+        <h3>Emociones principales (0–10)</h3>
+
+        <div class="emo-row">
+          <div class="emo-label"><span class="emo-dot" id="dot_alegria"></span>Alegría</div>
+          <div class="emo-slider">
+            <input id="alegria" type="range" min="0" max="10" value="0">
+            <span class="emo-value" id="val_alegria">0</span>
+          </div>
+        </div>
+
+        <div class="emo-row">
+          <div class="emo-label"><span class="emo-dot" id="dot_tristeza"></span>Tristeza</div>
+          <div class="emo-slider">
+            <input id="tristeza" type="range" min="0" max="10" value="0">
+            <span class="emo-value" id="val_tristeza">0</span>
+          </div>
+        </div>
+
+        <div class="emo-row">
+          <div class="emo-label"><span class="emo-dot" id="dot_miedo"></span>Miedo</div>
+          <div class="emo-slider">
+            <input id="miedo" type="range" min="0" max="10" value="0">
+            <span class="emo-value" id="val_miedo">0</span>
+          </div>
+        </div>
+
+        <div class="emo-row">
+          <div class="emo-label"><span class="emo-dot" id="dot_ira"></span>Ira</div>
+          <div class="emo-slider">
+            <input id="ira" type="range" min="0" max="10" value="0">
+            <span class="emo-value" id="val_ira">0</span>
+          </div>
+        </div>
+
+        <div class="emo-row">
+          <div class="emo-label"><span class="emo-dot" id="dot_asco"></span>Asco</div>
+          <div class="emo-slider">
+            <input id="asco" type="range" min="0" max="10" value="0">
+            <span class="emo-value" id="val_asco">0</span>
+          </div>
+        </div>
+
+        <div class="emo-row" style="margin-bottom:0;">
+          <div class="emo-label"><span class="emo-dot" id="dot_sorpresa"></span>Sorpresa</div>
+          <div class="emo-slider">
+            <input id="sorpresa" type="range" min="0" max="10" value="0">
+            <span class="emo-value" id="val_sorpresa">0</span>
+          </div>
+        </div>
+      </div>
+
+      <button type="submit">Guardar Recuerdo</button>
+    </form>
+
+    <div class="search-container">
+      <label for="search">Buscar en recuerdos:</label>
+      <input type="text" id="search" placeholder="Escribe aquí para conectar recuerdos relacionados...">
+    </div>
+  </div>
+
+  <div class="stage-wrap">
+    <canvas id="canvas"></canvas>
+  </div>
+
+  <!-- Modal -->
+  <div id="memoryModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Detalles del Recuerdo</h3>
+        <button class="close-button" id="closeModal">&times;</button>
+      </div>
+      <div class="modal-body" id="modalContent"></div>
+    </div>
+  </div>
+
+  <script>
+    // ----------------------------
+    // "Inside Out"-like palette (approx)
+    // ----------------------------
+    const EMO = [
+      { key:"alegria",  label:"Alegría",  color:[255, 215,  64] }, // yellow
+      { key:"tristeza", label:"Tristeza", color:[ 64, 156, 255] }, // blue
+      { key:"miedo",    label:"Miedo",    color:[170,  80, 220] }, // purple
+      { key:"ira",      label:"Ira",      color:[255,  80,  80] }, // red
+      { key:"asco",     label:"Asco",     color:[ 90, 200,  90] }, // green
+      { key:"sorpresa", label:"Sorpresa", color:[255, 170,  70] }, // orange
+    ];
+
+    function clamp01(x){ return Math.max(0, Math.min(1, x)); }
+
+    function mixColorsRGB(baseRGB, weights){
+      let r=0,g=0,b=0, sum=0;
+      for (let i=0;i<baseRGB.length;i++){
+        const w = Math.max(0, weights[i]);
+        sum += w;
+        r += baseRGB[i][0] * w;
+        g += baseRGB[i][1] * w;
+        b += baseRGB[i][2] * w;
+      }
+      if (sum <= 0) return [255,255,255];
+      return [r/sum, g/sum, b/sum];
+    }
+
+    function bubbleColorFromEmotions(emotions){
+      const weights = EMO.map(e => clamp01((Number(emotions?.[e.key] ?? 0)) / 10));
+      const rgb = mixColorsRGB(EMO.map(e=>e.color), weights);
+      return { rgb };
+    }
+
+    function rgbToCss(rgb, a=1){
+      return `rgba(${Math.round(rgb[0])},${Math.round(rgb[1])},${Math.round(rgb[2])},${a})`;
+    }
+
+    function setupEmotionUI(){
+      for (const e of EMO){
+        const slider = document.getElementById(e.key);
+        const valSpan = document.getElementById("val_"+e.key);
+        const dot = document.getElementById("dot_"+e.key);
+        dot.style.background = rgbToCss(e.color, 1);
+
+        const sync = () => { valSpan.textContent = slider.value; };
+        slider.addEventListener("input", sync);
+        sync();
+      }
+    }
+
+    function readEmotionsFromForm(){
+      const emotions = {};
+      for (const e of EMO){
+        emotions[e.key] = Number(document.getElementById(e.key).value || 0);
+      }
+      return emotions;
+    }
+
+    function resetEmotions(){
+      for (const e of EMO){
+        const slider = document.getElementById(e.key);
+        slider.value = "0";
+        document.getElementById("val_"+e.key).textContent = "0";
+      }
+    }
+
+    // ----------------------------
+    // Voice (webkitSpeechRecognition)
+    // ----------------------------
+    let recognition;
+    let currentTarget = null;
+
+    if ('webkitSpeechRecognition' in window) {
+      recognition = new webkitSpeechRecognition();
+      recognition.continuous = false;
+      recognition.interimResults = false;
+      recognition.lang = 'es-ES';
+
+      recognition.onresult = (event) => {
+        const transcript = event.results[0][0].transcript;
+        if (currentTarget) document.getElementById(currentTarget).value = transcript;
+      };
+
+      recognition.onerror = (event) => console.error('Error en grabación:', event.error);
+    } else {
+      alert('Tu navegador no soporta la grabación de voz.');
+      document.querySelectorAll('.record-button').forEach(b => b.style.display = 'none');
+    }
+
+    document.querySelectorAll('.record-button').forEach(button => {
+      button.addEventListener('click', () => {
+        currentTarget = button.getAttribute('data-target');
+        if (recognition) {
+          recognition.start();
+          button.textContent = '🛑';
+          recognition.onend = () => { button.textContent = '🎤'; };
+        }
+      });
+    });
+
+    // ----------------------------
+    // Modal
+    // ----------------------------
+    const modal = document.getElementById('memoryModal');
+    const modalContent = document.getElementById('modalContent');
+    const closeModal = document.getElementById('closeModal');
+
+    function escapeHtml(s) {
+      return String(s).replace(/[&<>"']/g, m => ({
+        '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'
+      }[m]));
+    }
+
+    function renderEmotionBadges(emotions){
+      const parts = [];
+      for (const e of EMO){
+        const v = Number(emotions?.[e.key] ?? 0);
+        if (v <= 0) continue;
+        parts.push(`
+          <span class="badge">
+            <span class="dot" style="background:${rgbToCss(e.color,1)}"></span>
+            ${escapeHtml(e.label)}: ${v}
+          </span>
+        `);
+      }
+      if (!parts.length) return `<div class="emo-badges"><span class="badge">Sin emociones registradas</span></div>`;
+      return `<div class="emo-badges">${parts.join("")}</div>`;
+    }
+
+    function showMemoryModal(memory) {
+      const emoHtml = renderEmotionBadges(memory.emociones || {});
+      modalContent.innerHTML = `
+        <p><strong>Ubicación:</strong> ${escapeHtml(memory.ubicacion || 'Sin ubicación')}</p>
+        <p><strong>Momento:</strong> ${escapeHtml(memory.momento || 'Sin fecha')}</p>
+        <p><strong>Vista:</strong> ${escapeHtml(memory.vista || 'Nada')}</p>
+        <p><strong>Oído:</strong> ${escapeHtml(memory.oido || 'Nada')}</p>
+        <p><strong>Sentimos:</strong> ${escapeHtml(memory.sentimos || 'Nada')}</p>
+        <p><strong>Olemos:</strong> ${escapeHtml(memory.olemos || 'Nada')}</p>
+        <p><strong>Sabor:</strong> ${escapeHtml(memory.sabor || 'Nada')}</p>
+        <p><strong>Palpamos:</strong> ${escapeHtml(memory.palpamos || 'Nada')}</p>
+        <p><strong>Pensamos:</strong> ${escapeHtml(memory.pensamos || 'Nada')}</p>
+        <p><strong>Lecciones aprendidas:</strong> ${escapeHtml(memory.lecciones || '')}</p>
+        ${emoHtml}
+      `;
+      modal.style.display = 'flex';
+    }
+
+    closeModal.addEventListener('click', () => {
+      modal.style.display = 'none';
+    });
+    window.addEventListener('click', (e) => {
+      if (e.target === modal) modal.style.display = 'none';
+    });
+
+    // ----------------------------
+    // Canvas + physics
+    // ----------------------------
+    const canvas = document.getElementById("canvas");
+    const ctx = canvas.getContext("2d");
+
+    function resizeCanvas() {
+      const dpr = window.devicePixelRatio || 1;
+      const rect = canvas.getBoundingClientRect();
+      canvas.width  = Math.floor(rect.width * dpr);
+      canvas.height = Math.floor(rect.height * dpr);
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    }
+    window.addEventListener("resize", resizeCanvas);
+
+    function distance2D(x1,y1,x2,y2){
+      const dx=x2-x1, dy=y2-y1;
+      return Math.sqrt(dx*dx + dy*dy);
+    }
+
+    // Tokenization
+    function tokenize(text){
+      return (text || "")
+        .toLowerCase()
+        .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+        .replace(/[^\p{L}\p{N}\s]+/gu, " ")
+        .split(/\s+/)
+        .filter(w => w.length >= 3);
+    }
+
+    function memoryTokens(memory){
+      // include "lecciones" too (and ignore emociones object)
+      const fields = [
+        memory.vista, memory.momento, memory.oido, memory.sentimos,
+        memory.olemos, memory.sabor, memory.palpamos, memory.pensamos,
+        memory.ubicacion, memory.lecciones
+      ];
+      return new Set(tokenize(fields.join(" ")));
+    }
+
+    // Search state
+    const searchInput = document.getElementById("search");
+    let searchTerms = [];
+    searchInput.addEventListener("input", () => {
+      const raw = searchInput.value.trim().toLowerCase();
+      searchTerms = raw ? raw.split(/\s+/).filter(t => t.length >= 2) : [];
+
+      particles.forEach(p => {
+        p.fija = false;
+        p.estableFrames = 0;
+        p.vx *= 0.2;
+        p.vy *= 0.2;
+      });
+    });
+
+    function matchCount(tokens, terms){
+      if (!terms.length) return 0;
+      let c = 0;
+      for (const t of terms){
+        for (const w of tokens){
+          if (w.includes(t)) { c++; break; }
+        }
+      }
+      return c;
+    }
+
+    // Particles
+    let memories = [];
+    let particles = [];
+    let selectedParticleId = null;
+
+    class Particle{
+      constructor(x,y,a, memory){
+        this.x = x; this.y = y;
+
+        this.v = 0.45;
+        this.vx = Math.cos(a)*this.v;
+        this.vy = Math.sin(a)*this.v;
+
+        this.ax = 0; this.ay = 0;
+        this.data = memory;
+        this.tokens = memoryTokens(memory);
+
+        this.fija = false;
+        this.estableFrames = 0;
+
+        this.r = 18 + Math.random()*10;
+
+        const emo = bubbleColorFromEmotions(memory.emociones || {});
+        this.tint = emo.rgb;
+
+        this.id = (memory._id || (Date.now() + "-" + Math.random().toString(16).slice(2)));
+        memory._id = this.id;
+      }
+
+      score(){ return matchCount(this.tokens, searchTerms); }
+      isSelected(){ return this.id === selectedParticleId; }
+
+      interactions(width,height){
+        if (this.fija){ this.ax=0; this.ay=0; return; }
+
+        const searching = searchTerms.length > 0;
+        const myScore = this.score();
+        const amActive = searching && myScore > 0;
+
+        const distMin        = 62;
+        const distRepelMid   = 260;
+        const distRepelOuter = 520;
+
+        const kRepelClose = 0.11;
+        const kRepelMid   = 0.0018;
+        const kRepelOuter = 0.00025;
+
+        const kAttractFar  = 0.00055;
+        const kAttractNear = 0.00125;
+        const distTarget   = 190;
+
+        const kCenterPull = 0.00095;
+        const center = { x: width * 0.5, y: height * 0.5 };
+
+        let fx=0, fy=0;
+
+        if (amActive) {
+          const dxC = center.x - this.x;
+          const dyC = center.y - this.y;
+          fx += dxC * kCenterPull;
+          fy += dyC * kCenterPull;
+        }
+
+        for (const p of particles){
+          if (p === this) continue;
+
+          const d = distance2D(this.x,this.y,p.x,p.y);
+          if (d === 0) continue;
+
+          const dx = p.x - this.x;
+          const dy = p.y - this.y;
+          const ux = dx / d;
+          const uy = dy / d;
+
+          if (d < distMin){
+            const intensity = (distMin - d) * kRepelClose;
+            fx -= ux * intensity;
+            fy -= uy * intensity;
+            continue;
+          }
+
+          if (d < distRepelMid){
+            const intensity = (distRepelMid - d) * kRepelMid;
+            fx -= ux * intensity;
+            fy -= uy * intensity;
+          } else if (d < distRepelOuter){
+            const intensity = (distRepelOuter - d) * kRepelOuter;
+            fx -= ux * intensity;
+            fy -= uy * intensity;
+          }
+
+          if (!searching) continue;
+
+          const otherScore = p.score();
+          const otherActive = otherScore > 0;
+
+          if (amActive && otherActive){
+            const weight = 0.75 + 0.20 * Math.min(6, Math.min(myScore, otherScore));
+            fx += ux * (kAttractFar * weight * d);
+            fy += uy * (kAttractFar * weight * d);
+
+            const delta = d - distTarget;
+            fx += ux * (delta * kAttractNear * weight);
+            fy += uy * (delta * kAttractNear * weight);
+          }
+        }
+
+        const maxForce = 0.11;
+        const mag = Math.sqrt(fx*fx + fy*fy);
+        if (mag > maxForce){
+          fx = fx/mag*maxForce;
+          fy = fy/mag*maxForce;
+        }
+
+        this.ax = fx;
+        this.ay = fy;
+      }
+
+      move(width,height){
+        if (this.fija) return;
+
+        this.vx += this.ax;
+        this.vy += this.ay;
+
+        const searching = searchTerms.length > 0;
+        const friction = searching ? 0.90 : 0.925;
+        this.vx *= friction;
+        this.vy *= friction;
+
+        this.x += this.vx;
+        this.y += this.vy;
+
+        const speed = Math.sqrt(this.vx*this.vx + this.vy*this.vy);
+        const force = Math.sqrt(this.ax*this.ax + this.ay*this.ay);
+        if (!searching && speed < 0.02 && force < 0.002){
+          this.estableFrames++;
+          if (this.estableFrames > 60){
+            this.fija = true;
+            this.vx=0; this.vy=0;
+          }
+        } else {
+          this.estableFrames = 0;
+        }
+
+        const pad = this.r + 10;
+        const rebound = -0.5;
+
+        if (this.x > width - pad){ this.x = width - pad; this.vx *= rebound; }
+        if (this.x < pad){ this.x = pad; this.vx *= rebound; }
+        if (this.y > height - pad){ this.y = height - pad; this.vy *= rebound; }
+        if (this.y < pad){ this.y = pad; this.vy *= rebound; }
+      }
+
+      drawBubble(){
+        const x = this.x, y = this.y, r = this.r;
+
+        // Shadow
+        ctx.save();
+        ctx.globalAlpha = 0.18;
+        ctx.beginPath();
+        ctx.ellipse(x + r*0.25, y + r*0.40, r*0.95, r*0.75, 0, 0, Math.PI*2);
+        ctx.fillStyle = "rgba(0,0,0,0.35)";
+        ctx.fill();
+        ctx.restore();
+
+        // Base glass
+        const glass = ctx.createRadialGradient(x - r*0.35, y - r*0.35, r*0.2, x, y, r);
+        glass.addColorStop(0, "rgba(255,255,255,0.65)");
+glass.addColorStop(0.35, "rgba(255,255,255,0.18)");
+glass.addColorStop(1, "rgba(255,255,255,0.08)");
+
+        ctx.beginPath();
+        ctx.arc(x, y, r, 0, Math.PI*2);
+        ctx.fillStyle = glass;
+        ctx.fill();
+
+        // NEW: Color INSIDE bubble (emotion) - keep translucent, with depth
+        ctx.save();
+        ctx.globalCompositeOperation = "multiply";
+        ctx.beginPath();
+        ctx.arc(x, y, r, 0, Math.PI*2);
+        const inner = ctx.createRadialGradient(x - r*0.95, y - r*0.95, r*0.95, x, y, r);
+        inner.addColorStop(0, rgbToCss(this.tint, 1.0));
+inner.addColorStop(1, rgbToCss(this.tint, 0.95));
+        ctx.fillStyle = inner;
+        ctx.fill();
+        ctx.restore();
+
+        // Border: neutral by default; yellow if selected or matched
+        const score = this.score();
+        const highlighted = this.isSelected() || score > 0;
+
+        ctx.beginPath();
+        ctx.arc(x, y, r, 0, Math.PI*2);
+        ctx.lineWidth = highlighted ? 8.8 : 1.4;
+        ctx.strokeStyle = highlighted ? "rgba(0,0,0,0.95)" : "rgba(255,255,255,0.65)";
+        ctx.stroke();
+
+        // Glint
+        ctx.beginPath();
+        ctx.arc(x - r*0.25, y - r*0.25, r*0.25, 0, Math.PI*2);
+        ctx.fillStyle = "rgba(255,255,255,0.60)";
+        ctx.fill();
+
+        // Inner ring
+        ctx.beginPath();
+        ctx.arc(x, y, r*0.82, 0, Math.PI*2);
+        ctx.lineWidth = 1;
+        ctx.strokeStyle = "rgba(255,255,255,0.28)";
+        ctx.stroke();
+      }
+
+      hitTest(mx,my){
+        const d = distance2D(mx,my,this.x,this.y);
+        return d <= this.r + 6;
+      }
+    }
+
+    function drawConnections(){
+      if (searchTerms.length === 0) return;
+
+      const maxLinkDist = 360;
+
+      for (let i=0;i<particles.length;i++){
+        const a = particles[i];
+        const sa = a.score();
+        if (sa <= 0) continue;
+
+        for (let j=i+1;j<particles.length;j++){
+          const b = particles[j];
+          const sb = b.score();
+          if (sb <= 0) continue;
+
+          const d = distance2D(a.x,a.y,b.x,b.y);
+          if (d > maxLinkDist) continue;
+
+          const relevance = Math.min(10, sa + sb);
+          const alpha = Math.max(0.25, 0.84 * (1 - d/maxLinkDist));
+          const w = 1 + Math.min(8, relevance * 0.35);
+
+          ctx.strokeStyle = `rgba(147,112,219,${alpha})`;
+          ctx.lineWidth = w;
+          ctx.lineCap = "round";
+
+          ctx.beginPath();
+          ctx.moveTo(a.x, a.y);
+          ctx.lineTo(b.x, b.y);
+          ctx.stroke();
+        }
+      }
+    }
+
+    function loop(){
+      const rect = canvas.getBoundingClientRect();
+      const w = rect.width;
+      const h = rect.height;
+
+      ctx.clearRect(0,0,w,h);
+
+      for (const p of particles) p.interactions(w,h);
+      for (const p of particles) p.move(w,h);
+
+      drawConnections();
+      for (const p of particles) p.drawBubble();
+
+      requestAnimationFrame(loop);
+    }
+
+    // click to select + open modal (yellow border while selected)
+    canvas.addEventListener("click", (e) => {
+      const rect = canvas.getBoundingClientRect();
+      const mx = e.clientX - rect.left;
+      const my = e.clientY - rect.top;
+
+      for (let i = particles.length - 1; i >= 0; i--){
+        if (particles[i].hitTest(mx,my)){
+          selectedParticleId = particles[i].id;
+          showMemoryModal(particles[i].data);
+          return;
+        }
+      }
+
+      // clicked empty space -> deselect
+      selectedParticleId = null;
+    });
+
+    // deselect when closing modal
+    closeModal.addEventListener('click', () => {
+      modal.style.display = 'none';
+      selectedParticleId = null;
+    });
+    window.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        modal.style.display = 'none';
+        selectedParticleId = null;
+      }
+    });
+
+    // ----------------------------
+    // Load + Save (same PHP endpoint)
+    // ----------------------------
+    const memoryForm = document.getElementById('memoryForm');
+
+    function normalizeMemory(m){
+      // emotions backward compatible
+      if (!m.emociones) {
+        m.emociones = {};
+        for (const e of EMO) m.emociones[e.key] = 0;
+      } else {
+        for (const e of EMO) {
+          if (m.emociones[e.key] === undefined) m.emociones[e.key] = 0;
+          m.emociones[e.key] = Number(m.emociones[e.key] || 0);
+        }
+      }
+
+      // NEW: lecciones backward compatible
+      if (m.lecciones === undefined || m.lecciones === null) m.lecciones = "";
+
+      return m;
+    }
+
+    function loadMemories(){
+      return fetch("save_memories.php")
+        .then(r => r.json())
+        .then(list => {
+          memories = Array.isArray(list) ? list : [];
+          const rect = canvas.getBoundingClientRect();
+          particles = memories.map(m => new Particle(
+            Math.random() * (rect.width  - 80) + 40,
+            Math.random() * (rect.height - 80) + 40,
+            Math.random() * Math.PI * 2,
+            normalizeMemory(m)
+          ));
+        });
+    }
+
+    memoryForm.addEventListener("submit", (e) => {
+      e.preventDefault();
+
+      const emotions = readEmotionsFromForm();
+
+      const memory = normalizeMemory({
+        vista: document.getElementById('vista').value,
+        momento: document.getElementById('momento').value,
+        oido: document.getElementById('oido').value,
+        sentimos: document.getElementById('sentimos').value,
+        olemos: document.getElementById('olemos').value,
+        sabor: document.getElementById('sabor').value,
+        palpamos: document.getElementById('palpamos').value,
+        pensamos: document.getElementById('pensamos').value,
+        ubicacion: document.getElementById('ubicacion').value,
+        lecciones: document.getElementById('lecciones').value, // NEW
+        emociones: emotions
+      });
+
+      fetch("save_memories.php", {
+        method:"POST",
+        headers:{ "Content-Type":"application/json" },
+        body: JSON.stringify(memory)
+      })
+      .then(r => r.json())
+      .then(data => {
+        if (!data || !data.success) return;
+
+        memories.push(memory);
+
+        const rect = canvas.getBoundingClientRect();
+        particles.push(new Particle(
+          Math.random() * (rect.width  - 80) + 40,
+          Math.random() * (rect.height - 80) + 40,
+          Math.random() * Math.PI * 2,
+          memory
+        ));
+
+        particles.forEach(p => { p.fija = false; p.estableFrames = 0; });
+        memoryForm.reset();
+        resetEmotions();
+      })
+      .catch(err => console.error("Error al guardar:", err));
+    });
+
+    // ----------------------------
+    // Boot
+    // ----------------------------
+    document.addEventListener("DOMContentLoaded", () => {
+      setupEmotionUI();
+      resizeCanvas();
+      loadMemories()
+        .then(() => requestAnimationFrame(loop))
+        .catch(err => console.error("Error al cargar recuerdos:", err));
+    });
+  </script>
+</body>
+</html>
+```
+
+### memories
+<small>Creado: 2025-12-22 20:03</small>
+
+`memories.json`
+
+```json
+[
+  {
+    "vista": "estaba conduciendo en el coche por una carretera y era de día",
+    "momento": "2025-12-02",
+    "oido": "la radio baja y el ruido constante del motor",
+    "sentimos": "algo de prisa y concentración",
+    "olemos": "olor tenue a calefacción del coche",
+    "sabor": "",
+    "palpamos": "hacía frío de diciembre entrando por la ventana",
+    "pensamos": "no quería llegar tarde a clase",
+    "ubicacion": "carretera cerca de Valencia",
+    "emociones": {
+      "alegria": 1,
+      "tristeza": 8,
+      "miedo": 3,
+      "ira": 6,
+      "asco": 5,
+      "sorpresa": 4
+    }
+  },
+  {
+    "vista": "ayer por la noche iba conduciendo por la carretera con pocas luces",
+    "momento": "2025-12-10",
+    "oido": "los neumáticos sobre el asfalto mojado",
+    "sentimos": "tranquilidad con un punto de cansancio",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "",
+    "pensamos": "me sorprendió que no hubiera llovido mucho",
+    "ubicacion": "Valencia",
+    "emociones": {
+      "alegria": 6,
+      "tristeza": 1,
+      "miedo": 0,
+      "ira": 7,
+      "asco": 3,
+      "sorpresa": 5
+    }
+  },
+  {
+    "vista": "estoy dando una clase y veo a los alumnos tomando apuntes",
+    "momento": "2025-12-16",
+    "oido": "teclados, sillas y murmullos puntuales",
+    "sentimos": "responsabilidad y ganas de que quede claro",
+    "olemos": "olor a aula y rotulador",
+    "sabor": "",
+    "palpamos": "aquí hace calor",
+    "pensamos": "quiero que este ejercicio quede bien",
+    "ubicacion": "Mislata",
+    "emociones": {
+      "alegria": 8,
+      "tristeza": 7,
+      "miedo": 3,
+      "ira": 5,
+      "asco": 5,
+      "sorpresa": 7
+    }
+  },
+  {
+    "vista": "iba en la bici y al girarme para mirar un coche noté un tirón",
+    "momento": "2025-05-14",
+    "oido": "ruido de tráfico y viento",
+    "sentimos": "dolor fuerte en el cuello",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "era un día de primavera y hacía calor",
+    "pensamos": "cada año me pasa alguna contractura y no sé por qué",
+    "ubicacion": "antiguo cauce del río de Valencia",
+    "emociones": {
+      "alegria": 0,
+      "tristeza": 10,
+      "miedo": 6,
+      "ira": 3,
+      "asco": 10,
+      "sorpresa": 6
+    }
+  },
+  {
+    "vista": "camino por una calle con tiendas y gente mirando escaparates",
+    "momento": "2025-11-28",
+    "oido": "conversaciones y una moto pasando",
+    "sentimos": "curiosidad y calma",
+    "olemos": "olor a castañas asadas",
+    "sabor": "",
+    "palpamos": "aire fresco en la cara",
+    "pensamos": "debería comprar un detalle para casa",
+    "ubicacion": "centro de Valencia",
+    "emociones": {
+      "alegria": 0,
+      "tristeza": 6,
+      "miedo": 0,
+      "ira": 7,
+      "asco": 1,
+      "sorpresa": 0
+    }
+  },
+  {
+    "vista": "en un supermercado comparando precios en la estantería",
+    "momento": "2025-10-03",
+    "oido": "carros y pitidos de caja",
+    "sentimos": "ligera saturación por el ruido",
+    "olemos": "pan recién hecho",
+    "sabor": "",
+    "palpamos": "",
+    "pensamos": "tengo que organizar mejor la lista",
+    "ubicacion": "Mislata",
+    "emociones": {
+      "alegria": 4,
+      "tristeza": 3,
+      "miedo": 1,
+      "ira": 9,
+      "asco": 5,
+      "sorpresa": 5
+    }
+  },
+  {
+    "vista": "en la cocina preparando café por la mañana",
+    "momento": "2025-12-01",
+    "oido": "la cafetera burbujeando",
+    "sentimos": "sueño y rutina",
+    "olemos": "café intenso",
+    "sabor": "primer sorbo amargo",
+    "palpamos": "taza caliente en las manos",
+    "pensamos": "hoy toca avanzar trabajo",
+    "ubicacion": "casa",
+    "emociones": {
+      "alegria": 4,
+      "tristeza": 5,
+      "miedo": 9,
+      "ira": 0,
+      "asco": 4,
+      "sorpresa": 5
+    }
+  },
+  {
+    "vista": "paseo por el parque con árboles y hojas en el suelo",
+    "momento": "2025-11-09",
+    "oido": "pájaros y niños a lo lejos",
+    "sentimos": "descanso mental",
+    "olemos": "tierra húmeda",
+    "sabor": "",
+    "palpamos": "brisa suave",
+    "pensamos": "necesitaba parar un rato",
+    "ubicacion": "parque en Mislata",
+    "emociones": {
+      "alegria": 4,
+      "tristeza": 4,
+      "miedo": 0,
+      "ira": 9,
+      "asco": 10,
+      "sorpresa": 1
+    }
+  },
+  {
+    "vista": "en un aula con proyector mostrando código en pantalla",
+    "momento": "2025-10-21",
+    "oido": "preguntas y teclas",
+    "sentimos": "motivación",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "",
+    "pensamos": "voy a poner un ejemplo más simple",
+    "ubicacion": "Mislata",
+    "emociones": {
+      "alegria": 0,
+      "tristeza": 3,
+      "miedo": 1,
+      "ira": 7,
+      "asco": 7,
+      "sorpresa": 6
+    }
+  },
+  {
+    "vista": "reunión rápida en un pasillo antes de entrar",
+    "momento": "2025-12-05",
+    "oido": "eco del pasillo y pasos",
+    "sentimos": "prisa",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "frío en las manos",
+    "pensamos": "no quiero olvidarme del material",
+    "ubicacion": "instituto en Valencia",
+    "emociones": {
+      "alegria": 4,
+      "tristeza": 6,
+      "miedo": 7,
+      "ira": 2,
+      "asco": 7,
+      "sorpresa": 2
+    }
+  },
+  {
+    "vista": "tarde de lluvia mirando por la ventana",
+    "momento": "2025-10-29",
+    "oido": "gotas golpeando el cristal",
+    "sentimos": "melancolía ligera",
+    "olemos": "olor a lluvia",
+    "sabor": "",
+    "palpamos": "calor de la manta",
+    "pensamos": "mañana reorganizo todo",
+    "ubicacion": "casa",
+    "emociones": {
+      "alegria": 0,
+      "tristeza": 4,
+      "miedo": 2,
+      "ira": 9,
+      "asco": 3,
+      "sorpresa": 5
+    }
+  },
+  {
+    "vista": "en el coche, parado en un semáforo con luces rojas",
+    "momento": "2025-12-07",
+    "oido": "intermitente y motor al ralentí",
+    "sentimos": "paciencia",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "",
+    "pensamos": "tengo que responder correos",
+    "ubicacion": "Valencia",
+    "emociones": {
+      "alegria": 5,
+      "tristeza": 7,
+      "miedo": 5,
+      "ira": 9,
+      "asco": 1,
+      "sorpresa": 8
+    }
+  },
+  {
+    "vista": "subiendo escaleras con prisa por llegar",
+    "momento": "2025-09-18",
+    "oido": "pasos y respiración",
+    "sentimos": "agobio breve",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "corazón acelerado",
+    "pensamos": "voy justo de tiempo",
+    "ubicacion": "Mislata",
+    "emociones": {
+      "alegria": 3,
+      "tristeza": 6,
+      "miedo": 2,
+      "ira": 3,
+      "asco": 6,
+      "sorpresa": 1
+    }
+  },
+  {
+    "vista": "en una cafetería con gente trabajando con portátil",
+    "momento": "2025-11-15",
+    "oido": "tazas, murmullos, una máquina de café",
+    "sentimos": "concentración",
+    "olemos": "café y bollería",
+    "sabor": "café con leche",
+    "palpamos": "mesa fría",
+    "pensamos": "este diseño va a quedar bien",
+    "ubicacion": "Valencia",
+    "emociones": {
+      "alegria": 10,
+      "tristeza": 0,
+      "miedo": 7,
+      "ira": 8,
+      "asco": 8,
+      "sorpresa": 5
+    }
+  },
+  {
+    "vista": "paseando cerca de un río con carril bici",
+    "momento": "2025-04-22",
+    "oido": "ruido de bicis y pájaros",
+    "sentimos": "energía",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "sol en la piel",
+    "pensamos": "debería salir más a menudo",
+    "ubicacion": "cauce del Turia, Valencia",
+    "emociones": {
+      "alegria": 2,
+      "tristeza": 6,
+      "miedo": 1,
+      "ira": 1,
+      "asco": 4,
+      "sorpresa": 9
+    }
+  },
+  {
+    "vista": "en casa, ordenando papeles en una mesa",
+    "momento": "2025-08-30",
+    "oido": "silencio y alguna notificación del móvil",
+    "sentimos": "orden y control",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "papel áspero",
+    "pensamos": "si lo dejo listo hoy, mañana descanso",
+    "ubicacion": "casa",
+    "emociones": {
+      "alegria": 1,
+      "tristeza": 3,
+      "miedo": 1,
+      "ira": 6,
+      "asco": 7,
+      "sorpresa": 7
+    }
+  },
+  {
+    "vista": "en una parada esperando el autobús",
+    "momento": "2025-12-12",
+    "oido": "tráfico y un bus frenando",
+    "sentimos": "frío y paciencia",
+    "olemos": "humo de escape",
+    "sabor": "",
+    "palpamos": "manos frías",
+    "pensamos": "llego justo, pero llego",
+    "ubicacion": "Mislata",
+    "emociones": {
+      "alegria": 2,
+      "tristeza": 3,
+      "miedo": 2,
+      "ira": 6,
+      "asco": 7,
+      "sorpresa": 9
+    }
+  },
+  {
+    "vista": "caminando por una avenida grande con semáforos",
+    "momento": "2025-09-06",
+    "oido": "coches y sirena a lo lejos",
+    "sentimos": "alerta",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "calor fuerte",
+    "pensamos": "tengo que hidratarme más",
+    "ubicacion": "Valencia",
+    "emociones": {
+      "alegria": 10,
+      "tristeza": 3,
+      "miedo": 8,
+      "ira": 10,
+      "asco": 1,
+      "sorpresa": 4
+    }
+  },
+  {
+    "vista": "en el aula, un alumno pregunta y el resto mira",
+    "momento": "2025-11-19",
+    "oido": "una pregunta clara y breve silencio",
+    "sentimos": "satisfacción",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "",
+    "pensamos": "esta duda es buena, la explico a todos",
+    "ubicacion": "Mislata",
+    "emociones": {
+      "alegria": 4,
+      "tristeza": 4,
+      "miedo": 9,
+      "ira": 4,
+      "asco": 5,
+      "sorpresa": 4
+    }
+  },
+  {
+    "vista": "en un paso de peatones esperando para cruzar",
+    "momento": "2025-10-11",
+    "oido": "pitido de semáforo y pasos",
+    "sentimos": "prisa",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "viento",
+    "pensamos": "no quiero perder el tren",
+    "ubicacion": "Valencia",
+    "emociones": {
+      "alegria": 4,
+      "tristeza": 3,
+      "miedo": 7,
+      "ira": 3,
+      "asco": 2,
+      "sorpresa": 3
+    }
+  },
+  {
+    "vista": "por la tarde, revisando código en una pantalla grande",
+    "momento": "2025-12-03",
+    "oido": "ventilador del ordenador",
+    "sentimos": "concentración y cansancio",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "ojos secos",
+    "pensamos": "voy a simplificar la función",
+    "ubicacion": "casa",
+    "emociones": {
+      "alegria": 3,
+      "tristeza": 2,
+      "miedo": 4,
+      "ira": 9,
+      "asco": 3,
+      "sorpresa": 5
+    }
+  },
+  {
+    "vista": "en un aula, explicando un ejercicio paso a paso",
+    "momento": "2025-10-08",
+    "oido": "teclas y alguna risa",
+    "sentimos": "confianza",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "",
+    "pensamos": "si lo ven en pequeño, lo entienden",
+    "ubicacion": "Mislata",
+    "emociones": {
+      "alegria": 1,
+      "tristeza": 6,
+      "miedo": 4,
+      "ira": 3,
+      "asco": 8,
+      "sorpresa": 8
+    }
+  },
+  {
+    "vista": "en un trayecto corto en coche con el sol bajo",
+    "momento": "2025-11-02",
+    "oido": "radio con noticias",
+    "sentimos": "tranquilidad",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "luz cálida en la cara",
+    "pensamos": "hoy el día ha rendido",
+    "ubicacion": "Valencia",
+    "emociones": {
+      "alegria": 3,
+      "tristeza": 10,
+      "miedo": 1,
+      "ira": 10,
+      "asco": 7,
+      "sorpresa": 0
+    }
+  },
+  {
+    "vista": "en una biblioteca buscando un libro en una estantería alta",
+    "momento": "2025-09-26",
+    "oido": "silencio y páginas pasando",
+    "sentimos": "curiosidad",
+    "olemos": "papel viejo",
+    "sabor": "",
+    "palpamos": "cubierta dura",
+    "pensamos": "quiero algo práctico y directo",
+    "ubicacion": "biblioteca en Valencia",
+    "emociones": {
+      "alegria": 1,
+      "tristeza": 0,
+      "miedo": 7,
+      "ira": 3,
+      "asco": 7,
+      "sorpresa": 5
+    }
+  },
+  {
+    "vista": "en una terraza con una bebida fría al atardecer",
+    "momento": "2025-07-19",
+    "oido": "voces y platos",
+    "sentimos": "relajación",
+    "olemos": "",
+    "sabor": "refresco dulce",
+    "palpamos": "aire templado",
+    "pensamos": "necesitaba desconectar",
+    "ubicacion": "Valencia",
+    "emociones": {
+      "alegria": 0,
+      "tristeza": 4,
+      "miedo": 3,
+      "ira": 1,
+      "asco": 0,
+      "sorpresa": 3
+    }
+  },
+  {
+    "vista": "en un gimnasio mirando el espejo antes de empezar",
+    "momento": "2025-06-06",
+    "oido": "música y pesas",
+    "sentimos": "motivación",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "sudor",
+    "pensamos": "con constancia, mejora",
+    "ubicacion": "Mislata",
+    "emociones": {
+      "alegria": 9,
+      "tristeza": 9,
+      "miedo": 3,
+      "ira": 1,
+      "asco": 5,
+      "sorpresa": 8
+    }
+  },
+  {
+    "vista": "en la cocina preparando una cena sencilla",
+    "momento": "2025-10-17",
+    "oido": "sartén y agua hirviendo",
+    "sentimos": "calma",
+    "olemos": "ajo y aceite",
+    "sabor": "sal y tomate",
+    "palpamos": "calor de los fogones",
+    "pensamos": "me apetece algo rápido",
+    "ubicacion": "casa",
+    "emociones": {
+      "alegria": 2,
+      "tristeza": 7,
+      "miedo": 9,
+      "ira": 4,
+      "asco": 10,
+      "sorpresa": 0
+    }
+  },
+  {
+    "vista": "en un pasillo del centro, saludando a alguien de lejos",
+    "momento": "2025-12-09",
+    "oido": "pasos y voces",
+    "sentimos": "buen humor",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "",
+    "pensamos": "hoy voy con tiempo",
+    "ubicacion": "Valencia",
+    "emociones": {
+      "alegria": 1,
+      "tristeza": 10,
+      "miedo": 9,
+      "ira": 9,
+      "asco": 5,
+      "sorpresa": 3
+    }
+  },
+  {
+    "vista": "en el coche buscando aparcamiento, dando vueltas",
+    "momento": "2025-11-25",
+    "oido": "intermitente y coches",
+    "sentimos": "impaciencia",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "",
+    "pensamos": "siempre pasa lo mismo a esta hora",
+    "ubicacion": "Valencia",
+    "emociones": {
+      "alegria": 0,
+      "tristeza": 5,
+      "miedo": 5,
+      "ira": 2,
+      "asco": 0,
+      "sorpresa": 3
+    }
+  },
+  {
+    "vista": "en un aula, corrigiendo ejercicios con calma",
+    "momento": "2025-10-30",
+    "oido": "silencio y teclado",
+    "sentimos": "foco",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "",
+    "pensamos": "voy a dar feedback claro",
+    "ubicacion": "Mislata",
+    "emociones": {
+      "alegria": 4,
+      "tristeza": 0,
+      "miedo": 9,
+      "ira": 10,
+      "asco": 3,
+      "sorpresa": 0
+    }
+  },
+  {
+    "vista": "paseo corto por la mañana temprano con poca gente",
+    "momento": "2025-12-04",
+    "oido": "pájaros y algún coche",
+    "sentimos": "energía tranquila",
+    "olemos": "aire frío",
+    "sabor": "",
+    "palpamos": "frío en la nariz",
+    "pensamos": "me viene bien caminar",
+    "ubicacion": "Mislata",
+    "emociones": {
+      "alegria": 5,
+      "tristeza": 6,
+      "miedo": 10,
+      "ira": 5,
+      "asco": 2,
+      "sorpresa": 9
+    }
+  },
+  {
+    "vista": "en un tren mirando por la ventanilla",
+    "momento": "2025-08-12",
+    "oido": "ruido rítmico de vías",
+    "sentimos": "desconexión",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "vibración del asiento",
+    "pensamos": "voy a aprovechar para leer",
+    "ubicacion": "trayecto en tren",
+    "emociones": {
+      "alegria": 4,
+      "tristeza": 1,
+      "miedo": 3,
+      "ira": 0,
+      "asco": 7,
+      "sorpresa": 8
+    }
+  },
+  {
+    "vista": "en un aula, explicando cómo funciona una API",
+    "momento": "2025-11-07",
+    "oido": "preguntas y respuestas",
+    "sentimos": "entusiasmo",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "",
+    "pensamos": "si lo conectan con un ejemplo real, lo retienen",
+    "ubicacion": "Mislata",
+    "emociones": {
+      "alegria": 7,
+      "tristeza": 1,
+      "miedo": 6,
+      "ira": 1,
+      "asco": 6,
+      "sorpresa": 10
+    }
+  },
+  {
+    "vista": "en la calle, el cielo estaba gris y amenazaba lluvia",
+    "momento": "2025-11-03",
+    "oido": "viento entre edificios",
+    "sentimos": "prudencia",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "viento fuerte",
+    "pensamos": "me llevo chaqueta por si acaso",
+    "ubicacion": "Valencia",
+    "emociones": {
+      "alegria": 8,
+      "tristeza": 2,
+      "miedo": 10,
+      "ira": 8,
+      "asco": 1,
+      "sorpresa": 10
+    }
+  },
+  {
+    "vista": "en casa, haciendo una copia de seguridad del ordenador",
+    "momento": "2025-09-14",
+    "oido": "disco trabajando",
+    "sentimos": "seguridad",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "",
+    "pensamos": "mejor prevenir que perder datos",
+    "ubicacion": "casa",
+    "emociones": {
+      "alegria": 2,
+      "tristeza": 6,
+      "miedo": 4,
+      "ira": 6,
+      "asco": 4,
+      "sorpresa": 10
+    }
+  },
+  {
+    "vista": "en un aula, mirando un error en consola y encontrando la causa",
+    "momento": "2025-12-13",
+    "oido": "un 'ah' general cuando se entiende",
+    "sentimos": "satisfacción",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "",
+    "pensamos": "la explicación breve funciona",
+    "ubicacion": "Mislata",
+    "emociones": {
+      "alegria": 4,
+      "tristeza": 6,
+      "miedo": 0,
+      "ira": 4,
+      "asco": 9,
+      "sorpresa": 5
+    }
+  },
+  {
+    "vista": "caminando por una calle estrecha con luces de navidad",
+    "momento": "2025-12-11",
+    "oido": "gente hablando y música de fondo",
+    "sentimos": "ambiente agradable",
+    "olemos": "dulces y chocolate",
+    "sabor": "",
+    "palpamos": "frío",
+    "pensamos": "la ciudad cambia mucho en diciembre",
+    "ubicacion": "Valencia",
+    "emociones": {
+      "alegria": 6,
+      "tristeza": 6,
+      "miedo": 0,
+      "ira": 5,
+      "asco": 10,
+      "sorpresa": 3
+    }
+  },
+  {
+    "vista": "en una sala silenciosa revisando notas en una libreta",
+    "momento": "2025-10-06",
+    "oido": "bolígrafo sobre papel",
+    "sentimos": "orden mental",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "papel suave",
+    "pensamos": "así lo tengo claro para la próxima clase",
+    "ubicacion": "casa",
+    "emociones": {
+      "alegria": 6,
+      "tristeza": 6,
+      "miedo": 3,
+      "ira": 0,
+      "asco": 6,
+      "sorpresa": 2
+    }
+  },
+  {
+    "vista": "en un aparcamiento subterráneo buscando el coche",
+    "momento": "2025-09-09",
+    "oido": "eco y motores",
+    "sentimos": "desorientación breve",
+    "olemos": "humedad y gasolina",
+    "sabor": "",
+    "palpamos": "aire frío",
+    "pensamos": "tengo que recordar la columna",
+    "ubicacion": "Valencia",
+    "emociones": {
+      "alegria": 6,
+      "tristeza": 1,
+      "miedo": 1,
+      "ira": 6,
+      "asco": 9,
+      "sorpresa": 5
+    }
+  },
+  {
+    "vista": "en una clase, escribiendo en la pizarra un esquema",
+    "momento": "2025-11-26",
+    "oido": "tiza y silencio atento",
+    "sentimos": "claridad",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "",
+    "pensamos": "estructura primero, detalle después",
+    "ubicacion": "Mislata",
+    "emociones": {
+      "alegria": 7,
+      "tristeza": 2,
+      "miedo": 2,
+      "ira": 0,
+      "asco": 0,
+      "sorpresa": 8
+    }
+  },
+  {
+    "vista": "en un supermercado eligiendo frutas",
+    "momento": "2025-03-19",
+    "oido": "silencio roto por páginas pasando",
+    "sentimos": "responsabilidad",
+    "olemos": "café",
+    "sabor": "un sorbo amargo",
+    "palpamos": "aire fresco en la cara",
+    "pensamos": "voy a simplificar la explicación",
+    "ubicacion": "casa (despacho)",
+    "emociones": {
+      "alegria": 2,
+      "tristeza": 10,
+      "miedo": 6,
+      "ira": 1,
+      "asco": 9,
+      "sorpresa": 9
+    }
+  },
+  {
+    "vista": "en la cocina preparando algo rápido",
+    "momento": "2025-01-30",
+    "oido": "lluvia golpeando el cristal",
+    "sentimos": "satisfacción",
+    "olemos": "café",
+    "sabor": "un sorbo amargo",
+    "palpamos": "corazón acelerado",
+    "pensamos": "respondo mensajes luego",
+    "ubicacion": "casa",
+    "emociones": {
+      "alegria": 5,
+      "tristeza": 8,
+      "miedo": 2,
+      "ira": 2,
+      "asco": 5,
+      "sorpresa": 4
+    }
+  },
+  {
+    "vista": "en el coche, conduciendo por una avenida con semáforos",
+    "momento": "2025-02-16",
+    "oido": "motor al ralentí",
+    "sentimos": "motivación",
+    "olemos": "café",
+    "sabor": "un sorbo amargo",
+    "palpamos": "ojos secos",
+    "pensamos": "me viene bien parar un rato",
+    "ubicacion": "carretera cerca de Valencia",
+    "emociones": {
+      "alegria": 2,
+      "tristeza": 8,
+      "miedo": 2,
+      "ira": 1,
+      "asco": 1,
+      "sorpresa": 6
+    }
+  },
+  {
+    "vista": "en la cocina preparando algo rápido",
+    "momento": "2025-10-27",
+    "oido": "silencio roto por páginas pasando",
+    "sentimos": "concentración",
+    "olemos": "olor a lluvia",
+    "sabor": "café con leche",
+    "palpamos": "aire fresco en la cara",
+    "pensamos": "voy con tiempo",
+    "ubicacion": "parque en Mislata",
+    "emociones": {
+      "alegria": 7,
+      "tristeza": 3,
+      "miedo": 4,
+      "ira": 2,
+      "asco": 0,
+      "sorpresa": 7
+    }
+  },
+  {
+    "vista": "en el metro, de pie sujetando la barra",
+    "momento": "2025-08-03",
+    "oido": "ruido del motor y la radio baja",
+    "sentimos": "ligera saturación",
+    "olemos": "pan recién hecho",
+    "sabor": "",
+    "palpamos": "aire fresco en la cara",
+    "pensamos": "voy con tiempo",
+    "ubicacion": "centro de Valencia",
+    "emociones": {
+      "alegria": 5,
+      "tristeza": 0,
+      "miedo": 9,
+      "ira": 10,
+      "asco": 6,
+      "sorpresa": 1
+    }
+  },
+  {
+    "vista": "en casa, revisando notas y preparando la siguiente clase",
+    "momento": "2025-10-25",
+    "oido": "ventilador del ordenador",
+    "sentimos": "responsabilidad",
+    "olemos": "olor a lluvia",
+    "sabor": "chocolate caliente",
+    "palpamos": "taza caliente",
+    "pensamos": "voy justo de tiempo",
+    "ubicacion": "casa",
+    "emociones": {
+      "alegria": 9,
+      "tristeza": 2,
+      "miedo": 10,
+      "ira": 3,
+      "asco": 9,
+      "sorpresa": 6
+    }
+  },
+  {
+    "vista": "en la cocina preparando algo rápido",
+    "momento": "2025-01-31",
+    "oido": "ventilador del ordenador",
+    "sentimos": "satisfacción",
+    "olemos": "papel viejo",
+    "sabor": "",
+    "palpamos": "frío",
+    "pensamos": "hoy el día ha rendido",
+    "ubicacion": "estación de tren",
+    "emociones": {
+      "alegria": 9,
+      "tristeza": 3,
+      "miedo": 7,
+      "ira": 2,
+      "asco": 9,
+      "sorpresa": 3
+    }
+  },
+  {
+    "vista": "en el metro, de pie sujetando la barra",
+    "momento": "2025-05-08",
+    "oido": "",
+    "sentimos": "prisa",
+    "olemos": "aire limpio",
+    "sabor": "refresco dulce",
+    "palpamos": "taza caliente",
+    "pensamos": "quiero dejarlo claro y simple",
+    "ubicacion": "casa (salón)",
+    "emociones": {
+      "alegria": 0,
+      "tristeza": 6,
+      "miedo": 8,
+      "ira": 2,
+      "asco": 6,
+      "sorpresa": 5
+    }
+  },
+  {
+    "vista": "en una cafetería con portátil y libreta",
+    "momento": "2025-06-25",
+    "oido": "intermitente y coches pasando",
+    "sentimos": "paciencia",
+    "olemos": "rotulador",
+    "sabor": "un sorbo amargo",
+    "palpamos": "taza caliente",
+    "pensamos": "voy justo de tiempo",
+    "ubicacion": "parada de bus en Mislata",
+    "emociones": {
+      "alegria": 1,
+      "tristeza": 2,
+      "miedo": 3,
+      "ira": 3,
+      "asco": 0,
+      "sorpresa": 8
+    }
+  },
+  {
+    "vista": "en casa, delante del ordenador con varias ventanas abiertas",
+    "momento": "2025-06-25",
+    "oido": "ruido del motor y la radio baja",
+    "sentimos": "orden y control",
+    "olemos": "papel viejo",
+    "sabor": "",
+    "palpamos": "frío en las manos",
+    "pensamos": "me viene bien parar un rato",
+    "ubicacion": "casa",
+    "emociones": {
+      "alegria": 10,
+      "tristeza": 0,
+      "miedo": 10,
+      "ira": 5,
+      "asco": 1,
+      "sorpresa": 6
+    }
+  },
+  {
+    "vista": "en un gimnasio empezando la rutina",
+    "momento": "2025-10-13",
+    "oido": "ventilador del ordenador",
+    "sentimos": "alerta",
+    "olemos": "castañas asadas",
+    "sabor": "chocolate caliente",
+    "palpamos": "",
+    "pensamos": "esto con un ejemplo real se entiende",
+    "ubicacion": "antiguo cauce del río de Valencia",
+    "emociones": {
+      "alegria": 9,
+      "tristeza": 7,
+      "miedo": 8,
+      "ira": 10,
+      "asco": 4,
+      "sorpresa": 10
+    }
+  },
+  {
+    "vista": "en una cafetería con portátil y libreta",
+    "momento": "2025-10-24",
+    "oido": "",
+    "sentimos": "paciencia",
+    "olemos": "pan recién hecho",
+    "sabor": "un sorbo amargo",
+    "palpamos": "calor en el aula",
+    "pensamos": "hoy el día ha rendido",
+    "ubicacion": "casa",
+    "emociones": {
+      "alegria": 6,
+      "tristeza": 4,
+      "miedo": 9,
+      "ira": 3,
+      "asco": 6,
+      "sorpresa": 6
+    }
+  },
+  {
+    "vista": "caminando por una calle con gente y escaparates",
+    "momento": "2025-06-08",
+    "oido": "pasos y maletas",
+    "sentimos": "buen humor",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "vibración del asiento",
+    "pensamos": "debería cuidar más la postura",
+    "ubicacion": "metro en Valencia",
+    "emociones": {
+      "alegria": 10,
+      "tristeza": 5,
+      "miedo": 7,
+      "ira": 8,
+      "asco": 7,
+      "sorpresa": 2
+    }
+  },
+  {
+    "vista": "en una cafetería con portátil y libreta",
+    "momento": "2025-07-01",
+    "oido": "ruido del motor y la radio baja",
+    "sentimos": "buen humor",
+    "olemos": "pan recién hecho",
+    "sabor": "",
+    "palpamos": "frío en las manos",
+    "pensamos": "mejor hacerlo hoy y descansar mañana",
+    "ubicacion": "casa (salón)",
+    "emociones": {
+      "alegria": 0,
+      "tristeza": 0,
+      "miedo": 9,
+      "ira": 7,
+      "asco": 7,
+      "sorpresa": 3
+    }
+  },
+  {
+    "vista": "en casa, delante del ordenador con varias ventanas abiertas",
+    "momento": "2025-05-07",
+    "oido": "pasos y maletas",
+    "sentimos": "motivación",
+    "olemos": "papel viejo",
+    "sabor": "un sorbo amargo",
+    "palpamos": "vibración del asiento",
+    "pensamos": "hoy el día ha rendido",
+    "ubicacion": "metro en Valencia",
+    "emociones": {
+      "alegria": 7,
+      "tristeza": 9,
+      "miedo": 7,
+      "ira": 2,
+      "asco": 7,
+      "sorpresa": 6
+    }
+  },
+  {
+    "vista": "en el mercado viendo puestos de verduras",
+    "momento": "2025-08-09",
+    "oido": "ruido rítmico de vías",
+    "sentimos": "cansancio",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "vibración del asiento",
+    "pensamos": "me viene bien parar un rato",
+    "ubicacion": "metro en Valencia",
+    "emociones": {
+      "alegria": 1,
+      "tristeza": 1,
+      "miedo": 2,
+      "ira": 5,
+      "asco": 6,
+      "sorpresa": 5
+    }
+  },
+  {
+    "vista": "en el aula explicando un concepto con ejemplos",
+    "momento": "2025-04-01",
+    "oido": "ruido rítmico de vías",
+    "sentimos": "satisfacción",
+    "olemos": "",
+    "sabor": "refresco dulce",
+    "palpamos": "frío",
+    "pensamos": "hoy el día ha rendido",
+    "ubicacion": "estación de tren",
+    "emociones": {
+      "alegria": 1,
+      "tristeza": 7,
+      "miedo": 8,
+      "ira": 8,
+      "asco": 10,
+      "sorpresa": 0
+    }
+  },
+  {
+    "vista": "en el metro, de pie sujetando la barra",
+    "momento": "2025-01-03",
+    "oido": "ruido del motor y la radio baja",
+    "sentimos": "motivación",
+    "olemos": "ambientador del coche",
+    "sabor": "chocolate caliente",
+    "palpamos": "vibración del asiento",
+    "pensamos": "quiero dejarlo claro y simple",
+    "ubicacion": "casa (cocina)",
+    "emociones": {
+      "alegria": 0,
+      "tristeza": 10,
+      "miedo": 2,
+      "ira": 1,
+      "asco": 5,
+      "sorpresa": 8
+    }
+  },
+  {
+    "vista": "en casa, delante del ordenador con varias ventanas abiertas",
+    "momento": "2025-09-21",
+    "oido": "ventilador del ordenador",
+    "sentimos": "responsabilidad",
+    "olemos": "",
+    "sabor": "café con leche",
+    "palpamos": "calor de los fogones",
+    "pensamos": "voy con tiempo",
+    "ubicacion": "paseo marítimo en Valencia",
+    "emociones": {
+      "alegria": 1,
+      "tristeza": 0,
+      "miedo": 8,
+      "ira": 6,
+      "asco": 10,
+      "sorpresa": 2
+    }
+  },
+  {
+    "vista": "en una biblioteca revisando apuntes",
+    "momento": "2025-07-23",
+    "oido": "silencio roto por páginas pasando",
+    "sentimos": "motivación",
+    "olemos": "pan recién hecho",
+    "sabor": "",
+    "palpamos": "",
+    "pensamos": "respondo mensajes luego",
+    "ubicacion": "Valencia",
+    "emociones": {
+      "alegria": 0,
+      "tristeza": 1,
+      "miedo": 9,
+      "ira": 1,
+      "asco": 3,
+      "sorpresa": 2
+    }
+  },
+  {
+    "vista": "en el coche, conduciendo por una avenida con semáforos",
+    "momento": "2025-02-04",
+    "oido": "motor al ralentí",
+    "sentimos": "paciencia",
+    "olemos": "tierra húmeda",
+    "sabor": "un sorbo amargo",
+    "palpamos": "viento fuerte",
+    "pensamos": "quiero dejarlo claro y simple",
+    "ubicacion": "Valencia",
+    "emociones": {
+      "alegria": 7,
+      "tristeza": 4,
+      "miedo": 2,
+      "ira": 10,
+      "asco": 3,
+      "sorpresa": 1
+    }
+  },
+  {
+    "vista": "caminando por una calle con gente y escaparates",
+    "momento": "2025-10-18",
+    "oido": "ruido del motor y la radio baja",
+    "sentimos": "ligera saturación",
+    "olemos": "pan recién hecho",
+    "sabor": "chocolate caliente",
+    "palpamos": "vibración del asiento",
+    "pensamos": "tengo que organizar mejor la lista",
+    "ubicacion": "casa",
+    "emociones": {
+      "alegria": 5,
+      "tristeza": 9,
+      "miedo": 4,
+      "ira": 2,
+      "asco": 5,
+      "sorpresa": 9
+    }
+  },
+  {
+    "vista": "en el mercado viendo puestos de verduras",
+    "momento": "2025-04-17",
+    "oido": "ventilador del ordenador",
+    "sentimos": "motivación",
+    "olemos": "tierra húmeda",
+    "sabor": "",
+    "palpamos": "viento fuerte",
+    "pensamos": "quiero dejarlo claro y simple",
+    "ubicacion": "casa (despacho)",
+    "emociones": {
+      "alegria": 4,
+      "tristeza": 7,
+      "miedo": 2,
+      "ira": 4,
+      "asco": 8,
+      "sorpresa": 7
+    }
+  },
+  {
+    "vista": "en una cafetería con portátil y libreta",
+    "momento": "2025-03-04",
+    "oido": "teclados y alguna pregunta",
+    "sentimos": "relajación",
+    "olemos": "papel viejo",
+    "sabor": "",
+    "palpamos": "calor de los fogones",
+    "pensamos": "hoy el día ha rendido",
+    "ubicacion": "casa (salón)",
+    "emociones": {
+      "alegria": 3,
+      "tristeza": 9,
+      "miedo": 4,
+      "ira": 9,
+      "asco": 8,
+      "sorpresa": 3
+    }
+  },
+  {
+    "vista": "en el aula explicando un concepto con ejemplos",
+    "momento": "2025-03-15",
+    "oido": "teclados y alguna pregunta",
+    "sentimos": "descanso mental",
+    "olemos": "castañas asadas",
+    "sabor": "",
+    "palpamos": "calor de los fogones",
+    "pensamos": "voy con tiempo",
+    "ubicacion": "centro de Valencia",
+    "emociones": {
+      "alegria": 5,
+      "tristeza": 5,
+      "miedo": 0,
+      "ira": 3,
+      "asco": 2,
+      "sorpresa": 6
+    }
+  },
+  {
+    "vista": "paseando por el parque con el cielo despejado",
+    "momento": "2025-01-12",
+    "oido": "sonido del metro y avisos por megafonía",
+    "sentimos": "ligera saturación",
+    "olemos": "castañas asadas",
+    "sabor": "agua fresca",
+    "palpamos": "",
+    "pensamos": "voy justo de tiempo",
+    "ubicacion": "Mislata",
+    "emociones": {
+      "alegria": 2,
+      "tristeza": 10,
+      "miedo": 4,
+      "ira": 10,
+      "asco": 5,
+      "sorpresa": 6
+    }
+  },
+  {
+    "vista": "en un gimnasio empezando la rutina",
+    "momento": "2025-09-28",
+    "oido": "carros y pitidos de caja",
+    "sentimos": "responsabilidad",
+    "olemos": "pan recién hecho",
+    "sabor": "",
+    "palpamos": "aire fresco en la cara",
+    "pensamos": "esto con un ejemplo real se entiende",
+    "ubicacion": "centro de Valencia",
+    "emociones": {
+      "alegria": 2,
+      "tristeza": 4,
+      "miedo": 1,
+      "ira": 8,
+      "asco": 0,
+      "sorpresa": 10
+    }
+  },
+  {
+    "vista": "en un supermercado eligiendo frutas",
+    "momento": "2025-04-25",
+    "oido": "lluvia golpeando el cristal",
+    "sentimos": "ligera saturación",
+    "olemos": "ambientador del coche",
+    "sabor": "chocolate caliente",
+    "palpamos": "",
+    "pensamos": "mejor hacerlo hoy y descansar mañana",
+    "ubicacion": "antiguo cauce del río de Valencia",
+    "emociones": {
+      "alegria": 5,
+      "tristeza": 7,
+      "miedo": 8,
+      "ira": 8,
+      "asco": 9,
+      "sorpresa": 1
+    }
+  },
+  {
+    "vista": "en un gimnasio empezando la rutina",
+    "momento": "2025-04-10",
+    "oido": "",
+    "sentimos": "satisfacción",
+    "olemos": "ajo y aceite",
+    "sabor": "refresco dulce",
+    "palpamos": "ojos secos",
+    "pensamos": "voy justo de tiempo",
+    "ubicacion": "cafetería en Valencia",
+    "emociones": {
+      "alegria": 4,
+      "tristeza": 8,
+      "miedo": 10,
+      "ira": 6,
+      "asco": 5,
+      "sorpresa": 4
+    }
+  },
+  {
+    "vista": "en un supermercado eligiendo frutas",
+    "momento": "2025-01-15",
+    "oido": "murmullos y pasos alrededor",
+    "sentimos": "alerta",
+    "olemos": "rotulador",
+    "sabor": "",
+    "palpamos": "calor en el aula",
+    "pensamos": "mejor hacerlo hoy y descansar mañana",
+    "ubicacion": "antiguo cauce del río de Valencia",
+    "emociones": {
+      "alegria": 6,
+      "tristeza": 5,
+      "miedo": 9,
+      "ira": 2,
+      "asco": 5,
+      "sorpresa": 5
+    }
+  },
+  {
+    "vista": "en un supermercado eligiendo frutas",
+    "momento": "2025-08-17",
+    "oido": "",
+    "sentimos": "orden y control",
+    "olemos": "",
+    "sabor": "chocolate caliente",
+    "palpamos": "viento fuerte",
+    "pensamos": "voy a simplificar la explicación",
+    "ubicacion": "biblioteca en Valencia",
+    "emociones": {
+      "alegria": 1,
+      "tristeza": 7,
+      "miedo": 3,
+      "ira": 2,
+      "asco": 9,
+      "sorpresa": 0
+    }
+  },
+  {
+    "vista": "en el aula explicando un concepto con ejemplos",
+    "momento": "2025-04-27",
+    "oido": "tazas, cucharillas y una cafetera",
+    "sentimos": "satisfacción",
+    "olemos": "castañas asadas",
+    "sabor": "refresco dulce",
+    "palpamos": "calor de los fogones",
+    "pensamos": "quiero dejarlo claro y simple",
+    "ubicacion": "antiguo cauce del río de Valencia",
+    "emociones": {
+      "alegria": 4,
+      "tristeza": 8,
+      "miedo": 4,
+      "ira": 4,
+      "asco": 10,
+      "sorpresa": 9
+    }
+  },
+  {
+    "vista": "en el mercado viendo puestos de verduras",
+    "momento": "2025-01-01",
+    "oido": "tazas, cucharillas y una cafetera",
+    "sentimos": "orden y control",
+    "olemos": "",
+    "sabor": "chocolate caliente",
+    "palpamos": "",
+    "pensamos": "voy a simplificar la explicación",
+    "ubicacion": "instituto en Valencia",
+    "emociones": {
+      "alegria": 10,
+      "tristeza": 5,
+      "miedo": 0,
+      "ira": 0,
+      "asco": 3,
+      "sorpresa": 2
+    }
+  },
+  {
+    "vista": "en casa, organizando tareas y notas",
+    "momento": "2025-07-18",
+    "oido": "radio con noticias",
+    "sentimos": "descanso mental",
+    "olemos": "olor a lluvia",
+    "sabor": "",
+    "palpamos": "brisa suave",
+    "pensamos": "respondo mensajes luego",
+    "ubicacion": "carretera cerca de Valencia",
+    "emociones": {
+      "alegria": 4,
+      "tristeza": 9,
+      "miedo": 10,
+      "ira": 6,
+      "asco": 6,
+      "sorpresa": 8
+    }
+  },
+  {
+    "vista": "en el aula explicando un concepto con ejemplos",
+    "momento": "2025-07-22",
+    "oido": "tazas, cucharillas y una cafetera",
+    "sentimos": "motivación",
+    "olemos": "",
+    "sabor": "un sorbo amargo",
+    "palpamos": "",
+    "pensamos": "no quiero llegar tarde",
+    "ubicacion": "centro de Valencia",
+    "emociones": {
+      "alegria": 5,
+      "tristeza": 0,
+      "miedo": 2,
+      "ira": 7,
+      "asco": 3,
+      "sorpresa": 9
+    }
+  },
+  {
+    "vista": "en casa, delante del ordenador con varias ventanas abiertas",
+    "momento": "2025-01-15",
+    "oido": "ruido del motor y la radio baja",
+    "sentimos": "buen humor",
+    "olemos": "papel viejo",
+    "sabor": "agua fresca",
+    "palpamos": "vibración del asiento",
+    "pensamos": "voy con tiempo",
+    "ubicacion": "antiguo cauce del río de Valencia",
+    "emociones": {
+      "alegria": 10,
+      "tristeza": 0,
+      "miedo": 0,
+      "ira": 0,
+      "asco": 0,
+      "sorpresa": 9
+    }
+  },
+  {
+    "vista": "en una cafetería con portátil y libreta",
+    "momento": "2025-12-03",
+    "oido": "motor al ralentí",
+    "sentimos": "prisa",
+    "olemos": "ambientador del coche",
+    "sabor": "agua fresca",
+    "palpamos": "frío en las manos",
+    "pensamos": "tengo que organizar mejor la lista",
+    "ubicacion": "carretera cerca de Valencia",
+    "emociones": {
+      "alegria": 5,
+      "tristeza": 4,
+      "miedo": 1,
+      "ira": 8,
+      "asco": 5,
+      "sorpresa": 8
+    }
+  },
+  {
+    "vista": "paseando por el parque con el cielo despejado",
+    "momento": "2025-03-13",
+    "oido": "silencio roto por páginas pasando",
+    "sentimos": "relajación",
+    "olemos": "olor a lluvia",
+    "sabor": "refresco dulce",
+    "palpamos": "frío en las manos",
+    "pensamos": "necesito priorizar tareas",
+    "ubicacion": "cauce del Turia, Valencia",
+    "emociones": {
+      "alegria": 3,
+      "tristeza": 6,
+      "miedo": 9,
+      "ira": 4,
+      "asco": 9,
+      "sorpresa": 2
+    }
+  },
+  {
+    "vista": "en el metro, de pie sujetando la barra",
+    "momento": "2025-09-14",
+    "oido": "sonido del metro y avisos por megafonía",
+    "sentimos": "alerta",
+    "olemos": "aire frío",
+    "sabor": "chocolate caliente",
+    "palpamos": "calor en el aula",
+    "pensamos": "voy justo de tiempo",
+    "ubicacion": "parada de bus en Mislata",
+    "emociones": {
+      "alegria": 3,
+      "tristeza": 5,
+      "miedo": 9,
+      "ira": 7,
+      "asco": 2,
+      "sorpresa": 2
+    }
+  },
+  {
+    "vista": "en el mercado viendo puestos de verduras",
+    "momento": "2025-03-09",
+    "oido": "murmullos y pasos alrededor",
+    "sentimos": "orden y control",
+    "olemos": "",
+    "sabor": "chocolate caliente",
+    "palpamos": "calor de los fogones",
+    "pensamos": "me viene bien parar un rato",
+    "ubicacion": "estación de tren",
+    "emociones": {
+      "alegria": 0,
+      "tristeza": 3,
+      "miedo": 2,
+      "ira": 7,
+      "asco": 1,
+      "sorpresa": 1
+    }
+  },
+  {
+    "vista": "en casa, delante del ordenador con varias ventanas abiertas",
+    "momento": "2025-09-30",
+    "oido": "ruido del motor y la radio baja",
+    "sentimos": "ligera saturación",
+    "olemos": "ambientador del coche",
+    "sabor": "café con leche",
+    "palpamos": "calor de los fogones",
+    "pensamos": "tengo que hidratarme más",
+    "ubicacion": "centro de Valencia",
+    "emociones": {
+      "alegria": 10,
+      "tristeza": 2,
+      "miedo": 10,
+      "ira": 4,
+      "asco": 6,
+      "sorpresa": 4
+    }
+  },
+  {
+    "vista": "en la cocina preparando algo rápido",
+    "momento": "2025-01-03",
+    "oido": "",
+    "sentimos": "alerta",
+    "olemos": "tierra húmeda",
+    "sabor": "agua fresca",
+    "palpamos": "brisa suave",
+    "pensamos": "hoy el día ha rendido",
+    "ubicacion": "antiguo cauce del río de Valencia",
+    "emociones": {
+      "alegria": 0,
+      "tristeza": 0,
+      "miedo": 10,
+      "ira": 8,
+      "asco": 5,
+      "sorpresa": 9
+    }
+  },
+  {
+    "vista": "en la calle esperando para cruzar",
+    "momento": "2025-03-03",
+    "oido": "lluvia golpeando el cristal",
+    "sentimos": "concentración",
+    "olemos": "castañas asadas",
+    "sabor": "",
+    "palpamos": "taza caliente",
+    "pensamos": "voy justo de tiempo",
+    "ubicacion": "Valencia",
+    "emociones": {
+      "alegria": 10,
+      "tristeza": 9,
+      "miedo": 7,
+      "ira": 9,
+      "asco": 8,
+      "sorpresa": 7
+    }
+  },
+  {
+    "vista": "en el coche, conduciendo por una avenida con semáforos",
+    "momento": "2025-04-08",
+    "oido": "carros y pitidos de caja",
+    "sentimos": "concentración",
+    "olemos": "pan recién hecho",
+    "sabor": "",
+    "palpamos": "aire fresco en la cara",
+    "pensamos": "tengo que organizar mejor la lista",
+    "ubicacion": "casa",
+    "emociones": {
+      "alegria": 3,
+      "tristeza": 2,
+      "miedo": 0,
+      "ira": 0,
+      "asco": 0,
+      "sorpresa": 8
+    }
+  },
+  {
+    "vista": "en una cafetería con portátil y libreta",
+    "momento": "2025-06-16",
+    "oido": "ventilador del ordenador",
+    "sentimos": "ligera saturación",
+    "olemos": "aire frío",
+    "sabor": "refresco dulce",
+    "palpamos": "",
+    "pensamos": "necesito priorizar tareas",
+    "ubicacion": "avenida en Valencia",
+    "emociones": {
+      "alegria": 0,
+      "tristeza": 6,
+      "miedo": 2,
+      "ira": 3,
+      "asco": 2,
+      "sorpresa": 0
+    }
+  },
+  {
+    "vista": "paseando por el parque con el cielo despejado",
+    "momento": "2025-10-01",
+    "oido": "",
+    "sentimos": "paciencia",
+    "olemos": "ambientador del coche",
+    "sabor": "refresco dulce",
+    "palpamos": "",
+    "pensamos": "voy justo de tiempo",
+    "ubicacion": "mercado en Valencia",
+    "emociones": {
+      "alegria": 1,
+      "tristeza": 0,
+      "miedo": 9,
+      "ira": 8,
+      "asco": 10,
+      "sorpresa": 3
+    }
+  },
+  {
+    "vista": "en casa, organizando tareas y notas",
+    "momento": "2025-10-14",
+    "oido": "sonido del metro y avisos por megafonía",
+    "sentimos": "relajación",
+    "olemos": "papel viejo",
+    "sabor": "agua fresca",
+    "palpamos": "frío",
+    "pensamos": "voy a simplificar la explicación",
+    "ubicacion": "metro en Valencia",
+    "emociones": {
+      "alegria": 2,
+      "tristeza": 6,
+      "miedo": 3,
+      "ira": 8,
+      "asco": 9,
+      "sorpresa": 10
+    }
+  },
+  {
+    "vista": "en el aula explicando un concepto con ejemplos",
+    "momento": "2025-12-10",
+    "oido": "sonido del metro y avisos por megafonía",
+    "sentimos": "motivación",
+    "olemos": "pan recién hecho",
+    "sabor": "refresco dulce",
+    "palpamos": "",
+    "pensamos": "necesito priorizar tareas",
+    "ubicacion": "instituto en Valencia",
+    "emociones": {
+      "alegria": 8,
+      "tristeza": 10,
+      "miedo": 10,
+      "ira": 6,
+      "asco": 9,
+      "sorpresa": 2
+    }
+  },
+  {
+    "vista": "en casa, organizando tareas y notas",
+    "momento": "2025-03-21",
+    "oido": "intermitente y coches pasando",
+    "sentimos": "responsabilidad",
+    "olemos": "",
+    "sabor": "chocolate caliente",
+    "palpamos": "brisa suave",
+    "pensamos": "necesito priorizar tareas",
+    "ubicacion": "parque en Mislata",
+    "emociones": {
+      "alegria": 8,
+      "tristeza": 4,
+      "miedo": 1,
+      "ira": 4,
+      "asco": 10,
+      "sorpresa": 0
+    }
+  },
+  {
+    "vista": "en una cafetería con portátil y libreta",
+    "momento": "2025-04-23",
+    "oido": "intermitente y coches pasando",
+    "sentimos": "calma",
+    "olemos": "ajo y aceite",
+    "sabor": "",
+    "palpamos": "brisa suave",
+    "pensamos": "me viene bien parar un rato",
+    "ubicacion": "biblioteca en Valencia",
+    "emociones": {
+      "alegria": 7,
+      "tristeza": 8,
+      "miedo": 0,
+      "ira": 6,
+      "asco": 6,
+      "sorpresa": 7
+    }
+  },
+  {
+    "vista": "en casa, delante del ordenador con varias ventanas abiertas",
+    "momento": "2025-08-09",
+    "oido": "lluvia golpeando el cristal",
+    "sentimos": "motivación",
+    "olemos": "castañas asadas",
+    "sabor": "",
+    "palpamos": "ojos secos",
+    "pensamos": "esto con un ejemplo real se entiende",
+    "ubicacion": "casa (cocina)",
+    "emociones": {
+      "alegria": 1,
+      "tristeza": 10,
+      "miedo": 7,
+      "ira": 2,
+      "asco": 3,
+      "sorpresa": 1
+    }
+  },
+  {
+    "vista": "en el aula explicando un concepto con ejemplos",
+    "momento": "2025-07-07",
+    "oido": "murmullos y pasos alrededor",
+    "sentimos": "curiosidad",
+    "olemos": "ambientador del coche",
+    "sabor": "",
+    "palpamos": "calor de los fogones",
+    "pensamos": "debería cuidar más la postura",
+    "ubicacion": "Mislata",
+    "emociones": {
+      "alegria": 4,
+      "tristeza": 3,
+      "miedo": 10,
+      "ira": 0,
+      "asco": 1,
+      "sorpresa": 5
+    }
+  },
+  {
+    "vista": "en una biblioteca revisando apuntes",
+    "momento": "2025-06-19",
+    "oido": "lluvia golpeando el cristal",
+    "sentimos": "buen humor",
+    "olemos": "rotulador",
+    "sabor": "un sorbo amargo",
+    "palpamos": "taza caliente",
+    "pensamos": "tengo que hidratarme más",
+    "ubicacion": "biblioteca en Valencia",
+    "emociones": {
+      "alegria": 4,
+      "tristeza": 0,
+      "miedo": 4,
+      "ira": 10,
+      "asco": 8,
+      "sorpresa": 10
+    }
+  },
+  {
+    "vista": "en casa, organizando tareas y notas",
+    "momento": "2025-02-23",
+    "oido": "teclados y alguna pregunta",
+    "sentimos": "cansancio",
+    "olemos": "rotulador",
+    "sabor": "café con leche",
+    "palpamos": "brisa suave",
+    "pensamos": "necesito priorizar tareas",
+    "ubicacion": "parque en Mislata",
+    "emociones": {
+      "alegria": 6,
+      "tristeza": 10,
+      "miedo": 8,
+      "ira": 4,
+      "asco": 4,
+      "sorpresa": 10
+    }
+  },
+  {
+    "vista": "en el mercado viendo puestos de verduras",
+    "momento": "2025-08-05",
+    "oido": "sirena a lo lejos y tráfico",
+    "sentimos": "relajación",
+    "olemos": "rotulador",
+    "sabor": "",
+    "palpamos": "brisa suave",
+    "pensamos": "voy justo de tiempo",
+    "ubicacion": "polideportivo en Mislata",
+    "emociones": {
+      "alegria": 3,
+      "tristeza": 1,
+      "miedo": 8,
+      "ira": 0,
+      "asco": 2,
+      "sorpresa": 4
+    }
+  },
+  {
+    "vista": "en la cocina preparando algo rápido",
+    "momento": "2025-09-11",
+    "oido": "intermitente y coches pasando",
+    "sentimos": "curiosidad",
+    "olemos": "pan recién hecho",
+    "sabor": "",
+    "palpamos": "frío en las manos",
+    "pensamos": "tengo que hidratarme más",
+    "ubicacion": "centro de Valencia",
+    "emociones": {
+      "alegria": 3,
+      "tristeza": 3,
+      "miedo": 2,
+      "ira": 5,
+      "asco": 3,
+      "sorpresa": 6
+    }
+  },
+  {
+    "vista": "en una biblioteca revisando apuntes",
+    "momento": "2025-02-07",
+    "oido": "carros y pitidos de caja",
+    "sentimos": "concentración",
+    "olemos": "",
+    "sabor": "un sorbo amargo",
+    "palpamos": "calor en el aula",
+    "pensamos": "voy a simplificar la explicación",
+    "ubicacion": "antiguo cauce del río de Valencia",
+    "emociones": {
+      "alegria": 5,
+      "tristeza": 9,
+      "miedo": 3,
+      "ira": 6,
+      "asco": 10,
+      "sorpresa": 10
+    }
+  },
+  {
+    "vista": "en el mercado viendo puestos de verduras",
+    "momento": "2025-04-24",
+    "oido": "teclados y alguna pregunta",
+    "sentimos": "cansancio",
+    "olemos": "pan recién hecho",
+    "sabor": "",
+    "palpamos": "frío en las manos",
+    "pensamos": "esto con un ejemplo real se entiende",
+    "ubicacion": "paseo marítimo en Valencia",
+    "emociones": {
+      "alegria": 8,
+      "tristeza": 7,
+      "miedo": 7,
+      "ira": 8,
+      "asco": 0,
+      "sorpresa": 0
+    }
+  },
+  {
+    "vista": "en una biblioteca revisando apuntes",
+    "momento": "2025-05-18",
+    "oido": "ventilador del ordenador",
+    "sentimos": "prisa",
+    "olemos": "café",
+    "sabor": "refresco dulce",
+    "palpamos": "taza caliente",
+    "pensamos": "no quiero llegar tarde",
+    "ubicacion": "mercado en Valencia",
+    "emociones": {
+      "alegria": 6,
+      "tristeza": 3,
+      "miedo": 9,
+      "ira": 4,
+      "asco": 3,
+      "sorpresa": 6
+    }
+  },
+  {
+    "vista": "caminando por una calle con gente y escaparates",
+    "momento": "2025-04-03",
+    "oido": "sonido del metro y avisos por megafonía",
+    "sentimos": "orden y control",
+    "olemos": "rotulador",
+    "sabor": "",
+    "palpamos": "aire fresco en la cara",
+    "pensamos": "tengo que hidratarme más",
+    "ubicacion": "cauce del Turia, Valencia",
+    "emociones": {
+      "alegria": 9,
+      "tristeza": 9,
+      "miedo": 1,
+      "ira": 9,
+      "asco": 2,
+      "sorpresa": 2
+    }
+  },
+  {
+    "vista": "en el metro, de pie sujetando la barra",
+    "momento": "2025-08-17",
+    "oido": "lluvia golpeando el cristal",
+    "sentimos": "responsabilidad",
+    "olemos": "tierra húmeda",
+    "sabor": "",
+    "palpamos": "viento fuerte",
+    "pensamos": "tengo que hidratarme más",
+    "ubicacion": "Mislata",
+    "emociones": {
+      "alegria": 0,
+      "tristeza": 0,
+      "miedo": 1,
+      "ira": 1,
+      "asco": 9,
+      "sorpresa": 2
+    }
+  },
+  {
+    "vista": "en el metro, de pie sujetando la barra",
+    "momento": "2025-01-19",
+    "oido": "murmullos y pasos alrededor",
+    "sentimos": "concentración",
+    "olemos": "",
+    "sabor": "refresco dulce",
+    "palpamos": "aire fresco en la cara",
+    "pensamos": "hoy el día ha rendido",
+    "ubicacion": "biblioteca en Valencia",
+    "emociones": {
+      "alegria": 5,
+      "tristeza": 2,
+      "miedo": 0,
+      "ira": 0,
+      "asco": 0,
+      "sorpresa": 2
+    }
+  },
+  {
+    "vista": "en casa, organizando tareas y notas",
+    "momento": "2025-08-17",
+    "oido": "teclados y alguna pregunta",
+    "sentimos": "responsabilidad",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "",
+    "pensamos": "hoy el día ha rendido",
+    "ubicacion": "paseo marítimo en Valencia",
+    "emociones": {
+      "alegria": 10,
+      "tristeza": 10,
+      "miedo": 0,
+      "ira": 1,
+      "asco": 0,
+      "sorpresa": 1
+    }
+  },
+  {
+    "vista": "en el mercado viendo puestos de verduras",
+    "momento": "2025-07-21",
+    "oido": "lluvia golpeando el cristal",
+    "sentimos": "cansancio",
+    "olemos": "",
+    "sabor": "refresco dulce",
+    "palpamos": "ojos secos",
+    "pensamos": "esto con un ejemplo real se entiende",
+    "ubicacion": "cauce del Turia, Valencia",
+    "emociones": {
+      "alegria": 9,
+      "tristeza": 5,
+      "miedo": 3,
+      "ira": 8,
+      "asco": 10,
+      "sorpresa": 1
+    }
+  },
+  {
+    "vista": "en el mercado viendo puestos de verduras",
+    "momento": "2025-11-22",
+    "oido": "ruido del motor y la radio baja",
+    "sentimos": "motivación",
+    "olemos": "castañas asadas",
+    "sabor": "café con leche",
+    "palpamos": "brisa suave",
+    "pensamos": "tengo que organizar mejor la lista",
+    "ubicacion": "casa",
+    "emociones": {
+      "alegria": 6,
+      "tristeza": 1,
+      "miedo": 3,
+      "ira": 3,
+      "asco": 3,
+      "sorpresa": 1
+    }
+  },
+  {
+    "vista": "en un pasillo saludando a alguien",
+    "momento": "2025-05-11",
+    "oido": "pasos y maletas",
+    "sentimos": "prisa",
+    "olemos": "café",
+    "sabor": "un sorbo amargo",
+    "palpamos": "",
+    "pensamos": "voy con tiempo",
+    "ubicacion": "metro en Valencia",
+    "emociones": {
+      "alegria": 0,
+      "tristeza": 0,
+      "miedo": 10,
+      "ira": 1,
+      "asco": 10,
+      "sorpresa": 10
+    }
+  },
+  {
+    "vista": "en el coche, conduciendo por una avenida con semáforos",
+    "momento": "2025-05-31",
+    "oido": "murmullos y pasos alrededor",
+    "sentimos": "paciencia",
+    "olemos": "tierra húmeda",
+    "sabor": "agua fresca",
+    "palpamos": "calor en el aula",
+    "pensamos": "hoy el día ha rendido",
+    "ubicacion": "Mislata",
+    "emociones": {
+      "alegria": 4,
+      "tristeza": 7,
+      "miedo": 1,
+      "ira": 2,
+      "asco": 1,
+      "sorpresa": 10
+    }
+  },
+  {
+    "vista": "en el metro, de pie sujetando la barra",
+    "momento": "2025-07-06",
+    "oido": "pájaros y viento suave",
+    "sentimos": "ligera saturación",
+    "olemos": "castañas asadas",
+    "sabor": "refresco dulce",
+    "palpamos": "frío en las manos",
+    "pensamos": "necesito priorizar tareas",
+    "ubicacion": "cauce del Turia, Valencia",
+    "emociones": {
+      "alegria": 3,
+      "tristeza": 4,
+      "miedo": 5,
+      "ira": 5,
+      "asco": 6,
+      "sorpresa": 4
+    }
+  },
+  {
+    "vista": "en un supermercado eligiendo frutas",
+    "momento": "2025-04-04",
+    "oido": "murmullos y pasos alrededor",
+    "sentimos": "curiosidad",
+    "olemos": "ajo y aceite",
+    "sabor": "un sorbo amargo",
+    "palpamos": "calor de los fogones",
+    "pensamos": "necesito priorizar tareas",
+    "ubicacion": "polideportivo en Mislata",
+    "emociones": {
+      "alegria": 0,
+      "tristeza": 5,
+      "miedo": 4,
+      "ira": 4,
+      "asco": 0,
+      "sorpresa": 5
+    }
+  },
+  {
+    "vista": "en un pasillo saludando a alguien",
+    "momento": "2025-04-13",
+    "oido": "sonido del metro y avisos por megafonía",
+    "sentimos": "ligera saturación",
+    "olemos": "café",
+    "sabor": "un sorbo amargo",
+    "palpamos": "calor en el aula",
+    "pensamos": "voy con tiempo",
+    "ubicacion": "casa",
+    "emociones": {
+      "alegria": 5,
+      "tristeza": 9,
+      "miedo": 8,
+      "ira": 7,
+      "asco": 4,
+      "sorpresa": 9
+    }
+  },
+  {
+    "vista": "en casa, delante del ordenador con varias ventanas abiertas",
+    "momento": "2025-07-24",
+    "oido": "ruido del tráfico",
+    "sentimos": "concentración",
+    "olemos": "ajo y aceite",
+    "sabor": "café con leche",
+    "palpamos": "calor en el aula",
+    "pensamos": "necesito priorizar tareas",
+    "ubicacion": "carretera cerca de Valencia",
+    "emociones": {
+      "alegria": 0,
+      "tristeza": 6,
+      "miedo": 0,
+      "ira": 6,
+      "asco": 8,
+      "sorpresa": 1
+    }
+  },
+  {
+    "vista": "en el aula explicando un concepto con ejemplos",
+    "momento": "2025-10-27",
+    "oido": "lluvia golpeando el cristal",
+    "sentimos": "relajación",
+    "olemos": "tierra húmeda",
+    "sabor": "",
+    "palpamos": "viento fuerte",
+    "pensamos": "debería cuidar más la postura",
+    "ubicacion": "cafetería en Valencia",
+    "emociones": {
+      "alegria": 5,
+      "tristeza": 7,
+      "miedo": 0,
+      "ira": 8,
+      "asco": 9,
+      "sorpresa": 3
+    }
+  },
+  {
+    "vista": "en casa, delante del ordenador con varias ventanas abiertas",
+    "momento": "2025-05-26",
+    "oido": "intermitente y coches pasando",
+    "sentimos": "buen humor",
+    "olemos": "",
+    "sabor": "agua fresca",
+    "palpamos": "frío en las manos",
+    "pensamos": "voy con tiempo",
+    "ubicacion": "polideportivo en Mislata",
+    "emociones": {
+      "alegria": 1,
+      "tristeza": 9,
+      "miedo": 4,
+      "ira": 2,
+      "asco": 6,
+      "sorpresa": 0
+    }
+  },
+  {
+    "vista": "en un pasillo saludando a alguien",
+    "momento": "2025-08-08",
+    "oido": "intermitente y coches pasando",
+    "sentimos": "descanso mental",
+    "olemos": "ambientador del coche",
+    "sabor": "agua fresca",
+    "palpamos": "aire fresco en la cara",
+    "pensamos": "tengo que hidratarme más",
+    "ubicacion": "polideportivo en Mislata",
+    "emociones": {
+      "alegria": 8,
+      "tristeza": 3,
+      "miedo": 4,
+      "ira": 0,
+      "asco": 0,
+      "sorpresa": 5
+    }
+  },
+  {
+    "vista": "en la cocina preparando algo rápido",
+    "momento": "2025-01-09",
+    "oido": "sirena a lo lejos y tráfico",
+    "sentimos": "buen humor",
+    "olemos": "",
+    "sabor": "refresco dulce",
+    "palpamos": "taza caliente",
+    "pensamos": "tengo que organizar mejor la lista",
+    "ubicacion": "Valencia",
+    "emociones": {
+      "alegria": 7,
+      "tristeza": 1,
+      "miedo": 7,
+      "ira": 2,
+      "asco": 7,
+      "sorpresa": 9
+    }
+  },
+  {
+    "vista": "en casa, delante del ordenador con varias ventanas abiertas",
+    "momento": "2025-11-23",
+    "oido": "motor al ralentí",
+    "sentimos": "calma",
+    "olemos": "ajo y aceite",
+    "sabor": "",
+    "palpamos": "aire fresco en la cara",
+    "pensamos": "tengo que organizar mejor la lista",
+    "ubicacion": "carretera cerca de Valencia",
+    "emociones": {
+      "alegria": 5,
+      "tristeza": 8,
+      "miedo": 4,
+      "ira": 9,
+      "asco": 2,
+      "sorpresa": 4
+    }
+  },
+  {
+    "vista": "en un pasillo saludando a alguien",
+    "momento": "2025-09-30",
+    "oido": "sirena a lo lejos y tráfico",
+    "sentimos": "satisfacción",
+    "olemos": "papel viejo",
+    "sabor": "",
+    "palpamos": "frío en las manos",
+    "pensamos": "hoy el día ha rendido",
+    "ubicacion": "casa",
+    "emociones": {
+      "alegria": 3,
+      "tristeza": 3,
+      "miedo": 7,
+      "ira": 2,
+      "asco": 1,
+      "sorpresa": 10
+    }
+  },
+  {
+    "vista": "en la calle esperando para cruzar",
+    "momento": "2025-09-15",
+    "oido": "lluvia golpeando el cristal",
+    "sentimos": "calma",
+    "olemos": "",
+    "sabor": "un sorbo amargo",
+    "palpamos": "",
+    "pensamos": "debería cuidar más la postura",
+    "ubicacion": "cafetería en Valencia",
+    "emociones": {
+      "alegria": 1,
+      "tristeza": 7,
+      "miedo": 8,
+      "ira": 1,
+      "asco": 10,
+      "sorpresa": 5
+    }
+  },
+  {
+    "vista": "en el metro, de pie sujetando la barra",
+    "momento": "2025-02-08",
+    "oido": "carros y pitidos de caja",
+    "sentimos": "satisfacción",
+    "olemos": "",
+    "sabor": "refresco dulce",
+    "palpamos": "ojos secos",
+    "pensamos": "debería cuidar más la postura",
+    "ubicacion": "carretera cerca de Valencia",
+    "emociones": {
+      "alegria": 5,
+      "tristeza": 1,
+      "miedo": 6,
+      "ira": 6,
+      "asco": 1,
+      "sorpresa": 6
+    }
+  },
+  {
+    "vista": "en una cafetería con portátil y libreta",
+    "momento": "2025-07-15",
+    "oido": "ruido del tráfico",
+    "sentimos": "paciencia",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "frío en las manos",
+    "pensamos": "quiero dejarlo claro y simple",
+    "ubicacion": "carretera cerca de Valencia",
+    "emociones": {
+      "alegria": 10,
+      "tristeza": 0,
+      "miedo": 5,
+      "ira": 3,
+      "asco": 4,
+      "sorpresa": 4
+    }
+  },
+  {
+    "vista": "en el aula explicando un concepto con ejemplos",
+    "momento": "2025-11-04",
+    "oido": "ruido del motor y la radio baja",
+    "sentimos": "curiosidad",
+    "olemos": "rotulador",
+    "sabor": "",
+    "palpamos": "vibración del asiento",
+    "pensamos": "quiero dejarlo claro y simple",
+    "ubicacion": "parque en Mislata",
+    "emociones": {
+      "alegria": 6,
+      "tristeza": 8,
+      "miedo": 8,
+      "ira": 2,
+      "asco": 6,
+      "sorpresa": 10
+    }
+  },
+  {
+    "vista": "caminando por una calle con gente y escaparates",
+    "momento": "2025-09-04",
+    "oido": "murmullos y pasos alrededor",
+    "sentimos": "paciencia",
+    "olemos": "rotulador",
+    "sabor": "un sorbo amargo",
+    "palpamos": "",
+    "pensamos": "mejor hacerlo hoy y descansar mañana",
+    "ubicacion": "cafetería en Valencia",
+    "emociones": {
+      "alegria": 3,
+      "tristeza": 7,
+      "miedo": 2,
+      "ira": 8,
+      "asco": 9,
+      "sorpresa": 9
+    }
+  },
+  {
+    "vista": "en el metro, de pie sujetando la barra",
+    "momento": "2025-09-22",
+    "oido": "carros y pitidos de caja",
+    "sentimos": "paciencia",
+    "olemos": "papel viejo",
+    "sabor": "",
+    "palpamos": "taza caliente",
+    "pensamos": "voy justo de tiempo",
+    "ubicacion": "cauce del Turia, Valencia",
+    "emociones": {
+      "alegria": 10,
+      "tristeza": 0,
+      "miedo": 5,
+      "ira": 9,
+      "asco": 5,
+      "sorpresa": 8
+    }
+  },
+  {
+    "vista": "en el metro, de pie sujetando la barra",
+    "momento": "2025-02-13",
+    "oido": "tazas, cucharillas y una cafetera",
+    "sentimos": "concentración",
+    "olemos": "rotulador",
+    "sabor": "",
+    "palpamos": "taza caliente",
+    "pensamos": "voy con tiempo",
+    "ubicacion": "polideportivo en Mislata",
+    "emociones": {
+      "alegria": 2,
+      "tristeza": 7,
+      "miedo": 10,
+      "ira": 8,
+      "asco": 5,
+      "sorpresa": 2
+    }
+  },
+  {
+    "vista": "en una cafetería con portátil y libreta",
+    "momento": "2025-05-18",
+    "oido": "silencio roto por páginas pasando",
+    "sentimos": "satisfacción",
+    "olemos": "olor a lluvia",
+    "sabor": "un sorbo amargo",
+    "palpamos": "vibración del asiento",
+    "pensamos": "voy a simplificar la explicación",
+    "ubicacion": "parque en Mislata",
+    "emociones": {
+      "alegria": 7,
+      "tristeza": 7,
+      "miedo": 4,
+      "ira": 9,
+      "asco": 3,
+      "sorpresa": 2
+    }
+  },
+  {
+    "vista": "en la calle esperando para cruzar",
+    "momento": "2025-09-26",
+    "oido": "carros y pitidos de caja",
+    "sentimos": "curiosidad",
+    "olemos": "tierra húmeda",
+    "sabor": "",
+    "palpamos": "taza caliente",
+    "pensamos": "debería cuidar más la postura",
+    "ubicacion": "casa (despacho)",
+    "emociones": {
+      "alegria": 5,
+      "tristeza": 7,
+      "miedo": 10,
+      "ira": 3,
+      "asco": 8,
+      "sorpresa": 3
+    }
+  },
+  {
+    "vista": "en el coche, conduciendo por una avenida con semáforos",
+    "momento": "2025-09-12",
+    "oido": "tazas, cucharillas y una cafetera",
+    "sentimos": "motivación",
+    "olemos": "café",
+    "sabor": "agua fresca",
+    "palpamos": "frío en las manos",
+    "pensamos": "hoy el día ha rendido",
+    "ubicacion": "avenida en Valencia",
+    "emociones": {
+      "alegria": 4,
+      "tristeza": 4,
+      "miedo": 9,
+      "ira": 2,
+      "asco": 2,
+      "sorpresa": 3
+    }
+  },
+  {
+    "vista": "en el metro, de pie sujetando la barra",
+    "momento": "2025-03-14",
+    "oido": "silencio roto por páginas pasando",
+    "sentimos": "curiosidad",
+    "olemos": "ajo y aceite",
+    "sabor": "chocolate caliente",
+    "palpamos": "taza caliente",
+    "pensamos": "voy con tiempo",
+    "ubicacion": "casa (cocina)",
+    "emociones": {
+      "alegria": 5,
+      "tristeza": 9,
+      "miedo": 8,
+      "ira": 5,
+      "asco": 2,
+      "sorpresa": 3
+    }
+  },
+  {
+    "vista": "caminando por una calle con gente y escaparates",
+    "momento": "2025-06-16",
+    "oido": "",
+    "sentimos": "curiosidad",
+    "olemos": "ajo y aceite",
+    "sabor": "un sorbo amargo",
+    "palpamos": "ojos secos",
+    "pensamos": "debería cuidar más la postura",
+    "ubicacion": "Mislata",
+    "emociones": {
+      "alegria": 5,
+      "tristeza": 3,
+      "miedo": 4,
+      "ira": 1,
+      "asco": 2,
+      "sorpresa": 10
+    }
+  },
+  {
+    "vista": "en casa, organizando tareas y notas",
+    "momento": "2025-05-29",
+    "oido": "avisos por megafonía",
+    "sentimos": "curiosidad",
+    "olemos": "pan recién hecho",
+    "sabor": "",
+    "palpamos": "frío",
+    "pensamos": "voy con tiempo",
+    "ubicacion": "estación de tren",
+    "emociones": {
+      "alegria": 1,
+      "tristeza": 3,
+      "miedo": 6,
+      "ira": 2,
+      "asco": 2,
+      "sorpresa": 4
+    }
+  },
+  {
+    "vista": "en casa, organizando tareas y notas",
+    "momento": "2025-08-08",
+    "oido": "",
+    "sentimos": "cansancio",
+    "olemos": "café",
+    "sabor": "",
+    "palpamos": "taza caliente",
+    "pensamos": "tengo que organizar mejor la lista",
+    "ubicacion": "casa (salón)",
+    "emociones": {
+      "alegria": 4,
+      "tristeza": 6,
+      "miedo": 4,
+      "ira": 3,
+      "asco": 1,
+      "sorpresa": 10
+    }
+  },
+  {
+    "vista": "en un pasillo saludando a alguien",
+    "momento": "2025-03-18",
+    "oido": "sonido del metro y avisos por megafonía",
+    "sentimos": "cansancio",
+    "olemos": "ajo y aceite",
+    "sabor": "chocolate caliente",
+    "palpamos": "ojos secos",
+    "pensamos": "tengo que hidratarme más",
+    "ubicacion": "casa (despacho)",
+    "emociones": {
+      "alegria": 1,
+      "tristeza": 4,
+      "miedo": 3,
+      "ira": 6,
+      "asco": 7,
+      "sorpresa": 0
+    }
+  },
+  {
+    "vista": "en un gimnasio empezando la rutina",
+    "momento": "2025-08-08",
+    "oido": "murmullos y pasos alrededor",
+    "sentimos": "alerta",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "aire fresco en la cara",
+    "pensamos": "voy justo de tiempo",
+    "ubicacion": "cauce del Turia, Valencia",
+    "emociones": {
+      "alegria": 0,
+      "tristeza": 6,
+      "miedo": 6,
+      "ira": 3,
+      "asco": 8,
+      "sorpresa": 10
+    }
+  },
+  {
+    "vista": "en la calle esperando para cruzar",
+    "momento": "2025-02-11",
+    "oido": "murmullos y pasos alrededor",
+    "sentimos": "orden y control",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "calor de los fogones",
+    "pensamos": "quiero dejarlo claro y simple",
+    "ubicacion": "parque en Mislata",
+    "emociones": {
+      "alegria": 4,
+      "tristeza": 7,
+      "miedo": 0,
+      "ira": 2,
+      "asco": 4,
+      "sorpresa": 9
+    }
+  },
+  {
+    "vista": "en un pasillo saludando a alguien",
+    "momento": "2025-05-27",
+    "oido": "tazas, cucharillas y una cafetera",
+    "sentimos": "concentración",
+    "olemos": "ambientador del coche",
+    "sabor": "agua fresca",
+    "palpamos": "brisa suave",
+    "pensamos": "hoy el día ha rendido",
+    "ubicacion": "parada de bus en Mislata",
+    "emociones": {
+      "alegria": 6,
+      "tristeza": 0,
+      "miedo": 3,
+      "ira": 6,
+      "asco": 9,
+      "sorpresa": 9
+    }
+  },
+  {
+    "vista": "en un supermercado eligiendo frutas",
+    "momento": "2025-05-25",
+    "oido": "carros y pitidos de caja",
+    "sentimos": "cansancio",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "corazón acelerado",
+    "pensamos": "me viene bien parar un rato",
+    "ubicacion": "biblioteca en Valencia",
+    "emociones": {
+      "alegria": 10,
+      "tristeza": 6,
+      "miedo": 3,
+      "ira": 10,
+      "asco": 10,
+      "sorpresa": 10
+    }
+  },
+  {
+    "vista": "en el metro, de pie sujetando la barra",
+    "momento": "2025-09-05",
+    "oido": "lluvia golpeando el cristal",
+    "sentimos": "responsabilidad",
+    "olemos": "ajo y aceite",
+    "sabor": "un sorbo amargo",
+    "palpamos": "brisa suave",
+    "pensamos": "me viene bien parar un rato",
+    "ubicacion": "centro de Valencia",
+    "emociones": {
+      "alegria": 9,
+      "tristeza": 3,
+      "miedo": 10,
+      "ira": 2,
+      "asco": 10,
+      "sorpresa": 1
+    }
+  },
+  {
+    "vista": "en el aula explicando un concepto con ejemplos",
+    "momento": "2025-04-17",
+    "oido": "lluvia golpeando el cristal",
+    "sentimos": "orden y control",
+    "olemos": "papel viejo",
+    "sabor": "refresco dulce",
+    "palpamos": "calor de los fogones",
+    "pensamos": "esto con un ejemplo real se entiende",
+    "ubicacion": "avenida en Valencia",
+    "emociones": {
+      "alegria": 7,
+      "tristeza": 6,
+      "miedo": 5,
+      "ira": 4,
+      "asco": 10,
+      "sorpresa": 1
+    }
+  },
+  {
+    "vista": "en una biblioteca revisando apuntes",
+    "momento": "2025-03-13",
+    "oido": "lluvia golpeando el cristal",
+    "sentimos": "satisfacción",
+    "olemos": "olor a lluvia",
+    "sabor": "un sorbo amargo",
+    "palpamos": "brisa suave",
+    "pensamos": "esto con un ejemplo real se entiende",
+    "ubicacion": "paseo marítimo en Valencia",
+    "emociones": {
+      "alegria": 6,
+      "tristeza": 3,
+      "miedo": 6,
+      "ira": 10,
+      "asco": 2,
+      "sorpresa": 4
+    }
+  },
+  {
+    "vista": "en el aula explicando un concepto con ejemplos",
+    "momento": "2025-06-13",
+    "oido": "sonido del metro y avisos por megafonía",
+    "sentimos": "curiosidad",
+    "olemos": "rotulador",
+    "sabor": "refresco dulce",
+    "palpamos": "frío en las manos",
+    "pensamos": "debería cuidar más la postura",
+    "ubicacion": "parada de bus en Mislata",
+    "emociones": {
+      "alegria": 6,
+      "tristeza": 7,
+      "miedo": 7,
+      "ira": 0,
+      "asco": 9,
+      "sorpresa": 6
+    }
+  },
+  {
+    "vista": "en una biblioteca revisando apuntes",
+    "momento": "2025-07-31",
+    "oido": "intermitente y coches pasando",
+    "sentimos": "ligera saturación",
+    "olemos": "olor a lluvia",
+    "sabor": "",
+    "palpamos": "calor en el aula",
+    "pensamos": "esto con un ejemplo real se entiende",
+    "ubicacion": "Valencia",
+    "emociones": {
+      "alegria": 8,
+      "tristeza": 10,
+      "miedo": 10,
+      "ira": 2,
+      "asco": 10,
+      "sorpresa": 5
+    }
+  },
+  {
+    "vista": "en una cafetería con portátil y libreta",
+    "momento": "2025-05-23",
+    "oido": "ventilador del ordenador",
+    "sentimos": "curiosidad",
+    "olemos": "tierra húmeda",
+    "sabor": "refresco dulce",
+    "palpamos": "taza caliente",
+    "pensamos": "necesito priorizar tareas",
+    "ubicacion": "biblioteca en Valencia",
+    "emociones": {
+      "alegria": 0,
+      "tristeza": 6,
+      "miedo": 7,
+      "ira": 1,
+      "asco": 0,
+      "sorpresa": 4
+    }
+  },
+  {
+    "vista": "en una biblioteca revisando apuntes",
+    "momento": "2025-07-24",
+    "oido": "sirena a lo lejos y tráfico",
+    "sentimos": "paciencia",
+    "olemos": "ajo y aceite",
+    "sabor": "",
+    "palpamos": "frío en las manos",
+    "pensamos": "no quiero llegar tarde",
+    "ubicacion": "Valencia",
+    "emociones": {
+      "alegria": 8,
+      "tristeza": 3,
+      "miedo": 2,
+      "ira": 3,
+      "asco": 8,
+      "sorpresa": 5
+    }
+  },
+  {
+    "vista": "en una biblioteca revisando apuntes",
+    "momento": "2025-08-31",
+    "oido": "ventilador del ordenador",
+    "sentimos": "paciencia",
+    "olemos": "café",
+    "sabor": "un sorbo amargo",
+    "palpamos": "corazón acelerado",
+    "pensamos": "voy con tiempo",
+    "ubicacion": "polideportivo en Mislata",
+    "emociones": {
+      "alegria": 1,
+      "tristeza": 9,
+      "miedo": 7,
+      "ira": 8,
+      "asco": 3,
+      "sorpresa": 7
+    }
+  },
+  {
+    "vista": "en el mercado viendo puestos de verduras",
+    "momento": "2025-08-28",
+    "oido": "tazas, cucharillas y una cafetera",
+    "sentimos": "satisfacción",
+    "olemos": "pan recién hecho",
+    "sabor": "refresco dulce",
+    "palpamos": "brisa suave",
+    "pensamos": "no quiero llegar tarde",
+    "ubicacion": "polideportivo en Mislata",
+    "emociones": {
+      "alegria": 8,
+      "tristeza": 0,
+      "miedo": 10,
+      "ira": 5,
+      "asco": 8,
+      "sorpresa": 5
+    }
+  },
+  {
+    "vista": "en un pasillo saludando a alguien",
+    "momento": "2025-02-25",
+    "oido": "intermitente y coches pasando",
+    "sentimos": "descanso mental",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "taza caliente",
+    "pensamos": "voy justo de tiempo",
+    "ubicacion": "Valencia",
+    "emociones": {
+      "alegria": 6,
+      "tristeza": 7,
+      "miedo": 3,
+      "ira": 10,
+      "asco": 2,
+      "sorpresa": 6
+    }
+  },
+  {
+    "vista": "caminando por una calle con gente y escaparates",
+    "momento": "2025-03-06",
+    "oido": "sonido del metro y avisos por megafonía",
+    "sentimos": "buen humor",
+    "olemos": "café",
+    "sabor": "",
+    "palpamos": "brisa suave",
+    "pensamos": "me viene bien parar un rato",
+    "ubicacion": "mercado en Valencia",
+    "emociones": {
+      "alegria": 8,
+      "tristeza": 1,
+      "miedo": 9,
+      "ira": 5,
+      "asco": 10,
+      "sorpresa": 0
+    }
+  },
+  {
+    "vista": "paseando por el parque con el cielo despejado",
+    "momento": "2025-11-22",
+    "oido": "silencio roto por páginas pasando",
+    "sentimos": "descanso mental",
+    "olemos": "pan recién hecho",
+    "sabor": "un sorbo amargo",
+    "palpamos": "taza caliente",
+    "pensamos": "necesito priorizar tareas",
+    "ubicacion": "polideportivo en Mislata",
+    "emociones": {
+      "alegria": 4,
+      "tristeza": 4,
+      "miedo": 6,
+      "ira": 6,
+      "asco": 0,
+      "sorpresa": 0
+    }
+  },
+  {
+    "vista": "en la cocina preparando algo rápido",
+    "momento": "2025-04-09",
+    "oido": "silencio roto por páginas pasando",
+    "sentimos": "cansancio",
+    "olemos": "olor a lluvia",
+    "sabor": "café con leche",
+    "palpamos": "frío en las manos",
+    "pensamos": "voy justo de tiempo",
+    "ubicacion": "casa (salón)",
+    "emociones": {
+      "alegria": 1,
+      "tristeza": 6,
+      "miedo": 6,
+      "ira": 10,
+      "asco": 10,
+      "sorpresa": 5
+    }
+  },
+  {
+    "vista": "en una cafetería con portátil y libreta",
+    "momento": "2025-05-23",
+    "oido": "pájaros y viento suave",
+    "sentimos": "responsabilidad",
+    "olemos": "olor a lluvia",
+    "sabor": "",
+    "palpamos": "aire fresco en la cara",
+    "pensamos": "mejor hacerlo hoy y descansar mañana",
+    "ubicacion": "paseo marítimo en Valencia",
+    "emociones": {
+      "alegria": 9,
+      "tristeza": 4,
+      "miedo": 1,
+      "ira": 3,
+      "asco": 4,
+      "sorpresa": 6
+    }
+  },
+  {
+    "vista": "en el coche, conduciendo por una avenida con semáforos",
+    "momento": "2025-01-15",
+    "oido": "silencio roto por páginas pasando",
+    "sentimos": "descanso mental",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "frío en las manos",
+    "pensamos": "tengo que organizar mejor la lista",
+    "ubicacion": "cauce del Turia, Valencia",
+    "emociones": {
+      "alegria": 8,
+      "tristeza": 3,
+      "miedo": 6,
+      "ira": 7,
+      "asco": 3,
+      "sorpresa": 2
+    }
+  },
+  {
+    "vista": "en casa, organizando tareas y notas",
+    "momento": "2025-12-12",
+    "oido": "sirena a lo lejos y tráfico",
+    "sentimos": "motivación",
+    "olemos": "pan recién hecho",
+    "sabor": "",
+    "palpamos": "ojos secos",
+    "pensamos": "me viene bien parar un rato",
+    "ubicacion": "parada de bus en Mislata",
+    "emociones": {
+      "alegria": 2,
+      "tristeza": 1,
+      "miedo": 10,
+      "ira": 3,
+      "asco": 7,
+      "sorpresa": 10
+    }
+  },
+  {
+    "vista": "en casa, organizando tareas y notas",
+    "momento": "2025-07-09",
+    "oido": "sonido del metro y avisos por megafonía",
+    "sentimos": "paciencia",
+    "olemos": "café",
+    "sabor": "chocolate caliente",
+    "palpamos": "",
+    "pensamos": "respondo mensajes luego",
+    "ubicacion": "casa (despacho)",
+    "emociones": {
+      "alegria": 8,
+      "tristeza": 3,
+      "miedo": 2,
+      "ira": 5,
+      "asco": 10,
+      "sorpresa": 10
+    }
+  },
+  {
+    "vista": "en un pasillo saludando a alguien",
+    "momento": "2025-07-22",
+    "oido": "sonido del metro y avisos por megafonía",
+    "sentimos": "concentración",
+    "olemos": "rotulador",
+    "sabor": "un sorbo amargo",
+    "palpamos": "ojos secos",
+    "pensamos": "hoy el día ha rendido",
+    "ubicacion": "cauce del Turia, Valencia",
+    "emociones": {
+      "alegria": 6,
+      "tristeza": 7,
+      "miedo": 4,
+      "ira": 8,
+      "asco": 10,
+      "sorpresa": 2
+    }
+  },
+  {
+    "vista": "en el metro, de pie sujetando la barra",
+    "momento": "2025-04-10",
+    "oido": "sonido del metro y avisos por megafonía",
+    "sentimos": "paciencia",
+    "olemos": "olor a lluvia",
+    "sabor": "",
+    "palpamos": "calor en el aula",
+    "pensamos": "voy a simplificar la explicación",
+    "ubicacion": "antiguo cauce del río de Valencia",
+    "emociones": {
+      "alegria": 7,
+      "tristeza": 5,
+      "miedo": 3,
+      "ira": 4,
+      "asco": 6,
+      "sorpresa": 10
+    }
+  },
+  {
+    "vista": "en una cafetería con portátil y libreta",
+    "momento": "2025-11-09",
+    "oido": "ruido del motor y la radio baja",
+    "sentimos": "orden y control",
+    "olemos": "olor a lluvia",
+    "sabor": "",
+    "palpamos": "corazón acelerado",
+    "pensamos": "me viene bien parar un rato",
+    "ubicacion": "Valencia",
+    "emociones": {
+      "alegria": 4,
+      "tristeza": 6,
+      "miedo": 10,
+      "ira": 2,
+      "asco": 7,
+      "sorpresa": 0
+    }
+  },
+  {
+    "vista": "en la cocina preparando algo rápido",
+    "momento": "2025-03-16",
+    "oido": "silencio roto por páginas pasando",
+    "sentimos": "concentración",
+    "olemos": "olor a lluvia",
+    "sabor": "café con leche",
+    "palpamos": "vibración del asiento",
+    "pensamos": "no quiero llegar tarde",
+    "ubicacion": "parada de bus en Mislata",
+    "emociones": {
+      "alegria": 4,
+      "tristeza": 5,
+      "miedo": 3,
+      "ira": 10,
+      "asco": 4,
+      "sorpresa": 5
+    }
+  },
+  {
+    "vista": "caminando por una calle con gente y escaparates",
+    "momento": "2025-01-31",
+    "oido": "ruido del motor y la radio baja",
+    "sentimos": "motivación",
+    "olemos": "papel viejo",
+    "sabor": "chocolate caliente",
+    "palpamos": "",
+    "pensamos": "voy a simplificar la explicación",
+    "ubicacion": "casa",
+    "emociones": {
+      "alegria": 7,
+      "tristeza": 7,
+      "miedo": 6,
+      "ira": 9,
+      "asco": 10,
+      "sorpresa": 1
+    }
+  },
+  {
+    "vista": "en casa, organizando tareas y notas",
+    "momento": "2025-03-26",
+    "oido": "pasos y maletas",
+    "sentimos": "satisfacción",
+    "olemos": "tierra húmeda",
+    "sabor": "",
+    "palpamos": "frío",
+    "pensamos": "necesito priorizar tareas",
+    "ubicacion": "metro en Valencia",
+    "emociones": {
+      "alegria": 10,
+      "tristeza": 5,
+      "miedo": 2,
+      "ira": 4,
+      "asco": 6,
+      "sorpresa": 0
+    }
+  },
+  {
+    "vista": "en una cafetería con portátil y libreta",
+    "momento": "2025-03-28",
+    "oido": "teclados y alguna pregunta",
+    "sentimos": "concentración",
+    "olemos": "pan recién hecho",
+    "sabor": "",
+    "palpamos": "taza caliente",
+    "pensamos": "esto con un ejemplo real se entiende",
+    "ubicacion": "parada de bus en Mislata",
+    "emociones": {
+      "alegria": 1,
+      "tristeza": 9,
+      "miedo": 5,
+      "ira": 2,
+      "asco": 8,
+      "sorpresa": 5
+    }
+  }
+]
+```
+
+### memories_old
+<small>Creado: 2025-12-22 20:03</small>
+
+`memories_old.json`
+
+```json
+[
+  {
+    "vista": "estaba conduciendo en el coche por una carretera y era de día",
+    "momento": "2025-12-02",
+    "oido": "la radio baja y el ruido constante del motor",
+    "sentimos": "algo de prisa y concentración",
+    "olemos": "olor tenue a calefacción del coche",
+    "sabor": "",
+    "palpamos": "hacía frío de diciembre entrando por la ventana",
+    "pensamos": "no quería llegar tarde a clase",
+    "ubicacion": "carretera cerca de Valencia"
+  },
+  {
+    "vista": "ayer por la noche iba conduciendo por la carretera con pocas luces",
+    "momento": "2025-12-10",
+    "oido": "los neumáticos sobre el asfalto mojado",
+    "sentimos": "tranquilidad con un punto de cansancio",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "",
+    "pensamos": "me sorprendió que no hubiera llovido mucho",
+    "ubicacion": "Valencia"
+  },
+  {
+    "vista": "estoy dando una clase y veo a los alumnos tomando apuntes",
+    "momento": "2025-12-16",
+    "oido": "teclados, sillas y murmullos puntuales",
+    "sentimos": "responsabilidad y ganas de que quede claro",
+    "olemos": "olor a aula y rotulador",
+    "sabor": "",
+    "palpamos": "aquí hace calor",
+    "pensamos": "quiero que este ejercicio quede bien",
+    "ubicacion": "Mislata"
+  },
+  {
+    "vista": "iba en la bici y al girarme para mirar un coche noté un tirón",
+    "momento": "2025-05-14",
+    "oido": "ruido de tráfico y viento",
+    "sentimos": "dolor fuerte en el cuello",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "era un día de primavera y hacía calor",
+    "pensamos": "cada año me pasa alguna contractura y no sé por qué",
+    "ubicacion": "antiguo cauce del río de Valencia"
+  },
+
+  {
+    "vista": "camino por una calle con tiendas y gente mirando escaparates",
+    "momento": "2025-11-28",
+    "oido": "conversaciones y una moto pasando",
+    "sentimos": "curiosidad y calma",
+    "olemos": "olor a castañas asadas",
+    "sabor": "",
+    "palpamos": "aire fresco en la cara",
+    "pensamos": "debería comprar un detalle para casa",
+    "ubicacion": "centro de Valencia"
+  },
+  {
+    "vista": "en un supermercado comparando precios en la estantería",
+    "momento": "2025-10-03",
+    "oido": "carros y pitidos de caja",
+    "sentimos": "ligera saturación por el ruido",
+    "olemos": "pan recién hecho",
+    "sabor": "",
+    "palpamos": "",
+    "pensamos": "tengo que organizar mejor la lista",
+    "ubicacion": "Mislata"
+  },
+  {
+    "vista": "en la cocina preparando café por la mañana",
+    "momento": "2025-12-01",
+    "oido": "la cafetera burbujeando",
+    "sentimos": "sueño y rutina",
+    "olemos": "café intenso",
+    "sabor": "primer sorbo amargo",
+    "palpamos": "taza caliente en las manos",
+    "pensamos": "hoy toca avanzar trabajo",
+    "ubicacion": "casa"
+  },
+  {
+    "vista": "paseo por el parque con árboles y hojas en el suelo",
+    "momento": "2025-11-09",
+    "oido": "pájaros y niños a lo lejos",
+    "sentimos": "descanso mental",
+    "olemos": "tierra húmeda",
+    "sabor": "",
+    "palpamos": "brisa suave",
+    "pensamos": "necesitaba parar un rato",
+    "ubicacion": "parque en Mislata"
+  },
+  {
+    "vista": "en un aula con proyector mostrando código en pantalla",
+    "momento": "2025-10-21",
+    "oido": "preguntas y teclas",
+    "sentimos": "motivación",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "",
+    "pensamos": "voy a poner un ejemplo más simple",
+    "ubicacion": "Mislata"
+  },
+  {
+    "vista": "reunión rápida en un pasillo antes de entrar",
+    "momento": "2025-12-05",
+    "oido": "eco del pasillo y pasos",
+    "sentimos": "prisa",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "frío en las manos",
+    "pensamos": "no quiero olvidarme del material",
+    "ubicacion": "instituto en Valencia"
+  },
+  {
+    "vista": "tarde de lluvia mirando por la ventana",
+    "momento": "2025-10-29",
+    "oido": "gotas golpeando el cristal",
+    "sentimos": "melancolía ligera",
+    "olemos": "olor a lluvia",
+    "sabor": "",
+    "palpamos": "calor de la manta",
+    "pensamos": "mañana reorganizo todo",
+    "ubicacion": "casa"
+  },
+  {
+    "vista": "en el coche, parado en un semáforo con luces rojas",
+    "momento": "2025-12-07",
+    "oido": "intermitente y motor al ralentí",
+    "sentimos": "paciencia",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "",
+    "pensamos": "tengo que responder correos",
+    "ubicacion": "Valencia"
+  },
+  {
+    "vista": "subiendo escaleras con prisa por llegar",
+    "momento": "2025-09-18",
+    "oido": "pasos y respiración",
+    "sentimos": "agobio breve",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "corazón acelerado",
+    "pensamos": "voy justo de tiempo",
+    "ubicacion": "Mislata"
+  },
+  {
+    "vista": "en una cafetería con gente trabajando con portátil",
+    "momento": "2025-11-15",
+    "oido": "tazas, murmullos, una máquina de café",
+    "sentimos": "concentración",
+    "olemos": "café y bollería",
+    "sabor": "café con leche",
+    "palpamos": "mesa fría",
+    "pensamos": "este diseño va a quedar bien",
+    "ubicacion": "Valencia"
+  },
+  {
+    "vista": "paseando cerca de un río con carril bici",
+    "momento": "2025-04-22",
+    "oido": "ruido de bicis y pájaros",
+    "sentimos": "energía",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "sol en la piel",
+    "pensamos": "debería salir más a menudo",
+    "ubicacion": "cauce del Turia, Valencia"
+  },
+
+  {
+    "vista": "en casa, ordenando papeles en una mesa",
+    "momento": "2025-08-30",
+    "oido": "silencio y alguna notificación del móvil",
+    "sentimos": "orden y control",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "papel áspero",
+    "pensamos": "si lo dejo listo hoy, mañana descanso",
+    "ubicacion": "casa"
+  },
+  {
+    "vista": "en una parada esperando el autobús",
+    "momento": "2025-12-12",
+    "oido": "tráfico y un bus frenando",
+    "sentimos": "frío y paciencia",
+    "olemos": "humo de escape",
+    "sabor": "",
+    "palpamos": "manos frías",
+    "pensamos": "llego justo, pero llego",
+    "ubicacion": "Mislata"
+  },
+  {
+    "vista": "caminando por una avenida grande con semáforos",
+    "momento": "2025-09-06",
+    "oido": "coches y sirena a lo lejos",
+    "sentimos": "alerta",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "calor fuerte",
+    "pensamos": "tengo que hidratarme más",
+    "ubicacion": "Valencia"
+  },
+  {
+    "vista": "en el aula, un alumno pregunta y el resto mira",
+    "momento": "2025-11-19",
+    "oido": "una pregunta clara y breve silencio",
+    "sentimos": "satisfacción",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "",
+    "pensamos": "esta duda es buena, la explico a todos",
+    "ubicacion": "Mislata"
+  },
+  {
+    "vista": "en un paso de peatones esperando para cruzar",
+    "momento": "2025-10-11",
+    "oido": "pitido de semáforo y pasos",
+    "sentimos": "prisa",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "viento",
+    "pensamos": "no quiero perder el tren",
+    "ubicacion": "Valencia"
+  },
+
+  {
+    "vista": "por la tarde, revisando código en una pantalla grande",
+    "momento": "2025-12-03",
+    "oido": "ventilador del ordenador",
+    "sentimos": "concentración y cansancio",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "ojos secos",
+    "pensamos": "voy a simplificar la función",
+    "ubicacion": "casa"
+  },
+  {
+    "vista": "en un aula, explicando un ejercicio paso a paso",
+    "momento": "2025-10-08",
+    "oido": "teclas y alguna risa",
+    "sentimos": "confianza",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "",
+    "pensamos": "si lo ven en pequeño, lo entienden",
+    "ubicacion": "Mislata"
+  },
+  {
+    "vista": "en un trayecto corto en coche con el sol bajo",
+    "momento": "2025-11-02",
+    "oido": "radio con noticias",
+    "sentimos": "tranquilidad",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "luz cálida en la cara",
+    "pensamos": "hoy el día ha rendido",
+    "ubicacion": "Valencia"
+  },
+  {
+    "vista": "en una biblioteca buscando un libro en una estantería alta",
+    "momento": "2025-09-26",
+    "oido": "silencio y páginas pasando",
+    "sentimos": "curiosidad",
+    "olemos": "papel viejo",
+    "sabor": "",
+    "palpamos": "cubierta dura",
+    "pensamos": "quiero algo práctico y directo",
+    "ubicacion": "biblioteca en Valencia"
+  },
+  {
+    "vista": "en una terraza con una bebida fría al atardecer",
+    "momento": "2025-07-19",
+    "oido": "voces y platos",
+    "sentimos": "relajación",
+    "olemos": "",
+    "sabor": "refresco dulce",
+    "palpamos": "aire templado",
+    "pensamos": "necesitaba desconectar",
+    "ubicacion": "Valencia"
+  },
+
+  {
+    "vista": "en un gimnasio mirando el espejo antes de empezar",
+    "momento": "2025-06-06",
+    "oido": "música y pesas",
+    "sentimos": "motivación",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "sudor",
+    "pensamos": "con constancia, mejora",
+    "ubicacion": "Mislata"
+  },
+  {
+    "vista": "en la cocina preparando una cena sencilla",
+    "momento": "2025-10-17",
+    "oido": "sartén y agua hirviendo",
+    "sentimos": "calma",
+    "olemos": "ajo y aceite",
+    "sabor": "sal y tomate",
+    "palpamos": "calor de los fogones",
+    "pensamos": "me apetece algo rápido",
+    "ubicacion": "casa"
+  },
+  {
+    "vista": "en un pasillo del centro, saludando a alguien de lejos",
+    "momento": "2025-12-09",
+    "oido": "pasos y voces",
+    "sentimos": "buen humor",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "",
+    "pensamos": "hoy voy con tiempo",
+    "ubicacion": "Valencia"
+  },
+  {
+    "vista": "en el coche buscando aparcamiento, dando vueltas",
+    "momento": "2025-11-25",
+    "oido": "intermitente y coches",
+    "sentimos": "impaciencia",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "",
+    "pensamos": "siempre pasa lo mismo a esta hora",
+    "ubicacion": "Valencia"
+  },
+  {
+    "vista": "en un aula, corrigiendo ejercicios con calma",
+    "momento": "2025-10-30",
+    "oido": "silencio y teclado",
+    "sentimos": "foco",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "",
+    "pensamos": "voy a dar feedback claro",
+    "ubicacion": "Mislata"
+  },
+
+  {
+    "vista": "paseo corto por la mañana temprano con poca gente",
+    "momento": "2025-12-04",
+    "oido": "pájaros y algún coche",
+    "sentimos": "energía tranquila",
+    "olemos": "aire frío",
+    "sabor": "",
+    "palpamos": "frío en la nariz",
+    "pensamos": "me viene bien caminar",
+    "ubicacion": "Mislata"
+  },
+  {
+    "vista": "en un tren mirando por la ventanilla",
+    "momento": "2025-08-12",
+    "oido": "ruido rítmico de vías",
+    "sentimos": "desconexión",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "vibración del asiento",
+    "pensamos": "voy a aprovechar para leer",
+    "ubicacion": "trayecto en tren"
+  },
+  {
+    "vista": "en un aula, explicando cómo funciona una API",
+    "momento": "2025-11-07",
+    "oido": "preguntas y respuestas",
+    "sentimos": "entusiasmo",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "",
+    "pensamos": "si lo conectan con un ejemplo real, lo retienen",
+    "ubicacion": "Mislata"
+  },
+  {
+    "vista": "en la calle, el cielo estaba gris y amenazaba lluvia",
+    "momento": "2025-11-03",
+    "oido": "viento entre edificios",
+    "sentimos": "prudencia",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "viento fuerte",
+    "pensamos": "me llevo chaqueta por si acaso",
+    "ubicacion": "Valencia"
+  },
+  {
+    "vista": "en casa, haciendo una copia de seguridad del ordenador",
+    "momento": "2025-09-14",
+    "oido": "disco trabajando",
+    "sentimos": "seguridad",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "",
+    "pensamos": "mejor prevenir que perder datos",
+    "ubicacion": "casa"
+  },
+
+  {
+    "vista": "en un aula, mirando un error en consola y encontrando la causa",
+    "momento": "2025-12-13",
+    "oido": "un 'ah' general cuando se entiende",
+    "sentimos": "satisfacción",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "",
+    "pensamos": "la explicación breve funciona",
+    "ubicacion": "Mislata"
+  },
+  {
+    "vista": "caminando por una calle estrecha con luces de navidad",
+    "momento": "2025-12-11",
+    "oido": "gente hablando y música de fondo",
+    "sentimos": "ambiente agradable",
+    "olemos": "dulces y chocolate",
+    "sabor": "",
+    "palpamos": "frío",
+    "pensamos": "la ciudad cambia mucho en diciembre",
+    "ubicacion": "Valencia"
+  },
+  {
+    "vista": "en una sala silenciosa revisando notas en una libreta",
+    "momento": "2025-10-06",
+    "oido": "bolígrafo sobre papel",
+    "sentimos": "orden mental",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "papel suave",
+    "pensamos": "así lo tengo claro para la próxima clase",
+    "ubicacion": "casa"
+  },
+  {
+    "vista": "en un aparcamiento subterráneo buscando el coche",
+    "momento": "2025-09-09",
+    "oido": "eco y motores",
+    "sentimos": "desorientación breve",
+    "olemos": "humedad y gasolina",
+    "sabor": "",
+    "palpamos": "aire frío",
+    "pensamos": "tengo que recordar la columna",
+    "ubicacion": "Valencia"
+  },
+  {
+    "vista": "en una clase, escribiendo en la pizarra un esquema",
+    "momento": "2025-11-26",
+    "oido": "tiza y silencio atento",
+    "sentimos": "claridad",
+    "olemos": "",
+    "sabor": "",
+    "palpamos": "",
+    "pensamos": "estructura primero, detalle después",
+    "ubicacion": "Mislata"
+  }
+]
+```
+
+### save_memories
+<small>Creado: 2025-12-22 20:03</small>
+
+`save_memories.php`
+
+```
+<?php
+header('Content-Type: application/json; charset=utf-8');
+
+$file = __DIR__ . '/memories.json';
+
+function read_json_file($path) {
+  if (!file_exists($path)) return [];
+  $raw = file_get_contents($path);
+  if ($raw === false || trim($raw) === '') return [];
+  $data = json_decode($raw, true);
+  return is_array($data) ? $data : [];
+}
+
+function write_json_file($path, $data) {
+  $json = json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+  // LOCK_EX to avoid concurrent write corruption
+  return file_put_contents($path, $json, LOCK_EX) !== false;
+}
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+  $data = json_decode(file_get_contents('php://input'), true);
+  if (!is_array($data)) {
+    echo json_encode(['success' => false, 'error' => 'JSON inválido']);
+    exit;
+  }
+
+  $memories = read_json_file($file);
+  $memories[] = $data;
+
+  if (!write_json_file($file, $memories)) {
+    echo json_encode(['success' => false, 'error' => 'No se pudo escribir el archivo']);
+    exit;
+  }
+
+  echo json_encode(['success' => true]);
+  exit;
+}
+
+if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+  echo json_encode(read_json_file($file), JSON_UNESCAPED_UNICODE);
+  exit;
+}
+
+echo json_encode(['success' => false, 'error' => 'Método no soportado']);
+```
 
 
 <a id="anadir-modificar-y-eliminar-documentos"></a>
 ## Añadir, modificar y eliminar documentos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/005-Bases%20de%20datos%20documentales/005-A%C3%B1adir%2C%20modificar%20y%20eliminar%20documentos)
+
 
 <a id="lenguajes-de-consulta-realizacion-de-consultas"></a>
 ## Lenguajes de consulta. Realización de consultas
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/005-Bases%20de%20datos%20documentales/006-Lenguajes%20de%20consulta.%20Realizaci%C3%B3n%20de%20consultas)
+
 
 <a id="desarrollo-de-programas-que-utilizan-bases-de-datos-documentales"></a>
 ## Desarrollo de programas que utilizan bases de datos documentales
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/005-Bases%20de%20datos%20documentales/007-Desarrollo%20de%20programas%20que%20utilizan%20bases%20de%20datos%20documentales)
 
 
 
@@ -16718,25 +30974,37 @@ print(r.json()["response"])
 <a id="concepto-de-componente"></a>
 ## Concepto de componente
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/006-Programaci%C3%B3n%20de%20componentes%20de%20acceso%20a%20datos/001-Concepto%20de%20componente)
+
 
 <a id="propiedades-y-atributos"></a>
 ## Propiedades y atributos
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/006-Programaci%C3%B3n%20de%20componentes%20de%20acceso%20a%20datos/002-Propiedades%20y%20atributos)
 
 
 <a id="eventos-asociacion-de-acciones-a-eventos"></a>
 ## Eventos; asociación de acciones a eventos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/006-Programaci%C3%B3n%20de%20componentes%20de%20acceso%20a%20datos/003-Eventos%3B%20asociaci%C3%B3n%20de%20acciones%20a%20eventos)
+
 
 <a id="persistencia-del-componente"></a>
 ## Persistencia del componente
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/006-Programaci%C3%B3n%20de%20componentes%20de%20acceso%20a%20datos/004-Persistencia%20del%20componente)
 
 
 <a id="herramientas-para-desarrollo-de-componentes"></a>
 ## Herramientas para desarrollo de componentes
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/006-Programaci%C3%B3n%20de%20componentes%20de%20acceso%20a%20datos/005-Herramientas%20para%20desarrollo%20de%20componentes)
+
 
 <a id="desarrollo-empaquetado-y-utilizacion-de-componentes"></a>
 ## Desarrollo, empaquetado y utilización de componentes
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/006-Programaci%C3%B3n%20de%20componentes%20de%20acceso%20a%20datos/006-Desarrollo%2C%20empaquetado%20y%20utilizaci%C3%B3n%20de%20componentes)
 
 
 
@@ -16745,6 +31013,8 @@ print(r.json()["response"])
 
 <a id="la-milla-extra-primera-evaluacion"></a>
 ## La Milla Extra - Primera evaluación
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/201-Actividad%20libre%20de%20final%20de%20evaluaci%C3%B3n%20-%20La%20milla%20extra/001-La%20Milla%20Extra%20-%20Primera%20evaluaci%C3%B3n)
 
 ### Introducción a los ejercicios
 

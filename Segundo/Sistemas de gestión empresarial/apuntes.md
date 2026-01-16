@@ -66,33 +66,49 @@
 <a id="concepto-de-erp"></a>
 ## Concepto de ERP
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/001-Identificaci%C3%B3n%20de%20sistemas%20ERP-CRM/001-Concepto%20de%20ERP)
+
 
 <a id="revision-de-los-erp-actuales"></a>
 ## Revisión de los ERP actuales
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/001-Identificaci%C3%B3n%20de%20sistemas%20ERP-CRM/002-Revisi%C3%B3n%20de%20los%20ERP%20actuales)
 
 
 <a id="concepto-de-crm"></a>
 ## Concepto de CRM
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/001-Identificaci%C3%B3n%20de%20sistemas%20ERP-CRM/003-Concepto%20de%20CRM)
+
 
 <a id="revision-de-los-crm-actuales"></a>
 ## Revisión de los CRM actuales
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/001-Identificaci%C3%B3n%20de%20sistemas%20ERP-CRM/004-Revisi%C3%B3n%20de%20los%20CRM%20actuales)
 
 
 <a id="tipos-de-licencias-de-los-erp-crm"></a>
 ## Tipos de licencias de los ERP-CRM
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/001-Identificaci%C3%B3n%20de%20sistemas%20ERP-CRM/005-Tipos%20de%20licencias%20de%20los%20ERP-CRM)
+
 
 <a id="sistemas-gestores-de-bases-de-datos-compatibles-con-el-software"></a>
 ## Sistemas gestores de bases de datos compatibles con el software
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/001-Identificaci%C3%B3n%20de%20sistemas%20ERP-CRM/006-Sistemas%20gestores%20de%20bases%20de%20datos%20compatibles%20con%20el%20software)
 
 
 <a id="instalacion-y-configuracion-del-sistema-informatico"></a>
 ## Instalación y configuración del sistema informático
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/001-Identificaci%C3%B3n%20de%20sistemas%20ERP-CRM/007-Instalaci%C3%B3n%20y%20configuraci%C3%B3n%20del%20sistema%20inform%C3%A1tico)
+
 
 <a id="verificacion-de-la-instalacion-y-configuracion"></a>
 ## Verificación de la instalación y configuración
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/001-Identificaci%C3%B3n%20de%20sistemas%20ERP-CRM/008-Verificaci%C3%B3n%20de%20la%20instalaci%C3%B3n%20y%20configuraci%C3%B3n)
 
 ### Introducción a los ejercicios
 
@@ -101,7 +117,7 @@ Este conjunto de ejercicios está diseñado para ayudarte a entender cómo traba
 A través de estos ejercicios, aprenderás habilidades fundamentales como procesar estructuras XML para extraer información, crear interfaces web basadas en esquemas XML, gestionar bases de datos desde Python, y desarrollar aplicaciones web simples usando el framework Flask. Estos ejercicios te proporcionan una base sólida para trabajar con sistemas empresariales que utilizan tecnologías como XML y SQLite para la configuración y manejo de datos.
 
 ### mapear xml
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -126,7 +142,7 @@ print(root)
 ```
 
 ### parsear entero
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -156,7 +172,7 @@ for campo in root:
 ```
 
 ### mapeo
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -198,7 +214,7 @@ def miInterfaz(destino):
 ```
 
 ### servidor que convierte
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -225,7 +241,7 @@ if __name__ == '__main__':
 ```
 
 ### servidor que recibe
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -264,7 +280,7 @@ if __name__ == '__main__':
 ```
 
 ### interfaz
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -291,7 +307,7 @@ Este archivo XML sirve como una plantilla para generar formularios en aplicacion
 ```
 
 ### mifuncion
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -352,7 +368,7 @@ def miInterfaz(destino):
 ```
 
 ### mifuncion2
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -564,7 +580,7 @@ def tablaInterfaz(destino_xml: str):
 ```
 
 ### servidor
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -655,9 +671,13 @@ Los estudiantes deben escribir documentación clara sobre su proyecto, explicand
 <a id="documentacion-de-las-operaciones-realizadas"></a>
 ## Documentación de las operaciones realizadas
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/001-Identificaci%C3%B3n%20de%20sistemas%20ERP-CRM/009-Documentaci%C3%B3n%20de%20las%20operaciones%20realizadas)
+
 
 <a id="ejercicio-de-final-de-unidad"></a>
 ## Ejercicio de final de unidad
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/001-Identificaci%C3%B3n%20de%20sistemas%20ERP-CRM/101-Ejercicio%20de%20final%20de%20unidad)
 
 ### Introducción a los ejercicios
 
@@ -699,9 +719,13 @@ Estas actividades están diseñadas para que los estudiantes no solo trabajen co
 <a id="tipos-de-instalacion"></a>
 ## Tipos de instalación.
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/002-Instalaci%C3%B3n%20y%20configuraci%C3%B3n%20de%20sistemas%20ERP-CRM/001-Tipos%20de%20instalaci%C3%B3n.)
+
 
 <a id="modulos-de-un-sistema-erp-crm"></a>
 ## Módulos de un sistema ERP-CRM
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/002-Instalaci%C3%B3n%20y%20configuraci%C3%B3n%20de%20sistemas%20ERP-CRM/002-M%C3%B3dulos%20de%20un%20sistema%20ERP-CRM%20)
 
 ### Introducción a los ejercicios
 
@@ -747,6 +771,8 @@ Estas actividades están diseñadas para reforzar los conceptos clave y habilida
 <a id="procesos-de-instalacion-del-sistema-erp-crm"></a>
 ## Procesos de instalación del sistema ERP-CRM
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/002-Instalaci%C3%B3n%20y%20configuraci%C3%B3n%20de%20sistemas%20ERP-CRM/003-Procesos%20de%20instalaci%C3%B3n%20del%20sistema%20ERP-CRM)
+
 ### Introducción a los ejercicios
 
 Este conjunto de ejercicios está diseñado para ayudarte a entender cómo se instala y configura un sistema ERP (Enterprise Resource Planning) utilizando Odoo, específicamente en su versión 18. Los problemas que abordamos incluyen la instalación de una máquina virtual con los paquetes necesarios, el clonado del repositorio de Odoo, la gestión de dependencias como wkhtmltopdf y lxml, así como la configuración inicial y reparación de un sistema Odoo. Además, aprenderás cómo acceder al entorno de desarrollo para hacer pruebas y configurar módulos personalizados. Estos ejercicios te permitirán desarrollar competencias esenciales en administración de sistemas, gestión de bases de datos, scripting con shell y programación Python orientada a la creación de módulos Odoo.
@@ -790,6 +816,8 @@ Estas actividades están diseñadas para proporcionar a los estudiantes una expe
 
 <a id="parametros-de-configuracion-del-sistema-erp-crm"></a>
 ## Parámetros de configuración del sistema ERP-CRM
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/002-Instalaci%C3%B3n%20y%20configuraci%C3%B3n%20de%20sistemas%20ERP-CRM/004-Par%C3%A1metros%20de%20configuraci%C3%B3n%20del%20sistema%20ERP-CRM%20)
 
 ### Introducción a los ejercicios
 
@@ -995,7 +1023,7 @@ Añade más interactividad, como cambiar el color de los nodos al hacer clic en 
 Estas mejoras harán que tu editor de flujo visual sea más completo y funcional. ¡Espero que te sean útiles!
 
 ### escritorio
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -1026,7 +1054,7 @@ La sección `<body>` es donde comienza a verse realmente la estructura visual. A
 ```
 
 ### un poco de css
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -1065,7 +1093,7 @@ Esta página es útil para enseñar cómo usar CSS para crear diseños responsiv
 ```
 
 ### ajustes visuales
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -1104,7 +1132,7 @@ Este diseño es importante porque permite a los usuarios navegar fácilmente por
 ```
 
 ### nodo
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -1148,7 +1176,7 @@ Este código proporciona una base sólida para construir una página más comple
 ```
 
 ### draggable
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -1205,7 +1233,7 @@ Este código es importante porque demuestra cómo integrar eventos de arrastrar 
 ```
 
 ### drag js
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -1259,7 +1287,7 @@ Esta funcionalidad es útil cuando se trabaja con interfaces de usuario que requ
 ```
 
 ### boton de añadir
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -1325,7 +1353,7 @@ Este código es útil para aprender cómo integrar interactividad básica con ar
 ```
 
 ### nodos como elementos
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -1495,7 +1523,7 @@ Este tipo de código es importante porque enseña conceptos fundamentales del de
 ```
 
 ### nodos control de pantalla
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -1736,7 +1764,7 @@ Este tipo de interacción gráfica puede ser útil, por ejemplo, en la configura
 ```
 
 ### nodos de conector
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2411,17 +2439,25 @@ Si necesitas implementar alguna de estas mejoras específicas o tienes otras dud
 <a id="actualizacion-del-sistema-erp-crm-y-aplicacion-de-actualizaciones"></a>
 ## Actualización del sistema ERP-CRM y aplicación de actualizaciones
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/002-Instalaci%C3%B3n%20y%20configuraci%C3%B3n%20de%20sistemas%20ERP-CRM/005-Actualizaci%C3%B3n%20del%20sistema%20ERP-CRM%20y%20aplicaci%C3%B3n%20de%20actualizaciones)
+
 
 <a id="servicios-de-acceso-al-sistema-erp-crm"></a>
 ## Servicios de acceso al sistema ERP-CRM
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/002-Instalaci%C3%B3n%20y%20configuraci%C3%B3n%20de%20sistemas%20ERP-CRM/006-Servicios%20de%20acceso%20al%20sistema%20ERP-CRM%20)
 
 
 <a id="entornos-de-desarrollo-pruebas-y-explotacion"></a>
 ## Entornos de desarrollo, pruebas y explotación
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/002-Instalaci%C3%B3n%20y%20configuraci%C3%B3n%20de%20sistemas%20ERP-CRM/007-Entornos%20de%20desarrollo%2C%20pruebas%20y%20explotaci%C3%B3n)
+
 
 <a id="ejercicio-de-final-de-unidad-1"></a>
 ## Ejercicio de final de unidad
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/002-Instalaci%C3%B3n%20y%20configuraci%C3%B3n%20de%20sistemas%20ERP-CRM/101-Ejercicio%20de%20final%20de%20unidad)
 
 ### Introducción a los ejercicios
 
@@ -2461,6 +2497,8 @@ Estas actividades están diseñadas para fortalecer las habilidades técnicas y 
 <a id="examen-final"></a>
 ## Examen final
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/002-Instalaci%C3%B3n%20y%20configuraci%C3%B3n%20de%20sistemas%20ERP-CRM/104-Examen%20final)
+
 ### Introducción a los ejercicios
 
 Esta carpeta contiene una serie de ejercicios en SQL orientados a la creación y gestión de un sistema básico para un portafolio empresarial. Los estudiantes deben comenzar por crear una base de datos y sus tablas, estableciendo relaciones entre ellas mediante claves foráneas. Luego, se les pide que inserten registros en estas tablas, realicen consultas para seleccionar datos y utilicen un LEFT JOIN para combinar información desde múltiples tablas. Además, crean una vista que simplifica la visualización de los datos relacionados entre las piezas y sus categorías. Finalmente, aprenden a crear y configurar un usuario con privilegios específicos para acceder a la base de datos recién creada.
@@ -2468,7 +2506,7 @@ Esta carpeta contiene una serie de ejercicios en SQL orientados a la creación y
 A través de estos ejercicios, los estudiantes desarrollan habilidades en la estructuración de bases de datos relacionales, manejo de consultas SQL complejas, creación de vistas y administración de usuarios y privilegios en entornos de gestión de sistemas empresariales.
 
 ### crear tablas
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2505,7 +2543,7 @@ CREATE TABLE Categorias(
 ```
 
 ### insertar
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2537,7 +2575,7 @@ INSERT INTO Piezas VALUES(
 ```
 
 ### fk
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2562,7 +2600,7 @@ ON UPDATE CASCADE;
 ```
 
 ### selecciones
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2581,7 +2619,7 @@ SELECT * FROM Piezas;
 ```
 
 ### left join
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2602,7 +2640,7 @@ ON Piezas.id_categoria = Categorias.Identificador;
 ```
 
 ### ahora creo la vista
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2631,7 +2669,7 @@ SELECT * FROM piezas_y_categorias;
 ```
 
 ### usuario
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2715,6 +2753,8 @@ Estas actividades están diseñadas para que los estudiantes de Formación Profe
 <a id="definicion-de-campos"></a>
 ## Definición de campos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/003-Organizaci%C3%B3n%20y%20consulta%20de%20la%20informaci%C3%B3n/001-Definici%C3%B3n%20de%20campos)
+
 ### Introducción a los ejercicios
 
 Esta sección de código es una aplicación web básica que utiliza rutas para manejar diferentes solicitudes HTTP y devolver datos en formato JSON. La estructura principal incluye:
@@ -2730,7 +2770,7 @@ Esta sección de código es una aplicación web básica que utiliza rutas para m
 El objetivo principal es permitir que los usuarios accedan a diferentes conjuntos de datos (como menús y listas de alumnos) mediante solicitudes HTTP específicas. Esto puede ser útil en la construcción de interfaces web dinámicas o APIs para sistemas más grandes.
 
 ### .htaccess
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2756,7 +2796,7 @@ RewriteRule ^(.*)$ index.php [QSA,L]
 ```
 
 ### index
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -3433,6 +3473,8 @@ Estos ejercicios te ayudarán a entender cómo trabajar con datos JSON, filtrar 
 <a id="consultas-de-acceso-a-datos"></a>
 ## Consultas de acceso a datos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/003-Organizaci%C3%B3n%20y%20consulta%20de%20la%20informaci%C3%B3n/002-Consultas%20de%20acceso%20a%20datos)
+
 ### Introducción a los ejercicios
 
 El código PHP que has proporcionado es una aplicación web básica para gestionar datos en una base de datos MySQL. A continuación, analizaré y explicaré las partes clave del código:
@@ -3498,7 +3540,7 @@ Para mejorar esta aplicación, se recomendaría:
 - Añadir validaciones y manejo de errores adecuados.
 
 ### microERP
-<small>Creado: 2025-11-25 17:17</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -3539,7 +3581,7 @@ Este fragmento establece una estructura básica para una interfaz web empresaria
 ```
 
 ### muestro botones
-<small>Creado: 2025-11-25 17:20</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -3579,7 +3621,7 @@ Esta estructura es útil para sistemas de gestión empresarial donde los usuario
 ```
 
 ### cargo la tabla
-<small>Creado: 2025-11-25 17:22</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -3627,7 +3669,7 @@ Este fragmento es importante porque permite a un usuario interactuar directament
 ```
 
 ### estilo de la tabla
-<small>Creado: 2025-11-25 17:29</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -3683,7 +3725,7 @@ Este tipo de diseño es útil para aplicaciones empresariales simples que necesi
 ```
 
 ### cabeceras de tabla
-<small>Creado: 2025-11-25 17:32</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -3741,7 +3783,7 @@ Este código es importante porque proporciona una interfaz web simple para visua
 ```
 
 ### logo
-<small>Creado: 2025-11-25 17:37</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -3805,7 +3847,7 @@ Este código es útil porque proporciona una interfaz visual simple pero funcion
 ```
 
 ### añadimos boton de añadir
-<small>Creado: 2025-11-25 17:46</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -3872,7 +3914,7 @@ Este tipo de página es útil para sistemas internos o empresariales donde vario
 ```
 
 ### creo formulario
-<small>Creado: 2025-11-25 18:08</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -3948,7 +3990,7 @@ La importancia de este fragmento de código radica en cómo facilita la interacc
 ```
 
 ### estilo del formulario
-<small>Creado: 2025-11-25 18:14</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -4039,7 +4081,7 @@ El código utiliza CSS dentro del `<head>` para estilizar toda la página, defin
 ```
 
 ### pequeña animacion
-<small>Creado: 2025-11-25 18:15</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -4123,7 +4165,7 @@ En resumen, este código proporciona una interfaz web sencilla para administrar 
 ```
 
 ### eliminar
-<small>Creado: 2025-11-25 18:26</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -4321,6 +4363,8 @@ Este es un buen punto de partida para una aplicación CRUD básica. A medida que
 <a id="interfaces-de-entrada-de-datos-y-de-procesos"></a>
 ## Interfaces de entrada de datos y de procesos.
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/003-Organizaci%C3%B3n%20y%20consulta%20de%20la%20informaci%C3%B3n/003-Interfaces%20de%20entrada%20de%20datos%20y%20de%20procesos.%20)
+
 ### Introducción a los ejercicios
 
 El script SQL que has proporcionado crea una base de datos completa para un sistema de comercio electrónico. Incluye la creación de tablas, inserción de datos y consultas útiles. Aquí se describen algunos aspectos importantes del mismo:
@@ -4391,7 +4435,7 @@ El script SQL que has proporcionado crea una base de datos completa para un sist
 Este esquema proporciona una base sólida para un sistema de comercio electrónico, pero como todo diseño de bases de datos, puede beneficiarse de refinamiento continuo según se identifican necesidades y problemas específicos del negocio.
 
 ### definir tipos de campos
-<small>Creado: 2025-11-26 16:07</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -4481,7 +4525,7 @@ Este tipo de sistema es útil para aplicaciones empresariales donde se necesita 
 ```
 
 ### campos vinculados
-<small>Creado: 2025-11-26 16:10</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -4728,7 +4772,7 @@ function obtener_claves_foraneas($conexion, $tabla, $bd = 'empresarial'){
 ```
 
 ### variables
-<small>Creado: 2025-11-26 16:14</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -5140,7 +5184,7 @@ function render_input_para_columna($nombre_columna, $meta_columna, $valor_actual
 ```
 
 ### con usuarios
-<small>Creado: 2025-11-26 16:18</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -5663,7 +5707,7 @@ function render_input_para_columna($nombre_columna, $meta_columna, $valor_actual
 ```
 
 ### actualizacion informes y graficas
-<small>Creado: 2025-11-26 16:23</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -6591,7 +6635,7 @@ function render_input_para_columna($nombre_columna, $meta_columna, $valor_actual
 ```
 
 ### mejoras
-<small>Creado: 2025-11-26 16:28</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -7907,7 +7951,7 @@ function render_tabla_html_con_links($conexion, $tabla, $rows, $bd){
 ```
 
 ### claves primarias dinamicas
-<small>Creado: 2025-11-26 16:33</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -9342,7 +9386,7 @@ function render_tabla_html_con_links($conexion, $tabla, $rows, $bd){
 ```
 
 ### graficas y degradados
-<small>Creado: 2025-11-26 16:46</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -10747,7 +10791,7 @@ function render_pie_chart($segmentos, $chart_id){
 ```
 
 ### fuente
-<small>Creado: 2025-11-26 20:29</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -12405,7 +12449,7 @@ function render_pie_chart($segmentos, $chart_id){
 ```
 
 ### ajustes
-<small>Creado: 2025-11-26 20:37</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -14214,7 +14258,7 @@ function render_pie_chart($segmentos, $chart_id){
 ```
 
 ### deteccion de plantillas
-<small>Creado: 2025-11-26 20:44</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -15849,7 +15893,7 @@ function render_pie_chart($segmentos, $chart_id){
 ```
 
 ### junto los botones
-<small>Creado: 2025-11-26 20:54</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -17489,7 +17533,7 @@ function render_pie_chart($segmentos, $chart_id){
 ```
 
 ### tiendaonline
-<small>Creado: 2025-11-26 16:26</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -17998,7 +18042,7 @@ ORDER BY o.order_date DESC;
 ```
 
 ### tiendaonlineespanol
-<small>Creado: 2025-11-26 22:10</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -18664,29 +18708,2940 @@ Estas mejoras y consultas adicionales pueden ayudarte a gestionar de manera más
 <a id="informes-y-listados-de-la-aplicacion"></a>
 ## Informes y listados de la aplicación
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/003-Organizaci%C3%B3n%20y%20consulta%20de%20la%20informaci%C3%B3n/004-Informes%20y%20listados%20de%20la%20aplicaci%C3%B3n)
+
+### kahoot
+<small>Creado: 2025-12-22 20:03</small>
+
+`001-kahoot.php`
+
+```
+<?php
+/**
+ * Single-file Kahoot-like live quiz (PHP + JSON + 1s polling)
+ *
+ * Usage:
+ *  Presenter: index.php?role=presenter&key=changeme
+ *  Student:   index.php?role=student
+ *
+ * Files created:
+ *  ./quiz_data/quiz.json      -> questions + current question state
+ *  ./quiz_data/results.json   -> student answers + timestamps
+ */
+
+declare(strict_types=1);
+ini_set('display_errors', '1');
+error_reporting(E_ALL);
+
+session_start();
+
+/* =========================
+   CONFIG
+   ========================= */
+$PRESENTER_KEY = 'changeme'; // <-- set your presenter key here
+
+$DATA_DIR = __DIR__ . DIRECTORY_SEPARATOR . 'quiz_data';
+$QUIZ_FILE = $DATA_DIR . DIRECTORY_SEPARATOR . 'quiz.json';
+$RESULTS_FILE = $DATA_DIR . DIRECTORY_SEPARATOR . 'results.json';
+
+if (!is_dir($DATA_DIR)) {
+  @mkdir($DATA_DIR, 0775, true);
+}
+
+/* =========================
+   FILE UTILS (atomic + flock)
+   ========================= */
+function read_json_file(string $path, array $default): array {
+  if (!file_exists($path)) return $default;
+  $raw = @file_get_contents($path);
+  if ($raw === false || trim($raw) === '') return $default;
+  $data = json_decode($raw, true);
+  return is_array($data) ? $data : $default;
+}
+
+function write_json_file_atomic(string $path, array $data): void {
+  $tmp = $path . '.tmp';
+  $json = json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+  if ($json === false) $json = "{}";
+
+  $fp = fopen($tmp, 'wb');
+  if ($fp === false) return;
+  fwrite($fp, $json);
+  fflush($fp);
+  fclose($fp);
+
+  @rename($tmp, $path);
+}
+
+function with_lock(string $lockName, callable $fn) {
+  $lockPath = sys_get_temp_dir() . DIRECTORY_SEPARATOR . $lockName . '.lock';
+  $fp = fopen($lockPath, 'c+');
+  if ($fp === false) return $fn();
+
+  flock($fp, LOCK_EX);
+  try {
+    return $fn();
+  } finally {
+    flock($fp, LOCK_UN);
+    fclose($fp);
+  }
+}
+
+/* =========================
+   DEFAULT DATA STRUCTURES
+   ========================= */
+function default_quiz(): array {
+  return [
+    "version" => 1,
+    "createdAt" => time(),
+    "updatedAt" => time(),
+    "status" => "idle", // idle | open | closed
+    "currentQuestionId" => null,
+    "questions" => [
+      // each:
+      // [
+      //   "id" => "q_...",
+      //   "text" => "...",
+      //   "options" => ["A","B","C","D"],
+      //   "correctIndex" => 0,
+      //   "createdAt" => time()
+      // ]
+    ],
+  ];
+}
+
+function default_results(): array {
+  return [
+    "version" => 1,
+    "createdAt" => time(),
+    "updatedAt" => time(),
+    "answers" => [
+      // questionId => [
+      //   studentId => [
+      //     "studentName" => "...",
+      //     "optionIndex" => 2,
+      //     "ts" => time()
+      //   ]
+      // ]
+    ]
+  ];
+}
+
+function get_quiz(string $QUIZ_FILE): array {
+  return read_json_file($QUIZ_FILE, default_quiz());
+}
+
+function get_results(string $RESULTS_FILE): array {
+  return read_json_file($RESULTS_FILE, default_results());
+}
+
+function save_quiz(string $QUIZ_FILE, array $quiz): void {
+  $quiz["updatedAt"] = time();
+  write_json_file_atomic($QUIZ_FILE, $quiz);
+}
+
+function save_results(string $RESULTS_FILE, array $results): void {
+  $results["updatedAt"] = time();
+  write_json_file_atomic($RESULTS_FILE, $results);
+}
+
+/* =========================
+   AUTH / IDENTITIES
+   ========================= */
+$role = $_GET['role'] ?? ($_SESSION['role'] ?? 'student');
+$role = ($role === 'presenter') ? 'presenter' : 'student';
+$_SESSION['role'] = $role;
+
+if ($role === 'presenter') {
+  $key = (string)($_GET['key'] ?? '');
+  if (!hash_equals($PRESENTER_KEY, $key)) {
+    http_response_code(403);
+    header('Content-Type: text/plain; charset=utf-8');
+    echo "Forbidden (bad presenter key). Use: ?role=presenter&key=YOURKEY\n";
+    exit;
+  }
+}
+
+if ($role === 'student') {
+  // student identity (persist in session)
+  if (empty($_SESSION['studentId'])) {
+    $_SESSION['studentId'] = 's_' . bin2hex(random_bytes(6));
+  }
+  $studentId = (string)$_SESSION['studentId'];
+
+  if (isset($_POST['studentName']) && is_string($_POST['studentName'])) {
+    $_SESSION['studentName'] = trim($_POST['studentName']);
+  }
+  if (empty($_SESSION['studentName'])) {
+    $_SESSION['studentName'] = 'Student-' . substr($studentId, -4);
+  }
+  $studentName = (string)$_SESSION['studentName'];
+}
+
+/* =========================
+   API ROUTER
+   ========================= */
+$api = $_GET['api'] ?? null;
+if ($api !== null) {
+  header('Content-Type: application/json; charset=utf-8');
+
+  $respond = function(array $payload, int $code = 200) {
+    http_response_code($code);
+    echo json_encode($payload, JSON_UNESCAPED_UNICODE);
+    exit;
+  };
+
+  if ($api === 'state') {
+    // Students + presenter poll this every 1s
+    $quiz = get_quiz($QUIZ_FILE);
+    $results = get_results($RESULTS_FILE);
+
+    $current = null;
+    if (!empty($quiz["currentQuestionId"])) {
+      foreach ($quiz["questions"] as $q) {
+        if (($q["id"] ?? null) === $quiz["currentQuestionId"]) {
+          $current = $q;
+          break;
+        }
+      }
+    }
+
+    // build counts for current question
+    $counts = [];
+    if ($current) {
+      $qid = $current["id"];
+      $opts = $current["options"] ?? [];
+      $counts = array_fill(0, count($opts), 0);
+
+      $answers = $results["answers"][$qid] ?? [];
+      if (is_array($answers)) {
+        foreach ($answers as $ans) {
+          $oi = (int)($ans["optionIndex"] ?? -1);
+          if ($oi >= 0 && $oi < count($counts)) $counts[$oi]++;
+        }
+      }
+    }
+
+    // hide correct answer from students while open
+    $safeCurrent = $current;
+    if ($role === 'student' && $quiz["status"] === 'open' && $safeCurrent) {
+      unset($safeCurrent["correctIndex"]);
+    }
+
+    $respond([
+      "ok" => true,
+      "serverTime" => time(),
+      "quiz" => [
+        "status" => $quiz["status"],
+        "currentQuestionId" => $quiz["currentQuestionId"],
+        "updatedAt" => $quiz["updatedAt"],
+        "questionsCount" => count($quiz["questions"]),
+      ],
+      "currentQuestion" => $safeCurrent,
+      "counts" => $counts,
+      "me" => ($role === 'student') ? [
+        "studentId" => $studentId,
+        "studentName" => $studentName
+      ] : ["role" => "presenter"]
+    ]);
+  }
+
+  if ($role !== 'presenter' && in_array($api, ['create_question','set_current','open','close','reset'], true)) {
+    $respond(["ok" => false, "error" => "Presenter only"], 403);
+  }
+
+  if ($api === 'create_question') {
+    $text = trim((string)($_POST['text'] ?? ''));
+    $optionsRaw = $_POST['options'] ?? [];
+    $correctIndex = (int)($_POST['correctIndex'] ?? 0);
+
+    if ($text === '') $respond(["ok" => false, "error" => "Question text is required"], 400);
+    if (!is_array($optionsRaw)) $respond(["ok" => false, "error" => "Options must be array"], 400);
+
+    $options = [];
+    foreach ($optionsRaw as $o) {
+      $o = trim((string)$o);
+      if ($o !== '') $options[] = $o;
+    }
+    if (count($options) < 2) $respond(["ok" => false, "error" => "At least 2 non-empty options required"], 400);
+    if ($correctIndex < 0 || $correctIndex >= count($options)) $correctIndex = 0;
+
+    $qid = 'q_' . bin2hex(random_bytes(6));
+    $q = [
+      "id" => $qid,
+      "text" => $text,
+      "options" => $options,
+      "correctIndex" => $correctIndex,
+      "createdAt" => time(),
+    ];
+
+    with_lock('kahoot_clone_quiz', function() use ($QUIZ_FILE, $q) {
+      $quiz = get_quiz($QUIZ_FILE);
+      $quiz["questions"][] = $q;
+      // if no current question yet, set it
+      if (empty($quiz["currentQuestionId"])) {
+        $quiz["currentQuestionId"] = $q["id"];
+        $quiz["status"] = "closed";
+      }
+      save_quiz($QUIZ_FILE, $quiz);
+    });
+
+    $respond(["ok" => true, "questionId" => $qid]);
+  }
+
+  if ($api === 'set_current') {
+    $qid = (string)($_POST['questionId'] ?? '');
+    if ($qid === '') $respond(["ok" => false, "error" => "questionId required"], 400);
+
+    with_lock('kahoot_clone_quiz', function() use ($QUIZ_FILE, $RESULTS_FILE, $qid) {
+      $quiz = get_quiz($QUIZ_FILE);
+
+      $exists = false;
+      foreach ($quiz["questions"] as $q) {
+        if (($q["id"] ?? '') === $qid) { $exists = true; break; }
+      }
+      if (!$exists) return;
+
+      $quiz["currentQuestionId"] = $qid;
+      $quiz["status"] = "closed";
+      save_quiz($QUIZ_FILE, $quiz);
+
+      // optionally ensure results structure exists (no-op if not)
+      $results = get_results($RESULTS_FILE);
+      if (!isset($results["answers"][$qid])) $results["answers"][$qid] = [];
+      save_results($RESULTS_FILE, $results);
+    });
+
+    $respond(["ok" => true]);
+  }
+
+  if ($api === 'open') {
+    with_lock('kahoot_clone_quiz', function() use ($QUIZ_FILE) {
+      $quiz = get_quiz($QUIZ_FILE);
+      if (!empty($quiz["currentQuestionId"])) {
+        $quiz["status"] = "open";
+        save_quiz($QUIZ_FILE, $quiz);
+      }
+    });
+    $respond(["ok" => true]);
+  }
+
+  if ($api === 'close') {
+    with_lock('kahoot_clone_quiz', function() use ($QUIZ_FILE) {
+      $quiz = get_quiz($QUIZ_FILE);
+      if (!empty($quiz["currentQuestionId"])) {
+        $quiz["status"] = "closed";
+        save_quiz($QUIZ_FILE, $quiz);
+      }
+    });
+    $respond(["ok" => true]);
+  }
+
+  if ($api === 'reset') {
+    with_lock('kahoot_clone_quiz', function() use ($QUIZ_FILE, $RESULTS_FILE) {
+      save_quiz($QUIZ_FILE, default_quiz());
+      save_results($RESULTS_FILE, default_results());
+    });
+    $respond(["ok" => true]);
+  }
+
+  if ($api === 'answer') {
+    if ($role !== 'student') $respond(["ok" => false, "error" => "Student only"], 403);
+
+    $qid = (string)($_POST['questionId'] ?? '');
+    $optionIndex = (int)($_POST['optionIndex'] ?? -1);
+    if ($qid === '' || $optionIndex < 0) $respond(["ok" => false, "error" => "Invalid payload"], 400);
+
+    $quiz = get_quiz($QUIZ_FILE);
+    if (($quiz["status"] ?? 'idle') !== 'open') $respond(["ok" => false, "error" => "Question is not open"], 409);
+    if (($quiz["currentQuestionId"] ?? null) !== $qid) $respond(["ok" => false, "error" => "Not the current question"], 409);
+
+    // validate option index against question
+    $current = null;
+    foreach ($quiz["questions"] as $q) {
+      if (($q["id"] ?? null) === $qid) { $current = $q; break; }
+    }
+    if (!$current) $respond(["ok" => false, "error" => "Question not found"], 404);
+    $optsCount = count($current["options"] ?? []);
+    if ($optionIndex < 0 || $optionIndex >= $optsCount) $respond(["ok" => false, "error" => "Option out of range"], 400);
+
+    with_lock('kahoot_clone_results', function() use ($RESULTS_FILE, $qid, $studentId, $studentName, $optionIndex) {
+      $results = get_results($RESULTS_FILE);
+      if (!isset($results["answers"][$qid]) || !is_array($results["answers"][$qid])) {
+        $results["answers"][$qid] = [];
+      }
+
+      // single vote per student per question (overwrite disabled)
+      if (isset($results["answers"][$qid][$studentId])) {
+        return;
+      }
+
+      $results["answers"][$qid][$studentId] = [
+        "studentName" => $studentName,
+        "optionIndex" => $optionIndex,
+        "ts" => time()
+      ];
+      save_results($RESULTS_FILE, $results);
+    });
+
+    $respond(["ok" => true]);
+  }
+
+  $respond(["ok" => false, "error" => "Unknown api"], 404);
+}
+
+/* =========================
+   HTML UI
+   ========================= */
+?>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Live Quiz (Single PHP)</title>
+  <style>
+    :root { --bg:#0b1220; --card:#121b2f; --muted:#93a4c7; --text:#e9efff; --accent:#6ea8fe; --danger:#ff6b6b; --ok:#51cf66; }
+    *{ box-sizing:border-box; }
+    body{ margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; background: radial-gradient(1200px 600px at 20% 0%, #162143 0%, var(--bg) 55%); color:var(--text); }
+    .wrap{ max-width:1100px; margin:0 auto; padding:20px; }
+    .topbar{ display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; }
+    .pill{ padding:6px 10px; border-radius:999px; background: rgba(255,255,255,0.08); color:var(--muted); font-size:12px; }
+    .grid{ display:grid; grid-template-columns: 1fr; gap:16px; margin-top:16px; }
+    @media(min-width: 900px){ .grid.presenter{ grid-template-columns: 1.1fr 0.9fr; } }
+    .card{ background: rgba(18,27,47,0.92); border:1px solid rgba(255,255,255,0.08); border-radius:16px; padding:16px; box-shadow: 0 10px 30px rgba(0,0,0,0.35); }
+    h1{ margin:0; font-size:18px; letter-spacing:0.2px; }
+    h2{ margin:0 0 10px 0; font-size:14px; color:var(--muted); font-weight:600; }
+    label{ display:block; font-size:12px; color:var(--muted); margin:10px 0 6px; }
+    input[type="text"], textarea, select{
+      width:100%; padding:10px 12px; border-radius:12px; border:1px solid rgba(255,255,255,0.10);
+      background: rgba(0,0,0,0.22); color: var(--text); outline:none;
+    }
+    textarea{ min-height:70px; resize:vertical; }
+    .row{ display:flex; gap:10px; flex-wrap:wrap; }
+    .row > *{ flex:1; min-width: 180px; }
+    button{
+      border:0; border-radius:12px; padding:10px 12px; cursor:pointer; color:#081023;
+      background: var(--accent); font-weight:700;
+    }
+    button.secondary{ background: rgba(255,255,255,0.10); color: var(--text); border:1px solid rgba(255,255,255,0.12); }
+    button.danger{ background: var(--danger); color:#240b0b; }
+    button.ok{ background: var(--ok); color:#081a0b; }
+    button:disabled{ opacity:0.55; cursor:not-allowed; }
+    .muted{ color: var(--muted); font-size:12px; line-height:1.4; }
+    .questionText{ font-size:18px; font-weight:800; margin:0 0 12px 0; }
+    .options{ display:grid; grid-template-columns: 1fr; gap:10px; }
+    @media(min-width: 700px){ .options{ grid-template-columns: 1fr 1fr; } }
+    .optBtn{ text-align:left; padding:14px; border-radius:14px; background: rgba(255,255,255,0.08); color: var(--text); border:1px solid rgba(255,255,255,0.10); font-weight:700; }
+    .optBtn:hover{ border-color: rgba(110,168,254,0.55); }
+    .bar{ height:10px; border-radius:999px; background: rgba(255,255,255,0.08); overflow:hidden; }
+    .bar > div{ height:100%; background: var(--accent); width:0%; transition: width 160ms linear; }
+    .kpi{ display:flex; gap:10px; flex-wrap:wrap; }
+    .kpi .pill{ background: rgba(110,168,254,0.12); color: #cfe1ff; border:1px solid rgba(110,168,254,0.20); }
+    .small{ font-size:11px; }
+    .hr{ height:1px; background: rgba(255,255,255,0.10); margin:14px 0; }
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <h1>Live Quiz (Single PHP + JSON)</h1>
+    <div class="kpi">
+      <span class="pill" id="statusPill">status: …</span>
+      <span class="pill" id="qidPill">question: …</span>
+      <span class="pill" id="updatedPill">updated: …</span>
+      <?php if ($role === 'student'): ?>
+        <span class="pill">you: <?= htmlspecialchars($_SESSION['studentName'] ?? 'student', ENT_QUOTES, 'UTF-8') ?></span>
+      <?php else: ?>
+        <span class="pill">role: presenter</span>
+      <?php endif; ?>
+    </div>
+  </div>
+
+  <?php if ($role === 'presenter'): ?>
+    <div class="grid presenter">
+      <div class="card">
+        <h2>Create question (on the fly)</h2>
+
+        <label>Question</label>
+        <textarea id="qText" placeholder="Type the question…"></textarea>
+
+        <div class="row">
+          <div>
+            <label>Option A</label>
+            <input id="opt0" type="text" placeholder="Answer option A" />
+          </div>
+          <div>
+            <label>Option B</label>
+            <input id="opt1" type="text" placeholder="Answer option B" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div>
+            <label>Option C</label>
+            <input id="opt2" type="text" placeholder="Answer option C (optional)" />
+          </div>
+          <div>
+            <label>Option D</label>
+            <input id="opt3" type="text" placeholder="Answer option D (optional)" />
+          </div>
+        </div>
+
+        <label>Correct answer</label>
+        <select id="correctIndex">
+          <option value="0">A</option>
+          <option value="1">B</option>
+          <option value="2">C</option>
+          <option value="3">D</option>
+        </select>
+
+        <div class="row" style="margin-top:12px;">
+          <button id="createBtn">Create question</button>
+          <button class="secondary" id="refreshBtn">Refresh now</button>
+        </div>
+
+        <div class="hr"></div>
+
+        <h2>Live control</h2>
+        <div class="row">
+          <button class="ok" id="openBtn">Open answering</button>
+          <button class="secondary" id="closeBtn">Close answering</button>
+          <button class="danger" id="resetBtn">Reset quiz + results</button>
+        </div>
+
+        <label style="margin-top:12px;">Jump to an existing question</label>
+        <select id="questionPicker"></select>
+        <div class="row" style="margin-top:10px;">
+          <button class="secondary" id="setCurrentBtn">Set current</button>
+        </div>
+
+        <p class="muted" id="presenterMsg" style="margin-top:10px;"></p>
+      </div>
+
+      <div class="card">
+        <h2>Live view</h2>
+        <p class="questionText" id="liveQuestion">Waiting…</p>
+        <div id="liveOptions"></div>
+
+        <div class="hr"></div>
+
+        <h2>Counts (current question)</h2>
+        <div id="countsBox" class="muted">No data.</div>
+      </div>
+    </div>
+
+  <?php else: ?>
+    <div class="grid">
+      <div class="card">
+        <h2>Student</h2>
+
+        <form method="post" style="margin-bottom:12px;">
+          <label>Your name (stored in session)</label>
+          <div class="row">
+            <input type="text" name="studentName" value="<?= htmlspecialchars($_SESSION['studentName'] ?? '', ENT_QUOTES, 'UTF-8') ?>" />
+            <button class="secondary" type="submit">Save</button>
+          </div>
+        </form>
+
+        <p class="questionText" id="studentQuestion">Waiting for presenter…</p>
+        <div class="options" id="studentOptions"></div>
+        <p class="muted" id="studentMsg" style="margin-top:10px;"></p>
+      </div>
+    </div>
+  <?php endif; ?>
+</div>
+
+<script>
+  const ROLE = <?= json_encode($role) ?>;
+
+  function $(id){ return document.getElementById(id); }
+
+  async function apiPost(api, bodyObj) {
+    const form = new FormData();
+    for (const k of Object.keys(bodyObj || {})) {
+      const v = bodyObj[k];
+      if (Array.isArray(v)) {
+        for (const item of v) form.append(k + "[]", item);
+      } else {
+        form.append(k, v);
+      }
+    }
+    const res = await fetch(`?api=${encodeURIComponent(api)}&role=${encodeURIComponent(ROLE)}<?= ($role === 'presenter') ? '&key=' . urlencode($_GET['key'] ?? '') : '' ?>`, {
+      method: 'POST',
+      body: form
+    });
+    return await res.json();
+  }
+
+  async function apiGetState() {
+    const res = await fetch(`?api=state&role=${encodeURIComponent(ROLE)}<?= ($role === 'presenter') ? '&key=' . urlencode($_GET['key'] ?? '') : '' ?>`);
+    return await res.json();
+  }
+
+  function setTopPills(state) {
+    $("statusPill").textContent = `status: ${state.quiz?.status ?? "?"}`;
+    $("qidPill").textContent = `question: ${state.quiz?.currentQuestionId ?? "none"}`;
+    $("updatedPill").textContent = `updated: ${state.quiz?.updatedAt ? new Date(state.quiz.updatedAt*1000).toLocaleTimeString() : "?"}`;
+  }
+
+  // ===== Presenter UI =====
+  function presenterRender(state) {
+    const q = state.currentQuestion;
+
+    $("liveQuestion").textContent = q ? q.text : "No current question.";
+    const optsWrap = $("liveOptions");
+    optsWrap.innerHTML = "";
+
+    if (q && q.options && q.options.length) {
+      const ul = document.createElement("div");
+      ul.className = "muted";
+      ul.innerHTML = q.options.map((t, i) => {
+        const isCorrect = (typeof q.correctIndex === "number" && i === q.correctIndex);
+        return `<div style="margin:8px 0;">
+          <div><strong>${String.fromCharCode(65+i)}.</strong> ${escapeHtml(t)} ${isCorrect ? '<span class="pill small" style="margin-left:8px;">correct</span>' : ''}</div>
+        </div>`;
+      }).join("");
+      optsWrap.appendChild(ul);
+    } else {
+      optsWrap.textContent = "Create a question to start.";
+    }
+
+    // counts
+    const countsBox = $("countsBox");
+    const counts = state.counts || [];
+    if (q && q.options && q.options.length) {
+      const total = counts.reduce((a,b)=>a+b,0) || 0;
+      countsBox.innerHTML = q.options.map((t, i) => {
+        const c = counts[i] ?? 0;
+        const pct = total ? Math.round((c/total)*100) : 0;
+        return `
+          <div style="margin:10px 0;">
+            <div style="display:flex;justify-content:space-between;gap:12px;">
+              <div><strong>${String.fromCharCode(65+i)}.</strong> ${escapeHtml(t)}</div>
+              <div><strong>${c}</strong> (${pct}%)</div>
+            </div>
+            <div class="bar"><div style="width:${pct}%;"></div></div>
+          </div>
+        `;
+      }).join("") + `<div class="muted">Total answers: <strong>${total}</strong></div>`;
+    } else {
+      countsBox.textContent = "No data.";
+    }
+
+    // question picker
+    const picker = $("questionPicker");
+    if (picker && state.quiz?.questionsCount !== undefined) {
+      // Fetch quiz list indirectly: simplest is to keep a local cache by calling state + reading from server is not included.
+      // To keep it single endpoint, we rebuild picker by asking server for full list is not currently returned.
+      // Instead: we approximate by letting presenter paste ID via "Set current" only.
+      // BUT: we can include full list by asking server to return it for presenter in state.
+      // For simplicity, we will re-request state with a query parameter in a future improvement.
+    }
+  }
+
+  // ===== Student UI =====
+  let lastRenderedQid = null;
+  let answeredForQid = {}; // local UI lock
+
+  function studentRender(state) {
+    const q = state.currentQuestion;
+    const status = state.quiz?.status;
+
+    const qEl = $("studentQuestion");
+    const optsEl = $("studentOptions");
+    const msgEl = $("studentMsg");
+
+    optsEl.innerHTML = "";
+
+    if (!q) {
+      qEl.textContent = "Waiting for presenter…";
+      msgEl.textContent = "";
+      return;
+    }
+
+    qEl.textContent = q.text;
+
+    // if question changed, reset local UI lock
+    if (q.id !== lastRenderedQid) {
+      lastRenderedQid = q.id;
+      msgEl.textContent = "";
+    }
+
+    if (status !== "open") {
+      msgEl.textContent = "Not open yet (or already closed).";
+    }
+
+    const already = !!answeredForQid[q.id];
+
+    (q.options || []).forEach((t, i) => {
+      const b = document.createElement("button");
+      b.className = "optBtn";
+      b.textContent = `${String.fromCharCode(65+i)}. ${t}`;
+      b.disabled = (status !== "open") || already;
+
+      b.addEventListener("click", async () => {
+        b.disabled = true;
+        const res = await apiPost("answer", { questionId: q.id, optionIndex: i });
+        if (res.ok) {
+          answeredForQid[q.id] = true;
+          msgEl.textContent = "Answer recorded.";
+        } else {
+          msgEl.textContent = "Could not submit: " + (res.error || "error");
+          // allow retry if not recorded
+          b.disabled = false;
+        }
+      });
+
+      optsEl.appendChild(b);
+    });
+
+    if (already) {
+      msgEl.textContent = "Answer already recorded for this question.";
+    }
+  }
+
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, (c) => ({
+      "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"
+    }[c]));
+  }
+
+  // ===== Heartbeat (1 second) =====
+  async function tick() {
+    try {
+      const state = await apiGetState();
+      if (!state || !state.ok) return;
+      setTopPills(state);
+
+      if (ROLE === "presenter") presenterRender(state);
+      else studentRender(state);
+
+    } catch (e) {
+      // ignore transient errors
+    }
+  }
+
+  // Presenter actions
+  if (ROLE === "presenter") {
+    $("createBtn").addEventListener("click", async () => {
+      const text = $("qText").value.trim();
+      const options = [
+        $("opt0").value.trim(),
+        $("opt1").value.trim(),
+        $("opt2").value.trim(),
+        $("opt3").value.trim(),
+      ];
+      const correctIndex = parseInt($("correctIndex").value, 10) || 0;
+
+      const res = await apiPost("create_question", { text, options, correctIndex });
+      $("presenterMsg").textContent = res.ok
+        ? `Created question: ${res.questionId}`
+        : `Error: ${res.error || "unknown"}`;
+
+      if (res.ok) {
+        $("qText").value = "";
+        $("opt0").value = "";
+        $("opt1").value = "";
+        $("opt2").value = "";
+        $("opt3").value = "";
+      }
+      await tick();
+    });
+
+    $("openBtn").addEventListener("click", async () => { await apiPost("open", {}); await tick(); });
+    $("closeBtn").addEventListener("click", async () => { await apiPost("close", {}); await tick(); });
+
+    $("resetBtn").addEventListener("click", async () => {
+      if (!confirm("Reset quiz and ALL results?")) return;
+      await apiPost("reset", {});
+      await tick();
+    });
+
+    $("refreshBtn").addEventListener("click", tick);
+
+    // Minimal "set current": prompt for ID (keeps file single + simple)
+    const setBtn = document.createElement("button");
+    setBtn.className = "secondary";
+    setBtn.textContent = "Set current by ID…";
+    setBtn.addEventListener("click", async () => {
+      const qid = prompt("Enter questionId (e.g., q_ab12cd…):");
+      if (!qid) return;
+      await apiPost("set_current", { questionId: qid.trim() });
+      await tick();
+    });
+    $("setCurrentBtn").replaceWith(setBtn);
+  }
+
+  tick();
+  setInterval(tick, 1000);
+</script>
+</body>
+</html>
+```
+
+### segunda version
+<small>Creado: 2025-12-22 20:03</small>
+
+`002-segunda version.php`
+
+```
+<?php
+/**
+ * Single-file Kahoot-like live quiz (PHP + JSON + 1s polling)
+ *
+ * NEW in this version:
+ * 1) Presenter button: "Publish results" (reveals correct + feedback to students)
+ * 2) Student gets green/red feedback after publish (correct/incorrect)
+ * 3) Clear, consistent theme (clean dark)
+ * 4) Student sees live percentages per option (based on total answers so far)
+ * 5) Student sees score so far (avg = points/answered; each question = 1 point)
+ * 6) Presenter sees a grid/table of students and evaluations
+ *
+ * Usage:
+ *  Presenter: index.php?role=presenter&key=changeme
+ *  Student:   index.php?role=student
+ *
+ * Data:
+ *  ./quiz_data/quiz.json
+ *  ./quiz_data/results.json
+ */
+
+declare(strict_types=1);
+ini_set('display_errors', '1');
+error_reporting(E_ALL);
+
+session_start();
+
+/* =========================
+   CONFIG
+   ========================= */
+$PRESENTER_KEY = 'changeme'; // <-- change this
+
+$DATA_DIR = __DIR__ . DIRECTORY_SEPARATOR . 'quiz_data';
+$QUIZ_FILE = $DATA_DIR . DIRECTORY_SEPARATOR . 'quiz.json';
+$RESULTS_FILE = $DATA_DIR . DIRECTORY_SEPARATOR . 'results.json';
+
+if (!is_dir($DATA_DIR)) {
+  @mkdir($DATA_DIR, 0775, true);
+}
+
+/* =========================
+   FILE UTILS (atomic + flock)
+   ========================= */
+function read_json_file(string $path, array $default): array {
+  if (!file_exists($path)) return $default;
+  $raw = @file_get_contents($path);
+  if ($raw === false || trim($raw) === '') return $default;
+  $data = json_decode($raw, true);
+  return is_array($data) ? $data : $default;
+}
+
+function write_json_file_atomic(string $path, array $data): void {
+  $tmp = $path . '.tmp';
+  $json = json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+  if ($json === false) $json = "{}";
+
+  $fp = fopen($tmp, 'wb');
+  if ($fp === false) return;
+  fwrite($fp, $json);
+  fflush($fp);
+  fclose($fp);
+
+  @rename($tmp, $path);
+}
+
+function with_lock(string $lockName, callable $fn) {
+  $lockPath = sys_get_temp_dir() . DIRECTORY_SEPARATOR . $lockName . '.lock';
+  $fp = fopen($lockPath, 'c+');
+  if ($fp === false) return $fn();
+
+  flock($fp, LOCK_EX);
+  try {
+    return $fn();
+  } finally {
+    flock($fp, LOCK_UN);
+    fclose($fp);
+  }
+}
+
+/* =========================
+   DEFAULT DATA STRUCTURES
+   ========================= */
+function default_quiz(): array {
+  return [
+    "version" => 2,
+    "createdAt" => time(),
+    "updatedAt" => time(),
+    "status" => "idle",            // idle | open | closed
+    "currentQuestionId" => null,
+    "resultsPublished" => false,   // NEW: whether current question results are published
+    "questions" => []
+  ];
+}
+
+function default_results(): array {
+  return [
+    "version" => 2,
+    "createdAt" => time(),
+    "updatedAt" => time(),
+    "answers" => [
+      // questionId => [
+      //   studentId => ["studentName"=>..., "optionIndex"=>..., "ts"=>...]
+      // ]
+    ]
+  ];
+}
+
+function get_quiz(string $QUIZ_FILE): array {
+  return read_json_file($QUIZ_FILE, default_quiz());
+}
+function get_results(string $RESULTS_FILE): array {
+  return read_json_file($RESULTS_FILE, default_results());
+}
+function save_quiz(string $QUIZ_FILE, array $quiz): void {
+  $quiz["updatedAt"] = time();
+  write_json_file_atomic($QUIZ_FILE, $quiz);
+}
+function save_results(string $RESULTS_FILE, array $results): void {
+  $results["updatedAt"] = time();
+  write_json_file_atomic($RESULTS_FILE, $results);
+}
+
+/* =========================
+   HELPERS
+   ========================= */
+function find_question(array $quiz, ?string $qid): ?array {
+  if (!$qid) return null;
+  foreach ($quiz["questions"] as $q) {
+    if (($q["id"] ?? null) === $qid) return $q;
+  }
+  return null;
+}
+
+function compute_students_table(array $quiz, array $results): array {
+  // Build: studentId => ["name"=>..., "points"=>int, "answered"=>int, "avg"=>float]
+  $students = [];
+
+  // map qid -> correctIndex
+  $correctMap = [];
+  foreach (($quiz["questions"] ?? []) as $q) {
+    if (isset($q["id"]) && array_key_exists("correctIndex", $q)) {
+      $correctMap[$q["id"]] = (int)$q["correctIndex"];
+    }
+  }
+
+  foreach (($results["answers"] ?? []) as $qid => $byStudent) {
+    if (!is_array($byStudent)) continue;
+    foreach ($byStudent as $sid => $ans) {
+      if (!is_array($ans)) continue;
+      $name = (string)($ans["studentName"] ?? $sid);
+
+      if (!isset($students[$sid])) {
+        $students[$sid] = ["studentId"=>$sid, "studentName"=>$name, "points"=>0, "answered"=>0, "avg"=>0.0];
+      } else {
+        // keep latest name seen
+        if ($name !== '') $students[$sid]["studentName"] = $name;
+      }
+
+      $students[$sid]["answered"]++;
+
+      $oi = (int)($ans["optionIndex"] ?? -1);
+      if (isset($correctMap[$qid]) && $oi === (int)$correctMap[$qid]) {
+        $students[$sid]["points"]++;
+      }
+    }
+  }
+
+  foreach ($students as &$s) {
+    $s["avg"] = ($s["answered"] > 0) ? ($s["points"] / $s["answered"]) : 0.0;
+  }
+  unset($s);
+
+  // sort by points desc, then name asc
+  usort($students, function($a, $b){
+    if ($a["points"] !== $b["points"]) return $b["points"] <=> $a["points"];
+    return strcmp((string)$a["studentName"], (string)$b["studentName"]);
+  });
+
+  return $students;
+}
+
+/* =========================
+   AUTH / IDENTITIES
+   ========================= */
+$role = $_GET['role'] ?? ($_SESSION['role'] ?? 'student');
+$role = ($role === 'presenter') ? 'presenter' : 'student';
+$_SESSION['role'] = $role;
+
+if ($role === 'presenter') {
+  $key = (string)($_GET['key'] ?? '');
+  if (!hash_equals($PRESENTER_KEY, $key)) {
+    http_response_code(403);
+    header('Content-Type: text/plain; charset=utf-8');
+    echo "Forbidden (bad presenter key). Use: ?role=presenter&key=YOURKEY\n";
+    exit;
+  }
+}
+
+$studentId = null;
+$studentName = null;
+if ($role === 'student') {
+  if (empty($_SESSION['studentId'])) {
+    $_SESSION['studentId'] = 's_' . bin2hex(random_bytes(6));
+  }
+  $studentId = (string)$_SESSION['studentId'];
+
+  if (isset($_POST['studentName']) && is_string($_POST['studentName'])) {
+    $_SESSION['studentName'] = trim($_POST['studentName']);
+  }
+  if (empty($_SESSION['studentName'])) {
+    $_SESSION['studentName'] = 'Student-' . substr($studentId, -4);
+  }
+  $studentName = (string)$_SESSION['studentName'];
+}
+
+/* =========================
+   API ROUTER
+   ========================= */
+$api = $_GET['api'] ?? null;
+if ($api !== null) {
+  header('Content-Type: application/json; charset=utf-8');
+
+  $respond = function(array $payload, int $code = 200) {
+    http_response_code($code);
+    echo json_encode($payload, JSON_UNESCAPED_UNICODE);
+    exit;
+  };
+
+  // Presenter-only endpoints guard
+  if ($role !== 'presenter' && in_array($api, ['create_question','set_current','open','close','reset','publish'], true)) {
+    $respond(["ok" => false, "error" => "Presenter only"], 403);
+  }
+
+  if ($api === 'state') {
+    $quiz = get_quiz($QUIZ_FILE);
+    $results = get_results($RESULTS_FILE);
+
+    $current = find_question($quiz, $quiz["currentQuestionId"] ?? null);
+
+    // counts + percentages
+    $counts = [];
+    $percentages = [];
+    $totalAnswers = 0;
+
+    if ($current) {
+      $qid = (string)$current["id"];
+      $opts = $current["options"] ?? [];
+      $counts = array_fill(0, count($opts), 0);
+
+      $answers = $results["answers"][$qid] ?? [];
+      if (is_array($answers)) {
+        foreach ($answers as $ans) {
+          $oi = (int)($ans["optionIndex"] ?? -1);
+          if ($oi >= 0 && $oi < count($counts)) $counts[$oi]++;
+        }
+      }
+      $totalAnswers = array_sum($counts);
+      $percentages = array_map(function($c) use ($totalAnswers){
+        return $totalAnswers > 0 ? round(($c / $totalAnswers) * 100, 1) : 0.0;
+      }, $counts);
+    }
+
+    // Student feedback + score so far
+    $student = null;
+    if ($role === 'student') {
+      // compute score from all answered questions so far
+      $points = 0;
+      $answered = 0;
+
+      // map correct answers
+      $correctMap = [];
+      foreach (($quiz["questions"] ?? []) as $q) {
+        if (isset($q["id"]) && array_key_exists("correctIndex", $q)) {
+          $correctMap[$q["id"]] = (int)$q["correctIndex"];
+        }
+      }
+
+      foreach (($results["answers"] ?? []) as $qid => $byStudent) {
+        if (!is_array($byStudent)) continue;
+        if (!isset($byStudent[$studentId])) continue;
+        $answered++;
+        $oi = (int)($byStudent[$studentId]["optionIndex"] ?? -1);
+        if (isset($correctMap[$qid]) && $oi === (int)$correctMap[$qid]) $points++;
+      }
+      $avg = ($answered > 0) ? round($points / $answered, 3) : 0.0;
+
+      // current question: has student answered?
+      $hasAnswered = false;
+      $myOptionIndex = null;
+      $isCorrect = null;
+
+      if ($current) {
+        $qid = (string)$current["id"];
+        if (isset($results["answers"][$qid][$studentId])) {
+          $hasAnswered = true;
+          $myOptionIndex = (int)($results["answers"][$qid][$studentId]["optionIndex"] ?? -1);
+        }
+
+        // Only reveal correctness when presenter published results
+        if ($hasAnswered && ($quiz["resultsPublished"] ?? false) === true) {
+          $ci = (int)($current["correctIndex"] ?? -1);
+          $isCorrect = ($myOptionIndex === $ci);
+        }
+      }
+
+      $student = [
+        "studentId" => $studentId,
+        "studentName" => $studentName,
+        "score" => [
+          "points" => $points,
+          "answered" => $answered,
+          "avg" => $avg
+        ],
+        "current" => [
+          "hasAnswered" => $hasAnswered,
+          "myOptionIndex" => $myOptionIndex,
+          "isCorrect" => $isCorrect
+        ]
+      ];
+    }
+
+    // hide correctIndex from students until published
+    $safeCurrent = $current;
+    if ($role === 'student' && $safeCurrent) {
+      if (($quiz["resultsPublished"] ?? false) !== true) {
+        unset($safeCurrent["correctIndex"]);
+      }
+    }
+
+    // Presenter gets full question list + student grid
+    $presenter = null;
+    if ($role === 'presenter') {
+      $studentsTable = compute_students_table($quiz, $results);
+      $presenter = [
+        "questions" => $quiz["questions"],
+        "students" => $studentsTable
+      ];
+    }
+
+    $respond([
+      "ok" => true,
+      "serverTime" => time(),
+      "quiz" => [
+        "status" => $quiz["status"],
+        "currentQuestionId" => $quiz["currentQuestionId"],
+        "resultsPublished" => (bool)($quiz["resultsPublished"] ?? false),
+        "updatedAt" => $quiz["updatedAt"],
+        "questionsCount" => count($quiz["questions"]),
+      ],
+      "currentQuestion" => $safeCurrent,
+      "counts" => $counts,
+      "percentages" => $percentages,
+      "totalAnswers" => $totalAnswers,
+      "student" => $student,
+      "presenter" => $presenter
+    ]);
+  }
+
+  if ($api === 'create_question') {
+    $text = trim((string)($_POST['text'] ?? ''));
+    $optionsRaw = $_POST['options'] ?? [];
+    $correctIndex = (int)($_POST['correctIndex'] ?? 0);
+
+    if ($text === '') $respond(["ok" => false, "error" => "Question text is required"], 400);
+    if (!is_array($optionsRaw)) $respond(["ok" => false, "error" => "Options must be array"], 400);
+
+    $options = [];
+    foreach ($optionsRaw as $o) {
+      $o = trim((string)$o);
+      if ($o !== '') $options[] = $o;
+    }
+    if (count($options) < 2) $respond(["ok" => false, "error" => "At least 2 non-empty options required"], 400);
+    if ($correctIndex < 0 || $correctIndex >= count($options)) $correctIndex = 0;
+
+    $qid = 'q_' . bin2hex(random_bytes(6));
+    $q = [
+      "id" => $qid,
+      "text" => $text,
+      "options" => $options,
+      "correctIndex" => $correctIndex,
+      "createdAt" => time(),
+    ];
+
+    with_lock('kahoot_clone_quiz', function() use ($QUIZ_FILE, $q) {
+      $quiz = get_quiz($QUIZ_FILE);
+      $quiz["questions"][] = $q;
+
+      if (empty($quiz["currentQuestionId"])) {
+        $quiz["currentQuestionId"] = $q["id"];
+        $quiz["status"] = "closed";
+      }
+      // new question -> not published
+      $quiz["resultsPublished"] = false;
+
+      save_quiz($QUIZ_FILE, $quiz);
+    });
+
+    $respond(["ok" => true, "questionId" => $qid]);
+  }
+
+  if ($api === 'set_current') {
+    $qid = (string)($_POST['questionId'] ?? '');
+    if ($qid === '') $respond(["ok" => false, "error" => "questionId required"], 400);
+
+    with_lock('kahoot_clone_quiz', function() use ($QUIZ_FILE, $RESULTS_FILE, $qid) {
+      $quiz = get_quiz($QUIZ_FILE);
+
+      $exists = false;
+      foreach ($quiz["questions"] as $q) {
+        if (($q["id"] ?? '') === $qid) { $exists = true; break; }
+      }
+      if (!$exists) return;
+
+      $quiz["currentQuestionId"] = $qid;
+      $quiz["status"] = "closed";
+      $quiz["resultsPublished"] = false; // NEW: reset publish on change
+      save_quiz($QUIZ_FILE, $quiz);
+
+      $results = get_results($RESULTS_FILE);
+      if (!isset($results["answers"][$qid])) $results["answers"][$qid] = [];
+      save_results($RESULTS_FILE, $results);
+    });
+
+    $respond(["ok" => true]);
+  }
+
+  if ($api === 'open') {
+    with_lock('kahoot_clone_quiz', function() use ($QUIZ_FILE) {
+      $quiz = get_quiz($QUIZ_FILE);
+      if (!empty($quiz["currentQuestionId"])) {
+        $quiz["status"] = "open";
+        $quiz["resultsPublished"] = false; // opening resets publish
+        save_quiz($QUIZ_FILE, $quiz);
+      }
+    });
+    $respond(["ok" => true]);
+  }
+
+  if ($api === 'close') {
+    with_lock('kahoot_clone_quiz', function() use ($QUIZ_FILE) {
+      $quiz = get_quiz($QUIZ_FILE);
+      if (!empty($quiz["currentQuestionId"])) {
+        $quiz["status"] = "closed";
+        save_quiz($QUIZ_FILE, $quiz);
+      }
+    });
+    $respond(["ok" => true]);
+  }
+
+  if ($api === 'publish') {
+    // publish results for current question
+    with_lock('kahoot_clone_quiz', function() use ($QUIZ_FILE) {
+      $quiz = get_quiz($QUIZ_FILE);
+      if (!empty($quiz["currentQuestionId"])) {
+        $quiz["resultsPublished"] = true;
+        // usually you'd close on publish
+        if (($quiz["status"] ?? '') === 'open') $quiz["status"] = 'closed';
+        save_quiz($QUIZ_FILE, $quiz);
+      }
+    });
+    $respond(["ok" => true]);
+  }
+
+  if ($api === 'reset') {
+    with_lock('kahoot_clone_quiz', function() use ($QUIZ_FILE, $RESULTS_FILE) {
+      save_quiz($QUIZ_FILE, default_quiz());
+      save_results($RESULTS_FILE, default_results());
+    });
+    $respond(["ok" => true]);
+  }
+
+  if ($api === 'answer') {
+    if ($role !== 'student') $respond(["ok" => false, "error" => "Student only"], 403);
+
+    $qid = (string)($_POST['questionId'] ?? '');
+    $optionIndex = (int)($_POST['optionIndex'] ?? -1);
+    if ($qid === '' || $optionIndex < 0) $respond(["ok" => false, "error" => "Invalid payload"], 400);
+
+    $quiz = get_quiz($QUIZ_FILE);
+    if (($quiz["status"] ?? 'idle') !== 'open') $respond(["ok" => false, "error" => "Question is not open"], 409);
+    if (($quiz["currentQuestionId"] ?? null) !== $qid) $respond(["ok" => false, "error" => "Not the current question"], 409);
+
+    $current = find_question($quiz, $qid);
+    if (!$current) $respond(["ok" => false, "error" => "Question not found"], 404);
+
+    $optsCount = count($current["options"] ?? []);
+    if ($optionIndex < 0 || $optionIndex >= $optsCount) $respond(["ok" => false, "error" => "Option out of range"], 400);
+
+    with_lock('kahoot_clone_results', function() use ($RESULTS_FILE, $qid, $studentId, $studentName, $optionIndex) {
+      $results = get_results($RESULTS_FILE);
+      if (!isset($results["answers"][$qid]) || !is_array($results["answers"][$qid])) {
+        $results["answers"][$qid] = [];
+      }
+
+      // single vote per student per question
+      if (isset($results["answers"][$qid][$studentId])) return;
+
+      $results["answers"][$qid][$studentId] = [
+        "studentName" => $studentName,
+        "optionIndex" => $optionIndex,
+        "ts" => time()
+      ];
+      save_results($RESULTS_FILE, $results);
+    });
+
+    $respond(["ok" => true]);
+  }
+
+  $respond(["ok" => false, "error" => "Unknown api"], 404);
+}
+
+/* =========================
+   HTML UI
+   ========================= */
+?>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Live Quiz</title>
+  <style>
+    :root{
+      --bg:#0b1020;
+      --card:#101a33;
+      --card2:#0e1730;
+      --stroke:rgba(255,255,255,.10);
+      --muted:#9db0d8;
+      --text:#eef3ff;
+      --accent:#6ea8fe;
+      --accent2:#8bd3ff;
+      --good:#51cf66;
+      --bad:#ff6b6b;
+      --warn:#ffd43b;
+      --shadow:rgba(0,0,0,.38);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+      color:var(--text);
+      background:
+        radial-gradient(1200px 700px at 15% 0%, #18295a 0%, transparent 55%),
+        radial-gradient(900px 600px at 90% 10%, #0f3b4a 0%, transparent 55%),
+        linear-gradient(180deg, var(--bg), #070a14 75%);
+    }
+    .wrap{max-width:1200px;margin:0 auto;padding:18px}
+    .topbar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    h1{margin:0;font-size:16px;letter-spacing:.2px}
+    .kpis{display:flex;gap:10px;flex-wrap:wrap}
+    .pill{
+      padding:7px 10px;border-radius:999px;
+      background:rgba(255,255,255,.06);
+      border:1px solid var(--stroke);
+      color:var(--muted);
+      font-size:12px;
+      backdrop-filter: blur(6px);
+    }
+    .pill.good{border-color:rgba(81,207,102,.35);color:#c8f7d2;background:rgba(81,207,102,.10)}
+    .pill.bad{border-color:rgba(255,107,107,.35);color:#ffe2e2;background:rgba(255,107,107,.10)}
+    .pill.warn{border-color:rgba(255,212,59,.35);color:#fff3c7;background:rgba(255,212,59,.10)}
+    .grid{display:grid;grid-template-columns:1fr;gap:14px;margin-top:14px}
+    @media(min-width:980px){.grid.presenter{grid-template-columns:1.05fr .95fr}}
+    .card{
+      background:rgba(16,26,51,.92);
+      border:1px solid var(--stroke);
+      border-radius:18px;
+      padding:16px;
+      box-shadow:0 14px 36px var(--shadow);
+    }
+    .subgrid{display:grid;grid-template-columns:1fr;gap:14px}
+    @media(min-width:980px){.subgrid{grid-template-columns:1fr}}
+    h2{margin:0 0 10px 0;font-size:13px;color:var(--muted);font-weight:700;text-transform:uppercase;letter-spacing:.08em}
+    label{display:block;font-size:12px;color:var(--muted);margin:10px 0 6px}
+    input[type="text"], textarea, select{
+      width:100%;padding:10px 12px;border-radius:12px;
+      border:1px solid var(--stroke);
+      background:rgba(0,0,0,.22);
+      color:var(--text);
+      outline:none;
+    }
+    textarea{min-height:72px;resize:vertical}
+    .row{display:flex;gap:10px;flex-wrap:wrap}
+    .row>*{flex:1;min-width:200px}
+    button{
+      border:0;border-radius:12px;padding:10px 12px;
+      cursor:pointer;font-weight:800;color:#071024;
+      background:linear-gradient(135deg,var(--accent),var(--accent2));
+    }
+    button.secondary{
+      background:rgba(255,255,255,.08);
+      color:var(--text);
+      border:1px solid var(--stroke);
+      font-weight:700;
+    }
+    button.ok{background:linear-gradient(135deg,var(--good),#a9f3b7);color:#06210b}
+    button.danger{background:linear-gradient(135deg,var(--bad),#ffb0b0);color:#2a0a0a}
+    button.warn{background:linear-gradient(135deg,var(--warn),#ffeaa0);color:#241b02}
+    button:disabled{opacity:.55;cursor:not-allowed}
+    .muted{color:var(--muted);font-size:12px;line-height:1.45}
+    .qtext{font-size:18px;font-weight:900;margin:0 0 12px 0}
+    .hr{height:1px;background:rgba(255,255,255,.10);margin:14px 0}
+    .options{display:grid;grid-template-columns:1fr;gap:10px}
+    @media(min-width:720px){.options{grid-template-columns:1fr 1fr}}
+    .optBtn{
+      text-align:left;padding:14px;border-radius:14px;
+      background:rgba(255,255,255,.06);color:var(--text);
+      border:1px solid var(--stroke);font-weight:800;
+      transition:transform .06s ease, border-color .12s ease, background .12s ease;
+    }
+    .optBtn:hover{transform:translateY(-1px);border-color:rgba(110,168,254,.55);background:rgba(110,168,254,.10)}
+    .optMeta{display:flex;justify-content:space-between;gap:12px;font-size:12px;color:var(--muted);margin-top:6px}
+    .bar{height:10px;border-radius:999px;background:rgba(255,255,255,.08);overflow:hidden;border:1px solid rgba(255,255,255,.08)}
+    .bar > div{height:100%;background:linear-gradient(135deg,var(--accent),var(--accent2));width:0%;transition:width 160ms linear}
+    .feedback{
+      padding:10px 12px;border-radius:14px;
+      border:1px solid var(--stroke);
+      background:rgba(255,255,255,.05);
+      margin-top:12px;
+    }
+    .feedback.good{border-color:rgba(81,207,102,.35);background:rgba(81,207,102,.10)}
+    .feedback.bad{border-color:rgba(255,107,107,.35);background:rgba(255,107,107,.10)}
+    table{width:100%;border-collapse:collapse;font-size:12px}
+    th,td{padding:10px 8px;border-bottom:1px solid rgba(255,255,255,.08);text-align:left}
+    th{color:#cfe1ff;font-size:11px;text-transform:uppercase;letter-spacing:.07em}
+    .right{text-align:right}
+    .mono{font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <h1>Live Quiz</h1>
+    <div class="kpis">
+      <span class="pill" id="statusPill">status: …</span>
+      <span class="pill" id="qidPill">question: …</span>
+      <span class="pill" id="pubPill">published: …</span>
+      <span class="pill" id="updatedPill">updated: …</span>
+      <?php if ($role === 'student'): ?>
+        <span class="pill">you: <?= htmlspecialchars($_SESSION['studentName'] ?? 'student', ENT_QUOTES, 'UTF-8') ?></span>
+      <?php else: ?>
+        <span class="pill">role: presenter</span>
+      <?php endif; ?>
+    </div>
+  </div>
+
+<?php if ($role === 'presenter'): ?>
+  <div class="grid presenter">
+    <div class="card">
+      <h2>Create question</h2>
+
+      <label>Question</label>
+      <textarea id="qText" placeholder="Type the question…"></textarea>
+
+      <div class="row">
+        <div><label>Option A</label><input id="opt0" type="text" placeholder="Option A" /></div>
+        <div><label>Option B</label><input id="opt1" type="text" placeholder="Option B" /></div>
+      </div>
+
+      <div class="row">
+        <div><label>Option C</label><input id="opt2" type="text" placeholder="Option C (optional)" /></div>
+        <div><label>Option D</label><input id="opt3" type="text" placeholder="Option D (optional)" /></div>
+      </div>
+
+      <label>Correct answer</label>
+      <select id="correctIndex">
+        <option value="0">A</option>
+        <option value="1">B</option>
+        <option value="2">C</option>
+        <option value="3">D</option>
+      </select>
+
+      <div class="row" style="margin-top:12px;">
+        <button id="createBtn">Create</button>
+        <button class="secondary" id="refreshBtn">Refresh</button>
+      </div>
+
+      <div class="hr"></div>
+
+      <h2>Live control</h2>
+      <div class="row">
+        <button class="ok" id="openBtn">Open</button>
+        <button class="secondary" id="closeBtn">Close</button>
+        <button class="warn" id="publishBtn">Publish results</button>
+        <button class="danger" id="resetBtn">Reset</button>
+      </div>
+
+      <label style="margin-top:12px;">Select current question</label>
+      <select id="questionPicker"></select>
+      <div class="row" style="margin-top:10px;">
+        <button class="secondary" id="setCurrentBtn">Set current</button>
+      </div>
+
+      <p class="muted" id="presenterMsg" style="margin-top:10px;"></p>
+    </div>
+
+    <div class="card">
+      <h2>Live view</h2>
+      <p class="qtext" id="liveQuestion">Waiting…</p>
+      <div id="liveOptions" class="muted"></div>
+
+      <div class="hr"></div>
+
+      <h2>Current counts</h2>
+      <div id="countsBox" class="muted">No data.</div>
+
+      <div class="hr"></div>
+
+      <h2>Students & evaluation</h2>
+      <div class="muted" id="studentsBox">No students yet.</div>
+    </div>
+  </div>
+
+<?php else: ?>
+  <div class="grid">
+    <div class="card">
+      <h2>Student</h2>
+
+      <form method="post" style="margin-bottom:12px;">
+        <label>Your name (stored in session)</label>
+        <div class="row">
+          <input type="text" name="studentName" value="<?= htmlspecialchars($_SESSION['studentName'] ?? '', ENT_QUOTES, 'UTF-8') ?>" />
+          <button class="secondary" type="submit">Save</button>
+        </div>
+      </form>
+
+      <div class="row">
+        <div class="pill" id="scorePill">score: …</div>
+        <div class="pill" id="avgPill">avg: …</div>
+      </div>
+
+      <div class="hr"></div>
+
+      <p class="qtext" id="studentQuestion">Waiting for presenter…</p>
+      <div class="options" id="studentOptions"></div>
+
+      <div id="studentFeedback" class="feedback" style="display:none;"></div>
+
+      <div class="hr"></div>
+
+      <h2>Live percentages</h2>
+      <div id="studentPercents" class="muted">No data.</div>
+
+      <p class="muted" id="studentMsg" style="margin-top:10px;"></p>
+    </div>
+  </div>
+<?php endif; ?>
+</div>
+
+<script>
+  const ROLE = <?= json_encode($role) ?>;
+
+  function $(id){ return document.getElementById(id); }
+
+  async function apiPost(api, bodyObj) {
+    const form = new FormData();
+    for (const k of Object.keys(bodyObj || {})) {
+      const v = bodyObj[k];
+      if (Array.isArray(v)) {
+        for (const item of v) form.append(k + "[]", item);
+      } else {
+        form.append(k, v);
+      }
+    }
+    const res = await fetch(`?api=${encodeURIComponent(api)}&role=${encodeURIComponent(ROLE)}<?= ($role === 'presenter') ? '&key=' . urlencode($_GET['key'] ?? '') : '' ?>`, {
+      method: 'POST',
+      body: form
+    });
+    return await res.json();
+  }
+
+  async function apiGetState() {
+    const res = await fetch(`?api=state&role=${encodeURIComponent(ROLE)}<?= ($role === 'presenter') ? '&key=' . urlencode($_GET['key'] ?? '') : '' ?>`);
+    return await res.json();
+  }
+
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, (c) => ({
+      "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"
+    }[c]));
+  }
+
+  function setTopPills(state) {
+    $("statusPill").textContent = `status: ${state.quiz?.status ?? "?"}`;
+    $("qidPill").textContent = `question: ${state.quiz?.currentQuestionId ?? "none"}`;
+    $("pubPill").textContent = `published: ${state.quiz?.resultsPublished ? "yes" : "no"}`;
+    $("updatedPill").textContent = `updated: ${state.quiz?.updatedAt ? new Date(state.quiz.updatedAt*1000).toLocaleTimeString() : "?"}`;
+  }
+
+  // ===== Presenter render =====
+  function presenterRender(state) {
+    const q = state.currentQuestion;
+    const counts = state.counts || [];
+    const perc = state.percentages || [];
+    const total = state.totalAnswers || 0;
+
+    $("liveQuestion").textContent = q ? q.text : "No current question.";
+
+    const optsWrap = $("liveOptions");
+    optsWrap.innerHTML = "";
+
+    if (q && q.options && q.options.length) {
+      optsWrap.innerHTML = q.options.map((t, i) => {
+        const isCorrect = (typeof q.correctIndex === "number" && i === q.correctIndex);
+        return `<div style="margin:10px 0;">
+          <div><strong>${String.fromCharCode(65+i)}.</strong> ${escapeHtml(t)} ${isCorrect ? '<span class="pill good" style="margin-left:8px;">correct</span>' : ''}</div>
+        </div>`;
+      }).join("");
+    } else {
+      optsWrap.textContent = "Create a question to start.";
+    }
+
+    // counts box with percentages
+    const countsBox = $("countsBox");
+    if (q && q.options && q.options.length) {
+      countsBox.innerHTML = q.options.map((t, i) => {
+        const c = counts[i] ?? 0;
+        const p = perc[i] ?? 0;
+        return `
+          <div style="margin:12px 0;">
+            <div style="display:flex;justify-content:space-between;gap:12px;">
+              <div><strong>${String.fromCharCode(65+i)}.</strong> ${escapeHtml(t)}</div>
+              <div class="mono"><strong>${c}</strong> (${p}%)</div>
+            </div>
+            <div class="bar"><div style="width:${p}%;"></div></div>
+          </div>
+        `;
+      }).join("") + `<div class="muted">Total answers: <strong>${total}</strong></div>`;
+    } else {
+      countsBox.textContent = "No data.";
+    }
+
+    // question picker
+    const picker = $("questionPicker");
+    if (picker && state.presenter?.questions) {
+      const qs = state.presenter.questions;
+      picker.innerHTML = qs.map(qx => {
+        const sel = (qx.id === state.quiz.currentQuestionId) ? "selected" : "";
+        const label = (qx.text || "").slice(0, 60);
+        return `<option value="${escapeHtml(qx.id)}" ${sel}>${escapeHtml(qx.id)} — ${escapeHtml(label)}</option>`;
+      }).join("");
+      if (qs.length === 0) picker.innerHTML = `<option value="">(no questions yet)</option>`;
+    }
+
+    // students table
+    const studentsBox = $("studentsBox");
+    const students = state.presenter?.students || [];
+    if (!students.length) {
+      studentsBox.textContent = "No students yet.";
+    } else {
+      studentsBox.innerHTML = `
+        <table>
+          <thead>
+            <tr>
+              <th>Student</th>
+              <th class="right">Points</th>
+              <th class="right">Answered</th>
+              <th class="right">Avg</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${students.map(s => `
+              <tr>
+                <td>${escapeHtml(s.studentName)} <span class="muted mono">(${escapeHtml(s.studentId)})</span></td>
+                <td class="right mono"><strong>${s.points}</strong></td>
+                <td class="right mono">${s.answered}</td>
+                <td class="right mono">${(Math.round(s.avg*1000)/1000).toFixed(3)}</td>
+              </tr>
+            `).join("")}
+          </tbody>
+        </table>
+        <div class="muted" style="margin-top:8px;">Avg is points/answered (each question = 1 point).</div>
+      `;
+    }
+  }
+
+  // ===== Student render =====
+  let answeredLocal = {}; // qid => true
+
+  function studentRender(state) {
+    const q = state.currentQuestion;
+    const status = state.quiz?.status;
+    const published = !!state.quiz?.resultsPublished;
+
+    const qEl = $("studentQuestion");
+    const optsEl = $("studentOptions");
+    const msgEl = $("studentMsg");
+
+    const score = state.student?.score;
+    if (score) {
+      $("scorePill").textContent = `score: ${score.points}/${score.answered}`;
+      $("avgPill").textContent = `avg: ${score.avg}`;
+    }
+
+    optsEl.innerHTML = "";
+    msgEl.textContent = "";
+
+    if (!q) {
+      qEl.textContent = "Waiting for presenter…";
+      $("studentPercents").textContent = "No data.";
+      hideFeedback();
+      return;
+    }
+
+    qEl.textContent = q.text;
+
+    // show percentages live
+    renderStudentPercents(state);
+
+    const already = answeredLocal[q.id] || state.student?.current?.hasAnswered;
+    const canAnswer = (status === "open") && !already;
+
+    (q.options || []).forEach((t, i) => {
+      const b = document.createElement("button");
+      b.className = "optBtn";
+      b.innerHTML = `<div><strong>${String.fromCharCode(65+i)}.</strong> ${escapeHtml(t)}</div>
+                     <div class="optMeta"><span>Live</span><span class="mono">${(state.percentages?.[i] ?? 0)}%</span></div>
+                     <div class="bar"><div style="width:${(state.percentages?.[i] ?? 0)}%;"></div></div>`;
+      b.disabled = !canAnswer;
+
+      b.addEventListener("click", async () => {
+        b.disabled = true;
+        const res = await apiPost("answer", { questionId: q.id, optionIndex: i });
+        if (res.ok) {
+          answeredLocal[q.id] = true;
+          msgEl.textContent = "Answer recorded.";
+        } else {
+          msgEl.textContent = "Could not submit: " + (res.error || "error");
+          b.disabled = false;
+        }
+      });
+
+      optsEl.appendChild(b);
+    });
+
+    if (already) {
+      msgEl.textContent = "Answer already recorded for this question.";
+    } else if (status !== "open") {
+      msgEl.textContent = "Not open yet (or already closed).";
+    }
+
+    // feedback when published
+    if (published && state.student?.current?.hasAnswered && typeof state.student.current.isCorrect === "boolean") {
+      if (state.student.current.isCorrect) {
+        showFeedback(true, "Correct ✅ (+1 point)");
+      } else {
+        showFeedback(false, "Incorrect ❌ (0 points)");
+      }
+    } else {
+      // keep feedback hidden until published
+      hideFeedback();
+    }
+  }
+
+  function renderStudentPercents(state) {
+    const q = state.currentQuestion;
+    const percBox = $("studentPercents");
+    if (!q || !q.options || !q.options.length) {
+      percBox.textContent = "No data.";
+      return;
+    }
+    const perc = state.percentages || [];
+    const counts = state.counts || [];
+    const total = state.totalAnswers || 0;
+
+    percBox.innerHTML = q.options.map((t, i) => {
+      const p = perc[i] ?? 0;
+      const c = counts[i] ?? 0;
+      return `
+        <div style="margin:12px 0;">
+          <div style="display:flex;justify-content:space-between;gap:12px;">
+            <div><strong>${String.fromCharCode(65+i)}.</strong> ${escapeHtml(t)}</div>
+            <div class="mono"><strong>${p}%</strong> (${c})</div>
+          </div>
+          <div class="bar"><div style="width:${p}%;"></div></div>
+        </div>
+      `;
+    }).join("") + `<div class="muted">Total answers so far: <strong>${total}</strong></div>`;
+  }
+
+  function showFeedback(ok, text) {
+    const box = $("studentFeedback");
+    box.style.display = "block";
+    box.className = "feedback " + (ok ? "good" : "bad");
+    box.innerHTML = `<strong>${ok ? "SUCCESS" : "FAILED"}</strong> — ${escapeHtml(text)}`;
+  }
+  function hideFeedback() {
+    const box = $("studentFeedback");
+    box.style.display = "none";
+    box.className = "feedback";
+    box.textContent = "";
+  }
+
+  // ===== Heartbeat (1 second) =====
+  async function tick() {
+    try {
+      const state = await apiGetState();
+      if (!state || !state.ok) return;
+      setTopPills(state);
+
+      if (ROLE === "presenter") presenterRender(state);
+      else studentRender(state);
+    } catch (e) {}
+  }
+
+  // ===== Presenter actions =====
+  if (ROLE === "presenter") {
+    $("createBtn").addEventListener("click", async () => {
+      const text = $("qText").value.trim();
+      const options = [
+        $("opt0").value.trim(),
+        $("opt1").value.trim(),
+        $("opt2").value.trim(),
+        $("opt3").value.trim(),
+      ];
+      const correctIndex = parseInt($("correctIndex").value, 10) || 0;
+
+      const res = await apiPost("create_question", { text, options, correctIndex });
+      $("presenterMsg").textContent = res.ok
+        ? `Created question: ${res.questionId}`
+        : `Error: ${res.error || "unknown"}`;
+
+      if (res.ok) {
+        $("qText").value = "";
+        $("opt0").value = "";
+        $("opt1").value = "";
+        $("opt2").value = "";
+        $("opt3").value = "";
+      }
+      await tick();
+    });
+
+    $("openBtn").addEventListener("click", async () => { await apiPost("open", {}); await tick(); });
+    $("closeBtn").addEventListener("click", async () => { await apiPost("close", {}); await tick(); });
+
+    $("publishBtn").addEventListener("click", async () => {
+      await apiPost("publish", {});
+      $("presenterMsg").textContent = "Results published for current question.";
+      await tick();
+    });
+
+    $("resetBtn").addEventListener("click", async () => {
+      if (!confirm("Reset quiz and ALL results?")) return;
+      await apiPost("reset", {});
+      $("presenterMsg").textContent = "Reset done.";
+      await tick();
+    });
+
+    $("refreshBtn").addEventListener("click", tick);
+
+    $("setCurrentBtn").addEventListener("click", async () => {
+      const picker = $("questionPicker");
+      const qid = picker?.value || "";
+      if (!qid) return;
+      await apiPost("set_current", { questionId: qid });
+      $("presenterMsg").textContent = `Current question set: ${qid}`;
+      await tick();
+    });
+  }
+
+  tick();
+  setInterval(tick, 1000);
+</script>
+</body>
+</html>
+```
+
+### tercera version
+<small>Creado: 2025-12-22 20:03</small>
+
+`003-tercera version.php`
+
+```
+<?php
+/**
+ * Quiz en vivo tipo Kahoot (1 solo archivo PHP + JSON + polling 1s)
+ *
+ * Cambios pedidos:
+ * 1) Si se accede a la URL “a pelo” (sin parámetros), asumimos ALUMNO.
+ * 2) En presentador, el desplegable NO debe saltar a la primera pregunta al refrescar.
+ *    - Se conserva la selección actual del desplegable.
+ *    - Solo cambia la pregunta actual al pulsar “Establecer como actual”.
+ * 3) Tema CSS CLARO.
+ * 4) Toda la app en ESPAÑOL.
+ *
+ * Uso:
+ *  Presentador: index.php?role=presenter&key=changeme
+ *  Alumno:      index.php   (o index.php?role=student)
+ *
+ * Archivos:
+ *  ./quiz_data/quiz.json
+ *  ./quiz_data/results.json
+ */
+
+declare(strict_types=1);
+ini_set('display_errors', '1');
+error_reporting(E_ALL);
+
+session_start();
+
+/* =========================
+   CONFIG
+   ========================= */
+$PRESENTER_KEY = 'changeme'; // <-- cambia esto
+
+$DATA_DIR = __DIR__ . DIRECTORY_SEPARATOR . 'quiz_data';
+$QUIZ_FILE = $DATA_DIR . DIRECTORY_SEPARATOR . 'quiz.json';
+$RESULTS_FILE = $DATA_DIR . DIRECTORY_SEPARATOR . 'results.json';
+
+if (!is_dir($DATA_DIR)) {
+  @mkdir($DATA_DIR, 0775, true);
+}
+
+/* =========================
+   FILE UTILS (atomic + flock)
+   ========================= */
+function read_json_file(string $path, array $default): array {
+  if (!file_exists($path)) return $default;
+  $raw = @file_get_contents($path);
+  if ($raw === false || trim($raw) === '') return $default;
+  $data = json_decode($raw, true);
+  return is_array($data) ? $data : $default;
+}
+
+function write_json_file_atomic(string $path, array $data): void {
+  $tmp = $path . '.tmp';
+  $json = json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+  if ($json === false) $json = "{}";
+
+  $fp = fopen($tmp, 'wb');
+  if ($fp === false) return;
+  fwrite($fp, $json);
+  fflush($fp);
+  fclose($fp);
+
+  @rename($tmp, $path);
+}
+
+function with_lock(string $lockName, callable $fn) {
+  $lockPath = sys_get_temp_dir() . DIRECTORY_SEPARATOR . $lockName . '.lock';
+  $fp = fopen($lockPath, 'c+');
+  if ($fp === false) return $fn();
+
+  flock($fp, LOCK_EX);
+  try {
+    return $fn();
+  } finally {
+    flock($fp, LOCK_UN);
+    fclose($fp);
+  }
+}
+
+/* =========================
+   DEFAULT DATA
+   ========================= */
+function default_quiz(): array {
+  return [
+    "version" => 2,
+    "createdAt" => time(),
+    "updatedAt" => time(),
+    "status" => "idle",            // idle | open | closed
+    "currentQuestionId" => null,
+    "resultsPublished" => false,
+    "questions" => []
+  ];
+}
+
+function default_results(): array {
+  return [
+    "version" => 2,
+    "createdAt" => time(),
+    "updatedAt" => time(),
+    "answers" => []
+  ];
+}
+
+function get_quiz(string $path): array { return read_json_file($path, default_quiz()); }
+function get_results(string $path): array { return read_json_file($path, default_results()); }
+function save_quiz(string $path, array $quiz): void { $quiz["updatedAt"] = time(); write_json_file_atomic($path, $quiz); }
+function save_results(string $path, array $results): void { $results["updatedAt"] = time(); write_json_file_atomic($path, $results); }
+
+function find_question(array $quiz, ?string $qid): ?array {
+  if (!$qid) return null;
+  foreach ($quiz["questions"] as $q) {
+    if (($q["id"] ?? null) === $qid) return $q;
+  }
+  return null;
+}
+
+function compute_students_table(array $quiz, array $results): array {
+  $students = [];
+
+  $correctMap = [];
+  foreach (($quiz["questions"] ?? []) as $q) {
+    if (isset($q["id"]) && array_key_exists("correctIndex", $q)) {
+      $correctMap[$q["id"]] = (int)$q["correctIndex"];
+    }
+  }
+
+  foreach (($results["answers"] ?? []) as $qid => $byStudent) {
+    if (!is_array($byStudent)) continue;
+    foreach ($byStudent as $sid => $ans) {
+      if (!is_array($ans)) continue;
+      $name = (string)($ans["studentName"] ?? $sid);
+
+      if (!isset($students[$sid])) {
+        $students[$sid] = ["studentId"=>$sid, "studentName"=>$name, "points"=>0, "answered"=>0, "avg"=>0.0];
+      } else {
+        if ($name !== '') $students[$sid]["studentName"] = $name;
+      }
+
+      $students[$sid]["answered"]++;
+
+      $oi = (int)($ans["optionIndex"] ?? -1);
+      if (isset($correctMap[$qid]) && $oi === (int)$correctMap[$qid]) {
+        $students[$sid]["points"]++;
+      }
+    }
+  }
+
+  foreach ($students as &$s) {
+    $s["avg"] = ($s["answered"] > 0) ? ($s["points"] / $s["answered"]) : 0.0;
+  }
+  unset($s);
+
+  usort($students, function($a, $b){
+    if ($a["points"] !== $b["points"]) return $b["points"] <=> $a["points"];
+    return strcmp((string)$a["studentName"], (string)$b["studentName"]);
+  });
+
+  return $students;
+}
+
+/* =========================
+   ROLE RESOLUTION
+   ========================= */
+/**
+ * Requisito (1): Si se accede a la URL sin parámetros, asumimos alumno.
+ * Esto evita quedarse “pegado” como presentador por sesión.
+ */
+if (empty($_GET)) {
+  $_SESSION['role'] = 'student';
+}
+
+$role = $_GET['role'] ?? ($_SESSION['role'] ?? 'student');
+$role = ($role === 'presenter') ? 'presenter' : 'student';
+$_SESSION['role'] = $role;
+
+/* =========================
+   AUTH / IDENTITIES
+   ========================= */
+if ($role === 'presenter') {
+  $key = (string)($_GET['key'] ?? '');
+  if (!hash_equals($PRESENTER_KEY, $key)) {
+    http_response_code(403);
+    header('Content-Type: text/plain; charset=utf-8');
+    echo "Acceso denegado (clave de presentador incorrecta).\n";
+    echo "Usa: ?role=presenter&key=TUCLAVE\n";
+    exit;
+  }
+}
+
+$studentId = null;
+$studentName = null;
+
+if ($role === 'student') {
+  if (empty($_SESSION['studentId'])) {
+    $_SESSION['studentId'] = 's_' . bin2hex(random_bytes(6));
+  }
+  $studentId = (string)$_SESSION['studentId'];
+
+  if (isset($_POST['studentName']) && is_string($_POST['studentName'])) {
+    $_SESSION['studentName'] = trim($_POST['studentName']);
+  }
+  if (empty($_SESSION['studentName'])) {
+    $_SESSION['studentName'] = 'Alumno-' . substr($studentId, -4);
+  }
+  $studentName = (string)$_SESSION['studentName'];
+}
+
+/* =========================
+   API ROUTER
+   ========================= */
+$api = $_GET['api'] ?? null;
+if ($api !== null) {
+  header('Content-Type: application/json; charset=utf-8');
+
+  $respond = function(array $payload, int $code = 200) {
+    http_response_code($code);
+    echo json_encode($payload, JSON_UNESCAPED_UNICODE);
+    exit;
+  };
+
+  if ($role !== 'presenter' && in_array($api, ['create_question','set_current','open','close','reset','publish'], true)) {
+    $respond(["ok" => false, "error" => "Solo presentador"], 403);
+  }
+
+  if ($api === 'state') {
+    $quiz = get_quiz($QUIZ_FILE);
+    $results = get_results($RESULTS_FILE);
+
+    $current = find_question($quiz, $quiz["currentQuestionId"] ?? null);
+
+    $counts = [];
+    $percentages = [];
+    $totalAnswers = 0;
+
+    if ($current) {
+      $qid = (string)$current["id"];
+      $opts = $current["options"] ?? [];
+      $counts = array_fill(0, count($opts), 0);
+
+      $answers = $results["answers"][$qid] ?? [];
+      if (is_array($answers)) {
+        foreach ($answers as $ans) {
+          $oi = (int)($ans["optionIndex"] ?? -1);
+          if ($oi >= 0 && $oi < count($counts)) $counts[$oi]++;
+        }
+      }
+
+      $totalAnswers = array_sum($counts);
+      $percentages = array_map(function($c) use ($totalAnswers){
+        return $totalAnswers > 0 ? round(($c / $totalAnswers) * 100, 1) : 0.0;
+      }, $counts);
+    }
+
+    $student = null;
+    if ($role === 'student') {
+      $points = 0;
+      $answered = 0;
+
+      $correctMap = [];
+      foreach (($quiz["questions"] ?? []) as $q) {
+        if (isset($q["id"]) && array_key_exists("correctIndex", $q)) {
+          $correctMap[$q["id"]] = (int)$q["correctIndex"];
+        }
+      }
+
+      foreach (($results["answers"] ?? []) as $qid => $byStudent) {
+        if (!is_array($byStudent)) continue;
+        if (!isset($byStudent[$studentId])) continue;
+        $answered++;
+        $oi = (int)($byStudent[$studentId]["optionIndex"] ?? -1);
+        if (isset($correctMap[$qid]) && $oi === (int)$correctMap[$qid]) $points++;
+      }
+
+      $avg = ($answered > 0) ? round($points / $answered, 3) : 0.0;
+
+      $hasAnswered = false;
+      $myOptionIndex = null;
+      $isCorrect = null;
+
+      if ($current) {
+        $qid = (string)$current["id"];
+        if (isset($results["answers"][$qid][$studentId])) {
+          $hasAnswered = true;
+          $myOptionIndex = (int)($results["answers"][$qid][$studentId]["optionIndex"] ?? -1);
+        }
+
+        if ($hasAnswered && ($quiz["resultsPublished"] ?? false) === true) {
+          $ci = (int)($current["correctIndex"] ?? -1);
+          $isCorrect = ($myOptionIndex === $ci);
+        }
+      }
+
+      $student = [
+        "studentId" => $studentId,
+        "studentName" => $studentName,
+        "score" => ["points"=>$points, "answered"=>$answered, "avg"=>$avg],
+        "current" => ["hasAnswered"=>$hasAnswered, "myOptionIndex"=>$myOptionIndex, "isCorrect"=>$isCorrect]
+      ];
+    }
+
+    $safeCurrent = $current;
+    if ($role === 'student' && $safeCurrent) {
+      if (($quiz["resultsPublished"] ?? false) !== true) {
+        unset($safeCurrent["correctIndex"]);
+      }
+    }
+
+    $presenter = null;
+    if ($role === 'presenter') {
+      $presenter = [
+        "questions" => $quiz["questions"],
+        "students" => compute_students_table($quiz, $results)
+      ];
+    }
+
+    $respond([
+      "ok" => true,
+      "serverTime" => time(),
+      "quiz" => [
+        "status" => $quiz["status"],
+        "currentQuestionId" => $quiz["currentQuestionId"],
+        "resultsPublished" => (bool)($quiz["resultsPublished"] ?? false),
+        "updatedAt" => $quiz["updatedAt"],
+        "questionsCount" => count($quiz["questions"]),
+      ],
+      "currentQuestion" => $safeCurrent,
+      "counts" => $counts,
+      "percentages" => $percentages,
+      "totalAnswers" => $totalAnswers,
+      "student" => $student,
+      "presenter" => $presenter
+    ]);
+  }
+
+  if ($api === 'create_question') {
+    $text = trim((string)($_POST['text'] ?? ''));
+    $optionsRaw = $_POST['options'] ?? [];
+    $correctIndex = (int)($_POST['correctIndex'] ?? 0);
+
+    if ($text === '') $respond(["ok" => false, "error" => "La pregunta es obligatoria"], 400);
+    if (!is_array($optionsRaw)) $respond(["ok" => false, "error" => "Opciones inválidas"], 400);
+
+    $options = [];
+    foreach ($optionsRaw as $o) {
+      $o = trim((string)$o);
+      if ($o !== '') $options[] = $o;
+    }
+    if (count($options) < 2) $respond(["ok" => false, "error" => "Mínimo 2 opciones no vacías"], 400);
+    if ($correctIndex < 0 || $correctIndex >= count($options)) $correctIndex = 0;
+
+    $qid = 'q_' . bin2hex(random_bytes(6));
+    $q = [
+      "id" => $qid,
+      "text" => $text,
+      "options" => $options,
+      "correctIndex" => $correctIndex,
+      "createdAt" => time(),
+    ];
+
+    with_lock('quiz_es_quiz', function() use ($QUIZ_FILE, $q) {
+      $quiz = get_quiz($QUIZ_FILE);
+      $quiz["questions"][] = $q;
+
+      if (empty($quiz["currentQuestionId"])) {
+        $quiz["currentQuestionId"] = $q["id"];
+        $quiz["status"] = "closed";
+      }
+      $quiz["resultsPublished"] = false;
+      save_quiz($QUIZ_FILE, $quiz);
+    });
+
+    $respond(["ok" => true, "questionId" => $qid]);
+  }
+
+  if ($api === 'set_current') {
+    $qid = (string)($_POST['questionId'] ?? '');
+    if ($qid === '') $respond(["ok" => false, "error" => "Falta questionId"], 400);
+
+    with_lock('quiz_es_quiz', function() use ($QUIZ_FILE, $RESULTS_FILE, $qid) {
+      $quiz = get_quiz($QUIZ_FILE);
+
+      $exists = false;
+      foreach ($quiz["questions"] as $q) {
+        if (($q["id"] ?? '') === $qid) { $exists = true; break; }
+      }
+      if (!$exists) return;
+
+      $quiz["currentQuestionId"] = $qid;
+      $quiz["status"] = "closed";
+      $quiz["resultsPublished"] = false;
+      save_quiz($QUIZ_FILE, $quiz);
+
+      $results = get_results($RESULTS_FILE);
+      if (!isset($results["answers"][$qid])) $results["answers"][$qid] = [];
+      save_results($RESULTS_FILE, $results);
+    });
+
+    $respond(["ok" => true]);
+  }
+
+  if ($api === 'open') {
+    with_lock('quiz_es_quiz', function() use ($QUIZ_FILE) {
+      $quiz = get_quiz($QUIZ_FILE);
+      if (!empty($quiz["currentQuestionId"])) {
+        $quiz["status"] = "open";
+        $quiz["resultsPublished"] = false;
+        save_quiz($QUIZ_FILE, $quiz);
+      }
+    });
+    $respond(["ok" => true]);
+  }
+
+  if ($api === 'close') {
+    with_lock('quiz_es_quiz', function() use ($QUIZ_FILE) {
+      $quiz = get_quiz($QUIZ_FILE);
+      if (!empty($quiz["currentQuestionId"])) {
+        $quiz["status"] = "closed";
+        save_quiz($QUIZ_FILE, $quiz);
+      }
+    });
+    $respond(["ok" => true]);
+  }
+
+  if ($api === 'publish') {
+    with_lock('quiz_es_quiz', function() use ($QUIZ_FILE) {
+      $quiz = get_quiz($QUIZ_FILE);
+      if (!empty($quiz["currentQuestionId"])) {
+        $quiz["resultsPublished"] = true;
+        if (($quiz["status"] ?? '') === 'open') $quiz["status"] = 'closed';
+        save_quiz($QUIZ_FILE, $quiz);
+      }
+    });
+    $respond(["ok" => true]);
+  }
+
+  if ($api === 'reset') {
+    with_lock('quiz_es_quiz', function() use ($QUIZ_FILE, $RESULTS_FILE) {
+      save_quiz($QUIZ_FILE, default_quiz());
+      save_results($RESULTS_FILE, default_results());
+    });
+    $respond(["ok" => true]);
+  }
+
+  if ($api === 'answer') {
+    if ($role !== 'student') $respond(["ok" => false, "error" => "Solo alumno"], 403);
+
+    $qid = (string)($_POST['questionId'] ?? '');
+    $optionIndex = (int)($_POST['optionIndex'] ?? -1);
+    if ($qid === '' || $optionIndex < 0) $respond(["ok" => false, "error" => "Datos inválidos"], 400);
+
+    $quiz = get_quiz($QUIZ_FILE);
+    if (($quiz["status"] ?? 'idle') !== 'open') $respond(["ok" => false, "error" => "La pregunta no está abierta"], 409);
+    if (($quiz["currentQuestionId"] ?? null) !== $qid) $respond(["ok" => false, "error" => "No es la pregunta actual"], 409);
+
+    $current = find_question($quiz, $qid);
+    if (!$current) $respond(["ok" => false, "error" => "Pregunta no encontrada"], 404);
+
+    $optsCount = count($current["options"] ?? []);
+    if ($optionIndex < 0 || $optionIndex >= $optsCount) $respond(["ok" => false, "error" => "Opción fuera de rango"], 400);
+
+    with_lock('quiz_es_results', function() use ($RESULTS_FILE, $qid, $studentId, $studentName, $optionIndex) {
+      $results = get_results($RESULTS_FILE);
+      if (!isset($results["answers"][$qid]) || !is_array($results["answers"][$qid])) {
+        $results["answers"][$qid] = [];
+      }
+      if (isset($results["answers"][$qid][$studentId])) return; // 1 voto por pregunta
+
+      $results["answers"][$qid][$studentId] = [
+        "studentName" => $studentName,
+        "optionIndex" => $optionIndex,
+        "ts" => time()
+      ];
+      save_results($RESULTS_FILE, $results);
+    });
+
+    $respond(["ok" => true]);
+  }
+
+  $respond(["ok" => false, "error" => "API desconocida"], 404);
+}
+
+/* =========================
+   HTML
+   ========================= */
+?>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Quiz en vivo</title>
+  <style>
+    :root{
+      --bg:#f6f7fb;
+      --card:#ffffff;
+      --muted:#5b6477;
+      --text:#141824;
+      --stroke:rgba(20,24,36,.10);
+      --shadow:0 14px 38px rgba(20,24,36,.10);
+      --accent:#2563eb;
+      --accent2:#06b6d4;
+      --good:#16a34a;
+      --bad:#dc2626;
+      --warn:#d97706;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+      color:var(--text);
+      background:
+        radial-gradient(900px 500px at 10% 0%, rgba(37,99,235,.10), transparent 55%),
+        radial-gradient(900px 500px at 90% 10%, rgba(6,182,212,.10), transparent 55%),
+        var(--bg);
+    }
+    .wrap{max-width:1200px;margin:0 auto;padding:18px}
+    .topbar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    h1{margin:0;font-size:16px;letter-spacing:.2px}
+    .kpis{display:flex;gap:10px;flex-wrap:wrap}
+    .pill{
+      padding:7px 10px;border-radius:999px;
+      background:rgba(255,255,255,.80);
+      border:1px solid var(--stroke);
+      color:var(--muted);
+      font-size:12px;
+      box-shadow:0 6px 14px rgba(20,24,36,.06);
+    }
+    .pill.good{border-color:rgba(22,163,74,.25);color:var(--good);background:rgba(22,163,74,.06)}
+    .pill.bad{border-color:rgba(220,38,38,.25);color:var(--bad);background:rgba(220,38,38,.06)}
+    .pill.warn{border-color:rgba(217,119,6,.25);color:var(--warn);background:rgba(217,119,6,.06)}
+    .grid{display:grid;grid-template-columns:1fr;gap:14px;margin-top:14px}
+    @media(min-width:980px){.grid.presentador{grid-template-columns:1.05fr .95fr}}
+    .card{
+      background:var(--card);
+      border:1px solid var(--stroke);
+      border-radius:18px;
+      padding:16px;
+      box-shadow:var(--shadow);
+    }
+    h2{margin:0 0 10px 0;font-size:13px;color:var(--muted);font-weight:800;text-transform:uppercase;letter-spacing:.08em}
+    label{display:block;font-size:12px;color:var(--muted);margin:10px 0 6px}
+    input[type="text"], textarea, select{
+      width:100%;padding:10px 12px;border-radius:12px;
+      border:1px solid var(--stroke);
+      background:#fbfcff;
+      color:var(--text);
+      outline:none;
+    }
+    textarea{min-height:72px;resize:vertical}
+    .row{display:flex;gap:10px;flex-wrap:wrap}
+    .row>*{flex:1;min-width:200px}
+    button{
+      border:0;border-radius:12px;padding:10px 12px;
+      cursor:pointer;font-weight:900;color:#ffffff;
+      background:linear-gradient(135deg,var(--accent),var(--accent2));
+    }
+    button.secondary{
+      background:#eef2ff;
+      color:#1f2937;
+      border:1px solid var(--stroke);
+      font-weight:800;
+    }
+    button.ok{background:linear-gradient(135deg,#16a34a,#22c55e)}
+    button.danger{background:linear-gradient(135deg,#dc2626,#f87171)}
+    button.warn{background:linear-gradient(135deg,#d97706,#f59e0b)}
+    button:disabled{opacity:.55;cursor:not-allowed}
+    .muted{color:var(--muted);font-size:12px;line-height:1.45}
+    .qtext{font-size:18px;font-weight:950;margin:0 0 12px 0}
+    .hr{height:1px;background:rgba(20,24,36,.08);margin:14px 0}
+    .options{display:grid;grid-template-columns:1fr;gap:10px}
+    @media(min-width:720px){.options{grid-template-columns:1fr 1fr}}
+    .optBtn{
+      text-align:left;padding:14px;border-radius:14px;
+      background:#ffffff;color:var(--text);
+      border:1px solid rgba(20,24,36,.10);
+      font-weight:900;
+      transition:transform .06s ease, border-color .12s ease, background .12s ease;
+    }
+    .optBtn:hover{transform:translateY(-1px);border-color:rgba(37,99,235,.30);background:rgba(37,99,235,.04)}
+    .optMeta{display:flex;justify-content:space-between;gap:12px;font-size:12px;color:var(--muted);margin-top:6px}
+    .bar{height:10px;border-radius:999px;background:rgba(20,24,36,.08);overflow:hidden;border:1px solid rgba(20,24,36,.08)}
+    .bar > div{height:100%;background:linear-gradient(135deg,var(--accent),var(--accent2));width:0%;transition:width 160ms linear}
+    .feedback{
+      padding:10px 12px;border-radius:14px;
+      border:1px solid var(--stroke);
+      background:#fbfcff;
+      margin-top:12px;
+    }
+    .feedback.good{border-color:rgba(22,163,74,.25);background:rgba(22,163,74,.06)}
+    .feedback.bad{border-color:rgba(220,38,38,.25);background:rgba(220,38,38,.06)}
+    table{width:100%;border-collapse:collapse;font-size:12px}
+    th,td{padding:10px 8px;border-bottom:1px solid rgba(20,24,36,.08);text-align:left}
+    th{color:#334155;font-size:11px;text-transform:uppercase;letter-spacing:.07em}
+    .right{text-align:right}
+    .mono{font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <h1>Quiz en vivo</h1>
+    <div class="kpis">
+      <span class="pill" id="statusPill">estado: …</span>
+      <span class="pill" id="qidPill">pregunta: …</span>
+      <span class="pill" id="pubPill">publicado: …</span>
+      <span class="pill" id="updatedPill">actualizado: …</span>
+      <?php if ($role === 'student'): ?>
+        <span class="pill">tú: <?= htmlspecialchars($_SESSION['studentName'] ?? 'alumno', ENT_QUOTES, 'UTF-8') ?></span>
+      <?php else: ?>
+        <span class="pill">rol: presentador</span>
+      <?php endif; ?>
+    </div>
+  </div>
+
+<?php if ($role === 'presenter'): ?>
+  <div class="grid presentador">
+    <div class="card">
+      <h2>Crear pregunta</h2>
+
+      <label>Pregunta</label>
+      <textarea id="qText" placeholder="Escribe la pregunta…"></textarea>
+
+      <div class="row">
+        <div><label>Opción A</label><input id="opt0" type="text" placeholder="Opción A" /></div>
+        <div><label>Opción B</label><input id="opt1" type="text" placeholder="Opción B" /></div>
+      </div>
+
+      <div class="row">
+        <div><label>Opción C</label><input id="opt2" type="text" placeholder="Opción C (opcional)" /></div>
+        <div><label>Opción D</label><input id="opt3" type="text" placeholder="Opción D (opcional)" /></div>
+      </div>
+
+      <label>Respuesta correcta</label>
+      <select id="correctIndex">
+        <option value="0">A</option>
+        <option value="1">B</option>
+        <option value="2">C</option>
+        <option value="3">D</option>
+      </select>
+
+      <div class="row" style="margin-top:12px;">
+        <button id="createBtn">Crear</button>
+        <button class="secondary" id="refreshBtn">Refrescar</button>
+      </div>
+
+      <div class="hr"></div>
+
+      <h2>Control</h2>
+      <div class="row">
+        <button class="ok" id="openBtn">Abrir respuestas</button>
+        <button class="secondary" id="closeBtn">Cerrar</button>
+        <button class="warn" id="publishBtn">Publicar resultados</button>
+        <button class="danger" id="resetBtn">Reiniciar</button>
+      </div>
+
+      <label style="margin-top:12px;">Seleccionar pregunta (solo cambia al pulsar “Establecer”)</label>
+      <select id="questionPicker"></select>
+      <div class="row" style="margin-top:10px;">
+        <button class="secondary" id="setCurrentBtn">Establecer como actual</button>
+      </div>
+
+      <p class="muted" id="presenterMsg" style="margin-top:10px;"></p>
+    </div>
+
+    <div class="card">
+      <h2>Vista en vivo</h2>
+      <p class="qtext" id="liveQuestion">Esperando…</p>
+      <div id="liveOptions" class="muted"></div>
+
+      <div class="hr"></div>
+
+      <h2>Recuentos actuales</h2>
+      <div id="countsBox" class="muted">Sin datos.</div>
+
+      <div class="hr"></div>
+
+      <h2>Alumnos y evaluación</h2>
+      <div class="muted" id="studentsBox">Aún no hay alumnos.</div>
+    </div>
+  </div>
+
+<?php else: ?>
+  <div class="grid">
+    <div class="card">
+      <h2>Alumno</h2>
+
+      <form method="post" style="margin-bottom:12px;">
+        <label>Tu nombre (se guarda en la sesión)</label>
+        <div class="row">
+          <input type="text" name="studentName" value="<?= htmlspecialchars($_SESSION['studentName'] ?? '', ENT_QUOTES, 'UTF-8') ?>" />
+          <button class="secondary" type="submit">Guardar</button>
+        </div>
+      </form>
+
+      <div class="row">
+        <div class="pill" id="scorePill">puntuación: …</div>
+        <div class="pill" id="avgPill">media: …</div>
+      </div>
+
+      <div class="hr"></div>
+
+      <p class="qtext" id="studentQuestion">Esperando al presentador…</p>
+      <div class="options" id="studentOptions"></div>
+
+      <div id="studentFeedback" class="feedback" style="display:none;"></div>
+
+      <div class="hr"></div>
+
+      <h2>Porcentajes en vivo</h2>
+      <div id="studentPercents" class="muted">Sin datos.</div>
+
+      <p class="muted" id="studentMsg" style="margin-top:10px;"></p>
+    </div>
+  </div>
+<?php endif; ?>
+</div>
+
+<script>
+  const ROLE = <?= json_encode($role) ?>;
+
+  function $(id){ return document.getElementById(id); }
+
+  async function apiPost(api, bodyObj) {
+    const form = new FormData();
+    for (const k of Object.keys(bodyObj || {})) {
+      const v = bodyObj[k];
+      if (Array.isArray(v)) {
+        for (const item of v) form.append(k + "[]", item);
+      } else {
+        form.append(k, v);
+      }
+    }
+    const res = await fetch(`?api=${encodeURIComponent(api)}&role=${encodeURIComponent(ROLE)}<?= ($role === 'presenter') ? '&key=' . urlencode($_GET['key'] ?? '') : '' ?>`, {
+      method: 'POST',
+      body: form
+    });
+    return await res.json();
+  }
+
+  async function apiGetState() {
+    const res = await fetch(`?api=state&role=${encodeURIComponent(ROLE)}<?= ($role === 'presenter') ? '&key=' . urlencode($_GET['key'] ?? '') : '' ?>`);
+    return await res.json();
+  }
+
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, (c) => ({
+      "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"
+    }[c]));
+  }
+
+  function setTopPills(state) {
+    $("statusPill").textContent = `estado: ${state.quiz?.status ?? "?"}`;
+    $("qidPill").textContent = `pregunta: ${state.quiz?.currentQuestionId ?? "ninguna"}`;
+    $("pubPill").textContent = `publicado: ${state.quiz?.resultsPublished ? "sí" : "no"}`;
+    $("updatedPill").textContent = `actualizado: ${state.quiz?.updatedAt ? new Date(state.quiz.updatedAt*1000).toLocaleTimeString() : "?"}`;
+  }
+
+  // ===== Presentador =====
+  let pickerInitialized = false;
+
+  function presenterRender(state) {
+    const q = state.currentQuestion;
+    const counts = state.counts || [];
+    const perc = state.percentages || [];
+    const total = state.totalAnswers || 0;
+
+    $("liveQuestion").textContent = q ? q.text : "No hay pregunta actual.";
+
+    const optsWrap = $("liveOptions");
+    optsWrap.innerHTML = "";
+
+    if (q && q.options && q.options.length) {
+      optsWrap.innerHTML = q.options.map((t, i) => {
+        const isCorrect = (typeof q.correctIndex === "number" && i === q.correctIndex);
+        return `<div style="margin:10px 0;">
+          <div><strong>${String.fromCharCode(65+i)}.</strong> ${escapeHtml(t)} ${isCorrect ? '<span class="pill good" style="margin-left:8px;">correcta</span>' : ''}</div>
+        </div>`;
+      }).join("");
+    } else {
+      optsWrap.textContent = "Crea una pregunta para empezar.";
+    }
+
+    const countsBox = $("countsBox");
+    if (q && q.options && q.options.length) {
+      countsBox.innerHTML = q.options.map((t, i) => {
+        const c = counts[i] ?? 0;
+        const p = perc[i] ?? 0;
+        return `
+          <div style="margin:12px 0;">
+            <div style="display:flex;justify-content:space-between;gap:12px;">
+              <div><strong>${String.fromCharCode(65+i)}.</strong> ${escapeHtml(t)}</div>
+              <div class="mono"><strong>${c}</strong> (${p}%)</div>
+            </div>
+            <div class="bar"><div style="width:${p}%;"></div></div>
+          </div>
+        `;
+      }).join("") + `<div class="muted">Total respuestas: <strong>${total}</strong></div>`;
+    } else {
+      countsBox.textContent = "Sin datos.";
+    }
+
+    // (2) Desplegable: NO saltar a la primera opción
+    const picker = $("questionPicker");
+    const qs = state.presenter?.questions || [];
+    if (picker) {
+      const prevValue = picker.value || ""; // conservar selección actual del usuario
+
+      const optionsHtml = qs.map(qx => {
+        const label = (qx.text || "").slice(0, 60);
+        return `<option value="${escapeHtml(qx.id)}">${escapeHtml(qx.id)} — ${escapeHtml(label)}</option>`;
+      }).join("");
+
+      picker.innerHTML = optionsHtml || `<option value="">(aún no hay preguntas)</option>`;
+
+      // Al primer render, si no hay selección previa, selecciona la pregunta actual
+      if (!pickerInitialized) {
+        if (state.quiz?.currentQuestionId) picker.value = state.quiz.currentQuestionId;
+        pickerInitialized = true;
+      } else {
+        // En renders sucesivos: intenta restaurar la selección previa; si ya no existe, usa la actual del quiz
+        if (prevValue && [...picker.options].some(o => o.value === prevValue)) {
+          picker.value = prevValue;
+        } else if (state.quiz?.currentQuestionId) {
+          picker.value = state.quiz.currentQuestionId;
+        }
+      }
+    }
+
+    const studentsBox = $("studentsBox");
+    const students = state.presenter?.students || [];
+    if (!students.length) {
+      studentsBox.textContent = "Aún no hay alumnos.";
+    } else {
+      studentsBox.innerHTML = `
+        <table>
+          <thead>
+            <tr>
+              <th>Alumno</th>
+              <th class="right">Puntos</th>
+              <th class="right">Respondidas</th>
+              <th class="right">Media</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${students.map(s => `
+              <tr>
+                <td>${escapeHtml(s.studentName)} <span class="muted mono">(${escapeHtml(s.studentId)})</span></td>
+                <td class="right mono"><strong>${s.points}</strong></td>
+                <td class="right mono">${s.answered}</td>
+                <td class="right mono">${(Math.round(s.avg*1000)/1000).toFixed(3)}</td>
+              </tr>
+            `).join("")}
+          </tbody>
+        </table>
+        <div class="muted" style="margin-top:8px;">Media = puntos / respondidas (cada pregunta vale 1 punto).</div>
+      `;
+    }
+  }
+
+  // ===== Alumno =====
+  let answeredLocal = {};
+
+  function studentRender(state) {
+    const q = state.currentQuestion;
+    const status = state.quiz?.status;
+    const published = !!state.quiz?.resultsPublished;
+
+    const qEl = $("studentQuestion");
+    const optsEl = $("studentOptions");
+    const msgEl = $("studentMsg");
+
+    const score = state.student?.score;
+    if (score) {
+      $("scorePill").textContent = `puntuación: ${score.points}/${score.answered}`;
+      $("avgPill").textContent = `media: ${score.avg}`;
+    }
+
+    optsEl.innerHTML = "";
+    msgEl.textContent = "";
+
+    if (!q) {
+      qEl.textContent = "Esperando al presentador…";
+      $("studentPercents").textContent = "Sin datos.";
+      hideFeedback();
+      return;
+    }
+
+    qEl.textContent = q.text;
+
+    renderStudentPercents(state);
+
+    const already = answeredLocal[q.id] || state.student?.current?.hasAnswered;
+    const canAnswer = (status === "open") && !already;
+
+    (q.options || []).forEach((t, i) => {
+      const b = document.createElement("button");
+      b.className = "optBtn";
+      b.innerHTML = `<div><strong>${String.fromCharCode(65+i)}.</strong> ${escapeHtml(t)}</div>
+                     <div class="optMeta"><span>En vivo</span><span class="mono">${(state.percentages?.[i] ?? 0)}%</span></div>
+                     <div class="bar"><div style="width:${(state.percentages?.[i] ?? 0)}%;"></div></div>`;
+      b.disabled = !canAnswer;
+
+      b.addEventListener("click", async () => {
+        b.disabled = true;
+        const res = await apiPost("answer", { questionId: q.id, optionIndex: i });
+        if (res.ok) {
+          answeredLocal[q.id] = true;
+          msgEl.textContent = "Respuesta registrada.";
+        } else {
+          msgEl.textContent = "No se pudo enviar: " + (res.error || "error");
+          b.disabled = false;
+        }
+      });
+
+      optsEl.appendChild(b);
+    });
+
+    if (already) {
+      msgEl.textContent = "Ya has respondido esta pregunta.";
+    } else if (status !== "open") {
+      msgEl.textContent = "La pregunta no está abierta (o ya está cerrada).";
+    }
+
+    if (published && state.student?.current?.hasAnswered && typeof state.student.current.isCorrect === "boolean") {
+      if (state.student.current.isCorrect) showFeedback(true, "Correcto ✅ (+1 punto)");
+      else showFeedback(false, "Incorrecto ❌ (0 puntos)");
+    } else {
+      hideFeedback();
+    }
+  }
+
+  function renderStudentPercents(state) {
+    const q = state.currentQuestion;
+    const percBox = $("studentPercents");
+    if (!q || !q.options || !q.options.length) {
+      percBox.textContent = "Sin datos.";
+      return;
+    }
+    const perc = state.percentages || [];
+    const counts = state.counts || [];
+    const total = state.totalAnswers || 0;
+
+    percBox.innerHTML = q.options.map((t, i) => {
+      const p = perc[i] ?? 0;
+      const c = counts[i] ?? 0;
+      return `
+        <div style="margin:12px 0;">
+          <div style="display:flex;justify-content:space-between;gap:12px;">
+            <div><strong>${String.fromCharCode(65+i)}.</strong> ${escapeHtml(t)}</div>
+            <div class="mono"><strong>${p}%</strong> (${c})</div>
+          </div>
+          <div class="bar"><div style="width:${p}%;"></div></div>
+        </div>
+      `;
+    }).join("") + `<div class="muted">Total de respuestas hasta ahora: <strong>${total}</strong></div>`;
+  }
+
+  function showFeedback(ok, text) {
+    const box = $("studentFeedback");
+    box.style.display = "block";
+    box.className = "feedback " + (ok ? "good" : "bad");
+    box.innerHTML = `<strong>${ok ? "ACIERTO" : "FALLO"}</strong> — ${escapeHtml(text)}`;
+  }
+  function hideFeedback() {
+    const box = $("studentFeedback");
+    box.style.display = "none";
+    box.className = "feedback";
+    box.textContent = "";
+  }
+
+  // ===== Heartbeat =====
+  async function tick() {
+    try {
+      const state = await apiGetState();
+      if (!state || !state.ok) return;
+      setTopPills(state);
+
+      if (ROLE === "presenter") presenterRender(state);
+      else studentRender(state);
+    } catch (e) {}
+  }
+
+  // ===== Acciones presentador =====
+  if (ROLE === "presenter") {
+    $("createBtn").addEventListener("click", async () => {
+      const text = $("qText").value.trim();
+      const options = [
+        $("opt0").value.trim(),
+        $("opt1").value.trim(),
+        $("opt2").value.trim(),
+        $("opt3").value.trim(),
+      ];
+      const correctIndex = parseInt($("correctIndex").value, 10) || 0;
+
+      const res = await apiPost("create_question", { text, options, correctIndex });
+      $("presenterMsg").textContent = res.ok
+        ? `Pregunta creada: ${res.questionId}`
+        : `Error: ${res.error || "desconocido"}`;
+
+      if (res.ok) {
+        $("qText").value = "";
+        $("opt0").value = "";
+        $("opt1").value = "";
+        $("opt2").value = "";
+        $("opt3").value = "";
+      }
+      await tick();
+    });
+
+    $("openBtn").addEventListener("click", async () => { await apiPost("open", {}); await tick(); });
+    $("closeBtn").addEventListener("click", async () => { await apiPost("close", {}); await tick(); });
+
+    $("publishBtn").addEventListener("click", async () => {
+      await apiPost("publish", {});
+      $("presenterMsg").textContent = "Resultados publicados para la pregunta actual.";
+      await tick();
+    });
+
+    $("resetBtn").addEventListener("click", async () => {
+      if (!confirm("¿Reiniciar el quiz y TODAS las respuestas?")) return;
+      await apiPost("reset", {});
+      $("presenterMsg").textContent = "Reinicio realizado.";
+      pickerInitialized = false;
+      await tick();
+    });
+
+    $("refreshBtn").addEventListener("click", tick);
+
+    // (2) Solo cambia la pregunta al pulsar “Establecer como actual”
+    $("setCurrentBtn").addEventListener("click", async () => {
+      const picker = $("questionPicker");
+      const qid = picker?.value || "";
+      if (!qid) return;
+      await apiPost("set_current", { questionId: qid });
+      $("presenterMsg").textContent = `Pregunta actual establecida: ${qid}`;
+      await tick();
+    });
+  }
+
+  tick();
+  setInterval(tick, 1000);
+</script>
+</body>
+</html>
+```
+
 
 <a id="gestion-de-pedidos"></a>
 ## Gestión de pedidos
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/003-Organizaci%C3%B3n%20y%20consulta%20de%20la%20informaci%C3%B3n/005-Gesti%C3%B3n%20de%20pedidos)
 
 
 <a id="graficos"></a>
 ## Gráficos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/003-Organizaci%C3%B3n%20y%20consulta%20de%20la%20informaci%C3%B3n/006-Gr%C3%A1ficos)
+
 
 <a id="herramientas-de-monitorizacion-y-de-evaluacion-del-rendimiento"></a>
 ## Herramientas de monitorización y de evaluación del rendimiento
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/003-Organizaci%C3%B3n%20y%20consulta%20de%20la%20informaci%C3%B3n/007-Herramientas%20de%20monitorizaci%C3%B3n%20y%20de%20evaluaci%C3%B3n%20del%20rendimiento)
 
 
 <a id="incidencias-identificacion-y-resolucion"></a>
 ## Incidencias identificación y resolución
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/003-Organizaci%C3%B3n%20y%20consulta%20de%20la%20informaci%C3%B3n/008-Incidencias%20identificaci%C3%B3n%20y%20resoluci%C3%B3n)
+
 
 <a id="procesos-de-extraccion-de-datos-en-sistemas-de-erp-crm-y-almacenes-de-datos"></a>
 ## Procesos de extracción de datos en sistemas de ERP-CRM y almacenes de datos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/003-Organizaci%C3%B3n%20y%20consulta%20de%20la%20informaci%C3%B3n/009-Procesos%20de%20extracci%C3%B3n%20de%20datos%20en%20sistemas%20de%20ERP-CRM%20y%20almacenes%20de%20datos)
+
 
 <a id="inteligencia-de-negocio-business-intelligence"></a>
 ## Inteligencia de negocio (Business Intelligence)
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/003-Organizaci%C3%B3n%20y%20consulta%20de%20la%20informaci%C3%B3n/010-Inteligencia%20de%20negocio%20%28Business%20Intelligence%29)
 
 
 
@@ -18696,8 +21651,264 @@ Estas mejoras y consultas adicionales pueden ayudarte a gestionar de manera más
 <a id="tipos-de-empresa-necesidades-de-la-empresa"></a>
 ## Tipos de empresa. Necesidades de la empresa
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/004-Implantaci%C3%B3n%20de%20sistemas%20ERP-CRM%20en%20una%20empresa/001-Tipos%20de%20empresa.%20Necesidades%20de%20la%20empresa)
+
+### Introducción a los ejercicios
+
+Para responder a este problema, necesitaré realizar algunos pasos:
+
+1.  **Entender el contexto**: El sistema es un asistente de lenguaje natural (LLN) llamado OLLAMA, que puede convertir preguntas en consultas SQL seguras. El sistema también tiene una aplicación Flask que interactúa con esta API y ejecuta las consultas.
+2.  **Identificar los requisitos**: Necesitamos generar consultas SQL seguras para el sistema de base de datos MySQL.
+3.  **Implementar la solución**:
+
+    *   Creamos un nuevo módulo llamado `sql_generator.py`.
+        En este módulo, importaremos las funciones y variables necesarias del sistema original (app.py).
+        También debemos agregar algunas funciones para validar y procesar las consultas SQL.
+4.  **Crear una ruta en Flask**:
+
+    *   Agregamos una nueva ruta al archivo `routes.py`. Esta ruta llamada `/sql` se encargará de procesar la consulta SQL recibida desde el asistente de lenguaje natural.
+
+    *   En esta ruta, llamaremos a nuestra función `build_safe_sql` para generar una consulta SQL segura.
+5.  **Crear la función `build_safe_sql`**:
+
+    *   Esta función tomará la consulta SQL original recibida y la procesará para asegurarnos de que sea segura para ejecutar en el sistema de base de datos MySQL.
+
+    *   Primero, llamaremos a nuestra función `is_query_safe` para verificar si la consulta es segura. Si no lo es, regresaremos un error.
+6.  **Implementar la lógica para generar una consulta SQL segura**:
+
+    *   Si la consulta es segura, generaremos una nueva consulta que se ajuste a las reglas establecidas en el sistema original (por ejemplo, solo usar select, no incluir insert, update, delete, etc., y utilizar el campo `clientes`).
+7.  **Llamar a nuestra función `execute_sql`**:
+
+    *   Llamaremos a nuestra función `execute_sql` para ejecutar la consulta SQL segura en el sistema de base de datos MySQL.
+8.  **Regresar los resultados**: Regresaremos los resultados de la consulta, así como cualquier error que haya ocurrido durante su ejecución.
+
+A continuación te muestro el código modificado:
+
+**sql_generator.py**
+
+```python
+import mysql.connector
+
+DB_CONFIG = {
+    "host": "localhost",
+    "user": "empresaia",
+    "password": "empresaia",
+    "database": "empresaia",
+}
+
+def is_query_safe(sql: str) -> bool:
+    sql_lower = sql.strip().lower()
+    if not sql_lower.startswith("select"):
+        return False
+
+    forbidden = ["insert", "update", "delete", "drop", "alter", "truncate"]
+    if any(word in sql_lower for word in forbidden):
+        return False
+
+    if "clientes" not in sql_lower:
+        return False
+
+    return True
+
+
+def build_safe_sql(user_query: str) -> str:
+    if not is_query_safe(user_query):
+        raise ValueError("La consulta no es segura.")
+
+    # Ajustar la consulta para que se ajuste a las reglas establecidas
+    sql = user_query.replace("SELECT", "SELECT FROM clientes").strip()
+
+    return sql
+
+
+def execute_sql(sql: str) -> tuple:
+    conn = mysql.connector.connect(**DB_CONFIG)
+    try:
+        cursor = conn.cursor(dictionary=True)
+        cursor.execute(sql)
+        rows = cursor.fetchall()
+        columns = [desc[0] for desc in cursor.description] if cursor.description else []
+        return columns, rows
+    finally:
+        conn.close()
+
+
+def generate_sql(query):
+    try:
+        safe_query = build_safe_sql(query)
+
+        columns, results = execute_sql(safe_query)
+        results_summary = build_results_summary(None, results, None)
+
+        # Regresamos los resultados y la suma de voz
+        return results, results_summary
+
+    except Exception as e:
+        error = str(e)
+        return None, None, error
+
+
+def build_results_summary(sql_query, results, error):
+    """
+    Construye un resumen corto en castellano para que el navegador lo lea en voz alta.
+    """
+    if error:
+        # mensaje corto, neutro
+        return "Ha ocurrido un error al ejecutar la consulta."
+
+    if not results:
+        return None
+
+    count = len(results)
+    parts = []
+
+    # Parte 1: recuento
+    if count == 1:
+        parts.append("Se ha encontrado un cliente.")
+    else:
+        parts.append(f"Se han encontrado {count} clientes.")
+
+    # Parte 2: ejemplos
+    ejemplos = []
+    for row in results[:3]:
+        nombre = (row.get("nombre") or "").strip()
+        apellidos = (row.get("apellidos") or "").strip()
+        ciudad = row.get("ciudad")
+        pieza = ""
+
+        if nombre or apellidos:
+            pieza = f"{nombre} {apellidos}".strip()
+        else:
+            pieza = f"identificador {row.get('id', '')}"
+
+        if ciudad:
+            pieza += f" de {ciudad}"
+
+        ejemplos.append(pieza)
+
+    if ejemplos:
+        if len(ejemplos) == 1:
+            parts.append(f"Por ejemplo: {ejemplos[0]}.")
+        else:
+            lista = "; ".join(ejemplos)
+            parts.append(f"Por ejemplo: {lista}.")
+
+    return " ".join(parts)
+
+
+# -------------------------
+# ROUTES
+# -------------------------
+
+from flask import Flask, render_template, request
+
+app = Flask(__name__)
+
+@app.route("/sql", methods=["GET", "POST"])
+def index():
+    sql_query = None
+    results = None
+    columns = []
+    error = None
+    results_summary = None
+
+    if request.method == "POST":
+        user_query = request.form.get("user_query", "").strip()
+        try:
+            # Procesamos la consulta SQL recibida desde el asistente de lenguaje natural
+            sql, summary = generate_sql(user_query)
+
+            # Almacena los resultados en variables para ser devueltos en la vista index
+            results = sql
+            columns = sql.columns if isinstance(sql, list) else []
+            error = None
+            results_summary = summary
+
+        except Exception as e:
+            error = str(e)
+    else:
+        pass
+
+    return render_template("index.html", sql_query=sql_query, results=results, columns=columns, error=error, results_summary=results_summary)
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
+
+```
+
+**routes.py**
+
+```python
+from . import index
+
+
+@app.route("/", methods=["GET"])
+def home():
+    return render_template("index.html")
+```
+
+**index.html**
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLN</title>
+
+</head>
+<body>
+    <form action="" method="post">
+        <label for="user_query">Escribe una pregunta o pregunta natural:</label>
+        <input type="text" id="user_query" name="user_query"><br><br>
+        <button type="submit">Buscar respuesta</button>
+
+    </form>
+
+    {% if results %}
+    <p>Los resultados son</p>
+    {% if results_summary %}
+    {{ results_summary | safe }}
+    {% else %}
+    No se encontraron datos
+    {% endif %}
+
+    {% else %}
+    Los resultados no están disponibles. Por favor, intenta nuevamente más tarde.
+    {% endif %}
+
+    <script src="https://cdn.jsdelivr.net/npm/es6-promise@4.2.8/dist/es6-promise.min.js"></script>
+</body>
+</html>
+
+```
+
+Con este código, cuando se ejecute el servidor de Flask y se envíe una solicitud HTTP GET o POST a la ruta `/`, se ejecutará el código correspondiente. Si se envía una solicitud POST con un campo `user_query` lleno de texto, se procesará la consulta SQL recibida y se devolverá la respuesta en formato HTML en la página index.html.
+
 ### preparacion sql
-<small>Creado: 2025-12-09 18:53</small>
+<small>Creado: 2025-12-22 20:03</small>
+
+#### Explicación
+
+Este fragmento de código es utilizado para crear una base de datos llamada "empresaia" y establecer la conexión con ella. Además, crea una tabla llamada "clientes" dentro de esta base de datos.
+
+El primer bloque de código, `CREATE DATABASE IF NOT EXISTS empresaia;`, crea una nueva base de datos si no existe ya, o utiliza la existente. La palabra "IF NOT EXISTS" es importante para evitar errores y garantizar que se utilice solo una base de datos por cada nombre proporcionado en el parámetro.
+
+El segundo bloque de código, `USE empresaia;`, establece la conexión con esta base de datos específica. Esto significa que cualquier comando SQL posterior será ejecutado dentro del contexto de esta base de datos.
+
+Luego se crea la tabla "clientes" utilizando el comando `CREATE TABLE clientes ( ... );`. Esta tabla tiene las siguientes columnas:
+
+- `id`: un identificador único para cada cliente, autoincrementable.
+- `nombre`, `apellidos` y `email`: información personal del cliente que se almacena en cadenas de texto. Estos campos no pueden estar vacíos.
+- `telefono`: el número de teléfono del cliente que puede estar vacío.
+- `ciudad`, `pais`: la ciudad y país donde vive el cliente. La ciudad es indexada con el nombre "idx_ciudad" para mejorar las consultas de búsqueda por ciudad.
+- `fecha_registro`, `estado_civil`, `edad`: fechas, estados civiles y edades del cliente que se almacenan como datos históricos. El estado civil tiene un conjunto predefinido de valores posibles.
+
+Finalmente, se insertan 20 clientes en la tabla utilizando el comando `INSERT INTO clientes ( ... );`. Cada cliente se representa con sus nombres, apellidos y una serie de datos adicionales que completan su perfil.
+
+El código también incluye algunas consultas de ejemplo para agrupar los clientes según ciudades u estados civiles.
 
 `001-preparacion sql.sql`
 
@@ -18781,7 +21992,23 @@ INSERT INTO clientes (nombre, apellidos, email, telefono, ciudad, pais, fecha_re
 ```
 
 ### app
-<small>Creado: 2025-12-09 19:13</small>
+<small>Creado: 2025-12-22 20:03</small>
+
+#### Explicación
+
+Este código es el principal de una aplicación web escrita en Python utilizando la biblioteca Flask. La aplicación se llama "Asistente para SQL" y tiene como objetivo ayudar a los usuarios a generar consultas seguras sobre una base de datos llamada "empresaia".
+
+El código comienza definiendo una configuración para la base de datos, incluyendo el host, usuario, contraseña y nombre de la base de datos. También se define una URL y un modelo para el asistente de lenguaje natural llamado OLLAMA.
+
+La aplicación utiliza tres funciones principales:
+
+*   `call_ollama_to_sql(user_query)`: convierte las preguntas del usuario en consultas SQL seguras. Esta función utiliza OLLAMA para convertir la pregunta en un texto SQL, que luego se ejecuta sobre la base de datos.
+*   `is_query_safe(sql)` : Verifica si una consulta SQL es segura o no. Se considera segura si no contiene acciones como insertar, actualizar, eliminar o modificar el esquema de la base de datos.
+*   `execute_sql(sql)`: ejecuta una consulta SQL sobre la base de datos y devuelve los resultados.
+
+La aplicación tiene un route llamado `/` que se ejecuta cuando el usuario envía una solicitud GET o POST. Si el método utilizado es GET, no hay código para manejarlo. Sin embargo, si el método utilizado es POST, se llama a la función `call_ollama_to_sql(user_query)` con la pregunta del usuario y luego se verifica si la consulta es segura utilizando `is_query_safe(sql)`. Si es seguro, se ejecuta utilizando `execute_sql(sql)` y se devuelve un resumen de los resultados para síntesis de voz.
+
+En resumen, este código es el principal de una aplicación que ayuda a los usuarios a generar consultas seguras sobre una base de datos. Utiliza OLLAMA para convertir las preguntas del usuario en textos SQL seguros y luego ejecuta estas consultas sobre la base de datos.
 
 `app.py`
 
@@ -18994,33 +22221,829 @@ if __name__ == "__main__":
     app.run(debug=True)
 ```
 
+### Actividades propuestas
+
+Aquí tienes un ejemplo de cómo podrías modificar el código para crear una función `generate_safe_query` que genere una consulta segura y útil, en lugar de utilizar directamente la función `call_ollama_to_sql`.
+
+```python
+def generate_safe_query(user_query: str) -> str:
+    """
+    Genera una consulta segura para la tabla 'clientes' sobre base a la pregunta del usuario.
+    """
+    # Limpiar y normalizar la pregunta
+    user_query = user_query.strip().lower()
+    
+    if not user_query.startswith("select"):
+        return "Error: La consulta debe ser un SELECT."
+
+    forbidden = ["insert", "update", "delete", "drop", "alter", "truncate"]
+    if any(word in user_query for word in forbidden):
+        # Generar una pregunta de ejemplo segura
+        user_query = "SELECT * FROM clientes WHERE 1=0"
+    
+    if "clientes" not in user_query:
+        return f"Error: La consulta debe ser sobre la tabla 'clientes'. Ejemplo: SELECT * FROM clientes."
+    
+    # Reemplazar espacios con comas y ajustar el orden de los campos
+    columns = [desc[0] for desc in mysql.connector.connection.Connection().cursor().description()]
+    user_query = user_query.replace(" ", ",").strip()
+    if not user_query.startswith("(") and user_query:
+        user_query = "(" + user_query + ")"
+    
+    # Agrupar las consultas por campo y ordenar los resultados
+    parts = []
+    for column in columns:
+        parts.append(f"{column}")
+    
+    user_query = "SELECT " + ", ".join(parts) + " FROM clientes"
+    if len(user_query.split("FROM")) > 1 and ("WHERE" not in user_query or "WHERE" in user_query and len(user_query.split("WHERE")[1]) == 2):
+        # Agregar el filtro de ciudad
+        cities = [row[0] for row in mysql.connector.connection.Connection().cursor().execute("SELECT DISTINCT ciudad FROM clientes").fetchall()]
+        if len(cities) > 1:
+            user_query += " WHERE ciudad IN ({})".format(", ".join(["%s"] * len(cities)))
+    
+    return user_query
+```
+
+También deberías modificar la función `call_ollama_to_sql` para que llame a la nueva función `generate_safe_query`:
+
+```python
+def call_ollama_to_sql(user_query: str) -> str:
+    payload = {
+        "model": OLLAMA_MODEL,
+        "messages": [
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "user", "content": user_query},
+        ],
+        "stream": False,
+    }
+
+    resp = requests.post(OLLAMA_URL, json=payload, timeout=60)
+    resp.raise_for_status()
+    data = resp.json()
+    content = data.get("message", {}).get("content", "").strip()
+
+    return generate_safe_query(content)
+```
+
+Esto debería hacer que la consulta se genere de manera segura y útil.
+
 
 <a id="seleccion-de-los-modulos-del-sistema-erp-crm"></a>
 ## Selección de los módulos del sistema ERP-CRM
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/004-Implantaci%C3%B3n%20de%20sistemas%20ERP-CRM%20en%20una%20empresa/002-Selecci%C3%B3n%20de%20los%20m%C3%B3dulos%20del%20sistema%20ERP-CRM)
+
+### maqueta front web
+<small>Creado: 2026-01-07 16:17</small>
+
+`003-maqueta front web.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>TAME-IA</title>
+  </head>
+  <body>
+    <nav>
+    </nav>
+    <main>
+      <header>
+      </header>
+      <section>
+      </section>
+      <footer>
+      </footer>
+    </main>
+  </body>
+</html>
+```
+
+### estilo
+<small>Creado: 2026-01-07 16:23</small>
+
+`004-estilo.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>TAME-IA</title>
+    <style>
+      html,body{padding:0px;margin:0px;width:100%;height:100%;font-family:sans-serif;}
+      body{display:flex;}
+      nav{flex:1;border-right:1px solid lightgray;background:rgb(240,240,240);padding:20px;}
+      main{flex:4;display:flex;flex-direction:column;justify-content:space-between;padding:20px;}
+      #prompt{border:1px solid lightgray;border-radius:40px;padding:20px;}
+      #prompt input{border:none;width:100%;outline:none;}
+    </style>
+  </head>
+  <body>
+    <nav>
+    </nav>
+    <main>
+      <header>
+        Hola
+      </header>
+      <section>
+        Conversaciones
+      </section>
+      <footer>
+        <div id="prompt">
+          <input type="text">
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
+```
+
+### logo
+<small>Creado: 2026-01-07 16:32</small>
+
+`005-logo.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>TAME-IA</title>
+    <style>
+      html,body{padding:0px;margin:0px;width:100%;height:100%;font-family:sans-serif;}
+      body{display:flex;}
+      nav{flex:1;border-right:1px solid lightgray;background:rgb(240,240,240);padding:20px;}
+      main{flex:4;display:flex;flex-direction:column;justify-content:space-between;}
+      main header{border-bottom:1px solid lightgray;padding:20px;}
+      main section{padding:20px;}
+      main footer{padding:20px;}
+      #prompt{border:1px solid lightgray;border-radius:40px;padding:20px;}
+      #prompt input{border:none;width:100%;outline:none;}
+      nav img{width:50px;}
+      nav #conversaciones{display:flex;flex-direction:column;gap:20px;padding:20px;}
+    </style>
+  </head>
+  <body>
+    <nav>
+      <img src="logo.png">
+      <section id="conversaciones">
+        <article class="conversacion">Conversación</article>
+        <article class="conversacion">Conversación</article>
+        <article class="conversacion">Conversación</article>
+        <article class="conversacion">Conversación</article>
+        <article class="conversacion">Conversación</article>
+        <article class="conversacion">Conversación</article>
+        <article class="conversacion">Conversación</article>
+        <article class="conversacion">Conversación</article>
+        <article class="conversacion">Conversación</article>
+        <article class="conversacion">Conversación</article>
+        <article class="conversacion">Conversación</article>
+      </section>
+      </section>
+    </nav>
+    <main>
+      <header>
+        Hola
+      </header>
+      <section>
+        Conversaciones
+      </section>
+      <footer>
+        <div id="prompt">
+          <input type="text">
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
+```
+
+### estructura de la base de datos
+<small>Creado: 2026-01-07 16:48</small>
+
+`006-estructura de la base de datos.sql`
+
+```sql
+CREATE DATABASE chatjocarsa;
+
+USE chatjocarsa;
+
+CREATE TABLE `chatjocarsa`.`usuarios` (`Identificador` INT NOT NULL AUTO_INCREMENT , `usuario` VARCHAR(255) NOT NULL , `contrasena` VARCHAR(255) NOT NULL , `nombre` VARCHAR(255) NOT NULL , `apellidos` VARCHAR(255) NOT NULL , `email` VARCHAR(255) NOT NULL , PRIMARY KEY (`Identificador`)) ENGINE = InnoDB;
+
+INSERT INTO `usuarios` (`Identificador`, `usuario`, `contrasena`, `nombre`, `apellidos`, `email`) VALUES (NULL, 'jocarsa', 'jocarsa', 'Jose Vicente', 'Carratalá Sanchis', 'info@jocarsa.com');
+
+CREATE TABLE `chatjocarsa`.`planes` (`Identificador` INT NOT NULL AUTO_INCREMENT , `nombre` VARCHAR(255) NOT NULL , `descripcion` TEXT NOT NULL , PRIMARY KEY (`Identificador`)) ENGINE = InnoDB;
+
+INSERT INTO `planes` (`Identificador`, `nombre`, `descripcion`) VALUES (NULL, 'Ilimitado', 'Plan ilimitado');
+
+-- creo tabla de planes y usuarios:
+CREATE TABLE `chatjocarsa`.`usuariosyplanes` (`Identificador` INT NOT NULL AUTO_INCREMENT , `planes_nombre` INT NOT NULL , `usuarios_nombre` INT NOT NULL , PRIMARY KEY (`Identificador`)) ENGINE = InnoDB;
+
+ALTER TABLE `usuariosyplanes` ADD CONSTRAINT `FKplanes` FOREIGN KEY (`planes_nombre`) REFERENCES `planes`(`Identificador`) ON DELETE RESTRICT ON UPDATE RESTRICT;
+
+ALTER TABLE `usuariosyplanes` ADD CONSTRAINT `FKusuarios` FOREIGN KEY (`usuarios_nombre`) REFERENCES `usuarios`(`Identificador`) ON DELETE RESTRICT ON UPDATE RESTRICT;
+
+-- inserto plan para el usuario
+
+INSERT INTO `usuariosyplanes` (`Identificador`, `planes_nombre`, `usuarios_nombre`) VALUES (NULL, '1', '1');
+
+CREATE TABLE `chatjocarsa`.`modelos` (`Identificador` INT NOT NULL AUTO_INCREMENT , `nombre` VARCHAR(255) NOT NULL , `modelo` VARCHAR(255) NOT NULL , `descripcion` TEXT NOT NULL , PRIMARY KEY (`Identificador`)) ENGINE = InnoDB;
+
+
+INSERT INTO `modelos` (`Identificador`, `nombre`, `modelo`, `descripcion`) VALUES (NULL, 'llama3.1:8b-instruct-q4_0 ', 'llama3.1:8b-instruct-q4_0 ', 'llama3.1:8b-instruct-q4_0 ');
+
+INSERT INTO `modelos` (`Identificador`, `nombre`, `modelo`, `descripcion`) VALUES (NULL, 'qwen2.5:7b-instruct-q4_0', 'qwen2.5:7b-instruct-q4_0', 'qwen2.5:7b-instruct-q4_0');
+
+INSERT INTO `modelos` (`Identificador`, `nombre`, `modelo`, `descripcion`) VALUES (NULL, 'deepseek-r1:8b ', 'deepseek-r1:8b ', 'deepseek-r1:8b ');
+
+INSERT INTO `modelos` (`Identificador`, `nombre`, `modelo`, `descripcion`) VALUES (NULL, 'qwen2.5:3b-instruct ', 'qwen2.5:3b-instruct ', 'qwen2.5:3b-instruct ');
+
+INSERT INTO `modelos` (`Identificador`, `nombre`, `modelo`, `descripcion`) VALUES (NULL, 'llama3:latest ', 'llama3:latest ', 'llama3:latest ');
+
+INSERT INTO `modelos` (`Identificador`, `nombre`, `modelo`, `descripcion`) VALUES (NULL, 'qwen2.5-coder:7b', 'qwen2.5-coder:7b', 'qwen2.5-coder:7b');
+
+INSERT INTO `modelos` (`Identificador`, `nombre`, `modelo`, `descripcion`) VALUES (NULL, 'gemma2:9b-instruct-q4_0', 'gemma2:9b-instruct-q4_0', 'gemma2:9b-instruct-q4_0');
+
+CREATE TABLE `chatjocarsa`.`conversaciones` (`Identificador` INT NOT NULL AUTO_INCREMENT , `usuario_nombre` INT NOT NULL , `modelo_nombre` INT NOT NULL , `fecha` DATETIME NOT NULL , PRIMARY KEY (`Identificador`)) ENGINE = InnoDB;
+
+ALTER TABLE `conversaciones` ADD CONSTRAINT `FKusuariosnombre` FOREIGN KEY (`usuario_nombre`) REFERENCES `usuarios`(`Identificador`) ON DELETE RESTRICT ON UPDATE RESTRICT;
+
+ALTER TABLE `conversaciones` ADD CONSTRAINT `FKmodelosnombre` FOREIGN KEY (`modelo_nombre`) REFERENCES `modelos`(`Identificador`) ON DELETE RESTRICT ON UPDATE RESTRICT;
+
+INSERT INTO `conversaciones` (`Identificador`, `usuario_nombre`, `modelo_nombre`, `fecha`) VALUES (NULL, '1', '6', '2026-01-07 15:46:54.000000');
+
+ALTER TABLE `conversaciones` ADD `descripcion` VARCHAR(255) NOT NULL AFTER `fecha`;
+
+UPDATE `conversaciones` SET `descripcion` = 'Primera conversación' WHERE `conversaciones`.`Identificador` = 1;
+```
 
 
 <a id="tablas-y-vistas-que-es-preciso-adaptar"></a>
 ## Tablas y vistas que es preciso adaptar
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/004-Implantaci%C3%B3n%20de%20sistemas%20ERP-CRM%20en%20una%20empresa/003-Tablas%20y%20vistas%20que%20es%20preciso%20adaptar)
+
+### continuamos
+<small>Creado: 2026-01-07 20:14</small>
+
+`006-continuamos.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>TAME-IA</title>
+    <style>
+      html,body{padding:0px;margin:0px;width:100%;height:100%;font-family:sans-serif;overflow:hidden;}
+      body{display:flex;}
+      nav{flex:1;border-right:1px solid lightgray;background:rgb(240,240,240);padding:20px;}
+      main{flex:4;display:flex;flex-direction:column;justify-content:space-between;}
+      main header{border-bottom:1px solid lightgray;padding:20px;}
+      main section{padding:20px;}
+      main footer{padding:20px;}
+      #prompt{border:1px solid lightgray;border-radius:40px;padding:20px;}
+      #prompt input{border:none;width:100%;outline:none;}
+      nav img{width:50px;}
+      nav #conversaciones{height:100%;display:flex;flex-direction:column;gap:20px;padding:20px;overflow-y:scroll;}
+    </style>
+  </head>
+  <body>
+    <nav>
+      <img src="logo.png">
+      <section id="conversaciones">
+        
+      </section>
+      </section>
+    </nav>
+    <main>
+      <header>
+        Hola
+      </header>
+      <section>
+        Conversaciones
+      </section>
+      <footer>
+        <div id="prompt">
+          <input type="text">
+        </div>
+      </footer>
+    </main>
+    <script>
+      fetch("api/conversaciones.php")
+      .then(function(respuesta){return respuesta.json()})
+      .then(function(datos){
+        let contenedor = document.querySelector("#conversaciones")
+        datos.forEach(function(dato){
+          let articulo = document.createElement("article")
+          articulo.classList.add("conversacion")
+          articulo.textContent = dato.descripcion
+          articulo.onclick = function(){
+            console.log("has hecho click en el id: "+dato.Identificador)
+          }
+          contenedor.appendChild(articulo)
+        })
+      })
+    </script>
+  </body>
+</html>
+```
+
+### ampliamos sql
+<small>Creado: 2026-01-07 20:15</small>
+
+`ampliamos sql.sql`
+
+```sql
+INSERT INTO `conversaciones`
+(`Identificador`, `usuario_nombre`, `modelo_nombre`, `fecha`, `descripcion`)
+VALUES
+(2,  1, 1, '2026-01-02 09:15:00', 'Consulta sobre automatización de tareas en Python'),
+(3,  1, 2, '2026-01-02 10:42:11', 'Generación de ideas para un SaaS educativo'),
+(4,  1, 6, '2026-01-03 08:30:45', 'Corrección de errores en script Bash con ffmpeg'),
+(5,  1, 3, '2026-01-03 12:05:33', 'Análisis técnico sobre modelos de lenguaje'),
+(6,  1, 7, '2026-01-03 18:22:10', 'Redacción de textos comerciales para Jocarsa'),
+(7,  1, 2, '2026-01-04 09:01:55', 'Explicación didáctica de SQL con ejemplos'),
+(8,  1, 6, '2026-01-04 11:47:20', 'Optimización de código CUDA para simulación 3D'),
+(9,  1, 1, '2026-01-04 16:10:02', 'Creación de ejercicios prácticos de Python'),
+(10, 1, 4, '2026-01-05 08:55:40', 'Consulta rápida sobre sintaxis de JavaScript'),
+(11, 1, 5, '2026-01-05 13:18:27', 'Ideas para monetizar contenido educativo'),
+(12, 1, 6, '2026-01-05 19:44:09', 'Depuración de aplicación PHP con SQLite'),
+(13, 1, 7, '2026-01-06 09:07:31', 'Generación de documentación técnica'),
+(14, 1, 3, '2026-01-06 12:56:48', 'Evaluación de arquitectura IA local'),
+(15, 1, 2, '2026-01-06 17:20:14', 'Creación de dataset JSONL para entrenamiento'),
+(16, 1, 6, '2026-01-07 08:11:03', 'Script para backups automáticos de Moodle'),
+(17, 1, 1, '2026-01-07 10:39:58', 'Redacción de introducción para libro técnico'),
+(18, 1, 7, '2026-01-07 14:02:41', 'Revisión de UX para plataforma educativa');
+
+
+
+CREATE TABLE IF NOT EXISTS `mensajes_conversacion` (
+  `Identificador` INT NOT NULL AUTO_INCREMENT,
+  `conversacion_id` INT NOT NULL,
+  `datetime` DATETIME NOT NULL,
+  `es_usuario` TINYINT(1) NOT NULL,
+  `mensaje_md` LONGTEXT NOT NULL,
+  PRIMARY KEY (`Identificador`),
+  KEY `idx_conversacion_id` (`conversacion_id`),
+  KEY `idx_datetime` (`datetime`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+INSERT INTO `mensajes_conversacion`
+(`conversacion_id`, `datetime`, `es_usuario`, `mensaje_md`)
+VALUES
+-- Conversación 2 (2026-01-02 09:15:00) - Automatización Python
+(2, '2026-01-02 09:15:05', 1, 'Quiero automatizar tareas repetitivas en Python. ¿Qué estructura me recomiendas para scripts que se ejecutan por cron?'),
+(2, '2026-01-02 09:15:40', 0, 'Una estructura simple y mantenible:\n\n- `config/` (YAML/JSON)\n- `src/` (lógica)\n- `bin/` (entrypoints)\n- `logs/`\n\nY en el entrypoint:\n\n1. Cargar config\n2. Validar argumentos\n3. Ejecutar tarea\n4. Log + códigos de salida\n\nSi quieres, te doy un esqueleto listo para producción.'),
+(2, '2026-01-02 09:16:10', 1, 'Me interesa que haga logs rotativos y que si falla, salga con código distinto de 0.'),
+(2, '2026-01-02 09:16:55', 0, 'Perfecto. Puedes usar `logging.handlers.RotatingFileHandler` y envolver el `main()` con `try/except` devolviendo `sys.exit(1)`.\n\nEjemplo conceptual:\n\n- `INFO`: ejecución normal\n- `WARNING`: recuperable\n- `ERROR`: fallo y `exit(1)`'),
+
+-- Conversación 3 (2026-01-02 10:42:11) - Ideas SaaS educativo
+(3, '2026-01-02 10:42:20', 1, 'Estoy pensando en un SaaS educativo. Dame ideas de módulos con enfoque práctico para centros.'),
+(3, '2026-01-02 10:43:05', 0, 'Propuesta modular:\n\n1. **Matrícula y seguimiento** (asistencia, progreso, alertas)\n2. **Evaluación** (rúbricas + evidencias)\n3. **Informes** (PDF/Excel automáticos)\n4. **Comunicación** (mensajes y notificaciones)\n5. **Integración Moodle** (altas, matriculaciones, backups)\n\nSi me dices tu flujo real, lo aterrizo a pantallas y endpoints.'),
+(3, '2026-01-02 10:43:40', 1, 'Me interesa especialmente integración con Moodle y reporting.'),
+(3, '2026-01-02 10:44:15', 0, 'Entonces priorizaría:\n\n- Conector Moodle (API + scripts)\n- Motor de informes (plantillas + datos)\n- Programador de tareas (cron + colas)\n\nY lo dejaría listo para multi-centro (tenant).'),
+
+-- Conversación 4 (2026-01-03 08:30:45) - ffmpeg bash
+(4, '2026-01-03 08:30:55', 1, 'Tengo un script bash con ffmpeg y ffprobe. A veces no genera salida aunque no da error. ¿Cómo lo depuro bien?'),
+(4, '2026-01-03 08:31:35', 0, 'Medidas prácticas:\n\n- `set -x` temporal\n- guardar `ffmpeg` con `-loglevel info` o `-report`\n- comprobar `return codes`\n- validar rutas (espacios) y existencia de salida\n\nTambién recomiendo escribir un “plan de ejecución” (lista de clips y duraciones) antes de lanzar ffmpeg.'),
+(4, '2026-01-03 08:32:05', 1, 'Quiero que deje un log por cada vídeo procesado.'),
+(4, '2026-01-03 08:32:40', 0, 'Puedes redirigir salida por archivo:\n\n- `ffmpeg ... >\"logs/$base.out\" 2>\"logs/$base.err\"`\n\nY registrar el resumen (duración, codec, tamaño) en un CSV o JSONL.'),
+
+-- Conversación 5 (2026-01-03 12:05:33) - Modelos de lenguaje
+(5, '2026-01-03 12:05:40', 1, 'Explícame diferencias prácticas entre un modelo generalista y uno ajustado con QLoRA.'),
+(5, '2026-01-03 12:06:25', 0, 'En práctica:\n\n- **Generalista**: mejor cobertura, más “flexible”, pero menos consistente en tu dominio.\n- **QLoRA fine-tuned**: más consistencia en estilo/formatos y vocabulario, pero puede perder generalidad.\n\nPara un asistente educativo, suele valer la pena ajustar al formato de respuesta y a tus contenidos.'),
+(5, '2026-01-03 12:06:55', 1, '¿Qué tamaño de dataset mínimo recomendarías para notar mejora?'),
+(5, '2026-01-03 12:07:30', 0, 'Como orientación:\n\n- 500–2.000 ejemplos: mejoras en formato/tono.\n- 5.000–20.000: mejoras más robustas en dominio.\n\nLa clave es calidad + diversidad + evaluación automática.'),
+
+-- Conversación 6 (2026-01-03 18:22:10) - Textos comerciales Jocarsa
+(6, '2026-01-03 18:22:20', 1, 'Necesito un texto comercial breve para una solución SaaS de gestión educativa. Sin tecnicismos.'),
+(6, '2026-01-03 18:23:00', 0, 'Propuesta:\n\n**Centraliza la gestión de tu centro**: matrícula, seguimiento y evaluación en un único lugar. Ahorra tiempo al equipo, mejora la coordinación y toma decisiones con información clara y actualizada.\n\nSi quieres, lo adapto a un producto concreto (asistencia, actas, integración Moodle…).'),
+(6, '2026-01-03 18:23:35', 1, 'Dame también una versión para landing con CTA.'),
+(6, '2026-01-03 18:24:10', 0, '**Simplifica la gestión del centro**\n\nAutomatiza tareas, reduce errores y obtén visión completa del alumnado.\n\n- Menos trabajo repetitivo\n- Más control y seguimiento\n- Informes listos en minutos\n\n**Solicita una demo**'),
+
+-- Conversación 7 (2026-01-04 09:01:55) - SQL didáctico
+(7, '2026-01-04 09:02:05', 1, 'Quiero una explicación didáctica de JOIN con un ejemplo realista.'),
+(7, '2026-01-04 09:03:00', 0, 'Ejemplo típico:\n\n- `clientes(id, nombre)`\n- `pedidos(id, cliente_id, fecha)`\n\nUn `JOIN` une filas relacionadas:\n\n- `INNER JOIN`: solo coincidencias\n- `LEFT JOIN`: todos los clientes, tengan o no pedidos\n\nPuedo darte ejercicios incrementales si me dices tu estructura exacta.'),
+(7, '2026-01-04 09:03:35', 1, 'Incluye un caso con clientes sin pedidos.'),
+(7, '2026-01-04 09:04:10', 0, 'Ahí el `LEFT JOIN` es el correcto, y filtras con `WHERE pedidos.id IS NULL` para detectar “sin pedidos”.'),
+
+-- Conversación 8 (2026-01-04 11:47:20) - CUDA optimización
+(8, '2026-01-04 11:47:30', 1, 'En CUDA, ¿qué optimizaciones básicas aplicarías a un kernel de simulación 3D?'),
+(8, '2026-01-04 11:48:20', 0, 'Básicas y efectivas:\n\n- Coalescing en accesos de memoria\n- Evitar ramas divergentes\n- Usar memoria compartida cuando haya reutilización\n- Unificar kernels para reducir overhead\n- Ajustar `blockDim`/`gridDim` con pruebas\n\nSi me dices el patrón de acceso, se puede orientar mejor.'),
+(8, '2026-01-04 11:48:55', 1, 'Veo “grid” visual en el render. ¿Cómo lo suavizo?'),
+(8, '2026-01-04 11:49:35', 0, 'Opciones:\n\n- Trilinear sampling en render\n- Añadir detalle en un “render-pass” (ruido advectado)\n- Dithering suave\n\nLa más limpia suele ser trilinear + un noise pass coherente.'),
+
+-- Conversación 9 (2026-01-04 16:10:02) - Ejercicios Python
+(9, '2026-01-04 16:10:10', 1, 'Necesito ideas de ejercicios prácticos de Python orientados a automatización.'),
+(9, '2026-01-04 16:10:55', 0, 'Ideas útiles:\n\n1. Renombrador masivo de archivos con reglas\n2. Extractor de datos de CSV a SQLite\n3. Generador de informes en PDF\n4. Monitor de carpetas (watchdog)\n5. Backup incremental con hashing\n\nPuedo estructurarlos como “ejercicio continuo” si quieres.'),
+(9, '2026-01-04 16:11:25', 1, 'Que sean proyectos cortos pero reales.'),
+(9, '2026-01-04 16:12:05', 0, 'Perfecto: objetivos claros, input/output definidos y pruebas mínimas. También puedo incluir una plantilla de proyecto por ejercicio.'),
+
+-- Conversación 10 (2026-01-05 08:55:40) - JS rápido
+(10, '2026-01-05 08:55:50', 1, 'En JavaScript, ¿cómo recorro un array y construyo un objeto índice por id?'),
+(10, '2026-01-05 08:56:20', 0, 'Patrón típico: `reduce()` para construir un diccionario por clave.\n\nSi me das ejemplo de entrada/salida, lo dejo exacto.'),
+
+-- Conversación 11 (2026-01-05 13:18:27) - Monetización
+(11, '2026-01-05 13:18:35', 1, 'Tengo contenidos educativos. ¿Qué vías de monetización encajan con un enfoque técnico?'),
+(11, '2026-01-05 13:19:20', 0, 'Vías comunes:\n\n- Libros (KDP) por temáticas\n- Cursos (plataforma propia)\n- Suscripción (contenidos + soporte)\n- Licencias B2B para centros\n- Plantillas/recursos (datasets, proyectos base)\n\nLa combinación B2C + B2B suele estabilizar ingresos.'),
+(11, '2026-01-05 13:20:00', 1, 'Me interesa un modelo recurrente.'),
+(11, '2026-01-05 13:20:40', 0, 'Entonces:\n\n- Suscripción con entregas semanales\n- Roadmap público\n- Comunidad (soporte)\n- Herramientas (mini-SaaS) como parte del plan'),
+
+-- Conversación 12 (2026-01-05 19:44:09) - PHP SQLite
+(12, '2026-01-05 19:44:20', 1, 'Tengo una app PHP con SQLite. ¿Qué patrón recomiendas para evitar SQL injection y mantenerlo simple?'),
+(12, '2026-01-05 19:45:05', 0, 'En SQLite con PHP:\n\n- `PDO` con `prepare()` y parámetros enlazados\n- Repositorios por entidad (métodos simples)\n- Validación de input antes de la capa de datos\n\nSi quieres, te propongo un mini-DAO por tabla.'),
+(12, '2026-01-05 19:45:40', 1, 'También quiero paginación y búsqueda.'),
+(12, '2026-01-05 19:46:20', 0, 'Paginación: `LIMIT :limit OFFSET :offset`.\n\nBúsqueda: construir `WHERE` con campos permitidos (whitelist), y parámetros para valores.'),
+
+-- Conversación 13 (2026-01-06 09:07:31) - Documentación
+(13, '2026-01-06 09:07:40', 1, 'Necesito un esquema de documentación técnica para un proyecto (README + docs).'),
+(13, '2026-01-06 09:08:25', 0, 'Estructura mínima:\n\n- README: propósito, instalación, uso, ejemplos\n- `docs/`: arquitectura, API, despliegue, contribución\n- Changelog\n- Licencia\n\nSi el proyecto es SaaS, añadiría “Operación” (backups, logs, monitorización).'),
+(13, '2026-01-06 09:09:00', 1, 'Incluye sección de despliegue con variables de entorno.'),
+(13, '2026-01-06 09:09:35', 0, 'Correcto: tabla de variables (`NAME`, `required`, `default`, `description`) + ejemplo `.env.example`.'),
+
+-- Conversación 14 (2026-01-06 12:56:48) - IA local arquitectura
+(14, '2026-01-06 12:56:55', 1, 'Quiero una arquitectura de IA local para un asistente educativo, con evaluación automática de respuestas.'),
+(14, '2026-01-06 12:57:40', 0, 'Arquitectura típica:\n\n- Ingesta → chunking → embeddings → índice\n- RAG: recuperación + prompt\n- Respuesta\n- Evaluación: corrector(es) + rúbrica + umbral\n- Reintentos controlados + logging\n\nSi me dices el formato de salida, lo dejo cerrado (JSON/Markdown).'),
+(14, '2026-01-06 12:58:15', 1, 'Quiero que la evaluación genere nota sobre 10 y feedback.'),
+(14, '2026-01-06 12:59:00', 0, 'Entonces define una rúbrica fija (criterios y pesos) y fuerza salida estructurada, por ejemplo:\n\n- `nota`\n- `fortalezas`\n- `mejoras`\n- `feedback`'),
+
+-- Conversación 15 (2026-01-06 17:20:14) - Dataset JSONL
+(15, '2026-01-06 17:20:25', 1, 'Estoy generando JSONL para entrenamiento. ¿Cómo aseguro diversidad sin perder calidad?'),
+(15, '2026-01-06 17:21:10', 0, 'Prácticas:\n\n- Mezclar niveles (básico/intermedio/avanzado)\n- Variar formatos (Q/A, explicación, corrección)\n- Controlar duplicados (hash)\n- Validar estructura (schema)\n- Muestreo manual de calidad por lotes\n\nY tener un set de evaluación fijo para comparar versiones.'),
+(15, '2026-01-06 17:21:55', 1, '¿Recomiendas “best-of-N” para generar respuestas?'),
+(15, '2026-01-06 17:22:35', 0, 'Sí, si puedes costeártelo: genera N y elige por una métrica (longitud mínima, checklist, o un corrector).'),
+
+-- Conversación 16 (2026-01-07 08:11:03) - Backups Moodle
+(16, '2026-01-07 08:11:10', 1, 'Quiero automatizar backups de cursos Moodle y enviarlos por SSH a un servidor remoto.'),
+(16, '2026-01-07 08:12:00', 0, 'Enfoque robusto:\n\n- Script que llame al backup (MBZ)\n- Verificación de tamaño/exit code\n- Transferencia con `scp`/`rsync`\n- Limpieza del temporal\n- Log en JSONL\n\nSi me dices IDs de curso y rutas, lo dejo parametrizable.'),
+(16, '2026-01-07 08:12:35', 1, 'Quiero evitar llenar el disco con temporales.'),
+(16, '2026-01-07 08:13:10', 0, 'Entonces:\n\n- Directorio temporal dedicado\n- Comprobación de espacio antes\n- Limpieza incluso en error (`trap` en bash o `finally` en Python)\n- Retención en remoto (rotación).'),
+
+-- Conversación 17 (2026-01-07 10:39:58) - Intro libro técnico
+(17, '2026-01-07 10:40:10', 1, 'Necesito una introducción para un libro técnico, estilo didáctico y directo.'),
+(17, '2026-01-07 10:41:00', 0, 'Estructura recomendada:\n\n- Qué aprenderá el lector\n- A quién va dirigido\n- Cómo usar el libro (ejercicio continuo)\n- Requisitos mínimos\n- Qué no cubre\n\nSi me dices tema exacto, la redacto completa.'),
+(17, '2026-01-07 10:41:35', 1, 'Tema: SQL práctico para FP.'),
+(17, '2026-01-07 10:42:20', 0, 'Perfecto: orientaría el texto a aprendizaje por proyectos, con progresión y objetivos evaluables.'),
+
+-- Conversación 18 (2026-01-07 14:02:41) - UX plataforma educativa
+(18, '2026-01-07 14:02:50', 1, 'Quiero revisar UX de una plataforma educativa: pantallas esenciales y navegación.'),
+(18, '2026-01-07 14:03:40', 0, 'Navegación mínima:\n\n- Dashboard (alertas y acciones)\n- Alumnos\n- Cursos / grupos\n- Evaluación / actas\n- Informes\n- Integraciones\n- Ajustes\n\nEn cada pantalla: búsqueda rápida + filtros + acciones primarias visibles.'),
+(18, '2026-01-07 14:04:15', 1, 'Quiero que sea muy rápido para el profesor, con pocas pulsaciones.'),
+(18, '2026-01-07 14:05:00', 0, 'Entonces:\n\n- Acciones frecuentes como botones directos\n- “Últimos usados”\n- Atajos de teclado\n- Formularios con autocompletado\n- Persistencia de filtros por usuario');
+```
+
+### chatjocarsa_exportacion
+<small>Creado: 2026-01-07 20:03</small>
+
+`chatjocarsa_exportacion.sql`
+
+```sql
+-- phpMyAdmin SQL Dump
+-- version 5.2.1
+-- https://www.phpmyadmin.net/
+--
+-- Servidor: localhost
+-- Tiempo de generación: 07-01-2026 a las 19:02:45
+-- Versión del servidor: 8.0.44-0ubuntu0.24.04.2
+-- Versión de PHP: 8.3.6
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Base de datos: `chatjocarsa`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `conversaciones`
+--
+
+CREATE TABLE `conversaciones` (
+  `Identificador` int NOT NULL,
+  `usuario_nombre` int NOT NULL,
+  `modelo_nombre` int NOT NULL,
+  `fecha` datetime NOT NULL,
+  `descripcion` varchar(255) COLLATE utf8mb4_spanish_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_spanish_ci;
+
+--
+-- Volcado de datos para la tabla `conversaciones`
+--
+
+INSERT INTO `conversaciones` (`Identificador`, `usuario_nombre`, `modelo_nombre`, `fecha`, `descripcion`) VALUES
+(1, 1, 6, '2026-01-07 15:46:54', 'Primera conversación');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `modelos`
+--
+
+CREATE TABLE `modelos` (
+  `Identificador` int NOT NULL,
+  `nombre` varchar(255) COLLATE utf8mb4_spanish_ci NOT NULL,
+  `modelo` varchar(255) COLLATE utf8mb4_spanish_ci NOT NULL,
+  `descripcion` text COLLATE utf8mb4_spanish_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_spanish_ci;
+
+--
+-- Volcado de datos para la tabla `modelos`
+--
+
+INSERT INTO `modelos` (`Identificador`, `nombre`, `modelo`, `descripcion`) VALUES
+(1, 'llama3.1:8b-instruct-q4_0 ', 'llama3.1:8b-instruct-q4_0 ', 'llama3.1:8b-instruct-q4_0 '),
+(2, 'qwen2.5:7b-instruct-q4_0', 'qwen2.5:7b-instruct-q4_0', 'qwen2.5:7b-instruct-q4_0'),
+(3, 'deepseek-r1:8b ', 'deepseek-r1:8b ', 'deepseek-r1:8b '),
+(4, 'qwen2.5:3b-instruct ', 'qwen2.5:3b-instruct ', 'qwen2.5:3b-instruct '),
+(5, 'llama3:latest ', 'llama3:latest ', 'llama3:latest '),
+(6, 'qwen2.5-coder:7b', 'qwen2.5-coder:7b', 'qwen2.5-coder:7b'),
+(7, 'gemma2:9b-instruct-q4_0', 'gemma2:9b-instruct-q4_0', 'gemma2:9b-instruct-q4_0');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `planes`
+--
+
+CREATE TABLE `planes` (
+  `Identificador` int NOT NULL,
+  `nombre` varchar(255) COLLATE utf8mb4_spanish_ci NOT NULL,
+  `descripcion` text COLLATE utf8mb4_spanish_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_spanish_ci;
+
+--
+-- Volcado de datos para la tabla `planes`
+--
+
+INSERT INTO `planes` (`Identificador`, `nombre`, `descripcion`) VALUES
+(1, 'Ilimitado', 'Plan ilimitado');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `usuarios`
+--
+
+CREATE TABLE `usuarios` (
+  `Identificador` int NOT NULL,
+  `usuario` varchar(255) COLLATE utf8mb4_spanish_ci NOT NULL,
+  `contrasena` varchar(255) COLLATE utf8mb4_spanish_ci NOT NULL,
+  `nombre` varchar(255) COLLATE utf8mb4_spanish_ci NOT NULL,
+  `apellidos` varchar(255) COLLATE utf8mb4_spanish_ci NOT NULL,
+  `email` varchar(255) COLLATE utf8mb4_spanish_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_spanish_ci;
+
+--
+-- Volcado de datos para la tabla `usuarios`
+--
+
+INSERT INTO `usuarios` (`Identificador`, `usuario`, `contrasena`, `nombre`, `apellidos`, `email`) VALUES
+(1, 'jocarsa', 'jocarsa', 'Jose Vicente', 'Carratalá Sanchis', 'info@jocarsa.com');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `usuariosyplanes`
+--
+
+CREATE TABLE `usuariosyplanes` (
+  `Identificador` int NOT NULL,
+  `planes_nombre` int NOT NULL,
+  `usuarios_nombre` int NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_spanish_ci;
+
+--
+-- Volcado de datos para la tabla `usuariosyplanes`
+--
+
+INSERT INTO `usuariosyplanes` (`Identificador`, `planes_nombre`, `usuarios_nombre`) VALUES
+(1, 1, 1);
+
+--
+-- Índices para tablas volcadas
+--
+
+--
+-- Indices de la tabla `conversaciones`
+--
+ALTER TABLE `conversaciones`
+  ADD PRIMARY KEY (`Identificador`),
+  ADD KEY `FKusuariosnombre` (`usuario_nombre`),
+  ADD KEY `FKmodelosnombre` (`modelo_nombre`);
+
+--
+-- Indices de la tabla `modelos`
+--
+ALTER TABLE `modelos`
+  ADD PRIMARY KEY (`Identificador`);
+
+--
+-- Indices de la tabla `planes`
+--
+ALTER TABLE `planes`
+  ADD PRIMARY KEY (`Identificador`);
+
+--
+-- Indices de la tabla `usuarios`
+--
+ALTER TABLE `usuarios`
+  ADD PRIMARY KEY (`Identificador`);
+
+--
+-- Indices de la tabla `usuariosyplanes`
+--
+ALTER TABLE `usuariosyplanes`
+  ADD PRIMARY KEY (`Identificador`),
+  ADD KEY `FKplanes` (`planes_nombre`),
+  ADD KEY `FKusuarios` (`usuarios_nombre`);
+
+--
+-- AUTO_INCREMENT de las tablas volcadas
+--
+
+--
+-- AUTO_INCREMENT de la tabla `conversaciones`
+--
+ALTER TABLE `conversaciones`
+  MODIFY `Identificador` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT de la tabla `modelos`
+--
+ALTER TABLE `modelos`
+  MODIFY `Identificador` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+
+--
+-- AUTO_INCREMENT de la tabla `planes`
+--
+ALTER TABLE `planes`
+  MODIFY `Identificador` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT de la tabla `usuarios`
+--
+ALTER TABLE `usuarios`
+  MODIFY `Identificador` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT de la tabla `usuariosyplanes`
+--
+ALTER TABLE `usuariosyplanes`
+  MODIFY `Identificador` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- Restricciones para tablas volcadas
+--
+
+--
+-- Filtros para la tabla `conversaciones`
+--
+ALTER TABLE `conversaciones`
+  ADD CONSTRAINT `FKmodelosnombre` FOREIGN KEY (`modelo_nombre`) REFERENCES `modelos` (`Identificador`) ON DELETE RESTRICT ON UPDATE RESTRICT,
+  ADD CONSTRAINT `FKusuariosnombre` FOREIGN KEY (`usuario_nombre`) REFERENCES `usuarios` (`Identificador`) ON DELETE RESTRICT ON UPDATE RESTRICT;
+
+--
+-- Filtros para la tabla `usuariosyplanes`
+--
+ALTER TABLE `usuariosyplanes`
+  ADD CONSTRAINT `FKplanes` FOREIGN KEY (`planes_nombre`) REFERENCES `planes` (`Identificador`) ON DELETE RESTRICT ON UPDATE RESTRICT,
+  ADD CONSTRAINT `FKusuarios` FOREIGN KEY (`usuarios_nombre`) REFERENCES `usuarios` (`Identificador`) ON DELETE RESTRICT ON UPDATE RESTRICT;
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+```
+
 
 <a id="consultas-necesarias-para-obtener-informacion"></a>
 ## Consultas necesarias para obtener información
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/004-Implantaci%C3%B3n%20de%20sistemas%20ERP-CRM%20en%20una%20empresa/004-Consultas%20necesarias%20para%20obtener%20informaci%C3%B3n)
+
+### index
+<small>Creado: 2026-01-07 20:38</small>
+
+`index.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>TAME-IA</title>
+    <link rel="stylesheet" href="estilo/estilo.css">
+  </head>
+  <body>
+    <nav>
+      <img src="logo.png">
+      <section id="conversaciones"></section>
+      </section>
+    </nav>
+    <main>
+      <header>
+        jocarsa | chat
+      </header>
+      <section>
+        <h1>Empezamos cuando quieras</h1>
+      </section>
+      <footer>
+        <div id="prompt">
+          <input type="text">
+        </div>
+      </footer>
+    </main>
+    <script src="js/comportamiento.js"></script>
+  </body>
+</html>
+```
 
 
 <a id="creacion-de-formularios-personalizados"></a>
 ## Creación de formularios personalizados
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/004-Implantaci%C3%B3n%20de%20sistemas%20ERP-CRM%20en%20una%20empresa/005-Creaci%C3%B3n%20de%20formularios%20personalizados)
+
+### index
+<small>Creado: 2026-01-07 21:11</small>
+
+`index.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>TAME-IA</title>
+    <link rel="stylesheet" href="estilo/estilo.css">
+  </head>
+  <body>
+    <nav>
+      <img src="logo.png">
+      <section id="conversaciones"></section>
+      </section>
+    </nav>
+    <main>
+      <header>
+        jocarsa | chat
+      </header>
+      <section>
+        <h1>Empezamos cuando quieras</h1>
+      </section>
+      <footer>
+        <div id="prompt">
+          <input type="text">
+        </div>
+      </footer>
+    </main>
+    <div id="contienemodal">
+      <div id="modal">
+        <div id="corporativo">
+        <img src="logo.png">
+        <h1>jocarsa | chat</h1>
+        </div>
+        <div id="formulario">
+          <input type="text" id="usuario" placeholder="usuario:">
+          <input type="password" id="contrasena" placeholder="contraseña:">
+          <input type="submit" id="enviar">
+        </div>
+      </div>
+    </div>
+    <script src="js/comportamiento.js"></script>
+  </body>
+</html>
+```
+
 
 <a id="creacion-de-informes-personalizados"></a>
 ## Creación de informes personalizados
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/004-Implantaci%C3%B3n%20de%20sistemas%20ERP-CRM%20en%20una%20empresa/006-Creaci%C3%B3n%20de%20informes%20personalizados)
 
 
 <a id="paneles-de-control-dashboards"></a>
 ## Paneles de control (Dashboards)
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/004-Implantaci%C3%B3n%20de%20sistemas%20ERP-CRM%20en%20una%20empresa/007-Paneles%20de%20control%20%28Dashboards%29)
+
 
 <a id="integracion-con-otros-sistemas-de-gestion"></a>
 ## Integración con otros sistemas de gestión
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/004-Implantaci%C3%B3n%20de%20sistemas%20ERP-CRM%20en%20una%20empresa/008-Integraci%C3%B3n%20con%20otros%20sistemas%20de%20gesti%C3%B3n)
 
 
 
@@ -19030,37 +23053,55 @@ if __name__ == "__main__":
 <a id="arquitectura-del-erp-crm"></a>
 ## Arquitectura del ERP-CRM
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/005-Desarrollo%20de%20componentes/001-Arquitectura%20del%20ERP-CRM)
+
 
 <a id="lenguaje-proporcionado"></a>
 ## Lenguaje proporcionado
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/005-Desarrollo%20de%20componentes/002-Lenguaje%20proporcionado)
 
 
 <a id="entornos-de-desarrollo-y-herramientas-del-sistema-erp-y-crm"></a>
 ## Entornos de desarrollo y herramientas del sistema ERP y CRM
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/005-Desarrollo%20de%20componentes/003-Entornos%20de%20desarrollo%20y%20herramientas%20del%20sistema%20ERP%20y%20CRM)
+
 
 <a id="insercion-modificacion-y-eliminacion-de-datos-en-los-objetos"></a>
 ## Inserción, modificación y eliminación de datos en los objetos
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/005-Desarrollo%20de%20componentes/004-Inserci%C3%B3n%2C%20modificaci%C3%B3n%20y%20eliminaci%C3%B3n%20de%20datos%20en%20los%20objetos)
 
 
 <a id="operaciones-de-consulta-herramientas"></a>
 ## Operaciones de consulta. Herramientas
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/005-Desarrollo%20de%20componentes/005-Operaciones%20de%20consulta.%20Herramientas)
+
 
 <a id="formularios-e-informes"></a>
 ## Formularios e informes
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/005-Desarrollo%20de%20componentes/006-Formularios%20e%20informes)
 
 
 <a id="procesamiento-de-datos-y-obtencion-de-la-informacion"></a>
 ## Procesamiento de datos y obtención de la información
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/005-Desarrollo%20de%20componentes/007-Procesamiento%20de%20datos%20y%20obtenci%C3%B3n%20de%20la%20informaci%C3%B3n)
+
 
 <a id="llamadas-a-funciones-librerias-de-funciones-apis"></a>
 ## Llamadas a funciones, librerías de funciones (APIs)
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/005-Desarrollo%20de%20componentes/008-Llamadas%20a%20funciones%2C%20librer%C3%ADas%20de%20funciones%20%28APIs%29)
+
 
 <a id="depuracion-y-tratamiento-de-errores"></a>
 ## Depuración y tratamiento de errores
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/005-Desarrollo%20de%20componentes/009-Depuraci%C3%B3n%20y%20tratamiento%20de%20errores)
 
 
 
@@ -19069,6 +23110,8 @@ if __name__ == "__main__":
 
 <a id="la-milla-extra-primera-evaluacion"></a>
 ## La Milla Extra - Primera evaluación
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/201-Actividad%20libre%20de%20final%20de%20evaluaci%C3%B3n%20-%20La%20milla%20extra/001-La%20Milla%20Extra%20-%20Primera%20evaluaci%C3%B3n)
 
 ### Introducción a los ejercicios
 

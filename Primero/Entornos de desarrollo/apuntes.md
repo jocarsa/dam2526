@@ -62,6 +62,7 @@
   - [Conexion a MySQL desde PHP](#conexion-a-mysql-desde-php)
   - [get y post en PHP](#get-y-post-en-php)
   - [recuperacion de emails con imap](#recuperacion-de-emails-con-imap)
+  - [html como pug](#html-como-pug)
 - [Actividad libre de final de evaluación - La milla extra](#actividad-libre-de-final-de-evaluacion-la-milla-extra)
   - [La Milla Extra - Primera evaluación](#la-milla-extra-primera-evaluacion)
 
@@ -72,6 +73,8 @@
 
 <a id="concepto-de-programa-informatico"></a>
 ## Concepto de programa informático
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/001-Desarrollo%20de%20software/001-Concepto%20de%20programa%20inform%C3%A1tico)
 
 ### Introducción a los ejercicios
 
@@ -127,6 +130,8 @@ print("Hola mundo")
 
 <a id="codigo-fuente-codigo-objeto-y-codigo-ejecutable-tecnologias-de-virtualizacion"></a>
 ## Código fuente, código objeto y código ejecutable; tecnologías de virtualización
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/001-Desarrollo%20de%20software/002-C%C3%B3digo%20fuente%2C%20c%C3%B3digo%20objeto%20y%20c%C3%B3digo%20ejecutable%3B%20tecnolog%C3%ADas%20de%20virtualizaci%C3%B3n)
 
 ### Introducción a los ejercicios
 
@@ -214,6 +219,8 @@ int main(){
 <a id="tipos-de-lenguajes-de-programacion-paradigmas"></a>
 ## Tipos de lenguajes de programación. Paradigmas
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/001-Desarrollo%20de%20software/003-Tipos%20de%20lenguajes%20de%20programaci%C3%B3n.%20Paradigmas)
+
 ### Introducción a los ejercicios
 
 Esta carpeta contiene ejercicios destinados a introducir a los estudiantes del DAM a la clasificación y comprensión de diferentes tipos de lenguajes de programación, así como a los paradigmas fundamentales que influyen en el desarrollo de software. Los archivos proporcionan una visión general desde los lenguajes de muy bajo nivel hasta los de alto nivel, destacando sus ventajas y desventajas en términos de control del programa, facilidad de uso y velocidad de ejecución. Además, se introduce la noción de paradigmas de programación como estructurado, orientado a objetos y multiparadigma, con énfasis en cómo cada uno afecta el diseño y la implementación de aplicaciones más grandes y complejas. Estos ejercicios ayudan a los estudiantes a desarrollar una comprensión crítica sobre las elecciones lingüísticas y paradigmas que se deben hacer al diseñar software.
@@ -264,6 +271,8 @@ Esta carpeta contiene ejercicios destinados a introducir a los estudiantes del D
 <a id="caracteristicas-de-los-lenguajes-mas-difundidos"></a>
 ## Características de los lenguajes más difundidos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/001-Desarrollo%20de%20software/004-Caracter%C3%ADsticas%20de%20los%20lenguajes%20m%C3%A1s%20difundidos)
+
 ### Introducción a los ejercicios
 
 Este archivo introduce una visión general sobre los lenguajes de programación más utilizados en el año 2025 según un índice conocido. El objetivo principal es proporcionar contexto sobre cómo evolucionan estos lenguajes y sus respectivas cuotas de mercado, destacando especialmente a Python por su crecimiento rápido. Los estudiantes aprenderán a analizar datos estadísticos relacionados con la industria del desarrollo de software y entenderán las dinámicas que influyen en el uso de diferentes lenguajes. Este ejercicio se enfoca en comprender la relevancia actual y futura de los lenguajes más comunes, así como sus aplicaciones específicas en diversos ámbitos tecnológicos.
@@ -305,6 +314,8 @@ Este archivo introduce una visión general sobre los lenguajes de programación 
 
 <a id="fases-del-desarrollo-de-una-aplicacion-analisis-diseno-codificacion-pruebas-documentacion-explotacion-y-mantenimiento-entre-otras"></a>
 ## Fases del desarrollo de una aplicación análisis, diseño, codificación, pruebas, documentación, explotación y mantenimiento, entre otras
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/001-Desarrollo%20de%20software/005-Fases%20del%20desarrollo%20de%20una%20aplicaci%C3%B3n%20an%C3%A1lisis%2C%20dise%C3%B1o%2C%20codificaci%C3%B3n%2C%20pruebas%2C%20documentaci%C3%B3n%2C%20explotaci%C3%B3n%20y%20mantenimiento%2C%20entre%20otras)
 
 ### Introducción a los ejercicios
 
@@ -547,6 +558,8 @@ Estas actividades están diseñadas para cubrir desde la conceptualización hast
 <a id="proceso-de-obtencion-de-codigo-ejecutable-a-partir-del-codigo-fuente-herramientas-implicadas"></a>
 ## Proceso de obtención de código ejecutable a partir del código fuente; herramientas implicadas
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/001-Desarrollo%20de%20software/006-Proceso%20de%20obtenci%C3%B3n%20de%20c%C3%B3digo%20ejecutable%20a%20partir%20del%20c%C3%B3digo%20fuente%3B%20herramientas%20implicadas)
+
 ### Introducción a los ejercicios
 
 En esta carpeta, encontrarás ejercicios que te introducirán al proceso de obtención del código ejecutable a partir del código fuente en diferentes entornos y lenguajes. Se analizará cómo Python, un lenguaje interpretado, no genera archivos ejecutables binarios al lanzarse directamente contra el intérprete, contrastándolo con C o C++, que requieren ser compilados para generar archivos ejecutables. Estos ejercicios te ayudarán a comprender las diferencias en la implementación y ejecución de programas en diferentes lenguajes de programación.
@@ -636,6 +649,8 @@ Estas actividades están diseñadas para ayudar a los estudiantes a comprender l
 <a id="metodologias-agiles-tecnicas-caracteristicas"></a>
 ## Metodologías ágiles. Técnicas. Características
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/001-Desarrollo%20de%20software/007-Metodolog%C3%ADas%20%C3%A1giles.%20T%C3%A9cnicas.%20Caracter%C3%ADsticas)
+
 ### Introducción a los ejercicios
 
 Este conjunto de ejercicios se centra en introducir y aplicar conceptos básicos de las metodologías ágiles en el desarrollo de software. El objetivo principal es enseñarte cómo facilitar la colaboración en equipos y cómo implementar un proceso de desarrollo iterativo, lo que mejora significativamente la eficiencia y la adaptabilidad del trabajo en proyectos de programación. A través de estos ejercicios, aprenderás a gestionar proyectos más efectivamente tanto individualmente como en equipo, reduciendo así las dificultades típicas asociadas con el desarrollo software colaborativo.
@@ -678,6 +693,8 @@ Este conjunto de ejercicios se centra en introducir y aplicar conceptos básicos
 <a id="ejercicio-de-final-de-unidad"></a>
 ## Ejercicio de final de unidad
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/001-Desarrollo%20de%20software/101-Ejercicio%20de%20final%20de%20unidad)
+
 ### Introducción a los ejercicios
 
 El conjunto de ejercicios en esta carperta está diseñado para ayudarte a consolidar tus conocimientos sobre el desarrollo de software, enfocándose especialmente en la estructuración y organización del trabajo en entornos de desarrollo. El único archivo proporcionado, "001-actividad.md", es un documento markdown que contiene una serie de tareas relacionadas con la creación de código limpio, la gestión efectiva de archivos y directorios, así como el uso de herramientas y prácticas recomendadas en el ámbito del desarrollo de software. A través de esta actividad, practicarás habilidades cruciales como la resolución de problemas, la organización y la documentación clara de tu trabajo.
@@ -719,6 +736,8 @@ Cada una de estas actividades está diseñada para complementar las habilidades 
 
 <a id="funciones-de-un-entorno-de-desarrollo"></a>
 ## Funciones de un entorno de desarrollo
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/002-Instalaci%C3%B3n%20y%20uso%20de%20entornos%20de%20desarrollo/001-Funciones%20de%20un%20entorno%20de%20desarrollo)
 
 ### Introducción a los ejercicios
 
@@ -770,6 +789,8 @@ Este conjunto de ejercicios se centra en la comprensión y configuración de ent
 <a id="instalacion-de-un-entorno-de-desarrollo"></a>
 ## Instalación de un entorno de desarrollo
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/002-Instalaci%C3%B3n%20y%20uso%20de%20entornos%20de%20desarrollo/002-Instalaci%C3%B3n%20de%20un%20entorno%20de%20desarrollo)
+
 ### Introducción a los ejercicios
 
 En esta carpeta, encontrarás ejercicios destinados a guiar a los estudiantes a través del proceso de instalación y configuración de dos importantes entornos de desarrollo: Visual Studio Code y NetBeans. Estos ejercicios buscan familiarizarte con la descarga e instalación de software esencial para el desarrollo de aplicaciones en diferentes lenguajes, enfatizando la importancia de tener un ambiente de trabajo adecuado desde el principio. Al completar estos ejercicios, mejorarás tus habilidades en la gestión del entorno de desarrollo y comprenderás mejor los requisitos técnicos necesarios para comenzar a programar eficazmente.
@@ -820,6 +841,8 @@ En esta carpeta, encontrarás ejercicios destinados a guiar a los estudiantes a 
 <a id="uso-basico-de-un-entorno-de-desarrollo"></a>
 ## Uso básico de un entorno de desarrollo
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/002-Instalaci%C3%B3n%20y%20uso%20de%20entornos%20de%20desarrollo/003-Uso%20b%C3%A1sico%20de%20un%20entorno%20de%20desarrollo)
+
 ### Introducción a los ejercicios
 
 Este conjunto de ejercicios está diseñado para que los estudiantes inicien su experiencia en el uso de entornos de desarrollo integrados (IDE) específicamente en Visual Studio Code. El ejercicio se centra en aprender cómo configurar y utilizar las herramientas básicas del IDE, como la instalación de intérpretes de lenguaje, la creación de archivos de código y la incorporación de extensiones para mejorar la funcionalidad. Los estudiantes practicarán competencias fundamentales como la gestión del entorno de desarrollo, la detección y corrección de errores básicos en sintaxis y el uso de asistentes de codificación avanzada.
@@ -853,6 +876,8 @@ Este conjunto de ejercicios está diseñado para que los estudiantes inicien su 
 
 <a id="personalizacion-del-entorno-de-desarrollo-temas-estilos-de-codificacion-modulos-y-extensiones-entre-otras"></a>
 ## Personalización del entorno de desarrollo temas, estilos de codificación, módulos y extensiones, entre otras
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/002-Instalaci%C3%B3n%20y%20uso%20de%20entornos%20de%20desarrollo/004-Personalizaci%C3%B3n%20del%20entorno%20de%20desarrollo%20temas%2C%20estilos%20de%20codificaci%C3%B3n%2C%20m%C3%B3dulos%20y%20extensiones%2C%20entre%20otras)
 
 ### Introducción a los ejercicios
 
@@ -905,6 +930,8 @@ El conjunto de ejercicios en esta carpeta se enfoca en la personalización del e
 
 <a id="edicion-de-programas"></a>
 ## Edición de programas
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/002-Instalaci%C3%B3n%20y%20uso%20de%20entornos%20de%20desarrollo/005-Edici%C3%B3n%20de%20programas)
 
 ### Introducción a los ejercicios
 
@@ -975,6 +1002,8 @@ else:
 <a id="generacion-de-ejecutables-en-distintos-entornos"></a>
 ## Generación de ejecutables en distintos entornos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/002-Instalaci%C3%B3n%20y%20uso%20de%20entornos%20de%20desarrollo/006-Generaci%C3%B3n%20de%20ejecutables%20en%20distintos%20entornos)
+
 ### Introducción a los ejercicios
 
 En esta carpeta se encuentran ejercicios orientados a la instalación y uso de entornos de desarrollo para crear y ejecutar programas simples, específicamente en lenguaje C. El objetivo principal es familiarizarte con el proceso completo desde la creación del proyecto hasta la generación del ejecutable en un entorno como Visual Studio. Además, se practica cómo configurar herramientas adicionales como Copilot y los compiladores necesarios para garantizar que puedas compilar y ejecutar tu código sin problemas. Estos ejercicios te ayudarán a adquirir competencias esenciales para el desarrollo de software en entornos profesionales.
@@ -1041,6 +1070,8 @@ Estas actividades buscan cubrir diferentes aspectos del aprendizaje de programac
 
 <a id="herramientas-y-automatizacion"></a>
 ## Herramientas y automatización
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/002-Instalaci%C3%B3n%20y%20uso%20de%20entornos%20de%20desarrollo/007-Herramientas%20y%20automatizaci%C3%B3n)
 
 ### Introducción a los ejercicios
 
@@ -1116,6 +1147,8 @@ Estas actividades están diseñadas para proporcionar a los estudiantes una comp
 <a id="ejercicio-de-final-de-unidad-1"></a>
 ## Ejercicio de final de unidad
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/002-Instalaci%C3%B3n%20y%20uso%20de%20entornos%20de%20desarrollo/101-Ejercicio%20de%20final%20de%20unidad)
+
 ### Introducción a los ejercicios
 
 Esta carpeta contiene un conjunto de ejercicios diseñados para estudiantes del curso DAM (Desarrollo de Aplicaciones Multiplataforma) en el primer año, específicamente enfocados en la instalación y uso de entornos de desarrollo. El ejercicio principal se encuentra en el archivo "001-actividad.md" y está estructurado para que los estudiantes comprendan y apliquen los conocimientos adquiridos durante esta unidad sobre cómo configurar y utilizar herramientas de desarrollo eficientemente. Los problemas trabajados buscan mejorar las competencias en la instalación y configuración de entornos de desarrollo, así como en la gestión del código fuente mediante herramientas como controladores de versiones básicas.
@@ -1161,6 +1194,8 @@ Esta carpeta contiene un conjunto de ejercicios diseñados para estudiantes del 
 
 <a id="planificacion-de-pruebas"></a>
 ## Planificación de Pruebas
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/003-Dise%C3%B1o%20y%20realizaci%C3%B3n%20de%20pruebas/001-Planificaci%C3%B3n%20de%20Pruebas)
 
 ### Introducción a los ejercicios
 
@@ -1251,6 +1286,8 @@ print(division)
 
 <a id="tipos-de-pruebas-funcionales-estructurales-y-regresion-entre-otras"></a>
 ## Tipos de pruebas Funcionales, estructurales y regresión, entre otras
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/003-Dise%C3%B1o%20y%20realizaci%C3%B3n%20de%20pruebas/002-Tipos%20de%20pruebas%20Funcionales%2C%20estructurales%20y%20regresi%C3%B3n%2C%20entre%20otras)
 
 ### Introducción a los ejercicios
 
@@ -1445,25 +1482,37 @@ Estas actividades están diseñadas para permitir a los estudiantes aprender de 
 <a id="procedimientos-y-casos-de-prueba"></a>
 ## Procedimientos y casos de prueba
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/003-Dise%C3%B1o%20y%20realizaci%C3%B3n%20de%20pruebas/003-Procedimientos%20y%20casos%20de%20prueba)
+
 
 <a id="pruebas-de-codigo-cubrimiento-valores-limite-y-clases-de-equivalencia-entre-otras"></a>
 ## Pruebas de Código Cubrimiento, valores límite y clases de equivalencia, entre otras
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/003-Dise%C3%B1o%20y%20realizaci%C3%B3n%20de%20pruebas/004-Pruebas%20de%20C%C3%B3digo%20Cubrimiento%2C%20valores%20l%C3%ADmite%20y%20clases%20de%20equivalencia%2C%20entre%20otras)
 
 
 <a id="pruebas-unitarias-herramientas-de-automatizacion"></a>
 ## Pruebas unitarias; herramientas de automatización
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/003-Dise%C3%B1o%20y%20realizaci%C3%B3n%20de%20pruebas/005-Pruebas%20unitarias%3B%20herramientas%20de%20automatizaci%C3%B3n)
+
 
 <a id="documentacion-de-las-incidencias"></a>
 ## Documentación de las incidencias
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/003-Dise%C3%B1o%20y%20realizaci%C3%B3n%20de%20pruebas/006-Documentaci%C3%B3n%20de%20las%20incidencias)
 
 
 <a id="dobles-de-prueba-tipos-caracteristicas"></a>
 ## Dobles de prueba. Tipos. Características
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/003-Dise%C3%B1o%20y%20realizaci%C3%B3n%20de%20pruebas/007-Dobles%20de%20prueba.%20Tipos.%20Caracter%C3%ADsticas)
+
 
 <a id="ejercicio-de-final-de-unidad-2"></a>
 ## Ejercicio de final de unidad
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/003-Dise%C3%B1o%20y%20realizaci%C3%B3n%20de%20pruebas/101-Ejercicio%20de%20final%20de%20unidad)
 
 ### Introducción a los ejercicios
 
@@ -1512,6 +1561,8 @@ En esta unidad, te enfocarás en la realización y diseño efectivo de pruebas p
 
 <a id="refactorizacion"></a>
 ## Refactorización
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/004-Optimizaci%C3%B3n%20y%20documentaci%C3%B3n/001-Refactorizaci%C3%B3n)
 
 ### Introducción a los ejercicios
 
@@ -2332,6 +2383,8 @@ Estas actividades te ayudarán a mejorar la modularidad, legibilidad y mantenibi
 <a id="analizadores-de-codigo"></a>
 ## Analizadores de código
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/004-Optimizaci%C3%B3n%20y%20documentaci%C3%B3n/002-Analizadores%20de%20c%C3%B3digo)
+
 ### Introducción a los ejercicios
 
 Esta carpeta contiene una serie de ejercicios diseñados para familiarizarte con diversas herramientas y prácticas útiles en el desarrollo web y la publicación de proyectos. Los ejercicios abarcan desde la validación de código HTML y JSON hasta la utilización de plataformas de inteligencia artificial y la publicación de páginas web en GitHub Pages. A través de estos problemas, mejorarás tus habilidades en la optimización y documentación del código, aprenderás a utilizar analizadores para verificar la calidad del código que escribes y comprenderás cómo desplegar tu trabajo en un entorno real accesible por internet.
@@ -2371,6 +2424,8 @@ Esta carpeta contiene una serie de ejercicios diseñados para familiarizarte con
 
 <a id="control-de-versiones-estructura-de-las-herramientas-de-control-de-versiones"></a>
 ## Control de versiones. Estructura de las herramientas de control de versiones
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/004-Optimizaci%C3%B3n%20y%20documentaci%C3%B3n/003-Control%20de%20versiones.%20Estructura%20de%20las%20herramientas%20de%20control%20de%20versiones)
 
 ### Introducción a los ejercicios
 
@@ -2438,6 +2493,8 @@ Estas actividades están diseñadas para proporcionar a los estudiantes experien
 <a id="ejercicio-de-final-de-unidad-3"></a>
 ## Ejercicio de final de unidad
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/004-Optimizaci%C3%B3n%20y%20documentaci%C3%B3n/101-Ejercicio%20de%20final%20de%20unidad)
+
 ### Introducción a los ejercicios
 
 El conjunto de ejercicios que encontrarás en esta carpeta está diseñado para ayudarte a consolidar tus conocimientos sobre la optimización y documentación del código. Trabajaremos con conceptos clave como cómo mejorar la eficiencia de tu programa, reducir su complejidad y asegurarte de que esté bien documentado para otros desarrolladores. Este ejercicio te permitirá aplicar los principios aprendidos a lo largo del curso, reforzando tus habilidades en análisis de código, refactorización y creación de comentarios claros y precisos.
@@ -2481,6 +2538,8 @@ Estas actividades están diseñadas para mejorar las habilidades técnicas y pro
 
 <a id="examen-final"></a>
 ## Examen final
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/004-Optimizaci%C3%B3n%20y%20documentaci%C3%B3n/104-Examen%20final)
 
 ### Introducción a los ejercicios
 
@@ -2734,6 +2793,8 @@ Estas actividades están diseñadas para reforzar los conceptos aprendidos a tra
 <a id="repositorios-remotos"></a>
 ## Repositorios remotos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/005-Repositorio.%20Herramientas%20de%20control%20de%20versiones.%20Uso%20integrado%20en%20el%20entorno%20de%20desarrollo/001-Repositorios%20remotos)
+
 ### Introducción a los ejercicios
 
 It appears you are documenting a series of steps and commands related to version control using Git for deploying code from your local machine to a remote server. Here's an organized summary and some clarifications based on the provided files:
@@ -2925,6 +2986,8 @@ Con estos pasos, podrás mejorar tu flujo de trabajo de despliegue desde local h
 
 <a id="documentacion-uso-de-comentarios-alternativas"></a>
 ## Documentación. Uso de comentarios. Alternativas
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/005-Repositorio.%20Herramientas%20de%20control%20de%20versiones.%20Uso%20integrado%20en%20el%20entorno%20de%20desarrollo/002-Documentaci%C3%B3n.%20Uso%20de%20comentarios.%20Alternativas)
 
 ### Introducción a los ejercicios
 
@@ -4190,9 +4253,13 @@ Espero que estas sugerencias te sean útiles para mejorar tu estructura de códi
 <a id="integracion-continua-herramientas"></a>
 ## Integración continua. Herramientas
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/005-Repositorio.%20Herramientas%20de%20control%20de%20versiones.%20Uso%20integrado%20en%20el%20entorno%20de%20desarrollo/003-Integraci%C3%B3n%20continua.%20Herramientas)
+
 
 <a id="simulacro-examen"></a>
 ## Simulacro examen
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/005-Repositorio.%20Herramientas%20de%20control%20de%20versiones.%20Uso%20integrado%20en%20el%20entorno%20de%20desarrollo/004-Simulacro%20examen)
 
 ### Introducción a los ejercicios
 
@@ -4539,6 +4606,8 @@ Estas actividades buscan mejorar las habilidades técnicas y metodológicas de l
 <a id="ejercicio-de-final-de-unidad-4"></a>
 ## Ejercicio de final de unidad
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/005-Repositorio.%20Herramientas%20de%20control%20de%20versiones.%20Uso%20integrado%20en%20el%20entorno%20de%20desarrollo/101-Ejercicio%20de%20final%20de%20unidad)
+
 ### Introducción a los ejercicios
 
 El conjunto de ejercicios en esta carpeta está diseñado para ayudarte a comprender y aplicar las herramientas de control de versiones, especialmente Git, dentro del entorno de desarrollo. Este ejercicio se enfoca en la integración y uso efectivo de estas herramientas durante el proceso de desarrollo de software, lo que incluye tareas como clonar repositorios, crear ramas, realizar commits y gestionar fusiones. A través de esta práctica, mejorarás tus habilidades en gestión de proyectos, colaboración con otros desarrolladores y mantenimiento de un historial limpio y estructurado de tu código.
@@ -4597,25 +4666,1067 @@ Este tipo de actividades son fundamentales para los estudiantes de Formación Pr
 <a id="clases-atributos-metodos-y-visibilidad"></a>
 ## Clases. Atributos, métodos y visibilidad
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/006-Elaboraci%C3%B3n%20de%20diagramas%20de%20clases/001-Clases.%20Atributos%2C%20m%C3%A9todos%20y%20visibilidad)
+
+### diagrama inicial cliente
+<small>Creado: 2025-12-15 16:45</small>
+
+`diagrama inicial cliente.html`
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Diagrama exportado</title>
+<style>
+body {
+  margin: 0;
+  padding: 20px;
+  background: #f3f3f7;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+.page {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  width: 240.00002774325282px;
+  height: 261.9999833540482px;
+  overflow: visible;
+}
+
+/* formas básicas */
+.shape {
+  position: absolute;
+  min-width: 120px;
+  min-height: 40px;
+  padding: 6px 10px;
+  background: #ffffff;
+  border-radius: 4px;
+  border: 1px solid #9ca3af;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+}
+
+.shape.rectangle {
+  border-radius: 4px;
+}
+
+.shape.pill {
+  border-radius: 999px;
+}
+
+.shape.circle {
+  border-radius: 999px;
+  width: 80px;
+  height: 80px;
+  padding: 0;
+  justify-content: center;
+}
+
+/* texto libre */
+.shape.text {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  min-width: 20px;
+  min-height: 20px;
+}
+
+/* base de datos */
+.shape.db {
+  min-width: 120px;
+  min-height: 60px;
+  padding-top: 20px;
+  border-radius: 60px / 16px;
+  background: linear-gradient(180deg, #e5e7eb 0%, #ffffff 40%, #e5e7eb 100%);
+  position: absolute;
+  overflow: hidden;
+  text-align: center;
+}
+.shape.db::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 8px;
+  right: 8px;
+  height: 18px;
+  border-radius: 999px;
+  border: 1px solid #9ca3af;
+  background: radial-gradient(circle at 50% 30%, #ffffff 0%, #e5e7eb 70%);
+}
+.shape.db::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 8px;
+  right: 8px;
+  height: 18px;
+  border-radius: 999px;
+  border: 1px solid rgba(156, 163, 175, 0.6);
+  border-top: none;
+  background: radial-gradient(circle at 50% 70%, #e5e7eb 0%, #d1d5db 70%);
+}
+
+/* entidades ER */
+.shape.entity {
+  width: 220px;
+  min-height: 80px;
+  background: #ffffff;
+  border: 2px solid #111827;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.15);
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  overflow: hidden;
+  padding: 0;
+}
+.entity-header {
+  background: #f3f4f6;
+  padding: 4px 8px;
+  font-weight: 600;
+  text-align: center;
+  border-bottom: 1px solid #e5e7eb;
+}
+.entity-properties {
+  flex: 1;
+  padding: 4px 4px 0 4px;
+}
+.entity-property {
+  display: grid;
+  grid-template-columns: 14px 1fr 14px;
+  align-items: center;
+  column-gap: 4px;
+  padding: 2px 0;
+}
+.entity-property .property-name {
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+/* puertos */
+.port {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: 1px solid #111827;
+  background: #ffffff;
+}
+.port-left { justify-self: start; }
+.port-right { justify-self: end; }
+
+/* flechas rectas */
+.arrow {
+  position: absolute;
+  height: 2px;
+  background: #111827;
+  transform-origin: 0 50%;
+}
+.arrow::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid #111827;
+}
+.arrow-double::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%) rotate(180deg);
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid #111827;
+}
+
+/* flechas ortogonales */
+.ortho-arrow {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.ortho-arrow .ortho-seg {
+  position: absolute;
+  background: #111827;
+}
+.ortho-seg.seg-horizontal { height: 2px; }
+.ortho-seg.seg-vertical { width: 2px; }
+.ortho-arrowhead {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+.ortho-arrowhead.dir-right {
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid #111827;
+}
+.ortho-arrowhead.dir-left {
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 8px solid #111827;
+}
+.ortho-arrowhead.dir-down {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 8px solid #111827;
+}
+.ortho-arrowhead.dir-up {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 8px solid #111827;
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+<div class="shape entity" style="left:40px;top:40px;width:160.00002774325276px;height:181.9999833540482px;">
+  <div class="entity-header">Cliente</div>
+  <div class="entity-properties">
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">id</div>
+      <div class="port port-right"></div>
+    </div>
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">nombre</div>
+      <div class="port port-right"></div>
+    </div>
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">apellidos</div>
+      <div class="port port-right"></div>
+    </div>
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">email</div>
+      <div class="port port-right"></div>
+    </div>
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">direccion</div>
+      <div class="port port-right"></div>
+    </div>
+  </div>
+</div>
+</div>
+</body>
+</html>
+```
+
+### diagrama inicial cliente
+<small>Creado: 2025-12-15 16:45</small>
+
+`diagrama inicial cliente.json`
+
+```json
+{
+  "formas": [
+    {
+      "id": "forma-1",
+      "tipo": "entity",
+      "left": "379.462px",
+      "top": "381px",
+      "width": "",
+      "height": "",
+      "entityName": "Cliente",
+      "properties": [
+        {
+          "id": "prop-1",
+          "name": "id"
+        },
+        {
+          "id": "prop-2",
+          "name": "nombre"
+        },
+        {
+          "id": "prop-3",
+          "name": "apellidos"
+        },
+        {
+          "id": "prop-4",
+          "name": "email"
+        },
+        {
+          "id": "prop-5",
+          "name": "direccion"
+        }
+      ]
+    }
+  ],
+  "flechas": []
+}
+```
+
+### diagrama inicial cliente
+<small>Creado: 2025-12-15 16:46</small>
+
+`diagrama inicial cliente.py`
+
+```python
+from typing import Optional
+
+class Cliente:
+    def __init__(self, id: Optional[int] = None, nombre: Optional[str] = None, apellidos: Optional[str] = None, email: Optional[str] = None, direccion: Optional[str] = None):
+        self.id = id
+        self.nombre = nombre
+        self.apellidos = apellidos
+        self.email = email
+        self.direccion = direccion
+
+    def __repr__(self):
+        return f"Cliente(id={self.id!r}, nombre={self.nombre!r}, apellidos={self.apellidos!r}, email={self.email!r}, direccion={self.direccion!r})"
+```
+
+### diagrama inicial cliente
+<small>Creado: 2025-12-15 16:46</small>
+
+`diagrama inicial cliente.sql`
+
+```sql
+CREATE TABLE cliente (
+  id INT,
+  nombre VARCHAR(255),
+  apellidos VARCHAR(255),
+  email VARCHAR(255),
+  direccion VARCHAR(255),
+  PRIMARY KEY (id)
+);
+```
+
+### diagrama inicial cliente
+<small>Creado: 2025-12-15 16:45</small>
+
+`diagrama inicial cliente.svg`
+
+```
+<svg xmlns="http://www.w3.org/2000/svg" width="240.00002774325282" height="261.9999833540482" viewBox="0 0 240.00002774325282 261.9999833540482">
+
+  <defs>
+    <style>
+      text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 12px; fill: #111827; }
+      .shape-rect { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-entity { fill: #ffffff; stroke: #111827; stroke-width: 2; }
+      .shape-circle { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-pill { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-db { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .conn { stroke: #111827; stroke-width: 2; fill: none; }
+    </style>
+    <marker id="arrow-end" markerWidth="10" markerHeight="7" refX="10" refY="3.5"
+            orient="auto" markerUnits="strokeWidth">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#111827"/>
+    </marker>
+    <marker id="arrow-start" markerWidth="10" markerHeight="7" refX="0" refY="3.5"
+            orient="auto" markerUnits="strokeWidth">
+      <polygon points="10 0, 0 3.5, 10 7" fill="#111827"/>
+    </marker>
+  </defs>
+        
+<rect class="shape-entity" x="40" y="40" width="160.00002774325276" height="181.9999833540482" />
+<line x1="40" y1="69.99999999999999" x2="200.00002774325276" y2="69.99999999999999" stroke="#e5e7eb" stroke-width="1"/>
+<text x="120.00001387162638" y="59.500002774325274" text-anchor="middle">Cliente</text>
+<text x="93.76562499999994" y="90.00000554865056">id</text>
+<text x="93.76562499999994" y="114">nombre</text>
+<text x="93.76562499999994" y="137.99999445134938">apellidos</text>
+<text x="93.76562499999994" y="162.0000166459517">email</text>
+<text x="93.76562499999994" y="185.9999833540482">direccion</text>
+</svg>
+```
+
 
 <a id="objetos-instanciacion"></a>
 ## Objetos. Instanciación
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/006-Elaboraci%C3%B3n%20de%20diagramas%20de%20clases/002-Objetos.%20Instanciaci%C3%B3n)
 
 
 <a id="relaciones-asociacion-navegabilidad-y-multiplicidad-herencia-composicion-agregacion-realizacion-y-dependencia"></a>
 ## Relaciones. Asociación, navegabilidad y multiplicidad. Herencia, composición, agregación. Realización y dependencia
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/006-Elaboraci%C3%B3n%20de%20diagramas%20de%20clases/003-Relaciones.%20Asociaci%C3%B3n%2C%20navegabilidad%20y%20multiplicidad.%20Herencia%2C%20composici%C3%B3n%2C%20agregaci%C3%B3n.%20Realizaci%C3%B3n%20y%20dependencia)
+
+### diagrama relaciones
+<small>Creado: 2025-12-15 16:49</small>
+
+`diagrama relaciones.html`
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Diagrama exportado</title>
+<style>
+body {
+  margin: 0;
+  padding: 20px;
+  background: #f3f3f7;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+.page {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  width: 739.0000343322752px;
+  height: 443.28128814697254px;
+  overflow: visible;
+}
+
+/* formas básicas */
+.shape {
+  position: absolute;
+  min-width: 120px;
+  min-height: 40px;
+  padding: 6px 10px;
+  background: #ffffff;
+  border-radius: 4px;
+  border: 1px solid #9ca3af;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+}
+
+.shape.rectangle {
+  border-radius: 4px;
+}
+
+.shape.pill {
+  border-radius: 999px;
+}
+
+.shape.circle {
+  border-radius: 999px;
+  width: 80px;
+  height: 80px;
+  padding: 0;
+  justify-content: center;
+}
+
+/* texto libre */
+.shape.text {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  min-width: 20px;
+  min-height: 20px;
+}
+
+/* base de datos */
+.shape.db {
+  min-width: 120px;
+  min-height: 60px;
+  padding-top: 20px;
+  border-radius: 60px / 16px;
+  background: linear-gradient(180deg, #e5e7eb 0%, #ffffff 40%, #e5e7eb 100%);
+  position: absolute;
+  overflow: hidden;
+  text-align: center;
+}
+.shape.db::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 8px;
+  right: 8px;
+  height: 18px;
+  border-radius: 999px;
+  border: 1px solid #9ca3af;
+  background: radial-gradient(circle at 50% 30%, #ffffff 0%, #e5e7eb 70%);
+}
+.shape.db::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 8px;
+  right: 8px;
+  height: 18px;
+  border-radius: 999px;
+  border: 1px solid rgba(156, 163, 175, 0.6);
+  border-top: none;
+  background: radial-gradient(circle at 50% 70%, #e5e7eb 0%, #d1d5db 70%);
+}
+
+/* entidades ER */
+.shape.entity {
+  width: 220px;
+  min-height: 80px;
+  background: #ffffff;
+  border: 2px solid #111827;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.15);
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  overflow: hidden;
+  padding: 0;
+}
+.entity-header {
+  background: #f3f4f6;
+  padding: 4px 8px;
+  font-weight: 600;
+  text-align: center;
+  border-bottom: 1px solid #e5e7eb;
+}
+.entity-properties {
+  flex: 1;
+  padding: 4px 4px 0 4px;
+}
+.entity-property {
+  display: grid;
+  grid-template-columns: 14px 1fr 14px;
+  align-items: center;
+  column-gap: 4px;
+  padding: 2px 0;
+}
+.entity-property .property-name {
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+/* puertos */
+.port {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: 1px solid #111827;
+  background: #ffffff;
+}
+.port-left { justify-self: start; }
+.port-right { justify-self: end; }
+
+/* flechas rectas */
+.arrow {
+  position: absolute;
+  height: 2px;
+  background: #111827;
+  transform-origin: 0 50%;
+}
+.arrow::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid #111827;
+}
+.arrow-double::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%) rotate(180deg);
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid #111827;
+}
+
+/* flechas ortogonales */
+.ortho-arrow {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.ortho-arrow .ortho-seg {
+  position: absolute;
+  background: #111827;
+}
+.ortho-seg.seg-horizontal { height: 2px; }
+.ortho-seg.seg-vertical { width: 2px; }
+.ortho-arrowhead {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+.ortho-arrowhead.dir-right {
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid #111827;
+}
+.ortho-arrowhead.dir-left {
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 8px solid #111827;
+}
+.ortho-arrowhead.dir-down {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 8px solid #111827;
+}
+.ortho-arrowhead.dir-up {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 8px solid #111827;
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+<div class="shape entity" style="left:40px;top:40px;width:160.00001907348627px;height:182.00000762939447px;">
+  <div class="entity-header">Cliente</div>
+  <div class="entity-properties">
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">id</div>
+      <div class="port port-right"></div>
+    </div>
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">nombre</div>
+      <div class="port port-right"></div>
+    </div>
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">apellidos</div>
+      <div class="port port-right"></div>
+    </div>
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">email</div>
+      <div class="port port-right"></div>
+    </div>
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">direccion</div>
+      <div class="port port-right"></div>
+    </div>
+  </div>
+</div>
+<div class="shape entity" style="left:300.8750343322753px;top:245.28125762939442px;width:159.99999999999994px;height:158.00003051757807px;">
+  <div class="entity-header">Producto</div>
+  <div class="entity-properties">
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">id</div>
+      <div class="port port-right"></div>
+    </div>
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">nombre</div>
+      <div class="port port-right"></div>
+    </div>
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">descripcion</div>
+      <div class="port port-right"></div>
+    </div>
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">precio</div>
+      <div class="port port-right"></div>
+    </div>
+  </div>
+</div>
+<div class="shape entity" style="left:288.3750343322753px;top:60.28125762939453px;width:159.99999999999994px;height:133.99997711181635px;">
+  <div class="entity-header">Pedido</div>
+  <div class="entity-properties">
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">id</div>
+      <div class="port port-right"></div>
+    </div>
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">fecha</div>
+      <div class="port port-right"></div>
+    </div>
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">id_cliente</div>
+      <div class="port port-right"></div>
+    </div>
+  </div>
+</div>
+<div class="shape entity" style="left:539.0000343322752px;top:149.03125762939447px;width:159.99999999999994px;height:157.9999923706054px;">
+  <div class="entity-header">LineaPedido</div>
+  <div class="entity-properties">
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">id</div>
+      <div class="port port-right"></div>
+    </div>
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">pedido_id</div>
+      <div class="port port-right"></div>
+    </div>
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">producto_id</div>
+      <div class="port port-right"></div>
+    </div>
+    <div class="entity-property">
+      <div class="port port-left"></div>
+      <div class="property-name">cantidad</div>
+      <div class="port port-right"></div>
+    </div>
+  </div>
+</div>
+<div class="arrow" style="left:320.4687690734862px;top:152.20246031727913px;width:167.03321881574615px;transform:rotate(-2.747578688209828rad);"></div>
+<div class="arrow" style="left:564.1875648498533px;top:215.46145472937053px;width:181.75381348955037px;transform:rotate(-2.521558492334684rad);"></div>
+<div class="arrow" style="left:564.1875648498533px;top:244.75003663432597px;width:137.84676319505215px;transform:rotate(2.810487295072487rad);"></div>
+</div>
+</body>
+</html>
+```
+
+### diagrama relaciones
+<small>Creado: 2025-12-15 16:49</small>
+
+`diagrama relaciones.json`
+
+```json
+{
+  "formas": [
+    {
+      "id": "forma-1",
+      "tipo": "entity",
+      "left": "173.359px",
+      "top": "352.078px",
+      "width": "",
+      "height": "",
+      "entityName": "Cliente",
+      "properties": [
+        {
+          "id": "prop-1",
+          "name": "id"
+        },
+        {
+          "id": "prop-2",
+          "name": "nombre"
+        },
+        {
+          "id": "prop-3",
+          "name": "apellidos"
+        },
+        {
+          "id": "prop-4",
+          "name": "email"
+        },
+        {
+          "id": "prop-5",
+          "name": "direccion"
+        }
+      ]
+    },
+    {
+      "id": "forma-2",
+      "tipo": "entity",
+      "left": "434.234px",
+      "top": "557.359px",
+      "width": "",
+      "height": "",
+      "entityName": "Producto",
+      "properties": [
+        {
+          "id": "prop-6",
+          "name": "id"
+        },
+        {
+          "id": "prop-7",
+          "name": "nombre"
+        },
+        {
+          "id": "prop-8",
+          "name": "descripcion"
+        },
+        {
+          "id": "prop-9",
+          "name": "precio"
+        }
+      ]
+    },
+    {
+      "id": "forma-3",
+      "tipo": "entity",
+      "left": "421.734px",
+      "top": "372.359px",
+      "width": "",
+      "height": "",
+      "entityName": "Pedido",
+      "properties": [
+        {
+          "id": "prop-10",
+          "name": "id"
+        },
+        {
+          "id": "prop-11",
+          "name": "fecha"
+        },
+        {
+          "id": "prop-12",
+          "name": "id_cliente"
+        }
+      ]
+    },
+    {
+      "id": "forma-4",
+      "tipo": "entity",
+      "left": "672.359px",
+      "top": "461.109px",
+      "width": "",
+      "height": "",
+      "entityName": "LineaPedido",
+      "properties": [
+        {
+          "id": "prop-13",
+          "name": "id"
+        },
+        {
+          "id": "prop-14",
+          "name": "pedido_id"
+        },
+        {
+          "id": "prop-15",
+          "name": "producto_id"
+        },
+        {
+          "id": "prop-16",
+          "name": "cantidad"
+        }
+      ]
+    }
+  ],
+  "flechas": [
+    {
+      "desde": {
+        "shapeId": "forma-3",
+        "propId": "prop-12",
+        "side": "left"
+      },
+      "hasta": {
+        "shapeId": "forma-1",
+        "propId": "prop-1",
+        "side": "right"
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-4",
+        "propId": "prop-14",
+        "side": "left"
+      },
+      "hasta": {
+        "shapeId": "forma-3",
+        "propId": "prop-10",
+        "side": "right"
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-4",
+        "propId": "prop-15",
+        "side": "left"
+      },
+      "hasta": {
+        "shapeId": "forma-2",
+        "propId": "prop-6",
+        "side": "right"
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    }
+  ]
+}
+```
+
+### diagrama relaciones
+<small>Creado: 2025-12-15 16:49</small>
+
+`diagrama relaciones.py`
+
+```python
+from typing import Optional
+
+class Cliente:
+    def __init__(self, id: Optional[int] = None, nombre: Optional[str] = None, apellidos: Optional[str] = None, email: Optional[str] = None, direccion: Optional[str] = None):
+        self.id = id
+        self.nombre = nombre
+        self.apellidos = apellidos
+        self.email = email
+        self.direccion = direccion
+
+    def __repr__(self):
+        return f"Cliente(id={self.id!r}, nombre={self.nombre!r}, apellidos={self.apellidos!r}, email={self.email!r}, direccion={self.direccion!r})"
+
+class Producto:
+    def __init__(self, id: Optional[int] = None, nombre: Optional[str] = None, descripcion: Optional[str] = None, precio: Optional[str] = None):
+        self.id = id
+        self.nombre = nombre
+        self.descripcion = descripcion
+        self.precio = precio
+
+    def __repr__(self):
+        return f"Producto(id={self.id!r}, nombre={self.nombre!r}, descripcion={self.descripcion!r}, precio={self.precio!r})"
+
+class Pedido:
+    def __init__(self, id: Optional[int] = None, fecha: Optional[str] = None, id_cliente: Optional[str] = None):
+        self.id = id
+        self.fecha = fecha
+        self.id_cliente = id_cliente
+
+    def __repr__(self):
+        return f"Pedido(id={self.id!r}, fecha={self.fecha!r}, id_cliente={self.id_cliente!r})"
+
+    # FK1: id_cliente -> cliente.id
+
+class Lineapedido:
+    def __init__(self, id: Optional[int] = None, pedido_id: Optional[int] = None, producto_id: Optional[int] = None, cantidad: Optional[str] = None):
+        self.id = id
+        self.pedido_id = pedido_id
+        self.producto_id = producto_id
+        self.cantidad = cantidad
+
+    def __repr__(self):
+        return f"Lineapedido(id={self.id!r}, pedido_id={self.pedido_id!r}, producto_id={self.producto_id!r}, cantidad={self.cantidad!r})"
+
+    # FK1: pedido_id -> pedido.id
+    # FK2: producto_id -> producto.id
+```
+
+### diagrama relaciones
+<small>Creado: 2025-12-15 16:49</small>
+
+`diagrama relaciones.sql`
+
+```sql
+CREATE TABLE cliente (
+  id INT,
+  nombre VARCHAR(255),
+  apellidos VARCHAR(255),
+  email VARCHAR(255),
+  direccion VARCHAR(255),
+  PRIMARY KEY (id)
+);
+
+CREATE TABLE producto (
+  id INT,
+  nombre VARCHAR(255),
+  descripcion VARCHAR(255),
+  precio VARCHAR(255),
+  PRIMARY KEY (id)
+);
+
+CREATE TABLE pedido (
+  id INT,
+  fecha VARCHAR(255),
+  id_cliente VARCHAR(255),
+  PRIMARY KEY (id),
+  CONSTRAINT fk_pedido_1 FOREIGN KEY (id_cliente) REFERENCES cliente(id)
+);
+
+CREATE TABLE lineapedido (
+  id INT,
+  pedido_id INT,
+  producto_id INT,
+  cantidad VARCHAR(255),
+  PRIMARY KEY (id),
+  CONSTRAINT fk_lineapedido_1 FOREIGN KEY (pedido_id) REFERENCES pedido(id),
+  CONSTRAINT fk_lineapedido_2 FOREIGN KEY (producto_id) REFERENCES producto(id)
+);
+```
+
+### diagrama relaciones
+<small>Creado: 2025-12-15 16:49</small>
+
+`diagrama relaciones.svg`
+
+```
+<svg xmlns="http://www.w3.org/2000/svg" width="739.0000343322752" height="443.28128814697254" viewBox="0 0 739.0000343322752 443.28128814697254">
+
+  <defs>
+    <style>
+      text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 12px; fill: #111827; }
+      .shape-rect { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-entity { fill: #ffffff; stroke: #111827; stroke-width: 2; }
+      .shape-circle { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-pill { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-db { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .conn { stroke: #111827; stroke-width: 2; fill: none; }
+    </style>
+    <marker id="arrow-end" markerWidth="10" markerHeight="7" refX="10" refY="3.5"
+            orient="auto" markerUnits="strokeWidth">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#111827"/>
+    </marker>
+    <marker id="arrow-start" markerWidth="10" markerHeight="7" refX="0" refY="3.5"
+            orient="auto" markerUnits="strokeWidth">
+      <polygon points="10 0, 0 3.5, 10 7" fill="#111827"/>
+    </marker>
+  </defs>
+        
+<rect class="shape-entity" x="40" y="40" width="160.00001907348627" height="182.00000762939447" />
+<line x1="40" y1="69.99999999999999" x2="200.00001907348627" y2="69.99999999999999" stroke="#e5e7eb" stroke-width="1"/>
+<text x="120.00000953674314" y="59.49999237060546" text-anchor="middle">Cliente</text>
+<text x="93.76564407348633" y="89.99998474121094">id</text>
+<text x="93.76564407348633" y="114">nombre</text>
+<text x="93.76564407348633" y="138.000015258789">apellidos</text>
+<text x="93.76564407348633" y="161.9999923706054">email</text>
+<text x="93.76564407348633" y="186.00000762939447">direccion</text>
+<rect class="shape-entity" x="300.8750343322753" y="245.28125762939442" width="159.99999999999994" height="158.00003051757807" />
+<line x1="300.8750343322753" y1="275.2812576293944" x2="460.8750343322752" y2="275.2812576293944" stroke="#e5e7eb" stroke-width="1"/>
+<text x="380.8750343322753" y="264.7812499999999" text-anchor="middle">Producto</text>
+<text x="347.9062690734862" y="295.28124237060536">id</text>
+<text x="347.9062690734862" y="319.2812576293944">nombre</text>
+<text x="347.9062690734862" y="343.2812728881835">descripcion</text>
+<text x="347.9062690734862" y="367.28128814697254">precio</text>
+<rect class="shape-entity" x="288.3750343322753" y="60.28125762939453" width="159.99999999999994" height="133.99997711181635" />
+<line x1="288.3750343322753" y1="90.28125762939452" x2="448.3750343322752" y2="90.28125762939452" stroke="#e5e7eb" stroke-width="1"/>
+<text x="368.3750343322753" y="79.78125" text-anchor="middle">Pedido</text>
+<text x="340.4687919616698" y="110.28124237060547">id</text>
+<text x="340.4687919616698" y="134.28125762939447">fecha</text>
+<text x="340.4687919616698" y="158.28123474121088">id_cliente</text>
+<rect class="shape-entity" x="539.0000343322752" y="149.03125762939447" width="159.99999999999994" height="157.9999923706054" />
+<line x1="539.0000343322752" y1="179.03125762939447" x2="699.0000343322752" y2="179.03125762939447" stroke="#e5e7eb" stroke-width="1"/>
+<text x="619.0000343322752" y="168.53124999999994" text-anchor="middle">LineaPedido</text>
+<text x="584.1875495910642" y="199.0312423706054">id</text>
+<text x="584.1875495910642" y="223.03125762939442">pedido_id</text>
+<text x="584.1875495910642" y="247.03123474121082">producto_id</text>
+<text x="584.1875495910642" y="271.0312499999999">cantidad</text>
+<path class="conn" d="M 320.4687690734862 152.20246031727913 L 166.2343788146972 88.07875916514269" marker-end="url(#arrow-end)" />
+<path class="conn" d="M 564.1875648498533 215.46145472937053 L 416.2656593322752 109.85104527062936" marker-end="url(#arrow-end)" />
+<path class="conn" d="M 564.1875648498533 244.75003663432597 L 433.82814407348616 289.5624404774902" marker-end="url(#arrow-end)" />
+</svg>
+```
+
 
 <a id="notacion-de-los-diagramas-de-clases"></a>
 ## Notación de los diagramas de clases
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/006-Elaboraci%C3%B3n%20de%20diagramas%20de%20clases/004-Notaci%C3%B3n%20de%20los%20diagramas%20de%20clases)
 
 
 <a id="herramientas"></a>
 ## Herramientas
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/006-Elaboraci%C3%B3n%20de%20diagramas%20de%20clases/005-Herramientas)
+
 
 <a id="generacion-automatica-de-codigo-ingenieria-inversa"></a>
 ## Generación automática de código. Ingeniería inversa
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/006-Elaboraci%C3%B3n%20de%20diagramas%20de%20clases/006-Generaci%C3%B3n%20autom%C3%A1tica%20de%20c%C3%B3digo.%20Ingenier%C3%ADa%20inversa)
 
 
 
@@ -4625,25 +5736,624 @@ Este tipo de actividades son fundamentales para los estudiantes de Formación Pr
 <a id="clases-atributos-metodos-y-visibilidad-1"></a>
 ## Clases. Atributos, métodos y visibilidad
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/007-Elaboraci%C3%B3n%20de%20diagramas%20de%20comportamiento/001-Clases.%20Atributos%2C%20m%C3%A9todos%20y%20visibilidad)
+
+### diagrama de flujo
+<small>Creado: 2025-12-15 16:56</small>
+
+`diagrama de flujo.html`
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Diagrama exportado</title>
+<style>
+body {
+  margin: 0;
+  padding: 20px;
+  background: #f3f3f7;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+.page {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  width: 386.9843606387867px;
+  height: 453.9843929515164px;
+  overflow: visible;
+}
+
+/* formas básicas */
+.shape {
+  position: absolute;
+  min-width: 120px;
+  min-height: 40px;
+  padding: 6px 10px;
+  background: #ffffff;
+  border-radius: 4px;
+  border: 1px solid #9ca3af;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+}
+
+.shape.rectangle {
+  border-radius: 4px;
+}
+
+.shape.pill {
+  border-radius: 999px;
+}
+
+.shape.circle {
+  border-radius: 999px;
+  width: 80px;
+  height: 80px;
+  padding: 0;
+  justify-content: center;
+}
+
+/* texto libre */
+.shape.text {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  min-width: 20px;
+  min-height: 20px;
+}
+
+/* base de datos */
+.shape.db {
+  min-width: 120px;
+  min-height: 60px;
+  padding-top: 20px;
+  border-radius: 60px / 16px;
+  background: linear-gradient(180deg, #e5e7eb 0%, #ffffff 40%, #e5e7eb 100%);
+  position: absolute;
+  overflow: hidden;
+  text-align: center;
+}
+.shape.db::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 8px;
+  right: 8px;
+  height: 18px;
+  border-radius: 999px;
+  border: 1px solid #9ca3af;
+  background: radial-gradient(circle at 50% 30%, #ffffff 0%, #e5e7eb 70%);
+}
+.shape.db::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 8px;
+  right: 8px;
+  height: 18px;
+  border-radius: 999px;
+  border: 1px solid rgba(156, 163, 175, 0.6);
+  border-top: none;
+  background: radial-gradient(circle at 50% 70%, #e5e7eb 0%, #d1d5db 70%);
+}
+
+/* entidades ER */
+.shape.entity {
+  width: 220px;
+  min-height: 80px;
+  background: #ffffff;
+  border: 2px solid #111827;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.15);
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  overflow: hidden;
+  padding: 0;
+}
+.entity-header {
+  background: #f3f4f6;
+  padding: 4px 8px;
+  font-weight: 600;
+  text-align: center;
+  border-bottom: 1px solid #e5e7eb;
+}
+.entity-properties {
+  flex: 1;
+  padding: 4px 4px 0 4px;
+}
+.entity-property {
+  display: grid;
+  grid-template-columns: 14px 1fr 14px;
+  align-items: center;
+  column-gap: 4px;
+  padding: 2px 0;
+}
+.entity-property .property-name {
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+/* puertos */
+.port {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: 1px solid #111827;
+  background: #ffffff;
+}
+.port-left { justify-self: start; }
+.port-right { justify-self: end; }
+
+/* flechas rectas */
+.arrow {
+  position: absolute;
+  height: 2px;
+  background: #111827;
+  transform-origin: 0 50%;
+}
+.arrow::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid #111827;
+}
+.arrow-double::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%) rotate(180deg);
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid #111827;
+}
+
+/* flechas ortogonales */
+.ortho-arrow {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.ortho-arrow .ortho-seg {
+  position: absolute;
+  background: #111827;
+}
+.ortho-seg.seg-horizontal { height: 2px; }
+.ortho-seg.seg-vertical { width: 2px; }
+.ortho-arrowhead {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+.ortho-arrowhead.dir-right {
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid #111827;
+}
+.ortho-arrowhead.dir-left {
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 8px solid #111827;
+}
+.ortho-arrowhead.dir-down {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 8px solid #111827;
+}
+.ortho-arrowhead.dir-up {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 8px solid #111827;
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+<div class="shape rectangle" style="left:45px;top:40px;width:119.99999999999996px;height:39.999999999999986px;">Inicio</div>
+<div class="shape rectangle" style="left:42.562471277573536px;top:105.39062499999997px;width:120.00003590303304px;height:39.999999999999986px;">Catálogo</div>
+<div class="shape rectangle" style="left:42.890625px;top:173.04687499999997px;width:119.99999999999996px;height:39.99998204848344px;">Producto</div>
+<div class="shape rectangle" style="left:41.82811063878677px;top:238.98435704848336px;width:119.99999999999996px;height:40.00003590303307px;">Carrito</div>
+<div class="shape rectangle" style="left:41.343742819393384px;top:302.15624640969656px;width:121.9843965418198px;height:39.999999999999986px;">Datos personales</div>
+<div class="shape rectangle" style="left:40px;top:373.9843929515164px;width:119.99999999999996px;height:39.999999999999986px;">Finalización</div>
+<div class="shape text" style="left:247.12499281939333px;top:50.20312140969668px;width:56.49999281939336px;height:19.999999999999993px;">index.php</div>
+<div class="shape text" style="left:239.29687499999991px;top:113.6250035903033px;width:75.39062499999997px;height:19.999999999999993px;">catalogo.php</div>
+<div class="shape text" style="left:235.89061063878668px;top:183.07812859030324px;width:78.04687499999997px;height:19.999999999999993px;">producto.php</div>
+<div class="shape text" style="left:234.3437284581801px;top:246.2187464096966px;width:63.343757180606595px;height:19.999999999999993px;">carrito.php</div>
+<div class="shape text" style="left:226.1406034581801px;top:311.1718929515165px;width:120.84375718060657px;height:19.999999999999993px;">datospersonales.php</div>
+<div class="shape text" style="left:221.31250718060656px;top:383.8281429515164px;width:90.70308909696688px;height:19.999999999999993px;">finalizacion.php</div>
+<div class="arrow" style="left:104.25447699240985px;top:80px;width:25.408259157692445px;transform:rotate(1.608055226342451rad);"></div>
+<div class="arrow" style="left:102.6594901165004px;top:145.39062499999997px;width:27.65657527610903px;transform:rotate(1.5659463204529298rad);"></div>
+<div class="arrow" style="left:102.56834595098093px;top:213.04685704848336px;width:25.94086724312086px;transform:rotate(1.586908891979556rad);"></div>
+<div class="arrow" style="left:101.98888817980318px;top:278.9843929515165px;width:23.172602168388657px;transform:rotate(1.5627576301192991rad);"></div>
+<div class="arrow" style="left:101.68551609598904px;top:342.15624640969656px;width:31.844973321959674px;transform:rotate(1.6033061186126485rad);"></div>
+<div class="arrow" style="left:164.99999999999997px;top:60.07153212239041px;width:82.12505118337548px;transform:rotate(0.0011922014749970792rad);"></div>
+<div class="arrow" style="left:162.56250718060662px;top:124.78328968194623px;width:76.73829882002393px;transform:rotate(-0.010121906585025129rad);"></div>
+<div class="arrow" style="left:162.89062499999997px;top:193.05777008561583px;width:72.9999868442857px;transform:rotate(0.00018173435423447847rad);"></div>
+<div class="arrow" style="left:161.82811063878668px;top:257.9737151200044px;width:72.52590457221464px;transform:rotate(-0.016842738515290143rad);"></div>
+<div class="arrow" style="left:163.3281393612132px;top:321.8303548146109px;width:62.81336072122098px;transform:rotate(-0.005343117694322238rad);"></div>
+<div class="arrow" style="left:159.99999999999997px;top:393.92814206896105px;width:61.31253412541905px;transform:rotate(-0.0009375144345826489rad);"></div>
+</div>
+</body>
+</html>
+```
+
+### diagrama de flujo
+<small>Creado: 2025-12-15 16:56</small>
+
+`diagrama de flujo.json`
+
+```json
+{
+  "formas": [
+    {
+      "id": "forma-1",
+      "tipo": "rectangle",
+      "left": "166.853px",
+      "top": "158.378px",
+      "width": "",
+      "height": "",
+      "texto": "Inicio"
+    },
+    {
+      "id": "forma-2",
+      "tipo": "rectangle",
+      "left": "164.407px",
+      "top": "223.776px",
+      "width": "",
+      "height": "",
+      "texto": "Catálogo"
+    },
+    {
+      "id": "forma-3",
+      "tipo": "rectangle",
+      "left": "164.736px",
+      "top": "291.434px",
+      "width": "",
+      "height": "",
+      "texto": "Producto"
+    },
+    {
+      "id": "forma-4",
+      "tipo": "rectangle",
+      "left": "163.678px",
+      "top": "357.359px",
+      "width": "",
+      "height": "",
+      "texto": "Carrito"
+    },
+    {
+      "id": "forma-5",
+      "tipo": "rectangle",
+      "left": "163.202px",
+      "top": "420.537px",
+      "width": "",
+      "height": "",
+      "texto": "Datos personales"
+    },
+    {
+      "id": "forma-6",
+      "tipo": "rectangle",
+      "left": "161.847px",
+      "top": "492.369px",
+      "width": "",
+      "height": "",
+      "texto": "Finalización"
+    },
+    {
+      "id": "forma-7",
+      "tipo": "text",
+      "left": "368.971px",
+      "top": "168.593px",
+      "width": "",
+      "height": "",
+      "texto": "index.php"
+    },
+    {
+      "id": "forma-8",
+      "tipo": "text",
+      "left": "361.146px",
+      "top": "232.012px",
+      "width": "",
+      "height": "",
+      "texto": "catalogo.php"
+    },
+    {
+      "id": "forma-9",
+      "tipo": "text",
+      "left": "357.743px",
+      "top": "301.466px",
+      "width": "",
+      "height": "",
+      "texto": "producto.php"
+    },
+    {
+      "id": "forma-10",
+      "tipo": "text",
+      "left": "356.193px",
+      "top": "364.609px",
+      "width": "",
+      "height": "",
+      "texto": "carrito.php"
+    },
+    {
+      "id": "forma-11",
+      "tipo": "text",
+      "left": "347.993px",
+      "top": "429.561px",
+      "width": "",
+      "height": "",
+      "texto": "datospersonales.php"
+    },
+    {
+      "id": "forma-12",
+      "tipo": "text",
+      "left": "343.161px",
+      "top": "502.212px",
+      "width": "",
+      "height": "",
+      "texto": "finalizacion.php"
+    }
+  ],
+  "flechas": [
+    {
+      "desde": {
+        "shapeId": "forma-1",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-2",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-2",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-3",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-3",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-4",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-4",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-5",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-5",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-6",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-1",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-7",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-2",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-8",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-3",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-9",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-4",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-10",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-5",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-11",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-6",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-12",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    }
+  ]
+}
+```
+
+### diagrama de flujo
+<small>Creado: 2025-12-15 16:56</small>
+
+`diagrama de flujo.svg`
+
+```
+<svg xmlns="http://www.w3.org/2000/svg" width="386.9843606387867" height="453.9843929515164" viewBox="0 0 386.9843606387867 453.9843929515164">
+
+  <defs>
+    <style>
+      text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 12px; fill: #111827; }
+      .shape-rect { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-entity { fill: #ffffff; stroke: #111827; stroke-width: 2; }
+      .shape-circle { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-pill { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-db { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .conn { stroke: #111827; stroke-width: 2; fill: none; }
+    </style>
+    <marker id="arrow-end" markerWidth="10" markerHeight="7" refX="10" refY="3.5"
+            orient="auto" markerUnits="strokeWidth">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#111827"/>
+    </marker>
+    <marker id="arrow-start" markerWidth="10" markerHeight="7" refX="0" refY="3.5"
+            orient="auto" markerUnits="strokeWidth">
+      <polygon points="10 0, 0 3.5, 10 7" fill="#111827"/>
+    </marker>
+  </defs>
+        
+<rect class="shape-rect" x="45" y="40" width="119.99999999999996" height="39.999999999999986" rx="4" ry="4" />
+<text x="104.99999999999997" y="63.99999999999999" text-anchor="middle">Inicio</text>
+<rect class="shape-rect" x="42.562471277573536" y="105.39062499999997" width="120.00003590303304" height="39.999999999999986" rx="4" ry="4" />
+<text x="102.56248922909006" y="129.39062499999997" text-anchor="middle">Catálogo</text>
+<rect class="shape-rect" x="42.890625" y="173.04687499999997" width="119.99999999999996" height="39.99998204848344" rx="4" ry="4" />
+<text x="102.89062499999997" y="197.0468660242417" text-anchor="middle">Producto</text>
+<rect class="shape-rect" x="41.82811063878677" y="238.98435704848336" width="119.99999999999996" height="40.00003590303307" rx="4" ry="4" />
+<text x="101.82811063878674" y="262.9843749999999" text-anchor="middle">Carrito</text>
+<rect class="shape-rect" x="41.343742819393384" y="302.15624640969656" width="121.9843965418198" height="39.999999999999986" rx="4" ry="4" />
+<text x="102.3359410903033" y="326.15624640969656" text-anchor="middle">Datos personales</text>
+<rect class="shape-rect" x="40" y="373.9843929515164" width="119.99999999999996" height="39.999999999999986" rx="4" ry="4" />
+<text x="99.99999999999997" y="397.9843929515164" text-anchor="middle">Finalización</text>
+<text x="247.12499281939333" y="64.20312140969668">index.php</text>
+<text x="239.29687499999991" y="127.6250035903033">catalogo.php</text>
+<text x="235.89061063878668" y="197.07812859030324">producto.php</text>
+<text x="234.3437284581801" y="260.21874640969656">carrito.php</text>
+<text x="226.1406034581801" y="325.1718929515165">datospersonales.php</text>
+<text x="221.31250718060656" y="397.8281429515164">finalizacion.php</text>
+<path class="conn" d="M 104.25447699240985 80 L 103.30801223668018 105.39062499999997" marker-end="url(#arrow-end)" />
+<path class="conn" d="M 102.6594901165004 145.39062499999997 L 102.79362415612246 173.04687499999997" marker-end="url(#arrow-end)" />
+<path class="conn" d="M 102.56834595098093 213.04685704848336 L 102.15039012171081 238.98435704848336" marker-end="url(#arrow-end)" />
+<path class="conn" d="M 101.98888817980318 278.9843929515165 L 102.17516369359674 302.15624640969656" marker-end="url(#arrow-end)" />
+<path class="conn" d="M 101.68551609598904 342.15624640969656 L 100.65042499431422 373.9843929515164" marker-end="url(#arrow-end)" />
+<path class="conn" d="M 164.99999999999997 60.07153212239041 L 247.12499281939333 60.16944170635156" marker-end="url(#arrow-end)" />
+<path class="conn" d="M 162.56250718060662 124.78328968194623 L 239.29687499999991 124.00656505291522" marker-end="url(#arrow-end)" />
+<path class="conn" d="M 162.89062499999997 193.05777008561583 L 235.89061063878668 193.07103669101107" marker-end="url(#arrow-end)" />
+<path class="conn" d="M 161.82811063878668 257.9737151200044 L 234.34372845818004 256.75223802661844" marker-end="url(#arrow-end)" />
+<path class="conn" d="M 163.3281393612132 321.8303548146109 L 226.1406034581801 321.494737232426" marker-end="url(#arrow-end)" />
+<path class="conn" d="M 159.99999999999997 393.92814206896105 L 221.31250718060656 393.870660691618" marker-end="url(#arrow-end)" />
+</svg>
+```
+
 
 <a id="objetos-instanciacion-1"></a>
 ## Objetos. Instanciación
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/007-Elaboraci%C3%B3n%20de%20diagramas%20de%20comportamiento/002-Objetos.%20Instanciaci%C3%B3n)
 
 
 <a id="relaciones-asociacion-navegabilidad-y-multiplicidad-herencia-composicion-agregacion-realizacion-y-dependencia-1"></a>
 ## Relaciones. Asociación, navegabilidad y multiplicidad. Herencia, composición, agregación. Realización y dependencia
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/007-Elaboraci%C3%B3n%20de%20diagramas%20de%20comportamiento/003-Relaciones.%20Asociaci%C3%B3n%2C%20navegabilidad%20y%20multiplicidad.%20Herencia%2C%20composici%C3%B3n%2C%20agregaci%C3%B3n.%20Realizaci%C3%B3n%20y%20dependencia)
+
 
 <a id="notacion-de-los-diagramas-de-clases-1"></a>
 ## Notación de los diagramas de clases
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/007-Elaboraci%C3%B3n%20de%20diagramas%20de%20comportamiento/004-Notaci%C3%B3n%20de%20los%20diagramas%20de%20clases)
 
 
 <a id="herramientas-1"></a>
 ## Herramientas
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/007-Elaboraci%C3%B3n%20de%20diagramas%20de%20comportamiento/005-Herramientas)
+
 
 <a id="generacion-automatica-de-codigo-ingenieria-inversa-1"></a>
 ## Generación automática de código. Ingeniería inversa
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/007-Elaboraci%C3%B3n%20de%20diagramas%20de%20comportamiento/006-Generaci%C3%B3n%20autom%C3%A1tica%20de%20c%C3%B3digo.%20Ingenier%C3%ADa%20inversa)
 
 
 
@@ -4652,6 +6362,8 @@ Este tipo de actividades son fundamentales para los estudiantes de Formación Pr
 
 <a id="php"></a>
 ## PHP
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/008-Programacion%20en%20entorno%20servidor/001-PHP)
 
 ### Introducción a los ejercicios
 
@@ -5692,6 +7404,8 @@ Estas actividades ayudarán a los estudiantes a familiarizarse gradualmente con 
 <a id="conexion-a-mysql-desde-php"></a>
 ## Conexion a MySQL desde PHP
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/008-Programacion%20en%20entorno%20servidor/002-Conexion%20a%20MySQL%20desde%20PHP)
+
 ### Introducción a los ejercicios
 
 Este conjunto de ejercicios está diseñado para que los estudiantes practiquen la conexión a una base de datos MySQL desde PHP y el manejo de resultados en un entorno web. Los problemas van desde conectarse básicamente a la base de datos y recuperar información, hasta formatearla y mostrarla en una página web con estilos básicos y estructuras HTML más complejas como tablas y navegación. Se trabajan competencias esenciales como el uso del lenguaje PHP para consultas SQL, la integración de código PHP dentro de documentos HTML, y la aplicación de CSS básico para mejorar la presentación visual de los datos.
@@ -6235,6 +7949,8 @@ Esta página es útil para visualizar rápidamente cómo se estructuran los dato
 <a id="get-y-post-en-php"></a>
 ## get y post en PHP
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/008-Programacion%20en%20entorno%20servidor/003-get%20y%20post%20en%20PHP)
+
 ### Introducción a los ejercicios
 
 Esta carpeta contiene una serie de ejercicios en PHP que se centran en el manejo de formularios y la interacción con bases de datos. Los problemas abordan cómo capturar y procesar datos enviados mediante métodos GET y POST, así como cómo estructurar y mejorar la presentación de información desde una base de datos en páginas web. Estos ejercicios permiten a los estudiantes practicar habilidades fundamentales de programación en PHP, incluyendo el uso de variables superglobales, consultas SQL básicas y técnicas de diseño web para mejorar la estética de las aplicaciones.
@@ -6643,6 +8359,8 @@ Estas actividades están diseñadas para proporcionar a los estudiantes una comp
 
 <a id="recuperacion-de-emails-con-imap"></a>
 ## recuperacion de emails con imap
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/008-Programacion%20en%20entorno%20servidor/004-recuperacion%20de%20emails%20con%20imap)
 
 ### Introducción a los ejercicios
 
@@ -9624,12 +11342,20 @@ El código que proporcionaste es un sitio web dinámico en PHP que utiliza la bi
 Este diseño proporciona una base sólida para un sitio web personalizado que mantiene a los usuarios informados sobre los últimos correos electrónicos.
 
 
+<a id="html-como-pug"></a>
+## html como pug
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/008-Programacion%20en%20entorno%20servidor/005-html%20como%20pug)
+
+
 
 <a id="actividad-libre-de-final-de-evaluacion-la-milla-extra"></a>
 # Actividad libre de final de evaluación - La milla extra
 
 <a id="la-milla-extra-primera-evaluacion"></a>
 ## La Milla Extra - Primera evaluación
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/201-Actividad%20libre%20de%20final%20de%20evaluaci%C3%B3n%20-%20La%20milla%20extra/001-La%20Milla%20Extra%20-%20Primera%20evaluaci%C3%B3n)
 
 ### Introducción a los ejercicios
 

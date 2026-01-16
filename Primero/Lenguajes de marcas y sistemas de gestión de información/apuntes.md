@@ -76,6 +76,8 @@
 <a id="clasificacion"></a>
 ## Clasificación
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/001-Reconocimiento%20de%20las%20caracter%C3%ADsticas%20de%20lenguajes%20de%20marcas/001-Clasificaci%C3%B3n)
+
 ### Introducción a los ejercicios
 
 En este conjunto de ejercicios, estás explorando los fundamentos del lenguaje de marcado Markdown. Los archivos proporcionan una introducción a elementos básicos como encabezados, párrafos, listas, hiperenlaces, imágenes y citas, entre otros. A través de estos ejercicios, mejorarás tus habilidades en la estructuración y presentación del contenido digital utilizando un lenguaje simple pero efectivo. Esto es crucial para el desarrollo web y la creación de documentación técnica.
@@ -115,6 +117,8 @@ En este conjunto de ejercicios, estás explorando los fundamentos del lenguaje d
 
 <a id="caracteristicas-y-ambitos-de-aplicacion"></a>
 ## Características y ámbitos de aplicación
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/001-Reconocimiento%20de%20las%20caracter%C3%ADsticas%20de%20lenguajes%20de%20marcas/002-Caracter%C3%ADsticas%20y%20%C3%A1mbitos%20de%20aplicaci%C3%B3n)
 
 ### Introducción a los ejercicios
 
@@ -310,6 +314,8 @@ Estas actividades están diseñadas para cubrir los conceptos básicos de cada u
 <a id="estructura-y-sintaxis"></a>
 ## Estructura y sintaxis
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/001-Reconocimiento%20de%20las%20caracter%C3%ADsticas%20de%20lenguajes%20de%20marcas/003-Estructura%20y%20sintaxis)
+
 ### Introducción a los ejercicios
 
 Esta carpeta contiene una serie de ejercicios diseñados para introducir a los estudiantes del DAM al lenguaje XML y sus características básicas. Los problemas abordan desde la comprensión general de lo que es XML hasta conceptos más específicos como la declaración del documento, el uso de etiquetas simples y anidadas, atributos en las etiquetas y cómo incorporar comentarios en archivos XML. A través de estos ejercicios, los estudiantes podrán practicar sus habilidades para estructurar datos de manera jerárquica y comprender la sintaxis básica requerida por este lenguaje de marcado.
@@ -473,6 +479,8 @@ Este tipo de estructura es importante porque permite organizar datos de manera c
 <a id="herramientas-de-edicion"></a>
 ## Herramientas de edición
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/001-Reconocimiento%20de%20las%20caracter%C3%ADsticas%20de%20lenguajes%20de%20marcas/004-Herramientas%20de%20edici%C3%B3n)
+
 ### Introducción a los ejercicios
 
 El conjunto de ejercicios en esta carpeta se centra en la importancia de las herramientas de edición y cómo elegir aquella que mejor se adapte a tus necesidades para programar. El archivo proporcionado destaca que, aunque es crucial conocer diferentes entornos de desarrollo (IDE) como Gedit, Notepad++, o Visual Studio Code, lo realmente importante es centrarse en el código y entender bien los lenguajes utilizados. Este bloque de ejercicios ayuda a los estudiantes a familiarizarse con las ventajas y desventajas de distintas herramientas para edición de código, sin perder de vista que la calidad del programa depende más del contenido del código que del entorno en sí.
@@ -516,6 +524,8 @@ A través de estos ejercicios, se practica la competencia de seleccionar e imple
 
 <a id="elaboracion-de-documentos-bien-formados"></a>
 ## Elaboración de documentos bien formados
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/001-Reconocimiento%20de%20las%20caracter%C3%ADsticas%20de%20lenguajes%20de%20marcas/005-Elaboraci%C3%B3n%20de%20documentos%20bien%20formados)
 
 ### Introducción a los ejercicios
 
@@ -761,6 +771,8 @@ Estas actividades ayudarán a los estudiantes a familiarizarse con la sintaxis b
 <a id="utilizacion-de-espacios-de-nombres"></a>
 ## Utilización de espacios de nombres
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/001-Reconocimiento%20de%20las%20caracter%C3%ADsticas%20de%20lenguajes%20de%20marcas/006-Utilizaci%C3%B3n%20de%20espacios%20de%20nombres)
+
 ### Introducción a los ejercicios
 
 En esta carpeta, trabajamos con ejercicios que centran la atención en el uso de espacios de nombres (namespaces) en XML. El objetivo principal es comprender cómo utilizar namespaces para evitar conflictos entre elementos con los mismos nombres pero diferentes propósitos o orígenes. A través de este ejercicio, aprenderás a declarar y aplicar namespaces en documentos XML para organizar mejor la información estructurada, lo que es crucial en el manejo eficiente de lenguajes de marcas.
@@ -837,6 +849,8 @@ Este formato de XML ayuda a organizar claramente la información sobre varias pe
 
 <a id="ejercicio-practico"></a>
 ## Ejercicio práctico
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/001-Reconocimiento%20de%20las%20caracter%C3%ADsticas%20de%20lenguajes%20de%20marcas/007-Ejercicio%20pr%C3%A1ctico)
 
 ### Introducción a los ejercicios
 
@@ -1273,6 +1287,8 @@ Este formato XML es muy útil para estructurar datos complejos y jerárquicos, p
 
 <a id="curriculum"></a>
 ## Curriculum
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/001-Reconocimiento%20de%20las%20caracter%C3%ADsticas%20de%20lenguajes%20de%20marcas/008-Curriculum)
 
 ### Introducción a los ejercicios
 
@@ -1967,6 +1983,8 @@ Estas actividades están diseñadas para permitir a los estudiantes familiarizar
 <a id="ejercicio-de-final-de-unidad"></a>
 ## Ejercicio de final de unidad
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/001-Reconocimiento%20de%20las%20caracter%C3%ADsticas%20de%20lenguajes%20de%20marcas/101-Ejercicio%20de%20final%20de%20unidad)
+
 ### Introducción a los ejercicios
 
 Este conjunto de ejercicios está diseñado para que los estudiantes trabajen con fechas y cálculos matemáticos en Python, centrando su atención en el manejo adecuado de objetos y métodos. El ejercicio principal consiste en crear un script llamado `planificador_cuadras.py` que calcule cuántas cuadras son necesarias para alojar un número dado de caballos, teniendo en cuenta la capacidad máxima por cuadra y redondeando al alza el resultado. Además, se requiere presentar información detallada sobre la fecha proporcionada por el usuario, incluyendo el día de la semana y si cae entre semana o fin de semana.
@@ -2051,9 +2069,13 @@ Los estudiantes deben crear un informe completo que no solo muestre los datos b�
 <a id="estandares-web-versiones-clasificacion"></a>
 ## Estándares web. Versiones. Clasificación
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/002-Utilizaci%C3%B3n%20de%20lenguajes%20de%20marcas%20en%20entornos%20web/001-Est%C3%A1ndares%20web.%20Versiones.%20Clasificaci%C3%B3n)
+
 
 <a id="estructura-de-un-documento-html"></a>
 ## Estructura de un documento HTML
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/002-Utilizaci%C3%B3n%20de%20lenguajes%20de%20marcas%20en%20entornos%20web/002-Estructura%20de%20un%20documento%20HTML)
 
 ### Introducción a los ejercicios
 
@@ -2251,17 +2273,25 @@ Estas actividades están diseñadas para ayudar a los estudiantes a comprender y
 <a id="identificacion-de-etiquetas-y-atributos-de-html"></a>
 ## Identificación de etiquetas y atributos de HTML
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/002-Utilizaci%C3%B3n%20de%20lenguajes%20de%20marcas%20en%20entornos%20web/003-Identificaci%C3%B3n%20de%20etiquetas%20y%20atributos%20de%20HTML)
+
 
 <a id="herramientas-de-diseno-web"></a>
 ## Herramientas de diseño web
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/002-Utilizaci%C3%B3n%20de%20lenguajes%20de%20marcas%20en%20entornos%20web/004-Herramientas%20de%20dise%C3%B1o%20web)
 
 
 <a id="hojas-de-estilo-css"></a>
 ## Hojas de estilo (CSS)
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/002-Utilizaci%C3%B3n%20de%20lenguajes%20de%20marcas%20en%20entornos%20web/005-Hojas%20de%20estilo%20%28CSS%29)
+
 
 <a id="validacion-de-documentos-html-y-css"></a>
 ## Validación de documentos HTML y CSS
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/002-Utilizaci%C3%B3n%20de%20lenguajes%20de%20marcas%20en%20entornos%20web/006-Validaci%C3%B3n%20de%20documentos%20HTML%20y%20CSS)
 
 ### Introducción a los ejercicios
 
@@ -3117,6 +3147,8 @@ Si quieres mejorar tu sitio web más allá de la simple validación, aquí hay a
 <a id="lenguajes-de-marcas-para-la-sindicacion-de-contenidos"></a>
 ## Lenguajes de marcas para la sindicación de contenidos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/002-Utilizaci%C3%B3n%20de%20lenguajes%20de%20marcas%20en%20entornos%20web/007-Lenguajes%20de%20marcas%20para%20la%20sindicaci%C3%B3n%20de%20contenidos)
+
 ### Introducción a los ejercicios
 
 En esta carpeta de ejercicios, encontrarás dos tipos principales de archivos: uno relacionado con la sindicación de contenidos a través del estándar RSS y otro que trata sobre el mapeo de sitios web (sitemaps) utilizando XML. Estos ejercicios están diseñados para ayudarte a comprender cómo estructurar información web para mejorar la visibilidad en motores de búsqueda, así como para proporcionar contenido actualizado a los suscriptores mediante RSS. Los archivos "001-RSS.md" y "sindication.rss" te guiarán en la creación de un archivo RSS que permite a las personas seguir tu sitio web para recibir notificaciones sobre nuevos artículos o cambios. Por otro lado, el archivo "sitemap.xml" te ayudará a generar una lista detallada de todas las páginas de tu sitio web, facilitando así su indexación por parte de motores como Google. Estos ejercicios fortalecerán tus habilidades en la estructuración y utilización efectiva del XML para mejorar el SEO y la distribución de contenido en línea.
@@ -3313,6 +3345,8 @@ Estas actividades están diseñadas para proporcionar una base sólida en el uso
 
 <a id="ejercicio-curriculum"></a>
 ## Ejercicio curriculum
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/002-Utilizaci%C3%B3n%20de%20lenguajes%20de%20marcas%20en%20entornos%20web/008-Ejercicio%20curriculum)
 
 ### Introducción a los ejercicios
 
@@ -5087,6 +5121,1106 @@ La principal diferencia con respecto a la versión anterior es que ahora se ha u
 </html>
 ```
 
+### curriculum completo
+<small>Creado: 2025-12-23 13:16</small>
+
+`016-curriculum completo.html`
+
+```html
+<!doctype html>
+<html lang="es">
+<head>
+  <title>Currículum · José Vicente Carratalá Sanchis</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <style>
+    :root{
+      --navy:#1f2a38;
+      --paper:#ffffff;
+      --bg:#0e1116;
+      --text:#111827;
+      --muted:#4b5563;
+      --line:#e5e7eb;
+    }
+
+    *{margin:0;padding:0;box-sizing:border-box;}
+    body{
+      background:var(--bg);
+      font-family: system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+      font-size:10.5px;
+      line-height:1.25;
+      padding:20px 0;
+    }
+
+    main{
+      width:794px;          /* A4 @ 96dpi */
+      height:1123px;
+      margin:auto;
+      background:var(--paper);
+      display:flex;
+      overflow:hidden;
+    }
+
+    /* =======================
+       COLUMNA IZQUIERDA
+       ======================= */
+    #izquierda{
+      flex:1.05;
+      background:var(--navy);
+      color:white;
+      padding:28px;
+      display:flex;
+      flex-direction:column;
+      gap:14px;
+    }
+
+    #izquierda img{
+      
+      object-fit:cover;
+      border-radius:50%;
+      border:2px solid rgba(255,255,255,.35);
+      margin-bottom:6px;
+    }
+
+    #izquierda article{
+      border-bottom:1px solid rgba(255,255,255,.25);
+      padding-bottom:10px;
+    }
+    #izquierda article:last-child{border-bottom:0}
+
+    #izquierda h3{
+      font-size:10px;
+      text-transform:uppercase;
+      letter-spacing:.12em;
+      margin-bottom:6px;
+    }
+
+    #izquierda ul{
+      list-style:none;
+      display:flex;
+      flex-direction:column;
+      gap:4px;
+    }
+
+    #izquierda li::before{
+      content:"• ";
+    }
+
+    /* =======================
+       COLUMNA DERECHA
+       ======================= */
+    #derecha{
+      flex:3;
+      padding:28px 32px;
+      display:flex;
+      flex-direction:column;
+      gap:10px;
+      color:var(--text);
+    }
+
+    #derecha h1{
+      font-size:20px;
+      line-height:1.05;
+    }
+
+    #derecha h2{
+      font-size:11px;
+      color:var(--muted);
+      font-weight:600;
+    }
+
+    #datospersonales ul{
+      list-style:none;
+      display:flex;
+      gap:14px;
+      flex-wrap:wrap;
+      border-bottom:1px solid var(--line);
+      padding-bottom:8px;
+    }
+
+    #datospersonales li{
+      font-size:10px;
+      color:var(--muted);
+    }
+
+    section > h2{
+      margin-top:6px;
+      font-size:10px;
+      text-transform:uppercase;
+      letter-spacing:.1em;
+      color:#374151;
+    }
+
+    #resumenprofesional p{
+      text-align:justify;
+    }
+
+    #historiallaboral,
+    #formacion{
+      display:flex;
+      flex-direction:column;
+      gap:8px;
+    }
+
+    #derecha article{
+      border:1px solid var(--line);
+      padding:8px 10px;
+    }
+
+    /* =======================
+       ARTÍCULOS CON LOGO
+       ======================= */
+    .article-row{
+      display:flex;
+      gap:10px;
+      align-items:flex-start;
+    }
+
+    .logo{
+      width:42px;
+      height:42px;
+      flex-shrink:0;
+      border:1px solid var(--line);
+      border-radius:6px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-size:8px;
+      color:var(--muted);
+      background:#fafafa;
+      text-align:center;
+      line-height:1.1;
+    }
+
+    .article-content{
+      flex:1;
+    }
+
+    .meta{
+      font-size:9.5px;
+      color:var(--muted);
+      margin-bottom:2px;
+    }
+
+    #derecha h4{
+      font-size:10.5px;
+      margin-bottom:2px;
+    }
+
+    #derecha article p{
+      font-size:9.5px;
+      color:var(--muted);
+      text-align:justify;
+    }
+
+    #derecha article ul{
+      margin-top:4px;
+      padding-left:14px;
+    }
+
+    #derecha article li{
+      font-size:9.5px;
+      margin:2px 0;
+      text-align:justify;
+    }
+
+    @media print{
+      body{background:white;padding:0}
+      main{box-shadow:none}
+    }
+    .social{
+      text-align:right;
+    }
+    .social img{
+      width:15px;
+    }
+    header{display:flex;justify-content: space-between;
+	align-items: center;}
+  </style>
+</head>
+
+<body>
+<main>
+
+  <!-- =======================
+       COLUMNA IZQUIERDA
+       ======================= -->
+  <section id="izquierda">
+    <img src="josevicente.jpg" alt="José Vicente Carratalá Sanchis">
+
+    <article>
+      <h3>Competencias</h3>
+      <ul>
+        <li>Desarrollo software a medida</li>
+        <li>Docencia presencial y online</li>
+        <li>Gráficos 3D y VR</li>
+        <li>Automatización y scripting</li>
+        <li>Robótica y prototipado</li>
+        <li>Inteligencia artificial y big data</li>
+      </ul>
+    </article>
+
+    <article>
+      <h3>Tecnologías</h3>
+      <ul>
+        <li>PHP · JavaScript · Python · Java</li>
+        <li>HTML · CSS · SQL</li>
+        <li>MySQL · SQLite · MongoDB</li>
+        <li>Linux · Ubuntu Server · Apache</li>
+      </ul>
+    </article>
+
+    <article>
+      <h3>Idiomas</h3>
+      <ul>
+        <li>Español · Nativo</li>
+        <li>Inglés · B2</li>
+        <li>Alemán · Básico</li>
+      </ul>
+    </article>
+    
+    <article>
+      <h3>Vehículo</h3>
+      <ul>
+        <li>Carnet de conducir B1</li>
+        <li>Vehículo propio</li>
+      </ul>
+    </article>
+  </section>
+
+  <!-- =======================
+       COLUMNA DERECHA
+       ======================= -->
+  <section id="derecha">
+
+    <header>
+    
+      <div id="identidad">
+      <h1>José Vicente Carratalá Sanchis
+      
+      </h1>
+      <h2>Diseñador industrial · Programador · Docente</h2>
+      </div>
+      <div class="social">
+          <a href="https://facebook.com/carratala" aria-label="Facebook de José Vicente Carratalá Sanchis"><img src="https://josevicentecarratala.com/logos/facebook.png" alt="Facebook" loading="lazy" decoding="async"></a>
+          <a href="https://www.instagram.com/jvcarratala/" aria-label="Instagram de José Vicente Carratalá Sanchis"><img src="https://josevicentecarratala.com/logos/instagram.png" alt="Instagram" loading="lazy" decoding="async"></a>
+          <a href="mailto:info@josevicentecarratala.com" aria-label="Enviar correo a José Vicente Carratalá Sanchis"><img src="https://josevicentecarratala.com/logos/email.png" alt="Email" loading="lazy" decoding="async"></a>
+          <a href="https://github.com/jocarsa" aria-label="GitHub de José Vicente Carratalá Sanchis"><img src="https://josevicentecarratala.com/logos/github.png" alt="GitHub" loading="lazy" decoding="async"></a>
+          <a href="https://josevicentecarratala.com" aria-label="Web principal de José Vicente Carratalá Sanchis"><img src="https://josevicentecarratala.com/logos/home.png" alt="Web" loading="lazy" decoding="async"></a>
+          <a href="https://www.linkedin.com/in/jvcarratala/" aria-label="LinkedIn de José Vicente Carratalá Sanchis"><img src="https://josevicentecarratala.com/logos/linkedin.png" alt="LinkedIn" loading="lazy" decoding="async"></a>
+          <a href="https://wa.me/34620891718" aria-label="WhatsApp de José Vicente Carratalá Sanchis"><img src="https://josevicentecarratala.com/logos/whatsapp.png" alt="WhatsApp" loading="lazy" decoding="async"></a>
+          <a href="https://www.youtube.com/@VicenteCarratala" aria-label="YouTube de José Vicente Carratalá Sanchis"><img src="https://josevicentecarratala.com/logos/youtube.png" alt="YouTube" loading="lazy" decoding="async"></a>
+      </div>
+    </header>
+
+    <section id="datospersonales">
+      <ul>
+        <li>Valencia (España)</li>
+        <li>Nacido el 14/04/1978</li>
+        <li>+34 620 89 17 18</li>
+        <li>info@josevicentecarratala.com</li>
+        <li>josevicentecarratala.com · jocarsa.com</li>
+      </ul>
+    </section>
+
+    <section id="resumenprofesional">
+      <h2>Resumen profesional</h2>
+      <p>
+        Diseñador industrial, desarrollador y docente con amplia experiencia en programación,
+        gráficos 3D, visualización interactiva y formación técnica. Fundador de JOCARSA,
+        especializado en desarrollo de software a medida, creación de material formativo
+        y docencia orientada a proyectos reales.
+      </p>
+    </section>
+
+    <section id="historiallaboral">
+      <h2>Experiencia</h2>
+      <article>
+        <div class="article-row">
+          <div class="logo" style="background:url(https://static.jocarsa.com/logos/jocarsa%20%7C%20Indigo.svg);background-size:cover;"></div>
+          <div class="article-content">
+            <div class="meta">2000 – Actualidad</div>
+            <h4>Propietario, CEO y Fundador — JOCARSA</h4>
+            <p>
+              Desarrollo de aplicaciones a medida, plataformas educativas,
+              gráficos 3D y proyectos de visualización interactiva.
+            </p>
+     
+          </div>
+        </div>
+      </article>
+      <article>
+        <div class="article-row">
+          <div class="logo" style="background:url(https://media.licdn.com/dms/image/v2/C4D03AQFr8CA2g_S0Fw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516965067109?e=2147483647&v=beta&t=XkXqh6W9FR7s79snIgq8aG3Du_R49evMB9OlTiCSvHE);background-size:cover;"></div>
+          <div class="article-content">
+            <div class="meta">2020 – presente</div>
+            <h4>TAME Formación (Mislata) - Profesor de ciclos formativos DAM/SMR</h4>
+            <p>
+              Docencia en los ciclos formativos de grado medio SMR y de grado superior DAM
+            </p>
+          </div>
+        </div>
+      </article>
+      
+      <article>
+        <div class="article-row">
+          <div class="logo" style="background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3J3hd5Inl8lXzqHjIQl8telURSv-gFsFC7w&s);background-size:cover;"></div>
+          <div class="article-content">
+            <div class="meta">2025 – presente</div>
+            <h4>CEAC (Burjassot) - Profesor de ciclos formativos DAM/DAW/ASIR</h4>
+            <p>
+              Docencia en los Ciclos Formativos de Grado Superior DAM/DAW/ASIR
+            </p>
+          </div>
+        </div>
+      </article>
+      
+      
+
+      <article>
+        <div class="article-row">
+          <div class="logo" style="background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVZYawSdQ8_-5_Y9QcAd4XGnu9IDCvx4yJEQ&s);background-size:cover;"></div>
+          <div class="article-content">
+            <div class="meta">2023 – 2024 · Online</div>
+            <h4>Profesor de ciclos formativos — IMF</h4>
+            <p>
+              Docencia online en ciclos DAM y DAW con enfoque práctico
+              y orientación a proyectos.
+            </p>
+           
+          </div>
+        </div>
+      </article>
+<article>
+        <div class="article-row">
+          <div class="logo" style="background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiccuFatOtl8d0Y6FcNbkrYqWjNinmIuaQBA&s);background-size:cover;"></div>
+          <div class="article-content">
+            <div class="meta">2022 – 2025</div>
+            <h4>Escuela Mastermedia - Profesor en master de programación web</h4>
+            <p>
+              Profesor en el master de programación web
+            </p>
+          </div>
+        </div>
+      </article>
+      <article>
+        <div class="article-row">
+          <div class="logo" style="background:url(https://media.licdn.com/dms/image/v2/D4D0BAQHVfYcRCvrUBw/company-logo_200_200/B4DZo0NFdlKUAM-/0/1761812437246/capitol_formacion_profesional_logo?e=2147483647&v=beta&t=XuzbSuemcKF8A0aNyqAzffbv41ABA1n-FuZ4CXRVLWc);background-size:cover;"></div>
+          <div class="article-content">
+            <div class="meta">2017 – 2024 · Presencial y online</div>
+            <h4>Profesor de ciclos formativos — Capitol Empresa</h4>
+            <p>
+              Docencia en los ciclos formativos:
+              
+            </p>
+            <ul>
+                <li>Desarrollo de Aplicaciones Multiplataforma</li>
+                <li>Sistemas Microinformáticos y Redes</li>
+                <li>Marketing y Publicidad</li>
+                <li>Actividades Comerciales / Comercio Internacional</li>
+                <li>Administración y Finanzas</li>
+              </ul>
+          </div>
+        </div>
+      </article>
+      <article>
+        <div class="article-row">
+          <div class="logo" style="background:url(https://inmoblesxuquer.es/wp-content/uploads/2017/11/marca_UPV_principal_negro300-e1523953550305.png);background-size:cover;"></div>
+          <div class="article-content">
+            <div class="meta">2010-2017</div>
+            <h4>Universitat Politècncia de Valencia - Profesor de formación de postgrado</h4>
+            <p>
+              Creación de cursos técnicos en programación, gráficos 3D,
+              bases de datos y sistemas Linux.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article>
+        <div class="article-row">
+          <div class="logo" style="background:url(https://cdn-icons-png.flaticon.com/512/124/124011.png);background-size:cover;"></div>
+          <div class="article-content">
+            <div class="meta">2010 – 2020 · Online</div>
+            <h4>Autor de contenidos — LinkedIn Learning</h4>
+            <p>
+              Creación de cursos técnicos en programación, gráficos 3D,
+              bases de datos y sistemas Linux.
+            </p>
+          </div>
+        </div>
+      </article>
+      
+      
+      
+      <article>
+        <div class="article-row">
+          <div class="logo" style="background:url(https://media.licdn.com/dms/image/v2/C4D0BAQEkDSakVIhLBw/company-logo_200_200/company-logo_200_200/0/1675248069966/ensenyem_logo?e=2147483647&v=beta&t=fEenCgg3stSVls9BlmMxJ4djy033liqopqXjshYDiXA);background-size:cover;"></div>
+          <div class="article-content">
+            <div class="meta">2009-2019</div>
+            <h4>Ensenyem - Profesor de cursos de especialización</h4>
+            <p>
+               Impartición de cursos de gráficos 3D, modelado de producto industrial, y programación informática
+            </p>
+          </div>
+        </div>
+      </article>
+      
+      <article>
+        <div class="article-row">
+          <div class="logo" style="background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8HSRvAQO1HbWhiyq_a1rNf5Jl8GnJ1itOCQ&s);background-size:cover;"></div>
+          <div class="article-content">
+            <div class="meta">2006 - 2019</div>
+            <h4>UA School - Profesor en master de programación de videojuegos</h4>
+            <p>
+              Creación de cursos técnicos en programación, gráficos 3D,
+              bases de datos y sistemas Linux.
+            </p>
+          </div>
+        </div>
+      </article>
+      
+      
+      
+      <article>
+        <div class="article-row">
+          <div class="logo" style="background:url(https://inmoblesxuquer.es/wp-content/uploads/2017/11/marca_UPV_principal_negro300-e1523953550305.png);background-size:cover;"></div>
+          <div class="article-content">
+            <div class="meta">2000 – 2006</div>
+            <h4>Profesor de cursos de formación de postgrado</h4>
+            <p>
+              Creación de cursos técnicos en programación, gráficos 3D,
+              bases de datos y sistemas Linux.
+            </p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section id="formacion">
+      <h2>Formación</h2>
+
+      <article>
+        <div class="article-row">
+          <div class="logo">UPV</div>
+          <div class="article-content">
+            <h4>Ingeniero Técnico en Diseño Industrial</h4>
+            <p>Universitat Politècnica de València · 1997 – 2000</p>
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-row">
+          <div class="logo">UDIMA</div>
+          <div class="article-content">
+            <h4>Máster en Formación del Profesorado (en curso)</h4>
+            <p>UDIMA · Formación reglada en docencia</p>
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-row">
+          <div class="logo">LYNDA</div>
+          <div class="article-content">
+            <h4>Cursos de IA, Big Data y Machine Learning</h4>
+            <p>Lynda.com · Formación continua</p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+  </section>
+
+</main>
+</body>
+</html>
+```
+
+### optimizacion recursos humanos
+<small>Creado: 2025-12-30 12:04</small>
+
+`017-optimizacion recursos humanos.html`
+
+```html
+<!doctype html>
+<html lang="es">
+<head>
+  <title>Currículum · José Vicente Carratalá Sanchis</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <style>
+    :root{
+      --navy:#1f2a38;
+      --paper:#ffffff;
+      --bg:#0e1116;
+      --text:#111827;
+      --muted:#4b5563;
+      --line:#e5e7eb;
+      --chip:#f3f4f6;
+    }
+
+    *{margin:0;padding:0;box-sizing:border-box;}
+    body{
+      background:var(--bg);
+      font-family: system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+      font-size:10.5px;
+      line-height:1.25;
+      padding:20px 0;
+    }
+
+    main{
+      width:794px;          /* A4 @ 96dpi */
+      height:1123px;
+      margin:auto;
+      background:var(--paper);
+      display:flex;
+      overflow:hidden;
+    }
+
+    /* =======================
+       COLUMNA IZQUIERDA
+       ======================= */
+    #izquierda{
+      flex:1.05;
+      background:var(--navy);
+      color:white;
+      padding:28px;
+      display:flex;
+      flex-direction:column;
+      gap:14px;
+    }
+
+    #izquierda img{
+      object-fit:cover;
+      border-radius:50%;
+      border:2px solid rgba(255,255,255,.35);
+      margin-bottom:6px;
+    }
+
+    #izquierda article{
+      border-bottom:1px solid rgba(255,255,255,.25);
+      padding-bottom:10px;
+    }
+    #izquierda article:last-child{border-bottom:0}
+
+    #izquierda h3{
+      font-size:10px;
+      text-transform:uppercase;
+      letter-spacing:.12em;
+      margin-bottom:6px;
+    }
+
+    #izquierda ul{
+      list-style:none;
+      display:flex;
+      flex-direction:column;
+      gap:4px;
+    }
+
+    #izquierda li::before{content:"• ";}
+
+    /* chips */
+    .chips{
+      display:flex;
+      flex-wrap:wrap;
+      gap:6px;
+    }
+    .chip{
+      display:inline-block;
+      padding:4px 6px;
+      border-radius:999px;
+      background:rgba(255,255,255,.12);
+      border:1px solid rgba(255,255,255,.18);
+      color:rgba(255,255,255,.92);
+      font-size:9px;
+      line-height:1;
+      white-space:nowrap;
+    }
+
+    /* (MOVIDO) Logros/Perfil en columna izquierda */
+    .panel-left{
+      border:1px solid rgba(255,255,255,.22);
+      padding:8px 10px;
+      background:rgba(255,255,255,.06);
+      border-radius:8px;
+    }
+    .panel-left h3{
+      font-size:10px;
+      text-transform:uppercase;
+      letter-spacing:.12em;
+      margin-bottom:6px;
+      color:rgba(255,255,255,.92);
+    }
+    .panel-left ul{
+      list-style:none;
+      display:flex;
+      flex-direction:column;
+      gap:4px;
+    }
+    .panel-left li{
+      font-size:9.5px;
+      color:rgba(255,255,255,.86);
+      text-align:left;
+    }
+    .panel-left li::before{content:"• ";}
+
+    /* =======================
+       COLUMNA DERECHA
+       ======================= */
+    #derecha{
+      flex:3;
+      padding:28px 32px;
+      display:flex;
+      flex-direction:column;
+      gap:10px;
+      color:var(--text);
+    }
+
+    #derecha h1{
+      font-size:20px;
+      line-height:1.05;
+    }
+
+    #derecha h2{
+      font-size:11px;
+      color:var(--muted);
+      font-weight:600;
+    }
+
+    #datospersonales ul{
+      list-style:none;
+      display:flex;
+      gap:14px;
+      flex-wrap:wrap;
+      border-bottom:1px solid var(--line);
+      padding-bottom:8px;
+    }
+
+    #datospersonales li{
+      font-size:10px;
+      color:var(--muted);
+    }
+
+    section > h2{
+      margin-top:6px;
+      font-size:10px;
+      text-transform:uppercase;
+      letter-spacing:.1em;
+      color:#374151;
+    }
+
+    #resumenprofesional p{ text-align:justify; }
+
+    /* paneles compactos (derecha) */
+    .panel{
+      border:1px solid var(--line);
+      padding:8px 10px;
+      background:#fff;
+    }
+    .panel h3{
+      font-size:10px;
+      text-transform:uppercase;
+      letter-spacing:.1em;
+      color:#374151;
+      margin-bottom:4px;
+    }
+    .panel ul{
+      padding-left:14px;
+      margin-top:4px;
+    }
+    .panel li{
+      font-size:9.5px;
+      color:var(--muted);
+      margin:2px 0;
+      text-align:justify;
+    }
+
+    /* =======================
+       ARTÍCULOS CON LOGO
+       ======================= */
+    #historiallaboral,
+    #formacion,
+    #proyectos,
+    #publicaciones{
+      display:flex;
+      flex-direction:column;
+      gap:8px;
+    }
+
+    #derecha article{
+      border:1px solid var(--line);
+      padding:8px 10px;
+    }
+
+    .article-row{
+      display:flex;
+      gap:10px;
+      align-items:flex-start;
+    }
+
+    .logo{
+      width:42px;
+      height:42px;
+      flex-shrink:0;
+      border:1px solid var(--line);
+      border-radius:6px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-size:8px;
+      color:var(--muted);
+      background:#fafafa;
+      text-align:center;
+      line-height:1.1;
+    }
+
+    .article-content{ flex:1; }
+
+    .meta{
+      font-size:9.5px;
+      color:var(--muted);
+      margin-bottom:2px;
+    }
+
+    #derecha h4{
+      font-size:10.5px;
+      margin-bottom:2px;
+    }
+
+    #derecha article p{
+      font-size:9.5px;
+      color:var(--muted);
+      text-align:justify;
+    }
+
+    #derecha article ul{
+      margin-top:4px;
+      padding-left:14px;
+    }
+
+    #derecha article li{
+      font-size:9.5px;
+      margin:2px 0;
+      text-align:justify;
+    }
+
+    /* util */
+    .two-col{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap:8px;
+    }
+    .small{
+      font-size:9.5px;
+      color:var(--muted);
+      text-align:justify;
+    }
+
+    @media print{
+      body{background:white;padding:0}
+      main{box-shadow:none}
+    }
+
+    .social{ text-align:right; }
+    .social img{ width:15px; }
+    header{
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+      gap:10px;
+    }
+  </style>
+</head>
+
+<body>
+<main>
+
+  <!-- =======================
+       COLUMNA IZQUIERDA
+       ======================= -->
+  <section id="izquierda">
+    <img src="josevicente.jpg" alt="José Vicente Carratalá Sanchis">
+
+    <article>
+      <h3>Competencias</h3>
+      <ul>
+        <li>Desarrollo software a medida</li>
+        <li>Docencia presencial y online</li>
+        <li>Gráficos 3D y VR</li>
+        <li>Automatización y scripting</li>
+        <li>Robótica y prototipado</li>
+        <li>IA y analítica de datos</li>
+      </ul>
+    </article>
+
+    <article>
+      <h3>Tecnologías</h3>
+      <div class="chips">
+        <span class="chip">PHP</span>
+        <span class="chip">JavaScript</span>
+        <span class="chip">Python</span>
+        <span class="chip">Java</span>
+        <span class="chip">HTML</span>
+        <span class="chip">CSS</span>
+        <span class="chip">SQL</span>
+        <span class="chip">MySQL</span>
+        <span class="chip">SQLite</span>
+        <span class="chip">MongoDB</span>
+        <span class="chip">Linux</span>
+        <span class="chip">Ubuntu Server</span>
+        <span class="chip">Apache</span>
+      </div>
+    </article>
+
+    <article>
+      <h3>Idiomas</h3>
+      <ul>
+        <li>Español · Nativo</li>
+        <li>Inglés · B2</li>
+        <li>Alemán · Básico</li>
+      </ul>
+    </article>
+
+    <article>
+      <h3>Vehículo</h3>
+      <ul>
+        <li>Carnet de conducir B1</li>
+        <li>Vehículo propio</li>
+      </ul>
+    </article>
+
+    <!-- (PUNTO 2) Logros clave / foco MOVIDO a la izquierda -->
+    <article>
+      <div class="panel-left">
+        <h3>Logros y enfoque</h3>
+        <ul>
+          <li>Diseño y entrega de soluciones completas: análisis → desarrollo → despliegue.</li>
+          <li>Formación orientada a empleabilidad: proyectos, evaluación y seguimiento.</li>
+          <li>Experiencia combinando desarrollo web, automatización y contenidos formativos.</li>
+        </ul>
+      </div>
+    </article>
+
+    <article>
+      <div class="panel-left">
+        <h3>Perfil objetivo</h3>
+        <ul>
+          <li>Docencia (FP / formación técnica) y/o desarrollo de software.</li>
+          <li>Proyectos educativos, plataformas e-learning y automatización.</li>
+          <li>Visualización/3D aplicado a producto o entornos interactivos.</li>
+        </ul>
+      </div>
+    </article>
+
+    <!-- (PUNTO 2) Bloque de valor: logros / propuesta -->
+    <article>
+      <h3>Valor aportado</h3>
+      <ul>
+        <li>Orientación a resultados y entregas reales</li>
+        <li>Experiencia transversal: software + docencia + 3D</li>
+        <li>Capacidad de liderar proyectos end-to-end</li>
+      </ul>
+    </article>
+  </section>
+
+  <!-- =======================
+       COLUMNA DERECHA
+       ======================= -->
+  <section id="derecha">
+
+    <header>
+      <div id="identidad">
+        <h1>José Vicente Carratalá Sanchis</h1>
+        <h2>Diseñador industrial · Programador · Docente</h2>
+      </div>
+
+      <div class="social">
+        <a href="https://facebook.com/carratala" aria-label="Facebook de José Vicente Carratalá Sanchis"><img src="https://josevicentecarratala.com/logos/facebook.png" alt="Facebook" loading="lazy" decoding="async"></a>
+        <a href="https://www.instagram.com/jvcarratala/" aria-label="Instagram de José Vicente Carratalá Sanchis"><img src="https://josevicentecarratala.com/logos/instagram.png" alt="Instagram" loading="lazy" decoding="async"></a>
+        <a href="mailto:info@josevicentecarratala.com" aria-label="Enviar correo a José Vicente Carratalá Sanchis"><img src="https://josevicentecarratala.com/logos/email.png" alt="Email" loading="lazy" decoding="async"></a>
+        <a href="https://github.com/jocarsa" aria-label="GitHub de José Vicente Carratalá Sanchis"><img src="https://josevicentecarratala.com/logos/github.png" alt="GitHub" loading="lazy" decoding="async"></a>
+        <a href="https://josevicentecarratala.com" aria-label="Web principal de José Vicente Carratalá Sanchis"><img src="https://josevicentecarratala.com/logos/home.png" alt="Web" loading="lazy" decoding="async"></a>
+        <a href="https://www.linkedin.com/in/jvcarratala/" aria-label="LinkedIn de José Vicente Carratalá Sanchis"><img src="https://josevicentecarratala.com/logos/linkedin.png" alt="LinkedIn" loading="lazy" decoding="async"></a>
+        <a href="https://wa.me/34620891718" aria-label="WhatsApp de José Vicente Carratalá Sanchis"><img src="https://josevicentecarratala.com/logos/whatsapp.png" alt="WhatsApp" loading="lazy" decoding="async"></a>
+        <a href="https://www.youtube.com/@VicenteCarratala" aria-label="YouTube de José Vicente Carratalá Sanchis"><img src="https://josevicentecarratala.com/logos/youtube.png" alt="YouTube" loading="lazy" decoding="async"></a>
+      </div>
+    </header>
+
+    <section id="datospersonales">
+      <ul>
+        <li>Valencia (España)</li>
+        <li>Nacido el 14/04/1978</li>
+        <li>+34 620 89 17 18</li>
+        <li>info@josevicentecarratala.com</li>
+        <li>josevicentecarratala.com · jocarsa.com</li>
+      </ul>
+    </section>
+
+    <section id="resumenprofesional">
+      <h2>Resumen profesional</h2>
+      <p>
+        Diseñador industrial, desarrollador y docente con experiencia en programación, gráficos 3D,
+        visualización interactiva y formación técnica. Fundador de JOCARSA, especializado en desarrollo
+        de software a medida, creación de material formativo y docencia orientada a proyectos reales.
+      </p>
+    </section>
+
+    <!-- (ELIMINADO DE AQUÍ) Bloque logros/perfil para ahorrar espacio -->
+
+    <section id="historiallaboral">
+      <h2>Experiencia</h2>
+
+      <article>
+        <div class="article-row">
+          <div class="logo" style="background:url(https://static.jocarsa.com/logos/jocarsa%20%7C%20Indigo.svg);background-size:cover;"></div>
+          <div class="article-content">
+            <div class="meta">2000 – Actualidad | JOCARSA</div>
+            <h4>Propietario, CEO y Fundador</h4>
+            <p>Desarrollo de aplicaciones a medida, plataformas educativas, gráficos 3D y proyectos de visualización interactiva.</p>
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-row">
+          <div class="logo" style="background:url(https://media.licdn.com/dms/image/v2/C4D03AQFr8CA2g_S0Fw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516965067109?e=2147483647&v=beta&t=XkXqh6W9FR7s79snIgq8aG3Du_R49evMB9OlTiCSvHE);background-size:cover;"></div>
+          <div class="article-content">
+            <div class="meta">2020 – Actualidad | TAME Formación (Mislata)</div>
+            <h4>Profesor de ciclos formativos DAM y SMR</h4>
+            <p>Docencia en ciclos formativos (grado medio SMR y grado superior DAM), con enfoque práctico y evaluación por proyectos.</p>
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-row">
+          <div class="logo" style="background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3J3hd5Inl8lXzqHjIQl8telURSv-gFsFC7w&s);background-size:cover;"></div>
+          <div class="article-content">
+            <div class="meta">2025 – Actualidad | CEAC - Campus Burjassot</div>
+            <h4>Profesor de ciclos formativos DAM/DAW/ASIR</h4>
+            <p>Docencia en ciclos formativos de grado superior, orientada a prácticas reales y adquisición de competencias profesionales.</p>
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-row">
+          <div class="logo" style="background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVZYawSdQ8_-5_Y9QcAd4XGnu9IDCvx4yJEQ&s);background-size:cover;"></div>
+          <div class="article-content">
+            <div class="meta">2023 – 2024 | IMF</div>
+            <h4>Profesor de ciclos formativos DAM y DAW</h4>
+            <p>Docencia online en ciclos DAM y DAW con enfoque práctico y orientación a proyectos.</p>
+          </div>
+        </div>
+      </article>
+      
+      <article>
+        <div class="article-row">
+          <div class="logo" style="background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGrvGgsH9ToqsrFhkrydPmQ8OlVrCE-q5xEA&s);background-size:cover;"></div>
+          <div class="article-content">
+            <div class="meta">2022 – 2024 | Universidad de Alicante</div>
+            <h4>Profesor en el Master Universitario de Patrimonio Virtual</h4>
+            <p>Docencia en la asignatura de visualización de proyectos arqueológicos mediante técnicas de reconstrucción 3D y realidad virtual con Unreal Engine.</p>
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-row">
+          <div class="logo" style="background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiccuFatOtl8d0Y6FcNbkrYqWjNinmIuaQBA&s);background-size:cover;"></div>
+          <div class="article-content">
+            <div class="meta">2022 – 2025 | Mastermedia</div>
+            <h4>Profesor en máster de programación web</h4>
+            <p>Impartición de clases y seguimiento académico en un itinerario de programación web.</p>
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-row">
+          <div class="logo" style="background:url(https://media.licdn.com/dms/image/v2/D4D0BAQHVfYcRCvrUBw/company-logo_200_200/B4DZo0NFdlKUAM-/0/1761812437246/capitol_formacion_profesional_logo?e=2147483647&v=beta&t=XuzbSuemcKF8A0aNyqAzffbv41ABA1n-FuZ4CXRVLWc);background-size:cover;"></div>
+          <div class="article-content">
+            <div class="meta">2017 – 2024 | Capitol Empresa</div>
+            <h4>Profesor de ciclos formativos DAM, SMR, MkP, CI, AC, AyF</h4>
+            <p>Docencia en ciclos y certificados con enfoque práctico.</p>
+          </div>
+        </div>
+      </article>
+
+      
+
+      <article>
+        <div class="article-row">
+          <div class="logo" style="background:url(https://cdn-icons-png.flaticon.com/512/124/124011.png);background-size:cover;"></div>
+          <div class="article-content">
+            <div class="meta">2010 – 2020 | video2brain -> Lynda.com -> Linkedin Learning</div>
+            <h4>Autor de contenidos</h4>
+            <p>Creación de cursos técnicos (programación, gráficos 3D, bases de datos y sistemas Linux).</p>
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-row">
+          <div class="logo" style="background:url(https://media.licdn.com/dms/image/v2/C4D0BAQEkDSakVIhLBw/company-logo_200_200/company-logo_200_200/0/1675248069966/ensenyem_logo?e=2147483647&v=beta&t=fEenCgg3stSVls9BlmMxJ4djy033liqopqXjshYDiXA);background-size:cover;"></div>
+          <div class="article-content">
+            <div class="meta">2009 – 2019 | Ensenyem</div>
+            <h4>Profesor de cursos de especialización</h4>
+            <p>Impartición de cursos de gráficos 3D, modelado de producto industrial y programación informática.</p>
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-row">
+          <div class="logo" style="background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8HSRvAQO1HbWhiyq_a1rNf5Jl8GnJ1itOCQ&s);background-size:cover;"></div>
+          <div class="article-content">
+            <div class="meta">2006 – 2019 | UA School</div>
+            <h4>Profesor en máster de programación de videojuegos</h4>
+            <p>Creación de cursos técnicos en programación, gráficos 3D, bases de datos y sistemas Linux.</p>
+          </div>
+        </div>
+      </article>
+<article>
+        <div class="article-row">
+          <div class="logo" style="background:url(https://inmoblesxuquer.es/wp-content/uploads/2017/11/marca_UPV_principal_negro300-e1523953550305.png);background-size:cover;"></div>
+          <div class="article-content">
+            <div class="meta">2000 - 2006 & 2010 – 2017 | Universitat Politècnica de Valencia</div>
+            <h4>Profesor de formación de postgrado</h4>
+            <p>Creación de cursos técnicos en programación, gráficos 3D, bases de datos y sistemas Linux.</p>
+          </div>
+        </div>
+      </article>
+      
+    </section>
+
+    
+
+    <section id="formacion">
+      <h2>Formación</h2>
+
+      <article>
+        <div class="article-row">
+          <div class="logo"  style="background:url(https://inmoblesxuquer.es/wp-content/uploads/2017/11/marca_UPV_principal_negro300-e1523953550305.png);background-size:cover;"></div>
+          <div class="article-content">
+            <h4>Ingeniero Técnico en Diseño Industrial</h4>
+            <p>Universitat Politècnica de València · 1997 – 2000</p>
+          </div>
+        </div>
+      </article>
+
+     
+
+  </section>
+
+</main>
+</body>
+</html>
+```
+
 ### Actividades propuestas
 
 El código que has proporcionado muestra el progreso en la creación de un currículum HTML/CSS utilizando flexbox para organizar y estilizar los elementos. Veamos las diferencias clave entre los archivos:
@@ -5175,6 +6309,8 @@ Este enfoque con flexbox permite un diseño modular y adaptable, facilitando la 
 
 <a id="simulacro-examen-1"></a>
 ## Simulacro examen 1
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/002-Utilizaci%C3%B3n%20de%20lenguajes%20de%20marcas%20en%20entornos%20web/009-Simulacro%20examen%201)
 
 ### Introducción a los ejercicios
 
@@ -6859,6 +7995,8 @@ Este ajuste debería proporcionarte una página de CV mucho más profesional y f
 <a id="ejercicio-de-final-de-unidad-1"></a>
 ## Ejercicio de final de unidad
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/002-Utilizaci%C3%B3n%20de%20lenguajes%20de%20marcas%20en%20entornos%20web/101-Ejercicio%20de%20final%20de%20unidad)
+
 ### Introducción a los ejercicios
 
 En esta actividad, los estudiantes trabajarán en un script de Python que simula un planificador para cuadras de caballos. El objetivo principal es calcular el número de cuadras necesarias dadas las condiciones específicas, como el número de caballos y la capacidad por cuadra, redondeando al alza el resultado cuando sea necesario. Los estudiantes aprenderán a usar métodos y propiedades de objetos estándar relacionados con fechas y a manejar entradas, cálculos y salidas de datos de manera efectiva. Además, deben validar los datos ingresados para asegurar que cumplan con ciertos requisitos básicos antes de realizar el cálculo y presentar un informe claro con la información requerida sobre las cuadras necesarias y detalles de la fecha proporcionada.
@@ -6914,6 +8052,8 @@ Estas actividades están diseñadas para mejorar la comprensión y aplicación p
 
 <a id="lenguajes-de-script-de-cliente-caracteristicas-y-sintaxis-basica-estandares"></a>
 ## Lenguajes de script de cliente. Características y sintaxis básica. Estándares
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/003-Manipulaci%C3%B3n%20de%20documentos%20Web/001-Lenguajes%20de%20script%20de%20cliente.%20Caracter%C3%ADsticas%20y%20sintaxis%20b%C3%A1sica.%20Est%C3%A1ndares)
 
 ### Introducción a los ejercicios
 
@@ -8108,6 +9248,8 @@ Estos ejercicios cubren varios conceptos fundamentales de JavaScript y ayudarán
 
 <a id="seleccion-y-acceso-a-elementos"></a>
 ## Selección y acceso a elementos
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/003-Manipulaci%C3%B3n%20de%20documentos%20Web/002-Selecci%C3%B3n%20y%20acceso%20a%20elementos)
 
 ### Introducción a los ejercicios
 
@@ -9701,6 +10843,8 @@ Esto asegura que las evaluaciones sean seguras y robustas.
 <a id="creacion-y-modificacion-de-elementos"></a>
 ## Creación y modificación de elementos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/003-Manipulaci%C3%B3n%20de%20documentos%20Web/003-Creaci%C3%B3n%20y%20modificaci%C3%B3n%20de%20elementos)
+
 ### Introducción a los ejercicios
 
 Esta carpeta contiene una serie de ejercicios diseñados para enseñar a los estudiantes cómo crear, manipular y personalizar elementos en documentos web utilizando principalmente HTML y JavaScript. Los ejercicios inician con la creación básica de elementos como títulos y parrafos, pasando por el uso de plantillas (templates) para generar contenido dinámico desde datos JSON, hasta aplicar estilos CSS para mejorar la presentación visual del sitio.
@@ -10605,6 +11749,8 @@ Estas actividades ayudarán a los estudiantes a desarrollar habilidades fundamen
 <a id="eliminacion-de-elementos"></a>
 ## Eliminación de elementos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/003-Manipulaci%C3%B3n%20de%20documentos%20Web/004-Eliminaci%C3%B3n%20de%20elementos)
+
 ### Introducción a los ejercicios
 
 En esta carpeta de ejercicios, trabajarás con la manipulación y eliminación de elementos HTML mediante JavaScript. Los ejercicios te enseñarán cómo seleccionar elementos del DOM (Modelo de Objeto del Documento), eliminar estos elementos visibles en la página web e incluso gestionar su estado en memoria una vez han sido eliminados. Aprenderás a usar métodos como `remove()` y a manipular variables para mantener o eliminar referencias a los elementos después de su eliminación visual, lo que es fundamental para entender cómo JavaScript gestiona el DOM dinámicamente.
@@ -10819,6 +11965,8 @@ Este ejercicio es importante porque demuestra cómo funciona realmente la elimin
 
 <a id="manipulacion-de-estilos"></a>
 ## Manipulación de estilos
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/003-Manipulaci%C3%B3n%20de%20documentos%20Web/005-Manipulaci%C3%B3n%20de%20estilos)
 
 ### Introducción a los ejercicios
 
@@ -11485,9 +12633,13 @@ Estas actividades están diseñadas para ayudar a los estudiantes a familiarizar
 <a id="curriculum-1"></a>
 ## Curriculum
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/003-Manipulaci%C3%B3n%20de%20documentos%20Web/006-Curriculum)
+
 
 <a id="portafolio"></a>
 ## Portafolio
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/003-Manipulaci%C3%B3n%20de%20documentos%20Web/007-Portafolio)
 
 ### Introducción a los ejercicios
 
@@ -12743,6 +13895,8 @@ Estas mejoras deberían hacer tu portafolio más interactivo y accesible para lo
 <a id="simulacro-de-examen"></a>
 ## Simulacro de examen
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/003-Manipulaci%C3%B3n%20de%20documentos%20Web/008-Simulacro%20de%20examen)
+
 ### Introducción a los ejercicios
 
 El código proporcionado muestra un proceso paso a paso para crear una página web dinámica que muestre un portfolio usando HTML, CSS y JavaScript (con fetch API). Aquí está el resumen de lo que hace cada parte del código:
@@ -13809,6 +14963,8 @@ Este método permite que el portafolio sea fácilmente mantenido y actualizado, 
 <a id="ejercicio-de-final-de-unidad-2"></a>
 ## Ejercicio de final de unidad
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/003-Manipulaci%C3%B3n%20de%20documentos%20Web/101-Ejercicio%20de%20final%20de%20unidad)
+
 ### Introducción a los ejercicios
 
 En esta actividad se trabajará sobre un script en Python que actúa como un planificador para determinar cuántas cuadras son necesarias para alojar un número dado de caballos, considerando la capacidad máxima por cuadra. Los estudiantes deben aprender a utilizar métodos y propiedades de objetos del módulo `datetime`, así como el uso de funciones matemáticas estáticas como `math.ceil` para cálculos precisos. La tarea incluye manejar entrada de datos mediante la función `input`, realizar los cálculos necesarios y mostrar un informe estructurado que contiene tanto información sobre las cuadras calculadas como detalles de la fecha proporcionada. Se enfatiza en el manejo adecuado de errores, validando los datos ingresados para asegurar su correcta procesamiento.
@@ -13858,6 +15014,8 @@ En esta actividad se trabajará sobre un script en Python que actúa como un pla
 
 <a id="examen-final"></a>
 ## Examen final
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/003-Manipulaci%C3%B3n%20de%20documentos%20Web/104-Examen%20final)
 
 ### Introducción a los ejercicios
 
@@ -14107,6 +15265,8 @@ Estas actividades están diseñadas para proporcionar una práctica continua y a
 <a id="tecnologias-para-la-definicion-de-documentos-estructura-y-sintaxis"></a>
 ## Tecnologías para la definición de documentos. Estructura y sintaxis
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/004-Definici%C3%B3n%20de%20esquemas%20y%20vocabularios%20en%20lenguajes%20de%20marcas/001-Tecnolog%C3%ADas%20para%20la%20definici%C3%B3n%20de%20documentos.%20Estructura%20y%20sintaxis)
+
 ### Introducción a los ejercicios
 
 En esta carpeta de ejercicios, trabajaremos con diferentes lenguajes de marcado como HTML, JSON y XML para comprender cómo definir la estructura y sintaxis de documentos. Los ejercicios se centran en crear archivos basados en estas tecnologías, lo que permite a los estudiantes familiarizarse con sus particularidades y usos específicos. A través de estos ejemplos prácticos, se fortalecerán habilidades esenciales como la definición de estructuras de datos, el manejo de etiquetas y atributos en documentos XML y HTML, así como la representación de datos en formato JSON.
@@ -14234,6 +15394,8 @@ Este tipo de estructura es importante en XML porque permite organizar datos de u
 
 <a id="creacion-de-descripciones-de-documentos"></a>
 ## Creación de descripciones de documentos
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/004-Definici%C3%B3n%20de%20esquemas%20y%20vocabularios%20en%20lenguajes%20de%20marcas/002-Creaci%C3%B3n%20de%20descripciones%20de%20documentos)
 
 ### Introducción a los ejercicios
 
@@ -14492,6 +15654,8 @@ except xmlschema.exceptions.XMLSchemaValueError as e:
 <a id="asociacion-de-descripciones-con-documentos-validacion"></a>
 ## Asociación de descripciones con documentos. Validación
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/004-Definici%C3%B3n%20de%20esquemas%20y%20vocabularios%20en%20lenguajes%20de%20marcas/003-Asociaci%C3%B3n%20de%20descripciones%20con%20documentos.%20Validaci%C3%B3n)
+
 ### Introducción a los ejercicios
 
 En esta carpeta, trabajaremos con la validación de documentos XML utilizando esquemas XSD. El objetivo principal es entender cómo se definen y aplican restricciones estructurales en archivos XML a través del uso de un esquema XSD. Los ejercicios te guiarán para crear una plantilla XML basada en un esquema definido, luego validar un documento XML contra este esquema utilizando Python y la biblioteca `xmlschema`. A través de esta práctica, adquirirás competencias clave como el manejo de estructuras complejas en XML, la creación y uso efectivo de esquemas XSD, y la validación programática de documentos XML.
@@ -14681,6 +15845,8 @@ Estas actividades están diseñadas para que los alumnos entiendan tanto la estr
 
 <a id="herramientas-de-creacion-y-validacion"></a>
 ## Herramientas de creación y validación
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/004-Definici%C3%B3n%20de%20esquemas%20y%20vocabularios%20en%20lenguajes%20de%20marcas/004-Herramientas%20de%20creaci%C3%B3n%20y%20validaci%C3%B3n)
 
 ### Introducción a los ejercicios
 
@@ -14983,6 +16149,8 @@ Estas actividades están diseñadas para proporcionar una experiencia práctica 
 <a id="tecnologias-de-transformacion-de-documentos"></a>
 ## Tecnologías de transformación de documentos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/005-Conversi%C3%B3n%20y%20adaptaci%C3%B3n%20de%20documentos%20para%20el%20intercambio%20de%20informaci%C3%B3n/001-Tecnolog%C3%ADas%20de%20transformaci%C3%B3n%20de%20documentos)
+
 ### Introducción a los ejercicios
 
 Este conjunto de ejercicios te permitirá entender cómo interactuar con una base de datos MySQL desde Python, convertir los resultados obtenidos en diccionarios y JSON, y finalmente utilizar la librería Flask para crear un servicio web simple que pueda servir estos datos. Los ejercicios inician mostrándote cómo conectarte a la base de datos y recuperar registros, luego avanzan explicando cómo obtener esos mismos datos en formato de diccionario y JSON. Finalmente, te enseñan a utilizar Flask para crear endpoints que devuelvan los datos en JSON y cómo integrar plantillas HTML para mejorar la presentación del contenido. Estos ejercicios te ayudarán a desarrollar competencias clave en manejo de bases de datos, transformación de datos y desarrollo web básico utilizando Python.
@@ -15208,6 +16376,8 @@ Estas actividades están diseñadas para permitir a los estudiantes adquirir exp
 
 <a id="descripcion-de-la-estructura-y-de-la-sintaxis"></a>
 ## Descripción de la estructura y de la sintaxis
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/005-Conversi%C3%B3n%20y%20adaptaci%C3%B3n%20de%20documentos%20para%20el%20intercambio%20de%20informaci%C3%B3n/002-Descripci%C3%B3n%20de%20la%20estructura%20y%20de%20la%20sintaxis)
 
 ### Introducción a los ejercicios
 
@@ -15546,6 +16716,8 @@ Estas actividades están diseñadas para proporcionar una progresión lógica de
 <a id="creacion-y-utilizacion-de-plantillas-herramientas-y-depuracion"></a>
 ## Creación y utilización de plantillas. Herramientas y depuración
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/005-Conversi%C3%B3n%20y%20adaptaci%C3%B3n%20de%20documentos%20para%20el%20intercambio%20de%20informaci%C3%B3n/003-Creaci%C3%B3n%20y%20utilizaci%C3%B3n%20de%20plantillas.%20Herramientas%20y%20depuraci%C3%B3n)
+
 ### Introducción a los ejercicios
 
 En esta carpeta, encontrarás ejercicios que te ayudarán a entender cómo estructurar y estilizar páginas web utilizando HTML. Los dos archivos proporcionados son versiones básicas de una página de panel de administración, donde el primero se centra en la estructura básica del documento con etiquetas HTML, mientras que el segundo incluye CSS para dar estilo y disposición a los elementos de la página. A través de estos ejercicios, aprenderás a organizar correctamente la estructura de un documento web y a utilizar las propiedades básicas del CSS para mejorar su visualización y funcionalidad.
@@ -15661,6 +16833,8 @@ Estas actividades están diseñadas para ayudar a los estudiantes a aplicar conc
 
 <a id="conversion-entre-diferentes-formatos-de-documentos"></a>
 ## Conversión entre diferentes formatos de documentos
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/005-Conversi%C3%B3n%20y%20adaptaci%C3%B3n%20de%20documentos%20para%20el%20intercambio%20de%20informaci%C3%B3n/004-Conversi%C3%B3n%20entre%20diferentes%20formatos%20de%20documentos)
 
 ### Introducción a los ejercicios
 
@@ -16702,6 +17876,8 @@ These files together form a robust system to manage structured data in various f
 <a id="sistemas-de-almacenamiento-de-informacion-caracteristicas-tecnologias"></a>
 ## Sistemas de almacenamiento de información. Características. Tecnologías
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/006-Almacenamiento%20de%20informaci%C3%B3n/001-Sistemas%20de%20almacenamiento%20de%20informaci%C3%B3n.%20Caracter%C3%ADsticas.%20Tecnolog%C3%ADas)
+
 ### Introducción a los ejercicios
 
 El código que proporcionaste es una evolución de una aplicación web simple para gestionar discos. En cada versión, se han añadido nuevas características y mejoras estéticas. Vamos a revisar la última versión (010-cabeceras de la tabla) y sugerir algunas mejoras adicionales.
@@ -17692,6 +18868,8 @@ This version should be a good starting point for further enhancements, such as f
 
 <a id="lenguajes-de-consulta-y-manipulacion-en-documentos"></a>
 ## Lenguajes de consulta y manipulación en documentos
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/006-Almacenamiento%20de%20informaci%C3%B3n/002-Lenguajes%20de%20consulta%20y%20manipulaci%C3%B3n%20en%20documentos)
 
 ### Introducción a los ejercicios
 
@@ -19515,8 +20693,158 @@ Con estos ajustes, deberías tener una consistencia en el posicionamiento y dime
 <a id="consulta-y-manipulacion-de-informacion"></a>
 ## Consulta y manipulación de información
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/006-Almacenamiento%20de%20informaci%C3%B3n/003-Consulta%20y%20manipulaci%C3%B3n%20de%20informaci%C3%B3n)
+
+### Introducción a los ejercicios
+
+El código proporcionado es un diagrama de flujos (Flowchart) que representa una secuencia de acciones y decisiones en un flujo de trabajo. El diagrama está compuesto por varias partes:
+
+1. **Formas**: Representan las diferentes etapas o decisiones del proceso. En este caso, hay cuatro formas: Home, Página de producto, Carrito y Finalizacion.
+2. **Flechas**: Conectan las formas y representan la relación entre ellas. La flecha hacia abajo indica una acción que conduce a una siguiente forma, mientras que la flecha hacia arriba indica una decisión que lleva a una nueva forma.
+
+El código JSON contiene información sobre las formas y flechas:
+
+```json
+{
+  "formas": [
+    {
+      "id": "forma-1",
+      "tipo": "rectangle",
+      "left": "227.471px",
+      "top": "252.588px",
+      "width": "",
+      "height": "",
+      "texto": "Home"
+    },
+    {
+      "id": "forma-2",
+      "tipo": "rectangle",
+      "left": "407.547px",
+      "top": "254.116px",
+      "width": "",
+      "height": "",
+      "texto": "Página de producto"
+    },
+    {
+      "id": "forma-3",
+      "tipo": "rectangle",
+      "left": "603.474px",
+      "top": "254.146px",
+      "width": "",
+      "height": "",
+      "texto": "Carrito"
+    },
+    {
+      "id": "forma-4",
+      "tipo": "rectangle",
+      "left": "603.028px",
+      "top": "331.418px",
+      "width": "",
+      "height": "",
+      "texto": "Finalizacion"
+    }
+  ],
+  "flechas": [
+    {
+      "desde": {
+        "shapeId": "forma-1",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-2",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-2",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-3",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-3",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-4",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-4",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-1",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    }
+  ]
+}
+```
+
+El código SVG representa la forma gráfica del diagrama:
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" width="576.0000055486504" height="198.82811112837354" viewBox="0 0 576.0000055486504 198.82811112837354">
+
+  <defs>
+    ...
+  </defs>
+
+  <!-- Formas -->
+  <rect class="shape-rect" x="40" y="40" width="119.99999999999994" height="39.99999999999998" rx="4" ry="4" />
+  <text x="99.99999999999997" y="63.999999999999986" text-anchor="middle">Home</text>
+  <rect class="shape-rect" x="220.07812499999991" y="41.531261097301126" width="133.45317493785504" height="39.99999999999998" rx="4" ry="4" />
+  <text x="286.80471246892745" y="65.53126109730111" text-anchor="middle">Página de producto</text>
+  <rect class="shape-rect" x="416.0000055486504" y="41.5625" width="119.99999999999994" height="39.99999999999998" rx="4" ry="4" />
+  <text x="476.0000055486504" y="65.56249999999999" text-anchor="middle">Carrito</text>
+  <rect class="shape-rect" x="415.54690274325264" y="118.82812499999997" width="119.99999999999994" height="39.99998612837356" rx="4" ry="4" />
+  <text x="475.54690274325264" y="142.82811806418675" text-anchor="middle">Finalizacion</text>
+
+  <!-- Flechas -->
+  <path class="conn" d="M 159.99999999999997 60.49182734538002 L 220.07812499999991 60.9842950909493" marker-end="url(#arrow-end)" />
+  <path class="conn" d="M 353.531299937855 61.542278630239906 L 416.0000055486504 61.55259312477378" marker-end="url(#arrow-end)" />
+  <path class="conn" d="M 475.8827210910223 81.56249999999997 L 475.6641871602076 118.82812499999997" marker-end="url(#arrow-end)" />
+  <path class="conn" d="M 415.54690274325264 126.23398654745122 L 159.99999999999997 72.59413151673547" marker-end="url(#arrow-end)" />
+
+</svg>
+```
+
+En resumen, el diagrama representa un flujo de trabajo que tiene cuatro etapas: Home, Página de producto, Carrito y Finalizacion. Las flechas conectan estas etapas para indicar la secuencia de acciones.
+
 ### tienda online
 <small>Creado: 2025-12-11 14:09</small>
+
+#### Explicación
+
+Este fragmento de código es el inicio de una página web para una tienda online. Se trata de una estructura básica que contiene información básica como título, metadatos y contenido principal.
+
+La parte más interesante de este código son los elementos HTML que componen la estructura de la página. La sección `<header>` define la cabecera de la página, mientras que la sección `<main>` define el contenido principal. En este caso, contiene un artículo que describe el producto en cuestión.
+
+También tenemos una sección `<footer>` vacía, lo cual no es necesario para un sitio web básico, pero que puede ser útil agregar información adicional en el futuro.
 
 `001-tienda online.html`
 
@@ -19549,6 +20877,22 @@ Con estos ajustes, deberías tener una consistencia en el posicionamiento y dime
 ### muchos productos
 <small>Creado: 2025-12-11 14:10</small>
 
+#### Explicación
+
+Este código es una estructura básica para una página web de tienda online utilizando el lenguaje HTML. A continuación, se explica qué hace y cómo funciona:
+
+El código comienza con la etiqueta `<!doctype html>`, que indica al navegador que la documentación sigue la norma HTML5.
+
+A continuación, se define la estructura básica de la página web: `<html lang="es">` establece el idioma como español. La etiqueta `<head>` contiene información sobre la página, como el título (`<title>Tienda online</title>`) y las metadatos (`<meta charset="utf-8">`).
+
+La parte principal de la página es la etiqueta `<body>`, que contiene el contenido visible para el usuario. En este caso, se define un cabezal (`<header>`) con un título (`<h1>Tienda online</h1>`), un espacio donde se puede mostrar información adicional.
+
+A continuación, se define el contenido principal de la página utilizando la etiqueta `<main>`. Este contenido incluye un artículo (`<article>`) que contiene una imagen (`<div class="imagen">`), el título del producto (`<h3>Nombre del producto</h3>`), una breve descripción (`<p>Breve descripción del producto</p>`) y la precio (`<p>4.33€</p>`).
+
+Finalmente, se define un pie de página (`<footer>`) vacío.
+
+En resumen, este código proporciona una estructura básica para una página web de tienda online que contiene el título de la tienda, el contenido del producto y los precios.
+
 `002-muchos productos.html`
 
 ```html
@@ -19579,6 +20923,16 @@ Con estos ajustes, deberías tener una consistencia en el posicionamiento y dime
 
 ### muchos productos
 <small>Creado: 2025-12-11 14:11</small>
+
+#### Explicación
+
+Este código es el resultado de la combinación entre un lenguaje de marcado (HTML) y un lenguaje de programación (PHP). Está diseñado para generar una página web que muestra una tienda online con varios productos. 
+
+El fragmento de código se centra en la parte de HTML, pero también incluye instrucciones PHP para realizar operaciones en el servidor antes de mostrar la página a los usuarios finales.
+
+En particular, este código utiliza un bucle `for` para repetir 30 veces una estructura de artículo que incluye la imagen del producto, su nombre y descripción. Estas estructuras se generan dinámicamente mediante el PHP, lo que significa que no están predefinidas en el archivo HTML.
+
+Este tipo de código es importante porque permite a los desarrolladores generar contenido dinámicamente, sin necesidad de reescribir toda la página web cada vez que se agregue o cambie un producto.
 
 `003-muchos productos.php`
 
@@ -19612,6 +20966,14 @@ Con estos ajustes, deberías tener una consistencia en el posicionamiento y dime
 
 ### css basicos
 <small>Creado: 2025-12-11 14:16</small>
+
+#### Explicación
+
+Este fragmento de código es el HTML principal de una página web que muestra una tienda online. Se utiliza para crear la estructura básica de la página, incluyendo la cabecera, el cuerpo y el pie de página.
+
+El código también incluye una sección de estilos en CSS que define las propiedades visuales de los elementos de la página, como el tamaño y el color del texto, así como el diseño general de la página. Estos estilos se aplican a los elementos de la página a través de atributos como `style` y `class`.
+
+El código PHP también es importante, ya que utiliza un bucle `for` para generar 30 artículos de producto con información básica, como el nombre del producto, una descripción corta, un precio y un enlace para comprar. Estos artículos se van a mostrar en la sección principal de la página.
 
 `004-css basicos.php`
 
@@ -19651,6 +21013,16 @@ Con estos ajustes, deberías tener una consistencia en el posicionamiento y dime
 
 ### cabecera
 <small>Creado: 2025-12-11 14:22</small>
+
+#### Explicación
+
+Este fragmento de código es la cabecera de una página web que representa una tienda online. La estructura HTML es básica, pero se utilizan estilos CSS para darle un diseño más atractivo y personalizado.
+
+El código se divide en dos partes principales: la cabecera y el contenido principal de la página. La cabecera contiene el título de la tienda y algunos estilos CSS que definen cómo se verá la imagen de fondo, el texto y los elementos de navegación. También hay un enlace a una página llamada "comprar.php", que probablemente se encargará de gestionar las operaciones de compra.
+
+El contenido principal es un bucle `for` que se repite 30 veces, creando un grid de artículos con imágenes, títulos y descripciones. Cada artículo tiene una imagen como fondo, lo cual se logra mediante el uso del atributo `style` para establecer la URL de la imagen utilizando la variable `$producto.webp`. El texto y el precio del producto también se muestran en cada artículo.
+
+En general, este código es importante porque muestra cómo se puede estructurar una página web con estilos CSS y PHP. Es un buen ejemplo de cómo pueden combinarse estas tecnologías para crear páginas web más dinámicas y atractivas.
 
 `005-cabecera.php`
 
@@ -19692,6 +21064,18 @@ Con estos ajustes, deberías tener una consistencia en el posicionamiento y dime
 
 ### operacion comprar
 <small>Creado: 2025-12-11 14:27</small>
+
+#### Explicación
+
+Este código es un fragmento de HTML y PHP que se utiliza en una página web para mostrar una tienda online. 
+
+El código comienza con la definición del documento HTML, incluyendo el título, la codificación y algunos estilos básicos.
+
+Luego, se define el elemento `header`, que contiene un título "Tienda online" y algunas imágenes de fondo utilizando las propiedades CSS como `background-size` y `background-position`.
+
+El código PHP comienza en la parte inferior del documento, dentro del elemento `main`. Primero, se verifica si hay una variable de entrada llamada `producto` establecida en la URL. Si no está definida o es falsa, se muestra un ciclo `for` que reproduce 30 veces un artículo con una imagen, título y descripción de producto.
+
+Si se ha enviado la variable `producto`, el código cambia el contenido del ciclo `for` para mostrar solo el artículo correspondiente al producto seleccionado.
 
 `006-operacion comprar.php`
 
@@ -19740,6 +21124,16 @@ Con estos ajustes, deberías tener una consistencia en el posicionamiento y dime
 
 ### pagina de producto
 <small>Creado: 2025-12-11 14:32</small>
+
+#### Explicación
+
+Este código es el resultado de la combinación entre el lenguaje de programación PHP y HTML. 
+
+Primero, debe entender que PHP se ejecuta antes del navegador mostrar el código HTML resultante. Por eso en este caso, las etiquetas PHP "if", "for" y otros funcionan antes del código HTML.
+
+A continuación, se puede ver una imagen y nombre de producto para comprar con la etiqueta "a". Si quieres comprar un producto, debes poner el parámetro "?comprar=1".
+
+También hay otro producto que no puedes comprar porque lo compras en la pestaña de catalogo.
 
 `007-pagina de producto.php`
 
@@ -19804,6 +21198,14 @@ Con estos ajustes, deberías tener una consistencia en el posicionamiento y dime
 
 ### catalogo de operaciones
 <small>Creado: 2025-12-11 14:34</small>
+
+#### Explicación
+
+Este código es una página web de tienda online que muestra un catálogo de productos y permite a los usuarios comprarlos. El código está escrito en HTML, CSS y PHP.
+
+El código PHP se encarga de renderizar diferentes bloques de contenido según la acción seleccionada por el usuario. En este caso, si la acción es "producto", se muestra solo una imagen con un botón de compra; si no, se muestra un catálogo de 30 productos con su descripción y precio, además del botón de compra.
+
+Este código es importante porque demuestra cómo se pueden integrar diferentes tecnologías (HTML, CSS y PHP) para crear una página web interactiva. También muestra cómo se puede utilizar el lenguaje PHP para renderizar contenido dinámico según las acciones del usuario.
 
 `008-catalogo de operaciones.php`
 
@@ -19872,6 +21274,16 @@ Con estos ajustes, deberías tener una consistencia en el posicionamiento y dime
 
 ### pagina de finalizacion
 <small>Creado: 2025-12-11 14:36</small>
+
+#### Explicación
+
+Este fragmento de código es el contenido principal del archivo `pagina de finalizacion.php`, que se utiliza para mostrar una página de conclusión en una tienda online. 
+
+El código se divide en varias partes: la sección `header` muestra la cabecera de la tienda, con un título y una imagen de fondo. En la sección `main`, se muestra el contenido principal de la página, que es un catálogo de productos. Este catálogo se muestra de manera dinámica, ya que depende del valor de la variable `operacion` enviada como parámetro en la URL.
+
+Si el valor de `operacion` es "producto", se muestra una sección específica para un producto en particular. Si el valor es "carrito", se muestra una sección vacía con el texto "Yo soy el carrito". En cualquier otro caso, se muestra un catálogo de 30 productos, cada uno con una imagen, título y precio.
+
+El código utiliza PHP para manejar la lógica de negocio y generar el contenido dinámicamente. La variable `$_GET['operacion']` permite acceder a los valores enviados como parámetros en la URL, lo que permite personalizar el contenido según sea necesario.
 
 `009-pagina de finalizacion.php`
 
@@ -19944,6 +21356,18 @@ Con estos ajustes, deberías tener una consistencia en el posicionamiento y dime
 
 ### desarrollamos el carrito
 <small>Creado: 2025-12-11 14:41</small>
+
+#### Explicación
+
+Este código es un fragmento de una página web creada en HTML, CSS y PHP. 
+
+Se puede dividir en tres secciones principales: la cabecera, el contenido principal y el pie de página.
+
+La parte más interesante es la segunda sección, que está condicionada mediante un if con el parámetro 'operacion'. Esta variable es enviada como GET en la URL de la página y su valor determina qué tipo de contenido mostrará. Si 'operacion' es igual a "producto", muestra una vista de producto; si es igual a "carrito", muestra una tabla con los productos adquiridos; y si no tiene un valor especificado, muestra el catálogo de productos. 
+
+La sección final, que es la cabecera, contiene información básica sobre la tienda, como su nombre y derechos de autor.
+
+En resumen, este código permite mostrar diferentes tipos de contenido en función del parámetro enviado por el usuario, lo cual es importante para crear una experiencia dinámica y adaptable a las necesidades del usuario.
 
 `010-desarrollamos el carrito.php`
 
@@ -20045,6 +21469,22 @@ Con estos ajustes, deberías tener una consistencia en el posicionamiento y dime
 
 ### pantalla de confirmacion
 <small>Creado: 2025-12-11 14:42</small>
+
+#### Explicación
+
+Este código es un ejemplo de una página web de una tienda online, específicamente la pantalla principal. En primer lugar, debemos entender que este código combina HTML y PHP.
+
+La página comienza con el documento HTML adecuado y se define la estructura del contenido con los elementos `<header>`, `<main>` y `<footer>`. La parte interesante del código comienza en el bloque de `<?php` donde se utiliza la variable `_GET['operacion']` para determinar qué acción realizar en la pantalla.
+
+Hay tres posibilidades, dependiendo del valor de la variable:
+
+- Si la operación es "producto", se muestra la información de un producto específico con una imagen y un botón "Comprar".
+- Si la operación es "carrito", se muestra el carrito de compras con la lista de productos seleccionados y un total.
+- Si la operación es "finalizacion", se muestra un mensaje de agradecimiento por la compra.
+
+En el caso de que no se indique una operación, se muestra una pantalla con una lista de productos que se pueden comprar. 
+
+Este código es importante en el desarrollo web ya que demuestra cómo se puede utilizar PHP para personalizar y dinamicamente mostrar contenido en una página web según las necesidades del usuario o según lo especificado por un servidor web.
 
 `011-pantalla de confirmacion.php`
 
@@ -20152,6 +21592,18 @@ Con estos ajustes, deberías tener una consistencia en el posicionamiento y dime
 
 ### diagrama
 <small>Creado: 2025-12-11 14:58</small>
+
+#### Explicación
+
+Este código es parte de una página web HTML y se enfoca en la representación gráfica de un diagrama de entidad-relación (ER) en forma de bloques de texto y arquitectura. A continuación, te explico qué hace este código y por qué es importante.
+
+El código defines una estructura CSS que utiliza clases para definir las propiedades visuales de cada bloque del diagrama. Cada bloque representa una entidad o relación en la base de datos. Por ejemplo, "Home" representa la página inicial del sitio web, mientras que "Página de producto" y "Carrito" representan páginas dentro del sitio.
+
+Además, el código utiliza elementos CSS para crear formas geométricas (círculos, cuadrados, triángulos) y flechas para indicar las relaciones entre las entidades. Estas relaciones se representan mediante líneas que conectan los bloques de texto con arrows o ortho-arrowhead.
+
+El código también utiliza una propiedad CSS llamada "transform" para rotar y mover los bloques y flechas según sea necesario. Esto permite crear un diagrama dinámico y visualmente atractivo que ilustra la estructura de la base de datos.
+
+En resumen, este código es importante porque nos permite visualizar y representar gráficamente la estructura de una base de datos de manera clara y concisa. Es especialmente útil para diseñadores de bases de datos y desarrolladores que necesitan comunicarse con clientes o stakeholders sobre la estructura de la base de datos.
 
 `diagrama.html`
 
@@ -20389,6 +21841,14 @@ body {
 ### diagrama
 <small>Creado: 2025-12-11 14:58</small>
 
+#### Explicación
+
+Este fragmento de código en formato JSON representa una estructura de datos que contiene información sobre las formas y flechas en un diagrama. En este caso, el diagrama parece ser una navegación con varias páginas.
+
+El bloque de código consta de dos partes principales: "formas" y "flechas". La primera parte incluye cuatro formas (Home, Página de producto, Carrito y Finalizacion), cada una identificada por un ID único. Cada forma tiene atributos como su posición en la pantalla (izquierda y arriba) y el ancho y alto que ocupan, aunque estos valores no están definidos en este ejemplo.
+
+La segunda parte del bloque de código se refiere a las flechas que conectan estas formas. En total, hay cuatro flechas que unen dos formas cada una, desde la forma 1 hasta la forma 2, la forma 2 hasta la forma 3, la forma 3 hasta la forma 4 y la forma 4 hasta la forma 1. Cada flecha tiene propiedades como su tipo (simple) y estilo (straight).
+
 `diagrama.json`
 
 ```json
@@ -20495,6 +21955,20 @@ body {
 ### diagrama
 <small>Creado: 2025-12-11 14:58</small>
 
+#### Explicación
+
+Este código es un fragmento de HTML que representa una imagen vectorial utilizando el estándar SVG (Scalable Vector Graphics). El objetivo principal de este fragmento es visualizar un diagrama que representa una ruta de navegación entre diferentes páginas de una tienda en línea.
+
+El código comienza con la declaración de la etiqueta `<svg>`, que define el árbol de elementos que se utilizará para crear la imagen vectorial. El atributo `xmlns` especifica la ubicación del namespace SVG, y los atributos `width` y `height` establecen las dimensiones de la imagen.
+
+En el cuerpo del fragmento, se definen varios elementos dentro de la etiqueta `<defs>`, que sirven como estilo para diferentes partes de la imagen. Estos estilos incluyen clases para textos, rectángulos y líneas, así como elementos de marcadores (también conocidos como "marker"). Los marker se utilizan para definir el aspecto final del enlace entre los rectángulos.
+
+El fragmento principal de este código consiste en cuatro rectángulos que representan las diferentes páginas: la página inicial (`Home`), la página de producto, la página de carrito y la página de finalización. Cada uno de estos rectángulos tiene un texto asociado y se conecta a otros rectángulos mediante líneas.
+
+El código utiliza elementos `<path>` para definir las conexiones entre los rectángulos. Estas líneas se conectan con marcadores (etiqueta `marker-end`) que especifican el aspecto final del enlace.
+
+En resumen, este fragmento de código representa una imagen vectorial que muestra la ruta de navegación entre diferentes páginas de una tienda en línea.
+
 `diagrama.svg`
 
 ```
@@ -20535,17 +22009,7713 @@ body {
 </svg>
 ```
 
+### Actividades propuestas
+
+El problema es que no se puede comprender el contexto del problema, ya que no hay una pregunta clara sobre qué es lo que se espera que se resuelva o cómo se debe abordar.
+
+Sin embargo, puedo intentar hacer algunas suposiciones y ofrecer algunos consejos generales.
+
+**Suposición 1**: ¿Es posible que el problema sea relacionado con la creación de un diagrama de flujo (Flowchart) en una aplicación web utilizando HTML, CSS y JavaScript?
+
+Si es así, puedo sugerir algunas posibles soluciones:
+
+1. Utilizar una biblioteca de diagramas como Flowchart.js o Diagram.js para crear el diagrama.
+2. Utilizar un framework de diseño de interfaces de usuario como React o Angular para crear la interfaz del usuario.
+3. Utilizar CSS y JavaScript para estilar y personalizar el diagrama.
+
+**Suposición 2**: ¿Es posible que el problema sea relacionado con la interpretación de un archivo JSON (diagrama.json) y su correspondencia con un archivo SVG (diagrama.svg)?
+
+Si es así, puedo sugerir algunas posibles soluciones:
+
+1. Utilizar una biblioteca de lectura de archivos JSON como json5 para leer el archivo.
+2. Utilizar una biblioteca de creación de diagramas como D3.js para crear el diagrama a partir del archivo SVG.
+
+**Suposición 3**: ¿Es posible que el problema sea relacionado con la resolución de un problema de lógica o algoritmo relacionado con el diagrama?
+
+Si es así, puedo sugerir algunas posibles soluciones:
+
+1. Utilizar técnicas de resolución de problemas como la recursividad o la exploración para encontrar una solución.
+2. Utilizar herramientas de análisis de algoritmos como Algorithm Visualizer para visualizar y analizar el algoritmo.
+
+Sin embargo, sin más información, es difícil determinar con certeza qué es lo que se espera que se resuelva. Si puedes proporcionar más contexto o detalles sobre el problema, estaré encantado de ayudarte a encontrar una solución.
+
 
 <a id="importacion-y-exportacion-de-bases-de-datos-relacionales-en-diferentes-formatos"></a>
 ## Importación y exportación de bases de datos relacionales en diferentes formatos
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/006-Almacenamiento%20de%20informaci%C3%B3n/004-Importaci%C3%B3n%20y%20exportaci%C3%B3n%20de%20bases%20de%20datos%20relacionales%20en%20diferentes%20formatos)
+
+### inicio
+<small>Creado: 2025-12-15 13:04</small>
+
+`001-inicio.php`
+
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>jocarsa</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <header>
+      
+    </header>
+    <main>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
+```
+
+### header
+<small>Creado: 2025-12-15 13:06</small>
+
+`002-header.php`
+
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>jocarsa</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <header>
+      <a href="?"><img src="https://static.jocarsa.com/logos/jocarsa%20%7C%20Indigo.svg"></a>
+      <?php for($i = 0;$i<8;$i++){ ?>
+        <a href="?">Elemento <?= $i?></a>
+      <?php }?>
+    </header>
+    <main>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
+```
+
+### estilo del header
+<small>Creado: 2025-12-15 13:11</small>
+
+`003-estilo del header.php`
+
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>jocarsa</title>
+    <meta charset="utf-8">
+    <style>
+      html,body{padding:0px;margin:0px;font-family:sans-serif;}
+      header{
+      width:100%;display:flex;justify-content:center;
+      align-items:center;box-shadow:0px 2px 4px rgba(0,0,0,0.3);gap:20px;padding:10px;}
+      header img{width:30px;}
+      header a{text-decoration:none;color:indigo;font-size:11px;}
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="?"><img src="https://static.jocarsa.com/logos/jocarsa%20%7C%20Indigo.svg"></a>
+      <?php for($i = 0;$i<8;$i++){ ?>
+        <a href="?">Elemento <?= $i?></a>
+      <?php }?>
+    </header>
+    <main>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
+```
+
+### elementos principales
+<small>Creado: 2025-12-15 13:12</small>
+
+`004-elementos principales.php`
+
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>jocarsa</title>
+    <meta charset="utf-8">
+    <style>
+      /* ESTILOS GENERALES /////////////////////////////////////// */
+      html,body{padding:0px;margin:0px;font-family:sans-serif;}
+      /* ESTILOS CABECERA  /////////////////////////////////////// */
+      header{
+      width:100%;display:flex;justify-content:center;
+      align-items:center;box-shadow:0px 2px 4px rgba(0,0,0,0.3);gap:20px;padding:10px;}
+      header img{width:30px;}
+      header a{text-decoration:none;color:indigo;font-size:11px;}
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="?"><img src="https://static.jocarsa.com/logos/jocarsa%20%7C%20Indigo.svg"></a>
+      <?php for($i = 0;$i<8;$i++){ ?>
+        <a href="?">Elemento <?= $i?></a>
+      <?php }?>
+    </header>
+    <main>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
+```
+
+### productos
+<small>Creado: 2025-12-15 13:14</small>
+
+`005-productos.php`
+
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>jocarsa</title>
+    <meta charset="utf-8">
+    <style>
+      /* ESTILOS GENERALES /////////////////////////////////////// */
+      html,body{padding:0px;margin:0px;font-family:sans-serif;}
+      /* ESTILOS CABECERA  /////////////////////////////////////// */
+      header{
+      width:100%;display:flex;justify-content:center;
+      align-items:center;box-shadow:0px 2px 4px rgba(0,0,0,0.3);gap:20px;padding:10px;}
+      header img{width:30px;}
+      header a{text-decoration:none;color:indigo;font-size:11px;}
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="?"><img src="https://static.jocarsa.com/logos/jocarsa%20%7C%20Indigo.svg"></a>
+      <?php for($i = 0;$i<8;$i++){ ?>
+        <a href="?">Elemento <?= $i?></a>
+      <?php }?>
+    </header>
+    <main>
+      <?php for($i = 0;$i<8;$i++){ ?>
+        <article>
+          <h3>Nombre del producto</h3>
+          <h4>Slogan del producto</h4>
+          <a href="accion.php">Saber más</a>
+        </article>
+      <?php }?>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
+```
+
+### maquetacion de los productos
+<small>Creado: 2025-12-15 13:16</small>
+
+`006-maquetacion de los productos.php`
+
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>jocarsa</title>
+    <meta charset="utf-8">
+    <style>
+      /* ESTILOS GENERALES /////////////////////////////////////// */
+      html,body{padding:0px;margin:0px;font-family:sans-serif;width:100%;height:100%;}
+      /* ESTILOS CABECERA  /////////////////////////////////////// */
+      header{
+      width:100%;display:flex;justify-content:center;
+      align-items:center;box-shadow:0px 2px 4px rgba(0,0,0,0.3);gap:20px;padding:10px;}
+      header img{width:30px;}
+      header a{text-decoration:none;color:indigo;font-size:11px;}
+      /* ESTILOS PRODUCTOS  /////////////////////////////////////// */
+      main{display:flex;gap:10px;flex-direction:column;}
+      main article{width:100%;height:400px;display:flex;justify-content:center;align-items:center;
+      background:lightgrey;flex-direction:column;}
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="?"><img src="https://static.jocarsa.com/logos/jocarsa%20%7C%20Indigo.svg"></a>
+      <?php for($i = 0;$i<8;$i++){ ?>
+        <a href="?">Elemento <?= $i?></a>
+      <?php }?>
+    </header>
+    <main>
+      <?php for($i = 0;$i<8;$i++){ ?>
+        <article>
+          <h3>Nombre del producto</h3>
+          <h4>Slogan del producto</h4>
+          <a href="accion.php">Saber más</a>
+        </article>
+      <?php }?>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
+```
+
+### grid a continuacion
+<small>Creado: 2025-12-15 13:23</small>
+
+`007-grid a continuacion.php`
+
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>jocarsa</title>
+    <meta charset="utf-8">
+    <style>
+      /* ESTILOS GENERALES /////////////////////////////////////// */
+      html,body{
+        padding:0px;
+        margin:0px;
+        font-family:sans-serif;
+        width:100%;
+        height:100%;
+      }
+
+      /* ESTILOS CABECERA  /////////////////////////////////////// */
+      header{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        box-shadow:0px 2px 4px rgba(0,0,0,0.3);
+        gap:20px;
+        padding:10px;
+      }
+      header img{width:30px;}
+      header a{text-decoration:none;color:indigo;font-size:11px;}
+
+      /* ESTILOS PRODUCTOS  /////////////////////////////////////// */
+      main{
+        width:100%;
+        display:grid;
+        grid-template-columns:1fr;
+        gap:10px;
+      }
+
+      /* ARTÍCULOS 1–3 (IGUAL QUE AHORA) ///////////////////////// */
+      main article{
+        width:100%;
+        height:400px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background:lightgrey;
+        flex-direction:column;
+        gap:10px;
+      }
+      main article h3,main article h4{padding:0px;margin:0px;}
+      main article h3{font-size:32px;}
+      main article a{background:indigo;text-decoration:none;color:white;padding:10px 20px;border-radius:50px;}
+
+      /* LOS 3 PRIMEROS OCUPAN TODA LA FILA ////////////////////// */
+      main article:nth-child(-n+3){
+        grid-column:1 / -1;
+      }
+
+      /* ARTÍCULOS 4+ EN DOS COLUMNAS /////////////////////////// */
+      @media (min-width:600px){
+        main{
+          grid-template-columns:1fr 1fr;
+        }
+
+        main article:nth-child(-n+3){
+          grid-column:1 / -1;
+        }
+      }
+    </style>
+
+  </head>
+  <body>
+    <header>
+      <a href="?"><img src="https://static.jocarsa.com/logos/jocarsa%20%7C%20Indigo.svg"></a>
+      <?php for($i = 0;$i<8;$i++){ ?>
+        <a href="?">Elemento <?= $i?></a>
+      <?php }?>
+    </header>
+    <main>
+      <?php for($i = 0;$i<9;$i++){ ?>
+        <article>
+          <h3>Nombre del producto</h3>
+          <h4>Slogan del producto</h4>
+          <a href="accion.php">Saber más</a>
+        </article>
+      <?php }?>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
+```
+
+### fuentes personalizadas
+<small>Creado: 2025-12-15 13:26</small>
+
+`008-fuentes personalizadas.php`
+
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>jocarsa</title>
+    <meta charset="utf-8">
+    <style>
+      @font-face {font-family: Ubuntu;src: url(Ubuntu-R.ttf);}
+      @font-face {font-family: UbuntuB;src: url(Ubuntu-B.ttf);}
+      /* ESTILOS GENERALES /////////////////////////////////////// */
+      html,body{
+        padding:0px;
+        margin:0px;
+        font-family:Ubuntu,sans-serif;
+        width:100%;
+        height:100%; 
+      }
+
+      /* ESTILOS CABECERA  /////////////////////////////////////// */
+      header{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        box-shadow:0px 2px 4px rgba(0,0,0,0.3);
+        gap:20px;
+        padding:10px;
+      }
+      header img{width:30px;}
+      header a{text-decoration:none;color:indigo;font-size:11px;}
+
+      /* ESTILOS PRODUCTOS  /////////////////////////////////////// */
+      main{
+        width:100%;
+        display:grid;
+        grid-template-columns:1fr;
+        gap:10px;
+      }
+
+      /* ARTÍCULOS 1–3 (IGUAL QUE AHORA) ///////////////////////// */
+      main article{
+        width:100%;
+        height:400px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background:lightgrey;
+        flex-direction:column;
+        gap:10px;
+      }
+      main article h3,main article h4{padding:0px;margin:0px;}
+      main article h3{font-size:32px;}
+      main article a{background:indigo;text-decoration:none;color:white;padding:10px 20px;border-radius:50px;}
+
+      /* LOS 3 PRIMEROS OCUPAN TODA LA FILA ////////////////////// */
+      main article:nth-child(-n+3){
+        grid-column:1 / -1;
+      }
+
+      /* ARTÍCULOS 4+ EN DOS COLUMNAS /////////////////////////// */
+      @media (min-width:600px){
+        main{
+          grid-template-columns:1fr 1fr;
+        }
+
+        main article:nth-child(-n+3){
+          grid-column:1 / -1;
+        }
+      }
+    </style>
+
+  </head>
+  <body>
+    <header>
+      <a href="?"><img src="https://static.jocarsa.com/logos/jocarsa%20%7C%20Indigo.svg"></a>
+      <?php for($i = 0;$i<8;$i++){ ?>
+        <a href="?">Elemento <?= $i?></a>
+      <?php }?>
+    </header>
+    <main>
+      <?php for($i = 0;$i<9;$i++){ ?>
+        <article>
+          <h3>Nombre del producto</h3>
+          <h4>Slogan del producto</h4>
+          <a href="accion.php">Saber más</a>
+        </article>
+      <?php }?>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
+```
+
+### productos
+<small>Creado: 2025-12-15 13:37</small>
+
+`009-productos.php`
+
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>jocarsa</title>
+    <meta charset="utf-8">
+    <style>
+      @font-face {font-family: Ubuntu;src: url(Ubuntu-R.ttf);}
+      @font-face {font-family: UbuntuB;src: url(Ubuntu-B.ttf);}
+      /* ESTILOS GENERALES /////////////////////////////////////// */
+      html,body{
+        padding:0px;
+        margin:0px;
+        font-family:Ubuntu,sans-serif;
+        width:100%;
+        height:100%; 
+      }
+
+      /* ESTILOS CABECERA  /////////////////////////////////////// */
+      header{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        box-shadow:0px 2px 4px rgba(0,0,0,0.3);
+        gap:20px;
+        padding:10px;
+      }
+      header img{width:30px;}
+      header a{text-decoration:none;color:indigo;font-size:11px;}
+
+      /* ESTILOS PRODUCTOS  /////////////////////////////////////// */
+      main{
+        width:100%;
+        display:grid;
+        grid-template-columns:1fr;
+        gap:10px;
+      }
+
+      /* ARTÍCULOS 1–3 (IGUAL QUE AHORA) ///////////////////////// */
+      main article{
+        width:100%;
+        height:400px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background:lightgrey;
+        flex-direction:column;
+        gap:10px;
+      }
+      main article h3,main article h4{padding:0px;margin:0px;}
+      main article h3{font-size:32px;}
+      main article a{background:indigo;text-decoration:none;color:white;padding:10px 20px;border-radius:50px;}
+
+      /* LOS 3 PRIMEROS OCUPAN TODA LA FILA ////////////////////// */
+      main article:nth-child(-n+3){
+        grid-column:1 / -1;
+      }
+
+      /* ARTÍCULOS 4+ EN DOS COLUMNAS /////////////////////////// */
+      @media (min-width:600px){
+        main{
+          grid-template-columns:1fr 1fr;
+        }
+
+        main article:nth-child(-n+3){
+          grid-column:1 / -1;
+        }
+      }
+    </style>
+
+  </head>
+  <body>
+    <header>
+      <a href="?"><img src="https://static.jocarsa.com/logos/jocarsa%20%7C%20Indigo.svg"></a>
+      <?php 
+      $archivo = file_get_contents('categorias.json');
+      $json = json_decode($archivo, true);
+      for($i = 0;$i<count($json);$i++){ ?>
+        <a href="?"><?= $json[$i] ?></a>
+      <?php }?>
+    </header>
+    <main>
+      <?php 
+        $archivo = file_get_contents('productos.json');
+        $json = json_decode($archivo, true);
+        for($i = 0;$i<count($json);$i++){ ?>
+        <article>
+          <h3><?= $json[$i]['nombre'] ?></h3>
+          <h4><?= $json[$i]['slogan'] ?></h4>
+          <a href="producto.php">Saber más</a>
+        </article>
+      <?php }?>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
+```
+
+### organizar
+<small>Creado: 2025-12-15 13:38</small>
+
+`010-organizar.php`
+
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>jocarsa</title>
+    <meta charset="utf-8">
+    <style>
+      @font-face {font-family: Ubuntu;src: url(estilo/Ubuntu-R.ttf);}
+      @font-face {font-family: UbuntuB;src: url(estilo/Ubuntu-B.ttf);}
+      /* ESTILOS GENERALES /////////////////////////////////////// */
+      html,body{
+        padding:0px;
+        margin:0px;
+        font-family:Ubuntu,sans-serif;
+        width:100%;
+        height:100%; 
+      }
+
+      /* ESTILOS CABECERA  /////////////////////////////////////// */
+      header{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        box-shadow:0px 2px 4px rgba(0,0,0,0.3);
+        gap:20px;
+        padding:10px;
+      }
+      header img{width:30px;}
+      header a{text-decoration:none;color:indigo;font-size:11px;}
+
+      /* ESTILOS PRODUCTOS  /////////////////////////////////////// */
+      main{
+        width:100%;
+        display:grid;
+        grid-template-columns:1fr;
+        gap:10px;
+      }
+
+      /* ARTÍCULOS 1–3 (IGUAL QUE AHORA) ///////////////////////// */
+      main article{
+        width:100%;
+        height:400px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background:lightgrey;
+        flex-direction:column;
+        gap:10px;
+      }
+      main article h3,main article h4{padding:0px;margin:0px;}
+      main article h3{font-size:32px;}
+      main article a{background:indigo;text-decoration:none;color:white;padding:10px 20px;border-radius:50px;}
+
+      /* LOS 3 PRIMEROS OCUPAN TODA LA FILA ////////////////////// */
+      main article:nth-child(-n+3){
+        grid-column:1 / -1;
+      }
+
+      /* ARTÍCULOS 4+ EN DOS COLUMNAS /////////////////////////// */
+      @media (min-width:600px){
+        main{
+          grid-template-columns:1fr 1fr;
+        }
+
+        main article:nth-child(-n+3){
+          grid-column:1 / -1;
+        }
+      }
+    </style>
+
+  </head>
+  <body>
+    <header>
+      <a href="?"><img src="https://static.jocarsa.com/logos/jocarsa%20%7C%20Indigo.svg"></a>
+      <?php 
+      $archivo = file_get_contents('db/categorias.json');
+      $json = json_decode($archivo, true);
+      for($i = 0;$i<count($json);$i++){ ?>
+        <a href="?"><?= $json[$i] ?></a>
+      <?php }?>
+    </header>
+    <main>
+      <?php 
+        $archivo = file_get_contents('db/productos.json');
+        $json = json_decode($archivo, true);
+        for($i = 0;$i<count($json);$i++){ ?>
+        <article>
+          <h3><?= $json[$i]['nombre'] ?></h3>
+          <h4><?= $json[$i]['slogan'] ?></h4>
+          <a href="producto.php">Saber más</a>
+        </article>
+      <?php }?>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
+```
+
+### pie de pagina
+<small>Creado: 2025-12-15 13:49</small>
+
+`011-pie de pagina.php`
+
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>jocarsa</title>
+    <meta charset="utf-8">
+    <style>
+      @font-face {font-family: Ubuntu;src: url(estilo/Ubuntu-R.ttf);}
+      @font-face {font-family: UbuntuB;src: url(estilo/Ubuntu-B.ttf);}
+      /* ESTILOS GENERALES /////////////////////////////////////// */
+      html,body{
+        padding:0px;
+        margin:0px;
+        font-family:Ubuntu,sans-serif;
+        width:100%;
+        height:100%; 
+      }
+
+      /* ESTILOS CABECERA  /////////////////////////////////////// */
+      header{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        box-shadow:0px 2px 4px rgba(0,0,0,0.3);
+        gap:20px;
+        padding:10px;
+      }
+      header img{width:30px;}
+      header a{text-decoration:none;color:indigo;font-size:11px;}
+
+      /* ESTILOS PRODUCTOS  /////////////////////////////////////// */
+      main{
+        width:100%;
+        display:grid;
+        grid-template-columns:1fr;
+        gap:10px;
+      }
+
+      /* ARTÍCULOS 1–3 (IGUAL QUE AHORA) ///////////////////////// */
+      main article{
+        width:100%;
+        height:400px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background:lightgrey;
+        flex-direction:column;
+        gap:10px;
+      }
+      main article h3,main article h4{padding:0px;margin:0px;}
+      main article h3{font-size:32px;}
+      main article a{background:indigo;text-decoration:none;color:white;padding:10px 20px;border-radius:50px;}
+
+      /* LOS 3 PRIMEROS OCUPAN TODA LA FILA ////////////////////// */
+      main article:nth-child(-n+3){
+        grid-column:1 / -1;
+      }
+
+      /* ARTÍCULOS 4+ EN DOS COLUMNAS /////////////////////////// */
+      @media (min-width:600px){
+        main{
+          grid-template-columns:1fr 1fr;
+        }
+
+        main article:nth-child(-n+3){
+          grid-column:1 / -1;
+        }
+      }
+      footer{display:flex;justify-content:center;gap:20px;padding:20px;font-size:11px;}
+      footer article{display:flex;flex-direction:column;gap:10px;}
+      footer article a{text-decoration:none;color:indigo;}
+    </style>
+
+  </head>
+  <body>
+    <header>
+      <a href="?"><img src="https://static.jocarsa.com/logos/jocarsa%20%7C%20Indigo.svg"></a>
+      <?php 
+      $archivo = file_get_contents('db/categorias.json');
+      $json = json_decode($archivo, true);
+      for($i = 0;$i<count($json);$i++){ ?>
+        <a href="?"><?= $json[$i] ?></a>
+      <?php }?>
+    </header>
+    <main>
+      <?php 
+        $archivo = file_get_contents('db/productos.json');
+        $json = json_decode($archivo, true);
+        for($i = 0;$i<count($json);$i++){ ?>
+        <article>
+          <h3><?= $json[$i]['nombre'] ?></h3>
+          <h4><?= $json[$i]['slogan'] ?></h4>
+          <a href="producto.php">Saber más</a>
+        </article>
+      <?php }?>
+    </main>
+    <footer>
+      <?php for($i = 0;$i<7;$i++){?>
+        <article>
+          <?php for($j = 0;$j<7;$j++){?>
+            <a href="?">Enlace <?= $j ?></a>
+          <?php } ?>
+        </article>
+      <?php } ?>
+    </footer>
+  </body>
+</html>
+```
+
+### pie de pagina desde json
+<small>Creado: 2025-12-15 13:54</small>
+
+`012-pie de pagina desde json.php`
+
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>jocarsa</title>
+    <meta charset="utf-8">
+    <style>
+      @font-face {font-family: Ubuntu;src: url(estilo/Ubuntu-R.ttf);}
+      @font-face {font-family: UbuntuB;src: url(estilo/Ubuntu-B.ttf);}
+      /* ESTILOS GENERALES /////////////////////////////////////// */
+      html,body{
+        padding:0px;
+        margin:0px;
+        font-family:Ubuntu,sans-serif;
+        width:100%;
+        height:100%; 
+      }
+
+      /* ESTILOS CABECERA  /////////////////////////////////////// */
+      header{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        box-shadow:0px 2px 4px rgba(0,0,0,0.3);
+        gap:20px;
+        padding:10px;
+      }
+      header img{width:30px;}
+      header a{text-decoration:none;color:indigo;font-size:11px;}
+
+      /* ESTILOS PRODUCTOS  /////////////////////////////////////// */
+      main{
+        width:100%;
+        display:grid;
+        grid-template-columns:1fr;
+        gap:10px;
+      }
+
+      /* ARTÍCULOS 1–3 (IGUAL QUE AHORA) ///////////////////////// */
+      main article{
+        width:100%;
+        height:400px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background:lightgrey;
+        flex-direction:column;
+        gap:10px;
+      }
+      main article h3,main article h4{padding:0px;margin:0px;}
+      main article h3{font-size:32px;}
+      main article a{background:indigo;text-decoration:none;color:white;padding:10px 20px;border-radius:50px;}
+
+      /* LOS 3 PRIMEROS OCUPAN TODA LA FILA ////////////////////// */
+      main article:nth-child(-n+3){
+        grid-column:1 / -1;
+      }
+
+      /* ARTÍCULOS 4+ EN DOS COLUMNAS /////////////////////////// */
+      @media (min-width:600px){
+        main{
+          grid-template-columns:1fr 1fr;
+        }
+
+        main article:nth-child(-n+3){
+          grid-column:1 / -1;
+        }
+      }
+      footer{display:flex;justify-content:center;gap:20px;padding:20px;font-size:11px;}
+      footer article{display:flex;flex-direction:column;gap:10px;}
+      footer article a{text-decoration:none;color:indigo;}
+    </style>
+
+  </head>
+  <body>
+    <header>
+      <a href="?"><img src="https://static.jocarsa.com/logos/jocarsa%20%7C%20Indigo.svg"></a>
+      <?php 
+      $archivo = file_get_contents('db/categorias.json');
+      $json = json_decode($archivo, true);
+      for($i = 0;$i<count($json);$i++){ ?>
+        <a href="?"><?= $json[$i] ?></a>
+      <?php }?>
+    </header>
+    <main>
+      <?php 
+        $archivo = file_get_contents('db/productos.json');
+        $json = json_decode($archivo, true);
+        for($i = 0;$i<count($json);$i++){ ?>
+        <article>
+          <h3><?= $json[$i]['nombre'] ?></h3>
+          <h4><?= $json[$i]['slogan'] ?></h4>
+          <a href="producto.php">Saber más</a>
+        </article>
+      <?php }?>
+    </main>
+    <footer>
+      <?php 
+        $archivo = file_get_contents('db/piedepagina.json');
+        $json = json_decode($archivo, true);
+         ?>
+        <article class="categorias">
+          <?php for($i = 0;$i<count($json['categorias']);$i++){?>
+            <a href="?cat=<?= $json['categorias'][$i] ?>"><?= $json['categorias'][$i] ?></a>
+          <?php } ?>
+        </article>
+        <article class="paginas">
+          <?php for($i = 0;$i<count($json['enlaces']);$i++){?>
+            <a href="?cat=<?= $json['enlaces'][$i]['enlace'] ?>"><?= $json['enlaces'][$i]['nombre'] ?></a>
+          <?php } ?>
+        </article>
+     
+    </footer>
+  </body>
+</html>
+```
+
+### categorias
+<small>Creado: 2025-12-15 13:59</small>
+
+`categorias.json`
+
+```json
+[
+  "Empresa",
+  "Educación",
+  "Facturación"
+]
+```
+
+### productos
+<small>Creado: 2025-12-15 13:59</small>
+
+`productos.json`
+
+```json
+[
+  {
+    "nombre":"jocarsa | teal",
+    "slogan":"Sistema de gestión empresarial personalizado"
+  },
+  {
+    "nombre":"jocarsa | darksalmon",
+    "slogan":"Sistema de fichaje empresarial"
+  },
+  {
+    "nombre":"jocarsa | rosybrown",
+    "slogan":"Software de facturación para autónomos y PYMEs"
+  },
+  {
+    "nombre":"jocarsa | aliceblue",
+    "slogan":"Software de digital proctoring"
+  },
+  {
+    "nombre":"jocarsa | chartreuse",
+    "slogan":"Sistema de marcadores favoritos en la nube"
+  },
+  {
+    "nombre":"jocarsa | salmon",
+    "slogan":"Salas de videoconferencia"
+  },
+  {
+    "nombre":"jocarsa | mediumseagreen",
+    "slogan":"Sistema de gestión del aprendizaje"
+  },
+  {
+    "nombre":"jocarsa | eval",
+    "slogan":"Software de evaluación con apoyo de IA"
+  },
+  {
+    "nombre":"jocarsa | gainsboro",
+    "slogan":"CMS para blogging"
+  },
+  {
+    "nombre":"jocarsa | indianred",
+    "slogan":"Gestioń de múltiples bases de datos SQLite"
+  }
+]
+```
 
 
 <a id="herramientas-de-tratamiento-y-almacenamiento-de-informacion-en-sistemas-nativos"></a>
 ## Herramientas de tratamiento y almacenamiento de información en sistemas nativos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/006-Almacenamiento%20de%20informaci%C3%B3n/005-Herramientas%20de%20tratamiento%20y%20almacenamiento%20de%20informaci%C3%B3n%20en%20sistemas%20nativos)
+
+### index
+<small>Creado: 2025-12-18 14:08</small>
+
+`001-index.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Calendario</title>
+  </head>
+  <body>
+    <div id="jvcalendario"></div>
+    <script>
+      let contenedor = document.querySelector("#jvcalendario");
+      let anio = 2026;
+      let meses = 12;
+      for(let i = 1;i<=meses;i++){
+        let mes = document.createElement("div");
+        mes.classList.add("mes");
+        contenedor.appendChild(mes)
+      }
+    </script>
+  </body>
+</html>
+```
+
+### numero y nombre del mes
+<small>Creado: 2025-12-18 14:07</small>
+
+`002-numero y nombre del mes.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Calendario</title>
+  </head>
+  <body>
+    <div id="jvcalendario"></div>
+    <script>
+      let contenedor = document.querySelector("#jvcalendario");
+      let anio = 2026;
+      let meses = 12;
+      let nombres_meses = ['Enero','Febrero','Maz','Abril','Mayo','Junio','Julio',
+      'Agosto','Septiembre','Octubre','Noviembre','Diciembre']
+      for(let i = 1;i<=meses;i++){
+        let mes = document.createElement("div");
+        mes.classList.add("mes");
+        mes.setAttribute("mes",nombres_meses[i-1])
+        contenedor.appendChild(mes)
+      }
+    </script>
+  </body>
+</html>
+```
+
+### numero de dias
+<small>Creado: 2025-12-18 14:09</small>
+
+`003-numero de dias.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Calendario</title>
+  </head>
+  <body>
+    <div id="jvcalendario"></div>
+    <script>
+      let contenedor = document.querySelector("#jvcalendario");
+      let anio = 2026;
+      let meses = 12;
+      let nombres_meses = ['Enero','Febrero','Maz','Abril','Mayo','Junio','Julio',
+      'Agosto','Septiembre','Octubre','Noviembre','Diciembre']
+      for(let i = 1;i<=meses;i++){
+        let mes = document.createElement("div");
+        mes.classList.add("mes");
+        mes.setAttribute("mes",nombres_meses[i-1])
+          for(let j = 1;j<=30;j++){
+            let dia = document.createElement("div");
+            dia.classList.add("dia")
+            dia.textContent = j
+            mes.appendChild(dia)
+          }
+        contenedor.appendChild(mes)
+      }
+    </script>
+  </body>
+</html>
+```
+
+### un poco de css
+<small>Creado: 2025-12-18 14:11</small>
+
+`004-un poco de css.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Calendario</title>
+    <style>
+      #jvcalendario .mes{display:grid;width:400px;grid-template-columns:repeat(7,100fr);}
+      #jvcalendario .mes .dia{border:1px solid lightgray;}
+    </style>
+  </head>
+  <body>
+    <div id="jvcalendario"></div>
+    <script>
+      let contenedor = document.querySelector("#jvcalendario");
+      let anio = 2026;
+      let meses = 12;
+      let nombres_meses = ['Enero','Febrero','Maz','Abril','Mayo','Junio','Julio',
+      'Agosto','Septiembre','Octubre','Noviembre','Diciembre']
+      for(let i = 1;i<=meses;i++){
+        let mes = document.createElement("div");
+        mes.classList.add("mes");
+        mes.setAttribute("mes",nombres_meses[i-1])
+          for(let j = 1;j<=30;j++){
+            let dia = document.createElement("div");
+            dia.classList.add("dia")
+            dia.textContent = j
+            mes.appendChild(dia)
+          }
+        contenedor.appendChild(mes)
+      }
+    </script>
+  </body>
+</html>
+```
+
+### nombres de los meses
+<small>Creado: 2025-12-18 14:15</small>
+
+`005-nombres de los meses.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Calendario</title>
+    <style>
+      #jvcalendario .mes{display:grid;width:400px;grid-template-columns:repeat(7,100fr);}
+      #jvcalendario .mes .dia{border:1px solid lightgray;}
+    </style>
+  </head>
+  <body>
+    <div id="jvcalendario"></div>
+    <script>
+      function diasEnMes(year, month) {
+        return new Date(year, month, 0).getDate();
+      }
+      let contenedor = document.querySelector("#jvcalendario");
+      let anio = 2026;
+      let meses = 12;
+      let nombres_meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio',
+      'Agosto','Septiembre','Octubre','Noviembre','Diciembre']
+      for(let i = 1;i<=meses;i++){
+        let dias_en_mes = diasEnMes(anio,i)
+        let titulo = document.createElement("h3")
+        titulo.textContent = nombres_meses[i-1]
+        contenedor.appendChild(titulo)
+        let mes = document.createElement("div");
+        mes.classList.add("mes");
+        mes.setAttribute("mes",nombres_meses[i-1])
+          for(let j = 1;j<=dias_en_mes;j++){
+            let dia = document.createElement("div");
+            dia.classList.add("dia")
+            dia.textContent = j
+            mes.appendChild(dia)
+          }
+        contenedor.appendChild(mes)
+      }
+    </script>
+  </body>
+</html>
+```
+
+### dia en el que empieza el mes
+<small>Creado: 2025-12-18 14:22</small>
+
+`006-dia en el que empieza el mes.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Calendario</title>
+    <style>
+      #jvcalendario .mes{display:grid;width:400px;grid-template-columns:repeat(7,100fr);}
+      #jvcalendario .mes .dia{border:1px solid lightgray;}
+    </style>
+  </head>
+  <body>
+    <div id="jvcalendario"></div>
+    <script>
+      function diasEnMes(year, month) {
+        return new Date(year, month, 0).getDate();
+      }
+      function primerDiaDelMes(year, month) {
+        return new Date(year, month - 1, 1).getDay();
+      }
+      let contenedor = document.querySelector("#jvcalendario");         // Selecciono el contenedor
+      let anio = 2026;                                                  // Establezco año actual
+      let meses = 12;                                                   // Indico número de meses
+      let nombres_meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio',
+      'Agosto','Septiembre','Octubre','Noviembre','Diciembre']          // Creo un array con los meses
+      for(let i = 1;i<=meses;i++){                                      // Para cada mes
+        let dias_en_mes = diasEnMes(anio,i)                             // Obtengo los dias que tiene el mes
+        let titulo = document.createElement("h3")                       // Creo un titulo con tipo h3
+        titulo.textContent = nombres_meses[i-1]                         // Le pongo el nombre del mes
+        contenedor.appendChild(titulo)                                  // Y lo añado al contenedor
+        let mes = document.createElement("div");                        // Creo un div para el mes
+        mes.classList.add("mes");                                       // Le pongo la clase mes para el css
+        mes.setAttribute("mes",nombres_meses[i-1])                      // Le pongo un atributo mes
+          let inicio_mes = primerDiaDelMes(anio, i)+6                   // Atrapo el dia de la semana en el que empieza el mes
+          for(let j = 1;j<=inicio_mes;j++){                             // Para cada uno de los dias
+            let dia = document.createElement("div");                    // Creo un dia vacío
+            dia.classList.add("dia")                                    // Le pongo la clase dia
+            mes.appendChild(dia)                                        // Y lo añado al mes
+          }
+          for(let j = 1;j<=dias_en_mes;j++){                            // para cada uno de los dias llenos
+            let dia = document.createElement("div");                    // Creo un div
+            dia.classList.add("dia")                                    // Le pongo clase
+            dia.textContent = j                                         // Le pongo el número
+            mes.appendChild(dia)                                        // Y lo añado al mes
+          }
+        contenedor.appendChild(mes)
+      }
+    </script>
+  </body>
+</html>
+```
+
+### un poco mas de css
+<small>Creado: 2025-12-18 14:23</small>
+
+`007-un poco mas de css.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Calendario</title>
+    <style>
+      #jvcalendario .mes{display:grid;width:400px;grid-template-columns:repeat(7,100fr);}
+      #jvcalendario .mes .dia{border:1px solid lightgray;height:50px;padding:5px;font-size:10px;}
+    </style>
+  </head>
+  <body>
+    <div id="jvcalendario"></div>
+    <script>
+      function diasEnMes(year, month) {
+        return new Date(year, month, 0).getDate();
+      }
+      function primerDiaDelMes(year, month) {
+        return new Date(year, month - 1, 1).getDay();
+      }
+      let contenedor = document.querySelector("#jvcalendario");         // Selecciono el contenedor
+      let anio = 2026;                                                  // Establezco año actual
+      let meses = 12;                                                   // Indico número de meses
+      let nombres_meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio',
+      'Agosto','Septiembre','Octubre','Noviembre','Diciembre']          // Creo un array con los meses
+      for(let i = 1;i<=meses;i++){                                      // Para cada mes
+        let dias_en_mes = diasEnMes(anio,i)                             // Obtengo los dias que tiene el mes
+        let titulo = document.createElement("h3")                       // Creo un titulo con tipo h3
+        titulo.textContent = nombres_meses[i-1]                         // Le pongo el nombre del mes
+        contenedor.appendChild(titulo)                                  // Y lo añado al contenedor
+        let mes = document.createElement("div");                        // Creo un div para el mes
+        mes.classList.add("mes");                                       // Le pongo la clase mes para el css
+        mes.setAttribute("mes",nombres_meses[i-1])                      // Le pongo un atributo mes
+          let inicio_mes = primerDiaDelMes(anio, i)+6                   // Atrapo el dia de la semana en el que empieza el mes
+          for(let j = 1;j<=inicio_mes;j++){                             // Para cada uno de los dias
+            let dia = document.createElement("div");                    // Creo un dia vacío
+            dia.classList.add("dia")                                    // Le pongo la clase dia
+            mes.appendChild(dia)                                        // Y lo añado al mes
+          }
+          for(let j = 1;j<=dias_en_mes;j++){                            // para cada uno de los dias llenos
+            let dia = document.createElement("div");                    // Creo un div
+            dia.classList.add("dia")                                    // Le pongo clase
+            dia.textContent = j                                         // Le pongo el número
+            mes.appendChild(dia)                                        // Y lo añado al mes
+          }
+        contenedor.appendChild(mes)
+      }
+    </script>
+  </body>
+</html>
+```
+
+### Ahora añado horas
+<small>Creado: 2025-12-18 14:27</small>
+
+`008-Ahora añado horas.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Calendario</title>
+    <style>
+      #jvcalendario .mes{display:grid;width:1400px;grid-template-columns:repeat(7,100fr);}
+      #jvcalendario .mes .dia{border:1px solid lightgray;height:250px;padding:5px;font-size:10px;}
+    </style>
+  </head>
+  <body>
+    <div id="jvcalendario"></div>
+    <script>
+      function diasEnMes(year, month) {
+        return new Date(year, month, 0).getDate();
+      }
+      function primerDiaDelMes(year, month) {
+        return new Date(year, month - 1, 1).getDay();
+      }
+      let contenedor = document.querySelector("#jvcalendario");         // Selecciono el contenedor
+      let anio = 2026;                                                  // Establezco año actual
+      let meses = 12;                                                   // Indico número de meses
+      let nombres_meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio',
+      'Agosto','Septiembre','Octubre','Noviembre','Diciembre']          // Creo un array con los meses
+      for(let i = 1;i<=meses;i++){                                      // Para cada mes
+        let dias_en_mes = diasEnMes(anio,i)                             // Obtengo los dias que tiene el mes
+        let titulo = document.createElement("h3")                       // Creo un titulo con tipo h3
+        titulo.textContent = nombres_meses[i-1]                         // Le pongo el nombre del mes
+        contenedor.appendChild(titulo)                                  // Y lo añado al contenedor
+        let mes = document.createElement("div");                        // Creo un div para el mes
+        mes.classList.add("mes");                                       // Le pongo la clase mes para el css
+        mes.setAttribute("mes",nombres_meses[i-1])                      // Le pongo un atributo mes
+          let inicio_mes = primerDiaDelMes(anio, i)+6                   // Atrapo el dia de la semana en el que empieza el mes
+          for(let j = 1;j<=inicio_mes;j++){                             // Para cada uno de los dias
+            let dia = document.createElement("div");                    // Creo un dia vacío
+            dia.classList.add("dia")                                    // Le pongo la clase dia
+            mes.appendChild(dia)                                        // Y lo añado al mes
+          }
+          for(let j = 1;j<=dias_en_mes;j++){                            // para cada uno de los dias llenos
+            let dia = document.createElement("div");                    // Creo un div
+            dia.classList.add("dia")                                    // Le pongo clase
+            dia.textContent = j                                         // Le pongo el número
+              for(let k = 0;k<=23;k++){
+                let hora = document.createElement("div");
+                hora.classList.add("hora")
+                hora.textContent = k
+                dia.appendChild(hora) 
+              }
+            mes.appendChild(dia)                                        // Y lo añado al mes
+          }
+        contenedor.appendChild(mes)
+      }
+    </script>
+  </body>
+</html>
+```
+
+### flex para los dias
+<small>Creado: 2025-12-18 14:30</small>
+
+`009-flex para los dias.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Calendario</title>
+    <style>
+      #jvcalendario .mes{display:grid;width:1400px;grid-template-columns:repeat(7,100fr);}
+      #jvcalendario .mes .dia{border:1px solid lightgray;height:250px;padding:10px;font-size:10px;display:flex;flex-direction:column;justify-content:space-between;}
+      #jvcalendario .mes .dia .hora{border-bottom:1px solid lightgray;}
+    </style>
+  </head>
+  <body>
+    <div id="jvcalendario"></div>
+    <script>
+      function diasEnMes(year, month) {
+        return new Date(year, month, 0).getDate();
+      }
+      function primerDiaDelMes(year, month) {
+        return new Date(year, month - 1, 1).getDay();
+      }
+      let contenedor = document.querySelector("#jvcalendario");         // Selecciono el contenedor
+      let anio = 2026;                                                  // Establezco año actual
+      let meses = 12;                                                   // Indico número de meses
+      let nombres_meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio',
+      'Agosto','Septiembre','Octubre','Noviembre','Diciembre']          // Creo un array con los meses
+      for(let i = 1;i<=meses;i++){                                      // Para cada mes
+        let dias_en_mes = diasEnMes(anio,i)                             // Obtengo los dias que tiene el mes
+        let titulo = document.createElement("h3")                       // Creo un titulo con tipo h3
+        titulo.textContent = nombres_meses[i-1]                         // Le pongo el nombre del mes
+        contenedor.appendChild(titulo)                                  // Y lo añado al contenedor
+        let mes = document.createElement("div");                        // Creo un div para el mes
+        mes.classList.add("mes");                                       // Le pongo la clase mes para el css
+        mes.setAttribute("mes",nombres_meses[i-1])                      // Le pongo un atributo mes
+          let inicio_mes = primerDiaDelMes(anio, i)+6                   // Atrapo el dia de la semana en el que empieza el mes
+          for(let j = 1;j<=inicio_mes;j++){                             // Para cada uno de los dias
+            let dia = document.createElement("div");                    // Creo un dia vacío
+            dia.classList.add("dia")                                    // Le pongo la clase dia
+            mes.appendChild(dia)                                        // Y lo añado al mes
+          }
+          for(let j = 1;j<=dias_en_mes;j++){                            // para cada uno de los dias llenos
+            let dia = document.createElement("div");                    // Creo un div
+            dia.classList.add("dia")                                    // Le pongo clase
+            dia.textContent = j                                         // Le pongo el número
+              for(let k = 8;k<=21;k++){
+                let hora = document.createElement("div");
+                hora.classList.add("hora")
+                hora.textContent = k
+                dia.appendChild(hora) 
+              }
+            mes.appendChild(dia)                                        // Y lo añado al mes
+          }
+        contenedor.appendChild(mes)
+      }
+    </script>
+  </body>
+</html>
+```
+
+### mas css
+<small>Creado: 2025-12-18 14:33</small>
+
+`010-mas css.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Calendario</title>
+    <style>
+      #jvcalendario .mes{display:grid;width:1400px;grid-template-columns:repeat(7,100fr);}
+      #jvcalendario .mes .dia{border:1px solid lightgray;height:250px;padding:10px;font-size:10px;display:flex;flex-direction:column;justify-content:space-between;}
+      #jvcalendario .mes .dia .hora{border-bottom:1px solid lightgray;}
+      #jvcalendario .mes .desactivado{background:lightgrey;}
+      #jvcalendario .mes .dia .hora:nth-child(even){background:rgb(240,240,240);}
+    </style>
+  </head>
+  <body>
+    <div id="jvcalendario"></div>
+    <script>
+      function diasEnMes(year, month) {
+        return new Date(year, month, 0).getDate();
+      }
+      function primerDiaDelMes(year, month) {
+        return new Date(year, month - 1, 1).getDay();
+      }
+      let contenedor = document.querySelector("#jvcalendario");         // Selecciono el contenedor
+      let anio = 2026;                                                  // Establezco año actual
+      let meses = 12;                                                   // Indico número de meses
+      let nombres_meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio',
+      'Agosto','Septiembre','Octubre','Noviembre','Diciembre']          // Creo un array con los meses
+      for(let i = 1;i<=meses;i++){                                      // Para cada mes
+        let dias_en_mes = diasEnMes(anio,i)                             // Obtengo los dias que tiene el mes
+        let titulo = document.createElement("h3")                       // Creo un titulo con tipo h3
+        titulo.textContent = nombres_meses[i-1]                         // Le pongo el nombre del mes
+        contenedor.appendChild(titulo)                                  // Y lo añado al contenedor
+        let mes = document.createElement("div");                        // Creo un div para el mes
+        mes.classList.add("mes");                                       // Le pongo la clase mes para el css
+        mes.setAttribute("mes",nombres_meses[i-1])                      // Le pongo un atributo mes
+          let inicio_mes = primerDiaDelMes(anio, i)+6                   // Atrapo el dia de la semana en el que empieza el mes
+          for(let j = 1;j<=inicio_mes;j++){                             // Para cada uno de los dias
+            let dia = document.createElement("div");                    // Creo un dia vacío
+            dia.classList.add("dia")                                    // Le pongo la clase dia
+            dia.classList.add("desactivado")                                    // Le pongo la clase dia
+            mes.appendChild(dia)                                        // Y lo añado al mes
+          }
+          for(let j = 1;j<=dias_en_mes;j++){                            // para cada uno de los dias llenos
+            let dia = document.createElement("div");                    // Creo un div
+            dia.classList.add("dia")                                    // Le pongo clase
+            dia.textContent = j                                         // Le pongo el número
+              for(let k = 8;k<=21;k++){
+                let hora = document.createElement("div");
+                hora.classList.add("hora")
+                hora.textContent = k
+                dia.appendChild(hora) 
+              }
+            mes.appendChild(dia)                                        // Y lo añado al mes
+          }
+        contenedor.appendChild(mes)
+      }
+    </script>
+  </body>
+</html>
+```
+
+### evento crear nuevo dia
+<small>Creado: 2025-12-18 14:37</small>
+
+`011-evento crear nuevo dia.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Calendario</title>
+    <style>
+      #jvcalendario .mes{display:grid;width:1400px;grid-template-columns:repeat(7,100fr);}
+      #jvcalendario .mes .dia{border:1px solid lightgray;height:250px;padding:10px;font-size:10px;display:flex;flex-direction:column;justify-content:space-between;}
+      #jvcalendario .mes .dia .hora{border-bottom:1px solid lightgray;display:flex;gap:20px;}
+      #jvcalendario .mes .desactivado{background:lightgrey;}
+      #jvcalendario .mes .dia .hora:nth-child(even){background:rgb(240,240,240);}
+      #jvcalendario .mes .dia .hora .evento{background:red;color:white;padding:5px;border-radius:5px;width:80%;}
+    </style>
+  </head>
+  <body>
+    <div id="jvcalendario"></div>
+    <script>
+      function diasEnMes(year, month) {
+        return new Date(year, month, 0).getDate();
+      }
+      function primerDiaDelMes(year, month) {
+        return new Date(year, month - 1, 1).getDay();
+      }
+      let contenedor = document.querySelector("#jvcalendario");         // Selecciono el contenedor
+      let anio = 2026;                                                  // Establezco año actual
+      let meses = 12;                                                   // Indico número de meses
+      let nombres_meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio',
+      'Agosto','Septiembre','Octubre','Noviembre','Diciembre']          // Creo un array con los meses
+      for(let i = 1;i<=meses;i++){                                      // Para cada mes
+        let dias_en_mes = diasEnMes(anio,i)                             // Obtengo los dias que tiene el mes
+        let titulo = document.createElement("h3")                       // Creo un titulo con tipo h3
+        titulo.textContent = nombres_meses[i-1]                         // Le pongo el nombre del mes
+        contenedor.appendChild(titulo)                                  // Y lo añado al contenedor
+        let mes = document.createElement("div");                        // Creo un div para el mes
+        mes.classList.add("mes");                                       // Le pongo la clase mes para el css
+        mes.setAttribute("mes",nombres_meses[i-1])                      // Le pongo un atributo mes
+          let inicio_mes = primerDiaDelMes(anio, i)+6                   // Atrapo el dia de la semana en el que empieza el mes
+          for(let j = 1;j<=inicio_mes;j++){                             // Para cada uno de los dias
+            let dia = document.createElement("div");                    // Creo un dia vacío
+            dia.classList.add("dia")                                    // Le pongo la clase dia
+            dia.classList.add("desactivado")                            // Le pongo la clase dia
+            mes.appendChild(dia)                                        // Y lo añado al mes
+          }
+          for(let j = 1;j<=dias_en_mes;j++){                            // para cada uno de los dias llenos
+            let dia = document.createElement("div");                    // Creo un div
+            dia.classList.add("dia")                                    // Le pongo clase
+            dia.textContent = j                                         // Le pongo el número
+              for(let k = 8;k<=21;k++){
+                let hora = document.createElement("div");
+                hora.classList.add("hora")
+                hora.textContent = k
+                hora.onclick = function(){
+                  console.log("has hecho click")
+                  let evento = document.createElement("div")
+                  evento.classList.add("evento")
+                  hora.appendChild(evento)
+                }
+                dia.appendChild(hora) 
+              }
+            mes.appendChild(dia)                                        // Y lo añado al mes
+          }
+        contenedor.appendChild(mes)
+      }
+    </script>
+  </body>
+</html>
+```
+
+### me meto dentro del evento y puedo escribir
+<small>Creado: 2025-12-18 14:40</small>
+
+`012-me meto dentro del evento y puedo escribir.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Calendario</title>
+    <style>
+      #jvcalendario .mes{display:grid;width:1400px;grid-template-columns:repeat(7,100fr);}
+      #jvcalendario .mes .dia{border:1px solid lightgray;height:250px;padding:10px;font-size:10px;display:flex;flex-direction:column;justify-content:space-between;}
+      #jvcalendario .mes .dia .hora{border-bottom:1px solid lightgray;display:flex;gap:20px;}
+      #jvcalendario .mes .desactivado{background:lightgrey;}
+      #jvcalendario .mes .dia .hora:nth-child(even){background:rgb(240,240,240);}
+      #jvcalendario .mes .dia .hora .evento{background:red;color:white;padding:5px;border-radius:5px;width:80%;}
+    </style>
+  </head>
+  <body>
+    <button>Guardar</button>
+    <div id="jvcalendario"></div>
+    <script>
+      function diasEnMes(year, month) {
+        return new Date(year, month, 0).getDate();
+      }
+      function primerDiaDelMes(year, month) {
+        return new Date(year, month - 1, 1).getDay();
+      }
+      let boton = document.querySelector("button")
+      boton.onclick = function(){
+        console.log("vamos a guardar")
+      }
+      let contenedor = document.querySelector("#jvcalendario");         // Selecciono el contenedor
+      let anio = 2026;                                                  // Establezco año actual
+      let meses = 12;                                                   // Indico número de meses
+      let nombres_meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio',
+      'Agosto','Septiembre','Octubre','Noviembre','Diciembre']          // Creo un array con los meses
+      for(let i = 1;i<=meses;i++){                                      // Para cada mes
+        let dias_en_mes = diasEnMes(anio,i)                             // Obtengo los dias que tiene el mes
+        let titulo = document.createElement("h3")                       // Creo un titulo con tipo h3
+        titulo.textContent = nombres_meses[i-1]                         // Le pongo el nombre del mes
+        contenedor.appendChild(titulo)                                  // Y lo añado al contenedor
+        let mes = document.createElement("div");                        // Creo un div para el mes
+        mes.classList.add("mes");                                       // Le pongo la clase mes para el css
+        mes.setAttribute("mes",nombres_meses[i-1])                      // Le pongo un atributo mes
+          let inicio_mes = primerDiaDelMes(anio, i)+6                   // Atrapo el dia de la semana en el que empieza el mes
+          for(let j = 1;j<=inicio_mes;j++){                             // Para cada uno de los dias
+            let dia = document.createElement("div");                    // Creo un dia vacío
+            dia.classList.add("dia")                                    // Le pongo la clase dia
+            dia.classList.add("desactivado")                            // Le pongo la clase dia
+            mes.appendChild(dia)                                        // Y lo añado al mes
+          }
+          for(let j = 1;j<=dias_en_mes;j++){                            // para cada uno de los dias llenos
+            let dia = document.createElement("div");                    // Creo un div
+            dia.classList.add("dia")                                    // Le pongo clase
+            dia.textContent = j                                         // Le pongo el número
+              for(let k = 8;k<=21;k++){
+                let hora = document.createElement("div");
+                hora.classList.add("hora")
+                hora.textContent = k
+                hora.onclick = function(){
+                  console.log("has hecho click")
+                  let evento = document.createElement("div")
+                  evento.classList.add("evento")
+                  hora.appendChild(evento)
+                  evento.setAttribute("contenteditable",true)
+                  evento.focus()
+                }
+                dia.appendChild(hora) 
+              }
+            mes.appendChild(dia)                                        // Y lo añado al mes
+          }
+        contenedor.appendChild(mes)
+      }
+    </script>
+  </body>
+</html>
+```
+
+### boton de guardar
+<small>Creado: 2025-12-18 14:42</small>
+
+`013-boton de guardar.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Calendario</title>
+    <style>
+      #jvcalendario .mes{display:grid;width:1400px;grid-template-columns:repeat(7,100fr);}
+      #jvcalendario .mes .dia{border:1px solid lightgray;height:250px;padding:10px;font-size:10px;display:flex;flex-direction:column;justify-content:space-between;}
+      #jvcalendario .mes .dia .hora{border-bottom:1px solid lightgray;display:flex;gap:20px;}
+      #jvcalendario .mes .desactivado{background:lightgrey;}
+      #jvcalendario .mes .dia .hora:nth-child(even){background:rgb(240,240,240);}
+      #jvcalendario .mes .dia .hora .evento{background:red;color:white;padding:5px;border-radius:5px;width:80%;}
+    </style>
+  </head>
+  <body>
+    <button>Guardar</button>
+    <div id="jvcalendario"></div>
+    <script>
+      function diasEnMes(year, month) {
+        return new Date(year, month, 0).getDate();
+      }
+      function primerDiaDelMes(year, month) {
+        return new Date(year, month - 1, 1).getDay();
+      }
+      let boton = document.querySelector("button")
+      boton.onclick = function(){
+        console.log("vamos a guardar")
+        let eventos = document.querySelectorAll(".evento")
+        console.log(eventos)
+      }
+      let contenedor = document.querySelector("#jvcalendario");         // Selecciono el contenedor
+      let anio = 2026;                                                  // Establezco año actual
+      let meses = 12;                                                   // Indico número de meses
+      let nombres_meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio',
+      'Agosto','Septiembre','Octubre','Noviembre','Diciembre']          // Creo un array con los meses
+      for(let i = 1;i<=meses;i++){                                      // Para cada mes
+        let dias_en_mes = diasEnMes(anio,i)                             // Obtengo los dias que tiene el mes
+        let titulo = document.createElement("h3")                       // Creo un titulo con tipo h3
+        titulo.textContent = nombres_meses[i-1]                         // Le pongo el nombre del mes
+        contenedor.appendChild(titulo)                                  // Y lo añado al contenedor
+        let mes = document.createElement("div");                        // Creo un div para el mes
+        mes.classList.add("mes");                                       // Le pongo la clase mes para el css
+        mes.setAttribute("mes",nombres_meses[i-1])                      // Le pongo un atributo mes
+          let inicio_mes = primerDiaDelMes(anio, i)+6                   // Atrapo el dia de la semana en el que empieza el mes
+          for(let j = 1;j<=inicio_mes;j++){                             // Para cada uno de los dias
+            let dia = document.createElement("div");                    // Creo un dia vacío
+            dia.classList.add("dia")                                    // Le pongo la clase dia
+            dia.classList.add("desactivado")                            // Le pongo la clase dia
+            mes.appendChild(dia)                                        // Y lo añado al mes
+          }
+          for(let j = 1;j<=dias_en_mes;j++){                            // para cada uno de los dias llenos
+            let dia = document.createElement("div");                    // Creo un div
+            dia.classList.add("dia")                                    // Le pongo clase
+            dia.textContent = j                                         // Le pongo el número
+              for(let k = 8;k<=21;k++){
+                let hora = document.createElement("div");
+                hora.classList.add("hora")
+                hora.textContent = k
+                hora.onclick = function(){
+                  console.log("has hecho click")
+                  let evento = document.createElement("div")
+                  evento.classList.add("evento")
+                  hora.appendChild(evento)
+                  evento.setAttribute("contenteditable",true)
+                  evento.focus()
+                }
+                dia.appendChild(hora) 
+              }
+            mes.appendChild(dia)                                        // Y lo añado al mes
+          }
+        contenedor.appendChild(mes)
+      }
+    </script>
+  </body>
+</html>
+```
+
+### les pongo año mes y dia a los eventos
+<small>Creado: 2025-12-18 14:43</small>
+
+`014-les pongo año mes y dia a los eventos.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Calendario</title>
+    <style>
+      #jvcalendario .mes{display:grid;width:1400px;grid-template-columns:repeat(7,100fr);}
+      #jvcalendario .mes .dia{border:1px solid lightgray;height:250px;padding:10px;font-size:10px;display:flex;flex-direction:column;justify-content:space-between;}
+      #jvcalendario .mes .dia .hora{border-bottom:1px solid lightgray;display:flex;gap:20px;}
+      #jvcalendario .mes .desactivado{background:lightgrey;}
+      #jvcalendario .mes .dia .hora:nth-child(even){background:rgb(240,240,240);}
+      #jvcalendario .mes .dia .hora .evento{background:red;color:white;padding:5px;border-radius:5px;width:80%;}
+    </style>
+  </head>
+  <body>
+    <button>Guardar</button>
+    <div id="jvcalendario"></div>
+    <script>
+      function diasEnMes(year, month) {
+        return new Date(year, month, 0).getDate();
+      }
+      function primerDiaDelMes(year, month) {
+        return new Date(year, month - 1, 1).getDay();
+      }
+      let boton = document.querySelector("button")
+      boton.onclick = function(){
+        console.log("vamos a guardar")
+        let eventos = document.querySelectorAll(".evento")
+        console.log(eventos)
+      }
+      let contenedor = document.querySelector("#jvcalendario");         // Selecciono el contenedor
+      let anio = 2026;                                                  // Establezco año actual
+      let meses = 12;                                                   // Indico número de meses
+      let nombres_meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio',
+      'Agosto','Septiembre','Octubre','Noviembre','Diciembre']          // Creo un array con los meses
+      for(let i = 1;i<=meses;i++){                                      // Para cada mes
+        let dias_en_mes = diasEnMes(anio,i)                             // Obtengo los dias que tiene el mes
+        let titulo = document.createElement("h3")                       // Creo un titulo con tipo h3
+        titulo.textContent = nombres_meses[i-1]                         // Le pongo el nombre del mes
+        contenedor.appendChild(titulo)                                  // Y lo añado al contenedor
+        let mes = document.createElement("div");                        // Creo un div para el mes
+        mes.classList.add("mes");                                       // Le pongo la clase mes para el css
+        mes.setAttribute("mes",nombres_meses[i-1])                      // Le pongo un atributo mes
+          let inicio_mes = primerDiaDelMes(anio, i)+6                   // Atrapo el dia de la semana en el que empieza el mes
+          for(let j = 1;j<=inicio_mes;j++){                             // Para cada uno de los dias
+            let dia = document.createElement("div");                    // Creo un dia vacío
+            dia.classList.add("dia")                                    // Le pongo la clase dia
+            dia.classList.add("desactivado")                            // Le pongo la clase dia
+            mes.appendChild(dia)                                        // Y lo añado al mes
+          }
+          for(let j = 1;j<=dias_en_mes;j++){                            // para cada uno de los dias llenos
+            let dia = document.createElement("div");                    // Creo un div
+            dia.classList.add("dia")                                    // Le pongo clase
+            dia.textContent = j                                         // Le pongo el número
+              for(let k = 8;k<=21;k++){
+                let hora = document.createElement("div");
+                hora.classList.add("hora")
+                hora.textContent = k
+                hora.onclick = function(){
+                  console.log("has hecho click")
+                  let evento = document.createElement("div")
+                  evento.setAttribute("anio",anio)
+                  evento.setAttribute("mes",i)
+                  evento.setAttribute("dia",j)
+                  evento.setAttribute("hora",k)
+                  evento.classList.add("evento")
+                  hora.appendChild(evento)
+                  evento.setAttribute("contenteditable",true)
+                  evento.focus()
+                }
+                dia.appendChild(hora) 
+              }
+            mes.appendChild(dia)                                        // Y lo añado al mes
+          }
+        contenedor.appendChild(mes)
+      }
+    </script>
+  </body>
+</html>
+```
+
+### creo calendarios
+<small>Creado: 2025-12-18 14:50</small>
+
+`015-creo calendarios.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Calendario</title>
+    <style>
+      #jvcalendario .mes{display:grid;width:1400px;grid-template-columns:repeat(7,100fr);}
+      #jvcalendario .mes .dia{border:1px solid lightgray;height:250px;padding:10px;font-size:10px;display:flex;flex-direction:column;justify-content:space-between;}
+      #jvcalendario .mes .dia .hora{border-bottom:1px solid lightgray;display:flex;gap:20px;}
+      #jvcalendario .mes .desactivado{background:lightgrey;}
+      #jvcalendario .mes .dia .hora:nth-child(even){background:rgb(240,240,240);}
+      #jvcalendario .mes .dia .hora .evento{color:white;padding:5px;border-radius:5px;width:80%;}
+      .boton{border:0px;border-radius:5px;background:lightgray;padding:10px 20px;}
+      .personal{background:red;color:white;}.laboral{background:green;color:white;}.vacaciones{background:blue;color:white;}
+    </style>
+  </head>
+  <body>
+    <button id="guardar">Guardar</button>
+    <button class="boton personal">personal</button>
+    <button class="boton laboral">laboral</button>
+    <button class="boton vacaciones">vacaciones</button>
+    <div id="jvcalendario"></div>
+    <script>
+      function diasEnMes(year, month) {
+        return new Date(year, month, 0).getDate();
+      }
+      function primerDiaDelMes(year, month) {
+        return new Date(year, month - 1, 1).getDay();
+      }
+      let boton = document.querySelector("#guardar")
+      boton.onclick = function(){
+        console.log("vamos a guardar")
+        let eventos = document.querySelectorAll(".evento")
+        console.log(eventos)
+      }
+      let calendario_activo = "personal";
+      let botones_calendario = document.querySelectorAll(".boton")
+      botones_calendario.forEach(function(boton){
+        boton.onclick = function(){
+          calendario_activo = this.textContent
+        }
+      })
+      let contenedor = document.querySelector("#jvcalendario");         // Selecciono el contenedor
+      let anio = 2026;                                                  // Establezco año actual
+      let meses = 12;                                                   // Indico número de meses
+      let nombres_meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio',
+      'Agosto','Septiembre','Octubre','Noviembre','Diciembre']          // Creo un array con los meses
+      for(let i = 1;i<=meses;i++){                                      // Para cada mes
+        let dias_en_mes = diasEnMes(anio,i)                             // Obtengo los dias que tiene el mes
+        let titulo = document.createElement("h3")                       // Creo un titulo con tipo h3
+        titulo.textContent = nombres_meses[i-1]                         // Le pongo el nombre del mes
+        contenedor.appendChild(titulo)                                  // Y lo añado al contenedor
+        let mes = document.createElement("div");                        // Creo un div para el mes
+        mes.classList.add("mes");                                       // Le pongo la clase mes para el css
+        mes.setAttribute("mes",nombres_meses[i-1])                      // Le pongo un atributo mes
+          let inicio_mes = primerDiaDelMes(anio, i)+6                   // Atrapo el dia de la semana en el que empieza el mes
+          for(let j = 1;j<=inicio_mes;j++){                             // Para cada uno de los dias
+            let dia = document.createElement("div");                    // Creo un dia vacío
+            dia.classList.add("dia")                                    // Le pongo la clase dia
+            dia.classList.add("desactivado")                            // Le pongo la clase dia
+            mes.appendChild(dia)                                        // Y lo añado al mes
+          }
+          for(let j = 1;j<=dias_en_mes;j++){                            // para cada uno de los dias llenos
+            let dia = document.createElement("div");                    // Creo un div
+            dia.classList.add("dia")                                    // Le pongo clase
+            dia.textContent = j                                         // Le pongo el número
+              for(let k = 8;k<=21;k++){
+                let hora = document.createElement("div");
+                hora.classList.add("hora")
+                hora.textContent = k
+                hora.onclick = function(){
+                  console.log("has hecho click")
+                  let evento = document.createElement("div")
+                  evento.setAttribute("anio",anio)
+                  evento.setAttribute("mes",i)
+                  evento.setAttribute("dia",j)
+                  evento.setAttribute("hora",k)
+                  evento.classList.add("evento")
+                  evento.classList.add(calendario_activo)
+                  hora.appendChild(evento)
+                  evento.setAttribute("contenteditable",true)
+                  evento.focus()
+                }
+                dia.appendChild(hora) 
+              }
+            mes.appendChild(dia)                                        // Y lo añado al mes
+          }
+        contenedor.appendChild(mes)
+      }
+    </script>
+  </body>
+</html>
+```
+
+### localstorage
+<small>Creado: 2025-12-18 15:02</small>
+
+`016-localstorage.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Calendario</title>
+    <style>
+      #jvcalendario .mes{display:grid;width:1400px;grid-template-columns:repeat(7,100fr);}
+      #jvcalendario .mes .dia{border:1px solid lightgray;height:250px;padding:10px;font-size:10px;display:flex;flex-direction:column;justify-content:space-between;}
+      #jvcalendario .mes .dia .hora{border-bottom:1px solid lightgray;display:flex;gap:20px;}
+      #jvcalendario .mes .desactivado{background:lightgrey;}
+      #jvcalendario .mes .dia .hora:nth-child(even){background:rgb(240,240,240);}
+      #jvcalendario .mes .dia .hora .evento{color:white;padding:5px;border-radius:5px;width:80%;}
+      .boton{border:0px;border-radius:5px;background:lightgray;padding:10px 20px;}
+      .personal{background:red;color:white;}.laboral{background:green;color:white;}.vacaciones{background:blue;color:white;}
+    </style>
+  </head>
+  <body>
+    <button id="guardar">Guardar</button>
+    <button class="boton personal">personal</button>
+    <button class="boton laboral">laboral</button>
+    <button class="boton vacaciones">vacaciones</button>
+    <div id="jvcalendario"></div>
+    <script>
+      function diasEnMes(year, month) {
+        return new Date(year, month, 0).getDate();
+      }
+      function primerDiaDelMes(year, month) {
+        return new Date(year, month - 1, 1).getDay();
+      }
+      let boton = document.querySelector("#guardar")
+      boton.onclick = function(){
+        console.log("vamos a guardar")
+        let eventos = document.querySelectorAll(".evento")
+        console.log(eventos)
+        localStorage.setItem("jvcalendario",eventos)
+        console.log(localStorage.getItem("jvcalendario"))
+      }
+      let calendario_activo = "personal";
+      let botones_calendario = document.querySelectorAll(".boton")
+      botones_calendario.forEach(function(boton){
+        boton.onclick = function(){
+          calendario_activo = this.textContent
+        }
+      })
+      let contenedor = document.querySelector("#jvcalendario");         // Selecciono el contenedor
+      let anio = 2026;                                                  // Establezco año actual
+      let meses = 12;                                                   // Indico número de meses
+      let nombres_meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio',
+      'Agosto','Septiembre','Octubre','Noviembre','Diciembre']          // Creo un array con los meses
+      for(let i = 1;i<=meses;i++){                                      // Para cada mes
+        let dias_en_mes = diasEnMes(anio,i)                             // Obtengo los dias que tiene el mes
+        let titulo = document.createElement("h3")                       // Creo un titulo con tipo h3
+        titulo.textContent = nombres_meses[i-1]                         // Le pongo el nombre del mes
+        contenedor.appendChild(titulo)                                  // Y lo añado al contenedor
+        let mes = document.createElement("div");                        // Creo un div para el mes
+        mes.classList.add("mes");                                       // Le pongo la clase mes para el css
+        mes.setAttribute("mes",nombres_meses[i-1])                      // Le pongo un atributo mes
+          let inicio_mes = primerDiaDelMes(anio, i)+6                   // Atrapo el dia de la semana en el que empieza el mes
+          for(let j = 1;j<=inicio_mes;j++){                             // Para cada uno de los dias
+            let dia = document.createElement("div");                    // Creo un dia vacío
+            dia.classList.add("dia")                                    // Le pongo la clase dia
+            dia.classList.add("desactivado")                            // Le pongo la clase dia
+            mes.appendChild(dia)                                        // Y lo añado al mes
+          }
+          for(let j = 1;j<=dias_en_mes;j++){                            // para cada uno de los dias llenos
+            let dia = document.createElement("div");                    // Creo un div
+            dia.classList.add("dia")                                    // Le pongo clase
+            dia.textContent = j                                         // Le pongo el número
+              for(let k = 8;k<=21;k++){
+                let hora = document.createElement("div");
+                hora.classList.add("hora")
+                hora.textContent = k
+                hora.onclick = function(){
+                  console.log("has hecho click")
+                  let evento = document.createElement("div")
+                  evento.setAttribute("anio",anio)
+                  evento.setAttribute("mes",i)
+                  evento.setAttribute("dia",j)
+                  evento.setAttribute("hora",k)
+                  evento.classList.add("evento")
+                  evento.classList.add(calendario_activo)
+                  hora.appendChild(evento)
+                  evento.setAttribute("contenteditable",true)
+                  evento.focus()
+                }
+                dia.appendChild(hora) 
+              }
+            mes.appendChild(dia)                                        // Y lo añado al mes
+          }
+        contenedor.appendChild(mes)
+      }
+    </script>
+  </body>
+</html>
+```
+
+### guardar pero bien
+<small>Creado: 2025-12-18 15:09</small>
+
+`017-guardar pero bien.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Calendario</title>
+    <style>
+      #jvcalendario .mes{display:grid;width:1400px;grid-template-columns:repeat(7,100fr);}
+      #jvcalendario .mes .dia{border:1px solid lightgray;height:250px;padding:10px;font-size:10px;display:flex;flex-direction:column;justify-content:space-between;}
+      #jvcalendario .mes .dia .hora{border-bottom:1px solid lightgray;display:flex;gap:20px;}
+      #jvcalendario .mes .desactivado{background:lightgrey;}
+      #jvcalendario .mes .dia .hora:nth-child(even){background:rgb(240,240,240);}
+      #jvcalendario .mes .dia .hora .evento{color:white;padding:5px;border-radius:5px;width:80%;}
+      .boton{border:0px;border-radius:5px;background:lightgray;padding:10px 20px;}
+      .personal{background:red;color:white;}.laboral{background:green;color:white;}.vacaciones{background:blue;color:white;}
+    </style>
+  </head>
+  <body>
+    <button id="guardar">Guardar</button>
+    <button class="boton personal">personal</button>
+    <button class="boton laboral">laboral</button>
+    <button class="boton vacaciones">vacaciones</button>
+    <div id="jvcalendario"></div>
+    <script>
+      function diasEnMes(year, month) {
+        return new Date(year, month, 0).getDate();
+      }
+      function primerDiaDelMes(year, month) {
+        return new Date(year, month - 1, 1).getDay();
+      }
+      let boton = document.querySelector("#guardar")
+      boton.onclick = function(){
+        console.log("vamos a guardar")
+        let eventos = document.querySelectorAll(".evento")
+        let json = [];
+        eventos.forEach(function(evento){
+          json.push({
+            anio: evento.getAttribute("anio"),
+            mes:  evento.getAttribute("mes"),
+            dia:  evento.getAttribute("dia"),
+            hora: evento.getAttribute("hora"),
+            tipo: evento.classList.contains("personal") ? "personal"
+                 : evento.classList.contains("laboral") ? "laboral"
+                 : evento.classList.contains("vacaciones") ? "vacaciones"
+                 : "",
+            texto: evento.textContent
+          })
+        })
+        localStorage.setItem("jvcalendario",JSON.stringify(json))
+      }
+      let calendario_activo = "personal";
+      let botones_calendario = document.querySelectorAll(".boton")
+      botones_calendario.forEach(function(boton){
+        boton.onclick = function(){
+          calendario_activo = this.textContent
+        }
+      })
+      let contenedor = document.querySelector("#jvcalendario");         // Selecciono el contenedor
+      let anio = 2026;                                                  // Establezco año actual
+      let meses = 12;                                                   // Indico número de meses
+      let nombres_meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio',
+      'Agosto','Septiembre','Octubre','Noviembre','Diciembre']          // Creo un array con los meses
+      for(let i = 1;i<=meses;i++){                                      // Para cada mes
+        let dias_en_mes = diasEnMes(anio,i)                             // Obtengo los dias que tiene el mes
+        let titulo = document.createElement("h3")                       // Creo un titulo con tipo h3
+        titulo.textContent = nombres_meses[i-1]                         // Le pongo el nombre del mes
+        contenedor.appendChild(titulo)                                  // Y lo añado al contenedor
+        let mes = document.createElement("div");                        // Creo un div para el mes
+        mes.classList.add("mes");                                       // Le pongo la clase mes para el css
+        mes.setAttribute("mes",nombres_meses[i-1])                      // Le pongo un atributo mes
+          let inicio_mes = primerDiaDelMes(anio, i)+6                   // Atrapo el dia de la semana en el que empieza el mes
+          for(let j = 1;j<=inicio_mes;j++){                             // Para cada uno de los dias
+            let dia = document.createElement("div");                    // Creo un dia vacío
+            dia.classList.add("dia")                                    // Le pongo la clase dia
+            dia.classList.add("desactivado")                            // Le pongo la clase dia
+            mes.appendChild(dia)                                        // Y lo añado al mes
+          }
+          for(let j = 1;j<=dias_en_mes;j++){                            // para cada uno de los dias llenos
+            let dia = document.createElement("div");                    // Creo un div
+            dia.classList.add("dia")                                    // Le pongo clase
+            dia.textContent = j                                         // Le pongo el número
+              for(let k = 8;k<=21;k++){
+                let hora = document.createElement("div");
+                hora.classList.add("hora")
+                hora.textContent = k
+                hora.onclick = function(){
+                  console.log("has hecho click")
+                  let evento = document.createElement("div")
+                  evento.setAttribute("anio",anio)
+                  evento.setAttribute("mes",i)
+                  evento.setAttribute("dia",j)
+                  evento.setAttribute("hora",k)
+                  evento.classList.add("evento")
+                  evento.classList.add(calendario_activo)
+                  hora.appendChild(evento)
+                  evento.setAttribute("contenteditable",true)
+                  evento.focus()
+                }
+                dia.appendChild(hora) 
+              }
+            mes.appendChild(dia)                                        // Y lo añado al mes
+          }
+        contenedor.appendChild(mes)
+      }
+    </script>
+  </body>
+</html>
+```
+
+### Recuperar localstorage
+<small>Creado: 2025-12-18 15:18</small>
+
+`018-Recuperar localstorage.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Calendario</title>
+    <style>
+      #jvcalendario .mes{display:grid;width:1400px;grid-template-columns:repeat(7,100fr);}
+      #jvcalendario .mes .dia{border:1px solid lightgray;height:250px;padding:10px;font-size:10px;display:flex;flex-direction:column;justify-content:space-between;}
+      #jvcalendario .mes .dia .hora{border-bottom:1px solid lightgray;display:flex;gap:20px;}
+      #jvcalendario .mes .desactivado{background:lightgrey;}
+      #jvcalendario .mes .dia .hora:nth-child(even){background:rgb(240,240,240);}
+      #jvcalendario .mes .dia .hora .evento{color:white;padding:5px;border-radius:5px;width:80%;}
+      .boton{border:0px;border-radius:5px;background:lightgray;padding:10px 20px;}
+      .personal{background:red;color:white;}.laboral{background:green;color:white;}.vacaciones{background:blue;color:white;}
+    </style>
+  </head>
+  <body>
+    <button id="guardar">Guardar</button>
+    <button class="boton personal">personal</button>
+    <button class="boton laboral">laboral</button>
+    <button class="boton vacaciones">vacaciones</button>
+    <div id="jvcalendario"></div>
+    <script>
+      function bindEvento(el){
+          el.addEventListener("click", function(e){
+            e.stopPropagation();
+          });
+        }
+      function diasEnMes(year, month) {
+        return new Date(year, month, 0).getDate();
+      }
+      function primerDiaDelMes(year, month) {
+        return new Date(year, month - 1, 1).getDay();
+      }
+      let boton = document.querySelector("#guardar")
+      boton.onclick = function(){
+        console.log("vamos a guardar")
+        let eventos = document.querySelectorAll(".evento")
+        let json = [];
+        eventos.forEach(function(evento){
+          json.push({
+            anio: evento.getAttribute("anio"),
+            mes:  evento.getAttribute("mes"),
+            dia:  evento.getAttribute("dia"),
+            hora: evento.getAttribute("hora"),
+            tipo: evento.classList.contains("personal") ? "personal"
+                 : evento.classList.contains("laboral") ? "laboral"
+                 : evento.classList.contains("vacaciones") ? "vacaciones"
+                 : "",
+            texto: evento.textContent
+          })
+        })
+        localStorage.setItem("jvcalendario",JSON.stringify(json))
+      }
+      let calendario_activo = "personal";
+      let botones_calendario = document.querySelectorAll(".boton")
+      botones_calendario.forEach(function(boton){
+        boton.onclick = function(){
+          calendario_activo = this.textContent
+        }
+      })
+      let contenedor = document.querySelector("#jvcalendario");         // Selecciono el contenedor
+      let anio = 2026;                                                  // Establezco año actual
+      let meses = 12;                                                   // Indico número de meses
+      let nombres_meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio',
+      'Agosto','Septiembre','Octubre','Noviembre','Diciembre']          // Creo un array con los meses
+      for(let i = 1;i<=meses;i++){                                      // Para cada mes
+        let dias_en_mes = diasEnMes(anio,i)                             // Obtengo los dias que tiene el mes
+        let titulo = document.createElement("h3")                       // Creo un titulo con tipo h3
+        titulo.textContent = nombres_meses[i-1]                         // Le pongo el nombre del mes
+        contenedor.appendChild(titulo)                                  // Y lo añado al contenedor
+        let mes = document.createElement("div");                        // Creo un div para el mes
+        mes.classList.add("mes");                                       // Le pongo la clase mes para el css
+        mes.setAttribute("mes",nombres_meses[i-1])                      // Le pongo un atributo mes
+          let inicio_mes = primerDiaDelMes(anio, i)+6                   // Atrapo el dia de la semana en el que empieza el mes
+          for(let j = 1;j<=inicio_mes;j++){                             // Para cada uno de los dias
+            let dia = document.createElement("div");                    // Creo un dia vacío
+            dia.classList.add("dia")                                    // Le pongo la clase dia
+            dia.classList.add("desactivado")                            // Le pongo la clase dia
+            mes.appendChild(dia)                                        // Y lo añado al mes
+          }
+          for(let j = 1;j<=dias_en_mes;j++){                            // para cada uno de los dias llenos
+            let dia = document.createElement("div");                    // Creo un div
+            dia.classList.add("dia")                                    // Le pongo clase
+            dia.textContent = j                                         // Le pongo el número
+              for(let k = 8;k<=21;k++){
+                let hora = document.createElement("div");
+                hora.setAttribute("anio",anio)
+                  hora.setAttribute("mes",i)
+                  hora.setAttribute("dia",j)
+                hora.classList.add("hora")
+                hora.setAttribute("hora", k);
+                hora.textContent = k
+                hora.onclick = function(){
+                  console.log("has hecho click")
+                  let evento = document.createElement("div")
+                  evento.setAttribute("anio",anio)
+                  evento.setAttribute("mes",i)
+                  evento.setAttribute("dia",j)
+                  evento.setAttribute("hora",k)
+                  evento.classList.add("evento")
+                  evento.classList.add(calendario_activo)
+                  hora.appendChild(evento)
+                  evento.setAttribute("contenteditable",true)
+                  bindEvento(evento);
+                  evento.focus()
+                  
+                }
+                dia.appendChild(hora) 
+              }
+            mes.appendChild(dia)                                        // Y lo añado al mes
+          }
+        contenedor.appendChild(mes)
+        // Recupero los eventos:
+        let eventos_recuperados_raw = localStorage.getItem("jvcalendario");
+        let eventos_recuperados = [];
+
+        try {
+          eventos_recuperados = eventos_recuperados_raw ? JSON.parse(eventos_recuperados_raw) : [];
+        } catch (e) {
+          eventos_recuperados = [];
+        }
+
+        eventos_recuperados.forEach(function(ev){
+          // Solo eventos de este mes (i)
+          if (Number(ev.mes) !== i) return;
+
+          // Busca el CONTENEDOR DE HORA exacto dentro del mes actual
+          let selector = `.hora[anio="${ev.anio}"][mes="${ev.mes}"][dia="${ev.dia}"][hora="${ev.hora}"]`;
+          let slotHora = mes.querySelector(selector);
+          if (!slotHora) return;
+
+          // Crea el evento y lo mete en el slot de hora (no en el día)
+          let evento = document.createElement("div");
+          evento.setAttribute("anio", ev.anio);
+          evento.setAttribute("mes", ev.mes);
+          evento.setAttribute("dia", ev.dia);
+          evento.setAttribute("hora", ev.hora);
+          evento.classList.add("evento");
+          if (ev.tipo) evento.classList.add(ev.tipo);
+          evento.setAttribute("contenteditable", true);
+          evento.textContent = ev.texto || "";
+
+          slotHora.appendChild(evento);
+          bindEvento(evento);
+        });
+
+      }
+    </script>
+  </body>
+</html>
+```
+
+### detecto teclas en los eventos
+<small>Creado: 2025-12-18 15:22</small>
+
+`019-detecto teclas en los eventos.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Calendario</title>
+    <style>
+      #jvcalendario .mes{display:grid;width:1400px;grid-template-columns:repeat(7,100fr);}
+      #jvcalendario .mes .dia{border:1px solid lightgray;height:250px;padding:10px;font-size:10px;display:flex;flex-direction:column;justify-content:space-between;}
+      #jvcalendario .mes .dia .hora{border-bottom:1px solid lightgray;display:flex;gap:20px;}
+      #jvcalendario .mes .desactivado{background:lightgrey;}
+      #jvcalendario .mes .dia .hora:nth-child(even){background:rgb(240,240,240);}
+      #jvcalendario .mes .dia .hora .evento{color:white;padding:5px;border-radius:5px;width:80%;}
+      .boton{border:0px;border-radius:5px;background:lightgray;padding:10px 20px;}
+      .personal{background:red;color:white;}.laboral{background:green;color:white;}.vacaciones{background:blue;color:white;}
+    </style>
+  </head>
+  <body>
+    <button id="guardar">Guardar</button>
+    <button class="boton personal">personal</button>
+    <button class="boton laboral">laboral</button>
+    <button class="boton vacaciones">vacaciones</button>
+    <div id="jvcalendario"></div>
+    <script>
+      function bindEvento(el){
+          el.addEventListener("click", function(e){
+            e.stopPropagation();
+          });
+        }
+      function diasEnMes(year, month) {
+        return new Date(year, month, 0).getDate();
+      }
+      function primerDiaDelMes(year, month) {
+        return new Date(year, month - 1, 1).getDay();
+      }
+      let boton = document.querySelector("#guardar")
+      boton.onclick = function(){
+        console.log("vamos a guardar")
+        let eventos = document.querySelectorAll(".evento")
+        let json = [];
+        eventos.forEach(function(evento){
+          json.push({
+            anio: evento.getAttribute("anio"),
+            mes:  evento.getAttribute("mes"),
+            dia:  evento.getAttribute("dia"),
+            hora: evento.getAttribute("hora"),
+            tipo: evento.classList.contains("personal") ? "personal"
+                 : evento.classList.contains("laboral") ? "laboral"
+                 : evento.classList.contains("vacaciones") ? "vacaciones"
+                 : "",
+            texto: evento.textContent
+          })
+        })
+        localStorage.setItem("jvcalendario",JSON.stringify(json))
+      }
+      let calendario_activo = "personal";
+      let botones_calendario = document.querySelectorAll(".boton")
+      botones_calendario.forEach(function(boton){
+        boton.onclick = function(){
+          calendario_activo = this.textContent
+        }
+      })
+      let contenedor = document.querySelector("#jvcalendario");         // Selecciono el contenedor
+      let anio = 2026;                                                  // Establezco año actual
+      let meses = 12;                                                   // Indico número de meses
+      let nombres_meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio',
+      'Agosto','Septiembre','Octubre','Noviembre','Diciembre']          // Creo un array con los meses
+      for(let i = 1;i<=meses;i++){                                      // Para cada mes
+        let dias_en_mes = diasEnMes(anio,i)                             // Obtengo los dias que tiene el mes
+        let titulo = document.createElement("h3")                       // Creo un titulo con tipo h3
+        titulo.textContent = nombres_meses[i-1]                         // Le pongo el nombre del mes
+        contenedor.appendChild(titulo)                                  // Y lo añado al contenedor
+        let mes = document.createElement("div");                        // Creo un div para el mes
+        mes.classList.add("mes");                                       // Le pongo la clase mes para el css
+        mes.setAttribute("mes",nombres_meses[i-1])                      // Le pongo un atributo mes
+          let inicio_mes = primerDiaDelMes(anio, i)+6                   // Atrapo el dia de la semana en el que empieza el mes
+          for(let j = 1;j<=inicio_mes;j++){                             // Para cada uno de los dias
+            let dia = document.createElement("div");                    // Creo un dia vacío
+            dia.classList.add("dia")                                    // Le pongo la clase dia
+            dia.classList.add("desactivado")                            // Le pongo la clase dia
+            mes.appendChild(dia)                                        // Y lo añado al mes
+          }
+          for(let j = 1;j<=dias_en_mes;j++){                            // para cada uno de los dias llenos
+            let dia = document.createElement("div");                    // Creo un div
+            dia.classList.add("dia")                                    // Le pongo clase
+            dia.textContent = j                                         // Le pongo el número
+              for(let k = 8;k<=21;k++){
+                let hora = document.createElement("div");
+                hora.setAttribute("anio",anio)
+                  hora.setAttribute("mes",i)
+                  hora.setAttribute("dia",j)
+                hora.classList.add("hora")
+                hora.setAttribute("hora", k);
+                hora.textContent = k
+                hora.onclick = function(){
+                  console.log("has hecho click")
+                  let evento = document.createElement("div")
+                  evento.setAttribute("anio",anio)
+                  evento.setAttribute("mes",i)
+                  evento.setAttribute("dia",j)
+                  evento.setAttribute("hora",k)
+                  evento.classList.add("evento")
+                  evento.classList.add(calendario_activo)
+                  hora.appendChild(evento)
+                  evento.setAttribute("contenteditable",true)
+                  evento.onkeydown =  function (e) {
+                      if (e.key === "Delete" || e.code === "Delete") {
+                        console.log("Forward Delete pressed");
+                      }
+                    };
+                  bindEvento(evento);
+                  evento.focus()
+                  
+                }
+                dia.appendChild(hora) 
+              }
+            mes.appendChild(dia)                                        // Y lo añado al mes
+          }
+        contenedor.appendChild(mes)
+        // Recupero los eventos:
+        let eventos_recuperados_raw = localStorage.getItem("jvcalendario");
+        let eventos_recuperados = [];
+
+        try {
+          eventos_recuperados = eventos_recuperados_raw ? JSON.parse(eventos_recuperados_raw) : [];
+        } catch (e) {
+          eventos_recuperados = [];
+        }
+
+        eventos_recuperados.forEach(function(ev){
+          // Solo eventos de este mes (i)
+          if (Number(ev.mes) !== i) return;
+
+          // Busca el CONTENEDOR DE HORA exacto dentro del mes actual
+          let selector = `.hora[anio="${ev.anio}"][mes="${ev.mes}"][dia="${ev.dia}"][hora="${ev.hora}"]`;
+          let slotHora = mes.querySelector(selector);
+          if (!slotHora) return;
+
+          // Crea el evento y lo mete en el slot de hora (no en el día)
+          let evento = document.createElement("div");
+          evento.setAttribute("anio", ev.anio);
+          evento.setAttribute("mes", ev.mes);
+          evento.setAttribute("dia", ev.dia);
+          evento.setAttribute("hora", ev.hora);
+          evento.classList.add("evento");
+           evento.onkeydown =  function (e) {
+                      if (e.key === "Delete" || e.code === "Delete") {
+                        console.log("Forward Delete pressed");
+                      }
+                    };
+          if (ev.tipo) evento.classList.add(ev.tipo);
+          evento.setAttribute("contenteditable", true);
+          evento.textContent = ev.texto || "";
+
+          slotHora.appendChild(evento);
+          bindEvento(evento);
+        });
+
+      }
+    </script>
+  </body>
+</html>
+```
+
+### realmente suprimo
+<small>Creado: 2025-12-18 15:22</small>
+
+`020-realmente suprimo.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Calendario</title>
+    <style>
+      #jvcalendario .mes{display:grid;width:1400px;grid-template-columns:repeat(7,100fr);}
+      #jvcalendario .mes .dia{border:1px solid lightgray;height:250px;padding:10px;font-size:10px;display:flex;flex-direction:column;justify-content:space-between;}
+      #jvcalendario .mes .dia .hora{border-bottom:1px solid lightgray;display:flex;gap:20px;}
+      #jvcalendario .mes .desactivado{background:lightgrey;}
+      #jvcalendario .mes .dia .hora:nth-child(even){background:rgb(240,240,240);}
+      #jvcalendario .mes .dia .hora .evento{color:white;padding:5px;border-radius:5px;width:80%;}
+      .boton{border:0px;border-radius:5px;background:lightgray;padding:10px 20px;}
+      .personal{background:red;color:white;}.laboral{background:green;color:white;}.vacaciones{background:blue;color:white;}
+    </style>
+  </head>
+  <body>
+    <button id="guardar">Guardar</button>
+    <button class="boton personal">personal</button>
+    <button class="boton laboral">laboral</button>
+    <button class="boton vacaciones">vacaciones</button>
+    <div id="jvcalendario"></div>
+    <script>
+      function bindEvento(el){
+          el.addEventListener("click", function(e){
+            e.stopPropagation();
+          });
+        }
+      function diasEnMes(year, month) {
+        return new Date(year, month, 0).getDate();
+      }
+      function primerDiaDelMes(year, month) {
+        return new Date(year, month - 1, 1).getDay();
+      }
+      let boton = document.querySelector("#guardar")
+      boton.onclick = function(){
+        console.log("vamos a guardar")
+        let eventos = document.querySelectorAll(".evento")
+        let json = [];
+        eventos.forEach(function(evento){
+          json.push({
+            anio: evento.getAttribute("anio"),
+            mes:  evento.getAttribute("mes"),
+            dia:  evento.getAttribute("dia"),
+            hora: evento.getAttribute("hora"),
+            tipo: evento.classList.contains("personal") ? "personal"
+                 : evento.classList.contains("laboral") ? "laboral"
+                 : evento.classList.contains("vacaciones") ? "vacaciones"
+                 : "",
+            texto: evento.textContent
+          })
+        })
+        localStorage.setItem("jvcalendario",JSON.stringify(json))
+      }
+      let calendario_activo = "personal";
+      let botones_calendario = document.querySelectorAll(".boton")
+      botones_calendario.forEach(function(boton){
+        boton.onclick = function(){
+          calendario_activo = this.textContent
+        }
+      })
+      let contenedor = document.querySelector("#jvcalendario");         // Selecciono el contenedor
+      let anio = 2026;                                                  // Establezco año actual
+      let meses = 12;                                                   // Indico número de meses
+      let nombres_meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio',
+      'Agosto','Septiembre','Octubre','Noviembre','Diciembre']          // Creo un array con los meses
+      for(let i = 1;i<=meses;i++){                                      // Para cada mes
+        let dias_en_mes = diasEnMes(anio,i)                             // Obtengo los dias que tiene el mes
+        let titulo = document.createElement("h3")                       // Creo un titulo con tipo h3
+        titulo.textContent = nombres_meses[i-1]                         // Le pongo el nombre del mes
+        contenedor.appendChild(titulo)                                  // Y lo añado al contenedor
+        let mes = document.createElement("div");                        // Creo un div para el mes
+        mes.classList.add("mes");                                       // Le pongo la clase mes para el css
+        mes.setAttribute("mes",nombres_meses[i-1])                      // Le pongo un atributo mes
+          let inicio_mes = primerDiaDelMes(anio, i)+6                   // Atrapo el dia de la semana en el que empieza el mes
+          for(let j = 1;j<=inicio_mes;j++){                             // Para cada uno de los dias
+            let dia = document.createElement("div");                    // Creo un dia vacío
+            dia.classList.add("dia")                                    // Le pongo la clase dia
+            dia.classList.add("desactivado")                            // Le pongo la clase dia
+            mes.appendChild(dia)                                        // Y lo añado al mes
+          }
+          for(let j = 1;j<=dias_en_mes;j++){                            // para cada uno de los dias llenos
+            let dia = document.createElement("div");                    // Creo un div
+            dia.classList.add("dia")                                    // Le pongo clase
+            dia.textContent = j                                         // Le pongo el número
+              for(let k = 8;k<=21;k++){
+                let hora = document.createElement("div");
+                hora.setAttribute("anio",anio)
+                  hora.setAttribute("mes",i)
+                  hora.setAttribute("dia",j)
+                hora.classList.add("hora")
+                hora.setAttribute("hora", k);
+                hora.textContent = k
+                hora.onclick = function(){
+                  console.log("has hecho click")
+                  let evento = document.createElement("div")
+                  evento.setAttribute("anio",anio)
+                  evento.setAttribute("mes",i)
+                  evento.setAttribute("dia",j)
+                  evento.setAttribute("hora",k)
+                  evento.classList.add("evento")
+                  evento.classList.add(calendario_activo)
+                  hora.appendChild(evento)
+                  evento.setAttribute("contenteditable",true)
+                  evento.onkeydown =  function (e) {
+                      if (e.key === "Delete" || e.code === "Delete") {
+                        this.remove()
+                      }
+                    };
+                  bindEvento(evento);
+                  evento.focus()
+                  
+                }
+                dia.appendChild(hora) 
+              }
+            mes.appendChild(dia)                                        // Y lo añado al mes
+          }
+        contenedor.appendChild(mes)
+        // Recupero los eventos:
+        let eventos_recuperados_raw = localStorage.getItem("jvcalendario");
+        let eventos_recuperados = [];
+
+        try {
+          eventos_recuperados = eventos_recuperados_raw ? JSON.parse(eventos_recuperados_raw) : [];
+        } catch (e) {
+          eventos_recuperados = [];
+        }
+
+        eventos_recuperados.forEach(function(ev){
+          // Solo eventos de este mes (i)
+          if (Number(ev.mes) !== i) return;
+
+          // Busca el CONTENEDOR DE HORA exacto dentro del mes actual
+          let selector = `.hora[anio="${ev.anio}"][mes="${ev.mes}"][dia="${ev.dia}"][hora="${ev.hora}"]`;
+          let slotHora = mes.querySelector(selector);
+          if (!slotHora) return;
+
+          // Crea el evento y lo mete en el slot de hora (no en el día)
+          let evento = document.createElement("div");
+          evento.setAttribute("anio", ev.anio);
+          evento.setAttribute("mes", ev.mes);
+          evento.setAttribute("dia", ev.dia);
+          evento.setAttribute("hora", ev.hora);
+          evento.classList.add("evento");
+           evento.onkeydown =  function (e) {
+                      if (e.key === "Delete" || e.code === "Delete") {
+                        this.remove()
+                      }
+                    };
+          if (ev.tipo) evento.classList.add(ev.tipo);
+          evento.setAttribute("contenteditable", true);
+          evento.textContent = ev.texto || "";
+
+          slotHora.appendChild(evento);
+          bindEvento(evento);
+        });
+
+      }
+    </script>
+  </body>
+</html>
+```
+
+### latido del corazon
+<small>Creado: 2025-12-18 15:30</small>
+
+`021-latido del corazon.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Calendario</title>
+    <style>
+      #jvcalendario .mes{display:grid;width:1400px;grid-template-columns:repeat(7,100fr);}
+      #jvcalendario .mes .dia{border:1px solid lightgray;height:250px;padding:10px;font-size:10px;display:flex;flex-direction:column;justify-content:space-between;}
+      #jvcalendario .mes .dia .hora{border-bottom:1px solid lightgray;display:flex;gap:20px;}
+      #jvcalendario .mes .desactivado{background:lightgrey;}
+      #jvcalendario .mes .dia .hora:nth-child(even){background:rgb(240,240,240);}
+      #jvcalendario .mes .dia .hora .evento{color:white;padding:5px;border-radius:5px;width:80%;}
+      .boton{border:0px;border-radius:5px;background:lightgray;padding:10px 20px;}
+      .personal{background:red;color:white;}.laboral{background:green;color:white;}.vacaciones{background:blue;color:white;}
+    </style>
+  </head>
+  <body>
+    <button id="guardar">Guardar</button>
+    <button class="boton personal">personal</button>
+    <button class="boton laboral">laboral</button>
+    <button class="boton vacaciones">vacaciones</button>
+    <div id="jvcalendario"></div>
+    <script>
+      function bindEvento(el){
+          el.addEventListener("click", function(e){
+            e.stopPropagation();
+          });
+        }
+      function diasEnMes(year, month) {
+        return new Date(year, month, 0).getDate();
+      }
+      function primerDiaDelMes(year, month) {
+        return new Date(year, month - 1, 1).getDay();
+      }
+      let boton = document.querySelector("#guardar")
+      boton.onclick = function(){
+        console.log("vamos a guardar")
+        let eventos = document.querySelectorAll(".evento")
+        let json = [];
+        eventos.forEach(function(evento){
+          json.push({
+            anio: evento.getAttribute("anio"),
+            mes:  evento.getAttribute("mes"),
+            dia:  evento.getAttribute("dia"),
+            hora: evento.getAttribute("hora"),
+            tipo: evento.classList.contains("personal") ? "personal"
+                 : evento.classList.contains("laboral") ? "laboral"
+                 : evento.classList.contains("vacaciones") ? "vacaciones"
+                 : "",
+            texto: evento.textContent
+          })
+        })
+        localStorage.setItem("jvcalendario",JSON.stringify(json))
+      }
+      let calendario_activo = "personal";
+      let botones_calendario = document.querySelectorAll(".boton")
+      botones_calendario.forEach(function(boton){
+        boton.onclick = function(){
+          calendario_activo = this.textContent
+        }
+      })
+      let contenedor = document.querySelector("#jvcalendario");         // Selecciono el contenedor
+      let anio = 2026;                                                  // Establezco año actual
+      let meses = 12;                                                   // Indico número de meses
+      let nombres_meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio',
+      'Agosto','Septiembre','Octubre','Noviembre','Diciembre']          // Creo un array con los meses
+      for(let i = 1;i<=meses;i++){                                      // Para cada mes
+        let dias_en_mes = diasEnMes(anio,i)                             // Obtengo los dias que tiene el mes
+        let titulo = document.createElement("h3")                       // Creo un titulo con tipo h3
+        titulo.textContent = nombres_meses[i-1]                         // Le pongo el nombre del mes
+        contenedor.appendChild(titulo)                                  // Y lo añado al contenedor
+        let mes = document.createElement("div");                        // Creo un div para el mes
+        mes.classList.add("mes");                                       // Le pongo la clase mes para el css
+        mes.setAttribute("mes",nombres_meses[i-1])                      // Le pongo un atributo mes
+          let inicio_mes = primerDiaDelMes(anio, i)+6                   // Atrapo el dia de la semana en el que empieza el mes
+          for(let j = 1;j<=inicio_mes;j++){                             // Para cada uno de los dias
+            let dia = document.createElement("div");                    // Creo un dia vacío
+            dia.classList.add("dia")                                    // Le pongo la clase dia
+            dia.classList.add("desactivado")                            // Le pongo la clase dia
+            mes.appendChild(dia)                                        // Y lo añado al mes
+          }
+          for(let j = 1;j<=dias_en_mes;j++){                            // para cada uno de los dias llenos
+            let dia = document.createElement("div");                    // Creo un div
+            dia.classList.add("dia")                                    // Le pongo clase
+            dia.textContent = j                                         // Le pongo el número
+              for(let k = 8;k<=21;k++){
+                let hora = document.createElement("div");
+                hora.setAttribute("anio",anio)
+                  hora.setAttribute("mes",i)
+                  hora.setAttribute("dia",j)
+                hora.classList.add("hora")
+                hora.setAttribute("hora", k);
+                hora.textContent = k
+                hora.onclick = function(){
+                  console.log("has hecho click")
+                  let evento = document.createElement("div")
+                  evento.setAttribute("anio",anio)
+                  evento.setAttribute("mes",i)
+                  evento.setAttribute("dia",j)
+                  evento.setAttribute("hora",k)
+                  evento.classList.add("evento")
+                  evento.classList.add(calendario_activo)
+                  hora.appendChild(evento)
+                  evento.setAttribute("contenteditable",true)
+                  evento.onkeydown =  function (e) {
+                      if (e.key === "Delete" || e.code === "Delete") {
+                        this.remove()
+                      }
+                    };
+                  bindEvento(evento);
+                  evento.focus()
+                  
+                }
+                dia.appendChild(hora) 
+              }
+            mes.appendChild(dia)                                        // Y lo añado al mes
+          }
+        contenedor.appendChild(mes)
+        // Recupero los eventos:
+        let eventos_recuperados_raw = localStorage.getItem("jvcalendario");
+        let eventos_recuperados = [];
+
+        try {
+          eventos_recuperados = eventos_recuperados_raw ? JSON.parse(eventos_recuperados_raw) : [];
+        } catch (e) {
+          eventos_recuperados = [];
+        }
+
+        eventos_recuperados.forEach(function(ev){
+          // Solo eventos de este mes (i)
+          if (Number(ev.mes) !== i) return;
+
+          // Busca el CONTENEDOR DE HORA exacto dentro del mes actual
+          let selector = `.hora[anio="${ev.anio}"][mes="${ev.mes}"][dia="${ev.dia}"][hora="${ev.hora}"]`;
+          let slotHora = mes.querySelector(selector);
+          if (!slotHora) return;
+
+          // Crea el evento y lo mete en el slot de hora (no en el día)
+          let evento = document.createElement("div");
+          evento.setAttribute("anio", ev.anio);
+          evento.setAttribute("mes", ev.mes);
+          evento.setAttribute("dia", ev.dia);
+          evento.setAttribute("hora", ev.hora);
+          evento.classList.add("evento");
+           evento.onkeydown =  function (e) {
+                      if (e.key === "Delete" || e.code === "Delete") {
+                        this.remove()
+                      }
+                    };
+          if (ev.tipo) evento.classList.add(ev.tipo);
+          evento.setAttribute("contenteditable", true);
+          evento.textContent = ev.texto || "";
+
+          slotHora.appendChild(evento);
+          bindEvento(evento);
+        });
+
+      }
+      
+      let temporizador = setTimeout("latido()",1000)
+      
+      function latido(){
+        let eventos = document.querySelectorAll(".evento")
+        let json = [];
+        eventos.forEach(function(evento){
+          json.push({
+            anio: evento.getAttribute("anio"),
+            mes:  evento.getAttribute("mes"),
+            dia:  evento.getAttribute("dia"),
+            hora: evento.getAttribute("hora"),
+            tipo: evento.classList.contains("personal") ? "personal"
+                 : evento.classList.contains("laboral") ? "laboral"
+                 : evento.classList.contains("vacaciones") ? "vacaciones"
+                 : "",
+            texto: evento.textContent
+          })
+        })
+        localStorage.setItem("jvcalendario",JSON.stringify(json))
+        clearTimeout(temporizador);
+        temporizador = setTimeout("latido()",1000)
+      }
+    </script>
+  </body>
+</html>
+```
+
+### vistas
+<small>Creado: 2025-12-18 15:41</small>
+
+`022-vistas.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Calendario</title>
+    <style>
+      .vista_anual{
+        display:grid;
+        grid-template-columns:repeat(2,100fr);
+      }
+      .vista_anual .mes{
+        width:700px !important;
+      }
+      .vista_anual .mes .dia{
+        height:100px !important;
+      }
+      #jvcalendario .mes{display:grid;width:1400px;grid-template-columns:repeat(7,100fr);}
+      #jvcalendario .mes .dia{border:1px solid lightgray;height:250px;padding:10px;font-size:10px;display:flex;flex-direction:column;justify-content:space-between;}
+      #jvcalendario .mes .dia .hora{border-bottom:1px solid lightgray;display:flex;gap:20px;}
+      #jvcalendario .mes .desactivado{background:lightgrey;}
+      #jvcalendario .mes .dia .hora:nth-child(even){background:rgb(240,240,240);}
+      #jvcalendario .mes .dia .hora .evento{color:white;padding:5px;border-radius:5px;width:80%;}
+      .boton{border:0px;border-radius:5px;background:lightgray;padding:10px 20px;}
+      .personal{background:red;color:white;}.laboral{background:green;color:white;}.vacaciones{background:blue;color:white;}
+      .oculto{display:none !important;}
+    </style>
+  </head>
+  <body>
+    <button id="guardar">Guardar</button>
+    <button class="boton personal">personal</button>
+    <button class="boton laboral">laboral</button>
+    <button class="boton vacaciones">vacaciones</button>
+    <button class="acciones anio">Año</button>
+    <button class="acciones mes">Mes</button>
+    <button class="acciones semana">Semana</button>
+    <button class="acciones dia">Dia</button>
+    <div id="jvcalendario"></div>
+    <script>
+      function bindEvento(el){
+          el.addEventListener("click", function(e){
+            e.stopPropagation();
+          });
+        }
+      function diasEnMes(year, month) {
+        return new Date(year, month, 0).getDate();
+      }
+      function primerDiaDelMes(year, month) {
+        return new Date(year, month - 1, 1).getDay();
+      }
+      let acciones = document.querySelectorAll(".acciones")
+      acciones.forEach(function(accion){
+        accion.onclick = function(){
+          switch(this.textContent){
+            case "Año":
+              console.log("Has pulsado en el año")
+              let horas = document.querySelectorAll(".hora")
+              horas.forEach(function(hora){
+                hora.classList.add("oculto")
+              })
+              contenedor.classList.add("vista_anual")
+              break;
+            case "Mes":
+              console.log("Has pulsado en el mes")
+              break;
+            case "Semana":
+              console.log("Has pulsado en la semana")
+              break;
+            case "Dia":
+              console.log("Has pulsado en el dia")
+              break;
+          }
+        }
+      })
+      let boton = document.querySelector("#guardar")
+      boton.onclick = function(){
+        console.log("vamos a guardar")
+        let eventos = document.querySelectorAll(".evento")
+        let json = [];
+        eventos.forEach(function(evento){
+          json.push({
+            anio: evento.getAttribute("anio"),
+            mes:  evento.getAttribute("mes"),
+            dia:  evento.getAttribute("dia"),
+            hora: evento.getAttribute("hora"),
+            tipo: evento.classList.contains("personal") ? "personal"
+                 : evento.classList.contains("laboral") ? "laboral"
+                 : evento.classList.contains("vacaciones") ? "vacaciones"
+                 : "",
+            texto: evento.textContent
+          })
+        })
+        localStorage.setItem("jvcalendario",JSON.stringify(json))
+      }
+      let calendario_activo = "personal";
+      let botones_calendario = document.querySelectorAll(".boton")
+      botones_calendario.forEach(function(boton){
+        boton.onclick = function(){
+          calendario_activo = this.textContent
+        }
+      })
+      let contenedor = document.querySelector("#jvcalendario");         // Selecciono el contenedor
+      let anio = 2026;                                                  // Establezco año actual
+      let meses = 12;                                                   // Indico número de meses
+      let nombres_meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio',
+      'Agosto','Septiembre','Octubre','Noviembre','Diciembre']          // Creo un array con los meses
+      for(let i = 1;i<=meses;i++){                                      // Para cada mes
+        let dias_en_mes = diasEnMes(anio,i)                             // Obtengo los dias que tiene el mes
+
+        let mes = document.createElement("div");                        // Creo un div para el mes
+        mes.classList.add("mes");                                       // Le pongo la clase mes para el css
+        mes.setAttribute("mes",nombres_meses[i-1])                      // Le pongo un atributo mes
+          let inicio_mes = primerDiaDelMes(anio, i)+6                   // Atrapo el dia de la semana en el que empieza el mes
+          for(let j = 1;j<=inicio_mes;j++){                             // Para cada uno de los dias
+            let dia = document.createElement("div");                    // Creo un dia vacío
+            dia.classList.add("dia")                                    // Le pongo la clase dia
+            dia.classList.add("desactivado")                            // Le pongo la clase dia
+            mes.appendChild(dia)                                        // Y lo añado al mes
+          }
+          for(let j = 1;j<=dias_en_mes;j++){                            // para cada uno de los dias llenos
+            let dia = document.createElement("div");                    // Creo un div
+            dia.classList.add("dia")                                    // Le pongo clase
+            dia.textContent = j                                         // Le pongo el número
+              for(let k = 8;k<=21;k++){
+                let hora = document.createElement("div");
+                hora.setAttribute("anio",anio)
+                  hora.setAttribute("mes",i)
+                  hora.setAttribute("dia",j)
+                hora.classList.add("hora")
+                hora.setAttribute("hora", k);
+                hora.textContent = k
+                hora.onclick = function(){
+                  console.log("has hecho click")
+                  let evento = document.createElement("div")
+                  evento.setAttribute("anio",anio)
+                  evento.setAttribute("mes",i)
+                  evento.setAttribute("dia",j)
+                  evento.setAttribute("hora",k)
+                  evento.classList.add("evento")
+                  evento.classList.add(calendario_activo)
+                  hora.appendChild(evento)
+                  evento.setAttribute("contenteditable",true)
+                  evento.onkeydown =  function (e) {
+                      if (e.key === "Delete" || e.code === "Delete") {
+                        this.remove()
+                      }
+                    };
+                  bindEvento(evento);
+                  evento.focus()
+                  
+                }
+                dia.appendChild(hora) 
+              }
+            mes.appendChild(dia)                                        // Y lo añado al mes
+          }
+        contenedor.appendChild(mes)
+        // Recupero los eventos:
+        let eventos_recuperados_raw = localStorage.getItem("jvcalendario");
+        let eventos_recuperados = [];
+
+        try {
+          eventos_recuperados = eventos_recuperados_raw ? JSON.parse(eventos_recuperados_raw) : [];
+        } catch (e) {
+          eventos_recuperados = [];
+        }
+
+        eventos_recuperados.forEach(function(ev){
+          // Solo eventos de este mes (i)
+          if (Number(ev.mes) !== i) return;
+
+          // Busca el CONTENEDOR DE HORA exacto dentro del mes actual
+          let selector = `.hora[anio="${ev.anio}"][mes="${ev.mes}"][dia="${ev.dia}"][hora="${ev.hora}"]`;
+          let slotHora = mes.querySelector(selector);
+          if (!slotHora) return;
+
+          // Crea el evento y lo mete en el slot de hora (no en el día)
+          let evento = document.createElement("div");
+          evento.setAttribute("anio", ev.anio);
+          evento.setAttribute("mes", ev.mes);
+          evento.setAttribute("dia", ev.dia);
+          evento.setAttribute("hora", ev.hora);
+          evento.classList.add("evento");
+           evento.onkeydown =  function (e) {
+                      if (e.key === "Delete" || e.code === "Delete") {
+                        this.remove()
+                      }
+                    };
+          if (ev.tipo) evento.classList.add(ev.tipo);
+          evento.setAttribute("contenteditable", true);
+          evento.textContent = ev.texto || "";
+
+          slotHora.appendChild(evento);
+          bindEvento(evento);
+        });
+
+      }
+      
+      let temporizador = setTimeout("latido()",1000)
+      
+      function latido(){
+        let eventos = document.querySelectorAll(".evento")
+        let json = [];
+        eventos.forEach(function(evento){
+          json.push({
+            anio: evento.getAttribute("anio"),
+            mes:  evento.getAttribute("mes"),
+            dia:  evento.getAttribute("dia"),
+            hora: evento.getAttribute("hora"),
+            tipo: evento.classList.contains("personal") ? "personal"
+                 : evento.classList.contains("laboral") ? "laboral"
+                 : evento.classList.contains("vacaciones") ? "vacaciones"
+                 : "",
+            texto: evento.textContent
+          })
+        })
+        localStorage.setItem("jvcalendario",JSON.stringify(json))
+        clearTimeout(temporizador);
+        temporizador = setTimeout("latido()",1000)
+      }
+    </script>
+  </body>
+</html>
+```
+
+### mejoras
+<small>Creado: 2025-12-18 15:45</small>
+
+`023-mejoras.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Calendario</title>
+
+    <style>
+      :root{
+        --bg1:#0b1220;
+        --bg2:#0f1b33;
+        --panel: rgba(255,255,255,.08);
+        --panel2: rgba(255,255,255,.06);
+        --stroke: rgba(255,255,255,.12);
+        --stroke2: rgba(255,255,255,.18);
+        --text: rgba(255,255,255,.92);
+        --muted: rgba(255,255,255,.60);
+        --shadow: 0 18px 50px rgba(0,0,0,.40);
+        --shadow2: 0 10px 25px rgba(0,0,0,.25);
+        --r: 18px;
+      }
+
+      *{box-sizing:border-box}
+      body{
+        margin:0;
+        font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Noto Sans", Arial, "Apple Color Emoji","Segoe UI Emoji";
+        color:var(--text);
+        background:
+          radial-gradient(1100px 600px at 15% 10%, rgba(56,189,248,.18), transparent 55%),
+          radial-gradient(900px 520px at 85% 15%, rgba(167,139,250,.18), transparent 55%),
+          radial-gradient(900px 600px at 70% 90%, rgba(34,197,94,.12), transparent 55%),
+          linear-gradient(180deg, var(--bg1), var(--bg2));
+        min-height:100vh;
+      }
+
+      .app{
+        max-width: 1520px;
+        margin: 0 auto;
+        padding: 18px 16px 30px;
+      }
+
+      /* Topbar */
+      .topbar{
+        position: sticky;
+        top: 0;
+        z-index: 50;
+        margin-bottom: 14px;
+        padding: 14px;
+        border:1px solid var(--stroke);
+        background: linear-gradient(180deg, rgba(255,255,255,.10), rgba(255,255,255,.06));
+        border-radius: var(--r);
+        box-shadow: var(--shadow2);
+        backdrop-filter: blur(10px);
+        display:flex;
+        gap:14px;
+        align-items:center;
+        justify-content:space-between;
+        flex-wrap:wrap;
+      }
+
+      .brand{
+        display:flex;
+        align-items:baseline;
+        gap:10px;
+        min-width: 220px;
+      }
+      .brand .t{
+        font-weight: 800;
+        letter-spacing:.2px;
+        font-size: 16px;
+      }
+      .brand .s{
+        color: var(--muted);
+        font-size: 12px;
+      }
+
+      .grupo{
+        display:flex;
+        gap:10px;
+        align-items:center;
+        flex-wrap:wrap;
+      }
+
+      .boton{
+        border:1px solid var(--stroke);
+        border-radius: 999px;
+        background: rgba(255,255,255,.06);
+        color: var(--text);
+        padding: 10px 14px;
+        font-size: 13px;
+        cursor:pointer;
+        transition: transform .12s ease, background .12s ease, border-color .12s ease;
+        user-select:none;
+      }
+      .boton:hover{ transform: translateY(-1px); border-color: var(--stroke2); background: rgba(255,255,255,.10); }
+      .boton:active{ transform: translateY(0px); }
+
+      .acciones{
+        border:1px solid var(--stroke);
+        border-radius: 999px;
+        background: rgba(255,255,255,.08);
+        color: var(--text);
+        padding: 10px 14px;
+        font-size: 13px;
+        cursor:pointer;
+        transition: background .12s ease, border-color .12s ease;
+      }
+      .acciones.activa{
+        background: rgba(56,189,248,.18);
+        border-color: rgba(56,189,248,.35);
+      }
+
+      .chip{
+        border:1px solid var(--stroke);
+        border-radius: 999px;
+        background: rgba(255,255,255,.04);
+        padding: 8px 12px;
+        font-size: 12px;
+        color: var(--muted);
+      }
+
+      /* tipos */
+      .personal{ background: rgba(239,68,68,.90); color:white; }
+      .laboral{ background: rgba(34,197,94,.85); color:white; }
+      .vacaciones{ background: rgba(59,130,246,.85); color:white; }
+
+      /* Layout principal */
+      #jvcalendario{
+        border-radius: var(--r);
+      }
+
+      /* Vistas */
+      .oculto{ display:none !important; }
+
+      /* ---------- VISTA AÑO ---------- */
+      .vista_anual{
+        display:grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap:14px;
+      }
+      @media (max-width: 1200px){
+        .vista_anual{ grid-template-columns: 1fr; }
+      }
+
+      .vista_anual .mes{
+        width: 100% !important;
+        border-radius: var(--r);
+        border:1px solid var(--stroke);
+        background: linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,.05));
+        box-shadow: var(--shadow2);
+        overflow:hidden;
+      }
+      .vista_anual .mes .cabecera_mes{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        padding: 10px 12px;
+        border-bottom: 1px solid var(--stroke);
+        background: rgba(0,0,0,.12);
+      }
+      .vista_anual .mes .cabecera_mes .nombre{ font-weight:800; font-size:13px; letter-spacing:.2px; }
+      .vista_anual .mes .cabecera_mes .info{ color:var(--muted); font-size:11px; }
+      .vista_anual .mes .dia{
+        height: 44px !important;
+        padding: 6px !important;
+        font-size: 11px !important;
+        justify-content:flex-start !important;
+      }
+      .vista_anual .mes .dia .hora{ display:none !important; }
+      .vista_anual .mes .dia .mini_eventos{
+        margin-top: 4px;
+        display:flex;
+        gap:4px;
+        flex-wrap:wrap;
+      }
+      .vista_anual .mes .dia .punto{
+        width:8px;height:8px;border-radius:999px;
+        border:1px solid rgba(255,255,255,.25);
+        opacity:.95;
+      }
+
+      /* ---------- VISTA MES (por defecto) ---------- */
+      #jvcalendario .mes{
+        display:grid;
+        width: 1400px;
+        grid-template-columns: repeat(7, minmax(0, 1fr));
+        gap:0;
+        margin-bottom: 14px;
+        border-radius: var(--r);
+        overflow:hidden;
+        border:1px solid var(--stroke);
+        background: linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.04));
+        box-shadow: var(--shadow);
+      }
+
+      /* Cabecera mes dentro del grid (ocupa 7 columnas) */
+      .cabecera_mes{
+        grid-column: 1 / -1;
+      }
+
+      #jvcalendario .mes .dia{
+        border-right:1px solid rgba(255,255,255,.08);
+        border-bottom:1px solid rgba(255,255,255,.08);
+        height: 250px;
+        padding: 10px;
+        font-size: 11px;
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+        position:relative;
+        background: rgba(255,255,255,.02);
+      }
+      #jvcalendario .mes .dia:hover{
+        background: rgba(255,255,255,.04);
+      }
+
+      #jvcalendario .mes .dia .numdia{
+        font-weight:800;
+        font-size:12px;
+        letter-spacing:.2px;
+        color: rgba(255,255,255,.86);
+        cursor:pointer;
+        user-select:none;
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        gap:8px;
+      }
+      #jvcalendario .mes .dia .numdia .pill{
+        font-size:10px;
+        color: var(--muted);
+        border:1px solid var(--stroke);
+        padding: 3px 8px;
+        border-radius:999px;
+        background: rgba(255,255,255,.03);
+      }
+
+      #jvcalendario .mes .dia .hora{
+        border-bottom:1px dashed rgba(255,255,255,.10);
+        display:flex;
+        align-items:flex-start;
+        gap:10px;
+        padding: 4px 6px;
+        border-radius: 10px;
+        transition: background .10s ease;
+      }
+      #jvcalendario .mes .dia .hora:hover{
+        background: rgba(255,255,255,.06);
+      }
+      #jvcalendario .mes .dia .hora:nth-child(even){
+        background: rgba(255,255,255,.03);
+      }
+
+      #jvcalendario .mes .desactivado{
+        background: rgba(255,255,255,.03);
+        opacity:.55;
+      }
+
+      #jvcalendario .mes .dia .hora .h{
+        width: 18px;
+        color: var(--muted);
+        font-size: 10px;
+        padding-top: 2px;
+        user-select:none;
+      }
+
+      #jvcalendario .mes .dia .hora .evento{
+        color:white;
+        padding: 6px 8px;
+        border-radius: 12px;
+        width: 100%;
+        min-height: 24px;
+        outline:none;
+        border: 1px solid rgba(255,255,255,.16);
+        box-shadow: 0 8px 18px rgba(0,0,0,.25);
+      }
+      #jvcalendario .mes .dia .hora .evento:focus{
+        border-color: rgba(255,255,255,.40);
+        box-shadow: 0 10px 22px rgba(0,0,0,.35);
+      }
+
+      /* ---------- VISTA SEMANA / DÍA (panel dedicado) ---------- */
+      #panel_vista{
+        border:1px solid var(--stroke);
+        background: linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,.05));
+        border-radius: var(--r);
+        box-shadow: var(--shadow);
+        overflow:hidden;
+      }
+      #panel_vista .panel_head{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        padding: 12px 14px;
+        border-bottom:1px solid var(--stroke);
+        background: rgba(0,0,0,.12);
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+      #panel_vista .panel_head .ttl{
+        font-weight:800;
+        letter-spacing:.2px;
+      }
+      #panel_vista .panel_body{
+        padding: 12px;
+      }
+
+      .grid_semana{
+        display:grid;
+        grid-template-columns: 70px repeat(7, minmax(0, 1fr));
+        gap: 8px;
+      }
+      .grid_semana .celda{
+        border:1px solid rgba(255,255,255,.10);
+        background: rgba(255,255,255,.03);
+        border-radius: 14px;
+        min-height: 44px;
+        padding: 8px;
+      }
+      .grid_semana .hora_lbl{
+        color: var(--muted);
+        font-size: 12px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+      }
+      .grid_semana .dia_lbl{
+        font-weight:800;
+        font-size: 12px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background: rgba(255,255,255,.04);
+      }
+      .slot_semana{
+        cursor:pointer;
+      }
+      .slot_semana:hover{
+        background: rgba(255,255,255,.06);
+        border-color: rgba(255,255,255,.18);
+      }
+      .slot_semana .evento{
+        margin-top: 2px;
+        width:100%;
+      }
+
+      .lista_dia{
+        display:flex;
+        flex-direction:column;
+        gap:8px;
+      }
+      .fila_dia{
+        display:flex;
+        gap:10px;
+        align-items:flex-start;
+        border:1px solid rgba(255,255,255,.10);
+        background: rgba(255,255,255,.03);
+        border-radius: 14px;
+        padding: 10px;
+        cursor:pointer;
+      }
+      .fila_dia:hover{
+        background: rgba(255,255,255,.06);
+        border-color: rgba(255,255,255,.18);
+      }
+      .fila_dia .h{
+        width:38px;
+        color: var(--muted);
+        font-size: 12px;
+        padding-top: 4px;
+        user-select:none;
+      }
+
+      /* Responsivo: ancho mes */
+      @media (max-width: 1500px){
+        #jvcalendario .mes{ width: 100% !important; }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="app">
+      <div class="topbar">
+        <div class="brand">
+          <div class="t">Calendario</div>
+          <div class="s" id="estado"></div>
+        </div>
+
+        <div class="grupo">
+          <button id="guardar" class="boton">Guardar</button>
+          <span class="chip">Calendario activo: <b id="activo_lbl">personal</b></span>
+          <button class="boton personal">personal</button>
+          <button class="boton laboral">laboral</button>
+          <button class="boton vacaciones">vacaciones</button>
+        </div>
+
+        <div class="grupo">
+          <button class="acciones anio">Año</button>
+          <button class="acciones mes activa">Mes</button>
+          <button class="acciones semana">Semana</button>
+          <button class="acciones dia">Dia</button>
+        </div>
+      </div>
+
+      <div id="panel_vista" class="oculto">
+        <div class="panel_head">
+          <div class="ttl" id="panel_titulo">Vista</div>
+          <div class="grupo">
+            <button id="prev" class="boton">◀</button>
+            <button id="hoy" class="boton">Hoy</button>
+            <button id="next" class="boton">▶</button>
+          </div>
+        </div>
+        <div class="panel_body" id="panel_body"></div>
+      </div>
+
+      <div id="jvcalendario"></div>
+    </div>
+
+    <script>
+      function bindEvento(el){
+        el.addEventListener("click", function(e){
+          e.stopPropagation();
+        });
+      }
+
+      function diasEnMes(year, month) {
+        return new Date(year, month, 0).getDate();
+      }
+
+      function primerDiaDelMes(year, month) {
+        return new Date(year, month - 1, 1).getDay();
+      }
+
+      function pad2(n){ return String(n).padStart(2,"0"); }
+
+      function fechaKey(a,m,d){
+        return a+"-"+pad2(m)+"-"+pad2(d);
+      }
+
+      function readStorage(){
+        let raw = localStorage.getItem("jvcalendario");
+        if(!raw) return [];
+        try { return JSON.parse(raw) || []; } catch(e){ return []; }
+      }
+
+      function writeStorage(){
+        let eventos = document.querySelectorAll(".evento");
+        let json = [];
+        eventos.forEach(function(evento){
+          json.push({
+            anio: evento.getAttribute("anio"),
+            mes:  evento.getAttribute("mes"),
+            dia:  evento.getAttribute("dia"),
+            hora: evento.getAttribute("hora"),
+            tipo: evento.classList.contains("personal") ? "personal"
+                 : evento.classList.contains("laboral") ? "laboral"
+                 : evento.classList.contains("vacaciones") ? "vacaciones"
+                 : "",
+            texto: evento.textContent
+          });
+        });
+        localStorage.setItem("jvcalendario", JSON.stringify(json));
+      }
+
+      function crearEvento(slot, a, m, d, h, tipo, texto){
+        let evento = document.createElement("div");
+        evento.setAttribute("anio", a);
+        evento.setAttribute("mes", m);
+        evento.setAttribute("dia", d);
+        evento.setAttribute("hora", h);
+        evento.classList.add("evento");
+        if(tipo) evento.classList.add(tipo);
+        evento.setAttribute("contenteditable", true);
+        evento.textContent = texto || "";
+
+        evento.onkeydown = function(e){
+          if (e.key === "Delete" || e.code === "Delete") {
+            this.remove();
+          }
+        };
+
+        slot.appendChild(evento);
+        bindEvento(evento);
+        return evento;
+      }
+
+      function cargarEventosEnMes(mesEl, mesNum){
+        let eventos = readStorage();
+        eventos.forEach(function(ev){
+          if (Number(ev.mes) !== Number(mesNum)) return;
+          let selector = `.hora[anio="${ev.anio}"][mes="${ev.mes}"][dia="${ev.dia}"][hora="${ev.hora}"]`;
+          let slotHora = mesEl.querySelector(selector);
+          if(!slotHora) return;
+          crearEvento(slotHora, ev.anio, ev.mes, ev.dia, ev.hora, ev.tipo, ev.texto);
+        });
+      }
+
+      function puntosMiniEventos(diaEl, a, m, d){
+        // para vista año: renderiza puntos por tipo si existen eventos ese día
+        let mini = document.createElement("div");
+        mini.classList.add("mini_eventos");
+
+        let eventos = readStorage().filter(function(ev){
+          return Number(ev.anio)===Number(a) && Number(ev.mes)===Number(m) && Number(ev.dia)===Number(d) && (ev.texto||"").trim()!=="";
+        });
+
+        // máximo 4 puntos para no ensuciar
+        eventos.slice(0,4).forEach(function(ev){
+          let p = document.createElement("div");
+          p.classList.add("punto");
+          if(ev.tipo==="personal") p.style.background = "rgba(239,68,68,.90)";
+          if(ev.tipo==="laboral") p.style.background = "rgba(34,197,94,.85)";
+          if(ev.tipo==="vacaciones") p.style.background = "rgba(59,130,246,.85)";
+          mini.appendChild(p);
+        });
+
+        if(eventos.length>0) diaEl.appendChild(mini);
+      }
+
+      // -------------------------------
+      // Estado general
+      // -------------------------------
+      let contenedor = document.querySelector("#jvcalendario");
+      let panel = document.querySelector("#panel_vista");
+      let panelBody = document.querySelector("#panel_body");
+      let panelTitulo = document.querySelector("#panel_titulo");
+      let estado = document.querySelector("#estado");
+
+      let anio = 2026;
+      let meses = 12;
+      let nombres_meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
+
+      let calendario_activo = "personal";
+      let activo_lbl = document.querySelector("#activo_lbl");
+
+      let vista = "Mes"; // Año | Mes | Semana | Dia
+      let seleccion = { anio: anio, mes: 1, dia: 1 };  // fecha seleccionada para semana/día
+      let semanaOffset = 0; // navegación semanal
+      let diaOffset = 0;    // navegación diaria
+
+      // -------------------------------
+      // Botones calendario (tipo)
+      // -------------------------------
+      let botones_calendario = document.querySelectorAll(".boton.personal, .boton.laboral, .boton.vacaciones");
+      botones_calendario.forEach(function(boton){
+        boton.onclick = function(){
+          calendario_activo = this.textContent.trim();
+          activo_lbl.textContent = calendario_activo;
+        };
+      });
+
+      // -------------------------------
+      // Guardar
+      // -------------------------------
+      document.querySelector("#guardar").onclick = function(){
+        writeStorage();
+      };
+
+      // -------------------------------
+      // Render año/mes (tu estructura, mejorada)
+      // -------------------------------
+      function renderYearAndMonths(){
+        contenedor.innerHTML = "";
+
+        for(let i=1;i<=meses;i++){
+          let dias_en_mes = diasEnMes(anio,i);
+
+          let mes = document.createElement("div");
+          mes.classList.add("mes");
+          mes.setAttribute("mes", nombres_meses[i-1]);
+          mes.setAttribute("mesnum", i);
+
+          // cabecera mes (ocupa todo el ancho del grid)
+          let cab = document.createElement("div");
+          cab.classList.add("cabecera_mes");
+          cab.innerHTML = `
+            <div class="cabecera_mes">
+              <div class="nombre">${nombres_meses[i-1]}</div>
+              <div class="info">${anio}</div>
+            </div>
+          `;
+          mes.appendChild(cab);
+
+          // offset inicio (lunes como primero)
+          let inicio_mes = primerDiaDelMes(anio, i) + 6; // tu fórmula
+          for(let j=1;j<=inicio_mes;j++){
+            let dia = document.createElement("div");
+            dia.classList.add("dia","desactivado");
+            mes.appendChild(dia);
+          }
+
+          for(let j=1;j<=dias_en_mes;j++){
+            let dia = document.createElement("div");
+            dia.classList.add("dia");
+
+            // header día
+            let num = document.createElement("div");
+            num.classList.add("numdia");
+            num.innerHTML = `<span>${j}</span><span class="pill">${nombres_meses[i-1].slice(0,3)}</span>`;
+            dia.appendChild(num);
+
+            // seleccionar día para semana/día
+            num.onclick = function(e){
+              e.stopPropagation();
+              seleccion = { anio: anio, mes: i, dia: j };
+              semanaOffset = 0;
+              diaOffset = 0;
+              estado.textContent = "Selección: " + fechaKey(seleccion.anio, seleccion.mes, seleccion.dia);
+              // si estás en semana o día, re-render
+              if(vista==="Semana") mostrarSemana();
+              if(vista==="Dia") mostrarDia();
+              // si estás en año, saltar a mes del click
+              if(vista==="Año"){
+                cambiarVista("Mes");
+                mostrarSoloMes(i);
+              }
+            };
+
+            // horas
+            for(let k=8;k<=21;k++){
+              let hora = document.createElement("div");
+              hora.setAttribute("anio", anio);
+              hora.setAttribute("mes", i);
+              hora.setAttribute("dia", j);
+              hora.setAttribute("hora", k);
+              hora.classList.add("hora");
+              hora.innerHTML = `<div class="h">${k}</div>`;
+
+              hora.onclick = function(){
+                let evento = crearEvento(hora, anio, i, j, k, calendario_activo, "");
+                evento.focus();
+              };
+
+              dia.appendChild(hora);
+            }
+
+            // mini puntos (solo se ven en vista año por CSS)
+            puntosMiniEventos(dia, anio, i, j);
+
+            mes.appendChild(dia);
+          }
+
+          contenedor.appendChild(mes);
+
+          // cargar eventos de este mes dentro de sus slots
+          cargarEventosEnMes(mes, i);
+        }
+      }
+
+      function mostrarSoloMes(mesNum){
+        let mesesDom = contenedor.querySelectorAll(".mes");
+        mesesDom.forEach(function(m){
+          if(Number(m.getAttribute("mesnum"))===Number(mesNum)){
+            m.classList.remove("oculto");
+          }else{
+            m.classList.add("oculto");
+          }
+        });
+        contenedor.classList.remove("vista_anual");
+      }
+
+      function mostrarTodosLosMeses(){
+        let mesesDom = contenedor.querySelectorAll(".mes");
+        mesesDom.forEach(function(m){ m.classList.remove("oculto"); });
+      }
+
+      // -------------------------------
+      // VISTA SEMANA / DÍA (panel)
+      // -------------------------------
+      function toDateObj(a,m,d){
+        return new Date(a, m-1, d);
+      }
+
+      function startOfWeekMonday(dateObj){
+        // devuelve lunes de la semana (00:00)
+        let d = new Date(dateObj);
+        d.setHours(0,0,0,0);
+        let day = d.getDay(); // 0 domingo
+        let diff = (day===0 ? -6 : 1-day);
+        d.setDate(d.getDate() + diff);
+        return d;
+      }
+
+      function fmtDia(dateObj){
+        let a = dateObj.getFullYear();
+        let m = dateObj.getMonth()+1;
+        let d = dateObj.getDate();
+        return fechaKey(a,m,d);
+      }
+
+      function mostrarSemana(){
+        panel.classList.remove("oculto");
+        contenedor.classList.add("oculto");
+
+        let base = toDateObj(seleccion.anio, seleccion.mes, seleccion.dia);
+        base.setDate(base.getDate() + (semanaOffset*7));
+        let lunes = startOfWeekMonday(base);
+
+        panelTitulo.textContent = "Semana · " + fmtDia(lunes);
+
+        panelBody.innerHTML = "";
+        let grid = document.createElement("div");
+        grid.classList.add("grid_semana");
+
+        // fila labels (0, +7)
+        let vacio = document.createElement("div");
+        vacio.classList.add("celda","dia_lbl");
+        vacio.textContent = "";
+        grid.appendChild(vacio);
+
+        for(let i=0;i<7;i++){
+          let dd = new Date(lunes);
+          dd.setDate(lunes.getDate()+i);
+          let lbl = document.createElement("div");
+          lbl.classList.add("celda","dia_lbl");
+          lbl.textContent = dd.toLocaleDateString("es-ES",{weekday:"short", day:"2-digit", month:"2-digit"});
+          grid.appendChild(lbl);
+        }
+
+        // horas
+        for(let h=8;h<=21;h++){
+          let hl = document.createElement("div");
+          hl.classList.add("celda","hora_lbl");
+          hl.textContent = h+":00";
+          grid.appendChild(hl);
+
+          for(let i=0;i<7;i++){
+            let dd = new Date(lunes);
+            dd.setDate(lunes.getDate()+i);
+
+            let a = dd.getFullYear();
+            let m = dd.getMonth()+1;
+            let d = dd.getDate();
+
+            let slot = document.createElement("div");
+            slot.classList.add("celda","slot_semana");
+            slot.setAttribute("anio", a);
+            slot.setAttribute("mes", m);
+            slot.setAttribute("dia", d);
+            slot.setAttribute("hora", h);
+
+            slot.onclick = function(){
+              let evento = crearEvento(slot, a, m, d, h, calendario_activo, "");
+              evento.focus();
+            };
+
+            grid.appendChild(slot);
+          }
+        }
+
+        panelBody.appendChild(grid);
+
+        // cargar eventos (solo los que caen en esa semana)
+        let eventos = readStorage();
+        eventos.forEach(function(ev){
+          let selector = `.slot_semana[anio="${ev.anio}"][mes="${ev.mes}"][dia="${ev.dia}"][hora="${ev.hora}"]`;
+          let slot = panelBody.querySelector(selector);
+          if(!slot) return;
+          crearEvento(slot, ev.anio, ev.mes, ev.dia, ev.hora, ev.tipo, ev.texto);
+        });
+      }
+
+      function mostrarDia(){
+        panel.classList.remove("oculto");
+        contenedor.classList.add("oculto");
+
+        let base = toDateObj(seleccion.anio, seleccion.mes, seleccion.dia);
+        base.setDate(base.getDate() + diaOffset);
+
+        let a = base.getFullYear();
+        let m = base.getMonth()+1;
+        let d = base.getDate();
+
+        panelTitulo.textContent = "Día · " + base.toLocaleDateString("es-ES",{weekday:"long", year:"numeric", month:"long", day:"2-digit"});
+
+        panelBody.innerHTML = "";
+        let lista = document.createElement("div");
+        lista.classList.add("lista_dia");
+
+        for(let h=8;h<=21;h++){
+          let fila = document.createElement("div");
+          fila.classList.add("fila_dia");
+          fila.setAttribute("anio", a);
+          fila.setAttribute("mes", m);
+          fila.setAttribute("dia", d);
+          fila.setAttribute("hora", h);
+
+          let hh = document.createElement("div");
+          hh.classList.add("h");
+          hh.textContent = h+":00";
+          fila.appendChild(hh);
+
+          let cont = document.createElement("div");
+          cont.style.flex = "1";
+          fila.appendChild(cont);
+
+          fila.onclick = function(){
+            let evento = crearEvento(cont, a, m, d, h, calendario_activo, "");
+            evento.focus();
+          };
+
+          lista.appendChild(fila);
+        }
+
+        panelBody.appendChild(lista);
+
+        // cargar eventos del día
+        let eventos = readStorage();
+        eventos.forEach(function(ev){
+          if(Number(ev.anio)!==Number(a) || Number(ev.mes)!==Number(m) || Number(ev.dia)!==Number(d)) return;
+          let selector = `.fila_dia[hora="${ev.hora}"]`;
+          let fila = panelBody.querySelector(selector);
+          if(!fila) return;
+          let cont = fila.children[1];
+          crearEvento(cont, ev.anio, ev.mes, ev.dia, ev.hora, ev.tipo, ev.texto);
+        });
+      }
+
+      // -------------------------------
+      // Cambiar vista (botones)
+      // -------------------------------
+      function marcarAccionActiva(txt){
+        document.querySelectorAll(".acciones").forEach(function(b){
+          if(b.textContent.trim()===txt){ b.classList.add("activa"); }
+          else{ b.classList.remove("activa"); }
+        });
+      }
+
+      function cambiarVista(nueva){
+        vista = nueva;
+        marcarAccionActiva(nueva);
+
+        if(vista==="Año"){
+          panel.classList.add("oculto");
+          contenedor.classList.remove("oculto");
+          mostrarTodosLosMeses();
+          contenedor.classList.add("vista_anual");
+          estado.textContent = "Vista: Año · " + anio;
+        }
+
+        if(vista==="Mes"){
+          panel.classList.add("oculto");
+          contenedor.classList.remove("oculto");
+          contenedor.classList.remove("vista_anual");
+          mostrarTodosLosMeses();
+          estado.textContent = "Vista: Mes · haz click en un día para seleccionar";
+        }
+
+        if(vista==="Semana"){
+          contenedor.classList.remove("vista_anual");
+          mostrarSemana();
+          estado.textContent = "Vista: Semana · selección " + fechaKey(seleccion.anio, seleccion.mes, seleccion.dia);
+        }
+
+        if(vista==="Dia"){
+          contenedor.classList.remove("vista_anual");
+          mostrarDia();
+          estado.textContent = "Vista: Día · selección " + fechaKey(seleccion.anio, seleccion.mes, seleccion.dia);
+        }
+      }
+
+      document.querySelectorAll(".acciones").forEach(function(accion){
+        accion.onclick = function(){
+          cambiarVista(this.textContent.trim());
+        };
+      });
+
+      // Navegación panel
+      document.querySelector("#prev").onclick = function(){
+        if(vista==="Semana"){ semanaOffset--; mostrarSemana(); }
+        if(vista==="Dia"){ diaOffset--; mostrarDia(); }
+      };
+      document.querySelector("#next").onclick = function(){
+        if(vista==="Semana"){ semanaOffset++; mostrarSemana(); }
+        if(vista==="Dia"){ diaOffset++; mostrarDia(); }
+      };
+      document.querySelector("#hoy").onclick = function(){
+        let now = new Date();
+        seleccion = { anio: now.getFullYear(), mes: now.getMonth()+1, dia: now.getDate() };
+        semanaOffset = 0;
+        diaOffset = 0;
+        if(vista==="Semana") mostrarSemana();
+        if(vista==="Dia") mostrarDia();
+        estado.textContent = "Selección: " + fechaKey(seleccion.anio, seleccion.mes, seleccion.dia);
+      };
+
+      // -------------------------------
+      // Auto-guardado (tu latido)
+      // -------------------------------
+      let temporizador = setTimeout("latido()",1000);
+      function latido(){
+        writeStorage();
+        clearTimeout(temporizador);
+        temporizador = setTimeout("latido()",1000);
+      }
+
+      // -------------------------------
+      // INIT
+      // -------------------------------
+      renderYearAndMonths();
+      activo_lbl.textContent = calendario_activo;
+      estado.textContent = "Vista: Mes · haz click en un día para seleccionar";
+    </script>
+  </body>
+</html>
+```
+
+### finalizacion
+<small>Creado: 2025-12-18 15:55</small>
+
+`024-finalizacion.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Calendario</title>
+
+    <style>
+      :root{
+        --bg:#f6f7fb;
+        --card:#ffffff;
+        --stroke:#e7e9f2;
+        --text:#0f172a;
+        --muted:#64748b;
+        --shadow: 0 10px 30px rgba(15,23,42,.08);
+        --r: 16px;
+
+        /* escalas por vista */
+        --hour-h-month: 14px;  /* mes (compacto) */
+        --hour-h-panel: 42px;  /* semana/día (legible) */
+
+        --day-start: 8;  /* 08:00 */
+        --day-end: 22;   /* 22:00 */
+      }
+
+      *{ box-sizing:border-box; }
+      body{
+        margin:0;
+        font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Noto Sans", Arial;
+        background: var(--bg);
+        color: var(--text);
+      }
+
+      .app{
+        max-width: 1520px;
+        margin: 0 auto;
+        padding: 18px 16px 30px;
+      }
+
+      /* topbar */
+      .topbar{
+        position: sticky;
+        top: 0;
+        z-index: 50;
+        background: rgba(246,247,251,.85);
+        backdrop-filter: blur(10px);
+        border:1px solid var(--stroke);
+        border-radius: var(--r);
+        box-shadow: var(--shadow);
+        padding: 14px;
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        gap: 12px;
+        flex-wrap:wrap;
+      }
+
+      .brand{
+        display:flex;
+        flex-direction:column;
+        gap: 2px;
+        min-width: 220px;
+      }
+      .brand .t{ font-weight:800; letter-spacing:.2px; }
+      .brand .s{ color: var(--muted); font-size: 12px; }
+
+      .grupo{
+        display:flex;
+        gap:10px;
+        align-items:center;
+        flex-wrap:wrap;
+      }
+
+      .btn{
+        border:1px solid var(--stroke);
+        background: #fff;
+        color: var(--text);
+        border-radius: 999px;
+        padding: 10px 14px;
+        font-size: 13px;
+        cursor:pointer;
+        transition: transform .12s ease, box-shadow .12s ease, background .12s ease;
+      }
+      .btn:hover{ transform: translateY(-1px); box-shadow: 0 8px 18px rgba(15,23,42,.08); }
+      .btn:active{ transform: translateY(0px); }
+
+      .btn.primary{
+        background: #0ea5e9;
+        color: #fff;
+        border-color: rgba(14,165,233,.25);
+      }
+
+      .pill{
+        border:1px solid var(--stroke);
+        background: #fff;
+        padding: 8px 12px;
+        border-radius: 999px;
+        font-size: 12px;
+        color: var(--muted);
+      }
+      .pill b{ color: var(--text); }
+
+      .acciones{
+        border:1px solid var(--stroke);
+        background: #fff;
+        border-radius: 999px;
+        padding: 10px 14px;
+        font-size: 13px;
+        cursor:pointer;
+      }
+      .acciones.activa{
+        background:#0f172a;
+        color:#fff;
+        border-color:#0f172a;
+      }
+
+      /* categorías */
+      .personal{ --cat:#ef4444; }
+      .laboral{ --cat:#22c55e; }
+      .vacaciones{ --cat:#3b82f6; }
+
+      /* contenedores */
+      #jvcalendario{ margin-top: 14px; }
+      .oculto{ display:none !important; }
+
+      /* -------- VISTA AÑO -------- */
+      .vista_anual{
+        display:grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+      }
+      @media (max-width: 1200px){
+        .vista_anual{ grid-template-columns: 1fr; }
+      }
+
+      .mes{
+        border:1px solid var(--stroke);
+        background: var(--card);
+        border-radius: var(--r);
+        box-shadow: var(--shadow);
+        overflow:hidden;
+      }
+      .cabecera_mes{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        padding: 12px 14px;
+        border-bottom:1px solid var(--stroke);
+      }
+      .cabecera_mes .nombre{ font-weight:800; }
+      .cabecera_mes .info{ color: var(--muted); font-size: 12px; }
+
+      /* -------- VISTA MES (grid 7 col) -------- */
+      .mes.grid{
+        display:grid;
+        grid-template-columns: repeat(7, minmax(0, 1fr));
+      }
+
+      .dia{
+        border-right:1px solid var(--stroke);
+        border-bottom:1px solid var(--stroke);
+        padding: 10px;
+        position:relative;
+        background:#fff;
+       
+      }
+      .dia:hover{ background:#fbfcff; }
+
+      .desactivado{
+        background: #fafafa;
+        color: rgba(15,23,42,.45);
+      }
+
+      .dia .numdia{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        gap: 10px;
+        font-weight:800;
+        cursor:pointer;
+        user-select:none;
+      }
+      .dia .numdia .mini{
+        font-weight:600;
+        font-size: 11px;
+        color: var(--muted);
+        border:1px solid var(--stroke);
+        padding: 3px 8px;
+        border-radius: 999px;
+        background:#fff;
+      }
+
+      /* timeline dentro del día */
+      .timeline{
+        margin-top: 8px;
+        position:relative;
+        height: calc((var(--day-end) - var(--day-start)) * var(--hour-h-month));
+        border:1px solid var(--stroke);
+        border-radius: 12px;
+        overflow: hidden;
+        background:
+          linear-gradient(#fff,#fff),
+          repeating-linear-gradient(
+            to bottom,
+            transparent,
+            transparent calc(var(--hour-h-month) - 1px),
+            rgba(15,23,42,.06) calc(var(--hour-h-month) - 1px),
+            rgba(15,23,42,.06) var(--hour-h-month)
+          );
+      }
+
+      .tick{
+        position:absolute;
+        left:0; right:0;
+        height: var(--hour-h-month);
+        cursor:pointer;
+      }
+      .tick:hover{ background: rgba(14,165,233,.05); }
+
+      /* evento absoluto */
+      .evento{
+        position:absolute;
+        left: 6px;
+        right: 6px;
+        border-radius: 12px;
+        padding: 6px 8px;
+        background: color-mix(in srgb, var(--cat) 92%, white 8%);
+        color:#fff;
+        border:1px solid color-mix(in srgb, var(--cat) 78%, white 22%);
+        box-shadow: 0 8px 18px rgba(15,23,42,.10);
+        font-size: 12px;
+        overflow:hidden;
+      }
+      .evento .t{
+        font-weight:700;
+        line-height: 1.2;
+        white-space:nowrap;
+        overflow:hidden;
+        text-overflow:ellipsis;
+      }
+      .evento .h{
+        margin-top: 2px;
+        font-size: 11px;
+        opacity:.92;
+      }
+      .evento[contenteditable="true"]{ outline:none; }
+      .evento:focus{
+        box-shadow: 0 10px 22px rgba(15,23,42,.16);
+      }
+
+      /* -------- PANEL SEMANA/DÍA -------- */
+      #panel_vista{
+        margin-top: 14px;
+        border:1px solid var(--stroke);
+        background: var(--card);
+        border-radius: var(--r);
+        box-shadow: var(--shadow);
+        overflow:hidden;
+      }
+      #panel_vista .panel_head{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        padding: 12px 14px;
+        border-bottom:1px solid var(--stroke);
+        gap:10px;
+        flex-wrap:wrap;
+      }
+      #panel_vista .panel_head .ttl{
+        font-weight:800;
+      }
+      #panel_vista .panel_body{
+        padding: 12px;
+      }
+
+      .grid_semana{
+        display:grid;
+        grid-template-columns: 72px repeat(7, minmax(0, 1fr));
+        gap: 10px;
+      }
+      .celda_lbl{
+        font-size: 12px;
+        color: var(--muted);
+        display:flex;
+        align-items:center;
+        justify-content:center;
+      }
+      .dia_lbl{
+        border:1px solid var(--stroke);
+        border-radius: 12px;
+        background: #fbfcff;
+        padding: 10px 8px;
+        font-weight:800;
+        font-size: 12px;
+        text-align:center;
+      }
+
+      .col_dia{
+        border:1px solid var(--stroke);
+        border-radius: 14px;
+        overflow:hidden;
+        background:#fff;
+      }
+      .col_dia .timeline{
+        height: calc((var(--day-end) - var(--day-start)) * var(--hour-h-panel));
+        border:0;
+        border-radius:0;
+        background:
+          linear-gradient(#fff,#fff),
+          repeating-linear-gradient(
+            to bottom,
+            transparent,
+            transparent calc(var(--hour-h-panel) - 1px),
+            rgba(15,23,42,.06) calc(var(--hour-h-panel) - 1px),
+            rgba(15,23,42,.06) var(--hour-h-panel)
+          );
+      }
+      .col_dia .tick{ height: var(--hour-h-panel); }
+
+      .lista_dia{
+        display:flex;
+        gap: 14px;
+      }
+      .lista_dia .col_horas{
+        width: 72px;
+        color: var(--muted);
+        font-size: 12px;
+        display:flex;
+        flex-direction:column;
+        gap: 0;
+      }
+      .lista_dia .col_horas .hitem{
+        height: var(--hour-h-panel);
+        display:flex;
+        align-items:center;
+        justify-content:center;
+      }
+      .lista_dia .col_main{
+        flex:1;
+        border:1px solid var(--stroke);
+        border-radius: 14px;
+        overflow:hidden;
+        background:#fff;
+      }
+      .lista_dia .col_main .timeline{
+        height: calc((var(--day-end) - var(--day-start)) * var(--hour-h-panel));
+        border:0;
+        border-radius:0;
+      }
+      .lista_dia .col_main .tick{ height: var(--hour-h-panel); }
+
+      /* -------- MODAL -------- */
+      .modal_back{
+        position:fixed;
+        inset:0;
+        background: rgba(15,23,42,.40);
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        padding: 18px;
+        z-index: 200;
+      }
+      .modal{
+        width: min(560px, 100%);
+        border:1px solid var(--stroke);
+        background: #fff;
+        border-radius: var(--r);
+        box-shadow: 0 20px 60px rgba(15,23,42,.22);
+        overflow:hidden;
+      }
+      .modal .mh{
+        padding: 14px 16px;
+        border-bottom:1px solid var(--stroke);
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        gap:10px;
+      }
+      .modal .mh .ttl{ font-weight:800; }
+      .modal .mb{
+        padding: 16px;
+        display:flex;
+        flex-direction:column;
+        gap: 12px;
+      }
+      .row{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+      }
+      .field label{
+        display:block;
+        font-size: 12px;
+        color: var(--muted);
+        margin-bottom: 6px;
+      }
+      .field input, .field select, .field textarea{
+        width: 100%;
+        border:1px solid var(--stroke);
+        border-radius: 12px;
+        padding: 10px 12px;
+        font-size: 13px;
+        outline:none;
+        background:#fff;
+      }
+      .field textarea{ min-height: 90px; resize: vertical; }
+      .modal .mf{
+        padding: 14px 16px;
+        border-top:1px solid var(--stroke);
+        display:flex;
+        justify-content:flex-end;
+        gap: 10px;
+      }
+      .danger{
+        background:#ef4444;
+        color:#fff;
+        border-color: rgba(239,68,68,.25);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="app">
+      <div class="topbar">
+        <div class="brand">
+          <div class="t">Calendario</div>
+          <div class="s" id="estado"></div>
+        </div>
+
+        <div class="grupo">
+          <button id="guardar" class="btn">Guardar</button>
+
+          <button id="descargar" class="btn primary">Descargar JSON</button>
+          <button id="cargar" class="btn">Cargar JSON</button>
+          <input id="file" type="file" accept="application/json" class="oculto"/>
+
+          <span class="pill">Activo: <b id="activo_lbl">personal</b></span>
+          <button class="btn personal">personal</button>
+          <button class="btn laboral">laboral</button>
+          <button class="btn vacaciones">vacaciones</button>
+        </div>
+
+        <div class="grupo">
+          <button class="acciones anio">Año</button>
+          <button class="acciones mes activa">Mes</button>
+          <button class="acciones semana">Semana</button>
+          <button class="acciones dia">Dia</button>
+        </div>
+      </div>
+
+      <div id="panel_vista" class="oculto">
+        <div class="panel_head">
+          <div class="ttl" id="panel_titulo">Vista</div>
+          <div class="grupo">
+            <button id="prev" class="btn">◀</button>
+            <button id="hoy" class="btn">Hoy</button>
+            <button id="next" class="btn">▶</button>
+          </div>
+        </div>
+        <div class="panel_body" id="panel_body"></div>
+      </div>
+
+      <div id="jvcalendario"></div>
+    </div>
+
+    <!-- MODAL -->
+    <div id="modal_back" class="modal_back oculto">
+      <div class="modal">
+        <div class="mh">
+          <div class="ttl">Nuevo evento</div>
+          <button id="modal_close" class="btn">Cerrar</button>
+        </div>
+
+        <div class="mb">
+          <div class="row">
+            <div class="field">
+              <label>Inicio</label>
+              <input id="m_ini" type="time" step="300" value="08:00">
+            </div>
+            <div class="field">
+              <label>Fin</label>
+              <input id="m_fin" type="time" step="300" value="09:00">
+            </div>
+          </div>
+
+          <div class="field">
+            <label>Texto</label>
+            <textarea id="m_txt" placeholder="Escribe el evento..."></textarea>
+          </div>
+
+          <div class="field">
+            <label>Categoría</label>
+            <select id="m_cat">
+              <option value="personal">personal</option>
+              <option value="laboral">laboral</option>
+              <option value="vacaciones">vacaciones</option>
+            </select>
+          </div>
+
+          <div class="pill" id="m_hint">—</div>
+        </div>
+
+        <div class="mf">
+          <button id="modal_delete" class="btn danger oculto">Eliminar</button>
+          <button id="modal_ok" class="btn primary">Guardar</button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // -------------------------------
+      // utilidades
+      // -------------------------------
+      function pad2(n){ return String(n).padStart(2,"0"); }
+      function fechaKey(a,m,d){ return a+"-"+pad2(m)+"-"+pad2(d); }
+      function hhmmToMin(hhmm){
+        let p = (hhmm||"").split(":");
+        let h = Number(p[0]||0);
+        let m = Number(p[1]||0);
+        return (h*60+m);
+      }
+      function minToHHMM(min){
+        let h = Math.floor(min/60);
+        let m = min%60;
+        return pad2(h)+":"+pad2(m);
+      }
+      function clamp(v, a, b){ return Math.max(a, Math.min(b, v)); }
+
+      function readStorage(){
+        let raw = localStorage.getItem("jvcalendario");
+        if(!raw) return [];
+        try { return JSON.parse(raw) || []; } catch(e){ return []; }
+      }
+      function writeStorageFromDom(){
+        // en esta versión, el DOM es renderizado desde storage.
+        // el latido guarda el storage tal cual (y se actualiza cuando editas/eliminas).
+        // Para mantener tu estilo, dejamos también una función de "volcado" por si hiciera falta.
+        localStorage.setItem("jvcalendario", JSON.stringify(EVENTOS));
+      }
+
+      function eventoId(ev){
+        return [
+          ev.anio, ev.mes, ev.dia,
+          ev.start, ev.end,
+          (ev.tipo||""),
+          (ev.texto||"").trim()
+        ].join("|");
+      }
+
+      // -------------------------------
+      // estado general
+      // -------------------------------
+      let contenedor = document.querySelector("#jvcalendario");
+      let panel = document.querySelector("#panel_vista");
+      let panelBody = document.querySelector("#panel_body");
+      let panelTitulo = document.querySelector("#panel_titulo");
+      let estado = document.querySelector("#estado");
+
+      let anio = 2026;
+      let meses = 12;
+      let nombres_meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
+
+      let calendario_activo = "personal";
+      let activo_lbl = document.querySelector("#activo_lbl");
+
+      let vista = "Mes"; // Año | Mes | Semana | Dia
+      let seleccion = { anio: anio, mes: 1, dia: 1 };
+      let semanaOffset = 0;
+      let diaOffset = 0;
+
+      // eventos en memoria (fuente de verdad)
+      let EVENTOS = readStorage();
+
+      // -------------------------------
+      // modal
+      // -------------------------------
+      let modalBack = document.querySelector("#modal_back");
+      let m_ini = document.querySelector("#m_ini");
+      let m_fin = document.querySelector("#m_fin");
+      let m_txt = document.querySelector("#m_txt");
+      let m_cat = document.querySelector("#m_cat");
+      let m_hint = document.querySelector("#m_hint");
+      let modal_ok = document.querySelector("#modal_ok");
+      let modal_close = document.querySelector("#modal_close");
+      let modal_delete = document.querySelector("#modal_delete");
+
+      let modalCtx = null; // { anio, mes, dia, startMin, scale, editId? }
+
+      function abrirModal(ctx){
+        modalCtx = ctx;
+
+        // defaults
+        let start = ctx.startMin || (8*60);
+        let end = Math.min(start+60, 22*60);
+
+        m_ini.value = minToHHMM(start);
+        m_fin.value = minToHHMM(end);
+        m_txt.value = ctx.texto || "";
+        m_cat.value = ctx.tipo || calendario_activo;
+
+        // edición
+        if(ctx.edit){
+          modal_delete.classList.remove("oculto");
+          document.querySelector(".modal .mh .ttl").textContent = "Editar evento";
+        }else{
+          modal_delete.classList.add("oculto");
+          document.querySelector(".modal .mh .ttl").textContent = "Nuevo evento";
+        }
+
+        actualizarHintModal();
+        modalBack.classList.remove("oculto");
+      }
+
+      function cerrarModal(){
+        modalBack.classList.add("oculto");
+        modalCtx = null;
+      }
+
+      function actualizarHintModal(){
+        if(!modalCtx) return;
+        let s = hhmmToMin(m_ini.value);
+        let e = hhmmToMin(m_fin.value);
+        let dur = Math.max(0, e - s);
+        m_hint.textContent = "Fecha: " + fechaKey(modalCtx.anio, modalCtx.mes, modalCtx.dia) + " · Duración: " + dur + " min";
+      }
+
+      m_ini.oninput = actualizarHintModal;
+      m_fin.oninput = actualizarHintModal;
+
+      modal_close.onclick = cerrarModal;
+      modalBack.addEventListener("click", function(e){
+        if(e.target === modalBack) cerrarModal();
+      });
+
+      modal_ok.onclick = function(){
+        if(!modalCtx) return;
+
+        let dayStart = 8*60;
+        let dayEnd = 22*60;
+
+        let s = clamp(hhmmToMin(m_ini.value), dayStart, dayEnd);
+        let e = clamp(hhmmToMin(m_fin.value), dayStart, dayEnd);
+
+        if(e <= s){
+          alert("El fin debe ser posterior al inicio.");
+          return;
+        }
+
+        let ev = {
+          anio: modalCtx.anio,
+          mes: modalCtx.mes,
+          dia: modalCtx.dia,
+          start: s,
+          end: e,
+          tipo: m_cat.value,
+          texto: m_txt.value || ""
+        };
+
+        if(modalCtx.editId){
+          // reemplaza
+          EVENTOS = EVENTOS.map(function(x){
+            return (eventoId(x)===modalCtx.editId) ? ev : x;
+          });
+        }else{
+          EVENTOS.push(ev);
+        }
+
+        localStorage.setItem("jvcalendario", JSON.stringify(EVENTOS));
+        renderAll();
+        cerrarModal();
+      };
+
+      modal_delete.onclick = function(){
+        if(!modalCtx || !modalCtx.editId) return;
+        if(!confirm("¿Eliminar este evento?")) return;
+
+        EVENTOS = EVENTOS.filter(function(x){
+          return eventoId(x)!==modalCtx.editId;
+        });
+
+        localStorage.setItem("jvcalendario", JSON.stringify(EVENTOS));
+        renderAll();
+        cerrarModal();
+      };
+
+      // -------------------------------
+      // categorías (botones)
+      // -------------------------------
+      document.querySelectorAll(".btn.personal, .btn.laboral, .btn.vacaciones").forEach(function(b){
+        b.onclick = function(){
+          calendario_activo = this.textContent.trim();
+          activo_lbl.textContent = calendario_activo;
+        };
+      });
+
+      // -------------------------------
+      // guardar manual
+      // -------------------------------
+      document.querySelector("#guardar").onclick = function(){
+        localStorage.setItem("jvcalendario", JSON.stringify(EVENTOS));
+      };
+
+      // -------------------------------
+      // descargar/cargar JSON
+      // -------------------------------
+      document.querySelector("#descargar").onclick = function(){
+        let data = JSON.stringify(EVENTOS, null, 2);
+        let blob = new Blob([data], {type:"application/json"});
+        let url = URL.createObjectURL(blob);
+
+        let a = document.createElement("a");
+        a.href = url;
+        a.download = "jvcalendario_"+Date.now()+".json";
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+
+        URL.revokeObjectURL(url);
+      };
+
+      let fileInput = document.querySelector("#file");
+      document.querySelector("#cargar").onclick = function(){
+        fileInput.value = "";
+        fileInput.click();
+      };
+
+      fileInput.onchange = function(){
+        let f = fileInput.files && fileInput.files[0];
+        if(!f) return;
+
+        let reader = new FileReader();
+        reader.onload = function(){
+          let raw = String(reader.result||"");
+          let incoming = [];
+          try {
+            incoming = JSON.parse(raw) || [];
+            if(!Array.isArray(incoming)) incoming = [];
+          } catch(e){
+            alert("JSON inválido.");
+            return;
+          }
+
+          let modo = confirm("OK = REEMPLAZAR todo, Cancelar = AÑADIR (merge)");
+          if(modo){
+            EVENTOS = incoming;
+          }else{
+            // merge simple por id
+            let map = new Map();
+            EVENTOS.forEach(function(ev){ map.set(eventoId(ev), ev); });
+            incoming.forEach(function(ev){ map.set(eventoId(ev), ev); });
+            EVENTOS = Array.from(map.values());
+          }
+
+          localStorage.setItem("jvcalendario", JSON.stringify(EVENTOS));
+          renderAll();
+        };
+        reader.readAsText(f);
+      };
+
+      // -------------------------------
+      // render helpers
+      // -------------------------------
+      function bindEvento(el){
+        el.addEventListener("click", function(e){
+          e.stopPropagation();
+        });
+      }
+
+      function diasEnMes(year, month) {
+        return new Date(year, month, 0).getDate();
+      }
+      function primerDiaDelMes(year, month) {
+        return new Date(year, month - 1, 1).getDay();
+      }
+
+      function calcTopHeight(startMin, endMin, hourH){
+        let dayStart = 8*60;
+        let top = ((startMin - dayStart)/60) * hourH;
+        let height = ((endMin - startMin)/60) * hourH;
+        return { top: top, height: height };
+      }
+
+      function crearEventoDom(ev, hourH, classExtra){
+        let el = document.createElement("div");
+        el.classList.add("evento");
+        el.classList.add(ev.tipo || "personal");
+        if(classExtra) el.classList.add(classExtra);
+
+        // posicionamiento por duración
+        let p = calcTopHeight(Number(ev.start), Number(ev.end), hourH);
+        el.style.top = p.top + "px";
+        el.style.height = p.height + "px";
+
+        el.setAttribute("anio", ev.anio);
+        el.setAttribute("mes", ev.mes);
+        el.setAttribute("dia", ev.dia);
+        el.setAttribute("start", ev.start);
+        el.setAttribute("end", ev.end);
+        el.setAttribute("tipo", ev.tipo);
+
+        el.tabIndex = 0; // para foco
+        el.innerHTML = `
+          <div class="t"></div>
+          <div class="h"></div>
+        `;
+
+        el.querySelector(".t").textContent = (ev.texto||"").trim() || "(sin texto)";
+        el.querySelector(".h").textContent = minToHHMM(Number(ev.start)) + " - " + minToHHMM(Number(ev.end));
+
+        // abrir modal al click para editar
+        el.onclick = function(e){
+          e.stopPropagation();
+          abrirModal({
+            anio: Number(ev.anio),
+            mes: Number(ev.mes),
+            dia: Number(ev.dia),
+            startMin: Number(ev.start),
+            texto: ev.texto,
+            tipo: ev.tipo,
+            edit: true,
+            editId: eventoId(ev)
+          });
+        };
+
+        // delete rápido (del)
+        el.onkeydown = function(e){
+          if(e.key === "Delete" || e.code === "Delete"){
+            if(confirm("¿Eliminar este evento?")){
+              EVENTOS = EVENTOS.filter(function(x){ return eventoId(x)!==eventoId(ev); });
+              localStorage.setItem("jvcalendario", JSON.stringify(EVENTOS));
+              renderAll();
+            }
+          }
+        };
+
+        bindEvento(el);
+        return el;
+      }
+
+      function crearTimelineTicks(timeline, hourH, onClickHour){
+        let dayStart = 8;
+        let dayEnd = 22;
+        let hours = (dayEnd - dayStart);
+
+        for(let i=0;i<hours;i++){
+          let tick = document.createElement("div");
+          tick.classList.add("tick");
+          tick.style.top = (i*hourH) + "px";
+          tick.style.height = hourH + "px";
+          tick.setAttribute("hora", dayStart+i);
+          tick.onclick = function(){
+            onClickHour(dayStart+i);
+          };
+          timeline.appendChild(tick);
+        }
+      }
+
+      // -------------------------------
+      // VISTAS
+      // -------------------------------
+      function renderYearAndMonths(){
+        contenedor.innerHTML = "";
+
+        for(let i=1;i<=meses;i++){
+          let dias_en_mes = diasEnMes(anio,i);
+
+          let mes = document.createElement("div");
+          mes.classList.add("mes","grid");
+          mes.setAttribute("mes", nombres_meses[i-1]);
+          mes.setAttribute("mesnum", i);
+
+          // cabecera
+          let cab = document.createElement("div");
+          cab.classList.add("cabecera_mes");
+          cab.style.gridColumn = "1 / -1";
+          cab.innerHTML = `
+            <div class="nombre">${nombres_meses[i-1]}</div>
+            <div class="info">${anio}</div>
+          `;
+          mes.appendChild(cab);
+
+          // offset inicio (tu lógica)
+          let inicio_mes = primerDiaDelMes(anio, i) + 6;
+          for(let j=1;j<=inicio_mes;j++){
+            let dia = document.createElement("div");
+            dia.classList.add("dia","desactivado");
+            mes.appendChild(dia);
+          }
+
+          for(let j=1;j<=dias_en_mes;j++){
+            let dia = document.createElement("div");
+            dia.classList.add("dia");
+
+            let num = document.createElement("div");
+            num.classList.add("numdia");
+            num.innerHTML = `<span>${j}</span><span class="mini">${nombres_meses[i-1].slice(0,3)}</span>`;
+            dia.appendChild(num);
+
+            num.onclick = function(e){
+              e.stopPropagation();
+              seleccion = { anio: anio, mes: i, dia: j };
+              semanaOffset = 0;
+              diaOffset = 0;
+              estado.textContent = "Selección: " + fechaKey(seleccion.anio, seleccion.mes, seleccion.dia);
+              if(vista==="Semana") mostrarSemana();
+              if(vista==="Dia") mostrarDia();
+              if(vista==="Año"){
+                cambiarVista("Mes");
+                mostrarSoloMes(i);
+              }
+            };
+
+            // timeline mes
+            let timeline = document.createElement("div");
+            timeline.classList.add("timeline");
+            dia.appendChild(timeline);
+
+            // ticks clicables => abrir modal para crear (inicio = hora click)
+            let hourH = parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--hour-h-month"));
+            crearTimelineTicks(timeline, hourH, function(h){
+              abrirModal({
+                anio: anio,
+                mes: i,
+                dia: j,
+                startMin: h*60,
+                tipo: calendario_activo
+              });
+            });
+
+            // eventos de ese día
+            EVENTOS.forEach(function(ev){
+              if(Number(ev.anio)!==Number(anio)) return;
+              if(Number(ev.mes)!==Number(i)) return;
+              if(Number(ev.dia)!==Number(j)) return;
+              let el = crearEventoDom(ev, hourH);
+              timeline.appendChild(el);
+            });
+
+            mes.appendChild(dia);
+          }
+
+          contenedor.appendChild(mes);
+        }
+      }
+
+      function mostrarSoloMes(mesNum){
+        let mesesDom = contenedor.querySelectorAll(".mes");
+        mesesDom.forEach(function(m){
+          if(Number(m.getAttribute("mesnum"))===Number(mesNum)){
+            m.classList.remove("oculto");
+          }else{
+            m.classList.add("oculto");
+          }
+        });
+        contenedor.classList.remove("vista_anual");
+      }
+
+      function mostrarTodosLosMeses(){
+        contenedor.querySelectorAll(".mes").forEach(function(m){ m.classList.remove("oculto"); });
+      }
+
+      function toDateObj(a,m,d){ return new Date(a, m-1, d); }
+
+      function startOfWeekMonday(dateObj){
+        let d = new Date(dateObj);
+        d.setHours(0,0,0,0);
+        let day = d.getDay();
+        let diff = (day===0 ? -6 : 1-day);
+        d.setDate(d.getDate()+diff);
+        return d;
+      }
+
+      function mostrarSemana(){
+        panel.classList.remove("oculto");
+        contenedor.classList.add("oculto");
+
+        let base = toDateObj(seleccion.anio, seleccion.mes, seleccion.dia);
+        base.setDate(base.getDate() + (semanaOffset*7));
+        let lunes = startOfWeekMonday(base);
+
+        panelTitulo.textContent = "Semana · " + lunes.toLocaleDateString("es-ES",{year:"numeric",month:"2-digit",day:"2-digit"});
+
+        panelBody.innerHTML = "";
+        let grid = document.createElement("div");
+        grid.classList.add("grid_semana");
+
+        // esquina
+        let corner = document.createElement("div");
+        corner.classList.add("celda_lbl");
+        corner.textContent = "";
+        grid.appendChild(corner);
+
+        // headers días
+        let cols = [];
+        for(let i=0;i<7;i++){
+          let dd = new Date(lunes);
+          dd.setDate(lunes.getDate()+i);
+
+          let hdr = document.createElement("div");
+          hdr.classList.add("dia_lbl");
+          hdr.textContent = dd.toLocaleDateString("es-ES",{weekday:"short",day:"2-digit",month:"2-digit"});
+          grid.appendChild(hdr);
+
+          // columna (timeline)
+          let col = document.createElement("div");
+          col.classList.add("col_dia");
+          cols.push({ date: dd, col: col });
+        }
+
+        // labels horas + columnas
+        let hourH = parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--hour-h-panel"));
+        let dayStart = 8;
+        let dayEnd = 22;
+
+        for(let h=dayStart;h<dayEnd;h++){
+          let hl = document.createElement("div");
+          hl.classList.add("celda_lbl");
+          hl.style.height = "var(--hour-h-panel)";
+          hl.textContent = h+":00";
+          grid.appendChild(hl);
+
+          for(let i=0;i<7;i++){
+            if(h===dayStart){
+              // primera fila: insertamos el contenedor de timeline ocupando varias filas (truco simple: 1 por hora)
+              // para mantener tu estilo (sin CSS grid row spans), creamos ticks en cada celda.
+            }
+            let cell = document.createElement("div");
+            cell.classList.add("col_dia");
+
+            let dd = new Date(lunes);
+            dd.setDate(lunes.getDate()+i);
+            let a = dd.getFullYear();
+            let m = dd.getMonth()+1;
+            let d = dd.getDate();
+
+            let timeline = document.createElement("div");
+            timeline.classList.add("timeline");
+            cell.appendChild(timeline);
+
+            crearTimelineTicks(timeline, hourH, function(hh){
+              abrirModal({
+                anio:a, mes:m, dia:d,
+                startMin: hh*60,
+                tipo: calendario_activo
+              });
+            });
+
+            // eventos del día (render una sola vez por celda; es repetitivo pero visualmente ok)
+            EVENTOS.forEach(function(ev){
+              if(Number(ev.anio)!==Number(a)) return;
+              if(Number(ev.mes)!==Number(m)) return;
+              if(Number(ev.dia)!==Number(d)) return;
+              let el = crearEventoDom(ev, hourH);
+              timeline.appendChild(el);
+            });
+
+            // solo una fila "visual": usamos la celda por hora (compacto). Para no duplicar, rompemos aquí:
+            // (en semana es mejor una sola timeline por día; si quieres, te lo dejo refinado en el siguiente paso)
+            // -> para mantenerlo funcional sin reestructurar tu grid, cancelamos:
+            if(h===dayStart){
+              // reemplazamos la celda por una sola grande:
+              cell.style.gridRow = "span " + (dayEnd-dayStart);
+              timeline.style.height = "calc((var(--day-end) - var(--day-start)) * var(--hour-h-panel))";
+              // borramos las futuras celdas (no se crean porque hacemos return)
+            }else{
+              // celdas extra no se añaden
+              continue;
+            }
+
+            grid.appendChild(cell);
+          }
+
+          // solo creamos una fila real (la primera)
+          break;
+        }
+
+        panelBody.appendChild(grid);
+      }
+
+      function mostrarDia(){
+        panel.classList.remove("oculto");
+        contenedor.classList.add("oculto");
+
+        let base = toDateObj(seleccion.anio, seleccion.mes, seleccion.dia);
+        base.setDate(base.getDate() + diaOffset);
+
+        let a = base.getFullYear();
+        let m = base.getMonth()+1;
+        let d = base.getDate();
+
+        panelTitulo.textContent = "Día · " + base.toLocaleDateString("es-ES",{weekday:"long", year:"numeric", month:"long", day:"2-digit"});
+
+        panelBody.innerHTML = "";
+        let wrap = document.createElement("div");
+        wrap.classList.add("lista_dia");
+
+        let colH = document.createElement("div");
+        colH.classList.add("col_horas");
+        wrap.appendChild(colH);
+
+        let colM = document.createElement("div");
+        colM.classList.add("col_main");
+        wrap.appendChild(colM);
+
+        let timeline = document.createElement("div");
+        timeline.classList.add("timeline");
+        colM.appendChild(timeline);
+
+        let hourH = parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--hour-h-panel"));
+
+        // hours labels
+        for(let h=8;h<22;h++){
+          let hi = document.createElement("div");
+          hi.classList.add("hitem");
+          hi.textContent = h+":00";
+          colH.appendChild(hi);
+        }
+
+        crearTimelineTicks(timeline, hourH, function(hh){
+          abrirModal({
+            anio:a, mes:m, dia:d,
+            startMin: hh*60,
+            tipo: calendario_activo
+          });
+        });
+
+        EVENTOS.forEach(function(ev){
+          if(Number(ev.anio)!==Number(a)) return;
+          if(Number(ev.mes)!==Number(m)) return;
+          if(Number(ev.dia)!==Number(d)) return;
+          let el = crearEventoDom(ev, hourH);
+          timeline.appendChild(el);
+        });
+
+        panelBody.appendChild(wrap);
+      }
+
+      // -------------------------------
+      // cambiar vista
+      // -------------------------------
+      function marcarAccionActiva(txt){
+        document.querySelectorAll(".acciones").forEach(function(b){
+          if(b.textContent.trim()===txt){ b.classList.add("activa"); }
+          else{ b.classList.remove("activa"); }
+        });
+      }
+
+      function cambiarVista(nueva){
+        vista = nueva;
+        marcarAccionActiva(nueva);
+
+        if(vista==="Año"){
+          panel.classList.add("oculto");
+          contenedor.classList.remove("oculto");
+          mostrarTodosLosMeses();
+          contenedor.classList.add("vista_anual");
+          estado.textContent = "Vista: Año · " + anio;
+        }
+
+        if(vista==="Mes"){
+          panel.classList.add("oculto");
+          contenedor.classList.remove("oculto");
+          contenedor.classList.remove("vista_anual");
+          mostrarTodosLosMeses();
+          estado.textContent = "Vista: Mes · click en una franja para crear evento";
+        }
+
+        if(vista==="Semana"){
+          contenedor.classList.remove("vista_anual");
+          mostrarSemana();
+          estado.textContent = "Vista: Semana · selección " + fechaKey(seleccion.anio, seleccion.mes, seleccion.dia);
+        }
+
+        if(vista==="Dia"){
+          contenedor.classList.remove("vista_anual");
+          mostrarDia();
+          estado.textContent = "Vista: Día · selección " + fechaKey(seleccion.anio, seleccion.mes, seleccion.dia);
+        }
+      }
+
+      document.querySelectorAll(".acciones").forEach(function(accion){
+        accion.onclick = function(){
+          cambiarVista(this.textContent.trim());
+        };
+      });
+
+      // navegación panel
+      document.querySelector("#prev").onclick = function(){
+        if(vista==="Semana"){ semanaOffset--; mostrarSemana(); }
+        if(vista==="Dia"){ diaOffset--; mostrarDia(); }
+      };
+      document.querySelector("#next").onclick = function(){
+        if(vista==="Semana"){ semanaOffset++; mostrarSemana(); }
+        if(vista==="Dia"){ diaOffset++; mostrarDia(); }
+      };
+      document.querySelector("#hoy").onclick = function(){
+        let now = new Date();
+        seleccion = { anio: now.getFullYear(), mes: now.getMonth()+1, dia: now.getDate() };
+        semanaOffset = 0;
+        diaOffset = 0;
+        if(vista==="Semana") mostrarSemana();
+        if(vista==="Dia") mostrarDia();
+        estado.textContent = "Selección: " + fechaKey(seleccion.anio, seleccion.mes, seleccion.dia);
+      };
+
+      // -------------------------------
+      // renderAll
+      // -------------------------------
+      function renderAll(){
+        // refresca EVENTOS desde storage (por coherencia)
+        EVENTOS = readStorage();
+
+        // rerender según vista
+        if(vista==="Semana"){ mostrarSemana(); return; }
+        if(vista==="Dia"){ mostrarDia(); return; }
+
+        renderYearAndMonths();
+      }
+
+      // -------------------------------
+      // latido (auto-save)
+      // -------------------------------
+      let temporizador = setTimeout("latido()",1000);
+      function latido(){
+        // tu requisito: guardar en latido (ok)
+        localStorage.setItem("jvcalendario", JSON.stringify(EVENTOS));
+        clearTimeout(temporizador);
+        temporizador = setTimeout("latido()",1000);
+      }
+
+      // -------------------------------
+      // init
+      // -------------------------------
+      activo_lbl.textContent = calendario_activo;
+      estado.textContent = "Vista: Mes · click en una franja para crear evento";
+      renderAll();
+    </script>
+  </body>
+</html>
+```
+
+### mejoras
+<small>Creado: 2025-12-19 09:08</small>
+
+`025-mejoras.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Calendario</title>
+
+    <style>
+      :root{
+        --bg:#f6f7fb;
+        --card:#ffffff;
+        --stroke:#e7e9f2;
+        --text:#0f172a;
+        --muted:#64748b;
+        --shadow: 0 10px 30px rgba(15,23,42,.08);
+        --r: 16px;
+
+        --hour-h-month: 14px;  /* mes (compacto) */
+        --hour-h-panel: 42px;  /* semana/día (legible) */
+
+        --day-start: 8;  /* 08:00 */
+        --day-end: 22;   /* 22:00 */
+      }
+
+      *{ box-sizing:border-box; }
+      body{
+        margin:0;
+        font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Noto Sans", Arial;
+        background: var(--bg);
+        color: var(--text);
+      }
+
+      .app{
+        max-width: 1520px;
+        margin: 0 auto;
+        padding: 18px 16px 30px;
+      }
+
+      /* topbar */
+      .topbar{
+        position: sticky;
+        top: 0;
+        z-index: 50;
+        background: rgba(246,247,251,.85);
+        backdrop-filter: blur(10px);
+        border:1px solid var(--stroke);
+        border-radius: var(--r);
+        box-shadow: var(--shadow);
+        padding: 14px;
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        gap: 12px;
+        flex-wrap:wrap;
+      }
+
+      .brand{
+        display:flex;
+        flex-direction:column;
+        gap: 2px;
+        min-width: 220px;
+      }
+      .brand .t{ font-weight:800; letter-spacing:.2px; }
+      .brand .s{ color: var(--muted); font-size: 12px; }
+
+      .grupo{
+        display:flex;
+        gap:10px;
+        align-items:center;
+        flex-wrap:wrap;
+      }
+
+      .btn{
+        border:1px solid var(--stroke);
+        background: #fff;
+        color: var(--text);
+        border-radius: 999px;
+        padding: 10px 14px;
+        font-size: 13px;
+        cursor:pointer;
+        transition: transform .12s ease, box-shadow .12s ease, background .12s ease;
+      }
+      .btn:hover{ transform: translateY(-1px); box-shadow: 0 8px 18px rgba(15,23,42,.08); }
+      .btn:active{ transform: translateY(0px); }
+
+      .btn.primary{
+        background: #0ea5e9;
+        color: #fff;
+        border-color: rgba(14,165,233,.25);
+      }
+
+      .pill{
+        border:1px solid var(--stroke);
+        background: #fff;
+        padding: 8px 12px;
+        border-radius: 999px;
+        font-size: 12px;
+        color: var(--muted);
+        display:flex;
+        align-items:center;
+        gap:8px;
+      }
+      .pill b{ color: var(--text); }
+      .dot{
+        width:10px;height:10px;border-radius:999px;
+        background:#94a3b8;
+        box-shadow: 0 0 0 3px rgba(148,163,184,.15);
+      }
+
+      .acciones{
+        border:1px solid var(--stroke);
+        background: #fff;
+        border-radius: 999px;
+        padding: 10px 14px;
+        font-size: 13px;
+        cursor:pointer;
+      }
+      .acciones.activa{
+        background:#0f172a;
+        color:#fff;
+        border-color:#0f172a;
+      }
+
+      /* contenedores */
+      #jvcalendario{ margin-top: 14px; }
+      .oculto{ display:none !important; }
+
+      /* -------- VISTA AÑO -------- */
+      .vista_anual{
+        display:grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+      }
+      @media (max-width: 1200px){
+        .vista_anual{ grid-template-columns: 1fr; }
+      }
+
+      .mes{
+        border:1px solid var(--stroke);
+        background: var(--card);
+        border-radius: var(--r);
+        box-shadow: var(--shadow);
+        overflow:hidden;
+      }
+      .cabecera_mes{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        padding: 12px 14px;
+        border-bottom:1px solid var(--stroke);
+      }
+      .cabecera_mes .nombre{ font-weight:800; }
+      .cabecera_mes .info{ color: var(--muted); font-size: 12px; }
+
+      /* -------- VISTA MES (grid 7 col) -------- */
+      .mes.grid{
+        display:grid;
+        grid-template-columns: repeat(7, minmax(0, 1fr));
+      }
+
+      .dia{
+        border-right:1px solid var(--stroke);
+        border-bottom:1px solid var(--stroke);
+        padding: 10px;
+        position:relative;
+        background:#fff;
+      }
+      .dia:hover{ background:#fbfcff; }
+
+      .desactivado{
+        background: #fafafa;
+        color: rgba(15,23,42,.45);
+      }
+
+      .dia .numdia{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        gap: 10px;
+        font-weight:800;
+        cursor:pointer;
+        user-select:none;
+      }
+      .dia .numdia .mini{
+        font-weight:600;
+        font-size: 11px;
+        color: var(--muted);
+        border:1px solid var(--stroke);
+        padding: 3px 8px;
+        border-radius: 999px;
+        background:#fff;
+        display:flex;
+        align-items:center;
+        gap:6px;
+      }
+      .badge{
+        font-size: 10px;
+        padding: 2px 8px;
+        border-radius: 999px;
+        border:1px solid var(--stroke);
+        color: var(--muted);
+        background:#fff;
+      }
+      .badge.holiday{
+        color:#b91c1c;
+        border-color: rgba(185,28,28,.25);
+        background: rgba(239,68,68,.08);
+      }
+
+      /* timeline dentro del día */
+      .timeline{
+        margin-top: 8px;
+        position:relative;
+        height: calc((var(--day-end) - var(--day-start)) * var(--hour-h-month));
+        border:1px solid var(--stroke);
+        border-radius: 12px;
+        overflow: hidden;
+        background:
+          linear-gradient(#fff,#fff),
+          repeating-linear-gradient(
+            to bottom,
+            transparent,
+            transparent calc(var(--hour-h-month) - 1px),
+            rgba(15,23,42,.06) calc(var(--hour-h-month) - 1px),
+            rgba(15,23,42,.06) var(--hour-h-month)
+          );
+      }
+
+      .tick{
+        position:absolute;
+        left:0; right:0;
+        height: var(--hour-h-month);
+        cursor:pointer;
+      }
+      .tick:hover{ background: rgba(14,165,233,.05); }
+
+      /* evento absoluto */
+      .evento{
+        position:absolute;
+        left: 6px;
+        right: 6px;
+        border-radius: 12px;
+        padding: 6px 8px;
+        background: color-mix(in srgb, var(--cat) 92%, white 8%);
+        color:#fff;
+        border:1px solid color-mix(in srgb, var(--cat) 78%, white 22%);
+        box-shadow: 0 8px 18px rgba(15,23,42,.10);
+        font-size: 12px;
+        overflow:hidden;
+      }
+      .evento .t{
+        font-weight:700;
+        line-height: 1.2;
+        white-space:nowrap;
+        overflow:hidden;
+        text-overflow:ellipsis;
+      }
+      .evento .h{
+        margin-top: 2px;
+        font-size: 11px;
+        opacity:.92;
+      }
+      .evento .rpt{
+        margin-top: 3px;
+        font-size: 10px;
+        opacity:.9;
+        white-space:nowrap;
+        overflow:hidden;
+        text-overflow:ellipsis;
+      }
+      .evento:focus{
+        outline:none;
+        box-shadow: 0 10px 22px rgba(15,23,42,.16);
+      }
+
+      /* -------- PANEL SEMANA/DÍA -------- */
+      #panel_vista{
+        margin-top: 14px;
+        border:1px solid var(--stroke);
+        background: var(--card);
+        border-radius: var(--r);
+        box-shadow: var(--shadow);
+        overflow:hidden;
+      }
+      #panel_vista .panel_head{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        padding: 12px 14px;
+        border-bottom:1px solid var(--stroke);
+        gap:10px;
+        flex-wrap:wrap;
+      }
+      #panel_vista .panel_head .ttl{
+        font-weight:800;
+      }
+      #panel_vista .panel_body{
+        padding: 12px;
+      }
+
+      .grid_semana2{
+        display:grid;
+        grid-template-columns: 72px repeat(7, minmax(0, 1fr));
+        gap: 10px;
+        align-items:start;
+      }
+      .celda_lbl{
+        font-size: 12px;
+        color: var(--muted);
+        display:flex;
+        align-items:center;
+        justify-content:center;
+      }
+      .dia_lbl{
+        border:1px solid var(--stroke);
+        border-radius: 12px;
+        background: #fbfcff;
+        padding: 10px 8px;
+        font-weight:800;
+        font-size: 12px;
+        text-align:center;
+        display:flex;
+        justify-content:center;
+        gap:8px;
+        align-items:center;
+        flex-wrap:wrap;
+      }
+
+      .col_dia{
+        border:1px solid var(--stroke);
+        border-radius: 14px;
+        overflow:hidden;
+        background:#fff;
+      }
+      .col_dia .timeline{
+        height: calc((var(--day-end) - var(--day-start)) * var(--hour-h-panel));
+        border:0;
+        border-radius:0;
+        background:
+          linear-gradient(#fff,#fff),
+          repeating-linear-gradient(
+            to bottom,
+            transparent,
+            transparent calc(var(--hour-h-panel) - 1px),
+            rgba(15,23,42,.06) calc(var(--hour-h-panel) - 1px),
+            rgba(15,23,42,.06) var(--hour-h-panel)
+          );
+      }
+      .col_dia .tick{ height: var(--hour-h-panel); }
+
+      .lista_dia{
+        display:flex;
+        gap: 14px;
+      }
+      .lista_dia .col_horas{
+        width: 72px;
+        color: var(--muted);
+        font-size: 12px;
+        display:flex;
+        flex-direction:column;
+        gap: 0;
+      }
+      .lista_dia .col_horas .hitem{
+        height: var(--hour-h-panel);
+        display:flex;
+        align-items:center;
+        justify-content:center;
+      }
+      .lista_dia .col_main{
+        flex:1;
+        border:1px solid var(--stroke);
+        border-radius: 14px;
+        overflow:hidden;
+        background:#fff;
+      }
+      .lista_dia .col_main .timeline{
+        height: calc((var(--day-end) - var(--day-start)) * var(--hour-h-panel));
+        border:0;
+        border-radius:0;
+      }
+      .lista_dia .col_main .tick{ height: var(--hour-h-panel); }
+
+      /* -------- MODALES -------- */
+      .modal_back{
+        position:fixed;
+        inset:0;
+        background: rgba(15,23,42,.40);
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        padding: 18px;
+        z-index: 200;
+      }
+      .modal{
+        width: min(720px, 100%);
+        border:1px solid var(--stroke);
+        background: #fff;
+        border-radius: var(--r);
+        box-shadow: 0 20px 60px rgba(15,23,42,.22);
+        overflow:hidden;
+      }
+      .modal.sm{ width: min(560px, 100%); }
+      .modal .mh{
+        padding: 14px 16px;
+        border-bottom:1px solid var(--stroke);
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        gap:10px;
+      }
+      .modal .mh .ttl{ font-weight:800; }
+      .modal .mb{
+        padding: 16px;
+        display:flex;
+        flex-direction:column;
+        gap: 12px;
+      }
+      .row{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+      }
+      .field label{
+        display:block;
+        font-size: 12px;
+        color: var(--muted);
+        margin-bottom: 6px;
+      }
+      .field input, .field select, .field textarea{
+        width: 100%;
+        border:1px solid var(--stroke);
+        border-radius: 12px;
+        padding: 10px 12px;
+        font-size: 13px;
+        outline:none;
+        background:#fff;
+      }
+      .field textarea{ min-height: 90px; resize: vertical; }
+      .modal .mf{
+        padding: 14px 16px;
+        border-top:1px solid var(--stroke);
+        display:flex;
+        justify-content:flex-end;
+        gap: 10px;
+        flex-wrap:wrap;
+      }
+      .danger{
+        background:#ef4444;
+        color:#fff;
+        border-color: rgba(239,68,68,.25);
+      }
+
+      /* tabs modal gestión */
+      .tabs{
+        display:flex;
+        gap:8px;
+        flex-wrap:wrap;
+      }
+      .tab{
+        border:1px solid var(--stroke);
+        background:#fff;
+        border-radius:999px;
+        padding:8px 12px;
+        font-size:12px;
+        cursor:pointer;
+      }
+      .tab.activa{
+        background:#0f172a;
+        color:#fff;
+        border-color:#0f172a;
+      }
+      .list{
+        border:1px solid var(--stroke);
+        border-radius: 14px;
+        overflow:hidden;
+        background:#fff;
+      }
+      .item{
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        gap:10px;
+        padding: 10px 12px;
+        border-bottom:1px solid var(--stroke);
+      }
+      .item:last-child{ border-bottom:0; }
+      .item .l{
+        display:flex;
+        align-items:center;
+        gap:10px;
+        min-width:0;
+      }
+      .item .name{
+        font-weight:800;
+        white-space:nowrap;
+        overflow:hidden;
+        text-overflow:ellipsis;
+      }
+      .item .meta{
+        font-size: 12px;
+        color: var(--muted);
+      }
+      .miniBtns{
+        display:flex;
+        gap:8px;
+        align-items:center;
+        flex-wrap:wrap;
+      }
+      .btn.xs{
+        padding: 8px 10px;
+        font-size: 12px;
+      }
+
+      .weekdays{
+        display:flex;
+        gap:8px;
+        flex-wrap:wrap;
+      }
+      .wd{
+        display:flex;
+        align-items:center;
+        gap:6px;
+        border:1px solid var(--stroke);
+        border-radius:999px;
+        padding:6px 10px;
+        font-size:12px;
+        background:#fff;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="app">
+      <div class="topbar">
+        <div class="brand">
+          <div class="t">Calendario</div>
+          <div class="s" id="estado"></div>
+        </div>
+
+        <div class="grupo">
+          <button id="guardar" class="btn">Guardar</button>
+
+          <button id="descargar" class="btn primary">Descargar JSON</button>
+          <button id="cargar" class="btn">Cargar JSON</button>
+          <input id="file" type="file" accept="application/json" class="oculto"/>
+
+          <button id="btn_gestion" class="btn">Categorías / Festivos</button>
+
+          <span class="pill">
+            <span class="dot" id="activo_dot"></span>
+            Activo: <b id="activo_lbl">—</b>
+          </span>
+
+          <div class="grupo" id="cats_bar"></div>
+        </div>
+
+        <div class="grupo">
+          <button class="acciones anio">Año</button>
+          <button class="acciones mes activa">Mes</button>
+          <button class="acciones semana">Semana</button>
+          <button class="acciones dia">Dia</button>
+        </div>
+      </div>
+
+      <div id="panel_vista" class="oculto">
+        <div class="panel_head">
+          <div class="ttl" id="panel_titulo">Vista</div>
+          <div class="grupo">
+            <button id="prev" class="btn">◀</button>
+            <button id="hoy" class="btn">Hoy</button>
+            <button id="next" class="btn">▶</button>
+          </div>
+        </div>
+        <div class="panel_body" id="panel_body"></div>
+      </div>
+
+      <div id="jvcalendario"></div>
+    </div>
+
+    <!-- MODAL EVENTO -->
+    <div id="modal_back" class="modal_back oculto">
+      <div class="modal sm">
+        <div class="mh">
+          <div class="ttl" id="modal_titulo">Nuevo evento</div>
+          <button id="modal_close" class="btn">Cerrar</button>
+        </div>
+
+        <div class="mb">
+          <div class="row">
+            <div class="field">
+              <label>Inicio</label>
+              <input id="m_ini" type="time" step="300" value="08:00">
+            </div>
+            <div class="field">
+              <label>Fin</label>
+              <input id="m_fin" type="time" step="300" value="09:00">
+            </div>
+          </div>
+
+          <div class="field">
+            <label>Texto</label>
+            <textarea id="m_txt" placeholder="Escribe el evento..."></textarea>
+          </div>
+
+          <div class="field">
+            <label>Categoría</label>
+            <select id="m_cat"></select>
+          </div>
+
+          <div class="row">
+            <div class="field">
+              <label>Repetir</label>
+              <select id="m_rep_tipo">
+                <option value="none">No repetir</option>
+                <option value="daily">Diario</option>
+                <option value="weekly">Semanal</option>
+                <option value="monthly">Mensual</option>
+                <option value="yearly">Anual</option>
+              </select>
+            </div>
+            <div class="field">
+              <label>Intervalo</label>
+              <input id="m_rep_int" type="number" min="1" value="1">
+            </div>
+          </div>
+
+          <div class="field" id="m_rep_weekdays_wrap" class="oculto">
+            <label>Días (solo semanal)</label>
+            <div class="weekdays" id="m_rep_weekdays"></div>
+          </div>
+
+          <div class="field">
+            <label>Repetir hasta (inclusive)</label>
+            <input id="m_rep_until" type="date">
+          </div>
+
+          <div class="pill" id="m_hint">—</div>
+        </div>
+
+        <div class="mf">
+          <button id="modal_delete" class="btn danger oculto">Eliminar</button>
+          <button id="modal_ok" class="btn primary">Guardar</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL GESTIÓN -->
+    <div id="mg_back" class="modal_back oculto">
+      <div class="modal">
+        <div class="mh">
+          <div class="ttl">Gestión</div>
+          <button id="mg_close" class="btn">Cerrar</button>
+        </div>
+
+        <div class="mb">
+          <div class="tabs">
+            <button class="tab activa" data-tab="cats">Categorías</button>
+            <button class="tab" data-tab="hol">Festivos</button>
+          </div>
+
+          <!-- CATEGORÍAS -->
+          <div id="tab_cats">
+            <div class="row">
+              <div class="field">
+                <label>Nombre</label>
+                <input id="cat_name" placeholder="p. ej. personal">
+              </div>
+              <div class="field">
+                <label>Color</label>
+                <input id="cat_color" type="color" value="#ef4444">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="field">
+                <label>¿Trabajo?</label>
+                <select id="cat_work">
+                  <option value="false">No</option>
+                  <option value="true">Sí</option>
+                </select>
+              </div>
+              <div class="field">
+                <label>&nbsp;</label>
+                <button id="cat_add" class="btn primary">Crear categoría</button>
+              </div>
+            </div>
+
+            <div class="pill">
+              Si una categoría es “trabajo”, sus eventos <b>no se mostrarán</b> en días marcados como festivos.
+            </div>
+
+            <div class="list" id="cat_list"></div>
+          </div>
+
+          <!-- FESTIVOS -->
+          <div id="tab_hol" class="oculto">
+            <div class="row">
+              <div class="field">
+                <label>Fecha festivo</label>
+                <input id="hol_date" type="date">
+              </div>
+              <div class="field">
+                <label>&nbsp;</label>
+                <button id="hol_add" class="btn primary">Añadir festivo</button>
+              </div>
+            </div>
+
+            <div class="pill">
+              Los festivos se guardan como fechas (YYYY-MM-DD). Se aplican a cualquier año cargado.
+            </div>
+
+            <div class="list" id="hol_list"></div>
+          </div>
+        </div>
+
+        <div class="mf">
+          <button id="mg_export" class="btn">Copiar JSON (debug)</button>
+          <button id="mg_ok" class="btn primary">Cerrar</button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // -------------------------------
+      // utilidades base
+      // -------------------------------
+      function pad2(n){ return String(n).padStart(2,"0"); }
+      function fechaKey(a,m,d){ return a+"-"+pad2(m)+"-"+pad2(d); }
+      function hhmmToMin(hhmm){
+        let p = (hhmm||"").split(":");
+        let h = Number(p[0]||0);
+        let m = Number(p[1]||0);
+        return (h*60+m);
+      }
+      function minToHHMM(min){
+        let h = Math.floor(min/60);
+        let m = min%60;
+        return pad2(h)+":"+pad2(m);
+      }
+      function clamp(v, a, b){ return Math.max(a, Math.min(b, v)); }
+
+      function toDateObj(a,m,d){ return new Date(a, m-1, d); }
+      function isoFromDate(d){
+        return d.getFullYear()+"-"+pad2(d.getMonth()+1)+"-"+pad2(d.getDate());
+      }
+      function dateFromISO(iso){
+        let p = String(iso||"").split("-");
+        if(p.length!==3) return null;
+        let y=Number(p[0]), m=Number(p[1]), d=Number(p[2]);
+        if(!y||!m||!d) return null;
+        return new Date(y,m-1,d);
+      }
+
+      // -------------------------------
+      // storage keys
+      // -------------------------------
+      const K_EVENTS   = "jvcalendario";
+      const K_CATS     = "jvcal_categories";
+      const K_HOLIDAYS = "jvcal_holidays";
+
+      // -------------------------------
+      // defaults y migración
+      // -------------------------------
+      function defaultCats(){
+        return [
+          { id:"personal",   name:"personal",   color:"#ef4444", trabajo:false },
+          { id:"laboral",    name:"laboral",    color:"#22c55e", trabajo:true  },
+          { id:"vacaciones", name:"vacaciones", color:"#3b82f6", trabajo:false }
+        ];
+      }
+
+      function readJSON(key, fallback){
+        let raw = localStorage.getItem(key);
+        if(!raw) return fallback;
+        try{ return JSON.parse(raw); }catch(e){ return fallback; }
+      }
+      function writeJSON(key, val){
+        localStorage.setItem(key, JSON.stringify(val));
+      }
+
+      function loadCats(){
+        let cats = readJSON(K_CATS, null);
+        if(!Array.isArray(cats) || cats.length===0){
+          cats = defaultCats();
+          writeJSON(K_CATS, cats);
+        }
+        // normaliza
+        cats = cats.map(c => ({
+          id: String(c.id||"").trim() || ("cat_"+Math.random().toString(16).slice(2)),
+          name: String(c.name||c.id||"").trim() || "categoria",
+          color: String(c.color||"#94a3b8"),
+          trabajo: !!c.trabajo
+        }));
+        writeJSON(K_CATS, cats);
+        return cats;
+      }
+
+      function loadHolidays(){
+        let hol = readJSON(K_HOLIDAYS, []);
+        if(!Array.isArray(hol)) hol = [];
+        hol = hol.map(x => String(x)).filter(x => /^\d{4}-\d{2}-\d{2}$/.test(x));
+        hol = Array.from(new Set(hol)).sort();
+        writeJSON(K_HOLIDAYS, hol);
+        return hol;
+      }
+
+      function migrateEvents(events, cats){
+        if(!Array.isArray(events)) return [];
+        let catIds = new Set(cats.map(c=>c.id));
+        return events.map(ev=>{
+          let out = Object.assign({}, ev);
+
+          // migración de "tipo" -> catId
+          if(out.tipo && !out.catId){
+            out.catId = String(out.tipo);
+          }
+          if(!out.catId){
+            out.catId = "personal";
+          }
+          if(!catIds.has(out.catId)){
+            // intenta mapear por nombre legacy
+            if(String(out.catId).toLowerCase()==="laboral") out.catId="laboral";
+            else if(String(out.catId).toLowerCase()==="vacaciones") out.catId="vacaciones";
+            else out.catId="personal";
+          }
+
+          // normaliza tiempos
+          out.anio  = Number(out.anio);
+          out.mes   = Number(out.mes);
+          out.dia   = Number(out.dia);
+          out.start = Number(out.start);
+          out.end   = Number(out.end);
+          out.texto = String(out.texto||"");
+
+          // repetición
+          if(out.repeat && typeof out.repeat==="object"){
+            out.repeat = {
+              freq: String(out.repeat.freq||"none"),
+              interval: Math.max(1, Number(out.repeat.interval||1)),
+              until: out.repeat.until ? String(out.repeat.until) : "",
+              byWeekdays: Array.isArray(out.repeat.byWeekdays) ? out.repeat.byWeekdays.map(Number).filter(n=>n>=1 && n<=7) : null
+            };
+            if(!out.repeat.until) out.repeat.until = "";
+          }else{
+            out.repeat = { freq:"none", interval:1, until:"", byWeekdays:null };
+          }
+          return out;
+        });
+      }
+
+      function loadEvents(cats){
+        let events = readJSON(K_EVENTS, []);
+        events = migrateEvents(events, cats);
+        writeJSON(K_EVENTS, events);
+        return events;
+      }
+
+      // -------------------------------
+      // lógica de calendario
+      // -------------------------------
+      function diasEnMes(year, month) {
+        return new Date(year, month, 0).getDate();
+      }
+      function primerDiaDelMes(year, month) {
+        return new Date(year, month - 1, 1).getDay();
+      }
+      function startOfWeekMonday(dateObj){
+        let d = new Date(dateObj);
+        d.setHours(0,0,0,0);
+        let day = d.getDay();
+        let diff = (day===0 ? -6 : 1-day);
+        d.setDate(d.getDate()+diff);
+        return d;
+      }
+
+      function calcTopHeight(startMin, endMin, hourH){
+        let dayStart = 8*60;
+        let top = ((startMin - dayStart)/60) * hourH;
+        let height = ((endMin - startMin)/60) * hourH;
+        return { top: top, height: height };
+      }
+
+      function makeCatVarStyle(cat){
+        return "--cat:" + (cat?.color || "#94a3b8");
+      }
+
+      // -------------------------------
+      // repetición: ocurrencias por fecha
+      // - freq: none|daily|weekly|monthly|yearly
+      // - interval >= 1
+      // - until ISO (inclusive). Si vacío => sin límite (se limita por rango de render).
+      // - weekly: byWeekdays (1..7, lunes=1)
+      // -------------------------------
+      function weekdayMon1(dateObj){
+        // JS: 0 domingo..6 sábado -> queremos 1 lunes..7 domingo
+        let g = dateObj.getDay();
+        if(g===0) return 7;
+        return g;
+      }
+
+      function occursOnDate(ev, dateObj){
+        let startDate = toDateObj(ev.anio, ev.mes, ev.dia);
+        startDate.setHours(0,0,0,0);
+
+        let target = new Date(dateObj);
+        target.setHours(0,0,0,0);
+
+        if(target < startDate) return false;
+
+        let r = ev.repeat || {freq:"none", interval:1, until:"", byWeekdays:null};
+        let freq = String(r.freq||"none");
+        let interval = Math.max(1, Number(r.interval||1));
+        let until = r.until ? dateFromISO(r.until) : null;
+        if(until){ until.setHours(0,0,0,0); }
+        if(until && target > until) return false;
+
+        if(freq === "none"){
+          return (target.getTime() === startDate.getTime());
+        }
+
+        if(freq === "daily"){
+          let diffDays = Math.floor((target - startDate) / 86400000);
+          return diffDays % interval === 0;
+        }
+
+        if(freq === "weekly"){
+          // semanas desde lunes
+          let sMon = startOfWeekMonday(startDate);
+          let tMon = startOfWeekMonday(target);
+          let diffWeeks = Math.floor((tMon - sMon) / (86400000*7));
+          if(diffWeeks % interval !== 0) return false;
+
+          let wd = weekdayMon1(target);
+          let by = Array.isArray(r.byWeekdays) && r.byWeekdays.length ? r.byWeekdays : [weekdayMon1(startDate)];
+          return by.includes(wd);
+        }
+
+        if(freq === "monthly"){
+          // mismo día del mes (si no existe, no ocurre)
+          let months = (target.getFullYear() - startDate.getFullYear())*12 + (target.getMonth() - startDate.getMonth());
+          if(months < 0) return false;
+          if(months % interval !== 0) return false;
+
+          let day = startDate.getDate();
+          if(target.getDate() !== day) return false;
+
+          return true;
+        }
+
+        if(freq === "yearly"){
+          let diffYears = target.getFullYear() - startDate.getFullYear();
+          if(diffYears < 0) return false;
+          if(diffYears % interval !== 0) return false;
+
+          return (target.getMonth()===startDate.getMonth() && target.getDate()===startDate.getDate());
+        }
+
+        return false;
+      }
+
+      function listEventsForDate(dateObj, events, catsById, holidaysSet){
+        let iso = isoFromDate(dateObj);
+        let out = [];
+
+        for(let ev of events){
+          // regla: si la categoría es trabajo y el día es festivo => no aparece (ni como repetición)
+          let cat = catsById.get(ev.catId);
+          let isWork = !!cat?.trabajo;
+          if(isWork && holidaysSet.has(iso)) continue;
+
+          if(occursOnDate(ev, dateObj)){
+            out.push(ev);
+          }
+        }
+
+        return out;
+      }
+
+      function repeatLabel(ev){
+        let r = ev.repeat || {freq:"none"};
+        if(!r || r.freq==="none") return "";
+        let freq = r.freq;
+        let interval = Math.max(1, Number(r.interval||1));
+        let until = r.until ? (" hasta " + r.until) : "";
+        if(freq==="daily") return "Repite: diario" + (interval>1 ? " (cada "+interval+" días)" : "") + until;
+        if(freq==="weekly") return "Repite: semanal" + (interval>1 ? " (cada "+interval+" semanas)" : "") + until;
+        if(freq==="monthly") return "Repite: mensual" + (interval>1 ? " (cada "+interval+" meses)" : "") + until;
+        if(freq==="yearly") return "Repite: anual" + (interval>1 ? " (cada "+interval+" años)" : "") + until;
+        return "Repite";
+      }
+
+      // -------------------------------
+      // estado general
+      // -------------------------------
+      let contenedor   = document.querySelector("#jvcalendario");
+      let panel        = document.querySelector("#panel_vista");
+      let panelBody    = document.querySelector("#panel_body");
+      let panelTitulo  = document.querySelector("#panel_titulo");
+      let estado       = document.querySelector("#estado");
+
+      let anio = 2026;
+      let meses = 12;
+      let nombres_meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
+
+      let vista = "Mes"; // Año | Mes | Semana | Dia
+      let seleccion = { anio: anio, mes: 1, dia: 1 };
+      let semanaOffset = 0;
+      let diaOffset = 0;
+
+      // datos persistentes
+      let CATS = loadCats();
+      let HOLIDAYS = loadHolidays();
+      let HOLSET = new Set(HOLIDAYS);
+      let CATS_BY_ID = new Map(CATS.map(c=>[c.id,c]));
+
+      let EVENTOS = loadEvents(CATS);
+
+      // categoría activa (para crear)
+      let calendario_activo = CATS[0]?.id || "personal";
+      let activo_lbl = document.querySelector("#activo_lbl");
+      let activo_dot = document.querySelector("#activo_dot");
+
+      function setActiveCat(catId){
+        if(!CATS_BY_ID.has(catId)) catId = CATS[0]?.id || "personal";
+        calendario_activo = catId;
+        let c = CATS_BY_ID.get(catId);
+        activo_lbl.textContent = c ? c.name : catId;
+        activo_dot.style.background = (c?.color || "#94a3b8");
+        activo_dot.style.boxShadow = "0 0 0 3px " + (c?.color ? "color-mix(in srgb, "+c.color+" 20%, transparent 80%)" : "rgba(148,163,184,.15)");
+      }
+
+      function saveAll(){
+        writeJSON(K_CATS, CATS);
+        writeJSON(K_HOLIDAYS, HOLIDAYS);
+        writeJSON(K_EVENTS, EVENTOS);
+      }
+
+      // -------------------------------
+      // UI: barra de categorías (rápida)
+      // -------------------------------
+      let catsBar = document.querySelector("#cats_bar");
+
+      function renderCatsBar(){
+        catsBar.innerHTML = "";
+        CATS.forEach(cat=>{
+          let b = document.createElement("button");
+          b.className = "btn xs";
+          b.textContent = cat.name;
+          b.style.cssText = makeCatVarStyle(cat) + ";";
+          b.onclick = function(){
+            setActiveCat(cat.id);
+          };
+          catsBar.appendChild(b);
+        });
+        setActiveCat(calendario_activo);
+      }
+
+      // -------------------------------
+      // MODAL EVENTO
+      // -------------------------------
+      let modalBack   = document.querySelector("#modal_back");
+      let modalTitulo = document.querySelector("#modal_titulo");
+      let m_ini  = document.querySelector("#m_ini");
+      let m_fin  = document.querySelector("#m_fin");
+      let m_txt  = document.querySelector("#m_txt");
+      let m_cat  = document.querySelector("#m_cat");
+      let m_hint = document.querySelector("#m_hint");
+      let modal_ok    = document.querySelector("#modal_ok");
+      let modal_close = document.querySelector("#modal_close");
+      let modal_delete= document.querySelector("#modal_delete");
+
+      let m_rep_tipo = document.querySelector("#m_rep_tipo");
+      let m_rep_int  = document.querySelector("#m_rep_int");
+      let m_rep_until= document.querySelector("#m_rep_until");
+      let m_rep_weekdays_wrap = document.querySelector("#m_rep_weekdays_wrap");
+      let m_rep_weekdays = document.querySelector("#m_rep_weekdays");
+
+      function fillCatSelect(){
+        m_cat.innerHTML = "";
+        CATS.forEach(cat=>{
+          let opt = document.createElement("option");
+          opt.value = cat.id;
+          opt.textContent = cat.name + (cat.trabajo ? " (trabajo)" : "");
+          m_cat.appendChild(opt);
+        });
+      }
+
+      function buildWeekdayChips(selected){
+        m_rep_weekdays.innerHTML = "";
+        let names = [
+          {id:1, t:"Lun"},
+          {id:2, t:"Mar"},
+          {id:3, t:"Mié"},
+          {id:4, t:"Jue"},
+          {id:5, t:"Vie"},
+          {id:6, t:"Sáb"},
+          {id:7, t:"Dom"}
+        ];
+        names.forEach(n=>{
+          let w = document.createElement("label");
+          w.className = "wd";
+          let cb = document.createElement("input");
+          cb.type = "checkbox";
+          cb.value = n.id;
+          cb.checked = selected.includes(n.id);
+          w.appendChild(cb);
+          let sp = document.createElement("span");
+          sp.textContent = n.t;
+          w.appendChild(sp);
+          m_rep_weekdays.appendChild(w);
+        });
+      }
+
+      function getSelectedWeekdays(){
+        let arr = [];
+        m_rep_weekdays.querySelectorAll("input[type=checkbox]").forEach(cb=>{
+          if(cb.checked) arr.push(Number(cb.value));
+        });
+        arr = arr.filter(n=>n>=1 && n<=7);
+        // no vacío: si vacío, se interpretará como el día original (en occursOnDate)
+        return arr;
+      }
+
+      let modalCtx = null; // { anio, mes, dia, startMin, editId? }
+
+      function abrirModal(ctx){
+        modalCtx = ctx;
+
+        fillCatSelect();
+
+        // defaults
+        let start = ctx.startMin || (8*60);
+        let end = Math.min(start+60, 22*60);
+
+        m_ini.value = minToHHMM(start);
+        m_fin.value = minToHHMM(end);
+        m_txt.value = ctx.texto || "";
+        m_cat.value = ctx.catId || ctx.tipo || calendario_activo;
+
+        // repetición
+        let rep = ctx.repeat || {freq:"none", interval:1, until:"", byWeekdays:null};
+        m_rep_tipo.value = rep.freq || "none";
+        m_rep_int.value = Math.max(1, Number(rep.interval||1));
+        m_rep_until.value = rep.until || ""; // ISO
+        let baseDate = toDateObj(ctx.anio, ctx.mes, ctx.dia);
+        let baseWd = weekdayMon1(baseDate);
+        let selectedWds = Array.isArray(rep.byWeekdays) && rep.byWeekdays.length ? rep.byWeekdays : [baseWd];
+        buildWeekdayChips(selectedWds);
+
+        // edición
+        if(ctx.edit){
+          modal_delete.classList.remove("oculto");
+          modalTitulo.textContent = "Editar evento";
+        }else{
+          modal_delete.classList.add("oculto");
+          modalTitulo.textContent = "Nuevo evento";
+        }
+
+        updateRepeatUI();
+        actualizarHintModal();
+        modalBack.classList.remove("oculto");
+      }
+
+      function cerrarModal(){
+        modalBack.classList.add("oculto");
+        modalCtx = null;
+      }
+
+      function updateRepeatUI(){
+        if(m_rep_tipo.value === "weekly"){
+          m_rep_weekdays_wrap.classList.remove("oculto");
+        }else{
+          m_rep_weekdays_wrap.classList.add("oculto");
+        }
+        actualizarHintModal();
+      }
+
+      function actualizarHintModal(){
+        if(!modalCtx) return;
+
+        let s = hhmmToMin(m_ini.value);
+        let e = hhmmToMin(m_fin.value);
+        let dur = Math.max(0, e - s);
+
+        let rep = m_rep_tipo.value;
+        let until = m_rep_until.value ? (" · Hasta: " + m_rep_until.value) : "";
+        let repTxt = (rep && rep!=="none") ? (" · Repite: " + rep + " (int " + Math.max(1, Number(m_rep_int.value||1)) + ")" + until) : "";
+
+        // aviso por trabajo/festivos
+        let cat = CATS_BY_ID.get(m_cat.value);
+        let iso = fechaKey(modalCtx.anio, modalCtx.mes, modalCtx.dia);
+        let warn = "";
+        if(cat?.trabajo && HOLSET.has(iso)){
+          warn = " · Aviso: categoría trabajo en festivo (no se mostrará ese día)";
+        }
+
+        m_hint.textContent = "Fecha: " + iso + " · Duración: " + dur + " min" + repTxt + warn;
+      }
+
+      m_ini.oninput = actualizarHintModal;
+      m_fin.oninput = actualizarHintModal;
+      m_cat.onchange = actualizarHintModal;
+      m_rep_tipo.onchange = updateRepeatUI;
+      m_rep_int.oninput = actualizarHintModal;
+      m_rep_until.onchange = actualizarHintModal;
+
+      modal_close.onclick = cerrarModal;
+      modalBack.addEventListener("click", function(e){
+        if(e.target === modalBack) cerrarModal();
+      });
+
+      function eventoId(ev){
+        // id estable para edición/merge: incluye el “origen” (fecha/hora/cat/texto) + repetición
+        let r = ev.repeat || {freq:"none", interval:1, until:"", byWeekdays:null};
+        return [
+          ev.anio, ev.mes, ev.dia,
+          ev.start, ev.end,
+          (ev.catId||""),
+          (ev.texto||"").trim(),
+          (r.freq||"none"),
+          (r.interval||1),
+          (r.until||""),
+          Array.isArray(r.byWeekdays)?r.byWeekdays.join(","):""
+        ].join("|");
+      }
+
+      modal_ok.onclick = function(){
+        if(!modalCtx) return;
+
+        let dayStart = 8*60;
+        let dayEnd = 22*60;
+
+        let s = clamp(hhmmToMin(m_ini.value), dayStart, dayEnd);
+        let e = clamp(hhmmToMin(m_fin.value), dayStart, dayEnd);
+
+        if(e <= s){
+          alert("El fin debe ser posterior al inicio.");
+          return;
+        }
+
+        let rep = {
+          freq: m_rep_tipo.value || "none",
+          interval: Math.max(1, Number(m_rep_int.value||1)),
+          until: m_rep_until.value || "",
+          byWeekdays: null
+        };
+        if(rep.freq === "weekly"){
+          let wds = getSelectedWeekdays();
+          rep.byWeekdays = wds.length ? wds : null;
+        }
+
+        let ev = {
+          anio: modalCtx.anio,
+          mes: modalCtx.mes,
+          dia: modalCtx.dia,
+          start: s,
+          end: e,
+          catId: m_cat.value,
+          texto: m_txt.value || "",
+          repeat: rep
+        };
+
+        if(modalCtx.editId){
+          EVENTOS = EVENTOS.map(function(x){
+            return (eventoId(x)===modalCtx.editId) ? ev : x;
+          });
+        }else{
+          EVENTOS.push(ev);
+        }
+
+        writeJSON(K_EVENTS, EVENTOS);
+        renderAll();
+        cerrarModal();
+      };
+
+      modal_delete.onclick = function(){
+        if(!modalCtx || !modalCtx.editId) return;
+        if(!confirm("¿Eliminar este evento?")) return;
+
+        EVENTOS = EVENTOS.filter(function(x){
+          return eventoId(x)!==modalCtx.editId;
+        });
+
+        writeJSON(K_EVENTS, EVENTOS);
+        renderAll();
+        cerrarModal();
+      };
+
+      // -------------------------------
+      // descargar/cargar JSON
+      // (incluye eventos + categorías + festivos)
+      // -------------------------------
+      document.querySelector("#guardar").onclick = function(){
+        saveAll();
+      };
+
+      document.querySelector("#descargar").onclick = function(){
+        let payload = {
+          version: 2,
+          exportedAt: new Date().toISOString(),
+          categories: CATS,
+          holidays: HOLIDAYS,
+          events: EVENTOS
+        };
+
+        let data = JSON.stringify(payload, null, 2);
+        let blob = new Blob([data], {type:"application/json"});
+        let url = URL.createObjectURL(blob);
+
+        let a = document.createElement("a");
+        a.href = url;
+        a.download = "jvcalendario_"+Date.now()+".json";
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+
+        URL.revokeObjectURL(url);
+      };
+
+      let fileInput = document.querySelector("#file");
+      document.querySelector("#cargar").onclick = function(){
+        fileInput.value = "";
+        fileInput.click();
+      };
+
+      fileInput.onchange = function(){
+        let f = fileInput.files && fileInput.files[0];
+        if(!f) return;
+
+        let reader = new FileReader();
+        reader.onload = function(){
+          let raw = String(reader.result||"");
+          let incoming = null;
+          try { incoming = JSON.parse(raw); } catch(e){ alert("JSON inválido."); return; }
+
+          // acepta formatos:
+          // - v2 {categories, holidays, events}
+          // - legacy: array de eventos
+          let incCats = null, incHol = null, incEvents = null;
+
+          if(Array.isArray(incoming)){
+            incEvents = incoming;
+          }else if(incoming && typeof incoming==="object"){
+            if(Array.isArray(incoming.categories)) incCats = incoming.categories;
+            if(Array.isArray(incoming.holidays)) incHol = incoming.holidays;
+            if(Array.isArray(incoming.events)) incEvents = incoming.events;
+          }
+
+          if(!incEvents && !incCats && !incHol){
+            alert("No se han encontrado datos válidos.");
+            return;
+          }
+
+          let replace = confirm("OK = REEMPLAZAR todo, Cancelar = AÑADIR (merge)");
+
+          if(replace){
+            if(incCats){ CATS = incCats; }
+            if(incHol){ HOLIDAYS = incHol; }
+            if(incEvents){ EVENTOS = incEvents; }
+          }else{
+            // merge cats por id
+            if(incCats){
+              let map = new Map(CATS.map(c=>[String(c.id), c]));
+              incCats.forEach(c=>{ map.set(String(c.id), c); });
+              CATS = Array.from(map.values());
+            }
+            // merge holidays
+            if(incHol){
+              let set = new Set(HOLIDAYS);
+              incHol.forEach(d=>set.add(String(d)));
+              HOLIDAYS = Array.from(set);
+            }
+            // merge events por eventoId (con migración posterior)
+            if(incEvents){
+              let mapE = new Map();
+              migrateEvents(EVENTOS, loadCats()).forEach(ev=>mapE.set(eventoId(ev), ev));
+              migrateEvents(incEvents, loadCats()).forEach(ev=>mapE.set(eventoId(ev), ev));
+              EVENTOS = Array.from(mapE.values());
+            }
+          }
+
+          // normaliza y persiste
+          CATS = loadCats(); // asegura defaults si rompieron
+          // si venían categorías, las aplicamos pero normalizamos y guardamos
+          if(incCats){ writeJSON(K_CATS, CATS = loadCats()); }
+
+          HOLIDAYS = loadHolidays();
+          HOLSET = new Set(HOLIDAYS);
+
+          CATS_BY_ID = new Map(CATS.map(c=>[c.id,c]));
+          EVENTOS = migrateEvents(EVENTOS, CATS);
+          saveAll();
+
+          // refresca UI
+          renderCatsBar();
+          setActiveCat(calendario_activo);
+          renderAll();
+        };
+        reader.readAsText(f);
+      };
+
+      // -------------------------------
+      // crear DOM de evento
+      // -------------------------------
+      function crearEventoDom(ev, hourH){
+        let cat = CATS_BY_ID.get(ev.catId);
+        let el = document.createElement("div");
+        el.classList.add("evento");
+        el.style.cssText = makeCatVarStyle(cat) + ";";
+
+        // posicionamiento por duración
+        let p = calcTopHeight(Number(ev.start), Number(ev.end), hourH);
+        el.style.top = p.top + "px";
+        el.style.height = p.height + "px";
+
+        el.tabIndex = 0;
+        el.innerHTML = `
+          <div class="t"></div>
+          <div class="h"></div>
+          <div class="rpt"></div>
+        `;
+
+        el.querySelector(".t").textContent = (ev.texto||"").trim() || "(sin texto)";
+        el.querySelector(".h").textContent = minToHHMM(Number(ev.start)) + " - " + minToHHMM(Number(ev.end));
+        el.querySelector(".rpt").textContent = repeatLabel(ev);
+
+        el.onclick = function(e){
+          e.stopPropagation();
+          abrirModal({
+            anio: Number(ev.anio),
+            mes: Number(ev.mes),
+            dia: Number(ev.dia),
+            startMin: Number(ev.start),
+            texto: ev.texto,
+            catId: ev.catId,
+            repeat: ev.repeat,
+            edit: true,
+            editId: eventoId(ev)
+          });
+        };
+
+        el.onkeydown = function(e){
+          if(e.key === "Delete" || e.code === "Delete"){
+            if(confirm("¿Eliminar este evento?")){
+              EVENTOS = EVENTOS.filter(function(x){ return eventoId(x)!==eventoId(ev); });
+              writeJSON(K_EVENTS, EVENTOS);
+              renderAll();
+            }
+          }
+        };
+
+        return el;
+      }
+
+      function crearTimelineTicks(timeline, hourH, onClickHour){
+        let dayStart = 8;
+        let dayEnd = 22;
+        let hours = (dayEnd - dayStart);
+
+        for(let i=0;i<hours;i++){
+          let tick = document.createElement("div");
+          tick.classList.add("tick");
+          tick.style.top = (i*hourH) + "px";
+          tick.style.height = hourH + "px";
+          tick.setAttribute("hora", dayStart+i);
+          tick.onclick = function(){
+            onClickHour(dayStart+i);
+          };
+          timeline.appendChild(tick);
+        }
+      }
+
+      // -------------------------------
+      // VISTAS
+      // -------------------------------
+      function renderYearAndMonths(){
+        contenedor.innerHTML = "";
+
+        for(let i=1;i<=meses;i++){
+          let dias_en_mes = diasEnMes(anio,i);
+
+          let mes = document.createElement("div");
+          mes.classList.add("mes","grid");
+          mes.setAttribute("mes", nombres_meses[i-1]);
+          mes.setAttribute("mesnum", i);
+
+          // cabecera
+          let cab = document.createElement("div");
+          cab.classList.add("cabecera_mes");
+          cab.style.gridColumn = "1 / -1";
+          cab.innerHTML = `
+            <div class="nombre">${nombres_meses[i-1]}</div>
+            <div class="info">${anio}</div>
+          `;
+          mes.appendChild(cab);
+
+          // offset inicio (lógica original)
+          let inicio_mes = primerDiaDelMes(anio, i) + 6;
+          for(let j=1;j<=inicio_mes;j++){
+            let dia = document.createElement("div");
+            dia.classList.add("dia","desactivado");
+            mes.appendChild(dia);
+          }
+
+          for(let j=1;j<=dias_en_mes;j++){
+            let dia = document.createElement("div");
+            dia.classList.add("dia");
+
+            let iso = fechaKey(anio, i, j);
+            let isHol = HOLSET.has(iso);
+
+            let num = document.createElement("div");
+            num.classList.add("numdia");
+            num.innerHTML = `
+              <span>${j}</span>
+              <span class="mini">
+                ${nombres_meses[i-1].slice(0,3)}
+                ${isHol ? '<span class="badge holiday">Festivo</span>' : ''}
+              </span>
+            `;
+            dia.appendChild(num);
+
+            num.onclick = function(e){
+              e.stopPropagation();
+              seleccion = { anio: anio, mes: i, dia: j };
+              semanaOffset = 0;
+              diaOffset = 0;
+              estado.textContent = "Selección: " + fechaKey(seleccion.anio, seleccion.mes, seleccion.dia);
+              if(vista==="Semana") mostrarSemana();
+              if(vista==="Dia") mostrarDia();
+              if(vista==="Año"){
+                cambiarVista("Mes");
+                mostrarSoloMes(i);
+              }
+            };
+
+            // timeline mes
+            let timeline = document.createElement("div");
+            timeline.classList.add("timeline");
+            dia.appendChild(timeline);
+
+            let hourH = parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--hour-h-month"));
+            crearTimelineTicks(timeline, hourH, function(h){
+              abrirModal({
+                anio: anio,
+                mes: i,
+                dia: j,
+                startMin: h*60,
+                catId: calendario_activo
+              });
+            });
+
+            // eventos del día (incluye repetidos, aplica festivos/trabajo)
+            let list = listEventsForDate(toDateObj(anio,i,j), EVENTOS, CATS_BY_ID, HOLSET);
+            list.forEach(function(ev){
+              let el = crearEventoDom(ev, hourH);
+              timeline.appendChild(el);
+            });
+
+            mes.appendChild(dia);
+          }
+
+          contenedor.appendChild(mes);
+        }
+      }
+
+      function mostrarSoloMes(mesNum){
+        let mesesDom = contenedor.querySelectorAll(".mes");
+        mesesDom.forEach(function(m){
+          if(Number(m.getAttribute("mesnum"))===Number(mesNum)){
+            m.classList.remove("oculto");
+          }else{
+            m.classList.add("oculto");
+          }
+        });
+        contenedor.classList.remove("vista_anual");
+      }
+
+      function mostrarTodosLosMeses(){
+        contenedor.querySelectorAll(".mes").forEach(function(m){ m.classList.remove("oculto"); });
+      }
+
+      function mostrarSemana(){
+        panel.classList.remove("oculto");
+        contenedor.classList.add("oculto");
+
+        let base = toDateObj(seleccion.anio, seleccion.mes, seleccion.dia);
+        base.setDate(base.getDate() + (semanaOffset*7));
+        let lunes = startOfWeekMonday(base);
+
+        panelTitulo.textContent = "Semana · " + lunes.toLocaleDateString("es-ES",{year:"numeric",month:"2-digit",day:"2-digit"});
+
+        panelBody.innerHTML = "";
+
+        let grid = document.createElement("div");
+        grid.classList.add("grid_semana2");
+
+        // esquina
+        let corner = document.createElement("div");
+        corner.classList.add("celda_lbl");
+        corner.textContent = "";
+        grid.appendChild(corner);
+
+        // headers
+        let dayCols = [];
+        for(let i=0;i<7;i++){
+          let dd = new Date(lunes);
+          dd.setDate(lunes.getDate()+i);
+
+          let iso = isoFromDate(dd);
+          let isHol = HOLSET.has(iso);
+
+          let hdr = document.createElement("div");
+          hdr.classList.add("dia_lbl");
+          hdr.innerHTML = `
+            <span>${dd.toLocaleDateString("es-ES",{weekday:"short",day:"2-digit",month:"2-digit"})}</span>
+            ${isHol ? '<span class="badge holiday">Festivo</span>' : ''}
+          `;
+          grid.appendChild(hdr);
+
+          dayCols.push(dd);
+        }
+
+        // columna horas (una sola)
+        let hourH = parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--hour-h-panel"));
+        let hoursWrap = document.createElement("div");
+        hoursWrap.classList.add("celda_lbl");
+        hoursWrap.style.display="flex";
+        hoursWrap.style.flexDirection="column";
+        hoursWrap.style.gap="0";
+        hoursWrap.style.alignItems="stretch";
+        hoursWrap.style.justifyContent="flex-start";
+        hoursWrap.style.paddingTop="10px";
+
+        // placeholder alto para alinear con timelines
+        hoursWrap.style.height = "calc((var(--day-end) - var(--day-start)) * var(--hour-h-panel))";
+        hoursWrap.style.border = "1px solid var(--stroke)";
+        hoursWrap.style.borderRadius = "14px";
+        hoursWrap.style.background = "#fff";
+        hoursWrap.style.overflow="hidden";
+
+        for(let h=8; h<22; h++){
+          let row = document.createElement("div");
+          row.classList.add("celda_lbl");
+          row.style.height = "var(--hour-h-panel)";
+          row.textContent = h+":00";
+          hoursWrap.appendChild(row);
+        }
+
+        grid.appendChild(hoursWrap);
+
+        // 7 timelines
+        for(let i=0;i<7;i++){
+          let dd = dayCols[i];
+          let a = dd.getFullYear();
+          let m = dd.getMonth()+1;
+          let d = dd.getDate();
+
+          let col = document.createElement("div");
+          col.classList.add("col_dia");
+
+          let timeline = document.createElement("div");
+          timeline.classList.add("timeline");
+          col.appendChild(timeline);
+
+          crearTimelineTicks(timeline, hourH, function(hh){
+            abrirModal({ anio:a, mes:m, dia:d, startMin: hh*60, catId: calendario_activo });
+          });
+
+          let list = listEventsForDate(dd, EVENTOS, CATS_BY_ID, HOLSET);
+          list.forEach(function(ev){
+            let el = crearEventoDom(ev, hourH);
+            timeline.appendChild(el);
+          });
+
+          grid.appendChild(col);
+        }
+
+        panelBody.appendChild(grid);
+      }
+
+      function mostrarDia(){
+        panel.classList.remove("oculto");
+        contenedor.classList.add("oculto");
+
+        let base = toDateObj(seleccion.anio, seleccion.mes, seleccion.dia);
+        base.setDate(base.getDate() + diaOffset);
+
+        let a = base.getFullYear();
+        let m = base.getMonth()+1;
+        let d = base.getDate();
+
+        let iso = isoFromDate(base);
+        let isHol = HOLSET.has(iso);
+
+        panelTitulo.textContent = "Día · " + base.toLocaleDateString("es-ES",{weekday:"long", year:"numeric", month:"long", day:"2-digit"}) + (isHol ? " · Festivo" : "");
+
+        panelBody.innerHTML = "";
+        let wrap = document.createElement("div");
+        wrap.classList.add("lista_dia");
+
+        let colH = document.createElement("div");
+        colH.classList.add("col_horas");
+        wrap.appendChild(colH);
+
+        let colM = document.createElement("div");
+        colM.classList.add("col_main");
+        wrap.appendChild(colM);
+
+        let timeline = document.createElement("div");
+        timeline.classList.add("timeline");
+        colM.appendChild(timeline);
+
+        let hourH = parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--hour-h-panel"));
+
+        for(let h=8;h<22;h++){
+          let hi = document.createElement("div");
+          hi.classList.add("hitem");
+          hi.textContent = h+":00";
+          colH.appendChild(hi);
+        }
+
+        crearTimelineTicks(timeline, hourH, function(hh){
+          abrirModal({ anio:a, mes:m, dia:d, startMin: hh*60, catId: calendario_activo });
+        });
+
+        let list = listEventsForDate(base, EVENTOS, CATS_BY_ID, HOLSET);
+        list.forEach(function(ev){
+          let el = crearEventoDom(ev, hourH);
+          timeline.appendChild(el);
+        });
+
+        panelBody.appendChild(wrap);
+      }
+
+      // -------------------------------
+      // cambiar vista
+      // -------------------------------
+      function marcarAccionActiva(txt){
+        document.querySelectorAll(".acciones").forEach(function(b){
+          if(b.textContent.trim()===txt){ b.classList.add("activa"); }
+          else{ b.classList.remove("activa"); }
+        });
+      }
+
+      function cambiarVista(nueva){
+        vista = nueva;
+        marcarAccionActiva(nueva);
+
+        if(vista==="Año"){
+          panel.classList.add("oculto");
+          contenedor.classList.remove("oculto");
+          mostrarTodosLosMeses();
+          contenedor.classList.add("vista_anual");
+          estado.textContent = "Vista: Año · " + anio;
+        }
+
+        if(vista==="Mes"){
+          panel.classList.add("oculto");
+          contenedor.classList.remove("oculto");
+          contenedor.classList.remove("vista_anual");
+          mostrarTodosLosMeses();
+          estado.textContent = "Vista: Mes · click en una franja para crear evento";
+        }
+
+        if(vista==="Semana"){
+          contenedor.classList.remove("vista_anual");
+          mostrarSemana();
+          estado.textContent = "Vista: Semana · selección " + fechaKey(seleccion.anio, seleccion.mes, seleccion.dia);
+        }
+
+        if(vista==="Dia"){
+          contenedor.classList.remove("vista_anual");
+          mostrarDia();
+          estado.textContent = "Vista: Día · selección " + fechaKey(seleccion.anio, seleccion.mes, seleccion.dia);
+        }
+      }
+
+      document.querySelectorAll(".acciones").forEach(function(accion){
+        accion.onclick = function(){
+          cambiarVista(this.textContent.trim());
+        };
+      });
+
+      // navegación panel
+      document.querySelector("#prev").onclick = function(){
+        if(vista==="Semana"){ semanaOffset--; mostrarSemana(); }
+        if(vista==="Dia"){ diaOffset--; mostrarDia(); }
+      };
+      document.querySelector("#next").onclick = function(){
+        if(vista==="Semana"){ semanaOffset++; mostrarSemana(); }
+        if(vista==="Dia"){ diaOffset++; mostrarDia(); }
+      };
+      document.querySelector("#hoy").onclick = function(){
+        let now = new Date();
+        seleccion = { anio: now.getFullYear(), mes: now.getMonth()+1, dia: now.getDate() };
+        semanaOffset = 0;
+        diaOffset = 0;
+        if(vista==="Semana") mostrarSemana();
+        if(vista==="Dia") mostrarDia();
+        estado.textContent = "Selección: " + fechaKey(seleccion.anio, seleccion.mes, seleccion.dia);
+      };
+
+      // -------------------------------
+      // MODAL GESTIÓN (categorías + festivos)
+      // -------------------------------
+      let mgBack = document.querySelector("#mg_back");
+      let mgClose = document.querySelector("#mg_close");
+      let mgOk = document.querySelector("#mg_ok");
+      let mgExport = document.querySelector("#mg_export");
+      let btnGestion = document.querySelector("#btn_gestion");
+
+      let tabBtns = mgBack.querySelectorAll(".tab");
+      let tabCats = document.querySelector("#tab_cats");
+      let tabHol  = document.querySelector("#tab_hol");
+
+      function openGestion(){
+        renderGestion();
+        mgBack.classList.remove("oculto");
+      }
+      function closeGestion(){
+        mgBack.classList.add("oculto");
+      }
+
+      btnGestion.onclick = openGestion;
+      mgClose.onclick = closeGestion;
+      mgOk.onclick = closeGestion;
+      mgBack.addEventListener("click", function(e){
+        if(e.target===mgBack) closeGestion();
+      });
+
+      tabBtns.forEach(b=>{
+        b.onclick = function(){
+          tabBtns.forEach(x=>x.classList.remove("activa"));
+          this.classList.add("activa");
+          let t = this.dataset.tab;
+          if(t==="cats"){ tabCats.classList.remove("oculto"); tabHol.classList.add("oculto"); }
+          if(t==="hol"){ tabHol.classList.remove("oculto"); tabCats.classList.add("oculto"); }
+        };
+      });
+
+      mgExport.onclick = function(){
+        let payload = {categories:CATS, holidays:HOLIDAYS, events:EVENTOS};
+        navigator.clipboard?.writeText(JSON.stringify(payload, null, 2));
+        alert("JSON copiado al portapapeles (si el navegador lo permite).");
+      };
+
+      // categorías UI
+      let catName = document.querySelector("#cat_name");
+      let catColor= document.querySelector("#cat_color");
+      let catWork = document.querySelector("#cat_work");
+      let catAdd  = document.querySelector("#cat_add");
+      let catList = document.querySelector("#cat_list");
+
+      function slugId(s){
+        s = String(s||"").trim().toLowerCase();
+        s = s.normalize("NFD").replace(/[\u0300-\u036f]/g,"");
+        s = s.replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"");
+        if(!s) s = "cat";
+        return s;
+      }
+
+      catAdd.onclick = function(){
+        let name = String(catName.value||"").trim();
+        if(!name){ alert("Nombre requerido."); return; }
+        let idBase = slugId(name);
+        let id = idBase;
+        let n = 2;
+        while(CATS_BY_ID.has(id)){
+          id = idBase + "-" + (n++);
+        }
+        let color = String(catColor.value||"#94a3b8");
+        let trabajo = (catWork.value==="true");
+
+        CATS.push({id, name, color, trabajo});
+        CATS_BY_ID = new Map(CATS.map(c=>[c.id,c]));
+
+        saveAll();
+        renderCatsBar();
+        renderGestion();
+        renderAll();
+
+        catName.value = "";
+      };
+
+      function editCategory(catId){
+        let cat = CATS_BY_ID.get(catId);
+        if(!cat) return;
+
+        let name = prompt("Nuevo nombre de categoría:", cat.name);
+        if(name===null) return;
+        name = String(name).trim();
+        if(!name){ alert("Nombre inválido."); return; }
+
+        let color = prompt("Nuevo color HEX (p. ej. #22c55e):", cat.color);
+        if(color===null) return;
+        color = String(color).trim();
+        if(!/^#([0-9a-fA-F]{6})$/.test(color)){
+          alert("Color inválido. Use #RRGGBB.");
+          return;
+        }
+
+        let trabajo = confirm("¿Marcar esta categoría como trabajo?\n(OK = Sí, Cancelar = No)");
+
+        CATS = CATS.map(c=>{
+          if(c.id!==catId) return c;
+          return { id:c.id, name, color, trabajo };
+        });
+        CATS_BY_ID = new Map(CATS.map(c=>[c.id,c]));
+
+        saveAll();
+        renderCatsBar();
+        renderGestion();
+        renderAll();
+        setActiveCat(calendario_activo);
+      }
+
+      function deleteCategory(catId){
+        if(catId==="personal" || catId==="laboral" || catId==="vacaciones"){
+          if(!confirm("Es una categoría por defecto.\n¿Eliminar igualmente? (se reasignarán eventos a 'personal')")) return;
+        }else{
+          if(!confirm("¿Eliminar esta categoría? (se reasignarán eventos a 'personal')")) return;
+        }
+
+        // reasigna eventos
+        EVENTOS = EVENTOS.map(ev=>{
+          if(ev.catId===catId) return Object.assign({}, ev, {catId:"personal"});
+          return ev;
+        });
+
+        CATS = CATS.filter(c=>c.id!==catId);
+        if(CATS.length===0) CATS = defaultCats();
+
+        CATS_BY_ID = new Map(CATS.map(c=>[c.id,c]));
+
+        // si la activa se borra, cae a personal
+        if(!CATS_BY_ID.has(calendario_activo)) calendario_activo = "personal";
+
+        saveAll();
+        renderCatsBar();
+        renderGestion();
+        renderAll();
+        setActiveCat(calendario_activo);
+      }
+
+      // festivos UI
+      let holDate = document.querySelector("#hol_date");
+      let holAdd  = document.querySelector("#hol_add");
+      let holList = document.querySelector("#hol_list");
+
+      holAdd.onclick = function(){
+        let d = String(holDate.value||"");
+        if(!/^\d{4}-\d{2}-\d{2}$/.test(d)){ alert("Fecha inválida."); return; }
+        HOLIDAYS = Array.from(new Set([...HOLIDAYS, d])).sort();
+        HOLSET = new Set(HOLIDAYS);
+        saveAll();
+        renderGestion();
+        renderAll();
+      };
+
+      function removeHoliday(iso){
+        if(!confirm("¿Eliminar festivo " + iso + "?")) return;
+        HOLIDAYS = HOLIDAYS.filter(x=>x!==iso);
+        HOLSET = new Set(HOLIDAYS);
+        saveAll();
+        renderGestion();
+        renderAll();
+      }
+
+      function renderGestion(){
+        // cats
+        catList.innerHTML = "";
+        CATS.forEach(cat=>{
+          let row = document.createElement("div");
+          row.className = "item";
+          row.innerHTML = `
+            <div class="l">
+              <span class="dot" style="background:${cat.color}; box-shadow:0 0 0 3px color-mix(in srgb, ${cat.color} 20%, transparent 80%);"></span>
+              <div style="min-width:0">
+                <div class="name">${cat.name}</div>
+                <div class="meta">id: ${cat.id} · trabajo: ${cat.trabajo ? "sí" : "no"}</div>
+              </div>
+            </div>
+            <div class="miniBtns">
+              <button class="btn xs" data-act="edit">Editar</button>
+              <button class="btn xs danger" data-act="del">Eliminar</button>
+            </div>
+          `;
+          row.querySelector('[data-act="edit"]').onclick = ()=>editCategory(cat.id);
+          row.querySelector('[data-act="del"]').onclick  = ()=>deleteCategory(cat.id);
+          catList.appendChild(row);
+        });
+
+        // holidays
+        holList.innerHTML = "";
+        HOLIDAYS.forEach(iso=>{
+          let row = document.createElement("div");
+          row.className = "item";
+          row.innerHTML = `
+            <div class="l">
+              <span class="badge holiday">Festivo</span>
+              <div style="min-width:0">
+                <div class="name">${iso}</div>
+                <div class="meta">${new Date(iso).toLocaleDateString("es-ES",{weekday:"long", year:"numeric", month:"long", day:"2-digit"})}</div>
+              </div>
+            </div>
+            <div class="miniBtns">
+              <button class="btn xs danger">Eliminar</button>
+            </div>
+          `;
+          row.querySelector("button").onclick = ()=>removeHoliday(iso);
+          holList.appendChild(row);
+        });
+      }
+
+      // -------------------------------
+      // renderAll
+      // -------------------------------
+      function renderAll(){
+        // recarga coherente desde storage
+        CATS = loadCats();
+        HOLIDAYS = loadHolidays();
+        HOLSET = new Set(HOLIDAYS);
+        CATS_BY_ID = new Map(CATS.map(c=>[c.id,c]));
+
+        EVENTOS = loadEvents(CATS); // migración incluida
+
+        renderCatsBar();
+        fillCatSelect();
+
+        if(vista==="Semana"){ mostrarSemana(); return; }
+        if(vista==="Dia"){ mostrarDia(); return; }
+
+        renderYearAndMonths();
+      }
+
+      // -------------------------------
+      // latido (auto-save)
+      // -------------------------------
+      let temporizador = setTimeout("latido()",1000);
+      function latido(){
+        // guarda en latido
+        saveAll();
+        clearTimeout(temporizador);
+        temporizador = setTimeout("latido()",1000);
+      }
+
+      // -------------------------------
+      // init
+      // -------------------------------
+      renderCatsBar();
+      setActiveCat(calendario_activo);
+      fillCatSelect();
+      estado.textContent = "Vista: Mes · click en una franja para crear evento";
+      renderAll();
+    </script>
+  </body>
+</html>
+```
+
+### Archivo sin título
+<small>Creado: 2025-12-18 14:07</small>
+
+`Archivo sin título`
+
+```
+
+```
+
 
 <a id="almacenamiento-y-manipulacion-de-informacion-en-sistemas-nativos"></a>
 ## Almacenamiento y manipulación de información en sistemas nativos
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/006-Almacenamiento%20de%20informaci%C3%B3n/006-Almacenamiento%20y%20manipulaci%C3%B3n%20de%20informaci%C3%B3n%20en%20sistemas%20nativos)
+
+### inicio
+<small>Creado: 2025-12-22 13:06</small>
+
+`001-inicio.html`
+
+```html
+<!doctype html>
+<html>
+  <head>
+    <style>
+    .fondorojo{background:red;}
+    .textoazul{color:blue;}
+    </style>
+  </head>
+  <body>
+    <div class="fondorojo textoazul">Aqui pongo texto</div>
+  </body>
+</html>
+```
+
+### anchura400
+<small>Creado: 2025-12-22 13:06</small>
+
+`002-anchura400.html`
+
+```html
+<!doctype html>
+<html>
+  <head>
+    <style>
+    .fondorojo{background:red;}
+    .textoazul{color:blue;}
+    .anchura400{width:400px;}
+    .padding20{padding:20px;}
+    </style>
+  </head>
+  <body>
+    <div class="fondorojo textoazul anchura400 padding20">Aqui pongo texto</div>
+  </body>
+</html>
+```
+
+### ahora abreviamos
+<small>Creado: 2025-12-22 13:08</small>
+
+`003-ahora abreviamos.html`
+
+```html
+<!doctype html>
+<html>
+  <head>
+    <style>
+    .b-red{background:red;}
+    .c-blue{color:blue;}
+    .w-400{width:400px;}
+    .p-20{padding:20px;}
+    </style>
+  </head>
+  <body>
+    <div class="b-red c-blue w-400 p-20">Aqui pongo texto</div>
+  </body>
+</html>
+```
+
+### externalizar
+<small>Creado: 2025-12-22 13:10</small>
+
+`004-externalizar.html`
+
+```html
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="004-externo.css">
+  </head>
+  <body>
+    <div class="b-red c-blue w-400 p-20">Aqui pongo texto</div>
+  </body>
+</html>
+```
+
+### externo
+<small>Creado: 2025-12-22 13:09</small>
+
+`004-externo.css`
+
+```css
+.b-red{background:red;}
+.c-blue{color:blue;}
+.w-400{width:400px;}
+.p-20{padding:20px;}
+```
+
+### usamos JVestilo
+<small>Creado: 2025-12-22 13:17</small>
+
+`005-usamos JVestilo.php`
+
+```
+<!doctype html>
+<html>
+  <head>
+    <style>
+      <?php include "JVestilo.php";?>
+    </style>
+  </head>
+  <body>
+    <div class="b-red">Aqui pongo texto</div>
+  </body>
+</html>
+```
+
+### dos parameteros
+<small>Creado: 2025-12-22 13:18</small>
+
+`006-dos parameteros.php`
+
+```
+<!doctype html>
+<html>
+  <head>
+    <style>
+      <?php include "JVestilo.php";?>
+    </style>
+  </head>
+  <body>
+    <div class="b-red c-white">Aqui pongo texto</div>
+  </body>
+</html>
+```
+
+### varios parametros
+<small>Creado: 2025-12-22 13:20</small>
+
+`007-varios parametros.php`
+
+```
+<!doctype html>
+<html>
+  <head>
+    <style>
+      <?php include "JVestilo.php";?>
+    </style>
+  </head>
+  <body>
+    <div class="b-red c-white p-20 m-30">Aqui pongo texto</div>
+  </body>
+</html>
+```
+
+### creamos web completa
+<small>Creado: 2025-12-22 13:29</small>
+
+`008-creamos web completa.php`
+
+```
+<!doctype html>
+<html>
+  <head>
+    <style>
+      <?php include "JVestilo.php";?>
+    </style>
+  </head>
+  <body class="flex fd-column fj-center fa-center b-lightgrey ff-sans-serif">
+    <header class="w-800 b-white p-20">
+      Cabecera
+    </header>
+    <main class="w-800 b-white p-20">
+      Principal
+    </main>
+    <footer class="w-800 b-white p-20">
+      Piedepagina
+    </footer>
+  </body>
+</html>
+```
+
+### secciones
+<small>Creado: 2025-12-22 13:50</small>
+
+`009-secciones.php`
+
+```
+<!doctype html>
+<html>
+  <head>
+    <style>
+      <?php include "JVestilo.php";?>
+    </style>
+  </head>
+  <body class="flex fd-column fj-center fa-center b-lightgrey ff-sans-serif p-20">
+    <header class="w-800 b-white p-20 ta-center">
+      <h1 class="p-0 m-0 fs-36">Jose Vicente Carratala</h1>
+      <h2 class="p-0 m-0 fs-16">Desarrollador, profesor y diseñador</h2>
+    </header>
+    <main class="w-800 b-white p-20 flex fd-column g-20">
+      <section id="heroe" class="w-800 h-400 b-lightgray p-20" style="box-sizing:border-box;">
+        Heroe
+      </section>
+      <section class="grid gc-2 g-20">
+        <article class="ta-center h-200 flex fd-column fa-center fj-center b-lightgray">
+          <h3>Titulo</h3>
+          <p>texto</p>
+        </article>
+        <article class="ta-center h-200 flex fd-column fa-center fj-center b-lightgray">
+          <h3>Titulo</h3>
+          <p>texto</p>
+        </article>
+      </section>
+      <section class="grid gc-3 g-20">
+        <article class="ta-center b-lightgray">
+          <h3>Titulo</h3>
+          <p>texto</p>
+        </article>
+        <article class="ta-center b-lightgray">
+          <h3>Titulo</h3>
+          <p>texto</p>
+        </article>
+        <article class="ta-center b-lightgray">
+          <h3>Titulo</h3>
+          <p>texto</p>
+        </article>
+        <article class="ta-center b-lightgray">
+          <h3>Titulo</h3>
+          <p>texto</p>
+        </article>
+        <article class="ta-center b-lightgray">
+          <h3>Titulo</h3>
+          <p>texto</p>
+        </article>
+        <article class="ta-center b-lightgray">
+          <h3>Titulo</h3>
+          <p>texto</p>
+        </article>
+        <article class="ta-center b-lightgray">
+          <h3>Titulo</h3>
+          <p>texto</p>
+        </article>
+      </section>
+    </main>
+    <footer class="w-800 b-white p-20 ta-center">
+      Piedepagina
+    </footer>
+  </body>
+</html>
+```
+
+### colores
+<small>Creado: 2025-12-22 13:12</small>
+
+`colores.php`
+
+```
+<?php
+
+$colores = [
+    "AliceBlue",
+    "AntiqueWhite",
+    "Aqua",
+    "Aquamarine",
+    "Azure",
+    "Beige",
+    "Bisque",
+    "Black",
+    "BlanchedAlmond",
+    "Blue",
+    "BlueViolet",
+    "Brown",
+    "BurlyWood",
+    "CadetBlue",
+    "Chartreuse",
+    "Chocolate",
+    "Coral",
+    "CornflowerBlue",
+    "Cornsilk",
+    "Crimson",
+    "Cyan",
+    "DarkBlue",
+    "DarkCyan",
+    "DarkGoldenRod",
+    "DarkGray",
+    "DarkGrey",
+    "DarkGreen",
+    "DarkKhaki",
+    "DarkMagenta",
+    "DarkOliveGreen",
+    "DarkOrange",
+    "DarkOrchid",
+    "DarkRed",
+    "DarkSalmon",
+    "DarkSeaGreen",
+    "DarkSlateBlue",
+    "DarkSlateGray",
+    "DarkSlateGrey",
+    "DarkTurquoise",
+    "DarkViolet",
+    "DeepPink",
+    "DeepSkyBlue",
+    "DimGray",
+    "DimGrey",
+    "DodgerBlue",
+    "FireBrick",
+    "FloralWhite",
+    "ForestGreen",
+    "Fuchsia",
+    "Gainsboro",
+    "GhostWhite",
+    "Gold",
+    "GoldenRod",
+    "Gray",
+    "Grey",
+    "Green",
+    "GreenYellow",
+    "HoneyDew",
+    "HotPink",
+    "IndianRed",
+    "Indigo",
+    "Ivory",
+    "Khaki",
+    "Lavender",
+    "LavenderBlush",
+    "LawnGreen",
+    "LemonChiffon",
+    "LightBlue",
+    "LightCoral",
+    "LightCyan",
+    "LightGoldenRodYellow",
+    "LightGray",
+    "LightGrey",
+    "LightGreen",
+    "LightPink",
+    "LightSalmon",
+    "LightSeaGreen",
+    "LightSkyBlue",
+    "LightSlateGray",
+    "LightSlateGrey",
+    "LightSteelBlue",
+    "LightYellow",
+    "Lime",
+    "LimeGreen",
+    "Linen",
+    "Magenta",
+    "Maroon",
+    "MediumAquaMarine",
+    "MediumBlue",
+    "MediumOrchid",
+    "MediumPurple",
+    "MediumSeaGreen",
+    "MediumSlateBlue",
+    "MediumSpringGreen",
+    "MediumTurquoise",
+    "MediumVioletRed",
+    "MidnightBlue",
+    "MintCream",
+    "MistyRose",
+    "Moccasin",
+    "NavajoWhite",
+    "Navy",
+    "OldLace",
+    "Olive",
+    "OliveDrab",
+    "Orange",
+    "OrangeRed",
+    "Orchid",
+    "PaleGoldenRod",
+    "PaleGreen",
+    "PaleTurquoise",
+    "PaleVioletRed",
+    "PapayaWhip",
+    "PeachPuff",
+    "Peru",
+    "Pink",
+    "Plum",
+    "PowderBlue",
+    "Purple",
+    "RebeccaPurple",
+    "Red",
+    "RosyBrown",
+    "RoyalBlue",
+    "SaddleBrown",
+    "Salmon",
+    "SandyBrown",
+    "SeaGreen",
+    "SeaShell",
+    "Sienna",
+    "Silver",
+    "SkyBlue",
+    "SlateBlue",
+    "SlateGray",
+    "SlateGrey",
+    "Snow",
+    "SpringGreen",
+    "SteelBlue",
+    "Tan",
+    "Teal",
+    "Thistle",
+    "Tomato",
+    "Turquoise",
+    "Violet",
+    "Wheat",
+    "White",
+    "WhiteSmoke",
+    "Yellow",
+    "YellowGreen"
+];
+```
+
+### familiasfuentes
+<small>Creado: 2025-12-22 13:28</small>
+
+`familiasfuentes.php`
+
+```
+<?php
+$familias = [
+    'serif',
+    'sans-serif',
+    'monospace',
+    'cursive',
+    'fantasy',
+    'system-ui'
+];
+?>
+```
+
+### JVestilo
+<small>Creado: 2025-12-22 13:48</small>
+
+`JVestilo.php`
+
+```
+<?php
+  include "colores.php";
+  foreach($colores as $color){
+    echo ".b-".strtolower($color)."{background:".strtolower($color).";}";
+    echo ".c-".strtolower($color)."{color:".strtolower($color).";}";
+  }
+  for($i = 0;$i<2000;$i++){
+    echo ".p-".$i."{padding:".$i."px;}"; 
+    echo ".m-".$i."{margin:".$i."px;}";
+    echo ".w-".$i."{width:".$i."px;}";
+    echo ".h-".$i."{height:".$i."px;}";
+    echo ".fs-".$i."{font-size:".$i."px;}";
+    echo ".g-".$i."{gap:".$i."px;}";
+  }
+?>
+.flex{display:flex;}
+.fd-row{flex-direction:row;}
+.fd-column{flex-direction:column;}
+.fj-center{justify-content:center;}
+.fa-center{align-items:center;}
+<?php
+  include "familiasfuentes.php";
+  foreach($familias as $familia){
+    echo ".ff-".strtolower($familia)."{font-family:".strtolower($familia).";}";
+  }
+?>
+.grid{display:grid;}
+.
+<?php
+  for($i = 0;$i<20;$i++){
+    echo ".gc-".$i."{grid-template-columns:repeat(".$i.",100fr);}"; 
+  }
+?>
+<?php
+  $alineaciones = ['left','right','center','justify'];
+  foreach($alineaciones as $alineacion){
+    echo ".ta-".$alineacion."{text-align:".$alineacion.";}";
+  }
+?>
+```
 
 
 
@@ -20555,33 +29725,5818 @@ body {
 <a id="aplicaciones-de-gestion-empresarial-tipos-caracteristicas"></a>
 ## Aplicaciones de gestión empresarial. Tipos. Características
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/007-Sistemas%20de%20gesti%C3%B3n%20empresarial/001-Aplicaciones%20de%20gesti%C3%B3n%20empresarial.%20Tipos.%20Caracter%C3%ADsticas)
+
+### diagrama
+<small>Creado: 2026-01-08 14:30</small>
+
+`004-diagrama.html`
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Diagrama exportado</title>
+<style>
+body {
+  margin: 0;
+  padding: 20px;
+  background: #f3f3f7;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+.page {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  width: 579.7499883742557px;
+  height: 393.0155872163317px;
+  overflow: visible;
+}
+
+/* formas básicas */
+.shape {
+  position: absolute;
+  min-width: 120px;
+  min-height: 40px;
+  padding: 6px 10px;
+  background: #ffffff;
+  border-radius: 4px;
+  border: 1px solid #9ca3af;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+}
+
+.shape.rectangle {
+  border-radius: 4px;
+}
+
+.shape.pill {
+  border-radius: 999px;
+}
+
+.shape.circle {
+  border-radius: 999px;
+  width: 80px;
+  height: 80px;
+  padding: 0;
+  justify-content: center;
+}
+
+/* texto libre */
+.shape.text {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  min-width: 20px;
+  min-height: 20px;
+}
+
+/* base de datos */
+.shape.db {
+  min-width: 120px;
+  min-height: 60px;
+  padding-top: 20px;
+  border-radius: 60px / 16px;
+  background: linear-gradient(180deg, #e5e7eb 0%, #ffffff 40%, #e5e7eb 100%);
+  position: absolute;
+  overflow: hidden;
+  text-align: center;
+}
+.shape.db::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 8px;
+  right: 8px;
+  height: 18px;
+  border-radius: 999px;
+  border: 1px solid #9ca3af;
+  background: radial-gradient(circle at 50% 30%, #ffffff 0%, #e5e7eb 70%);
+}
+.shape.db::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 8px;
+  right: 8px;
+  height: 18px;
+  border-radius: 999px;
+  border: 1px solid rgba(156, 163, 175, 0.6);
+  border-top: none;
+  background: radial-gradient(circle at 50% 70%, #e5e7eb 0%, #d1d5db 70%);
+}
+
+/* entidades ER */
+.shape.entity {
+  width: 220px;
+  min-height: 80px;
+  background: #ffffff;
+  border: 2px solid #111827;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.15);
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  overflow: hidden;
+  padding: 0;
+}
+.entity-header {
+  background: #f3f4f6;
+  padding: 4px 8px;
+  font-weight: 600;
+  text-align: center;
+  border-bottom: 1px solid #e5e7eb;
+}
+.entity-properties {
+  flex: 1;
+  padding: 4px 4px 0 4px;
+}
+.entity-property {
+  display: grid;
+  grid-template-columns: 14px 1fr 14px;
+  align-items: center;
+  column-gap: 4px;
+  padding: 2px 0;
+}
+.entity-property .property-name {
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+/* puertos */
+.port {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: 1px solid #111827;
+  background: #ffffff;
+}
+.port-left { justify-self: start; }
+.port-right { justify-self: end; }
+
+/* flechas rectas */
+.arrow {
+  position: absolute;
+  height: 2px;
+  background: #111827;
+  transform-origin: 0 50%;
+}
+.arrow::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid #111827;
+}
+.arrow-double::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%) rotate(180deg);
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid #111827;
+}
+
+/* flechas ortogonales */
+.ortho-arrow {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.ortho-arrow .ortho-seg {
+  position: absolute;
+  background: #111827;
+}
+.ortho-seg.seg-horizontal { height: 2px; }
+.ortho-seg.seg-vertical { width: 2px; }
+.ortho-arrowhead {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+.ortho-arrowhead.dir-right {
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid #111827;
+}
+.ortho-arrowhead.dir-left {
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 8px solid #111827;
+}
+.ortho-arrowhead.dir-down {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 8px solid #111827;
+}
+.ortho-arrowhead.dir-up {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 8px solid #111827;
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+<div class="shape rectangle" style="left:109.92187499999994px;top:113.20312499999994px;width:119.99999999999994px;height:39.99999999999998px;">HTML</div>
+<div class="shape text" style="left:77.82813662574401px;top:40px;width:31.656232561383913px;height:19.99999999999999px;">Front</div>
+<div class="shape text" style="left:383.2187616257439px;top:43.06249709356396px;width:37.640613374255935px;height:19.99999999999999px;">Admin</div>
+<div class="shape rectangle" style="left:109.76562499999994px;top:74.60937499999997px;width:119.99999999999994px;height:39.99999999999998px;">CSS</div>
+<div class="shape rectangle" style="left:109.7499883742559px;top:151.92188081287196px;width:119.99999999999994px;height:39.999970935639865px;">JS?</div>
+<div class="shape rectangle" style="left:109.3593633742559px;top:235.74996221633177px;width:119.99999999999994px;height:39.99999999999998px;">PHP/Python</div>
+<div class="shape pill" style="left:228.60935756138383px;top:313.0155872163317px;width:120.00002906436006px;height:39.99999999999998px;">xSQL</div>
+<div class="shape rectangle" style="left:350.21873837425585px;top:68.21874709356396px;width:119.99999999999994px;height:39.99999999999998px;">CSS</div>
+<div class="shape rectangle" style="left:351.0312616257439px;top:107.42187499999997px;width:119.9999418712797px;height:39.99999999999998px;">HTML</div>
+<div class="shape rectangle" style="left:351.43746512276766px;top:147.0156133742559px;width:119.99999999999994px;height:39.99999999999998px;">JS?</div>
+<div class="shape rectangle" style="left:352.2343517485117px;top:232.2187587193079px;width:119.99999999999994px;height:39.99999999999998px;">PHP/Python</div>
+<div class="shape text" style="left:480.21873837425574px;top:131.82811918712792px;width:34.42185174851189px;height:19.99999999999999px;">CRUD</div>
+<div class="shape text" style="left:489.82811337425574px;top:147.81249999999994px;width:47.14059012276783px;height:19.99999999999999px;">CREATE</div>
+<div class="shape text" style="left:490.21873837425574px;top:167.4062383742559px;width:33.046874999999986px;height:19.99999999999999px;">READ</div>
+<div class="shape text" style="left:491.0156249999998px;top:184.21874999999994px;width:48.73436337425593px;height:19.99999999999999px;">UPDATE</div>
+<div class="shape text" style="left:491.43746512276766px;top:201.81248256138383px;width:45.968773251488074px;height:19.99999999999999px;">DELETE</div>
+<div class="shape text" style="left:60.328107561383916px;top:102.31249128069192px;width:33.046904064360106px;height:20.00001453218005px;">READ</div>
+<div class="shape text" style="left:40px;top:126.49998256138389px;width:51.24999999999998px;height:19.99999999999999px;">(INSERT)</div>
+<div class="arrow" style="left:169.45256005148923px;top:235.7499622163317px;width:43.82858630816327px;transform:rotate(-1.566136526660747rad);"></div>
+<div class="arrow" style="left:257.7418268638947px;top:313.0155872163317px;width:68.53242027749792px;transform:rotate(-2.5666741900098735rad);"></div>
+<div class="arrow arrow-double" style="left:411.62452080539924px;top:187.0156133742559px;width:45.205122364691945px;transform:rotate(1.5614438153592605rad);"></div>
+<div class="arrow arrow-double" style="left:381.6329081140003px;top:272.2187587193079px;width:74.57143443204332px;transform:rotate(2.5627161073308415rad);"></div>
+</div>
+</body>
+</html>
+```
+
+### diagrama
+<small>Creado: 2026-01-08 14:30</small>
+
+`004-diagrama.json`
+
+```json
+{
+  "formas": [
+    {
+      "id": "forma-1",
+      "tipo": "rectangle",
+      "left": "285.769px",
+      "top": "241.917px",
+      "width": "",
+      "height": "",
+      "texto": "HTML"
+    },
+    {
+      "id": "forma-2",
+      "tipo": "text",
+      "left": "253.678px",
+      "top": "168.707px",
+      "width": "",
+      "height": "",
+      "texto": "Front"
+    },
+    {
+      "id": "forma-3",
+      "tipo": "text",
+      "left": "559.067px",
+      "top": "171.769px",
+      "width": "",
+      "height": "",
+      "texto": "Admin"
+    },
+    {
+      "id": "forma-4",
+      "tipo": "rectangle",
+      "left": "285.611px",
+      "top": "203.325px",
+      "width": "",
+      "height": "",
+      "texto": "CSS"
+    },
+    {
+      "id": "forma-5",
+      "tipo": "rectangle",
+      "left": "285.608px",
+      "top": "280.635px",
+      "width": "",
+      "height": "",
+      "texto": "JS?"
+    },
+    {
+      "id": "forma-6",
+      "tipo": "rectangle",
+      "left": "285.212px",
+      "top": "364.464px",
+      "width": "",
+      "height": "",
+      "texto": "PHP/Python"
+    },
+    {
+      "id": "forma-7",
+      "tipo": "pill",
+      "left": "404.462px",
+      "top": "441.725px",
+      "width": "",
+      "height": "",
+      "texto": "xSQL"
+    },
+    {
+      "id": "forma-8",
+      "tipo": "rectangle",
+      "left": "526.075px",
+      "top": "196.928px",
+      "width": "",
+      "height": "",
+      "texto": "CSS"
+    },
+    {
+      "id": "forma-9",
+      "tipo": "rectangle",
+      "left": "526.875px",
+      "top": "236.134px",
+      "width": "",
+      "height": "",
+      "texto": "HTML"
+    },
+    {
+      "id": "forma-10",
+      "tipo": "rectangle",
+      "left": "527.284px",
+      "top": "275.734px",
+      "width": "",
+      "height": "",
+      "texto": "JS?"
+    },
+    {
+      "id": "forma-11",
+      "tipo": "rectangle",
+      "left": "528.081px",
+      "top": "360.922px",
+      "width": "",
+      "height": "",
+      "texto": "PHP/Python"
+    },
+    {
+      "id": "forma-12",
+      "tipo": "text",
+      "left": "656.072px",
+      "top": "260.534px",
+      "width": "",
+      "height": "",
+      "texto": "CRUD"
+    },
+    {
+      "id": "forma-13",
+      "tipo": "text",
+      "left": "665.678px",
+      "top": "276.519px",
+      "width": "",
+      "height": "",
+      "texto": "CREATE"
+    },
+    {
+      "id": "forma-14",
+      "tipo": "text",
+      "left": "666.069px",
+      "top": "296.119px",
+      "width": "",
+      "height": "",
+      "texto": "READ"
+    },
+    {
+      "id": "forma-15",
+      "tipo": "text",
+      "left": "666.862px",
+      "top": "312.922px",
+      "width": "",
+      "height": "",
+      "texto": "UPDATE"
+    },
+    {
+      "id": "forma-16",
+      "tipo": "text",
+      "left": "667.287px",
+      "top": "330.528px",
+      "width": "",
+      "height": "",
+      "texto": "DELETE"
+    },
+    {
+      "id": "forma-17",
+      "tipo": "text",
+      "left": "236.183px",
+      "top": "231.027px",
+      "width": "",
+      "height": "",
+      "texto": "READ"
+    },
+    {
+      "id": "forma-18",
+      "tipo": "text",
+      "left": "215.847px",
+      "top": "255.217px",
+      "width": "",
+      "height": "",
+      "texto": "(INSERT)"
+    }
+  ],
+  "flechas": [
+    {
+      "desde": {
+        "shapeId": "forma-6",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-5",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-7",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-6",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-10",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-11",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "doble",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-11",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-7",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "doble",
+      "estilo": "straight"
+    }
+  ]
+}
+```
+
+### diagrama
+<small>Creado: 2026-01-08 14:30</small>
+
+`004-diagrama.svg`
+
+```
+<svg xmlns="http://www.w3.org/2000/svg" width="579.7499883742557" height="393.0155872163317" viewBox="0 0 579.7499883742557 393.0155872163317">
+
+  <defs>
+    <style>
+      text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 12px; fill: #111827; }
+      .shape-rect { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-entity { fill: #ffffff; stroke: #111827; stroke-width: 2; }
+      .shape-circle { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-pill { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-db { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .conn { stroke: #111827; stroke-width: 2; fill: none; }
+    </style>
+    <marker id="arrow-end" markerWidth="10" markerHeight="7" refX="10" refY="3.5"
+            orient="auto" markerUnits="strokeWidth">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#111827"/>
+    </marker>
+    <marker id="arrow-start" markerWidth="10" markerHeight="7" refX="0" refY="3.5"
+            orient="auto" markerUnits="strokeWidth">
+      <polygon points="10 0, 0 3.5, 10 7" fill="#111827"/>
+    </marker>
+  </defs>
+        
+<rect class="shape-rect" x="109.92187499999994" y="113.20312499999994" width="119.99999999999994" height="39.99999999999998" rx="4" ry="4" />
+<text x="169.92187499999991" y="137.20312499999994" text-anchor="middle">HTML</text>
+<text x="77.82813662574401" y="54">Front</text>
+<text x="383.2187616257439" y="57.06249709356396">Admin</text>
+<rect class="shape-rect" x="109.76562499999994" y="74.60937499999997" width="119.99999999999994" height="39.99999999999998" rx="4" ry="4" />
+<text x="169.76562499999991" y="98.60937499999996" text-anchor="middle">CSS</text>
+<rect class="shape-rect" x="109.7499883742559" y="151.92188081287196" width="119.99999999999994" height="39.999970935639865" rx="4" ry="4" />
+<text x="169.74998837425588" y="175.9218662806919" text-anchor="middle">JS?</text>
+<rect class="shape-rect" x="109.3593633742559" y="235.74996221633177" width="119.99999999999994" height="39.99999999999998" rx="4" ry="4" />
+<text x="169.35936337425588" y="259.74996221633177" text-anchor="middle">PHP/Python</text>
+<rect class="shape-rect" x="228.60935756138383" y="313.0155872163317" width="120.00002906436006" height="39.99999999999998" rx="19.99999999999999" ry="19.99999999999999" />
+<text x="288.6093720935639" y="337.0155872163317" text-anchor="middle">xSQL</text>
+<rect class="shape-rect" x="350.21873837425585" y="68.21874709356396" width="119.99999999999994" height="39.99999999999998" rx="4" ry="4" />
+<text x="410.21873837425585" y="92.21874709356395" text-anchor="middle">CSS</text>
+<rect class="shape-rect" x="351.0312616257439" y="107.42187499999997" width="119.9999418712797" height="39.99999999999998" rx="4" ry="4" />
+<text x="411.0312325613838" y="131.42187499999994" text-anchor="middle">HTML</text>
+<rect class="shape-rect" x="351.43746512276766" y="147.0156133742559" width="119.99999999999994" height="39.99999999999998" rx="4" ry="4" />
+<text x="411.43746512276766" y="171.0156133742559" text-anchor="middle">JS?</text>
+<rect class="shape-rect" x="352.2343517485117" y="232.2187587193079" width="119.99999999999994" height="39.99999999999998" rx="4" ry="4" />
+<text x="412.2343517485117" y="256.2187587193079" text-anchor="middle">PHP/Python</text>
+<text x="480.21873837425574" y="145.82811918712792">CRUD</text>
+<text x="489.82811337425574" y="161.81249999999994">CREATE</text>
+<text x="490.21873837425574" y="181.4062383742559">READ</text>
+<text x="491.0156249999998" y="198.21874999999994">UPDATE</text>
+<text x="491.43746512276766" y="215.81248256138383">DELETE</text>
+<text x="60.328107561383916" y="116.31249128069192">READ</text>
+<text x="40" y="140.4999825613839">(INSERT)</text>
+<path class="conn" d="M 169.45256005148923 235.7499622163317 L 169.6567917647401 191.92185174851187" marker-end="url(#arrow-end)" />
+<path class="conn" d="M 257.7418268638947 313.0155872163317 L 200.2269086039251 275.7499622163317" marker-end="url(#arrow-end)" />
+<path class="conn" d="M 411.62452080539924 187.0156133742559 L 412.0472960658801 232.2187587193079" marker-start="url(#arrow-start)" marker-end="url(#arrow-end)" />
+<path class="conn" d="M 381.6329081140003 272.2187587193079 L 319.21081572807526 313.0155872163317" marker-start="url(#arrow-start)" marker-end="url(#arrow-end)" />
+</svg>
+```
+
+### diagrama
+<small>Creado: 2026-01-08 14:48</small>
+
+`006-diagrama.html`
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Diagrama exportado</title>
+<style>
+body {
+  margin: 0;
+  padding: 20px;
+  background: #f3f3f7;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+.page {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  width: 559.5937347412107px;
+  height: 348.7343851725259px;
+  overflow: visible;
+}
+
+/* formas básicas */
+.shape {
+  position: absolute;
+  min-width: 120px;
+  min-height: 40px;
+  padding: 6px 10px;
+  background: #ffffff;
+  border-radius: 4px;
+  border: 1px solid #9ca3af;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+}
+
+.shape.rectangle {
+  border-radius: 4px;
+}
+
+.shape.pill {
+  border-radius: 999px;
+}
+
+.shape.circle {
+  border-radius: 999px;
+  width: 80px;
+  height: 80px;
+  padding: 0;
+  justify-content: center;
+}
+
+/* texto libre */
+.shape.text {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  min-width: 20px;
+  min-height: 20px;
+}
+
+/* base de datos */
+.shape.db {
+  min-width: 120px;
+  min-height: 60px;
+  padding-top: 20px;
+  border-radius: 60px / 16px;
+  background: linear-gradient(180deg, #e5e7eb 0%, #ffffff 40%, #e5e7eb 100%);
+  position: absolute;
+  overflow: hidden;
+  text-align: center;
+}
+.shape.db::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 8px;
+  right: 8px;
+  height: 18px;
+  border-radius: 999px;
+  border: 1px solid #9ca3af;
+  background: radial-gradient(circle at 50% 30%, #ffffff 0%, #e5e7eb 70%);
+}
+.shape.db::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 8px;
+  right: 8px;
+  height: 18px;
+  border-radius: 999px;
+  border: 1px solid rgba(156, 163, 175, 0.6);
+  border-top: none;
+  background: radial-gradient(circle at 50% 70%, #e5e7eb 0%, #d1d5db 70%);
+}
+
+/* entidades ER */
+.shape.entity {
+  width: 220px;
+  min-height: 80px;
+  background: #ffffff;
+  border: 2px solid #111827;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.15);
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  overflow: hidden;
+  padding: 0;
+}
+.entity-header {
+  background: #f3f4f6;
+  padding: 4px 8px;
+  font-weight: 600;
+  text-align: center;
+  border-bottom: 1px solid #e5e7eb;
+}
+.entity-properties {
+  flex: 1;
+  padding: 4px 4px 0 4px;
+}
+.entity-property {
+  display: grid;
+  grid-template-columns: 14px 1fr 14px;
+  align-items: center;
+  column-gap: 4px;
+  padding: 2px 0;
+}
+.entity-property .property-name {
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+/* puertos */
+.port {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: 1px solid #111827;
+  background: #ffffff;
+}
+.port-left { justify-self: start; }
+.port-right { justify-self: end; }
+
+/* flechas rectas */
+.arrow {
+  position: absolute;
+  height: 2px;
+  background: #111827;
+  transform-origin: 0 50%;
+}
+.arrow::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid #111827;
+}
+.arrow-double::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%) rotate(180deg);
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid #111827;
+}
+
+/* flechas ortogonales */
+.ortho-arrow {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.ortho-arrow .ortho-seg {
+  position: absolute;
+  background: #111827;
+}
+.ortho-seg.seg-horizontal { height: 2px; }
+.ortho-seg.seg-vertical { width: 2px; }
+.ortho-arrowhead {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+.ortho-arrowhead.dir-right {
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid #111827;
+}
+.ortho-arrowhead.dir-left {
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 8px solid #111827;
+}
+.ortho-arrowhead.dir-down {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 8px solid #111827;
+}
+.ortho-arrowhead.dir-up {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 8px solid #111827;
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+<div class="shape rectangle" style="left:208.85938008626295px;top:79.46873982747397px;width:119.99999999999994px;height:39.99999999999998px;">HTML</div>
+<div class="shape rectangle" style="left:208.34373474121082px;top:40px;width:120.00005086263015px;height:39.99999999999998px;">CSS</div>
+<div class="shape rectangle" style="left:208.76564025878895px;top:118.73435974121091px;width:119.99999999999994px;height:39.99999999999998px;">JS</div>
+<div class="shape rectangle" style="left:277.50002543131495px;top:193.31250508626297px;width:119.99999999999994px;height:39.99999999999998px;">AI</div>
+<div class="shape rectangle" style="left:159.17188008626295px;top:193.3281199137369px;width:119.99999999999994px;height:39.99999999999998px;">Controlador</div>
+<div class="shape rectangle" style="left:40px;top:267.8906249999999px;width:120.00002543131504px;height:39.99999999999998px;">SQL</div>
+<div class="shape rectangle" style="left:160.000025431315px;top:268.7187703450519px;width:119.99999999999994px;height:39.99999999999998px;">MongoDB</div>
+<div class="shape rectangle" style="left:279.60940043131495px;top:268.3281453450519px;width:119.99999999999994px;height:39.99999999999998px;">ModelosIA</div>
+<div class="shape rectangle" style="left:399.59378560384096px;top:268.7343851725259px;width:119.99994913736973px;height:39.99999999999998px;">RAG (Chroma)</div>
+<div class="arrow" style="left:232.46890655545337px;top:193.3281199137369px;width:41.541723311998446px;transform:rotate(-0.9840515525241728rad);"></div>
+<div class="arrow" style="left:319.0671762757047px;top:193.31250508626292px;width:47.02405063121942px;transform:rotate(-2.3154407294912014rad);"></div>
+<div class="arrow" style="left:131.96564134702737px;top:267.8906249999999px;width:65.16204234772869px;transform:rotate(-0.5590824324023724rad);"></div>
+<div class="arrow" style="left:219.7803309890163px;top:268.7187703450519px;width:35.39278555775287px;transform:rotate(-1.5817806071212048rad);"></div>
+<div class="arrow" style="left:339.0470177087992px;top:268.3281453450519px;width:35.0294807085212px;transform:rotate(-1.5989080553005925rad);"></div>
+<div class="arrow" style="left:427.217549290069px;top:268.7343851725259px;width:67.39982019776659px;transform:rotate(-2.588232854801958rad);"></div>
+</div>
+</body>
+</html>
+```
+
+### diagrama
+<small>Creado: 2026-01-08 14:48</small>
+
+`006-diagrama.json`
+
+```json
+{
+  "formas": [
+    {
+      "id": "forma-1",
+      "tipo": "rectangle",
+      "left": "547.156px",
+      "top": "271.078px",
+      "width": "",
+      "height": "",
+      "texto": "HTML"
+    },
+    {
+      "id": "forma-2",
+      "tipo": "rectangle",
+      "left": "546.646px",
+      "top": "231.609px",
+      "width": "",
+      "height": "",
+      "texto": "CSS"
+    },
+    {
+      "id": "forma-3",
+      "tipo": "rectangle",
+      "left": "547.063px",
+      "top": "310.344px",
+      "width": "",
+      "height": "",
+      "texto": "JS"
+    },
+    {
+      "id": "forma-4",
+      "tipo": "rectangle",
+      "left": "615.802px",
+      "top": "384.922px",
+      "width": "",
+      "height": "",
+      "texto": "AI"
+    },
+    {
+      "id": "forma-5",
+      "tipo": "rectangle",
+      "left": "497.479px",
+      "top": "384.938px",
+      "width": "",
+      "height": "",
+      "texto": "Controlador"
+    },
+    {
+      "id": "forma-6",
+      "tipo": "rectangle",
+      "left": "378.307px",
+      "top": "459.505px",
+      "width": "",
+      "height": "",
+      "texto": "SQL"
+    },
+    {
+      "id": "forma-7",
+      "tipo": "rectangle",
+      "left": "498.307px",
+      "top": "460.339px",
+      "width": "",
+      "height": "",
+      "texto": "MongoDB"
+    },
+    {
+      "id": "forma-8",
+      "tipo": "rectangle",
+      "left": "617.906px",
+      "top": "459.943px",
+      "width": "",
+      "height": "",
+      "texto": "ModelosIA"
+    },
+    {
+      "id": "forma-9",
+      "tipo": "rectangle",
+      "left": "737.896px",
+      "top": "460.354px",
+      "width": "",
+      "height": "",
+      "texto": "RAG (Chroma)"
+    }
+  ],
+  "flechas": [
+    {
+      "desde": {
+        "shapeId": "forma-5",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-3",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-4",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-3",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-6",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-5",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-7",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-5",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-8",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-4",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {
+        "shapeId": "forma-9",
+        "propId": null,
+        "side": null
+      },
+      "hasta": {
+        "shapeId": "forma-4",
+        "propId": null,
+        "side": null
+      },
+      "tipo": "simple",
+      "estilo": "straight"
+    }
+  ]
+}
+```
+
+### diagrama.json
+<small>Creado: 2026-01-08 14:48</small>
+
+`006-diagrama.json.svg`
+
+```
+<svg xmlns="http://www.w3.org/2000/svg" width="559.5937347412107" height="348.7343851725259" viewBox="0 0 559.5937347412107 348.7343851725259">
+
+  <defs>
+    <style>
+      text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 12px; fill: #111827; }
+      .shape-rect { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-entity { fill: #ffffff; stroke: #111827; stroke-width: 2; }
+      .shape-circle { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-pill { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .shape-db { fill: #ffffff; stroke: #9ca3af; stroke-width: 1; }
+      .conn { stroke: #111827; stroke-width: 2; fill: none; }
+    </style>
+    <marker id="arrow-end" markerWidth="10" markerHeight="7" refX="10" refY="3.5"
+            orient="auto" markerUnits="strokeWidth">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#111827"/>
+    </marker>
+    <marker id="arrow-start" markerWidth="10" markerHeight="7" refX="0" refY="3.5"
+            orient="auto" markerUnits="strokeWidth">
+      <polygon points="10 0, 0 3.5, 10 7" fill="#111827"/>
+    </marker>
+  </defs>
+        
+<rect class="shape-rect" x="208.85938008626295" y="79.46873982747397" width="119.99999999999994" height="39.99999999999998" rx="4" ry="4" />
+<text x="268.85938008626295" y="103.46873982747395" text-anchor="middle">HTML</text>
+<rect class="shape-rect" x="208.34373474121082" y="40" width="120.00005086263015" height="39.99999999999998" rx="4" ry="4" />
+<text x="268.3437601725259" y="63.999999999999986" text-anchor="middle">CSS</text>
+<rect class="shape-rect" x="208.76564025878895" y="118.73435974121091" width="119.99999999999994" height="39.99999999999998" rx="4" ry="4" />
+<text x="268.76564025878895" y="142.7343597412109" text-anchor="middle">JS</text>
+<rect class="shape-rect" x="277.50002543131495" y="193.31250508626297" width="119.99999999999994" height="39.99999999999998" rx="4" ry="4" />
+<text x="337.50002543131495" y="217.31250508626297" text-anchor="middle">AI</text>
+<rect class="shape-rect" x="159.17188008626295" y="193.3281199137369" width="119.99999999999994" height="39.99999999999998" rx="4" ry="4" />
+<text x="219.17188008626292" y="217.3281199137369" text-anchor="middle">Controlador</text>
+<rect class="shape-rect" x="40" y="267.8906249999999" width="120.00002543131504" height="39.99999999999998" rx="4" ry="4" />
+<text x="100.00001271565752" y="291.8906249999999" text-anchor="middle">SQL</text>
+<rect class="shape-rect" x="160.000025431315" y="268.7187703450519" width="119.99999999999994" height="39.99999999999998" rx="4" ry="4" />
+<text x="220.00002543131498" y="292.7187703450519" text-anchor="middle">MongoDB</text>
+<rect class="shape-rect" x="279.60940043131495" y="268.3281453450519" width="119.99999999999994" height="39.99999999999998" rx="4" ry="4" />
+<text x="339.60940043131495" y="292.3281453450519" text-anchor="middle">ModelosIA</text>
+<rect class="shape-rect" x="399.59378560384096" y="268.7343851725259" width="119.99994913736973" height="39.99999999999998" rx="4" ry="4" />
+<text x="459.59376017252583" y="292.7343851725259" text-anchor="middle">RAG (Chroma)</text>
+<path class="conn" d="M 232.46890655545337 193.3281199137369 L 255.46861378959852 158.7343597412109" marker-end="url(#arrow-end)" />
+<path class="conn" d="M 319.0671762757047 193.31250508626292 L 287.1984894143992 158.7343597412109" marker-end="url(#arrow-end)" />
+<path class="conn" d="M 131.96564134702737 267.8906249999999 L 187.20625145489305 233.3281199137369" marker-end="url(#arrow-end)" />
+<path class="conn" d="M 219.7803309890163 268.7187703450519 L 219.3915745285616 233.3281199137369" marker-end="url(#arrow-end)" />
+<path class="conn" d="M 339.0470177087992 268.3281453450519 L 338.0624081538307 233.31250508626292" marker-end="url(#arrow-end)" />
+<path class="conn" d="M 427.217549290069 268.7343851725259 L 369.87623631377176 233.31250508626292" marker-end="url(#arrow-end)" />
+</svg>
+```
+
 
 <a id="instalacion"></a>
 ## Instalación
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/007-Sistemas%20de%20gesti%C3%B3n%20empresarial/002-Instalaci%C3%B3n)
+
+### web estatica
+<small>Creado: 2026-01-12 13:19</small>
+
+`002-web estatica.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+  </head>
+  <body>
+    <header>
+      <div id="corporativo">
+        <img src="logo.png">
+        <div class="texto">
+          {{titulo1}}
+          {{titulo2}}
+        </div>
+      </div>
+      <nav>
+        <a href="">{{enlace 1}}</a>
+        <a href="">{{enlace 2}}</a>
+        <a href="">{{enlace 3}}</a>
+        <a href="">{{enlace 4}}</a>
+        <a href="">{{enlace 5}}</a>
+      </nav>
+    </header>
+    <main>
+      <section id="heroe">
+        <h3>{{heroetitulo}}</h3>
+        <p>{{heroetexto}}</p>
+        <a href="">{{heroeaccion}}</a>
+      </section>
+      <section id="destacado1">
+        <img src="">
+        <div class="bloque">
+          <h4>{{destacado1titulo}}</h4>
+          <p>{{destacado1texto}}</p>
+        </div>
+      </section>
+      <section id="destacado2">
+        <img src="">
+        <div class="bloque">
+          <h4>{{destacado2titulo}}</h4>
+          <p>{{destacado2texto}}</p>
+          <a href="">{{destacado2accion}}</a>
+        </div>
+      </section>
+      <section id="destacado3">
+        <div class="bloque">
+        <img src="">       
+          <h4>{{destacado3titulo}}</h4>  
+        </div>
+        <p>{{destacado3texto}}</p>
+      </section>
+      <section id="destacado4">
+        <img src="">
+        <div class="bloque">
+          <h4>{{destacado4titulo}}</h4>
+          <p>{{destacado4texto}}</p>
+          <a href="">{{destacado4accion}}</a>
+        </div>
+      </section>
+      <section id="destacado5">
+        <h4>{{destacado5titulo1}}</h4>
+        <p>{{destacado5texto1}}</p>
+        <h5>{{destacado5titulo2}}</h5>
+        <p>{{destacado5texto2}}</p>
+      </section>
+      <section id="destacado6">
+        <h3>{{destacado6titulo1}}</h3>
+        <p>{{destacado6texto1}}</p>
+        <a href="">{{destacado6accion}}</a>
+      </section>
+      <section id="destacado7">
+        <h5>{{destacado7titulo1}}</h5>
+        <p>{{destacado7texto1}}</p>
+        <p>{{destacado7texto2}}</p>
+        <p>{{destacado7texto3}}</p>
+      </section>
+      <section id="destacado8">
+        <img src="">
+        <div class="bloque">
+          <h4>{{destacado8titulo}}</h4>
+          <p>{{destacado8texto}}</p>
+          <a href="">{{destacado8accion}}</a>
+        </div>
+      </section>
+      <section id="destacado8">
+        <img src="">
+        <div class="bloque">
+          <h4>{{destacado9titulo}}</h4>
+          <p>{{destacado9texto}}</p>
+          <a href="">{{destacado9accion}}</a>
+        </div>
+      </section>
+       <section id="contacto">
+        <div id="infocorporacion">
+        </div>
+        <form>
+          <h5>Contacto</h5>
+          <p>Frase que invita a contactar</p>
+          <input type="text" name="nombre">
+        </form
+        <input type="email" name="email">
+        <textarea></textarea>
+        <input type="submit">
+      </section>
+    </main>
+    <footer>
+      (c)
+    </footer>
+  </body>
+</html>
+```
+
+### con estilo
+<small>Creado: 2026-01-12 13:31</small>
+
+`003-con estilo.html`
+
+```html
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>{{titulo1}} {{titulo2}}</title>
+
+  <style>
+    
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <div class="topbar">
+        <div id="corporativo" aria-label="Marca">
+          <img src="logo.png" alt="Logo">
+          <div class="texto">
+            <span class="t1">{{titulo1}}</span>
+            <span class="t2">{{titulo2}}</span>
+          </div>
+        </div>
+
+        <nav aria-label="Navegación principal">
+          <a href="#heroe">{{enlace 1}}</a>
+          <a href="#destacado2">{{enlace 2}}</a>
+          <a href="#destacado4">{{enlace 3}}</a>
+          <a href="#destacado7">{{enlace 4}}</a>
+          <a href="#contacto" class="nav-cta">{{enlace 5}}</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="heroe" aria-label="Héroe">
+      <div class="container hero-inner">
+        <h3>{{heroetitulo}}</h3>
+        <p>{{heroetexto}}</p>
+        <a class="btn btn-primary" href="#destacado2">{{heroeaccion}}</a>
+      </div>
+    </section>
+
+    <!-- DESTACADO 1 (tarjeta con foto circular a la izquierda) -->
+    <section id="destacado1" class="soft" aria-label="Destacado 1">
+      <div class="container">
+        <div class="pill-card">
+          <div class="left">
+            <!-- Sustituye la imagen por un retrato o foto corporativa -->
+            <img src="destacado1.jpg" alt="">
+          </div>
+          <div class="right">
+            <h4>{{destacado1titulo}}</h4>
+            <p>{{destacado1texto}}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DESTACADO 2 (texto izquierda + imagen derecha con botón) -->
+    <section id="destacado2" aria-label="Destacado 2">
+      <div class="container section-grid">
+        <div class="content">
+          <span class="kicker">Technology × Performance</span>
+          <h4>{{destacado2titulo}}</h4>
+          <p>{{destacado2texto}}</p>
+          <a class="btn btn-primary" href="#destacado4">{{destacado2accion}}</a>
+        </div>
+        <div class="media">
+          <img src="destacado2.jpg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <!-- DESTACADO 3 (icono + título y texto debajo) -->
+    <section id="destacado3" class="soft" aria-label="Destacado 3">
+      <div class="container">
+        <div class="iconline">
+          <div class="iconbox">
+            <img src="destacado3_icono.png" alt="">
+          </div>
+          <h4>{{destacado3titulo}}</h4>
+        </div>
+        <p>{{destacado3texto}}</p>
+      </div>
+    </section>
+
+    <!-- DESTACADO 4 (texto derecha + imagen izquierda, con botón) -->
+    <section id="destacado4" aria-label="Destacado 4">
+      <div class="container section-grid reverse">
+        <div class="media">
+          <img src="destacado4.jpg" alt="">
+        </div>
+        <div class="content">
+          <h4>{{destacado4titulo}}</h4>
+          <p>{{destacado4texto}}</p>
+          <a class="btn btn-primary" href="#destacado6">{{destacado4accion}}</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- DESTACADO 5 (dos columnas de texto, tipo “Immersive strategies”) -->
+    <section id="destacado5" class="soft" aria-label="Destacado 5">
+      <div class="container section-grid">
+        <div class="content">
+          <h4>{{destacado5titulo1}}</h4>
+          <p>{{destacado5texto1}}</p>
+        </div>
+        <div class="content">
+          <h5 style="font-size:20px;font-weight:900;margin-top:4px;">{{destacado5titulo2}}</h5>
+          <p>{{destacado5texto2}}</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- DESTACADO 6 (CTA con foto de fondo “No more death by PowerPoint…”) -->
+    <section id="destacado6" class="cta-photo" aria-label="Destacado 6">
+      <div class="container">
+        <div class="cta-inner">
+          <h3>{{destacado6titulo1}}</h3>
+          <p>{{destacado6texto1}}</p>
+          <a class="btn btn-primary" href="#contacto">{{destacado6accion}}</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- DESTACADO 7 (Why us + callout naranja) -->
+    <section id="destacado7" class="soft" aria-label="Destacado 7">
+      <div class="container why">
+        <div class="why-card">
+          <h5 style="font-size:26px;font-weight:900;">{{destacado7titulo1}}</h5>
+          <p>{{destacado7texto1}}</p>
+          <p>{{destacado7texto2}}</p>
+        </div>
+        <div class="callout">
+          <p><strong>{{destacado7texto3}}</strong></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- DESTACADO 8 (banda verde + foto a la derecha) -->
+    <section id="destacado8" aria-label="Destacado 8">
+      <div class="container">
+        <div class="band">
+          <div class="band-left">
+            <h4>{{destacado8titulo}}</h4>
+            <p>{{destacado8texto}}</p>
+            <a class="btn btn-primary" href="#contacto">{{destacado8accion}}</a>
+          </div>
+          <div class="band-right">
+            <img src="destacado8.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DESTACADO 9 (texto derecha + imagen izquierda, similar a bloque final del ejemplo) -->
+    <section id="destacado9" class="soft" aria-label="Destacado 9">
+      <div class="container section-grid reverse">
+        <div class="media">
+          <img src="destacado9.jpg" alt="">
+        </div>
+        <div class="content">
+          <h4>{{destacado9titulo}}</h4>
+          <p>{{destacado9texto}}</p>
+          <a class="btn btn-primary" href="#contacto">{{destacado9accion}}</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" aria-label="Contacto">
+      <div class="container contact-grid">
+
+        <div class="footer-mini" id="infocorporacion">
+          <h4 style="font-size:22px;font-weight:900;margin-bottom:10px;">Contact Us</h4>
+          <p>El viaje hacia mejores resultados y cultura empieza con una conversación.</p>
+
+          <div style="margin-top:14px;">
+            <p><strong>Dirección:</strong> {{direccion}}</p>
+            <p><strong>Teléfono:</strong> {{telefono}}</p>
+            <p><strong>Email:</strong> {{email}}</p>
+          </div>
+
+          <div class="social" style="margin-top:14px;">
+            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="#" aria-label="X">x</a>
+            <a href="#" aria-label="YouTube">▶</a>
+          </div>
+        </div>
+
+        <form action="" method="post">
+          <h5 style="font-size:20px;font-weight:900;margin-bottom:6px;">Contacto</h5>
+          <p>Frase que invita a contactar</p>
+
+          <div class="form-row">
+            <div>
+              <label for="nombre">Nombre</label>
+              <input id="nombre" type="text" name="nombre" placeholder="Tu nombre" required>
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input id="email" type="email" name="email" placeholder="tu@email.com" required>
+            </div>
+          </div>
+
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" placeholder="¿En qué puedo ayudarte?" required></textarea>
+
+          <div style="margin-top:14px;">
+            <button class="btn btn-primary" type="submit">Enviar mensaje</button>
+          </div>
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container footer-wrap">
+      <div>(c) {{anio}} {{titulo1}} {{titulo2}} — Todos los derechos reservados</div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;">
+        <a href="#" style="opacity:.85;">Privacy Policy</a>
+        <a href="#" style="opacity:.85;">Terms of Use</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
+```
+
+### soloplantilla
+<small>Creado: 2026-01-12 13:38</small>
+
+`004-soloplantilla.html`
+
+```html
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>{{titulo1}} {{titulo2}}</title>
+  <link rel="stylesheet" href="estilochatgpt.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="topbar">
+        <div id="corporativo" aria-label="Marca">
+          <img src="logo.png" alt="Logo">
+          <div class="texto">
+            <span class="t1">{{titulo1}}</span>
+            <span class="t2">{{titulo2}}</span>
+          </div>
+        </div>
+
+        <nav aria-label="Navegación principal">
+          <a href="#heroe">{{enlace 1}}</a>
+          <a href="#destacado2">{{enlace 2}}</a>
+          <a href="#destacado4">{{enlace 3}}</a>
+          <a href="#destacado7">{{enlace 4}}</a>
+          <a href="#contacto" class="nav-cta">{{enlace 5}}</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="heroe" aria-label="Héroe">
+      <div class="container hero-inner">
+        <h3>{{heroetitulo}}</h3>
+        <p>{{heroetexto}}</p>
+        <a class="btn btn-primary" href="#destacado2">{{heroeaccion}}</a>
+      </div>
+    </section>
+
+    <!-- DESTACADO 1 (tarjeta con foto circular a la izquierda) -->
+    <section id="destacado1" class="soft" aria-label="Destacado 1">
+      <div class="container">
+        <div class="pill-card">
+          <div class="left">
+            <!-- Sustituye la imagen por un retrato o foto corporativa -->
+            <img src="destacado1.jpg" alt="">
+          </div>
+          <div class="right">
+            <h4>{{destacado1titulo}}</h4>
+            <p>{{destacado1texto}}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DESTACADO 2 (texto izquierda + imagen derecha con botón) -->
+    <section id="destacado2" aria-label="Destacado 2">
+      <div class="container section-grid">
+        <div class="content">
+          <span class="kicker">Technology × Performance</span>
+          <h4>{{destacado2titulo}}</h4>
+          <p>{{destacado2texto}}</p>
+          <a class="btn btn-primary" href="#destacado4">{{destacado2accion}}</a>
+        </div>
+        <div class="media">
+          <img src="destacado2.jpg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <!-- DESTACADO 3 (icono + título y texto debajo) -->
+    <section id="destacado3" class="soft" aria-label="Destacado 3">
+      <div class="container">
+        <div class="iconline">
+          <div class="iconbox">
+            <img src="destacado3_icono.png" alt="">
+          </div>
+          <h4>{{destacado3titulo}}</h4>
+        </div>
+        <p>{{destacado3texto}}</p>
+      </div>
+    </section>
+
+    <!-- DESTACADO 4 (texto derecha + imagen izquierda, con botón) -->
+    <section id="destacado4" aria-label="Destacado 4">
+      <div class="container section-grid reverse">
+        <div class="media">
+          <img src="destacado4.jpg" alt="">
+        </div>
+        <div class="content">
+          <h4>{{destacado4titulo}}</h4>
+          <p>{{destacado4texto}}</p>
+          <a class="btn btn-primary" href="#destacado6">{{destacado4accion}}</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- DESTACADO 5 (dos columnas de texto, tipo “Immersive strategies”) -->
+    <section id="destacado5" class="soft" aria-label="Destacado 5">
+      <div class="container section-grid">
+        <div class="content">
+          <h4>{{destacado5titulo1}}</h4>
+          <p>{{destacado5texto1}}</p>
+        </div>
+        <div class="content">
+          <h5 style="font-size:20px;font-weight:900;margin-top:4px;">{{destacado5titulo2}}</h5>
+          <p>{{destacado5texto2}}</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- DESTACADO 6 (CTA con foto de fondo “No more death by PowerPoint…”) -->
+    <section id="destacado6" class="cta-photo" aria-label="Destacado 6">
+      <div class="container">
+        <div class="cta-inner">
+          <h3>{{destacado6titulo1}}</h3>
+          <p>{{destacado6texto1}}</p>
+          <a class="btn btn-primary" href="#contacto">{{destacado6accion}}</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- DESTACADO 7 (Why us + callout naranja) -->
+    <section id="destacado7" class="soft" aria-label="Destacado 7">
+      <div class="container why">
+        <div class="why-card">
+          <h5 style="font-size:26px;font-weight:900;">{{destacado7titulo1}}</h5>
+          <p>{{destacado7texto1}}</p>
+          <p>{{destacado7texto2}}</p>
+        </div>
+        <div class="callout">
+          <p><strong>{{destacado7texto3}}</strong></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- DESTACADO 8 (banda verde + foto a la derecha) -->
+    <section id="destacado8" aria-label="Destacado 8">
+      <div class="container">
+        <div class="band">
+          <div class="band-left">
+            <h4>{{destacado8titulo}}</h4>
+            <p>{{destacado8texto}}</p>
+            <a class="btn btn-primary" href="#contacto">{{destacado8accion}}</a>
+          </div>
+          <div class="band-right">
+            <img src="destacado8.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DESTACADO 9 (texto derecha + imagen izquierda, similar a bloque final del ejemplo) -->
+    <section id="destacado9" class="soft" aria-label="Destacado 9">
+      <div class="container section-grid reverse">
+        <div class="media">
+          <img src="destacado9.jpg" alt="">
+        </div>
+        <div class="content">
+          <h4>{{destacado9titulo}}</h4>
+          <p>{{destacado9texto}}</p>
+          <a class="btn btn-primary" href="#contacto">{{destacado9accion}}</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" aria-label="Contacto">
+      <div class="container contact-grid">
+
+        <div class="footer-mini" id="infocorporacion">
+          <h4 style="font-size:22px;font-weight:900;margin-bottom:10px;">Contact Us</h4>
+          <p>El viaje hacia mejores resultados y cultura empieza con una conversación.</p>
+
+          <div style="margin-top:14px;">
+            <p><strong>Dirección:</strong> {{direccion}}</p>
+            <p><strong>Teléfono:</strong> {{telefono}}</p>
+            <p><strong>Email:</strong> {{email}}</p>
+          </div>
+
+          <div class="social" style="margin-top:14px;">
+            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="#" aria-label="X">x</a>
+            <a href="#" aria-label="YouTube">▶</a>
+          </div>
+        </div>
+
+        <form action="" method="post">
+          <h5 style="font-size:20px;font-weight:900;margin-bottom:6px;">Contacto</h5>
+          <p>Frase que invita a contactar</p>
+
+          <div class="form-row">
+            <div>
+              <label for="nombre">Nombre</label>
+              <input id="nombre" type="text" name="nombre" placeholder="Tu nombre" required>
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input id="email" type="email" name="email" placeholder="tu@email.com" required>
+            </div>
+          </div>
+
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" placeholder="¿En qué puedo ayudarte?" required></textarea>
+
+          <div style="margin-top:14px;">
+            <button class="btn btn-primary" type="submit">Enviar mensaje</button>
+          </div>
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container footer-wrap">
+      <div>(c) {{anio}} {{titulo1}} {{titulo2}} — Todos los derechos reservados</div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;">
+        <a href="#" style="opacity:.85;">Privacy Policy</a>
+        <a href="#" style="opacity:.85;">Terms of Use</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
+```
+
+### plantillaSEO
+<small>Creado: 2026-01-12 13:53</small>
+
+`005-plantillaSEO.html`
+
+```html
+<!-- 004-soloplantilla.html -->
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="{{meta_description}}">
+  <meta name="robots" content="{{meta_robots}}">
+  <meta name="theme-color" content="{{theme_color}}">
+  <meta name="color-scheme" content="light">
+
+  <link rel="canonical" href="{{canonical}}">
+  <link rel="alternate" hreflang="es" href="{{canonical}}">
+  <link rel="icon" href="{{favicon}}" type="image/png">
+  <link rel="apple-touch-icon" href="{{apple_touch_icon}}">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:site_name" content="{{og_site_name}}">
+  <meta property="og:title" content="{{og_title}}">
+  <meta property="og:description" content="{{og_description}}">
+  <meta property="og:url" content="{{canonical}}">
+  <meta property="og:image" content="{{og_image}}">
+  <meta property="og:image:alt" content="{{og_image_alt}}">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{twitter_title}}">
+  <meta name="twitter:description" content="{{twitter_description}}">
+  <meta name="twitter:image" content="{{twitter_image}}">
+
+  <title>{{title_full}}</title>
+
+  <!-- Performance: preload / hints -->
+  <link rel="preload" as="image" href="{{hero_image}}">
+  <link rel="preload" as="style" href="estilochatgpt.css">
+  <link rel="stylesheet" href="estilochatgpt.css">
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {{raw:jsonld}}
+  </script>
+</head>
+
+<body>
+  <!-- Accessibility/SEO: skip link -->
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header>
+    <div class="container">
+      <div class="topbar">
+        <div id="corporativo" aria-label="Marca">
+          <a href="{{canonical}}" aria-label="{{brand_name}}">
+            <img src="logo.png" alt="{{brand_logo_alt}}" width="42" height="42" loading="eager" decoding="async">
+          </a>
+          <div class="texto">
+            <span class="t1">{{titulo1}}</span>
+            <span class="t2">{{titulo2}}</span>
+          </div>
+        </div>
+
+        <nav aria-label="Navegación principal">
+          <a href="#heroe">{{enlace 1}}</a>
+          <a href="#destacado2">{{enlace 2}}</a>
+          <a href="#destacado4">{{enlace 3}}</a>
+          <a href="#destacado7">{{enlace 4}}</a>
+          <a href="#contacto" class="nav-cta">{{enlace 5}}</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenido">
+
+    <!-- HERO -->
+    <section id="heroe" aria-label="Héroe">
+      <div class="container hero-inner">
+        <!-- SEO: un solo H1 por página -->
+        <h1>{{heroetitulo}}</h1>
+        <p>{{heroetexto}}</p>
+
+        <!-- Primary CTA -->
+        <a class="btn btn-primary" href="#contacto" aria-label="{{heroeaccion}}">{{heroeaccion}}</a>
+
+        <!-- Trust microcopy -->
+        <p class="hero-micro">{{hero_micro}}</p>
+      </div>
+    </section>
+
+    <!-- DESTACADO 1 -->
+    <section id="destacado1" class="soft" aria-label="Destacado 1">
+      <div class="container">
+        <div class="pill-card">
+          <div class="left">
+            <img
+              src="img/destacado1.png"
+              alt="{{destacado1_img_alt}}"
+              width="420"
+              height="420"
+              loading="lazy"
+              decoding="async"
+            >
+          </div>
+          <div class="right">
+            <h2>{{destacado1titulo}}</h2>
+            <p>{{destacado1texto}}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DESTACADO 2 -->
+    <section id="destacado2" aria-label="Destacado 2">
+      <div class="container section-grid">
+        <div class="content">
+          <span class="kicker">Technology × Performance</span>
+          <h2>{{destacado2titulo}}</h2>
+          <p>{{destacado2texto}}</p>
+          <a class="btn btn-primary" href="#destacado4">{{destacado2accion}}</a>
+        </div>
+        <div class="media">
+          <img
+            src="img/destacado2.png"
+            alt="{{destacado2_img_alt}}"
+            width="1200"
+            height="680"
+            loading="lazy"
+            decoding="async"
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- DESTACADO 3 -->
+    <section id="destacado3" class="soft" aria-label="Destacado 3">
+      <div class="container">
+        <div class="iconline">
+          <div class="iconbox">
+            <img
+              src="destacado3_icono.png"
+              alt="{{destacado3_icon_alt}}"
+              width="74"
+              height="74"
+              loading="lazy"
+              decoding="async"
+            >
+          </div>
+          <h2>{{destacado3titulo}}</h2>
+        </div>
+        <p>{{destacado3texto}}</p>
+      </div>
+    </section>
+
+    <!-- DESTACADO 4 -->
+    <section id="destacado4" aria-label="Destacado 4">
+      <div class="container section-grid reverse">
+        <div class="media">
+          <img
+            src="img/destacado4.png"
+            alt="{{destacado4_img_alt}}"
+            width="1200"
+            height="680"
+            loading="lazy"
+            decoding="async"
+          >
+        </div>
+        <div class="content">
+          <h2>{{destacado4titulo}}</h2>
+          <p>{{destacado4texto}}</p>
+          <a class="btn btn-primary" href="#destacado6">{{destacado4accion}}</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- DESTACADO 5 -->
+    <section id="destacado5" class="soft" aria-label="Destacado 5">
+      <div class="container section-grid">
+        <div class="content">
+          <h2>{{destacado5titulo1}}</h2>
+          <p>{{destacado5texto1}}</p>
+        </div>
+        <div class="content">
+          <h3 style="font-size:20px;font-weight:900;margin-top:4px;">{{destacado5titulo2}}</h3>
+          <p>{{destacado5texto2}}</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- DESTACADO 6 -->
+    <section id="destacado6" class="cta-photo" aria-label="Destacado 6">
+      <div class="container">
+        <div class="cta-inner">
+          <h2>{{destacado6titulo1}}</h2>
+          <p>{{destacado6texto1}}</p>
+          <a class="btn btn-primary" href="#contacto">{{destacado6accion}}</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- DESTACADO 7 -->
+    <section id="destacado7" class="soft" aria-label="Destacado 7">
+      <div class="container why">
+        <div class="why-card">
+          <h2 style="font-size:26px;font-weight:900;">{{destacado7titulo1}}</h2>
+          <p>{{destacado7texto1}}</p>
+          <p>{{destacado7texto2}}</p>
+        </div>
+        <div class="callout">
+          <p><strong>{{destacado7texto3}}</strong></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- DESTACADO 8 -->
+    <section id="destacado8" aria-label="Destacado 8">
+      <div class="container">
+        <div class="band">
+          <div class="band-left">
+            <h2>{{destacado8titulo}}</h2>
+            <p>{{destacado8texto}}</p>
+            <a class="btn btn-primary" href="#contacto">{{destacado8accion}}</a>
+          </div>
+          <div class="band-right">
+            <img
+              src="img/destacado8.png"
+              alt="{{destacado8_img_alt}}"
+              width="1200"
+              height="680"
+              loading="lazy"
+              decoding="async"
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DESTACADO 9 -->
+    <section id="destacado9" class="soft" aria-label="Destacado 9">
+      <div class="container section-grid reverse">
+        <div class="media">
+          <img
+            src="img/destacado9.png"
+            alt="{{destacado9_img_alt}}"
+            width="1200"
+            height="680"
+            loading="lazy"
+            decoding="async"
+          >
+        </div>
+        <div class="content">
+          <h2>{{destacado9titulo}}</h2>
+          <p>{{destacado9texto}}</p>
+          <a class="btn btn-primary" href="#contacto">{{destacado9accion}}</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" aria-label="Contacto">
+      <div class="container contact-grid">
+
+        <div class="footer-mini" id="infocorporacion">
+          <h2 style="font-size:22px;font-weight:900;margin-bottom:10px;">{{contact_title}}</h2>
+          <p>{{contact_intro}}</p>
+
+          <div style="margin-top:14px;">
+            <p><strong>Dirección:</strong> {{direccion}}</p>
+            <p><strong>Teléfono:</strong> <a href="tel:{{telefono_raw}}">{{telefono}}</a></p>
+            <p><strong>Email:</strong> <a href="mailto:{{email}}">{{email}}</a></p>
+          </div>
+
+          <div class="social" style="margin-top:14px;">
+            <a href="{{social_linkedin}}" aria-label="LinkedIn" rel="noopener">in</a>
+            <a href="{{social_x}}" aria-label="X" rel="noopener">x</a>
+            <a href="{{social_youtube}}" aria-label="YouTube" rel="noopener">▶</a>
+          </div>
+        </div>
+
+        <form action="" method="post">
+          <h2 style="font-size:20px;font-weight:900;margin-bottom:6px;">{{form_title}}</h2>
+          <p>{{form_intro}}</p>
+
+          <div class="form-row">
+            <div>
+              <label for="nombre">Nombre</label>
+              <input id="nombre" type="text" name="nombre" placeholder="Tu nombre" required autocomplete="name">
+            </div>
+            <div>
+              <label for="email_form">Email</label>
+              <input id="email_form" type="email" name="email" placeholder="tu@email.com" required autocomplete="email">
+            </div>
+          </div>
+
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" placeholder="¿En qué puedo ayudarte?" required></textarea>
+
+          <div style="margin-top:14px;">
+            <button class="btn btn-primary" type="submit">{{form_cta}}</button>
+          </div>
+
+          <!-- SEO (optional): small privacy note -->
+          <p class="form-legal">{{form_legal}}</p>
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container footer-wrap">
+      <div>(c) {{anio}} {{titulo1}} {{titulo2}} — Todos los derechos reservados</div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;">
+        <a href="{{privacy_url}}" style="opacity:.85;">Privacy Policy</a>
+        <a href="{{terms_url}}" style="opacity:.85;">Terms of Use</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
+```
+
+### datos
+<small>Creado: 2026-01-12 13:45</small>
+
+`datos.json`
+
+```json
+
+{
+  "titulo1": "Curso IA en Directo",
+  "titulo2": "Programación · Streaming · Práctico",
+
+  "title_full": "Curso IA en Directo para Programadores (Streaming en vivo) | Proyectos reales",
+  "meta_description": "Curso online de IA para programadores en streaming (clases en vivo). Aprende prompts, RAG, agentes, evaluación y despliegue con proyectos end-to-end y soporte.",
+  "meta_robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+  "theme_color": "#f39a1a",
+
+  "canonical": "https://tucursoia.com/",
+  "favicon": "/favicon.png",
+  "apple_touch_icon": "/apple-touch-icon.png",
+
+  "og_site_name": "Curso IA en Directo",
+  "og_title": "Curso IA en Directo para Programadores (Streaming en vivo)",
+  "og_description": "Aprende IA aplicada a desarrollo con clases en vivo: prompts, RAG, agentes, evaluación, despliegue y automatización. Enfoque práctico con proyectos.",
+  "og_image": "https://tucursoia.com/og.jpg",
+  "og_image_alt": "Curso IA en Directo para Programadores",
+
+  "twitter_title": "Curso IA en Directo (Streaming en vivo)",
+  "twitter_description": "IA aplicada a desarrollo: proyectos reales, RAG, agentes, evaluación y despliegue.",
+  "twitter_image": "https://tucursoia.com/og.jpg",
+
+  "brand_name": "Curso IA en Directo",
+  "brand_logo_alt": "Logo del Curso IA en Directo",
+
+  "enlace 1": "Inicio",
+  "enlace 2": "Metodología",
+  "enlace 3": "Temario",
+  "enlace 4": "Sobre el curso",
+  "enlace 5": "Inscripción",
+
+  "heroetitulo": "IA para Programadores, en Directo: aprende creando proyectos reales.",
+  "heroetexto": "Curso online en streaming (clases en vivo) para dominar IA aplicada a desarrollo: prompts, RAG, agentes, evaluación, despliegue y automatización. Enfoque 100% práctico, con soporte y material descargable.",
+  "heroeaccion": "Quiero reservar plaza",
+  "hero_micro": "Clases en vivo + grabaciones + materiales · Nivel: intermedio · Cupos limitados.",
+
+  "destacado1titulo": "No es un curso grabado. Es un taller en vivo.",
+  "destacado1texto": "Sesiones en directo con ejercicios guiados, revisión de código y resolución de dudas en tiempo real. Sales con un sistema funcionando: desde un chatbot útil hasta una app de IA integrada en tu stack.",
+  "destacado1_img_alt": "Taller en vivo de programación con IA",
+
+  "destacado2titulo": "En la intersección entre IA, producto y software profesional.",
+  "destacado2texto": "Aprenderás a construir soluciones de IA que aportan valor: asistentes para tu negocio, generación de contenido controlada, búsqueda semántica con tus documentos, y automatizaciones con agentes. Sin humo: métricas, pruebas y buenas prácticas.",
+  "destacado2accion": "Ver cómo trabajamos",
+  "destacado2_img_alt": "Desarrollo de soluciones de IA con enfoque profesional",
+
+  "destacado3titulo": "Acompañamiento + Tecnología + Proyectos",
+  "destacado3texto": "Combina clases en vivo, ejercicios paso a paso y plantillas listas para usar. Te llevas repositorios, checklists y una guía clara para pasar de ‘probar’ IA a ‘usar’ IA en producción.",
+  "destacado3_icon_alt": "Icono de acompañamiento y proyectos",
+
+  "destacado4titulo": "Aprende a programar IA de forma moderna (y segura).",
+  "destacado4texto": "Diseñarás prompts robustos, implementarás RAG, crearás agentes con herramientas y memoria, y montarás pipelines con control de calidad. Además: privacidad, costes, y patrones para evitar resultados erráticos.",
+  "destacado4accion": "Quiero el temario",
+  "destacado4_img_alt": "Arquitectura moderna para aplicaciones con IA",
+
+  "destacado5titulo1": "Tutoriales sueltos y ejemplos sin contexto no escalan",
+  "destacado5texto1": "Mucho contenido de IA se queda en demos. Aquí construimos un sistema completo, con arquitectura, pruebas, evaluación y despliegue para que puedas reutilizarlo en tus proyectos reales.",
+  "destacado5titulo2": "Estrategias inmersivas y orientadas a resultados",
+  "destacado5texto2": "Cada módulo termina con un entregable: una herramienta funcional (chatbot, buscador semántico, agente, evaluador, automatización) y una lista de verificación para adaptarlo a tu caso.",
+
+  "destacado6titulo1": "No más diapositivas. Código en directo y práctica guiada.",
+  "destacado6texto1": "Clases en vivo centradas en programar: diseño, implementación, depuración y mejora. Acceso a grabaciones, materiales y sesiones de preguntas para consolidar lo aprendido.",
+  "destacado6accion": "Ver fechas y formato",
+
+  "destacado7titulo1": "Por qué este curso — cuando quieres resultados reales",
+  "destacado7texto1": "La mayoría aprende IA como curiosidad. Tú vas a aprender IA como herramienta profesional, con una ruta clara y ejercicios aplicables desde el primer día.",
+  "destacado7texto2": "Te enseñamos a integrar IA en tus apps: APIs, bases de conocimiento, herramientas, evaluación de respuestas, control de costes y despliegue.",
+  "destacado7texto3": "Programar IA no es solo ‘usar ChatGPT’: es diseñar sistemas fiables, medibles y mantenibles.",
+
+  "destacado8titulo": "De la idea al proyecto: construye tu asistente de IA end-to-end",
+  "destacado8texto": "Termina el curso con un proyecto final completo: una aplicación con interfaz, backend, base de conocimiento (RAG), logs, métricas y mejoras iterativas para que puedas enseñarlo, venderlo o usarlo en tu empresa.",
+  "destacado8accion": "Quiero apuntarme",
+  "destacado8_img_alt": "Proyecto final end-to-end con RAG y métricas",
+
+  "destacado9titulo": "Para programadores, equipos y emprendedores",
+  "destacado9texto": "Diseñado para quienes ya programan y quieren aplicar IA de forma práctica: automatización, asistentes internos, soporte al cliente, generación de documentación, y herramientas para productividad y negocio.",
+  "destacado9accion": "Solicitar información",
+  "destacado9_img_alt": "IA aplicada para equipos y emprendedores",
+
+  "contact_title": "Contacta e inscríbete",
+  "contact_intro": "El viaje hacia mejores resultados y cultura empieza con una conversación.",
+
+  "form_title": "Contacto",
+  "form_intro": "Cuéntame tu caso y te digo si este curso encaja contigo.",
+  "form_cta": "Enviar mensaje",
+  "form_legal": "Al enviar este formulario aceptas nuestra política de privacidad y el tratamiento de tus datos para responder a tu solicitud.",
+
+  "privacy_url": "/privacy.html",
+  "terms_url": "/terms.html",
+
+  "direccion": "Online · Clases en directo por streaming",
+  "telefono": "+34 600 000 000",
+  "telefono_raw": "+34600000000",
+  "email": "info@tucursoia.com",
+
+  "social_linkedin": "https://www.linkedin.com/",
+  "social_x": "https://x.com/",
+  "social_youtube": "https://www.youtube.com/",
+
+  "hero_image": "hero.jpg",
+
+  "anio": "2026",
+
+  "raw:jsonld": "{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Curso IA en Directo\",\n      \"url\": \"https://tucursoia.com/\",\n      \"logo\": \"https://tucursoia.com/logo.png\",\n      \"email\": \"info@tucursoia.com\",\n      \"telephone\": \"+34600000000\",\n      \"sameAs\": [\n        \"https://www.linkedin.com/\",\n        \"https://x.com/\",\n        \"https://www.youtube.com/\"\n      ]\n    },\n    {\n      \"@type\": \"WebSite\",\n      \"name\": \"Curso IA en Directo\",\n      \"url\": \"https://tucursoia.com/\",\n      \"inLanguage\": \"es\",\n      \"potentialAction\": {\n        \"@type\": \"SearchAction\",\n        \"target\": \"https://tucursoia.com/?q={search_term_string}\",\n        \"query-input\": \"required name=search_term_string\"\n      }\n    },\n    {\n      \"@type\": \"WebPage\",\n      \"name\": \"Curso IA en Directo para Programadores (Streaming en vivo)\",\n      \"url\": \"https://tucursoia.com/\",\n      \"description\": \"Curso online de IA para programadores en streaming (clases en vivo).\"\n    },\n    {\n      \"@type\": \"Course\",\n      \"name\": \"Curso IA en Directo para Programadores\",\n      \"description\": \"Curso online en streaming (clases en vivo) de IA aplicada a desarrollo: prompts, RAG, agentes, evaluación, despliegue y automatización.\",\n      \"provider\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Curso IA en Directo\",\n        \"sameAs\": \"https://tucursoia.com/\"\n      },\n      \"inLanguage\": \"es\",\n      \"courseMode\": [\"online\", \"live\"],\n      \"audience\": {\n        \"@type\": \"Audience\",\n        \"audienceType\": \"Programadores\"\n      }\n    }\n  ]\n}\n"
+}
+```
+
+### estilo
+<small>Creado: 2026-01-12 13:31</small>
+
+`estilo.css`
+
+```css
+:root{
+      --bg: #ffffff;
+      --bg-soft: #f6f7f7;
+      --text: #1b1f23;
+      --muted: #5b6670;
+
+      --green: #6f8f12;        /* bloque verde */
+      --orange: #f39a1a;       /* CTA */
+      --orange-dark: #d98206;
+
+      --card: #ffffff;
+      --shadow: 0 18px 40px rgba(0,0,0,.10);
+      --shadow-soft: 0 12px 28px rgba(0,0,0,.08);
+      --radius: 18px;
+      --radius-lg: 26px;
+
+      --container: 1120px;
+    }
+
+    *{ box-sizing:border-box; }
+    html,body{ height:100%; }
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Arial, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.45;
+    }
+    img{ max-width:100%; display:block; }
+    a{ color: inherit; text-decoration:none; }
+    p{ margin:0 0 12px; color: var(--muted); }
+    h1,h2,h3,h4,h5{ margin:0 0 10px; line-height:1.15; color: var(--text); }
+    .container{
+      width: min(var(--container), calc(100% - 48px));
+      margin: 0 auto;
+    }
+
+    /* =========================
+       HEADER / NAV
+    ========================== */
+    header{
+      position: sticky;
+      top:0;
+      z-index: 50;
+      background: rgba(255,255,255,.92);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(0,0,0,.06);
+    }
+    .topbar{
+      display:flex;
+      align-items:center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 14px 0;
+    }
+    #corporativo{
+      display:flex;
+      align-items:center;
+      gap: 12px;
+      min-width: 260px;
+    }
+    #corporativo img{
+      width: 44px;
+      height: 44px;
+      object-fit: contain;
+    }
+    #corporativo .texto{
+      display:flex;
+      flex-direction: column;
+      line-height: 1.05;
+      font-weight: 700;
+      letter-spacing: .2px;
+    }
+    #corporativo .texto .t1{ font-size: 14px; color:#2f3a44; }
+    #corporativo .texto .t2{ font-size: 12px; font-weight: 600; color:#6c7a86; margin-top:2px; }
+
+    nav{
+      display:flex;
+      align-items:center;
+      gap: 18px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+    nav a{
+      font-size: 13px;
+      color: #2f3a44;
+      opacity: .85;
+      padding: 8px 6px;
+      border-radius: 10px;
+      transition: background .2s ease, opacity .2s ease;
+    }
+    nav a:hover{
+      background: rgba(0,0,0,.04);
+      opacity: 1;
+    }
+    .nav-cta{
+      margin-left: 8px;
+      background: var(--orange);
+      color:#fff;
+      padding: 10px 14px;
+      border-radius: 999px;
+      font-weight: 700;
+      box-shadow: 0 10px 22px rgba(243,154,26,.25);
+    }
+    .nav-cta:hover{ background: var(--orange-dark); }
+
+    /* =========================
+       BUTTONS
+    ========================== */
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap: 10px;
+      padding: 12px 18px;
+      border-radius: 999px;
+      font-weight: 800;
+      font-size: 13px;
+      letter-spacing: .3px;
+      text-transform: uppercase;
+      border: 0;
+      cursor: pointer;
+      transition: transform .15s ease, background .2s ease, box-shadow .2s ease;
+      user-select:none;
+      white-space: nowrap;
+    }
+    .btn-primary{
+      background: var(--orange);
+      color:#fff;
+      box-shadow: 0 14px 30px rgba(243,154,26,.28);
+    }
+    .btn-primary:hover{
+      background: var(--orange-dark);
+      transform: translateY(-1px);
+      box-shadow: 0 18px 36px rgba(243,154,26,.30);
+    }
+
+    /* =========================
+       HERO (imagen + curva inferior)
+    ========================== */
+    #heroe{
+      position: relative;
+      min-height: 430px;
+      display:flex;
+      align-items:center;
+      overflow:hidden;
+      background:
+        linear-gradient(to bottom, rgba(0,0,0,.30), rgba(0,0,0,.35)),
+        url("hero.jpg") center/cover no-repeat;
+      /* Sustituye hero.jpg por tu imagen */
+    }
+    #heroe::after{
+      content:"";
+      position:absolute;
+      left:-10%;
+      right:-10%;
+      bottom:-120px;
+      height: 220px;
+      background: var(--bg);
+      border-top-left-radius: 60% 100%;
+      border-top-right-radius: 60% 100%;
+      box-shadow: 0 -30px 60px rgba(0,0,0,.06);
+    }
+    .hero-inner{
+      position:relative;
+      z-index: 2;
+      padding: 70px 0 120px;
+      text-align:center;
+      color:#fff;
+    }
+    .hero-inner h3{
+      color:#fff;
+      font-size: clamp(28px, 4vw, 44px);
+      font-weight: 900;
+      letter-spacing: .2px;
+      margin-bottom: 10px;
+      text-shadow: 0 12px 30px rgba(0,0,0,.30);
+    }
+    .hero-inner p{
+      max-width: 820px;
+      margin: 0 auto 22px;
+      color: rgba(255,255,255,.92);
+      font-size: 15px;
+    }
+
+    /* =========================
+       SECCIONES / BLOQUES
+    ========================== */
+    main{ background: var(--bg); }
+    section{
+      padding: 56px 0;
+      position:relative;
+    }
+    .soft{ background: var(--bg-soft); }
+    .section-grid{
+      display:grid;
+      grid-template-columns: 1.05fr .95fr;
+      gap: 42px;
+      align-items:center;
+    }
+    .section-grid.reverse{
+      grid-template-columns: .95fr 1.05fr;
+    }
+
+    .media{
+      border-radius: var(--radius-lg);
+      overflow:hidden;
+      box-shadow: var(--shadow-soft);
+      background: #e9edf0;
+    }
+    .media img{
+      width:100%;
+      height: 340px;
+      object-fit: cover;
+    }
+
+    .content h4{
+      font-size: 28px;
+      font-weight: 900;
+      margin-bottom: 14px;
+    }
+    .content .kicker{
+      display:inline-block;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: rgba(0,0,0,.04);
+      color:#2f3a44;
+      font-size: 12px;
+      font-weight: 800;
+      margin-bottom: 12px;
+    }
+
+    /* “We are not the same” card */
+    .pill-card{
+      background: var(--card);
+      border-radius: 34px;
+      box-shadow: var(--shadow);
+      overflow:hidden;
+      display:grid;
+      grid-template-columns: 200px 1fr;
+      gap: 0;
+      align-items: stretch;
+      min-height: 220px;
+    }
+    .pill-card .left{
+      padding: 18px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      background: linear-gradient(135deg, rgba(111,143,18,.15), rgba(243,154,26,.08));
+    }
+    .pill-card .left img{
+      width: 150px;
+      height: 150px;
+      border-radius: 999px;
+      object-fit: cover;
+      box-shadow: 0 14px 26px rgba(0,0,0,.12);
+    }
+    .pill-card .right{
+      padding: 26px 28px;
+    }
+    .pill-card h4{
+      font-size: 30px;
+      font-weight: 900;
+    }
+    .pill-card p{ max-width: 720px; }
+
+    /* Bloque “verde + imagen” tipo banda */
+    .band{
+      border-radius: var(--radius-lg);
+      overflow:hidden;
+      box-shadow: var(--shadow-soft);
+      display:grid;
+      grid-template-columns: 1.05fr .95fr;
+      min-height: 260px;
+    }
+    .band .band-left{
+      background: var(--green);
+      padding: 26px 26px;
+      color:#fff;
+      display:flex;
+      flex-direction: column;
+      justify-content:center;
+      gap: 10px;
+    }
+    .band .band-left h4{ color:#fff; font-size: 28px; }
+    .band .band-left p{ color: rgba(255,255,255,.92); }
+    .band .band-right{
+      background: #e9edf0;
+      position:relative;
+    }
+    .band .band-right img{
+      width:100%;
+      height:100%;
+      object-fit: cover;
+      filter: saturate(1.05) contrast(1.02);
+    }
+
+    /* “Icon + title” (destacado3) */
+    .iconline{
+      display:flex;
+      align-items:center;
+      gap: 16px;
+      margin-bottom: 10px;
+    }
+    .iconbox{
+      width: 84px;
+      height: 84px;
+      border-radius: 24px;
+      background: rgba(243,154,26,.12);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      box-shadow: 0 10px 24px rgba(0,0,0,.06);
+    }
+    .iconbox img{
+      width: 56px;
+      height: 56px;
+      object-fit: contain;
+    }
+
+    /* CTA grande con fondo foto */
+    .cta-photo{
+      position:relative;
+      padding: 78px 0;
+      background:
+        linear-gradient(to bottom, rgba(0,0,0,.48), rgba(0,0,0,.55)),
+        url("cta.jpg") center/cover no-repeat;
+      /* Sustituye cta.jpg por tu imagen */
+      color:#fff;
+      overflow:hidden;
+    }
+    .cta-photo .cta-inner{
+      text-align:center;
+      max-width: 920px;
+      margin: 0 auto;
+    }
+    .cta-photo h3{
+      color:#fff;
+      font-size: clamp(26px, 3.2vw, 38px);
+      font-weight: 900;
+      margin-bottom: 12px;
+      text-shadow: 0 14px 28px rgba(0,0,0,.32);
+    }
+    .cta-photo p{
+      color: rgba(255,255,255,.92);
+      margin: 0 auto 22px;
+      max-width: 760px;
+    }
+
+    /* “Why us” con tarjeta naranja lateral */
+    .why{
+      display:grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap: 22px;
+      align-items: start;
+    }
+    .why .why-card{
+      background: var(--card);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-soft);
+      padding: 26px;
+    }
+    .why .callout{
+      background: #f7a11d;
+      color:#fff;
+      border-radius: 14px;
+      padding: 18px;
+      box-shadow: 0 18px 40px rgba(247,161,29,.25);
+    }
+    .why .callout p{ color: rgba(255,255,255,.95); margin:0; }
+
+    /* =========================
+       CONTACTO / FOOTER
+    ========================== */
+    #contacto{
+      background: #f4f5f6;
+      padding: 64px 0;
+    }
+    .contact-grid{
+      display:grid;
+      grid-template-columns: 1fr 1.1fr;
+      gap: 26px;
+      align-items: start;
+    }
+    .footer-mini{
+      background: #fff;
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-soft);
+      padding: 22px;
+    }
+    form{
+      background: #fff;
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-soft);
+      padding: 22px;
+    }
+    label{
+      display:block;
+      font-size: 12px;
+      color:#2f3a44;
+      font-weight: 800;
+      margin: 12px 0 6px;
+    }
+    input, textarea{
+      width:100%;
+      border: 1px solid rgba(0,0,0,.10);
+      border-radius: 12px;
+      padding: 12px 12px;
+      font: inherit;
+      outline: none;
+      transition: border-color .2s ease, box-shadow .2s ease;
+      background: #fff;
+    }
+    textarea{ min-height: 130px; resize: vertical; }
+    input:focus, textarea:focus{
+      border-color: rgba(243,154,26,.55);
+      box-shadow: 0 0 0 4px rgba(243,154,26,.18);
+    }
+    .form-row{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+    footer{
+      background: #ffffff;
+      border-top: 1px solid rgba(0,0,0,.06);
+      padding: 18px 0;
+      color: #5b6670;
+      font-size: 12px;
+    }
+    .footer-wrap{
+      display:flex;
+      align-items:center;
+      justify-content: space-between;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+    .social{
+      display:flex;
+      gap: 10px;
+      opacity: .9;
+    }
+    .social a{
+      width: 34px;
+      height: 34px;
+      border-radius: 999px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      background: rgba(0,0,0,.04);
+    }
+
+    /* =========================
+       Responsive
+    ========================== */
+    @media (max-width: 980px){
+      .section-grid,
+      .section-grid.reverse,
+      .band,
+      .pill-card,
+      .why,
+      .contact-grid{
+        grid-template-columns: 1fr;
+      }
+      .media img{ height: 280px; }
+      .pill-card{ grid-template-columns: 1fr; }
+      .pill-card .left{ padding: 22px; }
+      nav{ justify-content: flex-start; }
+    }
+    @media (max-width: 560px){
+      .form-row{ grid-template-columns: 1fr; }
+      #corporativo{ min-width: auto; }
+      #heroe{ min-height: 420px; }
+      .hero-inner{ padding: 54px 0 120px; }
+    }
+```
+
+### estilochatgpt
+<small>Creado: 2026-01-12 13:43</small>
+
+`estilochatgpt.css`
+
+```css
+/* estilochatgpt.css (solo cambios SEO/UX útiles: skip-link + H1) */
+:root{
+  --bg: #ffffff;
+  --bg-soft: #f2f4f4;
+  --text: #1b1f23;
+  --muted: #5b6670;
+
+  --green: #6f8f12;
+  --orange: #f39a1a;
+  --orange-dark: #d98206;
+
+  --card: #ffffff;
+
+  --shadow: 0 10px 24px rgba(0,0,0,.08);
+  --shadow-soft: 0 8px 18px rgba(0,0,0,.06);
+
+  --radius: 10px;
+  --radius-lg: 14px;
+
+  --container: 1120px;
+}
+
+*{ box-sizing:border-box; }
+html,body{ height:100%; }
+body{
+  margin:0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Arial, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.55;
+}
+img{ max-width:100%; display:block; }
+a{ color: inherit; text-decoration:none; }
+p{ margin:0 0 14px; color: var(--muted); font-size: 14px; }
+h1,h2,h3,h4,h5{ margin:0 0 12px; line-height:1.12; color: var(--text); }
+.container{
+  width: min(var(--container), calc(100% - 48px));
+  margin: 0 auto;
+}
+
+/* Skip link (a11y + crawl-friendly UX) */
+.skip-link{
+  position:absolute;
+  left:-9999px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
+.skip-link:focus{
+  left: 12px;
+  top: 12px;
+  width:auto;
+  height:auto;
+  padding: 10px 12px;
+  background:#fff;
+  border:1px solid rgba(0,0,0,.15);
+  z-index: 9999;
+}
+
+/* =========================
+   HEADER / NAV
+========================== */
+header{
+  position: sticky;
+  top:0;
+  z-index: 50;
+  background: rgba(255,255,255,.96);
+  border-bottom: 1px solid rgba(0,0,0,.08);
+}
+.topbar{
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 14px 0;
+}
+#corporativo{
+  display:flex;
+  align-items:center;
+  gap: 12px;
+  min-width: 260px;
+}
+#corporativo img{
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}
+#corporativo .texto{
+  display:flex;
+  flex-direction: column;
+  line-height: 1.05;
+  font-weight: 800;
+  letter-spacing: .2px;
+}
+#corporativo .texto .t1{ font-size: 14px; color:#24303a; }
+#corporativo .texto .t2{ font-size: 12px; font-weight: 650; color:#6c7a86; margin-top:2px; }
+
+nav{
+  display:flex;
+  align-items:center;
+  gap: 18px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+nav a{
+  font-size: 13px;
+  color: #2f3a44;
+  opacity: .9;
+  padding: 8px 6px;
+}
+nav a:hover{ opacity: 1; text-decoration: underline; text-underline-offset: 4px; }
+.nav-cta{
+  margin-left: 10px;
+  background: var(--orange);
+  color:#fff;
+  padding: 10px 14px;
+  border-radius: 999px;
+  font-weight: 800;
+  box-shadow: 0 10px 20px rgba(243,154,26,.22);
+}
+.nav-cta:hover{ background: var(--orange-dark); text-decoration:none; }
+
+/* =========================
+   BUTTONS
+========================== */
+.btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding: 10px 16px;
+  border-radius: 999px;
+  font-weight: 800;
+  font-size: 12px;
+  letter-spacing: .35px;
+  text-transform: uppercase;
+  border: 0;
+  cursor: pointer;
+  transition: transform .12s ease, background .2s ease, box-shadow .2s ease;
+  user-select:none;
+  white-space: nowrap;
+}
+.btn-primary{
+  background: var(--orange);
+  color:#fff;
+  box-shadow: 0 10px 22px rgba(243,154,26,.24);
+}
+.btn-primary:hover{
+  background: var(--orange-dark);
+  transform: translateY(-1px);
+  box-shadow: 0 14px 26px rgba(243,154,26,.26);
+}
+
+/* =========================
+   HERO
+========================== */
+#heroe{
+  position: relative;
+  min-height: 430px;
+  display:flex;
+  align-items:center;
+  overflow:hidden;
+  background:
+    linear-gradient(to bottom, rgba(0,0,0,.30), rgba(0,0,0,.40)),
+    url("hero.jpg") center/cover no-repeat;
+}
+#heroe::after{
+  content:"";
+  position:absolute;
+  right:-180px;
+  bottom:-180px;
+  width: 520px;
+  height: 520px;
+  background: var(--bg);
+  border-radius: 999px;
+  transform: rotate(-8deg);
+  box-shadow: -30px -10px 0 rgba(255,255,255,.25);
+}
+.hero-inner{
+  position:relative;
+  z-index: 2;
+  padding: 74px 0 84px;
+  text-align:center;
+  color:#fff;
+}
+.hero-inner h1{
+  color:#fff;
+  font-size: clamp(28px, 4vw, 44px);
+  font-weight: 900;
+  letter-spacing: .2px;
+  margin-bottom: 10px;
+  text-shadow: 0 10px 24px rgba(0,0,0,.28);
+}
+.hero-inner p{
+  max-width: 820px;
+  margin: 0 auto 22px;
+  color: rgba(255,255,255,.92);
+  font-size: 14.5px;
+}
+.hero-micro{
+  margin-top: 10px;
+  font-size: 12.5px;
+  color: rgba(255,255,255,.85);
+}
+
+/* =========================
+   SECCIONES
+========================== */
+main{ background: var(--bg); }
+section{
+  padding: 70px 0;
+  position:relative;
+}
+.soft{ background: var(--bg-soft); }
+
+.section-grid{
+  display:grid;
+  grid-template-columns: 1.05fr .95fr;
+  gap: 56px;
+  align-items:center;
+}
+.section-grid.reverse{
+  grid-template-columns: .95fr 1.05fr;
+}
+
+.media{
+  border-radius: 0;
+  overflow:hidden;
+  box-shadow: none;
+  background: #e9edf0;
+}
+.media img{
+  width:100%;
+  height: 340px;
+  object-fit: cover;
+}
+
+.content h2{
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 14px;
+  letter-spacing: .1px;
+}
+.content .kicker{
+  display:inline-block;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+  color:#6a7480;
+  font-size: 12px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: .6px;
+}
+
+#destacado2 .content h2{
+  display:inline-block;
+  background-image: linear-gradient(to bottom, transparent 70%, rgba(111,143,18,.30) 70%);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 2px;
+}
+
+.pill-card{
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  overflow: visible;
+  display:grid;
+  grid-template-columns: 240px 1fr;
+  gap: 38px;
+  align-items: center;
+  min-height: 220px;
+}
+.pill-card .left{
+  padding: 0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background: transparent;
+}
+.pill-card .left img{
+  width: 210px;
+  height: 210px;
+  object-fit: cover;
+  clip-path: polygon(14% 6%, 86% 6%, 100% 50%, 86% 94%, 14% 94%, 0% 50%);
+  border: 6px solid rgba(243,154,26,.85);
+  box-shadow: var(--shadow-soft);
+  border-radius: 18px;
+  background:#fff;
+}
+.pill-card .right{ padding: 0; }
+.pill-card p{ max-width: 760px; }
+
+.iconline{
+  display:flex;
+  align-items:center;
+  gap: 16px;
+  margin-bottom: 10px;
+}
+.iconbox{
+  width: 86px;
+  height: 86px;
+  border-radius: 0;
+  background: transparent;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.iconbox img{
+  width: 74px;
+  height: 74px;
+  object-fit: contain;
+}
+
+.band{
+  border-radius: 0;
+  overflow:hidden;
+  box-shadow: none;
+  display:grid;
+  grid-template-columns: 1.05fr .95fr;
+  min-height: 280px;
+}
+.band .band-left{
+  background: var(--green);
+  padding: 34px 34px;
+  color:#fff;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  gap: 10px;
+}
+.band .band-left h2{ color:#fff; font-size: 28px; }
+.band .band-left p{ color: rgba(255,255,255,.92); }
+.band .band-right{ background: #e9edf0; }
+.band .band-right img{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+
+.cta-photo{
+  position:relative;
+  padding: 88px 0;
+  background:
+    linear-gradient(to bottom, rgba(0,0,0,.50), rgba(0,0,0,.58)),
+    url("cta.jpg") center/cover no-repeat;
+  color:#fff;
+  overflow:hidden;
+}
+.cta-photo .cta-inner{
+  text-align:center;
+  max-width: 920px;
+  margin: 0 auto;
+}
+.cta-photo h2{
+  color:#fff;
+  font-size: clamp(26px, 3.2vw, 38px);
+  font-weight: 900;
+  margin-bottom: 12px;
+  text-shadow: 0 12px 24px rgba(0,0,0,.28);
+}
+.cta-photo p{
+  color: rgba(255,255,255,.92);
+  margin: 0 auto 22px;
+  max-width: 760px;
+}
+
+.why{
+  display:grid;
+  grid-template-columns: 1.1fr .9fr;
+  gap: 22px;
+  align-items: start;
+}
+.why .why-card{
+  background: var(--card);
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0;
+}
+.why .why-card p{ max-width: 820px; }
+.why .callout{
+  background: var(--orange);
+  color:#fff;
+  border-radius: 0;
+  padding: 18px 18px;
+  box-shadow: none;
+  align-self: center;
+}
+.why .callout p{ color: rgba(255,255,255,.95); margin:0; }
+
+#contacto{
+  background: #f3f4f5;
+  padding: 70px 0;
+}
+.contact-grid{
+  display:grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: 30px;
+  align-items: start;
+}
+.footer-mini, form{
+  background: #fff;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 22px;
+  border: 1px solid rgba(0,0,0,.08);
+}
+label{
+  display:block;
+  font-size: 12px;
+  color:#2f3a44;
+  font-weight: 800;
+  margin: 12px 0 6px;
+}
+input, textarea{
+  width:100%;
+  border: 1px solid rgba(0,0,0,.14);
+  border-radius: 0;
+  padding: 12px 12px;
+  font: inherit;
+  outline: none;
+  transition: border-color .2s ease, box-shadow .2s ease;
+  background: #fff;
+}
+textarea{ min-height: 130px; resize: vertical; }
+input:focus, textarea:focus{
+  border-color: rgba(243,154,26,.75);
+  box-shadow: 0 0 0 3px rgba(243,154,26,.18);
+}
+.form-row{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.form-legal{
+  margin-top: 10px;
+  font-size: 12px;
+  color: #6a7480;
+}
+
+footer{
+  background: #ffffff;
+  border-top: 1px solid rgba(0,0,0,.08);
+  padding: 18px 0;
+  color: #5b6670;
+  font-size: 12px;
+}
+.footer-wrap{
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+.social{
+  display:flex;
+  gap: 10px;
+  opacity: .9;
+}
+.social a{
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background: rgba(0,0,0,.06);
+}
+
+/* Responsive */
+@media (max-width: 980px){
+  .section-grid,
+  .section-grid.reverse,
+  .band,
+  .pill-card,
+  .why,
+  .contact-grid{
+    grid-template-columns: 1fr;
+  }
+  .media img{ height: 280px; }
+  .pill-card{ gap: 18px; }
+  nav{ justify-content: flex-start; }
+  #heroe::after{
+    right:-240px;
+    bottom:-240px;
+    width: 560px;
+    height: 560px;
+  }
+}
+@media (max-width: 560px){
+  .form-row{ grid-template-columns: 1fr; }
+  #corporativo{ min-width: auto; }
+  #heroe{ min-height: 420px; }
+  .hero-inner{ padding: 54px 0 74px; }
+  section{ padding: 58px 0; }
+}
+```
+
+### estiloclaude
+<small>Creado: 2026-01-12 13:36</small>
+
+`estiloclaude.css`
+
+```css
+:root{
+      --bg: #ffffff;
+      --bg-soft: #f9fafb;
+      --text: #1b1f23;
+      --muted: #5b6670;
+
+      --green: #7a9e1e;
+      --orange: #ff9f1c;
+      --orange-dark: #e88d0a;
+
+      --card: #ffffff;
+      --shadow: 0 20px 50px rgba(0,0,0,.08);
+      --shadow-soft: 0 12px 30px rgba(0,0,0,.06);
+      --radius: 16px;
+      --radius-lg: 24px;
+
+      --container: 1140px;
+    }
+
+    *{ box-sizing:border-box; }
+    html,body{ height:100%; }
+    body{
+      margin:0;
+      font-family: 'Segoe UI', system-ui, -apple-system, Roboto, Arial, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
+      font-size: 15px;
+    }
+    img{ max-width:100%; display:block; }
+    a{ color: inherit; text-decoration:none; }
+    p{ margin:0 0 16px; color: var(--muted); line-height: 1.65; }
+    h1,h2,h3,h4,h5{ margin:0 0 14px; line-height:1.2; color: var(--text); font-weight: 700; }
+    .container{
+      width: min(var(--container), calc(100% - 60px));
+      margin: 0 auto;
+    }
+
+    /* HEADER / NAV */
+    header{
+      position: sticky;
+      top:0;
+      z-index: 50;
+      background: rgba(255,255,255,.96);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(0,0,0,.08);
+    }
+    .topbar{
+      display:flex;
+      align-items:center;
+      justify-content: space-between;
+      gap: 24px;
+      padding: 16px 0;
+    }
+    #corporativo{
+      display:flex;
+      align-items:center;
+      gap: 14px;
+      min-width: 280px;
+    }
+    #corporativo img{
+      width: 50px;
+      height: 50px;
+      object-fit: contain;
+    }
+    #corporativo .texto{
+      display:flex;
+      flex-direction: column;
+      line-height: 1.15;
+      font-weight: 700;
+      letter-spacing: -.2px;
+    }
+    #corporativo .texto .t1{ 
+      font-size: 15px; 
+      color:#1a1d20; 
+      font-weight: 700;
+    }
+    #corporativo .texto .t2{ 
+      font-size: 13px; 
+      font-weight: 500; 
+      color:#6c7a86; 
+      margin-top:1px;
+      letter-spacing: 0;
+    }
+
+    nav{
+      display:flex;
+      align-items:center;
+      gap: 24px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+    nav a{
+      font-size: 14px;
+      color: #2f3a44;
+      font-weight: 500;
+      padding: 8px 4px;
+      border-radius: 8px;
+      transition: color .2s ease;
+      letter-spacing: -.1px;
+    }
+    nav a:hover{
+      color: var(--orange);
+    }
+    .nav-cta{
+      margin-left: 12px;
+      background: var(--orange);
+      color:#fff;
+      padding: 10px 20px;
+      border-radius: 6px;
+      font-weight: 600;
+      box-shadow: 0 8px 20px rgba(255,159,28,.25);
+      letter-spacing: 0;
+    }
+    .nav-cta:hover{ 
+      background: var(--orange-dark); 
+      box-shadow: 0 10px 24px rgba(255,159,28,.35);
+    }
+
+    /* BUTTONS */
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap: 10px;
+      padding: 14px 28px;
+      border-radius: 6px;
+      font-weight: 600;
+      font-size: 14px;
+      letter-spacing: -.1px;
+      border: 0;
+      cursor: pointer;
+      transition: transform .2s ease, background .2s ease, box-shadow .2s ease;
+      user-select:none;
+      white-space: nowrap;
+    }
+    .btn-primary{
+      background: var(--orange);
+      color:#fff;
+      box-shadow: 0 10px 25px rgba(255,159,28,.3);
+    }
+    .btn-primary:hover{
+      background: var(--orange-dark);
+      transform: translateY(-2px);
+      box-shadow: 0 14px 32px rgba(255,159,28,.4);
+    }
+
+    /* HERO */
+    #heroe{
+      position: relative;
+      min-height: 480px;
+      display:flex;
+      align-items:center;
+      overflow:hidden;
+      background:
+        linear-gradient(to bottom, rgba(0,0,0,.4), rgba(0,0,0,.45)),
+        url("hero.jpg") center/cover no-repeat;
+    }
+    #heroe::after{
+      content:"";
+      position:absolute;
+      left:-10%;
+      right:-10%;
+      bottom:-140px;
+      height: 240px;
+      background: var(--bg);
+      border-top-left-radius: 50% 120%;
+      border-top-right-radius: 50% 120%;
+    }
+    .hero-inner{
+      position:relative;
+      z-index: 2;
+      padding: 80px 0 140px;
+      text-align:center;
+      color:#fff;
+    }
+    .hero-inner h3{
+      color:#fff;
+      font-size: clamp(32px, 4.5vw, 48px);
+      font-weight: 700;
+      letter-spacing: -.5px;
+      margin-bottom: 16px;
+      text-shadow: 0 12px 30px rgba(0,0,0,.35);
+      line-height: 1.15;
+    }
+    .hero-inner p{
+      max-width: 840px;
+      margin: 0 auto 28px;
+      color: rgba(255,255,255,.95);
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    /* SECTIONS */
+    main{ background: var(--bg); }
+    section{
+      padding: 70px 0;
+      position:relative;
+    }
+    .soft{ background: var(--bg-soft); }
+    .section-grid{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items:center;
+    }
+    .section-grid.reverse{
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .media{
+      border-radius: var(--radius);
+      overflow:hidden;
+      box-shadow: var(--shadow);
+      background: #e9edf0;
+    }
+    .media img{
+      width:100%;
+      height: 380px;
+      object-fit: cover;
+    }
+
+    .content h4{
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 18px;
+      line-height: 1.25;
+      letter-spacing: -.4px;
+    }
+    .content .kicker{
+      display:inline-block;
+      padding: 7px 14px;
+      border-radius: 6px;
+      background: rgba(0,0,0,.05);
+      color:#2f3a44;
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 16px;
+      letter-spacing: -.1px;
+    }
+
+    /* PILL CARD */
+    .pill-card{
+      background: var(--card);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow);
+      overflow:hidden;
+      display:grid;
+      grid-template-columns: 240px 1fr;
+      gap: 0;
+      align-items: center;
+      min-height: 260px;
+    }
+    .pill-card .left{
+      padding: 30px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      background: linear-gradient(145deg, rgba(122,158,30,.08), rgba(255,159,28,.06));
+      height: 100%;
+    }
+    .pill-card .left img{
+      width: 170px;
+      height: 170px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 12px 30px rgba(0,0,0,.15);
+    }
+    .pill-card .right{
+      padding: 36px 40px 36px 20px;
+    }
+    .pill-card h4{
+      font-size: 34px;
+      font-weight: 700;
+      letter-spacing: -.5px;
+      line-height: 1.2;
+    }
+    .pill-card p{ 
+      max-width: 720px; 
+      font-size: 16px;
+      line-height: 1.65;
+    }
+
+    /* GREEN BAND */
+    .band{
+      border-radius: var(--radius);
+      overflow:hidden;
+      box-shadow: var(--shadow);
+      display:grid;
+      grid-template-columns: 1.1fr .9fr;
+      min-height: 300px;
+    }
+    .band .band-left{
+      background: var(--green);
+      padding: 40px 40px;
+      color:#fff;
+      display:flex;
+      flex-direction: column;
+      justify-content:center;
+      gap: 14px;
+    }
+    .band .band-left h4{ 
+      color:#fff; 
+      font-size: 32px;
+      font-weight: 700;
+      letter-spacing: -.4px;
+      line-height: 1.25;
+    }
+    .band .band-left p{ 
+      color: rgba(255,255,255,.95);
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    .band .band-right{
+      background: #e9edf0;
+      position:relative;
+    }
+    .band .band-right img{
+      width:100%;
+      height:100%;
+      object-fit: cover;
+    }
+
+    /* ICON LINE */
+    .iconline{
+      display:flex;
+      align-items:center;
+      gap: 20px;
+      margin-bottom: 14px;
+    }
+    .iconbox{
+      width: 90px;
+      height: 90px;
+      border-radius: 20px;
+      background: rgba(255,159,28,.1);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      box-shadow: 0 8px 20px rgba(0,0,0,.06);
+      flex-shrink: 0;
+    }
+    .iconbox img{
+      width: 60px;
+      height: 60px;
+      object-fit: contain;
+    }
+    .iconline h4{
+      font-size: 28px;
+      margin: 0;
+    }
+
+    /* CTA PHOTO */
+    .cta-photo{
+      position:relative;
+      padding: 90px 0;
+      background:
+        linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.6)),
+        url("cta.jpg") center/cover no-repeat;
+      color:#fff;
+      overflow:hidden;
+    }
+    .cta-photo .cta-inner{
+      text-align:center;
+      max-width: 920px;
+      margin: 0 auto;
+    }
+    .cta-photo h3{
+      color:#fff;
+      font-size: clamp(28px, 3.5vw, 42px);
+      font-weight: 700;
+      margin-bottom: 18px;
+      text-shadow: 0 14px 30px rgba(0,0,0,.4);
+      letter-spacing: -.5px;
+      line-height: 1.2;
+    }
+    .cta-photo p{
+      color: rgba(255,255,255,.95);
+      margin: 0 auto 30px;
+      max-width: 780px;
+      font-size: 17px;
+      line-height: 1.65;
+    }
+
+    /* WHY US */
+    .why{
+      display:grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap: 30px;
+      align-items: start;
+    }
+    .why .why-card{
+      background: var(--card);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 36px;
+    }
+    .why .why-card h5{
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 18px;
+      letter-spacing: -.3px;
+    }
+    .why .why-card p{
+      font-size: 16px;
+      line-height: 1.65;
+      margin-bottom: 16px;
+    }
+    .why .callout{
+      background: linear-gradient(135deg, #ffa31a, #ff9410);
+      color:#fff;
+      border-radius: 12px;
+      padding: 28px;
+      box-shadow: 0 16px 40px rgba(255,163,26,.28);
+    }
+    .why .callout p{ 
+      color: #fff;
+      margin:0;
+      font-size: 16px;
+      line-height: 1.6;
+      font-weight: 500;
+    }
+
+    /* CONTACT */
+    #contacto{
+      background: var(--bg-soft);
+      padding: 80px 0;
+    }
+    .contact-grid{
+      display:grid;
+      grid-template-columns: .9fr 1.1fr;
+      gap: 40px;
+      align-items: start;
+    }
+    .footer-mini{
+      background: #fff;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 36px;
+    }
+    .footer-mini h4{
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 14px;
+    }
+    .footer-mini p{
+      line-height: 1.65;
+    }
+    form{
+      background: #fff;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 36px;
+    }
+    form h5{
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+    label{
+      display:block;
+      font-size: 13px;
+      color:#2f3a44;
+      font-weight: 600;
+      margin: 16px 0 8px;
+    }
+    input, textarea{
+      width:100%;
+      border: 1px solid rgba(0,0,0,.12);
+      border-radius: 8px;
+      padding: 13px 14px;
+      font: inherit;
+      font-size: 14px;
+      outline: none;
+      transition: border-color .2s ease, box-shadow .2s ease;
+      background: #fff;
+    }
+    textarea{ min-height: 140px; resize: vertical; }
+    input:focus, textarea:focus{
+      border-color: rgba(255,159,28,.6);
+      box-shadow: 0 0 0 3px rgba(255,159,28,.12);
+    }
+    .form-row{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    /* FOOTER */
+    footer{
+      background: #ffffff;
+      border-top: 1px solid rgba(0,0,0,.08);
+      padding: 24px 0;
+      color: #5b6670;
+      font-size: 13px;
+    }
+    .footer-wrap{
+      display:flex;
+      align-items:center;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .social{
+      display:flex;
+      gap: 12px;
+    }
+    .social a{
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      background: rgba(0,0,0,.06);
+      transition: background .2s ease;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .social a:hover{
+      background: rgba(0,0,0,.1);
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 980px){
+      .section-grid,
+      .section-grid.reverse,
+      .band,
+      .pill-card,
+      .why,
+      .contact-grid{
+        grid-template-columns: 1fr;
+      }
+      .media img{ height: 300px; }
+      .pill-card .left{ padding: 30px; }
+      nav{ justify-content: flex-start; gap: 16px; }
+      .container{ width: calc(100% - 40px); }
+      section{ padding: 50px 0; }
+    }
+    @media (max-width: 560px){
+      .form-row{ grid-template-columns: 1fr; }
+      #corporativo{ min-width: auto; }
+      #heroe{ min-height: 400px; }
+      .hero-inner{ padding: 60px 0 120px; }
+      .content h4{ font-size: 26px; }
+      .pill-card h4{ font-size: 28px; }
+    }
+```
+
+### estilomistral
+<small>Creado: 2026-01-12 13:37</small>
+
+`estilomistral.css`
+
+```css
+:root {
+    --bg: #ffffff;
+    --bg-soft: #f8f9fa;
+    --text: #1b1f23;
+    --muted: #5b6670;
+    --green: #6f8f12;
+    --orange: #f39a1a;
+    --orange-dark: #d98206;
+    --card: #ffffff;
+    --shadow: 0 20px 44px rgba(0, 0, 0, 0.12);
+    --shadow-soft: 0 16px 36px rgba(0, 0, 0, 0.09);
+    --radius: 18px;
+    --radius-lg: 26px;
+    --container: 1120px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Arial, sans-serif;
+    color: var(--text);
+    background: var(--bg);
+    line-height: 1.45;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+p {
+    margin: 0 0 12px;
+    color: var(--muted);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0 0 10px;
+    line-height: 1.15;
+    color: var(--text);
+}
+
+.container {
+    width: min(var(--container), calc(100% - 48px));
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 14px 0;
+}
+
+#corporativo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-width: 260px;
+}
+
+#corporativo img {
+    width: 44px;
+    height: 44px;
+    object-fit: contain;
+}
+
+#corporativo .texto {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.05;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+
+#corporativo .texto .t1 {
+    font-size: 14px;
+    color: #2f3a44;
+}
+
+#corporativo .texto .t2 {
+    font-size: 12px;
+    font-weight: 600;
+    color: #6c7a86;
+    margin-top: 2px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+nav a {
+    font-size: 14px;
+    color: #2f3a44;
+    opacity: 0.85;
+    padding: 10px 12px;
+    border-radius: 10px;
+    transition: background 0.2s ease, opacity 0.2s ease;
+}
+
+nav a:hover {
+    background: rgba(0, 0, 0, 0.04);
+    opacity: 1;
+}
+
+.nav-cta {
+    margin-left: 8px;
+    background: var(--orange);
+    color: #fff;
+    padding: 10px 14px;
+    border-radius: 999px;
+    font-weight: 700;
+    box-shadow: 0 12px 26px rgba(243, 154, 26, 0.30);
+}
+
+.nav-cta:hover {
+    background: var(--orange-dark);
+}
+
+/* Buttons */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px 18px;
+    border-radius: 999px;
+    font-weight: 900;
+    font-size: 13px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    border: 0;
+    cursor: pointer;
+    transition: transform 0.15s ease, background 0.2s ease, box-shadow 0.2s ease;
+    user-select: none;
+    white-space: nowrap;
+}
+
+.btn-primary {
+    background: var(--orange);
+    color: #fff;
+    box-shadow: 0 16px 34px rgba(243, 154, 26, 0.32);
+}
+
+.btn-primary:hover {
+    background: var(--orange-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 20px 40px rgba(243, 154, 26, 0.36);
+}
+
+/* Hero */
+#heroe {
+    position: relative;
+    min-height: 430px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.65)), url("hero.jpg") center/cover no-repeat;
+}
+
+#heroe::after {
+    content: "";
+    position: absolute;
+    left: -10%;
+    right: -10%;
+    bottom: -140px;
+    height: 240px;
+    background: var(--bg);
+    border-top-left-radius: 50% 120%;
+    border-top-right-radius: 50% 120%;
+    box-shadow: 0 -30px 60px rgba(0, 0, 0, 0.06);
+}
+
+.hero-inner {
+    position: relative;
+    z-index: 2;
+    padding: 70px 0 120px;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-inner h3 {
+    color: #fff;
+    font-size: clamp(32px, 5vw, 48px);
+    font-weight: 900;
+    letter-spacing: 0.2px;
+    margin-bottom: 10px;
+    text-shadow: 0 16px 36px rgba(0, 0, 0, 0.36);
+}
+
+.hero-inner p {
+    max-width: 820px;
+    margin: 0 auto 22px;
+    color: rgba(255, 255, 255, 0.92);
+    font-size: 15px;
+}
+
+/* Sections */
+main {
+    background: var(--bg);
+}
+
+section {
+    padding: 64px 0;
+    position: relative;
+}
+
+.soft {
+    background: var(--bg-soft);
+}
+
+.section-grid {
+    display: grid;
+    grid-template-columns: 1.05fr 0.95fr;
+    gap: 42px;
+    align-items: center;
+}
+
+.section-grid.reverse {
+    grid-template-columns: 0.95fr 1.05fr;
+}
+
+.media {
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-soft);
+    background: #e9edf0;
+}
+
+.media img {
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+}
+
+.content h4 {
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+
+.content .kicker {
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: rgba(0, 0, 0, 0.04);
+    color: #2f3a44;
+    font-size: 12px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+/* Pill Card */
+.pill-card {
+    background: var(--card);
+    border-radius: 36px;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 0;
+    align-items: stretch;
+    min-height: 220px;
+}
+
+.pill-card .left {
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, rgba(111, 143, 18, 0.15), rgba(243, 154, 26, 0.08));
+}
+
+.pill-card .left img {
+    width: 150px;
+    height: 150px;
+    border-radius: 999px;
+    object-fit: cover;
+    box-shadow: 0 16px 26px rgba(0, 0, 0, 0.12);
+}
+
+.pill-card .right {
+    padding: 26px 28px;
+}
+
+.pill-card h4 {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.pill-card p {
+    max-width: 720px;
+}
+
+/* Band */
+.band {
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-soft);
+    display: grid;
+    grid-template-columns: 1.05fr 0.95fr;
+    min-height: 260px;
+}
+
+.band .band-left {
+    background: var(--green);
+    padding: 26px 26px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.band .band-left h4 {
+    color: #fff;
+    font-size: 28px;
+}
+
+.band .band-left p {
+    color: rgba(255, 255, 255, 0.92);
+}
+
+.band .band-right {
+    background: #e9edf0;
+    position: relative;
+}
+
+.band .band-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: saturate(1.05) contrast(1.02);
+}
+
+/* Iconline */
+.iconline {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 10px;
+}
+
+.iconbox {
+    width: 84px;
+    height: 84px;
+    border-radius: 24px;
+    background: rgba(243, 154, 26, 0.12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+}
+
+.iconbox img {
+    width: 56px;
+    height: 56px;
+    object-fit: contain;
+}
+
+/* CTA Photo */
+.cta-photo {
+    position: relative;
+    padding: 78px 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.55)), url("cta.jpg") center/cover no-repeat;
+    color: #fff;
+    overflow: hidden;
+}
+
+.cta-photo .cta-inner {
+    text-align: center;
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+.cta-photo h3 {
+    color: #fff;
+    font-size: clamp(26px, 3.2vw, 38px);
+    font-weight: 900;
+    margin-bottom: 12px;
+    text-shadow: 0 14px 28px rgba(0, 0, 0, 0.32);
+}
+
+.cta-photo p {
+    color: rgba(255, 255, 255, 0.92);
+    margin: 0 auto 22px;
+    max-width: 760px;
+}
+
+/* Why Us */
+.why {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 22px;
+    align-items: start;
+}
+
+.why .why-card {
+    background: var(--card);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-soft);
+    padding: 26px;
+}
+
+.why .callout {
+    background: #f7a11d;
+    color: #fff;
+    border-radius: 14px;
+    padding: 18px;
+    box-shadow: 0 18px 40px rgba(247, 161, 29, 0.25);
+}
+
+.why .callout p {
+    color: rgba(255, 255, 255, 0.95);
+    margin: 0;
+}
+
+/* Contact */
+#contacto {
+    background: #f4f5f6;
+    padding: 64px 0;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.1fr;
+    gap: 26px;
+    align-items: start;
+}
+
+.footer-mini {
+    background: #fff;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-soft);
+    padding: 22px;
+}
+
+form {
+    background: #fff;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-soft);
+    padding: 22px;
+}
+
+label {
+    display: block;
+    font-size: 12px;
+    color: #2f3a44;
+    font-weight: 800;
+    margin: 12px 0 6px;
+}
+
+input,
+textarea {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 14px;
+    padding: 14px 16px;
+    font: inherit;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    background: #fff;
+}
+
+textarea {
+    min-height: 130px;
+    resize: vertical;
+}
+
+input:focus,
+textarea:focus {
+    border-color: rgba(243, 154, 26, 0.65);
+    box-shadow: 0 0 0 5px rgba(243, 154, 26, 0.22);
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+footer {
+    background: #ffffff;
+    border-top: 1px solid rgba(0, 0, 0, 0.06);
+    padding: 18px 0;
+    color: #5b6670;
+    font-size: 12px;
+}
+
+.footer-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+.social {
+    display: flex;
+    gap: 10px;
+    opacity: 0.9;
+}
+
+.social a {
+    width: 36px;
+    height: 36px;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.06);
+}
+
+/* Responsive */
+@media (max-width: 980px) {
+    .section-grid,
+    .section-grid.reverse,
+    .band,
+    .pill-card,
+    .why,
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+    .media img {
+        height: 280px;
+    }
+    .pill-card {
+        grid-template-columns: 1fr;
+    }
+    .pill-card .left {
+        padding: 22px;
+    }
+    nav {
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 560px) {
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+    #corporativo {
+        min-width: auto;
+    }
+    #heroe {
+        min-height: 420px;
+    }
+    .hero-inner {
+        padding: 54px 0 120px;
+    }
+}
+```
+
+### index
+<small>Creado: 2026-01-12 13:46</small>
+
+`index.php`
+
+```
+<?php
+// index.php
+// SEO-friendly simple PHP templating + basic sitemap/robots endpoints.
+// - Loads template HTML + JSON data and replaces {{placeholders}}
+// - Adds gzip (if supported), ETag + cache headers
+// - Optional: serve /robots.txt and /sitemap.xml from this same file
+//   (use rewrite rules or call with ?asset=robots|sitemap)
+//
+// Files expected:
+// - 004-soloplantilla.html
+// - datos.json
+
+declare(strict_types=1);
+
+// -------------------------
+// Tiny router for assets
+// -------------------------
+$asset = $_GET['asset'] ?? '';
+if ($asset === 'robots') {
+  header('Content-Type: text/plain; charset=utf-8');
+  $host = current_host();
+  $canonical = "https://{$host}/";
+  echo "User-agent: *\n";
+  echo "Allow: /\n";
+  echo "Sitemap: {$canonical}sitemap.xml\n";
+  exit;
+}
+if ($asset === 'sitemap') {
+  header('Content-Type: application/xml; charset=utf-8');
+  $host = current_host();
+  $canonical = "https://{$host}/";
+  $today = gmdate('Y-m-d');
+  echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
+  echo "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n";
+  echo "  <url>\n";
+  echo "    <loc>" . xml($canonical) . "</loc>\n";
+  echo "    <lastmod>{$today}</lastmod>\n";
+  echo "    <changefreq>weekly</changefreq>\n";
+  echo "    <priority>1.0</priority>\n";
+  echo "  </url>\n";
+  echo "</urlset>\n";
+  exit;
+}
+
+// -------------------------
+// Output headers (HTML)
+// -------------------------
+header('Content-Type: text/html; charset=utf-8');
+
+// Enable gzip if possible (improves Core Web Vitals in many setups)
+if (!headers_sent() && extension_loaded('zlib')) {
+  @ini_set('zlib.output_compression', '1');
+}
+
+// -------------------------
+// Load files
+// -------------------------
+$templateFile = __DIR__ . '/005-plantillaSEO.html';
+$jsonFile     = __DIR__ . '/datos.json';
+
+if (!is_file($templateFile)) {
+  http_response_code(500);
+  echo "ERROR: Missing template file: 004-soloplantilla.html";
+  exit;
+}
+if (!is_file($jsonFile)) {
+  http_response_code(500);
+  echo "ERROR: Missing json file: datos.json";
+  exit;
+}
+
+$template = file_get_contents($templateFile);
+if ($template === false) {
+  http_response_code(500);
+  echo "ERROR: Cannot read 004-soloplantilla.html";
+  exit;
+}
+
+$raw = file_get_contents($jsonFile);
+if ($raw === false) {
+  http_response_code(500);
+  echo "ERROR: Cannot read datos.json";
+  exit;
+}
+
+$data = json_decode($raw, true);
+if (!is_array($data)) {
+  http_response_code(500);
+  echo "ERROR: Invalid JSON in datos.json";
+  exit;
+}
+
+// -------------------------
+// Canonical auto-fill (if you prefer not to hardcode domain in JSON)
+// -------------------------
+if (empty($data['canonical'])) {
+  $data['canonical'] = 'https://' . current_host() . '/';
+}
+
+// -------------------------
+// Replace placeholders
+// -------------------------
+$out = apply_placeholders($template, $data);
+
+// -------------------------
+// Caching: ETag (helps SEO via faster crawls + user perf)
+// -------------------------
+$etag = '"' . sha1($out) . '"';
+header('ETag: ' . $etag);
+
+// Basic cache policy (tweak as needed)
+header('Cache-Control: public, max-age=300'); // 5 min
+
+// If client sent If-None-Match and matches, return 304
+$ifNoneMatch = $_SERVER['HTTP_IF_NONE_MATCH'] ?? '';
+if ($ifNoneMatch === $etag) {
+  http_response_code(304);
+  exit;
+}
+
+echo $out;
+
+// -------------------------
+// Helpers
+// -------------------------
+function e(string $s): string {
+  return htmlspecialchars($s, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
+}
+
+function xml(string $s): string {
+  return htmlspecialchars($s, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
+}
+
+function current_host(): string {
+  $host = $_SERVER['HTTP_HOST'] ?? 'localhost';
+  // very small hardening: strip whitespace
+  $host = preg_replace('/\s+/', '', $host) ?: 'localhost';
+  return $host;
+}
+
+/**
+ * Replace {{key}} placeholders.
+ * - Escapes by default
+ * - If JSON key starts with "raw:" then it will be inserted unescaped into {{realKey}}
+ * - Leaves unknown placeholders intact
+ */
+function apply_placeholders(string $template, array $data): string {
+  foreach ($data as $key => $value) {
+    if (is_array($value) || is_object($value)) continue;
+
+    $k = (string)$key;
+    $v = (string)$value;
+
+    if (str_starts_with($k, 'raw:')) {
+      $realKey = substr($k, 4);
+      $needle  = '{{' . $realKey . '}}';
+      $template = str_replace($needle, $v, $template);
+    } else {
+      $needle  = '{{' . $k . '}}';
+      $template = str_replace($needle, e($v), $template);
+    }
+  }
+  return $template;
+}
+```
 
 
 <a id="administracion-y-configuracion"></a>
 ## Administración y configuración
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/007-Sistemas%20de%20gesti%C3%B3n%20empresarial/003-Administraci%C3%B3n%20y%20configuraci%C3%B3n)
+
+### index
+<small>Creado: 2026-01-15 14:04</small>
+
+`001-index.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Plataforma de videos</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <nav>
+      Yo soy el menú de navegación
+    </nav>
+    <main> 
+      Yo soy el contenido principal
+    </main>
+  </body>
+</html>
+```
+
+### un poco de estilo
+<small>Creado: 2026-01-15 14:10</small>
+
+`002-un poco de estilo.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Plataforma de videos</title>
+    <meta charset="utf-8">
+    <style>
+      html,body{
+        padding:0px;
+        margin:0px;
+        width:100%;
+        height:100%;
+      }
+      nav{
+        width:300px;
+        background:red;
+        position:fixed;
+        height:100%;
+        padding:20px;
+        color:white;
+        box-sizing:border-box;
+        left:-300px;
+      }
+      header,main,footer{padding:20px;}
+      header{display:flex;align-items:center;justify-content: space-between;}
+    </style>
+  </head>
+  <body>
+    <nav>
+      Yo soy el menú de navegación
+    </nav>
+    <header>
+      <h1>Logo</h1>
+      <div id="hamburguesa">☰</div>
+    </header>
+    <main> 
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
+```
+
+### menu sacado
+<small>Creado: 2026-01-15 14:10</small>
+
+`003-menu sacado.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Plataforma de videos</title>
+    <meta charset="utf-8">
+    <style>
+      html,body{
+        padding:0px;
+        margin:0px;
+        width:100%;
+        height:100%;
+      }
+      nav{
+        width:300px;
+        background:red;
+        position:fixed;
+        height:100%;
+        padding:20px;
+        color:white;
+        box-sizing:border-box;
+        left:-300px;
+        transition:all 1s;
+      }
+      .sacado{
+        left:0px;
+      }
+      header,main,footer{padding:20px;}
+      header{display:flex;align-items:center;justify-content: space-between;}
+    </style>
+  </head>
+  <body>
+    <nav>
+      Yo soy el menú de navegación
+    </nav>
+    <header>
+      <h1>Logo</h1>
+      <div id="hamburguesa">☰</div>
+    </header>
+    <main> 
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
+```
+
+### js para comportamiento dinamico
+<small>Creado: 2026-01-15 14:12</small>
+
+`004-js para comportamiento dinamico.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Plataforma de videos</title>
+    <meta charset="utf-8">
+    <style>
+      html,body{
+        padding:0px;
+        margin:0px;
+        width:100%;
+        height:100%;
+      }
+      nav{
+        width:300px;
+        background:red;
+        position:fixed;
+        height:100%;
+        padding:20px;
+        color:white;
+        box-sizing:border-box;
+        left:-300px;
+        transition:all 1s;
+      }
+      .sacado{
+        left:0px;
+      }
+      header,main,footer{padding:20px;}
+      header{display:flex;align-items:center;justify-content: space-between;}
+    </style>
+  </head>
+  <body>
+    <nav>
+      Yo soy el menú de navegación
+    </nav>
+    <header>
+      <h1>Logo</h1>
+      <div id="hamburguesa">☰</div>
+    </header>
+    <main> 
+    </main>
+    <footer>
+    </footer>
+    <script>
+      let hamburguesa = document.querySelector("#hamburguesa")
+      hamburguesa.onclick = function(){
+        let navegacion = document.querySelector("nav");
+        navegacion.classList.add("sacado");
+      }
+    </script>
+  </body>
+</html>
+```
+
+### cambiamos el estado
+<small>Creado: 2026-01-15 14:14</small>
+
+`005-cambiamos el estado.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Plataforma de videos</title>
+    <meta charset="utf-8">
+    <style>
+      html,body{
+        padding:0px;
+        margin:0px;
+        width:100%;
+        height:100%;
+      }
+      nav{
+        width:300px;
+        background:red;
+        position:fixed;
+        height:100%;
+        padding:20px;
+        color:white;
+        box-sizing:border-box;
+        left:-300px;
+        transition:all 1s;
+      }
+      .sacado{
+        left:0px;
+      }
+      header,main,footer{padding:20px;}
+      header{display:flex;align-items:center;justify-content: space-between;}
+    </style>
+  </head>
+  <body>
+    <nav>
+      Yo soy el menú de navegación
+    </nav>
+    <header>
+      <h1>Logo</h1>
+      <div id="hamburguesa">☰</div>
+    </header>
+    <main> 
+    </main>
+    <footer>
+    </footer>
+    <script>
+      let hamburguesa = document.querySelector("#hamburguesa")
+      hamburguesa.onclick = function(){
+        hamburguesa.textContent = "🗙"
+        let navegacion = document.querySelector("nav");
+        navegacion.classList.add("sacado");
+      }
+    </script>
+  </body>
+</html>
+```
+
+### creamos variable de estado
+<small>Creado: 2026-01-15 14:17</small>
+
+`006-creamos variable de estado.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Plataforma de videos</title>
+    <meta charset="utf-8">
+    <style>
+      html,body{
+        padding:0px;
+        margin:0px;
+        width:100%;
+        height:100%;
+      }
+      nav{
+        width:300px;
+        background:red;
+        position:fixed;
+        height:100%;
+        padding:20px;
+        color:white;
+        box-sizing:border-box;
+        left:-300px;
+        transition:all 1s;
+      }
+      .sacado{
+        left:0px;
+      }
+      header,main,footer{padding:20px;}
+      header{display:flex;align-items:center;justify-content: space-between;}
+    </style>
+  </head>
+  <body>
+    <nav>
+      Yo soy el menú de navegación
+    </nav>
+    <header>
+      <h1>Logo</h1>
+      <div id="hamburguesa">☰</div>
+    </header>
+    <main> 
+    </main>
+    <footer>
+    </footer>
+    <script>
+      var abierto = false;
+      let hamburguesa = document.querySelector("#hamburguesa")
+      let navegacion = document.querySelector("nav");
+      hamburguesa.onclick = function(){
+        if(abierto){
+          // Si esta abierto, ciérralo
+           hamburguesa.textContent = "☰"          // Te pongo la hamburguesa
+           navegacion.classList.remove("sacado"); // Te quito la clase sacado
+           abierto = false;
+        }else{
+          // Si está cerrado, ábrelo
+          hamburguesa.textContent = "🗙"           // Te pongo la hamburguesa
+          navegacion.classList.add("sacado");     // Te pongo la clase sacado
+          abierto = true;
+        }
+      }
+    </script>
+  </body>
+</html>
+```
+
+### fondo oscuro letra clara
+<small>Creado: 2026-01-15 14:23</small>
+
+`007-fondo oscuro letra clara.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Plataforma de videos</title>
+    <meta charset="utf-8">
+    <style>
+      html,body{
+        padding:0px;
+        margin:0px;
+        width:100%;
+        height:100%;
+        background:black;
+        color:white;
+        font-family:ubuntu,sans-serif;
+      }
+      nav{
+        width:300px;
+        background:midnightblue;
+        position:fixed;
+        height:100%;
+        padding:20px;
+        color:white;
+        box-sizing:border-box;
+        left:-300px;
+        transition:all 1s;
+      }
+      .sacado{
+        left:0px;
+      }
+      header,main,footer{padding:20px;}
+      header{display:flex;align-items:center;justify-content: space-between;}
+    </style>
+  </head>
+  <body>
+    <nav>
+      Yo soy el menú de navegación
+    </nav>
+    <header>
+      <h1>Logo</h1>
+      <div id="hamburguesa">☰</div>
+    </header>
+    <main> 
+    </main>
+    <footer>
+    </footer>
+    <script>
+      var abierto = false;
+      let hamburguesa = document.querySelector("#hamburguesa")
+      let navegacion = document.querySelector("nav");
+      hamburguesa.onclick = function(){
+        if(abierto){
+          // Si esta abierto, ciérralo
+           hamburguesa.textContent = "☰"          // Te pongo la hamburguesa
+           navegacion.classList.remove("sacado"); // Te quito la clase sacado
+           abierto = false;
+        }else{
+          // Si está cerrado, ábrelo
+          hamburguesa.textContent = "🗙"           // Te pongo la hamburguesa
+          navegacion.classList.add("sacado");     // Te pongo la clase sacado
+          abierto = true;
+        }
+      }
+    </script>
+  </body>
+</html>
+```
+
+### secciones
+<small>Creado: 2026-01-15 14:26</small>
+
+`008-secciones.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Plataforma de videos</title>
+    <meta charset="utf-8">
+    <style>
+      html,body{
+        padding:0px;
+        margin:0px;
+        width:100%;
+        height:100%;
+        background:black;
+        color:white;
+        font-family:ubuntu,sans-serif;
+      }
+      nav{
+        width:300px;
+        background:midnightblue;
+        position:fixed;
+        height:100%;
+        padding:20px;
+        color:white;
+        box-sizing:border-box;
+        left:-300px;
+        transition:all 1s;
+      }
+      .sacado{
+        left:0px;
+      }
+      header,main,footer{padding:20px;}
+      header{display:flex;align-items:center;justify-content: space-between;}
+    </style>
+  </head>
+  <body>
+    <nav>
+      Yo soy el menú de navegación
+    </nav>
+    <header>
+      <h1>Logo</h1>
+      <div id="hamburguesa">☰</div>
+    </header>
+    <main> 
+      <section>
+        <h3>Título de la sección</h3>
+        <div class="contenedor">
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+        </div>
+      </section>
+      <section>
+        <h3>Título de la sección</h3>
+        <div class="contenedor">
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+        </div>
+      </section>
+      <section>
+        <h3>Título de la sección</h3>
+        <div class="contenedor">
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+        </div>
+      </section>
+      <section>
+        <h3>Título de la sección</h3>
+        <div class="contenedor">
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+        </div>
+      </section>
+      <section>
+        <h3>Título de la sección</h3>
+        <div class="contenedor">
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+        </div>
+      </section>
+    </main>
+    <footer>
+    </footer>
+    <script>
+      var abierto = false;
+      let hamburguesa = document.querySelector("#hamburguesa")
+      let navegacion = document.querySelector("nav");
+      hamburguesa.onclick = function(){
+        if(abierto){
+          // Si esta abierto, ciérralo
+           hamburguesa.textContent = "☰"          // Te pongo la hamburguesa
+           navegacion.classList.remove("sacado"); // Te quito la clase sacado
+           abierto = false;
+        }else{
+          // Si está cerrado, ábrelo
+          hamburguesa.textContent = "🗙"           // Te pongo la hamburguesa
+          navegacion.classList.add("sacado");     // Te pongo la clase sacado
+          abierto = true;
+        }
+      }
+    </script>
+  </body>
+</html>
+```
+
+### css en las  secciones
+<small>Creado: 2026-01-15 14:32</small>
+
+`009-css en las  secciones.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Plataforma de videos</title>
+    <meta charset="utf-8">
+    <style>
+      *{margin:0px;padding:0px;}
+      html,body{
+        padding:0px;
+        margin:0px;
+        width:100%;
+        height:100%;
+        background:black;
+        color:white;
+        font-family:ubuntu,sans-serif;
+        overflow-x:hidden;
+      }
+      nav{
+        width:300px;
+        background:midnightblue;
+        position:fixed;
+        height:100%;
+        padding:20px;
+        color:white;
+        box-sizing:border-box;
+        left:-300px;
+        transition:all 1s;
+        z-index:1000;
+      }
+      .sacado{
+        left:0px;
+      }
+      header,main,footer{padding:20px;}
+      header{display:flex;align-items:center;justify-content: space-between;}
+      header{position:fixed;top:0px;width:100%;background:black;box-sizing:border-box;}
+      section{width:100%;}
+      section .contenedor{display:flex;gap:20px;width:10000px;}
+      section article{width:300px;height:150px;background:lightgrey;padding:20px;
+      box-sizing:border-box;border-radius:5px;}
+      main{padding-top:100px;}
+    </style>
+  </head>
+  <body>
+    <nav>
+      Yo soy el menú de navegación
+    </nav>
+    <header>
+      <h1>Logo</h1>
+      <div id="hamburguesa">☰</div>
+    </header>
+    <main> 
+      <section>
+        <h3>Título de la sección</h3>
+        <div class="contenedor">
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+        </div>
+      </section>
+      <section>
+        <h3>Título de la sección</h3>
+        <div class="contenedor">
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+        </div>
+      </section>
+      <section>
+        <h3>Título de la sección</h3>
+        <div class="contenedor">
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+        </div>
+      </section>
+      <section>
+        <h3>Título de la sección</h3>
+        <div class="contenedor">
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+        </div>
+      </section>
+      <section>
+        <h3>Título de la sección</h3>
+        <div class="contenedor">
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+        </div>
+      </section>
+    </main>
+    <footer>
+    </footer>
+    <script>
+      var abierto = false;
+      let hamburguesa = document.querySelector("#hamburguesa")
+      let navegacion = document.querySelector("nav");
+      hamburguesa.onclick = function(){
+        if(abierto){
+          // Si esta abierto, ciérralo
+           hamburguesa.textContent = "☰"          // Te pongo la hamburguesa
+           navegacion.classList.remove("sacado"); // Te quito la clase sacado
+           abierto = false;
+        }else{
+          // Si está cerrado, ábrelo
+          hamburguesa.textContent = "🗙"           // Te pongo la hamburguesa
+          navegacion.classList.add("sacado");     // Te pongo la clase sacado
+          abierto = true;
+        }
+      }
+    </script>
+  </body>
+</html>
+```
+
+### creo una flecha
+<small>Creado: 2026-01-15 14:38</small>
+
+`010-creo una flecha.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Plataforma de videos</title>
+    <meta charset="utf-8">
+    <style>
+      *{margin:0px;padding:0px;}
+      html,body{
+        padding:0px;
+        margin:0px;
+        width:100%;
+        height:100%;
+        background:black;
+        color:white;
+        font-family:ubuntu,sans-serif;
+        overflow-x:hidden;
+      }
+      nav{
+        width:300px;
+        background:midnightblue;
+        position:fixed;
+        height:100%;
+        padding:20px;
+        color:white;
+        box-sizing:border-box;
+        left:-300px;
+        transition:all 1s;
+        z-index:1000;
+      }
+      .sacado{
+        left:0px;
+      }
+      header,main,footer{padding:20px;}
+      header{display:flex;align-items:center;justify-content: space-between;}
+      header{position:fixed;top:0px;width:100%;background:black;box-sizing:border-box;}
+      section{width:100%;position:relative;}
+      section .contenedor{display:flex;gap:20px;width:10000px;}
+      section article{width:300px;height:150px;background:lightgrey;padding:20px;
+      box-sizing:border-box;border-radius:5px;}
+      main{padding-top:100px;}
+      .izquierda{position:absolute;top:50%;left:0px;background:black;color:white;width:40px;height:40px;font-size:40px;line-height:40px;text-align:center;border-radius:40px;}
+      .derecha{position:absolute;top:50%;right:0px;background:black;color:white;width:40px;height:40px;font-size:40px;line-height:40px;text-align:center;border-radius:40px;}
+    </style>
+  </head>
+  <body>
+    <nav>
+      Yo soy el menú de navegación
+    </nav>
+    <header>
+      <h1>Logo</h1>
+      <div id="hamburguesa">☰</div>
+    </header>
+    <main> 
+      <section>
+        <h3>Título de la sección</h3>
+        <div class="contenedor">
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+        </div>
+        <div class="izquierda">🡠</div>
+        <div class="derecha">🡢</div>
+      </section>
+      <section>
+        <h3>Título de la sección</h3>
+        <div class="contenedor">
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+        </div>
+        <div class="izquierda">🡠</div>
+        <div class="derecha">🡢</div>
+      </section>
+      <section>
+        <h3>Título de la sección</h3>
+        <div class="contenedor">
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+        </div>
+        <div class="izquierda">🡠</div>
+        <div class="derecha">🡢</div>
+      </section>
+      <section>
+        <h3>Título de la sección</h3>
+        <div class="contenedor">
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+        </div>
+        <div class="izquierda">🡠</div>
+        <div class="derecha">🡢</div>
+      </section>
+      <section>
+        <h3>Título de la sección</h3>
+        <div class="contenedor">
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+        </div>
+        <div class="izquierda">🡠</div>
+        <div class="derecha">🡢</div>
+      </section>
+      <section>
+        <h3>Título de la sección</h3>
+        <div class="contenedor">
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+        </div>
+        <div class="izquierda">🡠</div>
+        <div class="derecha">🡢</div>
+      </section>
+    </main>
+    <footer>
+    </footer>
+    <script>
+      var abierto = false;
+      let hamburguesa = document.querySelector("#hamburguesa")
+      let navegacion = document.querySelector("nav");
+      hamburguesa.onclick = function(){
+        if(abierto){
+          // Si esta abierto, ciérralo
+           hamburguesa.textContent = "☰"          // Te pongo la hamburguesa
+           navegacion.classList.remove("sacado"); // Te quito la clase sacado
+           abierto = false;
+        }else{
+          // Si está cerrado, ábrelo
+          hamburguesa.textContent = "🗙"           // Te pongo la hamburguesa
+          navegacion.classList.add("sacado");     // Te pongo la clase sacado
+          abierto = true;
+        }
+      }
+    </script>
+  </body>
+</html>
+```
+
+### comportamiento de las flechas
+<small>Creado: 2026-01-15 14:54</small>
+
+`011-comportamiento de las flechas.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Plataforma de videos</title>
+    <meta charset="utf-8">
+    <style>
+      *{margin:0px;padding:0px;}
+      html,body{
+        padding:0px;
+        margin:0px;
+        width:100%;
+        height:100%;
+        background:black;
+        color:white;
+        font-family:ubuntu,sans-serif;
+        overflow-x:hidden;
+      }
+      nav{
+        width:300px;
+        background:midnightblue;
+        position:fixed;
+        height:100%;
+        padding:20px;
+        color:white;
+        box-sizing:border-box;
+        left:-300px;
+        transition:all 1s;
+        z-index:1000;
+      }
+      .sacado{
+        left:0px;
+      }
+      header,main,footer{padding:20px;}
+      header{display:flex;align-items:center;justify-content: space-between;}
+      header{position:fixed;top:0px;width:100%;background:black;box-sizing:border-box;}
+      section{width:100%;position:relative;}
+      section .contenedor{display:flex;gap:20px;width:10000px;position:relative;transition:all 1s;left:10px;}
+      section article{width:300px;height:150px;background:lightgrey;padding:20px;
+      box-sizing:border-box;border-radius:5px;}
+      main{padding-top:100px;}
+      .izquierda{position:absolute;top:50%;left:0px;background:black;color:white;width:40px;height:40px;font-size:40px;line-height:40px;text-align:center;border-radius:40px;}
+      .derecha{position:absolute;top:50%;right:0px;background:black;color:white;width:40px;height:40px;font-size:40px;line-height:40px;text-align:center;border-radius:40px;}
+    </style>
+  </head>
+  <body>
+    <nav>
+      Yo soy el menú de navegación
+    </nav>
+    <header>
+      <h1>Logo</h1>
+      <div id="hamburguesa">☰</div>
+    </header>
+    <main> 
+      <section>
+        <h3>Título de la sección</h3>
+        <div class="contenedor" style="left:0px;">
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+        </div>
+        <div class="izquierda">🡠</div>
+        <div class="derecha">🡢</div>
+      </section>
+      <section>
+        <h3>Título de la sección</h3>
+        <div class="contenedor" style="left:0px;">
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+        </div>
+        <div class="izquierda">🡠</div>
+        <div class="derecha">🡢</div>
+      </section>
+      <section>
+        <h3>Título de la sección</h3>
+        <div class="contenedor" style="left:0px;">
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+        </div>
+        <div class="izquierda">🡠</div>
+        <div class="derecha">🡢</div>
+      </section>
+      <section>
+        <h3>Título de la sección</h3>
+        <div class="contenedor" style="left:0px;">
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+        </div>
+        <div class="izquierda">🡠</div>
+        <div class="derecha">🡢</div>
+      </section>
+      <section>
+        <h3>Título de la sección</h3>
+        <div class="contenedor" style="left:0px;">
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+        </div>
+        <div class="izquierda">🡠</div>
+        <div class="derecha">🡢</div>
+      </section>
+      <section>
+        <h3>Título de la sección</h3>
+        <div class="contenedor" style="left:0px;">
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+        </div>
+        <div class="izquierda">🡠</div>
+        <div class="derecha">🡢</div>
+      </section>
+    </main>
+    <footer>
+    </footer>
+    <script>
+      // BOTON HAMBURGUESA //////////////////////////////////////////////////////////////////////
+      var abierto = false;                                                    // creo una variable global de estilo
+      let hamburguesa = document.querySelector("#hamburguesa")                // Selecciono el boton de hamburguesa
+      let navegacion = document.querySelector("nav");                         // Selecciono el menu de navegacion
+      hamburguesa.onclick = function(){                                       // Cuando hago click en la hamburguesa
+        if(abierto){                                                          // Si el menú estaba abierto
+                                                                              // Si esta abierto, ciérralo
+           hamburguesa.textContent = "☰"                                      // Te pongo la hamburguesa
+           navegacion.classList.remove("sacado");                             // Te quito la clase sacado
+           abierto = false;                                                   // Cambio el estado de la variable
+        }else{                                                                // Si estaba cerrado
+                                                                              // Si está cerrado, ábrelo  
+          hamburguesa.textContent = "🗙"                                       // Te pongo la X
+          navegacion.classList.add("sacado");                                 // Te pongo la clase sacado
+          abierto = true;                                                     // Cambio el estado de la variable
+        }
+      }
+      // BOTONES IZQUIERDA Y DERECHA ///////////////////////////////////////////////////////////
+      let izquierdas = document.querySelectorAll(".izquierda")                // Cojo todos los botones de la izquierda
+      izquierdas.forEach(function(izquierda){                                 // Y para cada uno de ellos
+        izquierda.onclick = function(){                                       // Cuando hago click en cada boton
+          console.log("Has hecho click en un boton de la derecha")            // Lanzo un mensaje por pantalla
+          let tira = this.parentElement.querySelector(':scope > .contenedor');// Escojo la tira a modificar
+          let actual = parseFloat(tira.style.left)                            // Calculo su posicion actual
+          tira.style.left = (actual+320)+"px"                                 // Actualizo su posicion restando 320
+        }
+      })
+      let derechas = document.querySelectorAll(".derecha")                    // Cojo todos los botones de la derecha
+      derechas.forEach(function(derecha){                                     // Y para cada uno de ellos
+        derecha.onclick = function(){                                         // Cuando hago click en cada uno de ellos
+          console.log("Has hecho click en un boton de la derecha")            // Lanzo un mensaje por pantalla
+          let tira = this.parentElement.querySelector(':scope > .contenedor');// Escojo la tira a modificar
+          let actual = parseFloat(tira.style.left)                            // Calculo su posicion actual
+          tira.style.left = (actual-320)+"px"                                 // Actualizo su posicion restando 320
+        }
+      })
+    </script>
+  </body>
+</html>
+```
+
+### un poco de css para las flechas
+<small>Creado: 2026-01-15 15:02</small>
+
+`012-un poco de css para las flechas.html`
+
+```html
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Plataforma de videos</title>
+    <meta charset="utf-8">
+    <style>
+      *{margin:0px;padding:0px;}
+      html,body{
+        padding:0px;
+        margin:0px;
+        width:100%;
+        height:100%;
+        background:black;
+        color:white;
+        font-family:ubuntu,sans-serif;
+        overflow-x:hidden;
+      }
+      nav{
+        width:300px;
+        background:midnightblue;
+        position:fixed;
+        height:100%;
+        padding:20px;
+        color:white;
+        box-sizing:border-box;
+        left:-300px;
+        transition:all 1s;
+        z-index:1000;
+      }
+      .sacado{
+        left:0px;
+      }
+      header,main,footer{padding:20px;}
+      header{display:flex;align-items:center;justify-content: space-between;}
+      header{position:fixed;top:0px;width:100%;background:black;box-sizing:border-box;}
+      section{width:100%;position:relative;}
+      section .contenedor{display:flex;gap:20px;width:10000px;position:relative;transition:all 1s;left:10px;}
+      section article{width:300px;height:150px;background:lightgrey;padding:20px;
+      box-sizing:border-box;border-radius:5px;}
+      main{padding-top:100px;}
+      .izquierda{position:absolute;top:50%;left:0px;background:black;color:white;width:40px;height:40px;font-size:20px;line-height:40px;text-align:center;border-radius:40px;transition:all 1s;opacity:0.1;font-weight:bold;}
+      .derecha{position:absolute;top:50%;right:0px;background:black;color:white;width:40px;height:40px;font-size:20px;line-height:40px;text-align:center;border-radius:40px;transition:all 1s;opacity:0.1;font-weight:bold;}
+      .izquierda:hover,.derecha:hover{opacity:0.9;}
+    </style>
+  </head>
+  <body>
+    <nav>
+      Yo soy el menú de navegación
+    </nav>
+    <header>
+      <h1>Logo</h1>
+      <div id="hamburguesa">☰</div>
+    </header>
+    <main> 
+      <section>
+        <h3>Título de la sección</h3>
+        <div class="contenedor" style="left:0px;">
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+        </div>
+        <div class="izquierda">🡠</div>
+        <div class="derecha">🡢</div>
+      </section>
+      <section>
+        <h3>Título de la sección</h3>
+        <div class="contenedor" style="left:0px;">
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+        </div>
+        <div class="izquierda">🡠</div>
+        <div class="derecha">🡢</div>
+      </section>
+      <section>
+        <h3>Título de la sección</h3>
+        <div class="contenedor" style="left:0px;">
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+        </div>
+        <div class="izquierda">🡠</div>
+        <div class="derecha">🡢</div>
+      </section>
+      <section>
+        <h3>Título de la sección</h3>
+        <div class="contenedor" style="left:0px;">
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+        </div>
+        <div class="izquierda">🡠</div>
+        <div class="derecha">🡢</div>
+      </section>
+      <section>
+        <h3>Título de la sección</h3>
+        <div class="contenedor" style="left:0px;">
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+        </div>
+        <div class="izquierda">🡠</div>
+        <div class="derecha">🡢</div>
+      </section>
+      <section>
+        <h3>Título de la sección</h3>
+        <div class="contenedor" style="left:0px;">
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+          <article>Nombre</article>
+        </div>
+        <div class="izquierda">🡠</div>
+        <div class="derecha">🡢</div>
+      </section>
+    </main>
+    <footer>
+    </footer>
+    <script>
+      // BOTON HAMBURGUESA //////////////////////////////////////////////////////////////////////
+      var abierto = false;                                                    // creo una variable global de estilo
+      let hamburguesa = document.querySelector("#hamburguesa")                // Selecciono el boton de hamburguesa
+      let navegacion = document.querySelector("nav");                         // Selecciono el menu de navegacion
+      hamburguesa.onclick = function(){                                       // Cuando hago click en la hamburguesa
+        if(abierto){                                                          // Si el menú estaba abierto
+                                                                              // Si esta abierto, ciérralo
+           hamburguesa.textContent = "☰"                                      // Te pongo la hamburguesa
+           navegacion.classList.remove("sacado");                             // Te quito la clase sacado
+           abierto = false;                                                   // Cambio el estado de la variable
+        }else{                                                                // Si estaba cerrado
+                                                                              // Si está cerrado, ábrelo  
+          hamburguesa.textContent = "🗙"                                       // Te pongo la X
+          navegacion.classList.add("sacado");                                 // Te pongo la clase sacado
+          abierto = true;                                                     // Cambio el estado de la variable
+        }
+      }
+      // BOTONES IZQUIERDA Y DERECHA ///////////////////////////////////////////////////////////
+      let izquierdas = document.querySelectorAll(".izquierda")                // Cojo todos los botones de la izquierda
+      izquierdas.forEach(function(izquierda){                                 // Y para cada uno de ellos
+        izquierda.onclick = function(){                                       // Cuando hago click en cada boton
+          console.log("Has hecho click en un boton de la derecha")            // Lanzo un mensaje por pantalla
+          let tira = this.parentElement.querySelector(':scope > .contenedor');// Escojo la tira a modificar
+          let actual = parseFloat(tira.style.left)                            // Calculo su posicion actual
+          tira.style.left = (actual+320)+"px"                                 // Actualizo su posicion restando 320
+        }
+      })
+      let derechas = document.querySelectorAll(".derecha")                    // Cojo todos los botones de la derecha
+      derechas.forEach(function(derecha){                                     // Y para cada uno de ellos
+        derecha.onclick = function(){                                         // Cuando hago click en cada uno de ellos
+          console.log("Has hecho click en un boton de la derecha")            // Lanzo un mensaje por pantalla
+          let tira = this.parentElement.querySelector(':scope > .contenedor');// Escojo la tira a modificar
+          let actual = parseFloat(tira.style.left)                            // Calculo su posicion actual
+          tira.style.left = (actual-320)+"px"                                 // Actualizo su posicion restando 320
+        }
+      })
+    </script>
+  </body>
+</html>
+```
+
 
 <a id="integracion-de-modulos"></a>
 ## Integración de módulos
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/007-Sistemas%20de%20gesti%C3%B3n%20empresarial/004-Integraci%C3%B3n%20de%20m%C3%B3dulos)
 
 
 <a id="mecanismos-de-acceso-seguro-a-la-informacion-roles-y-privilegios"></a>
 ## Mecanismos de acceso seguro a la información. Roles y privilegios
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/007-Sistemas%20de%20gesti%C3%B3n%20empresarial/005-Mecanismos%20de%20acceso%20seguro%20a%20la%20informaci%C3%B3n.%20Roles%20y%20privilegios)
+
 
 <a id="elaboracion-de-informes"></a>
 ## Elaboración de informes
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/007-Sistemas%20de%20gesti%C3%B3n%20empresarial/006-Elaboraci%C3%B3n%20de%20informes)
 
 
 <a id="exportacion-de-informacion"></a>
 ## Exportación de información
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/007-Sistemas%20de%20gesti%C3%B3n%20empresarial/007-Exportaci%C3%B3n%20de%20informaci%C3%B3n)
+
 
 <a id="elaboracion-de-documentacion"></a>
 ## Elaboración de documentación
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/007-Sistemas%20de%20gesti%C3%B3n%20empresarial/008-Elaboraci%C3%B3n%20de%20documentaci%C3%B3n)
 
 
 
@@ -20590,6 +35545,8 @@ body {
 
 <a id="formateo-inicial"></a>
 ## Formateo inicial
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/008-Envio%20de%20emails/001-Formateo%20inicial)
 
 ### Introducción a los ejercicios
 
@@ -21830,6 +36787,8 @@ This should give you a cleaner, more functional email template that looks great 
 
 <a id="la-milla-extra-primera-evaluacion"></a>
 ## La Milla Extra - Primera evaluación
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/201-Actividad%20libre%20de%20final%20de%20evaluaci%C3%B3n%20-%20La%20milla%20extra/001-La%20Milla%20Extra%20-%20Primera%20evaluaci%C3%B3n)
 
 ### Introducción a los ejercicios
 

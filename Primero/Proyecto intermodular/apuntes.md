@@ -64,6 +64,8 @@
   - [Primer contacto con PHP](#primer-contacto-con-php)
   - [proyecto ollama menus saludables](#proyecto-ollama-menus-saludables)
   - [Proyecto ollama curriculums](#proyecto-ollama-curriculums)
+  - [Web con panel de control](#web-con-panel-de-control)
+  - [creador de muchos articulso de blog](#creador-de-muchos-articulso-de-blog)
 - [Actividad libre de final de evaluación - La milla extra](#actividad-libre-de-final-de-evaluacion-la-milla-extra)
   - [La Milla Extra - Primera evaluación](#la-milla-extra-primera-evaluacion)
 - [Carpeta sin título](#carpeta-sin-titulo)
@@ -75,6 +77,8 @@
 
 <a id="identificar-empresas-representativas"></a>
 ## Identificar empresas representativas
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/001-B%C3%BAsqueda%20de%20informaci%C3%B3n/001-Identificar%20empresas%20representativas)
 
 ### Introducción a los ejercicios
 
@@ -128,6 +132,8 @@ En esta carpeta encontrarás un ejercicio que te ayudará a comprender mejor el 
 <a id="estructura-de-las-empresas"></a>
 ## Estructura de las empresas
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/001-B%C3%BAsqueda%20de%20informaci%C3%B3n/002-Estructura%20de%20las%20empresas)
+
 ### Introducción a los ejercicios
 
 Este conjunto de ejercicios se centra en la búsqueda y análisis de información sobre el tamaño y estructura del mercado de empresas tecnológicas, específicamente en inteligencia artificial (IA), en la ciudad de Valencia. Los estudiantes explorarán datos clave para entender el entorno empresarial actual, identificar oportunidades en diferentes sectores y evaluar las amenazas que enfrentan al competir en este mercado emergente. Se practicarán competencias como análisis de datos, evaluación del potencial comercial, identificación de nichos competitivos y estrategia empresarial para nuevos proyectos tecnológicos.
@@ -178,6 +184,8 @@ Este conjunto de ejercicios se centra en la búsqueda y análisis de informació
 <a id="caracteristicas-de-los-departamentos"></a>
 ## Caracteristicas de los departamentos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/001-B%C3%BAsqueda%20de%20informaci%C3%B3n/003-Caracteristicas%20de%20los%20departamentos)
+
 ### Introducción a los ejercicios
 
 Este archivo es una guía práctica sobre cómo abordar diferentes departamentos dentro de las pymes y empresas de inteligencia artificial (IA). La idea principal es entender quién decide, quién usa, quién bloquea y dónde duele en cada departamento para poder orientar la oferta y el discurso de productos relacionados con IA. El ejercicio se enfoca en comprender los roles típicos dentro de departamentos como Dirección, Operaciones, Marketing, Ventas, entre otros, tanto en clientes potenciales (pymes) como en competidores (empresas de IA). También se practica la identificación de puntos débiles y fortalezas en cada departamento para poder elaborar estrategias más efectivas. Se enfatiza la importancia de personalizar las soluciones según el tamaño del cliente y su sector específico, así como cómo abordar los bloqueadores legales o técnicos que puedan surgir durante la implementación de nuevas tecnologías.
@@ -221,6 +229,8 @@ Estas actividades ayudarán a los estudiantes a comprender mejor la estructura o
 
 <a id="funciones-de-cada-departamento"></a>
 ## Funciones de cada departamento
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/001-B%C3%BAsqueda%20de%20informaci%C3%B3n/004-Funciones%20de%20cada%20departamento)
 
 ### Introducción a los ejercicios
 
@@ -273,6 +283,8 @@ A través de este ejercicio, se enfatiza la importancia de la organización del 
 
 <a id="evaluacion-del-volumen-de-negocio"></a>
 ## Evaluacion del volumen de negocio
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/001-B%C3%BAsqueda%20de%20informaci%C3%B3n/005-Evaluacion%20del%20volumen%20de%20negocio)
 
 ### Introducción a los ejercicios
 
@@ -348,6 +360,8 @@ Aprender a redactar informes financieros estructurados que analicen la viabilida
 <a id="estrategia-para-dar-respuesta-a-las-demandas"></a>
 ## Estrategia para dar respuesta a las demandas
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/001-B%C3%BAsqueda%20de%20informaci%C3%B3n/006-Estrategia%20para%20dar%20respuesta%20a%20las%20demandas)
+
 ### Introducción a los ejercicios
 
 En esta carpeta, se encuentran dos ejercicios relacionados con la identificación de demandas y soluciones tecnológicas en el ámbito empresarial, específicamente para pequeñas y medianas empresas (Pymes) valencianas. El primer ejercicio analiza las necesidades de diferentes áreas funcionales dentro de una empresa, como dirección estratégica, producción, logística, ventas y marketing, entre otras, con énfasis en cómo la inteligencia artificial puede ayudar a resolver problemas específicos. El segundo ejercicio se centra en el sector educativo para explorar similares demandas pero adaptadas al entorno académico. Estos ejercicios buscan desarrollar competencias en análisis de requerimientos del mercado, diseño de soluciones tecnológicas y estrategia comercial orientada a la innovación.
@@ -389,6 +403,8 @@ Estas actividades están diseñadas para que los estudiantes apliquen lo aprendi
 
 <a id="valoracion-de-recursos-humanos-y-materiales"></a>
 ## Valoracion de recursos humanos y materiales
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/001-B%C3%BAsqueda%20de%20informaci%C3%B3n/007-Valoracion%20de%20recursos%20humanos%20y%20materiales)
 
 ### Introducción a los ejercicios
 
@@ -460,13 +476,19 @@ En esta carpeta de ejercicios se aborda la planificación y valoración de recur
 <a id="realizacion-de-seguimiento"></a>
 ## Realización de seguimiento
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/001-B%C3%BAsqueda%20de%20informaci%C3%B3n/008-Realizaci%C3%B3n%20de%20seguimiento)
+
 
 <a id="desarrollo-sostenible"></a>
 ## Desarrollo sostenible
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/001-B%C3%BAsqueda%20de%20informaci%C3%B3n/009-Desarrollo%20sostenible)
+
 
 <a id="conexion-intermodular"></a>
 ## Conexion intermodular
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/001-B%C3%BAsqueda%20de%20informaci%C3%B3n/010-Conexion%20intermodular)
 
 ### Introducción a los ejercicios
 
@@ -1571,6 +1593,8 @@ Estos ejercicios te permitirán familiarizarte con la creación de páginas web 
 <a id="identificar-las-necesidades"></a>
 ## Identificar las necesidades
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/002-Selecci%C3%B3n%20de%20un%20servicio%20o%20producto/001-Identificar%20las%20necesidades)
+
 ### Introducción a los ejercicios
 
 En esta carpeta se encuentran ejercicios diseñados para que los estudiantes de primer curso exploren cómo aplicaciones web pueden mejorar procesos en diversos sectores profesionales. Los ejercicios enfatizan la identificación de necesidades y problemáticas reales en campos como el deporte, hostelería u otros conocidos por cada estudiante. Se practican habilidades esenciales como el desarrollo de interfaces para usuarios finales y paneles administrativos, gestión de bases de datos, almacenamiento y manipulación de datos, y la capacidad de iterar y escalar soluciones conforme se van identificando nuevas necesidades.
@@ -1649,41 +1673,3579 @@ Estas actividades buscan capacitar a los estudiantes no solo técnicamente sino 
 <a id="plantear-posibles-soluciones"></a>
 ## Plantear posibles soluciones
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/002-Selecci%C3%B3n%20de%20un%20servicio%20o%20producto/002-Plantear%20posibles%20soluciones)
+
 
 <a id="informacion-relativa-a-las-soluciones"></a>
 ## Información relativa a las soluciones
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/002-Selecci%C3%B3n%20de%20un%20servicio%20o%20producto/003-Informaci%C3%B3n%20relativa%20a%20las%20soluciones)
+
+### producto
+<small>Creado: 2025-12-15 14:48</small>
+
+`producto.php`
+
+```
+<?php
+// producto.php — XML + XSD (con <media><image/>) + diseño Appleweb-like (tu estilo)
+
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+function h($s){ return htmlspecialchars((string)$s, ENT_QUOTES, 'UTF-8'); }
+
+// -------------------------------
+// 1) Cargar XML de producto
+//    Uso: producto.php?file=db/productos/gestion-academica-pro.xml
+// -------------------------------
+$defaultXml = __DIR__ . "/producto.xml";
+$xmlFile = $_GET['file'] ?? $defaultXml;
+
+// Permitir rutas relativas simples dentro del proyecto (sin ../)
+if (!preg_match('/^[a-zA-Z0-9_\-\/\.]+$/', (string)$xmlFile) || str_contains((string)$xmlFile, '..')) {
+  $xmlFile = $defaultXml;
+}
+if (!str_starts_with((string)$xmlFile, '/')) {
+  $xmlFile = __DIR__ . '/' . ltrim((string)$xmlFile, '/');
+}
+
+if (!file_exists($xmlFile)) {
+  http_response_code(404);
+  die("XML no encontrado: ".h($xmlFile));
+}
+
+libxml_use_internal_errors(true);
+$xml = simplexml_load_file($xmlFile);
+if (!$xml) {
+  http_response_code(500);
+  $errs = libxml_get_errors();
+  echo "Error leyendo XML<br>";
+  foreach($errs as $e){ echo h($e->message)."<br>"; }
+  exit;
+}
+
+// -------------------------------
+// Helpers
+// -------------------------------
+function nodes_to_array($nodes) {
+  $out = [];
+  if (!$nodes) return $out;
+  foreach ($nodes as $n) $out[] = trim((string)$n);
+  return $out;
+}
+
+function read_image($node): array {
+  // Devuelve ['src'=>..., 'alt'=>...] o ['src'=>'','alt'=>'']
+  $src = "";
+  $alt = "";
+  if (isset($node->media->image)) {
+    $src = (string)($node->media->image['src'] ?? '');
+    $alt = (string)($node->media->image['alt'] ?? '');
+  }
+  return ['src'=>$src, 'alt'=>$alt];
+}
+
+function safe_img_src($src): string {
+  // Acepta http(s) y rutas relativas simples (sin ../)
+  $src = trim((string)$src);
+  if ($src === "") return "";
+  if (str_contains($src, '..')) return "";
+  if (preg_match('#^https?://#i', $src)) return $src;
+  // ruta relativa
+  if (!preg_match('/^[a-zA-Z0-9_\-\/\.\%\=\?\&]+$/', $src)) return "";
+  return $src;
+}
+
+// -------------------------------
+// Datos
+// -------------------------------
+$metaTitle = (string)($xml->meta->title ?? $xml->hero->name ?? "Producto");
+
+$heroImg   = read_image($xml->hero);
+$heroName  = (string)($xml->hero->name ?? "");
+$heroValue = (string)($xml->hero->valueProposition ?? "");
+$heroSub   = (string)($xml->hero->subtitle ?? "");
+
+$heroActions = [];
+if (isset($xml->hero->actions->action)) {
+  foreach ($xml->hero->actions->action as $a) {
+    $heroActions[] = [
+      'type' => (string)($a['type'] ?? ''),
+      'text' => trim((string)$a),
+    ];
+  }
+}
+$badges = nodes_to_array($xml->hero->badges->badge ?? null);
+
+// Secciones + imagen
+$problemImg   = read_image($xml->problem);
+$problemTitle = (string)($xml->problem->title ?? "Problemas");
+$problemItems = nodes_to_array($xml->problem->items->item ?? null);
+
+$solutionImg    = read_image($xml->solution);
+$solutionTitle  = (string)($xml->solution->title ?? "La solución");
+$solutionOverview = (string)($xml->solution->overview ?? "");
+$solutionChanges  = nodes_to_array($xml->solution->whatChanges->change ?? null);
+
+$featuresImg   = read_image($xml->keyFeatures);
+$featuresTitle = (string)($xml->keyFeatures->title ?? "Funcionalidades");
+$features = [];
+if (isset($xml->keyFeatures->feature)) {
+  foreach ($xml->keyFeatures->feature as $f) {
+    $features[] = ['name'=>(string)$f->name, 'benefit'=>(string)$f->benefit];
+  }
+}
+
+$audImg   = read_image($xml->targetAudience);
+$audTitle = (string)($xml->targetAudience->title ?? "¿Para quién es?");
+$profiles = [];
+if (isset($xml->targetAudience->profiles->profile)) {
+  foreach ($xml->targetAudience->profiles->profile as $p) {
+    $profiles[] = ['name'=>(string)$p->name, 'fit'=>(string)$p->fit];
+  }
+}
+
+$useImg   = read_image($xml->useCases);
+$useTitle = (string)($xml->useCases->title ?? "Casos de uso");
+$useCases = [];
+if (isset($xml->useCases->case)) {
+  foreach ($xml->useCases->case as $c) {
+    $useCases[] = ['name'=>(string)$c->name, 'description'=>(string)$c->description];
+  }
+}
+
+$benefitsImg   = read_image($xml->benefits);
+$benefitsTitle = (string)($xml->benefits->title ?? "Beneficios");
+$benefitItems  = nodes_to_array($xml->benefits->items->item ?? null);
+
+$integrationsImg   = isset($xml->integrations) ? read_image($xml->integrations) : ['src'=>'','alt'=>''];
+$integrationsTitle = (string)($xml->integrations->title ?? "");
+$integrationsNotes = (string)($xml->integrations->notes ?? "");
+$integrationsItems = nodes_to_array($xml->integrations->items->item ?? null);
+
+$trustImg    = read_image($xml->trust);
+$trustTitle  = (string)($xml->trust->title ?? "Confianza");
+$trustPoints = nodes_to_array($xml->trust->points->point ?? null);
+
+$ctaImg   = read_image($xml->finalCTA);
+$ctaTitle = (string)($xml->finalCTA->title ?? "¿Hablamos?");
+$ctaDesc  = (string)($xml->finalCTA->description ?? "");
+
+$ctaActions = [];
+if (isset($xml->finalCTA->actions->action)) {
+  foreach ($xml->finalCTA->actions->action as $a) {
+    $ctaActions[] = ['type'=>(string)($a['type'] ?? ''), 'text'=>trim((string)$a)];
+  }
+}
+
+$contactEmail = (string)($xml->finalCTA->contact->email ?? "");
+$formFields = [];
+if (isset($xml->finalCTA->contact->form->field)) {
+  foreach ($xml->finalCTA->contact->form->field as $f) {
+    $formFields[] = [
+      'name' => (string)($f['name'] ?? ''),
+      'type' => (string)($f['type'] ?? 'text'),
+      'required' => ((string)($f['required'] ?? 'false')) === 'true',
+    ];
+  }
+}
+
+$faqImg   = read_image($xml->faq);
+$faqTitle = (string)($xml->faq->title ?? "Preguntas frecuentes");
+$faqs = [];
+if (isset($xml->faq->qa)) {
+  foreach ($xml->faq->qa as $qa) {
+    $faqs[] = ['q'=>(string)$qa->q, 'a'=>(string)$qa->a];
+  }
+}
+
+$footerSummary = (string)($xml->footer->summary ?? "");
+
+// Header/footer JSON como tu web
+$cats = [];
+$catsFile = __DIR__ . "/db/categorias.json";
+if (file_exists($catsFile)) {
+  $cats = json_decode(file_get_contents($catsFile), true);
+  if (!is_array($cats)) $cats = [];
+}
+$footerJson = [];
+$footerFile = __DIR__ . "/db/piedepagina.json";
+if (file_exists($footerFile)) {
+  $footerJson = json_decode(file_get_contents($footerFile), true);
+  if (!is_array($footerJson)) $footerJson = [];
+}
+
+// Render helper (imagen en cabecera de article)
+function render_article_image(array $img){
+  $src = safe_img_src($img['src'] ?? '');
+  if ($src === "") return;
+  $alt = trim((string)($img['alt'] ?? ''));
+  ?>
+  <div class="articleMedia">
+    <img src="<?= h($src) ?>" alt="<?= h($alt) ?>" loading="lazy">
+  </div>
+  <?php
+}
+?>
+<!doctype html>
+<html lang="es">
+  <head>
+    <title><?= h($metaTitle) ?> · jocarsa</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style>
+      @font-face {font-family: Ubuntu;src: url(estilo/Ubuntu-R.ttf);}
+      @font-face {font-family: UbuntuB;src: url(estilo/Ubuntu-B.ttf);}
+
+      html,body{padding:0;margin:0;font-family:Ubuntu,sans-serif;width:100%;height:100%;background:#fff;color:#111;}
+
+      header{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        box-shadow:0px 2px 4px rgba(0,0,0,0.3);
+        gap:20px;
+        padding:10px;
+        position:sticky;top:0;
+        background:rgba(255,255,255,0.95);
+        backdrop-filter:saturate(180%) blur(12px);
+        z-index:10;
+      }
+      header img{width:30px;}
+      header a{text-decoration:none;color:indigo;font-size:11px;}
+
+      .wrap{width:min(1100px, calc(100% - 24px)); margin:0 auto;}
+
+      .hero{padding:60px 0 30px 0;text-align:center;}
+      .hero h1{font-family:UbuntuB,Ubuntu,sans-serif;font-size:52px;margin:0;letter-spacing:-0.5px;}
+      .hero .value{font-size:18px;color:#333;margin:14px 0 0 0;}
+      .hero .sub{font-size:14px;color:#666;margin:10px 0 0 0;line-height:1.5;}
+
+      .badges{margin-top:16px;display:flex;justify-content:center;gap:10px;flex-wrap:wrap;}
+      .badge{font-size:11px;padding:6px 10px;border-radius:999px;background:rgba(75,0,130,0.08);color:indigo;border:1px solid rgba(75,0,130,0.15);}
+
+      .actions{margin-top:22px;display:flex;justify-content:center;gap:10px;flex-wrap:wrap;}
+      .btn{text-decoration:none;padding:10px 18px;border-radius:999px;font-size:12px;display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(0,0,0,0.12);background:#fff;color:#111;}
+      .btn.primary{background:indigo;border-color:indigo;color:#fff;}
+
+      main{width:100%;display:grid;grid-template-columns:1fr;gap:10px;padding:10px 0 30px 0;}
+
+      main article{
+        width:100%;
+        min-height:360px;
+        display:flex;
+        justify-content:flex-start;
+        align-items:center;
+        background:linear-gradient(180deg, #f2f2f7, #ffffff);
+        flex-direction:column;
+        gap:12px;
+        border-radius:18px;
+        border:1px solid rgba(0,0,0,0.08);
+        box-shadow:0px 10px 30px rgba(0,0,0,0.06);
+        padding:0px;
+        box-sizing:border-box;
+        overflow:hidden;
+        position:relative;
+      }
+
+      /* IMAGEN ARRIBA DEL ARTICLE ////////////////////////////// */
+      .articleMedia{
+        width:100%;
+        height:170px;
+        overflow:hidden;
+        background:rgba(0,0,0,0.03);
+        border-bottom:1px solid rgba(0,0,0,0.06);
+      }
+      .articleMedia img{
+        width:100%;
+        height:100%;
+        object-fit:cover;
+        display:block;
+        transform:scale(1.02);
+      }
+
+      .articleBody{
+        width:100%;
+        padding:22px 24px 24px 24px;
+        box-sizing:border-box;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        gap:12px;
+      }
+
+      main article h3, main article h4{padding:0;margin:0;text-align:center;}
+      main article h3{font-family:UbuntuB,Ubuntu,sans-serif;font-size:28px;letter-spacing:-0.3px;}
+      main article h4{font-size:13px;color:#555;font-weight:normal;line-height:1.5;max-width:760px;}
+
+      .content{width:min(900px, 100%);display:flex;flex-direction:column;gap:10px;}
+
+      .list{
+        width:min(900px, 100%);
+        margin:0 auto;
+        padding:0;
+        list-style:none;
+        display:flex;
+        flex-direction:column;
+        gap:8px;
+      }
+      .list li{
+        background:rgba(255,255,255,0.7);
+        border:1px solid rgba(0,0,0,0.06);
+        border-radius:12px;
+        padding:10px 12px;
+        font-size:13px;
+        line-height:1.45;
+      }
+
+      .twocol{width:min(900px, 100%);display:grid;grid-template-columns:1fr;gap:10px;}
+      .card{
+        background:rgba(255,255,255,0.7);
+        border:1px solid rgba(0,0,0,0.06);
+        border-radius:14px;
+        padding:14px;
+        display:flex;
+        flex-direction:column;
+        gap:6px;
+        min-height:120px;
+      }
+      .card b{font-family:UbuntuB,Ubuntu,sans-serif;}
+      .card p{margin:0;font-size:13px;color:#444;line-height:1.45;}
+
+      main article:nth-child(-n+3){grid-column:1 / -1;}
+
+      @media (min-width:600px){
+        main{grid-template-columns:1fr 1fr;}
+        main article:nth-child(-n+3){grid-column:1 / -1;}
+        .twocol{grid-template-columns:1fr 1fr;}
+        .articleMedia{height:190px;}
+      }
+
+      details{
+        width:min(900px, 100%);
+        background:rgba(255,255,255,0.7);
+        border:1px solid rgba(0,0,0,0.06);
+        border-radius:14px;
+        padding:12px 14px;
+      }
+      summary{cursor:pointer;font-family:UbuntuB,Ubuntu,sans-serif;font-size:13px;color:#111;}
+      details p{margin:10px 0 0 0;font-size:13px;color:#444;line-height:1.5;}
+
+      .ctaBox{width:min(900px, 100%);display:flex;flex-direction:column;gap:10px;align-items:center;}
+      .mini{font-size:12px;color:#666;text-align:center;line-height:1.45;}
+      .email{font-size:12px;color:indigo;text-decoration:none;}
+
+      form{width:min(650px, 100%);display:grid;grid-template-columns:1fr;gap:10px;margin-top:6px;}
+      input, textarea, select{
+        width:100%;
+        padding:12px 12px;
+        border-radius:12px;
+        border:1px solid rgba(0,0,0,0.12);
+        font-family:Ubuntu,sans-serif;
+        font-size:13px;
+        box-sizing:border-box;
+        outline:none;
+      }
+      textarea{min-height:120px;resize:vertical;}
+      .submit{
+        background:indigo;border:1px solid indigo;color:white;
+        padding:12px 16px;border-radius:999px;cursor:pointer;
+        font-size:12px;justify-self:center;width:220px;
+      }
+
+      footer{
+        display:flex;justify-content:center;gap:20px;
+        padding:20px;font-size:11px;border-top:1px solid rgba(0,0,0,0.08);
+      }
+      footer article{display:flex;flex-direction:column;gap:10px;}
+      footer article a{text-decoration:none;color:indigo;}
+      .footerSummary{padding:0 0 30px 0;text-align:center;color:#666;font-size:11px;}
+    </style>
+  </head>
+  <body>
+
+    <header>
+      <a href="index.php"><img src="https://static.jocarsa.com/logos/jocarsa%20%7C%20Indigo.svg" alt="jocarsa"></a>
+      <?php for($i=0;$i<count($cats);$i++){ ?>
+        <a href="index.php?cat=<?= h($cats[$i]) ?>"><?= h($cats[$i]) ?></a>
+      <?php } ?>
+    </header>
+
+    <section class="hero">
+      <div class="wrap">
+        <?php
+          $heroSrc = safe_img_src($heroImg['src'] ?? '');
+          if ($heroSrc !== "") { ?>
+            <div style="width:min(1100px, calc(100% - 24px));margin:0 auto 18px auto;border-radius:18px;overflow:hidden;border:1px solid rgba(0,0,0,0.08);box-shadow:0px 10px 30px rgba(0,0,0,0.06);">
+              <img src="<?= h($heroSrc) ?>" alt="<?= h($heroImg['alt'] ?? '') ?>" style="width:100%;height:240px;object-fit:cover;display:block;">
+            </div>
+        <?php } ?>
+
+        <h1><?= h($heroName ?: $metaTitle) ?></h1>
+        <?php if($heroValue !== ""){ ?><p class="value"><?= h($heroValue) ?></p><?php } ?>
+        <?php if($heroSub !== ""){ ?><p class="sub"><?= h($heroSub) ?></p><?php } ?>
+
+        <?php if(count($badges)){ ?>
+          <div class="badges">
+            <?php foreach($badges as $b){ ?><span class="badge"><?= h($b) ?></span><?php } ?>
+          </div>
+        <?php } ?>
+
+        <?php if(count($heroActions)){ ?>
+          <div class="actions">
+            <?php foreach($heroActions as $a){
+              $cls = ($a['type']==='primary') ? 'btn primary' : 'btn';
+              $anchor = '#contacto';
+              if (stripos($a['text'], 'cómo') !== false || stripos($a['text'], 'funciona') !== false) $anchor = '#como';
+              if (stripos($a['text'], 'contact') !== false) $anchor = '#contacto';
+            ?>
+              <a class="<?= h($cls) ?>" href="<?= h($anchor) ?>"><?= h($a['text']) ?></a>
+            <?php } ?>
+          </div>
+        <?php } ?>
+      </div>
+    </section>
+
+    <main class="wrap">
+
+      <article id="problema">
+        <?php render_article_image($problemImg); ?>
+        <div class="articleBody">
+          <h3><?= h($problemTitle) ?></h3>
+          <h4>Lo que normalmente frena a un centro cuando quiere crecer sin perder control.</h4>
+          <ul class="list">
+            <?php foreach($problemItems as $it){ ?><li><?= h($it) ?></li><?php } ?>
+          </ul>
+        </div>
+      </article>
+
+      <article id="solucion">
+        <?php render_article_image($solutionImg); ?>
+        <div class="articleBody">
+          <h3><?= h($solutionTitle) ?></h3>
+          <div class="content">
+            <?php if($solutionOverview !== ""){ ?><h4><?= h($solutionOverview) ?></h4><?php } ?>
+            <?php if(count($solutionChanges)){ ?>
+              <ul class="list">
+                <?php foreach($solutionChanges as $ch){ ?><li><?= h($ch) ?></li><?php } ?>
+              </ul>
+            <?php } ?>
+          </div>
+        </div>
+      </article>
+
+      <article id="como">
+        <?php render_article_image($featuresImg); ?>
+        <div class="articleBody">
+          <h3><?= h($featuresTitle) ?></h3>
+          <h4>Lo esencial, explicado desde el beneficio.</h4>
+          <div class="twocol">
+            <?php foreach($features as $f){ ?>
+              <div class="card">
+                <b><?= h($f['name']) ?></b>
+                <p><?= h($f['benefit']) ?></p>
+              </div>
+            <?php } ?>
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <?php render_article_image($audImg); ?>
+        <div class="articleBody">
+          <h3><?= h($audTitle) ?></h3>
+          <h4>Si te reconoces aquí, esto está hecho para tu día a día.</h4>
+          <div class="twocol">
+            <?php foreach($profiles as $p){ ?>
+              <div class="card">
+                <b><?= h($p['name']) ?></b>
+                <p><?= h($p['fit']) ?></p>
+              </div>
+            <?php } ?>
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <?php render_article_image($useImg); ?>
+        <div class="articleBody">
+          <h3><?= h($useTitle) ?></h3>
+          <h4>Situaciones reales donde se nota el cambio.</h4>
+          <div class="twocol">
+            <?php foreach($useCases as $c){ ?>
+              <div class="card">
+                <b><?= h($c['name']) ?></b>
+                <p><?= h($c['description']) ?></p>
+              </div>
+            <?php } ?>
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <?php render_article_image($benefitsImg); ?>
+        <div class="articleBody">
+          <h3><?= h($benefitsTitle) ?></h3>
+          <h4>Resultados prácticos para el centro y el equipo.</h4>
+          <ul class="list">
+            <?php foreach($benefitItems as $it){ ?><li><?= h($it) ?></li><?php } ?>
+          </ul>
+        </div>
+      </article>
+
+      <?php if($integrationsTitle !== "" || count($integrationsItems)){ ?>
+      <article>
+        <?php render_article_image($integrationsImg); ?>
+        <div class="articleBody">
+          <h3><?= h($integrationsTitle ?: "Integración y compatibilidad") ?></h3>
+          <?php if($integrationsNotes !== ""){ ?><h4><?= h($integrationsNotes) ?></h4><?php } ?>
+          <ul class="list">
+            <?php foreach($integrationsItems as $it){ ?><li><?= h($it) ?></li><?php } ?>
+          </ul>
+        </div>
+      </article>
+      <?php } ?>
+
+      <article>
+        <?php render_article_image($trustImg); ?>
+        <div class="articleBody">
+          <h3><?= h($trustTitle) ?></h3>
+          <h4>Para decidir con tranquilidad.</h4>
+          <ul class="list">
+            <?php foreach($trustPoints as $it){ ?><li><?= h($it) ?></li><?php } ?>
+          </ul>
+        </div>
+      </article>
+
+      <article id="contacto">
+        <?php render_article_image($ctaImg); ?>
+        <div class="articleBody">
+          <h3><?= h($ctaTitle) ?></h3>
+          <?php if($ctaDesc !== ""){ ?><h4><?= h($ctaDesc) ?></h4><?php } ?>
+
+          <div class="ctaBox">
+            <?php if(count($ctaActions)){ ?>
+              <div class="actions">
+                <?php foreach($ctaActions as $a){
+                  $cls = ($a['type']==='primary') ? 'btn primary' : 'btn';
+                ?>
+                  <a class="<?= h($cls) ?>" href="#contacto"><?= h($a['text']) ?></a>
+                <?php } ?>
+              </div>
+            <?php } ?>
+
+            <?php if($contactEmail !== ""){ ?>
+              <div class="mini">Contacto directo: <a class="email" href="mailto:<?= h($contactEmail) ?>"><?= h($contactEmail) ?></a></div>
+            <?php } ?>
+
+            <?php if(count($formFields)){ ?>
+              <form method="post" action="enviar.php">
+                <?php foreach($formFields as $f){
+                  $name = $f['name'];
+                  $type = $f['type'];
+                  $req  = $f['required'] ? 'required' : '';
+                  $ph = ucfirst(str_replace('_',' ', $name));
+
+                  if ($type === 'textarea') { ?>
+                    <textarea name="<?= h($name) ?>" placeholder="<?= h($ph) ?>" <?= $req ?>></textarea>
+                  <?php } else { ?>
+                    <input type="<?= h($type === 'tel' ? 'tel' : ($type === 'email' ? 'email' : 'text')) ?>"
+                           name="<?= h($name) ?>"
+                           placeholder="<?= h($ph) ?>"
+                           <?= $req ?>>
+                  <?php } ?>
+                <?php } ?>
+                <button class="submit" type="submit">Enviar</button>
+              </form>
+              <div class="mini">Puedes conectar <b>enviar.php</b> a tu CRM o a un correo.</div>
+            <?php } ?>
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <?php render_article_image($faqImg); ?>
+        <div class="articleBody">
+          <h3><?= h($faqTitle) ?></h3>
+          <h4>Respuestas rápidas a dudas habituales.</h4>
+          <?php foreach($faqs as $qa){ ?>
+            <details>
+              <summary><?= h($qa['q']) ?></summary>
+              <p><?= h($qa['a']) ?></p>
+            </details>
+          <?php } ?>
+        </div>
+      </article>
+
+    </main>
+
+    <?php if($footerSummary !== ""){ ?>
+      <div class="footerSummary wrap"><?= h($footerSummary) ?></div>
+    <?php } ?>
+
+    <footer>
+      <?php
+        $catsFooter = $footerJson['categorias'] ?? [];
+        $linksFooter = $footerJson['enlaces'] ?? [];
+      ?>
+      <article class="categorias">
+        <?php if(is_array($catsFooter)) for($i=0;$i<count($catsFooter);$i++){ ?>
+          <a href="index.php?cat=<?= h($catsFooter[$i]) ?>"><?= h($catsFooter[$i]) ?></a>
+        <?php } ?>
+      </article>
+
+      <article class="paginas">
+        <?php if(is_array($linksFooter)) for($i=0;$i<count($linksFooter);$i++){ ?>
+          <a href="<?= h($linksFooter[$i]['enlace'] ?? '#') ?>"><?= h($linksFooter[$i]['nombre'] ?? '') ?></a>
+        <?php } ?>
+      </article>
+    </footer>
+
+  </body>
+</html>
+```
+
+### producto
+<small>Creado: 2025-12-15 15:01</small>
+
+`producto.xml`
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<productPage lang="es" type="softwareEducativo" version="1.1">
+  <meta>
+    <slug>gestion-academica-pro</slug>
+    <title>Gestión Académica Pro</title>
+    <category>SaaS educativo</category>
+    <audience>
+      <segment>Dirección</segment>
+      <segment>Secretaría / Administración</segment>
+      <segment>Docentes</segment>
+      <segment>Coordinación académica</segment>
+    </audience>
+    <ctaPrimary>Solicitar demo</ctaPrimary>
+    <ctaSecondary>Ver cómo funciona</ctaSecondary>
+  </meta>
+
+  <hero>
+    <media>
+      <image src="https://static.jocarsa.com/demo/edu/hero.jpg" alt="Gestión académica moderna"/>
+    </media>
+    <name>Gestión Académica Pro</name>
+    <valueProposition>Organiza tu centro y automatiza la gestión educativa en un solo lugar.</valueProposition>
+    <subtitle>Centraliza alumnado, matrículas, asistencia y evaluaciones para reducir carga administrativa y mejorar el seguimiento.</subtitle>
+    <badges>
+      <badge>Para academias y FP</badge>
+      <badge>Acceso web</badge>
+      <badge>RGPD</badge>
+    </badges>
+    <actions>
+      <action type="primary">Solicitar demo</action>
+      <action type="secondary">Ver cómo funciona</action>
+      <action type="tertiary">Contactar</action>
+    </actions>
+  </hero>
+
+  <problem>
+    <media>
+      <image src="https://static.jocarsa.com/demo/edu/problem.jpg" alt="Problemas de gestión educativa"/>
+    </media>
+    <title>Problemas habituales en la gestión educativa</title>
+    <items>
+      <item>Demasiado tiempo dedicado a tareas administrativas repetitivas.</item>
+      <item>Información dispersa entre hojas de cálculo, correos y herramientas inconexas.</item>
+      <item>Dificultad para mantener trazabilidad de alumnos, asistencia y evaluaciones.</item>
+      <item>Errores frecuentes por procesos manuales y duplicidades.</item>
+      <item>Generación lenta de informes para dirección, coordinación o inspección.</item>
+    </items>
+  </problem>
+
+  <solution>
+    <media>
+      <image src="https://static.jocarsa.com/demo/edu/solution.jpg" alt="Solución centralizada"/>
+    </media>
+    <title>La solución</title>
+    <overview>
+      Gestión Académica Pro es un software diseñado para centros educativos que necesitan control y claridad sin complicaciones.
+      Unifica la información clave del centro y automatiza procesos repetitivos para que el equipo pueda centrarse en enseñar y acompañar al alumnado.
+    </overview>
+    <whatChanges>
+      <change>Un único lugar para consultar el estado real del centro (alumnos, cursos, actas, seguimiento).</change>
+      <change>Procesos más rápidos y consistentes, con menos errores.</change>
+      <change>Mejor coordinación interna entre administración, docentes y dirección.</change>
+    </whatChanges>
+  </solution>
+
+  <keyFeatures>
+    <media>
+      <image src="https://static.jocarsa.com/demo/edu/features.jpg" alt="Funcionalidades clave"/>
+    </media>
+    <title>Funcionalidades clave</title>
+    <feature>
+      <name>Gestión de alumnado</name>
+      <benefit>Ficha completa del estudiante y seguimiento centralizado.</benefit>
+    </feature>
+    <feature>
+      <name>Matrículas y cursos</name>
+      <benefit>Organiza altas, bajas y asignaciones de manera ordenada.</benefit>
+    </feature>
+    <feature>
+      <name>Asistencia</name>
+      <benefit>Control de faltas y presencia para seguimiento y comunicación interna.</benefit>
+    </feature>
+    <feature>
+      <name>Evaluaciones y actas</name>
+      <benefit>Registra calificaciones y genera actas con consistencia.</benefit>
+    </feature>
+    <feature>
+      <name>Informes</name>
+      <benefit>Obtén reportes listos para dirección, coordinación o revisiones.</benefit>
+    </feature>
+    <feature>
+      <name>Perfiles de usuario</name>
+      <benefit>Acceso por roles: dirección, administración y profesorado.</benefit>
+    </feature>
+    <feature>
+      <name>Historial y trazabilidad</name>
+      <benefit>Registro claro de cambios y acciones relevantes dentro del sistema.</benefit>
+    </feature>
+  </keyFeatures>
+
+  <targetAudience>
+    <media>
+      <image src="https://static.jocarsa.com/demo/edu/audience.jpg" alt="Público objetivo"/>
+    </media>
+    <title>¿Para quién es?</title>
+    <profiles>
+      <profile>
+        <name>Centros de FP</name>
+        <fit>Ideal para gestionar grupos, evaluaciones y seguimiento en ciclos formativos.</fit>
+      </profile>
+      <profile>
+        <name>Academias privadas</name>
+        <fit>Perfecto para organizar matrículas, asistencia y seguimiento interno.</fit>
+      </profile>
+      <profile>
+        <name>Escuelas de idiomas</name>
+        <fit>Control de niveles, grupos, asistencia y evaluación continua.</fit>
+      </profile>
+      <profile>
+        <name>Formación online</name>
+        <fit>Centraliza datos del alumnado y coordina tutores y procesos.</fit>
+      </profile>
+      <profile>
+        <name>Docentes autónomos</name>
+        <fit>Gestión simple de alumnos y progreso con informes claros.</fit>
+      </profile>
+    </profiles>
+  </targetAudience>
+
+  <useCases>
+    <media>
+      <image src="https://static.jocarsa.com/demo/edu/usecases.jpg" alt="Casos de uso"/>
+    </media>
+    <title>Casos de uso reales</title>
+    <case>
+      <name>Actas trimestrales</name>
+      <description>Preparación y registro de evaluaciones trimestrales con estructura coherente.</description>
+    </case>
+    <case>
+      <name>Seguimiento de asistencia</name>
+      <description>Registro rápido de faltas y consulta histórica por alumno o grupo.</description>
+    </case>
+    <case>
+      <name>Control de matrículas</name>
+      <description>Gestión de altas/bajas y asignación de cursos sin duplicidades.</description>
+    </case>
+    <case>
+      <name>Informes para dirección</name>
+      <description>Reportes listos para toma de decisiones y seguimiento académico.</description>
+    </case>
+    <case>
+      <name>Revisión y auditoría</name>
+      <description>Documentación clara y accesible para inspecciones o revisiones internas.</description>
+    </case>
+  </useCases>
+
+  <benefits>
+    <media>
+      <image src="https://static.jocarsa.com/demo/edu/benefits.jpg" alt="Beneficios"/>
+    </media>
+    <title>Beneficios</title>
+    <items>
+      <item>Ahorro de tiempo administrativo y reducción de tareas repetitivas.</item>
+      <item>Menos errores gracias a procesos guiados y datos centralizados.</item>
+      <item>Mejor coordinación entre administración, docentes y dirección.</item>
+      <item>Seguimiento del alumnado más claro y accesible.</item>
+      <item>Escalabilidad: crece con el centro sin perder control.</item>
+    </items>
+  </benefits>
+
+  <integrations optional="true">
+    <media>
+      <image src="https://static.jocarsa.com/demo/edu/integrations.jpg" alt="Integraciones"/>
+    </media>
+    <title>Integración y compatibilidad</title>
+    <notes>Este apartado puede ajustarse según el producto y el stack del centro.</notes>
+    <items>
+      <item>Moodle (sincronización o conexión según necesidades).</item>
+      <item>Importación de datos desde Excel/CSV.</item>
+      <item>Acceso web multiplataforma (PC, tablet).</item>
+      <item>Integración con herramientas internas del centro (bajo proyecto).</item>
+    </items>
+  </integrations>
+
+  <trust>
+    <media>
+      <image src="https://static.jocarsa.com/demo/edu/trust.jpg" alt="Confianza y cumplimiento"/>
+    </media>
+    <title>Confianza</title>
+    <points>
+      <point>Diseñado específicamente para flujos de trabajo educativos reales.</point>
+      <point>Enfoque en simplicidad, claridad y adopción por parte del equipo.</point>
+      <point>Cumplimiento RGPD y buenas prácticas de seguridad.</point>
+      <point>Software mantenido y evolutivo, con posibilidad de adaptación.</point>
+    </points>
+  </trust>
+
+  <finalCTA>
+    <media>
+      <image src="https://static.jocarsa.com/demo/edu/cta.jpg" alt="Solicitar demo"/>
+    </media>
+    <title>¿Quieres verlo aplicado a tu centro?</title>
+    <description>Cuéntanos tu caso y te mostramos una demostración enfocada en tu día a día.</description>
+    <actions>
+      <action type="primary">Solicitar demo</action>
+      <action type="secondary">Hablemos de tu centro</action>
+    </actions>
+    <contact>
+      <email>contacto@tudominio.com</email>
+      <form>
+        <field name="nombre" type="text" required="true"/>
+        <field name="centro" type="text" required="true"/>
+        <field name="email" type="email" required="true"/>
+        <field name="telefono" type="tel" required="false"/>
+        <field name="mensaje" type="textarea" required="true"/>
+      </form>
+    </contact>
+  </finalCTA>
+
+  <faq>
+    <media>
+      <image src="https://static.jocarsa.com/demo/edu/faq.jpg" alt="Preguntas frecuentes"/>
+    </media>
+    <title>Preguntas frecuentes</title>
+    <qa>
+      <q>¿Necesita instalación?</q>
+      <a>No. Es una solución accesible desde navegador, preparada para uso diario en el centro.</a>
+    </qa>
+    <qa>
+      <q>¿Se adapta a mi centro?</q>
+      <a>Sí. Se configura según tu estructura de cursos, grupos y procesos habituales.</a>
+    </qa>
+    <qa>
+      <q>¿Incluye formación?</q>
+      <a>Sí, podemos incluir una sesión de puesta en marcha para administración y profesorado.</a>
+    </qa>
+    <qa>
+      <q>¿Se puede personalizar?</q>
+      <a>Sí. Se pueden añadir módulos o ajustes para adaptarse a flujos específicos.</a>
+    </qa>
+    <qa>
+      <q>¿Cumple RGPD?</q>
+      <a>Sí. Incluye medidas y prácticas orientadas a la protección de datos.</a>
+    </qa>
+  </faq>
+
+  <footer>
+    <summary>Esta página responde: qué es, para quién es, qué problema resuelve, cómo ayuda y cuál es el siguiente paso.</summary>
+  </footer>
+</productPage>
+```
+
+### producto
+<small>Creado: 2025-12-15 14:46</small>
+
+`producto.xsd`
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  elementFormDefault="qualified"
+  attributeFormDefault="unqualified">
+
+  <!-- =========================================================
+       ROOT
+       ========================================================= -->
+  <xs:element name="productPage" type="ProductPageType"/>
+
+  <xs:complexType name="ProductPageType">
+    <xs:sequence>
+      <xs:element name="meta" type="MetaType"/>
+      <xs:element name="hero" type="HeroType"/>
+      <xs:element name="problem" type="TitledItemsWithMediaType"/>
+      <xs:element name="solution" type="SolutionWithMediaType"/>
+      <xs:element name="keyFeatures" type="KeyFeaturesWithMediaType"/>
+      <xs:element name="targetAudience" type="TargetAudienceWithMediaType"/>
+      <xs:element name="useCases" type="UseCasesWithMediaType"/>
+      <xs:element name="benefits" type="TitledItemsWithMediaType"/>
+      <xs:element name="integrations" type="IntegrationsWithMediaType" minOccurs="0"/>
+      <xs:element name="trust" type="TrustWithMediaType"/>
+      <xs:element name="finalCTA" type="FinalCTAWithMediaType"/>
+      <xs:element name="faq" type="FAQWithMediaType"/>
+      <xs:element name="footer" type="FooterType"/>
+    </xs:sequence>
+
+    <xs:attribute name="lang" type="xs:language" use="required"/>
+    <xs:attribute name="type" type="xs:string" use="required"/>
+    <xs:attribute name="version" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <!-- =========================================================
+       MEDIA
+       ========================================================= -->
+  <xs:complexType name="MediaType">
+    <xs:sequence>
+      <xs:element name="image" type="ImageType" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ImageType">
+    <xs:attribute name="src" type="xs:anyURI" use="required"/>
+    <xs:attribute name="alt" type="xs:string" use="optional"/>
+  </xs:complexType>
+
+  <!-- =========================================================
+       META
+       ========================================================= -->
+  <xs:complexType name="MetaType">
+    <xs:sequence>
+      <xs:element name="slug" type="xs:string"/>
+      <xs:element name="title" type="xs:string"/>
+      <xs:element name="category" type="xs:string"/>
+      <xs:element name="audience" type="AudienceType" minOccurs="0"/>
+      <xs:element name="ctaPrimary" type="xs:string" minOccurs="0"/>
+      <xs:element name="ctaSecondary" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="AudienceType">
+    <xs:sequence>
+      <xs:element name="segment" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- =========================================================
+       HERO (con media opcional)
+       ========================================================= -->
+  <xs:complexType name="HeroType">
+    <xs:sequence>
+      <xs:element name="media" type="MediaType" minOccurs="0"/>
+      <xs:element name="name" type="xs:string"/>
+      <xs:element name="valueProposition" type="xs:string"/>
+      <xs:element name="subtitle" type="xs:string" minOccurs="0"/>
+      <xs:element name="badges" type="BadgesType" minOccurs="0"/>
+      <xs:element name="actions" type="ActionsType" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="BadgesType">
+    <xs:sequence>
+      <xs:element name="badge" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ActionsType">
+    <xs:sequence>
+      <xs:element name="action" type="ActionType" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ActionType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="type" use="optional">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="primary"/>
+              <xs:enumeration value="secondary"/>
+              <xs:enumeration value="tertiary"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:attribute>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <!-- =========================================================
+       GENERIC: media + <title> + <items><item/></items>
+       ========================================================= -->
+  <xs:complexType name="TitledItemsWithMediaType">
+    <xs:sequence>
+      <xs:element name="media" type="MediaType" minOccurs="0"/>
+      <xs:element name="title" type="xs:string"/>
+      <xs:element name="items" type="ItemsType"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ItemsType">
+    <xs:sequence>
+      <xs:element name="item" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- =========================================================
+       SOLUTION + media
+       ========================================================= -->
+  <xs:complexType name="SolutionWithMediaType">
+    <xs:sequence>
+      <xs:element name="media" type="MediaType" minOccurs="0"/>
+      <xs:element name="title" type="xs:string"/>
+      <xs:element name="overview" type="xs:string"/>
+      <xs:element name="whatChanges" type="WhatChangesType" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="WhatChangesType">
+    <xs:sequence>
+      <xs:element name="change" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- =========================================================
+       KEY FEATURES + media
+       ========================================================= -->
+  <xs:complexType name="KeyFeaturesWithMediaType">
+    <xs:sequence>
+      <xs:element name="media" type="MediaType" minOccurs="0"/>
+      <xs:element name="title" type="xs:string"/>
+      <xs:element name="feature" type="FeatureType" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="FeatureType">
+    <xs:sequence>
+      <xs:element name="name" type="xs:string"/>
+      <xs:element name="benefit" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- =========================================================
+       TARGET AUDIENCE + media
+       ========================================================= -->
+  <xs:complexType name="TargetAudienceWithMediaType">
+    <xs:sequence>
+      <xs:element name="media" type="MediaType" minOccurs="0"/>
+      <xs:element name="title" type="xs:string"/>
+      <xs:element name="profiles" type="ProfilesType"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ProfilesType">
+    <xs:sequence>
+      <xs:element name="profile" type="ProfileType" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ProfileType">
+    <xs:sequence>
+      <xs:element name="name" type="xs:string"/>
+      <xs:element name="fit" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- =========================================================
+       USE CASES + media
+       ========================================================= -->
+  <xs:complexType name="UseCasesWithMediaType">
+    <xs:sequence>
+      <xs:element name="media" type="MediaType" minOccurs="0"/>
+      <xs:element name="title" type="xs:string"/>
+      <xs:element name="case" type="UseCaseType" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="UseCaseType">
+    <xs:sequence>
+      <xs:element name="name" type="xs:string"/>
+      <xs:element name="description" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- =========================================================
+       INTEGRATIONS + media
+       ========================================================= -->
+  <xs:complexType name="IntegrationsWithMediaType">
+    <xs:sequence>
+      <xs:element name="media" type="MediaType" minOccurs="0"/>
+      <xs:element name="title" type="xs:string"/>
+      <xs:element name="notes" type="xs:string" minOccurs="0"/>
+      <xs:element name="items" type="ItemsType"/>
+    </xs:sequence>
+
+    <xs:attribute name="optional" use="optional">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="true"/>
+          <xs:enumeration value="false"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+
+  <!-- =========================================================
+       TRUST + media
+       ========================================================= -->
+  <xs:complexType name="TrustWithMediaType">
+    <xs:sequence>
+      <xs:element name="media" type="MediaType" minOccurs="0"/>
+      <xs:element name="title" type="xs:string"/>
+      <xs:element name="points" type="PointsType"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="PointsType">
+    <xs:sequence>
+      <xs:element name="point" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- =========================================================
+       FINAL CTA + media
+       ========================================================= -->
+  <xs:complexType name="FinalCTAWithMediaType">
+    <xs:sequence>
+      <xs:element name="media" type="MediaType" minOccurs="0"/>
+      <xs:element name="title" type="xs:string"/>
+      <xs:element name="description" type="xs:string" minOccurs="0"/>
+      <xs:element name="actions" type="ActionsType" minOccurs="0"/>
+      <xs:element name="contact" type="ContactType" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ContactType">
+    <xs:sequence>
+      <xs:element name="email" type="xs:string" minOccurs="0"/>
+      <xs:element name="form" type="FormType" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="FormType">
+    <xs:sequence>
+      <xs:element name="field" type="FieldType" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="FieldType">
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="type" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="text"/>
+          <xs:enumeration value="email"/>
+          <xs:enumeration value="tel"/>
+          <xs:enumeration value="textarea"/>
+          <xs:enumeration value="number"/>
+          <xs:enumeration value="select"/>
+          <xs:enumeration value="checkbox"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="required" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="true"/>
+          <xs:enumeration value="false"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+
+  <!-- =========================================================
+       FAQ + media
+       ========================================================= -->
+  <xs:complexType name="FAQWithMediaType">
+    <xs:sequence>
+      <xs:element name="media" type="MediaType" minOccurs="0"/>
+      <xs:element name="title" type="xs:string"/>
+      <xs:element name="qa" type="QAType" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="QAType">
+    <xs:sequence>
+      <xs:element name="q" type="xs:string"/>
+      <xs:element name="a" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- =========================================================
+       FOOTER
+       ========================================================= -->
+  <xs:complexType name="FooterType">
+    <xs:sequence>
+      <xs:element name="summary" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>
+```
 
 
 <a id="aspectos-innovadores"></a>
 ## Aspectos innovadores
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/002-Selecci%C3%B3n%20de%20un%20servicio%20o%20producto/004-Aspectos%20innovadores)
+
 
 <a id="estudio-de-viabilidad-tecnica"></a>
 ## Estudio de viabilidad técnica
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/002-Selecci%C3%B3n%20de%20un%20servicio%20o%20producto/005-Estudio%20de%20viabilidad%20t%C3%A9cnica)
 
 
 <a id="partes-del-proyecto"></a>
 ## Partes del proyecto
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/002-Selecci%C3%B3n%20de%20un%20servicio%20o%20producto/006-Partes%20del%20proyecto)
+
+### index
+<small>Creado: 2025-12-15 14:52</small>
+
+`index.php`
+
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>jocarsa</title>
+    <meta charset="utf-8">
+    <style>
+      @font-face {font-family: Ubuntu;src: url(estilo/Ubuntu-R.ttf);}
+      @font-face {font-family: UbuntuB;src: url(estilo/Ubuntu-B.ttf);}
+      /* ESTILOS GENERALES /////////////////////////////////////// */
+      html,body{
+        padding:0px;
+        margin:0px;
+        font-family:Ubuntu,sans-serif;
+        width:100%;
+        height:100%; 
+      }
+
+      /* ESTILOS CABECERA  /////////////////////////////////////// */
+      header{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        box-shadow:0px 2px 4px rgba(0,0,0,0.3);
+        gap:20px;
+        padding:10px;
+      }
+      header img{width:30px;}
+      header a{text-decoration:none;color:indigo;font-size:11px;}
+
+      /* ESTILOS PRODUCTOS  /////////////////////////////////////// */
+      main{
+        width:100%;
+        display:grid;
+        grid-template-columns:1fr;
+        gap:10px;
+      }
+
+      /* ARTÍCULOS 1–3 (IGUAL QUE AHORA) ///////////////////////// */
+      main article{
+        width:100%;
+        height:400px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background:lightgrey;
+        flex-direction:column;
+        gap:10px;
+      }
+      main article h3,main article h4{padding:0px;margin:0px;}
+      main article h3{font-size:32px;}
+      main article a{background:indigo;text-decoration:none;color:white;padding:10px 20px;border-radius:50px;}
+
+      /* LOS 3 PRIMEROS OCUPAN TODA LA FILA ////////////////////// */
+      main article:nth-child(-n+3){
+        grid-column:1 / -1;
+      }
+
+      /* ARTÍCULOS 4+ EN DOS COLUMNAS /////////////////////////// */
+      @media (min-width:600px){
+        main{
+          grid-template-columns:1fr 1fr;
+        }
+
+        main article:nth-child(-n+3){
+          grid-column:1 / -1;
+        }
+      }
+      footer{display:flex;justify-content:center;gap:20px;padding:20px;font-size:11px;}
+      footer article{display:flex;flex-direction:column;gap:10px;}
+      footer article a{text-decoration:none;color:indigo;}
+    </style>
+
+  </head>
+  <body>
+    <header>
+      <a href="?"><img src="https://static.jocarsa.com/logos/jocarsa%20%7C%20Indigo.svg"></a>
+      <?php 
+      $archivo = file_get_contents('db/categorias.json');
+      $json = json_decode($archivo, true);
+      for($i = 0;$i<count($json);$i++){ ?>
+        <a href="?"><?= $json[$i] ?></a>
+      <?php }?>
+    </header>
+    <main>
+      <?php 
+        $archivo = file_get_contents('db/productos.json');
+        $json = json_decode($archivo, true);
+        for($i = 0;$i<count($json);$i++){ ?>
+        <article>
+          <h3><?= $json[$i]['nombre'] ?></h3>
+          <h4><?= $json[$i]['slogan'] ?></h4>
+          <a href="producto.php?p=<?= $json[$i]['nombre'] ?>">Saber más</a>
+        </article>
+      <?php }?>
+    </main>
+    <footer>
+      <?php 
+        $archivo = file_get_contents('db/piedepagina.json');
+        $json = json_decode($archivo, true);
+         ?>
+        <article class="categorias">
+          <?php for($i = 0;$i<count($json['categorias']);$i++){?>
+            <a href="?cat=<?= $json['categorias'][$i] ?>"><?= $json['categorias'][$i] ?></a>
+          <?php } ?>
+        </article>
+        <article class="paginas">
+          <?php for($i = 0;$i<count($json['enlaces']);$i++){?>
+            <a href="?cat=<?= $json['enlaces'][$i]['enlace'] ?>"><?= $json['enlaces'][$i]['nombre'] ?></a>
+          <?php } ?>
+        </article>
+     
+    </footer>
+  </body>
+</html>
+```
+
+### producto
+<small>Creado: 2025-12-15 14:52</small>
+
+`producto.php`
+
+```
+<?php
+// producto.php — XML + XSD (con <media><image/>) + diseño Appleweb-like (tu estilo)
+
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+function h($s){ return htmlspecialchars((string)$s, ENT_QUOTES, 'UTF-8'); }
+
+// -------------------------------
+// 1) Cargar XML de producto
+//    Uso: producto.php?file=db/productos/gestion-academica-pro.xml
+// -------------------------------
+$defaultXml = __DIR__ . "/productos/".$_GET['p'].".xml";
+$xmlFile = $_GET['file'] ?? $defaultXml;
+
+// Permitir rutas relativas simples dentro del proyecto (sin ../)
+if (!preg_match('/^[a-zA-Z0-9_\-\/\.]+$/', (string)$xmlFile) || str_contains((string)$xmlFile, '..')) {
+  $xmlFile = $defaultXml;
+}
+if (!str_starts_with((string)$xmlFile, '/')) {
+  $xmlFile = __DIR__ . '/' . ltrim((string)$xmlFile, '/');
+}
+
+if (!file_exists($xmlFile)) {
+  http_response_code(404);
+  die("XML no encontrado: ".h($xmlFile));
+}
+
+libxml_use_internal_errors(true);
+$xml = simplexml_load_file($xmlFile);
+if (!$xml) {
+  http_response_code(500);
+  $errs = libxml_get_errors();
+  echo "Error leyendo XML<br>";
+  foreach($errs as $e){ echo h($e->message)."<br>"; }
+  exit;
+}
+
+// -------------------------------
+// Helpers
+// -------------------------------
+function nodes_to_array($nodes) {
+  $out = [];
+  if (!$nodes) return $out;
+  foreach ($nodes as $n) $out[] = trim((string)$n);
+  return $out;
+}
+
+function read_image($node): array {
+  // Devuelve ['src'=>..., 'alt'=>...] o ['src'=>'','alt'=>'']
+  $src = "";
+  $alt = "";
+  if (isset($node->media->image)) {
+    $src = (string)($node->media->image['src'] ?? '');
+    $alt = (string)($node->media->image['alt'] ?? '');
+  }
+  return ['src'=>$src, 'alt'=>$alt];
+}
+
+function safe_img_src($src): string {
+  // Acepta http(s) y rutas relativas simples (sin ../)
+  $src = trim((string)$src);
+  if ($src === "") return "";
+  if (str_contains($src, '..')) return "";
+  if (preg_match('#^https?://#i', $src)) return $src;
+  // ruta relativa
+  if (!preg_match('/^[a-zA-Z0-9_\-\/\.\%\=\?\&]+$/', $src)) return "";
+  return $src;
+}
+
+// -------------------------------
+// Datos
+// -------------------------------
+$metaTitle = (string)($xml->meta->title ?? $xml->hero->name ?? "Producto");
+
+$heroImg   = read_image($xml->hero);
+$heroName  = (string)($xml->hero->name ?? "");
+$heroValue = (string)($xml->hero->valueProposition ?? "");
+$heroSub   = (string)($xml->hero->subtitle ?? "");
+
+$heroActions = [];
+if (isset($xml->hero->actions->action)) {
+  foreach ($xml->hero->actions->action as $a) {
+    $heroActions[] = [
+      'type' => (string)($a['type'] ?? ''),
+      'text' => trim((string)$a),
+    ];
+  }
+}
+$badges = nodes_to_array($xml->hero->badges->badge ?? null);
+
+// Secciones + imagen
+$problemImg   = read_image($xml->problem);
+$problemTitle = (string)($xml->problem->title ?? "Problemas");
+$problemItems = nodes_to_array($xml->problem->items->item ?? null);
+
+$solutionImg    = read_image($xml->solution);
+$solutionTitle  = (string)($xml->solution->title ?? "La solución");
+$solutionOverview = (string)($xml->solution->overview ?? "");
+$solutionChanges  = nodes_to_array($xml->solution->whatChanges->change ?? null);
+
+$featuresImg   = read_image($xml->keyFeatures);
+$featuresTitle = (string)($xml->keyFeatures->title ?? "Funcionalidades");
+$features = [];
+if (isset($xml->keyFeatures->feature)) {
+  foreach ($xml->keyFeatures->feature as $f) {
+    $features[] = ['name'=>(string)$f->name, 'benefit'=>(string)$f->benefit];
+  }
+}
+
+$audImg   = read_image($xml->targetAudience);
+$audTitle = (string)($xml->targetAudience->title ?? "¿Para quién es?");
+$profiles = [];
+if (isset($xml->targetAudience->profiles->profile)) {
+  foreach ($xml->targetAudience->profiles->profile as $p) {
+    $profiles[] = ['name'=>(string)$p->name, 'fit'=>(string)$p->fit];
+  }
+}
+
+$useImg   = read_image($xml->useCases);
+$useTitle = (string)($xml->useCases->title ?? "Casos de uso");
+$useCases = [];
+if (isset($xml->useCases->case)) {
+  foreach ($xml->useCases->case as $c) {
+    $useCases[] = ['name'=>(string)$c->name, 'description'=>(string)$c->description];
+  }
+}
+
+$benefitsImg   = read_image($xml->benefits);
+$benefitsTitle = (string)($xml->benefits->title ?? "Beneficios");
+$benefitItems  = nodes_to_array($xml->benefits->items->item ?? null);
+
+$integrationsImg   = isset($xml->integrations) ? read_image($xml->integrations) : ['src'=>'','alt'=>''];
+$integrationsTitle = (string)($xml->integrations->title ?? "");
+$integrationsNotes = (string)($xml->integrations->notes ?? "");
+$integrationsItems = nodes_to_array($xml->integrations->items->item ?? null);
+
+$trustImg    = read_image($xml->trust);
+$trustTitle  = (string)($xml->trust->title ?? "Confianza");
+$trustPoints = nodes_to_array($xml->trust->points->point ?? null);
+
+$ctaImg   = read_image($xml->finalCTA);
+$ctaTitle = (string)($xml->finalCTA->title ?? "¿Hablamos?");
+$ctaDesc  = (string)($xml->finalCTA->description ?? "");
+
+$ctaActions = [];
+if (isset($xml->finalCTA->actions->action)) {
+  foreach ($xml->finalCTA->actions->action as $a) {
+    $ctaActions[] = ['type'=>(string)($a['type'] ?? ''), 'text'=>trim((string)$a)];
+  }
+}
+
+$contactEmail = (string)($xml->finalCTA->contact->email ?? "");
+$formFields = [];
+if (isset($xml->finalCTA->contact->form->field)) {
+  foreach ($xml->finalCTA->contact->form->field as $f) {
+    $formFields[] = [
+      'name' => (string)($f['name'] ?? ''),
+      'type' => (string)($f['type'] ?? 'text'),
+      'required' => ((string)($f['required'] ?? 'false')) === 'true',
+    ];
+  }
+}
+
+$faqImg   = read_image($xml->faq);
+$faqTitle = (string)($xml->faq->title ?? "Preguntas frecuentes");
+$faqs = [];
+if (isset($xml->faq->qa)) {
+  foreach ($xml->faq->qa as $qa) {
+    $faqs[] = ['q'=>(string)$qa->q, 'a'=>(string)$qa->a];
+  }
+}
+
+$footerSummary = (string)($xml->footer->summary ?? "");
+
+// Header/footer JSON como tu web
+$cats = [];
+$catsFile = __DIR__ . "/db/categorias.json";
+if (file_exists($catsFile)) {
+  $cats = json_decode(file_get_contents($catsFile), true);
+  if (!is_array($cats)) $cats = [];
+}
+$footerJson = [];
+$footerFile = __DIR__ . "/db/piedepagina.json";
+if (file_exists($footerFile)) {
+  $footerJson = json_decode(file_get_contents($footerFile), true);
+  if (!is_array($footerJson)) $footerJson = [];
+}
+
+// Render helper (imagen en cabecera de article)
+function render_article_image(array $img){
+  $src = safe_img_src($img['src'] ?? '');
+  if ($src === "") return;
+  $alt = trim((string)($img['alt'] ?? ''));
+  ?>
+  <div class="articleMedia">
+    <img src="<?= h($src) ?>" alt="<?= h($alt) ?>" loading="lazy">
+  </div>
+  <?php
+}
+?>
+<!doctype html>
+<html lang="es">
+  <head>
+    <title><?= h($metaTitle) ?> · jocarsa</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style>
+      @font-face {font-family: Ubuntu;src: url(estilo/Ubuntu-R.ttf);}
+      @font-face {font-family: UbuntuB;src: url(estilo/Ubuntu-B.ttf);}
+
+      html,body{padding:0;margin:0;font-family:Ubuntu,sans-serif;width:100%;height:100%;background:#fff;color:#111;}
+
+      header{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        box-shadow:0px 2px 4px rgba(0,0,0,0.3);
+        gap:20px;
+        padding:10px;
+        position:sticky;top:0;
+        background:rgba(255,255,255,0.95);
+        backdrop-filter:saturate(180%) blur(12px);
+        z-index:10;
+      }
+      header img{width:30px;}
+      header a{text-decoration:none;color:indigo;font-size:11px;}
+
+      .wrap{width:min(1100px, calc(100% - 24px)); margin:0 auto;}
+
+      .hero{padding:60px 0 30px 0;text-align:center;}
+      .hero h1{font-family:UbuntuB,Ubuntu,sans-serif;font-size:52px;margin:0;letter-spacing:-0.5px;}
+      .hero .value{font-size:18px;color:#333;margin:14px 0 0 0;}
+      .hero .sub{font-size:14px;color:#666;margin:10px 0 0 0;line-height:1.5;}
+
+      .badges{margin-top:16px;display:flex;justify-content:center;gap:10px;flex-wrap:wrap;}
+      .badge{font-size:11px;padding:6px 10px;border-radius:999px;background:rgba(75,0,130,0.08);color:indigo;border:1px solid rgba(75,0,130,0.15);}
+
+      .actions{margin-top:22px;display:flex;justify-content:center;gap:10px;flex-wrap:wrap;}
+      .btn{text-decoration:none;padding:10px 18px;border-radius:999px;font-size:12px;display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(0,0,0,0.12);background:#fff;color:#111;}
+      .btn.primary{background:indigo;border-color:indigo;color:#fff;}
+
+      main{width:100%;display:grid;grid-template-columns:1fr;gap:10px;padding:10px 0 30px 0;}
+
+      main article{
+        width:100%;
+        min-height:360px;
+        display:flex;
+        justify-content:flex-start;
+        align-items:center;
+        background:linear-gradient(180deg, #f2f2f7, #ffffff);
+        flex-direction:column;
+        gap:12px;
+        border-radius:18px;
+        border:1px solid rgba(0,0,0,0.08);
+        box-shadow:0px 10px 30px rgba(0,0,0,0.06);
+        padding:0px;
+        box-sizing:border-box;
+        overflow:hidden;
+        position:relative;
+      }
+
+      /* IMAGEN ARRIBA DEL ARTICLE ////////////////////////////// */
+      .articleMedia{
+        width:100%;
+        height:170px;
+        overflow:hidden;
+        background:rgba(0,0,0,0.03);
+        border-bottom:1px solid rgba(0,0,0,0.06);
+      }
+      .articleMedia img{
+        width:100%;
+        height:100%;
+        object-fit:cover;
+        display:block;
+        transform:scale(1.02);
+      }
+
+      .articleBody{
+        width:100%;
+        padding:22px 24px 24px 24px;
+        box-sizing:border-box;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        gap:12px;
+      }
+
+      main article h3, main article h4{padding:0;margin:0;text-align:center;}
+      main article h3{font-family:UbuntuB,Ubuntu,sans-serif;font-size:28px;letter-spacing:-0.3px;}
+      main article h4{font-size:13px;color:#555;font-weight:normal;line-height:1.5;max-width:760px;}
+
+      .content{width:min(900px, 100%);display:flex;flex-direction:column;gap:10px;}
+
+      .list{
+        width:min(900px, 100%);
+        margin:0 auto;
+        padding:0;
+        list-style:none;
+        display:flex;
+        flex-direction:column;
+        gap:8px;
+      }
+      .list li{
+        background:rgba(255,255,255,0.7);
+        border:1px solid rgba(0,0,0,0.06);
+        border-radius:12px;
+        padding:10px 12px;
+        font-size:13px;
+        line-height:1.45;
+      }
+
+      .twocol{width:min(900px, 100%);display:grid;grid-template-columns:1fr;gap:10px;}
+      .card{
+        background:rgba(255,255,255,0.7);
+        border:1px solid rgba(0,0,0,0.06);
+        border-radius:14px;
+        padding:14px;
+        display:flex;
+        flex-direction:column;
+        gap:6px;
+        min-height:120px;
+      }
+      .card b{font-family:UbuntuB,Ubuntu,sans-serif;}
+      .card p{margin:0;font-size:13px;color:#444;line-height:1.45;}
+
+      main article:nth-child(-n+3){grid-column:1 / -1;}
+
+      @media (min-width:600px){
+        main{grid-template-columns:1fr 1fr;}
+        main article:nth-child(-n+3){grid-column:1 / -1;}
+        .twocol{grid-template-columns:1fr 1fr;}
+        .articleMedia{height:190px;}
+      }
+
+      details{
+        width:min(900px, 100%);
+        background:rgba(255,255,255,0.7);
+        border:1px solid rgba(0,0,0,0.06);
+        border-radius:14px;
+        padding:12px 14px;
+      }
+      summary{cursor:pointer;font-family:UbuntuB,Ubuntu,sans-serif;font-size:13px;color:#111;}
+      details p{margin:10px 0 0 0;font-size:13px;color:#444;line-height:1.5;}
+
+      .ctaBox{width:min(900px, 100%);display:flex;flex-direction:column;gap:10px;align-items:center;}
+      .mini{font-size:12px;color:#666;text-align:center;line-height:1.45;}
+      .email{font-size:12px;color:indigo;text-decoration:none;}
+
+      form{width:min(650px, 100%);display:grid;grid-template-columns:1fr;gap:10px;margin-top:6px;}
+      input, textarea, select{
+        width:100%;
+        padding:12px 12px;
+        border-radius:12px;
+        border:1px solid rgba(0,0,0,0.12);
+        font-family:Ubuntu,sans-serif;
+        font-size:13px;
+        box-sizing:border-box;
+        outline:none;
+      }
+      textarea{min-height:120px;resize:vertical;}
+      .submit{
+        background:indigo;border:1px solid indigo;color:white;
+        padding:12px 16px;border-radius:999px;cursor:pointer;
+        font-size:12px;justify-self:center;width:220px;
+      }
+
+      footer{
+        display:flex;justify-content:center;gap:20px;
+        padding:20px;font-size:11px;border-top:1px solid rgba(0,0,0,0.08);
+      }
+      footer article{display:flex;flex-direction:column;gap:10px;}
+      footer article a{text-decoration:none;color:indigo;}
+      .footerSummary{padding:0 0 30px 0;text-align:center;color:#666;font-size:11px;}
+    </style>
+  </head>
+  <body>
+
+    <header>
+      <a href="index.php"><img src="https://static.jocarsa.com/logos/jocarsa%20%7C%20Indigo.svg" alt="jocarsa"></a>
+      <?php for($i=0;$i<count($cats);$i++){ ?>
+        <a href="index.php?cat=<?= h($cats[$i]) ?>"><?= h($cats[$i]) ?></a>
+      <?php } ?>
+    </header>
+
+    <section class="hero">
+      <div class="wrap">
+        <?php
+          $heroSrc = safe_img_src($heroImg['src'] ?? '');
+          if ($heroSrc !== "") { ?>
+            <div style="width:min(1100px, calc(100% - 24px));margin:0 auto 18px auto;border-radius:18px;overflow:hidden;border:1px solid rgba(0,0,0,0.08);box-shadow:0px 10px 30px rgba(0,0,0,0.06);">
+              <img src="<?= h($heroSrc) ?>" alt="<?= h($heroImg['alt'] ?? '') ?>" style="width:100%;height:240px;object-fit:cover;display:block;">
+            </div>
+        <?php } ?>
+
+        <h1><?= h($heroName ?: $metaTitle) ?></h1>
+        <?php if($heroValue !== ""){ ?><p class="value"><?= h($heroValue) ?></p><?php } ?>
+        <?php if($heroSub !== ""){ ?><p class="sub"><?= h($heroSub) ?></p><?php } ?>
+
+        <?php if(count($badges)){ ?>
+          <div class="badges">
+            <?php foreach($badges as $b){ ?><span class="badge"><?= h($b) ?></span><?php } ?>
+          </div>
+        <?php } ?>
+
+        <?php if(count($heroActions)){ ?>
+          <div class="actions">
+            <?php foreach($heroActions as $a){
+              $cls = ($a['type']==='primary') ? 'btn primary' : 'btn';
+              $anchor = '#contacto';
+              if (stripos($a['text'], 'cómo') !== false || stripos($a['text'], 'funciona') !== false) $anchor = '#como';
+              if (stripos($a['text'], 'contact') !== false) $anchor = '#contacto';
+            ?>
+              <a class="<?= h($cls) ?>" href="<?= h($anchor) ?>"><?= h($a['text']) ?></a>
+            <?php } ?>
+          </div>
+        <?php } ?>
+      </div>
+    </section>
+
+    <main class="wrap">
+
+      <article id="problema">
+        <?php render_article_image($problemImg); ?>
+        <div class="articleBody">
+          <h3><?= h($problemTitle) ?></h3>
+          <h4>Lo que normalmente frena a un centro cuando quiere crecer sin perder control.</h4>
+          <ul class="list">
+            <?php foreach($problemItems as $it){ ?><li><?= h($it) ?></li><?php } ?>
+          </ul>
+        </div>
+      </article>
+
+      <article id="solucion">
+        <?php render_article_image($solutionImg); ?>
+        <div class="articleBody">
+          <h3><?= h($solutionTitle) ?></h3>
+          <div class="content">
+            <?php if($solutionOverview !== ""){ ?><h4><?= h($solutionOverview) ?></h4><?php } ?>
+            <?php if(count($solutionChanges)){ ?>
+              <ul class="list">
+                <?php foreach($solutionChanges as $ch){ ?><li><?= h($ch) ?></li><?php } ?>
+              </ul>
+            <?php } ?>
+          </div>
+        </div>
+      </article>
+
+      <article id="como">
+        <?php render_article_image($featuresImg); ?>
+        <div class="articleBody">
+          <h3><?= h($featuresTitle) ?></h3>
+          <h4>Lo esencial, explicado desde el beneficio.</h4>
+          <div class="twocol">
+            <?php foreach($features as $f){ ?>
+              <div class="card">
+                <b><?= h($f['name']) ?></b>
+                <p><?= h($f['benefit']) ?></p>
+              </div>
+            <?php } ?>
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <?php render_article_image($audImg); ?>
+        <div class="articleBody">
+          <h3><?= h($audTitle) ?></h3>
+          <h4>Si te reconoces aquí, esto está hecho para tu día a día.</h4>
+          <div class="twocol">
+            <?php foreach($profiles as $p){ ?>
+              <div class="card">
+                <b><?= h($p['name']) ?></b>
+                <p><?= h($p['fit']) ?></p>
+              </div>
+            <?php } ?>
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <?php render_article_image($useImg); ?>
+        <div class="articleBody">
+          <h3><?= h($useTitle) ?></h3>
+          <h4>Situaciones reales donde se nota el cambio.</h4>
+          <div class="twocol">
+            <?php foreach($useCases as $c){ ?>
+              <div class="card">
+                <b><?= h($c['name']) ?></b>
+                <p><?= h($c['description']) ?></p>
+              </div>
+            <?php } ?>
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <?php render_article_image($benefitsImg); ?>
+        <div class="articleBody">
+          <h3><?= h($benefitsTitle) ?></h3>
+          <h4>Resultados prácticos para el centro y el equipo.</h4>
+          <ul class="list">
+            <?php foreach($benefitItems as $it){ ?><li><?= h($it) ?></li><?php } ?>
+          </ul>
+        </div>
+      </article>
+
+      <?php if($integrationsTitle !== "" || count($integrationsItems)){ ?>
+      <article>
+        <?php render_article_image($integrationsImg); ?>
+        <div class="articleBody">
+          <h3><?= h($integrationsTitle ?: "Integración y compatibilidad") ?></h3>
+          <?php if($integrationsNotes !== ""){ ?><h4><?= h($integrationsNotes) ?></h4><?php } ?>
+          <ul class="list">
+            <?php foreach($integrationsItems as $it){ ?><li><?= h($it) ?></li><?php } ?>
+          </ul>
+        </div>
+      </article>
+      <?php } ?>
+
+      <article>
+        <?php render_article_image($trustImg); ?>
+        <div class="articleBody">
+          <h3><?= h($trustTitle) ?></h3>
+          <h4>Para decidir con tranquilidad.</h4>
+          <ul class="list">
+            <?php foreach($trustPoints as $it){ ?><li><?= h($it) ?></li><?php } ?>
+          </ul>
+        </div>
+      </article>
+
+      <article id="contacto">
+        <?php render_article_image($ctaImg); ?>
+        <div class="articleBody">
+          <h3><?= h($ctaTitle) ?></h3>
+          <?php if($ctaDesc !== ""){ ?><h4><?= h($ctaDesc) ?></h4><?php } ?>
+
+          <div class="ctaBox">
+            <?php if(count($ctaActions)){ ?>
+              <div class="actions">
+                <?php foreach($ctaActions as $a){
+                  $cls = ($a['type']==='primary') ? 'btn primary' : 'btn';
+                ?>
+                  <a class="<?= h($cls) ?>" href="#contacto"><?= h($a['text']) ?></a>
+                <?php } ?>
+              </div>
+            <?php } ?>
+
+            <?php if($contactEmail !== ""){ ?>
+              <div class="mini">Contacto directo: <a class="email" href="mailto:<?= h($contactEmail) ?>"><?= h($contactEmail) ?></a></div>
+            <?php } ?>
+
+            <?php if(count($formFields)){ ?>
+              <form method="post" action="enviar.php">
+                <?php foreach($formFields as $f){
+                  $name = $f['name'];
+                  $type = $f['type'];
+                  $req  = $f['required'] ? 'required' : '';
+                  $ph = ucfirst(str_replace('_',' ', $name));
+
+                  if ($type === 'textarea') { ?>
+                    <textarea name="<?= h($name) ?>" placeholder="<?= h($ph) ?>" <?= $req ?>></textarea>
+                  <?php } else { ?>
+                    <input type="<?= h($type === 'tel' ? 'tel' : ($type === 'email' ? 'email' : 'text')) ?>"
+                           name="<?= h($name) ?>"
+                           placeholder="<?= h($ph) ?>"
+                           <?= $req ?>>
+                  <?php } ?>
+                <?php } ?>
+                <button class="submit" type="submit">Enviar</button>
+              </form>
+              <div class="mini">Puedes conectar <b>enviar.php</b> a tu CRM o a un correo.</div>
+            <?php } ?>
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <?php render_article_image($faqImg); ?>
+        <div class="articleBody">
+          <h3><?= h($faqTitle) ?></h3>
+          <h4>Respuestas rápidas a dudas habituales.</h4>
+          <?php foreach($faqs as $qa){ ?>
+            <details>
+              <summary><?= h($qa['q']) ?></summary>
+              <p><?= h($qa['a']) ?></p>
+            </details>
+          <?php } ?>
+        </div>
+      </article>
+
+    </main>
+
+    <?php if($footerSummary !== ""){ ?>
+      <div class="footerSummary wrap"><?= h($footerSummary) ?></div>
+    <?php } ?>
+
+    <footer>
+      <?php
+        $catsFooter = $footerJson['categorias'] ?? [];
+        $linksFooter = $footerJson['enlaces'] ?? [];
+      ?>
+      <article class="categorias">
+        <?php if(is_array($catsFooter)) for($i=0;$i<count($catsFooter);$i++){ ?>
+          <a href="index.php?cat=<?= h($catsFooter[$i]) ?>"><?= h($catsFooter[$i]) ?></a>
+        <?php } ?>
+      </article>
+
+      <article class="paginas">
+        <?php if(is_array($linksFooter)) for($i=0;$i<count($linksFooter);$i++){ ?>
+          <a href="<?= h($linksFooter[$i]['enlace'] ?? '#') ?>"><?= h($linksFooter[$i]['nombre'] ?? '') ?></a>
+        <?php } ?>
+      </article>
+    </footer>
+
+  </body>
+</html>
+```
+
 
 <a id="recursos-materiales-y-humanos-necesarios"></a>
 ## Recursos materiales y humanos necesarios
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/002-Selecci%C3%B3n%20de%20un%20servicio%20o%20producto/007-Recursos%20materiales%20y%20humanos%20necesarios)
+
+### contacto
+<small>Creado: 2025-12-15 15:19</small>
+
+`contacto.php`
+
+```
+<?php
+// contacto.php — Página de contacto (formulario + datos + mapa OpenStreetMap)
+// Estilo Appleweb-like (tu estilo) + header/footer desde db/*.json
+
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+function h($s){ return htmlspecialchars((string)$s, ENT_QUOTES, 'UTF-8'); }
+
+// ===============================
+// CONFIG CONTACTO (edita aquí)
+// ===============================
+const CONTACT_EMAIL = "contacto@tudominio.com";
+const CONTACT_PHONE = "+34 600 000 000";
+
+// Coordenadas del mapa (edita aquí)
+const MAP_LAT = 39.4699;
+const MAP_LNG = -0.3763;
+const MAP_ZOOM = 14;
+
+// (Opcional) Envío de email con mail()
+// - En muchos servidores requiere configuración del MTA.
+// - Si prefieres guardarlo en SQLite o mandarlo por SMTP, dímelo y te lo adapto.
+const SEND_EMAIL = false;
+const EMAIL_TO = "contacto@tudominio.com";
+
+// ===============================
+// Cargar header/footer JSON (como tu web)
+// ===============================
+$cats = [];
+$catsFile = __DIR__ . "/db/categorias.json";
+if (file_exists($catsFile)) {
+  $cats = json_decode(file_get_contents($catsFile), true);
+  if (!is_array($cats)) $cats = [];
+}
+
+$footerJson = [];
+$footerFile = __DIR__ . "/db/piedepagina.json";
+if (file_exists($footerFile)) {
+  $footerJson = json_decode(file_get_contents($footerFile), true);
+  if (!is_array($footerJson)) $footerJson = [];
+}
+
+// ===============================
+// Procesar formulario (POST)
+// ===============================
+$ok = false;
+$error = "";
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+  // Honeypot anti-spam
+  $hp = trim($_POST['empresa_web'] ?? '');
+  if ($hp !== "") {
+    $error = "Solicitud no válida.";
+  } else {
+    $nombre  = trim($_POST['nombre'] ?? '');
+    $centro  = trim($_POST['centro'] ?? '');
+    $email   = trim($_POST['email'] ?? '');
+    $telefono= trim($_POST['telefono'] ?? '');
+    $mensaje = trim($_POST['mensaje'] ?? '');
+
+    if ($nombre === "" || $centro === "" || $email === "" || $mensaje === "") {
+      $error = "Por favor, completa los campos obligatorios.";
+    } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+      $error = "El email no parece válido.";
+    } else {
+      // Aquí puedes guardar en DB, mandar por API, etc.
+      if (SEND_EMAIL) {
+        $subject = "Contacto web — " . $nombre . " (" . $centro . ")";
+        $body =
+          "Nombre: $nombre\n".
+          "Centro: $centro\n".
+          "Email: $email\n".
+          "Teléfono: $telefono\n\n".
+          "Mensaje:\n$mensaje\n";
+        $headers = "From: ".CONTACT_EMAIL."\r\nReply-To: $email\r\n";
+        @mail(EMAIL_TO, $subject, $body, $headers);
+      }
+      $ok = true;
+    }
+  }
+}
+?>
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Contacto · jocarsa</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <!-- Leaflet (OpenStreetMap) -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <style>
+      @font-face {font-family: Ubuntu;src: url(estilo/Ubuntu-R.ttf);}
+      @font-face {font-family: UbuntuB;src: url(estilo/Ubuntu-B.ttf);}
+
+      html,body{padding:0;margin:0;font-family:Ubuntu,sans-serif;width:100%;height:100%;background:#fff;color:#111;}
+
+      header{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        box-shadow:0px 2px 4px rgba(0,0,0,0.3);
+        gap:20px;
+        padding:10px;
+        position:sticky;
+        top:0;
+        background:rgba(255,255,255,0.95);
+        backdrop-filter:saturate(180%) blur(12px);
+        z-index:10;
+      }
+      header img{width:30px;}
+      header a{text-decoration:none;color:indigo;font-size:11px;}
+
+      .wrap{width:min(1100px, calc(100% - 24px)); margin:0 auto;}
+
+      /* HERO */
+      .hero{padding:60px 0 20px 0;text-align:center;}
+      .hero h1{font-family:UbuntuB,Ubuntu,sans-serif;font-size:52px;margin:0;letter-spacing:-0.5px;}
+      .hero p{margin:12px 0 0 0;color:#555;font-size:14px;line-height:1.5;}
+
+      /* GRID */
+      main{
+        width:100%;
+        display:grid;
+        grid-template-columns:1fr;
+        gap:10px;
+        padding:10px 0 30px 0;
+      }
+
+      article{
+        width:100%;
+        background:linear-gradient(180deg, #f2f2f7, #ffffff);
+        border-radius:18px;
+        border:1px solid rgba(0,0,0,0.08);
+        box-shadow:0px 10px 30px rgba(0,0,0,0.06);
+        overflow:hidden;
+      }
+
+      .articleMedia{
+        width:100%;
+        height:190px;
+        overflow:hidden;
+        background:rgba(0,0,0,0.03);
+        border-bottom:1px solid rgba(0,0,0,0.06);
+      }
+      .articleMedia img{
+        width:100%;
+        height:100%;
+        object-fit:cover;
+        display:block;
+        transform:scale(1.02);
+      }
+
+      .articleBody{
+        padding:22px 24px 24px 24px;
+        box-sizing:border-box;
+        display:flex;
+        flex-direction:column;
+        gap:12px;
+        align-items:center;
+      }
+
+      h3{padding:0;margin:0;text-align:center;font-family:UbuntuB,Ubuntu,sans-serif;font-size:28px;letter-spacing:-0.3px;}
+      h4{padding:0;margin:0;text-align:center;font-size:13px;color:#555;font-weight:normal;line-height:1.5;max-width:760px;}
+
+      /* CONTACT CARDS */
+      .twocol{width:min(900px, 100%);display:grid;grid-template-columns:1fr;gap:10px;}
+      .card{
+        background:rgba(255,255,255,0.7);
+        border:1px solid rgba(0,0,0,0.06);
+        border-radius:14px;
+        padding:14px;
+        display:flex;
+        flex-direction:column;
+        gap:6px;
+      }
+      .card b{font-family:UbuntuB,Ubuntu,sans-serif;}
+      .card a{color:indigo;text-decoration:none;font-size:13px;}
+      .card p{margin:0;font-size:13px;color:#444;line-height:1.45;}
+
+      /* FORM */
+      form{width:min(650px, 100%);display:grid;grid-template-columns:1fr;gap:10px;margin-top:6px;}
+      input, textarea{
+        width:100%;
+        padding:12px 12px;
+        border-radius:12px;
+        border:1px solid rgba(0,0,0,0.12);
+        font-family:Ubuntu,sans-serif;
+        font-size:13px;
+        box-sizing:border-box;
+        outline:none;
+        background:#fff;
+      }
+      textarea{min-height:140px;resize:vertical;}
+      .submit{
+        background:indigo;border:1px solid indigo;color:white;
+        padding:12px 16px;border-radius:999px;cursor:pointer;
+        font-size:12px;justify-self:center;width:220px;
+      }
+
+      .note{
+        width:min(650px, 100%);
+        font-size:12px;
+        color:#666;
+        text-align:center;
+        line-height:1.45;
+      }
+
+      .alert{
+        width:min(650px, 100%);
+        border-radius:14px;
+        padding:12px 14px;
+        border:1px solid rgba(0,0,0,0.06);
+        background:rgba(255,255,255,0.7);
+        font-size:13px;
+        text-align:center;
+      }
+      .alert.ok{ border-color: rgba(0,128,0,0.25); }
+      .alert.err{ border-color: rgba(180,0,0,0.25); }
+
+      /* MAP */
+      #map{
+        width:min(900px, 100%);
+        height:360px;
+        border-radius:18px;
+        overflow:hidden;
+        border:1px solid rgba(0,0,0,0.08);
+        box-shadow:0px 10px 30px rgba(0,0,0,0.06);
+        background:#f2f2f7;
+      }
+
+      @media (min-width:800px){
+        .twocol{grid-template-columns:1fr 1fr;}
+      }
+
+      footer{
+        display:flex;justify-content:center;gap:20px;
+        padding:20px;font-size:11px;border-top:1px solid rgba(0,0,0,0.08);
+      }
+      footer article{display:flex;flex-direction:column;gap:10px;}
+      footer article a{text-decoration:none;color:indigo;}
+    </style>
+  </head>
+  <body>
+
+    <header>
+      <a href="index.php"><img src="https://static.jocarsa.com/logos/jocarsa%20%7C%20Indigo.svg" alt="jocarsa"></a>
+      <?php for($i=0;$i<count($cats);$i++){ ?>
+        <a href="index.php?cat=<?= h($cats[$i]) ?>"><?= h($cats[$i]) ?></a>
+      <?php } ?>
+      <a href="pagina.php?p=sobrenosotros">Sobre nosotros</a>
+      <a href="contacto.php">Contacto</a>
+    </header>
+
+    <section class="hero">
+      <div class="wrap">
+        <h1>Contacto</h1>
+        <p>Cuéntanos tu caso y te respondemos con una propuesta clara y práctica.</p>
+      </div>
+    </section>
+
+    <main class="wrap">
+
+      <!-- 1) Formulario -->
+      <article>
+        <div class="articleMedia">
+          <img src="https://static.jocarsa.com/demo/edu/cta.jpg" alt="Contacto" loading="lazy">
+        </div>
+
+        <div class="articleBody">
+          <h3>Escríbenos</h3>
+          <h4>Te contestamos con información directa, sin rodeos.</h4>
+
+          <?php if($ok){ ?>
+            <div class="alert ok">Mensaje enviado correctamente. Te responderemos lo antes posible.</div>
+          <?php } elseif($error !== "") { ?>
+            <div class="alert err"><?= h($error) ?></div>
+          <?php } ?>
+
+          <form method="post" action="contacto.php">
+            <!-- Honeypot invisible -->
+            <input type="text" name="empresa_web" value="" style="display:none" tabindex="-1" autocomplete="off">
+
+            <input type="text" name="nombre" placeholder="Nombre *" required value="<?= h($_POST['nombre'] ?? '') ?>">
+            <input type="text" name="centro" placeholder="Centro / Empresa *" required value="<?= h($_POST['centro'] ?? '') ?>">
+            <input type="email" name="email" placeholder="Email *" required value="<?= h($_POST['email'] ?? '') ?>">
+            <input type="tel" name="telefono" placeholder="Teléfono" value="<?= h($_POST['telefono'] ?? '') ?>">
+            <textarea name="mensaje" placeholder="Mensaje *" required><?= h($_POST['mensaje'] ?? '') ?></textarea>
+
+            <button class="submit" type="submit">Enviar</button>
+          </form>
+
+          <div class="note">
+            También puedes escribir a <a href="mailto:<?= h(CONTACT_EMAIL) ?>" style="color:indigo;text-decoration:none;"><?= h(CONTACT_EMAIL) ?></a>
+            o llamar al <a href="tel:<?= h(CONTACT_PHONE) ?>" style="color:indigo;text-decoration:none;"><?= h(CONTACT_PHONE) ?></a>.
+          </div>
+        </div>
+      </article>
+
+      <!-- 2) Datos de contacto -->
+      <article>
+        <div class="articleMedia">
+          <img src="https://static.jocarsa.com/demo/edu/trust.jpg" alt="Datos de contacto" loading="lazy">
+        </div>
+
+        <div class="articleBody">
+          <h3>Datos</h3>
+          <h4>Canales directos para hablar contigo con rapidez.</h4>
+
+          <div class="twocol">
+            <div class="card">
+              <b>Email</b>
+              <p>Respuesta ágil y con detalles.</p>
+              <a href="mailto:<?= h(CONTACT_EMAIL) ?>"><?= h(CONTACT_EMAIL) ?></a>
+            </div>
+
+            <div class="card">
+              <b>Teléfono</b>
+              <p>Para consultas rápidas o coordinación.</p>
+              <a href="tel:<?= h(CONTACT_PHONE) ?>"><?= h(CONTACT_PHONE) ?></a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 3) Mapa OpenStreetMap (Leaflet) -->
+      <article>
+        <div class="articleMedia">
+          <img src="https://static.jocarsa.com/demo/edu/map.jpg" alt="Mapa" loading="lazy">
+        </div>
+
+        <div class="articleBody">
+          <h3>Ubicación</h3>
+          <h4>Mapa basado en OpenStreetMap.</h4>
+
+          <div id="map"></div>
+
+          <div class="note">
+            Si prefieres reunión online, también podemos hacer una demo por videollamada.
+          </div>
+        </div>
+      </article>
+
+    </main>
+
+    <footer>
+      <?php
+        $catsFooter = $footerJson['categorias'] ?? [];
+        $linksFooter = $footerJson['enlaces'] ?? [];
+      ?>
+      <article class="categorias">
+        <?php if(is_array($catsFooter)) for($i=0;$i<count($catsFooter);$i++){ ?>
+          <a href="index.php?cat=<?= h($catsFooter[$i]) ?>"><?= h($catsFooter[$i]) ?></a>
+        <?php } ?>
+      </article>
+
+      <article class="paginas">
+        <?php if(is_array($linksFooter)) for($i=0;$i<count($linksFooter);$i++){ ?>
+          <a href="<?= h($linksFooter[$i]['enlace'] ?? '#') ?>"><?= h($linksFooter[$i]['nombre'] ?? '') ?></a>
+        <?php } ?>
+      </article>
+    </footer>
+
+    <script>
+      // OpenStreetMap con Leaflet
+      const lat = <?= json_encode(MAP_LAT) ?>;
+      const lng = <?= json_encode(MAP_LNG) ?>;
+      const zoom = <?= json_encode(MAP_ZOOM) ?>;
+
+      const map = L.map('map', { scrollWheelZoom: false }).setView([lat, lng], zoom);
+
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; OpenStreetMap contributors'
+      }).addTo(map);
+
+      const marker = L.marker([lat, lng]).addTo(map);
+      marker.bindPopup("<?= h('JOCARSA · Contacto') ?>").openPopup();
+    </script>
+
+  </body>
+</html>
+```
+
+### index
+<small>Creado: 2025-12-15 15:18</small>
+
+`index.php`
+
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>jocarsa</title>
+    <meta charset="utf-8">
+    <style>
+      @font-face {font-family: Ubuntu;src: url(estilo/Ubuntu-R.ttf);}
+      @font-face {font-family: UbuntuB;src: url(estilo/Ubuntu-B.ttf);}
+      /* ESTILOS GENERALES /////////////////////////////////////// */
+      html,body{
+        padding:0px;
+        margin:0px;
+        font-family:Ubuntu,sans-serif;
+        width:100%;
+        height:100%; 
+      }
+
+      /* ESTILOS CABECERA  /////////////////////////////////////// */
+      header{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        box-shadow:0px 2px 4px rgba(0,0,0,0.3);
+        gap:20px;
+        padding:10px;
+      }
+      header img{width:30px;}
+      header a{text-decoration:none;color:indigo;font-size:11px;}
+
+      /* ESTILOS PRODUCTOS  /////////////////////////////////////// */
+      main{
+        width:100%;
+        display:grid;
+        grid-template-columns:1fr;
+        gap:10px;
+      }
+
+      /* ARTÍCULOS 1–3 (IGUAL QUE AHORA) ///////////////////////// */
+      main article{
+        width:100%;
+        height:400px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background:lightgrey;
+        flex-direction:column;
+        gap:10px;
+      }
+      main article h3,main article h4{padding:0px;margin:0px;}
+      main article h3{font-size:32px;}
+      main article a{background:indigo;text-decoration:none;color:white;padding:10px 20px;border-radius:50px;}
+
+      /* LOS 3 PRIMEROS OCUPAN TODA LA FILA ////////////////////// */
+      main article:nth-child(-n+3){
+        grid-column:1 / -1;
+      }
+
+      /* ARTÍCULOS 4+ EN DOS COLUMNAS /////////////////////////// */
+      @media (min-width:600px){
+        main{
+          grid-template-columns:1fr 1fr;
+        }
+
+        main article:nth-child(-n+3){
+          grid-column:1 / -1;
+        }
+      }
+      footer{display:flex;justify-content:center;gap:20px;padding:20px;font-size:11px;}
+      footer article{display:flex;flex-direction:column;gap:10px;}
+      footer article a{text-decoration:none;color:indigo;}
+    </style>
+
+  </head>
+  <body>
+    <header>
+      <a href="?"><img src="https://static.jocarsa.com/logos/jocarsa%20%7C%20Indigo.svg"></a>
+      <?php 
+      $archivo = file_get_contents('db/categorias.json');
+      $json = json_decode($archivo, true);
+      for($i = 0;$i<count($json);$i++){ ?>
+        <a href="?"><?= $json[$i] ?></a>
+      <?php }?>
+      <a href="pagina.php?p=sobrenosotros">Sobre nosotros</a>
+      <a href="contacto.php">Contacto</a>
+    </header>
+    <main>
+      <?php 
+        $archivo = file_get_contents('db/productos.json');
+        $json = json_decode($archivo, true);
+        for($i = 0;$i<count($json);$i++){ ?>
+        <article>
+          <h3><?= $json[$i]['nombre'] ?></h3>
+          <h4><?= $json[$i]['slogan'] ?></h4>
+          <a href="producto.php?p=<?= $json[$i]['nombre'] ?>">Saber más</a>
+        </article>
+      <?php }?>
+    </main>
+    <footer>
+      <?php 
+        $archivo = file_get_contents('db/piedepagina.json');
+        $json = json_decode($archivo, true);
+         ?>
+        <article class="categorias">
+          <?php for($i = 0;$i<count($json['categorias']);$i++){?>
+            <a href="?cat=<?= $json['categorias'][$i] ?>"><?= $json['categorias'][$i] ?></a>
+          <?php } ?>
+        </article>
+        <article class="paginas">
+          <?php for($i = 0;$i<count($json['enlaces']);$i++){?>
+            <a href="?cat=<?= $json['enlaces'][$i]['enlace'] ?>"><?= $json['enlaces'][$i]['nombre'] ?></a>
+          <?php } ?>
+        </article>
+     
+    </footer>
+  </body>
+</html>
+```
+
+### pagina
+<small>Creado: 2025-12-15 15:18</small>
+
+`pagina.php`
+
+```
+<?php
+// pagina.php — Cargador genérico de páginas informativas desde XML
+// Uso: pagina.php?file=db/paginas/sobrenosotros.xml
+
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+function h($s){ return htmlspecialchars((string)$s, ENT_QUOTES, 'UTF-8'); }
+
+function safe_path($rel){
+  $rel = (string)$rel;
+  if (!preg_match('/^[a-zA-Z0-9_\-\/\.]+$/', $rel) || str_contains($rel, '..')) return "";
+  return __DIR__ . '/' . ltrim($rel, '/');
+}
+
+function safe_img_src($src): string {
+  $src = trim((string)$src);
+  if ($src === "") return "";
+  if (str_contains($src, '..')) return "";
+  if (preg_match('#^https?://#i', $src)) return $src;
+  if (!preg_match('/^[a-zA-Z0-9_\-\/\.\%\=\?\&]+$/', $src)) return "";
+  return $src;
+}
+
+// ===============================
+// 1) Cargar XML
+// ===============================
+$defaultRel = "paginas/".$_GET['p'].".xml";
+$relFile = $_GET['file'] ?? $defaultRel;
+$xmlPath = safe_path($relFile);
+if ($xmlPath === "" || !file_exists($xmlPath)) {
+  http_response_code(404);
+  die("XML no encontrado: ".h($relFile));
+}
+
+libxml_use_internal_errors(true);
+$xml = simplexml_load_file($xmlPath);
+if (!$xml) {
+  http_response_code(500);
+  $errs = libxml_get_errors();
+  echo "Error leyendo XML<br>";
+  foreach($errs as $e){ echo h($e->message)."<br>"; }
+  exit;
+}
+
+// ===============================
+// 2) Cargar header/footer JSON
+// ===============================
+$cats = [];
+$catsFile = __DIR__ . "/db/categorias.json";
+if (file_exists($catsFile)) {
+  $cats = json_decode(file_get_contents($catsFile), true);
+  if (!is_array($cats)) $cats = [];
+}
+
+$footerJson = [];
+$footerFile = __DIR__ . "/db/piedepagina.json";
+if (file_exists($footerFile)) {
+  $footerJson = json_decode(file_get_contents($footerFile), true);
+  if (!is_array($footerJson)) $footerJson = [];
+}
+
+// ===============================
+// 3) Leer estructura de página
+// ===============================
+$title = (string)($xml->meta->title ?? $xml->hero->title ?? "Página");
+$subtitle = (string)($xml->hero->subtitle ?? "");
+
+$heroImg = [
+  'src' => (string)($xml->hero->media->image['src'] ?? ''),
+  'alt' => (string)($xml->hero->media->image['alt'] ?? ''),
+];
+
+$badges = [];
+if (isset($xml->hero->badges->badge)) {
+  foreach ($xml->hero->badges->badge as $b) $badges[] = trim((string)$b);
+}
+
+$actions = [];
+if (isset($xml->hero->actions->action)) {
+  foreach ($xml->hero->actions->action as $a) {
+    $actions[] = [
+      'type' => (string)($a['type'] ?? ''),
+      'text' => trim((string)$a),
+      'href' => (string)($a['href'] ?? ''), // opcional
+    ];
+  }
+}
+
+// Sections
+$sections = [];
+if (isset($xml->sections->section)) {
+  foreach ($xml->sections->section as $s) {
+    $img = [
+      'src' => (string)($s->media->image['src'] ?? ''),
+      'alt' => (string)($s->media->image['alt'] ?? ''),
+    ];
+
+    $items = [];
+    if (isset($s->items->item)) {
+      foreach ($s->items->item as $it) $items[] = trim((string)$it);
+    }
+
+    $cards = [];
+    if (isset($s->cards->card)) {
+      foreach ($s->cards->card as $c) {
+        $cards[] = [
+          'title' => (string)($c->title ?? ''),
+          'text'  => (string)($c->text ?? ''),
+        ];
+      }
+    }
+
+    $faqs = [];
+    if (isset($s->faq->qa)) {
+      foreach ($s->faq->qa as $qa) {
+        $faqs[] = ['q'=>(string)$qa->q, 'a'=>(string)$qa->a];
+      }
+    }
+
+    $sections[] = [
+      'id' => (string)($s['id'] ?? ''),
+      'layout' => (string)($s['layout'] ?? 'list'), // list|cards|faq|text
+      'title' => (string)($s->title ?? ''),
+      'subtitle' => (string)($s->subtitle ?? ''),
+      'text' => (string)($s->text ?? ''),
+      'image' => $img,
+      'items' => $items,
+      'cards' => $cards,
+      'faqs'  => $faqs,
+    ];
+  }
+}
+
+function render_article_image(array $img){
+  $src = safe_img_src($img['src'] ?? '');
+  if ($src === "") return;
+  $alt = trim((string)($img['alt'] ?? ''));
+  ?>
+  <div class="articleMedia">
+    <img src="<?= h($src) ?>" alt="<?= h($alt) ?>" loading="lazy">
+  </div>
+  <?php
+}
+?>
+<!doctype html>
+<html lang="es">
+  <head>
+    <title><?= h($title) ?> · jocarsa</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style>
+      @font-face {font-family: Ubuntu;src: url(estilo/Ubuntu-R.ttf);}
+      @font-face {font-family: UbuntuB;src: url(estilo/Ubuntu-B.ttf);}
+
+      html,body{padding:0;margin:0;font-family:Ubuntu,sans-serif;width:100%;height:100%;background:#fff;color:#111;}
+
+      header{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        box-shadow:0px 2px 4px rgba(0,0,0,0.3);
+        gap:20px;
+        padding:10px;
+        position:sticky;top:0;
+        background:rgba(255,255,255,0.95);
+        backdrop-filter:saturate(180%) blur(12px);
+        z-index:10;
+      }
+      header img{width:30px;}
+      header a{text-decoration:none;color:indigo;font-size:11px;}
+
+      .wrap{width:min(1100px, calc(100% - 24px)); margin:0 auto;}
+
+      .hero{padding:60px 0 20px 0;text-align:center;}
+      .hero h1{font-family:UbuntuB,Ubuntu,sans-serif;font-size:52px;margin:0;letter-spacing:-0.5px;}
+      .hero p{margin:12px 0 0 0;color:#555;font-size:14px;line-height:1.5;}
+
+      .badges{margin-top:16px;display:flex;justify-content:center;gap:10px;flex-wrap:wrap;}
+      .badge{font-size:11px;padding:6px 10px;border-radius:999px;background:rgba(75,0,130,0.08);color:indigo;border:1px solid rgba(75,0,130,0.15);}
+
+      .actions{margin-top:22px;display:flex;justify-content:center;gap:10px;flex-wrap:wrap;}
+      .btn{text-decoration:none;padding:10px 18px;border-radius:999px;font-size:12px;display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(0,0,0,0.12);background:#fff;color:#111;}
+      .btn.primary{background:indigo;border-color:indigo;color:#fff;}
+
+      main{width:100%;display:grid;grid-template-columns:1fr;gap:10px;padding:10px 0 30px 0;}
+
+      main article{
+        width:100%;
+        min-height:320px;
+        display:flex;
+        justify-content:flex-start;
+        align-items:center;
+        background:linear-gradient(180deg, #f2f2f7, #ffffff);
+        flex-direction:column;
+        gap:12px;
+        border-radius:18px;
+        border:1px solid rgba(0,0,0,0.08);
+        box-shadow:0px 10px 30px rgba(0,0,0,0.06);
+        padding:0px;
+        box-sizing:border-box;
+        overflow:hidden;
+      }
+
+      .articleMedia{
+        width:100%;
+        height:170px;
+        overflow:hidden;
+        background:rgba(0,0,0,0.03);
+        border-bottom:1px solid rgba(0,0,0,0.06);
+      }
+      .articleMedia img{
+        width:100%;
+        height:100%;
+        object-fit:cover;
+        display:block;
+        transform:scale(1.02);
+      }
+
+      .articleBody{
+        width:100%;
+        padding:22px 24px 24px 24px;
+        box-sizing:border-box;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        gap:12px;
+      }
+
+      h3{padding:0;margin:0;text-align:center;font-family:UbuntuB,Ubuntu,sans-serif;font-size:28px;letter-spacing:-0.3px;}
+      h4{padding:0;margin:0;text-align:center;font-size:13px;color:#555;font-weight:normal;line-height:1.5;max-width:760px;}
+
+      .content{width:min(900px, 100%);display:flex;flex-direction:column;gap:10px;}
+
+      .list{
+        width:min(900px, 100%);
+        margin:0 auto;
+        padding:0;
+        list-style:none;
+        display:flex;
+        flex-direction:column;
+        gap:8px;
+      }
+      .list li{
+        background:rgba(255,255,255,0.7);
+        border:1px solid rgba(0,0,0,0.06);
+        border-radius:12px;
+        padding:10px 12px;
+        font-size:13px;
+        line-height:1.45;
+      }
+
+      .twocol{width:min(900px, 100%);display:grid;grid-template-columns:1fr;gap:10px;}
+      .card{
+        background:rgba(255,255,255,0.7);
+        border:1px solid rgba(0,0,0,0.06);
+        border-radius:14px;
+        padding:14px;
+        display:flex;
+        flex-direction:column;
+        gap:6px;
+        min-height:120px;
+      }
+      .card b{font-family:UbuntuB,Ubuntu,sans-serif;}
+      .card p{margin:0;font-size:13px;color:#444;line-height:1.45;}
+
+      details{
+        width:min(900px, 100%);
+        background:rgba(255,255,255,0.7);
+        border:1px solid rgba(0,0,0,0.06);
+        border-radius:14px;
+        padding:12px 14px;
+      }
+      summary{cursor:pointer;font-family:UbuntuB,Ubuntu,sans-serif;font-size:13px;color:#111;}
+      details p{margin:10px 0 0 0;font-size:13px;color:#444;line-height:1.5;}
+
+      @media (min-width:600px){
+        .twocol{grid-template-columns:1fr 1fr;}
+        .articleMedia{height:190px;}
+      }
+
+      footer{
+        display:flex;justify-content:center;gap:20px;
+        padding:20px;font-size:11px;border-top:1px solid rgba(0,0,0,0.08);
+      }
+      footer article{display:flex;flex-direction:column;gap:10px;}
+      footer article a{text-decoration:none;color:indigo;}
+    </style>
+  </head>
+  <body>
+
+    <header>
+      <a href="index.php"><img src="https://static.jocarsa.com/logos/jocarsa%20%7C%20Indigo.svg" alt="jocarsa"></a>
+      <?php for($i=0;$i<count($cats);$i++){ ?>
+        <a href="index.php?cat=<?= h($cats[$i]) ?>"><?= h($cats[$i]) ?></a>
+      <?php } ?>
+      <a href="pagina.php?p=sobrenosotros">Sobre nosotros</a>
+      <a href="contacto.php">Contacto</a>
+    </header>
+
+    <section class="hero">
+      <div class="wrap">
+        <?php
+          $heroSrc = safe_img_src($heroImg['src'] ?? '');
+          if ($heroSrc !== "") { ?>
+            <div style="width:min(1100px, calc(100% - 24px));margin:0 auto 18px auto;border-radius:18px;overflow:hidden;border:1px solid rgba(0,0,0,0.08);box-shadow:0px 10px 30px rgba(0,0,0,0.06);">
+              <img src="<?= h($heroSrc) ?>" alt="<?= h($heroImg['alt'] ?? '') ?>" style="width:100%;height:240px;object-fit:cover;display:block;">
+            </div>
+        <?php } ?>
+
+        <h1><?= h($title) ?></h1>
+        <?php if($subtitle !== ""){ ?><p><?= h($subtitle) ?></p><?php } ?>
+
+        <?php if(count($badges)){ ?>
+          <div class="badges">
+            <?php foreach($badges as $b){ ?><span class="badge"><?= h($b) ?></span><?php } ?>
+          </div>
+        <?php } ?>
+
+        <?php if(count($actions)){ ?>
+          <div class="actions">
+            <?php foreach($actions as $a){
+              $cls = ($a['type']==='primary') ? 'btn primary' : 'btn';
+              $href = trim($a['href'] ?? '');
+              if ($href === "") $href = "#";
+            ?>
+              <a class="<?= h($cls) ?>" href="<?= h($href) ?>"><?= h($a['text']) ?></a>
+            <?php } ?>
+          </div>
+        <?php } ?>
+      </div>
+    </section>
+
+    <main class="wrap">
+      <?php foreach($sections as $sec){ ?>
+        <article id="<?= h($sec['id']) ?>">
+          <?php render_article_image($sec['image']); ?>
+          <div class="articleBody">
+            <h3><?= h($sec['title']) ?></h3>
+            <?php if(trim($sec['subtitle']) !== ""){ ?><h4><?= h($sec['subtitle']) ?></h4><?php } ?>
+
+            <?php if($sec['layout'] === 'text'){ ?>
+              <?php if(trim($sec['text']) !== ""){ ?><h4><?= h($sec['text']) ?></h4><?php } ?>
+
+            <?php } elseif($sec['layout'] === 'list'){ ?>
+              <?php if(trim($sec['text']) !== ""){ ?><h4><?= h($sec['text']) ?></h4><?php } ?>
+              <?php if(count($sec['items'])){ ?>
+                <ul class="list">
+                  <?php foreach($sec['items'] as $it){ ?><li><?= h($it) ?></li><?php } ?>
+                </ul>
+              <?php } ?>
+
+            <?php } elseif($sec['layout'] === 'cards'){ ?>
+              <?php if(trim($sec['text']) !== ""){ ?><h4><?= h($sec['text']) ?></h4><?php } ?>
+              <div class="twocol">
+                <?php foreach($sec['cards'] as $c){ ?>
+                  <div class="card">
+                    <b><?= h($c['title']) ?></b>
+                    <p><?= h($c['text']) ?></p>
+                  </div>
+                <?php } ?>
+              </div>
+
+            <?php } elseif($sec['layout'] === 'faq'){ ?>
+              <?php if(trim($sec['text']) !== ""){ ?><h4><?= h($sec['text']) ?></h4><?php } ?>
+              <?php foreach($sec['faqs'] as $qa){ ?>
+                <details>
+                  <summary><?= h($qa['q']) ?></summary>
+                  <p><?= h($qa['a']) ?></p>
+                </details>
+              <?php } ?>
+
+            <?php } else { ?>
+              <?php if(trim($sec['text']) !== ""){ ?><h4><?= h($sec['text']) ?></h4><?php } ?>
+            <?php } ?>
+          </div>
+        </article>
+      <?php } ?>
+    </main>
+
+    <footer>
+      <?php
+        $catsFooter = $footerJson['categorias'] ?? [];
+        $linksFooter = $footerJson['enlaces'] ?? [];
+      ?>
+      <article class="categorias">
+        <?php if(is_array($catsFooter)) for($i=0;$i<count($catsFooter);$i++){ ?>
+          <a href="index.php?cat=<?= h($catsFooter[$i]) ?>"><?= h($catsFooter[$i]) ?></a>
+        <?php } ?>
+      </article>
+
+      <article class="paginas">
+        <?php if(is_array($linksFooter)) for($i=0;$i<count($linksFooter);$i++){ ?>
+          <a href="<?= h($linksFooter[$i]['enlace'] ?? '#') ?>"><?= h($linksFooter[$i]['nombre'] ?? '') ?></a>
+        <?php } ?>
+      </article>
+    </footer>
+
+  </body>
+</html>
+```
+
+### producto
+<small>Creado: 2025-12-15 15:19</small>
+
+`producto.php`
+
+```
+<?php
+// producto.php — XML + XSD (con <media><image/>) + diseño Appleweb-like (tu estilo)
+
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+function h($s){ return htmlspecialchars((string)$s, ENT_QUOTES, 'UTF-8'); }
+
+// -------------------------------
+// 1) Cargar XML de producto
+//    Uso: producto.php?file=db/productos/gestion-academica-pro.xml
+// -------------------------------
+$defaultXml = __DIR__ . "/productos/".$_GET['p'].".xml";
+$xmlFile = $_GET['file'] ?? $defaultXml;
+
+// Permitir rutas relativas simples dentro del proyecto (sin ../)
+if (!preg_match('/^[a-zA-Z0-9_\-\/\.]+$/', (string)$xmlFile) || str_contains((string)$xmlFile, '..')) {
+  $xmlFile = $defaultXml;
+}
+if (!str_starts_with((string)$xmlFile, '/')) {
+  $xmlFile = __DIR__ . '/' . ltrim((string)$xmlFile, '/');
+}
+
+if (!file_exists($xmlFile)) {
+  http_response_code(404);
+  die("XML no encontrado: ".h($xmlFile));
+}
+
+libxml_use_internal_errors(true);
+$xml = simplexml_load_file($xmlFile);
+if (!$xml) {
+  http_response_code(500);
+  $errs = libxml_get_errors();
+  echo "Error leyendo XML<br>";
+  foreach($errs as $e){ echo h($e->message)."<br>"; }
+  exit;
+}
+
+// -------------------------------
+// Helpers
+// -------------------------------
+function nodes_to_array($nodes) {
+  $out = [];
+  if (!$nodes) return $out;
+  foreach ($nodes as $n) $out[] = trim((string)$n);
+  return $out;
+}
+
+function read_image($node): array {
+  // Devuelve ['src'=>..., 'alt'=>...] o ['src'=>'','alt'=>'']
+  $src = "";
+  $alt = "";
+  if (isset($node->media->image)) {
+    $src = (string)($node->media->image['src'] ?? '');
+    $alt = (string)($node->media->image['alt'] ?? '');
+  }
+  return ['src'=>$src, 'alt'=>$alt];
+}
+
+function safe_img_src($src): string {
+  // Acepta http(s) y rutas relativas simples (sin ../)
+  $src = trim((string)$src);
+  if ($src === "") return "";
+  if (str_contains($src, '..')) return "";
+  if (preg_match('#^https?://#i', $src)) return $src;
+  // ruta relativa
+  if (!preg_match('/^[a-zA-Z0-9_\-\/\.\%\=\?\&]+$/', $src)) return "";
+  return $src;
+}
+
+// -------------------------------
+// Datos
+// -------------------------------
+$metaTitle = (string)($xml->meta->title ?? $xml->hero->name ?? "Producto");
+
+$heroImg   = read_image($xml->hero);
+$heroName  = (string)($xml->hero->name ?? "");
+$heroValue = (string)($xml->hero->valueProposition ?? "");
+$heroSub   = (string)($xml->hero->subtitle ?? "");
+
+$heroActions = [];
+if (isset($xml->hero->actions->action)) {
+  foreach ($xml->hero->actions->action as $a) {
+    $heroActions[] = [
+      'type' => (string)($a['type'] ?? ''),
+      'text' => trim((string)$a),
+    ];
+  }
+}
+$badges = nodes_to_array($xml->hero->badges->badge ?? null);
+
+// Secciones + imagen
+$problemImg   = read_image($xml->problem);
+$problemTitle = (string)($xml->problem->title ?? "Problemas");
+$problemItems = nodes_to_array($xml->problem->items->item ?? null);
+
+$solutionImg    = read_image($xml->solution);
+$solutionTitle  = (string)($xml->solution->title ?? "La solución");
+$solutionOverview = (string)($xml->solution->overview ?? "");
+$solutionChanges  = nodes_to_array($xml->solution->whatChanges->change ?? null);
+
+$featuresImg   = read_image($xml->keyFeatures);
+$featuresTitle = (string)($xml->keyFeatures->title ?? "Funcionalidades");
+$features = [];
+if (isset($xml->keyFeatures->feature)) {
+  foreach ($xml->keyFeatures->feature as $f) {
+    $features[] = ['name'=>(string)$f->name, 'benefit'=>(string)$f->benefit];
+  }
+}
+
+$audImg   = read_image($xml->targetAudience);
+$audTitle = (string)($xml->targetAudience->title ?? "¿Para quién es?");
+$profiles = [];
+if (isset($xml->targetAudience->profiles->profile)) {
+  foreach ($xml->targetAudience->profiles->profile as $p) {
+    $profiles[] = ['name'=>(string)$p->name, 'fit'=>(string)$p->fit];
+  }
+}
+
+$useImg   = read_image($xml->useCases);
+$useTitle = (string)($xml->useCases->title ?? "Casos de uso");
+$useCases = [];
+if (isset($xml->useCases->case)) {
+  foreach ($xml->useCases->case as $c) {
+    $useCases[] = ['name'=>(string)$c->name, 'description'=>(string)$c->description];
+  }
+}
+
+$benefitsImg   = read_image($xml->benefits);
+$benefitsTitle = (string)($xml->benefits->title ?? "Beneficios");
+$benefitItems  = nodes_to_array($xml->benefits->items->item ?? null);
+
+$integrationsImg   = isset($xml->integrations) ? read_image($xml->integrations) : ['src'=>'','alt'=>''];
+$integrationsTitle = (string)($xml->integrations->title ?? "");
+$integrationsNotes = (string)($xml->integrations->notes ?? "");
+$integrationsItems = nodes_to_array($xml->integrations->items->item ?? null);
+
+$trustImg    = read_image($xml->trust);
+$trustTitle  = (string)($xml->trust->title ?? "Confianza");
+$trustPoints = nodes_to_array($xml->trust->points->point ?? null);
+
+$ctaImg   = read_image($xml->finalCTA);
+$ctaTitle = (string)($xml->finalCTA->title ?? "¿Hablamos?");
+$ctaDesc  = (string)($xml->finalCTA->description ?? "");
+
+$ctaActions = [];
+if (isset($xml->finalCTA->actions->action)) {
+  foreach ($xml->finalCTA->actions->action as $a) {
+    $ctaActions[] = ['type'=>(string)($a['type'] ?? ''), 'text'=>trim((string)$a)];
+  }
+}
+
+$contactEmail = (string)($xml->finalCTA->contact->email ?? "");
+$formFields = [];
+if (isset($xml->finalCTA->contact->form->field)) {
+  foreach ($xml->finalCTA->contact->form->field as $f) {
+    $formFields[] = [
+      'name' => (string)($f['name'] ?? ''),
+      'type' => (string)($f['type'] ?? 'text'),
+      'required' => ((string)($f['required'] ?? 'false')) === 'true',
+    ];
+  }
+}
+
+$faqImg   = read_image($xml->faq);
+$faqTitle = (string)($xml->faq->title ?? "Preguntas frecuentes");
+$faqs = [];
+if (isset($xml->faq->qa)) {
+  foreach ($xml->faq->qa as $qa) {
+    $faqs[] = ['q'=>(string)$qa->q, 'a'=>(string)$qa->a];
+  }
+}
+
+$footerSummary = (string)($xml->footer->summary ?? "");
+
+// Header/footer JSON como tu web
+$cats = [];
+$catsFile = __DIR__ . "/db/categorias.json";
+if (file_exists($catsFile)) {
+  $cats = json_decode(file_get_contents($catsFile), true);
+  if (!is_array($cats)) $cats = [];
+}
+$footerJson = [];
+$footerFile = __DIR__ . "/db/piedepagina.json";
+if (file_exists($footerFile)) {
+  $footerJson = json_decode(file_get_contents($footerFile), true);
+  if (!is_array($footerJson)) $footerJson = [];
+}
+
+// Render helper (imagen en cabecera de article)
+function render_article_image(array $img){
+  $src = safe_img_src($img['src'] ?? '');
+  if ($src === "") return;
+  $alt = trim((string)($img['alt'] ?? ''));
+  ?>
+  <div class="articleMedia">
+    <img src="<?= h($src) ?>" alt="<?= h($alt) ?>" loading="lazy">
+  </div>
+  <?php
+}
+?>
+<!doctype html>
+<html lang="es">
+  <head>
+    <title><?= h($metaTitle) ?> · jocarsa</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style>
+      @font-face {font-family: Ubuntu;src: url(estilo/Ubuntu-R.ttf);}
+      @font-face {font-family: UbuntuB;src: url(estilo/Ubuntu-B.ttf);}
+
+      html,body{padding:0;margin:0;font-family:Ubuntu,sans-serif;width:100%;height:100%;background:#fff;color:#111;}
+
+      header{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        box-shadow:0px 2px 4px rgba(0,0,0,0.3);
+        gap:20px;
+        padding:10px;
+        position:sticky;top:0;
+        background:rgba(255,255,255,0.95);
+        backdrop-filter:saturate(180%) blur(12px);
+        z-index:10;
+      }
+      header img{width:30px;}
+      header a{text-decoration:none;color:indigo;font-size:11px;}
+
+      .wrap{width:min(1100px, calc(100% - 24px)); margin:0 auto;}
+
+      .hero{padding:60px 0 30px 0;text-align:center;}
+      .hero h1{font-family:UbuntuB,Ubuntu,sans-serif;font-size:52px;margin:0;letter-spacing:-0.5px;}
+      .hero .value{font-size:18px;color:#333;margin:14px 0 0 0;}
+      .hero .sub{font-size:14px;color:#666;margin:10px 0 0 0;line-height:1.5;}
+
+      .badges{margin-top:16px;display:flex;justify-content:center;gap:10px;flex-wrap:wrap;}
+      .badge{font-size:11px;padding:6px 10px;border-radius:999px;background:rgba(75,0,130,0.08);color:indigo;border:1px solid rgba(75,0,130,0.15);}
+
+      .actions{margin-top:22px;display:flex;justify-content:center;gap:10px;flex-wrap:wrap;}
+      .btn{text-decoration:none;padding:10px 18px;border-radius:999px;font-size:12px;display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(0,0,0,0.12);background:#fff;color:#111;}
+      .btn.primary{background:indigo;border-color:indigo;color:#fff;}
+
+      main{width:100%;display:grid;grid-template-columns:1fr;gap:10px;padding:10px 0 30px 0;}
+
+      main article{
+        width:100%;
+        min-height:360px;
+        display:flex;
+        justify-content:flex-start;
+        align-items:center;
+        background:linear-gradient(180deg, #f2f2f7, #ffffff);
+        flex-direction:column;
+        gap:12px;
+        border-radius:18px;
+        border:1px solid rgba(0,0,0,0.08);
+        box-shadow:0px 10px 30px rgba(0,0,0,0.06);
+        padding:0px;
+        box-sizing:border-box;
+        overflow:hidden;
+        position:relative;
+      }
+
+      /* IMAGEN ARRIBA DEL ARTICLE ////////////////////////////// */
+      .articleMedia{
+        width:100%;
+        height:170px;
+        overflow:hidden;
+        background:rgba(0,0,0,0.03);
+        border-bottom:1px solid rgba(0,0,0,0.06);
+      }
+      .articleMedia img{
+        width:100%;
+        height:100%;
+        object-fit:cover;
+        display:block;
+        transform:scale(1.02);
+      }
+
+      .articleBody{
+        width:100%;
+        padding:22px 24px 24px 24px;
+        box-sizing:border-box;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        gap:12px;
+      }
+
+      main article h3, main article h4{padding:0;margin:0;text-align:center;}
+      main article h3{font-family:UbuntuB,Ubuntu,sans-serif;font-size:28px;letter-spacing:-0.3px;}
+      main article h4{font-size:13px;color:#555;font-weight:normal;line-height:1.5;max-width:760px;}
+
+      .content{width:min(900px, 100%);display:flex;flex-direction:column;gap:10px;}
+
+      .list{
+        width:min(900px, 100%);
+        margin:0 auto;
+        padding:0;
+        list-style:none;
+        display:flex;
+        flex-direction:column;
+        gap:8px;
+      }
+      .list li{
+        background:rgba(255,255,255,0.7);
+        border:1px solid rgba(0,0,0,0.06);
+        border-radius:12px;
+        padding:10px 12px;
+        font-size:13px;
+        line-height:1.45;
+      }
+
+      .twocol{width:min(900px, 100%);display:grid;grid-template-columns:1fr;gap:10px;}
+      .card{
+        background:rgba(255,255,255,0.7);
+        border:1px solid rgba(0,0,0,0.06);
+        border-radius:14px;
+        padding:14px;
+        display:flex;
+        flex-direction:column;
+        gap:6px;
+        min-height:120px;
+      }
+      .card b{font-family:UbuntuB,Ubuntu,sans-serif;}
+      .card p{margin:0;font-size:13px;color:#444;line-height:1.45;}
+
+      main article:nth-child(-n+3){grid-column:1 / -1;}
+
+      @media (min-width:600px){
+        main{grid-template-columns:1fr 1fr;}
+        main article:nth-child(-n+3){grid-column:1 / -1;}
+        .twocol{grid-template-columns:1fr 1fr;}
+        .articleMedia{height:190px;}
+      }
+
+      details{
+        width:min(900px, 100%);
+        background:rgba(255,255,255,0.7);
+        border:1px solid rgba(0,0,0,0.06);
+        border-radius:14px;
+        padding:12px 14px;
+      }
+      summary{cursor:pointer;font-family:UbuntuB,Ubuntu,sans-serif;font-size:13px;color:#111;}
+      details p{margin:10px 0 0 0;font-size:13px;color:#444;line-height:1.5;}
+
+      .ctaBox{width:min(900px, 100%);display:flex;flex-direction:column;gap:10px;align-items:center;}
+      .mini{font-size:12px;color:#666;text-align:center;line-height:1.45;}
+      .email{font-size:12px;color:indigo;text-decoration:none;}
+
+      form{width:min(650px, 100%);display:grid;grid-template-columns:1fr;gap:10px;margin-top:6px;}
+      input, textarea, select{
+        width:100%;
+        padding:12px 12px;
+        border-radius:12px;
+        border:1px solid rgba(0,0,0,0.12);
+        font-family:Ubuntu,sans-serif;
+        font-size:13px;
+        box-sizing:border-box;
+        outline:none;
+      }
+      textarea{min-height:120px;resize:vertical;}
+      .submit{
+        background:indigo;border:1px solid indigo;color:white;
+        padding:12px 16px;border-radius:999px;cursor:pointer;
+        font-size:12px;justify-self:center;width:220px;
+      }
+
+      footer{
+        display:flex;justify-content:center;gap:20px;
+        padding:20px;font-size:11px;border-top:1px solid rgba(0,0,0,0.08);
+      }
+      footer article{display:flex;flex-direction:column;gap:10px;}
+      footer article a{text-decoration:none;color:indigo;}
+      .footerSummary{padding:0 0 30px 0;text-align:center;color:#666;font-size:11px;}
+    </style>
+  </head>
+  <body>
+
+    <header>
+      <a href="index.php"><img src="https://static.jocarsa.com/logos/jocarsa%20%7C%20Indigo.svg" alt="jocarsa"></a>
+      <?php for($i=0;$i<count($cats);$i++){ ?>
+        <a href="index.php?cat=<?= h($cats[$i]) ?>"><?= h($cats[$i]) ?></a>
+      <?php } ?>
+      <a href="pagina.php?p=sobrenosotros">Sobre nosotros</a>
+      <a href="contacto.php">Contacto</a>
+    </header>
+
+    <section class="hero">
+      <div class="wrap">
+        <?php
+          $heroSrc = safe_img_src($heroImg['src'] ?? '');
+          if ($heroSrc !== "") { ?>
+            <div style="width:min(1100px, calc(100% - 24px));margin:0 auto 18px auto;border-radius:18px;overflow:hidden;border:1px solid rgba(0,0,0,0.08);box-shadow:0px 10px 30px rgba(0,0,0,0.06);">
+              <img src="<?= h($heroSrc) ?>" alt="<?= h($heroImg['alt'] ?? '') ?>" style="width:100%;height:240px;object-fit:cover;display:block;">
+            </div>
+        <?php } ?>
+
+        <h1><?= h($heroName ?: $metaTitle) ?></h1>
+        <?php if($heroValue !== ""){ ?><p class="value"><?= h($heroValue) ?></p><?php } ?>
+        <?php if($heroSub !== ""){ ?><p class="sub"><?= h($heroSub) ?></p><?php } ?>
+
+        <?php if(count($badges)){ ?>
+          <div class="badges">
+            <?php foreach($badges as $b){ ?><span class="badge"><?= h($b) ?></span><?php } ?>
+          </div>
+        <?php } ?>
+
+        <?php if(count($heroActions)){ ?>
+          <div class="actions">
+            <?php foreach($heroActions as $a){
+              $cls = ($a['type']==='primary') ? 'btn primary' : 'btn';
+              $anchor = '#contacto';
+              if (stripos($a['text'], 'cómo') !== false || stripos($a['text'], 'funciona') !== false) $anchor = '#como';
+              if (stripos($a['text'], 'contact') !== false) $anchor = '#contacto';
+            ?>
+              <a class="<?= h($cls) ?>" href="<?= h($anchor) ?>"><?= h($a['text']) ?></a>
+            <?php } ?>
+          </div>
+        <?php } ?>
+      </div>
+    </section>
+
+    <main class="wrap">
+
+      <article id="problema">
+        <?php render_article_image($problemImg); ?>
+        <div class="articleBody">
+          <h3><?= h($problemTitle) ?></h3>
+          <h4>Lo que normalmente frena a un centro cuando quiere crecer sin perder control.</h4>
+          <ul class="list">
+            <?php foreach($problemItems as $it){ ?><li><?= h($it) ?></li><?php } ?>
+          </ul>
+        </div>
+      </article>
+
+      <article id="solucion">
+        <?php render_article_image($solutionImg); ?>
+        <div class="articleBody">
+          <h3><?= h($solutionTitle) ?></h3>
+          <div class="content">
+            <?php if($solutionOverview !== ""){ ?><h4><?= h($solutionOverview) ?></h4><?php } ?>
+            <?php if(count($solutionChanges)){ ?>
+              <ul class="list">
+                <?php foreach($solutionChanges as $ch){ ?><li><?= h($ch) ?></li><?php } ?>
+              </ul>
+            <?php } ?>
+          </div>
+        </div>
+      </article>
+
+      <article id="como">
+        <?php render_article_image($featuresImg); ?>
+        <div class="articleBody">
+          <h3><?= h($featuresTitle) ?></h3>
+          <h4>Lo esencial, explicado desde el beneficio.</h4>
+          <div class="twocol">
+            <?php foreach($features as $f){ ?>
+              <div class="card">
+                <b><?= h($f['name']) ?></b>
+                <p><?= h($f['benefit']) ?></p>
+              </div>
+            <?php } ?>
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <?php render_article_image($audImg); ?>
+        <div class="articleBody">
+          <h3><?= h($audTitle) ?></h3>
+          <h4>Si te reconoces aquí, esto está hecho para tu día a día.</h4>
+          <div class="twocol">
+            <?php foreach($profiles as $p){ ?>
+              <div class="card">
+                <b><?= h($p['name']) ?></b>
+                <p><?= h($p['fit']) ?></p>
+              </div>
+            <?php } ?>
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <?php render_article_image($useImg); ?>
+        <div class="articleBody">
+          <h3><?= h($useTitle) ?></h3>
+          <h4>Situaciones reales donde se nota el cambio.</h4>
+          <div class="twocol">
+            <?php foreach($useCases as $c){ ?>
+              <div class="card">
+                <b><?= h($c['name']) ?></b>
+                <p><?= h($c['description']) ?></p>
+              </div>
+            <?php } ?>
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <?php render_article_image($benefitsImg); ?>
+        <div class="articleBody">
+          <h3><?= h($benefitsTitle) ?></h3>
+          <h4>Resultados prácticos para el centro y el equipo.</h4>
+          <ul class="list">
+            <?php foreach($benefitItems as $it){ ?><li><?= h($it) ?></li><?php } ?>
+          </ul>
+        </div>
+      </article>
+
+      <?php if($integrationsTitle !== "" || count($integrationsItems)){ ?>
+      <article>
+        <?php render_article_image($integrationsImg); ?>
+        <div class="articleBody">
+          <h3><?= h($integrationsTitle ?: "Integración y compatibilidad") ?></h3>
+          <?php if($integrationsNotes !== ""){ ?><h4><?= h($integrationsNotes) ?></h4><?php } ?>
+          <ul class="list">
+            <?php foreach($integrationsItems as $it){ ?><li><?= h($it) ?></li><?php } ?>
+          </ul>
+        </div>
+      </article>
+      <?php } ?>
+
+      <article>
+        <?php render_article_image($trustImg); ?>
+        <div class="articleBody">
+          <h3><?= h($trustTitle) ?></h3>
+          <h4>Para decidir con tranquilidad.</h4>
+          <ul class="list">
+            <?php foreach($trustPoints as $it){ ?><li><?= h($it) ?></li><?php } ?>
+          </ul>
+        </div>
+      </article>
+
+      <article id="contacto">
+        <?php render_article_image($ctaImg); ?>
+        <div class="articleBody">
+          <h3><?= h($ctaTitle) ?></h3>
+          <?php if($ctaDesc !== ""){ ?><h4><?= h($ctaDesc) ?></h4><?php } ?>
+
+          <div class="ctaBox">
+            <?php if(count($ctaActions)){ ?>
+              <div class="actions">
+                <?php foreach($ctaActions as $a){
+                  $cls = ($a['type']==='primary') ? 'btn primary' : 'btn';
+                ?>
+                  <a class="<?= h($cls) ?>" href="#contacto"><?= h($a['text']) ?></a>
+                <?php } ?>
+              </div>
+            <?php } ?>
+
+            <?php if($contactEmail !== ""){ ?>
+              <div class="mini">Contacto directo: <a class="email" href="mailto:<?= h($contactEmail) ?>"><?= h($contactEmail) ?></a></div>
+            <?php } ?>
+
+            <?php if(count($formFields)){ ?>
+              <form method="post" action="enviar.php">
+                <?php foreach($formFields as $f){
+                  $name = $f['name'];
+                  $type = $f['type'];
+                  $req  = $f['required'] ? 'required' : '';
+                  $ph = ucfirst(str_replace('_',' ', $name));
+
+                  if ($type === 'textarea') { ?>
+                    <textarea name="<?= h($name) ?>" placeholder="<?= h($ph) ?>" <?= $req ?>></textarea>
+                  <?php } else { ?>
+                    <input type="<?= h($type === 'tel' ? 'tel' : ($type === 'email' ? 'email' : 'text')) ?>"
+                           name="<?= h($name) ?>"
+                           placeholder="<?= h($ph) ?>"
+                           <?= $req ?>>
+                  <?php } ?>
+                <?php } ?>
+                <button class="submit" type="submit">Enviar</button>
+              </form>
+              <div class="mini">Puedes conectar <b>enviar.php</b> a tu CRM o a un correo.</div>
+            <?php } ?>
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <?php render_article_image($faqImg); ?>
+        <div class="articleBody">
+          <h3><?= h($faqTitle) ?></h3>
+          <h4>Respuestas rápidas a dudas habituales.</h4>
+          <?php foreach($faqs as $qa){ ?>
+            <details>
+              <summary><?= h($qa['q']) ?></summary>
+              <p><?= h($qa['a']) ?></p>
+            </details>
+          <?php } ?>
+        </div>
+      </article>
+
+    </main>
+
+    <?php if($footerSummary !== ""){ ?>
+      <div class="footerSummary wrap"><?= h($footerSummary) ?></div>
+    <?php } ?>
+
+    <footer>
+      <?php
+        $catsFooter = $footerJson['categorias'] ?? [];
+        $linksFooter = $footerJson['enlaces'] ?? [];
+      ?>
+      <article class="categorias">
+        <?php if(is_array($catsFooter)) for($i=0;$i<count($catsFooter);$i++){ ?>
+          <a href="index.php?cat=<?= h($catsFooter[$i]) ?>"><?= h($catsFooter[$i]) ?></a>
+        <?php } ?>
+      </article>
+
+      <article class="paginas">
+        <?php if(is_array($linksFooter)) for($i=0;$i<count($linksFooter);$i++){ ?>
+          <a href="<?= h($linksFooter[$i]['enlace'] ?? '#') ?>"><?= h($linksFooter[$i]['nombre'] ?? '') ?></a>
+        <?php } ?>
+      </article>
+    </footer>
+
+  </body>
+</html>
+```
 
 
 <a id="realizacion-de-presupuestos-economicos"></a>
 ## Realización de presupuestos económicos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/002-Selecci%C3%B3n%20de%20un%20servicio%20o%20producto/008-Realizaci%C3%B3n%20de%20presupuestos%20econ%C3%B3micos)
+
 
 <a id="documentacion-para-el-diseno"></a>
 ## Documentación para el diseño
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/002-Selecci%C3%B3n%20de%20un%20servicio%20o%20producto/009-Documentaci%C3%B3n%20para%20el%20dise%C3%B1o)
 
 
 <a id="aspectos-sobre-la-calidad-del-proyecto"></a>
 ## Aspectos sobre la calidad del proyecto
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/002-Selecci%C3%B3n%20de%20un%20servicio%20o%20producto/010-Aspectos%20sobre%20la%20calidad%20del%20proyecto)
+
 
 <a id="presentacion-en-publico-de-las-ideas-mas-relevantes"></a>
 ## Presentación en público de las ideas más relevantes
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/002-Selecci%C3%B3n%20de%20un%20servicio%20o%20producto/011-Presentaci%C3%B3n%20en%20p%C3%BAblico%20de%20las%20ideas%20m%C3%A1s%20relevantes)
 
 
 
@@ -1693,33 +5255,49 @@ Estas actividades buscan capacitar a los estudiantes no solo técnicamente sino 
 <a id="temporalizacion-de-las-secuencias-de-las-actividades"></a>
 ## Temporalización de las secuencias de las actividades
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/003-Propuesta%20de%20empresa%20spin%20off/001-Temporalizaci%C3%B3n%20de%20las%20secuencias%20de%20las%20actividades)
+
 
 <a id="determinacion-de-recursos-y-logistica-de-cada-actividad"></a>
 ## Determinacion de recursos y logistica de cada actividad
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/003-Propuesta%20de%20empresa%20spin%20off/002-Determinacion%20de%20recursos%20y%20logistica%20de%20cada%20actividad)
 
 
 <a id="permisos-y-autorizaciones-necesarios"></a>
 ## Permisos y autorizaciones necesarios
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/003-Propuesta%20de%20empresa%20spin%20off/003-Permisos%20y%20autorizaciones%20necesarios)
+
 
 <a id="actividades-que-implican-riesgos"></a>
 ## Actividades que implican riesgos
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/003-Propuesta%20de%20empresa%20spin%20off/004-Actividades%20que%20implican%20riesgos)
 
 
 <a id="prl"></a>
 ## PRL
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/003-Propuesta%20de%20empresa%20spin%20off/005-PRL)
+
 
 <a id="recursos-materiales-y-humanos-de-cada-actividad"></a>
 ## Recursos materiales y humanos de cada actividad
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/003-Propuesta%20de%20empresa%20spin%20off/006-Recursos%20materiales%20y%20humanos%20de%20cada%20actividad)
 
 
 <a id="posibles-imprevistos"></a>
 ## Posibles imprevistos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/003-Propuesta%20de%20empresa%20spin%20off/007-Posibles%20imprevistos)
+
 
 <a id="documentacion-necesaria"></a>
 ## Documentación necesaria
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/003-Propuesta%20de%20empresa%20spin%20off/008-Documentaci%C3%B3n%20necesaria)
 
 
 
@@ -1729,25 +5307,37 @@ Estas actividades buscan capacitar a los estudiantes no solo técnicamente sino 
 <a id="procedimiento-de-seguimiento-de-las-actividades"></a>
 ## Procedimiento de seguimiento de las actividades
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/004-Relacion%20de%20unidad%20de%20empresa/001-Procedimiento%20de%20seguimiento%20de%20las%20actividades)
+
 
 <a id="verificacion-de-la-calidad-de-los-resultados-de-las-actividades"></a>
 ## Verificación de la calidad de los resultados de las actividades
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/004-Relacion%20de%20unidad%20de%20empresa/002-Verificaci%C3%B3n%20de%20la%20calidad%20de%20los%20resultados%20de%20las%20actividades)
 
 
 <a id="identificacion-de-posibles-desviaciones-en-planificacion"></a>
 ## Identificación de posibles desviaciones en planificación
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/004-Relacion%20de%20unidad%20de%20empresa/003-Identificaci%C3%B3n%20de%20posibles%20desviaciones%20en%20planificaci%C3%B3n)
+
 
 <a id="informacion-de-posibles-desviaciones"></a>
 ## Información de posibles desviaciones
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/004-Relacion%20de%20unidad%20de%20empresa/004-Informaci%C3%B3n%20de%20posibles%20desviaciones)
 
 
 <a id="solucion-y-documentacion-de-las-desviaciones"></a>
 ## Solución y documentación de las desviaciones
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/004-Relacion%20de%20unidad%20de%20empresa/005-Soluci%C3%B3n%20y%20documentaci%C3%B3n%20de%20las%20desviaciones)
+
 
 <a id="definicion-y-elaboracion-de-documentacion"></a>
 ## Definición y elaboración de documentación
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/004-Relacion%20de%20unidad%20de%20empresa/006-Definici%C3%B3n%20y%20elaboraci%C3%B3n%20de%20documentaci%C3%B3n)
 
 
 
@@ -1757,17 +5347,25 @@ Estas actividades buscan capacitar a los estudiantes no solo técnicamente sino 
 <a id="actitud-ordenada-y-metodica"></a>
 ## Actitud ordenada y metódica
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/005-Transmision%20de%20informacion/001-Actitud%20ordenada%20y%20met%C3%B3dica)
+
 
 <a id="transmision-de-informacion-horizontal-y-vertical"></a>
 ## Transmisión de información horizontal y vertical
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/005-Transmision%20de%20informacion/002-Transmisi%C3%B3n%20de%20informaci%C3%B3n%20horizontal%20y%20vertical)
 
 
 <a id="uso-de-medios-informaticos-para-transmitijr-informacion"></a>
 ## Uso de medios informáticos para transmitijr información
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/005-Transmision%20de%20informacion/003-Uso%20de%20medios%20inform%C3%A1ticos%20para%20transmitijr%20informaci%C3%B3n)
+
 
 <a id="terminos-tecnicos-en-otras-lenguajes-estandares-del-sector"></a>
 ## Términos técnicos en otras lenguajes estándares del sector
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/005-Transmision%20de%20informacion/004-T%C3%A9rminos%20t%C3%A9cnicos%20en%20otras%20lenguajes%20est%C3%A1ndares%20del%20sector)
 
 
 
@@ -1776,6 +5374,8 @@ Estas actividades buscan capacitar a los estudiantes no solo técnicamente sino 
 
 <a id="full-stack-en-el-servidor"></a>
 ## Full Stack en el servidor
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/006-Ejercicios/001-Full%20Stack%20en%20el%20servidor)
 
 ### Introducción a los ejercicios
 
@@ -2726,6 +6326,8 @@ This setup should give you a robust way to develop and deploy your Flask applica
 
 <a id="conexion-programacion-y-sql"></a>
 ## Conexion programacion y SQL
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/006-Ejercicios/002-Conexion%20programacion%20y%20SQL)
 
 ### Introducción a los ejercicios
 
@@ -3938,6 +7540,8 @@ Este proyecto es un buen ejemplo básico de cómo integrar Flask con una base de
 
 <a id="refresco-full-stack"></a>
 ## Refresco full stack
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/006-Ejercicios/003-Refresco%20full%20stack)
 
 ### Introducción a los ejercicios
 
@@ -5752,6 +9356,8 @@ Your project should now be set up with multiple pages, a database connection to 
 <a id="simulacro-parte-1"></a>
 ## Simulacro parte 1
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/006-Ejercicios/004-Simulacro%20parte%201)
+
 ### Introducción a los ejercicios
 
 Para que tu servidor Flask escuche en todas las interfaces de red disponibles, puedes usar `host='0.0.0.0'`. Esto hace que el servidor sea accesible desde cualquier dirección IP del sistema, lo cual es útil tanto para desarrollo como para pruebas en entornos donde necesitas acceder al servidor a través de diferentes direcciones IP.
@@ -7379,6 +10985,8 @@ Al ejecutar este código, tu servidor Flask será accesible desde cualquier dire
 <a id="simulacro-examen-1"></a>
 ## Simulacro examen 1
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/006-Ejercicios/005-Simulacro%20examen%201)
+
 ### Introducción a los ejercicios
 
 Esta carpeta contiene un conjunto de ejercicios diseñados para ayudarte a prepararte para el examen intermodular, enfocándose en la integración entre bases de datos MySQL y aplicaciones web Flask. Los problemas trabajan con la extracción y manipulación de datos desde una base de datos y su visualización en formato HTML vía una aplicación web simple. A lo largo de los ejercicios, practicarás habilidades como consultas SQL básicas, manejo de conexiones a bases de datos, uso del framework Flask para crear rutas web, y construcción básica de páginas web con HTML.
@@ -7682,17 +11290,25 @@ Estas actividades buscan cubrir desde el manejo básico hasta aspectos más avan
 <a id="simulacro-examen-2"></a>
 ## Simulacro examen 2
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/006-Ejercicios/006-Simulacro%20examen%202)
+
 
 <a id="simulacro-examen-3"></a>
 ## Simulacro examen 3
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/006-Ejercicios/007-Simulacro%20examen%203)
 
 
 <a id="resolucion-de-dudas"></a>
 ## Resolucion de dudas
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/006-Ejercicios/008-Resolucion%20de%20dudas)
+
 
 <a id="examen-final"></a>
 ## Examen final
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/006-Ejercicios/104-Examen%20final)
 
 ### Introducción a los ejercicios
 
@@ -7936,6 +11552,8 @@ Estas actividades están diseñadas para cubrir desde la creación de esquemas h
 <a id="instalacion-de-ollama"></a>
 ## Instalacion de Ollama
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/006-Ejercicios/201-Instalacion%20de%20Ollama)
+
 
 
 <a id="ejercicios-segundo-trimestre"></a>
@@ -7943,6 +11561,8 @@ Estas actividades están diseñadas para cubrir desde la creación de esquemas h
 
 <a id="proyecto-piero"></a>
 ## Proyecto Piero
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/007-Ejercicios%20segundo%20trimestre/001-Proyecto%20Piero)
 
 ### Introducción a los ejercicios
 
@@ -8755,13 +12375,427 @@ Si necesitas usar las imágenes en un proyecto público o comercial, es mejor bu
 <a id="primer-contacto-con-php"></a>
 ## Primer contacto con PHP
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/007-Ejercicios%20segundo%20trimestre/002-Primer%20contacto%20con%20PHP)
+
 
 <a id="proyecto-ollama-menus-saludables"></a>
 ## proyecto ollama menus saludables
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/007-Ejercicios%20segundo%20trimestre/003-proyecto%20ollama%20menus%20saludables)
+
 
 <a id="proyecto-ollama-curriculums"></a>
 ## Proyecto ollama curriculums
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/007-Ejercicios%20segundo%20trimestre/004-Proyecto%20ollama%20curriculums)
+
+
+<a id="web-con-panel-de-control"></a>
+## Web con panel de control
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/007-Ejercicios%20segundo%20trimestre/005-Web%20con%20panel%20de%20control)
+
+
+<a id="creador-de-muchos-articulso-de-blog"></a>
+## creador de muchos articulso de blog
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/007-Ejercicios%20segundo%20trimestre/006-creador%20de%20muchos%20articulso%20de%20blog)
+
+### generar
+<small>Creado: 2026-01-12 15:37</small>
+
+`generar.py`
+
+```python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+generar_articulos_blog.py
+
+Genera artículos para el blog a partir de archivos Markdown en ./documentos,
+usando Ollama local (modelo: qwen2.5:7b-instruct-q4_0) y guardándolos en SQLite.
+
+CAMBIO SOLICITADO (categorías):
+Para cada heading nivel 3 (### ...), la categoría del post será:
+
+  "<nombre_del_archivo_sin_extension>, <heading_nivel_1_actual>, <heading_nivel_2_actual>"
+
+Ejemplo:
+"Backpropagation explicado visualmente, El problema que resuelve backpropagation, Ajustar miles o millones de parámetros"
+
+Reglas:
+- Por cada .md en ./documentos:
+  - Usar TODO el documento como contexto.
+  - Por cada ### (nivel 3):
+    - title = heading nivel 3 sin numeración ("Lección 1.1.1 — ..." -> "...")
+    - category = "Archivo, H1, H2" (según contexto donde aparece ese ###)
+    - content = artículo en Markdown generado por Ollama.
+
+- Inserta solo si no existe ya un post con el mismo (title, category).
+- Guarda Markdown en posts.content (blog.php lo renderiza a HTML).
+
+Requisitos:
+- Ollama corriendo en localhost:11434
+- requests: pip install requests
+"""
+
+from __future__ import annotations
+
+import json
+import re
+import time
+import sqlite3
+from dataclasses import dataclass
+from datetime import datetime
+from pathlib import Path
+from typing import Dict, List, Optional, Tuple
+
+import requests
+
+
+# =========================
+# CONFIG
+# =========================
+MODEL = "qwen2.5:7b-instruct-q4_0"
+OLLAMA_URL = "http://127.0.0.1:11434/api/generate"
+
+SCRIPT_DIR = Path(__file__).resolve().parent
+DOCS_DIR = SCRIPT_DIR / "documentos"
+DB_PATH = SCRIPT_DIR / "blog.sqlite"
+
+REQUEST_TIMEOUT = 240
+RETRIES = 3
+SLEEP_BETWEEN_CALLS = 0.6
+
+CACHE_DIR = SCRIPT_DIR / ".cache_articulos"
+CACHE_DIR.mkdir(exist_ok=True)
+
+
+# =========================
+# DATA STRUCTURES
+# =========================
+@dataclass
+class H3Item:
+    file_stem: str
+    h1: str
+    h2: str
+    h3_raw: str
+    h3_title: str
+    category: str
+
+
+# =========================
+# HELPERS
+# =========================
+def now_iso() -> str:
+    return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+
+def normalize_newlines(s: str) -> str:
+    return s.replace("\r\n", "\n").replace("\r", "\n")
+
+
+def read_text(path: Path) -> str:
+    return path.read_text(encoding="utf-8", errors="replace")
+
+
+def ensure_db(db_path: Path) -> None:
+    conn = sqlite3.connect(str(db_path))
+    try:
+        conn.execute(
+            """
+            CREATE TABLE IF NOT EXISTS posts (
+              id INTEGER PRIMARY KEY AUTOINCREMENT,
+              date TEXT NOT NULL,
+              title TEXT NOT NULL,
+              content TEXT NOT NULL,
+              category TEXT NOT NULL
+            );
+            """
+        )
+        conn.execute("CREATE INDEX IF NOT EXISTS idx_posts_date ON posts(date DESC);")
+        conn.execute("CREATE INDEX IF NOT EXISTS idx_posts_category ON posts(category);")
+        conn.commit()
+    finally:
+        conn.close()
+
+
+def post_exists(conn: sqlite3.Connection, title: str, category: str) -> bool:
+    cur = conn.execute(
+        "SELECT 1 FROM posts WHERE title = ? AND category = ? LIMIT 1",
+        (title, category),
+    )
+    return cur.fetchone() is not None
+
+
+def insert_post(conn: sqlite3.Connection, title: str, content_md: str, category: str) -> None:
+    conn.execute(
+        "INSERT INTO posts(date, title, content, category) VALUES(?, ?, ?, ?)",
+        (now_iso(), title, content_md, category),
+    )
+    conn.commit()
+
+
+def cache_key(file_path: Path, title: str, category: str) -> Path:
+    base = f"{file_path.name}__{title}__{category}"
+    safe = re.sub(r"[^a-zA-Z0-9._-]+", "_", base)[:180]
+    return CACHE_DIR / f"{safe}.json"
+
+
+def strip_numbering_from_h3(title: str) -> str:
+    """
+    "Lección 1.1.1 — Por qué ajustar pesos es difícil" -> "Por qué ajustar pesos es difícil"
+    """
+    t = title.strip()
+
+    # Quitar prefijos tipo "Lección", "Leccion", "Lesson", "Tema", etc.
+    t = re.sub(r"^(lecci[oó]n|lesson|tema|cap[ií]tulo|unidad)\s*", "", t, flags=re.IGNORECASE)
+
+    # Quitar numeración inicial "1.2.3", "1)", "1.2 —", etc.
+    t = re.sub(r"^\s*\d+(?:[\.\-]\d+){0,6}\s*[\)\.\-–—:]*\s*", "", t)
+
+    # Quitar separadores iniciales
+    t = re.sub(r"^\s*[–—-]\s*", "", t)
+
+    # Normalizar espacios
+    t = re.sub(r"\s{2,}", " ", t).strip()
+    return t if t else title.strip()
+
+
+def extract_front_matter(md: str) -> Tuple[Dict[str, str], str]:
+    md = normalize_newlines(md)
+    if not md.startswith("---\n"):
+        return {}, md
+
+    parts = md.split("\n---\n", 1)
+    if len(parts) != 2:
+        return {}, md
+
+    fm_block = parts[0].splitlines()[1:]
+    body = parts[1]
+
+    fm: Dict[str, str] = {}
+    for line in fm_block:
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        m = re.match(r"^([A-Za-z0-9_-]+)\s*:\s*(.*)\s*$", line)
+        if m:
+            k = m.group(1).strip()
+            v = m.group(2).strip().strip('"').strip("'")
+            fm[k] = v
+
+    return fm, body
+
+
+def extract_hierarchy_items(md_body: str, file_stem: str) -> List[H3Item]:
+    """
+    Recorre el documento en orden y para cada ### captura el H1 y H2 más recientes.
+    """
+    h1_current = ""
+    h2_current = ""
+    items: List[H3Item] = []
+
+    for line in normalize_newlines(md_body).splitlines():
+        m1 = re.match(r"^\s*#\s+(.+?)\s*$", line)
+        if m1:
+            h1_current = m1.group(1).strip()
+            h2_current = ""  # al cambiar H1, reinicia H2
+            continue
+
+        m2 = re.match(r"^\s*##\s+(.+?)\s*$", line)
+        if m2:
+            h2_current = m2.group(1).strip()
+            continue
+
+        m3 = re.match(r"^\s*###\s+(.+?)\s*$", line)
+        if m3:
+            raw_h3 = m3.group(1).strip()
+            title = strip_numbering_from_h3(raw_h3)
+
+            # Si no hay H1/H2 en ese punto, pon placeholders (evita categoría vacía)
+            h1 = h1_current.strip() if h1_current.strip() else "Sin sección principal"
+            h2 = h2_current.strip() if h2_current.strip() else "Sin subsección"
+
+            category = f"{file_stem}, {h1}, {h2}"
+
+            items.append(
+                H3Item(
+                    file_stem=file_stem,
+                    h1=h1,
+                    h2=h2,
+                    h3_raw=raw_h3,
+                    h3_title=title,
+                    category=category,
+                )
+            )
+
+    return items
+
+
+def ollama_generate(prompt: str) -> str:
+    payload = {
+        "model": MODEL,
+        "prompt": prompt,
+        "stream": False,
+        "options": {
+            "temperature": 0.7,
+            "top_p": 0.9,
+            "num_ctx": 8192,
+        },
+    }
+
+    last_err = None
+    for attempt in range(1, RETRIES + 1):
+        try:
+            r = requests.post(OLLAMA_URL, json=payload, timeout=REQUEST_TIMEOUT)
+            r.raise_for_status()
+            data = r.json()
+            text = data.get("response", "")
+            if not isinstance(text, str) or not text.strip():
+                raise RuntimeError("Respuesta vacía de Ollama.")
+            return text.strip()
+        except Exception as e:
+            last_err = e
+            time.sleep(1.0 * attempt)
+
+    raise RuntimeError(f"Fallo llamando a Ollama tras {RETRIES} intentos: {last_err}")
+
+
+def build_prompt(full_doc: str, category: str, article_title: str) -> str:
+    return f"""Eres un redactor técnico experto en IA aplicada a programación.
+Escribe en español, con un tono claro y práctico para programadores.
+
+CONTEXTO (documento completo, úsalo para alinear terminología y enfoque):
+\"\"\"{full_doc}\"\"\"
+
+METADATOS:
+- Categoría del artículo (contexto): {category}
+- Título del artículo: "{article_title}"
+
+TAREA:
+Escribe un artículo de blog en formato Markdown sobre el título indicado.
+Longitud objetivo: 900 a 1400 palabras.
+
+Estructura mínima:
+1) Introducción (por qué importa)
+2) Explicación principal con ejemplos (incluye 1 bloque de código corto si ayuda)
+3) Errores típicos / trampas (al menos 3)
+4) Checklist accionable (5-10 puntos)
+5) Cierre con "Siguientes pasos" (2-4 bullets)
+
+REGLAS:
+- NO incluyas front-matter YAML.
+- NO incluyas enlaces inventados.
+- Devuelve SOLO el Markdown del artículo.
+"""
+
+
+# =========================
+# MAIN
+# =========================
+def main() -> None:
+    if not DOCS_DIR.is_dir():
+        raise SystemExit(f"ERROR: No existe la carpeta: {DOCS_DIR}")
+
+    ensure_db(DB_PATH)
+
+    md_files = sorted([p for p in DOCS_DIR.glob("*.md") if p.is_file()])
+    if not md_files:
+        print(f"No se encontraron .md en {DOCS_DIR}")
+        return
+
+    print(f"Encontrados {len(md_files)} archivos en {DOCS_DIR}")
+    print(f"DB: {DB_PATH}")
+    print(f"Modelo: {MODEL}")
+    print("-" * 70)
+
+    conn = sqlite3.connect(str(DB_PATH))
+    try:
+        inserted = 0
+        skipped = 0
+
+        for md_path in md_files:
+            raw = read_text(md_path)
+            _fm, body = extract_front_matter(raw)
+
+            # Categoría base: nombre del archivo sin extensión (tal como pides)
+            file_stem = md_path.stem.strip()
+            if not file_stem:
+                file_stem = md_path.name
+
+            items = extract_hierarchy_items(body, file_stem=file_stem)
+            if not items:
+                print(f"[SKIP] {md_path.name}: no hay headings ###")
+                continue
+
+            print(f"\n[{md_path.name}] H3 encontrados: {len(items)}")
+
+            full_doc_for_context = raw.strip()
+
+            for it in items:
+                title = it.h3_title
+                category = it.category
+
+                if post_exists(conn, title, category):
+                    skipped += 1
+                    print(f"  - (skip) Ya existe: [{category}] {title}")
+                    continue
+
+                ck = cache_key(md_path, title, category)
+                if ck.is_file():
+                    try:
+                        cached = json.loads(ck.read_text(encoding="utf-8"))
+                        content_md = (cached.get("content") or "").strip()
+                        if content_md:
+                            insert_post(conn, title, content_md, category)
+                            inserted += 1
+                            print(f"  - (cache→db) [{category}] {title}")
+                            continue
+                    except Exception:
+                        pass
+
+                print(f"  - (gen) [{category}] {title}")
+                prompt = build_prompt(full_doc_for_context, category, title)
+                content_md = ollama_generate(prompt)
+
+                if len(content_md.strip()) < 200:
+                    raise RuntimeError(f"Contenido demasiado corto generado para: {title}")
+
+                ck.write_text(
+                    json.dumps(
+                        {
+                            "source_file": md_path.name,
+                            "category": category,
+                            "title": title,
+                            "generated_at": now_iso(),
+                            "model": MODEL,
+                            "content": content_md,
+                            "hierarchy": {"h1": it.h1, "h2": it.h2, "h3_raw": it.h3_raw},
+                        },
+                        ensure_ascii=False,
+                        indent=2,
+                    ),
+                    encoding="utf-8",
+                )
+
+                insert_post(conn, title, content_md, category)
+                inserted += 1
+                time.sleep(SLEEP_BETWEEN_CALLS)
+
+        print("\n" + "=" * 70)
+        print(f"Insertados: {inserted}")
+        print(f"Saltados (ya existían): {skipped}")
+        print(f"Cache: {CACHE_DIR}")
+        print("=" * 70)
+
+    finally:
+        conn.close()
+
+
+if __name__ == "__main__":
+    main()
+```
 
 
 
@@ -8770,6 +12804,8 @@ Si necesitas usar las imágenes en un proyecto público o comercial, es mejor bu
 
 <a id="la-milla-extra-primera-evaluacion"></a>
 ## La Milla Extra - Primera evaluación
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/201-Actividad%20libre%20de%20final%20de%20evaluaci%C3%B3n%20-%20La%20milla%20extra/001-La%20Milla%20Extra%20-%20Primera%20evaluaci%C3%B3n)
 
 ### Introducción a los ejercicios
 

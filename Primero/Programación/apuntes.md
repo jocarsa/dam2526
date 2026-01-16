@@ -86,6 +86,11 @@
 - [Proyectos](#proyectos)
   - [Proyecto formulario](#proyecto-formulario)
   - [Panel de control de tienda online](#panel-de-control-de-tienda-online)
+  - [Libreria requests](#libreria-requests)
+  - [shorttags php](#shorttags-php)
+  - [salvapantallas](#salvapantallas)
+- [Inteligencia Artificial](#inteligencia-artificial)
+  - [IA inicial](#ia-inicial)
 - [Milla Extra Evaluacion 1](#milla-extra-evaluacion-1)
 - [Actividad libre de final de evaluación - La milla extra](#actividad-libre-de-final-de-evaluacion-la-milla-extra)
   - [La Milla Extra - Primera evaluación](#la-milla-extra-primera-evaluacion)
@@ -97,6 +102,8 @@
 
 <a id="estructura-y-bloques-fundamentales"></a>
 ## Estructura y bloques fundamentales
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/001-Identificaci%C3%B3n%20de%20los%20elementos%20de%20un%20programa%20inform%C3%A1tico/001-Estructura%20y%20bloques%20fundamentales)
 
 ### Introducción a los ejercicios
 
@@ -214,6 +221,8 @@ Los comentarios son muy importantes en programación porque ayudan a otros desar
 <a id="variables"></a>
 ## Variables
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/001-Identificaci%C3%B3n%20de%20los%20elementos%20de%20un%20programa%20inform%C3%A1tico/002-Variables)
+
 ### Introducción a los ejercicios
 
 Esta carpeta contiene ejercicios básicos sobre el uso de variables en Python, orientados a estudiantes de Formación Profesional. Los problemas se centran en la creación y manipulación de variables para almacenar e imprimir información como números enteros y cadenas de texto. Estos ejercicios ayudan a comprender cómo declarar correctamente las variables siguiendo las reglas del lenguaje, así como cómo usarlas dentro de programas simples para mostrar datos en pantalla.
@@ -317,6 +326,8 @@ Estas actividades buscan reforzar el entendimiento de conceptos básicos sobre l
 
 <a id="tipos-de-datos"></a>
 ## Tipos de datos
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/001-Identificaci%C3%B3n%20de%20los%20elementos%20de%20un%20programa%20inform%C3%A1tico/003-Tipos%20de%20datos)
 
 ### Introducción a los ejercicios
 
@@ -445,6 +456,8 @@ Desarrolla pequeños programas que integren varios tipos de datos en operaciones
 <a id="literales"></a>
 ## Literales
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/001-Identificaci%C3%B3n%20de%20los%20elementos%20de%20un%20programa%20inform%C3%A1tico/004-Literales)
+
 ### Introducción a los ejercicios
 
 En esta carpeta, se encuentran dos ejercicios básicos destinados a ayudar a los estudiantes a comprender y identificar literales en Python. Los literales son representaciones directas de valores que aparecen en el código sin la necesidad de ser calculados o declarados previamente. En el primer ejercicio, se trabajan con literales de cadena, mostrando cómo se representa texto directamente en el código. El segundo ejercicio enfatiza los literales numéricos, ilustrando la forma directa en que se introducen números enteros y flotantes en Python. Estos ejercicios son fundamentales para desarrollar una comprensión sólida de los elementos básicos del lenguaje y sentar las bases para estructuras más complejas.
@@ -545,6 +558,8 @@ Este tipo de código simple es útil cuando se están explicando conceptos bási
 <a id="constantes"></a>
 ## Constantes
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/001-Identificaci%C3%B3n%20de%20los%20elementos%20de%20un%20programa%20inform%C3%A1tico/005-Constantes)
+
 ### Introducción a los ejercicios
 
 En esta serie de ejercicios, centraremos nuestra atención en el concepto de constantes en programación utilizando Python. El objetivo principal es enseñar a los estudiantes la importancia y el uso correcto de las constantes, que son valores que deberían permanecer invariables durante toda la ejecución del programa. Sin embargo, el ejercicio también muestra cómo se puede modificar un valor supuestamente constante, lo cual ilustra por qué es una mala práctica en programación cambiar estos valores después de su inicialización. Además, los estudiantes aprenderán la convención de usar mayúsculas para nombrar constantes en Python y entenderán las implicaciones de no seguir esta regla.
@@ -616,6 +631,8 @@ Estas actividades buscan mejorar tanto los conocimientos teóricos como práctic
 
 <a id="operadores-y-expresiones"></a>
 ## Operadores y expresiones
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/001-Identificaci%C3%B3n%20de%20los%20elementos%20de%20un%20programa%20inform%C3%A1tico/006-Operadores%20y%20expresiones)
 
 ### Introducción a los ejercicios
 
@@ -781,6 +798,8 @@ Estas actividades están diseñadas para complementar el contenido de la carpeta
 <a id="ejercicio-de-final-de-unidad"></a>
 ## Ejercicio de final de unidad
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/001-Identificaci%C3%B3n%20de%20los%20elementos%20de%20un%20programa%20inform%C3%A1tico/101-Ejercicio%20de%20final%20de%20unidad)
+
 ### Introducción a los ejercicios
 
 El archivo en esta carpeta, "001-actividad.md", contiene un ejercicio diseñado para ayudarte a consolidar tus conocimientos sobre los elementos fundamentales de la programación informática. Este tipo de ejercicios te permitirá aplicar y revisar conceptos clave como algoritmos, variables, estructuras de control (condicionales y bucles), funciones y manejo básico de entrada/salida en un programa. La finalidad es que comprendas cómo estos elementos interactúan para crear programas completos, así como mejorar tus habilidades de resolución de problemas y lógica computacional.
@@ -837,6 +856,8 @@ El archivo en esta carpeta, "001-actividad.md", contiene un ejercicio diseñado 
 <a id="caracteristicas-de-los-objetos"></a>
 ## Características de los objetos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/002-Utilizaci%C3%B3n%20de%20objetos/001-Caracter%C3%ADsticas%20de%20los%20objetos)
+
 ### Introducción a los ejercicios
 
 En esta subunidad, se centra en la comprensión y utilización de objetos predefinidos en el lenguaje de programación, sin entrar en la creación de clases personalizadas. Los ejercicios trabajan con las características fundamentales de los objetos, como sus propiedades (atributos estáticos), métodos (funciones dinámicas) y constructores (función que se ejecuta al inicializar el objeto). Asimismo, se explorará cómo estos elementos pueden ser utilizados en operaciones avanzadas como la herencia y el polimorfismo. Estos ejercicios ayudarán a los estudiantes a modularizar y reutilizar bloques de código, lo cual es crucial para crear programas más complejos y mantenibles.
@@ -876,6 +897,8 @@ En esta subunidad, se centra en la comprensión y utilización de objetos predef
 
 <a id="instanciacion-de-objetos"></a>
 ## Instanciación de objetos
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/002-Utilizaci%C3%B3n%20de%20objetos/002-Instanciaci%C3%B3n%20de%20objetos)
 
 ### Introducción a los ejercicios
 
@@ -931,6 +954,8 @@ import math
 
 <a id="utilizacion-de-metodos-parametros"></a>
 ## Utilización de métodos. Parámetros
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/002-Utilizaci%C3%B3n%20de%20objetos/003-Utilizaci%C3%B3n%20de%20m%C3%A9todos.%20Par%C3%A1metros)
 
 ### Introducción a los ejercicios
 
@@ -1006,6 +1031,8 @@ print(raiz)
 <a id="utilizacion-de-propiedades"></a>
 ## Utilización de propiedades
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/002-Utilizaci%C3%B3n%20de%20objetos/004-Utilizaci%C3%B3n%20de%20propiedades)
+
 ### Introducción a los ejercicios
 
 En esta subcarpeta de ejercicios, los estudiantes se centrarán en la utilización y manipulación de objetos predeterminados que existen en el lenguaje Python, con énfasis especial en sus propiedades. Los ejercicios buscan desarrollar habilidades para trabajar con módulos incorporados del sistema y entender cómo acceder a valores predefinidos como constantes matemáticas. A través de estos problemas, los estudiantes aprenderán a importar paquetes y utilizar propiedades específicas dentro del contexto de la programación orientada a objetos en Python.
@@ -1066,6 +1093,8 @@ print(PI)
 
 <a id="utilizacion-de-metodos-estaticos"></a>
 ## Utilización de métodos estáticos
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/002-Utilizaci%C3%B3n%20de%20objetos/005-Utilizaci%C3%B3n%20de%20m%C3%A9todos%20est%C3%A1ticos)
 
 ### Introducción a los ejercicios
 
@@ -1153,6 +1182,8 @@ print(frutas)
 <a id="constructores"></a>
 ## Constructores
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/002-Utilizaci%C3%B3n%20de%20objetos/006-Constructores)
+
 ### Introducción a los ejercicios
 
 En esta subunidad de Programación, te enfocarás en aprender a utilizar objetos predeterminados que existen en el lenguaje de programación elegido, sin necesidad de crear clases personalizadas. El objetivo principal es entender y aplicar correctamente los constructores de estos objetos para inicializarlos con valores específicos. Durante la realización de estos ejercicios, practicarás tus habilidades en la manipulación de objetos estándar, configurando sus propiedades iniciales de manera efectiva y segura.
@@ -1207,6 +1238,8 @@ Estas actividades permitirán a los estudiantes comprender y manipular correctam
 <a id="destruccion-de-objetos-y-liberacion-de-memoria"></a>
 ## Destrucción de objetos y liberación de memoria
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/002-Utilizaci%C3%B3n%20de%20objetos/007-Destrucci%C3%B3n%20de%20objetos%20y%20liberaci%C3%B3n%20de%20memoria)
+
 ### Introducción a los ejercicios
 
 En esta subunidad se enfatiza la comprensión y manejo adecuado de la gestión de objetos en el lenguaje de programación, centrándose específicamente en la destrucción de objetos y la liberación de memoria. Los estudiantes aprenderán a identificar cuándo es necesario que un objeto sea eliminado para optimizar los recursos del sistema y evitar problemas como fugas de memoria. Esta práctica es crucial para desarrollar programas eficientes y sostenibles, especialmente en proyectos más grandes o en entornos donde la gestión de memoria es crítica.
@@ -1253,6 +1286,8 @@ En esta subunidad se enfatiza la comprensión y manejo adecuado de la gestión d
 <a id="ejercicio-de-final-de-unidad-1"></a>
 ## Ejercicio de final de unidad
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/002-Utilizaci%C3%B3n%20de%20objetos/101-Ejercicio%20de%20final%20de%20unidad)
+
 ### Introducción a los ejercicios
 
 En esta unidad de programación, centraremos nuestra atención en la utilización eficiente de objetos, un concepto fundamental en el desarrollo orientado a objetos. El ejercicio proporcionado te permitirá aplicar y consolidar tus conocimientos sobre cómo crear, manipular y interactuar con diferentes tipos de objetos en tu programa. A través de este trabajo, practicarás competencias clave como la definición de clases, creación de instancias, uso de métodos y atributos, así como la gestión de relaciones entre objetos. Este ejercicio es un punto culminante que integra los temas aprendidos a lo largo del módulo, preparándote para proyectos más complejos en el futuro.
@@ -1298,6 +1333,8 @@ Descripción: Los estudiantes deben escribir documentación para todos los méto
 
 <a id="estructuras-de-seleccion"></a>
 ## Estructuras de selección
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/003-Uso%20de%20estructuras%20de%20control/001-Estructuras%20de%20selecci%C3%B3n)
 
 ### Introducción a los ejercicios
 
@@ -1499,6 +1536,8 @@ Estas actividades buscan refinar las habilidades básicas y avanzadas en el uso 
 <a id="estructuras-de-repeticion"></a>
 ## Estructuras de repetición
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/003-Uso%20de%20estructuras%20de%20control/002-Estructuras%20de%20repetici%C3%B3n)
+
 ### Introducción a los ejercicios
 
 En esta carpeta, encontrarás una serie de ejercicios en Python diseñados para practicar el uso de estructuras de repetición, específicamente los bucles `for` y `while`. Los ejercicios comienzan con bucles simples que recorren un rango determinado de días del mes y avanzan hacia bucles anidados que permiten la iteración sobre múltiples años, meses y días. Estos ejercicios te ayudarán a entender cómo controlar el flujo del programa mediante estructuras repetitivas complejas, mejorando así tus habilidades en la programación orientada a la resolución de problemas diarios con bucles anidados y condicionales.
@@ -1624,6 +1663,8 @@ while dia < 31:
 
 <a id="estructuras-de-salto"></a>
 ## Estructuras de salto
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/003-Uso%20de%20estructuras%20de%20control/003-Estructuras%20de%20salto)
 
 ### Introducción a los ejercicios
 
@@ -1785,6 +1826,8 @@ print((diHola("Juan",48)))
 <a id="control-de-excepciones"></a>
 ## Control de excepciones
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/003-Uso%20de%20estructuras%20de%20control/004-Control%20de%20excepciones)
+
 ### Introducción a los ejercicios
 
 En esta carpeta, trabajaremos con ejercicios básicos de manejo de excepciones en Python. Los archivos proporcionan una introducción a cómo los programas pueden lidiar con errores durante la ejecución, como dividir entre cero, utilizando bloques `try` y `except`. A través de estos ejemplos, aprenderás a identificar situaciones problemáticas y a implementar estrategias para garantizar que tu programa no se interrumpa bruscamente en caso de errores.
@@ -1894,6 +1937,8 @@ Los estudiantes deben escribir comentarios en el código que expliquen por qué 
 <a id="aserciones"></a>
 ## Aserciones
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/003-Uso%20de%20estructuras%20de%20control/005-Aserciones)
+
 ### Introducción a los ejercicios
 
 En esta carpeta de ejercicios, centraremos nuestra atención en la utilización y comprensión de las aserciones en Python. Las aserciones son una herramienta útil para verificar condiciones que deben cumplirse durante la ejecución del programa; si dichas condiciones no se cumplen, el programa genera un error inmediatamente. A través de estos ejercicios, los estudiantes practicarán cómo incorporar aserciones en su código para mejorar la robustez y legibilidad de sus programas, así como aprender a identificar y corregir errores que podrían pasar desapercibidos con solo pruebas básicas.
@@ -1963,6 +2008,8 @@ assert 3 == 2, "hay un error"
 
 <a id="prueba-depuracion-y-documentacion-de-la-aplicacion"></a>
 ## Prueba, depuración y documentación de la aplicación
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/003-Uso%20de%20estructuras%20de%20control/006-Prueba%2C%20depuraci%C3%B3n%20y%20documentaci%C3%B3n%20de%20la%20aplicaci%C3%B3n)
 
 ### Introducción a los ejercicios
 
@@ -2191,9 +2238,13 @@ Estas actividades están diseñadas para ayudar a los estudiantes a dominar las 
 <a id="ejercicio"></a>
 ## Ejercicio
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/003-Uso%20de%20estructuras%20de%20control/007-Ejercicio)
+
 
 <a id="ejercicio-de-final-de-unidad-2"></a>
 ## Ejercicio de final de unidad
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/003-Uso%20de%20estructuras%20de%20control/101-Ejercicio%20de%20final%20de%20unidad)
 
 ### Introducción a los ejercicios
 
@@ -2242,6 +2293,8 @@ Estas actividades están diseñadas para ayudar a los estudiantes a dominar las 
 
 <a id="concepto-de-clase"></a>
 ## Concepto de clase
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/004-Desarrollo%20de%20clases/001-Concepto%20de%20clase)
 
 ### Introducción a los ejercicios
 
@@ -2453,6 +2506,8 @@ Estas actividades están diseñadas para ayudar a los estudiantes a familiarizar
 <a id="estructura-y-miembros-de-una-clase-visibilidad"></a>
 ## Estructura y miembros de una clase. Visibilidad
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/004-Desarrollo%20de%20clases/002-Estructura%20y%20miembros%20de%20una%20clase.%20Visibilidad)
+
 ### Introducción a los ejercicios
 
 Esta carpeta contiene ejercicios que te ayudarán a entender los fundamentos de cómo crear y manipular clases en Python, centrándote específicamente en los miembros de una clase (propiedades y métodos) y su visibilidad. En estos ejercicios, aprenderás a definir una clase con un constructor (`__init__`) para inicializar propiedades como el color, edad y raza del gato. Además, explorarás cómo los métodos permiten a las instancias de la clase realizar acciones, en este caso, maullar. También te enseñará sobre la visibilidad de estos miembros, mostrándote ejemplos donde algunas propiedades son públicas (accesibles desde fuera de la clase) y otras privadas (__color), protegidas del acceso directo externo para mantener una mejor estructura y encapsulamiento en tu código.
@@ -2574,6 +2629,8 @@ print("El gato es de color",gato1.__color)  # Desde fuera puedo leer la propieda
 <a id="creacion-de-propiedades"></a>
 ## Creación de propiedades
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/004-Desarrollo%20de%20clases/003-Creaci%C3%B3n%20de%20propiedades)
+
 ### Introducción a los ejercicios
 
 En esta carpeta, trabajaremos con ejercicios enfocados en la creación y manejo de propiedades dentro de clases utilizando Python. El archivo proporcionado muestra cómo definir una clase `Gato` con varias propiedades como color, edad, raza, nombre y color de ojos. Además, se incluye un método `maulla()` que ilustra cómo las instancias de la clase pueden realizar acciones específicas.
@@ -2651,6 +2708,8 @@ class Gato:
 
 <a id="creacion-de-metodos"></a>
 ## Creación de métodos
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/004-Desarrollo%20de%20clases/004-Creaci%C3%B3n%20de%20m%C3%A9todos)
 
 ### Introducción a los ejercicios
 
@@ -2912,6 +2971,8 @@ Cada actividad debe permitir a los estudiantes entender gradualmente cómo se di
 <a id="creacion-de-constructores"></a>
 ## Creación de constructores
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/004-Desarrollo%20de%20clases/005-Creaci%C3%B3n%20de%20constructores)
+
 ### Introducción a los ejercicios
 
 En esta carpeta, trabajaremos con ejercicios que te ayudarán a entender cómo crear y utilizar constructores en la programación orientada a objetos utilizando Python. Los ejemplos proporcionados centran su atención en una clase llamada `Gato`, donde aprenderás a inicializar propiedades de un objeto al momento de su creación usando diferentes métodos de construcción, incluyendo aquellos que no requieren todos los parámetros desde el principio. A través de estos ejercicios, adquirirás competencias clave como la definición de atributos y métodos dentro de una clase, así como la importancia de inicializar adecuadamente las instancias al crearlas para evitar problemas futuros en tu código.
@@ -3071,6 +3132,8 @@ Estas actividades están diseñadas para ayudarte a dominar los conceptos de cre
 
 <a id="utilizacion-de-clases-y-objetos"></a>
 ## Utilización de clases y objetos
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/004-Desarrollo%20de%20clases/006-Utilizaci%C3%B3n%20de%20clases%20y%20objetos)
 
 ### Introducción a los ejercicios
 
@@ -3279,6 +3342,8 @@ for clave in cliente1.__dict__:
 
 <a id="utilizacion-de-clases-heredadas"></a>
 ## Utilización de clases heredadas
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/004-Desarrollo%20de%20clases/007-Utilizaci%C3%B3n%20de%20clases%20heredadas)
 
 ### Introducción a los ejercicios
 
@@ -3751,6 +3816,8 @@ Estas actividades proporcionan un enfoque gradual y progresivo que va desde conc
 <a id="flujos-tipos-bytes-y-caracteres-clases-relacionadas"></a>
 ## Flujos. Tipos bytes y caracteres. Clases relacionadas
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/005-Lectura%20y%20escritura%20de%20informaci%C3%B3n/001-Flujos.%20Tipos%20bytes%20y%20caracteres.%20Clases%20relacionadas)
+
 ### Introducción a los ejercicios
 
 Esta carpeta contiene una serie de ejercicios en Python que te ayudarán a comprender cómo leer y escribir información en archivos, tanto en formato texto como binario. Los ejercicios iniciales te enseñan a trabajar con flujos de caracteres (archivos de texto) utilizando métodos básicos para la escritura y lectura de líneas individuales. Posteriormente, introduces el uso del módulo `pickle` para manejar datos en formato binario, lo cual es útil cuando necesitas guardar estructuras de datos más complejas que simples cadenas de texto. A través de estos ejercicios, mejorarás tus habilidades en la manipulación de archivos y entenderás mejor cómo Python facilita el almacenamiento y recuperación de información en diferentes formatos.
@@ -3886,6 +3953,8 @@ Esto es un contenido desde python
 
 <a id="ficheros-de-datos-registros"></a>
 ## Ficheros de datos. Registros
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/005-Lectura%20y%20escritura%20de%20informaci%C3%B3n/002-Ficheros%20de%20datos.%20Registros)
 
 ### Introducción a los ejercicios
 
@@ -4879,6 +4948,8 @@ Esto asegura que si no existe `clientes.bin` o hay un error durante la carga, se
 <a id="apertura-y-cierre-de-ficheros-modos-de-acceso-escritura-y-lectura-de-informacion-en-ficheros"></a>
 ## Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de información en ficheros
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/005-Lectura%20y%20escritura%20de%20informaci%C3%B3n/003-Apertura%20y%20cierre%20de%20ficheros.%20Modos%20de%20acceso.%20Escritura%20y%20lectura%20de%20informaci%C3%B3n%20en%20ficheros)
+
 ### Introducción a los ejercicios
 
 En esta carpeta, trabajamos con ejercicios que te enseñan a manipular archivos tanto en formato texto como binario utilizando Python. Se exploran diferentes modos de apertura y escritura de archivos para almacenar e interactuar con información estructurada o no estructurada. Además, aprenderás cómo guardar datos en un archivo XML y realizar operaciones básicas en una base de datos MySQL, incluyendo la inserción de nuevos registros a partir de la entrada del usuario. Estos ejercicios te ayudarán a dominar las habilidades fundamentales necesarias para manejar almacenamiento y recuperación de datos en entornos de programación realistas.
@@ -5275,6 +5346,8 @@ Estas actividades están diseñadas para proporcionar un enfoque práctico al ap
 
 <a id="utilizacion-de-los-sistemas-de-ficheros"></a>
 ## Utilización de los sistemas de ficheros
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/005-Lectura%20y%20escritura%20de%20informaci%C3%B3n/004-Utilizaci%C3%B3n%20de%20los%20sistemas%20de%20ficheros)
 
 ### Introducción a los ejercicios
 
@@ -5810,6 +5883,8 @@ Estas actividades están diseñadas para reforzar las habilidades de programaci�
 <a id="creacion-y-eliminacion-de-ficheros-y-directorios"></a>
 ## Creación y eliminación de ficheros y directorios
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/005-Lectura%20y%20escritura%20de%20informaci%C3%B3n/005-Creaci%C3%B3n%20y%20eliminaci%C3%B3n%20de%20ficheros%20y%20directorios)
+
 ### Introducción a los ejercicios
 
 En esta carpeta de ejercicios, los estudiantes aprenderán a manipular archivos y directorios en Python. Se cubren operaciones básicas como crear y eliminar archivos así como crear y borrar directorios. Estos ejercicios ayudan a desarrollar habilidades fundamentales para la gestión del sistema de archivos, lo que es crucial para cualquier proyecto de desarrollo de software o scripting automático.
@@ -5913,6 +5988,8 @@ os.rmdir("midirectorio")
 
 <a id="entrada-desde-teclado-salida-a-pantalla-formatos-de-visualizacion"></a>
 ## Entrada desde teclado. Salida a pantalla. Formatos de visualización
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/005-Lectura%20y%20escritura%20de%20informaci%C3%B3n/006-Entrada%20desde%20teclado.%20Salida%20a%20pantalla.%20Formatos%20de%20visualizaci%C3%B3n)
 
 ### Introducción a los ejercicios
 
@@ -6323,6 +6400,8 @@ Estas actividades están diseñadas para cubrir una variedad de habilidades clav
 
 <a id="interfaces-graficas"></a>
 ## Interfaces gráficas
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/005-Lectura%20y%20escritura%20de%20informaci%C3%B3n/007-Interfaces%20gr%C3%A1ficas)
 
 ### Introducción a los ejercicios
 
@@ -7847,6 +7926,8 @@ Each of these scripts builds on the previous one to enhance GUI functionality, i
 <a id="concepto-de-evento"></a>
 ## Concepto de evento
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/005-Lectura%20y%20escritura%20de%20informaci%C3%B3n/008-Concepto%20de%20evento)
+
 ### Introducción a los ejercicios
 
 ### Comparación de las dos versiones del código:
@@ -9244,6 +9325,8 @@ Este tipo de herramienta puede ser muy útil para administración de sistemas, g
 
 <a id="creacion-de-controladores-de-eventos"></a>
 ## Creación de controladores de eventos
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/005-Lectura%20y%20escritura%20de%20informaci%C3%B3n/009-Creaci%C3%B3n%20de%20controladores%20de%20eventos)
 
 ### Introducción a los ejercicios
 
@@ -11467,9 +11550,13 @@ By following these steps and utilizing the scripts provided in the files above, 
 <a id="simulacro-examen-programacion"></a>
 ## Simulacro examen programacion
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/005-Lectura%20y%20escritura%20de%20informaci%C3%B3n/010-Simulacro%20examen%20programacion)
+
 
 <a id="simulacro-de-examen-2"></a>
 ## Simulacro de examen 2
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/005-Lectura%20y%20escritura%20de%20informaci%C3%B3n/011-Simulacro%20de%20examen%202)
 
 ### Introducción a los ejercicios
 
@@ -11871,6 +11958,8 @@ while True:
 <a id="ejercicio-de-final-de-unidad-3"></a>
 ## Ejercicio de final de unidad
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/005-Lectura%20y%20escritura%20de%20informaci%C3%B3n/101-Ejercicio%20de%20final%20de%20unidad)
+
 ### Introducción a los ejercicios
 
 El conjunto de ejercicios en esta carperta está diseñado para reforzar tus habilidades en la lectura y escritura de información en archivos utilizando el lenguaje de programación. Aunque solo hay un archivo de ejercicio, este cubre varios aspectos esenciales como manejo de ficheros, estructuras de control y bucles, además de funciones básicas para leer desde y escribir en archivos. Este tipo de práctica te ayudará a comprender mejor cómo interactuar con el sistema de archivos en entornos de programación, preparándote para proyectos más complejos que requieren almacenamiento persistente de datos.
@@ -11914,6 +12003,8 @@ Estas actividades están diseñadas para ayudar a los estudiantes a profundizar 
 
 <a id="examen-final"></a>
 ## Examen final
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/005-Lectura%20y%20escritura%20de%20informaci%C3%B3n/104-Examen%20final)
 
 ### Introducción a los ejercicios
 
@@ -12149,6 +12240,8 @@ FLUSH PRIVILEGES;
 <a id="carpeta-sin-titulo"></a>
 ## Carpeta sin título
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/005-Lectura%20y%20escritura%20de%20informaci%C3%B3n/Carpeta%20sin%20ti%CC%81tulo)
+
 
 
 <a id="aplicacion-de-las-estructuras-de-almacenamiento"></a>
@@ -12156,6 +12249,8 @@ FLUSH PRIVILEGES;
 
 <a id="estructuras-estaticas-y-dinamicas"></a>
 ## Estructuras estáticas y dinámicas
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/006-Aplicaci%C3%B3n%20de%20las%20estructuras%20de%20almacenamiento/001-Estructuras%20est%C3%A1ticas%20y%20din%C3%A1micas)
 
 ### Introducción a los ejercicios
 
@@ -12337,6 +12432,8 @@ Estas actividades están diseñadas para ayudar a los estudiantes de Formación 
 
 <a id="creacion-de-matrices-arrays"></a>
 ## Creación de matrices (arrays)
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/006-Aplicaci%C3%B3n%20de%20las%20estructuras%20de%20almacenamiento/002-Creaci%C3%B3n%20de%20matrices%20%28arrays%29)
 
 ### Introducción a los ejercicios
 
@@ -12561,6 +12658,8 @@ Esta técnica es útil cuando necesitas procesar o visualizar los datos contenid
 <a id="matrices-arrays-multidimensionales"></a>
 ## Matrices (arrays) multidimensionales
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/006-Aplicaci%C3%B3n%20de%20las%20estructuras%20de%20almacenamiento/003-Matrices%20%28arrays%29%20multidimensionales)
+
 ### Introducción a los ejercicios
 
 En esta sesión de ejercicios, te encontrarás trabajando con matrices multidimensionales en Python, específicamente a través del ejemplo de una agenda. El objetivo principal es comprender cómo almacenar y manipular datos estructurados utilizando listas anidadas. En el ejercicio proporcionado, creas una lista bidimensional para registrar información de contacto como nombres, apellidos y correos electrónicos de varias personas. A través de esta práctica, mejorarás tus habilidades en la creación y manejo de estructuras de datos complejas, así como en la adición de elementos a estas estructuras.
@@ -12644,6 +12743,8 @@ print(agenda)
 
 <a id="genericidad"></a>
 ## Genericidad
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/006-Aplicaci%C3%B3n%20de%20las%20estructuras%20de%20almacenamiento/004-Genericidad)
 
 ### Introducción a los ejercicios
 
@@ -12751,6 +12852,8 @@ if __name__ == "__main__":
 
 <a id="cadenas-de-caracteres-expresiones-regulares"></a>
 ## Cadenas de caracteres. Expresiones regulares
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/006-Aplicaci%C3%B3n%20de%20las%20estructuras%20de%20almacenamiento/005-Cadenas%20de%20caracteres.%20Expresiones%20regulares)
 
 ### Introducción a los ejercicios
 
@@ -13009,6 +13112,8 @@ Estas actividades están diseñadas para cubrir diversos aspectos del manejo de 
 <a id="colecciones-listas-conjuntos-y-diccionarios"></a>
 ## Colecciones Listas, Conjuntos y Diccionarios
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/006-Aplicaci%C3%B3n%20de%20las%20estructuras%20de%20almacenamiento/006-Colecciones%20Listas%2C%20Conjuntos%20y%20Diccionarios)
+
 ### Introducción a los ejercicios
 
 En esta carpeta de ejercicios, trabajaremos con diferentes estructuras de datos en Python como listas y diccionarios. Los ejercicios están diseñados para que comprendas las diferencias entre estas colecciones, cómo almacenar e ingresar información de manera eficiente y por qué el uso de diccionarios puede ser más conveniente en ciertas situaciones debido a su flexibilidad en la indexación mediante claves.
@@ -13162,6 +13267,8 @@ Los estudiantes deben diseñar pruebas que comprueben cuánto tiempo tardan las 
 
 <a id="operaciones-agregadas-filtrado-reduccion-y-recoleccion"></a>
 ## Operaciones agregadas filtrado, reducción y recolección
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/006-Aplicaci%C3%B3n%20de%20las%20estructuras%20de%20almacenamiento/007-Operaciones%20agregadas%20filtrado%2C%20reducci%C3%B3n%20y%20recolecci%C3%B3n)
 
 ### Introducción a los ejercicios
 
@@ -14006,29 +14113,43 @@ En conclusión, este conjunto de archivos proporciona una representación visual
 <a id="composicion-de-clases"></a>
 ## Composición de clases
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/007-Utilizaci%C3%B3n%20avanzada%20de%20clases/001-Composici%C3%B3n%20de%20clases)
+
 
 <a id="herencia-y-polimorfismo"></a>
 ## Herencia y polimorfismo
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/007-Utilizaci%C3%B3n%20avanzada%20de%20clases/002-Herencia%20y%20polimorfismo)
 
 
 <a id="jerarquia-de-clases-superclases-y-subclases"></a>
 ## Jerarquía de clases Superclases y subclases
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/007-Utilizaci%C3%B3n%20avanzada%20de%20clases/003-Jerarqu%C3%ADa%20de%20clases%20Superclases%20y%20subclases)
+
 
 <a id="clases-y-metodos-abstractos-y-finales"></a>
 ## Clases y métodos abstractos y finales
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/007-Utilizaci%C3%B3n%20avanzada%20de%20clases/004-Clases%20y%20m%C3%A9todos%20abstractos%20y%20finales)
 
 
 <a id="interfaces"></a>
 ## Interfaces
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/007-Utilizaci%C3%B3n%20avanzada%20de%20clases/005-Interfaces)
+
 
 <a id="sobreescritura-de-metodos"></a>
 ## Sobreescritura de métodos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/007-Utilizaci%C3%B3n%20avanzada%20de%20clases/006-Sobreescritura%20de%20m%C3%A9todos)
+
 
 <a id="constructores-y-herencia"></a>
 ## Constructores y herencia
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/007-Utilizaci%C3%B3n%20avanzada%20de%20clases/007-Constructores%20y%20herencia)
 
 
 
@@ -14038,37 +14159,55 @@ En conclusión, este conjunto de archivos proporciona una representación visual
 <a id="bases-de-datos-orientadas-a-objetos"></a>
 ## Bases de datos orientadas a objetos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/008-Mantenimiento%20de%20la%20persistencia%20de%20los%20objetos/001-Bases%20de%20datos%20orientadas%20a%20objetos)
+
 
 <a id="caracteristicas-de-las-bases-de-datos-orientadas-a-objetos"></a>
 ## Características de las bases de datos orientadas a objetos
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/008-Mantenimiento%20de%20la%20persistencia%20de%20los%20objetos/002-Caracter%C3%ADsticas%20de%20las%20bases%20de%20datos%20orientadas%20a%20objetos)
 
 
 <a id="instalacion-del-gestor-de-bases-de-datos"></a>
 ## Instalación del gestor de bases de datos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/008-Mantenimiento%20de%20la%20persistencia%20de%20los%20objetos/003-Instalaci%C3%B3n%20del%20gestor%20de%20bases%20de%20datos)
+
 
 <a id="creacion-de-bases-de-datos"></a>
 ## Creación de bases de datos
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/008-Mantenimiento%20de%20la%20persistencia%20de%20los%20objetos/004-Creaci%C3%B3n%20de%20bases%20de%20datos)
 
 
 <a id="mecanismos-de-consulta"></a>
 ## Mecanismos de consulta
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/008-Mantenimiento%20de%20la%20persistencia%20de%20los%20objetos/005-Mecanismos%20de%20consulta)
+
 
 <a id="el-lenguaje-de-consultas-sintaxis-expresiones-operadores"></a>
 ## El lenguaje de consultas sintaxis, expresiones, operadores
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/008-Mantenimiento%20de%20la%20persistencia%20de%20los%20objetos/006-El%20lenguaje%20de%20consultas%20sintaxis%2C%20expresiones%2C%20operadores)
 
 
 <a id="recuperacion-modificacion-y-borrado-de-informacion"></a>
 ## Recuperación, modificación y borrado de información
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/008-Mantenimiento%20de%20la%20persistencia%20de%20los%20objetos/007-Recuperaci%C3%B3n%2C%20modificaci%C3%B3n%20y%20borrado%20de%20informaci%C3%B3n)
+
 
 <a id="tipos-de-datos-objeto-atributos-y-metodos"></a>
 ## Tipos de datos objeto; atributos y métodos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/008-Mantenimiento%20de%20la%20persistencia%20de%20los%20objetos/008-Tipos%20de%20datos%20objeto%3B%20atributos%20y%20m%C3%A9todos)
+
 
 <a id="tipos-de-datos-coleccion"></a>
 ## Tipos de datos colección
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/008-Mantenimiento%20de%20la%20persistencia%20de%20los%20objetos/009-Tipos%20de%20datos%20colecci%C3%B3n)
 
 
 
@@ -14078,13 +14217,19 @@ En conclusión, este conjunto de archivos proporciona una representación visual
 <a id="acceso-a-bases-de-datos-estandares-caracteristicas"></a>
 ## Acceso a bases de datos. Estándares. Características
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/009-Gesti%C3%B3n%20de%20bases%20de%20datos/001-Acceso%20a%20bases%20de%20datos.%20Est%C3%A1ndares.%20Caracter%C3%ADsticas)
+
 
 <a id="establecimiento-de-conexiones"></a>
 ## Establecimiento de conexiones
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/009-Gesti%C3%B3n%20de%20bases%20de%20datos/002-Establecimiento%20de%20conexiones)
+
 
 <a id="almacenamiento-recuperacion-actualizacion-y-eliminacion-de-informacion-en-bases-de-datos"></a>
 ## Almacenamiento, recuperación, actualización y eliminación de información en bases de datos
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/009-Gesti%C3%B3n%20de%20bases%20de%20datos/003-Almacenamiento%2C%20recuperaci%C3%B3n%2C%20actualizaci%C3%B3n%20y%20eliminaci%C3%B3n%20de%20informaci%C3%B3n%20en%20bases%20de%20datos)
 
 
 
@@ -14093,6 +14238,8 @@ En conclusión, este conjunto de archivos proporciona una representación visual
 
 <a id="proyecto-formulario"></a>
 ## Proyecto formulario
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/010-Proyectos/001-Proyecto%20formulario)
 
 ### Introducción a los ejercicios
 
@@ -18526,6 +18673,1100 @@ Para mejorar este sistema, se podrían considerar mejoras en términos de seguri
 <a id="panel-de-control-de-tienda-online"></a>
 ## Panel de control de tienda online
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/010-Proyectos/002-Panel%20de%20control%20de%20tienda%20online)
+
+
+<a id="libreria-requests"></a>
+## Libreria requests
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/010-Proyectos/003-Libreria%20requests)
+
+
+<a id="shorttags-php"></a>
+## shorttags php
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/010-Proyectos/004-shorttags%20php)
+
+
+<a id="salvapantallas"></a>
+## salvapantallas
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/010-Proyectos/005-salvapantallas)
+
+
+
+<a id="inteligencia-artificial"></a>
+# Inteligencia Artificial
+
+<a id="ia-inicial"></a>
+## IA inicial
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/012-Inteligencia%20Artificial/001-IA%20inicial)
+
+### ollama pero lanza HTML
+<small>Creado: 2026-01-08 15:02</small>
+
+`002-ollama pero lanza HTML.php`
+
+```
+<?php
+
+$prompt = "¿Que es HTML?";
+
+$data = [
+    "model"  => "qwen2.5-coder:7b",
+    "prompt" => $prompt,
+    "stream" => false
+];
+
+$ch = curl_init("http://localhost:11434/api/generate"); // Hago una petición a local
+curl_setopt_array($ch, [
+    CURLOPT_RETURNTRANSFER => true,
+    CURLOPT_POST           => true,
+    CURLOPT_HTTPHEADER     => ["Content-Type: application/json"],
+    CURLOPT_POSTFIELDS     => json_encode($data),
+]);
+
+$response = curl_exec($ch);                           // Ejecuto curl
+
+if ($response === false) {
+    die("Curl error: " . curl_error($ch));
+}                                                     // Si hay respuesta
+
+curl_close($ch);                                      // cierro curl
+
+$result = json_decode($response, true);               // Paso la respuesta a json
+
+echo $result["response"];                             // Y la pinto en pantalla
+```
+
+### ollama pero con estilo
+<small>Creado: 2026-01-08 15:06</small>
+
+`003-ollama pero con estilo.php`
+
+```
+<!doctype html>
+<html>
+  <head>
+    <style>
+      html,body{background:grey;width:100%;height:100%;padding:0px;margin:0px;}
+      body{display:flex;align-items:center;justify-content:center;}
+      section{width:800px;height:300px;padding:20px;background:white;}
+    </style>
+  </head>
+  <body>
+    <section>
+      <?php
+        $prompt = "¿Que es HTML? - responde solo en texto, sin ejemplos, máximo un párrafo";
+        $data = [
+            "model"  => "qwen2.5-coder:7b",
+            "prompt" => $prompt,
+            "stream" => false
+        ];
+        $ch = curl_init("http://localhost:11434/api/generate"); // Hago una petición a local
+        curl_setopt_array($ch, [
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_POST           => true,
+            CURLOPT_HTTPHEADER     => ["Content-Type: application/json"],
+            CURLOPT_POSTFIELDS     => json_encode($data),
+        ]);
+        $response = curl_exec($ch);                           // Ejecuto curl
+        curl_close($ch);                                      // cierro curl
+        $result = json_decode($response, true);               // Paso la respuesta a json
+        echo $result["response"];                             // Y la pinto en pantalla
+      ?>
+    </section>
+  </body>
+</html>
+```
+
+### creador web
+<small>Creado: 2026-01-08 15:13</small>
+
+`004-creador web.php`
+
+```
+<?php
+// index.php (single file)
+// Minimal markup: the whole page comes from Ollama (it must return a full HTML document).
+
+$prompt = <<<PROMPT
+Generate a COMPLETE single-page personal website as a FULL HTML DOCUMENT.
+
+Requirements:
+- Output ONLY the HTML document (starting with <!doctype html>), no explanations, no markdown.
+- Include inline CSS in <style> and any tiny JS in <script> (no external assets).
+- Modern, clean, professional design.
+- Sections: Hero (name + role + short bio), Skills/Services, Portfolio (3 items), About, Contact (email + social placeholders), Footer.
+- Add a light/dark toggle.
+- Use semantic HTML and responsive layout.
+- Content language: Spanish.
+
+IMPORTANT: Return ONLY the final HTML document.
+PROMPT;
+
+$data = [
+  "model"  => "qwen2.5-coder:7b",
+  "prompt" => $prompt,
+  "stream" => false,
+  // optional: keep it deterministic-ish
+  "options" => [
+    "temperature" => 0.6,
+    "num_predict" => 1600
+  ]
+];
+
+$ch = curl_init("http://localhost:11434/api/generate");
+curl_setopt_array($ch, [
+  CURLOPT_RETURNTRANSFER => true,
+  CURLOPT_POST           => true,
+  CURLOPT_HTTPHEADER     => ["Content-Type: application/json"],
+  CURLOPT_POSTFIELDS     => json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES),
+  CURLOPT_TIMEOUT        => 60000000,
+]);
+
+$response = curl_exec($ch);
+$err      = curl_error($ch);
+$code     = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+curl_close($ch);
+
+if ($response === false || $code < 200 || $code >= 300) {
+  header("Content-Type: text/plain; charset=utf-8");
+  echo "Ollama request failed.\nHTTP: $code\nError: $err\n";
+  exit;
+}
+
+$result = json_decode($response, true);
+$html   = $result["response"] ?? "";
+
+// Ensure browser interprets it as HTML
+header("Content-Type: text/html; charset=utf-8");
+
+// If model returned extra text, try to cut from first doctype
+$pos = stripos($html, "<!doctype");
+if ($pos !== false) $html = substr($html, $pos);
+
+// Last-resort fallback (still minimal): show raw response if not HTML-ish
+if (stripos($html, "<html") === false) {
+  echo "<!doctype html><html><head><meta charset='utf-8'><title>Ollama Output</title></head><body><pre>";
+  echo htmlspecialchars($html, ENT_QUOTES | ENT_SUBSTITUTE, "UTF-8");
+  echo "</pre></body></html>";
+  exit;
+}
+
+echo $html;
+```
+
+### creador web con mas definicion
+<small>Creado: 2026-01-08 15:17</small>
+
+`006-creador web con mas definicion.php`
+
+```
+<?php
+// index.php (single file)
+// Minimal markup: the whole page comes from Ollama (it must return a full HTML document).
+
+$prompt = <<<PROMPT
+Generate a COMPLETE single-page personal website as a FULL HTML DOCUMENT.
+
+Requirements:
+- Output ONLY the HTML document (starting with <!doctype html>), no explanations, no markdown.
+- Include inline CSS in <style> and any tiny JS in <script> (no external assets).
+- In the CSS, use indigo as corporate color
+- Modern, clean, professional design.
+- Website is about person: Jose Vicente Carratala
+- Sections: Hero (name + role + short bio), Skills/Services, Portfolio (9 items), About, Contact (email + social placeholders), Footer.
+- use css grid for portfolio (3 columns)
+- Add a light/dark toggle.
+- Use semantic HTML and responsive layout.
+- Content language: Spanish.
+
+IMPORTANT: Return ONLY the final HTML document.
+PROMPT;
+
+$data = [
+  "model"  => "qwen2.5-coder:7b",
+  "prompt" => $prompt,
+  "stream" => false,
+  // optional: keep it deterministic-ish
+  "options" => [
+    "temperature" => 0.6,
+    "num_predict" => 1600
+  ]
+];
+
+$ch = curl_init("http://localhost:11434/api/generate");
+curl_setopt_array($ch, [
+  CURLOPT_RETURNTRANSFER => true,
+  CURLOPT_POST           => true,
+  CURLOPT_HTTPHEADER     => ["Content-Type: application/json"],
+  CURLOPT_POSTFIELDS     => json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES),
+  CURLOPT_TIMEOUT        => 60000000,
+]);
+
+$response = curl_exec($ch);
+$err      = curl_error($ch);
+$code     = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+curl_close($ch);
+
+if ($response === false || $code < 200 || $code >= 300) {
+  header("Content-Type: text/plain; charset=utf-8");
+  echo "Ollama request failed.\nHTTP: $code\nError: $err\n";
+  exit;
+}
+
+$result = json_decode($response, true);
+$html   = $result["response"] ?? "";
+
+// Ensure browser interprets it as HTML
+header("Content-Type: text/html; charset=utf-8");
+
+// If model returned extra text, try to cut from first doctype
+$pos = stripos($html, "<!doctype");
+if ($pos !== false) $html = substr($html, $pos);
+
+// Last-resort fallback (still minimal): show raw response if not HTML-ish
+if (stripos($html, "<html") === false) {
+  echo "<!doctype html><html><head><meta charset='utf-8'><title>Ollama Output</title></head><body><pre>";
+  echo htmlspecialchars($html, ENT_QUOTES | ENT_SUBSTITUTE, "UTF-8");
+  echo "</pre></body></html>";
+  exit;
+}
+
+echo $html;
+```
+
+### aplicació de citas inspiradoras
+<small>Creado: 2026-01-08 15:32</small>
+
+`007-aplicació de citas inspiradoras.php`
+
+```
+<!doctype html>
+<html>
+  <head>
+    <style>
+      html,body{background:grey;width:100%;height:100%;padding:0px;margin:0px;font-family:sans-serif;}
+      body{display:flex;align-items:center;justify-content:center;}
+      h1{width:800px;height:300px;padding:20px;background:white;display:flex;align-items:center;justify-content:center;font-style:italic;border-radius:10px;}
+    </style>
+  </head>
+  <body>
+    <h1>
+      <?php
+        $prompt = "
+          Dame una cita inspiradora, solo  una frase.
+          Introducela en un <span> HTML
+          En el span, introduce un estilo color CSS
+          el color CSS debe transmitir el sentimiento que transmita la frase (por ejemplo: rojo = pasión)
+          Dame solo el span con el color, no me des explicaciones
+          Tampoco me pongas fences
+          ";
+        $data = [
+            "model"  => "qwen2.5-coder:7b",
+            "prompt" => $prompt,
+            "stream" => false
+        ];
+        $ch = curl_init("http://localhost:11434/api/generate"); // Hago una petición a local
+        curl_setopt_array($ch, [
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_POST           => true,
+            CURLOPT_HTTPHEADER     => ["Content-Type: application/json"],
+            CURLOPT_POSTFIELDS     => json_encode($data),
+        ]);
+        $response = curl_exec($ch);                           // Ejecuto curl
+        curl_close($ch);                                      // cierro curl
+        $result = json_decode($response, true);               // Paso la respuesta a json
+        echo $result["response"];                             // Y la pinto en pantalla
+      ?>
+    </h1>
+  </body>
+</html>
+```
+
+### microchatgpt
+<small>Creado: 2026-01-08 15:43</small>
+
+`008-microchatgpt.php`
+
+```
+<!doctype html>
+<html>
+  <head>
+    <style>
+  html,body{
+    background:grey;
+    width:100%;
+    height:100%;
+    padding:0;
+    margin:0;
+    font-family:sans-serif;
+  }
+
+  body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+
+  section{
+    width:500px;
+    height:500px;
+    padding:20px;
+    background:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:stretch;
+    font-style:italic;
+    border-radius:10px;
+  }
+
+  form input{
+    width:100%;
+    box-sizing:border-box;
+    padding:10px;
+    border:1px solid lightgrey;
+    border-radius:30px;
+    outline:none;
+  }
+
+  form input:focus{
+    background:lightgray;
+  }
+
+  #pregunta{
+    background:lightgray;
+    width:80%;
+    padding:20px;
+    border-radius:0 15px 15px 15px;
+    align-self:flex-start;
+  }
+
+  #respuesta{
+    background:lightgray;
+    width:80%;
+    padding:20px;
+    border-radius:15px 0 15px 15px;
+    align-self:flex-end; /* ← THIS is the key */
+    text-align:left;
+  }
+</style>
+
+  </head>
+  <body>
+    <section>
+      <p id="pregunta">
+        <?php
+          if(isset($_POST['prompt'])){echo $_POST['prompt'];}
+        ?>
+      </p>
+      <p id="respuesta">Respuesta</p>
+      <form method="POST" action="?">
+        <input type="text" name="prompt">
+      </form>
+    </section>
+  </body>
+</html>
+```
+
+### microchatgpt pero en funcionamiento
+<small>Creado: 2026-01-08 16:04</small>
+
+`009-microchatgpt pero en funcionamiento.php`
+
+```
+<!doctype html>
+<html>
+  <head>
+    <style>
+  html,body{
+    background:grey;
+    width:100%;
+    height:100%;
+    padding:0;
+    margin:0;
+    font-family:sans-serif;
+  }
+
+  body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+
+  section{
+    width:500px;
+    height:500px;
+    padding:20px;
+    background:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:stretch;
+    border-radius:30px;
+  }
+
+  form input{
+    width:100%;
+    box-sizing:border-box;
+    padding:10px;
+    border:1px solid lightgrey;
+    border-radius:30px;
+    outline:none;
+  }
+
+  form input:focus{
+    background:lightgray;
+  }
+
+  #pregunta{
+    background:lightgray;
+    width:80%;
+    padding:20px;
+    border-radius:0 15px 15px 15px;
+    align-self:flex-start;
+  }
+
+  #respuesta{
+    background:lightgray;
+    width:80%;
+    padding:20px;
+    border-radius:15px 0 15px 15px;
+    align-self:flex-end; /* ← THIS is the key */
+    text-align:left;
+  }
+  p{
+    margin:0px;
+    padding:0px;
+  }
+  h1{
+    text-align:center;
+  }
+</style>
+
+  </head>
+  <body>
+    <section>
+      <h1>jocarsa | microchat</h1>
+      <p id="pregunta">
+        <?php
+          if(isset($_POST['prompt'])){echo $_POST['prompt'];}
+        ?>
+      </p>
+      <p id="respuesta">
+        <?php
+          if(isset($_POST['prompt'])){
+            $prompt = $_POST['prompt']." - responde en un solo párrafo, sin código, en prosa.";
+            $data = [
+                "model"  => "qwen2.5:7b-instruct-q4_0",
+                "prompt" => $prompt,
+                "stream" => false
+            ];
+            $ch = curl_init("http://localhost:11434/api/generate"); // Hago una petición a local
+            curl_setopt_array($ch, [
+                CURLOPT_RETURNTRANSFER => true,
+                CURLOPT_POST           => true,
+                CURLOPT_HTTPHEADER     => ["Content-Type: application/json"],
+                CURLOPT_POSTFIELDS     => json_encode($data),
+            ]);
+            $response = curl_exec($ch);                           // Ejecuto curl
+            curl_close($ch);                                      // cierro curl
+            $result = json_decode($response, true);               // Paso la respuesta a json
+            echo $result["response"];                             // Y la pinto en pantalla
+          }
+        ?>
+      </p>
+      <form method="POST" action="?">
+        <input type="text" name="prompt">
+      </form>
+    </section>
+  </body>
+</html>
+```
+
+### personalizar prompt en programacion
+<small>Creado: 2026-01-08 16:12</small>
+
+`010-personalizar prompt en programacion.php`
+
+```
+<!doctype html>
+<html>
+  <head>
+    <style>
+  html,body{
+    background:lightgray;
+    width:100%;
+    height:100%;
+    padding:0;
+    margin:0;
+    font-family:Ubuntu,sans-serif;
+  }
+
+  body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+
+  section{
+    width:500px;
+    height:500px;
+    padding:20px;
+    background:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:stretch;
+    border-radius:30px;
+  }
+
+  form input{
+    width:100%;
+    box-sizing:border-box;
+    padding:10px;
+    border:1px solid lightgrey;
+    border-radius:30px;
+    outline:none;
+    transition:all 1s;
+  }
+
+  form input:focus{
+    background:lightgray;
+    box-shadow:0px 10px 20px rgba(0,0,0,0.3) inset;
+  }
+
+  #pregunta{
+    background:lightgray;
+    width:80%;
+    padding:20px;
+    border-radius:0 15px 15px 15px;
+    align-self:flex-start;
+  }
+
+  #respuesta{
+    background:lightgray;
+    width:80%;
+    padding:20px;
+    border-radius:15px 0 15px 15px;
+    align-self:flex-end; /* ← THIS is the key */
+    text-align:left;
+  }
+  p{
+    margin:0px;
+    padding:0px;
+  }
+  h1,h3{
+    text-align:center;
+  }
+</style>
+
+  </head>
+  <body>
+    <section>
+      <h1>jocarsa | microchat</h1>  
+      <?php
+          if(!isset($_POST['prompt'])){
+            echo '<h3>¿Qué quieres hacer hoy?</h3>';
+            
+            }
+        ?>
+        <?php
+          if(isset($_POST['prompt'])){
+            echo '<p id="pregunta">';
+            echo $_POST['prompt'];
+            echo '</p>';
+            }
+        ?>
+      
+        <?php
+          if(isset($_POST['prompt'])){
+          echo '<p id="respuesta">';
+            $prompt = $_POST['prompt']." 
+            - responde en un solo párrafo, sin código, en prosa.
+            - acepta solo preguntas relacionadas con programación, no aceptes otras temáticas";
+            $data = [
+                "model"  => "qwen2.5:7b-instruct-q4_0",
+                "prompt" => $prompt,
+                "stream" => false
+            ];
+            $ch = curl_init("http://localhost:11434/api/generate"); // Hago una petición a local
+            curl_setopt_array($ch, [
+                CURLOPT_RETURNTRANSFER => true,
+                CURLOPT_POST           => true,
+                CURLOPT_HTTPHEADER     => ["Content-Type: application/json"],
+                CURLOPT_POSTFIELDS     => json_encode($data),
+            ]);
+            $response = curl_exec($ch);                           // Ejecuto curl
+            curl_close($ch);                                      // cierro curl
+            $result = json_decode($response, true);               // Paso la respuesta a json
+            echo $result["response"];                             // Y la pinto en pantalla
+            echo '</p>';
+          }
+        ?>
+      
+      <form method="POST" action="?">
+        <input type="text" name="prompt">
+      </form>
+    </section>
+  </body>
+</html>
+```
+
+### spinner
+<small>Creado: 2026-01-08 16:15</small>
+
+`011-spinner.php`
+
+```
+<?php
+session_start();
+
+function ask_ollama(string $userPrompt): string {
+  $prompt = $userPrompt . "
+  - responde en un solo párrafo, sin código, en prosa.
+  - acepta solo preguntas relacionadas con programación, no aceptes otras temáticas";
+
+  $data = [
+    "model"  => "qwen2.5:7b-instruct-q4_0",
+    "prompt" => $prompt,
+    "stream" => false
+  ];
+
+  $ch = curl_init("http://localhost:11434/api/generate");
+  curl_setopt_array($ch, [
+    CURLOPT_RETURNTRANSFER => true,
+    CURLOPT_POST           => true,
+    CURLOPT_HTTPHEADER     => ["Content-Type: application/json"],
+    CURLOPT_POSTFIELDS     => json_encode($data),
+  ]);
+  $response = curl_exec($ch);
+  curl_close($ch);
+
+  $result = json_decode($response ?? "", true);
+  return $result["response"] ?? "Error: no se pudo obtener respuesta.";
+}
+
+$pregunta = null;
+$respuesta = null;
+$showSpinner = false;
+$metaRefresh = "";
+
+// Step A: user submits -> render page with spinner, compute answer on server AFTER flush
+if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST["prompt"])) {
+  $pregunta = trim((string)$_POST["prompt"]);
+  $_SESSION["last_prompt"] = $pregunta;
+  $_SESSION["answer_ready"] = false;
+  $_SESSION["last_answer"] = "";
+
+  $showSpinner = true;
+
+  // Auto-refresh once to replace spinner with answer (no JS)
+  $metaRefresh = '<meta http-equiv="refresh" content="0.8;url=?step=answer">';
+
+  // Render immediately (spinner visible)
+  // Then finish request and compute answer (so user sees spinner right away)
+  // ---- render starts below ----
+
+  // We'll compute after output is flushed (down below).
+}
+
+// Step B: answer page (after refresh)
+if (isset($_GET["step"]) && $_GET["step"] === "answer") {
+  $pregunta = $_SESSION["last_prompt"] ?? null;
+
+  if (!empty($_SESSION["answer_ready"])) {
+    $respuesta = $_SESSION["last_answer"] ?? "";
+    $showSpinner = false;
+  } else {
+    // If answer not ready yet, keep spinner + refresh again
+    $showSpinner = true;
+    $metaRefresh = '<meta http-equiv="refresh" content="0.8;url=?step=answer">';
+  }
+}
+?>
+<!doctype html>
+<html>
+<head>
+  <style>
+    html,body{background:lightgray;width:100%;height:100%;padding:0;margin:0;font-family:Ubuntu,sans-serif;}
+    body{display:flex;align-items:center;justify-content:center;}
+    section{width:500px;height:500px;padding:20px;background:white;display:flex;flex-direction:column;justify-content:space-between;align-items:stretch;border-radius:30px;}
+    form input{width:100%;box-sizing:border-box;padding:10px;border:1px solid lightgrey;border-radius:30px;outline:none;transition:all 1s;}
+    form input:focus{background:lightgray;box-shadow:0px 10px 20px rgba(0,0,0,0.3) inset;}
+    #pregunta{background:lightgray;width:80%;padding:20px;border-radius:0 15px 15px 15px;align-self:flex-start;}
+    #respuesta{background:lightgray;width:80%;padding:20px;border-radius:15px 0 15px 15px;align-self:flex-end;text-align:left;min-height:54px;display:flex;align-items:center;gap:12px;}
+    p{margin:0;padding:0;}
+    h1,h3{text-align:center;}
+
+    /* Simple spinner */
+    .spinner{
+      width:18px;height:18px;border-radius:50%;
+      border:3px solid rgba(0,0,0,0.15);
+      border-top-color: rgba(0,0,0,0.55);
+      animation: spin .8s linear infinite;
+      flex: 0 0 auto;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .muted{opacity:.7;font-size:13px;}
+  </style>
+  <?= $metaRefresh ?>
+</head>
+<body>
+<section>
+  <h1>jocarsa | microchat</h1>
+
+  <?php if (!$pregunta): ?>
+    <h3>¿Qué quieres hacer hoy?</h3>
+  <?php else: ?>
+    <p id="pregunta"><?= htmlspecialchars($pregunta, ENT_QUOTES, "UTF-8") ?></p>
+
+    <p id="respuesta">
+      <?php if ($showSpinner): ?>
+        <span class="spinner"></span>
+        <span class="muted">Pensando…</span>
+      <?php else: ?>
+        <?= htmlspecialchars((string)$respuesta, ENT_QUOTES, "UTF-8") ?>
+      <?php endif; ?>
+    </p>
+  <?php endif; ?>
+
+  <form method="POST" action="?">
+    <input type="text" name="prompt" autocomplete="off" autofocus>
+  </form>
+</section>
+</body>
+</html>
+<?php
+// If we came from POST, compute the answer after sending HTML so spinner shows immediately.
+if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST["prompt"])) {
+  // Try to flush output so browser renders spinner
+  @ob_flush(); @flush();
+
+  // If PHP-FPM, this sends response to client and continues running server-side
+  if (function_exists("fastcgi_finish_request")) {
+    @fastcgi_finish_request();
+  }
+
+  $ans = ask_ollama($_SESSION["last_prompt"] ?? "");
+  $_SESSION["last_answer"] = $ans;
+  $_SESSION["answer_ready"] = true;
+}
+```
+
+### mejoras de estilo
+<small>Creado: 2026-01-08 16:20</small>
+
+`012-mejoras de estilo.php`
+
+```
+<?php
+session_start();
+
+/**
+ * Call Ollama (blocking) and return the response text.
+ */
+function ask_ollama(string $userPrompt): string {
+  $prompt = $userPrompt . "
+  - responde en un solo párrafo, sin código, en prosa.
+  - acepta solo preguntas relacionadas con programación, no aceptes otras temáticas
+  - respuestas solo en español";
+
+  $data = [
+    "model"  => "qwen2.5:7b-instruct-q4_0",
+    "prompt" => $prompt,
+    "stream" => false
+  ];
+
+  $ch = curl_init("http://localhost:11434/api/generate");
+  curl_setopt_array($ch, [
+    CURLOPT_RETURNTRANSFER => true,
+    CURLOPT_POST           => true,
+    CURLOPT_HTTPHEADER     => ["Content-Type: application/json"],
+    CURLOPT_POSTFIELDS     => json_encode($data),
+  ]);
+  $response = curl_exec($ch);
+  curl_close($ch);
+
+  $result = json_decode($response ?? "", true);
+  return $result["response"] ?? "Error: no se pudo obtener respuesta.";
+}
+
+$pregunta = null;
+$respuesta = null;
+$showSpinner = false;
+$metaRefresh = "";
+
+/**
+ * STEP A: POST -> show page immediately with spinner, compute answer after flush,
+ * then page auto-refreshes to show answer.
+ */
+if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST["prompt"])) {
+  $pregunta = trim((string)$_POST["prompt"]);
+
+  $_SESSION["last_prompt"]  = $pregunta;
+  $_SESSION["last_answer"]  = "";
+  $_SESSION["answer_ready"] = false;
+
+  $showSpinner = true;
+  $metaRefresh = '<meta http-equiv="refresh" content="0.8;url=?step=answer">';
+}
+
+/**
+ * STEP B: answer step (after refresh)
+ */
+if (isset($_GET["step"]) && $_GET["step"] === "answer") {
+  $pregunta = $_SESSION["last_prompt"] ?? null;
+
+  if (!empty($_SESSION["answer_ready"])) {
+    $respuesta = $_SESSION["last_answer"] ?? "";
+    $showSpinner = false;
+  } else {
+    $showSpinner = true;
+    $metaRefresh = '<meta http-equiv="refresh" content="0.8;url=?step=answer">';
+  }
+}
+?>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>jocarsa | microchat</title>
+
+  <?= $metaRefresh ?>
+
+  <style>
+    :root{
+      --bg: #eef1f4;
+      --card: #ffffff;
+      --ink: #111827;
+      --muted: #6b7280;
+      --line: #e5e7eb;
+      --soft: #f3f4f6;
+      --shadow: 0 18px 50px rgba(0,0,0,.12);
+      --shadow-soft: 0 10px 25px rgba(0,0,0,.08);
+      --radius: 22px;
+    }
+
+    *{ box-sizing:border-box; }
+
+    html,body{
+      width:100%;
+      height:100%;
+      margin:0;
+      padding:0;
+      font-family: Ubuntu, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(1200px 600px at 20% 10%, rgba(255,255,255,.7), transparent 60%),
+        radial-gradient(900px 500px at 90% 30%, rgba(255,255,255,.55), transparent 55%),
+        var(--bg);
+    }
+
+    body{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:24px;
+    }
+
+    section{
+      width:min(560px, 100%);
+      height:min(560px, 100%);
+      background:var(--card);
+      border:1px solid rgba(0,0,0,.06);
+      border-radius: calc(var(--radius) + 6px);
+      box-shadow: var(--shadow);
+      padding:22px;
+      display:flex;
+      flex-direction:column;
+      gap:14px;
+      overflow:hidden;
+    }
+
+    .titleWrap{
+      display:flex;
+      align-items:flex-start;
+      justify-content:space-between;
+      gap:12px;
+      padding-bottom:10px;
+      border-bottom:1px solid var(--line);
+    }
+
+    h1{
+      margin:0;
+      font-size:18px;
+      letter-spacing:.2px;
+      font-weight:700;
+      line-height:1.2;
+    }
+
+    .badge{
+      font-size:12px;
+      color:var(--muted);
+      background:var(--soft);
+      border:1px solid rgba(0,0,0,.05);
+      padding:6px 10px;
+      border-radius:999px;
+      white-space:nowrap;
+    }
+
+    h3{
+      margin:6px 0 0 0;
+      text-align:center;
+      font-size:14px;
+      font-weight:600;
+      color:var(--muted);
+    }
+
+    .messages{
+      flex:1;
+      display:flex;
+      flex-direction:column;
+      gap:12px;
+      padding:6px 2px;
+      overflow:auto;
+    }
+
+    .bubble{
+      width:fit-content;
+      max-width: 86%;
+      padding:12px 14px;
+      background:var(--soft);
+      border:1px solid rgba(0,0,0,.06);
+      border-radius:16px;
+      box-shadow: var(--shadow-soft);
+      line-height:1.35;
+      font-size:14px;
+      white-space:pre-wrap;
+      word-break:break-word;
+    }
+
+    #pregunta{
+      align-self:flex-start;
+      border-top-left-radius:8px;
+    }
+
+    #respuesta{
+      align-self:flex-end;
+      border-top-right-radius:8px;
+      display:flex;
+      align-items:center;
+      gap:10px;
+      min-height:46px;
+    }
+
+    form{
+      padding-top:12px;
+      border-top:1px solid var(--line);
+    }
+
+    form input{
+      width:100%;
+      padding:12px 14px;
+      border-radius:999px;
+      border:1px solid var(--line);
+      background:#fff;
+      outline:none;
+      font-size:14px;
+      box-shadow: 0 1px 0 rgba(0,0,0,.02);
+      transition: border-color .2s ease, box-shadow .2s ease, background .2s ease;
+    }
+
+    form input::placeholder{ color:#9ca3af; }
+
+    form input:focus{
+      border-color: rgba(17,24,39,.35);
+      box-shadow: 0 0 0 4px rgba(17,24,39,.08);
+      background:#fff;
+    }
+
+    .spinner{
+      width:16px;
+      height:16px;
+      border-radius:50%;
+      border:3px solid rgba(17,24,39,0.12);
+      border-top-color: rgba(17,24,39,0.55);
+      animation: spin .8s linear infinite;
+      flex:0 0 auto;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .muted{
+      font-size:13px;
+      color:var(--muted);
+    }
+
+    .messages::-webkit-scrollbar{ width:10px; }
+    .messages::-webkit-scrollbar-thumb{
+      background: rgba(0,0,0,.10);
+      border-radius:999px;
+      border:3px solid transparent;
+      background-clip: content-box;
+    }
+
+    @media (max-width: 520px){
+      section{ height: 92vh; padding:18px; }
+      .bubble{ max-width: 92%; }
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <div class="titleWrap">
+      <h1>jocarsa | microchat</h1>
+      <span class="badge">local</span>
+    </div>
+
+    <div class="messages">
+      <?php if (!$pregunta): ?>
+        <h3>¿Qué quieres hacer hoy?</h3>
+      <?php else: ?>
+        <p id="pregunta" class="bubble"><?= htmlspecialchars($pregunta, ENT_QUOTES, "UTF-8") ?></p>
+
+        <p id="respuesta" class="bubble">
+          <?php if ($showSpinner): ?>
+            <span class="spinner"></span>
+            <span class="muted">Pensando…</span>
+          <?php else: ?>
+            <?= htmlspecialchars((string)$respuesta, ENT_QUOTES, "UTF-8") ?>
+          <?php endif; ?>
+        </p>
+      <?php endif; ?>
+    </div>
+
+    <form method="POST" action="?">
+      <input
+        type="text"
+        name="prompt"
+        placeholder="Escribe una pregunta sobre programación y pulsa Enter…"
+        autocomplete="off"
+        autofocus
+      >
+    </form>
+  </section>
+</body>
+</html>
+<?php
+// If we came from POST, compute the answer after the HTML has been sent
+// so the user sees the spinner immediately.
+if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST["prompt"])) {
+  @ob_flush(); @flush();
+
+  if (function_exists("fastcgi_finish_request")) {
+    @fastcgi_finish_request();
+  }
+
+  $ans = ask_ollama($_SESSION["last_prompt"] ?? "");
+  $_SESSION["last_answer"]  = $ans;
+  $_SESSION["answer_ready"] = true;
+}
+```
+
 
 
 <a id="milla-extra-evaluacion-1"></a>
@@ -18537,6 +19778,8 @@ Para mejorar este sistema, se podrían considerar mejoras en términos de seguri
 
 <a id="la-milla-extra-primera-evaluacion"></a>
 ## La Milla Extra - Primera evaluación
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Programaci%C3%B3n/201-Actividad%20libre%20de%20final%20de%20evaluaci%C3%B3n%20-%20La%20milla%20extra/001-La%20Milla%20Extra%20-%20Primera%20evaluaci%C3%B3n)
 
 ### Introducción a los ejercicios
 

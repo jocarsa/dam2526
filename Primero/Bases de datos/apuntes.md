@@ -64,6 +64,7 @@
   - [Normalización de modelos relacionales](#normalizacion-de-modelos-relacionales)
   - [Ejercicios](#ejercicios)
   - [Criterios de evaluación](#criterios-de-evaluacion)
+  - [Resumen](#resumen)
 - [Uso de bases de datos no relacionales](#uso-de-bases-de-datos-no-relacionales)
   - [Características de las bases de datos no relacionales](#caracteristicas-de-las-bases-de-datos-no-relacionales)
   - [Tipos de bases de datos no relacionales](#tipos-de-bases-de-datos-no-relacionales)
@@ -72,6 +73,7 @@
   - [Herramientas de los sistemas gestores de bases de datos no relacionales para la gestión de la información almacenada](#herramientas-de-los-sistemas-gestores-de-bases-de-datos-no-relacionales-para-la-gestion-de-la-informacion-almacenada)
 - [Proyectos](#proyectos)
   - [proyecto tienda online](#proyecto-tienda-online)
+  - [IA para dietetica](#ia-para-dietetica)
 - [Actividad libre de final de evaluación - La milla extra](#actividad-libre-de-final-de-evaluacion-la-milla-extra)
   - [La Milla Extra - Primera evaluación](#la-milla-extra-primera-evaluacion)
 
@@ -82,6 +84,8 @@
 
 <a id="ficheros-planos-indexados-acceso-directo-entre-otros"></a>
 ## Ficheros (planos, indexados, acceso directo, entre otros)
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/001-Almacenamiento%20de%20la%20informaci%C3%B3n/001-Ficheros%20%28planos%2C%20indexados%2C%20acceso%20directo%2C%20entre%20otros%29)
 
 ### Introducción a los ejercicios
 
@@ -331,13 +335,19 @@ Esta forma de organizar los datos es útil cuando necesitas representar informac
 <a id="bases-de-datos-conceptos-usos-y-tipos-segun-el-modelo-de-datos-la-ubicacion-de-la-informacion"></a>
 ## Bases de datos. Conceptos, usos y tipos según el modelo de datos, la ubicación de la información
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/001-Almacenamiento%20de%20la%20informaci%C3%B3n/002-Bases%20de%20datos.%20Conceptos%2C%20usos%20y%20tipos%20seg%C3%BAn%20el%20modelo%20de%20datos%2C%20la%20ubicaci%C3%B3n%20de%20la%20informaci%C3%B3n)
+
 
 <a id="sistemas-gestores-de-base-de-datos-funciones-componentes-y-tipos"></a>
 ## Sistemas gestores de base de datos Funciones, componentes y tipos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/001-Almacenamiento%20de%20la%20informaci%C3%B3n/003-Sistemas%20gestores%20de%20base%20de%20datos%20Funciones%2C%20componentes%20y%20tipos)
+
 
 <a id="bases-de-datos-centralizadas-y-bases-de-datos-distribuidas-tecnicas-de-fragmentacion"></a>
 ## Bases de datos centralizadas y bases de datos distribuidas. Técnicas de fragmentación
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/001-Almacenamiento%20de%20la%20informaci%C3%B3n/004-Bases%20de%20datos%20centralizadas%20y%20bases%20de%20datos%20distribuidas.%20T%C3%A9cnicas%20de%20fragmentaci%C3%B3n)
 
 ### Introducción a los ejercicios
 
@@ -379,6 +389,8 @@ Este conjunto de ejercicios se enfoca en entender las diferencias entre bases de
 <a id="legislacion-sobre-proteccion-de-datos"></a>
 ## Legislación sobre protección de datos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/001-Almacenamiento%20de%20la%20informaci%C3%B3n/005-Legislaci%C3%B3n%20sobre%20protecci%C3%B3n%20de%20datos)
+
 ### Introducción a los ejercicios
 
 Este conjunto de ejercicios está centrado en la comprensión y aplicación de la legislación sobre protección de datos, fundamental para cualquier profesional que maneje información personal. Se abordan aspectos clave como el Reglamento General de Protección de Datos (RGPD) y la Ley Orgánica de Protección de Datos de Carácter Personal (LOPD), incluyendo sus modificaciones más recientes. Los estudiantes aprenderán sobre los derechos de los ciudadanos en relación a su información personal, así como las obligaciones que tienen las empresas y entidades encargadas del tratamiento de esos datos. Este tema es crucial para garantizar la privacidad y seguridad de la información en el ámbito profesional.
@@ -412,6 +424,8 @@ Este conjunto de ejercicios está centrado en la comprensión y aplicación de l
 
 <a id="big-data-introduccion-analisis-de-datos-inteligencia-de-negocios"></a>
 ## Big Data introducción, análisis de datos, inteligencia de negocios
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/001-Almacenamiento%20de%20la%20informaci%C3%B3n/006-Big%20Data%20introducci%C3%B3n%2C%20an%C3%A1lisis%20de%20datos%2C%20inteligencia%20de%20negocios)
 
 ### Introducción a los ejercicios
 
@@ -448,6 +462,8 @@ Estas actividades buscan preparar a los estudiantes para entender y trabajar con
 
 <a id="ejercicio-de-final-de-unidad"></a>
 ## Ejercicio de final de unidad
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/001-Almacenamiento%20de%20la%20informaci%C3%B3n/101-Ejercicio%20de%20final%20de%20unidad)
 
 ### Introducción a los ejercicios
 
@@ -490,6 +506,8 @@ Estas actividades están diseñadas para fortalecer los conocimientos básicos d
 
 <a id="modelo-de-datos"></a>
 ## Modelo de datos
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/002-Bases%20de%20datos%20relacionales/001-Modelo%20de%20datos)
 
 ### Introducción a los ejercicios
 
@@ -540,6 +558,8 @@ Este conjunto de ejercicios se enfoca en la comprensión y aplicación del model
 
 <a id="terminologia-del-modelo-relacional"></a>
 ## Terminología del modelo relacional
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/002-Bases%20de%20datos%20relacionales/002-Terminolog%C3%ADa%20del%20modelo%20relacional)
 
 ### Introducción a los ejercicios
 
@@ -682,6 +702,8 @@ Cada actividad está diseñada para reforzar los conceptos clave del modelo rela
 <a id="tipos-de-datos"></a>
 ## Tipos de datos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/002-Bases%20de%20datos%20relacionales/003-Tipos%20de%20datos)
+
 ### Introducción a los ejercicios
 
 Esta carpeta contiene ejercicios destinados a familiarizarte con los tipos de datos fundamentales y avanzados en bases de datos relacionales, específicamente enfocándose en MySQL. Los ejercicios te ayudarán a comprender la diferencia entre tipos de datos numéricos, cadenas, fechas y otros formatos especializados como JSON o BLOBs. A través de estos ejercicios, aprenderás a seleccionar el tipo adecuado para cada columna en función del contenido que almacenará y los requerimientos del sistema, lo cual es crucial para la eficiencia y efectividad de tus bases de datos.
@@ -725,6 +747,8 @@ Estas actividades buscan que los estudiantes comprendan y apliquen los distintos
 
 <a id="claves-primarias"></a>
 ## Claves primarias
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/002-Bases%20de%20datos%20relacionales/004-Claves%20primarias)
 
 ### Introducción a los ejercicios
 
@@ -828,6 +852,8 @@ ALTER TABLE `empresarial`.`productos`
 <a id="restricciones-de-validacion"></a>
 ## Restricciones de validación
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/002-Bases%20de%20datos%20relacionales/005-Restricciones%20de%20validaci%C3%B3n)
+
 ### Introducción a los ejercicios
 
 En esta carpeta de ejercicios, los estudiantes trabajarán con restricciones de validación en bases de datos relacionales utilizando SQL. Los ejercicios se centran en cómo asegurar la integridad de los datos mediante la implementación de condiciones específicas que deben cumplirse para garantizar que ciertos campos tengan formatos correctos y consistentes. En particular, aprenderán a añadir restricciones CHECK para verificar el tamaño del número telefónico y el formato del correo electrónico en una tabla llamada "clientes". Estos ejercicios ayudan a los estudiantes a comprender cómo proteger la calidad de los datos almacenados en bases de datos relacionales.
@@ -902,9 +928,13 @@ Estas actividades proporcionan una variedad de ejercicios que cubren diferentes 
 <a id="indices-caracteristicas"></a>
 ## Índices. Características
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/002-Bases%20de%20datos%20relacionales/006-%C3%8Dndices.%20Caracter%C3%ADsticas)
+
 
 <a id="el-valor-null"></a>
 ## El valor NULL
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/002-Bases%20de%20datos%20relacionales/007-El%20valor%20NULL)
 
 ### Introducción a los ejercicios
 
@@ -969,6 +999,8 @@ ALTER TABLE clientes
 
 <a id="claves-ajenas"></a>
 ## Claves ajenas
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/002-Bases%20de%20datos%20relacionales/008-Claves%20ajenas)
 
 ### Introducción a los ejercicios
 
@@ -1099,6 +1131,8 @@ INSERT INTO `pedidos`
 <a id="vistas"></a>
 ## Vistas
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/002-Bases%20de%20datos%20relacionales/009-Vistas)
+
 ### Introducción a los ejercicios
 
 Esta carpeta contiene ejercicios relacionados con la creación y uso de vistas en bases de datos relacionales. En estos ejercicios, los estudiantes aprenderán a realizar consultas SQL complejas que combinan información de múltiples tablas utilizando INNER JOIN y LEFT JOIN. El objetivo principal es introducir el concepto de vistas como un mecanismo para simplificar la visualización y acceso a conjuntos de datos recurrentes. Los ejercicios practican habilidades clave en diseño de bases de datos, como comprensión de relaciones entre tablas y optimización de consultas SQL.
@@ -1205,6 +1239,8 @@ ON pedidos.id_producto = productos.Identificador
 
 <a id="usuarios-privilegios"></a>
 ## Usuarios. Privilegios
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/002-Bases%20de%20datos%20relacionales/010-Usuarios.%20Privilegios)
 
 ### Introducción a los ejercicios
 
@@ -1324,13 +1360,19 @@ TO 'usuariosololectura'@'localhost';
 <a id="lenguaje-de-descripcion-de-datos-ddl"></a>
 ## Lenguaje de descripción de datos (DDL)
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/002-Bases%20de%20datos%20relacionales/011-Lenguaje%20de%20descripci%C3%B3n%20de%20datos%20%28DDL%29)
+
 
 <a id="lenguaje-de-control-de-datos-dcl"></a>
 ## Lenguaje de control de datos (DCL)
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/002-Bases%20de%20datos%20relacionales/012-Lenguaje%20de%20control%20de%20datos%20%28DCL%29)
+
 
 <a id="ejercicio-de-final-de-unidad-1"></a>
 ## Ejercicio de final de unidad
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/002-Bases%20de%20datos%20relacionales/101-Ejercicio%20de%20final%20de%20unidad)
 
 ### Introducción a los ejercicios
 
@@ -1373,6 +1415,8 @@ Estas actividades están diseñadas para complementar el estudio teórico propor
 
 <a id="proyeccion-seleccion-y-ordenacion-de-registros"></a>
 ## Proyección, selección y ordenación de registros
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/003-Realizaci%C3%B3n%20de%20consultas/001-Proyecci%C3%B3n%2C%20selecci%C3%B3n%20y%20ordenaci%C3%B3n%20de%20registros)
 
 ### Introducción a los ejercicios
 
@@ -1680,6 +1724,8 @@ WHERE apellidos LIKE "%ez%"
 <a id="operadores-operadores-de-comparacion-operadores-logicos"></a>
 ## Operadores. Operadores de comparación. Operadores lógicos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/003-Realizaci%C3%B3n%20de%20consultas/002-Operadores.%20Operadores%20de%20comparaci%C3%B3n.%20Operadores%20l%C3%B3gicos)
+
 ### Introducción a los ejercicios
 
 En esta carpeta de ejercicios se trabajan diferentes tipos de operaciones y consultas en SQL que involucran tanto operadores aritméticos como de comparación. Los estudiantes aprenderán a realizar cálculos básicos, calcular el IVA y sumar totales para productos almacenados en una base de datos. Además, practicarán la creación de alias de columnas para mejorar la legibilidad de los resultados. También se introducen conceptos más avanzados como las condiciones IF que permiten aplicar reglas personalizadas en función de ciertos criterios, como determinar si el transporte es necesario según el precio del producto y calcular el costo total incluyendo el transporte cuando sea aplicable.
@@ -1951,6 +1997,8 @@ Estas actividades están diseñadas para ayudar al estudiante a familiarizarse c
 <a id="consultas-de-resumen"></a>
 ## Consultas de resumen
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/003-Realizaci%C3%B3n%20de%20consultas/003-Consultas%20de%20resumen)
+
 ### Introducción a los ejercicios
 
 En esta carpeta, trabajaremos con consultas de resumen en SQL utilizando una base de datos que contiene información sobre pedidos. Los ejercicios te guiarán a través del cálculo de sumatorias totales, promedios y conteos relacionados con los pedidos para analizar el comportamiento de ventas y gastos en una tienda virtual. Aprenderás a utilizar funciones como SUM(), AVG() y MAX() para obtener información resumida de la tabla 'vista_pedidos'. Además, practicarás cómo contar el número total de registros que cumplen ciertas condiciones utilizando COUNT(). Estos ejercicios son fundamentales para desarrollar habilidades en análisis de datos básicos usando consultas SQL.
@@ -2085,6 +2133,8 @@ FROM vista_pedidos;
 <a id="agrupamiento-de-registros"></a>
 ## Agrupamiento de registros
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/003-Realizaci%C3%B3n%20de%20consultas/004-Agrupamiento%20de%20registros)
+
 ### Introducción a los ejercicios
 
 En esta carpeta, se trabajan ejercicios relacionados con la realización de consultas SQL avanzadas en un contexto de base de datos para estudiantes de Formación Profesional. El objetivo principal es familiarizarse con el agrupamiento de registros utilizando la cláusula `GROUP BY` y cómo combinarla con funciones de agregación como `COUNT()`. Los ejercicios van desde seleccionar todos los registros de una tabla hasta realizar consultas más complejas que involucran agregar nuevos campos a una tabla existente y luego agrupar datos según estos cambios. Este conjunto de ejercicios ayuda a desarrollar competencias en manipulación de bases de datos, consulta avanzada y resolución de problemas relacionados con la agregación de información.
@@ -2192,6 +2242,8 @@ Estas actividades están diseñadas para proporcionar a los estudiantes una comp
 
 <a id="composiciones-internas"></a>
 ## Composiciones internas
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/003-Realizaci%C3%B3n%20de%20consultas/005-Composiciones%20internas)
 
 ### Introducción a los ejercicios
 
@@ -2592,21 +2644,31 @@ Estas actividades están diseñadas para cubrir diferentes aspectos del manejo d
 <a id="composiciones-externas"></a>
 ## Composiciones externas
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/003-Realizaci%C3%B3n%20de%20consultas/006-Composiciones%20externas)
+
 
 <a id="subconsultas"></a>
 ## Subconsultas
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/003-Realizaci%C3%B3n%20de%20consultas/007-Subconsultas)
 
 
 <a id="combinacion-de-multiples-selecciones"></a>
 ## Combinación de múltiples selecciones
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/003-Realizaci%C3%B3n%20de%20consultas/008-Combinaci%C3%B3n%20de%20m%C3%BAltiples%20selecciones)
+
 
 <a id="optimizacion-de-consultas"></a>
 ## Optimización de consultas
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/003-Realizaci%C3%B3n%20de%20consultas/009-Optimizaci%C3%B3n%20de%20consultas)
+
 
 <a id="ejercicio-de-final-de-unidad-2"></a>
 ## Ejercicio de final de unidad
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/003-Realizaci%C3%B3n%20de%20consultas/101-Ejercicio%20de%20final%20de%20unidad)
 
 ### Introducción a los ejercicios
 
@@ -2655,6 +2717,8 @@ Cada una de estas actividades está diseñada para ayudar a los estudiantes a pr
 
 <a id="insercion-borrado-y-modificacion-de-registros"></a>
 ## Inserción, borrado y modificación de registros
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/004-Tratamiento%20de%20datos/001-Inserci%C3%B3n%2C%20borrado%20y%20modificaci%C3%B3n%20de%20registros)
 
 ### Introducción a los ejercicios
 
@@ -2918,6 +2982,8 @@ Estas actividades están diseñadas para ayudar a los estudiantes a dominar las 
 
 <a id="integridad-referencial"></a>
 ## Integridad referencial
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/004-Tratamiento%20de%20datos/002-Integridad%20referencial)
 
 ### Introducción a los ejercicios
 
@@ -4180,6 +4246,8 @@ Estas mejoras ayudarán a hacer tu script más robusto y fácil de mantener.
 <a id="subconsultas-y-composiciones-en-ordenes-de-edicion"></a>
 ## Subconsultas y composiciones en órdenes de edición
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/004-Tratamiento%20de%20datos/003-Subconsultas%20y%20composiciones%20en%20%C3%B3rdenes%20de%20edici%C3%B3n)
+
 ### Introducción a los ejercicios
 
 Esta carpeta contiene una serie de ejercicios prácticos diseñados para familiarizarte con el uso del almacenamiento local en JavaScript, específicamente enfocándose en la manipulación y gestión de datos a través del objeto `localStorage`. Los ejercicios comienzan con la simple adición de un dato básico al almacenamiento y evolucionan hasta incluir la manipulación de objetos complejos y su serialización/deserialización utilizando JSON. A lo largo de estos ejercicios, practicarás competencias clave como el manejo de estructuras de datos en JavaScript, la persistencia de información en el navegador y la conversión entre tipos de datos para almacenamiento eficiente.
@@ -4409,6 +4477,8 @@ Estas actividades están diseñadas para llevar a los estudiantes gradualmente d
 
 <a id="transacciones"></a>
 ## Transacciones
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/004-Tratamiento%20de%20datos/004-Transacciones)
 
 ### Introducción a los ejercicios
 
@@ -5215,6 +5285,8 @@ Si tienes alguna pregunta específica sobre cómo utilizar esta estructura, cóm
 
 <a id="politicas-de-bloqueo-concurrencia"></a>
 ## Políticas de bloqueo. Concurrencia
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/004-Tratamiento%20de%20datos/005-Pol%C3%ADticas%20de%20bloqueo.%20Concurrencia)
 
 ### Introducción a los ejercicios
 
@@ -7679,6 +7751,8 @@ Este código es útil para aprender sobre cómo interactuar con bases de datos d
 <a id="simulacro-examen"></a>
 ## Simulacro examen
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/004-Tratamiento%20de%20datos/006-Simulacro%20examen)
+
 ### Introducción a los ejercicios
 
 Este conjunto de ejercicios está diseñado para familiarizarte con la creación y gestión de una base de datos en SQL, específicamente centrada en un blog con entradas y autores. Los problemas abordan desde la creación inicial de la base de datos hasta la inserción de datos y la manipulación avanzada mediante joins e vistas. Practicarás habilidades como definir estructuras de tablas, establecer relaciones entre ellas a través de claves primarias y foráneas, así como manejar usuarios y privilegios en tu base de datos. Este ejercicio te preparará para entender cómo se organiza la información en aplicaciones web reales, desde el modelo relacional hasta su implementación práctica con SQL.
@@ -8019,6 +8093,8 @@ Estas actividades están diseñadas para reforzar los conceptos básicos y avanz
 <a id="simulacro-de-examen-2"></a>
 ## Simulacro de examen 2
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/004-Tratamiento%20de%20datos/007-Simulacro%20de%20examen%202)
+
 ### Introducción a los ejercicios
 
 Esta carpeta contiene una serie de ejercicios orientados a la creación y gestión de una base de datos para un blog o portafolio personal. Los estudiantes deben aprender a estructurar datos en tablas relacionales, utilizando claves primarias y foráneas, además de realizar inserciones, consultas cruzadas, creación de vistas y manejo de usuarios con permisos específicos. El objetivo es afianzar los conocimientos sobre la manipulación de bases de datos mediante SQL, incluyendo operaciones CRUD (Crear, Leer, Actualizar, Eliminar) y el uso eficiente de vistas para simplificar consultas complejas.
@@ -8321,6 +8397,8 @@ Los alumnos deberán documentar todo el proceso de diseño, creación e implemen
 <a id="ejercicio-de-final-de-unidad-3"></a>
 ## Ejercicio de final de unidad
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/004-Tratamiento%20de%20datos/101-Ejercicio%20de%20final%20de%20unidad)
+
 ### Introducción a los ejercicios
 
 En esta sección de ejercicios, centraremos nuestra atención en el tratamiento y manipulación de datos mediante la creación de consultas SQL avanzadas. Se enfatizará la práctica de operaciones como la unión, intersección y diferencia de conjuntos, así como la implementación de subconsultas para resolver problemas complejos en bases de datos relacionales. Estos ejercicios son diseñados específicamente para reforzar las habilidades adquiridas durante el curso de Bases de Datos y preparar a los estudiantes para situaciones prácticas que requerirán un manejo eficaz de la información.
@@ -8366,6 +8444,8 @@ Estas actividades están diseñadas para ayudar a los estudiantes a adquirir com
 
 <a id="examen-final"></a>
 ## Examen final
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/004-Tratamiento%20de%20datos/104-Examen%20final)
 
 ### Introducción a los ejercicios
 
@@ -8622,6 +8702,8 @@ Estas actividades están diseñadas para proporcionar una experiencia práctica 
 
 <a id="introduccion-lenguaje-de-programacion"></a>
 ## Introducción. Lenguaje de programación
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/005-Programaci%C3%B3n%20de%20bases%20de%20datos/001-Introducci%C3%B3n.%20Lenguaje%20de%20programaci%C3%B3n)
 
 ### Introducción a los ejercicios
 
@@ -10867,29 +10949,43 @@ Este conjunto de scripts proporciona una base sólida para interactuar con la ba
 <a id="variables-del-sistema-y-variables-de-usuario"></a>
 ## Variables del sistema y variables de usuario
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/005-Programaci%C3%B3n%20de%20bases%20de%20datos/002-Variables%20del%20sistema%20y%20variables%20de%20usuario)
+
 
 <a id="funciones"></a>
 ## Funciones
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/005-Programaci%C3%B3n%20de%20bases%20de%20datos/003-Funciones)
 
 
 <a id="estructuras-de-control-de-flujo"></a>
 ## Estructuras de control de flujo
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/005-Programaci%C3%B3n%20de%20bases%20de%20datos/004-Estructuras%20de%20control%20de%20flujo)
+
 
 <a id="procedimientos-almacenados-funciones-de-usuario"></a>
 ## Procedimientos almacenados. Funciones de usuario
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/005-Programaci%C3%B3n%20de%20bases%20de%20datos/005-Procedimientos%20almacenados.%20Funciones%20de%20usuario)
 
 
 <a id="eventos-y-disparadores"></a>
 ## Eventos y disparadores
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/005-Programaci%C3%B3n%20de%20bases%20de%20datos/006-Eventos%20y%20disparadores)
+
 
 <a id="excepciones"></a>
 ## Excepciones
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/005-Programaci%C3%B3n%20de%20bases%20de%20datos/007-Excepciones)
+
 
 <a id="cursores"></a>
 ## Cursores
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/005-Programaci%C3%B3n%20de%20bases%20de%20datos/008-Cursores)
 
 
 
@@ -10898,6 +10994,8 @@ Este conjunto de scripts proporciona una base sólida para interactuar con la ba
 
 <a id="el-modelo-er-entidades-y-relaciones-cardinalidades-debilidad"></a>
 ## El modelo ER. Entidades y relaciones. Cardinalidades. Debilidad
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/006-Interpretaci%C3%B3n%20de%20Diagramas%20EntidadRelaci%C3%B3n/001-El%20modelo%20ER.%20Entidades%20y%20relaciones.%20Cardinalidades.%20Debilidad)
 
 ### Introducción a los ejercicios
 
@@ -15055,6 +15153,8 @@ Este modelo de clases parece describir cómo se relacionan las entidades en un s
 <a id="el-modelo-er-ampliado-generalizacion-y-especializacion-agregacion"></a>
 ## El modelo ER ampliado. Generalización y especialización. Agregación
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/006-Interpretaci%C3%B3n%20de%20Diagramas%20EntidadRelaci%C3%B3n/002-El%20modelo%20ER%20ampliado.%20Generalizaci%C3%B3n%20y%20especializaci%C3%B3n.%20Agregaci%C3%B3n)
+
 ### Introducción a los ejercicios
 
 ### Diagrama Persona-Alumno-Profesor
@@ -18091,6 +18191,8 @@ En resumen:
 <a id="paso-del-diagrama-er-al-modelo-relacional"></a>
 ## Paso del diagrama ER al modelo relacional
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/006-Interpretaci%C3%B3n%20de%20Diagramas%20EntidadRelaci%C3%B3n/003-Paso%20del%20diagrama%20ER%20al%20modelo%20relacional)
+
 ### Introducción a los ejercicios
 
 ### Summary and Key Points of the Case Study
@@ -19493,9 +19595,13 @@ Would you like any specific modifications or additional features for this schema
 <a id="restricciones-semanticas-del-modelo-relacional"></a>
 ## Restricciones semánticas del modelo relacional
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/006-Interpretaci%C3%B3n%20de%20Diagramas%20EntidadRelaci%C3%B3n/004-Restricciones%20sem%C3%A1nticas%20del%20modelo%20relacional)
+
 
 <a id="normalizacion-de-modelos-relacionales"></a>
 ## Normalización de modelos relacionales
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/006-Interpretaci%C3%B3n%20de%20Diagramas%20EntidadRelaci%C3%B3n/005-Normalizaci%C3%B3n%20de%20modelos%20relacionales)
 
 ### Introducción a los ejercicios
 
@@ -19547,9 +19653,19 @@ Esta carpeta contiene una serie de ejercicios diseñados para ayudarte a entende
 <a id="ejercicios"></a>
 ## Ejercicios
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/006-Interpretaci%C3%B3n%20de%20Diagramas%20EntidadRelaci%C3%B3n/101-Ejercicios)
+
 
 <a id="criterios-de-evaluacion"></a>
 ## Criterios de evaluación
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/006-Interpretaci%C3%B3n%20de%20Diagramas%20EntidadRelaci%C3%B3n/201-Criterios%20de%20evaluaci%C3%B3n)
+
+
+<a id="resumen"></a>
+## Resumen
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/006-Interpretaci%C3%B3n%20de%20Diagramas%20EntidadRelaci%C3%B3n/301-Resumen)
 
 
 
@@ -19559,21 +19675,792 @@ Esta carpeta contiene una serie de ejercicios diseñados para ayudarte a entende
 <a id="caracteristicas-de-las-bases-de-datos-no-relacionales"></a>
 ## Características de las bases de datos no relacionales
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/007-Uso%20de%20bases%20de%20datos%20no%20relacionales/001-Caracter%C3%ADsticas%20de%20las%20bases%20de%20datos%20no%20relacionales)
+
 
 <a id="tipos-de-bases-de-datos-no-relacionales"></a>
 ## Tipos de bases de datos no relacionales
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/007-Uso%20de%20bases%20de%20datos%20no%20relacionales/002-Tipos%20de%20bases%20de%20datos%20no%20relacionales)
+
+### ejemplo json 1
+<small>Creado: 2026-01-08 16:29</small>
+
+`002-ejemplo json 1.json`
+
+```json
+{
+  "nombre":"Jose Vicente",
+  "apellidos":"Carratala Sanchis",
+  "email":"info@jocarsa.com"
+}
+```
+
+### json un poco mas complejo
+<small>Creado: 2026-01-08 16:30</small>
+
+`003-json un poco mas complejo.json`
+
+```json
+{
+  "nombre":"Jose Vicente",
+  "apellidos":"Carratala Sanchis",
+  "email":"info@jocarsa.com",
+  "telefonos":[
+    "12345678",
+    "87654321"
+  ]
+}
+```
+
+### json mas complejo todavía
+<small>Creado: 2026-01-08 16:32</small>
+
+`004-json mas complejo todavía.json`
+
+```json
+{
+  "nombre":"Jose Vicente",
+  "apellidos":"Carratala Sanchis",
+  "email":"info@jocarsa.com",
+  "telefonos":{
+    "trabajo":[
+      123445,
+      325435
+    ],
+    "personal":[
+      21423423,
+      6245324534
+    ]
+  }
+}
+```
+
+### ejemplo pedido tienda online
+<small>Creado: 2026-01-08 16:38</small>
+
+`006-ejemplo pedido tienda online.json`
+
+```json
+{
+  "cliente":{
+    "nombre":"fdsafsdf",
+    "apellidos":"fdsfasdfs"
+  },
+  "productos":[
+    {"nombre":"fdsfsdf","cantidad":3,"precio":43},
+    {"nombre":"fdsfsdf","cantidad":3,"precio":43},
+    {"nombre":"fdsfsdf","cantidad":3,"precio":43},
+    {"nombre":"fdsfsdf","cantidad":3,"precio":43}
+  ]
+}
+```
 
 
 <a id="elementos-de-las-bases-de-datos-no-relacionales"></a>
 ## Elementos de las bases de datos no relacionales
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/007-Uso%20de%20bases%20de%20datos%20no%20relacionales/003-Elementos%20de%20las%20bases%20de%20datos%20no%20relacionales)
+
+### muestra de pedido
+<small>Creado: 2026-01-08 17:14</small>
+
+`003-muestra de pedido.json`
+
+```json
+{
+  "cliente":{
+    "nombre":"Jose Vicente",
+    "apellidos":"Carratala Sanchis",
+    "email":"info@jocarsa.com"
+  },
+  "pedido":{
+    "fecha":"2026-01-08",
+    "numero":"2026001"
+  },
+  "productos":[
+    {"nombre":"Camiseta","cantidad":3,"precio":43},
+    {"nombre":"Pantalon","cantidad":2,"precio":23},
+    {"nombre":"Calcetines","cantidad":3,"precio":33},
+    {"nombre":"Bufanda","cantidad":4,"precio":13}
+  ]
+}
+```
+
+### cargamos el primer pedido
+<small>Creado: 2026-01-08 17:22</small>
+
+`005-cargamos el primer pedido.php`
+
+```
+<?php
+// Conexión al servidor MongoDB
+$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017");
+
+// Consulta: primer documento (sin filtros, límite 1)
+$query = new MongoDB\Driver\Query(
+    [],                 // filtro
+    ['limit' => 1]      // opciones
+);
+
+// Ejecutar consulta
+$cursor = $manager->executeQuery('tiendaonline.pedidos', $query);
+
+// Obtener el primer documento
+foreach ($cursor as $doc) {
+    var_dump($doc);
+    break;
+}
+
+// Si no hay documentos
+if (!isset($doc)) {
+    echo "La colección 'pedidos' está vacía\n";
+}
+```
+
+### pedido tienda online
+<small>Creado: 2026-01-08 17:24</small>
+
+`006-pedido tienda online.php`
+
+```
+<?php
+// factura.php  (PECL mongodb, sin Composer)
+
+function euro($n): string {
+    return number_format((float)$n, 2, ',', '.') . " €";
+}
+
+$IVA_PCT = 21; // ajusta si procede
+
+try {
+    $manager = new MongoDB\Driver\Manager("mongodb://localhost:27017");
+    $query = new MongoDB\Driver\Query([], ['limit' => 1]);
+    $cursor = $manager->executeQuery('tiendaonline.pedidos', $query);
+
+    $doc = null;
+    foreach ($cursor as $d) { $doc = $d; break; }
+
+    if (!$doc) {
+        header('Content-Type: text/plain; charset=utf-8');
+        echo "No hay pedidos en tiendaonline.pedidos\n";
+        exit;
+    }
+
+    // Extraer campos con valores por defecto
+    $id      = isset($doc->_id) ? (string)$doc->_id : '';
+    $cliente = $doc->cliente ?? (object)[];
+    $pedido  = $doc->pedido ?? (object)[];
+    $items   = $doc->productos ?? [];
+
+    $nombre    = trim(($cliente->nombre ?? '') . ' ' . ($cliente->apellidos ?? ''));
+    $email     = $cliente->email ?? '';
+    $fecha     = $pedido->fecha ?? '';
+    $numero    = $pedido->numero ?? '';
+
+    // Calcular totales
+    $base = 0.0;
+    foreach ($items as $it) {
+        $cant = (int)($it->cantidad ?? 0);
+        $precio = (float)($it->precio ?? 0);
+        $base += $cant * $precio;
+    }
+    $iva = $base * ($IVA_PCT / 100.0);
+    $total = $base + $iva;
+
+    // Salida HTML sencilla estilo factura
+    header('Content-Type: text/html; charset=utf-8');
+
+} catch (Throwable $e) {
+    header('Content-Type: text/plain; charset=utf-8');
+    echo "ERROR: " . $e->getMessage() . "\n";
+    exit;
+}
+?>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Factura <?= htmlspecialchars($numero) ?></title>
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;background:#f3f3f3;margin:0;padding:24px;}
+    .invoice{max-width:900px;margin:0 auto;background:#fff;border:1px solid #ddd;border-radius:12px;overflow:hidden;}
+    header{padding:24px;border-bottom:1px solid #eee;display:flex;justify-content:space-between;gap:16px;}
+    h1{margin:0;font-size:22px;}
+    .muted{color:#666;font-size:13px;line-height:1.4;}
+    .box{padding:18px 24px;display:flex;gap:24px;flex-wrap:wrap;}
+    .col{min-width:260px;flex:1;}
+    table{width:100%;border-collapse:collapse;}
+    th,td{padding:12px 10px;border-bottom:1px solid #eee;text-align:left;}
+    th{background:#fafafa;font-size:13px;color:#444;}
+    td.num, th.num{text-align:right;}
+    .totals{padding:18px 24px;display:flex;justify-content:flex-end;}
+    .totals table{width:360px;}
+    .totals td{border-bottom:none;padding:8px 10px;}
+    .totals tr.total td{font-weight:bold;font-size:16px;border-top:1px solid #ddd;padding-top:12px;}
+    footer{padding:18px 24px;border-top:1px solid #eee;}
+    .badge{display:inline-block;background:#111;color:#fff;border-radius:999px;padding:6px 10px;font-size:12px;}
+  </style>
+</head>
+<body>
+  <div class="invoice">
+    <header>
+      <div>
+        <h1>Factura <span class="badge">#<?= htmlspecialchars($numero) ?></span></h1>
+        <div class="muted">
+          Fecha: <?= htmlspecialchars($fecha) ?><br>
+          ID pedido: <?= htmlspecialchars($id) ?>
+        </div>
+      </div>
+      <div class="muted" style="text-align:right;">
+        <strong>TiendaOnline</strong><br>
+        Ejemplo S.L.<br>
+        soporte@tiendaonline.local
+      </div>
+    </header>
+
+    <section class="box">
+      <div class="col">
+        <div class="muted"><strong>Facturar a</strong></div>
+        <div style="margin-top:6px;">
+          <?= htmlspecialchars($nombre ?: '—') ?><br>
+          <?= htmlspecialchars($email ?: '') ?>
+        </div>
+      </div>
+      <div class="col">
+        <div class="muted"><strong>Detalle del pedido</strong></div>
+        <div style="margin-top:6px;">
+          Número: <?= htmlspecialchars($numero ?: '—') ?><br>
+          Fecha: <?= htmlspecialchars($fecha ?: '—') ?>
+        </div>
+      </div>
+    </section>
+
+    <section style="padding:0 24px 18px 24px;">
+      <table>
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th class="num">Cantidad</th>
+            <th class="num">Precio</th>
+            <th class="num">Subtotal</th>
+          </tr>
+        </thead>
+        <tbody>
+        <?php foreach ($items as $it): 
+          $pname = (string)($it->nombre ?? '');
+          $cant  = (int)($it->cantidad ?? 0);
+          $precio= (float)($it->precio ?? 0);
+          $sub   = $cant * $precio;
+        ?>
+          <tr>
+            <td><?= htmlspecialchars($pname) ?></td>
+            <td class="num"><?= $cant ?></td>
+            <td class="num"><?= euro($precio) ?></td>
+            <td class="num"><?= euro($sub) ?></td>
+          </tr>
+        <?php endforeach; ?>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="totals">
+      <table>
+        <tr>
+          <td class="muted">Base imponible</td>
+          <td class="num"><?= euro($base) ?></td>
+        </tr>
+        <tr>
+          <td class="muted">IVA (<?= (int)$IVA_PCT ?>%)</td>
+          <td class="num"><?= euro($iva) ?></td>
+        </tr>
+        <tr class="total">
+          <td>Total</td>
+          <td class="num"><?= euro($total) ?></td>
+        </tr>
+      </table>
+    </section>
+
+    <footer class="muted">
+      Gracias por tu compra. Conserva esta factura para tus registros.
+    </footer>
+  </div>
+</body>
+</html>
+```
+
+### segundo pedido
+<small>Creado: 2026-01-08 17:27</small>
+
+`007-segundo pedido.json`
+
+```json
+{
+  "cliente":{
+    "nombre":"Juan",
+    "apellidos":"Lopez Garcia",
+    "email":"info@juan.com"
+  },
+  "pedido":{
+    "fecha":"2026-01-09",
+    "numero":"2026002"
+  },
+  "productos":[
+    {"nombre":"Camiseta","cantidad":3,"precio":43},
+    {"nombre":"Pantalon","cantidad":2,"precio":23},
+    {"nombre":"Calcetines","cantidad":3,"precio":33},
+    {"nombre":"Bufanda","cantidad":4,"precio":13}
+  ]
+}
+```
+
+### segundo pedido
+<small>Creado: 2026-01-08 17:30</small>
+
+`007-segundo pedido.php`
+
+```
+<?php
+// factura.php  (PECL mongodb, sin Composer)
+
+function euro($n): string {
+    return number_format((float)$n, 2, ',', '.') . " €";
+}
+
+$IVA_PCT = 21; // ajusta si procede
+
+try {
+    $manager = new MongoDB\Driver\Manager("mongodb://localhost:27017");
+    $query  = new MongoDB\Driver\Query(
+    [],
+    [
+        'sort'  => ['_id' => 1], // importante: orden estable
+        'skip'  => 1,
+        'limit' => 1
+    ]
+);
+$cursor = $manager->executeQuery('tiendaonline.pedidos', $query);
+
+    $doc = null;
+    foreach ($cursor as $d) { $doc = $d; break; }
+
+    if (!$doc) {
+        header('Content-Type: text/plain; charset=utf-8');
+        echo "No hay pedidos en tiendaonline.pedidos\n";
+        exit;
+    }
+
+    // Extraer campos con valores por defecto
+    $id      = isset($doc->_id) ? (string)$doc->_id : '';
+    $cliente = $doc->cliente ?? (object)[];
+    $pedido  = $doc->pedido ?? (object)[];
+    $items   = $doc->productos ?? [];
+
+    $nombre    = trim(($cliente->nombre ?? '') . ' ' . ($cliente->apellidos ?? ''));
+    $email     = $cliente->email ?? '';
+    $fecha     = $pedido->fecha ?? '';
+    $numero    = $pedido->numero ?? '';
+
+    // Calcular totales
+    $base = 0.0;
+    foreach ($items as $it) {
+        $cant = (int)($it->cantidad ?? 0);
+        $precio = (float)($it->precio ?? 0);
+        $base += $cant * $precio;
+    }
+    $iva = $base * ($IVA_PCT / 100.0);
+    $total = $base + $iva;
+
+    // Salida HTML sencilla estilo factura
+    header('Content-Type: text/html; charset=utf-8');
+
+} catch (Throwable $e) {
+    header('Content-Type: text/plain; charset=utf-8');
+    echo "ERROR: " . $e->getMessage() . "\n";
+    exit;
+}
+?>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Factura <?= htmlspecialchars($numero) ?></title>
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;background:#f3f3f3;margin:0;padding:24px;}
+    .invoice{max-width:900px;margin:0 auto;background:#fff;border:1px solid #ddd;border-radius:12px;overflow:hidden;}
+    header{padding:24px;border-bottom:1px solid #eee;display:flex;justify-content:space-between;gap:16px;}
+    h1{margin:0;font-size:22px;}
+    .muted{color:#666;font-size:13px;line-height:1.4;}
+    .box{padding:18px 24px;display:flex;gap:24px;flex-wrap:wrap;}
+    .col{min-width:260px;flex:1;}
+    table{width:100%;border-collapse:collapse;}
+    th,td{padding:12px 10px;border-bottom:1px solid #eee;text-align:left;}
+    th{background:#fafafa;font-size:13px;color:#444;}
+    td.num, th.num{text-align:right;}
+    .totals{padding:18px 24px;display:flex;justify-content:flex-end;}
+    .totals table{width:360px;}
+    .totals td{border-bottom:none;padding:8px 10px;}
+    .totals tr.total td{font-weight:bold;font-size:16px;border-top:1px solid #ddd;padding-top:12px;}
+    footer{padding:18px 24px;border-top:1px solid #eee;}
+    .badge{display:inline-block;background:#111;color:#fff;border-radius:999px;padding:6px 10px;font-size:12px;}
+  </style>
+</head>
+<body>
+  <div class="invoice">
+    <header>
+      <div>
+        <h1>Factura <span class="badge">#<?= htmlspecialchars($numero) ?></span></h1>
+        <div class="muted">
+          Fecha: <?= htmlspecialchars($fecha) ?><br>
+          ID pedido: <?= htmlspecialchars($id) ?>
+        </div>
+      </div>
+      <div class="muted" style="text-align:right;">
+        <strong>TiendaOnline</strong><br>
+        Ejemplo S.L.<br>
+        soporte@tiendaonline.local
+      </div>
+    </header>
+
+    <section class="box">
+      <div class="col">
+        <div class="muted"><strong>Facturar a</strong></div>
+        <div style="margin-top:6px;">
+          <?= htmlspecialchars($nombre ?: '—') ?><br>
+          <?= htmlspecialchars($email ?: '') ?>
+        </div>
+      </div>
+      <div class="col">
+        <div class="muted"><strong>Detalle del pedido</strong></div>
+        <div style="margin-top:6px;">
+          Número: <?= htmlspecialchars($numero ?: '—') ?><br>
+          Fecha: <?= htmlspecialchars($fecha ?: '—') ?>
+        </div>
+      </div>
+    </section>
+
+    <section style="padding:0 24px 18px 24px;">
+      <table>
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th class="num">Cantidad</th>
+            <th class="num">Precio</th>
+            <th class="num">Subtotal</th>
+          </tr>
+        </thead>
+        <tbody>
+        <?php foreach ($items as $it): 
+          $pname = (string)($it->nombre ?? '');
+          $cant  = (int)($it->cantidad ?? 0);
+          $precio= (float)($it->precio ?? 0);
+          $sub   = $cant * $precio;
+        ?>
+          <tr>
+            <td><?= htmlspecialchars($pname) ?></td>
+            <td class="num"><?= $cant ?></td>
+            <td class="num"><?= euro($precio) ?></td>
+            <td class="num"><?= euro($sub) ?></td>
+          </tr>
+        <?php endforeach; ?>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="totals">
+      <table>
+        <tr>
+          <td class="muted">Base imponible</td>
+          <td class="num"><?= euro($base) ?></td>
+        </tr>
+        <tr>
+          <td class="muted">IVA (<?= (int)$IVA_PCT ?>%)</td>
+          <td class="num"><?= euro($iva) ?></td>
+        </tr>
+        <tr class="total">
+          <td>Total</td>
+          <td class="num"><?= euro($total) ?></td>
+        </tr>
+      </table>
+    </section>
+
+    <footer class="muted">
+      Gracias por tu compra. Conserva esta factura para tus registros.
+    </footer>
+  </div>
+</body>
+</html>
+```
+
+### selector de facturas
+<small>Creado: 2026-01-08 17:30</small>
+
+`008-selector de facturas.php`
+
+```
+<?php
+// factura.php  (PECL mongodb, sin Composer)
+
+function euro($n): string {
+    return number_format((float)$n, 2, ',', '.') . " €";
+}
+
+$IVA_PCT = 21; // ajusta si procede
+
+try {
+    $manager = new MongoDB\Driver\Manager("mongodb://localhost:27017");
+    $query  = new MongoDB\Driver\Query(
+    [],
+    [
+        'sort'  => ['_id' => 1], // importante: orden estable
+        'skip'  => $_GET['id'],
+        'limit' => 1
+    ]
+);
+$cursor = $manager->executeQuery('tiendaonline.pedidos', $query);
+
+    $doc = null;
+    foreach ($cursor as $d) { $doc = $d; break; }
+
+    if (!$doc) {
+        header('Content-Type: text/plain; charset=utf-8');
+        echo "No hay pedidos en tiendaonline.pedidos\n";
+        exit;
+    }
+
+    // Extraer campos con valores por defecto
+    $id      = isset($doc->_id) ? (string)$doc->_id : '';
+    $cliente = $doc->cliente ?? (object)[];
+    $pedido  = $doc->pedido ?? (object)[];
+    $items   = $doc->productos ?? [];
+
+    $nombre    = trim(($cliente->nombre ?? '') . ' ' . ($cliente->apellidos ?? ''));
+    $email     = $cliente->email ?? '';
+    $fecha     = $pedido->fecha ?? '';
+    $numero    = $pedido->numero ?? '';
+
+    // Calcular totales
+    $base = 0.0;
+    foreach ($items as $it) {
+        $cant = (int)($it->cantidad ?? 0);
+        $precio = (float)($it->precio ?? 0);
+        $base += $cant * $precio;
+    }
+    $iva = $base * ($IVA_PCT / 100.0);
+    $total = $base + $iva;
+
+    // Salida HTML sencilla estilo factura
+    header('Content-Type: text/html; charset=utf-8');
+
+} catch (Throwable $e) {
+    header('Content-Type: text/plain; charset=utf-8');
+    echo "ERROR: " . $e->getMessage() . "\n";
+    exit;
+}
+?>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Factura <?= htmlspecialchars($numero) ?></title>
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;background:#f3f3f3;margin:0;padding:24px;}
+    .invoice{max-width:900px;margin:0 auto;background:#fff;border:1px solid #ddd;border-radius:12px;overflow:hidden;}
+    header{padding:24px;border-bottom:1px solid #eee;display:flex;justify-content:space-between;gap:16px;}
+    h1{margin:0;font-size:22px;}
+    .muted{color:#666;font-size:13px;line-height:1.4;}
+    .box{padding:18px 24px;display:flex;gap:24px;flex-wrap:wrap;}
+    .col{min-width:260px;flex:1;}
+    table{width:100%;border-collapse:collapse;}
+    th,td{padding:12px 10px;border-bottom:1px solid #eee;text-align:left;}
+    th{background:#fafafa;font-size:13px;color:#444;}
+    td.num, th.num{text-align:right;}
+    .totals{padding:18px 24px;display:flex;justify-content:flex-end;}
+    .totals table{width:360px;}
+    .totals td{border-bottom:none;padding:8px 10px;}
+    .totals tr.total td{font-weight:bold;font-size:16px;border-top:1px solid #ddd;padding-top:12px;}
+    footer{padding:18px 24px;border-top:1px solid #eee;}
+    .badge{display:inline-block;background:#111;color:#fff;border-radius:999px;padding:6px 10px;font-size:12px;}
+  </style>
+</head>
+<body>
+  <div class="invoice">
+    <header>
+      <div>
+        <h1>Factura <span class="badge">#<?= htmlspecialchars($numero) ?></span></h1>
+        <div class="muted">
+          Fecha: <?= htmlspecialchars($fecha) ?><br>
+          ID pedido: <?= htmlspecialchars($id) ?>
+        </div>
+      </div>
+      <div class="muted" style="text-align:right;">
+        <strong>TiendaOnline</strong><br>
+        Ejemplo S.L.<br>
+        soporte@tiendaonline.local
+      </div>
+    </header>
+
+    <section class="box">
+      <div class="col">
+        <div class="muted"><strong>Facturar a</strong></div>
+        <div style="margin-top:6px;">
+          <?= htmlspecialchars($nombre ?: '—') ?><br>
+          <?= htmlspecialchars($email ?: '') ?>
+        </div>
+      </div>
+      <div class="col">
+        <div class="muted"><strong>Detalle del pedido</strong></div>
+        <div style="margin-top:6px;">
+          Número: <?= htmlspecialchars($numero ?: '—') ?><br>
+          Fecha: <?= htmlspecialchars($fecha ?: '—') ?>
+        </div>
+      </div>
+    </section>
+
+    <section style="padding:0 24px 18px 24px;">
+      <table>
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th class="num">Cantidad</th>
+            <th class="num">Precio</th>
+            <th class="num">Subtotal</th>
+          </tr>
+        </thead>
+        <tbody>
+        <?php foreach ($items as $it): 
+          $pname = (string)($it->nombre ?? '');
+          $cant  = (int)($it->cantidad ?? 0);
+          $precio= (float)($it->precio ?? 0);
+          $sub   = $cant * $precio;
+        ?>
+          <tr>
+            <td><?= htmlspecialchars($pname) ?></td>
+            <td class="num"><?= $cant ?></td>
+            <td class="num"><?= euro($precio) ?></td>
+            <td class="num"><?= euro($sub) ?></td>
+          </tr>
+        <?php endforeach; ?>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="totals">
+      <table>
+        <tr>
+          <td class="muted">Base imponible</td>
+          <td class="num"><?= euro($base) ?></td>
+        </tr>
+        <tr>
+          <td class="muted">IVA (<?= (int)$IVA_PCT ?>%)</td>
+          <td class="num"><?= euro($iva) ?></td>
+        </tr>
+        <tr class="total">
+          <td>Total</td>
+          <td class="num"><?= euro($total) ?></td>
+        </tr>
+      </table>
+    </section>
+
+    <footer class="muted">
+      Gracias por tu compra. Conserva esta factura para tus registros.
+    </footer>
+  </div>
+</body>
+</html>
+```
+
+### tiendaonline.pedidos
+<small>Creado: 2026-01-08 17:36</small>
+
+`tiendaonline.pedidos.json`
+
+```json
+[{
+  "_id": {
+    "$oid": "695fd7e39559fdcab21ef537"
+  },
+  "cliente": {
+    "nombre": "Jose Vicente",
+    "apellidos": "Carratala Sanchis",
+    "email": "info@jocarsa.com"
+  },
+  "pedido": {
+    "fecha": "2026-01-08",
+    "numero": "2026001"
+  },
+  "productos": [
+    {
+      "nombre": "Camiseta",
+      "cantidad": 3,
+      "precio": 43
+    },
+    {
+      "nombre": "Pantalon",
+      "cantidad": 2,
+      "precio": 23
+    },
+    {
+      "nombre": "Calcetines",
+      "cantidad": 3,
+      "precio": 33
+    },
+    {
+      "nombre": "Bufanda",
+      "cantidad": 4,
+      "precio": 13
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "695fdb209559fdcab21ef538"
+  },
+  "cliente": {
+    "nombre": "Juan",
+    "apellidos": "Lopez Garcia",
+    "email": "info@juan.com"
+  },
+  "pedido": {
+    "fecha": "2026-01-09",
+    "numero": "2026002"
+  },
+  "productos": [
+    {
+      "nombre": "Camiseta",
+      "cantidad": 3,
+      "precio": 43
+    },
+    {
+      "nombre": "Pantalon",
+      "cantidad": 2,
+      "precio": 23
+    },
+    {
+      "nombre": "Calcetines",
+      "cantidad": 3,
+      "precio": 33
+    },
+    {
+      "nombre": "Bufanda",
+      "cantidad": 4,
+      "precio": 13
+    }
+  ]
+}]
+```
+
 
 <a id="sistemas-gestores-de-bases-de-datos-no-relacionales"></a>
 ## Sistemas gestores de bases de datos no relacionales
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/007-Uso%20de%20bases%20de%20datos%20no%20relacionales/004-Sistemas%20gestores%20de%20bases%20de%20datos%20no%20relacionales)
+
 
 <a id="herramientas-de-los-sistemas-gestores-de-bases-de-datos-no-relacionales-para-la-gestion-de-la-informacion-almacenada"></a>
 ## Herramientas de los sistemas gestores de bases de datos no relacionales para la gestión de la información almacenada
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/007-Uso%20de%20bases%20de%20datos%20no%20relacionales/005-Herramientas%20de%20los%20sistemas%20gestores%20de%20bases%20de%20datos%20no%20relacionales%20para%20la%20gesti%C3%B3n%20de%20la%20informaci%C3%B3n%20almacenada)
 
 
 
@@ -19583,8 +20470,150 @@ Esta carpeta contiene una serie de ejercicios diseñados para ayudarte a entende
 <a id="proyecto-tienda-online"></a>
 ## proyecto tienda online
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/008-Proyectos/001-proyecto%20tienda%20online)
+
+### Introducción a los ejercicios
+
+Based on the provided files, I'll create a SQL script to populate the database with the given data.
+
+**Table creation and insert statements**
+
+```sql
+-- Create tables if not exist
+CREATE TABLE IF NOT EXISTS cliente (
+  id INT AUTO_INCREMENT,
+  nombre VARCHAR(255),
+  apellidos VARCHAR(255),
+  email VARCHAR(255) UNIQUE,
+  PRIMARY KEY (id)
+);
+
+CREATE TABLE IF NOT EXISTS producto (
+  id INT AUTO_INCREMENT,
+  titulo VARCHAR(255),
+  descripcion TEXT,
+  precio DECIMAL(10,2),
+  imagen VARCHAR(255),
+  PRIMARY KEY (id)
+);
+
+CREATE TABLE IF NOT EXISTS pedido (
+  id INT AUTO_INCREMENT,
+  fecha DATE,
+  cliente_id INT,
+  PRIMARY KEY (id),
+  FOREIGN KEY (cliente_id) REFERENCES cliente(id)
+);
+
+CREATE TABLE IF NOT EXISTS lineapedido (
+  id INT AUTO_INCREMENT,
+  pedido_id INT,
+  producto_id INT,
+  cantidad VARCHAR(10),
+  PRIMARY KEY (id),
+  FOREIGN KEY (pedido_id) REFERENCES pedido(id),
+  FOREIGN KEY (producto_id) REFERENCES producto(id)
+);
+
+-- Insert data
+INSERT INTO cliente (nombre, apellidos, email)
+VALUES 
+('Laura', 'Martínez López', 'laura@example.com'),
+('Carlos', 'Gómez Ruiz', 'carlos@example.com'),
+('María', 'Serrano Díaz', 'maria@example.com'),
+('Jorge', 'Pérez Sánchez', 'jorge@example.com'),
+('Elena', 'Ruiz Navarro', 'elena@example.com');
+
+INSERT INTO producto (titulo, descripcion, precio, imagen)
+VALUES 
+('Camiseta Azul', 'Camiseta de algodón talla M', 19.99, 'camiseta_azul.jpg'),
+('Pantalón Negro', 'Pantalón vaquero negro unisex', 39.90, 'pantalon_negro.jpg'),
+('Sudadera Roja', 'Sudadera con capucha talla L', 29.95, 'sudadera_roja.jpg'),
+('Zapatillas Deportivas', 'Calzado deportivo ligero', 59.99, 'zapatillas.jpg'),
+('Gorra Negra', 'Gorra ajustable con visera', 12.50, 'gorra_negra.jpg'),
+('Calcetines Técnicos', 'Pack de 3 pares', 8.99, 'calcetines.jpg'),
+('Chaqueta Impermeable', 'Chaqueta cortavientos unisex', 79.99, 'chaqueta.jpg');
+
+INSERT INTO pedido (fecha, cliente_id)
+VALUES 
+('2025-02-01', 1),
+('2025-02-02', 3),
+('2025-02-02', 2),
+('2025-02-03', 5),
+('2025-02-04', 1),
+('2025-02-05', 4),
+('2025-02-06', 2),
+('2025-02-07', 3);
+
+INSERT INTO lineapedido (pedido_id, producto_id, cantidad)
+VALUES 
+-- Pedido 1
+(1, 1, '2'),
+(1, 5, '1'),
+(1, 6, '3'),
+
+-- Pedido 2
+(4, 3, '1'),
+(4, 4, '1'),
+
+-- Pedido 3
+(6, 2, '2'),
+(6, 6, '1'),
+
+-- Pedido 4
+(8, 7, '1'),
+(8, 5, '2'),
+
+-- Pedido 5
+(10, 1, '1'),
+(10, 2, '1'),
+(10, 3, '1'),
+
+-- Pedido 6
+(13, 4, '1'),
+
+-- Pedido 7
+(14, 6, '4'),
+(14, 1, '2'),
+
+-- Pedido 8
+(16, 7, '1'),
+(16, 3, '2'),
+(16, 5, '1');
+```
+
+This script creates the necessary tables and inserts the provided data into each table. Note that I've used `AUTO_INCREMENT` to set the primary keys for each table, assuming that you want the database to automatically increment the IDs.
+
+**User creation**
+
+```sql
+-- Create user
+CREATE USER IF NOT EXISTS 'tiendadam'@'localhost' IDENTIFIED BY 'Tiendadam123$';
+
+-- Grant privileges
+GRANT USAGE ON *.* TO 'tiendadam'@'localhost';
+
+ALTER USER 'tiendadam'@'localhost' REQUIRE NONE;
+
+GRANT ALL PRIVILEGES ON `tiendadam`.* TO 'tiendadam'@'localhost';
+
+FLUSH PRIVILEGES;
+```
+
+This script creates a new user with the specified username and password, grants the necessary privileges to the user, and flushes the privilege cache.
+
 ### pantalla de confirmacion
 <small>Creado: 2025-12-11 14:56</small>
+
+#### Explicación
+
+Este código es una página web básica creada en PHP, que simula un sitio de tienda online. La página tiene diferentes secciones y respuestas dependiendo del parámetro de GET llamado "operacion".
+
+Cuando el usuario accede a la página, PHP compara el valor del parámetro "operacion" con los valores permitidos: "producto", "carrito" o "finalizacion". En función de este valor, se muestra una sección diferente en la página.
+
+Por ejemplo, si el valor es "producto", se muestra un artículo de tienda con imagen, nombre y descripción del producto, así como un botón para comprar. Si el valor es "carrito", se muestra una pantalla de finalización donde se muestra la lista de productos comprados y un botón para confirmar la compra.
+
+El código también utiliza una estructura CSS para dar estilos a la página y hacerla más visualmente atractiva.
 
 `011-pantalla de confirmacion.php`
 
@@ -19692,6 +20721,12 @@ Esta carpeta contiene una serie de ejercicios diseñados para ayudarte a entende
 
 ### diagrama
 <small>Creado: 2025-12-11 15:03</small>
+
+#### Explicación
+
+Este fragmento de código HTML representa un diagrama ER (Entidades Relacionales) en formato de gráficos interactivos utilizando SVG (Scalable Vector Graphics). Un diagrama ER es una representación visual de las relaciones entre diferentes entidades y atributos de una base de datos.
+
+En este caso, el código utiliza CSS para definir estilos específicos a cada elemento del diagrama, como la forma, el tamaño y la posición. Cada entidad (Producto, Cliente, Pedido, LineaPedido) se representa como un rectángulo con diferentes colores y patrones, mientras que las relaciones entre ellas se representan mediante flechas.
 
 `diagrama.html`
 
@@ -20024,6 +21059,18 @@ body {
 ### diagrama
 <small>Creado: 2025-12-11 15:03</small>
 
+#### Explicación
+
+Este archivo JSON representa un diagrama de objetos relacionados en una base de datos. En primer lugar, debemos entender qué es un diagrama de objetos y su propósito.
+
+Un diagrama de objetos es una herramienta visual utilizada para describir la estructura de una base de datos y las relaciones entre sus tablas o entidades. Se compone de objetos que representan tablas de la base de datos, y relaciones entre estos objetos que indican cómo se relacionan las tablas.
+
+En este caso específico, el diagrama representa cuatro entidades: Producto, Cliente, Pedido y LineaPedido. Cada entidad tiene sus propias columnas o propiedades, como id, titulo, descripcion, precio, imagen, nombre, apellidos, fecha, cliente_id, pedido_id, producto_id, cantidad, etc.
+
+Las flechas en el diagrama indican las relaciones entre estas entidades. Por ejemplo, la primera flecha conecta Cliente con Pedido, indicando que un pedido está asociado a un cliente específico. La segunda flecha conecta Pedido con LineaPedido, y la tercera flecha conecta Producto con LineaPedido.
+
+En resumen, este archivo JSON describe el esqueleto de una base de datos en la que se relacionan diferentes entidades como productos, clientes, pedidos y líneas de pedido.
+
 `diagrama.json`
 
 ```json
@@ -20188,6 +21235,25 @@ body {
 ### diagrama
 <small>Creado: 2025-12-11 16:10</small>
 
+#### Explicación
+
+**Creación de tablas en SQL**
+
+El código proporcionado es un ejemplo de cómo se pueden crear tres tablas en una base de datos utilizando el lenguaje SQL: `producto`, `cliente` y `pedido`. Estas tablas están relacionadas entre sí, lo que permite almacenar y recuperar datos de manera eficiente.
+
+**¿Qué hace el código?**
+
+El código crea las siguientes tablas:
+
+*   `producto`: Almacena información sobre los productos, como título, descripción, precio, imagen y un identificador único (`id`) que sirve como clave primaria.
+*   `cliente`: Almacena información sobre los clientes, como nombre, apellidos y dirección de correo electrónico (email), junto con un identificador único (`id`).
+*   `pedido`: Almacena información sobre los pedidos, incluyendo la fecha de realización del pedido, el identificador del cliente que lo realizó (`cliente_id`) y un identificador único (`id`). Esta tabla está relacionada con la tabla `cliente` mediante una relación de clave foránea.
+*   `lineapedido`: Almacena información sobre las líneas de los pedidos, incluyendo el identificador del pedido (`pedido_id`), el identificador del producto (`producto_id`) y la cantidad solicitada. Esta tabla está relacionada con las tablas `pedido` y `producto` mediante relaciones de clave foránea.
+
+**¿Por qué es importante?**
+
+La creación de estas tablas permite diseñar una base de datos estructurada que puede almacenar y recuperar información de manera eficiente. Las claves foráneas establecen la relación entre las tablas, lo que facilita la consulta de datos relacionados entre sí. Esto es especialmente útil en aplicaciones comerciales o de servicios donde se necesitan almacenar y gestionar datos de clientes, pedidos y productos.
+
 `diagrama.sql`
 
 ```sql
@@ -20243,6 +21309,14 @@ CREATE TABLE lineapedido (
 
 ### diagrama
 <small>Creado: 2025-12-11 15:03</small>
+
+#### Explicación
+
+Este fragmento de código es una representación gráfica en SVG (Scalable Vector Graphics) que muestra un diagrama de relación entre diferentes entidades, como productos, clientes y pedidos. 
+
+El código utiliza elementos como rectángulos, líneas y textos para crear el diagrama. El uso de clases CSS dentro del elemento `<defs>` permite establecer estilos para los diferentes elementos del diagrama, lo que facilita su personalización.
+
+Este fragmento es importante porque proporciona una visión general de cómo se pueden representar las relaciones entre entidades en un sistema de gestión de inventario.
 
 `diagrama.svg`
 
@@ -20305,6 +21379,20 @@ CREATE TABLE lineapedido (
 
 ### insercion
 <small>Creado: 2025-12-11 15:08</small>
+
+#### Explicación
+
+**Insertar datos en una base de datos**
+
+El código que hemos visto es un ejemplo de cómo insertar datos en una base de datos utilizando el lenguaje SQL. En este caso, estamos creando tres tablas: `cliente`, `producto` y `pedido`.
+
+La primera instrucción `INSERT INTO cliente...` inserta cinco registros en la tabla `cliente`: cada registro tiene como identificador único un número (`id`) y contiene información personal del cliente (`nombre`, `apellidos` y `email`). Esto permite almacenar información sobre los clientes de manera estructurada.
+
+La segunda instrucción `INSERT INTO producto...` hace lo mismo que la primera, pero esta vez para la tabla `producto`. Estos registros también contienen una descripción del producto y su precio. También hay imágenes asociadas a cada uno de ellos.
+
+La tercera instrucción `INSERT INTO pedido...` inserta ocho registros en la tabla `pedido`, cada uno relacionado con un cliente específico (`cliente_id`). Cada registro contiene la fecha del pedido y no tiene otro dato adicional.
+
+Finalmente, la cuarta instrucción `INSERT INTO lineapedido...` crea nueve registros en la tabla `lineapedido`. Este registro se relaciona con una orden de compra (`pedido_id`) y establece la cantidad de cada producto que se ha pedido.
 
 `insercion.sql`
 
@@ -20376,6 +21464,25 @@ INSERT INTO lineapedido (id, pedido_id, producto_id, cantidad) VALUES
 ### usuario
 <small>Creado: 2025-12-11 15:23</small>
 
+#### Explicación
+
+**Crea un usuario y le asigna privilegios en la base de datos**
+
+Este fragmento de código se utiliza para crear un nuevo usuario en una base de datos MySQL y asignarle privilegios para interactuar con ella. El código crea un usuario llamado "tiendadam" que se conectará a la base de datos desde el localhost.
+
+**¿Qué hace este código?**
+
+El código tiene varias partes importantes:
+
+*   **Crea un usuario**: Se utiliza el comando `CREATE USER` para crear un nuevo usuario en la base de datos. En este caso, se crea un usuario llamado "tiendadam" que se conectará desde el localhost.
+*   **Asigna privilegios**: El comando `GRANT` permite asignar privilegios al usuario creado. En este caso, se otorgan los siguientes privilegios:
+    *   `USAGE ON *.* TO 'tiendadam'@'localhost';`: Permite que el usuario utilice la base de datos para realizar consultas y operaciones.
+    *   `GRANT ALL PRIVILEGES ON `tiendadam`.* TO 'tiendadam'@'localhost';`: Asigna todos los privilegios posibles al usuario, lo que significa que puede realizar cualquier operación en la base de datos.
+*   **Establece restricciones**: El comando `ALTER USER` permite establecer restricciones al usuario creado. En este caso, se establecen las siguientes restricciones:
+    *   `REQUIRE NONE`: Permite que el usuario realice todas las operaciones sin restricción alguna.
+    *   `WITH MAX_QUERIES_PER_HOUR 0`, `MAX_CONNECTIONS_PER_HOUR 0`, `MAX_UPDATES_PER_HOUR 0` y `MAX_USER_CONNECTIONS 0`: Establecen límites para el número de consultas, conexiones, actualizaciones y usuarios que puede realizar el usuario.
+*   **Flush**: El comando `FLUSH PRIVILEGES` es necesario para aplicar los cambios en la base de datos.
+
 `usuario.sql`
 
 ```sql
@@ -20398,6 +21505,1484 @@ TO 'tiendadam'@'localhost';
 FLUSH PRIVILEGES;
 ```
 
+### Actividades propuestas
+
+Estos archivos parecen ser parte de una base de datos MySQL relacionada con un sistema de tienda en línea. Se presentan los siguientes files:
+
+1.  ** ARCHIVO: schema.sql **: Este archivo contiene el esquema de la base de datos, que define las tablas y sus columnas. En este caso, se crean tablas para clientes (`cliente`), productos (`producto`), pedidos (`pedido`) y líneas de pedido (`lineapedido`). 
+2.  ** ARCHIVO: data.sql **: Este archivo contiene los datos de inicialización de la base de datos. Se insertan los valores iniciales en las tablas creadas anteriormente, como clientes, productos, pedidos y líneas de pedido.
+3.  ** ARCHIVO: usuarios.sql **: Este archivo contiene el script para crear un usuario nuevo llamado `tiendadam` con todas las permisiones necesarias para interactuar con la base de datos. El script también define algunas restricciones adicionales, como limitar el número máximo de consultas y conexiones por hora.
+4.  ** ARCHIVO: insertion.sql **: Este archivo contiene los scripts de inserción de datos en las tablas de productos y pedidos, pero parece haber un error en el script de inserción porque no hay una línea de pedido completa.
+5.  ** ARCHIVO: imagen.jpg, camiseta_azul.jpg, pantalon_negro.jpg, sudadera_roja.jpg, zapatillas.jpg, gorra_negra.jpg, calcetines.jpg, chaqueta.jpg**: Se supone que estos archivos contienen las imágenes correspondientes a los productos, pero no están presentes en el directorio proporcionado.
+
+En resumen, este conjunto de archivos es una base de datos completa para un sistema de tienda en línea con características como clientes, productos, pedidos y líneas de pedido.
+
+
+<a id="ia-para-dietetica"></a>
+## IA para dietetica
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/008-Proyectos/002-IA%20para%20dietetica)
+
+### llamada desde PHP
+<small>Creado: 2025-12-23 14:33</small>
+
+`002-llamada desde PHP.php`
+
+```
+<?php
+function h($s): string { return htmlspecialchars((string)$s, ENT_QUOTES, 'UTF-8'); }
+
+$defaultPrompt = "Mira tengo manzana, yogur, tengo salmon y tengo agua, qué plato saludable puedo preparar? Dime solo uno";
+$model   = $_POST["model"]   ?? "llama3:latest";
+$prompt  = $_POST["prompt"]  ?? $defaultPrompt;
+$baseUrl = $_POST["baseUrl"] ?? "http://127.0.0.1:11434"; // Ollama server
+
+$result = null;
+
+if ($_SERVER["REQUEST_METHOD"] === "POST") {
+  $prompt = trim($prompt);
+  if ($prompt === "") $prompt = $defaultPrompt;
+
+  $payload = [
+    "model"  => $model,
+    "prompt" => $prompt,
+    "stream" => false
+  ];
+
+  $url = rtrim($baseUrl, "/") . "/api/generate";
+
+  $ch = curl_init($url);
+  curl_setopt_array($ch, [
+    CURLOPT_POST           => true,
+    CURLOPT_RETURNTRANSFER => true,
+    CURLOPT_HTTPHEADER     => ["Content-Type: application/json"],
+    CURLOPT_POSTFIELDS     => json_encode($payload, JSON_UNESCAPED_UNICODE),
+    CURLOPT_CONNECTTIMEOUT => 5,
+    CURLOPT_TIMEOUT        => 90,
+  ]);
+
+  $raw = curl_exec($ch);
+  $httpCode = (int)curl_getinfo($ch, CURLINFO_HTTP_CODE);
+  $curlErr  = curl_error($ch);
+  curl_close($ch);
+
+  if ($raw === false) {
+    $result = ["ok" => false, "err" => "cURL error: " . $curlErr, "out" => ""];
+  } elseif ($httpCode < 200 || $httpCode >= 300) {
+    $result = ["ok" => false, "err" => "HTTP $httpCode\n$raw", "out" => ""];
+  } else {
+    $json = json_decode($raw, true);
+    if (!is_array($json)) {
+      $result = ["ok" => false, "err" => "Respuesta no-JSON:\n$raw", "out" => ""];
+    } else {
+      // Ollama devuelve normalmente {"response": "...", "done": true, ...}
+      $result = ["ok" => true, "out" => (string)($json["response"] ?? ""), "err" => ""];
+    }
+  }
+}
+?>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ollama Web (PHP → HTTP API)</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,sans-serif;max-width:900px;margin:40px auto;padding:0 16px;line-height:1.4}
+    .card{border:1px solid #e5e5e5;border-radius:12px;padding:16px;margin:16px 0}
+    label{display:block;font-weight:600;margin:10px 0 6px}
+    textarea,input{width:100%;padding:10px;border:1px solid #d6d6d6;border-radius:10px;font:inherit}
+    textarea{min-height:140px}
+    button{padding:10px 14px;border:0;border-radius:10px;cursor:pointer;font-weight:600}
+    .row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    pre{white-space:pre-wrap;word-wrap:break-word;background:#0b0b0b;color:#f1f1f1;padding:12px;border-radius:12px;overflow:auto}
+    .err{background:#fff3f3;border:1px solid #ffd0d0;color:#7a0000;padding:12px;border-radius:12px}
+    @media (max-width:700px){.row{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+
+<h1>Ollama Web (PHP → HTTP API)</h1>
+
+<div class="card">
+  <form method="post">
+    <div class="row">
+      <div>
+        <label for="model">Modelo</label>
+        <input id="model" name="model" value="<?=h($model)?>" placeholder="llama3:latest">
+      </div>
+      <div>
+        <label for="baseUrl">Ollama URL</label>
+        <input id="baseUrl" name="baseUrl" value="<?=h($baseUrl)?>" placeholder="http://127.0.0.1:11434">
+      </div>
+    </div>
+
+    <label for="prompt">Prompt</label>
+    <textarea id="prompt" name="prompt"><?=h($prompt)?></textarea>
+
+    <div style="margin-top:12px;">
+      <button type="submit">Preguntar</button>
+    </div>
+  </form>
+</div>
+
+<?php if ($result !== null): ?>
+  <div class="card">
+    <h2>Respuesta</h2>
+    <?php if (!$result["ok"]): ?>
+      <div class="err"><?=nl2br(h($result["err"]))?></div>
+    <?php else: ?>
+      <pre><?=h($result["out"])?></pre>
+    <?php endif; ?>
+  </div>
+<?php endif; ?>
+
+<div class="card">
+  <small>
+    Si esto te da HTTP 404/connection refused, el problema no es PHP: es que Ollama no está escuchando en esa URL/puerto
+    o no permite conexiones desde el contexto donde corre Apache.
+  </small>
+</div>
+
+</body>
+</html>
+```
+
+### cerrar prompt
+<small>Creado: 2025-12-23 14:33</small>
+
+`003-cerrar prompt.php`
+
+```
+<?php
+function h($s): string { return htmlspecialchars((string)$s, ENT_QUOTES, 'UTF-8'); }
+
+$defaultPrompt = "";
+$model   = $_POST["model"]   ?? "llama3:latest";
+$prompt  = $_POST["prompt"]  ?? $defaultPrompt;
+$baseUrl = $_POST["baseUrl"] ?? "http://127.0.0.1:11434"; // Ollama server
+
+$result = null;
+
+if ($_SERVER["REQUEST_METHOD"] === "POST") {
+  $prompt = trim("Eres un consejero dietético. El usuario te va a proporcionar una serie de ingrediente que tiene un nevera. Debes elaborar una receta dietética, lo más saludable y sabrosa posible, con los ingredientes que el usuario te proporcione, que son estos: ".$prompt);
+  if ($prompt === "") $prompt = $defaultPrompt;
+
+  $payload = [
+    "model"  => $model,
+    "prompt" => $prompt,
+    "stream" => false
+  ];
+
+  $url = rtrim($baseUrl, "/") . "/api/generate";
+
+  $ch = curl_init($url);
+  curl_setopt_array($ch, [
+    CURLOPT_POST           => true,
+    CURLOPT_RETURNTRANSFER => true,
+    CURLOPT_HTTPHEADER     => ["Content-Type: application/json"],
+    CURLOPT_POSTFIELDS     => json_encode($payload, JSON_UNESCAPED_UNICODE),
+    CURLOPT_CONNECTTIMEOUT => 5,
+    CURLOPT_TIMEOUT        => 90,
+  ]);
+
+  $raw = curl_exec($ch);
+  $httpCode = (int)curl_getinfo($ch, CURLINFO_HTTP_CODE);
+  $curlErr  = curl_error($ch);
+  curl_close($ch);
+
+  if ($raw === false) {
+    $result = ["ok" => false, "err" => "cURL error: " . $curlErr, "out" => ""];
+  } elseif ($httpCode < 200 || $httpCode >= 300) {
+    $result = ["ok" => false, "err" => "HTTP $httpCode\n$raw", "out" => ""];
+  } else {
+    $json = json_decode($raw, true);
+    if (!is_array($json)) {
+      $result = ["ok" => false, "err" => "Respuesta no-JSON:\n$raw", "out" => ""];
+    } else {
+      // Ollama devuelve normalmente {"response": "...", "done": true, ...}
+      $result = ["ok" => true, "out" => (string)($json["response"] ?? ""), "err" => ""];
+    }
+  }
+}
+?>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ollama Web (PHP → HTTP API)</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,sans-serif;max-width:900px;margin:40px auto;padding:0 16px;line-height:1.4}
+    .card{border:1px solid #e5e5e5;border-radius:12px;padding:16px;margin:16px 0}
+    label{display:block;font-weight:600;margin:10px 0 6px}
+    textarea,input{width:100%;padding:10px;border:1px solid #d6d6d6;border-radius:10px;font:inherit}
+    textarea{min-height:140px}
+    button{padding:10px 14px;border:0;border-radius:10px;cursor:pointer;font-weight:600}
+    .row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    pre{white-space:pre-wrap;word-wrap:break-word;background:#0b0b0b;color:#f1f1f1;padding:12px;border-radius:12px;overflow:auto}
+    .err{background:#fff3f3;border:1px solid #ffd0d0;color:#7a0000;padding:12px;border-radius:12px}
+    @media (max-width:700px){.row{grid-template-columns:1fr}}
+    .row{display:none;}
+  </style>
+</head>
+<body>
+
+<h1>Ollama Web (PHP → HTTP API)</h1>
+
+<div class="card">
+  <form method="post">
+    <div class="row">
+      <div>
+        <label for="model">Modelo</label>
+        <input id="model" name="model" value="<?=h($model)?>" placeholder="llama3:latest">
+      </div>
+      <div>
+        <label for="baseUrl">Ollama URL</label>
+        <input id="baseUrl" name="baseUrl" value="<?=h($baseUrl)?>" placeholder="http://127.0.0.1:11434">
+      </div>
+    </div>
+    <p>Vamos a crear recetas saludables - a continuación indica los alimentos que tienes en la nevera<br>
+    La inteligencia artificial te creará recetas saludables con ellos.</p>
+    <label for="prompt">Indica qué alimentos tienes en tu cocina:</label>
+    <textarea id="prompt" name="prompt"><?=h($prompt)?></textarea>
+
+    <div style="margin-top:12px;">
+      <button type="submit">Preguntar</button>
+    </div>
+  </form>
+</div>
+
+<?php if ($result !== null): ?>
+  <div class="card">
+    <h2>Respuesta</h2>
+    <?php if (!$result["ok"]): ?>
+      <div class="err"><?=nl2br(h($result["err"]))?></div>
+    <?php else: ?>
+      <pre><?=h($result["out"])?></pre>
+    <?php endif; ?>
+  </div>
+<?php endif; ?>
+
+<div class="card">
+  <small>
+    Si esto te da HTTP 404/connection refused, el problema no es PHP: es que Ollama no está escuchando en esa URL/puerto
+    o no permite conexiones desde el contexto donde corre Apache.
+  </small>
+</div>
+
+</body>
+</html>
+```
+
+### aconsejador de equipos informaticos
+<small>Creado: 2025-12-23 14:33</small>
+
+`004-aconsejador de equipos informaticos.php`
+
+```
+<?php
+function h($s): string { return htmlspecialchars((string)$s, ENT_QUOTES, 'UTF-8'); }
+
+$defaultPrompt = "";
+$model   = $_POST["model"]   ?? "llama3:latest";
+$prompt  = $_POST["prompt"]  ?? $defaultPrompt;
+$baseUrl = $_POST["baseUrl"] ?? "http://127.0.0.1:11434"; // Ollama server
+
+$result = null;
+
+if ($_SERVER["REQUEST_METHOD"] === "POST") {
+  $prompt = trim("Eres un consejero informático. El usuario te va a indicar el presupuesto económico que tiene, y para qué quiere usar su ordenador. Debes detallar los componentes que el usuario debe adquirir, su precio aproximado y luego la suma del total (importante - calcula realmente el total de la suma de los componentes): ".$prompt);
+  if ($prompt === "") $prompt = $defaultPrompt;
+
+  $payload = [
+    "model"  => $model,
+    "prompt" => $prompt,
+    "stream" => false
+  ];
+
+  $url = rtrim($baseUrl, "/") . "/api/generate";
+
+  $ch = curl_init($url);
+  curl_setopt_array($ch, [
+    CURLOPT_POST           => true,
+    CURLOPT_RETURNTRANSFER => true,
+    CURLOPT_HTTPHEADER     => ["Content-Type: application/json"],
+    CURLOPT_POSTFIELDS     => json_encode($payload, JSON_UNESCAPED_UNICODE),
+    CURLOPT_CONNECTTIMEOUT => 5,
+    CURLOPT_TIMEOUT        => 90,
+  ]);
+
+  $raw = curl_exec($ch);
+  $httpCode = (int)curl_getinfo($ch, CURLINFO_HTTP_CODE);
+  $curlErr  = curl_error($ch);
+  curl_close($ch);
+
+  if ($raw === false) {
+    $result = ["ok" => false, "err" => "cURL error: " . $curlErr, "out" => ""];
+  } elseif ($httpCode < 200 || $httpCode >= 300) {
+    $result = ["ok" => false, "err" => "HTTP $httpCode\n$raw", "out" => ""];
+  } else {
+    $json = json_decode($raw, true);
+    if (!is_array($json)) {
+      $result = ["ok" => false, "err" => "Respuesta no-JSON:\n$raw", "out" => ""];
+    } else {
+      // Ollama devuelve normalmente {"response": "...", "done": true, ...}
+      $result = ["ok" => true, "out" => (string)($json["response"] ?? ""), "err" => ""];
+    }
+  }
+}
+?>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ollama Web (PHP → HTTP API)</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,sans-serif;max-width:900px;margin:40px auto;padding:0 16px;line-height:1.4}
+    .card{border:1px solid #e5e5e5;border-radius:12px;padding:16px;margin:16px 0}
+    label{display:block;font-weight:600;margin:10px 0 6px}
+    textarea,input{width:100%;padding:10px;border:1px solid #d6d6d6;border-radius:10px;font:inherit}
+    textarea{min-height:140px}
+    button{padding:10px 14px;border:0;border-radius:10px;cursor:pointer;font-weight:600}
+    .row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    pre{white-space:pre-wrap;word-wrap:break-word;background:#0b0b0b;color:#f1f1f1;padding:12px;border-radius:12px;overflow:auto}
+    .err{background:#fff3f3;border:1px solid #ffd0d0;color:#7a0000;padding:12px;border-radius:12px}
+    @media (max-width:700px){.row{grid-template-columns:1fr}}
+    .row{display:none;}
+  </style>
+</head>
+<body>
+
+<h1>Ollama Web (PHP → HTTP API)</h1>
+
+<div class="card">
+  <form method="post">
+    <div class="row">
+      <div>
+        <label for="model">Modelo</label>
+        <input id="model" name="model" value="<?=h($model)?>" placeholder="llama3:latest">
+      </div>
+      <div>
+        <label for="baseUrl">Ollama URL</label>
+        <input id="baseUrl" name="baseUrl" value="<?=h($baseUrl)?>" placeholder="http://127.0.0.1:11434">
+      </div>
+    </div>
+    <p>Esta IA te va a ayudar a seleccionar los componentes de un ordenador.</p>
+    <label for="prompt">Indica qué presupuesto tienes y la finalidad de tu ordenador:</label>
+    <textarea id="prompt" name="prompt"><?=h($prompt)?></textarea>
+
+    <div style="margin-top:12px;">
+      <button type="submit">Preguntar</button>
+    </div>
+  </form>
+</div>
+
+<?php if ($result !== null): ?>
+  <div class="card">
+    <h2>Respuesta</h2>
+    <?php if (!$result["ok"]): ?>
+      <div class="err"><?=nl2br(h($result["err"]))?></div>
+    <?php else: ?>
+      <pre><?=h($result["out"])?></pre>
+    <?php endif; ?>
+  </div>
+<?php endif; ?>
+
+
+
+</body>
+</html>
+```
+
+### mejoras estéticas
+<small>Creado: 2025-12-23 14:33</small>
+
+`005-mejoras estéticas.php`
+
+```
+<?php
+function h($s): string { return htmlspecialchars((string)$s, ENT_QUOTES, 'UTF-8'); }
+
+/**
+ * Markdown -> HTML (seguro)
+ * - Escapa HTML primero (evita inyección)
+ * - Soporta: #..######, **bold**, *italic*, `code`, ```fenced code```, listas -, *, 1., párrafos
+ */
+function md_to_html_safe(string $md): string {
+  $md = str_replace(["\r\n", "\r"], "\n", $md);
+  $md = h($md);
+
+  // Fenced code blocks ```lang?\n...\n```
+  $md = preg_replace_callback('/```([a-zA-Z0-9_-]+)?\n([\s\S]*?)\n```/m', function($m){
+    $lang = trim((string)($m[1] ?? ""));
+    $code = (string)($m[2] ?? "");
+    $class = $lang !== "" ? ' class="language-'.h($lang).'"' : '';
+    return '<pre class="code"><code'.$class.'>'.$code.'</code></pre>';
+  }, $md);
+
+  // Headings
+  for ($i = 6; $i >= 1; $i--) {
+    $md = preg_replace('/^' . str_repeat('#', $i) . '\s+(.+)$/m', "<h$i>$1</h$i>", $md);
+  }
+
+  // Inline code
+  $md = preg_replace('/`([^`\n]+)`/', '<code class="inline">$1</code>', $md);
+
+  // Bold / italic (simple)
+  $md = preg_replace('/\*\*([^*\n]+)\*\*/', '<strong>$1</strong>', $md);
+  $md = preg_replace('/\*([^*\n]+)\*/', '<em>$1</em>', $md);
+
+  // Unordered lists (- or *)
+  $md = preg_replace_callback('/(?:^|\n)(?:- |\* ).+(?:\n(?:- |\* ).+)*/m', function($m){
+    $block = trim($m[0], "\n");
+    $lines = preg_split("/\n/", $block);
+    $items = [];
+    foreach ($lines as $ln) {
+      $ln = preg_replace('/^(?:- |\* )/', '', $ln);
+      $items[] = "<li>$ln</li>";
+    }
+    return "\n<ul>\n" . implode("\n", $items) . "\n</ul>\n";
+  }, $md);
+
+  // Ordered lists (1. 2. ...)
+  $md = preg_replace_callback('/(?:^|\n)(?:\d+\. ).+(?:\n(?:\d+\. ).+)*/m', function($m){
+    $block = trim($m[0], "\n");
+    $lines = preg_split("/\n/", $block);
+    $items = [];
+    foreach ($lines as $ln) {
+      $ln = preg_replace('/^\d+\. /', '', $ln);
+      $items[] = "<li>$ln</li>";
+    }
+    return "\n<ol>\n" . implode("\n", $items) . "\n</ol>\n";
+  }, $md);
+
+  // Paragraphs: split by blank lines, wrap non-blocks
+  $parts = preg_split("/\n{2,}/", $md);
+  $out = [];
+  foreach ($parts as $p) {
+    $p = trim($p);
+    if ($p === "") continue;
+
+    // If it starts with a block tag, keep as-is
+    if (preg_match('/^(<h[1-6]>|<ul>|<ol>|<pre\b)/', $p)) {
+      $out[] = $p;
+    } else {
+      // Preserve single newlines inside paragraphs
+      $p = preg_replace("/\n/", "<br>", $p);
+      $out[] = "<p>$p</p>";
+    }
+  }
+
+  return implode("\n", $out);
+}
+
+$defaultPrompt = "";
+$model   = $_POST["model"]   ?? "llama3:latest";
+$prompt  = $_POST["prompt"]  ?? $defaultPrompt;
+$baseUrl = $_POST["baseUrl"] ?? "http://127.0.0.1:11434"; // Ollama server
+
+$result = null;
+
+if ($_SERVER["REQUEST_METHOD"] === "POST") {
+  $prompt = trim("Eres un consejero informático. El usuario te va a indicar el presupuesto económico que tiene, y para qué quiere usar su ordenador. Debes detallar los componentes que el usuario debe adquirir, su precio aproximado y luego la suma del total (importante - calcula realmente el total de la suma de los componentes): ".$prompt);
+  if ($prompt === "") $prompt = $defaultPrompt;
+
+  $payload = [
+    "model"  => $model,
+    "prompt" => $prompt,
+    "stream" => false
+  ];
+
+  $url = rtrim($baseUrl, "/") . "/api/generate";
+
+  $ch = curl_init($url);
+  curl_setopt_array($ch, [
+    CURLOPT_POST           => true,
+    CURLOPT_RETURNTRANSFER => true,
+    CURLOPT_HTTPHEADER     => ["Content-Type: application/json"],
+    CURLOPT_POSTFIELDS     => json_encode($payload, JSON_UNESCAPED_UNICODE),
+    CURLOPT_CONNECTTIMEOUT => 5,
+    CURLOPT_TIMEOUT        => 90,
+  ]);
+
+  $raw = curl_exec($ch);
+  $httpCode = (int)curl_getinfo($ch, CURLINFO_HTTP_CODE);
+  $curlErr  = curl_error($ch);
+  curl_close($ch);
+
+  if ($raw === false) {
+    $result = ["ok" => false, "err" => "cURL error: " . $curlErr, "out" => ""];
+  } elseif ($httpCode < 200 || $httpCode >= 300) {
+    $result = ["ok" => false, "err" => "HTTP $httpCode\n$raw", "out" => ""];
+  } else {
+    $json = json_decode($raw, true);
+    if (!is_array($json)) {
+      $result = ["ok" => false, "err" => "Respuesta no-JSON:\n$raw", "out" => ""];
+    } else {
+      $result = ["ok" => true, "out" => (string)($json["response"] ?? ""), "err" => ""];
+    }
+  }
+}
+?>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ollama Web (PHP → HTTP API)</title>
+  <style>
+    :root{
+      --bg: #0b1020;
+      --panel: rgba(255,255,255,.06);
+      --panel2: rgba(255,255,255,.08);
+      --border: rgba(255,255,255,.12);
+      --text: rgba(255,255,255,.92);
+      --muted: rgba(255,255,255,.68);
+      --accent: #7dd3fc; /* cyan-300 */
+      --accent2: #a78bfa; /* violet-400 */
+      --dangerBg: rgba(255,80,80,.12);
+      --dangerBorder: rgba(255,80,80,.35);
+      --dangerText: #ffd6d6;
+      --shadow: 0 20px 60px rgba(0,0,0,.45);
+      --radius: 16px;
+    }
+
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif;
+      background:
+        radial-gradient(1200px 700px at 10% 10%, rgba(125,211,252,.14), transparent 55%),
+        radial-gradient(1000px 650px at 85% 20%, rgba(167,139,250,.12), transparent 60%),
+        radial-gradient(900px 600px at 40% 95%, rgba(34,197,94,.08), transparent 55%),
+        var(--bg);
+      color: var(--text);
+    }
+
+    .app{
+      height:100vh;
+      width:100vw;
+      display:grid;
+      grid-template-columns: minmax(340px, 420px) 1fr;
+      gap: 14px;
+      padding: 14px;
+    }
+
+    .panel{
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow:hidden;
+      display:flex;
+      flex-direction:column;
+      min-height:0;
+    }
+
+    .panelHeader{
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--border);
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap: 10px;
+      background: linear-gradient(to bottom, rgba(255,255,255,.06), rgba(255,255,255,.03));
+    }
+
+    .brand{
+      display:flex; align-items:center; gap:10px;
+      min-width:0;
+    }
+    .dot{
+      width:12px;height:12px;border-radius:999px;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      box-shadow: 0 0 0 4px rgba(125,211,252,.12);
+      flex: 0 0 auto;
+    }
+    .brand h1{
+      font-size: 14px;
+      margin:0;
+      letter-spacing:.2px;
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+    }
+    .brand p{
+      margin:0;
+      font-size: 12px;
+      color: var(--muted);
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+    }
+
+    .toolbar{
+      display:flex; gap:8px; align-items:center;
+      flex: 0 0 auto;
+    }
+
+    .btn{
+      appearance:none;
+      border:1px solid var(--border);
+      background: rgba(255,255,255,.06);
+      color: var(--text);
+      padding: 10px 12px;
+      border-radius: 12px;
+      cursor:pointer;
+      font-weight: 650;
+      transition: transform .05s ease, background .15s ease, border-color .15s ease;
+      user-select:none;
+    }
+    .btn:hover{background: rgba(255,255,255,.10); border-color: rgba(255,255,255,.18)}
+    .btn:active{transform: translateY(1px)}
+    .btnPrimary{
+      border-color: rgba(125,211,252,.35);
+      background: linear-gradient(135deg, rgba(125,211,252,.18), rgba(167,139,250,.14));
+    }
+
+    .content{
+      padding: 14px 16px;
+      overflow:auto;
+      min-height:0;
+    }
+
+    label{
+      display:block;
+      margin: 12px 0 6px;
+      font-weight: 700;
+      font-size: 12px;
+      color: rgba(255,255,255,.80);
+      letter-spacing:.2px;
+    }
+
+    textarea, input{
+      width:100%;
+      background: rgba(0,0,0,.18);
+      border: 1px solid rgba(255,255,255,.14);
+      color: var(--text);
+      border-radius: 14px;
+      padding: 12px 12px;
+      font: inherit;
+      outline: none;
+      transition: border-color .15s ease, background .15s ease;
+    }
+    textarea:focus, input:focus{
+      border-color: rgba(125,211,252,.45);
+      background: rgba(0,0,0,.22);
+    }
+    textarea{min-height: 42vh; resize: vertical}
+
+    .hint{
+      margin: 10px 0 0;
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.45;
+    }
+
+    details{
+      margin-top: 12px;
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: 14px;
+      background: rgba(255,255,255,.04);
+      overflow:hidden;
+    }
+    summary{
+      cursor:pointer;
+      list-style:none;
+      padding: 12px 12px;
+      font-weight: 700;
+      font-size: 12px;
+      color: rgba(255,255,255,.85);
+    }
+    summary::-webkit-details-marker{display:none}
+    .settings{
+      padding: 0 12px 12px;
+      display:grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+
+    /* RIGHT PANEL (response) */
+    .responseWrap{
+      display:flex;
+      flex-direction:column;
+      min-height:0;
+    }
+
+    .responseBody{
+      padding: 14px 16px;
+      overflow:auto;
+      min-height:0;
+    }
+
+    .responseCard{
+      background: rgba(0,0,0,.55);
+      border: 1px solid rgba(255,255,255,.14);
+      border-radius: var(--radius);
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,.03);
+      overflow:hidden;
+    }
+
+    .responseHead{
+      padding: 12px 14px;
+      border-bottom: 1px solid rgba(255,255,255,.12);
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap: 10px;
+      background: linear-gradient(to bottom, rgba(255,255,255,.06), rgba(255,255,255,.02));
+    }
+
+    .responseTitle{
+      display:flex; align-items:center; gap:10px; min-width:0;
+    }
+    .badge{
+      font-size: 11px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,.16);
+      color: rgba(255,255,255,.82);
+      background: rgba(255,255,255,.06);
+      white-space:nowrap;
+    }
+
+    /* Markdown typography */
+    .md{
+      padding: 16px 16px 18px;
+      line-height: 1.65;
+      color: rgba(255,255,255,.92);
+      font-size: 15px;
+    }
+    .md h1,.md h2,.md h3,.md h4,.md h5,.md h6{
+      margin: 16px 0 10px;
+      line-height: 1.2;
+      letter-spacing:.2px;
+    }
+    .md h1{font-size: 22px}
+    .md h2{font-size: 18px}
+    .md h3{font-size: 16px}
+    .md p{margin: 10px 0}
+    .md ul,.md ol{margin: 10px 0 10px 22px}
+    .md li{margin: 6px 0}
+    .md strong{color: rgba(255,255,255,.98)}
+    .md em{color: rgba(255,255,255,.86)}
+    .md code.inline{
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      font-size: .95em;
+      padding: 2px 6px;
+      border-radius: 8px;
+      border: 1px solid rgba(255,255,255,.14);
+      background: rgba(255,255,255,.06);
+      color: rgba(255,255,255,.92);
+    }
+    .md pre.code{
+      margin: 12px 0;
+      padding: 12px 12px;
+      border-radius: 14px;
+      background: rgba(0,0,0,.55);
+      border: 1px solid rgba(255,255,255,.14);
+      overflow:auto;
+    }
+    .md pre.code code{
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      font-size: 13px;
+      white-space: pre;
+      display:block;
+      color: rgba(255,255,255,.90);
+    }
+
+    .emptyState{
+      height:100%;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding: 28px;
+      text-align:center;
+      color: var(--muted);
+    }
+    .emptyState .box{
+      max-width: 520px;
+      border: 1px dashed rgba(255,255,255,.18);
+      border-radius: var(--radius);
+      padding: 22px 18px;
+      background: rgba(255,255,255,.03);
+    }
+
+    .err{
+      margin: 14px 16px 16px;
+      background: var(--dangerBg);
+      border: 1px solid var(--dangerBorder);
+      color: var(--dangerText);
+      padding: 12px 12px;
+      border-radius: 14px;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+
+    /* Responsive */
+    @media (max-width: 980px){
+      .app{grid-template-columns: 1fr; height:auto; min-height:100vh}
+      textarea{min-height: 32vh}
+    }
+  </style>
+</head>
+<body>
+
+<div class="app">
+
+  <!-- LEFT: FORM -->
+  <section class="panel">
+    <div class="panelHeader">
+      <div class="brand">
+        <span class="dot" aria-hidden="true"></span>
+        <div style="min-width:0">
+          <h1>Ollama Web</h1>
+          <p>Componentes PC por presupuesto y uso</p>
+        </div>
+      </div>
+      <div class="toolbar">
+        <button class="btn" type="button" id="clearBtn" title="Limpiar formulario">Limpiar</button>
+        <button class="btn btnPrimary" type="button" id="submitBtn" title="Enviar consulta">Enviar</button>
+      </div>
+    </div>
+
+    <div class="content">
+      <form method="post" id="theForm">
+        <p class="hint">
+          Indica <strong>presupuesto</strong> (p. ej. 900€) y <strong>uso</strong> (ofimática, edición de vídeo, IA, gaming, etc.).
+          La respuesta se mostrará a la derecha con formato legible.
+        </p>
+
+        <label for="prompt">Tu petición</label>
+        <textarea id="prompt" name="prompt" placeholder="Ejemplo: Tengo 1200€ y lo quiero para edición de vídeo 4K y algo de gaming."><?=h($prompt)?></textarea>
+
+        <details>
+          <summary>Ajustes (modelo y URL)</summary>
+          <div class="settings">
+            <div>
+              <label for="model">Modelo</label>
+              <input id="model" name="model" value="<?=h($model)?>" placeholder="llama3:latest">
+            </div>
+            <div>
+              <label for="baseUrl">Ollama URL</label>
+              <input id="baseUrl" name="baseUrl" value="<?=h($baseUrl)?>" placeholder="http://127.0.0.1:11434">
+            </div>
+          </div>
+        </details>
+
+        <!-- submit real (hidden) -->
+        <button type="submit" style="display:none" aria-hidden="true" tabindex="-1"></button>
+      </form>
+    </div>
+  </section>
+
+  <!-- RIGHT: RESPONSE -->
+  <section class="panel responseWrap">
+    <div class="panelHeader">
+      <div class="brand">
+        <span class="dot" aria-hidden="true"></span>
+        <div style="min-width:0">
+          <h1>Respuesta</h1>
+          <p>Render Markdown → HTML</p>
+        </div>
+      </div>
+      <div class="toolbar">
+        <span class="badge"><?=h($model)?></span>
+      </div>
+    </div>
+
+    <div class="responseBody">
+      <div class="responseCard">
+        <div class="responseHead">
+          <div class="responseTitle">
+            <span class="badge">Salida</span>
+            <?php if ($result !== null): ?>
+              <span class="badge"><?= $result["ok"] ? "OK" : "ERROR" ?></span>
+            <?php else: ?>
+              <span class="badge">Sin consulta</span>
+            <?php endif; ?>
+          </div>
+          <button class="btn" type="button" id="copyBtn" title="Copiar respuesta">Copiar</button>
+        </div>
+
+        <?php if ($result === null): ?>
+          <div class="emptyState">
+            <div class="box">
+              Escribe tu presupuesto y el uso del ordenador en el panel izquierdo y pulsa <strong>Enviar</strong>.
+            </div>
+          </div>
+        <?php elseif (!$result["ok"]): ?>
+          <div class="err"><?=h($result["err"])?></div>
+        <?php else: ?>
+          <div class="md" id="mdOut">
+            <?= md_to_html_safe($result["out"]) ?>
+          </div>
+        <?php endif; ?>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<script>
+  const form = document.getElementById('theForm');
+  const submitBtn = document.getElementById('submitBtn');
+  const clearBtn  = document.getElementById('clearBtn');
+  const promptEl  = document.getElementById('prompt');
+  const copyBtn   = document.getElementById('copyBtn');
+
+  submitBtn.addEventListener('click', () => form.requestSubmit());
+
+  clearBtn.addEventListener('click', () => {
+    promptEl.value = '';
+    promptEl.focus();
+  });
+
+  copyBtn.addEventListener('click', async () => {
+    const mdOut = document.getElementById('mdOut');
+    if (!mdOut) return;
+    const text = mdOut.innerText;
+    try{
+      await navigator.clipboard.writeText(text);
+      copyBtn.textContent = 'Copiado';
+      setTimeout(() => copyBtn.textContent = 'Copiar', 900);
+    }catch(e){
+      copyBtn.textContent = 'No se pudo';
+      setTimeout(() => copyBtn.textContent = 'Copiar', 900);
+    }
+  });
+
+  // Si hay respuesta, sube al principio del panel derecho (mejor lectura)
+  const mdOut = document.getElementById('mdOut');
+  if (mdOut) {
+    mdOut.scrollIntoView({block:'start'});
+  }
+</script>
+
+</body>
+</html>
+```
+
+### interfaz clara
+<small>Creado: 2025-12-23 14:33</small>
+
+`006-interfaz clara.php`
+
+```
+<?php
+function h($s): string { return htmlspecialchars((string)$s, ENT_QUOTES, 'UTF-8'); }
+
+/**
+ * Markdown -> HTML (safe, minimal)
+ */
+function md_to_html_safe(string $md): string {
+  $md = str_replace(["\r\n", "\r"], "\n", $md);
+  $md = h($md);
+
+  // fenced code
+  $md = preg_replace_callback('/```([a-zA-Z0-9_-]+)?\n([\s\S]*?)\n```/m', function($m){
+    $lang = trim((string)($m[1] ?? ""));
+    $code = (string)($m[2] ?? "");
+    $class = $lang !== "" ? ' class="language-'.h($lang).'"' : '';
+    return '<pre class="code"><code'.$class.'>'.$code.'</code></pre>';
+  }, $md);
+
+  // headings
+  for ($i = 6; $i >= 1; $i--) {
+    $md = preg_replace('/^' . str_repeat('#', $i) . '\s+(.+)$/m', "<h$i>$1</h$i>", $md);
+  }
+
+  // inline code / bold / italic (simple)
+  $md = preg_replace('/`([^`\n]+)`/', '<code class="inline">$1</code>', $md);
+  $md = preg_replace('/\*\*([^*\n]+)\*\*/', '<strong>$1</strong>', $md);
+  $md = preg_replace('/\*([^*\n]+)\*/', '<em>$1</em>', $md);
+
+  // ul
+  $md = preg_replace_callback('/(?:^|\n)(?:- |\* ).+(?:\n(?:- |\* ).+)*/m', function($m){
+    $block = trim($m[0], "\n");
+    $lines = preg_split("/\n/", $block);
+    $items = [];
+    foreach ($lines as $ln) {
+      $ln = preg_replace('/^(?:- |\* )/', '', $ln);
+      $items[] = "<li>$ln</li>";
+    }
+    return "\n<ul>\n" . implode("\n", $items) . "\n</ul>\n";
+  }, $md);
+
+  // ol
+  $md = preg_replace_callback('/(?:^|\n)(?:\d+\. ).+(?:\n(?:\d+\. ).+)*/m', function($m){
+    $block = trim($m[0], "\n");
+    $lines = preg_split("/\n/", $block);
+    $items = [];
+    foreach ($lines as $ln) {
+      $ln = preg_replace('/^\d+\. /', '', $ln);
+      $items[] = "<li>$ln</li>";
+    }
+    return "\n<ol>\n" . implode("\n", $items) . "\n</ol>\n";
+  }, $md);
+
+  // paragraphs
+  $parts = preg_split("/\n{2,}/", $md);
+  $out = [];
+  foreach ($parts as $p) {
+    $p = trim($p);
+    if ($p === "") continue;
+
+    if (preg_match('/^(<h[1-6]>|<ul>|<ol>|<pre\b)/', $p)) {
+      $out[] = $p;
+    } else {
+      $p = preg_replace("/\n/", "<br>", $p);
+      $out[] = "<p>$p</p>";
+    }
+  }
+  return implode("\n", $out);
+}
+
+$defaultPrompt = "";
+$model   = $_POST["model"]   ?? "llama3:latest";
+$prompt  = $_POST["prompt"]  ?? $defaultPrompt;
+$baseUrl = $_POST["baseUrl"] ?? "http://127.0.0.1:11434";
+
+$result = null;
+
+if ($_SERVER["REQUEST_METHOD"] === "POST") {
+  $userPrompt = trim($prompt);
+  if ($userPrompt === "") $userPrompt = $defaultPrompt;
+
+  // Prompt reforzado: exige tabla con números + suma verificada
+  $systemPrompt = <<<TXT
+Eres un asesor informático. El usuario te dará un presupuesto y el uso del PC.
+
+Tu respuesta DEBE cumplir estas reglas:
+1) Propón una configuración por componentes (CPU, placa, RAM, GPU si aplica, SSD, PSU, caja, disipación si aplica).
+2) Para cada componente indica un precio aproximado en EUR como número (sin rangos; un único valor).
+3) Incluye una tabla final "DESGLOSE" con columnas: Componente | Modelo | Precio_EUR.
+4) Después incluye un bloque "SUMA" con:
+   - Lista de precios usados (solo números) en una línea.
+   - Total_EUR = suma exacta de esos números.
+5) Vuelve a comprobar la suma: repite el total en una segunda línea "Total_verificado_EUR" y debe coincidir.
+6) Si el total supera el presupuesto, ajusta componentes hasta que Total_EUR <= presupuesto y deja margen para envío (si procede).
+7) No inventes monedas ni uses USD. No uses notación ambigua. No uses "aprox. 300-350". Solo un número.
+
+Usuario:
+{$userPrompt}
+TXT;
+
+  $payload = [
+    "model"  => $model,
+    "prompt" => $systemPrompt,
+    "stream" => false
+  ];
+
+  $url = rtrim($baseUrl, "/") . "/api/generate";
+
+  $ch = curl_init($url);
+  curl_setopt_array($ch, [
+    CURLOPT_POST           => true,
+    CURLOPT_RETURNTRANSFER => true,
+    CURLOPT_HTTPHEADER     => ["Content-Type: application/json"],
+    CURLOPT_POSTFIELDS     => json_encode($payload, JSON_UNESCAPED_UNICODE),
+    CURLOPT_CONNECTTIMEOUT => 5,
+    CURLOPT_TIMEOUT        => 90,
+  ]);
+
+  $raw = curl_exec($ch);
+  $httpCode = (int)curl_getinfo($ch, CURLINFO_HTTP_CODE);
+  $curlErr  = curl_error($ch);
+  curl_close($ch);
+
+  if ($raw === false) {
+    $result = ["ok" => false, "err" => "cURL error: " . $curlErr, "out" => ""];
+  } elseif ($httpCode < 200 || $httpCode >= 300) {
+    $result = ["ok" => false, "err" => "HTTP $httpCode\n$raw", "out" => ""];
+  } else {
+    $json = json_decode($raw, true);
+    if (!is_array($json)) {
+      $result = ["ok" => false, "err" => "Respuesta no-JSON:\n$raw", "out" => ""];
+    } else {
+      $result = ["ok" => true, "out" => (string)($json["response"] ?? ""), "err" => ""];
+    }
+  }
+}
+?>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ollama Web</title>
+  <style>
+    :root{
+      --bg: #f6f7f9;
+      --panel: #ffffff;
+      --border: #e6e8ee;
+      --text: #111827;
+      --muted: #6b7280;
+      --accent: #2563eb;   /* blue */
+      --accent2:#111827;   /* near-black */
+      --shadow: 0 8px 24px rgba(17,24,39,.08);
+      --radius: 14px;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+    }
+
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    .app{
+      height:100vh;
+      width:100vw;
+      display:grid;
+      grid-template-columns: minmax(320px, 420px) 1fr;
+      gap: 14px;
+      padding: 14px;
+    }
+
+    .panel{
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow:hidden;
+      display:flex;
+      flex-direction:column;
+      min-height:0;
+    }
+
+    .panelHeader{
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--border);
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap: 12px;
+      background: #fff;
+    }
+
+    .brand{
+      display:flex; align-items:baseline; gap:10px; min-width:0;
+    }
+    .brand h1{
+      font-size: 14px;
+      margin:0;
+      letter-spacing:.2px;
+      font-weight: 750;
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+    }
+    .brand p{
+      margin:0;
+      font-size: 12px;
+      color: var(--muted);
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+    }
+
+    .toolbar{display:flex; gap:8px; align-items:center}
+
+    .btn{
+      appearance:none;
+      border:1px solid var(--border);
+      background: #fff;
+      color: var(--text);
+      padding: 10px 12px;
+      border-radius: 12px;
+      cursor:pointer;
+      font-weight: 700;
+      transition: background .15s ease, border-color .15s ease, transform .05s ease;
+      user-select:none;
+    }
+    .btn:hover{background:#f3f4f6}
+    .btn:active{transform: translateY(1px)}
+    .btnPrimary{
+      background: var(--accent);
+      color: #fff;
+      border-color: rgba(37,99,235,.35);
+    }
+    .btnPrimary:hover{background:#1d4ed8}
+
+    .content{
+      padding: 14px 16px;
+      overflow:auto;
+      min-height:0;
+    }
+
+    label{
+      display:block;
+      margin: 12px 0 6px;
+      font-weight: 750;
+      font-size: 12px;
+      color: var(--accent2);
+      letter-spacing:.2px;
+    }
+
+    textarea, input{
+      width:100%;
+      background: #fff;
+      border: 1px solid var(--border);
+      color: var(--text);
+      border-radius: 12px;
+      padding: 12px 12px;
+      font: inherit;
+      outline: none;
+      transition: border-color .15s ease, box-shadow .15s ease;
+    }
+    textarea:focus, input:focus{
+      border-color: rgba(37,99,235,.55);
+      box-shadow: 0 0 0 4px rgba(37,99,235,.10);
+    }
+    textarea{min-height: 44vh; resize: vertical}
+
+    .hint{
+      margin: 8px 0 0;
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    details{
+      margin-top: 12px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: #fff;
+      overflow:hidden;
+    }
+    summary{
+      cursor:pointer;
+      list-style:none;
+      padding: 12px 12px;
+      font-weight: 750;
+      font-size: 12px;
+      color: var(--text);
+    }
+    summary::-webkit-details-marker{display:none}
+    .settings{
+      padding: 0 12px 12px;
+      display:grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+
+    .badge{
+      font-size: 11px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      background: #fff;
+      white-space:nowrap;
+    }
+
+    .responseCard{
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow:hidden;
+      background:#fff;
+    }
+
+    .responseHead{
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--border);
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap: 10px;
+      background:#fff;
+    }
+
+    .md{
+      padding: 16px 16px 18px;
+      line-height: 1.7;
+      color: var(--text);
+      font-size: 15px;
+    }
+    .md h1,.md h2,.md h3,.md h4,.md h5,.md h6{
+      margin: 16px 0 10px;
+      line-height: 1.2;
+    }
+    .md h1{font-size: 22px}
+    .md h2{font-size: 18px}
+    .md h3{font-size: 16px}
+    .md p{margin: 10px 0}
+    .md ul,.md ol{margin: 10px 0 10px 22px}
+    .md li{margin: 6px 0}
+    .md code.inline{
+      font-family: var(--mono);
+      font-size: .95em;
+      padding: 2px 6px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: #f9fafb;
+    }
+    .md pre.code{
+      margin: 12px 0;
+      padding: 12px 12px;
+      border-radius: 12px;
+      background: #0b1220;
+      border: 1px solid #0b1220;
+      overflow:auto;
+    }
+    .md pre.code code{
+      font-family: var(--mono);
+      font-size: 13px;
+      white-space: pre;
+      display:block;
+      color: #e5e7eb;
+    }
+
+    .emptyState{
+      padding: 28px;
+      text-align:center;
+      color: var(--muted);
+    }
+    .emptyState .box{
+      max-width: 520px;
+      margin: 0 auto;
+      border: 1px dashed var(--border);
+      border-radius: var(--radius);
+      padding: 18px 16px;
+      background: #fafafa;
+    }
+
+    .err{
+      margin: 14px 16px 16px;
+      background: #fff1f2;
+      border: 1px solid #fecdd3;
+      color: #7f1d1d;
+      padding: 12px 12px;
+      border-radius: 12px;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+
+    @media (max-width: 980px){
+      .app{grid-template-columns: 1fr; height:auto; min-height:100vh}
+      textarea{min-height: 32vh}
+    }
+  </style>
+</head>
+<body>
+
+<div class="app">
+
+  <!-- LEFT -->
+  <section class="panel">
+    <div class="panelHeader">
+      <div class="brand">
+        <h1>Ollama Web</h1>
+        <p>Configuración PC</p>
+      </div>
+      <div class="toolbar">
+        <button class="btn" type="button" id="clearBtn">Limpiar</button>
+        <button class="btn btnPrimary" type="button" id="submitBtn">Enviar</button>
+      </div>
+    </div>
+
+    <div class="content">
+      <form method="post" id="theForm">
+        <p class="hint">
+          Escribe presupuesto (EUR) + uso. Ej.: “1200€ edición 4K + gaming 1440p”.
+        </p>
+
+        <label for="prompt">Petición</label>
+        <textarea id="prompt" name="prompt"><?=h($prompt)?></textarea>
+
+        <details>
+          <summary>Ajustes</summary>
+          <div class="settings">
+            <div>
+              <label for="model">Modelo</label>
+              <input id="model" name="model" value="<?=h($model)?>" placeholder="llama3:latest">
+            </div>
+            <div>
+              <label for="baseUrl">Ollama URL</label>
+              <input id="baseUrl" name="baseUrl" value="<?=h($baseUrl)?>" placeholder="http://127.0.0.1:11434">
+            </div>
+          </div>
+        </details>
+
+        <button type="submit" style="display:none" aria-hidden="true" tabindex="-1"></button>
+      </form>
+    </div>
+  </section>
+
+  <!-- RIGHT -->
+  <section class="panel">
+    <div class="panelHeader">
+      <div class="brand">
+        <h1>Respuesta</h1>
+        <p>Markdown → HTML</p>
+      </div>
+      <div class="toolbar">
+        <span class="badge"><?=h($model)?></span>
+        <button class="btn" type="button" id="copyBtn">Copiar</button>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="responseCard">
+        <div class="responseHead">
+          <span class="badge">
+            <?php if ($result === null) echo "Sin consulta";
+              else echo ($result["ok"] ? "OK" : "ERROR"); ?>
+          </span>
+        </div>
+
+        <?php if ($result === null): ?>
+          <div class="emptyState">
+            <div class="box">
+              Envía una consulta desde la izquierda para ver la recomendación aquí.
+            </div>
+          </div>
+        <?php elseif (!$result["ok"]): ?>
+          <div class="err"><?=h($result["err"])?></div>
+        <?php else: ?>
+          <div class="md" id="mdOut"><?= md_to_html_safe($result["out"]) ?></div>
+        <?php endif; ?>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<script>
+  const form = document.getElementById('theForm');
+  const submitBtn = document.getElementById('submitBtn');
+  const clearBtn  = document.getElementById('clearBtn');
+  const promptEl  = document.getElementById('prompt');
+  const copyBtn   = document.getElementById('copyBtn');
+
+  submitBtn.addEventListener('click', () => form.requestSubmit());
+  clearBtn.addEventListener('click', () => { promptEl.value=''; promptEl.focus(); });
+
+  copyBtn.addEventListener('click', async () => {
+    const mdOut = document.getElementById('mdOut');
+    if (!mdOut) return;
+    try{
+      await navigator.clipboard.writeText(mdOut.innerText);
+      copyBtn.textContent = 'Copiado';
+      setTimeout(()=>copyBtn.textContent='Copiar', 900);
+    }catch(e){
+      copyBtn.textContent = 'No se pudo';
+      setTimeout(()=>copyBtn.textContent='Copiar', 900);
+    }
+  });
+</script>
+
+</body>
+</html>
+```
+
 
 
 <a id="actividad-libre-de-final-de-evaluacion-la-milla-extra"></a>
@@ -20405,6 +22990,8 @@ FLUSH PRIVILEGES;
 
 <a id="la-milla-extra-primera-evaluacion"></a>
 ## La Milla Extra - Primera evaluación
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/201-Actividad%20libre%20de%20final%20de%20evaluaci%C3%B3n%20-%20La%20milla%20extra/001-La%20Milla%20Extra%20-%20Primera%20evaluaci%C3%B3n)
 
 ### Introducción a los ejercicios
 

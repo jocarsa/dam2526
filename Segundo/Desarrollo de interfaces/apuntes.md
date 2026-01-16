@@ -84,16 +84,20 @@
 <a id="patrones-de-arquitectura-de-las-aplicaciones-graficas"></a>
 ## Patrones de arquitectura de las aplicaciones gráficas
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/001-Generaci%C3%B3n%20de%20interfaces%20de%20usuario/001-Patrones%20de%20arquitectura%20de%20las%20aplicaciones%20gr%C3%A1ficas)
+
 
 <a id="librerias-de-componentes-nativas-y-multiplataforma"></a>
 ## Librerías de componentes nativas y multiplataforma
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/001-Generaci%C3%B3n%20de%20interfaces%20de%20usuario/002-Librer%C3%ADas%20de%20componentes%20nativas%20y%20multiplataforma)
 
 ### Introducción a los ejercicios
 
 Esta carpeta contiene una serie de ejercicios diseñados para que los estudiantes de Formación Profesional trabajen con componentes HTML estándar y nativos, enfocándose en la creación y personalización de interfaces de usuario. Los ejercicios cubren diversos tipos de formularios y elementos interactivos como campos de texto, controles de entrada variados (teléfono, URL, correo electrónico), elementos de control avanzado (range, meters), listas desplegables, botones y contenedores de formularios. A través de estos ejercicios, los estudiantes adquirirán competencias en la estructuración de interfaces web dinámicas y en la implementación de funcionalidades básicas para mejorar la interacción del usuario con el sitio web.
 
 ### revision de componentes
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -113,7 +117,7 @@ En este caso específico, el cuerpo de la página (`<body>`) está vacío, lo qu
 ```
 
 ### componentes de formulario
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -157,7 +161,7 @@ Estos elementos son fundamentales para la creación de interfaces de usuario int
 ```
 
 ### meters
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -186,7 +190,7 @@ Estos componentes son importantes porque ayudan a mejorar la usabilidad y la acc
 ```
 
 ### sugerencias para un input
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -224,7 +228,7 @@ Este tipo de implementación es útil cuando tienes una lista limitada pero espe
 ```
 
 ### Resultados calculados
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -256,7 +260,7 @@ Este tipo de interacción dinámica mejora la experiencia del usuario, ya que pr
 ```
 
 ### detalles y sumario
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -285,7 +289,7 @@ En resumen, esta página web contiene un encabezado principal ("Componentes de f
 ```
 
 ### agrupar campos
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -317,7 +321,7 @@ Esta estructura es importante porque mejora la accesibilidad y claridad del form
 ```
 
 ### campo select
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -351,7 +355,7 @@ Este tipo de componente es importante porque permite a los usuarios elegir entre
 ```
 
 ### textarea
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -380,7 +384,7 @@ Este tipo de elementos son fundamentales en cualquier formulario web donde los u
 ```
 
 ### range
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -408,7 +412,7 @@ Este tipo de control es importante porque proporciona una forma fácil e interac
 ```
 
 ### boton con input
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -436,7 +440,7 @@ Este código sirve como una introducción al manejo de controles interactivos en
 ```
 
 ### boton de verdad
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -466,7 +470,7 @@ Este código básico es útil para entender cómo incorporar elementos interacti
 ```
 
 ### Form como contenedor
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -570,6 +574,8 @@ Los alumnos implementarán botones en un formulario utilizando tanto `<input typ
 <a id="herramientas-propietarias-y-libres-de-edicion-de-interfaces"></a>
 ## Herramientas propietarias y libres de edición de interfaces
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/001-Generaci%C3%B3n%20de%20interfaces%20de%20usuario/003-Herramientas%20propietarias%20y%20libres%20de%20edici%C3%B3n%20de%20interfaces)
+
 ### Introducción a los ejercicios
 
 El código que has proporcionado es una página web interactiva para diseñar formularios HTML. La página incluye un panel en el que puedes agregar diversos tipos de campos de entrada (como texto, fecha, contraseña, correo electrónico, etc.) y luego generar el código HTML correspondiente. Aquí hay un resumen de cómo funciona cada parte del código:
@@ -603,7 +609,7 @@ El código que has proporcionado es una página web interactiva para diseñar fo
 Este es un ejemplo bastante completo que combina JavaScript, HTML y CSS para crear una interfaz de usuario interactiva y funcional.
 
 ### interfaz inicial
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -637,7 +643,7 @@ Esta estructura básica permite a los usuarios crear formularios web añadiendo 
 ```
 
 ### maquetar
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -692,7 +698,7 @@ Esta plantilla proporciona una base para futuros ejercicios donde podrás añadi
 ```
 
 ### comportamiento
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -753,7 +759,7 @@ Este tipo de diseño es útil para desarrolladores que quieren permitir a los us
 ```
 
 ### recorro el for
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -830,7 +836,7 @@ Este ejercicio es importante porque enseña cómo interactuar con el DOM para mo
 ```
 
 ### boton de generar html
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -916,7 +922,7 @@ Esta herramienta educativa ayuda a los estudiantes a comprender mejor cómo inte
 ```
 
 ### nombre id y clase
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -1005,7 +1011,7 @@ Este ejercicio es útil para entender cómo interactuar con el DOM (Modelo de Ob
 ```
 
 ### mejora de los estilos
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -1361,7 +1367,7 @@ En resumen, esta página proporciona una interfaz fácil de usar para diseñar f
 ```
 
 ### mejora de funcionalidades
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -1963,12 +1969,14 @@ This setup provides a robust form designer where users can create, view, and exp
 <a id="lenguajes-descriptivos-para-la-definicion-de-interfaces"></a>
 ## Lenguajes descriptivos para la definición de interfaces
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/001-Generaci%C3%B3n%20de%20interfaces%20de%20usuario/004-Lenguajes%20descriptivos%20para%20la%20definici%C3%B3n%20de%20interfaces)
+
 ### Introducción a los ejercicios
 
 En esta serie de ejercicios, centraremos nuestra atención en el desarrollo y estilización de interfaces de usuario utilizando HTML y CSS. Los problemas que se abordan van desde la creación básica de elementos interactivos hasta la implementación avanzada de animaciones y sombras para mejorar la apariencia visual del diseño. Estas actividades permitirán a los estudiantes dominar las propiedades de estilo en CSS, como padding, border-radius, text-shadow y box-shadow, así como trabajar con animaciones utilizando @keyframes. Además, se incluye una introducción básica al uso de JavaScript para manipular estilos dinámicamente, lo que será beneficioso para quienes busquen incorporar interactividad en sus interfaces web.
 
 ### componente basico
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2001,7 +2009,7 @@ Este fragmento sirve como punto de partida para aprender cómo estructurar una p
 ```
 
 ### aplico estilo
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2040,7 +2048,7 @@ Este tipo de estilización es importante porque ayuda a hacer que la interfaz de
 ```
 
 ### animar control
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2095,7 +2103,7 @@ Esta técnica es útil para llamar la atención del usuario o simplemente para m
 ```
 
 ### propiedades y sombras
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2154,7 +2162,7 @@ En resumen, este código demuestra cómo combinar CSS con animaciones para crear
 ```
 
 ### centrar siempre
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2218,7 +2226,7 @@ Este tipo de efectos animados es importante para captar la atención del usuario
 ```
 
 ### js para componentes
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2327,16 +2335,20 @@ Además del HTML y el CSS, hay un pequeño script JavaScript al final del docume
 <a id="componentes-caracteristicas-y-campo-de-aplicacion"></a>
 ## Componentes características y campo de aplicación
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/001-Generaci%C3%B3n%20de%20interfaces%20de%20usuario/005-Componentes%20caracter%C3%ADsticas%20y%20campo%20de%20aplicaci%C3%B3n)
+
 
 <a id="enlace-de-componentes-a-origenes-de-datos"></a>
 ## Enlace de componentes a orígenes de datos
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/001-Generaci%C3%B3n%20de%20interfaces%20de%20usuario/006-Enlace%20de%20componentes%20a%20or%C3%ADgenes%20de%20datos)
 
 ### Introducción a los ejercicios
 
 En esta serie de ejercicios, trabajarás con la creación y manipulación de interfaces de usuario en HTML y JavaScript. El objetivo principal es aprender a vincular componentes del DOM (como tablas) a orígenes de datos JSON para mostrar información estructurada de forma dinámica. Comenzarás por inicializar una tabla vacía y luego avanzarás hasta estilizarla y poblarla con los datos proporcionados en un array JSON. Estos ejercicios te ayudarán a comprender cómo manipular y visualizar datos mediante la programación web, mejorando tus habilidades en la creación de interfaces interactivas y dinámicas para aplicaciones web.
 
 ### json inicial
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2440,7 +2452,7 @@ Este código es importante porque establece la base para ejercicios más avanzad
 ```
 
 ### tomo el primer elemento del json
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2556,7 +2568,7 @@ Este ejemplo es importante porque muestra cómo puede interactuar el HTML con Ja
 ```
 
 ### poblar los datos
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2729,9 +2741,13 @@ Esta técnica es muy útil cuando se quiere mostrar datos estructurados (como un
 <a id="asociacion-de-acciones-a-eventos"></a>
 ## Asociación de acciones a eventos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/001-Generaci%C3%B3n%20de%20interfaces%20de%20usuario/007-Asociaci%C3%B3n%20de%20acciones%20a%20eventos)
+
 
 <a id="edicion-del-codigo-generado-por-la-herramienta-de-diseno"></a>
 ## Edición del código generado por la herramienta de diseño
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/001-Generaci%C3%B3n%20de%20interfaces%20de%20usuario/008-Edici%C3%B3n%20del%20c%C3%B3digo%20generado%20por%20la%20herramienta%20de%20dise%C3%B1o)
 
 ### Introducción a los ejercicios
 
@@ -2838,7 +2854,7 @@ Both implementations are used by calling their respective functions in an HTML f
 This setup provides a good starting point for creating data visualizations directly in HTML/JS without external libraries. If you need further enhancements or have specific requirements, feel free to ask!
 
 ### grafica
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2864,7 +2880,7 @@ Este esquema básico sirve como punto de partida para desarrollar cualquier pág
 ```
 
 ### primera grafica
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2913,7 +2929,7 @@ Este tipo de representación visual ayuda en la comprensión inmediata de las di
 ```
 
 ### estilo de la barra
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2985,7 +3001,7 @@ Esta página es útil en contextos educativos o de demostración para mostrar c�
 ```
 
 ### empiezo a encapsular
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -3073,7 +3089,7 @@ El objetivo principal de este código parece ser mostrar cómo crear una interfa
 ```
 
 ### creo un objeto de datos
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -3181,7 +3197,7 @@ Esta técnica combina HTML básico con JavaScript para dinamizar y visualizar da
 ```
 
 ### encapsulo en funcion
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -3294,7 +3310,7 @@ Finalmente, después de definir la función, se llama a `graficaBarras` pasándo
 ```
 
 ### mas origenes de datos
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -3488,7 +3504,7 @@ Este código es útil porque permite la generación dinámica de gráficos en HT
 ```
 
 ### y si le pongo color
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -3679,7 +3695,7 @@ Al final, la función `graficaBarras` es llamada cuatro veces con diferentes con
 ```
 
 ### en cierta forma un espacio de nombrs
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -3871,7 +3887,7 @@ Finalmente, se llama a la función `graficaBarras` cuatro veces para cada div co
 ```
 
 ### externalizo a archivos
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -4012,7 +4028,7 @@ Este código es importante porque demuestra cómo externalizar estilos y funcion
 ```
 
 ### lo cargo como libreria externa
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -4152,7 +4168,7 @@ Este fragmento es crucial porque muestra cómo integrar una librería externa pa
 ```
 
 ### grafica de tarta
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -4235,7 +4251,7 @@ Este tipo de código es importante porque demuestra cómo se pueden combinar HTM
 ```
 
 ### a javascript
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -4307,7 +4323,7 @@ Este código sirve como una introducción a cómo crear gráficos simples usando
 ```
 
 ### averiguamos el total
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -4395,7 +4411,7 @@ Este código es importante porque establece la base para generar una visualizaci
 ```
 
 ### construyo una cadena
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -4489,7 +4505,7 @@ El propósito principal del código es generar una visualización gráfica (en f
 ```
 
 ### encapsulo
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -4581,7 +4597,7 @@ El código es importante porque demuestra cómo combinar HTML, CSS (a través de
 ```
 
 ### probamos multiple
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -4750,7 +4766,7 @@ Esta técnica es importante porque permite personalizar y visualizar fácilmente
 ```
 
 ### estilizar mejor las gráficas
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -4969,7 +4985,7 @@ Finalmente, se llaman a esta función cuatro veces con diferentes conjuntos de d
 ```
 
 ### svg sobreimpreso
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -5224,7 +5240,7 @@ Este código es especialmente útil para estudiantes de desarrollo web que desea
 ```
 
 ### leyendas en las partes
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -5539,7 +5555,7 @@ Este ejemplo es especialmente útil para entender cómo combinar HTML, CSS y Jav
 ```
 
 ### titulo de la grafica
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -5867,7 +5883,7 @@ Este código combina HTML, CSS y JavaScript para crear gráficos dinámicos e in
 ```
 
 ### titulo de la grafica
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -6202,7 +6218,7 @@ En resumen, este código combina HTML, CSS y JavaScript para crear una página v
 ```
 
 ### jvgraficabarras
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -6237,7 +6253,7 @@ Este estilo CSS es crucial para crear una gráfica visualmente atractiva y legib
 ```
 
 ### jvgraficabarras
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -6555,6 +6571,8 @@ Con estas mejoras y sugerencias, tu código debería funcionar de manera más ro
 <a id="clases-propiedades-metodos"></a>
 ## Clases, propiedades, métodos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/001-Generaci%C3%B3n%20de%20interfaces%20de%20usuario/009-Clases%2C%20propiedades%2C%20m%C3%A9todos)
+
 ### Introducción a los ejercicios
 
 The code provided includes two distinct classes for rendering tabular and chart-like data in a web application. Here's an overview of each class and the necessary changes to make them functional:
@@ -6626,7 +6644,7 @@ chart.chartRenderer({
 The provided code ensures that your data rendering components are flexible and reusable, capable of handling various input formats and providing dynamic interaction features like filtering and sorting. Ensure you test these classes with a variety of dataset sizes and structures to verify their robustness and efficiency in real-world applications.
 
 ### clase tabla
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -7041,7 +7059,7 @@ Este conjunto de características hace que sea muy útil tanto para desarrollado
 ```
 
 ### simplificar
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -7223,7 +7241,7 @@ Además, hay un ejemplo predefinido de datos JSON almacenados en la variable `sa
 ```
 
 ### encappsular
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -7483,7 +7501,7 @@ Este tipo de implementación es útil para desarrolladores web ya que permite cr
 ```
 
 ### namespace
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -7714,7 +7732,7 @@ Finalmente, cuando la página está lista para ser utilizada (`DOMContentLoaded`
 ```
 
 ### tabla correctamente renderizada
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -7950,7 +7968,7 @@ Este archivo es útil para estudiantes que quieren aprender sobre la generación
 ```
 
 ### renderiza bien
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -8203,7 +8221,7 @@ Este código es especialmente útil para estudiantes que están aprendiendo sobr
 ```
 
 ### consumo datos externos
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -8467,7 +8485,7 @@ En resumen, este fragmento de código HTML es un ejemplo práctico de cómo comb
 ```
 
 ### represento la tabla
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -8722,7 +8740,7 @@ En resumen, este fragmento es un ejemplo práctico de cómo utilizar JavaScript 
 ```
 
 ### externalizacion de prueba
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -8761,7 +8779,7 @@ Este código es importante porque demuestra cómo integrar HTML y JavaScript par
 ```
 
 ### minisistema
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -8804,7 +8822,7 @@ Esta técnica es muy común en desarrollo web moderno ya que permite separar cla
 ```
 
 ### api2
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -8854,7 +8872,7 @@ Este tipo de código es fundamental en desarrollo web moderno ya que combina HTM
 ```
 
 ### estilo del nav
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -8906,7 +8924,7 @@ Esta práctica es importante porque permite una mayor interactividad y personali
 ```
 
 ### accion en cada boton
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -8963,7 +8981,7 @@ Esta técnica de crear elementos HTML dinámicamente y agregar eventos a ellos e
 ```
 
 ### cargo la tabla
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -9022,7 +9040,7 @@ Esta técnica permite tener interfaces dinámicas y modulares, ya que toda la l�
 ```
 
 ### ahora cargo la tabla que toca
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -9087,7 +9105,7 @@ Esta técnica es importante porque permite crear interfaces dinámicas que puede
 ```
 
 ### ahora formularios
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -9183,7 +9201,7 @@ Este código es importante porque demuestra cómo integrar backend con frontend 
 ```
 
 ### ahora graficas
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -9329,7 +9347,7 @@ Este código es importante porque demuestra cómo combinar HTML, CSS y JavaScrip
 ```
 
 ### extendemos todavia mas
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -9564,7 +9582,7 @@ Este enfoque combina HTML, CSS y JavaScript para proporcionar una experiencia de
 ```
 
 ### api
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -9620,7 +9638,7 @@ echo json_encode($data);
 ```
 
 ### api2
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -9700,7 +9718,7 @@ $conn->close();
 ```
 
 ### jocarsaux2
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -10130,7 +10148,7 @@ El código proporcionado es una implementación funcional para crear interfaces 
 ```
 
 ### jocarsaux3
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -10775,7 +10793,7 @@ This utility library simplifies complex UI tasks by abstracting away low-level d
 ```
 
 ### jocarsaux4
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -11671,7 +11689,7 @@ This `JocarsaUX` library simplifies the creation and rendering of various UI com
 ```
 
 ### pruebalibreria
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -11950,9 +11968,13 @@ Este componente es una buena base para aplicaciones que requieren visualización
 <a id="eventos-escuchadores"></a>
 ## Eventos; escuchadores
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/001-Generaci%C3%B3n%20de%20interfaces%20de%20usuario/010-Eventos%3B%20escuchadores)
+
 
 <a id="ejercicio-de-final-de-unidad"></a>
 ## Ejercicio de final de unidad
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/001-Generaci%C3%B3n%20de%20interfaces%20de%20usuario/101-Ejercicio%20de%20final%20de%20unidad)
 
 ### Introducción a los ejercicios
 
@@ -11994,6 +12016,8 @@ Estas actividades están diseñadas para permitir que los estudiantes adquieran 
 <a id="herramientas-para-el-aprendizaje-automatico"></a>
 ## Herramientas para el aprendizaje automático
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/002-Generaci%C3%B3n%20de%20interfaces%20naturales%20de%20usuario/001-Herramientas%20para%20el%20aprendizaje%20autom%C3%A1tico)
+
 ### Introducción a los ejercicios
 
 En esta serie de ejercicios, los estudiantes explorarán el uso de herramientas y comandos para interactuar con un sistema llamado Ollama, que se utiliza en aprendizaje automático. El objetivo principal es familiarizar a los estudiantes con la instalación, gestión y ejecución de modelos de lenguaje como parte del desarrollo de interfaces naturales de usuario. A través de estos ejercicios, los alumnos aprenderán a listar disponibles modelos, instalar nuevos modelos y ejecutar comandos para obtener respuestas basadas en preguntas planteadas, practicando así la interacción con entornos de aprendizaje automático.
@@ -12030,16 +12054,20 @@ Estas actividades están diseñadas para proporcionar a los estudiantes una comp
 <a id="interfaces-naturales"></a>
 ## Interfaces naturales
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/002-Generaci%C3%B3n%20de%20interfaces%20naturales%20de%20usuario/002-Interfaces%20naturales)
+
 
 <a id="voz-y-habla"></a>
 ## Voz y Habla
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/002-Generaci%C3%B3n%20de%20interfaces%20naturales%20de%20usuario/003-Voz%20y%20Habla)
 
 ### Introducción a los ejercicios
 
 En esta carpeta de ejercicios, los estudiantes trabajarán con la integración de tecnología del habla en interfaces web. Los ejercicios abordan tanto la síntesis de voz como el reconocimiento de voz usando JavaScript y HTML5. En estos ejemplos, se practica cómo capturar texto desde un micrófono, procesarlo y luego sintetizarlo nuevamente para ser pronunciado por el sistema. Además, algunos ejercicios incorporan elementos adicionales como la modificación de datos basada en comandos vocales reconocidos. Los estudiantes desarrollarán habilidades en manejo de eventos de voz, interacción con APIs de habla y construcción de interfaces más naturales para usuarios.
 
 ### sintesis de voz
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -12085,7 +12113,7 @@ Esta característica es útil en aplicaciones web donde se necesita proporcionar
 ```
 
 ### microfono
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -12124,7 +12152,7 @@ Este tipo de código es fundamental para desarrolladores que buscan incorporar f
 ```
 
 ### fusiono proyectos
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -12186,7 +12214,7 @@ Este código es importante porque combina funciones de reconocimiento y síntesi
 ```
 
 ### pinto tabla
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -12266,7 +12294,7 @@ El fragmento de código es importante porque demuestra cómo integrar funcionali
 ```
 
 ### reacciono a la voz
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -12412,12 +12440,14 @@ Los estudiantes deben crear un proyecto final que integre múltiples funcionalid
 <a id="partes-y-movimientos-del-cuerpo"></a>
 ## Partes y movimientos del cuerpo
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/002-Generaci%C3%B3n%20de%20interfaces%20naturales%20de%20usuario/004-Partes%20y%20movimientos%20del%20cuerpo)
+
 ### Introducción a los ejercicios
 
 Esta carpeta contiene ejercicios que trabajan con la biblioteca MediaPipe para detectar y trazar puntos de referencia en las manos, cara y cuerpo utilizando cámaras web. Los archivos HTML proporcionados implementan demos básicas que permiten a los estudiantes comprender cómo capturar video desde una cámara y procesarlo para identificar y dibujar sobre los keypoints (puntos clave) de diferentes partes del cuerpo humano. Estos ejercicios practican competencias esenciales en el desarrollo web, como la manipulación del DOM (Document Object Model), el manejo de eventos, el uso de librerías externas y el procesamiento de datos en tiempo real.
 
 ### reconocimiento manos
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -12487,7 +12517,7 @@ Este código es importante porque demuestra cómo integrar tecnología avanzada 
 ```
 
 ### acceso a los datos
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -12558,7 +12588,7 @@ Esta página web es fundamental para estudiantes interesados en la interacción 
 ```
 
 ### cara
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -12634,7 +12664,7 @@ Este tipo de código es fundamental para el desarrollo de aplicaciones que requi
 ```
 
 ### cuerpo
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -12749,6 +12779,8 @@ Este tipo de código es importante en el desarrollo de interfaces naturales de u
 <a id="realidad-aumentada"></a>
 ## Realidad aumentada
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/002-Generaci%C3%B3n%20de%20interfaces%20naturales%20de%20usuario/005-Realidad%20aumentada)
+
 ### Introducción a los ejercicios
 
 It appears you have two distinct HTML documents, each implementing different functionalities using JavaScript libraries like A-Frame for web-based 3D scene rendering in the first document, and MediaPipe's FaceMesh API to overlay a PNG image on detected faces in real-time video frames in the second document.
@@ -12778,7 +12810,7 @@ While both documents serve different purposes and use different technologies, if
 However, such an integration is quite complex and would require deep understanding of both libraries along with a good grasp on how to handle real-time video processing and 3D animation simultaneously.
 
 ### mediapipe cara
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -12896,7 +12928,7 @@ Este código es especialmente útil en contextos donde necesitas interacción co
 ```
 
 ### via 3d
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -13138,7 +13170,7 @@ Este tipo de aplicación es un excelente ejemplo de cómo combinar tecnologías 
 ```
 
 ### arjs
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -13224,7 +13256,7 @@ Este código es importante porque demuestra cómo integrar las tecnologías web 
 ```
 
 ### proyectomelanie
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -13498,7 +13530,7 @@ Este código es importante porque demuestra cómo utilizar tecnologías modernas
 ```
 
 ### melanieavanzado
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -13954,7 +13986,7 @@ This application leverages advanced computer vision techniques to create interac
 ```
 
 ### melaniemejorado
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -14233,7 +14265,7 @@ Este código es importante porque demuestra cómo integrar tecnologías avanzada
 ```
 
 ### realidad aumentada geometria propia
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -14317,7 +14349,7 @@ La sección principal del código HTML contiene un escenario A-Frame (`<a-scene>
 ```
 
 ### suzanne sencillo
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -14355,7 +14387,7 @@ Esta página es útil para estudiantes que quieren aprender cómo combinar model
 ```
 
 ### nave sencilllo
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -14395,7 +14427,7 @@ En resumen, este código proporciona una base sólida para experimentar con mode
 ```
 
 ### proyecto melanie con claude
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -14937,6 +14969,8 @@ This setup should give you a basic combined application where users can view a g
 <a id="ejercicio-de-final-de-unidad-1"></a>
 ## Ejercicio de final de unidad
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/002-Generaci%C3%B3n%20de%20interfaces%20naturales%20de%20usuario/101-Ejercicio%20de%20final%20de%20unidad)
+
 ### Introducción a los ejercicios
 
 El conjunto de ejercicios en esta carpeta está diseñado para ayudarte a aplicar y consolidar tus conocimientos sobre el desarrollo de interfaces de usuario naturales, un tema crucial en la formación profesional de Desarrollo de Aplicaciones Multiplataforma (DAM). En este ejercicio final de unidad, se te pedirá que combines los conceptos aprendidos durante todo el módulo para crear una interfaz de usuario intuitiva y amigable. Este trabajo práctico enfatiza la importancia de las mejores prácticas en diseño de interfaces, la implementación efectiva de componentes y la experiencia del usuario (UX). A través de este ejercicio, mejorarás tus habilidades en análisis, diseño y codificación para proporcionar soluciones gráficas eficaces.
@@ -14979,13 +15013,19 @@ Estas actividades están orientadas a ayudar a los estudiantes a desarrollar hab
 <a id="concepto-de-componente"></a>
 ## Concepto de componente
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/003-Creaci%C3%B3n%20de%20componentes%20visuales/001-Concepto%20de%20componente)
+
 
 <a id="propiedades-atributos-y-metodos"></a>
 ## Propiedades, atributos y métodos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/003-Creaci%C3%B3n%20de%20componentes%20visuales/002-Propiedades%2C%20atributos%20y%20m%C3%A9todos)
+
 
 <a id="eventos-asociacion-de-acciones-a-eventos"></a>
 ## Eventos; asociación de acciones a eventos
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/003-Creaci%C3%B3n%20de%20componentes%20visuales/003-Eventos%3B%20asociaci%C3%B3n%20de%20acciones%20a%20eventos)
 
 ### Introducción a los ejercicios
 
@@ -15034,7 +15074,7 @@ El código maneja eficientemente las dimensiones cambiantes de la página al rea
 Este tipo de herramienta puede ser útil para analizar patrones de interacción en sitios web, visualizando zonas más visitadas o interactuadas por los usuarios.
 
 ### focus y blur
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -15070,7 +15110,7 @@ Estos eventos son importantes porque permiten responder y reaccionar a las inter
 ```
 
 ### y si cambia
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -15115,7 +15155,7 @@ Este tipo de interacción es importante para desarrollar interfaces web dinámic
 ```
 
 ### integracion de onchange
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -15152,7 +15192,7 @@ En resumen, este fragmento enseña cómo capturar y responder a los cambios en e
 ```
 
 ### eventos boton
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -15187,7 +15227,7 @@ Este tipo de asociación entre eventos y acciones es fundamental en programació
 ```
 
 ### doble click
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -15218,7 +15258,7 @@ Este tipo de interacción es importante porque permite que las páginas web reac
 ```
 
 ### mouse down
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -15249,7 +15289,7 @@ Este código te ayuda a entender cómo capturar eventos en HTML utilizando JavaS
 ```
 
 ### mouseup
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -15278,7 +15318,7 @@ Este tipo de código es importante para entender cómo vincular eventos a elemen
 ```
 
 ### mouseenter
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -15309,7 +15349,7 @@ Esta técnica es útil para proporcionar retroalimentación inmediata al usuario
 ```
 
 ### mouse leave
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -15338,7 +15378,7 @@ Este tipo de código es importante para entender cómo interactúan los eventos 
 ```
 
 ### mouse over
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -15371,7 +15411,7 @@ Este código es importante porque muestra cómo se pueden asociar funciones espe
 ```
 
 ### menu contextual
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -15404,7 +15444,7 @@ Esta técnica es importante porque permite a los desarrolladores controlar inter
 ```
 
 ### mousemove
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -15440,7 +15480,7 @@ Este código te permite empezar a comprender la captura y manipulación de event
 ```
 
 ### mostrar mapa de calor
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -15497,7 +15537,7 @@ Este tipo de código es importante para entender cómo manejar eventos del rató
 ```
 
 ### circulos
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -15554,7 +15594,7 @@ Este tipo de efecto visual puede ser útil en muchos contextos, como demostracio
 ```
 
 ### eventos teclado keypress
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -15584,7 +15624,7 @@ La función anónima (`function(event){...}`) que recibe como parámetro el obje
 ```
 
 ### evento keyup
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -15614,7 +15654,7 @@ Esta técnica es útil porque permite responder a las acciones del usuario en ti
 ```
 
 ### onkeydown
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -15644,7 +15684,7 @@ Este código es importante porque muestra cómo vincular eventos específicos a 
 ```
 
 ### eventos de portatpapeles
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -15673,7 +15713,7 @@ Esta técnica es útil para controlar acciones específicas del usuario, como mo
 ```
 
 ### prohibir la copia
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -15704,7 +15744,7 @@ Este tipo de código se utiliza frecuentemente para proteger contenido sensible 
 ```
 
 ### cortar
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -15734,7 +15774,7 @@ Este tipo de asociación entre eventos y acciones permite a los desarrolladores 
 ```
 
 ### pegar
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -15764,7 +15804,7 @@ Este tipo de interacción con eventos del navegador ayuda a los desarrolladores 
 ```
 
 ### carga
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -15794,7 +15834,7 @@ Esta técnica es útil para asegurarse de que cualquier JavaScript que dependa d
 ```
 
 ### cambio de tamaño
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -15823,7 +15863,7 @@ Es importante porque ayuda a mejorar la experiencia del usuario al garantizar qu
 ```
 
 ### scroll
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -15859,7 +15899,7 @@ El cuerpo (`<body>`) de esta página contiene varios párrafos con texto fictici
 ```
 
 ### detecto cambio de conexion
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -15895,7 +15935,7 @@ Este tipo de código es importante porque ayuda a mejorar la experiencia del usu
 ```
 
 ### drag and drop
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -15949,7 +15989,7 @@ Este tipo de código es importante porque permite que los usuarios interactúen 
 ```
 
 ### arrastro el original
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -16033,7 +16073,7 @@ Este tipo de interacción es importante para entender cómo crear elementos inte
 ```
 
 ### mejora de la libreria heatmap
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -16208,7 +16248,7 @@ Este tipo de implementación es útil en aplicaciones que necesiten registrar in
 ```
 
 ### mas mejoras
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -16628,7 +16668,7 @@ HeatmapTracker.init({
 ```
 
 ### carga externa
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -16738,6 +16778,8 @@ Este esquema permite que tu librería funcione de manera independiente dentro de
 <a id="persistencia-del-componente"></a>
 ## Persistencia del componente
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/003-Creaci%C3%B3n%20de%20componentes%20visuales/004-Persistencia%20del%20componente)
+
 ### Introducción a los ejercicios
 
 The code you've provided is a modern and modular JavaScript library for creating customizable UI components. Specifically, it focuses on transforming `<select>` elements into searchable dropdowns with rich interactive features such as filtering, keyboard navigation, and dynamic content rendering. Below are key points and explanations about the main parts of this code:
@@ -16806,7 +16848,7 @@ This JavaScript library is a great example of encapsulating complex UI interacti
 For further enhancements or customizations, you might consider adding additional features like multi-selection support, better handling of large datasets, internationalization/localization, or integrating with popular frameworks/libraries (React, Vue.js).
 
 ### plantilla
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -16845,7 +16887,7 @@ Este enfoque es útil para separar la estructura visual del código que manipula
 ```
 
 ### estilo
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -16911,7 +16953,7 @@ Este código es útil para entender cómo crear elementos reutilizables usando t
 ```
 
 ### solo cuando se muestra por encina
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -16984,7 +17026,7 @@ Esta técnica es útil porque permite definir una estructura reutilizable en un 
 ```
 
 ### componentizacion
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -17072,7 +17114,7 @@ Este enfoque permite a los desarrolladores crear componentes reutilizables y bie
 ```
 
 ### externalizacion
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -17104,7 +17146,7 @@ Esta práctica es importante porque permite modularizar el código, mejorando su
 ```
 
 ### parametrizacion
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -17131,7 +17173,7 @@ En el cuerpo del documento (`<body>`), hay tres instancias del elemento personal
 ```
 
 ### select con busqueda
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -17352,7 +17394,7 @@ Este tipo de estructura es útil para interfaces web que requieren una gran cant
 ```
 
 ### le añado buscador
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -17570,7 +17612,7 @@ Este tipo de diseño es especialmente útil en formularios web donde se requiere
 ```
 
 ### un poco de css
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -17798,7 +17840,7 @@ La importancia de esta estructura radica en su capacidad para organizar grandes 
 ```
 
 ### empezamos con js
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -17996,7 +18038,7 @@ Esta técnica es fundamental cuando trabajas con formularios grandes y dinámico
 ```
 
 ### matcheando
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -18192,7 +18234,7 @@ Este tipo de funcionalidad es común en interfaces de usuario modernas donde la 
 ```
 
 ### lleno el array de coincidencias
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -18395,7 +18437,7 @@ Esta funcionalidad es importante porque proporciona una forma sencilla para que 
 ```
 
 ### repintar solo las que toca
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -18607,7 +18649,7 @@ Finalmente, cuando el usuario deja de escribir (o cambia su búsqueda), se repin
 ```
 
 ### select personalizado
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -18934,7 +18976,7 @@ Este código es importante porque combina funcionalidades de HTML, CSS y JavaScr
 ```
 
 ### a componente
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -19167,7 +19209,7 @@ El uso de este componente ayuda a mantener el código limpio y modular, ya que l
 ```
 
 ### llamada a componente
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -19304,7 +19346,7 @@ Este tipo de componente es útil en aplicaciones web donde los usuarios tienen q
 ```
 
 ### carga externa
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -19441,7 +19483,7 @@ Este tipo de enfoque es importante porque simplifica la implementación de carac
 ```
 
 ### boton-tooltip
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -19547,7 +19589,7 @@ customElements.define('boton-tooltip', BotonTooltip);
 ```
 
 ### jocarsaui
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -19609,7 +19651,7 @@ Estos estilos ayudan a crear interfaces de usuario más limpias y coherentes, me
 ```
 
 ### jocarsaui
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -19905,13 +19947,19 @@ The `jocarsaui` library provides a powerful way to enhance form elements with mo
 <a id="herramientas-para-desarrollo-de-componentes-visuales"></a>
 ## Herramientas para desarrollo de componentes visuales
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/003-Creaci%C3%B3n%20de%20componentes%20visuales/005-Herramientas%20para%20desarrollo%20de%20componentes%20visuales)
+
 
 <a id="prueba-de-los-componentes"></a>
 ## Prueba de los componentes
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/003-Creaci%C3%B3n%20de%20componentes%20visuales/006-Prueba%20de%20los%20componentes)
+
 
 <a id="empaquetado-de-componentes"></a>
 ## Empaquetado de componentes
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/003-Creaci%C3%B3n%20de%20componentes%20visuales/007-Empaquetado%20de%20componentes)
 
 ### Introducción a los ejercicios
 
@@ -19994,7 +20042,7 @@ a {
 This setup ensures that your HTML elements have consistent base styles, making it easier to build on top of these foundations with custom designs.
 
 ### libreria
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -20287,7 +20335,7 @@ button[data-variant="danger"],  .danger  { background: var(--destructive); }
 ```
 
 ### ejemplo
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -20409,7 +20457,7 @@ Este ejemplo es importante porque demuestra cómo puede simplificar la creación
 ```
 
 ### cssreset
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -20591,7 +20639,7 @@ img[alt=""] {
 ```
 
 ### html de reinicio
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -20689,7 +20737,7 @@ El objetivo principal es permitir a los estudiantes ver cómo estos estilos pred
 ```
 
 ### carga desde GitHub
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -20826,6 +20874,8 @@ These files collectively illustrate best practices in web development, emphasizi
 <a id="ejercicio-de-final-de-unidad-2"></a>
 ## Ejercicio de final de unidad
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/003-Creaci%C3%B3n%20de%20componentes%20visuales/101-Ejercicio%20de%20final%20de%20unidad)
+
 ### Introducción a los ejercicios
 
 El conjunto de ejercicios en esta carpeta está diseñado para ayudarte a consolidar tus habilidades en el desarrollo de interfaces visuales utilizando componentes gráficos. En particular, este ejercicio te permitirá aplicar lo aprendido durante la unidad sobre cómo crear y manipular elementos visuales en una interfaz de usuario. A través de este ejercicio, practicarás la creación de diferentes tipos de componentes, su integración en una estructura coherente y la resolución de problemas comunes asociados a la presentación visual del contenido.
@@ -20870,12 +20920,14 @@ Basándome en el contexto proporcionado, y considerando que los archivos están 
 <a id="examen-final"></a>
 ## Examen final
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/003-Creaci%C3%B3n%20de%20componentes%20visuales/104-Examen%20final)
+
 ### Introducción a los ejercicios
 
 En esta carpeta, encontrarás una serie de ejercicios diseñados para practicar las habilidades fundamentales de creación y manipulación de bases de datos utilizando SQL. Los estudiantes aprenderán a crear tablas relacionadas, insertar datos en ellas, establecer relaciones entre tablas mediante claves foráneas, realizar consultas avanzadas que incluyen el uso de JOINs para combinar información de múltiples tablas, y crear vistas para simplificar y organizar los resultados. Además, se explorará la creación y administración de usuarios en MySQL, otorgándoles diferentes niveles de acceso a las bases de datos. Estos ejercicios son esenciales para desarrollar una comprensión sólida de cómo gestionar datos eficientemente en entornos de desarrollo web.
 
 ### crear tablas
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -20910,7 +20962,7 @@ CREATE TABLE Categorias(
 ```
 
 ### insertar
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -20942,7 +20994,7 @@ INSERT INTO Piezas VALUES(
 ```
 
 ### fk
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -20963,7 +21015,7 @@ ON UPDATE CASCADE;
 ```
 
 ### selecciones
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -20980,7 +21032,7 @@ SELECT * FROM Piezas;
 ```
 
 ### left join
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -21001,7 +21053,7 @@ ON Piezas.id_categoria = Categorias.Identificador;
 ```
 
 ### ahora creo la vista
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -21032,7 +21084,7 @@ SELECT * FROM piezas_y_categorias;
 ```
 
 ### usuario
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -21116,6 +21168,8 @@ FLUSH PRIVILEGES;
 <a id="usabilidad-y-accesibilidad"></a>
 ## Usabilidad y accesibilidad
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/004-Dise%C3%B1o%20de%20interfaces%20gr%C3%A1ficas/001-Usabilidad%20y%20accesibilidad)
+
 ### Introducción a los ejercicios
 
 Esta carpeta contiene una serie de ejercicios destinados a comprender y aplicar los principios fundamentales de usabilidad y accesibilidad en el diseño de interfaces gráficas web. Los problemas abordados giran en torno a cómo diseñar experiencias intuitivas que se ajusten a las expectativas del usuario, manteniendo una coherencia visual y funcional a lo largo del sitio web. Estos ejercicios permitirán a los estudiantes practicar la creación de interfaces eficientes y amigables para todos los tipos de usuarios, independientemente de sus habilidades o necesidades específicas. Se enfatiza especialmente en cómo capturar rápidamente la atención del usuario con contenido claro y estructuras web coherentes, al tiempo que se incorporan herramientas que faciliten el uso a personas con discapacidades visuales u otras limitaciones.
@@ -21168,6 +21222,8 @@ Esta carpeta contiene una serie de ejercicios destinados a comprender y aplicar 
 <a id="medidas-de-usabilidad-y-accesibilidad-de-las-aplicaciones"></a>
 ## Medidas de usabilidad y accesibilidad de las aplicaciones
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/004-Dise%C3%B1o%20de%20interfaces%20gr%C3%A1ficas/002-Medidas%20de%20usabilidad%20y%20accesibilidad%20de%20las%20aplicaciones)
+
 ### Introducción a los ejercicios
 
 En esta carpeta, encontrarás una serie de ejercicios diseñados para familiarizarte con el análisis y diseño de interfaces gráficas para aplicaciones empresariales. Los archivos te guiarán en la comprensión de cómo estructurar tanto la parte interna (backoffice) como la externa (front-end) de una aplicación web, incluyendo aspectos como la creación de formularios de inicio de sesión y plantillas maestras que facilitan la reutilización del código. Además, se practicarán habilidades clave en HTML y PHP para implementar medidas de usabilidad y accesibilidad.
@@ -21175,7 +21231,7 @@ En esta carpeta, encontrarás una serie de ejercicios diseñados para familiariz
 El conjunto de ejercicios te ayudará a mejorar tus competencias en la creación de interfaces intuitivas y funcionales, considerando tanto las necesidades de los usuarios internos (empleados) como externos (clientes). A través del análisis de componentes básicos como páginas de inicio, formularios de contacto y vistas de tablas, podrás desarrollar un entendimiento sólido sobre cómo construir aplicaciones web que sean amigables y accesibles para todos los usuarios.
 
 ### plantilla maestra
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -21202,7 +21258,7 @@ Este código es importante porque establece la estructura básica de una página
 ```
 
 ### plantilla login
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -21241,7 +21297,7 @@ Este ejemplo es importante porque demuestra cómo integrar estilos CSS directame
 ```
 
 ### traigo el login
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -21270,7 +21326,7 @@ Este enfoque es útil cuando se quiere mantener una estructura modular del códi
 ```
 
 ### maestro
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -21297,7 +21353,7 @@ Esta práctica es común en desarrollo web para crear plantillas y layouts coher
 ```
 
 ### parametros url
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -21328,7 +21384,7 @@ Es importante porque nos permite pasar información entre páginas web sin neces
 ```
 
 ### maestro
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -21394,6 +21450,8 @@ Estas actividades se diseñaron para ayudar a los estudiantes de Formación Prof
 <a id="b-esquemas-wireframes-y-maquetas-mockups"></a>
 ## b-Esquemas (Wireframes) y Maquetas (Mockups)
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/004-Dise%C3%B1o%20de%20interfaces%20gr%C3%A1ficas/003b-Esquemas%20%28Wireframes%29%20y%20Maquetas%20%28Mockups%29%20)
+
 ### Introducción a los ejercicios
 
 Based on the provided files, here is a summary of the structure and flow of your ERP Formación web application:
@@ -21446,7 +21504,7 @@ In `dashboard.html` or another relevant section:
 This structure ensures that users are guided through different levels of navigation and functionality within your ERP system.
 
 ### dashboard
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -21643,7 +21701,7 @@ Este tipo de diseño y estructura son comunes en aplicaciones web empresariales,
 ```
 
 ### entity-table
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -21913,7 +21971,7 @@ Este diseño es importante porque proporciona a los administradores un resumen r
 ```
 
 ### index
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -22015,7 +22073,7 @@ Este código es importante porque proporciona a los usuarios una interfaz amigab
 ```
 
 ### modules
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -22218,12 +22276,14 @@ Seguir estos pasos debería ayudarte a asegurarte de que todos los enlaces inter
 <a id="esquemas-wireframes-y-maquetas-mockups"></a>
 ## Esquemas (Wireframes) y Maquetas (Mockups)
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/004-Dise%C3%B1o%20de%20interfaces%20gr%C3%A1ficas/003-Esquemas%20%28Wireframes%29%20y%20Maquetas%20%28Mockups%29)
+
 ### Introducción a los ejercicios
 
 En esta carpeta, se encuentran ejercicios relacionados con el diseño y la implementación de interfaces gráficas para un sitio web simple. El enfoque principal es desarrollar competencias en estilización con CSS y estructuración básica utilizando PHP para incluir diferentes componentes del sitio, como la cabecera y el pie de página. Los estudiantes practicarán cómo crear archivos de estilo separados (como `estilo.css`) que definan los elementos visuales generales del sitio web, así como cómo organizar el contenido dinámicamente utilizando condicionales en PHP para mostrar páginas específicas según la URL solicitada.
 
 ### estilo
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -22254,7 +22314,7 @@ main{
 ```
 
 ### index
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -22352,6 +22412,8 @@ Estas actividades están diseñadas para ayudar a los estudiantes a mejorar sus 
 <a id="pautas-de-diseno-de-la-estructura-de-la-interfaz-de-usuario"></a>
 ## Pautas de diseño de la estructura de la interfaz de usuario
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/004-Dise%C3%B1o%20de%20interfaces%20gr%C3%A1ficas/004-Pautas%20de%20dise%C3%B1o%20de%20la%20estructura%20de%20la%20interfaz%20de%20usuario)
+
 ### Introducción a los ejercicios
 
 En esta carpeta de ejercicios, los estudiantes trabajan con la creación y diseño de interfaces gráficas web utilizando PHP y CSS. Los archivos proporcionados muestran cómo se integran diferentes componentes para generar un estilo visual coherente en una página web. El archivo `007-maestro.php` es el punto de partida, que incluye otros archivos como la cabecera y el layout del diseño. Además, los estudiantes aprenden a manejar colores y su variación mediante cálculos matemáticos, permitiendo generar múltiples tonos y contrastes basados en un color base.
@@ -22359,7 +22421,7 @@ En esta carpeta de ejercicios, los estudiantes trabajan con la creación y dise�
 Estos ejercicios ayudan a desarrollar competencias clave como la comprensión de estructuras HTML y PHP, el uso efectivo de hojas de estilo CSS, y cómo trabajar con cálculos para crear paletas de colores que siguen principios de diseño visual.
 
 ### maestro
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -22390,7 +22452,7 @@ Este tipo de organización, donde partes reutilizables del diseño se almacenan 
 ```
 
 ### estilo
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -22443,7 +22505,7 @@ button{
 ```
 
 ### funcionescss
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -22688,6 +22750,8 @@ Estas actividades permiten a los estudiantes aplicar sus conocimientos teóricos
 <a id="pautas-de-diseno-del-aspecto-de-la-interfaz-de-usuario"></a>
 ## Pautas de diseño del aspecto de la interfaz de usuario
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/004-Dise%C3%B1o%20de%20interfaces%20gr%C3%A1ficas/005-Pautas%20de%20dise%C3%B1o%20del%20aspecto%20de%20la%20interfaz%20de%20usuario)
+
 ### Introducción a los ejercicios
 
 El código proporcionado es una implementación completa y detallada de una herramienta de diseño para crear diagramas o gráficos, que incluye varios elementos clave:
@@ -22713,7 +22777,7 @@ El código proporcionado es una implementación completa y detallada de una herr
 Este código proporciona una base sólida para un editor de diagramas interactivo y personalizable, lo que podría ser útil en una variedad de contextos, desde diagramación de procesos hasta diseño gráfico simple. La implementación completa incluiría el manejo del estado del usuario (por ejemplo, almacenar y restaurar diseños) y la integración con API o bases de datos para guardar los cambios permanentemente.
 
 ### index
-<small>Creado: 2025-11-25 21:03</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -22775,7 +22839,7 @@ Este diseño es crucial para facilitar a los estudiantes o diseñadores una inte
 ```
 
 ### script
-<small>Creado: 2025-11-25 22:57</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -23449,7 +23513,7 @@ document.addEventListener('DOMContentLoaded', () => {
 ```
 
 ### styles
-<small>Creado: 2025-11-25 22:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -23866,6 +23930,8 @@ Este proyecto demuestra cómo crear una herramienta gráfica efectiva con un bue
 <a id="pautas-de-diseno"></a>
 ## Pautas de diseño
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/004-Dise%C3%B1o%20de%20interfaces%20gr%C3%A1ficas/006-Pautas%20de%20dise%C3%B1o)
+
 ### Introducción a los ejercicios
 
 Para integrar la lógica del Web Worker en tu código principal y permitir una interacción efectiva entre el hilo de trabajo y la interfaz principal, sigue estos pasos:
@@ -24043,7 +24109,7 @@ El código anterior proporciona una estructura básica para interactuar con el W
 Este enfoque permite una interacción fluida entre tu interfaz principal y la lógica física ejecutada por el worker, garantizando un rendimiento óptimo al separar las tareas pesadas de los cálculos físicos del bucle principal de renderizado.
 
 ### punto de partida
-<small>Creado: 2025-12-01 19:16</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -24480,7 +24546,7 @@ En resumen, este código proporciona una representación visualmente atractiva d
 ```
 
 ### activar o desactivar propiedades
-<small>Creado: 2025-12-01 19:18</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -24978,7 +25044,7 @@ Para un uso más interactivo, este código podría ser expandido para incluir m�
 ```
 
 ### dinamico
-<small>Creado: 2025-12-01 19:24</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -25558,7 +25624,7 @@ Este tipo de representación es útil para identificar patrones o clusters que p
 ```
 
 ### con worker
-<small>Creado: 2025-12-01 19:36</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -26089,7 +26155,7 @@ Este código demuestra cómo puede ser útil el uso del Web Worker para procesam
 ```
 
 ### espacio en 3D
-<small>Creado: 2025-12-01 19:44</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -26776,7 +26842,7 @@ Con estos cambios, el código es más modular y fácil de entender, lo que facil
 ```
 
 ### espacio en 3D mejorado
-<small>Creado: 2025-12-01 19:50</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -27552,7 +27618,7 @@ This application seems well thought out but can certainly benefit from optimizat
 ```
 
 ### direccion corregida
-<small>Creado: 2025-12-01 19:53</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -28446,7 +28512,7 @@ This should help your application run smoother and handle edge cases more gracef
 ```
 
 ### billboards y mas cosas
-<small>Creado: 2025-12-01 20:02</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -29257,7 +29323,7 @@ This app provides an engaging and interactive way to explore complex datasets, m
 ```
 
 ### mejoras en ver texto
-<small>Creado: 2025-12-01 20:06</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -30307,7 +30373,7 @@ Feel free to add further enhancements or customizations based on your applicatio
 ```
 
 ### texto a ver si ahora si
-<small>Creado: 2025-12-01 20:11</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -31249,7 +31315,7 @@ function crearNodos3D(personas) {
 ```
 
 ### giramos el texto
-<small>Creado: 2025-12-01 20:14</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -32389,7 +32455,7 @@ El código proporcionado es una versión mejorada y refactorizada del tuyo. Aseg
 ```
 
 ### carga de datos json
-<small>Creado: 2025-12-01 20:23</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -33356,7 +33422,7 @@ By integrating such features, you can make your 3D graph more interactive and re
 ```
 
 ### click en pastillas
-<small>Creado: 2025-12-01 20:53</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -34486,7 +34552,7 @@ This script provides a comprehensive framework for creating interactive, data-dr
 ```
 
 ### personas
-<small>Creado: 2025-12-01 19:32</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -34642,7 +34708,7 @@ Este archivo JSON es una fuente rica para ejercicios de programación y análisi
 ```
 
 ### personas2
-<small>Creado: 2025-12-01 20:19</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -35545,7 +35611,7 @@ This overview captures the variety in hobbies, professions, and city distributio
 ```
 
 ### worker
-<small>Creado: 2025-12-01 19:37</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -35925,6 +35991,8 @@ Esta estructura permite una visualización dinámica y fluida basada en los dato
 <a id="pautas-de-diseno-de-la-secuencia-de-control-de-la-aplicacion"></a>
 ## Pautas de diseño de la secuencia de control de la aplicación
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/004-Dise%C3%B1o%20de%20interfaces%20gr%C3%A1ficas/007-Pautas%20de%20dise%C3%B1o%20de%20la%20secuencia%20de%20control%20de%20la%20aplicaci%C3%B3n)
+
 
 
 <a id="creacion-de-informes"></a>
@@ -35932,6 +36000,8 @@ Esta estructura permite una visualización dinámica y fluida basada en los dato
 
 <a id="informes-incrustados-y-no-incrustados-en-la-aplicacion"></a>
 ## Informes incrustados y no incrustados en la aplicación
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/005-Creaci%C3%B3n%20de%20informes/001-Informes%20incrustados%20y%20no%20incrustados%20en%20la%20aplicaci%C3%B3n)
 
 ### Introducción a los ejercicios
 
@@ -35986,7 +36056,7 @@ The provided code is a dynamic SVG-based chart rendering system that fetches dat
 This code is highly customizable for different data sources and visualization needs. By modifying the `chartType` variable and adjusting animation parameters, developers can create engaging visual experiences tailored to specific use cases.
 
 ### pantalla completa de informe
-<small>Creado: 2025-11-24 20:01</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -36036,7 +36106,7 @@ Este tipo de código es útil cuando quieres crear interfaces dinámicas en tu a
 ```
 
 ### tarta css puro
-<small>Creado: 2025-11-24 20:02</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -36336,7 +36406,7 @@ Este tipo de código es importante en desarrollo web ya que permite crear interf
 ```
 
 ### incluir grafica
-<small>Creado: 2025-11-24 20:11</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -36395,7 +36465,7 @@ Este tipo de estructura es muy versátil para crear páginas dinámicas y atract
 ```
 
 ### con json
-<small>Creado: 2025-11-24 20:20</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -36557,7 +36627,7 @@ Esta página es útil en el contexto de desarrollo de interfaces gráficas web p
 ```
 
 ### mejoras
-<small>Creado: 2025-11-24 20:22</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -36828,7 +36898,7 @@ En resumen, este código combina PHP y CSS para crear una interfaz web moderna q
 ```
 
 ### diferentes tipos
-<small>Creado: 2025-11-24 20:29</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -37074,7 +37144,7 @@ Este código es importante porque combina estilos CSS modernos con programación
 ```
 
 ### mas usable
-<small>Creado: 2025-11-24 20:32</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -37321,7 +37391,7 @@ Este código es útil porque muestra cómo combinar HTML, CSS y PHP para crear u
 ```
 
 ### json externo
-<small>Creado: 2025-11-24 20:46</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -37496,7 +37566,7 @@ Este código es importante porque demuestra cómo integrar estilos CSS personali
 ```
 
 ### grafica
-<small>Creado: 2025-11-24 20:23</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -37817,7 +37887,7 @@ if (!defined('SVG_PIE_CHART_CSS_PRINTED')) {
 ```
 
 ### grafica2
-<small>Creado: 2025-11-24 20:32</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -38369,7 +38439,7 @@ if (!defined('SVG_CHARTS_CSS_PRINTED')) {
 ```
 
 ### grafica3
-<small>Creado: 2025-11-24 20:53</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -39063,6 +39133,8 @@ This system provides a dynamic, visually appealing way to display real-time or n
 <a id="herramientas-graficas-integradas-en-el-ide-y-externas-al-mismo"></a>
 ## Herramientas gráficas integradas en el IDE y externas al mismo
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/005-Creaci%C3%B3n%20de%20informes/002-Herramientas%20gr%C3%A1ficas%20integradas%20en%20el%20IDE%20y%20externas%20al%20mismo)
+
 ### Introducción a los ejercicios
 
 The provided codebase is a comprehensive server monitoring system that collects and visualizes various performance metrics. Below, I'll break down the key components and provide some improvements to ensure robustness and flexibility.
@@ -39187,7 +39259,7 @@ if (!isset($_GET['auth']) || base64_decode($_GET['auth']) !== 'jocarsa:jocarsa')
 This approach ensures a more maintainable, scalable, and secure system for monitoring server performance.
 
 ### api
-<small>Creado: 2025-11-25 16:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -39268,7 +39340,7 @@ switch ($endpoint) {
 ```
 
 ### grafica3
-<small>Creado: 2025-11-25 17:04</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -39809,7 +39881,7 @@ if (!defined('SVG_CHARTS_CSS_PRINTED')) {
 ```
 
 ### index
-<small>Creado: 2025-11-25 16:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -39985,7 +40057,7 @@ La importancia de este código radica en cómo combina diferentes tecnologías p
 ```
 
 ### server_monitor
-<small>Creado: 2025-11-25 16:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -40382,25 +40454,776 @@ Feel free to ask if you need more detailed guidance on any part! 🚀
 <a id="estructura-general-secciones"></a>
 ## Estructura general. Secciones
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/005-Creaci%C3%B3n%20de%20informes/003-Estructura%20general.%20Secciones)
+
 
 <a id="filtrado-de-datos"></a>
 ## Filtrado de datos
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/005-Creaci%C3%B3n%20de%20informes/004-Filtrado%20de%20datos)
 
 
 <a id="numeracion-de-lineas-recuentos-y-totales"></a>
 ## Numeración de líneas, recuentos y totales
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/005-Creaci%C3%B3n%20de%20informes/005-Numeraci%C3%B3n%20de%20l%C3%ADneas%2C%20recuentos%20y%20totales)
+
+### generador
+<small>Creado: 2025-12-22 20:03</small>
+
+`001-generador.py`
+
+```python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+code_to_image.py
+Render a code file into a transparent PNG "editor window" image.
+
+Dependencies:
+  - pillow
+Optional (for syntax highlighting):
+  - pygments
+
+Install:
+  pip install pillow
+  pip install pygments   # optional
+"""
+
+from __future__ import annotations
+
+import os
+import sys
+import math
+import textwrap
+from pathlib import Path
+from typing import List, Tuple, Optional
+
+from PIL import Image, ImageDraw, ImageFont
+
+# -----------------------------
+# CONFIG (edit these)
+# -----------------------------
+OUT_W = 800
+OUT_H = 400
+PADDING = 24
+
+# Editor window box
+BOX_RADIUS = 22
+BOX_BG = (10, 10, 12, 235)        # near-black, slightly translucent
+BOX_STROKE = (255, 255, 255, 28)  # subtle border
+
+# Title bar
+TITLEBAR_H = 44
+TITLE_TEXT_COLOR = (235, 235, 235, 220)
+TITLE_FONT_SIZE = 16
+
+# Code area
+CODE_FONT_SIZE = 16
+LINE_SPACING = 6
+CODE_TEXT_COLOR = (230, 230, 235, 235)
+LINENO_COLOR = (170, 170, 175, 140)
+LINENO_BG = None  # e.g. (255,255,255,10) if you want a subtle strip
+
+# Layout
+INNER_PAD_X = 18
+INNER_PAD_Y = 14
+GUTTER_GAP = 14           # gap between line numbers and code
+MAX_LINES = None          # set e.g. 200 to hard-limit
+
+# Mac buttons
+BTN_R = 7
+BTN_GAP = 8
+BTN_LEFT = 18
+BTN_Y = 22  # relative to titlebar top
+
+MAC_RED = (255, 95, 86, 235)
+MAC_YELLOW = (255, 189, 46, 235)
+MAC_GREEN = (39, 201, 63, 235)
+
+# Fonts (provide paths if you want exact fonts)
+# If None, the script tries common monospace fonts.
+MONO_FONT_PATH = None
+TITLE_FONT_PATH = None
+
+# Tabs/spaces
+TAB_SIZE = 4
+
+# Wrapping: set True to wrap long lines to fit the image
+WRAP_LONG_LINES = True
+
+# -----------------------------
+# Optional Pygments highlighting
+# -----------------------------
+USE_PYGMENTS_IF_AVAILABLE = True
+
+
+# -----------------------------
+# Helpers
+# -----------------------------
+def load_font(preferred_path: Optional[str], size: int, monospace: bool = False) -> ImageFont.FreeTypeFont:
+    """
+    Try to load a TTF/OTF font. Falls back to PIL default if needed.
+    """
+    candidates = []
+    if preferred_path:
+        candidates.append(preferred_path)
+
+    if monospace:
+        candidates += [
+            "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+            "/usr/share/fonts/truetype/liberation/LiberationMono-Regular.ttf",
+            "/usr/share/fonts/truetype/ubuntu/UbuntuMono-R.ttf",
+            "/System/Library/Fonts/Menlo.ttc",
+            "/Library/Fonts/Menlo.ttc",
+            "C:\\Windows\\Fonts\\consola.ttf",
+        ]
+    else:
+        candidates += [
+            "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+            "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf",
+            "/usr/share/fonts/truetype/ubuntu/Ubuntu-R.ttf",
+            "/System/Library/Fonts/SFNS.ttf",
+            "/Library/Fonts/Arial.ttf",
+            "C:\\Windows\\Fonts\\arial.ttf",
+        ]
+
+    for p in candidates:
+        try:
+            if p and os.path.exists(p):
+                return ImageFont.truetype(p, size=size)
+        except Exception:
+            pass
+
+    # Last resort
+    return ImageFont.load_default()
+
+
+def rounded_rect(draw: ImageDraw.ImageDraw, xy: Tuple[int, int, int, int], r: int, fill, outline=None, width: int = 1):
+    """
+    Draw a rounded rectangle with Pillow.
+    """
+    draw.rounded_rectangle(xy, radius=r, fill=fill, outline=outline, width=width)
+
+
+def ellipsize(text: str, font: ImageFont.FreeTypeFont, max_w: int, draw: ImageDraw.ImageDraw) -> str:
+    """
+    Truncate text with ellipsis to fit width.
+    """
+    if draw.textlength(text, font=font) <= max_w:
+        return text
+    ell = "…"
+    lo, hi = 0, len(text)
+    while lo < hi:
+        mid = (lo + hi) // 2
+        candidate = text[:mid] + ell
+        if draw.textlength(candidate, font=font) <= max_w:
+            lo = mid + 1
+        else:
+            hi = mid
+    return text[: max(0, lo - 1)] + ell
+
+
+def expand_tabs(s: str, tab_size: int) -> str:
+    return s.expandtabs(tab_size)
+
+
+def split_and_wrap_lines(lines: List[str], font: ImageFont.FreeTypeFont, max_text_w: int, draw: ImageDraw.ImageDraw) -> List[str]:
+    """
+    Wrap long lines to fit max_text_w. Keeps indentation visually.
+    """
+    if not WRAP_LONG_LINES:
+        return lines
+
+    wrapped: List[str] = []
+    for line in lines:
+        # Keep newline-free
+        raw = line.rstrip("\n")
+        if not raw:
+            wrapped.append("")
+            continue
+
+        # If it already fits, keep it
+        if draw.textlength(raw, font=font) <= max_text_w:
+            wrapped.append(raw)
+            continue
+
+        # Preserve leading spaces as indentation for wrapped segments
+        leading = len(raw) - len(raw.lstrip(" "))
+        indent = " " * leading
+        rest = raw.lstrip(" ")
+
+        # We wrap by measuring words, but code often has long tokens.
+        # So we do a character-based greedy wrap.
+        current = ""
+        for ch in rest:
+            test = (current + ch)
+            if draw.textlength(indent + test, font=font) <= max_text_w:
+                current = test
+            else:
+                wrapped.append(indent + current)
+                current = ch
+        if current:
+            wrapped.append(indent + current)
+
+    return wrapped
+
+
+# -----------------------------
+# Pygments integration (optional)
+# -----------------------------
+def try_get_pygments():
+    if not USE_PYGMENTS_IF_AVAILABLE:
+        return None
+    try:
+        import pygments  # noqa
+        from pygments import lex
+        from pygments.lexers import guess_lexer_for_filename, get_lexer_by_name, TextLexer
+        from pygments.token import Token
+        return {
+            "lex": lex,
+            "guess_lexer_for_filename": guess_lexer_for_filename,
+            "get_lexer_by_name": get_lexer_by_name,
+            "TextLexer": TextLexer,
+            "Token": Token,
+        }
+    except Exception:
+        return None
+
+
+def token_color_map():
+    """
+    A simple dark-theme-ish palette.
+    """
+    return {
+        "comment": (120, 160, 130, 210),
+        "string": (180, 220, 160, 230),
+        "keyword": (140, 190, 255, 235),
+        "name": (230, 230, 235, 235),
+        "number": (255, 210, 140, 235),
+        "operator": (210, 210, 220, 235),
+        "punct": (210, 210, 220, 235),
+        "builtin": (255, 170, 240, 235),
+        "decorator": (255, 170, 240, 235),
+        "other": (230, 230, 235, 235),
+    }
+
+
+def classify_token(ttype) -> str:
+    """
+    Reduce Pygments token types to a small set.
+    """
+    s = str(ttype)
+    # Examples: 'Token.Comment.Single', 'Token.Literal.String', 'Token.Keyword'
+    if "Comment" in s:
+        return "comment"
+    if "String" in s or "Char" in s:
+        return "string"
+    if "Keyword" in s:
+        return "keyword"
+    if "Number" in s:
+        return "number"
+    if "Operator" in s:
+        return "operator"
+    if "Punctuation" in s:
+        return "punct"
+    if "Name.Builtin" in s:
+        return "builtin"
+    if "Name.Decorator" in s:
+        return "decorator"
+    if "Name" in s:
+        return "name"
+    return "other"
+
+
+def render_with_optional_highlighting(
+    draw: ImageDraw.ImageDraw,
+    code_lines: List[str],
+    filename: str,
+    font: ImageFont.FreeTypeFont,
+    start_x: int,
+    start_y: int,
+    line_h: int,
+    max_w: int,
+):
+    """
+    Draw code lines either as plain text or token-colored segments (pygments).
+    """
+    pyg = try_get_pygments()
+    palette = token_color_map()
+
+    if pyg is None:
+        # Plain text
+        y = start_y
+        for line in code_lines:
+            draw.text((start_x, y), line, font=font, fill=CODE_TEXT_COLOR)
+            y += line_h
+        return
+
+    # Build one string for lexing, but render line by line.
+    from pygments.lexers import TextLexer  # type: ignore
+
+    # Guess lexer by filename + content
+    code_text = "\n".join(code_lines)
+    try:
+        lexer = pyg["guess_lexer_for_filename"](filename, code_text)
+    except Exception:
+        lexer = TextLexer()
+
+    # Tokenize full text, then split tokens by lines
+    tokens = list(pyg["lex"](code_text, lexer))
+
+    # Convert token stream to per-line segments
+    lines_segments: List[List[Tuple[str, Tuple[int, int, int, int]]]] = [[]]
+    for ttype, value in tokens:
+        # split by newlines while keeping color
+        parts = value.split("\n")
+        cls = classify_token(ttype)
+        color = palette.get(cls, palette["other"])
+
+        for i, part in enumerate(parts):
+            if i > 0:
+                lines_segments.append([])
+            if part:
+                lines_segments[-1].append((part, color))
+
+    # Render each line as segments
+    y = start_y
+    for segs in lines_segments:
+        x = start_x
+        for text, color in segs:
+            draw.text((x, y), text, font=font, fill=color)
+            x += draw.textlength(text, font=font)
+            if x > start_x + max_w:
+                break
+        y += line_h
+
+
+# -----------------------------
+# Main
+# -----------------------------
+def main():
+    if len(sys.argv) < 2:
+        print("Usage: python3 code_to_image.py path/to/file.py [output.png]")
+        sys.exit(1)
+
+    in_path = Path(sys.argv[1]).expanduser().resolve()
+    if not in_path.exists():
+        print(f"File not found: {in_path}")
+        sys.exit(1)
+
+    out_path = Path(sys.argv[2]).expanduser().resolve() if len(sys.argv) >= 3 else in_path.with_suffix(".png")
+
+    raw = in_path.read_text(encoding="utf-8", errors="replace").splitlines()
+    if MAX_LINES is not None:
+        raw = raw[:MAX_LINES]
+
+    # Expand tabs for consistent rendering
+    lines = [expand_tabs(l, TAB_SIZE) for l in raw]
+
+    # Create transparent canvas
+    img = Image.new("RGBA", (OUT_W, OUT_H), (0, 0, 0, 0))
+    draw = ImageDraw.Draw(img)
+
+    # Fonts
+    mono_font = load_font(MONO_FONT_PATH, CODE_FONT_SIZE, monospace=True)
+    title_font = load_font(TITLE_FONT_PATH, TITLE_FONT_SIZE, monospace=False)
+
+    # Editor window box area
+    x0 = PADDING
+    y0 = PADDING
+    x1 = OUT_W - PADDING
+    y1 = OUT_H - PADDING
+
+    # Draw rounded editor window
+    rounded_rect(draw, (x0, y0, x1, y1), BOX_RADIUS, fill=BOX_BG, outline=BOX_STROKE, width=1)
+
+    # Title bar separator (subtle line)
+    sep_y = y0 + TITLEBAR_H
+    draw.line([(x0 + 1, sep_y), (x1 - 1, sep_y)], fill=(255, 255, 255, 22), width=1)
+
+    # Mac buttons
+    btn_cy = y0 + BTN_Y
+    btn_cx = x0 + BTN_LEFT
+    for color in (MAC_RED, MAC_YELLOW, MAC_GREEN):
+        draw.ellipse((btn_cx - BTN_R, btn_cy - BTN_R, btn_cx + BTN_R, btn_cy + BTN_R), fill=color)
+        btn_cx += (BTN_R * 2 + BTN_GAP)
+
+    # Title (filename) centered in title bar
+    title = in_path.name
+    max_title_w = (x1 - x0) - 2 * 120  # leave room for buttons and margins
+    title = ellipsize(title, title_font, max_title_w, draw)
+    title_w = draw.textlength(title, font=title_font)
+    title_x = x0 + ((x1 - x0) - title_w) / 2
+    title_y = y0 + (TITLEBAR_H - TITLE_FONT_SIZE) / 2 - 2
+    draw.text((title_x, title_y), title, font=title_font, fill=TITLE_TEXT_COLOR)
+
+    # Compute code layout
+    inner_left = x0 + INNER_PAD_X
+    inner_top = y0 + TITLEBAR_H + INNER_PAD_Y
+    inner_right = x1 - INNER_PAD_X
+    inner_bottom = y1 - INNER_PAD_Y
+
+    # Line height
+    ascent, descent = mono_font.getmetrics()
+    base_line_h = ascent + descent
+    line_h = base_line_h + LINE_SPACING
+
+    # Determine visible lines
+    available_h = inner_bottom - inner_top
+    max_visible_lines = max(1, available_h // line_h)
+
+    # We will wrap BEFORE line numbers width calculation, because wrapping increases line count
+    # But line numbers should correspond to original lines; for wrapped continuations, we show blank lineno.
+    # So we keep a structure: display_lines = [(lineno_or_None, text)]
+    # First, wrapping each original line into 1..n display lines
+    tmp_img = Image.new("RGBA", (1, 1), (0, 0, 0, 0))
+    tmp_draw = ImageDraw.Draw(tmp_img)
+
+    # Compute gutter width from original line count
+    total_lines = max(1, len(lines))
+    lineno_digits = len(str(total_lines))
+    lineno_sample = "9" * lineno_digits
+    gutter_w = math.ceil(tmp_draw.textlength(lineno_sample, font=mono_font)) + 6
+
+    code_area_w = (inner_right - inner_left) - gutter_w - GUTTER_GAP
+    if code_area_w < 50:
+        raise RuntimeError("Image too small for the chosen padding/font sizes; increase OUT_W or reduce sizes.")
+
+    display: List[Tuple[Optional[int], str]] = []
+    # Wrap each original line; wrapped continuations have lineno None
+    for i, line in enumerate(lines, start=1):
+        if not WRAP_LONG_LINES or tmp_draw.textlength(line, font=mono_font) <= code_area_w:
+            display.append((i, line))
+        else:
+            wrapped = split_and_wrap_lines([line], mono_font, code_area_w, tmp_draw)
+            for j, wline in enumerate(wrapped):
+                display.append((i if j == 0 else None, wline))
+
+    # Clip to visible
+    display = display[:max_visible_lines]
+
+    # Optional: draw a faint lineno strip
+    if LINENO_BG is not None:
+        draw.rectangle((inner_left, inner_top, inner_left + gutter_w + 6, inner_bottom), fill=LINENO_BG)
+
+    # Draw line numbers + collect code lines for highlighting render
+    code_x = inner_left + gutter_w + GUTTER_GAP
+    y = inner_top
+
+    # Build a “code-only” list for pygments rendering *in display order*
+    # For wrapped continuation lines, we still render their text.
+    display_code_lines = [t for (_, t) in display]
+
+    # First draw line numbers
+    for ln, text in display:
+        if ln is not None:
+            s = str(ln).rjust(lineno_digits)
+            draw.text((inner_left, y), s, font=mono_font, fill=LINENO_COLOR)
+        y += line_h
+
+    # Then draw code content (plain or highlighted)
+    render_with_optional_highlighting(
+        draw=draw,
+        code_lines=display_code_lines,
+        filename=in_path.name,
+        font=mono_font,
+        start_x=code_x,
+        start_y=inner_top,
+        line_h=line_h,
+        max_w=code_area_w,
+    )
+
+    img.save(out_path, "PNG")
+    print(f"OK: {out_path}")
+
+
+if __name__ == "__main__":
+    main()
+```
+
+### antialias
+<small>Creado: 2025-12-22 20:03</small>
+
+`002-antialias.py`
+
+```python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+Render a code file as a slick macOS-style editor image (transparent PNG)
+- Ubuntu Mono font
+- Rounded black editor
+- macOS window controls
+- Line numbers
+- Optional syntax highlighting (Pygments)
+- High-quality antialiasing via 2x render + downscale
+"""
+
+from __future__ import annotations
+
+import sys
+import math
+from pathlib import Path
+from typing import List, Tuple, Optional
+
+from PIL import Image, ImageDraw, ImageFont
+
+# =============================
+# RENDER SCALE (for antialias)
+# =============================
+SCALE = 2  # render at 2x and downscale
+
+# =============================
+# IMAGE CONFIG
+# =============================
+OUT_W = 800
+OUT_H = 400
+PADDING = 24
+
+BOX_RADIUS = 22
+BOX_BG = (10, 10, 12, 235)
+BOX_STROKE = (255, 255, 255, 28)
+
+TITLEBAR_H = 44
+TITLE_TEXT_COLOR = (235, 235, 235, 220)
+
+CODE_TEXT_COLOR = (230, 230, 235, 235)
+LINENO_COLOR = (170, 170, 175, 140)
+
+INNER_PAD_X = 18
+INNER_PAD_Y = 14
+GUTTER_GAP = 14
+
+LINE_SPACING = 6
+TAB_SIZE = 4
+WRAP_LONG_LINES = True
+
+# =============================
+# MAC BUTTONS
+# =============================
+BTN_R = 7
+BTN_GAP = 8
+BTN_LEFT = 18
+BTN_Y = 22
+
+MAC_RED = (255, 95, 86, 235)
+MAC_YELLOW = (255, 189, 46, 235)
+MAC_GREEN = (39, 201, 63, 235)
+
+# =============================
+# FONTS (FORCED)
+# =============================
+UBUNTU_MONO = "UbuntuMono-R.ttf"
+CODE_FONT_SIZE = 16
+TITLE_FONT_SIZE = 16
+
+# =============================
+# OPTIONAL: PYGMENTS
+# =============================
+USE_PYGMENTS = True
+
+
+# -----------------------------
+# Helpers
+# -----------------------------
+def load_font(path: str, size: int) -> ImageFont.FreeTypeFont:
+    try:
+        return ImageFont.truetype(path, size=size)
+    except Exception:
+        raise RuntimeError(f"Font not found: {path}")
+
+
+def rounded_rect(draw, xy, r, fill, outline=None, width=1):
+    draw.rounded_rectangle(xy, radius=r, fill=fill, outline=outline, width=width)
+
+
+def expand_tabs(s: str) -> str:
+    return s.expandtabs(TAB_SIZE)
+
+
+def try_pygments():
+    if not USE_PYGMENTS:
+        return None
+    try:
+        from pygments import lex
+        from pygments.lexers import guess_lexer_for_filename, TextLexer
+        return lex, guess_lexer_for_filename, TextLexer
+    except Exception:
+        return None
+
+
+def token_palette(ttype: str):
+    if "Comment" in ttype:
+        return (120, 160, 130, 220)
+    if "String" in ttype:
+        return (180, 220, 160, 235)
+    if "Keyword" in ttype:
+        return (140, 190, 255, 235)
+    if "Number" in ttype:
+        return (255, 210, 140, 235)
+    if "Name.Builtin" in ttype:
+        return (255, 170, 240, 235)
+    return CODE_TEXT_COLOR
+
+
+# -----------------------------
+# Main
+# -----------------------------
+def main():
+    if len(sys.argv) < 2:
+        print("Usage: python3 code_to_image.py file.py [out.png]")
+        sys.exit(1)
+
+    in_file = Path(sys.argv[1]).resolve()
+    out_file = (
+        Path(sys.argv[2]).resolve()
+        if len(sys.argv) > 2
+        else in_file.with_suffix(".png")
+    )
+
+    lines = in_file.read_text(encoding="utf-8", errors="replace").splitlines()
+    lines = [expand_tabs(l) for l in lines]
+
+    # ---------- 2x canvas ----------
+    W, H = OUT_W * SCALE, OUT_H * SCALE
+    img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    draw = ImageDraw.Draw(img)
+
+    # ---------- fonts ----------
+    code_font = load_font(UBUNTU_MONO, CODE_FONT_SIZE * SCALE)
+    title_font = load_font(UBUNTU_MONO, TITLE_FONT_SIZE * SCALE)
+
+    # ---------- window ----------
+    px = PADDING * SCALE
+    x0, y0 = px, px
+    x1, y1 = W - px, H - px
+
+    rounded_rect(
+        draw,
+        (x0, y0, x1, y1),
+        BOX_RADIUS * SCALE,
+        BOX_BG,
+        BOX_STROKE,
+        width=1 * SCALE,
+    )
+
+    # ---------- mac buttons ----------
+    cy = y0 + BTN_Y * SCALE
+    cx = x0 + BTN_LEFT * SCALE
+    for c in (MAC_RED, MAC_YELLOW, MAC_GREEN):
+        draw.ellipse(
+            (cx - BTN_R * SCALE, cy - BTN_R * SCALE,
+             cx + BTN_R * SCALE, cy + BTN_R * SCALE),
+            fill=c,
+        )
+        cx += (BTN_R * 2 + BTN_GAP) * SCALE
+
+    # ---------- title ----------
+    title = in_file.name
+    tw = draw.textlength(title, font=title_font)
+    tx = x0 + ((x1 - x0) - tw) / 2
+    ty = y0 + (TITLEBAR_H * SCALE - TITLE_FONT_SIZE * SCALE) / 2
+    draw.text((tx, ty), title, font=title_font, fill=TITLE_TEXT_COLOR)
+
+    # ---------- code layout ----------
+    inner_left = x0 + INNER_PAD_X * SCALE
+    inner_top = y0 + (TITLEBAR_H + INNER_PAD_Y) * SCALE
+    inner_right = x1 - INNER_PAD_X * SCALE
+    inner_bottom = y1 - INNER_PAD_Y * SCALE
+
+    ascent, descent = code_font.getmetrics()
+    line_h = ascent + descent + LINE_SPACING * SCALE
+
+    lineno_digits = len(str(len(lines)))
+    gutter_w = int(draw.textlength("9" * lineno_digits, font=code_font)) + 8 * SCALE
+    code_x = inner_left + gutter_w + GUTTER_GAP * SCALE
+    max_code_w = inner_right - code_x
+
+    pyg = try_pygments()
+
+    y = inner_top
+    if pyg:
+        lex, guess_lexer, TextLexer = pyg
+        try:
+            lexer = guess_lexer(in_file.name, "\n".join(lines))
+        except Exception:
+            lexer = TextLexer()
+        tokens = list(lex("\n".join(lines), lexer))
+
+        line_tokens = [[]]
+        for ttype, value in tokens:
+            parts = value.split("\n")
+            for i, p in enumerate(parts):
+                if i > 0:
+                    line_tokens.append([])
+                if p:
+                    line_tokens[-1].append((p, token_palette(str(ttype))))
+
+        for i, segs in enumerate(line_tokens, start=1):
+            if y + line_h > inner_bottom:
+                break
+            ln = str(i).rjust(lineno_digits)
+            draw.text((inner_left, y), ln, font=code_font, fill=LINENO_COLOR)
+
+            x = code_x
+            for txt, col in segs:
+                draw.text((x, y), txt, font=code_font, fill=col)
+                x += draw.textlength(txt, font=code_font)
+                if x > code_x + max_code_w:
+                    break
+            y += line_h
+    else:
+        for i, line in enumerate(lines, start=1):
+            if y + line_h > inner_bottom:
+                break
+            ln = str(i).rjust(lineno_digits)
+            draw.text((inner_left, y), ln, font=code_font, fill=LINENO_COLOR)
+            draw.text((code_x, y), line, font=code_font, fill=CODE_TEXT_COLOR)
+            y += line_h
+
+    # ---------- downscale (antialias) ----------
+    img = img.resize((OUT_W, OUT_H), Image.LANCZOS)
+    img.save(out_file, "PNG")
+    print(f"OK → {out_file}")
+
+
+if __name__ == "__main__":
+    main()
+```
+
+### codigo
+<small>Creado: 2025-12-22 20:03</small>
+
+`codigo.py`
+
+```python
+def diHola(nombre,edad):
+  print("Hola,",nombre,"tienes",edad,"años y yo te saludo")
+  
+diHola("Jose Vicente",47)
+diHola("Juan",48)
+```
+
 
 <a id="graficos"></a>
 ## Gráficos
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/005-Creaci%C3%B3n%20de%20informes/006-Gr%C3%A1ficos)
 
 
 <a id="librerias-para-generacion-de-informes-clases-metodos-y-atributos"></a>
 ## Librerías para generación de informes. Clases, métodos y atributos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/005-Creaci%C3%B3n%20de%20informes/007-Librer%C3%ADas%20para%20generaci%C3%B3n%20de%20informes.%20Clases%2C%20m%C3%A9todos%20y%20atributos)
+
 
 <a id="conexion-con-las-fuentes-de-datos-ejecucion-de-consultas"></a>
 ## Conexión con las fuentes de datos. Ejecución de consultas
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/005-Creaci%C3%B3n%20de%20informes/008-Conexi%C3%B3n%20con%20las%20fuentes%20de%20datos.%20Ejecuci%C3%B3n%20de%20consultas)
 
 
 
@@ -40410,21 +41233,4858 @@ Feel free to ask if you need more detailed guidance on any part! 🚀
 <a id="ficheros-de-ayuda-formatos"></a>
 ## Ficheros de ayuda. Formatos
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/006-Documentaci%C3%B3n%20de%20aplicaciones/001-Ficheros%20de%20ayuda.%20Formatos)
+
+### generador articulos por carpeta
+<small>Creado: 2025-12-22 20:03</small>
+
+`001-generador articulos por carpeta.py`
+
+```python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+Generador unificado para carpetas 101-Ejercicios:
+
+Para cada carpeta:
+1) Genera una introducción didáctica GLOBAL (1–3 párrafos)  -> introducciones_folder/<hash>.md
+2) Genera explicaciones archivo-a-archivo (1–3 párrafos)    -> explicaciones_apuntes/<hash>.md
+   - Si detecta "continuación" (mismo prefijo numérico), compara con el anterior y añade un último párrafo de diferencias
+3) Genera un artículo tipo blog técnico (Markdown) usando ejemplos REALES del folder
+4) Selecciona 1 archivo representativo y renderiza una imagen PNG estilo editor macOS (para el post)
+5) Guarda artículo + imagen en subcarpetas por cada 101-Ejercicios
+
+Requisitos:
+- pip install requests pillow
+- (opcional) pip install pygments
+- Tener UbuntuMono-R.ttf accesible (ver UBUNTU_MONO_PATH)
+
+NOTA:
+- Se asume que existe `apuntes.py` (mismo proyecto) y expone:
+  - sort_key(entry_or_dirent)
+  - is_text_file(path: Path) -> bool
+  - language_from_extension(path: Path) -> str | None
+"""
+
+from __future__ import annotations
+
+import os
+import re
+import json
+import math
+import time
+import hashlib
+from pathlib import Path
+from typing import Optional, Tuple, List, Dict, Set
+
+import requests
+import urllib3
+from PIL import Image, ImageDraw, ImageFont
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+import apuntes  # noqa
+
+
+# ============================================================
+# CONFIG
+# ============================================================
+API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php"
+API_KEY = "TEST_API_KEY_JOCARSA_123"  # <-- pon tu clave real
+
+# Raíces a procesar (puedes añadir varias)
+ROOT_DIRS: list[Path] = [
+     Path("/var/www/html/dam2526/Primero/Programación"),
+    # Path("/var/www/html/dam2526/Segundo"),
+]
+
+# Directorio base del proyecto (mismo que apuntes.py)
+APUNTES_DIR = Path(apuntes.__file__).resolve().parent
+
+# Salidas “globales” (como tus scripts anteriores)
+INTRODUCCIONES_DIR = APUNTES_DIR / "introducciones_folder"
+EXPLICACIONES_DIR = APUNTES_DIR / "explicaciones_apuntes"
+
+# Salidas por-carpeta (subcarpetas por cada 101-Ejercicios)
+BLOG_DIR = APUNTES_DIR / "blog_folder"  # aquí se crearán subcarpetas por cada folder
+
+# Si no quieres regenerar si ya existe
+SKIP_IF_EXISTS = True
+
+# Límite de contexto para el artículo (para no enviar carpetas enormes)
+MAX_FILES_FOR_ARTICLE_CONTEXT = 12
+MAX_CHARS_PER_FILE_FOR_ARTICLE = 6000
+
+# ============================================================
+# Imagen de código (renderer)
+# ============================================================
+SCALE = 2
+OUT_W = 800
+OUT_H = 400
+PADDING = 24
+
+BOX_RADIUS = 22
+BOX_BG = (10, 10, 12, 235)
+BOX_STROKE = (255, 255, 255, 28)
+
+TITLEBAR_H = 44
+TITLE_TEXT_COLOR = (235, 235, 235, 220)
+
+CODE_TEXT_COLOR = (230, 230, 235, 235)
+LINENO_COLOR = (170, 170, 175, 140)
+
+INNER_PAD_X = 18
+INNER_PAD_Y = 14
+GUTTER_GAP = 14
+
+LINE_SPACING = 6
+TAB_SIZE = 4
+
+BTN_R = 7
+BTN_GAP = 8
+BTN_LEFT = 18
+BTN_Y = 22
+
+MAC_RED = (255, 95, 86, 235)
+MAC_YELLOW = (255, 189, 46, 235)
+MAC_GREEN = (39, 201, 63, 235)
+
+# Ruta a la fuente (ajusta si la tienes en otro sitio)
+UBUNTU_MONO_PATH = APUNTES_DIR / "UbuntuMono-R.ttf"
+
+CODE_FONT_SIZE = 16
+TITLE_FONT_SIZE = 16
+
+USE_PYGMENTS = True
+
+
+# ============================================================
+# Hashing (compatibles con tus scripts)
+# ============================================================
+def compute_hash_for_path(path: Path) -> str:
+    full_id = str(path.resolve())
+    return hashlib.sha256(full_id.encode("utf-8")).hexdigest()
+
+
+def compute_hash_for_file(path: Path) -> str:
+    full_id = str(path.resolve())
+    return hashlib.sha256(full_id.encode("utf-8")).hexdigest()
+
+
+def get_intro_path(folder_path: Path) -> Path:
+    return INTRODUCCIONES_DIR / f"{compute_hash_for_path(folder_path)}.md"
+
+
+def get_explanation_path(file_path: Path) -> Path:
+    return EXPLICACIONES_DIR / f"{compute_hash_for_file(file_path)}.md"
+
+
+def get_blog_output_dir(folder_path: Path) -> Path:
+    """
+    Subcarpeta por cada carpeta 101-Ejercicios.
+    Guardamos:
+      - article.md
+      - code.png
+      - meta.json (opcional)
+    """
+    h = compute_hash_for_path(folder_path)
+    safe_name = folder_path.name.replace(" ", "_")
+    return BLOG_DIR / f"{safe_name}__{h}"
+
+
+# ============================================================
+# API
+# ============================================================
+def call_remote_llm(question: str) -> str:
+    try:
+        resp = requests.post(
+            API_URL,
+            headers={"X-API-Key": API_KEY},
+            data={"question": question},
+            timeout=300,
+            verify=False,
+        )
+    except Exception as e:
+        raise RuntimeError(f"Error al contactar con la API remota: {e}")
+
+    if resp.status_code != 200:
+        raise RuntimeError(f"API remota devolvió HTTP {resp.status_code}: {resp.text}")
+
+    try:
+        data = resp.json()
+    except Exception:
+        raise RuntimeError(f"No se pudo parsear JSON desde la API remota: {resp.text}")
+
+    answer = data.get("answer")
+    if not answer:
+        raise RuntimeError(f"La respuesta de la API no contiene 'answer': {data}")
+
+    return answer.strip()
+
+
+# ============================================================
+# Descubrimiento de carpetas 101-Ejercicios
+# ============================================================
+def iter_exercise_folders(source_dir: Path):
+    """
+    Recorre: unidad -> subunidad -> 101-Ejercicios*
+    Devuelve cada Path a la carpeta 101-Ejercicios*.
+    """
+    source_dir = source_dir.resolve()
+
+    units = [e for e in os.scandir(source_dir) if e.is_dir()]
+    units.sort(key=apuntes.sort_key)
+
+    for unit in units:
+        subunits = [e for e in os.scandir(unit.path) if e.is_dir()]
+        subunits.sort(key=apuntes.sort_key)
+
+        for subunit in subunits:
+            subunit_path = Path(subunit.path)
+
+            ejercicios_folder = None
+            for e in os.scandir(subunit_path):
+                if e.is_dir() and e.name.lower().startswith("101-ejercicios"):
+                    ejercicios_folder = Path(e.path)
+                    break
+
+            if ejercicios_folder and ejercicios_folder.exists():
+                yield ejercicios_folder
+
+
+def list_text_exercise_files(ejercicios_folder: Path) -> list[Path]:
+    entries = [e for e in os.scandir(ejercicios_folder) if e.is_file()]
+    entries.sort(key=apuntes.sort_key)
+
+    out: list[Path] = []
+    for f in entries:
+        p = Path(f.path)
+        if not apuntes.is_text_file(p):
+            continue
+        out.append(p)
+    return out
+
+
+def read_file_text(path: Path) -> str:
+    return path.read_text(encoding="utf-8", errors="replace")
+
+
+def get_numeric_prefix(filename: str) -> Optional[str]:
+    m = re.match(r"^(\d+)", filename)
+    return m.group(1) if m else None
+
+
+# ============================================================
+# 1) Introducción global (carpeta)
+# ============================================================
+def build_intro_question(codes_by_file: dict[Path, str], langs: set[str], folder_path: Path) -> str:
+    languages_desc = ", ".join(sorted(langs)) if langs else "desconocidos"
+    contexto = (
+        f"Carpeta de ejercicios: {folder_path}\n"
+        f"Número de archivos de ejercicio: {len(codes_by_file)}\n"
+        f"Lenguajes detectados: {languages_desc}"
+    )
+
+    bloques = []
+    for path, code in codes_by_file.items():
+        bloques.append(f"=== ARCHIVO: {path.name} ===\n{code}")
+    codigo_conjunto = "\n\n".join(bloques)
+
+    return (
+        "Eres un profesor de programación que ayuda a comprender conjuntos de ejercicios de código. "
+        "Tu objetivo es explicar de forma clara, concisa y didáctica, SIEMPRE en español.\n\n"
+        "INSTRUCCIONES:\n"
+        "- Escribe una explicación INTRODUCTORIA y GLOBAL sobre el conjunto de ejercicios de esta carpeta.\n"
+        "- Resume qué tipo de problemas se trabajan y qué competencias se practican.\n"
+        "- No entres en detalle ejercicio por ejercicio.\n"
+        "- No incluyas el código en la respuesta.\n"
+        "- No generes ejemplos adicionales.\n"
+        "- Limítate a UNO, DOS o TRES párrafos como máximo.\n"
+        "- Dirígete a estudiantes de Formación Profesional.\n\n"
+        f"{contexto}\n\n"
+        "A continuación tienes el contenido de todos los archivos de ejercicio de la carpeta. "
+        "Úsalo solo como contexto para tu explicación global:\n"
+        "```texto\n"
+        + codigo_conjunto
+        + "\n```"
+    )
+
+
+def generate_folder_intro(ejercicios_folder: Path, files_in_folder: list[Path]) -> Optional[Path]:
+    intro_path = get_intro_path(ejercicios_folder)
+    if SKIP_IF_EXISTS and intro_path.is_file():
+        return intro_path
+
+    codes_by_file: dict[Path, str] = {}
+    langs: set[str] = set()
+
+    for fp in files_in_folder:
+        code = read_file_text(fp)
+        codes_by_file[fp] = code
+        lang = apuntes.language_from_extension(fp)
+        if lang:
+            langs.add(lang)
+
+    if not codes_by_file:
+        return None
+
+    q = build_intro_question(codes_by_file, langs, ejercicios_folder)
+    intro_text = call_remote_llm(q)
+
+    INTRODUCCIONES_DIR.mkdir(parents=True, exist_ok=True)
+    intro_path.write_text(intro_text, encoding="utf-8")
+    return intro_path
+
+
+# ============================================================
+# 2) Explicación por archivo (con continuidad)
+# ============================================================
+def build_file_explanation_question(
+    code: str,
+    lang: str,
+    file_path: Path,
+    folder_exercises: list[Path],
+    prev_code: Optional[str],
+    prev_file: Optional[Path],
+    is_continuation: bool,
+) -> str:
+    carpeta_ejercicios = file_path.parent
+    lista_ejercicios = "\n".join(f"- {p.name}" for p in folder_exercises)
+
+    contexto = (
+        f"Ruta del archivo actual: {file_path}\n"
+        f"Carpeta de ejercicios: {carpeta_ejercicios}\n"
+        "Otros archivos de ejercicios en esta carpeta:\n"
+        f"{lista_ejercicios}\n"
+        f"Lenguaje detectado: {lang or 'desconocido'}"
+    )
+
+    instrucciones = (
+        "Eres un profesor de programación que ayuda a comprender pequeños bloques de código. "
+        "Tu objetivo es explicar de forma clara, concisa y didáctica, SIEMPRE en español.\n\n"
+        "INSTRUCCIONES GENERALES:\n"
+        "- Explica el fragmento de código en **uno, dos o tres párrafos como máximo**.\n"
+        "- No incluyas el código en la respuesta.\n"
+        "- No generes ejemplos adicionales.\n"
+        "- Describe qué hace el código, cómo funciona y por qué es importante.\n"
+        "- Dirígete a estudiantes de Formación Profesional.\n"
+    )
+
+    comparacion = ""
+    if is_continuation and prev_code is not None and prev_file is not None:
+        comparacion = (
+            "\n\nINSTRUCCIONES ADICIONALES PARA LA COMPARACIÓN:\n"
+            f"- Este archivo parece ser una versión posterior o una continuación directa del ejercicio previo: {prev_file.name}.\n"
+            "- Ten en cuenta el código del archivo anterior y compáralo con el actual.\n"
+            "- Después de la explicación principal, añade un ÚLTIMO PÁRRAFO que resuma SOLAMENTE "
+            "las diferencias, cambios, mejoras o nuevas ideas respecto a la versión anterior.\n"
+        )
+
+    question = instrucciones + contexto + comparacion + "\n\n"
+
+    if is_continuation and prev_code is not None:
+        question += (
+            "Código del archivo ANTERIOR:\n"
+            "```" + (lang or "") + "\n"
+            + prev_code +
+            "\n```\n\n"
+        )
+
+    question += (
+        "Código del archivo ACTUAL a explicar:\n"
+        "```" + (lang or "") + "\n"
+        + code +
+        "\n```"
+    )
+
+    return question
+
+
+def generate_file_explanations(ejercicios_folder: Path, files_in_folder: list[Path]) -> list[Path]:
+    EXPLICACIONES_DIR.mkdir(parents=True, exist_ok=True)
+    written: list[Path] = []
+
+    for idx, code_file in enumerate(files_in_folder):
+        out_path = get_explanation_path(code_file)
+        if SKIP_IF_EXISTS and out_path.is_file():
+            written.append(out_path)
+            continue
+
+        prev_code = None
+        prev_file = None
+        is_continuation = False
+
+        if idx > 0:
+            prev_file = files_in_folder[idx - 1]
+            cur_prefix = get_numeric_prefix(code_file.name)
+            prev_prefix = get_numeric_prefix(prev_file.name)
+
+            if cur_prefix is not None and prev_prefix is not None and cur_prefix == prev_prefix:
+                try:
+                    prev_code = read_file_text(prev_file)
+                    is_continuation = True
+                except Exception:
+                    prev_code = None
+                    is_continuation = False
+
+        code = read_file_text(code_file)
+        lang = apuntes.language_from_extension(code_file) or ""
+
+        q = build_file_explanation_question(
+            code=code,
+            lang=lang,
+            file_path=code_file,
+            folder_exercises=files_in_folder,
+            prev_code=prev_code,
+            prev_file=prev_file,
+            is_continuation=is_continuation,
+        )
+        explanation = call_remote_llm(q)
+
+        out_path.write_text(explanation, encoding="utf-8")
+        written.append(out_path)
+
+    return written
+
+
+# ============================================================
+# 3) Artículo didáctico tipo blog (Markdown con ejemplos reales)
+# ============================================================
+def build_blog_article_question(
+    ejercicios_folder: Path,
+    files_in_folder: list[Path],
+    intro_text: Optional[str],
+) -> str:
+    # Para evitar prompts gigantes, recortamos el contexto
+    selected_files = files_in_folder[:MAX_FILES_FOR_ARTICLE_CONTEXT]
+
+    bloques = []
+    for fp in selected_files:
+        lang = apuntes.language_from_extension(fp) or ""
+        raw = read_file_text(fp)
+        raw = raw[:MAX_CHARS_PER_FILE_FOR_ARTICLE]
+        bloques.append(
+            f"=== ARCHIVO: {fp.name} ===\n"
+            f"```{lang}\n{raw}\n```"
+        )
+
+    contexto = (
+        f"Carpeta de ejercicios: {ejercicios_folder}\n"
+        f"Número total de archivos en la carpeta: {len(files_in_folder)}\n"
+        f"Archivos incluidos como contexto: {len(selected_files)}\n"
+    )
+
+    intro_block = ""
+    if intro_text:
+        intro_block = (
+            "\nAdemás, aquí tienes una introducción global ya generada para la carpeta (úsala si te ayuda a estructurar):\n"
+            f"{intro_text}\n"
+        )
+
+    return (
+        "Eres un profesor de programación y también redactor técnico. "
+        "Escribe un ARTÍCULO tipo blog didáctico, SIEMPRE en español, en formato Markdown.\n\n"
+        "REQUISITOS ESTRICTOS:\n"
+        "- Usa SOLO ejemplos REALES extraídos del código proporcionado (no inventes código nuevo).\n"
+        "- Puedes citar fragmentos cortos de los archivos como bloques de código.\n"
+        "- Evita explicar archivo por archivo: agrupa por ideas/competencias.\n"
+        "- El artículo debe ser útil para estudiantes de Formación Profesional.\n"
+        "- Incluye estas secciones (con títulos Markdown):\n"
+        "  1) # Título\n"
+        "  2) Introducción (qué se va a aprender aquí)\n"
+        "  3) Conceptos clave (3–6 bullets)\n"
+        "  4) Ejemplos del repositorio (2–5 bloques de código breves, con explicación)\n"
+        "  5) Errores típicos / consejos (bullets)\n"
+        "  6) Mini-reto (sin código; solo enunciado)\n"
+        "- No menciones 'Ollama', 'API', ni el prompt.\n"
+        "- No añadas enlaces externos.\n\n"
+        f"{contexto}\n"
+        f"{intro_block}\n"
+        "CONTEXTO (código real):\n\n"
+        + "\n\n".join(bloques)
+    )
+
+
+def generate_blog_article_markdown(
+    ejercicios_folder: Path,
+    files_in_folder: list[Path],
+    intro_path: Optional[Path],
+    out_dir: Path,
+) -> Path:
+    out_dir.mkdir(parents=True, exist_ok=True)
+    md_path = out_dir / "article.md"
+
+    if SKIP_IF_EXISTS and md_path.is_file():
+        return md_path
+
+    intro_text = intro_path.read_text(encoding="utf-8") if (intro_path and intro_path.is_file()) else None
+    q = build_blog_article_question(ejercicios_folder, files_in_folder, intro_text)
+    article = call_remote_llm(q)
+
+    md_path.write_text(article, encoding="utf-8")
+    return md_path
+
+
+# ============================================================
+# 4) Selección de archivo representativo para imagen
+# ============================================================
+def pick_representative_file(files_in_folder: list[Path]) -> Optional[Path]:
+    if not files_in_folder:
+        return None
+
+    # Heurística:
+    # - Preferir el primero por orden “apuntes.sort_key”
+    # - Si ese es muy corto (p.e. < 5 líneas), buscar uno con más “sustancia”
+    candidates = files_in_folder[:]
+    candidates.sort(key=lambda p: apuntes.sort_key(type("E", (), {"name": p.name})()))  # compat rápida
+
+    def score(p: Path) -> Tuple[int, int]:
+        txt = read_file_text(p)
+        lines = txt.splitlines()
+        non_empty = sum(1 for l in lines if l.strip())
+        # preferimos archivos con 10-60 líneas (buena densidad para imagen 800x400)
+        target = 30
+        closeness = -abs(non_empty - target)
+        return (closeness, non_empty)
+
+    best = candidates[0]
+    try:
+        if len(read_file_text(best).splitlines()) < 5 and len(candidates) > 1:
+            best = max(candidates, key=score)
+    except Exception:
+        pass
+
+    return best
+
+
+# ============================================================
+# 5) Renderer de imagen (código -> PNG)
+# ============================================================
+def load_font(path: Path, size: int) -> ImageFont.FreeTypeFont:
+    if not path.is_file():
+        raise RuntimeError(f"Font not found: {path}")
+    return ImageFont.truetype(str(path), size=size)
+
+
+def rounded_rect(draw: ImageDraw.ImageDraw, xy, r, fill, outline=None, width=1):
+    draw.rounded_rectangle(xy, radius=r, fill=fill, outline=outline, width=width)
+
+
+def expand_tabs(s: str) -> str:
+    return s.expandtabs(TAB_SIZE)
+
+
+def try_pygments():
+    if not USE_PYGMENTS:
+        return None
+    try:
+        from pygments import lex
+        from pygments.lexers import guess_lexer_for_filename, TextLexer
+        return lex, guess_lexer_for_filename, TextLexer
+    except Exception:
+        return None
+
+
+def token_palette(ttype: str):
+    if "Comment" in ttype:
+        return (120, 160, 130, 220)
+    if "String" in ttype:
+        return (180, 220, 160, 235)
+    if "Keyword" in ttype:
+        return (140, 190, 255, 235)
+    if "Number" in ttype:
+        return (255, 210, 140, 235)
+    if "Name.Builtin" in ttype:
+        return (255, 170, 240, 235)
+    return CODE_TEXT_COLOR
+
+
+def render_code_image(in_file: Path, out_file: Path) -> Path:
+    lines = read_file_text(in_file).splitlines()
+    lines = [expand_tabs(l) for l in lines]
+
+    W, H = OUT_W * SCALE, OUT_H * SCALE
+    img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    draw = ImageDraw.Draw(img)
+
+    code_font = load_font(UBUNTU_MONO_PATH, CODE_FONT_SIZE * SCALE)
+    title_font = load_font(UBUNTU_MONO_PATH, TITLE_FONT_SIZE * SCALE)
+
+    px = PADDING * SCALE
+    x0, y0 = px, px
+    x1, y1 = W - px, H - px
+
+    rounded_rect(
+        draw,
+        (x0, y0, x1, y1),
+        BOX_RADIUS * SCALE,
+        BOX_BG,
+        BOX_STROKE,
+        width=1 * SCALE,
+    )
+
+    cy = y0 + BTN_Y * SCALE
+    cx = x0 + BTN_LEFT * SCALE
+    for c in (MAC_RED, MAC_YELLOW, MAC_GREEN):
+        draw.ellipse(
+            (cx - BTN_R * SCALE, cy - BTN_R * SCALE,
+             cx + BTN_R * SCALE, cy + BTN_R * SCALE),
+            fill=c,
+        )
+        cx += (BTN_R * 2 + BTN_GAP) * SCALE
+
+    title = in_file.name
+    tw = draw.textlength(title, font=title_font)
+    tx = x0 + ((x1 - x0) - tw) / 2
+    ty = y0 + (TITLEBAR_H * SCALE - TITLE_FONT_SIZE * SCALE) / 2
+    draw.text((tx, ty), title, font=title_font, fill=TITLE_TEXT_COLOR)
+
+    inner_left = x0 + INNER_PAD_X * SCALE
+    inner_top = y0 + (TITLEBAR_H + INNER_PAD_Y) * SCALE
+    inner_right = x1 - INNER_PAD_X * SCALE
+    inner_bottom = y1 - INNER_PAD_Y * SCALE
+
+    ascent, descent = code_font.getmetrics()
+    line_h = ascent + descent + LINE_SPACING * SCALE
+
+    lineno_digits = len(str(max(1, len(lines))))
+    gutter_w = int(draw.textlength("9" * lineno_digits, font=code_font)) + 8 * SCALE
+    code_x = inner_left + gutter_w + GUTTER_GAP * SCALE
+    max_code_w = inner_right - code_x
+
+    pyg = try_pygments()
+    y = inner_top
+
+    if pyg:
+        lex, guess_lexer, TextLexer = pyg
+        try:
+            lexer = guess_lexer(in_file.name, "\n".join(lines))
+        except Exception:
+            lexer = TextLexer()
+
+        tokens = list(lex("\n".join(lines), lexer))
+
+        line_tokens: list[list[tuple[str, tuple[int, int, int, int]]]] = [[]]
+        for ttype, value in tokens:
+            parts = value.split("\n")
+            for i, p in enumerate(parts):
+                if i > 0:
+                    line_tokens.append([])
+                if p:
+                    line_tokens[-1].append((p, token_palette(str(ttype))))
+
+        for i, segs in enumerate(line_tokens, start=1):
+            if y + line_h > inner_bottom:
+                break
+            ln = str(i).rjust(lineno_digits)
+            draw.text((inner_left, y), ln, font=code_font, fill=LINENO_COLOR)
+
+            x = code_x
+            for txt, col in segs:
+                draw.text((x, y), txt, font=code_font, fill=col)
+                x += draw.textlength(txt, font=code_font)
+                if x > code_x + max_code_w:
+                    break
+            y += line_h
+    else:
+        for i, line in enumerate(lines, start=1):
+            if y + line_h > inner_bottom:
+                break
+            ln = str(i).rjust(lineno_digits)
+            draw.text((inner_left, y), ln, font=code_font, fill=LINENO_COLOR)
+            draw.text((code_x, y), line, font=code_font, fill=CODE_TEXT_COLOR)
+            y += line_h
+
+    img = img.resize((OUT_W, OUT_H), Image.LANCZOS)
+    out_file.parent.mkdir(parents=True, exist_ok=True)
+    img.save(out_file, "PNG")
+    return out_file
+
+
+# ============================================================
+# Orquestación por carpeta 101-Ejercicios
+# ============================================================
+def process_one_exercises_folder(ejercicios_folder: Path):
+    files_in_folder = list_text_exercise_files(ejercicios_folder)
+    if not files_in_folder:
+        print(f"[OMITIDO] Sin archivos de texto: {ejercicios_folder}")
+        return
+
+    # 1) Intro global
+    intro_path = generate_folder_intro(ejercicios_folder, files_in_folder)
+    if intro_path:
+        print(f"[OK] Intro: {intro_path.name}")
+
+    # 2) Explicaciones por archivo
+    expl_paths = generate_file_explanations(ejercicios_folder, files_in_folder)
+    print(f"[OK] Explicaciones: {len(expl_paths)}")
+
+    # 3) Artículo blog
+    out_dir = get_blog_output_dir(ejercicios_folder)
+    article_path = generate_blog_article_markdown(ejercicios_folder, files_in_folder, intro_path, out_dir)
+    print(f"[OK] Artículo: {article_path}")
+
+    # 4) Imagen (archivo representativo)
+    rep = pick_representative_file(files_in_folder)
+    if rep:
+        img_path = out_dir / "code.png"
+        if not (SKIP_IF_EXISTS and img_path.is_file()):
+            render_code_image(rep, img_path)
+        print(f"[OK] Imagen: {img_path.name} (de {rep.name})")
+
+        # meta.json (útil para indexar)
+        meta = {
+            "folder": str(ejercicios_folder),
+            "representative_file": str(rep),
+            "article_md": str(article_path),
+            "image_png": str(img_path),
+            "intro_md": str(intro_path) if intro_path else None,
+            "generated_at": time.strftime("%Y-%m-%d %H:%M:%S"),
+        }
+        (out_dir / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def main():
+    INTRODUCCIONES_DIR.mkdir(parents=True, exist_ok=True)
+    EXPLICACIONES_DIR.mkdir(parents=True, exist_ok=True)
+    BLOG_DIR.mkdir(parents=True, exist_ok=True)
+
+    if not ROOT_DIRS:
+        print("ERROR: ROOT_DIRS está vacío. Edita el script y añade rutas a procesar.")
+        return
+
+    # Validación fuente
+    if not UBUNTU_MONO_PATH.is_file():
+        print(f"ERROR: No encuentro la fuente UbuntuMono aquí: {UBUNTU_MONO_PATH}")
+        print("Coloca UbuntuMono-R.ttf en la carpeta del proyecto (junto a apuntes.py) o ajusta UBUNTU_MONO_PATH.")
+        return
+
+    for root in ROOT_DIRS:
+        root = root.resolve()
+        if not root.is_dir():
+            print(f"[OMITIDO] No es directorio: {root}")
+            continue
+
+        print("\n" + "=" * 80)
+        print(f"Procesando raíz: {root}")
+        print("=" * 80)
+
+        for ejercicios_folder in iter_exercise_folders(root):
+            print(f"\n--- 101-Ejercicios: {ejercicios_folder} ---")
+            try:
+                process_one_exercises_folder(ejercicios_folder)
+            except Exception as e:
+                print(f"  !! Error en {ejercicios_folder}: {e}")
+
+    print("\nProceso completado.")
+
+
+if __name__ == "__main__":
+    main()
+```
+
+### mejora keywords
+<small>Creado: 2025-12-22 20:03</small>
+
+`002-mejora keywords.py`
+
+```python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+Generador unificado para carpetas 101-Ejercicios:
+
+Para cada carpeta:
+1) Genera una introducción didáctica GLOBAL (1–3 párrafos)  -> introducciones_folder/<hash>.md
+2) Genera explicaciones archivo-a-archivo (1–3 párrafos)    -> explicaciones_apuntes/<hash>.md
+   - Si detecta "continuación" (mismo prefijo numérico), compara con el anterior y añade un último párrafo de diferencias
+3) Genera un artículo tipo blog técnico (Markdown) usando ejemplos REALES del folder
+4) Selecciona 1 archivo representativo y renderiza una imagen PNG estilo editor macOS (para el post)
+5) Genera keywords.txt (4–6 keywords) a partir del artículo
+6) Guarda artículo + imagen + keywords en subcarpetas por cada 101-Ejercicios
+
+Requisitos:
+- pip install requests pillow
+- (opcional) pip install pygments
+- Tener UbuntuMono-R.ttf accesible (ver UBUNTU_MONO_PATH)
+
+NOTA:
+- Se asume que existe `apuntes.py` (mismo proyecto) y expone:
+  - sort_key(entry_or_dirent)
+  - is_text_file(path: Path) -> bool
+  - language_from_extension(path: Path) -> str | None
+"""
+
+from __future__ import annotations
+
+import os
+import re
+import json
+import time
+import hashlib
+from pathlib import Path
+from typing import Optional, Tuple
+
+import requests
+import urllib3
+from PIL import Image, ImageDraw, ImageFont
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+import apuntes  # noqa
+
+
+# ============================================================
+# CONFIG
+# ============================================================
+API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php"
+API_KEY = "TEST_API_KEY_JOCARSA_123"  # <-- pon tu clave real
+
+# Raíces a procesar (puedes añadir varias)
+ROOT_DIRS: list[Path] = [
+     Path("/var/www/html/dam2526/Primero/Programación"),
+    # Path("/var/www/html/dam2526/Segundo"),
+]
+
+# Directorio base del proyecto (mismo que apuntes.py)
+APUNTES_DIR = Path(apuntes.__file__).resolve().parent
+
+# Salidas “globales” (como tus scripts anteriores)
+INTRODUCCIONES_DIR = APUNTES_DIR / "introducciones_folder"
+EXPLICACIONES_DIR = APUNTES_DIR / "explicaciones_apuntes"
+
+# Salidas por-carpeta (subcarpetas por cada 101-Ejercicios)
+BLOG_DIR = APUNTES_DIR / "blog_folder"  # aquí se crearán subcarpetas por cada folder
+
+# Si no quieres regenerar si ya existe
+SKIP_IF_EXISTS = True
+
+# Límite de contexto para el artículo (para no enviar carpetas enormes)
+MAX_FILES_FOR_ARTICLE_CONTEXT = 12
+MAX_CHARS_PER_FILE_FOR_ARTICLE = 6000
+
+# ============================================================
+# Imagen de código (renderer)
+# ============================================================
+SCALE = 2
+OUT_W = 800
+OUT_H = 400
+PADDING = 24
+
+BOX_RADIUS = 22
+BOX_BG = (10, 10, 12, 235)
+BOX_STROKE = (255, 255, 255, 28)
+
+TITLEBAR_H = 44
+TITLE_TEXT_COLOR = (235, 235, 235, 220)
+
+CODE_TEXT_COLOR = (230, 230, 235, 235)
+LINENO_COLOR = (170, 170, 175, 140)
+
+INNER_PAD_X = 18
+INNER_PAD_Y = 14
+GUTTER_GAP = 14
+
+LINE_SPACING = 6
+TAB_SIZE = 4
+
+BTN_R = 7
+BTN_GAP = 8
+BTN_LEFT = 18
+BTN_Y = 22
+
+MAC_RED = (255, 95, 86, 235)
+MAC_YELLOW = (255, 189, 46, 235)
+MAC_GREEN = (39, 201, 63, 235)
+
+# Ruta a la fuente (ajusta si la tienes en otro sitio)
+UBUNTU_MONO_PATH = APUNTES_DIR / "UbuntuMono-R.ttf"
+
+CODE_FONT_SIZE = 16
+TITLE_FONT_SIZE = 16
+
+USE_PYGMENTS = True
+
+
+# ============================================================
+# Hashing (compatibles con tus scripts)
+# ============================================================
+def compute_hash_for_path(path: Path) -> str:
+    full_id = str(path.resolve())
+    return hashlib.sha256(full_id.encode("utf-8")).hexdigest()
+
+
+def compute_hash_for_file(path: Path) -> str:
+    full_id = str(path.resolve())
+    return hashlib.sha256(full_id.encode("utf-8")).hexdigest()
+
+
+def get_intro_path(folder_path: Path) -> Path:
+    return INTRODUCCIONES_DIR / f"{compute_hash_for_path(folder_path)}.md"
+
+
+def get_explanation_path(file_path: Path) -> Path:
+    return EXPLICACIONES_DIR / f"{compute_hash_for_file(file_path)}.md"
+
+
+def get_blog_output_dir(folder_path: Path) -> Path:
+    """
+    Subcarpeta por cada carpeta 101-Ejercicios.
+    Guardamos:
+      - article.md
+      - code.png
+      - keywords.txt
+      - meta.json (opcional)
+    """
+    h = compute_hash_for_path(folder_path)
+    safe_name = folder_path.name.replace(" ", "_")
+    return BLOG_DIR / f"{safe_name}__{h}"
+
+
+# ============================================================
+# API
+# ============================================================
+def call_remote_llm(question: str) -> str:
+    try:
+        resp = requests.post(
+            API_URL,
+            headers={"X-API-Key": API_KEY},
+            data={"question": question},
+            timeout=300,
+            verify=False,
+        )
+    except Exception as e:
+        raise RuntimeError(f"Error al contactar con la API remota: {e}")
+
+    if resp.status_code != 200:
+        raise RuntimeError(f"API remota devolvió HTTP {resp.status_code}: {resp.text}")
+
+    try:
+        data = resp.json()
+    except Exception:
+        raise RuntimeError(f"No se pudo parsear JSON desde la API remota: {resp.text}")
+
+    answer = data.get("answer")
+    if not answer:
+        raise RuntimeError(f"La respuesta de la API no contiene 'answer': {data}")
+
+    return answer.strip()
+
+
+# ============================================================
+# Descubrimiento de carpetas 101-Ejercicios
+# ============================================================
+def iter_exercise_folders(source_dir: Path):
+    """
+    Recorre: unidad -> subunidad -> 101-Ejercicios*
+    Devuelve cada Path a la carpeta 101-Ejercicios*.
+    """
+    source_dir = source_dir.resolve()
+
+    units = [e for e in os.scandir(source_dir) if e.is_dir()]
+    units.sort(key=apuntes.sort_key)
+
+    for unit in units:
+        subunits = [e for e in os.scandir(unit.path) if e.is_dir()]
+        subunits.sort(key=apuntes.sort_key)
+
+        for subunit in subunits:
+            subunit_path = Path(subunit.path)
+
+            ejercicios_folder = None
+            for e in os.scandir(subunit_path):
+                if e.is_dir() and e.name.lower().startswith("101-ejercicios"):
+                    ejercicios_folder = Path(e.path)
+                    break
+
+            if ejercicios_folder and ejercicios_folder.exists():
+                yield ejercicios_folder
+
+
+def list_text_exercise_files(ejercicios_folder: Path) -> list[Path]:
+    entries = [e for e in os.scandir(ejercicios_folder) if e.is_file()]
+    entries.sort(key=apuntes.sort_key)
+
+    out: list[Path] = []
+    for f in entries:
+        p = Path(f.path)
+        if not apuntes.is_text_file(p):
+            continue
+        out.append(p)
+    return out
+
+
+def read_file_text(path: Path) -> str:
+    return path.read_text(encoding="utf-8", errors="replace")
+
+
+def get_numeric_prefix(filename: str) -> Optional[str]:
+    m = re.match(r"^(\d+)", filename)
+    return m.group(1) if m else None
+
+
+# ============================================================
+# 1) Introducción global (carpeta)
+# ============================================================
+def build_intro_question(codes_by_file: dict[Path, str], langs: set[str], folder_path: Path) -> str:
+    languages_desc = ", ".join(sorted(langs)) if langs else "desconocidos"
+    contexto = (
+        f"Carpeta de ejercicios: {folder_path}\n"
+        f"Número de archivos de ejercicio: {len(codes_by_file)}\n"
+        f"Lenguajes detectados: {languages_desc}"
+    )
+
+    bloques = []
+    for path, code in codes_by_file.items():
+        bloques.append(f"=== ARCHIVO: {path.name} ===\n{code}")
+    codigo_conjunto = "\n\n".join(bloques)
+
+    return (
+        "Eres un profesor de programación que ayuda a comprender conjuntos de ejercicios de código. "
+        "Tu objetivo es explicar de forma clara, concisa y didáctica, SIEMPRE en español.\n\n"
+        "INSTRUCCIONES:\n"
+        "- Escribe una explicación INTRODUCTORIA y GLOBAL sobre el conjunto de ejercicios de esta carpeta.\n"
+        "- Resume qué tipo de problemas se trabajan y qué competencias se practican.\n"
+        "- No entres en detalle ejercicio por ejercicio.\n"
+        "- No incluyas el código en la respuesta.\n"
+        "- No generes ejemplos adicionales.\n"
+        "- Limítate a UNO, DOS o TRES párrafos como máximo.\n"
+        "- Dirígete a estudiantes de Formación Profesional.\n\n"
+        f"{contexto}\n\n"
+        "A continuación tienes el contenido de todos los archivos de ejercicio de la carpeta. "
+        "Úsalo solo como contexto para tu explicación global:\n"
+        "```texto\n"
+        + codigo_conjunto
+        + "\n```"
+    )
+
+
+def generate_folder_intro(ejercicios_folder: Path, files_in_folder: list[Path]) -> Optional[Path]:
+    intro_path = get_intro_path(ejercicios_folder)
+    if SKIP_IF_EXISTS and intro_path.is_file():
+        return intro_path
+
+    codes_by_file: dict[Path, str] = {}
+    langs: set[str] = set()
+
+    for fp in files_in_folder:
+        code = read_file_text(fp)
+        codes_by_file[fp] = code
+        lang = apuntes.language_from_extension(fp)
+        if lang:
+            langs.add(lang)
+
+    if not codes_by_file:
+        return None
+
+    q = build_intro_question(codes_by_file, langs, ejercicios_folder)
+    intro_text = call_remote_llm(q)
+
+    INTRODUCCIONES_DIR.mkdir(parents=True, exist_ok=True)
+    intro_path.write_text(intro_text, encoding="utf-8")
+    return intro_path
+
+
+# ============================================================
+# 2) Explicación por archivo (con continuidad)
+# ============================================================
+def build_file_explanation_question(
+    code: str,
+    lang: str,
+    file_path: Path,
+    folder_exercises: list[Path],
+    prev_code: Optional[str],
+    prev_file: Optional[Path],
+    is_continuation: bool,
+) -> str:
+    carpeta_ejercicios = file_path.parent
+    lista_ejercicios = "\n".join(f"- {p.name}" for p in folder_exercises)
+
+    contexto = (
+        f"Ruta del archivo actual: {file_path}\n"
+        f"Carpeta de ejercicios: {carpeta_ejercicios}\n"
+        "Otros archivos de ejercicios en esta carpeta:\n"
+        f"{lista_ejercicios}\n"
+        f"Lenguaje detectado: {lang or 'desconocido'}"
+    )
+
+    instrucciones = (
+        "Eres un profesor de programación que ayuda a comprender pequeños bloques de código. "
+        "Tu objetivo es explicar de forma clara, concisa y didáctica, SIEMPRE en español.\n\n"
+        "INSTRUCCIONES GENERALES:\n"
+        "- Explica el fragmento de código en **uno, dos o tres párrafos como máximo**.\n"
+        "- No incluyas el código en la respuesta.\n"
+        "- No generes ejemplos adicionales.\n"
+        "- Describe qué hace el código, cómo funciona y por qué es importante.\n"
+        "- Dirígete a estudiantes de Formación Profesional.\n"
+    )
+
+    comparacion = ""
+    if is_continuation and prev_code is not None and prev_file is not None:
+        comparacion = (
+            "\n\nINSTRUCCIONES ADICIONALES PARA LA COMPARACIÓN:\n"
+            f"- Este archivo parece ser una versión posterior o una continuación directa del ejercicio previo: {prev_file.name}.\n"
+            "- Ten en cuenta el código del archivo anterior y compáralo con el actual.\n"
+            "- Después de la explicación principal, añade un ÚLTIMO PÁRRAFO que resuma SOLAMENTE "
+            "las diferencias, cambios, mejoras o nuevas ideas respecto a la versión anterior.\n"
+        )
+
+    question = instrucciones + contexto + comparacion + "\n\n"
+
+    if is_continuation and prev_code is not None:
+        question += (
+            "Código del archivo ANTERIOR:\n"
+            "```" + (lang or "") + "\n"
+            + prev_code +
+            "\n```\n\n"
+        )
+
+    question += (
+        "Código del archivo ACTUAL a explicar:\n"
+        "```" + (lang or "") + "\n"
+        + code +
+        "\n```"
+    )
+
+    return question
+
+
+def generate_file_explanations(ejercicios_folder: Path, files_in_folder: list[Path]) -> list[Path]:
+    EXPLICACIONES_DIR.mkdir(parents=True, exist_ok=True)
+    written: list[Path] = []
+
+    for idx, code_file in enumerate(files_in_folder):
+        out_path = get_explanation_path(code_file)
+        if SKIP_IF_EXISTS and out_path.is_file():
+            written.append(out_path)
+            continue
+
+        prev_code = None
+        prev_file = None
+        is_continuation = False
+
+        if idx > 0:
+            prev_file = files_in_folder[idx - 1]
+            cur_prefix = get_numeric_prefix(code_file.name)
+            prev_prefix = get_numeric_prefix(prev_file.name)
+
+            if cur_prefix is not None and prev_prefix is not None and cur_prefix == prev_prefix:
+                try:
+                    prev_code = read_file_text(prev_file)
+                    is_continuation = True
+                except Exception:
+                    prev_code = None
+                    is_continuation = False
+
+        code = read_file_text(code_file)
+        lang = apuntes.language_from_extension(code_file) or ""
+
+        q = build_file_explanation_question(
+            code=code,
+            lang=lang,
+            file_path=code_file,
+            folder_exercises=files_in_folder,
+            prev_code=prev_code,
+            prev_file=prev_file,
+            is_continuation=is_continuation,
+        )
+        explanation = call_remote_llm(q)
+
+        out_path.write_text(explanation, encoding="utf-8")
+        written.append(out_path)
+
+    return written
+
+
+# ============================================================
+# 3) Artículo didáctico tipo blog (Markdown con ejemplos reales)
+# ============================================================
+def build_blog_article_question(
+    ejercicios_folder: Path,
+    files_in_folder: list[Path],
+    intro_text: Optional[str],
+) -> str:
+    selected_files = files_in_folder[:MAX_FILES_FOR_ARTICLE_CONTEXT]
+
+    bloques = []
+    for fp in selected_files:
+        lang = apuntes.language_from_extension(fp) or ""
+        raw = read_file_text(fp)
+        raw = raw[:MAX_CHARS_PER_FILE_FOR_ARTICLE]
+        bloques.append(
+            f"=== ARCHIVO: {fp.name} ===\n"
+            f"```{lang}\n{raw}\n```"
+        )
+
+    contexto = (
+        f"Carpeta de ejercicios: {ejercicios_folder}\n"
+        f"Número total de archivos en la carpeta: {len(files_in_folder)}\n"
+        f"Archivos incluidos como contexto: {len(selected_files)}\n"
+    )
+
+    intro_block = ""
+    if intro_text:
+        intro_block = (
+            "\nAdemás, aquí tienes una introducción global ya generada para la carpeta (úsala si te ayuda a estructurar):\n"
+            f"{intro_text}\n"
+        )
+
+    return (
+        "Eres un profesor de programación y también redactor técnico. "
+        "Escribe un ARTÍCULO tipo blog didáctico, SIEMPRE en español, en formato Markdown.\n\n"
+        "REQUISITOS ESTRICTOS:\n"
+        "- Usa SOLO ejemplos REALES extraídos del código proporcionado (no inventes código nuevo).\n"
+        "- Puedes citar fragmentos cortos de los archivos como bloques de código.\n"
+        "- Evita explicar archivo por archivo: agrupa por ideas/competencias.\n"
+        "- El artículo debe ser útil para estudiantes de Formación Profesional.\n"
+        "- Incluye estas secciones (con títulos Markdown):\n"
+        "  1) # Título\n"
+        "  2) Introducción (qué se va a aprender aquí)\n"
+        "  3) Conceptos clave (3–6 bullets)\n"
+        "  4) Ejemplos del repositorio (2–5 bloques de código breves, con explicación)\n"
+        "  5) Errores típicos / consejos (bullets)\n"
+        "  6) Mini-reto (sin código; solo enunciado)\n"
+        "- No menciones 'Ollama', 'API', ni el prompt.\n"
+        "- No añadas enlaces externos.\n\n"
+        f"{contexto}\n"
+        f"{intro_block}\n"
+        "CONTEXTO (código real):\n\n"
+        + "\n\n".join(bloques)
+    )
+
+
+def generate_blog_article_markdown(
+    ejercicios_folder: Path,
+    files_in_folder: list[Path],
+    intro_path: Optional[Path],
+    out_dir: Path,
+) -> Path:
+    out_dir.mkdir(parents=True, exist_ok=True)
+    md_path = out_dir / "article.md"
+
+    if SKIP_IF_EXISTS and md_path.is_file():
+        return md_path
+
+    intro_text = intro_path.read_text(encoding="utf-8") if (intro_path and intro_path.is_file()) else None
+    q = build_blog_article_question(ejercicios_folder, files_in_folder, intro_text)
+    article = call_remote_llm(q)
+
+    md_path.write_text(article, encoding="utf-8")
+    return md_path
+
+
+# ============================================================
+# 3b) Keywords desde article.md -> keywords.txt
+# ============================================================
+def build_keywords_question(article_md: str) -> str:
+    return (
+        "Extrae entre 4 y 6 palabras clave (keywords) a partir del siguiente artículo en Markdown.\n\n"
+        "REQUISITOS:\n"
+        "- Devuelve SOLO las keywords, una por línea.\n"
+        "- Sin numeración, sin viñetas, sin comillas, sin explicaciones.\n"
+        "- Keywords en español.\n"
+        "- Deben ser relevantes y representativas del contenido.\n"
+        "- Evita palabras demasiado genéricas (por ejemplo: 'programación', 'código', 'ejercicios').\n\n"
+        "ARTÍCULO:\n"
+        "```markdown\n"
+        + article_md +
+        "\n```"
+    )
+
+
+def generate_keywords_txt(out_dir: Path, article_path: Path) -> Path:
+    out_dir.mkdir(parents=True, exist_ok=True)
+    kw_path = out_dir / "keywords.txt"
+
+    if SKIP_IF_EXISTS and kw_path.is_file():
+        return kw_path
+
+    article_md = article_path.read_text(encoding="utf-8", errors="replace")
+    q = build_keywords_question(article_md)
+    answer = call_remote_llm(q)
+
+    lines: list[str] = []
+    for raw in answer.splitlines():
+        s = raw.strip()
+        if not s:
+            continue
+        s = re.sub(r"^[\-\*\u2022]\s*", "", s)       # bullets
+        s = re.sub(r"^\d+[\)\.\-:]\s*", "", s)       # 1) / 1. / 1- / 1:
+        s = s.strip().strip('"').strip("'")
+        if s:
+            lines.append(s)
+
+    lines = lines[:6]
+    kw_path.write_text("\n".join(lines) + ("\n" if lines else ""), encoding="utf-8")
+    return kw_path
+
+
+# ============================================================
+# 4) Selección de archivo representativo para imagen
+# ============================================================
+def pick_representative_file(files_in_folder: list[Path]) -> Optional[Path]:
+    if not files_in_folder:
+        return None
+
+    def score(p: Path) -> Tuple[int, int]:
+        txt = read_file_text(p)
+        lines = txt.splitlines()
+        non_empty = sum(1 for l in lines if l.strip())
+        target = 30
+        closeness = -abs(non_empty - target)
+        return (closeness, non_empty)
+
+    best = files_in_folder[0]
+    try:
+        if len(read_file_text(best).splitlines()) < 5 and len(files_in_folder) > 1:
+            best = max(files_in_folder, key=score)
+    except Exception:
+        pass
+
+    return best
+
+
+# ============================================================
+# 5) Renderer de imagen (código -> PNG)
+# ============================================================
+def load_font(path: Path, size: int) -> ImageFont.FreeTypeFont:
+    if not path.is_file():
+        raise RuntimeError(f"Font not found: {path}")
+    return ImageFont.truetype(str(path), size=size)
+
+
+def rounded_rect(draw: ImageDraw.ImageDraw, xy, r, fill, outline=None, width=1):
+    draw.rounded_rectangle(xy, radius=r, fill=fill, outline=outline, width=width)
+
+
+def expand_tabs(s: str) -> str:
+    return s.expandtabs(TAB_SIZE)
+
+
+def try_pygments():
+    if not USE_PYGMENTS:
+        return None
+    try:
+        from pygments import lex
+        from pygments.lexers import guess_lexer_for_filename, TextLexer
+        return lex, guess_lexer_for_filename, TextLexer
+    except Exception:
+        return None
+
+
+def token_palette(ttype: str):
+    if "Comment" in ttype:
+        return (120, 160, 130, 220)
+    if "String" in ttype:
+        return (180, 220, 160, 235)
+    if "Keyword" in ttype:
+        return (140, 190, 255, 235)
+    if "Number" in ttype:
+        return (255, 210, 140, 235)
+    if "Name.Builtin" in ttype:
+        return (255, 170, 240, 235)
+    return CODE_TEXT_COLOR
+
+
+def render_code_image(in_file: Path, out_file: Path) -> Path:
+    lines = read_file_text(in_file).splitlines()
+    lines = [expand_tabs(l) for l in lines]
+
+    W, H = OUT_W * SCALE, OUT_H * SCALE
+    img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    draw = ImageDraw.Draw(img)
+
+    code_font = load_font(UBUNTU_MONO_PATH, CODE_FONT_SIZE * SCALE)
+    title_font = load_font(UBUNTU_MONO_PATH, TITLE_FONT_SIZE * SCALE)
+
+    px = PADDING * SCALE
+    x0, y0 = px, px
+    x1, y1 = W - px, H - px
+
+    rounded_rect(
+        draw,
+        (x0, y0, x1, y1),
+        BOX_RADIUS * SCALE,
+        BOX_BG,
+        BOX_STROKE,
+        width=1 * SCALE,
+    )
+
+    cy = y0 + BTN_Y * SCALE
+    cx = x0 + BTN_LEFT * SCALE
+    for c in (MAC_RED, MAC_YELLOW, MAC_GREEN):
+        draw.ellipse(
+            (cx - BTN_R * SCALE, cy - BTN_R * SCALE,
+             cx + BTN_R * SCALE, cy + BTN_R * SCALE),
+            fill=c,
+        )
+        cx += (BTN_R * 2 + BTN_GAP) * SCALE
+
+    title = in_file.name
+    tw = draw.textlength(title, font=title_font)
+    tx = x0 + ((x1 - x0) - tw) / 2
+    ty = y0 + (TITLEBAR_H * SCALE - TITLE_FONT_SIZE * SCALE) / 2
+    draw.text((tx, ty), title, font=title_font, fill=TITLE_TEXT_COLOR)
+
+    inner_left = x0 + INNER_PAD_X * SCALE
+    inner_top = y0 + (TITLEBAR_H + INNER_PAD_Y) * SCALE
+    inner_right = x1 - INNER_PAD_X * SCALE
+    inner_bottom = y1 - INNER_PAD_Y * SCALE
+
+    ascent, descent = code_font.getmetrics()
+    line_h = ascent + descent + LINE_SPACING * SCALE
+
+    lineno_digits = len(str(max(1, len(lines))))
+    gutter_w = int(draw.textlength("9" * lineno_digits, font=code_font)) + 8 * SCALE
+    code_x = inner_left + gutter_w + GUTTER_GAP * SCALE
+    max_code_w = inner_right - code_x
+
+    pyg = try_pygments()
+    y = inner_top
+
+    if pyg:
+        lex, guess_lexer, TextLexer = pyg
+        try:
+            lexer = guess_lexer(in_file.name, "\n".join(lines))
+        except Exception:
+            lexer = TextLexer()
+
+        tokens = list(lex("\n".join(lines), lexer))
+
+        line_tokens: list[list[tuple[str, tuple[int, int, int, int]]]] = [[]]
+        for ttype, value in tokens:
+            parts = value.split("\n")
+            for i, p in enumerate(parts):
+                if i > 0:
+                    line_tokens.append([])
+                if p:
+                    line_tokens[-1].append((p, token_palette(str(ttype))))
+
+        for i, segs in enumerate(line_tokens, start=1):
+            if y + line_h > inner_bottom:
+                break
+            ln = str(i).rjust(lineno_digits)
+            draw.text((inner_left, y), ln, font=code_font, fill=LINENO_COLOR)
+
+            x = code_x
+            for txt, col in segs:
+                draw.text((x, y), txt, font=code_font, fill=col)
+                x += draw.textlength(txt, font=code_font)
+                if x > code_x + max_code_w:
+                    break
+            y += line_h
+    else:
+        for i, line in enumerate(lines, start=1):
+            if y + line_h > inner_bottom:
+                break
+            ln = str(i).rjust(lineno_digits)
+            draw.text((inner_left, y), ln, font=code_font, fill=LINENO_COLOR)
+            draw.text((code_x, y), line, font=code_font, fill=CODE_TEXT_COLOR)
+            y += line_h
+
+    img = img.resize((OUT_W, OUT_H), Image.LANCZOS)
+    out_file.parent.mkdir(parents=True, exist_ok=True)
+    img.save(out_file, "PNG")
+    return out_file
+
+
+# ============================================================
+# Orquestación por carpeta 101-Ejercicios
+# ============================================================
+def process_one_exercises_folder(ejercicios_folder: Path):
+    files_in_folder = list_text_exercise_files(ejercicios_folder)
+    if not files_in_folder:
+        print(f"[OMITIDO] Sin archivos de texto: {ejercicios_folder}")
+        return
+
+    # 1) Intro global
+    intro_path = generate_folder_intro(ejercicios_folder, files_in_folder)
+    if intro_path:
+        print(f"[OK] Intro: {intro_path.name}")
+
+    # 2) Explicaciones por archivo
+    expl_paths = generate_file_explanations(ejercicios_folder, files_in_folder)
+    print(f"[OK] Explicaciones: {len(expl_paths)}")
+
+    # 3) Artículo blog
+    out_dir = get_blog_output_dir(ejercicios_folder)
+    article_path = generate_blog_article_markdown(ejercicios_folder, files_in_folder, intro_path, out_dir)
+    print(f"[OK] Artículo: {article_path}")
+
+    # 3b) Keywords desde el artículo
+    kw_path = generate_keywords_txt(out_dir, article_path)
+    print(f"[OK] Keywords: {kw_path.name}")
+
+    # 4) Imagen (archivo representativo)
+    rep = pick_representative_file(files_in_folder)
+    if rep:
+        img_path = out_dir / "code.png"
+        if not (SKIP_IF_EXISTS and img_path.is_file()):
+            render_code_image(rep, img_path)
+        print(f"[OK] Imagen: {img_path.name} (de {rep.name})")
+
+        # meta.json (útil para indexar)
+        meta = {
+            "folder": str(ejercicios_folder),
+            "representative_file": str(rep),
+            "article_md": str(article_path),
+            "image_png": str(img_path),
+            "keywords_txt": str(kw_path),
+            "intro_md": str(intro_path) if intro_path else None,
+            "generated_at": time.strftime("%Y-%m-%d %H:%M:%S"),
+        }
+        (out_dir / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def main():
+    INTRODUCCIONES_DIR.mkdir(parents=True, exist_ok=True)
+    EXPLICACIONES_DIR.mkdir(parents=True, exist_ok=True)
+    BLOG_DIR.mkdir(parents=True, exist_ok=True)
+
+    if not ROOT_DIRS:
+        print("ERROR: ROOT_DIRS está vacío. Edita el script y añade rutas a procesar.")
+        return
+
+    if not UBUNTU_MONO_PATH.is_file():
+        print(f"ERROR: No encuentro la fuente UbuntuMono aquí: {UBUNTU_MONO_PATH}")
+        print("Coloca UbuntuMono-R.ttf en la carpeta del proyecto (junto a apuntes.py) o ajusta UBUNTU_MONO_PATH.")
+        return
+
+    for root in ROOT_DIRS:
+        root = root.resolve()
+        if not root.is_dir():
+            print(f"[OMITIDO] No es directorio: {root}")
+            continue
+
+        print("\n" + "=" * 80)
+        print(f"Procesando raíz: {root}")
+        print("=" * 80)
+
+        for ejercicios_folder in iter_exercise_folders(root):
+            print(f"\n--- 101-Ejercicios: {ejercicios_folder} ---")
+            try:
+                process_one_exercises_folder(ejercicios_folder)
+            except Exception as e:
+                print(f"  !! Error en {ejercicios_folder}: {e}")
+
+    print("\nProceso completado.")
+
+
+if __name__ == "__main__":
+    main()
+```
+
+### imagen nombres unicos
+<small>Creado: 2025-12-22 20:03</small>
+
+`003-imagen nombres unicos.py`
+
+```python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+Generador unificado para carpetas 101-Ejercicios:
+
+Para cada carpeta:
+1) Genera una introducción didáctica GLOBAL (1–3 párrafos)  -> introducciones_folder/<hash>.md
+2) Genera explicaciones archivo-a-archivo (1–3 párrafos)    -> explicaciones_apuntes/<hash>.md
+   - Si detecta "continuación" (mismo prefijo numérico), compara con el anterior y añade un último párrafo de diferencias
+3) Genera un artículo tipo blog técnico (Markdown) usando ejemplos REALES del folder
+4) Selecciona 1 archivo representativo y renderiza una imagen PNG estilo editor macOS (para el post)
+5) Genera keywords.txt (4–6 keywords) a partir del artículo (UNA SOLA LÍNEA, separadas por comas)
+6) Guarda artículo + imagen + keywords en subcarpetas por cada 101-Ejercicios
+7) La imagen se guarda con nombre único: <archivo>__<hash>.png
+
+Requisitos:
+- pip install requests pillow
+- (opcional) pip install pygments
+- Tener UbuntuMono-R.ttf accesible (ver UBUNTU_MONO_PATH)
+
+NOTA:
+- Se asume que existe `apuntes.py` (mismo proyecto) y expone:
+  - sort_key(entry_or_dirent)
+  - is_text_file(path: Path) -> bool
+  - language_from_extension(path: Path) -> str | None
+"""
+
+from __future__ import annotations
+
+import os
+import re
+import json
+import time
+import hashlib
+from pathlib import Path
+from typing import Optional, Tuple
+
+import requests
+import urllib3
+from PIL import Image, ImageDraw, ImageFont
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+import apuntes  # noqa
+
+
+# ============================================================
+# CONFIG
+# ============================================================
+API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php"
+API_KEY = "TEST_API_KEY_JOCARSA_123"  # <-- pon tu clave real
+
+# Raíces a procesar (puedes añadir varias)
+ROOT_DIRS: list[Path] = [
+     Path("/var/www/html/dam2526/Primero/Programación"),
+    # Path("/var/www/html/dam2526/Segundo"),
+]
+
+# Directorio base del proyecto (mismo que apuntes.py)
+APUNTES_DIR = Path(apuntes.__file__).resolve().parent
+
+# Salidas “globales” (como tus scripts anteriores)
+INTRODUCCIONES_DIR = APUNTES_DIR / "introducciones_folder"
+EXPLICACIONES_DIR = APUNTES_DIR / "explicaciones_apuntes"
+
+# Salidas por-carpeta (subcarpetas por cada 101-Ejercicios)
+BLOG_DIR = APUNTES_DIR / "blog_folder"  # aquí se crearán subcarpetas por cada folder
+
+# Si no quieres regenerar si ya existe
+SKIP_IF_EXISTS = True
+
+# Límite de contexto para el artículo (para no enviar carpetas enormes)
+MAX_FILES_FOR_ARTICLE_CONTEXT = 12
+MAX_CHARS_PER_FILE_FOR_ARTICLE = 6000
+
+# ============================================================
+# Imagen de código (renderer)
+# ============================================================
+SCALE = 2
+OUT_W = 800
+OUT_H = 400
+PADDING = 24
+
+BOX_RADIUS = 22
+BOX_BG = (10, 10, 12, 235)
+BOX_STROKE = (255, 255, 255, 28)
+
+TITLEBAR_H = 44
+TITLE_TEXT_COLOR = (235, 235, 235, 220)
+
+CODE_TEXT_COLOR = (230, 230, 235, 235)
+LINENO_COLOR = (170, 170, 175, 140)
+
+INNER_PAD_X = 18
+INNER_PAD_Y = 14
+GUTTER_GAP = 14
+
+LINE_SPACING = 6
+TAB_SIZE = 4
+
+BTN_R = 7
+BTN_GAP = 8
+BTN_LEFT = 18
+BTN_Y = 22
+
+MAC_RED = (255, 95, 86, 235)
+MAC_YELLOW = (255, 189, 46, 235)
+MAC_GREEN = (39, 201, 63, 235)
+
+# Ruta a la fuente (ajusta si la tienes en otro sitio)
+UBUNTU_MONO_PATH = APUNTES_DIR / "UbuntuMono-R.ttf"
+
+CODE_FONT_SIZE = 16
+TITLE_FONT_SIZE = 16
+
+USE_PYGMENTS = True
+
+
+# ============================================================
+# Hashing (compatibles con tus scripts)
+# ============================================================
+def compute_hash_for_path(path: Path) -> str:
+    full_id = str(path.resolve())
+    return hashlib.sha256(full_id.encode("utf-8")).hexdigest()
+
+
+def compute_hash_for_file(path: Path) -> str:
+    full_id = str(path.resolve())
+    return hashlib.sha256(full_id.encode("utf-8")).hexdigest()
+
+
+def get_intro_path(folder_path: Path) -> Path:
+    return INTRODUCCIONES_DIR / f"{compute_hash_for_path(folder_path)}.md"
+
+
+def get_explanation_path(file_path: Path) -> Path:
+    return EXPLICACIONES_DIR / f"{compute_hash_for_file(file_path)}.md"
+
+
+def get_blog_output_dir(folder_path: Path) -> Path:
+    """
+    Subcarpeta por cada carpeta 101-Ejercicios.
+    Guardamos:
+      - article.md
+      - <archivo>__<hash>.png
+      - keywords.txt
+      - meta.json (opcional)
+    """
+    h = compute_hash_for_path(folder_path)
+    safe_name = folder_path.name.replace(" ", "_")
+    return BLOG_DIR / f"{safe_name}__{h}"
+
+
+# ============================================================
+# API
+# ============================================================
+def call_remote_llm(question: str) -> str:
+    try:
+        resp = requests.post(
+            API_URL,
+            headers={"X-API-Key": API_KEY},
+            data={"question": question},
+            timeout=300,
+            verify=False,
+        )
+    except Exception as e:
+        raise RuntimeError(f"Error al contactar con la API remota: {e}")
+
+    if resp.status_code != 200:
+        raise RuntimeError(f"API remota devolvió HTTP {resp.status_code}: {resp.text}")
+
+    try:
+        data = resp.json()
+    except Exception:
+        raise RuntimeError(f"No se pudo parsear JSON desde la API remota: {resp.text}")
+
+    answer = data.get("answer")
+    if not answer:
+        raise RuntimeError(f"La respuesta de la API no contiene 'answer': {data}")
+
+    return answer.strip()
+
+
+# ============================================================
+# Descubrimiento de carpetas 101-Ejercicios
+# ============================================================
+def iter_exercise_folders(source_dir: Path):
+    """
+    Recorre: unidad -> subunidad -> 101-Ejercicios*
+    Devuelve cada Path a la carpeta 101-Ejercicios*.
+    """
+    source_dir = source_dir.resolve()
+
+    units = [e for e in os.scandir(source_dir) if e.is_dir()]
+    units.sort(key=apuntes.sort_key)
+
+    for unit in units:
+        subunits = [e for e in os.scandir(unit.path) if e.is_dir()]
+        subunits.sort(key=apuntes.sort_key)
+
+        for subunit in subunits:
+            subunit_path = Path(subunit.path)
+
+            ejercicios_folder = None
+            for e in os.scandir(subunit_path):
+                if e.is_dir() and e.name.lower().startswith("101-ejercicios"):
+                    ejercicios_folder = Path(e.path)
+                    break
+
+            if ejercicios_folder and ejercicios_folder.exists():
+                yield ejercicios_folder
+
+
+def list_text_exercise_files(ejercicios_folder: Path) -> list[Path]:
+    entries = [e for e in os.scandir(ejercicios_folder) if e.is_file()]
+    entries.sort(key=apuntes.sort_key)
+
+    out: list[Path] = []
+    for f in entries:
+        p = Path(f.path)
+        if not apuntes.is_text_file(p):
+            continue
+        out.append(p)
+    return out
+
+
+def read_file_text(path: Path) -> str:
+    return path.read_text(encoding="utf-8", errors="replace")
+
+
+def get_numeric_prefix(filename: str) -> Optional[str]:
+    m = re.match(r"^(\d+)", filename)
+    return m.group(1) if m else None
+
+
+# ============================================================
+# 1) Introducción global (carpeta)
+# ============================================================
+def build_intro_question(codes_by_file: dict[Path, str], langs: set[str], folder_path: Path) -> str:
+    languages_desc = ", ".join(sorted(langs)) if langs else "desconocidos"
+    contexto = (
+        f"Carpeta de ejercicios: {folder_path}\n"
+        f"Número de archivos de ejercicio: {len(codes_by_file)}\n"
+        f"Lenguajes detectados: {languages_desc}"
+    )
+
+    bloques = []
+    for path, code in codes_by_file.items():
+        bloques.append(f"=== ARCHIVO: {path.name} ===\n{code}")
+    codigo_conjunto = "\n\n".join(bloques)
+
+    return (
+        "Eres un profesor de programación que ayuda a comprender conjuntos de ejercicios de código. "
+        "Tu objetivo es explicar de forma clara, concisa y didáctica, SIEMPRE en español.\n\n"
+        "INSTRUCCIONES:\n"
+        "- Escribe una explicación INTRODUCTORIA y GLOBAL sobre el conjunto de ejercicios de esta carpeta.\n"
+        "- Resume qué tipo de problemas se trabajan y qué competencias se practican.\n"
+        "- No entres en detalle ejercicio por ejercicio.\n"
+        "- No incluyas el código en la respuesta.\n"
+        "- No generes ejemplos adicionales.\n"
+        "- Limítate a UNO, DOS o TRES párrafos como máximo.\n"
+        "- Dirígete a estudiantes de Formación Profesional.\n\n"
+        f"{contexto}\n\n"
+        "A continuación tienes el contenido de todos los archivos de ejercicio de la carpeta. "
+        "Úsalo solo como contexto para tu explicación global:\n"
+        "```texto\n"
+        + codigo_conjunto
+        + "\n```"
+    )
+
+
+def generate_folder_intro(ejercicios_folder: Path, files_in_folder: list[Path]) -> Optional[Path]:
+    intro_path = get_intro_path(ejercicios_folder)
+    if SKIP_IF_EXISTS and intro_path.is_file():
+        return intro_path
+
+    codes_by_file: dict[Path, str] = {}
+    langs: set[str] = set()
+
+    for fp in files_in_folder:
+        code = read_file_text(fp)
+        codes_by_file[fp] = code
+        lang = apuntes.language_from_extension(fp)
+        if lang:
+            langs.add(lang)
+
+    if not codes_by_file:
+        return None
+
+    q = build_intro_question(codes_by_file, langs, ejercicios_folder)
+    intro_text = call_remote_llm(q)
+
+    INTRODUCCIONES_DIR.mkdir(parents=True, exist_ok=True)
+    intro_path.write_text(intro_text, encoding="utf-8")
+    return intro_path
+
+
+# ============================================================
+# 2) Explicación por archivo (con continuidad)
+# ============================================================
+def build_file_explanation_question(
+    code: str,
+    lang: str,
+    file_path: Path,
+    folder_exercises: list[Path],
+    prev_code: Optional[str],
+    prev_file: Optional[Path],
+    is_continuation: bool,
+) -> str:
+    carpeta_ejercicios = file_path.parent
+    lista_ejercicios = "\n".join(f"- {p.name}" for p in folder_exercises)
+
+    contexto = (
+        f"Ruta del archivo actual: {file_path}\n"
+        f"Carpeta de ejercicios: {carpeta_ejercicios}\n"
+        "Otros archivos de ejercicios en esta carpeta:\n"
+        f"{lista_ejercicios}\n"
+        f"Lenguaje detectado: {lang or 'desconocido'}"
+    )
+
+    instrucciones = (
+        "Eres un profesor de programación que ayuda a comprender pequeños bloques de código. "
+        "Tu objetivo es explicar de forma clara, concisa y didáctica, SIEMPRE en español.\n\n"
+        "INSTRUCCIONES GENERALES:\n"
+        "- Explica el fragmento de código en **uno, dos o tres párrafos como máximo**.\n"
+        "- No incluyas el código en la respuesta.\n"
+        "- No generes ejemplos adicionales.\n"
+        "- Describe qué hace el código, cómo funciona y por qué es importante.\n"
+        "- Dirígete a estudiantes de Formación Profesional.\n"
+    )
+
+    comparacion = ""
+    if is_continuation and prev_code is not None and prev_file is not None:
+        comparacion = (
+            "\n\nINSTRUCCIONES ADICIONALES PARA LA COMPARACIÓN:\n"
+            f"- Este archivo parece ser una versión posterior o una continuación directa del ejercicio previo: {prev_file.name}.\n"
+            "- Ten en cuenta el código del archivo anterior y compáralo con el actual.\n"
+            "- Después de la explicación principal, añade un ÚLTIMO PÁRRAFO que resuma SOLAMENTE "
+            "las diferencias, cambios, mejoras o nuevas ideas respecto a la versión anterior.\n"
+        )
+
+    question = instrucciones + contexto + comparacion + "\n\n"
+
+    if is_continuation and prev_code is not None:
+        question += (
+            "Código del archivo ANTERIOR:\n"
+            "```" + (lang or "") + "\n"
+            + prev_code +
+            "\n```\n\n"
+        )
+
+    question += (
+        "Código del archivo ACTUAL a explicar:\n"
+        "```" + (lang or "") + "\n"
+        + code +
+        "\n```"
+    )
+
+    return question
+
+
+def generate_file_explanations(ejercicios_folder: Path, files_in_folder: list[Path]) -> list[Path]:
+    EXPLICACIONES_DIR.mkdir(parents=True, exist_ok=True)
+    written: list[Path] = []
+
+    for idx, code_file in enumerate(files_in_folder):
+        out_path = get_explanation_path(code_file)
+        if SKIP_IF_EXISTS and out_path.is_file():
+            written.append(out_path)
+            continue
+
+        prev_code = None
+        prev_file = None
+        is_continuation = False
+
+        if idx > 0:
+            prev_file = files_in_folder[idx - 1]
+            cur_prefix = get_numeric_prefix(code_file.name)
+            prev_prefix = get_numeric_prefix(prev_file.name)
+
+            if cur_prefix is not None and prev_prefix is not None and cur_prefix == prev_prefix:
+                try:
+                    prev_code = read_file_text(prev_file)
+                    is_continuation = True
+                except Exception:
+                    prev_code = None
+                    is_continuation = False
+
+        code = read_file_text(code_file)
+        lang = apuntes.language_from_extension(code_file) or ""
+
+        q = build_file_explanation_question(
+            code=code,
+            lang=lang,
+            file_path=code_file,
+            folder_exercises=files_in_folder,
+            prev_code=prev_code,
+            prev_file=prev_file,
+            is_continuation=is_continuation,
+        )
+        explanation = call_remote_llm(q)
+
+        out_path.write_text(explanation, encoding="utf-8")
+        written.append(out_path)
+
+    return written
+
+
+# ============================================================
+# 3) Artículo didáctico tipo blog (Markdown con ejemplos reales)
+# ============================================================
+def build_blog_article_question(
+    ejercicios_folder: Path,
+    files_in_folder: list[Path],
+    intro_text: Optional[str],
+) -> str:
+    selected_files = files_in_folder[:MAX_FILES_FOR_ARTICLE_CONTEXT]
+
+    bloques = []
+    for fp in selected_files:
+        lang = apuntes.language_from_extension(fp) or ""
+        raw = read_file_text(fp)
+        raw = raw[:MAX_CHARS_PER_FILE_FOR_ARTICLE]
+        bloques.append(
+            f"=== ARCHIVO: {fp.name} ===\n"
+            f"```{lang}\n{raw}\n```"
+        )
+
+    contexto = (
+        f"Carpeta de ejercicios: {ejercicios_folder}\n"
+        f"Número total de archivos en la carpeta: {len(files_in_folder)}\n"
+        f"Archivos incluidos como contexto: {len(selected_files)}\n"
+    )
+
+    intro_block = ""
+    if intro_text:
+        intro_block = (
+            "\nAdemás, aquí tienes una introducción global ya generada para la carpeta (úsala si te ayuda a estructurar):\n"
+            f"{intro_text}\n"
+        )
+
+    return (
+        "Eres un profesor de programación y también redactor técnico. "
+        "Escribe un ARTÍCULO tipo blog didáctico, SIEMPRE en español, en formato Markdown.\n\n"
+        "REQUISITOS ESTRICTOS:\n"
+        "- Usa SOLO ejemplos REALES extraídos del código proporcionado (no inventes código nuevo).\n"
+        "- Puedes citar fragmentos cortos de los archivos como bloques de código.\n"
+        "- Evita explicar archivo por archivo: agrupa por ideas/competencias.\n"
+        "- El artículo debe ser útil para estudiantes de Formación Profesional.\n"
+        "- Incluye estas secciones (con títulos Markdown):\n"
+        "  1) # Título\n"
+        "  2) Introducción (qué se va a aprender aquí)\n"
+        "  3) Conceptos clave (3–6 bullets)\n"
+        "  4) Ejemplos del repositorio (2–5 bloques de código breves, con explicación)\n"
+        "  5) Errores típicos / consejos (bullets)\n"
+        "  6) Mini-reto (sin código; solo enunciado)\n"
+        "- No menciones 'Ollama', 'API', ni el prompt.\n"
+        "- No añadas enlaces externos.\n\n"
+        f"{contexto}\n"
+        f"{intro_block}\n"
+        "CONTEXTO (código real):\n\n"
+        + "\n\n".join(bloques)
+    )
+
+
+def generate_blog_article_markdown(
+    ejercicios_folder: Path,
+    files_in_folder: list[Path],
+    intro_path: Optional[Path],
+    out_dir: Path,
+) -> Path:
+    out_dir.mkdir(parents=True, exist_ok=True)
+    md_path = out_dir / "article.md"
+
+    if SKIP_IF_EXISTS and md_path.is_file():
+        return md_path
+
+    intro_text = intro_path.read_text(encoding="utf-8") if (intro_path and intro_path.is_file()) else None
+    q = build_blog_article_question(ejercicios_folder, files_in_folder, intro_text)
+    article = call_remote_llm(q)
+
+    md_path.write_text(article, encoding="utf-8")
+    return md_path
+
+
+# ============================================================
+# 3b) Keywords desde article.md -> keywords.txt (UNA LÍNEA con comas)
+# ============================================================
+def build_keywords_question(article_md: str) -> str:
+    return (
+        "Extrae entre 4 y 6 palabras clave (keywords) a partir del siguiente artículo en Markdown.\n\n"
+        "REQUISITOS:\n"
+        "- Devuelve SOLO las keywords en UNA SOLA LÍNEA, separadas por comas.\n"
+        "- Sin numeración, sin viñetas, sin comillas, sin explicaciones.\n"
+        "- Keywords en español.\n"
+        "- Deben ser relevantes y representativas del contenido.\n"
+        "- Evita palabras demasiado genéricas (por ejemplo: 'programación', 'código', 'ejercicios').\n\n"
+        "ARTÍCULO:\n"
+        "```markdown\n"
+        + article_md +
+        "\n```"
+    )
+
+
+def generate_keywords_txt(out_dir: Path, article_path: Path) -> Path:
+    out_dir.mkdir(parents=True, exist_ok=True)
+    kw_path = out_dir / "keywords.txt"
+
+    if SKIP_IF_EXISTS and kw_path.is_file():
+        return kw_path
+
+    article_md = article_path.read_text(encoding="utf-8", errors="replace")
+    q = build_keywords_question(article_md)
+    answer = call_remote_llm(q)
+
+    # Normalizar: admitir que el modelo devuelva líneas o comas
+    raw = " ".join([l.strip() for l in answer.splitlines() if l.strip()]).strip()
+
+    # Quitar bullets/nums si vinieron
+    raw = re.sub(r"^[\-\*\u2022]\s*", "", raw)
+    raw = raw.strip().strip('"').strip("'")
+
+    # Convertir separadores raros en comas
+    raw = raw.replace(";", ",")
+    raw = raw.replace(" | ", ", ")
+    raw = raw.replace(" · ", ", ")
+
+    # Partir por comas, limpiar, recortar 4-6
+    parts = []
+    for p in raw.split(","):
+        s = p.strip().strip('"').strip("'")
+        if s:
+            parts.append(s)
+
+    parts = parts[:6]
+
+    # Guardar en UNA sola línea
+    kw_path.write_text(", ".join(parts) + ("\n" if parts else ""), encoding="utf-8")
+    return kw_path
+
+
+# ============================================================
+# 4) Selección de archivo representativo para imagen
+# ============================================================
+def pick_representative_file(files_in_folder: list[Path]) -> Optional[Path]:
+    if not files_in_folder:
+        return None
+
+    def score(p: Path) -> Tuple[int, int]:
+        txt = read_file_text(p)
+        lines = txt.splitlines()
+        non_empty = sum(1 for l in lines if l.strip())
+        target = 30
+        closeness = -abs(non_empty - target)
+        return (closeness, non_empty)
+
+    best = files_in_folder[0]
+    try:
+        if len(read_file_text(best).splitlines()) < 5 and len(files_in_folder) > 1:
+            best = max(files_in_folder, key=score)
+    except Exception:
+        pass
+
+    return best
+
+
+def sanitize_stem(stem: str) -> str:
+    """
+    Deja un nombre de archivo razonable (sin rutas, sin caracteres raros).
+    """
+    stem = stem.strip().replace(" ", "_")
+    stem = re.sub(r"[^A-Za-z0-9_\-\.]+", "", stem)
+    return stem[:80] if len(stem) > 80 else stem
+
+
+def unique_image_name_for_file(code_file: Path) -> str:
+    """
+    Nombre único: <stem>__<hash>.png
+    Hash basado en la ruta absoluta (mismo criterio que explicaciones).
+    """
+    h = compute_hash_for_file(code_file)[:16]  # suficiente para unicidad
+    stem = sanitize_stem(code_file.stem)
+    return f"{stem}__{h}.png"
+
+
+# ============================================================
+# 5) Renderer de imagen (código -> PNG)
+# ============================================================
+def load_font(path: Path, size: int) -> ImageFont.FreeTypeFont:
+    if not path.is_file():
+        raise RuntimeError(f"Font not found: {path}")
+    return ImageFont.truetype(str(path), size=size)
+
+
+def rounded_rect(draw: ImageDraw.ImageDraw, xy, r, fill, outline=None, width=1):
+    draw.rounded_rectangle(xy, radius=r, fill=fill, outline=outline, width=width)
+
+
+def expand_tabs(s: str) -> str:
+    return s.expandtabs(TAB_SIZE)
+
+
+def try_pygments():
+    if not USE_PYGMENTS:
+        return None
+    try:
+        from pygments import lex
+        from pygments.lexers import guess_lexer_for_filename, TextLexer
+        return lex, guess_lexer_for_filename, TextLexer
+    except Exception:
+        return None
+
+
+def token_palette(ttype: str):
+    if "Comment" in ttype:
+        return (120, 160, 130, 220)
+    if "String" in ttype:
+        return (180, 220, 160, 235)
+    if "Keyword" in ttype:
+        return (140, 190, 255, 235)
+    if "Number" in ttype:
+        return (255, 210, 140, 235)
+    if "Name.Builtin" in ttype:
+        return (255, 170, 240, 235)
+    return CODE_TEXT_COLOR
+
+
+def render_code_image(in_file: Path, out_file: Path) -> Path:
+    lines = read_file_text(in_file).splitlines()
+    lines = [expand_tabs(l) for l in lines]
+
+    W, H = OUT_W * SCALE, OUT_H * SCALE
+    img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    draw = ImageDraw.Draw(img)
+
+    code_font = load_font(UBUNTU_MONO_PATH, CODE_FONT_SIZE * SCALE)
+    title_font = load_font(UBUNTU_MONO_PATH, TITLE_FONT_SIZE * SCALE)
+
+    px = PADDING * SCALE
+    x0, y0 = px, px
+    x1, y1 = W - px, H - px
+
+    rounded_rect(
+        draw,
+        (x0, y0, x1, y1),
+        BOX_RADIUS * SCALE,
+        BOX_BG,
+        BOX_STROKE,
+        width=1 * SCALE,
+    )
+
+    cy = y0 + BTN_Y * SCALE
+    cx = x0 + BTN_LEFT * SCALE
+    for c in (MAC_RED, MAC_YELLOW, MAC_GREEN):
+        draw.ellipse(
+            (cx - BTN_R * SCALE, cy - BTN_R * SCALE,
+             cx + BTN_R * SCALE, cy + BTN_R * SCALE),
+            fill=c,
+        )
+        cx += (BTN_R * 2 + BTN_GAP) * SCALE
+
+    title = in_file.name
+    tw = draw.textlength(title, font=title_font)
+    tx = x0 + ((x1 - x0) - tw) / 2
+    ty = y0 + (TITLEBAR_H * SCALE - TITLE_FONT_SIZE * SCALE) / 2
+    draw.text((tx, ty), title, font=title_font, fill=TITLE_TEXT_COLOR)
+
+    inner_left = x0 + INNER_PAD_X * SCALE
+    inner_top = y0 + (TITLEBAR_H + INNER_PAD_Y) * SCALE
+    inner_right = x1 - INNER_PAD_X * SCALE
+    inner_bottom = y1 - INNER_PAD_Y * SCALE
+
+    ascent, descent = code_font.getmetrics()
+    line_h = ascent + descent + LINE_SPACING * SCALE
+
+    lineno_digits = len(str(max(1, len(lines))))
+    gutter_w = int(draw.textlength("9" * lineno_digits, font=code_font)) + 8 * SCALE
+    code_x = inner_left + gutter_w + GUTTER_GAP * SCALE
+    max_code_w = inner_right - code_x
+
+    pyg = try_pygments()
+    y = inner_top
+
+    if pyg:
+        lex, guess_lexer, TextLexer = pyg
+        try:
+            lexer = guess_lexer(in_file.name, "\n".join(lines))
+        except Exception:
+            lexer = TextLexer()
+
+        tokens = list(lex("\n".join(lines), lexer))
+
+        line_tokens: list[list[tuple[str, tuple[int, int, int, int]]]] = [[]]
+        for ttype, value in tokens:
+            parts = value.split("\n")
+            for i, p in enumerate(parts):
+                if i > 0:
+                    line_tokens.append([])
+                if p:
+                    line_tokens[-1].append((p, token_palette(str(ttype))))
+
+        for i, segs in enumerate(line_tokens, start=1):
+            if y + line_h > inner_bottom:
+                break
+            ln = str(i).rjust(lineno_digits)
+            draw.text((inner_left, y), ln, font=code_font, fill=LINENO_COLOR)
+
+            x = code_x
+            for txt, col in segs:
+                draw.text((x, y), txt, font=code_font, fill=col)
+                x += draw.textlength(txt, font=code_font)
+                if x > code_x + max_code_w:
+                    break
+            y += line_h
+    else:
+        for i, line in enumerate(lines, start=1):
+            if y + line_h > inner_bottom:
+                break
+            ln = str(i).rjust(lineno_digits)
+            draw.text((inner_left, y), ln, font=code_font, fill=LINENO_COLOR)
+            draw.text((code_x, y), line, font=code_font, fill=CODE_TEXT_COLOR)
+            y += line_h
+
+    img = img.resize((OUT_W, OUT_H), Image.LANCZOS)
+    out_file.parent.mkdir(parents=True, exist_ok=True)
+    img.save(out_file, "PNG")
+    return out_file
+
+
+# ============================================================
+# Orquestación por carpeta 101-Ejercicios
+# ============================================================
+def process_one_exercises_folder(ejercicios_folder: Path):
+    files_in_folder = list_text_exercise_files(ejercicios_folder)
+    if not files_in_folder:
+        print(f"[OMITIDO] Sin archivos de texto: {ejercicios_folder}")
+        return
+
+    # 1) Intro global
+    intro_path = generate_folder_intro(ejercicios_folder, files_in_folder)
+    if intro_path:
+        print(f"[OK] Intro: {intro_path.name}")
+
+    # 2) Explicaciones por archivo
+    expl_paths = generate_file_explanations(ejercicios_folder, files_in_folder)
+    print(f"[OK] Explicaciones: {len(expl_paths)}")
+
+    # 3) Artículo blog
+    out_dir = get_blog_output_dir(ejercicios_folder)
+    article_path = generate_blog_article_markdown(ejercicios_folder, files_in_folder, intro_path, out_dir)
+    print(f"[OK] Artículo: {article_path}")
+
+    # 3b) Keywords desde el artículo (una línea, comas)
+    kw_path = generate_keywords_txt(out_dir, article_path)
+    print(f"[OK] Keywords: {kw_path.name}")
+
+    # 4) Imagen (archivo representativo) con nombre único
+    rep = pick_representative_file(files_in_folder)
+    if rep:
+        img_filename = unique_image_name_for_file(rep)
+        img_path = out_dir / img_filename
+
+        if not (SKIP_IF_EXISTS and img_path.is_file()):
+            render_code_image(rep, img_path)
+
+        print(f"[OK] Imagen: {img_path.name} (de {rep.name})")
+
+        meta = {
+            "folder": str(ejercicios_folder),
+            "representative_file": str(rep),
+            "article_md": str(article_path),
+            "image_png": str(img_path),
+            "keywords_txt": str(kw_path),
+            "intro_md": str(intro_path) if intro_path else None,
+            "generated_at": time.strftime("%Y-%m-%d %H:%M:%S"),
+        }
+        (out_dir / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def main():
+    INTRODUCCIONES_DIR.mkdir(parents=True, exist_ok=True)
+    EXPLICACIONES_DIR.mkdir(parents=True, exist_ok=True)
+    BLOG_DIR.mkdir(parents=True, exist_ok=True)
+
+    if not ROOT_DIRS:
+        print("ERROR: ROOT_DIRS está vacío. Edita el script y añade rutas a procesar.")
+        return
+
+    if not UBUNTU_MONO_PATH.is_file():
+        print(f"ERROR: No encuentro la fuente UbuntuMono aquí: {UBUNTU_MONO_PATH}")
+        print("Coloca UbuntuMono-R.ttf en la carpeta del proyecto (junto a apuntes.py) o ajusta UBUNTU_MONO_PATH.")
+        return
+
+    for root in ROOT_DIRS:
+        root = root.resolve()
+        if not root.is_dir():
+            print(f"[OMITIDO] No es directorio: {root}")
+            continue
+
+        print("\n" + "=" * 80)
+        print(f"Procesando raíz: {root}")
+        print("=" * 80)
+
+        for ejercicios_folder in iter_exercise_folders(root):
+            print(f"\n--- 101-Ejercicios: {ejercicios_folder} ---")
+            try:
+                process_one_exercises_folder(ejercicios_folder)
+            except Exception as e:
+                print(f"  !! Error en {ejercicios_folder}: {e}")
+
+    print("\nProceso completado.")
+
+
+if __name__ == "__main__":
+    main()
+```
+
+### no reprocesar existentes
+<small>Creado: 2025-12-22 20:03</small>
+
+`004-no reprocesar existentes.py`
+
+```python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+Generador unificado para carpetas 101-Ejercicios:
+
+Para cada carpeta:
+1) Genera una introducción didáctica GLOBAL (1–3 párrafos)  -> introducciones_folder/<hash>.md
+2) Genera explicaciones archivo-a-archivo (1–3 párrafos)    -> explicaciones_apuntes/<hash>.md
+   - Si detecta "continuación" (mismo prefijo numérico), compara con el anterior y añade un último párrafo de diferencias
+3) Genera un artículo tipo blog técnico (Markdown) usando ejemplos REALES del folder
+4) Selecciona 1 archivo representativo y renderiza una imagen PNG estilo editor macOS (para el post)
+5) Genera keywords.txt (4–6 keywords) a partir del artículo (UNA SOLA LÍNEA, separadas por comas)
+6) Guarda artículo + imagen + keywords en subcarpetas por cada 101-Ejercicios
+7) La imagen se guarda con nombre único: <archivo>__<hash>.png
+8) Evita reprocesar carpetas ya procesadas comparando por HASH DE LA RUTA COMPLETA (folder.resolve()).
+
+Requisitos:
+- pip install requests pillow
+- (opcional) pip install pygments
+- Tener UbuntuMono-R.ttf accesible (ver UBUNTU_MONO_PATH)
+
+NOTA:
+- Se asume que existe `apuntes.py` (mismo proyecto) y expone:
+  - sort_key(entry_or_dirent)
+  - is_text_file(path: Path) -> bool
+  - language_from_extension(path: Path) -> str | None
+"""
+
+from __future__ import annotations
+
+import os
+import re
+import json
+import time
+import hashlib
+from pathlib import Path
+from typing import Optional, Tuple
+
+import requests
+import urllib3
+from PIL import Image, ImageDraw, ImageFont
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+import apuntes  # noqa
+
+
+# ============================================================
+# CONFIG
+# ============================================================
+API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php"
+API_KEY = "TEST_API_KEY_JOCARSA_123"  # <-- pon tu clave real
+
+# Raíces a procesar (puedes añadir varias)
+ROOT_DIRS: list[Path] = [
+     Path("/var/www/html/dam/Primero/Bases de datos"),
+     Path("/var/www/html/dam/Primero/Entornos de desarrollo"),
+     Path("/var/www/html/dam/Primero/Lenguajes de marcas y sistemas de gestión de información"),
+     Path("/var/www/html/dam/Primero/Programación"),
+     Path("/var/www/html/dam/Primero/Proyecto interdisciplinar"),
+     Path("/var/www/html/dam/Primero/Sistemas informáticos"),
+
+     Path("/var/www/html/dam/Segundo/Acceso a datos"),
+     Path("/var/www/html/dam/Segundo/Desarrollo de interfaces"),
+     Path("/var/www/html/dam/Segundo/Programación de servicios y procesos"),
+     Path("/var/www/html/dam/Segundo/Programación multimedia y dispositivos móviles"),
+     Path("/var/www/html/dam/Segundo/Sistemas de gestión empresarial"),
+    # Path("/var/www/html/dam2526/Segundo"),
+]
+
+# Directorio base del proyecto (mismo que apuntes.py)
+APUNTES_DIR = Path(apuntes.__file__).resolve().parent
+
+# Salidas “globales” (como tus scripts anteriores)
+INTRODUCCIONES_DIR = APUNTES_DIR / "introducciones_folder"
+EXPLICACIONES_DIR = APUNTES_DIR / "explicaciones_apuntes"
+
+# Salidas por-carpeta (subcarpetas por cada 101-Ejercicios)
+BLOG_DIR = APUNTES_DIR / "blog_folder"  # aquí se crearán subcarpetas por cada folder
+
+# Si no quieres regenerar si ya existe
+SKIP_IF_EXISTS = True
+
+# Límite de contexto para el artículo (para no enviar carpetas enormes)
+MAX_FILES_FOR_ARTICLE_CONTEXT = 12
+MAX_CHARS_PER_FILE_FOR_ARTICLE = 6000
+
+# ============================================================
+# Imagen de código (renderer)
+# ============================================================
+SCALE = 2
+OUT_W = 1200
+OUT_H = 600
+PADDING = 24
+
+BOX_RADIUS = 22
+BOX_BG = (10, 10, 12, 235)
+BOX_STROKE = (255, 255, 255, 28)
+
+TITLEBAR_H = 44
+TITLE_TEXT_COLOR = (235, 235, 235, 220)
+
+CODE_TEXT_COLOR = (230, 230, 235, 235)
+LINENO_COLOR = (170, 170, 175, 140)
+
+INNER_PAD_X = 18
+INNER_PAD_Y = 14
+GUTTER_GAP = 14
+
+LINE_SPACING = 6
+TAB_SIZE = 4
+
+BTN_R = 7
+BTN_GAP = 8
+BTN_LEFT = 18
+BTN_Y = 22
+
+MAC_RED = (255, 95, 86, 235)
+MAC_YELLOW = (255, 189, 46, 235)
+MAC_GREEN = (39, 201, 63, 235)
+
+# Ruta a la fuente (ajusta si la tienes en otro sitio)
+UBUNTU_MONO_PATH = APUNTES_DIR / "UbuntuMono-R.ttf"
+
+CODE_FONT_SIZE = 16
+TITLE_FONT_SIZE = 16
+
+USE_PYGMENTS = True
+
+
+# ============================================================
+# Hashing (compatibles con tus scripts)
+# ============================================================
+def compute_hash_for_path(path: Path) -> str:
+    full_id = str(path.resolve())
+    return hashlib.sha256(full_id.encode("utf-8")).hexdigest()
+
+
+def compute_hash_for_file(path: Path) -> str:
+    full_id = str(path.resolve())
+    return hashlib.sha256(full_id.encode("utf-8")).hexdigest()
+
+
+def get_intro_path(folder_path: Path) -> Path:
+    return INTRODUCCIONES_DIR / f"{compute_hash_for_path(folder_path)}.md"
+
+
+def get_explanation_path(file_path: Path) -> Path:
+    return EXPLICACIONES_DIR / f"{compute_hash_for_file(file_path)}.md"
+
+
+def get_blog_output_dir(folder_path: Path) -> Path:
+    """
+    Subcarpeta por cada carpeta 101-Ejercicios.
+    Guardamos:
+      - article.md
+      - <archivo>__<hash>.png
+      - keywords.txt
+      - meta.json (opcional)
+    """
+    h = compute_hash_for_path(folder_path)
+    safe_name = folder_path.name.replace(" ", "_")
+    return BLOG_DIR / f"{safe_name}__{h}"
+
+
+# ============================================================
+# Dedupe por HASH de carpeta (ya procesadas)  ✅ FIX
+# ============================================================
+HASH_RE = re.compile(r"__([0-9a-f]{64})$")
+
+
+def get_processed_folder_hashes() -> set[str]:
+    """
+    Considera "procesada" una carpeta si existe en BLOG_DIR alguna subcarpeta
+    cuyo nombre termine en '__<hash64hex>' (porque así las nombramos).
+    """
+    processed: set[str] = set()
+    if not BLOG_DIR.exists():
+        return processed
+
+    for e in BLOG_DIR.iterdir():
+        if not e.is_dir():
+            continue
+        m = HASH_RE.search(e.name)
+        if m:
+            processed.add(m.group(1))
+    return processed
+
+
+def folder_already_processed_by_hash(ejercicios_folder: Path, processed_hashes: set[str]) -> bool:
+    """
+    Dedupe por hash de la RUTA COMPLETA (resolve), no por nombre.
+    """
+    return compute_hash_for_path(ejercicios_folder) in processed_hashes
+
+
+# ============================================================
+# API
+# ============================================================
+def call_remote_llm(question: str) -> str:
+    try:
+        resp = requests.post(
+            API_URL,
+            headers={"X-API-Key": API_KEY},
+            data={"question": question},
+            timeout=300,
+            verify=False,
+        )
+    except Exception as e:
+        raise RuntimeError(f"Error al contactar con la API remota: {e}")
+
+    if resp.status_code != 200:
+        raise RuntimeError(f"API remota devolvió HTTP {resp.status_code}: {resp.text}")
+
+    try:
+        data = resp.json()
+    except Exception:
+        raise RuntimeError(f"No se pudo parsear JSON desde la API remota: {resp.text}")
+
+    answer = data.get("answer")
+    if not answer:
+        raise RuntimeError(f"La respuesta de la API no contiene 'answer': {data}")
+
+    return answer.strip()
+
+
+# ============================================================
+# Descubrimiento de carpetas 101-Ejercicios
+# ============================================================
+def iter_exercise_folders(source_dir: Path):
+    """
+    Recorre: unidad -> subunidad -> 101-Ejercicios*
+    Devuelve cada Path a la carpeta 101-Ejercicios*.
+    """
+    source_dir = source_dir.resolve()
+
+    units = [e for e in os.scandir(source_dir) if e.is_dir()]
+    units.sort(key=apuntes.sort_key)
+
+    for unit in units:
+        subunits = [e for e in os.scandir(unit.path) if e.is_dir()]
+        subunits.sort(key=apuntes.sort_key)
+
+        for subunit in subunits:
+            subunit_path = Path(subunit.path)
+
+            ejercicios_folder = None
+            for e in os.scandir(subunit_path):
+                if e.is_dir() and e.name.lower().startswith("101-ejercicios"):
+                    ejercicios_folder = Path(e.path)
+                    break
+
+            if ejercicios_folder and ejercicios_folder.exists():
+                yield ejercicios_folder
+
+
+def list_text_exercise_files(ejercicios_folder: Path) -> list[Path]:
+    entries = [e for e in os.scandir(ejercicios_folder) if e.is_file()]
+    entries.sort(key=apuntes.sort_key)
+
+    out: list[Path] = []
+    for f in entries:
+        p = Path(f.path)
+        if not apuntes.is_text_file(p):
+            continue
+        out.append(p)
+    return out
+
+
+def read_file_text(path: Path) -> str:
+    return path.read_text(encoding="utf-8", errors="replace")
+
+
+def get_numeric_prefix(filename: str) -> Optional[str]:
+    m = re.match(r"^(\d+)", filename)
+    return m.group(1) if m else None
+
+
+# ============================================================
+# 1) Introducción global (carpeta)
+# ============================================================
+def build_intro_question(codes_by_file: dict[Path, str], langs: set[str], folder_path: Path) -> str:
+    languages_desc = ", ".join(sorted(langs)) if langs else "desconocidos"
+    contexto = (
+        f"Carpeta de ejercicios: {folder_path}\n"
+        f"Número de archivos de ejercicio: {len(codes_by_file)}\n"
+        f"Lenguajes detectados: {languages_desc}"
+    )
+
+    bloques = []
+    for path, code in codes_by_file.items():
+        bloques.append(f"=== ARCHIVO: {path.name} ===\n{code}")
+    codigo_conjunto = "\n\n".join(bloques)
+
+    return (
+        "Eres un profesor de programación que ayuda a comprender conjuntos de ejercicios de código. "
+        "Tu objetivo es explicar de forma clara, concisa y didáctica, SIEMPRE en español.\n\n"
+        "INSTRUCCIONES:\n"
+        "- Escribe una explicación INTRODUCTORIA y GLOBAL sobre el conjunto de ejercicios de esta carpeta.\n"
+        "- Resume qué tipo de problemas se trabajan y qué competencias se practican.\n"
+        "- No entres en detalle ejercicio por ejercicio.\n"
+        "- No incluyas el código en la respuesta.\n"
+        "- No generes ejemplos adicionales.\n"
+        "- Limítate a UNO, DOS o TRES párrafos como máximo.\n"
+        "- Dirígete a estudiantes de Formación Profesional.\n\n"
+        f"{contexto}\n\n"
+        "A continuación tienes el contenido de todos los archivos de ejercicio de la carpeta. "
+        "Úsalo solo como contexto para tu explicación global:\n"
+        "```texto\n"
+        + codigo_conjunto
+        + "\n```"
+    )
+
+
+def generate_folder_intro(ejercicios_folder: Path, files_in_folder: list[Path]) -> Optional[Path]:
+    intro_path = get_intro_path(ejercicios_folder)
+    if SKIP_IF_EXISTS and intro_path.is_file():
+        return intro_path
+
+    codes_by_file: dict[Path, str] = {}
+    langs: set[str] = set()
+
+    for fp in files_in_folder:
+        code = read_file_text(fp)
+        codes_by_file[fp] = code
+        lang = apuntes.language_from_extension(fp)
+        if lang:
+            langs.add(lang)
+
+    if not codes_by_file:
+        return None
+
+    q = build_intro_question(codes_by_file, langs, ejercicios_folder)
+    intro_text = call_remote_llm(q)
+
+    INTRODUCCIONES_DIR.mkdir(parents=True, exist_ok=True)
+    intro_path.write_text(intro_text, encoding="utf-8")
+    return intro_path
+
+
+# ============================================================
+# 2) Explicación por archivo (con continuidad)
+# ============================================================
+def build_file_explanation_question(
+    code: str,
+    lang: str,
+    file_path: Path,
+    folder_exercises: list[Path],
+    prev_code: Optional[str],
+    prev_file: Optional[Path],
+    is_continuation: bool,
+) -> str:
+    carpeta_ejercicios = file_path.parent
+    lista_ejercicios = "\n".join(f"- {p.name}" for p in folder_exercises)
+
+    contexto = (
+        f"Ruta del archivo actual: {file_path}\n"
+        f"Carpeta de ejercicios: {carpeta_ejercicios}\n"
+        "Otros archivos de ejercicios en esta carpeta:\n"
+        f"{lista_ejercicios}\n"
+        f"Lenguaje detectado: {lang or 'desconocido'}"
+    )
+
+    instrucciones = (
+        "Eres un profesor de programación que ayuda a comprender pequeños bloques de código. "
+        "Tu objetivo es explicar de forma clara, concisa y didáctica, SIEMPRE en español.\n\n"
+        "INSTRUCCIONES GENERALES:\n"
+        "- Explica el fragmento de código en **uno, dos o tres párrafos como máximo**.\n"
+        "- No incluyas el código en la respuesta.\n"
+        "- No generes ejemplos adicionales.\n"
+        "- Describe qué hace el código, cómo funciona y por qué es importante.\n"
+        "- Dirígete a estudiantes de Formación Profesional.\n"
+    )
+
+    comparacion = ""
+    if is_continuation and prev_code is not None and prev_file is not None:
+        comparacion = (
+            "\n\nINSTRUCCIONES ADICIONALES PARA LA COMPARACIÓN:\n"
+            f"- Este archivo parece ser una versión posterior o una continuación directa del ejercicio previo: {prev_file.name}.\n"
+            "- Ten en cuenta el código del archivo anterior y compáralo con el actual.\n"
+            "- Después de la explicación principal, añade un ÚLTIMO PÁRRAFO que resuma SOLAMENTE "
+            "las diferencias, cambios, mejoras o nuevas ideas respecto a la versión anterior.\n"
+        )
+
+    question = instrucciones + contexto + comparacion + "\n\n"
+
+    if is_continuation and prev_code is not None:
+        question += (
+            "Código del archivo ANTERIOR:\n"
+            "```" + (lang or "") + "\n"
+            + prev_code +
+            "\n```\n\n"
+        )
+
+    question += (
+        "Código del archivo ACTUAL a explicar:\n"
+        "```" + (lang or "") + "\n"
+        + code +
+        "\n```"
+    )
+
+    return question
+
+
+def generate_file_explanations(ejercicios_folder: Path, files_in_folder: list[Path]) -> list[Path]:
+    EXPLICACIONES_DIR.mkdir(parents=True, exist_ok=True)
+    written: list[Path] = []
+
+    for idx, code_file in enumerate(files_in_folder):
+        out_path = get_explanation_path(code_file)
+        if SKIP_IF_EXISTS and out_path.is_file():
+            written.append(out_path)
+            continue
+
+        prev_code = None
+        prev_file = None
+        is_continuation = False
+
+        if idx > 0:
+            prev_file = files_in_folder[idx - 1]
+            cur_prefix = get_numeric_prefix(code_file.name)
+            prev_prefix = get_numeric_prefix(prev_file.name)
+
+            if cur_prefix is not None and prev_prefix is not None and cur_prefix == prev_prefix:
+                try:
+                    prev_code = read_file_text(prev_file)
+                    is_continuation = True
+                except Exception:
+                    prev_code = None
+                    is_continuation = False
+
+        code = read_file_text(code_file)
+        lang = apuntes.language_from_extension(code_file) or ""
+
+        q = build_file_explanation_question(
+            code=code,
+            lang=lang,
+            file_path=code_file,
+            folder_exercises=files_in_folder,
+            prev_code=prev_code,
+            prev_file=prev_file,
+            is_continuation=is_continuation,
+        )
+        explanation = call_remote_llm(q)
+
+        out_path.write_text(explanation, encoding="utf-8")
+        written.append(out_path)
+
+    return written
+
+
+# ============================================================
+# 3) Artículo didáctico tipo blog (Markdown con ejemplos reales)
+# ============================================================
+def build_blog_article_question(
+    ejercicios_folder: Path,
+    files_in_folder: list[Path],
+    intro_text: Optional[str],
+) -> str:
+    selected_files = files_in_folder[:MAX_FILES_FOR_ARTICLE_CONTEXT]
+
+    bloques = []
+    for fp in selected_files:
+        lang = apuntes.language_from_extension(fp) or ""
+        raw = read_file_text(fp)
+        raw = raw[:MAX_CHARS_PER_FILE_FOR_ARTICLE]
+        bloques.append(
+            f"=== ARCHIVO: {fp.name} ===\n"
+            f"```{lang}\n{raw}\n```"
+        )
+
+    contexto = (
+        f"Carpeta de ejercicios: {ejercicios_folder}\n"
+        f"Número total de archivos en la carpeta: {len(files_in_folder)}\n"
+        f"Archivos incluidos como contexto: {len(selected_files)}\n"
+    )
+
+    intro_block = ""
+    if intro_text:
+        intro_block = (
+            "\nAdemás, aquí tienes una introducción global ya generada para la carpeta (úsala si te ayuda a estructurar):\n"
+            f"{intro_text}\n"
+        )
+
+    return (
+        "Eres un profesor de programación y también redactor técnico. "
+        "Escribe un ARTÍCULO tipo blog didáctico, SIEMPRE en español, en formato Markdown.\n\n"
+        "REQUISITOS ESTRICTOS:\n"
+        "- Usa SOLO ejemplos REALES extraídos del código proporcionado (no inventes código nuevo).\n"
+        "- Puedes citar fragmentos cortos de los archivos como bloques de código.\n"
+        "- Evita explicar archivo por archivo: agrupa por ideas/competencias.\n"
+        "- El artículo debe ser útil para estudiantes de Formación Profesional.\n"
+        "- Incluye estas secciones (con títulos Markdown):\n"
+        "  1) # Título\n"
+        "  2) Introducción (qué se va a aprender aquí)\n"
+        "  3) Conceptos clave (3–6 bullets)\n"
+        "  4) Ejemplos del repositorio (2–5 bloques de código breves, con explicación)\n"
+        "  5) Errores típicos / consejos (bullets)\n"
+        "  6) Mini-reto (sin código; solo enunciado)\n"
+        "- No menciones 'Ollama', 'API', ni el prompt.\n"
+        "- No añadas enlaces externos.\n\n"
+        f"{contexto}\n"
+        f"{intro_block}\n"
+        "CONTEXTO (código real):\n\n"
+        + "\n\n".join(bloques)
+    )
+
+
+def generate_blog_article_markdown(
+    ejercicios_folder: Path,
+    files_in_folder: list[Path],
+    intro_path: Optional[Path],
+    out_dir: Path,
+) -> Path:
+    out_dir.mkdir(parents=True, exist_ok=True)
+    md_path = out_dir / "article.md"
+
+    if SKIP_IF_EXISTS and md_path.is_file():
+        return md_path
+
+    intro_text = intro_path.read_text(encoding="utf-8") if (intro_path and intro_path.is_file()) else None
+    q = build_blog_article_question(ejercicios_folder, files_in_folder, intro_text)
+    article = call_remote_llm(q)
+
+    md_path.write_text(article, encoding="utf-8")
+    return md_path
+
+
+# ============================================================
+# 3b) Keywords desde article.md -> keywords.txt (UNA LÍNEA con comas)
+# ============================================================
+def build_keywords_question(article_md: str) -> str:
+    return (
+        "Extrae entre 4 y 6 palabras clave (keywords) a partir del siguiente artículo en Markdown.\n\n"
+        "REQUISITOS:\n"
+        "- Devuelve SOLO las keywords en UNA SOLA LÍNEA, separadas por comas.\n"
+        "- Sin numeración, sin viñetas, sin comillas, sin explicaciones.\n"
+        "- Keywords en español.\n"
+        "- Deben ser relevantes y representativas del contenido.\n"
+        "- Evita palabras demasiado genéricas (por ejemplo: 'programación', 'código', 'ejercicios').\n\n"
+        "ARTÍCULO:\n"
+        "```markdown\n"
+        + article_md +
+        "\n```"
+    )
+
+
+def generate_keywords_txt(out_dir: Path, article_path: Path) -> Path:
+    out_dir.mkdir(parents=True, exist_ok=True)
+    kw_path = out_dir / "keywords.txt"
+
+    if SKIP_IF_EXISTS and kw_path.is_file():
+        return kw_path
+
+    article_md = article_path.read_text(encoding="utf-8", errors="replace")
+    q = build_keywords_question(article_md)
+    answer = call_remote_llm(q)
+
+    raw = " ".join([l.strip() for l in answer.splitlines() if l.strip()]).strip()
+    raw = re.sub(r"^[\-\*\u2022]\s*", "", raw)
+    raw = raw.strip().strip('"').strip("'")
+
+    raw = raw.replace(";", ",")
+    raw = raw.replace(" | ", ", ")
+    raw = raw.replace(" · ", ", ")
+
+    parts = []
+    for p in raw.split(","):
+        s = p.strip().strip('"').strip("'")
+        if s:
+            parts.append(s)
+
+    parts = parts[:6]
+    kw_path.write_text(", ".join(parts) + ("\n" if parts else ""), encoding="utf-8")
+    return kw_path
+
+
+# ============================================================
+# 4) Selección de archivo representativo para imagen
+# ============================================================
+def pick_representative_file(files_in_folder: list[Path]) -> Optional[Path]:
+    if not files_in_folder:
+        return None
+
+    def score(p: Path) -> Tuple[int, int]:
+        txt = read_file_text(p)
+        lines = txt.splitlines()
+        non_empty = sum(1 for l in lines if l.strip())
+        target = 30
+        closeness = -abs(non_empty - target)
+        return (closeness, non_empty)
+
+    best = files_in_folder[0]
+    try:
+        if len(read_file_text(best).splitlines()) < 5 and len(files_in_folder) > 1:
+            best = max(files_in_folder, key=score)
+    except Exception:
+        pass
+
+    return best
+
+
+def sanitize_stem(stem: str) -> str:
+    stem = stem.strip().replace(" ", "_")
+    stem = re.sub(r"[^A-Za-z0-9_\-\.]+", "", stem)
+    return stem[:80] if len(stem) > 80 else stem
+
+
+def unique_image_name_for_file(code_file: Path) -> str:
+    h = compute_hash_for_file(code_file)[:16]
+    stem = sanitize_stem(code_file.stem)
+    return f"jose_vicente_carratala_sanchis_{stem}__{h}.png"
+
+
+# ============================================================
+# 5) Renderer de imagen (código -> PNG)
+# ============================================================
+def load_font(path: Path, size: int) -> ImageFont.FreeTypeFont:
+    if not path.is_file():
+        raise RuntimeError(f"Font not found: {path}")
+    return ImageFont.truetype(str(path), size=size)
+
+
+def rounded_rect(draw: ImageDraw.ImageDraw, xy, r, fill, outline=None, width=1):
+    draw.rounded_rectangle(xy, radius=r, fill=fill, outline=outline, width=width)
+
+
+def expand_tabs(s: str) -> str:
+    return s.expandtabs(TAB_SIZE)
+
+
+def try_pygments():
+    if not USE_PYGMENTS:
+        return None
+    try:
+        from pygments import lex
+        from pygments.lexers import guess_lexer_for_filename, TextLexer
+        return lex, guess_lexer_for_filename, TextLexer
+    except Exception:
+        return None
+
+
+def token_palette(ttype: str):
+    if "Comment" in ttype:
+        return (120, 160, 130, 220)
+    if "String" in ttype:
+        return (180, 220, 160, 235)
+    if "Keyword" in ttype:
+        return (140, 190, 255, 235)
+    if "Number" in ttype:
+        return (255, 210, 140, 235)
+    if "Name.Builtin" in ttype:
+        return (255, 170, 240, 235)
+    return CODE_TEXT_COLOR
+
+
+def render_code_image(in_file: Path, out_file: Path) -> Path:
+    lines = read_file_text(in_file).splitlines()
+    lines = [expand_tabs(l) for l in lines]
+
+    W, H = OUT_W * SCALE, OUT_H * SCALE
+    img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    draw = ImageDraw.Draw(img)
+
+    code_font = load_font(UBUNTU_MONO_PATH, CODE_FONT_SIZE * SCALE)
+    title_font = load_font(UBUNTU_MONO_PATH, TITLE_FONT_SIZE * SCALE)
+
+    px = PADDING * SCALE
+    x0, y0 = px, px
+    x1, y1 = W - px, H - px
+
+    rounded_rect(
+        draw,
+        (x0, y0, x1, y1),
+        BOX_RADIUS * SCALE,
+        BOX_BG,
+        BOX_STROKE,
+        width=1 * SCALE,
+    )
+
+    cy = y0 + BTN_Y * SCALE
+    cx = x0 + BTN_LEFT * SCALE
+    for c in (MAC_RED, MAC_YELLOW, MAC_GREEN):
+        draw.ellipse(
+            (cx - BTN_R * SCALE, cy - BTN_R * SCALE,
+             cx + BTN_R * SCALE, cy + BTN_R * SCALE),
+            fill=c,
+        )
+        cx += (BTN_R * 2 + BTN_GAP) * SCALE
+
+    title = in_file.name
+    tw = draw.textlength(title, font=title_font)
+    tx = x0 + ((x1 - x0) - tw) / 2
+    ty = y0 + (TITLEBAR_H * SCALE - TITLE_FONT_SIZE * SCALE) / 2
+    draw.text((tx, ty), title, font=title_font, fill=TITLE_TEXT_COLOR)
+
+    inner_left = x0 + INNER_PAD_X * SCALE
+    inner_top = y0 + (TITLEBAR_H + INNER_PAD_Y) * SCALE
+    inner_right = x1 - INNER_PAD_X * SCALE
+    inner_bottom = y1 - INNER_PAD_Y * SCALE
+
+    ascent, descent = code_font.getmetrics()
+    line_h = ascent + descent + LINE_SPACING * SCALE
+
+    lineno_digits = len(str(max(1, len(lines))))
+    gutter_w = int(draw.textlength("9" * lineno_digits, font=code_font)) + 8 * SCALE
+    code_x = inner_left + gutter_w + GUTTER_GAP * SCALE
+    max_code_w = inner_right - code_x
+
+    pyg = try_pygments()
+    y = inner_top
+
+    if pyg:
+        lex, guess_lexer, TextLexer = pyg
+        try:
+            lexer = guess_lexer(in_file.name, "\n".join(lines))
+        except Exception:
+            lexer = TextLexer()
+
+        tokens = list(lex("\n".join(lines), lexer))
+
+        line_tokens: list[list[tuple[str, tuple[int, int, int, int]]]] = [[]]
+        for ttype, value in tokens:
+            parts = value.split("\n")
+            for i, p in enumerate(parts):
+                if i > 0:
+                    line_tokens.append([])
+                if p:
+                    line_tokens[-1].append((p, token_palette(str(ttype))))
+
+        for i, segs in enumerate(line_tokens, start=1):
+            if y + line_h > inner_bottom:
+                break
+            ln = str(i).rjust(lineno_digits)
+            draw.text((inner_left, y), ln, font=code_font, fill=LINENO_COLOR)
+
+            x = code_x
+            for txt, col in segs:
+                draw.text((x, y), txt, font=code_font, fill=col)
+                x += draw.textlength(txt, font=code_font)
+                if x > code_x + max_code_w:
+                    break
+            y += line_h
+    else:
+        for i, line in enumerate(lines, start=1):
+            if y + line_h > inner_bottom:
+                break
+            ln = str(i).rjust(lineno_digits)
+            draw.text((inner_left, y), ln, font=code_font, fill=LINENO_COLOR)
+            draw.text((code_x, y), line, font=code_font, fill=CODE_TEXT_COLOR)
+            y += line_h
+
+    img = img.resize((OUT_W, OUT_H), Image.LANCZOS)
+    out_file.parent.mkdir(parents=True, exist_ok=True)
+    img.save(out_file, "PNG")
+    return out_file
+
+
+# ============================================================
+# Orquestación por carpeta 101-Ejercicios
+# ============================================================
+def process_one_exercises_folder(ejercicios_folder: Path):
+    files_in_folder = list_text_exercise_files(ejercicios_folder)
+    if not files_in_folder:
+        print(f"[OMITIDO] Sin archivos de texto: {ejercicios_folder}")
+        return
+
+    # 1) Intro global
+    intro_path = generate_folder_intro(ejercicios_folder, files_in_folder)
+    if intro_path:
+        print(f"[OK] Intro: {intro_path.name}")
+
+    # 2) Explicaciones por archivo
+    expl_paths = generate_file_explanations(ejercicios_folder, files_in_folder)
+    print(f"[OK] Explicaciones: {len(expl_paths)}")
+
+    # 3) Artículo blog
+    out_dir = get_blog_output_dir(ejercicios_folder)
+    article_path = generate_blog_article_markdown(ejercicios_folder, files_in_folder, intro_path, out_dir)
+    print(f"[OK] Artículo: {article_path}")
+
+    # 3b) Keywords desde el artículo (una línea, comas)
+    kw_path = generate_keywords_txt(out_dir, article_path)
+    print(f"[OK] Keywords: {kw_path.name}")
+
+    # 4) Imagen (archivo representativo) con nombre único
+    rep = pick_representative_file(files_in_folder)
+    if rep:
+        img_filename = unique_image_name_for_file(rep)
+        img_path = out_dir / img_filename
+
+        if not (SKIP_IF_EXISTS and img_path.is_file()):
+            render_code_image(rep, img_path)
+
+        print(f"[OK] Imagen: {img_path.name} (de {rep.name})")
+
+        meta = {
+            "folder": str(ejercicios_folder),
+            "representative_file": str(rep),
+            "article_md": str(article_path),
+            "image_png": str(img_path),
+            "keywords_txt": str(kw_path),
+            "intro_md": str(intro_path) if intro_path else None,
+            "generated_at": time.strftime("%Y-%m-%d %H:%M:%S"),
+        }
+        (out_dir / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def main():
+    INTRODUCCIONES_DIR.mkdir(parents=True, exist_ok=True)
+    EXPLICACIONES_DIR.mkdir(parents=True, exist_ok=True)
+    BLOG_DIR.mkdir(parents=True, exist_ok=True)
+
+    if not ROOT_DIRS:
+        print("ERROR: ROOT_DIRS está vacío. Edita el script y añade rutas a procesar.")
+        return
+
+    if not UBUNTU_MONO_PATH.is_file():
+        print(f"ERROR: No encuentro la fuente UbuntuMono aquí: {UBUNTU_MONO_PATH}")
+        print("Coloca UbuntuMono-R.ttf en la carpeta del proyecto (junto a apuntes.py) o ajusta UBUNTU_MONO_PATH.")
+        return
+
+    # ✅ FIX: Cargar hashes ya procesados (por ruta completa)
+    processed_hashes = get_processed_folder_hashes()
+
+    for root in ROOT_DIRS:
+        root = root.resolve()
+        if not root.is_dir():
+            print(f"[OMITIDO] No es directorio: {root}")
+            continue
+
+        print("\n" + "=" * 80)
+        print(f"Procesando raíz: {root}")
+        print("=" * 80)
+
+        for ejercicios_folder in iter_exercise_folders(root):
+            h = compute_hash_for_path(ejercicios_folder)
+
+            # ✅ FIX: Dedupe por HASH (ruta completa)
+            if folder_already_processed_by_hash(ejercicios_folder, processed_hashes):
+                print(f"\n--- 101-Ejercicios: {ejercicios_folder} ---")
+                print(f"[OMITIDO] Ya procesada por hash (ruta completa): {h}")
+                continue
+
+            print(f"\n--- 101-Ejercicios: {ejercicios_folder} ---")
+            try:
+                process_one_exercises_folder(ejercicios_folder)
+
+                # ✅ FIX: Marcar como procesada por hash tras éxito
+                processed_hashes.add(h)
+            except Exception as e:
+                print(f"  !! Error en {ejercicios_folder}: {e}")
+
+    print("\nProceso completado.")
+
+
+if __name__ == "__main__":
+    main()
+```
+
+### carpetas completas
+<small>Creado: 2025-12-22 20:03</small>
+
+`005-carpetas completas.py`
+
+```python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+Generador unificado para carpetas 101-Ejercicios:
+
+Para cada carpeta:
+1) Genera una introducción didáctica GLOBAL (1–3 párrafos)  -> introducciones_folder/<hash>.md
+2) Genera explicaciones archivo-a-archivo (1–3 párrafos)    -> explicaciones_apuntes/<hash>.md
+   - Si detecta "continuación" (mismo prefijo numérico), compara con el anterior y añade un último párrafo de diferencias
+3) Genera un artículo tipo blog técnico (Markdown) usando ejemplos REALES del folder
+4) Selecciona 1 archivo representativo y renderiza una imagen PNG estilo editor macOS (para el post)
+5) Genera keywords.txt (4–6 keywords) a partir del artículo (UNA SOLA LÍNEA, separadas por comas)
+6) Guarda artículo + imagen + keywords en subcarpetas por cada 101-Ejercicios
+7) La imagen se guarda con nombre único: <archivo>__<hash>.png
+8) Evita reprocesar carpetas ya procesadas comparando por HASH DE LA RUTA COMPLETA (folder.resolve()).
+
+Requisitos:
+- pip install requests pillow
+- (opcional) pip install pygments
+- Tener UbuntuMono-R.ttf accesible (ver UBUNTU_MONO_PATH)
+
+NOTA:
+- Se asume que existe `apuntes.py` (mismo proyecto) y expone:
+  - sort_key(entry_or_dirent)
+  - is_text_file(path: Path) -> bool
+  - language_from_extension(path: Path) -> str | None
+"""
+
+from __future__ import annotations
+
+import os
+import re
+import json
+import time
+import hashlib
+from pathlib import Path
+from typing import Optional, Tuple
+
+import requests
+import urllib3
+from PIL import Image, ImageDraw, ImageFont
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+import apuntes  # noqa
+
+
+# ============================================================
+# CONFIG
+# ============================================================
+API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php"
+API_KEY = "TEST_API_KEY_JOCARSA_123"  # <-- pon tu clave real
+
+# Raíces a procesar (puedes añadir varias)
+ROOT_DIRS: list[Path] = [
+     Path("/var/www/html/dam/Primero/Bases de datos"),
+     Path("/var/www/html/dam/Primero/Entornos de desarrollo"),
+     Path("/var/www/html/dam/Primero/Lenguajes de marcas y sistemas de gestión de información"),
+     Path("/var/www/html/dam/Primero/Programación"),
+     Path("/var/www/html/dam/Primero/Proyecto interdisciplinar"),
+     Path("/var/www/html/dam/Primero/Sistemas informáticos"),
+
+     Path("/var/www/html/dam/Segundo/Acceso a datos"),
+     Path("/var/www/html/dam/Segundo/Desarrollo de interfaces"),
+     Path("/var/www/html/dam/Segundo/Programación de servicios y procesos"),
+     Path("/var/www/html/dam/Segundo/Programación multimedia y dispositivos móviles"),
+     Path("/var/www/html/dam/Segundo/Sistemas de gestión empresarial"),
+    # Path("/var/www/html/dam2526/Segundo"),
+]
+
+# Directorio base del proyecto (mismo que apuntes.py)
+APUNTES_DIR = Path(apuntes.__file__).resolve().parent
+
+# Salidas “globales” (como tus scripts anteriores)
+INTRODUCCIONES_DIR = APUNTES_DIR / "introducciones_folder"
+EXPLICACIONES_DIR = APUNTES_DIR / "explicaciones_apuntes"
+
+# Salidas por-carpeta (subcarpetas por cada 101-Ejercicios)
+BLOG_DIR = APUNTES_DIR / "blog_folder"  # aquí se crearán subcarpetas por cada folder
+
+# Si no quieres regenerar si ya existe
+SKIP_IF_EXISTS = True
+
+# Límite de contexto para el artículo (para no enviar carpetas enormes)
+MAX_FILES_FOR_ARTICLE_CONTEXT = 12
+MAX_CHARS_PER_FILE_FOR_ARTICLE = 6000
+
+# ============================================================
+# Imagen de código (renderer)
+# ============================================================
+SCALE = 2
+OUT_W = 1200
+OUT_H = 600
+PADDING = 24
+
+BOX_RADIUS = 22
+BOX_BG = (10, 10, 12, 235)
+BOX_STROKE = (255, 255, 255, 28)
+
+TITLEBAR_H = 44
+TITLE_TEXT_COLOR = (235, 235, 235, 220)
+
+CODE_TEXT_COLOR = (230, 230, 235, 235)
+LINENO_COLOR = (170, 170, 175, 140)
+
+INNER_PAD_X = 18
+INNER_PAD_Y = 14
+GUTTER_GAP = 14
+
+LINE_SPACING = 6
+TAB_SIZE = 4
+
+BTN_R = 7
+BTN_GAP = 8
+BTN_LEFT = 18
+BTN_Y = 22
+
+MAC_RED = (255, 95, 86, 235)
+MAC_YELLOW = (255, 189, 46, 235)
+MAC_GREEN = (39, 201, 63, 235)
+
+# Ruta a la fuente (ajusta si la tienes en otro sitio)
+UBUNTU_MONO_PATH = APUNTES_DIR / "UbuntuMono-R.ttf"
+
+CODE_FONT_SIZE = 16
+TITLE_FONT_SIZE = 16
+
+USE_PYGMENTS = True
+
+
+# ============================================================
+# Hashing (compatibles con tus scripts)
+# ============================================================
+def compute_hash_for_path(path: Path) -> str:
+    full_id = str(path.resolve())
+    return hashlib.sha256(full_id.encode("utf-8")).hexdigest()
+
+
+def compute_hash_for_file(path: Path) -> str:
+    full_id = str(path.resolve())
+    return hashlib.sha256(full_id.encode("utf-8")).hexdigest()
+
+
+def get_intro_path(folder_path: Path) -> Path:
+    return INTRODUCCIONES_DIR / f"{compute_hash_for_path(folder_path)}.md"
+
+
+def get_explanation_path(file_path: Path) -> Path:
+    return EXPLICACIONES_DIR / f"{compute_hash_for_file(file_path)}.md"
+
+
+def get_blog_output_dir(folder_path: Path) -> Path:
+    """
+    Subcarpeta por cada carpeta 101-Ejercicios.
+    Guardamos:
+      - article.md
+      - <archivo>__<hash>.png
+      - keywords.txt
+      - meta.json (opcional)
+    """
+    h = compute_hash_for_path(folder_path)
+    safe_name = folder_path.name.replace(" ", "_")
+    return BLOG_DIR / f"{safe_name}__{h}"
+
+
+# ============================================================
+# Dedupe por HASH de carpeta (ya procesadas)  ✅ FIX
+# ============================================================
+HASH_RE = re.compile(r"__([0-9a-f]{64})$")
+
+
+def get_processed_folder_hashes() -> set[str]:
+    """
+    Considera "procesada" una carpeta si existe en BLOG_DIR alguna subcarpeta
+    cuyo nombre termine en '__<hash64hex>' (porque así las nombramos).
+    """
+    processed: set[str] = set()
+    if not BLOG_DIR.exists():
+        return processed
+
+    for e in BLOG_DIR.iterdir():
+        if not e.is_dir():
+            continue
+        m = HASH_RE.search(e.name)
+        if m:
+            processed.add(m.group(1))
+    return processed
+
+
+def folder_already_processed_by_hash(ejercicios_folder: Path, processed_hashes: set[str]) -> bool:
+    """
+    Dedupe por hash de la RUTA COMPLETA (resolve), no por nombre.
+    """
+    return compute_hash_for_path(ejercicios_folder) in processed_hashes
+
+
+# ============================================================
+# API
+# ============================================================
+def call_remote_llm(question: str) -> str:
+    try:
+        resp = requests.post(
+            API_URL,
+            headers={"X-API-Key": API_KEY},
+            data={"question": question},
+            timeout=300,
+            verify=False,
+        )
+    except Exception as e:
+        raise RuntimeError(f"Error al contactar con la API remota: {e}")
+
+    if resp.status_code != 200:
+        raise RuntimeError(f"API remota devolvió HTTP {resp.status_code}: {resp.text}")
+
+    try:
+        data = resp.json()
+    except Exception:
+        raise RuntimeError(f"No se pudo parsear JSON desde la API remota: {resp.text}")
+
+    answer = data.get("answer")
+    if not answer:
+        raise RuntimeError(f"La respuesta de la API no contiene 'answer': {data}")
+
+    return answer.strip()
+
+
+# ============================================================
+# Descubrimiento de carpetas 101-Ejercicios
+# ============================================================
+def iter_exercise_folders(source_dir: Path):
+    """
+    Recorre: unidad -> subunidad -> 101-Ejercicios*
+    Devuelve cada Path a la carpeta 101-Ejercicios*.
+    """
+    source_dir = source_dir.resolve()
+
+    units = [e for e in os.scandir(source_dir) if e.is_dir()]
+    units.sort(key=apuntes.sort_key)
+
+    for unit in units:
+        subunits = [e for e in os.scandir(unit.path) if e.is_dir()]
+        subunits.sort(key=apuntes.sort_key)
+
+        for subunit in subunits:
+            subunit_path = Path(subunit.path)
+
+            ejercicios_folder = None
+            for e in os.scandir(subunit_path):
+                if e.is_dir() and e.name.lower().startswith("101-ejercicios"):
+                    ejercicios_folder = Path(e.path)
+                    break
+
+            if ejercicios_folder and ejercicios_folder.exists():
+                yield ejercicios_folder
+
+
+def list_text_exercise_files(ejercicios_folder: Path) -> list[Path]:
+    entries = [e for e in os.scandir(ejercicios_folder) if e.is_file()]
+    entries.sort(key=apuntes.sort_key)
+
+    out: list[Path] = []
+    for f in entries:
+        p = Path(f.path)
+        if not apuntes.is_text_file(p):
+            continue
+        out.append(p)
+    return out
+
+
+def read_file_text(path: Path) -> str:
+    return path.read_text(encoding="utf-8", errors="replace")
+
+
+def get_numeric_prefix(filename: str) -> Optional[str]:
+    m = re.match(r"^(\d+)", filename)
+    return m.group(1) if m else None
+
+
+# ============================================================
+# 1) Introducción global (carpeta)
+# ============================================================
+def build_intro_question(codes_by_file: dict[Path, str], langs: set[str], folder_path: Path) -> str:
+    languages_desc = ", ".join(sorted(langs)) if langs else "desconocidos"
+    contexto = (
+        f"Carpeta de ejercicios: {folder_path}\n"
+        f"Número de archivos de ejercicio: {len(codes_by_file)}\n"
+        f"Lenguajes detectados: {languages_desc}"
+    )
+
+    bloques = []
+    for path, code in codes_by_file.items():
+        bloques.append(f"=== ARCHIVO: {path.name} ===\n{code}")
+    codigo_conjunto = "\n\n".join(bloques)
+
+    return (
+        "Eres un profesor de programación que ayuda a comprender conjuntos de ejercicios de código. "
+        "Tu objetivo es explicar de forma clara, concisa y didáctica, SIEMPRE en español.\n\n"
+        "INSTRUCCIONES:\n"
+        "- Escribe una explicación INTRODUCTORIA y GLOBAL sobre el conjunto de ejercicios de esta carpeta.\n"
+        "- Resume qué tipo de problemas se trabajan y qué competencias se practican.\n"
+        "- No entres en detalle ejercicio por ejercicio.\n"
+        "- No incluyas el código en la respuesta.\n"
+        "- No generes ejemplos adicionales.\n"
+        "- Limítate a UNO, DOS o TRES párrafos como máximo.\n"
+        "- Dirígete a estudiantes de Formación Profesional.\n\n"
+        f"{contexto}\n\n"
+        "A continuación tienes el contenido de todos los archivos de ejercicio de la carpeta. "
+        "Úsalo solo como contexto para tu explicación global:\n"
+        "```texto\n"
+        + codigo_conjunto
+        + "\n```"
+    )
+
+
+def generate_folder_intro(ejercicios_folder: Path, files_in_folder: list[Path]) -> Optional[Path]:
+    intro_path = get_intro_path(ejercicios_folder)
+    if SKIP_IF_EXISTS and intro_path.is_file():
+        return intro_path
+
+    codes_by_file: dict[Path, str] = {}
+    langs: set[str] = set()
+
+    for fp in files_in_folder:
+        code = read_file_text(fp)
+        codes_by_file[fp] = code
+        lang = apuntes.language_from_extension(fp)
+        if lang:
+            langs.add(lang)
+
+    if not codes_by_file:
+        return None
+
+    q = build_intro_question(codes_by_file, langs, ejercicios_folder)
+    intro_text = call_remote_llm(q)
+
+    INTRODUCCIONES_DIR.mkdir(parents=True, exist_ok=True)
+    intro_path.write_text(intro_text, encoding="utf-8")
+    return intro_path
+
+
+# ============================================================
+# 2) Explicación por archivo (con continuidad)
+# ============================================================
+def build_file_explanation_question(
+    code: str,
+    lang: str,
+    file_path: Path,
+    folder_exercises: list[Path],
+    prev_code: Optional[str],
+    prev_file: Optional[Path],
+    is_continuation: bool,
+) -> str:
+    carpeta_ejercicios = file_path.parent
+    lista_ejercicios = "\n".join(f"- {p.name}" for p in folder_exercises)
+
+    contexto = (
+        f"Ruta del archivo actual: {file_path}\n"
+        f"Carpeta de ejercicios: {carpeta_ejercicios}\n"
+        "Otros archivos de ejercicios en esta carpeta:\n"
+        f"{lista_ejercicios}\n"
+        f"Lenguaje detectado: {lang or 'desconocido'}"
+    )
+
+    instrucciones = (
+        "Eres un profesor de programación que ayuda a comprender pequeños bloques de código. "
+        "Tu objetivo es explicar de forma clara, concisa y didáctica, SIEMPRE en español.\n\n"
+        "INSTRUCCIONES GENERALES:\n"
+        "- Explica el fragmento de código en **uno, dos o tres párrafos como máximo**.\n"
+        "- No incluyas el código en la respuesta.\n"
+        "- No generes ejemplos adicionales.\n"
+        "- Describe qué hace el código, cómo funciona y por qué es importante.\n"
+        "- Dirígete a estudiantes de Formación Profesional.\n"
+    )
+
+    comparacion = ""
+    if is_continuation and prev_code is not None and prev_file is not None:
+        comparacion = (
+            "\n\nINSTRUCCIONES ADICIONALES PARA LA COMPARACIÓN:\n"
+            f"- Este archivo parece ser una versión posterior o una continuación directa del ejercicio previo: {prev_file.name}.\n"
+            "- Ten en cuenta el código del archivo anterior y compáralo con el actual.\n"
+            "- Después de la explicación principal, añade un ÚLTIMO PÁRRAFO que resuma SOLAMENTE "
+            "las diferencias, cambios, mejoras o nuevas ideas respecto a la versión anterior.\n"
+        )
+
+    question = instrucciones + contexto + comparacion + "\n\n"
+
+    if is_continuation and prev_code is not None:
+        question += (
+            "Código del archivo ANTERIOR:\n"
+            "```" + (lang or "") + "\n"
+            + prev_code +
+            "\n```\n\n"
+        )
+
+    question += (
+        "Código del archivo ACTUAL a explicar:\n"
+        "```" + (lang or "") + "\n"
+        + code +
+        "\n```"
+    )
+
+    return question
+
+
+def generate_file_explanations(ejercicios_folder: Path, files_in_folder: list[Path]) -> list[Path]:
+    EXPLICACIONES_DIR.mkdir(parents=True, exist_ok=True)
+    written: list[Path] = []
+
+    for idx, code_file in enumerate(files_in_folder):
+        out_path = get_explanation_path(code_file)
+        if SKIP_IF_EXISTS and out_path.is_file():
+            written.append(out_path)
+            continue
+
+        prev_code = None
+        prev_file = None
+        is_continuation = False
+
+        if idx > 0:
+            prev_file = files_in_folder[idx - 1]
+            cur_prefix = get_numeric_prefix(code_file.name)
+            prev_prefix = get_numeric_prefix(prev_file.name)
+
+            if cur_prefix is not None and prev_prefix is not None and cur_prefix == prev_prefix:
+                try:
+                    prev_code = read_file_text(prev_file)
+                    is_continuation = True
+                except Exception:
+                    prev_code = None
+                    is_continuation = False
+
+        code = read_file_text(code_file)
+        lang = apuntes.language_from_extension(code_file) or ""
+
+        q = build_file_explanation_question(
+            code=code,
+            lang=lang,
+            file_path=code_file,
+            folder_exercises=files_in_folder,
+            prev_code=prev_code,
+            prev_file=prev_file,
+            is_continuation=is_continuation,
+        )
+        explanation = call_remote_llm(q)
+
+        out_path.write_text(explanation, encoding="utf-8")
+        written.append(out_path)
+
+    return written
+
+
+# ============================================================
+# 3) Artículo didáctico tipo blog (Markdown con ejemplos reales)
+# ============================================================
+def build_blog_article_question(
+    ejercicios_folder: Path,
+    files_in_folder: list[Path],
+    intro_text: Optional[str],
+) -> str:
+    selected_files = files_in_folder[:MAX_FILES_FOR_ARTICLE_CONTEXT]
+
+    bloques = []
+    for fp in selected_files:
+        lang = apuntes.language_from_extension(fp) or ""
+        raw = read_file_text(fp)
+        raw = raw[:MAX_CHARS_PER_FILE_FOR_ARTICLE]
+        bloques.append(
+            f"=== ARCHIVO: {fp.name} ===\n"
+            f"```{lang}\n{raw}\n```"
+        )
+
+    contexto = (
+        f"Carpeta de ejercicios: {ejercicios_folder}\n"
+        f"Número total de archivos en la carpeta: {len(files_in_folder)}\n"
+        f"Archivos incluidos como contexto: {len(selected_files)}\n"
+    )
+
+    intro_block = ""
+    if intro_text:
+        intro_block = (
+            "\nAdemás, aquí tienes una introducción global ya generada para la carpeta (úsala si te ayuda a estructurar):\n"
+            f"{intro_text}\n"
+        )
+
+    return (
+        "Eres un profesor de programación y también redactor técnico. "
+        "Escribe un ARTÍCULO tipo blog didáctico, SIEMPRE en español, en formato Markdown.\n\n"
+        "REQUISITOS ESTRICTOS:\n"
+        "- Usa SOLO ejemplos REALES extraídos del código proporcionado (no inventes código nuevo).\n"
+        "- Puedes citar fragmentos cortos de los archivos como bloques de código.\n"
+        "- Evita explicar archivo por archivo: agrupa por ideas/competencias.\n"
+        "- El artículo debe ser útil para estudiantes de Formación Profesional.\n"
+        "- Incluye estas secciones (con títulos Markdown):\n"
+        "  1) # Título\n"
+        "  2) Introducción (qué se va a aprender aquí)\n"
+        "  3) Conceptos clave (3–6 bullets)\n"
+        "  4) Ejemplos del repositorio (2–5 bloques de código breves, con explicación)\n"
+        "  5) Errores típicos / consejos (bullets)\n"
+        "  6) Mini-reto (sin código; solo enunciado)\n"
+        "- No menciones 'Ollama', 'API', ni el prompt.\n"
+        "- No añadas enlaces externos.\n\n"
+        f"{contexto}\n"
+        f"{intro_block}\n"
+        "CONTEXTO (código real):\n\n"
+        + "\n\n".join(bloques)
+    )
+
+
+def generate_blog_article_markdown(
+    ejercicios_folder: Path,
+    files_in_folder: list[Path],
+    intro_path: Optional[Path],
+    out_dir: Path,
+) -> Path:
+    out_dir.mkdir(parents=True, exist_ok=True)
+    md_path = out_dir / "article.md"
+
+    if SKIP_IF_EXISTS and md_path.is_file():
+        return md_path
+
+    intro_text = intro_path.read_text(encoding="utf-8") if (intro_path and intro_path.is_file()) else None
+    q = build_blog_article_question(ejercicios_folder, files_in_folder, intro_text)
+    article = call_remote_llm(q)
+
+    md_path.write_text(article, encoding="utf-8")
+    return md_path
+
+
+# ============================================================
+# 3b) Keywords desde article.md -> keywords.txt (UNA LÍNEA con comas)
+# ============================================================
+def build_keywords_question(article_md: str) -> str:
+    return (
+        "Extrae entre 4 y 6 palabras clave (keywords) a partir del siguiente artículo en Markdown.\n\n"
+        "REQUISITOS:\n"
+        "- Devuelve SOLO las keywords en UNA SOLA LÍNEA, separadas por comas.\n"
+        "- Sin numeración, sin viñetas, sin comillas, sin explicaciones.\n"
+        "- Keywords en español.\n"
+        "- Deben ser relevantes y representativas del contenido.\n"
+        "- Evita palabras demasiado genéricas (por ejemplo: 'programación', 'código', 'ejercicios').\n\n"
+        "ARTÍCULO:\n"
+        "```markdown\n"
+        + article_md +
+        "\n```"
+    )
+
+
+def generate_keywords_txt(out_dir: Path, article_path: Path) -> Path:
+    out_dir.mkdir(parents=True, exist_ok=True)
+    kw_path = out_dir / "keywords.txt"
+
+    if SKIP_IF_EXISTS and kw_path.is_file():
+        return kw_path
+
+    article_md = article_path.read_text(encoding="utf-8", errors="replace")
+    q = build_keywords_question(article_md)
+    answer = call_remote_llm(q)
+
+    raw = " ".join([l.strip() for l in answer.splitlines() if l.strip()]).strip()
+    raw = re.sub(r"^[\-\*\u2022]\s*", "", raw)
+    raw = raw.strip().strip('"').strip("'")
+
+    raw = raw.replace(";", ",")
+    raw = raw.replace(" | ", ", ")
+    raw = raw.replace(" · ", ", ")
+
+    parts = []
+    for p in raw.split(","):
+        s = p.strip().strip('"').strip("'")
+        if s:
+            parts.append(s)
+
+    parts = parts[:6]
+    kw_path.write_text(", ".join(parts) + ("\n" if parts else ""), encoding="utf-8")
+    return kw_path
+
+
+# ============================================================
+# 4) Selección de archivo representativo para imagen
+# ============================================================
+def pick_representative_file(files_in_folder: list[Path]) -> Optional[Path]:
+    if not files_in_folder:
+        return None
+
+    def score(p: Path) -> Tuple[int, int]:
+        txt = read_file_text(p)
+        lines = txt.splitlines()
+        non_empty = sum(1 for l in lines if l.strip())
+        target = 30
+        closeness = -abs(non_empty - target)
+        return (closeness, non_empty)
+
+    best = files_in_folder[0]
+    try:
+        if len(read_file_text(best).splitlines()) < 5 and len(files_in_folder) > 1:
+            best = max(files_in_folder, key=score)
+    except Exception:
+        pass
+
+    return best
+
+
+def sanitize_stem(stem: str) -> str:
+    stem = stem.strip().replace(" ", "_")
+    stem = re.sub(r"[^A-Za-z0-9_\-\.]+", "", stem)
+    return stem[:80] if len(stem) > 80 else stem
+
+
+def unique_image_name_for_file(code_file: Path) -> str:
+    h = compute_hash_for_file(code_file)[:16]
+    stem = sanitize_stem(code_file.stem)
+    return f"jose_vicente_carratala_sanchis_{stem}__{h}.png"
+
+
+# ============================================================
+# 5) Renderer de imagen (código -> PNG)
+# ============================================================
+def load_font(path: Path, size: int) -> ImageFont.FreeTypeFont:
+    if not path.is_file():
+        raise RuntimeError(f"Font not found: {path}")
+    return ImageFont.truetype(str(path), size=size)
+
+
+def rounded_rect(draw: ImageDraw.ImageDraw, xy, r, fill, outline=None, width=1):
+    draw.rounded_rectangle(xy, radius=r, fill=fill, outline=outline, width=width)
+
+
+def expand_tabs(s: str) -> str:
+    return s.expandtabs(TAB_SIZE)
+
+
+def try_pygments():
+    if not USE_PYGMENTS:
+        return None
+    try:
+        from pygments import lex
+        from pygments.lexers import guess_lexer_for_filename, TextLexer
+        return lex, guess_lexer_for_filename, TextLexer
+    except Exception:
+        return None
+
+
+def token_palette(ttype: str):
+    if "Comment" in ttype:
+        return (120, 160, 130, 220)
+    if "String" in ttype:
+        return (180, 220, 160, 235)
+    if "Keyword" in ttype:
+        return (140, 190, 255, 235)
+    if "Number" in ttype:
+        return (255, 210, 140, 235)
+    if "Name.Builtin" in ttype:
+        return (255, 170, 240, 235)
+    return CODE_TEXT_COLOR
+
+
+def render_code_image(in_file: Path, out_file: Path) -> Path:
+    lines = read_file_text(in_file).splitlines()
+    lines = [expand_tabs(l) for l in lines]
+
+    W, H = OUT_W * SCALE, OUT_H * SCALE
+    img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    draw = ImageDraw.Draw(img)
+
+    code_font = load_font(UBUNTU_MONO_PATH, CODE_FONT_SIZE * SCALE)
+    title_font = load_font(UBUNTU_MONO_PATH, TITLE_FONT_SIZE * SCALE)
+
+    px = PADDING * SCALE
+    x0, y0 = px, px
+    x1, y1 = W - px, H - px
+
+    rounded_rect(
+        draw,
+        (x0, y0, x1, y1),
+        BOX_RADIUS * SCALE,
+        BOX_BG,
+        BOX_STROKE,
+        width=1 * SCALE,
+    )
+
+    cy = y0 + BTN_Y * SCALE
+    cx = x0 + BTN_LEFT * SCALE
+    for c in (MAC_RED, MAC_YELLOW, MAC_GREEN):
+        draw.ellipse(
+            (cx - BTN_R * SCALE, cy - BTN_R * SCALE,
+             cx + BTN_R * SCALE, cy + BTN_R * SCALE),
+            fill=c,
+        )
+        cx += (BTN_R * 2 + BTN_GAP) * SCALE
+
+    title = in_file.name
+    tw = draw.textlength(title, font=title_font)
+    tx = x0 + ((x1 - x0) - tw) / 2
+    ty = y0 + (TITLEBAR_H * SCALE - TITLE_FONT_SIZE * SCALE) / 2
+    draw.text((tx, ty), title, font=title_font, fill=TITLE_TEXT_COLOR)
+
+    inner_left = x0 + INNER_PAD_X * SCALE
+    inner_top = y0 + (TITLEBAR_H + INNER_PAD_Y) * SCALE
+    inner_right = x1 - INNER_PAD_X * SCALE
+    inner_bottom = y1 - INNER_PAD_Y * SCALE
+
+    ascent, descent = code_font.getmetrics()
+    line_h = ascent + descent + LINE_SPACING * SCALE
+
+    lineno_digits = len(str(max(1, len(lines))))
+    gutter_w = int(draw.textlength("9" * lineno_digits, font=code_font)) + 8 * SCALE
+    code_x = inner_left + gutter_w + GUTTER_GAP * SCALE
+    max_code_w = inner_right - code_x
+
+    pyg = try_pygments()
+    y = inner_top
+
+    if pyg:
+        lex, guess_lexer, TextLexer = pyg
+        try:
+            lexer = guess_lexer(in_file.name, "\n".join(lines))
+        except Exception:
+            lexer = TextLexer()
+
+        tokens = list(lex("\n".join(lines), lexer))
+
+        line_tokens: list[list[tuple[str, tuple[int, int, int, int]]]] = [[]]
+        for ttype, value in tokens:
+            parts = value.split("\n")
+            for i, p in enumerate(parts):
+                if i > 0:
+                    line_tokens.append([])
+                if p:
+                    line_tokens[-1].append((p, token_palette(str(ttype))))
+
+        for i, segs in enumerate(line_tokens, start=1):
+            if y + line_h > inner_bottom:
+                break
+            ln = str(i).rjust(lineno_digits)
+            draw.text((inner_left, y), ln, font=code_font, fill=LINENO_COLOR)
+
+            x = code_x
+            for txt, col in segs:
+                draw.text((x, y), txt, font=code_font, fill=col)
+                x += draw.textlength(txt, font=code_font)
+                if x > code_x + max_code_w:
+                    break
+            y += line_h
+    else:
+        for i, line in enumerate(lines, start=1):
+            if y + line_h > inner_bottom:
+                break
+            ln = str(i).rjust(lineno_digits)
+            draw.text((inner_left, y), ln, font=code_font, fill=LINENO_COLOR)
+            draw.text((code_x, y), line, font=code_font, fill=CODE_TEXT_COLOR)
+            y += line_h
+
+    img = img.resize((OUT_W, OUT_H), Image.LANCZOS)
+    out_file.parent.mkdir(parents=True, exist_ok=True)
+    img.save(out_file, "PNG")
+    return out_file
+
+
+# ============================================================
+# Orquestación por carpeta 101-Ejercicios
+# ============================================================
+def process_one_exercises_folder(ejercicios_folder: Path):
+    files_in_folder = list_text_exercise_files(ejercicios_folder)
+    if not files_in_folder:
+        print(f"[OMITIDO] Sin archivos de texto: {ejercicios_folder}")
+        return
+
+    # 1) Intro global
+    intro_path = generate_folder_intro(ejercicios_folder, files_in_folder)
+    if intro_path:
+        print(f"[OK] Intro: {intro_path.name}")
+
+    # 2) Explicaciones por archivo
+    expl_paths = generate_file_explanations(ejercicios_folder, files_in_folder)
+    print(f"[OK] Explicaciones: {len(expl_paths)}")
+
+    # 3) Artículo blog
+    out_dir = get_blog_output_dir(ejercicios_folder)
+    article_path = generate_blog_article_markdown(ejercicios_folder, files_in_folder, intro_path, out_dir)
+    print(f"[OK] Artículo: {article_path}")
+
+    # 3b) Keywords desde el artículo (una línea, comas)
+    kw_path = generate_keywords_txt(out_dir, article_path)
+    print(f"[OK] Keywords: {kw_path.name}")
+
+    # 4) Imagen (archivo representativo) con nombre único
+    rep = pick_representative_file(files_in_folder)
+    if rep:
+        img_filename = unique_image_name_for_file(rep)
+        img_path = out_dir / img_filename
+
+        if not (SKIP_IF_EXISTS and img_path.is_file()):
+            render_code_image(rep, img_path)
+
+        print(f"[OK] Imagen: {img_path.name} (de {rep.name})")
+
+        meta = {
+            "folder": str(ejercicios_folder),
+            "representative_file": str(rep),
+            "article_md": str(article_path),
+            "image_png": str(img_path),
+            "keywords_txt": str(kw_path),
+            "intro_md": str(intro_path) if intro_path else None,
+            "generated_at": time.strftime("%Y-%m-%d %H:%M:%S"),
+        }
+        (out_dir / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def main():
+    INTRODUCCIONES_DIR.mkdir(parents=True, exist_ok=True)
+    EXPLICACIONES_DIR.mkdir(parents=True, exist_ok=True)
+    BLOG_DIR.mkdir(parents=True, exist_ok=True)
+
+    if not ROOT_DIRS:
+        print("ERROR: ROOT_DIRS está vacío. Edita el script y añade rutas a procesar.")
+        return
+
+    if not UBUNTU_MONO_PATH.is_file():
+        print(f"ERROR: No encuentro la fuente UbuntuMono aquí: {UBUNTU_MONO_PATH}")
+        print("Coloca UbuntuMono-R.ttf en la carpeta del proyecto (junto a apuntes.py) o ajusta UBUNTU_MONO_PATH.")
+        return
+
+    # ✅ FIX: Cargar hashes ya procesados (por ruta completa)
+    processed_hashes = get_processed_folder_hashes()
+
+    for root in ROOT_DIRS:
+        root = root.resolve()
+        if not root.is_dir():
+            print(f"[OMITIDO] No es directorio: {root}")
+            continue
+
+        print("\n" + "=" * 80)
+        print(f"Procesando raíz: {root}")
+        print("=" * 80)
+
+        for ejercicios_folder in iter_exercise_folders(root):
+            h = compute_hash_for_path(ejercicios_folder)
+
+            # ✅ FIX: Dedupe por HASH (ruta completa)
+            if folder_already_processed_by_hash(ejercicios_folder, processed_hashes):
+                print(f"\n--- 101-Ejercicios: {ejercicios_folder} ---")
+                print(f"[OMITIDO] Ya procesada por hash (ruta completa): {h}")
+                continue
+
+            print(f"\n--- 101-Ejercicios: {ejercicios_folder} ---")
+            try:
+                process_one_exercises_folder(ejercicios_folder)
+
+                # ✅ FIX: Marcar como procesada por hash tras éxito
+                processed_hashes.add(h)
+            except Exception as e:
+                print(f"  !! Error en {ejercicios_folder}: {e}")
+
+    print("\nProceso completado.")
+
+
+if __name__ == "__main__":
+    main()
+```
+
+### archivos individuales
+<small>Creado: 2025-12-22 20:03</small>
+
+`006-archivos individuales.py`
+
+```python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+Generador unificado para carpetas 101-Ejercicios (ARTÍCULOS POR ARCHIVO, 1 CARPETA POR ARCHIVO)
+
+Para cada carpeta 101-Ejercicios:
+- (Opcional) Genera 1 introducción GLOBAL -> introducciones_folder/<hashCarpeta>.md
+
+Para cada archivo de texto dentro de 101-Ejercicios:
+- Genera 1 artículo didáctico (Markdown) centrado en ESE archivo, usando el resto como contexto
+- Genera keywords.txt (4–6 keywords, una línea, separadas por comas)
+- Genera una imagen PNG estilo editor macOS del archivo
+- Genera meta.json
+- Y guarda todo en UNA carpeta dedicada por archivo, directamente dentro de blog_folder (sin sub-subcarpetas):
+
+    blog_folder/
+      101-Ejercicios__<hashCarpeta16>__<fileStem>__<hashArchivo16>/
+        article.md
+        keywords.txt
+        jose_vicente_carratala_sanchis_<fileStem>__<hashArchivo16>.png
+        meta.json
+
+Dedupe:
+- Si SKIP_IF_EXISTS=True y ya existe article.md en esa carpeta, se salta ese archivo.
+
+Requisitos:
+- pip install requests pillow
+- (opcional) pip install pygments
+- UbuntuMono-R.ttf accesible (UBUNTU_MONO_PATH)
+
+NOTA:
+- Se asume que existe `apuntes.py` y expone:
+  - sort_key(entry_or_dirent)
+  - is_text_file(path: Path) -> bool
+  - language_from_extension(path: Path) -> str | None
+"""
+
+from __future__ import annotations
+
+import os
+import re
+import json
+import time
+import hashlib
+from pathlib import Path
+from typing import Optional
+
+import requests
+import urllib3
+from PIL import Image, ImageDraw, ImageFont
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+import apuntes  # noqa
+
+
+# ============================================================
+# CONFIG
+# ============================================================
+API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php"
+API_KEY = "TEST_API_KEY_JOCARSA_123"  # <-- pon tu clave real
+
+ROOT_DIRS: list[Path] = [
+    Path("/var/www/html/dam/Primero/Bases de datos"),
+    Path("/var/www/html/dam/Primero/Entornos de desarrollo"),
+    Path("/var/www/html/dam/Primero/Lenguajes de marcas y sistemas de gestión de información"),
+    Path("/var/www/html/dam/Primero/Programación"),
+    Path("/var/www/html/dam/Primero/Proyecto interdisciplinar"),
+    Path("/var/www/html/dam/Primero/Sistemas informáticos"),
+
+    Path("/var/www/html/dam/Segundo/Acceso a datos"),
+    Path("/var/www/html/dam/Segundo/Desarrollo de interfaces"),
+    Path("/var/www/html/dam/Segundo/Programación de servicios y procesos"),
+    Path("/var/www/html/dam/Segundo/Programación multimedia y dispositivos móviles"),
+    Path("/var/www/html/dam/Segundo/Sistemas de gestión empresarial"),
+]
+
+APUNTES_DIR = Path(apuntes.__file__).resolve().parent
+
+INTRODUCCIONES_DIR = APUNTES_DIR / "introducciones_folder"
+BLOG_DIR = APUNTES_DIR / "blog_folder"
+
+SKIP_IF_EXISTS = True
+GENERATE_FOLDER_INTRO = True
+
+# Contexto del artículo por archivo
+MAX_OTHER_FILES_FOR_CONTEXT = 10
+MAX_CHARS_PER_OTHER_FILE = 2500
+MAX_CHARS_CURRENT_FILE = 12000
+
+
+# ============================================================
+# Imagen de código (renderer)
+# ============================================================
+SCALE = 2
+OUT_W = 1200
+OUT_H = 600
+PADDING = 24
+
+BOX_RADIUS = 22
+BOX_BG = (10, 10, 12, 235)
+BOX_STROKE = (255, 255, 255, 28)
+
+TITLEBAR_H = 44
+TITLE_TEXT_COLOR = (235, 235, 235, 220)
+
+CODE_TEXT_COLOR = (230, 230, 235, 235)
+LINENO_COLOR = (170, 170, 175, 140)
+
+INNER_PAD_X = 18
+INNER_PAD_Y = 14
+GUTTER_GAP = 14
+
+LINE_SPACING = 6
+TAB_SIZE = 4
+
+BTN_R = 7
+BTN_GAP = 8
+BTN_LEFT = 18
+BTN_Y = 22
+
+MAC_RED = (255, 95, 86, 235)
+MAC_YELLOW = (255, 189, 46, 235)
+MAC_GREEN = (39, 201, 63, 235)
+
+UBUNTU_MONO_PATH = APUNTES_DIR / "UbuntuMono-R.ttf"
+
+CODE_FONT_SIZE = 16
+TITLE_FONT_SIZE = 16
+
+USE_PYGMENTS = True
+
+
+# ============================================================
+# Hashing
+# ============================================================
+def compute_hash_for_path(path: Path) -> str:
+    return hashlib.sha256(str(path.resolve()).encode("utf-8")).hexdigest()
+
+
+def compute_hash_for_file(path: Path) -> str:
+    return hashlib.sha256(str(path.resolve()).encode("utf-8")).hexdigest()
+
+
+def short16(h: str) -> str:
+    return h[:16]
+
+
+def get_intro_path(folder_path: Path) -> Path:
+    return INTRODUCCIONES_DIR / f"{compute_hash_for_path(folder_path)}.md"
+
+
+def sanitize_stem(stem: str) -> str:
+    stem = stem.strip().replace(" ", "_")
+    stem = re.sub(r"[^A-Za-z0-9_\-\.]+", "", stem)
+    return stem[:80] if len(stem) > 80 else stem
+
+
+def get_output_dir_for_file(ejercicios_folder: Path, code_file: Path) -> Path:
+    """
+    ✅ 1 carpeta por archivo directamente bajo BLOG_DIR (nivel principal).
+    Incluimos hash de carpeta + hash de archivo para evitar colisiones.
+    """
+    folder_hash16 = short16(compute_hash_for_path(ejercicios_folder))
+    file_hash16 = short16(compute_hash_for_file(code_file))
+    stem = sanitize_stem(code_file.stem)
+
+    base = ejercicios_folder.name.replace(" ", "_")  # típicamente "101-Ejercicios"
+    return BLOG_DIR / f"{base}__{folder_hash16}__{stem}__{file_hash16}"
+
+
+def unique_image_name_for_file(code_file: Path) -> str:
+    file_hash16 = short16(compute_hash_for_file(code_file))
+    stem = sanitize_stem(code_file.stem)
+    return f"jose_vicente_carratala_sanchis_{stem}__{file_hash16}.png"
+
+
+# ============================================================
+# API
+# ============================================================
+def call_remote_llm(question: str) -> str:
+    try:
+        resp = requests.post(
+            API_URL,
+            headers={"X-API-Key": API_KEY},
+            data={"question": question},
+            timeout=300,
+            verify=False,
+        )
+    except Exception as e:
+        raise RuntimeError(f"Error al contactar con la API remota: {e}")
+
+    if resp.status_code != 200:
+        raise RuntimeError(f"API remota devolvió HTTP {resp.status_code}: {resp.text}")
+
+    try:
+        data = resp.json()
+    except Exception:
+        raise RuntimeError(f"No se pudo parsear JSON desde la API remota: {resp.text}")
+
+    answer = data.get("answer")
+    if not answer:
+        raise RuntimeError(f"La respuesta de la API no contiene 'answer': {data}")
+
+    return answer.strip()
+
+
+# ============================================================
+# Descubrimiento de carpetas 101-Ejercicios
+# ============================================================
+def iter_exercise_folders(source_dir: Path):
+    source_dir = source_dir.resolve()
+
+    units = [e for e in os.scandir(source_dir) if e.is_dir()]
+    units.sort(key=apuntes.sort_key)
+
+    for unit in units:
+        subunits = [e for e in os.scandir(unit.path) if e.is_dir()]
+        subunits.sort(key=apuntes.sort_key)
+
+        for subunit in subunits:
+            subunit_path = Path(subunit.path)
+
+            ejercicios_folder = None
+            for e in os.scandir(subunit_path):
+                if e.is_dir() and e.name.lower().startswith("101-ejercicios"):
+                    ejercicios_folder = Path(e.path)
+                    break
+
+            if ejercicios_folder and ejercicios_folder.exists():
+                yield ejercicios_folder
+
+
+def list_text_exercise_files(ejercicios_folder: Path) -> list[Path]:
+    entries = [e for e in os.scandir(ejercicios_folder) if e.is_file()]
+    entries.sort(key=apuntes.sort_key)
+
+    out: list[Path] = []
+    for f in entries:
+        p = Path(f.path)
+        if not apuntes.is_text_file(p):
+            continue
+        out.append(p)
+    return out
+
+
+def read_file_text(path: Path) -> str:
+    return path.read_text(encoding="utf-8", errors="replace")
+
+
+# ============================================================
+# Intro global (opcional)
+# ============================================================
+def build_intro_question(codes_by_file: dict[Path, str], langs: set[str], folder_path: Path) -> str:
+    languages_desc = ", ".join(sorted(langs)) if langs else "desconocidos"
+    contexto = (
+        f"Carpeta de ejercicios: {folder_path}\n"
+        f"Número de archivos de ejercicio: {len(codes_by_file)}\n"
+        f"Lenguajes detectados: {languages_desc}"
+    )
+
+    bloques = []
+    for path, code in codes_by_file.items():
+        bloques.append(f"=== ARCHIVO: {path.name} ===\n{code}")
+    codigo_conjunto = "\n\n".join(bloques)
+
+    return (
+        "Eres un profesor de programación que ayuda a comprender conjuntos de ejercicios de código. "
+        "Tu objetivo es explicar de forma clara, concisa y didáctica, SIEMPRE en español.\n\n"
+        "INSTRUCCIONES:\n"
+        "- Escribe una explicación INTRODUCTORIA y GLOBAL sobre el conjunto de ejercicios de esta carpeta.\n"
+        "- Resume qué tipo de problemas se trabajan y qué competencias se practican.\n"
+        "- No entres en detalle ejercicio por ejercicio.\n"
+        "- No incluyas el código en la respuesta.\n"
+        "- No generes ejemplos adicionales.\n"
+        "- Limítate a UNO, DOS o TRES párrafos como máximo.\n"
+        "- Dirígete a estudiantes de Formación Profesional.\n\n"
+        f"{contexto}\n\n"
+        "A continuación tienes el contenido de todos los archivos (solo como contexto):\n"
+        "```texto\n"
+        + codigo_conjunto
+        + "\n```"
+    )
+
+
+def generate_folder_intro(ejercicios_folder: Path, files_in_folder: list[Path]) -> Optional[Path]:
+    intro_path = get_intro_path(ejercicios_folder)
+    if SKIP_IF_EXISTS and intro_path.is_file():
+        return intro_path
+
+    codes_by_file: dict[Path, str] = {}
+    langs: set[str] = set()
+
+    for fp in files_in_folder:
+        code = read_file_text(fp)
+        codes_by_file[fp] = code
+        lang = apuntes.language_from_extension(fp)
+        if lang:
+            langs.add(lang)
+
+    if not codes_by_file:
+        return None
+
+    q = build_intro_question(codes_by_file, langs, ejercicios_folder)
+    intro_text = call_remote_llm(q)
+
+    INTRODUCCIONES_DIR.mkdir(parents=True, exist_ok=True)
+    intro_path.write_text(intro_text, encoding="utf-8")
+    return intro_path
+
+
+# ============================================================
+# Artículo blog POR ARCHIVO (contexto del resto)
+# ============================================================
+def build_blog_article_question_for_file(
+    ejercicios_folder: Path,
+    current_file: Path,
+    all_files: list[Path],
+    intro_text: Optional[str],
+) -> str:
+    lang_cur = apuntes.language_from_extension(current_file) or ""
+    cur_code = read_file_text(current_file)[:MAX_CHARS_CURRENT_FILE]
+
+    others = [p for p in all_files if p != current_file]
+    others = others[:MAX_OTHER_FILES_FOR_CONTEXT]
+
+    otros_bloques = []
+    for fp in others:
+        lang = apuntes.language_from_extension(fp) or ""
+        raw = read_file_text(fp)[:MAX_CHARS_PER_OTHER_FILE]
+        otros_bloques.append(
+            f"=== OTRO ARCHIVO (contexto): {fp.name} ===\n"
+            f"```{lang}\n{raw}\n```"
+        )
+
+    contexto = (
+        f"Carpeta de ejercicios: {ejercicios_folder}\n"
+        f"Archivo principal (FOCO): {current_file.name}\n"
+        f"Lenguaje detectado (foco): {lang_cur or 'desconocido'}\n"
+        f"Número total de archivos en la carpeta: {len(all_files)}\n"
+        f"Archivos adicionales incluidos como contexto: {len(others)}\n"
+    )
+
+    intro_block = ""
+    if intro_text:
+        intro_block = (
+            "\nIntroducción global de la carpeta (úsala solo para orientar el enfoque, no la repitas literal):\n"
+            f"{intro_text}\n"
+        )
+
+    return (
+        "Eres un profesor de programación y también redactor técnico. "
+        "Escribe un ARTÍCULO tipo blog didáctico, SIEMPRE en español, en formato Markdown.\n\n"
+        "OBJETIVO:\n"
+        "- El artículo debe estar CENTRADO en el archivo principal.\n"
+        "- Debe extraer ALGO REALMENTE ÚTIL del código: una técnica, un patrón, un concepto, un caso típico, "
+        "un error habitual, una buena práctica, o una idea clave que un alumno pueda reutilizar.\n"
+        "- Usa el resto de archivos SOLO como contexto del tema general del folder.\n\n"
+        "REQUISITOS ESTRICTOS:\n"
+        "- Usa SOLO ejemplos REALES extraídos del código proporcionado (no inventes código nuevo).\n"
+        "- Puedes citar fragmentos cortos del archivo principal como bloques de código.\n"
+        "- No expliques archivo por archivo.\n"
+        "- Dirigido a estudiantes de Formación Profesional.\n"
+        "- Incluye estas secciones (con títulos Markdown):\n"
+        "  1) # Título\n"
+        "  2) Introducción (qué se aprende de ESTE archivo)\n"
+        "  3) Idea clave (1–2 párrafos)\n"
+        "  4) Lo más importante del código (2–4 bullets)\n"
+        "  5) Fragmentos del archivo (2–4 bloques de código breves, con explicación)\n"
+        "  6) Errores típicos / consejos (bullets)\n"
+        "  7) Mini-reto (sin código; solo enunciado basado en este archivo)\n"
+        "- No menciones 'Ollama', 'API', ni el prompt.\n"
+        "- No añadas enlaces externos.\n\n"
+        f"{contexto}\n"
+        f"{intro_block}\n"
+        "CÓDIGO DEL ARCHIVO PRINCIPAL (FOCO):\n"
+        f"```{lang_cur}\n{cur_code}\n```\n\n"
+        "OTROS ARCHIVOS (solo contexto):\n\n"
+        + ("\n\n".join(otros_bloques) if otros_bloques else "(No hay otros archivos de contexto.)")
+    )
+
+
+def generate_blog_article_for_file(
+    ejercicios_folder: Path,
+    current_file: Path,
+    all_files: list[Path],
+    intro_path: Optional[Path],
+) -> str:
+    intro_text = intro_path.read_text(encoding="utf-8") if (intro_path and intro_path.is_file()) else None
+    q = build_blog_article_question_for_file(ejercicios_folder, current_file, all_files, intro_text)
+    return call_remote_llm(q)
+
+
+# ============================================================
+# Keywords (una línea, comas)
+# ============================================================
+def build_keywords_question(article_md: str) -> str:
+    return (
+        "Extrae entre 4 y 6 palabras clave (keywords) a partir del siguiente artículo en Markdown.\n\n"
+        "REQUISITOS:\n"
+        "- Devuelve SOLO las keywords en UNA SOLA LÍNEA, separadas por comas.\n"
+        "- Sin numeración, sin viñetas, sin comillas, sin explicaciones.\n"
+        "- Keywords en español.\n"
+        "- Deben ser relevantes y representativas del contenido.\n"
+        "- Evita palabras demasiado genéricas (por ejemplo: 'programación', 'código', 'ejercicios').\n\n"
+        "ARTÍCULO:\n"
+        "```markdown\n"
+        + article_md +
+        "\n```"
+    )
+
+
+def generate_keywords_line(article_md: str) -> str:
+    answer = call_remote_llm(build_keywords_question(article_md))
+
+    raw = " ".join([l.strip() for l in answer.splitlines() if l.strip()]).strip()
+    raw = re.sub(r"^[\-\*\u2022]\s*", "", raw)
+    raw = raw.strip().strip('"').strip("'")
+
+    raw = raw.replace(";", ",")
+    raw = raw.replace(" | ", ", ")
+    raw = raw.replace(" · ", ", ")
+
+    parts = []
+    for p in raw.split(","):
+        s = p.strip().strip('"').strip("'")
+        if s:
+            parts.append(s)
+
+    parts = parts[:6]
+    return ", ".join(parts)
+
+
+# ============================================================
+# Renderer de imagen (código -> PNG)
+# ============================================================
+def load_font(path: Path, size: int) -> ImageFont.FreeTypeFont:
+    if not path.is_file():
+        raise RuntimeError(f"Font not found: {path}")
+    return ImageFont.truetype(str(path), size=size)
+
+
+def rounded_rect(draw: ImageDraw.ImageDraw, xy, r, fill, outline=None, width=1):
+    draw.rounded_rectangle(xy, radius=r, fill=fill, outline=outline, width=width)
+
+
+def expand_tabs(s: str) -> str:
+    return s.expandtabs(TAB_SIZE)
+
+
+def try_pygments():
+    if not USE_PYGMENTS:
+        return None
+    try:
+        from pygments import lex
+        from pygments.lexers import guess_lexer_for_filename, TextLexer
+        return lex, guess_lexer_for_filename, TextLexer
+    except Exception:
+        return None
+
+
+def token_palette(ttype: str):
+    if "Comment" in ttype:
+        return (120, 160, 130, 220)
+    if "String" in ttype:
+        return (180, 220, 160, 235)
+    if "Keyword" in ttype:
+        return (140, 190, 255, 235)
+    if "Number" in ttype:
+        return (255, 210, 140, 235)
+    if "Name.Builtin" in ttype:
+        return (255, 170, 240, 235)
+    return CODE_TEXT_COLOR
+
+
+def render_code_image(in_file: Path, out_file: Path) -> Path:
+    lines = read_file_text(in_file).splitlines()
+    lines = [expand_tabs(l) for l in lines]
+
+    W, H = OUT_W * SCALE, OUT_H * SCALE
+    img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    draw = ImageDraw.Draw(img)
+
+    code_font = load_font(UBUNTU_MONO_PATH, CODE_FONT_SIZE * SCALE)
+    title_font = load_font(UBUNTU_MONO_PATH, TITLE_FONT_SIZE * SCALE)
+
+    px = PADDING * SCALE
+    x0, y0 = px, px
+    x1, y1 = W - px, H - px
+
+    rounded_rect(draw, (x0, y0, x1, y1), BOX_RADIUS * SCALE, BOX_BG, BOX_STROKE, width=1 * SCALE)
+
+    cy = y0 + BTN_Y * SCALE
+    cx = x0 + BTN_LEFT * SCALE
+    for c in (MAC_RED, MAC_YELLOW, MAC_GREEN):
+        draw.ellipse(
+            (cx - BTN_R * SCALE, cy - BTN_R * SCALE, cx + BTN_R * SCALE, cy + BTN_R * SCALE),
+            fill=c,
+        )
+        cx += (BTN_R * 2 + BTN_GAP) * SCALE
+
+    title = in_file.name
+    tw = draw.textlength(title, font=title_font)
+    tx = x0 + ((x1 - x0) - tw) / 2
+    ty = y0 + (TITLEBAR_H * SCALE - TITLE_FONT_SIZE * SCALE) / 2
+    draw.text((tx, ty), title, font=title_font, fill=TITLE_TEXT_COLOR)
+
+    inner_left = x0 + INNER_PAD_X * SCALE
+    inner_top = y0 + (TITLEBAR_H + INNER_PAD_Y) * SCALE
+    inner_right = x1 - INNER_PAD_X * SCALE
+    inner_bottom = y1 - INNER_PAD_Y * SCALE
+
+    ascent, descent = code_font.getmetrics()
+    line_h = ascent + descent + LINE_SPACING * SCALE
+
+    lineno_digits = len(str(max(1, len(lines))))
+    gutter_w = int(draw.textlength("9" * lineno_digits, font=code_font)) + 8 * SCALE
+    code_x = inner_left + gutter_w + GUTTER_GAP * SCALE
+    max_code_w = inner_right - code_x
+
+    pyg = try_pygments()
+    y = inner_top
+
+    if pyg:
+        lex, guess_lexer, TextLexer = pyg
+        try:
+            lexer = guess_lexer(in_file.name, "\n".join(lines))
+        except Exception:
+            lexer = TextLexer()
+
+        tokens = list(lex("\n".join(lines), lexer))
+
+        line_tokens: list[list[tuple[str, tuple[int, int, int, int]]]] = [[]]
+        for ttype, value in tokens:
+            parts = value.split("\n")
+            for i, p in enumerate(parts):
+                if i > 0:
+                    line_tokens.append([])
+                if p:
+                    line_tokens[-1].append((p, token_palette(str(ttype))))
+
+        for i, segs in enumerate(line_tokens, start=1):
+            if y + line_h > inner_bottom:
+                break
+            ln = str(i).rjust(lineno_digits)
+            draw.text((inner_left, y), ln, font=code_font, fill=LINENO_COLOR)
+
+            x = code_x
+            for txt, col in segs:
+                draw.text((x, y), txt, font=code_font, fill=col)
+                x += draw.textlength(txt, font=code_font)
+                if x > code_x + max_code_w:
+                    break
+            y += line_h
+    else:
+        for i, line in enumerate(lines, start=1):
+            if y + line_h > inner_bottom:
+                break
+            ln = str(i).rjust(lineno_digits)
+            draw.text((inner_left, y), ln, font=code_font, fill=LINENO_COLOR)
+            draw.text((code_x, y), line, font=code_font, fill=CODE_TEXT_COLOR)
+            y += line_h
+
+    img = img.resize((OUT_W, OUT_H), Image.LANCZOS)
+    out_file.parent.mkdir(parents=True, exist_ok=True)
+    img.save(out_file, "PNG")
+    return out_file
+
+
+# ============================================================
+# Orquestación por carpeta 101-Ejercicios (1 carpeta por archivo, nivel principal)
+# ============================================================
+def process_one_exercises_folder(ejercicios_folder: Path):
+    files_in_folder = list_text_exercise_files(ejercicios_folder)
+    if not files_in_folder:
+        print(f"[OMITIDO] Sin archivos de texto: {ejercicios_folder}")
+        return
+
+    intro_path: Optional[Path] = None
+    if GENERATE_FOLDER_INTRO:
+        intro_path = generate_folder_intro(ejercicios_folder, files_in_folder)
+        if intro_path:
+            print(f"[OK] Intro carpeta: {intro_path.name}")
+
+    for code_file in files_in_folder:
+        out_dir = get_output_dir_for_file(ejercicios_folder, code_file)
+        out_dir.mkdir(parents=True, exist_ok=True)
+
+        article_path = out_dir / "article.md"
+        keywords_path = out_dir / "keywords.txt"
+        meta_path = out_dir / "meta.json"
+        img_path = out_dir / unique_image_name_for_file(code_file)
+
+        if SKIP_IF_EXISTS and article_path.is_file():
+            print(f"[SKIP] {code_file.name} -> {out_dir.name} (ya existe article.md)")
+            continue
+
+        print(f"[GEN] {ejercicios_folder.name} / {code_file.name} -> {out_dir.name}")
+
+        # Artículo
+        article_md = generate_blog_article_for_file(
+            ejercicios_folder=ejercicios_folder,
+            current_file=code_file,
+            all_files=files_in_folder,
+            intro_path=intro_path,
+        )
+        article_path.write_text(article_md, encoding="utf-8")
+
+        # Keywords
+        kw_line = generate_keywords_line(article_md)
+        keywords_path.write_text(kw_line + ("\n" if kw_line else ""), encoding="utf-8")
+
+        # Imagen
+        if not (SKIP_IF_EXISTS and img_path.is_file()):
+            render_code_image(code_file, img_path)
+
+        # Meta
+        meta = {
+            "folder": str(ejercicios_folder),
+            "file": str(code_file),
+            "article_md": str(article_path),
+            "image_png": str(img_path),
+            "keywords_txt": str(keywords_path),
+            "intro_md": str(intro_path) if intro_path else None,
+            "generated_at": time.strftime("%Y-%m-%d %H:%M:%S"),
+        }
+        meta_path.write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
+
+        print(f"   [OK] article.md, keywords.txt, image.png, meta.json")
+
+
+def main():
+    INTRODUCCIONES_DIR.mkdir(parents=True, exist_ok=True)
+    BLOG_DIR.mkdir(parents=True, exist_ok=True)
+
+    if not ROOT_DIRS:
+        print("ERROR: ROOT_DIRS está vacío. Edita el script y añade rutas a procesar.")
+        return
+
+    if not UBUNTU_MONO_PATH.is_file():
+        print(f"ERROR: No encuentro la fuente UbuntuMono aquí: {UBUNTU_MONO_PATH}")
+        print("Coloca UbuntuMono-R.ttf en la carpeta del proyecto (junto a apuntes.py) o ajusta UBUNTU_MONO_PATH.")
+        return
+
+    for root in ROOT_DIRS:
+        root = root.resolve()
+        if not root.is_dir():
+            print(f"[OMITIDO] No es directorio: {root}")
+            continue
+
+        print("\n" + "=" * 80)
+        print(f"Procesando raíz: {root}")
+        print("=" * 80)
+
+        for ejercicios_folder in iter_exercise_folders(root):
+            print(f"\n--- 101-Ejercicios: {ejercicios_folder} ---")
+            try:
+                process_one_exercises_folder(ejercicios_folder)
+            except Exception as e:
+                print(f"  !! Error en {ejercicios_folder}: {e}")
+
+    print("\nProceso completado.")
+
+
+if __name__ == "__main__":
+    main()
+```
+
+### apuntes
+<small>Creado: 2025-12-22 20:03</small>
+
+`apuntes.py`
+
+```python
+# apuntes.py
+from pathlib import Path
+import re
+
+def sort_key(entry):
+    """
+    Sorting helper used across the project.
+    Accepts os.DirEntry or similar objects with .name
+    """
+    name = entry.name
+    m = re.match(r"^(\d+)", name)
+    if m:
+        return (0, int(m.group(1)), name)
+    return (1, name)
+
+def is_text_file(path: Path) -> bool:
+    """
+    Returns True if file looks like a text file.
+    """
+    try:
+        with path.open("rb") as f:
+            chunk = f.read(1024)
+        chunk.decode("utf-8")
+        return True
+    except Exception:
+        return False
+
+def language_from_extension(path: Path) -> str | None:
+    """
+    Guess programming language from file extension.
+    """
+    ext = path.suffix.lower()
+    return {
+        ".py": "python",
+        ".js": "javascript",
+        ".ts": "typescript",
+        ".java": "java",
+        ".c": "c",
+        ".cpp": "cpp",
+        ".html": "html",
+        ".css": "css",
+        ".sql": "sql",
+        ".php": "php",
+        ".sh": "bash",
+    }.get(ext)
+```
+
 
 <a id="herramientas-de-generacion-de-ayudas"></a>
 ## Herramientas de generación de ayudas
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/006-Documentaci%C3%B3n%20de%20aplicaciones/002-Herramientas%20de%20generaci%C3%B3n%20de%20ayudas)
 
 
 <a id="tablas-de-contenidos-indices-sistemas-de-busqueda-entre-otros"></a>
 ## Tablas de contenidos, índices, sistemas de búsqueda, entre otros
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/006-Documentaci%C3%B3n%20de%20aplicaciones/003-Tablas%20de%20contenidos%2C%20%C3%ADndices%2C%20sistemas%20de%20b%C3%BAsqueda%2C%20entre%20otros)
+
 
 <a id="tipos-de-manuales"></a>
 ## Tipos de manuales
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/006-Documentaci%C3%B3n%20de%20aplicaciones/004-Tipos%20de%20manuales)
+
 
 <a id="elaboracion-de-tutoriales"></a>
 ## Elaboración de tutoriales
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/006-Documentaci%C3%B3n%20de%20aplicaciones/005-Elaboraci%C3%B3n%20de%20tutoriales)
 
 
 
@@ -40433,6 +46093,8 @@ Feel free to ask if you need more detailed guidance on any part! 🚀
 
 <a id="componentes-de-una-aplicacion-empaquetado"></a>
 ## Componentes de una aplicación. Empaquetado
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/007-Distribuci%C3%B3n%20de%20aplicaciones/001-Componentes%20de%20una%20aplicaci%C3%B3n.%20Empaquetado)
 
 ### Introducción a los ejercicios
 
@@ -40540,7 +46202,7 @@ if (require.main === module) {
 El código proporciona una interfaz web básica para interactuar con el sistema de archivos. Es funcional y bien estructurado, pero requiere consideraciones adicionales en términos de seguridad, especialmente si se va a usar en un entorno donde los usuarios pueden tener acceso no supervisado al servidor.
 
 ### config
-<small>Creado: 2025-11-25 16:18</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -40562,7 +46224,7 @@ Este archivo JSON es útil para personalizar y mantener configuraciones específ
 ```
 
 ### electron-main
-<small>Creado: 2025-11-25 15:28</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -40649,7 +46311,7 @@ app.on("window-all-closed", () => {
 ```
 
 ### package-lock
-<small>Creado: 2025-11-25 15:13</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -44999,7 +50661,7 @@ Would you like to perform any specific action with this information, such as ver
 ```
 
 ### package
-<small>Creado: 2025-11-25 15:30</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -45066,7 +50728,7 @@ Este archivo es crucial porque proporciona una estructura clara del proyecto, fa
 ```
 
 ### server
-<small>Creado: 2025-11-25 15:10</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -45505,29 +51167,43 @@ Tu código ya es muy funcional y bien estructurado. Añadir estas mejoras ayudar
 <a id="instaladores"></a>
 ## Instaladores
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/007-Distribuci%C3%B3n%20de%20aplicaciones/002-Instaladores)
+
 
 <a id="paquetes-autoinstalables"></a>
 ## Paquetes autoinstalables
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/007-Distribuci%C3%B3n%20de%20aplicaciones/003-Paquetes%20autoinstalables)
 
 
 <a id="firma-digital-de-aplicaciones"></a>
 ## Firma digital de aplicaciones
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/007-Distribuci%C3%B3n%20de%20aplicaciones/004-Firma%20digital%20de%20aplicaciones)
+
 
 <a id="herramientas-para-crear-paquetes-de-instalacion"></a>
 ## Herramientas para crear paquetes de instalación
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/007-Distribuci%C3%B3n%20de%20aplicaciones/005-Herramientas%20para%20crear%20paquetes%20de%20instalaci%C3%B3n)
 
 
 <a id="personalizacion-de-la-instalacion"></a>
 ## Personalización de la instalación
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/007-Distribuci%C3%B3n%20de%20aplicaciones/006-Personalizaci%C3%B3n%20de%20la%20instalaci%C3%B3n)
+
 
 <a id="asistentes-de-instalacion-y-desinstalacion"></a>
 ## Asistentes de instalación y desinstalación
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/007-Distribuci%C3%B3n%20de%20aplicaciones/007-Asistentes%20de%20instalaci%C3%B3n%20y%20desinstalaci%C3%B3n)
+
 
 <a id="canales-de-distribucion-repositorios"></a>
 ## Canales de distribución repositorios
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/007-Distribuci%C3%B3n%20de%20aplicaciones/008-Canales%20de%20distribuci%C3%B3n%20repositorios%20)
 
 
 
@@ -45537,25 +51213,330 @@ Tu código ya es muy funcional y bien estructurado. Añadir estas mejoras ayudar
 <a id="objetivo-importancia-y-limitaciones-del-proceso-de-prueba"></a>
 ## Objetivo, importancia y limitaciones del proceso de prueba
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/008-Realizaci%C3%B3n%20de%20pruebas/001-Objetivo%2C%20importancia%20y%20limitaciones%20del%20proceso%20de%20prueba)
+
+### demo de playwright
+<small>Creado: 2026-01-12 18:09</small>
+
+`001-demo de playwright.py`
+
+```python
+from playwright.sync_api import sync_playwright
+from pathlib import Path
+
+html_file = Path("index.html").resolve()
+
+with sync_playwright() as p:
+    browser = p.chromium.launch()
+    page = browser.new_page(viewport={"width": 1280, "height": 800})
+
+    page.goto(f"file://{html_file}", wait_until="load")
+    page.screenshot(path="output.jpg", type="jpeg", quality=90)
+
+    browser.close()
+```
+
+### play2
+<small>Creado: 2026-01-12 18:15</small>
+
+`002-play2.py`
+
+```python
+from playwright.sync_api import sync_playwright
+from pathlib import Path
+
+html_file = Path("index2.html").resolve()
+
+with sync_playwright() as p:
+    browser = p.chromium.launch()
+    page = browser.new_page(viewport={"width": 1280, "height": 800})
+
+    page.goto(f"file://{html_file}", wait_until="load")
+    page.screenshot(path="output.jpg", type="jpeg", quality=90)
+
+    browser.close()
+```
+
+### play con fecha
+<small>Creado: 2026-01-12 18:17</small>
+
+`003-play con fecha.py`
+
+```python
+from playwright.sync_api import sync_playwright
+from pathlib import Path
+import time
+
+html_file = Path("index2.html").resolve()
+
+# Epoch en milisegundos
+epoch_ms = int(time.time() * 1000)
+output_file = f"output_{epoch_ms}.jpg"
+
+with sync_playwright() as p:
+    browser = p.chromium.launch()
+    page = browser.new_page(viewport={"width": 1280, "height": 800})
+
+    page.goto(f"file://{html_file}", wait_until="load")
+    page.screenshot(path=output_file, type="jpeg", quality=90)
+
+    browser.close()
+```
+
+### guardamos en carpeta
+<small>Creado: 2026-01-12 18:17</small>
+
+`004-guardamos en carpeta.py`
+
+```python
+from playwright.sync_api import sync_playwright
+from pathlib import Path
+import time
+
+html_file = Path("index2.html").resolve()
+
+# Crear carpeta "imagenes" si no existe
+output_dir = Path("imagenes")
+output_dir.mkdir(parents=True, exist_ok=True)
+
+# Epoch en milisegundos
+epoch_ms = int(time.time() * 1000)
+output_file = output_dir / f"output_{epoch_ms}.jpg"
+
+with sync_playwright() as p:
+    browser = p.chromium.launch()
+    page = browser.new_page(viewport={"width": 1280, "height": 800})
+
+    page.goto(f"file://{html_file}", wait_until="load")
+    page.screenshot(path=str(output_file), type="jpeg", quality=90)
+
+    browser.close()
+```
+
+### y repetir
+<small>Creado: 2026-01-12 20:04</small>
+
+`005-y repetir.py`
+
+```python
+from playwright.sync_api import sync_playwright
+from pathlib import Path
+import time
+
+html_file = Path("index3.html").resolve()
+
+# Crear carpeta "imagenes" si no existe
+output_dir = Path("imagenes")
+output_dir.mkdir(parents=True, exist_ok=True)
+
+with sync_playwright() as p:
+    for i in range(100):
+        browser = p.chromium.launch()
+        page = browser.new_page(viewport={"width": 1920, "height": 1080})
+
+        page.goto(f"file://{html_file}", wait_until="load")
+
+    
+        # Epoch en milisegundos
+        epoch_ms = int(time.time() * 1000)
+        output_file = output_dir / f"output_{epoch_ms}.jpg"
+
+        page.screenshot(path=str(output_file), type="jpeg", quality=90)
+
+        # Pequeña pausa para asegurar epoch distinto
+        time.sleep(0.01)
+
+        browser.close()
+```
+
+### index1
+<small>Creado: 2026-01-12 18:12</small>
+
+`index1.html`
+
+```html
+<!doctype html>
+<html>
+  <head>
+    <style>
+      #rectangulo{width:100px;height:100px;background:red;border-radius:5px;}
+    </style>
+  </head>
+  <body>
+    <div id="rectangulo">
+    </div>
+  </body>
+</html>
+```
+
+### index2
+<small>Creado: 2026-01-12 18:15</small>
+
+`index2.html`
+
+```html
+<!doctype html>
+<html>
+  <head>
+    <style>
+    body{overflow:hidden;}
+      .rectangulo{
+      width:50px;height:50px;background:red;border-radius:5px;
+      display:inline-block;margin:2px;}
+    </style>
+  </head>
+  <body>
+    <main>
+    </main>
+    <script>
+      let contenedor = document.querySelector("main")
+      for(let i = 0;i<1000;i++){
+        let elemento = document.createElement("div")
+        elemento.classList.add("rectangulo")
+        elemento.style.transform = "scale("+Math.random()*1+")"
+        contenedor.appendChild(elemento)
+      }
+    </script>
+  </body>
+</html>
+```
+
+### index3
+<small>Creado: 2026-01-12 19:43</small>
+
+`index3.html`
+
+```html
+<!doctype html>
+<html>
+  <head>
+    <style>
+      body{overflow:hidden;
+      }
+      main{display:grid;gap:5px;text-align:center;justify-content:center;}
+      .rectangulo{
+      width:50px;height:50px;background:red;border-radius:5px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+    </main>
+    <script>
+      let contenedor = document.querySelector("main")
+      contenedor.style.gridTemplateColumns = 'repeat('+Math.round(Math.random()*10+10)+',100fr)'
+      let rojo = Math.round(Math.random()*255)
+      let verde = Math.round(Math.random()*255)
+      let azul = Math.round(Math.random()*255)
+      for(let i = 0;i<1000;i++){
+        let elemento = document.createElement("div")
+        elemento.classList.add("rectangulo")
+        elemento.style.transform = "scale("+Math.random()*1+")"
+        elemento.style.background = "rgb("+rojo+","+verde+","+azul+")";
+        contenedor.appendChild(elemento)
+      }
+    </script>
+  </body>
+</html>
+```
+
+### index4
+<small>Creado: 2026-01-12 20:04</small>
+
+`index4.html`
+
+```html
+<!doctype html>
+<html>
+  <head>
+    <style>
+      html, body {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      body {
+        overflow: hidden;
+      }
+
+      main {
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+       
+gap:2px;
+        
+      }
+
+      .rectangulo {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <main></main>
+
+    <script>
+      const contenedor = document.querySelector("main");
+      
+      const rojo  = Math.round(Math.random() * 255);
+      const verde = Math.round(Math.random() * 255);
+      const azul  = Math.round(Math.random() * 255);
+      let radio = Math.random()*50
+      let repeticiones = Math.random()*50
+      contenedor.style.gridTemplateColumns = 'repeat(auto-fill, minmax('+repeticiones+'px, 1fr))'
+      contenedor.style.gridAutoRows = 'grid-auto-rows: '+repeticiones+'px'
+      //contenedor.style.gap = Math.round(Math.random()*20)+"px"
+      
+      for (let i = 0; i < 2000; i++) {
+        const el = document.createElement("div");
+        el.className = "rectangulo";
+        el.style.background = `rgb(${rojo},${verde},${azul})`;
+
+        const scale = 0.3 + Math.random() * 0.7; // never invisible
+        
+        el.style.transform = `scale(${scale})`;
+        el.style.borderRadius = radio +"px";
+
+        contenedor.appendChild(el);
+      }
+    </script>
+  </body>
+</html>
+```
+
 
 <a id="pruebas-de-integracion-ascendentes-y-descendentes"></a>
 ## Pruebas de integración ascendentes y descendentes
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/008-Realizaci%C3%B3n%20de%20pruebas/002-Pruebas%20de%20integraci%C3%B3n%20ascendentes%20y%20descendentes)
 
 
 <a id="pruebas-de-sistema-configuracion-recuperacion-entre-otras"></a>
 ## Pruebas de sistema configuración, recuperación, entre otras
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/008-Realizaci%C3%B3n%20de%20pruebas/003-Pruebas%20de%20sistema%20configuraci%C3%B3n%2C%20recuperaci%C3%B3n%2C%20entre%20otras)
+
 
 <a id="pruebas-de-uso-de-recursos"></a>
 ## Pruebas de uso de recursos
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/008-Realizaci%C3%B3n%20de%20pruebas/004-Pruebas%20de%20uso%20de%20recursos)
 
 
 <a id="pruebas-de-seguridad"></a>
 ## Pruebas de seguridad
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/008-Realizaci%C3%B3n%20de%20pruebas/005-Pruebas%20de%20seguridad)
+
 
 <a id="pruebas-manuales-y-automaticas"></a>
 ## Pruebas manuales y automáticas
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/008-Realizaci%C3%B3n%20de%20pruebas/006-Pruebas%20manuales%20y%20autom%C3%A1ticas)
 
 
 
@@ -45564,6 +51545,8 @@ Tu código ya es muy funcional y bien estructurado. Añadir estas mejoras ayudar
 
 <a id="la-milla-extra-primera-evaluacion"></a>
 ## La Milla Extra - Primera evaluación
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/201-Actividad%20libre%20de%20final%20de%20evaluaci%C3%B3n%20-%20La%20milla%20extra/001-La%20Milla%20Extra%20-%20Primera%20evaluaci%C3%B3n)
 
 ### Introducción a los ejercicios
 

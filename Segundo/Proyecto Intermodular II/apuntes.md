@@ -49,6 +49,9 @@
   - [interfaz natural IA](#interfaz-natural-ia)
   - [Email IA](#email-ia)
   - [Proyecto RRHH con IA](#proyecto-rrhh-con-ia)
+  - [descripciones con IA](#descripciones-con-ia)
+  - [Agente IA](#agente-ia)
+  - [Conceptos tratados en clase IA](#conceptos-tratados-en-clase-ia)
 - [Actividad libre de final de evaluación - La milla extra](#actividad-libre-de-final-de-evaluacion-la-milla-extra)
   - [La Milla Extra - Primera evaluación](#la-milla-extra-primera-evaluacion)
 
@@ -63,6 +66,8 @@
 
 <a id="recopilacion-de-informacion"></a>
 ## Recopilación de información
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/002-An%C3%A1lisis/001-Recopilaci%C3%B3n%20de%20informaci%C3%B3n)
 
 ### Introducción a los ejercicios
 
@@ -181,12 +186,14 @@ Al adoptar esta estructura organizativa y estratégica, nuestra empresa de IA es
 <a id="identificacion-y-priorizacion-de-necesidades"></a>
 ## Identificación y priorización de necesidades.
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/002-An%C3%A1lisis/002-Identificaci%C3%B3n%20y%20priorizaci%C3%B3n%20de%20necesidades.)
+
 ### Introducción a los ejercicios
 
 Esta carpeta contiene ejercicios que exploran la identificación y priorización de necesidades para el desarrollo de productos de Inteligencia Artificial (IA) orientados a pequeñas y medianas empresas (Pymes) en Valencia. Los problemas abordados giran en torno al análisis del mercado, la detección de oportunidades de negocio basadas en IA, y la definición de proyectos tecnológicos que responden a las demandas específicas de estas empresas. Estos ejercicios ayudarán a los estudiantes a comprender cómo identificar necesidades empresariales reales, diseñar soluciones prácticas y escalables, y estructurar modelos de negocio viables para la implementación de tecnologías emergentes en entornos Pyme.
 
 ### Oportunidades de negocio previsibles en el sector
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -404,6 +411,8 @@ Estas actividades pretenden cubrir desde la identificación de necesidades hasta
 <a id="identificacion-de-los-aspectos-que-facilitan-o-dificultan-el-desarrollo-de-la-posible-intervencion"></a>
 ## Identificación de los aspectos que facilitan o dificultan el desarrollo de la posible intervención
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/002-An%C3%A1lisis/003-Identificaci%C3%B3n%20de%20los%20aspectos%20que%20facilitan%20o%20dificultan%20el%20desarrollo%20de%20la%20posible%20intervenci%C3%B3n)
+
 ### Introducción a los ejercicios
 
 Entiendo tus preocupaciones sobre los riesgos potenciales asociados al desarrollo excesivo y la posible "burbuja" en torno a la Inteligencia Artificial (IA). Es cierto que existen paralelos con otros ciclos económicos pasados, como la burbuja de internet de 1999-2000. Vamos a analizar estos riesgos y cómo manejarlos:
@@ -538,6 +547,8 @@ El sector de la inteligencia artificial está en una etapa similar a la burbuja 
 <a id="definicion-o-adaptacion-de-la-intervencion"></a>
 ## Definición o adaptación de la intervención
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/003-Dise%C3%B1o/001-Definici%C3%B3n%20o%20adaptaci%C3%B3n%20de%20la%20intervencio%CC%81n)
+
 ### Introducción a los ejercicios
 
 Este conjunto de ejercicios se centra en el diseño y planificación de un proyecto intermodular relacionado con la implementación de un sistema de inteligencia artificial (IA) para empresas en la zona de Valencia. El objetivo principal es crear un agente de IA que proporcione servicios personalizados de atención al cliente, cumpliendo con normativas específicas y promoviendo la mejora competitiva del tejido empresarial local. Los ejercicios abordarán aspectos como el cumplimiento legal, la ética en el uso de sistemas AI, así como la integración tecnológica para ofrecer un servicio eficaz pero también responsable. Se practican competencias clave como la comprensión y aplicación de normativas, diseño de infraestructuras tecnológicas, y desarrollo web para interacciones con plataformas populares como WhatsApp.
@@ -577,6 +588,8 @@ Este conjunto de ejercicios se centra en el diseño y planificación de un proye
 
 <a id="priorizacion-y-secuenciacion-de-las-acciones"></a>
 ## Priorización y secuenciación de las acciones.
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/003-Dise%C3%B1o/002-Priorizaci%C3%B3n%20y%20secuenciaci%C3%B3n%20de%20las%20acciones.)
 
 ### Introducción a los ejercicios
 
@@ -628,6 +641,8 @@ El conjunto de ejercicios en esta carpeta se centra en el diseño y desarrollo d
 <a id="la-planificacion-de-la-intervencion"></a>
 ## La planificación de la intervención
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/003-Dise%C3%B1o/003-La%20planificaci%C3%B3n%20de%20la%20intervenci%C3%B3n)
+
 ### Introducción a los ejercicios
 
 Este conjunto de ejercicios está diseñado para que comprendas los diferentes modelos de licencias en software y sus implicaciones, centrándote especialmente en el modelo SaaS (Software as a Service) y AIaaS (Artificial Intelligence as a Service). Se enfatiza la importancia de elegir adecuadamente el hardware necesario para sostener estos servicios, teniendo en cuenta las necesidades específicas del software que se va a implementar. A través de estos ejercicios, adquirirás competencias en la elección y configuración de servidores para proyectos tecnológicos, así como en la comprensión financiera asociada a los modelos de negocio basados en tecnología.
@@ -663,6 +678,8 @@ Estas actividades están diseñadas para reforzar conceptos clave relacionados c
 
 <a id="determinacion-de-recursos"></a>
 ## Determinación de recursos.
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/003-Dise%C3%B1o/004-Determinaci%C3%B3n%20de%20recursos.)
 
 ### Introducción a los ejercicios
 
@@ -702,13 +719,19 @@ Estas actividades están diseñadas para que los estudiantes apliquen los conoci
 <a id="planificacion-de-la-evaluacion"></a>
 ## Planificación de la evaluación
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/003-Dise%C3%B1o/005-Planificaci%C3%B3n%20de%20la%20evaluacio%CC%81n)
+
 
 <a id="diseno-de-documentacion"></a>
 ## Diseño de documentación
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/003-Dise%C3%B1o/006-Dise%C3%B1o%20de%20documentaci%C3%B3n)
+
 
 <a id="plan-de-atencion-al-cliente"></a>
 ## Plan de atención al cliente
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/003-Dise%C3%B1o/007-Plan%20de%20atenci%C3%B3n%20al%20cliente)
 
 
 
@@ -718,25 +741,37 @@ Estas actividades están diseñadas para que los estudiantes apliquen los conoci
 <a id="deteccion-de-demandas-y-necesidades"></a>
 ## Detección de demandas y necesidades
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/004-Organizacion/001-Detecci%C3%B3n%20de%20demandas%20y%20necesidades)
+
 
 <a id="programacion"></a>
 ## Programación
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/004-Organizacion/002-Programaci%C3%B3n)
 
 
 <a id="gestion"></a>
 ## Gestión
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/004-Organizacion/003-Gesti%C3%B3n)
+
 
 <a id="coordinacion-y-supervision-de-la-intervencion"></a>
 ## Coordinación y supervisión de la intervención
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/004-Organizacion/004-Coordinaci%C3%B3n%20y%20supervisi%C3%B3n%20de%20la%20intervenci%C3%B3n)
 
 
 <a id="elaboracion-de-informes"></a>
 ## Elaboración de informes
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/004-Organizacion/005-Elaboraci%C3%B3n%20de%20informes)
+
 
 <a id="seguimiento-y-control"></a>
 ## Seguimiento y control
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/004-Organizacion/006-Seguimiento%20y%20control)
 
 
 
@@ -746,13 +781,19 @@ Estas actividades están diseñadas para que los estudiantes apliquen los conoci
 <a id="areas-de-sistemas-y-departamentos-de-informatica-en-cualquier-sector-de-actividad"></a>
 ## Áreas de sistemas y departamentos de informática en cualquier sector de actividad
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/005-Actividades%20profesionales/001-%C3%81reas%20de%20sistemas%20y%20departamentos%20de%20inform%C3%A1tica%20en%20cualquier%20sector%20de%20actividad)
+
 
 <a id="sector-de-servicios-tecnologicos-y-comunicaciones"></a>
 ## Sector de servicios tecnológicos y comunicaciones
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/005-Actividades%20profesionales/002-Sector%20de%20servicios%20tecnol%C3%B3gicos%20y%20comunicaciones)
+
 
 <a id="area-comercial-con-gestion-de-transacciones-por-internet"></a>
 ## Área comercial con gestión de transacciones por Internet
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/005-Actividades%20profesionales/003-%C3%81rea%20comercial%20con%20gesti%C3%B3n%20de%20transacciones%20por%20Internet)
 
 
 
@@ -762,17 +803,25 @@ Estas actividades están diseñadas para que los estudiantes apliquen los conoci
 <a id="la-ejecucion-de-trabajos-en-equipo"></a>
 ## La ejecución de trabajos en equipo
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/006-Lineas%20de%20actuaci%C3%B3n/001-%20La%20ejecuci%C3%B3n%20de%20trabajos%20en%20equipo)
+
 
 <a id="la-autoevaluacion-del-trabajo-realizado"></a>
 ## La autoevaluación del trabajo realizado
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/006-Lineas%20de%20actuaci%C3%B3n/002-La%20autoevaluaci%C3%B3n%20del%20trabajo%20realizado)
 
 
 <a id="la-autonomia-y-la-iniciativa"></a>
 ## La autonomía y la iniciativa
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/006-Lineas%20de%20actuaci%C3%B3n/003-La%20autonom%C3%ADa%20y%20la%20iniciativa)
+
 
 <a id="el-uso-de-las-tic"></a>
 ## El uso de las TIC
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/006-Lineas%20de%20actuaci%C3%B3n/004-El%20uso%20de%20las%20TIC)
 
 
 
@@ -786,13 +835,3968 @@ Estas actividades están diseñadas para que los estudiantes apliquen los conoci
 <a id="empresarialia"></a>
 ## empresarialIA
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/008-Proyectos/001-empresarialIA)
+
+### servidor
+<small>Creado: 2025-12-23 15:24</small>
+
+`001-servidor.py`
+
+```python
+import subprocess
+import json
+import os
+
+SCHEMA_PATH = "blog.sql"
+MAX_SCHEMA_CHARS = 200_000  # por si el .sql es enorme, evita pasarte de contexto
+
+def cargar_schema_sql(path: str) -> str:
+    if not os.path.exists(path):
+        return ""
+    with open(path, "r", encoding="utf-8", errors="ignore") as f:
+        schema = f.read()
+    if len(schema) > MAX_SCHEMA_CHARS:
+        schema = schema[:MAX_SCHEMA_CHARS] + "\n-- [Truncado para no exceder el contexto]\n"
+    return schema
+
+# Pide el prompt dinámicamente (o reemplázalo por una variable)
+prompt_usuario = input("Introduce el prompt: ").strip()
+
+# Carga el esquema de blog.sql
+schema_sql = cargar_schema_sql(SCHEMA_PATH)
+
+# Construye el contexto a inyectar en el prompt
+contexto_sql = ""
+if schema_sql:
+    contexto_sql = (
+        "Eres un asistente experto en SQL. A continuación tienes el esquema de base de datos "
+        "extraído del archivo 'blog.sql'. Usa **exclusivamente** esta estructura para responder "
+        "preguntas y proponer consultas SQL (estándar ANSI cuando sea posible). "
+        "Responde siempre con:\n"
+        "1) Breve explicación\n"
+        "2) La consulta SQL dentro de un bloque ```sql```.\n\n"
+        "=== ESQUEMA (blog.sql) ===\n"
+        f"{schema_sql}\n"
+        "=== FIN DEL ESQUEMA ===\n\n"
+    )
+else:
+    contexto_sql = (
+        "Eres un asistente experto en SQL. (Aviso: no se encontró 'blog.sql', responde de forma "
+        "general sin validar contra un esquema cargado.)\n\n"
+    )
+
+# Prompt final que se envía al modelo
+prompt_final = (
+    f"{contexto_sql}"
+    f"Pregunta del usuario:\n{prompt_usuario}\n"
+)
+
+# Construye el payload para Ollama
+payload = {
+    "model": "qwen2.5:7b-instruct-q4_0",
+    "prompt": prompt_final,
+    # Opcionalmente puedes fijar 'stream': True/False; por defecto es True y devolvemos JSONL
+    # "stream": True
+    # También puedes añadir un 'system' si prefieres separar instrucciones:
+    # "system": "Sigue estrictamente el esquema proporcionado y el formato de salida indicado."
+}
+
+# Ejecuta la llamada curl
+result = subprocess.run(
+    [
+        "curl", "-s", "http://localhost:11434/api/generate",
+        "-d", json.dumps(payload)
+    ],
+    capture_output=True,
+    text=True
+)
+
+# Parseo estilo jq + tr
+try:
+    lines = result.stdout.splitlines()
+    response = ""
+    for line in lines:
+        if not line.strip():
+            continue
+        obj = json.loads(line)
+        if "response" in obj and obj["response"] is not None:
+            response += obj["response"]
+    print(response.strip())
+except Exception as e:
+    print("Error parsing output:", e)
+    print(result.stdout)
+```
+
 
 <a id="agente-virtual"></a>
 ## agente virtual
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/008-Proyectos/002-agente%20virtual)
+
+### index
+<small>Creado: 2025-12-23 15:24</small>
+
+`001-index.html`
+
+```html
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Face-controlled crosshair (MediaPipe FaceDetector)</title>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="icon" href="data:,"><!-- silence favicon 404 -->
+<style>
+  :root { --preview-w: 260px; --preview-h: 195px; }
+  html, body { margin:0; height:100%; overflow:hidden; background:#0e0f13; color:#e9eef3; font-family:system-ui, Segoe UI, Roboto, Ubuntu, Cantarell; }
+
+  /* Crosshair UI */
+  .crosshair {
+    position:fixed; top:50vh; left:50vw; width:32px; height:32px;
+    margin:-16px 0 0 -16px; pointer-events:none;
+  }
+  .crosshair::before, .crosshair::after {
+    content:""; position:absolute; left:50%; top:50%;
+    transform:translate(-50%,-50%); box-sizing:border-box;
+  }
+  .crosshair::before {
+    width:32px; height:32px; border:2px solid rgba(255,255,255,.9); border-radius:50%;
+    box-shadow:0 0 16px rgba(0,0,0,.35), inset 0 0 12px rgba(255,255,255,.15);
+  }
+  .crosshair::after {
+    width:36px; height:36px;
+    background:
+      linear-gradient(to right, transparent 49%, rgba(255,255,255,.9) 50%, transparent 51%) center/100% 2px no-repeat,
+      linear-gradient(to bottom, transparent 49%, rgba(255,255,255,.9) 50%, transparent 51%) center/2px 100% no-repeat;
+    filter: drop-shadow(0 0 6px rgba(0,0,0,.5));
+  }
+
+  /* Corner webcam preview */
+  .preview {
+    position:fixed; right:16px; bottom:16px; width:var(--preview-w); height:var(--preview-h);
+    border-radius:12px; overflow:hidden; box-shadow:0 8px 24px rgba(0,0,0,.45);
+    border:1px solid rgba(255,255,255,.08); background:#14161d;
+  }
+  .header { position:absolute; inset:0 0 auto 0; height:28px; background:linear-gradient(180deg, rgba(0,0,0,.55), transparent); font-size:12px; display:flex; align-items:center; gap:8px; padding:0 10px; color:#c9d2db; }
+  .dot { width:8px; height:8px; border-radius:50%; background:#e74c3c; box-shadow:0 0 10px rgba(231,76,60,.8); }
+  .preview video, .preview canvas { position:absolute; width:100%; height:100%; object-fit:cover; }
+  .preview video { transform:scaleX(-1); } /* mirror for natural feel */
+
+  .hint { position:fixed; top:16px; left:16px; background:rgba(20,22,29,.75); border:1px solid rgba(255,255,255,.08); padding:10px 12px; border-radius:10px; font-size:13px; }
+  .hint kbd { background:rgba(255,255,255,.08); padding:2px 6px; border-radius:6px; border:1px solid rgba(255,255,255,.12); font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size:12px; }
+</style>
+</head>
+<body>
+  <div class="hint">Mueve tu cabeza en la previsualización (abajo-derecha). La mira sigue el <em>centro</em> de tu cara. <small>Pulsa <kbd>B</kbd> para mostrar/ocultar el bbox.</small></div>
+
+  <div class="crosshair" id="crosshair" aria-hidden="true"></div>
+
+  <div class="preview">
+    <div class="header"><span class="dot" id="camDot"></span> Webcam</div>
+    <video id="vid" autoplay playsinline muted></video>
+    <canvas id="overlay" width="640" height="480" style="display:none"></canvas>
+  </div>
+
+  <!-- MediaPipe Tasks (ESM) -->
+  <script type="module">
+    import { FaceDetector, FilesetResolver } from "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.3";
+
+    const video     = document.getElementById("vid");
+    const overlay   = document.getElementById("overlay");
+    const octx      = overlay.getContext("2d");
+    const crosshair = document.getElementById("crosshair");
+    const camDot    = document.getElementById("camDot");
+
+    // Show/hide bbox overlay (debug)
+    let showBBox = false;
+    window.addEventListener("keydown", (e) => {
+      if (e.key.toLowerCase() === "b") {
+        showBBox = !showBBox;
+        overlay.style.display = showBBox ? "block" : "none";
+      }
+    });
+
+    // Simple exponential smoother to reduce jitter
+    const smoother = (alpha=0.2) => {
+      let sx=null, sy=null;
+      return (x,y)=>{ if(sx==null){sx=x; sy=y;} sx += alpha*(x-sx); sy += alpha*(y-sy); return [sx,sy]; };
+    };
+    const smoothXY = smoother(0.2);
+
+    // Get webcam
+    async function setupCam() {
+      const stream = await navigator.mediaDevices.getUserMedia({ video: { width: 640, height: 480 } });
+      video.srcObject = stream;
+      await video.play();
+    }
+
+    // Load FaceDetector (BlazeFace short-range)
+    const vision = await FilesetResolver.forVisionTasks(
+      "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.3/wasm"
+    );
+
+    // NOTE: Public BlazeFace model path (works in browser).
+    // If you host your own, replace the URL below.
+    const detector = await FaceDetector.createFromOptions(vision, {
+      baseOptions: {
+        modelAssetPath: "https://storage.googleapis.com/mediapipe-models/face_detector/blaze_face_short_range/float16/1/blaze_face_short_range.tflite"
+      },
+      runningMode: "VIDEO",
+      minDetectionConfidence: 0.5,
+      minSuppressionThreshold: 0.3
+    });
+
+    await setupCam();
+
+    // Draw bbox on preview (mirrored)
+    function drawBox(bb) {
+      const W = overlay.width, H = overlay.height;
+      octx.clearRect(0,0,W,H);
+      // Because the preview is mirrored horizontally, flip X for drawing
+      const x = W - (bb.originX + bb.width);
+      const y = bb.originY;
+      octx.lineWidth = 2;
+      octx.strokeStyle = "rgba(0, 200, 255, 0.9)";
+      octx.strokeRect(x, y, bb.width, bb.height);
+      // center dot (debug)
+      octx.beginPath();
+      octx.arc(x + bb.width/2, y + bb.height/2, 3, 0, Math.PI*2);
+      octx.fillStyle = "rgba(0, 200, 255, 1)";
+      octx.fill();
+    }
+
+    // Main loop
+    function tick() {
+      const now = performance.now();
+      const res = detector.detectForVideo(video, now);
+
+      if (res?.detections?.length) {
+        // choose highest score
+        const best = res.detections.reduce((a,b)=> (a.categories?.[0]?.score||0) >= (b.categories?.[0]?.score||0) ? a : b);
+        const bb = best.boundingBox; // {originX, originY, width, height} in *video pixels*
+
+        // bbox center in video pixels
+        const cx = bb.originX + bb.width * 0.5;
+        const cy = bb.originY + bb.height * 0.5;
+
+        // normalize 0..1
+        const nx = cx / video.videoWidth;
+        const ny = cy / video.videoHeight;
+
+        // preview is mirrored → invert X for intuitive motion
+        const mx = 1 - nx;
+        const my = ny;
+
+        // map to viewport
+        const pageX = mx * window.innerWidth;
+        const pageY = my * window.innerHeight;
+
+        const [sx, sy] = smoothXY(pageX, pageY);
+        crosshair.style.left = sx + "px";
+        crosshair.style.top  = sy + "px";
+
+        camDot.style.background = "#2ecc71";
+        camDot.style.boxShadow = "0 0 10px rgba(46,204,113,.9)";
+
+        if (showBBox) {
+          // keep overlay canvas resolution constant (matches detector input)
+          overlay.width  = 640;
+          overlay.height = 480;
+          drawBox(bb);
+        } else {
+          octx.clearRect(0,0,overlay.width,overlay.height);
+        }
+      } else {
+        // no face → ease back to center
+        const [sx, sy] = smoothXY(window.innerWidth/2, window.innerHeight/2);
+        crosshair.style.left = sx + "px";
+        crosshair.style.top  = sy + "px";
+        camDot.style.background = "#e74c3c";
+        camDot.style.boxShadow = "0 0 10px rgba(231,76,60,.8)";
+        octx.clearRect(0,0,overlay.width,overlay.height);
+      }
+
+      requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+  </script>
+</body>
+</html>
+```
+
+### agente me sigue
+<small>Creado: 2025-12-23 15:24</small>
+
+`002-agente me sigue.html`
+
+```html
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Avatar follows your face – Three.js + MediaPipe</title>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="icon" href="data:,">
+<style>
+  html, body { margin:0; height:100%; overflow:hidden; background:#0e0f13; color:#e9eef3; font-family:system-ui, Segoe UI, Roboto, Ubuntu, Cantarell; }
+  /* 3D canvas fills the page */
+  #stage { position:fixed; inset:0; }
+  /* Webcam preview */
+  :root { --preview-w: 260px; --preview-h: 195px; }
+  .preview {
+    position:fixed; right:16px; bottom:16px; width:var(--preview-w); height:var(--preview-h);
+    border-radius:12px; overflow:hidden; box-shadow:0 8px 24px rgba(0,0,0,.45); border:1px solid rgba(255,255,255,.08); background:#14161d; z-index:10;
+  }
+  .preview video, .preview canvas { position:absolute; width:100%; height:100%; object-fit:cover; }
+  .preview video { transform:scaleX(-1); } /* mirror */
+  .header { position:absolute; inset:0 0 auto 0; height:28px; background:linear-gradient(180deg, rgba(0,0,0,.55), transparent); font-size:12px; display:flex; align-items:center; gap:8px; padding:0 10px; color:#c9d2db; }
+  .dot { width:8px; height:8px; border-radius:50%; background:#e74c3c; box-shadow:0 0 10px rgba(231,76,60,.8); }
+  .hud {
+    position:fixed; top:12px; left:12px; z-index:20; background:rgba(20,22,29,.75); border:1px solid rgba(255,255,255,.08);
+    padding:10px 12px; border-radius:10px; font-size:13px; display:flex; align-items:center; gap:10px;
+  }
+  .hud input[type="file"] { font-size:12px; }
+  .hint { opacity:.8 }
+</style>
+</head>
+<body>
+  <div class="hud">
+    <label><strong>Avatar GLB:</strong> <input id="file" type="file" accept=".glb,.gltf" /></label>
+    <button id="loadSample" title="Loads a placeholder model hosted online">Load sample</button>
+    <span class="hint">Head movement = subtle avatar yaw/pitch. Press <kbd>B</kbd> to show bbox.</span>
+  </div>
+
+  <div id="stage"></div>
+
+  <div class="preview">
+    <div class="header"><span class="dot" id="camDot"></span> Webcam</div>
+    <video id="vid" autoplay playsinline muted></video>
+    <canvas id="overlay" width="640" height="480" style="display:none"></canvas>
+  </div>
+
+  <!-- Three.js + loaders -->
+  <script type="module">
+    import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.160/build/three.module.js";
+    import { GLTFLoader } from "https://cdn.jsdelivr.net/npm/three@0.160/examples/jsm/loaders/GLTFLoader.js";
+
+    // ---------- THREE.JS SCENE ----------
+    const container = document.getElementById("stage");
+    const renderer  = new THREE.WebGLRenderer({ antialias:true, alpha:false });
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.outputColorSpace = THREE.SRGBColorSpace;
+    renderer.toneMapping = THREE.ACESFilmicToneMapping;
+    renderer.toneMappingExposure = 1.0;
+    renderer.shadowMap.enabled = true;
+    container.appendChild(renderer.domElement);
+
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0x0e0f13);
+
+    const camera = new THREE.PerspectiveCamera(40, window.innerWidth / window.innerHeight, 0.1, 100);
+    camera.position.set(0, 1.4, 3.2);
+
+    // Soft lights: Hemisphere + soft Directional with shadows
+    const hemi = new THREE.HemisphereLight(0xffffff, 0x334455, 0.65);
+    scene.add(hemi);
+
+    const dir = new THREE.DirectionalLight(0xffffff, 1.0);
+    dir.position.set(3, 5, 5);
+    dir.castShadow = true;
+    dir.shadow.mapSize.set(1024, 1024);
+    dir.shadow.radius = 4;
+    scene.add(dir);
+
+    // Simple ground to catch subtle shadow
+    const groundMat = new THREE.MeshStandardMaterial({ color:0x0f1116, roughness:0.95, metalness:0.0 });
+    const ground = new THREE.Mesh(new THREE.PlaneGeometry(20,20), groundMat);
+    ground.rotation.x = -Math.PI/2;
+    ground.position.y = 0;
+    ground.receiveShadow = true;
+    scene.add(ground);
+
+    // Avatar root (so we can rotate this group)
+    const avatarRoot = new THREE.Group();
+    avatarRoot.position.set(0, 1.0, 0); // Lift a bit above ground
+    scene.add(avatarRoot);
+
+    let avatar; // the loaded GLB scene/object
+    const loader = new GLTFLoader();
+
+    function loadGLBFromURL(url){
+      loader.load(url, (gltf)=>{
+        if (avatar) { avatarRoot.remove(avatar); avatar.traverse(o=>{ if (o.isMesh) { o.geometry.dispose(); if (o.material?.dispose) o.material.dispose(); }}); }
+        avatar = gltf.scene;
+        avatar.traverse(o=>{
+          if (o.isMesh) { o.castShadow = true; o.receiveShadow = true; }
+        });
+        // Try to face the camera (assumes model faces +Z or -Z)
+        avatar.rotation.y = Math.PI; // common fix for models facing backwards; adjust if needed
+        // Scale to a reasonable size if model is too big/small
+        const box = new THREE.Box3().setFromObject(avatar);
+        const size = new THREE.Vector3(); box.getSize(size);
+        const maxDim = Math.max(size.x, size.y, size.z) || 1;
+        const scale = 1.2 / maxDim;
+        avatar.scale.setScalar(scale);
+        // Re-center at avatarRoot origin
+        const center = new THREE.Vector3(); box.getCenter(center);
+        avatar.position.sub(center.multiplyScalar(scale));
+        avatarRoot.add(avatar);
+      });
+    }
+
+    // File input
+    document.getElementById("file").addEventListener("change", (e)=>{
+      const f = e.target.files?.[0];
+      if (!f) return;
+      const url = URL.createObjectURL(f);
+      loadGLBFromURL(url);
+    });
+
+    // Sample model (CC0 “Damaged Helmet” as a placeholder)
+    document.getElementById("loadSample").addEventListener("click", ()=>{
+      loadGLBFromURL("https://cdn.jsdelivr.net/gh/KhronosGroup/glTF-Sample-Models@master/2.0/DamagedHelmet/glTF-Binary/DamagedHelmet.glb");
+    });
+
+    // Resize
+    window.addEventListener("resize", ()=>{
+      camera.aspect = window.innerWidth / window.innerHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+    });
+
+    // ---------- MEDIAPIPE + CONTROL ----------
+    const video   = document.getElementById("vid");
+    const overlay = document.getElementById("overlay");
+    const octx    = overlay.getContext("2d");
+    const camDot  = document.getElementById("camDot");
+
+    let showBBox = false;
+    window.addEventListener("keydown", (e)=>{
+      if (e.key.toLowerCase() === "b") {
+        showBBox = !showBBox;
+        overlay.style.display = showBBox ? "block" : "none";
+      }
+    });
+
+    // Smoother for viewport mapping -> avatar rotation
+    const smoother = (alpha=0.18) => {
+      let sx=null, sy=null; 
+      return (x,y)=>{ if(sx==null){sx=x; sy=y;} sx += alpha*(x-sx); sy += alpha*(y-sy); return [sx,sy]; };
+    };
+    const smoothXY = smoother(0.18);
+
+    async function setupCam() {
+      const stream = await navigator.mediaDevices.getUserMedia({ video: { width:640, height:480 } });
+      video.srcObject = stream;
+      await video.play();
+    }
+
+    // MediaPipe Tasks – FaceDetector
+    import { FaceDetector, FilesetResolver } from "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.3";
+    const vision = await FilesetResolver.forVisionTasks(
+      "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.3/wasm"
+    );
+
+    const detector = await FaceDetector.createFromOptions(vision, {
+      baseOptions: {
+        modelAssetPath:
+          "https://storage.googleapis.com/mediapipe-models/face_detector/blaze_face_short_range/float16/1/blaze_face_short_range.tflite"
+      },
+      runningMode: "VIDEO",
+      minDetectionConfidence: 0.5,
+      minSuppressionThreshold: 0.3
+    });
+
+    await setupCam();
+
+    // Optional bbox overlay (mirrored)
+    function drawBox(bb) {
+      const W = overlay.width = 640;
+      const H = overlay.height = 480;
+      octx.clearRect(0,0,W,H);
+      const x = W - (bb.originX + bb.width); // flip X for mirrored preview
+      const y = bb.originY;
+      octx.lineWidth = 2;
+      octx.strokeStyle = "rgba(0,200,255,0.9)";
+      octx.strokeRect(x, y, bb.width, bb.height);
+      octx.beginPath(); octx.arc(x+bb.width/2, y+bb.height/2, 3, 0, Math.PI*2); octx.fillStyle = "rgba(0,200,255,1)"; octx.fill();
+    }
+
+    // Face → rotation mapping
+    // mx,my are normalized [0..1] with mirrored X (so left/right feels natural).
+    // We convert to offsets around center (-0.5..+0.5) and map to small angles.
+    const yawMax   = THREE.MathUtils.degToRad(20); // left/right (Y axis)
+    const pitchMax = THREE.MathUtils.degToRad(12); // up/down (X axis)
+    const clamp = (v,min,max)=> Math.max(min, Math.min(max, v));
+
+    // For smooth animation, track current rotation separately
+    const current = { x: 0, y: 0 };
+    const lerp = (a,b,t)=> a + (b - a) * t;
+
+    // Render loop
+    function animate() {
+      requestAnimationFrame(animate);
+      renderer.render(scene, camera);
+      // Ease avatarRoot toward current rotation target
+      avatarRoot.rotation.x = lerp(avatarRoot.rotation.x, current.x, 0.15);
+      avatarRoot.rotation.y = lerp(avatarRoot.rotation.y, current.y, 0.15);
+    }
+    animate();
+
+    // Vision loop
+    function tickVision() {
+      const now = performance.now();
+      const res = detector.detectForVideo(video, now);
+      if (res?.detections?.length) {
+        const best = res.detections.reduce((a,b)=> (a.categories?.[0]?.score||0) >= (b.categories?.[0]?.score||0) ? a : b);
+        const bb = best.boundingBox;
+
+        // bbox center in normalized coords
+        const cx = (bb.originX + bb.width * 0.5) / video.videoWidth;
+        const cy = (bb.originY + bb.height * 0.5) / video.videoHeight;
+
+        // mirrored X for natural movement
+        const mx = 1 - cx;
+        const my = cy;
+
+        // map to viewport (not strictly needed; we just want offsets)
+        const [sx, sy] = smoothXY(mx, my);
+
+        // offsets around center (-0.5..+0.5)
+        const dx = (sx - 0.5);
+        const dy = (sy - 0.5);
+
+        // target rotations
+        const targetYaw   = clamp( dx * 2 * yawMax,   -yawMax,   yawMax);   // Y axis
+        const targetPitch = clamp(-dy * 2 * pitchMax, -pitchMax, pitchMax); // X axis (invert: up is negative pitch)
+
+        current.x = targetPitch;
+        current.y = targetYaw;
+
+        camDot.style.background = "#2ecc71";
+        camDot.style.boxShadow  = "0 0 10px rgba(46,204,113,.9)";
+        if (showBBox) drawBox(bb); else octx.clearRect(0,0,overlay.width,overlay.height);
+      } else {
+        // Ease back to neutral
+        current.x = lerp(current.x, 0, 0.05);
+        current.y = lerp(current.y, 0, 0.05);
+        camDot.style.background = "#e74c3c";
+        camDot.style.boxShadow  = "0 0 10px rgba(231,76,60,.8)";
+        octx.clearRect(0,0,overlay.width,overlay.height);
+      }
+      requestAnimationFrame(tickVision);
+    }
+    requestAnimationFrame(tickVision);
+  </script>
+</body>
+</html>
+```
+
+### correcciones
+<small>Creado: 2025-12-23 15:24</small>
+
+`003-correcciones.html`
+
+```html
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Avatar follows your face – Three.js + MediaPipe</title>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="icon" href="data:,">
+
+<!-- Import map to resolve the bare specifier "three" used by GLTFLoader -->
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.160/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160/examples/jsm/"
+  }
+}
+</script>
+
+<style>
+  html, body { margin:0; height:100%; overflow:hidden; background:#0e0f13; color:#e9eef3; font-family:system-ui, Segoe UI, Roboto, Ubuntu, Cantarell; }
+  #stage { position:fixed; inset:0; }
+  :root { --preview-w:260px; --preview-h:195px; }
+  .preview {
+    position:fixed; right:16px; bottom:16px; width:var(--preview-w); height:var(--preview-h);
+    border-radius:12px; overflow:hidden; box-shadow:0 8px 24px rgba(0,0,0,.45);
+    border:1px solid rgba(255,255,255,.08); background:#14161d; z-index:10;
+  }
+  .preview video, .preview canvas { position:absolute; width:100%; height:100%; object-fit:cover; }
+  .preview video { transform:scaleX(-1); }
+  .header { position:absolute; inset:0 0 auto 0; height:28px; background:linear-gradient(180deg, rgba(0,0,0,.55), transparent);
+    font-size:12px; display:flex; align-items:center; gap:8px; padding:0 10px; color:#c9d2db; }
+  .dot { width:8px; height:8px; border-radius:50%; background:#e74c3c; box-shadow:0 0 10px rgba(231,76,60,.8); }
+</style>
+</head>
+<body>
+  <div id="stage"></div>
+
+  <div class="preview">
+    <div class="header"><span class="dot" id="camDot"></span> Webcam</div>
+    <video id="vid" autoplay playsinline muted></video>
+    <canvas id="overlay" width="640" height="480" style="display:none"></canvas>
+  </div>
+
+  <script type="module">
+    import * as THREE from "three";
+    import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
+    import { FaceDetector, FilesetResolver } from "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.3";
+
+    /* ---------- THREE.JS ---------- */
+    const container = document.getElementById("stage");
+    const renderer  = new THREE.WebGLRenderer({ antialias:true });
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.outputColorSpace = THREE.SRGBColorSpace;
+    renderer.toneMapping = THREE.ACESFilmicToneMapping;
+    renderer.shadowMap.enabled = true;
+    container.appendChild(renderer.domElement);
+
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0x0e0f13);
+
+    const camera = new THREE.PerspectiveCamera(10, window.innerWidth/window.innerHeight, 0.1, 100);
+    camera.position.set(0, 1.3, 3);
+
+    // Soft lights
+    scene.add(new THREE.HemisphereLight(0xffffff, 0x334455, 0.6));
+    const dir = new THREE.DirectionalLight(0xffffff, 1);
+    dir.position.set(3,5,5);
+    dir.castShadow = true;
+    scene.add(dir);
+
+    // Ground (soft shadow feel)
+    const ground = new THREE.Mesh(
+      new THREE.PlaneGeometry(20,20),
+      new THREE.MeshStandardMaterial({ color:0x0f1116, roughness:0.95, metalness:0 })
+    );
+    ground.rotation.x = -Math.PI/2;
+    ground.receiveShadow = true;
+    scene.add(ground);
+
+    // Avatar group we rotate
+    const avatarRoot = new THREE.Group();
+    avatarRoot.position.set(0, 1.0, 0);
+    scene.add(avatarRoot);
+
+    // Load avatar.glb from same folder
+    let avatar;
+    const loader = new GLTFLoader();
+    loader.load("./avatar.glb", (gltf)=>{
+      avatar = gltf.scene;
+      avatar.traverse(o=>{ if(o.isMesh){ o.castShadow = true; o.receiveShadow = true; }});
+      // Face camera (adjust/remove if already correct)
+      avatar.rotation.y = Math.PI;
+
+      // Normalize scale & center
+      const box = new THREE.Box3().setFromObject(avatar);
+      const size = new THREE.Vector3(); box.getSize(size);
+      const scale = 1.2 / Math.max(size.x, size.y, size.z);
+      avatar.scale.setScalar(scale);
+      const center = new THREE.Vector3(); box.getCenter(center);
+      avatar.position.sub(center.multiplyScalar(scale));
+
+      avatarRoot.add(avatar);
+    });
+
+    window.addEventListener("resize", ()=>{
+      camera.aspect = window.innerWidth / window.innerHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+    });
+
+    /* ---------- MEDIAPIPE ---------- */
+    const video   = document.getElementById("vid");
+    const overlay = document.getElementById("overlay");
+    const octx    = overlay.getContext("2d");
+    const camDot  = document.getElementById("camDot");
+
+    let showBBox = false;
+    window.addEventListener("keydown", (e)=>{
+      if (e.key.toLowerCase() === "b") {
+        showBBox = !showBBox;
+        overlay.style.display = showBBox ? "block" : "none";
+      }
+    });
+
+    const smoother = (alpha=0.18)=>{
+      let sx=null, sy=null;
+      return (x,y)=>{ if(sx==null){sx=x; sy=y;} sx += alpha*(x-sx); sy += alpha*(y-sy); return [sx,sy]; };
+    };
+    const smoothXY = smoother(0.18);
+
+    async function setupCam(){
+      const stream = await navigator.mediaDevices.getUserMedia({ video: { width:640, height:480 } });
+      video.srcObject = stream;
+      await video.play();
+    }
+
+    const vision = await FilesetResolver.forVisionTasks(
+      "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.3/wasm"
+    );
+    const detector = await FaceDetector.createFromOptions(vision, {
+      baseOptions: {
+        modelAssetPath: "https://storage.googleapis.com/mediapipe-models/face_detector/blaze_face_short_range/float16/1/blaze_face_short_range.tflite"
+      },
+      runningMode: "VIDEO",
+      minDetectionConfidence: 0.5
+    });
+
+    await setupCam();
+
+    function drawBox(bb){
+      const W = overlay.width = 640, H = overlay.height = 480;
+      octx.clearRect(0,0,W,H);
+      const x = W - (bb.originX + bb.width); // mirrored preview
+      const y = bb.originY;
+      octx.strokeStyle = "rgba(0,200,255,0.9)";
+      octx.lineWidth = 2;
+      octx.strokeRect(x,y,bb.width,bb.height);
+    }
+
+    // Map face center → small avatar rotations
+    const yawMax   = THREE.MathUtils.degToRad(20); // left-right (Y)
+    const pitchMax = THREE.MathUtils.degToRad(12); // up-down (X)
+    const clamp    = (v,min,max)=> Math.max(min, Math.min(max, v));
+    const current  = { x:0, y:0 };
+    const lerp     = (a,b,t)=> a + (b - a) * t;
+
+    function animate(){
+      requestAnimationFrame(animate);
+      renderer.render(scene, camera);
+      avatarRoot.rotation.x = lerp(avatarRoot.rotation.x, current.x, 0.15);
+      avatarRoot.rotation.y = lerp(avatarRoot.rotation.y, current.y, 0.15);
+    }
+    animate();
+
+    function tick(){
+      const now = performance.now();
+      const res = detector.detectForVideo(video, now);
+      if (res?.detections?.length) {
+        const best = res.detections.reduce((a,b)=>(a.categories?.[0]?.score||0)>=(b.categories?.[0]?.score||0)?a:b);
+        const bb = best.boundingBox;
+
+        // Face center normalized 0..1
+        const cx = (bb.originX + bb.width*0.5) / video.videoWidth;
+        const cy = (bb.originY + bb.height*0.5) / video.videoHeight;
+
+        // Mirror X to match selfie preview
+        const mx = 1 - cx, my = cy;
+        const [sx, sy] = smoothXY(mx, my);
+
+        const dx = sx - 0.5; // -0.5..+0.5
+        const dy = sy - 0.5;
+
+        current.y = clamp(dx * 2 * yawMax,   -yawMax,   yawMax);   // yaw (Y)
+        current.x = clamp(-dy * 2 * pitchMax, -pitchMax, pitchMax); // pitch (X, invert)
+
+        camDot.style.background = "#2ecc71";
+        camDot.style.boxShadow  = "0 0 10px rgba(46,204,113,.9)";
+        if (showBBox) drawBox(bb); else octx.clearRect(0,0,overlay.width,overlay.height);
+      } else {
+        current.x = lerp(current.x, 0, 0.05);
+        current.y = lerp(current.y, 0, 0.05);
+        camDot.style.background = "#e74c3c";
+        camDot.style.boxShadow  = "0 0 10px rgba(231,76,60,.8)";
+        octx.clearRect(0,0,overlay.width,overlay.height);
+      }
+      requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+  </script>
+</body>
+</html>
+```
+
+### eje vertical
+<small>Creado: 2025-12-23 15:24</small>
+
+`004-eje vertical.html`
+
+```html
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Avatar follows your face – Three.js + MediaPipe</title>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="icon" href="data:,">
+
+<!-- Import map to resolve the bare specifier "three" used by GLTFLoader -->
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.160/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160/examples/jsm/"
+  }
+}
+</script>
+
+<style>
+  html, body { margin:0; height:100%; overflow:hidden; background:#0e0f13; color:#e9eef3; font-family:system-ui, Segoe UI, Roboto, Ubuntu, Cantarell; }
+  #stage { position:fixed; inset:0; }
+  :root { --preview-w:260px; --preview-h:195px; }
+  .preview {
+    position:fixed; right:16px; bottom:16px; width:var(--preview-w); height:var(--preview-h);
+    border-radius:12px; overflow:hidden; box-shadow:0 8px 24px rgba(0,0,0,.45);
+    border:1px solid rgba(255,255,255,.08); background:#14161d; z-index:10;
+  }
+  .preview video, .preview canvas { position:absolute; width:100%; height:100%; object-fit:cover; }
+  .preview video { transform:scaleX(-1); }
+  .header { position:absolute; inset:0 0 auto 0; height:28px; background:linear-gradient(180deg, rgba(0,0,0,.55), transparent);
+    font-size:12px; display:flex; align-items:center; gap:8px; padding:0 10px; color:#c9d2db; }
+  .dot { width:8px; height:8px; border-radius:50%; background:#e74c3c; box-shadow:0 0 10px rgba(231,76,60,.8); }
+</style>
+</head>
+<body>
+  <div id="stage"></div>
+
+  <div class="preview">
+    <div class="header"><span class="dot" id="camDot"></span> Webcam</div>
+    <video id="vid" autoplay playsinline muted></video>
+    <canvas id="overlay" width="640" height="480" style="display:none"></canvas>
+  </div>
+
+  <script type="module">
+    import * as THREE from "three";
+    import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
+    import { FaceDetector, FilesetResolver } from "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.3";
+
+    /* ---------- THREE.JS ---------- */
+    const container = document.getElementById("stage");
+    const renderer  = new THREE.WebGLRenderer({ antialias:true });
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.outputColorSpace = THREE.SRGBColorSpace;
+    renderer.toneMapping = THREE.ACESFilmicToneMapping;
+    renderer.shadowMap.enabled = true;
+    container.appendChild(renderer.domElement);
+
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0x0e0f13);
+
+    const camera = new THREE.PerspectiveCamera(10, window.innerWidth/window.innerHeight, 0.1, 100);
+    camera.position.set(0, 1.3, 3);
+
+    // Soft lights
+    scene.add(new THREE.HemisphereLight(0xffffff, 0x334455, 0.6));
+    const dir = new THREE.DirectionalLight(0xffffff, 1);
+    dir.position.set(3,5,5);
+    dir.castShadow = true;
+    scene.add(dir);
+
+    // Ground (soft shadow feel)
+    const ground = new THREE.Mesh(
+      new THREE.PlaneGeometry(20,20),
+      new THREE.MeshStandardMaterial({ color:0x0f1116, roughness:0.95, metalness:0 })
+    );
+    ground.rotation.x = -Math.PI/2;
+    ground.receiveShadow = true;
+    scene.add(ground);
+
+    // Avatar group we rotate
+    const avatarRoot = new THREE.Group();
+    avatarRoot.position.set(0, 1.0, 0);
+    scene.add(avatarRoot);
+
+    // Load avatar.glb from same folder
+    let avatar;
+    const loader = new GLTFLoader();
+    loader.load("./avatar.glb", (gltf)=>{
+      avatar = gltf.scene;
+      avatar.traverse(o=>{ if(o.isMesh){ o.castShadow = true; o.receiveShadow = true; }});
+      // Face camera (adjust/remove if already correct)
+      avatar.rotation.y = Math.PI;
+
+      // Normalize scale & center
+      const box = new THREE.Box3().setFromObject(avatar);
+      const size = new THREE.Vector3(); box.getSize(size);
+      const scale = 1.2 / Math.max(size.x, size.y, size.z);
+      avatar.scale.setScalar(scale);
+      const center = new THREE.Vector3(); box.getCenter(center);
+      avatar.position.sub(center.multiplyScalar(scale));
+
+      avatarRoot.add(avatar);
+    });
+
+    window.addEventListener("resize", ()=>{
+      camera.aspect = window.innerWidth / window.innerHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+    });
+
+    /* ---------- MEDIAPIPE ---------- */
+    const video   = document.getElementById("vid");
+    const overlay = document.getElementById("overlay");
+    const octx    = overlay.getContext("2d");
+    const camDot  = document.getElementById("camDot");
+
+    let showBBox = false;
+    window.addEventListener("keydown", (e)=>{
+      if (e.key.toLowerCase() === "b") {
+        showBBox = !showBBox;
+        overlay.style.display = showBBox ? "block" : "none";
+      }
+    });
+
+    const smoother = (alpha=0.18)=>{
+      let sx=null, sy=null;
+      return (x,y)=>{ if(sx==null){sx=x; sy=y;} sx += alpha*(x-sx); sy += alpha*(y-sy); return [sx,sy]; };
+    };
+    const smoothXY = smoother(0.18);
+
+    async function setupCam(){
+      const stream = await navigator.mediaDevices.getUserMedia({ video: { width:640, height:480 } });
+      video.srcObject = stream;
+      await video.play();
+    }
+
+    const vision = await FilesetResolver.forVisionTasks(
+      "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.3/wasm"
+    );
+    const detector = await FaceDetector.createFromOptions(vision, {
+      baseOptions: {
+        modelAssetPath: "https://storage.googleapis.com/mediapipe-models/face_detector/blaze_face_short_range/float16/1/blaze_face_short_range.tflite"
+      },
+      runningMode: "VIDEO",
+      minDetectionConfidence: 0.5
+    });
+
+    await setupCam();
+
+    function drawBox(bb){
+      const W = overlay.width = 640, H = overlay.height = 480;
+      octx.clearRect(0,0,W,H);
+      const x = W - (bb.originX + bb.width); // mirrored preview
+      const y = bb.originY;
+      octx.strokeStyle = "rgba(0,200,255,0.9)";
+      octx.lineWidth = 2;
+      octx.strokeRect(x,y,bb.width,bb.height);
+    }
+
+    // Map face center → small avatar rotations
+    const yawMax   = THREE.MathUtils.degToRad(20); // left-right (Y)
+    const pitchMax = THREE.MathUtils.degToRad(12); // up-down (X)
+    const clamp    = (v,min,max)=> Math.max(min, Math.min(max, v));
+    const current  = { x:0, y:0 };
+    const lerp     = (a,b,t)=> a + (b - a) * t;
+
+    function animate(){
+      requestAnimationFrame(animate);
+      renderer.render(scene, camera);
+      avatarRoot.rotation.x = lerp(avatarRoot.rotation.x, current.x, 0.15);
+      avatarRoot.rotation.y = lerp(avatarRoot.rotation.y, current.y, 0.15);
+    }
+    animate();
+
+    function tick(){
+      const now = performance.now();
+      const res = detector.detectForVideo(video, now);
+      if (res?.detections?.length) {
+        const best = res.detections.reduce((a,b)=>(a.categories?.[0]?.score||0)>=(b.categories?.[0]?.score||0)?a:b);
+        const bb = best.boundingBox;
+
+        // Face center normalized 0..1
+        const cx = (bb.originX + bb.width*0.5) / video.videoWidth;
+        const cy = (bb.originY + bb.height*0.5) / video.videoHeight;
+
+        // Mirror X to match selfie preview
+        const mx = 1 - cx, my = cy;
+        const [sx, sy] = smoothXY(mx, my);
+
+        const dx = sx - 0.5; // -0.5..+0.5
+        const dy = sy - 0.5;
+
+        current.y = clamp(dx * 2 * yawMax,   -yawMax,   yawMax);   // yaw (Y)
+        current.x = clamp(dy * 2 * pitchMax, -pitchMax, pitchMax);  // pitch (X) – flipped
+
+
+        camDot.style.background = "#2ecc71";
+        camDot.style.boxShadow  = "0 0 10px rgba(46,204,113,.9)";
+        if (showBBox) drawBox(bb); else octx.clearRect(0,0,overlay.width,overlay.height);
+      } else {
+        current.x = lerp(current.x, 0, 0.05);
+        current.y = lerp(current.y, 0, 0.05);
+        camDot.style.background = "#e74c3c";
+        camDot.style.boxShadow  = "0 0 10px rgba(231,76,60,.8)";
+        octx.clearRect(0,0,overlay.width,overlay.height);
+      }
+      requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+  </script>
+</body>
+</html>
+```
+
+### multiplicadores
+<small>Creado: 2025-12-23 15:24</small>
+
+`005-multiplicadores.html`
+
+```html
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Avatar follows your face – Three.js + MediaPipe</title>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="icon" href="data:,">
+
+<!-- Import map to resolve the bare specifier "three" used by GLTFLoader -->
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.160/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160/examples/jsm/"
+  }
+}
+</script>
+
+<style>
+  html, body { margin:0; height:100%; overflow:hidden; background:#0e0f13; color:#e9eef3; font-family:system-ui, Segoe UI, Roboto, Ubuntu, Cantarell; }
+  #stage { position:fixed; inset:0; }
+  :root { --preview-w:260px; --preview-h:195px; }
+  .preview {
+    position:fixed; right:16px; bottom:16px; width:var(--preview-w); height:var(--preview-h);
+    border-radius:12px; overflow:hidden; box-shadow:0 8px 24px rgba(0,0,0,.45);
+    border:1px solid rgba(255,255,255,.08); background:#14161d; z-index:10;
+  }
+  .preview video, .preview canvas { position:absolute; width:100%; height:100%; object-fit:cover; }
+  .preview video { transform:scaleX(-1); }
+  .header { position:absolute; inset:0 0 auto 0; height:28px; background:linear-gradient(180deg, rgba(0,0,0,.55), transparent);
+    font-size:12px; display:flex; align-items:center; gap:8px; padding:0 10px; color:#c9d2db; }
+  .dot { width:8px; height:8px; border-radius:50%; background:#e74c3c; box-shadow:0 0 10px rgba(231,76,60,.8); }
+</style>
+</head>
+<body>
+  <div id="stage"></div>
+
+  <div class="preview">
+    <div class="header"><span class="dot" id="camDot"></span> Webcam</div>
+    <video id="vid" autoplay playsinline muted></video>
+    <canvas id="overlay" width="640" height="480" style="display:none"></canvas>
+  </div>
+
+  <script type="module">
+    import * as THREE from "three";
+    import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
+    import { FaceDetector, FilesetResolver } from "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.3";
+
+    /* ---------- THREE.JS ---------- */
+    const container = document.getElementById("stage");
+    const renderer  = new THREE.WebGLRenderer({ antialias:true });
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.outputColorSpace = THREE.SRGBColorSpace;
+    renderer.toneMapping = THREE.ACESFilmicToneMapping;
+    renderer.shadowMap.enabled = true;
+    container.appendChild(renderer.domElement);
+
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0x0e0f13);
+
+    // You set this narrower FOV; keep it
+    const camera = new THREE.PerspectiveCamera(10, window.innerWidth/window.innerHeight, 0.1, 100);
+    camera.position.set(0, 1.3, 3);
+
+    // Soft lights
+    scene.add(new THREE.HemisphereLight(0xffffff, 0x334455, 0.6));
+    const dir = new THREE.DirectionalLight(0xffffff, 1);
+    dir.position.set(3,5,5);
+    dir.castShadow = true;
+    scene.add(dir);
+
+    // Ground (soft shadow feel)
+    const ground = new THREE.Mesh(
+      new THREE.PlaneGeometry(20,20),
+      new THREE.MeshStandardMaterial({ color:0x0f1116, roughness:0.95, metalness:0 })
+    );
+    ground.rotation.x = -Math.PI/2;
+    ground.receiveShadow = true;
+    scene.add(ground);
+
+    // Avatar group we rotate
+    const avatarRoot = new THREE.Group();
+    avatarRoot.position.set(0, 1.0, 0);
+    scene.add(avatarRoot);
+
+    // Load avatar.glb from same folder
+    let avatar;
+    const loader = new GLTFLoader();
+    loader.load("./avatar.glb", (gltf)=>{
+      avatar = gltf.scene;
+      avatar.traverse(o=>{ if(o.isMesh){ o.castShadow = true; o.receiveShadow = true; }});
+      // Face camera (adjust/remove if already correct)
+      avatar.rotation.y = Math.PI;
+
+      // Normalize scale & center
+      const box = new THREE.Box3().setFromObject(avatar);
+      const size = new THREE.Vector3(); box.getSize(size);
+      const scale = 1.2 / Math.max(size.x, size.y, size.z);
+      avatar.scale.setScalar(scale);
+      const center = new THREE.Vector3(); box.getCenter(center);
+      avatar.position.sub(center.multiplyScalar(scale));
+
+      avatarRoot.add(avatar);
+    });
+
+    window.addEventListener("resize", ()=>{
+      camera.aspect = window.innerWidth / window.innerHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+    });
+
+    /* ---------- MEDIAPIPE ---------- */
+    const video   = document.getElementById("vid");
+    const overlay = document.getElementById("overlay");
+    const octx    = overlay.getContext("2d");
+    const camDot  = document.getElementById("camDot");
+
+    let showBBox = false;
+    window.addEventListener("keydown", (e)=>{
+      if (e.key.toLowerCase() === "b") {
+        showBBox = !showBBox;
+        overlay.style.display = showBBox ? "block" : "none";
+      }
+    });
+
+    const smoother = (alpha=0.18)=>{
+      let sx=null, sy=null;
+      return (x,y)=>{ if(sx==null){sx=x; sy=y;} sx += alpha*(x-sx); sy += alpha*(y-sy); return [sx,sy]; };
+    };
+    const smoothXY = smoother(0.18);
+
+    async function setupCam(){
+      const stream = await navigator.mediaDevices.getUserMedia({ video: { width:640, height:480 } });
+      video.srcObject = stream;
+      await video.play();
+    }
+
+    const vision = await FilesetResolver.forVisionTasks(
+      "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.3/wasm"
+    );
+    const detector = await FaceDetector.createFromOptions(vision, {
+      baseOptions: {
+        modelAssetPath: "https://storage.googleapis.com/mediapipe-models/face_detector/blaze_face_short_range/float16/1/blaze_face_short_range.tflite"
+      },
+      runningMode: "VIDEO",
+      minDetectionConfidence: 0.5
+    });
+
+    await setupCam();
+
+    function drawBox(bb){
+      const W = overlay.width = 640, H = overlay.height = 480;
+      octx.clearRect(0,0,W,H);
+      const x = W - (bb.originX + bb.width); // mirrored preview
+      const y = bb.originY;
+      octx.strokeStyle = "rgba(0,200,255,0.9)";
+      octx.lineWidth = 2;
+      octx.strokeRect(x,y,bb.width,bb.height);
+    }
+
+    /* ---------- ROTATION MAPPING WITH MULTIPLIERS ---------- */
+    const yawMax   = THREE.MathUtils.degToRad(20); // base range for left-right (Y)
+    const pitchMax = THREE.MathUtils.degToRad(12); // base range for up-down (X)
+
+    // Sensitivity & inversion controls
+    const yawMultiplier   = 3; // >1 = more sensitive, <1 = less
+    const pitchMultiplier = 3; // >1 = more sensitive, <1 = less
+    const invertYaw       = 1;   // set to -1 to invert horizontal
+    const invertPitch     = 1;   // set to -1 to invert vertical
+
+    const clamp = (v,min,max)=> Math.max(min, Math.min(max, v));
+    const current = { x:0, y:0 };
+    const lerp = (a,b,t)=> a + (b - a) * t;
+
+    function animate(){
+      requestAnimationFrame(animate);
+      renderer.render(scene, camera);
+      avatarRoot.rotation.x = lerp(avatarRoot.rotation.x, current.x, 0.15);
+      avatarRoot.rotation.y = lerp(avatarRoot.rotation.y, current.y, 0.15);
+    }
+    animate();
+
+    function tick(){
+      const now = performance.now();
+      const res = detector.detectForVideo(video, now);
+      if (res?.detections?.length) {
+        const best = res.detections.reduce((a,b)=>(a.categories?.[0]?.score||0)>=(b.categories?.[0]?.score||0)?a:b);
+        const bb = best.boundingBox;
+
+        // Face center normalized 0..1
+        const cx = (bb.originX + bb.width*0.5) / video.videoWidth;
+        const cy = (bb.originY + bb.height*0.5) / video.videoHeight;
+
+        // Mirror X to match selfie preview
+        const mx = 1 - cx, my = cy;
+        const [sx, sy] = smoothXY(mx, my);
+
+        const dx = sx - 0.5; // -0.5..+0.5
+        const dy = sy - 0.5;
+
+        // Apply multipliers and inversion (pitch already fixed: move head up → avatar pitches up)
+        current.y = clamp(invertYaw   * dx * 2 * yawMax   * yawMultiplier,   -yawMax,   yawMax);   // yaw (Y)
+        current.x = clamp(invertPitch * dy * 2 * pitchMax * pitchMultiplier, -pitchMax, pitchMax); // pitch (X)
+
+        camDot.style.background = "#2ecc71";
+        camDot.style.boxShadow  = "0 0 10px rgba(46,204,113,.9)";
+        if (showBBox) drawBox(bb); else octx.clearRect(0,0,overlay.width,overlay.height);
+      } else {
+        // ease back to neutral
+        current.x = lerp(current.x, 0, 0.05);
+        current.y = lerp(current.y, 0, 0.05);
+        camDot.style.background = "#e74c3c";
+        camDot.style.boxShadow  = "0 0 10px rgba(231,76,60,.8)";
+        octx.clearRect(0,0,overlay.width,overlay.height);
+      }
+      requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+  </script>
+</body>
+</html>
+```
+
+### el agente me escucha
+<small>Creado: 2025-12-23 15:24</small>
+
+`006-el agente me escucha.html`
+
+```html
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Avatar + Face Follow + Active Listening</title>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="icon" href="data:,">
+
+<!-- Import map for Three.js -->
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.160/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160/examples/jsm/"
+  }
+}
+</script>
+
+<style>
+  html, body { margin:0; height:100%; overflow:hidden; background:#0e0f13; color:#e9eef3; font-family:system-ui, Segoe UI, Roboto, Ubuntu, Cantarell; }
+  #stage { position:fixed; inset:0; }
+  :root { --preview-w:260px; --preview-h:195px; }
+
+  /* Webcam preview */
+  .preview {
+    position:fixed; right:16px; bottom:16px; width:var(--preview-w); height:var(--preview-h);
+    border-radius:12px; overflow:hidden; box-shadow:0 8px 24px rgba(0,0,0,.45);
+    border:1px solid rgba(255,255,255,.08); background:#14161d; z-index:10;
+  }
+  .preview video, .preview canvas { position:absolute; width:100%; height:100%; object-fit:cover; }
+  .preview video { transform:scaleX(-1); }
+  .header { position:absolute; inset:0 0 auto 0; height:28px; background:linear-gradient(180deg, rgba(0,0,0,.55), transparent);
+    font-size:12px; display:flex; align-items:center; gap:8px; padding:0 10px; color:#c9d2db; }
+  .dot { width:8px; height:8px; border-radius:50%; background:#e74c3c; box-shadow:0 0 10px rgba(231,76,60,.8); }
+
+  /* Mic HUD */
+  .hud {
+    position:fixed; top:12px; left:12px; z-index:20; background:rgba(20,22,29,.75);
+    border:1px solid rgba(255,255,255,.12); padding:10px 12px; border-radius:10px; font-size:13px; display:flex; align-items:center; gap:10px;
+  }
+  .btn {
+    appearance: none; border:1px solid rgba(255,255,255,.18); background:#1e2230; color:#e9eef3;
+    padding:6px 10px; border-radius:8px; font-size:13px; cursor:pointer;
+  }
+  .btn[aria-pressed="true"] { background:#2a3550; border-color:#6aa1ff; }
+  .status { font-size:12px; opacity:0.8 }
+  .kbd { background:rgba(255,255,255,.08); border:1px solid rgba(255,255,255,.15); padding:1px 6px; border-radius:6px; font-family:ui-monospace,monospace; font-size:12px; }
+
+  /* Floating transcription window */
+  .float {
+    position:fixed; left:16px; bottom:16px; width:min(520px, 46vw); height:220px; z-index:25;
+    background:rgba(14,17,23,.9); border:1px solid rgba(255,255,255,.12); border-radius:12px; backdrop-filter: blur(6px);
+    box-shadow: 0 10px 30px rgba(0,0,0,.45); display:flex; flex-direction:column; resize: both; overflow: hidden;
+  }
+  .float-header {
+    user-select:none; cursor:move; padding:8px 10px; display:flex; align-items:center; justify-content:space-between;
+    font-size:12px; background:linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,0));
+  }
+  .float-body {
+    padding:8px 10px; overflow:auto; white-space:pre-wrap; font-size:13px; line-height:1.35;
+  }
+  .pill { display:inline-block; padding:2px 8px; border-radius:999px; border:1px solid rgba(255,255,255,.18); font-size:11px; opacity:.9 }
+  .pulse { animation: pulse 1.2s infinite; }
+  @keyframes pulse { 0%{opacity:.4} 50%{opacity:1} 100%{opacity:.4} }
+</style>
+</head>
+<body>
+  <div id="stage"></div>
+
+  <!-- Mic HUD -->
+  <div class="hud">
+    <button id="btnMic" class="btn" aria-pressed="false">🎤 Start</button>
+    <span class="status" id="micStatus">idle</span>
+    <span class="status">Lang: <span class="kbd" id="langTag">es-ES</span> • Toggle bbox: <span class="kbd">B</span></span>
+  </div>
+
+  <!-- Floating transcription window -->
+  <div class="float" id="float">
+    <div class="float-header" id="floatDrag">
+      <strong>Transcripción</strong>
+      <span id="recPill" class="pill">mic: <span class="pulse">off</span></span>
+    </div>
+    <div class="float-body" id="transcript"></div>
+  </div>
+
+  <!-- Webcam preview -->
+  <div class="preview">
+    <div class="header"><span class="dot" id="camDot"></span> Webcam</div>
+    <video id="vid" autoplay playsinline muted></video>
+    <canvas id="overlay" width="640" height="480" style="display:none"></canvas>
+  </div>
+
+  <script type="module">
+    import * as THREE from "three";
+    import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
+    import { FaceDetector, FilesetResolver } from "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.3";
+
+    /* ---------- THREE.JS SCENE ---------- */
+    const container = document.getElementById("stage");
+    const renderer  = new THREE.WebGLRenderer({ antialias:true });
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.outputColorSpace = THREE.SRGBColorSpace;
+    renderer.toneMapping = THREE.ACESFilmicToneMapping;
+    renderer.shadowMap.enabled = true;
+    container.appendChild(renderer.domElement);
+
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0x0e0f13);
+
+    const camera = new THREE.PerspectiveCamera(10, window.innerWidth/window.innerHeight, 0.1, 100);
+    camera.position.set(0, 1.3, 3);
+
+    // Lights
+    scene.add(new THREE.HemisphereLight(0xffffff, 0x334455, 0.6));
+    const dir = new THREE.DirectionalLight(0xffffff, 1);
+    dir.position.set(3,5,5);
+    dir.castShadow = true;
+    scene.add(dir);
+
+    // Ground
+    const ground = new THREE.Mesh(new THREE.PlaneGeometry(20,20),
+      new THREE.MeshStandardMaterial({ color:0x0f1116, roughness:0.95, metalness:0 }));
+    ground.rotation.x = -Math.PI/2;
+    ground.receiveShadow = true;
+    scene.add(ground);
+
+    // Avatar
+    const avatarRoot = new THREE.Group();
+    avatarRoot.position.set(0, 1.0, 0);
+    scene.add(avatarRoot);
+
+    let avatar;
+    new GLTFLoader().load("./avatar.glb", (gltf)=>{
+      avatar = gltf.scene;
+      avatar.traverse(o=>{ if(o.isMesh){ o.castShadow = true; o.receiveShadow = true; }});
+      // Face the camera if needed
+      avatar.rotation.y = Math.PI;
+
+      // Normalize size and center
+      const box = new THREE.Box3().setFromObject(avatar);
+      const size = new THREE.Vector3(); box.getSize(size);
+      const scale = 1.2 / Math.max(size.x, size.y, size.z);
+      avatar.scale.setScalar(scale);
+      const center = new THREE.Vector3(); box.getCenter(center);
+      avatar.position.sub(center.multiplyScalar(scale));
+
+      avatarRoot.add(avatar);
+    });
+
+    window.addEventListener("resize", ()=>{
+      camera.aspect = window.innerWidth / window.innerHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+    });
+
+    /* ---------- MEDIAPIPE FACE FOLLOW ---------- */
+    const video   = document.getElementById("vid");
+    const overlay = document.getElementById("overlay");
+    const octx    = overlay.getContext("2d");
+    const camDot  = document.getElementById("camDot");
+
+    let showBBox = false;
+    window.addEventListener("keydown", (e)=>{
+      if (e.key.toLowerCase() === "b") {
+        showBBox = !showBBox;
+        overlay.style.display = showBBox ? "block" : "none";
+      }
+    });
+
+    const smoother = (alpha=0.18)=>{
+      let sx=null, sy=null;
+      return (x,y)=>{ if(sx==null){sx=x; sy=y;} sx += alpha*(x-sx); sy += alpha*(y-sy); return [sx,sy]; };
+    };
+    const smoothXY = smoother(0.18);
+
+    async function setupCam(){
+      const stream = await navigator.mediaDevices.getUserMedia({ video: { width:640, height:480 } });
+      video.srcObject = stream;
+      await video.play();
+    }
+
+    const vision = await FilesetResolver.forVisionTasks(
+      "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.3/wasm"
+    );
+    const detector = await FaceDetector.createFromOptions(vision, {
+      baseOptions: {
+        modelAssetPath: "https://storage.googleapis.com/mediapipe-models/face_detector/blaze_face_short_range/float16/1/blaze_face_short_range.tflite"
+      },
+      runningMode: "VIDEO",
+      minDetectionConfidence: 0.5
+    });
+
+    await setupCam();
+
+    function drawBox(bb){
+      const W = overlay.width = 640, H = overlay.height = 480;
+      octx.clearRect(0,0,W,H);
+      const x = W - (bb.originX + bb.width); // mirrored preview
+      const y = bb.originY;
+      octx.strokeStyle = "rgba(0,200,255,0.9)";
+      octx.lineWidth = 2;
+      octx.strokeRect(x,y,bb.width,bb.height);
+    }
+
+    // Rotation mapping with multipliers
+    const yawMax   = THREE.MathUtils.degToRad(20);
+    const pitchMax = THREE.MathUtils.degToRad(12);
+    const yawMultiplier   = 1.2;
+    const pitchMultiplier = 1.5;
+    const invertYaw       = 1;  // set -1 to flip horizontal
+    const invertPitch     = 1;  // set -1 to flip vertical
+
+    const clamp = (v,min,max)=> Math.max(min, Math.min(max, v));
+    const current = { x:0, y:0 };
+    const lerp = (a,b,t)=> a + (b - a) * t;
+
+    function animate(){
+      requestAnimationFrame(animate);
+      renderer.render(scene, camera);
+      avatarRoot.rotation.x = lerp(avatarRoot.rotation.x, current.x, 0.15);
+      avatarRoot.rotation.y = lerp(avatarRoot.rotation.y, current.y, 0.15);
+    }
+    animate();
+
+    function tick(){
+      const now = performance.now();
+      const res = detector.detectForVideo(video, now);
+      if (res?.detections?.length) {
+        const best = res.detections.reduce((a,b)=>(a.categories?.[0]?.score||0)>=(b.categories?.[0]?.score||0)?a:b);
+        const bb = best.boundingBox;
+
+        const cx = (bb.originX + bb.width*0.5) / video.videoWidth;
+        const cy = (bb.originY + bb.height*0.5) / video.videoHeight;
+
+        const mx = 1 - cx, my = cy;
+        const [sx, sy] = smoothXY(mx, my);
+
+        const dx = sx - 0.5;
+        const dy = sy - 0.5;
+
+        current.y = clamp(invertYaw   * dx * 2 * yawMax   * yawMultiplier,   -yawMax,   yawMax);
+        current.x = clamp(invertPitch * dy * 2 * pitchMax * pitchMultiplier, -pitchMax, pitchMax);
+
+        camDot.style.background = "#2ecc71";
+        camDot.style.boxShadow  = "0 0 10px rgba(46,204,113,.9)";
+        if (showBBox) drawBox(bb); else octx.clearRect(0,0,overlay.width,overlay.height);
+      } else {
+        current.x = lerp(current.x, 0, 0.05);
+        current.y = lerp(current.y, 0, 0.05);
+        camDot.style.background = "#e74c3c";
+        camDot.style.boxShadow  = "0 0 10px rgba(231,76,60,.8)";
+        octx.clearRect(0,0,overlay.width,overlay.height);
+      }
+      requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+
+    /* ---------- ACTIVE LISTENING (Web Speech API) ---------- */
+    const btnMic = document.getElementById("btnMic");
+    const micStatus = document.getElementById("micStatus");
+    const langTag = document.getElementById("langTag");
+    const recPill = document.getElementById("recPill");
+    const transcriptEl = document.getElementById("transcript");
+
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    let recog = null;
+    let listening = false;
+    let interimBuffer = "";
+    let finalBuffer = "";
+
+    function setMicUI(active, note="") {
+      btnMic.setAttribute("aria-pressed", active ? "true" : "false");
+      btnMic.textContent = active ? "🛑 Stop" : "🎤 Start";
+      micStatus.textContent = note || (active ? "listening…" : "idle");
+      recPill.innerHTML = active ? 'mic: <span class="pulse">on</span>' : 'mic: <span>off</span>';
+    }
+
+    function appendTranscript() {
+      transcriptEl.textContent = (finalBuffer + (interimBuffer ? "\n" + interimBuffer : "")).trim();
+      transcriptEl.scrollTop = transcriptEl.scrollHeight;
+    }
+
+    function startRecog() {
+      if (!SpeechRecognition) {
+        setMicUI(false, "SpeechRecognition not supported");
+        alert("Tu navegador no soporta Web Speech API (webkitSpeechRecognition). Usa Chrome reciente.");
+        return;
+      }
+      if (recog) stopRecog(true);
+
+      recog = new SpeechRecognition();
+      recog.lang = "es-ES";         // <— cambia el idioma si quieres
+      langTag.textContent = recog.lang;
+      recog.continuous = true;       // sigue escuchando
+      recog.interimResults = true;   // resultados parciales
+
+      recog.onstart = () => setMicUI(true, "listening…");
+      recog.onend = () => {
+        setMicUI(false, "restarting…");
+        // Auto-restart unless user clicked Stop
+        if (listening) setTimeout(()=>{ try{ recog.start(); }catch(e){} }, 200);
+      };
+      recog.onerror = (e) => setMicUI(true, `error: ${e.error}`);
+
+      recog.onresult = (ev) => {
+        interimBuffer = "";
+        for (let i = ev.resultIndex; i < ev.results.length; i++) {
+          const res = ev.results[i];
+          const text = res[0].transcript.trim();
+          if (res.isFinal) {
+            finalBuffer += (finalBuffer ? " " : "") + text;
+          } else {
+            interimBuffer = text; // show most recent interim
+          }
+        }
+        appendTranscript();
+      };
+
+      try { recog.start(); listening = true; } catch (e) {
+        setMicUI(false, "start failed");
+        console.error(e);
+      }
+    }
+
+    function stopRecog(skipFlag=false) {
+      try { recog && recog.stop(); } catch(e){}
+      if (!skipFlag) listening = false;
+      setMicUI(false, "stopped");
+    }
+
+    btnMic.addEventListener("click", ()=>{
+      if (!listening) {
+        finalBuffer = finalBuffer.trim();
+        interimBuffer = "";
+        appendTranscript();
+        listening = true;
+        startRecog();
+      } else {
+        stopRecog();
+      }
+    });
+
+    // Make the transcription window draggable by its header
+    (function enableDrag(){
+      const panel = document.getElementById("float");
+      const drag = document.getElementById("floatDrag");
+      let isDown=false, ox=0, oy=0, sx=0, sy=0;
+      drag.addEventListener("pointerdown",(e)=>{ isDown=true; sx=e.clientX; sy=e.clientY; const r=panel.getBoundingClientRect(); ox=r.left; oy=r.top; panel.setPointerCapture(e.pointerId); });
+      drag.addEventListener("pointermove",(e)=>{ if(!isDown) return; const dx=e.clientX-sx, dy=e.clientY-sy; panel.style.left=(ox+dx)+"px"; panel.style.top=(oy+dy)+"px"; });
+      drag.addEventListener("pointerup",(e)=>{ isDown=false; panel.releasePointerCapture(e.pointerId); });
+    })();
+  </script>
+</body>
+</html>
+```
+
+### escuchad2
+<small>Creado: 2025-12-23 15:24</small>
+
+`007-escuchad2.html`
+
+```html
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Avatar + Face Follow + Stable Mic</title>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="icon" href="data:,">
+
+<!-- Import map to resolve the bare specifier "three" used by GLTFLoader -->
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.160/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160/examples/jsm/"
+  }
+}
+</script>
+
+<style>
+  html, body { margin:0; height:100%; overflow:hidden; background:#0e0f13; color:#e9eef3; font-family:system-ui, Segoe UI, Roboto, Ubuntu, Cantarell; }
+  #stage { position:fixed; inset:0; }
+
+  :root { --preview-w:260px; --preview-h:195px; }
+  .preview {
+    position:fixed; right:16px; bottom:16px; width:var(--preview-w); height:var(--preview-h);
+    border-radius:12px; overflow:hidden; box-shadow:0 8px 24px rgba(0,0,0,.45);
+    border:1px solid rgba(255,255,255,.08); background:#14161d; z-index:10;
+  }
+  .preview video, .preview canvas { position:absolute; width:100%; height:100%; object-fit:cover; }
+  .preview video { transform:scaleX(-1); }
+  .header { position:absolute; inset:0 0 auto 0; height:28px; background:linear-gradient(180deg, rgba(0,0,0,.55), transparent);
+    font-size:12px; display:flex; align-items:center; gap:8px; padding:0 10px; color:#c9d2db; }
+  .dot { width:8px; height:8px; border-radius:50%; background:#e74c3c; box-shadow:0 0 10px rgba(231,76,60,.8); }
+
+  .hud {
+    position:fixed; top:12px; left:12px; z-index:20; background:rgba(20,22,29,.75);
+    border:1px solid rgba(255,255,255,.12); padding:10px 12px; border-radius:10px; font-size:13px; display:flex; align-items:center; gap:10px;
+  }
+  .btn { appearance:none; border:1px solid rgba(255,255,255,.18); background:#1e2230; color:#e9eef3; padding:6px 10px; border-radius:8px; font-size:13px; cursor:pointer; }
+  .btn[aria-pressed="true"] { background:#2a3550; border-color:#6aa1ff; }
+  .status { font-size:12px; opacity:0.8 }
+  .kbd { background:rgba(255,255,255,.08); border:1px solid rgba(255,255,255,.15); padding:1px 6px; border-radius:6px; font-family:ui-monospace,monospace; font-size:12px; }
+
+  /* Floating transcription window */
+  .float {
+    position:fixed; left:16px; bottom:16px; width:min(520px, 46vw); height:220px; z-index:25;
+    background:rgba(14,17,23,.9); border:1px solid rgba(255,255,255,.12); border-radius:12px; backdrop-filter: blur(6px);
+    box-shadow: 0 10px 30px rgba(0,0,0,.45); display:flex; flex-direction:column; resize: both; overflow: hidden;
+  }
+  .float-header { user-select:none; cursor:move; padding:8px 10px; display:flex; align-items:center; justify-content:space-between;
+    font-size:12px; background:linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,0)); }
+  .float-body { padding:8px 10px; overflow:auto; white-space:pre-wrap; font-size:13px; line-height:1.35; }
+  .pill { display:inline-block; padding:2px 8px; border-radius:999px; border:1px solid rgba(255,255,255,.18); font-size:11px; opacity:.9 }
+  .pulse { animation:pulse 1.2s infinite; }
+  @keyframes pulse { 0%{opacity:.4} 50%{opacity:1} 100%{opacity:.4} }
+</style>
+</head>
+<body>
+  <div id="stage"></div>
+
+  <!-- Mic HUD -->
+  <div class="hud">
+    <button id="btnMic" class="btn" aria-pressed="false">🎤 Start</button>
+    <span class="status" id="micStatus">idle</span>
+    <span class="status">Lang: <span class="kbd" id="langTag">es-ES</span> • Toggle bbox: <span class="kbd">B</span></span>
+  </div>
+
+  <!-- Floating transcription window -->
+  <div class="float" id="float">
+    <div class="float-header" id="floatDrag">
+      <strong>Transcripción</strong>
+      <span id="recPill" class="pill">mic: <span>off</span></span>
+    </div>
+    <div class="float-body" id="transcript"></div>
+  </div>
+
+  <!-- Webcam preview -->
+  <div class="preview">
+    <div class="header"><span class="dot" id="camDot"></span> Webcam</div>
+    <video id="vid" autoplay playsinline muted></video>
+    <canvas id="overlay" width="640" height="480" style="display:none"></canvas>
+  </div>
+
+  <script type="module">
+    import * as THREE from "three";
+    import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
+    import { FaceDetector, FilesetResolver } from "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.3";
+
+    /* ---------- THREE.JS + AVATAR ---------- */
+    const container = document.getElementById("stage");
+    const renderer  = new THREE.WebGLRenderer({ antialias:true });
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.outputColorSpace = THREE.SRGBColorSpace;
+    renderer.toneMapping = THREE.ACESFilmicToneMapping;
+    renderer.shadowMap.enabled = true;
+    container.appendChild(renderer.domElement);
+
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0x0e0f13);
+
+    const camera = new THREE.PerspectiveCamera(10, window.innerWidth/window.innerHeight, 0.1, 100);
+    camera.position.set(0, 1.3, 3);
+
+    scene.add(new THREE.HemisphereLight(0xffffff, 0x334455, 0.6));
+    const dir = new THREE.DirectionalLight(0xffffff, 1);
+    dir.position.set(3,5,5);
+    dir.castShadow = true;
+    scene.add(dir);
+
+    const ground = new THREE.Mesh(
+      new THREE.PlaneGeometry(20,20),
+      new THREE.MeshStandardMaterial({ color:0x0f1116, roughness:0.95, metalness:0 })
+    );
+    ground.rotation.x = -Math.PI/2;
+    ground.receiveShadow = true;
+    scene.add(ground);
+
+    const avatarRoot = new THREE.Group();
+    avatarRoot.position.set(0, 1.0, 0);
+    scene.add(avatarRoot);
+
+    let avatar;
+    new GLTFLoader().load("./avatar.glb", (gltf)=>{
+      avatar = gltf.scene;
+      avatar.traverse(o=>{ if(o.isMesh){ o.castShadow = true; o.receiveShadow = true; }});
+      // Face camera if needed
+      avatar.rotation.y = Math.PI;
+
+      // Normalize size and center
+      const box = new THREE.Box3().setFromObject(avatar);
+      const size = new THREE.Vector3(); box.getSize(size);
+      const scale = 1.2 / Math.max(size.x, size.y, size.z);
+      avatar.scale.setScalar(scale);
+      const center = new THREE.Vector3(); box.getCenter(center);
+      avatar.position.sub(center.multiplyScalar(scale));
+
+      avatarRoot.add(avatar);
+    });
+
+    window.addEventListener("resize", ()=>{
+      camera.aspect = window.innerWidth / window.innerHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+    });
+
+    /* ---------- MEDIAPIPE FACE FOLLOW ---------- */
+    const video   = document.getElementById("vid");
+    const overlay = document.getElementById("overlay");
+    const octx    = overlay.getContext("2d");
+    const camDot  = document.getElementById("camDot");
+
+    let showBBox = false;
+    window.addEventListener("keydown", (e)=>{
+      if (e.key.toLowerCase() === "b") {
+        showBBox = !showBBox;
+        overlay.style.display = showBBox ? "block" : "none";
+      }
+    });
+
+    const smoother = (alpha=0.18)=>{
+      let sx=null, sy=null;
+      return (x,y)=>{ if(sx==null){sx=x; sy=y;} sx += alpha*(x-sx); sy += alpha*(y-sy); return [sx,sy]; };
+    };
+    const smoothXY = smoother(0.18);
+
+    async function setupCam(){
+      const stream = await navigator.mediaDevices.getUserMedia({ video: { width:640, height:480 } });
+      video.srcObject = stream;
+      await video.play();
+    }
+
+    const vision = await FilesetResolver.forVisionTasks(
+      "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.3/wasm"
+    );
+    const detector = await FaceDetector.createFromOptions(vision, {
+      baseOptions: {
+        modelAssetPath: "https://storage.googleapis.com/mediapipe-models/face_detector/blaze_face_short_range/float16/1/blaze_face_short_range.tflite"
+      },
+      runningMode: "VIDEO",
+      minDetectionConfidence: 0.5
+    });
+
+    await setupCam();
+
+    function drawBox(bb){
+      const W = overlay.width = 640, H = overlay.height = 480;
+      octx.clearRect(0,0,W,H);
+      const x = W - (bb.originX + bb.width); // mirrored preview
+      const y = bb.originY;
+      octx.strokeStyle = "rgba(0,200,255,0.9)";
+      octx.lineWidth = 2;
+      octx.strokeRect(x,y,bb.width,bb.height);
+    }
+
+    // Rotation mapping with multipliers & inversion
+    const yawMax   = THREE.MathUtils.degToRad(20);
+    const pitchMax = THREE.MathUtils.degToRad(12);
+    const yawMultiplier   = 1.2;    // sensitivity left-right
+    const pitchMultiplier = 1.5;    // sensitivity up-down
+    const invertYaw       = 1;      // set -1 to invert horizontal
+    const invertPitch     = 1;      // set -1 to invert vertical
+
+    const clamp = (v,min,max)=> Math.max(min, Math.min(max, v));
+    const current = { x:0, y:0 };
+    const lerp = (a,b,t)=> a + (b - a) * t;
+
+    function animate(){
+      requestAnimationFrame(animate);
+      renderer.render(scene, camera);
+      avatarRoot.rotation.x = lerp(avatarRoot.rotation.x, current.x, 0.15);
+      avatarRoot.rotation.y = lerp(avatarRoot.rotation.y, current.y, 0.15);
+    }
+    animate();
+
+    function tick(){
+      const now = performance.now();
+      const res = detector.detectForVideo(video, now);
+      if (res?.detections?.length) {
+        const best = res.detections.reduce((a,b)=>(a.categories?.[0]?.score||0)>=(b.categories?.[0]?.score||0)?a:b);
+        const bb = best.boundingBox;
+
+        const cx = (bb.originX + bb.width*0.5) / video.videoWidth;
+        const cy = (bb.originY + bb.height*0.5) / video.videoHeight;
+
+        const mx = 1 - cx, my = cy;              // mirror X for selfie preview
+        const [sx, sy] = smoothXY(mx, my);
+
+        const dx = sx - 0.5;                     // -0.5..+0.5
+        const dy = sy - 0.5;
+
+        current.y = clamp(invertYaw   * dx * 2 * yawMax   * yawMultiplier,   -yawMax,   yawMax);
+        current.x = clamp(invertPitch * dy * 2 * pitchMax * pitchMultiplier, -pitchMax, pitchMax);
+
+        camDot.style.background = "#2ecc71";
+        camDot.style.boxShadow  = "0 0 10px rgba(46,204,113,.9)";
+        if (showBBox) drawBox(bb); else octx.clearRect(0,0,overlay.width,overlay.height);
+      } else {
+        current.x = lerp(current.x, 0, 0.05);
+        current.y = lerp(current.y, 0, 0.05);
+        camDot.style.background = "#e74c3c";
+        camDot.style.boxShadow  = "0 0 10px rgba(231,76,60,.8)";
+        octx.clearRect(0,0,overlay.width,overlay.height);
+      }
+      requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+
+    /* ---------- STABLE ACTIVE LISTENING (Web Speech API) ---------- */
+    const btnMic = document.getElementById("btnMic");
+    const micStatus = document.getElementById("micStatus");
+    const langTag = document.getElementById("langTag");
+    const recPill = document.getElementById("recPill");
+    const transcriptEl = document.getElementById("transcript");
+
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    let recog = null;
+
+    // mini state machine: 'idle' | 'starting' | 'running' | 'stopping'
+    let state = 'idle';
+    let shouldRestart = false;
+    let restartTimer = null;
+
+    let interimBuffer = "";
+    let finalBuffer = "";
+
+    function setMicUI(active, note="") {
+      btnMic.setAttribute("aria-pressed", active ? "true" : "false");
+      btnMic.textContent = active ? "🛑 Stop" : "🎤 Start";
+      micStatus.textContent = note || (active ? "listening…" : "idle");
+      recPill.innerHTML = active ? 'mic: <span class="pulse">on</span>' : 'mic: <span>off</span>';
+    }
+
+    function appendTranscript() {
+      transcriptEl.textContent = (finalBuffer + (interimBuffer ? "\n" + interimBuffer : "")).trim();
+      transcriptEl.scrollTop = transcriptEl.scrollHeight;
+    }
+
+    function ensureRecog() {
+      if (!SpeechRecognition) {
+        setMicUI(false, "SpeechRecognition not supported");
+        alert("Tu navegador no soporta Web Speech API. Usa Chrome reciente.");
+        return null;
+      }
+      if (!recog) {
+        recog = new SpeechRecognition();
+        recog.lang = "es-ES";              // change if needed
+        langTag.textContent = recog.lang;
+        recog.continuous = true;
+        recog.interimResults = true;
+
+        recog.onstart = () => {
+          state = 'running';
+          setMicUI(true);                  // keep UI steady on auto-restarts
+        };
+
+        recog.onresult = (ev) => {
+          interimBuffer = "";
+          for (let i = ev.resultIndex; i < ev.results.length; i++) {
+            const res = ev.results[i];
+            const text = res[0].transcript.trim();
+            if (res.isFinal) finalBuffer += (finalBuffer ? " " : "") + text;
+            else interimBuffer = text;
+          }
+          appendTranscript();
+        };
+
+        recog.onerror = (e) => {
+          micStatus.textContent = `error: ${e.error}`;
+          // Let onend decide whether to restart
+        };
+
+        recog.onend = () => {
+          if (state === 'stopping') {       // explicit stop
+            state = 'idle';
+            setMicUI(false, "stopped");
+            return;
+          }
+          // Natural end (silence, network). Restart quietly if allowed.
+          if (shouldRestart) {
+            clearTimeout(restartTimer);
+            restartTimer = setTimeout(() => {
+              if (shouldRestart && state !== 'starting' && state !== 'running') {
+                try { state = 'starting'; recog.start(); } catch (_) {}
+              }
+            }, 250);
+          } else {
+            state = 'idle';
+            setMicUI(false, "idle");
+          }
+        };
+      }
+      return recog;
+    }
+
+    function startRecog() {
+      const r = ensureRecog();
+      if (!r) return;
+      if (state !== 'idle') return;         // debounce: only start from idle
+      shouldRestart = true;
+      clearTimeout(restartTimer);
+      try {
+        state = 'starting';
+        micStatus.textContent = "starting…";
+        r.start();
+      } catch (e) {
+        state = 'idle';
+        micStatus.textContent = "start failed";
+        console.error(e);
+      }
+    }
+
+    function stopRecog() {
+      shouldRestart = false;                // block any scheduled restarts
+      clearTimeout(restartTimer);
+      if (!recog) { setMicUI(false, "stopped"); state='idle'; return; }
+      if (state === 'idle') { setMicUI(false, "stopped"); return; }
+      state = 'stopping';
+      try { recog.abort(); } catch (_) {}   // ends immediately; onend will finalize
+      setMicUI(false, "stopped");
+    }
+
+    btnMic.addEventListener("click", () => {
+      if (state === 'idle') {
+        interimBuffer = "";
+        // finalBuffer = ""; // uncomment to clear history on each new session
+        appendTranscript();
+        startRecog();
+      } else {
+        stopRecog();
+      }
+    });
+
+    // Draggable transcription window
+    (function enableDrag(){
+      const panel = document.getElementById("float");
+      const drag = document.getElementById("floatDrag");
+      let isDown=false, ox=0, oy=0, sx=0, sy=0;
+      drag.addEventListener("pointerdown",(e)=>{ isDown=true; sx=e.clientX; sy=e.clientY; const r=panel.getBoundingClientRect(); ox=r.left; oy=r.top; panel.setPointerCapture(e.pointerId); });
+      drag.addEventListener("pointermove",(e)=>{ if(!isDown) return; const dx=e.clientX-sx, dy=e.clientY-sy; panel.style.left=(ox+dx)+"px"; panel.style.top=(oy+dy)+"px"; });
+      drag.addEventListener("pointerup",(e)=>{ isDown=false; try{ panel.releasePointerCapture(e.pointerId); }catch(_){} });
+    })();
+  </script>
+</body>
+</html>
+```
+
+### habla
+<small>Creado: 2025-12-23 15:24</small>
+
+`008-habla.html`
+
+```html
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Avatar + Face Follow + Conversación simulada</title>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="icon" href="data:,">
+
+<!-- Import map for Three.js -->
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.160/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160/examples/jsm/"
+  }
+}
+</script>
+
+<style>
+  html, body { margin:0; height:100%; overflow:hidden; background:#0e0f13; color:#e9eef3; font-family:system-ui, Segoe UI, Roboto, Ubuntu, Cantarell; }
+  #stage { position:fixed; inset:0; }
+
+  :root { --preview-w:260px; --preview-h:195px; }
+  .preview {
+    position:fixed; right:16px; bottom:16px; width:var(--preview-w); height:var(--preview-h);
+    border-radius:12px; overflow:hidden; box-shadow:0 8px 24px rgba(0,0,0,.45);
+    border:1px solid rgba(255,255,255,.08); background:#14161d; z-index:10;
+  }
+  .preview video, .preview canvas { position:absolute; width:100%; height:100%; object-fit:cover; }
+  .preview video { transform:scaleX(-1); }
+  .header { position:absolute; inset:0 0 auto 0; height:28px; background:linear-gradient(180deg, rgba(0,0,0,.55), transparent);
+    font-size:12px; display:flex; align-items:center; gap:8px; padding:0 10px; color:#c9d2db; }
+  .dot { width:8px; height:8px; border-radius:50%; background:#e74c3c; box-shadow:0 0 10px rgba(231,76,60,.8); }
+
+  .hud {
+    position:fixed; top:12px; left:12px; z-index:20; background:rgba(20,22,29,.75);
+    border:1px solid rgba(255,255,255,.12); padding:10px 12px; border-radius:10px; font-size:13px; display:flex; align-items:center; gap:10px;
+  }
+  .btn { appearance:none; border:1px solid rgba(255,255,255,.18); background:#1e2230; color:#e9eef3; padding:6px 10px; border-radius:8px; font-size:13px; cursor:pointer; }
+  .btn[aria-pressed="true"] { background:#2a3550; border-color:#6aa1ff; }
+  .status { font-size:12px; opacity:0.8 }
+  .kbd { background:rgba(255,255,255,.08); border:1px solid rgba(255,255,255,.15); padding:1px 6px; border-radius:6px; font-family:ui-monospace,monospace; font-size:12px; }
+
+  /* Floating transcription window */
+  .float {
+    position:fixed; left:16px; bottom:16px; width:min(560px, 46vw); height:260px; z-index:25;
+    background:rgba(14,17,23,.9); border:1px solid rgba(255,255,255,.12); border-radius:12px; backdrop-filter: blur(6px);
+    box-shadow: 0 10px 30px rgba(0,0,0,.45); display:flex; flex-direction:column; resize: both; overflow: hidden;
+  }
+  .float-header { user-select:none; cursor:move; padding:8px 10px; display:flex; align-items:center; justify-content:space-between;
+    font-size:12px; background:linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,0)); }
+  .float-body { padding:8px 10px; overflow:auto; font-size:13px; line-height:1.35; }
+  .pill { display:inline-block; padding:2px 8px; border-radius:999px; border:1px solid rgba(255,255,255,.18); font-size:11px; opacity:.9 }
+  .pulse { animation:pulse 1.2s infinite; }
+  @keyframes pulse { 0%{opacity:.4} 50%{opacity:1} 100%{opacity:.4} }
+  .u { color:#9ad1ff }   /* user color */
+  .b { color:#ffd28b }   /* bot color */
+</style>
+</head>
+<body>
+  <div id="stage"></div>
+
+  <!-- Mic HUD -->
+  <div class="hud">
+    <button id="btnMic" class="btn" aria-pressed="false">🎤 Start</button>
+    <span class="status" id="micStatus">idle</span>
+    <span class="status">Lang: <span class="kbd" id="langTag">es-ES</span> • Toggle bbox: <span class="kbd">B</span></span>
+  </div>
+
+  <!-- Floating transcription window -->
+  <div class="float" id="float">
+    <div class="float-header" id="floatDrag">
+      <strong>Transcripción</strong>
+      <span id="recPill" class="pill">mic: <span>off</span></span>
+    </div>
+    <div class="float-body" id="transcript"></div>
+  </div>
+
+  <!-- Webcam preview -->
+  <div class="preview">
+    <div class="header"><span class="dot" id="camDot"></span> Webcam</div>
+    <video id="vid" autoplay playsinline muted></video>
+    <canvas id="overlay" width="640" height="480" style="display:none"></canvas>
+  </div>
+
+  <script type="module">
+    import * as THREE from "three";
+    import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
+    import { FaceDetector, FilesetResolver } from "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.3";
+
+    /* ---------- THREE.JS + AVATAR ---------- */
+    const container = document.getElementById("stage");
+    const renderer  = new THREE.WebGLRenderer({ antialias:true });
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.outputColorSpace = THREE.SRGBColorSpace;
+    renderer.toneMapping = THREE.ACESFilmicToneMapping;
+    renderer.shadowMap.enabled = true;
+    container.appendChild(renderer.domElement);
+
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0x0e0f13);
+
+    const camera = new THREE.PerspectiveCamera(10, window.innerWidth/window.innerHeight, 0.1, 100);
+    camera.position.set(0, 1.3, 3);
+
+    scene.add(new THREE.HemisphereLight(0xffffff, 0x334455, 0.6));
+    const dir = new THREE.DirectionalLight(0xffffff, 1);
+    dir.position.set(3,5,5);
+    dir.castShadow = true;
+    scene.add(dir);
+
+    const ground = new THREE.Mesh(
+      new THREE.PlaneGeometry(20,20),
+      new THREE.MeshStandardMaterial({ color:0x0f1116, roughness:0.95, metalness:0 })
+    );
+    ground.rotation.x = -Math.PI/2;
+    ground.receiveShadow = true;
+    scene.add(ground);
+
+    const avatarRoot = new THREE.Group();
+    avatarRoot.position.set(0, 1.0, 0);
+    scene.add(avatarRoot);
+
+    let avatar;
+    new GLTFLoader().load("./avatar.glb", (gltf)=>{
+      avatar = gltf.scene;
+      avatar.traverse(o=>{ if(o.isMesh){ o.castShadow = true; o.receiveShadow = true; }});
+      avatar.rotation.y = Math.PI; // ajusta si tu modelo ya mira al frente
+
+      // Normaliza tamaño y centra
+      const box = new THREE.Box3().setFromObject(avatar);
+      const size = new THREE.Vector3(); box.getSize(size);
+      const scale = 1.2 / Math.max(size.x, size.y, size.z);
+      avatar.scale.setScalar(scale);
+      const center = new THREE.Vector3(); box.getCenter(center);
+      avatar.position.sub(center.multiplyScalar(scale));
+
+      avatarRoot.add(avatar);
+    });
+
+    window.addEventListener("resize", ()=>{
+      camera.aspect = window.innerWidth / window.innerHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+    });
+
+    /* ---------- MEDIAPIPE FACE FOLLOW ---------- */
+    const video   = document.getElementById("vid");
+    const overlay = document.getElementById("overlay");
+    const octx    = overlay.getContext("2d");
+    const camDot  = document.getElementById("camDot");
+
+    let showBBox = false;
+    window.addEventListener("keydown", (e)=>{
+      if (e.key.toLowerCase() === "b") {
+        showBBox = !showBBox;
+        overlay.style.display = showBBox ? "block" : "none";
+      }
+    });
+
+    const smoother = (alpha=0.18)=>{
+      let sx=null, sy=null;
+      return (x,y)=>{ if(sx==null){sx=x; sy=y;} sx += alpha*(x-sx); sy += alpha*(y-sy); return [sx,sy]; };
+    };
+    const smoothXY = smoother(0.18);
+
+    async function setupCam(){
+      const stream = await navigator.mediaDevices.getUserMedia({ video: { width:640, height:480 } });
+      video.srcObject = stream;
+      await video.play();
+    }
+
+    const vision = await FilesetResolver.forVisionTasks(
+      "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.3/wasm"
+    );
+    const detector = await FaceDetector.createFromOptions(vision, {
+      baseOptions: {
+        modelAssetPath: "https://storage.googleapis.com/mediapipe-models/face_detector/blaze_face_short_range/float16/1/blaze_face_short_range.tflite"
+      },
+      runningMode: "VIDEO",
+      minDetectionConfidence: 0.5
+    });
+
+    await setupCam();
+
+    function drawBox(bb){
+      const W = overlay.width = 640, H = overlay.height = 480;
+      octx.clearRect(0,0,W,H);
+      const x = W - (bb.originX + bb.width); // espejo horizontal
+      const y = bb.originY;
+      octx.strokeStyle = "rgba(0,200,255,0.9)";
+      octx.lineWidth = 2;
+      octx.strokeRect(x,y,bb.width,bb.height);
+    }
+
+    // Rotación del avatar
+    const yawMax   = THREE.MathUtils.degToRad(20);
+    const pitchMax = THREE.MathUtils.degToRad(12);
+    const yawMultiplier   = 1.2;
+    const pitchMultiplier = 1.5;
+    const invertYaw       = 1;
+    const invertPitch     = 1;
+
+    const clamp = (v,min,max)=> Math.max(min, Math.min(max, v));
+    const current = { x:0, y:0 };
+    const lerp = (a,b,t)=> a + (b - a) * t;
+
+    function animate(){
+      requestAnimationFrame(animate);
+      renderer.render(scene, camera);
+      avatarRoot.rotation.x = lerp(avatarRoot.rotation.x, current.x, 0.15);
+      avatarRoot.rotation.y = lerp(avatarRoot.rotation.y, current.y, 0.15);
+    }
+    animate();
+
+    function tick(){
+      const now = performance.now();
+      const res = detector.detectForVideo(video, now);
+      if (res?.detections?.length) {
+        const best = res.detections.reduce((a,b)=>(a.categories?.[0]?.score||0)>=(b.categories?.[0]?.score||0)?a:b);
+        const bb = best.boundingBox;
+
+        const cx = (bb.originX + bb.width*0.5) / video.videoWidth;
+        const cy = (bb.originY + bb.height*0.5) / video.videoHeight;
+
+        const mx = 1 - cx, my = cy;          // espejo para vista selfie
+        const [sx, sy] = smoothXY(mx, my);
+
+        const dx = sx - 0.5;
+        const dy = sy - 0.5;
+
+        current.y = clamp(invertYaw   * dx * 2 * yawMax   * yawMultiplier,   -yawMax,   yawMax);
+        current.x = clamp(invertPitch * dy * 2 * pitchMax * pitchMultiplier, -pitchMax, pitchMax);
+
+        camDot.style.background = "#2ecc71";
+        camDot.style.boxShadow  = "0 0 10px rgba(46,204,113,.9)";
+        if (showBBox) drawBox(bb); else octx.clearRect(0,0,overlay.width,overlay.height);
+      } else {
+        current.x = lerp(current.x, 0, 0.05);
+        current.y = lerp(current.y, 0, 0.05);
+        camDot.style.background = "#e74c3c";
+        camDot.style.boxShadow  = "0 0 10px rgba(231,76,60,.8)";
+        octx.clearRect(0,0,overlay.width,overlay.height);
+      }
+      requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+
+    /* ---------- CONVERSACIÓN SIMULADA (ASR + TTS) ---------- */
+    const btnMic       = document.getElementById("btnMic");
+    const micStatus    = document.getElementById("micStatus");
+    const langTag      = document.getElementById("langTag");
+    const recPill      = document.getElementById("recPill");
+    const transcriptEl = document.getElementById("transcript");
+
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    const synth = window.speechSynthesis;
+
+    // Estados: 'idle' | 'listening' | 'speaking' | 'stopping'
+    let recog = null, state = 'idle', shouldRestart = false;
+    let interimText = "", stackText = ""; // lo que dices (parciales y acumulado)
+    let pauseTimer = null;
+    const PAUSE_MS = 3000; // 3s → fin de turno
+
+    function setMicUI(active, note="") {
+      btnMic.setAttribute("aria-pressed", active ? "true" : "false");
+      btnMic.textContent = active ? "🛑 Stop" : "🎤 Start";
+      micStatus.textContent = note || (active ? "listening…" : "idle");
+      recPill.innerHTML = active ? 'mic: <span class="pulse">on</span>' : 'mic: <span>off</span>';
+    }
+
+    function addLine(html) {
+      const p = document.createElement("div");
+      p.innerHTML = html;
+      transcriptEl.appendChild(p);
+      transcriptEl.scrollTop = transcriptEl.scrollHeight;
+    }
+
+    function updateLiveView() {
+      // muestra el parcial en la última línea “usuario (en curso)”
+      const last = transcriptEl.lastElementChild;
+      if (last && last.dataset?.live === "1") {
+        last.textContent = interimText;
+      } else {
+        const p = document.createElement("div");
+        p.dataset.live = "1";
+        p.className = "u";
+        p.textContent = interimText;
+        transcriptEl.appendChild(p);
+      }
+      transcriptEl.scrollTop = transcriptEl.scrollHeight;
+    }
+
+    function finalizeUserTurn(text) {
+      // elimina la línea live y añade línea final
+      const last = transcriptEl.lastElementChild;
+      if (last && last.dataset?.live === "1") last.remove();
+      if (text.trim()) addLine(`<span class="u">👤 ${text}</span>`);
+    }
+
+    function ensureRecog() {
+      if (!SpeechRecognition) {
+        alert("Tu navegador no soporta Web Speech API. Usa Chrome reciente.");
+        return null;
+      }
+      if (!recog) {
+        recog = new SpeechRecognition();
+        recog.lang = "es-ES";
+        langTag.textContent = recog.lang;
+        recog.continuous = true;
+        recog.interimResults = true;
+
+        recog.onstart = () => {
+          state = 'listening';
+          setMicUI(true, "listening…");
+        };
+
+        recog.onresult = (ev) => {
+          // reinicia contador de pausa con cada resultado
+          clearTimeout(pauseTimer);
+          pauseTimer = setTimeout(onPauseDetected, PAUSE_MS);
+
+          interimText = "";
+          for (let i = ev.resultIndex; i < ev.results.length; i++) {
+            const res = ev.results[i];
+            const t = res[0].transcript.trim();
+            if (res.isFinal) {
+              stackText += (stackText ? " " : "") + t;   // 1) acumula
+            } else {
+              interimText = t;                           // parcial en vivo
+            }
+          }
+          if (interimText) updateLiveView();
+        };
+
+        // Ignora errores transitorios
+        recog.onerror = (e) => {
+          if (["network","no-speech","aborted"].includes(e.error)) return;
+          micStatus.textContent = `error: ${e.error}`;
+        };
+
+        recog.onend = () => {
+          // Si estamos hablando (TTS) o en parada explícita, no relanzar
+          if (state === 'speaking' || state === 'stopping') return;
+          // Si queremos seguir escuchando, reinicia
+          if (shouldRestart) {
+            try { recog.start(); } catch (_) {}
+          } else {
+            state = 'idle'; setMicUI(false, "idle");
+          }
+        };
+      }
+      return recog;
+    }
+
+    function startListening() {
+      if (state !== 'idle') return;
+      const r = ensureRecog(); if (!r) return;
+      shouldRestart = true;
+      stackText = ""; interimText = "";
+      try { state = 'listening'; r.start(); } catch (_) {}
+    }
+
+    function stopListening() {
+      shouldRestart = false;
+      clearTimeout(pauseTimer);
+      if (recog && state !== 'idle') { state = 'stopping'; try { recog.abort(); } catch (_) {} }
+      setMicUI(false, "stopped");
+      state = 'idle';
+    }
+
+    function onPauseDetected() {
+      clearTimeout(pauseTimer);
+      // 2) se detecta pausa de 3s => finaliza turno si hay contenido
+      const text = (stackText || "").trim();
+      if (!text) { // nada que decir: seguir escuchando
+        pauseTimer = setTimeout(onPauseDetected, PAUSE_MS);
+        return;
+      }
+      // Cierra micro para no captar el TTS
+      shouldRestart = false;
+      if (recog) { try { recog.abort(); } catch (_) {} }
+      finalizeUserTurn(text);
+
+      // 3) habla de vuelta lo escuchado
+      speakThenResume(text);
+      // 5) reinicia el stack
+      stackText = "";
+      interimText = "";
+    }
+
+    function speakThenResume(text) {
+      if (!text.trim()) { startListening(); return; }
+      const utter = new SpeechSynthesisUtterance(text);
+      utter.lang = "es-ES"; // ajusta idioma si quieres
+      utter.rate = 1.0; utter.pitch = 1.0; utter.volume = 1.0;
+
+      utter.onstart = () => {
+        state = 'speaking';
+        setMicUI(false, "speaking…");
+        addLine(`<span class="b">🤖 ${text}</span>`);
+      };
+      utter.onend = () => {
+        // 4) al terminar de hablar, abre micro otra vez
+        state = 'idle';
+        startListening();
+      };
+      utter.onerror = () => {
+        state = 'idle';
+        startListening();
+      };
+
+      // Cancela cualquier TTS previo y habla
+      try { window.speechSynthesis.cancel(); } catch(_){}
+      window.speechSynthesis.speak(utter);
+    }
+
+    // Botón de control
+    btnMic.addEventListener("click", ()=>{
+      if (state === 'idle') startListening();
+      else {
+        // Si estaba hablando, corta TTS también
+        try { window.speechSynthesis.cancel(); } catch(_){}
+        stopListening();
+      }
+    });
+
+    // Ventana flotante arrastrable
+    (function enableDrag(){
+      const panel = document.getElementById("float");
+      const drag = document.getElementById("floatDrag");
+      let isDown=false, ox=0, oy=0, sx=0, sy=0;
+      drag.addEventListener("pointerdown",(e)=>{ isDown=true; sx=e.clientX; sy=e.clientY; const r=panel.getBoundingClientRect(); ox=r.left; oy=r.top; panel.setPointerCapture(e.pointerId); });
+      drag.addEventListener("pointermove",(e)=>{ if(!isDown) return; const dx=e.clientX-sx, dy=e.clientY-sy; panel.style.left=(ox+dx)+"px"; panel.style.top=(oy+dy)+"px"; });
+      drag.addEventListener("pointerup",(e)=>{ isDown=false; try{ panel.releasePointerCapture(e.pointerId); }catch(_){} });
+    })();
+  </script>
+</body>
+</html>
+```
+
+### escoger voz
+<small>Creado: 2025-12-23 15:24</small>
+
+`009-escoger voz.html`
+
+```html
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<title>Avatar + Face Follow + Conversación simulada (voz femenina)</title>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="icon" href="data:,">
+
+<!-- Import map for Three.js -->
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.160/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160/examples/jsm/"
+  }
+}
+</script>
+
+<style>
+  html, body { margin:0; height:100%; overflow:hidden; background:#0e0f13; color:#e9eef3; font-family:system-ui, Segoe UI, Roboto, Ubuntu, Cantarell; }
+  #stage { position:fixed; inset:0; }
+
+  :root { --preview-w:260px; --preview-h:195px; }
+  .preview {
+    position:fixed; right:16px; bottom:16px; width:var(--preview-w); height:var(--preview-h);
+    border-radius:12px; overflow:hidden; box-shadow:0 8px 24px rgba(0,0,0,.45);
+    border:1px solid rgba(255,255,255,.08); background:#14161d; z-index:10;
+  }
+  .preview video, .preview canvas { position:absolute; width:100%; height:100%; object-fit:cover; }
+  .preview video { transform:scaleX(-1); }
+  .header { position:absolute; inset:0 0 auto 0; height:28px; background:linear-gradient(180deg, rgba(0,0,0,.55), transparent);
+    font-size:12px; display:flex; align-items:center; gap:8px; padding:0 10px; color:#c9d2db; }
+  .dot { width:8px; height:8px; border-radius:50%; background:#e74c3c; box-shadow:0 0 10px rgba(231,76,60,.8); }
+
+  .hud {
+    position:fixed; top:12px; left:12px; z-index:20; background:rgba(20,22,29,.75);
+    border:1px solid rgba(255,255,255,.12); padding:10px 12px; border-radius:10px; font-size:13px; display:flex; align-items:center; gap:10px; flex-wrap:wrap;
+  }
+  .btn { appearance:none; border:1px solid rgba(255,255,255,.18); background:#1e2230; color:#e9eef3; padding:6px 10px; border-radius:8px; font-size:13px; cursor:pointer; }
+  .btn[aria-pressed="true"] { background:#2a3550; border-color:#6aa1ff; }
+  .status { font-size:12px; opacity:0.85 }
+  .kbd { background:rgba(255,255,255,.08); border:1px solid rgba(255,255,255,.15); padding:1px 6px; border-radius:6px; font-family:ui-monospace,monospace; font-size:12px; }
+  select.kbd { color:#e9eef3; }
+
+  /* Floating transcription window */
+  .float {
+    position:fixed; left:16px; bottom:16px; width:min(560px, 46vw); height:260px; z-index:25;
+    background:rgba(14,17,23,.9); border:1px solid rgba(255,255,255,.12); border-radius:12px; backdrop-filter: blur(6px);
+    box-shadow: 0 10px 30px rgba(0,0,0,.45); display:flex; flex-direction:column; resize: both; overflow: hidden;
+  }
+  .float-header { user-select:none; cursor:move; padding:8px 10px; display:flex; align-items:center; justify-content:space-between;
+    font-size:12px; background:linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,0)); }
+  .float-body { padding:8px 10px; overflow:auto; font-size:13px; line-height:1.35; }
+  .pill { display:inline-block; padding:2px 8px; border-radius:999px; border:1px solid rgba(255,255,255,.18); font-size:11px; opacity:.9 }
+  .pulse { animation:pulse 1.2s infinite; }
+  @keyframes pulse { 0%{opacity:.4} 50%{opacity:1} 100%{opacity:.4} }
+  .u { color:#9ad1ff }   /* user */
+  .b { color:#ffd28b }   /* bot */
+</style>
+</head>
+<body>
+  <div id="stage"></div>
+
+  <!-- Mic HUD -->
+  <div class="hud">
+    <button id="btnMic" class="btn" aria-pressed="false">🎤 Start</button>
+    <span class="status" id="micStatus">idle</span>
+    <span class="status">Lang: <span class="kbd" id="langTag">es-ES</span></span>
+    <span class="status">Voz:
+      <select id="voiceSel" class="kbd" style="background:transparent;border-radius:6px;padding:1px 4px"></select>
+    </span>
+    <span class="status">Toggle bbox: <span class="kbd">B</span></span>
+  </div>
+
+  <!-- Floating transcription window -->
+  <div class="float" id="float">
+    <div class="float-header" id="floatDrag">
+      <strong>Transcripción</strong>
+      <span id="recPill" class="pill">mic: <span>off</span></span>
+    </div>
+    <div class="float-body" id="transcript"></div>
+  </div>
+
+  <!-- Webcam preview -->
+  <div class="preview">
+    <div class="header"><span class="dot" id="camDot"></span> Webcam</div>
+    <video id="vid" autoplay playsinline muted></video>
+    <canvas id="overlay" width="640" height="480" style="display:none"></canvas>
+  </div>
+
+  <script type="module">
+    import * as THREE from "three";
+    import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
+    import { FaceDetector, FilesetResolver } from "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.3";
+
+    /* ---------- THREE.JS + AVATAR ---------- */
+    const container = document.getElementById("stage");
+    const renderer  = new THREE.WebGLRenderer({ antialias:true });
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.outputColorSpace = THREE.SRGBColorSpace;
+    renderer.toneMapping = THREE.ACESFilmicToneMapping;
+    renderer.shadowMap.enabled = true;
+    container.appendChild(renderer.domElement);
+
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0x0e0f13);
+
+    const camera = new THREE.PerspectiveCamera(10, window.innerWidth/window.innerHeight, 0.1, 100);
+    camera.position.set(0, 1.3, 3);
+
+    scene.add(new THREE.HemisphereLight(0xffffff, 0x334455, 0.6));
+    const dir = new THREE.DirectionalLight(0xffffff, 1);
+    dir.position.set(3,5,5);
+    dir.castShadow = true;
+    scene.add(dir);
+
+    const ground = new THREE.Mesh(
+      new THREE.PlaneGeometry(20,20),
+      new THREE.MeshStandardMaterial({ color:0x0f1116, roughness:0.95, metalness:0 })
+    );
+    ground.rotation.x = -Math.PI/2;
+    ground.receiveShadow = true;
+    scene.add(ground);
+
+    const avatarRoot = new THREE.Group();
+    avatarRoot.position.set(0, 1.0, 0);
+    scene.add(avatarRoot);
+
+    let avatar;
+    new GLTFLoader().load("./avatar.glb", (gltf)=>{
+      avatar = gltf.scene;
+      avatar.traverse(o=>{ if(o.isMesh){ o.castShadow = true; o.receiveShadow = true; }});
+      avatar.rotation.y = Math.PI;
+
+      // Normalize size & center
+      const box = new THREE.Box3().setFromObject(avatar);
+      const size = new THREE.Vector3(); box.getSize(size);
+      const scale = 1.2 / Math.max(size.x, size.y, size.z);
+      avatar.scale.setScalar(scale);
+      const center = new THREE.Vector3(); box.getCenter(center);
+      avatar.position.sub(center.multiplyScalar(scale));
+
+      avatarRoot.add(avatar);
+    });
+
+    window.addEventListener("resize", ()=>{
+      camera.aspect = window.innerWidth / window.innerHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+    });
+
+    /* ---------- MEDIAPIPE FACE FOLLOW ---------- */
+    const video   = document.getElementById("vid");
+    const overlay = document.getElementById("overlay");
+    const octx    = overlay.getContext("2d");
+    const camDot  = document.getElementById("camDot");
+
+    let showBBox = false;
+    window.addEventListener("keydown", (e)=>{
+      if (e.key.toLowerCase() === "b") {
+        showBBox = !showBBox;
+        overlay.style.display = showBBox ? "block" : "none";
+      }
+    });
+
+    const smoother = (alpha=0.18)=>{
+      let sx=null, sy=null;
+      return (x,y)=>{ if(sx==null){sx=x; sy=y;} sx += alpha*(x-sx); sy += alpha*(y-sy); return [sx,sy]; };
+    };
+    const smoothXY = smoother(0.18);
+
+    async function setupCam(){
+      const stream = await navigator.mediaDevices.getUserMedia({ video: { width:640, height:480 } });
+      video.srcObject = stream; await video.play();
+    }
+
+    const vision = await FilesetResolver.forVisionTasks(
+      "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.3/wasm"
+    );
+    const detector = await FaceDetector.createFromOptions(vision, {
+      baseOptions: {
+        modelAssetPath: "https://storage.googleapis.com/mediapipe-models/face_detector/blaze_face_short_range/float16/1/blaze_face_short_range.tflite"
+      },
+      runningMode: "VIDEO",
+      minDetectionConfidence: 0.5
+    });
+
+    await setupCam();
+
+    function drawBox(bb){
+      const W = overlay.width = 640, H = overlay.height = 480;
+      octx.clearRect(0,0,W,H);
+      const x = W - (bb.originX + bb.width); const y = bb.originY;
+      octx.strokeStyle = "rgba(0,200,255,0.9)"; octx.lineWidth = 2; octx.strokeRect(x,y,bb.width,bb.height);
+    }
+
+    const yawMax   = THREE.MathUtils.degToRad(20);
+    const pitchMax = THREE.MathUtils.degToRad(12);
+    const yawMultiplier   = 1.2;
+    const pitchMultiplier = 1.5;
+    const invertYaw       = 1;
+    const invertPitch     = 1;
+
+    const clamp=(v,min,max)=> Math.max(min, Math.min(max, v));
+    const current={x:0,y:0};
+    const lerp=(a,b,t)=> a + (b - a) * t;
+
+    function animate(){
+      requestAnimationFrame(animate);
+      renderer.render(scene, camera);
+      avatarRoot.rotation.x = lerp(avatarRoot.rotation.x, current.x, 0.15);
+      avatarRoot.rotation.y = lerp(avatarRoot.rotation.y, current.y, 0.15);
+    }
+    animate();
+
+    function tick(){
+      const res = detector.detectForVideo(video, performance.now());
+      if (res?.detections?.length) {
+        const best = res.detections.reduce((a,b)=>(a.categories?.[0]?.score||0)>=(b.categories?.[0]?.score||0)?a:b);
+        const bb = best.boundingBox;
+        const cx = (bb.originX + bb.width*0.5) / video.videoWidth;
+        const cy = (bb.originY + bb.height*0.5) / video.videoHeight;
+
+        const mx = 1 - cx, my = cy;
+        const [sx, sy] = smoothXY(mx, my);
+        const dx = sx - 0.5, dy = sy - 0.5;
+
+        current.y = clamp(invertYaw   * dx * 2 * yawMax   * yawMultiplier,   -yawMax,   yawMax);
+        current.x = clamp(invertPitch * dy * 2 * pitchMax * pitchMultiplier, -pitchMax, pitchMax);
+
+        camDot.style.background = "#2ecc71"; camDot.style.boxShadow = "0 0 10px rgba(46,204,113,.9)";
+        if (showBBox) drawBox(bb); else octx.clearRect(0,0,overlay.width,overlay.height);
+      } else {
+        current.x = lerp(current.x, 0, 0.05); current.y = lerp(current.y, 0, 0.05);
+        camDot.style.background = "#e74c3c"; camDot.style.boxShadow = "0 0 10px rgba(231,76,60,.8)";
+        octx.clearRect(0,0,overlay.width,overlay.height);
+      }
+      requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+
+    /* ---------- CONVERSACIÓN SIMULADA (ASR + TTS con voz femenina) ---------- */
+    const btnMic       = document.getElementById("btnMic");
+    const micStatus    = document.getElementById("micStatus");
+    const langTag      = document.getElementById("langTag");
+    const recPill      = document.getElementById("recPill");
+    const transcriptEl = document.getElementById("transcript");
+    const voiceSel     = document.getElementById("voiceSel");
+
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    const synth = window.speechSynthesis;
+
+    // TTS voice selection (prefer Spanish female)
+    let currentVoice = null;
+    const FEMALE_HINTS = [
+      "female","mujer","sabina","elena","sofia","lola","lucia","paula",
+      "neural2-a","standard-a","es-es-a","es-ES Standard-A","es-ES Neural2-A"
+    ];
+    const PREFERRED_NAME_HINTS = ["google", "microsoft", "español", "es-es", ...FEMALE_HINTS];
+
+    function scoreVoice(v){
+      let s = 0;
+      const name = (v.name||"").toLowerCase();
+      const lang = (v.lang||"").toLowerCase();
+      if (lang.startsWith("es")) s += 5;
+      if (lang === "es-es") s += 3;
+      if (PREFERRED_NAME_HINTS.some(h => name.includes(h))) s += 4;
+      if (name.includes("female") || name.includes("mujer")) s += 3;
+      if (name.includes("google")) s += 1;
+      return s;
+    }
+    function pickPreferredVoice(){
+      const voices = synth.getVoices();
+      voices.sort((a,b)=>scoreVoice(b)-scoreVoice(a));
+      return voices[0] || null;
+    }
+    function populateVoices(){
+      const voices = synth.getVoices();
+      voiceSel.innerHTML = "";
+      const es = voices.filter(v=>v.lang?.toLowerCase().startsWith("es"));
+      const others = voices.filter(v=>!v.lang?.toLowerCase().startsWith("es"));
+      const list = [...es, ...others];
+      for (const v of list){
+        const opt = document.createElement("option");
+        opt.value = v.name;
+        opt.textContent = `${v.name} (${v.lang})`;
+        voiceSel.appendChild(opt);
+      }
+      currentVoice = pickPreferredVoice();
+      if (currentVoice) voiceSel.value = currentVoice.name;
+    }
+    voiceSel.addEventListener("change", ()=>{
+      const v = synth.getVoices().find(vo=>vo.name===voiceSel.value);
+      if (v) currentVoice = v;
+    });
+    if (synth.onvoiceschanged !== undefined) synth.onvoiceschanged = populateVoices;
+    populateVoices();
+
+    // Turn-taking states: 'idle' | 'listening' | 'speaking' | 'stopping'
+    let recog = null, state = 'idle', shouldRestart = false;
+    let interimText = "", stackText = "";
+    let pauseTimer = null;
+    const PAUSE_MS = 3000;
+
+    function setMicUI(active, note="") {
+      btnMic.setAttribute("aria-pressed", active ? "true" : "false");
+      btnMic.textContent = active ? "🛑 Stop" : "🎤 Start";
+      micStatus.textContent = note || (active ? "listening…" : "idle");
+      recPill.innerHTML = active ? 'mic: <span class="pulse">on</span>' : 'mic: <span>off</span>';
+    }
+    function addLine(html){
+      const p = document.createElement("div");
+      p.innerHTML = html;
+      transcriptEl.appendChild(p);
+      transcriptEl.scrollTop = transcriptEl.scrollHeight;
+    }
+    function updateLiveView(){
+      const last = transcriptEl.lastElementChild;
+      if (last && last.dataset?.live === "1") last.textContent = interimText;
+      else {
+        const p = document.createElement("div");
+        p.dataset.live = "1"; p.className = "u"; p.textContent = interimText;
+        transcriptEl.appendChild(p);
+      }
+      transcriptEl.scrollTop = transcriptEl.scrollHeight;
+    }
+    function finalizeUserTurn(text){
+      const last = transcriptEl.lastElementChild;
+      if (last && last.dataset?.live === "1") last.remove();
+      if (text.trim()) addLine(`<span class="u">👤 ${text}</span>`);
+    }
+
+    function ensureRecog(){
+      if (!SpeechRecognition) { alert("Tu navegador no soporta Web Speech API."); return null; }
+      if (!recog){
+        recog = new SpeechRecognition();
+        recog.lang = "es-ES"; langTag.textContent = recog.lang;
+        recog.continuous = true; recog.interimResults = true;
+
+        recog.onstart = () => { state = 'listening'; setMicUI(true, "listening…"); };
+        recog.onresult = (ev) => {
+          clearTimeout(pauseTimer);
+          pauseTimer = setTimeout(onPauseDetected, PAUSE_MS);
+
+          interimText = "";
+          for (let i=ev.resultIndex; i<ev.results.length; i++){
+            const r = ev.results[i], t = r[0].transcript.trim();
+            if (r.isFinal) stackText += (stackText ? " " : "") + t;
+            else interimText = t;
+          }
+          if (interimText) updateLiveView();
+        };
+        recog.onerror = (e) => {
+          if (["network","no-speech","aborted"].includes(e.error)) return;
+          micStatus.textContent = `error: ${e.error}`;
+        };
+        recog.onend = () => {
+          if (state === 'speaking' || state === 'stopping') return;
+          if (shouldRestart) { try { recog.start(); } catch(_){} }
+          else { state='idle'; setMicUI(false, "idle"); }
+        };
+      }
+      return recog;
+    }
+
+    function startListening(){
+      if (state !== 'idle') return;
+      const r = ensureRecog(); if (!r) return;
+      shouldRestart = true; stackText=""; interimText="";
+      try { state='listening'; r.start(); } catch(_) {}
+    }
+    function stopListening(){
+      shouldRestart = false; clearTimeout(pauseTimer);
+      if (recog && state !== 'idle'){ state='stopping'; try { recog.abort(); } catch(_){} }
+      setMicUI(false, "stopped"); state='idle';
+    }
+
+    function onPauseDetected(){
+      clearTimeout(pauseTimer);
+      const text = (stackText||"").trim();
+      if (!text){ pauseTimer = setTimeout(onPauseDetected, PAUSE_MS); return; }
+      shouldRestart = false; if (recog){ try { recog.abort(); } catch(_){} }
+      finalizeUserTurn(text);
+      speakThenResume(text);
+      stackText=""; interimText="";
+    }
+
+    function speakThenResume(text){
+      if (!text.trim()){ startListening(); return; }
+      const utter = new SpeechSynthesisUtterance(text);
+      // Apply selected / preferred female voice
+      if (currentVoice){ utter.voice = currentVoice; utter.lang = currentVoice.lang || "es-ES"; }
+      else { utter.lang = "es-ES"; }
+      utter.rate = 1.0; utter.pitch = 1.0; utter.volume = 1.0;
+
+      utter.onstart = () => { state='speaking'; setMicUI(false, "speaking…"); addLine(`<span class="b">🤖 ${text}</span>`); };
+      utter.onend   = () => { state='idle'; startListening(); };
+      utter.onerror = () => { state='idle'; startListening(); };
+
+      try { window.speechSynthesis.cancel(); } catch(_){}
+      window.speechSynthesis.speak(utter);
+    }
+
+    // Mic button
+    btnMic.addEventListener("click", ()=>{
+      if (state === 'idle') startListening();
+      else { try { window.speechSynthesis.cancel(); } catch(_){}; stopListening(); }
+    });
+
+    // Draggable transcript window
+    (function enableDrag(){
+      const panel = document.getElementById("float");
+      const drag = document.getElementById("floatDrag");
+      let isDown=false, ox=0, oy=0, sx=0, sy=0;
+      drag.addEventListener("pointerdown",(e)=>{ isDown=true; sx=e.clientX; sy=e.clientY; const r=panel.getBoundingClientRect(); ox=r.left; oy=r.top; panel.setPointerCapture(e.pointerId); });
+      drag.addEventListener("pointermove",(e)=>{ if(!isDown) return; const dx=e.clientX-sx, dy=e.clientY-sy; panel.style.left=(ox+dx)+"px"; panel.style.top=(oy+dy)+"px"; });
+      drag.addEventListener("pointerup",(e)=>{ isDown=false; try{ panel.releasePointerCapture(e.pointerId); }catch(_){} });
+    })();
+  </script>
+</body>
+</html>
+```
+
+### lip sync
+<small>Creado: 2025-12-23 15:24</small>
+
+`010-lip sync.html`
+
+```html
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<title>Avatar + Face Follow + Conversación + Morphs</title>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="icon" href="data:,">
+
+<!-- Import map para Three.js -->
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.160/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160/examples/jsm/"
+  }
+}
+</script>
+
+<style>
+  html, body { margin:0; height:100%; overflow:hidden; background:#0e0f13; color:#e9eef3; font-family:system-ui, Segoe UI, Roboto, Ubuntu, Cantarell; }
+  #stage { position:fixed; inset:0; }
+
+  :root { --preview-w:260px; --preview-h:195px; }
+  .preview {
+    position:fixed; right:16px; bottom:16px; width:var(--preview-w); height:var(--preview-h);
+    border-radius:12px; overflow:hidden; box-shadow:0 8px 24px rgba(0,0,0,.45);
+    border:1px solid rgba(255,255,255,.08); background:#14161d; z-index:10;
+  }
+  .preview video, .preview canvas { position:absolute; width:100%; height:100%; object-fit:cover; }
+  .preview video { transform:scaleX(-1); }
+  .header { position:absolute; inset:0 0 auto 0; height:28px; background:linear-gradient(180deg, rgba(0,0,0,.55), transparent);
+    font-size:12px; display:flex; align-items:center; gap:8px; padding:0 10px; color:#c9d2db; }
+  .dot { width:8px; height:8px; border-radius:50%; background:#e74c3c; box-shadow:0 0 10px rgba(231,76,60,.8); }
+
+  .hud {
+    position:fixed; top:12px; left:12px; z-index:20; background:rgba(20,22,29,.75);
+    border:1px solid rgba(255,255,255,.12); padding:10px 12px; border-radius:10px; font-size:13px; display:flex; align-items:center; gap:10px; flex-wrap:wrap;
+  }
+  .btn { appearance:none; border:1px solid rgba(255,255,255,.18); background:#1e2230; color:#e9eef3; padding:6px 10px; border-radius:8px; font-size:13px; cursor:pointer; }
+  .btn[aria-pressed="true"] { background:#2a3550; border-color:#6aa1ff; }
+  .status { font-size:12px; opacity:0.85 }
+  .kbd { background:rgba(255,255,255,.08); border:1px solid rgba(255,255,255,.15); padding:1px 6px; border-radius:6px; font-family:ui-monospace,monospace; font-size:12px; }
+  select.kbd { color:#e9eef3; }
+
+  /* Ventana transcripción */
+  .float {
+    position:fixed; left:16px; bottom:16px; width:min(560px, 46vw); height:260px; z-index:25;
+    background:rgba(14,17,23,.9); border:1px solid rgba(255,255,255,.12); border-radius:12px; backdrop-filter: blur(6px);
+    box-shadow: 0 10px 30px rgba(0,0,0,.45); display:flex; flex-direction:column; resize: both; overflow: hidden;
+  }
+  .float-header { user-select:none; cursor:move; padding:8px 10px; display:flex; align-items:center; justify-content:space-between;
+    font-size:12px; background:linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,0)); }
+  .float-body { padding:8px 10px; overflow:auto; font-size:13px; line-height:1.35; }
+  .pill { display:inline-block; padding:2px 8px; border-radius:999px; border:1px solid rgba(255,255,255,.18); font-size:11px; opacity:.9 }
+  .pulse { animation:pulse 1.2s infinite; }
+  @keyframes pulse { 0%{opacity:.4} 50%{opacity:1} 100%{opacity:.4} }
+  .u { color:#9ad1ff }   /* user */
+  .b { color:#ffd28b }   /* bot */
+</style>
+</head>
+<body>
+  <div id="stage"></div>
+
+  <!-- HUD -->
+  <div class="hud">
+    <button id="btnMic" class="btn" aria-pressed="false">🎤 Start</button>
+    <span class="status" id="micStatus">idle</span>
+    <span class="status">Lang: <span class="kbd" id="langTag">es-ES</span></span>
+    <span class="status">Voz:
+      <select id="voiceSel" class="kbd" style="background:transparent;border-radius:6px;padding:1px 4px"></select>
+    </span>
+    <span class="status">Toggle bbox: <span class="kbd">B</span></span>
+  </div>
+
+  <!-- Transcripción -->
+  <div class="float" id="float">
+    <div class="float-header" id="floatDrag">
+      <strong>Transcripción</strong>
+      <span id="recPill" class="pill">mic: <span>off</span></span>
+    </div>
+    <div class="float-body" id="transcript"></div>
+  </div>
+
+  <!-- Vista webcam -->
+  <div class="preview">
+    <div class="header"><span class="dot" id="camDot"></span> Webcam</div>
+    <video id="vid" autoplay playsinline muted></video>
+    <canvas id="overlay" width="640" height="480" style="display:none"></canvas>
+  </div>
+
+  <script type="module">
+    import * as THREE from "three";
+    import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
+    import { FaceDetector, FilesetResolver } from "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.3";
+
+    /* ---------- ESCENA THREE.JS ---------- */
+    const container = document.getElementById("stage");
+    const renderer  = new THREE.WebGLRenderer({ antialias:true });
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.outputColorSpace = THREE.SRGBColorSpace;
+    renderer.toneMapping = THREE.ACESFilmicToneMapping;
+    renderer.shadowMap.enabled = true;
+    container.appendChild(renderer.domElement);
+
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0x0e0f13);
+
+    const camera = new THREE.PerspectiveCamera(10, window.innerWidth/window.innerHeight, 0.1, 100);
+    camera.position.set(0, 1.3, 3);
+
+    scene.add(new THREE.HemisphereLight(0xffffff, 0x334455, 0.6));
+    const dir = new THREE.DirectionalLight(0xffffff, 1);
+    dir.position.set(3,5,5);
+    dir.castShadow = true;
+    scene.add(dir);
+
+    const ground = new THREE.Mesh(
+      new THREE.PlaneGeometry(20,20),
+      new THREE.MeshStandardMaterial({ color:0x0f1116, roughness:0.95, metalness:0 })
+    );
+    ground.rotation.x = -Math.PI/2;
+    ground.receiveShadow = true;
+    scene.add(ground);
+
+    const avatarRoot = new THREE.Group();
+    avatarRoot.position.set(0, 1.0, 0);
+    scene.add(avatarRoot);
+
+    /* ---------- CARGA AVATAR + MORPHS ---------- */
+    let avatar;
+    const morphMap = new Map(); // nombre -> [{mesh, index}]
+    function registerMorphs(object) {
+      object.traverse(o=>{
+        if (o.isMesh && o.morphTargetDictionary && o.morphTargetInfluences) {
+          const dict = o.morphTargetDictionary;
+          for (const name of Object.keys(dict)) {
+            const idx = dict[name];
+            if (!morphMap.has(name)) morphMap.set(name, []);
+            morphMap.get(name).push({ mesh:o, index:idx });
+          }
+        }
+      });
+    }
+    function setMorph(name, value) {
+      const arr = morphMap.get(name); if (!arr) return;
+      const v = Math.max(0, Math.min(1, value));
+      for (const {mesh,index} of arr) mesh.morphTargetInfluences[index] = v;
+    }
+    function addMorph(name, delta) {
+      const arr = morphMap.get(name); if (!arr) return;
+      for (const {mesh,index} of arr) {
+        const v = (mesh.morphTargetInfluences[index] || 0) + delta;
+        mesh.morphTargetInfluences[index] = Math.max(0, Math.min(1, v));
+      }
+    }
+
+    new GLTFLoader().load("./avatar.glb", (gltf)=>{
+      avatar = gltf.scene;
+      avatar.traverse(o=>{ if(o.isMesh){ o.castShadow = true; o.receiveShadow = true; }});
+      avatar.rotation.y = Math.PI;
+
+      // Normalizar tamaño & centrar
+      const box = new THREE.Box3().setFromObject(avatar);
+      const size = new THREE.Vector3(); box.getSize(size);
+      const scale = 1.2 / Math.max(size.x, size.y, size.z);
+      avatar.scale.setScalar(scale);
+      const center = new THREE.Vector3(); box.getCenter(center);
+      avatar.position.sub(center.multiplyScalar(scale));
+
+      avatarRoot.add(avatar);
+      registerMorphs(avatar);
+
+      // Asegura morphs base a 0
+      for (const n of ["a","e","i","o","u","pestanear","sonrisa"]) setMorph(n, 0);
+
+      // Inicia parpadeo
+      scheduleBlink();
+    });
+
+    window.addEventListener("resize", ()=>{
+      camera.aspect = window.innerWidth / window.innerHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+    });
+
+    /* ---------- MEDIAPIPE FOLLOW ---------- */
+    const video   = document.getElementById("vid");
+    const overlay = document.getElementById("overlay");
+    const octx    = overlay.getContext("2d");
+    const camDot  = document.getElementById("camDot");
+
+    let showBBox = false;
+    window.addEventListener("keydown", (e)=>{
+      if (e.key.toLowerCase() === "b") {
+        showBBox = !showBBox;
+        overlay.style.display = showBBox ? "block" : "none";
+      }
+    });
+
+    const smoother = (alpha=0.18)=>{
+      let sx=null, sy=null;
+      return (x,y)=>{ if(sx==null){sx=x; sy=y;} sx += alpha*(x-sx); sy += alpha*(y-sy); return [sx,sy]; };
+    };
+    const smoothXY = smoother(0.18);
+
+    async function setupCam(){
+      const stream = await navigator.mediaDevices.getUserMedia({ video: { width:640, height:480 } });
+      video.srcObject = stream; await video.play();
+    }
+
+    const vision = await FilesetResolver.forVisionTasks(
+      "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.3/wasm"
+    );
+    const detector = await FaceDetector.createFromOptions(vision, {
+      baseOptions: {
+        modelAssetPath: "https://storage.googleapis.com/mediapipe-models/face_detector/blaze_face_short_range/float16/1/blaze_face_short_range.tflite"
+      },
+      runningMode: "VIDEO",
+      minDetectionConfidence: 0.5
+    });
+
+    await setupCam();
+
+    function drawBox(bb){
+      const W = overlay.width = 640, H = overlay.height = 480;
+      octx.clearRect(0,0,W,H);
+      const x = W - (bb.originX + bb.width); const y = bb.originY;
+      octx.strokeStyle = "rgba(0,200,255,0.9)"; octx.lineWidth = 2; octx.strokeRect(x,y,bb.width,bb.height);
+    }
+
+    const yawMax   = THREE.MathUtils.degToRad(20);
+    const pitchMax = THREE.MathUtils.degToRad(12);
+    const yawMultiplier   = 1.2;
+    const pitchMultiplier = 1.5;
+    const invertYaw       = 1;
+    const invertPitch     = 1;
+
+    const clamp=(v,min,max)=> Math.max(min, Math.min(max, v));
+    const current={x:0,y:0};
+    const lerp=(a,b,t)=> a + (b - a) * t;
+
+    /* ---------- ANIMACIÓN (morphs + rotación) ---------- */
+    const clock = new THREE.Clock();
+    let speaking = false; // TTS en curso
+    // Config morphs
+    const SMILE_PERIOD = 10.0; // segundos
+    const SMILE_MAX = 0.6;     // intensidad máx de sonrisa
+    const MOUTH_A_HZ = 3.0;    // ~3 ciclos por segundo al hablar
+    const MOUTH_A_MAX = 0.9;   // apertura máxima de "a"
+
+    // Parpadeo (pestanear)
+    let blinkWeight = 0; // 0..1
+    let blinking = false;
+    function scheduleBlink() {
+      const delay = 2500 + Math.random()*3500; // 2.5s - 6s
+      setTimeout(()=> startBlink(), delay);
+    }
+    function startBlink() {
+      if (blinking) return;
+      blinking = true;
+      const closeDuration = 0.08; // s
+      const holdDuration  = 0.04;
+      const openDuration  = 0.12;
+      let phase = "closing";
+      let t0 = clock.getElapsedTime();
+
+      function step() {
+        const t = clock.getElapsedTime() - t0;
+        if (phase === "closing") {
+          const k = Math.min(1, t/closeDuration);
+          blinkWeight = k;
+          setMorph("pestanear", blinkWeight);
+          if (k >= 1) { phase = "hold"; t0 = clock.getElapsedTime(); }
+          else requestAnimationFrame(step);
+        } else if (phase === "hold") {
+          if (t >= holdDuration) { phase = "opening"; t0 = clock.getElapsedTime(); }
+          requestAnimationFrame(step);
+        } else if (phase === "opening") {
+          const k = Math.min(1, t/openDuration);
+          blinkWeight = 1 - k;
+          setMorph("pestanear", blinkWeight);
+          if (k >= 1) {
+            blinking = false;
+            setMorph("pestanear", 0);
+            scheduleBlink();
+          } else requestAnimationFrame(step);
+        }
+      }
+      requestAnimationFrame(step);
+    }
+
+    function animate(){
+      requestAnimationFrame(animate);
+      const t = clock.getElapsedTime();
+
+      // Sonrisa senoidal (periodo 10s)
+      const smile = (Math.sin((2*Math.PI/SMILE_PERIOD)*t) * 0.5 + 0.5) * SMILE_MAX;
+      setMorph("sonrisa", smile);
+
+      // Boca "a" rítmica mientras habla (lip-sync simple)
+      if (speaking) {
+        const mouth = (Math.sin(2*Math.PI*MOUTH_A_HZ*t)*0.5 + 0.5) * MOUTH_A_MAX;
+        setMorph("a", mouth);
+        // Cierra el resto de vocales por si tu rig mezcla
+        setMorph("e", 0); setMorph("i", 0); setMorph("o", 0); setMorph("u", 0);
+      } else {
+        // Si no habla, relajar "a"
+        addMorph("a", (0 - (morphMap.get("a")?.[0]?.mesh?.morphTargetInfluences[morphMap.get("a")[0].index] || 0)) * 0.2);
+      }
+
+      // Render y rotación avatar
+      renderer.render(scene, camera);
+      avatarRoot.rotation.x = lerp(avatarRoot.rotation.x, current.x, 0.15);
+      avatarRoot.rotation.y = lerp(avatarRoot.rotation.y, current.y, 0.15);
+    }
+    animate();
+
+    function tick(){
+      const res = detector.detectForVideo(video, performance.now());
+      if (res?.detections?.length) {
+        const best = res.detections.reduce((a,b)=>(a.categories?.[0]?.score||0)>=(b.categories?.[0]?.score||0)?a:b);
+        const bb = best.boundingBox;
+        const cx = (bb.originX + bb.width*0.5) / video.videoWidth;
+        const cy = (bb.originY + bb.height*0.5) / video.videoHeight;
+
+        const mx = 1 - cx, my = cy;
+        const [sx, sy] = smoothXY(mx, my);
+        const dx = sx - 0.5, dy = sy - 0.5;
+
+        current.y = clamp(dx * 2 * yawMax * yawMultiplier * invertYaw,   -yawMax,   yawMax);
+        current.x = clamp(dy * 2 * pitchMax * pitchMultiplier * invertPitch, -pitchMax, pitchMax);
+
+        camDot.style.background = "#2ecc71"; camDot.style.boxShadow = "0 0 10px rgba(46,204,113,.9)";
+        if (showBBox) drawBox(bb); else octx.clearRect(0,0,overlay.width,overlay.height);
+      } else {
+        current.x = lerp(current.x, 0, 0.05); current.y = lerp(current.y, 0, 0.05);
+        camDot.style.background = "#e74c3c"; camDot.style.boxShadow = "0 0 10px rgba(231,76,60,.8)";
+        octx.clearRect(0,0,overlay.width,overlay.height);
+      }
+      requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+
+    /* ---------- CONVERSACIÓN (ASR + TTS con voz femenina) ---------- */
+    const btnMic       = document.getElementById("btnMic");
+    const micStatus    = document.getElementById("micStatus");
+    const langTag      = document.getElementById("langTag");
+    const recPill      = document.getElementById("recPill");
+    const transcriptEl = document.getElementById("transcript");
+    const voiceSel     = document.getElementById("voiceSel");
+
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    const synth = window.speechSynthesis;
+
+    // Selección de voz (prefer española femenina cuando exista)
+    let currentVoice = null;
+    const FEMALE_HINTS = [
+      "female","mujer","sabina","elena","sofia","lola","lucia","paula",
+      "neural2-a","standard-a","es-es-a","es-ES Standard-A","es-ES Neural2-A"
+    ];
+    const PREFERRED_NAME_HINTS = ["google", "microsoft", "español", "es-es", ...FEMALE_HINTS];
+
+    function scoreVoice(v){
+      let s = 0;
+      const name = (v.name||"").toLowerCase();
+      const lang = (v.lang||"").toLowerCase();
+      if (lang.startsWith("es")) s += 5;
+      if (lang === "es-es") s += 3;
+      if (PREFERRED_NAME_HINTS.some(h => name.includes(h))) s += 4;
+      if (name.includes("female") || name.includes("mujer")) s += 3;
+      if (name.includes("google")) s += 1;
+      return s;
+    }
+    function pickPreferredVoice(){
+      const voices = synth.getVoices();
+      voices.sort((a,b)=>scoreVoice(b)-scoreVoice(a));
+      return voices[0] || null;
+    }
+    function populateVoices(){
+      const voices = synth.getVoices();
+      voiceSel.innerHTML = "";
+      const es = voices.filter(v=>v.lang?.toLowerCase().startsWith("es"));
+      const others = voices.filter(v=>!v.lang?.toLowerCase().startsWith("es"));
+      const list = [...es, ...others];
+      for (const v of list){
+        const opt = document.createElement("option");
+        opt.value = v.name;
+        opt.textContent = `${v.name} (${v.lang})`;
+        voiceSel.appendChild(opt);
+      }
+      currentVoice = pickPreferredVoice();
+      if (currentVoice) voiceSel.value = currentVoice.name;
+    }
+    voiceSel.addEventListener("change", ()=>{
+      const v = synth.getVoices().find(vo=>vo.name===voiceSel.value);
+      if (v) currentVoice = v;
+    });
+    if (synth.onvoiceschanged !== undefined) synth.onvoiceschanged = populateVoices;
+    populateVoices();
+
+    // Estados: 'idle' | 'listening' | 'speaking' | 'stopping'
+    let recog = null, state = 'idle', shouldRestart = false;
+    let interimText = "", stackText = "";
+    let pauseTimer = null;
+    const PAUSE_MS = 3000;
+
+    function setMicUI(active, note="") {
+      btnMic.setAttribute("aria-pressed", active ? "true" : "false");
+      btnMic.textContent = active ? "🛑 Stop" : "🎤 Start";
+      micStatus.textContent = note || (active ? "listening…" : "idle");
+      recPill.innerHTML = active ? 'mic: <span class="pulse">on</span>' : 'mic: <span>off</span>';
+    }
+    function addLine(html){
+      const p = document.createElement("div");
+      p.innerHTML = html;
+      transcriptEl.appendChild(p);
+      transcriptEl.scrollTop = transcriptEl.scrollHeight;
+    }
+    function updateLiveView(){
+      const last = transcriptEl.lastElementChild;
+      if (last && last.dataset?.live === "1") last.textContent = interimText;
+      else {
+        const p = document.createElement("div");
+        p.dataset.live = "1"; p.className = "u"; p.textContent = interimText;
+        transcriptEl.appendChild(p);
+      }
+      transcriptEl.scrollTop = transcriptEl.scrollHeight;
+    }
+    function finalizeUserTurn(text){
+      const last = transcriptEl.lastElementChild;
+      if (last && last.dataset?.live === "1") last.remove();
+      if (text.trim()) addLine(`<span class="u">👤 ${text}</span>`);
+    }
+
+    function ensureRecog(){
+      if (!SpeechRecognition) { alert("Tu navegador no soporta Web Speech API."); return null; }
+      if (!recog){
+        recog = new SpeechRecognition();
+        recog.lang = "es-ES"; langTag.textContent = recog.lang;
+        recog.continuous = true; recog.interimResults = true;
+
+        recog.onstart = () => { state = 'listening'; setMicUI(true, "listening…"); };
+        recog.onresult = (ev) => {
+          clearTimeout(pauseTimer);
+          pauseTimer = setTimeout(onPauseDetected, PAUSE_MS);
+
+          interimText = "";
+          for (let i=ev.resultIndex; i<ev.results.length; i++){
+            const r = ev.results[i], t = r[0].transcript.trim();
+            if (r.isFinal) stackText += (stackText ? " " : "") + t;
+            else interimText = t;
+          }
+          if (interimText) updateLiveView();
+        };
+        recog.onerror = (e) => {
+          if (["network","no-speech","aborted"].includes(e.error)) return;
+          micStatus.textContent = `error: ${e.error}`;
+        };
+        recog.onend = () => {
+          if (state === 'speaking' || state === 'stopping') return;
+          if (shouldRestart) { try { recog.start(); } catch(_){} }
+          else { state='idle'; setMicUI(false, "idle"); }
+        };
+      }
+      return recog;
+    }
+
+    function startListening(){
+      if (state !== 'idle') return;
+      const r = ensureRecog(); if (!r) return;
+      shouldRestart = true; stackText=""; interimText="";
+      try { state='listening'; r.start(); } catch(_) {}
+    }
+    function stopListening(){
+      shouldRestart = false; clearTimeout(pauseTimer);
+      if (recog && state !== 'idle'){ state='stopping'; try { recog.abort(); } catch(_){} }
+      setMicUI(false, "stopped"); state='idle';
+    }
+
+    function onPauseDetected(){
+      clearTimeout(pauseTimer);
+      const text = (stackText||"").trim();
+      if (!text){ pauseTimer = setTimeout(onPauseDetected, PAUSE_MS); return; }
+      shouldRestart = false; if (recog){ try { recog.abort(); } catch(_){} }
+      finalizeUserTurn(text);
+      speakThenResume(text);
+      stackText=""; interimText="";
+    }
+
+    function speakThenResume(text){
+      if (!text.trim()){ startListening(); return; }
+      const utter = new SpeechSynthesisUtterance(text);
+      // voz femenina preferente (si existe)
+      if (currentVoice){ utter.voice = currentVoice; utter.lang = currentVoice.lang || "es-ES"; }
+      else { utter.lang = "es-ES"; }
+      utter.rate = 1.0; utter.pitch = 1.0; utter.volume = 1.0;
+
+      utter.onstart = () => {
+        state='speaking';
+        speaking = true;  // ← activa lip-sync "a"
+        setMicUI(false, "speaking…");
+        addLine(`<span class="b">🤖 ${text}</span>`);
+      };
+      utter.onend   = () => {
+        speaking = false; setMorph("a", 0); // relaja boca
+        state='idle'; startListening();
+      };
+      utter.onerror = () => {
+        speaking = false; setMorph("a", 0);
+        state='idle'; startListening();
+      };
+
+      try { window.speechSynthesis.cancel(); } catch(_){}
+      window.speechSynthesis.speak(utter);
+    }
+
+    // Botón mic
+    document.getElementById("btnMic").addEventListener("click", ()=>{
+      if (state === 'idle') startListening();
+      else { try { window.speechSynthesis.cancel(); } catch(_){}; stopListening(); }
+    });
+
+    // Arrastrar ventana transcripción
+    (function enableDrag(){
+      const panel = document.getElementById("float");
+      const drag = document.getElementById("floatDrag");
+      let isDown=false, ox=0, oy=0, sx=0, sy=0;
+      drag.addEventListener("pointerdown",(e)=>{ isDown=true; sx=e.clientX; sy=e.clientY; const r=panel.getBoundingClientRect(); ox=r.left; oy=r.top; panel.setPointerCapture(e.pointerId); });
+      drag.addEventListener("pointermove",(e)=>{ if(!isDown) return; const dx=e.clientX-sx, dy=e.clientY-sy; panel.style.left=(ox+dx)+"px"; panel.style.top=(oy+dy)+"px"; });
+      drag.addEventListener("pointerup",(e)=>{ isDown=false; try{ panel.releasePointerCapture(e.pointerId); }catch(_){} });
+    })();
+  </script>
+</body>
+</html>
+```
+
+### arreglo parpadeo
+<small>Creado: 2025-12-23 15:24</small>
+
+`011-arreglo parpadeo.html`
+
+```html
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<title>Avatar + Face Follow + Conversación + Morphs (blink fijo)</title>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="icon" href="data:,">
+
+<!-- Import map para Three.js -->
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.160/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160/examples/jsm/"
+  }
+}
+</script>
+
+<style>
+  html, body { margin:0; height:100%; overflow:hidden; background:#0e0f13; color:#e9eef3; font-family:system-ui, Segoe UI, Roboto, Ubuntu, Cantarell; }
+  #stage { position:fixed; inset:0; }
+
+  :root { --preview-w:260px; --preview-h:195px; }
+  .preview {
+    position:fixed; right:16px; bottom:16px; width:var(--preview-w); height:var(--preview-h);
+    border-radius:12px; overflow:hidden; box-shadow:0 8px 24px rgba(0,0,0,.45);
+    border:1px solid rgba(255,255,255,.08); background:#14161d; z-index:10;
+  }
+  .preview video, .preview canvas { position:absolute; width:100%; height:100%; object-fit:cover; }
+  .preview video { transform:scaleX(-1); }
+  .header { position:absolute; inset:0 0 auto 0; height:28px; background:linear-gradient(180deg, rgba(0,0,0,.55), transparent);
+    font-size:12px; display:flex; align-items:center; gap:8px; padding:0 10px; color:#c9d2db; }
+  .dot { width:8px; height:8px; border-radius:50%; background:#e74c3c; box-shadow:0 0 10px rgba(231,76,60,.8); }
+
+  .hud {
+    position:fixed; top:12px; left:12px; z-index:20; background:rgba(20,22,29,.75);
+    border:1px solid rgba(255,255,255,.12); padding:10px 12px; border-radius:10px; font-size:13px; display:flex; align-items:center; gap:10px; flex-wrap:wrap;
+  }
+  .btn { appearance:none; border:1px solid rgba(255,255,255,.18); background:#1e2230; color:#e9eef3; padding:6px 10px; border-radius:8px; font-size:13px; cursor:pointer; }
+  .btn[aria-pressed="true"] { background:#2a3550; border-color:#6aa1ff; }
+  .status { font-size:12px; opacity:0.85 }
+  .kbd { background:rgba(255,255,255,.08); border:1px solid rgba(255,255,255,.15); padding:1px 6px; border-radius:6px; font-family:ui-monospace,monospace; font-size:12px; }
+  select.kbd { color:#e9eef3; }
+
+  /* Transcripción */
+  .float {
+    position:fixed; left:16px; bottom:16px; width:min(560px, 46vw); height:260px; z-index:25;
+    background:rgba(14,17,23,.9); border:1px solid rgba(255,255,255,.12); border-radius:12px; backdrop-filter: blur(6px);
+    box-shadow: 0 10px 30px rgba(0,0,0,.45); display:flex; flex-direction:column; resize: both; overflow: hidden;
+  }
+  .float-header { user-select:none; cursor:move; padding:8px 10px; display:flex; align-items:center; justify-content:space-between;
+    font-size:12px; background:linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,0)); }
+  .float-body { padding:8px 10px; overflow:auto; font-size:13px; line-height:1.35; }
+  .pill { display:inline-block; padding:2px 8px; border-radius:999px; border:1px solid rgba(255,255,255,.18); font-size:11px; opacity:.9 }
+  .pulse { animation:pulse 1.2s infinite; }
+  @keyframes pulse { 0%{opacity:.4} 50%{opacity:1} 100%{opacity:.4} }
+  .u { color:#9ad1ff }   /* user */
+  .b { color:#ffd28b }   /* bot */
+</style>
+</head>
+<body>
+  <div id="stage"></div>
+
+  <!-- HUD -->
+  <div class="hud">
+    <button id="btnMic" class="btn" aria-pressed="false">🎤 Start</button>
+    <span class="status" id="micStatus">idle</span>
+    <span class="status">Lang: <span class="kbd" id="langTag">es-ES</span></span>
+    <span class="status">Voz:
+      <select id="voiceSel" class="kbd" style="background:transparent;border-radius:6px;padding:1px 4px"></select>
+    </span>
+    <span class="status">Toggle bbox: <span class="kbd">B</span></span>
+  </div>
+
+  <!-- Transcripción -->
+  <div class="float" id="float">
+    <div class="float-header" id="floatDrag">
+      <strong>Transcripción</strong>
+      <span id="recPill" class="pill">mic: <span>off</span></span>
+    </div>
+    <div class="float-body" id="transcript"></div>
+  </div>
+
+  <!-- Vista webcam -->
+  <div class="preview">
+    <div class="header"><span class="dot" id="camDot"></span> Webcam</div>
+    <video id="vid" autoplay playsinline muted></video>
+    <canvas id="overlay" width="640" height="480" style="display:none"></canvas>
+  </div>
+
+  <script type="module">
+    import * as THREE from "three";
+    import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
+    import { FaceDetector, FilesetResolver } from "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.3";
+
+    /* ---------- ESCENA THREE.JS ---------- */
+    const container = document.getElementById("stage");
+    const renderer  = new THREE.WebGLRenderer({ antialias:true });
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.outputColorSpace = THREE.SRGBColorSpace;
+    renderer.toneMapping = THREE.ACESFilmicToneMapping;
+    renderer.shadowMap.enabled = true;
+    container.appendChild(renderer.domElement);
+
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0x0e0f13);
+
+    const camera = new THREE.PerspectiveCamera(10, window.innerWidth/window.innerHeight, 0.1, 100);
+    camera.position.set(0, 1.3, 3);
+
+    scene.add(new THREE.HemisphereLight(0xffffff, 0x334455, 0.6));
+    const dir = new THREE.DirectionalLight(0xffffff, 1);
+    dir.position.set(3,5,5);
+    dir.castShadow = true;
+    scene.add(dir);
+
+    const ground = new THREE.Mesh(
+      new THREE.PlaneGeometry(20,20),
+      new THREE.MeshStandardMaterial({ color:0x0f1116, roughness:0.95, metalness:0 })
+    );
+    ground.rotation.x = -Math.PI/2;
+    ground.receiveShadow = true;
+    scene.add(ground);
+
+    const avatarRoot = new THREE.Group();
+    avatarRoot.position.set(0, 1.0, 0);
+    scene.add(avatarRoot);
+
+    /* ---------- MORPHS: helpers ---------- */
+    let avatar;
+    const morphMap = new Map(); // nombre -> [{mesh, index}]
+    function registerMorphs(object) {
+      object.traverse(o=>{
+        if (o.isMesh && o.morphTargetDictionary && o.morphTargetInfluences) {
+          const dict = o.morphTargetDictionary;
+          for (const name of Object.keys(dict)) {
+            const idx = dict[name];
+            if (!morphMap.has(name)) morphMap.set(name, []);
+            morphMap.get(name).push({ mesh:o, index:idx });
+          }
+        }
+      });
+    }
+    function setMorph(name, value) {
+      const arr = morphMap.get(name); if (!arr) return;
+      const v = Math.max(0, Math.min(1, value));
+      for (const {mesh,index} of arr) mesh.morphTargetInfluences[index] = v;
+    }
+    function addMorph(name, delta) {
+      const arr = morphMap.get(name); if (!arr) return;
+      for (const {mesh,index} of arr) {
+        const cur = mesh.morphTargetInfluences[index] || 0;
+        const v = Math.max(0, Math.min(1, cur + delta));
+        mesh.morphTargetInfluences[index] = v;
+      }
+    }
+    function getMorphValue(name) {
+      const arr = morphMap.get(name);
+      if (!arr || !arr.length) return 0;
+      const { mesh, index } = arr[0];
+      return mesh.morphTargetInfluences[index] || 0;
+    }
+
+    /* ---------- PARPADEO ROBUSTO (definido ANTES de usar) ---------- */
+    const BLINK_INVERT = false; // pon true si tu rig usa 1=abierto, 0=cerrado
+    function setBlinkAmount(v) {
+      v = Math.max(0, Math.min(1, v));
+      const out = BLINK_INVERT ? 1 - v : v;
+      setMorph("pestanear", out);
+    }
+    let blinkTween = null;
+    function tweenBlink(from, to, durationMs) {
+      if (blinkTween) cancelAnimationFrame(blinkTween.raf);
+      const start = performance.now();
+      return new Promise(resolve => {
+        const loop = (now) => {
+          const t = Math.min(1, (now - start) / durationMs);
+          const val = from + (to - from) * t;
+          setBlinkAmount(val);
+          if (t < 1) {
+            blinkTween.raf = requestAnimationFrame(loop);
+          } else {
+            blinkTween = null;
+            resolve();
+          }
+        };
+        blinkTween = { raf: requestAnimationFrame(loop) };
+      });
+    }
+    const sleep = (ms)=> new Promise(r=>setTimeout(r,ms));
+    let blinkLoopRunning = false;   // 👈 declarado ANTES
+    async function blinkLoop() {
+      if (blinkLoopRunning) return;
+      blinkLoopRunning = true;
+      while (true) {
+        const delay = 2500 + Math.random() * 3500; // 2.5–6s
+        await sleep(delay);
+        const current = getMorphValue("pestanear");
+        await tweenBlink(current, 1, 80); // cerrar rápido
+        await sleep(40);                  // sostener un pelín
+        await tweenBlink(1, 0, 120);     // abrir más lento
+        setBlinkAmount(0);               // hard reset
+      }
+    }
+
+    /* ---------- CARGA GLB ---------- */
+    new GLTFLoader().load("./avatar.glb", (gltf)=>{
+      avatar = gltf.scene;
+      avatar.traverse(o=>{ if(o.isMesh){ o.castShadow = true; o.receiveShadow = true; }});
+      avatar.rotation.y = Math.PI;
+
+      // Normalizar tamaño & centrar
+      const box = new THREE.Box3().setFromObject(avatar);
+      const size = new THREE.Vector3(); box.getSize(size);
+      const scale = 1.2 / Math.max(size.x, size.y, size.z);
+      avatar.scale.setScalar(scale);
+      const center = new THREE.Vector3(); box.getCenter(center);
+      avatar.position.sub(center.multiplyScalar(scale));
+
+      avatarRoot.add(avatar);
+      registerMorphs(avatar);
+
+      for (const n of ["a","e","i","o","u","pestanear","sonrisa"]) setMorph(n, 0);
+
+      // Ahora sí: llamar al bucle de parpadeo
+      blinkLoop();
+    });
+
+    window.addEventListener("resize", ()=>{
+      camera.aspect = window.innerWidth / window.innerHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+    });
+
+    /* ---------- MEDIAPIPE FACE FOLLOW ---------- */
+    const video   = document.getElementById("vid");
+    const overlay = document.getElementById("overlay");
+    const octx    = overlay.getContext("2d");
+    const camDot  = document.getElementById("camDot");
+
+    let showBBox = false;
+    window.addEventListener("keydown", (e)=>{
+      if (e.key.toLowerCase() === "b") {
+        showBBox = !showBBox;
+        overlay.style.display = showBBox ? "block" : "none";
+      }
+    });
+
+    const smoother = (alpha=0.18)=>{
+      let sx=null, sy=null;
+      return (x,y)=>{ if(sx==null){sx=x; sy=y;} sx += alpha*(x-sx); sy += alpha*(y-sy); return [sx,sy]; };
+    };
+    const smoothXY = smoother(0.18);
+
+    async function setupCam(){
+      const stream = await navigator.mediaDevices.getUserMedia({ video: { width:640, height:480 } });
+      video.srcObject = stream; await video.play();
+    }
+
+    const vision = await FilesetResolver.forVisionTasks(
+      "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.3/wasm"
+    );
+    const detector = await FaceDetector.createFromOptions(vision, {
+      baseOptions: {
+        modelAssetPath: "https://storage.googleapis.com/mediapipe-models/face_detector/blaze_face_short_range/float16/1/blaze_face_short_range.tflite"
+      },
+      runningMode: "VIDEO",
+      minDetectionConfidence: 0.5
+    });
+
+    await setupCam();
+
+    function drawBox(bb){
+      const W = overlay.width = 640, H = overlay.height = 480;
+      octx.clearRect(0,0,W,H);
+      const x = W - (bb.originX + bb.width); const y = bb.originY;
+      octx.strokeStyle = "rgba(0,200,255,0.9)"; octx.lineWidth = 2; octx.strokeRect(x,y,bb.width,bb.height);
+    }
+
+    const yawMax   = THREE.MathUtils.degToRad(20);
+    const pitchMax = THREE.MathUtils.degToRad(12);
+    const yawMultiplier   = 1.2;
+    const pitchMultiplier = 1.5;
+    const invertYaw       = 1;
+    const invertPitch     = 1;
+
+    const clamp=(v,min,max)=> Math.max(min, Math.min(max, v));
+    const current={x:0,y:0};
+    const lerp=(a,b,t)=> a + (b - a) * t;
+
+    /* ---------- ANIMACIÓN (morphs + rotación) ---------- */
+    const clock = new THREE.Clock();
+    let speaking = false; // TTS en curso
+
+    // Sonrisa
+    const SMILE_PERIOD = 10.0; // s
+    const SMILE_MAX = 0.6;     // intensidad máx
+
+    // Boca "a" mientras habla
+    const MOUTH_A_HZ  = 3.0;   // ciclos/s
+    const MOUTH_A_MAX = 0.9;
+
+    function animate(){
+      requestAnimationFrame(animate);
+      const t = clock.getElapsedTime();
+
+      // Sonrisa senoidal
+      const smile = (Math.sin((2*Math.PI/SMILE_PERIOD)*t) * 0.5 + 0.5) * SMILE_MAX;
+      setMorph("sonrisa", smile);
+
+      // Boca "a" rítmica si está hablando (fake lip-sync)
+      if (speaking) {
+        const mouth = (Math.sin(2*Math.PI*MOUTH_A_HZ*t)*0.5 + 0.5) * MOUTH_A_MAX;
+        setMorph("a", mouth);
+        setMorph("e", 0); setMorph("i", 0); setMorph("o", 0); setMorph("u", 0);
+      } else {
+        const curA = getMorphValue("a");
+        setMorph("a", THREE.MathUtils.lerp(curA, 0, 0.2));
+      }
+
+      renderer.render(scene, camera);
+      avatarRoot.rotation.x = lerp(avatarRoot.rotation.x, current.x, 0.15);
+      avatarRoot.rotation.y = lerp(avatarRoot.rotation.y, current.y, 0.15);
+    }
+    animate();
+
+    function tick(){
+      const res = detector.detectForVideo(video, performance.now());
+      if (res?.detections?.length) {
+        const best = res.detections.reduce((a,b)=>(a.categories?.[0]?.score||0)>=(b.categories?.[0]?.score||0)?a:b);
+        const bb = best.boundingBox;
+        const cx = (bb.originX + bb.width*0.5) / video.videoWidth;
+        const cy = (bb.originY + bb.height*0.5) / video.videoHeight;
+
+        const mx = 1 - cx, my = cy;
+        const [sx, sy] = smoothXY(mx, my);
+        const dx = sx - 0.5, dy = sy - 0.5;
+
+        current.y = clamp(dx * 2 * yawMax * yawMultiplier * invertYaw,   -yawMax,   yawMax);
+        current.x = clamp(dy * 2 * pitchMax * pitchMultiplier * invertPitch, -pitchMax, pitchMax);
+
+        camDot.style.background = "#2ecc71"; camDot.style.boxShadow = "0 0 10px rgba(46,204,113,.9)";
+        if (showBBox) drawBox(bb); else octx.clearRect(0,0,overlay.width,overlay.height);
+      } else {
+        current.x = lerp(current.x, 0, 0.05); current.y = lerp(current.y, 0, 0.05);
+        camDot.style.background = "#e74c3c"; camDot.style.boxShadow = "0 0 10px rgba(231,76,60,.8)";
+        octx.clearRect(0,0,overlay.width,overlay.height);
+      }
+      requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+
+    /* ---------- CONVERSACIÓN (ASR + TTS voz femenina) ---------- */
+    const btnMic       = document.getElementById("btnMic");
+    const micStatus    = document.getElementById("micStatus");
+    const langTag      = document.getElementById("langTag");
+    const recPill      = document.getElementById("recPill");
+    const transcriptEl = document.getElementById("transcript");
+    const voiceSel     = document.getElementById("voiceSel");
+
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    const synth = window.speechSynthesis;
+
+    // Selección de voz (prefer española femenina cuando exista)
+    let currentVoice = null;
+    const FEMALE_HINTS = [
+      "female","mujer","sabina","elena","sofia","lola","lucia","paula",
+      "neural2-a","standard-a","es-es-a","es-ES Standard-A","es-ES Neural2-A"
+    ];
+    const PREFERRED_NAME_HINTS = ["google", "microsoft", "español", "es-es", ...FEMALE_HINTS];
+
+    function scoreVoice(v){
+      let s = 0;
+      const name = (v.name||"").toLowerCase();
+      const lang = (v.lang||"").toLowerCase();
+      if (lang.startsWith("es")) s += 5;
+      if (lang === "es-es") s += 3;
+      if (PREFERRED_NAME_HINTS.some(h => name.includes(h))) s += 4;
+      if (name.includes("female") || name.includes("mujer")) s += 3;
+      if (name.includes("google")) s += 1;
+      return s;
+    }
+    function pickPreferredVoice(){
+      const voices = synth.getVoices();
+      voices.sort((a,b)=>scoreVoice(b)-scoreVoice(a));
+      return voices[0] || null;
+    }
+    function populateVoices(){
+      const voices = synth.getVoices();
+      voiceSel.innerHTML = "";
+      const es = voices.filter(v=>v.lang?.toLowerCase().startsWith("es"));
+      const others = voices.filter(v=>!v.lang?.toLowerCase().startsWith("es"));
+      const list = [...es, ...others];
+      for (const v of list){
+        const opt = document.createElement("option");
+        opt.value = v.name;
+        opt.textContent = `${v.name} (${v.lang})`;
+        voiceSel.appendChild(opt);
+      }
+      currentVoice = pickPreferredVoice();
+      if (currentVoice) voiceSel.value = currentVoice.name;
+    }
+    voiceSel.addEventListener("change", ()=>{
+      const v = synth.getVoices().find(vo=>vo.name===voiceSel.value);
+      if (v) currentVoice = v;
+    });
+    if (synth.onvoiceschanged !== undefined) synth.onvoiceschanged = populateVoices;
+    populateVoices();
+
+    // Estados: 'idle' | 'listening' | 'speaking' | 'stopping'
+    let recog = null, state = 'idle', shouldRestart = false;
+    let interimText = "", stackText = "";
+    let pauseTimer = null;
+    const PAUSE_MS = 3000;
+
+    function setMicUI(active, note="") {
+      btnMic.setAttribute("aria-pressed", active ? "true" : "false");
+      btnMic.textContent = active ? "🛑 Stop" : "🎤 Start";
+      micStatus.textContent = note || (active ? "listening…" : "idle");
+      recPill.innerHTML = active ? 'mic: <span class="pulse">on</span>' : 'mic: <span>off</span>';
+    }
+    function addLine(html){
+      const p = document.createElement("div");
+      p.innerHTML = html;
+      transcriptEl.appendChild(p);
+      transcriptEl.scrollTop = transcriptEl.scrollHeight;
+    }
+    function updateLiveView(){
+      const last = transcriptEl.lastElementChild;
+      if (last && last.dataset?.live === "1") last.textContent = interimText;
+      else {
+        const p = document.createElement("div");
+        p.dataset.live = "1"; p.className = "u"; p.textContent = interimText;
+        transcriptEl.appendChild(p);
+      }
+      transcriptEl.scrollTop = transcriptEl.scrollHeight;
+    }
+    function finalizeUserTurn(text){
+      const last = transcriptEl.lastElementChild;
+      if (last && last.dataset?.live === "1") last.remove();
+      if (text.trim()) addLine(`<span class="u">👤 ${text}</span>`);
+    }
+
+    function ensureRecog(){
+      if (!SpeechRecognition) { alert("Tu navegador no soporta Web Speech API."); return null; }
+      if (!recog){
+        recog = new SpeechRecognition();
+        recog.lang = "es-ES"; langTag.textContent = recog.lang;
+        recog.continuous = true; recog.interimResults = true;
+
+        recog.onstart = () => { state = 'listening'; setMicUI(true, "listening…"); };
+        recog.onresult = (ev) => {
+          clearTimeout(pauseTimer);
+          pauseTimer = setTimeout(onPauseDetected, PAUSE_MS);
+
+          interimText = "";
+          for (let i=ev.resultIndex; i<ev.results.length; i++){
+            const r = ev.results[i], t = r[0].transcript.trim();
+            if (r.isFinal) stackText += (stackText ? " " : "") + t;
+            else interimText = t;
+          }
+          if (interimText) updateLiveView();
+        };
+        recog.onerror = (e) => {
+          if (["network","no-speech","aborted"].includes(e.error)) return;
+          micStatus.textContent = `error: ${e.error}`;
+        };
+        recog.onend = () => {
+          if (state === 'speaking' || state === 'stopping') return;
+          if (shouldRestart) { try { recog.start(); } catch(_){} }
+          else { state='idle'; setMicUI(false, "idle"); }
+        };
+      }
+      return recog;
+    }
+
+    function startListening(){
+      if (state !== 'idle') return;
+      const r = ensureRecog(); if (!r) return;
+      shouldRestart = true; stackText=""; interimText="";
+      try { state='listening'; r.start(); } catch(_) {}
+    }
+    function stopListening(){
+      shouldRestart = false; clearTimeout(pauseTimer);
+      if (recog && state !== 'idle'){ state='stopping'; try { recog.abort(); } catch(_){} }
+      setMicUI(false, "stopped"); state='idle';
+    }
+
+    function onPauseDetected(){
+      clearTimeout(pauseTimer);
+      const text = (stackText||"").trim();
+      if (!text){ pauseTimer = setTimeout(onPauseDetected, PAUSE_MS); return; }
+      shouldRestart = false; if (recog){ try { recog.abort(); } catch(_){} }
+      finalizeUserTurn(text);
+      speakThenResume(text);
+      stackText=""; interimText="";
+    }
+
+    function speakThenResume(text){
+      if (!text.trim()){ startListening(); return; }
+      const utter = new SpeechSynthesisUtterance(text);
+      if (currentVoice){ utter.voice = currentVoice; utter.lang = currentVoice.lang || "es-ES"; }
+      else { utter.lang = "es-ES"; }
+      utter.rate = 1.0; utter.pitch = 1.0; utter.volume = 1.0;
+
+      utter.onstart = () => {
+        state='speaking';
+        speaking = true;  // activa boca "a"
+        setMicUI(false, "speaking…");
+        addLine(`<span class="b">🤖 ${text}</span>`);
+      };
+      utter.onend   = () => {
+        speaking = false; setMorph("a", 0);
+        state='idle'; startListening();
+      };
+      utter.onerror = () => {
+        speaking = false; setMorph("a", 0);
+        state='idle'; startListening();
+      };
+
+      try { window.speechSynthesis.cancel(); } catch(_){}
+      window.speechSynthesis.speak(utter);
+    }
+
+    // Botón mic
+    document.getElementById("btnMic").addEventListener("click", ()=>{
+      if (state === 'idle') startListening();
+      else { try { window.speechSynthesis.cancel(); } catch(_){}; stopListening(); }
+    });
+
+    // Arrastrar ventana transcripción
+    (function enableDrag(){
+      const panel = document.getElementById("float");
+      const drag = document.getElementById("floatDrag");
+      let isDown=false, ox=0, oy=0, sx=0, sy=0;
+      drag.addEventListener("pointerdown",(e)=>{ isDown=true; sx=e.clientX; sy=e.clientY; const r=panel.getBoundingClientRect(); ox=r.left; oy=r.top; panel.setPointerCapture(e.pointerId); });
+      drag.addEventListener("pointermove",(e)=>{ if(!isDown) return; const dx=e.clientX-sx, dy=e.clientY-sy; panel.style.left=(ox+dx)+"px"; panel.style.top=(oy+dy)+"px"; });
+      drag.addEventListener("pointerup",(e)=>{ isDown=false; try{ panel.releasePointerCapture(e.pointerId); }catch(_){} });
+    })();
+  </script>
+</body>
+</html>
+```
+
 
 <a id="ejercicio-de-final-de-unidad"></a>
 ## Ejercicio de final de unidad
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/008-Proyectos/101-Ejercicio%20de%20final%20de%20unidad)
 
 ### Introducción a los ejercicios
 
@@ -832,12 +4836,14 @@ Estas actividades están diseñadas no solo para que los estudiantes comprendan 
 <a id="examen-final"></a>
 ## Examen final
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/008-Proyectos/104-Examen%20final)
+
 ### Introducción a los ejercicios
 
 Esta carpeta contiene una serie de ejercicios SQL diseñados para familiarizarte con los conceptos básicos y avanzados del manejo de bases de datos. Los problemas trabajan desde la creación de tablas, inserción de datos hasta la implementación de claves foráneas y consultas JOIN. También se practica la creación de vistas que combinan datos de múltiples tablas para facilitar la visualización y el acceso a información relevante. Finalmente, los ejercicios incluyen la gestión de usuarios y privilegios en MySQL, lo cual es crucial para entender cómo controlar el acceso a las bases de datos.
 
 ### crear tablas
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -874,7 +4880,7 @@ CREATE TABLE Categorias(
 ```
 
 ### insertar
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -902,7 +4908,7 @@ INSERT INTO Piezas VALUES(
 ```
 
 ### fk
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -925,7 +4931,7 @@ ON UPDATE CASCADE;
 ```
 
 ### selecciones
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -944,7 +4950,7 @@ SELECT * FROM Piezas;
 ```
 
 ### left join
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -965,7 +4971,7 @@ ON Piezas.id_categoria = Categorias.Identificador;
 ```
 
 ### ahora creo la vista
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -994,7 +5000,7 @@ SELECT * FROM piezas_y_categorias;
 ```
 
 ### usuario
-<small>Creado: 2025-11-24 18:59</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -1072,6 +5078,8 @@ Estas actividades están diseñadas para asegurar que los estudiantes comprendan
 <a id="extractor-transcripciones"></a>
 ## Extractor transcripciones
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/009-Proyectos%20segundo%20trimestre/001-Extractor%20transcripciones)
+
 ### Introducción a los ejercicios
 
 Este es un conjunto de scripts y archivos para automatizar el proceso completo de transcripción y resumen de una lista dada de videos de YouTube en español. Aquí está la descripción general del flujo de trabajo:
@@ -1119,7 +5127,7 @@ mi_proyecto/
 - Es recomendable tener acceso a una computadora con conexión estable y suficientes recursos para completar el proceso sin interrupciones.
 
 ### videos
-<small>Creado: 2025-11-27 19:26</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -1332,7 +5340,7 @@ if __name__ == "__main__":
 ```
 
 ### transcripciones
-<small>Creado: 2025-11-27 19:26</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -1962,7 +5970,7 @@ if __name__ == "__main__":
 ```
 
 ### resumenes
-<small>Creado: 2025-11-27 19:26</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2128,7 +6136,7 @@ if __name__ == "__main__":
 ```
 
 ### listas
-<small>Creado: 2025-11-27 19:26</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2202,6 +6210,8 @@ Este conjunto de herramientas proporciona una forma eficiente de recopilar, tran
 <a id="generador-web-ia"></a>
 ## generador web IA
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/009-Proyectos%20segundo%20trimestre/002-generador%20web%20IA)
+
 ### Introducción a los ejercicios
 
 Este conjunto de ejercicios se centra en la creación de una aplicación web que utiliza inteligencia artificial para generar páginas HTML y CSS basadas en un texto de entrada proporcionado por el usuario. El ejercicio principal, contenido en el archivo `app.py`, muestra cómo implementar una interfaz web simple usando Flask, una biblioteca popular para Python. Los estudiantes aprenderán a manejar solicitudes POST, interactuar con APIs externas mediante la librería `requests` y responder con datos JSON.
@@ -2209,7 +6219,7 @@ Este conjunto de ejercicios se centra en la creación de una aplicación web que
 A través de este ejercicio, los estudiantes practicarán habilidades fundamentales como el desarrollo backend en Python, el uso de marcos web como Flask para crear aplicaciones web dinámicas, y cómo integrar servicios de inteligencia artificial en sus proyectos.
 
 ### app
-<small>Creado: 2025-11-27 19:26</small>
+<small>Creado: 2025-12-26 21:43</small>
 
 #### Explicación
 
@@ -2228,19 +6238,34 @@ Este código es importante porque demuestra cómo se integra una aplicación web
 ```python
 from flask import Flask, render_template, request, jsonify
 import requests
+import urllib3
 
 app = Flask(__name__)
 
+# =========================================================
+# AI BACKEND CONFIG (NO ENV VARS)
+# =========================================================
+
+# --- Remote API (PHP + Ollama/LLM behind it) ---
+API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php"
+API_KEY = "TEST_API_KEY_JOCARSA_123"
+REMOTE_VERIFY_SSL = False  # ngrok often needs verify=False
+REMOTE_TIMEOUT_SECONDS = 300
+
+# Disable SSL warnings because we may use verify=False against ngrok
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+# --- Local Ollama fallback (optional) ---
 OLLAMA_URL = "http://localhost:11434/api/generate"
 MODEL_NAME = "qwen2.5-coder:7b"
+LOCAL_TIMEOUT_SECONDS = 120
+
+# Choose main backend
+USE_REMOTE_AI = True  # set False to use local Ollama as primary
 
 
-def call_ollama(prompt: str) -> str:
-    """
-    Call local Ollama with Qwen2.5-Coder and return the generated HTML+CSS.
-    """
-    # You can tune this system-style prefix to control what the model outputs
-    system_instruction = """
+def build_system_instruction() -> str:
+    return """
 You are an AI that generates HTML and CSS only.
 
 Requirements:
@@ -2249,47 +6274,113 @@ Requirements:
 - Do NOT include any <script> tags or JavaScript code.
 - Do NOT include explanations or comments in natural language.
 - Just respond with the pure HTML (and embedded CSS).
-"""
+""".strip()
 
-    full_prompt = f"""{system_instruction}
 
-User requirement:
-{prompt}
-"""
+def html_error_page(msg: str) -> str:
+    safe_msg = (msg or "Unknown error").replace("<", "&lt;").replace(">", "&gt;")
+    return f"""<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Error</title>
+  <style>
+    body {{ font-family: system-ui, sans-serif; background:#2b2b2b; color:#f5f5f5; padding:2rem; }}
+    .error {{ color:#ff6b6b; font-weight:700; }}
+    pre {{ white-space: pre-wrap; background:#1f1f1f; padding:1rem; border-radius:10px; }}
+  </style>
+</head>
+<body>
+  <h1>Ooops…</h1>
+  <p class="error">No se ha podido generar la página con la IA.</p>
+  <pre>{safe_msg}</pre>
+</body>
+</html>"""
 
+
+def call_remote_ai(question: str) -> str:
+    """
+    Calls remote PHP endpoint:
+      POST API_URL
+      headers: X-API-Key
+      form-data: question=...
+    Expects JSON: {"answer": "..."}
+    """
+    resp = requests.post(
+        API_URL,
+        headers={"X-API-Key": API_KEY},
+        data={"question": question},
+        timeout=REMOTE_TIMEOUT_SECONDS,
+        verify=REMOTE_VERIFY_SSL,
+    )
+
+    if resp.status_code != 200:
+        raise RuntimeError(f"Remote API HTTP {resp.status_code}: {resp.text}")
+
+    try:
+        data = resp.json()
+    except Exception:
+        raise RuntimeError(f"Remote API returned non-JSON: {resp.text}")
+
+    answer = data.get("answer")
+    if not answer:
+        raise RuntimeError(f"Remote API JSON has no 'answer': {data}")
+
+    return str(answer).strip()
+
+
+def call_local_ollama(full_prompt: str) -> str:
+    """
+    Calls local Ollama /api/generate and returns 'response'
+    """
     payload = {
         "model": MODEL_NAME,
         "prompt": full_prompt,
         "stream": False
     }
 
-    try:
-        resp = requests.post(OLLAMA_URL, json=payload, timeout=120)
-        resp.raise_for_status()
-        data = resp.json()
-        # Ollama's /generate returns {"response": "...", "done": true, ...}
-        return data.get("response", "").strip()
-    except Exception as e:
-        print("Error calling Ollama:", e)
-        # Fallback: simple error page in HTML
-        return f"""
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>Error</title>
-    <style>
-        body {{ font-family: sans-serif; background:#2b2b2b; color:#f5f5f5; padding:2rem; }}
-        .error {{ color:#ff6b6b; font-weight:bold; }}
-    </style>
-</head>
-<body>
-    <h1>Ooops…</h1>
-    <p class="error">No se ha podido generar la página con la IA.</p>
-    <p>Detalles técnicos: {e}</p>
-</body>
-</html>
-        """
+    resp = requests.post(OLLAMA_URL, json=payload, timeout=LOCAL_TIMEOUT_SECONDS)
+    resp.raise_for_status()
+    data = resp.json()
+    return (data.get("response") or "").strip()
+
+
+def call_ai(prompt: str) -> str:
+    """
+    Generates HTML+CSS using:
+      - Remote API (primary if USE_REMOTE_AI)
+      - Local Ollama fallback (optional)
+    """
+    system_instruction = build_system_instruction()
+
+    # Keep the structure simple and deterministic
+    full_prompt = f"""{system_instruction}
+
+User requirement:
+{prompt}
+""".strip()
+
+    # For the remote endpoint we send "question" (same semantics as your sample script).
+    question = full_prompt
+
+    if USE_REMOTE_AI:
+        try:
+            return call_remote_ai(question)
+        except Exception as e:
+            # Fallback to local (if available). If you don't want fallback, re-raise instead.
+            try:
+                return call_local_ollama(full_prompt)
+            except Exception as e2:
+                raise RuntimeError(f"Remote failed: {e} | Local fallback failed: {e2}")
+    else:
+        # Local first, remote fallback
+        try:
+            return call_local_ollama(full_prompt)
+        except Exception as e:
+            try:
+                return call_remote_ai(question)
+            except Exception as e2:
+                raise RuntimeError(f"Local failed: {e} | Remote fallback failed: {e2}")
 
 
 @app.route("/")
@@ -2300,12 +6391,18 @@ def index():
 @app.route("/generate", methods=["POST"])
 def generate():
     data = request.get_json(force=True)
-    prompt = data.get("prompt", "").strip()
+    prompt = (data.get("prompt") or "").strip()
     if not prompt:
         return jsonify({"error": "Empty prompt"}), 400
 
-    html = call_ollama(prompt)
-    return jsonify({"html": html})
+    try:
+        html = call_ai(prompt)
+        if not html:
+            return jsonify({"html": html_error_page("La IA devolvió una respuesta vacía.")})
+        return jsonify({"html": html})
+    except Exception as e:
+        # Return an HTML error page so the iframe shows something useful
+        return jsonify({"html": html_error_page(str(e))})
 
 
 if __name__ == "__main__":
@@ -2358,6 +6455,8 @@ if __name__ == "__main__":
 
 <a id="entrenamiento-ia"></a>
 ## Entrenamiento IA
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/009-Proyectos%20segundo%20trimestre/003-Entrenamiento%20IA)
 
 ### Introducción a los ejercicios
 
@@ -2452,7 +6551,7 @@ Este conjunto de archivos provee un marco completo para aprender y aplicar técn
 Si tienes alguna pregunta o necesitas más detalles sobre cualquier parte del proceso, por favor avísame!
 
 ### entrenar
-<small>Creado: 2025-11-27 19:26</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2711,7 +6810,7 @@ if __name__ == "__main__":
 ```
 
 ### probar
-<small>Creado: 2025-11-27 19:26</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -2947,7 +7046,7 @@ if __name__ == "__main__":
 ```
 
 ### training_data
-<small>Creado: 2025-11-27 19:26</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -3139,6 +7238,8 @@ Después del entrenamiento, podrías usar este modelo personalizado en aplicacio
 <a id="entrenar-chatbot-a-partir-de-whatsapp"></a>
 ## entrenar chatbot a partir de whatsapp
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/009-Proyectos%20segundo%20trimestre/004-entrenar%20chatbot%20a%20partir%20de%20whatsapp)
+
 ### Introducción a los ejercicios
 
 Aquí tienes la información y los pasos que has proporcionado organizados de manera clara:
@@ -3191,7 +7292,7 @@ Ana ha decidido cursar DAW en el turno de tarde y está esperando la formalizaci
 Si Ana necesita ayuda adicional con los trámites o cualquier otra pregunta sobre el ciclo formativo, María estará disponible para ayudarla.
 
 ### whatsapp a jsonl
-<small>Creado: 2025-11-27 19:26</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -3506,7 +7607,7 @@ if __name__ == "__main__":
 ```
 
 ### entrenamiento
-<small>Creado: 2025-11-27 19:26</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -3759,7 +7860,7 @@ if __name__ == "__main__":
 ```
 
 ### probar
-<small>Creado: 2025-11-27 19:26</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -3989,7 +8090,7 @@ if __name__ == "__main__":
 ```
 
 ### probar interactivo
-<small>Creado: 2025-11-27 19:26</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -4126,7 +8227,7 @@ if __name__ == "__main__":
 ```
 
 ### app
-<small>Creado: 2025-11-27 19:26</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -4262,7 +8363,7 @@ if __name__ == "__main__":
 ```
 
 ### conversacion
-<small>Creado: 2025-11-27 19:26</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -4312,7 +8413,7 @@ Es importante porque permite al chatbot entender mejor las consultas comunes de 
 ```
 
 ### conversacion
-<small>Creado: 2025-11-27 19:26</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -4482,6 +8583,8 @@ Al seguir estos pasos, puedes tener un entorno Python completamente configurado 
 <a id="entrenar-chatbot-a-partir-de-pdf"></a>
 ## entrenar chatbot a partir de pdf
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/009-Proyectos%20segundo%20trimestre/005-entrenar%20chatbot%20a%20partir%20de%20pdf)
+
 ### Introducción a los ejercicios
 
 El código proporcionado es un script Python diseñado para generar conjuntos de preguntas y respuestas (Q&A) a partir de transcripciones de texto almacenadas en archivos .txt o .md. El script utiliza un modelo de lenguaje llamado Ollama para la generación de Q&A y guarda los resultados en archivos JSONL individuales. A continuación, se desglosa el funcionamiento principal del código:
@@ -4525,7 +8628,7 @@ El script es útil para la generación automática de conjuntos de preguntas y r
 Este script proporciona una base sólida para generar Q&A a partir de transcripciones de texto, con potencial para ser adaptado o extendido según las necesidades específicas del usuario.
 
 ### prompt
-<small>Creado: 2025-11-27 19:26</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -4968,7 +9071,7 @@ if __name__ == "__main__":
 ```
 
 ### pdf a md
-<small>Creado: 2025-11-27 19:26</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -5002,7 +9105,7 @@ if __name__ == "__main__":
 ```
 
 ### prueba
-<small>Creado: 2025-11-27 19:26</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -5044,7 +9147,7 @@ if __name__ == "__main__":
 ```
 
 ### md a jsonl
-<small>Creado: 2025-11-27 19:26</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -5695,7 +9798,7 @@ if __name__ == "__main__":
 ```
 
 ### streaming
-<small>Creado: 2025-11-27 19:27</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -6333,7 +10436,7 @@ if __name__ == "__main__":
 ```
 
 ### estadisticas
-<small>Creado: 2025-11-27 23:49</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -7181,6 +11284,8 @@ Este script es un ejemplo avanzado del uso de la IA para automatizar tareas repe
 <a id="scrapeador-web-y-entrenamiento"></a>
 ## scrapeador web y entrenamiento
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/009-Proyectos%20segundo%20trimestre/006-scrapeador%20web%20y%20entrenamiento)
+
 ### Introducción a los ejercicios
 
 Este script Python es una herramienta para generar conjuntos de preguntas y respuestas (Q&A) a partir de documentos multiformato. Aquí hay un resumen del flujo principal y las características clave:
@@ -7220,7 +11325,7 @@ Funciones clave:
 El script es modular y bien estructurado, con funciones específicas para tareas como normalizar texto, dividir en bloques, generar Q&A y manejar la salida. También incluye características útiles como seguimiento del progreso y registro de logs.
 
 ### Entrar en una web
-<small>Creado: 2025-12-02 17:16</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -7249,7 +11354,7 @@ except requests.exceptions.RequestException as e:
 ```
 
 ### guardar web
-<small>Creado: 2025-12-02 17:17</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -7294,7 +11399,7 @@ except requests.exceptions.RequestException as e:
 ```
 
 ### adivinar nombre de la web
-<small>Creado: 2025-12-02 17:19</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -7370,7 +11475,7 @@ except requests.exceptions.RequestException as e:
 ```
 
 ### timeout entre paginas
-<small>Creado: 2025-12-02 17:23</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -7538,7 +11643,7 @@ if __name__ == "__main__":
 ```
 
 ### tambien quiero los pdf
-<small>Creado: 2025-12-02 17:32</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -7756,7 +11861,7 @@ if __name__ == "__main__":
 ```
 
 ### entrenar IA con todos los materiales
-<small>Creado: 2025-12-02 18:38</small>
+<small>Creado: 2025-12-22 20:03</small>
 
 #### Explicación
 
@@ -8664,12 +12769,1523 @@ Con estas modificaciones, el script puede ser más eficiente y flexible para man
 <a id="interfaz-natural-ia"></a>
 ## interfaz natural IA
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/009-Proyectos%20segundo%20trimestre/007-interfaz%20natural%20IA)
+
+### inicio
+<small>Creado: 2025-12-23 15:27</small>
+
+`001-inicio.html`
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Bounce AI – Dual Radial Visualizer</title>
+    <style>
+        body{
+            margin:0;
+            height:100vh;
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            justify-content:center;
+            background:#111;
+            color:#eee;
+            font-family:sans-serif;
+            gap:1rem;
+        }
+        .row{
+            display:flex;
+            gap:2rem;
+            align-items:center;
+            justify-content:center;
+        }
+        canvas{
+            background:#111;
+            border-radius:50%;
+        }
+        button{
+            padding:0.5rem 1rem;
+            border-radius:999px;
+            border:none;
+            cursor:pointer;
+            font-size:1rem;
+        }
+        .labels{
+            display:flex;
+            justify-content:space-between;
+            width:100%;
+            max-width:900px;
+            font-size:0.9rem;
+            opacity:0.8;
+        }
+        .labels span{
+            flex:1;
+            text-align:center;
+        }
+        .text-row{
+            max-width:900px;
+            width:100%;
+            display:flex;
+            flex-direction:column;
+            gap:0.35rem;
+            font-size:0.9rem;
+        }
+        .bubble{
+            background:#222;
+            padding:0.5rem 0.75rem;
+            border-radius:0.5rem;
+            min-height:1.4rem;
+            word-break:break-word;
+        }
+        .bubble span.label{
+            opacity:0.6;
+            font-size:0.8rem;
+            display:block;
+            margin-bottom:0.2rem;
+            text-transform:uppercase;
+            letter-spacing:0.06em;
+        }
+        .labels,.text-row{
+          display:none;
+        }
+        #startBtn{
+          opacity:0.1;
+        }
+    </style>
+</head>
+<body>
+    <button id="startBtn">Start bounce AI (mic + speech)</button>
+
+    <div class="row">
+        <canvas id="humanCanvas" width="400" height="400"></canvas>
+        <canvas id="aiCanvas" width="400" height="400"></canvas>
+    </div>
+
+    <div class="labels">
+        <span>👤 Humano (micrófono)</span>
+        <span>🤖 “IA” (speech synthesis)</span>
+    </div>
+
+    <div class="text-row">
+        <div class="bubble">
+            <span class="label">Tú dices</span>
+            <span id="humanText"></span>
+        </div>
+        <div class="bubble">
+            <span class="label">La “IA” repite</span>
+            <span id="aiText"></span>
+        </div>
+    </div>
+
+    <script>
+        // -------------------- CONFIG VISUAL --------------------
+        const numRings       = 24;
+        const ringWidth      = 6;
+        const innerRadius    = 30;
+        const maxOpacity     = 0.9;
+        const minOpacity     = 0.15;
+        const minSpanFactor  = 0.3;   // span base * this when no sound
+        const maxSpanFactor  = 2.0;   // span base * this with loud sound
+        const audioAngleBoost = 0.02; // how much audio pushes angle
+        const baseBgAlpha    = 0.18;  // trail
+
+        // -------------------- CANVASES --------------------
+        const humanCanvas = document.getElementById("humanCanvas");
+        const aiCanvas    = document.getElementById("aiCanvas");
+        const hctx = humanCanvas.getContext("2d");
+        const actx = aiCanvas.getContext("2d");
+        const HW = humanCanvas.width;
+        const HH = humanCanvas.height;
+        const AW = aiCanvas.width;
+        const AH = aiCanvas.height;
+
+        // -------------------- RING CLASS --------------------
+        class Ring {
+            constructor(i, innerRadiusLocal, ringWidthLocal) {
+                this.type = Math.floor(Math.random() * 4); // 0..3
+                this.r = innerRadiusLocal + i * ringWidthLocal * 1.3;
+                this.baseSpan = Math.random() * Math.PI * 1.5 + Math.PI * 0.3;
+                this.phase = Math.random() * Math.PI * 2;
+                this.speed = (Math.random() - 0.5) * 0.01; // base angular speed
+
+                // extra per-ring noise phase for AI visualizer
+                this.noisePhase = Math.random() * Math.PI * 2;
+                this.noiseSpeed = 0.01 + Math.random() * 0.02;
+            }
+        }
+
+        const humanRings = [];
+        const aiRings    = [];
+        for (let i = 0; i < numRings; i++) {
+            humanRings.push(new Ring(i, innerRadius, ringWidth));
+            aiRings.push(new Ring(i, innerRadius, ringWidth));
+        }
+
+        // -------------------- AUDIO – HUMAN (MIC) --------------------
+        let audioCtx = null;
+        let analyserHuman = null;
+        let dataArrayHuman = null;
+
+        async function initHumanAudio() {
+            if (audioCtx) return; // already initialized
+
+            audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+            const stream = await navigator.mediaDevices.getUserMedia({ audio: true, video: false });
+            const source = audioCtx.createMediaStreamSource(stream);
+
+            analyserHuman = audioCtx.createAnalyser();
+            analyserHuman.fftSize = 1024;
+            const bufferLength = analyserHuman.frequencyBinCount;
+            dataArrayHuman = new Uint8Array(bufferLength);
+
+            source.connect(analyserHuman);
+        }
+
+        function getBandEnergyForRing(ringIndex) {
+            if (!analyserHuman || !dataArrayHuman) return 0;
+
+            analyserHuman.getByteFrequencyData(dataArrayHuman);
+            const len = dataArrayHuman.length;
+
+            const bandSize = Math.floor(len / numRings) || 1;
+            const start = ringIndex * bandSize;
+            const end = Math.min(start + bandSize, len);
+
+            let sum = 0;
+            for (let i = start; i < end; i++) {
+                sum += dataArrayHuman[i];
+            }
+
+            const avg = sum / (end - start || 1);
+            return avg / 255; // 0..1
+        }
+
+        // -------------------- "AI" AUDIO ENVELOPE (FAKE ANALYSER) --------------------
+        // We can't access speechSynthesis raw PCM, so we approximate with a smooth,
+        // noisy envelope that behaves similar to the mic visualizer.
+        let aiSpeaking = false;
+        let aiLevel = 0;     // global energy 0..1
+        let aiPhase = 0;     // global noise phase
+
+        function updateAiEnvelope() {
+            // Smooth approach to a "target" level when speaking / silence
+            const target = aiSpeaking ? 0.7 : 0.0;
+            const speed  = aiSpeaking ? 0.05 : 0.03; // approach speed
+
+            aiLevel += (target - aiLevel) * speed;
+            aiPhase += 0.03;
+        }
+
+        function getAiEnergyForRing(ringIndex) {
+            // energy ~ aiLevel with per-ring variation
+            const ring = aiRings[ringIndex];
+            ring.noisePhase += ring.noiseSpeed * 0.5;
+
+            // base noise between 0.7 and 1.0 when level is high, but scaled by aiLevel
+            const n = 0.5 + 0.5 * Math.sin(aiPhase + ringIndex * 0.7 + ring.noisePhase);
+            // mix with aiLevel to avoid all-or-nothing
+            const energy = aiLevel * (0.4 + 0.6 * n); // 0 .. ~ aiLevel
+
+            return energy; // 0..~1
+        }
+
+        // -------------------- SPEECH: RECOGNITION + SYNTHESIS --------------------
+        const humanTextEl = document.getElementById("humanText");
+        const aiTextEl    = document.getElementById("aiText");
+
+        let recognition = null;
+        let listening = false;
+
+        function initRecognition() {
+            const SpeechRec =
+                window.SpeechRecognition ||
+                window.webkitSpeechRecognition;
+
+            if (!SpeechRec) {
+                alert("webkitSpeechRecognition no está disponible en este navegador.");
+                return;
+            }
+
+            recognition = new SpeechRec();
+            recognition.lang = "es-ES";
+            recognition.continuous = false;
+            recognition.interimResults = false;
+
+            recognition.onresult = (event) => {
+                const transcript = event.results[0][0].transcript.trim();
+                humanTextEl.textContent = transcript;
+
+                // Bounce: IA repeats the same text in Spanish
+                speakAI(transcript);
+            };
+
+            recognition.onerror = (e) => {
+                console.error("Recognition error:", e);
+            };
+
+            recognition.onend = () => {
+                if (listening) {
+                    // Restart recognition to keep bounce AI going
+                    try {
+                        recognition.start();
+                    } catch (e) {
+                        console.warn("Restart recognition error:", e);
+                    }
+                }
+            };
+        }
+
+        function speakAI(text) {
+            if (!("speechSynthesis" in window)) {
+                alert("Speech Synthesis no está disponible en este navegador.");
+                return;
+            }
+
+            const utter = new SpeechSynthesisUtterance(text);
+            utter.lang = "es-ES";
+
+            utter.onstart = () => {
+                aiSpeaking = true;
+                aiTextEl.textContent = text;
+            };
+
+            utter.onend = () => {
+                aiSpeaking = false;
+            };
+
+            // stop any current speech
+            window.speechSynthesis.cancel();
+            window.speechSynthesis.speak(utter);
+        }
+
+        // -------------------- ANIMATION DRAW --------------------
+        function drawVisualizer(ctx, rings, W, H, energyFn) {
+            // background with alpha trail
+            ctx.fillStyle = `rgba(0,0,0,${baseBgAlpha})`;
+            ctx.fillRect(0, 0, W, H);
+
+            ctx.save();
+            ctx.translate(W / 2, H / 2);
+
+            for (let i = 0; i < rings.length; i++) {
+                const ring = rings[i];
+
+                const energy = energyFn(i); // 0..1
+
+                const spanFactor = minSpanFactor + (maxSpanFactor - minSpanFactor) * energy;
+                const span = ring.baseSpan * spanFactor;
+
+                ring.phase += ring.speed + energy * audioAngleBoost;
+
+                const a1 = ring.phase;
+                const a2 = ring.phase + span;
+
+                const lw = ringWidth + energy * 4;
+                const opacity = minOpacity + (maxOpacity - minOpacity) * energy;
+
+                switch (ring.type) {
+                    case 0: // arco simple
+                        ctx.strokeStyle = `rgba(255,255,255,${opacity})`;
+                        ctx.lineWidth = lw;
+                        ctx.beginPath();
+                        ctx.arc(0, 0, ring.r, a1, a2, false);
+                        ctx.stroke();
+                        ctx.closePath();
+                        break;
+
+                    case 1: // área tipo "quesito"
+                        ctx.fillStyle = `rgba(255,255,255,${opacity * 0.7})`;
+                        ctx.beginPath();
+                        ctx.moveTo(0, 0);
+                        ctx.arc(0, 0, ring.r, a1, a2, false);
+                        ctx.closePath();
+                        ctx.fill();
+                        break;
+
+                    case 2: // trocitos + puntas marcadas
+                        ctx.strokeStyle = `rgba(255,255,255,${opacity})`;
+                        ctx.lineWidth = lw;
+                        const step = 0.08;
+                        for (let a = a1; a < a2; a += step) {
+                            ctx.beginPath();
+                            ctx.arc(0, 0, ring.r, a, a + step * 0.5, false);
+                            ctx.stroke();
+                            ctx.closePath();
+                        }
+
+                        // remarcar puntas
+                        ctx.lineWidth = lw + 6;
+                        ctx.beginPath();
+                        ctx.arc(0, 0, ring.r, a1, a1 + 0.03, false);
+                        ctx.stroke();
+                        ctx.closePath();
+                        ctx.beginPath();
+                        ctx.arc(0, 0, ring.r, a2 - 0.03, a2, false);
+                        ctx.stroke();
+                        ctx.closePath();
+                        break;
+
+                    case 3: // arco fino + puntos en extremos
+                        ctx.strokeStyle = `rgba(255,255,255,${opacity})`;
+                        ctx.lineWidth = 1 + energy * 2;
+                        ctx.beginPath();
+                        ctx.arc(0, 0, ring.r, a1, a2, false);
+                        ctx.stroke();
+                        ctx.closePath();
+
+                        const x1 = Math.cos(a1) * ring.r;
+                        const y1 = Math.sin(a1) * ring.r;
+                        const x2 = Math.cos(a2) * ring.r;
+                        const y2 = Math.sin(a2) * ring.r;
+
+                        const puntoR = 3 + energy * 4;
+                        ctx.beginPath();
+                        ctx.arc(x1, y1, puntoR, 0, Math.PI * 2, true);
+                        ctx.fillStyle = `rgba(255,255,255,${opacity})`;
+                        ctx.fill();
+                        ctx.closePath();
+
+                        ctx.beginPath();
+                        ctx.arc(x2, y2, puntoR, 0, Math.PI * 2, true);
+                        ctx.fill();
+                        ctx.closePath();
+                        break;
+                }
+            }
+
+            ctx.restore();
+        }
+
+        function animate() {
+            // update fake AI envelope before drawing
+            updateAiEnvelope();
+
+            // human visualizer (real mic analyser)
+            drawVisualizer(hctx, humanRings, HW, HH, getBandEnergyForRing);
+
+            // AI visualizer (smooth/noisy envelope, similar thresholds)
+            drawVisualizer(actx, aiRings, AW, AH, getAiEnergyForRing);
+
+            requestAnimationFrame(animate);
+        }
+
+        // -------------------- START BUTTON --------------------
+        document.getElementById("startBtn").addEventListener("click", async () => {
+            try {
+                await initHumanAudio();
+                initRecognition();
+                listening = true;
+                if (recognition) {
+                    recognition.start();
+                }
+                document.getElementById("startBtn").style.display = "none";
+                animate();
+            } catch (e) {
+                console.error(e);
+                alert("Error inicializando audio o reconocimiento.");
+            }
+        });
+    </script>
+</body>
+</html>
+```
+
+### un solo widget
+<small>Creado: 2025-12-23 15:27</small>
+
+`002-un solo widget.html`
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Bounce AI – Single Radial Visualizer</title>
+    <style>
+        body{
+            margin:0;
+            height:100vh;
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            justify-content:center;
+            background:DarkGreen;          /* menos oscuro, DarkGreen */
+            color:#f5fff5;
+            font-family:sans-serif;
+            gap:1rem;
+        }
+        .row{
+            display:flex;
+            gap:2rem;
+            align-items:center;
+            justify-content:center;
+        }
+        canvas{
+            background:#0b3d0b;           /* verde oscuro suave */
+            border-radius:50%;
+            box-shadow:0 0 25px rgba(0,0,0,0.4);
+        }
+        button{
+            padding:0.5rem 1rem;
+            border-radius:999px;
+            border:none;
+            cursor:pointer;
+            font-size:1rem;
+            background:#e0ffe0;
+            color:#064406;
+        }
+        .labels{
+            display:flex;
+            justify-content:space-between;
+            width:100%;
+            max-width:900px;
+            font-size:0.9rem;
+            opacity:0.8;
+        }
+        .labels span{
+            flex:1;
+            text-align:center;
+        }
+        .text-row{
+            max-width:900px;
+            width:100%;
+            display:flex;
+            flex-direction:column;
+            gap:0.35rem;
+            font-size:0.9rem;
+        }
+        .bubble{
+            background:rgba(0,0,0,0.25);
+            padding:0.5rem 0.75rem;
+            border-radius:0.5rem;
+            min-height:1.4rem;
+            word-break:break-word;
+        }
+        .bubble span.label{
+            opacity:0.7;
+            font-size:0.8rem;
+            display:block;
+            margin-bottom:0.2rem;
+            text-transform:uppercase;
+            letter-spacing:0.06em;
+        }
+        .labels,.text-row{
+          display:none; /* como en el original */
+        }
+        #startBtn{
+          opacity:0.9;
+        }
+    </style>
+</head>
+<body>
+    <button id="startBtn">Start bounce AI (mic + speech)</button>
+
+    <div class="row">
+        <!-- Un solo widget para humano + IA -->
+        <canvas id="visualCanvas" width="400" height="400"></canvas>
+    </div>
+
+    <div class="labels">
+        <span>👤 Humano (micrófono)</span>
+        <span>🤖 “IA” (speech synthesis)</span>
+    </div>
+
+    <div class="text-row">
+        <div class="bubble">
+            <span class="label">Tú dices</span>
+            <span id="humanText"></span>
+        </div>
+        <div class="bubble">
+            <span class="label">La “IA” repite</span>
+            <span id="aiText"></span>
+        </div>
+    </div>
+
+    <script>
+        // -------------------- CONFIG VISUAL --------------------
+        const numRings       = 24;
+        const ringWidth      = 6;
+        const innerRadius    = 30;
+        const maxOpacity     = 0.9;
+        const minOpacity     = 0.15;
+        const minSpanFactor  = 0.3;   // span base * this when no sound
+        const maxSpanFactor  = 2.0;   // span base * this with loud sound
+        const audioAngleBoost = 0.02; // how much audio pushes angle
+        const baseBgAlpha    = 0.18;  // trail
+
+        // -------------------- CANVAS ÚNICO --------------------
+        const visualCanvas = document.getElementById("visualCanvas");
+        const vctx = visualCanvas.getContext("2d");
+        const VW = visualCanvas.width;
+        const VH = visualCanvas.height;
+
+        // -------------------- RING CLASS --------------------
+        class Ring {
+            constructor(i, innerRadiusLocal, ringWidthLocal) {
+                this.type = Math.floor(Math.random() * 4); // 0..3
+                this.r = innerRadiusLocal + i * ringWidthLocal * 1.3;
+                this.baseSpan = Math.random() * Math.PI * 1.5 + Math.PI * 0.3;
+                this.phase = Math.random() * Math.PI * 2;
+                this.speed = (Math.random() - 0.5) * 0.01; // base angular speed
+
+                // extra per-ring noise phase para IA
+                this.noisePhase = Math.random() * Math.PI * 2;
+                this.noiseSpeed = 0.01 + Math.random() * 0.02;
+            }
+        }
+
+        const rings = [];
+        for (let i = 0; i < numRings; i++) {
+            rings.push(new Ring(i, innerRadius, ringWidth));
+        }
+
+        // -------------------- AUDIO – HUMAN (MIC) --------------------
+        let audioCtx = null;
+        let analyserHuman = null;
+        let dataArrayHuman = null;
+
+        async function initHumanAudio() {
+            if (audioCtx) return; // ya inicializado
+
+            audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+            const stream = await navigator.mediaDevices.getUserMedia({ audio: true, video: false });
+            const source = audioCtx.createMediaStreamSource(stream);
+
+            analyserHuman = audioCtx.createAnalyser();
+            analyserHuman.fftSize = 1024;
+            const bufferLength = analyserHuman.frequencyBinCount;
+            dataArrayHuman = new Uint8Array(bufferLength);
+
+            source.connect(analyserHuman);
+        }
+
+        function getHumanEnergyForRing(ringIndex) {
+            if (!analyserHuman || !dataArrayHuman) return 0;
+
+            analyserHuman.getByteFrequencyData(dataArrayHuman);
+            const len = dataArrayHuman.length;
+
+            const bandSize = Math.floor(len / numRings) || 1;
+            const start = ringIndex * bandSize;
+            const end = Math.min(start + bandSize, len);
+
+            let sum = 0;
+            for (let i = start; i < end; i++) {
+                sum += dataArrayHuman[i];
+            }
+
+            const avg = sum / (end - start || 1);
+            return avg / 255; // 0..1
+        }
+
+        // -------------------- "IA" AUDIO ENVELOPE (FAKE ANALYSER) --------------------
+        let aiSpeaking = false;
+        let aiLevel = 0;     // global energy 0..1
+        let aiPhase = 0;     // global noise phase
+
+        function updateAiEnvelope() {
+            const target = aiSpeaking ? 0.7 : 0.0;
+            const speed  = aiSpeaking ? 0.05 : 0.03;
+
+            aiLevel += (target - aiLevel) * speed;
+            aiPhase += 0.03;
+        }
+
+        function getAiEnergyForRing(ringIndex) {
+            const ring = rings[ringIndex];
+            ring.noisePhase += ring.noiseSpeed * 0.5;
+
+            const n = 0.5 + 0.5 * Math.sin(aiPhase + ringIndex * 0.7 + ring.noisePhase);
+            const energy = aiLevel * (0.4 + 0.6 * n);
+
+            return energy; // 0..~1
+        }
+
+        // Combina humano + IA en el mismo widget
+        function getCombinedEnergyForRing(ringIndex) {
+            const eh = getHumanEnergyForRing(ringIndex);
+            const ea = getAiEnergyForRing(ringIndex);
+            // combinación sencilla: suma y limitamos a 1
+            return Math.min(1, eh + ea);
+        }
+
+        // -------------------- SPEECH: RECOGNITION + SYNTHESIS --------------------
+        const humanTextEl = document.getElementById("humanText");
+        const aiTextEl    = document.getElementById("aiText");
+
+        let recognition = null;
+        let listening = false;
+
+        function initRecognition() {
+            const SpeechRec =
+                window.SpeechRecognition ||
+                window.webkitSpeechRecognition;
+
+            if (!SpeechRec) {
+                alert("webkitSpeechRecognition no está disponible en este navegador.");
+                return;
+            }
+
+            recognition = new SpeechRec();
+            recognition.lang = "es-ES";
+            recognition.continuous = false;
+            recognition.interimResults = false;
+
+            recognition.onresult = (event) => {
+                const transcript = event.results[0][0].transcript.trim();
+                humanTextEl.textContent = transcript;
+
+                // Bounce: IA repite el mismo texto en español
+                speakAI(transcript);
+            };
+
+            recognition.onerror = (e) => {
+                console.error("Recognition error:", e);
+            };
+
+            recognition.onend = () => {
+                if (listening) {
+                    try {
+                        recognition.start();
+                    } catch (e) {
+                        console.warn("Restart recognition error:", e);
+                    }
+                }
+            };
+        }
+
+        function speakAI(text) {
+            if (!("speechSynthesis" in window)) {
+                alert("Speech Synthesis no está disponible en este navegador.");
+                return;
+            }
+
+            const utter = new SpeechSynthesisUtterance(text);
+            utter.lang = "es-ES";
+
+            utter.onstart = () => {
+                aiSpeaking = true;
+                aiTextEl.textContent = text;
+            };
+
+            utter.onend = () => {
+                aiSpeaking = false;
+            };
+
+            window.speechSynthesis.cancel();
+            window.speechSynthesis.speak(utter);
+        }
+
+        // -------------------- ANIMATION DRAW --------------------
+        function drawVisualizer(ctx, rings, W, H, energyFn) {
+            // fondo con estela, en verde oscuro en lugar de puro negro
+            ctx.fillStyle = `rgba(0,50,0,${baseBgAlpha})`;
+            ctx.fillRect(0, 0, W, H);
+
+            ctx.save();
+            ctx.translate(W / 2, H / 2);
+
+            for (let i = 0; i < rings.length; i++) {
+                const ring = rings[i];
+
+                const energy = energyFn(i); // 0..1
+
+                const spanFactor = minSpanFactor + (maxSpanFactor - minSpanFactor) * energy;
+                const span = ring.baseSpan * spanFactor;
+
+                ring.phase += ring.speed + energy * audioAngleBoost;
+
+                const a1 = ring.phase;
+                const a2 = ring.phase + span;
+
+                const lw = ringWidth + energy * 4;
+                const opacity = minOpacity + (maxOpacity - minOpacity) * energy;
+
+                // tonos claros, ligeramente verdosos
+                const strokeColor = `rgba(230,255,230,${opacity})`;
+                const fillColor   = `rgba(230,255,230,${opacity * 0.7})`;
+
+                switch (ring.type) {
+                    case 0: // arco simple
+                        ctx.strokeStyle = strokeColor;
+                        ctx.lineWidth = lw;
+                        ctx.beginPath();
+                        ctx.arc(0, 0, ring.r, a1, a2, false);
+                        ctx.stroke();
+                        ctx.closePath();
+                        break;
+
+                    case 1: // área tipo "quesito"
+                        ctx.fillStyle = fillColor;
+                        ctx.beginPath();
+                        ctx.moveTo(0, 0);
+                        ctx.arc(0, 0, ring.r, a1, a2, false);
+                        ctx.closePath();
+                        ctx.fill();
+                        break;
+
+                    case 2: // trocitos + puntas marcadas
+                        ctx.strokeStyle = strokeColor;
+                        ctx.lineWidth = lw;
+                        const step = 0.08;
+                        for (let a = a1; a < a2; a += step) {
+                            ctx.beginPath();
+                            ctx.arc(0, 0, ring.r, a, a + step * 0.5, false);
+                            ctx.stroke();
+                            ctx.closePath();
+                        }
+
+                        // remarcar puntas
+                        ctx.lineWidth = lw + 6;
+                        ctx.beginPath();
+                        ctx.arc(0, 0, ring.r, a1, a1 + 0.03, false);
+                        ctx.stroke();
+                        ctx.closePath();
+                        ctx.beginPath();
+                        ctx.arc(0, 0, ring.r, a2 - 0.03, a2, false);
+                        ctx.stroke();
+                        ctx.closePath();
+                        break;
+
+                    case 3: // arco fino + puntos en extremos
+                        ctx.strokeStyle = strokeColor;
+                        ctx.lineWidth = 1 + energy * 2;
+                        ctx.beginPath();
+                        ctx.arc(0, 0, ring.r, a1, a2, false);
+                        ctx.stroke();
+                        ctx.closePath();
+
+                        const x1 = Math.cos(a1) * ring.r;
+                        const y1 = Math.sin(a1) * ring.r;
+                        const x2 = Math.cos(a2) * ring.r;
+                        const y2 = Math.sin(a2) * ring.r;
+
+                        const puntoR = 3 + energy * 4;
+                        ctx.beginPath();
+                        ctx.arc(x1, y1, puntoR, 0, Math.PI * 2, true);
+                        ctx.fillStyle = strokeColor;
+                        ctx.fill();
+                        ctx.closePath();
+
+                        ctx.beginPath();
+                        ctx.arc(x2, y2, puntoR, 0, Math.PI * 2, true);
+                        ctx.fill();
+                        ctx.closePath();
+                        break;
+                }
+            }
+
+            ctx.restore();
+        }
+
+        function animate() {
+            updateAiEnvelope();
+
+            drawVisualizer(vctx, rings, VW, VH, getCombinedEnergyForRing);
+
+            requestAnimationFrame(animate);
+        }
+
+        // -------------------- START BUTTON --------------------
+        document.getElementById("startBtn").addEventListener("click", async () => {
+            try {
+                await initHumanAudio();
+                initRecognition();
+                listening = true;
+                if (recognition) {
+                    recognition.start();
+                }
+                document.getElementById("startBtn").style.display = "none";
+                animate();
+            } catch (e) {
+                console.error(e);
+                alert("Error inicializando audio o reconocimiento.");
+            }
+        });
+    </script>
+</body>
+</html>
+```
+
+### desfase facial con mediapipe
+<small>Creado: 2025-12-23 15:27</small>
+
+`003-desfase facial con mediapipe.html`
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Bounce AI – Single Radial Visualizer + Head Tracking</title>
+    <style>
+        :root{
+            --grid-color: rgba(0,255,128,0.08);
+        }
+
+        body{
+            margin:0;
+            height:100vh;
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            justify-content:center;
+            background:
+                radial-gradient(circle at 20% 20%, rgba(0,255,160,0.18), transparent 55%),
+                radial-gradient(circle at 80% 80%, rgba(0,200,255,0.14), transparent 55%),
+                linear-gradient(135deg, #00320f, #001109);
+            color:#f5fff5;
+            font-family:sans-serif;
+            gap:1.5rem;
+            overflow:hidden;
+        }
+
+        /* subtle tech grid overlay */
+        body::before{
+            content:"";
+            position:fixed;
+            inset:0;
+            background-image:
+                linear-gradient(transparent 95%, rgba(0,0,0,0.4) 100%),
+                linear-gradient(90deg, var(--grid-color) 1px, transparent 1px),
+                linear-gradient(0deg, var(--grid-color) 1px, transparent 1px);
+            background-size:
+                100% 4px,
+                40px 40px,
+                40px 40px;
+            pointer-events:none;
+            mix-blend-mode:screen;
+            opacity:0.5;
+            z-index:-1;
+        }
+
+        #startBtn{
+            padding:0.6rem 1.4rem;
+            border-radius:999px;
+            border:none;
+            cursor:pointer;
+            font-size:1rem;
+            background:#e0ffe0;
+            color:#064406;
+            box-shadow:0 0 25px rgba(0,0,0,0.5);
+            opacity:0.95;
+        }
+
+        .row{
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            position:relative;
+            padding:1.8rem 2.4rem;
+            border-radius:1.6rem;
+            background:radial-gradient(circle at 50% 0%, rgba(0,255,160,0.12), rgba(0,0,0,0.85));
+            box-shadow:
+                0 0 40px rgba(0,0,0,0.9),
+                0 0 60px rgba(0,255,128,0.12);
+        }
+
+        canvas{
+            background:#0b3d0b;
+            border-radius:50%;
+            box-shadow:
+                0 0 40px rgba(0,0,0,0.7),
+                0 0 35px rgba(0,255,160,0.18);
+        }
+
+        .labels{
+            display:flex;
+            justify-content:space-between;
+            width:100%;
+            max-width:900px;
+            font-size:0.9rem;
+            opacity:0.8;
+        }
+        .labels span{
+            flex:1;
+            text-align:center;
+        }
+        .text-row{
+            max-width:900px;
+            width:100%;
+            display:flex;
+            flex-direction:column;
+            gap:0.35rem;
+            font-size:0.9rem;
+        }
+        .bubble{
+            background:rgba(0,0,0,0.35);
+            padding:0.5rem 0.75rem;
+            border-radius:0.5rem;
+            min-height:1.4rem;
+            word-break:break-word;
+            border:1px solid rgba(0,255,160,0.15);
+        }
+        .bubble span.label{
+            opacity:0.7;
+            font-size:0.8rem;
+            display:block;
+            margin-bottom:0.2rem;
+            text-transform:uppercase;
+            letter-spacing:0.06em;
+        }
+        .labels,.text-row{
+          display:none;
+        }
+
+        #video{
+            display:none;
+        }
+
+        /* depth slider UI */
+        #depthUI{
+            position:fixed;
+            top:10px;
+            left:10px;
+            z-index:10;
+            background:rgba(0,0,0,0.65);
+            border:1px solid rgba(0,255,160,0.25);
+            border-radius:8px;
+            padding:6px 10px;
+            font-size:12px;
+            display:flex;
+            align-items:center;
+            gap:6px;
+            box-shadow:0 0 12px rgba(0,0,0,0.7);
+        }
+        #depthRange{
+            width:130px;
+        }
+    </style>
+</head>
+<body>
+    <div id="depthUI">
+        <span>Depth:</span>
+        <input id="depthRange" type="range" min="0" max="3" step="0.05" value="1">
+        <span id="depthValue">1.00</span>
+    </div>
+
+    <button id="startBtn">Start bounce AI (mic + speech + head)</button>
+
+    <div class="row">
+        <canvas id="visualCanvas" width="400" height="400"></canvas>
+    </div>
+
+    <div class="labels">
+        <span>👤 Humano (micrófono)</span>
+        <span>🤖 “IA” (speech synthesis)</span>
+    </div>
+
+    <div class="text-row">
+        <div class="bubble">
+            <span class="label">Tú dices</span>
+            <span id="humanText"></span>
+        </div>
+        <div class="bubble">
+            <span class="label">La “IA” repite</span>
+            <span id="aiText"></span>
+        </div>
+    </div>
+
+    <video id="video" autoplay playsinline></video>
+
+    <!-- MediaPipe Tasks Vision (FaceLandmarker) -->
+    <script type="module">
+        import {
+          FaceLandmarker,
+          FilesetResolver
+        } from "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.0/vision_bundle.js";
+
+        // -------------------- CONFIG VISUAL --------------------
+        const numRings       = 24;
+        const ringWidth      = 6;
+        const innerRadius    = 30;
+        const maxOpacity     = 0.9;
+        const minOpacity     = 0.15;
+        const minSpanFactor  = 0.3;
+        const maxSpanFactor  = 2.0;
+        const audioAngleBoost = 0.02;
+        const baseBgAlpha    = 0.18;
+
+        const baseParallaxOffset = 35; // base offset
+        let offsetMultiplier = 1.0;    // slider multiplies this
+
+        const depthRange = document.getElementById("depthRange");
+        const depthValue = document.getElementById("depthValue");
+        depthRange.addEventListener("input", e => {
+            offsetMultiplier = parseFloat(e.target.value);
+            depthValue.textContent = offsetMultiplier.toFixed(2);
+        });
+
+        // -------------------- CANVAS --------------------
+        const visualCanvas = document.getElementById("visualCanvas");
+        const vctx = visualCanvas.getContext("2d");
+        const VW = visualCanvas.width;
+        const VH = visualCanvas.height;
+
+        // -------------------- RING CLASS --------------------
+        class Ring {
+            constructor(i, innerRadiusLocal, ringWidthLocal) {
+                this.type = Math.floor(Math.random() * 4);
+                this.r = innerRadiusLocal + i * ringWidthLocal * 1.3;
+                this.baseSpan = Math.random() * Math.PI * 1.5 + Math.PI * 0.3;
+                this.phase = Math.random() * Math.PI * 2;
+                this.speed = (Math.random() - 0.5) * 0.01;
+
+                this.noisePhase = Math.random() * Math.PI * 2;
+                this.noiseSpeed = 0.01 + Math.random() * 0.02;
+            }
+        }
+
+        const rings = [];
+        for (let i = 0; i < numRings; i++) {
+            rings.push(new Ring(i, innerRadius, ringWidth));
+        }
+
+        // -------------------- AUDIO – HUMAN (MIC) --------------------
+        let audioCtx = null;
+        let analyserHuman = null;
+        let dataArrayHuman = null;
+
+        async function initHumanAudio() {
+            if (audioCtx) return;
+
+            audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+            const stream = await navigator.mediaDevices.getUserMedia({ audio: true, video: false });
+            const source = audioCtx.createMediaStreamSource(stream);
+
+            analyserHuman = audioCtx.createAnalyser();
+            analyserHuman.fftSize = 1024;
+            const bufferLength = analyserHuman.frequencyBinCount;
+            dataArrayHuman = new Uint8Array(bufferLength);
+
+            source.connect(analyserHuman);
+        }
+
+        function getHumanEnergyForRing(ringIndex) {
+            if (!analyserHuman || !dataArrayHuman) return 0;
+
+            analyserHuman.getByteFrequencyData(dataArrayHuman);
+            const len = dataArrayHuman.length;
+
+            const bandSize = Math.floor(len / numRings) || 1;
+            const start = ringIndex * bandSize;
+            const end = Math.min(start + bandSize, len);
+
+            let sum = 0;
+            for (let i = start; i < end; i++) {
+                sum += dataArrayHuman[i];
+            }
+
+            const avg = sum / (end - start || 1);
+            return avg / 255;
+        }
+
+        // -------------------- "IA" AUDIO ENVELOPE (FAKE ANALYSER) --------------------
+        let aiSpeaking = false;
+        let aiLevel = 0;
+        let aiPhase = 0;
+
+        function updateAiEnvelope() {
+            const target = aiSpeaking ? 0.7 : 0.0;
+            const speed  = aiSpeaking ? 0.05 : 0.03;
+
+            aiLevel += (target - aiLevel) * speed;
+            aiPhase += 0.03;
+        }
+
+        function getAiEnergyForRing(ringIndex) {
+            const ring = rings[ringIndex];
+            ring.noisePhase += ring.noiseSpeed * 0.5;
+
+            const n = 0.5 + 0.5 * Math.sin(aiPhase + ringIndex * 0.7 + ring.noisePhase);
+            const energy = aiLevel * (0.4 + 0.6 * n);
+
+            return energy;
+        }
+
+        function getCombinedEnergyForRing(ringIndex) {
+            const eh = getHumanEnergyForRing(ringIndex);
+            const ea = getAiEnergyForRing(ringIndex);
+            return Math.min(1, eh + ea);
+        }
+
+        // -------------------- SPEECH: RECOGNITION + SYNTHESIS --------------------
+        const humanTextEl = document.getElementById("humanText");
+        const aiTextEl    = document.getElementById("aiText");
+
+        let recognition = null;
+        let listening = false;
+
+        function initRecognition() {
+            const SpeechRec =
+                window.SpeechRecognition ||
+                window.webkitSpeechRecognition;
+
+            if (!SpeechRec) {
+                alert("webkitSpeechRecognition no está disponible en este navegador.");
+                return;
+            }
+
+            recognition = new SpeechRec();
+            recognition.lang = "es-ES";
+            recognition.continuous = false;
+            recognition.interimResults = false;
+
+            recognition.onresult = (event) => {
+                const transcript = event.results[0][0].transcript.trim();
+                humanTextEl.textContent = transcript;
+                speakAI(transcript);
+            };
+
+            recognition.onerror = (e) => {
+                console.error("Recognition error:", e);
+            };
+
+            recognition.onend = () => {
+                if (listening) {
+                    try {
+                        recognition.start();
+                    } catch (e) {
+                        console.warn("Restart recognition error:", e);
+                    }
+                }
+            };
+        }
+
+        function speakAI(text) {
+            if (!("speechSynthesis" in window)) {
+                alert("Speech Synthesis no está disponible en este navegador.");
+                return;
+            }
+
+            const utter = new SpeechSynthesisUtterance(text);
+            utter.lang = "es-ES";
+
+            utter.onstart = () => {
+                aiSpeaking = true;
+                aiTextEl.textContent = text;
+            };
+
+            utter.onend = () => {
+                aiSpeaking = false;
+            };
+
+            window.speechSynthesis.cancel();
+            window.speechSynthesis.speak(utter);
+        }
+
+        // -------------------- HEAD TRACKING (FACELANDMARKER) --------------------
+        const videoElement = document.getElementById("video");
+        let faceLandmarker   = null;
+        let runningFace      = false;
+        let lastVideoTime    = -1;
+
+        let headTargetX = 0; // [-1,1]
+        let headTargetY = 0;
+        let headX = 0;
+        let headY = 0;
+
+        async function initCameraForHead() {
+            const stream = await navigator.mediaDevices.getUserMedia({
+                video: { width: 640, height: 480 },
+                audio: false
+            });
+            videoElement.srcObject = stream;
+            return new Promise(resolve => {
+                videoElement.onloadedmetadata = () => resolve();
+            });
+        }
+
+        async function initFaceLandmarker() {
+            const filesetResolver = await FilesetResolver.forVisionTasks(
+              "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.0/wasm"
+            );
+
+            faceLandmarker = await FaceLandmarker.createFromOptions(filesetResolver, {
+              baseOptions: {
+                modelAssetPath:
+                  "https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/latest/face_landmarker.task"
+              },
+              runningMode: "VIDEO",
+              numFaces: 1
+            });
+        }
+
+        function getHeadCenter(landmarks) {
+            if (!landmarks || !landmarks.length) return null;
+
+            let sumX = 0;
+            let sumY = 0;
+            const n = landmarks.length;
+            for (let i = 0; i < n; i++) {
+                sumX += landmarks[i].x;
+                sumY += landmarks[i].y;
+            }
+            const cx = sumX / n;  // [0,1]
+            const cy = sumY / n;  // [0,1]
+            return { x: cx, y: cy };
+        }
+
+        function processFaceResults(results) {
+            if (!results.faceLandmarks || !results.faceLandmarks.length) return;
+
+            const landmarks = results.faceLandmarks[0];
+            const center = getHeadCenter(landmarks);
+            if (!center) return;
+
+            const nx = center.x * 2 - 1;   // -1 = izq, +1 = der
+            const ny = center.y * 2 - 1;   // -1 = arriba, +1 = abajo
+
+            // X ya no invertido -> cabeza izquierda -> offset negativo -> ojo a la izquierda
+            headTargetX = nx;
+            // Y tal y como teníamos (cabeza arriba -> ojo arriba)
+            headTargetY = -ny;
+        }
+
+        async function processVideoFrame() {
+            if (!runningFace) return;
+            const videoTime = videoElement.currentTime;
+            if (videoTime === lastVideoTime) {
+                requestAnimationFrame(processVideoFrame);
+                return;
+            }
+            lastVideoTime = videoTime;
+
+            const nowMs = performance.now();
+            const results = faceLandmarker.detectForVideo(videoElement, nowMs);
+            if (results) {
+                processFaceResults(results);
+            }
+
+            requestAnimationFrame(processVideoFrame);
+        }
+
+        async function initHeadTracking() {
+            await initCameraForHead();
+            await initFaceLandmarker();
+            runningFace = true;
+            processVideoFrame();
+        }
+
+        // -------------------- ANIMATION DRAW --------------------
+        function drawVisualizer(ctx, rings, W, H, energyFn) {
+            const smoothing = 0.15;
+            headX += (headTargetX - headX) * smoothing;
+            headY += (headTargetY - headY) * smoothing;
+
+            ctx.fillStyle = `rgba(0,50,0,${baseBgAlpha})`;
+            ctx.fillRect(0, 0, W, H);
+
+            for (let i = 0; i < rings.length; i++) {
+                const ring = rings[i];
+
+                const energy = energyFn(i);
+
+                const spanFactor = minSpanFactor + (maxSpanFactor - minSpanFactor) * energy;
+                const span = ring.baseSpan * spanFactor;
+
+                ring.phase += ring.speed + energy * audioAngleBoost;
+
+                const a1 = ring.phase;
+                const a2 = ring.phase + span;
+
+                const lw = ringWidth + energy * 4;
+                const opacity = minOpacity + (maxOpacity - minOpacity) * energy;
+
+                const strokeColor = `rgba(230,255,230,${opacity})`;
+                const fillColor   = `rgba(230,255,230,${opacity * 0.7})`;
+
+                const depthFactor = 1 - (i / (rings.length - 1));
+                const maxParallaxOffset = baseParallaxOffset * offsetMultiplier;
+                const offsetX = headX * maxParallaxOffset * depthFactor;
+                const offsetY = headY * maxParallaxOffset * depthFactor;
+
+                ctx.save();
+                ctx.translate(W / 2 + offsetX, H / 2 + offsetY);
+
+                switch (ring.type) {
+                    case 0:
+                        ctx.strokeStyle = strokeColor;
+                        ctx.lineWidth = lw;
+                        ctx.beginPath();
+                        ctx.arc(0, 0, ring.r, a1, a2, false);
+                        ctx.stroke();
+                        ctx.closePath();
+                        break;
+
+                    case 1:
+                        ctx.fillStyle = fillColor;
+                        ctx.beginPath();
+                        ctx.moveTo(0, 0);
+                        ctx.arc(0, 0, ring.r, a1, a2, false);
+                        ctx.closePath();
+                        ctx.fill();
+                        break;
+
+                    case 2:
+                        ctx.strokeStyle = strokeColor;
+                        ctx.lineWidth = lw;
+                        const step = 0.08;
+                        for (let a = a1; a < a2; a += step) {
+                            ctx.beginPath();
+                            ctx.arc(0, 0, ring.r, a, a + step * 0.5, false);
+                            ctx.stroke();
+                            ctx.closePath();
+                        }
+
+                        ctx.lineWidth = lw + 6;
+                        ctx.beginPath();
+                        ctx.arc(0, 0, ring.r, a1, a1 + 0.03, false);
+                        ctx.stroke();
+                        ctx.closePath();
+                        ctx.beginPath();
+                        ctx.arc(0, 0, ring.r, a2 - 0.03, a2, false);
+                        ctx.stroke();
+                        ctx.closePath();
+                        break;
+
+                    case 3:
+                        ctx.strokeStyle = strokeColor;
+                        ctx.lineWidth = 1 + energy * 2;
+                        ctx.beginPath();
+                        ctx.arc(0, 0, ring.r, a1, a2, false);
+                        ctx.stroke();
+                        ctx.closePath();
+
+                        const x1 = Math.cos(a1) * ring.r;
+                        const y1 = Math.sin(a1) * ring.r;
+                        const x2 = Math.cos(a2) * ring.r;
+                        const y2 = Math.sin(a2) * ring.r;
+
+                        const puntoR = 3 + energy * 4;
+                        ctx.beginPath();
+                        ctx.arc(x1, y1, puntoR, 0, Math.PI * 2, true);
+                        ctx.fillStyle = strokeColor;
+                        ctx.fill();
+                        ctx.closePath();
+
+                        ctx.beginPath();
+                        ctx.arc(x2, y2, puntoR, 0, Math.PI * 2, true);
+                        ctx.fill();
+                        ctx.closePath();
+                        break;
+                }
+
+                ctx.restore();
+            }
+        }
+
+        function animate() {
+            updateAiEnvelope();
+            drawVisualizer(vctx, rings, VW, VH, getCombinedEnergyForRing);
+            requestAnimationFrame(animate);
+        }
+
+        // -------------------- START BUTTON --------------------
+        document.getElementById("startBtn").addEventListener("click", async () => {
+            try {
+                await initHumanAudio();
+                await initHeadTracking();
+                initRecognition();
+                listening = true;
+                if (recognition) {
+                    recognition.start();
+                }
+                document.getElementById("startBtn").style.display = "none";
+                animate();
+            } catch (e) {
+                console.error(e);
+                alert("Error inicializando audio, vídeo o reconocimiento.");
+            }
+        });
+    </script>
+</body>
+</html>
+```
+
 
 <a id="email-ia"></a>
 ## Email IA
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/009-Proyectos%20segundo%20trimestre/008-Email%20IA)
+
+### Introducción a los ejercicios
+
+This is an HTML email template with a JavaScript code snippet embedded in it. The JavaScript code appears to be implementing speech recognition functionality for the subject and body of the email.
+
+Here are some key features of this code:
+
+1. **Speech Recognition**: The code uses the Web Speech API to recognize spoken words. It starts listening as soon as the user clicks on either the "Dictar Asunto" or "Dictar Cuerpo" button.
+2. **Interim Results**: When the speech recognition is in progress, it displays interim results, which are partial transcripts of what the user has said. These interim results are displayed below the main transcription area.
+3. **Final Transcription**: Once the speech recognition is complete, the final transcription is displayed above the interim results. The user can then edit this transcription before sending the email.
+4. **Error Handling**: The code includes error handling for cases where the speech recognition fails or encounters an error.
+5. **Submit Event Listener**: When the form is submitted (i.e., when the user clicks the "Enviar correo" button), the code updates the subject and body fields of the form with the final transcription.
+
+To improve this code, here are some suggestions:
+
+1. **Improve Accessibility**: While the code has basic accessibility features, such as using `aria-label` attributes, it could be improved further by adding more descriptive labels and making sure that the speech recognition functionality is accessible to users with disabilities.
+2. **Optimize Performance**: The code uses a lot of DOM manipulation, which can impact performance. Consider optimizing this by caching frequently accessed elements or using a virtual DOM.
+3. **Enhance User Experience**: While the code allows users to edit the transcription before sending the email, it could be improved further by providing additional feedback and guidance to the user, such as highlighting incorrect words or suggesting corrections.
+4. **Security**: The code uses `fetch` to send data to the server, which is a good practice. However, make sure to validate any user-input data properly to prevent security vulnerabilities like cross-site scripting (XSS) attacks.
+5. **Code Organization**: The JavaScript code is embedded directly in the HTML template, which can make maintenance and updates challenging. Consider separating the JavaScript code into its own file or module to improve organization and reusability.
+
+Here's an updated version of the code with some minor improvements:
+```html
+<!-- ... -->
+
+<div class="speech-recognition">
+  <h2>Dictar Asunto</h2>
+  <textarea id="subject-text" aria-label="Asunto del correo"></textarea>
+  <button id="dictar-asunto-btn">Dictar Asunto</button>
+
+  <div id="interim-results"></div>
+  <p id="transcription"></p>
+
+  <form id="email-form">
+    <!-- ... -->
+  </form>
+</div>
+
+<script>
+  // ...
+
+  const subjectText = document.getElementById('subject-text');
+  const dictarAsuntoBtn = document.getElementById('dictar-asunto-btn');
+
+  dictarAsuntoBtn.addEventListener('click', startDictationFor('subject'));
+
+  function startDictationFor(kind) {
+    // ...
+  }
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    finalSubjectField.value = subjectFinal.value || '';
+    const bodyText = bodyResultBox.textContent || '';
+    finalBodyField.value = bodyText;
+  });
+</script>
+
+<!-- ... -->
+```
+Note that I've removed some unnecessary code and made a few minor improvements to the code organization and accessibility.
+
 ### envio smtp
-<small>Creado: 2025-12-11 19:25</small>
+<small>Creado: 2025-12-22 20:03</small>
+
+#### Explicación
+
+Este fragmento de código es utilizado para enviar correos electrónicos utilizando la biblioteca `smtplib` de Python. 
+
+La primera parte del código configura los detalles del servidor SMTP que se utilizará para enviar el correo, incluyendo el nombre y dirección del servidor, el puerto y el usuario y contraseña correspondientes. En este caso, se utiliza un servidor de SMTP de Ionos.
+
+Luego, se define la información básica del mensaje a enviar: el remitente, destinatario, asunto y cuerpo del correo. Se utiliza una clase `MIMEMultipart` para crear un objeto que contiene varias partes diferentes, como texto, imágenes, etc. En este caso, solo se agrega un cuerpo de texto.
+
+Finalmente, se intenta enviar el correo utilizando la biblioteca `smtplib`. Se crea una conexión con el servidor SMTP y se envía el mensaje. Si todo sale bien, se imprime un mensaje indicando que el correo ha sido enviado con éxito. Sin embargo, si hay algún error en el proceso de envío, se imprime un error correspondiente.
+
+Es importante mencionar que este código es solo una base y puede ser personalizado según sea necesario para adaptarlo a las necesidades específicas del proyecto o aplicación en la que se está utilizando.
 
 `000-envio smtp.py`
 
@@ -8710,7 +14326,23 @@ except Exception as e:
 ```
 
 ### primera version
-<small>Creado: 2025-12-10 20:30</small>
+<small>Creado: 2025-12-22 20:03</small>
+
+#### Explicación
+
+Este código PHP es una página web que permite a los usuarios ingresar un texto dictado y formatearlo como un correo electrónico. La página utiliza una API remota para obtener la respuesta del texto formateado.
+
+En primer lugar, se defines una variable `$API_URL` con la URL de la API remota que se utilizará para obtener la respuesta. Se establece también la variable `$API_KEY` con una clave de API personalizada. Estas variables están guardadas en el archivo como una constante.
+
+La página web tiene un formulario que permite a los usuarios ingresar el texto dictado. El formulario envía una petición POST a la URL de la API remota utilizando la función `curl_init`. La petición se envía con el campo `question` que contiene el texto dictado.
+
+El código utiliza la función `http_build_query` para construir el formato de la pregunta y la función `curl_setopt` para configurar las opciones de la petición. También se establece una cabecera `X-API-Key` con la clave de API personalizada.
+
+Una vez que se recibe la respuesta de la API remota, se utiliza la función `json_decode` para decodificar el contenido JSON y obtener el texto formateado. Si se obtiene una respuesta exitosa, se muestra el texto original y el texto formateado en dos columnas separadas.
+
+En caso de que se produzca un error, se muestra un mensaje de error en la página web.
+
+En resumen, este código permite a los usuarios ingresar un texto dictado y formatearlo como un correo electrónico utilizando una API remota.
 
 `001-primera version.php`
 
@@ -8905,7 +14537,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ```
 
 ### segunda version
-<small>Creado: 2025-12-10 20:32</small>
+<small>Creado: 2025-12-22 20:03</small>
+
+#### Explicación
+
+Este código es un script PHP que permite a los usuarios enviar un texto dictado y recibir un texto corregido utilizando una API remota. 
+
+Primero, se establecen las variables de configuración para la conexión con la API, como la URL de la API y la clave de API. Luego, en el bloque principal del código, si el método de solicitud es POST, se procesan los datos del formulario enviado por el usuario.
+
+El script crea una pregunta utilizando la API remota, enviando un texto que contiene las instrucciones para reformar el texto original. La respuesta de la API se utiliza para obtener el texto corregido y se asigna al variable $textoFormateado. 
+
+Si hay algún error durante la ejecución del código, se muestra un mensaje de error en la pantalla. 
+
+Este script es importante porque demuestra cómo se pueden utilizar APIs remotas para realizar tareas específicas, como reformar texto, de manera segura y eficiente.
 
 `002-segunda version.php`
 
@@ -9106,7 +14750,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ```
 
 ### interfaces natural
-<small>Creado: 2025-12-10 20:37</small>
+<small>Creado: 2025-12-22 20:03</small>
+
+#### Explicación
+
+Este código PHP y HTML permite a los usuarios dictar un texto en español y luego reformatarlo para que sea más legible, siguiendo ciertas reglas de ortografía y puntuación. El texto original se envía a una API remota utilizando la biblioteca cURL, donde se hace una petición POST con el texto como parámetro y se obtiene una respuesta en formato JSON.
+
+El código también utiliza la biblioteca Web Speech API para que los usuarios puedan dictar el texto usando su voz. Cuando el usuario hace clic en el botón "Dictar", se inicia la sesión de reconocimiento de voz y se envían las transcripciones intermedias al textarea.
+
+El formato del texto reformado sigue ciertas reglas, como mantener el mismo contenido y significado, pero corrigiendo solo ortografía, puntuación, mayúsculas y minúsculas. También se asegura que haya líneas en blanco tras el saludo y antes del cierre.
+
+Es importante destacar que este código utiliza la API de reconocimiento de voz del navegador (Web Speech API), que puede no funcionar correctamente en todos los navegadores. Además, es recomendable configurar la API para que utilice una llave de API personalizada y verificar la seguridad SSL al hacer petición a la API.
 
 `003-interfaces natural.php`
 
@@ -9478,7 +15132,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ```
 
 ### mejoras
-<small>Creado: 2025-12-10 20:41</small>
+<small>Creado: 2025-12-22 20:03</small>
+
+#### Explicación
+
+Este código PHP es parte de una página web que permite al usuario dictar texto y obtener su versión corregida en formato de correo electrónico. 
+
+La página web utiliza la API de reconocimiento de voz del navegador (Web Speech API) para capturar el texto dictado por el usuario. Al usuario se le pide que utilice la opción "Dictar" para iniciar la función de reconocimiento de voz, y luego puede hacer clic en "Reformateo texto" para obtener el texto corregido.
+
+El código utiliza una función `ajustarFormatoEmail` que limpia y forma el texto original según las normas del formato de correo electrónico. Esta función utiliza expresiones regulares para eliminar espacios a la derecha, reducir grupos largos de líneas en blanco y asegurar que la línea en blanco tras el saludo o antes del cierre sea correcta.
+
+El código también envía una petición cURL a una API remota personalizada (`https://covalently-untasked-daphne.ngrok-free.dev/api.php`) con los datos de texto dictado y solicitando una respuesta en formato JSON. La API remota debe devolver la versión corregida del texto en formato de correo electrónico.
+
+Este código es importante para desarrollar aplicaciones que permitan al usuario dictar texto y obtener su versión corregida en diferentes formatos, como correos electrónicos.
 
 `004-mejoras.php`
 
@@ -9850,7 +15516,90 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ```
 
 ### corazon
-<small>Creado: 2025-12-10 20:42</small>
+<small>Creado: 2025-12-22 20:03</small>
+
+#### Explicación
+
+This is a JavaScript code that creates an email client with speech recognition and auto-correction features using the Web Speech API. The client has two main sections: one for dictation (voice input) and another for text correction.
+
+Here are some observations and potential improvements:
+
+1. **Code organization**: The code is quite long and complex, making it difficult to understand and maintain. It would be better to break it down into smaller functions or modules, each with its own specific responsibility.
+2. **Variable naming**: Some variable names are not very descriptive (e.g., `SR`, `bufferBeforeRecognition`). Renaming them to something more meaningful would improve code readability.
+3. **Magic numbers**: The code uses several magic numbers (e.g., `3000` for the heartbeat interval). Consider defining these numbers as constants at the top of the file or using a configuration object to make it easier to adjust them later.
+4. **Error handling**: While there are some error messages logged to the console, the code could benefit from more robust error handling. For example, what happens when an error occurs while fetching data from the server?
+5. **Code duplication**: The `setResultText` function is called multiple times with different parameters. Consider creating a variant of this function that takes all the arguments as optional, or using a more functional programming approach to reduce code duplication.
+6. **Browser compatibility**: While the code checks for browser support, it's possible that some users may have an unsupported browser and need additional guidance or alternatives.
+7. **Security considerations**: The client uses POST requests to send data to the server, which may expose user data if not properly secured (e.g., using HTTPS). Consider implementing security measures like authentication and authorization.
+
+Here is a refactored version of the code that addresses some of these concerns:
+```javascript
+// Constants
+const HEARTBEAT_INTERVAL = 3000; // seconds
+
+// Functions
+function updateIAStatus(text, cls) {
+    const element = document.getElementById('estadoDictado');
+    element.textContent = text;
+    element.className = `status-text ${cls || ''}`;
+}
+
+function sendToAIIfNeeded() {
+    const currentText = textarea.value.trim();
+    if (!currentText) return;
+
+    // ...
+}
+
+// Speech recognition
+const recognition = new WebSpeechRecognition();
+recognition.lang = 'es-ES';
+recognition.continuous = true;
+recognition.interimResults = true;
+
+recognition.onstart = function() {
+    updateIAStatus('Escuchando… habla cerca del micrófono.', 'status-ok');
+};
+
+recognition.onerror = function(event) {
+    updateIAStatus('Error en el reconocimiento de voz.', 'status-error');
+    console.error('Speech recognition error:', event);
+};
+
+recognition.onend = function() {
+    updateIAStatus('Dictado detenido. Texto listo para corregir.', 'status-warn');
+};
+
+recognition.onresult = function(event) {
+    const interimText = '';
+    for (let i = event.resultIndex; i < event.results.length; i++) {
+        const transcript = event.results[i][0].transcript;
+        if (event.results[i].isFinal) {
+            recognizedFinal += transcript + ' ';
+        } else {
+            interimText += transcript + ' ';
+        }
+    }
+
+    const fullText = (bufferBeforeRecognition + ' ' + recognizedFinal + interimText).trim();
+    textarea.value = fullText;
+};
+
+// Button event listeners
+document.getElementById('btnDictar').addEventListener('click', function() {
+    if (!recognition) return;
+    if (!recognition.start()) try { recognition.start(); } catch (e) { console.error(e); }
+});
+
+// Heartbeat interval
+setInterval(sendToAIIfNeeded, HEARTBEAT_INTERVAL * 1000);
+
+// Initialize speech recognition and other variables
+recognition.start();
+bufferBeforeRecognition = textarea.value.trimEnd();
+recognizedFinal = '';
+```
+Note that this is just one possible refactoring, and there are many ways to improve the code further.
 
 `005-corazon.php`
 
@@ -10550,7 +16299,32 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['ajax']) && $_POST['aj
 ```
 
 ### tema claro y mejoras en la redaccion
-<small>Creado: 2025-12-10 20:46</small>
+<small>Creado: 2025-12-22 20:03</small>
+
+#### Explicación
+
+El código proporcionado es un ejemplo de una aplicación web que utiliza tecnología de reconocimiento de voz y procesamiento de lenguaje natural para realizar tareas de dictado de correo electrónico. A continuación, se identifican algunas mejoras y sugerencias para mejorar el código:
+
+1. **Organización del código**: El código se organiza en varias secciones, cada una con un propósito específico (por ejemplo, la secuencia HTML, la secuencia JavaScript). Sin embargo, algunos bloques de código se repiten o están relacionados con más de una secuencia. Podría ser útil refactorizar algunas partes del código para mejorar su legibilidad y mantenibilidad.
+
+2. **Variables y constantes**: Algunas variables y constantes se definen en varias partes del código, lo que puede generar confusiones al intentar entender el comportamiento de la aplicación. Es recomendable definir estas variables y constantes en una sola ubicación, utilizando la sintaxis `const` para evitar cambios innecesarios.
+
+3. **Sincronización**: En algunas partes del código, se utilizan métodos de sincronía (como `setTimeout` o `setInterval`) para realizar tareas que requieren tiempo. Sin embargo, el uso de estos métodos puede generar problemas si no se manejan correctamente. Se podría utilizar la técnica de "sincronización asincrónica" para evitar conflictos entre diferentes partes del código.
+
+4. **Validación y error handling**: La aplicación puede beneficiarse de más validaciones y manejo de errores en varias áreas, como el reconocimiento de voz, la conexión a la API, etc. Esto ayudaría a mejorar la estabilidad y seguridad de la aplicación.
+
+5. **Seguridad**: El código utiliza algunas características que podrían tener vulnerabilidades de seguridad, como la capacidad de ejecutar código JavaScript remoto o la exposición de información sensible (como los datos de reconocimiento de voz). Es importante investigar y abordar estas preocupaciones para asegurar la aplicación.
+
+6. **Accesibilidad**: La aplicación podría mejorar su accesibilidad utilizando tecnologías como el HTML5, CSS3 y las API de accesibilidad del navegador. Esto ayudaría a garantizar que la aplicación sea compatible con una mayor cantidad de usuarios con discapacidades.
+
+7. **Performance**: El código utiliza algunas técnicas para mejorar el rendimiento (como la caché de datos o la optimización de la sincronización). Sin embargo, es importante realizar pruebas y análisis de rendimiento para asegurarse de que la aplicación se mantenga competitiva en términos de velocidad y eficiencia.
+
+En cuanto a código específico, hay algunas áreas donde se podría mejorar:
+
+* En el archivo `index.html`, se utiliza un método `fetch` para enviar una solicitud POST al servidor. Sin embargo, no se maneja correctamente los errores que pueden ocurrir durante la ejecución de esta solicitud. Se podría agregar más validaciones y manejo de errores para mejorar la robustez del código.
+* En el archivo `script.js`, se utiliza un método `setInterval` para realizar una tarea cada cierto tiempo. Sin embargo, no se verifica si el intervalo ya ha sido establecido antes de ejecutarlo. Se podría agregar una comprobación adicional para evitar problemas de sincronización.
+
+En resumen, aunque el código proporcionado es básico y funcional, hay varias oportunidades para mejorar su legibilidad, seguridad y rendimiento.
 
 `006-tema claro y mejoras en la redaccion.php`
 
@@ -11239,7 +17013,33 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['ajax']) && $_POST['aj
 ```
 
 ### simulacion de email
-<small>Creado: 2025-12-11 19:09</small>
+<small>Creado: 2025-12-22 20:03</small>
+
+#### Explicación
+
+This is a web application that allows users to dictate text using their voice and receive feedback on the accuracy of the dictated text. The application uses Speech Recognition API to recognize speech input from the user's microphone.
+
+Here are some key features and functionalities of this code:
+
+1. **Speech Recognition**: The application uses the `SpeechRecognition` API (or its WebKit counterpart, `webkitSpeechRecognition`) to recognize speech input from the user's microphone.
+2. **Dictation Mode**: The application provides two dictation modes: one for subject text and one for body text. Users can switch between these modes by clicking on a button labeled "Subject" or "Body".
+3. **Real-time Feedback**: As the user dictates text, the application displays real-time feedback in the form of text highlighting accuracy.
+4. **Error Handling**: The application handles errors that may occur during speech recognition, such as interruptions or disconnections.
+5. **Text Correction**: When the speech recognition is complete, the application applies corrections to the dictated text based on its accuracy.
+
+However, there are also some areas where this code could be improved:
+
+1. **Security**: The application does not validate user input from the microphone, which could potentially lead to security vulnerabilities.
+2. **Performance**: The application may experience performance issues if the user's speech recognition is interrupted or disconnected frequently.
+3. **Accessibility**: The application's UI and layout are not fully accessible for users with disabilities.
+
+To improve this code, here are some potential suggestions:
+
+1. Add input validation to ensure that only clean audio data is sent to the microphone.
+2. Implement a more efficient algorithm for correcting dictated text based on its accuracy.
+3. Use ARIA attributes to make the application's UI and layout accessible for users with disabilities.
+
+Overall, this code provides a basic structure for a speech recognition-based dictation application, but could benefit from additional features and improvements to enhance user experience and security.
 
 `007-simulacion de email.php`
 
@@ -12059,7 +17859,46 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['ajax']) && $_POST['aj
 ```
 
 ### enviar email realmente
-<small>Creado: 2025-12-11 19:26</small>
+<small>Creado: 2025-12-22 20:03</small>
+
+#### Explicación
+
+This is a complex HTML, CSS, and JavaScript code that implements a speech recognition system for a web application. Here's a high-level overview of the code:
+
+**HTML Structure**
+
+The HTML structure consists of a `div` element with an ID of "mailForm" that contains a form with various input fields, buttons, and script tags.
+
+**JavaScript Code**
+
+The JavaScript code is wrapped in an anonymous function that runs as soon as the document is loaded. This function initializes several variables and event listeners to handle user interactions.
+
+**Speech Recognition**
+
+The code uses the Web Speech API to enable speech recognition on modern browsers. It creates a new instance of `SpeechRecognition` and sets its language to Spanish (`es-ES`). The `continuous` property is set to `true`, which allows the recognition to continue even after an interim result is received.
+
+**Event Listeners**
+
+The code adds several event listeners to handle user interactions:
+
+* `onstart`: Called when speech recognition starts. It updates the UI to reflect the start of the recognition process.
+* `onerror`: Called when there is an error during speech recognition. It logs the error to the console and updates the UI to display an error message.
+* `onend`: Called when speech recognition ends. It updates the UI to reflect that the recognition has ended.
+* `onresult`: Called when intermediate results are received during speech recognition. It updates the input field with the recognized text.
+
+**UI Updates**
+
+The code updates the UI in response to user interactions, including:
+
+* Showing or hiding buttons and messages based on the state of speech recognition
+* Updating the input fields with recognized text
+* Displaying an error message if there is an issue during speech recognition
+
+**Form Submission**
+
+When the form is submitted, the code copies the values of the `subjectFinal` and `finalBodyField` input fields to the corresponding fields in the form data.
+
+Overall, this code provides a basic speech recognition system that allows users to dictate text into a web application.
 
 `008-enviar email realmente.php`
 
@@ -13067,7 +18906,73 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send_email']) && $_PO
 ```
 
 ### cliente email
-<small>Creado: 2025-12-11 20:42</small>
+<small>Creado: 2025-12-22 20:03</small>
+
+#### Explicación
+
+This is a complex HTML, CSS and JavaScript code that appears to be part of an email client application. Here's a brief overview of the code:
+
+**Overview**
+
+The code generates an email form with fields for sender, recipient, subject, and body. The form also includes features like dictation by voice, spell checking, and auto-correction.
+
+**Key Features**
+
+1. **Dictation by Voice**: The code uses the Web Speech API to allow users to dictate text using their voice.
+2. **Auto-Correction**: The code checks the dictated text for spelling errors and suggests corrections.
+3. **Spell Checking**: The code also includes a spell checking feature that highlights any misspelled words.
+
+**Code Organization**
+
+The code is organized into several sections:
+
+1. **HTML**: The HTML section defines the structure of the email form, including fields for sender, recipient, subject, and body.
+2. **CSS**: The CSS section styles the email form and adds layout and visual effects.
+3. **JavaScript**: The JavaScript section contains the logic for dictation by voice, auto-correction, spell checking, and other interactive features.
+
+**Notable Code Blocks**
+
+1. **Speech Recognition API**: The code uses the Web Speech API to enable dictation by voice.
+```javascript
+const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+recognition = new SR();
+```
+2. **Form Submission Handler**: The code defines a form submission handler that copies the corrected text from the auto-correction field to the body field.
+```javascript
+form.addEventListener('submit', function() {
+  finalSubjectField.value = subjectFinal.value || '';
+  const bodyText = bodyResultBox.textContent || '';
+  finalBodyField.value = bodyText;
+});
+```
+3. **Auto-Correction Logic**: The code includes a complex auto-correction logic that checks the dictated text for spelling errors and suggests corrections.
+```javascript
+recognition.onresult = function(event) {
+  let interimText = '';
+  for (let i = event.resultIndex; i < event.results.length; i++) {
+    const transcript = event.results[i][0].transcript;
+    if (event.results[i].isFinal) {
+      recognizedFinal += transcript + ' ';
+    } else {
+      interimText += transcript + ' ';
+    }
+  }
+
+  const fullText = (bufferBeforeRecognition + ' ' + recognizedFinal + interimText).trim();
+  currentTarget.value = fullText;
+};
+```
+4. **Spell Checking**: The code includes a spell checking feature that highlights any misspelled words.
+```javascript
+const textToCheck = subjectRaw.value || '';
+const correctWordIndex = findCorrectWord(textToCheck);
+if (correctWordIndex !== -1) {
+  const correctWord = textToCheck.substring(correctWordIndex, correctWordIndex + 10);
+  const suggestCorrection = ' Corrected word: ' + correctWord;
+  spellCheckingIndicator.textContent = suggestCorrection;
+}
+```
+Overall, the code is complex and requires careful attention to detail. It's likely that this code is part of a larger email client application.
 
 `009-cliente email.php`
 
@@ -14675,7 +20580,124 @@ if ($replyMode && $selectedEmail) {
 ```
 
 ### prueba final
-<small>Creado: 2025-12-11 21:03</small>
+<small>Creado: 2025-12-22 20:03</small>
+
+#### Explicación
+
+The provided code is a complex HTML, CSS, and JavaScript snippet that creates an email composition interface. It includes features such as speech recognition, text correction, and sending emails.
+
+Here are some key points about the code:
+
+1. **Speech Recognition**: The code uses webkitSpeechRecognition or SpeechRecognition to enable speech recognition on the client-side. This allows users to dictate their email content.
+2. **Text Correction**: When speech recognition is enabled, the code displays a "Dictado disponible" message. However, if the browser does not support dictation, it displays an error message.
+3. **Email Composition**: The code has multiple forms (subject and body) that allow users to input text using either dictation or typing.
+4. **Real-time Feedback**: As users dictate their email content, the code provides real-time feedback through the `status-text` class, which can be customized with different colors and messages.
+5. **Error Handling**: The code includes error handling mechanisms for speech recognition errors, server-side errors, and other potential issues.
+
+However, there are some potential improvements that could be made to this code:
+
+1. **Security**: The code does not validate user input thoroughly, which can lead to security vulnerabilities such as cross-site scripting (XSS) attacks.
+2. **Accessibility**: While the code provides basic support for dictation and correction, it may not be fully accessible for users with disabilities. For example, it may not provide sufficient screen reader support or keyboard-only navigation.
+3. **Performance**: The code uses `setInterval` to continuously send data to the server, which can lead to performance issues if the server is slow or unresponsive.
+4. **User Experience**: Some features, such as the dictation interface and correction suggestions, may not be immediately apparent to users. Improving the overall user experience through clearer design and better feedback could enhance the application.
+
+Here's a sample refactored version of the code that addresses some of these concerns:
+
+```html
+<!-- Refactored HTML -->
+<form id="email-form">
+  <!-- Subject Input -->
+  <label for="subject">Subject:</label>
+  <input type="text" id="subject" name="subject" />
+
+  <!-- Body Input -->
+  <label for="body">Body:</label>
+  <textarea id="body" name="body"></textarea>
+
+  <!-- Buttons -->
+  <button id="send-btn">Send</button>
+  <button id="reset-btn">Reset</button>
+</form>
+
+<!-- Refactored JavaScript -->
+<script>
+  // Import necessary libraries
+  import SpeechRecognition from 'speech_recognition';
+
+  // Define constants
+  const maxTimeout = 5000; // maximum timeout for speech recognition
+
+  // Initialize variables
+  let speechRecognitionInstance;
+  let dictationEnabled = false;
+
+  // Function to start speech recognition
+  function startSpeechRecognition() {
+    if (!dictationEnabled) return;
+
+    const speechRecognitionParams = {
+      language: 'es-ES',
+      continuous: true,
+      interimResults: true,
+    };
+
+    speechRecognitionInstance = new SpeechRecognition(speechRecognitionParams);
+
+    // Add event listeners for speech recognition events
+    speechRecognitionInstance.onstart = () => {
+      dictationEnabled = true;
+    };
+    speechRecognitionInstance.onend = () => {
+      dictationEnabled = false;
+    };
+    speechRecognitionInstance.onerror = (error) => {
+      console.error('Speech recognition error:', error);
+    };
+
+    // Start speech recognition
+    speechRecognitionInstance.start();
+  }
+
+  // Function to handle form submission
+  function handleSubmit() {
+    const subject = document.getElementById('subject').value.trim();
+    const body = document.getElementById('body').value.trim();
+
+    if (!subject || !body) return;
+
+    // Send email using AJAX
+    fetch(window.location.pathname + window.location.search, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: `subject=${subject}&body=${body}`,
+    })
+    .then((response) => response.json())
+    .then((data) => {
+      if (data.ok) {
+        console.log('Email sent successfully!');
+      } else {
+        console.error('Error sending email:', data.error);
+      }
+    })
+    .catch((error) => console.error('Error sending email:', error));
+  }
+
+  // Function to reset form
+  function resetForm() {
+    document.getElementById('subject').value = '';
+    document.getElementById('body').value = '';
+  }
+
+  // Add event listeners for buttons
+  document.getElementById('send-btn').addEventListener('click', handleSubmit);
+  document.getElementById('reset-btn').addEventListener('click', resetForm);
+
+  // Start speech recognition on button click
+  document.getElementById('dictation-btn').addEventListener('click', startSpeechRecognition);
+</script>
+```
+
+Note that this refactored version is just a starting point, and you may need to modify it further to suit your specific requirements.
 
 `010-prueba final.php`
 
@@ -16293,12 +22315,1728 @@ if ($replyMode && $selectedEmail) {
 </html>
 ```
 
+### version con UI modificada
+<small>Creado: 2025-12-22 20:03</small>
+
+`011-version con UI modificada.php`
+
+```
+<?php
+// =====================================================
+//  CLIENTE DE CORREO (IMAP + SMTP + IA) — UI paleturquoise
+//  - 3 columnas: Nav / Lista / Contenido
+//  - Lectura a la derecha siempre visible
+//  - Redacción tipo Gmail en panel inferior (altura media)
+//  - Dictado por voz + corrección IA por “heartbeat”
+// =====================================================
+
+// ============================================
+// CONFIGURACIÓN SMTP (usar TLS como en el script de Python)
+// ============================================
+const SMTP_HOST = 'smtp.ionos.es';
+const SMTP_PORT = 587; // TLS explícito (STARTTLS)
+const SMTP_USER = 'python@jocarsa.com';
+const SMTP_PASS = 'TAME123$';
+const SMTP_FROM = 'python@jocarsa.com';
+const SMTP_FROM_NAME = 'Dictado IA';
+
+// ============================================
+// CONFIGURACIÓN IMAP (recepción de correo)
+// ============================================
+const IMAP_HOST = 'imap.ionos.es';
+const IMAP_PORT = 993; // IMAPS
+const IMAP_FLAGS = '/imap/ssl'; // Ajustable si tu servidor requiere otro flag
+
+// ============================================
+// CONFIGURACIÓN DE LA API REMOTA (IA)
+// ============================================
+$API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+$API_KEY = "TEST_API_KEY_JOCARSA_123";
+
+// ============================================
+// FORMATEO DEL CUERPO COMO CORREO ELEGANTE
+// ============================================
+function ajustarFormatoEmail(string $texto): string
+{
+    $texto = preg_replace("/\r\n|\r/", "\n", trim($texto));
+    if ($texto === '') return '';
+
+    $texto = preg_replace_callback(
+        '/^((hola|buenos dias|buenos días|buenas tardes|buenas noches|estimad[oa]s?|querid[oa]s?)\s+[^\n,]+,)\s*(.*)$/iu',
+        function ($m) {
+            $greeting = trim($m[1]);
+            $rest     = trim($m[3]);
+            if ($rest === '') return $greeting;
+            return $greeting . "\n\n" . $rest;
+        },
+        $texto
+    );
+
+    $lineas = explode("\n", $texto);
+    $lineas = array_map(static fn($l) => rtrim($l), $lineas);
+
+    $limpias = [];
+    $vaciasSeguidas = 0;
+    foreach ($lineas as $l) {
+        if (trim($l) === '') {
+            $vaciasSeguidas++;
+            if ($vaciasSeguidas > 1) continue;
+        } else {
+            $vaciasSeguidas = 0;
+        }
+        $limpias[] = $l;
+    }
+    $lineas = $limpias;
+
+    $greetingRegex = '/^(hola|buenos dias|buenos días|buenas tardes|buenas noches|estimad[oa]s?|querid[oa]s?)/iu';
+    $n = count($lineas);
+    for ($i = 0; $i < $n; $i++) {
+        $ltrim = ltrim($lineas[$i]);
+        if ($ltrim === '') continue;
+        if (preg_match($greetingRegex, $ltrim)) {
+            if ($i + 1 >= $n || trim($lineas[$i + 1]) !== '') {
+                array_splice($lineas, $i + 1, 0, ['']);
+            }
+        }
+        break;
+    }
+
+    $closingRegex = '/^(un saludo|saludos|atentamente|cordialmente|muchas gracias|gracias de antemano)/iu';
+    $n = count($lineas);
+    for ($i = $n - 1; $i >= 0; $i--) {
+        $ltrim = ltrim($lineas[$i]);
+        if ($ltrim === '') continue;
+        if (preg_match($closingRegex, $ltrim)) {
+            if ($i - 1 < 0 || trim($lineas[$i - 1]) !== '') {
+                array_splice($lineas, $i, 0, ['']);
+            }
+            break;
+        }
+    }
+
+    return implode("\n", $lineas);
+}
+
+// ============================================
+// PROCESAR CUERPO DEL CORREO CON IA
+// ============================================
+function procesar_texto_cuerpo(string $textoOriginal, string $API_URL, string $API_KEY): array
+{
+    if ($textoOriginal === '') {
+        return ['ok' => false, 'error' => 'Texto vacío', 'texto' => ''];
+    }
+
+    $question =
+    "Eres un asistente de edición de correos en español.\n\n" .
+    "OBJETIVO:\n" .
+    "Devuelve el MISMO correo, con el MISMO contenido y significado, pero con formato profesional y muy legible.\n\n" .
+
+    "REGLAS ESTRICTAS (NO NEGOCIABLES):\n" .
+    "- No añadas información nueva.\n" .
+    "- No inventes nombres, fechas, cifras ni detalles.\n" .
+    "- No elimines información relevante.\n" .
+    "- No cambies el orden global de las ideas (solo puedes partir en frases y párrafos).\n" .
+    "- No añadas saludos, despedidas ni asuntos que no aparezcan en el texto original.\n" .
+    "- No expliques lo que haces.\n" .
+    "- Devuelve ÚNICAMENTE el texto final del correo, sin comentarios, sin comillas, sin títulos, sin viñetas.\n\n" .
+
+    "FORMATO OBLIGATORIO (ESTRUCTURA EN 3 BLOQUES):\n" .
+    "1) SALUDO (si existe en el original):\n" .
+    "   - Debe ser el primer párrafo.\n" .
+    "   - Tras el saludo, SIEMPRE inserta una línea en blanco.\n\n" .
+
+    "2) CUERPO:\n" .
+    "   - Debe ir entre saludo y despedida.\n" .
+    "   - Corrige ortografía, acentuación, puntuación y mayúsculas.\n" .
+    "   - Divide en frases correctas.\n" .
+    "   - Crea párrafos (separados por UNA línea en blanco) según temas:\n" .
+    "     * Si detectas cambio de tema/acción/petición, empieza un nuevo párrafo.\n" .
+    "     * Si hay una solicitud (\"Por lo tanto\", \"Dime\", \"Necesito\", \"Te pido\"...), colócala en el último párrafo del CUERPO, justo antes de la despedida.\n\n" .
+
+    "3) DESPEDIDA + FIRMA (si existe en el original):\n" .
+    "   - Debe ser el último párrafo.\n" .
+    "   - Si aparecen \"Un saludo\", \"Saludos\", \"Atentamente\", \"Cordialmente\", etc., deben ir separados del cuerpo por UNA línea en blanco.\n" .
+    "   - Si la despedida incluye coma y nombre (ej. \"Un saludo, José Vicente.\"), mantén esa línea intacta salvo correcciones mínimas de puntuación.\n\n" .
+
+    "REGLA DE LÍNEAS EN BLANCO:\n" .
+    "- Usa exactamente UNA línea en blanco entre párrafos (nunca dos).\n" .
+    "- No añadas líneas en blanco al principio ni al final.\n\n" .
+
+    "Texto original:\n" .
+    $textoOriginal;
+
+
+    $ch = curl_init($API_URL);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+    $postFields = http_build_query(['question' => $question]);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $postFields);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        'X-API-Key: ' . $API_KEY,
+        'Content-Type: application/x-www-form-urlencoded'
+    ]);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+
+    $response = curl_exec($ch);
+
+    if ($response === false) {
+        $err = "Error al contactar con la API remota: " . curl_error($ch);
+        curl_close($ch);
+        return ['ok' => false, 'error' => $err, 'texto' => ''];
+    }
+
+    $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+
+    if ($status !== 200) {
+        return ['ok' => false, 'error' => "La API remota devolvió HTTP $status. Respuesta: $response", 'texto' => ''];
+    }
+
+    $data = json_decode($response, true);
+    if (json_last_error() !== JSON_ERROR_NONE) {
+        return ['ok' => false, 'error' => "Error al decodificar JSON: " . json_last_error_msg() . ". Respuesta: $response", 'texto' => ''];
+    }
+
+    if (!isset($data['answer']) || !is_string($data['answer'])) {
+        return ['ok' => false, 'error' => "La respuesta de la API no contiene el campo 'answer'. Respuesta: $response", 'texto' => ''];
+    }
+
+    $textoFormateado = trim($data['answer']);
+    $textoFormateado = ajustarFormatoEmail($textoFormateado);
+
+    return ['ok' => true, 'error' => '', 'texto' => $textoFormateado];
+}
+
+// ============================================
+// PROCESAR ASUNTO CON IA
+// ============================================
+function procesar_texto_asunto(string $textoOriginal, string $API_URL, string $API_KEY): array
+{
+    if ($textoOriginal === '') {
+        return ['ok' => false, 'error' => 'Texto vacío', 'texto' => ''];
+    }
+
+    $question =
+        "Eres un asistente experto redactando asuntos de correo electrónico en español profesional.\n\n" .
+        "TAREA:\n" .
+        "A partir del texto que te paso, genera únicamente un asunto de correo breve, claro y profesional.\n\n" .
+        "REGLAS ESTRICTAS:\n" .
+        "- Mantén el mismo significado general, sin añadir información nueva.\n" .
+        "- No añadas datos que no estén en el texto original.\n" .
+        "- El resultado debe ser una sola línea.\n" .
+        "- No incluyas la palabra 'Asunto:' ni comillas ni explicaciones.\n" .
+        "- Evita el punto final, salvo que sea imprescindible.\n\n" .
+        "Texto original del asunto (dictado):\n" .
+        $textoOriginal;
+
+    $ch = curl_init($API_URL);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+    $postFields = http_build_query(['question' => $question]);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $postFields);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        'X-API-Key: ' . $API_KEY,
+        'Content-Type: application/x-www-form-urlencoded'
+    ]);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+
+    $response = curl_exec($ch);
+
+    if ($response === false) {
+        $err = "Error al contactar con la API remota: " . curl_error($ch);
+        curl_close($ch);
+        return ['ok' => false, 'error' => $err, 'texto' => ''];
+    }
+
+    $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+
+    if ($status !== 200) {
+        return ['ok' => false, 'error' => "La API remota devolvió HTTP $status. Respuesta: $response", 'texto' => ''];
+    }
+
+    $data = json_decode($response, true);
+    if (json_last_error() !== JSON_ERROR_NONE) {
+        return ['ok' => false, 'error' => "Error al decodificar JSON: " . json_last_error_msg() . ". Respuesta: $response", 'texto' => ''];
+    }
+
+    if (!isset($data['answer']) || !is_string($data['answer'])) {
+        return ['ok' => false, 'error' => "La respuesta de la API no contiene el campo 'answer'. Respuesta: $response", 'texto' => ''];
+    }
+
+    $textoFormateado = trim($data['answer']);
+    $textoFormateado = preg_replace("/\r\n|\r|\n/", ' ', $textoFormateado);
+    $textoFormateado = preg_replace('/\s+/', ' ', $textoFormateado);
+
+    return ['ok' => true, 'error' => '', 'texto' => $textoFormateado];
+}
+
+// ============================================
+// RESUMEN AUTOMÁTICO DE CORREO CON IA
+// ============================================
+function procesar_resumen_email(string $textoOriginal, string $API_URL, string $API_KEY): array
+{
+    if (trim($textoOriginal) === '') {
+        return ['ok' => false, 'error' => 'Correo sin contenido textual para resumir.', 'texto' => ''];
+    }
+
+    $question =
+        "Eres un asistente que resume correos electrónicos en español.\n\n" .
+        "TAREA:\n" .
+        "Resume el siguiente correo en un máximo de 5 frases claras, indicando:\n" .
+        "- Quién escribe (si aparece).\n" .
+        "- Tema principal.\n" .
+        "- Petición o acción requerida (si la hay).\n" .
+        "- Tono general.\n\n" .
+        "REGLAS ESTRICTAS:\n" .
+        "- No inventes información que no esté en el texto.\n" .
+        "- No añadas links ni datos externos.\n" .
+        "- Devuelve solo el resumen, sin título ni explicaciones adicionales.\n\n" .
+        "Correo original:\n" .
+        $textoOriginal;
+
+    $ch = curl_init($API_URL);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+    $postFields = http_build_query(['question' => $question]);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $postFields);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        'X-API-Key: ' . $API_KEY,
+        'Content-Type: application/x-www-form-urlencoded'
+    ]);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+
+    $response = curl_exec($ch);
+
+    if ($response === false) {
+        $err = "Error al contactar con la API remota: " . curl_error($ch);
+        curl_close($ch);
+        return ['ok' => false, 'error' => $err, 'texto' => ''];
+    }
+
+    $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+
+    if ($status !== 200) {
+        return ['ok' => false, 'error' => "La API remota devolvió HTTP $status. Respuesta: $response", 'texto' => ''];
+    }
+
+    $data = json_decode($response, true);
+    if (json_last_error() !== JSON_ERROR_NONE) {
+        return ['ok' => false, 'error' => "Error al decodificar JSON: " . json_last_error_msg() . ". Respuesta: $response", 'texto' => ''];
+    }
+
+    if (!isset($data['answer']) || !is_string($data['answer'])) {
+        return ['ok' => false, 'error' => "La respuesta de la API no contiene el campo 'answer'. Respuesta: $response", 'texto' => ''];
+    }
+
+    return ['ok' => true, 'error' => '', 'texto' => trim($data['answer'])];
+}
+
+// ============================================
+// SMTP PURO CON SOCKETS
+// ============================================
+function smtp_read_line($conn): string
+{
+    $data = '';
+    while ($str = fgets($conn, 515)) {
+        $data .= $str;
+        if (strlen($str) >= 4 && $str[3] === ' ') break;
+    }
+    return $data;
+}
+
+function smtp_expect($conn, string $expectedCode, string $context): string
+{
+    $data = smtp_read_line($conn);
+    if (substr($data, 0, 3) !== $expectedCode) {
+        throw new RuntimeException("Error SMTP en $context. Esperado $expectedCode, recibido: $data");
+    }
+    return $data;
+}
+
+function smtp_send_email(string $to, string $subject, string $body): array
+{
+    $to = trim($to);
+    if (!filter_var($to, FILTER_VALIDATE_EMAIL)) {
+        return ['ok' => false, 'error' => 'Dirección de correo no válida.'];
+    }
+
+    $errno = 0;
+    $errstr = '';
+    $conn = @fsockopen(SMTP_HOST, SMTP_PORT, $errno, $errstr, 20);
+    if (!$conn) {
+        return ['ok' => false, 'error' => "No se pudo conectar al servidor SMTP: $errstr ($errno)"];
+    }
+
+    try {
+        smtp_expect($conn, '220', 'greeting');
+
+        $hostname = 'localhost';
+        fwrite($conn, "EHLO $hostname\r\n");
+        smtp_expect($conn, '250', 'EHLO (inicial)');
+
+        fwrite($conn, "STARTTLS\r\n");
+        smtp_expect($conn, '220', 'STARTTLS');
+
+        $cryptoOk = @stream_socket_enable_crypto($conn, true, STREAM_CRYPTO_METHOD_TLS_CLIENT);
+        if (!$cryptoOk) throw new RuntimeException("No se pudo establecer TLS (stream_socket_enable_crypto).");
+
+        fwrite($conn, "EHLO $hostname\r\n");
+        smtp_expect($conn, '250', 'EHLO (tras STARTTLS)');
+
+        fwrite($conn, "AUTH LOGIN\r\n");
+        smtp_expect($conn, '334', 'AUTH LOGIN');
+
+        fwrite($conn, base64_encode(SMTP_USER) . "\r\n");
+        smtp_expect($conn, '334', 'AUTH LOGIN usuario');
+
+        fwrite($conn, base64_encode(SMTP_PASS) . "\r\n");
+        smtp_expect($conn, '235', 'AUTH LOGIN contraseña');
+
+        fwrite($conn, "MAIL FROM:<" . SMTP_FROM . ">\r\n");
+        smtp_expect($conn, '250', 'MAIL FROM');
+
+        fwrite($conn, "RCPT TO:<" . $to . ">\r\n");
+        smtp_expect($conn, '250', 'RCPT TO');
+
+        fwrite($conn, "DATA\r\n");
+        smtp_expect($conn, '354', 'DATA');
+
+        $headers = [];
+        $headers[] = "From: \"" . addslashes(SMTP_FROM_NAME) . "\" <" . SMTP_FROM . ">";
+        $headers[] = "To: <$to>";
+        $headers[] = "Subject: " . $subject;
+        $headers[] = "MIME-Version: 1.0";
+        $headers[] = "Content-Type: text/plain; charset=UTF-8";
+        $headers[] = "Content-Transfer-Encoding: 8bit";
+
+        $data = implode("\r\n", $headers) . "\r\n\r\n" . $body . "\r\n.\r\n";
+
+        fwrite($conn, $data);
+        smtp_expect($conn, '250', 'final DATA');
+
+        fwrite($conn, "QUIT\r\n");
+        fclose($conn);
+
+        return ['ok' => true, 'error' => ''];
+    } catch (Throwable $e) {
+        fclose($conn);
+        return ['ok' => false, 'error' => $e->getMessage()];
+    }
+}
+
+// ============================================
+// IMAP helpers
+// ============================================
+function decode_imap_text(string $text, int $encoding): string
+{
+    switch ($encoding) {
+        case 3: return base64_decode($text) ?: $text;
+        case 4: return quoted_printable_decode($text);
+        default: return $text;
+    }
+}
+
+function get_plain_text_body($imap, int $msgNo): string
+{
+    $structure = @imap_fetchstructure($imap, $msgNo);
+    if (!$structure) return (string)@imap_body($imap, $msgNo);
+
+    if (!isset($structure->parts) || !is_array($structure->parts) || count($structure->parts) === 0) {
+        $body = @imap_body($imap, $msgNo);
+        return decode_imap_text($body, $structure->encoding ?? 0);
+    }
+
+    $partNumber = null;
+    foreach ($structure->parts as $index => $part) {
+        if ($part->type == 0) {
+            $subtype = isset($part->subtype) ? strtoupper($part->subtype) : '';
+            if ($subtype === 'PLAIN' || $subtype === '') {
+                $partNumber = $index + 1;
+                break;
+            }
+        }
+    }
+
+    if ($partNumber === null) {
+        $body = @imap_body($imap, $msgNo);
+        return decode_imap_text($body, $structure->encoding ?? 0);
+    }
+
+    $partBody = @imap_fetchbody($imap, $msgNo, (string)$partNumber);
+    $encoding = $structure->parts[$partNumber - 1]->encoding ?? 0;
+
+    return decode_imap_text($partBody, $encoding);
+}
+
+// ============================================
+// MODO AJAX (IA asunto/cuerpo)
+// ============================================
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['ajax']) && $_POST['ajax'] === '1') {
+    header('Content-Type: application/json; charset=utf-8');
+
+    $kind = $_POST['kind'] ?? 'body';
+    $textoOriginal = isset($_POST['texto']) ? trim($_POST['texto']) : '';
+
+    if ($textoOriginal === '') {
+        echo json_encode(['ok' => false, 'error' => 'Texto vacío', 'texto' => ''], JSON_UNESCAPED_UNICODE);
+        exit;
+    }
+
+    $resultado = ($kind === 'subject')
+        ? procesar_texto_asunto($textoOriginal, $API_URL, $API_KEY)
+        : procesar_texto_cuerpo($textoOriginal, $API_URL, $API_KEY);
+
+    echo json_encode($resultado, JSON_UNESCAPED_UNICODE);
+    exit;
+}
+
+// ============================================
+// ENVÍO REAL DE CORREO
+// ============================================
+$sendMessage = null;
+$sendOk = null;
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send_email']) && $_POST['send_email'] === '1') {
+    $to      = $_POST['to'] ?? '';
+    $subject = $_POST['final_subject'] ?? '';
+    $body    = $_POST['final_body'] ?? '';
+
+    $subject = trim($subject);
+    $body    = trim($body);
+
+    if ($to === '' || $subject === '' || $body === '') {
+        $sendOk = false;
+        $sendMessage = 'Para, asunto y cuerpo corregidos son obligatorios para enviar el correo.';
+    } else {
+        $result = smtp_send_email($to, $subject, $body);
+        $sendOk = $result['ok'];
+        $sendMessage = $result['ok']
+            ? 'Correo enviado correctamente a ' . htmlspecialchars($to, ENT_QUOTES, 'UTF-8') . '.'
+            : 'Error al enviar el correo: ' . $result['error'];
+    }
+}
+
+// ============================================
+// LECTURA DE CORREO VÍA IMAP
+// ============================================
+$allowedFolders = [
+    'INBOX'  => 'Recibidos',
+    'Sent'   => 'Enviados',
+    'Drafts' => 'Borradores',
+    'Trash'  => 'Papelera'
+];
+
+$folder = $_GET['folder'] ?? 'INBOX';
+if (!isset($allowedFolders[$folder])) $folder = 'INBOX';
+
+$composeMode = isset($_GET['compose']) && $_GET['compose'] === '1';
+$selectedMsgNo = isset($_GET['msg']) ? (int)$_GET['msg'] : null;
+if ($composeMode) $selectedMsgNo = null;
+
+$imapError = '';
+$emails = [];
+$selectedEmail = null;
+$selectedBody = '';
+$selectedSummary = '';
+$folderCounts = array_fill_keys(array_keys($allowedFolders), 0);
+
+if (function_exists('imap_open')) {
+    $mailboxString = sprintf('{%s:%d%s}%s', IMAP_HOST, IMAP_PORT, IMAP_FLAGS, $folder);
+    $imap = @imap_open($mailboxString, SMTP_USER, SMTP_PASS);
+    if (!$imap) {
+        $imapError = imap_last_error();
+    } else {
+        // Contadores (rápidos) por carpeta (solo si el servidor lo permite sin penalizar demasiado)
+        foreach ($allowedFolders as $fKey => $_label) {
+            $mb = sprintf('{%s:%d%s}%s', IMAP_HOST, IMAP_PORT, IMAP_FLAGS, $fKey);
+            $tmp = @imap_open($mb, SMTP_USER, SMTP_PASS);
+            if ($tmp) {
+                $chk = @imap_check($tmp);
+                if ($chk && isset($chk->Nmsgs)) $folderCounts[$fKey] = (int)$chk->Nmsgs;
+                @imap_close($tmp);
+            }
+        }
+
+        $ids = @imap_search($imap, 'ALL');
+        if ($ids !== false) {
+            rsort($ids);
+            $ids = array_slice($ids, 0, 80); // un poco más, la UI lista mejor con scroll
+            foreach ($ids as $num) {
+                $overviewArr = @imap_fetch_overview($imap, $num, 0);
+                if (!$overviewArr || !isset($overviewArr[0])) continue;
+                $ov = $overviewArr[0];
+
+                $subject = isset($ov->subject) ? imap_utf8($ov->subject) : '(sin asunto)';
+                $from    = isset($ov->from) ? imap_utf8($ov->from) : '(desconocido)';
+                $date    = isset($ov->date) ? $ov->date : '';
+                $seen    = !empty($ov->seen);
+
+                $emails[] = [
+                    'num'      => $num,
+                    'subject'  => $subject,
+                    'from'     => $from,
+                    'date'     => $date,
+                    'seen'     => $seen,
+                    'from_raw' => $ov->from ?? '',
+                    'subject_raw' => $ov->subject ?? ''
+                ];
+            }
+        }
+
+        if ($selectedMsgNo) {
+            $overviewArr = @imap_fetch_overview($imap, $selectedMsgNo, 0);
+            if ($overviewArr && isset($overviewArr[0])) {
+                $ov = $overviewArr[0];
+                $selectedEmail = [
+                    'num'      => $selectedMsgNo,
+                    'subject'  => isset($ov->subject) ? imap_utf8($ov->subject) : '(sin asunto)',
+                    'from'     => isset($ov->from) ? imap_utf8($ov->from) : '(desconocido)',
+                    'date'     => isset($ov->date) ? $ov->date : '',
+                    'from_raw' => $ov->from ?? '',
+                    'subject_raw' => $ov->subject ?? ''
+                ];
+
+                $selectedBody = get_plain_text_body($imap, $selectedMsgNo);
+
+                $resumen = procesar_resumen_email($selectedBody, $API_URL, $API_KEY);
+                $selectedSummary = $resumen['ok']
+                    ? $resumen['texto']
+                    : ("No se pudo generar el resumen: " . $resumen['error']);
+            }
+        }
+
+        @imap_close($imap);
+    }
+} else {
+    $imapError = 'La extensión IMAP de PHP no está disponible en este servidor.';
+}
+
+// ============================================
+// PREFILL PARA RESPUESTA
+// ============================================
+$replyMode = ($selectedEmail !== null) && isset($_GET['reply']) && $_GET['reply'] === '1';
+
+$prefillTo = '';
+$prefillSubjectRaw = '';
+$prefillSubjectFinal = '';
+
+if ($replyMode && $selectedEmail) {
+    $fromRaw = $selectedEmail['from_raw'];
+    $addrList = @imap_rfc822_parse_adrlist($fromRaw, '');
+    if ($addrList && isset($addrList[0]->mailbox, $addrList[0]->host)) {
+        $prefillTo = $addrList[0]->mailbox . '@' . $addrList[0]->host;
+    } else {
+        $prefillTo = $selectedEmail['from'];
+    }
+    $prefillSubjectRaw = 'Re: ' . $selectedEmail['subject'];
+    $prefillSubjectFinal = $prefillSubjectRaw;
+}
+?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jocarsa | email</title>
+    <style>
+        @import url('https://static.jocarsa.com/fuentes/ubuntu-font-family-0.83/ubuntu.css');
+
+        :root{
+            --bg: #AFEEEE;     /* paleturquoise */
+            --nav: #354747;    /* oscuro */
+            --list: #698f8f;   /* medio */
+            --content: #F0FFFF;/* azure */
+            --ink: #073b3b;
+            --muted: #2b5a5a;
+            --card: rgba(255,255,255,0.75);
+            --accent: #20B2AA;
+            --danger: #f44336;
+            --ok: #15803d;
+            --warn: #92400e;
+            --shadow: 0 12px 30px rgba(0,0,0,0.18);
+        }
+
+        *{ box-sizing:border-box; }
+        html,body{ height:100%; }
+        body{
+            margin:0;
+            font-family: Ubuntu, system-ui, -apple-system, "Segoe UI", sans-serif;
+            background: var(--bg);
+            color: var(--ink);
+        }
+
+        #container{
+            display:flex;
+            height:100vh;
+            width:100vw;
+        }
+
+        /* ===== NAV ===== */
+        #nav{
+            flex: 0 0 15%;
+            overflow-y:auto;
+            padding: 20px;
+            padding-right: 0px;
+            background: var(--nav);
+        }
+        #nav h3{
+            margin: 0 0 15px;
+            background: var(--content);
+            color: #000;
+            width: calc(100% - 60px);
+            border-radius: 50px;
+            padding: 10px;
+            text-align: center;
+            box-shadow: -30px 0px 30px rgba(0,0,0,0.3);
+            font-weight: 500;
+        }
+        #nav a{
+            display:block;
+            padding: 10px 10px;
+            margin: 10px 0;
+            color:#fff;
+            border-radius: 34px 0 0 34px;
+            text-decoration:none;
+            transition: background-color .2s ease;
+            position:relative;
+        }
+        #nav a:hover,
+        #nav a.active{ background: var(--list); }
+        .contador{
+            background: white;
+            color: black;
+            width: 33px;
+            display: inline-block;
+            text-align: center;
+            height: 29px;
+            border-radius: 30px;
+            line-height: 29px;
+            margin-right: 8px;
+            font-size: .9rem;
+        }
+        #nav a.active .contador{ box-shadow:0px 0px 5px rgba(0,0,0,0.6) inset; }
+
+        .nav-note{
+            margin-top:14px;
+            width: calc(100% - 20px);
+            padding:10px 12px;
+            border-radius: 14px;
+            background: rgba(240,255,255,0.12);
+            color: rgba(255,255,255,0.9);
+            font-size: .85rem;
+            line-height: 1.25rem;
+        }
+        .nav-error{
+            margin-top:10px;
+            width: calc(100% - 20px);
+            padding:10px 12px;
+            border-radius: 14px;
+            background: rgba(255,255,255,0.14);
+            color: #ffd6d6;
+            font-size:.85rem;
+        }
+
+        /* ===== LISTA ===== */
+        #emailList{
+            flex: 0 0 15%;
+            overflow-y:auto;
+            padding: 20px;
+            padding-right: 0px;
+            background: var(--list);
+        }
+        #emailList h3{
+            margin: 0 0 15px;
+            color: #fff;
+            font-weight: 500;
+        }
+        #emailList ul{
+            list-style:none;
+            padding:0;
+            margin:0;
+        }
+        #emailList li{
+            padding: 12px 12px;
+            border-radius: 34px 0 0 34px;
+            cursor:pointer;
+            transition: background-color .15s ease;
+        }
+        #emailList li:hover{ background: rgba(240,255,255,0.35); }
+        #emailList li.selected{
+            background: var(--content);
+            box-shadow: -10px 0px 10px rgba(0,0,0,0.3);
+        }
+        #emailList li a{
+            color: #004C4C;
+            text-decoration:none;
+            display:block;
+        }
+        .mail-subject{
+            font-weight: 600;
+            white-space:nowrap;
+            overflow:hidden;
+            text-overflow:ellipsis;
+            margin-bottom: 4px;
+        }
+        .mail-from{
+            font-size: .86rem;
+            white-space:nowrap;
+            overflow:hidden;
+            text-overflow:ellipsis;
+            opacity: .9;
+        }
+        .mail-date{
+            font-size: .78rem;
+            opacity: .85;
+            margin-top: 6px;
+        }
+        .mail-unseen .mail-subject{ font-weight: 800; }
+
+        /* ===== CONTENT ===== */
+        #content{
+            flex: 0 0 70%;
+            overflow:hidden; /* importante: dentro hay scrolls */
+            padding: 20px;
+            background: var(--content);
+            display:flex;
+            flex-direction:column;
+            min-width:0;
+        }
+
+        .content-header{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            gap:12px;
+            margin-bottom: 12px;
+        }
+        .content-header h3{
+            margin:0;
+            color: #458B74;
+            font-weight: 500;
+        }
+        .toolbar{
+            display:flex;
+            gap:10px;
+            flex-wrap:wrap;
+            align-items:center;
+        }
+
+        .btn{
+            border:none;
+            cursor:pointer;
+            padding: 8px 12px;
+            border-radius: 10px;
+            background: #698f8f;
+            color:#fff;
+            transition: background-color .2s ease, transform .05s ease;
+            font-family: inherit;
+        }
+        .btn:hover{ background: var(--accent); }
+        .btn:active{ transform: translateY(1px); }
+
+        .btn-danger{
+            background: var(--danger);
+        }
+        .btn-danger:hover{ background:#c62828; }
+
+        .btn-light{
+            background: rgba(105,143,143,0.18);
+            color: var(--ink);
+            border: 1px solid rgba(105,143,143,0.35);
+        }
+        .btn-light:hover{
+            background: rgba(32,178,170,0.22);
+            border-color: rgba(32,178,170,0.55);
+        }
+
+        /* Área superior lectura (scroll) + panel inferior redacción */
+        .content-body{
+            flex:1;
+            min-height:0;
+            display:flex;
+            flex-direction:column;
+            gap: 14px;
+        }
+        .reader{
+            flex:1;
+            min-height:0;
+            overflow:auto;
+            border-radius: 16px;
+            background: rgba(255,255,255,0.55);
+            box-shadow: var(--shadow);
+            padding: 14px 16px;
+        }
+
+        .reader-meta{
+            margin-bottom: 12px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid rgba(105,143,143,0.25);
+        }
+        .reader-meta .subject{
+            font-size: 1.05rem;
+            font-weight: 700;
+            margin-bottom: 6px;
+            color: #073b3b;
+        }
+        .reader-meta .line{
+            font-size:.9rem;
+            color: var(--muted);
+        }
+
+        .summary{
+            margin: 10px 0 12px 0;
+            padding: 10px 12px;
+            border-radius: 12px;
+            background: rgba(175,238,238,0.35);
+            border: 1px solid rgba(105,143,143,0.25);
+            color: #0c3f3f;
+            line-height: 1.3rem;
+        }
+        .bodytext{
+            white-space: pre-wrap;
+            background: rgba(255,255,255,0.75);
+            border: 1px solid rgba(105,143,143,0.25);
+            border-radius: 12px;
+            padding: 12px;
+            line-height: 1.35rem;
+            color: #073b3b;
+        }
+
+        /* Panel inferior “Gmail medio” */
+        .composer{
+            height: 290px;
+            border-radius: 16px;
+            background: rgba(255,255,255,0.72);
+            box-shadow: var(--shadow);
+            padding: 12px 14px;
+            display:flex;
+            flex-direction:column;
+            min-height: 230px;
+        }
+        .composer-top{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            gap:10px;
+            margin-bottom: 10px;
+        }
+        .composer-top .title{
+            font-weight:700;
+            color:#073b3b;
+        }
+        .composer-top .pill{
+            font-size:.85rem;
+            padding: 6px 10px;
+            border-radius: 999px;
+            background: rgba(175,238,238,0.35);
+            border: 1px solid rgba(105,143,143,0.25);
+            color:#0c3f3f;
+        }
+
+        .row{
+            display:flex;
+            gap:10px;
+            align-items:center;
+            margin-bottom: 10px;
+        }
+        .row label{
+            width: 56px;
+            text-align:right;
+            font-size:.9rem;
+            color: var(--muted);
+        }
+        .field{
+            flex:1;
+            min-width:0;
+        }
+        input[type="text"], input[type="email"]{
+            width:100%;
+            padding: 9px 10px;
+            border-radius: 10px;
+            border: 1px solid rgba(105,143,143,0.35);
+            background: rgba(240,255,255,0.65);
+            font-family: inherit;
+            outline: none;
+        }
+        input[type="text"]:focus, input[type="email"]:focus{
+            border-color: rgba(32,178,170,0.75);
+            background: rgba(255,255,255,0.9);
+        }
+
+        .voiceBtn{
+            display:flex;
+            align-items:center;
+            gap:8px;
+            border-radius: 999px;
+            padding: 8px 12px;
+            border: 1px solid rgba(105,143,143,0.35);
+            background: rgba(240,255,255,0.65);
+            cursor:pointer;
+            color: #0c3f3f;
+        }
+        .voiceBtn:hover{ border-color: rgba(32,178,170,0.65); }
+        .voiceBtn.active{
+            background: rgba(175,238,238,0.55);
+            border-color: rgba(32,178,170,0.75);
+        }
+        .dot{
+            width:10px; height:10px; border-radius:999px;
+            background: rgba(105,143,143,0.8);
+            box-shadow: 0 0 0 rgba(32,178,170,0.0);
+        }
+        .voiceBtn.active .dot{
+            background: rgba(21,128,61,0.9);
+            box-shadow: 0 0 12px rgba(21,128,61,0.35);
+        }
+
+        .resultBox{
+            flex:1;
+            min-height:0;
+            border-radius: 12px;
+            border: 1px solid rgba(105,143,143,0.25);
+            background: rgba(240,255,255,0.65);
+            padding: 10px 12px;
+            overflow:auto;
+            white-space: pre-wrap;
+        }
+        .placeholder{
+            color: rgba(7,59,59,0.55);
+            font-style: italic;
+        }
+
+        .statusbar{
+            display:flex;
+            justify-content:space-between;
+            gap:10px;
+            margin-top: 8px;
+            flex-wrap:wrap;
+            align-items:center;
+            font-size:.86rem;
+            color: var(--muted);
+        }
+        .status-ok{ color: var(--ok); font-weight: 600; }
+        .status-warn{ color: var(--warn); font-weight: 600; }
+        .status-error{ color: #b91c1c; font-weight: 700; }
+
+        .send-status{
+            margin-top: 10px;
+            padding: 10px 12px;
+            border-radius: 12px;
+            font-size: .9rem;
+        }
+        .send-status.ok{
+            background: rgba(21,128,61,0.12);
+            border: 1px solid rgba(21,128,61,0.25);
+            color: var(--ok);
+        }
+        .send-status.error{
+            background: rgba(185,28,28,0.10);
+            border: 1px solid rgba(185,28,28,0.25);
+            color: #b91c1c;
+        }
+
+        .vh{
+            position:absolute; left:-9999px; width:1px; height:1px; overflow:hidden;
+        }
+
+        /* Responsive */
+        @media (max-width: 1100px){
+            #nav{ flex-basis: 18%; }
+            #emailList{ flex-basis: 22%; }
+            #content{ flex-basis: 60%; }
+        }
+        @media (max-width: 900px){
+            #container{ flex-direction:column; height:auto; min-height:100vh; }
+            #nav, #emailList, #content{ flex: 0 0 auto; }
+            #nav{ padding-right:20px; }
+            #emailList{ padding-right:20px; }
+            #content{ height: calc(100vh - 420px); min-height: 520px; }
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+
+    <!-- NAV -->
+    <div id="nav">
+        <h3>jocarsa | email</h3>
+
+        <?php foreach ($allowedFolders as $key => $label): ?>
+            <?php
+                $isActive = ($key === $folder);
+                $count = isset($folderCounts[$key]) ? (int)$folderCounts[$key] : 0;
+                $icon = '📁';
+                if ($key === 'INBOX') $icon = '📥';
+                elseif ($key === 'Sent') $icon = '📤';
+                elseif ($key === 'Drafts') $icon = '✏️';
+                elseif ($key === 'Trash') $icon = '🗑️';
+            ?>
+            <a href="?folder=<?php echo urlencode($key); ?>"
+               class="<?php echo $isActive ? 'active' : ''; ?>">
+                <span class="contador"><?php echo $count; ?></span> <?php echo $icon . ' ' . htmlspecialchars($label, ENT_QUOTES, 'UTF-8'); ?>
+            </a>
+        <?php endforeach; ?>
+
+        <a href="?folder=<?php echo urlencode($folder); ?>&compose=1" class="<?php echo $composeMode ? 'active' : ''; ?>">
+            <span class="contador">+</span> ✉️ Nuevo
+        </a>
+
+        <div class="nav-note">
+            <strong>IA:</strong> corrección suave + resumen automático.<br>
+            <strong>Dictado:</strong> es-ES (Chrome recomendado).
+        </div>
+
+        <?php if ($imapError): ?>
+            <div class="nav-error">
+                <strong>IMAP:</strong> <?php echo htmlspecialchars($imapError, ENT_QUOTES, 'UTF-8'); ?>
+            </div>
+        <?php endif; ?>
+    </div>
+
+    <!-- LISTA -->
+    <div id="emailList">
+        <h3 id="listTitle"><?php echo htmlspecialchars($allowedFolders[$folder], ENT_QUOTES, 'UTF-8'); ?></h3>
+        <ul id="listItems">
+            <?php if (!$emails): ?>
+                <li style="background:rgba(240,255,255,0.25); border-radius:14px; color:#fff;">
+                    No hay mensajes o no se han podido recuperar.
+                </li>
+            <?php else: ?>
+                <?php foreach ($emails as $msg): ?>
+                    <?php $isSelected = ($selectedMsgNo && $msg['num'] === $selectedMsgNo); ?>
+                    <li class="<?php echo $isSelected ? 'selected ' : ''; ?><?php echo !$msg['seen'] ? 'mail-unseen' : ''; ?>"
+                        onclick="window.location.href='?folder=<?php echo urlencode($folder); ?>&msg=<?php echo (int)$msg['num']; ?>'">
+                        <a href="?folder=<?php echo urlencode($folder); ?>&msg=<?php echo (int)$msg['num']; ?>" onclick="event.preventDefault();">
+                            <div class="mail-subject"><?php echo htmlspecialchars($msg['subject'], ENT_QUOTES, 'UTF-8'); ?></div>
+                            <div class="mail-from"><?php echo htmlspecialchars($msg['from'], ENT_QUOTES, 'UTF-8'); ?></div>
+                            <div class="mail-date"><?php echo htmlspecialchars($msg['date'], ENT_QUOTES, 'UTF-8'); ?></div>
+                        </a>
+                    </li>
+                <?php endforeach; ?>
+            <?php endif; ?>
+        </ul>
+    </div>
+
+    <!-- CONTENT -->
+    <div id="content">
+        <div class="content-header">
+            <h3 id="contentTitle">
+                <?php
+                    if ($selectedEmail) echo 'Contenido';
+                    else echo ($composeMode ? 'Redacción' : 'Contenido');
+                ?>
+            </h3>
+            <div class="toolbar">
+                <?php if ($selectedEmail): ?>
+                    <a class="btn btn-light" href="?folder=<?php echo urlencode($folder); ?>&msg=<?php echo (int)$selectedEmail['num']; ?>&reply=1">↩️ Responder</a>
+                <?php endif; ?>
+                <a class="btn btn-light" href="?folder=<?php echo urlencode($folder); ?>&compose=1">✉️ Nuevo</a>
+            </div>
+        </div>
+
+        <div class="content-body">
+            <!-- READER -->
+            <div class="reader" id="reader">
+                <?php if ($selectedEmail): ?>
+                    <div class="reader-meta">
+                        <div class="subject"><?php echo htmlspecialchars($selectedEmail['subject'], ENT_QUOTES, 'UTF-8'); ?></div>
+                        <div class="line"><strong>De:</strong> <?php echo htmlspecialchars($selectedEmail['from'], ENT_QUOTES, 'UTF-8'); ?></div>
+                        <div class="line"><strong>Fecha:</strong> <?php echo htmlspecialchars($selectedEmail['date'], ENT_QUOTES, 'UTF-8'); ?></div>
+                    </div>
+
+                    <div class="summary">
+                        <strong>Resumen automático</strong><br>
+                        <?php echo nl2br(htmlspecialchars($selectedSummary, ENT_QUOTES, 'UTF-8')); ?>
+                    </div>
+
+                    <div class="bodytext">
+                        <?php echo nl2br(htmlspecialchars($selectedBody, ENT_QUOTES, 'UTF-8')); ?>
+                    </div>
+                <?php else: ?>
+                    <div class="bodytext" style="border-style:dashed;">
+                        <?php if ($composeMode): ?>
+                            Panel de redacción activo. La lectura se mostrará aquí al seleccionar un correo.
+                        <?php else: ?>
+                            Selecciona un mensaje en la lista para verlo aquí.
+                        <?php endif; ?>
+                    </div>
+                <?php endif; ?>
+            </div>
+
+            <!-- COMPOSER (siempre visible) -->
+            <div class="composer" id="composer">
+                <form method="post" id="mailForm" style="display:flex; flex-direction:column; height:100%;">
+                    <div class="composer-top">
+                        <div class="title"><?php echo $replyMode ? 'Responder mensaje' : 'Nuevo mensaje'; ?></div>
+                        <div class="pill">IA + dictado · estilo Gmail (medio)</div>
+                    </div>
+
+                    <div class="row">
+                        <label>Para</label>
+                        <div class="field">
+                            <input type="email" name="to" required placeholder="destinatario@ejemplo.com"
+                                   value="<?php echo htmlspecialchars($prefillTo, ENT_QUOTES, 'UTF-8'); ?>">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <label>Asunto</label>
+                        <div class="field">
+                            <input type="text" id="subjectFinal" placeholder="Asunto corregido (IA)"
+                                   readonly value="<?php echo htmlspecialchars($prefillSubjectFinal, ENT_QUOTES, 'UTF-8'); ?>">
+                        </div>
+                        <button type="button" class="voiceBtn" id="btnDictarSubject" title="Dictar asunto">
+                            <span class="dot"></span> 🎙️ Asunto
+                        </button>
+                    </div>
+
+                    <textarea id="subjectRaw" class="vh"><?php echo htmlspecialchars($prefillSubjectRaw, ENT_QUOTES, 'UTF-8'); ?></textarea>
+                    <input type="hidden" name="final_subject" id="final_subject"
+                           value="<?php echo htmlspecialchars($prefillSubjectFinal, ENT_QUOTES, 'UTF-8'); ?>">
+
+                    <textarea id="texto" class="vh"></textarea>
+                    <textarea name="final_body" id="final_body" class="vh"></textarea>
+
+                    <div class="resultBox" id="bodyResultBox">
+                        <span class="placeholder">Dicta el cuerpo (🎙️ Cuerpo). La IA lo corregirá automáticamente cada pocos segundos.</span>
+                    </div>
+
+                    <div class="statusbar">
+                        <div>
+                            <span id="estadoDictado" class="status-warn">Dictado en espera.</span>
+                            &nbsp;·&nbsp;
+                            <span>Asunto IA: <span id="estadoIA_subject" class="status-warn"><?php echo $prefillSubjectFinal ? 'Preparado.' : 'A la espera…'; ?></span></span>
+                            &nbsp;·&nbsp;
+                            <span>Cuerpo IA: <span id="estadoIA_body" class="status-warn">A la espera…</span></span>
+                        </div>
+
+                        <div style="display:flex; gap:10px; align-items:center; flex-wrap:wrap;">
+                            <button type="button" class="voiceBtn" id="btnDictarBody" title="Dictar cuerpo">
+                                <span class="dot"></span> 🎙️ Cuerpo
+                            </button>
+                            <button type="submit" class="btn" name="send_email" value="1">Enviar</button>
+                        </div>
+                    </div>
+
+                    <?php if ($sendMessage !== null): ?>
+                        <div class="send-status <?php echo $sendOk ? 'ok' : 'error'; ?>">
+                            <?php echo htmlspecialchars($sendMessage, ENT_QUOTES, 'UTF-8'); ?>
+                        </div>
+                    <?php endif; ?>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+(function(){
+    const subjectRaw        = document.getElementById('subjectRaw');
+    const bodyRaw           = document.getElementById('texto');
+    const subjectFinal      = document.getElementById('subjectFinal');
+    const bodyResultBox     = document.getElementById('bodyResultBox');
+
+    const finalSubjectField = document.getElementById('final_subject');
+    const finalBodyField    = document.getElementById('final_body');
+
+    const btnDictarSubject  = document.getElementById('btnDictarSubject');
+    const btnDictarBody     = document.getElementById('btnDictarBody');
+
+    const estadoIA_subject  = document.getElementById('estadoIA_subject');
+    const estadoIA_body     = document.getElementById('estadoIA_body');
+    const estadoDictado     = document.getElementById('estadoDictado');
+
+    const form              = document.getElementById('mailForm');
+
+    let recognition = null;
+    let escuchando = false;
+    let currentTarget = null;
+    let currentTargetType = null;
+    let bufferBeforeRecognition = '';
+    let recognizedFinal = '';
+
+    let lastSentSubject = '';
+    let lastSentBody    = '';
+    let isSendingSubject = false;
+    let isSendingBody    = false;
+
+    const HEARTBEAT_MS = 3000;
+
+    function setBodyBox(text, isError=false, isPlaceholder=false){
+        bodyResultBox.innerHTML = '';
+        const pre = document.createElement('pre');
+        pre.style.margin = '0';
+        pre.style.whiteSpace = 'pre-wrap';
+        pre.textContent = text;
+        if (isPlaceholder) pre.classList.add('placeholder');
+        if (isError) pre.style.color = '#b91c1c';
+        bodyResultBox.appendChild(pre);
+        finalBodyField.value = text;
+    }
+
+    function setIAStatus(kind, text, cls){
+        const el = (kind === 'subject') ? estadoIA_subject : estadoIA_body;
+        el.textContent = text;
+        el.className = cls || '';
+    }
+
+    function markChanged(kind){
+        if (kind === 'subject') setIAStatus('subject','Detectados cambios…','status-warn');
+        else setIAStatus('body','Detectados cambios…','status-warn');
+    }
+
+    function sendToAI(kind){
+        const rawEl = (kind === 'subject') ? subjectRaw : bodyRaw;
+        const current = rawEl.value.trim();
+        if (!current){
+            setIAStatus(kind, 'Sin texto.', 'status-warn');
+            return;
+        }
+
+        if (kind === 'subject'){
+            if (isSendingSubject || current === lastSentSubject) return;
+            isSendingSubject = true;
+            setIAStatus('subject','Enviando…','status-warn');
+        } else {
+            if (isSendingBody || current === lastSentBody) return;
+            isSendingBody = true;
+            setIAStatus('body','Enviando…','status-warn');
+        }
+
+        const params = new URLSearchParams();
+        params.append('ajax','1');
+        params.append('kind', kind === 'subject' ? 'subject' : 'body');
+        params.append('texto', current);
+
+        fetch(window.location.pathname + window.location.search, {
+            method:'POST',
+            headers:{'Content-Type':'application/x-www-form-urlencoded'},
+            body: params.toString()
+        })
+        .then(r => r.json())
+        .then(data => {
+            if (!data || typeof data.ok === 'undefined'){
+                if (kind === 'body') setBodyBox('Respuesta inesperada del servidor.', true);
+                setIAStatus(kind,'Respuesta inválida.','status-error');
+                return;
+            }
+            if (!data.ok){
+                if (kind === 'body') setBodyBox(data.error || 'Error al procesar.', true);
+                setIAStatus(kind,'Error IA.','status-error');
+                return;
+            }
+
+            if (kind === 'subject'){
+                lastSentSubject = current;
+                const text = data.texto || '';
+                subjectFinal.value = text;
+                finalSubjectField.value = text;
+                setIAStatus('subject','Actualizado.','status-ok');
+            } else {
+                lastSentBody = current;
+                setBodyBox(data.texto || '');
+                setIAStatus('body','Actualizado.','status-ok');
+            }
+        })
+        .catch(err => {
+            console.error(err);
+            if (kind === 'body') setBodyBox('Error de red al contactar con la IA.', true);
+            setIAStatus(kind,'Error de red.','status-error');
+        })
+        .finally(() => {
+            if (kind === 'subject') isSendingSubject = false;
+            else isSendingBody = false;
+        });
+    }
+
+    setInterval(() => {
+        sendToAI('subject');
+        sendToAI('body');
+    }, HEARTBEAT_MS);
+
+    function startDictationFor(kind){
+        if (!recognition) return;
+
+        const targetRaw = (kind === 'subject') ? subjectRaw : bodyRaw;
+
+        if (escuchando && currentTargetType === kind){
+            recognition.stop();
+            return;
+        }
+        if (escuchando && currentTargetType !== kind){
+            recognition.stop();
+            return;
+        }
+
+        currentTarget = targetRaw;
+        currentTargetType = kind;
+
+        try { recognition.start(); } catch(e){ console.error(e); }
+    }
+
+    if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window){
+        const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+        recognition = new SR();
+        recognition.lang = 'es-ES';
+        recognition.continuous = true;
+        recognition.interimResults = true;
+
+        recognition.onstart = function(){
+            escuchando = true;
+            recognizedFinal = '';
+            bufferBeforeRecognition = currentTarget ? currentTarget.value.trimEnd() : '';
+
+            btnDictarSubject.classList.remove('active');
+            btnDictarBody.classList.remove('active');
+
+            if (currentTargetType === 'subject'){
+                btnDictarSubject.classList.add('active');
+                estadoDictado.textContent = 'Dictando asunto…';
+            } else {
+                btnDictarBody.classList.add('active');
+                estadoDictado.textContent = 'Dictando cuerpo…';
+            }
+            estadoDictado.className = 'status-ok';
+        };
+
+        recognition.onerror = function(ev){
+            escuchando = false;
+            btnDictarSubject.classList.remove('active');
+            btnDictarBody.classList.remove('active');
+            estadoDictado.textContent = 'Error en reconocimiento de voz.';
+            estadoDictado.className = 'status-error';
+            console.error('Speech error:', ev);
+        };
+
+        recognition.onend = function(){
+            escuchando = false;
+            btnDictarSubject.classList.remove('active');
+            btnDictarBody.classList.remove('active');
+
+            if (subjectRaw.value.trim() || bodyRaw.value.trim()){
+                estadoDictado.textContent = 'Dictado detenido. Texto listo para corregir.';
+                estadoDictado.className = 'status-ok';
+            } else {
+                estadoDictado.textContent = 'Dictado detenido.';
+                estadoDictado.className = 'status-warn';
+            }
+        };
+
+        recognition.onresult = function(event){
+            if (!currentTarget) return;
+            let interimText = '';
+
+            for (let i = event.resultIndex; i < event.results.length; i++){
+                const transcript = event.results[i][0].transcript;
+                if (event.results[i].isFinal) recognizedFinal += transcript + ' ';
+                else interimText += transcript + ' ';
+            }
+
+            const fullText = (bufferBeforeRecognition + ' ' + recognizedFinal + interimText).trim();
+            currentTarget.value = fullText;
+            markChanged(currentTargetType);
+        };
+
+        btnDictarSubject.addEventListener('click', () => startDictationFor('subject'));
+        btnDictarBody.addEventListener('click', () => startDictationFor('body'));
+
+        estadoDictado.textContent = 'Dictado disponible. Pulsa 🎙️ Asunto o 🎙️ Cuerpo.';
+        estadoDictado.className = 'status-ok';
+    } else {
+        btnDictarSubject.disabled = true;
+        btnDictarBody.disabled = true;
+        estadoDictado.textContent = 'Dictado no compatible con este navegador.';
+        estadoDictado.className = 'status-error';
+    }
+
+    form.addEventListener('submit', function(){
+        finalSubjectField.value = subjectFinal.value || '';
+        finalBodyField.value = bodyResultBox.textContent || '';
+    });
+
+    // Placeholder inicial para cuerpo
+    if (!bodyRaw.value.trim()){
+        setBodyBox('Dicta el cuerpo (🎙️ Cuerpo). La IA lo corregirá automáticamente cada pocos segundos.', false, true);
+    }
+})();
+</script>
+</body>
+</html>
+```
+
+### Actividades propuestas
+
+This is a complex HTML/JavaScript code that provides an interface for composing and sending emails. I'll provide a high-level overview of the code's functionality and suggest some potential improvements.
+
+**Overview**
+
+The code uses JavaScript to create a dynamic email composition interface. It allows users to input text, choose from various templates or topics, and use speech-to-text technology (with optional dictation by voice) to compose their emails. The interface also includes features like grammar checking, spell-checking, and error detection.
+
+**Key Components**
+
+1. **Speech Recognition**: The code uses the `SpeechRecognition` API to enable speech-to-text functionality.
+2. **Email Composition**: The interface allows users to input text, choose from various templates or topics, and use speech-to-text technology to compose their emails.
+3. **Grammar Checking**: The code includes a grammar checking feature that checks the input text for grammatical errors.
+4. **Spell-Checking**: The code also includes spell-checking features that suggest corrections for misspelled words.
+
+**Potential Improvements**
+
+1. **Separation of Concerns**: The code mixes different concerns (e.g., email composition, speech recognition, grammar checking) in a single file. Consider breaking these down into separate files or modules to improve maintainability.
+2. **Error Handling**: The code does not handle errors well. For example, if the user enters invalid input, the app may crash or produce unexpected results. Implement robust error handling mechanisms to ensure a better user experience.
+3. **Accessibility**: The code could benefit from improved accessibility features (e.g., high contrast mode, screen reader support).
+4. **Code Organization**: Some of the JavaScript code is duplicated or scattered across multiple files. Consider refactoring these sections into more concise and modular functions.
+5. **Security**: The code does not appear to include any security measures (e.g., encryption, secure communication protocols). Ensure that sensitive data is protected when sending emails.
+
+**HTML Structure**
+
+The HTML structure is generally well-organized and follows standard conventions. However, some of the class names could be more descriptive or specific.
+
+```html
+<div id="email-composer">
+  <!-- email composition input fields -->
+</div>
+
+<!-- speech recognition related elements -->
+
+<!-- grammar checking and spell-checking related elements -->
+```
+
+**JavaScript Code**
+
+The JavaScript code is mostly well-structured, but there are some areas that can be improved. For example:
+
+* The `startDictationFor` function calls are repeated in multiple places. Consider extracting these into a single method or using a more robust way to handle speech recognition.
+* Some of the variable names could be more descriptive (e.g., `SR` could be renamed to `SpeechRecognition`).
+* Error handling is not well-implemented in some cases.
+
+By addressing these areas, you can improve the overall maintainability and usability of your email composition app.
+
 
 <a id="proyecto-rrhh-con-ia"></a>
 ## Proyecto RRHH con IA
 
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/009-Proyectos%20segundo%20trimestre/009-Proyecto%20RRHH%20con%20IA)
+
+### Introducción a los ejercicios
+
+El código parece ser un template de HTML para una página web que muestra una tabla con información sobre estudiantes y su CV. El código utiliza JavaScript para realizar análisis secuencial del CV de cada estudiante y mostrar el resultado en la página.
+
+Sin embargo, hay algunas áreas que podrían mejorarse:
+
+1. **Organización del código**: El código está muy espaciado y no sigue un patrón de organización lógica. Las partes separadas por `<?php if (!empty($students))?: ?>` y `<?php endif; ?>` son demasiado largas y difíciles de leer.
+2. **Estructura HTML**: La estructura HTML es rica y no se sigue una estructura lógica clara. Por ejemplo, las secciones `<div class="card">` y `<div id="tablaCV">` podrían estar mejor separadas en diferentes sections con nombres más descritivos.
+3. **Usabilidad**: La página parece ser difícil de usar para personas que no están familiarizadas con el código HTML y JavaScript. Hay muchos elementos de CSS adicionales que podrían mejorar la usabilidad, como la forma en que se muestran los mensajes de error o de éxito.
+4. **Seguridad**: El código utiliza `window.location.href` para enviar una solicitud HTTP POST. Esto podría ser un problema si el sitio web no es seguro y el usuario no puede ver la URL actual del sitio web.
+
+Algunas sugerencias para mejorar el código:
+
+1. Utilizar una estructura de HTML más lógica y fácil de leer.
+2. Separar las partes de JavaScript en diferentes archivos o secciones para que sean más fáciles de mantener y entender.
+3. Agregar elementos CSS adicionales para mejorar la usabilidad, como estilos para los mensajes de error y éxito.
+4. Considerar utilizar un framework de front-end como React o Angular para ayudar a organizar el código y mejorar la seguridad.
+
+Aquí hay una posible versión refactoreada del código que sigue algunas de estas sugerencias:
+
+```html
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis secuencial de CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sección 1: mensaje de bienvenida -->
+        <div class="card">
+            <h1>Análisis masivo de CV desde Lavender</h1>
+            <p>1) Se obtienen todas las entradas del formulario con hash...</p>
+        </div>
+
+        <!-- Sección 2: tabla de estudiantes -->
+        <div id="tablaCV" class="card">
+            <h2>Resultado del análisis</h2>
+            <table>
+                <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Nombre del estudiante</th>
+                    <th>URL CV</th>
+                    <th>Estado</th>
+                </tr>
+                </thead>
+                <tbody id="cuerpoTabla">
+                </tbody>
+            </table>
+
+            <!-- Sección 3: botón para iniciar el análisis -->
+            <button id="btnIniciarAnalisis">Iniciar análisis secuencial de CV</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+```
+
+```javascript
+// script.js
+
+const delayMs = 3000; // tiempo entre análisis de cada CV
+const btn = document.getElementById('btnIniciarAnalisis');
+const cuerpoTabla = document.getElementById('cuerpoTabla');
+
+// Función para marcar una fila como procesando
+function marcarFilaProcesando(tr) {
+    tr.classList.add('row-processing');
+    tr.classList.remove('row-done', 'row-error');
+    const tdEstado = tr.querySelector('.col-estado');
+    if (tdEstado) tdEstado.textContent = 'Analizando CV…';
+}
+
+// Función para marcar una fila como hecha
+function marcarFilaHecha(tr, mensaje) {
+    tr.classList.remove('row-processing', 'row-error');
+    tr.classList.add('row-done');
+    const tdEstado = tr.querySelector('.col-estado');
+    if (tdEstado) tdEstado.textContent = mensaje || 'Análisis completado.';
+}
+
+// Función para marcar una fila como error
+function marcarFilaError(tr, mensaje) {
+    tr.classList.remove('row-processing');
+    tr.classList.add('row-error');
+    const tdEstado = tr.querySelector('.col-estado');
+    if (tdEstado) tdEstado.textContent = mensaje || 'Error al analizar el CV.';
+}
+
+// Función para realizar análisis secuencial de CV
+async function analizarFila(i) {
+    if (i >= cuerpoTabla.children.length) {
+        return;
+    }
+
+    const tr = cuerpoTabla.children[i];
+    const cvUrl = tr.querySelector('.col-tiene_carnet_conducir').textContent || '';
+    const nombre = tr.querySelector('.col-nombre').textContent || '';
+
+    if (!cvUrl) {
+        marcarFilaHecha(tr, 'Sin URL de CV (no se analiza).');
+        setTimeout(() => analizarFila(i + 1), delayMs);
+        return;
+    }
+
+    marcarFilaProcesando(tr);
+    estadoGlobal.textContent = `Analizando CV ${i+1}/${cuerpoTabla.children.length}…`;
+
+    try {
+        const params = new URLSearchParams();
+        params.append('accion', 'analizar_cv');
+        params.append('cv_url', cvUrl);
+        params.append('nombre', nombre);
+
+        const resp = await fetch(window.location.href, {
+            method: 'POST',
+            headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+            body: params.toString()
+        });
+
+        const data = await resp.json();
+
+        if (!data.ok) {
+            marcarFilaError(tr, data.error || 'Error al analizar el CV.');
+        } else {
+            const blank = !!data.blank;
+
+            // Marcar la fila con el resultado del análisis
+            cuerpoTabla.children[i].querySelector('.col-estado').textContent = data.respuestas_html;
+        }
+
+    } catch (e) {
+        console.error(e);
+        marcarFilaError(tr, 'Error de red o de parseo JSON en la respuesta de la IA.');
+    }
+
+    setTimeout(() => analizarFila(i + 1), delayMs);
+}
+
+// Evento para iniciar el análisis secuencial
+btn.addEventListener('click', function() {
+    btn.disabled = true;
+    estadoGlobal.textContent = 'Iniciando análisis secuencial…';
+    analizarFila(0);
+});
+```
+
+```css
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.row-processing {
+    background-color: #ccc;
+}
+
+.row-done {
+    background-color: #0f0;
+}
+
+.row-error {
+    background-color: #f00;
+}
+
+.col-estado small {
+    font-size: 12px;
+}
+```
+
+Esta es solo una posible versión refactoreada del código, y hay muchas otras formas de mejorarlo.
+
 ### Primera version
-<small>Creado: 2025-12-11 19:33</small>
+<small>Creado: 2025-12-22 20:03</small>
+
+#### Explicación
+
+Este script PHP es una herramienta de ejemplo que permite interactuar con un API remota (en este caso, la misma que se encuentra en el servidor local) para obtener respuestas a preguntas planteadas sobre contenido de un CV. El objetivo es demostrar cómo enviar datos desde una página web y recibir respuestas procesadas por una API.
+
+El script utiliza varias funciones importantes:
+
+1.  **`fetch_url_content`**: Esta función descarga el contenido de una URL utilizando `cURL`. Se utiliza para obtener el contenido del CV desde la URL proporcionada por el usuario.
+2.  **`html_to_plain_text`**: Este método limpieza el HTML extraído de la URL y lo convierte en texto plano, eliminando elementos como scripts, estilos o etiquetas HTML que no son relevantes para el contenido del CV.
+3.  **`preguntar_sobre_cv`**: Esta función interactúa con la API remota para enviar el texto del CV y la pregunta planteada. Si se recibe una respuesta correcta, la función devuelve esta respuesta; en caso contrario, muestra un mensaje de error.
+
+El script principal es el siguiente: si se envía una solicitud POST al script desde una URL, se verifica que la URL del CV y la pregunta estén vacías para poder mostrar un mensaje. De lo contrario, el contenido del CV se descarga utilizando `fetch_url_content` y luego se limpia con `html_to_plain_text`. Luego, se forma el texto completo de preguntar a la IA. La respuesta obtenida se muestra en una tarjeta separada.
+
+Este es un ejemplo básico de cómo interactuar con APIs remotas para obtener respuestas procesadas sobre datos de un CV.
 
 `001-Primera version.php`
 
@@ -16638,7 +24376,183 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ```
 
 ### mas preguntas
-<small>Creado: 2025-12-11 19:41</small>
+<small>Creado: 2025-12-22 20:03</small>
+
+#### Explicación
+
+Este código es una aplicación web que utiliza PHP para analizar un curriculum vitae (CV) y responder a 5 preguntas de manera automatizada utilizando una API remota. A continuación, te explicaré cómo funciona el código:
+
+El código comienza con la configuración del entorno y la conexión a la base de datos. Luego, se define la lógica principal que se ejecuta cuando el usuario envía un formulario con la URL del CV.
+
+**Lógica principal**
+
+La lógica principal se encuentra en la siguiente parte del código:
+
+```php
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $url = isset($_POST['cv_url']) ? trim($_POST['cv_url']) : '';
+
+    // 1) Descargar CV
+    $fetch = fetch_url_content($url);
+    if (!$fetch['ok']) {
+        $resultOk = false;
+        $resultMessage = $fetch['error'];
+    } else {
+        // 2) Limpiar a texto
+        $cvText = html_to_plain_text($fetch['content']);
+
+        // 3) Analizar con IA
+        $ai = analizar_cv($cvText, $API_URL, $API_KEY);
+        $resultOk = $ai['ok'];
+        if ($ai['ok']) {
+            $parsedAnswers = $ai['parsed'];
+            $resultMessage = 'Análisis realizado correctamente por la IA.';
+        } else {
+            $resultMessage = $ai['error'];
+        }
+    }
+}
+```
+
+Esta sección del código se ejecuta cuando el usuario envía un formulario con la URL del CV. Primero, verifica si el método de solicitud es POST. Si es así, llama a la función `fetch_url_content` para descargar el CV. Luego, procesa el contenido del CV y lo pasa a la función `analizar_cv` para analizarlo utilizando la API remota.
+
+**Análisis con IA**
+
+La función `analizar_cv` es una llamada a la API remota que utiliza la inteligencia artificial (IA) para analizar el CV. El código de esta función se encuentra en la siguiente parte:
+
+```php
+function analizar_cv($cvText, $API_URL, $API_KEY)
+{
+    // 1) Preparar datos
+    $parsedAnswers = array();
+
+    // 2) Llamar a la API remota
+    $response = json_decode(
+        file_get_contents($API_URL),
+        true
+    );
+
+    // 3) Procesar respuesta
+    if ($response['ok']) {
+        foreach ($response['data'] as $question => $answer) {
+            $parsedAnswers[$question] = $decorator->decorar_valor($answer);
+        }
+    } else {
+        return array(
+            'ok'     => false,
+            'error'  => $response['message'],
+            'parsed' => null
+        );
+    }
+
+    return array(
+        'ok'     => true,
+        'error'  => '',
+        'parsed' => $parsedAnswers,
+        'raw'    => ''
+    );
+}
+```
+
+Esta función se llama a la API remota para obtener los resultados del análisis de CV. Luego, procesa la respuesta y devuelve un array con los resultados.
+
+**Decorar valores**
+
+La función `decorar_valor` es utilizada para decorar los valores de respuesta según reglas específicas. El código de esta función se encuentra en la siguiente parte:
+
+```php
+function decorar_valor($valor)
+{
+    $trim = trim($valor);
+    $norm = mb_strtolower($trim, 'UTF-8');
+
+    if ($norm === 'no indicado' || $norm === '') {
+        // globo amarillo (aprox.)
+        return 'no indicado 🟡';
+    }
+    if ($norm === 'no') {
+        // globo rojo
+        return 'no 🎈';
+    }
+    return $trim; // positivo o texto con información
+}
+```
+
+Esta función se utiliza para decorar los valores de respuesta según reglas específicas. Por ejemplo, si el valor es "no indicado" o vacío, devuelve un globo amarillo (`🟡`). Si el valor es "no", devuelve un globo rojo (`🎈`).
+
+**Resultado**
+
+El resultado del análisis se muestra en la siguiente parte del código:
+
+```php
+if ($parsedAnswers !== null): ?>
+    <div class="card">
+        <h2>Resultado del análisis</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>1. ¿Dónde vive esa persona?</th>
+                    <th>2. ¿Tiene carnet de conducir vehículos?</th>
+                    <th>3. ¿Tiene vehículo propio?</th>
+                    <th>4. ¿Está trabajando actualmente?</th>
+                    <th>5. Puesto de trabajo actual</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <?php
+                            echo htmlspecialchars(
+                                decorar_valor($parsedAnswers['donde_vive'] ?? 'no indicado'),
+                                ENT_QUOTES,
+                                'UTF-8'
+                            );
+                        ?>
+                    </td>
+                    <td>
+                        <?php
+                            echo htmlspecialchars(
+                                decorar_valor($parsedAnswers['tiene_carnet_conducir'] ?? 'no indicado'),
+                                ENT_QUOTES,
+                                'UTF-8'
+                            );
+                        ?>
+                    </td>
+                    <td>
+                        <?php
+                            echo htmlspecialchars(
+                                decorar_valor($parsedAnswers['tiene_vehiculo_propio'] ?? 'no indicado'),
+                                ENT_QUOTES,
+                                'UTF-8'
+                            );
+                        ?>
+                    </td>
+                    <td>
+                        <?php
+                            echo htmlspecialchars(
+                                decorar_valor($parsedAnswers['esta_trabajando_actualmente'] ?? 'no indicado'),
+                                ENT_QUOTES,
+                                'UTF-8'
+                            );
+                        ?>
+                    </td>
+                    <td>
+                        <?php
+                            echo htmlspecialchars(
+                                decorar_valor($parsedAnswers['puesto_trabajo_actual'] ?? 'no indicado'),
+                                ENT_QUOTES,
+                                'UTF-8'
+                            );
+                        ?>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+<?php endif; ?>
+```
+
+Este código muestra los resultados del análisis en una tabla. Los valores se decoran según reglas específicas utilizando la función `decorar_valor`.
 
 `002-mas preguntas.php`
 
@@ -17075,7 +24989,124 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ```
 
 ### tabla con json de lavender
-<small>Creado: 2025-12-11 19:52</small>
+<small>Creado: 2025-12-22 20:03</small>
+
+#### Explicación
+
+El código parece ser un ejemplo de una página web que busca estudiantes en Lavender y analiza sus CV para responder a 5 preguntas. A continuación, te presento algunas sugerencias para mejorar la legibilidad y la calidad del código:
+
+1. **Organización**: El código está muy mezclado y no sigue un patrón de organización lógica. Considera dividir el código en archivos separados para cada sección (por ejemplo, `index.php`, `analysis.php`, etc.) y utilizar include o requires para importar las funciones y variables necesarias.
+
+2. **Variable de seguridad**: En el formulario, la variable `$dni` está siendo usada sin validación. Considera agregar una función para verificar que el DNI sea válido y no contenga caracteres especiales o vacíos.
+
+3. **Error handling**: El código no maneja errores de manera adecuada. Considera agregar funciones para manejar errores de forma consistente, como enviar un mensaje de error al usuario y regresar a la página de inicio si es necesario.
+
+4. **Optimización de rendimiento**: El código puede ser optimizado para mejorar el rendimiento. Por ejemplo, considera usar una base de datos para almacenar los estudiantes en lugar de un arreglo en PHP.
+
+5. **Seguridad contra ataques de inyección de código**: Considera utilizar técnicas de seguridad para evitar ataques de inyección de código. Por ejemplo, puedes utilizar funciones como `mysqli_real_escape_string` o `PDO::quote` para proteger tus consultas SQL.
+
+6. **Formato y legibilidad**: El código puede ser más legible con la ayuda de un linter de código. Considera utilizar un editor de código que tenga integración con un linter para mejorar la calidad del código.
+
+7. **Comentarios y documentación**: El código podría beneficiarse de comentarios y documentación para explicar qué hace cada sección de código. Considera agregar comentarios para explicar las variables, funciones y lógica detrás del código.
+
+Aquí te presento un ejemplo de cómo podrías reorganizar el código:
+```php
+// index.php
+
+<?php
+require_once 'functions.php';
+?>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Análisis de CV desde Lavender</title>
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <form method="post">
+            <label for="dni">DNI del estudiante</label>
+            <input type="text" id="dni" name="dni" value="<?php echo htmlspecialchars($_POST['dni'] ?? '', ENT_QUOTES, 'UTF-8'); ?>">
+
+            <div style="margin-top:1rem;">
+                <button type="submit">Buscar en Lavender y analizar CV</button>
+                <span class="badge">Lavender + IA · múltiple por DNI</span>
+            </div>
+
+            <?php if (isset($_POST['dni'])) { ?>
+                <div class="status <?php echo checkResult($result) ? 'ok' : 'error'; ?>">
+                    <?php echo $message; ?>
+                </div>
+            <?php } ?>
+        </form>
+    </div>
+
+    <!-- Resultado del análisis -->
+    <?php if (isset($rowsForTable)) { ?>
+        <div class="card">
+            <h2>Resultado del análisis</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre del estudiante</th>
+                        <th>URL CV</th>
+                        <th>1. ¿Dónde vive esa persona?</th>
+                        <th>2. ¿Tiene carnet de conducir vehículos?</th>
+                        <th>3. ¿Tiene vehículo propio?</th>
+                        <th>4. ¿Está trabajando actualmente?</th>
+                        <th>5. Puesto de trabajo actual</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <?php foreach ($rowsForTable as $row) { ?>
+                    <tr>
+                        <td><?php echo htmlspecialchars($row['nombre'], ENT_QUOTES, 'UTF-8'); ?></td>
+                        <td>
+                            <?php if ($row['cv_url']) { ?>
+                                <a href="<?php echo htmlspecialchars($row['cv_url'], ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener noreferrer">
+                                    <?php echo htmlspecialchars($row['cv_url'], ENT_QUOTES, 'UTF-8'); ?>
+                                </a>
+                            <?php } else { ?>
+                                <span>no indicado</span>
+                            <?php } ?>
+                        </td>
+                        <td><?php echo htmlspecialchars(decorarValor($r['donde_vive'] ?? 'no indicado'), ENT_QUOTES, 'UTF-8'); ?></td>
+                        <td><?php echo htmlspecialchars(decorarValor($r['tiene_carnet_conducir'] ?? 'no indicado'), ENT_QUOTES, 'UTF-8'); ?></td>
+                        <td><?php echo htmlspecialchars(decorarValor($r['tiene_vehiculo_propio'] ?? 'no indicado'), ENT_QUOTES, 'UTF-8'); ?></td>
+                        <td><?php echo htmlspecialchars(decorarValor($r['esta_trabajando_actualmente'] ?? 'no indicado'), ENT_QUOTES, 'UTF-8'); ?></td>
+                        <td><?php echo htmlspecialchars(decorarValor($r['puesto_trabajo_actual'] ?? 'no indicado'), ENT_QUOTES, 'UTF-8'); ?></td>
+                    </tr>
+                <?php } ?>
+                </tbody>
+            </table>
+        </div>
+    <?php } ?>
+</body>
+</html>
+
+// functions.php
+
+<?php
+function checkResult($result) {
+    if ($result['ok']) {
+        return 'ok';
+    } else {
+        return 'error';
+    }
+}
+
+function decorarValor($valor) {
+    if (!is_null($valor)) {
+        return htmlspecialchars($valor, ENT_QUOTES, 'UTF-8');
+    } else {
+        return '';
+    }
+}
+```
+Ten en cuenta que este es solo un ejemplo y puede necesitar ajustes para adaptarse a tus necesidades específicas.
 
 `003-tabla con json de lavender.php`
 
@@ -17718,7 +25749,232 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ```
 
 ### tabla corregida
-<small>Creado: 2025-12-11 20:08</small>
+<small>Creado: 2025-12-22 20:03</small>
+
+#### Explicación
+
+La siguiente es una versión revisada y mejorada del código:
+```
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Análisis masivo de CV desde Lavender</title>
+    <style>
+        /* Estilos para el contenido */
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            margin: 0;
+            padding: 2rem;
+            background: #f3f4f6;
+            color: #111827;
+        }
+
+        /* Estilos para el formulario */
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: #ffffff;
+            border-radius: 0.75rem;
+            border: 1px solid #e5e7eb;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        h1 {
+            font-size: 1.4rem;
+            margin-bottom: .5rem;
+        }
+
+        p {
+            margin-top: 0;
+            color: #4b5563;
+        }
+
+        /* Estilos para los botones */
+        button[type="submit"] {
+            padding: .5rem 1rem;
+            border-radius: 999px;
+            border: 1px solid #2563eb;
+            background: #2563eb;
+            color: #ffffff;
+            font-size: .9rem;
+            font-weight: 500;
+            cursor: pointer;
+        }
+
+        button[type="submit"]:hover {
+            background: #1d4ed8;
+        }
+
+        /* Estilos para los estatus */
+        .status {
+            margin-top: .75rem;
+            padding: .6rem .9rem;
+            border-radius: .6rem;
+            font-size: .85rem;
+        }
+
+        .status.ok {
+            background: #ecfdf3;
+            color: #15803d;
+            border: 1px solid #bbf7d0;
+        }
+
+        .status.error {
+            background: #fef2f2;
+            color: #b91c1c;
+            border: 1px solid #fecaca;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Análisis masivo de CV desde Lavender</h1>
+            <p class="subtitle">
+                Se obtienen todas las entradas del formulario con hash
+                <code><?php echo htmlspecialchars(LAVENDER_FORM_HASH, ENT_QUOTES, 'UTF-8'); ?></code>,
+                se extrae el nombre y la URL del CV, y se analiza cada CV con IA para responder:
+                1) ¿Dónde vive esa persona?
+                2) ¿Tiene carnet de conducir?
+                3) ¿Tiene vehículo propio?
+                4) ¿Está trabajando actualmente?
+                5) Puesto de trabajo actual.
+            </p>
+
+            <form method="post">
+                <input type="hidden" name="analizar" value="1">
+                <button type="submit">Analizar todos los CV de este formulario</button>
+                <span class="badge">Lavender · formulario completo</span>
+
+                <?php if ($resultMessage !== null): ?>
+                    <div class="status <?php echo $resultOk ? 'ok' : 'error'; ?>">
+                        <?php echo htmlspecialchars($resultMessage, ENT_QUOTES, 'UTF-8'); ?>
+                    </div>
+                <?php endif; ?>
+            </form>
+        </div>
+
+        <?php if (!empty($rowsForTable)): ?>
+            <div class="card">
+                <h2>Resultado del análisis</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nombre del estudiante</th>
+                            <th>URL CV</th>
+                            <th>Respuestas de IA</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <?php foreach ($rowsForTable as $row): ?>
+                        <?php $r = $row['respuestas']; ?>
+                        <tr>
+                            <td><?php echo htmlspecialchars($row['nombre'], ENT_QUOTES, 'UTF-8'); ?></td>
+                            <td>
+                                <?php if ($row['cv_url']): ?>
+                                    <a href="<?php echo htmlspecialchars($row['cv_url'], ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener noreferrer">
+                                        <?php echo htmlspecialchars($row['cv_url'], ENT_QUOTES, 'UTF-8'); ?>
+                                    </a>
+                                <?php else: ?>
+                                    <span>no indicado</span>
+                                <?php endif; ?>
+                            </td>
+                            <td>
+                                <?php foreach ($r as $clave => $valor): ?>
+                                    <span class="subtitle"><?php echo $clave . ': ' . htmlspecialchars($valor, ENT_QUOTES, 'UTF-8'); ?></span>
+                                <?php endforeach; ?>
+                            </td>
+                        </tr>
+                    <?php endforeach; ?>
+                    </tbody>
+                </table>
+            </div>
+        <?php endif; ?>
+    </div>
+</body>
+
+<?php
+// Código para obtener las entradas del formulario de Lavender
+LAVENDER_FORM_HASH = 'your-lavender-form-hash-here';
+$api_url = 'https://your-ia-api-url.com/analyze-cv'; // URL de la API para analizar CVs
+
+foreach (get_posts(array(
+    'post_type' => 'your-post-type',
+    'posts_per_page' => -1,
+)) as $st) {
+    $nombre = $st['nombre'] ?: '(sin nombre)';
+    $cvUrl  = $st['cv_url'] ?: '';
+
+    $respuestas = [
+        'donde_vive'                 => 'no indicado',
+        'tiene_carnet_conducir'      => 'no indicado',
+        'tiene_vehiculo_propio'      => 'no indicado',
+        'esta_trabajando_actualmente'=> 'no indicado',
+        'puesto_trabajo_actual'      => 'no indicado',
+        '_error'                     => null,
+    ];
+
+    if ($cvUrl !== '') {
+        $fetchCV = fetch_url_content($cvUrl);
+        if ($fetchCV['ok']) {
+            $cvText = html_to_plain_text($fetchCV['content']);
+            $ai     = analizar_cv($cvText, $api_url);
+            if ($ai['ok'] && is_array($ai['parsed'])) {
+                $p = $ai['parsed'];
+                $respuestas['donde_vive']                  = $p['donde_vive'] ?? 'no indicado';
+                $respuestas['tiene_carnet_conducir']       = $p['tiene_carnet_conducir'] ?? 'no indicado';
+                $respuestas['tiene_vehiculo_propio']       = $p['tiene_vehiculo_propio'] ?? 'no indicado';
+                $respuestas['esta_trabajando_actualmente'] = $p['esta_trabajando_actualmente'] ?? 'no indicado';
+                $respuestas['puesto_trabajo_actual']       = $p['puesto_trabajo_actual'] ?? 'no indicado';
+            } else {
+                $respuestas['_error'] = $ai['error'] ?? 'Error en análisis IA.';
+            }
+        } else {
+            $respuestas['_error'] = $fetchCV['error'];
+        }
+    } else {
+        $respuestas['_error'] = 'No se ha indicado URL de CV en Lavender.';
+    }
+
+    $rowsForTable[] = [
+        'nombre'     => $nombre,
+        'cv_url'     => $cvUrl,
+        'respuestas' => $respuestas,
+    ];
+}
+
+// Código para enviar los datos a la base de datos
+$mysqli = new mysqli('your-mysql-host', 'your-mysql-username', 'your-mysql-password', 'your-database-name');
+if ($mysqli->connect_error) {
+    die('Conexión fallida: ' . $mysqli->connect_error);
+}
+
+foreach ($rowsForTable as $row) {
+    $query = "INSERT INTO your-table (nombre, cv_url, respuestas) VALUES (?, ?, ?)";
+    $stmt = $mysqli->prepare($query);
+    $stmt->bind_param('sss', $row['nombre'], $row['cv_url'], json_encode($row['respuestas']));
+    $stmt->execute();
+}
+
+$mysqli->close();
+?>
+```
+Cambié algunas cosas en el código original para hacerlo más legible y fácil de mantener:
+
+*   Me moví la lógica de procesamiento de datos fuera del código HTML.
+*   Utilicé un bucle `foreach` para procesar las entradas del formulario de Lavender.
+*   Me eliminé los objetos PHP que no necesitaban ser creados para procesar los datos.
+*   Utilicé `json_encode($row['respuestas'])` para enviar los datos a la base de datos.
+*   Cambió el código de conexión a la base de datos para que se conecte con una URL específica y utilice `mysqli`.
+*   Elimine los objetos PHP que no necesitaban ser creados para procesar los datos.
+
+También me aseguré de hacer cambios mínimos en los estilos para mantener la coherencia del código.
 
 `004-tabla corregida.php`
 
@@ -18292,7 +26548,31 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['analizar']) && $_POST
 ```
 
 ### badges
-<small>Creado: 2025-12-11 20:16</small>
+<small>Creado: 2025-12-22 20:03</small>
+
+#### Explicación
+
+Este código parece ser un modelo de página web que utiliza PHP y HTML para mostrar un análisis de CV obtenido a partir de una fuente externa, en este caso, una API de análisis de CV. A continuación, se detallan algunas sugerencias para mejorar la calidad del código:
+
+1. **Organización**: El código está muy extenso y no sigue una estructura clara. Se sugiere dividirlo en varias partes más pequeñas y organizadas, como por ejemplo, una sección para cada parte de la página web.
+
+2. **Variabilidad en los datos**: En algunos lugares, se utilizan variables no definidas (como `LAVENDER_FORM_HASH`). Es importante asegurarse de que estas variables sean bien definidas y no causen errores en el código.
+
+3. **Seguridad**: La página web parece estar expuesta a riesgos de seguridad. Por ejemplo, la forma en que se procesa los datos del formulario no se ha visto. Se recomienda utilizar técnicas más seguras para procesar y almacenar datos sensibles.
+
+4. **Optimización**: El código utiliza algunas directivas y funciones que pueden ser optimizadas para mejorar el rendimiento de la página web.
+
+5. **Diversidad en los estilos**: El código utiliza una variedad de estilos y formatos de datos que pueden no ser coherentes entre sí. Se sugiere utilizar un estilo de coding más consistente para mejorar la legibilidad del código.
+
+6. **Documentación**: La documentación del código es limitada. Es importante agregar commentados y descripciones claras sobre cómo funciona cada parte del código para ayudar a otros a entenderlo y mantenerlo.
+
+7. **Uso de arrays y objetos**: El código utiliza tanto arrays como objetos para almacenar datos, pero no hay una razón clara por la que se eligen los unos sobre los otros. Se recomienda utilizar un formato estándar para almacenar datos, como array en PHP o objeto en JavaScript.
+
+8. **Validación de inputs**: La página web no verifica bien los inputs del formulario. Es importante agregar validaciones para asegurarse de que solo valores válidos se procesen.
+
+9. **Manejo de errores**: El código no maneja errores adecuadamente. Se recomienda utilizar técnicas más robustas para manejar y reportar errores en el código.
+
+10. **Diseño responsivo**: La página web parece estar diseñada solo para dispositivos grandes. Es importante asegurarse de que la página web sea compatible con dispositivos móviles y tenga un diseño responsivo.
 
 `005-badges.php`
 
@@ -18917,7 +27197,34 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['analizar']) && $_POST
 ```
 
 ### seguridad
-<small>Creado: 2025-12-11 20:23</small>
+<small>Creado: 2025-12-22 20:03</small>
+
+#### Explicación
+
+This is a web page that displays a table of students with their names and URLs to CVs. The page also has an option to start the analysis process, which will begin analyzing each student's CV one by one.
+
+The code appears to be written in a mix of PHP, HTML, CSS, and JavaScript. Here are some observations and suggestions:
+
+1. Security: The code uses `htmlspecialchars()` to escape user input data, but it doesn't validate or sanitize the input data properly. This could lead to security vulnerabilities.
+2. Code organization: The code is quite long and convoluted. It would be better to break it down into smaller functions or modules, each with a specific responsibility.
+3. Magic numbers: The code uses several magic numbers (e.g., `3000`, `1`, etc.) that are not clearly explained. It would be better to define these numbers as constants or variables with meaningful names.
+4. JavaScript: The JavaScript code is quite complex and relies on several assumptions about the HTML structure and CSS styles. It would be better to use a more robust testing framework or automated testing tools to ensure the functionality works correctly in different browsers and environments.
+5. Performance: The code makes an HTTP POST request for each student's CV analysis, which could lead to performance issues if there are many students in the table.
+
+Here are some specific suggestions:
+
+1. Extract functions for handling HTTP requests, parsing JSON responses, and updating the UI. This will make the code more modular and easier to maintain.
+2. Use a templating engine or a JavaScript framework like React or Angular to simplify the rendering of the table and improve performance.
+3. Implement input validation and sanitization using a library like PHP-FIGSML or OWASP ESAPI.
+4. Consider using a more robust testing framework like Jest or Cypress to ensure the functionality works correctly in different browsers and environments.
+
+Some potential security vulnerabilities to consider:
+
+1. **XSS**: The code uses `htmlspecialchars()` to escape user input data, but it doesn't validate or sanitize the input data properly. This could lead to cross-site scripting (XSS) attacks.
+2. **SQL Injection**: There is no indication that the code is vulnerable to SQL injection attacks, but it's always a good practice to use prepared statements and parameterized queries.
+3. **Cross-Site Request Forgery (CSRF)**: The code makes an HTTP POST request for each student's CV analysis, which could lead to CSRF attacks if the user is tricked into submitting the form multiple times.
+
+Overall, the code appears to be well-organized and maintainable, but there are some areas where it could be improved for better security, performance, and scalability.
 
 `006-seguridad.php`
 
@@ -19770,6 +28077,678 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['cargar']) && $_POST['
 </html>
 ```
 
+### Actividades propuestas
+
+This is a PHP/JavaScript web application that allows users to upload a list of students and their corresponding CV URLs. The application then analyzes each CV using an external AI service and displays the results in a table.
+
+Here are some observations and suggestions for improving the code:
+
+1. **Security**: The code uses `htmlspecialchars` to escape HTML characters in user input, but it's not enough to prevent XSS attacks. Consider using a more robust solution like OWASP's Escaped Encoding library.
+2. **Error handling**: The code catches errors but doesn't provide much information about what went wrong. Consider logging or displaying error messages in a more user-friendly way.
+3. **Code organization**: The code is quite long and dense, making it difficult to read and maintain. Consider breaking it down into smaller functions or modules, each with its own responsibility.
+4. **Performance**: The code uses `setTimeout` to delay the analysis of each CV by 3000ms, which might not be ideal for users who want to see the results faster. Consider using a more efficient approach, like using Web Workers or a separate server-side process.
+5. **Code duplication**: There is some duplicated code in the JavaScript file, particularly in the `marcarFilaProcesando`, `marcarFilaHecha`, and `marcarFilaError` functions. Consider extracting common logic into a separate function to reduce duplication.
+6. **Magic numbers**: The code uses several magic numbers (e.g., 3000) without explanation. Consider defining constants or using more descriptive variable names to improve readability.
+7. **Consistent naming conventions**: The code uses both camelCase and underscore notation for variable and function names. Consider sticking to a single convention throughout the application.
+8. **Commenting**: While there are some comments, they could be more comprehensive and explain the purpose of each section of code.
+
+Some potential improvements to consider:
+
+1. **Use a more efficient AI service**: If possible, use a different AI service that can provide faster and more accurate results.
+2. **Add additional analysis features**: Consider adding more analysis features, such as keyword extraction or sentiment analysis, to provide more insights about the CVs.
+3. **Improve user experience**: Enhance the user interface to make it more intuitive and user-friendly, including displaying progress bars or feedback messages during analysis.
+4. **Consider using a web framework**: If you're building a larger application, consider using a web framework like Laravel or Symfony to simplify development and improve maintainability.
+
+Overall, the code seems well-structured, but there are opportunities for improvement in terms of security, error handling, performance, and maintainability.
+
+
+<a id="descripciones-con-ia"></a>
+## descripciones con IA
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/009-Proyectos%20segundo%20trimestre/010-descripciones%20con%20IA)
+
+
+<a id="agente-ia"></a>
+## Agente IA
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/009-Proyectos%20segundo%20trimestre/011-Agente%20IA)
+
+### agent
+<small>Creado: 2025-12-22 20:25</small>
+
+`agent.js`
+
+```javascript
+(() => {
+  const CFG = window.JV_AGENT_CONFIG || {};
+  const endpoint = CFG.endpoint || "./agent.php";
+  const siteToken = CFG.siteToken || "";
+  const title = CFG.title || "Asistente";
+  const placeholder = CFG.placeholder || "Escribe tu pregunta…";
+
+  let csrfToken = null;
+  let isOpen = false;
+  let isHandshaking = false;
+
+  function el(tag, attrs = {}, children = []) {
+    const n = document.createElement(tag);
+    for (const [k, v] of Object.entries(attrs)) {
+      if (k === "class") n.className = v;
+      else if (k === "style") n.setAttribute("style", v);
+      else if (k.startsWith("on") && typeof v === "function") n.addEventListener(k.slice(2), v);
+      else n.setAttribute(k, v);
+    }
+    for (const c of children) n.appendChild(typeof c === "string" ? document.createTextNode(c) : c);
+    return n;
+  }
+
+  function escapeHtml(s) {
+    return String(s)
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;")
+      .replaceAll("'", "&#039;");
+  }
+
+  async function postForm(params) {
+    const body = new URLSearchParams(params);
+    const res = await fetch(endpoint, {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8" },
+      credentials: "same-origin",
+      body
+    });
+    const txt = await res.text();
+    let json;
+    try { json = JSON.parse(txt); } catch { throw new Error("Respuesta no JSON del servidor."); }
+    if (!res.ok || json.ok === false) {
+      throw new Error(json && json.error ? json.error : "Error del servidor.");
+    }
+    return json;
+  }
+
+  // ---------- UI ----------
+  const style = el("style", {}, [`
+    .jv-agent-btn{
+      position:fixed; right:18px; bottom:18px; z-index:2147483647;
+      width:56px; height:56px; border-radius:999px; border:0;
+      cursor:pointer;
+      box-shadow:0 10px 30px rgba(0,0,0,.18);
+      background:#0f766e; color:#fff;
+      display:flex; align-items:center; justify-content:center;
+      font-size:22px; line-height:1;
+      user-select:none;
+    }
+    .jv-agent-panel{
+      position:fixed; right:18px; bottom:86px; z-index:2147483647;
+      width:360px; max-width:calc(100vw - 36px);
+      height:520px; max-height:calc(100vh - 120px);
+      background:#ffffff;
+      border:1px solid rgba(15,23,42,.12);
+      border-radius:16px;
+      box-shadow:0 18px 50px rgba(0,0,0,.20);
+      overflow:hidden;
+      display:none;
+    }
+    .jv-agent-panel.open{ display:flex; flex-direction:column; }
+    .jv-agent-header{
+      padding:12px 14px;
+      background:#0f766e;
+      color:#fff;
+      display:flex; align-items:center; justify-content:space-between;
+      gap:10px;
+    }
+    .jv-agent-title{ font-size:13px; font-weight:600; }
+    .jv-agent-close{
+      width:32px; height:32px; border-radius:10px; border:0;
+      cursor:pointer; background:rgba(255,255,255,.14); color:#fff;
+      display:flex; align-items:center; justify-content:center;
+      font-size:18px;
+    }
+    .jv-agent-body{
+      padding:12px;
+      background:#f6f7fb;
+      flex:1;
+      overflow:auto;
+      display:flex;
+      flex-direction:column;
+      gap:10px;
+    }
+    .jv-agent-bubble{
+      max-width:90%;
+      padding:10px 12px;
+      border-radius:14px;
+      border:1px solid rgba(15,23,42,.08);
+      background:#fff;
+      font-size:13px;
+      line-height:1.35;
+      color:#0f172a;
+      white-space:pre-wrap;
+      word-break:break-word;
+    }
+    .jv-agent-bubble.me{
+      margin-left:auto;
+      background:#ecfeff;
+      border-color:rgba(14,116,144,.20);
+    }
+    .jv-agent-footer{
+      padding:10px;
+      background:#fff;
+      border-top:1px solid rgba(15,23,42,.10);
+      display:flex;
+      gap:8px;
+      align-items:flex-end;
+    }
+    .jv-agent-input{
+      flex:1;
+      min-height:42px;
+      max-height:120px;
+      resize:none;
+      border:1px solid rgba(15,23,42,.18);
+      border-radius:12px;
+      padding:10px 10px;
+      font-size:13px;
+      outline:none;
+    }
+    .jv-agent-send{
+      width:44px; height:44px;
+      border-radius:12px; border:0;
+      cursor:pointer;
+      background:#0f766e; color:#fff;
+      display:flex; align-items:center; justify-content:center;
+      font-size:18px;
+    }
+    .jv-agent-send:disabled{ opacity:.55; cursor:not-allowed; }
+
+    .jv-agent-loading{
+      display:inline-flex; align-items:center; gap:8px;
+      font-size:12px;
+      color:rgba(15,23,42,.75);
+    }
+    .jv-agent-spinner{
+      width:16px; height:16px;
+      border-radius:999px;
+      border:2px solid rgba(15,23,42,.18);
+      border-top-color: rgba(15,23,42,.70);
+      animation:jvspin .8s linear infinite;
+    }
+    @keyframes jvspin{ to{ transform:rotate(360deg); } }
+  `]);
+
+  const body = el("div", { class: "jv-agent-body" });
+
+  const btn = el("button", {
+    class: "jv-agent-btn",
+    type: "button",
+    "aria-label": "Abrir asistente",
+    onclick: async () => {
+      // Un click: abre y listo
+      toggle(true);
+      await ensureHandshake(); // handshake en background, pero el panel ya está abierto
+      input.focus();
+    }
+  }, ["💬"]);
+
+  const closeBtn = el("button", {
+    class: "jv-agent-close",
+    type: "button",
+    "aria-label": "Cerrar",
+    onclick: () => toggle(false)
+  }, ["×"]);
+
+  const header = el("div", { class: "jv-agent-header" }, [
+    el("div", { class: "jv-agent-title" }, [title]),
+    closeBtn
+  ]);
+
+  const input = el("textarea", {
+    class: "jv-agent-input",
+    placeholder,
+    rows: "1"
+  });
+
+  const sendBtn = el("button", {
+    class: "jv-agent-send",
+    type: "button",
+    "aria-label": "Enviar"
+  }, ["➤"]);
+
+  const panel = el("div", { class: "jv-agent-panel" }, [
+    header,
+    body,
+    el("div", { class: "jv-agent-footer" }, [input, sendBtn])
+  ]);
+
+  document.head.appendChild(style);
+  document.body.appendChild(btn);
+  document.body.appendChild(panel);
+
+  function toggle(open) {
+    isOpen = !!open;
+    panel.classList.toggle("open", isOpen);
+  }
+
+  function addBubble(text, who) {
+    const b = el("div", { class: "jv-agent-bubble" + (who === "me" ? " me" : "") });
+    b.innerHTML = escapeHtml(text);
+    body.appendChild(b);
+    body.scrollTop = body.scrollHeight;
+    return b;
+  }
+
+  function addLoading() {
+    const wrap = el("div", { class: "jv-agent-bubble" }, [
+      el("div", { class: "jv-agent-loading" }, [
+        el("div", { class: "jv-agent-spinner" }),
+        el("span", {}, ["Pensando…"])
+      ])
+    ]);
+    body.appendChild(wrap);
+    body.scrollTop = body.scrollHeight;
+    return wrap;
+  }
+
+  async function ensureHandshake() {
+    if (csrfToken || isHandshaking) return;
+    isHandshaking = true;
+    try {
+      const json = await postForm({ action: "handshake", siteToken });
+      csrfToken = json.csrf || null;
+    } finally {
+      isHandshaking = false;
+    }
+  }
+
+  async function send() {
+    const q = (input.value || "").trim();
+    if (!q) return;
+
+    input.value = "";
+    addBubble(q, "me");
+
+    sendBtn.disabled = true;
+    input.disabled = true;
+
+    const loading = addLoading();
+
+    try {
+      await ensureHandshake();
+      const json = await postForm({
+        action: "ask",
+        siteToken,
+        csrf: csrfToken || "",
+        question: q
+      });
+
+      loading.remove();
+      addBubble(json.answer || "(Sin respuesta)", "ai");
+    } catch (e) {
+      loading.remove();
+      addBubble("Error: " + (e && e.message ? e.message : "No se pudo completar la solicitud."), "ai");
+    } finally {
+      sendBtn.disabled = false;
+      input.disabled = false;
+      input.focus();
+    }
+  }
+
+  // Enter para enviar, Shift+Enter para salto de línea
+  input.addEventListener("keydown", (ev) => {
+    if (ev.key === "Enter" && !ev.shiftKey) {
+      ev.preventDefault();
+      send();
+    }
+  });
+
+  sendBtn.addEventListener("click", send);
+
+  // Mensaje inicial
+  addBubble("Hola. Solo respondo preguntas técnicas de programación y desarrollo. ¿Qué necesitas?", "ai");
+})();
+```
+
+### agent
+<small>Creado: 2025-12-22 20:25</small>
+
+`agent.php`
+
+```
+<?php
+declare(strict_types=1);
+
+/*
+  agent.php
+  - Endpoint “proxy” seguro: el navegador NO ve API_URL ni API_KEY
+  - handshake -> devuelve CSRF (de sesión)
+  - ask -> valida origen + CSRF + rate limit + filtro “solo técnico”
+*/
+
+header("Content-Type: application/json; charset=utf-8");
+
+// -------------------- CONFIG --------------------
+const API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+const API_KEY = "TEST_API_KEY_JOCARSA_123";
+
+// Token público para identificar el “site” (NO secreto).
+// En producción: cambia y/o usa uno por sitio, pero no lo trates como una clave.
+const AGENT_SITE_TOKEN = "SITE_TOKEN_CAMBIAME_123";
+
+// Seguridad básica (misma-origin recomendada)
+const ALLOW_SAME_ORIGIN_ONLY = true;
+
+// Rate limit simple
+const RATE_LIMIT_MAX_PER_MIN = 30;
+
+// Timeout a la API remota
+const REMOTE_TIMEOUT_SEC = 120;
+
+// ------------------------------------------------
+
+session_start();
+
+function json_ok(array $extra = []): void {
+  echo json_encode(array_merge(["ok" => true], $extra), JSON_UNESCAPED_UNICODE);
+  exit;
+}
+function json_err(string $msg, int $code = 400): void {
+  http_response_code($code);
+  echo json_encode(["ok" => false, "error" => $msg], JSON_UNESCAPED_UNICODE);
+  exit;
+}
+
+function post(string $k): string {
+  return isset($_POST[$k]) ? trim((string)$_POST[$k]) : "";
+}
+
+function same_origin_guard(): void {
+  if (!ALLOW_SAME_ORIGIN_ONLY) return;
+
+  $host = $_SERVER["HTTP_HOST"] ?? "";
+  if ($host === "") return;
+
+  $origin = $_SERVER["HTTP_ORIGIN"] ?? "";
+  $referer = $_SERVER["HTTP_REFERER"] ?? "";
+
+  // Permite sin Origin/Referer (algunos casos), pero si existe debe coincidir.
+  if ($origin !== "") {
+    $o = parse_url($origin);
+    $ohost = $o["host"] ?? "";
+    if (strcasecmp($ohost, $host) !== 0) json_err("Origen no permitido.", 403);
+  }
+  if ($referer !== "") {
+    $r = parse_url($referer);
+    $rhost = $r["host"] ?? "";
+    if ($rhost !== "" && strcasecmp($rhost, $host) !== 0) json_err("Referer no permitido.", 403);
+  }
+}
+
+function rate_limit_guard(): void {
+  $ip = $_SERVER["REMOTE_ADDR"] ?? "unknown";
+  $bucket = (int)floor(time() / 60);
+  $key = "rl_" . md5($ip . ":" . $bucket);
+
+  $count = isset($_SESSION[$key]) ? (int)$_SESSION[$key] : 0;
+  $count++;
+  $_SESSION[$key] = $count;
+
+  if ($count > RATE_LIMIT_MAX_PER_MIN) {
+    json_err("Demasiadas peticiones. Inténtalo de nuevo en un minuto.", 429);
+  }
+}
+
+function csrf_get(): string {
+  if (empty($_SESSION["csrf_token"])) {
+    $_SESSION["csrf_token"] = bin2hex(random_bytes(16));
+  }
+  return (string)$_SESSION["csrf_token"];
+}
+
+function csrf_guard(string $csrf): void {
+  $expected = (string)($_SESSION["csrf_token"] ?? "");
+  if ($expected === "" || $csrf === "" || !hash_equals($expected, $csrf)) {
+    json_err("CSRF inválido. Recarga la página.", 403);
+  }
+}
+
+function is_technical_question(string $q): bool {
+  $q = mb_strtolower($q);
+
+  // Señales técnicas típicas
+  $techHints = [
+    "php","javascript","js","typescript","python","java","c#","c++","sql","html","css",
+    "api","rest","json","xml","xsd","regex","docker","linux","ubuntu","nginx","apache",
+    "mysql","postgres","sqlite","mongodb","git","github","oauth","jwt","csrf","cors",
+    "bug","error","exception","stack","trace","framework","flask","django","react","node",
+    "composer","pip","npm","yarn","maven","gradle","curl","http","https","ssl","tls",
+    "endpoint","backend","frontend","server","cliente","librería","paquete","dependencia",
+    "código","programa","función","clase","objeto","variable","loop","bucle","array"
+  ];
+
+  // Temas a excluir explícitamente (no técnicos)
+  $nonTechHints = [
+    "política","presidente","elecciones","religión","dios","salud","síntoma","diagnóstico",
+    "medicina","abogado","legal","demanda","romance","pareja","sexo","apuesta","casino",
+    "inversión","trading","cripto","pronóstico","horóscopo"
+  ];
+
+  foreach ($nonTechHints as $w) {
+    if (mb_strpos($q, $w) !== false) return false;
+  }
+
+  foreach ($techHints as $w) {
+    if (mb_strpos($q, $w) !== false) return true;
+  }
+
+  // Si no hay pistas: intentar heurística por formato (código / errores)
+  if (preg_match("/\b(error|exception|traceback|undefined|syntax|stack)\b/i", $q)) return true;
+  if (preg_match("/[{}();<>]|```|\$[a-z_]/i", $q)) return true;
+
+  return false;
+}
+
+function build_strict_prompt(string $userQuestion): string {
+  $policy = <<<TXT
+Eres un asistente EXCLUSIVAMENTE técnico de programación y desarrollo de software.
+REGLAS OBLIGATORIAS:
+- Responde SOLO si la pregunta es de programación, desarrollo web, sistemas, redes, bases de datos, DevOps o depuración.
+- Si la pregunta NO es técnica, responde EXACTAMENTE:
+  "Solo puedo responder preguntas técnicas de programación y desarrollo."
+- No hables de política, salud, finanzas personales, religión, relaciones, ni temas generales.
+- Responde en español, claro y conciso.
+TXT;
+
+  return $policy . "\n\nPregunta del usuario:\n" . $userQuestion;
+}
+
+function call_remote_ai(string $question): string {
+  $ch = curl_init(API_URL);
+  if ($ch === false) {
+    throw new RuntimeException("No se pudo iniciar cURL.");
+  }
+
+  $postFields = http_build_query(["question" => $question]);
+
+  curl_setopt_array($ch, [
+    CURLOPT_RETURNTRANSFER => true,
+    CURLOPT_POST => true,
+    CURLOPT_POSTFIELDS => $postFields,
+    CURLOPT_HTTPHEADER => [
+      "X-API-Key: " . API_KEY,
+      "Content-Type: application/x-www-form-urlencoded"
+    ],
+    CURLOPT_TIMEOUT => REMOTE_TIMEOUT_SEC,
+    CURLOPT_CONNECTTIMEOUT => 20,
+    CURLOPT_SSL_VERIFYPEER => false,
+    CURLOPT_SSL_VERIFYHOST => 0
+  ]);
+
+  $raw = curl_exec($ch);
+  if ($raw === false) {
+    $err = curl_error($ch);
+    curl_close($ch);
+    throw new RuntimeException("Error contactando API remota: " . $err);
+  }
+
+  $http = (int)curl_getinfo($ch, CURLINFO_HTTP_CODE);
+  curl_close($ch);
+
+  if ($http !== 200) {
+    throw new RuntimeException("API remota devolvió HTTP " . $http);
+  }
+
+  $data = json_decode($raw, true);
+  if (!is_array($data)) {
+    throw new RuntimeException("Respuesta remota no JSON.");
+  }
+
+  $answer = $data["answer"] ?? "";
+  $answer = is_string($answer) ? trim($answer) : "";
+  if ($answer === "") {
+    throw new RuntimeException("Respuesta remota vacía.");
+  }
+
+  return $answer;
+}
+
+// -------------------- ROUTER --------------------
+same_origin_guard();
+rate_limit_guard();
+
+$siteToken = post("siteToken");
+if ($siteToken !== AGENT_SITE_TOKEN) {
+  json_err("Site token inválido.", 403);
+}
+
+$action = post("action");
+if ($action === "handshake") {
+  $csrf = csrf_get();
+  json_ok(["csrf" => $csrf]);
+}
+
+if ($action === "ask") {
+  $csrf = post("csrf");
+  csrf_guard($csrf);
+
+  $q = post("question");
+  if ($q === "" || mb_strlen($q) < 2) json_err("Pregunta vacía.");
+
+  // “Lock hard”: si no es técnica, NO llamamos a la IA remota
+  if (!is_technical_question($q)) {
+    json_ok(["answer" => "Solo puedo responder preguntas técnicas de programación y desarrollo."]);
+  }
+
+  $prompt = build_strict_prompt($q);
+
+  try {
+    $ans = call_remote_ai($prompt);
+  } catch (Throwable $e) {
+    json_err("Error al generar respuesta: " . $e->getMessage(), 502);
+  }
+
+  // Segundo “cinturón”: si la IA se sale, forzamos rechazo.
+  // (Heurística simple: si menciona temas prohibidos, recortamos)
+  $low = mb_strtolower($ans);
+  $banned = ["política","presidente","elecciones","diagnóstico","medicina","religión","dios","apuesta","trading"];
+  foreach ($banned as $w) {
+    if (mb_strpos($low, $w) !== false) {
+      $ans = "Solo puedo responder preguntas técnicas de programación y desarrollo.";
+      break;
+    }
+  }
+
+  json_ok(["answer" => $ans]);
+}
+
+json_err("Acción no válida.", 400);
+```
+
+### Archivo sin título
+<small>Creado: 2025-12-22 20:22</small>
+
+`Archivo sin título`
+
+```
+
+```
+
+### bootstrap
+<small>Creado: 2025-12-22 20:18</small>
+
+`bootstrap.php`
+
+```
+<?php
+declare(strict_types=1);
+
+session_start();
+
+header('Content-Type: application/json; charset=utf-8');
+
+// ---- Config visible (NO secret) ----
+$title = "Asistente";
+$placeholder = "Escribe tu pregunta…";
+$endpoint = "./agent.php";
+
+// ---- Token efímero por sesión (rotando) ----
+if (empty($_SESSION['jv_agent_boot_secret'])) {
+  $_SESSION['jv_agent_boot_secret'] = bin2hex(random_bytes(32));
+}
+
+$ttl = 300; // 5 min
+$ts  = time();
+$nonce = bin2hex(random_bytes(16));
+
+// Token firmado: HMAC(secret_sesion, ts|nonce)
+$payload = $ts . "|" . $nonce;
+$sig = hash_hmac('sha256', $payload, $_SESSION['jv_agent_boot_secret']);
+$sessionToken = $payload . "|" . $sig;
+
+echo json_encode([
+  "endpoint" => $endpoint,
+  "title" => $title,
+  "placeholder" => $placeholder,
+  "sessionToken" => $sessionToken,
+  "ttlSeconds" => $ttl,
+], JSON_UNESCAPED_UNICODE);
+```
+
+### index
+<small>Creado: 2025-12-22 20:24</small>
+
+`index.html`
+
+```html
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Demo JV Agent</title>
+</head>
+<body style="font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif;padding:24px;">
+  <h1>Demo</h1>
+  <p>Abajo a la derecha tienes el asistente.</p>
+
+  <script>
+    window.JV_AGENT_CONFIG = {
+      endpoint: "./agent.php",
+      siteToken: "SITE_TOKEN_CAMBIAME_123", // identificador público (NO secreto)
+      title: "Asistente técnico",
+      placeholder: "Pregunta de programación…"
+    };
+  </script>
+  <script src="./agent.js"></script>
+</body>
+</html>
+```
+
+
+<a id="conceptos-tratados-en-clase-ia"></a>
+## Conceptos tratados en clase IA
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/009-Proyectos%20segundo%20trimestre/012-Conceptos%20tratados%20en%20clase%20IA)
+
 
 
 <a id="actividad-libre-de-final-de-evaluacion-la-milla-extra"></a>
@@ -19777,6 +28756,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['cargar']) && $_POST['
 
 <a id="la-milla-extra-primera-evaluacion"></a>
 ## La Milla Extra - Primera evaluación
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/201-Actividad%20libre%20de%20final%20de%20evaluaci%C3%B3n%20-%20La%20milla%20extra/001-La%20Milla%20Extra%20-%20Primera%20evaluaci%C3%B3n)
 
 ### Introducción a los ejercicios
 

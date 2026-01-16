@@ -5,6 +5,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const iframe = document.getElementById("preview-frame");
     const generateBtn = document.getElementById("generate-btn");
 
+    function getSelectedMode() {
+        const el = document.querySelector('input[name="mode"]:checked');
+        return el ? el.value : "local";
+    }
+
     function setStatus(message, type = "info") {
         statusBox.textContent = message || "";
         statusBox.className = "status " + type;
@@ -24,6 +29,8 @@ document.addEventListener("DOMContentLoaded", () => {
         e.preventDefault();
 
         const prompt = promptInput.value.trim();
+        const mode = getSelectedMode();
+
         if (!prompt) {
             setStatus("Escribe un prompt primero.", "error");
             return;
@@ -35,10 +42,8 @@ document.addEventListener("DOMContentLoaded", () => {
         try {
             const response = await fetch(GENERATE_URL, {
                 method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify({ prompt })
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ prompt, mode })
             });
 
             if (!response.ok) {
@@ -49,10 +54,10 @@ document.addEventListener("DOMContentLoaded", () => {
             const data = await response.json();
             const html = data.html || "<h1>No se ha recibido HTML</h1>";
 
-            // Render inside iframe using srcdoc
             iframe.srcdoc = html;
 
-            setStatus("Página generada correctamente.", "success");
+            const used = data.mode || mode;
+            setStatus(`Página generada correctamente (${used}).`, "success");
         } catch (err) {
             console.error(err);
             setStatus("Error al generar la página: " + err.message, "error");

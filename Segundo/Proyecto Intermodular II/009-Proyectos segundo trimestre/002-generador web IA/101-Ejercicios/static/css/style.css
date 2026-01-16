@@ -238,4 +238,40 @@ button:disabled {
         min-height: 300px;
     }
 }
+/* MODE TOGGLE ------------------------------------------ */
+
+.mode-row{
+    margin-top: 0.85rem;
+    display:flex;
+    align-items:center;
+    gap: 0.55rem;
+    flex-wrap: wrap;
+}
+
+.mode-label{
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    font-weight: 600;
+}
+
+.mode-pill{
+    display:inline-flex;
+    align-items:center;
+    gap: 0.45rem;
+    padding: 0.35rem 0.6rem;
+    border: 1px solid var(--border-subtle);
+    border-radius: 999px;
+    background: #fff;
+    cursor: pointer;
+    user-select:none;
+}
+
+.mode-pill input{
+    margin:0;
+}
+
+.mode-pill span{
+    font-size: 0.85rem;
+    color: var(--text-main);
+}
 
