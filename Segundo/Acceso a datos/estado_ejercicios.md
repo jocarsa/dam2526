@@ -1,6 +1,6 @@
 # Acceso a datos — Estado de ejercicios
 
-Generado: 2026-01-16 09:00
+Generado: 2026-02-08 14:00
 
 ---
 
@@ -83,3 +83,11 @@ Generado: 2026-01-16 09:00
 ## Actividad libre de final de evaluación - La milla extra
 
 - 🟢 La Milla Extra - Primera evaluación — 2025-10-13
+
+
+## Actividades final de unidad - Segundo trimestre
+
+- 🟢 Proyecto en el cual me demostréis que podéis leer multiples formatos de archivo — 2025-10-13
+- 🟢 Clase personalizada de conexión y acceso a datos de vuestra elección — 2025-10-13
+- 🟢 JOCARSA - Chat - ChatGPT personalizado con usuarios — 2025-10-13
+- 🟢 Entrenamiento de una inteligencia artificial semántica - ChromaDB - RAG — 2025-10-13

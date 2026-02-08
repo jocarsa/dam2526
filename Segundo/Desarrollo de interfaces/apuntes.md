@@ -75,6 +75,11 @@
   - [Pruebas manuales y automáticas](#pruebas-manuales-y-automaticas)
 - [Actividad libre de final de evaluación - La milla extra](#actividad-libre-de-final-de-evaluacion-la-milla-extra)
   - [La Milla Extra - Primera evaluación](#la-milla-extra-primera-evaluacion)
+- [Actividades final de unidad - Segundo trimestre](#actividades-final-de-unidad-segundo-trimestre)
+  - [Creación de una librería de interfaces gráficas personalizada](#creacion-de-una-libreria-de-interfaces-graficas-personalizada)
+  - [Proyecto de reconocimiento de voz y camara](#proyecto-de-reconocimiento-de-voz-y-camara)
+  - [Proyecto Memento](#proyecto-memento)
+  - [Actividad de gráficas](#actividad-de-graficas)
 
 ---
 
@@ -97,7 +102,7 @@
 Esta carpeta contiene una serie de ejercicios diseñados para que los estudiantes de Formación Profesional trabajen con componentes HTML estándar y nativos, enfocándose en la creación y personalización de interfaces de usuario. Los ejercicios cubren diversos tipos de formularios y elementos interactivos como campos de texto, controles de entrada variados (teléfono, URL, correo electrónico), elementos de control avanzado (range, meters), listas desplegables, botones y contenedores de formularios. A través de estos ejercicios, los estudiantes adquirirán competencias en la estructuración de interfaces web dinámicas y en la implementación de funcionalidades básicas para mejorar la interacción del usuario con el sitio web.
 
 ### revision de componentes
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -117,7 +122,7 @@ En este caso específico, el cuerpo de la página (`<body>`) está vacío, lo qu
 ```
 
 ### componentes de formulario
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -161,7 +166,7 @@ Estos elementos son fundamentales para la creación de interfaces de usuario int
 ```
 
 ### meters
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -190,7 +195,7 @@ Estos componentes son importantes porque ayudan a mejorar la usabilidad y la acc
 ```
 
 ### sugerencias para un input
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -228,7 +233,7 @@ Este tipo de implementación es útil cuando tienes una lista limitada pero espe
 ```
 
 ### Resultados calculados
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -260,7 +265,7 @@ Este tipo de interacción dinámica mejora la experiencia del usuario, ya que pr
 ```
 
 ### detalles y sumario
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -289,7 +294,7 @@ En resumen, esta página web contiene un encabezado principal ("Componentes de f
 ```
 
 ### agrupar campos
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -321,7 +326,7 @@ Esta estructura es importante porque mejora la accesibilidad y claridad del form
 ```
 
 ### campo select
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -355,7 +360,7 @@ Este tipo de componente es importante porque permite a los usuarios elegir entre
 ```
 
 ### textarea
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -384,7 +389,7 @@ Este tipo de elementos son fundamentales en cualquier formulario web donde los u
 ```
 
 ### range
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -412,7 +417,7 @@ Este tipo de control es importante porque proporciona una forma fácil e interac
 ```
 
 ### boton con input
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -440,7 +445,7 @@ Este código sirve como una introducción al manejo de controles interactivos en
 ```
 
 ### boton de verdad
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -470,7 +475,7 @@ Este código básico es útil para entender cómo incorporar elementos interacti
 ```
 
 ### Form como contenedor
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -609,7 +614,7 @@ El código que has proporcionado es una página web interactiva para diseñar fo
 Este es un ejemplo bastante completo que combina JavaScript, HTML y CSS para crear una interfaz de usuario interactiva y funcional.
 
 ### interfaz inicial
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -643,7 +648,7 @@ Esta estructura básica permite a los usuarios crear formularios web añadiendo 
 ```
 
 ### maquetar
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -698,7 +703,7 @@ Esta plantilla proporciona una base para futuros ejercicios donde podrás añadi
 ```
 
 ### comportamiento
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -759,7 +764,7 @@ Este tipo de diseño es útil para desarrolladores que quieren permitir a los us
 ```
 
 ### recorro el for
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -836,7 +841,7 @@ Este ejercicio es importante porque enseña cómo interactuar con el DOM para mo
 ```
 
 ### boton de generar html
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -922,7 +927,7 @@ Esta herramienta educativa ayuda a los estudiantes a comprender mejor cómo inte
 ```
 
 ### nombre id y clase
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1011,7 +1016,7 @@ Este ejercicio es útil para entender cómo interactuar con el DOM (Modelo de Ob
 ```
 
 ### mejora de los estilos
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1367,7 +1372,7 @@ En resumen, esta página proporciona una interfaz fácil de usar para diseñar f
 ```
 
 ### mejora de funcionalidades
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1976,7 +1981,7 @@ This setup provides a robust form designer where users can create, view, and exp
 En esta serie de ejercicios, centraremos nuestra atención en el desarrollo y estilización de interfaces de usuario utilizando HTML y CSS. Los problemas que se abordan van desde la creación básica de elementos interactivos hasta la implementación avanzada de animaciones y sombras para mejorar la apariencia visual del diseño. Estas actividades permitirán a los estudiantes dominar las propiedades de estilo en CSS, como padding, border-radius, text-shadow y box-shadow, así como trabajar con animaciones utilizando @keyframes. Además, se incluye una introducción básica al uso de JavaScript para manipular estilos dinámicamente, lo que será beneficioso para quienes busquen incorporar interactividad en sus interfaces web.
 
 ### componente basico
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2009,7 +2014,7 @@ Este fragmento sirve como punto de partida para aprender cómo estructurar una p
 ```
 
 ### aplico estilo
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2048,7 +2053,7 @@ Este tipo de estilización es importante porque ayuda a hacer que la interfaz de
 ```
 
 ### animar control
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2103,7 +2108,7 @@ Esta técnica es útil para llamar la atención del usuario o simplemente para m
 ```
 
 ### propiedades y sombras
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2162,7 +2167,7 @@ En resumen, este código demuestra cómo combinar CSS con animaciones para crear
 ```
 
 ### centrar siempre
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2226,7 +2231,7 @@ Este tipo de efectos animados es importante para captar la atención del usuario
 ```
 
 ### js para componentes
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2348,7 +2353,7 @@ Además del HTML y el CSS, hay un pequeño script JavaScript al final del docume
 En esta serie de ejercicios, trabajarás con la creación y manipulación de interfaces de usuario en HTML y JavaScript. El objetivo principal es aprender a vincular componentes del DOM (como tablas) a orígenes de datos JSON para mostrar información estructurada de forma dinámica. Comenzarás por inicializar una tabla vacía y luego avanzarás hasta estilizarla y poblarla con los datos proporcionados en un array JSON. Estos ejercicios te ayudarán a comprender cómo manipular y visualizar datos mediante la programación web, mejorando tus habilidades en la creación de interfaces interactivas y dinámicas para aplicaciones web.
 
 ### json inicial
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2452,7 +2457,7 @@ Este código es importante porque establece la base para ejercicios más avanzad
 ```
 
 ### tomo el primer elemento del json
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2568,7 +2573,7 @@ Este ejemplo es importante porque muestra cómo puede interactuar el HTML con Ja
 ```
 
 ### poblar los datos
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2854,7 +2859,7 @@ Both implementations are used by calling their respective functions in an HTML f
 This setup provides a good starting point for creating data visualizations directly in HTML/JS without external libraries. If you need further enhancements or have specific requirements, feel free to ask!
 
 ### grafica
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2880,7 +2885,7 @@ Este esquema básico sirve como punto de partida para desarrollar cualquier pág
 ```
 
 ### primera grafica
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2929,7 +2934,7 @@ Este tipo de representación visual ayuda en la comprensión inmediata de las di
 ```
 
 ### estilo de la barra
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3001,7 +3006,7 @@ Esta página es útil en contextos educativos o de demostración para mostrar c�
 ```
 
 ### empiezo a encapsular
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3089,7 +3094,7 @@ El objetivo principal de este código parece ser mostrar cómo crear una interfa
 ```
 
 ### creo un objeto de datos
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3197,7 +3202,7 @@ Esta técnica combina HTML básico con JavaScript para dinamizar y visualizar da
 ```
 
 ### encapsulo en funcion
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3310,7 +3315,7 @@ Finalmente, después de definir la función, se llama a `graficaBarras` pasándo
 ```
 
 ### mas origenes de datos
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3504,7 +3509,7 @@ Este código es útil porque permite la generación dinámica de gráficos en HT
 ```
 
 ### y si le pongo color
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3695,7 +3700,7 @@ Al final, la función `graficaBarras` es llamada cuatro veces con diferentes con
 ```
 
 ### en cierta forma un espacio de nombrs
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3887,7 +3892,7 @@ Finalmente, se llama a la función `graficaBarras` cuatro veces para cada div co
 ```
 
 ### externalizo a archivos
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -4028,7 +4033,7 @@ Este código es importante porque demuestra cómo externalizar estilos y funcion
 ```
 
 ### lo cargo como libreria externa
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -4168,7 +4173,7 @@ Este fragmento es crucial porque muestra cómo integrar una librería externa pa
 ```
 
 ### grafica de tarta
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -4251,7 +4256,7 @@ Este tipo de código es importante porque demuestra cómo se pueden combinar HTM
 ```
 
 ### a javascript
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -4323,7 +4328,7 @@ Este código sirve como una introducción a cómo crear gráficos simples usando
 ```
 
 ### averiguamos el total
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -4411,7 +4416,7 @@ Este código es importante porque establece la base para generar una visualizaci
 ```
 
 ### construyo una cadena
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -4505,7 +4510,7 @@ El propósito principal del código es generar una visualización gráfica (en f
 ```
 
 ### encapsulo
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -4597,7 +4602,7 @@ El código es importante porque demuestra cómo combinar HTML, CSS (a través de
 ```
 
 ### probamos multiple
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -4766,7 +4771,7 @@ Esta técnica es importante porque permite personalizar y visualizar fácilmente
 ```
 
 ### estilizar mejor las gráficas
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -4985,7 +4990,7 @@ Finalmente, se llaman a esta función cuatro veces con diferentes conjuntos de d
 ```
 
 ### svg sobreimpreso
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -5240,7 +5245,7 @@ Este código es especialmente útil para estudiantes de desarrollo web que desea
 ```
 
 ### leyendas en las partes
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -5555,7 +5560,7 @@ Este ejemplo es especialmente útil para entender cómo combinar HTML, CSS y Jav
 ```
 
 ### titulo de la grafica
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -5883,7 +5888,7 @@ Este código combina HTML, CSS y JavaScript para crear gráficos dinámicos e in
 ```
 
 ### titulo de la grafica
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6218,7 +6223,7 @@ En resumen, este código combina HTML, CSS y JavaScript para crear una página v
 ```
 
 ### jvgraficabarras
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6253,7 +6258,7 @@ Este estilo CSS es crucial para crear una gráfica visualmente atractiva y legib
 ```
 
 ### jvgraficabarras
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6644,7 +6649,7 @@ chart.chartRenderer({
 The provided code ensures that your data rendering components are flexible and reusable, capable of handling various input formats and providing dynamic interaction features like filtering and sorting. Ensure you test these classes with a variety of dataset sizes and structures to verify their robustness and efficiency in real-world applications.
 
 ### clase tabla
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7059,7 +7064,7 @@ Este conjunto de características hace que sea muy útil tanto para desarrollado
 ```
 
 ### simplificar
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7241,7 +7246,7 @@ Además, hay un ejemplo predefinido de datos JSON almacenados en la variable `sa
 ```
 
 ### encappsular
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7501,7 +7506,7 @@ Este tipo de implementación es útil para desarrolladores web ya que permite cr
 ```
 
 ### namespace
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7732,7 +7737,7 @@ Finalmente, cuando la página está lista para ser utilizada (`DOMContentLoaded`
 ```
 
 ### tabla correctamente renderizada
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7968,7 +7973,7 @@ Este archivo es útil para estudiantes que quieren aprender sobre la generación
 ```
 
 ### renderiza bien
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8221,7 +8226,7 @@ Este código es especialmente útil para estudiantes que están aprendiendo sobr
 ```
 
 ### consumo datos externos
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8485,7 +8490,7 @@ En resumen, este fragmento de código HTML es un ejemplo práctico de cómo comb
 ```
 
 ### represento la tabla
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8740,7 +8745,7 @@ En resumen, este fragmento es un ejemplo práctico de cómo utilizar JavaScript 
 ```
 
 ### externalizacion de prueba
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8779,7 +8784,7 @@ Este código es importante porque demuestra cómo integrar HTML y JavaScript par
 ```
 
 ### minisistema
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8822,7 +8827,7 @@ Esta técnica es muy común en desarrollo web moderno ya que permite separar cla
 ```
 
 ### api2
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8872,7 +8877,7 @@ Este tipo de código es fundamental en desarrollo web moderno ya que combina HTM
 ```
 
 ### estilo del nav
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8924,7 +8929,7 @@ Esta práctica es importante porque permite una mayor interactividad y personali
 ```
 
 ### accion en cada boton
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8981,7 +8986,7 @@ Esta técnica de crear elementos HTML dinámicamente y agregar eventos a ellos e
 ```
 
 ### cargo la tabla
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9040,7 +9045,7 @@ Esta técnica permite tener interfaces dinámicas y modulares, ya que toda la l�
 ```
 
 ### ahora cargo la tabla que toca
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9105,7 +9110,7 @@ Esta técnica es importante porque permite crear interfaces dinámicas que puede
 ```
 
 ### ahora formularios
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9201,7 +9206,7 @@ Este código es importante porque demuestra cómo integrar backend con frontend 
 ```
 
 ### ahora graficas
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9347,7 +9352,7 @@ Este código es importante porque demuestra cómo combinar HTML, CSS y JavaScrip
 ```
 
 ### extendemos todavia mas
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9582,7 +9587,7 @@ Este enfoque combina HTML, CSS y JavaScript para proporcionar una experiencia de
 ```
 
 ### api
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9638,7 +9643,7 @@ echo json_encode($data);
 ```
 
 ### api2
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9718,7 +9723,7 @@ $conn->close();
 ```
 
 ### jocarsaux2
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -10148,7 +10153,7 @@ El código proporcionado es una implementación funcional para crear interfaces 
 ```
 
 ### jocarsaux3
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -10793,7 +10798,7 @@ This utility library simplifies complex UI tasks by abstracting away low-level d
 ```
 
 ### jocarsaux4
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11689,7 +11694,7 @@ This `JocarsaUX` library simplifies the creation and rendering of various UI com
 ```
 
 ### pruebalibreria
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12067,7 +12072,7 @@ Estas actividades están diseñadas para proporcionar a los estudiantes una comp
 En esta carpeta de ejercicios, los estudiantes trabajarán con la integración de tecnología del habla en interfaces web. Los ejercicios abordan tanto la síntesis de voz como el reconocimiento de voz usando JavaScript y HTML5. En estos ejemplos, se practica cómo capturar texto desde un micrófono, procesarlo y luego sintetizarlo nuevamente para ser pronunciado por el sistema. Además, algunos ejercicios incorporan elementos adicionales como la modificación de datos basada en comandos vocales reconocidos. Los estudiantes desarrollarán habilidades en manejo de eventos de voz, interacción con APIs de habla y construcción de interfaces más naturales para usuarios.
 
 ### sintesis de voz
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12113,7 +12118,7 @@ Esta característica es útil en aplicaciones web donde se necesita proporcionar
 ```
 
 ### microfono
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12152,7 +12157,7 @@ Este tipo de código es fundamental para desarrolladores que buscan incorporar f
 ```
 
 ### fusiono proyectos
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12214,7 +12219,7 @@ Este código es importante porque combina funciones de reconocimiento y síntesi
 ```
 
 ### pinto tabla
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12294,7 +12299,7 @@ El fragmento de código es importante porque demuestra cómo integrar funcionali
 ```
 
 ### reacciono a la voz
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12447,7 +12452,7 @@ Los estudiantes deben crear un proyecto final que integre múltiples funcionalid
 Esta carpeta contiene ejercicios que trabajan con la biblioteca MediaPipe para detectar y trazar puntos de referencia en las manos, cara y cuerpo utilizando cámaras web. Los archivos HTML proporcionados implementan demos básicas que permiten a los estudiantes comprender cómo capturar video desde una cámara y procesarlo para identificar y dibujar sobre los keypoints (puntos clave) de diferentes partes del cuerpo humano. Estos ejercicios practican competencias esenciales en el desarrollo web, como la manipulación del DOM (Document Object Model), el manejo de eventos, el uso de librerías externas y el procesamiento de datos en tiempo real.
 
 ### reconocimiento manos
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12517,7 +12522,7 @@ Este código es importante porque demuestra cómo integrar tecnología avanzada 
 ```
 
 ### acceso a los datos
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12588,7 +12593,7 @@ Esta página web es fundamental para estudiantes interesados en la interacción 
 ```
 
 ### cara
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12664,7 +12669,7 @@ Este tipo de código es fundamental para el desarrollo de aplicaciones que requi
 ```
 
 ### cuerpo
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12810,7 +12815,7 @@ While both documents serve different purposes and use different technologies, if
 However, such an integration is quite complex and would require deep understanding of both libraries along with a good grasp on how to handle real-time video processing and 3D animation simultaneously.
 
 ### mediapipe cara
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12928,7 +12933,7 @@ Este código es especialmente útil en contextos donde necesitas interacción co
 ```
 
 ### via 3d
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -13170,7 +13175,7 @@ Este tipo de aplicación es un excelente ejemplo de cómo combinar tecnologías 
 ```
 
 ### arjs
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -13256,7 +13261,7 @@ Este código es importante porque demuestra cómo integrar las tecnologías web 
 ```
 
 ### proyectomelanie
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -13530,7 +13535,7 @@ Este código es importante porque demuestra cómo utilizar tecnologías modernas
 ```
 
 ### melanieavanzado
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -13986,7 +13991,7 @@ This application leverages advanced computer vision techniques to create interac
 ```
 
 ### melaniemejorado
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -14265,7 +14270,7 @@ Este código es importante porque demuestra cómo integrar tecnologías avanzada
 ```
 
 ### realidad aumentada geometria propia
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -14349,7 +14354,7 @@ La sección principal del código HTML contiene un escenario A-Frame (`<a-scene>
 ```
 
 ### suzanne sencillo
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -14387,7 +14392,7 @@ Esta página es útil para estudiantes que quieren aprender cómo combinar model
 ```
 
 ### nave sencilllo
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -14427,7 +14432,7 @@ En resumen, este código proporciona una base sólida para experimentar con mode
 ```
 
 ### proyecto melanie con claude
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15074,7 +15079,7 @@ El código maneja eficientemente las dimensiones cambiantes de la página al rea
 Este tipo de herramienta puede ser útil para analizar patrones de interacción en sitios web, visualizando zonas más visitadas o interactuadas por los usuarios.
 
 ### focus y blur
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15110,7 +15115,7 @@ Estos eventos son importantes porque permiten responder y reaccionar a las inter
 ```
 
 ### y si cambia
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15155,7 +15160,7 @@ Este tipo de interacción es importante para desarrollar interfaces web dinámic
 ```
 
 ### integracion de onchange
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15192,7 +15197,7 @@ En resumen, este fragmento enseña cómo capturar y responder a los cambios en e
 ```
 
 ### eventos boton
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15227,7 +15232,7 @@ Este tipo de asociación entre eventos y acciones es fundamental en programació
 ```
 
 ### doble click
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15258,7 +15263,7 @@ Este tipo de interacción es importante porque permite que las páginas web reac
 ```
 
 ### mouse down
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15289,7 +15294,7 @@ Este código te ayuda a entender cómo capturar eventos en HTML utilizando JavaS
 ```
 
 ### mouseup
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15318,7 +15323,7 @@ Este tipo de código es importante para entender cómo vincular eventos a elemen
 ```
 
 ### mouseenter
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15349,7 +15354,7 @@ Esta técnica es útil para proporcionar retroalimentación inmediata al usuario
 ```
 
 ### mouse leave
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15378,7 +15383,7 @@ Este tipo de código es importante para entender cómo interactúan los eventos 
 ```
 
 ### mouse over
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15411,7 +15416,7 @@ Este código es importante porque muestra cómo se pueden asociar funciones espe
 ```
 
 ### menu contextual
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15444,7 +15449,7 @@ Esta técnica es importante porque permite a los desarrolladores controlar inter
 ```
 
 ### mousemove
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15480,7 +15485,7 @@ Este código te permite empezar a comprender la captura y manipulación de event
 ```
 
 ### mostrar mapa de calor
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15537,7 +15542,7 @@ Este tipo de código es importante para entender cómo manejar eventos del rató
 ```
 
 ### circulos
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15594,7 +15599,7 @@ Este tipo de efecto visual puede ser útil en muchos contextos, como demostracio
 ```
 
 ### eventos teclado keypress
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15624,7 +15629,7 @@ La función anónima (`function(event){...}`) que recibe como parámetro el obje
 ```
 
 ### evento keyup
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15654,7 +15659,7 @@ Esta técnica es útil porque permite responder a las acciones del usuario en ti
 ```
 
 ### onkeydown
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15684,7 +15689,7 @@ Este código es importante porque muestra cómo vincular eventos específicos a 
 ```
 
 ### eventos de portatpapeles
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15713,7 +15718,7 @@ Esta técnica es útil para controlar acciones específicas del usuario, como mo
 ```
 
 ### prohibir la copia
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15744,7 +15749,7 @@ Este tipo de código se utiliza frecuentemente para proteger contenido sensible 
 ```
 
 ### cortar
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15774,7 +15779,7 @@ Este tipo de asociación entre eventos y acciones permite a los desarrolladores 
 ```
 
 ### pegar
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15804,7 +15809,7 @@ Este tipo de interacción con eventos del navegador ayuda a los desarrolladores 
 ```
 
 ### carga
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15834,7 +15839,7 @@ Esta técnica es útil para asegurarse de que cualquier JavaScript que dependa d
 ```
 
 ### cambio de tamaño
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15863,7 +15868,7 @@ Es importante porque ayuda a mejorar la experiencia del usuario al garantizar qu
 ```
 
 ### scroll
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15899,7 +15904,7 @@ El cuerpo (`<body>`) de esta página contiene varios párrafos con texto fictici
 ```
 
 ### detecto cambio de conexion
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15935,7 +15940,7 @@ Este tipo de código es importante porque ayuda a mejorar la experiencia del usu
 ```
 
 ### drag and drop
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15989,7 +15994,7 @@ Este tipo de código es importante porque permite que los usuarios interactúen 
 ```
 
 ### arrastro el original
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16073,7 +16078,7 @@ Este tipo de interacción es importante para entender cómo crear elementos inte
 ```
 
 ### mejora de la libreria heatmap
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16248,7 +16253,7 @@ Este tipo de implementación es útil en aplicaciones que necesiten registrar in
 ```
 
 ### mas mejoras
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16668,7 +16673,7 @@ HeatmapTracker.init({
 ```
 
 ### carga externa
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16848,7 +16853,7 @@ This JavaScript library is a great example of encapsulating complex UI interacti
 For further enhancements or customizations, you might consider adding additional features like multi-selection support, better handling of large datasets, internationalization/localization, or integrating with popular frameworks/libraries (React, Vue.js).
 
 ### plantilla
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16887,7 +16892,7 @@ Este enfoque es útil para separar la estructura visual del código que manipula
 ```
 
 ### estilo
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16953,7 +16958,7 @@ Este código es útil para entender cómo crear elementos reutilizables usando t
 ```
 
 ### solo cuando se muestra por encina
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17026,7 +17031,7 @@ Esta técnica es útil porque permite definir una estructura reutilizable en un 
 ```
 
 ### componentizacion
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17114,7 +17119,7 @@ Este enfoque permite a los desarrolladores crear componentes reutilizables y bie
 ```
 
 ### externalizacion
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17146,7 +17151,7 @@ Esta práctica es importante porque permite modularizar el código, mejorando su
 ```
 
 ### parametrizacion
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17173,7 +17178,7 @@ En el cuerpo del documento (`<body>`), hay tres instancias del elemento personal
 ```
 
 ### select con busqueda
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17394,7 +17399,7 @@ Este tipo de estructura es útil para interfaces web que requieren una gran cant
 ```
 
 ### le añado buscador
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17612,7 +17617,7 @@ Este tipo de diseño es especialmente útil en formularios web donde se requiere
 ```
 
 ### un poco de css
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17840,7 +17845,7 @@ La importancia de esta estructura radica en su capacidad para organizar grandes 
 ```
 
 ### empezamos con js
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -18038,7 +18043,7 @@ Esta técnica es fundamental cuando trabajas con formularios grandes y dinámico
 ```
 
 ### matcheando
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -18234,7 +18239,7 @@ Este tipo de funcionalidad es común en interfaces de usuario modernas donde la 
 ```
 
 ### lleno el array de coincidencias
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -18437,7 +18442,7 @@ Esta funcionalidad es importante porque proporciona una forma sencilla para que 
 ```
 
 ### repintar solo las que toca
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -18649,7 +18654,7 @@ Finalmente, cuando el usuario deja de escribir (o cambia su búsqueda), se repin
 ```
 
 ### select personalizado
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -18976,7 +18981,7 @@ Este código es importante porque combina funcionalidades de HTML, CSS y JavaScr
 ```
 
 ### a componente
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -19209,7 +19214,7 @@ El uso de este componente ayuda a mantener el código limpio y modular, ya que l
 ```
 
 ### llamada a componente
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -19346,7 +19351,7 @@ Este tipo de componente es útil en aplicaciones web donde los usuarios tienen q
 ```
 
 ### carga externa
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -19483,7 +19488,7 @@ Este tipo de enfoque es importante porque simplifica la implementación de carac
 ```
 
 ### boton-tooltip
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -19589,7 +19594,7 @@ customElements.define('boton-tooltip', BotonTooltip);
 ```
 
 ### jocarsaui
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -19651,7 +19656,7 @@ Estos estilos ayudan a crear interfaces de usuario más limpias y coherentes, me
 ```
 
 ### jocarsaui
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -20042,7 +20047,7 @@ a {
 This setup ensures that your HTML elements have consistent base styles, making it easier to build on top of these foundations with custom designs.
 
 ### libreria
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -20335,7 +20340,7 @@ button[data-variant="danger"],  .danger  { background: var(--destructive); }
 ```
 
 ### ejemplo
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -20457,7 +20462,7 @@ Este ejemplo es importante porque demuestra cómo puede simplificar la creación
 ```
 
 ### cssreset
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -20639,7 +20644,7 @@ img[alt=""] {
 ```
 
 ### html de reinicio
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -20737,7 +20742,7 @@ El objetivo principal es permitir a los estudiantes ver cómo estos estilos pred
 ```
 
 ### carga desde GitHub
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -20927,7 +20932,7 @@ Basándome en el contexto proporcionado, y considerando que los archivos están 
 En esta carpeta, encontrarás una serie de ejercicios diseñados para practicar las habilidades fundamentales de creación y manipulación de bases de datos utilizando SQL. Los estudiantes aprenderán a crear tablas relacionadas, insertar datos en ellas, establecer relaciones entre tablas mediante claves foráneas, realizar consultas avanzadas que incluyen el uso de JOINs para combinar información de múltiples tablas, y crear vistas para simplificar y organizar los resultados. Además, se explorará la creación y administración de usuarios en MySQL, otorgándoles diferentes niveles de acceso a las bases de datos. Estos ejercicios son esenciales para desarrollar una comprensión sólida de cómo gestionar datos eficientemente en entornos de desarrollo web.
 
 ### crear tablas
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -20962,7 +20967,7 @@ CREATE TABLE Categorias(
 ```
 
 ### insertar
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -20994,7 +20999,7 @@ INSERT INTO Piezas VALUES(
 ```
 
 ### fk
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -21015,7 +21020,7 @@ ON UPDATE CASCADE;
 ```
 
 ### selecciones
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -21032,7 +21037,7 @@ SELECT * FROM Piezas;
 ```
 
 ### left join
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -21053,7 +21058,7 @@ ON Piezas.id_categoria = Categorias.Identificador;
 ```
 
 ### ahora creo la vista
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -21084,7 +21089,7 @@ SELECT * FROM piezas_y_categorias;
 ```
 
 ### usuario
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -21231,7 +21236,7 @@ En esta carpeta, encontrarás una serie de ejercicios diseñados para familiariz
 El conjunto de ejercicios te ayudará a mejorar tus competencias en la creación de interfaces intuitivas y funcionales, considerando tanto las necesidades de los usuarios internos (empleados) como externos (clientes). A través del análisis de componentes básicos como páginas de inicio, formularios de contacto y vistas de tablas, podrás desarrollar un entendimiento sólido sobre cómo construir aplicaciones web que sean amigables y accesibles para todos los usuarios.
 
 ### plantilla maestra
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -21258,7 +21263,7 @@ Este código es importante porque establece la estructura básica de una página
 ```
 
 ### plantilla login
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -21297,7 +21302,7 @@ Este ejemplo es importante porque demuestra cómo integrar estilos CSS directame
 ```
 
 ### traigo el login
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -21326,7 +21331,7 @@ Este enfoque es útil cuando se quiere mantener una estructura modular del códi
 ```
 
 ### maestro
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -21353,7 +21358,7 @@ Esta práctica es común en desarrollo web para crear plantillas y layouts coher
 ```
 
 ### parametros url
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -21384,7 +21389,7 @@ Es importante porque nos permite pasar información entre páginas web sin neces
 ```
 
 ### maestro
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -21504,7 +21509,7 @@ In `dashboard.html` or another relevant section:
 This structure ensures that users are guided through different levels of navigation and functionality within your ERP system.
 
 ### dashboard
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -21701,7 +21706,7 @@ Este tipo de diseño y estructura son comunes en aplicaciones web empresariales,
 ```
 
 ### entity-table
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -21971,7 +21976,7 @@ Este diseño es importante porque proporciona a los administradores un resumen r
 ```
 
 ### index
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -22073,7 +22078,7 @@ Este código es importante porque proporciona a los usuarios una interfaz amigab
 ```
 
 ### modules
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -22283,7 +22288,7 @@ Seguir estos pasos debería ayudarte a asegurarte de que todos los enlaces inter
 En esta carpeta, se encuentran ejercicios relacionados con el diseño y la implementación de interfaces gráficas para un sitio web simple. El enfoque principal es desarrollar competencias en estilización con CSS y estructuración básica utilizando PHP para incluir diferentes componentes del sitio, como la cabecera y el pie de página. Los estudiantes practicarán cómo crear archivos de estilo separados (como `estilo.css`) que definan los elementos visuales generales del sitio web, así como cómo organizar el contenido dinámicamente utilizando condicionales en PHP para mostrar páginas específicas según la URL solicitada.
 
 ### estilo
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -22314,7 +22319,7 @@ main{
 ```
 
 ### index
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -22421,7 +22426,7 @@ En esta carpeta de ejercicios, los estudiantes trabajan con la creación y dise�
 Estos ejercicios ayudan a desarrollar competencias clave como la comprensión de estructuras HTML y PHP, el uso efectivo de hojas de estilo CSS, y cómo trabajar con cálculos para crear paletas de colores que siguen principios de diseño visual.
 
 ### maestro
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -22452,7 +22457,7 @@ Este tipo de organización, donde partes reutilizables del diseño se almacenan 
 ```
 
 ### estilo
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -22505,7 +22510,7 @@ button{
 ```
 
 ### funcionescss
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -22777,7 +22782,7 @@ El código proporcionado es una implementación completa y detallada de una herr
 Este código proporciona una base sólida para un editor de diagramas interactivo y personalizable, lo que podría ser útil en una variedad de contextos, desde diagramación de procesos hasta diseño gráfico simple. La implementación completa incluiría el manejo del estado del usuario (por ejemplo, almacenar y restaurar diseños) y la integración con API o bases de datos para guardar los cambios permanentemente.
 
 ### index
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -22839,7 +22844,7 @@ Este diseño es crucial para facilitar a los estudiantes o diseñadores una inte
 ```
 
 ### script
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -23513,7 +23518,7 @@ document.addEventListener('DOMContentLoaded', () => {
 ```
 
 ### styles
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -24109,7 +24114,7 @@ El código anterior proporciona una estructura básica para interactuar con el W
 Este enfoque permite una interacción fluida entre tu interfaz principal y la lógica física ejecutada por el worker, garantizando un rendimiento óptimo al separar las tareas pesadas de los cálculos físicos del bucle principal de renderizado.
 
 ### punto de partida
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -24546,7 +24551,7 @@ En resumen, este código proporciona una representación visualmente atractiva d
 ```
 
 ### activar o desactivar propiedades
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -25044,7 +25049,7 @@ Para un uso más interactivo, este código podría ser expandido para incluir m�
 ```
 
 ### dinamico
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -25624,7 +25629,7 @@ Este tipo de representación es útil para identificar patrones o clusters que p
 ```
 
 ### con worker
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -26155,7 +26160,7 @@ Este código demuestra cómo puede ser útil el uso del Web Worker para procesam
 ```
 
 ### espacio en 3D
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -26842,7 +26847,7 @@ Con estos cambios, el código es más modular y fácil de entender, lo que facil
 ```
 
 ### espacio en 3D mejorado
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -27618,7 +27623,7 @@ This application seems well thought out but can certainly benefit from optimizat
 ```
 
 ### direccion corregida
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -28512,7 +28517,7 @@ This should help your application run smoother and handle edge cases more gracef
 ```
 
 ### billboards y mas cosas
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -29323,7 +29328,7 @@ This app provides an engaging and interactive way to explore complex datasets, m
 ```
 
 ### mejoras en ver texto
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -30373,7 +30378,7 @@ Feel free to add further enhancements or customizations based on your applicatio
 ```
 
 ### texto a ver si ahora si
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -31315,7 +31320,7 @@ function crearNodos3D(personas) {
 ```
 
 ### giramos el texto
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -32455,7 +32460,7 @@ El código proporcionado es una versión mejorada y refactorizada del tuyo. Aseg
 ```
 
 ### carga de datos json
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -33422,7 +33427,7 @@ By integrating such features, you can make your 3D graph more interactive and re
 ```
 
 ### click en pastillas
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -34552,7 +34557,7 @@ This script provides a comprehensive framework for creating interactive, data-dr
 ```
 
 ### personas
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -34708,7 +34713,7 @@ Este archivo JSON es una fuente rica para ejercicios de programación y análisi
 ```
 
 ### personas2
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -35611,7 +35616,7 @@ This overview captures the variety in hobbies, professions, and city distributio
 ```
 
 ### worker
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -36056,7 +36061,7 @@ The provided code is a dynamic SVG-based chart rendering system that fetches dat
 This code is highly customizable for different data sources and visualization needs. By modifying the `chartType` variable and adjusting animation parameters, developers can create engaging visual experiences tailored to specific use cases.
 
 ### pantalla completa de informe
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -36106,7 +36111,7 @@ Este tipo de código es útil cuando quieres crear interfaces dinámicas en tu a
 ```
 
 ### tarta css puro
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -36406,7 +36411,7 @@ Este tipo de código es importante en desarrollo web ya que permite crear interf
 ```
 
 ### incluir grafica
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -36465,7 +36470,7 @@ Este tipo de estructura es muy versátil para crear páginas dinámicas y atract
 ```
 
 ### con json
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -36627,7 +36632,7 @@ Esta página es útil en el contexto de desarrollo de interfaces gráficas web p
 ```
 
 ### mejoras
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -36898,7 +36903,7 @@ En resumen, este código combina PHP y CSS para crear una interfaz web moderna q
 ```
 
 ### diferentes tipos
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -37144,7 +37149,7 @@ Este código es importante porque combina estilos CSS modernos con programación
 ```
 
 ### mas usable
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -37391,7 +37396,7 @@ Este código es útil porque muestra cómo combinar HTML, CSS y PHP para crear u
 ```
 
 ### json externo
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -37566,7 +37571,7 @@ Este código es importante porque demuestra cómo integrar estilos CSS personali
 ```
 
 ### grafica
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -37887,7 +37892,7 @@ if (!defined('SVG_PIE_CHART_CSS_PRINTED')) {
 ```
 
 ### grafica2
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -38439,7 +38444,7 @@ if (!defined('SVG_CHARTS_CSS_PRINTED')) {
 ```
 
 ### grafica3
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -39259,7 +39264,7 @@ if (!isset($_GET['auth']) || base64_decode($_GET['auth']) !== 'jocarsa:jocarsa')
 This approach ensures a more maintainable, scalable, and secure system for monitoring server performance.
 
 ### api
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -39340,7 +39345,7 @@ switch ($endpoint) {
 ```
 
 ### grafica3
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -39881,7 +39886,7 @@ if (!defined('SVG_CHARTS_CSS_PRINTED')) {
 ```
 
 ### index
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -40057,7 +40062,7 @@ La importancia de este código radica en cómo combina diferentes tecnologías p
 ```
 
 ### server_monitor
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -40462,6 +40467,1883 @@ Feel free to ask if you need more detailed guidance on any part! 🚀
 
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/005-Creaci%C3%B3n%20de%20informes/004-Filtrado%20de%20datos)
 
+### mapa
+<small>Creado: 2026-01-20 20:00</small>
+
+`001-mapa.py`
+
+```python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+import os
+import sys
+
+def print_tree(root_path, prefix=""):
+    try:
+        entries = sorted(os.listdir(root_path))
+    except PermissionError:
+        print(prefix + "[Permission denied]")
+        return
+
+    for index, entry in enumerate(entries):
+        full_path = os.path.join(root_path, entry)
+        is_last = index == len(entries) - 1
+
+        connector = "└── " if is_last else "├── "
+        print(prefix + connector + entry)
+
+        if os.path.isdir(full_path):
+            extension = "    " if is_last else "│   "
+            print_tree(full_path, prefix + extension)
+
+def main():
+    if len(sys.argv) != 2:
+        print(f"Usage: {sys.argv[0]} <folder>")
+        sys.exit(1)
+
+    root = sys.argv[1]
+
+    if not os.path.isdir(root):
+        print("Error: path is not a directory")
+        sys.exit(1)
+
+    print(root)
+    print_tree(root)
+
+if __name__ == "__main__":
+    main()
+```
+
+### mapa opencv
+<small>Creado: 2026-01-20 20:03</small>
+
+`002-mapa opencv.py`
+
+```python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+Tree viewer (concentric radial layout) using OpenCV.
+
+- Opens a 1280x720 window
+- Root node centered
+- Each depth level is a concentric ring
+- Files/folders are nodes, with lines parent->child
+
+Usage:
+  python3 tree_opencv.py /var/www/html/dam/Primero
+
+Deps:
+  pip install opencv-python
+"""
+
+import os
+import sys
+import math
+import cv2
+
+
+# ----------------------------
+# Data model
+# ----------------------------
+class Node:
+    __slots__ = ("name", "path", "is_dir", "children", "parent", "depth", "pos")
+
+    def __init__(self, name, path, is_dir):
+        self.name = name
+        self.path = path
+        self.is_dir = is_dir
+        self.children = []
+        self.parent = None
+        self.depth = 0
+        self.pos = (0, 0)
+
+
+def build_tree(root_path: str, max_entries_per_dir: int | None = None) -> Node:
+    root_path = os.path.abspath(root_path)
+    root = Node(os.path.basename(root_path) or root_path, root_path, True)
+
+    def _build(parent: Node):
+        try:
+            entries = sorted(os.listdir(parent.path))
+        except (PermissionError, FileNotFoundError):
+            return
+
+        if max_entries_per_dir is not None:
+            entries = entries[:max_entries_per_dir]
+
+        for e in entries:
+            full = os.path.join(parent.path, e)
+            is_dir = os.path.isdir(full)
+            child = Node(e, full, is_dir)
+            child.parent = parent
+            parent.children.append(child)
+            if is_dir:
+                _build(child)
+
+    _build(root)
+    return root
+
+
+def assign_depths(root: Node) -> int:
+    max_depth = 0
+    stack = [(root, 0)]
+    while stack:
+        n, d = stack.pop()
+        n.depth = d
+        max_depth = max(max_depth, d)
+        for c in n.children:
+            stack.append((c, d + 1))
+    return max_depth
+
+
+def collect_by_depth(root: Node):
+    levels = {}
+    stack = [root]
+    while stack:
+        n = stack.pop()
+        levels.setdefault(n.depth, []).append(n)
+        for c in n.children:
+            stack.append(c)
+    # deterministic ordering within each depth
+    for d in levels:
+        levels[d].sort(key=lambda x: x.path)
+    return levels
+
+
+# ----------------------------
+# Layout (concentric rings)
+# ----------------------------
+def layout_concentric(root: Node, w: int, h: int, margin: int = 70):
+    cx, cy = w // 2, h // 2
+    max_depth = assign_depths(root)
+    levels = collect_by_depth(root)
+
+    # Radii per depth (fit within screen)
+    if max_depth == 0:
+        root.pos = (cx, cy)
+        return
+
+    max_radius = min(w, h) // 2 - margin
+    ring_step = max(40, int(max_radius / max_depth))
+
+    # Place root in center
+    root.pos = (cx, cy)
+
+    # For each depth ring, place nodes evenly around the circle
+    for d in range(1, max_depth + 1):
+        nodes = levels.get(d, [])
+        if not nodes:
+            continue
+
+        r = d * ring_step
+        n = len(nodes)
+        # If there are many nodes, slightly shrink radius to reduce clipping
+        r = min(r, max_radius)
+
+        # Start angle shifted so the first node isn't exactly at 0 radians
+        start_angle = -math.pi / 2
+        for i, node in enumerate(nodes):
+            angle = start_angle + (2 * math.pi * i / n)
+            x = int(cx + r * math.cos(angle))
+            y = int(cy + r * math.sin(angle))
+            node.pos = (x, y)
+
+
+# ----------------------------
+# Rendering
+# ----------------------------
+def shorten(text: str, max_len: int = 18) -> str:
+    if len(text) <= max_len:
+        return text
+    return text[: max_len - 1] + "…"
+
+
+def draw_scene(root: Node, w: int, h: int):
+    img = (255 * (1.0)).__class__  # dummy to satisfy linters (unused)
+    canvas = (255 * (0)).__class__  # dummy
+
+    # White background
+    canvas = (255 * 0)  # placeholder
+
+    canvas = (255 * 0)  # not used
+    frame = (255 * 0)   # not used
+
+    frame = (255 * 0)   # not used
+    frame = None
+
+    frame = (255 * 0)   # not used
+    frame = None
+
+    frame = (255 * 0)   # not used
+    frame = None
+
+    # Real frame init
+    frame = 255 * (0)   # will be overwritten
+    frame = None
+    frame = 255 * 0
+    frame = None
+
+    frame = 255 * 0
+    frame = None
+
+    frame = 255 * 0
+    frame = None
+
+    frame = 255 * 0
+    frame = None
+
+    # OK, actual frame:
+    frame = 255 * 0  # will be replaced below
+    import numpy as np
+    frame = np.full((h, w, 3), 255, dtype=np.uint8)
+
+    # Colors (BGR)
+    COL_LINE = (180, 180, 180)
+    COL_DIR = (60, 120, 60)
+    COL_FILE = (120, 60, 60)
+    COL_TEXT = (20, 20, 20)
+    COL_ROOT = (70, 70, 160)
+
+    # Gather nodes for drawing
+    nodes = []
+    stack = [root]
+    while stack:
+        n = stack.pop()
+        nodes.append(n)
+        for c in n.children:
+            stack.append(c)
+
+    # Draw edges first (so nodes are on top)
+    for n in nodes:
+        for c in n.children:
+            x1, y1 = n.pos
+            x2, y2 = c.pos
+            cv2.line(frame, (x1, y1), (x2, y2), COL_LINE, 1, cv2.LINE_AA)
+
+    # Draw nodes + labels
+    for n in nodes:
+        x, y = n.pos
+        if n is root:
+            color = COL_ROOT
+            radius = 14
+            thickness = 2
+        else:
+            color = COL_DIR if n.is_dir else COL_FILE
+            radius = 9 if n.is_dir else 7
+            thickness = 2 if n.is_dir else 1
+
+        cv2.circle(frame, (x, y), radius, color, thickness, cv2.LINE_AA)
+
+        label = shorten(n.name, 22)
+        # offset text slightly
+        tx, ty = x + radius + 4, y + 4
+        cv2.putText(
+            frame,
+            label,
+            (tx, ty),
+            cv2.FONT_HERSHEY_SIMPLEX,
+            0.42,
+            COL_TEXT,
+            1,
+            cv2.LINE_AA,
+        )
+
+    # Legend
+    cv2.putText(frame, "DIR", (12, 26), cv2.FONT_HERSHEY_SIMPLEX, 0.6, COL_TEXT, 1, cv2.LINE_AA)
+    cv2.circle(frame, (52, 22), 8, COL_DIR, 2, cv2.LINE_AA)
+    cv2.putText(frame, "FILE", (92, 26), cv2.FONT_HERSHEY_SIMPLEX, 0.6, COL_TEXT, 1, cv2.LINE_AA)
+    cv2.circle(frame, (150, 22), 7, COL_FILE, 1, cv2.LINE_AA)
+    cv2.putText(frame, "Press q / ESC to quit", (12, h - 18), cv2.FONT_HERSHEY_SIMPLEX, 0.6, COL_TEXT, 1, cv2.LINE_AA)
+
+    return frame
+
+
+def main():
+    if len(sys.argv) != 2:
+        print(f"Usage: {sys.argv[0]} <folder>")
+        sys.exit(1)
+
+    root_path = sys.argv[1]
+    if not os.path.isdir(root_path):
+        print("Error: path is not a directory")
+        sys.exit(1)
+
+    W, H = 1280, 720
+    root = build_tree(root_path, max_entries_per_dir=None)
+    layout_concentric(root, W, H, margin=80)
+
+    win = "Tree Viewer"
+    cv2.namedWindow(win, cv2.WINDOW_AUTOSIZE)
+
+    while True:
+        frame = draw_scene(root, W, H)
+        cv2.imshow(win, frame)
+
+        key = cv2.waitKey(16) & 0xFF
+        if key in (27, ord("q")):
+            break
+
+    cv2.destroyAllWindows()
+
+
+if __name__ == "__main__":
+    main()
+```
+
+### mapa arbol
+<small>Creado: 2026-01-20 20:12</small>
+
+`003-mapa arbol.py`
+
+```python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+OpenCV filesystem tree viewer (irregular "tree-like" layout with collision avoidance)
+
+What changed vs concentric rings:
+- No fixed, equidistant circles.
+- Initial layout is hierarchical and local: each node places its children around itself (each branch gets its own 360°).
+- Then a lightweight physics relaxation runs to:
+  - keep parent-child relations (springs)
+  - repel nodes so node circles do not collide (repulsion)
+  - keep everything inside the 1280x720 viewport (soft bounds)
+
+Usage:
+  python3 tree_opencv_tree_layout.py /var/www/html/dam/Primero
+
+Deps:
+  pip install opencv-python numpy
+"""
+
+import os
+import sys
+import math
+import cv2
+import numpy as np
+from collections import deque, defaultdict
+
+
+# ----------------------------
+# Data model
+# ----------------------------
+class Node:
+    __slots__ = ("name", "path", "is_dir", "children", "parent", "depth", "pos", "subtree_size")
+
+    def __init__(self, name, path, is_dir):
+        self.name = name
+        self.path = path
+        self.is_dir = is_dir
+        self.children = []
+        self.parent = None
+        self.depth = 0
+        self.pos = np.zeros(2, dtype=np.float32)
+        self.subtree_size = 1
+
+
+def build_tree(root_path: str, max_nodes: int = 800, max_depth: int | None = None) -> Node:
+    """
+    Builds a tree, with safe limits to keep rendering/relaxation interactive.
+    """
+    root_path = os.path.abspath(root_path)
+    root = Node(os.path.basename(root_path) or root_path, root_path, True)
+
+    node_count = 1
+
+    def _build(parent: Node, depth: int):
+        nonlocal node_count
+        if max_depth is not None and depth >= max_depth:
+            return
+        try:
+            entries = sorted(os.listdir(parent.path))
+        except (PermissionError, FileNotFoundError):
+            return
+
+        for e in entries:
+            if node_count >= max_nodes:
+                return
+            full = os.path.join(parent.path, e)
+            is_dir = os.path.isdir(full)
+            child = Node(e, full, is_dir)
+            child.parent = parent
+            parent.children.append(child)
+            node_count += 1
+            if is_dir:
+                _build(child, depth + 1)
+
+    _build(root, 0)
+    return root
+
+
+def assign_depths_and_subtree_sizes(root: Node):
+    # depth BFS
+    q = deque([(root, 0)])
+    while q:
+        n, d = q.popleft()
+        n.depth = d
+        for c in n.children:
+            q.append((c, d + 1))
+
+    # subtree sizes postorder
+    order = []
+    stack = [root]
+    while stack:
+        n = stack.pop()
+        order.append(n)
+        for c in n.children:
+            stack.append(c)
+
+    for n in reversed(order):
+        s = 1
+        for c in n.children:
+            s += c.subtree_size
+        n.subtree_size = s
+
+
+def collect_nodes(root: Node):
+    nodes = []
+    stack = [root]
+    while stack:
+        n = stack.pop()
+        nodes.append(n)
+        for c in n.children:
+            stack.append(c)
+    return nodes
+
+
+# ----------------------------
+# Initial "branch gets 360°" layout
+# ----------------------------
+def initial_local_radial_layout(root: Node, center_xy, base_edge_len: float):
+    """
+    Each node places its children around itself using the full 2π range.
+    Distances vary by subtree size, producing a more tree-like irregular structure.
+    """
+    root.pos[:] = center_xy
+
+    # Deterministic angle seed from name/path
+    def hash01(s: str) -> float:
+        # stable-ish, simple
+        h = 2166136261
+        for ch in s:
+            h ^= ord(ch)
+            h = (h * 16777619) & 0xFFFFFFFF
+        return (h / 0xFFFFFFFF)
+
+    stack = [root]
+    while stack:
+        parent = stack.pop()
+        kids = parent.children
+        if not kids:
+            continue
+
+        # Sort to stabilize
+        kids.sort(key=lambda x: x.path)
+
+        k = len(kids)
+
+        # Radius of this "child ring" around the parent:
+        # depends on how "big" the branch is.
+        # sqrt() prevents huge jumps but allows larger branches more breathing room.
+        branch_weight = math.sqrt(max(1, parent.subtree_size))
+        ring_r = base_edge_len * (1.0 + 0.18 * branch_weight)
+
+        # Small random-ish rotation so identical branching doesn't look too symmetric.
+        rot = (hash01(parent.path) * 2.0 - 1.0) * 0.6  # ~[-0.6, 0.6] rad
+
+        for i, child in enumerate(kids):
+            # Spread evenly across 360° for this parent
+            ang = rot + (2.0 * math.pi) * (i / k)
+
+            # Give larger subtrees slightly more distance from parent
+            child_weight = math.sqrt(max(1, child.subtree_size))
+            r = ring_r * (1.0 + 0.08 * child_weight)
+
+            child.pos[0] = parent.pos[0] + r * math.cos(ang)
+            child.pos[1] = parent.pos[1] + r * math.sin(ang)
+
+            stack.append(child)
+
+
+# ----------------------------
+# Collision-avoidance relaxation (springs + repulsion)
+# ----------------------------
+def relax_layout(nodes, edges, root_index, W, H,
+                 node_radius=10.0,
+                 target_edge=90.0,
+                 iters=220,
+                 dt=0.25):
+    """
+    Physics:
+      - Edge springs: keep parent-child at target_edge (scaled per subtree size by precomputed edge target)
+      - Repulsion: prevent node disks from colliding
+      - Soft bounds: push nodes back into screen
+    Uses spatial hashing so repulsion is near-linear for typical trees.
+    """
+
+    n = len(nodes)
+    pos = np.stack([nd.pos for nd in nodes], axis=0).astype(np.float32)
+    vel = np.zeros_like(pos)
+
+    # Precompute per-edge targets (use child subtree size to allow big subtrees more room)
+    e_u = np.array([u for (u, v) in edges], dtype=np.int32)
+    e_v = np.array([v for (u, v) in edges], dtype=np.int32)
+
+    subtree = np.array([nd.subtree_size for nd in nodes], dtype=np.float32)
+    # edge target grows a bit with subtree size of child
+    edge_target = target_edge * (1.0 + 0.05 * np.sqrt(np.maximum(1.0, subtree[e_v])))
+
+    # Spatial hashing parameters
+    min_sep = node_radius * 2.2
+    cell = float(min_sep)
+
+    def build_grid(p):
+        grid = defaultdict(list)
+        gx = np.floor(p[:, 0] / cell).astype(np.int32)
+        gy = np.floor(p[:, 1] / cell).astype(np.int32)
+        for i in range(n):
+            grid[(gx[i], gy[i])].append(i)
+        return grid
+
+    # Forces coefficients
+    k_spring = 0.04
+    k_repulse = 0.85
+    k_damp = 0.88
+    k_bounds = 0.12
+
+    # Bounds padding
+    pad = 40.0
+
+    for _ in range(iters):
+        # Root fixed (anchor)
+        pos[root_index] = pos[root_index]  # explicit
+        vel[root_index] *= 0.0
+
+        force = np.zeros_like(pos)
+
+        # ---- Springs (edges) ----
+        pu = pos[e_u]
+        pv = pos[e_v]
+        d = pv - pu
+        dist = np.linalg.norm(d, axis=1) + 1e-6
+        dir_ = d / dist[:, None]
+        # Spring tries to match edge_target
+        stretch = (dist - edge_target)
+        f = (-k_spring * stretch)[:, None] * dir_
+        # Apply: u gets -f, v gets +f
+        np.add.at(force, e_u, -f)
+        np.add.at(force, e_v, +f)
+
+        # ---- Repulsion (collision avoidance) using grid ----
+        grid = build_grid(pos)
+        for (cx, cy), idxs in grid.items():
+            # Check this cell + neighbors
+            neigh_cells = [
+                (cx-1, cy-1), (cx, cy-1), (cx+1, cy-1),
+                (cx-1, cy),   (cx, cy),   (cx+1, cy),
+                (cx-1, cy+1), (cx, cy+1), (cx+1, cy+1),
+            ]
+            candidates = []
+            for nc in neigh_cells:
+                candidates.extend(grid.get(nc, []))
+            if not candidates:
+                continue
+
+            # For each i in cell, compare to candidates (j>i to avoid double work)
+            for i in idxs:
+                pi = pos[i]
+                for j in candidates:
+                    if j <= i:
+                        continue
+                    pj = pos[j]
+                    dv = pi - pj
+                    dist2 = float(dv[0]*dv[0] + dv[1]*dv[1])
+                    if dist2 < 1e-6:
+                        # almost same spot: nudge deterministically
+                        dv = np.array([0.123, 0.456], dtype=np.float32)
+                        dist2 = float(dv[0]*dv[0] + dv[1]*dv[1])
+
+                    dist = math.sqrt(dist2)
+                    if dist >= min_sep:
+                        continue
+
+                    # Push apart proportional to overlap
+                    overlap = (min_sep - dist)
+                    dirv = dv / dist
+                    rep = (k_repulse * overlap)
+                    fi = dirv * rep
+                    force[i] += fi
+                    force[j] -= fi
+
+        # ---- Soft bounds ----
+        # left
+        over = (pad - pos[:, 0])
+        mask = over > 0
+        force[mask, 0] += k_bounds * over[mask]
+        # right
+        over = (pos[:, 0] - (W - pad))
+        mask = over > 0
+        force[mask, 0] -= k_bounds * over[mask]
+        # top
+        over = (pad - pos[:, 1])
+        mask = over > 0
+        force[mask, 1] += k_bounds * over[mask]
+        # bottom
+        over = (pos[:, 1] - (H - pad))
+        mask = over > 0
+        force[mask, 1] -= k_bounds * over[mask]
+
+        # Integrate
+        vel += force * dt
+        vel *= k_damp
+        pos += vel * dt
+
+        # Keep root fixed exactly at its starting pos (center)
+        pos[root_index] = pos[root_index]
+
+    # Write back
+    for i, nd in enumerate(nodes):
+        nd.pos[:] = pos[i]
+
+
+# ----------------------------
+# Rendering
+# ----------------------------
+def shorten(text: str, max_len: int = 22) -> str:
+    return text if len(text) <= max_len else (text[: max_len - 1] + "…")
+
+
+def draw_scene(nodes, edges, W, H):
+    frame = np.full((H, W, 3), 255, dtype=np.uint8)
+
+    # Colors (BGR)
+    COL_LINE = (190, 190, 190)
+    COL_DIR = (60, 120, 60)
+    COL_FILE = (120, 60, 60)
+    COL_ROOT = (70, 70, 160)
+    COL_TEXT = (20, 20, 20)
+
+    # Draw edges first
+    for u, v in edges:
+        x1, y1 = nodes[u].pos
+        x2, y2 = nodes[v].pos
+        cv2.line(frame, (int(x1), int(y1)), (int(x2), int(y2)), COL_LINE, 1, cv2.LINE_AA)
+
+    # Draw nodes + labels
+    for i, n in enumerate(nodes):
+        x, y = int(n.pos[0]), int(n.pos[1])
+
+        if n.parent is None:
+            color = COL_ROOT
+            radius = 14
+            thickness = 2
+        else:
+            color = COL_DIR if n.is_dir else COL_FILE
+            radius = 9 if n.is_dir else 7
+            thickness = 2 if n.is_dir else 1
+
+        cv2.circle(frame, (x, y), radius, color, thickness, cv2.LINE_AA)
+
+        label = shorten(n.name, 26)
+        cv2.putText(frame, label, (x + radius + 4, y + 4),
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.42, COL_TEXT, 1, cv2.LINE_AA)
+
+    # Legend / hint
+    cv2.putText(frame, "DIR", (12, 26), cv2.FONT_HERSHEY_SIMPLEX, 0.6, COL_TEXT, 1, cv2.LINE_AA)
+    cv2.circle(frame, (52, 22), 8, COL_DIR, 2, cv2.LINE_AA)
+    cv2.putText(frame, "FILE", (92, 26), cv2.FONT_HERSHEY_SIMPLEX, 0.6, COL_TEXT, 1, cv2.LINE_AA)
+    cv2.circle(frame, (150, 22), 7, COL_FILE, 1, cv2.LINE_AA)
+    cv2.putText(frame, "q / ESC to quit", (12, H - 18), cv2.FONT_HERSHEY_SIMPLEX, 0.6, COL_TEXT, 1, cv2.LINE_AA)
+
+    return frame
+
+
+# ----------------------------
+# Main
+# ----------------------------
+def main():
+    if len(sys.argv) != 2:
+        print(f"Usage: {sys.argv[0]} <folder>")
+        sys.exit(1)
+
+    root_path = sys.argv[1]
+    if not os.path.isdir(root_path):
+        print("Error: path is not a directory")
+        sys.exit(1)
+
+    W, H = 1280, 720
+
+    # Safety limits: adjust if you want
+    MAX_NODES = 900
+    MAX_DEPTH = None  # e.g. 8
+
+    root = build_tree(root_path, max_nodes=MAX_NODES, max_depth=MAX_DEPTH)
+    assign_depths_and_subtree_sizes(root)
+
+    nodes = collect_nodes(root)
+
+    # Map nodes to indices and edges list
+    index = {id(n): i for i, n in enumerate(nodes)}
+    edges = []
+    for n in nodes:
+        if n.parent is not None:
+            edges.append((index[id(n.parent)], index[id(n)]))
+
+    root_index = index[id(root)]
+    center = np.array([W * 0.5, H * 0.5], dtype=np.float32)
+
+    # Initial irregular hierarchical layout
+    initial_local_radial_layout(root, center_xy=center, base_edge_len=65.0)
+
+    # Relax to avoid collisions while keeping a tree-ish structure
+    relax_layout(
+        nodes=nodes,
+        edges=edges,
+        root_index=root_index,
+        W=W,
+        H=H,
+        node_radius=10.0,     # collision uses node circles, not labels
+        target_edge=85.0,     # average parent-child distance
+        iters=240,
+        dt=0.28
+    )
+
+    win = "Tree Viewer"
+    cv2.namedWindow(win, cv2.WINDOW_AUTOSIZE)
+
+    while True:
+        frame = draw_scene(nodes, edges, W, H)
+        cv2.imshow(win, frame)
+        key = cv2.waitKey(16) & 0xFF
+        if key in (27, ord("q")):
+            break
+
+    cv2.destroyAllWindows()
+
+
+if __name__ == "__main__":
+    main()
+```
+
+### mapa animado
+<small>Creado: 2026-01-20 20:31</small>
+
+`004-mapa animado.py`
+
+```python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+OpenCV filesystem tree viewer with incremental animated growth + "physical" collision avoidance.
+
+Now enforces:
+- Node-node: NO overlap (hard projection)
+- Node-edge: nodes keep away from branches (forces)
+- Edge-edge: branches avoid crossing (forces + hard "uncross" projection)
+
+Animation:
+- 1280x720 viewer
+- each second adds ONE node in hierarchical preorder (folder-by-folder feel)
+- smooth relocation using persistent velocities + physics
+
+Usage:
+  python3 tree_anim_physical.py /var/www/html/dam/Primero
+
+Deps:
+  pip install opencv-python numpy
+"""
+
+import os
+import sys
+import math
+import time
+import cv2
+import numpy as np
+
+
+# ----------------------------
+# Tree model
+# ----------------------------
+class Node:
+    __slots__ = ("name", "path", "is_dir", "children", "parent", "subtree_size")
+
+    def __init__(self, name, path, is_dir):
+        self.name = name
+        self.path = path
+        self.is_dir = is_dir
+        self.children = []
+        self.parent = None
+        self.subtree_size = 1
+
+
+def build_tree(root_path: str, max_nodes: int = 1200, max_depth: int | None = None) -> Node:
+    root_path = os.path.abspath(root_path)
+    root = Node(os.path.basename(root_path) or root_path, root_path, True)
+
+    node_count = 1
+
+    def _build(parent: Node, depth: int):
+        nonlocal node_count
+        if max_depth is not None and depth >= max_depth:
+            return
+        try:
+            entries = sorted(os.listdir(parent.path))
+        except (PermissionError, FileNotFoundError):
+            return
+
+        for e in entries:
+            if node_count >= max_nodes:
+                return
+            full = os.path.join(parent.path, e)
+            is_dir = os.path.isdir(full)
+            child = Node(e, full, is_dir)
+            child.parent = parent
+            parent.children.append(child)
+            node_count += 1
+            if is_dir:
+                _build(child, depth + 1)
+
+    _build(root, 0)
+    return root
+
+
+def compute_subtree_sizes(root: Node):
+    order = []
+    stack = [root]
+    while stack:
+        n = stack.pop()
+        order.append(n)
+        for c in n.children:
+            stack.append(c)
+    for n in reversed(order):
+        s = 1
+        for c in n.children:
+            s += c.subtree_size
+        n.subtree_size = s
+
+
+def preorder_list(root: Node):
+    out = []
+    stack = [root]
+    while stack:
+        n = stack.pop()
+        out.append(n)
+        if n.children:
+            kids = sorted(n.children, key=lambda x: x.path)
+            for c in reversed(kids):
+                stack.append(c)
+    return out
+
+
+# ----------------------------
+# Geometry helpers
+# ----------------------------
+def point_segment_distance_and_dir(p: np.ndarray, a: np.ndarray, b: np.ndarray):
+    """
+    p, a, b are (2,) float32
+    Returns (distance, unit_dir_from_segment_to_point)
+    """
+    ab = b - a
+    ap = p - a
+    denom = float(ab[0] * ab[0] + ab[1] * ab[1])
+    if denom < 1e-8:
+        d = p - a
+        dist = float(np.linalg.norm(d)) + 1e-6
+        return dist, d / dist
+
+    t = float((ap[0] * ab[0] + ap[1] * ab[1]) / denom)
+    if t < 0.0:
+        t = 0.0
+    elif t > 1.0:
+        t = 1.0
+
+    proj = a + ab * t
+    d = p - proj
+    dist = float(np.linalg.norm(d)) + 1e-6
+    return dist, d / dist
+
+
+def seg_intersect(a, b, c, d):
+    """
+    Proper segment intersection test (including touching as intersect).
+    a,b,c,d: (2,) float vectors
+    """
+    def orient(p, q, r):
+        return float((q[0]-p[0])*(r[1]-p[1]) - (q[1]-p[1])*(r[0]-p[0]))
+
+    def on_segment(p, q, r):
+        # q on pr bounding box
+        return (min(p[0], r[0]) - 1e-6 <= q[0] <= max(p[0], r[0]) + 1e-6 and
+                min(p[1], r[1]) - 1e-6 <= q[1] <= max(p[1], r[1]) + 1e-6)
+
+    o1 = orient(a, b, c)
+    o2 = orient(a, b, d)
+    o3 = orient(c, d, a)
+    o4 = orient(c, d, b)
+
+    # general
+    if (o1 * o2 < 0.0) and (o3 * o4 < 0.0):
+        return True
+
+    # collinear/touching
+    if abs(o1) < 1e-6 and on_segment(a, c, b):
+        return True
+    if abs(o2) < 1e-6 and on_segment(a, d, b):
+        return True
+    if abs(o3) < 1e-6 and on_segment(c, a, d):
+        return True
+    if abs(o4) < 1e-6 and on_segment(c, b, d):
+        return True
+
+    return False
+
+
+def seg_intersection_point(a, b, c, d):
+    """
+    Intersection point for non-parallel lines (not strictly segments),
+    used only when seg_intersect() is true to compute a reasonable "push" point.
+    """
+    r = b - a
+    s = d - c
+    denom = float(r[0]*s[1] - r[1]*s[0])
+    if abs(denom) < 1e-8:
+        # fallback: midpoint of midpoints
+        return 0.5*(0.5*(a+b) + 0.5*(c+d))
+    t = float(((c[0]-a[0])*s[1] - (c[1]-a[1])*s[0]) / denom)
+    return a + r * t
+
+
+def perp(v):
+    return np.array([-v[1], v[0]], dtype=np.float32)
+
+
+# ----------------------------
+# Animated physical layout
+# ----------------------------
+class AnimatedLayout:
+    def __init__(self, nodes_ordered, W, H):
+        self.W = W
+        self.H = H
+        self.nodes = nodes_ordered
+        self.idx = {id(n): i for i, n in enumerate(self.nodes)}
+
+        self.parent_of = np.full(len(self.nodes), -1, dtype=np.int32)
+        for i, n in enumerate(self.nodes):
+            if n.parent is not None:
+                self.parent_of[i] = self.idx[id(n.parent)]
+
+        self.pos = np.zeros((len(self.nodes), 2), dtype=np.float32)
+        self.vel = np.zeros_like(self.pos)
+        self.active = np.zeros(len(self.nodes), dtype=bool)
+
+        # root at center
+        self.pos[0] = (W * 0.5, H * 0.5)
+
+        # ---- collision geometry (conservative) ----
+        self.node_r = 11.0
+        self.line_margin = 9.0
+        self.min_node_sep = self.node_r * 3.0
+        self.edge_clearance = self.node_r * 2.2  # keep edges away from each other
+
+        # ---- forces ----
+        self.target_edge = 90.0
+        self.k_spring = 0.055
+
+        self.k_repulse = 2.9
+        self.k_node_edge = 3.2
+        self.k_edge_edge = 2.4
+
+        self.k_damp = 0.82
+        self.k_bounds = 0.18
+
+        self.pad = 35.0
+
+        self._hash_cache = {}
+
+    def _hash01(self, s: str) -> float:
+        if s in self._hash_cache:
+            return self._hash_cache[s]
+        h = 2166136261
+        for ch in s:
+            h ^= ord(ch)
+            h = (h * 16777619) & 0xFFFFFFFF
+        v = h / 0xFFFFFFFF
+        self._hash_cache[s] = v
+        return v
+
+    def _active_indices(self):
+        return np.where(self.active)[0]
+
+    def _active_edges(self):
+        act = self.active
+        edges = []
+        for v in np.where(act)[0]:
+            u = self.parent_of[v]
+            if u >= 0 and act[u]:
+                edges.append((u, v))
+        return edges
+
+    def activate_next(self) -> bool:
+        for i in range(len(self.nodes)):
+            if not self.active[i]:
+                self.active[i] = True
+                if i == 0:
+                    self.vel[i] *= 0.0
+                    return True
+
+                p = self.parent_of[i]
+                parent_pos = self.pos[p].copy()
+                ang = (self._hash01(self.nodes[i].path) * 2.0 - 1.0) * math.pi
+                r0 = 32.0 + (10.0 if self.nodes[i].is_dir else 0.0)
+                self.pos[i] = parent_pos + np.array([math.cos(ang), math.sin(ang)], dtype=np.float32) * r0
+                self.vel[i] *= 0.0
+                return True
+        return False
+
+    def step(self, dt: float):
+        act_idx = self._active_indices()
+        if act_idx.size <= 1:
+            return
+
+        root = 0
+        self.vel[root] *= 0.0
+
+        force = np.zeros_like(self.pos)
+        edges = self._active_edges()
+
+        # ---- Springs ----
+        if edges:
+            u = np.array([e[0] for e in edges], dtype=np.int32)
+            v = np.array([e[1] for e in edges], dtype=np.int32)
+
+            pu = self.pos[u]
+            pv = self.pos[v]
+            d = pv - pu
+            dist = np.linalg.norm(d, axis=1) + 1e-6
+            dir_ = d / dist[:, None]
+
+            subtree = np.array([self.nodes[i].subtree_size for i in v], dtype=np.float32)
+            target = self.target_edge * (1.0 + 0.05 * np.sqrt(np.maximum(1.0, subtree)))
+
+            stretch = dist - target
+            f = (-self.k_spring * stretch)[:, None] * dir_
+
+            np.add.at(force, u, -f)
+            np.add.at(force, v, +f)
+
+        # ---- Node-node repulsion ----
+        min_sep = self.min_node_sep
+        for ii in range(len(act_idx)):
+            i = act_idx[ii]
+            pi = self.pos[i]
+            for jj in range(ii + 1, len(act_idx)):
+                j = act_idx[jj]
+                pj = self.pos[j]
+                dv = pi - pj
+                dist2 = float(dv[0]*dv[0] + dv[1]*dv[1])
+                if dist2 < 1e-10:
+                    dv = np.array([0.123, 0.456], dtype=np.float32)
+                    dist2 = float(dv[0]*dv[0] + dv[1]*dv[1])
+                dist = math.sqrt(dist2)
+                if dist >= min_sep:
+                    continue
+                overlap = (min_sep - dist)
+                dirv = dv / (dist + 1e-6)
+                fi = dirv * (self.k_repulse * overlap)
+                force[i] += fi
+                force[j] -= fi
+
+        # ---- Node-edge repulsion (nodes away from non-incident branches) ----
+        if edges:
+            eu = np.array([e[0] for e in edges], dtype=np.int32)
+            ev = np.array([e[1] for e in edges], dtype=np.int32)
+            A = self.pos[eu]
+            B = self.pos[ev]
+            safe = self.node_r + self.line_margin
+
+            for i in act_idx:
+                pi = self.pos[i]
+                for k in range(len(edges)):
+                    u = eu[k]
+                    v = ev[k]
+                    if i == u or i == v:
+                        continue
+                    dist, dirv = point_segment_distance_and_dir(pi, A[k], B[k])
+                    if dist >= safe:
+                        continue
+                    overlap = (safe - dist)
+                    force[i] += dirv * (self.k_node_edge * overlap)
+
+        # ---- Edge-edge avoidance (forces) ----
+        # 1) If edges cross -> push their endpoints away to uncross
+        # 2) If edges are too close (even without crossing) -> mild separation (midpoint repulsion)
+        if edges and len(edges) >= 2:
+            eu = [e[0] for e in edges]
+            ev = [e[1] for e in edges]
+            P = self.pos
+
+            clearance = self.edge_clearance
+
+            m = len(edges)
+            for i in range(m):
+                a_i = eu[i]; b_i = ev[i]
+                A1 = P[a_i]; B1 = P[b_i]
+                mid1 = 0.5 * (A1 + B1)
+                v1 = B1 - A1
+                n1 = perp(v1)
+                n1n = float(np.linalg.norm(n1)) + 1e-6
+                n1 = n1 / n1n
+
+                for j in range(i + 1, m):
+                    a_j = eu[j]; b_j = ev[j]
+                    # skip if share a node (incident edges)
+                    if a_i == a_j or a_i == b_j or b_i == a_j or b_i == b_j:
+                        continue
+
+                    A2 = P[a_j]; B2 = P[b_j]
+                    mid2 = 0.5 * (A2 + B2)
+
+                    # crossing?
+                    if seg_intersect(A1, B1, A2, B2):
+                        ip = seg_intersection_point(A1, B1, A2, B2)
+
+                        # push endpoints away from intersection along their edge normals
+                        v2 = B2 - A2
+                        n2 = perp(v2)
+                        n2n = float(np.linalg.norm(n2)) + 1e-6
+                        n2 = n2 / n2n
+
+                        # choose normal direction consistently: point away from other edge midpoint
+                        if float(np.dot(n1, (mid2 - ip))) > 0:
+                            n1 = -n1
+                        if float(np.dot(n2, (mid1 - ip))) > 0:
+                            n2 = -n2
+
+                        # apply forces to endpoints
+                        push = self.k_edge_edge * 1.8
+                        force[a_i] += n1 * push
+                        force[b_i] += n1 * push
+                        force[a_j] += n2 * push
+                        force[b_j] += n2 * push
+                        continue
+
+                    # not crossing: keep some distance between segments (cheap approximation)
+                    # measure midpoint-to-segment distances
+                    d12, dir12 = point_segment_distance_and_dir(mid1, A2, B2)
+                    d21, dir21 = point_segment_distance_and_dir(mid2, A1, B1)
+
+                    if d12 < clearance:
+                        force[a_i] += dir12 * (self.k_edge_edge * (clearance - d12) * 0.35)
+                        force[b_i] += dir12 * (self.k_edge_edge * (clearance - d12) * 0.35)
+                    if d21 < clearance:
+                        force[a_j] += dir21 * (self.k_edge_edge * (clearance - d21) * 0.35)
+                        force[b_j] += dir21 * (self.k_edge_edge * (clearance - d21) * 0.35)
+
+        # ---- Soft bounds ----
+        x = self.pos[:, 0]
+        y = self.pos[:, 1]
+
+        over = (self.pad - x)
+        mask = over > 0
+        force[mask, 0] += self.k_bounds * over[mask]
+
+        over = (x - (self.W - self.pad))
+        mask = over > 0
+        force[mask, 0] -= self.k_bounds * over[mask]
+
+        over = (self.pad - y)
+        mask = over > 0
+        force[mask, 1] += self.k_bounds * over[mask]
+
+        over = (y - (self.H - self.pad))
+        mask = over > 0
+        force[mask, 1] -= self.k_bounds * over[mask]
+
+        # ---- Integrate ----
+        self.vel[act_idx] += force[act_idx] * dt
+        self.vel[act_idx] *= self.k_damp
+        self.pos[act_idx] += self.vel[act_idx] * dt
+
+        # root anchored
+        self.vel[root] *= 0.0
+        self.pos[root] = self.pos[root]
+
+    def project_no_overlap(self, iterations: int = 10):
+        """
+        HARD node-node constraint: separate overlapping nodes.
+        """
+        act_idx = self._active_indices()
+        if act_idx.size <= 1:
+            return
+
+        root = 0
+        min_sep = self.min_node_sep
+
+        for _ in range(iterations):
+            moved = False
+            for ii in range(len(act_idx)):
+                i = act_idx[ii]
+                if i == root:
+                    continue
+                pi = self.pos[i]
+                for jj in range(ii + 1, len(act_idx)):
+                    j = act_idx[jj]
+                    if j == root:
+                        continue
+                    pj = self.pos[j]
+
+                    dv = pi - pj
+                    dist2 = float(dv[0]*dv[0] + dv[1]*dv[1])
+                    if dist2 < 1e-10:
+                        dv = np.array([0.123, 0.456], dtype=np.float32)
+                        dist2 = float(dv[0]*dv[0] + dv[1]*dv[1])
+
+                    dist = math.sqrt(dist2)
+                    if dist >= min_sep:
+                        continue
+
+                    overlap = (min_sep - dist)
+                    dirv = dv / (dist + 1e-6)
+                    push = 0.5 * overlap * dirv
+
+                    self.pos[i] += push
+                    self.pos[j] -= push
+                    moved = True
+
+            self.pos[root] = self.pos[root]
+            if not moved:
+                break
+
+    def project_uncross_edges(self, iterations: int = 6):
+        """
+        HARD edge-edge constraint: if edges intersect, directly move endpoints to uncross.
+        """
+        edges = self._active_edges()
+        if len(edges) < 2:
+            return
+
+        root = 0
+        P = self.pos
+
+        for _ in range(iterations):
+            changed = False
+            m = len(edges)
+            for i in range(m):
+                u1, v1 = edges[i]
+                A1 = P[u1]; B1 = P[v1]
+                mid1 = 0.5*(A1 + B1)
+                dir1 = B1 - A1
+                n1 = perp(dir1)
+                n1n = float(np.linalg.norm(n1)) + 1e-6
+                n1 = n1 / n1n
+
+                for j in range(i + 1, m):
+                    u2, v2 = edges[j]
+                    if u1 == u2 or u1 == v2 or v1 == u2 or v1 == v2:
+                        continue
+
+                    A2 = P[u2]; B2 = P[v2]
+                    mid2 = 0.5*(A2 + B2)
+
+                    if not seg_intersect(A1, B1, A2, B2):
+                        continue
+
+                    ip = seg_intersection_point(A1, B1, A2, B2)
+
+                    dir2 = B2 - A2
+                    n2 = perp(dir2)
+                    n2n = float(np.linalg.norm(n2)) + 1e-6
+                    n2 = n2 / n2n
+
+                    # choose normals away from the other edge midpoint
+                    if float(np.dot(n1, (mid2 - ip))) > 0:
+                        n1 = -n1
+                    if float(np.dot(n2, (mid1 - ip))) > 0:
+                        n2 = -n2
+
+                    step = self.edge_clearance * 0.35
+
+                    # move endpoints (skip moving root)
+                    if u1 != root:
+                        P[u1] += n1 * step
+                    if v1 != root:
+                        P[v1] += n1 * step
+                    if u2 != root:
+                        P[u2] += n2 * step
+                    if v2 != root:
+                        P[v2] += n2 * step
+
+                    changed = True
+
+            P[root] = P[root]
+            if not changed:
+                break
+
+    def render(self):
+        frame = np.full((self.H, self.W, 3), 255, dtype=np.uint8)
+
+        COL_LINE = (185, 185, 185)
+        COL_DIR = (60, 120, 60)
+        COL_FILE = (120, 60, 60)
+        COL_ROOT = (70, 70, 160)
+
+        edges = self._active_edges()
+
+        for u, v in edges:
+            x1, y1 = self.pos[u]
+            x2, y2 = self.pos[v]
+            cv2.line(frame, (int(x1), int(y1)), (int(x2), int(y2)), COL_LINE, 1, cv2.LINE_AA)
+
+        act_idx = self._active_indices()
+        for i in act_idx:
+            n = self.nodes[i]
+            x, y = int(self.pos[i, 0]), int(self.pos[i, 1])
+
+            if i == 0:
+                color = COL_ROOT
+                radius = 12
+                thickness = 2
+            else:
+                color = COL_DIR if n.is_dir else COL_FILE
+                radius = 9 if n.is_dir else 7
+                thickness = 2 if n.is_dir else 1
+
+            cv2.circle(frame, (x, y), radius, color, thickness, cv2.LINE_AA)
+
+        cv2.putText(
+            frame,
+            f"nodes: {int(self.active.sum())}/{len(self.nodes)}  (q/ESC to quit)",
+            (12, self.H - 18),
+            cv2.FONT_HERSHEY_SIMPLEX,
+            0.6,
+            (20, 20, 20),
+            1,
+            cv2.LINE_AA
+        )
+
+        return frame
+
+
+# ----------------------------
+# Main
+# ----------------------------
+def main():
+    if len(sys.argv) != 2:
+        print(f"Usage: {sys.argv[0]} <folder>")
+        sys.exit(1)
+
+    root_path = sys.argv[1]
+    if not os.path.isdir(root_path):
+        print("Error: path is not a directory")
+        sys.exit(1)
+
+    W, H = 1280, 720
+
+    # Performance guardrails (edge-edge is O(m^2), node-node is O(n^2))
+    MAX_NODES = 650
+    MAX_DEPTH = None  # e.g. 10
+
+    root = build_tree(root_path, max_nodes=MAX_NODES, max_depth=MAX_DEPTH)
+    compute_subtree_sizes(root)
+    ordered = preorder_list(root)
+
+    layout = AnimatedLayout(ordered, W, H)
+    layout.activate_next()  # root
+
+    add_interval = 0.1
+    last_add = time.time()
+
+    win = "Tree Viewer (physical collisions)"
+    cv2.namedWindow(win, cv2.WINDOW_AUTOSIZE)
+
+    prev = time.time()
+    while True:
+        now = time.time()
+        dt = now - prev
+        prev = now
+        if dt > 0.05:
+            dt = 0.05
+
+        if (now - last_add) >= add_interval:
+            layout.activate_next()
+            last_add = now
+
+        # More substeps => smoother, better collision handling
+        substeps = 7
+        subdt = dt / substeps
+        for _ in range(substeps):
+            layout.step(subdt)
+
+        # Hard constraints:
+        layout.project_no_overlap(iterations=10)
+        layout.project_uncross_edges(iterations=6)
+
+        frame = layout.render()
+        cv2.imshow(win, frame)
+
+        key = cv2.waitKey(16) & 0xFF
+        if key in (27, ord("q")):
+            break
+
+    cv2.destroyAllWindows()
+
+
+if __name__ == "__main__":
+    main()
+```
+
+### mapa cronologico
+<small>Creado: 2026-01-20 23:55</small>
+
+`005-mapa cronologico.py`
+
+```python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+Filesystem Tree Timeline Viewer (OpenCV) — radial botanical tree + chronological reveal.
+"""
+
+import os
+import sys
+import math
+import time
+import heapq
+import cv2
+import numpy as np
+from datetime import datetime
+
+# ----------------------------
+# Tree model
+# ----------------------------
+class Node:
+    __slots__ = ("name", "path", "is_dir", "children", "parent", "depth",
+                 "t", "leaf_count", "angle", "x", "y")
+
+    def __init__(self, name, path, is_dir, t):
+        self.name = name
+        self.path = path
+        self.is_dir = is_dir
+        self.children = []
+        self.parent = None
+        self.depth = 0
+        self.t = float(t)
+        self.leaf_count = 1
+        self.angle = 0.0
+        self.x = 0.0
+        self.y = 0.0
+
+def get_best_time(path: str) -> float:
+    st = os.stat(path, follow_symlinks=False)
+    bt = getattr(st, "st_birthtime", None)
+    if bt is not None:
+        return float(bt)
+    return float(st.st_mtime)
+
+def build_tree(root_path: str, max_nodes: int = 1500, max_depth: int | None = None) -> Node:
+    root_path = os.path.abspath(root_path)
+    root = Node(os.path.basename(root_path) or root_path, root_path, True, get_best_time(root_path))
+    node_count = 1
+
+    def _build(parent: Node, depth: int):
+        nonlocal node_count
+        if max_depth is not None and depth >= max_depth:
+            return
+        try:
+            entries = sorted(os.listdir(parent.path))
+        except (PermissionError, FileNotFoundError):
+            return
+
+        for e in entries:
+            if node_count >= max_nodes:
+                return
+            full = os.path.join(parent.path, e)
+            try:
+                is_dir = os.path.isdir(full)
+                t = get_best_time(full)
+            except (PermissionError, FileNotFoundError):
+                continue
+
+            child = Node(e, full, is_dir, t)
+            child.parent = parent
+            parent.children.append(child)
+            node_count += 1
+            if is_dir:
+                _build(child, depth + 1)
+
+    _build(root, 0)
+    return root
+
+def assign_depths(root: Node):
+    stack = [(root, 0)]
+    while stack:
+        n, d = stack.pop()
+        n.depth = d
+        for c in n.children:
+            stack.append((c, d + 1))
+
+def compute_leaf_counts(root: Node):
+    order = []
+    stack = [root]
+    while stack:
+        n = stack.pop()
+        order.append(n)
+        for c in n.children:
+            stack.append(c)
+
+    for n in reversed(order):
+        if not n.children:
+            n.leaf_count = 1
+        else:
+            n.leaf_count = sum(max(1, c.leaf_count) for c in n.children)
+
+def collect_nodes(root: Node):
+    out = []
+    stack = [root]
+    while stack:
+        n = stack.pop()
+        out.append(n)
+        for c in n.children:
+            stack.append(c)
+    return out
+
+# ----------------------------
+# Radial botanical tree layout
+# ----------------------------
+def compute_radial_tree_layout(root: Node, center_x: float, center_y: float):
+    """Layout nodes as a radial tree growing outward in 360 degrees from center."""
+    
+    def compute_positions(node: Node, x: float, y: float, base_angle: float, spread: float):
+        node.x = x
+        node.y = y
+        
+        if not node.children:
+            return
+        
+        # Sort children by timestamp
+        kids = sorted(node.children, key=lambda k: (k.t, k.path))
+        n_kids = len(kids)
+        
+        # Branch length decreases with depth
+        branch_len = 80 - (node.depth * 8)
+        branch_len = max(30, branch_len)
+        
+        # Calculate angular spread for branches
+        total_spread = spread * 0.8  # Each level narrows the spread
+        
+        if n_kids == 1:
+            # Single child continues in same direction
+            child_angle = base_angle
+            child_x = x + branch_len * math.cos(child_angle)
+            child_y = y + branch_len * math.sin(child_angle)
+            compute_positions(kids[0], child_x, child_y, child_angle, total_spread)
+        else:
+            # Multiple children spread out
+            start_angle = base_angle - total_spread / 2
+            angle_step = total_spread / (n_kids - 1) if n_kids > 1 else 0
+            
+            for i, kid in enumerate(kids):
+                child_angle = start_angle + i * angle_step
+                child_x = x + branch_len * math.cos(child_angle)
+                child_y = y + branch_len * math.sin(child_angle)
+                compute_positions(kid, child_x, child_y, child_angle, total_spread)
+    
+    # Root is at center
+    root.x = center_x
+    root.y = center_y
+    
+    if not root.children:
+        return
+    
+    # Distribute root's children evenly around 360 degrees
+    kids = sorted(root.children, key=lambda k: (k.t, k.path))
+    n_kids = len(kids)
+    
+    for i, kid in enumerate(kids):
+        # Each main branch gets an equal slice of 360 degrees
+        base_angle = (2 * math.pi * i / n_kids) - math.pi / 2  # Start from top
+        
+        # Initial branch length from root
+        branch_len = 80
+        child_x = center_x + branch_len * math.cos(base_angle)
+        child_y = center_y + branch_len * math.sin(base_angle)
+        
+        # Each main branch gets a wedge to spread into
+        angular_spread = (2 * math.pi / n_kids) * 0.7  # 70% of available space
+        
+        compute_positions(kid, child_x, child_y, base_angle, angular_spread)
+
+# ----------------------------
+# Chronological reveal
+# ----------------------------
+class ChronoRevealer:
+    def __init__(self, root: Node, idx_of):
+        self.idx_of = idx_of
+        self.heap = []
+        self._push_children(root)
+
+    def _push_children(self, node: Node):
+        kids = sorted(node.children, key=lambda k: (k.t, k.path))
+        for k in kids:
+            heapq.heappush(self.heap, (k.t, k.path, self.idx_of[id(k)]))
+
+    def next_index(self, active_mask):
+        while self.heap:
+            _, _, i = heapq.heappop(self.heap)
+            if not active_mask[i]:
+                return i
+        return None
+
+    def on_activated(self, node: Node):
+        self._push_children(node)
+
+# ----------------------------
+# Viewer
+# ----------------------------
+class Viewer:
+    def __init__(self, nodes, root_index, idx_map, W, H):
+        self.nodes = nodes
+        self.root = root_index
+        self.idx_map = idx_map
+        self.W, self.H = W, H
+        self.active = np.zeros(len(nodes), dtype=bool)
+
+        self.parent = np.full(len(nodes), -1, dtype=np.int32)
+        for i, n in enumerate(nodes):
+            if n.parent is not None:
+                self.parent[i] = idx_map[id(n.parent)]
+
+        self.recent = []
+        self.recent_ttl = 1.5
+
+    def activate(self, i: int, now: float):
+        if self.active[i]:
+            return
+        self.active[i] = True
+        self.recent.append((now, i))
+
+    def _prune_recent(self, now):
+        self.recent = [(t, i) for (t, i) in self.recent if (now - t) <= self.recent_ttl]
+
+    def draw_branch(self, frame, x1, y1, x2, y2, thickness):
+        """Draw a curved branch using bezier-like curve."""
+        # Control point for curve (perpendicular offset for natural curve)
+        mid_x = (x1 + x2) / 2
+        mid_y = (y1 + y2) / 2
+        
+        # Direction vector
+        dx = x2 - x1
+        dy = y2 - y1
+        length = math.sqrt(dx*dx + dy*dy)
+        
+        if length < 1:
+            cv2.line(frame, (int(x1), int(y1)), (int(x2), int(y2)), 
+                    (101, 67, 33), thickness, cv2.LINE_AA)
+            return
+        
+        # Perpendicular offset for curve
+        perp_x = -dy / length
+        perp_y = dx / length
+        
+        # Control point offset (creates gentle curve)
+        offset = length * 0.15
+        ctrl_x = mid_x + perp_x * offset
+        ctrl_y = mid_y + perp_y * offset
+        
+        # Draw quadratic bezier curve as multiple line segments
+        points = []
+        steps = 20
+        for i in range(steps + 1):
+            t = i / steps
+            # Quadratic bezier
+            bx = (1-t)**2 * x1 + 2*(1-t)*t * ctrl_x + t**2 * x2
+            by = (1-t)**2 * y1 + 2*(1-t)*t * ctrl_y + t**2 * y2
+            points.append((int(bx), int(by)))
+        
+        # Draw the curve
+        for i in range(len(points) - 1):
+            cv2.line(frame, points[i], points[i+1], (101, 67, 33), thickness, cv2.LINE_AA)
+
+    def render(self, now: float, global_min_t: float, global_max_t: float, current_t: float | None):
+        # Soft gradient background
+        frame = np.full((self.H, self.W, 3), (250, 235, 215), dtype=np.uint8)
+
+        # Get active nodes
+        act_idx = np.where(self.active)[0]
+        
+        # Draw branches first (parent to child)
+        for i in act_idx:
+            if i == self.root:
+                continue
+            parent_idx = self.parent[i]
+            if parent_idx >= 0 and self.active[parent_idx]:
+                parent = self.nodes[parent_idx]
+                child = self.nodes[i]
+                
+                # Branch thickness decreases with depth
+                thickness = max(1, 7 - child.depth)
+                self.draw_branch(frame, parent.x, parent.y, child.x, child.y, thickness)
+
+        # Draw nodes as leaves or branch points
+        for i in act_idx:
+            node = self.nodes[i]
+            x, y = int(node.x), int(node.y)
+            
+            if i == self.root:
+                # Root - draw as trunk center
+                cv2.circle(frame, (x, y), 12, (101, 67, 33), -1, cv2.LINE_AA)
+                cv2.circle(frame, (x, y), 12, (80, 50, 20), 2, cv2.LINE_AA)
+            elif not node.children or not any(self.active[self.idx_map[id(c)]] for c in node.children):
+                # Leaf node - draw as a leaf
+                if node.is_dir:
+                    color = (34, 139, 34)  # Forest green for directories
+                else:
+                    color = (50, 205, 50)  # Lime green for files
+                cv2.circle(frame, (x, y), 8, color, -1, cv2.LINE_AA)
+                cv2.circle(frame, (x, y), 8, (255, 255, 255), 1, cv2.LINE_AA)
+            else:
+                # Branch point - smaller brown circle
+                cv2.circle(frame, (x, y), 4, (101, 67, 33), -1, cv2.LINE_AA)
+
+        # Labels for recent nodes
+        self._prune_recent(now)
+        for _, i in self.recent[-15:]:  # Only last 15 labels
+            if i == self.root:
+                continue
+            node = self.nodes[i]
+            x, y = int(node.x), int(node.y)
+            name = node.name[:20]  # Truncate long names
+            
+            # Calculate text position to avoid center overlap
+            angle = math.atan2(y - self.H/2, x - self.W/2)
+            offset_x = 12 if x > self.W/2 else -12 - len(name) * 5
+            offset_y = -8
+            
+            # Draw text with background
+            text_size = cv2.getTextSize(name, cv2.FONT_HERSHEY_SIMPLEX, 0.4, 1)[0]
+            bg_x1 = x + offset_x - 2
+            bg_y1 = y + offset_y - text_size[1] - 2
+            bg_x2 = x + offset_x + text_size[0] + 2
+            bg_y2 = y + offset_y + 4
+            
+            cv2.rectangle(frame, (int(bg_x1), int(bg_y1)), (int(bg_x2), int(bg_y2)), 
+                         (255, 255, 255), -1)
+            cv2.putText(frame, name, (x + offset_x, y + offset_y),
+                       cv2.FONT_HERSHEY_SIMPLEX, 0.4, (40, 40, 40), 1, cv2.LINE_AA)
+
+        # Info overlay
+        def fmt(ts):
+            return datetime.fromtimestamp(ts).strftime("%Y-%m-%d %H:%M:%S")
+
+        range_txt = f"Range: {fmt(global_min_t)}  →  {fmt(global_max_t)}"
+        cur_txt = "Current: -" if current_t is None else f"Current: {fmt(current_t)}"
+
+        # Semi-transparent background for text
+        overlay = frame.copy()
+        cv2.rectangle(overlay, (5, 5), (650, 80), (255, 255, 255), -1)
+        cv2.addWeighted(overlay, 0.7, frame, 0.3, 0, frame)
+
+        cv2.putText(frame, cur_txt, (12, 26),
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.6, (20, 20, 20), 1, cv2.LINE_AA)
+        cv2.putText(frame, range_txt, (12, 52),
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.5, (80, 80, 80), 1, cv2.LINE_AA)
+        cv2.putText(frame, f"nodes: {int(self.active.sum())}/{len(self.nodes)}   (q/ESC to quit)",
+                    (12, self.H - 18), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (20, 20, 20), 1, cv2.LINE_AA)
+
+        return frame
+
+# ----------------------------
+# Main
+# ----------------------------
+def main():
+    if len(sys.argv) != 2:
+        print(f"Usage: {sys.argv[0]} <folder>")
+        sys.exit(1)
+
+    root_path = sys.argv[1]
+    if not os.path.isdir(root_path):
+        print("Error: path is not a directory")
+        sys.exit(1)
+
+    W, H = 1280, 720
+
+    MAX_NODES = 1400
+    MAX_DEPTH = None
+
+    root = build_tree(root_path, max_nodes=MAX_NODES, max_depth=MAX_DEPTH)
+    assign_depths(root)
+    compute_leaf_counts(root)
+    nodes = collect_nodes(root)
+
+    if not nodes:
+        print("No nodes found.")
+        sys.exit(0)
+
+    # Global time range
+    all_t = [n.t for n in nodes]
+    global_min_t = min(all_t)
+    global_max_t = max(all_t)
+
+    # Index mapping
+    idx_map = {id(n): i for i, n in enumerate(nodes)}
+    root_index = idx_map[id(root)]
+
+    # Compute radial tree layout from center
+    center_x = W * 0.5
+    center_y = H * 0.5
+    compute_radial_tree_layout(root, center_x, center_y)
+
+    # Viewer
+    viewer = Viewer(nodes, root_index, idx_map, W, H)
+
+    # Activate root
+    now = time.time()
+    viewer.activate(root_index, now)
+
+    # Chronological revealer
+    revealer = ChronoRevealer(root, idx_map)
+
+    # Add one node every 0.1 seconds
+    add_interval = 0.1
+    last_add = time.time()
+    last_added_time = None
+
+    win = "Radial Tree Timeline Viewer"
+    cv2.namedWindow(win, cv2.WINDOW_AUTOSIZE)
+
+    prev = time.time()
+    while True:
+        now = time.time()
+        dt = now - prev
+        prev = now
+
+        if (now - last_add) >= add_interval:
+            nxt = revealer.next_index(viewer.active)
+            if nxt is not None:
+                viewer.activate(nxt, now)
+                revealer.on_activated(nodes[nxt])
+                last_added_time = nodes[nxt].t
+            last_add = now
+
+        frame = viewer.render(now, global_min_t, global_max_t, last_added_time)
+        cv2.imshow(win, frame)
+
+        key = cv2.waitKey(16) & 0xFF
+        if key in (27, ord("q")):
+            break
+
+    cv2.destroyAllWindows()
+
+if __name__ == "__main__":
+    main()
+```
+
 
 <a id="numeracion-de-lineas-recuentos-y-totales"></a>
 ## Numeración de líneas, recuentos y totales
@@ -40469,7 +42351,7 @@ Feel free to ask if you need more detailed guidance on any part! 🚀
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/005-Creaci%C3%B3n%20de%20informes/005-Numeraci%C3%B3n%20de%20l%C3%ADneas%2C%20recuentos%20y%20totales)
 
 ### generador
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `001-generador.py`
 
@@ -40944,7 +42826,7 @@ if __name__ == "__main__":
 ```
 
 ### antialias
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `002-antialias.py`
 
@@ -41195,7 +43077,7 @@ if __name__ == "__main__":
 ```
 
 ### codigo
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `codigo.py`
 
@@ -41236,7 +43118,7 @@ diHola("Juan",48)
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/006-Documentaci%C3%B3n%20de%20aplicaciones/001-Ficheros%20de%20ayuda.%20Formatos)
 
 ### generador articulos por carpeta
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `001-generador articulos por carpeta.py`
 
@@ -41290,7 +43172,7 @@ import apuntes  # noqa
 # ============================================================
 # CONFIG
 # ============================================================
-API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php"
+API_URL = "https://covalently-untasked-d****.ngrok-free.dev/api.php"
 API_KEY = "TEST_API_KEY_JOCARSA_123"  # <-- pon tu clave real
 
 # Raíces a procesar (puedes añadir varias)
@@ -41985,7 +43867,7 @@ if __name__ == "__main__":
 ```
 
 ### mejora keywords
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `002-mejora keywords.py`
 
@@ -42039,7 +43921,7 @@ import apuntes  # noqa
 # ============================================================
 # CONFIG
 # ============================================================
-API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php"
+API_URL = "https://covalently-untasked-d****.ngrok-free.dev/api.php"
 API_KEY = "TEST_API_KEY_JOCARSA_123"  # <-- pon tu clave real
 
 # Raíces a procesar (puedes añadir varias)
@@ -42777,7 +44659,7 @@ if __name__ == "__main__":
 ```
 
 ### imagen nombres unicos
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `003-imagen nombres unicos.py`
 
@@ -42832,7 +44714,7 @@ import apuntes  # noqa
 # ============================================================
 # CONFIG
 # ============================================================
-API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php"
+API_URL = "https://covalently-untasked-d****.ngrok-free.dev/api.php"
 API_KEY = "TEST_API_KEY_JOCARSA_123"  # <-- pon tu clave real
 
 # Raíces a procesar (puedes añadir varias)
@@ -43601,7 +45483,7 @@ if __name__ == "__main__":
 ```
 
 ### no reprocesar existentes
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `004-no reprocesar existentes.py`
 
@@ -43657,7 +45539,7 @@ import apuntes  # noqa
 # ============================================================
 # CONFIG
 # ============================================================
-API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php"
+API_URL = "https://covalently-untasked-d****.ngrok-free.dev/api.php"
 API_KEY = "TEST_API_KEY_JOCARSA_123"  # <-- pon tu clave real
 
 # Raíces a procesar (puedes añadir varias)
@@ -44468,7 +46350,7 @@ if __name__ == "__main__":
 ```
 
 ### carpetas completas
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `005-carpetas completas.py`
 
@@ -44524,7 +46406,7 @@ import apuntes  # noqa
 # ============================================================
 # CONFIG
 # ============================================================
-API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php"
+API_URL = "https://covalently-untasked-d****.ngrok-free.dev/api.php"
 API_KEY = "TEST_API_KEY_JOCARSA_123"  # <-- pon tu clave real
 
 # Raíces a procesar (puedes añadir varias)
@@ -45335,7 +47217,7 @@ if __name__ == "__main__":
 ```
 
 ### archivos individuales
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `006-archivos individuales.py`
 
@@ -45400,7 +47282,7 @@ import apuntes  # noqa
 # ============================================================
 # CONFIG
 # ============================================================
-API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php"
+API_URL = "https://covalently-untasked-d****.ngrok-free.dev/api.php"
 API_KEY = "TEST_API_KEY_JOCARSA_123"  # <-- pon tu clave real
 
 ROOT_DIRS: list[Path] = [
@@ -46010,7 +47892,7 @@ if __name__ == "__main__":
 ```
 
 ### apuntes
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `apuntes.py`
 
@@ -46202,7 +48084,7 @@ if (require.main === module) {
 El código proporciona una interfaz web básica para interactuar con el sistema de archivos. Es funcional y bien estructurado, pero requiere consideraciones adicionales en términos de seguridad, especialmente si se va a usar en un entorno donde los usuarios pueden tener acceso no supervisado al servidor.
 
 ### config
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -46224,7 +48106,7 @@ Este archivo JSON es útil para personalizar y mantener configuraciones específ
 ```
 
 ### electron-main
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -46311,7 +48193,7 @@ app.on("window-all-closed", () => {
 ```
 
 ### package-lock
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -50661,7 +52543,7 @@ Would you like to perform any specific action with this information, such as ver
 ```
 
 ### package
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -50728,7 +52610,7 @@ Este archivo es crucial porque proporciona una estructura clara del proyecto, fa
 ```
 
 ### server
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -51216,7 +53098,7 @@ Tu código ya es muy funcional y bien estructurado. Añadir estas mejoras ayudar
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/008-Realizaci%C3%B3n%20de%20pruebas/001-Objetivo%2C%20importancia%20y%20limitaciones%20del%20proceso%20de%20prueba)
 
 ### demo de playwright
-<small>Creado: 2026-01-12 18:09</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `001-demo de playwright.py`
 
@@ -51237,7 +53119,7 @@ with sync_playwright() as p:
 ```
 
 ### play2
-<small>Creado: 2026-01-12 18:15</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `002-play2.py`
 
@@ -51258,7 +53140,7 @@ with sync_playwright() as p:
 ```
 
 ### play con fecha
-<small>Creado: 2026-01-12 18:17</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `003-play con fecha.py`
 
@@ -51284,7 +53166,7 @@ with sync_playwright() as p:
 ```
 
 ### guardamos en carpeta
-<small>Creado: 2026-01-12 18:17</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `004-guardamos en carpeta.py`
 
@@ -51314,7 +53196,7 @@ with sync_playwright() as p:
 ```
 
 ### y repetir
-<small>Creado: 2026-01-12 20:04</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `005-y repetir.py`
 
@@ -51350,7 +53232,7 @@ with sync_playwright() as p:
 ```
 
 ### index1
-<small>Creado: 2026-01-12 18:12</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `index1.html`
 
@@ -51370,7 +53252,7 @@ with sync_playwright() as p:
 ```
 
 ### index2
-<small>Creado: 2026-01-12 18:15</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `index2.html`
 
@@ -51402,7 +53284,7 @@ with sync_playwright() as p:
 ```
 
 ### index3
-<small>Creado: 2026-01-12 19:43</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `index3.html`
 
@@ -51441,7 +53323,7 @@ with sync_playwright() as p:
 ```
 
 ### index4
-<small>Creado: 2026-01-12 20:04</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `index4.html`
 
@@ -51589,3 +53471,31 @@ Basándome en la ubicación y nombre de la carpeta, parece que los ejercicios es
    - Se espera que aprendan a integrar y utilizar bibliotecas externas para mejorar la eficiencia del desarrollo web.
 
 Estas actividades están diseñadas para ayudar a los estudiantes a adquirir experiencia práctica con tecnologías HTML, CSS y JavaScript, además de familiarizarse con conceptos clave como el diseño responsivo y las interacciones básicas con servidores y bases de datos.
+
+
+
+<a id="actividades-final-de-unidad-segundo-trimestre"></a>
+# Actividades final de unidad - Segundo trimestre
+
+<a id="creacion-de-una-libreria-de-interfaces-graficas-personalizada"></a>
+## Creación de una librería de interfaces gráficas personalizada
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/301-Actividades%20final%20de%20unidad%20-%20Segundo%20trimestre/001-Creaci%C3%B3n%20de%20una%20librer%C3%ADa%20de%20interfaces%20gr%C3%A1ficas%20personalizada)
+
+
+<a id="proyecto-de-reconocimiento-de-voz-y-camara"></a>
+## Proyecto de reconocimiento de voz y camara
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/301-Actividades%20final%20de%20unidad%20-%20Segundo%20trimestre/002-Proyecto%20de%20reconocimiento%20de%20voz%20y%20camara)
+
+
+<a id="proyecto-memento"></a>
+## Proyecto Memento
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/301-Actividades%20final%20de%20unidad%20-%20Segundo%20trimestre/003-Proyecto%20Memento)
+
+
+<a id="actividad-de-graficas"></a>
+## Actividad de gráficas
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/301-Actividades%20final%20de%20unidad%20-%20Segundo%20trimestre/004-Actividad%20de%20gr%C3%A1ficas)

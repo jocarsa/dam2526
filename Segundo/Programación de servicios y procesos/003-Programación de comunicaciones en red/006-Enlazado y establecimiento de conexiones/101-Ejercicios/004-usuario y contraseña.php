@@ -1,7 +1,7 @@
 <?php
 
 // Remote API (your ngrok endpoint pointing to api.php)
-$url = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+$url = "https://covalently-untasked-d****.ngrok-free.dev/api.php";
 
 // Credentials must match $VALID_USER / $VALID_PASS in api.php
 $user = 'myuser';        // same as in api.php

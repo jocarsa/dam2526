@@ -1,6 +1,6 @@
 # Lenguajes de marcas y sistemas de gestión de información — Estado de ejercicios
 
-Generado: 2026-01-16 09:00
+Generado: 2026-02-08 14:00
 
 ---
 
@@ -76,10 +76,10 @@ Generado: 2026-01-16 09:00
 - 🟢 Aplicaciones de gestión empresarial. Tipos. Características — 2026-01-08
 - 🟢 Instalación — 2026-01-12
 - 🟢 Administración y configuración — 2026-01-15
-- 🔴 Integración de módulos
-- 🔴 Mecanismos de acceso seguro a la información. Roles y privilegios
-- 🔴 Elaboración de informes
-- 🔴 Exportación de información
+- 🟢 Integración de módulos — 2026-01-19
+- 🟢 Mecanismos de acceso seguro a la información. Roles y privilegios — 2026-01-22
+- 🟢 Elaboración de informes — 2026-01-26
+- 🟢 Exportación de información — 2026-02-02
 - 🔴 Elaboración de documentación
 
 
@@ -91,6 +91,14 @@ Generado: 2026-01-16 09:00
 ## Actividad libre de final de evaluación - La milla extra
 
 - 🟢 La Milla Extra - Primera evaluación — 2025-10-13
+
+
+## Actividades de final de unidad segundo trimestre
+
+- 🟢 Formateo y envío de emails — 2025-10-13
+- 🟢 Web curso IA — 2025-10-13
+- 🟢 Tienda de juguetes — 2025-10-13
+- 🟢 Web logos (Multiidioma) — 2025-10-13
 
 
 ## Carpeta sin título

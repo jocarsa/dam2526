@@ -1,6 +1,6 @@
 # Proyecto Intermodular II — Estado de ejercicios
 
-Generado: 2026-01-16 09:00
+Generado: 2026-02-08 14:00
 
 ---
 
@@ -77,8 +77,16 @@ _Sin subunidades_
 - 🔴 descripciones con IA
 - 🟢 Agente IA — 2025-12-22 — Chatbot implantable en cualquier web
 - 🟢 Conceptos tratados en clase IA — 2026-01-12
+- 🔴 IA a partir de PDF
 
 
 ## Actividad libre de final de evaluación - La milla extra
 
 - 🟢 La Milla Extra - Primera evaluación — 2025-10-13
+
+
+## Actividades final de unidad - Segundo trimestre
+
+- 🟢 Entrenamiento de IA personalizada — 2025-10-13
+- 🟢 IA generativa — 2025-10-13
+- 🟢 Agente IA — 2025-10-13

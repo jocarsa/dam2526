@@ -32,7 +32,7 @@ define('DS_FRONT_PATH', DS_BASE_PATH . '/front');
 define('DS_DB_HOST', 'localhost');
 define('DS_DB_NAME', 'darksalmon');
 define('DS_DB_USER', 'darksalmon');
-define('DS_DB_PASS', 'Lielolilo123$'); // Note: Replace with secure storage in production
+define('DS_DB_PASS', '******'); // Note: Replace with secure storage in production
 define('DS_DB_CHAR', 'utf8mb4');
 
 function ds_pdo(): PDO {
@@ -83,7 +83,7 @@ function ds_pdo(): PDO {
 <?php
 $host = 'localhost';
 $user = 'darksalmon';
-$pass = 'Lielolilo123$'; // Note: Replace with secure storage in production
+$pass = '******'; // Note: Replace with secure storage in production
 $dbName = 'darksalmon1';
 $nombre = "darksalmon";
 $color = "darksalmon";

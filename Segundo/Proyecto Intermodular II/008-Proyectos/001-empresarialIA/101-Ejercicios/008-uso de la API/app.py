@@ -19,7 +19,7 @@ MYSQL_CONFIG = {
 }
 
 # --- Remote AI API (PHP wrapper) ---
-AI_API_URL = os.environ.get("AI_API_URL", "https://covalently-untasked-daphne.ngrok-free.dev/api.php")
+AI_API_URL = os.environ.get("AI_API_URL", "https://covalently-untasked-d****.ngrok-free.dev/api.php")
 AI_API_KEY = os.environ.get("AI_API_KEY", "TEST_API_KEY_JOCARSA_123")
 AI_API_VERIFY_SSL = os.environ.get("AI_API_VERIFY_SSL", "false").lower() in ("1", "true", "yes", "y")
 

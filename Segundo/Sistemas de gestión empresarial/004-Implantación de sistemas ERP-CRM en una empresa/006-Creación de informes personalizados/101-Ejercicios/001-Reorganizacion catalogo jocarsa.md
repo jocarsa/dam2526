@@ -150,4 +150,17 @@ slateblue - creador automatico de apuntes
 slategray - gestor de videos online
 
 
-
+﻿Grupo de Software,Color Hex,Nombre del Color,Significado Clave
+Marketing - CRM,#FF4081,Marketing Pink,Innovación, atracción
+Gestión - ERP,#2E86C1,ERP Blue,Confianza, profesionalismo
+Educación,#27AE60,Education Green,Crecimiento, aprendizaje
+Formación - LMS,#F39C12,LMS Orange,Energía, motivación
+Oficina,#3498DB,Office Blue,Productividad, claridad
+RRHH,#E74C3C,HR Red,Conexión humana, pasión
+Inteligencia - IA,#9B59B6,AI Purple,Futurismo, innovación
+Empresa - Facturación,#1ABC9C,Finance Teal,Transparencia, control
+Proyectos,#E67E22,Project Orange,Dinamismo, acción
+Interactivo - CMS,#95A5A6,CMS Gray-Blue,Versatilidad, modernidad
+Juegos,#E91E63,Gaming Pink,Diversión, disruptividad
+Infraestructura,#7F8C8D,Infrastructure Gray,Solidez, técnica
+Base - Utilitarias,#BDC3C7,Utility Light Gray,Funcionalidad, discreción

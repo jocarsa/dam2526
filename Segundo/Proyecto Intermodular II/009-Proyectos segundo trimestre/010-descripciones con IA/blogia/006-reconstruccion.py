@@ -42,7 +42,7 @@ OUTPUT_ROOT: str = (
 LIGHTGOLDENRODYELLOW: str = "/var/www/html/jocarsa-lightgoldenrodyellow/lightgoldenrodyellow.py"
 
 # API Configuration
-API_URL: str = "https://covalently-untasked-daphne.ngrok-free.dev/api.php"
+API_URL: str = "https://covalently-untasked-d****.ngrok-free.dev/api.php"
 API_KEY: str = "TEST_API_KEY_JOCARSA_123"
 VERIFY_SSL: bool = False
 REMOTE_MODEL: str = "qwen2.5:7b-instruct-q4_0"

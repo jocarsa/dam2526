@@ -1,6 +1,6 @@
 # Sistemas informáticos — Estado de ejercicios
 
-Generado: 2026-01-16 09:00
+Generado: 2026-02-08 14:00
 
 ---
 
@@ -68,7 +68,7 @@ Generado: 2026-01-16 09:00
 
 - 🟢 Configuración del protocolo TCPIP en un cliente de red. Direcciones IP — 2025-12-01
 - 🟢 Ficheros de configuración de red — 2026-01-12
-- 🔴 Gestión de puertos
+- 🟢 Gestión de puertos — 2026-01-19
 - 🔴 Resolución de problemas de conectividad en sistemas operativos en red. Herramientas de diagnóstico
 - 🔴 Monitorización de redes
 - 🔴 Protocolos TCPIP
@@ -109,3 +109,11 @@ Generado: 2026-01-16 09:00
 ## Actividad libre de final de evaluación - La milla extra
 
 - 🟢 La Milla Extra - Primera evaluación — 2025-10-13
+
+
+## Actividades de final de unidad segundo trimestre
+
+- 🟢 Generación de imágenes con IA — 2025-10-13
+- 🟢 Panel de control con JVEstilo (Tailwind) — 2025-10-13
+- 🟢 Mejora de la web curso IA — 2025-10-13
+- 🟢 Mejora de la web de juguetes — 2025-10-13

@@ -6,7 +6,7 @@ import urllib3
 # Disable SSL warnings (because we're using verify=False)
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php"
+API_URL = "https://covalently-untasked-d****.ngrok-free.dev/api.php"
 API_KEY = "TEST_API_KEY_JOCARSA_123"   # Change to your real key
 
 

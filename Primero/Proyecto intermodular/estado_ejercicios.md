@@ -1,6 +1,6 @@
 # Proyecto intermodular — Estado de ejercicios
 
-Generado: 2026-01-16 09:00
+Generado: 2026-02-08 14:00
 
 ---
 
@@ -85,11 +85,24 @@ Generado: 2026-01-16 09:00
 - 🔴 Proyecto ollama curriculums
 - 🔴 Web con panel de control
 - 🟢 creador de muchos articulso de blog — 2026-01-12
+- 🔴 posicionamiento
+- 🟢 Multimedia — 2019-07-25
 
 
 ## Actividad libre de final de evaluación - La milla extra
 
 - 🟢 La Milla Extra - Primera evaluación — 2025-10-13
+
+
+## Actividades de final de unidad segundo trimestre
+
+- 🟢 Proyecto Piero (imágenes en internet) — 2025-10-13
+- 🟢 Web jocarsa — 2025-10-13
+- 🟢 Ollama curriculums — 2025-10-13
+- 🟢 Web con panel de control — 2025-10-13
+- 🟢 Web con panel de control (Copiar 3) — 2025-10-13
+- 🟢 Mejora del posicionamiento de una web (SEO) — 2025-10-13
+- 🟢 Web de la cantante Carolina Vega (inserción de audio) — 2025-10-13
 
 
 ## Carpeta sin título

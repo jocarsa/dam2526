@@ -2477,7 +2477,7 @@ Pipeline:
 - REDUCE: sintetiza un único .md didáctico usando la API remota.
 
 Requisitos:
-- API remota disponible (ejemplo: https://covalently-untasked-daphne.ngrok-free.dev/api.php)
+- API remota disponible (ejemplo: https://covalently-untasked-d****.ngrok-free.dev/api.php)
 - Clave de API válida.
 """
 
@@ -2494,7 +2494,7 @@ from typing import List, Dict, Optional
 # ============== CONFIG ==============
 INPUT_DIR  = Path("transcripts_25_26")
 OUTPUT_DIR = Path("transcripts_25_26_markdown")
-API_URL    = "https://covalently-untasked-daphne.ngrok-free.dev/api.php"  # Cambia por tu API
+API_URL    = "https://covalently-untasked-d****.ngrok-free.dev/api.php"  # Cambia por tu API
 API_KEY    = "TEST_API_KEY_JOCARSA_123"  # Cambia por tu clave real
 MAX_CHARS_PER_CHUNK = 6000                 # aprox. 2-3k tokens por chunk
 SLEEP_BETWEEN_CALLS = 0.6                  # segundos (para no saturar)

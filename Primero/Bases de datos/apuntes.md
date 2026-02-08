@@ -76,6 +76,10 @@
   - [IA para dietetica](#ia-para-dietetica)
 - [Actividad libre de final de evaluación - La milla extra](#actividad-libre-de-final-de-evaluacion-la-milla-extra)
   - [La Milla Extra - Primera evaluación](#la-milla-extra-primera-evaluacion)
+- [Actividades de final de unidad segundo trimestre](#actividades-de-final-de-unidad-segundo-trimestre)
+  - [Proyecto tienda online](#proyecto-tienda-online-1)
+  - [Proyecto IA para dietética](#proyecto-ia-para-dietetica)
+  - [Proyecto scrapear web](#proyecto-scrapear-web)
 
 ---
 
@@ -92,7 +96,7 @@
 Esta carpeta contiene una serie de ejercicios que te permitirán explorar diferentes tipos de archivos y formatos utilizados para almacenar información, como ficheros de texto plano, CSV (Comma Separated Values), JSON (JavaScript Object Notation) y XML (eXtensible Markup Language). Los ejercicios se centran en cómo los datos pueden ser estructurados y representados en cada formato, destacando las ventajas y limitaciones de cada uno. A través de estos ejercicios, practicarás la lectura, comprensión y manipulación de datos en diferentes contextos, desarrollando habilidades esenciales para el manejo de bases de datos y la creación de sistemas de información más complejos.
 
 ### archivos de texto plano
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -109,7 +113,7 @@ Hola esto es una prueba y este es un documento
 ```
 
 ### clientes
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -129,7 +133,7 @@ Jose,Lopez,523534
 ```
 
 ### clientes
-<small>Creado: 2025-10-23 14:12</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -163,7 +167,7 @@ Este código es un archivo JSON que almacena información sobre varios clientes.
 ```
 
 ### clientes anidades
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -199,7 +203,7 @@ Es importante destacar que esta estructura JSON permite la organización anidada
 ```
 
 ### clientes anidados
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -238,7 +242,7 @@ La principal diferencia entre este archivo y el previo es que ahora "Juan" tiene
 ```
 
 ### clientes
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -566,7 +570,7 @@ Este conjunto de ejercicios se enfoca en la comprensión y aplicación del model
 En esta carpeta de ejercicios se aborda la introducción al modelo relacional en bases de datos y se practican conceptos fundamentales como la creación de una base de datos y la definición de tablas con sus respectivas columnas y tipos de datos. Los estudiantes aprenderán a utilizar SQL para estructurar bases de datos empresariales, incluyendo cómo crear una nueva base de datos llamada "empresarial" y dos tablas importantes: "clientes" e "productos". Este conjunto de ejercicios es ideal para fortalecer las habilidades básicas en la gestión de información con SQL y entender la terminología específica del modelo relacional.
 
 ### crear base de datos
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -585,7 +589,7 @@ USE empresarial;
 ```
 
 ### crear tabla de clientes
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -608,7 +612,7 @@ CREATE TABLE `empresarial`.`clientes` (
 ```
 
 ### productos
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -755,7 +759,7 @@ Estas actividades buscan que los estudiantes comprendan y apliquen los distintos
 En esta carpeta, se exploran los conceptos fundamentales sobre claves primarias en bases de datos relacionales. Los ejercicios te ayudarán a comprender qué es una clave primaria y cómo implementarla en tablas específicas utilizando lenguaje SQL. A través de estos ejercicios, desarrollarás habilidades para definir y modificar campos de identificación única en las tablas "clientes" y "productos", asegurando que cada registro tenga un valor numérico autoincremental que lo identifica inequívocamente.
 
 ### altero tabla
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -778,7 +782,7 @@ ALTER TABLE `empresarial`.`clientes`
 ```
 
 ### altero tabla de productos
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -859,7 +863,7 @@ ALTER TABLE `empresarial`.`productos`
 En esta carpeta de ejercicios, los estudiantes trabajarán con restricciones de validación en bases de datos relacionales utilizando SQL. Los ejercicios se centran en cómo asegurar la integridad de los datos mediante la implementación de condiciones específicas que deben cumplirse para garantizar que ciertos campos tengan formatos correctos y consistentes. En particular, aprenderán a añadir restricciones CHECK para verificar el tamaño del número telefónico y el formato del correo electrónico en una tabla llamada "clientes". Estos ejercicios ayudan a los estudiantes a comprender cómo proteger la calidad de los datos almacenados en bases de datos relacionales.
 
 ### restriccion de telefono
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -878,7 +882,7 @@ ALTER TABLE clientes
 ```
 
 ### email
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -941,7 +945,7 @@ Estas actividades proporcionan una variedad de ejercicios que cubren diferentes 
 En esta sesión, trabajarás con el concepto de los valores NULL en bases de datos relacionales. El ejercicio te guiará para modificar una tabla llamada "clientes", permitiendo que la columna "apellidos" pueda almacenar valores nulos. Esto es útil cuando no se dispone de información obligatoria sobre los apellidos del cliente, lo cual refuerza tu comprensión sobre cómo manejar datos incompletos en las bases de datos. Este tipo de práctica te ayudará a familiarizarte con la gestión de datos faltantes y la flexibilidad en la estructura de tus tablas SQL.
 
 ### apellido null
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1007,7 +1011,7 @@ ALTER TABLE clientes
 En esta carpeta de ejercicios, se exploran los conceptos básicos de las bases de datos relacionales, centrándose en la creación y manejo de claves foráneas. Los estudiantes aprenderán a crear una tabla llamada "pedidos" que está vinculada a dos tablas existentes: "clientes" y "productos". A través del uso de sentencias SQL, se establecerán relaciones entre estas tablas utilizando claves foráneas para asegurar la integridad referencial en las operaciones CRUD (Crear, Leer, Actualizar, Borrar). Esta práctica es crucial para comprender cómo estructurar correctamente bases de datos relacionales y mantener sus datos consistentes.
 
 ### crear pedidos
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1026,7 +1030,7 @@ CREATE TABLE `empresarial`.`pedidos` (`Identificador` INT NOT NULL AUTO_INCREMEN
 ```
 
 ### clave foranea de pedidos a clientes
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1043,7 +1047,7 @@ ALTER TABLE `pedidos` ADD CONSTRAINT `pedidosaclientes` FOREIGN KEY (`id_cliente
 ```
 
 ### clave foranea de pedidos a productos
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1058,7 +1062,7 @@ ALTER TABLE `pedidos` ADD CONSTRAINT `pedidosaproductos` FOREIGN KEY (`id_produc
 ```
 
 ### insercion
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1138,7 +1142,7 @@ INSERT INTO `pedidos`
 Esta carpeta contiene ejercicios relacionados con la creación y uso de vistas en bases de datos relacionales. En estos ejercicios, los estudiantes aprenderán a realizar consultas SQL complejas que combinan información de múltiples tablas utilizando INNER JOIN y LEFT JOIN. El objetivo principal es introducir el concepto de vistas como un mecanismo para simplificar la visualización y acceso a conjuntos de datos recurrentes. Los ejercicios practican habilidades clave en diseño de bases de datos, como comprensión de relaciones entre tablas y optimización de consultas SQL.
 
 ### peticion inicial
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1172,7 +1176,7 @@ ON pedidos.id_producto = productos.Identificador
 ```
 
 ### creo una vista
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1247,7 +1251,7 @@ ON pedidos.id_producto = productos.Identificador
 En esta carpeta, encontrarás ejercicios relacionados con la creación y configuración de usuarios en bases de datos MySQL. Los ejercicios te guiarán a través del proceso de crear usuarios y asignarles privilegios específicos según sus necesidades. En el primer ejercicio, aprenderás a crear un usuario completo con todos los permisos para una base de datos específica llamada `empresarial`. El segundo ejercicio se centra en la creación de un usuario limitado que solo puede realizar consultas (SELECT) sobre todas las bases de datos. Estos ejercicios te ayudarán a comprender cómo gestionar usuarios y privilegios en entornos de bases de datos relacionales, una habilidad fundamental para mantener el control y seguridad de tus sistemas.
 
 ### crear nuevo usuario con todos los permisos
-<small>Creado: 2025-10-23 17:09</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1281,7 +1285,7 @@ FLUSH PRIVILEGES;
 ```
 
 ### crear un usuario limitado
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1423,7 +1427,7 @@ Estas actividades están diseñadas para complementar el estudio teórico propor
 Esta carpeta contiene una serie de ejercicios destinados a practicar la realización de consultas en SQL, enfocándose específicamente en proyección, selección y ordenación de registros. Los estudiantes aprenderán cómo seleccionar datos completos o parciales desde una tabla llamada "clientes", cómo aplicar alias a los nombres de las columnas para mejorar la legibilidad de los resultados, y cómo ordenar estos resultados tanto en orden ascendente como descendente. Además, se practicará el uso de cláusulas WHERE con operadores de comparación simples y expresiones LIKE que incluyen comodines para realizar búsquedas más complejas basadas en criterios específicos. Estos ejercicios son fundamentales para entender los conceptos básicos de consultas SQL necesarios para trabajar eficazmente con bases de datos.
 
 ### Datos de ejemplo
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1460,7 +1464,7 @@ INSERT INTO clientes (nombre, apellidos, telefono, email) VALUES
 ```
 
 ### seleccion
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1473,7 +1477,7 @@ SELECT * FROM clientes;
 ```
 
 ### solo quiero ver los nombres
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1486,7 +1490,7 @@ SELECT nombre FROM clientes;
 ```
 
 ### selecciono colu,nas
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1499,7 +1503,7 @@ SELECT nombre FROM clientes;
 ```
 
 ### selecciono columnas
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1518,7 +1522,7 @@ clientes;
 ```
 
 ### alias
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1535,7 +1539,7 @@ clientes;
 ```
 
 ### volvemos a todo
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1553,7 +1557,7 @@ clientes;
 ```
 
 ### ordenamos por columna
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1571,7 +1575,7 @@ ORDER BY apellidos
 ```
 
 ### ascendiente
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1589,7 +1593,7 @@ ORDER BY apellidos ASC
 ```
 
 ### descendiente
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1611,7 +1615,7 @@ ORDER BY apellidos DESC
 ```
 
 ### varios criterios
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1631,7 +1635,7 @@ ORDER BY apellidos ASC, nombre ASC
 ```
 
 ### clausula where
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1649,7 +1653,7 @@ WHERE apellidos = "Castro Vargas"
 ```
 
 ### comodin de inicio
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1667,7 +1671,7 @@ WHERE apellidos LIKE "Castro%"
 ```
 
 ### dos comodines
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1733,7 +1737,7 @@ En esta carpeta de ejercicios se trabajan diferentes tipos de operaciones y cons
 Estos ejercicios ayudan a los estudiantes a familiarizarse con la manipulación de datos mediante consultas SQL, desarrollando habilidades cruciales para realizar cálculos complejos y condiciones lógicas en sus bases de datos.
 
 ### aritmeticos
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1753,7 +1757,7 @@ clientes
 ```
 
 ### datos de ejemplo
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1790,7 +1794,7 @@ INSERT INTO productos (nombre, descripcion, precio, peso) VALUES
 ```
 
 ### calculo del iva
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1811,7 +1815,7 @@ FROM productos;
 ```
 
 ### alias de columna
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1832,7 +1836,7 @@ FROM productos;
 ```
 
 ### sumo el total
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1854,7 +1858,7 @@ FROM productos;
 ```
 
 ### operadores de comparacion
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1871,7 +1875,7 @@ FROM productos;
 ```
 
 ### comparacion falsa
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1890,7 +1894,7 @@ FROM productos;
 ```
 
 ### condicion
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1915,7 +1919,7 @@ FROM productos;
 ```
 
 ### alias de columna
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1935,7 +1939,7 @@ FROM productos;
 ```
 
 ### total con transporte
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2004,7 +2008,7 @@ Estas actividades están diseñadas para ayudar al estudiante a familiarizarse c
 En esta carpeta, trabajaremos con consultas de resumen en SQL utilizando una base de datos que contiene información sobre pedidos. Los ejercicios te guiarán a través del cálculo de sumatorias totales, promedios y conteos relacionados con los pedidos para analizar el comportamiento de ventas y gastos en una tienda virtual. Aprenderás a utilizar funciones como SUM(), AVG() y MAX() para obtener información resumida de la tabla 'vista_pedidos'. Además, practicarás cómo contar el número total de registros que cumplen ciertas condiciones utilizando COUNT(). Estos ejercicios son fundamentales para desarrollar habilidades en análisis de datos básicos usando consultas SQL.
 
 ### resumen de suma
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2019,7 +2023,7 @@ SELECT * FROM vista_pedidos;
 ```
 
 ### resumen de total de pedidos
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2034,7 +2038,7 @@ FROM vista_pedidos;
 ```
 
 ### promedio de lo que se gasta la gente en mi tienda
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2051,7 +2055,7 @@ FROM vista_pedidos;
 ```
 
 ### pedido mas barato
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2066,7 +2070,7 @@ FROM vista_pedidos;
 ```
 
 ### pedido mas caro
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2083,7 +2087,7 @@ FROM vista_pedidos;
 ```
 
 ### cuantos pedidos se han realizado
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2140,7 +2144,7 @@ FROM vista_pedidos;
 En esta carpeta, se trabajan ejercicios relacionados con la realización de consultas SQL avanzadas en un contexto de base de datos para estudiantes de Formación Profesional. El objetivo principal es familiarizarse con el agrupamiento de registros utilizando la cláusula `GROUP BY` y cómo combinarla con funciones de agregación como `COUNT()`. Los ejercicios van desde seleccionar todos los registros de una tabla hasta realizar consultas más complejas que involucran agregar nuevos campos a una tabla existente y luego agrupar datos según estos cambios. Este conjunto de ejercicios ayuda a desarrollar competencias en manipulación de bases de datos, consulta avanzada y resolución de problemas relacionados con la agregación de información.
 
 ### seleccion de productos
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2156,7 +2160,7 @@ FROM clientes;
 ```
 
 ### altero los clientes
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2172,7 +2176,7 @@ ALTER TABLE `clientes` ADD `localidad` VARCHAR(255) NOT NULL AFTER `email`;
 ```
 
 ### seleccion con agrupacion
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2186,7 +2190,7 @@ FROM clientes;
 ```
 
 ### seleccion con agrupacion ahora si
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2250,7 +2254,7 @@ Estas actividades están diseñadas para proporcionar a los estudiantes una comp
 Esta carpeta contiene una serie de ejercicios que te guiarán en la realización de consultas avanzadas con SQL, centrando tu atención en la creación y manipulación de relaciones entre tablas para representar pedidos complejos. Los problemas iniciales te ayudan a familiarizarte con las selecciones básicas y los JOIN simples, antes de profundizar en la composición interna de consultas que incluyen varias tablas y cálculos. A lo largo de estos ejercicios, practicarás la creación de esquemas de base de datos más realistas, como la relación 1:N entre pedidos y sus líneas, así como la incorporación de claves foráneas para garantizar integridad referencial. También trabajarás en la proyección de información relevante desde múltiples tablas y realizar cálculos sobre los datos obtenidos para obtener totales y subtotales de pedidos. Estos ejercicios están diseñados para mejorar tus habilidades en el manejo avanzado de consultas SQL, preparándote para resolver problemas más complejos relacionados con la gestión de bases de datos en entornos empresariales.
 
 ### seleccion basica de pedidos
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2265,7 +2269,7 @@ SELECT * FROM pedidos;
 ```
 
 ### primer join con clientes
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2289,7 +2293,7 @@ ON pedidos.id_cliente = clientes.Identificador
 ```
 
 ### vista de pedidos
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2321,7 +2325,7 @@ ON pedidos.id_producto = productos.Identificador
 ```
 
 ### Pedidos con lineas
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2340,7 +2344,7 @@ CREATE TABLE `empresarial`.`lineaspedido` (`Identificador` INT NOT NULL AUTO_INC
 ```
 
 ### claves foraneas
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2369,7 +2373,7 @@ ALTER TABLE `pedidosconlineas` ADD  CONSTRAINT `pedidosaclientes2` FOREIGN KEY (
 ```
 
 ### creamos pedido
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2391,7 +2395,7 @@ INSERT INTO `lineaspedido` (`Identificador`, `producto_id`, `unidades`, `pedidos
 ```
 
 ### cruzamos tablas
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2408,7 +2412,7 @@ SELECT * FROM `pedidosconlineas`;
 ```
 
 ### cruzamos con tabla clientes
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2430,7 +2434,7 @@ ON pedidosconlineas.id_cliente = clientes.Identificador
 ```
 
 ### cruzamos con la tabla de lineas de pedido
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2460,7 +2464,7 @@ ON lineaspedido.pedidos_id = pedidosconlineas.Identificador
 ```
 
 ### ajustamos la proyeccion
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2491,7 +2495,7 @@ ON lineaspedido.pedidos_id = pedidosconlineas.Identificador
 ```
 
 ### cruzamos con productos
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2526,7 +2530,7 @@ ON lineaspedido.producto_id = productos.Identificador
 ```
 
 ### calculos
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2567,7 +2571,7 @@ ON lineaspedido.producto_id = productos.Identificador
 ```
 
 ### sumatorio
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2727,7 +2731,7 @@ Esta carpeta contiene una serie de ejercicios prácticos que te ayudarán a ente
 Estos ejercicios son fundamentales para cualquier estudiante de Formación Profesional interesado en el desarrollo web y bases de datos, ya que te capacitarán para realizar operaciones diarias con seguridad y eficacia.
 
 ### insercion
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2752,7 +2756,7 @@ VALUES
 ```
 
 ### que pasa si ponemos un campo de menos
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2778,7 +2782,7 @@ VALUES
 ```
 
 ### que pasa si pongo un campo de mas
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2806,7 +2810,7 @@ VALUES
 ```
 
 ### columnas nombradas
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2836,7 +2840,7 @@ VALUES
 ```
 
 ### modificacion de registros
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2853,7 +2857,7 @@ nombre = "Jose Vicente";
 ```
 
 ### modificacion con un where
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2873,7 +2877,7 @@ telefono = 620891718;
 ```
 
 ### eliminar registros
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2892,7 +2896,7 @@ clientes;
 ```
 
 ### eliminacion con condiciones
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2911,7 +2915,7 @@ WHERE telefono = '620891718';
 ```
 
 ### copia de seguridad de base de datos
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3050,7 +3054,7 @@ sh.mysqldump('-u root', 'sistemadb', '--no-create-info', '--skip-triggers', 'vis
 Este script es útil para automatizar tareas de respaldo y puede ser adaptado según las necesidades específicas del entorno en que se utilice.
 
 ### copia de seguridad con python
-<small>Creado: 2025-10-02 17:04</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3090,7 +3094,7 @@ print(f"Copia de seguridad creada en {archivo_salida}")
 ```
 
 ### copia con fecha
-<small>Creado: 2025-10-02 17:10</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3138,7 +3142,7 @@ print(f"Copia de seguridad creada en {archivo_salida}")
 ```
 
 ### zerofill
-<small>Creado: 2025-10-02 17:11</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3184,7 +3188,7 @@ print(f"Copia de seguridad creada en {archivo_salida}")
 ```
 
 ### ahora comprimir
-<small>Creado: 2025-10-02 17:19</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3245,7 +3249,7 @@ print(f"Copia comprimida en {archivo_zip}")
 ```
 
 ### y borrar el sql
-<small>Creado: 2025-10-02 17:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3306,7 +3310,7 @@ print(f"Copia comprimida en {archivo_zip} (se eliminó el SQL)")
 ```
 
 ### aplicacion mysql
-<small>Creado: 2025-10-02 18:02</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3328,7 +3332,7 @@ opcion = int(input("Escoge tu opción"))
 ```
 
 ### tratamos las opciones
-<small>Creado: 2025-10-02 18:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3359,7 +3363,7 @@ elif opcion == 4:
 ```
 
 ### nos conectamos a MySQL
-<small>Creado: 2025-10-02 18:04</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3407,7 +3411,7 @@ elif opcion == 4:
 ```
 
 ### Desarrollo la parte de insercion de cliente
-<small>Creado: 2025-10-02 18:07</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3477,7 +3481,7 @@ conexion.close()
 ```
 
 ### me aseguro
-<small>Creado: 2025-10-02 18:09</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3545,7 +3549,7 @@ conexion.close()
 ```
 
 ### arranco un bucle infinito
-<small>Creado: 2025-10-02 18:12</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3612,7 +3616,7 @@ conexion.close()
 ```
 
 ### Listado de clientes
-<small>Creado: 2025-10-02 18:13</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3688,7 +3692,7 @@ conexion.close()
 ```
 
 ### Desarrollamos la parte de la eliminacion
-<small>Creado: 2025-10-02 18:18</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3772,7 +3776,7 @@ conexion.close()
 ```
 
 ### backup
-<small>Creado: 2025-10-02 17:50</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3798,7 +3802,7 @@ Copia comprimida en /var/www/html/dam2526/Primero/Bases de datos/004-Tratamiento
 ```
 
 ### backup
-<small>Creado: 2025-10-02 17:43</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3859,7 +3863,7 @@ print(f"Copia comprimida en {archivo_zip} (se eliminó el SQL)")
 ```
 
 ### copia_de_seguridad
-<small>Creado: 2025-10-02 17:04</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -4253,7 +4257,7 @@ Estas mejoras ayudarán a hacer tu script más robusto y fácil de mantener.
 Esta carpeta contiene una serie de ejercicios prácticos diseñados para familiarizarte con el uso del almacenamiento local en JavaScript, específicamente enfocándose en la manipulación y gestión de datos a través del objeto `localStorage`. Los ejercicios comienzan con la simple adición de un dato básico al almacenamiento y evolucionan hasta incluir la manipulación de objetos complejos y su serialización/deserialización utilizando JSON. A lo largo de estos ejercicios, practicarás competencias clave como el manejo de estructuras de datos en JavaScript, la persistencia de información en el navegador y la conversión entre tipos de datos para almacenamiento eficiente.
 
 ### localstorage
-<small>Creado: 2025-11-20 16:21</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -4280,7 +4284,7 @@ Este fragmento de código sirve como introducción a cómo guardar datos persist
 ```
 
 ### recuperar datos
-<small>Creado: 2025-11-20 16:22</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -4309,7 +4313,7 @@ Este tipo de código es importante porque permite persistir datos entre diferent
 ```
 
 ### guardar datos complejos
-<small>Creado: 2025-11-20 16:23</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -4343,7 +4347,7 @@ El uso de `localStorage` permite a las páginas web almacenar pequeñas cantidad
 ```
 
 ### convertir objeto a cadena
-<small>Creado: 2025-11-20 16:24</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -4380,7 +4384,7 @@ Este código es importante porque demuestra cómo guardar objetos complejos en e
 ```
 
 ### recuperar un objeto complejo
-<small>Creado: 2025-11-20 16:25</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -4410,7 +4414,7 @@ Esta técnica es útil para recordar la configuración o los datos importantes e
 ```
 
 ### convertir string a objeto
-<small>Creado: 2025-11-20 16:25</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -4569,7 +4573,7 @@ Además, se calculan los totales (bruto e impuestos) para cada línea del pedido
 Este conjunto de inserciones proporciona una base sólida para pruebas de integración, desarrollo y depuración en un sistema de comercio electrónico o minorista.
 
 ### tienda online
-<small>Creado: 2025-11-20 17:13</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -4595,7 +4599,7 @@ Quieo crear todas las vistas que sea necesario para unir todos los FK de la base
 ```
 
 ### crear la basededatos
-<small>Creado: 2025-11-20 17:09</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -4618,7 +4622,7 @@ USE tiendaonline2526;
 ```
 
 ### crear tablas
-<small>Creado: 2025-11-20 17:08</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -4796,7 +4800,7 @@ COLLATE=utf8mb4_unicode_ci;
 ```
 
 ### vistas
-<small>Creado: 2025-11-20 17:09</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -4957,7 +4961,7 @@ JOIN categorias c ON p.id_categoria = c.id_categoria;
 ```
 
 ### crear nuevo usuario
-<small>Creado: 2025-11-20 17:10</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -4990,7 +4994,7 @@ FLUSH PRIVILEGES;
 ```
 
 ### prompt para crear datos
-<small>Creado: 2025-11-20 17:14</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -5005,7 +5009,7 @@ Y luego por ultimo quiero insert into tantos como haga falta para insertar datos
 ```
 
 ### insert into
-<small>Creado: 2025-11-20 17:18</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -5358,7 +5362,7 @@ Cuando se ejecuta el programa, puede ver mensajes como:
 Este script es un punto de partida excelente para desarrollar aplicaciones CRUD más complejas. Puedes extenderlo con funcionalidades adicionales como validación de datos, manejo de errores más detallado, o integración con bases de datos más complejas.
 
 ### Create Table
-<small>Creado: 2025-10-16 17:06</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -5392,7 +5396,7 @@ CREATE TABLE "clientes" (
 ```
 
 ### Tabla de pedidos
-<small>Creado: 2025-10-16 17:08</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -5416,7 +5420,7 @@ CREATE TABLE "productos" (
 ```
 
 ### Insertar un cliente
-<small>Creado: 2025-10-16 17:09</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -5441,7 +5445,7 @@ INSERT INTO clientes VALUES(
 ```
 
 ### seleccion de clientes
-<small>Creado: 2025-10-16 17:10</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -5454,7 +5458,7 @@ SELECT * FROM clientes;
 ```
 
 ### Insertar un producto
-<small>Creado: 2025-10-16 17:11</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -5477,7 +5481,7 @@ INSERT INTO productos VALUES(
 ```
 
 ### seleccionar los productos
-<small>Creado: 2025-10-16 17:12</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -5492,7 +5496,7 @@ SELECT * FROM productos;
 ```
 
 ### actualizar precio de un producto
-<small>Creado: 2025-10-16 17:13</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -5511,7 +5515,7 @@ SELECT * FROM productos;
 ```
 
 ### eliminar
-<small>Creado: 2025-10-16 17:21</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -5542,7 +5546,7 @@ INSERT INTO productos VALUES(
 ```
 
 ### crear tabla pedidos
-<small>Creado: 2025-10-16 17:16</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -5570,7 +5574,7 @@ CREATE TABLE "pedidos" (
 ```
 
 ### primero creamos la tabla
-<small>Creado: 2025-10-16 17:17</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -5595,7 +5599,7 @@ CREATE TABLE "pedidos" (
 ```
 
 ### clave externa 1
-<small>Creado: 2025-10-16 17:17</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -5614,7 +5618,7 @@ ADD FOREIGN KEY ("cliente_id") REFERENCES "clientes"("Identificador") ON DELETE 
 ```
 
 ### clave externa 2
-<small>Creado: 2025-10-16 17:18</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -5633,7 +5637,7 @@ ADD FOREIGN KEY ("producto_id") REFERENCES "productos"("Identificador") ON DELET
 ```
 
 ### de un golpe
-<small>Creado: 2025-10-16 17:25</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -5660,7 +5664,7 @@ CREATE TABLE "pedidos" (
 ```
 
 ### inserción de pedido
-<small>Creado: 2025-10-16 17:26</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -5699,7 +5703,7 @@ INSERT INTO pedidos VALUES(
 ```
 
 ### conectar en python
-<small>Creado: 2025-10-16 17:26</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -5714,7 +5718,7 @@ import sqlite3
 ```
 
 ### abrir y select
-<small>Creado: 2025-10-16 17:28</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -5747,7 +5751,7 @@ for fila in filas:
 ```
 
 ### insertar
-<small>Creado: 2025-10-16 17:31</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -5785,7 +5789,7 @@ basededatos.commit()
 ```
 
 ### actualizar
-<small>Creado: 2025-10-16 17:32</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -5814,7 +5818,7 @@ basededatos.commit()
 ```
 
 ### eliminar
-<small>Creado: 2025-10-16 17:32</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -5848,7 +5852,7 @@ basededatos.commit()
 ```
 
 ### crear programa de gestion
-<small>Creado: 2025-10-16 17:38</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -5889,7 +5893,7 @@ opcion = input("Tu opción elegida: ")
 ```
 
 ### seleccion de opcion
-<small>Creado: 2025-10-16 17:40</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -5935,7 +5939,7 @@ print("La tabla seleccionada es: "+tabla)
 ```
 
 ### siguientes opciones
-<small>Creado: 2025-10-16 17:42</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -5985,7 +5989,7 @@ opcion = input("Selecciona una opcion: ")
 ```
 
 ### comentarios hasta el momento
-<small>Creado: 2025-10-16 17:54</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6080,7 +6084,7 @@ elif opcion == 4:
 ```
 
 ### aplicacion hasta el momento
-<small>Creado: 2025-10-16 17:54</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6175,7 +6179,7 @@ elif opcion == 4:
 ```
 
 ### bucle infinito
-<small>Creado: 2025-10-16 17:56</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6270,7 +6274,7 @@ while True:
 ```
 
 ### pantalla de bienvenida
-<small>Creado: 2025-10-16 17:58</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6380,7 +6384,7 @@ while True:
 ```
 
 ### desarrollo manual de listados
-<small>Creado: 2025-10-16 18:01</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6489,7 +6493,7 @@ while True:
 ```
 
 ### ayuda de la inteligencia artificial
-<small>Creado: 2025-10-16 18:16</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7093,7 +7097,7 @@ if __name__ == "__main__":
 ```
 
 ### mas mejoras
-<small>Creado: 2025-10-16 18:21</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7666,7 +7670,7 @@ if __name__ == "__main__":
 ```
 
 ### Conceptos de consola
-<small>Creado: 2025-10-16 18:30</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7758,7 +7762,7 @@ Este código es útil para aprender sobre cómo interactuar con bases de datos d
 Este conjunto de ejercicios está diseñado para familiarizarte con la creación y gestión de una base de datos en SQL, específicamente centrada en un blog con entradas y autores. Los problemas abordan desde la creación inicial de la base de datos hasta la inserción de datos y la manipulación avanzada mediante joins e vistas. Practicarás habilidades como definir estructuras de tablas, establecer relaciones entre ellas a través de claves primarias y foráneas, así como manejar usuarios y privilegios en tu base de datos. Este ejercicio te preparará para entender cómo se organiza la información en aplicaciones web reales, desde el modelo relacional hasta su implementación práctica con SQL.
 
 ### Creo la base de datos
-<small>Creado: 2025-10-30 15:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7777,7 +7781,7 @@ CREATE DATABASE blog2526;
 ```
 
 ### creo tablas
-<small>Creado: 2025-10-30 15:23</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7805,7 +7809,7 @@ CREATE TABLE autores (
 ```
 
 ### añadir claves primarias
-<small>Creado: 2025-10-30 15:24</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7841,7 +7845,7 @@ ALTER TABLE autores
 ```
 
 ### clave foranea de autores a entradas
-<small>Creado: 2025-10-30 15:28</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7864,7 +7868,7 @@ ON UPDATE RESTRICT;
 ```
 
 ### insercion de datos de muestra
-<small>Creado: 2025-10-30 15:29</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7901,7 +7905,7 @@ INSERT INTO autores (nombre, apellidos, email) VALUES
 ```
 
 ### insercion de entradas
-<small>Creado: 2025-10-30 15:30</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7938,7 +7942,7 @@ INSERT INTO entradas (titulo, contenido, fecha, autor) VALUES
 ```
 
 ### seleccion de autores para aclararnos
-<small>Creado: 2025-10-30 15:30</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7951,7 +7955,7 @@ SELECT * FROM autores;
 ```
 
 ### left join
-<small>Creado: 2025-10-30 15:46</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7978,7 +7982,7 @@ ON entradas.autor = autores.Identificador;
 ```
 
 ### crear una vista
-<small>Creado: 2025-10-30 15:47</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8011,7 +8015,7 @@ entradas_con_autores;
 ```
 
 ### crear usuario con privilegios
-<small>Creado: 2025-10-30 15:49</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8100,7 +8104,7 @@ Estas actividades están diseñadas para reforzar los conceptos básicos y avanz
 Esta carpeta contiene una serie de ejercicios orientados a la creación y gestión de una base de datos para un blog o portafolio personal. Los estudiantes deben aprender a estructurar datos en tablas relacionales, utilizando claves primarias y foráneas, además de realizar inserciones, consultas cruzadas, creación de vistas y manejo de usuarios con permisos específicos. El objetivo es afianzar los conocimientos sobre la manipulación de bases de datos mediante SQL, incluyendo operaciones CRUD (Crear, Leer, Actualizar, Eliminar) y el uso eficiente de vistas para simplificar consultas complejas.
 
 ### resolucion del examen
-<small>Creado: 2025-11-03 14:57</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8163,7 +8167,7 @@ SELECT * FROM autores;
 ```
 
 ### le damos algo de contenido a la base de datos
-<small>Creado: 2025-11-03 15:00</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8197,7 +8201,7 @@ SELECT * FROM piezas;
 ```
 
 ### alteramos taba
-<small>Creado: 2025-11-03 15:01</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8217,7 +8221,7 @@ DESCRIBE piezas;
 ```
 
 ### peticion cruzada
-<small>Creado: 2025-11-03 15:01</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8237,7 +8241,7 @@ DESCRIBE piezas;
 ```
 
 ### vista cruzada
-<small>Creado: 2025-11-03 15:05</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8280,7 +8284,7 @@ SELECT * FROM piezas_con_autores;
 ```
 
 ### crear usuario con permisos
-<small>Creado: 2025-11-03 15:06</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8315,7 +8319,7 @@ FLUSH PRIVILEGES;
 ```
 
 ### demostramos actualizacion
-<small>Creado: 2025-11-03 15:09</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8452,7 +8456,7 @@ Estas actividades están diseñadas para ayudar a los estudiantes a adquirir com
 Esta carpeta contiene un conjunto de ejercicios que te ayudarán a familiarizarte con el manejo de bases de datos utilizando SQL. Los problemas abordados van desde la creación y configuración inicial de tablas hasta operaciones más avanzadas como inserción de datos, gestión de relaciones entre tablas (usando claves foráneas), consultas JOIN y la creación de vistas. Además, también practicarás la administración de usuarios y privilegios en tu base de datos para asegurar un acceso seguro y controlado a los datos. Estos ejercicios son esenciales para desarrollar competencias clave en la gestión de bases de datos, incluyendo la estructuración de esquemas, manipulación de datos y seguridad.
 
 ### crear tablas
-<small>Creado: 2025-11-10 17:18</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8487,7 +8491,7 @@ CREATE TABLE Categorias(
 ```
 
 ### insertar
-<small>Creado: 2025-11-10 17:18</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8519,7 +8523,7 @@ INSERT INTO Piezas VALUES(
 ```
 
 ### fk
-<small>Creado: 2025-11-10 17:18</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8540,7 +8544,7 @@ ON UPDATE CASCADE;
 ```
 
 ### selecciones
-<small>Creado: 2025-11-10 17:18</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8559,7 +8563,7 @@ SELECT * FROM Piezas;
 ```
 
 ### left join
-<small>Creado: 2025-11-10 17:18</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8580,7 +8584,7 @@ ON Piezas.id_categoria = Categorias.Identificador;
 ```
 
 ### ahora creo la vista
-<small>Creado: 2025-11-10 17:18</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8609,7 +8613,7 @@ SELECT * FROM piezas_y_categorias;
 ```
 
 ### usuario
-<small>Creado: 2025-11-10 17:18</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8838,7 +8842,7 @@ Se aplica estilos para mejorar la presentación y accesibilidad del formulario.
 Este es un flujo general de cómo el formulario se construye, muestra comentarios de campos, y procesa la entrada del usuario antes de insertarla en la base de datos.
 
 ### admin
-<small>Creado: 2025-12-04 17:50</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -10452,7 +10456,7 @@ document.addEventListener('DOMContentLoaded', function() {
 ```
 
 ### altero tabla
-<small>Creado: 2025-12-04 17:30</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -10466,7 +10470,7 @@ MODIFY nombre VARCHAR(100) NOT NULL;
 ```
 
 ### index
-<small>Creado: 2025-12-04 17:26</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11146,7 +11150,7 @@ El diagrama también muestra cómo los productos pueden estar relacionados con c
 Este modelo describe cómo las entidades se relacionan entre sí y proporciona una base sólida para la implementación de un sistema que gestiona pedidos, productos, categorías y relaciones entre ellos.
 
 ### entidad cliente
-<small>Creado: 2025-11-27 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11401,7 +11405,7 @@ body {
 ```
 
 ### entidad cliente
-<small>Creado: 2025-11-27 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11452,7 +11456,7 @@ En comparación con el archivo anterior (004-entidad cliente.html), este archivo
 ```
 
 ### entidad cliente
-<small>Creado: 2025-11-27 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11499,7 +11503,7 @@ Este nuevo archivo SVG proporciona una representación visual más detallada y g
 ```
 
 ### dos entidades
-<small>Creado: 2025-11-27 16:23</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11777,7 +11781,7 @@ body {
 ```
 
 ### dos entidades
-<small>Creado: 2025-11-27 16:22</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11854,7 +11858,7 @@ En resumen, este archivo JSON es una versión más abstracta del modelo ER que e
 ```
 
 ### dos entidades
-<small>Creado: 2025-11-27 16:22</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11905,7 +11909,7 @@ En relación con el archivo anterior (005-dos entidades.json), este nuevo códig
 ```
 
 ### correspondencia 1 a n
-<small>Creado: 2025-11-27 16:26</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12182,7 +12186,7 @@ body {
 ```
 
 ### correspondencia 1 a n
-<small>Creado: 2025-11-27 16:26</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12272,7 +12276,7 @@ Este archivo JSON proporciona un formato estructurado que puede ser utilizado pa
 ```
 
 ### correspondencia 1 a n
-<small>Creado: 2025-11-27 16:26</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12331,7 +12335,7 @@ El archivo actual presenta una versión visual del modelo ER anterior en formato
 ```
 
 ### caso centro de formacion
-<small>Creado: 2025-11-27 16:34</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12631,7 +12635,7 @@ body {
 ```
 
 ### caso centro de formacion
-<small>Creado: 2025-11-27 16:34</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12764,7 +12768,7 @@ Este cambio permite una mayor flexibilidad y potencialmente simplifica la gesti�
 ```
 
 ### caso centro de formacion
-<small>Creado: 2025-11-27 16:34</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12827,7 +12831,7 @@ Este diagrama ER es importante porque proporciona una representación visual cla
 ```
 
 ### caso tienda online
-<small>Creado: 2025-11-27 16:39</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -13150,7 +13154,7 @@ body {
 ```
 
 ### caso tienda online
-<small>Creado: 2025-11-27 16:39</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -13385,7 +13389,7 @@ En resumen, el código JSON facilita un enfoque más dinámico y descriptivo par
 ```
 
 ### caso tienda online
-<small>Creado: 2025-11-27 16:39</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -13457,7 +13461,7 @@ Este cambio en la representación permite a los desarrolladores y analistas ver 
 ```
 
 ### caso tienda online con categorias
-<small>Creado: 2025-11-27 16:42</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -13799,7 +13803,7 @@ body {
 ```
 
 ### caso tienda online con categorias
-<small>Creado: 2025-11-27 16:41</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -14053,7 +14057,7 @@ Esta descripción proporciona una base sólida para visualizar y entender cómo 
 ```
 
 ### caso tienda online con categorias
-<small>Creado: 2025-11-27 16:42</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -14159,7 +14163,7 @@ Este diagrama es útil para visualizar cómo las entidades se relacionan en un s
 ```
 
 ### caso de que un producto tenga muchas categorias
-<small>Creado: 2025-11-27 16:45</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -14578,7 +14582,7 @@ body {
 ```
 
 ### caso de que un producto tenga muchas categorias
-<small>Creado: 2025-11-27 16:44</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -14920,7 +14924,7 @@ El archivo proporcionado parece ser la representación en formato JSON de un dia
 ```
 
 ### caso de que un producto tenga muchas categorias
-<small>Creado: 2025-11-27 16:45</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15246,7 +15250,7 @@ CREATE TABLE Profesor (
 Este modelo proporciona una representación estructurada de cómo las entidades `Persona`, `Alumno` y `Profesor` se relacionan entre sí en un sistema administrativo para estudiantes y docentes.
 
 ### generalizacion
-<small>Creado: 2025-11-27 17:05</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15522,7 +15526,7 @@ body {
 ```
 
 ### generalizacion
-<small>Creado: 2025-11-27 17:05</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15599,7 +15603,7 @@ En comparación con el código anterior que era HTML con CSS para dibujar las en
 ```
 
 ### generalizacion
-<small>Creado: 2025-11-27 17:05</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15652,7 +15656,7 @@ En resumen, el cambio principal es que el archivo SVG proporciona una representa
 ```
 
 ### solucion con generalizacion
-<small>Creado: 2025-11-27 17:08</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15937,7 +15941,7 @@ body {
 ```
 
 ### solucion con generalizacion
-<small>Creado: 2025-11-27 17:08</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16056,7 +16060,7 @@ Este código es importante porque proporciona una estructura clara para modelar 
 ```
 
 ### solucion con generalizacion
-<small>Creado: 2025-11-27 17:08</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16118,7 +16122,7 @@ Este código SVG es particularmente útil para visualizar cómo diferentes tipos
 ```
 
 ### ejemplo con empleado
-<small>Creado: 2025-11-27 17:11</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16417,7 +16421,7 @@ body {
 ```
 
 ### ejemplo con empleado
-<small>Creado: 2025-11-27 17:11</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16609,7 +16613,7 @@ En resumen, este código JSON proporciona una representación abstracta pero com
 ```
 
 ### ejemplo con empleado
-<small>Creado: 2025-11-27 17:11</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16677,7 +16681,7 @@ En comparación con el archivo anterior en formato JSON, este SVG proporciona un
 ```
 
 ### especializacion
-<small>Creado: 2025-11-27 17:14</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16965,7 +16969,7 @@ body {
 ```
 
 ### especializacion
-<small>Creado: 2025-11-27 17:14</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17085,7 +17089,7 @@ En comparación con el código anterior en formato HTML, este archivo JSON propo
 ```
 
 ### especializacion
-<small>Creado: 2025-11-27 17:14</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17149,7 +17153,7 @@ Este archivo SVG representa gráficamente la información que originalmente esta
 ```
 
 ### entidades de coches sueltas
-<small>Creado: 2025-11-27 17:21</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17417,7 +17421,7 @@ body {
 ```
 
 ### entidades de coches sueltas
-<small>Creado: 2025-11-27 17:21</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17491,7 +17495,7 @@ En comparación con la versión anterior que era un archivo HTML completo diseñ
 ```
 
 ### entidades de coches sueltas
-<small>Creado: 2025-11-27 17:21</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17546,7 +17550,7 @@ El código es importante porque proporciona una visualización gráfica que faci
 ```
 
 ### coche por agregacion
-<small>Creado: 2025-11-27 17:26</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17842,7 +17846,7 @@ body {
 ```
 
 ### coche por agregacion
-<small>Creado: 2025-11-27 17:26</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17995,7 +17999,7 @@ En resumen, este código JSON proporciona una descripción detallada de un model
 ```
 
 ### coche por agregacion
-<small>Creado: 2025-11-27 17:26</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -18055,7 +18059,7 @@ En comparación con el archivo anterior, este nuevo diagrama proporciona una vis
 ```
 
 ### diagrama
-<small>Creado: 2025-11-27 17:08</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -18292,7 +18296,7 @@ The SQL schema consists of three tables:
 The schema effectively captures and manages the relationships between students, courses, and enrollments in an educational context, providing a robust foundation for reporting, analysis, and operational tasks related to student management and course enrollment tracking.
 
 ### Ejemplo tienda online
-<small>Creado: 2025-11-27 17:31</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -18618,7 +18622,7 @@ body {
 ```
 
 ### Ejemplo tienda online
-<small>Creado: 2025-11-27 17:31</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -18824,7 +18828,7 @@ El formato JSON proporciona una representación más estructurada y lógica del 
 ```
 
 ### Ejemplo tienda online
-<small>Creado: 2025-11-27 17:31</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -18893,7 +18897,7 @@ En comparación con la versión anterior (002-Ejemplo tienda online.json), este 
 ```
 
 ### ejemplo tienda online convertido a SQL
-<small>Creado: 2025-11-27 17:32</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -18965,7 +18969,7 @@ CREATE TABLE LineasPedido (
 ```
 
 ### Ejemplo centro de formacion con relacion de n a n
-<small>Creado: 2025-11-27 17:34</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -19269,7 +19273,7 @@ body {
 ```
 
 ### Ejemplo centro de formacion con relacion de n a n
-<small>Creado: 2025-11-27 17:34</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -19402,7 +19406,7 @@ Por lo tanto, este cambio en la representación del mismo conjunto de entidades 
 ```
 
 ### Ejemplo centro de formacion con relacion de n a n
-<small>Creado: 2025-11-27 17:34</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -19466,7 +19470,7 @@ Este archivo SVG es una representación visual gráfica del diagrama ER basado e
 ```
 
 ### caso centrode formacion en sql
-<small>Creado: 2025-11-27 17:34</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -19684,7 +19688,7 @@ Esta carpeta contiene una serie de ejercicios diseñados para ayudarte a entende
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/007-Uso%20de%20bases%20de%20datos%20no%20relacionales/002-Tipos%20de%20bases%20de%20datos%20no%20relacionales)
 
 ### ejemplo json 1
-<small>Creado: 2026-01-08 16:29</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `002-ejemplo json 1.json`
 
@@ -19697,7 +19701,7 @@ Esta carpeta contiene una serie de ejercicios diseñados para ayudarte a entende
 ```
 
 ### json un poco mas complejo
-<small>Creado: 2026-01-08 16:30</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `003-json un poco mas complejo.json`
 
@@ -19714,7 +19718,7 @@ Esta carpeta contiene una serie de ejercicios diseñados para ayudarte a entende
 ```
 
 ### json mas complejo todavía
-<small>Creado: 2026-01-08 16:32</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `004-json mas complejo todavía.json`
 
@@ -19737,7 +19741,7 @@ Esta carpeta contiene una serie de ejercicios diseñados para ayudarte a entende
 ```
 
 ### ejemplo pedido tienda online
-<small>Creado: 2026-01-08 16:38</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `006-ejemplo pedido tienda online.json`
 
@@ -19763,7 +19767,7 @@ Esta carpeta contiene una serie de ejercicios diseñados para ayudarte a entende
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/007-Uso%20de%20bases%20de%20datos%20no%20relacionales/003-Elementos%20de%20las%20bases%20de%20datos%20no%20relacionales)
 
 ### muestra de pedido
-<small>Creado: 2026-01-08 17:14</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `003-muestra de pedido.json`
 
@@ -19788,7 +19792,7 @@ Esta carpeta contiene una serie de ejercicios diseñados para ayudarte a entende
 ```
 
 ### cargamos el primer pedido
-<small>Creado: 2026-01-08 17:22</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `005-cargamos el primer pedido.php`
 
@@ -19819,7 +19823,7 @@ if (!isset($doc)) {
 ```
 
 ### pedido tienda online
-<small>Creado: 2026-01-08 17:24</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `006-pedido tienda online.php`
 
@@ -19990,7 +19994,7 @@ try {
 ```
 
 ### segundo pedido
-<small>Creado: 2026-01-08 17:27</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `007-segundo pedido.json`
 
@@ -20015,7 +20019,7 @@ try {
 ```
 
 ### segundo pedido
-<small>Creado: 2026-01-08 17:30</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `007-segundo pedido.php`
 
@@ -20193,7 +20197,7 @@ $cursor = $manager->executeQuery('tiendaonline.pedidos', $query);
 ```
 
 ### selector de facturas
-<small>Creado: 2026-01-08 17:30</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `008-selector de facturas.php`
 
@@ -20371,7 +20375,7 @@ $cursor = $manager->executeQuery('tiendaonline.pedidos', $query);
 ```
 
 ### tiendaonline.pedidos
-<small>Creado: 2026-01-08 17:36</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `tiendaonline.pedidos.json`
 
@@ -20603,7 +20607,7 @@ FLUSH PRIVILEGES;
 This script creates a new user with the specified username and password, grants the necessary privileges to the user, and flushes the privilege cache.
 
 ### pantalla de confirmacion
-<small>Creado: 2025-12-11 14:56</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -20720,7 +20724,7 @@ El código también utiliza una estructura CSS para dar estilos a la página y h
 ```
 
 ### diagrama
-<small>Creado: 2025-12-11 15:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -21057,7 +21061,7 @@ body {
 ```
 
 ### diagrama
-<small>Creado: 2025-12-11 15:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -21233,7 +21237,7 @@ En resumen, este archivo JSON describe el esqueleto de una base de datos en la q
 ```
 
 ### diagrama
-<small>Creado: 2025-12-11 16:10</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -21308,7 +21312,7 @@ CREATE TABLE lineapedido (
 ```
 
 ### diagrama
-<small>Creado: 2025-12-11 15:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -21378,7 +21382,7 @@ Este fragmento es importante porque proporciona una visión general de cómo se 
 ```
 
 ### insercion
-<small>Creado: 2025-12-11 15:08</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -21462,7 +21466,7 @@ INSERT INTO lineapedido (id, pedido_id, producto_id, cantidad) VALUES
 ```
 
 ### usuario
-<small>Creado: 2025-12-11 15:23</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -21524,7 +21528,7 @@ En resumen, este conjunto de archivos es una base de datos completa para un sist
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/008-Proyectos/002-IA%20para%20dietetica)
 
 ### llamada desde PHP
-<small>Creado: 2025-12-23 14:33</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `002-llamada desde PHP.php`
 
@@ -21649,7 +21653,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 ```
 
 ### cerrar prompt
-<small>Creado: 2025-12-23 14:33</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `003-cerrar prompt.php`
 
@@ -21776,7 +21780,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 ```
 
 ### aconsejador de equipos informaticos
-<small>Creado: 2025-12-23 14:33</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `004-aconsejador de equipos informaticos.php`
 
@@ -21897,7 +21901,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 ```
 
 ### mejoras estéticas
-<small>Creado: 2025-12-23 14:33</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `005-mejoras estéticas.php`
 
@@ -22467,7 +22471,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 ```
 
 ### interfaz clara
-<small>Creado: 2025-12-23 14:33</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `006-interfaz clara.php`
 
@@ -23028,3 +23032,25 @@ Basándome en la información proporcionada y asumiendo que el contenido del arc
    - Los estudiantes deben documentar en detalle su diseño de base de datos, incluyendo diagramas ER (Entity-Relationship), explicaciones sobre las tablas y sus relaciones, y una breve descripción de las consultas SQL implementadas.
 
 Estas actividades se centran en desarrollar habilidades fundamentales relacionadas con la gestión y el diseño eficaz de bases de datos para estudiantes de Formación Profesional.
+
+
+
+<a id="actividades-de-final-de-unidad-segundo-trimestre"></a>
+# Actividades de final de unidad segundo trimestre
+
+<a id="proyecto-tienda-online-1"></a>
+## Proyecto tienda online
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/202-Actividades%20de%20final%20de%20unidad%20segundo%20trimestre/001-Proyecto%20tienda%20online)
+
+
+<a id="proyecto-ia-para-dietetica"></a>
+## Proyecto IA para dietética
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/202-Actividades%20de%20final%20de%20unidad%20segundo%20trimestre/002-Proyecto%20IA%20para%20diet%C3%A9tica)
+
+
+<a id="proyecto-scrapear-web"></a>
+## Proyecto scrapear web
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/202-Actividades%20de%20final%20de%20unidad%20segundo%20trimestre/003-Proyecto%20scrapear%20web)

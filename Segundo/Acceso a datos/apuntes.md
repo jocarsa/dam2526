@@ -64,6 +64,11 @@
   - [Desarrollo, empaquetado y utilización de componentes](#desarrollo-empaquetado-y-utilizacion-de-componentes)
 - [Actividad libre de final de evaluación - La milla extra](#actividad-libre-de-final-de-evaluacion-la-milla-extra)
   - [La Milla Extra - Primera evaluación](#la-milla-extra-primera-evaluacion)
+- [Actividades final de unidad - Segundo trimestre](#actividades-final-de-unidad-segundo-trimestre)
+  - [Proyecto en el cual me demostréis que podéis leer multiples formatos de archivo](#proyecto-en-el-cual-me-demostreis-que-podeis-leer-multiples-formatos-de-archivo)
+  - [Clase personalizada de conexión y acceso a datos de vuestra elección](#clase-personalizada-de-conexion-y-acceso-a-datos-de-vuestra-eleccion)
+  - [JOCARSA - Chat - ChatGPT personalizado con usuarios](#jocarsa-chat-chatgpt-personalizado-con-usuarios)
+  - [Entrenamiento de una inteligencia artificial semántica - ChromaDB - RAG](#entrenamiento-de-una-inteligencia-artificial-semantica-chromadb-rag)
 
 ---
 
@@ -80,7 +85,7 @@
 Esta carpeta contiene ejercicios prácticos que te ayudarán a comprender y manipular diferentes tipos de archivos en Python. Los problemas trabajados incluyen la creación, lectura y escritura tanto en archivos de texto plano (.txt) como en formatos estructurados como CSV (.csv) y JSON (.json). A través de estos ejercicios, mejorarás tus habilidades para manejar datos en diferentes contextos, aprendiendo a usar módulos específicos como `csv` y `json`, que facilitan la manipulación de archivos en formato tabular o estructurado. Estos conocimientos son fundamentales para cualquier proyecto que involucre el almacenamiento y procesamiento de información externa en programas Python.
 
 ### grabar y leer de txt
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -127,7 +132,7 @@ for linea in lineas:
 ```
 
 ### trabajar con archivos csv
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -168,7 +173,7 @@ for linea in lector:
 ```
 
 ### escribir y leer json
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -204,7 +209,7 @@ archivo.close()
 ```
 
 ### agenda
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -240,7 +245,7 @@ Este tipo de estructura es útil porque permite almacenar datos complejos de man
 ```
 
 ### clientes
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -255,7 +260,7 @@ Esto es un textoEsto es otro texto
 ```
 
 ### datos
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -330,7 +335,7 @@ Estas actividades están diseñadas para proporcionar a los estudiantes una comp
 En esta carpeta, trabajarás con ejercicios que te enseñarán cómo manipular ficheros de texto en Python. Los ejercicios cubren diferentes modos de acceso a archivos (lectura, escritura, apendizaje y creación exclusiva) y sus respectivas implicaciones. A través de estos ejercicios, mejorarás tus habilidades en la gestión de archivos, manejar excepciones relacionadas con el sistema de ficheros y comprenderás las ventajas y desventajas de cada modo de acceso según las necesidades del programa que estés desarrollando.
 
 ### leer y escribir modo texto
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -381,7 +386,7 @@ archivo.close()
 ```
 
 ### clientes
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -458,7 +463,7 @@ Este prólogo es muy conocido por su humor y por dar una perspectiva auto-reflex
 Si necesitas más detalles o análisis específicos sobre algún aspecto del texto, por favor avísame!
 
 ### flujo con la libreria
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -477,7 +482,7 @@ archivo.close()
 ```
 
 ### flujo mejor con libreria
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -508,7 +513,7 @@ print(contenido)
 ```
 
 ### Usar pickle para guardar objetos
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -552,7 +557,7 @@ for elemento in contenido:
 ```
 
 ### pixel
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -577,7 +582,7 @@ print(pixel)
 ```
 
 ### todos los pixeles de la imagen
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -611,7 +616,7 @@ print(pixel)
 ```
 
 ### recorro
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -635,7 +640,7 @@ for x in range(0,tamanio[0]):
 ```
 
 ### escribir
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -659,7 +664,7 @@ img.save("josevicente2.jpeg")
 ```
 
 ### guardar como png
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -683,7 +688,7 @@ img.save("josevicente2.png")
 ```
 
 ### nueva imagen
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -718,7 +723,7 @@ img.save("mensaje.png")
 ```
 
 ### recorro los caracteres
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -756,7 +761,7 @@ img.save("mensaje.png")
 ```
 
 ### agrupamos en grupos de 3
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -796,7 +801,7 @@ img.save("mensaje.png")
 ```
 
 ### agrupamos en grupos de e
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -834,7 +839,7 @@ img.save("mensaje.png")
 ```
 
 ### letras a ascii
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -876,7 +881,7 @@ img.save("mensaje.png")
 ```
 
 ### letras a ascoo
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -917,7 +922,7 @@ img.save("mensaje.png")
 ```
 
 ### guardo los pixeles
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -959,7 +964,7 @@ img.save("mensaje.png")
 ```
 
 ### anchura de la imagen
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1002,7 +1007,7 @@ img.save("mensaje.png")
 ```
 
 ### tamanio dinamico de la imagen
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1053,7 +1058,7 @@ img.save("mensaje.png")
 ```
 
 ### argumentos de consola
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1099,7 +1104,7 @@ img.save(sys.argv[2])
 ```
 
 ### argumentos limpios
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1152,7 +1157,7 @@ img.save(args.salida)
 ```
 
 ### leer
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1193,7 +1198,7 @@ print(pixels)
 ```
 
 ### leer letras una a una
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1229,7 +1234,7 @@ print(pixels)
 ```
 
 ### encadeno a cadena
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1268,7 +1273,7 @@ print(cadena)
 ```
 
 ### encoder
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1327,7 +1332,7 @@ img.save(args.salida)
 ```
 
 ### decoder
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1375,7 +1380,7 @@ print(texto)
 ```
 
 ### supercodificador
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1609,7 +1614,7 @@ if __name__ == "__main__":
 ```
 
 ### clientes
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1626,7 +1631,7 @@ soy un cliente
 ```
 
 ### texto
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1717,7 +1722,7 @@ En esta carpeta de ejercicios, se exploran diferentes métodos para trabajar con
 Estos ejercicios ayudan a desarrollar habilidades clave en manejo de archivos, uso de estructuras de datos avanzadas como tablas hash, y aplicaciones prácticas del cifrado básico para generar claves únicas.
 
 ### archivos secuenciales
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1740,7 +1745,7 @@ for i in range(0,100):
 ```
 
 ### archivos hash table
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1869,7 +1874,7 @@ En esta carpeta de ejercicios se encuentran tres archivos que trabajan con la se
 Estos ejercicios son esenciales para estudiantes de Formación Profesional que buscan desarrollar competencias avanzadas en la manipulación de datos estructurados y el almacenamiento persistente de información en aplicaciones Python.
 
 ### serializacion
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1943,7 +1948,7 @@ archivo.close()
 ```
 
 ### desserializar
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1975,7 +1980,7 @@ print(type(devuelta))
 ```
 
 ### basededatos
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2069,7 +2074,7 @@ Focuses on the development aspects within an ERP/CRM environment.
 Overall, this structure suggests a well-organized approach to covering different aspects of ERP/CRC systems, suitable for both educational purposes and practical application scenarios.
 
 ### Introduccion
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2090,7 +2095,7 @@ Jose Vicente,Carratala,info@jocarsa.com,La calle de Jose Vicente
 ```
 
 ### guardar datos en formato csv
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2116,7 +2121,7 @@ archivo.close()
 ```
 
 ### serializamos
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2140,7 +2145,7 @@ archivo.close()
 ```
 
 ### des serializar
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2163,7 +2168,7 @@ archivo.close()
 ```
 
 ### lo convierto en tupla
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2189,7 +2194,7 @@ archivo.close()
 ```
 
 ### clase con dos metodos
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2238,7 +2243,7 @@ print(type(resultado))  # <class 'tuple'>
 ```
 
 ### repasar arbol de directorios recursivo
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2264,7 +2269,7 @@ for directorio, subdirectorios, archivos in os.walk(ruta):
 ```
 
 ### arbol de archivos y directorios
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2298,7 +2303,7 @@ for directorio, subdirectorios, archivos in os.walk(ruta):
 ```
 
 ### no quiero el subdirectorio
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2329,7 +2334,7 @@ for directorio, subdirectorios, archivos in os.walk(ruta):
 ```
 
 ### formateo
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2360,7 +2365,7 @@ for directorio, subdirectorios, archivos in os.walk(ruta):
 ```
 
 ### archivo
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2391,7 +2396,7 @@ for directorio, subdirectorios, archivos in os.walk(ruta):
 ```
 
 ### emojis
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2422,7 +2427,7 @@ for directorio, subdirectorios, archivos in os.walk(ruta):
 ```
 
 ### metemos ascii
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2453,7 +2458,7 @@ for directorio, subdirectorios, archivos in os.walk(ruta):
 ```
 
 ### metemos ascii vertical
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2480,7 +2485,7 @@ for directorio, subdirectorios, archivos in os.walk(ruta):
 ```
 
 ### extendiendo
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2574,7 +2579,7 @@ draw_tree(ruta, show_hidden=False, max_depth=None)
 ```
 
 ### return en lugar de print
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2679,7 +2684,7 @@ with open("tree.txt", "w", encoding="utf-8") as f:
 ```
 
 ### clientes
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2692,7 +2697,7 @@ Jose Vicente,Carratala,info@jocarsa.com,Jose Vicente,Carratala,info@jocarsa.com
 ```
 
 ### tree
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7210,7 +7215,7 @@ db_data_as_dict = db_dumper.dump_to_json(output_path="output.json")
 This script serves as a powerful tool for applications needing bidirectional mapping between structured JSON and relational databases, providing a bridge between NoSQL-like simplicity and SQL robustness.
 
 ### clientes
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7260,7 +7265,7 @@ clientes = [{
 ```
 
 ### sacamos la estructura del objeto
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7313,7 +7318,7 @@ print(muestra)
 ```
 
 ### recorremos el objeto
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7382,7 +7387,7 @@ for clave in muestra.keys():
 ```
 
 ### importamos mysql
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7462,7 +7467,7 @@ CREATE TABLE `desfase`.`clientes` (`Identificador` INT NOT NULL AUTO_INCREMENT ,
 ```
 
 ### creo un listado de campos
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7565,7 +7570,7 @@ print(cadena)
 ```
 
 ### lanzo la consulta a la base de datos
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7684,7 +7689,7 @@ cursor.execute(cadena)
 ```
 
 ### tabla referenciada
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7939,7 +7944,7 @@ for field, info in child_defs.items():
 ```
 
 ### y ahora tambien metemos los datos
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8230,7 +8235,7 @@ print(f"Registros insertados en `{root_table_i}`: {cursor.rowcount} (último bat
 ```
 
 ### recursivo
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8582,7 +8587,7 @@ if __name__ == "__main__":
 ```
 
 ### lector
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8789,7 +8794,7 @@ for k, v in python_dict_result.items():
 ```
 
 ### demostracion clase
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9308,7 +9313,7 @@ if __name__ == "__main__":
 ```
 
 ### uso de la clase
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9345,7 +9350,7 @@ for k, v in recovered.items():
 ```
 
 ### datos
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9480,7 +9485,7 @@ Este tipo de estructura es útil para aplicaciones que necesitan manejar informa
 ```
 
 ### dump_recuperado
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9615,7 +9620,7 @@ Este archivo JSON es útil para entender el perfil de los clientes y sus compras
 ```
 
 ### jvorm
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -10262,7 +10267,7 @@ This tool can be very useful for applications where you need to store and query 
 Esta carpeta contiene ejercicios que te ayudarán a comprender cómo configurar y utilizar conexiones a bases de datos en un entorno de desarrollo, específicamente enfocándose en la interacción entre Python y SQL para manejar accesos a datos. Los archivos proporcionan una secuencia clara: primero creas un usuario con privilegios adecuados en MySQL (000-prerrequisitos.sql), luego conectas este usuario a una base de datos recién creada desde un script Python (001-conectar con base de datos.py) para crear una tabla, y por último, compruebas la estructura de la base de datos usando SQL nuevamente (002-comprobacion.sql). Estos ejercicios te permitirán practicar la configuración de usuarios y bases de datos, el uso del módulo MySQL Connector en Python para interactuar con una base de datos, y las consultas básicas de SQL para verificar tu trabajo.
 
 ### prerrequisitos
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -10299,7 +10304,7 @@ TO 'accesoadatos2526'@'localhost';
 ```
 
 ### conectar con base de datos
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -10341,7 +10346,7 @@ conexion.close()
 ```
 
 ### comprobacion
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -10412,7 +10417,7 @@ DESCRIBE clientes;
 Esta carpeta contiene ejercicios destinados a practicar la conexión y manipulación de datos en una base de datos MySQL utilizando Python. Los estudiantes aprenderán a establecer conexiones con la base de datos, realizar inserciones de registros y modificar tablas para mejorar su conocimiento sobre el manejo eficiente de bases de datos. Estos ejercicios enfatizan la importancia de asegurar que las operaciones CRUD se realicen correctamente mediante la implementación adecuada de consultas SQL en un entorno programático.
 
 ### insertar un cliente de prueba
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -10455,7 +10460,7 @@ conexion.close()
 ```
 
 ### ejecutar consulta de alteracion
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -10508,7 +10513,7 @@ conexion.close()
 ```
 
 ### inserto cliente con null
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -10595,7 +10600,7 @@ conexion.close()
 En esta carpeta, trabajaremos con ejercicios que te ayudarán a comprender y practicar el manejo de consultas SELECT en bases de datos utilizando Python. Los ejemplos se centran en cómo recuperar datos completos desde una tabla, seleccionar columnas específicas (proyecciones), utilizar alias para mejorar la legibilidad de los campos devueltos y finalmente, cómo configurar el cursor para que las filas sean retornadas como diccionarios, facilitando el acceso a los datos. Estos ejercicios te permitirán fortalecer tus habilidades en la interacción con bases de datos MySQL desde Python, mejorando tu capacidad para manipular y visualizar datos eficientemente.
 
 ### select todo
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -10635,7 +10640,7 @@ conexion.close()
 ```
 
 ### proyecciones
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -10679,7 +10684,7 @@ conexion.close()
 ```
 
 ### alias de campo
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -10721,7 +10726,7 @@ conexion.close()
 ```
 
 ### devuelvo como diccionario
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -10815,7 +10820,7 @@ conexion.close()
 En esta carpeta, encontrarás ejercicios relacionados con el manejo de sentencias SQL para la modificación de datos en una base de datos MySQL utilizando Python. Los tres archivos presentes trabajan con operaciones fundamentales como inserción, actualización y eliminación de registros en una tabla llamada "clientes". Estos ejercicios te ayudarán a comprender cómo interactuar eficazmente con bases de datos para gestionar información, practicando así tus habilidades en el control de transacciones y manipulación de datos.
 
 ### insertar
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -10855,7 +10860,7 @@ conexion.close()
 ```
 
 ### actualizar
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -10892,7 +10897,7 @@ conexion.close()
 ```
 
 ### eliminar
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11056,7 +11061,7 @@ YourSQL.peticion("SELECT * FROM clientes;")
 Este código proporciona una introducción básica a cómo se pueden manejar las operaciones de base de datos utilizando archivos CSV en Python.
 
 ### yoursql
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11084,7 +11089,7 @@ for carpeta in carpetas:
 ```
 
 ### mi propio lenguaje
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11110,7 +11115,7 @@ for carpeta in carpetas:
 ```
 
 ### lo convierto en una clase
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11138,7 +11143,7 @@ class YourSQL():
 ```
 
 ### metodo estatico en python
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11167,7 +11172,7 @@ YourSQL.peticion("SHOW DATABASES;")
 ```
 
 ### ver tablas
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11205,7 +11210,7 @@ YourSQL.peticion("SHOW TABLES;")
 ```
 
 ### usar base de datos
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11242,7 +11247,7 @@ YourSQL.peticion("SHOW TABLES;")
 ```
 
 ### insertar
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11372,7 +11377,7 @@ YourSQL.peticion("INSERT INTO clientes (id, nombre, email, activo) VALUES (1, 'A
 ```
 
 ### seleccionar
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11535,7 +11540,7 @@ YourSQL.peticion("SELECT * FROM clientes;")
 ```
 
 ### externalizar
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11560,7 +11565,7 @@ YourSQL.peticion("SELECT * FROM clientes;")
 ```
 
 ### yoursql
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11902,7 +11907,7 @@ This setup gives you a basic SQL-like system in Python. You can extend it by add
 Esta carpeta contiene una serie de ejercicios en Python que te guiarán a través del manejo de conexiones y transacciones con bases de datos MySQL. Los problemas comienzan desde la conexión básica a una base de datos hasta el desarrollo de clases más complejas para gestionar consultas, devolviendo resultados tanto como texto plano como JSON. Durante estos ejercicios, practicarás competencias fundamentales en programación orientada a objetos y manejo de conexiones a bases de datos, incluyendo la prevención de inyecciones SQL mediante el uso de parámetros seguros.
 
 ### conexion base
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11941,7 +11946,7 @@ conexion.close()
 ```
 
 ### creo una clase
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11986,7 +11991,7 @@ class JVDB():
 ```
 
 ### llamo a la clase
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12035,7 +12040,7 @@ conexion.seleccionar("entradas")
 ```
 
 ### return
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12079,7 +12084,7 @@ print(conexion.seleccionar("entradas"))
 ```
 
 ### return como json
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12126,7 +12131,7 @@ print(conexion.seleccionar("entradas"))
 ```
 
 ### empiezo demostracion
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12147,7 +12152,7 @@ print(conexion.seleccionar("entradas"))
 ```
 
 ### vuelvo al original
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12192,7 +12197,7 @@ print(conexion.seleccionar("entradas"))
 ```
 
 ### vuelvo al original
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12241,7 +12246,7 @@ print(conexion.buscar("entradas","titulo","responsivo"))
 ```
 
 ### clave valor
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12295,7 +12300,7 @@ print(conexion.buscar("entradas", "titulo", "responsivo"))
 ```
 
 ### jvdb006
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12462,7 +12467,7 @@ Estas actividades deberían ayudar a los estudiantes a profundizar en el manejo 
 Este conjunto de ejercicios se enfoca en el manejo avanzado de bases de datos utilizando SQL, especialmente para estudiantes del DAM (Desarrollo de Aplicaciones Multiplataforma). Los problemas abordan desde la creación y manipulación de tablas hasta la implementación de relaciones entre ellas mediante claves foráneas. También se practica la inserción de datos en esas estructuras recién creadas, así como técnicas de selección y unión (JOIN) para recuperar información compleja. Además, se introduce la creación de vistas que simplifican consultas complejas y se termina con el manejo de usuarios y permisos dentro del sistema de gestión de bases de datos. Estos ejercicios son esenciales para desarrollar competencias en diseño de bases de datos relacionales y administración de sistemas SQL.
 
 ### crear tablas
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12499,7 +12504,7 @@ CREATE TABLE Categorias(
 ```
 
 ### insertar
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12529,7 +12534,7 @@ INSERT INTO Piezas VALUES(
 ```
 
 ### fk
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12552,7 +12557,7 @@ ON UPDATE CASCADE;
 ```
 
 ### selecciones
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12569,7 +12574,7 @@ SELECT * FROM Piezas;
 ```
 
 ### left join
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12586,7 +12591,7 @@ ON Piezas.id_categoria = Categorias.Identificador;
 ```
 
 ### ahora creo la vista
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12613,7 +12618,7 @@ SELECT * FROM piezas_y_categorias;
 ```
 
 ### usuario
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12700,7 +12705,7 @@ Estas actividades están diseñadas para ayudar a los estudiantes a familiarizar
 En esta carpeta de ejercicios se trabajan conceptos relacionados con el mapeo objeto-relacional (ORM), una técnica que permite la interacción entre objetos de lenguajes de programación y bases de datos relacionales. Los estudiantes aprenderán a convertir estructuras de datos en objetos Python para su almacenamiento eficiente, utilizando la biblioteca `pickle` como herramienta simplificada de persistencia de objetos. El conjunto de ejercicios incluye desde la creación de una clase simple hasta el proceso de guardar y cargar estos objetos en archivos binarios, lo que ayuda a comprender los fundamentos del manejo de datos persistentes fuera de la memoria del programa.
 
 ### la libreria pickle
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12731,7 +12736,7 @@ print(clientes)
 ```
 
 ### guardar a lo bestia
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12767,7 +12772,7 @@ pickle.dump(clientes,archivo)
 ```
 
 ### cargo de vuelta
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12845,7 +12850,7 @@ Esta carpeta contiene ejercicios que te ayudarán a familiarizarte con la utiliz
 Estos ejercicios te permitirán practicar competencias clave como la manipulación de bases de datos mediante programación, el manejo de conexiones y consultas SQL desde un lenguaje de programación, y el uso de objetos para encapsular funcionalidades relacionadas con acceso a datos. Además, aprenderás cómo implementar y adaptar este patrón en diferentes entornos de desarrollo, como Python y PHP.
 
 ### inicio en python
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12899,7 +12904,7 @@ print(conexion.buscar("entradas", "titulo", "responsivo"))
 ```
 
 ### convierto a php
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12972,7 +12977,7 @@ echo $conexion->buscar("entradas", "titulo", "responsivo");
 ```
 
 ### listado de tablas
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -13219,7 +13224,7 @@ body, html {
 Con estos cambios, tu página web será más atractiva visualmente e interactiva para los usuarios.
 
 ### leer archivo
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -13247,7 +13252,7 @@ for sample in samples:
 ```
 
 ### linea
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -13278,7 +13283,7 @@ print("Imagen generada: linea.png")
 ```
 
 ### mezclar archivos
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -13333,7 +13338,7 @@ img.show()
 ```
 
 ### masbonito
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -13387,7 +13392,7 @@ img.show()
 ```
 
 ### redondeo al final
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -13473,7 +13478,7 @@ img.show()
 ```
 
 ### aplicacion de terminal
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -13712,7 +13717,7 @@ if __name__ == "__main__":
 ```
 
 ### javascript
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -13926,7 +13931,7 @@ btnStop.addEventListener('click', stopCapture);
 ```
 
 ### jarvis
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -14175,7 +14180,7 @@ En resumen, este código proporciona un ejemplo práctico de cómo capturar y mo
 ```
 
 ### rebote ia
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -14579,7 +14584,7 @@ En resumen, este código permite a los usuarios interactuar con un sistema de re
 ```
 
 ### mas rebote IA
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15016,7 +15021,7 @@ En resumen, este código crea un entorno interactivo donde los usuarios pueden h
 ```
 
 ### reproductor audio
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15044,7 +15049,7 @@ En resumen, este código ha simplificado la interfaz del usuario, reemplazando t
 ```
 
 ### contenedor
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15078,7 +15083,7 @@ Este código es útil porque proporciona una experiencia básica y directa al us
 ```
 
 ### un poco de estilo
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15246,7 +15251,7 @@ Este diseño ofrece una experiencia interactiva y visualmente atractiva para los
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/003-Herramientas%20de%20mapeo%20objeto%20relacional%20%28ORM%29/004-Estructura%20de%20un%20fichero%20de%20mapeo)
 
 ### index
-<small>Creado: 2026-01-08 19:19</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `index.html`
 
@@ -15369,7 +15374,7 @@ En general, se buscan desarrollar las competencias siguientes:
 * Aplicar operadores y comparaciones para obtener resultados relevantes.
 
 ### creo base de datos de prueba
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15425,7 +15430,7 @@ INSERT INTO frases (texto, autor) VALUES
 ```
 
 ### coincidencia exacta
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15442,7 +15447,7 @@ WHERE
 ```
 
 ### coincidencia parcial
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15464,7 +15469,7 @@ WHERE
 ```
 
 ### otro planteamiento
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15483,7 +15488,7 @@ WHERE
 ```
 
 ### concepto de similitud
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15580,7 +15585,7 @@ Al trabajar a través de estos desafíos, desarrollarás habilidades clave como:
 Estes desafíos te permiten aplicar estos conceptos en un entorno práctico, experimentando con diferentes frases y vemos cómo la similitud se puede determinar y cómo se pueden encontrar documentos que se ajusten mejor a una búsqueda.
 
 ### instalamos chroma en python
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15597,7 +15602,7 @@ pip install chromadb
 ```
 
 ### convertir frases a embedding con ollama
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15616,7 +15621,7 @@ ollama pull nomic-embed-text
 ```
 
 ### obtener embedding
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15652,7 +15657,7 @@ print(vector[:10])
 ```
 
 ### guardar embeddings en chroma
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15775,7 +15780,7 @@ print(embeddings)
 ```
 
 ### ahora si que los guardo
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15909,7 +15914,7 @@ print("✅ Frases insertadas en Chroma y base persistida en ./chroma_ollama_fras
 ```
 
 ### busqueda de similitud
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16022,7 +16027,7 @@ for doc, meta, dist, _id in zip(docs, metas, dists, ids):
 ```
 
 ### mejor candidato
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16123,7 +16128,7 @@ print(f"Frase:  {mejor_doc}")
 ```
 
 ### otra prueba
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16274,7 +16279,7 @@ Los ejercicios están organizados en tres archivos principales:
 En general, se busca que los estudiantes comprendan cómo integrar estas herramientas para crear una aplicación funcional y escalable.
 
 ### entrenar
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16445,7 +16450,7 @@ print("Base vectorial en: ./chroma_ollama_corpus (colección: corpus_clases_md)"
 ```
 
 ### probar
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16549,7 +16554,7 @@ while True:
 ```
 
 ### app
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16726,7 +16731,7 @@ if __name__ == "__main__":
 ```
 
 ### Archivo sin título
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16841,7 +16846,7 @@ Aquí te presento una lista de actividades para el alumnado basadas en los ejerc
 Esta carpeta contiene un conjunto de ejercicios diseñados para introducir a los estudiantes a las bases de datos documentales nativas, específicamente MongoDB. Los ejercicios abarcan desde la creación y manejo de una base de datos hasta la inserción, consulta y actualización de documentos JSON. Estos ejercicios ayudan a desarrollar competencias clave en el uso de lenguajes como JavaScript para interactuar con bases de datos no relacionales, así como la comprensión de formatos de documentos como XML y JSON. Los estudiantes aprenderán cómo estructurar y manipular datos en una base de datos documental, realizando operaciones básicas y avanzadas.
 
 ### crear base de datos
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16858,7 +16863,7 @@ use empresadam;
 ```
 
 ### crear coleccion
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16871,7 +16876,7 @@ db.createCollection("clientes");
 ```
 
 ### insertar un cliente
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16889,7 +16894,7 @@ db.clientes.insertOne({
 ```
 
 ### inserto objeto complejo
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16915,7 +16920,7 @@ db.clientes.insertOne({
 ```
 
 ### inserto muchos
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16953,7 +16958,7 @@ db.clientes.insertMany(
 ```
 
 ### seleccionamos clientes
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16970,7 +16975,7 @@ db.clientes.find()
 ```
 
 ### solo el primer elemento
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16985,7 +16990,7 @@ db.clientes.findOne()
 ```
 
 ### where
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17002,7 +17007,7 @@ db.clientes.find({email:'info@juan.com'})
 ```
 
 ### actualizar uno
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17021,7 +17026,7 @@ db.clientes.updateOne(
 ```
 
 ### actualiza muchos
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17042,7 +17047,7 @@ db.clientes.updateMany(
 ```
 
 ### eliminar uno
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17059,7 +17064,7 @@ db.clientes.deleteOne(
 ```
 
 ### delete many
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17116,7 +17121,7 @@ Esta carpeta contiene ejercicios relacionados con el envío de solicitudes HTTP 
 Es importante notar que aunque los ejercicios se centran en la detección de objetos en imágenes con Python y un modelo específico, el objetivo principal es entender cómo estructurar y enviar peticiones a APIs para obtener información basada en datos proporcionados.
 
 ### detectar imagen
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17146,7 +17151,7 @@ print(r.json()["response"])
 ```
 
 ### perro
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17214,7 +17219,7 @@ print(r.json()["response"])
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/005-Bases%20de%20datos%20documentales/003-Colecciones%20y%20documentos)
 
 ### prueba
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `002-prueba.json`
 
@@ -17233,7 +17238,7 @@ print(r.json()["response"])
 ```
 
 ### memento
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `003-memento.html`
 
@@ -17473,7 +17478,7 @@ print(r.json()["response"])
 ```
 
 ### mejoras
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `004-mejoras.html`
 
@@ -17866,7 +17871,7 @@ print(r.json()["response"])
 ```
 
 ### navegacion
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `005-navegacion.html`
 
@@ -18312,7 +18317,7 @@ print(r.json()["response"])
 ```
 
 ### buscador
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `006-buscador.html`
 
@@ -18815,7 +18820,7 @@ print(r.json()["response"])
 ```
 
 ### burbujas
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `007-burbujas.html`
 
@@ -19414,7 +19419,7 @@ print(r.json()["response"])
 ```
 
 ### guardar
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `008-guardar.html`
 
@@ -20091,7 +20096,7 @@ print(r.json()["response"])
 ```
 
 ### lineas
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `009-lineas.html`
 
@@ -20775,7 +20780,7 @@ print(r.json()["response"])
 ```
 
 ### lineas mas
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `010-lineas mas.html`
 
@@ -21423,7 +21428,7 @@ print(r.json()["response"])
 ```
 
 ### memories
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `memories.json`
 
@@ -21477,7 +21482,7 @@ print(r.json()["response"])
 ```
 
 ### save_memories
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `save_memories.php`
 
@@ -21522,7 +21527,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/005-Bases%20de%20datos%20documentales/004-Creaci%C3%B3n%20y%20borrado%20de%20colecciones)
 
 ### estado inicial
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `001-estado inicial.html`
 
@@ -22170,7 +22175,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 ```
 
 ### fusion de proyectos
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `002-fusion de proyectos.html`
 
@@ -23102,7 +23107,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 ```
 
 ### recuerdos se agrupan
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `003-recuerdos se agrupan.html`
 
@@ -23847,7 +23852,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 ```
 
 ### agrupamiento mejor
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `004-agrupamiento mejor.html`
 
@@ -24604,7 +24609,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 ```
 
 ### espaciado entre burbujas
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `005-espaciado entre burbujas.html`
 
@@ -25370,7 +25375,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 ```
 
 ### colores
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `006-colores.html`
 
@@ -26367,7 +26372,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 ```
 
 ### aprendizaje
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `007-aprendizaje.html`
 
@@ -27391,7 +27396,7 @@ inner.addColorStop(1, rgbToCss(this.tint, 0.95));
 ```
 
 ### memories
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `memories.json`
 
@@ -30441,7 +30446,7 @@ inner.addColorStop(1, rgbToCss(this.tint, 0.95));
 ```
 
 ### memories_old
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `memories_old.json`
 
@@ -30897,7 +30902,7 @@ inner.addColorStop(1, rgbToCss(this.tint, 0.95));
 ```
 
 ### save_memories
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `save_memories.php`
 
@@ -31063,3 +31068,31 @@ En esta actividad libre, los estudiantes tienen la oportunidad de demostrar su c
 ### Actividad 10: Presentación Markdown como Diapositivas
 
 **Descripción:** Utiliza herramientas específicas para convertir archivos markdown en presentaciones de diapositivas. Los estudiantes deben aprender cómo aprovechar el formato markdown no solo para la documentación, sino también para la creación de presentaciones.
+
+
+
+<a id="actividades-final-de-unidad-segundo-trimestre"></a>
+# Actividades final de unidad - Segundo trimestre
+
+<a id="proyecto-en-el-cual-me-demostreis-que-podeis-leer-multiples-formatos-de-archivo"></a>
+## Proyecto en el cual me demostréis que podéis leer multiples formatos de archivo
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/301-Actividades%20final%20de%20unidad%20-%20Segundo%20trimestre/001-Proyecto%20en%20el%20cual%20me%20demostr%C3%A9is%20que%20pod%C3%A9is%20leer%20multiples%20formatos%20de%20archivo)
+
+
+<a id="clase-personalizada-de-conexion-y-acceso-a-datos-de-vuestra-eleccion"></a>
+## Clase personalizada de conexión y acceso a datos de vuestra elección
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/301-Actividades%20final%20de%20unidad%20-%20Segundo%20trimestre/002-Clase%20personalizada%20de%20conexi%C3%B3n%20y%20acceso%20a%20datos%20de%20vuestra%20elecci%C3%B3n)
+
+
+<a id="jocarsa-chat-chatgpt-personalizado-con-usuarios"></a>
+## JOCARSA - Chat - ChatGPT personalizado con usuarios
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/301-Actividades%20final%20de%20unidad%20-%20Segundo%20trimestre/003-JOCARSA%20-%20Chat%20-%20ChatGPT%20personalizado%20con%20usuarios)
+
+
+<a id="entrenamiento-de-una-inteligencia-artificial-semantica-chromadb-rag"></a>
+## Entrenamiento de una inteligencia artificial semántica - ChromaDB - RAG
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Acceso%20a%20datos/301-Actividades%20final%20de%20unidad%20-%20Segundo%20trimestre/004-%20Entrenamiento%20de%20una%20inteligencia%20artificial%20sem%C3%A1ntica%20-%20ChromaDB%20-%20RAG)

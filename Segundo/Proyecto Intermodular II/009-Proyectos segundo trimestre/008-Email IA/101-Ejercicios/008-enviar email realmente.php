@@ -13,7 +13,7 @@ const SMTP_FROM_NAME = 'Dictado IA';
 
 
 // === CONFIGURACIÓN DE LA API REMOTA (MISMA QUE EN TU SERVIDOR) ===
-$API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+$API_URL = "https://covalently-untasked-d****.ngrok-free.dev/api.php";
 $API_KEY = "TEST_API_KEY_JOCARSA_123";
 
 // --- Formateo del cuerpo como correo elegante ---

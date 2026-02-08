@@ -1,6 +1,6 @@
 # Programación — Estado de ejercicios
 
-Generado: 2026-01-16 09:00
+Generado: 2026-02-08 14:00
 
 ---
 
@@ -117,11 +117,17 @@ Generado: 2026-01-16 09:00
 - 🔴 Libreria requests
 - 🔴 shorttags php
 - 🔴 salvapantallas
+- 🔴 Web Logos
+- 🟢 Proyecto dibujantes — 2026-01-29
+- 🟢 Proyecto Parallax — 2026-02-05
+- 🟢 Copia de seguridad — 2026-02-05
+- 🟢 Analisis de logs apache — 2026-02-05
 
 
 ## Inteligencia Artificial
 
 - 🟢 IA inicial — 2026-01-08
+- 🟢 Entrenar IA personalizada — 2026-01-22
 
 
 ## Milla Extra Evaluacion 1
@@ -131,3 +137,12 @@ _Sin subunidades_
 ## Actividad libre de final de evaluación - La milla extra
 
 - 🟢 La Milla Extra - Primera evaluación — 2025-10-13
+
+
+## Actividades de final de unidad segundo trimestre
+
+- 🟢 Proyecto formularios CRM — 2025-10-13
+- 🟢 Panel de control de tienda online — 2025-10-13
+- 🟢 Proyecto SalvantallasNetflix — 2025-10-13
+- 🟢 IA inicial — 2025-10-13
+- 🟢 Entrenar IA — 2025-10-13

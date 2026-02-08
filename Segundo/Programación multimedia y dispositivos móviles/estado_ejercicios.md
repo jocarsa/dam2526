@@ -1,6 +1,6 @@
 # Programación multimedia y dispositivos móviles — Estado de ejercicios
 
-Generado: 2026-01-16 09:00
+Generado: 2026-02-08 14:00
 
 ---
 
@@ -74,3 +74,12 @@ Generado: 2026-01-16 09:00
 ## Actividad libre de final de evaluación - La milla extra
 
 - 🟢 La Milla Extra - Primera evaluación — 2025-10-13
+
+
+## Actividades final de unidad - Segundo trimestre
+
+- 🟢 Crear un videojuego — 2025-10-13
+- 🟢 Proyecto serious games — 2025-10-13
+- 🟢 Reproductor multimedia personalizado — 2025-10-13
+- 🟢 Sintesis de sonido — 2025-10-13
+- 🟢 Desarrollo de aplicaciones móviles — 2025-10-13

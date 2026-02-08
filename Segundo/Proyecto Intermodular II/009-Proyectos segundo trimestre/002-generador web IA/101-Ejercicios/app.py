@@ -9,7 +9,7 @@ app = Flask(__name__)
 # =========================================================
 
 # --- Remote API (PHP + Ollama/LLM behind it) ---
-API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php"
+API_URL = "https://covalently-untasked-d****.ngrok-free.dev/api.php"
 API_KEY = "TEST_API_KEY_JOCARSA_123"
 REMOTE_VERIFY_SSL = False  # ngrok often needs verify=False
 REMOTE_TIMEOUT_SECONDS = 300

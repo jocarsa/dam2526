@@ -25,7 +25,7 @@ The provided configuration and styling files for a Dark Salmon (darksalmon) them
    define('DS_DB_HOST', 'localhost');
    define('DS_DB_NAME', 'darksalmon'); // Ensure the database name is correct
    define('DS_DB_USER', 'darksalmon'); // Ensure secure handling of credentials
-   define('DS_DB_PASS', 'Lielolilo123$'); // Use a strong, secure password
+   define('DS_DB_PASS', '******'); // Use a strong, secure password
    define('DS_DB_CHAR', 'utf8mb4');
 
    function ds_pdo(): PDO {

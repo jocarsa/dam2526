@@ -1,6 +1,6 @@
 # Entornos de desarrollo — Estado de ejercicios
 
-Generado: 2026-01-16 09:00
+Generado: 2026-02-08 14:00
 
 ---
 
@@ -85,8 +85,17 @@ Generado: 2026-01-16 09:00
 - 🟢 get y post en PHP — 2025-11-24
 - 🟢 recuperacion de emails con imap — 2025-12-01
 - 🔴 html como pug
+- 🔴 creacion de panel de administracion
 
 
 ## Actividad libre de final de evaluación - La milla extra
 
 - 🟢 La Milla Extra - Primera evaluación — 2025-10-13
+
+
+## Actividades de final de unidad segundo trimestre
+
+- 🟢 Panel de administración para proyecto juguetes — 2025-10-13
+- 🟢 HTML como pug — 2025-10-13
+- 🟢 Recuperación de emails con IMAP — 2025-10-13
+- 🟢 Panel de control con GET y POST — 2025-10-13

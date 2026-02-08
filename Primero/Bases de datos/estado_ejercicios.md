@@ -1,6 +1,6 @@
 # Bases de datos — Estado de ejercicios
 
-Generado: 2026-01-16 09:00
+Generado: 2026-02-08 14:00
 
 ---
 
@@ -101,3 +101,10 @@ Generado: 2026-01-16 09:00
 ## Actividad libre de final de evaluación - La milla extra
 
 - 🟢 La Milla Extra - Primera evaluación — 2025-10-13
+
+
+## Actividades de final de unidad segundo trimestre
+
+- 🟢 Proyecto tienda online — 2025-10-13
+- 🟢 Proyecto IA para dietética — 2025-10-13
+- 🟢 Proyecto scrapear web — 2025-10-13

@@ -1036,7 +1036,7 @@ if __name__ == "__main__":
     "host": "smtp.ionos.es",
     "port": 587,
     "usuario": "info@jocarsa.com",
-    "password": "Lielolilo123$",
+    "password": "******",
     "use_starttls": true,
     "use_ssl": false,
     "from_email": "python@jocarsa.com",

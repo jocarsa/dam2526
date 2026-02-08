@@ -52,8 +52,13 @@
   - [descripciones con IA](#descripciones-con-ia)
   - [Agente IA](#agente-ia)
   - [Conceptos tratados en clase IA](#conceptos-tratados-en-clase-ia)
+  - [IA a partir de PDF](#ia-a-partir-de-pdf)
 - [Actividad libre de final de evaluación - La milla extra](#actividad-libre-de-final-de-evaluacion-la-milla-extra)
   - [La Milla Extra - Primera evaluación](#la-milla-extra-primera-evaluacion)
+- [Actividades final de unidad - Segundo trimestre](#actividades-final-de-unidad-segundo-trimestre)
+  - [Entrenamiento de IA personalizada](#entrenamiento-de-ia-personalizada)
+  - [IA generativa](#ia-generativa)
+  - [Agente IA](#agente-ia-1)
 
 ---
 
@@ -193,7 +198,7 @@ Al adoptar esta estructura organizativa y estratégica, nuestra empresa de IA es
 Esta carpeta contiene ejercicios que exploran la identificación y priorización de necesidades para el desarrollo de productos de Inteligencia Artificial (IA) orientados a pequeñas y medianas empresas (Pymes) en Valencia. Los problemas abordados giran en torno al análisis del mercado, la detección de oportunidades de negocio basadas en IA, y la definición de proyectos tecnológicos que responden a las demandas específicas de estas empresas. Estos ejercicios ayudarán a los estudiantes a comprender cómo identificar necesidades empresariales reales, diseñar soluciones prácticas y escalables, y estructurar modelos de negocio viables para la implementación de tecnologías emergentes en entornos Pyme.
 
 ### Oportunidades de negocio previsibles en el sector
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -838,7 +843,7 @@ Estas actividades están diseñadas para que los estudiantes apliquen los conoci
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/008-Proyectos/001-empresarialIA)
 
 ### servidor
-<small>Creado: 2025-12-23 15:24</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `001-servidor.py`
 
@@ -934,7 +939,7 @@ except Exception as e:
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/008-Proyectos/002-agente%20virtual)
 
 ### index
-<small>Creado: 2025-12-23 15:24</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `001-index.html`
 
@@ -1125,7 +1130,7 @@ except Exception as e:
 ```
 
 ### agente me sigue
-<small>Creado: 2025-12-23 15:24</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `002-agente me sigue.html`
 
@@ -1394,7 +1399,7 @@ except Exception as e:
 ```
 
 ### correcciones
-<small>Creado: 2025-12-23 15:24</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `003-correcciones.html`
 
@@ -1614,7 +1619,7 @@ except Exception as e:
 ```
 
 ### eje vertical
-<small>Creado: 2025-12-23 15:24</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `004-eje vertical.html`
 
@@ -1835,7 +1840,7 @@ except Exception as e:
 ```
 
 ### multiplicadores
-<small>Creado: 2025-12-23 15:24</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `005-multiplicadores.html`
 
@@ -2065,7 +2070,7 @@ except Exception as e:
 ```
 
 ### el agente me escucha
-<small>Creado: 2025-12-23 15:24</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `006-el agente me escucha.html`
 
@@ -2428,7 +2433,7 @@ except Exception as e:
 ```
 
 ### escuchad2
-<small>Creado: 2025-12-23 15:24</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `007-escuchad2.html`
 
@@ -2821,7 +2826,7 @@ except Exception as e:
 ```
 
 ### habla
-<small>Creado: 2025-12-23 15:24</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `008-habla.html`
 
@@ -3269,7 +3274,7 @@ except Exception as e:
 ```
 
 ### escoger voz
-<small>Creado: 2025-12-23 15:24</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `009-escoger voz.html`
 
@@ -3699,7 +3704,7 @@ except Exception as e:
 ```
 
 ### lip sync
-<small>Creado: 2025-12-23 15:24</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `010-lip sync.html`
 
@@ -4242,7 +4247,7 @@ except Exception as e:
 ```
 
 ### arreglo parpadeo
-<small>Creado: 2025-12-23 15:24</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `011-arreglo parpadeo.html`
 
@@ -4843,7 +4848,7 @@ Estas actividades están diseñadas no solo para que los estudiantes comprendan 
 Esta carpeta contiene una serie de ejercicios SQL diseñados para familiarizarte con los conceptos básicos y avanzados del manejo de bases de datos. Los problemas trabajan desde la creación de tablas, inserción de datos hasta la implementación de claves foráneas y consultas JOIN. También se practica la creación de vistas que combinan datos de múltiples tablas para facilitar la visualización y el acceso a información relevante. Finalmente, los ejercicios incluyen la gestión de usuarios y privilegios en MySQL, lo cual es crucial para entender cómo controlar el acceso a las bases de datos.
 
 ### crear tablas
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -4880,7 +4885,7 @@ CREATE TABLE Categorias(
 ```
 
 ### insertar
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -4908,7 +4913,7 @@ INSERT INTO Piezas VALUES(
 ```
 
 ### fk
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -4931,7 +4936,7 @@ ON UPDATE CASCADE;
 ```
 
 ### selecciones
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -4950,7 +4955,7 @@ SELECT * FROM Piezas;
 ```
 
 ### left join
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -4971,7 +4976,7 @@ ON Piezas.id_categoria = Categorias.Identificador;
 ```
 
 ### ahora creo la vista
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -5000,7 +5005,7 @@ SELECT * FROM piezas_y_categorias;
 ```
 
 ### usuario
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -5127,7 +5132,7 @@ mi_proyecto/
 - Es recomendable tener acceso a una computadora con conexión estable y suficientes recursos para completar el proceso sin interrupciones.
 
 ### videos
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -5340,7 +5345,7 @@ if __name__ == "__main__":
 ```
 
 ### transcripciones
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -5970,7 +5975,7 @@ if __name__ == "__main__":
 ```
 
 ### resumenes
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6136,7 +6141,7 @@ if __name__ == "__main__":
 ```
 
 ### listas
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6219,7 +6224,7 @@ Este conjunto de ejercicios se centra en la creación de una aplicación web que
 A través de este ejercicio, los estudiantes practicarán habilidades fundamentales como el desarrollo backend en Python, el uso de marcos web como Flask para crear aplicaciones web dinámicas, y cómo integrar servicios de inteligencia artificial en sus proyectos.
 
 ### app
-<small>Creado: 2025-12-26 21:43</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6247,7 +6252,7 @@ app = Flask(__name__)
 # =========================================================
 
 # --- Remote API (PHP + Ollama/LLM behind it) ---
-API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php"
+API_URL = "https://covalently-untasked-d****.ngrok-free.dev/api.php"
 API_KEY = "TEST_API_KEY_JOCARSA_123"
 REMOTE_VERIFY_SSL = False  # ngrok often needs verify=False
 REMOTE_TIMEOUT_SECONDS = 300
@@ -6551,7 +6556,7 @@ Este conjunto de archivos provee un marco completo para aprender y aplicar técn
 Si tienes alguna pregunta o necesitas más detalles sobre cualquier parte del proceso, por favor avísame!
 
 ### entrenar
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6810,7 +6815,7 @@ if __name__ == "__main__":
 ```
 
 ### probar
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7046,7 +7051,7 @@ if __name__ == "__main__":
 ```
 
 ### training_data
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7292,7 +7297,7 @@ Ana ha decidido cursar DAW en el turno de tarde y está esperando la formalizaci
 Si Ana necesita ayuda adicional con los trámites o cualquier otra pregunta sobre el ciclo formativo, María estará disponible para ayudarla.
 
 ### whatsapp a jsonl
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7607,7 +7612,7 @@ if __name__ == "__main__":
 ```
 
 ### entrenamiento
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7860,7 +7865,7 @@ if __name__ == "__main__":
 ```
 
 ### probar
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8090,7 +8095,7 @@ if __name__ == "__main__":
 ```
 
 ### probar interactivo
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8227,7 +8232,7 @@ if __name__ == "__main__":
 ```
 
 ### app
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8363,7 +8368,7 @@ if __name__ == "__main__":
 ```
 
 ### conversacion
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8413,7 +8418,7 @@ Es importante porque permite al chatbot entender mejor las consultas comunes de 
 ```
 
 ### conversacion
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8628,7 +8633,7 @@ El script es útil para la generación automática de conjuntos de preguntas y r
 Este script proporciona una base sólida para generar Q&A a partir de transcripciones de texto, con potencial para ser adaptado o extendido según las necesidades específicas del usuario.
 
 ### prompt
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9071,7 +9076,7 @@ if __name__ == "__main__":
 ```
 
 ### pdf a md
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9105,7 +9110,7 @@ if __name__ == "__main__":
 ```
 
 ### prueba
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9147,7 +9152,7 @@ if __name__ == "__main__":
 ```
 
 ### md a jsonl
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9798,7 +9803,7 @@ if __name__ == "__main__":
 ```
 
 ### streaming
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -10436,7 +10441,7 @@ if __name__ == "__main__":
 ```
 
 ### estadisticas
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11325,7 +11330,7 @@ Funciones clave:
 El script es modular y bien estructurado, con funciones específicas para tareas como normalizar texto, dividir en bloques, generar Q&A y manejar la salida. También incluye características útiles como seguimiento del progreso y registro de logs.
 
 ### Entrar en una web
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11354,7 +11359,7 @@ except requests.exceptions.RequestException as e:
 ```
 
 ### guardar web
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11399,7 +11404,7 @@ except requests.exceptions.RequestException as e:
 ```
 
 ### adivinar nombre de la web
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11475,7 +11480,7 @@ except requests.exceptions.RequestException as e:
 ```
 
 ### timeout entre paginas
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11643,7 +11648,7 @@ if __name__ == "__main__":
 ```
 
 ### tambien quiero los pdf
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11861,7 +11866,7 @@ if __name__ == "__main__":
 ```
 
 ### entrenar IA con todos los materiales
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12772,7 +12777,7 @@ Con estas modificaciones, el script puede ser más eficiente y flexible para man
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/009-Proyectos%20segundo%20trimestre/007-interfaz%20natural%20IA)
 
 ### inicio
-<small>Creado: 2025-12-23 15:27</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `001-inicio.html`
 
@@ -13193,7 +13198,7 @@ Con estas modificaciones, el script puede ser más eficiente y flexible para man
 ```
 
 ### un solo widget
-<small>Creado: 2025-12-23 15:27</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `002-un solo widget.html`
 
@@ -13610,7 +13615,7 @@ Con estas modificaciones, el script puede ser más eficiente y flexible para man
 ```
 
 ### desfase facial con mediapipe
-<small>Creado: 2025-12-23 15:27</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `003-desfase facial con mediapipe.html`
 
@@ -14273,7 +14278,7 @@ Here's an updated version of the code with some minor improvements:
 Note that I've removed some unnecessary code and made a few minor improvements to the code organization and accessibility.
 
 ### envio smtp
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -14326,7 +14331,7 @@ except Exception as e:
 ```
 
 ### primera version
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -14351,7 +14356,7 @@ En resumen, este código permite a los usuarios ingresar un texto dictado y form
 // Guarda este archivo como, por ejemplo, email_dictado.php
 
 // === CONFIGURACIÓN DE LA API REMOTA (igual que en tu script de Python) ===
-$API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+$API_URL = "https://covalently-untasked-d****.ngrok-free.dev/api.php";
 $API_KEY = "TEST_API_KEY_JOCARSA_123"; // cambia por tu API key real
 
 $textoOriginal   = '';
@@ -14537,7 +14542,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ```
 
 ### segunda version
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -14558,7 +14563,7 @@ Este script es importante porque demuestra cómo se pueden utilizar APIs remotas
 // Guarda este archivo como, por ejemplo, email_dictado.php
 
 // === CONFIGURACIÓN DE LA API REMOTA (igual que en tu script de Python) ===
-$API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+$API_URL = "https://covalently-untasked-d****.ngrok-free.dev/api.php";
 $API_KEY = "TEST_API_KEY_JOCARSA_123"; // cambia por tu API key real
 
 $textoOriginal   = '';
@@ -14750,7 +14755,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ```
 
 ### interfaces natural
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -14769,7 +14774,7 @@ Es importante destacar que este código utiliza la API de reconocimiento de voz 
 // Guarda este archivo como, por ejemplo, email_dictado_voz.php
 
 // === CONFIGURACIÓN DE LA API REMOTA (igual que en tu script de Python) ===
-$API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+$API_URL = "https://covalently-untasked-d****.ngrok-free.dev/api.php";
 $API_KEY = "TEST_API_KEY_JOCARSA_123"; // cambia por tu API key real
 
 $textoOriginal   = '';
@@ -15132,7 +15137,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ```
 
 ### mejoras
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15142,7 +15147,7 @@ La página web utiliza la API de reconocimiento de voz del navegador (Web Speech
 
 El código utiliza una función `ajustarFormatoEmail` que limpia y forma el texto original según las normas del formato de correo electrónico. Esta función utiliza expresiones regulares para eliminar espacios a la derecha, reducir grupos largos de líneas en blanco y asegurar que la línea en blanco tras el saludo o antes del cierre sea correcta.
 
-El código también envía una petición cURL a una API remota personalizada (`https://covalently-untasked-daphne.ngrok-free.dev/api.php`) con los datos de texto dictado y solicitando una respuesta en formato JSON. La API remota debe devolver la versión corregida del texto en formato de correo electrónico.
+El código también envía una petición cURL a una API remota personalizada (`https://covalently-untasked-d****.ngrok-free.dev/api.php`) con los datos de texto dictado y solicitando una respuesta en formato JSON. La API remota debe devolver la versión corregida del texto en formato de correo electrónico.
 
 Este código es importante para desarrollar aplicaciones que permitan al usuario dictar texto y obtener su versión corregida en diferentes formatos, como correos electrónicos.
 
@@ -15153,7 +15158,7 @@ Este código es importante para desarrollar aplicaciones que permitan al usuario
 // Guarda este archivo como, por ejemplo, email_dictado_voz.php
 
 // === CONFIGURACIÓN DE LA API REMOTA (igual que en tu script de Python) ===
-$API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+$API_URL = "https://covalently-untasked-d****.ngrok-free.dev/api.php";
 $API_KEY = "TEST_API_KEY_JOCARSA_123"; // cambia por tu API key real
 
 $textoOriginal   = '';
@@ -15516,7 +15521,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ```
 
 ### corazon
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15608,7 +15613,7 @@ Note that this is just one possible refactoring, and there are many ways to impr
 // dictado_email.php
 
 // === CONFIGURACIÓN DE LA API REMOTA ===
-$API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+$API_URL = "https://covalently-untasked-d****.ngrok-free.dev/api.php";
 $API_KEY = "TEST_API_KEY_JOCARSA_123"; // cambia por tu API key real
 
 function ajustarFormatoEmail(string $texto): string
@@ -16299,7 +16304,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['ajax']) && $_POST['aj
 ```
 
 ### tema claro y mejoras en la redaccion
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16333,7 +16338,7 @@ En resumen, aunque el código proporcionado es básico y funcional, hay varias o
 // dictado_email.php
 
 // === CONFIGURACIÓN DE LA API REMOTA ===
-$API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+$API_URL = "https://covalently-untasked-d****.ngrok-free.dev/api.php";
 $API_KEY = "TEST_API_KEY_JOCARSA_123"; // cambia por tu API key real
 
 function ajustarFormatoEmail(string $texto): string
@@ -17013,7 +17018,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['ajax']) && $_POST['aj
 ```
 
 ### simulacion de email
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17048,7 +17053,7 @@ Overall, this code provides a basic structure for a speech recognition-based dic
 // cliente_correo.php
 
 // === CONFIGURACIÓN DE LA API REMOTA ===
-$API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+$API_URL = "https://covalently-untasked-d****.ngrok-free.dev/api.php";
 $API_KEY = "TEST_API_KEY_JOCARSA_123"; // cambia por tu API key real
 
 // --- Formateo especial del cuerpo como correo elegante ---
@@ -17859,7 +17864,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['ajax']) && $_POST['aj
 ```
 
 ### enviar email realmente
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17918,7 +17923,7 @@ const SMTP_FROM_NAME = 'Dictado IA';
 
 
 // === CONFIGURACIÓN DE LA API REMOTA (MISMA QUE EN TU SERVIDOR) ===
-$API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+$API_URL = "https://covalently-untasked-d****.ngrok-free.dev/api.php";
 $API_KEY = "TEST_API_KEY_JOCARSA_123";
 
 // --- Formateo del cuerpo como correo elegante ---
@@ -18906,7 +18911,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send_email']) && $_PO
 ```
 
 ### cliente email
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -18999,7 +19004,7 @@ const IMAP_FLAGS = '/imap/ssl'; // Ajustable si tu servidor requiere otro flag
 // ============================================
 // CONFIGURACIÓN DE LA API REMOTA (IA)
 // ============================================
-$API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+$API_URL = "https://covalently-untasked-d****.ngrok-free.dev/api.php";
 $API_KEY = "TEST_API_KEY_JOCARSA_123";
 
 // ============================================
@@ -20580,7 +20585,7 @@ if ($replyMode && $selectedEmail) {
 ```
 
 ### prueba final
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -20723,7 +20728,7 @@ const IMAP_FLAGS = '/imap/ssl'; // Ajustable si tu servidor requiere otro flag
 // ============================================
 // CONFIGURACIÓN DE LA API REMOTA (IA)
 // ============================================
-$API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+$API_URL = "https://covalently-untasked-d****.ngrok-free.dev/api.php";
 $API_KEY = "TEST_API_KEY_JOCARSA_123";
 
 // ============================================
@@ -22316,7 +22321,7 @@ if ($replyMode && $selectedEmail) {
 ```
 
 ### version con UI modificada
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `011-version con UI modificada.php`
 
@@ -22350,7 +22355,7 @@ const IMAP_FLAGS = '/imap/ssl'; // Ajustable si tu servidor requiere otro flag
 // ============================================
 // CONFIGURACIÓN DE LA API REMOTA (IA)
 // ============================================
-$API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+$API_URL = "https://covalently-untasked-d****.ngrok-free.dev/api.php";
 $API_KEY = "TEST_API_KEY_JOCARSA_123";
 
 // ============================================
@@ -24022,7 +24027,7 @@ th, td {
 Esta es solo una posible versión refactoreada del código, y hay muchas otras formas de mejorarlo.
 
 ### Primera version
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -24047,7 +24052,7 @@ Este es un ejemplo básico de cómo interactuar con APIs remotas para obtener re
 // envía el contenido del CV + la pregunta a tu API de IA y muestra la respuesta.
 
 // === CONFIGURACIÓN DE LA API REMOTA (MISMA QUE EN TU SERVIDOR) ===
-$API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+$API_URL = "https://covalently-untasked-d****.ngrok-free.dev/api.php";
 $API_KEY = "TEST_API_KEY_JOCARSA_123";
 
 // -----------------------------------------------------------------------------
@@ -24376,7 +24381,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ```
 
 ### mas preguntas
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -24563,7 +24568,7 @@ Este código muestra los resultados del análisis en una tabla. Los valores se d
 // y muestra las respuestas en una tabla (una sola fila).
 
 // === CONFIGURACIÓN DE LA API REMOTA ===
-$API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+$API_URL = "https://covalently-untasked-d****.ngrok-free.dev/api.php";
 $API_KEY = "TEST_API_KEY_JOCARSA_123";
 
 // -----------------------------------------------------------------------------
@@ -24989,7 +24994,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ```
 
 ### tabla con json de lavender
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -25131,7 +25136,7 @@ const LAVENDER_FORM_HASH = '3a31ecc0cec268839ff95a1924409b67';
 // =======================
 // CONFIG: API IA CV
 // =======================
-$API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+$API_URL = "https://covalently-untasked-d****.ngrok-free.dev/api.php";
 $API_KEY = "TEST_API_KEY_JOCARSA_123";
 
 // -----------------------------------------------------------------------------
@@ -25749,7 +25754,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ```
 
 ### tabla corregida
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -25997,7 +26002,7 @@ const LAVENDER_FORM_HASH = '3a31ecc0cec268839ff95a1924409b67';
 // =======================
 // CONFIG: API IA CV
 // =======================
-$API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+$API_URL = "https://covalently-untasked-d****.ngrok-free.dev/api.php";
 $API_KEY = "TEST_API_KEY_JOCARSA_123";
 
 // -----------------------------------------------------------------------------
@@ -26548,7 +26553,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['analizar']) && $_POST
 ```
 
 ### badges
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -26595,7 +26600,7 @@ const LAVENDER_FORM_HASH = '3a31ecc0cec268839ff95a1924409b67';
 // =======================
 // CONFIG: API IA CV
 // =======================
-$API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+$API_URL = "https://covalently-untasked-d****.ngrok-free.dev/api.php";
 $API_KEY = "TEST_API_KEY_JOCARSA_123";
 
 // -----------------------------------------------------------------------------
@@ -27197,7 +27202,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['analizar']) && $_POST
 ```
 
 ### seguridad
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -27247,7 +27252,7 @@ const LAVENDER_FORM_HASH = '3a31ecc0cec268839ff95a1924409b67';
 // =======================
 // CONFIG: API IA CV
 // =======================
-$API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+$API_URL = "https://covalently-untasked-d****.ngrok-free.dev/api.php";
 $API_KEY = "TEST_API_KEY_JOCARSA_123";
 
 // -----------------------------------------------------------------------------
@@ -28114,7 +28119,7 @@ Overall, the code seems well-structured, but there are opportunities for improve
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/009-Proyectos%20segundo%20trimestre/011-Agente%20IA)
 
 ### agent
-<small>Creado: 2025-12-22 20:25</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `agent.js`
 
@@ -28409,7 +28414,7 @@ Overall, the code seems well-structured, but there are opportunities for improve
 ```
 
 ### agent
-<small>Creado: 2025-12-22 20:25</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `agent.php`
 
@@ -28427,7 +28432,7 @@ declare(strict_types=1);
 header("Content-Type: application/json; charset=utf-8");
 
 // -------------------- CONFIG --------------------
-const API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+const API_URL = "https://covalently-untasked-d****.ngrok-free.dev/api.php";
 const API_KEY = "TEST_API_KEY_JOCARSA_123";
 
 // Token público para identificar el “site” (NO secreto).
@@ -28664,7 +28669,7 @@ json_err("Acción no válida.", 400);
 ```
 
 ### Archivo sin título
-<small>Creado: 2025-12-22 20:22</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `Archivo sin título`
 
@@ -28673,7 +28678,7 @@ json_err("Acción no válida.", 400);
 ```
 
 ### bootstrap
-<small>Creado: 2025-12-22 20:18</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `bootstrap.php`
 
@@ -28714,7 +28719,7 @@ echo json_encode([
 ```
 
 ### index
-<small>Creado: 2025-12-22 20:24</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `index.html`
 
@@ -28748,6 +28753,12 @@ echo json_encode([
 ## Conceptos tratados en clase IA
 
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/009-Proyectos%20segundo%20trimestre/012-Conceptos%20tratados%20en%20clase%20IA)
+
+
+<a id="ia-a-partir-de-pdf"></a>
+## IA a partir de PDF
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/009-Proyectos%20segundo%20trimestre/013-IA%20a%20partir%20de%20PDF)
 
 
 
@@ -28798,3 +28809,25 @@ Basándome en la ubicación del archivo y su contexto, parece que se trata de un
     - **Descripción:** Los alumnos deben preparar una presentación oral que explique de manera clara y concisa la estructura del proyecto, las decisiones tomadas durante el desarrollo y cómo se lograron los objetivos propuestos en `ejercicio.md`.
 
 Estas actividades están diseñadas para proporcionar a los estudiantes de Formación Profesional una experiencia práctica completa desde el análisis hasta la presentación final, asegurando que dominen todas las etapas del ciclo de vida de un proyecto de desarrollo.
+
+
+
+<a id="actividades-final-de-unidad-segundo-trimestre"></a>
+# Actividades final de unidad - Segundo trimestre
+
+<a id="entrenamiento-de-ia-personalizada"></a>
+## Entrenamiento de IA personalizada
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/301-Actividades%20final%20de%20unidad%20-%20Segundo%20trimestre/001-Entrenamiento%20de%20IA%20personalizada)
+
+
+<a id="ia-generativa"></a>
+## IA generativa
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/301-Actividades%20final%20de%20unidad%20-%20Segundo%20trimestre/002-IA%20generativa)
+
+
+<a id="agente-ia-1"></a>
+## Agente IA
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/301-Actividades%20final%20de%20unidad%20-%20Segundo%20trimestre/003-Agente%20IA)

@@ -1,6 +1,6 @@
 # Desarrollo de interfaces — Estado de ejercicios
 
-Generado: 2026-01-16 09:00
+Generado: 2026-02-08 14:00
 
 ---
 
@@ -59,7 +59,7 @@ Generado: 2026-01-16 09:00
 - 🟢 Informes incrustados y no incrustados en la aplicación — 2025-11-24 — Creador de informes
 - 🟢 Herramientas gráficas integradas en el IDE y externas al mismo — 2025-11-25 — Monitor de uso de recursos de servidor
 - 🔴 Estructura general. Secciones
-- 🔴 Filtrado de datos
+- 🟢 Filtrado de datos — 2026-01-20
 - 🟢 Numeración de líneas, recuentos y totales — 2011-09-26 — Coge codigo y lo presenta en una imagen como un editor de texto macos
 - 🔴 Gráficos
 - 🔴 Librerías para generación de informes. Clases, métodos y atributos
@@ -100,3 +100,11 @@ Generado: 2026-01-16 09:00
 ## Actividad libre de final de evaluación - La milla extra
 
 - 🟢 La Milla Extra - Primera evaluación — 2025-10-13
+
+
+## Actividades final de unidad - Segundo trimestre
+
+- 🟢 Creación de una librería de interfaces gráficas personalizada — 2025-10-13
+- 🟢 Proyecto de reconocimiento de voz y camara — 2025-10-13
+- 🟢 Proyecto Memento — 2025-10-13
+- 🟢 Actividad de gráficas — 2025-10-13

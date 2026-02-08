@@ -1,6 +1,6 @@
 # Sistemas de gestión empresarial — Estado de ejercicios
 
-Generado: 2026-01-16 09:00
+Generado: 2026-02-08 14:00
 
 ---
 
@@ -52,7 +52,7 @@ Generado: 2026-01-16 09:00
 - 🟢 Tablas y vistas que es preciso adaptar — 2026-01-07
 - 🟢 Consultas necesarias para obtener información — 2026-01-07
 - 🟢 Creación de formularios personalizados — 2026-01-07
-- 🟢 Creación de informes personalizados — 2026-01-14
+- 🟢 Creación de informes personalizados — 2026-01-26
 - 🔴 Paneles de control (Dashboards)
 - 🔴 Integración con otros sistemas de gestión
 
@@ -73,3 +73,10 @@ Generado: 2026-01-16 09:00
 ## Actividad libre de final de evaluación - La milla extra
 
 - 🟢 La Milla Extra - Primera evaluación — 2025-10-13
+
+
+## Actividades final de unidad - Segundo trimestre
+
+- 🟢 Proyecto ERP en clase — 2025-10-13
+- 🟢 Editor de nodos n8n — 2025-10-13
+- 🟢 Reorganizacion catálogo jocarsa — 2025-10-13

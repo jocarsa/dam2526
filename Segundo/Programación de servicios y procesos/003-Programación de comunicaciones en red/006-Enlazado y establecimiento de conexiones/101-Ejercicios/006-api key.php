@@ -1,7 +1,7 @@
 <?php
 
 // Remote API (ngrok endpoint pointing to api.php)
-$url = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+$url = "https://covalently-untasked-d****.ngrok-free.dev/api.php";
 
 // This must match an api_key in your `api_keys` table
 $apiKey = "TEST_API_KEY_JOCARSA_123";  // adjust to your real key

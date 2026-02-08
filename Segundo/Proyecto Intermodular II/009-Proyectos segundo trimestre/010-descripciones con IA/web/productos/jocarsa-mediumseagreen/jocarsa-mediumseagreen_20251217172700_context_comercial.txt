@@ -145,7 +145,7 @@ H1: Página web
 - Chunking por caracteres (con cortes suaves por oraciones).
 - MAP: genera "notas" para cada chunk (en español) usando la API remota.
 - REDUCE: sintetiza un único .md didáctico usando la API remota.
-- API remota disponible (ejemplo: https://covalently-untasked-daphne.ngrok-free.dev/api.php)
+- API remota disponible (ejemplo: https://covalently-untasked-d****.ngrok-free.dev/api.php)
 - Clave de API válida.
 # ============== CONFIG ==============
 # ====================================

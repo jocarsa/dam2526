@@ -66,6 +66,11 @@
   - [Formateo inicial](#formateo-inicial)
 - [Actividad libre de final de evaluación - La milla extra](#actividad-libre-de-final-de-evaluacion-la-milla-extra)
   - [La Milla Extra - Primera evaluación](#la-milla-extra-primera-evaluacion)
+- [Actividades de final de unidad segundo trimestre](#actividades-de-final-de-unidad-segundo-trimestre)
+  - [Formateo y envío de emails](#formateo-y-envio-de-emails)
+  - [Web curso IA](#web-curso-ia)
+  - [Tienda de juguetes](#tienda-de-juguetes)
+  - [Web logos (Multiidioma)](#web-logos-multiidioma)
 - [Carpeta sin título](#carpeta-sin-titulo)
 
 ---
@@ -125,7 +130,7 @@ En este conjunto de ejercicios, estás explorando los fundamentos del lenguaje d
 En esta carpeta, encontrarás ejercicios que te ayudarán a familiarizarte con varios lenguajes de marcado esenciales como HTML, XML, Markdown, JSON, y SVG. Los problemas se enfocan en la creación de documentos estructurados y páginas web básicas utilizando estas tecnologías. A través de estos ejercicios, practicarás habilidades fundamentales como la escritura correcta de sintaxis, la organización de datos anidados, el estilo visual básico para HTML con CSS, y la representación gráfica simple en SVG. Estos ejercicios te preparan para entender las características y aplicaciones específicas de cada lenguaje de marcado, permitiéndote seleccionar adecuadamente la herramienta más apropiada según el tipo de documento o interfaz web que deseas crear.
 
 ### Crear webs con HTML
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -149,7 +154,7 @@ En este ejemplo, dentro del `<body>...</body>` hay un elemento `<p>Esto es una p
 ```
 
 ### crear documentos con XML
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -180,7 +185,7 @@ XML es importante porque permite estructurar datos de una manera que sea fácilm
 ```
 
 ### CSS nos permite añadir estilo a HTML
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -207,7 +212,7 @@ Esta práctica es fundamental en desarrollo web ya que permite un manejo más fl
 ```
 
 ### JSON para guardar documentos
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -230,7 +235,7 @@ JSON es útil porque permite representar datos de manera clara y estructurada. E
 ```
 
 ### json anidado
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -257,7 +262,7 @@ Este tipo de estructura es importante porque permite organizar la información d
 ```
 
 ### SVG para crear gráficos
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -321,7 +326,7 @@ Estas actividades están diseñadas para cubrir los conceptos básicos de cada u
 Esta carpeta contiene una serie de ejercicios diseñados para introducir a los estudiantes del DAM al lenguaje XML y sus características básicas. Los problemas abordan desde la comprensión general de lo que es XML hasta conceptos más específicos como la declaración del documento, el uso de etiquetas simples y anidadas, atributos en las etiquetas y cómo incorporar comentarios en archivos XML. A través de estos ejercicios, los estudiantes podrán practicar sus habilidades para estructurar datos de manera jerárquica y comprender la sintaxis básica requerida por este lenguaje de marcado.
 
 ### declaracion
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -338,7 +343,7 @@ En resumen, este pequeño bloque de código establece las bases para que cualqui
 ```
 
 ### etiquetas
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -357,7 +362,7 @@ Este código sirve como punto de partida para empezar a añadir elementos más c
 ```
 
 ### etiquetas anidadas
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -379,7 +384,7 @@ La estructura anidada de los elementos en XML permite representar claramente las
 ```
 
 ### atributos
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -408,7 +413,7 @@ Esta estructura XML es importante porque permite organizar y describir datos de 
 ```
 
 ### comentarios
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -534,7 +539,7 @@ En esta carpeta, encontrarás ejercicios diseñados para que reconozcas y trabaj
 Estos ejercicios te ayudarán a desarrollar competencias clave como la capacidad para estructurar datos correctamente, validar documentos XML con herramientas online y asegurarte de que tus archivos estén conformes con esquemas definidos por XSD.
 
 ### documento bien formado
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -566,7 +571,7 @@ Este tipo de estructura es importante porque permite organizar y clasificar info
 ```
 
 ### elemento que no esta bien formado
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -610,7 +615,7 @@ Esto asegura que el documento XML cumple con la estructura válida y es procesab
 ```
 
 ### solucion con nodo raiz
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -647,7 +652,7 @@ Esta estructura ayuda a organizar datos de manera clara y jerárquica, lo cual f
 ```
 
 ### persona con xsd
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -685,7 +690,7 @@ Esta estructura XML permite una representación clara y detallada de informació
 ```
 
 ### validar xml
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -778,7 +783,7 @@ Estas actividades ayudarán a los estudiantes a familiarizarse con la sintaxis b
 En esta carpeta, trabajamos con ejercicios que centran la atención en el uso de espacios de nombres (namespaces) en XML. El objetivo principal es comprender cómo utilizar namespaces para evitar conflictos entre elementos con los mismos nombres pero diferentes propósitos o orígenes. A través de este ejercicio, aprenderás a declarar y aplicar namespaces en documentos XML para organizar mejor la información estructurada, lo que es crucial en el manejo eficiente de lenguajes de marcas.
 
 ### espacio de nombre persona
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -857,7 +862,7 @@ Este formato de XML ayuda a organizar claramente la información sobre varias pe
 Este conjunto de ejercicios se centra en la estructura y uso del lenguaje XML para representar información personal detallada, como datos personales, experiencia laboral y formación académica. Los archivos progresivamente incorporan más detalles y elementos complejos, desde una simple descripción básica hasta incluir múltiples experiencias laborales y títulos educativos. A través de estos ejercicios, los estudiantes practicarán la creación de estructuras XML bien formadas, el manejo de diferentes niveles de anidamiento de etiquetas y la representación adecuada de información variada en un formato consistente.
 
 ### persona
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -882,7 +887,7 @@ Este tipo de estructura es muy útil cuando se necesita manejar datos personales
 ```
 
 ### telefono
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -911,7 +916,7 @@ Este tipo de estructura es importante en sistemas de gestión de información po
 ```
 
 ### varios telefonos
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -944,7 +949,7 @@ Este tipo de archivo XML es útil en sistemas de gestión de información porque
 ```
 
 ### datos personales
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -985,7 +990,7 @@ Las otras categorías (`experiencialaboral` y `formacion`) están presentes pero
 ```
 
 ### experiencias
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1039,7 +1044,7 @@ Este tipo de estructura XML es útil para organizar y almacenar información per
 ```
 
 ### muchas experiencias
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1127,7 +1132,7 @@ Este tipo de estructura XML es útil en sistemas de gestión de información per
 ```
 
 ### titulos
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1295,7 +1300,7 @@ Este formato XML es muy útil para estructurar datos complejos y jerárquicos, p
 Este conjunto de ejercicios te permitirá familiarizarte con la estructura y el uso del formato JSON para almacenar información personal, profesional y académica. Los archivos proporcionan datos estructurados sobre un perfil profesional, incluyendo detalles personales, experiencia laboral, formación, habilidades informáticas e idiomas. A través de estos ejercicios, aprenderás a organizar y manejar información compleja utilizando arrays y objetos en JSON, así como a incluir elementos multimedia como fotografías. Este trabajo te ayudará a comprender cómo los lenguajes de marcado se utilizan para representar datos estructurados y a mejorar tus habilidades en la gestión y presentación de información profesional.
 
 ### datos
-<small>Creado: 2025-10-20 13:08</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1319,7 +1324,7 @@ Es importante destacar que JSON permite organizar los datos de manera clara y le
 ```
 
 ### categorias
-<small>Creado: 2025-10-20 13:09</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1349,7 +1354,7 @@ Este formato JSON es muy útil porque permite organizar datos de manera estructu
 ```
 
 ### arrays para conjuntos de información
-<small>Creado: 2025-10-20 13:15</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1401,7 +1406,7 @@ Es importante destacar que este archivo JSON no está completo, ya que los campo
 ```
 
 ### experiencia laboral
-<small>Creado: 2025-10-20 13:16</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1487,7 +1492,7 @@ Esta estructura es muy útil porque permite organizar claramente la información
 ```
 
 ### formacion
-<small>Creado: 2025-10-20 13:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1580,7 +1585,7 @@ Este tipo de estructura JSON es útil para almacenar datos personales y profesio
 ```
 
 ### json limpio
-<small>Creado: 2025-10-20 13:24</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1695,7 +1700,7 @@ Este tipo de estructura JSON es común en currículums o perfiles profesionales 
 ```
 
 ### pongo la foto
-<small>Creado: 2025-10-20 13:28</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1813,7 +1818,7 @@ Este formato JSON permite organizar de manera clara e informativa toda la inform
 ```
 
 ### resumen profesional
-<small>Creado: 2025-10-20 15:05</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2082,7 +2087,7 @@ Los estudiantes deben crear un informe completo que no solo muestre los datos b�
 Esta carpeta contiene un conjunto de ejercicios diseñados para ayudarte a familiarizarte con la estructura básica y los elementos esenciales del lenguaje HTML. Los ejercicios van desde una simple definición de documento hasta la inclusión de metadatos como el idioma y la codificación, pasando por la creación de títulos. A través de estos ejercicios, practicarás tus habilidades en la estructuración de documentos web utilizando HTML, lo que te permitirá entender cómo se organiza un sitio web desde una perspectiva técnica.
 
 ### documento
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2099,7 +2104,7 @@ Este es un ejemplo muy básico pero fundamental para entender la estructura bás
 ```
 
 ### etiquetas html
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2119,7 +2124,7 @@ Este es un punto de partida muy básico para una página web y es importante com
 ```
 
 ### lenguage
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2139,7 +2144,7 @@ Aunque este código solo contiene las etiquetas de inicio, se requiere cerrar co
 ```
 
 ### cabeza y cuerpo
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2159,7 +2164,7 @@ Este código es fundamental porque establece las bases para cualquier página we
 ```
 
 ### titulo
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2187,7 +2192,7 @@ En este ejemplo, la sección `<body>` está vacía, por lo que no hay contenido 
 ```
 
 ### codificacion
-<small>Creado: 2025-09-26 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2327,7 +2332,7 @@ Si deseas mejorar aún más tu página, puedes considerar:
 ¡Felicidades por tu trabajo! Continúa mejorando y manteniendo tus estándares de calidad en el desarrollo web.
 
 ### correccion sobre la validacion
-<small>Creado: 2025-09-29 13:32</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2592,7 +2597,7 @@ Este código es crucial porque proporciona una estructura clara y visualmente at
 ```
 
 ### corregimos la familia de la fuente
-<small>Creado: 2025-09-29 13:34</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2859,7 +2864,7 @@ Este tipo de diseño es importante porque mejora la presentación visual del sit
 ```
 
 ### las imagenes tienen que tener alt
-<small>Creado: 2025-09-29 13:42</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3154,7 +3159,7 @@ Si quieres mejorar tu sitio web más allá de la simple validación, aquí hay a
 En esta carpeta de ejercicios, encontrarás dos tipos principales de archivos: uno relacionado con la sindicación de contenidos a través del estándar RSS y otro que trata sobre el mapeo de sitios web (sitemaps) utilizando XML. Estos ejercicios están diseñados para ayudarte a comprender cómo estructurar información web para mejorar la visibilidad en motores de búsqueda, así como para proporcionar contenido actualizado a los suscriptores mediante RSS. Los archivos "001-RSS.md" y "sindication.rss" te guiarán en la creación de un archivo RSS que permite a las personas seguir tu sitio web para recibir notificaciones sobre nuevos artículos o cambios. Por otro lado, el archivo "sitemap.xml" te ayudará a generar una lista detallada de todas las páginas de tu sitio web, facilitando así su indexación por parte de motores como Google. Estos ejercicios fortalecerán tus habilidades en la estructuración y utilización efectiva del XML para mejorar el SEO y la distribución de contenido en línea.
 
 ### sindicacion
-<small>Creado: 2025-09-29 13:40</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3239,7 +3244,7 @@ Este archivo RSS es importante porque facilita la indexación de contenidos web 
 ```
 
 ### sitemap
-<small>Creado: 2025-09-29 13:42</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3504,7 +3509,7 @@ Aquí está una versión final del código HTML y CSS con todos los mejoramiento
 Este currículum es ahora más profesional, fácil de leer y adaptable a diferentes dispositivos.
 
 ### plantilla curriculum
-<small>Creado: 2025-10-20 13:32</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3537,7 +3542,7 @@ Esta estructura básica es importante porque proporciona un marco coherente dond
 ```
 
 ### dos secciones
-<small>Creado: 2025-10-20 13:32</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3568,7 +3573,7 @@ Esta estructura simple permite a los desarrolladores de sitios web añadir conte
 ```
 
 ### articulos en la izquierda
-<small>Creado: 2025-10-20 13:33</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3610,7 +3615,7 @@ Esta plantilla es útil porque proporciona una base sólida desde la cual puedes
 ```
 
 ### listas con elementos
-<small>Creado: 2025-10-20 13:36</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3671,7 +3676,7 @@ Esta estructura es útil para presentar información organizada y fácilmente le
 ```
 
 ### un poco de estilo
-<small>Creado: 2025-10-20 13:37</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3736,7 +3741,7 @@ La sección derecha (`<section id="derecha">`) está vacía en este momento, pos
 ```
 
 ### un poco de estilo para la foto
-<small>Creado: 2025-10-20 13:39</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3802,7 +3807,7 @@ Este diseño con flexbox permite organizar visualmente el contenido de una maner
 ```
 
 ### familia de fuentes
-<small>Creado: 2025-10-20 13:40</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3870,7 +3875,7 @@ Este tipo de diseño es útil para mostrar información personal o profesional d
 ```
 
 ### parte derecha
-<small>Creado: 2025-10-20 13:47</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -4008,7 +4013,7 @@ Este tipo de diseño es común en sitios web profesionales y demuestra cómo HTM
 ```
 
 ### margen
-<small>Creado: 2025-10-20 13:47</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -4140,7 +4145,7 @@ La primera sección (`#izquierda`) está dedicada a una imagen圆形スタン普
 ```
 
 ### css reset
-<small>Creado: 2025-10-20 13:49</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -4279,7 +4284,7 @@ Este tipo de diseño es común en currículos o portafolios web ya que permite p
 ```
 
 ### linea separadora en articulos
-<small>Creado: 2025-10-20 13:50</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -4416,7 +4421,7 @@ La columna izquierda contiene una imagen圆形スタン普（结束这个对话�
 ```
 
 ### bajar tamaño de texto
-<small>Creado: 2025-10-20 13:51</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -4561,7 +4566,7 @@ Este tipo de estructuración y estilización ayuda a destacar información impor
 ```
 
 ### mas margen interior
-<small>Creado: 2025-10-20 13:51</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -4702,7 +4707,7 @@ Este diseño proporciona una estructura clara y atractiva que permite presentar 
 ```
 
 ### subtitulo
-<small>Creado: 2025-10-20 13:53</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -4840,7 +4845,7 @@ Este diseño es importante porque proporciona una presentación visual clara y o
 ```
 
 ### flexbos
-<small>Creado: 2025-10-20 13:53</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -4980,7 +4985,7 @@ Este tipo de diseño es importante en la creación de currículums web porque ay
 ```
 
 ### flexbox
-<small>Creado: 2025-10-20 13:55</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -5122,7 +5127,7 @@ La principal diferencia con respecto a la versión anterior es que ahora se ha u
 ```
 
 ### curriculum completo
-<small>Creado: 2025-12-23 13:16</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `016-curriculum completo.html`
 
@@ -5639,7 +5644,7 @@ La principal diferencia con respecto a la versión anterior es que ahora se ha u
 ```
 
 ### optimizacion recursos humanos
-<small>Creado: 2025-12-30 12:04</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `017-optimizacion recursos humanos.html`
 
@@ -6479,7 +6484,7 @@ Para mejorar el aspecto del currículum vitae, hay varios ajustes que podemos ha
 Esto debería proporcionarte un diseño más profesional y fácil de leer. Si tienes alguna otra preferencia o ajuste específico en mente, no dudes en mencionarlo.
 
 ### cv
-<small>Creado: 2025-10-27 13:10</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6516,7 +6521,7 @@ Esta estructura básica permite presentar información de manera clara y organiz
 ```
 
 ### un poco de css
-<small>Creado: 2025-10-27 13:17</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6574,7 +6579,7 @@ Este diseño es útil para proyectos web como currículos o presentaciones perso
 ```
 
 ### imagen de fondo
-<small>Creado: 2025-10-27 13:19</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6638,7 +6643,7 @@ Este diseño sencillo pero efectivo ayuda a centrar visualmente los contenidos d
 ```
 
 ### tamaño del fono
-<small>Creado: 2025-10-27 13:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6699,7 +6704,7 @@ La imagen de perfil (`foto.jpg`) se muestra en la parte izquierda junto con el t
 ```
 
 ### imagen en el sitio correcto
-<small>Creado: 2025-10-27 13:22</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6766,7 +6771,7 @@ Esta estructura es importante porque proporciona una presentación clara y profe
 ```
 
 ### titulos
-<small>Creado: 2025-10-27 13:26</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6845,7 +6850,7 @@ Este diseño es importante porque proporciona un layout visual atractivo y bien 
 ```
 
 ### parte izquierda
-<small>Creado: 2025-10-27 13:27</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6954,7 +6959,7 @@ Este diseño es importante porque proporciona una estructura clara y profesional
 ```
 
 ### parte derecha
-<small>Creado: 2025-10-27 13:29</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7078,7 +7083,7 @@ Esta página web es importante porque demuestra cómo estructurar una CV visualm
 ```
 
 ### distancia con gap
-<small>Creado: 2025-10-27 13:30</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7206,7 +7211,7 @@ Este diseño es importante porque permite una presentación visual clara y estru
 ```
 
 ### margen interior
-<small>Creado: 2025-10-27 13:33</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7343,7 +7348,7 @@ Este diseño ayuda a organizar información importante de manera clara y estéti
 ```
 
 ### editando la parte izquierda
-<small>Creado: 2025-10-27 13:35</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7486,7 +7491,7 @@ Este tipo de diseño es importante en el campo web ya que permite crear páginas
 ```
 
 ### fuentes personalizadas
-<small>Creado: 2025-10-27 13:40</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7644,7 +7649,7 @@ Este tipo de diseño es importante para destacar el contenido de un CV en línea
 ```
 
 ### retoques
-<small>Creado: 2025-10-27 13:42</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8060,7 +8065,7 @@ Estas actividades están diseñadas para mejorar la comprensión y aplicación p
 Esta carpeta contiene una serie de ejercicios diseñados para introducir y consolidar los conceptos básicos del lenguaje de programación JavaScript. Los problemas abordan temas como la inclusión de scripts en HTML, estructuras de control (condicionales e iteraciones), manipulación de datos (arrays y objetos), funciones, y programación orientada a objetos mediante clases. A lo largo de los ejercicios, se exploran fundamentos esenciales del JavaScript, desde operadores básicos hasta la creación y uso de clases para instanciar objetos. Los ejemplos van incrementando gradualmente en complejidad, permitiendo al estudiante adquirir confianza y habilidades a medida que progresa. Este conjunto de actividades es ideal para principiantes o estudiantes que desean refrescar sus conocimientos sobre JavaScript.
 
 ### index
-<small>Creado: 2025-10-02 14:16</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8084,7 +8089,7 @@ Esta estructura básica es fundamental para cualquier página web ya que estable
 ```
 
 ### javascript interno
-<small>Creado: 2025-10-02 14:16</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8114,7 +8119,7 @@ Este archivo es un buen punto de partida para estudiantes que están empezando a
 ```
 
 ### comentarios
-<small>Creado: 2025-10-02 14:16</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8143,7 +8148,7 @@ Este ejercicio destaca la importancia de entender las reglas básicas del lengua
 ```
 
 ### comentarios multilinea
-<small>Creado: 2025-10-02 14:16</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8176,7 +8181,7 @@ La presencia de estos comentarios ayuda a mantener el código limpio y fácil de
 ```
 
 ### salidas por consola y por documento
-<small>Creado: 2025-10-02 14:16</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8209,7 +8214,7 @@ Esta práctica combina técnicas tanto para depuración como para mostrar inform
 ```
 
 ### entradas
-<small>Creado: 2025-10-02 14:16</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8237,7 +8242,7 @@ Es importante entender que este tipo de interacción básica entre un programa w
 ```
 
 ### operadores aritmeticos
-<small>Creado: 2025-10-02 14:16</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8265,7 +8270,7 @@ Este código HTML contiene un bloque de script en el que se utilizan operadores 
 ```
 
 ### operadores de comparacion
-<small>Creado: 2025-10-02 14:16</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8305,7 +8310,7 @@ Cada uno de estos operadores genera un resultado booleano (`true` o `false`) que
 ```
 
 ### operadores logicos
-<small>Creado: 2025-10-02 14:16</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8341,7 +8346,7 @@ Este tipo de ejercicios ayuda a entender cómo funcionan los operadores lógicos
 ```
 
 ### declaracion de variables
-<small>Creado: 2025-10-02 14:16</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8369,7 +8374,7 @@ Este tipo de integración es fundamental porque permite a los desarrolladores cr
 ```
 
 ### salidas de variables
-<small>Creado: 2025-10-02 14:16</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8398,7 +8403,7 @@ Es importante entender cómo declarar variables y mostrar información sobre ell
 ```
 
 ### variar variables
-<small>Creado: 2025-10-02 14:17</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8427,7 +8432,7 @@ A continuación, la variable `edad` se modifica cambiando su valor a 48 y nuevam
 ```
 
 ### declaracion de constantes
-<small>Creado: 2025-10-02 14:19</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8456,7 +8461,7 @@ La declaración de constantes en JavaScript utilizando `const` es importante por
 ```
 
 ### error al reasignar valor
-<small>Creado: 2025-10-02 14:19</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8487,7 +8492,7 @@ Este código es importante porque te enseña sobre las características inmutabl
 ```
 
 ### operadores de incremento
-<small>Creado: 2025-10-02 14:21</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8520,7 +8525,7 @@ Finalmente, se aplica el operador de decremento (`--`) para disminuir en uno el 
 ```
 
 ### operadores aritméticos abreviados
-<small>Creado: 2025-10-02 14:22</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8557,7 +8562,7 @@ Estos operadores abreviados son útiles porque permiten realizar cálculos matem
 ```
 
 ### estructura for de bucle
-<small>Creado: 2025-10-02 14:28</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8587,7 +8592,7 @@ Este ejemplo es útil para enseñar cómo crear y controlar ciclos en JavaScript
 ```
 
 ### while
-<small>Creado: 2025-10-02 14:29</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8619,7 +8624,7 @@ Este código es útil para entender cómo funcionan los ciclos en JavaScript y c
 ```
 
 ### if en la edad
-<small>Creado: 2025-10-02 14:29</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8648,7 +8653,7 @@ Esta estructura condicional es importante porque permite a los programas tomar d
 ```
 
 ### clausula else
-<small>Creado: 2025-10-02 14:30</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8681,7 +8686,7 @@ Esta estructura condicional `if...else` es una forma sencilla de tomar decisione
 ```
 
 ### if else
-<small>Creado: 2025-10-02 14:31</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8718,7 +8723,7 @@ Esta estructura de control permite clasificar a una persona en diferentes etapas
 ```
 
 ### switch
-<small>Creado: 2025-10-02 14:33</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8772,7 +8777,7 @@ La importancia del uso del bloque `switch` radica en que proporciona un enfoque 
 ```
 
 ### arrays
-<small>Creado: 2025-10-02 14:42</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8807,7 +8812,7 @@ Este ejemplo es útil porque muestra cómo declarar y manipular diferentes tipos
 ```
 
 ### funciones
-<small>Creado: 2025-10-02 14:44</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8838,7 +8843,7 @@ El cuerpo del documento contiene un bloque de script que incluye una función ll
 ```
 
 ### llamada a la funcion
-<small>Creado: 2025-10-02 14:44</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8869,7 +8874,7 @@ La importancia de este fragmento radica en cómo ilustra los conceptos básicos 
 ```
 
 ### un parametro
-<small>Creado: 2025-10-02 14:45</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8902,7 +8907,7 @@ El uso de funciones es crucial en JavaScript porque permite encapsular bloques d
 ```
 
 ### muchos parametros
-<small>Creado: 2025-10-02 14:45</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8933,7 +8938,7 @@ El código muestra cómo llamar a esta función `diHola` proporcionando valores 
 ```
 
 ### las funciones deben hacer return
-<small>Creado: 2025-10-02 14:46</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8966,7 +8971,7 @@ La importancia de usar `return` en una función es para permitir que la función
 ```
 
 ### clases
-<small>Creado: 2025-10-02 14:49</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8996,7 +9001,7 @@ Este código HTML contiene un script que define una clase llamada `Gato` en Java
 ```
 
 ### instanciar un gato
-<small>Creado: 2025-10-02 14:49</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9029,7 +9034,7 @@ Este código es importante porque ilustra cómo definir y usar clases en JavaScr
 ```
 
 ### podemos tener metodos
-<small>Creado: 2025-10-02 14:50</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9072,7 +9077,7 @@ Este ejemplo es útil para entender cómo crear y utilizar clases con métodos e
 ```
 
 ### demostracion javascript
-<small>Creado: 2025-10-02 14:53</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9300,7 +9305,7 @@ Este archivo contiene una serie de pasos para crear y mejorar una calculadora si
 Estos pasos cubren desde una calculadora básica hasta una completa con funciones avanzadas y estilos personalizados.
 
 ### escribir contenido en el DOM facil
-<small>Creado: 2025-10-06 13:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9327,7 +9332,7 @@ Es importante destacar que aunque este método es sencillo y fácil de entender 
 ```
 
 ### seleccion nueva
-<small>Creado: 2025-10-06 13:05</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9355,7 +9360,7 @@ Esta técnica es importante porque permite que las páginas web sean más intera
 ```
 
 ### seleccion por etiqueta
-<small>Creado: 2025-10-06 13:06</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9388,7 +9393,7 @@ Este código es importante porque muestra cómo JavaScript puede interactuar con
 ```
 
 ### seleccionar por id
-<small>Creado: 2025-10-06 13:06</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9419,7 +9424,7 @@ Este ejemplo es importante porque demuestra cómo JavaScript puede interactuar d
 ```
 
 ### seleccionar por clase
-<small>Creado: 2025-10-06 13:06</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9448,7 +9453,7 @@ Es importante destacar que `querySelector()` es una herramienta muy útil en Jav
 ```
 
 ### multiples elementos
-<small>Creado: 2025-10-06 13:07</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9477,7 +9482,7 @@ Este ejemplo es útil porque ilustra cómo interactuar con el Document Object Mo
 ```
 
 ### seleccion de multipes elementos
-<small>Creado: 2025-10-06 13:09</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9514,7 +9519,7 @@ Este tipo de operación es útil cuando necesitas modificar múltiples elementos
 ```
 
 ### escribir
-<small>Creado: 2025-10-06 13:10</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9545,7 +9550,7 @@ Es relevante destacar que el texto "hola mundo y escribro" tiene un error ortogr
 ```
 
 ### leer
-<small>Creado: 2025-10-06 13:13</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9580,7 +9585,7 @@ Este tipo de operación es importante porque muestra cómo interactuar con eleme
 ```
 
 ### solo texto puro
-<small>Creado: 2025-10-06 13:13</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9610,7 +9615,7 @@ Este código demuestra cómo interactuar con los elementos del DOM (Document Obj
 ```
 
 ### textocontent no soporta html
-<small>Creado: 2025-10-06 13:14</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9640,7 +9645,7 @@ Es importante entender esta diferencia entre `.textContent` para texto puro y m�
 ```
 
 ### escribir contenido HTML
-<small>Creado: 2025-10-06 13:14</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9668,7 +9673,7 @@ Esta técnica es importante porque te permite interactuar dinámicamente con los
 ```
 
 ### formularios
-<small>Creado: 2025-10-06 13:16</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9697,7 +9702,7 @@ Este fragmento es importante porque demuestra la integración básica entre HTML
 ```
 
 ### cojo el valor del campo
-<small>Creado: 2025-10-06 13:18</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9731,7 +9736,7 @@ Esta técnica es importante porque permite interactuar con los datos introducido
 ```
 
 ### ejercicio calculadora sencilla
-<small>Creado: 2025-10-06 13:22</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9778,7 +9783,7 @@ Este ejercicio es muy útil para aprender cómo seleccionar elementos en el DOM 
 ```
 
 ### cambio de tipo implicito
-<small>Creado: 2025-10-06 13:24</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9824,7 +9829,7 @@ Esta técnica es fundamental para entender cómo se integran las consultas al DO
 ```
 
 ### select con tipo de operacion
-<small>Creado: 2025-10-06 13:25</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9875,7 +9880,7 @@ Este tipo de programa es importante porque demuestra cómo interactuar con los e
 ```
 
 ### if para seleccion
-<small>Creado: 2025-10-06 13:28</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9943,7 +9948,7 @@ Finalmente, este resultado es mostrado en la pantalla dentro del elemento div co
 ```
 
 ### un poco de estilo
-<small>Creado: 2025-10-06 13:31</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -10016,7 +10021,7 @@ Este tipo de código es importante porque demuestra cómo combinar HTML para est
 ```
 
 ### calculadora completa
-<small>Creado: 2025-10-06 13:33</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -10047,7 +10052,7 @@ Este archivo HTML vacío está preparado para ser llenado con contenido específ
 ```
 
 ### primero creo la interfaz
-<small>Creado: 2025-10-06 13:36</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -10121,7 +10126,7 @@ Esta estructura HTML es la base visual sobre la que se construirá la funcionali
 ```
 
 ### un poco de css
-<small>Creado: 2025-10-06 13:41</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -10223,7 +10228,7 @@ Este código es importante porque demuestra cómo combinar HTML y CSS para crear
 ```
 
 ### ahora viene javascript
-<small>Creado: 2025-10-06 13:44</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -10335,7 +10340,7 @@ En lo que respecta al bloque de JavaScript, este código selecciona los elemento
 ```
 
 ### resolver la operacion
-<small>Creado: 2025-10-06 13:46</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -10459,7 +10464,7 @@ Este código es importante porque demuestra cómo se pueden manipular elementos 
 ```
 
 ### que funcione el boton borrar
-<small>Creado: 2025-10-06 13:47</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -10581,7 +10586,7 @@ Además, hay un botón especial identificado por "borrar" (representado por la l
 ```
 
 ### estilizar pantalla
-<small>Creado: 2025-10-06 13:49</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -10856,7 +10861,7 @@ Finalmente, los ejercicios avanzan hacia la integración con datos externos en f
 Estos ejercicios son esenciales para desarrolladores web que buscan automatizar la generación de contenido en sus sitios y mejorar su capacidad para crear interfaces dinámicas y atractivas.
 
 ### crear elementos
-<small>Creado: 2025-10-13 13:09</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -10884,7 +10889,7 @@ Este tipo de código es importante porque muestra cómo manipular y crear elemen
 ```
 
 ### añado a otro elemento
-<small>Creado: 2025-10-13 13:11</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -10920,7 +10925,7 @@ Este método es importante porque permite modificar y ampliar la página web din
 ```
 
 ### mover un elemento
-<small>Creado: 2025-10-13 13:14</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -10956,7 +10961,7 @@ Finalmente, el código inserta el elemento `<h1>` que se creó en el principio d
 ```
 
 ### eliminar y mover
-<small>Creado: 2025-10-13 13:15</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -10996,7 +11001,7 @@ Esta técnica es útil cuando necesitas manipular dinámicamente el contenido de
 ```
 
 ### voy a crear un articulo
-<small>Creado: 2025-10-13 13:43</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11040,7 +11045,7 @@ Esta técnica es importante porque muestra cómo se pueden manipular dinámicame
 ```
 
 ### plantilla articulo
-<small>Creado: 2025-10-13 13:23</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11078,7 +11083,7 @@ Finalmente, el script encargado de manipular esta plantilla se coloca dentro de 
 ```
 
 ### uso de la plantilla
-<small>Creado: 2025-10-13 13:27</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11128,7 +11133,7 @@ Este tipo de técnica es muy útil cuando necesitas crear varias entradas simila
 ```
 
 ### plantilla personalizada
-<small>Creado: 2025-10-13 13:30</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11183,7 +11188,7 @@ Este método es útil para personalizar y repetir bloques estructurales sin tene
 ```
 
 ### blog html
-<small>Creado: 2025-10-13 13:32</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11232,7 +11237,7 @@ Este archivo HTML sirve como base estructural para ejercicios más avanzados que
 ```
 
 ### vamos a leer el json
-<small>Creado: 2025-10-13 13:37</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11283,7 +11288,7 @@ En particular, lo interesante es el código JavaScript ubicado al final del docu
 ```
 
 ### ahora clono la plantilla
-<small>Creado: 2025-10-13 13:40</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11344,7 +11349,7 @@ Esta técnica es importante porque permite reutilizar código y mantener la estr
 ```
 
 ### personalizo el contenido del clon
-<small>Creado: 2025-10-13 13:41</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11406,7 +11411,7 @@ Este método es útil porque permite separar completamente la lógica y el conte
 ```
 
 ### personalizo mas propiedades
-<small>Creado: 2025-10-13 13:42</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11475,7 +11480,7 @@ Este enfoque permite a la página dinámicamente cargar y mostrar contenido basa
 ```
 
 ### un poco de css para acabar
-<small>Creado: 2025-10-13 13:51</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11549,7 +11554,7 @@ Este método es importante porque permite mantener el diseño (HTML/CSS) y el co
 ```
 
 ### blog
-<small>Creado: 2025-10-13 13:51</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11756,7 +11761,7 @@ Estas actividades ayudarán a los estudiantes a desarrollar habilidades fundamen
 En esta carpeta de ejercicios, trabajarás con la manipulación y eliminación de elementos HTML mediante JavaScript. Los ejercicios te enseñarán cómo seleccionar elementos del DOM (Modelo de Objeto del Documento), eliminar estos elementos visibles en la página web e incluso gestionar su estado en memoria una vez han sido eliminados. Aprenderás a usar métodos como `remove()` y a manipular variables para mantener o eliminar referencias a los elementos después de su eliminación visual, lo que es fundamental para entender cómo JavaScript gestiona el DOM dinámicamente.
 
 ### estatico
-<small>Creado: 2025-10-16 14:08</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11781,7 +11786,7 @@ Este fragmento de código HTML es una página web muy básica que contiene tres 
 ```
 
 ### elimino un elemento
-<small>Creado: 2025-10-16 14:09</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11811,7 +11816,7 @@ Esta técnica es muy útil para manipular dinámicamente los elementos de una p�
 ```
 
 ### sigue en la memoria
-<small>Creado: 2025-10-16 14:10</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11844,7 +11849,7 @@ Este tipo de manipulación es muy útil cuando necesitas actualizar dinámicamen
 ```
 
 ### lo pongo en otra parte
-<small>Creado: 2025-10-16 14:11</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11881,7 +11886,7 @@ Este ejemplo muestra cómo puedes manipular la estructura de una página web din
 ```
 
 ### lo elimino pero de verdad
-<small>Creado: 2025-10-16 14:11</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11973,7 +11978,7 @@ Este ejercicio es importante porque demuestra cómo funciona realmente la elimin
 Este conjunto de ejercicios se centra en la manipulación dinámica del estilo y contenido de documentos web utilizando JavaScript. A lo largo de los diferentes archivos, los estudiantes aprenderán a modificar propiedades CSS como el color de texto, fondo y relleno de elementos HTML, así como a gestionar eventos como clics o cambios de foco para actualizar estilos en tiempo real. Además, se trabajan con la adición y eliminación de clases CSS para mejorar la interactividad y retroalimentación del usuario, culminando en un ejercicio práctico que calcula y muestra la letra correspondiente a un número de DNI español basándose en los cambios de estilo según la validez del dato ingresado.
 
 ### ejercicio
-<small>Creado: 2025-10-16 14:14</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12001,7 +12006,7 @@ Esta técnica es útil cuando deseas aplicar cambios visuales basados en eventos
 ```
 
 ### color de fondo
-<small>Creado: 2025-10-16 14:14</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12028,7 +12033,7 @@ En la parte inferior del cuerpo, justo antes de cerrar la etiqueta `</html>`, ha
 ```
 
 ### ahora pongo padding
-<small>Creado: 2025-10-16 14:15</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12054,7 +12059,7 @@ Este fragmento de código HTML crea una página web simple que modifica el estil
 ```
 
 ### estilo en campo
-<small>Creado: 2025-10-16 14:16</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12082,7 +12087,7 @@ Este código es útil para enseñar cómo manipular los estilos de elementos HTM
 ```
 
 ### estilo con evento
-<small>Creado: 2025-10-16 14:17</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12113,7 +12118,7 @@ Esta técnica es muy útil en diseño web ya que ayuda a mejorar la interactivid
 ```
 
 ### varios eventos
-<small>Creado: 2025-10-16 14:18</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12151,7 +12156,7 @@ Esta técnica de cambiar los estilos basada en eventos interactivos es muy comú
 ```
 
 ### clases css
-<small>Creado: 2025-10-16 14:21</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12193,7 +12198,7 @@ Esta técnica es útil en la creación de interfaces de usuario dinámicas, dond
 ```
 
 ### quitar clase css
-<small>Creado: 2025-10-16 14:22</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12238,7 +12243,7 @@ Este tipo de interacción mejora la experiencia del usuario, ya que proporciona 
 ```
 
 ### validador de dni
-<small>Creado: 2025-10-16 14:27</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12277,7 +12282,7 @@ Esta validación es importante porque asegura que el DNI introducido por el usua
 ```
 
 ### numero dinámico
-<small>Creado: 2025-10-16 14:30</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12321,7 +12326,7 @@ Además, se seleccionan dos elementos del DOM: `entrada`, que es el cuadro de te
 ```
 
 ### clases de estilo
-<small>Creado: 2025-10-16 14:34</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12380,7 +12385,7 @@ Esta página web es un ejemplo práctico de cómo combinar HTML, CSS y JavaScrip
 ```
 
 ### supedito el calculo a solo cuando es correcto
-<small>Creado: 2025-10-16 14:35</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12434,7 +12439,7 @@ Este código es importante porque demuestra cómo interactuar con elementos del 
 ```
 
 ### estilo
-<small>Creado: 2025-10-16 14:46</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12509,7 +12514,7 @@ Este código es importante porque demuestra cómo integrar JavaScript con HTML y
 ```
 
 ### mejoramos mas el estilo
-<small>Creado: 2025-10-16 14:51</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12800,7 +12805,7 @@ document.addEventListener("DOMContentLoaded", function() {
 Esto debería proporcionar una mejor experiencia de usuario con tu ventana modal.
 
 ### inicio portafolio
-<small>Creado: 2025-10-30 14:45</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12833,7 +12838,7 @@ Esta estructura es importante porque ayuda a los motores de búsqueda y lectores
 ```
 
 ### fondo negro
-<small>Creado: 2025-10-30 14:46</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12873,7 +12878,7 @@ Este tipo de diseño con un fondo oscuro es común en sitios web modernos y pued
 ```
 
 ### bloques principales
-<small>Creado: 2025-10-30 14:47</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12917,7 +12922,7 @@ Esta estructura HTML es fundamental para entender cómo están organizados los e
 ```
 
 ### creo un elemento de portafolio
-<small>Creado: 2025-10-30 14:48</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12964,7 +12969,7 @@ Este diseño básico es muy útil como punto de partida para desarrollar un port
 ```
 
 ### muchos articulos
-<small>Creado: 2025-10-30 14:48</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -13069,7 +13074,7 @@ Este tipo de diseño es importante porque ayuda a organizar visualmente la infor
 ```
 
 ### uso grid
-<small>Creado: 2025-10-30 14:50</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -13184,7 +13189,7 @@ Cada imagen dentro del main tiene algunas propiedades específicas, como el tama
 ```
 
 ### modal
-<small>Creado: 2025-10-30 14:52</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -13319,7 +13324,7 @@ Este diseño es relevante porque demuestra cómo combinar HTML y CSS para crear 
 ```
 
 ### Ahora el modal
-<small>Creado: 2025-10-30 14:54</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -13460,7 +13465,7 @@ Este diseño es útil para mostrar imágenes de manera organizada y permitir al 
 ```
 
 ### javascipt ventana modal
-<small>Creado: 2025-10-30 14:56</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -13611,7 +13616,7 @@ Esta interacción mejora significativamente la experiencia del usuario al permit
 ```
 
 ### mejoras en el estilo
-<small>Creado: 2025-10-30 14:56</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -14016,7 +14021,7 @@ Aquí está el código finalizado que crea un portfolio dinámico:
 Este código crea una página que dinámicamente renderiza las entradas del portfolio utilizando la estructura y los datos proporcionados, dando como resultado un sitio web de portfolio funcional y estilizado.
 
 ### estructura inicial
-<small>Creado: 2025-11-03 13:23</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -14056,7 +14061,7 @@ Esta estructura es importante porque sigue una buena práctica web llamada "estr
 ```
 
 ### titulos y contacto
-<small>Creado: 2025-11-03 13:24</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -14091,7 +14096,7 @@ Esta estructura es importante porque ayuda a los motores de búsqueda y las pers
 ```
 
 ### articulos
-<small>Creado: 2025-11-03 13:26</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -14173,7 +14178,7 @@ La sección `<footer>`, aunque en este momento está vacía, sirve para agregar 
 ```
 
 ### pie de pagina
-<small>Creado: 2025-11-03 13:27</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -14254,7 +14259,7 @@ Este código es importante porque establece una estructura clara para la página
 ```
 
 ### un poco de estilo
-<small>Creado: 2025-11-03 13:28</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -14341,7 +14346,7 @@ Este tipo de estructura ayuda a los visitantes a navegar fácilmente por el cont
 ```
 
 ### estilo de los articulos
-<small>Creado: 2025-11-03 13:29</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -14429,7 +14434,7 @@ Esta estructura ayuda a organizar visualmente las obras del portafolio en una di
 ```
 
 ### tocamos el estilo de las imagenes
-<small>Creado: 2025-11-03 13:31</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -14520,7 +14525,7 @@ Esta estructura y estilo son fundamentales para presentar visualmente un conjunt
 ```
 
 ### cargamos json
-<small>Creado: 2025-11-03 13:34</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -14575,7 +14580,7 @@ Este código es importante porque demuestra cómo integrar archivos externos y c
 ```
 
 ### vamos a crear un template
-<small>Creado: 2025-11-03 13:36</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -14631,7 +14636,7 @@ Finalmente, hay un script al final del cuerpo (`<body>`) que utiliza la función
 ```
 
 ### definimos origen y destino
-<small>Creado: 2025-11-03 13:37</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -14689,7 +14694,7 @@ Esta técnica es importante porque permite separar claramente el contenido diná
 ```
 
 ### clon ciego
-<small>Creado: 2025-11-03 13:38</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -14750,7 +14755,7 @@ Este enfoque es importante porque permite mantener la estructura de la página s
 ```
 
 ### clon con datos
-<small>Creado: 2025-11-03 13:40</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -14816,7 +14821,7 @@ Esta técnica es útil para mantener la separación entre presentación y datos,
 ```
 
 ### portafolio
-<small>Creado: 2025-11-03 13:33</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15022,7 +15027,7 @@ En esta actividad se trabajará sobre un script en Python que actúa como un pla
 Este conjunto de ejercicios se centra en la creación y manipulación de una base de datos SQL para gestionar un portafolio web. Los estudiantes aprenderán a crear tablas, establecer relaciones entre ellas mediante claves foráneas y realizar consultas que incluyen operaciones JOIN para combinar información de múltiples tablas. Además, se introducirá la creación de vistas para facilitar el acceso a datos combinados y la gestión de usuarios con privilegios específicos sobre la base de datos. Estos ejercicios son esenciales para desarrollar competencias en diseño de bases de datos relacionales, consultas SQL avanzadas y seguridad de la información.
 
 ### crear tablas
-<small>Creado: 2025-11-10 16:24</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15059,7 +15064,7 @@ CREATE TABLE Categorias(
 ```
 
 ### insertar
-<small>Creado: 2025-11-10 16:24</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15089,7 +15094,7 @@ INSERT INTO Piezas VALUES(
 ```
 
 ### fk
-<small>Creado: 2025-11-10 16:24</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15110,7 +15115,7 @@ ON UPDATE CASCADE;
 ```
 
 ### selecciones
-<small>Creado: 2025-11-10 16:24</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15129,7 +15134,7 @@ SELECT * FROM Piezas;
 ```
 
 ### left join
-<small>Creado: 2025-11-10 16:24</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15150,7 +15155,7 @@ ON Piezas.id_categoria = Categorias.Identificador;
 ```
 
 ### ahora creo la vista
-<small>Creado: 2025-11-10 16:24</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15181,7 +15186,7 @@ SELECT * FROM piezas_y_categorias;
 ```
 
 ### usuario
-<small>Creado: 2025-11-10 16:24</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15272,7 +15277,7 @@ Estas actividades están diseñadas para proporcionar una práctica continua y a
 En esta carpeta de ejercicios, trabajaremos con diferentes lenguajes de marcado como HTML, JSON y XML para comprender cómo definir la estructura y sintaxis de documentos. Los ejercicios se centran en crear archivos basados en estas tecnologías, lo que permite a los estudiantes familiarizarse con sus particularidades y usos específicos. A través de estos ejemplos prácticos, se fortalecerán habilidades esenciales como la definición de estructuras de datos, el manejo de etiquetas y atributos en documentos XML y HTML, así como la representación de datos en formato JSON.
 
 ### archivo
-<small>Creado: 2025-11-17 13:02</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15298,7 +15303,7 @@ Este esquema básico es crucial para entender cómo se estructuran las páginas 
 ```
 
 ### documento json
-<small>Creado: 2025-11-17 13:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15318,7 +15323,7 @@ Este tipo de formato es muy importante porque permite almacenar y transmitir dat
 ```
 
 ### documento
-<small>Creado: 2025-11-17 13:04</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15339,7 +15344,7 @@ Este tipo de definición es fundamental en la gestión de datos, ya que ayuda a 
 ```
 
 ### otro documento
-<small>Creado: 2025-11-17 13:05</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15402,7 +15407,7 @@ Este tipo de estructura es importante en XML porque permite organizar datos de u
 En esta carpeta de ejercicios, trabajarás con la definición y validación de esquemas XML utilizando XSD (XML Schema Definition). El objetivo principal es aprender a crear un esquema que describa el formato estructural de documentos XML específicos. A través del archivo `002-plantilla.xsd`, establecerás las reglas para elementos como nombre, apellidos, profesión, roles, proyectos destacados e intereses técnicos. Luego, utilizando Python y la librería `xmlschema`, validarás si un documento XML (`001-documento.xml`) cumple con este esquema. También revisarás el caso de un documento no válido (`004-documento no valido.xml`) para comprender cómo manejar errores en la validación. Este conjunto de ejercicios te ayudará a desarrollar competencias clave en la definición y aplicación de esquemas XML, asegurando así la integridad estructural de tus documentos XML futuros.
 
 ### documento
-<small>Creado: 2025-11-17 13:09</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15447,7 +15452,7 @@ El uso de XML para almacenar esta información tiene la ventaja de ser legible t
 ```
 
 ### plantilla
-<small>Creado: 2025-11-17 13:10</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15512,7 +15517,7 @@ Este tipo de esquemas son muy útiles en entornos profesionales donde se manejan
 ```
 
 ### validador
-<small>Creado: 2025-11-17 13:13</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15536,7 +15541,7 @@ except xmlschema.exceptions.XMLSchemaValidationError as e:
 ```
 
 ### documento no valido
-<small>Creado: 2025-11-17 13:14</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15581,7 +15586,7 @@ Este tipo de estructura XML es importante porque permite organizar datos de mane
 ```
 
 ### validar de nuevo
-<small>Creado: 2025-11-17 13:15</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15661,7 +15666,7 @@ except xmlschema.exceptions.XMLSchemaValueError as e:
 En esta carpeta, trabajaremos con la validación de documentos XML utilizando esquemas XSD. El objetivo principal es entender cómo se definen y aplican restricciones estructurales en archivos XML a través del uso de un esquema XSD. Los ejercicios te guiarán para crear una plantilla XML basada en un esquema definido, luego validar un documento XML contra este esquema utilizando Python y la biblioteca `xmlschema`. A través de esta práctica, adquirirás competencias clave como el manejo de estructuras complejas en XML, la creación y uso efectivo de esquemas XSD, y la validación programática de documentos XML.
 
 ### plantilla
-<small>Creado: 2025-11-17 13:18</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15732,7 +15737,7 @@ Este tipo de esquemas XSD son importantes porque garantizan la consistencia y va
 ```
 
 ### documento no valido
-<small>Creado: 2025-11-17 13:18</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15777,7 +15782,7 @@ Es relevante destacar que este archivo ha sido mencionado como "no válido", lo 
 ```
 
 ### validar de nuevo
-<small>Creado: 2025-11-17 13:18</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15853,7 +15858,7 @@ Estas actividades están diseñadas para que los alumnos entiendan tanto la estr
 Esta carpeta contiene ejercicios que te ayudarán a comprender y trabajar con esquemas XML (XSD) para definir estructuras de datos y crear instancias XML basadas en esos esquemas. Los ejercicios inician por analizar un esquema XML existente llamado "esquema.xsd" y extraer información sobre los campos necesarios para una entidad específica, como la etiqueta `<persona>`. A medida que avanzas, te pedirán capturar datos del usuario para crear instancias de este esquema en formato XML, con énfasis en cómo validar e imprimir estos archivos de manera legible. Estos ejercicios mejoran tus habilidades en procesamiento de XML y XSD, manejo de estructuras de datos y formateo de salida.
 
 ### generador esquema
-<small>Creado: 2025-11-17 13:22</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15893,7 +15898,7 @@ print("Campos de <persona>:", fields)
 ```
 
 ### preguntas dinamicas
-<small>Creado: 2025-11-17 13:26</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15933,7 +15938,7 @@ for campo in fields:
 ```
 
 ### guardar xml
-<small>Creado: 2025-11-17 13:28</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15998,7 +16003,7 @@ print(f"XML guardado en {output_file}")
 ```
 
 ### pretty print
-<small>Creado: 2025-11-17 13:30</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16071,7 +16076,7 @@ print(f"XML formateado guardado en {output_file}")
 ```
 
 ### persona
-<small>Creado: 2025-11-17 13:30</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16156,7 +16161,7 @@ Estas actividades están diseñadas para proporcionar una experiencia práctica 
 Este conjunto de ejercicios te permitirá entender cómo interactuar con una base de datos MySQL desde Python, convertir los resultados obtenidos en diccionarios y JSON, y finalmente utilizar la librería Flask para crear un servicio web simple que pueda servir estos datos. Los ejercicios inician mostrándote cómo conectarte a la base de datos y recuperar registros, luego avanzan explicando cómo obtener esos mismos datos en formato de diccionario y JSON. Finalmente, te enseñan a utilizar Flask para crear endpoints que devuelvan los datos en JSON y cómo integrar plantillas HTML para mejorar la presentación del contenido. Estos ejercicios te ayudarán a desarrollar competencias clave en manejo de bases de datos, transformación de datos y desarrollo web básico utilizando Python.
 
 ### me conecto a la base de datos
-<small>Creado: 2025-11-20 14:09</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16188,7 +16193,7 @@ print(lineas)
 ```
 
 ### quiero un diccionario
-<small>Creado: 2025-11-20 14:09</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16214,7 +16219,7 @@ print(lineas)
 ```
 
 ### convierto diccionario a json
-<small>Creado: 2025-11-20 14:11</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16247,7 +16252,7 @@ print(lineas_json)
 ```
 
 ### le pongo un poco de flask
-<small>Creado: 2025-11-20 14:13</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16290,7 +16295,7 @@ if __name__ == "__main__":
 ```
 
 ### trabajo con templates
-<small>Creado: 2025-11-20 14:16</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16384,7 +16389,7 @@ Estas actividades están diseñadas para permitir a los estudiantes adquirir exp
 Este conjunto de ejercicios está diseñado para que comprendas cómo estructurar y convertir datos almacenados en una base de datos MySQL a diferentes formatos, principalmente JSON. Los ejercicios comienzan con la simple visualización de tablas en una base de datos y avanzan hasta crear una aplicación web básica usando Flask que muestra estos datos de forma estética. A lo largo del proceso, trabajarás con conceptos como la manipulación de datos en Python, el uso de librerías como MySQL Connector para interactuar con bases de datos, la conversión de datos a JSON y finalmente cómo servir este contenido a través de una API web con Flask. Estos ejercicios te ayudarán a familiarizarte con la estructura y sintaxis del manejo de datos en programación, así como con el desarrollo web básico para su intercambio eficiente.
 
 ### quiero ver las tablas
-<small>Creado: 2025-11-20 14:24</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16412,7 +16417,7 @@ print(lineas)
 ```
 
 ### formateo el documento
-<small>Creado: 2025-11-20 14:26</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16447,7 +16452,7 @@ print(documento)
 ```
 
 ### ahora quiero cada una de las tablas
-<small>Creado: 2025-11-20 14:30</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16485,7 +16490,7 @@ print(documento)
 ```
 
 ### tengo que convertir a json
-<small>Creado: 2025-11-20 14:31</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16525,7 +16530,7 @@ print(documento_json)
 ```
 
 ### pretty
-<small>Creado: 2025-11-20 14:33</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16565,7 +16570,7 @@ print(documento_json)
 ```
 
 ### ahora lo saco con flask
-<small>Creado: 2025-11-20 14:38</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16622,7 +16627,7 @@ if __name__ == "__main__":
 ```
 
 ### creo dos endpoints
-<small>Creado: 2025-11-20 14:40</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16725,7 +16730,7 @@ En esta carpeta, encontrarás ejercicios que te ayudarán a entender cómo estru
 Estos ejercicios te permitirán practicar tus habilidades en el uso de etiquetas HTML semánticas y en la creación de estilos utilizando hojas de estilo en cascada (CSS) directamente en el documento, lo que es fundamental para desarrollar páginas web dinámicas e interactivas.
 
 ### panel
-<small>Creado: 2025-11-20 14:44</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16759,7 +16764,7 @@ Esta estructura HTML es importante porque sigue las mejores prácticas para crea
 ```
 
 ### un poco de css
-<small>Creado: 2025-11-20 14:47</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16859,7 +16864,7 @@ Let's break down what each part does:
 If you have any specific questions or need further assistance with these files (such as expanding functionality, debugging issues, or improving performance), feel free to ask! What would you like to do next?
 
 ### json a xml
-<small>Creado: 2025-11-24 13:07</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16898,7 +16903,7 @@ tree.write("persona.xml", encoding="utf-8", xml_declaration=True)
 ```
 
 ### conversor avanzado de json a xml
-<small>Creado: 2025-11-24 13:08</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -16973,7 +16978,7 @@ tree.write("persona.xml", encoding="utf-8", xml_declaration=True)
 ```
 
 ### conversor de xml a json
-<small>Creado: 2025-11-24 13:12</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17017,7 +17022,7 @@ if __name__ == "__main__":
 ```
 
 ### leer excel
-<small>Creado: 2025-11-24 13:21</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17037,7 +17042,7 @@ print(df.head())
 ```
 
 ### leemos ods
-<small>Creado: 2025-11-24 13:22</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17053,7 +17058,7 @@ print(df.head())
 ```
 
 ### conversor bidireccional xlsx a ods
-<small>Creado: 2025-11-24 13:23</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17104,7 +17109,7 @@ convert("empresa.ods", "empresaconvertida.xlsx")
 ```
 
 ### unir dos pdf
-<small>Creado: 2025-11-24 13:27</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17133,7 +17138,7 @@ merger.close()
 ```
 
 ### unir array de pdf
-<small>Creado: 2025-11-24 13:28</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17164,7 +17169,7 @@ merger.close()
 ```
 
 ### separar pdf
-<small>Creado: 2025-11-24 13:29</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17190,7 +17195,7 @@ for i, page in enumerate(reader.pages):
 ```
 
 ### separar pdf a jpg
-<small>Creado: 2025-11-24 13:30</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17219,7 +17224,7 @@ for i, page in enumerate(pages):
 ```
 
 ### separar pdf a png
-<small>Creado: 2025-11-24 13:32</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17246,7 +17251,7 @@ for i, page in enumerate(pages):
 ```
 
 ### comprimir pdf
-<small>Creado: 2025-11-24 13:35</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17287,7 +17292,7 @@ print("Compressed:", output_pdf)
 ```
 
 ### grid en HTML
-<small>Creado: 2025-11-24 13:42</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17327,7 +17332,7 @@ Esta página sirve como una interfaz básica para seleccionar funciones relacion
 ```
 
 ### miniservidor flask
-<small>Creado: 2025-11-24 13:43</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17357,7 +17362,7 @@ if __name__ == "__main__":
 ```
 
 ### superservidor
-<small>Creado: 2025-11-24 13:51</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17513,7 +17518,7 @@ if __name__ == "__main__":
 ```
 
 ### empresa
-<small>Creado: 2025-11-24 13:19</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17579,7 +17584,7 @@ Rotulador Permanente,Rotulador negro resistente al agua,1.50
 ```
 
 ### persona
-<small>Creado: 2025-11-24 13:06</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17601,7 +17606,7 @@ Este fragmento de código es un archivo JSON que contiene información sobre una
 ```
 
 ### persona
-<small>Creado: 2025-11-24 13:09</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17626,7 +17631,7 @@ Este tipo de estructura XML es útil porque permite representar datos jerárquic
 ```
 
 ### persona2
-<small>Creado: 2025-11-24 13:13</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17652,7 +17657,7 @@ Es importante destacar cómo se organiza la información en JSON para facilitar 
 ```
 
 ### pip
-<small>Creado: 2025-11-24 13:34</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -18058,7 +18063,7 @@ table td, table th { padding:5px; }
 Con estos cambios, tu aplicación web será más robusta y proporcionará una experiencia de usuario mejorada.
 
 ### discos
-<small>Creado: 2025-11-27 14:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -18084,7 +18089,7 @@ Este archivo HTML vacío sirve como punto de partida para desarrollar cualquier 
 ```
 
 ### crear base de datos
-<small>Creado: 2025-11-27 14:05</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -18140,7 +18145,7 @@ VALUES
 ```
 
 ### pequeño formulario
-<small>Creado: 2025-11-27 14:12</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -18173,7 +18178,7 @@ Cuando un usuario completa todos los campos del formulario y hace clic en "Envia
 ```
 
 ### insertadisco
-<small>Creado: 2025-11-27 14:11</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -18206,7 +18211,7 @@ $result = $mysqli->query($sql);
 ```
 
 ### todo en un mismo archivo
-<small>Creado: 2025-11-27 14:16</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -18258,7 +18263,7 @@ Este tipo de implementación es importante porque combina la lógica del servido
 ```
 
 ### ahora quiero leer
-<small>Creado: 2025-11-27 14:19</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -18328,7 +18333,7 @@ Este tipo de página es importante para estudiantes porque demuestra cómo se in
 ```
 
 ### un poco de estilo
-<small>Creado: 2025-11-27 14:25</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -18415,7 +18420,7 @@ Este tipo de estructura es importante porque permite a los usuarios interactuar 
 ```
 
 ### boton de eliminar
-<small>Creado: 2025-11-27 14:28</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -18502,7 +18507,7 @@ Este script es importante porque demuestra cómo interactuar con una base de dat
 ```
 
 ### procesar eliminar
-<small>Creado: 2025-11-27 14:33</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -18606,7 +18611,7 @@ Este fragmento es importante porque demuestra cómo interactuar con bases de dat
 ```
 
 ### cabeceras de la tabla
-<small>Creado: 2025-11-27 14:36</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -18969,7 +18974,7 @@ Para combinar los datos del archivo SVG, HTML y JSON en un solo diagrama coheren
 Este diagrama consolidado debería representar adecuadamente tus elementos y conexiones. Si necesitas ajustes adicionales, puedes modificar las coordenadas de los shapes o el recorrido de las flechas según sea necesario.
 
 ### formulario
-<small>Creado: 2025-12-04 14:10</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -19006,7 +19011,7 @@ Este tipo de formulario es importante porque permite recoger datos del usuario e
 ```
 
 ### un poco de estilo
-<small>Creado: 2025-12-04 14:17</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -19056,7 +19061,7 @@ Este tipo de diseño es importante porque mejora la interacción con la página 
 ```
 
 ### vamos a crear muchos elementos
-<small>Creado: 2025-12-04 14:18</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -19104,7 +19109,7 @@ Esta técnica es útil cuando necesitas generar múltiples elementos similares a
 ```
 
 ### panel de administracion
-<small>Creado: 2025-12-04 14:27</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -19157,7 +19162,7 @@ Este ejemplo demuestra cómo combinar HTML y PHP para crear una página web inte
 ```
 
 ### acordar un modelo de datos
-<small>Creado: 2025-12-04 14:31</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -19229,7 +19234,7 @@ INSERT INTO inscripciones (
 ```
 
 ### crear_usuario
-<small>Creado: 2025-12-04 14:33</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -19268,7 +19273,7 @@ FLUSH PRIVILEGES;
 ```
 
 ### saco el modelo de datos de la base de datos
-<small>Creado: 2025-12-04 14:38</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -19320,7 +19325,7 @@ Esta técnica es útil porque permite crear formularios sin necesidad de escribi
 ```
 
 ### quitar el id
-<small>Creado: 2025-12-04 14:44</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -19379,7 +19384,7 @@ Este código es importante porque permite generar formularios automáticamente b
 ```
 
 ### personalizar campos
-<small>Creado: 2025-12-04 14:47</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -19440,7 +19445,7 @@ Este tipo de enfoque es muy útil cuando se necesita crear formularios dinámico
 ```
 
 ### mas tipos de campo
-<small>Creado: 2025-12-04 14:55</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -19510,7 +19515,7 @@ Esta técnica de generación dinámica de formularios es útil porque permite cr
 ```
 
 ### textarea
-<small>Creado: 2025-12-04 14:57</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -19603,7 +19608,7 @@ El estilo CSS incluido en la cabecera del documento HTML se encarga de dar un di
 ```
 
 ### campos de tipo documento
-<small>Creado: 2025-12-04 15:00</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -19679,7 +19684,7 @@ Esta técnica es muy útil porque permite generar formularios complejos basados 
 ```
 
 ### estilo
-<small>Creado: 2025-12-04 15:05</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -19903,7 +19908,7 @@ En resumen, este código combina HTML, CSS y PHP para crear un formulario adapta
 ```
 
 ### comentarios
-<small>Creado: 2025-12-04 15:08</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -19979,7 +19984,7 @@ ALTER TABLE inscripciones
 ```
 
 ### usar comentarios
-<small>Creado: 2025-12-04 15:11</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -20208,7 +20213,7 @@ En comparación con el archivo `014-comentarios.sql`, este código se centra en 
 ```
 
 ### diagrama
-<small>Creado: 2025-12-04 14:06</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -20447,7 +20452,7 @@ body {
 ```
 
 ### diagrama
-<small>Creado: 2025-12-04 14:06</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -20562,7 +20567,7 @@ Este tipo de archivo JSON es útil para almacenar y manipular gráficos en aplic
 ```
 
 ### diagrama
-<small>Creado: 2025-12-04 14:06</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -20836,7 +20841,7 @@ El código SVG representa la forma gráfica del diagrama:
 En resumen, el diagrama representa un flujo de trabajo que tiene cuatro etapas: Home, Página de producto, Carrito y Finalizacion. Las flechas conectan estas etapas para indicar la secuencia de acciones.
 
 ### tienda online
-<small>Creado: 2025-12-11 14:09</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -20875,7 +20880,7 @@ También tenemos una sección `<footer>` vacía, lo cual no es necesario para un
 ```
 
 ### muchos productos
-<small>Creado: 2025-12-11 14:10</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -20922,7 +20927,7 @@ En resumen, este código proporciona una estructura básica para una página web
 ```
 
 ### muchos productos
-<small>Creado: 2025-12-11 14:11</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -20965,7 +20970,7 @@ Este tipo de código es importante porque permite a los desarrolladores generar 
 ```
 
 ### css basicos
-<small>Creado: 2025-12-11 14:16</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -21012,7 +21017,7 @@ El código PHP también es importante, ya que utiliza un bucle `for` para genera
 ```
 
 ### cabecera
-<small>Creado: 2025-12-11 14:22</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -21063,7 +21068,7 @@ En general, este código es importante porque muestra cómo se puede estructurar
 ```
 
 ### operacion comprar
-<small>Creado: 2025-12-11 14:27</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -21123,7 +21128,7 @@ Si se ha enviado la variable `producto`, el código cambia el contenido del cicl
 ```
 
 ### pagina de producto
-<small>Creado: 2025-12-11 14:32</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -21197,7 +21202,7 @@ También hay otro producto que no puedes comprar porque lo compras en la pestañ
 ```
 
 ### catalogo de operaciones
-<small>Creado: 2025-12-11 14:34</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -21273,7 +21278,7 @@ Este código es importante porque demuestra cómo se pueden integrar diferentes 
 ```
 
 ### pagina de finalizacion
-<small>Creado: 2025-12-11 14:36</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -21355,7 +21360,7 @@ El código utiliza PHP para manejar la lógica de negocio y generar el contenido
 ```
 
 ### desarrollamos el carrito
-<small>Creado: 2025-12-11 14:41</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -21468,7 +21473,7 @@ En resumen, este código permite mostrar diferentes tipos de contenido en funci�
 ```
 
 ### pantalla de confirmacion
-<small>Creado: 2025-12-11 14:42</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -21591,7 +21596,7 @@ Este código es importante en el desarrollo web ya que demuestra cómo se puede 
 ```
 
 ### diagrama
-<small>Creado: 2025-12-11 14:58</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -21839,7 +21844,7 @@ body {
 ```
 
 ### diagrama
-<small>Creado: 2025-12-11 14:58</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -21953,7 +21958,7 @@ La segunda parte del bloque de código se refiere a las flechas que conectan est
 ```
 
 ### diagrama
-<small>Creado: 2025-12-11 14:58</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -22046,7 +22051,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/006-Almacenamiento%20de%20informaci%C3%B3n/004-Importaci%C3%B3n%20y%20exportaci%C3%B3n%20de%20bases%20de%20datos%20relacionales%20en%20diferentes%20formatos)
 
 ### inicio
-<small>Creado: 2025-12-15 13:04</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `001-inicio.php`
 
@@ -22070,7 +22075,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### header
-<small>Creado: 2025-12-15 13:06</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `002-header.php`
 
@@ -22097,7 +22102,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### estilo del header
-<small>Creado: 2025-12-15 13:11</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `003-estilo del header.php`
 
@@ -22132,7 +22137,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### elementos principales
-<small>Creado: 2025-12-15 13:12</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `004-elementos principales.php`
 
@@ -22169,7 +22174,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### productos
-<small>Creado: 2025-12-15 13:14</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `005-productos.php`
 
@@ -22213,7 +22218,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### maquetacion de los productos
-<small>Creado: 2025-12-15 13:16</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `006-maquetacion de los productos.php`
 
@@ -22261,7 +22266,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### grid a continuacion
-<small>Creado: 2025-12-15 13:23</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `007-grid a continuacion.php`
 
@@ -22358,7 +22363,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### fuentes personalizadas
-<small>Creado: 2025-12-15 13:26</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `008-fuentes personalizadas.php`
 
@@ -22457,7 +22462,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### productos
-<small>Creado: 2025-12-15 13:37</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `009-productos.php`
 
@@ -22562,7 +22567,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### organizar
-<small>Creado: 2025-12-15 13:38</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `010-organizar.php`
 
@@ -22667,7 +22672,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### pie de pagina
-<small>Creado: 2025-12-15 13:49</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `011-pie de pagina.php`
 
@@ -22782,7 +22787,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### pie de pagina desde json
-<small>Creado: 2025-12-15 13:54</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `012-pie de pagina desde json.php`
 
@@ -22905,7 +22910,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### categorias
-<small>Creado: 2025-12-15 13:59</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `categorias.json`
 
@@ -22918,7 +22923,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### productos
-<small>Creado: 2025-12-15 13:59</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `productos.json`
 
@@ -22974,7 +22979,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/006-Almacenamiento%20de%20informaci%C3%B3n/005-Herramientas%20de%20tratamiento%20y%20almacenamiento%20de%20informaci%C3%B3n%20en%20sistemas%20nativos)
 
 ### index
-<small>Creado: 2025-12-18 14:08</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `001-index.html`
 
@@ -23001,7 +23006,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### numero y nombre del mes
-<small>Creado: 2025-12-18 14:07</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `002-numero y nombre del mes.html`
 
@@ -23031,7 +23036,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### numero de dias
-<small>Creado: 2025-12-18 14:09</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `003-numero de dias.html`
 
@@ -23067,7 +23072,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### un poco de css
-<small>Creado: 2025-12-18 14:11</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `004-un poco de css.html`
 
@@ -23107,7 +23112,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### nombres de los meses
-<small>Creado: 2025-12-18 14:15</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `005-nombres de los meses.html`
 
@@ -23154,7 +23159,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### dia en el que empieza el mes
-<small>Creado: 2025-12-18 14:22</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `006-dia en el que empieza el mes.html`
 
@@ -23210,7 +23215,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### un poco mas de css
-<small>Creado: 2025-12-18 14:23</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `007-un poco mas de css.html`
 
@@ -23266,7 +23271,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### Ahora añado horas
-<small>Creado: 2025-12-18 14:27</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `008-Ahora añado horas.html`
 
@@ -23328,7 +23333,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### flex para los dias
-<small>Creado: 2025-12-18 14:30</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `009-flex para los dias.html`
 
@@ -23391,7 +23396,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### mas css
-<small>Creado: 2025-12-18 14:33</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `010-mas css.html`
 
@@ -23457,7 +23462,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### evento crear nuevo dia
-<small>Creado: 2025-12-18 14:37</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `011-evento crear nuevo dia.html`
 
@@ -23530,7 +23535,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### me meto dentro del evento y puedo escribir
-<small>Creado: 2025-12-18 14:40</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `012-me meto dentro del evento y puedo escribir.html`
 
@@ -23610,7 +23615,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### boton de guardar
-<small>Creado: 2025-12-18 14:42</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `013-boton de guardar.html`
 
@@ -23692,7 +23697,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### les pongo año mes y dia a los eventos
-<small>Creado: 2025-12-18 14:43</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `014-les pongo año mes y dia a los eventos.html`
 
@@ -23778,7 +23783,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### creo calendarios
-<small>Creado: 2025-12-18 14:50</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `015-creo calendarios.html`
 
@@ -23877,7 +23882,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### localstorage
-<small>Creado: 2025-12-18 15:02</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `016-localstorage.html`
 
@@ -23978,7 +23983,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### guardar pero bien
-<small>Creado: 2025-12-18 15:09</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `017-guardar pero bien.html`
 
@@ -24091,7 +24096,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### Recuperar localstorage
-<small>Creado: 2025-12-18 15:18</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `018-Recuperar localstorage.html`
 
@@ -24249,7 +24254,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### detecto teclas en los eventos
-<small>Creado: 2025-12-18 15:22</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `019-detecto teclas en los eventos.html`
 
@@ -24417,7 +24422,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### realmente suprimo
-<small>Creado: 2025-12-18 15:22</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `020-realmente suprimo.html`
 
@@ -24585,7 +24590,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### latido del corazon
-<small>Creado: 2025-12-18 15:30</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `021-latido del corazon.html`
 
@@ -24776,7 +24781,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### vistas
-<small>Creado: 2025-12-18 15:41</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `022-vistas.html`
 
@@ -25004,7 +25009,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### mejoras
-<small>Creado: 2025-12-18 15:45</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `023-mejoras.html`
 
@@ -25918,7 +25923,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### finalizacion
-<small>Creado: 2025-12-18 15:55</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `024-finalizacion.html`
 
@@ -27165,7 +27170,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### mejoras
-<small>Creado: 2025-12-19 09:08</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `025-mejoras.html`
 
@@ -29231,7 +29236,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### Archivo sin título
-<small>Creado: 2025-12-18 14:07</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `Archivo sin título`
 
@@ -29246,7 +29251,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/006-Almacenamiento%20de%20informaci%C3%B3n/006-Almacenamiento%20y%20manipulaci%C3%B3n%20de%20informaci%C3%B3n%20en%20sistemas%20nativos)
 
 ### inicio
-<small>Creado: 2025-12-22 13:06</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `001-inicio.html`
 
@@ -29266,7 +29271,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### anchura400
-<small>Creado: 2025-12-22 13:06</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `002-anchura400.html`
 
@@ -29288,7 +29293,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### ahora abreviamos
-<small>Creado: 2025-12-22 13:08</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `003-ahora abreviamos.html`
 
@@ -29310,7 +29315,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### externalizar
-<small>Creado: 2025-12-22 13:10</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `004-externalizar.html`
 
@@ -29327,7 +29332,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### externo
-<small>Creado: 2025-12-22 13:09</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `004-externo.css`
 
@@ -29339,7 +29344,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### usamos JVestilo
-<small>Creado: 2025-12-22 13:17</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `005-usamos JVestilo.php`
 
@@ -29358,7 +29363,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### dos parameteros
-<small>Creado: 2025-12-22 13:18</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `006-dos parameteros.php`
 
@@ -29377,7 +29382,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### varios parametros
-<small>Creado: 2025-12-22 13:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `007-varios parametros.php`
 
@@ -29396,7 +29401,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### creamos web completa
-<small>Creado: 2025-12-22 13:29</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `008-creamos web completa.php`
 
@@ -29423,7 +29428,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### secciones
-<small>Creado: 2025-12-22 13:50</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `009-secciones.php`
 
@@ -29493,7 +29498,7 @@ Sin embargo, sin más información, es difícil determinar con certeza qué es l
 ```
 
 ### colores
-<small>Creado: 2025-12-22 13:12</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `colores.php`
 
@@ -29653,7 +29658,7 @@ $colores = [
 ```
 
 ### familiasfuentes
-<small>Creado: 2025-12-22 13:28</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `familiasfuentes.php`
 
@@ -29671,7 +29676,7 @@ $familias = [
 ```
 
 ### JVestilo
-<small>Creado: 2025-12-22 13:48</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `JVestilo.php`
 
@@ -29728,7 +29733,7 @@ $familias = [
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/007-Sistemas%20de%20gesti%C3%B3n%20empresarial/001-Aplicaciones%20de%20gesti%C3%B3n%20empresarial.%20Tipos.%20Caracter%C3%ADsticas)
 
 ### diagrama
-<small>Creado: 2026-01-08 14:30</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `004-diagrama.html`
 
@@ -29978,7 +29983,7 @@ body {
 ```
 
 ### diagrama
-<small>Creado: 2026-01-08 14:30</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `004-diagrama.json`
 
@@ -30210,7 +30215,7 @@ body {
 ```
 
 ### diagrama
-<small>Creado: 2026-01-08 14:30</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `004-diagrama.svg`
 
@@ -30272,7 +30277,7 @@ body {
 ```
 
 ### diagrama
-<small>Creado: 2026-01-08 14:48</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `006-diagrama.html`
 
@@ -30515,7 +30520,7 @@ body {
 ```
 
 ### diagrama
-<small>Creado: 2026-01-08 14:48</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `006-diagrama.json`
 
@@ -30694,7 +30699,7 @@ body {
 ```
 
 ### diagrama.json
-<small>Creado: 2026-01-08 14:48</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `006-diagrama.json.svg`
 
@@ -30755,7 +30760,7 @@ body {
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/007-Sistemas%20de%20gesti%C3%B3n%20empresarial/002-Instalaci%C3%B3n)
 
 ### web estatica
-<small>Creado: 2026-01-12 13:19</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `002-web estatica.html`
 
@@ -30871,7 +30876,7 @@ body {
 ```
 
 ### con estilo
-<small>Creado: 2026-01-12 13:31</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `003-con estilo.html`
 
@@ -31114,7 +31119,7 @@ body {
 ```
 
 ### soloplantilla
-<small>Creado: 2026-01-12 13:38</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `004-soloplantilla.html`
 
@@ -31352,7 +31357,7 @@ body {
 ```
 
 ### plantillaSEO
-<small>Creado: 2026-01-12 13:53</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `005-plantillaSEO.html`
 
@@ -31682,7 +31687,7 @@ body {
 ```
 
 ### datos
-<small>Creado: 2026-01-12 13:45</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `datos.json`
 
@@ -31796,7 +31801,7 @@ body {
 ```
 
 ### estilo
-<small>Creado: 2026-01-12 13:31</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `estilo.css`
 
@@ -32280,7 +32285,7 @@ body {
 ```
 
 ### estilochatgpt
-<small>Creado: 2026-01-12 13:43</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `estilochatgpt.css`
 
@@ -32786,7 +32791,7 @@ footer{
 ```
 
 ### estiloclaude
-<small>Creado: 2026-01-12 13:36</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `estiloclaude.css`
 
@@ -33340,7 +33345,7 @@ footer{
 ```
 
 ### estilomistral
-<small>Creado: 2026-01-12 13:37</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `estilomistral.css`
 
@@ -33930,7 +33935,7 @@ footer {
 ```
 
 ### index
-<small>Creado: 2026-01-12 13:46</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `index.php`
 
@@ -34108,7 +34113,7 @@ function apply_placeholders(string $template, array $data): string {
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/007-Sistemas%20de%20gesti%C3%B3n%20empresarial/003-Administraci%C3%B3n%20y%20configuraci%C3%B3n)
 
 ### index
-<small>Creado: 2026-01-15 14:04</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `001-index.html`
 
@@ -34131,7 +34136,7 @@ function apply_placeholders(string $template, array $data): string {
 ```
 
 ### un poco de estilo
-<small>Creado: 2026-01-15 14:10</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `002-un poco de estilo.html`
 
@@ -34179,7 +34184,7 @@ function apply_placeholders(string $template, array $data): string {
 ```
 
 ### menu sacado
-<small>Creado: 2026-01-15 14:10</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `003-menu sacado.html`
 
@@ -34231,7 +34236,7 @@ function apply_placeholders(string $template, array $data): string {
 ```
 
 ### js para comportamiento dinamico
-<small>Creado: 2026-01-15 14:12</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `004-js para comportamiento dinamico.html`
 
@@ -34290,7 +34295,7 @@ function apply_placeholders(string $template, array $data): string {
 ```
 
 ### cambiamos el estado
-<small>Creado: 2026-01-15 14:14</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `005-cambiamos el estado.html`
 
@@ -34350,7 +34355,7 @@ function apply_placeholders(string $template, array $data): string {
 ```
 
 ### creamos variable de estado
-<small>Creado: 2026-01-15 14:17</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `006-creamos variable de estado.html`
 
@@ -34420,7 +34425,7 @@ function apply_placeholders(string $template, array $data): string {
 ```
 
 ### fondo oscuro letra clara
-<small>Creado: 2026-01-15 14:23</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `007-fondo oscuro letra clara.html`
 
@@ -34493,7 +34498,7 @@ function apply_placeholders(string $template, array $data): string {
 ```
 
 ### secciones
-<small>Creado: 2026-01-15 14:26</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `008-secciones.html`
 
@@ -34661,7 +34666,7 @@ function apply_placeholders(string $template, array $data): string {
 ```
 
 ### css en las  secciones
-<small>Creado: 2026-01-15 14:32</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `009-css en las  secciones.html`
 
@@ -34838,7 +34843,7 @@ function apply_placeholders(string $template, array $data): string {
 ```
 
 ### creo una flecha
-<small>Creado: 2026-01-15 14:38</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `010-creo una flecha.html`
 
@@ -35048,7 +35053,7 @@ function apply_placeholders(string $template, array $data): string {
 ```
 
 ### comportamiento de las flechas
-<small>Creado: 2026-01-15 14:54</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `011-comportamiento de las flechas.html`
 
@@ -35278,7 +35283,7 @@ function apply_placeholders(string $template, array $data): string {
 ```
 
 ### un poco de css para las flechas
-<small>Creado: 2026-01-15 15:02</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `012-un poco de css para las flechas.html`
 
@@ -35514,11 +35519,2218 @@ function apply_placeholders(string $template, array $data): string {
 
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/007-Sistemas%20de%20gesti%C3%B3n%20empresarial/004-Integraci%C3%B3n%20de%20m%C3%B3dulos)
 
+### inicio
+<small>Creado: 2026-01-19 16:28</small>
+
+`001-inicio.html`
+
+```html
+<!doctype html>
+<html>
+	<head>
+		
+	</head>
+	<body>
+	</body>
+</html>
+```
+
+### datos iniciales
+<small>Creado: 2026-01-19 16:28</small>
+
+`002-datos iniciales.html`
+
+```html
+<!doctype html>
+<html lang="es">
+	<head>
+		<title>recortabl.es</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<header>
+			<h1>recortabl.es</h1>
+			<nav>
+				<a href="">Categorias</a>
+				<a href="">Sobre nosotros</a>
+				<a href="">Descargas</a>
+				<a href="">Iniciar sesión</a>
+				<input type="search" placeholder="buscar">
+			</nav>
+		</header>
+		<main>
+			<section id="heroe">
+			</section>
+			<section id="categoriasprincipales">
+			</section>
+			<section id="recortablesdestacados">
+			</section>
+			<section id="galeria">
+			</section>
+			<section id="informacion">
+			</section>
+		</main>
+		<footer>	
+			<nav>
+				<a href="">Acerca de</a>
+				<a href="">Contacto</a>
+				<a href="">Licencias</a>
+				<a href="">Aviso Legal</a>
+				<a href="">FB</a>
+				<a href="">X.com</a>
+				<a href="">YT</a>
+				<a href="">Insta</a>
+			</nav>
+		</footer>
+	</body>
+</html>
+```
+
+### heroe
+<small>Creado: 2026-01-19 16:28</small>
+
+`003-heroe.html`
+
+```html
+<!doctype html>
+<html lang="es">
+	<head>
+		<title>recortabl.es</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<header>
+			<h1>recortabl.es</h1>
+			<nav>
+				<a href="">Categorias</a>
+				<a href="">Sobre nosotros</a>
+				<a href="">Descargas</a>
+				<a href="">Iniciar sesión</a>
+				<input type="search" placeholder="buscar">
+			</nav>
+		</header>
+		<main>
+			<section id="heroe">
+				<h3>Juguetes recortables para imprimir y jugar</h3>
+				<h4>Descarga - Imprime - Recorta - Pega - Juega</h4>
+				<a href="">Explorar recortables</a>
+				<a href="">Cómo funciona</a>
+			</section>
+			<section id="categoriasprincipales">
+			</section>
+			<section id="recortablesdestacados">
+			</section>
+			<section id="galeria">
+			</section>
+			<section id="informacion">
+			</section>
+		</main>
+		<footer>	
+			<nav>
+				<a href="">Acerca de</a>
+				<a href="">Contacto</a>
+				<a href="">Licencias</a>
+				<a href="">Aviso Legal</a>
+				<a href="">FB</a>
+				<a href="">X.com</a>
+				<a href="">YT</a>
+				<a href="">Insta</a>
+			</nav>
+		</footer>
+	</body>
+</html>
+```
+
+### categorias principales
+<small>Creado: 2026-01-19 16:28</small>
+
+`004-categorias principales.html`
+
+```html
+<!doctype html>
+<html lang="es">
+	<head>
+		<title>recortabl.es</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<header>
+			<h1>recortabl.es</h1>
+			<nav>
+				<a href="">Categorias</a>
+				<a href="">Sobre nosotros</a>
+				<a href="">Descargas</a>
+				<a href="">Iniciar sesión</a>
+				<input type="search" placeholder="buscar">
+			</nav>
+		</header>
+		<main>
+			<section id="heroe">
+				<h3>Juguetes recortables para imprimir y jugar</h3>
+				<h4>Descarga - Imprime - Recorta - Pega - Juega</h4>
+				<a href="">Explorar recortables</a>
+				<a href="">Cómo funciona</a>
+			</section>
+			<section id="categoriasprincipales">
+				<h3>Categorías principales</h3>
+				<div class="contenedor">
+					<article>
+						<img src="">
+						<p>Vehículos</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Edificios</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Robots</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Animales</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Navidad</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Educativos</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Muñecos</p>
+					</article>
+				</div>
+			</section>
+			<section id="recortablesdestacados">
+			</section>
+			<section id="galeria">
+			</section>
+			<section id="informacion">
+			</section>
+		</main>
+		<footer>	
+			<nav>
+				<a href="">Acerca de</a>
+				<a href="">Contacto</a>
+				<a href="">Licencias</a>
+				<a href="">Aviso Legal</a>
+				<a href="">FB</a>
+				<a href="">X.com</a>
+				<a href="">YT</a>
+				<a href="">Insta</a>
+			</nav>
+		</footer>
+	</body>
+</html>
+```
+
+### reccotables destacados
+<small>Creado: 2026-01-19 16:28</small>
+
+`005-reccotables destacados.html`
+
+```html
+<!doctype html>
+<html lang="es">
+	<head>
+		<title>recortabl.es</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<header>
+			<h1>recortabl.es</h1>
+			<nav>
+				<a href="">Categorias</a>
+				<a href="">Sobre nosotros</a>
+				<a href="">Descargas</a>
+				<a href="">Iniciar sesión</a>
+				<input type="search" placeholder="buscar">
+			</nav>
+		</header>
+		<main>
+			<section id="heroe">
+				<h3>Juguetes recortables para imprimir y jugar</h3>
+				<h4>Descarga - Imprime - Recorta - Pega - Juega</h4>
+				<a href="">Explorar recortables</a>
+				<a href="">Cómo funciona</a>
+			</section>
+			<section id="categoriasprincipales">
+				<h3>Categorías principales</h3>
+				<div class="contenedor">
+					<article>
+						<img src="">
+						<p>Vehículos</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Edificios</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Robots</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Animales</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Navidad</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Educativos</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Muñecos</p>
+					</article>
+				</div>
+			</section>
+			<section id="recortablesdestacados">
+				<h3>Recortables destacados</h3>
+				<div class="contenedor">
+					<article>
+						<img src="">
+						<p>Castillo medieval</p>
+						<p>⭐⭐⭐⭐⭐</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Coche fórmula 1</p>
+						<p>⭐⭐⭐⭐⭐</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Dinosaurio T-Rex</p>
+						<p>⭐⭐⭐⭐⭐</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Robot XL</p>
+						<p>⭐⭐⭐⭐⭐</p>
+					</article>
+				</div>
+			</section>
+			<section id="galeria">
+			</section>
+			<section id="informacion">
+			</section>
+		</main>
+		<footer>	
+			<nav>
+				<a href="">Acerca de</a>
+				<a href="">Contacto</a>
+				<a href="">Licencias</a>
+				<a href="">Aviso Legal</a>
+				<a href="">FB</a>
+				<a href="">X.com</a>
+				<a href="">YT</a>
+				<a href="">Insta</a>
+			</nav>
+		</footer>
+	</body>
+</html>
+```
+
+### galeria
+<small>Creado: 2026-01-19 16:28</small>
+
+`006-galeria.html`
+
+```html
+<!doctype html>
+<html lang="es">
+	<head>
+		<title>recortabl.es</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<header>
+			<h1>recortabl.es</h1>
+			<nav>
+				<a href="">Categorias</a>
+				<a href="">Sobre nosotros</a>
+				<a href="">Descargas</a>
+				<a href="">Iniciar sesión</a>
+				<input type="search" placeholder="buscar">
+			</nav>
+		</header>
+		<main>
+			<section id="heroe">
+				<h3>Juguetes recortables para imprimir y jugar</h3>
+				<h4>Descarga - Imprime - Recorta - Pega - Juega</h4>
+				<a href="">Explorar recortables</a>
+				<a href="">Cómo funciona</a>
+			</section>
+			<section id="categoriasprincipales">
+				<h3>Categorías principales</h3>
+				<div class="contenedor">
+					<article>
+						<img src="">
+						<p>Vehículos</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Edificios</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Robots</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Animales</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Navidad</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Educativos</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Muñecos</p>
+					</article>
+				</div>
+			</section>
+			<section id="recortablesdestacados">
+				<h3>Recortables destacados</h3>
+				<div class="contenedor">
+					<article>
+						<img src="">
+						<p>Castillo medieval</p>
+						<p>⭐⭐⭐⭐⭐</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Coche fórmula 1</p>
+						<p>⭐⭐⭐⭐⭐</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Dinosaurio T-Rex</p>
+						<p>⭐⭐⭐⭐⭐</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Robot XL</p>
+						<p>⭐⭐⭐⭐⭐</p>
+					</article>
+				</div>
+			</section>
+			<section id="galeria">
+				<a href="">
+					<img src="">
+				</a>
+				<a href="">
+					<img src="">
+				</a>
+				<a href="">
+					<img src="">
+				</a>
+				<a href="">
+					<img src="">
+				</a>
+				<a href="">
+					<img src="">
+				</a>
+			</section>
+			<section id="informacion">
+			</section>
+		</main>
+		<footer>	
+			<nav>
+				<a href="">Acerca de</a>
+				<a href="">Contacto</a>
+				<a href="">Licencias</a>
+				<a href="">Aviso Legal</a>
+				<a href="">FB</a>
+				<a href="">X.com</a>
+				<a href="">YT</a>
+				<a href="">Insta</a>
+			</nav>
+		</footer>
+	</body>
+</html>
+```
+
+### informacion
+<small>Creado: 2026-01-19 16:28</small>
+
+`007-informacion.html`
+
+```html
+<!doctype html>
+<html lang="es">
+	<head>
+		<title>recortabl.es</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<header>
+			<h1>recortabl.es</h1>
+			<nav>
+				<a href="">Categorias</a>
+				<a href="">Sobre nosotros</a>
+				<a href="">Descargas</a>
+				<a href="">Iniciar sesión</a>
+				<input type="search" placeholder="buscar">
+			</nav>
+		</header>
+		<main>
+			<section id="heroe">
+				<h3>Juguetes recortables para imprimir y jugar</h3>
+				<h4>Descarga - Imprime - Recorta - Pega - Juega</h4>
+				<a href="">Explorar recortables</a>
+				<a href="">Cómo funciona</a>
+			</section>
+			<section id="categoriasprincipales">
+				<h3>Categorías principales</h3>
+				<div class="contenedor">
+					<article>
+						<img src="">
+						<p>Vehículos</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Edificios</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Robots</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Animales</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Navidad</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Educativos</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Muñecos</p>
+					</article>
+				</div>
+			</section>
+			<section id="recortablesdestacados">
+				<h3>Recortables destacados</h3>
+				<div class="contenedor">
+					<article>
+						<img src="">
+						<p>Castillo medieval</p>
+						<p>⭐⭐⭐⭐⭐</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Coche fórmula 1</p>
+						<p>⭐⭐⭐⭐⭐</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Dinosaurio T-Rex</p>
+						<p>⭐⭐⭐⭐⭐</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Robot XL</p>
+						<p>⭐⭐⭐⭐⭐</p>
+					</article>
+				</div>
+			</section>
+			<section id="galeria">
+				<a href="">
+					<img src="">
+				</a>
+				<a href="">
+					<img src="">
+				</a>
+				<a href="">
+					<img src="">
+				</a>
+				<a href="">
+					<img src="">
+				</a>
+				<a href="">
+					<img src="">
+				</a>
+			</section>
+			<section id="informacion">
+				<h3>Para familias y educación</h3>
+				<p>✅ Manualidades educativas</p>
+				<p>✅ Desarrollo de psicomotricidad</p>
+				<p>✅ Uso en aula y en casa</p>
+				<p>✅ PDFs listos para imprimir</p>
+			</section>
+		</main>
+		<footer>	
+			<nav>
+				<a href="">Acerca de</a>
+				<a href="">Contacto</a>
+				<a href="">Licencias</a>
+				<a href="">Aviso Legal</a>
+				<a href="">FB</a>
+				<a href="">X.com</a>
+				<a href="">YT</a>
+				<a href="">Insta</a>
+			</nav>
+		</footer>
+	</body>
+</html>
+```
+
+### importo fuente
+<small>Creado: 2026-01-19 16:28</small>
+
+`008-importo fuente.html`
+
+```html
+<!doctype html>
+<html lang="es">
+	<head>
+		<title>recortabl.es</title>
+		<meta charset="utf-8">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+		<style>
+			body{padding:0px;margin:0px;
+			font-family:Delius,sans-serif;}
+			header{display:flex;justify-content: space-between;align-items:center;padding:10px;box-shadow:0px 5px 10px rgba(0,0,0,0.2);}
+			#heroe{background:#267eca;}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>recortabl.es</h1>
+			<nav>
+				<a href="">Categorias</a>
+				<a href="">Sobre nosotros</a>
+				<a href="">Descargas</a>
+				<a href="">Iniciar sesión</a>
+				<input type="search" placeholder="buscar">
+			</nav>
+		</header>
+		<main>
+			<section id="heroe">
+				<h3>Juguetes recortables para imprimir y jugar</h3>
+				<h4>Descarga - Imprime - Recorta - Pega - Juega</h4>
+				<a href="">Explorar recortables</a>
+				<a href="">Cómo funciona</a>
+			</section>
+			<section id="categoriasprincipales">
+				<h3>Categorías principales</h3>
+				<div class="contenedor">
+					<article>
+						<img src="">
+						<p>Vehículos</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Edificios</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Robots</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Animales</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Navidad</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Educativos</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Muñecos</p>
+					</article>
+				</div>
+			</section>
+			<section id="recortablesdestacados">
+				<h3>Recortables destacados</h3>
+				<div class="contenedor">
+					<article>
+						<img src="">
+						<p>Castillo medieval</p>
+						<p>⭐⭐⭐⭐⭐</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Coche fórmula 1</p>
+						<p>⭐⭐⭐⭐⭐</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Dinosaurio T-Rex</p>
+						<p>⭐⭐⭐⭐⭐</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Robot XL</p>
+						<p>⭐⭐⭐⭐⭐</p>
+					</article>
+				</div>
+			</section>
+			<section id="galeria">
+				<a href="">
+					<img src="">
+				</a>
+				<a href="">
+					<img src="">
+				</a>
+				<a href="">
+					<img src="">
+				</a>
+				<a href="">
+					<img src="">
+				</a>
+				<a href="">
+					<img src="">
+				</a>
+			</section>
+			<section id="informacion">
+				<h3>Para familias y educación</h3>
+				<p>✅ Manualidades educativas</p>
+				<p>✅ Desarrollo de psicomotricidad</p>
+				<p>✅ Uso en aula y en casa</p>
+				<p>✅ PDFs listos para imprimir</p>
+			</section>
+		</main>
+		<footer>	
+			<nav>
+				<a href="">Acerca de</a>
+				<a href="">Contacto</a>
+				<a href="">Licencias</a>
+				<a href="">Aviso Legal</a>
+				<a href="">FB</a>
+				<a href="">X.com</a>
+				<a href="">YT</a>
+				<a href="">Insta</a>
+			</nav>
+		</footer>
+	</body>
+</html>
+```
+
+### heroe
+<small>Creado: 2026-01-19 16:28</small>
+
+`009-heroe.html`
+
+```html
+<!doctype html>
+<html lang="es">
+	<head>
+		<title>recortabl.es</title>
+		<meta charset="utf-8">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+		<style>
+			*{padding:0px;margin:0px;text-decoration:none;color:inherit;}
+			body{padding:0px;margin:0px;
+			font-family:Delius,sans-serif;}
+			header{display:flex;justify-content: space-between;align-items:center;padding:10px;box-shadow:0px 5px 10px rgba(0,0,0,0.2);}
+			#heroe{background:#267eca;text-align:center;color:white;font-weight:bold;padding:20px;height:200px;}
+			#heroe h3{font-size:36px;text-shadow:0px 3px 6px rgba(0,0,0,0.3);}
+			#heroe h4{font-size:22px;text-shadow:0px 3px 6px rgba(0,0,0,0.3);margin-bottom:20px;}
+			#heroe a{background:blue;padding:10px 20px;border:1px solid darkblue;border-radius:5px;box-shadow:0px 2px 4px rgba(0,0,0,0.3);}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>recortabl.es</h1>
+			<nav>
+				<a href="">Categorias</a>
+				<a href="">Sobre nosotros</a>
+				<a href="">Descargas</a>
+				<a href="">Iniciar sesión</a>
+				<input type="search" placeholder="buscar">
+			</nav>
+		</header>
+		<main>
+			<section id="heroe">
+				<h3>Juguetes recortables para imprimir y jugar</h3>
+				<h4>Descarga - Imprime - Recorta - Pega - Juega</h4>
+				<a href="">Explorar recortables</a>
+				<a href="">Cómo funciona</a>
+			</section>
+			<section id="categoriasprincipales">
+				<h3>Categorías principales</h3>
+				<div class="contenedor">
+					<article>
+						<img src="">
+						<p>Vehículos</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Edificios</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Robots</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Animales</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Navidad</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Educativos</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Muñecos</p>
+					</article>
+				</div>
+			</section>
+			<section id="recortablesdestacados">
+				<h3>Recortables destacados</h3>
+				<div class="contenedor">
+					<article>
+						<img src="">
+						<p>Castillo medieval</p>
+						<p>⭐⭐⭐⭐⭐</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Coche fórmula 1</p>
+						<p>⭐⭐⭐⭐⭐</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Dinosaurio T-Rex</p>
+						<p>⭐⭐⭐⭐⭐</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Robot XL</p>
+						<p>⭐⭐⭐⭐⭐</p>
+					</article>
+				</div>
+			</section>
+			<section id="galeria">
+				<a href="">
+					<img src="">
+				</a>
+				<a href="">
+					<img src="">
+				</a>
+				<a href="">
+					<img src="">
+				</a>
+				<a href="">
+					<img src="">
+				</a>
+				<a href="">
+					<img src="">
+				</a>
+			</section>
+			<section id="informacion">
+				<h3>Para familias y educación</h3>
+				<p>✅ Manualidades educativas</p>
+				<p>✅ Desarrollo de psicomotricidad</p>
+				<p>✅ Uso en aula y en casa</p>
+				<p>✅ PDFs listos para imprimir</p>
+			</section>
+		</main>
+		<footer>	
+			<nav>
+				<a href="">Acerca de</a>
+				<a href="">Contacto</a>
+				<a href="">Licencias</a>
+				<a href="">Aviso Legal</a>
+				<a href="">FB</a>
+				<a href="">X.com</a>
+				<a href="">YT</a>
+				<a href="">Insta</a>
+			</nav>
+		</footer>
+	</body>
+</html>
+```
+
+### categorias principales
+<small>Creado: 2026-01-19 16:28</small>
+
+`010-categorias principales.html`
+
+```html
+<!doctype html>
+<html lang="es">
+	<head>
+		<title>recortabl.es</title>
+		<meta charset="utf-8">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+		<style>
+			*{padding:0px;margin:0px;text-decoration:none;color:inherit;}
+			body{padding:0px;margin:0px;
+			font-family:Delius,sans-serif;}
+			header{display:flex;justify-content: space-between;align-items:center;padding:10px;box-shadow:0px 5px 10px rgba(0,0,0,0.2);}
+			#heroe{background:#267eca;text-align:center;color:white;font-weight:bold;padding:20px;height:200px;}
+			#heroe h3{font-size:36px;text-shadow:0px 3px 6px rgba(0,0,0,0.3);}
+			#heroe h4{font-size:22px;text-shadow:0px 3px 6px rgba(0,0,0,0.3);margin-bottom:20px;}
+			#heroe a{background:blue;padding:10px 20px;border:1px solid darkblue;border-radius:5px;box-shadow:0px 2px 4px rgba(0,0,0,0.3);}
+			section{
+				background:#ecf2f8;
+			}
+			#categoriasprincipales{
+				text-align:center;
+			}
+			#categoriasprincipales .contenedor{
+				display:flex;
+				justify-content: space-between;
+				gap:10px;
+			}
+			#categoriasprincipales .contenedor article{
+				background:white;
+				border-radius:5px;
+				width:100%;
+				padding:20px;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>recortabl.es</h1>
+			<nav>
+				<a href="">Categorias</a>
+				<a href="">Sobre nosotros</a>
+				<a href="">Descargas</a>
+				<a href="">Iniciar sesión</a>
+				<input type="search" placeholder="buscar">
+			</nav>
+		</header>
+		<main>
+			<section id="heroe">
+				<h3>Juguetes recortables para imprimir y jugar</h3>
+				<h4>Descarga - Imprime - Recorta - Pega - Juega</h4>
+				<a href="">Explorar recortables</a>
+				<a href="">Cómo funciona</a>
+			</section>
+			<section id="categoriasprincipales">
+				<h3>Categorías principales</h3>
+				<div class="contenedor">
+					<article>
+						<img src="imgcategoria.png">
+						<p>Vehículos</p>
+					</article>
+					<article>
+						<img src="imgcategoria.png">
+						<p>Edificios</p>
+					</article>
+					<article>
+						<img src="imgcategoria.png">
+						<p>Robots</p>
+					</article>
+					<article>
+						<img src="imgcategoria.png">
+						<p>Animales</p>
+					</article>
+					<article>
+						<img src="imgcategoria.png">
+						<p>Navidad</p>
+					</article>
+					<article>
+						<img src="imgcategoria.png">
+						<p>Educativos</p>
+					</article>
+					<article>
+						<img src="imgcategoria.png">
+						<p>Muñecos</p>
+					</article>
+				</div>
+			</section>
+			<section id="recortablesdestacados">
+				<h3>Recortables destacados</h3>
+				<div class="contenedor">
+					<article>
+						<img src="">
+						<p>Castillo medieval</p>
+						<p>⭐⭐⭐⭐⭐</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Coche fórmula 1</p>
+						<p>⭐⭐⭐⭐⭐</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Dinosaurio T-Rex</p>
+						<p>⭐⭐⭐⭐⭐</p>
+					</article>
+					<article>
+						<img src="">
+						<p>Robot XL</p>
+						<p>⭐⭐⭐⭐⭐</p>
+					</article>
+				</div>
+			</section>
+			<section id="galeria">
+				<a href="">
+					<img src="">
+				</a>
+				<a href="">
+					<img src="">
+				</a>
+				<a href="">
+					<img src="">
+				</a>
+				<a href="">
+					<img src="">
+				</a>
+				<a href="">
+					<img src="">
+				</a>
+			</section>
+			<section id="informacion">
+				<h3>Para familias y educación</h3>
+				<p>✅ Manualidades educativas</p>
+				<p>✅ Desarrollo de psicomotricidad</p>
+				<p>✅ Uso en aula y en casa</p>
+				<p>✅ PDFs listos para imprimir</p>
+			</section>
+		</main>
+		<footer>	
+			<nav>
+				<a href="">Acerca de</a>
+				<a href="">Contacto</a>
+				<a href="">Licencias</a>
+				<a href="">Aviso Legal</a>
+				<a href="">FB</a>
+				<a href="">X.com</a>
+				<a href="">YT</a>
+				<a href="">Insta</a>
+			</nav>
+		</footer>
+	</body>
+</html>
+```
+
+### destacados
+<small>Creado: 2026-01-19 16:28</small>
+
+`011-destacados.html`
+
+```html
+<!doctype html>
+<html lang="es">
+	<head>
+		<title>recortabl.es</title>
+		<meta charset="utf-8">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+		<style>
+			*{padding:0px;margin:0px;text-decoration:none;color:inherit;}
+			body{padding:0px;margin:0px;
+			font-family:Delius,sans-serif;}
+			header{display:flex;justify-content: space-between;align-items:center;padding:10px;box-shadow:0px 5px 10px rgba(0,0,0,0.2);}
+			#heroe{background:#267eca;text-align:center;color:white;font-weight:bold;padding:20px;height:200px;}
+			#heroe h3{font-size:36px;text-shadow:0px 3px 6px rgba(0,0,0,0.3);}
+			#heroe h4{font-size:22px;text-shadow:0px 3px 6px rgba(0,0,0,0.3);margin-bottom:20px;}
+			#heroe a{background:blue;padding:10px 20px;border:1px solid darkblue;border-radius:5px;box-shadow:0px 2px 4px rgba(0,0,0,0.3);}
+			section{
+				background:#ecf2f8;
+			}
+			#categoriasprincipales{
+				text-align:center;
+			}
+			#categoriasprincipales .contenedor{
+				display:flex;
+				justify-content: space-between;
+				gap:10px;
+			}
+			#categoriasprincipales .contenedor article{
+				background:white;
+				border-radius:5px;
+				width:100%;
+				padding:20px;
+			}
+			#recortablesdestacados{
+				text-align:center;
+			}
+			#recortablesdestacados .contenedor{
+				display:flex;
+				justify-content: space-between;
+				gap:10px;
+			}
+			#recortablesdestacados .contenedor article{
+				background:white;
+				border-radius:5px;
+				width:100%;
+				padding:20px;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>recortabl.es</h1>
+			<nav>
+				<a href="">Categorias</a>
+				<a href="">Sobre nosotros</a>
+				<a href="">Descargas</a>
+				<a href="">Iniciar sesión</a>
+				<input type="search" placeholder="buscar">
+			</nav>
+		</header>
+		<main>
+			<section id="heroe">
+				<h3>Juguetes recortables para imprimir y jugar</h3>
+				<h4>Descarga - Imprime - Recorta - Pega - Juega</h4>
+				<a href="">Explorar recortables</a>
+				<a href="">Cómo funciona</a>
+			</section>
+			<section id="categoriasprincipales">
+				<h3>Categorías principales</h3>
+				<div class="contenedor">
+					<article>
+						<img src="imgcategoria.png">
+						<p>Vehículos</p>
+					</article>
+					<article>
+						<img src="imgcategoria.png">
+						<p>Edificios</p>
+					</article>
+					<article>
+						<img src="imgcategoria.png">
+						<p>Robots</p>
+					</article>
+					<article>
+						<img src="imgcategoria.png">
+						<p>Animales</p>
+					</article>
+					<article>
+						<img src="imgcategoria.png">
+						<p>Navidad</p>
+					</article>
+					<article>
+						<img src="imgcategoria.png">
+						<p>Educativos</p>
+					</article>
+					<article>
+						<img src="imgcategoria.png">
+						<p>Muñecos</p>
+					</article>
+				</div>
+			</section>
+			<section id="recortablesdestacados">
+				<h3>Recortables destacados</h3>
+				<div class="contenedor">
+					<article>
+						<img src="imgcategoria.png">
+						<p>Castillo medieval</p>
+						<p>⭐⭐⭐⭐⭐</p>
+					</article>
+					<article>
+						<img src="imgcategoria.png">
+						<p>Coche fórmula 1</p>
+						<p>⭐⭐⭐⭐⭐</p>
+					</article>
+					<article>
+						<img src="imgcategoria.png">
+						<p>Dinosaurio T-Rex</p>
+						<p>⭐⭐⭐⭐⭐</p>
+					</article>
+					<article>
+						<img src="imgcategoria.png">
+						<p>Robot XL</p>
+						<p>⭐⭐⭐⭐⭐</p>
+					</article>
+				</div>
+			</section>
+			<section id="galeria">
+				<a href="">
+					<img src="imgcategoria.png">
+				</a>
+				<a href="">
+					<img src="imgcategoria.png">
+				</a>
+				<a href="">
+					<img src="imgcategoria.png">
+				</a>
+				<a href="">
+					<img src="imgcategoria.png">
+				</a>
+				<a href="">
+					<img src="imgcategoria.png">
+				</a>
+			</section>
+			<section id="informacion">
+				<h3>Para familias y educación</h3>
+				<p>✅ Manualidades educativas</p>
+				<p>✅ Desarrollo de psicomotricidad</p>
+				<p>✅ Uso en aula y en casa</p>
+				<p>✅ PDFs listos para imprimir</p>
+			</section>
+		</main>
+		<footer>	
+			<nav>
+				<a href="">Acerca de</a>
+				<a href="">Contacto</a>
+				<a href="">Licencias</a>
+				<a href="">Aviso Legal</a>
+				<a href="">FB</a>
+				<a href="">X.com</a>
+				<a href="">YT</a>
+				<a href="">Insta</a>
+			</nav>
+		</footer>
+	</body>
+</html>
+```
+
+### css galeria
+<small>Creado: 2026-01-19 16:28</small>
+
+`012-css galeria.html`
+
+```html
+<!doctype html>
+<html lang="es">
+	<head>
+		<title>recortabl.es</title>
+		<meta charset="utf-8">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+		<style>
+			*{padding:0px;margin:0px;text-decoration:none;color:inherit;}
+			body{padding:0px;margin:0px;
+			font-family:Delius,sans-serif;}
+			header{display:flex;justify-content: space-between;align-items:center;padding:10px;box-shadow:0px 5px 10px rgba(0,0,0,0.2);}
+			#heroe{background:#267eca;text-align:center;color:white;font-weight:bold;padding:20px;height:200px;}
+			#heroe h3{font-size:36px;text-shadow:0px 3px 6px rgba(0,0,0,0.3);}
+			#heroe h4{font-size:22px;text-shadow:0px 3px 6px rgba(0,0,0,0.3);margin-bottom:20px;}
+			#heroe a{background:blue;padding:10px 20px;border:1px solid darkblue;border-radius:5px;box-shadow:0px 2px 4px rgba(0,0,0,0.3);}
+			section{
+				background:#ecf2f8;
+			}
+			#categoriasprincipales{
+				text-align:center;
+			}
+			#categoriasprincipales .contenedor{
+				display:flex;
+				justify-content: space-between;
+				gap:10px;
+			}
+			#categoriasprincipales .contenedor article{
+				background:white;
+				border-radius:5px;
+				width:100%;
+				padding:20px;
+			}
+			#recortablesdestacados{
+				text-align:center;
+			}
+			#recortablesdestacados .contenedor{
+				display:flex;
+				justify-content: space-between;
+				gap:10px;
+			}
+			#recortablesdestacados .contenedor article{
+				background:white;
+				border-radius:5px;
+				width:100%;
+				padding:20px;
+			}
+			#galeria{
+				display:flex;
+				justify-content: space-between;
+				gap:10px;
+			}
+			#galeria a img{
+				background:white;
+				border-radius:5px;
+				width:100%;
+				padding:20px;
+				border:5px solid white;
+			}
+			#informacion{
+				padding:20px;
+			}
+			#informacion .contenedor{
+				padding:20px;
+				border:1px dashed grey;
+				background:#faf4db;
+				border-radius:10px;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>recortabl.es</h1>
+			<nav>
+				<a href="">Categorias</a>
+				<a href="">Sobre nosotros</a>
+				<a href="">Descargas</a>
+				<a href="">Iniciar sesión</a>
+				<input type="search" placeholder="buscar">
+			</nav>
+		</header>
+		<main>
+			<section id="heroe">
+				<h3>Juguetes recortables para imprimir y jugar</h3>
+				<h4>Descarga - Imprime - Recorta - Pega - Juega</h4>
+				<a href="">Explorar recortables</a>
+				<a href="">Cómo funciona</a>
+			</section>
+			<section id="categoriasprincipales">
+				<h3>Categorías principales</h3>
+				<div class="contenedor">
+					<article>
+						<img src="imgcategoria.png">
+						<p>Vehículos</p>
+					</article>
+					<article>
+						<img src="imgcategoria.png">
+						<p>Edificios</p>
+					</article>
+					<article>
+						<img src="imgcategoria.png">
+						<p>Robots</p>
+					</article>
+					<article>
+						<img src="imgcategoria.png">
+						<p>Animales</p>
+					</article>
+					<article>
+						<img src="imgcategoria.png">
+						<p>Navidad</p>
+					</article>
+					<article>
+						<img src="imgcategoria.png">
+						<p>Educativos</p>
+					</article>
+					<article>
+						<img src="imgcategoria.png">
+						<p>Muñecos</p>
+					</article>
+				</div>
+			</section>
+			<section id="recortablesdestacados">
+				<h3>Recortables destacados</h3>
+				<div class="contenedor">
+					<article>
+						<img src="imgcategoria.png">
+						<p>Castillo medieval</p>
+						<p>⭐⭐⭐⭐⭐</p>
+					</article>
+					<article>
+						<img src="imgcategoria.png">
+						<p>Coche fórmula 1</p>
+						<p>⭐⭐⭐⭐⭐</p>
+					</article>
+					<article>
+						<img src="imgcategoria.png">
+						<p>Dinosaurio T-Rex</p>
+						<p>⭐⭐⭐⭐⭐</p>
+					</article>
+					<article>
+						<img src="imgcategoria.png">
+						<p>Robot XL</p>
+						<p>⭐⭐⭐⭐⭐</p>
+					</article>
+				</div>
+			</section>
+			<section id="galeria">
+				<a href="">
+					<img src="imgcategoria.png">
+				</a>
+				<a href="">
+					<img src="imgcategoria.png">
+				</a>
+				<a href="">
+					<img src="imgcategoria.png">
+				</a>
+				<a href="">
+					<img src="imgcategoria.png">
+				</a>
+				<a href="">
+					<img src="imgcategoria.png">
+				</a>
+			</section>
+			<section id="informacion">
+				<div class="contenedor">
+					<h3>Para familias y educación</h3>
+					<p>✅ Manualidades educativas</p>
+					<p>✅ Desarrollo de psicomotricidad</p>
+					<p>✅ Uso en aula y en casa</p>
+					<p>✅ PDFs listos para imprimir</p>
+				</div>
+			</section>
+		</main>
+		<footer>	
+			<nav>
+				<a href="">Acerca de</a>
+				<a href="">Contacto</a>
+				<a href="">Licencias</a>
+				<a href="">Aviso Legal</a>
+				<a href="">FB</a>
+				<a href="">X.com</a>
+				<a href="">YT</a>
+				<a href="">Insta</a>
+			</nav>
+		</footer>
+	</body>
+</html>
+```
+
 
 <a id="mecanismos-de-acceso-seguro-a-la-informacion-roles-y-privilegios"></a>
 ## Mecanismos de acceso seguro a la información. Roles y privilegios
 
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/007-Sistemas%20de%20gesti%C3%B3n%20empresarial/005-Mecanismos%20de%20acceso%20seguro%20a%20la%20informaci%C3%B3n.%20Roles%20y%20privilegios)
+
+### selector
+<small>Creado: 2026-01-22 14:09</small>
+
+`001-selector.html`
+
+```html
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<select id="idioma">
+			<option value="es">es 🇪🇸</option>
+		</select>
+	</body>
+</html>
+```
+
+### varios idiomas
+<small>Creado: 2026-01-22 14:12</small>
+
+`002-varios idiomas.html`
+
+```html
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<select id="idioma">
+			<option value="es">Español 🇪🇸</option>
+			<option value="en">English 🇬🇧</option>
+			<option value="fr">Français 🇫🇷</option>
+			<option value="de">Deutsch 🇩🇪</option>
+			<option value="it">Italiano 🇮🇹</option>
+			<option value="pt">Português 🇵🇹</option>
+			<option value="nl">Nederlands 🇳🇱</option>
+			<option value="sv">Svenska 🇸🇪</option>
+			<option value="da">Dansk 🇩🇰</option>
+			<option value="fi">Suomi 🇫🇮</option>
+			<option value="no">Norsk 🇳🇴</option>
+			<option value="pl">Polski 🇵🇱</option>
+			<option value="cs">Čeština 🇨🇿</option>
+			<option value="sk">Slovenčina 🇸🇰</option>
+			<option value="hu">Magyar 🇭🇺</option>
+			<option value="ro">Română 🇷🇴</option>
+			<option value="bg">Български 🇧🇬</option>
+			<option value="el">Ελληνικά 🇬🇷</option>
+			<option value="hr">Hrvatski 🇭🇷</option>
+			<option value="sl">Slovenščina 🇸🇮</option>
+			<option value="et">Eesti 🇪🇪</option>
+			<option value="lv">Latviešu 🇱🇻</option>
+			<option value="lt">Lietuvių 🇱🇹</option>
+			<option value="mt">Malti 🇲🇹</option>
+			<option value="ga">Gaeilge 🇮🇪</option>
+		</select>
+	</body>
+</html>
+```
+
+### envio el idioma
+<small>Creado: 2026-01-22 14:14</small>
+
+`003-envio el idioma.php`
+
+```
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<select id="idioma">
+			<option value="es">Español 🇪🇸</option>
+			<option value="en">English 🇬🇧</option>
+			<option value="fr">Français 🇫🇷</option>
+			<option value="de">Deutsch 🇩🇪</option>
+			<option value="it">Italiano 🇮🇹</option>
+			<option value="pt">Português 🇵🇹</option>
+			<option value="nl">Nederlands 🇳🇱</option>
+			<option value="sv">Svenska 🇸🇪</option>
+			<option value="da">Dansk 🇩🇰</option>
+			<option value="fi">Suomi 🇫🇮</option>
+			<option value="no">Norsk 🇳🇴</option>
+			<option value="pl">Polski 🇵🇱</option>
+			<option value="cs">Čeština 🇨🇿</option>
+			<option value="sk">Slovenčina 🇸🇰</option>
+			<option value="hu">Magyar 🇭🇺</option>
+			<option value="ro">Română 🇷🇴</option>
+			<option value="bg">Български 🇧🇬</option>
+			<option value="el">Ελληνικά 🇬🇷</option>
+			<option value="hr">Hrvatski 🇭🇷</option>
+			<option value="sl">Slovenščina 🇸🇮</option>
+			<option value="et">Eesti 🇪🇪</option>
+			<option value="lv">Latviešu 🇱🇻</option>
+			<option value="lt">Lietuvių 🇱🇹</option>
+			<option value="mt">Malti 🇲🇹</option>
+			<option value="ga">Gaeilge 🇮🇪</option>
+		</select>
+		<script>
+			let selector = document.querySelector("#idioma")
+			selector.onchange = function(){
+				window.location = window.location+"?lang="+this.value
+			}
+		</script>
+	</body>
+</html>
+```
+
+### selecciono el activo
+<small>Creado: 2026-01-22 14:16</small>
+
+`004-selecciono el activo.php`
+
+```
+<?php
+	session_start();
+	if(!isset($_SESSION['lang'])){$_SESSION['lang'] = "es";}
+	if(isset($_GET['lang'])){$_SESSION['lang'] = $_GET['lang'];}
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<select id="idioma">
+			<option value="es">Español 🇪🇸</option>
+			<option value="en">English 🇬🇧</option>
+			<option value="fr">Français 🇫🇷</option>
+			<option value="de">Deutsch 🇩🇪</option>
+			<option value="it">Italiano 🇮🇹</option>
+			<option value="pt">Português 🇵🇹</option>
+			<option value="nl">Nederlands 🇳🇱</option>
+			<option value="sv">Svenska 🇸🇪</option>
+			<option value="da">Dansk 🇩🇰</option>
+			<option value="fi">Suomi 🇫🇮</option>
+			<option value="no">Norsk 🇳🇴</option>
+			<option value="pl">Polski 🇵🇱</option>
+			<option value="cs">Čeština 🇨🇿</option>
+			<option value="sk">Slovenčina 🇸🇰</option>
+			<option value="hu">Magyar 🇭🇺</option>
+			<option value="ro">Română 🇷🇴</option>
+			<option value="bg">Български 🇧🇬</option>
+			<option value="el">Ελληνικά 🇬🇷</option>
+			<option value="hr">Hrvatski 🇭🇷</option>
+			<option value="sl">Slovenščina 🇸🇮</option>
+			<option value="et">Eesti 🇪🇪</option>
+			<option value="lv">Latviešu 🇱🇻</option>
+			<option value="lt">Lietuvių 🇱🇹</option>
+			<option value="mt">Malti 🇲🇹</option>
+			<option value="ga">Gaeilge 🇮🇪</option>
+		</select>
+		<script>
+			let selector = document.querySelector("#idioma")
+			selector.onchange = function(){
+				window.location = window.location+"?lang="+this.value
+			}
+		</script>
+	</body>
+</html>
+```
+
+### pongo el activo en php
+<small>Creado: 2026-01-22 14:18</small>
+
+`005-pongo el activo en php.php`
+
+```
+<?php
+session_start();
+
+/* 1. Available languages */
+$languages = [
+    "es" => "Español 🇪🇸",
+    "en" => "English 🇬🇧",
+    "fr" => "Français 🇫🇷",
+    "de" => "Deutsch 🇩🇪",
+    "it" => "Italiano 🇮🇹",
+    "pt" => "Português 🇵🇹",
+    "nl" => "Nederlands 🇳🇱",
+    "sv" => "Svenska 🇸🇪",
+    "da" => "Dansk 🇩🇰",
+    "fi" => "Suomi 🇫🇮",
+    "no" => "Norsk 🇳🇴",
+    "pl" => "Polski 🇵🇱",
+    "cs" => "Čeština 🇨🇿",
+    "sk" => "Slovenčina 🇸🇰",
+    "hu" => "Magyar 🇭🇺",
+    "ro" => "Română 🇷🇴",
+    "bg" => "Български 🇧🇬",
+    "el" => "Ελληνικά 🇬🇷",
+    "hr" => "Hrvatski 🇭🇷",
+    "sl" => "Slovenščina 🇸🇮",
+    "et" => "Eesti 🇪🇪",
+    "lv" => "Latviešu 🇱🇻",
+    "lt" => "Lietuvių 🇱🇹",
+    "mt" => "Malti 🇲🇹",
+    "ga" => "Gaeilge 🇮🇪"
+];
+
+/* 2. Default language */
+if (!isset($_SESSION['lang'])) {
+    $_SESSION['lang'] = "es";
+}
+
+/* 3. Change language (only if valid) */
+if (isset($_GET['lang']) && array_key_exists($_GET['lang'], $languages)) {
+    $_SESSION['lang'] = $_GET['lang'];
+}
+
+$currentLang = $_SESSION['lang'];
+?>
+<!doctype html>
+<html lang="<?= htmlspecialchars($currentLang) ?>">
+<head>
+    <meta charset="utf-8">
+</head>
+<body>
+
+<select id="idioma">
+    <?php foreach ($languages as $code => $label): ?>
+        <option value="<?= htmlspecialchars($code) ?>"
+            <?= $code === $currentLang ? 'selected' : '' ?>>
+            <?= htmlspecialchars($label) ?>
+        </option>
+    <?php endforeach; ?>
+</select>
+
+<script>
+document.getElementById("idioma").addEventListener("change", function () {
+    const url = new URL(window.location.href);
+    url.searchParams.set("lang", this.value);
+    window.location.href = url.toString();
+});
+</script>
+
+</body>
+</html>
+```
+
+### creo una web
+<small>Creado: 2026-01-22 14:21</small>
+
+`006-creo una web.php`
+
+```
+<?php
+session_start();
+
+/* 1. Available languages */
+$languages = [
+    "es" => "Español 🇪🇸",
+    "en" => "English 🇬🇧",
+    "fr" => "Français 🇫🇷",
+    "de" => "Deutsch 🇩🇪",
+    "it" => "Italiano 🇮🇹",
+    "pt" => "Português 🇵🇹",
+    "nl" => "Nederlands 🇳🇱",
+    "sv" => "Svenska 🇸🇪",
+    "da" => "Dansk 🇩🇰",
+    "fi" => "Suomi 🇫🇮",
+    "no" => "Norsk 🇳🇴",
+    "pl" => "Polski 🇵🇱",
+    "cs" => "Čeština 🇨🇿",
+    "sk" => "Slovenčina 🇸🇰",
+    "hu" => "Magyar 🇭🇺",
+    "ro" => "Română 🇷🇴",
+    "bg" => "Български 🇧🇬",
+    "el" => "Ελληνικά 🇬🇷",
+    "hr" => "Hrvatski 🇭🇷",
+    "sl" => "Slovenščina 🇸🇮",
+    "et" => "Eesti 🇪🇪",
+    "lv" => "Latviešu 🇱🇻",
+    "lt" => "Lietuvių 🇱🇹",
+    "mt" => "Malti 🇲🇹",
+    "ga" => "Gaeilge 🇮🇪"
+];
+
+/* 2. Default language */
+if (!isset($_SESSION['lang'])) {
+    $_SESSION['lang'] = "es";
+}
+
+/* 3. Change language (only if valid) */
+if (isset($_GET['lang']) && array_key_exists($_GET['lang'], $languages)) {
+    $_SESSION['lang'] = $_GET['lang'];
+}
+
+$currentLang = $_SESSION['lang'];
+?>
+<!doctype html>
+<html lang="<?= htmlspecialchars($currentLang) ?>">
+<head>
+    <meta charset="utf-8">
+</head>
+<body>
+
+<select id="idioma">
+    <?php foreach ($languages as $code => $label): ?>
+        <option value="<?= htmlspecialchars($code) ?>"
+            <?= $code === $currentLang ? 'selected' : '' ?>>
+            <?= htmlspecialchars($label) ?>
+        </option>
+    <?php endforeach; ?>
+</select>
+
+<h1>Titulo de mi web</h1>
+<p>Texto de mi web</p>
+<p>Este es el texto que va a contener mi web</p>
+
+<script>
+document.getElementById("idioma").addEventListener("change", function () {
+    const url = new URL(window.location.href);
+    url.searchParams.set("lang", this.value);
+    window.location.href = url.toString();
+});
+</script>
+
+</body>
+</html>
+```
+
+### clave español como base
+<small>Creado: 2026-01-22 14:32</small>
+
+`007-clave español como base.php`
+
+```
+<?php
+session_start();
+
+/* 1. Available languages */
+$languages = [
+    "es" => "Español 🇪🇸",
+    "en" => "English 🇬🇧",
+    "fr" => "Français 🇫🇷",
+    "de" => "Deutsch 🇩🇪",
+    "it" => "Italiano 🇮🇹",
+    "pt" => "Português 🇵🇹",
+    "nl" => "Nederlands 🇳🇱",
+    "sv" => "Svenska 🇸🇪",
+    "da" => "Dansk 🇩🇰",
+    "fi" => "Suomi 🇫🇮",
+    "no" => "Norsk 🇳🇴",
+    "pl" => "Polski 🇵🇱",
+    "cs" => "Čeština 🇨🇿",
+    "sk" => "Slovenčina 🇸🇰",
+    "hu" => "Magyar 🇭🇺",
+    "ro" => "Română 🇷🇴",
+    "bg" => "Български 🇧🇬",
+    "el" => "Ελληνικά 🇬🇷",
+    "hr" => "Hrvatski 🇭🇷",
+    "sl" => "Slovenščina 🇸🇮",
+    "et" => "Eesti 🇪🇪",
+    "lv" => "Latviešu 🇱🇻",
+    "lt" => "Lietuvių 🇱🇹",
+    "mt" => "Malti 🇲🇹",
+    "ga" => "Gaeilge 🇮🇪"
+];
+
+/* 2. Default language */
+if (!isset($_SESSION['lang'])) {
+    $_SESSION['lang'] = "es";
+}
+
+/* 3. Change language (only if valid) */
+if (isset($_GET['lang']) && array_key_exists($_GET['lang'], $languages)) {
+    $_SESSION['lang'] = $_GET['lang'];
+}
+
+$currentLang = $_SESSION['lang'];
+?>
+<!doctype html>
+<html lang="<?= htmlspecialchars($currentLang) ?>">
+<head>
+    <meta charset="utf-8">
+</head>
+<body>
+
+<select id="idioma">
+    <?php foreach ($languages as $code => $label): ?>
+        <option value="<?= htmlspecialchars($code) ?>"
+            <?= $code === $currentLang ? 'selected' : '' ?>>
+            <?= htmlspecialchars($label) ?>
+        </option>
+    <?php endforeach; ?>
+</select>
+
+<h1><?= $lang['Titulo de mi web'] ?></h1>
+<p><?= $lang['Texto de mi web'] ?></p>
+<p><?= $lang['Este es el texto que va a contener mi web'] ?></p>
+
+<script>
+document.getElementById("idioma").addEventListener("change", function () {
+    const url = new URL(window.location.href);
+    url.searchParams.set("lang", this.value);
+    window.location.href = url.toString();
+});
+</script>
+
+</body>
+</html>
+```
+
+### cogemos clave
+<small>Creado: 2026-01-22 14:35</small>
+
+`008-cogemos clave.php`
+
+```
+<?php
+session_start();
+
+/* 1. Available languages */
+$languages = [
+    "es" => "Español 🇪🇸",
+    "en" => "English 🇬🇧",
+    "fr" => "Français 🇫🇷",
+    "de" => "Deutsch 🇩🇪",
+    "it" => "Italiano 🇮🇹",
+    "pt" => "Português 🇵🇹",
+    "nl" => "Nederlands 🇳🇱",
+    "sv" => "Svenska 🇸🇪",
+    "da" => "Dansk 🇩🇰",
+    "fi" => "Suomi 🇫🇮",
+    "no" => "Norsk 🇳🇴",
+    "pl" => "Polski 🇵🇱",
+    "cs" => "Čeština 🇨🇿",
+    "sk" => "Slovenčina 🇸🇰",
+    "hu" => "Magyar 🇭🇺",
+    "ro" => "Română 🇷🇴",
+    "bg" => "Български 🇧🇬",
+    "el" => "Ελληνικά 🇬🇷",
+    "hr" => "Hrvatski 🇭🇷",
+    "sl" => "Slovenščina 🇸🇮",
+    "et" => "Eesti 🇪🇪",
+    "lv" => "Latviešu 🇱🇻",
+    "lt" => "Lietuvių 🇱🇹",
+    "mt" => "Malti 🇲🇹",
+    "ga" => "Gaeilge 🇮🇪"
+];
+
+/* 2. Default language */
+if (!isset($_SESSION['lang'])) {
+    $_SESSION['lang'] = "es";
+}
+
+/* 3. Change language (only if valid) */
+if (isset($_GET['lang']) && array_key_exists($_GET['lang'], $languages)) {
+    $_SESSION['lang'] = $_GET['lang'];
+}
+
+$currentLang = $_SESSION['lang'];
+
+/* 4. Load translations from CSV into $lang array (Spanish column is the KEY) */
+$lang = [];
+
+$csvPath = __DIR__ . "/idiomas.csv";
+$fh = fopen($csvPath, "r");
+if ($fh === false) {
+    http_response_code(500);
+    die("Cannot open translation file: " . htmlspecialchars($csvPath));
+}
+
+/* Read header row: "es","en","fr",... */
+$headers = fgetcsv($fh);
+if ($headers === false) {
+    fclose($fh);
+    http_response_code(500);
+    die("Translation CSV is empty or invalid.");
+}
+
+$baseIndex = array_search("es", $headers, true);
+$currentIndex = array_search($currentLang, $headers, true);
+
+if ($baseIndex === false) {
+    fclose($fh);
+    http_response_code(500);
+    die('Translation CSV must include an "es" column header.');
+}
+
+/* If current language column missing, fallback to ES */
+if ($currentIndex === false) {
+    $currentIndex = $baseIndex;
+}
+
+while (($row = fgetcsv($fh)) !== false) {
+    if (!isset($row[$baseIndex])) {
+        continue;
+    }
+
+    $key = $row[$baseIndex];
+
+    /* Value in selected language or fallback to ES or key */
+    $value = $row[$currentIndex] ?? ($row[$baseIndex] ?? $key);
+
+    $lang[$key] = $value;
+}
+
+fclose($fh);
+?>
+<!doctype html>
+<html lang="<?= htmlspecialchars($currentLang) ?>">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title><?= htmlspecialchars($lang['Titulo de mi web'] ?? 'Mi web') ?></title>
+</head>
+<body>
+
+<select id="idioma">
+    <?php foreach ($languages as $code => $label): ?>
+        <option value="<?= htmlspecialchars($code) ?>"
+            <?= $code === $currentLang ? 'selected' : '' ?>>
+            <?= htmlspecialchars($label) ?>
+        </option>
+    <?php endforeach; ?>
+</select>
+
+<h1><?= htmlspecialchars($lang['Titulo de mi web'] ?? 'Titulo de mi web') ?></h1>
+<p><?= htmlspecialchars($lang['Texto de mi web'] ?? 'Texto de mi web') ?></p>
+<p><?= htmlspecialchars($lang['Este es el texto que va a contener mi web'] ?? 'Este es el texto que va a contener mi web') ?></p>
+
+<script>
+document.getElementById("idioma").addEventListener("change", function () {
+    const url = new URL(window.location.href);
+    url.searchParams.set("lang", this.value);
+    window.location.href = url.toString();
+});
+</script>
+
+</body>
+</html>
+```
+
+### quitamos redundancia
+<small>Creado: 2026-01-22 14:38</small>
+
+`009-quitamos redundancia.php`
+
+```
+<?php
+session_start();
+
+/* 1. Available languages */
+$languages = [
+    "es" => "Español 🇪🇸",
+    "en" => "English 🇬🇧",
+    "fr" => "Français 🇫🇷",
+    "de" => "Deutsch 🇩🇪",
+    "it" => "Italiano 🇮🇹",
+    "pt" => "Português 🇵🇹",
+    "nl" => "Nederlands 🇳🇱",
+    "sv" => "Svenska 🇸🇪",
+    "da" => "Dansk 🇩🇰",
+    "fi" => "Suomi 🇫🇮",
+    "no" => "Norsk 🇳🇴",
+    "pl" => "Polski 🇵🇱",
+    "cs" => "Čeština 🇨🇿",
+    "sk" => "Slovenčina 🇸🇰",
+    "hu" => "Magyar 🇭🇺",
+    "ro" => "Română 🇷🇴",
+    "bg" => "Български 🇧🇬",
+    "el" => "Ελληνικά 🇬🇷",
+    "hr" => "Hrvatski 🇭🇷",
+    "sl" => "Slovenščina 🇸🇮",
+    "et" => "Eesti 🇪🇪",
+    "lv" => "Latviešu 🇱🇻",
+    "lt" => "Lietuvių 🇱🇹",
+    "mt" => "Malti 🇲🇹",
+    "ga" => "Gaeilge 🇮🇪"
+];
+
+/* 2. Default language */
+if (!isset($_SESSION['lang'])) {
+    $_SESSION['lang'] = "es";
+}
+
+/* 3. Change language (only if valid) */
+if (isset($_GET['lang']) && array_key_exists($_GET['lang'], $languages)) {
+    $_SESSION['lang'] = $_GET['lang'];
+}
+
+$currentLang = $_SESSION['lang'];
+
+/* 4. Load translations from CSV into $lang array (Spanish column is the KEY) */
+$lang = [];
+
+$csvPath = __DIR__ . "/idiomas.csv";
+$fh = fopen($csvPath, "r");
+if ($fh === false) {
+    http_response_code(500);
+    die("Cannot open translation file: " . htmlspecialchars($csvPath));
+}
+
+/* Read header row: "es","en","fr",... */
+$headers = fgetcsv($fh);
+if ($headers === false) {
+    fclose($fh);
+    http_response_code(500);
+    die("Translation CSV is empty or invalid.");
+}
+
+$baseIndex = array_search("es", $headers, true);
+$currentIndex = array_search($currentLang, $headers, true);
+
+if ($baseIndex === false) {
+    fclose($fh);
+    http_response_code(500);
+    die('Translation CSV must include an "es" column header.');
+}
+
+/* If current language column missing, fallback to ES */
+if ($currentIndex === false) {
+    $currentIndex = $baseIndex;
+}
+
+while (($row = fgetcsv($fh)) !== false) {
+    if (!isset($row[$baseIndex])) {
+        continue;
+    }
+
+    $key = $row[$baseIndex];
+
+    /* Value in selected language or fallback to ES or key */
+    $value = $row[$currentIndex] ?? ($row[$baseIndex] ?? $key);
+
+    $lang[$key] = $value;
+}
+
+fclose($fh);
+?>
+<!doctype html>
+<html lang="<?= htmlspecialchars($currentLang) ?>">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title><?= htmlspecialchars($lang['Titulo de mi web'] ?? 'Mi web') ?></title>
+</head>
+<body>
+
+<select id="idioma">
+    <?php foreach ($languages as $code => $label): ?>
+        <option value="<?= htmlspecialchars($code) ?>"
+            <?= $code === $currentLang ? 'selected' : '' ?>>
+            <?= htmlspecialchars($label) ?>
+        </option>
+    <?php endforeach; ?>
+</select>
+
+<h1><?= $lang['Titulo de mi web'] ?></h1>
+<p><?= $lang['Texto de mi web'] ?></p>
+<p><?= $lang['Este es el texto que va a contener mi web'] ?></p>
+
+<script>
+document.getElementById("idioma").addEventListener("change", function () {
+    const url = new URL(window.location.href);
+    url.searchParams.set("lang", this.value);
+    window.location.href = url.toString();
+});
+</script>
+
+</body>
+</html>
+```
+
+### archivo limpio
+<small>Creado: 2026-01-22 14:42</small>
+
+`010-archivo limpio.php`
+
+```
+<?php include "motoridioma.php";?>
+<!doctype html>
+<html lang="<?= htmlspecialchars($currentLang) ?>">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title><?= htmlspecialchars($lang['Titulo de mi web'] ?? 'Mi web') ?></title>
+</head>
+<body>
+
+<?php selectorIdioma(); ?>
+
+<h1><?= $lang['Titulo de mi web'] ?></h1>
+<p><?= $lang['Texto de mi web'] ?></p>
+<p><?= $lang['Este es el texto que va a contener mi web'] ?></p>
+
+<script>
+document.getElementById("idioma").addEventListener("change", function () {
+    const url = new URL(window.location.href);
+    url.searchParams.set("lang", this.value);
+    window.location.href = url.toString();
+});
+</script>
+
+</body>
+</html>
+```
+
+### idiomas
+<small>Creado: 2026-01-22 14:29</small>
+
+`idiomas.csv`
+
+```
+"es","en","fr","de","it","pt","nl","sv","da","fi","no","pl","cs","sk","hu","ro","bg","el","hr","sl","et","lv","lt","mt","ga"
+"Titulo de mi web","Title of my website","Titre de mon site web","Titel meiner Website","Titolo del mio sito web","Título do meu site","Titel van mijn website","Titeln på min webbplats","Titlen på min hjemmeside","Sivustoni otsikko","Tittelen på nettstedet mitt","Tytuł mojej strony","Titulek mého webu","Názov mojej webovej stránky","Weboldalam címe","Titlul site-ului meu","Заглавие на моя уебсайт","Τίτλος της ιστοσελίδας μου","Naslov moje web stranice","Naslov moje spletne strani","Minu veebisaidi pealkiri","Manas vietnes nosaukums","Mano svetainės pavadinimas","Titlu tas-sit tiegħi","Teideal mo shuíomh gréasáin"
+"Texto de mi web","Text of my website","Texte de mon site web","Text meiner Website","Testo del mio sito web","Texto do meu site","Tekst van mijn website","Texten på min webbplats","Teksten på min hjemmeside","Sivustoni teksti","Teksten på nettstedet mitt","Tekst mojej strony","Text mého webu","Text mojej webovej stránky","Weboldalam szövege","Textul site-ului meu","Текстът на моя уебсайт","Κείμενο της ιστοσελίδας μου","Tekst moje web stranice","Besedilo moje spletne strani","Minu veebisaidi tekst","Manas vietnes teksts","Mano svetainės tekstas","Test tat-sit tiegħi","Téacs mo shuíomh gréasáin"
+"Este es el texto que va a contener mi web","This is the text that will be contained in my website","Ceci est le texte que contiendra mon site web","Dies ist der Text, den meine Website enthalten wird","Questo è il testo che conterrà il mio sito web","Este é o texto que o meu site irá conter","Dit is de tekst die mijn website zal bevatten","Detta är texten som min webbplats kommer att innehålla","Dette er teksten som min hjemmeside vil indeholde","Tämä on teksti, jonka sivustoni tulee sisältämään","Dette er teksten som nettstedet mitt vil inneholde","Jest to tekst, który będzie zawarty na mojej stronie","Toto je text, který bude obsahovat můj web","Toto je text, ktorý bude obsahovať moja webová stránka","Ez az a szöveg, amelyet a weboldalam tartalmazni fog","Acesta este textul pe care îl va conține site-ul meu","Това е текстът, който ще съдържа моят уебсайт","Αυτό είναι το κείμενο που θα περιέχει η ιστοσελίδα μου","Ovo je tekst koji će sadržavati moja web stranica","To je besedilo, ki ga bo vsebovala moja spletna stran","See on tekst, mida minu veebisait sisaldab","Šis ir teksts, ko saturēs mana vietne","Tai tekstas, kurį sudarys mano svetainė","Dan huwa t-test li se jkun fih is-sit tiegħi","Seo é an téacs a bheidh ar mo shuíomh gréasáin"
+```
+
+### motoridioma
+<small>Creado: 2026-01-22 14:46</small>
+
+`motoridioma.php`
+
+```
+<?php
+session_start();
+
+/* 1. Available languages */
+$languages = [
+    "es" => "Español 🇪🇸",
+    "en" => "English 🇬🇧",
+    "fr" => "Français 🇫🇷",
+    "de" => "Deutsch 🇩🇪",
+    "it" => "Italiano 🇮🇹",
+    "pt" => "Português 🇵🇹",
+    "nl" => "Nederlands 🇳🇱",
+    "sv" => "Svenska 🇸🇪",
+    "da" => "Dansk 🇩🇰",
+    "fi" => "Suomi 🇫🇮",
+    "no" => "Norsk 🇳🇴",
+    "pl" => "Polski 🇵🇱",
+    "cs" => "Čeština 🇨🇿",
+    "sk" => "Slovenčina 🇸🇰",
+    "hu" => "Magyar 🇭🇺",
+    "ro" => "Română 🇷🇴",
+    "bg" => "Български 🇧🇬",
+    "el" => "Ελληνικά 🇬🇷",
+    "hr" => "Hrvatski 🇭🇷",
+    "sl" => "Slovenščina 🇸🇮",
+    "et" => "Eesti 🇪🇪",
+    "lv" => "Latviešu 🇱🇻",
+    "lt" => "Lietuvių 🇱🇹",
+    "mt" => "Malti 🇲🇹",
+    "ga" => "Gaeilge 🇮🇪"
+];
+
+/* 2. Default language */
+if (!isset($_SESSION['lang'])) {
+    $_SESSION['lang'] = "es";
+}
+
+/* 3. Change language (only if valid) */
+if (isset($_GET['lang']) && array_key_exists($_GET['lang'], $languages)) {
+    $_SESSION['lang'] = $_GET['lang'];
+}
+
+$currentLang = $_SESSION['lang'];
+
+/* 4. Load translations from CSV into $lang array (Spanish column is the KEY) */
+$lang = [];
+
+$csvPath = __DIR__ . "/idiomas.csv";
+$fh = fopen($csvPath, "r");
+if ($fh === false) {
+    http_response_code(500);
+    die("Cannot open translation file: " . htmlspecialchars($csvPath));
+}
+
+/* Read header row: "es","en","fr",... */
+$headers = fgetcsv($fh);
+if ($headers === false) {
+    fclose($fh);
+    http_response_code(500);
+    die("Translation CSV is empty or invalid.");
+}
+
+$baseIndex = array_search("es", $headers, true);
+$currentIndex = array_search($currentLang, $headers, true);
+
+if ($baseIndex === false) {
+    fclose($fh);
+    http_response_code(500);
+    die('Translation CSV must include an "es" column header.');
+}
+
+/* If current language column missing, fallback to ES */
+if ($currentIndex === false) {
+    $currentIndex = $baseIndex;
+}
+
+while (($row = fgetcsv($fh)) !== false) {
+    if (!isset($row[$baseIndex])) {
+        continue;
+    }
+
+    $key = $row[$baseIndex];
+
+    /* Value in selected language or fallback to ES or key */
+    $value = $row[$currentIndex] ?? ($row[$baseIndex] ?? $key);
+
+    $lang[$key] = $value;
+}
+
+fclose($fh);
+
+function selectorIdioma(){
+    global $languages, $currentLang;
+
+    echo '<select id="idioma">';
+    foreach ($languages as $code => $label){
+        echo '<option value="'.htmlspecialchars($code).'"';
+        if ($code === $currentLang) {
+            echo ' selected';
+        }
+        echo '>'.$label.'</option>';
+    }
+    echo '</select>';
+}
+
+
+?>
+```
 
 
 <a id="elaboracion-de-informes"></a>
@@ -35526,11 +37738,5884 @@ function apply_placeholders(string $template, array $data): string {
 
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/007-Sistemas%20de%20gesti%C3%B3n%20empresarial/006-Elaboraci%C3%B3n%20de%20informes)
 
+### alumno
+<small>Creado: 2026-01-26 13:07</small>
+
+`002-alumno.html`
+
+```html
+<!doctype html>
+<html lang="es">
+	<head>
+		<title>quiz.jocarsa.com</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<header>
+			quiz.jocarsa.com
+		</header>
+		<main>
+			<section id="login">
+				<input type="text" id="nombre">
+				<button>Iniciar</button>
+			</section>
+			<section id="escenario">
+				Yo soy el escenario
+			</section>
+		</main>
+		<footer>
+			quiz.jocarsa.com
+		</footer>
+	</body>
+</html>
+```
+
+### diseño movil
+<small>Creado: 2026-01-26 13:12</small>
+
+`003-diseño movil.html`
+
+```html
+<!doctype html>
+<html lang="es">
+	<head>
+		<title>quiz.jocarsa.com</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		html,body{width:100%;height:100%;padding:0px;margin:0px;}
+		body{display:flex;flex-direction:column;justify-content:space-between;font-family:sans-serif;}
+		header,footer{padding:5px;text-align:center;background:indigo;color:white;}
+		#login{display:flex;flex-direction:column;padding:20px;gap:20px;text-align:center;}
+		#login input,#login button{padding:10px;}
+	</style>
+	</head>
+	<body>
+		<header>
+			quiz.jocarsa.com
+		</header>
+		<main>
+			<section id="login">
+				<h3>Indica tu nombre para entrar</h3>
+				<input type="text" id="nombre">
+				<button>Iniciar</button>
+			</section>
+			<section id="escenario">
+				Yo soy el escenario
+			</section>
+		</main>
+		<footer>
+			quiz.jocarsa.com
+		</footer>
+	</body>
+</html>
+```
+
+### mostrar escenario
+<small>Creado: 2026-01-26 13:14</small>
+
+`004-mostrar escenario.html`
+
+```html
+<!doctype html>
+<html lang="es">
+	<head>
+		<title>quiz.jocarsa.com</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		html,body{width:100%;height:100%;padding:0px;margin:0px;}
+		body{display:flex;flex-direction:column;justify-content:space-between;font-family:sans-serif;}
+		header,footer{padding:5px;text-align:center;background:indigo;color:white;}
+		#login{display:flex;flex-direction:column;padding:20px;gap:20px;text-align:center;}
+		#login input,#login button{padding:10px;}
+		#escenario{display:none;}
+	</style>
+	</head>
+	<body>
+		<header>
+			quiz.jocarsa.com
+		</header>
+		<main>
+			<section id="login">
+				<h3>Indica tu nombre para entrar</h3>
+				<input type="text" id="nombre">
+				<button>Iniciar</button>
+			</section>
+			<section id="escenario">
+				Yo soy el escenario
+			</section>
+		</main>
+		<footer>
+			quiz.jocarsa.com
+		</footer>
+		<script>
+			let login = document.querySelector("#login")
+		 	let escenario = document.querySelector("#escenario")
+			let boton = document.querySelector("#login button")
+			let usuario = document.querySelector("#login input")
+			boton.onclick = function(){
+				login.style.display = "none" // Me escondes el login
+				escenario.style.display = "flex" // Me sacas el escenario
+			}
+		</script>
+	</body>
+</html>
+```
+
+### contenido del escenario
+<small>Creado: 2026-01-26 13:21</small>
+
+`005-contenido del escenario.html`
+
+```html
+<!doctype html>
+<html lang="es">
+	<head>
+		<title>quiz.jocarsa.com</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		html,body{width:100%;height:100%;padding:0px;margin:0px;}
+		body{display:flex;flex-direction:column;justify-content:space-between;font-family:sans-serif;font-size:1.2em;}
+		header,footer{padding:5px;text-align:center;background:indigo;color:white;}
+		#login{display:flex;flex-direction:column;padding:20px;gap:20px;text-align:center;}
+		#login input,#login button{padding:10px;font-size:1.2em;}
+		#escenario{display:none;flex-direction:column;gap:10px;padding:20px;}
+		#escenario button{padding:10px;}
+		button{background:indigo;color:white;border:none;border-radius:50px;font-size:1.2em;}
+	</style>
+	</head>
+	<body>
+		<header>
+			quiz.jocarsa.com
+		</header>
+		<main>
+			<section id="login">
+				<h3>Indica tu nombre para entrar</h3>
+				<input type="text" id="nombre">
+				<button>Iniciar</button>
+			</section>
+			<section id="escenario">
+				<h3>Pregunta:</h3>
+				<p>Esta es la pregunta que se va a realizar</p>
+				<div id="resultados">
+					<button id="respuesta1">Respuesta 1</button>
+					<button id="respuesta2">Respuesta 2</button>
+					<button id="respuesta3">Respuesta 3</button>
+					<button id="respuesta4">Respuesta 4</button>
+				</div>
+			</section>
+		</main>
+		<footer>
+			quiz.jocarsa.com
+		</footer>
+		<script>
+			let login = document.querySelector("#login")
+		 	let escenario = document.querySelector("#escenario")
+			let boton = document.querySelector("#login button")
+			let usuario = document.querySelector("#login input")
+			boton.onclick = function(){
+				login.style.display = "none" // Me escondes el login
+				escenario.style.display = "flex" // Me sacas el escenario
+			}
+		</script>
+	</body>
+</html>
+```
+
+### cargo desde json
+<small>Creado: 2026-01-26 13:22</small>
+
+`006-cargo desde json.html`
+
+```html
+<!doctype html>
+<html lang="es">
+	<head>
+		<title>quiz.jocarsa.com</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		html,body{width:100%;height:100%;padding:0px;margin:0px;}
+		body{display:flex;flex-direction:column;justify-content:space-between;font-family:sans-serif;font-size:1.2em;}
+		header,footer{padding:5px;text-align:center;background:indigo;color:white;}
+		#login{display:flex;flex-direction:column;padding:20px;gap:20px;text-align:center;}
+		#login input,#login button{padding:10px;font-size:1.2em;}
+		#escenario{display:none;flex-direction:column;gap:10px;padding:20px;}
+		#escenario button{padding:10px;}
+		button{background:indigo;color:white;border:none;border-radius:50px;font-size:1.2em;}
+	</style>
+	</head>
+	<body>
+		<header>
+			quiz.jocarsa.com
+		</header>
+		<main>
+			<section id="login">
+				<h3>Indica tu nombre para entrar</h3>
+				<input type="text" id="nombre">
+				<button>Iniciar</button>
+			</section>
+			<section id="escenario">
+				<h3>Pregunta:</h3>
+				<p>Esta es la pregunta que se va a realizar</p>
+				<div id="resultados">
+					<button id="respuesta1">Respuesta 1</button>
+					<button id="respuesta2">Respuesta 2</button>
+					<button id="respuesta3">Respuesta 3</button>
+					<button id="respuesta4">Respuesta 4</button>
+				</div>
+			</section>
+		</main>
+		<footer>
+			quiz.jocarsa.com
+		</footer>
+		<script>
+			let login = document.querySelector("#login")
+		 	let escenario = document.querySelector("#escenario")
+			let boton = document.querySelector("#login button")
+			let usuario = document.querySelector("#login input")
+			boton.onclick = function(){
+				login.style.display = "none" // Me escondes el login
+				escenario.style.display = "flex" // Me sacas el escenario
+			}
+			fetch("preguntas.json")
+			.then(function(respuesta){return respuesta.json()})
+			.then(function(datos){
+				console.log(datos);
+			})
+		</script>
+	</body>
+</html>
+```
+
+### relleno los datos
+<small>Creado: 2026-01-26 13:28</small>
+
+`007-relleno los datos.html`
+
+```html
+<!doctype html>
+<html lang="es">
+	<head>
+		<title>quiz.jocarsa.com</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		html,body{width:100%;height:100%;padding:0px;margin:0px;}
+		body{display:flex;flex-direction:column;justify-content:space-between;font-family:sans-serif;font-size:1.2em;}
+		header,footer{padding:5px;text-align:center;background:indigo;color:white;}
+		#login{display:flex;flex-direction:column;padding:20px;gap:20px;text-align:center;}
+		#login input,#login button{padding:10px;font-size:1.2em;}
+		#escenario{display:none;flex-direction:column;gap:10px;padding:20px;}
+		#escenario button{padding:10px;}
+		button{background:indigo;color:white;border:none;border-radius:50px;font-size:1.2em;border:4px solid indigo;}
+		#resultados{display:flex;flex-direction:column;padding:20px;gap:20px;text-align:center;}
+		.marcado{background:white;color:indigo;border:4px solid indigo;}
+	</style>
+	</head>
+	<body>
+		<header>
+			quiz.jocarsa.com
+		</header>
+		<main>
+			<section id="login">
+				<h3>Indica tu nombre para entrar</h3>
+				<input type="text" id="nombre">
+				<button>Iniciar</button>
+			</section>
+			<section id="escenario">
+				<h3>Pregunta:</h3>
+				<p>Esta es la pregunta que se va a realizar</p>
+				<div id="resultados">
+				</div>
+			</section>
+		</main>
+		<footer>
+			quiz.jocarsa.com
+		</footer>
+		<script>
+			let login = document.querySelector("#login")
+		 	let escenario = document.querySelector("#escenario")
+			let boton = document.querySelector("#login button")
+			let usuario = document.querySelector("#login input")
+			boton.onclick = function(){
+				login.style.display = "none" // Me escondes el login
+				escenario.style.display = "flex" // Me sacas el escenario
+			}
+			fetch("preguntas.json")
+			.then(function(respuesta){return respuesta.json()})
+			.then(function(datos){
+				let pregunta = document.querySelector("#escenario p")
+				pregunta.textContent = datos.pregunta
+				let resultados = document.querySelector("#escenario #resultados")
+				datos.respuestas.forEach(function(respuesta){
+					let botonrespuesta = document.createElement("button")
+					botonrespuesta.textContent = respuesta
+					botonrespuesta.onclick = function(){
+						this.classList.add("marcado")
+					}
+					resultados.appendChild(botonrespuesta)
+				})
+			})
+		</script>
+	</body>
+</html>
+```
+
+### latido de corazon
+<small>Creado: 2026-01-26 13:31</small>
+
+`008-latido de corazon.html`
+
+```html
+<!doctype html>
+<html lang="es">
+	<head>
+		<title>quiz.jocarsa.com</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		html,body{width:100%;height:100%;padding:0px;margin:0px;}
+		body{display:flex;flex-direction:column;justify-content:space-between;font-family:sans-serif;font-size:1.2em;}
+		header,footer{padding:5px;text-align:center;background:indigo;color:white;}
+		#login{display:flex;flex-direction:column;padding:20px;gap:20px;text-align:center;}
+		#login input,#login button{padding:10px;font-size:1.2em;}
+		#escenario{display:none;flex-direction:column;gap:10px;padding:20px;}
+		#escenario button{padding:10px;}
+		button{background:indigo;color:white;border:none;border-radius:50px;font-size:1.2em;border:4px solid indigo;}
+		#resultados{display:flex;flex-direction:column;padding:20px;gap:20px;text-align:center;}
+		.marcado{background:white;color:indigo;border:4px solid indigo;}
+	</style>
+	</head>
+	<body>
+		<header>
+			quiz.jocarsa.com
+		</header>
+		<main>
+			<section id="login">
+				<h3>Indica tu nombre para entrar</h3>
+				<input type="text" id="nombre">
+				<button>Iniciar</button>
+			</section>
+			<section id="escenario">
+				<h3>Pregunta:</h3>
+				<p>Esta es la pregunta que se va a realizar</p>
+				<div id="resultados">
+				</div>
+			</section>
+		</main>
+		<footer>
+			quiz.jocarsa.com
+		</footer>
+		<script>
+			let login = document.querySelector("#login")
+		 	let escenario = document.querySelector("#escenario")
+			let boton = document.querySelector("#login button")
+			let usuario = document.querySelector("#login input")
+			boton.onclick = function(){
+				login.style.display = "none" // Me escondes el login
+				escenario.style.display = "flex" // Me sacas el escenario
+			}
+			
+			
+			var temporizador = setTimeout("bucle()",1000)
+			
+			function bucle(){
+				fetch("preguntas.json")
+				.then(function(respuesta){return respuesta.json()})
+				.then(function(datos){
+					let pregunta = document.querySelector("#escenario p")
+					pregunta.textContent = datos.pregunta
+					let resultados = document.querySelector("#escenario #resultados")
+					resultados.innerHTML = ""
+					datos.respuestas.forEach(function(respuesta){
+						let botonrespuesta = document.createElement("button")
+						botonrespuesta.textContent = respuesta
+						botonrespuesta.onclick = function(){
+							this.classList.add("marcado")
+						}
+						resultados.appendChild(botonrespuesta)
+					})
+				})
+				clearTimeout(temporizador)
+				temporizador = setTimeout("bucle()",1000)
+				
+			}
+		</script>
+	</body>
+</html>
+```
+
+### comprobacion de si debo cambiar
+<small>Creado: 2026-01-26 13:32</small>
+
+`009-comprobacion de si debo cambiar.html`
+
+```html
+<!doctype html>
+<html lang="es">
+	<head>
+		<title>quiz.jocarsa.com</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		html,body{width:100%;height:100%;padding:0px;margin:0px;}
+		body{display:flex;flex-direction:column;justify-content:space-between;font-family:sans-serif;font-size:1.2em;}
+		header,footer{padding:5px;text-align:center;background:indigo;color:white;}
+		#login{display:flex;flex-direction:column;padding:20px;gap:20px;text-align:center;}
+		#login input,#login button{padding:10px;font-size:1.2em;}
+		#escenario{display:none;flex-direction:column;gap:10px;padding:20px;}
+		#escenario button{padding:10px;}
+		button{background:indigo;color:white;border:none;border-radius:50px;font-size:1.2em;border:4px solid indigo;}
+		#resultados{display:flex;flex-direction:column;padding:20px;gap:20px;text-align:center;}
+		.marcado{background:white;color:indigo;border:4px solid indigo;}
+	</style>
+	</head>
+	<body>
+		<header>
+			quiz.jocarsa.com
+		</header>
+		<main>
+			<section id="login">
+				<h3>Indica tu nombre para entrar</h3>
+				<input type="text" id="nombre">
+				<button>Iniciar</button>
+			</section>
+			<section id="escenario">
+				<h3>Pregunta:</h3>
+				<p>Esta es la pregunta que se va a realizar</p>
+				<div id="resultados">
+				</div>
+			</section>
+		</main>
+		<footer>
+			quiz.jocarsa.com
+		</footer>
+		<script>
+			var preguntaactual = "";
+			let login = document.querySelector("#login")
+		 	let escenario = document.querySelector("#escenario")
+			let boton = document.querySelector("#login button")
+			let usuario = document.querySelector("#login input")
+			boton.onclick = function(){
+				login.style.display = "none" // Me escondes el login
+				escenario.style.display = "flex" // Me sacas el escenario
+			}
+			
+			
+			var temporizador = setTimeout("bucle()",1000)
+			
+			function bucle(){
+				fetch("preguntas.json")
+				.then(function(respuesta){return respuesta.json()})
+				.then(function(datos){
+					if(datos.pregunta != preguntaactual){
+						preguntaactual = datos.pregunta
+						let pregunta = document.querySelector("#escenario p")
+						pregunta.textContent = datos.pregunta
+						let resultados = document.querySelector("#escenario #resultados")
+						resultados.innerHTML = ""
+						datos.respuestas.forEach(function(respuesta){
+							let botonrespuesta = document.createElement("button")
+							botonrespuesta.textContent = respuesta
+							botonrespuesta.onclick = function(){
+								this.classList.add("marcado")
+							}
+							resultados.appendChild(botonrespuesta)
+						})
+					}
+				})
+				clearTimeout(temporizador)
+				temporizador = setTimeout("bucle()",1000)
+				
+			}
+		</script>
+	</body>
+</html>
+```
+
+### el usuario solo puede responder una vez
+<small>Creado: 2026-01-26 13:41</small>
+
+`010-el usuario solo puede responder una vez.html`
+
+```html
+<!doctype html>
+<html lang="es">
+	<head>
+		<title>quiz.jocarsa.com</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		html,body{width:100%;height:100%;padding:0px;margin:0px;}
+		body{display:flex;flex-direction:column;justify-content:space-between;font-family:sans-serif;font-size:1.2em;}
+		header,footer{padding:5px;text-align:center;background:indigo;color:white;}
+		#login{display:flex;flex-direction:column;padding:20px;gap:20px;text-align:center;}
+		#login input,#login button{padding:10px;font-size:1.2em;}
+		#escenario{display:none;flex-direction:column;gap:10px;padding:20px;}
+		#escenario button{padding:10px;}
+		button{background:indigo;color:white;border:none;border-radius:50px;font-size:1.2em;border:4px solid indigo;}
+		#resultados{display:flex;flex-direction:column;padding:20px;gap:20px;text-align:center;}
+		.marcado{background:white;color:indigo;border:4px solid indigo;}
+	</style>
+	</head>
+	<body>
+		<header>
+			quiz.jocarsa.com
+		</header>
+		<main>
+			<section id="login">
+				<h3>Indica tu nombre para entrar</h3>
+				<input type="text" id="nombre">
+				<button>Iniciar</button>
+			</section>
+			<section id="escenario">
+				<h3>Pregunta:</h3>
+				<p>Esta es la pregunta que se va a realizar</p>
+				<div id="resultados">
+				</div>
+			</section>
+		</main>
+		<footer>
+			quiz.jocarsa.com
+		</footer>
+		<script>
+			var preguntaactual = "";
+			let login = document.querySelector("#login")
+		 	let escenario = document.querySelector("#escenario")
+			let boton = document.querySelector("#login button")
+			let usuario = document.querySelector("#login input")
+			var respondido = false;
+			boton.onclick = function(){
+				login.style.display = "none" // Me escondes el login
+				escenario.style.display = "flex" // Me sacas el escenario
+			}
+			
+			
+			var temporizador = setTimeout("bucle()",1000)
+			
+			function bucle(){
+				fetch("preguntas.json")
+				.then(function(respuesta){return respuesta.json()})
+				.then(function(datos){
+					if(datos.pregunta != preguntaactual){
+						respondido = false;
+						preguntaactual = datos.pregunta
+						let pregunta = document.querySelector("#escenario p")
+						pregunta.textContent = datos.pregunta
+						let resultados = document.querySelector("#escenario #resultados")
+						resultados.innerHTML = ""
+						datos.respuestas.forEach(function(respuesta){
+							let botonrespuesta = document.createElement("button")
+							botonrespuesta.textContent = respuesta
+							botonrespuesta.onclick = function(){
+								if(respondido == false){
+									this.classList.add("marcado")
+									respondido = true;
+								}
+							}
+							resultados.appendChild(botonrespuesta)
+						})
+					}
+				})
+				clearTimeout(temporizador)
+				temporizador = setTimeout("bucle()",1000)
+				
+			}
+		</script>
+	</body>
+</html>
+```
+
+### pistas visuales
+<small>Creado: 2026-01-26 13:44</small>
+
+`011-pistas visuales.html`
+
+```html
+<!doctype html>
+<html lang="es">
+	<head>
+		<title>quiz.jocarsa.com</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		html,body{width:100%;height:100%;padding:0px;margin:0px;}
+		body{display:flex;flex-direction:column;justify-content:space-between;font-family:sans-serif;font-size:1.2em;}
+		header,footer{padding:5px;text-align:center;background:indigo;color:white;}
+		#login{display:flex;flex-direction:column;padding:20px;gap:20px;text-align:center;}
+		#login input,#login button{padding:10px;font-size:1.2em;}
+		#escenario{display:none;flex-direction:column;gap:10px;padding:20px;}
+		#escenario button{padding:10px;}
+		button{background:indigo;color:white;border:none;border-radius:50px;font-size:1.2em;border:4px solid indigo;}
+		#resultados{display:flex;flex-direction:column;padding:20px;gap:20px;text-align:center;}
+		.marcado{background:white;color:indigo;border:4px solid indigo;box-shadow:0px 4px 10px rgba(0,0,0,0.3);}
+		.desactivado{opacity:0.2;}
+	</style>
+	</head>
+	<body>
+		<header>
+			quiz.jocarsa.com
+		</header>
+		<main>
+			<section id="login">
+				<h3>Indica tu nombre para entrar</h3>
+				<input type="text" id="nombre">
+				<button>Iniciar</button>
+			</section>
+			<section id="escenario">
+				<h3>Pregunta:</h3>
+				<p>Esta es la pregunta que se va a realizar</p>
+				<div id="resultados">
+				</div>
+			</section>
+		</main>
+		<footer>
+			quiz.jocarsa.com
+		</footer>
+		<script>
+			var preguntaactual = "";
+			let login = document.querySelector("#login")
+		 	let escenario = document.querySelector("#escenario")
+			let boton = document.querySelector("#login button")
+			let usuario = document.querySelector("#login input")
+			var respondido = false;
+			boton.onclick = function(){
+				login.style.display = "none" // Me escondes el login
+				escenario.style.display = "flex" // Me sacas el escenario
+			}
+			
+			
+			var temporizador = setTimeout("bucle()",1000)
+			
+			function bucle(){
+				fetch("preguntas.json")
+				.then(function(respuesta){return respuesta.json()})
+				.then(function(datos){
+					if(datos.pregunta != preguntaactual){
+						respondido = false;
+						preguntaactual = datos.pregunta
+						let pregunta = document.querySelector("#escenario p")
+						pregunta.textContent = datos.pregunta
+						let resultados = document.querySelector("#escenario #resultados")
+						resultados.innerHTML = ""
+						datos.respuestas.forEach(function(respuesta){
+							let botonrespuesta = document.createElement("button")
+							botonrespuesta.textContent = respuesta
+							botonrespuesta.onclick = function(){
+								if(respondido == false){
+									this.classList.add("marcado")
+									respondido = true;
+									let botones = document.querySelectorAll("button")
+									botones.forEach(function(unboton){
+										unboton.classList.add("desactivado")
+									})
+									this.classList.remove("desactivado")
+								}
+							}
+							resultados.appendChild(botonrespuesta)
+						})
+					}
+				})
+				clearTimeout(temporizador)
+				temporizador = setTimeout("bucle()",1000)
+				
+			}
+		</script>
+	</body>
+</html>
+```
+
+### envio respuesta al servidor
+<small>Creado: 2026-01-26 13:50</small>
+
+`012-envio respuesta al servidor.html`
+
+```html
+<!doctype html>
+<html lang="es">
+	<head>
+		<title>quiz.jocarsa.com</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		html,body{width:100%;height:100%;padding:0px;margin:0px;}
+		body{display:flex;flex-direction:column;justify-content:space-between;font-family:sans-serif;font-size:1.2em;}
+		header,footer{padding:5px;text-align:center;background:indigo;color:white;}
+		#login{display:flex;flex-direction:column;padding:20px;gap:20px;text-align:center;}
+		#login input,#login button{padding:10px;font-size:1.2em;}
+		#escenario{display:none;flex-direction:column;gap:10px;padding:20px;}
+		#escenario button{padding:10px;}
+		button{background:indigo;color:white;border:none;border-radius:50px;font-size:1.2em;border:4px solid indigo;}
+		#resultados{display:flex;flex-direction:column;padding:20px;gap:20px;text-align:center;}
+		.marcado{background:white;color:indigo;border:4px solid indigo;box-shadow:0px 4px 10px rgba(0,0,0,0.3);}
+		.desactivado{opacity:0.2;}
+	</style>
+	</head>
+	<body>
+		<header>
+			quiz.jocarsa.com
+		</header>
+		<main>
+			<section id="login">
+				<h3>Indica tu nombre para entrar</h3>
+				<input type="text" id="nombre">
+				<button>Iniciar</button>
+			</section>
+			<section id="escenario">
+				<h3>Pregunta:</h3>
+				<p>Esta es la pregunta que se va a realizar</p>
+				<div id="resultados">
+				</div>
+			</section>
+		</main>
+		<footer>
+			quiz.jocarsa.com
+		</footer>
+		<script>
+			var preguntaactual = "";
+			let login = document.querySelector("#login")
+		 	let escenario = document.querySelector("#escenario")
+			let boton = document.querySelector("#login button")
+			let usuario = document.querySelector("#login input")
+			var respondido = false;
+			boton.onclick = function(){
+				login.style.display = "none" // Me escondes el login
+				escenario.style.display = "flex" // Me sacas el escenario
+			}
+			
+			
+			var temporizador = setTimeout("bucle()",1000)
+			
+			function bucle(){
+				fetch("preguntas.json")
+				.then(function(respuesta){return respuesta.json()})
+				.then(function(datos){
+					if(datos.pregunta != preguntaactual){
+						respondido = false;
+						preguntaactual = datos.pregunta
+						let pregunta = document.querySelector("#escenario p")
+						pregunta.textContent = datos.pregunta
+						let resultados = document.querySelector("#escenario #resultados")
+						resultados.innerHTML = ""
+						datos.respuestas.forEach(function(respuesta){
+							let botonrespuesta = document.createElement("button")
+							botonrespuesta.textContent = respuesta
+							botonrespuesta.onclick = function(){
+								if(respondido == false){
+									fetch("guarda.php?pregunta="+encodeURI(datos.pregunta)+"&respuesta="+encodeURI(this.textContent)+"&usuario="+encodeURI(usuario.value))
+									this.classList.add("marcado")
+									respondido = true;
+									let botones = document.querySelectorAll("button")
+									botones.forEach(function(unboton){
+										unboton.classList.add("desactivado")
+									})
+									this.classList.remove("desactivado")
+								}
+							}
+							resultados.appendChild(botonrespuesta)
+						})
+					}
+				})
+				clearTimeout(temporizador)
+				temporizador = setTimeout("bucle()",1000)
+				
+			}
+		</script>
+	</body>
+</html>
+```
+
+### b-envio respuesta al servidor
+<small>Creado: 2026-01-26 15:03</small>
+
+`012b-envio respuesta al servidor.html`
+
+```html
+<!doctype html>
+<html lang="es">
+	<head>
+		<title>quiz.jocarsa.com</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		/* ====== Base ====== */
+		:root{
+			--brand: indigo;
+			--bg: #f5f6ff;
+			--card: #ffffff;
+			--text: #0f172a;
+			--muted: rgba(15, 23, 42, .65);
+			--border: rgba(15, 23, 42, .10);
+			--shadow: 0 12px 30px rgba(15, 23, 42, .12);
+			--shadow-soft: 0 8px 22px rgba(15, 23, 42, .10);
+			--radius: 18px;
+		}
+
+		*{ box-sizing:border-box; }
+		html,body{width:100%;height:100%;padding:0;margin:0;}
+		body{
+			display:flex;
+			flex-direction:column;
+			justify-content:space-between;
+			font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Liberation Sans", sans-serif;
+			font-size:1.2em;
+			color: var(--text);
+			background:
+				radial-gradient(1200px 600px at 10% -10%, rgba(75, 0, 130, .14), transparent 55%),
+				radial-gradient(900px 500px at 100% 10%, rgba(75, 0, 130, .10), transparent 50%),
+				var(--bg);
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+		}
+
+		/* ====== Header / Footer ====== */
+		header,footer{
+			padding:10px 12px;
+			text-align:center;
+			background: var(--brand);
+			color:white;
+			letter-spacing:.2px;
+			box-shadow: 0 8px 20px rgba(0,0,0,.18);
+		}
+		header{
+			position: sticky;
+			top: 0;
+			z-index: 10;
+		}
+
+		/* ====== Main Layout ====== */
+		main{
+			flex:1;
+			display:flex;
+			align-items:center;
+			justify-content:center;
+			padding:16px;
+		}
+
+		/* Sections behave like cards */
+		#login, #escenario{
+			width: min(780px, 100%);
+			background: var(--card);
+			border: 1px solid var(--border);
+			border-radius: var(--radius);
+			box-shadow: var(--shadow);
+			backdrop-filter: blur(6px);
+		}
+
+		#login{
+			display:flex;
+			flex-direction:column;
+			padding:22px;
+			gap:16px;
+			text-align:center;
+		}
+
+		#escenario{
+			display:none;
+			flex-direction:column;
+			gap:12px;
+			padding:22px;
+		}
+
+		#escenario h3{
+			margin:0;
+			font-size:1.15em;
+			color: var(--muted);
+			font-weight:700;
+		}
+
+		#escenario p{
+			margin:0;
+			font-size:1.15em;
+			line-height:1.35;
+			padding:14px 14px;
+			border-radius: 14px;
+			background: rgba(75, 0, 130, .06);
+			border: 1px solid rgba(75, 0, 130, .14);
+		}
+
+		#login h3{
+			margin:0 0 4px 0;
+			font-size:1.2em;
+			font-weight:800;
+		}
+
+		/* ====== Inputs ====== */
+		#login input{
+			padding:12px 14px;
+			font-size:1.05em;
+			border-radius: 14px;
+			border: 1px solid var(--border);
+			outline: none;
+			box-shadow: 0 2px 10px rgba(15, 23, 42, .05);
+			transition: border-color .15s ease, box-shadow .15s ease, transform .06s ease;
+		}
+		#login input:focus{
+			border-color: rgba(75, 0, 130, .45);
+			box-shadow: 0 0 0 4px rgba(75, 0, 130, .14), 0 10px 22px rgba(15, 23, 42, .10);
+		}
+
+		/* ====== Buttons ====== */
+		button{
+			background: var(--brand);
+			color:white;
+			border:none;
+			border-radius: 999px;
+			font-size:1.05em;
+			font-weight:700;
+			padding:12px 16px;
+			border:4px solid var(--brand);
+			cursor:pointer;
+			box-shadow: 0 10px 22px rgba(0,0,0,.14);
+			transition: transform .08s ease, box-shadow .15s ease, filter .15s ease, opacity .15s ease;
+			user-select:none;
+			-webkit-tap-highlight-color: transparent;
+		}
+		button:hover{
+			filter: brightness(1.04);
+			box-shadow: 0 14px 28px rgba(0,0,0,.18);
+		}
+		button:active{
+			transform: translateY(1px) scale(.99);
+			box-shadow: 0 8px 16px rgba(0,0,0,.14);
+		}
+		button:focus-visible{
+			outline:none;
+			box-shadow: 0 0 0 4px rgba(75, 0, 130, .18), 0 14px 28px rgba(0,0,0,.18);
+		}
+
+		/* ====== Answers grid ====== */
+		#resultados{
+			display:grid;
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+			gap:12px;
+			padding-top:6px;
+			text-align:center;
+		}
+		#resultados button{
+			padding:14px 14px;
+			border-radius: 16px;
+			border-width:3px;
+			box-shadow: var(--shadow-soft);
+		}
+
+		/* Keep your current marked/disabled look, but nicer */
+		.marcado{
+			background:white;
+			color: var(--brand);
+			border:3px solid var(--brand);
+			box-shadow: 0 14px 30px rgba(75, 0, 130, .18);
+			transform: translateY(-1px);
+		}
+
+		.desactivado{
+			opacity:0.25;
+			filter: grayscale(.05);
+			pointer-events:none;
+		}
+
+		/* ====== Responsive ====== */
+		@media (max-width: 640px){
+			body{ font-size:1.05em; }
+			main{ padding:12px; }
+			#login, #escenario{ padding:16px; border-radius: 16px; }
+			#resultados{ grid-template-columns: 1fr; }
+			#escenario p{ font-size:1.08em; }
+		}
+
+		/* ====== Reduced motion ====== */
+		@media (prefers-reduced-motion: reduce){
+			*{ transition:none !important; }
+		}
+	</style>
+	</head>
+	<body>
+		<header>
+			quiz.jocarsa.com
+		</header>
+		<main>
+			<section id="login">
+				<h3>Indica tu nombre para entrar</h3>
+				<input type="text" id="nombre">
+				<button>Iniciar</button>
+			</section>
+			<section id="escenario">
+				<h3>Pregunta:</h3>
+				<p>Esta es la pregunta que se va a realizar</p>
+				<div id="resultados">
+				</div>
+			</section>
+		</main>
+		<footer>
+			quiz.jocarsa.com
+		</footer>
+		<script>
+			var preguntaactual = "";
+			let login = document.querySelector("#login")
+		 	let escenario = document.querySelector("#escenario")
+			let boton = document.querySelector("#login button")
+			let usuario = document.querySelector("#login input")
+			var respondido = false;
+			boton.onclick = function(){
+				login.style.display = "none" // Me escondes el login
+				escenario.style.display = "flex" // Me sacas el escenario
+			}
+			
+			
+			var temporizador = setTimeout("bucle()",1000)
+			
+			function bucle(){
+				 const url = "preguntas.json?ts=" + Date.now(); // evita caché por URL distinta
+
+				 fetch(url, { cache: "no-store" })              // fuerza a no usar caché
+					.then(function(respuesta){ return respuesta.json() })
+					.then(function(datos){
+					  if(datos.pregunta != preguntaactual){
+						 respondido = false;
+						 preguntaactual = datos.pregunta
+						 let pregunta = document.querySelector("#escenario p")
+						 pregunta.textContent = datos.pregunta
+						 let resultados = document.querySelector("#escenario #resultados")
+						 resultados.innerHTML = ""
+
+						 datos.respuestas.forEach(function(respuesta){
+						   let botonrespuesta = document.createElement("button")
+						   botonrespuesta.textContent = respuesta
+						   botonrespuesta.onclick = function(){
+						     if(respondido == false){
+
+						       const opciones = Array.from(
+						         document.querySelectorAll("#escenario #resultados button")
+						       ).map(b => b.textContent)
+
+						       const url =
+						         "guarda.php" +
+						         "?pregunta=" + encodeURIComponent(datos.pregunta) +
+						         "&respuesta=" + encodeURIComponent(this.textContent) +
+						         "&usuario=" + encodeURIComponent(usuario.value) +
+						         "&opciones=" + encodeURIComponent(JSON.stringify(opciones))
+
+						       fetch(url, { cache: "no-store" })
+
+						       this.classList.add("marcado")
+						       respondido = true;
+						       let botones = document.querySelectorAll("button")
+						       botones.forEach(function(unboton){
+						         unboton.classList.add("desactivado")
+						       })
+						       this.classList.remove("desactivado")
+						     }
+						   }
+						   resultados.appendChild(botonrespuesta)
+						 })
+					  }
+					})
+
+				 clearTimeout(temporizador)
+				 temporizador = setTimeout(bucle, 1000) // mejor que string
+			  }
+		</script>
+	</body>
+</html>
+```
+
+### informes
+<small>Creado: 2026-01-26 14:13</small>
+
+`013-informes.html`
+
+```html
+<!doctype html>
+<html>
+	<head>
+	</head>
+	<body>
+		<script>
+			fetch("respuestas.csv")
+			.then(function(respuesta){return respuesta.text()})
+			.then(function(datos){
+				let contenedor = []
+				let lineas = datos.trim().split("\n")
+				lineas.forEach(function(linea){
+					let partido = linea.split(",")
+					contenedor.push(partido)
+				})
+				console.log(contenedor)
+			})
+		</script>
+	</body>
+</html>
+```
+
+### barras de progreso
+<small>Creado: 2026-01-26 14:19</small>
+
+`014-barras de progreso.html`
+
+```html
+<!doctype html>
+<html>
+	<head>
+		<style>
+			body,html{padding:0px;margin:0px;width:100%;height:100%;}
+			html{padding:20px;font-family:sans-serif;}
+			html section{display:grid;grid-template-columns:repeat(3,100fr);gap:20px;}
+			article{border:1px solid lightgray;padding:20px;border-radius:10px;}
+		</style>
+	</head>
+	<body>
+		<section>
+			<article>
+				<h3>PHP es un lenguaje de:</h3>
+				<progress value="0.5"></progress> 4 - 30% - Cliente<br>
+				<progress value="0.2"></progress> 2 - 20% - Servidor<br>
+				<progress value="0.3"></progress> 2 - 30% - Web<br>
+			</article>
+			<article>
+				<h3>Javascript es un lenguaje de:</h3>
+				<progress value="0.5"></progress> 4 - 30% - Cliente<br>
+				<progress value="0.2"></progress> 2 - 20% - Servidor<br>
+				<progress value="0.3"></progress> 2 - 30% - Web<br>
+			</article>
+			<article>
+				<h3>PHP es un lenguaje de:</h3>
+				<progress value="0.5"></progress> 4 - 30% - Cliente<br>
+				<progress value="0.2"></progress> 2 - 20% - Servidor<br>
+				<progress value="0.3"></progress> 2 - 30% - Web<br>
+			</article>
+			<article>
+				<h3>Javascript es un lenguaje de:</h3>
+				<progress value="0.5"></progress> 4 - 30% - Cliente<br>
+				<progress value="0.2"></progress> 2 - 20% - Servidor<br>
+				<progress value="0.3"></progress> 2 - 30% - Web<br>
+			</article>
+		</section>
+		<script>
+			fetch("respuestas.csv")
+			.then(function(respuesta){return respuesta.text()})
+			.then(function(datos){
+				let contenedor = []
+				let lineas = datos.trim().split("\n")
+				lineas.forEach(function(linea){
+					let partido = linea.split(",")
+					contenedor.push(partido)
+				})
+				console.log(contenedor)
+			})
+		</script>
+	</body>
+</html>
+```
+
+### informe dinamico
+<small>Creado: 2026-01-26 14:22</small>
+
+`015-informe dinamico.html`
+
+```html
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Resultados (CSV)</title>
+
+  <style>
+    :root{
+      --bg: #f6f7fb;
+      --card: #ffffff;
+      --text: #0f172a;
+      --muted:#64748b;
+      --border:#e5e7eb;
+      --shadow: 0 10px 30px rgba(15, 23, 42, .08);
+      --radius: 14px;
+    }
+
+    *{ box-sizing:border-box; }
+
+    html,body{
+      padding:0;
+      margin:0;
+      width:100%;
+      height:100%;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Liberation Sans", sans-serif;
+      color: var(--text);
+      background: var(--bg);
+    }
+
+    html{ padding:20px; }
+
+    header{
+      display:flex;
+      align-items:flex-end;
+      justify-content:space-between;
+      gap:16px;
+      margin-bottom:16px;
+    }
+
+    header h1{
+      margin:0;
+      font-size:18px;
+      letter-spacing:.2px;
+    }
+
+    header .meta{
+      font-size:12px;
+      color:var(--muted);
+      display:flex;
+      gap:12px;
+      flex-wrap:wrap;
+      justify-content:flex-end;
+    }
+
+    section{
+      display:grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap:20px;
+    }
+
+    @media (max-width: 1100px){
+      section{ grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 700px){
+      section{ grid-template-columns: 1fr; }
+      html{ padding:14px; }
+    }
+
+    article{
+      background: var(--card);
+      border: 1px solid var(--border);
+      padding: 18px;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    article h3{
+      margin:0 0 10px 0;
+      font-size:15px;
+      line-height:1.35;
+      font-weight: 700;
+    }
+
+    .rows{
+      display:flex;
+      flex-direction:column;
+      gap:10px;
+      margin-top:8px;
+    }
+
+    .row{
+      display:grid;
+      grid-template-columns: 1fr auto;
+      gap:10px;
+      align-items:center;
+    }
+
+    .label{
+      display:flex;
+      justify-content:space-between;
+      gap:10px;
+      align-items:baseline;
+      font-size:13px;
+      color: var(--muted);
+      margin-bottom:6px;
+    }
+
+    .label strong{
+      color: var(--text);
+      font-weight:600;
+    }
+
+    progress{
+      width:100%;
+      height: 10px;
+      border-radius: 999px;
+      overflow:hidden;
+      border: 1px solid var(--border);
+      background: #f1f5f9;
+    }
+
+    /* Progress styling (sin romper en navegadores que no soporten) */
+    progress::-webkit-progress-bar{
+      background: #f1f5f9;
+    }
+    progress::-webkit-progress-value{
+      background: #2563eb;
+    }
+    progress::-moz-progress-bar{
+      background: #2563eb;
+    }
+
+    .count{
+      font-size:12px;
+      color: var(--muted);
+      white-space:nowrap;
+    }
+
+    .empty{
+      border-style:dashed;
+      color: var(--muted);
+      box-shadow:none;
+    }
+
+    .empty p{
+      margin:0;
+      font-size:13px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div>
+      <h1>Resultados por pregunta (desde CSV)</h1>
+    </div>
+    <div class="meta">
+      <span id="metaTotal">Total respuestas: —</span>
+      <span id="metaPreguntas">Preguntas: —</span>
+      <span id="metaActualizado">Actualizado: —</span>
+    </div>
+  </header>
+
+  <section id="contenedor">
+    <article class="empty">
+      <h3>Cargando…</h3>
+      <p>Leyendo <code>respuestas.csv</code></p>
+    </article>
+  </section>
+
+  <script>
+    // CSV esperado (user, question, answer) - sin cabecera:
+    // Jose Vicente,Javascript es un lenguaje de,Cliente
+    // Sandro,PHP es un lenguaje de,Servidor
+    //
+    // NOTA: Esto es un parser simple (CSV sin comillas/escapes).
+    // Si necesitas comillas, comas dentro de campos, etc., te preparo un parser más completo.
+
+    const CSV_PATH = "respuestas.csv";
+
+    function parseCSVSimple(text) {
+      const lines = text
+        .replace(/\r/g, "")
+        .split("\n")
+        .map(l => l.trim())
+        .filter(l => l.length > 0);
+
+      const rows = [];
+      for (const line of lines) {
+        const parts = line.split(",").map(s => s.trim());
+        if (parts.length < 3) continue;
+        const user = parts[0];
+        const question = parts[1];
+        const answer = parts.slice(2).join(","); // por si el "answer" tuviera comas (simple)
+        rows.push({ user, question, answer });
+      }
+      return rows;
+    }
+
+    function aggregate(rows) {
+      // Estructura:
+      // preguntas[question].total
+      // preguntas[question].answers[answer] = count
+      const preguntas = new Map();
+
+      for (const r of rows) {
+        if (!preguntas.has(r.question)) {
+          preguntas.set(r.question, { total: 0, answers: new Map() });
+        }
+        const q = preguntas.get(r.question);
+        q.total += 1;
+        q.answers.set(r.answer, (q.answers.get(r.answer) || 0) + 1);
+      }
+
+      return preguntas;
+    }
+
+    function el(tag, attrs = {}, children = []) {
+      const node = document.createElement(tag);
+      for (const [k, v] of Object.entries(attrs)) {
+        if (k === "class") node.className = v;
+        else if (k === "html") node.innerHTML = v;
+        else node.setAttribute(k, v);
+      }
+      for (const c of children) {
+        if (typeof c === "string") node.appendChild(document.createTextNode(c));
+        else node.appendChild(c);
+      }
+      return node;
+    }
+
+    function render(preguntasMap, totalRespuestas) {
+      const cont = document.getElementById("contenedor");
+      cont.innerHTML = "";
+
+      // Actualiza metas
+      document.getElementById("metaTotal").textContent = "Total respuestas: " + totalRespuestas;
+      document.getElementById("metaPreguntas").textContent = "Preguntas: " + preguntasMap.size;
+      document.getElementById("metaActualizado").textContent =
+        "Actualizado: " + new Date().toLocaleString("es-ES");
+
+      // Render cards
+      for (const [question, data] of preguntasMap.entries()) {
+        const article = el("article", {}, [
+          el("h3", {}, [question])
+        ]);
+
+        // Ordena respuestas por count desc
+        const sortedAnswers = [...data.answers.entries()].sort((a, b) => b[1] - a[1]);
+
+        const rowsWrap = el("div", { class: "rows" });
+
+        for (const [answer, count] of sortedAnswers) {
+          const pct = data.total ? (count / data.total) : 0;
+          const pctText = Math.round(pct * 100) + "%";
+
+          // label: "Cliente" + "4 - 30%"
+          const label = el("div", { class: "label" }, [
+            el("strong", {}, [answer]),
+            el("span", {}, [count + " · " + pctText])
+          ]);
+
+          const progress = el("progress", { value: String(pct), max: "1" });
+
+          const row = el("div", { class: "row" }, [
+            el("div", {}, [label, progress]),
+            el("div", { class: "count" }, [data.total + " total"])
+          ]);
+
+          rowsWrap.appendChild(row);
+        }
+
+        article.appendChild(rowsWrap);
+        cont.appendChild(article);
+      }
+
+      if (preguntasMap.size === 0) {
+        cont.appendChild(el("article", { class: "empty" }, [
+          el("h3", {}, ["Sin datos"]),
+          el("p", {}, ["El CSV está vacío o no tiene filas válidas."])
+        ]));
+      }
+    }
+
+    fetch(CSV_PATH, { cache: "no-store" })
+      .then(r => {
+        if (!r.ok) throw new Error("No se pudo leer " + CSV_PATH + " (HTTP " + r.status + ")");
+        return r.text();
+      })
+      .then(text => {
+        const rows = parseCSVSimple(text);
+        const preguntas = aggregate(rows);
+        render(preguntas, rows.length);
+      })
+      .catch(err => {
+        const cont = document.getElementById("contenedor");
+        cont.innerHTML = "";
+        cont.appendChild(el("article", { class: "empty" }, [
+          el("h3", {}, ["Error cargando CSV"]),
+          el("p", {}, [String(err.message || err)])
+        ]));
+      });
+  </script>
+</body>
+</html>
+```
+
+### informe con todas las respuestas
+<small>Creado: 2026-01-26 14:57</small>
+
+`016-informe con todas las respuestas.html`
+
+```html
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Resultados (CSV)</title>
+
+  <style>
+    :root{
+      --bg: #f6f7fb;
+      --card: #ffffff;
+      --text: #0f172a;
+      --muted:#64748b;
+      --border:#e5e7eb;
+      --shadow: 0 10px 30px rgba(15, 23, 42, .08);
+      --radius: 14px;
+    }
+
+    *{ box-sizing:border-box; }
+
+    html,body{
+      padding:0;
+      margin:0;
+      width:100%;
+      height:100%;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Liberation Sans", sans-serif;
+      color: var(--text);
+      background: var(--bg);
+    }
+
+    html{ padding:20px; }
+
+    header{
+      display:flex;
+      align-items:flex-end;
+      justify-content:space-between;
+      gap:16px;
+      margin-bottom:16px;
+    }
+
+    header h1{
+      margin:0;
+      font-size:18px;
+      letter-spacing:.2px;
+    }
+
+    header .meta{
+      font-size:12px;
+      color:var(--muted);
+      display:flex;
+      gap:12px;
+      flex-wrap:wrap;
+      justify-content:flex-end;
+    }
+
+    section{
+      display:grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap:20px;
+    }
+
+    @media (max-width: 1100px){
+      section{ grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 700px){
+      section{ grid-template-columns: 1fr; }
+      html{ padding:14px; }
+    }
+
+    article{
+      background: var(--card);
+      border: 1px solid var(--border);
+      padding: 18px;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    article h3{
+      margin:0 0 10px 0;
+      font-size:15px;
+      line-height:1.35;
+      font-weight: 700;
+    }
+
+    .rows{
+      display:flex;
+      flex-direction:column;
+      gap:10px;
+      margin-top:8px;
+    }
+
+    .row{
+      display:grid;
+      grid-template-columns: 1fr auto;
+      gap:10px;
+      align-items:center;
+    }
+
+    .label{
+      display:flex;
+      justify-content:space-between;
+      gap:10px;
+      align-items:baseline;
+      font-size:13px;
+      color: var(--muted);
+      margin-bottom:6px;
+    }
+
+    .label strong{
+      color: var(--text);
+      font-weight:600;
+    }
+
+    progress{
+      width:100%;
+      height: 10px;
+      border-radius: 999px;
+      overflow:hidden;
+      border: 1px solid var(--border);
+      background: #f1f5f9;
+    }
+
+    progress::-webkit-progress-bar{ background: #f1f5f9; }
+    progress::-webkit-progress-value{ background: indigo; }
+    progress::-moz-progress-bar{ background: indigo; }
+
+    .count{
+      font-size:12px;
+      color: var(--muted);
+      white-space:nowrap;
+    }
+
+    .empty{
+      border-style:dashed;
+      color: var(--muted);
+      box-shadow:none;
+    }
+
+    .empty p{
+      margin:0;
+      font-size:13px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div>
+      <h1>Resultados por pregunta (desde CSV)</h1>
+    </div>
+    <div class="meta">
+      <span id="metaTotal">Total respuestas: —</span>
+      <span id="metaPreguntas">Preguntas: —</span>
+      <span id="metaActualizado">Actualizado: —</span>
+    </div>
+  </header>
+
+  <section id="contenedor">
+    <article class="empty">
+      <h3>Cargando…</h3>
+      <p>Leyendo <code>respuestas.csv</code></p>
+    </article>
+  </section>
+
+  <script>
+    const CSV_PATH = "respuestas.csv";
+    const REFRESH_MS = 1000;
+
+    // Parser CSV compatible con fputcsv:
+    // - separador coma
+    // - campos con comillas dobles
+    // - comillas escapadas como ""
+    function parseCSV(text) {
+      const rows = [];
+      let row = [];
+      let field = "";
+      let inQuotes = false;
+
+      text = text.replace(/\r/g, "");
+
+      for (let i = 0; i < text.length; i++) {
+        const c = text[i];
+
+        if (inQuotes) {
+          if (c === '"') {
+            if (text[i + 1] === '"') {
+              field += '"';
+              i++;
+            } else {
+              inQuotes = false;
+            }
+          } else {
+            field += c;
+          }
+        } else {
+          if (c === '"') {
+            inQuotes = true;
+          } else if (c === ",") {
+            row.push(field);
+            field = "";
+          } else if (c === "\n") {
+            row.push(field);
+            field = "";
+            if (row.some(v => String(v).trim().length > 0)) rows.push(row);
+            row = [];
+          } else {
+            field += c;
+          }
+        }
+      }
+
+      if (field.length > 0 || row.length > 0) {
+        row.push(field);
+        if (row.some(v => String(v).trim().length > 0)) rows.push(row);
+      }
+
+      return rows;
+    }
+
+    // [usuario, pregunta, respuesta, opciones_json]
+    function toObjects(csvRows) {
+      const out = [];
+      for (const parts of csvRows) {
+        if (parts.length < 3) continue;
+
+        const user = (parts[0] ?? "").trim();
+        const question = (parts[1] ?? "").trim();
+        const answer = (parts[2] ?? "").trim();
+        const optionsJson = (parts[3] ?? "[]").trim();
+
+        out.push({ user, question, answer, optionsJson });
+      }
+      return out;
+    }
+
+    function safeParseOptions(optionsJson) {
+      try {
+        const arr = JSON.parse(optionsJson || "[]");
+        return Array.isArray(arr) ? arr.map(String) : [];
+      } catch {
+        return [];
+      }
+    }
+
+    function aggregate(rows) {
+      // preguntas[question] = { total, answers(Map), options(Set) }
+      const preguntas = new Map();
+
+      for (const r of rows) {
+        if (!preguntas.has(r.question)) {
+          preguntas.set(r.question, { total: 0, answers: new Map(), options: new Set() });
+        }
+        const q = preguntas.get(r.question);
+
+        q.total += 1;
+        q.answers.set(r.answer, (q.answers.get(r.answer) || 0) + 1);
+
+        const opts = safeParseOptions(r.optionsJson);
+        for (const o of opts) q.options.add(o);
+
+        if (r.answer) q.options.add(r.answer);
+      }
+
+      // Asegura que todas las opciones aparezcan incluso si nadie las eligió
+      for (const [, q] of preguntas.entries()) {
+        for (const opt of q.options) {
+          if (!q.answers.has(opt)) q.answers.set(opt, 0);
+        }
+      }
+
+      return preguntas;
+    }
+
+    function el(tag, attrs = {}, children = []) {
+      const node = document.createElement(tag);
+      for (const [k, v] of Object.entries(attrs)) {
+        if (k === "class") node.className = v;
+        else if (k === "html") node.innerHTML = v;
+        else node.setAttribute(k, v);
+      }
+      for (const c of children) {
+        if (typeof c === "string") node.appendChild(document.createTextNode(c));
+        else node.appendChild(c);
+      }
+      return node;
+    }
+
+    function render(preguntasMap, totalRespuestas) {
+      const cont = document.getElementById("contenedor");
+      cont.innerHTML = "";
+
+      document.getElementById("metaTotal").textContent = "Total respuestas: " + totalRespuestas;
+      document.getElementById("metaPreguntas").textContent = "Preguntas: " + preguntasMap.size;
+      document.getElementById("metaActualizado").textContent =
+        "Actualizado: " + new Date().toLocaleString("es-ES");
+
+      for (const [question, data] of preguntasMap.entries()) {
+        const article = el("article", {}, [
+          el("h3", {}, [question])
+        ]);
+
+        const sortedAnswers = [...data.answers.entries()].sort((a, b) => {
+          if (b[1] !== a[1]) return b[1] - a[1];
+          return String(a[0]).localeCompare(String(b[0]), "es");
+        });
+
+        const rowsWrap = el("div", { class: "rows" });
+
+        for (const [answer, count] of sortedAnswers) {
+          const pct = data.total ? (count / data.total) : 0;
+          const pctText = Math.round(pct * 100) + "%";
+
+          const label = el("div", { class: "label" }, [
+            el("strong", {}, [answer]),
+            el("span", {}, [count + " · " + pctText])
+          ]);
+
+          const progress = el("progress", { value: String(pct), max: "1" });
+
+          const row = el("div", { class: "row" }, [
+            el("div", {}, [label, progress]),
+            el("div", { class: "count" }, [data.total + " total"])
+          ]);
+
+          rowsWrap.appendChild(row);
+        }
+
+        article.appendChild(rowsWrap);
+        cont.appendChild(article);
+      }
+
+      if (preguntasMap.size === 0) {
+        cont.appendChild(el("article", { class: "empty" }, [
+          el("h3", {}, ["Sin datos"]),
+          el("p", {}, ["El CSV está vacío o no tiene filas válidas."])
+        ]));
+      }
+    }
+
+    let lastCSV = null;
+
+    function loadAndRender() {
+      fetch(CSV_PATH + "?_=" + Date.now(), { cache: "no-store" })
+        .then(r => {
+          if (!r.ok) throw new Error("No se pudo leer " + CSV_PATH + " (HTTP " + r.status + ")");
+          return r.text();
+        })
+        .then(text => {
+          if (text === lastCSV) return; // no cambios
+          lastCSV = text;
+
+          const csvRows = parseCSV(text);
+          const rows = toObjects(csvRows);
+          const preguntas = aggregate(rows);
+          render(preguntas, rows.length);
+        })
+        .catch(err => {
+          const cont = document.getElementById("contenedor");
+          cont.innerHTML = "";
+          cont.appendChild(el("article", { class: "empty" }, [
+            el("h3", {}, ["Error cargando CSV"]),
+            el("p", {}, [String(err.message || err)])
+          ]));
+        });
+    }
+
+    // Primera carga inmediata + refresco cada 1s
+    loadAndRender();
+    setInterval(loadAndRender, REFRESH_MS);
+  </script>
+</body>
+</html>
+```
+
+### creador de preguntas
+<small>Creado: 2026-01-26 14:46</small>
+
+`017-creador de preguntas.php`
+
+```
+<!doctype html>
+<html lang="es">
+	<head>
+	  <meta charset="utf-8" />
+	  <meta name="viewport" content="width=device-width,initial-scale=1" />
+	  <title>Resultados (CSV)</title>
+	  <style>
+		 html,body{padding:0px;margin:0px;width:100%;height:100%;}
+		 body{display:flex;justify-content:center;align-items:center;}
+		 form{width:80%;height:80%;display:flex;flex-direction:column;gap:20px;}
+		 input{padding:10px;border:1px solid lightgray;}
+	  </style>
+	</head>
+	<body>
+	  <form action="?" method="POST">
+	  	<input type="text" name="pregunta" placeholder="Introduce la pregunta">
+	  	<input type="text" name="respuesta1" placeholder="Introduce la respuesta nº1">
+	  	<input type="text" name="respuesta2" placeholder="Introduce la respuesta nº2">
+	  	<input type="text" name="respuesta3" placeholder="Introduce la respuesta nº3">
+	  	<input type="text" name="respuesta4" placeholder="Introduce la respuesta nº4">
+	  	<input type="text" name="respuesta5" placeholder="Introduce la respuesta nº5">
+	  	<input type="text" name="respuesta6" placeholder="Introduce la respuesta nº6">
+	  	<input type="submit">
+	  </form>
+	</body>
+</html>
+```
+
+### guarda preguntas
+<small>Creado: 2026-01-26 14:58</small>
+
+`018-guarda preguntas.php`
+
+```
+<?php
+// ============================================================
+// Reemplazar SIEMPRE preguntas.json con lo enviado (sin tocar HTML)
+// ============================================================
+
+if ($_SERVER["REQUEST_METHOD"] === "POST") {
+
+    $pregunta = trim($_POST["pregunta"] ?? "");
+
+    $respuestas = [
+        trim($_POST["respuesta1"] ?? ""),
+        trim($_POST["respuesta2"] ?? ""),
+        trim($_POST["respuesta3"] ?? ""),
+        trim($_POST["respuesta4"] ?? ""),
+        trim($_POST["respuesta5"] ?? ""),
+        trim($_POST["respuesta6"] ?? "")
+    ];
+
+    // eliminar respuestas vacías
+    $respuestas = array_values(array_filter($respuestas, fn($r) => $r !== ""));
+
+    if ($pregunta !== "" && count($respuestas) > 0) {
+
+        $registro = [
+            "pregunta"   => $pregunta,
+            "respuestas" => $respuestas
+        ];
+
+        $archivo = __DIR__ . "/preguntas.json";
+
+        // REEMPLAZA el archivo (no acumula)
+        file_put_contents(
+            $archivo,
+            json_encode($registro, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT),
+            LOCK_EX
+        );
+    }
+}
+?>
+
+<!doctype html>
+<html lang="es">
+	<head>
+	  <meta charset="utf-8" />
+	  <meta name="viewport" content="width=device-width,initial-scale=1" />
+	  <title>Resultados (CSV)</title>
+	  <style>
+		 html,body{padding:0px;margin:0px;width:100%;height:100%;}
+		 body{display:flex;justify-content:center;align-items:center;font-family:sans-serif;}
+		 form{width:80%;height:80%;display:flex;flex-direction:column;gap:20px;}
+		 input{padding:10px;border:1px solid indigo;border-radius:50px;outline:none;}
+		 input[type=submit]{background:indigo;color:white;border-radius:50px;}
+	  </style>
+	</head>
+	<body>
+	  <form action="?" method="POST">
+	  	<h3>Introduce una nueva pregunta</h3>
+	  	<input type="text" name="pregunta" placeholder="Introduce la pregunta">
+	  	<input type="text" name="respuesta1" placeholder="Introduce la respuesta nº1">
+	  	<input type="text" name="respuesta2" placeholder="Introduce la respuesta nº2">
+	  	<input type="text" name="respuesta3" placeholder="Introduce la respuesta nº3">
+	  	<input type="text" name="respuesta4" placeholder="Introduce la respuesta nº4">
+	  	<input type="text" name="respuesta5" placeholder="Introduce la respuesta nº5">
+	  	<input type="text" name="respuesta6" placeholder="Introduce la respuesta nº6">
+	  	<input type="submit">
+	  </form>
+	</body>
+</html>
+```
+
+### login
+<small>Creado: 2026-01-26 15:01</small>
+
+`019-login.php`
+
+```
+<?php
+// ============================================================
+// Login + sesión (user: jocarsa / pass: jocarsa)
+// + Reemplazar SIEMPRE preguntas.json con lo enviado (sin tocar HTML base)
+// ============================================================
+
+session_start();
+
+// --- credenciales ---
+const LOGIN_USER = "jocarsa";
+const LOGIN_PASS = "jocarsa";
+
+// --- logout ---
+if (isset($_GET["logout"])) {
+    $_SESSION = [];
+    if (ini_get("session.use_cookies")) {
+        $p = session_get_cookie_params();
+        setcookie(session_name(), "", time() - 42000, $p["path"], $p["domain"], $p["secure"], $p["httponly"]);
+    }
+    session_destroy();
+    header("Location: ?");
+    exit;
+}
+
+// --- procesar login ---
+$login_error = "";
+if ($_SERVER["REQUEST_METHOD"] === "POST" && ($_POST["accion"] ?? "") === "login") {
+    $u = trim($_POST["usuario"] ?? "");
+    $p = trim($_POST["password"] ?? "");
+
+    if ($u === LOGIN_USER && $p === LOGIN_PASS) {
+        $_SESSION["auth"] = true;
+        header("Location: ?");
+        exit;
+    } else {
+        $login_error = "Credenciales incorrectas";
+    }
+}
+
+// --- si NO está logueado, mostrar login (minimal) y salir ---
+if (empty($_SESSION["auth"])) {
+    ?>
+    <!doctype html>
+    <html lang="es">
+    <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width,initial-scale=1" />
+      <title>Login</title>
+      <style>
+        html,body{padding:0;margin:0;width:100%;height:100%;}
+        body{display:flex;justify-content:center;align-items:center;font-family:sans-serif;}
+        form{width:80%;max-width:420px;display:flex;flex-direction:column;gap:20px;}
+        input{padding:10px;border:1px solid indigo;border-radius:50px;outline:none;}
+        input[type=submit]{background:indigo;color:white;border-radius:50px;border:none;}
+        .error{color:crimson;text-align:center;}
+      </style>
+    </head>
+    <body>
+      <form action="?" method="POST">
+        <h3>Acceso</h3>
+        <?php if ($login_error): ?><div class="error"><?= htmlspecialchars($login_error) ?></div><?php endif; ?>
+        <input type="hidden" name="accion" value="login">
+        <input type="text" name="usuario" placeholder="Usuario" autocomplete="username" required>
+        <input type="password" name="password" placeholder="Password" autocomplete="current-password" required>
+        <input type="submit" value="Entrar">
+      </form>
+    </body>
+    </html>
+    <?php
+    exit;
+}
+
+// ============================================================
+// Ya logueado: guardar preguntas.json (tu lógica)
+// ============================================================
+
+if ($_SERVER["REQUEST_METHOD"] === "POST" && empty($_POST["accion"])) {
+
+    $pregunta = trim($_POST["pregunta"] ?? "");
+
+    $respuestas = [
+        trim($_POST["respuesta1"] ?? ""),
+        trim($_POST["respuesta2"] ?? ""),
+        trim($_POST["respuesta3"] ?? ""),
+        trim($_POST["respuesta4"] ?? ""),
+        trim($_POST["respuesta5"] ?? ""),
+        trim($_POST["respuesta6"] ?? "")
+    ];
+
+    // eliminar respuestas vacías
+    $respuestas = array_values(array_filter($respuestas, fn($r) => $r !== ""));
+
+    if ($pregunta !== "" && count($respuestas) > 0) {
+
+        $registro = [
+            "pregunta"   => $pregunta,
+            "respuestas" => $respuestas
+        ];
+
+        $archivo = __DIR__ . "/preguntas.json";
+
+        // REEMPLAZA el archivo (no acumula)
+        file_put_contents(
+            $archivo,
+            json_encode($registro, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT),
+            LOCK_EX
+        );
+    }
+}
+?>
+
+<!doctype html>
+<html lang="es">
+	<head>
+	  <meta charset="utf-8" />
+	  <meta name="viewport" content="width=device-width,initial-scale=1" />
+	  <title>Resultados (CSV)</title>
+	  <style>
+		 html,body{padding:0px;margin:0px;width:100%;height:100%;}
+		 body{display:flex;justify-content:center;align-items:center;font-family:sans-serif;}
+		 form{width:80%;height:80%;display:flex;flex-direction:column;gap:20px;}
+		 input{padding:10px;border:1px solid indigo;border-radius:50px;outline:none;}
+		 input[type=submit]{background:indigo;color:white;border-radius:50px;}
+         a.logout{position:fixed;top:10px;right:10px;color:indigo;text-decoration:none;font-weight:bold;}
+	  </style>
+	</head>
+	<body>
+      <a class="logout" href="?logout=1">Salir</a>
+	  <form action="?" method="POST">
+	  	<h3>Introduce una nueva pregunta</h3>
+	  	<input type="text" name="pregunta" placeholder="Introduce la pregunta">
+	  	<input type="text" name="respuesta1" placeholder="Introduce la respuesta nº1">
+	  	<input type="text" name="respuesta2" placeholder="Introduce la respuesta nº2">
+	  	<input type="text" name="respuesta3" placeholder="Introduce la respuesta nº3">
+	  	<input type="text" name="respuesta4" placeholder="Introduce la respuesta nº4">
+	  	<input type="text" name="respuesta5" placeholder="Introduce la respuesta nº5">
+	  	<input type="text" name="respuesta6" placeholder="Introduce la respuesta nº6">
+	  	<input type="submit">
+	  </form>
+	</body>
+</html>
+```
+
+### pregunto a la IA
+<small>Creado: 2026-01-26 15:28</small>
+
+`020-pregunto a la IA.py`
+
+```python
+import requests
+import json
+
+url = "http://localhost:11434/api/generate"
+
+payload = {
+    "model": "qwen2.5-coder:7b",
+    "prompt": "¿Qué es Python?",
+    "stream": False
+}
+
+response = requests.post(url, json=payload)
+
+data = response.json()
+print(data["response"])
+```
+
+### cargo las respuestas en el CSV
+<small>Creado: 2026-01-26 15:34</small>
+
+`021-cargo las respuestas en el CSV.py`
+
+```python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+import requests
+
+# --------------------------------------------------
+# CONFIG
+# --------------------------------------------------
+URL = "http://localhost:11434/api/generate"
+MODEL = "qwen2.5:7b-instruct-q4_0"
+CSV_PATH = "respuestas.csv"
+
+# --------------------------------------------------
+# READ CSV RAW (NO PARSING)
+# --------------------------------------------------
+with open(CSV_PATH, "r", encoding="utf-8") as f:
+    csv_raw = f.read()
+
+# --------------------------------------------------
+# PROMPT
+# --------------------------------------------------
+prompt = f"""
+A continuación tienes el contenido bruto de un archivo CSV llamado respuestas.csv.
+
+NO lo transformes ni lo reinterpretas como código.
+Analízalo conceptualmente.
+
+=== respuestas.csv ===
+{csv_raw}
+=== fin del archivo ===
+
+Petición:
+realiza una evaluación de cada alumno y presenta un informe en formato de terminal de linux
+"""
+
+# --------------------------------------------------
+# REQUEST
+# --------------------------------------------------
+payload = {
+    "model": MODEL,
+    "prompt": prompt,
+    "stream": False
+}
+
+response = requests.post(URL, json=payload)
+data = response.json()
+
+print(data["response"])
+```
+
+### mejoramos el prompt
+<small>Creado: 2026-01-26 15:41</small>
+
+`022-mejoramos el prompt.py`
+
+```python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+import sys
+import csv
+import json
+import requests
+from collections import defaultdict
+
+# --------------------------------------------------
+# CONFIG
+# --------------------------------------------------
+URL = "http://localhost:11434/api/generate"
+
+# Recommended for strict grading:
+#   "gemma2:9b-instruct-q4_0"
+#   "llama3.1:8b-instruct-q4_0"
+MODEL = "gemma2:9b-instruct-q4_0"
+
+CSV_PATH = "respuestas.csv"
+
+OLLAMA_OPTIONS = {
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "num_ctx": 4096,
+}
+
+# --------------------------------------------------
+# ANSWER KEY (THE ONLY TRUTH)
+# Keys must match question text found in the CSV.
+# --------------------------------------------------
+ANSWER_KEY = {
+    "PHP es un lenguaje de:": "Servidor",
+    "Javascript es un lenguaje de": "Cliente",
+    "CSS es un lenguaje de": "Estilo",
+    "HTML es un lenguaje de": "Marcas",
+    "IF es:": "Estructura condicional",
+    "While es una estructura de:": "Bucle",
+}
+
+# --------------------------------------------------
+# READ CSV RAW (NO PARSING FOR LLM)
+# --------------------------------------------------
+try:
+    with open(CSV_PATH, "r", encoding="utf-8") as f:
+        csv_raw = f.read()
+except FileNotFoundError:
+    print(f"ERROR: No existe el archivo: {CSV_PATH}", file=sys.stderr)
+    sys.exit(1)
+
+# --------------------------------------------------
+# LOCAL PARSING (FOR BASE-10 SCORES TABLE)
+#   - Ignores rows with empty name
+#   - Treats names as distinct (case-sensitive) as requested
+#   - Computes score over only questions that exist in ANSWER_KEY
+# --------------------------------------------------
+def compute_scores_base10(csv_path: str, answer_key: dict) -> dict:
+    stats = defaultdict(lambda: {"aciertos": 0, "fallos": 0, "sin_clave": 0})
+
+    with open(csv_path, "r", encoding="utf-8", newline="") as f:
+        reader = csv.reader(f)
+        for row in reader:
+            if not row:
+                continue
+
+            # Expect at least: name, question, answer, options_json
+            # If malformed, skip safely
+            if len(row) < 3:
+                continue
+
+            name = (row[0] or "").strip()
+            question = (row[1] or "").strip()
+            answer = (row[2] or "").strip()
+
+            # Rule: ignore empty-name rows completely
+            if name == "":
+                continue
+
+            if question not in answer_key:
+                stats[name]["sin_clave"] += 1
+                continue
+
+            expected = answer_key[question]
+            if answer == expected:
+                stats[name]["aciertos"] += 1
+            else:
+                stats[name]["fallos"] += 1
+
+    # Convert to base-10 (0..10) using only questions with key
+    results = {}
+    for name, s in stats.items():
+        total_con_clave = s["aciertos"] + s["fallos"]
+        if total_con_clave <= 0:
+            nota10 = None
+        else:
+            nota10 = (s["aciertos"] / total_con_clave) * 10.0
+        results[name] = {
+            **s,
+            "total_con_clave": total_con_clave,
+            "nota_sobre_10": nota10,
+        }
+
+    return results
+
+
+def render_console_table(scores: dict) -> str:
+    # Sort: highest nota first, then name
+    def sort_key(item):
+        name, s = item
+        nota = s["nota_sobre_10"]
+        return (-(nota if nota is not None else -1e9), name)
+
+    rows = []
+    for name, s in sorted(scores.items(), key=sort_key):
+        nota = s["nota_sobre_10"]
+        nota_str = "N/A" if nota is None else f"{nota:.2f}"
+        rows.append([
+            name,
+            str(s["aciertos"]),
+            str(s["fallos"]),
+            str(s["sin_clave"]),
+            str(s["total_con_clave"]),
+            nota_str,
+        ])
+
+    headers = ["Alumno", "OK", "FAIL", "SIN_CLAVE", "TOTAL_CLAVE", "NOTA/10"]
+
+    # column widths
+    cols = list(zip(headers, *rows)) if rows else [headers]
+    widths = [max(len(str(cell)) for cell in col) for col in cols]
+
+    def fmt_row(r):
+        return " | ".join(str(cell).ljust(widths[i]) for i, cell in enumerate(r))
+
+    sep = "-+-".join("-" * w for w in widths)
+
+    out = []
+    out.append(fmt_row(headers))
+    out.append(sep)
+    for r in rows:
+        out.append(fmt_row(r))
+    return "\n".join(out)
+
+
+scores = compute_scores_base10(CSV_PATH, ANSWER_KEY)
+table_txt = render_console_table(scores)
+
+# --------------------------------------------------
+# BUILD PROMPT (HARDENED) FOR THE DETAILED REPORT
+# --------------------------------------------------
+def format_answer_key(key: dict) -> str:
+    return "\n".join([f'- "{q}" -> "{a}"' for q, a in key.items()])
+
+prompt = f"""
+Eres un corrector AUTOMÁTICO. Debes seguir reglas estrictas y NO inventar información.
+
+Tienes el contenido bruto de un CSV (respuestas.csv) con filas con este patrón:
+NOMBRE, PREGUNTA, RESPUESTA, OPCIONES_JSON
+
+REGLAS ESTRICTAS (OBLIGATORIAS):
+1) NO adivines "la respuesta correcta" si no está definida en la CLAVE.
+2) Solo puedes marcar Correcto/Incorrecto comparando con la CLAVE DE RESPUESTAS (única verdad).
+3) Si una fila no tiene nombre (vacío), IGNÓRALA por completo (no cuenta para nadie).
+4) Trata nombres distintos como alumnos distintos: "Javi" != "javier" != "Javier".
+5) Si la pregunta no está en la CLAVE, marca esa fila como "SIN CLAVE" (pero igualmente muéstrala en el alumno).
+6) Por alumno: lista cada pregunta con:
+   - Pregunta
+   - Respuesta dada
+   - Veredicto: OK / FAIL / SIN_CLAVE
+   - Si hay clave: "Esperada: <...>"
+7) FORMATO:
+   - Informe estilo terminal Linux, monoespaciado, claro y sin relleno.
+
+CLAVE DE RESPUESTAS (única verdad):
+{format_answer_key(ANSWER_KEY)}
+
+=== respuestas.csv (BRUTO; NO lo reescribas como código) ===
+{csv_raw}
+=== fin del archivo ===
+
+Genera el informe.
+"""
+
+# --------------------------------------------------
+# REQUEST TO OLLAMA (DETAILED REPORT)
+# --------------------------------------------------
+payload = {
+    "model": MODEL,
+    "prompt": prompt,
+    "stream": False,
+    "options": OLLAMA_OPTIONS,
+}
+
+try:
+    response = requests.post(URL, json=payload, timeout=120)
+except requests.RequestException as e:
+    print(f"ERROR: No se pudo conectar a Ollama en {URL}: {e}", file=sys.stderr)
+    sys.exit(2)
+
+if response.status_code != 200:
+    print(f"ERROR: Ollama devolvió HTTP {response.status_code}\n{response.text}", file=sys.stderr)
+    sys.exit(3)
+
+data = response.json()
+report = data.get("response", "").strip()
+if not report:
+    print("ERROR: Respuesta vacía del modelo.", file=sys.stderr)
+    print(data, file=sys.stderr)
+    sys.exit(4)
+
+# --------------------------------------------------
+# OUTPUT: TABLE + REPORT
+# --------------------------------------------------
+print()
+print("=== TABLA DE NOTAS (0..10) ===")
+print(table_txt)
+print()
+print("=== INFORME DETALLADO ===")
+print(report)
+```
+
+### multiexamen
+<small>Creado: 2026-01-26 15:43</small>
+
+`023-multiexamen.py`
+
+```python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+import sys
+import requests
+
+# --------------------------------------------------
+# CONFIG
+# --------------------------------------------------
+URL = "http://localhost:11434/api/generate"
+
+# Models recommended for reasoning + grading
+# - gemma2:9b-instruct-q4_0
+# - llama3.1:8b-instruct-q4_0
+MODEL = "gemma2:9b-instruct-q4_0"
+
+CSV_PATH = "respuestas.csv"
+
+OLLAMA_OPTIONS = {
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "num_ctx": 4096,
+}
+
+# --------------------------------------------------
+# READ CSV RAW (NO PARSING)
+# --------------------------------------------------
+try:
+    with open(CSV_PATH, "r", encoding="utf-8") as f:
+        csv_raw = f.read()
+except FileNotFoundError:
+    print(f"ERROR: No existe el archivo: {CSV_PATH}", file=sys.stderr)
+    sys.exit(1)
+
+# --------------------------------------------------
+# PROMPT (GENERIC, NO ANSWER KEYS)
+# --------------------------------------------------
+prompt = f"""
+Eres un evaluador AUTOMÁTICO de exámenes de programación e informática.
+
+Dispones del contenido bruto de un archivo CSV llamado respuestas.csv.
+Cada fila sigue este patrón lógico:
+
+NOMBRE, PREGUNTA, RESPUESTA, OPCIONES_JSON
+
+REGLAS ESTRICTAS:
+1) NO asumas claves externas ni respuestas predefinidas.
+2) Evalúa cada respuesta según el conocimiento estándar de programación.
+3) Si una fila NO tiene nombre, ignórala completamente.
+4) Trata los nombres de forma literal (no normalices):
+   "Javi" != "javier" != "Javier".
+5) Evalúa si la respuesta es:
+   - Correcta
+   - Parcialmente correcta
+   - Incorrecta
+6) Usa solo tu conocimiento general de informática y programación.
+
+SALIDA OBLIGATORIA (EN ESTE ORDEN):
+
+1) TABLA RESUMEN (formato terminal Linux):
+   Columnas:
+   - Alumno
+   - Aciertos
+   - Parciales
+   - Fallos
+   - Nota_sobre_10
+
+   La nota sobre 10 se calcula así:
+   - Correcta = 1 punto
+   - Parcial = 0.5 puntos
+   - Incorrecta = 0 puntos
+   - Nota = (puntos_obtenidos / preguntas_totales) * 10
+
+2) INFORME DETALLADO:
+   Para cada alumno:
+   - Lista de preguntas
+   - Respuesta dada
+   - Evaluación (OK / PARCIAL / FAIL)
+   - Breve justificación técnica
+   - Resumen final del alumno
+
+FORMATO:
+- Estilo terminal Linux
+- Texto monoespaciado
+- Sin emojis
+- Sin explicaciones meta
+- Sin referencias al prompt
+
+=== respuestas.csv (BRUTO) ===
+{csv_raw}
+=== fin del archivo ===
+
+Genera ahora la salida completa.
+"""
+
+# --------------------------------------------------
+# REQUEST
+# --------------------------------------------------
+payload = {
+    "model": MODEL,
+    "prompt": prompt,
+    "stream": False,
+    "options": OLLAMA_OPTIONS,
+}
+
+try:
+    response = requests.post(URL, json=payload, timeout=120)
+except requests.RequestException as e:
+    print(f"ERROR: No se pudo conectar a Ollama: {e}", file=sys.stderr)
+    sys.exit(2)
+
+if response.status_code != 200:
+    print(f"ERROR HTTP {response.status_code}\n{response.text}", file=sys.stderr)
+    sys.exit(3)
+
+data = response.json()
+output = data.get("response", "").strip()
+
+if not output:
+    print("ERROR: Respuesta vacía del modelo", file=sys.stderr)
+    print(data, file=sys.stderr)
+    sys.exit(4)
+
+# --------------------------------------------------
+# OUTPUT
+# --------------------------------------------------
+print(output)
+```
+
+### guarda
+<small>Creado: 2026-01-26 14:25</small>
+
+`guarda.php`
+
+```
+<?php
+
+// Recoger datos (con valores por defecto)
+$usuario   = $_GET['usuario']   ?? '';
+$pregunta  = $_GET['pregunta']  ?? '';
+$respuesta = $_GET['respuesta'] ?? '';
+$opciones  = $_GET['opciones']  ?? '[]';
+
+// Decodificar opciones (por si quieres validar)
+$opciones_array = json_decode($opciones, true);
+if (!is_array($opciones_array)) {
+    $opciones_array = [];
+}
+
+// Re-encode limpio para CSV
+$opciones_json = json_encode($opciones_array, JSON_UNESCAPED_UNICODE);
+
+// Abrir CSV en modo append
+$fp = fopen("respuestas.csv", "a");
+
+// Usar fputcsv para evitar problemas con comas, saltos de línea, etc.
+fputcsv($fp, [
+    $usuario,
+    $pregunta,
+    $respuesta,
+    $opciones_json
+]);
+
+fclose($fp);
+```
+
+### preguntas
+<small>Creado: 2026-01-26 14:55</small>
+
+`preguntas.json`
+
+```json
+{
+    "pregunta": "Indica lo que no es una base de datos",
+    "respuestas": [
+        "MySQL",
+        "SQLite",
+        "Python"
+    ]
+}
+```
+
+### respuestas
+<small>Creado: 2026-01-26 15:30</small>
+
+`respuestas.csv`
+
+```
+"Jose Vicente","PHP es un lenguaje de:",Servidor,"[""Cliente"",""Servidor"",""Base de datos""]"
+,"PHP es un lenguaje de:",Servidor,"[""Cliente"",""Servidor"",""Base de datos""]"
+,"Javascript es un lenguaje de",Cliente,"[""Cliente"",""Servidor"",""Bases de datos"",""Estilo""]"
+Javi,"Javascript es un lenguaje de",Servidor,"[""Cliente"",""Servidor"",""Bases de datos"",""Estilo""]"
+"Jose Vicente","Javascript es un lenguaje de",Cliente,"[""Cliente"",""Servidor"",""Bases de datos"",""Estilo""]"
+javier,"CSS es un lenguaje de",Estilo,"[""Cliente"",""Estilo"",""Servidor"",""Marcas""]"
+,"CSS es un lenguaje de",Estilo,"[""Cliente"",""Estilo"",""Servidor"",""Marcas""]"
+"Jose Vicente","CSS es un lenguaje de",Estilo,"[""Cliente"",""Estilo"",""Servidor"",""Marcas""]"
+,"HTML es un lenguaje de",Marcas,"[""Marcas"",""Cliente"",""Servidor"",""Estilo""]"
+javier,"HTML es un lenguaje de",Marcas,"[""Marcas"",""Cliente"",""Servidor"",""Estilo""]"
+"Jose Vicente","HTML es un lenguaje de",Marcas,"[""Marcas"",""Cliente"",""Servidor"",""Estilo""]"
+,"IF es:","Estructura de bucle","[""Estructura condicional"",""Estructura de bucle"",""Estructura de datos"",""Variable""]"
+"Jose Vicente","IF es:","Estructura condicional","[""Estructura condicional"",""Estructura de bucle"",""Estructura de datos"",""Variable""]"
+javier,"IF es:","Estructura condicional","[""Estructura condicional"",""Estructura de bucle"",""Estructura de datos"",""Variable""]"
+javier,"While es una estructura de:","Es una función","[""Bucle"",""Condicional"",""Es una función"",""Es una clase de programación orientada a objetos""]"
+,"While es una estructura de:",Bucle,"[""Bucle"",""Condicional"",""Es una función"",""Es una clase de programación orientada a objetos""]"
+"Jose Vicente","While es una estructura de:",Bucle,"[""Bucle"",""Condicional"",""Es una función"",""Es una clase de programación orientada a objetos""]"
+Diego,"While es una estructura de:",Bucle,"[""Bucle"",""Condicional"",""Es una función"",""Es una clase de programación orientada a objetos""]"
+```
+
 
 <a id="exportacion-de-informacion"></a>
 ## Exportación de información
 
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/007-Sistemas%20de%20gesti%C3%B3n%20empresarial/007-Exportaci%C3%B3n%20de%20informaci%C3%B3n)
+
+### variable server
+<small>Creado: 2026-02-02 14:01</small>
+
+`005-variable server.php`
+
+```
+<?php
+	var_dump($_SERVER);
+?>
+```
+
+### desgranamos foreach
+<small>Creado: 2026-02-02 14:01</small>
+
+`006-desgranamos foreach.php`
+
+```
+<table border=1>
+<?php
+	foreach($_SERVER as $clave=>$valor){
+		echo '<tr><td>'.$clave.'</td><td>'.$valor.'</td></tr>';
+	}
+?>
+</table>
+```
+
+### nos quedamos con lo que me interesa
+<small>Creado: 2026-02-02 14:01</small>
+
+`007-nos quedamos con lo que me interesa.php`
+
+```
+<table border=1>
+<?php
+		echo '<tr><td>HTTP_USER_AGENT</td><td>'.$_SERVER['HTTP_USER_AGENT'].'</td></tr>';
+		echo '<tr><td>HTTP_REFERER</td><td>'.$_SERVER['HTTP_REFERER'].'</td></tr>';
+		
+		echo '<tr><td>HTTP_ACCEPT_LANGUAGE</td><td>'.$_SERVER['HTTP_ACCEPT_LANGUAGE'].'</td></tr>';
+		echo '<tr><td>HTTP_COOKIE</td><td>'.$_SERVER['HTTP_COOKIE'].'</td></tr>';
+		echo '<tr><td>REMOTE_ADDR</td><td>'.$_SERVER['REMOTE_ADDR'].'</td></tr>';
+		echo '<tr><td>REQUEST_URI</td><td>'.$_SERVER['REQUEST_URI'].'</td></tr>';
+		echo '<tr><td>REQUEST_TIME</td><td>'.$_SERVER['REQUEST_TIME'].'</td></tr>';
+?>
+</table>
+```
+
+### guardamos en SQLite
+<small>Creado: 2026-02-02 14:01</small>
+
+`008-guardamos en SQLite.php`
+
+```
+<?php
+	$db = new PDO('sqlite:log.sqlite');
+	$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+	$epoch = $_SERVER['REQUEST_TIME'];
+
+	$dt = new DateTime("@$epoch"); // el @ indica epoch
+	$dt->setTimezone(new DateTimeZone("Europe/Madrid"));
+
+	$fecha =  $dt->format("Y-m-d H:i:s");
+	$sql = "
+		 INSERT INTO logs
+		 VALUES (
+		 	NULL,
+		 	'".$_SERVER['REQUEST_TIME']."',
+		 	'".$_SERVER['HTTP_USER_AGENT']."',
+		 	'".$_SERVER['HTTP_REFERER']."',
+		 	'".$_SERVER['HTTP_ACCEPT_LANGUAGE']."',
+		 	'".$_SERVER['HTTP_COOKIE']."',
+		 	'".$_SERVER['REMOTE_ADDR']."',
+		 	'".$_SERVER['REQUEST_URI']."',
+		 	'".$fecha."'
+		 )
+	";
+
+	$db->exec($sql);
+?>
+```
+
+### leer base de datos
+<small>Creado: 2026-02-02 14:23</small>
+
+`009-leer base de datos.php`
+
+```
+<?php
+$db = new PDO('sqlite:posts.db');
+$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+$sql = "
+	SELECT
+    strftime('%H', \"datetime\") AS hour,
+    COUNT(*) AS visits
+	FROM logs
+	GROUP BY hour
+	ORDER BY hour;
+";
+$stmt = $db->query($sql);
+
+while ($fila = $stmt->fetch(PDO::FETCH_ASSOC)) {
+    var_dump($fila);
+}
+?>
+```
+
+### lo pongo bonito
+<small>Creado: 2026-02-02 14:25</small>
+
+`010-lo pongo bonito.php`
+
+```
+<?php
+$db = new PDO('sqlite:posts.db');
+$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+$sql = "
+	SELECT
+    strftime('%H', \"datetime\") AS hour,
+    COUNT(*) AS visits
+	FROM logs
+	GROUP BY hour
+	ORDER BY hour;
+";
+$stmt = $db->query($sql);
+
+while ($fila = $stmt->fetch(PDO::FETCH_ASSOC)) {
+    echo $fila['hour'].":".$fila['visits']."<br>";
+}
+?>
+```
+
+### grafica muy basica
+<small>Creado: 2026-02-02 14:26</small>
+
+`011-grafica muy basica.php`
+
+```
+<?php
+$db = new PDO('sqlite:posts.db');
+$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+$sql = "
+	SELECT
+    strftime('%H', \"datetime\") AS hour,
+    COUNT(*) AS visits
+	FROM logs
+	GROUP BY hour
+	ORDER BY hour;
+";
+$stmt = $db->query($sql);
+
+while ($fila = $stmt->fetch(PDO::FETCH_ASSOC)) {
+    echo $fila['hour'].":".$fila['visits']." - <span class='barra' style='width:".($fila['visits']/10)."px'></span><br>";
+}
+?>
+<style>
+	.barra{height:10px;background:blue;display:inline-block;}
+</style>
+```
+
+### texto en la barra
+<small>Creado: 2026-02-02 14:29</small>
+
+`012-texto en la barra.php`
+
+```
+<?php
+$db = new PDO('sqlite:posts.db');
+$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+$sql = "
+	SELECT
+    strftime('%H', \"datetime\") AS hour,
+    COUNT(*) AS visits
+	FROM logs
+	GROUP BY hour
+	ORDER BY hour;
+";
+$stmt = $db->query($sql);
+
+while ($fila = $stmt->fetch(PDO::FETCH_ASSOC)) {
+    echo  "<span class='barra' style='width:".($fila['visits']/10)."px'>".$fila['hour'].":".$fila['visits']."</span><br>";
+}
+?>
+<style>
+	.barra{
+		height: 11px;
+		 background: blue;
+		 display: inline-block;
+		 color: white;
+		 font-family: sans-serif;
+		 padding: 5px;
+		 margin: 1px;
+		 border-radius: 50px;
+		 font-size: 10px;
+		 font-weight: bold;
+	}
+</style>
+```
+
+### contenedor y titulo
+<small>Creado: 2026-02-02 14:36</small>
+
+`013-contenedor y titulo.php`
+
+```
+<!doctype html>
+<html>
+	<head>
+		<style>
+			.grafica{
+				display: inline-block;
+				    display: inline-block;
+			 padding: 20px;
+			 border: 1px solid lightgray;
+			 border-radius: 20px;
+			 margin: 20px;	
+			}
+
+			.grafica .contenedor{
+				display: inline-flex;
+				flex-direction: column;
+				
+				width: fit-content;
+			}
+
+			.barra{
+				height: 11px;
+				background: blue;
+				display: inline-flex;
+				align-items: center;
+				color: white;
+				font-family: sans-serif;
+				padding: 5px 8px;
+				margin: 2px 0;
+				border-radius: 50px;
+				font-size: 10px;
+				font-weight: bold;
+				white-space: nowrap;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="grafica">
+			<h3>Visitas por hora</h3>
+			<div class="contenedor">
+				<?php
+				$db = new PDO('sqlite:posts.db');
+				$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+				$sql = "
+					SELECT
+						strftime('%H', \"datetime\") AS hour,
+						COUNT(*) AS visits
+					FROM logs
+					GROUP BY hour
+					ORDER BY hour;
+				";
+				$stmt = $db->query($sql);
+
+				while ($fila = $stmt->fetch(PDO::FETCH_ASSOC)) {
+					echo "<span class='barra' style='width:" . ($fila['visits'] / 10) . "px'>
+							{$fila['hour']}: {$fila['visits']}
+						  </span>";
+				}
+				?>
+			</div>
+		</div>
+	</body>
+</html>
+```
+
+### varias graficas
+<small>Creado: 2026-02-02 14:50</small>
+
+`014-varias graficas.php`
+
+```
+<!doctype html>
+<html>
+	<head>
+		<style>
+			.grafica{
+				display: inline-block;
+				    display: inline-block;
+			 padding: 20px;
+			 border: 1px solid lightgray;
+			 border-radius: 20px;
+			 margin: 20px;	
+			}
+
+			.grafica .contenedor{
+				display: inline-flex;
+				flex-direction: column;
+				
+				width: fit-content;
+			}
+
+			.barra{
+				height: 11px;
+				background: blue;
+				display: inline-flex;
+				align-items: center;
+				color: white;
+				font-family: sans-serif;
+				padding: 5px 8px;
+				margin: 2px 0;
+				border-radius: 50px;
+				font-size: 10px;
+				font-weight: bold;
+				white-space: nowrap;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="grafica">
+			<h3>Visitas por hora</h3>
+			<div class="contenedor">
+				<?php
+				$db = new PDO('sqlite:posts.db');
+				$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+				$sql = "
+					SELECT
+						strftime('%H', \"datetime\") AS hour,
+						COUNT(*) AS visits
+					FROM logs
+					GROUP BY hour
+					ORDER BY hour;
+				";
+				$stmt = $db->query($sql);
+
+				while ($fila = $stmt->fetch(PDO::FETCH_ASSOC)) {
+					echo "<span class='barra' style='width:" . ($fila['visits'] / 10) . "px'>
+							{$fila['hour']}: {$fila['visits']}
+						  </span>";
+				}
+				?>
+			</div>
+		</div>
+		<div class="grafica">
+			<h3>Visitas por dia de la semana</h3>
+			<div class="contenedor">
+				<?php
+				$db = new PDO('sqlite:posts.db');
+				$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+				$sql = "
+					SELECT
+					 CASE strftime('%w', \"datetime\")
+						  WHEN '0' THEN 'Sunday'
+						  WHEN '1' THEN 'Monday'
+						  WHEN '2' THEN 'Tuesday'
+						  WHEN '3' THEN 'Wednesday'
+						  WHEN '4' THEN 'Thursday'
+						  WHEN '5' THEN 'Friday'
+						  WHEN '6' THEN 'Saturday'
+					 END AS weekday,
+					 COUNT(*) AS visits
+				FROM logs
+				GROUP BY strftime('%w', \"datetime\")
+				ORDER BY strftime('%w', \"datetime\");
+				";
+				$stmt = $db->query($sql);
+
+				while ($fila = $stmt->fetch(PDO::FETCH_ASSOC)) {
+					echo "<span class='barra' style='width:" . ($fila['visits'] / 30) . "px'>
+							{$fila['weekday']}: {$fila['visits']}
+						  </span>";
+				}
+				?>
+			</div>
+		</div>
+		<div class="grafica">
+			<h3>Visitas por página</h3>
+			<div class="contenedor">
+				<?php
+				$db = new PDO('sqlite:posts.db');
+				$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+				$sql = "
+					SELECT COUNT(uri) AS numero,uri as pagina
+					FROM logs
+					GROUP BY uri
+					ORDER BY COUNT(uri) DESC
+					LIMIT 10
+				";
+				$stmt = $db->query($sql);
+
+				while ($fila = $stmt->fetch(PDO::FETCH_ASSOC)) {
+					echo "<span class='barra' style='width:" . ($fila['numero'] / 1) . "px'>
+							{$fila['numero']}: {$fila['pagina']}
+						  </span>";
+				}
+				?>
+			</div>
+		</div>
+		
+		
+	</body>
+</html>
+```
+
+### progress
+<small>Creado: 2026-02-02 14:54</small>
+
+`015-progress.php`
+
+```
+<progress value="0.1"></progress><br>
+<progress value="0.1"></progress><br>
+<progress value="0.1"></progress><br>
+<progress value="0.1"></progress><br>
+<progress value="0.1"></progress><br>
+<progress value="0.1"></progress><br>
+<progress value="0.1"></progress><br>
+<style>
+	progress{
+		margin:0px;
+		block-size: 2em;
+    	inline-size: 15em;
+    	vertical-align: -0.1em;
+    }
+</style>
+```
+
+### grafica con progreso
+<small>Creado: 2026-02-02 15:02</small>
+
+`016-grafica con progreso.php`
+
+```
+<!doctype html>
+<html>
+	<head>
+		<style>
+			progress{
+				margin:0px;
+				block-size: 2em;
+			 	inline-size: 15em;
+			 	vertical-align: -0.1em;
+			 	
+			 }
+			/* Chrome / Edge / Safari */
+			progress::-webkit-progress-bar {
+			  background-color: red;
+			  border-radius: 10px;
+			}
+
+			progress::-webkit-progress-value {
+			  background-color: #4caf50;
+			  border-radius: 10px;
+			}
+
+			/* Firefox */
+			progress::-moz-progress-bar {
+			  background-color: #4caf50;
+			  border-radius: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="grafica">
+			<h3>Visitas por hora</h3>
+			<div class="contenedor">
+				<?php
+				$db = new PDO('sqlite:posts.db');
+				$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+				$sql = "
+					SELECT
+						strftime('%H', \"datetime\") AS hour,
+						COUNT(*) AS visits
+						FROM logs
+						GROUP BY hour
+						ORDER BY visits DESC LIMIT 1;
+				";
+				$stmt = $db->query($sql);
+				while ($fila = $stmt->fetch(PDO::FETCH_ASSOC)) {
+					$maximo = $fila['visits'];
+				}
+				
+				$sql = "
+					SELECT
+						strftime('%H', \"datetime\") AS hour,
+						COUNT(*) AS visits
+						FROM logs
+						GROUP BY hour
+						ORDER BY hour;
+				";
+				$stmt = $db->query($sql);
+
+				while ($fila = $stmt->fetch(PDO::FETCH_ASSOC)) {
+					echo $fila['visits']."<progress value='".($fila['visits']/$maximo)."'></progress><br>";
+				}
+				?>
+			</div>
+		</div>
+		
+		
+		
+	</body>
+</html>
+```
+
+### canvas
+<small>Creado: 2026-02-02 15:05</small>
+
+`017-canvas.php`
+
+```
+<!doctype html>
+<html>
+	<head>
+		<style>
+			canvas{border:1px solid grey;}
+		</style>
+	</head>
+	<body>
+		<canvas id="lienzo"></canvas>
+		<script>
+			let lienzo = document.querySelector("canvas")
+			let contexto = lienzo.getContext("2d")
+			
+			lienzo.width = 512
+			lienzo.height = 512
+			// Rectangulo
+			contexto.fillRect(10,10,20,20)
+			// Circulo
+			contexto.beginPath()
+			// arc: ox, oy, radio, ang_inicio, ang_final
+			contexto.arc(200,200,50,0,Math.PI*2)
+			contexto.fill()
+		</script>
+	</body>
+</html>
+```
+
+### grafica estatica
+<small>Creado: 2026-02-02 15:06</small>
+
+`018-grafica estatica.php`
+
+```
+<!doctype html>
+<html>
+	<head>
+		<style>
+		</style>
+	</head>
+	<body>
+		<canvas id="lienzo"></canvas>
+		<script>
+			let lienzo = document.querySelector("canvas")
+			let contexto = lienzo.getContext("2d")
+			
+			lienzo.width = 512
+			lienzo.height = 512
+			
+			contexto.moveTo(0,0)
+			contexto.lineTo(0,512)
+			contexto.lineTo(512,512);
+			contexto.stroke();
+		</script>
+	</body>
+</html>
+```
+
+### contenido de la grafica
+<small>Creado: 2026-02-02 15:08</small>
+
+`019-contenido de la grafica.php`
+
+```
+<!doctype html>
+<html>
+	<head>
+		<style>
+		</style>
+	</head>
+	<body>
+		<canvas id="lienzo"></canvas>
+		<script>
+			let lienzo = document.querySelector("canvas")
+			let contexto = lienzo.getContext("2d")
+			
+			lienzo.width = 512
+			lienzo.height = 512
+			
+			contexto.moveTo(0,0)
+			contexto.lineTo(0,512)
+			contexto.lineTo(512,512);
+			contexto.stroke();
+			
+			for(let i = 0;i<20;i++){
+				contexto.fillRect(i*20,510,17,Math.random()*(-300))
+			}
+		</script>
+	</body>
+</html>
+```
+
+### funcion de grafica
+<small>Creado: 2026-02-02 15:10</small>
+
+`020-funcion de grafica.php`
+
+```
+<!doctype html>
+<html>
+	<head>
+		<style>
+		</style>
+	</head>
+	<body>
+		<canvas id="lienzo"></canvas>
+		<canvas id="lienzo2"></canvas>
+		<script>
+			function grafica(selector,datos){
+				let lienzo = document.querySelector(selector)
+				let contexto = lienzo.getContext("2d")
+				
+				lienzo.width = 512
+				lienzo.height = 512
+				
+				contexto.moveTo(0,0)
+				contexto.lineTo(0,512)
+				contexto.lineTo(512,512);
+				contexto.stroke();
+				
+				for(let i = 0;i<20;i++){
+					contexto.fillRect(i*20,510,17,Math.random()*(-300))
+				}
+			}
+			grafica("#lienzo",0);
+			grafica("#lienzo2",0);
+		</script>
+	</body>
+</html>
+```
+
+### datos
+<small>Creado: 2026-02-02 15:13</small>
+
+`021-datos.php`
+
+```
+<!doctype html>
+<html>
+	<head>
+		<style>
+		</style>
+	</head>
+	<body>
+		<canvas id="lienzo"></canvas>
+		<canvas id="lienzo2"></canvas>
+		<script>
+			function grafica(selector,datos){
+				let lienzo = document.querySelector(selector)
+				let contexto = lienzo.getContext("2d")
+				
+				lienzo.width = 512
+				lienzo.height = 512
+				
+				contexto.moveTo(0,0)
+				contexto.lineTo(0,512)
+				contexto.lineTo(512,512);
+				contexto.stroke();
+				
+				datos.forEach(function(dato,i){
+					contexto.fillRect(i*20,510,17,0-dato.valor)
+				})
+					
+				
+			}
+			grafica("#lienzo",[{'clave':'uno','valor':10},{'clave':'dos','valor':20},{'clave':'tres','valor':30}]);
+		</script>
+	</body>
+</html>
+```
+
+### grafica adaptativa
+<small>Creado: 2026-02-02 15:17</small>
+
+`022-grafica adaptativa.php`
+
+```
+<!doctype html>
+<html>
+	<head>
+		<style>
+		</style>
+	</head>
+	<body>
+		<canvas id="lienzo"></canvas>
+		<canvas id="lienzo2"></canvas>
+		<script>
+			function grafica(selector,datos){
+				let lienzo = document.querySelector(selector)
+				let contexto = lienzo.getContext("2d")
+				
+				lienzo.width = 512
+				lienzo.height = 512
+				
+				contexto.moveTo(0,0)
+				contexto.lineTo(0,512)
+				contexto.lineTo(512,512);
+				contexto.stroke();
+				let longitud = datos.length
+				
+				datos.forEach(function(dato,i){
+					contexto.fillStyle = dato.color;
+					contexto.fillRect((i/longitud)*512,510,(512/longitud-2),0-dato.valor)
+				})
+					
+				
+			}
+			grafica("#lienzo",[
+				{'clave':'uno','valor':10,'color':'red'},
+				{'clave':'dos','valor':20,'color':'blue'},
+				{'clave':'tres','valor':30,'color':'orange'},
+				{'clave':'cuatro','valor':40,'color':'green'}
+				]);
+		</script>
+	</body>
+</html>
+```
+
+### valor maximo
+<small>Creado: 2026-02-02 15:19</small>
+
+`023-valor maximo.php`
+
+```
+<!doctype html>
+<html>
+	<head>
+		<style>
+		</style>
+	</head>
+	<body>
+		<canvas id="lienzo"></canvas>
+		<canvas id="lienzo2"></canvas>
+		<script>
+			function grafica(selector,datos){
+				let max = 0;
+				datos.forEach(function(dato,i){
+					if(dato.valor > max){max = dato.valor;}
+				})
+				let lienzo = document.querySelector(selector)
+				let contexto = lienzo.getContext("2d")
+				
+				lienzo.width = 512
+				lienzo.height = 512
+				
+				contexto.moveTo(0,0)
+				contexto.lineTo(0,512)
+				contexto.lineTo(512,512);
+				contexto.stroke();
+				let longitud = datos.length
+				
+				datos.forEach(function(dato,i){
+					contexto.fillStyle = dato.color;
+					contexto.fillRect((i/longitud)*512,510,(512/longitud-2),0-(dato.valor/max)*510)
+				})
+					
+				
+			}
+			grafica("#lienzo",[
+				{'clave':'uno','valor':10,'color':'red'},
+				{'clave':'dos','valor':20,'color':'blue'},
+				{'clave':'tres','valor':30,'color':'orange'},
+				{'clave':'cuatro','valor':40,'color':'green'},
+				{'clave':'cinco','valor':140,'color':'red'}
+				]);
+		</script>
+	</body>
+</html>
+```
+
+### añadimos texto
+<small>Creado: 2026-02-02 15:22</small>
+
+`024-añadimos texto.php`
+
+```
+<!doctype html>
+<html>
+	<head>
+		<style>
+		</style>
+	</head>
+	<body>
+		<canvas id="lienzo"></canvas>
+		<canvas id="lienzo2"></canvas>
+		<script>
+			function grafica(selector,datos){
+				let max = 0;
+				datos.forEach(function(dato,i){
+					if(dato.valor > max){max = dato.valor;}
+				})
+				let lienzo = document.querySelector(selector)
+				let contexto = lienzo.getContext("2d")
+				
+				lienzo.width = 512
+				lienzo.height = 512
+				
+				contexto.moveTo(0,0)
+				contexto.lineTo(0,512)
+				contexto.lineTo(512,512);
+				contexto.stroke();
+				let longitud = datos.length
+				
+				datos.forEach(function(dato,i){
+					contexto.textAlign = "center"
+					contexto.fillStyle = dato.color;
+					contexto.fillRect((i/longitud)*512,510,(512/longitud-2),0-(dato.valor/max)*510)
+					contexto.fillStyle = "white";
+					contexto.fillText(
+						dato.valor,
+						(i/longitud)*512+(512/longitud-2)/2,
+						500
+						)
+				})
+					
+				
+			}
+			grafica("#lienzo",[
+				{'clave':'uno','valor':10,'color':'red'},
+				{'clave':'dos','valor':20,'color':'blue'},
+				{'clave':'tres','valor':30,'color':'orange'},
+				{'clave':'cuatro','valor':40,'color':'green'},
+				{'clave':'cinco','valor':140,'color':'red'}
+				]);
+		</script>
+	</body>
+</html>
+```
+
+### combinamos con la base de datos
+<small>Creado: 2026-02-02 15:28</small>
+
+`025-combinamos con la base de datos.php`
+
+```
+<?php
+$db = new PDO('sqlite:posts.db');
+$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+$sql = "
+	SELECT
+    strftime('%H', \"datetime\") AS clave,
+    COUNT(*) AS valor
+	FROM logs
+	GROUP BY clave
+	ORDER BY clave;
+";
+$stmt = $db->query($sql);
+$datos = [];
+while ($fila = $stmt->fetch(PDO::FETCH_ASSOC)) {
+    $datos[] = $fila;
+}
+$datos = json_encode($datos);
+
+?>
+
+<!doctype html>
+<html>
+	<head>
+		<style>
+		</style>
+	</head>
+	<body>
+		<canvas id="lienzo"></canvas>
+		<canvas id="lienzo2"></canvas>
+		<script>
+			function grafica(selector,datos){
+				let max = 0;
+				datos.forEach(function(dato,i){
+					if(dato.valor > max){max = dato.valor;}
+				})
+				let lienzo = document.querySelector(selector)
+				let contexto = lienzo.getContext("2d")
+				
+				lienzo.width = 512
+				lienzo.height = 512
+				
+				contexto.moveTo(0,0)
+				contexto.lineTo(0,512)
+				contexto.lineTo(512,512);
+				contexto.stroke();
+				let longitud = datos.length
+				
+				datos.forEach(function(dato,i){
+					contexto.textAlign = "center"
+					if(!dato.color){
+						contexto.fillStyle = "blue";
+					}else{
+						contexto.fillStyle = dato.color;
+					}
+					
+					contexto.fillRect((i/longitud)*512,510,(512/longitud-2),0-(dato.valor/max)*510)
+					contexto.fillStyle = "white";
+					contexto.fillText(
+						dato.valor,
+						(i/longitud)*512+(512/longitud-2)/2,
+						500
+						)
+				})
+					
+				
+			}
+			grafica("#lienzo",<?= $datos ?>);
+		</script>
+	</body>
+</html>
+```
+
+### rotamos texto en barras
+<small>Creado: 2026-02-02 15:29</small>
+
+`026-rotamos texto en barras.php`
+
+```
+<?php
+$db = new PDO('sqlite:posts.db');
+$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+$sql = "
+	SELECT
+    strftime('%H', \"datetime\") AS clave,
+    COUNT(*) AS valor
+	FROM logs
+	GROUP BY clave
+	ORDER BY clave;
+";
+$stmt = $db->query($sql);
+$datos = [];
+while ($fila = $stmt->fetch(PDO::FETCH_ASSOC)) {
+    $datos[] = $fila;
+}
+$datos = json_encode($datos);
+
+?>
+
+<!doctype html>
+<html>
+	<head>
+		<style>
+		</style>
+	</head>
+	<body>
+		<canvas id="lienzo"></canvas>
+		<canvas id="lienzo2"></canvas>
+		<script>
+			
+
+			grafica("#lienzo", <?= $datos ?>);
+		</script>
+
+	</body>
+</html>
+```
+
+### traigo la libreria
+<small>Creado: 2026-02-02 15:34</small>
+
+`027-traigo la libreria.php`
+
+```
+<?php
+$db = new PDO('sqlite:posts.db');
+$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+$sql = "
+	SELECT
+    strftime('%H', \"datetime\") AS clave,
+    COUNT(*) AS valor
+	FROM logs
+	GROUP BY clave
+	ORDER BY clave;
+";
+$stmt = $db->query($sql);
+$datos = [];
+while ($fila = $stmt->fetch(PDO::FETCH_ASSOC)) {
+    $datos[] = $fila;
+}
+$datos = json_encode($datos);
+
+?>
+
+<?php
+$db = new PDO('sqlite:posts.db');
+$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+$sql = "
+	SELECT
+					 CASE strftime('%w', \"datetime\")
+						  WHEN '0' THEN 'Sunday'
+						  WHEN '1' THEN 'Monday'
+						  WHEN '2' THEN 'Tuesday'
+						  WHEN '3' THEN 'Wednesday'
+						  WHEN '4' THEN 'Thursday'
+						  WHEN '5' THEN 'Friday'
+						  WHEN '6' THEN 'Saturday'
+					 END AS clave,
+					 COUNT(*) AS valor
+				FROM logs
+				GROUP BY strftime('%w', \"datetime\")
+				ORDER BY strftime('%w', \"datetime\");
+";
+$stmt = $db->query($sql);
+$datos2 = [];
+while ($fila = $stmt->fetch(PDO::FETCH_ASSOC)) {
+    $datos2[] = $fila;
+}
+$datos2 = json_encode($datos2);
+
+?>
+
+<!doctype html>
+<html>
+	<head>
+		<script src="graficas.js"></script>
+	</head>
+	<body>
+		<canvas id="lienzo"></canvas>
+		<script>grafica("#lienzo", <?= $datos ?>);</script>
+		<canvas id="lienzo2"></canvas>
+		<script>grafica("#lienzo2", <?= $datos2 ?>);</script>
+	</body>
+</html>
+```
+
+### acepto un tercer parametro
+<small>Creado: 2026-02-02 15:42</small>
+
+`028-acepto un tercer parametro.php`
+
+```
+<?php
+$db = new PDO('sqlite:posts.db');
+$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+$sql = "
+	SELECT
+    strftime('%H', \"datetime\") AS clave,
+    COUNT(*) AS valor
+	FROM logs
+	GROUP BY clave
+	ORDER BY clave;
+";
+$stmt = $db->query($sql);
+$datos = [];
+while ($fila = $stmt->fetch(PDO::FETCH_ASSOC)) {
+    $datos[] = $fila;
+}
+$datos = json_encode($datos);
+
+?>
+
+<?php
+$db = new PDO('sqlite:posts.db');
+$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+$sql = "
+	SELECT
+	 CASE strftime('%w', \"datetime\")
+		  WHEN '0' THEN 'Sunday'
+		  WHEN '1' THEN 'Monday'
+		  WHEN '2' THEN 'Tuesday'
+		  WHEN '3' THEN 'Wednesday'
+		  WHEN '4' THEN 'Thursday'
+		  WHEN '5' THEN 'Friday'
+		  WHEN '6' THEN 'Saturday'
+	 END AS clave,
+	 COUNT(*) AS valor
+FROM logs
+GROUP BY strftime('%w', \"datetime\")
+ORDER BY strftime('%w', \"datetime\");
+";
+$stmt = $db->query($sql);
+$datos2 = [];
+while ($fila = $stmt->fetch(PDO::FETCH_ASSOC)) {
+    $datos2[] = $fila;
+}
+$datos2 = json_encode($datos2);
+
+?>
+
+<!doctype html>
+<html>
+	<head>
+		<script src="graficas.js"></script>
+		<style>
+			canvas{padding:20px;border-radius:10px;border:1px solid lightgray;}
+		</style>
+	</head>
+	<body>
+		<canvas id="lienzo"></canvas>
+		<script>grafica("#lienzo", <?= $datos ?>,"Visitas por hora");</script>
+		<canvas id="lienzo2"></canvas>
+		<script>grafica("#lienzo2", <?= $datos2 ?>,"Visitas por día de la semana");</script>
+	</body>
+</html>
+```
+
+### reutilizar php
+<small>Creado: 2026-02-02 15:44</small>
+
+`029-reutilizar php.php`
+
+```
+<?php
+declare(strict_types=1);
+
+/**
+ * Devuelve una conexión PDO a SQLite con ERRMODE_EXCEPTION.
+ */
+function sqlite(string $path): PDO {
+    $db = new PDO('sqlite:' . $path);
+    $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    return $db;
+}
+
+/**
+ * Ejecuta una consulta y devuelve JSON con el formato:
+ * [ { "clave": ..., "valor": ... }, ... ]
+ */
+function consulta_json(PDO $db, string $sql, array $params = []): string {
+    $stmt = $db->prepare($sql);
+    $stmt->execute($params);
+    $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    return json_encode($rows, JSON_UNESCAPED_UNICODE);
+}
+
+$db = sqlite('posts.db');
+
+$sql_por_hora = "
+    SELECT
+        strftime('%H', \"datetime\") AS clave,
+        COUNT(*) AS valor
+    FROM logs
+    GROUP BY clave
+    ORDER BY clave;
+";
+
+$sql_por_dia_semana = "
+    SELECT
+        CASE strftime('%w', \"datetime\")
+            WHEN '0' THEN 'Sunday'
+            WHEN '1' THEN 'Monday'
+            WHEN '2' THEN 'Tuesday'
+            WHEN '3' THEN 'Wednesday'
+            WHEN '4' THEN 'Thursday'
+            WHEN '5' THEN 'Friday'
+            WHEN '6' THEN 'Saturday'
+        END AS clave,
+        COUNT(*) AS valor
+    FROM logs
+    GROUP BY strftime('%w', \"datetime\")
+    ORDER BY strftime('%w', \"datetime\");
+";
+
+?>
+<!doctype html>
+<html>
+  <head>
+    <script src="graficas.js"></script>
+    <style>
+      canvas{padding:20px;border-radius:10px;border:1px solid lightgray;}
+    </style>
+  </head>
+  <body>
+    <canvas id="lienzo"></canvas>
+    <script>grafica("#lienzo", <?= consulta_json($db, $sql_por_hora) ?>, "Visitas por hora");</script>
+
+    <canvas id="lienzo2"></canvas>
+    <script>grafica("#lienzo2", <?= consulta_json($db, $sql_por_dia_semana) ?>, "Visitas por día de la semana");</script>
+  </body>
+</html>
+```
+
+### completamos panel de control
+<small>Creado: 2026-02-02 15:51</small>
+
+`030-completamos panel de control.php`
+
+```
+<?php
+declare(strict_types=1);
+
+/**
+ * PDO SQLite
+ */
+function sqlite(string $path): PDO {
+    $db = new PDO('sqlite:' . $path);
+    $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    return $db;
+}
+
+/**
+ * Query -> JSON [{clave, valor}, ...]
+ */
+function consulta_json(PDO $db, string $sql, array $params = []): string {
+    $stmt = $db->prepare($sql);
+    $stmt->execute($params);
+    $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    return json_encode($rows, JSON_UNESCAPED_UNICODE);
+}
+
+/**
+ * Build WHERE clause + params from GET filters
+ */
+function build_filters(): array {
+    $w = [];
+    $p = [];
+
+    // Date range (inclusive)
+    $from = isset($_GET['from']) ? trim((string)$_GET['from']) : '';
+    $to   = isset($_GET['to'])   ? trim((string)$_GET['to'])   : '';
+
+    if ($from !== '') {
+        // from 00:00:00
+        $w[] = "\"datetime\" >= :from";
+        $p[':from'] = $from . ' 00:00:00';
+    }
+    if ($to !== '') {
+        // to 23:59:59
+        $w[] = "\"datetime\" <= :to";
+        $p[':to'] = $to . ' 23:59:59';
+    }
+
+    // Basic dimensions
+    $event_type = isset($_GET['event_type']) ? trim((string)$_GET['event_type']) : '';
+    if ($event_type !== '') {
+        $w[] = "event_type = :event_type";
+        $p[':event_type'] = $event_type;
+    }
+
+    $post_id = isset($_GET['post_id']) ? trim((string)$_GET['post_id']) : '';
+    if ($post_id !== '' && ctype_digit($post_id)) {
+        $w[] = "post_id = :post_id";
+        $p[':post_id'] = (int)$post_id;
+    }
+
+    $category = isset($_GET['category']) ? trim((string)$_GET['category']) : '';
+    if ($category !== '') {
+        $w[] = "category = :category";
+        $p[':category'] = $category;
+    }
+
+    $host = isset($_GET['host']) ? trim((string)$_GET['host']) : '';
+    if ($host !== '') {
+        $w[] = "host = :host";
+        $p[':host'] = $host;
+    }
+
+    // Exclude bots (basic heuristics)
+    $exclude_bots = isset($_GET['exclude_bots']) ? trim((string)$_GET['exclude_bots']) : '';
+    if ($exclude_bots === '1') {
+        $w[] = "NOT (
+            lower(user_agent) LIKE '%bot%' OR
+            lower(user_agent) LIKE '%spider%' OR
+            lower(user_agent) LIKE '%crawl%' OR
+            lower(user_agent) LIKE '%slurp%' OR
+            lower(user_agent) LIKE '%facebookexternalhit%' OR
+            lower(user_agent) LIKE '%linkedinbot%' OR
+            lower(user_agent) LIKE '%whatsapp%' OR
+            lower(user_agent) LIKE '%telegram%' OR
+            lower(user_agent) LIKE '%preview%'
+        )";
+    }
+
+    $where_sql = (count($w) > 0) ? ('WHERE ' . implode(' AND ', $w)) : '';
+    return [$where_sql, $p];
+}
+
+$db = sqlite('posts.db');
+[$WHERE, $PARAMS] = build_filters();
+
+/**
+ * Helper: extract "domain" from referer in SQLite (best effort).
+ * - If referer empty -> '(direct)'
+ * - If referer contains '://' -> take host part until next '/'
+ */
+$REFERER_DOMAIN_EXPR = "
+CASE
+  WHEN referer IS NULL OR trim(referer) = '' THEN '(direct)'
+  WHEN instr(referer, '://') > 0 THEN
+    CASE
+      WHEN instr(substr(referer, instr(referer, '://') + 3), '/') > 0 THEN
+        substr(
+          substr(referer, instr(referer, '://') + 3),
+          1,
+          instr(substr(referer, instr(referer, '://') + 3), '/') - 1
+        )
+      ELSE
+        substr(referer, instr(referer, '://') + 3)
+    END
+  ELSE
+    -- no scheme, try up to first '/'
+    CASE
+      WHEN instr(referer, '/') > 0 THEN substr(referer, 1, instr(referer, '/') - 1)
+      ELSE referer
+    END
+END
+";
+
+/**
+ * Helper: classify UA (rough)
+ */
+$UA_CLASS_EXPR = "
+CASE
+  WHEN user_agent IS NULL OR trim(user_agent) = '' THEN '(empty)'
+  WHEN lower(user_agent) LIKE '%facebookexternalhit%' THEN 'Facebook crawler'
+  WHEN lower(user_agent) LIKE '%linkedinbot%' THEN 'LinkedIn bot'
+  WHEN lower(user_agent) LIKE '%twitterbot%' THEN 'Twitter bot'
+  WHEN lower(user_agent) LIKE '%telegram%' THEN 'Telegram'
+  WHEN lower(user_agent) LIKE '%whatsapp%' THEN 'WhatsApp'
+  WHEN lower(user_agent) LIKE '%bot%' OR lower(user_agent) LIKE '%spider%' OR lower(user_agent) LIKE '%crawl%' THEN 'Other bot'
+  WHEN lower(user_agent) LIKE '%android%' THEN 'Android'
+  WHEN lower(user_agent) LIKE '%iphone%' OR lower(user_agent) LIKE '%ipad%' OR lower(user_agent) LIKE '%ios%' THEN 'iOS'
+  WHEN lower(user_agent) LIKE '%windows%' THEN 'Windows'
+  WHEN lower(user_agent) LIKE '%mac os%' OR lower(user_agent) LIKE '%macintosh%' THEN 'macOS'
+  WHEN lower(user_agent) LIKE '%linux%' THEN 'Linux'
+  ELSE 'Other'
+END
+";
+
+/**
+ * Charts catalog:
+ * id => canvas id
+ * title => chart title
+ * sql => query returning {clave, valor}
+ */
+$charts = [
+
+    // --- TIME ---
+    [
+        'id' => 'c_hour',
+        'title' => 'Visitas por hora (00-23)',
+        'sql' => "
+            SELECT strftime('%H', \"datetime\") AS clave, COUNT(*) AS valor
+            FROM logs
+            $WHERE
+            GROUP BY clave
+            ORDER BY clave;
+        ",
+    ],
+    [
+        'id' => 'c_weekday',
+        'title' => 'Visitas por día de la semana',
+        'sql' => "
+            SELECT
+              CASE strftime('%w', \"datetime\")
+                WHEN '0' THEN 'Sunday'
+                WHEN '1' THEN 'Monday'
+                WHEN '2' THEN 'Tuesday'
+                WHEN '3' THEN 'Wednesday'
+                WHEN '4' THEN 'Thursday'
+                WHEN '5' THEN 'Friday'
+                WHEN '6' THEN 'Saturday'
+              END AS clave,
+              COUNT(*) AS valor
+            FROM logs
+            $WHERE
+            GROUP BY strftime('%w', \"datetime\")
+            ORDER BY strftime('%w', \"datetime\");
+        ",
+    ],
+    [
+        'id' => 'c_day',
+        'title' => 'Visitas por día (YYYY-MM-DD)',
+        'sql' => "
+            SELECT strftime('%Y-%m-%d', \"datetime\") AS clave, COUNT(*) AS valor
+            FROM logs
+            $WHERE
+            GROUP BY clave
+            ORDER BY clave;
+        ",
+    ],
+    [
+        'id' => 'c_month',
+        'title' => 'Visitas por mes (YYYY-MM)',
+        'sql' => "
+            SELECT strftime('%Y-%m', \"datetime\") AS clave, COUNT(*) AS valor
+            FROM logs
+            $WHERE
+            GROUP BY clave
+            ORDER BY clave;
+        ",
+    ],
+    [
+        'id' => 'c_year',
+        'title' => 'Visitas por año (YYYY)',
+        'sql' => "
+            SELECT strftime('%Y', \"datetime\") AS clave, COUNT(*) AS valor
+            FROM logs
+            $WHERE
+            GROUP BY clave
+            ORDER BY clave;
+        ",
+    ],
+
+    // --- EVENT TYPE ---
+    [
+        'id' => 'c_event_type',
+        'title' => 'Eventos por tipo (event_type)',
+        'sql' => "
+            SELECT COALESCE(event_type, '(null)') AS clave, COUNT(*) AS valor
+            FROM logs
+            $WHERE
+            GROUP BY clave
+            ORDER BY valor DESC;
+        ",
+    ],
+    [
+        'id' => 'c_event_type_hour',
+        'title' => 'Eventos por hora (filtrable por event_type)',
+        'sql' => "
+            SELECT strftime('%H', \"datetime\") AS clave, COUNT(*) AS valor
+            FROM logs
+            $WHERE
+            GROUP BY clave
+            ORDER BY clave;
+        ",
+    ],
+
+    // --- CONTENT / POSTS ---
+    [
+        'id' => 'c_top_posts',
+        'title' => 'Top posts por eventos (post_id)',
+        'sql' => "
+            SELECT CAST(post_id AS TEXT) AS clave, COUNT(*) AS valor
+            FROM logs
+            $WHERE
+            GROUP BY post_id
+            ORDER BY valor DESC
+            LIMIT 30;
+        ",
+    ],
+    [
+        'id' => 'c_top_posts_views',
+        'title' => 'Top posts (solo views)',
+        'sql' => "
+            SELECT CAST(post_id AS TEXT) AS clave, COUNT(*) AS valor
+            FROM logs
+            " . (trim($WHERE) === '' ? "WHERE event_type='view'" : $WHERE . " AND event_type='view'") . "
+            GROUP BY post_id
+            ORDER BY valor DESC
+            LIMIT 30;
+        ",
+    ],
+    [
+        'id' => 'c_top_posts_clicks',
+        'title' => 'Top posts (solo clicks)',
+        'sql' => "
+            SELECT CAST(post_id AS TEXT) AS clave, COUNT(*) AS valor
+            FROM logs
+            " . (trim($WHERE) === '' ? "WHERE event_type='click'" : $WHERE . " AND event_type='click'") . "
+            GROUP BY post_id
+            ORDER BY valor DESC
+            LIMIT 30;
+        ",
+    ],
+    [
+        'id' => 'c_category',
+        'title' => 'Eventos por categoría',
+        'sql' => "
+            SELECT COALESCE(category, '(none)') AS clave, COUNT(*) AS valor
+            FROM logs
+            $WHERE
+            GROUP BY clave
+            ORDER BY valor DESC
+            LIMIT 30;
+        ",
+    ],
+
+    // --- TRAFFIC SOURCES ---
+    [
+        'id' => 'c_referer_domain',
+        'title' => 'Referer por dominio (top 30)',
+        'sql' => "
+            SELECT $REFERER_DOMAIN_EXPR AS clave, COUNT(*) AS valor
+            FROM logs
+            $WHERE
+            GROUP BY clave
+            ORDER BY valor DESC
+            LIMIT 30;
+        ",
+    ],
+    [
+        'id' => 'c_referer_full',
+        'title' => 'Referer completo (top 30)',
+        'sql' => "
+            SELECT COALESCE(referer, '(null)') AS clave, COUNT(*) AS valor
+            FROM logs
+            $WHERE
+            GROUP BY clave
+            ORDER BY valor DESC
+            LIMIT 30;
+        ",
+    ],
+
+    // --- TECH / CLIENT ---
+    [
+        'id' => 'c_method',
+        'title' => 'Método HTTP (GET/POST/...)',
+        'sql' => "
+            SELECT COALESCE(method, '(none)') AS clave, COUNT(*) AS valor
+            FROM logs
+            $WHERE
+            GROUP BY clave
+            ORDER BY valor DESC;
+        ",
+    ],
+    [
+        'id' => 'c_https',
+        'title' => 'HTTPS on/off',
+        'sql' => "
+            SELECT
+              CASE
+                WHEN https IS NULL OR trim(https) = '' THEN '(empty)'
+                ELSE https
+              END AS clave,
+              COUNT(*) AS valor
+            FROM logs
+            $WHERE
+            GROUP BY clave
+            ORDER BY valor DESC;
+        ",
+    ],
+    [
+        'id' => 'c_host',
+        'title' => 'Host (top 30)',
+        'sql' => "
+            SELECT COALESCE(host, '(none)') AS clave, COUNT(*) AS valor
+            FROM logs
+            $WHERE
+            GROUP BY clave
+            ORDER BY valor DESC
+            LIMIT 30;
+        ",
+    ],
+    [
+        'id' => 'c_server_name',
+        'title' => 'Server name (top 30)',
+        'sql' => "
+            SELECT COALESCE(server_name, '(none)') AS clave, COUNT(*) AS valor
+            FROM logs
+            $WHERE
+            GROUP BY clave
+            ORDER BY valor DESC
+            LIMIT 30;
+        ",
+    ],
+    [
+        'id' => 'c_accept_language',
+        'title' => 'Accept-Language (top 30)',
+        'sql' => "
+            SELECT
+              CASE
+                WHEN accept_language IS NULL OR trim(accept_language) = '' THEN '(empty)'
+                ELSE accept_language
+              END AS clave,
+              COUNT(*) AS valor
+            FROM logs
+            $WHERE
+            GROUP BY clave
+            ORDER BY valor DESC
+            LIMIT 30;
+        ",
+    ],
+    [
+        'id' => 'c_user_agent_class',
+        'title' => 'Clasificación de User-Agent',
+        'sql' => "
+            SELECT $UA_CLASS_EXPR AS clave, COUNT(*) AS valor
+            FROM logs
+            $WHERE
+            GROUP BY clave
+            ORDER BY valor DESC;
+        ",
+    ],
+    [
+        'id' => 'c_user_agent_top',
+        'title' => 'User-Agent completo (top 20)',
+        'sql' => "
+            SELECT
+              CASE
+                WHEN user_agent IS NULL OR trim(user_agent) = '' THEN '(empty)'
+                ELSE user_agent
+              END AS clave,
+              COUNT(*) AS valor
+            FROM logs
+            $WHERE
+            GROUP BY clave
+            ORDER BY valor DESC
+            LIMIT 20;
+        ",
+    ],
+
+    // --- URL / ROUTES ---
+    [
+        'id' => 'c_uri_top',
+        'title' => 'URI (top 30)',
+        'sql' => "
+            SELECT COALESCE(uri, '(none)') AS clave, COUNT(*) AS valor
+            FROM logs
+            $WHERE
+            GROUP BY clave
+            ORDER BY valor DESC
+            LIMIT 30;
+        ",
+    ],
+    [
+        'id' => 'c_url_top',
+        'title' => 'URL (top 30)',
+        'sql' => "
+            SELECT COALESCE(url, '(none)') AS clave, COUNT(*) AS valor
+            FROM logs
+            $WHERE
+            GROUP BY clave
+            ORDER BY valor DESC
+            LIMIT 30;
+        ",
+    ],
+    [
+        'id' => 'c_query_string_top',
+        'title' => 'Query string (top 30)',
+        'sql' => "
+            SELECT
+              CASE
+                WHEN query_string IS NULL OR trim(query_string) = '' THEN '(none)'
+                ELSE query_string
+              END AS clave,
+              COUNT(*) AS valor
+            FROM logs
+            $WHERE
+            GROUP BY clave
+            ORDER BY valor DESC
+            LIMIT 30;
+        ",
+    ],
+
+    // --- SEARCH / INTERNAL ---
+    [
+        'id' => 'c_search_query',
+        'title' => 'Búsquedas internas (search_query top 30)',
+        'sql' => "
+            SELECT
+              CASE
+                WHEN search_query IS NULL OR trim(search_query) = '' THEN '(none)'
+                ELSE search_query
+              END AS clave,
+              COUNT(*) AS valor
+            FROM logs
+            $WHERE
+            GROUP BY clave
+            ORDER BY valor DESC
+            LIMIT 30;
+        ",
+    ],
+
+    // --- USERS / SESSIONS ---
+    [
+        'id' => 'c_unique_ips_daily',
+        'title' => 'IPs únicas por día',
+        'sql' => "
+            SELECT strftime('%Y-%m-%d', \"datetime\") AS clave, COUNT(DISTINCT ip) AS valor
+            FROM logs
+            $WHERE
+            GROUP BY clave
+            ORDER BY clave;
+        ",
+    ],
+    [
+        'id' => 'c_top_ips',
+        'title' => 'Top IPs por eventos (top 30)',
+        'sql' => "
+            SELECT COALESCE(ip, '(none)') AS clave, COUNT(*) AS valor
+            FROM logs
+            $WHERE
+            GROUP BY clave
+            ORDER BY valor DESC
+            LIMIT 30;
+        ",
+    ],
+    [
+        'id' => 'c_sessions_top',
+        'title' => 'Top session_id por eventos (top 30)',
+        'sql' => "
+            SELECT
+              CASE
+                WHEN session_id IS NULL OR trim(session_id) = '' THEN '(none)'
+                ELSE session_id
+              END AS clave,
+              COUNT(*) AS valor
+            FROM logs
+            $WHERE
+            GROUP BY clave
+            ORDER BY valor DESC
+            LIMIT 30;
+        ",
+    ],
+    [
+        'id' => 'c_unique_sessions_daily',
+        'title' => 'Sesiones únicas por día',
+        'sql' => "
+            SELECT strftime('%Y-%m-%d', \"datetime\") AS clave, COUNT(DISTINCT session_id) AS valor
+            FROM logs
+            $WHERE
+            GROUP BY clave
+            ORDER BY clave;
+        ",
+    ],
+
+    // --- NETWORK ---
+    [
+        'id' => 'c_remote_port',
+        'title' => 'Remote port (top 30)',
+        'sql' => "
+            SELECT
+              CASE
+                WHEN remote_port IS NULL OR trim(remote_port) = '' THEN '(none)'
+                ELSE CAST(remote_port AS TEXT)
+              END AS clave,
+              COUNT(*) AS valor
+            FROM logs
+            $WHERE
+            GROUP BY clave
+            ORDER BY valor DESC
+            LIMIT 30;
+        ",
+    ],
+];
+
+// Basic page metadata
+function h(string $s): string { return htmlspecialchars($s, ENT_QUOTES, 'UTF-8'); }
+
+$activeFilters = [];
+foreach (['from','to','event_type','post_id','category','host','exclude_bots'] as $k) {
+    if (isset($_GET[$k]) && trim((string)$_GET[$k]) !== '') {
+        $activeFilters[] = $k . '=' . (string)$_GET[$k];
+    }
+}
+$filtersLine = (count($activeFilters) > 0) ? implode('&', $activeFilters) : '(none)';
+
+?>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Analytics</title>
+  <script src="graficas.js"></script>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;margin:20px;}
+    .meta{color:#555;margin-bottom:16px;font-size:14px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(520px,1fr));gap:18px;}
+    .card{border:1px solid #e6e6e6;border-radius:12px;padding:14px;}
+    .card h3{margin:0 0 10px 0;font-size:16px;font-weight:600;}
+    canvas{width:100%;border:1px solid #eee;border-radius:10px;}
+    .filters{border:1px solid #e6e6e6;border-radius:12px;padding:14px;margin-bottom:18px;}
+    .filters form{display:flex;flex-wrap:wrap;gap:10px;align-items:end}
+    .filters label{display:flex;flex-direction:column;font-size:12px;color:#555}
+    .filters input{padding:8px 10px;border:1px solid #ddd;border-radius:8px;min-width:150px}
+    .filters button{padding:10px 14px;border:0;border-radius:10px;background:#111;color:#fff;cursor:pointer}
+    .filters a{font-size:12px;color:#111;text-decoration:none}
+  </style>
+</head>
+<body>
+
+  <div class="filters">
+    <form method="get">
+      <label>from (YYYY-MM-DD)
+        <input name="from" value="<?= h((string)($_GET['from'] ?? '')) ?>" placeholder="2025-12-01">
+      </label>
+      <label>to (YYYY-MM-DD)
+        <input name="to" value="<?= h((string)($_GET['to'] ?? '')) ?>" placeholder="2025-12-31">
+      </label>
+      <label>event_type
+        <input name="event_type" value="<?= h((string)($_GET['event_type'] ?? '')) ?>" placeholder="view / click">
+      </label>
+      <label>post_id
+        <input name="post_id" value="<?= h((string)($_GET['post_id'] ?? '')) ?>" placeholder="1459">
+      </label>
+      <label>category
+        <input name="category" value="<?= h((string)($_GET['category'] ?? '')) ?>" placeholder="">
+      </label>
+      <label>host
+        <input name="host" value="<?= h((string)($_GET['host'] ?? '')) ?>" placeholder="josevicentecarratala.com">
+      </label>
+      <label>exclude_bots (1/empty)
+        <input name="exclude_bots" value="<?= h((string)($_GET['exclude_bots'] ?? '')) ?>" placeholder="1">
+      </label>
+      <button type="submit">Apply</button>
+      <a href="<?= h(strtok((string)($_SERVER['REQUEST_URI'] ?? ''), '?')) ?>">Reset</a>
+    </form>
+    <div class="meta">Active filters: <?= h($filtersLine) ?></div>
+  </div>
+
+  <div class="grid">
+    <?php foreach ($charts as $ch): ?>
+      <div class="card">
+        <h3><?= h($ch['title']) ?></h3>
+        <canvas id="<?= h($ch['id']) ?>"></canvas>
+        <script>
+          grafica(
+            "#<?= h($ch['id']) ?>",
+            <?= consulta_json($db, $ch['sql'], $PARAMS) ?>,
+            "<?= h($ch['title']) ?>"
+          );
+        </script>
+      </div>
+    <?php endforeach; ?>
+  </div>
+
+</body>
+</html>
+```
+
+### super panel
+<small>Creado: 2026-02-02 16:23</small>
+
+`031-super panel.php`
+
+```
+<?php
+declare(strict_types=1);
+
+/**
+ * PDO SQLite
+ */
+function sqlite(string $path): PDO {
+    $db = new PDO('sqlite:' . $path);
+    $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    return $db;
+}
+
+/**
+ * Query -> array rows
+ */
+function consulta_array(PDO $db, string $sql, array $params = []): array {
+    $stmt = $db->prepare($sql);
+    $stmt->execute($params);
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
+}
+
+/**
+ * Query -> JSON
+ */
+function consulta_json(PDO $db, string $sql, array $params = []): string {
+    return json_encode(consulta_array($db, $sql, $params), JSON_UNESCAPED_UNICODE);
+}
+
+/**
+ * Build WHERE clause + params from GET filters
+ */
+function build_filters(): array {
+    $w = [];
+    $p = [];
+
+    // Date range (inclusive)
+    $from = isset($_GET['from']) ? trim((string)$_GET['from']) : '';
+    $to   = isset($_GET['to'])   ? trim((string)$_GET['to'])   : '';
+
+    if ($from !== '') {
+        $w[] = "\"datetime\" >= :from";
+        $p[':from'] = $from . ' 00:00:00';
+    }
+    if ($to !== '') {
+        $w[] = "\"datetime\" <= :to";
+        $p[':to'] = $to . ' 23:59:59';
+    }
+
+    $event_type = isset($_GET['event_type']) ? trim((string)$_GET['event_type']) : '';
+    if ($event_type !== '') {
+        $w[] = "event_type = :event_type";
+        $p[':event_type'] = $event_type;
+    }
+
+    $post_id = isset($_GET['post_id']) ? trim((string)$_GET['post_id']) : '';
+    if ($post_id !== '' && ctype_digit($post_id)) {
+        $w[] = "post_id = :post_id";
+        $p[':post_id'] = (int)$post_id;
+    }
+
+    $category = isset($_GET['category']) ? trim((string)$_GET['category']) : '';
+    if ($category !== '') {
+        $w[] = "category = :category";
+        $p[':category'] = $category;
+    }
+
+    $host = isset($_GET['host']) ? trim((string)$_GET['host']) : '';
+    if ($host !== '') {
+        $w[] = "host = :host";
+        $p[':host'] = $host;
+    }
+
+    // Exclude bots (basic heuristics)
+    $exclude_bots = isset($_GET['exclude_bots']) ? trim((string)$_GET['exclude_bots']) : '';
+    if ($exclude_bots === '1') {
+        $w[] = "NOT (
+            lower(user_agent) LIKE '%bot%' OR
+            lower(user_agent) LIKE '%spider%' OR
+            lower(user_agent) LIKE '%crawl%' OR
+            lower(user_agent) LIKE '%slurp%' OR
+            lower(user_agent) LIKE '%facebookexternalhit%' OR
+            lower(user_agent) LIKE '%linkedinbot%' OR
+            lower(user_agent) LIKE '%whatsapp%' OR
+            lower(user_agent) LIKE '%telegram%' OR
+            lower(user_agent) LIKE '%preview%'
+        )";
+    }
+
+    $where_sql = (count($w) > 0) ? ('WHERE ' . implode(' AND ', $w)) : '';
+    return [$where_sql, $p];
+}
+
+/**
+ * Escape
+ */
+function h(string $s): string { return htmlspecialchars($s, ENT_QUOTES, 'UTF-8'); }
+
+/**
+ * Best-effort domain from referer
+ */
+$REFERER_DOMAIN_EXPR = "
+CASE
+  WHEN referer IS NULL OR trim(referer) = '' THEN '(direct)'
+  WHEN instr(referer, '://') > 0 THEN
+    CASE
+      WHEN instr(substr(referer, instr(referer, '://') + 3), '/') > 0 THEN
+        substr(
+          substr(referer, instr(referer, '://') + 3),
+          1,
+          instr(substr(referer, instr(referer, '://') + 3), '/') - 1
+        )
+      ELSE
+        substr(referer, instr(referer, '://') + 3)
+    END
+  ELSE
+    CASE
+      WHEN instr(referer, '/') > 0 THEN substr(referer, 1, instr(referer, '/') - 1)
+      ELSE referer
+    END
+END
+";
+
+/**
+ * UA class
+ */
+$UA_CLASS_EXPR = "
+CASE
+  WHEN user_agent IS NULL OR trim(user_agent) = '' THEN '(empty)'
+  WHEN lower(user_agent) LIKE '%facebookexternalhit%' THEN 'Facebook crawler'
+  WHEN lower(user_agent) LIKE '%linkedinbot%' THEN 'LinkedIn bot'
+  WHEN lower(user_agent) LIKE '%twitterbot%' THEN 'Twitter bot'
+  WHEN lower(user_agent) LIKE '%telegram%' THEN 'Telegram'
+  WHEN lower(user_agent) LIKE '%whatsapp%' THEN 'WhatsApp'
+  WHEN lower(user_agent) LIKE '%bot%' OR lower(user_agent) LIKE '%spider%' OR lower(user_agent) LIKE '%crawl%' THEN 'Other bot'
+  WHEN lower(user_agent) LIKE '%android%' THEN 'Android'
+  WHEN lower(user_agent) LIKE '%iphone%' OR lower(user_agent) LIKE '%ipad%' OR lower(user_agent) LIKE '%ios%' THEN 'iOS'
+  WHEN lower(user_agent) LIKE '%windows%' THEN 'Windows'
+  WHEN lower(user_agent) LIKE '%mac os%' OR lower(user_agent) LIKE '%macintosh%' THEN 'macOS'
+  WHEN lower(user_agent) LIKE '%linux%' THEN 'Linux'
+  ELSE 'Other'
+END
+";
+
+$db = sqlite('posts.db');
+[$WHERE, $PARAMS] = build_filters();
+
+// KPIs (respect filters)
+$kpi_total = (int)(consulta_array($db, "SELECT COUNT(*) AS n FROM logs $WHERE", $PARAMS)[0]['n'] ?? 0);
+$kpi_ips   = (int)(consulta_array($db, "SELECT COUNT(DISTINCT ip) AS n FROM logs $WHERE", $PARAMS)[0]['n'] ?? 0);
+$kpi_sess  = (int)(consulta_array($db, "SELECT COUNT(DISTINCT session_id) AS n FROM logs $WHERE", $PARAMS)[0]['n'] ?? 0);
+
+// views/clicks as KPIs (respect filters but force type AND conditions)
+$WHERE_VIEW  = (trim($WHERE) === '') ? "WHERE event_type='view'"  : ($WHERE . " AND event_type='view'");
+$WHERE_CLICK = (trim($WHERE) === '') ? "WHERE event_type='click'" : ($WHERE . " AND event_type='click'");
+
+$kpi_views  = (int)(consulta_array($db, "SELECT COUNT(*) AS n FROM logs $WHERE_VIEW", $PARAMS)[0]['n'] ?? 0);
+$kpi_clicks = (int)(consulta_array($db, "SELECT COUNT(*) AS n FROM logs $WHERE_CLICK", $PARAMS)[0]['n'] ?? 0);
+
+// Active filter line
+$activeFilters = [];
+foreach (['from','to','event_type','post_id','category','host','exclude_bots'] as $k) {
+    if (isset($_GET[$k]) && trim((string)$_GET[$k]) !== '') {
+        $activeFilters[] = $k . '=' . (string)$_GET[$k];
+    }
+}
+$filtersLine = (count($activeFilters) > 0) ? implode('&', $activeFilters) : '(none)';
+
+// Chart catalog (type + options)
+$charts = [
+    // Time series
+    [
+        'id' => 'c_day',
+        'title' => 'Eventos por día',
+        'type' => 'line',
+        'sql' => "
+            SELECT strftime('%Y-%m-%d', \"datetime\") AS clave, COUNT(*) AS valor
+            FROM logs
+            $WHERE
+            GROUP BY clave
+            ORDER BY clave;
+        ",
+        'options' => ['yLabel' => 'Eventos'],
+    ],
+    [
+        'id' => 'c_hour',
+        'title' => 'Eventos por hora (00-23)',
+        'type' => 'bar',
+        'sql' => "
+            SELECT strftime('%H', \"datetime\") AS clave, COUNT(*) AS valor
+            FROM logs
+            $WHERE
+            GROUP BY clave
+            ORDER BY clave;
+        ",
+        'options' => ['sort' => 'none'],
+    ],
+    [
+        'id' => 'c_weekday',
+        'title' => 'Eventos por día de la semana',
+        'type' => 'bar',
+        'sql' => "
+            SELECT
+              CASE strftime('%w', \"datetime\")
+                WHEN '0' THEN 'Sunday'
+                WHEN '1' THEN 'Monday'
+                WHEN '2' THEN 'Tuesday'
+                WHEN '3' THEN 'Wednesday'
+                WHEN '4' THEN 'Thursday'
+                WHEN '5' THEN 'Friday'
+                WHEN '6' THEN 'Saturday'
+              END AS clave,
+              COUNT(*) AS valor
+            FROM logs
+            $WHERE
+            GROUP BY strftime('%w', \"datetime\")
+            ORDER BY strftime('%w', \"datetime\");
+        ",
+        'options' => ['sort' => 'none'],
+    ],
+    [
+        'id' => 'c_month',
+        'title' => 'Eventos por mes',
+        'type' => 'line',
+        'sql' => "
+            SELECT strftime('%Y-%m', \"datetime\") AS clave, COUNT(*) AS valor
+            FROM logs
+            $WHERE
+            GROUP BY clave
+            ORDER BY clave;
+        ",
+        'options' => ['yLabel' => 'Eventos'],
+    ],
+
+    // Distributions
+    [
+        'id' => 'c_event_type',
+        'title' => 'Eventos por tipo',
+        'type' => 'donut',
+        'sql' => "
+            SELECT COALESCE(event_type, '(null)') AS clave, COUNT(*) AS valor
+            FROM logs
+            $WHERE
+            GROUP BY clave
+            ORDER BY valor DESC;
+        ",
+        'options' => ['topN' => 12],
+    ],
+    [
+        'id' => 'c_category',
+        'title' => 'Eventos por categoría',
+        'type' => 'bar',
+        'sql' => "
+            SELECT COALESCE(category, '(none)') AS clave, COUNT(*) AS valor
+            FROM logs
+            $WHERE
+            GROUP BY clave
+            ORDER BY valor DESC
+            LIMIT 30;
+        ",
+        'options' => ['topN' => 20],
+    ],
+    [
+        'id' => 'c_referer_domain',
+        'title' => 'Referer por dominio',
+        'type' => 'bar',
+        'sql' => "
+            SELECT $REFERER_DOMAIN_EXPR AS clave, COUNT(*) AS valor
+            FROM logs
+            $WHERE
+            GROUP BY clave
+            ORDER BY valor DESC
+            LIMIT 30;
+        ",
+        'options' => ['topN' => 20],
+    ],
+    [
+        'id' => 'c_user_agent_class',
+        'title' => 'User-Agent (clasificación)',
+        'type' => 'donut',
+        'sql' => "
+            SELECT $UA_CLASS_EXPR AS clave, COUNT(*) AS valor
+            FROM logs
+            $WHERE
+            GROUP BY clave
+            ORDER BY valor DESC;
+        ",
+        'options' => ['topN' => 12],
+    ],
+
+    // Content
+    [
+        'id' => 'c_top_posts',
+        'title' => 'Top posts (eventos)',
+        'type' => 'bar',
+        'sql' => "
+            SELECT CAST(post_id AS TEXT) AS clave, COUNT(*) AS valor
+            FROM logs
+            $WHERE
+            GROUP BY post_id
+            ORDER BY valor DESC
+            LIMIT 30;
+        ",
+        'options' => ['topN' => 15],
+    ],
+    [
+        'id' => 'c_top_posts_views',
+        'title' => 'Top posts (views)',
+        'type' => 'bar',
+        'sql' => "
+            SELECT CAST(post_id AS TEXT) AS clave, COUNT(*) AS valor
+            FROM logs
+            $WHERE_VIEW
+            GROUP BY post_id
+            ORDER BY valor DESC
+            LIMIT 30;
+        ",
+        'options' => ['topN' => 15],
+    ],
+    [
+        'id' => 'c_top_posts_clicks',
+        'title' => 'Top posts (clicks)',
+        'type' => 'bar',
+        'sql' => "
+            SELECT CAST(post_id AS TEXT) AS clave, COUNT(*) AS valor
+            FROM logs
+            $WHERE_CLICK
+            GROUP BY post_id
+            ORDER BY valor DESC
+            LIMIT 30;
+        ",
+        'options' => ['topN' => 15],
+    ],
+
+    // Routes
+    [
+        'id' => 'c_uri_top',
+        'title' => 'URI (top)',
+        'type' => 'bar',
+        'sql' => "
+            SELECT COALESCE(uri, '(none)') AS clave, COUNT(*) AS valor
+            FROM logs
+            $WHERE
+            GROUP BY clave
+            ORDER BY valor DESC
+            LIMIT 30;
+        ",
+        'options' => ['topN' => 15],
+    ],
+    [
+        'id' => 'c_search_query',
+        'title' => 'Búsquedas internas',
+        'type' => 'bar',
+        'sql' => "
+            SELECT
+              CASE
+                WHEN search_query IS NULL OR trim(search_query) = '' THEN '(none)'
+                ELSE search_query
+              END AS clave,
+              COUNT(*) AS valor
+            FROM logs
+            $WHERE
+            GROUP BY clave
+            ORDER BY valor DESC
+            LIMIT 30;
+        ",
+        'options' => ['topN' => 15],
+    ],
+];
+
+?>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Analytics</title>
+  
+  <style>
+    :root{
+      --bg:#0b0c0f;
+      --card:#11131a;
+      --muted:#a9b0c3;
+      --text:#eef1ff;
+      --stroke:rgba(255,255,255,.08);
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+      --accent:#7c5cff;
+      --accent2:#22c55e;
+      --danger:#ef4444;
+      --chip: rgba(255,255,255,.06);
+      --input: rgba(255,255,255,.06);
+    }
+    [data-theme="light"]{
+      --bg:#f6f7fb;
+      --card:#ffffff;
+      --muted:#556079;
+      --text:#0b1220;
+      --stroke:rgba(2,6,23,.10);
+      --shadow: 0 10px 30px rgba(15,23,42,.10);
+      --accent:#4f46e5;
+      --accent2:#16a34a;
+      --danger:#dc2626;
+      --chip: rgba(79,70,229,.08);
+      --input: rgba(2,6,23,.06);
+    }
+
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+    .wrap{max-width: 1400px; margin: 0 auto; padding: 18px;}
+    .topbar{
+      display:flex; gap:12px; align-items:center; justify-content:space-between;
+      margin-bottom: 14px;
+    }
+    .brand{display:flex; flex-direction:column; gap:2px}
+    .brand h1{margin:0; font-size: 18px; letter-spacing:.2px}
+    .brand .sub{color:var(--muted); font-size:12px}
+
+    .actions{display:flex; gap:10px; align-items:center}
+    .btn{
+      border:1px solid var(--stroke);
+      background: var(--card);
+      color: var(--text);
+      padding: 10px 12px;
+      border-radius: 12px;
+      cursor:pointer;
+      box-shadow: var(--shadow);
+      font-weight: 600;
+      font-size: 12px;
+    }
+    .btn:active{transform: translateY(1px)}
+    .btn.primary{
+      border-color: transparent;
+      background: linear-gradient(135deg, var(--accent), #00d4ff);
+      color: #0b0c0f;
+    }
+
+    .kpis{
+      display:grid;
+      grid-template-columns: repeat(5, minmax(180px,1fr));
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+    @media (max-width: 1100px){
+      .kpis{grid-template-columns: repeat(2, minmax(180px,1fr));}
+    }
+    .kpi{
+      background: var(--card);
+      border:1px solid var(--stroke);
+      border-radius: 16px;
+      padding: 14px;
+      box-shadow: var(--shadow);
+    }
+    .kpi .label{color:var(--muted); font-size:12px}
+    .kpi .value{font-size:26px; font-weight: 800; margin-top: 6px}
+    .kpi .hint{color:var(--muted); font-size:12px; margin-top: 8px}
+
+    .filters{
+      background: var(--card);
+      border:1px solid var(--stroke);
+      border-radius: 16px;
+      padding: 14px;
+      box-shadow: var(--shadow);
+      margin-bottom: 14px;
+    }
+    .filters form{
+      display:grid;
+      grid-template-columns: repeat(7, minmax(150px,1fr));
+      gap: 10px;
+      align-items:end;
+    }
+    @media (max-width: 1100px){
+      .filters form{grid-template-columns: repeat(2, minmax(150px,1fr));}
+    }
+    label{display:flex; flex-direction:column; gap:6px; font-size:12px; color: var(--muted)}
+    input{
+      padding: 10px 10px;
+      border-radius: 12px;
+      border:1px solid var(--stroke);
+      outline:none;
+      background: var(--input);
+      color: var(--text);
+    }
+    .row{
+      display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin-top: 10px;
+      color: var(--muted); font-size: 12px;
+    }
+    .chip{
+      display:inline-flex; align-items:center; gap:8px;
+      padding: 8px 10px;
+      border-radius: 999px;
+      background: var(--chip);
+      border: 1px solid var(--stroke);
+    }
+    .link{color: var(--text); text-decoration:none; font-weight:600}
+
+    .grid{
+      display:grid;
+      grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+      gap: 14px;
+      align-items: start;
+    }
+    .card{
+      background: var(--card);
+      border: 1px solid var(--stroke);
+      border-radius: 16px;
+      padding: 14px;
+      box-shadow: var(--shadow);
+      position: relative;
+      overflow: hidden;
+    }
+    .card h3{margin:0 0 8px 0; font-size: 14px; font-weight:800; letter-spacing:.2px}
+    .card .meta{color: var(--muted); font-size: 12px; margin-bottom: 10px}
+
+    .chartwrap{
+      border: 1px solid var(--stroke);
+      border-radius: 14px;
+      overflow: hidden;
+      background: rgba(0,0,0,.08);
+    }
+    [data-theme="light"] .chartwrap{background: rgba(2,6,23,.03);}
+    canvas{width:100%; height: 320px; display:block;}
+
+    .cardtools{
+      display:flex; gap:8px; align-items:center; justify-content:flex-end;
+      margin-top: 10px;
+    }
+    .small{
+      padding: 8px 10px;
+      border-radius: 10px;
+      font-size: 12px;
+      box-shadow: none;
+    }
+    .note{
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    /* tooltip */
+    .tooltip{
+      position: fixed;
+      pointer-events:none;
+      z-index: 9999;
+      background: rgba(0,0,0,.88);
+      color: #fff;
+      padding: 8px 10px;
+      border-radius: 10px;
+      font-size: 12px;
+      border: 1px solid rgba(255,255,255,.12);
+      transform: translate(-50%, calc(-100% - 12px));
+      max-width: 360px;
+      display:none;
+      white-space: nowrap;
+    }
+    [data-theme="light"] .tooltip{
+      background: rgba(2,6,23,.92);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+
+    <div class="topbar">
+      <div class="brand">
+        <h1>Analytics</h1>
+        <div class="sub">SQLite + PHP + Canvas · Filters applied to KPIs and charts</div>
+      </div>
+      <div class="actions">
+        <button class="btn" id="toggleTheme" type="button">Toggle theme</button>
+        <a class="btn primary" href="<?= h(strtok((string)($_SERVER['REQUEST_URI'] ?? ''), '?')) ?>">Reset filters</a>
+      </div>
+    </div>
+
+    <div class="kpis">
+      <div class="kpi">
+        <div class="label">Total events</div>
+        <div class="value"><?= h((string)$kpi_total) ?></div>
+        <div class="hint">All event types</div>
+      </div>
+      <div class="kpi">
+        <div class="label">Unique IPs</div>
+        <div class="value"><?= h((string)$kpi_ips) ?></div>
+        <div class="hint">COUNT(DISTINCT ip)</div>
+      </div>
+      <div class="kpi">
+        <div class="label">Unique sessions</div>
+        <div class="value"><?= h((string)$kpi_sess) ?></div>
+        <div class="hint">COUNT(DISTINCT session_id)</div>
+      </div>
+      <div class="kpi">
+        <div class="label">Views</div>
+        <div class="value"><?= h((string)$kpi_views) ?></div>
+        <div class="hint">event_type = view</div>
+      </div>
+      <div class="kpi">
+        <div class="label">Clicks</div>
+        <div class="value"><?= h((string)$kpi_clicks) ?></div>
+        <div class="hint">event_type = click</div>
+      </div>
+    </div>
+
+    <div class="filters">
+      <form method="get">
+        <label>from (YYYY-MM-DD)
+          <input name="from" value="<?= h((string)($_GET['from'] ?? '')) ?>" placeholder="2025-12-01">
+        </label>
+        <label>to (YYYY-MM-DD)
+          <input name="to" value="<?= h((string)($_GET['to'] ?? '')) ?>" placeholder="2025-12-31">
+        </label>
+        <label>event_type
+          <input name="event_type" value="<?= h((string)($_GET['event_type'] ?? '')) ?>" placeholder="view / click">
+        </label>
+        <label>post_id
+          <input name="post_id" value="<?= h((string)($_GET['post_id'] ?? '')) ?>" placeholder="1459">
+        </label>
+        <label>category
+          <input name="category" value="<?= h((string)($_GET['category'] ?? '')) ?>" placeholder="">
+        </label>
+        <label>host
+          <input name="host" value="<?= h((string)($_GET['host'] ?? '')) ?>" placeholder="example.com">
+        </label>
+        <label>exclude_bots (1/empty)
+          <input name="exclude_bots" value="<?= h((string)($_GET['exclude_bots'] ?? '')) ?>" placeholder="1">
+        </label>
+
+        <button class="btn primary" type="submit">Apply</button>
+      </form>
+
+      <div class="row">
+        <span class="chip">Active filters: <strong><?= h($filtersLine) ?></strong></span>
+
+        <!-- quick ranges (client-side helpers) -->
+        <span class="chip">
+          Quick:
+          <a class="link" href="#" data-quick="7d">Last 7d</a> ·
+          <a class="link" href="#" data-quick="30d">Last 30d</a> ·
+          <a class="link" href="#" data-quick="mtd">MTD</a>
+        </span>
+      </div>
+    </div>
+
+    <div class="grid">
+      <?php foreach ($charts as $ch): ?>
+        <?php
+          $data = consulta_array($db, $ch['sql'], $PARAMS);
+          $payload = [
+            'id' => $ch['id'],
+            'title' => $ch['title'],
+            'type' => $ch['type'],
+            'data' => $data,
+            'options' => $ch['options'] ?? new stdClass(),
+            'filters' => $filtersLine,
+          ];
+        ?>
+        <div class="card">
+          <h3><?= h($ch['title']) ?></h3>
+          <div class="meta"><?= h($ch['type']) ?> · filters: <?= h($filtersLine) ?></div>
+
+          <div class="chartwrap">
+            <canvas id="<?= h($ch['id']) ?>" data-chart="1"></canvas>
+          </div>
+
+          <div class="cardtools">
+            <button class="btn small" type="button" data-export="png" data-target="<?= h($ch['id']) ?>">Export PNG</button>
+            <button class="btn small" type="button" data-export="csv" data-target="<?= h($ch['id']) ?>">Export CSV</button>
+          </div>
+
+          <?php
+				  $json = json_encode(
+					 $payload,
+					 JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES
+				  );
+
+				  // Evita que aparezca accidentalmente </script> dentro del JSON
+				  $json = str_replace('</', '<\/', $json);
+				?>
+				<script type="application/json" data-payload="<?= h($ch['id']) ?>">
+				<?= $json ?>
+				</script>
+
+        </div>
+      <?php endforeach; ?>
+    </div>
+
+  </div>
+
+  <div class="tooltip" id="tt"></div>
+<script defer src="analytics.js"></script>
+  <script>
+    // quick ranges
+    (function(){
+      function pad(n){ return String(n).padStart(2,'0'); }
+      function fmt(d){ return d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate()); }
+
+      function setParam(url, k, v){
+        if (v === null || v === '') { url.searchParams.delete(k); return; }
+        url.searchParams.set(k, v);
+      }
+
+      document.querySelectorAll('[data-quick]').forEach(a=>{
+        a.addEventListener('click', (e)=>{
+          e.preventDefault();
+          const mode = a.getAttribute('data-quick');
+          const now = new Date();
+          const url = new URL(window.location.href);
+
+          if (mode === '7d' || mode === '30d'){
+            const days = (mode === '7d') ? 7 : 30;
+            const from = new Date(now.getTime() - (days*24*60*60*1000));
+            setParam(url, 'from', fmt(from));
+            setParam(url, 'to', fmt(now));
+          }
+          if (mode === 'mtd'){
+            const from = new Date(now.getFullYear(), now.getMonth(), 1);
+            setParam(url, 'from', fmt(from));
+            setParam(url, 'to', fmt(now));
+          }
+          window.location.href = url.toString();
+        });
+      });
+    })();
+
+    // theme toggle (persist)
+    (function(){
+      const key = 'analytics_theme';
+      const root = document.documentElement;
+      const btn = document.getElementById('toggleTheme');
+
+      function apply(t){
+        root.setAttribute('data-theme', t);
+        localStorage.setItem(key, t);
+      }
+
+      const saved = localStorage.getItem(key);
+      if (saved === 'light' || saved === 'dark') apply(saved);
+
+      btn.addEventListener('click', ()=>{
+        const cur = root.getAttribute('data-theme') || 'dark';
+        apply(cur === 'dark' ? 'light' : 'dark');
+      });
+    })();
+  </script>
+</body>
+</html>
+```
+
+### analytics
+<small>Creado: 2026-02-02 16:22</small>
+
+`analytics.js`
+
+```javascript
+/* analytics.js
+   Canvas charts (bar/line/donut) with:
+   - responsive + crisp DPR rendering
+   - hover tooltip + highlight
+   - topN + sorting helpers
+   - export PNG + CSV
+
+   Fixes:
+   - Boot waits for DOMContentLoaded (payload scripts + tooltip exist)
+   - Tooltip is fetched lazily (no null crashes)
+*/
+
+(function () {
+
+  function getTooltip() {
+    return document.getElementById('tt');
+  }
+
+  function clamp(n, a, b) { return Math.max(a, Math.min(b, n)); }
+
+  function niceNumber(n) {
+    if (!isFinite(n)) return "0";
+    if (n >= 1_000_000) return (n / 1_000_000).toFixed(2).replace(/\.00$/, '') + "M";
+    if (n >= 1_000) return (n / 1_000).toFixed(2).replace(/\.00$/, '') + "k";
+    return String(n);
+  }
+
+  // Deterministic palette (HSL steps). Returns CSS string.
+  function colorForIndex(i) {
+    const h = (i * 47) % 360;
+    const s = 72;
+    const l = 52;
+    return `hsl(${h} ${s}% ${l}%)`;
+  }
+
+  function parsePayload(canvasId) {
+  const node = document.querySelector(`script[data-payload="${CSS.escape(canvasId)}"]`);
+  if (!node) {
+    console.warn('Missing payload script for', canvasId);
+    return null;
+  }
+  try {
+    return JSON.parse(node.textContent || "{}");
+  } catch (err) {
+    console.warn('Bad JSON payload for', canvasId, err, node.textContent);
+    return null;
+  }
+}
+
+
+  function toXY(e, canvas) {
+    const r = canvas.getBoundingClientRect();
+    return { x: e.clientX - r.left, y: e.clientY - r.top, r };
+  }
+
+  function downloadText(filename, text) {
+    const blob = new Blob([text], { type: 'text/plain;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url; a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    URL.revokeObjectURL(url);
+  }
+
+  function safeName(s) {
+    return (s || 'chart')
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-+|-+$/g, '')
+      .slice(0, 80);
+  }
+
+  function roundedRect(ctx, x, y, w, h, r) {
+    r = Math.max(0, Math.min(r, Math.min(w, h) / 2));
+    ctx.beginPath();
+    ctx.moveTo(x + r, y);
+    ctx.lineTo(x + w - r, y);
+    ctx.quadraticCurveTo(x + w, y, x + w, y + r);
+    ctx.lineTo(x + w, y + h);
+    ctx.lineTo(x, y + h);
+    ctx.lineTo(x, y + r);
+    ctx.quadraticCurveTo(x, y, x + r, y);
+    ctx.closePath();
+  }
+
+  class CanvasChart {
+    constructor(canvas, payload) {
+      this.canvas = canvas;
+      this.ctx = canvas.getContext('2d');
+      this.payload = payload;
+
+      this.hits = [];
+      this.hoverIndex = -1;
+      this.data = [];
+
+      this.ro = new ResizeObserver(() => this.render());
+      this.ro.observe(this.canvas);
+
+      this.canvas.addEventListener('mousemove', (e) => this.onMove(e));
+      this.canvas.addEventListener('mouseleave', () => this.onLeave());
+
+      this.render();
+    }
+
+    getTheme() {
+      const t = document.documentElement.getAttribute('data-theme') || 'dark';
+      if (t === 'light') {
+        return {
+          ink: '#0b1220',
+          muted: 'rgba(11,18,32,.55)',
+          stroke: 'rgba(11,18,32,.12)',
+          grid: 'rgba(11,18,32,.08)'
+        };
+      }
+      return {
+        ink: '#eef1ff',
+        muted: 'rgba(238,241,255,.55)',
+        stroke: 'rgba(238,241,255,.14)',
+        grid: 'rgba(238,241,255,.08)'
+      };
+    }
+
+    normalizeData() {
+      const raw = Array.isArray(this.payload.data) ? this.payload.data : [];
+      let data = raw
+        .map(d => ({
+          clave: (d.clave ?? '').toString(),
+          valor: Number(d.valor ?? 0)
+        }))
+        .filter(d => d.clave !== '' || d.valor !== 0);
+
+      const opt = this.payload.options || {};
+
+      // default sort: desc for bar/donut, none for line
+      if (opt.sort === 'desc' || (opt.sort == null && this.payload.type !== 'line')) {
+        data.sort((a, b) => b.valor - a.valor);
+      } else if (opt.sort === 'asc') {
+        data.sort((a, b) => a.valor - b.valor);
+      }
+
+      // topN
+      if (opt.topN && Number.isFinite(+opt.topN) && data.length > +opt.topN) {
+        const top = data.slice(0, +opt.topN);
+        const rest = data.slice(+opt.topN);
+        const restSum = rest.reduce((s, x) => s + x.valor, 0);
+        top.push({ clave: '(other)', valor: restSum });
+        data = top;
+      }
+
+      return data;
+    }
+
+    setupCanvas() {
+      const dpr = window.devicePixelRatio || 1;
+      const rect = this.canvas.getBoundingClientRect();
+      const w = Math.max(300, rect.width);
+      const h = Math.max(260, rect.height);
+
+      this.canvas.width = Math.round(w * dpr);
+      this.canvas.height = Math.round(h * dpr);
+
+      this.ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      return { w, h };
+    }
+
+    clear(w, h) {
+      this.ctx.clearRect(0, 0, w, h);
+      this.ctx.fillStyle = 'rgba(0,0,0,0)';
+      this.ctx.fillRect(0, 0, w, h);
+    }
+
+    render() {
+      const theme = this.getTheme();
+      const { w, h } = this.setupCanvas();
+      this.hits = [];
+      this.hoverIndex = -1;
+
+      const data = this.normalizeData();
+      this.data = data;
+
+      this.clear(w, h);
+
+      const pad = 14;
+      const left = pad;
+      const top = pad;
+      const right = w - pad;
+      const bottom = h - pad;
+
+      if (!data.length) {
+        this.ctx.fillStyle = theme.muted;
+        this.ctx.font = '600 13px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif';
+        this.ctx.textAlign = 'center';
+        this.ctx.fillText('No data for these filters', w / 2, h / 2);
+        return;
+      }
+
+      if (this.payload.type === 'donut') {
+        this.drawDonut(theme, left, top, right, bottom, data);
+      } else if (this.payload.type === 'line') {
+        this.drawLine(theme, left, top, right, bottom, data);
+      } else {
+        this.drawBars(theme, left, top, right, bottom, data);
+      }
+    }
+
+    drawAxes(theme, x0, y0, x1, y1) {
+      const ctx = this.ctx;
+
+      ctx.strokeStyle = theme.stroke;
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      ctx.moveTo(x0, y1);
+      ctx.lineTo(x1, y1);
+      ctx.stroke();
+
+      ctx.strokeStyle = theme.grid;
+      const steps = 4;
+      for (let i = 1; i <= steps; i++) {
+        const y = y1 - (i / steps) * (y1 - y0);
+        ctx.beginPath();
+        ctx.moveTo(x0, y);
+        ctx.lineTo(x1, y);
+        ctx.stroke();
+      }
+    }
+
+    drawBars(theme, left, top, right, bottom, data) {
+      const ctx = this.ctx;
+
+      const plotTop = top + 6;
+      const plotBottom = bottom - 26;
+      const plotLeft = left + 8;
+      const plotRight = right - 8;
+
+      const max = Math.max(...data.map(d => d.valor), 1);
+
+      this.drawAxes(theme, plotLeft, plotTop, plotRight, plotBottom);
+
+      // y labels
+      ctx.fillStyle = theme.muted;
+      ctx.font = '600 11px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif';
+      ctx.textAlign = 'right';
+      ctx.textBaseline = 'middle';
+      for (let i = 0; i <= 4; i++) {
+        const v = (i / 4) * max;
+        const y = plotBottom - (i / 4) * (plotBottom - plotTop);
+        ctx.fillText(niceNumber(Math.round(v)), plotLeft - 6, y);
+      }
+
+      const n = data.length;
+      const gap = 6;
+      const barW = ((plotRight - plotLeft) - gap * (n - 1)) / n;
+      const radius = 10;
+
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'top';
+
+      for (let i = 0; i < n; i++) {
+        const d = data[i];
+        const x = plotLeft + i * (barW + gap);
+        const barH = (d.valor / max) * (plotBottom - plotTop);
+        const y = plotBottom - barH;
+
+        const isHover = (i === this.hoverIndex);
+        const col = colorForIndex(i);
+
+        ctx.fillStyle = col;
+        roundedRect(ctx, x, y, barW, barH, radius);
+        ctx.fill();
+
+        if (isHover) {
+          ctx.strokeStyle = 'rgba(255,255,255,.65)';
+          ctx.lineWidth = 2;
+          roundedRect(ctx, x, y, barW, barH, radius);
+          ctx.stroke();
+        }
+
+        ctx.fillStyle = theme.muted;
+        const label = d.clave.length > 12 ? d.clave.slice(0, 12) + '…' : d.clave;
+        ctx.fillText(label, x + barW / 2, plotBottom + 6);
+
+        this.hits.push({
+          type: 'bar',
+          i,
+          x, y, w: barW, h: barH,
+          label: d.clave,
+          value: d.valor,
+          color: col
+        });
+      }
+    }
+
+    drawLine(theme, left, top, right, bottom, data) {
+      const ctx = this.ctx;
+
+      const plotTop = top + 6;
+      const plotBottom = bottom - 26;
+      const plotLeft = left + 34;
+      const plotRight = right - 10;
+
+      // Ensure chronological order for ISO-like keys
+      data = data.slice().sort((a, b) => a.clave.localeCompare(b.clave));
+
+      const max = Math.max(...data.map(d => d.valor), 1);
+      this.drawAxes(theme, plotLeft, plotTop, plotRight, plotBottom);
+
+      // y labels
+      ctx.fillStyle = theme.muted;
+      ctx.font = '600 11px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif';
+      ctx.textAlign = 'right';
+      ctx.textBaseline = 'middle';
+      for (let i = 0; i <= 4; i++) {
+        const v = (i / 4) * max;
+        const y = plotBottom - (i / 4) * (plotBottom - plotTop);
+        ctx.fillText(niceNumber(Math.round(v)), plotLeft - 8, y);
+      }
+
+      const n = data.length;
+      const dx = (plotRight - plotLeft) / Math.max(1, n - 1);
+
+      // line
+      ctx.strokeStyle = colorForIndex(0);
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      for (let i = 0; i < n; i++) {
+        const d = data[i];
+        const x = plotLeft + i * dx;
+        const y = plotBottom - (d.valor / max) * (plotBottom - plotTop);
+        if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+      }
+      ctx.stroke();
+
+      // points
+      for (let i = 0; i < n; i++) {
+        const d = data[i];
+        const x = plotLeft + i * dx;
+        const y = plotBottom - (d.valor / max) * (plotBottom - plotTop);
+
+        const isHover = (i === this.hoverIndex);
+        ctx.fillStyle = colorForIndex(0);
+        ctx.beginPath();
+        ctx.arc(x, y, isHover ? 5 : 3.5, 0, Math.PI * 2);
+        ctx.fill();
+
+        if (isHover) {
+          ctx.strokeStyle = 'rgba(255,255,255,.65)';
+          ctx.lineWidth = 2;
+          ctx.beginPath();
+          ctx.arc(x, y, 8, 0, Math.PI * 2);
+          ctx.stroke();
+        }
+
+        this.hits.push({
+          type: 'point',
+          i,
+          cx: x,
+          cy: y,
+          r: 10,
+          label: d.clave,
+          value: d.valor,
+          color: colorForIndex(0)
+        });
+      }
+
+      // x labels (sparse)
+      ctx.fillStyle = theme.muted;
+      ctx.font = '600 11px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'top';
+
+      const step = Math.ceil(n / 6);
+      for (let i = 0; i < n; i += step) {
+        const x = plotLeft + i * dx;
+        ctx.fillText(data[i].clave, x, plotBottom + 6);
+      }
+    }
+
+    drawDonut(theme, left, top, right, bottom, data) {
+      const ctx = this.ctx;
+
+      const w = right - left;
+      const h = bottom - top;
+
+      const cx = left + w * 0.38;
+      const cy = top + h * 0.52;
+      const r = Math.min(w, h) * 0.30;
+      const r2 = r * 0.62;
+
+      const total = data.reduce((s, x) => s + x.valor, 0) || 1;
+      let a0 = -Math.PI / 2;
+
+      for (let i = 0; i < data.length; i++) {
+        const d = data[i];
+        const frac = d.valor / total;
+        const a1 = a0 + frac * Math.PI * 2;
+        const col = colorForIndex(i);
+        const isHover = (i === this.hoverIndex);
+
+        ctx.beginPath();
+        ctx.moveTo(cx, cy);
+        ctx.arc(cx, cy, r, a0, a1);
+        ctx.closePath();
+        ctx.fillStyle = col;
+        ctx.fill();
+
+        if (isHover) {
+          ctx.strokeStyle = 'rgba(255,255,255,.65)';
+          ctx.lineWidth = 2;
+          ctx.beginPath();
+          ctx.arc(cx, cy, r + 2, a0, a1);
+          ctx.stroke();
+        }
+
+        this.hits.push({
+          type: 'slice',
+          i,
+          cx, cy,
+          rOuter: r,
+          rInner: r2,
+          a0, a1,
+          label: d.clave,
+          value: d.valor,
+          color: col
+        });
+
+        a0 = a1;
+      }
+
+      // hole
+      ctx.globalCompositeOperation = 'destination-out';
+      ctx.beginPath();
+      ctx.arc(cx, cy, r2, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.globalCompositeOperation = 'source-over';
+
+      // center label
+      ctx.fillStyle = theme.ink;
+      ctx.font = '800 18px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillText(niceNumber(total), cx, cy - 4);
+
+      ctx.fillStyle = theme.muted;
+      ctx.font = '600 12px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif';
+      ctx.fillText('total', cx, cy + 16);
+
+      // legend
+      const lx = left + w * 0.70;
+      let ly = top + 16;
+
+      ctx.textAlign = 'left';
+      ctx.textBaseline = 'middle';
+      ctx.font = '600 12px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif';
+
+      const maxLegend = Math.min(10, data.length);
+      for (let i = 0; i < maxLegend; i++) {
+        const d = data[i];
+        const col = colorForIndex(i);
+        const pct = ((d.valor / total) * 100).toFixed(1);
+
+        ctx.fillStyle = col;
+        ctx.fillRect(lx, ly - 6, 12, 12);
+
+        ctx.fillStyle = theme.ink;
+        const name = d.clave.length > 18 ? d.clave.slice(0, 18) + '…' : d.clave;
+        ctx.fillText(`${name} · ${pct}%`, lx + 18, ly);
+
+        ly += 18;
+      }
+    }
+
+    onMove(e) {
+      const { x, y, r } = toXY(e, this.canvas);
+      const hit = this.findHit(x, y);
+      const tooltip = getTooltip();
+
+      if (!hit) {
+        this.hoverIndex = -1;
+        if (tooltip) tooltip.style.display = 'none';
+        this.render();
+        return;
+      }
+
+      this.hoverIndex = hit.i;
+      this.render();
+
+      if (tooltip) {
+        tooltip.style.display = 'block';
+        tooltip.textContent = `${hit.label} — ${hit.value}`;
+        tooltip.style.left = `${r.left + x}px`;
+        tooltip.style.top = `${r.top + y}px`;
+      }
+    }
+
+    onLeave() {
+      this.hoverIndex = -1;
+      const tooltip = getTooltip();
+      if (tooltip) tooltip.style.display = 'none';
+      this.render();
+    }
+
+    findHit(x, y) {
+      for (const h of this.hits) {
+        if (h.type === 'bar') {
+          if (x >= h.x && x <= h.x + h.w && y >= h.y && y <= h.y + h.h) return h;
+        }
+        if (h.type === 'point') {
+          const dx = x - h.cx, dy = y - h.cy;
+          if ((dx * dx + dy * dy) <= (h.r * h.r)) return h;
+        }
+        if (h.type === 'slice') {
+          const dx = x - h.cx, dy = y - h.cy;
+          const rr = Math.sqrt(dx * dx + dy * dy);
+          if (rr < h.rInner || rr > h.rOuter) continue;
+
+          let ang = Math.atan2(dy, dx);
+          while (ang < h.a0) ang += Math.PI * 2;
+          while (ang > h.a1) ang -= Math.PI * 2;
+          if (ang >= h.a0 && ang <= h.a1) return h;
+        }
+      }
+      return null;
+    }
+
+    exportPNG() {
+      const a = document.createElement('a');
+      a.download = `${safeName(this.payload.title)}.png`;
+      a.href = this.canvas.toDataURL('image/png');
+      a.click();
+    }
+
+    exportCSV() {
+      const rows = [["clave", "valor"], ...this.data.map(d => [d.clave, String(d.valor)])];
+      const csv = rows.map(r => r.map(cell => {
+        const s = String(cell).replace(/"/g, '""');
+        return `"${s}"`;
+      }).join(",")).join("\n");
+      downloadText(`${safeName(this.payload.title)}.csv`, csv);
+    }
+  }
+
+  // -----------------------
+  // Boot (after DOM ready)
+  // -----------------------
+  const charts = new Map();
+
+  function boot() {
+    document.querySelectorAll('canvas[data-chart="1"]').forEach((canvas) => {
+      const payload = parsePayload(canvas.id);
+      if (!payload) return;
+      charts.set(canvas.id, new CanvasChart(canvas, payload));
+    });
+
+    document.querySelectorAll('button[data-export]').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const target = btn.getAttribute('data-target');
+        const kind = btn.getAttribute('data-export');
+        const ch = charts.get(target);
+        if (!ch) return;
+        if (kind === 'png') ch.exportPNG();
+        if (kind === 'csv') ch.exportCSV();
+      });
+    });
+
+    const mo = new MutationObserver(() => {
+      charts.forEach(ch => ch.render());
+    });
+    mo.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', boot);
+  } else {
+    boot();
+  }
+
+})();
+```
+
+### graficas
+<small>Creado: 2026-02-02 15:52</small>
+
+`graficas.js`
+
+```javascript
+function grafica(selector,datos,titulo){
+		
+		let lienzo = document.querySelector(selector);
+		let contexto = lienzo.getContext("2d");
+		lienzo.width = 512;
+		lienzo.height = 512;
+		contexto.textAlign = "center";
+		contexto.fillStyle = "black";
+		contexto.font = "30px Arial";
+		contexto.fillText(titulo,256,40)
+		
+		let max = 0;
+		datos.forEach(function(dato){
+			if(dato.valor > max){ max = dato.valor; }
+		});
+
+		
+
+		
+
+		contexto.moveTo(0,0);
+		contexto.lineTo(0,512);
+		contexto.lineTo(512,512);
+		contexto.stroke();
+
+		let longitud = datos.length;
+
+		datos.forEach(function(dato,i){
+			
+			contexto.font = "12px Arial";
+			// bar color
+			contexto.fillStyle = dato.color ? dato.color : "blue";
+
+			let x = (i/longitud)*512+2;
+			let w = (512/longitud-2);
+			let h = (dato.valor/max)*410;
+
+			contexto.fillRect(x, 510, w, -h);
+
+			// rotated value label
+			let cx = x + w/2;
+			let cy = 500;
+
+			contexto.save();
+			contexto.translate(cx, cy);
+			contexto.rotate(-Math.PI / 2); // -90 degrees
+			contexto.fillStyle = "white";
+			contexto.textAlign = "left";
+			contexto.textBaseline = "middle";
+			contexto.fillText(dato.valor+" - "+dato.clave, 15, 0);
+			contexto.restore();
+		});
+	}
+```
 
 
 <a id="elaboracion-de-documentacion"></a>
@@ -35642,7 +43727,7 @@ Sus datos no se cederán a terceros salvo obligación legal. Para más informaci
 This should improve the overall appearance and functionality of your HTML email template across different clients.
 
 ### tabla de inicio
-<small>Creado: 2025-12-01 13:10</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -35672,7 +43757,7 @@ La estructura principal de la tabla se define dentro de la etiqueta `<table>` co
 ```
 
 ### anchura de las celdas
-<small>Creado: 2025-12-01 13:12</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -35702,7 +43787,7 @@ Este código es importante porque muestra cómo controlar visualmente las dimens
 ```
 
 ### subtabla
-<small>Creado: 2025-12-01 13:16</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -35748,7 +43833,7 @@ Esta forma de organizar el contenido con subtablas dentro de celdas de tabla má
 ```
 
 ### imagen corporativa
-<small>Creado: 2025-12-01 13:23</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -35810,7 +43895,7 @@ El uso de tablas permite organizar la disposición del contenido de manera clara
 ```
 
 ### creamos el destacado
-<small>Creado: 2025-12-01 13:27</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -35884,7 +43969,7 @@ Este tipo de estructura es común en marketing digital debido a su capacidad par
 ```
 
 ### insercion de imagen
-<small>Creado: 2025-12-01 13:32</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -35961,7 +44046,7 @@ El uso de CSS dentro del atributo `style` ayuda a personalizar la apariencia, co
 ```
 
 ### destacados
-<small>Creado: 2025-12-01 13:45</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -36197,7 +44282,7 @@ These changes should help ensure your email template is more user-friendly acros
 ```
 
 ### ampliamos un poco
-<small>Creado: 2025-12-01 13:46</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -36440,7 +44525,7 @@ This should make your email template more responsive on various devices, includi
 ```
 
 ### pie de pagina normativo
-<small>Creado: 2025-12-01 13:48</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -36829,6 +44914,34 @@ Basándome en el contexto proporcionado y asumiendo que los ejercicios están re
     - Descripción: Los estudiantes deberán elaborar una lista de recursos útiles para otros compañeros en formato Markdown, incluyendo descripciones breves y ligas a cada recurso.
 
 Estas actividades están diseñadas para que los estudiantes practiquen la estructuración del contenido con Markdown mientras mejoran sus habilidades en redacción técnica y documentación.
+
+
+
+<a id="actividades-de-final-de-unidad-segundo-trimestre"></a>
+# Actividades de final de unidad segundo trimestre
+
+<a id="formateo-y-envio-de-emails"></a>
+## Formateo y envío de emails
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/202-Actividades%20de%20final%20de%20unidad%20segundo%20trimestre/001-Formateo%20y%20env%C3%ADo%20de%20emails)
+
+
+<a id="web-curso-ia"></a>
+## Web curso IA
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/202-Actividades%20de%20final%20de%20unidad%20segundo%20trimestre/002-Web%20curso%20IA)
+
+
+<a id="tienda-de-juguetes"></a>
+## Tienda de juguetes
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/202-Actividades%20de%20final%20de%20unidad%20segundo%20trimestre/003-Tienda%20de%20juguetes)
+
+
+<a id="web-logos-multiidioma"></a>
+## Web logos (Multiidioma)
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/202-Actividades%20de%20final%20de%20unidad%20segundo%20trimestre/004-Web%20logos%20%28Multiidioma%29)
 
 
 

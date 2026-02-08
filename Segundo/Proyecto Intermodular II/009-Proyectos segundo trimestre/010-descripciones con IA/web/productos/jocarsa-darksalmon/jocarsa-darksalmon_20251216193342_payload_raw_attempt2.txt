@@ -26,7 +26,7 @@ The provided configuration and styling files for a Dark Salmon (darksalmon) them
      define('DS_DB_HOST', 'localhost');
      define('DS_DB_NAME', 'darksalmon');
      define('DS_DB_USER', 'darksalmon');
-     define('DS_DB_PASS', 'Lielolilo123$');
+     define('DS_DB_PASS', '******');
      define('DS_DB_CHAR', 'utf8mb4');
 
      function ds_pdo(): PDO {

@@ -1,6 +1,6 @@
 # Programación de servicios y procesos — Estado de ejercicios
 
-Generado: 2026-01-16 09:00
+Generado: 2026-02-08 14:00
 
 ---
 
@@ -73,3 +73,11 @@ Generado: 2026-01-16 09:00
 ## Actividad libre de final de evaluación - La milla extra
 
 - 🟢 La Milla Extra - Primera evaluación — 2025-10-13
+
+
+## Actividades final de unidad - Segundo trimestre
+
+- 🟢 Multinucleo — 2025-10-13
+- 🟢 Actividad conexion por red, email, sockets — 2025-10-13
+- 🟢 Monitorización de recursos — 2025-10-13
+- 🟢 Fundamentos de encriptación — 2025-10-13

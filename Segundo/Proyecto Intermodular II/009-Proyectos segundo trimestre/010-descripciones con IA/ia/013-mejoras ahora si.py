@@ -60,7 +60,7 @@ JITTER_SECONDS: float = 0.6
 # =====================================================
 # REMOTE API
 # =====================================================
-API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php"
+API_URL = "https://covalently-untasked-d****.ngrok-free.dev/api.php"
 API_KEY = "TEST_API_KEY_JOCARSA_123"
 VERIFY_SSL = False
 REMOTE_MODEL = "qwen2.5:7b-instruct-q4_0"

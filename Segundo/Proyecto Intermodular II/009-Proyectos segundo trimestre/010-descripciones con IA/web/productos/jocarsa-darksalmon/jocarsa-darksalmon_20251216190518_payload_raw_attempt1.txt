@@ -20,7 +20,7 @@ define('DS_FRONT_PATH', DS_BASE_PATH . '/front');
 $dbConfig = [
     'host' => $_ENV['DB_HOST'] ?? 'localhost',
     'user' => $_ENV['DB_USER'] ?? 'darksalmon',
-    'pass' => $_ENV['DB_PASS'] ?? 'Lielolilo123$',
+    'pass' => $_ENV['DB_PASS'] ?? '******',
     'dbname' => $_ENV['DB_NAME'] ?? 'darksalmon'
 ];
 
@@ -248,7 +248,7 @@ La estructura del admin panel está bien definida, pero asegúrate de que la con
 
 $host = 'localhost';
 $user = $_ENV['DB_USER'] ?? 'darksalmon';
-$pass = $_ENV['DB_PASS'] ?? 'Lielolilo123$';
+$pass = $_ENV['DB_PASS'] ?? '******';
 $dbName = $_ENV['DB_NAME'] ?? 'darksalmon1';
 
 $nombre = "darksalmon";

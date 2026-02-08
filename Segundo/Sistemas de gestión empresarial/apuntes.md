@@ -57,6 +57,10 @@
   - [Depuración y tratamiento de errores](#depuracion-y-tratamiento-de-errores)
 - [Actividad libre de final de evaluación - La milla extra](#actividad-libre-de-final-de-evaluacion-la-milla-extra)
   - [La Milla Extra - Primera evaluación](#la-milla-extra-primera-evaluacion)
+- [Actividades final de unidad - Segundo trimestre](#actividades-final-de-unidad-segundo-trimestre)
+  - [Proyecto ERP en clase](#proyecto-erp-en-clase)
+  - [Editor de nodos n8n](#editor-de-nodos-n8n)
+  - [Reorganizacion catálogo jocarsa](#reorganizacion-catalogo-jocarsa)
 
 ---
 
@@ -117,7 +121,7 @@ Este conjunto de ejercicios está diseñado para ayudarte a entender cómo traba
 A través de estos ejercicios, aprenderás habilidades fundamentales como procesar estructuras XML para extraer información, crear interfaces web basadas en esquemas XML, gestionar bases de datos desde Python, y desarrollar aplicaciones web simples usando el framework Flask. Estos ejercicios te proporcionan una base sólida para trabajar con sistemas empresariales que utilizan tecnologías como XML y SQLite para la configuración y manejo de datos.
 
 ### mapear xml
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -142,7 +146,7 @@ print(root)
 ```
 
 ### parsear entero
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -172,7 +176,7 @@ for campo in root:
 ```
 
 ### mapeo
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -214,7 +218,7 @@ def miInterfaz(destino):
 ```
 
 ### servidor que convierte
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -241,7 +245,7 @@ if __name__ == '__main__':
 ```
 
 ### servidor que recibe
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -280,7 +284,7 @@ if __name__ == '__main__':
 ```
 
 ### interfaz
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -307,7 +311,7 @@ Este archivo XML sirve como una plantilla para generar formularios en aplicacion
 ```
 
 ### mifuncion
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -368,7 +372,7 @@ def miInterfaz(destino):
 ```
 
 ### mifuncion2
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -580,7 +584,7 @@ def tablaInterfaz(destino_xml: str):
 ```
 
 ### servidor
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1023,7 +1027,7 @@ Añade más interactividad, como cambiar el color de los nodos al hacer clic en 
 Estas mejoras harán que tu editor de flujo visual sea más completo y funcional. ¡Espero que te sean útiles!
 
 ### escritorio
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1054,7 +1058,7 @@ La sección `<body>` es donde comienza a verse realmente la estructura visual. A
 ```
 
 ### un poco de css
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1093,7 +1097,7 @@ Esta página es útil para enseñar cómo usar CSS para crear diseños responsiv
 ```
 
 ### ajustes visuales
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1132,7 +1136,7 @@ Este diseño es importante porque permite a los usuarios navegar fácilmente por
 ```
 
 ### nodo
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1176,7 +1180,7 @@ Este código proporciona una base sólida para construir una página más comple
 ```
 
 ### draggable
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1233,7 +1237,7 @@ Este código es importante porque demuestra cómo integrar eventos de arrastrar 
 ```
 
 ### drag js
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1287,7 +1291,7 @@ Esta funcionalidad es útil cuando se trabaja con interfaces de usuario que requ
 ```
 
 ### boton de añadir
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1353,7 +1357,7 @@ Este código es útil para aprender cómo integrar interactividad básica con ar
 ```
 
 ### nodos como elementos
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1523,7 +1527,7 @@ Este tipo de código es importante porque enseña conceptos fundamentales del de
 ```
 
 ### nodos control de pantalla
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1764,7 +1768,7 @@ Este tipo de interacción gráfica puede ser útil, por ejemplo, en la configura
 ```
 
 ### nodos de conector
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2506,7 +2510,7 @@ Esta carpeta contiene una serie de ejercicios en SQL orientados a la creación y
 A través de estos ejercicios, los estudiantes desarrollan habilidades en la estructuración de bases de datos relacionales, manejo de consultas SQL complejas, creación de vistas y administración de usuarios y privilegios en entornos de gestión de sistemas empresariales.
 
 ### crear tablas
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2543,7 +2547,7 @@ CREATE TABLE Categorias(
 ```
 
 ### insertar
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2575,7 +2579,7 @@ INSERT INTO Piezas VALUES(
 ```
 
 ### fk
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2600,7 +2604,7 @@ ON UPDATE CASCADE;
 ```
 
 ### selecciones
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2619,7 +2623,7 @@ SELECT * FROM Piezas;
 ```
 
 ### left join
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2640,7 +2644,7 @@ ON Piezas.id_categoria = Categorias.Identificador;
 ```
 
 ### ahora creo la vista
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2669,7 +2673,7 @@ SELECT * FROM piezas_y_categorias;
 ```
 
 ### usuario
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2770,7 +2774,7 @@ Esta sección de código es una aplicación web básica que utiliza rutas para m
 El objetivo principal es permitir que los usuarios accedan a diferentes conjuntos de datos (como menús y listas de alumnos) mediante solicitudes HTTP específicas. Esto puede ser útil en la construcción de interfaces web dinámicas o APIs para sistemas más grandes.
 
 ### .htaccess
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -2796,7 +2800,7 @@ RewriteRule ^(.*)$ index.php [QSA,L]
 ```
 
 ### index
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3540,7 +3544,7 @@ Para mejorar esta aplicación, se recomendaría:
 - Añadir validaciones y manejo de errores adecuados.
 
 ### microERP
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3581,7 +3585,7 @@ Este fragmento establece una estructura básica para una interfaz web empresaria
 ```
 
 ### muestro botones
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3621,7 +3625,7 @@ Esta estructura es útil para sistemas de gestión empresarial donde los usuario
 ```
 
 ### cargo la tabla
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3669,7 +3673,7 @@ Este fragmento es importante porque permite a un usuario interactuar directament
 ```
 
 ### estilo de la tabla
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3725,7 +3729,7 @@ Este tipo de diseño es útil para aplicaciones empresariales simples que necesi
 ```
 
 ### cabeceras de tabla
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3783,7 +3787,7 @@ Este código es importante porque proporciona una interfaz web simple para visua
 ```
 
 ### logo
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3847,7 +3851,7 @@ Este código es útil porque proporciona una interfaz visual simple pero funcion
 ```
 
 ### añadimos boton de añadir
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3914,7 +3918,7 @@ Este tipo de página es útil para sistemas internos o empresariales donde vario
 ```
 
 ### creo formulario
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -3990,7 +3994,7 @@ La importancia de este fragmento de código radica en cómo facilita la interacc
 ```
 
 ### estilo del formulario
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -4081,7 +4085,7 @@ El código utiliza CSS dentro del `<head>` para estilizar toda la página, defin
 ```
 
 ### pequeña animacion
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -4165,7 +4169,7 @@ En resumen, este código proporciona una interfaz web sencilla para administrar 
 ```
 
 ### eliminar
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -4435,7 +4439,7 @@ El script SQL que has proporcionado crea una base de datos completa para un sist
 Este esquema proporciona una base sólida para un sistema de comercio electrónico, pero como todo diseño de bases de datos, puede beneficiarse de refinamiento continuo según se identifican necesidades y problemas específicos del negocio.
 
 ### definir tipos de campos
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -4525,7 +4529,7 @@ Este tipo de sistema es útil para aplicaciones empresariales donde se necesita 
 ```
 
 ### campos vinculados
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -4772,7 +4776,7 @@ function obtener_claves_foraneas($conexion, $tabla, $bd = 'empresarial'){
 ```
 
 ### variables
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -5184,7 +5188,7 @@ function render_input_para_columna($nombre_columna, $meta_columna, $valor_actual
 ```
 
 ### con usuarios
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -5707,7 +5711,7 @@ function render_input_para_columna($nombre_columna, $meta_columna, $valor_actual
 ```
 
 ### actualizacion informes y graficas
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6635,7 +6639,7 @@ function render_input_para_columna($nombre_columna, $meta_columna, $valor_actual
 ```
 
 ### mejoras
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7951,7 +7955,7 @@ function render_tabla_html_con_links($conexion, $tabla, $rows, $bd){
 ```
 
 ### claves primarias dinamicas
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9386,7 +9390,7 @@ function render_tabla_html_con_links($conexion, $tabla, $rows, $bd){
 ```
 
 ### graficas y degradados
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -10791,7 +10795,7 @@ function render_pie_chart($segmentos, $chart_id){
 ```
 
 ### fuente
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12449,7 +12453,7 @@ function render_pie_chart($segmentos, $chart_id){
 ```
 
 ### ajustes
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -14258,7 +14262,7 @@ function render_pie_chart($segmentos, $chart_id){
 ```
 
 ### deteccion de plantillas
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -15893,7 +15897,7 @@ function render_pie_chart($segmentos, $chart_id){
 ```
 
 ### junto los botones
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -17533,7 +17537,7 @@ function render_pie_chart($segmentos, $chart_id){
 ```
 
 ### tiendaonline
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -18042,7 +18046,7 @@ ORDER BY o.order_date DESC;
 ```
 
 ### tiendaonlineespanol
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -18711,7 +18715,7 @@ Estas mejoras y consultas adicionales pueden ayudarte a gestionar de manera más
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/003-Organizaci%C3%B3n%20y%20consulta%20de%20la%20informaci%C3%B3n/004-Informes%20y%20listados%20de%20la%20aplicaci%C3%B3n)
 
 ### kahoot
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `001-kahoot.php`
 
@@ -19481,7 +19485,7 @@ if ($api !== null) {
 ```
 
 ### segunda version
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `002-segunda version.php`
 
@@ -20555,7 +20559,7 @@ if ($api !== null) {
 ```
 
 ### tercera version
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `003-tercera version.php`
 
@@ -21888,7 +21892,7 @@ def home():
 Con este código, cuando se ejecute el servidor de Flask y se envíe una solicitud HTTP GET o POST a la ruta `/`, se ejecutará el código correspondiente. Si se envía una solicitud POST con un campo `user_query` lleno de texto, se procesará la consulta SQL recibida y se devolverá la respuesta en formato HTML en la página index.html.
 
 ### preparacion sql
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -21992,7 +21996,7 @@ INSERT INTO clientes (nombre, apellidos, email, telefono, ciudad, pais, fecha_re
 ```
 
 ### app
-<small>Creado: 2025-12-22 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -22295,7 +22299,7 @@ Esto debería hacer que la consulta se genere de manera segura y útil.
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/004-Implantaci%C3%B3n%20de%20sistemas%20ERP-CRM%20en%20una%20empresa/002-Selecci%C3%B3n%20de%20los%20m%C3%B3dulos%20del%20sistema%20ERP-CRM)
 
 ### maqueta front web
-<small>Creado: 2026-01-07 16:17</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `003-maqueta front web.html`
 
@@ -22322,7 +22326,7 @@ Esto debería hacer que la consulta se genere de manera segura y útil.
 ```
 
 ### estilo
-<small>Creado: 2026-01-07 16:23</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `004-estilo.html`
 
@@ -22362,7 +22366,7 @@ Esto debería hacer que la consulta se genere de manera segura y útil.
 ```
 
 ### logo
-<small>Creado: 2026-01-07 16:32</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `005-logo.html`
 
@@ -22422,7 +22426,7 @@ Esto debería hacer que la consulta se genere de manera segura y útil.
 ```
 
 ### estructura de la base de datos
-<small>Creado: 2026-01-07 16:48</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `006-estructura de la base de datos.sql`
 
@@ -22487,7 +22491,7 @@ UPDATE `conversaciones` SET `descripcion` = 'Primera conversación' WHERE `conve
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/004-Implantaci%C3%B3n%20de%20sistemas%20ERP-CRM%20en%20una%20empresa/003-Tablas%20y%20vistas%20que%20es%20preciso%20adaptar)
 
 ### continuamos
-<small>Creado: 2026-01-07 20:14</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `006-continuamos.html`
 
@@ -22553,7 +22557,7 @@ UPDATE `conversaciones` SET `descripcion` = 'Primera conversación' WHERE `conve
 ```
 
 ### ampliamos sql
-<small>Creado: 2026-01-07 20:15</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `ampliamos sql.sql`
 
@@ -22697,7 +22701,7 @@ VALUES
 ```
 
 ### chatjocarsa_exportacion
-<small>Creado: 2026-01-07 20:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `chatjocarsa_exportacion.sql`
 
@@ -22935,7 +22939,7 @@ COMMIT;
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/004-Implantaci%C3%B3n%20de%20sistemas%20ERP-CRM%20en%20una%20empresa/004-Consultas%20necesarias%20para%20obtener%20informaci%C3%B3n)
 
 ### index
-<small>Creado: 2026-01-07 20:38</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `index.html`
 
@@ -22978,7 +22982,7 @@ COMMIT;
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/004-Implantaci%C3%B3n%20de%20sistemas%20ERP-CRM%20en%20una%20empresa/005-Creaci%C3%B3n%20de%20formularios%20personalizados)
 
 ### index
-<small>Creado: 2026-01-07 21:11</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `index.html`
 
@@ -23146,3 +23150,25 @@ Basándome en el contexto y las instrucciones proporcionadas, aquí tienes una l
    - Brene descripción: Se proporcionará un código que contiene errores conocidos, y los alumnos deberán depurar estos problemas para asegurarse de que el programa funcione correctamente en todas las condiciones posibles.
 
 Estas actividades están diseñadas para reforzar los conceptos aprendidos en clase mediante la aplicación práctica de esos conocimientos a situaciones realistas dentro del contexto empresarial.
+
+
+
+<a id="actividades-final-de-unidad-segundo-trimestre"></a>
+# Actividades final de unidad - Segundo trimestre
+
+<a id="proyecto-erp-en-clase"></a>
+## Proyecto ERP en clase
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/301-Actividades%20final%20de%20unidad%20-%20Segundo%20trimestre/001-Proyecto%20ERP%20en%20clase)
+
+
+<a id="editor-de-nodos-n8n"></a>
+## Editor de nodos n8n
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/301-Actividades%20final%20de%20unidad%20-%20Segundo%20trimestre/002-Editor%20de%20nodos%20n8n)
+
+
+<a id="reorganizacion-catalogo-jocarsa"></a>
+## Reorganizacion catálogo jocarsa
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Sistemas%20de%20gesti%C3%B3n%20empresarial/301-Actividades%20final%20de%20unidad%20-%20Segundo%20trimestre/003-Reorganizacion%20cat%C3%A1logo%20jocarsa)

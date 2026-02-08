@@ -642,7 +642,7 @@ if __name__ == "__main__":
     "mysql": {
         "server": "localhost",
         "user": "root",
-        "password": "Lielolilo123$",
+        "password": "******",
         "database": "capitol"
     },
     "ultima_carpeta_codigo": "/var/www/html/indexador",

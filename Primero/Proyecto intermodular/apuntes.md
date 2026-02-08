@@ -66,8 +66,18 @@
   - [Proyecto ollama curriculums](#proyecto-ollama-curriculums)
   - [Web con panel de control](#web-con-panel-de-control)
   - [creador de muchos articulso de blog](#creador-de-muchos-articulso-de-blog)
+  - [posicionamiento](#posicionamiento)
+  - [Multimedia](#multimedia)
 - [Actividad libre de final de evaluación - La milla extra](#actividad-libre-de-final-de-evaluacion-la-milla-extra)
   - [La Milla Extra - Primera evaluación](#la-milla-extra-primera-evaluacion)
+- [Actividades de final de unidad segundo trimestre](#actividades-de-final-de-unidad-segundo-trimestre)
+  - [Proyecto Piero (imágenes en internet)](#proyecto-piero-imagenes-en-internet)
+  - [Web jocarsa](#web-jocarsa)
+  - [Ollama curriculums](#ollama-curriculums)
+  - [Web con panel de control](#web-con-panel-de-control-1)
+  - [Web con panel de control (Copiar 3)](#web-con-panel-de-control-copiar-3)
+  - [Mejora del posicionamiento de una web (SEO)](#mejora-del-posicionamiento-de-una-web-seo)
+  - [Web de la cantante Carolina Vega (inserción de audio)](#web-de-la-cantante-carolina-vega-insercion-de-audio)
 - [Carpeta sin título](#carpeta-sin-titulo)
 
 ---
@@ -495,7 +505,7 @@ En esta carpeta de ejercicios se aborda la planificación y valoración de recur
 Esta carpeta contiene un conjunto de ejercicios en Python utilizando la biblioteca Flask para generar contenido HTML y CSS dinámicamente. Los ejercicios comienzan con la creación básica de una página web usando Flask, pasando a crear un calendario completo y finalmente desarrollar el tablero de ajedrez mediante manipulaciones condicionales del CSS. A través de estos ejercicios, se aprenden conceptos clave como la estructura de rutas en Flask, construcción de cadenas HTML dinámicas con bucles y condicionales, y aplicación de estilos CSS para diseño gráfico. Estos ejercicios son especialmente útiles para aprender a integrar lógica back-end con presentación front-end utilizando un framework web como Flask.
 
 ### flask
-<small>Creado: 2025-09-29 16:06</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -509,7 +519,7 @@ Este fragmento de código es más bien un comentario que te indica cómo configu
 ```
 
 ### arrancar flask
-<small>Creado: 2025-09-29 16:08</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -537,7 +547,7 @@ def raiz():
 ```
 
 ### ahora arranco el servidor
-<small>Creado: 2025-09-29 16:09</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -569,7 +579,7 @@ if __name__ == "__main__":
 ```
 
 ### ahora imprimo html real
-<small>Creado: 2025-09-29 16:11</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -603,7 +613,7 @@ if __name__ == "__main__":
 ```
 
 ### html completo
-<small>Creado: 2025-09-29 16:12</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -648,7 +658,7 @@ if __name__ == "__main__":
 ```
 
 ### ademas puedo poner css
-<small>Creado: 2025-09-29 16:14</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -694,7 +704,7 @@ if __name__ == "__main__":
 ```
 
 ### contenido dinamico
-<small>Creado: 2025-09-29 16:15</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -742,7 +752,7 @@ if __name__ == "__main__":
 ```
 
 ### calendario con python y html
-<small>Creado: 2025-09-29 16:18</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -791,7 +801,7 @@ if __name__ == "__main__":
 ```
 
 ### ahora hago un for de dias
-<small>Creado: 2025-09-29 16:20</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -851,7 +861,7 @@ if __name__ == "__main__":
 ```
 
 ### el poder del css
-<small>Creado: 2025-09-29 16:21</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -916,7 +926,7 @@ if __name__ == "__main__":
 ```
 
 ### usamos grid
-<small>Creado: 2025-09-29 16:22</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -982,7 +992,7 @@ if __name__ == "__main__":
 ```
 
 ### ahora quiero todo el año
-<small>Creado: 2025-09-29 16:25</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1055,7 +1065,7 @@ if __name__ == "__main__":
 ```
 
 ### creo un tablero de ajedrez
-<small>Creado: 2025-09-29 16:31</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1087,7 +1097,7 @@ if __name__ == "__main__":
 ```
 
 ### celdas declaracion
-<small>Creado: 2025-09-29 16:34</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1136,7 +1146,7 @@ if __name__ == "__main__":
 ```
 
 ### un poco de css aunque poco legal
-<small>Creado: 2025-09-29 16:35</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1187,7 +1197,7 @@ if __name__ == "__main__":
 ```
 
 ### grid en el body
-<small>Creado: 2025-09-29 16:36</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1233,7 +1243,7 @@ if __name__ == "__main__":
 ```
 
 ### condicional
-<small>Creado: 2025-09-29 16:38</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1279,7 +1289,7 @@ if __name__ == "__main__":
 ```
 
 ### regla diferente en cada fila
-<small>Creado: 2025-09-29 16:39</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1331,7 +1341,7 @@ if __name__ == "__main__":
 ```
 
 ### comentarios en el ejercicio
-<small>Creado: 2025-09-29 16:42</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -1682,7 +1692,7 @@ Estas actividades buscan capacitar a los estudiantes no solo técnicamente sino 
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/002-Selecci%C3%B3n%20de%20un%20servicio%20o%20producto/003-Informaci%C3%B3n%20relativa%20a%20las%20soluciones)
 
 ### producto
-<small>Creado: 2025-12-15 14:48</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `producto.php`
 
@@ -2308,7 +2318,7 @@ function render_article_image(array $img){
 ```
 
 ### producto
-<small>Creado: 2025-12-15 15:01</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `producto.xml`
 
@@ -2566,7 +2576,7 @@ function render_article_image(array $img){
 ```
 
 ### producto
-<small>Creado: 2025-12-15 14:46</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `producto.xsd`
 
@@ -2913,7 +2923,7 @@ function render_article_image(array $img){
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/002-Selecci%C3%B3n%20de%20un%20servicio%20o%20producto/006-Partes%20del%20proyecto)
 
 ### index
-<small>Creado: 2025-12-15 14:52</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `index.php`
 
@@ -3036,7 +3046,7 @@ function render_article_image(array $img){
 ```
 
 ### producto
-<small>Creado: 2025-12-15 14:52</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `producto.php`
 
@@ -3668,7 +3678,7 @@ function render_article_image(array $img){
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/002-Selecci%C3%B3n%20de%20un%20servicio%20o%20producto/007-Recursos%20materiales%20y%20humanos%20necesarios)
 
 ### contacto
-<small>Creado: 2025-12-15 15:19</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `contacto.php`
 
@@ -4062,7 +4072,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ```
 
 ### index
-<small>Creado: 2025-12-15 15:18</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `index.php`
 
@@ -4187,7 +4197,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ```
 
 ### pagina
-<small>Creado: 2025-12-15 15:18</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `pagina.php`
 
@@ -4596,7 +4606,7 @@ function render_article_image(array $img){
 ```
 
 ### producto
-<small>Creado: 2025-12-15 15:19</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `producto.php`
 
@@ -5416,7 +5426,7 @@ It seems you've been working through a series of steps involving Flask web appli
 Would you like to proceed further into these steps or address any specific issues?
 
 ### crear una aplicación de prueba en el servidor
-<small>Creado: 2025-10-06 16:00</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -5448,7 +5458,7 @@ if __name__ == "__main__":
 ```
 
 ### intentamos ejecutarlo
-<small>Creado: 2025-10-06 16:14</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -5966,7 +5976,7 @@ josevicente@ubuntuserver:~$
 ```
 
 ### ahora si que ejecutamos de verdad
-<small>Creado: 2025-10-06 16:16</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6000,7 +6010,7 @@ Pero la IP no es la correcta (192.168.1.78)
 ```
 
 ### cambiamos la IP de escucha
-<small>Creado: 2025-10-06 16:17</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6030,7 +6040,7 @@ if __name__ == "__main__":
 ```
 
 ### ejecutamos de nuevo
-<small>Creado: 2025-10-06 16:18</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6047,7 +6057,7 @@ En el servidor paro la versión 2, y lanzo la versión 7
 ```
 
 ### escuchamos en el puerto 80
-<small>Creado: 2025-10-06 16:23</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6079,7 +6089,7 @@ if __name__ == "__main__":
 ```
 
 ### escuchamos en el puerto 8080
-<small>Creado: 2025-10-06 16:28</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6107,7 +6117,7 @@ if __name__ == "__main__":
 ```
 
 ### escuchamos en el puerto 8080
-<small>Creado: 2025-10-06 16:28</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6137,7 +6147,7 @@ if __name__ == "__main__":
 ```
 
 ### creo un microblog
-<small>Creado: 2025-10-06 16:36</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6189,7 +6199,7 @@ if __name__ == "__main__":
 ```
 
 ### apunto al servidor
-<small>Creado: 2025-10-06 16:36</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6239,7 +6249,7 @@ if __name__ == "__main__":
 ```
 
 ### Archivo sin título
-<small>Creado: 2025-10-13 16:36</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6427,7 +6437,7 @@ if __name__ == "__main__":
 Este código crea un servidor web básico con Flask que muestra artículos desde una base de datos SQLite y presenta los resultados en HTML generado dinámicamente.
 
 ### esquema
-<small>Creado: 2025-10-13 17:54</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6631,7 +6641,7 @@ Este tipo de diagrama es útil para mostrar relaciones y dependencias en sistema
 ```
 
 ### crear tabla de articulos de blog
-<small>Creado: 2025-10-13 16:03</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6655,7 +6665,7 @@ CREATE TABLE "articulos" (
 ```
 
 ### insertar articulo
-<small>Creado: 2025-10-13 16:05</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6682,7 +6692,7 @@ INSERT INTO articulos VALUES(
 ```
 
 ### insertar mas articulos
-<small>Creado: 2025-10-13 16:06</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6724,7 +6734,7 @@ INSERT INTO articulos VALUES(
 ```
 
 ### quiero hacer un select
-<small>Creado: 2025-10-13 16:11</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6741,7 +6751,7 @@ SELECT * FROM articulos;
 ```
 
 ### conexion con sqlite
-<small>Creado: 2025-10-13 16:12</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6778,7 +6788,7 @@ print(filas)
 ```
 
 ### algo mas fino
-<small>Creado: 2025-10-13 16:14</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6812,7 +6822,7 @@ for fila in filas:
 ```
 
 ### ahora quiero diccionario
-<small>Creado: 2025-10-13 16:16</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6841,7 +6851,7 @@ for fila in filas:
 ```
 
 ### controlo el diccionario
-<small>Creado: 2025-10-13 16:17</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6874,7 +6884,7 @@ for fila in filas:
 ```
 
 ### extraigo la informacion limpia
-<small>Creado: 2025-10-13 16:18</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6907,7 +6917,7 @@ for fila in filas:
 ```
 
 ### ahora traigo flask
-<small>Creado: 2025-10-13 16:26</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -6954,7 +6964,7 @@ if __name__ == "__main__":
 ```
 
 ### html y css minimo
-<small>Creado: 2025-10-13 16:31</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7018,7 +7028,7 @@ if __name__ == "__main__":
 ```
 
 ### ahora css minimo
-<small>Creado: 2025-10-13 16:35</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7089,7 +7099,7 @@ if __name__ == "__main__":
 ```
 
 ### imagenes en static
-<small>Creado: 2025-10-13 16:38</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7162,7 +7172,7 @@ if __name__ == "__main__":
 ```
 
 ### nuevas entradas
-<small>Creado: 2025-10-13 16:36</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7200,7 +7210,7 @@ INSERT INTO articulos VALUES(
 ```
 
 ### imagenes en static
-<small>Creado: 2025-10-13 16:38</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7271,7 +7281,7 @@ if __name__ == "__main__":
 ```
 
 ### un poco de grid
-<small>Creado: 2025-10-13 16:41</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7344,7 +7354,7 @@ if __name__ == "__main__":
 ```
 
 ### texto alternativo
-<small>Creado: 2025-10-13 16:42</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7417,7 +7427,7 @@ if __name__ == "__main__":
 ```
 
 ### adapto ip
-<small>Creado: 2025-10-13 16:54</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -7755,7 +7765,7 @@ By following these steps, you will have a Flask application that serves multiple
 Let me know if you need further assistance or specific configurations!
 
 ### Esquema full stack
-<small>Creado: 2025-10-20 19:18</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8359,7 +8369,7 @@ The SVG is a well-structured visual representation of skill domains. By enhancin
 ```
 
 ### flask hola mundo
-<small>Creado: 2025-10-20 15:39</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8390,7 +8400,7 @@ if __name__ == "__main__":
 ```
 
 ### html más válido
-<small>Creado: 2025-10-20 15:40</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8430,7 +8440,7 @@ if __name__ == "__main__":
 ```
 
 ### simulo una tienda online
-<small>Creado: 2025-10-20 15:42</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8533,7 +8543,7 @@ if __name__ == "__main__":
 ```
 
 ### un poco de css
-<small>Creado: 2025-10-20 15:45</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8642,7 +8652,7 @@ if __name__ == "__main__":
 ```
 
 ### traigo sqlite
-<small>Creado: 2025-10-20 15:56</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8758,7 +8768,7 @@ if __name__ == "__main__":
 ```
 
 ### separo en tres bloques
-<small>Creado: 2025-10-20 16:01</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8838,7 +8848,7 @@ if __name__ == "__main__":
 ```
 
 ### 20 productos mas
-<small>Creado: 2025-10-20 16:29</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8875,7 +8885,7 @@ INSERT INTO productos (nombre, descripcion, precio, imagen) VALUES
 ```
 
 ### flask multipagina
-<small>Creado: 2025-10-20 16:30</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8901,7 +8911,7 @@ if __name__ == "__main__":
 ```
 
 ### muchas rutas
-<small>Creado: 2025-10-20 16:33</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8939,7 +8949,7 @@ if __name__ == "__main__":
 ```
 
 ### pagina mas elaborada
-<small>Creado: 2025-10-20 16:36</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -8979,7 +8989,7 @@ if __name__ == "__main__":
 ```
 
 ### ahora con estilo y menu
-<small>Creado: 2025-10-20 16:38</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9032,7 +9042,7 @@ if __name__ == "__main__":
 ```
 
 ### ahora con css
-<small>Creado: 2025-10-20 16:39</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9087,7 +9097,7 @@ if __name__ == "__main__":
 ```
 
 ### plantillas flask
-<small>Creado: 2025-10-20 16:42</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9115,7 +9125,7 @@ if __name__ == "__main__":
 ```
 
 ### varias paginas y varias plantillas
-<small>Creado: 2025-10-20 16:46</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9151,7 +9161,7 @@ if __name__ == "__main__":
 ```
 
 ### blog
-<small>Creado: 2025-10-20 15:55</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9578,7 +9588,7 @@ Y podrás acceder a la aplicación a través de `http://127.0.0.1:5000/` o desde
 ¡Espero que esto sea lo que necesitas!
 
 ### creacion de tabla
-<small>Creado: 2025-10-27 16:02</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9606,7 +9616,7 @@ CREATE TABLE "productos" (
 ```
 
 ### insercion de 20 productos
-<small>Creado: 2025-10-27 16:11</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9643,7 +9653,7 @@ INSERT INTO productos (nombre, descripcion, imagen, precio) VALUES
 ```
 
 ### controlar de leer
-<small>Creado: 2025-10-27 16:13</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9676,7 +9686,7 @@ basededatos.close()
 ```
 
 ### maqueta visual de tienda online
-<small>Creado: 2025-10-27 16:16</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -9739,7 +9749,7 @@ Por último, en la parte inferior de la página se encuentra el `footer`, que co
 ```
 
 ### estilo de la tienda
-<small>Creado: 2025-10-27 16:17</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -10009,7 +10019,7 @@ El código es importante porque proporciona una estructura clara y estética par
 ```
 
 ### generar web
-<small>Creado: 2025-10-27 16:23</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -10174,7 +10184,7 @@ if __name__ == '__main__':
 ```
 
 ### revisamos url de las iagenes
-<small>Creado: 2025-10-27 16:24</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -10339,7 +10349,7 @@ if __name__ == '__main__':
 ```
 
 ### comentarios en el software
-<small>Creado: 2025-10-27 16:28</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -10553,7 +10563,7 @@ if __name__ == '__main__':                                      # Si este archiv
 ```
 
 ### escuchar en todas las interfaces
-<small>Creado: 2025-10-27 17:04</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -10992,7 +11002,7 @@ Al ejecutar este código, tu servidor Flask será accesible desde cualquier dire
 Esta carpeta contiene un conjunto de ejercicios diseñados para ayudarte a prepararte para el examen intermodular, enfocándose en la integración entre bases de datos MySQL y aplicaciones web Flask. Los problemas trabajan con la extracción y manipulación de datos desde una base de datos y su visualización en formato HTML vía una aplicación web simple. A lo largo de los ejercicios, practicarás habilidades como consultas SQL básicas, manejo de conexiones a bases de datos, uso del framework Flask para crear rutas web, y construcción básica de páginas web con HTML.
 
 ### seleccionar
-<small>Creado: 2025-10-30 16:54</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11026,7 +11036,7 @@ for linea in lineas:
 ```
 
 ### importamos flask
-<small>Creado: 2025-10-30 16:56</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11075,7 +11085,7 @@ if __name__ == "__main__":
 ```
 
 ### que lo saque en la web
-<small>Creado: 2025-10-30 16:58</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11115,7 +11125,7 @@ if __name__ == "__main__":
 ```
 
 ### creamos un articulo
-<small>Creado: 2025-10-30 17:01</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11166,7 +11176,7 @@ if __name__ == "__main__":
 ```
 
 ### estilo mas consistente
-<small>Creado: 2025-10-30 17:05</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11315,7 +11325,7 @@ Estas actividades buscan cubrir desde el manejo básico hasta aspectos más avan
 En esta carpeta, encontrarás una serie de ejercicios diseñados para repasar y consolidar tus conocimientos en SQL, centrándote principalmente en el manejo de bases de datos relacionales. Los problemas abordan la creación de tablas con relaciones entre ellas, inserción de datos, definición de claves foráneas, selección de datos mediante consultas simples y avanzadas, y gestión de usuarios y privilegios en MySQL. A través de estos ejercicios, aprenderás a estructurar correctamente una base de datos, realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar), y trabajar con vistas para simplificar la consulta y visualización de datos complejos.
 
 ### crear tablas
-<small>Creado: 2025-11-13 15:47</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11352,7 +11362,7 @@ CREATE TABLE Categorias(
 ```
 
 ### insertar
-<small>Creado: 2025-11-13 15:47</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11382,7 +11392,7 @@ INSERT INTO Piezas VALUES(
 ```
 
 ### fk
-<small>Creado: 2025-11-13 15:47</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11403,7 +11413,7 @@ ON UPDATE CASCADE;
 ```
 
 ### selecciones
-<small>Creado: 2025-11-13 15:47</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11420,7 +11430,7 @@ SELECT * FROM Piezas;
 ```
 
 ### left join
-<small>Creado: 2025-11-13 15:47</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11437,7 +11447,7 @@ ON Piezas.id_categoria = Categorias.Identificador;
 ```
 
 ### ahora creo la vista
-<small>Creado: 2025-11-13 15:47</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11468,7 +11478,7 @@ SELECT * FROM piezas_y_categorias;
 ```
 
 ### usuario
-<small>Creado: 2025-11-13 15:47</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11602,7 +11612,7 @@ Para mejorar la robustez del scraper:
 - También podrías considerar usar una librería más especializada como Selenium que permite controlar un navegador web de forma programática, lo cual podría hacer el comportamiento del scraper aún más similar al humano.
 
 ### peticiones
-<small>Creado: 2025-11-17 15:58</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11617,7 +11627,7 @@ import requests
 ```
 
 ### pido mi propia web
-<small>Creado: 2025-11-17 15:59</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11645,7 +11655,7 @@ print(html)
 ```
 
 ### guardar mis propias imagenes
-<small>Creado: 2025-11-17 16:00</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11745,7 +11755,7 @@ print("\nTerminado.")
 ```
 
 ### scrapeo google
-<small>Creado: 2025-11-17 16:04</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -11843,7 +11853,7 @@ print("\nTerminado.")
 ```
 
 ### probamos con deepseek
-<small>Creado: 2025-11-17 16:07</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12076,7 +12086,7 @@ if __name__ == "__main__":
 ```
 
 ### parametro personalizado
-<small>Creado: 2025-11-17 16:08</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 #### Explicación
 
@@ -12402,7 +12412,7 @@ Si necesitas usar las imágenes en un proyecto público o comercial, es mejor bu
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/007-Ejercicios%20segundo%20trimestre/006-creador%20de%20muchos%20articulso%20de%20blog)
 
 ### generar
-<small>Creado: 2026-01-12 15:37</small>
+<small>Creado: 2026-01-19 16:28</small>
 
 `generar.py`
 
@@ -12798,6 +12808,1397 @@ if __name__ == "__main__":
 ```
 
 
+<a id="posicionamiento"></a>
+## posicionamiento
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/007-Ejercicios%20segundo%20trimestre/007-posicionamiento)
+
+
+<a id="multimedia"></a>
+## Multimedia
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/007-Ejercicios%20segundo%20trimestre/008-Multimedia)
+
+### audio
+<small>Creado: 2026-01-26 16:10</small>
+
+`001-audio.html`
+
+```html
+<!doctype html>
+<html>
+	<head>
+	</head>
+	<body>
+		<audio src="A Long Weekend.mp3"></audio>
+	</body>
+</html>
+```
+
+### le pongo los controles
+<small>Creado: 2026-01-26 16:11</small>
+
+`002-le pongo los controles.html`
+
+```html
+<!doctype html>
+<html>
+	<head>
+	</head>
+	<body>
+		<audio src="A Long Weekend.mp3" controls></audio>
+	</body>
+</html>
+```
+
+### varias ondas de audio
+<small>Creado: 2026-01-26 16:12</small>
+
+`003-varias ondas de audio.html`
+
+```html
+<!doctype html>
+<html>
+	<head>
+	</head>
+	<body>
+		<audio src="A Long Weekend.mp3" controls></audio>
+		<audio src="A Long Weekend.mp3" controls></audio>
+		<audio src="A Long Weekend.mp3" controls></audio>
+		<audio src="A Long Weekend.mp3" controls></audio>
+	</body>
+</html>
+```
+
+### esquema
+<small>Creado: 2026-01-26 16:23</small>
+
+`004-esquema.html`
+
+```html
+<!doctype html>
+<html>
+	<head>
+	</head>
+	<body>
+		<header>
+			<h1>Carolina Vega</h1>
+			<nav>
+				<a href="">Inicio</a>
+				<a href="">Biografía</a>
+				<a href="">Música</a>
+				<a href="">Tour</a>
+				<a href="">Galería</a>
+				<a href="">Contacto</a>
+				<a href="">F</a>
+				<a href="">X</a>
+				<a href="">Youtube</a>
+			</nav>
+		</header>
+		<main>
+			<section id="heroe">
+				<h3>Carolina Vega</h3>
+				<h4>Nuevo album disponible ahora</h4>
+				<h5>Entre luces y sombras</h5>
+				<a>Escuchar ahora</a>
+				<a>Ver video</a>
+			</section>
+		</main>
+		<footer>
+		</footer>
+	</body>
+</html>
+```
+
+### fuentes
+<small>Creado: 2026-01-26 16:33</small>
+
+`005-fuentes.html`
+
+```html
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+			@font-face {
+			  font-family: magiera;
+			  src: url("Magiera Script.ttf");
+			}
+			html{font-family:ubuntu,sans-serif;background:black;color:white;}
+			h1{font-family:magiera;}
+			header{display:flex;justify-content:space-between;align-items:center;}
+			header nav a{text-decoration:none;color:inherit;}
+			#heroe{
+				background:url("heroe.png");
+				background-size:cover;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<main>
+			<section id="heroe">
+				<header>
+					<h1>Carolina Vega</h1>
+					<nav>
+						<a href="">Inicio</a>
+						<a href="">Biografía</a>
+						<a href="">Música</a>
+						<a href="">Tour</a>
+						<a href="">Galería</a>
+						<a href="">Contacto</a>
+						<a href="">F</a>
+						<a href="">X</a>
+						<a href="">Youtube</a>
+					</nav>
+				</header>
+				<h3>Carolina Vega</h3>
+				<h4>Nuevo album disponible ahora</h4>
+				<h5>Entre luces y sombras</h5>
+				<a>Escuchar ahora</a>
+				<a>Ver video</a>
+			</section>
+		</main>
+		<footer>
+		</footer>
+	</body>
+</html>
+```
+
+### imagen heroe
+<small>Creado: 2026-01-26 16:37</small>
+
+`006-imagen heroe.html`
+
+```html
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+			@font-face {
+			  font-family: magiera;
+			  src: url("Magiera Script.ttf");
+			}
+			html,body{padding:0px;margin:0px;}
+			html{font-family:ubuntu,sans-serif;background:black;color:white;}
+			h1{font-family:magiera;}
+			header{display:flex;justify-content:space-between;}
+			header nav{
+				background:rgba(0,0,0,0.5);
+				padding:30px;
+			}
+			header nav a{text-decoration:none;color:inherit;text-transform:uppercase;margin:20px;font-weight:bold;}
+			#heroe{
+				background:url("heroe.png");
+				background-size:cover;
+				height:1200px;
+				background-position:center center;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<main>
+			<section id="heroe">
+				<header>
+					<h1>Carolina Vega</h1>
+					<nav>
+						<a href="">Inicio</a>
+						<a href="">Biografía</a>
+						<a href="">Música</a>
+						<a href="">Tour</a>
+						<a href="">Galería</a>
+						<a href="">Contacto</a>
+						<a href="">F</a>
+						<a href="">X</a>
+						<a href="">Youtube</a>
+					</nav>
+				</header>
+				<h3>Carolina Vega</h3>
+				<h4>Nuevo album disponible ahora</h4>
+				<h5>Entre luces y sombras</h5>
+				<a>Escuchar ahora</a>
+				<a>Ver video</a>
+			</section>
+		</main>
+		<footer>
+		</footer>
+	</body>
+</html>
+```
+
+### fondo en degradado
+<small>Creado: 2026-01-26 16:41</small>
+
+`007-fondo en degradado.html`
+
+```html
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+			@font-face {
+			  font-family: magiera;
+			  src: url("Magiera Script.ttf");
+			}
+			html,body{padding:0px;margin:0px;}
+			html{font-family:ubuntu,sans-serif;background:black;color:white;}
+			h1{font-family:magiera;}
+			header{display:flex;justify-content:space-between;}
+			header nav{
+				background: rgba(0, 0, 0, 0);
+background: linear-gradient(90deg,rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.53) 28%, rgba(0, 0, 0, 0.49) 100%);
+				padding:30px;
+			}
+			header nav a{text-decoration:none;color:inherit;text-transform:uppercase;margin:20px;font-weight:bold;}
+			#heroe{
+				background:url("heroe.png");
+				background-size:cover;
+				height:600px;
+				background-position:center top;
+			}
+			header h1{
+				margin:30px;
+				font-size:60px;
+				text-shadow:0px 3px 6px black;
+				transform:rotate(-10deg);
+			}
+		</style>
+	</head>
+	<body>
+		
+		<main>
+			<section id="heroe">
+				<header>
+					<h1>Carolina Vega</h1>
+					<nav>
+						<a href="">Inicio</a>
+						<a href="">Biografía</a>
+						<a href="">Música</a>
+						<a href="">Tour</a>
+						<a href="">Galería</a>
+						<a href="">Contacto</a>
+						<a href="">F</a>
+						<a href="">X</a>
+						<a href="">Youtube</a>
+					</nav>
+				</header>
+				<h3>Carolina Vega</h3>
+				<h4>Nuevo album disponible ahora</h4>
+				<h5>Entre luces y sombras</h5>
+				<a>Escuchar ahora</a>
+				<a>Ver video</a>
+			</section>
+		</main>
+		<footer>
+		</footer>
+	</body>
+</html>
+```
+
+### contenido del heroe
+<small>Creado: 2026-01-26 16:46</small>
+
+`008-contenido del heroe.html`
+
+```html
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+			@font-face {
+			  font-family: magiera;
+			  src: url("Magiera Script.ttf");
+			}
+			html,body{padding:0px;margin:0px;}
+			html{font-family:ubuntu,sans-serif;background:black;color:white;}
+			h1{font-family:magiera;}
+			header{display:flex;justify-content:space-between;}
+			header nav{
+				background: rgba(0, 0, 0, 0);
+background: linear-gradient(90deg,rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.53) 28%, rgba(0, 0, 0, 0.49) 100%);
+				padding:30px;
+			}
+			header nav a{text-decoration:none;color:inherit;text-transform:uppercase;margin:20px;font-weight:bold;}
+			#heroe{
+				background:url("heroe.png");
+				background-size:cover;
+				height:600px;
+				background-position:center top;
+				display:flex;
+				flex-direction:column;
+			}
+			header h1{
+				margin:30px;
+				font-size:60px;
+				text-shadow:0px 3px 6px black;
+				transform:rotate(-10deg);
+			}
+			#heroe #destacado{
+				font-size:1.5em;
+				text-shadow:0px 3px 6px black;
+				width:50%;
+				text-align:center;
+			}
+			#heroe #destacado h3{
+				font-family:magiera;
+				font-size:60px;
+				transform:rotate(-5deg);
+			}
+			#heroe #destacado h4,#heroe #destacado h5,#heroe #destacado a{
+				text-transform:uppercase;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<main>
+			<section id="heroe">
+				<header>
+					<h1>Carolina Vega</h1>
+					<nav>
+						<a href="">Inicio</a>
+						<a href="">Biografía</a>
+						<a href="">Música</a>
+						<a href="">Tour</a>
+						<a href="">Galería</a>
+						<a href="">Contacto</a>
+						<a href="">F</a>
+						<a href="">X</a>
+						<a href="">Youtube</a>
+					</nav>
+				</header>
+				<div id="destacado">
+					<h3>Carolina Vega</h3>
+					<h4>Nuevo album disponible ahora</h4>
+					<h5>Entre luces y sombras</h5>
+					<a href="">Escuchar ahora</a>
+					<a href="">Ver video</a>
+				</div>
+			</section>
+		</main>
+		<footer>
+		</footer>
+	</body>
+</html>
+```
+
+### textura de fondo
+<small>Creado: 2026-01-26 16:52</small>
+
+`009-textura de fondo.html`
+
+```html
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+			@font-face {
+			  font-family: magiera;
+			  src: url("Magiera Script.ttf");
+			}
+			html,body{padding:0px;margin:0px;}
+			html{font-family:ubuntu,sans-serif;background:url("fondo2.png");color:white;}
+			h1{font-family:magiera;}
+			header{display:flex;justify-content:space-between;}
+			header nav{
+				background: rgba(0, 0, 0, 0);
+background: linear-gradient(90deg,rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.53) 28%, rgba(0, 0, 0, 0.49) 100%);
+				padding:30px;
+			}
+			header nav a{text-decoration:none;color:inherit;text-transform:uppercase;margin:20px;font-weight:bold;}
+			#heroe{
+				background:url("heroe.png");
+				background-size:cover;
+				height:600px;
+				background-position:center top;
+				display:flex;
+				flex-direction:column;
+			}
+			header h1{
+				margin:30px;
+				font-size:60px;
+				text-shadow:0px 3px 6px black;
+				transform:rotate(-10deg);
+			}
+			#heroe #destacado{
+				font-size:1.5em;
+				text-shadow:0px 3px 6px black;
+				width:50%;
+				text-align:center;
+			}
+			#heroe #destacado h3{
+				font-family:magiera;
+				font-size:60px;
+				transform:rotate(-5deg);
+			}
+			#heroe #destacado h4,#heroe #destacado h5,#heroe #destacado a{
+				text-transform:uppercase;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<main>
+			<section id="heroe">
+				<header>
+					<h1>Carolina Vega</h1>
+					<nav>
+						<a href="">Inicio</a>
+						<a href="">Biografía</a>
+						<a href="">Música</a>
+						<a href="">Tour</a>
+						<a href="">Galería</a>
+						<a href="">Contacto</a>
+						<a href="">F</a>
+						<a href="">X</a>
+						<a href="">Youtube</a>
+					</nav>
+				</header>
+				<div id="destacado">
+					<h3>Carolina Vega</h3>
+					<h4>Nuevo album disponible ahora</h4>
+					<h5>Entre luces y sombras</h5>
+					<a href="">Escuchar ahora</a>
+					<a href="">Ver video</a>
+				</div>
+			</section>
+		</main>
+		<footer>
+		</footer>
+	</body>
+</html>
+```
+
+### discos
+<small>Creado: 2026-01-26 17:00</small>
+
+`010-discos.html`
+
+```html
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+			@font-face {
+			  font-family: magiera;
+			  src: url("Magiera Script.ttf");
+			}
+			html,body{padding:0px;margin:0px;}
+			html{font-family:ubuntu,sans-serif;background:url("fondo2.png");color:white;}
+			h1{font-family:magiera;}
+			header{display:flex;justify-content:space-between;}
+			header nav{
+				background: rgba(0, 0, 0, 0);
+background: linear-gradient(90deg,rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.53) 28%, rgba(0, 0, 0, 0.49) 100%);
+				padding:30px;
+			}
+			header nav a{text-decoration:none;color:inherit;text-transform:uppercase;margin:20px;font-weight:bold;}
+			#heroe{
+				background:url("heroe.png");
+				background-size:cover;
+				height:600px;
+				background-position:center top;
+				display:flex;
+				flex-direction:column;
+			}
+			header h1{
+				margin:30px;
+				font-size:60px;
+				text-shadow:0px 3px 6px black;
+				transform:rotate(-10deg);
+			}
+			#heroe #destacado{
+				font-size:1.5em;
+				text-shadow:0px 3px 6px black;
+				width:50%;
+				text-align:center;
+			}
+			#heroe #destacado h3{
+				font-family:magiera;
+				font-size:60px;
+				transform:rotate(-5deg);
+			}
+			#heroe #destacado h4,#heroe #destacado h5,#heroe #destacado a{
+				text-transform:uppercase;
+			}
+			#albumes{
+				margin:auto;
+				width:1200px;
+				padding:20px;
+				display:flex;
+				flex-direction:column;
+				gap:20px;
+				color:black;
+			}
+			#albumes article{
+				background:rgba(255,255,255,0.8);
+				padding:20px;
+				display:flex;
+				justify-content:space-between;
+				align-items:center;
+				font-size:1.5em;
+			}
+			#albumes article img{
+				width:200px;
+			}
+			#albumes article a{
+				text-decoration:none;
+				color:inherit;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<main>
+			<section id="heroe">
+				<header>
+					<h1>Carolina Vega</h1>
+					<nav>
+						<a href="">Inicio</a>
+						<a href="">Biografía</a>
+						<a href="">Música</a>
+						<a href="">Tour</a>
+						<a href="">Galería</a>
+						<a href="">Contacto</a>
+						<a href="">F</a>
+						<a href="">X</a>
+						<a href="">Youtube</a>
+					</nav>
+				</header>
+				<div id="destacado">
+					<h3>Carolina Vega</h3>
+					<h4>Nuevo album disponible ahora</h4>
+					<h5>Entre luces y sombras</h5>
+					<a href="">Escuchar ahora</a>
+					<a href="">Ver video</a>
+				</div>
+			</section>
+			<section id="albumes">
+				<article>
+					<img src="portada.png">
+					<div class="texto">
+						<h5>Nombre del album</h5>
+						<h6>2025</h6>
+					</div>
+					<a href="">Escuchar</a>
+				</article>
+				<article>
+					<img src="portada.png">
+					<div class="texto">
+						<h5>Nombre del album</h5>
+						<h6>2025</h6>
+					</div>
+					<a href="">Escuchar</a>
+				</article>
+				<article>
+					<img src="portada.png">
+					<div class="texto">
+						<h5>Nombre del album</h5>
+						<h6>2025</h6>
+					</div>
+					<a href="">Escuchar</a>
+				</article>
+				<article>
+					<img src="portada.png">
+					<div class="texto">
+						<h5>Nombre del album</h5>
+						<h6>2025</h6>
+					</div>
+					<a href="">Escuchar</a>
+				</article>
+			</section>
+		</main>
+		<footer>
+		</footer>
+	</body>
+</html>
+```
+
+### retocado IA
+<small>Creado: 2026-01-26 17:03</small>
+
+`011-retocado IA.html`
+
+```html
+<!-- index.html -->
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Carolina Vega</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="heroe" aria-label="Portada">
+      <header>
+        <h1>Carolina<br>Vega</h1>
+
+        <nav aria-label="Navegación principal">
+          <a href="#inicio">Inicio</a>
+          <a href="#biografia">Biografía</a>
+          <a href="#musica">Música</a>
+          <a href="#tour">Tour</a>
+          <a href="#galeria">Galería</a>
+          <a href="#contacto">Contacto</a>
+
+          <span></span>
+
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="X">x</a>
+          <a href="#" aria-label="YouTube">▶</a>
+        </nav>
+      </header>
+
+      <article id="destacado">
+        <h2>Carolina<br>Vega</h2>
+        <p>NUEVO ÁLBUM DISPONIBLE AHORA</p>
+        <h3>Entre Luces y Sombras</h3>
+
+        <p>
+          <a class="boton" href="#musica">Escuchar ahora</a>
+          <a class="boton negro" href="#video">Ver vídeo</a>
+        </p>
+
+        <p class="plataformas" aria-label="Plataformas">
+          <a href="#" aria-label="Spotify">Spotify</a>
+          <a href="#" aria-label="Apple Music">Apple</a>
+          <a href="#" aria-label="YouTube Music">YT Music</a>
+          <a href="#" aria-label="Amazon Music">Amazon</a>
+        </p>
+      </article>
+    </section>
+
+    <!-- CONTENIDO -->
+    <section id="contenido">
+
+      <!-- DISCOGRAFÍA -->
+      <section id="albumes" aria-label="Discos publicados">
+        <h4>DISCOS PUBLICADOS</h4>
+
+        <article>
+          <img src="portada1.png" alt="Portada Entre Luces y Sombras">
+          <h5>Entre Luces y Sombras</h5>
+          <p>2024</p>
+          <a class="boton" href="#">Escuchar</a>
+        </article>
+
+        <article>
+          <img src="portada2.png" alt="Portada Días de Otoño">
+          <h5>Días de Otoño</h5>
+          <p>2021</p>
+          <a class="boton" href="#">Escuchar</a>
+        </article>
+
+        <article>
+          <img src="portada3.png" alt="Portada Fotografías">
+          <h5>Fotografías</h5>
+          <p>2018</p>
+          <a class="boton" href="#">Escuchar</a>
+        </article>
+
+        <article>
+          <img src="portada4.png" alt="Portada Alma Viajera">
+          <h5>Alma Viajera</h5>
+          <p>2018</p>
+          <a class="boton" href="#">Escuchar</a>
+        </article>
+      </section>
+
+      <!-- CANCIONES + MERCH -->
+      <section id="bloques">
+
+        <section id="canciones" aria-label="Últimas canciones">
+          <h4>ÚLTIMAS CANCIONES</h4>
+
+          <!-- lista simple, cada fila como article (sin contenedor extra) -->
+          <article>
+            <button aria-label="Reproducir Entre Luces y Sombras">▶</button>
+            <h5>Entre Luces y Sombras</h5>
+            <span></span>
+            <a href="#" aria-label="Más opciones">···</a>
+          </article>
+
+          <article>
+            <button aria-label="Reproducir Bajo la Lluvia">▶</button>
+            <h5>Bajo la Lluvia</h5>
+            <span></span>
+            <a href="#" aria-label="Más opciones">···</a>
+          </article>
+
+          <article>
+            <button aria-label="Reproducir Susurro Eterno">▶</button>
+            <h5>Susurro Eterno</h5>
+            <span></span>
+            <a href="#" aria-label="Más opciones">···</a>
+          </article>
+
+          <article>
+            <button aria-label="Reproducir Días de Otoño">▶</button>
+            <h5>Días de Otoño</h5>
+            <span></span>
+            <a href="#" aria-label="Más opciones">···</a>
+          </article>
+
+          <article>
+            <button aria-label="Reproducir Alma Viajera">▶</button>
+            <h5>Alma Viajera</h5>
+            <span></span>
+            <a href="#" aria-label="Más opciones">···</a>
+          </article>
+        </section>
+
+        <aside id="tienda" aria-label="Compra">
+          <img src="merch.png" alt="CD, camiseta y taza de Carolina Vega">
+          <a class="boton grande" href="#">¡Compra ahora!</a>
+        </aside>
+
+      </section>
+
+      <!-- NEWSLETTER -->
+      <section id="sigueme" aria-label="Sígueme">
+        <h4>SÍGUEME EN</h4>
+        <p>ÚNETE A MI NEWSLETTER</p>
+
+        <form action="#" method="post">
+          <input type="email" name="email" placeholder="Tu correo electrónico..." required>
+          <button type="submit">Suscribirse</button>
+        </form>
+
+        <p class="social">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="X">x</a>
+          <a href="#" aria-label="Instagram">⌁</a>
+          <a href="#" aria-label="YouTube">▶</a>
+          <a href="#" aria-label="Spotify">◌</a>
+        </p>
+      </section>
+
+    </section>
+
+  </main>
+
+  <footer>
+    © 2024 CAROLINA VEGA · TODOS LOS DERECHOS RESERVADOS
+  </footer>
+
+</body>
+</html>
+```
+
+### complementamos poniendo las canciones
+<small>Creado: 2026-01-26 17:08</small>
+
+`012-complementamos poniendo las canciones.html`
+
+```html
+<!-- index.html -->
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Carolina Vega</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="heroe" aria-label="Portada">
+      <header>
+        <h1>Carolina<br>Vega</h1>
+
+        <nav aria-label="Navegación principal">
+          <a href="#inicio">Inicio</a>
+          <a href="#biografia">Biografía</a>
+          <a href="#musica">Música</a>
+          <a href="#tour">Tour</a>
+          <a href="#galeria">Galería</a>
+          <a href="#contacto">Contacto</a>
+
+          <span></span>
+
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="X">x</a>
+          <a href="#" aria-label="YouTube">▶</a>
+        </nav>
+      </header>
+
+      <article id="destacado">
+        <h2>Carolina<br>Vega</h2>
+        <p>NUEVO ÁLBUM DISPONIBLE AHORA</p>
+        <h3>Entre Luces y Sombras</h3>
+
+        <p>
+          <a class="boton" href="#musica">Escuchar ahora</a>
+          <a class="boton negro" href="#video">Ver vídeo</a>
+        </p>
+
+        <p class="plataformas" aria-label="Plataformas">
+          <a href="#" aria-label="Spotify">Spotify</a>
+          <a href="#" aria-label="Apple Music">Apple</a>
+          <a href="#" aria-label="YouTube Music">YT Music</a>
+          <a href="#" aria-label="Amazon Music">Amazon</a>
+        </p>
+      </article>
+    </section>
+
+    <!-- CONTENIDO -->
+    <section id="contenido">
+
+      <!-- DISCOGRAFÍA -->
+      <section id="albumes" aria-label="Discos publicados">
+        <h4>DISCOS PUBLICADOS</h4>
+
+        <article>
+          <img src="portada.png" alt="Portada Entre Luces y Sombras">
+          <h5>Entre Luces y Sombras</h5>
+          <p>2024</p>
+          <a class="boton" href="#">Escuchar</a>
+        </article>
+
+        <article>
+          <img src="portada.png" alt="Portada Días de Otoño">
+          <h5>Días de Otoño</h5>
+          <p>2021</p>
+          <a class="boton" href="#">Escuchar</a>
+        </article>
+
+        <article>
+          <img src="portada.png" alt="Portada Fotografías">
+          <h5>Fotografías</h5>
+          <p>2018</p>
+          <a class="boton" href="#">Escuchar</a>
+        </article>
+
+        <article>
+          <img src="portada.png" alt="Portada Alma Viajera">
+          <h5>Alma Viajera</h5>
+          <p>2018</p>
+          <a class="boton" href="#">Escuchar</a>
+        </article>
+      </section>
+
+      <!-- CANCIONES + MERCH -->
+      <section id="bloques">
+
+        <section id="canciones" aria-label="Últimas canciones">
+          <h4>ÚLTIMAS CANCIONES</h4>
+
+          <!-- lista simple, cada fila como article (sin contenedor extra) -->
+          <article>
+            <button aria-label="Reproducir Entre Luces y Sombras">▶</button>
+            <h5>Entre Luces y Sombras</h5>
+            <audio src="A Long Weekend.mp3" controls></audio>
+            <a href="#" aria-label="Más opciones">···</a>
+          </article>
+
+          <article>
+            <button aria-label="Reproducir Bajo la Lluvia">▶</button>
+            <h5>Bajo la Lluvia</h5>
+            <audio src="A Long Weekend.mp3" controls></audio>
+            <a href="#" aria-label="Más opciones">···</a>
+          </article>
+
+          <article>
+            <button aria-label="Reproducir Susurro Eterno">▶</button>
+            <h5>Susurro Eterno</h5>
+            <audio src="A Long Weekend.mp3" controls></audio>
+            <a href="#" aria-label="Más opciones">···</a>
+          </article>
+
+          <article>
+            <button aria-label="Reproducir Días de Otoño">▶</button>
+            <h5>Días de Otoño</h5>
+            <audio src="A Long Weekend.mp3" controls></audio>
+            <a href="#" aria-label="Más opciones">···</a>
+          </article>
+
+          <article>
+            <button aria-label="Reproducir Alma Viajera">▶</button>
+            <h5>Alma Viajera</h5>
+            <audio src="A Long Weekend.mp3" controls></audio>
+            <a href="#" aria-label="Más opciones">···</a>
+          </article>
+        </section>
+
+        <aside id="tienda" aria-label="Compra">
+          <img src="merch.png" alt="CD, camiseta y taza de Carolina Vega">
+          <a class="boton grande" href="#">¡Compra ahora!</a>
+        </aside>
+
+      </section>
+
+      <!-- NEWSLETTER -->
+      <section id="sigueme" aria-label="Sígueme">
+        <h4>SÍGUEME EN</h4>
+        <p>ÚNETE A MI NEWSLETTER</p>
+
+        <form action="#" method="post">
+          <input type="email" name="email" placeholder="Tu correo electrónico..." required>
+          <button type="submit">Suscribirse</button>
+        </form>
+
+        <p class="social">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="X">x</a>
+          <a href="#" aria-label="Instagram">⌁</a>
+          <a href="#" aria-label="YouTube">▶</a>
+          <a href="#" aria-label="Spotify">◌</a>
+        </p>
+      </section>
+
+    </section>
+
+  </main>
+
+  <footer>
+    © 2024 CAROLINA VEGA · TODOS LOS DERECHOS RESERVADOS
+  </footer>
+
+</body>
+</html>
+```
+
+### style
+<small>Creado: 2026-01-26 17:07</small>
+
+`style.css`
+
+```css
+/* style.css */
+@font-face{
+  font-family: magiera;
+  src: url("Magiera Script.ttf");
+}
+
+:root{
+  --papel: rgba(255,255,255,.78);
+  --papel2: rgba(255,255,255,.62);
+  --marron: rgba(35,18,12,.72);
+  --marron2: rgba(35,18,12,.52);
+  --negro: rgba(0,0,0,.65);
+  --sombra: 0 10px 30px rgba(0,0,0,.35);
+  --borde: rgba(80,45,30,.25);
+}
+
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  font-family: ubuntu, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: url("fondo2.png") center top / cover fixed;
+  color: #fff;
+}
+
+/* ---------------------------------------
+   HERO
+--------------------------------------- */
+#heroe{
+  min-height: 660px;
+  background: url("heroe.png") center top / cover no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+#heroe::after{
+  content:"";
+  position:absolute; inset:0;
+  background:
+    radial-gradient(1200px 520px at 55% 30%, rgba(255,210,160,.25), transparent 60%),
+    linear-gradient(180deg, rgba(0,0,0,.35), rgba(0,0,0,.10) 40%, rgba(0,0,0,.18));
+  pointer-events:none;
+}
+
+#heroe > header{
+  position: relative;
+  z-index: 1;
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  gap: 20px;
+  padding: 22px 22px 0 22px;
+}
+
+#heroe h1{
+  margin: 0;
+  font-family: magiera, cursive;
+  font-size: 58px;
+  line-height: .9;
+  transform: rotate(-10deg);
+  text-shadow: 0 6px 16px rgba(0,0,0,.6);
+  letter-spacing: .5px;
+}
+
+#heroe nav{
+  display:flex;
+  align-items:center;
+  gap: 18px;
+  padding: 22px 22px;
+  background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,.50) 28%, rgba(0,0,0,.45) 100%);
+  border-radius: 2px;
+}
+
+#heroe nav a{
+  color: inherit;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-weight:700;
+  font-size: 14px;
+  letter-spacing: .6px;
+  white-space: nowrap;
+  opacity: .95;
+}
+
+#heroe nav a:hover{opacity:1}
+#heroe nav span{flex:1}
+
+#destacado{
+  position: relative;
+  z-index: 1;
+  margin: 60px 0 0 80px;
+  width: min(640px, 92vw);
+  text-shadow: 0 10px 20px rgba(0,0,0,.55);
+}
+
+#destacado h2{
+  margin: 0 0 8px 0;
+  font-family: magiera, cursive;
+  font-size: 84px;
+  line-height: .86;
+  transform: rotate(-6deg);
+}
+
+#destacado p{
+  margin: 10px 0;
+  font-weight: 700;
+  letter-spacing: .8px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+#destacado h3{
+  margin: 10px 0 18px 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 44px;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+
+.boton{
+  display:inline-block;
+  padding: 10px 16px;
+  border-radius: 2px;
+  text-decoration:none;
+  color: #2d1a12;
+  background: linear-gradient(180deg, rgba(255,255,255,.72), rgba(255,255,255,.50));
+  border: 1px solid rgba(255,255,255,.35);
+  box-shadow: 0 8px 18px rgba(0,0,0,.25);
+  text-transform: uppercase;
+  letter-spacing: .6px;
+  font-weight: 800;
+  font-size: 13px;
+  margin-right: 10px;
+}
+
+.boton.negro{
+  background: rgba(0,0,0,.42);
+  color:#fff;
+  border: 1px solid rgba(255,255,255,.18);
+}
+
+.boton:hover{filter: brightness(1.03)}
+.plataformas{
+  margin-top: 14px;
+  opacity: .9;
+  font-size: 13px;
+  text-transform:none;
+}
+.plataformas a{
+  color:#fff;
+  text-decoration:none;
+  margin-right: 14px;
+  opacity: .9;
+}
+.plataformas a:hover{opacity:1}
+
+/* ---------------------------------------
+   CONTENIDO "PAPEL"
+--------------------------------------- */
+#contenido{
+  background: linear-gradient(180deg, var(--papel) 0%, var(--papel2) 100%);
+  color: #1e0f0a;
+  border-top: 1px solid var(--borde);
+  box-shadow: var(--sombra);
+}
+
+#contenido > section{
+  width: min(1200px, calc(100% - 40px));
+  margin: 0 auto;
+}
+
+/* títulos estilo mockup */
+#albumes > h4,
+#canciones > h4{
+  margin: 26px 0 10px 0;
+  text-align:center;
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: #2c1710;
+}
+
+/* ---------------------------------------
+   ÁLBUMES (lista)
+--------------------------------------- */
+#albumes{
+  padding: 20px 0 10px 0;
+}
+
+#albumes article{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap: 16px;
+  padding: 14px 14px;
+  background: rgba(255,255,255,.55);
+  border: 1px solid var(--borde);
+  box-shadow: 0 8px 18px rgba(0,0,0,.12);
+  margin: 14px 0;
+}
+
+#albumes img{
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 2px;
+  box-shadow: 0 10px 18px rgba(0,0,0,.18);
+}
+
+#albumes h5{
+  margin:0;
+  font-size: 22px;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+#albumes p{
+  margin: 6px 0 0 0;
+  opacity: .85;
+  font-weight: 700;
+}
+
+#albumes article .boton{
+  justify-self:end;
+  margin:0;
+}
+
+/* ---------------------------------------
+   BLOQUE 2 columnas: canciones + tienda
+--------------------------------------- */
+#bloques{
+  display:grid;
+  grid-template-columns: 1.1fr .9fr;
+  gap: 18px;
+  padding: 10px 0 18px 0;
+  align-items:start;
+}
+
+/* canciones */
+#canciones{
+  padding-bottom: 10px;
+}
+
+#canciones article{
+  display:grid;
+  grid-template-columns: 42px 1fr 180px 44px;
+  align-items:center;
+  gap: 10px;
+  padding: 10px 12px;
+  background: rgba(255,255,255,.52);
+  border: 1px solid var(--borde);
+  margin: 10px 0;
+}
+
+#canciones button{
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  border: 1px solid rgba(0,0,0,.18);
+  background: rgba(0,0,0,.08);
+  cursor:pointer;
+  font-weight: 900;
+}
+
+#canciones h5{
+  margin:0;
+  font-size: 16px;
+  letter-spacing: .2px;
+}
+
+#canciones span{
+  height: 6px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, rgba(0,0,0,.18), rgba(0,0,0,.05));
+}
+
+#canciones a{
+  text-decoration:none;
+  color: inherit;
+  opacity: .7;
+  text-align:center;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+#canciones a:hover{opacity:1}
+
+/* tienda */
+#tienda{
+  background: rgba(255,255,255,.52);
+  border: 1px solid var(--borde);
+  padding: 16px;
+  box-shadow: 0 10px 20px rgba(0,0,0,.12);
+  text-align:center;
+}
+
+#tienda img{
+  width: 100%;
+  height: auto;
+  display:block;
+  border-radius: 2px;
+  box-shadow: 0 10px 22px rgba(0,0,0,.15);
+  margin-bottom: 12px;
+}
+
+.boton.grande{
+  display:inline-block;
+  margin: 0;
+  padding: 12px 18px;
+}
+
+/* ---------------------------------------
+   NEWSLETTER
+--------------------------------------- */
+#sigueme{
+  width: min(1200px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 18px 0 30px 0;
+  border-top: 1px solid var(--borde);
+  text-align:right;
+}
+
+#sigueme h4{
+  margin: 14px 0 6px 0;
+  font-weight: 900;
+  letter-spacing: 1px;
+  color:#2c1710;
+}
+
+#sigueme p{
+  margin: 0 0 10px 0;
+  font-weight: 800;
+  letter-spacing: .6px;
+  text-transform: uppercase;
+  opacity: .85;
+}
+
+#sigueme form{
+  display:flex;
+  justify-content:flex-end;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+#sigueme input{
+  width: min(420px, 90vw);
+  padding: 10px 12px;
+  border: 1px solid rgba(0,0,0,.18);
+  background: rgba(255,255,255,.7);
+  border-radius: 2px;
+  outline: none;
+}
+
+#sigueme button{
+  padding: 10px 14px;
+  border-radius: 2px;
+  border: 1px solid rgba(0,0,0,.18);
+  background: rgba(0,0,0,.18);
+  cursor: pointer;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: .6px;
+}
+
+#sigueme .social{
+  margin-top: 12px;
+}
+#sigueme .social a{
+  display:inline-flex;
+  width: 34px;
+  height: 34px;
+  align-items:center;
+  justify-content:center;
+  text-decoration:none;
+  color:#2c1710;
+  background: rgba(255,255,255,.55);
+  border: 1px solid var(--borde);
+  margin-left: 8px;
+  border-radius: 2px;
+  font-weight: 900;
+}
+
+/* ---------------------------------------
+   FOOTER
+--------------------------------------- */
+footer{
+  background: rgba(0,0,0,.55);
+  color: rgba(255,255,255,.85);
+  text-align:center;
+  padding: 18px 12px;
+  font-weight: 700;
+  letter-spacing: .6px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+/* ---------------------------------------
+   RESPONSIVE
+--------------------------------------- */
+@media (max-width: 980px){
+  #heroe > header{flex-direction:column;align-items:flex-start}
+  #destacado{margin: 40px 0 0 22px}
+  #destacado h2{font-size: 64px}
+  #destacado h3{font-size: 34px}
+  #bloques{grid-template-columns: 1fr}
+  #sigueme{text-align:left}
+  #sigueme form{justify-content:flex-start}
+}
+
+@media (max-width: 720px){
+  #albumes article{grid-template-columns: 120px 1fr; grid-template-areas:
+    "img title"
+    "img year"
+    "btn btn";
+  }
+  #albumes article img{width:120px;height:120px}
+  #albumes article .boton{justify-self:start;margin-top: 8px}
+  #canciones article{grid-template-columns: 42px 1fr 44px}
+  #canciones span{display:none}
+  #heroe nav{flex-wrap:wrap}
+}
+```
+
+
 
 <a id="actividad-libre-de-final-de-evaluacion-la-milla-extra"></a>
 # Actividad libre de final de evaluación - La milla extra
@@ -12848,6 +14249,52 @@ Basándome en la información proporcionada y asumiendo que los ejercicios está
    - Objetivo: Aprender a optimizar la carga de páginas web para una mejor experiencia del usuario.
 
 Estas actividades están diseñadas para complementar los conocimientos ya adquiridos por los estudiantes en su ciclo formativo DAM, centrándose en habilidades esenciales como HTML5, CSS3, JavaScript y buenas prácticas web.
+
+
+
+<a id="actividades-de-final-de-unidad-segundo-trimestre"></a>
+# Actividades de final de unidad segundo trimestre
+
+<a id="proyecto-piero-imagenes-en-internet"></a>
+## Proyecto Piero (imágenes en internet)
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/202-Actividades%20de%20final%20de%20unidad%20segundo%20trimestre/001-Proyecto%20Piero%20%28im%C3%A1genes%20en%20internet%29)
+
+
+<a id="web-jocarsa"></a>
+## Web jocarsa
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/202-Actividades%20de%20final%20de%20unidad%20segundo%20trimestre/002-Web%20jocarsa)
+
+
+<a id="ollama-curriculums"></a>
+## Ollama curriculums
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/202-Actividades%20de%20final%20de%20unidad%20segundo%20trimestre/003-Ollama%20curriculums)
+
+
+<a id="web-con-panel-de-control-1"></a>
+## Web con panel de control
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/202-Actividades%20de%20final%20de%20unidad%20segundo%20trimestre/004-Web%20con%20panel%20de%20control)
+
+
+<a id="web-con-panel-de-control-copiar-3"></a>
+## Web con panel de control (Copiar 3)
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/202-Actividades%20de%20final%20de%20unidad%20segundo%20trimestre/004-Web%20con%20panel%20de%20control%20%28Copiar%203%29)
+
+
+<a id="mejora-del-posicionamiento-de-una-web-seo"></a>
+## Mejora del posicionamiento de una web (SEO)
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/202-Actividades%20de%20final%20de%20unidad%20segundo%20trimestre/006-Mejora%20del%20posicionamiento%20de%20una%20web%20%28SEO%29)
+
+
+<a id="web-de-la-cantante-carolina-vega-insercion-de-audio"></a>
+## Web de la cantante Carolina Vega (inserción de audio)
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/202-Actividades%20de%20final%20de%20unidad%20segundo%20trimestre/007-Web%20de%20la%20cantante%20Carolina%20Vega%20%28inserci%C3%B3n%20de%20audio%29)
 
 
 

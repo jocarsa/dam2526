@@ -11,7 +11,7 @@ declare(strict_types=1);
 header("Content-Type: application/json; charset=utf-8");
 
 // -------------------- CONFIG --------------------
-const API_URL = "https://covalently-untasked-daphne.ngrok-free.dev/api.php";
+const API_URL = "https://covalently-untasked-d****.ngrok-free.dev/api.php";
 const API_KEY = "TEST_API_KEY_JOCARSA_123";
 
 // Token público para identificar el “site” (NO secreto).
