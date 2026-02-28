@@ -1,6 +1,6 @@
 # Proyecto intermodular — Estado de ejercicios
 
-Generado: 2026-02-08 14:00
+Generado: 2026-02-28 11:00
 
 ---
 
@@ -92,6 +92,7 @@ Generado: 2026-02-08 14:00
 ## Actividad libre de final de evaluación - La milla extra
 
 - 🟢 La Milla Extra - Primera evaluación — 2025-10-13
+- 🟢 La Milla Extra - Segunda evaluación — 2025-10-13
 
 
 ## Actividades de final de unidad segundo trimestre
@@ -103,6 +104,14 @@ Generado: 2026-02-08 14:00
 - 🟢 Web con panel de control (Copiar 3) — 2025-10-13
 - 🟢 Mejora del posicionamiento de una web (SEO) — 2025-10-13
 - 🟢 Web de la cantante Carolina Vega (inserción de audio) — 2025-10-13
+
+
+## Proyectos de tercer trimestre
+
+- 🔴 Sistema inteligente de comunicaciones
+- 🔴 Nueva web jocarsa
+- 🔴 Repaso deploy
+- 🔴 entrenamiento IA
 
 
 ## Carpeta sin título

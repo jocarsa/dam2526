@@ -66,6 +66,7 @@
   - [creacion de panel de administracion](#creacion-de-panel-de-administracion)
 - [Actividad libre de final de evaluación - La milla extra](#actividad-libre-de-final-de-evaluacion-la-milla-extra)
   - [La Milla Extra - Primera evaluación](#la-milla-extra-primera-evaluacion)
+  - [La Milla Extra - Segunda evaluación](#la-milla-extra-segunda-evaluacion)
 - [Actividades de final de unidad segundo trimestre](#actividades-de-final-de-unidad-segundo-trimestre)
   - [Panel de administración para proyecto juguetes](#panel-de-administracion-para-proyecto-juguetes)
   - [HTML como pug](#html-como-pug-1)
@@ -11402,6 +11403,12 @@ Basándome en la información proporcionada y suponiendo que los ejercicios dent
    - **Descripción:** Los estudiantes deben identificar posibles fuentes de errores en el código del ejercicio y escribir bloques try-except para manejar estos casos especiales, mejorando así la robustez del programa.
 
 Estas actividades están diseñadas para ayudar a los estudiantes a profundizar en conceptos clave como algoritmos, programación orientada a objetos, pruebas de software y diseño eficiente.
+
+
+<a id="la-milla-extra-segunda-evaluacion"></a>
+## La Milla Extra - Segunda evaluación
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Entornos%20de%20desarrollo/201-Actividad%20libre%20de%20final%20de%20evaluaci%C3%B3n%20-%20La%20milla%20extra/002-La%20Milla%20Extra%20-%20Segunda%20evaluaci%C3%B3n)
 
 
 

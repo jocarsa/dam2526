@@ -66,6 +66,7 @@
   - [Formateo inicial](#formateo-inicial)
 - [Actividad libre de final de evaluación - La milla extra](#actividad-libre-de-final-de-evaluacion-la-milla-extra)
   - [La Milla Extra - Primera evaluación](#la-milla-extra-primera-evaluacion)
+  - [La Milla Extra - Segunda evaluación](#la-milla-extra-segunda-evaluacion)
 - [Actividades de final de unidad segundo trimestre](#actividades-de-final-de-unidad-segundo-trimestre)
   - [Formateo y envío de emails](#formateo-y-envio-de-emails)
   - [Web curso IA](#web-curso-ia)
@@ -44914,6 +44915,12 @@ Basándome en el contexto proporcionado y asumiendo que los ejercicios están re
     - Descripción: Los estudiantes deberán elaborar una lista de recursos útiles para otros compañeros en formato Markdown, incluyendo descripciones breves y ligas a cada recurso.
 
 Estas actividades están diseñadas para que los estudiantes practiquen la estructuración del contenido con Markdown mientras mejoran sus habilidades en redacción técnica y documentación.
+
+
+<a id="la-milla-extra-segunda-evaluacion"></a>
+## La Milla Extra - Segunda evaluación
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Lenguajes%20de%20marcas%20y%20sistemas%20de%20gesti%C3%B3n%20de%20informaci%C3%B3n/201-Actividad%20libre%20de%20final%20de%20evaluaci%C3%B3n%20-%20La%20milla%20extra/002-La%20Milla%20Extra%20-%20Segunda%20evaluaci%C3%B3n)
 
 
 

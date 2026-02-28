@@ -70,6 +70,7 @@
   - [Multimedia](#multimedia)
 - [Actividad libre de final de evaluación - La milla extra](#actividad-libre-de-final-de-evaluacion-la-milla-extra)
   - [La Milla Extra - Primera evaluación](#la-milla-extra-primera-evaluacion)
+  - [La Milla Extra - Segunda evaluación](#la-milla-extra-segunda-evaluacion)
 - [Actividades de final de unidad segundo trimestre](#actividades-de-final-de-unidad-segundo-trimestre)
   - [Proyecto Piero (imágenes en internet)](#proyecto-piero-imagenes-en-internet)
   - [Web jocarsa](#web-jocarsa)
@@ -78,6 +79,11 @@
   - [Web con panel de control (Copiar 3)](#web-con-panel-de-control-copiar-3)
   - [Mejora del posicionamiento de una web (SEO)](#mejora-del-posicionamiento-de-una-web-seo)
   - [Web de la cantante Carolina Vega (inserción de audio)](#web-de-la-cantante-carolina-vega-insercion-de-audio)
+- [Proyectos de tercer trimestre](#proyectos-de-tercer-trimestre)
+  - [Sistema inteligente de comunicaciones](#sistema-inteligente-de-comunicaciones)
+  - [Nueva web jocarsa](#nueva-web-jocarsa)
+  - [Repaso deploy](#repaso-deploy)
+  - [entrenamiento IA](#entrenamiento-ia)
 - [Carpeta sin título](#carpeta-sin-titulo)
 
 ---
@@ -14251,6 +14257,12 @@ Basándome en la información proporcionada y asumiendo que los ejercicios está
 Estas actividades están diseñadas para complementar los conocimientos ya adquiridos por los estudiantes en su ciclo formativo DAM, centrándose en habilidades esenciales como HTML5, CSS3, JavaScript y buenas prácticas web.
 
 
+<a id="la-milla-extra-segunda-evaluacion"></a>
+## La Milla Extra - Segunda evaluación
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/201-Actividad%20libre%20de%20final%20de%20evaluaci%C3%B3n%20-%20La%20milla%20extra/002-La%20Milla%20Extra%20-%20Segunda%20evaluaci%C3%B3n)
+
+
 
 <a id="actividades-de-final-de-unidad-segundo-trimestre"></a>
 # Actividades de final de unidad segundo trimestre
@@ -14295,6 +14307,34 @@ Estas actividades están diseñadas para complementar los conocimientos ya adqui
 ## Web de la cantante Carolina Vega (inserción de audio)
 
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/202-Actividades%20de%20final%20de%20unidad%20segundo%20trimestre/007-Web%20de%20la%20cantante%20Carolina%20Vega%20%28inserci%C3%B3n%20de%20audio%29)
+
+
+
+<a id="proyectos-de-tercer-trimestre"></a>
+# Proyectos de tercer trimestre
+
+<a id="sistema-inteligente-de-comunicaciones"></a>
+## Sistema inteligente de comunicaciones
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/203-Proyectos%20de%20tercer%20trimestre/001-Sistema%20inteligente%20de%20comunicaciones)
+
+
+<a id="nueva-web-jocarsa"></a>
+## Nueva web jocarsa
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/203-Proyectos%20de%20tercer%20trimestre/002-Nueva%20web%20jocarsa)
+
+
+<a id="repaso-deploy"></a>
+## Repaso deploy
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/203-Proyectos%20de%20tercer%20trimestre/003-Repaso%20deploy)
+
+
+<a id="entrenamiento-ia"></a>
+## entrenamiento IA
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/203-Proyectos%20de%20tercer%20trimestre/004-entrenamiento%20IA)
 
 
 

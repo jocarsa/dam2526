@@ -68,7 +68,7 @@ function md_to_html_safe(string $md): string {
 }
 
 $defaultPrompt = "";
-$model   = $_POST["model"]   ?? "llama3:latest";
+$model   = $_POST["model"]   ?? "llama3.1:8b";
 $prompt  = $_POST["prompt"]  ?? $defaultPrompt;
 $baseUrl = $_POST["baseUrl"] ?? "http://127.0.0.1:11434";
 

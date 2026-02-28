@@ -76,6 +76,7 @@
   - [IA para dietetica](#ia-para-dietetica)
 - [Actividad libre de final de evaluación - La milla extra](#actividad-libre-de-final-de-evaluacion-la-milla-extra)
   - [La Milla Extra - Primera evaluación](#la-milla-extra-primera-evaluacion)
+  - [La Milla Extra - Segunda evaluación](#la-milla-extra-segunda-evaluacion)
 - [Actividades de final de unidad segundo trimestre](#actividades-de-final-de-unidad-segundo-trimestre)
   - [Proyecto tienda online](#proyecto-tienda-online-1)
   - [Proyecto IA para dietética](#proyecto-ia-para-dietetica)
@@ -20460,6 +20461,205 @@ $cursor = $manager->executeQuery('tiendaonline.pedidos', $query);
 
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/007-Uso%20de%20bases%20de%20datos%20no%20relacionales/004-Sistemas%20gestores%20de%20bases%20de%20datos%20no%20relacionales)
 
+### sql de clientes y productos
+<small>Creado: 2026-02-23 18:54</small>
+
+`002-sql de clientes y productos.sql`
+
+```sql
+CREATE DATABASE mitienda;
+USE mitienda;
+
+CREATE TABLE clientes (
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    apellidos VARCHAR(150) NOT NULL,
+    email VARCHAR(150),
+    direccion VARCHAR(255),
+    cp VARCHAR(10),
+    localidad VARCHAR(100)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+INSERT INTO clientes (nombre, apellidos, email, direccion, cp, localidad) VALUES
+('Carlos', 'Martínez López', 'carlos.martinez@example.com', 'Calle Mayor 12', '46001', 'Valencia'),
+('Ana', 'García Pérez', 'ana.garcia@example.com', 'Avenida del Puerto 45', '46011', 'Valencia'),
+('Luis', 'Fernández Torres', 'luis.fernandez@example.com', 'Calle Colón 8', '46004', 'Valencia'),
+('María', 'Sánchez Romero', 'maria.sanchez@example.com', 'Calle San Vicente 120', '46007', 'Valencia'),
+('Javier', 'Navarro Gil', 'javier.navarro@example.com', 'Calle Xàtiva 33', '46002', 'Valencia'),
+('Lucía', 'Ruiz Molina', 'lucia.ruiz@example.com', 'Avenida Blasco Ibáñez 67', '46021', 'Valencia'),
+('Pedro', 'Ortega Castillo', 'pedro.ortega@example.com', 'Calle Quart 19', '46008', 'Valencia'),
+('Elena', 'Vidal Moreno', 'elena.vidal@example.com', 'Calle Sagunto 55', '46009', 'Valencia'),
+('Miguel', 'Herrera León', 'miguel.herrera@example.com', 'Calle Cádiz 14', '46006', 'Valencia'),
+('Sara', 'Domínguez Ríos', 'sara.dominguez@example.com', 'Calle Sueca 88', '46006', 'Valencia'),
+
+('David', 'Cano Ferrer', 'david.cano@example.com', 'Avenida Aragón 101', '46010', 'Valencia'),
+('Paula', 'Ibáñez Costa', 'paula.ibanez@example.com', 'Calle Alboraya 23', '46010', 'Valencia'),
+('Raúl', 'Campos Soto', 'raul.campos@example.com', 'Calle Ángel Guimerá 9', '46008', 'Valencia'),
+('Marta', 'Reyes Pastor', 'marta.reyes@example.com', 'Calle Jesús 44', '46007', 'Valencia'),
+('Sergio', 'Lorenzo Núñez', 'sergio.lorenzo@example.com', 'Calle Cuba 70', '46006', 'Valencia'),
+('Natalia', 'Peña Bravo', 'natalia.pena@example.com', 'Calle Doctor Manuel Candela 31', '46021', 'Valencia'),
+('Alberto', 'Soler Pardo', 'alberto.soler@example.com', 'Avenida Francia 15', '46023', 'Valencia'),
+('Cristina', 'Méndez Rubio', 'cristina.mendez@example.com', 'Calle Río Tajo 6', '46920', 'Mislata'),
+('Fernando', 'Calvo Serra', 'fernando.calvo@example.com', 'Calle Valencia 102', '46900', 'Torrent'),
+('Laura', 'Blasco Esteve', 'laura.blasco@example.com', 'Calle Mayor 3', '46100', 'Burjassot');
+
+CREATE TABLE productos (
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(150) NOT NULL,
+    descripcion TEXT,
+    precio DECIMAL(10,2) NOT NULL,
+    stock INT UNSIGNED DEFAULT 0,
+    categoria VARCHAR(100),
+    marca VARCHAR(100)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+INSERT INTO productos (nombre, descripcion, precio, stock, categoria, marca) VALUES
+('Balón de fútbol profesional', 'Balón oficial tamaño 5 para competición', 29.95, 50, 'Fútbol', 'Adibas'),
+('Botas de fútbol FG', 'Botas para césped natural con tacos firmes', 79.90, 25, 'Fútbol', 'Nikke'),
+('Guantes de portero', 'Guantes con agarre antideslizante', 34.50, 30, 'Fútbol', 'Reuschy'),
+
+('Raqueta de tenis carbono', 'Raqueta ligera para jugadores avanzados', 119.99, 15, 'Tenis', 'Wilsonn'),
+('Pelotas de tenis (pack 3)', 'Pelotas presurizadas competición', 8.95, 100, 'Tenis', 'Headz'),
+
+('Balón de baloncesto indoor', 'Balón para pista cubierta', 24.99, 40, 'Baloncesto', 'Spaldingx'),
+('Zapatillas baloncesto', 'Alta amortiguación y sujeción', 89.95, 20, 'Baloncesto', 'AirJump'),
+
+('Bicicleta MTB 29"', 'Bicicleta de montaña aluminio', 599.00, 8, 'Ciclismo', 'MontyX'),
+('Casco ciclismo', 'Casco ligero ventilado', 45.00, 35, 'Ciclismo', 'Girox'),
+('Guantes ciclismo', 'Guantes transpirables', 19.95, 60, 'Ciclismo', 'RockPro'),
+
+('Cinta de correr', 'Cinta eléctrica plegable', 699.99, 5, 'Fitness', 'FitRun'),
+('Mancuernas ajustables', 'Juego de pesas hasta 20kg', 89.00, 18, 'Fitness', 'PowerGym'),
+('Esterilla yoga', 'Esterilla antideslizante', 21.50, 70, 'Fitness', 'ZenFlex'),
+
+('Gafas de natación', 'Antivaho competición', 14.95, 80, 'Natación', 'SpeedWave'),
+('Tabla natación', 'Tabla flotación entrenamiento', 18.75, 40, 'Natación', 'AquaPro'),
+
+('Pala pádel carbono', 'Control y potencia equilibrados', 129.00, 12, 'Pádel', 'Bullpad'),
+('Pelotas pádel (pack 3)', 'Alta durabilidad', 6.95, 120, 'Pádel', 'DropShoty'),
+
+('Mochila deportiva', 'Mochila multiuso resistente', 39.90, 45, 'Accesorios', 'SportBag'),
+('Bidón deportivo', 'Botella 750ml sin BPA', 9.50, 90, 'Accesorios', 'HydroFit'),
+('Reloj deportivo', 'Monitor actividad física', 149.99, 10, 'Electrónica deportiva', 'RunTech');
+```
+
+### creo usuario
+<small>Creado: 2026-02-23 18:56</small>
+
+`003-creo usuario.sql`
+
+```sql
+CREATE USER 'mitienda'@'localhost'
+IDENTIFIED BY 'Mitienda123$';
+
+GRANT ALL PRIVILEGES
+ON mitienda.*
+TO 'mitienda'@'localhost';
+
+GRANT ALL PRIVILEGES
+ON mitienda.*
+TO 'mitienda'@'localhost';
+
+FLUSH PRIVILEGES;
+```
+
+### listado de clientes
+<small>Creado: 2026-02-23 18:57</small>
+
+`004-listado de clientes.php`
+
+```
+<?php
+
+$conexion = new mysqli("localhost", "mitienda", "Mitienda123$", "mitienda");
+
+
+$resultado = $conexion->query("SELECT * FROM clientes");
+
+while ($fila = $resultado->fetch_assoc()) {
+    echo $fila["nombre"] . "<br>";
+}
+
+$conexion->close();
+?>
+```
+
+### listado desplegable
+<small>Creado: 2026-02-23 19:01</small>
+
+`005-listado desplegable.php`
+
+```
+<select name="cliente">
+<?php
+	$conexion = new mysqli("localhost", "mitienda", "Mitienda123$", "mitienda");
+	$resultado = $conexion->query("SELECT * FROM clientes");
+	while ($fila = $resultado->fetch_assoc()) {
+		 echo "<option
+		 	nombre='".$fila["nombre"]."'
+		 	apellidos='".$fila["apellidos"]."'
+		 	email='".$fila["email"]."'
+		 	direccion='".$fila["direccion"]."'
+		 	cp='".$fila["cp"]."'
+		 	localidad='".$fila["localidad"]."'
+		 >".$fila["nombre"]." ".$fila["apellidos"]."</option>";
+	}
+	$conexion->close();
+?>
+</select>
+```
+
+### javascript pinta las opciones
+<small>Creado: 2026-02-23 19:09</small>
+
+`006-javascript pinta las opciones.php`
+
+```
+<!doctype html>
+<html>
+	<head>
+	</head>
+	<body>
+		<select name="cliente">
+		<option>Selecciona un cliente...</option>
+		<?php
+			$conexion = new mysqli("localhost", "mitienda", "Mitienda123$", "mitienda");
+			$resultado = $conexion->query("SELECT * FROM clientes");
+			while ($fila = $resultado->fetch_assoc()) {
+				 echo "<option
+				 	nombre='".$fila["nombre"]."'
+				 	apellidos='".$fila["apellidos"]."'
+				 	email='".$fila["email"]."'
+				 	direccion='".$fila["direccion"]."'
+				 	cp='".$fila["cp"]."'
+				 	localidad='".$fila["localidad"]."'
+				 >".$fila["nombre"]." ".$fila["apellidos"]."</option>";
+			}
+			$conexion->close();
+		?>
+		</select>
+		<div id="datos_cliente">
+			<h3><span id="nombre"></span> <span id="apellidos"></span></h3>
+			<p id="email"></p>
+			<p id="direccion"></p>
+			<p><span id="cp"></span> <span id="localidad"></span></p>
+		</div>
+		<script>
+			let selector = document.querySelector("select")
+			selector.onchange = function(){
+				let opcion = this.selectedOptions[0]
+				document.querySelector("#nombre").textContent = opcion.getAttribute("nombre")
+				document.querySelector("#apellidos").textContent = opcion.getAttribute("apellidos")
+				document.querySelector("#email").textContent = opcion.getAttribute("email")
+				document.querySelector("#direccion").textContent = opcion.getAttribute("direccion")
+				document.querySelector("#cp").textContent = opcion.getAttribute("cp")
+				document.querySelector("#localidad").textContent = opcion.getAttribute("localidad")
+			}
+		</script>
+	</body>
+</html>
+```
+
 
 <a id="herramientas-de-los-sistemas-gestores-de-bases-de-datos-no-relacionales-para-la-gestion-de-la-informacion-almacenada"></a>
 ## Herramientas de los sistemas gestores de bases de datos no relacionales para la gestión de la información almacenada
@@ -22471,7 +22671,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 ```
 
 ### interfaz clara
-<small>Creado: 2026-01-19 16:28</small>
+<small>Creado: 2026-02-09 15:31</small>
 
 `006-interfaz clara.php`
 
@@ -22546,7 +22746,7 @@ function md_to_html_safe(string $md): string {
 }
 
 $defaultPrompt = "";
-$model   = $_POST["model"]   ?? "llama3:latest";
+$model   = $_POST["model"]   ?? "llama3.1:8b";
 $prompt  = $_POST["prompt"]  ?? $defaultPrompt;
 $baseUrl = $_POST["baseUrl"] ?? "http://127.0.0.1:11434";
 
@@ -23032,6 +23232,12 @@ Basándome en la información proporcionada y asumiendo que el contenido del arc
    - Los estudiantes deben documentar en detalle su diseño de base de datos, incluyendo diagramas ER (Entity-Relationship), explicaciones sobre las tablas y sus relaciones, y una breve descripción de las consultas SQL implementadas.
 
 Estas actividades se centran en desarrollar habilidades fundamentales relacionadas con la gestión y el diseño eficaz de bases de datos para estudiantes de Formación Profesional.
+
+
+<a id="la-milla-extra-segunda-evaluacion"></a>
+## La Milla Extra - Segunda evaluación
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Bases%20de%20datos/201-Actividad%20libre%20de%20final%20de%20evaluaci%C3%B3n%20-%20La%20milla%20extra/002-La%20Milla%20Extra%20-%20Segunda%20evaluaci%C3%B3n)
 
 
 

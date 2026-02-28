@@ -1,6 +1,6 @@
 # Proyecto Intermodular II — Estado de ejercicios
 
-Generado: 2026-02-08 14:00
+Generado: 2026-02-28 11:00
 
 ---
 
@@ -66,18 +66,23 @@ _Sin subunidades_
 ## Proyectos segundo trimestre
 
 - 🟢 Extractor transcripciones — 2025-11-18 — Extraer transcripciones de youtube y realizar resumenes con IA
-- 🟢 generador web IA — 2025-12-26 — Creador de sitios web con IA
+- 🟢 generador web IA — 2026-02-08 — Creador de sitios web con IA
 - 🟢 Entrenamiento IA — 2025-11-18 — Proceso de entrenamiento de IA en local con Ollama
 - 🟢 entrenar chatbot a partir de whatsapp — 2025-11-25 — Entrenar a un bot a partir de conversaciones de whatsapp
 - 🟢 entrenar chatbot a partir de pdf — 2025-11-26 — Entrenar a bots de inteligencia artificial a partir de PDFs
 - 🟢 scrapeador web y entrenamiento — 2025-12-02 — Entrenar a una IA a partir de scrapeo de una web
 - 🟢 interfaz natural IA — 2025-12-03 — Interfaz natural con Inteligencia Artificial
-- 🟢 Email IA — 2025-12-10 — Cliente de email con inteligencia artificial
-- 🟢 Proyecto RRHH con IA — 2025-12-11 — Revisor de CV con IA
+- 🟢 Email IA — 2025-12-11 — Cliente de email con inteligencia artificial
+- 🟢 Proyecto RRHH con IA — 2026-02-08 — Revisor de CV con IA
 - 🔴 descripciones con IA
 - 🟢 Agente IA — 2025-12-22 — Chatbot implantable en cualquier web
 - 🟢 Conceptos tratados en clase IA — 2026-01-12
 - 🔴 IA a partir de PDF
+
+
+## Proyectos tercer trimestre
+
+- 🔴 Clasificador documental inteligente
 
 
 ## Actividad libre de final de evaluación - La milla extra

@@ -1,6 +1,6 @@
 # Bases de datos — Estado de ejercicios
 
-Generado: 2026-02-08 14:00
+Generado: 2026-02-28 11:00
 
 ---
 
@@ -88,7 +88,7 @@ Generado: 2026-02-08 14:00
 - 🟢 Características de las bases de datos no relacionales — 2026-01-08
 - 🟢 Tipos de bases de datos no relacionales — 2026-01-08
 - 🟢 Elementos de las bases de datos no relacionales — 2026-01-08
-- 🔴 Sistemas gestores de bases de datos no relacionales
+- 🟢 Sistemas gestores de bases de datos no relacionales — 2026-02-23
 - 🔴 Herramientas de los sistemas gestores de bases de datos no relacionales para la gestión de la información almacenada
 
 
@@ -101,6 +101,7 @@ Generado: 2026-02-08 14:00
 ## Actividad libre de final de evaluación - La milla extra
 
 - 🟢 La Milla Extra - Primera evaluación — 2025-10-13
+- 🟢 La Milla Extra - Segunda evaluación — 2025-10-13
 
 
 ## Actividades de final de unidad segundo trimestre

@@ -1,6 +1,6 @@
 # Programación — Estado de ejercicios
 
-Generado: 2026-02-08 14:00
+Generado: 2026-02-28 11:00
 
 ---
 
@@ -122,6 +122,8 @@ Generado: 2026-02-08 14:00
 - 🟢 Proyecto Parallax — 2026-02-05
 - 🟢 Copia de seguridad — 2026-02-05
 - 🟢 Analisis de logs apache — 2026-02-05
+- 🟢 evento redimensionado — 2026-02-09
+- 🟢 horarios TAME — 2026-02-23
 
 
 ## Inteligencia Artificial
@@ -137,6 +139,7 @@ _Sin subunidades_
 ## Actividad libre de final de evaluación - La milla extra
 
 - 🟢 La Milla Extra - Primera evaluación — 2025-10-13
+- 🟢 La Milla Extra - Segunda evaluación — 2025-10-13
 
 
 ## Actividades de final de unidad segundo trimestre

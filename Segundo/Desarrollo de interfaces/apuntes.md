@@ -43118,7 +43118,7 @@ diHola("Juan",48)
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Desarrollo%20de%20interfaces/006-Documentaci%C3%B3n%20de%20aplicaciones/001-Ficheros%20de%20ayuda.%20Formatos)
 
 ### generador articulos por carpeta
-<small>Creado: 2026-01-19 16:28</small>
+<small>Creado: 2026-02-08 14:39</small>
 
 `001-generador articulos por carpeta.py`
 
@@ -43867,7 +43867,7 @@ if __name__ == "__main__":
 ```
 
 ### mejora keywords
-<small>Creado: 2026-01-19 16:28</small>
+<small>Creado: 2026-02-08 14:39</small>
 
 `002-mejora keywords.py`
 
@@ -44659,7 +44659,7 @@ if __name__ == "__main__":
 ```
 
 ### imagen nombres unicos
-<small>Creado: 2026-01-19 16:28</small>
+<small>Creado: 2026-02-08 14:39</small>
 
 `003-imagen nombres unicos.py`
 
@@ -45483,7 +45483,7 @@ if __name__ == "__main__":
 ```
 
 ### no reprocesar existentes
-<small>Creado: 2026-01-19 16:28</small>
+<small>Creado: 2026-02-08 14:39</small>
 
 `004-no reprocesar existentes.py`
 
@@ -46350,7 +46350,7 @@ if __name__ == "__main__":
 ```
 
 ### carpetas completas
-<small>Creado: 2026-01-19 16:28</small>
+<small>Creado: 2026-02-08 14:39</small>
 
 `005-carpetas completas.py`
 
@@ -47217,7 +47217,7 @@ if __name__ == "__main__":
 ```
 
 ### archivos individuales
-<small>Creado: 2026-01-19 16:28</small>
+<small>Creado: 2026-02-08 14:39</small>
 
 `006-archivos individuales.py`
 

@@ -1,6 +1,6 @@
 # Lenguajes de marcas y sistemas de gestión de información — Estado de ejercicios
 
-Generado: 2026-02-08 14:00
+Generado: 2026-02-28 11:00
 
 ---
 
@@ -91,6 +91,7 @@ Generado: 2026-02-08 14:00
 ## Actividad libre de final de evaluación - La milla extra
 
 - 🟢 La Milla Extra - Primera evaluación — 2025-10-13
+- 🟢 La Milla Extra - Segunda evaluación — 2025-10-13
 
 
 ## Actividades de final de unidad segundo trimestre

@@ -53,6 +53,8 @@
   - [Agente IA](#agente-ia)
   - [Conceptos tratados en clase IA](#conceptos-tratados-en-clase-ia)
   - [IA a partir de PDF](#ia-a-partir-de-pdf)
+- [Proyectos tercer trimestre](#proyectos-tercer-trimestre)
+  - [Clasificador documental inteligente](#clasificador-documental-inteligente)
 - [Actividad libre de final de evaluación - La milla extra](#actividad-libre-de-final-de-evaluacion-la-milla-extra)
   - [La Milla Extra - Primera evaluación](#la-milla-extra-primera-evaluacion)
 - [Actividades final de unidad - Segundo trimestre](#actividades-final-de-unidad-segundo-trimestre)
@@ -6224,7 +6226,7 @@ Este conjunto de ejercicios se centra en la creación de una aplicación web que
 A través de este ejercicio, los estudiantes practicarán habilidades fundamentales como el desarrollo backend en Python, el uso de marcos web como Flask para crear aplicaciones web dinámicas, y cómo integrar servicios de inteligencia artificial en sus proyectos.
 
 ### app
-<small>Creado: 2026-01-19 16:28</small>
+<small>Creado: 2026-02-08 14:39</small>
 
 #### Explicación
 
@@ -14331,7 +14333,7 @@ except Exception as e:
 ```
 
 ### primera version
-<small>Creado: 2026-01-19 16:28</small>
+<small>Creado: 2026-02-08 14:39</small>
 
 #### Explicación
 
@@ -14542,7 +14544,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ```
 
 ### segunda version
-<small>Creado: 2026-01-19 16:28</small>
+<small>Creado: 2026-02-08 14:39</small>
 
 #### Explicación
 
@@ -14755,7 +14757,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ```
 
 ### interfaces natural
-<small>Creado: 2026-01-19 16:28</small>
+<small>Creado: 2026-02-08 14:39</small>
 
 #### Explicación
 
@@ -15137,7 +15139,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ```
 
 ### mejoras
-<small>Creado: 2026-01-19 16:28</small>
+<small>Creado: 2026-02-08 14:39</small>
 
 #### Explicación
 
@@ -15147,7 +15149,7 @@ La página web utiliza la API de reconocimiento de voz del navegador (Web Speech
 
 El código utiliza una función `ajustarFormatoEmail` que limpia y forma el texto original según las normas del formato de correo electrónico. Esta función utiliza expresiones regulares para eliminar espacios a la derecha, reducir grupos largos de líneas en blanco y asegurar que la línea en blanco tras el saludo o antes del cierre sea correcta.
 
-El código también envía una petición cURL a una API remota personalizada (`https://covalently-untasked-d****.ngrok-free.dev/api.php`) con los datos de texto dictado y solicitando una respuesta en formato JSON. La API remota debe devolver la versión corregida del texto en formato de correo electrónico.
+El código también envía una petición cURL a una API remota personalizada (`https://covalently-untasked-daphne.ngrok-free.dev/api.php`) con los datos de texto dictado y solicitando una respuesta en formato JSON. La API remota debe devolver la versión corregida del texto en formato de correo electrónico.
 
 Este código es importante para desarrollar aplicaciones que permitan al usuario dictar texto y obtener su versión corregida en diferentes formatos, como correos electrónicos.
 
@@ -15521,7 +15523,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ```
 
 ### corazon
-<small>Creado: 2026-01-19 16:28</small>
+<small>Creado: 2026-02-08 14:39</small>
 
 #### Explicación
 
@@ -16304,7 +16306,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['ajax']) && $_POST['aj
 ```
 
 ### tema claro y mejoras en la redaccion
-<small>Creado: 2026-01-19 16:28</small>
+<small>Creado: 2026-02-08 14:39</small>
 
 #### Explicación
 
@@ -17018,7 +17020,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['ajax']) && $_POST['aj
 ```
 
 ### simulacion de email
-<small>Creado: 2026-01-19 16:28</small>
+<small>Creado: 2026-02-08 14:39</small>
 
 #### Explicación
 
@@ -17864,7 +17866,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['ajax']) && $_POST['aj
 ```
 
 ### enviar email realmente
-<small>Creado: 2026-01-19 16:28</small>
+<small>Creado: 2026-02-08 14:39</small>
 
 #### Explicación
 
@@ -18911,7 +18913,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send_email']) && $_PO
 ```
 
 ### cliente email
-<small>Creado: 2026-01-19 16:28</small>
+<small>Creado: 2026-02-08 14:39</small>
 
 #### Explicación
 
@@ -20585,7 +20587,7 @@ if ($replyMode && $selectedEmail) {
 ```
 
 ### prueba final
-<small>Creado: 2026-01-19 16:28</small>
+<small>Creado: 2026-02-08 14:39</small>
 
 #### Explicación
 
@@ -22321,7 +22323,7 @@ if ($replyMode && $selectedEmail) {
 ```
 
 ### version con UI modificada
-<small>Creado: 2026-01-19 16:28</small>
+<small>Creado: 2026-02-08 14:39</small>
 
 `011-version con UI modificada.php`
 
@@ -24027,7 +24029,7 @@ th, td {
 Esta es solo una posible versión refactoreada del código, y hay muchas otras formas de mejorarlo.
 
 ### Primera version
-<small>Creado: 2026-01-19 16:28</small>
+<small>Creado: 2026-02-08 14:39</small>
 
 #### Explicación
 
@@ -24381,7 +24383,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ```
 
 ### mas preguntas
-<small>Creado: 2026-01-19 16:28</small>
+<small>Creado: 2026-02-08 14:39</small>
 
 #### Explicación
 
@@ -24994,7 +24996,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ```
 
 ### tabla con json de lavender
-<small>Creado: 2026-01-19 16:28</small>
+<small>Creado: 2026-02-08 14:39</small>
 
 #### Explicación
 
@@ -25754,7 +25756,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ```
 
 ### tabla corregida
-<small>Creado: 2026-01-19 16:28</small>
+<small>Creado: 2026-02-08 14:39</small>
 
 #### Explicación
 
@@ -26553,7 +26555,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['analizar']) && $_POST
 ```
 
 ### badges
-<small>Creado: 2026-01-19 16:28</small>
+<small>Creado: 2026-02-08 14:39</small>
 
 #### Explicación
 
@@ -27202,7 +27204,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['analizar']) && $_POST
 ```
 
 ### seguridad
-<small>Creado: 2026-01-19 16:28</small>
+<small>Creado: 2026-02-08 14:39</small>
 
 #### Explicación
 
@@ -28414,7 +28416,7 @@ Overall, the code seems well-structured, but there are opportunities for improve
 ```
 
 ### agent
-<small>Creado: 2026-01-19 16:28</small>
+<small>Creado: 2026-02-08 14:39</small>
 
 `agent.php`
 
@@ -28759,6 +28761,16 @@ echo json_encode([
 ## IA a partir de PDF
 
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/009-Proyectos%20segundo%20trimestre/013-IA%20a%20partir%20de%20PDF)
+
+
+
+<a id="proyectos-tercer-trimestre"></a>
+# Proyectos tercer trimestre
+
+<a id="clasificador-documental-inteligente"></a>
+## Clasificador documental inteligente
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Segundo/Proyecto%20Intermodular%20II/010-Proyectos%20tercer%20trimestre/001-Clasificador%20documental%20inteligente)
 
 
 
