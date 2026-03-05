@@ -1,6 +1,6 @@
 # Proyecto intermodular — Estado de ejercicios
 
-Generado: 2026-02-28 11:00
+Generado: 2026-03-05 17:00
 
 ---
 
@@ -112,6 +112,10 @@ Generado: 2026-02-28 11:00
 - 🔴 Nueva web jocarsa
 - 🔴 Repaso deploy
 - 🔴 entrenamiento IA
+- 🔴 RGPD y similares
+- 🔴 Añado enlaces sociales a la web
+- 🔴 documentos a bases de datos
+- 🔴 asistente de IA
 
 
 ## Carpeta sin título

@@ -84,6 +84,10 @@
   - [Nueva web jocarsa](#nueva-web-jocarsa)
   - [Repaso deploy](#repaso-deploy)
   - [entrenamiento IA](#entrenamiento-ia)
+  - [RGPD y similares](#rgpd-y-similares)
+  - [Añado enlaces sociales a la web](#anado-enlaces-sociales-a-la-web)
+  - [documentos a bases de datos](#documentos-a-bases-de-datos)
+  - [asistente de IA](#asistente-de-ia)
 - [Carpeta sin título](#carpeta-sin-titulo)
 
 ---
@@ -14335,6 +14339,30 @@ Estas actividades están diseñadas para complementar los conocimientos ya adqui
 ## entrenamiento IA
 
 [📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/203-Proyectos%20de%20tercer%20trimestre/004-entrenamiento%20IA)
+
+
+<a id="rgpd-y-similares"></a>
+## RGPD y similares
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/203-Proyectos%20de%20tercer%20trimestre/005-RGPD%20y%20similares)
+
+
+<a id="anado-enlaces-sociales-a-la-web"></a>
+## Añado enlaces sociales a la web
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/203-Proyectos%20de%20tercer%20trimestre/006-A%C3%B1ado%20enlaces%20sociales%20a%20la%20web)
+
+
+<a id="documentos-a-bases-de-datos"></a>
+## documentos a bases de datos
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/203-Proyectos%20de%20tercer%20trimestre/007-documentos%20a%20bases%20de%20datos)
+
+
+<a id="asistente-de-ia"></a>
+## asistente de IA
+
+[📁 Ver carpeta en GitHub](https://github.com/jocarsa/dam2526/tree/main/Primero/Proyecto%20intermodular/203-Proyectos%20de%20tercer%20trimestre/008-asistente%20de%20IA)
 
 
 
